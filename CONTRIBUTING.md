@@ -2,6 +2,16 @@
 
 感谢你参与这个游戏构思系统。这个仓库重视“判断过程”胜过一次性写出完美结论，因此请尽量保留想法来源、评估理由和决策记录。
 
+## GitHub 协作底线
+
+请先阅读 [GitHub 协作规范](docs/github-collaboration.md)。
+
+- 不要直接在 `main` 或 `master` 上修改核心文档。
+- 开始工作后先创建自己的分支，例如 `agent/codex/2026-05-25-topic` 或 `user/name/2026-05-25-topic`。
+- 修改核心文档、流程文档或正式提案后，必须提交并推送。
+- 如果你不会 GitHub，可以让 agent 自动完成分支、提交和推送。
+- `research/raw-sources/` 中的第三方资料快照不要提交到公开仓库。
+
 ## 贡献类型
 
 你可以贡献：
@@ -48,10 +58,12 @@
 
 修改前请先：
 
-1. 在 `draft-changes/` 写出拟修改文本。
-2. 标明来源提案和评估。
-3. 确认采纳后再修改 `core-concept.md`。
-4. 同步更新 `game-design-workflow/decision-log.md`。
+1. 确认当前在自己的工作分支，不在 `main` 或 `master`。
+2. 在 `draft-changes/` 写出拟修改文本。
+3. 标明来源提案和评估。
+4. 确认采纳后再修改 `core-concept.md`。
+5. 同步更新 `game-design-workflow/decision-log.md`。
+6. 提交并推送当前分支。
 
 ## 提交研究材料
 
@@ -81,4 +93,3 @@
 - 相关来源和上下文已经写清楚。
 - 如果修改了核心构思，已经同步更新决策记录。
 - Markdown 链接能指向实际存在的文件。
-

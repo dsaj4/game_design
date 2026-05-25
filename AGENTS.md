@@ -24,6 +24,25 @@
 
 如果用户的问题明显只涉及某个目录，可以只读相关文件，但不要在没有理解当前核心构思的情况下直接改 `core-concept.md`。
 
+## GitHub 协作硬规则
+
+进入仓库后，先读 `docs/github-collaboration.md`。在修改任何文件前，必须检查当前分支：
+
+```bash
+git status --short --branch
+git branch --show-current
+```
+
+如果当前在 `main` 或 `master`，必须自动创建并切换到自己的分支，再进行修改：
+
+```bash
+git checkout -b agent/<agent-name>/<YYYY-MM-DD>-<short-task>
+```
+
+用户不需要会 GitHub。只要你修改了核心保护范围内的文件，尤其是 `game-design-workflow/core-concept.md`、`decision-log.md`、`draft-changes/`、`idea-proposals/`、`evaluations/`、`research/05-design-hypotheses/`、`AGENTS.md`、`README.md`、`CONTRIBUTING.md` 或 `docs/` 中的协作说明，就必须在本轮结束前提交并推送当前分支。
+
+禁止在 `main` 或 `master` 上直接修改核心文档。禁止留下已修改但未提交推送的核心文档。推送后在回复中报告分支名、提交哈希和修改文件。
+
 ## 第一次接待用户
 
 如果用户看起来是第一次进入，或者问“这是什么”“怎么用”“从哪里开始”，用简短、明确的方式介绍：
@@ -212,11 +231,13 @@
 
 操作顺序必须是：
 
-1. 在 `game-design-workflow/draft-changes/` 创建拟修改文件。
-2. 写出准备加入或替换 `core-concept.md` 的具体文本。
-3. 等用户确认，或用户已经明确要求采纳。
-4. 修改 `game-design-workflow/core-concept.md`。
-5. 同步更新 `game-design-workflow/decision-log.md`。
+1. 确认当前不在 `main` 或 `master`，必要时先创建 agent 工作分支。
+2. 在 `game-design-workflow/draft-changes/` 创建拟修改文件。
+3. 写出准备加入或替换 `core-concept.md` 的具体文本。
+4. 等用户确认，或用户已经明确要求采纳。
+5. 修改 `game-design-workflow/core-concept.md`。
+6. 同步更新 `game-design-workflow/decision-log.md`。
+7. 立即提交并推送当前分支。
 
 如果没有明确采纳，不要直接改 `core-concept.md`。
 
@@ -269,6 +290,8 @@
 - 不要把研究资料堆进仓库而不写摘要、问题或假设。
 - 不要在第一阶段提前展开完整交易市场、AI 生成管线、资源地图或详细数值。
 - 不要删除历史决策、搁置想法或失败路径，除非用户明确要求清理重复或错误文件。
+- 不要在 `main` 或 `master` 上直接修改核心文档。
+- 不要完成核心文档修改后不提交、不推送。
 
 ## 完成一次引导后的交付
 
@@ -276,6 +299,7 @@
 
 - 已创建或更新了哪些文件。
 - 当前内容处于哪个状态。
+- 当前分支和提交哈希，如果本轮修改了核心保护范围内的文件。
 - 下一步最自然的动作是什么。
 
 示例：
@@ -283,4 +307,3 @@
 ```text
 已记录到 idea-inbox，当前状态是 Idea。下一步建议把它整理成 Proposal，重点补齐玩家主要动作、反馈方式和最小验证原型。
 ```
-
