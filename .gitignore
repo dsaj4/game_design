@@ -1,0 +1,8 @@
+# Local/editor files
+.DS_Store
+Thumbs.db
+
+# External source snapshots may contain third-party PDFs/HTML.
+# Keep source indexes and original notes in git; do not publish cached raw files by default.
+research/raw-sources/
+
