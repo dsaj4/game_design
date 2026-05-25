@@ -61,6 +61,7 @@ flowchart LR
 
 ## 主要入口
 
+- [Agent 操作手册](AGENTS.md)
 - [游戏构思工作流](game-design-workflow/README.md)
 - [核心构思文档](game-design-workflow/core-concept.md)
 - [决策记录](game-design-workflow/decision-log.md)
