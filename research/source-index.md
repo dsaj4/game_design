@@ -77,3 +77,11 @@
 ## 使用说明
 
 这些资料用于支持机制层面的调研，不作为完整市场规模分析。若后续需要进一步做市场定位，可另建竞品商业与用户评论调研文件。
+
+## 关卡经营与异步挑战玩法补充
+
+- Meet Your Maker 官方玩法页：https://meetyourmakergame.com/game/
+- The Mighty Quest for Epic Loot Wiki - Gameplay：https://themightyquest.fandom.com/wiki/Gameplay
+- King of Thieves 官方网站：https://www.kingofthieves.com/index.html
+- Super Mario Maker 2 官方分享页：https://supermariomaker.nintendo.com/share/
+- Supercell Support - Clan Wars：https://ingame.support.supercell.com/clash-of-clans/en/articles/about-clan-wars-2.html
