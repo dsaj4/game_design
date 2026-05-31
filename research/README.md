@@ -11,7 +11,7 @@
 - `00-index-and-roadmap/`：总索引、学习路线、当前问题清单。
 - `01-theory-library/`：理论学习材料入口，记录书、论文、文章、视频、课程。
 - `02-theory-digests/`：理论总结，用自己的话压缩成可用设计语言。
-- `03-product-case-studies/`：单款产品调研分析。
+- `03-product-case-studies/`：单款产品调研分析，可分为快速案例和深度拆解。
 - `04-cross-game-comparisons/`：多产品横向对比。
 - `05-design-hypotheses/`：把理论和竞品观察转成可验证设计假设。
 - `06-prototype-insights/`：原型测试、纸面推演、试玩反馈后的洞察。
@@ -24,7 +24,7 @@
 1. 在 `00-index-and-roadmap/current-questions.md` 写下当前设计问题。
 2. 将学习资料登记到 `01-theory-library/`。
 3. 阅读后在 `02-theory-digests/` 写理论摘要。
-4. 对相关游戏在 `03-product-case-studies/` 做单品分析。
+4. 对相关游戏在 `03-product-case-studies/` 做单品分析；如果需要完整写作系统，使用 `03-product-case-studies/deep-analysis-writing-system.md` 和 `templates/deep-product-analysis-template.md`。
 5. 在 `04-cross-game-comparisons/` 做横向比较。
 6. 在 `05-design-hypotheses/` 写成可验证假设。
 7. 假设成熟后进入 `game-design-workflow/idea-proposals/`。
@@ -42,4 +42,3 @@
 ## 与核心构思文档的关系
 
 本目录不直接修改 `game-design-workflow/core-concept.md`。任何调研结论都必须先转成设计假设或提案，再经过评估和拟修改流程。
-
