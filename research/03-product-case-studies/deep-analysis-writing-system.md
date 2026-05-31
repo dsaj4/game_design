@@ -47,6 +47,7 @@
    - 成熟观察进入 `research/05-design-hypotheses/`。
    - 可执行玩法方向进入 `game-design-workflow/idea-proposals/`。
    - 仍不确定的疑问写回 `research/00-index-and-roadmap/current-questions.md`。
+   - 深度报告进入 `research/08-analysis-quality-system/` 做评审与迭代。
 
 ## 八大模块的仓库化改造
 
@@ -125,3 +126,7 @@ flowchart LR
 深度拆解完成后，状态仍然是 Research，不是 Accepted。
 
 只有当拆解结论被转化为设计假设、提案、评估和拟修改，并经用户确认后，才可能进入 `game-design-workflow/core-concept.md`。
+
+## 与评审系统的边界
+
+本文档只定义写作流程和报告结构。报告质量评分、迭代触发条件、评审模板和迭代记录统一放在 `research/08-analysis-quality-system/`，避免写作系统本体和质量管理规则混在一起。

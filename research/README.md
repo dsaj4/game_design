@@ -16,6 +16,7 @@
 - `05-design-hypotheses/`：把理论和竞品观察转成可验证设计假设。
 - `06-prototype-insights/`：原型测试、纸面推演、试玩反馈后的洞察。
 - `07-spaced-review/`：间隔复盘和主动回忆题。
+- `08-analysis-quality-system/`：深度拆解报告的评审、打分和迭代记录。
 - `templates/`：各类记录模板。
 - `source-index.md`：资料来源索引。
 
@@ -29,7 +30,8 @@
 6. 在 `05-design-hypotheses/` 写成可验证假设。
 7. 假设成熟后进入 `game-design-workflow/idea-proposals/`。
 8. 原型或纸面推演后，把观察写入 `06-prototype-insights/`。
-9. 重要理论进入 `07-spaced-review/`，通过主动回忆反复巩固。
+9. 如果产出深度拆解报告，用 `08-analysis-quality-system/` 进行评审和迭代。
+10. 重要理论进入 `07-spaced-review/`，通过主动回忆反复巩固。
 
 ## 学习原则
 
