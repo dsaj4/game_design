@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#f6f3eb"/>
+  <rect x="40" y="40" width="180" height="260" rx="10" fill="#244b5a"/>
+  <text x="130" y="85" text-anchor="middle" font-size="22" fill="#ffffff" font-family="Arial">核心卡</text>
+  <text x="130" y="130" text-anchor="middle" font-size="16" fill="#d8f3ff" font-family="Arial">标签：连击 / 过载</text>
+  <text x="130" y="175" text-anchor="middle" font-size="15" fill="#d8f3ff" font-family="Arial">固定判定中心</text>
+  <text x="130" y="220" text-anchor="middle" font-size="15" fill="#d8f3ff" font-family="Arial">不进入手牌</text>
+
+  <rect x="280" y="70" width="400" height="210" rx="10" fill="#ffffff" stroke="#343434" stroke-width="2"/>
+  <text x="480" y="110" text-anchor="middle" font-size="24" fill="#222222" font-family="Arial">组合提示</text>
+  <text x="480" y="155" text-anchor="middle" font-size="18" fill="#222222" font-family="Arial">核心卡标签 + 辅助卡类型 + 费用</text>
+  <text x="480" y="205" text-anchor="middle" font-size="18" fill="#b33a3a" font-family="Arial">费用 3 / 敌方下回合重击</text>
+  <text x="480" y="245" text-anchor="middle" font-size="16" fill="#555555" font-family="Arial">选择稳定收益，还是追求组合爆发？</text>
+
+  <rect x="730" y="60" width="170" height="220" rx="10" fill="#6f3f3f"/>
+  <text x="815" y="105" text-anchor="middle" font-size="22" fill="#ffffff" font-family="Arial">敌方意图</text>
+  <text x="815" y="155" text-anchor="middle" font-size="18" fill="#ffe2e2" font-family="Arial">下回合重击</text>
+  <text x="815" y="205" text-anchor="middle" font-size="16" fill="#ffe2e2" font-family="Arial">制造防守压力</text>
+
+  <g font-family="Arial" font-size="17" fill="#222222">
+    <rect x="80" y="365" width="130" height="120" rx="8" fill="#f3c14b"/>
+    <text x="145" y="430" text-anchor="middle">攻击卡</text>
+    <rect x="240" y="365" width="130" height="120" rx="8" fill="#7dc47d"/>
+    <text x="305" y="430" text-anchor="middle">防御卡</text>
+    <rect x="400" y="365" width="130" height="120" rx="8" fill="#7aa7d9"/>
+    <text x="465" y="430" text-anchor="middle">调度卡</text>
+    <rect x="560" y="365" width="130" height="120" rx="8" fill="#c188d9"/>
+    <text x="625" y="430" text-anchor="middle">干扰卡</text>
+    <rect x="720" y="365" width="130" height="120" rx="8" fill="#ef8b6b"/>
+    <text x="785" y="430" text-anchor="middle">连击牌</text>
+  </g>
+</svg>
