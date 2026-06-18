@@ -11,6 +11,10 @@ CHECKS = [
 ]
 
 
+def visual_audit_expected(root: Path) -> bool:
+    return (root / "visual" / "visual-audit.json").exists()
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--workspace", required=True)
@@ -33,6 +37,7 @@ def main() -> int:
             [
                 ("contains eight modules", all(f"模块{i}" in draft_text for i in range(1, 9))),
                 ("contains evidence map", "## 证据地图" in draft_text),
+                ("contains visual evidence section", "## 图文证据" in draft_text if visual_audit_expected(root) else True),
                 ("contains core loop diagram", "核心循环图" in draft_text and "```mermaid" in draft_text),
                 ("contains system relation diagram", "系统关系图" in draft_text and draft_text.count("```mermaid") >= 2),
                 ("contains project transfer", "## 对本项目的转化" in draft_text),

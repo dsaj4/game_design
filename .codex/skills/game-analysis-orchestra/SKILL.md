@@ -8,10 +8,12 @@ description: Turn game screenshots, video notes, transcripts, and text materials
 Use this skill to run the Phase 1 game-analysis workflow:
 
 ```text
-material pack -> evidence map -> outline -> module-by-module dossier -> phase-1 check
+material pack -> visual audit -> evidence map -> outline -> illustrated module-by-module dossier -> phase-1 check
 ```
 
 Phase 1 is inspired by PaperOrchestra and AutoSurvey, but it only works from supplied local materials. Do not browse, download videos, run ASR, or change core game-design documents unless the user explicitly asks for a later workflow.
+
+When screenshots or keyframes are available, run a visual audit before writing the outline. Modern multimodal models can extract useful gameplay signals from game screenshots, but their observations must be treated as auditable evidence, not as final truth. Cross-check visual claims against transcript text, captions, and nearby frames.
 
 ## Inputs
 
@@ -32,22 +34,35 @@ Minimum useful inputs:
 py -3 .codex/skills/game-analysis-orchestra/scripts/validate_material_pack.py --pack <materialpack.json>
 ```
 
-3. Generate an outline scaffold:
+3. If the pack contains images, read `references/visual-audit.md`, then generate a visual audit scaffold:
 
 ```powershell
-py -3 .codex/skills/game-analysis-orchestra/scripts/scaffold_outline.py --pack <materialpack.json> --out <workspace>
+py -3 .codex/skills/game-analysis-orchestra/scripts/scaffold_visual_audit.py --pack <materialpack.json> --out <workspace>
 ```
 
-4. Read `references/outline-standard.md`, then edit `outline/outline.md` and `outline/outline.json` with actual claims, evidence, missing-information notes, and diagram plans.
-5. Read `references/module-writing.md`.
-6. Generate a dossier scaffold:
+4. Use the available multimodal model or manual visual inspection to fill `visual/visual-audit.json` and `visual/visual-audit.md`. Extract only visible or strongly inferable information: UI layout, card text, costs, board state, feedback, affordances, and frame-to-frame state changes. Mark uncertainty and conflicts.
+5. Validate the visual audit when it is filled:
+
+```powershell
+py -3 .codex/skills/game-analysis-orchestra/scripts/check_visual_audit.py --workspace <workspace>
+```
+
+6. Generate an outline scaffold:
+
+```powershell
+py -3 .codex/skills/game-analysis-orchestra/scripts/scaffold_outline.py --pack <materialpack.json> --visual-audit <workspace>/visual/visual-audit.json --out <workspace>
+```
+
+7. Read `references/outline-standard.md`, then edit `outline/outline.md` and `outline/outline.json` with actual claims, evidence, missing-information notes, visual evidence references, and diagram plans.
+8. Read `references/module-writing.md`.
+9. Generate a dossier scaffold:
 
 ```powershell
 py -3 .codex/skills/game-analysis-orchestra/scripts/scaffold_dossier.py --pack <materialpack.json> --outline <workspace>/outline/outline.json --out <workspace>
 ```
 
-7. Write the dossier module by module. Prioritize module 3, module 4, then module 2.
-8. Run the Phase 1 check:
+10. Write the dossier module by module. Prioritize module 3, module 4, then module 2. If visual audit exists, include a “图文证据” section and use selected screenshots inside the relevant modules.
+11. Run the Phase 1 check:
 
 ```powershell
 py -3 .codex/skills/game-analysis-orchestra/scripts/check_phase1_outputs.py --workspace <workspace>
@@ -58,16 +73,18 @@ py -3 .codex/skills/game-analysis-orchestra/scripts/check_phase1_outputs.py --wo
 ## Writing Rules
 
 - Treat supplied materials as evidence, not as final conclusions.
-- Distinguish facts, screenshot observations, text-based inference, and author judgment.
+- Distinguish facts, screenshot observations, visual-model observations, text-based inference, and author judgment.
 - Do not invent commercial data, player metrics, release dates, or live-version facts.
 - Keep all eight game-analysis modules in order, but write “materials insufficient” when evidence is thin.
 - Always include a core loop diagram in module 3 and a system relation diagram in module 4.
 - Always include “对本项目的转化” and “未确认信息”.
+- Never use image OCR or UI interpretation as a high-confidence claim unless the visual audit marks it high confidence or text evidence confirms it.
 
 ## References
 
 - `references/workflow.md`: Phase 1 procedure and source-project inspiration.
 - `references/material-pack.md`: Material pack fields and evidence rules.
+- `references/visual-audit.md`: Screenshot/keyframe visual extraction rules.
 - `references/outline-standard.md`: Outline JSON/Markdown requirements.
 - `references/module-writing.md`: Module-by-module writing standards.
 - `references/source-inspirations.md`: PaperOrchestra and AutoSurvey mapping.

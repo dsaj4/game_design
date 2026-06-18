@@ -18,6 +18,30 @@ def evidence_table(outline: dict[str, Any]) -> str:
     return "\n".join(rows)
 
 
+def visual_candidates(outline: dict[str, Any]) -> list[dict[str, Any]]:
+    return [
+        item
+        for item in outline.get("visual_evidence", [])
+        if item.get("illustration_candidate") and item.get("status") in {"audited", "needs-review"}
+    ]
+
+
+def visual_gallery(outline: dict[str, Any]) -> list[str]:
+    candidates = visual_candidates(outline)
+    if not candidates:
+        return [
+            "## 图文证据",
+            "",
+            "- 暂无已核验的配图候选；若素材包含截图，请先完成 `visual/visual-audit.json`。",
+            "",
+        ]
+    lines = ["## 图文证据", ""]
+    for item in candidates[:10]:
+        caption = item.get("caption_for_dossier") or item.get("summary") or item["id"]
+        lines.extend([f"![{item['id']} {caption}]({item['path']})", "", f"{item['id']}：{caption}", ""])
+    return lines
+
+
 def module_block(module: dict[str, Any]) -> list[str]:
     title = module["title"]
     number = module["id"].replace("module-", "")
@@ -104,6 +128,7 @@ def main() -> int:
         evidence_table(outline),
         "",
     ]
+    lines.extend(visual_gallery(outline))
     for module in outline.get("modules", []):
         lines.extend(module_block(module))
     lines.extend(

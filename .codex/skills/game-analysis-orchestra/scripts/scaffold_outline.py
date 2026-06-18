@@ -69,6 +69,35 @@ def build_evidence(pack: dict[str, Any]) -> list[dict[str, Any]]:
     return evidence
 
 
+def build_visual_evidence(visual_audit: dict[str, Any] | None) -> list[dict[str, Any]]:
+    if not visual_audit:
+        return []
+    evidence = []
+    for frame in visual_audit.get("frames", []):
+        summary_parts = []
+        for key in ["gameplay_observations", "visible_elements", "state_changes", "ui_affordances"]:
+            values = frame.get(key, [])
+            if values:
+                summary_parts.extend(values[:2])
+        summary = "; ".join(summary_parts) or frame.get("source_caption", "")
+        evidence.append(
+            {
+                "id": frame["id"],
+                "type": "visual-audit",
+                "path": frame["path"],
+                "summary": summary,
+                "observations": frame.get("gameplay_observations", []),
+                "modules": frame.get("supports_modules", []),
+                "confidence": frame.get("confidence", "low"),
+                "status": frame.get("status", "not-audited"),
+                "image_id": frame.get("image_id", ""),
+                "illustration_candidate": bool(frame.get("illustration_candidate")),
+                "caption_for_dossier": frame.get("caption_for_dossier", ""),
+            }
+        )
+    return evidence
+
+
 def write_outline_md(path: Path, outline: dict[str, Any]) -> None:
     rows = ["| 模块 | 核心判断 | 证据 | 未确认信息 | 优先级 |", "| --- | --- | --- | --- | --- |"]
     for module in outline["modules"]:
@@ -114,6 +143,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--pack", required=True)
     parser.add_argument("--out", required=True)
+    parser.add_argument("--visual-audit")
     args = parser.parse_args()
 
     pack_path = Path(args.pack).resolve()
@@ -122,6 +152,8 @@ def main() -> int:
     pack = load_json(pack_path)
     project = pack["project"]
     evidence = build_evidence(pack)
+    visual_evidence = build_visual_evidence(load_json(Path(args.visual_audit).resolve()) if args.visual_audit else None)
+    evidence.extend(visual_evidence)
 
     modules = []
     for module_id, title, priority in MODULES:
@@ -144,6 +176,7 @@ def main() -> int:
         "target_questions": project["target_questions"],
         "thesis": "待根据素材包补写总论点。",
         "evidence_map": evidence,
+        "visual_evidence": visual_evidence,
         "modules": modules,
         "diagrams": [
             {"type": "core_loop", "module": "module-3", "purpose": "解释玩家输入、行动、产出、消耗、反馈和回流。"},

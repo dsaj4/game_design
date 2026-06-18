@@ -21,6 +21,7 @@ Use this shape:
   "target_questions": [],
   "thesis": "",
   "evidence_map": [],
+  "visual_evidence": [],
   "modules": [
     {
       "id": "module-3",
@@ -47,10 +48,12 @@ Use this shape:
 - State one overall thesis.
 - State each module claim in one or two sentences.
 - Assign evidence to modules.
+- Assign visual-audit evidence to modules when images were audited.
 - Mark module 3 and module 4 as `high` priority.
 - Include at least two diagram plans:
   - `core_loop` for module 3.
   - `system_relation` for module 4.
+- Include `illustration_candidates` for modules that benefit from embedded screenshots.
 
 ## Eight Modules
 

@@ -1,7 +1,7 @@
 interface:
   display_name: "Game Analysis Orchestra"
-  short_description: "Build game analysis outlines and dossiers"
-  default_prompt: "Use $game-analysis-orchestra to turn a material pack into an outline and module-by-module game analysis dossier."
+  short_description: "Build visual-audited game analysis dossiers"
+  default_prompt: "Use $game-analysis-orchestra to turn a material pack into a visual audit, outline, and illustrated module-by-module game analysis dossier."
 
 policy:
   allow_implicit_invocation: true

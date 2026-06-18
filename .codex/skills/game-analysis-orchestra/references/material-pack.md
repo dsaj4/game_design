@@ -22,6 +22,7 @@ Use `assets/materialpack.schema.json` as the structural source of truth.
 - Local screenshots or keyframes.
 - Each image needs `path`, `caption`, and `observations`.
 - Add `evidence_tags` such as `core-loop`, `combat-system`, `economy`, `content`, `ui`, `narrative`.
+- Captions and observations may come from BiliSum or manual notes, but they are not equivalent to independent visual reading.
 
 `draft_seed`:
 
@@ -32,8 +33,11 @@ Use `assets/materialpack.schema.json` as the structural source of truth.
 
 - Every important claim should cite one or more evidence ids, or be marked as inference.
 - Image evidence proves visible UI layout, states, affordances, feedback, or visual hierarchy.
+- Visual-audit evidence proves only what the model/manual reviewer could see with stated confidence.
 - Text evidence proves recorded rules, player actions, transcript claims, and manual observations.
 - Missing materials must produce “未确认信息”, not fabricated facts.
+- If `visual/visual-audit.json` exists, prefer visual evidence ids (`V1`, `V2`) over raw image ids (`I1`, `I2`) for image-based claims.
+- Raw image ids can still be cited as screenshot anchors when the frame was not audited.
 
 ## Suggested Evidence IDs
 
@@ -42,6 +46,7 @@ Use stable ids in outlines and dossiers:
 ```text
 T1: materials.md
 I1: images/battle-layout.svg
+V1: visual audit for I1
 ```
 
 When line numbers are available, include them:
