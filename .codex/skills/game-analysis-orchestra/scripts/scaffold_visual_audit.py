@@ -43,6 +43,8 @@ def build_audit(pack: dict[str, Any]) -> dict[str, Any]:
                 "source_caption": image.get("caption", ""),
                 "source_observations": image.get("observations", []),
                 "status": "not-audited",
+                "direct_image_read": False,
+                "reader": "",
                 "confidence": "low",
                 "visible_elements": [],
                 "ocr_candidates": [],

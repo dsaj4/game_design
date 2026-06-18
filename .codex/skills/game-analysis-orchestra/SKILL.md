@@ -13,7 +13,7 @@ material pack -> visual audit -> evidence map -> outline -> illustrated module-b
 
 Phase 1 is inspired by PaperOrchestra and AutoSurvey, but it only works from supplied local materials. Do not browse, download videos, run ASR, or change core game-design documents unless the user explicitly asks for a later workflow.
 
-When screenshots or keyframes are available, run a visual audit before writing the outline. Modern multimodal models can extract useful gameplay signals from game screenshots, but their observations must be treated as auditable evidence, not as final truth. Cross-check visual claims against transcript text, captions, and nearby frames.
+When screenshots or keyframes are available, run a visual audit before writing the outline. If the current agent has any direct image-reading capability, it must open and inspect the image files themselves; do not rely only on captions, filenames, BiliSum visual notes, or material-pack observations. Modern multimodal models can extract useful gameplay signals from game screenshots, but their observations must be treated as auditable evidence, not as final truth. Cross-check visual claims against transcript text, captions, and nearby frames.
 
 ## Inputs
 
@@ -40,7 +40,11 @@ py -3 .codex/skills/game-analysis-orchestra/scripts/validate_material_pack.py --
 py -3 .codex/skills/game-analysis-orchestra/scripts/scaffold_visual_audit.py --pack <materialpack.json> --out <workspace>
 ```
 
-4. Use the available multimodal model or manual visual inspection to fill `visual/visual-audit.json` and `visual/visual-audit.md`. Extract only visible or strongly inferable information: UI layout, card text, costs, board state, feedback, affordances, and frame-to-frame state changes. Mark uncertainty and conflicts.
+4. Fill `visual/visual-audit.json` and `visual/visual-audit.md` from direct image reading:
+   - If the agent has a visual/image tool, open the actual image paths and inspect the pixels.
+   - If the agent has no image-reading capability, keep frames as `status: not-audited`, add a limitation note, and continue from text/caption evidence only.
+   - Never mark a frame `audited` by copying `caption`, `source_observations`, transcript text, or filename hints.
+   - Extract only visible or strongly inferable information: UI layout, card text, costs, board state, feedback, affordances, and frame-to-frame state changes. Mark uncertainty and conflicts.
 5. Validate the visual audit when it is filled:
 
 ```powershell
@@ -68,7 +72,7 @@ py -3 .codex/skills/game-analysis-orchestra/scripts/scaffold_dossier.py --pack <
 py -3 .codex/skills/game-analysis-orchestra/scripts/check_phase1_outputs.py --workspace <workspace>
 ```
 
-9. Report output files, status, and the most important remaining gaps.
+12. Report output files, visual-audit status, and the most important remaining gaps.
 
 ## Writing Rules
 
@@ -79,6 +83,7 @@ py -3 .codex/skills/game-analysis-orchestra/scripts/check_phase1_outputs.py --wo
 - Always include a core loop diagram in module 3 and a system relation diagram in module 4.
 - Always include “对本项目的转化” and “未确认信息”.
 - Never use image OCR or UI interpretation as a high-confidence claim unless the visual audit marks it high confidence or text evidence confirms it.
+- A frame marked `audited` must include direct-image-reading evidence in the visual audit. If direct reading did not happen, use `not-audited`.
 
 ## References
 
