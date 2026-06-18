@@ -76,6 +76,7 @@ py -3 .codex/skills/game-analysis-orchestra/scripts/check_phase1_outputs.py --wo
 
 ## Writing Rules
 
+- On Windows or mixed-encoding terminals, prefer ASCII/English Markdown headings for structural sections while keeping prose in Chinese when useful. Required sections may use either Chinese or English headings, for example `## Evidence Map` or `## 证据地图`.
 - Treat supplied materials as evidence, not as final conclusions.
 - Distinguish facts, screenshot observations, visual-model observations, text-based inference, and author judgment.
 - Do not invent commercial data, player metrics, release dates, or live-version facts.

@@ -4,6 +4,7 @@ Write the dossier from the outline, not directly from the raw material pack.
 
 ## General Rules
 
+- Use stable ASCII headings for required sections in generated dossiers: `## Evidence Map`, `## Visual Evidence`, `## Module 1` through `## Module 8`, `## Project Transfer`, and `## Unknowns`. Chinese prose can appear under those headings.
 - Start each module with a conclusion.
 - Then explain evidence and reasoning.
 - Add “对本项目的启示” when the module is relevant.

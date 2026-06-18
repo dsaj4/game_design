@@ -15,6 +15,17 @@ def visual_audit_expected(root: Path) -> bool:
     return (root / "visual" / "visual-audit.json").exists()
 
 
+def contains_any(text: str, candidates: list[str]) -> bool:
+    lowered = text.lower()
+    return any(candidate.lower() in lowered for candidate in candidates)
+
+
+def contains_eight_modules(text: str) -> bool:
+    chinese = all(f"模块{i}" in text for i in range(1, 9))
+    english = all(f"module {i}" in text.lower() or f"module-{i}" in text.lower() for i in range(1, 9))
+    return chinese or english
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--workspace", required=True)
@@ -35,13 +46,19 @@ def main() -> int:
     if draft_text:
         results.extend(
             [
-                ("contains eight modules", all(f"模块{i}" in draft_text for i in range(1, 9))),
-                ("contains evidence map", "## 证据地图" in draft_text),
-                ("contains visual evidence section", "## 图文证据" in draft_text if visual_audit_expected(root) else True),
-                ("contains core loop diagram", "核心循环图" in draft_text and "```mermaid" in draft_text),
-                ("contains system relation diagram", "系统关系图" in draft_text and draft_text.count("```mermaid") >= 2),
-                ("contains project transfer", "## 对本项目的转化" in draft_text),
-                ("contains unknowns", "## 未确认信息" in draft_text),
+                ("contains eight modules", contains_eight_modules(draft_text)),
+                ("contains evidence map", contains_any(draft_text, ["## 证据地图", "## Evidence Map"])),
+                (
+                    "contains visual evidence section",
+                    contains_any(draft_text, ["## 图文证据", "## Visual Evidence", "## Illustrated Evidence"]) if visual_audit_expected(root) else True,
+                ),
+                ("contains core loop diagram", contains_any(draft_text, ["核心循环图", "Core Loop"]) and "```mermaid" in draft_text),
+                (
+                    "contains system relation diagram",
+                    contains_any(draft_text, ["系统关系图", "System Relation", "System Architecture"]) and draft_text.count("```mermaid") >= 2,
+                ),
+                ("contains project transfer", contains_any(draft_text, ["## 对本项目的转化", "## Project Transfer", "## Transfer To This Project"])),
+                ("contains unknowns", contains_any(draft_text, ["## 未确认信息", "## Unknowns", "## Unconfirmed Information"])),
             ]
         )
     else:
