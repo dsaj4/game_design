@@ -31,15 +31,17 @@ def module_hints(tags: list[str]) -> list[str]:
     return sorted(modules or {"module-4"})
 
 
-def build_audit(pack: dict[str, Any]) -> dict[str, Any]:
+def build_audit(pack: dict[str, Any], pack_path: Path) -> dict[str, Any]:
     frames = []
     for index, image in enumerate(pack.get("images", []), start=1):
         image_id = f"I{index}"
+        source_path = (pack_path.parent / image["path"]).resolve()
         frames.append(
             {
                 "id": f"V{index}",
                 "image_id": image_id,
                 "path": image["path"],
+                "source_path_absolute": str(source_path),
                 "source_caption": image.get("caption", ""),
                 "source_observations": image.get("observations", []),
                 "status": "not-audited",
@@ -97,10 +99,11 @@ def main() -> int:
     parser.add_argument("--out", required=True)
     args = parser.parse_args()
 
-    pack = load_json(Path(args.pack).resolve())
+    pack_path = Path(args.pack).resolve()
+    pack = load_json(pack_path)
     out_dir = Path(args.out).resolve() / "visual"
     out_dir.mkdir(parents=True, exist_ok=True)
-    audit = build_audit(pack)
+    audit = build_audit(pack, pack_path)
     json_path = out_dir / "visual-audit.json"
     md_path = out_dir / "visual-audit.md"
     json_path.write_text(json.dumps(audit, ensure_ascii=False, indent=2), encoding="utf-8", newline="\n")

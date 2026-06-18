@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import json
+import os
 from pathlib import Path
 from typing import Any
 
@@ -26,7 +27,17 @@ def visual_candidates(outline: dict[str, Any]) -> list[dict[str, Any]]:
     ]
 
 
-def visual_gallery(outline: dict[str, Any]) -> list[str]:
+def image_path_for_dossier(item: dict[str, Any], out_dir: Path) -> str:
+    absolute = item.get("source_path_absolute")
+    if absolute:
+        try:
+            return Path(os.path.relpath(Path(absolute), out_dir)).as_posix()
+        except ValueError:
+            return absolute
+    return item["path"]
+
+
+def visual_gallery(outline: dict[str, Any], out_dir: Path) -> list[str]:
     candidates = visual_candidates(outline)
     if not candidates:
         return [
@@ -38,7 +49,8 @@ def visual_gallery(outline: dict[str, Any]) -> list[str]:
     lines = ["## 图文证据", ""]
     for item in candidates[:10]:
         caption = item.get("caption_for_dossier") or item.get("summary") or item["id"]
-        lines.extend([f"![{item['id']} {caption}]({item['path']})", "", f"{item['id']}：{caption}", ""])
+        image_path = image_path_for_dossier(item, out_dir)
+        lines.extend([f"![{item['id']} {caption}]({image_path})", "", f"{item['id']}：{caption}", ""])
     return lines
 
 
@@ -128,7 +140,7 @@ def main() -> int:
         evidence_table(outline),
         "",
     ]
-    lines.extend(visual_gallery(outline))
+    lines.extend(visual_gallery(outline, out_dir))
     for module in outline.get("modules", []):
         lines.extend(module_block(module))
     lines.extend(
