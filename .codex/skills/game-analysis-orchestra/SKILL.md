@@ -76,7 +76,9 @@ py -3 .codex/skills/game-analysis-orchestra/scripts/check_phase1_outputs.py --wo
 
 ## Writing Rules
 
-- On Windows or mixed-encoding terminals, prefer ASCII/English Markdown headings for structural sections while keeping prose in Chinese when useful. Required sections may use either Chinese or English headings, for example `## Evidence Map` or `## 证据地图`.
+- Default to Simplified Chinese for all human-facing generated content: visual audit notes, outline claims, dossier prose, image captions, module conclusions, transfer hypotheses, and unknowns.
+- Stable machine-readable ids may stay in ASCII, such as `module-3`, `V4`, `T1`, file paths, JSON keys, Mermaid syntax, and short structural aliases. Do not write the main dossier body in English unless the user explicitly asks for English.
+- On Windows or mixed-encoding terminals, keep required Markdown headings bilingual or Chinese-first, for example `## 证据地图 / Evidence Map`, `## 模块3：核心玩法循环 / Module 3: Core Loop`. If Chinese heading text becomes corrupted, regenerate the heading instead of switching the whole document to English.
 - Treat supplied materials as evidence, not as final conclusions.
 - Distinguish facts, screenshot observations, visual-model observations, text-based inference, and author judgment.
 - Do not invent commercial data, player metrics, release dates, or live-version facts.

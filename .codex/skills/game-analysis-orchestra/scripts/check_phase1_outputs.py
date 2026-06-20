@@ -26,6 +26,11 @@ def contains_eight_modules(text: str) -> bool:
     return chinese or english
 
 
+def has_chinese_body(text: str) -> bool:
+    cjk_count = sum(1 for char in text if "\u4e00" <= char <= "\u9fff")
+    return cjk_count >= 200
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--workspace", required=True)
@@ -57,6 +62,7 @@ def main() -> int:
                     "contains system relation diagram",
                     contains_any(draft_text, ["系统关系图", "System Relation", "System Architecture"]) and draft_text.count("```mermaid") >= 2,
                 ),
+                ("uses Simplified Chinese body", has_chinese_body(draft_text)),
                 ("contains project transfer", contains_any(draft_text, ["## 对本项目的转化", "## Project Transfer", "## Transfer To This Project"])),
                 ("contains unknowns", contains_any(draft_text, ["## 未确认信息", "## Unknowns", "## Unconfirmed Information"])),
             ]
@@ -68,6 +74,7 @@ def main() -> int:
                 ("contains evidence map", False),
                 ("contains core loop diagram", False),
                 ("contains system relation diagram", False),
+                ("uses Simplified Chinese body", False),
                 ("contains project transfer", False),
                 ("contains unknowns", False),
             ]

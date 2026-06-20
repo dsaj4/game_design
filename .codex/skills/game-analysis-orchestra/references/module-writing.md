@@ -4,7 +4,8 @@ Write the dossier from the outline, not directly from the raw material pack.
 
 ## General Rules
 
-- Use stable ASCII headings for required sections in generated dossiers: `## Evidence Map`, `## Visual Evidence`, `## Module 1` through `## Module 8`, `## Project Transfer`, and `## Unknowns`. Chinese prose can appear under those headings.
+- Write the dossier in Simplified Chinese. English is allowed only for fixed game terms, file paths, evidence ids, JSON keys, Mermaid syntax, or short bilingual structural aliases.
+- Use Chinese-first stable headings for required sections, optionally with English aliases for scripts: `## 证据地图 / Evidence Map`, `## 图文证据 / Visual Evidence`, `## 模块1：... / Module 1`, `## 对本项目的转化 / Project Transfer`, and `## 未确认信息 / Unknowns`.
 - Start each module with a conclusion.
 - Then explain evidence and reasoning.
 - Add “对本项目的启示” when the module is relevant.

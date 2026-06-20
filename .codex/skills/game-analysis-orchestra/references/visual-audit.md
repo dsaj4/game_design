@@ -38,6 +38,8 @@ Generate:
 - `visual/visual-audit.json`
 - `visual/visual-audit.md`
 
+Write `visible_elements`, `ocr_candidates`, `gameplay_observations`, `ui_affordances`, `state_changes`, conflicts, and dossier captions in Simplified Chinese by default. Keep exact OCR strings in their original language when quoting UI text.
+
 Each audited frame should include:
 
 ```json
@@ -82,6 +84,7 @@ The final dossier should become a 图文稿 when useful visual evidence exists:
 - Embed selected screenshots with Markdown image syntax near the relevant module.
 - Use local relative paths from the dossier file to the image.
 - Each embedded image needs a one-sentence analytical caption, not a decorative caption.
+- Captions and surrounding analysis should be in Simplified Chinese unless the user explicitly asks otherwise.
 - Do not embed every frame. Pick frames that prove a mechanic, player decision, UI constraint, feedback moment, or system relation.
 - In module 3, include images that show loop steps or combat resolution.
 - In module 4, include images that show system surfaces such as deckbuilding, shop, evolution, resource, or board layout.

@@ -1,7 +1,7 @@
 # Phase 1 Check
 
-- Passed: 10 / 10
-- Status: PASS
+- Passed: 10 / 11
+- Status: NEEDS WORK
 
 | Check | Result |
 | --- | --- |
@@ -13,5 +13,6 @@
 | contains visual evidence section | PASS |
 | contains core loop diagram | PASS |
 | contains system relation diagram | PASS |
+| uses Simplified Chinese body | NEEDS WORK |
 | contains project transfer | PASS |
 | contains unknowns | PASS |
