@@ -63,12 +63,21 @@ flowchart LR
 
 - [Agent 操作手册](AGENTS.md)
 - [GitHub 协作规范](docs/github-collaboration.md)
+- [项目总控中心](docs/control-center.md)
+- [工作区地图](docs/workspace-map.md)
 - [游戏构思工作流](game-design-workflow/README.md)
 - [核心构思文档](game-design-workflow/core-concept.md)
 - [决策记录](game-design-workflow/decision-log.md)
 - [研究工作流](research/README.md)
 - [资料来源索引](research/source-index.md)
 - [当前问题清单](research/00-index-and-roadmap/current-questions.md)
+
+## 当前总控重点
+
+- 正式主线仍是“唯一核心卡 + 通用辅助卡 + 激活费用 + 组合规则表 + 回合制对战”。
+- 第一阶段继续优先验证卡牌战斗，不引入资源系统。
+- 新输入先分流到 `Idea / Proposal / Research / Evaluation`，不要直接污染 `core-concept.md`。
+- `media-analysis-lab/` 是独立实验区，用于验证游戏拆解工作流，不等同于正式设计主线。
 
 ## 发布状态
 
