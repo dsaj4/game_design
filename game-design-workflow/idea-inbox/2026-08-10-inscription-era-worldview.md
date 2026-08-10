@@ -78,3 +78,7 @@
 - [x] 整理成提案
 - [ ] 合并到已有提案
 - [ ] 暂时搁置
+
+## 相关人物草案
+
+- `game-design-workflow/idea-inbox/2026-08-10-explorer-hao-jie.md`（拓宇者代号「豪杰」）

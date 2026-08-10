@@ -26,6 +26,7 @@
 | 关卡经营玩法 | 修改后再评估 | `game-design-workflow/evaluations/E-2026-05-29-level-operation.md` |
 | 核心卡身份路线 | Active Research | `research/05-design-hypotheses/H-2026-05-31-core-card-identity-routes.md` |
 | 铭文纪元世界观 | Parked（拟修改暂搁） | `game-design-workflow/draft-changes/D-2026-08-10-inscription-era-worldview.md` |
+| 拓宇者「豪杰」人物志 | Idea | `game-design-workflow/idea-inbox/2026-08-10-explorer-hao-jie.md` |
 | 媒体拆解实验室 | Prototype Lab | `media-analysis-lab/README.md` |
 
 ## 当前总控判断
