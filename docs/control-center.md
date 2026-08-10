@@ -1,6 +1,6 @@
 # 项目总控中心
 
-最后更新：2026-07-01
+最后更新：2026-08-10
 
 这份文档是仓库的总控面板。它不替代 `game-design-workflow/` 和 `research/` 的正式流程，而是回答四个问题：
 
@@ -25,6 +25,7 @@
 | 整体系统构思优先，战斗改为关键解决层 | Accepted | `game-design-workflow/decision-log.md` |
 | 关卡经营玩法 | 修改后再评估 | `game-design-workflow/evaluations/E-2026-05-29-level-operation.md` |
 | 核心卡身份路线 | Active Research | `research/05-design-hypotheses/H-2026-05-31-core-card-identity-routes.md` |
+| 铭文纪元世界观 | 修改后再评估 | `game-design-workflow/evaluations/E-2026-08-10-inscription-era-worldview.md` |
 | 媒体拆解实验室 | Prototype Lab | `media-analysis-lab/README.md` |
 
 ## 当前总控判断
@@ -49,6 +50,7 @@
 - 核心卡如何通过世界系统保持稀缺、身份感与长期目标。
 - 战斗在整体系统中承担哪些不可替代的解决职责。
 - 世界观框架应如何解释唯一核心卡、资源争夺与共享世界。
+  - 已有强候选《铭文纪元》，当前结论为修改后再评估，尚未写入 `core-concept.md`。
 
 这些问题的正式入口仍以 [current-questions.md](/E:/Project/game/research/00-index-and-roadmap/current-questions.md) 为准。
 

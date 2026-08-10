@@ -2,6 +2,7 @@
 
 | 日期 | 内容 | 产出 | 下一步 |
 | --- | --- | --- | --- |
+| 2026-08-10 | 接收《铭文纪元：终字天算与界外拓宇计划》世界观，评估其对唯一核心卡与共享世界的解释力 | `idea-inbox/2026-08-10-inscription-era-worldview.md`、`P/E-2026-08-10-inscription-era-worldview`、`H-2026-08-10-inscription-field-core-card-identity.md` | 收束核心卡定义与最小术语映射后复评，再考虑 draft-change |
 | 2026-05-13 | 调研游戏王、万智牌、宝可梦 TCG、小丑牌 | 产品案例与横向总结 | 围绕核心卡定位与组合槽形成设计假设 |
 | 2026-05-14 | 将 research 升级为理论学习与竞品分析工作流 | 方案 C 目录结构 | 开始补理论学习材料与摘要 |
 | 2026-05-14 | 归档当前运行产物，搜集第一批游戏理论与卡牌设计学习材料 | `archive/2026-05-14-initial-design-research-snapshot/`、`01-theory-library/curated-learning-materials-2026-05-14.md`、`02-theory-digests/initial-learning-map-2026-05-14.md` | 先摘要 MDA 与 Design 101，再转化为核心卡复杂度和卡池骨架假设 |
