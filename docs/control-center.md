@@ -1,6 +1,6 @@
 # 项目总控中心
 
-最后更新：2026-08-10
+最后更新：2026-08-13
 
 这份文档是仓库的总控面板。它不替代 `game-design-workflow/` 和 `research/` 的正式流程，而是回答四个问题：
 
@@ -27,6 +27,7 @@
 | 核心卡身份路线 | Active Research | `research/05-design-hypotheses/H-2026-05-31-core-card-identity-routes.md` |
 | 铭文纪元世界观 | Parked（拟修改暂搁） | `game-design-workflow/draft-changes/D-2026-08-10-inscription-era-worldview.md` |
 | 拓宇者「豪杰」人物志 | Idea | `game-design-workflow/idea-inbox/2026-08-10-explorer-hao-jie.md` |
+| 拓宇者「王权」人物志 | Idea | `game-design-workflow/idea-inbox/2026-08-13-explorer-wang-quan.md` |
 | 媒体拆解实验室 | Prototype Lab | `media-analysis-lab/README.md` |
 
 ## 当前总控判断
