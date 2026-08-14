@@ -136,6 +136,8 @@
 - 世界观：`game-design-workflow/idea-inbox/2026-08-10-inscription-era-worldview.md`
 - 拟修改（已搁置）：`game-design-workflow/draft-changes/D-2026-08-10-inscription-era-worldview.md`
 - 小队互补：`game-design-workflow/idea-inbox/2026-08-13-explorer-wang-quan.md`（代号「王权」）
+- 同事件另一视角：`game-design-workflow/idea-inbox/2026-08-14-explorer-pan-shi.md`（代号「磐石」，总指挥「我漏了」）
+- 队友：`game-design-workflow/idea-inbox/2026-08-14-explorer-chun-bai.md`（代号「纯白」）
 
 ## 下一步
 

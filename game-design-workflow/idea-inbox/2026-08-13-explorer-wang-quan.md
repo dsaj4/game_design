@@ -103,6 +103,8 @@
 
 - 世界观：`game-design-workflow/idea-inbox/2026-08-10-inscription-era-worldview.md`
 - 队友对照：`game-design-workflow/idea-inbox/2026-08-10-explorer-hao-jie.md`
+- 队友：`game-design-workflow/idea-inbox/2026-08-14-explorer-pan-shi.md`（外号「人才」）
+- 队友：`game-design-workflow/idea-inbox/2026-08-14-explorer-chun-bai.md`
 - 拟修改（已搁置）：`game-design-workflow/draft-changes/D-2026-08-10-inscription-era-worldview.md`
 
 ## 下一步

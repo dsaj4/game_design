@@ -83,3 +83,5 @@
 
 - `game-design-workflow/idea-inbox/2026-08-10-explorer-hao-jie.md`（拓宇者代号「豪杰」）
 - `game-design-workflow/idea-inbox/2026-08-13-explorer-wang-quan.md`（拓宇者代号「王权」）
+- `game-design-workflow/idea-inbox/2026-08-14-explorer-pan-shi.md`（拓宇者代号「磐石」）
+- `game-design-workflow/idea-inbox/2026-08-14-explorer-chun-bai.md`（拓宇者代号「纯白」）

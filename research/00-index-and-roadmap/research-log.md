@@ -2,6 +2,7 @@
 
 | 日期 | 内容 | 产出 | 下一步 |
 | --- | --- | --- | --- |
+| 2026-08-14 | 接收拓宇者人物草案「磐石」「纯白」（A 级谏言者 / EX 雪灾赎罪） | `idea-inbox/2026-08-14-explorer-pan-shi.md`、`idea-inbox/2026-08-14-explorer-chun-bai.md` | 保留 inbox；可与豪杰王权整理为小队群像提案 |
 | 2026-08-13 | 接收拓宇者人物草案「王权」（C 级适性、先承诺再兑现、与豪杰互补） | `idea-inbox/2026-08-13-explorer-wang-quan.md` | 保留 inbox；可与豪杰一并整理为小队双核提案 |
 | 2026-08-10 | 接收拓宇者人物草案「豪杰」（B 级适性、低自我戏剧化、语义塌缩救援） | `idea-inbox/2026-08-10-explorer-hao-jie.md` | 保留 inbox；若要服务默认玩家幻想再整理提案 |
 | 2026-08-10 | 接收《铭文纪元：终字天算与界外拓宇计划》世界观，评估其对唯一核心卡与共享世界的解释力 | `idea-inbox/2026-08-10-inscription-era-worldview.md`、`P/E-2026-08-10-inscription-era-worldview`、`H-2026-08-10-inscription-field-core-card-identity.md` | 收束核心卡定义与最小术语映射后复评，再考虑 draft-change |
