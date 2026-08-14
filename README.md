@@ -2,7 +2,7 @@
 
 一个面向早期游戏创意、理论学习、同类产品分析和核心玩法沉淀的 Markdown 工作流。
 
-本仓库当前服务于一款 2D 回合制卡牌对战游戏构思：玩家围绕“唯一核心卡”进行构筑，通过通用辅助卡、费用管理和组合规则形成差异化战术。仓库不直接实现游戏代码，而是提供一套可追踪、可复盘、可扩展的游戏构思系统。
+本仓库当前服务于一款围绕“唯一核心卡”展开构筑、探索、资源竞争、交易与回合制卡牌对战的 2D 系统型游戏构思。仓库不直接实现游戏代码，而是提供一套可追踪、可复盘、可扩展的游戏构思系统。
 
 ## 适合谁使用
 
@@ -13,7 +13,7 @@
 
 ## 当前项目一句话
 
-一款围绕唯一核心卡构筑组合的 2D 回合制卡牌对战游戏。玩家以机制固定、不可资源化的核心卡作为身份与构筑中心，通过通用辅助卡、费用管理和组合激活形成差异化战术。
+一款围绕唯一核心卡展开构筑、探索、资源竞争、交易与回合制卡牌对战的 2D 系统型游戏。玩家以机制固定、不可资源化的核心卡作为身份与长期资产，通过通用辅助卡、费用管理、共享世界和组合激活形成差异化路线。
 
 ## 仓库结构
 
@@ -63,12 +63,21 @@ flowchart LR
 
 - [Agent 操作手册](AGENTS.md)
 - [GitHub 协作规范](docs/github-collaboration.md)
+- [项目总控中心](docs/control-center.md)
+- [工作区地图](docs/workspace-map.md)
 - [游戏构思工作流](game-design-workflow/README.md)
 - [核心构思文档](game-design-workflow/core-concept.md)
 - [决策记录](game-design-workflow/decision-log.md)
 - [研究工作流](research/README.md)
 - [资料来源索引](research/source-index.md)
 - [当前问题清单](research/00-index-and-roadmap/current-questions.md)
+
+## 当前总控重点
+
+- 正式主线仍是“唯一核心卡 + 通用辅助卡 + 激活费用 + 组合规则表 + 共享世界资源循环 + 回合制对战”。
+- 当前阶段优先推进整体系统构思，不再只围绕卡牌战斗展开。
+- 新输入先分流到 `Idea / Proposal / Research / Evaluation`，不要直接污染 `core-concept.md`。
+- `media-analysis-lab/` 是独立实验区，用于验证游戏拆解工作流，不等同于正式设计主线。
 
 ## 发布状态
 

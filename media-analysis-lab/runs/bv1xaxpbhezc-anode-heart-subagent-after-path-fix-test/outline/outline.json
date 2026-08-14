@@ -1,0 +1,353 @@
+{
+  "game_name": "Anode Heart: Layer Null",
+  "slug": "bv1xaxpbhezc-anode-heart",
+  "scope": "BiliSum real-material Phase 1: images plus transcript plus visual notes to game analysis dossier",
+  "target_questions": [
+    "Can this BiliSum material support a comprehensive and accurate gameplay analysis dossier?",
+    "What are the core loop, combat resolution, deckbuilding constraints, in-run economy, and growth routes of Anode Heart: Layer Null?",
+    "Which structures can transfer into the current unique-core-card card-battle project?"
+  ],
+  "thesis": "The supplied materials support a concise but real Phase 1 dossier: Anode Heart: Layer Null is best described as a collection/deckbuilding card battler whose repeated pleasure comes from rebuilding a deck around color/tag synergies, then resolving dense board-state decisions through summon effects, response windows, typed energy, evolution/growth, and combat spillover. Visual evidence strongly supports the combat and system-surface claims, while market, narrative, and exact long-term progression claims remain under-evidenced.",
+  "evidence_map": [
+    {
+      "id": "T1",
+      "type": "text",
+      "path": "../source/detailed_record.md",
+      "summary": "BiliSum detailed transcript covering rules, match flow, deck adjustment, loss, and grass rebuild route.",
+      "modules": ["module-2", "module-3", "module-4", "module-5", "module-6", "module-8"],
+      "confidence": "medium",
+      "audit_status": "text-source"
+    },
+    {
+      "id": "T2",
+      "type": "text",
+      "path": "../source/knowledge_note.md",
+      "summary": "Structured summary of card attributes, card types, turn order, counters, shards, energy, evolution, and grass route.",
+      "modules": ["module-1", "module-2", "module-3", "module-4", "module-5", "module-6", "module-8"],
+      "confidence": "medium",
+      "audit_status": "text-source"
+    },
+    {
+      "id": "T3",
+      "type": "text",
+      "path": "../source/visual_enhanced_note.md",
+      "summary": "Transcript with visual anchors. Used only as text/caption evidence, not independent visual reading.",
+      "modules": ["module-3", "module-4", "module-5", "module-6"],
+      "confidence": "low",
+      "audit_status": "caption-source"
+    },
+    {
+      "id": "T4",
+      "type": "text",
+      "path": "../source/visual_note.md",
+      "summary": "Frame list and captions for 28 screenshots. Used as an index only.",
+      "modules": ["module-3", "module-4"],
+      "confidence": "low",
+      "audit_status": "caption-source"
+    },
+    {
+      "id": "V4",
+      "type": "visual-audit",
+      "path": "../source/frames/f0004.jpg",
+      "source_path_absolute": "E:\\Project\\game\\media-analysis-lab\\runs\\bv1xaxpbhezc-anode-heart\\source\\frames\\f0004.jpg",
+      "summary": "Audited board state with hand, pass action, HP/BP, shop counter, deck/discard counters, and deployed units.",
+      "modules": ["module-2", "module-3", "module-4", "module-8"],
+      "confidence": "medium",
+      "status": "audited",
+      "direct_image_read": true,
+      "illustration_candidate": true,
+      "caption_for_dossier": "Board state shows the battle loop tying hand, deployed units, pass timing, HP/BP, shop counter, and deck/discard information into one decision surface."
+    },
+    {
+      "id": "V10",
+      "type": "visual-audit",
+      "path": "../source/frames/f0010.jpg",
+      "source_path_absolute": "E:\\Project\\game\\media-analysis-lab\\runs\\bv1xaxpbhezc-anode-heart\\source\\frames\\f0010.jpg",
+      "summary": "Audited tooltip showing tags, no cost, summon status effect, HP/BP, and visible hand/board context.",
+      "modules": ["module-3", "module-4", "module-6"],
+      "confidence": "medium",
+      "status": "audited",
+      "direct_image_read": true,
+      "illustration_candidate": true,
+      "caption_for_dossier": "Card inspection makes tactical rules visible: a summon can apply Dazed, while tags and cost are shown before committing the play."
+    },
+    {
+      "id": "V13",
+      "type": "visual-audit",
+      "path": "../source/frames/f0013.jpg",
+      "source_path_absolute": "E:\\Project\\game\\media-analysis-lab\\runs\\bv1xaxpbhezc-anode-heart\\source\\frames\\f0013.jpg",
+      "summary": "Audited near-full board with shop/resource, HP/BP, and deck-state counters.",
+      "modules": ["module-3", "module-4", "module-6"],
+      "confidence": "medium",
+      "status": "audited",
+      "direct_image_read": true,
+      "illustration_candidate": true,
+      "caption_for_dossier": "A near-full board shows the combat layer sharing space with shop/resource counters and deck state, making capacity a practical constraint."
+    },
+    {
+      "id": "V14",
+      "type": "visual-audit",
+      "path": "../source/frames/f0014.jpg",
+      "source_path_absolute": "E:\\Project\\game\\media-analysis-lab\\runs\\bv1xaxpbhezc-anode-heart\\source\\frames\\f0014.jpg",
+      "summary": "Audited grass/native card tooltip linking tag selection, HP growth, bonus growth, and native energy generation.",
+      "modules": ["module-3", "module-4", "module-6"],
+      "confidence": "medium",
+      "status": "audited",
+      "direct_image_read": true,
+      "illustration_candidate": true,
+      "caption_for_dossier": "The inspected grass card links tag selection, HP growth, bonus growth, and native energy generation in a single effect surface."
+    },
+    {
+      "id": "V15",
+      "type": "visual-audit",
+      "path": "../source/frames/f0015.jpg",
+      "source_path_absolute": "E:\\Project\\game\\media-analysis-lab\\runs\\bv1xaxpbhezc-anode-heart\\source\\frames\\f0015.jpg",
+      "summary": "Audited level-marked unit with higher stats, supporting the visible growth/evolution layer.",
+      "modules": ["module-4", "module-5", "module-6"],
+      "confidence": "medium",
+      "status": "audited",
+      "direct_image_read": true,
+      "illustration_candidate": true,
+      "caption_for_dossier": "A level-marked unit with higher stats makes the growth/evolution layer visible, while exact prerequisites still require text evidence."
+    },
+    {
+      "id": "V19",
+      "type": "visual-audit",
+      "path": "../source/frames/f0019.jpg",
+      "source_path_absolute": "E:\\Project\\game\\media-analysis-lab\\runs\\bv1xaxpbhezc-anode-heart\\source\\frames\\f0019.jpg",
+      "summary": "Audited grass board with many deployed units and HP-change feedback, supporting recovery/growth board pressure.",
+      "modules": ["module-3", "module-4", "module-5", "module-6"],
+      "confidence": "medium",
+      "status": "audited",
+      "direct_image_read": true,
+      "illustration_candidate": true,
+      "caption_for_dossier": "The grass board shows accumulated unit presence and HP-change feedback, illustrating how recovery/growth can turn into board pressure."
+    },
+    {
+      "id": "V23",
+      "type": "visual-audit",
+      "path": "../source/frames/f0023.jpg",
+      "source_path_absolute": "E:\\Project\\game\\media-analysis-lab\\runs\\bv1xaxpbhezc-anode-heart\\source\\frames\\f0023.jpg",
+      "summary": "Audited Bear tooltip showing typed native cost, block/spillover wording, On Summon draw, and HP/BP fields.",
+      "modules": ["module-3", "module-4", "module-6"],
+      "confidence": "medium",
+      "status": "audited",
+      "direct_image_read": true,
+      "illustration_candidate": true,
+      "caption_for_dossier": "The inspected Bear unit exposes two architecture pieces at once: typed cost and a block rule that prevents damage spillover."
+    },
+    {
+      "id": "V25",
+      "type": "visual-audit",
+      "path": "../source/frames/f0025.jpg",
+      "source_path_absolute": "E:\\Project\\game\\media-analysis-lab\\runs\\bv1xaxpbhezc-anode-heart\\source\\frames\\f0025.jpg",
+      "summary": "Audited response prompt instructing the player to play a card in response or pass.",
+      "modules": ["module-3", "module-4", "module-8"],
+      "confidence": "medium",
+      "status": "audited",
+      "direct_image_read": true,
+      "illustration_candidate": true,
+      "caption_for_dossier": "The response prompt shows the interaction model for counterplay: answer with a legal card or explicitly pass."
+    }
+  ],
+  "visual_evidence": [
+    {
+      "id": "V4",
+      "type": "visual-audit",
+      "path": "../source/frames/f0004.jpg",
+      "source_path_absolute": "E:\\Project\\game\\media-analysis-lab\\runs\\bv1xaxpbhezc-anode-heart\\source\\frames\\f0004.jpg",
+      "summary": "Audited board state with hand, pass action, HP/BP, shop counter, deck/discard counters, and deployed units.",
+      "modules": ["module-2", "module-3", "module-4", "module-8"],
+      "confidence": "medium",
+      "status": "audited",
+      "direct_image_read": true,
+      "image_id": "I4",
+      "illustration_candidate": true,
+      "caption_for_dossier": "Board state shows the battle loop tying hand, deployed units, pass timing, HP/BP, shop counter, and deck/discard information into one decision surface."
+    },
+    {
+      "id": "V10",
+      "type": "visual-audit",
+      "path": "../source/frames/f0010.jpg",
+      "source_path_absolute": "E:\\Project\\game\\media-analysis-lab\\runs\\bv1xaxpbhezc-anode-heart\\source\\frames\\f0010.jpg",
+      "summary": "Audited tooltip showing tags, no cost, summon status effect, HP/BP, and visible hand/board context.",
+      "modules": ["module-3", "module-4", "module-6"],
+      "confidence": "medium",
+      "status": "audited",
+      "direct_image_read": true,
+      "image_id": "I10",
+      "illustration_candidate": true,
+      "caption_for_dossier": "Card inspection makes tactical rules visible: a summon can apply Dazed, while tags and cost are shown before committing the play."
+    },
+    {
+      "id": "V13",
+      "type": "visual-audit",
+      "path": "../source/frames/f0013.jpg",
+      "source_path_absolute": "E:\\Project\\game\\media-analysis-lab\\runs\\bv1xaxpbhezc-anode-heart\\source\\frames\\f0013.jpg",
+      "summary": "Audited near-full board with shop/resource, HP/BP, and deck-state counters.",
+      "modules": ["module-3", "module-4", "module-6"],
+      "confidence": "medium",
+      "status": "audited",
+      "direct_image_read": true,
+      "image_id": "I13",
+      "illustration_candidate": true,
+      "caption_for_dossier": "A near-full board shows the combat layer sharing space with shop/resource counters and deck state, making capacity a practical constraint."
+    },
+    {
+      "id": "V14",
+      "type": "visual-audit",
+      "path": "../source/frames/f0014.jpg",
+      "source_path_absolute": "E:\\Project\\game\\media-analysis-lab\\runs\\bv1xaxpbhezc-anode-heart\\source\\frames\\f0014.jpg",
+      "summary": "Audited grass/native card tooltip linking tag selection, HP growth, bonus growth, and native energy generation.",
+      "modules": ["module-3", "module-4", "module-6"],
+      "confidence": "medium",
+      "status": "audited",
+      "direct_image_read": true,
+      "image_id": "I14",
+      "illustration_candidate": true,
+      "caption_for_dossier": "The inspected grass card links tag selection, HP growth, bonus growth, and native energy generation in a single effect surface."
+    },
+    {
+      "id": "V15",
+      "type": "visual-audit",
+      "path": "../source/frames/f0015.jpg",
+      "source_path_absolute": "E:\\Project\\game\\media-analysis-lab\\runs\\bv1xaxpbhezc-anode-heart\\source\\frames\\f0015.jpg",
+      "summary": "Audited level-marked unit with higher stats, supporting the visible growth/evolution layer.",
+      "modules": ["module-4", "module-5", "module-6"],
+      "confidence": "medium",
+      "status": "audited",
+      "direct_image_read": true,
+      "image_id": "I15",
+      "illustration_candidate": true,
+      "caption_for_dossier": "A level-marked unit with higher stats makes the growth/evolution layer visible, while exact prerequisites still require text evidence."
+    },
+    {
+      "id": "V19",
+      "type": "visual-audit",
+      "path": "../source/frames/f0019.jpg",
+      "source_path_absolute": "E:\\Project\\game\\media-analysis-lab\\runs\\bv1xaxpbhezc-anode-heart\\source\\frames\\f0019.jpg",
+      "summary": "Audited grass board with many deployed units and HP-change feedback, supporting recovery/growth board pressure.",
+      "modules": ["module-3", "module-4", "module-5", "module-6"],
+      "confidence": "medium",
+      "status": "audited",
+      "direct_image_read": true,
+      "image_id": "I19",
+      "illustration_candidate": true,
+      "caption_for_dossier": "The grass board shows accumulated unit presence and HP-change feedback, illustrating how recovery/growth can turn into board pressure."
+    },
+    {
+      "id": "V23",
+      "type": "visual-audit",
+      "path": "../source/frames/f0023.jpg",
+      "source_path_absolute": "E:\\Project\\game\\media-analysis-lab\\runs\\bv1xaxpbhezc-anode-heart\\source\\frames\\f0023.jpg",
+      "summary": "Audited Bear tooltip showing typed native cost, block/spillover wording, On Summon draw, and HP/BP fields.",
+      "modules": ["module-3", "module-4", "module-6"],
+      "confidence": "medium",
+      "status": "audited",
+      "direct_image_read": true,
+      "image_id": "I23",
+      "illustration_candidate": true,
+      "caption_for_dossier": "The inspected Bear unit exposes two architecture pieces at once: typed cost and a block rule that prevents damage spillover."
+    },
+    {
+      "id": "V25",
+      "type": "visual-audit",
+      "path": "../source/frames/f0025.jpg",
+      "source_path_absolute": "E:\\Project\\game\\media-analysis-lab\\runs\\bv1xaxpbhezc-anode-heart\\source\\frames\\f0025.jpg",
+      "summary": "Audited response prompt instructing the player to play a card in response or pass.",
+      "modules": ["module-3", "module-4", "module-8"],
+      "confidence": "medium",
+      "status": "audited",
+      "direct_image_read": true,
+      "image_id": "I25",
+      "illustration_candidate": true,
+      "caption_for_dossier": "The response prompt shows the interaction model for counterplay: answer with a legal card or explicitly pass."
+    }
+  ],
+  "modules": [
+    {
+      "id": "module-1",
+      "title": "Game Positioning, Basic Facts, And Market Context",
+      "claim": "The material supports basic positioning as a card-collection and deckbuilding battle game, but not a commercial or market dossier. Facts such as release, sales, audience size, retention, and live-version status are outside the supplied evidence.",
+      "evidence": ["T2"],
+      "open_questions": ["No verified release, platform, pricing, sales, rating, or live update data in the supplied pack."],
+      "write_priority": "medium",
+      "illustration_candidates": []
+    },
+    {
+      "id": "module-2",
+      "title": "Global Player Experience And Design Goals",
+      "claim": "The experienced arc is collection -> deck hypothesis -> battle test -> failure diagnosis -> route/color rebuild. The emotional driver is not only winning one battle, but discovering that a color/tag route changes what counts as a playable hand and a strong board.",
+      "evidence": ["T1", "T2", "V4"],
+      "open_questions": ["The pack does not prove how representative this play route is across the full game."],
+      "write_priority": "medium",
+      "illustration_candidates": ["V4"]
+    },
+    {
+      "id": "module-3",
+      "title": "Core Gameplay Loop",
+      "claim": "The core loop is to collect/build a deck, enter regional BO3-style battles, inspect and play cards onto a lane board, resolve summon/status/response/combat effects, then use the result to revise deck composition and route strategy.",
+      "evidence": ["T1", "T2", "V4", "V10", "V13", "V14", "V19", "V23", "V25"],
+      "open_questions": ["Exact turn-order and BO3 details should be verified from original footage if this becomes a polished dossier."],
+      "write_priority": "high",
+      "illustration_candidates": ["V4", "V10", "V25"]
+    },
+    {
+      "id": "module-4",
+      "title": "Full System Architecture Breakdown",
+      "claim": "The architecture combines collection/regions, deckbuilding constraints, a lane-like unit board, typed energy, card tags, summon/trigger effects, counter/response windows, block/spillover combat, shop/shard economy, and evolution/growth. The strongest system insight is that many layers meet on the combat screen rather than living in separate menus.",
+      "evidence": ["T1", "T2", "V4", "V10", "V13", "V14", "V15", "V19", "V23", "V25"],
+      "open_questions": ["Exact formulas, maximum board size, full card taxonomy, and route acquisition rules need source verification beyond this pack."],
+      "write_priority": "high",
+      "illustration_candidates": ["V13", "V14", "V15", "V19", "V23"]
+    },
+    {
+      "id": "module-5",
+      "title": "Content And Level Structure",
+      "claim": "Evidence points to color/attribute routes, regional acquisition, bosses, and a transition from colorless to grass/native cards. The pack supports content structure at the route-and-card-family level, not a full content map.",
+      "evidence": ["T1", "T2", "V15", "V19"],
+      "open_questions": ["The number of regions, boss order, unlock rules, and complete card list are not independently verified here."],
+      "write_priority": "medium",
+      "illustration_candidates": ["V15", "V19"]
+    },
+    {
+      "id": "module-6",
+      "title": "Numerical Systems And Economy Loops",
+      "claim": "The visible economy has at least three layers: combat stats HP/BP, typed energy/costs, and a shop/shard-like in-run resource. These layers create hand playability risk and reward routes that generate extra energy, draw, growth, or recovery.",
+      "evidence": ["T1", "T2", "V10", "V13", "V14", "V15", "V19", "V23"],
+      "open_questions": ["Exact shard income, card cost formulas, draw rates, and upgrade math are not fully confirmed."],
+      "write_priority": "medium",
+      "illustration_candidates": ["V14", "V23"]
+    },
+    {
+      "id": "module-7",
+      "title": "Narrative, Character/IP, Audio-Visual Packaging",
+      "claim": "Materials are thin for narrative and audio. Visual evidence supports a compact pixel-art UI with creature cards and readable tactical panels, but not a robust story/IP analysis.",
+      "evidence": ["V4", "V10"],
+      "open_questions": ["No direct audio, story, character progression, or worldbuilding evidence was audited."],
+      "write_priority": "low",
+      "illustration_candidates": []
+    },
+    {
+      "id": "module-8",
+      "title": "Strengths, Weaknesses, And Transferable Optimizations",
+      "claim": "The strongest transferable lesson is the way visible card tags, typed costs, response windows, and board feedback let a complex deckbuilding game remain diagnosable. The main risk is cognitive load and draw/energy variance, especially when a deck route lacks enough playable units or matching energy.",
+      "evidence": ["T1", "T2", "V4", "V25"],
+      "open_questions": ["Need original play sessions or player data to separate one-off variance from systemic friction."],
+      "write_priority": "high",
+      "illustration_candidates": ["V4", "V25"]
+    }
+  ],
+  "diagrams": [
+    {
+      "type": "core_loop",
+      "module": "module-3",
+      "purpose": "Show the loop from collect/build to combat decision, resolution feedback, loss/win diagnosis, and deck/route rebuild."
+    },
+    {
+      "type": "system_relation",
+      "module": "module-4",
+      "purpose": "Show how card tags, typed energy, board slots, response windows, shop/shards, and evolution/growth feed into combat outcomes."
+    }
+  ]
+}
