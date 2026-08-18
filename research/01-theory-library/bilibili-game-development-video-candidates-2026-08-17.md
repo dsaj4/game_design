@@ -2,7 +2,11 @@
 
 日期：2026-08-17
 
-状态：Candidate / 未转写 / 未摘要 / 待用户选择
+状态：Research Input / 已完成 64 篇 `knowledge_note` / 22 条 `knowledge_note` 未完成 / 1 条旧模式记录排除
+
+资料包入口：[B 站游戏开发知识笔记资料包](bilibili-game-development-knowledge-notes-2026-08-18/README.md)
+
+> 资料包只收录有效知识笔记，不包含原始视频、截图或完整转写。未完成项目和可追溯任务信息见资料包内的 `failed-items.md` 与 `manifest.json`。
 
 ## 用途与边界
 
@@ -206,4 +210,3 @@
 2. 确认转写的笔记模式、润色方式与视觉参数。
 3. 转写完成后，在 `research/02-theory-digests/` 形成摘要。
 4. 只有能够回答“它如何改变本项目设计判断”的内容，才继续转成 `research/05-design-hypotheses/` 中的可验证假设。
-

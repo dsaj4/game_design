@@ -8,3 +8,7 @@
 - `card-game-design.md`：卡牌游戏设计文章、书籍、视频、课程。
 - `learning-methods.md`：学习方法与研究方法。
 
+## 已登记资料包
+
+- [B 站游戏开发视频候选清单](bilibili-game-development-video-candidates-2026-08-17.md)：收藏夹候选、选择状态与来源记录。
+- [B 站游戏开发知识笔记资料包](bilibili-game-development-knowledge-notes-2026-08-18/README.md)：64 篇 `knowledge_note`、来源索引、哈希清单与未完成项目状态。
