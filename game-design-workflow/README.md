@@ -11,7 +11,12 @@
 - `draft-changes/`：拟写入 `core-concept.md` 的修改草案。
 - `decision-log.md`：正式采纳、搁置、否决的决策记录。
 - `market-reference.md`：同类产品、相近玩法、市场观察记录。
-- `templates/`：想法、提案、评估、拟修改模板。
+- `templates/`：想法、提案、评估、拟修改与 GDD 写作模板。
+
+## GDD 写作入口
+
+- [GDD 写作要求与模板](templates/gdd-writing-requirements-and-template.md)：先按 `GDD-0 / GDD-1 / GDD-2` 选择完成度，再把已成形构思整理成可讨论、可实现、可测试和可追踪的设计合同。
+- [GDD 写作知识 Wiki](../research/02-theory-digests/gdd-writing-knowledge-wiki-2026-08-18.md)：模板背后的理论、重点材料、判断框架与来源索引。
 
 ## 状态流转
 
@@ -37,4 +42,3 @@
 - 拟修改：`D-YYYY-MM-DD-short-name.md`
 
 示例：`P-2026-05-13-memory-maze.md`
-
