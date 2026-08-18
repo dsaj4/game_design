@@ -35,14 +35,22 @@ flowchart TB
     end
 
     subgraph G[game-design-workflow：构思决策系统]
-        G0[零散想法]
+        G0["原始想法隔离区"]
+        GQ["grill-with-docs 资格闸门"]
+        GM["正式 GDD 素材"]
+        GG["GDD"]
         G1[提案]
         G2[评估]
         G3[拟修改]
         G4[决策记录]
         G5[核心构思文档]
 
-        G0 --> G1
+        G0 --> GQ
+        GQ -->|通过| GM
+        GQ -->|未通过| G0
+        GM --> GG
+        GM --> G1
+        GG --> G1
         G1 --> G2
         G2 --> G3
         G3 --> G4
@@ -57,9 +65,9 @@ flowchart TB
 
 ### 1. 输入文档
 
-输入文档负责收集素材，不要求成熟。
+输入文档负责捕获原始材料。它们可以不成熟，但不能被正式设计链直接消费。
 
-- `game-design-workflow/idea-inbox/`：零散想法。
+- `game-design-workflow/idea-inbox/`：原始想法隔离区；允许模糊，只代表已捕获。
 - `research/01-theory-library/`：理论材料入口。
 - `research/03-product-case-studies/`：单个产品案例。
 - `research/raw-sources/`：原始资料归档。
@@ -70,6 +78,8 @@ flowchart TB
 
 加工文档负责把材料变成可讨论、可判断的内容。
 
+- `game-design-workflow/idea-materials/`：通过资格闸门、可以被 GDD 或 Proposal 引用的正式素材。
+- `game-design-workflow/gdd/`：按统一模板组织的设计合同。
 - `game-design-workflow/idea-proposals/`：把想法整理成玩法假设。
 - `game-design-workflow/evaluations/`：判断提案是否值得推进。
 - `game-design-workflow/draft-changes/`：准备写入核心文档的具体文本。
@@ -114,15 +124,26 @@ flowchart TB
 
 1. 复制 `game-design-workflow/templates/idea-template.md`。
 2. 在 `game-design-workflow/idea-inbox/` 新建文件。
-3. 用自然语言写清楚原始想法、来源和可能带来的玩家体验。
-4. 如果想法足够清楚，再复制 `proposal-template.md`，整理成提案。
+3. 用自然语言保存原始表达和来源；此时状态是 `Raw Idea / Unqualified`。
+4. agent 使用 `grill-with-docs` 一次澄清一个关键问题，并根据仓库已有结论检查冲突。
+5. 通过资格闸门后，复制 `qualified-gdd-material-template.md` 写入 `idea-materials/`。
+6. 合格素材可以进入 GDD 或 Proposal；inbox 内容不能直接跳过晋级。
 
 文件命名建议：
 
 ```text
 YYYY-MM-DD-short-name.md
+M-YYYY-MM-DD-short-name.md
 P-YYYY-MM-DD-short-name.md
 ```
+
+### 想写 GDD
+
+1. 使用 `game-design-workflow/templates/gdd-writing-requirements-and-template.md`，先选择 `GDD-0 / GDD-1 / GDD-2`。
+2. agent 检索 `idea-materials/`，在相关章节主动提出可以纳入的正式素材。
+3. agent 同时检索 `idea-inbox/`，但只把相关内容列为未确认候选。
+4. 用户想采用某个 inbox 候选时，先完成资格确认和晋级，再写入 GDD。
+5. GDD 文件保存在 `game-design-workflow/gdd/`；写入 GDD 不等于写入核心构思。
 
 ### 想做调研
 
@@ -138,11 +159,13 @@ P-YYYY-MM-DD-short-name.md
 
 ## 状态流转
 
-游戏构思主流程有五个状态：
+游戏构思主流程从原始捕获开始，经过素材资格确认后才进入正式设计链：
 
 | 状态 | 位置 | 作用 |
 | --- | --- | --- |
-| Idea | `idea-inbox/` | 保存零散灵感 |
+| Raw Idea / Unqualified | `idea-inbox/` | 隔离保存尚未达标的原始想法 |
+| Qualified GDD Material | `idea-materials/` | 保存可被 GDD/Proposal 正式引用的素材 |
+| GDD | `gdd/` | 按统一模板组织体验、规则、验收和验证 |
 | Proposal | `idea-proposals/` | 整理为可讨论的玩法假设 |
 | Evaluation | `evaluations/` | 判断是否值得推进 |
 | Draft Change | `draft-changes/` | 写出准备进入核心文档的文本 |
@@ -185,7 +208,7 @@ P-YYYY-MM-DD-short-name.md
 - 成功和失败信号分别是什么。
 - 它与同类产品相比有什么差异。
 
-如果这些还说不清，先留在 `idea-inbox/` 或 `research/05-design-hypotheses/`。
+如果这些还说不清，内容只能留在 `idea-inbox/` 或研究假设区，不能进入正式素材库、GDD 或 Proposal。
 
 ## 维护规则
 
@@ -193,5 +216,5 @@ P-YYYY-MM-DD-short-name.md
 - 不删除被否决或搁置的思路，除非它是重复文件或明显错误。
 - 原始资料放在 `raw-sources/`，加工后的理解放在摘要、案例或假设中。
 - 新增模板时，要让新手能照着填，而不是只给抽象概念。
+- 不批量把历史 inbox 内容晋级为正式素材；只在实际使用前逐份复审。
 - `archive/` 用于历史快照，不作为日常编辑入口。
-

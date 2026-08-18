@@ -1,6 +1,6 @@
 # 项目总控中心
 
-最后更新：2026-07-01
+最后更新：2026-08-18
 
 这份文档是仓库的总控面板。它不替代 `game-design-workflow/` 和 `research/` 的正式流程，而是回答四个问题：
 
@@ -40,7 +40,7 @@
 1. 先把整体系统闭环说清：战斗、资源、地图、掉落、交易和世界目标如何互相驱动。
 2. 明确战斗在整体系统中的职责，避免它既被削弱成附属层，又重新吞掉所有优先级。
 3. 围绕“核心卡如何同时成为战斗中心、世界身份和长期资产”推进研究、提案与评估。
-4. 把新输入稳定分流到正确目录，避免聊天结论直接污染 `core-concept.md`。
+4. 把新输入稳定分流到正确目录，避免聊天结论直接污染 `core-concept.md`；尤其不能让未达标想法绕过素材资格闸门。
 
 ### 当前活跃问题
 
@@ -56,7 +56,9 @@
 
 | 区域 | 用途 | 进入条件 | 输出状态 |
 | --- | --- | --- | --- |
-| `game-design-workflow/idea-inbox/` | 保存零散灵感 | 想法还不完整 | Idea |
+| `game-design-workflow/idea-inbox/` | 原始想法隔离区 | 想法还不完整 | Raw Idea / Unqualified |
+| `game-design-workflow/idea-materials/` | 正式想法素材库 | 已通过 `grill-with-docs` 资格确认 | Qualified GDD Material |
+| `game-design-workflow/gdd/` | 统一模板形成的设计合同 | 已选择 GDD-0/1/2 并完成素材审查 | GDD |
 | `game-design-workflow/idea-proposals/` | 整理玩法假设 | 已能说清玩家行为和乐趣 | Proposal |
 | `game-design-workflow/evaluations/` | 判断值不值得推进 | Proposal 已成形 | Evaluation |
 | `game-design-workflow/draft-changes/` | 准备改正式设定 | 已有提案和评估支撑 | Draft Change |
@@ -73,7 +75,9 @@
 
 每次接到输入时，优先判定它属于：
 
-- Idea
+- Raw Idea / Unqualified
+- Qualified GDD Material
+- GDD
 - Proposal
 - Evaluation
 - Draft Change
@@ -83,7 +87,7 @@
 - Parked
 - Rejected
 
-如果信息不够，不要卡住流程，先落 `idea-inbox/` 或研究目录。
+如果信息不够，只能落 `idea-inbox/` 并标记 `Raw Idea / Unqualified`；使用 [`grill-with-docs`](C:/Users/Administrator/.codex/skills/grill-with-docs/SKILL.md) 逐项澄清，通过后才可进入 `idea-materials/`、GDD 或 Proposal。
 
 ### 2. 正式内容和实验内容分开
 

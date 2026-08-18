@@ -29,15 +29,19 @@
 
 1. 先读 [新手架构说明](docs/architecture-for-beginners.md)，理解两个主系统如何配合。
 2. 再读 [核心构思文档](game-design-workflow/core-concept.md)，了解当前已经确认的游戏方向。
-3. 如果你有一个新想法，复制 [想法模板](game-design-workflow/templates/idea-template.md)，写入 `game-design-workflow/idea-inbox/`。
-4. 如果你做了资料学习或同类产品分析，从 [研究工作流](research/README.md) 开始，把结论沉淀为可验证假设。
-5. 只有经过提案、评估和拟修改确认的内容，才进入 `game-design-workflow/core-concept.md`。
+3. 如果你有一个新想法，先用 [原始想法模板](game-design-workflow/templates/idea-template.md) 放入 `idea-inbox/`；它此时只是隔离保存，不能进入正式设计链。
+4. agent 使用 `grill-with-docs` 把想法澄清为符合 GDD 要求的素材，通过后写入 `idea-materials/`。
+5. 如果你要写 GDD，使用 [GDD 写作要求与模板](game-design-workflow/templates/gdd-writing-requirements-and-template.md)，并让 agent 主动检索正式素材和相关 inbox 候选。
+6. 如果你做了资料学习或同类产品分析，从 [研究工作流](research/README.md) 开始，把结论沉淀为可验证假设。
+7. 只有经过提案、评估和拟修改确认的内容，才进入 `game-design-workflow/core-concept.md`。
 
 ## 核心工作流
 
 ```mermaid
 flowchart LR
-    A[零散想法] --> B[提案]
+    A["原始想法：Idea Inbox"] --> Q["grill-with-docs 资格闸门"]
+    Q --> M["合格 GDD 素材"]
+    M --> B["GDD / 提案"]
     B --> C[评估]
     C --> D[核心文档拟修改]
     D --> E{决策}
@@ -54,6 +58,9 @@ flowchart LR
 ## 关键原则
 
 - 核心文档只写已经确认值得保留的内容。
+- `idea-inbox/` 只隔离保存原始想法；模糊内容不能作为 GDD、提案或核心构思的有效材料。
+- 只有通过 `grill-with-docs` 资格闸门并进入 `idea-materials/` 的内容，才能被正式设计文档引用。
+- 写 GDD 时必须使用统一模板，并主动审查正式素材与相关 inbox 候选。
 - 调研结论不能直接改核心构思，必须先变成设计假设或提案。
 - 评估阶段只判断核心玩法是否值得继续，不提前展开完整数值系统。
 - 每次正式修改核心构思，都要同步更新决策记录。
@@ -62,10 +69,14 @@ flowchart LR
 ## 主要入口
 
 - [Agent 操作手册](AGENTS.md)
+- [领域词汇](CONTEXT.md)
 - [GitHub 协作规范](docs/github-collaboration.md)
 - [项目总控中心](docs/control-center.md)
 - [工作区地图](docs/workspace-map.md)
 - [游戏构思工作流](game-design-workflow/README.md)
+- [正式想法素材库](game-design-workflow/idea-materials/README.md)
+- [GDD 文档区](game-design-workflow/gdd/README.md)
+- [GDD 写作要求与模板](game-design-workflow/templates/gdd-writing-requirements-and-template.md)
 - [核心构思文档](game-design-workflow/core-concept.md)
 - [决策记录](game-design-workflow/decision-log.md)
 - [研究工作流](research/README.md)
@@ -76,7 +87,7 @@ flowchart LR
 
 - 正式主线仍是“唯一核心卡 + 通用辅助卡 + 激活费用 + 组合规则表 + 共享世界资源循环 + 回合制对战”。
 - 当前阶段优先推进整体系统构思，不再只围绕卡牌战斗展开。
-- 新输入先分流到 `Idea / Proposal / Research / Evaluation`，不要直接污染 `core-concept.md`。
+- 新输入先分流到 `Raw Idea / Qualified GDD Material / GDD / Proposal / Research / Evaluation`；未通过资格闸门的内容只能留在 inbox。
 - `media-analysis-lab/` 是独立实验区，用于验证游戏拆解工作流，不等同于正式设计主线。
 
 ## 发布状态

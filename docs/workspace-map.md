@@ -1,6 +1,6 @@
 # 工作区地图
 
-最后更新：2026-07-01
+最后更新：2026-08-18
 
 这份文档回答一个实际问题：当我们有新内容时，具体应该写到哪里。
 
@@ -25,9 +25,11 @@ E:/Project/game
 常见入口：
 
 - 突然想到一个机制、卡牌效果、规则变化：
-  写入 `idea-inbox/`
+  先写入 `idea-inbox/`，通过 `grill-with-docs` 后再晋级 `idea-materials/`
+- 想写 GDD、需求文档或系统规格：
+  使用统一 GDD 模板，写入 `gdd/`，并先审查 `idea-materials/` 与相关 `idea-inbox/`
 - 想认真讨论一个机制值不值得做：
-  写入 `idea-proposals/`
+  只有已有合格素材时写入 `idea-proposals/`；否则先完成资格确认
 - 想给某个提案下判断：
   写入 `evaluations/`
 - 想改正式设定：
@@ -96,7 +98,9 @@ E:/Project/game
 
 | 你手上的内容 | 应该写入 |
 | --- | --- |
-| 一个零散点子 | `game-design-workflow/idea-inbox/` |
+| 一个零散点子 | `game-design-workflow/idea-inbox/`（Raw Idea / Unqualified） |
+| 一个通过资格确认的想法素材 | `game-design-workflow/idea-materials/` |
+| 一份 GDD/系统规格文档 | `game-design-workflow/gdd/` |
 | 一个成形玩法假设 | `game-design-workflow/idea-proposals/` |
 | 一个是否值得做的判断 | `game-design-workflow/evaluations/` |
 | 一个准备写进正式设定的文本 | `game-design-workflow/draft-changes/` |

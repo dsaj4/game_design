@@ -1,0 +1,27 @@
+# 游戏构思系统领域词汇
+
+本文档只定义游戏构思系统中的规范术语，不记录具体玩法规格或实现细节。
+
+## 原始想法（Raw Idea）
+
+用户刚提出、尚未通过资格确认的自然语言构思。原始想法可以模糊、不完整或互相矛盾，只能保存在原始想法隔离区，不能作为 GDD、Proposal、Evaluation 或核心构思的有效依据。
+
+## 原始想法隔离区（Idea Inbox）
+
+`game-design-workflow/idea-inbox/`。用于防止灵感丢失，同时把未达标内容与正式设计链隔离。进入此目录只代表“已捕获”，不代表内容正确、可用、值得推进或符合 GDD 要求。
+
+## 合格 GDD 素材（Qualified GDD Material）
+
+经过 `grill-with-docs` 逐项澄清，已经能说明来源、设计对象、玩家处境或设计功能、玩家行为与反馈、预期体验、与当前构思的关系，以及待验证问题的想法素材。合格只表示它可以被 GDD 或 Proposal 正式引用，不表示它已经被采纳。
+
+## 正式想法素材库（Formal Idea Material Library）
+
+`game-design-workflow/idea-materials/`。只保存合格 GDD 素材。每份素材必须链接其原始想法和资格确认记录，并继续保留 `Hypothesis`、`Unknown` 等证据状态。
+
+## GDD
+
+按照 `game-design-workflow/templates/gdd-writing-requirements-and-template.md` 写作的设计合同。GDD 负责把玩家体验、规则、系统状态、交互反馈、验收与验证组织成可沟通、可实现、可测试和可追踪的文档。
+
+## 核心构思（Core Concept）
+
+已经经过提案、评估、拟修改并被明确采纳的游戏设计主干。合格 GDD 素材或写入 GDD 的内容都不会自动成为核心构思。
