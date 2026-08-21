@@ -104,6 +104,7 @@ def test_persistent_combo_uses_slot_and_ticks_twice(catalog) -> None:
 
     assert len(defender.statuses) == 1
     assert defender.statuses[0].remaining_triggers == 2
+    assert attacker.health == 29  # attack-attribute material counterattacks in defense
     shield_after_exchange = defender.shield
 
     tick_owner_turn_start(catalog, defender)

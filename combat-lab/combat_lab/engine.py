@@ -140,6 +140,12 @@ def tick_owner_turn_start(catalog: Catalog, player: PlayerState) -> None:
     player.statuses = remaining
 
 
+def release_prepared(player: PlayerState) -> None:
+    """Return every unused defense-preparation card after the attack window closes."""
+    player.hand.extend(player.prepared)
+    player.prepared.clear()
+
+
 def _resolve_cards_and_combo(
     actor: PlayerState,
     target: PlayerState,
@@ -266,4 +272,3 @@ def _commit(destination: PlayerState, source: PlayerState) -> None:
     destination.deck = source.deck
     destination.discard = source.discard
     destination.statuses = source.statuses
-
