@@ -1,6 +1,11 @@
 from pathlib import Path
 
-from combat_lab.actions import enumerate_combo_actions
+from combat_lab.actions import (
+    ComboAction,
+    StandaloneAction,
+    enumerate_combat_actions,
+    enumerate_combo_actions,
+)
 from combat_lab.catalog import load_catalog
 
 
@@ -54,3 +59,31 @@ def test_attack_enumeration_never_returns_defense_combo() -> None:
 
     assert {action.combo_id for action in actions} == {"row_against_current"}
 
+
+def test_energy_filtered_actions_include_one_cost_standalones() -> None:
+    catalog = load_catalog(DATA_DIR)
+    hand = ["lamb_charge", "tiger_pounce"]
+
+    low_energy = enumerate_combat_actions(
+        catalog,
+        "sheep_core",
+        hand,
+        "attack",
+        energy=1,
+    )
+    enough_energy = enumerate_combat_actions(
+        catalog,
+        "sheep_core",
+        hand,
+        "attack",
+        energy=2,
+    )
+
+    assert low_energy == [
+        StandaloneAction("lamb_charge"),
+        StandaloneAction("tiger_pounce"),
+    ]
+    assert ComboAction(
+        "sheep_enters_tiger_mouth",
+        ("lamb_charge", "tiger_pounce"),
+    ) in enough_energy

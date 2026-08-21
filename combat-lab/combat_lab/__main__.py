@@ -7,12 +7,28 @@ from pathlib import Path
 
 from .actions import enumerate_combo_actions
 from .analysis import analyze_availability
-from .catalog import load_catalog
+from .catalog import load_catalog, with_combo_costs
 from .policies import PROFILES
-from .simulation import simulate_matchup
+from .simulation import GameConfig, simulate_matchup
 
 
 DATA_DIR = Path(__file__).parents[1] / "data"
+
+
+def _parse_combo_costs(
+    parser: argparse.ArgumentParser,
+    values: list[str],
+) -> dict[str, int]:
+    overrides = {}
+    for value in values:
+        combo_id, separator, raw_cost = value.partition("=")
+        if not separator or not combo_id or not raw_cost:
+            parser.error(f"invalid --combo-cost value: {value}")
+        try:
+            overrides[combo_id] = int(raw_cost)
+        except ValueError:
+            parser.error(f"invalid --combo-cost value: {value}")
+    return overrides
 
 
 def main() -> None:
@@ -25,6 +41,13 @@ def main() -> None:
     )
     parser.add_argument("--games", type=int, default=1000)
     parser.add_argument("--seed", type=int, default=20260821)
+    parser.add_argument("--energy-capacity", type=int, default=4)
+    parser.add_argument(
+        "--combo-cost",
+        action="append",
+        default=[],
+        metavar="COMBO_ID=COST",
+    )
     parser.add_argument("--deck-a", default="sheep_starter_v0")
     parser.add_argument("--deck-b", default="boat_starter_v0")
     parser.add_argument("--policy-a", choices=tuple(PROFILES), default="balanced")
@@ -38,6 +61,8 @@ def main() -> None:
     parser.add_argument("--json", action="store_true")
     args = parser.parse_args()
     catalog = load_catalog(DATA_DIR)
+    if args.combo_cost:
+        catalog = with_combo_costs(catalog, _parse_combo_costs(parser, args.combo_cost))
 
     if args.command == "validate":
         combo_count = sum(len(core.combos) for core in catalog.core_cards.values())
@@ -46,7 +71,8 @@ def main() -> None:
             f"{len(catalog.auxiliary_cards)} 张辅助卡模板，"
             f"{len(catalog.core_cards)} 张核心卡，"
             f"{combo_count} 个组合，"
-            f"{len(catalog.decks)} 套 20 卡测试卡组"
+            f"{len(catalog.decks)} 套 20 卡测试卡组，"
+            "固定 4 点攻防共享能量"
         )
         return
 
@@ -95,6 +121,7 @@ def main() -> None:
             seed=args.seed,
             policy_a=args.policy_a,
             policy_b=args.policy_b,
+            config=GameConfig(energy_capacity=args.energy_capacity),
         )
         if args.json:
             print(json.dumps(asdict(report), ensure_ascii=False, indent=2))
@@ -119,11 +146,28 @@ def main() -> None:
             f"A后手得分率 {report.deck_a_score_when_second:.1%}"
         )
         print(
-            f"无攻击组合回合率: A {report.no_attack_rate_a:.1%}; "
-            f"B {report.no_attack_rate_b:.1%}"
+            f"无进攻动作回合率: A {report.no_offense_rate_a:.1%}; "
+            f"B {report.no_offense_rate_b:.1%}"
+        )
+        print(
+            f"单卡率: A进攻 {report.standalone_offense_rate_a:.1%} / "
+            f"防御 {report.standalone_defense_rate_a:.1%}; "
+            f"B进攻 {report.standalone_offense_rate_b:.1%} / "
+            f"防御 {report.standalone_defense_rate_b:.1%}"
+        )
+        print(
+            "平均费用: "
+            f"A进攻 {report.average_offense_energy_spent_a:.2f} / "
+            f"防御 {report.average_defense_energy_spent_a:.2f} / "
+            f"进攻后保留 {report.average_reserved_energy_a:.2f}; "
+            f"B进攻 {report.average_offense_energy_spent_b:.2f} / "
+            f"防御 {report.average_defense_energy_spent_b:.2f} / "
+            f"进攻后保留 {report.average_reserved_energy_b:.2f}"
         )
         print(f"A组合使用: {report.combo_usage_a}")
         print(f"B组合使用: {report.combo_usage_b}")
+        print(f"A单卡使用: {report.standalone_usage_a}")
+        print(f"B单卡使用: {report.standalone_usage_b}")
         return
 
     for core in catalog.core_cards.values():
@@ -138,7 +182,7 @@ def main() -> None:
             ) or "无瞬时组合效果"
             print(
                 f"- {combo.name}: {combo.nature}/{combo.duration}; "
-                f"{requirements}; {effects}"
+                f"{combo.energy_cost} 费; {requirements}; {effects}"
             )
 
 

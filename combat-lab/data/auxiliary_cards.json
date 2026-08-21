@@ -1,26 +1,25 @@
 {
   "cards": [
-    {"id": "lamb_charge", "name": "羔羊冲撞", "attribute": "attack", "fields": ["羊"], "base_effect": {"kind": "damage", "value": 1}},
-    {"id": "wool_guard", "name": "羊毛护垫", "attribute": "defense", "fields": ["羊"], "base_effect": {"kind": "gain_shield", "value": 1}},
-    {"id": "pasture_bell", "name": "牧铃引路", "attribute": "dispatch", "fields": ["羊"], "base_effect": {"kind": "draw", "value": 1}},
-    {"id": "lost_flock", "name": "迷途羊群", "attribute": "disrupt", "fields": ["羊"], "base_effect": {"kind": "discard", "value": 1}},
-    {"id": "pen_post", "name": "修牢木桩", "attribute": "defense", "fields": ["牢"], "base_effect": {"kind": "gain_shield", "value": 1}},
-    {"id": "broken_fence_horn", "name": "破栏角击", "attribute": "attack", "fields": ["羊", "牢"], "base_effect": {"kind": "damage", "value": 1}},
-    {"id": "tiger_bait", "name": "伏虎诱饵", "attribute": "disrupt", "fields": ["羊", "虎"], "base_effect": {"kind": "discard", "value": 1}},
-    {"id": "tiger_pounce", "name": "猛虎扑袭", "attribute": "attack", "fields": ["虎"], "base_effect": {"kind": "damage", "value": 1}},
-    {"id": "sheep_lead", "name": "牵羊绳结", "attribute": "dispatch", "fields": ["羊", "手"], "base_effect": {"kind": "draw", "value": 1}},
-    {"id": "guiding_hand", "name": "巧手牵引", "attribute": "defense", "fields": ["手"], "base_effect": {"kind": "gain_shield", "value": 1}},
+    {"id": "lamb_charge", "name": "羔羊冲撞", "attribute": "attack", "fields": ["羊"], "energy_cost": 1, "base_effect": {"kind": "damage", "value": 1}},
+    {"id": "wool_guard", "name": "羊毛护垫", "attribute": "defense", "fields": ["羊"], "energy_cost": 1, "base_effect": {"kind": "gain_shield", "value": 1}},
+    {"id": "pasture_bell", "name": "牧铃引路", "attribute": "dispatch", "fields": ["羊"], "energy_cost": 1, "base_effect": {"kind": "draw", "value": 1}},
+    {"id": "lost_flock", "name": "迷途羊群", "attribute": "disrupt", "fields": ["羊"], "energy_cost": 1, "base_effect": {"kind": "discard", "value": 1}},
+    {"id": "pen_post", "name": "修牢木桩", "attribute": "defense", "fields": ["牢"], "energy_cost": 1, "base_effect": {"kind": "gain_shield", "value": 1}},
+    {"id": "broken_fence_horn", "name": "破栏角击", "attribute": "attack", "fields": ["羊", "牢"], "energy_cost": 1, "base_effect": {"kind": "damage", "value": 1}},
+    {"id": "tiger_bait", "name": "伏虎诱饵", "attribute": "disrupt", "fields": ["羊", "虎"], "energy_cost": 1, "base_effect": {"kind": "discard", "value": 1}},
+    {"id": "tiger_pounce", "name": "猛虎扑袭", "attribute": "attack", "fields": ["虎"], "energy_cost": 1, "base_effect": {"kind": "damage", "value": 1}},
+    {"id": "sheep_lead", "name": "牵羊绳结", "attribute": "dispatch", "fields": ["羊", "手"], "energy_cost": 1, "base_effect": {"kind": "draw", "value": 1}},
+    {"id": "guiding_hand", "name": "巧手牵引", "attribute": "defense", "fields": ["手"], "energy_cost": 1, "base_effect": {"kind": "gain_shield", "value": 1}},
 
-    {"id": "boat_ram", "name": "舟楫冲撞", "attribute": "attack", "fields": ["舟"], "base_effect": {"kind": "damage", "value": 1}},
-    {"id": "boat_guard", "name": "船板护持", "attribute": "defense", "fields": ["舟"], "base_effect": {"kind": "gain_shield", "value": 1}},
-    {"id": "oar_rhythm", "name": "桨声催行", "attribute": "dispatch", "fields": ["舟"], "base_effect": {"kind": "draw", "value": 1}},
-    {"id": "anchor_snare", "name": "锚索干扰", "attribute": "disrupt", "fields": ["舟"], "base_effect": {"kind": "discard", "value": 1}},
-    {"id": "flowing_water", "name": "流水借势", "attribute": "dispatch", "fields": ["水"], "base_effect": {"kind": "draw", "value": 1}},
-    {"id": "current_surge", "name": "逆流冲击", "attribute": "attack", "fields": ["水"], "base_effect": {"kind": "damage", "value": 1}},
-    {"id": "water_boat_link", "name": "水舟联结", "attribute": "defense", "fields": ["水", "舟"], "base_effect": {"kind": "gain_shield", "value": 1}},
-    {"id": "iron_pot_strike", "name": "铁釜重击", "attribute": "attack", "fields": ["釜"], "base_effect": {"kind": "damage", "value": 1}},
-    {"id": "break_pot_resolve", "name": "破釜决心", "attribute": "disrupt", "fields": ["釜", "舟"], "base_effect": {"kind": "discard", "value": 1}},
-    {"id": "shared_rope", "name": "同行缆绳", "attribute": "defense", "fields": ["舟"], "base_effect": {"kind": "gain_shield", "value": 1}}
+    {"id": "boat_ram", "name": "舟楫冲撞", "attribute": "attack", "fields": ["舟"], "energy_cost": 1, "base_effect": {"kind": "damage", "value": 1}},
+    {"id": "boat_guard", "name": "船板护持", "attribute": "defense", "fields": ["舟"], "energy_cost": 1, "base_effect": {"kind": "gain_shield", "value": 1}},
+    {"id": "oar_rhythm", "name": "桨声催行", "attribute": "dispatch", "fields": ["舟"], "energy_cost": 1, "base_effect": {"kind": "draw", "value": 1}},
+    {"id": "anchor_snare", "name": "锚索干扰", "attribute": "disrupt", "fields": ["舟"], "energy_cost": 1, "base_effect": {"kind": "discard", "value": 1}},
+    {"id": "flowing_water", "name": "流水借势", "attribute": "dispatch", "fields": ["水"], "energy_cost": 1, "base_effect": {"kind": "draw", "value": 1}},
+    {"id": "current_surge", "name": "逆流冲击", "attribute": "attack", "fields": ["水"], "energy_cost": 1, "base_effect": {"kind": "damage", "value": 1}},
+    {"id": "water_boat_link", "name": "水舟联结", "attribute": "defense", "fields": ["水", "舟"], "energy_cost": 1, "base_effect": {"kind": "gain_shield", "value": 1}},
+    {"id": "iron_pot_strike", "name": "铁釜重击", "attribute": "attack", "fields": ["釜"], "energy_cost": 1, "base_effect": {"kind": "damage", "value": 1}},
+    {"id": "break_pot_resolve", "name": "破釜决心", "attribute": "disrupt", "fields": ["釜", "舟"], "energy_cost": 1, "base_effect": {"kind": "discard", "value": 1}},
+    {"id": "shared_rope", "name": "同行缆绳", "attribute": "defense", "fields": ["舟"], "energy_cost": 1, "base_effect": {"kind": "gain_shield", "value": 1}}
   ]
 }
-

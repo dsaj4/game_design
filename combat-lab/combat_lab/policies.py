@@ -3,11 +3,16 @@ from __future__ import annotations
 from copy import deepcopy
 from dataclasses import dataclass
 
-from .actions import ComboAction, enumerate_combo_actions
+from .actions import (
+    CombatAction,
+    ComboAction,
+    enumerate_combat_actions,
+    enumerate_combo_actions,
+)
 from .catalog import Catalog
-from .engine import PlayerState, release_prepared, resolve_exchange
+from .engine import PlayerState, release_prepared, resolve_action_exchange
 from .errors import IllegalAction
-from .models import ComboRule, Effect
+from .models import Effect
 
 
 @dataclass(frozen=True)
@@ -19,12 +24,13 @@ class PolicyWeights:
     status: float
     preparation_card_cost: float
     lost_attack_option_cost: float
+    future_defense: float
 
 
 PROFILES = {
-    "balanced": PolicyWeights(4.0, 4.0, 1.2, 0.8, 1.0, 0.8, 0.35),
-    "aggressive": PolicyWeights(2.8, 5.5, 0.7, 0.6, 0.7, 1.0, 0.55),
-    "defensive": PolicyWeights(5.5, 3.0, 1.8, 0.8, 1.4, 0.55, 0.2),
+    "balanced": PolicyWeights(4.0, 4.0, 1.2, 0.8, 1.0, 0.8, 0.35, 0.4),
+    "aggressive": PolicyWeights(2.8, 5.5, 0.7, 0.6, 0.7, 1.0, 0.55, 0.2),
+    "defensive": PolicyWeights(5.5, 3.0, 1.8, 0.8, 1.4, 0.55, 0.2, 0.65),
 }
 
 
@@ -44,16 +50,25 @@ class HeuristicPolicy:
         player: PlayerState,
         opponent_core_id: str,
         opponent: PlayerState,
-    ) -> ComboAction | None:
-        actions = enumerate_combo_actions(catalog, core_id, player.hand, "attack")
+    ) -> CombatAction | None:
+        actions = enumerate_combat_actions(
+            catalog,
+            core_id,
+            player.hand,
+            "attack",
+            energy=player.energy,
+        )
         if not actions:
             return None
 
         pass_player = deepcopy(player)
         pass_opponent = deepcopy(opponent)
         release_prepared(pass_opponent)
-        best_score = self._score(pass_player, pass_opponent)
-        best_action: ComboAction | None = None
+        best_score = self._score(pass_player, pass_opponent) + (
+            self._future_defense_value(catalog, core_id, pass_player)
+            * self.weights.future_defense
+        )
+        best_action: CombatAction | None = None
 
         for action in actions:
             outcome = self._anticipated_outcome(
@@ -66,7 +81,10 @@ class HeuristicPolicy:
             )
             if outcome is None:
                 continue
-            score = self._score(*outcome)
+            score = self._score(*outcome) + (
+                self._future_defense_value(catalog, core_id, outcome[0])
+                * self.weights.future_defense
+            )
             if score > best_score:
                 best_score = score
                 best_action = action
@@ -76,11 +94,11 @@ class HeuristicPolicy:
         self,
         catalog: Catalog,
         attack_core_id: str,
-        attack_action: ComboAction,
+        attack_action: CombatAction,
         attacker: PlayerState,
         defense_core_id: str,
         defender: PlayerState,
-    ) -> ComboAction | None:
+    ) -> CombatAction | None:
         return self._best_defense(
             catalog,
             attack_core_id,
@@ -95,27 +113,32 @@ class HeuristicPolicy:
         catalog: Catalog,
         core_id: str,
         player: PlayerState,
-    ) -> ComboAction | None:
+    ) -> CombatAction | None:
         if player.prepared:
             return None
-        actions = enumerate_combo_actions(catalog, core_id, player.hand, "defense")
+        actions = enumerate_combat_actions(
+            catalog,
+            core_id,
+            player.hand,
+            "defense",
+            energy=player.energy,
+        )
         if not actions:
             return None
 
         attack_options_before = len(
             enumerate_combo_actions(catalog, core_id, player.hand, "attack")
         )
-        best_action: ComboAction | None = None
+        best_action: CombatAction | None = None
         best_score = 0.0
         for action in actions:
-            rule = catalog.combo(core_id, action.combo_id)
             remaining_hand = list(player.hand)
             for card_id in action.card_ids:
                 remaining_hand.remove(card_id)
             attack_options_after = len(
                 enumerate_combo_actions(catalog, core_id, remaining_hand, "attack")
             )
-            score = self._static_defense_value(catalog, rule, action)
+            score = self._static_defense_value(catalog, core_id, action)
             score -= len(action.card_ids) * self.weights.preparation_card_cost
             score -= (
                 attack_options_before - attack_options_after
@@ -155,7 +178,7 @@ class HeuristicPolicy:
         self,
         catalog: Catalog,
         attack_core_id: str,
-        attack_action: ComboAction,
+        attack_action: CombatAction,
         attacker: PlayerState,
         defense_core_id: str,
         defender: PlayerState,
@@ -188,16 +211,22 @@ class HeuristicPolicy:
         self,
         catalog: Catalog,
         attack_core_id: str,
-        attack_action: ComboAction,
+        attack_action: CombatAction,
         attacker: PlayerState,
         defense_core_id: str,
         defender: PlayerState,
-    ) -> ComboAction | None:
-        actions: list[ComboAction | None] = [None]
+    ) -> CombatAction | None:
+        actions: list[CombatAction | None] = [None]
         actions.extend(
-            enumerate_combo_actions(catalog, defense_core_id, defender.prepared, "defense")
+            enumerate_combat_actions(
+                catalog,
+                defense_core_id,
+                defender.prepared,
+                "defense",
+                energy=defender.energy,
+            )
         )
-        best_action: ComboAction | None = None
+        best_action: CombatAction | None = None
         best_score = float("-inf")
         for defense_action in actions:
             attacker_copy = deepcopy(attacker)
@@ -242,17 +271,41 @@ class HeuristicPolicy:
     def _static_defense_value(
         self,
         catalog: Catalog,
-        rule: ComboRule,
-        action: ComboAction,
+        core_id: str,
+        action: CombatAction,
     ) -> float:
         effects = [catalog.auxiliary_cards[card_id].base_effect for card_id in action.card_ids]
-        effects.extend(rule.effects)
         score = sum(self._effect_value(effect) for effect in effects)
-        if rule.persistent:
-            score += rule.persistent.triggers * sum(
-                self._effect_value(effect) for effect in rule.persistent.effects
-            )
+        if isinstance(action, ComboAction):
+            rule = catalog.combo(core_id, action.combo_id)
+            score += sum(self._effect_value(effect) for effect in rule.effects)
+            if rule.persistent:
+                score += rule.persistent.triggers * sum(
+                    self._effect_value(effect) for effect in rule.persistent.effects
+                )
         return score
+
+    def _future_defense_value(
+        self,
+        catalog: Catalog,
+        core_id: str,
+        player: PlayerState,
+    ) -> float:
+        actions = enumerate_combat_actions(
+            catalog,
+            core_id,
+            player.hand,
+            "defense",
+            energy=player.energy,
+        )
+        return max(
+            (
+                self._static_defense_value(catalog, core_id, action)
+                - len(action.card_ids) * self.weights.preparation_card_cost
+                for action in actions
+            ),
+            default=0.0,
+        )
 
     def _effect_value(self, effect: Effect) -> float:
         if effect.kind in {"block", "heal"}:
@@ -281,24 +334,16 @@ def _resolve_action_pair(
     attacker: PlayerState,
     defender: PlayerState,
     attack_core_id: str,
-    attack_action: ComboAction,
+    attack_action: CombatAction,
     defense_core_id: str,
-    defense_action: ComboAction | None,
+    defense_action: CombatAction | None,
 ) -> None:
-    kwargs = {}
-    if defense_action is not None:
-        kwargs = {
-            "defense_core_id": defense_core_id,
-            "defense_combo_id": defense_action.combo_id,
-            "defense_card_ids": list(defense_action.card_ids),
-        }
-    resolve_exchange(
+    resolve_action_exchange(
         catalog,
         attacker,
         defender,
-        core_id=attack_core_id,
-        attack_combo_id=attack_action.combo_id,
-        attack_card_ids=list(attack_action.card_ids),
-        **kwargs,
+        attack_core_id=attack_core_id,
+        attack_action=attack_action,
+        defense_core_id=defense_core_id,
+        defense_action=defense_action,
     )
-

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from itertools import combinations
+from typing import TypeAlias
 
 from .catalog import Catalog
 from .matcher import matches_requirements
@@ -11,6 +12,18 @@ from .matcher import matches_requirements
 class ComboAction:
     combo_id: str
     card_ids: tuple[str, ...]
+
+
+@dataclass(frozen=True, order=True)
+class StandaloneAction:
+    card_id: str
+
+    @property
+    def card_ids(self) -> tuple[str, ...]:
+        return (self.card_id,)
+
+
+CombatAction: TypeAlias = ComboAction | StandaloneAction
 
 
 def enumerate_combo_actions(
@@ -37,3 +50,34 @@ def enumerate_combo_actions(
                 )
     return sorted(actions)
 
+
+def enumerate_combat_actions(
+    catalog: Catalog,
+    core_id: str,
+    card_ids: list[str],
+    nature: str,
+    *,
+    energy: int,
+) -> list[CombatAction]:
+    """Enumerate affordable combos plus unique one-card fallback actions."""
+    combos = [
+        action
+        for action in enumerate_combo_actions(catalog, core_id, card_ids, nature)
+        if catalog.combo(core_id, action.combo_id).energy_cost <= energy
+    ]
+    standalone = [
+        StandaloneAction(card_id)
+        for card_id in sorted(set(card_ids))
+        if catalog.auxiliary_cards[card_id].energy_cost <= energy
+    ]
+    return [*combos, *standalone]
+
+
+def action_energy_cost(
+    catalog: Catalog,
+    core_id: str,
+    action: CombatAction,
+) -> int:
+    if isinstance(action, ComboAction):
+        return catalog.combo(core_id, action.combo_id).energy_cost
+    return catalog.auxiliary_cards[action.card_id].energy_cost

@@ -51,6 +51,14 @@ def test_matchup_report_accounts_for_every_game() -> None:
     assert 0.0 <= report.deck_a_score_when_second <= 1.0
     assert sum(report.combo_usage_a.values()) > 0
     assert sum(report.combo_usage_b.values()) > 0
+    assert 0.0 <= report.no_offense_rate_a <= 1.0
+    assert 0.0 <= report.no_offense_rate_b <= 1.0
+    assert 0.0 <= report.standalone_offense_rate_a <= 1.0
+    assert 0.0 <= report.standalone_offense_rate_b <= 1.0
+    assert 0.0 <= report.standalone_defense_rate_a <= 1.0
+    assert 0.0 <= report.standalone_defense_rate_b <= 1.0
+    assert 0.0 <= report.average_reserved_energy_a <= 4.0
+    assert 0.0 <= report.average_reserved_energy_b <= 4.0
 
 
 def test_alternating_starting_player_is_balanced_in_even_sample() -> None:

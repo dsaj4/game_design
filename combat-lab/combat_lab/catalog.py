@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import json
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from pathlib import Path
 
 from .errors import CatalogError
@@ -51,6 +51,35 @@ class Catalog:
         raise CatalogError(f"unknown combo {combo_id} for core {core_id}")
 
 
+def with_combo_costs(catalog: Catalog, overrides: dict[str, int]) -> Catalog:
+    """Return a validated catalog with uniquely identified combo costs replaced."""
+    locations: dict[str, list[str]] = {}
+    for core_id, core in catalog.core_cards.items():
+        for combo in core.combos:
+            locations.setdefault(combo.id, []).append(core_id)
+
+    for combo_id, cost in overrides.items():
+        core_ids = locations.get(combo_id, [])
+        if not core_ids:
+            raise CatalogError(f"unknown combo cost override: {combo_id}")
+        if len(core_ids) > 1:
+            raise CatalogError(f"ambiguous combo cost override: {combo_id}")
+        if cost < 1 or cost > 4:
+            raise CatalogError(f"{combo_id}: energy cost must be between 1 and 4")
+
+    core_cards = {}
+    for core_id, core in catalog.core_cards.items():
+        combos = tuple(
+            replace(combo, energy_cost=overrides.get(combo.id, combo.energy_cost))
+            for combo in core.combos
+        )
+        core_cards[core_id] = replace(core, combos=combos)
+
+    updated = Catalog(catalog.auxiliary_cards, core_cards, catalog.decks)
+    validate_catalog(updated)
+    return updated
+
+
 def _read_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -76,6 +105,7 @@ def _combo(data: dict) -> ComboRule:
         name=data["name"],
         nature=data["nature"],
         duration=data["duration"],
+        energy_cost=int(data["energy_cost"]),
         requirements=tuple(
             FieldRequirement(field=field, count=int(count))
             for field, count in data["requirements"].items()
@@ -97,6 +127,7 @@ def load_catalog(data_dir: Path | str) -> Catalog:
             name=item["name"],
             attribute=item["attribute"],
             fields=tuple(item["fields"]),
+            energy_cost=int(item["energy_cost"]),
             base_effect=_effect(item["base_effect"]),
         )
         for item in auxiliary_data["cards"]
@@ -135,6 +166,8 @@ def validate_catalog(catalog: Catalog) -> None:
             )
         if card.base_effect.value != 1:
             raise CatalogError(f"{card_id}: first-test base effects must have value 1")
+        if card.energy_cost != 1:
+            raise CatalogError(f"{card_id}: standalone auxiliary actions must cost 1 energy")
         if not card.fields or len(card.fields) != len(set(card.fields)):
             raise CatalogError(f"{card_id}: fields must be non-empty and unique")
 
@@ -172,6 +205,8 @@ def _validate_combo(core_id: str, combo: ComboRule) -> None:
         raise CatalogError(f"{core_id}/{combo.id}: invalid nature {combo.nature}")
     if combo.duration not in {"instant", "persistent"}:
         raise CatalogError(f"{core_id}/{combo.id}: invalid duration {combo.duration}")
+    if combo.energy_cost < 1 or combo.energy_cost > 4:
+        raise CatalogError(f"{core_id}/{combo.id}: energy cost must be between 1 and 4")
     if combo.required_card_count < 1 or combo.required_card_count > 3:
         raise CatalogError(f"{core_id}/{combo.id}: requires between 1 and 3 cards")
     if any(requirement.count < 1 for requirement in combo.requirements):
@@ -209,4 +244,3 @@ def _deck_can_match(cards: list[AuxiliaryCard], combo: ComboRule) -> bool:
         matches_requirements(selected, combo.requirements)
         for selected in combinations(cards, combo.required_card_count)
     )
-

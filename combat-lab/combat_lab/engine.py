@@ -3,6 +3,7 @@ from __future__ import annotations
 from copy import deepcopy
 from dataclasses import dataclass, field
 
+from .actions import CombatAction, ComboAction, StandaloneAction
 from .catalog import Catalog
 from .errors import IllegalAction
 from .matcher import matches_requirements
@@ -25,6 +26,8 @@ class PlayerState:
     health: int = 30
     max_health: int = 30
     shield: int = 0
+    energy: int = 4
+    max_energy: int = 4
     hand: list[str] = field(default_factory=list)
     prepared: list[str] = field(default_factory=list)
     deck: list[str] = field(default_factory=list)
@@ -38,6 +41,8 @@ class ResolutionResult:
     blocked_damage: int = 0
     shield_absorbed: int = 0
     health_damage: int = 0
+    attack_energy_spent: int = 0
+    defense_energy_spent: int = 0
     log: list[str] = field(default_factory=list)
 
 
@@ -61,58 +66,74 @@ def resolve_exchange(
     defense_card_ids: list[str] | None = None,
 ) -> ResolutionResult:
     """Resolve one attack and the defender's optional single defense combo atomically."""
-    attack_rule = catalog.combo(core_id, attack_combo_id)
-    if attack_rule.nature != "attack":
-        raise IllegalAction(f"{attack_rule.name} is not an attack combo")
+    attack_action = ComboAction(attack_combo_id, tuple(attack_card_ids))
+    defense_action = None
+    has_defense = defense_combo_id is not None or defense_card_ids is not None
+    if has_defense:
+        if not defense_core_id or not defense_combo_id or defense_card_ids is None:
+            raise IllegalAction("defense core, combo, and cards must be declared together")
+        defense_action = ComboAction(defense_combo_id, tuple(defense_card_ids))
+    return resolve_action_exchange(
+        catalog,
+        attacker,
+        defender,
+        attack_core_id=core_id,
+        attack_action=attack_action,
+        defense_core_id=defense_core_id,
+        defense_action=defense_action,
+    )
+
+
+def resolve_action_exchange(
+    catalog: Catalog,
+    attacker: PlayerState,
+    defender: PlayerState,
+    *,
+    attack_core_id: str,
+    attack_action: CombatAction,
+    defense_core_id: str | None = None,
+    defense_action: CombatAction | None = None,
+) -> ResolutionResult:
+    """Resolve one offensive action and at most one defensive response atomically."""
 
     attacker_copy = deepcopy(attacker)
     defender_copy = deepcopy(defender)
     result = ResolutionResult()
     attack_context = _ResolutionContext(phase="attack", result=result)
 
-    attack_cards = _take_cards(
+    _resolve_action(
         catalog,
-        attacker_copy.hand,
-        attacker_copy.discard,
-        attack_card_ids,
-        zone_name="hand",
-    )
-    _assert_matches(attack_rule, attack_cards)
-    _resolve_cards_and_combo(
         attacker_copy,
         defender_copy,
-        attack_rule,
-        attack_cards,
-        attack_context,
+        attack_core_id,
+        attack_action,
+        required_nature="attack",
+        source=attacker_copy.hand,
+        zone_name="hand",
+        context=attack_context,
     )
     result.attack_damage = attack_context.pending_damage
 
-    has_defense = defense_combo_id is not None or defense_card_ids is not None
-    if has_defense:
-        if not defense_core_id or not defense_combo_id or defense_card_ids is None:
-            raise IllegalAction("defense core, combo, and cards must be declared together")
-        defense_rule = catalog.combo(defense_core_id, defense_combo_id)
-        if defense_rule.nature != "defense":
-            raise IllegalAction(f"{defense_rule.name} is not a defense combo")
-        defense_cards = _take_cards(
-            catalog,
-            defender_copy.prepared,
-            defender_copy.discard,
-            defense_card_ids,
-            zone_name="prepared zone",
-        )
-        _assert_matches(defense_rule, defense_cards)
+    if defense_action is not None:
+        if not defense_core_id:
+            raise IllegalAction("defense core is required for a defensive response")
+        if attack_context.pending_damage < 1:
+            raise IllegalAction("defense requires incoming damage")
         defense_context = _ResolutionContext(
             phase="defense",
             result=result,
             pending_damage=attack_context.pending_damage,
         )
-        _resolve_cards_and_combo(
+        _resolve_action(
+            catalog,
             defender_copy,
             attacker_copy,
-            defense_rule,
-            defense_cards,
-            defense_context,
+            defense_core_id,
+            defense_action,
+            required_nature="defense",
+            source=defender_copy.prepared,
+            zone_name="prepared zone",
+            context=defense_context,
         )
         attack_context.pending_damage = defense_context.pending_damage
 
@@ -130,6 +151,7 @@ def resolve_exchange(
 
 def tick_owner_turn_start(catalog: Catalog, player: PlayerState) -> None:
     del catalog  # Reserved for future status lookup and dynamic balance tables.
+    player.energy = player.max_energy
     remaining: list[ActiveStatus] = []
     for status in player.statuses:
         for effect in status.effects:
@@ -162,6 +184,66 @@ def _resolve_cards_and_combo(
     if rule.persistent:
         _add_status(actor, rule.persistent)
         context.result.log.append(f"status:{rule.persistent.id}")
+
+
+def _resolve_action(
+    catalog: Catalog,
+    actor: PlayerState,
+    target: PlayerState,
+    core_id: str,
+    action: CombatAction,
+    *,
+    required_nature: str,
+    source: list[str],
+    zone_name: str,
+    context: _ResolutionContext,
+) -> None:
+    if isinstance(action, ComboAction):
+        rule = catalog.combo(core_id, action.combo_id)
+        if rule.nature != required_nature:
+            raise IllegalAction(f"{rule.name} is not a {required_nature} combo")
+        cards = _take_cards(
+            catalog,
+            source,
+            actor.discard,
+            list(action.card_ids),
+            zone_name=zone_name,
+        )
+        _assert_matches(rule, cards)
+        _spend_energy(actor, rule.energy_cost, context)
+        _resolve_cards_and_combo(actor, target, rule, cards, context)
+        return
+
+    if not isinstance(action, StandaloneAction):
+        raise IllegalAction("unknown combat action")
+    cards = _take_cards(
+        catalog,
+        source,
+        actor.discard,
+        [action.card_id],
+        zone_name=zone_name,
+    )
+    card = cards[0]
+    _spend_energy(actor, card.energy_cost, context)
+    _apply_effect(actor, target, card.base_effect, context)
+    context.result.log.append(
+        f"standalone:{card.id}:{card.base_effect.kind}:{card.base_effect.value}"
+    )
+
+
+def _spend_energy(
+    player: PlayerState,
+    amount: int,
+    context: _ResolutionContext,
+) -> None:
+    if player.energy < amount:
+        raise IllegalAction(f"not enough energy: needs {amount}, has {player.energy}")
+    player.energy -= amount
+    if context.phase == "attack":
+        context.result.attack_energy_spent += amount
+    else:
+        context.result.defense_energy_spent += amount
+    context.result.log.append(f"energy:{context.phase}:{amount}")
 
 
 def _apply_effect(
@@ -267,6 +349,8 @@ def _commit(destination: PlayerState, source: PlayerState) -> None:
     destination.health = source.health
     destination.max_health = source.max_health
     destination.shield = source.shield
+    destination.energy = source.energy
+    destination.max_energy = source.max_energy
     destination.hand = source.hand
     destination.prepared = source.prepared
     destination.deck = source.deck

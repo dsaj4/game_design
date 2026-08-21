@@ -5,8 +5,14 @@ import random
 from collections import Counter
 from dataclasses import dataclass
 
+from .actions import CombatAction, ComboAction, StandaloneAction
 from .catalog import Catalog
-from .engine import PlayerState, release_prepared, resolve_exchange, tick_owner_turn_start
+from .engine import (
+    PlayerState,
+    release_prepared,
+    resolve_action_exchange,
+    tick_owner_turn_start,
+)
 from .policies import HeuristicPolicy
 
 
@@ -16,6 +22,7 @@ class GameConfig:
     opening_hand: int = 4
     hand_limit: int = 7
     max_full_rounds: int = 12
+    energy_capacity: int = 4
 
 
 @dataclass(frozen=True)
@@ -28,7 +35,13 @@ class GameResult:
     remaining_health: tuple[int, int]
     remaining_shield: tuple[int, int]
     combo_usage: tuple[tuple[tuple[str, int], ...], tuple[tuple[str, int], ...]]
-    no_attack_turns: tuple[int, int]
+    standalone_usage: tuple[tuple[tuple[str, int], ...], tuple[tuple[str, int], ...]]
+    standalone_offense_actions: tuple[int, int]
+    standalone_defense_actions: tuple[int, int]
+    no_offense_turns: tuple[int, int]
+    offense_energy_spent: tuple[int, int]
+    defense_energy_spent: tuple[int, int]
+    reserved_energy_after_offense: tuple[int, int]
     starting_player: int
 
 
@@ -52,8 +65,20 @@ class MatchupReport:
     deck_a_score_when_second: float
     combo_usage_a: dict[str, int]
     combo_usage_b: dict[str, int]
-    no_attack_rate_a: float
-    no_attack_rate_b: float
+    standalone_usage_a: dict[str, int]
+    standalone_usage_b: dict[str, int]
+    standalone_offense_rate_a: float
+    standalone_offense_rate_b: float
+    standalone_defense_rate_a: float
+    standalone_defense_rate_b: float
+    no_offense_rate_a: float
+    no_offense_rate_b: float
+    average_offense_energy_spent_a: float
+    average_offense_energy_spent_b: float
+    average_defense_energy_spent_a: float
+    average_defense_energy_spent_b: float
+    average_reserved_energy_a: float
+    average_reserved_energy_b: float
 
 
 @dataclass
@@ -85,7 +110,13 @@ def simulate_game(
         combatant.policy.prepare_defense(catalog, combatant.core_id, combatant.state)
 
     combo_usage = [Counter(), Counter()]
-    no_attack_turns = [0, 0]
+    standalone_usage = [Counter(), Counter()]
+    standalone_offense_actions = [0, 0]
+    standalone_defense_actions = [0, 0]
+    no_offense_turns = [0, 0]
+    offense_energy_spent = [0, 0]
+    defense_energy_spent = [0, 0]
+    reserved_energy_after_offense = [0, 0]
     turns_by_player = [0, 0]
     turns = 0
 
@@ -107,43 +138,55 @@ def simulate_game(
                 config.hand_limit,
             )
 
-            attack = active.policy.choose_attack(
+            offense = active.policy.choose_attack(
                 catalog,
                 active.core_id,
                 active.state,
                 defending.core_id,
                 defending.state,
             )
-            if attack is None:
-                no_attack_turns[active_index] += 1
+            if offense is None:
+                no_offense_turns[active_index] += 1
                 release_prepared(defending.state)
             else:
                 defense = defending.policy.choose_defense(
                     catalog,
                     active.core_id,
-                    attack,
+                    offense,
                     active.state,
                     defending.core_id,
                     defending.state,
                 )
-                kwargs = {}
-                if defense is not None:
-                    kwargs = {
-                        "defense_core_id": defending.core_id,
-                        "defense_combo_id": defense.combo_id,
-                        "defense_card_ids": list(defense.card_ids),
-                    }
-                    combo_usage[defending_index][defense.combo_id] += 1
-                resolve_exchange(
+                result = resolve_action_exchange(
                     catalog,
                     active.state,
                     defending.state,
-                    core_id=active.core_id,
-                    attack_combo_id=attack.combo_id,
-                    attack_card_ids=list(attack.card_ids),
-                    **kwargs,
+                    attack_core_id=active.core_id,
+                    attack_action=offense,
+                    defense_core_id=defending.core_id,
+                    defense_action=defense,
                 )
-                combo_usage[active_index][attack.combo_id] += 1
+                _record_action_usage(
+                    offense,
+                    active_index,
+                    combo_usage,
+                    standalone_usage,
+                )
+                if isinstance(offense, StandaloneAction):
+                    standalone_offense_actions[active_index] += 1
+                if defense is not None:
+                    _record_action_usage(
+                        defense,
+                        defending_index,
+                        combo_usage,
+                        standalone_usage,
+                    )
+                    if isinstance(defense, StandaloneAction):
+                        standalone_defense_actions[defending_index] += 1
+                offense_energy_spent[active_index] += result.attack_energy_spent
+                defense_energy_spent[defending_index] += result.defense_energy_spent
+
+            reserved_energy_after_offense[active_index] += active.state.energy
 
             winner = _winner(combatants)
             if winner is not _NO_WINNER:
@@ -155,7 +198,13 @@ def simulate_game(
                     turns,
                     turns_by_player,
                     combo_usage,
-                    no_attack_turns,
+                    standalone_usage,
+                    standalone_offense_actions,
+                    standalone_defense_actions,
+                    no_offense_turns,
+                    offense_energy_spent,
+                    defense_energy_spent,
+                    reserved_energy_after_offense,
                     starting_player,
                 )
 
@@ -178,7 +227,13 @@ def simulate_game(
         turns,
         turns_by_player,
         combo_usage,
-        no_attack_turns,
+        standalone_usage,
+        standalone_offense_actions,
+        standalone_defense_actions,
+        no_offense_turns,
+        offense_energy_spent,
+        defense_energy_spent,
+        reserved_energy_after_offense,
         starting_player,
     )
 
@@ -207,7 +262,13 @@ def simulate_matchup(
     rounds = 0
     knockouts = 0
     combo_usage = [Counter(), Counter()]
-    no_attacks = [0, 0]
+    standalone_usage = [Counter(), Counter()]
+    standalone_offense_actions = [0, 0]
+    standalone_defense_actions = [0, 0]
+    no_offense = [0, 0]
+    offense_energy_spent = [0, 0]
+    defense_energy_spent = [0, 0]
+    reserved_energy = [0, 0]
     turns = [0, 0]
 
     for game_index in range(games):
@@ -225,12 +286,24 @@ def simulate_matchup(
         )
         rounds += result.full_rounds
         knockouts += int(result.reason == "knockout")
-        no_attacks[0] += result.no_attack_turns[0]
-        no_attacks[1] += result.no_attack_turns[1]
+        no_offense[0] += result.no_offense_turns[0]
+        no_offense[1] += result.no_offense_turns[1]
+        offense_energy_spent[0] += result.offense_energy_spent[0]
+        offense_energy_spent[1] += result.offense_energy_spent[1]
+        defense_energy_spent[0] += result.defense_energy_spent[0]
+        defense_energy_spent[1] += result.defense_energy_spent[1]
+        reserved_energy[0] += result.reserved_energy_after_offense[0]
+        reserved_energy[1] += result.reserved_energy_after_offense[1]
         turns[0] += result.turns_by_player[0]
         turns[1] += result.turns_by_player[1]
         combo_usage[0].update(dict(result.combo_usage[0]))
         combo_usage[1].update(dict(result.combo_usage[1]))
+        standalone_usage[0].update(dict(result.standalone_usage[0]))
+        standalone_usage[1].update(dict(result.standalone_usage[1]))
+        standalone_offense_actions[0] += result.standalone_offense_actions[0]
+        standalone_offense_actions[1] += result.standalone_offense_actions[1]
+        standalone_defense_actions[0] += result.standalone_defense_actions[0]
+        standalone_defense_actions[1] += result.standalone_defense_actions[1]
         if result.winner is None:
             draws += 1
             scores.append(0.5)
@@ -264,8 +337,36 @@ def simulate_matchup(
         deck_a_score_when_second=sum(scores_by_starter[1]) / len(scores_by_starter[1]),
         combo_usage_a=dict(sorted(combo_usage[0].items())),
         combo_usage_b=dict(sorted(combo_usage[1].items())),
-        no_attack_rate_a=no_attacks[0] / turns[0] if turns[0] else 0.0,
-        no_attack_rate_b=no_attacks[1] / turns[1] if turns[1] else 0.0,
+        standalone_usage_a=dict(sorted(standalone_usage[0].items())),
+        standalone_usage_b=dict(sorted(standalone_usage[1].items())),
+        standalone_offense_rate_a=(
+            standalone_offense_actions[0] / turns[0] if turns[0] else 0.0
+        ),
+        standalone_offense_rate_b=(
+            standalone_offense_actions[1] / turns[1] if turns[1] else 0.0
+        ),
+        standalone_defense_rate_a=(
+            standalone_defense_actions[0] / turns[0] if turns[0] else 0.0
+        ),
+        standalone_defense_rate_b=(
+            standalone_defense_actions[1] / turns[1] if turns[1] else 0.0
+        ),
+        no_offense_rate_a=no_offense[0] / turns[0] if turns[0] else 0.0,
+        no_offense_rate_b=no_offense[1] / turns[1] if turns[1] else 0.0,
+        average_offense_energy_spent_a=(
+            offense_energy_spent[0] / turns[0] if turns[0] else 0.0
+        ),
+        average_offense_energy_spent_b=(
+            offense_energy_spent[1] / turns[1] if turns[1] else 0.0
+        ),
+        average_defense_energy_spent_a=(
+            defense_energy_spent[0] / turns[0] if turns[0] else 0.0
+        ),
+        average_defense_energy_spent_b=(
+            defense_energy_spent[1] / turns[1] if turns[1] else 0.0
+        ),
+        average_reserved_energy_a=reserved_energy[0] / turns[0] if turns[0] else 0.0,
+        average_reserved_energy_b=reserved_energy[1] / turns[1] if turns[1] else 0.0,
     )
 
 
@@ -286,6 +387,8 @@ def _create_combatant(
     state = PlayerState(
         health=config.starting_health,
         max_health=config.starting_health,
+        energy=config.energy_capacity,
+        max_energy=config.energy_capacity,
         deck=card_ids,
     )
     _draw(state, config.opening_hand)
@@ -324,7 +427,13 @@ def _game_result(
     turns: int,
     turns_by_player: list[int],
     combo_usage: list[Counter],
-    no_attack_turns: list[int],
+    standalone_usage: list[Counter],
+    standalone_offense_actions: list[int],
+    standalone_defense_actions: list[int],
+    no_offense_turns: list[int],
+    offense_energy_spent: list[int],
+    defense_energy_spent: list[int],
+    reserved_energy_after_offense: list[int],
     starting_player: int,
 ) -> GameResult:
     return GameResult(
@@ -339,9 +448,39 @@ def _game_result(
             tuple(sorted(combo_usage[0].items())),
             tuple(sorted(combo_usage[1].items())),
         ),
-        no_attack_turns=(no_attack_turns[0], no_attack_turns[1]),
+        standalone_usage=(
+            tuple(sorted(standalone_usage[0].items())),
+            tuple(sorted(standalone_usage[1].items())),
+        ),
+        standalone_offense_actions=(
+            standalone_offense_actions[0],
+            standalone_offense_actions[1],
+        ),
+        standalone_defense_actions=(
+            standalone_defense_actions[0],
+            standalone_defense_actions[1],
+        ),
+        no_offense_turns=(no_offense_turns[0], no_offense_turns[1]),
+        offense_energy_spent=(offense_energy_spent[0], offense_energy_spent[1]),
+        defense_energy_spent=(defense_energy_spent[0], defense_energy_spent[1]),
+        reserved_energy_after_offense=(
+            reserved_energy_after_offense[0],
+            reserved_energy_after_offense[1],
+        ),
         starting_player=starting_player,
     )
+
+
+def _record_action_usage(
+    action: CombatAction,
+    player_index: int,
+    combo_usage: list[Counter],
+    standalone_usage: list[Counter],
+) -> None:
+    if isinstance(action, ComboAction):
+        combo_usage[player_index][action.combo_id] += 1
+    elif isinstance(action, StandaloneAction):
+        standalone_usage[player_index][action.card_id] += 1
 
 
 def _mean_ci95(values: list[float]) -> tuple[float, float]:

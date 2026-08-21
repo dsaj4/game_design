@@ -9,6 +9,7 @@
           "name": "三羊开泰",
           "nature": "defense",
           "duration": "persistent",
+          "energy_cost": 1,
           "requirements": {"羊": 3},
           "effects": [{"kind": "block", "value": 2}],
           "persistent": {
@@ -25,6 +26,7 @@
           "name": "亡羊补牢",
           "nature": "defense",
           "duration": "instant",
+          "energy_cost": 2,
           "requirements": {"羊": 2, "牢": 1},
           "effects": [
             {"kind": "pay_health", "value": 2},
@@ -36,6 +38,7 @@
           "name": "羊入虎口",
           "nature": "attack",
           "duration": "instant",
+          "energy_cost": 2,
           "requirements": {"羊": 1, "虎": 1},
           "effects": [{"kind": "damage", "value": 4}]
         },
@@ -44,6 +47,7 @@
           "name": "顺手牵羊",
           "nature": "attack",
           "duration": "instant",
+          "energy_cost": 2,
           "requirements": {"羊": 1, "手": 1},
           "effects": [
             {"kind": "damage", "value": 2},
@@ -61,6 +65,7 @@
           "name": "破釜沉舟",
           "nature": "attack",
           "duration": "instant",
+          "energy_cost": 3,
           "requirements": {"釜": 1, "舟": 1},
           "effects": [
             {"kind": "pay_health", "value": 3},
@@ -72,6 +77,7 @@
           "name": "顺水推舟",
           "nature": "defense",
           "duration": "instant",
+          "energy_cost": 2,
           "requirements": {"水": 1, "舟": 1},
           "effects": [
             {"kind": "block", "value": 2},
@@ -83,6 +89,7 @@
           "name": "同舟共济",
           "nature": "defense",
           "duration": "persistent",
+          "energy_cost": 2,
           "requirements": {"舟": 1},
           "effects": [],
           "persistent": {
@@ -99,6 +106,7 @@
           "name": "逆水行舟",
           "nature": "attack",
           "duration": "instant",
+          "energy_cost": 2,
           "requirements": {"水": 1, "舟": 1},
           "effects": [
             {"kind": "damage", "value": 2},
@@ -109,4 +117,3 @@
     }
   ]
 }
-

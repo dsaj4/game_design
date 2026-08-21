@@ -15,6 +15,7 @@ class AuxiliaryCard:
     name: str
     attribute: str
     fields: tuple[str, ...]
+    energy_cost: int
     base_effect: Effect
 
     def with_base_effect(self, *, kind: str, value: int | None = None) -> AuxiliaryCard:
@@ -46,6 +47,7 @@ class ComboRule:
     name: str
     nature: str
     duration: str
+    energy_cost: int
     requirements: tuple[FieldRequirement, ...]
     effects: tuple[Effect, ...]
     persistent: PersistentSpec | None = None
@@ -68,4 +70,3 @@ class Deck:
     name: str
     core_id: str
     cards: dict[str, int]
-
