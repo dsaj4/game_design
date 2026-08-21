@@ -2,7 +2,11 @@
 .DS_Store
 Thumbs.db
 
+# Python test/build caches
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
 # External source snapshots may contain third-party PDFs/HTML.
 # Keep source indexes and original notes in git; do not publish cached raw files by default.
 research/raw-sources/
-
