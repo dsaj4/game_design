@@ -18,3 +18,7 @@ GDD-YYYY-MM-DD-short-name.md
 ```
 
 功能或系统拆分文档也使用相同前缀，并在文档控制表中填写稳定的文档 ID。
+
+## 当前文档
+
+- [GDD-BATTLE-001：唯一核心卡成语组合战斗系统](GDD-2026-08-21-card-battle-system.md) — `GDD-1 / Evaluation`，包含当前战斗规则、首批羊/舟组合、费用模型、自动化测试与胜率模拟协议。

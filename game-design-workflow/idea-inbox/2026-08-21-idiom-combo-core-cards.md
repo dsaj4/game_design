@@ -1,6 +1,6 @@
 # 成语组合核心卡组原始想法
 
-> 状态：`Raw Idea / Unqualified`
+> 状态：`Promoted to Qualified GDD Material`
 >
 > 边界：本文件只负责隔离保存尚未达标的内容。没有通过资格闸门前，不能被 GDD、Proposal、Evaluation 或核心构思正式引用。
 
@@ -66,15 +66,15 @@
 ### 资格结论
 
 - [ ] `Unqualified`：继续留在 inbox，不得进入正式设计链
-- [x] `Ready for Material Review`：字段已经清楚，等待生成正式素材
-- [ ] `Promoted`：已生成正式素材并建立双向链接
+- [ ] `Ready for Material Review`：字段已经清楚，等待生成正式素材
+- [x] `Promoted`：已生成正式素材并建立双向链接
 
-正式素材：尚未晋级。
+正式素材：[M-2026-08-21 成语组合核心卡与首测卡组](../idea-materials/M-2026-08-21-idiom-combo-core-cards.md)。
 
 ## 下一步
 
 - [x] 继续使用 `grill-with-docs` 澄清
-- [ ] 通过闸门后晋级 `idea-materials/`
+- [x] 通过闸门后晋级 `idea-materials/`
 - [ ] 与已有 inbox 内容合并或建立关联
 - [ ] 保留为未达标原始想法
 - [ ] 用户明确放弃，保留记录但停止追问
