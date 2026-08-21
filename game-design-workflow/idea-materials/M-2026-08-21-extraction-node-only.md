@@ -40,7 +40,7 @@
 ## 与当前构思的关系
 
 - 支持的核心体验/设计支柱：共享地图中的路线判断和战斗结果联动；探索收益与风险通过空间位置形成压力。
-- 依赖的已有系统：[共享地图探索循环](M-2026-08-18-shared-map-exploration-loop.md)、[探索中跨节点保留血量](M-2026-08-21-persistent-exploration-health.md)。
+- 依赖的已有系统：[共享地图探索循环](M-2026-08-18-shared-map-exploration-loop.md)、[探索中跨节点保留血量](M-2026-08-21-persistent-exploration-health.md)、[隐藏撤离点连接呈现](M-2026-08-21-hidden-extraction-connection.md)。
 - 可能冲突的规则或决策：共享地图素材曾把“进入节点后选择撤退”作为概括性动作；本素材将其收紧为“决定返程或在撤离节点完成撤离”，不再表示任何节点都能立即退出。
 - 相关素材/提案/研究：[撤离点相邻揭示](M-2026-08-21-adjacent-extraction-reveal.md)、[整体系统优先提案](../idea-proposals/P-2026-07-01-overall-system-priority.md)、[整体系统优先评估](../evaluations/E-2026-07-01-overall-system-priority.md)。
 - 明确不包含：撤离后的资源保留、死亡损失、治疗、局外成长、占领、经营和交易。
