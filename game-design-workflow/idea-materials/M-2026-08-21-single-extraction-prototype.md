@@ -40,7 +40,7 @@
 ## 与当前构思的关系
 
 - 支持的核心体验/设计支柱：共享地图、累计风险、撤离发现和战斗—地图闭环。
-- 依赖的已有系统：[有限人工节点图原型](M-2026-08-21-finite-handcrafted-node-map-prototype.md)、[撤离点相邻揭示](M-2026-08-21-adjacent-extraction-reveal.md)、[隐藏撤离点连接呈现](M-2026-08-21-hidden-extraction-connection.md)、[仅在入口/撤离节点完成主动撤离](M-2026-08-21-extraction-node-only.md)。
+- 依赖的已有系统：[有限人工节点图原型](M-2026-08-21-finite-handcrafted-node-map-prototype.md)、[节点结算完成后返回地图](M-2026-08-21-node-resolution-return.md)、[撤离点相邻揭示](M-2026-08-21-adjacent-extraction-reveal.md)、[隐藏撤离点连接呈现](M-2026-08-21-hidden-extraction-connection.md)、[仅在入口/撤离节点完成主动撤离](M-2026-08-21-extraction-node-only.md)。
 - 可能冲突的规则或决策：若在当前原型中加入多个撤离点，会引入出口比较、标记区分和路线选择变量，改变最小闭环的验证边界；正式版多出口需另立素材。
 - 相关素材/提案/研究：[正式版分阶段地图模式](M-2026-08-21-phased-generated-map-modes.md)、[相邻节点三档风险与收益标签](M-2026-08-21-adjacent-node-risk-reward-tiers.md)。
 - 明确不包含：正式版出口数量、出口生成算法、多出口收益差异、出口竞争、撤离收益和失败损失。
