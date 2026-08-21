@@ -40,7 +40,7 @@
 ## 与当前构思的关系
 
 - 支持的核心体验/设计支柱：探索、战斗和撤离形成最小闭环；玩家能依据路线与累计状态改变决定。
-- 依赖的已有系统：[共享地图探索循环](M-2026-08-18-shared-map-exploration-loop.md)、[节点结算完成后返回地图](M-2026-08-21-node-resolution-return.md)、[探索中跨节点保留血量](M-2026-08-21-persistent-exploration-health.md)、[仅在入口/撤离节点完成主动撤离](M-2026-08-21-extraction-node-only.md)、[撤离点相邻揭示](M-2026-08-21-adjacent-extraction-reveal.md)、[隐藏撤离点连接呈现](M-2026-08-21-hidden-extraction-connection.md)。
+- 依赖的已有系统：[共享地图探索循环](M-2026-08-18-shared-map-exploration-loop.md)、[节点结算完成后返回地图](M-2026-08-21-node-resolution-return.md)、[已处理节点返程](M-2026-08-21-processed-node-backtracking.md)、[探索中跨节点保留血量](M-2026-08-21-persistent-exploration-health.md)、[仅在入口/撤离节点完成主动撤离](M-2026-08-21-extraction-node-only.md)、[撤离点相邻揭示](M-2026-08-21-adjacent-extraction-reveal.md)、[隐藏撤离点连接呈现](M-2026-08-21-hidden-extraction-connection.md)。
 - 可能冲突的规则或决策：[正式版分阶段地图模式](M-2026-08-21-phased-generated-map-modes.md)已确认基础模式未来采用有限程序生成，并在闭环成熟后另行推进无尽模式；本素材只约束首个原型，不否定正式版扩展。
 - 相关素材/提案/研究：[三周垂直切片计划](../../docs/plans/2026-08-21-three-week-vertical-slice-development-plan.md)。
 - 明确不包含：正式版生成算法、无尽地图结构、连续地形、占领、经营、交易和完整经济。
