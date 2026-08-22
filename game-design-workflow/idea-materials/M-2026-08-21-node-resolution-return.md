@@ -42,7 +42,7 @@
 - 支持的核心体验/设计支柱：共享地图与回合制战斗闭环、累计风险、结果影响下一步路线。
 - 依赖的已有系统：[共享地图探索循环](M-2026-08-18-shared-map-exploration-loop.md)、[已处理节点返程](M-2026-08-21-processed-node-backtracking.md)、[探索内处理状态](M-2026-08-21-processed-state-persistence.md)、[战斗系统 GDD-1](../gdd/GDD-2026-08-21-card-battle-system.md)、[探索中跨节点保留血量](M-2026-08-21-persistent-exploration-health.md)、[单撤离点原型范围](M-2026-08-21-single-extraction-prototype.md)。
 - 可能冲突的规则或决策：若允许节点处理未完成就切换节点，或战斗中途返回地图，会破坏当前状态边界；相关改变需另立时序素材。
-- 相关素材/提案/研究：[有限人工节点图原型](M-2026-08-21-finite-handcrafted-node-map-prototype.md)、[仅在入口/撤离节点完成主动撤离](M-2026-08-21-extraction-node-only.md)。
+- 相关素材/提案/研究：[有限人工节点图原型](M-2026-08-21-finite-handcrafted-node-map-prototype.md)、[仅在撤离点完成主动撤离](M-2026-08-21-extraction-node-only.md)。
 - 明确不包含：探索移动能量的具体初始点数和具体显示，资源和事件具体结算、失败损失、撤离收益、经营系统、跨探索状态保留、已处理节点的特殊回访效果和动画规格。
 
 ## 机制—行为—体验假设

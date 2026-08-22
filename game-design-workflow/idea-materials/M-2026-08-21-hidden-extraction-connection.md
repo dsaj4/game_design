@@ -40,7 +40,7 @@
 ## 与当前构思的关系
 
 - 支持的核心体验/设计支柱：探索发现、路线规划、累计风险和撤离判断。
-- 依赖的已有系统：[普通节点拓扑公开与相邻信息显示](M-2026-08-21-map-information-layer.md)、[撤离点相邻揭示](M-2026-08-21-adjacent-extraction-reveal.md)、[仅在入口/撤离节点完成主动撤离](M-2026-08-21-extraction-node-only.md)、[有限人工节点图原型](M-2026-08-21-finite-handcrafted-node-map-prototype.md)、[单撤离点原型范围](M-2026-08-21-single-extraction-prototype.md)。
+- 依赖的已有系统：[普通节点拓扑公开与相邻信息显示](M-2026-08-21-map-information-layer.md)、[撤离点相邻揭示](M-2026-08-21-adjacent-extraction-reveal.md)、[仅在撤离点完成主动撤离](M-2026-08-21-extraction-node-only.md)、[有限人工节点图原型](M-2026-08-21-finite-handcrafted-node-map-prototype.md)、[单撤离点原型范围](M-2026-08-21-single-extraction-prototype.md)。
 - 可能冲突的规则或决策：如果提前显示匿名出口边、撤离点占位符或远距离提示，会削弱“节点与边一起发现”的隐藏规则；相关改变需另立素材。
 - 相关素材/提案/研究：[相邻节点三档风险与收益标签](M-2026-08-21-adjacent-node-risk-reward-tiers.md)、[正式版分阶段地图模式](M-2026-08-21-phased-generated-map-modes.md)。
 - 明确不包含：完整迷雾系统、侦察技能、远距离出口提示、撤离收益、失败损失、边的具体美术和动画规格。

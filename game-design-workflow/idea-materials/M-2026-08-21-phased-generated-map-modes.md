@@ -40,7 +40,7 @@
 ## 与当前构思的关系
 
 - 支持的核心体验/设计支柱：共享世界探索、路线变化、风险管理和战斗动机的重复可玩性。
-- 依赖的已有系统：[共享地图探索循环](M-2026-08-18-shared-map-exploration-loop.md)、[探索中跨节点保留血量](M-2026-08-21-persistent-exploration-health.md)、[仅在入口/撤离节点完成主动撤离](M-2026-08-21-extraction-node-only.md)、[撤离点相邻揭示](M-2026-08-21-adjacent-extraction-reveal.md)、[有限人工节点图原型](M-2026-08-21-finite-handcrafted-node-map-prototype.md)。
+- 依赖的已有系统：[共享地图探索循环](M-2026-08-18-shared-map-exploration-loop.md)、[探索中跨节点保留血量](M-2026-08-21-persistent-exploration-health.md)、[仅在撤离点完成主动撤离](M-2026-08-21-extraction-node-only.md)、[撤离点相邻揭示](M-2026-08-21-adjacent-extraction-reveal.md)、[有限人工节点图原型](M-2026-08-21-finite-handcrafted-node-map-prototype.md)。
 - 可能冲突的规则或决策：无尽前进如果取消返程或改变撤离点出现方式，会改变当前撤离体验；因此必须作为独立模式和后续素材，而不是静默覆盖基础模式。
 - 相关素材/提案/研究：[整体系统优先提案](../idea-proposals/P-2026-07-01-overall-system-priority.md)、[三周垂直切片计划](../../docs/plans/2026-08-21-three-week-vertical-slice-development-plan.md)。
 - 明确不包含：具体生成算法、随机种子与复现协议、正式图规模、无尽模式难度曲线、无尽撤离点频率、占领、经营和交易。

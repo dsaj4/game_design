@@ -18,7 +18,7 @@
 
 ## 规范化表述
 
-共享地图的首个验证原型采用有限、人工配置的节点图，并只配置一个撤离点。图中至少包含一处需要玩家比较的分支路线，并保证任何玩家仍存活且可以继续操作的节点状态，都存在一条沿相邻关系通往入口或该撤离点的路径。
+共享地图的首个验证原型采用有限、人工配置的节点图，并只配置一个撤离点。起始入口只负责开始探索，不能完成撤离。图中至少包含一处需要玩家比较的分支路线，并保证任何玩家仍存活且可以继续操作的节点状态，都存在一条沿相邻关系通往该撤离点的路径。
 
 该原型不实现程序生成、连续大世界或无尽前进。节点数量、连接密度和节点类型比例仍为原型参数，不因现有制作计划的估算而自动成为正式规则。
 
@@ -40,7 +40,7 @@
 ## 与当前构思的关系
 
 - 支持的核心体验/设计支柱：探索、战斗和撤离形成最小闭环；玩家能依据路线与累计状态改变决定。
-- 依赖的已有系统：[共享地图探索循环](M-2026-08-18-shared-map-exploration-loop.md)、[节点结算完成后返回地图](M-2026-08-21-node-resolution-return.md)、[已处理节点返程](M-2026-08-21-processed-node-backtracking.md)、[探索内处理状态](M-2026-08-21-processed-state-persistence.md)、[探索中跨节点保留血量](M-2026-08-21-persistent-exploration-health.md)、[仅在入口/撤离节点完成主动撤离](M-2026-08-21-extraction-node-only.md)、[撤离点相邻揭示](M-2026-08-21-adjacent-extraction-reveal.md)、[隐藏撤离点连接呈现](M-2026-08-21-hidden-extraction-connection.md)。
+- 依赖的已有系统：[共享地图探索循环](M-2026-08-18-shared-map-exploration-loop.md)、[节点结算完成后返回地图](M-2026-08-21-node-resolution-return.md)、[已处理节点返程](M-2026-08-21-processed-node-backtracking.md)、[探索内处理状态](M-2026-08-21-processed-state-persistence.md)、[探索中跨节点保留血量](M-2026-08-21-persistent-exploration-health.md)、[仅在撤离点完成主动撤离](M-2026-08-21-extraction-node-only.md)、[撤离点相邻揭示](M-2026-08-21-adjacent-extraction-reveal.md)、[隐藏撤离点连接呈现](M-2026-08-21-hidden-extraction-connection.md)。
 - 可能冲突的规则或决策：[正式版分阶段地图模式](M-2026-08-21-phased-generated-map-modes.md)已确认基础模式未来采用有限程序生成，并在闭环成熟后另行推进无尽模式；本素材只约束首个原型，不否定正式版扩展。
 - 相关素材/提案/研究：[三周垂直切片计划](../../docs/plans/2026-08-21-three-week-vertical-slice-development-plan.md)。
 - 明确不包含：探索移动能量的具体初始点数和具体显示，正式版生成算法、无尽地图结构、连续地形、占领、经营、交易和完整经济。
@@ -76,3 +76,4 @@
 | --- | --- | --- | --- | --- |
 | 2026-08-21 | 待建立的共享地图—战斗闭环 GDD | GDD-0 / 0、1、2、16 | `Qualified / Pending Use` | 正式版分阶段方向见相关正式素材 |
 | 2026-08-22 | [共享地图—战斗—撤离闭环 GDD-0](../gdd/GDD-2026-08-22-shared-map-combat-loop.md) | 0.1.0 / 0–2、9、16 | `Included` | 当前灰盒载体；节点数、连接密度和初始能量仍待原型确定 |
+| 2026-08-22 | [共享地图—战斗—撤离闭环 GDD-0](../gdd/GDD-2026-08-22-shared-map-combat-loop.md) | 0.1.1 / 0–2、9、16 | `Revised` | 几何可达目标收紧为唯一撤离点；返回起始入口不算成功 |

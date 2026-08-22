@@ -40,7 +40,7 @@
 ## 与当前构思的关系
 
 - 支持的核心体验/设计支柱：探索发现、路线变化、累计风险和撤离判断。
-- 依赖的已有系统：[共享地图探索循环](M-2026-08-18-shared-map-exploration-loop.md)、[探索中跨节点保留血量](M-2026-08-21-persistent-exploration-health.md)、[仅在入口/撤离节点完成主动撤离](M-2026-08-21-extraction-node-only.md)、[隐藏撤离点连接呈现](M-2026-08-21-hidden-extraction-connection.md)、[有限人工节点图原型](M-2026-08-21-finite-handcrafted-node-map-prototype.md)、[单撤离点原型范围](M-2026-08-21-single-extraction-prototype.md)。
+- 依赖的已有系统：[共享地图探索循环](M-2026-08-18-shared-map-exploration-loop.md)、[探索中跨节点保留血量](M-2026-08-21-persistent-exploration-health.md)、[仅在撤离点完成主动撤离](M-2026-08-21-extraction-node-only.md)、[隐藏撤离点连接呈现](M-2026-08-21-hidden-extraction-connection.md)、[有限人工节点图原型](M-2026-08-21-finite-handcrafted-node-map-prototype.md)、[单撤离点原型范围](M-2026-08-21-single-extraction-prototype.md)。
 - 可能冲突的规则或决策：相关撤离与原型素材中“预估返程路径”只能应用于已揭示撤离点；未揭示前，玩家只能寻找出口，不能计算确定返程路线。
 - 相关素材/提案/研究：[正式版分阶段地图模式](M-2026-08-21-phased-generated-map-modes.md)。
 - 明确不包含：完整地图迷雾规则、侦察系统、远距离撤离提示、撤离收益、失败损失和紧急撤离。

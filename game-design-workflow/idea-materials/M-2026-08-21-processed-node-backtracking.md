@@ -40,7 +40,7 @@
 ## 与当前构思的关系
 
 - 支持的核心体验/设计支柱：共享地图探索、单撤离点闭环、累计血量和及时止损。
-- 依赖的已有系统：[节点结算完成后返回地图](M-2026-08-21-node-resolution-return.md)、[探索内处理状态](M-2026-08-21-processed-state-persistence.md)、[共享地图探索循环](M-2026-08-18-shared-map-exploration-loop.md)、[有限人工节点图原型](M-2026-08-21-finite-handcrafted-node-map-prototype.md)、[单撤离点原型范围](M-2026-08-21-single-extraction-prototype.md)、[仅在入口/撤离节点完成主动撤离](M-2026-08-21-extraction-node-only.md)。
+- 依赖的已有系统：[节点结算完成后返回地图](M-2026-08-21-node-resolution-return.md)、[探索内处理状态](M-2026-08-21-processed-state-persistence.md)、[共享地图探索循环](M-2026-08-18-shared-map-exploration-loop.md)、[有限人工节点图原型](M-2026-08-21-finite-handcrafted-node-map-prototype.md)、[单撤离点原型范围](M-2026-08-21-single-extraction-prototype.md)、[仅在撤离点完成主动撤离](M-2026-08-21-extraction-node-only.md)。
 - 可能冲突的规则或决策：若返程自动重新触发已处理节点，或禁止沿已知连接返回，会改变当前单出口原型的路线承诺；相关变化需另立素材。
 - 相关素材/提案/研究：[撤离点相邻揭示](M-2026-08-21-adjacent-extraction-reveal.md)、[隐藏撤离点连接呈现](M-2026-08-21-hidden-extraction-connection.md)。
 - 明确不包含：探索移动能量的具体初始点数和具体显示，回访事件、资源/收益重置、跨探索状态保留、重复战斗、治疗、撤离结算和失败损失。
