@@ -74,3 +74,4 @@
 | 日期 | GDD/Proposal | 章节/版本 | 处理结果 | 备注 |
 | --- | --- | --- | --- | --- |
 | 2026-08-21 | 待建立的共享地图—战斗闭环 GDD | GDD-0 / 1、2、16 | `Qualified / Pending Use` | 撤离与失败结算另行确认 |
+| 2026-08-22 | [共享地图—战斗—撤离闭环 GDD-0](../gdd/GDD-2026-08-22-shared-map-combat-loop.md) | 0.1.0 / 1–5、9、16 | `Included` | 仅定义空间可用性；撤离收益与失败损失保持 Unknown/Parked |

@@ -106,3 +106,4 @@
 | 2026-08-21 | 待建立 | 3/4/5/7/10 | `Qualified / Pending Use` | 首版费用规则已闭合，进入 `combat-lab` 实现与模拟 |
 | 2026-08-21 | `combat-lab` | 费用模型 v1 | `Prototype Tested / Revision Needed` | 规则可计算且原子测试通过；首测价格存在显著策略依赖，尚不能作为平衡方案采纳 |
 | 2026-08-21 | [战斗系统 GDD-1](../gdd/GDD-2026-08-21-card-battle-system.md) | 0.1.0 / 3–7、14–16 | `Included` | 费用规则纳入；当前价格与平衡结论继续保留原型证据状态 |
+| 2026-08-22 | [共享地图—战斗—撤离闭环 GDD-0](../gdd/GDD-2026-08-22-shared-map-combat-loop.md) | 0.1.0 / 3、4、8 | `Included as Interface Boundary` | 只用于区分战斗能量与探索移动能量，不复制战斗内部规格 |

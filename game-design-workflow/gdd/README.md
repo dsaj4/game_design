@@ -22,3 +22,4 @@ GDD-YYYY-MM-DD-short-name.md
 ## 当前文档
 
 - [GDD-BATTLE-001：唯一核心卡成语组合战斗系统](GDD-2026-08-21-card-battle-system.md) — `GDD-1 / Evaluation`，包含当前战斗规则、首批羊/舟组合、费用模型、自动化测试与胜率模拟协议。
+- [GDD-WORLD-001：共享地图—战斗—撤离闭环](GDD-2026-08-22-shared-map-combat-loop.md) — `GDD-0 / Evaluation`，定义有限人工节点图、探索状态、战斗接口、隐藏撤离点与最小验证问题。
