@@ -1,6 +1,6 @@
 # 项目总控中心
 
-最后更新：2026-08-18
+最后更新：2026-08-22
 
 这份文档是仓库的总控面板。它不替代 `game-design-workflow/` 和 `research/` 的正式流程，而是回答四个问题：
 
@@ -25,6 +25,8 @@
 | 整体系统构思优先，战斗改为关键解决层 | Accepted | `game-design-workflow/decision-log.md` |
 | 关卡经营玩法 | 修改后再评估 | `game-design-workflow/evaluations/E-2026-05-29-level-operation.md` |
 | 核心卡身份路线 | Active Research | `research/05-design-hypotheses/H-2026-05-31-core-card-identity-routes.md` |
+| 字素合成战斗 GDD-002 | Evaluation（战斗机制主线） | `game-design-workflow/gdd/GDD-2026-08-22-glyph-synthesis-combat-system.md` |
+| 成语组合战斗 GDD-001 | Parked（实现线） | `game-design-workflow/gdd/GDD-2026-08-21-card-battle-system.md` |
 | 媒体拆解实验室 | Prototype Lab | `media-analysis-lab/README.md` |
 
 ## 当前总控判断

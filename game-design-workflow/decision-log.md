@@ -6,4 +6,5 @@
 | 2026-05-13 | 第一阶段暂不引入资源系统，优先细化卡牌战斗 | 用户追加约束 | Accepted | 当前需要先验证唯一核心卡、辅助卡组合、费用和动态平衡是否能形成可玩的战斗核心。 |
 | 2026-05-13 | 采纳卡牌战斗系统细化 v2 并写入核心文档 | `draft-changes/D-2026-05-13-card-battle-v2.md` | Accepted | 用户确认采纳；该版本保留唯一核心卡与组合动态平衡，并将第一阶段范围收束到纯卡牌战斗原型。 |
 | 2026-07-01 | 以整体系统构思替换“卡牌战斗优先”的当前阶段主线 | `draft-changes/D-2026-07-01-overall-system-priority.md` | Accepted | 用户明确要求完全替换当前第一阶段优先级。项目主线重新扩展为“唯一核心卡如何连接构筑、探索、资源、交易与回合制对战”的整体系统闭环，战斗改为关键解决层而非唯一优先对象。 |
-| 2026-08-18 | 建立双层想法库与 GDD 素材资格闸门 | 用户明确要求；`docs/plans/2026-08-18-gdd-material-gate-design.md` | Accepted | `idea-inbox/` 改为允许模糊内容存在的原始想法隔离区；只有经过 `grill-with-docs` 澄清并进入 `idea-materials/` 的合格素材才能被 GDD 或 Proposal 正式引用。写 GDD 时必须使用统一模板，并主动审查正式素材与相关 inbox 候选。 |
+| 2026-08-18 | 建立双层想法库与 GDD 素材资格闸门 | `docs/plans/2026-08-18-gdd-material-gate-design.md` | Accepted | `idea-inbox/` 为隔离区；合格素材进 `idea-materials/` 后方可被 GDD 引用。 |
+| 2026-08-22 | 字素合成战斗取代成语组合为战斗 GDD 主线 | `card table.docx`、`GDD-BATTLE-002` | Hypothesis | 用户 card table 驱动；GDD-001 实现线 Parked；未改 `core-concept.md`。 |

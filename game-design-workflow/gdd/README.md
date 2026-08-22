@@ -21,4 +21,5 @@ GDD-YYYY-MM-DD-short-name.md
 
 ## 当前文档
 
-- [GDD-BATTLE-001：唯一核心卡成语组合战斗系统](GDD-2026-08-21-card-battle-system.md) — `GDD-1 / Evaluation`，包含当前战斗规则、首批羊/舟组合、费用模型、自动化测试与胜率模拟协议。
+- [GDD-BATTLE-002：字素合成战斗系统](GDD-2026-08-22-glyph-synthesis-combat-system.md) — `GDD-1 / Evaluation`，**当前战斗机制主方向**；基于 `card table.docx` 与 [card-table.md](../data/card-table.md)。
+- [GDD-BATTLE-001：唯一核心卡成语组合战斗系统](GDD-2026-08-21-card-battle-system.md) — `GDD-1 / Parked`（战斗实现线暂停；`combat-lab` 羊舟数据保留作对照）。
