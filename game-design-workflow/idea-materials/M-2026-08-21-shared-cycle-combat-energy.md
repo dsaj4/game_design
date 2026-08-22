@@ -1,8 +1,10 @@
 # 攻防共享周期战斗能量与组合整体定价
 
-> 素材状态：`Qualified GDD Material`
+> 素材状态：`Qualified GDD Material / Parked / Historical`
 >
-> 设计证据状态：`Prototype Tested`（实现与原子结算测试通过；首测结果显示规则可计算，但当前价格未实现跨策略平衡）
+> 设计证据状态：`Prototype Tested / Historical`（实现与原子结算测试通过；旧战斗方案已归档，本素材不得被新 GDD 静默继承）
+
+> 当前处理：保留为旧攻防共享能量方案的正式历史素材。只有用户在新战斗设计中重新选择并复审后，才能再次作为活动候选。
 
 ## 素材控制
 
@@ -13,7 +15,7 @@
 | 来源 inbox | [2026-08-21 攻防共享周期战斗能量原始想法](../idea-inbox/2026-08-21-shared-cycle-combat-energy.md) |
 | 资格确认日期 | `2026-08-21` |
 | 确认方式 | `grill-with-docs` |
-| 当前证据状态 | `Prototype Tested` |
+| 当前证据状态 | `Prototype Tested / Historical` |
 | 负责人 | `<待指定>` |
 
 ## 规范化表述
@@ -68,8 +70,8 @@
 - 支持的核心体验/设计支柱：围绕唯一核心卡构筑；组合是关键决策点；费用用于限制爆发并提供动态平衡参数。
 - 依赖的已有系统：完整轮流回合、攻击/防御组合分类、公开的组合规则、留牌构筑防御和 `combat-lab` 胜率模型。
 - 可能冲突的规则或决策：当前无费用基线允许所有合法组合发动，接入能量后必须重新评估策略 AI、无攻击率、组合使用率和羊/舟胜率差。
-- 相关素材/提案/研究：来源 inbox、`combat-lab/reports/2026-08-21-v0-winrate-baseline.md`。
-- 原型证据：[`combat-lab v1 费用模型基线`](../../combat-lab/reports/2026-08-21-v1-energy-baseline.md)。
+- 相关素材/提案/研究：来源 inbox、[归档 `combat-lab` v0 基线](../../archive/2026-08-22-idiom-combat-system/combat-lab/reports/2026-08-21-v0-winrate-baseline.md)。
+- 原型证据：[归档 `combat-lab v1` 费用模型基线](../../archive/2026-08-22-idiom-combat-system/combat-lab/reports/2026-08-21-v1-energy-baseline.md)。
 - 明确不包含：世界资源、长期经济、逐材料累加费用，以及组合与材料双重计费。
 
 ## 机制—行为—体验假设
@@ -104,6 +106,7 @@
 | 日期 | GDD/Proposal | 章节/版本 | 处理结果 | 备注 |
 | --- | --- | --- | --- | --- |
 | 2026-08-21 | 待建立 | 3/4/5/7/10 | `Qualified / Pending Use` | 首版费用规则已闭合，进入 `combat-lab` 实现与模拟 |
-| 2026-08-21 | `combat-lab` | 费用模型 v1 | `Prototype Tested / Revision Needed` | 规则可计算且原子测试通过；首测价格存在显著策略依赖，尚不能作为平衡方案采纳 |
-| 2026-08-21 | [战斗系统 GDD-1](../gdd/GDD-2026-08-21-card-battle-system.md) | 0.1.0 / 3–7、14–16 | `Included` | 费用规则纳入；当前价格与平衡结论继续保留原型证据状态 |
-| 2026-08-22 | [共享地图—战斗—撤离闭环 GDD-0](../gdd/GDD-2026-08-22-shared-map-combat-loop.md) | 0.1.0 / 3、4、8 | `Included as Interface Boundary` | 只用于区分战斗能量与探索移动能量，不复制战斗内部规格 |
+| 2026-08-21 | [归档 `combat-lab`](../../archive/2026-08-22-idiom-combat-system/combat-lab/README.md) | 费用模型 v1 | `Prototype Tested / Historical` | 规则可计算且原子测试通过；首测价格存在显著策略依赖，尚不能作为平衡方案采纳 |
+| 2026-08-21 | [旧战斗系统 GDD-1（Archived）](../../archive/2026-08-22-idiom-combat-system/game-design-workflow/gdd/GDD-2026-08-21-card-battle-system.md) | 0.1.0 / 3–7、14–16 | `Included / Historical` | 费用规则纳入旧方案；当前价格与平衡结论只保留为历史证据 |
+| 2026-08-22 | [共享地图—战斗—撤离闭环 GDD-1](../gdd/GDD-2026-08-22-shared-map-combat-loop.md) | 0.2.1 / 3、4、8 | `Parked / Historical Boundary` | 旧战斗能量接口停止实现，等待新战斗 GDD 替换 |
+| 2026-08-22 | 新战斗系统重设计 | 全部 | `Parked / Historical` | 新 GDD 不自动继承本素材 |

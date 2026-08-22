@@ -79,4 +79,4 @@
 - [ ] 保留为未达标原始想法
 - [ ] 用户明确放弃，保留记录但停止追问
 
-独立测试系统：`../../combat-lab/`
+独立测试系统（已归档）：[`combat-lab`](../../archive/2026-08-22-idiom-combat-system/combat-lab/README.md)

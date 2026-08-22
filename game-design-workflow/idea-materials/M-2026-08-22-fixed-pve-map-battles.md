@@ -1,8 +1,8 @@
 # 首个地图原型使用固定 AI/PvE 战斗节点
 
-> 素材状态：`Qualified GDD Material`
+> 素材状态：`Qualified GDD Material / Parked Pending New Battle Interface`
 >
-> 设计证据状态：`Hypothesis`（对手来源与原型边界已由用户确认，尚未经过地图—战斗串联灰盒验证）
+> 设计证据状态：`Hypothesis / Interface Reopen`（固定 AI/PvE、非 PvP 的对手来源边界仍有效；具体战斗操作、对手数据与结果字段等待新战斗 GDD）
 
 ## 素材控制
 
@@ -18,7 +18,7 @@
 
 ## 规范化表述
 
-首个有限人工地图原型中的战斗节点只使用固定 AI/PvE 对手，不接入真人玩家 PvP、匹配或主动玩家冲突。玩家进入战斗节点后，系统载入该节点预先配置、版本可追溯且可复现的 PvE 对手，并按照 [战斗系统 GDD-1](../gdd/GDD-2026-08-21-card-battle-system.md) 完成战斗。
+首个有限人工地图原型中的战斗节点只使用固定 AI/PvE 对手，不接入真人玩家 PvP、匹配或主动玩家冲突。玩家进入战斗节点后，系统应载入预先配置、版本可追溯且可复现的 PvE 对手；具体操作和结果必须由新战斗 GDD 重新定义。旧[战斗系统 GDD-1（Archived）](../../archive/2026-08-22-idiom-combat-system/game-design-workflow/gdd/GDD-2026-08-21-card-battle-system.md)只作历史证据。
 
 “固定”表示每个战斗节点引用预先配置的系统对手，而不是在进入时匹配真人玩家；它不要求所有战斗节点永久共用同一个对手。具体敌方核心卡、卡组、AI 权重、难度和节点分配属于灰盒/GDD-1 参数。
 
@@ -42,7 +42,7 @@
 ## 与当前构思的关系
 
 - 支持的核心体验/设计支柱：战斗结果改变地图判断；共享地图中的风险通过卡牌战斗落地。
-- 依赖的已有系统：[战斗系统 GDD-1](../gdd/GDD-2026-08-21-card-battle-system.md)、[探索中跨节点保留血量](M-2026-08-21-persistent-exploration-health.md)、[节点结算完成后返回地图](M-2026-08-21-node-resolution-return.md)、[有限人工节点图原型](M-2026-08-21-finite-handcrafted-node-map-prototype.md)。
+- 依赖的已有系统：新战斗 GDD（待建立）、[探索中跨节点保留血量](M-2026-08-21-persistent-exploration-health.md)、[节点结算完成后返回地图](M-2026-08-21-node-resolution-return.md)、[有限人工节点图原型](M-2026-08-21-finite-handcrafted-node-map-prototype.md)。
 - 可能冲突的规则或决策：核心构思允许共享世界中的玩家竞争和主动冲突，但这些不进入首个地图原型；后续 PvP 地图遭遇必须另立合格素材并重新定义匹配、信息和中断边界。
 - 相关素材/提案/研究：[共享地图探索循环](M-2026-08-18-shared-map-exploration-loop.md)、[整体系统优先提案](../idea-proposals/P-2026-07-01-overall-system-priority.md)。
 - 明确不包含：PvP、匹配、联网、具体 PvE 卡组与 AI 参数、战斗奖励、失败损失、Boss 专属规则和完整难度曲线。
@@ -76,3 +76,4 @@
 | 日期 | GDD/Proposal | 章节/版本 | 处理结果 | 备注 |
 | --- | --- | --- | --- | --- |
 | 2026-08-22 | [共享地图—战斗—撤离闭环 GDD-0](../gdd/GDD-2026-08-22-shared-map-combat-loop.md) | 0.1.2 / 0、2–5、9、16 | `Included` | 首个地图原型固定使用 AI/PvE，不接入玩家 PvP |
+| 2026-08-22 | 新战斗系统重设计 | 地图接口 | `Parked Pending New Interface` | 保留固定 AI/PvE 边界，废止旧对手夹具和旧结果字段 |

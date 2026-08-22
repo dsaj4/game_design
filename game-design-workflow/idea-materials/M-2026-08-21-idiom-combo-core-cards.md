@@ -1,8 +1,10 @@
 # 成语组合核心卡与首测卡组
 
-> 素材状态：`Qualified GDD Material`
+> 素材状态：`Qualified GDD Material / Parked / Historical`
 >
-> 设计证据状态：`Prototype Tested`（字段匹配、结算顺序、首批卡组、组合枚举和条件胜率模拟已经实现；可玩性与平衡性仍未通过真人验证）
+> 设计证据状态：`Prototype Tested / Historical`（字段匹配、结算顺序、首批卡组、组合枚举和条件胜率模拟已经实现；旧战斗方案已归档，本素材不得被新 GDD 静默继承）
+
+> 当前处理：保留为旧成语组合战斗的正式历史素材。只有用户在新战斗设计中重新选择并复审后，才能再次作为活动候选。
 
 ## 素材控制
 
@@ -13,7 +15,7 @@
 | 来源 inbox | [2026-08-21 成语组合核心卡组原始想法](../idea-inbox/2026-08-21-idiom-combo-core-cards.md) |
 | 资格确认日期 | `2026-08-21` |
 | 确认方式 | `grill-with-docs` |
-| 当前证据状态 | `Prototype Tested` |
+| 当前证据状态 | `Prototype Tested / Historical` |
 | 负责人 | `战斗设计` |
 
 ## 规范化表述
@@ -44,7 +46,7 @@
 ## 设计对象与 GDD 映射
 
 - 作用对象：核心卡组合身份、辅助卡字段构筑、攻防阶段、瞬时/持久结算和首批内容样例。
-- 目标 GDD：[战斗系统 GDD-1](../gdd/GDD-2026-08-21-card-battle-system.md)。
+- 目标 GDD：[旧战斗系统 GDD-1（Archived）](../../archive/2026-08-22-idiom-combat-system/game-design-workflow/gdd/GDD-2026-08-21-card-battle-system.md)。
 - 建议章节：3. 规则总览、4. 系统规格、5. 状态机与事件时序、6. 数据与内容规格、7. 卡牌与组合、14. 原型与测试。
 - 对应完成度：`GDD-1`。
 - 本素材不覆盖：世界资源、核心卡生成技术、最终卡组规模、真人 UI 和最终数值平衡。
@@ -62,7 +64,7 @@
 - 支持的核心体验/设计支柱：唯一核心卡身份、通用辅助卡构筑、组合是关键决策点、组合层动态平衡。
 - 依赖的已有系统：轮流回合、血量值、护盾、抽牌、防御准备区和攻防共享战斗能量。
 - 可能冲突的规则或决策：早期提案允许核心卡独立主动能力和更自由的多次行动；首测已收束为核心卡只有 4 个公开组合、每阶段一个共享行动位。
-- 相关素材/提案/研究：[攻防共享周期战斗能量](M-2026-08-21-shared-cycle-combat-energy.md)、`combat-lab` 的 v0/v1 基线报告。
+- 相关素材/提案/研究：[攻防共享周期战斗能量](M-2026-08-21-shared-cycle-combat-energy.md)、[归档 `combat-lab`](../../archive/2026-08-22-idiom-combat-system/combat-lab/README.md) 的 v0/v1 基线报告。
 - 明确不包含：完整 AI 生成管线、全部效果池、高复杂干扰效果、最终构筑环境和外围世界奖励。
 
 ## 机制—行为—体验假设
@@ -95,4 +97,5 @@
 
 | 日期 | GDD/Proposal | 章节/版本 | 处理结果 | 备注 |
 | --- | --- | --- | --- | --- |
-| 2026-08-21 | [战斗系统 GDD-1](../gdd/GDD-2026-08-21-card-battle-system.md) | 0.1.0 / 3–7、14–16 | `Included` | 规则语义纳入；首测数值继续标记为原型基准 |
+| 2026-08-21 | [旧战斗系统 GDD-1（Archived）](../../archive/2026-08-22-idiom-combat-system/game-design-workflow/gdd/GDD-2026-08-21-card-battle-system.md) | 0.1.0 / 3–7、14–16 | `Included / Historical` | 规则语义纳入旧方案；首测数值继续标记为原型基准 |
+| 2026-08-22 | 新战斗系统重设计 | 全部 | `Parked / Historical` | 旧 GDD 与原型归档；新 GDD 不自动继承本素材 |

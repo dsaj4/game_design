@@ -68,5 +68,5 @@
 
 - [x] 继续使用 `grill-with-docs` 澄清
 - [x] 通过闸门后晋级 `idea-materials/`
-- [x] 接入 `combat-lab` 进行费用敏感性模拟；结果见 [`v1 费用模型基线`](../../combat-lab/reports/2026-08-21-v1-energy-baseline.md)
+- [x] 已接入归档 `combat-lab` 进行费用敏感性模拟；历史结果见 [`v1 费用模型基线`](../../archive/2026-08-22-idiom-combat-system/combat-lab/reports/2026-08-21-v1-energy-baseline.md)
 - [ ] 用户明确放弃，保留记录但停止追问

@@ -1,8 +1,8 @@
 # 探索中跨节点保留血量
 
-> 素材状态：`Qualified GDD Material`
+> 素材状态：`Qualified GDD Material / Parked Pending New Battle Interface`
 >
-> 设计证据状态：`Hypothesis`（规则边界已由用户确认，尚未经过地图—战斗串联原型验证）
+> 设计证据状态：`Hypothesis / Interface Reopen`（跨节点持续状态的意图已确认，但新战斗是否使用血量及如何往返尚未重新确认）
 
 ## 素材控制
 
@@ -40,8 +40,8 @@
 ## 与当前构思的关系
 
 - 支持的核心体验/设计支柱：战斗结果反向改变世界判断；玩家在风险与收益之间规划探索路线。
-- 依赖的已有系统：[共享地图探索循环](M-2026-08-18-shared-map-exploration-loop.md)、[战斗系统 GDD-1](../gdd/GDD-2026-08-21-card-battle-system.md)中的血量与胜负规则。
-- 可能冲突的规则或决策：`combat-lab` 独立战斗默认以完整初始血量创建对局；地图串联原型需要允许从探索状态传入玩家当前血量，但不改变独立战斗测试基准。
+- 依赖的已有系统：[共享地图探索循环](M-2026-08-18-shared-map-exploration-loop.md)和待建立的新战斗 GDD；旧[战斗系统 GDD-1（Archived）](../../archive/2026-08-22-idiom-combat-system/game-design-workflow/gdd/GDD-2026-08-21-card-battle-system.md)中的血量与胜负规则不再是有效依赖。
+- 可能冲突的规则或决策：新战斗可能不使用单一血量值，或不把归零作为终局；确认前不得按归档 `combat-lab` 的完整初始血量与返回字段实现地图接口。
 - 相关素材/提案/研究：[整体系统优先提案](../idea-proposals/P-2026-07-01-overall-system-priority.md)、[整体系统优先评估](../evaluations/E-2026-07-01-overall-system-priority.md)。
 - 明确不包含：探索移动能量耗尽失败、治疗节点或治疗资源、失败掉落、撤退收益、永久伤病、局外成长、经营与交易。
 
@@ -75,3 +75,4 @@
 | --- | --- | --- | --- | --- |
 | 2026-08-21 | 待建立的共享地图—战斗闭环 GDD | GDD-0 / 1、2、16 | `Qualified / Pending Use` | 失败结算与治疗规则另行确认 |
 | 2026-08-22 | [共享地图—战斗—撤离闭环 GDD-0](../gdd/GDD-2026-08-22-shared-map-combat-loop.md) | 0.1.0 / 1–5、8、9、16 | `Included` | 作为地图—战斗状态接口；治疗和失败结算仍为 Unknown |
+| 2026-08-22 | 新战斗系统重设计 | 地图接口 | `Parked Pending New Interface` | 持续风险意图保留；血量字段、往返与终局等待新 GDD |

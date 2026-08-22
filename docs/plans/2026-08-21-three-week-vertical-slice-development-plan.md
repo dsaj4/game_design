@@ -1,20 +1,22 @@
 # 三人团队三周垂直切片开发与分工计划
 
-> 文档状态：`Production Plan / Pending Team Confirmation`
+> 文档状态：`Parked / Superseded Pending New Battle GDD`
 >
-> 计划周期：15 个工作日，建议为 2026-08-24 至 2026-09-11
+> 原计划周期：15 个工作日，原建议为 2026-08-24 至 2026-09-11；当前不再有效
 >
 > 团队：`ssn`（总负责人、GDD、策划、代码主力）、`wdr`（代码辅助、地图循环、UI 表现、内容集成）、`lh`（美术、剧情）
+
+> 暂停说明：旧成语组合战斗 GDD 与 `combat-lab` 已于 2026-08-22 归档。本文以下范围、排期、任务、资产和验收仍保留作历史估算，但不授权实现；必须在新战斗 GDD-0/1 与地图接口确认后重写生产计划。
 
 ## 1. 计划结论
 
 三周内不以“完成正式游戏”为目标，而是走完一次完整的小型开发周期，交付一个可以独立试玩、收集反馈并支持继续立项判断的离线垂直切片。
 
-推荐范围是：
+原推荐范围是（已失效）：
 
 `选择核心卡 -> 进入固定节点地图 -> 选择相邻节点 -> 获得资源/触发事件/进入战斗 -> 使用核心卡组合与共享战斗能量完成单机 AI 对战 -> 获得结果 -> 继续或撤离 -> 结算本局`
 
-本计划采用“整体循环可玩，内容量极小”的方案。它比只做战斗更能验证当前整体系统主线，同时又比实现共享世界、交易和 AI 生成更符合三人三周的产能。
+原计划采用“整体循环可玩，内容量极小”的方案。由于其中的战斗、数据、UI 和验收均依赖已归档规则，当前整体状态为 `Parked`，不得按下表启动开发。
 
 ### 1.1 三种范围方案
 
@@ -213,7 +215,7 @@
 | --- | --- | --- | --- | --- |
 | 尚无正式客户端工程，引擎学习占用周期 | D1 下午仍无法运行空构建 | 只选团队已有经验的工具，禁止为了“更适合”换引擎 | 改做 Python/网页或团队最熟悉环境的可玩原型 | `ssn` |
 | `ssn` 同时承担总控、GDD 和主程序而过载 | GDD 反复扩写；代码任务连续两日延期 | GDD 只写 GDD-1 当前范围；`wdr` 完整拥有地图/UI 集成 | 砍支线节点、复杂 AI 和非关键反馈 | `ssn` |
-| 战斗实验规则未全部接入客户端 | D4 仍不能发动组合 | 以 `combat-lab` 数据和测试为规则参考，只移植最小运行路径 | G1 先用简化固定行动，D6 前补完整规则 |
+| 旧战斗规则已归档 | 新战斗 GDD 尚未形成 | 停止移植；先完成新 GDD-0/1 和地图接口复审 | 不启动旧战斗或垂直切片实现 |
 | 地图循环规模失控 | 开始讨论程序生成、地形、占领和多人同步 | 固定图、四类节点、一个资源、无占领 | 线性 6 节点主路 + 1 个撤离点 | `wdr` |
 | 美术资源量超过单人产能 | D3 仍在探索风格，没有可导入资产 | 通用卡框、统一事件底板、图标复用、限制插画数量 | 全部使用统一剪影/图标风格，取消独立事件插图 | `lh` |
 | 剧情承诺未实现系统 | 文案出现交易、成长、共享多人世界等当前不可玩内容 | 所有文本由 `ssn` 对照 GDD 范围验收 | 改为遗迹探索与撤离的最小前提 | `lh` |
@@ -238,7 +240,7 @@
 
 - `Go`：完整流程、核心卡身份和至少一种地图/战斗取舍均达到成功信号，且没有结构性技术阻塞。进入 4-6 周制作验证，优先扩充内容和验证重复游玩。
 - `Iterate`：流程可玩但关键体验信号不足。只选择一个最大失败点再做 1-2 周验证，不直接扩内容。
-- `Stop/Pivot`：玩家无法理解或不在意核心卡组合，地图与战斗长期割裂，且问题不能通过小调整解决。保留 `combat-lab` 和试玩证据，回到提案/评估阶段。
+- `Stop/Pivot`：玩家无法理解或不在意核心卡与战斗的关系，地图与战斗长期割裂，且问题不能通过小调整解决。保留[归档 `combat-lab`](../../archive/2026-08-22-idiom-combat-system/combat-lab/README.md)和试玩证据，回到提案/评估阶段。
 
 ## 14. 依据与状态说明
 
@@ -248,8 +250,8 @@
 - `game-design-workflow/decision-log.md`
 - `game-design-workflow/idea-materials/M-2026-08-18-core-card-identity-and-ownership.md`
 - `game-design-workflow/idea-materials/M-2026-08-18-shared-map-exploration-loop.md`
-- `game-design-workflow/idea-materials/M-2026-08-21-shared-cycle-combat-energy.md`
-- `combat-lab/README.md`
-- `combat-lab/reports/2026-08-21-v0-winrate-baseline.md`
+- `game-design-workflow/idea-materials/M-2026-08-21-shared-cycle-combat-energy.md`（`Parked / Historical`）
+- [`archive/2026-08-22-idiom-combat-system/combat-lab/README.md`](../../archive/2026-08-22-idiom-combat-system/combat-lab/README.md)
+- [`archive/2026-08-22-idiom-combat-system/combat-lab/reports/2026-08-21-v0-winrate-baseline.md`](../../archive/2026-08-22-idiom-combat-system/combat-lab/reports/2026-08-21-v0-winrate-baseline.md)
 
 `game-design-workflow/templates/overall-system-framework-template.md` 中的“搜打撤、铭文世界观、生存预算”等内容目前不是正式 Accepted 设计。本计划只把其中与已确认节点探索、战斗和撤离原型兼容的部分作为 GDD 待确认输入，不据此修改核心构思。

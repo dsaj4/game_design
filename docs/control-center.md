@@ -1,6 +1,6 @@
 # 项目总控中心
 
-最后更新：2026-08-18
+最后更新：2026-08-22
 
 这份文档是仓库的总控面板。它不替代 `game-design-workflow/` 和 `research/` 的正式流程，而是回答四个问题：
 
@@ -13,7 +13,7 @@
 
 ### 项目定位
 
-这是一个游戏构思系统，不是游戏代码仓库。当前主线是一款围绕唯一核心卡展开构筑、探索、资源竞争、交易与回合制卡牌对战的 2D 系统型游戏。
+这是一个游戏构思系统，不是游戏代码仓库。当前主线是一款围绕唯一核心卡展开身份选择、探索、资源竞争、交易与关键冲突解决的 2D 系统型游戏；战斗系统正在重新设计。
 
 ### 当前正式状态
 
@@ -21,7 +21,9 @@
 | --- | --- | --- |
 | 建立构思整理工作流 | Accepted | `game-design-workflow/decision-log.md` |
 | “第一阶段先验证卡牌战斗，不引入资源系统” | Superseded | `game-design-workflow/decision-log.md` |
-| 卡牌战斗系统细化 v2 | Accepted | `game-design-workflow/core-concept.md` |
+| 成语组合卡牌战斗系统细化 v2 | Archived / Superseded | `archive/2026-08-22-idiom-combat-system/README.md` |
+| 新战斗系统重设计 | Raw Idea / Unqualified | `game-design-workflow/idea-inbox/2026-08-22-new-battle-system-redesign.md` |
+| 共享地图—战斗—撤离 GDD-1 | Parked | `game-design-workflow/gdd/GDD-2026-08-22-shared-map-combat-loop.md` |
 | 整体系统构思优先，战斗改为关键解决层 | Accepted | `game-design-workflow/decision-log.md` |
 | 关卡经营玩法 | 修改后再评估 | `game-design-workflow/evaluations/E-2026-05-29-level-operation.md` |
 | 核心卡身份路线 | Active Research | `research/05-design-hypotheses/H-2026-05-31-core-card-identity-routes.md` |
@@ -33,22 +35,21 @@
 
 当前唯一主线仍然是：
 
-`唯一核心卡 + 通用辅助卡 + 激活费用 + 组合规则表 + 共享世界资源循环 + 回合制对战`
+`唯一核心卡驱动的整体系统 + 重新设计中的关键冲突解决层`
 
 ### 当前优先级
 
-1. 先把整体系统闭环说清：战斗、资源、地图、掉落、交易和世界目标如何互相驱动。
-2. 明确战斗在整体系统中的职责，避免它既被削弱成附属层，又重新吞掉所有优先级。
-3. 围绕“核心卡如何同时成为战斗中心、世界身份和长期资产”推进研究、提案与评估。
-4. 把新输入稳定分流到正确目录，避免聊天结论直接污染 `core-concept.md`；尤其不能让未达标想法绕过素材资格闸门。
+1. 使用 `grill-with-docs` 补齐新战斗 Raw Idea 的资格字段，从 GDD-0 重新确认概念合同。
+2. 先确认唯一核心卡在新战斗中的地位，再定义玩家核心动作、目标、反馈、资源和地图接口。
+3. 暂停依赖旧战斗夹具的地图灰盒和三周生产计划，直到新接口可实现、可测试。
+4. 把新输入稳定分流到正确目录，尤其不能让旧战斗规则或未达标想法绕过素材资格闸门。
 
 ### 当前活跃问题
 
-- 共享世界中的主循环是什么，它如何稳定导向战斗、资源与成长判断。
-- 资源系统最少需要几类资源，它们分别服务哪一段长期循环。
-- 核心卡如何通过世界系统保持稀缺、身份感与长期目标。
-- 战斗在整体系统中承担哪些不可替代的解决职责。
-- 世界观框架应如何解释唯一核心卡、资源争夺与共享世界。
+- 新战斗是否必须保留唯一核心卡作为玩家身份与战斗中心。
+- 新战斗中玩家反复执行的核心动作、胜负目标和主要反馈是什么。
+- 新战斗向地图返回哪些结果，探索血量与固定 AI/PvE 是否仍适用。
+- 共享世界中的主循环如何稳定导向战斗、资源与成长判断。
 
 这些问题的正式入口仍以 [current-questions.md](/E:/Project/game/research/00-index-and-roadmap/current-questions.md) 为准。
 
@@ -144,6 +145,6 @@
 
 ## 当前下一步建议
 
-1. 先补一份“整体系统闭环提案”，把地图、资源、战斗、掉落、交易和世界目标串成一张因果图。
-2. 把当前问题清单从战斗微观问题切到系统级问题，再决定哪个子系统先进入 Proposal。
+1. 完成新战斗 Raw Idea 的资格确认，晋级后按统一模板建立 GDD-0。
+2. 用新战斗 GDD 明确地图输入/输出接口，再复审 `GDD-WORLD-001` 和生产计划。
 3. 当有新的灵感、竞品或理论输入时，先按 [workspace-map.md](/E:/Project/game/docs/workspace-map.md) 分流，再决定是否升级状态。

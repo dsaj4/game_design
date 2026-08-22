@@ -21,5 +21,9 @@ GDD-YYYY-MM-DD-short-name.md
 
 ## 当前文档
 
-- [GDD-BATTLE-001：唯一核心卡成语组合战斗系统](GDD-2026-08-21-card-battle-system.md) — `GDD-1 / Evaluation`，包含当前战斗规则、首批羊/舟组合、费用模型、自动化测试与胜率模拟协议。
-- [GDD-WORLD-001：共享地图—战斗—撤离闭环](GDD-2026-08-22-shared-map-combat-loop.md) — `GDD-1 / Evaluation`，定义确定性灰盒地图、探索状态、固定 PvE 接口、隐藏撤离点、参数扫描、测试与验收标准。
+- 新战斗系统 — `Raw Idea / Unqualified`，入口见[全新战斗系统重设计](../idea-inbox/2026-08-22-new-battle-system-redesign.md)；通过素材资格闸门前不建立 GDD 正文。
+- [GDD-WORLD-001：共享地图—战斗—撤离闭环](GDD-2026-08-22-shared-map-combat-loop.md) — `GDD-1 / Parked`，地图规则保留，但旧 PvE 夹具和战斗接口停止实现，等待新战斗 GDD。
+
+## 已归档文档
+
+- [GDD-BATTLE-001：唯一核心卡成语组合战斗系统](../../archive/2026-08-22-idiom-combat-system/game-design-workflow/gdd/GDD-2026-08-21-card-battle-system.md) — `Archived / Superseded`，只作为历史规则、测试和模拟证据。
