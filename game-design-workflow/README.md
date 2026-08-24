@@ -7,7 +7,7 @@
 - `core-concept.md`：正式核心构思文档，只记录已经确认的精华内容。
 - `idea-inbox/`：原始想法隔离区，允许模糊内容，但不得直接进入正式设计链。
 - `idea-materials/`：正式想法素材库，只保存通过资格闸门的合格 GDD 素材。
-- `gdd/`：按统一模板形成的具体 GDD 文档。
+- `gdd/`：按统一模板形成的核心玩法设计与设计决策文档，不记录代码规则或开发进度。
 - `idea-proposals/`：已整理成可讨论提案的想法。
 - `evaluations/`：对提案的可行性、可玩性、市场参照等评估。
 - `draft-changes/`：拟写入 `core-concept.md` 的修改草案。
@@ -17,16 +17,17 @@
 
 ## GDD 写作入口
 
-- [GDD 写作要求与模板](templates/gdd-writing-requirements-and-template.md)：先按 `GDD-0 / GDD-1 / GDD-2` 选择完成度，再把已成形构思整理成可讨论、可实现、可测试和可追踪的设计合同。
+- [GDD 写作要求与模板](templates/gdd-writing-requirements-and-template.md)：先按 `GDD-0 / GDD-1 / GDD-2` 选择完成度，再把已成形构思整理成可讨论、可验证和可追踪的玩法设计合同。
 - [GDD 写作知识 Wiki](../research/02-theory-digests/gdd-writing-knowledge-wiki-2026-08-18.md)：模板背后的理论、重点材料、判断框架与来源索引。
 - [合格 GDD 素材模板](templates/qualified-gdd-material-template.md)：通过资格闸门后，用于生成可被 GDD/Proposal 引用的正式素材。
 
-用户提出写 GDD、需求文档、系统规格或玩法设计文档时，agent 必须主动使用模板：
+用户提出写 GDD、玩法需求、游戏系统规则或玩法设计文档时，agent 必须主动使用模板：
 
 1. 先确认 `GDD-0 / GDD-1 / GDD-2`。
 2. 检索 `idea-materials/` 和 `idea-inbox/`。
 3. 在对应章节主动提出相关内容：正式素材可供用户选择；inbox 内容必须标为未确认候选。
 4. 用户希望采用 inbox 候选时，先使用 `grill-with-docs` 完成资格确认和晋级，不能直接写入 GDD。
+5. 引擎、类、函数、脚本、API、编程数据结构、构建、Bug 与开发完成度不得进入 GDD；统一更新到 [`docs/code-development-index.md`](../docs/code-development-index.md) 或对应代码仓库。
 
 ## 状态流转
 

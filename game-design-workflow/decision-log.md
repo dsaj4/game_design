@@ -7,5 +7,6 @@
 | 2026-05-13 | 采纳卡牌战斗系统细化 v2 并写入核心文档 | `draft-changes/D-2026-05-13-card-battle-v2.md` | Accepted | 用户确认采纳；该版本保留唯一核心卡与组合动态平衡，并将第一阶段范围收束到纯卡牌战斗原型。 |
 | 2026-07-01 | 以整体系统构思替换“卡牌战斗优先”的当前阶段主线 | `draft-changes/D-2026-07-01-overall-system-priority.md` | Accepted | 用户明确要求完全替换当前第一阶段优先级。项目主线重新扩展为“唯一核心卡如何连接构筑、探索、资源、交易与回合制对战”的整体系统闭环，战斗改为关键解决层而非唯一优先对象。 |
 | 2026-08-18 | 建立双层想法库与 GDD 素材资格闸门 | `docs/plans/2026-08-18-gdd-material-gate-design.md` | Accepted | `idea-inbox/` 为隔离区；合格素材进 `idea-materials/` 后方可被 GDD 引用。 |
-| 2026-08-24 | 建立 Godot 灰盒客户端代码设计 GDD-CLIENT-001 | `godot-demo` 实现、`M-2026-08-24` | Hypothesis | 与构思库分离的可运行客户端；双轨合成与非 STS 洗牌已写入实现合同；未改 `core-concept.md`。 |
+| 2026-08-24 | 建立 Godot 灰盒客户端代码设计 GDD-CLIENT-001 | `godot-demo` 实现、`M-2026-08-24` | Superseded | 该文档混合了玩法规则、代码架构与开发状态；2026-08-24 按 GDD/开发隔离决策迁出 GDD。 |
+| 2026-08-24 | GDD 与代码开发记录强制隔离 | 用户明确要求；`docs/code-development-index.md` 的 `ADR-DEV-001` | Accepted | GDD 只保留核心玩法设计与设计决策；代码仓库、技术架构、实现进度、验证证据和设计偏差统一由开发进度索引及对应代码仓库管理。 |
 | 2026-08-22 | 字素合成战斗取代成语组合为战斗 GDD 主线 | `card table.docx`、`GDD-BATTLE-002` | Hypothesis | 用户 card table 驱动；GDD-001 实现线 Parked；未改 `core-concept.md`。 |

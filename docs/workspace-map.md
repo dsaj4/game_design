@@ -1,6 +1,6 @@
 # 工作区地图
 
-最后更新：2026-08-18
+最后更新：2026-08-24
 
 这份文档回答一个实际问题：当我们有新内容时，具体应该写到哪里。
 
@@ -10,7 +10,7 @@
 E:/Project/game
 ├── game-design-workflow/   正式游戏构思主流程
 ├── research/               理论、竞品、假设与原型观察
-├── docs/                   协作说明、导航和总控文档
+├── docs/                   协作说明、导航、总控与代码开发进度索引
 ├── media-analysis-lab/     隔离的游戏拆解实验区
 ├── assets/                 本地参考素材
 └── archive/                历史快照
@@ -63,12 +63,14 @@ E:/Project/game
 - 新手说明
 - 总控状态板
 - 工作区结构说明
+- 代码仓库入口、开发里程碑、实现状态与 GDD 偏差索引
 
 不适合放：
 
 - 新玩法提案
 - 竞品分析正文
 - 原型测试记录
+- 详细代码架构、构建命令和 Bug 正文（应留在对应代码仓库）
 
 ### `media-analysis-lab/`
 
@@ -100,7 +102,8 @@ E:/Project/game
 | --- | --- |
 | 一个零散点子 | `game-design-workflow/idea-inbox/`（Raw Idea / Unqualified） |
 | 一个通过资格确认的想法素材 | `game-design-workflow/idea-materials/` |
-| 一份 GDD/系统规格文档 | `game-design-workflow/gdd/` |
+| 一份 GDD/玩法系统规格文档 | `game-design-workflow/gdd/` |
+| 一项代码实现、开发进度或技术阻塞 | `docs/code-development-index.md`；细节进入对应代码仓库 |
 | 一个成形玩法假设 | `game-design-workflow/idea-proposals/` |
 | 一个是否值得做的判断 | `game-design-workflow/evaluations/` |
 | 一个准备写进正式设定的文本 | `game-design-workflow/draft-changes/` |

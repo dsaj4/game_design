@@ -26,8 +26,8 @@
 | 关卡经营玩法 | 修改后再评估 | `game-design-workflow/evaluations/E-2026-05-29-level-operation.md` |
 | 核心卡身份路线 | Active Research | `research/05-design-hypotheses/H-2026-05-31-core-card-identity-routes.md` |
 | 字素合成战斗 GDD-002 | Evaluation（战斗机制主线） | `game-design-workflow/gdd/GDD-2026-08-22-glyph-synthesis-combat-system.md` |
-| Godot 灰盒客户端 GDD-CLIENT-001 | Evaluation（代码设计合同） | `game-design-workflow/gdd/GDD-2026-08-24-godot-greybox-client.md`；实现：https://github.com/Winterwhite11/fantacy-breakdown-godot-demo |
-| 成语组合战斗 GDD-001 | Parked（实现线） | `game-design-workflow/gdd/GDD-2026-08-21-card-battle-system.md` |
+| Godot 灰盒客户端 | Implemented（待实际试玩验证） | [代码开发进度索引](code-development-index.md)；实现：https://github.com/Winterwhite11/fantacy-breakdown-godot-demo |
+| 成语组合战斗 GDD-001 | Parked / Archived | `archive/2026-08-24-gdd-code-separation/GDD-2026-08-21-card-battle-system.md` |
 | 媒体拆解实验室 | Prototype Lab | `media-analysis-lab/README.md` |
 
 ## 当前总控判断
@@ -69,6 +69,7 @@
 | `research/01-04/` | 理论、案例、比较 | 外部知识输入 | Research |
 | `research/05-design-hypotheses/` | 可验证假设 | 研究结论已能指导设计 | Research Hypothesis |
 | `research/06-prototype-insights/` | 原型/纸面验证观察 | 已有测试或推演 | Prototype Insight |
+| `docs/code-development-index.md` | 代码仓库、里程碑、实现状态与设计偏差 | 已有设计来源或代码工作 | Development Progress |
 | `media-analysis-lab/` | 视频/图文拆解实验区 | 验证新分析工作流 | Prototype Lab |
 | `archive/` | 历史快照 | 需要保留上下文 | Archived |
 
@@ -86,6 +87,7 @@
 - Draft Change
 - Research
 - Prototype Insight
+- Development Progress
 - Accepted
 - Parked
 - Rejected
@@ -96,6 +98,7 @@
 
 - 会影响当前游戏主线判断的内容，走 `game-design-workflow/` 或 `research/`。
 - 只是在验证分析方法、写作方法或工具链的内容，留在 `media-analysis-lab/`。
+- 玩法规则与设计决策进入 GDD；代码架构、文件路径、开发进度与技术阻塞进入代码开发进度索引或对应代码仓库。
 - 未经确认，不把实验区结论直接写进 `core-concept.md`。
 
 ### 3. 只维护一个主线焦点
@@ -116,8 +119,9 @@
 当一轮工作产生有效沉淀时，优先更新：
 
 1. 对应流程文档本身。
-2. 若影响正式方向，再更新 `decision-log.md` 或 `core-concept.md`。
-3. 若影响项目全局判断，再回看这份总控文档是否需要同步。
+2. 若产生代码状态变化，同步更新 `docs/code-development-index.md`，但不把实现事实写成 GDD 结论。
+3. 若影响正式方向，再更新 `decision-log.md` 或 `core-concept.md`。
+4. 若影响项目全局判断，再回看这份总控文档是否需要同步。
 
 ## 维护节奏
 

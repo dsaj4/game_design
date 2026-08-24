@@ -2,6 +2,8 @@
 
 本目录只保存 `Qualified GDD Material`（合格 GDD 素材）。这里的内容可以被 GDD 或 Proposal 正式引用，但仍不等于已经采纳的核心设定。
 
+代码实现、技术方案和开发完成度不是 GDD 素材，不得进入本目录；它们统一记录在 [`docs/code-development-index.md`](../../docs/code-development-index.md) 或对应代码仓库。
+
 ## 与 idea-inbox 的区别
 
 | 目录 | 内容状态 | 可以模糊吗 | 可直接写入 GDD/Proposal 吗 |

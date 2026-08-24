@@ -20,7 +20,11 @@
 
 ## GDD
 
-按照 `game-design-workflow/templates/gdd-writing-requirements-and-template.md` 写作的设计合同。GDD 负责把玩家体验、规则、系统状态、交互反馈、验收与验证组织成可沟通、可实现、可测试和可追踪的文档。
+按照 `game-design-workflow/templates/gdd-writing-requirements-and-template.md` 写作的玩法设计合同。GDD 负责组织玩家体验、核心玩法规则、系统状态、交互反馈、设计验收、假设与决策；不记录引擎、类、函数、脚本、API、编程数据结构、构建步骤或代码完成度。
+
+## 代码开发进度（Development Progress）
+
+代码仓库、里程碑、实现状态、验证证据、技术阻塞和与 GDD 的偏差。仓库级入口是 `docs/code-development-index.md`，详细技术内容留在对应代码仓库。代码已实现不等于玩法设计已确认。
 
 ## 核心构思（Core Concept）
 

@@ -13,11 +13,11 @@
 | 创建日期 | `2026-08-21` |
 | 最近更新 | `2026-08-21` |
 | 目标里程碑 | `combat-lab v2：低字段密度构筑与真人体验验证` |
-| 关联提案 | [卡牌战斗系统细化 v2](../idea-proposals/P-2026-05-13-card-battle-v2.md) |
-| 关联正式素材 | [成语组合核心卡](../idea-materials/M-2026-08-21-idiom-combo-core-cards.md)、[攻防共享周期战斗能量](../idea-materials/M-2026-08-21-shared-cycle-combat-energy.md) |
+| 关联提案 | [卡牌战斗系统细化 v2](../../game-design-workflow/idea-proposals/P-2026-05-13-card-battle-v2.md) |
+| 关联正式素材 | [成语组合核心卡](../../game-design-workflow/idea-materials/M-2026-08-21-idiom-combo-core-cards.md)、[攻防共享周期战斗能量](../../game-design-workflow/idea-materials/M-2026-08-21-shared-cycle-combat-energy.md) |
 | 待确认 inbox 候选 | 已检索；相关成语组合与费用 inbox 均已晋级，旧综合构思不作为本章直接来源 |
-| 关联评估 | [唯一核心卡战斗与共享地图评估](../evaluations/E-2026-05-13-unique-core-card-battle-map.md) |
-| 关联决策 | [决策记录](../decision-log.md) |
+| 关联评估 | [唯一核心卡战斗与共享地图评估](../../game-design-workflow/evaluations/E-2026-05-13-unique-core-card-battle-map.md) |
+| 关联决策 | [决策记录](../../game-design-workflow/decision-log.md) |
 | 关联原型/测试 | [`combat-lab`](../../combat-lab/README.md)、[v0 无费用基线](../../combat-lab/reports/2026-08-21-v0-winrate-baseline.md)、[v1 费用基线](../../combat-lab/reports/2026-08-21-v1-energy-baseline.md) |
 
 ### 0.1 本版目标
@@ -68,18 +68,18 @@
 
 | 素材 | 与本 GDD 的关系 | 建议章节 | 用户决定 | 处理说明 |
 | --- | --- | --- | --- | --- |
-| [成语组合核心卡](../idea-materials/M-2026-08-21-idiom-combo-core-cards.md) | 核心组合规则与首批内容 | 3–7、14–16 | `Include` | 规则语义纳入；数值标记为首测基准 |
-| [攻防共享周期战斗能量](../idea-materials/M-2026-08-21-shared-cycle-combat-energy.md) | 行动经济、费用与原子扣费 | 3–6、14–16 | `Include` | 费用框架纳入；当前价格保持待调 |
-| [核心卡身份与所有权](../idea-materials/M-2026-08-18-core-card-identity-and-ownership.md) | 战斗中一张核心卡的上游约束 | 3、7.3 | `Park` | 仅采用“每场战斗一张参战核心卡”；账户所有权、替换与交易不在本章决定 |
-| [共享地图探索循环](../idea-materials/M-2026-08-18-shared-map-exploration-loop.md) | 战斗的外部触发与结果消费者 | 0.2 | `Omit` | 不进入战斗内部规则 |
+| [成语组合核心卡](../../game-design-workflow/idea-materials/M-2026-08-21-idiom-combo-core-cards.md) | 核心组合规则与首批内容 | 3–7、14–16 | `Include` | 规则语义纳入；数值标记为首测基准 |
+| [攻防共享周期战斗能量](../../game-design-workflow/idea-materials/M-2026-08-21-shared-cycle-combat-energy.md) | 行动经济、费用与原子扣费 | 3–6、14–16 | `Include` | 费用框架纳入；当前价格保持待调 |
+| [核心卡身份与所有权](../../game-design-workflow/idea-materials/M-2026-08-18-core-card-identity-and-ownership.md) | 战斗中一张核心卡的上游约束 | 3、7.3 | `Park` | 仅采用“每场战斗一张参战核心卡”；账户所有权、替换与交易不在本章决定 |
+| [共享地图探索循环](../../game-design-workflow/idea-materials/M-2026-08-18-shared-map-exploration-loop.md) | 战斗的外部触发与结果消费者 | 0.2 | `Omit` | 不进入战斗内部规则 |
 
 **未确认 inbox 候选：**
 
 | 原始想法 | 相关性 | 缺失的资格字段 | 处理结果 |
 | --- | --- | --- | --- |
-| [成语组合原始想法](../idea-inbox/2026-08-21-idiom-combo-core-cards.md) | 直接相关 | 无；资格字段已全部清楚 | 已晋级为正式素材并纳入 |
-| [费用原始想法](../idea-inbox/2026-08-21-shared-cycle-combat-energy.md) | 直接相关 | 无；已经过原型验证 | 已晋级为正式素材并纳入 |
-| [早期综合构思](../idea-inbox/2026-05-13-unique-core-card-battle-map.md) | 部分战斗内容相关 | 新流程复审仍混合地图、交易等未确认内容 | 不直接引用；只引用其后续 Accepted 提案、决策与已晋级子素材 |
+| [成语组合原始想法](../../game-design-workflow/idea-inbox/2026-08-21-idiom-combo-core-cards.md) | 直接相关 | 无；资格字段已全部清楚 | 已晋级为正式素材并纳入 |
+| [费用原始想法](../../game-design-workflow/idea-inbox/2026-08-21-shared-cycle-combat-energy.md) | 直接相关 | 无；已经过原型验证 | 已晋级为正式素材并纳入 |
+| [早期综合构思](../../game-design-workflow/idea-inbox/2026-05-13-unique-core-card-battle-map.md) | 部分战斗内容相关 | 新流程复审仍混合地图、交易等未确认内容 | 不直接引用；只引用其后续 Accepted 提案、决策与已晋级子素材 |
 
 ## 1. 产品与体验合同 `[必填]`
 
@@ -614,8 +614,8 @@ stateDiagram-v2
 - 规则实现与运行命令：[`combat-lab/README.md`](../../combat-lab/README.md)
 - 无费用胜率基线：[v0 报告](../../combat-lab/reports/2026-08-21-v0-winrate-baseline.md)
 - 共享能量胜率基线：[v1 报告](../../combat-lab/reports/2026-08-21-v1-energy-baseline.md)
-- 成语组合来源：[正式素材](../idea-materials/M-2026-08-21-idiom-combo-core-cards.md)
-- 费用规则来源：[正式素材](../idea-materials/M-2026-08-21-shared-cycle-combat-energy.md)
+- 成语组合来源：[正式素材](../../game-design-workflow/idea-materials/M-2026-08-21-idiom-combo-core-cards.md)
+- 费用规则来源：[正式素材](../../game-design-workflow/idea-materials/M-2026-08-21-shared-cycle-combat-energy.md)
 - 术语：[CONTEXT.md](../../CONTEXT.md)
 
 ## 18. 提交前自检 `[必填]`

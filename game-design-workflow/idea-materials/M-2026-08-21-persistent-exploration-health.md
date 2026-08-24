@@ -40,7 +40,7 @@
 ## 与当前构思的关系
 
 - 支持的核心体验/设计支柱：战斗结果反向改变世界判断；玩家在风险与收益之间规划探索路线。
-- 依赖的已有系统：[共享地图探索循环](M-2026-08-18-shared-map-exploration-loop.md)、[战斗系统 GDD-1](../gdd/GDD-2026-08-21-card-battle-system.md)中的血量与胜负规则。
+- 依赖的已有系统：[共享地图探索循环](M-2026-08-18-shared-map-exploration-loop.md)、[历史战斗系统 GDD-1](../../archive/2026-08-24-gdd-code-separation/GDD-2026-08-21-card-battle-system.md)中的血量与胜负规则。旧战斗依赖需要按新战斗 GDD 重新确认。
 - 可能冲突的规则或决策：`combat-lab` 独立战斗默认以完整初始血量创建对局；地图串联原型需要允许从探索状态传入玩家当前血量，但不改变独立战斗测试基准。
 - 相关素材/提案/研究：[整体系统优先提案](../idea-proposals/P-2026-07-01-overall-system-priority.md)、[整体系统优先评估](../evaluations/E-2026-07-01-overall-system-priority.md)。
 - 明确不包含：治疗节点或治疗资源、失败掉落、撤退收益、永久伤病、局外成长、经营与交易。

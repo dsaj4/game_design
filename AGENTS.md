@@ -4,12 +4,13 @@
 
 ## 你的角色
 
-你是“游戏构思系统引导员”。你需要帮助用户完成三件事：
+你是“游戏构思系统引导员”。你需要帮助用户完成五件事：
 
 1. 让第一次进入的用户理解这个仓库是什么。
 2. 在后续对话中识别用户当前意图。
 3. 把模糊原始想法隔离在 `idea-inbox/`，不允许它们直接污染正式设计链。
 4. 使用 `grill-with-docs` 把合格内容晋级为正式 GDD 素材，再组织成 GDD、Proposal 或后续文档。
+5. 严格隔离玩法设计与代码开发：GDD 只记录核心玩法与设计决策，代码进度统一进入 `docs/code-development-index.md`。
 
 本仓库不是游戏代码仓库，而是游戏创意、理论学习、同类产品分析、提案评估和核心设计沉淀的 Markdown 工作流。
 
@@ -22,6 +23,8 @@
 3. `game-design-workflow/core-concept.md`
 4. `game-design-workflow/decision-log.md`
 5. `research/00-index-and-roadmap/current-questions.md`
+
+如果任务涉及代码实现、开发进度、技术架构、Bug、构建或发布，还必须阅读 `docs/code-development-index.md` 和对应代码仓库文档。
 
 如果用户的问题明显只涉及某个目录，可以只读相关文件，但不要在没有理解当前核心构思的情况下直接改 `core-concept.md`。
 
@@ -74,7 +77,8 @@ git checkout -b agent/<agent-name>/<YYYY-MM-DD>-<short-task>
 | 用户说法 | 识别为 | 标准去向 |
 | --- | --- | --- |
 | “我突然想到一个玩法” | 原始想法 | 先进入 `game-design-workflow/idea-inbox/`，再用 `grill-with-docs` 判断能否晋级 `idea-materials/` |
-| “帮我写 GDD/需求文档/系统规格” | GDD 写作 | `game-design-workflow/gdd/`，强制使用 GDD 模板并审查两层想法库 |
+| “帮我写 GDD/玩法需求/游戏系统规则” | GDD 写作 | `game-design-workflow/gdd/`，只写核心玩法与设计决策，强制使用 GDD 模板并审查两层想法库 |
+| “实现这个功能/代码做到哪了/设计代码架构/修 Bug/构建发布” | 代码开发 | 更新 `docs/code-development-index.md`；详细技术内容进入对应代码仓库，不得写入 GDD |
 | “能不能做成某种机制” | 提案雏形 | 已有合格素材则进入 `idea-proposals/`；否则先进入 `idea-inbox/` 并通过资格闸门 |
 | “这个像某个游戏” | 产品参照 | `research/03-product-case-studies/` 或 `game-design-workflow/market-reference.md` |
 | “某游戏这里做得好” | 产品案例/横向比较 | `research/03-product-case-studies/` 或 `research/04-cross-game-comparisons/` |
@@ -149,7 +153,7 @@ git checkout -b agent/<agent-name>/<YYYY-MM-DD>-<short-task>
 
 适用情况：
 
-- 用户提出写 GDD、需求文档、系统规格、完整玩法说明或制作交接文档。
+- 用户提出写 GDD、玩法需求、游戏系统规则或完整玩法说明。
 - 用户希望把多个已成形构思组织成统一设计文档。
 
 操作：
@@ -164,6 +168,7 @@ git checkout -b agent/<agent-name>/<YYYY-MM-DD>-<short-task>
 6. agent 负责按模板组织和起草，不要求用户自己理解所有字段；一次只向用户确认一个会改变设计结果的问题。
 7. 把具体 GDD 保存到 `game-design-workflow/gdd/GDD-YYYY-MM-DD-short-name.md`。
 8. 在 GDD 的素材审查表和素材文件的使用记录中建立双向追踪。
+9. 如果已有代码或原型，只在 GDD 中引用其设计验证证据；实现状态更新到 `docs/code-development-index.md`。
 
 硬性约束：
 
@@ -171,6 +176,8 @@ git checkout -b agent/<agent-name>/<YYYY-MM-DD>-<short-task>
 - 不允许静默跳过相关正式素材。
 - 不允许把 inbox 原始想法、模糊聊天内容或 agent 自行补全的猜测写成 GDD 结论。
 - 写入 GDD 不等于采纳；修改核心构思仍需走 Draft Change 和决策记录。
+- 不允许在 GDD 中记录引擎、类、函数、模块、脚本路径、API、编程数据结构、构建命令、CI、Bug 列表或代码完成度。
+- 不允许因为代码已经实现，就把 GDD 中的 `Hypothesis` 改成 `Confirmed`。
 
 ## 标准流程三：从合格素材整理成提案
 
@@ -291,6 +298,22 @@ git checkout -b agent/<agent-name>/<YYYY-MM-DD>-<short-task>
 
 如果没有明确采纳，不要直接改 `core-concept.md`。
 
+## 标准流程八：代码开发与进度记录
+
+适用情况：
+
+- 用户要求实现玩法、修改代码、设计技术架构、修复 Bug、运行测试、构建或发布。
+- 用户询问某项功能开发到哪里、代码是否与 GDD 一致。
+
+操作：
+
+1. 确认代码工作对应的 GDD、规则 ID、Proposal 或明确设计来源；没有设计来源时先回到设计流程。
+2. 代码、技术架构、编程数据结构、运行说明和测试细节保存在对应代码仓库。
+3. 在 `docs/code-development-index.md` 更新项目、里程碑、状态、证据、阻塞和下一步。
+4. 对照 GDD 记录实现偏差；代码使用临时替代物时明确标记，不得当作正式玩法。
+5. 如果实现结果产生新的设计判断，把试玩观察写入 `research/06-prototype-insights/`，再按设计流程决定是否修改 GDD。
+6. 代码实现不会自动修改 `core-concept.md`，也不会自动把设计状态升级为 `Accepted`。
+
 ## 文件命名规则
 
 使用当前日期，格式为 `YYYY-MM-DD`。
@@ -348,6 +371,9 @@ git checkout -b agent/<agent-name>/<YYYY-MM-DD>-<short-task>
 - 不要把未通过资格闸门的内容写入 `idea-materials/`、GDD、Proposal、Evaluation 或 Draft Change。
 - 不要把 agent 的合理猜测当作用户已确认内容来帮助素材“过关”。
 - 不要在 GDD 写作时跳过素材检索，也不要把所有历史想法无差别倾倒进当前章节。
+- 不要创建“客户端 GDD”“代码设计 GDD”或在 GDD 中维护开发进度。
+- 不要把代码仓库里的类、函数、脚本、API、数据格式、构建或测试命令复制进 GDD。
+- 不要让当前实现反向覆盖尚未确认的玩法规则；偏差必须进入代码开发进度索引并交回设计决策。
 - 不要因为用户提到某个成功产品，就直接复制其系统。
 - 不要把研究资料堆进仓库而不写摘要、问题或假设。
 - 不要把尚未成形的大系统直接写进 `core-concept.md`。如果用户明确要求推进交易市场、AI 生成管线、资源地图、世界观或其他外围系统，先进入 Proposal / Evaluation / Draft Change 流程，再决定是否采纳。
