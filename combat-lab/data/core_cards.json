@@ -1,0 +1,119 @@
+{
+  "core_cards": [
+    {
+      "id": "sheep_core",
+      "name": "羊核心卡",
+      "combos": [
+        {
+          "id": "three_sheep_blessing",
+          "name": "三羊开泰",
+          "nature": "defense",
+          "duration": "persistent",
+          "energy_cost": 1,
+          "requirements": {"羊": 3},
+          "effects": [{"kind": "block", "value": 2}],
+          "persistent": {
+            "id": "three_sheep_blessing_status",
+            "name": "开泰",
+            "trigger": "owner_turn_start",
+            "triggers": 2,
+            "stacking": "refresh",
+            "effects": [{"kind": "gain_shield", "value": 1}]
+          }
+        },
+        {
+          "id": "mend_after_loss",
+          "name": "亡羊补牢",
+          "nature": "defense",
+          "duration": "instant",
+          "energy_cost": 2,
+          "requirements": {"羊": 2, "牢": 1},
+          "effects": [
+            {"kind": "pay_health", "value": 2},
+            {"kind": "gain_shield", "value": 6}
+          ]
+        },
+        {
+          "id": "sheep_enters_tiger_mouth",
+          "name": "羊入虎口",
+          "nature": "attack",
+          "duration": "instant",
+          "energy_cost": 2,
+          "requirements": {"羊": 1, "虎": 1},
+          "effects": [{"kind": "damage", "value": 4}]
+        },
+        {
+          "id": "lead_away_sheep",
+          "name": "顺手牵羊",
+          "nature": "attack",
+          "duration": "instant",
+          "energy_cost": 2,
+          "requirements": {"羊": 1, "手": 1},
+          "effects": [
+            {"kind": "damage", "value": 2},
+            {"kind": "heal", "value": 2}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "boat_core",
+      "name": "舟核心卡",
+      "combos": [
+        {
+          "id": "break_pot_sink_boat",
+          "name": "破釜沉舟",
+          "nature": "attack",
+          "duration": "instant",
+          "energy_cost": 3,
+          "requirements": {"釜": 1, "舟": 1},
+          "effects": [
+            {"kind": "pay_health", "value": 3},
+            {"kind": "damage", "value": 7}
+          ]
+        },
+        {
+          "id": "push_boat_with_current",
+          "name": "顺水推舟",
+          "nature": "defense",
+          "duration": "instant",
+          "energy_cost": 2,
+          "requirements": {"水": 1, "舟": 1},
+          "effects": [
+            {"kind": "block", "value": 2},
+            {"kind": "heal", "value": 2}
+          ]
+        },
+        {
+          "id": "same_boat_aid",
+          "name": "同舟共济",
+          "nature": "defense",
+          "duration": "persistent",
+          "energy_cost": 2,
+          "requirements": {"舟": 1},
+          "effects": [],
+          "persistent": {
+            "id": "same_boat_aid_status",
+            "name": "共济",
+            "trigger": "owner_turn_start",
+            "triggers": 2,
+            "stacking": "refresh",
+            "effects": [{"kind": "gain_shield", "value": 1}]
+          }
+        },
+        {
+          "id": "row_against_current",
+          "name": "逆水行舟",
+          "nature": "attack",
+          "duration": "instant",
+          "energy_cost": 2,
+          "requirements": {"水": 1, "舟": 1},
+          "effects": [
+            {"kind": "damage", "value": 2},
+            {"kind": "heal", "value": 2}
+          ]
+        }
+      ]
+    }
+  ]
+}

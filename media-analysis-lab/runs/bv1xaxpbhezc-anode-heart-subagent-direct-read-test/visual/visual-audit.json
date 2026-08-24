@@ -1,0 +1,985 @@
+{
+  "version": "0.1",
+  "game_name": "Anode Heart: Layer Null",
+  "slug": "bv1xaxpbhezc-anode-heart",
+  "method": "Direct image reading was performed only for frames marked audited/direct_image_read=true. Frames left not-audited were not visually inspected and are not used as independent visual evidence.",
+  "frames": [
+    {
+      "id": "V1",
+      "image_id": "I1",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0001.jpg",
+      "source_caption": "00:31 游戏界面显示643种卡牌总数",
+      "source_observations": [
+        "游戏共有643种卡牌",
+        "timestamp=00:31; anchor=卡牌属性与类型介绍",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "Codex local image viewer (functions.view_image), manual visual inspection",
+      "confidence": "high",
+      "visible_elements": [
+        "Card collection/library screen with a grid of locked and owned cards.",
+        "Top bar shows Page 9/31, a Bitcrush button, and 488 Bits currency.",
+        "Right-side detail panel for Saplee shows level, native Plant Tama tag, HP/BP, bonus text, and a revive-trigger effect."
+      ],
+      "ocr_candidates": [
+        "Page: 9/31",
+        "488 Bits",
+        "Saplee (LV. 1)",
+        "On Revive: +1 HP to this Tama"
+      ],
+      "gameplay_observations": [
+        "The collection interface exposes cards as collectible assets with purchase/currency state and individual rule text.",
+        "Card identity combines element/type tags, HP/BP stats, bonus growth, and triggered effects."
+      ],
+      "ui_affordances": [
+        "Page arrows for browsing card pages.",
+        "Close button and Bitcrush action in the library header."
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-1",
+        "module-4",
+        "module-6"
+      ],
+      "conflicts": [],
+      "illustration_candidate": true,
+      "caption_for_dossier": "Card library UI shows collectible cards, Bits currency, and per-card rules rather than only battle state."
+    },
+    {
+      "id": "V2",
+      "image_id": "I2",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0002.jpg",
+      "source_caption": "01:26 属性筛选界面显示六种属性",
+      "source_observations": [
+        "卡牌分为无色、草、火、土、水、机械六种属性",
+        "timestamp=01:26; anchor=卡牌属性与类型介绍",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "Codex local image viewer (functions.view_image), manual visual inspection",
+      "confidence": "high",
+      "visible_elements": [
+        "Deckbuilding screen for a colorless deck: left deck list, right All Cards browser, category counters at the top.",
+        "Top counters read Apps: 22, Patch: 3, Tama: 15, Virus: 0; deck area says 40 Cards.",
+        "Bottom card detail panel describes Toy Heart as a neutral App that selects one Tama and grants HP with a future HP bonus penalty."
+      ],
+      "ocr_candidates": [
+        "40 Cards",
+        "Apps: 22",
+        "Patch: 3",
+        "Tama: 15",
+        "Virus: 0",
+        "Toy Heart [neutral App]"
+      ],
+      "gameplay_observations": [
+        "Deck composition is visible as typed counts, making unit/support ratio a deckbuilding constraint.",
+        "The deckbuilder separates current deck from the global card pool and supports sorting/import/export."
+      ],
+      "ui_affordances": [
+        "Sort, Import, Export buttons.",
+        "Test button is present but appears disabled or inactive."
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-4",
+        "module-5"
+      ],
+      "conflicts": [],
+      "illustration_candidate": false,
+      "caption_for_dossier": "Deckbuilding view makes card-type ratios and deck size visible before combat."
+    },
+    {
+      "id": "V3",
+      "image_id": "I3",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0003.jpg",
+      "source_caption": "02:48 卡牌类型标识：单位、app、patch、病毒",
+      "source_observations": [
+        "卡牌类型：单位卡（战斗）、app卡（辅助）、patch卡（反制）、病毒卡（稀有）",
+        "timestamp=02:48; anchor=卡牌属性与类型介绍",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "Codex local image viewer (functions.view_image), manual visual inspection",
+      "confidence": "high",
+      "visible_elements": [
+        "Evolution/DNA screen for Saplee with a hex-grid unlock tree.",
+        "Header shows Unlock Evo. with a shard-like cost of 1 and Unlocked: 2/26.",
+        "Text says the selected setup starts with 1 native Energy and gains 1 Shard when a Tama gains HP."
+      ],
+      "ocr_candidates": [
+        "Unlock Evo.",
+        "Unlocked: 2/26",
+        "DNA: Saplee",
+        "Start with 1 native Energy. Gain 1 Shard whenever your Tama gain HP."
+      ],
+      "gameplay_observations": [
+        "Longer-term growth can unlock starting energy and shard triggers, connecting deck archetype to economy.",
+        "The tree layout suggests multiple passive/evolution nodes rather than a single linear upgrade."
+      ],
+      "ui_affordances": [
+        "Arrow navigation in the unlock panel.",
+        "Unlock cost indicator near the top-left button."
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-4",
+        "module-5",
+        "module-6"
+      ],
+      "conflicts": [],
+      "illustration_candidate": true,
+      "caption_for_dossier": "Evolution/DNA screen links archetype identity to starting energy and shard income."
+    },
+    {
+      "id": "V4",
+      "image_id": "I4",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0004.jpg",
+      "source_caption": "26:10 牌组界面显示40张卡，其中15张单位卡",
+      "source_observations": [
+        "牌组最少40张，单位卡至少占一半（15/40过少）",
+        "timestamp=26:10; anchor=牌组构建限制与策略",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "Codex local image viewer (functions.view_image), manual visual inspection",
+      "confidence": "high",
+      "visible_elements": [
+        "Combat board with opposing units on the upper half, player units on the lower half, and a hand along the bottom.",
+        "Left side has a Pass button and stacked icons/counters; bottom center has Shop and resource bars.",
+        "Right edge shows a blue turn/action badge with the number 3 and a deck/card count area."
+      ],
+      "ocr_candidates": [
+        "Pass",
+        "Shop",
+        "HP 11",
+        "BP 3"
+      ],
+      "gameplay_observations": [
+        "Combat is lane/row-like rather than a free board: units line up horizontally and resolve across a central divide.",
+        "The player manages hand cards, board slots, HP/BP totals, shop access, and pass timing in one combat screen."
+      ],
+      "ui_affordances": [
+        "Pass button remains available during the player decision state.",
+        "Hand cards are selectable at the bottom."
+      ],
+      "state_changes": [
+        "Compared with earlier sparse board frames, this frame shows a developed mid-combat board with six player units."
+      ],
+      "supports_modules": [
+        "module-3",
+        "module-4",
+        "module-8"
+      ],
+      "conflicts": [],
+      "illustration_candidate": true,
+      "caption_for_dossier": "Mid-combat frame shows the main loop surface: hand, board, pass/shop controls, resources, and opposing units."
+    },
+    {
+      "id": "V5",
+      "image_id": "I5",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0005.jpg",
+      "source_caption": "28:40 败局画面，作者表示无色牌组不行",
+      "source_observations": [
+        "无色牌组强度不足，决定转向草系",
+        "timestamp=28:40; anchor=无色牌组瓶颈与转向草系",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "not-audited",
+      "direct_image_read": false,
+      "reader": "",
+      "confidence": "low",
+      "visible_elements": [],
+      "ocr_candidates": [],
+      "gameplay_observations": [],
+      "ui_affordances": [],
+      "state_changes": [],
+      "supports_modules": [
+        "module-5"
+      ],
+      "conflicts": [],
+      "illustration_candidate": false,
+      "caption_for_dossier": "Not independently inspected; source caption retained only as a material-pack anchor."
+    },
+    {
+      "id": "V6",
+      "image_id": "I6",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0006.jpg",
+      "source_caption": "34:00 卡牌效果：回收草系单位、复活所有植物单位",
+      "source_observations": [
+        "回收复活机制是草系核心",
+        "timestamp=34:00; anchor=草系牌组构建",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "Codex local image viewer (functions.view_image), manual visual inspection",
+      "confidence": "medium",
+      "visible_elements": [
+        "A modal/card-selection panel is open over combat, showing multiple selectable card slots on Page 1/1.",
+        "Left card detail panel describes a native App named nutrient and a health-draining effect from one Tama.",
+        "Bottom hand includes green cards and a level 3 card with 10/10 visible stats."
+      ],
+      "ocr_candidates": [
+        "Page: 1/1",
+        "nutrient [native App]",
+        "Sap 1 HP from 1 Tama",
+        "Lv3",
+        "10/10"
+      ],
+      "gameplay_observations": [
+        "Card effects can open choice panels during combat rather than only resolving instantly.",
+        "Grass/native package visibly includes HP manipulation and high-level units."
+      ],
+      "ui_affordances": [
+        "Cancel button on the selection panel.",
+        "Page arrows on the modal."
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-4",
+        "module-5"
+      ],
+      "conflicts": [],
+      "illustration_candidate": false,
+      "caption_for_dossier": "Selection modal illustrates in-combat card targeting and grass/native HP manipulation."
+    },
+    {
+      "id": "V7",
+      "image_id": "I7",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0007.jpg",
+      "source_caption": "39:00 使用回收牌后，弃牌堆两个单位出现在场上",
+      "source_observations": [
+        "回收复活机制实现快速铺场",
+        "timestamp=39:00; anchor=草系实战：回收与进化",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "Codex local image viewer (functions.view_image), manual visual inspection",
+      "confidence": "high",
+      "visible_elements": [
+        "Shop popup with the title Choose a card to buy and three card choices.",
+        "Each option has a shard-like cost below it: 3, 4, and 5.",
+        "Highlighted card text says Turbodrive shuffles hand into deck and draws 3 cards."
+      ],
+      "ocr_candidates": [
+        "Choose a card to buy.",
+        "Turbodrive. Shuffle your hand into the deck. Draw 3 cards.",
+        "3",
+        "4",
+        "5"
+      ],
+      "gameplay_observations": [
+        "In-run shop uses shards or a similar currency to buy tactical card effects.",
+        "Draw/filtering is purchasable mid-run, tying economy directly to draw consistency."
+      ],
+      "ui_affordances": [
+        "Close button in shop popup.",
+        "Card choices are presented as clickable purchase options."
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-4",
+        "module-6"
+      ],
+      "conflicts": [],
+      "illustration_candidate": true,
+      "caption_for_dossier": "Shop frame proves an in-combat/in-run economy surface with purchasable draw effects."
+    },
+    {
+      "id": "V8",
+      "image_id": "I8",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0008.jpg",
+      "source_caption": "40:00 单位属性显示35/25，对手无法应对",
+      "source_observations": [
+        "草系牌组通过成长机制碾压对手",
+        "timestamp=40:00; anchor=草系牌碾压与总结",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "Codex local image viewer (functions.view_image), manual visual inspection",
+      "confidence": "high",
+      "visible_elements": [
+        "Player board has five units including a level 3 unit showing 10/10 and a front unit showing 11/4.",
+        "Bottom stats show Shop, shard/resource count, HP 25, and BP 3.",
+        "Text box says Your Turn; opponent side has two remaining units."
+      ],
+      "ocr_candidates": [
+        "Your Turn.",
+        "Lv3",
+        "10/10",
+        "HP 25",
+        "BP 3"
+      ],
+      "gameplay_observations": [
+        "The grass/native build can produce very large board stats compared with earlier low-stat frames.",
+        "Turn loop returns to player after board development, preserving hand/board/shop decisions."
+      ],
+      "ui_affordances": [
+        "Pass button and hand cards remain available on the player turn."
+      ],
+      "state_changes": [
+        "Compared with V4, player HP and board stats are much higher, showing progression inside the match."
+      ],
+      "supports_modules": [
+        "module-3",
+        "module-4",
+        "module-8"
+      ],
+      "conflicts": [],
+      "illustration_candidate": true,
+      "caption_for_dossier": "Late combat frame shows board-growth payoff and player-turn return path."
+    },
+    {
+      "id": "V9",
+      "image_id": "I9",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0009.jpg",
+      "source_caption": "04:14 区域说明：森林区域获得草系牌，新手区域无色牌",
+      "source_observations": [
+        "卡牌获取与区域相关，草系牌更具成长性",
+        "timestamp=04:14; anchor=草系牌碾压与总结",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "not-audited",
+      "direct_image_read": false,
+      "reader": "",
+      "confidence": "low",
+      "visible_elements": [],
+      "ocr_candidates": [],
+      "gameplay_observations": [],
+      "ui_affordances": [],
+      "state_changes": [],
+      "supports_modules": [
+        "module-4"
+      ],
+      "conflicts": [],
+      "illustration_candidate": false,
+      "caption_for_dossier": "Not independently inspected; source caption retained only as a material-pack anchor."
+    },
+    {
+      "id": "V10",
+      "image_id": "I10",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0010.jpg",
+      "source_caption": "05:22 对战界面：对手先手出一张牌，后手方行动标记",
+      "source_observations": [
+        "后手每回合可行动两次，先手一次",
+        "timestamp=05:22; anchor=对战开局与先手后手规则",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "Codex local image viewer (functions.view_image), manual visual inspection",
+      "confidence": "high",
+      "visible_elements": [
+        "Early combat frame with one enemy unit and one player unit on the board.",
+        "Hovered hand card Pawee displays tags neutral / mouse / Tama and No Cost.",
+        "Tooltip text states On Summon: inflict Dazed on 1 Tama and cannot attack this round."
+      ],
+      "ocr_candidates": [
+        "Pawee",
+        "neutral mouse Tama",
+        "No Cost.",
+        "On Summon: Inflict Dazed on 1 Tama."
+      ],
+      "gameplay_observations": [
+        "Summoning a unit can apply a status effect immediately, so unit cards are not only stat bodies.",
+        "Card hover/selection exposes rule text before commitment."
+      ],
+      "ui_affordances": [
+        "Pass button on left; hand card tooltip triggered from bottom hand."
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-3",
+        "module-4"
+      ],
+      "conflicts": [],
+      "illustration_candidate": true,
+      "caption_for_dossier": "Early combat decision frame shows hand selection, summon text, status effect, and board placement."
+    },
+    {
+      "id": "V11",
+      "image_id": "I11",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0011.jpg",
+      "source_caption": "07:42 反制牌动画，将对手低血单位移除",
+      "source_observations": [
+        "反制牌可消灭血量≤2的单位",
+        "timestamp=07:42; anchor=对战开局与先手后手规则",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "not-audited",
+      "direct_image_read": false,
+      "reader": "",
+      "confidence": "low",
+      "visible_elements": [],
+      "ocr_candidates": [],
+      "gameplay_observations": [],
+      "ui_affordances": [],
+      "state_changes": [],
+      "supports_modules": [
+        "module-4"
+      ],
+      "conflicts": [],
+      "illustration_candidate": false,
+      "caption_for_dossier": "Not independently inspected; source caption retained only as a material-pack anchor."
+    },
+    {
+      "id": "V12",
+      "image_id": "I12",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0012.jpg",
+      "source_caption": "08:00 被动技能图标，显示碎片数量增加",
+      "source_observations": [
+        "每打出无色单位获得1碎片，用于局内商店",
+        "timestamp=08:00; anchor=被动技能与碎片商店",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "not-audited",
+      "direct_image_read": false,
+      "reader": "",
+      "confidence": "low",
+      "visible_elements": [],
+      "ocr_candidates": [],
+      "gameplay_observations": [],
+      "ui_affordances": [],
+      "state_changes": [],
+      "supports_modules": [
+        "module-4"
+      ],
+      "conflicts": [],
+      "illustration_candidate": false,
+      "caption_for_dossier": "Not independently inspected; source caption retained only as a material-pack anchor."
+    },
+    {
+      "id": "V13",
+      "image_id": "I13",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0013.jpg",
+      "source_caption": "11:37 商店界面，购买抽三张牌并洗入牌组",
+      "source_observations": [
+        "碎片可购买技能，如抽三张牌",
+        "timestamp=11:37; anchor=被动技能与碎片商店",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "Codex local image viewer (functions.view_image), manual visual inspection",
+      "confidence": "high",
+      "visible_elements": [
+        "Combat board is divided by a horizontal striped line; enemy units above and player units below.",
+        "Player has six units across the bottom row, suggesting the visible board capacity is capped at six units.",
+        "Bottom resource/status area shows Shop, HP, BP, and hand/deck indicators."
+      ],
+      "ocr_candidates": [
+        "Shop",
+        "HP 15",
+        "BP 3"
+      ],
+      "gameplay_observations": [
+        "The central line visually separates sides and likely marks combat resolution lanes/rows.",
+        "The six-unit row makes board capacity a tactical limit."
+      ],
+      "ui_affordances": [
+        "Pass button available during the state.",
+        "Hand cards remain visible under the board."
+      ],
+      "state_changes": [
+        "Player board is full or near full, unlike sparse early combat frames."
+      ],
+      "supports_modules": [
+        "module-3",
+        "module-4"
+      ],
+      "conflicts": [],
+      "illustration_candidate": false,
+      "caption_for_dossier": "Fuller board frame supports board-capacity and lane-resolution analysis."
+    },
+    {
+      "id": "V14",
+      "image_id": "I14",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0014.jpg",
+      "source_caption": "14:57 卡牌右下角显示能量费用：无色能量和绿色能量",
+      "source_observations": [
+        "卡牌费用分任意能量和指定属性能量，需对应能量才能打出",
+        "timestamp=14:57; anchor=能量机制与卡手问题",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "Codex local image viewer (functions.view_image), manual visual inspection",
+      "confidence": "high",
+      "visible_elements": [
+        "Hovered card Munching Saplee shows native / Plant / Tama tags and No Cost.",
+        "Card text includes On Trigger, selecting one Tama, HP gain, HP bonus gain, and then gaining native Energy.",
+        "Top and bottom bars show separate colored energy/resource counters."
+      ],
+      "ocr_candidates": [
+        "Munching Saplee",
+        "native Plant Tama",
+        "No Cost.",
+        "Then: Gain 1 native Energy."
+      ],
+      "gameplay_observations": [
+        "Some cards convert HP gain triggers into native energy, connecting health growth to resource generation.",
+        "The UI distinguishes generic and native/element-specific resource pools."
+      ],
+      "ui_affordances": [
+        "Hover panel gives detailed timing text and bonus/stat preview."
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-4",
+        "module-6"
+      ],
+      "conflicts": [],
+      "illustration_candidate": false,
+      "caption_for_dossier": "Card tooltip shows energy generation tied to trigger timing and HP growth."
+    },
+    {
+      "id": "V15",
+      "image_id": "I15",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0015.jpg",
+      "source_caption": "24:30 卡牌说明显示进化条件：需要特定一级单位在场",
+      "source_observations": [
+        "二级牌需要一级单位进化，抽到二级牌无一级牌则卡手",
+        "timestamp=24:30; anchor=进化机制与运气因素",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "Codex local image viewer (functions.view_image), manual visual inspection",
+      "confidence": "medium",
+      "visible_elements": [
+        "Level 2 player unit is on the board, with two smaller 1/1 units beside it.",
+        "Player hand includes two pink unit cards and one 3/2 unit card.",
+        "Top-right deck/count indicator and bottom Shop/HP/BP bars remain visible."
+      ],
+      "ocr_candidates": [
+        "Lv2",
+        "HP 6",
+        "BP 3"
+      ],
+      "gameplay_observations": [
+        "Evolution or higher-level units coexist with base units on the same combat row.",
+        "The frame supports the existence of level states, but not the full evolution prerequisite by itself."
+      ],
+      "ui_affordances": [
+        "Pass remains available; hand cards can still be played or held."
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-4",
+        "module-5"
+      ],
+      "conflicts": [],
+      "illustration_candidate": false,
+      "caption_for_dossier": "A level 2 unit on board visually supports the evolution/level layer, with exact prerequisites requiring text confirmation."
+    },
+    {
+      "id": "V16",
+      "image_id": "I16",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0016.jpg",
+      "source_caption": "28:00 单位卡牌变化，属性大幅提升",
+      "source_observations": [
+        "进化后属性增强，是重要成长机制",
+        "timestamp=28:00; anchor=进化机制与运气因素",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "not-audited",
+      "direct_image_read": false,
+      "reader": "",
+      "confidence": "low",
+      "visible_elements": [],
+      "ocr_candidates": [],
+      "gameplay_observations": [],
+      "ui_affordances": [],
+      "state_changes": [],
+      "supports_modules": [
+        "module-4"
+      ],
+      "conflicts": [],
+      "illustration_candidate": false,
+      "caption_for_dossier": "Not independently inspected; source caption retained only as a material-pack anchor."
+    },
+    {
+      "id": "V17",
+      "image_id": "I17",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0017.jpg",
+      "source_caption": "30:30 进化出10-10单位，但对手单位更强",
+      "source_observations": [
+        "无色牌组单位成长有限，难以对抗boss",
+        "timestamp=30:30; anchor=无色牌组瓶颈与转向草系",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "not-audited",
+      "direct_image_read": false,
+      "reader": "",
+      "confidence": "low",
+      "visible_elements": [],
+      "ocr_candidates": [],
+      "gameplay_observations": [],
+      "ui_affordances": [],
+      "state_changes": [],
+      "supports_modules": [
+        "module-5"
+      ],
+      "conflicts": [],
+      "illustration_candidate": false,
+      "caption_for_dossier": "Not independently inspected; source caption retained only as a material-pack anchor."
+    },
+    {
+      "id": "V18",
+      "image_id": "I18",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0018.jpg",
+      "source_caption": "36:00 卡牌说明显示进化后属性10-10",
+      "source_observations": [
+        "选择高进化潜力的卡牌",
+        "timestamp=36:00; anchor=草系牌组构建",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "Codex local image viewer (functions.view_image), manual visual inspection",
+      "confidence": "medium",
+      "visible_elements": [
+        "Combat frame with a greyed card moving or targeting on the right side, plus colored hit/feedback marks near a unit.",
+        "Bottom hand includes a level 3 card whose large 10/10 stat line is visible.",
+        "Board contains several green-bordered native/plant units with varied stats."
+      ],
+      "ocr_candidates": [
+        "Lv3",
+        "10/10"
+      ],
+      "gameplay_observations": [
+        "High-level cards with large stats are part of the grass/native package.",
+        "Visual feedback indicates an action or effect resolving, but exact cause requires transcript support."
+      ],
+      "ui_affordances": [
+        "The right-side ghosted card/arrow suggests targeting, movement, or resolution feedback."
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-4",
+        "module-5"
+      ],
+      "conflicts": [],
+      "illustration_candidate": false,
+      "caption_for_dossier": "High-level grass/native card and combat feedback support the growth-route discussion, with causal details uncertain."
+    },
+    {
+      "id": "V19",
+      "image_id": "I19",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0019.jpg",
+      "source_caption": "36:40 场地卡说明：任何时候复活草系单位，抽一张牌",
+      "source_observations": [
+        "场地卡提供额外抽牌，增强续航",
+        "timestamp=36:40; anchor=草系牌组构建",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "Codex local image viewer (functions.view_image), manual visual inspection",
+      "confidence": "high",
+      "visible_elements": [
+        "Combat resolution frame shows floating -1 HP text over a top-side unit.",
+        "Left side displays blocks of numbered damage or resolution tiles, including 2, 3, 4, 2, 3 and a lower row 2, 1.",
+        "Player board has six units, with bottom stats showing HP 13 and BP 3."
+      ],
+      "ocr_candidates": [
+        "-1 HP",
+        "HP 13",
+        "BP 3"
+      ],
+      "gameplay_observations": [
+        "Damage/healing feedback is communicated as floating text over units and separate resolution blocks.",
+        "Resolution appears stepwise/ordered, with visible damage blocks on the left."
+      ],
+      "ui_affordances": [
+        "Pass button is dark/disabled during resolution, implying player input is locked while effects resolve."
+      ],
+      "state_changes": [
+        "Compared with decision frames, this one appears to be an automatic resolution state."
+      ],
+      "supports_modules": [
+        "module-3",
+        "module-4"
+      ],
+      "conflicts": [],
+      "illustration_candidate": true,
+      "caption_for_dossier": "Resolution frame shows floating HP feedback and ordered damage blocks while input is disabled."
+    },
+    {
+      "id": "V20",
+      "image_id": "I20",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0020.jpg",
+      "source_caption": "06:05 使用吸血牌，一滴血单位被消灭",
+      "source_observations": [
+        "吸血牌可清除低血单位并获得回复",
+        "timestamp=06:05; anchor=吸血与反制成功",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "not-audited",
+      "direct_image_read": false,
+      "reader": "",
+      "confidence": "low",
+      "visible_elements": [],
+      "ocr_candidates": [],
+      "gameplay_observations": [],
+      "ui_affordances": [],
+      "state_changes": [],
+      "supports_modules": [
+        "module-4"
+      ],
+      "conflicts": [],
+      "illustration_candidate": false,
+      "caption_for_dossier": "Not independently inspected; source caption retained only as a material-pack anchor."
+    },
+    {
+      "id": "V21",
+      "image_id": "I21",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0021.jpg",
+      "source_caption": "09:04 反制卡生效，对手强力卡被取消",
+      "source_observations": [
+        "反制卡成功阻止对手关键卡",
+        "timestamp=09:04; anchor=吸血与反制成功",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "not-audited",
+      "direct_image_read": false,
+      "reader": "",
+      "confidence": "low",
+      "visible_elements": [],
+      "ocr_candidates": [],
+      "gameplay_observations": [],
+      "ui_affordances": [],
+      "state_changes": [],
+      "supports_modules": [
+        "module-4"
+      ],
+      "conflicts": [],
+      "illustration_candidate": false,
+      "caption_for_dossier": "Not independently inspected; source caption retained only as a material-pack anchor."
+    },
+    {
+      "id": "V22",
+      "image_id": "I22",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0022.jpg",
+      "source_caption": "10:01 使用牛奶牌，给单位+2+2",
+      "source_observations": [
+        "牛奶牌可为血量≤2的单位+2+2",
+        "timestamp=10:01; anchor=对战开局与先手后手规则",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "not-audited",
+      "direct_image_read": false,
+      "reader": "",
+      "confidence": "low",
+      "visible_elements": [],
+      "ocr_candidates": [],
+      "gameplay_observations": [],
+      "ui_affordances": [],
+      "state_changes": [],
+      "supports_modules": [
+        "module-4"
+      ],
+      "conflicts": [],
+      "illustration_candidate": false,
+      "caption_for_dossier": "Not independently inspected; source caption retained only as a material-pack anchor."
+    },
+    {
+      "id": "V23",
+      "image_id": "I23",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0023.jpg",
+      "source_caption": "12:17 战斗阶段，伤害方块从左到右依次碰撞",
+      "source_observations": [
+        "伤害从左到右结算，溢出伤害，盾牌可阻挡",
+        "timestamp=12:17; anchor=被动技能与碎片商店",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "not-audited",
+      "direct_image_read": false,
+      "reader": "",
+      "confidence": "low",
+      "visible_elements": [],
+      "ocr_candidates": [],
+      "gameplay_observations": [],
+      "ui_affordances": [],
+      "state_changes": [],
+      "supports_modules": [
+        "module-4"
+      ],
+      "conflicts": [],
+      "illustration_candidate": false,
+      "caption_for_dossier": "Not independently inspected; source caption retained only as a material-pack anchor."
+    },
+    {
+      "id": "V24",
+      "image_id": "I24",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0024.jpg",
+      "source_caption": "17:00 回合开始只抽一张牌，手牌无单位卡",
+      "source_observations": [
+        "40张卡组易鬼抽，单位卡少时尤为严重",
+        "timestamp=17:00; anchor=被动技能与碎片商店",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "Codex local image viewer (functions.view_image), manual visual inspection",
+      "confidence": "high",
+      "visible_elements": [
+        "Hovered card Porren shows native / Plant / Tama tags and No Cost.",
+        "Card text reads On Delete: Draw 1 card.",
+        "Player hand contains several non-unit cards/cards with App-like icons while only one player unit is on board."
+      ],
+      "ocr_candidates": [
+        "Porren",
+        "On Delete: Draw 1 card.",
+        "No Cost."
+      ],
+      "gameplay_observations": [
+        "Some units refund cards on deletion, making death/removal part of resource flow.",
+        "The frame visually supports draw variance concerns: hand composition can be non-unit-heavy while board presence is thin."
+      ],
+      "ui_affordances": [
+        "Hover detail panel and Pass button support inspection before action."
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-3",
+        "module-4",
+        "module-8"
+      ],
+      "conflicts": [],
+      "illustration_candidate": false,
+      "caption_for_dossier": "Draw-on-delete card and thin board state support the deck-consistency risk discussion."
+    },
+    {
+      "id": "V25",
+      "image_id": "I25",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0025.jpg",
+      "source_caption": "17:35 手牌中有需要4点绿色能量的卡，当前能量不足",
+      "source_observations": [
+        "高能量卡开局易卡手，卡组最好只混一种颜色",
+        "timestamp=17:35; anchor=能量机制与卡手问题",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "not-audited",
+      "direct_image_read": false,
+      "reader": "",
+      "confidence": "low",
+      "visible_elements": [],
+      "ocr_candidates": [],
+      "gameplay_observations": [],
+      "ui_affordances": [],
+      "state_changes": [],
+      "supports_modules": [
+        "module-4"
+      ],
+      "conflicts": [],
+      "illustration_candidate": false,
+      "caption_for_dossier": "Not independently inspected; source caption retained only as a material-pack anchor."
+    },
+    {
+      "id": "V26",
+      "image_id": "I26",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0026.jpg",
+      "source_caption": "20:20 手牌满，但没有可打出的单位或有效卡",
+      "source_observations": [
+        "运气因素导致手牌卡死，无法出牌",
+        "timestamp=20:20; anchor=进化机制与运气因素",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "not-audited",
+      "direct_image_read": false,
+      "reader": "",
+      "confidence": "low",
+      "visible_elements": [],
+      "ocr_candidates": [],
+      "gameplay_observations": [],
+      "ui_affordances": [],
+      "state_changes": [],
+      "supports_modules": [
+        "module-4"
+      ],
+      "conflicts": [],
+      "illustration_candidate": false,
+      "caption_for_dossier": "Not independently inspected; source caption retained only as a material-pack anchor."
+    },
+    {
+      "id": "V27",
+      "image_id": "I27",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0027.jpg",
+      "source_caption": "22:30 反制卡使用后，对手也打出反制卡",
+      "source_observations": [
+        "反制卡可被对手反制，导致计划失败",
+        "timestamp=22:30; anchor=反制卡与道具分析",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "not-audited",
+      "direct_image_read": false,
+      "reader": "",
+      "confidence": "low",
+      "visible_elements": [],
+      "ocr_candidates": [],
+      "gameplay_observations": [],
+      "ui_affordances": [],
+      "state_changes": [],
+      "supports_modules": [
+        "module-4"
+      ],
+      "conflicts": [],
+      "illustration_candidate": false,
+      "caption_for_dossier": "Not independently inspected; source caption retained only as a material-pack anchor."
+    },
+    {
+      "id": "V28",
+      "image_id": "I28",
+      "path": "../bv1xaxpbhezc-anode-heart/source/frames/f0028.jpg",
+      "source_caption": "27:30 使用卡牌造成3点伤害并增加火焰能量",
+      "source_observations": [
+        "直伤牌可同时提供属性能量，辅助后续卡牌",
+        "timestamp=27:30; anchor=反制卡与道具分析",
+        "Visual provider is none; use this frame as a timestamped interface/scene anchor, not OCR-grade evidence."
+      ],
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "Codex local image viewer (functions.view_image), manual visual inspection",
+      "confidence": "high",
+      "visible_elements": [
+        "Grass deckbuilding screen with deck counters: Apps 8, Tama 0, Patch 0, Virus 0 in the header.",
+        "Warning text says the deck contains less than 40 cards and will be filled out with Blanks in game.",
+        "Right panel shows Page 1/5 card pool filtered to native Element, and selected Tanukee costs 2 native Energy and draws 1 card on summon."
+      ],
+      "ocr_candidates": [
+        "Apps: 8",
+        "Tama: 0",
+        "Patch: 0",
+        "Virus: 0",
+        "Your deck contains less than 40 cards!",
+        "Tanukee ... Cost: 2 native Energy. On Summon: Draw 1 Card."
+      ],
+      "gameplay_observations": [
+        "Deckbuilder enforces or warns around a 40-card minimum, filling missing slots with blanks.",
+        "Card pool filtering by element/type supports archetype-specific rebuilding after failures."
+      ],
+      "ui_affordances": [
+        "Sort, Import, Export, Test controls; card-pool page arrows and filter label."
+      ],
+      "state_changes": [
+        "This frame contrasts with V2 by showing grass/native filtering and an incomplete deck warning."
+      ],
+      "supports_modules": [
+        "module-4",
+        "module-5",
+        "module-8"
+      ],
+      "conflicts": [],
+      "illustration_candidate": true,
+      "caption_for_dossier": "Grass deckbuilder frame shows minimum-deck warning, typed counts, and elemental card-pool filtering."
+    }
+  ]
+}

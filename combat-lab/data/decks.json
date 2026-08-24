@@ -1,0 +1,39 @@
+{
+  "decks": [
+    {
+      "id": "sheep_starter_v0",
+      "name": "羊字段测试卡组 v0",
+      "core_id": "sheep_core",
+      "cards": {
+        "lamb_charge": 2,
+        "wool_guard": 2,
+        "pasture_bell": 2,
+        "lost_flock": 2,
+        "pen_post": 2,
+        "broken_fence_horn": 2,
+        "tiger_bait": 2,
+        "tiger_pounce": 2,
+        "sheep_lead": 2,
+        "guiding_hand": 2
+      }
+    },
+    {
+      "id": "boat_starter_v0",
+      "name": "舟字段测试卡组 v0",
+      "core_id": "boat_core",
+      "cards": {
+        "boat_ram": 2,
+        "boat_guard": 2,
+        "oar_rhythm": 2,
+        "anchor_snare": 2,
+        "flowing_water": 2,
+        "current_surge": 2,
+        "water_boat_link": 2,
+        "iron_pot_strike": 2,
+        "break_pot_resolve": 2,
+        "shared_rope": 2
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Game Analysis Material Pack",
+  "type": "object",
+  "required": ["version", "project"],
+  "properties": {
+    "version": { "type": "string" },
+    "project": {
+      "type": "object",
+      "required": ["game_name", "slug", "analysis_scope", "status", "target_questions"],
+      "properties": {
+        "game_name": { "type": "string" },
+        "slug": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+        "analysis_scope": { "type": "string" },
+        "status": { "type": "string" },
+        "target_questions": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        },
+        "source_note": { "type": "string" }
+      }
+    },
+    "text_sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "role"],
+        "properties": {
+          "path": { "type": "string" },
+          "role": { "type": "string" },
+          "description": { "type": "string" }
+        }
+      }
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "caption", "observations"],
+        "properties": {
+          "path": { "type": "string" },
+          "caption": { "type": "string" },
+          "evidence_tags": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "observations": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 1
+          }
+        }
+      }
+    },
+    "draft_seed": { "type": "object" }
+  }
+}

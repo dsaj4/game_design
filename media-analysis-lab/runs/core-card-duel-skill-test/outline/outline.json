@@ -1,0 +1,144 @@
+{
+  "game_name": "核心卡决斗样例",
+  "slug": "core-card-duel",
+  "scope": "图片 + 文本材料的工作流验收样例",
+  "target_questions": [
+    "如何从一张战斗界面图和一段玩法记录中概括核心循环？",
+    "如何把观察转化为本项目唯一核心卡、辅助卡、费用和组合规则的设计假设？"
+  ],
+  "thesis": "待根据素材包补写总论点。",
+  "evidence_map": [
+    {
+      "id": "T1",
+      "type": "text",
+      "path": "materials.md",
+      "summary": "用结构化文本模拟视频转写、图文笔记和策划观察。",
+      "modules": [
+        "module-2",
+        "module-3",
+        "module-4"
+      ]
+    },
+    {
+      "id": "I1",
+      "type": "image",
+      "path": "images/battle-layout.svg",
+      "summary": "样例战斗界面：核心卡固定在左侧，手牌位于底部，费用与组合提示位于中央。",
+      "observations": [
+        "核心卡被放在独立区域，视觉上明显区别于普通手牌。",
+        "底部手牌用于提供攻击、防御、调度和干扰选择。",
+        "中央组合提示把核心卡标签、费用和辅助卡条件连在一起，说明关键乐趣来自组合触发。",
+        "敌方意图位于右侧，使玩家需要在本回合爆发和防守之间取舍。"
+      ],
+      "modules": [
+        "module-3",
+        "module-4",
+        "module-6"
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "module-1",
+      "title": "游戏核心定位、基础信息、商业大盘复盘",
+      "claim": "待根据证据补写。",
+      "evidence": [],
+      "open_questions": [
+        "材料不足时补写未确认信息。"
+      ],
+      "write_priority": "medium"
+    },
+    {
+      "id": "module-2",
+      "title": "全局玩家体验与底层设计目标",
+      "claim": "待根据证据补写。",
+      "evidence": [
+        "T1"
+      ],
+      "open_questions": [
+        "材料不足时补写未确认信息。"
+      ],
+      "write_priority": "high"
+    },
+    {
+      "id": "module-3",
+      "title": "核心玩法循环",
+      "claim": "待根据证据补写。",
+      "evidence": [
+        "T1",
+        "I1"
+      ],
+      "open_questions": [
+        "材料不足时补写未确认信息。"
+      ],
+      "write_priority": "high"
+    },
+    {
+      "id": "module-4",
+      "title": "全链路游戏架构拆解",
+      "claim": "待根据证据补写。",
+      "evidence": [
+        "T1",
+        "I1"
+      ],
+      "open_questions": [
+        "材料不足时补写未确认信息。"
+      ],
+      "write_priority": "high"
+    },
+    {
+      "id": "module-5",
+      "title": "内容与关卡体系",
+      "claim": "待根据证据补写。",
+      "evidence": [],
+      "open_questions": [
+        "材料不足时补写未确认信息。"
+      ],
+      "write_priority": "medium"
+    },
+    {
+      "id": "module-6",
+      "title": "数值体系与经济资源闭环",
+      "claim": "待根据证据补写。",
+      "evidence": [
+        "I1"
+      ],
+      "open_questions": [
+        "材料不足时补写未确认信息。"
+      ],
+      "write_priority": "medium"
+    },
+    {
+      "id": "module-7",
+      "title": "叙事体系、角色 IP 与视听包装",
+      "claim": "待根据证据补写。",
+      "evidence": [],
+      "open_questions": [
+        "材料不足时补写未确认信息。"
+      ],
+      "write_priority": "low"
+    },
+    {
+      "id": "module-8",
+      "title": "优劣复盘与可落地优化方案",
+      "claim": "待根据证据补写。",
+      "evidence": [],
+      "open_questions": [
+        "材料不足时补写未确认信息。"
+      ],
+      "write_priority": "high"
+    }
+  ],
+  "diagrams": [
+    {
+      "type": "core_loop",
+      "module": "module-3",
+      "purpose": "解释玩家输入、行动、产出、消耗、反馈和回流。"
+    },
+    {
+      "type": "system_relation",
+      "module": "module-4",
+      "purpose": "解释主要系统之间的输入、输出和反馈关系。"
+    }
+  ]
+}
