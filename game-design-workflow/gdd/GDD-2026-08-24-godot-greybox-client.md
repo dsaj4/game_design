@@ -14,7 +14,7 @@
 | 目标里程碑 | `godot-demo 灰盒闭环可试玩并上传 GitHub` |
 | 关联正式素材 | [M-2026-08-24-godot-greybox-client](../idea-materials/M-2026-08-24-godot-greybox-client.md) |
 | 关联战斗规则 | [GDD-BATTLE-002](GDD-2026-08-22-glyph-synthesis-combat-system.md) |
-| 实现路径 | 工作区并列工程 `godot-demo/`（**不**写入本构思库代码树） |
+| 实现路径 | 工作区并列工程 `godot-demo/`；GitHub：https://github.com/Winterwhite11/fantacy-breakdown-godot-demo （**不**写入本构思库代码树） |
 | 关联决策 | [决策记录](../decision-log.md) |
 
 ### 0.1 本版目标
@@ -241,6 +241,7 @@ stateDiagram-v2
 
 完整玩家/开发者说明写在实现仓库（避免构思库与可执行工程脱节）：
 
+- GitHub：https://github.com/Winterwhite11/fantacy-breakdown-godot-demo
 - `godot-demo/README.md` — 快速开始  
 - `godot-demo/docs/USAGE.md` — 详细操作与验收  
 - `godot-demo/docs/ARCHITECTURE.md` — 模块与数据流  

@@ -6,7 +6,7 @@
 | 状态 | `Qualified` |
 | 来源 inbox | [2026-08-24-godot-greybox-client.md](../idea-inbox/2026-08-24-godot-greybox-client.md) |
 | 关联战斗 GDD | [GDD-BATTLE-002](../gdd/GDD-2026-08-22-glyph-synthesis-combat-system.md) |
-| 实现工程 | 工作区 `Fantacy Breakdown/godot-demo/`（独立 Git 仓库上传） |
+| 实现工程 | https://github.com/Winterwhite11/fantacy-breakdown-godot-demo （本地：`Fantacy Breakdown/godot-demo/`） |
 
 ## 合格摘要
 
