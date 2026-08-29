@@ -1,0 +1,124 @@
+{
+  "version": "semantic-physics-v0",
+  "allowed_effect_ops": ["damage", "shield", "heal", "cancel_intent"],
+  "concepts": [
+    {
+      "id": "water",
+      "name": "水",
+      "traits": ["element", "water", "fluid"],
+      "potency": 4
+    },
+    {
+      "id": "fire",
+      "name": "火",
+      "traits": ["element", "fire", "heat"],
+      "potency": 5
+    },
+    {
+      "id": "air",
+      "name": "气",
+      "traits": ["element", "air", "flow", "gas"],
+      "potency": 3
+    },
+    {
+      "id": "sand",
+      "name": "砂",
+      "traits": ["matter", "sand", "solid", "granular"],
+      "potency": 4
+    },
+    {
+      "id": "light",
+      "name": "光",
+      "traits": ["energy", "light", "radiant", "restorative"],
+      "potency": 3
+    }
+  ],
+  "actions": [
+    {
+      "id": "compress",
+      "name": "压缩",
+      "traits": ["action", "pressure", "focused"],
+      "potency": 2
+    },
+    {
+      "id": "disperse",
+      "name": "扩散",
+      "traits": ["action", "diffuse", "area"],
+      "potency": 2
+    },
+    {
+      "id": "gather",
+      "name": "采集",
+      "traits": ["action", "extract"],
+      "potency": 1
+    }
+  ],
+  "laws": [
+    {
+      "id": "pressurized_fluid",
+      "name": "高压流",
+      "requires": ["fluid", "pressure"],
+      "derives": ["jet", "edge"],
+      "effect": {"op": "damage", "weight": 1}
+    },
+    {
+      "id": "thermal_flow",
+      "name": "热流",
+      "requires": ["heat", "flow"],
+      "derives": ["thermal_current"],
+      "effect": {"op": "damage", "weight": 1}
+    },
+    {
+      "id": "luminous_fluid",
+      "name": "治愈雾",
+      "requires": ["fluid", "radiant"],
+      "derives": ["restorative_mist"],
+      "effect": {"op": "heal", "weight": 1}
+    },
+    {
+      "id": "compressed_solid",
+      "name": "致密壁",
+      "requires": ["solid", "pressure"],
+      "derives": ["dense", "wall"],
+      "effect": {"op": "shield", "weight": 1}
+    },
+    {
+      "id": "dispersed_fluid",
+      "name": "扩散幕",
+      "requires": ["fluid", "diffuse"],
+      "derives": ["mist", "screen"],
+      "effect": {"op": "shield", "weight": 1}
+    }
+  ],
+  "cores": [
+    {
+      "id": "neutral",
+      "name": "通用",
+      "lenses": []
+    },
+    {
+      "id": "hero",
+      "name": "豪杰",
+      "lenses": [
+        {
+          "id": "hero_pressure_offense",
+          "requires": ["pressure"],
+          "from_op": "shield",
+          "to_op": "damage"
+        }
+      ]
+    },
+    {
+      "id": "crown",
+      "name": "王权",
+      "lenses": [
+        {
+          "id": "crown_pressure_guard",
+          "requires": ["pressure"],
+          "from_op": "damage",
+          "to_op": "shield"
+        }
+      ]
+    }
+  ]
+}

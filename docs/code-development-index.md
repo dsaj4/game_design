@@ -68,7 +68,33 @@
 | --- | --- | --- | --- | --- | --- |
 | Godot 统一情境 Demo | [fantacy-breakdown-godot-demo](https://github.com/Winterwhite11/fantacy-breakdown-godot-demo) | [GDD-BATTLE-003](../game-design-workflow/gdd/GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md) | 统一情境最小验证原型 V0.1 | 2026-08-29，Godot 4.7.1、53 项自动检查与双状态截图 | `Verified` |
 | 战斗系统 003 确定性模拟器 | 本仓库 [`combat-lab/`](../combat-lab/README.md) | [GDD-BATTLE-003](../game-design-workflow/gdd/GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md) | 首期合成表与 PvE 胜率基线 | 2026-08-29，34 项测试与 30,000 局主基线 | `Verified` |
+| 语义卡牌生成引擎实验 | 本仓库 [`semantic-card-engine/`](../semantic-card-engine/README.md) | [概念合成世界模型 Raw Idea](../game-design-workflow/idea-inbox/2026-08-29-semantic-composition-world-model.md) | 确定性语义推演 MVP | 2026-08-29，9 项测试、CLI 与 UTF-8 输出检查 | `Verified` |
 | 成语组合模拟器 | 本仓库历史 `combat-lab/` | `GDD-BATTLE-001` | 旧战斗对照证据 | 2026-08-22 归档判断 | `Parked` |
+
+## 语义卡牌生成引擎实验
+
+### 项目边界
+
+- 项目入口：[独立引擎 README](../semantic-card-engine/README.md)
+- 设计来源：[概念合成世界模型原始想法](../game-design-workflow/idea-inbox/2026-08-29-semantic-composition-world-model.md)
+- 当前只验证“概念 + 动作 + 核心镜片”能否编译成确定、可审计的卡牌 IR；没有接入真实 AI、Godot 或正式卡池。
+- 设计来源仍是 `Raw Idea / Unqualified`。技术实现通过不代表玩法可行性、GDD 资格或正式采纳已经确认。
+
+### 当前开发里程碑
+
+| 里程碑 | 范围 | 状态 | 证据 | 下一步 |
+| --- | --- | --- | --- | --- |
+| `SEMANTIC-CARD-MVP-001` | 声明式概念目录、单调前向推演、核心镜片、预算守恒、规范化 IR 与内容哈希 | `Verified` | 9 项 pytest；`validate`/`generate` CLI；Python 编译检查 | 与 `combat-lab` 和 Godot 的效果字段统一为共享 IR |
+
+### 已知技术边界
+
+| 项目 | 当前实现 | 处理要求 |
+| --- | --- | --- |
+| AI 参与 | 当前完全不调用模型 | 先证明确定性规则层成立，再让模型只生成结构化候选 |
+| 效果能力 | 只允许 `damage`、`shield`、`heal`、`cancel_intent` | 新操作码必须显式扩展执行器和测试，不接受模型任意发明字段 |
+| 数值与平衡 | 概念强度直接形成临时预算 | 接入正式内容前增加价值预算扫描和批量战斗验证 |
+| 客户端接入 | 输出独立 `card-ir-v0` JSON | 先解决 Godot 单效果字段与 `combat-lab` 多效果列表的差异 |
+| 生成时机 | 尚未决定 | 继续确认内容生产期、核心卡诞生时或其他非战斗窗口 |
 
 ## 战斗系统 003 确定性模拟器
 
