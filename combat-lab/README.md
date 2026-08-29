@@ -1,8 +1,26 @@
-# 成语组合战斗独立测试系统
+# 战斗规则独立测试系统
 
-`combat-lab/` 是与正式游戏构思链隔离的确定性规则原型。它用于检验“低数值辅助卡 + 字段匹配 + 核心卡成语组合”是否可计算、可构筑和可平衡，不代表规则已经被正式采纳。
+`combat-lab/` 是与正式游戏构思链隔离的确定性规则原型。当前评估方向是 `GDD-BATTLE-003`；原有成语组合模型作为 `GDD-BATTLE-001` 历史基线保留。这里的临时卡表、敌人数值和条件胜率不代表规则或数值已经被正式采纳。
 
-## 第一批原型边界
+## 当前方向：GDD-BATTLE-003
+
+003 模型覆盖战斗胜率所需的最小状态：牌组外唯一核心卡、字素卡与行动卡、4 点临时能量、5 张固定抽牌、回合末整手弃置、公开敌方下一意图、己方窗口主动防御，以及不耗能量和行动机会的永久合成。
+
+首期测试表包含：
+
+- 5 种基础字素、3 张行动卡和 15 张共同起始牌组。
+- 4 条一般配方，其中一条是产物继续参与的递归配方。
+- 2 张核心卡，每张各有 2 条特有配方；行动卡作为材料时不消耗。
+- 1 名固定 PvE 敌人和 3 种稳定排序的启发式策略。
+- 1 个确定性情境样例，只用于验证“卡牌 + 目标 + 状态”固定映射，不纳入战斗胜率。
+
+目录加载会拒绝重复 ID、材料歧义、纯行动卡配方和循环配方。相同目录、策略和随机种子会产生完全相同的单局轨迹与批量 JSON；洗牌随机只来自显式种子。30 回合上限是防止模拟不终止的技术保险，触及上限记为 `draw`，不是 GDD 新增的胜负规则。
+
+当前模拟器只评估明确规则与启发式策略下的条件胜率。它没有模拟玩家查看/取消投影的决策时间，也尚未覆盖完整事件、环境、特殊状态敌人、分解事件和基础字素补充流程。
+
+首期卡表、策略边界和 30,000 局结果见 [`reports/2026-08-29-v2-battle003-baseline.md`](reports/2026-08-29-v2-battle003-baseline.md)。
+
+## GDD-BATTLE-001 历史原型边界
 
 - 双方基础血量值暂定为 30。
 - 核心卡只包含 4 个公开成语组合，不包含常驻被动或独立主动能力。
@@ -77,8 +95,10 @@
 - `data/auxiliary_cards.json`：20 张辅助卡模板及其属性、字段、基础效果和单卡费用。
 - `data/core_cards.json`：两张核心卡、8 个结构化组合及其整体费用。
 - `data/decks.json`：两套 20 张测试卡组。
+- `data/battle003.json`：003 首期临时卡表、配方、核心卡、敌人和情境样例。
 - `combat_lab/matcher.py`：字段多重集合匹配。
 - `combat_lab/engine.py`：原子攻防结算和持久状态触发。
+- `combat_lab/battle003.py`：003 永久合成、确定性情境与 PvE 批量模拟。
 - `tests/`：数据约束、字段匹配和结算测试。
 
 ## 运行
@@ -94,6 +114,10 @@ python -m combat_lab simulate --games 1000 --seed 20260821
 python -m combat_lab simulate --games 1000 --seed 20260821 --energy-capacity 3
 python -m combat_lab simulate --games 500 --seed 20260821 --combo-cost break_pot_sink_boat=4
 python -m combat_lab simulate --games 100 --seed 20260821 --json
+python -m combat_lab validate003
+python -m combat_lab show003
+python -m combat_lab simulate003 --core003 edge_core --policy balanced --games 5000 --seed 20260829
+python -m combat_lab simulate003 --core003 bastion_core --policy defensive --games 5000 --seed 20260829 --json
 python -m pytest -q
 ```
 

@@ -7,6 +7,12 @@ from pathlib import Path
 
 from .actions import enumerate_combo_actions
 from .analysis import analyze_availability
+from .battle003 import (
+    POLICY003_PROFILES,
+    Battle003Config,
+    load_battle003_catalog,
+    simulate_battle003_matchup,
+)
 from .catalog import load_catalog, with_combo_costs
 from .policies import PROFILES
 from .simulation import GameConfig, simulate_matchup
@@ -35,13 +41,23 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="成语组合战斗独立测试工具")
     parser.add_argument(
         "command",
-        choices=("validate", "show", "analyze", "enumerate", "simulate"),
+        choices=(
+            "validate",
+            "show",
+            "analyze",
+            "enumerate",
+            "simulate",
+            "validate003",
+            "show003",
+            "simulate003",
+        ),
         nargs="?",
         default="validate",
     )
     parser.add_argument("--games", type=int, default=1000)
     parser.add_argument("--seed", type=int, default=20260821)
     parser.add_argument("--energy-capacity", type=int, default=4)
+    parser.add_argument("--max-turns", type=int, default=30)
     parser.add_argument(
         "--combo-cost",
         action="append",
@@ -52,6 +68,12 @@ def main() -> None:
     parser.add_argument("--deck-b", default="boat_starter_v0")
     parser.add_argument("--policy-a", choices=tuple(PROFILES), default="balanced")
     parser.add_argument("--policy-b", choices=tuple(PROFILES), default="balanced")
+    parser.add_argument("--policy", choices=POLICY003_PROFILES, default="balanced")
+    parser.add_argument(
+        "--core003",
+        choices=("edge_core", "bastion_core"),
+        default="edge_core",
+    )
     parser.add_argument("--core", default="sheep_core")
     parser.add_argument("--nature", choices=("attack", "defense"), default="attack")
     parser.add_argument(
@@ -60,6 +82,86 @@ def main() -> None:
     )
     parser.add_argument("--json", action="store_true")
     args = parser.parse_args()
+
+    if args.command in {"validate003", "show003", "simulate003"}:
+        catalog003 = load_battle003_catalog(DATA_DIR)
+        if args.command == "validate003":
+            general_count = sum(
+                recipe.core_id is None for recipe in catalog003.recipes.values()
+            )
+            specific_count = len(catalog003.recipes) - general_count
+            print(
+                "OK: GDD-BATTLE-003 目录可确定性模拟；"
+                f"{len(catalog003.cards)} 张卡，{general_count} 条一般配方，"
+                f"{specific_count} 条核心卡特有配方，"
+                f"{len(catalog003.cores)} 张核心卡，1 名固定 PvE 敌人"
+            )
+            return
+        if args.command == "simulate003":
+            report003 = simulate_battle003_matchup(
+                catalog003,
+                core_id=args.core003,
+                policy=args.policy,
+                games=args.games,
+                seed=args.seed,
+                config=Battle003Config(
+                    energy_capacity=args.energy_capacity,
+                    max_turns=args.max_turns,
+                ),
+            )
+            if args.json:
+                print(json.dumps(asdict(report003), ensure_ascii=False, indent=2))
+                return
+            low, high = report003.win_rate_ci95
+            print(
+                f"{catalog003.cores[report003.core_id].name} vs "
+                f"{catalog003.enemy.name} ({report003.games} 局 / {report003.policy})"
+            )
+            print(
+                f"胜 {report003.wins} / 负 {report003.losses} / "
+                f"超时 {report003.draws}"
+            )
+            print(
+                f"胜率 {report003.win_rate:.1%} "
+                f"(95% CI {low:.1%}-{high:.1%})；"
+                f"平均 {report003.average_turns:.2f} 回合"
+            )
+            print(
+                f"平均剩余血量 {report003.average_remaining_health:.2f}；"
+                f"敌方平均剩余血量 {report003.average_enemy_health:.2f}；"
+                f"平均合成 {report003.average_syntheses:.2f} 次"
+            )
+            print(
+                f"平均最终牌组 {report003.average_final_deck_size:.2f} 张；"
+                f"行动卡抽取占比 {report003.action_draw_share:.1%}；"
+                f"无字素出牌回合率 {report003.no_glyph_play_turn_rate:.1%}"
+            )
+            print(f"配方使用: {report003.recipe_usage}")
+            print(f"行动卡催化使用: {report003.action_catalyst_usage}")
+            print(f"卡牌使用: {report003.card_usage}")
+            return
+
+        for core in catalog003.cores.values():
+            print(f"[{core.name}]")
+            for recipe in catalog003.recipes.values():
+                if recipe.core_id not in {None, core.id}:
+                    continue
+                glyphs = " + ".join(catalog003.cards[item].name for item in recipe.glyph_materials)
+                actions = " + ".join(
+                    catalog003.cards[item].name for item in recipe.action_materials
+                )
+                materials = " + ".join(part for part in (glyphs, actions) if part)
+                product = catalog003.cards[recipe.product]
+                effects = " + ".join(
+                    f"{effect.kind} {effect.value}" for effect in product.effects
+                )
+                scope = "一般" if recipe.core_id is None else "特有"
+                print(
+                    f"- [{scope}] {recipe.name}: {materials} -> {product.name}; "
+                    f"{product.energy_cost} 费; {effects}"
+                )
+        return
+
     catalog = load_catalog(DATA_DIR)
     if args.combo_cost:
         catalog = with_combo_costs(catalog, _parse_combo_costs(parser, args.combo_cost))

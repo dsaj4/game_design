@@ -1,0 +1,246 @@
+{
+  "cards": [
+    {
+      "id": "water",
+      "name": "水",
+      "type": "glyph",
+      "energy_cost": 1,
+      "effects": [{"kind": "damage", "value": 3}]
+    },
+    {
+      "id": "fire",
+      "name": "火",
+      "type": "glyph",
+      "energy_cost": 1,
+      "effects": [{"kind": "damage", "value": 4}]
+    },
+    {
+      "id": "air",
+      "name": "气",
+      "type": "glyph",
+      "energy_cost": 1,
+      "effects": [{"kind": "damage", "value": 2}]
+    },
+    {
+      "id": "earth",
+      "name": "土",
+      "type": "glyph",
+      "energy_cost": 1,
+      "effects": [{"kind": "shield", "value": 4}]
+    },
+    {
+      "id": "light",
+      "name": "光",
+      "type": "glyph",
+      "energy_cost": 1,
+      "effects": [{"kind": "heal", "value": 3}]
+    },
+    {
+      "id": "compress",
+      "name": "压缩",
+      "type": "action",
+      "energy_cost": 0,
+      "effects": []
+    },
+    {
+      "id": "stack",
+      "name": "堆砌",
+      "type": "action",
+      "energy_cost": 0,
+      "effects": []
+    },
+    {
+      "id": "gather",
+      "name": "采集",
+      "type": "action",
+      "energy_cost": 0,
+      "effects": []
+    },
+    {
+      "id": "steam_burst",
+      "name": "蒸汽爆发",
+      "type": "glyph",
+      "energy_cost": 2,
+      "effects": [{"kind": "damage", "value": 8}]
+    },
+    {
+      "id": "healing_mist",
+      "name": "治愈雾",
+      "type": "glyph",
+      "energy_cost": 2,
+      "effects": [{"kind": "heal", "value": 6}]
+    },
+    {
+      "id": "dust_screen",
+      "name": "尘幕",
+      "type": "glyph",
+      "energy_cost": 2,
+      "effects": [{"kind": "shield", "value": 8}]
+    },
+    {
+      "id": "scalding_surge",
+      "name": "沸流",
+      "type": "glyph",
+      "energy_cost": 3,
+      "effects": [{"kind": "damage", "value": 14}]
+    },
+    {
+      "id": "water_blade",
+      "name": "水刃",
+      "type": "glyph",
+      "energy_cost": 2,
+      "effects": [{"kind": "damage", "value": 10}]
+    },
+    {
+      "id": "pressure_lock",
+      "name": "气压封锁",
+      "type": "glyph",
+      "energy_cost": 1,
+      "effects": [{"kind": "cancel_intent", "value": 1}]
+    },
+    {
+      "id": "stone_wall",
+      "name": "岩壁",
+      "type": "glyph",
+      "energy_cost": 2,
+      "effects": [{"kind": "shield", "value": 10}]
+    },
+    {
+      "id": "renewal_wall",
+      "name": "复苏壁垒",
+      "type": "glyph",
+      "energy_cost": 2,
+      "effects": [
+        {"kind": "shield", "value": 6},
+        {"kind": "heal", "value": 2}
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "id": "general_steam_burst",
+      "name": "火气成蒸汽",
+      "core_id": null,
+      "glyph_materials": ["fire", "air"],
+      "action_materials": [],
+      "product": "steam_burst"
+    },
+    {
+      "id": "general_healing_mist",
+      "name": "水光成治愈雾",
+      "core_id": null,
+      "glyph_materials": ["water", "light"],
+      "action_materials": [],
+      "product": "healing_mist"
+    },
+    {
+      "id": "general_dust_screen",
+      "name": "土气成尘幕",
+      "core_id": null,
+      "glyph_materials": ["earth", "air"],
+      "action_materials": [],
+      "product": "dust_screen"
+    },
+    {
+      "id": "general_scalding_surge",
+      "name": "蒸汽加水成沸流",
+      "core_id": null,
+      "glyph_materials": ["steam_burst", "water"],
+      "action_materials": [],
+      "product": "scalding_surge"
+    },
+    {
+      "id": "edge_water_blade",
+      "name": "锋刃本源：水刃",
+      "core_id": "edge_core",
+      "glyph_materials": ["water"],
+      "action_materials": ["compress"],
+      "product": "water_blade"
+    },
+    {
+      "id": "edge_pressure_lock",
+      "name": "锋刃本源：气压封锁",
+      "core_id": "edge_core",
+      "glyph_materials": ["air"],
+      "action_materials": ["compress"],
+      "product": "pressure_lock"
+    },
+    {
+      "id": "bastion_stone_wall",
+      "name": "壁垒本源：岩壁",
+      "core_id": "bastion_core",
+      "glyph_materials": ["earth"],
+      "action_materials": ["stack"],
+      "product": "stone_wall"
+    },
+    {
+      "id": "bastion_renewal_wall",
+      "name": "壁垒本源：复苏壁垒",
+      "core_id": "bastion_core",
+      "glyph_materials": ["water"],
+      "action_materials": ["stack"],
+      "product": "renewal_wall"
+    }
+  ],
+  "cores": [
+    {"id": "edge_core", "name": "锋刃本源"},
+    {"id": "bastion_core", "name": "壁垒本源"}
+  ],
+  "starter_deck": {
+    "water": 2,
+    "fire": 2,
+    "air": 2,
+    "earth": 2,
+    "light": 2,
+    "compress": 2,
+    "stack": 2,
+    "gather": 1
+  },
+  "enemy": {
+    "id": "quarry_guardian",
+    "name": "矿脉守卫",
+    "health": 65,
+    "intents": [
+      {"id": "jab", "name": "试探击", "damage": 8, "hits": 1},
+      {"id": "double_strike", "name": "连续击", "damage": 7, "hits": 2},
+      {
+        "id": "weakening_blow",
+        "name": "削弱击",
+        "damage": 8,
+        "hits": 1,
+        "status": "weaken",
+        "status_value": 1
+      },
+      {"id": "crush", "name": "粉碎", "damage": 13, "hits": 1}
+    ]
+  },
+  "contexts": [
+    {
+      "id": "coal_outcrop",
+      "name": "煤矿突显",
+      "outcomes": [
+        {
+          "card_id": "gather",
+          "required_state": "fresh",
+          "tier": "high",
+          "reward_card_id": "earth",
+          "next_state": "depleted"
+        },
+        {
+          "card_id": "compress",
+          "required_state": "fresh",
+          "tier": "general",
+          "reward_card_id": "air",
+          "next_state": "depleted"
+        },
+        {
+          "card_id": "earth",
+          "required_state": "fresh",
+          "tier": "floor",
+          "reward_card_id": "fire",
+          "next_state": "depleted"
+        }
+      ]
+    }
+  ]
+}
