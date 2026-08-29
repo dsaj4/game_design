@@ -74,3 +74,4 @@
 | 日期 | GDD/Proposal | 章节/版本 | 处理结果 | 备注 |
 | --- | --- | --- | --- | --- |
 | 2026-08-21 | 待建立的共享地图—战斗闭环 GDD | GDD-0 / 1、2、16 | `Qualified / Pending Use` | 失败结算与治疗规则另行确认 |
+| 2026-08-29 | [GDD-BATTLE-003](../gdd/GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md) | v0.1.0 / 2、4.1、8 | `Included / Interface Only` | 用于治疗和战后血量边界；地图与失败收益仍由外层 GDD 定义 |

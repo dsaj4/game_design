@@ -78,3 +78,4 @@
 | 日期 | GDD/Proposal | 章节/版本 | 处理结果 | 备注 |
 | --- | --- | --- | --- | --- |
 | 2026-08-22 | GDD-BATTLE-002 | 全文 v0.2.0 | `Included` | 取代成语组合为战斗主线 |
+| 2026-08-29 | [GDD-BATTLE-003](../gdd/GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md) | v0.1.0 / 3、7、14 | `Included / Limited Inheritance` | 只继承字素语义与内容候选；双轨合成、旧费用、耐性和临时产物不自动继承 |

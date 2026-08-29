@@ -84,3 +84,4 @@
 | 日期 | GDD/Proposal | 章节/版本 | 处理结果 | 备注 |
 | --- | --- | --- | --- | --- |
 | 2026-08-25 | [战斗系统 003 提案](../idea-proposals/P-2026-08-25-battle-system-003-unified-glyph-action-events.md) | 全文 v0.1.0 | `Included` | 作为 Proposal 的唯一正式素材来源之一 |
+| 2026-08-29 | [GDD-BATTLE-003](../gdd/GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md) | v0.1.0 / 全文 | `Included` | 评估 Q1—Q52 的最终决策取代素材中的旧 Unknown |

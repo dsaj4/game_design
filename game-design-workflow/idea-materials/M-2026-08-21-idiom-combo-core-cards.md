@@ -96,3 +96,4 @@
 | 日期 | GDD/Proposal | 章节/版本 | 处理结果 | 备注 |
 | --- | --- | --- | --- | --- |
 | 2026-08-21 | [战斗系统 GDD-1](../../archive/2026-08-24-gdd-code-separation/GDD-2026-08-21-card-battle-system.md) | 0.1.0 / 3–7、14–16 | `Included / Archived` | 规则语义曾纳入；该旧战斗系统现已归档 |
+| 2026-08-29 | [GDD-BATTLE-003](../gdd/GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md) | v0.1.0 / 素材审查 | `Omitted / Archived` | 成语字段、单行动位和防御响应不属于 003 当前规则 |

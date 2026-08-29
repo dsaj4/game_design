@@ -227,6 +227,7 @@
 
 ## 下一步
 
-- [ ] 创建并完成 `E-YYYY-MM-DD-battle-system-003-unified-glyph-action-events.md` Proposal Evaluation。
+- [x] 创建并完成 [战斗系统 003 Proposal Evaluation](../evaluations/E-2026-08-25-battle-system-003-unified-glyph-action-events.md)。
 - [ ] 用最小原型验证行动卡情境价值、统一页面可读性、合成成本和分解补偿。
-- [ ] 根据评估决定是否建立 `GDD-BATTLE-003`；若需要改核心构思，再另行创建 Draft Change。
+- [x] 根据评估建立 [GDD-BATTLE-003 / GDD-1](../gdd/GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md)。
+- [ ] 若原型支持采纳，再另行创建 Draft Change；当前不修改核心构思。

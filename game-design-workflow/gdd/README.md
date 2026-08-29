@@ -24,7 +24,8 @@ GDD-YYYY-MM-DD-short-name.md
 
 ## 当前文档
 
-- [GDD-BATTLE-002：字素合成战斗系统](GDD-2026-08-22-glyph-synthesis-combat-system.md) — `GDD-1 / Evaluation`，**当前战斗机制主方向**；基于 `card table.docx` 与 [card-table.md](../data/card-table.md)。
+- [GDD-BATTLE-003：字素卡、行动卡与统一情境战斗](GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md) — `GDD-1 / Evaluation`，**当前战斗机制验证方向**；规则评估已完成，等待最小原型。
+- [GDD-BATTLE-002：字素合成战斗系统](GDD-2026-08-22-glyph-synthesis-combat-system.md) — `GDD-1 / Evaluation`，003 的前置基线；保留字素与内容语义，双轨合成和旧行动经济不再作为当前写作基线。
 - [GDD-BATTLE-001：唯一核心卡成语组合战斗系统](../../archive/2026-08-24-gdd-code-separation/GDD-2026-08-21-card-battle-system.md) — `Parked / Archived`，保留旧流程下的设计与代码证据。
 
 代码进度入口：[代码开发进度索引](../../docs/code-development-index.md)。原 `GDD-CLIENT-001` 已在 2026-08-24 迁出本目录，历史内容仍可通过 Git 记录追溯。

@@ -65,5 +65,6 @@
 
 - [x] 使用 `grill-with-docs` 完成资格确认
 - [x] 通过闸门后晋级 `idea-materials/`
-- [x] 整理为 Proposal，等待独立评估
-- [ ] 评估后决定是否建立 GDD-BATTLE-003
+- [x] 整理为 Proposal 并完成独立评估
+- [x] 建立 [GDD-BATTLE-003 / GDD-1](../gdd/GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md)
+- [ ] 完成最小原型验证后决定是否进入 Draft Change

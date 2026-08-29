@@ -78,3 +78,4 @@
 | 日期 | GDD/Proposal | 章节/版本 | 处理结果 | 备注 |
 | --- | --- | --- | --- | --- |
 | 2026-08-18 | 待建立 | 1/3/4/7.3 | `Qualified / Pending Use` | 尚未写入核心构思 |
+| 2026-08-29 | [GDD-BATTLE-003](../gdd/GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md) | v0.1.0 / 3、4.4、7.3 | `Included / Battle Boundary` | 仅使用单一身份位和牌组外核心卡边界；交易与正式核心变更不在本 GDD |
