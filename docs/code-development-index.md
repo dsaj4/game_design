@@ -66,7 +66,7 @@
 
 | 项目 | 仓库 | 关联设计 | 当前阶段 | 最近验证 | 状态 |
 | --- | --- | --- | --- | --- | --- |
-| Godot 灰盒客户端 | [fantacy-breakdown-godot-demo](https://github.com/Winterwhite11/fantacy-breakdown-godot-demo) | [GDD-BATTLE-002](../game-design-workflow/gdd/GDD-2026-08-22-glyph-synthesis-combat-system.md) | 地图与字素战斗灰盒 | 2026-08-24 文档与仓库检查 | `Implemented` |
+| Godot 统一情境 Demo | [fantacy-breakdown-godot-demo](https://github.com/Winterwhite11/fantacy-breakdown-godot-demo) | [GDD-BATTLE-003](../game-design-workflow/gdd/GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md) | 统一情境最小验证原型 V0.1 | 2026-08-29，Godot 4.7.1、53 项自动检查与双状态截图 | `Verified` |
 | 战斗系统 003 确定性模拟器 | 本仓库 [`combat-lab/`](../combat-lab/README.md) | [GDD-BATTLE-003](../game-design-workflow/gdd/GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md) | 首期合成表与 PvE 胜率基线 | 2026-08-29，34 项测试与 30,000 局主基线 | `Verified` |
 | 成语组合模拟器 | 本仓库历史 `combat-lab/` | `GDD-BATTLE-001` | 旧战斗对照证据 | 2026-08-22 归档判断 | `Parked` |
 
@@ -77,8 +77,8 @@
 | 里程碑 | 范围 | 状态 | 证据 | 下一步 |
 | --- | --- | --- | --- | --- |
 | `BATTLE003-SIM-001` | 003 回合、两类卡、永久合成、核心特有表、公开意图与 PvE 条件胜率 | `Verified` | [`v2 胜率基线`](../combat-lab/reports/2026-08-29-v2-battle003-baseline.md)，34 项自动测试 | 扫描能量、抽牌和护盾生命周期 |
-| `BATTLE003-CONTEXT-001` | 确定性“卡牌 + 目标 + 状态”结算 | `Implemented` | 单一煤矿情境样例与自动测试 | 扩成事件、环境和特殊敌人串联，不纳入当前胜率 |
-| `BATTLE003-HUMAN-001` | 投影穷举、行动卡理解与永久消耗体验 | `Planned` | GDD-BATTLE-003 H-001—H-005 | 完成低保真统一页面后招募首轮 5 名玩家 |
+| `BATTLE003-CONTEXT-001` | 确定性“卡牌 + 目标 + 状态”结算 | `Implemented` | 单一煤矿情境样例与自动测试 | 串联验证由 Godot Demo 承担；不混入当前胜率基线 |
+| `BATTLE003-HUMAN-001` | 投影穷举、行动卡理解与永久消耗体验 | `Planned` | Godot Demo V0.1 与 GDD-BATTLE-003 H-001—H-005 | 招募首轮 5 名玩家并记录原始观察 |
 
 ### 实现边界与偏差
 
@@ -89,50 +89,51 @@
 | 决策模型 | 玩家可在己方窗口自由交错出牌与合成 | AI 先按启发式连续合成，再枚举能量合法的字素出牌组合 | 报告为策略条件胜率，不宣称最优或真人胜率 |
 | 终止条件 | 战斗以一方血量归零结束 | 另设 30 回合模拟保险，触及时记作超时 | 超时只用于暴露僵局，不写回 GDD 胜负规则 |
 
-## Godot 灰盒客户端
+## Godot 统一情境 Demo
 
 ### 项目入口
 
 - 仓库：https://github.com/Winterwhite11/fantacy-breakdown-godot-demo
 - 快速开始：仓库 `README.md`
 - 玩家操作与验收：仓库 `docs/USAGE.md`
+- 真人测试记录：仓库 `docs/TESTING.md`
 - 技术架构与扩展方式：仓库 `docs/ARCHITECTURE.md`
-- 设计来源：[GDD-BATTLE-002](../game-design-workflow/gdd/GDD-2026-08-22-glyph-synthesis-combat-system.md)
+- 设计来源：[GDD-BATTLE-003](../game-design-workflow/gdd/GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md)
+- 当前实现分支：`codex/2026-08-29-gdd-battle-003-demo`
+- 当前本地提交：`d3ce346 Build GDD-BATTLE-003 playable validation demo`
+- 远端同步：`Blocked`；2026-08-29 当前 GitHub 凭据 `dsaj4` 向 `Winterwhite11/fantacy-breakdown-godot-demo` 推送时返回 `403`
 
 ### 当前开发里程碑
 
 | 里程碑 | 范围 | 状态 | 证据 | 下一步 |
 | --- | --- | --- | --- | --- |
-| `GRAYBOX-CLIENT-001` | 地图进入战斗并返回的可运行闭环 | `Implemented` | Godot 仓库与使用说明 | 按验收清单完成实际试玩记录 |
-| `BATTLE-SYNTH-001` | 首测基础字、字词打出与两材料合成 | `Implemented` | `data/cards.json`、战斗场景 | 对齐 GDD 费用与合成生命周期 |
-| `MAP-SYNTH-001` | 地图永久 2→1 合成 | `Implemented` | 使用说明中的永久合成流程 | 验证长期构筑价值 |
-| `BATTLE-PILE-001` | 回合开始洗牌、当回合不即时洗回 | `Implemented` | `PileController` 与使用说明 | 记录至少一轮人工验收证据 |
-| `CORE-GLYPH-001` | 本源字解释器与铭文耐性 | `Planned` | GDD-BATTLE-002 | 先确认玩法规则与首测模板 |
-| `SYNERGY-201-208` | 处理层与元素协同 | `Planned` | card-table 与 GDD-BATTLE-002 | 确定首批协同范围 |
+| `B003-DEMO-V0.1` | 5 基础字素、3 行动卡、两张核心卡、两事件、3 环境对象、特殊状态战斗、分解与补充的完整路线 | `Verified` | 本地提交 `d3ce346`；固定首手可自动走完全流程 | 取得仓库推送权限并发布远端分支 |
+| `B003-RULES-001` | 永久合成、行动复用、核心特有候选、上限替代、逐层分解、事件生命周期与回合边界 | `Verified` | Godot 4.7.1 headless，53 项规则与集成检查通过 | 将首轮真人观察与自动规则证据分开记录 |
+| `B003-UI-001` | 单页统一情境、相关性层级、双产物并列投影与测试指标 | `Verified` | 1440×900 与 1280×720 真实渲染；普通态和双候选合成态无重叠 | 用 5 名目标玩家验证信息密度与投影穷举 |
+| `B003-HUMAN-001` | H-001—H-005 真人体验测试 | `Planned` | 仓库 `docs/TESTING.md` 已建立记录协议 | 完成首轮 5 名目标玩家测试 |
+| `B002-GRAYBOX-HISTORY` | 旧地图、地图永久合成与战斗瞬时合成 | `Parked` | GDD-BATTLE-002 历史实现仍留在仓库但不再作为启动入口 | 只作历史对照，不回写当前规则 |
 
 ### 当前实现范围
 
 | 能力 | 实现状态 | 设计状态 | 备注 |
 | --- | --- | --- | --- |
-| 7×5 网格、单格移动、墙体与战斗格 | `Implemented` | 灰盒范围 | 地图尺寸和输入方式不是正式核心规则 |
-| 战斗胜利清除格子、失败重开 | `Implemented` | `Hypothesis` | 需由地图 GDD 决定长期结果 |
-| 基础字直接打出 | `Implemented` | `Hypothesis` | 首测子集 |
-| 蒸汽、酸、水刃、土墙、高压蒸汽 | `Implemented` | `Hypothesis` | 当前只支持两材料逐步合成 |
-| 地图永久合成与战斗瞬时合成 | `Implemented` | `Hypothesis` | 玩法规则已迁入 GDD-BATTLE-002，尚未正式采纳 |
-| 回合开始才洗弃牌堆 | `Implemented` | `Hypothesis` | 玩法规则已迁入 GDD-BATTLE-002 |
-| 简单 AI 攻防轮换 | `Implemented` | 灰盒替代物 | 不代表最终敌人设计 |
-| 本源字解释器 | `Planned` | `Hypothesis` | 未实现 |
-| 铭文耐性强制校验 | `Planned` | `Hypothesis` | 未实现 |
-| 处理协同 201–208 | `Planned` | `Hypothesis` | 未实现 |
+| 字素卡付费直接打出；行动卡按目标相关性免费且同回合复用 | `Verified` | `Confirmed rules / untested experience` | 自动检查覆盖相关与不相关目标、弃牌和复用 |
+| 所有真实合成永久化；字素消耗，行动卡保留，产物立即入手 | `Verified` | `Confirmed rules / untested experience` | 已覆盖纯行动禁止、取消无变化、一般/特有候选与记录归属 |
+| 一般配方与当前核心特有配方并列选择 | `Verified` | `Confirmed rules / scale Unknown` | 豪杰与王权使用共享材料语义，界面同时呈现两个候选 |
+| 两个普通事件、三个有限环境对象和固定收益层级 | `Verified` | `Confirmed rules / readability Hypothesis` | 事件一次提交，对象处理后耗尽，奖励永久进入手牌和牌组 |
+| 公开下一行动、主动护盾、特殊晶壳状态与打断更新 | `Verified` | `Confirmed rules / values Unknown` | 敌方行为为灰盒替代物，不代表最终敌人内容 |
+| 一层分解与无需基础字素的补充路径 | `Verified` | `Confirmed rules / frequency Unknown` | 逐层回退保留中间祖先，不复制行动卡 |
+| 旧 7×5 地图与双轨合成 | `Parked` | GDD-BATTLE-002 历史证据 | 文件仍保留，但主入口不再暴露旧规则 |
 
 ### 已知设计偏差
 
 | 偏差 | GDD 侧 | 当前代码侧 | 处理要求 |
 | --- | --- | --- | --- |
-| 回合能量 | 共享 4 点为 `Hypothesis` | 当前灰盒使用 3 点 | 不以代码反改 GDD；下一轮原型对比后决策 |
-| 合成层数 | GDD 允许更高层字词并受耐性限制 | 当前仅两材料逐步合成 | 先验证两步合成可读性，再决定三材料 UI |
-| 本源字 | GDD 将其视为身份解释规则 | 当前未实现 | 进入下一里程碑前先完成设计确认 |
-| 协同表 | GDD 定义 201–208 方向 | 当前只做首测字词结果 | 选择最小协同子集后再排期 |
+| 数值 | 能量、抽牌、血量、敌方伤害和同名上限仍为 `Unknown` | 使用 4 能量、5 抽牌、30 玩家 HP、18 敌方 HP；仅为水刃制造首测上限/替代分支 | 只作为 V0.1 条件，后续扫描相邻参数，不反向确认 GDD |
+| 内容规模 | GDD 只规定最小原型下限 | 当前使用引导式固定路线和小型人工卡池 | 先完成 H-001—H-005，不据此推断正式内容量 |
+| 地图与失败回滚 | GDD 将地图生成排除，并把探索失败后的永久变化列为 `Unknown` | 主入口使用统一单页；战败可重开，本轮不裁决永久变化是否应回滚 | 串联正式地图前回到整体系统 GDD 决策 |
+| 投影测试 | 合成投影可无限试选，需测量穷举 | 当前记录投影次数、取消次数和决策时长，不限制试选 | 真人测试后判断是否需要调整信息或试选约束 |
+| 远端交付 | 代码仓库应有可拉取分支/提交 | 本地提交完整，当前账号无目标仓库写权限 | 由仓库所有者授权或提供可写远端后推送 `d3ce346` |
 
 ## 更新协议
 
