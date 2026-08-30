@@ -1,7 +1,10 @@
 [project]
 name = "semantic-card-engine"
-version = "0.1.0"
+version = "0.2.0"
 requires-python = ">=3.11"
+
+[project.optional-dependencies]
+embedding-build = ["sentence-transformers==6.0.0"]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]

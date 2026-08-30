@@ -1,5 +1,5 @@
 {
-  "version": "semantic-physics-exp-002-v0",
+  "version": "semantic-physics-exp-002-v1",
   "effect_ops": ["damage", "shield", "heal", "cancel_intent"],
   "region_policy": {
     "minimum_score": 0.42,
@@ -53,6 +53,12 @@
     "heal": [0.0, 0.35, 1.0, -0.2, 0.4, 0.2],
     "cancel_intent": [0.25, 0.2, -0.1, 1.0, 0.3, 0.65]
   },
+  "effect_definitions": {
+    "damage": "对敌方造成直接损伤，削减其生命或结构完整性。",
+    "shield": "为自身建立保护层，吸收或降低随后受到的伤害。",
+    "heal": "恢复自身生命或修复受损结构。",
+    "cancel_intent": "打断、取消或延迟敌方已经公开的下一行动。"
+  },
   "dynamics_projection": {
     "damage": {
       "heat": 0.45,
@@ -82,6 +88,7 @@
     {
       "id": "water",
       "name": "水",
+      "definition": "可流动、可承载压力、能够渗透和传导变化的液态物质。",
       "potency": 4,
       "state": {"heat": 0.1, "motion": 0.5, "density": 0.45, "cohesion": 0.55, "vitality": 0.45, "radiance": 0.15, "entropy": 0.25, "conductivity": 0.75},
       "embedding": [0.2, 0.35, 0.45, 0.2, 0.2, 0.9]
@@ -89,6 +96,7 @@
     {
       "id": "fire",
       "name": "火",
+      "definition": "释放热量、持续燃烧并促使周围物质发生转化的能量现象。",
       "potency": 5,
       "state": {"heat": 1.0, "motion": 0.75, "density": 0.1, "cohesion": 0.05, "vitality": 0.1, "radiance": 0.75, "entropy": 0.65, "conductivity": 0.2},
       "embedding": [0.9, 0.05, 0.05, 0.35, 1.0, 0.5]
@@ -96,6 +104,7 @@
     {
       "id": "air",
       "name": "气",
+      "definition": "低密度、易流动、能够传播压力与扰动的气态介质。",
       "potency": 3,
       "state": {"heat": 0.25, "motion": 0.9, "density": 0.05, "cohesion": 0.05, "vitality": 0.15, "radiance": 0.3, "entropy": 0.55, "conductivity": 0.1},
       "embedding": [0.35, 0.1, 0.2, 0.55, 0.45, 0.95]
@@ -103,6 +112,7 @@
     {
       "id": "sand",
       "name": "砂",
+      "definition": "由大量细小固体颗粒组成，能够堆积、流散和磨蚀的物质。",
       "potency": 4,
       "state": {"heat": 0.35, "motion": 0.25, "density": 0.8, "cohesion": 0.65, "vitality": 0.05, "radiance": 0.1, "entropy": 0.35, "conductivity": 0.15},
       "embedding": [0.45, 0.8, 0.05, 0.3, 0.15, 0.2]
@@ -110,6 +120,7 @@
     {
       "id": "light",
       "name": "光",
+      "definition": "快速传播、照明并携带辐射能量的信息与能量现象。",
       "potency": 3,
       "state": {"heat": 0.65, "motion": 0.85, "density": 0.05, "cohesion": 0.05, "vitality": 0.3, "radiance": 1.0, "entropy": 0.15, "conductivity": 0.35},
       "embedding": [0.25, 0.3, 0.85, 0.1, 0.9, 0.65]
@@ -117,6 +128,7 @@
     {
       "id": "seed",
       "name": "种",
+      "definition": "储存生长潜力、能够萌发并修复生命结构的生命单元。",
       "potency": 4,
       "state": {"heat": 0.2, "motion": 0.1, "density": 0.55, "cohesion": 0.7, "vitality": 1.0, "radiance": 0.35, "entropy": 0.1, "conductivity": 0.25},
       "embedding": [0.1, 0.45, 1.0, 0.05, 0.25, 0.2]
@@ -124,6 +136,7 @@
     {
       "id": "iron",
       "name": "铁",
+      "definition": "高密度、高强度、可导能且容易形成稳定结构的金属。",
       "potency": 5,
       "state": {"heat": 0.3, "motion": 0.2, "density": 1.0, "cohesion": 0.95, "vitality": 0.05, "radiance": 0.15, "entropy": 0.1, "conductivity": 1.0},
       "embedding": [0.65, 1.0, 0.05, 0.15, 0.35, 0.1]
@@ -131,6 +144,7 @@
     {
       "id": "shadow",
       "name": "影",
+      "definition": "削弱可见信息、制造遮蔽与不确定性的暗域现象。",
       "potency": 4,
       "state": {"heat": 0.15, "motion": 0.55, "density": 0.1, "cohesion": 0.15, "vitality": 0.25, "radiance": 0.05, "entropy": 1.0, "conductivity": 0.25},
       "embedding": [0.3, 0.15, 0.2, 1.0, 0.35, 0.65]
@@ -140,6 +154,7 @@
     {
       "id": "compress",
       "name": "压缩",
+      "definition": "将目标集中到更小空间，提高密度与内部压力。",
       "potency": 2,
       "state_scale": {"motion": 1.1, "density": 1.25, "cohesion": 1.15},
       "state_delta": {"motion": 0.2, "density": 0.25, "entropy": -0.1},
@@ -148,6 +163,7 @@
     {
       "id": "disperse",
       "name": "扩散",
+      "definition": "使目标向更大范围扩散，降低集中程度并增加传播与扰动。",
       "potency": 2,
       "state_scale": {"motion": 1.15, "density": 0.65, "cohesion": 0.7, "entropy": 1.15},
       "state_delta": {"motion": 0.2, "entropy": 0.25, "radiance": 0.05},
@@ -156,6 +172,7 @@
     {
       "id": "gather",
       "name": "采集",
+      "definition": "从环境中收集并汇聚目标，使资源或结构逐渐集中。",
       "potency": 1,
       "state_scale": {"density": 1.1, "cohesion": 1.1, "vitality": 1.1, "radiance": 1.1},
       "state_delta": {"density": 0.1, "cohesion": 0.15, "vitality": 0.1, "entropy": -0.05},
@@ -166,6 +183,7 @@
     {
       "id": "hero",
       "name": "豪杰",
+      "definition": "偏向主动突破、直接施力和高风险进攻的核心身份。",
       "state_scale": {"heat": 1.15, "motion": 1.2, "cohesion": 0.9, "vitality": 0.9, "entropy": 1.05},
       "state_delta": {},
       "embedding": [0.8, -0.3, 0.0, -0.1, 0.4, 0.2]
@@ -173,6 +191,7 @@
     {
       "id": "crown",
       "name": "王权",
+      "definition": "偏向秩序、控制、保护和稳定支配的核心身份。",
       "state_scale": {"heat": 0.9, "motion": 0.9, "density": 1.15, "cohesion": 1.25, "vitality": 1.05, "radiance": 1.05, "entropy": 0.9},
       "state_delta": {},
       "embedding": [-0.1, 0.9, 0.25, 0.4, 0.15, -0.1]

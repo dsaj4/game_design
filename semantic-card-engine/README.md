@@ -4,14 +4,15 @@
 
 ## 状态与边界
 
-- 当前状态：`Verified MVP / EXP-002 V0 Implemented`
+- 当前状态：`Verified MVP / EXP-002 V1 Real Embedding Cache`
 - 设计来源：[概念合成世界模型原始想法](../game-design-workflow/idea-inbox/2026-08-29-semantic-composition-world-model.md)
 - 正式素材：[有限、确定且可学习的卡牌语义物理](../game-design-workflow/idea-materials/M-2026-08-30-finite-semantic-card-physics.md)
 - 效果约束素材：[有限效果区域与可拒绝合成](../game-design-workflow/idea-materials/M-2026-08-30-bounded-semantic-effect-regions.md)
 - 并列技术方向：[离散语义动力学与 Embedding 语义效果场](EXPLORATION-DIRECTIONS.md)
 - 技术架构与实验 ADR：[ARCHITECTURE.md](ARCHITECTURE.md)
 - 本目录不是 GDD，也不表示该想法已经成为正式玩法或核心构思。
-- 当前不调用 AI，不生成或执行任意代码，不直接接入 Godot。
+- 默认比较和运行时不调用模型，不生成或执行任意代码，不直接接入 Godot。
+- 只有显式执行 `build-embeddings` 时才下载固定修订版模型并重建缓存；发布比较只读取缓存。
 - 临时概念、规律、预算和核心镜片只用于验证技术闭环。
 
 ## 最小架构
@@ -30,9 +31,9 @@ AI 后续只能在这个闭环之前生成候选概念事实、规律或 IR；�
 并列实验采用另一条隔离管线：
 
 ```text
-data/experiment.json
+data/experiment.json + data/embedding-cache.json
   -> 8 概念 × 3 行动 × 2 核心卡
-  -> 离散语义动力学 / 角色感知冻结向量
+  -> 离散动力学 / 人工向量 / 真实向量三种组合基线
   -> 共享语义候选
   -> 容量约束的全局最小代价分配
   -> 单效果 / 兼容双效果 / unmapped
@@ -47,10 +48,23 @@ data/experiment.json
 - 相同输入、目录版本和核心镜片生成完全相同的卡牌与 SHA-256 内容哈希。
 - 材料顺序不影响结果，重复材料保留并提高预算。
 - 未知输入、纯行动输入、没有规律命中的组合都会明确失败。
-- `EXP-002 V0` 对两条路线使用相同的 48 个输入和发布约束，共输出 96 条可审计结果。
+- `EXP-002 V1` 对五条路线使用相同的 48 个输入和发布约束，共输出 240 条可审计结果。
 - 区域分配保留原始向量、候选分数、投影点、投影距离、合法区域和拒绝原因。
 - 效果区域总容量小于候选数，因此测试会真实覆盖 `capacity_exhausted -> unmapped`，而不是只测试理论分支。
-- Embedding 路线当前使用版本化人工冻结向量，只验证连续空间与分配机制，不代表真实模型已经具备零样本语义理解。
+- 真实 Embedding 缓存固定到 `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` 的提交 `e8f8c211...`，许可证为 Apache-2.0，共保存 78 条、384 维规范化向量。
+- 缓存记录每段输入文本、文本哈希、构建库版本和整体摘要；定义变化、内容篡改或缓存缺失都会拒绝运行，不会静默退回人工向量。
+
+## V1 初步结果
+
+| 路线 | 映射 | `Unmapped` | 双效果 | 当前解释 |
+| --- | ---: | ---: | ---: | --- |
+| 离散语义动力学 | 39 | 9 | 4 | 通用状态变换对照 |
+| 人工角色向量 | 41 | 7 | 5 | V0 连续空间对照，不代表真实模型 |
+| 真实向量加权平均 | 0 | 48 | 0 | 全部低于合法距离/分数门槛，基线失败 |
+| 真实向量角色提示 | 32 | 16 | 4 | 角色文本显著恢复映射能力 |
+| 真实向量结构化句子 | 38 | 10 | 2 | 当前覆盖最好，仍需人工判断语义是否合理 |
+
+没有为了让加权平均“看起来可用”而降低合法性阈值；失败结果作为基线证据保留。
 
 ## 运行
 
@@ -60,9 +74,13 @@ data/experiment.json
 py -3 -m semantic_card_engine validate
 py -3 -m semantic_card_engine generate --concept water --action compress --core neutral
 py -3 -m semantic_card_engine generate --concept water --action compress --core crown
-py -3 -m semantic_card_engine compare --output reports/semantic-physics-exp-002.json
+uv run --python 3.12 --extra embedding-build python -m semantic_card_engine build-embeddings
+py -3 -m semantic_card_engine compare --output reports/semantic-physics-exp-002-v1.json
+py -3 -m semantic_card_engine compare --manual-only
 py -3 -m pytest -q
 ```
+
+`build-embeddings` 是可选的内容生产命令；缓存已存在时，`compare` 和测试不需要安装 PyTorch 或 SentenceTransformers。
 
 `generate` 输出的 JSON 是候选卡牌 IR。未来可由批量模拟器校验后编译为 Godot 可加载的内容目录。
 
@@ -73,13 +91,17 @@ semantic-card-engine/
 ├── ARCHITECTURE.md
 ├── EXPLORATION-DIRECTIONS.md
 ├── data/catalog.json
+├── data/embedding-cache.json
 ├── data/experiment.json
 ├── reports/semantic-physics-exp-002.json
+├── reports/semantic-physics-exp-002-v1.json
 ├── semantic_card_engine/
 │   ├── __init__.py
 │   ├── __main__.py
+│   ├── embedding_cache.py
 │   ├── engine.py
 │   └── experiment.py
+├── uv.lock
 └── tests/
     ├── test_engine.py
     └── test_experiment.py
@@ -87,7 +109,7 @@ semantic-card-engine/
 
 ## 下一阶段候选
 
-1. 用固定的真实 Embedding 模型替换人工冻结向量，并缓存模型 ID、定义模板和输出向量。
-2. 加入加权平均基线与结构化句向量基线，和当前角色感知路线做盲测。
-3. 让评审者对 96 条结果标注语义合理性与可预测性，区分算法通过和玩家认可。
-4. 将 Godot 和 `combat-lab` 的卡牌效果统一为同一版 IR，再进行批量战斗预算验证。
+1. 为 240 条结果生成盲态人工评审表，测量语义合理性、动作敏感度与玩家预测率。
+2. 加入同义改写和反义/动作替换输入，检查真实模型是否只会按表面词汇聚类。
+3. 比较另一种固定中文/多语 Embedding，判断当前结果是模型特性还是方法特性。
+4. 将通过人工评审的路线接入共享 IR 和批量战斗预算验证。

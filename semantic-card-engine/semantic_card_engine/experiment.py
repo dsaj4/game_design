@@ -6,7 +6,8 @@ import hashlib
 import json
 import math
 from pathlib import Path
-from typing import Callable
+
+from .embedding_cache import EmbeddingCache
 
 
 class ExperimentError(ValueError):
@@ -17,6 +18,7 @@ class ExperimentError(ValueError):
 class ExperimentEntity:
     id: str
     name: str
+    definition: str
     potency: int
     state: dict[str, float]
     state_scale: dict[str, float]
@@ -44,6 +46,7 @@ class ExperimentConfig:
     embedding_role_weights: dict[str, float]
     embedding_role_scales: dict[str, tuple[float, ...]]
     effect_prototypes: dict[str, tuple[float, ...]]
+    effect_definitions: dict[str, str]
     dynamics_projection: dict[str, dict[str, float]]
     concepts: dict[str, ExperimentEntity]
     actions: dict[str, ExperimentEntity]
@@ -66,6 +69,7 @@ class SemanticCandidate:
     budget: int
     vector: tuple[float, ...]
     effect_scores: dict[str, float]
+    effect_prototypes: dict[str, tuple[float, ...]]
     trace: dict[str, object]
 
 
@@ -130,6 +134,10 @@ def load_experiment_config(path: Path | str) -> ExperimentConfig:
             str(key): tuple(float(value) for value in values)
             for key, values in data.get("effect_prototypes", {}).items()
         },
+        effect_definitions={
+            str(key): str(value)
+            for key, value in data.get("effect_definitions", {}).items()
+        },
         dynamics_projection={
             str(effect_op): {
                 str(dimension): float(weight)
@@ -170,6 +178,10 @@ def validate_experiment_config(config: ExperimentConfig) -> None:
         raise ExperimentError("state and embedding dimensions are required")
     if set(config.effect_prototypes) != set(config.effect_ops):
         raise ExperimentError("every effect operation requires one embedding prototype")
+    if set(config.effect_definitions) != set(config.effect_ops):
+        raise ExperimentError("every effect operation requires one semantic definition")
+    if any(not value.strip() for value in config.effect_definitions.values()):
+        raise ExperimentError("effect definitions cannot be empty")
     if set(config.dynamics_projection) != set(config.effect_ops):
         raise ExperimentError("every effect operation requires one dynamics projection")
 
@@ -181,6 +193,8 @@ def validate_experiment_config(config: ExperimentConfig) -> None:
         ("core", config.cores),
     ):
         for entity in entities.values():
+            if not entity.definition.strip():
+                raise ExperimentError(f"{label} {entity.id} requires a definition")
             if len(entity.embedding) != embedding_size or not any(entity.embedding):
                 raise ExperimentError(f"{label} {entity.id} has an invalid embedding")
             if set(entity.state) - state_dimensions:
@@ -232,41 +246,79 @@ def build_experiment_inputs(config: ExperimentConfig) -> tuple[ExperimentInput, 
     )
 
 
-def run_comparison(config: ExperimentConfig) -> dict[str, object]:
+def run_comparison(
+    config: ExperimentConfig,
+    embedding_cache: EmbeddingCache | None = None,
+) -> dict[str, object]:
     inputs = build_experiment_inputs(config)
-    routes: tuple[tuple[str, Callable[[ExperimentConfig, ExperimentInput], SemanticCandidate]], ...] = (
-        ("discrete_dynamics", _build_dynamics_candidate),
-        ("embedding_role_aware", _build_embedding_candidate),
-    )
+    route_candidates = [
+        (
+            "discrete_dynamics",
+            tuple(_build_dynamics_candidate(config, item) for item in inputs),
+        ),
+        (
+            "manual_vector_role_aware",
+            tuple(_build_manual_embedding_candidate(config, item) for item in inputs),
+        ),
+    ]
+    if embedding_cache is not None:
+        for route in (
+            "embedding_weighted",
+            "embedding_role_aware",
+            "embedding_structured",
+        ):
+            route_candidates.append(
+                (
+                    route,
+                    tuple(
+                        _build_cached_embedding_candidate(
+                            config,
+                            item,
+                            embedding_cache,
+                            route,
+                        )
+                        for item in inputs
+                    ),
+                )
+            )
+
     route_reports: dict[str, object] = {}
-    for route, builder in routes:
-        candidates = tuple(builder(config, item) for item in inputs)
-        assignments = assign_effect_regions(config, route, candidates)
+    for route, candidates in route_candidates:
+        regions = _build_regions(config, candidates[0].effect_prototypes)
+        assignments = assign_effect_regions(config, candidates, regions)
         results = [
             _project_result(config, candidate, assignment)
             for candidate, assignment in zip(candidates, assignments, strict=True)
         ]
-        route_reports[route] = _build_route_report(config, route, results)
+        route_reports[route] = _build_route_report(regions, results)
 
     report: dict[str, object] = {
-        "schema_version": "semantic-physics-comparison-v0",
+        "schema_version": "semantic-physics-comparison-v1",
         "experiment_version": config.version,
         "input_count": len(inputs),
         "routes": route_reports,
     }
+    if embedding_cache is not None:
+        report["embedding_cache"] = {
+            "model_id": embedding_cache.model_id,
+            "model_revision": embedding_cache.model_revision,
+            "model_license": embedding_cache.model_license,
+            "dimension": embedding_cache.dimension,
+            "template_version": embedding_cache.template_version,
+            "digest": embedding_cache.digest,
+        }
     report["digest"] = hashlib.sha256(_canonical_json(report)).hexdigest()
     return report
 
 
 def assign_effect_regions(
     config: ExperimentConfig,
-    route: str,
     candidates: tuple[SemanticCandidate, ...],
+    regions: tuple[EffectRegion, ...],
 ) -> tuple[RegionAssignment, ...]:
     ordered_candidates = tuple(sorted(candidates, key=lambda item: item.input))
     if ordered_candidates != candidates:
         raise ExperimentError("candidates must use canonical input order")
-    regions = _build_regions(config, route)
     region_slots = [region for region in regions for _ in range(region.capacity)]
     slots: list[EffectRegion | None] = region_slots + [None] * len(candidates)
     legal_maps = [_legal_regions(config, candidate, regions) for candidate in candidates]
@@ -323,8 +375,9 @@ def _build_dynamics_candidate(
     vector = _normalize(tuple(raw_scores[effect_op] for effect_op in config.effect_ops))
     scores = {
         effect_op: _cosine(vector, prototype)
-        for effect_op, prototype in _route_prototypes(config, "discrete_dynamics").items()
+        for effect_op, prototype in _dynamics_prototypes(config).items()
     }
+    prototypes = _dynamics_prototypes(config)
     return SemanticCandidate(
         route="discrete_dynamics",
         input=item,
@@ -332,6 +385,7 @@ def _build_dynamics_candidate(
         budget=concept.potency + action.potency,
         vector=vector,
         effect_scores=scores,
+        effect_prototypes=prototypes,
         trace={
             "initial_state": _round_mapping(initial_state),
             "after_action": _round_mapping(after_action),
@@ -341,7 +395,7 @@ def _build_dynamics_candidate(
     )
 
 
-def _build_embedding_candidate(
+def _build_manual_embedding_candidate(
     config: ExperimentConfig,
     item: ExperimentInput,
 ) -> SemanticCandidate:
@@ -363,23 +417,94 @@ def _build_embedding_candidate(
             for index in range(len(config.embedding_dimensions))
         )
     )
-    prototypes = _route_prototypes(config, "embedding_role_aware")
+    prototypes = _manual_prototypes(config)
     scores = {
         effect_op: _cosine(vector, prototype)
         for effect_op, prototype in prototypes.items()
     }
     return SemanticCandidate(
-        route="embedding_role_aware",
+        route="manual_vector_role_aware",
         input=item,
         name=f"{core.name}·{concept.name}·{action.name}",
         budget=concept.potency + action.potency,
         vector=vector,
         effect_scores=scores,
+        effect_prototypes=prototypes,
         trace={
             "embedding_dimensions": list(config.embedding_dimensions),
             "role_contributions": {
                 role: _round_vector(values) for role, values in contributions.items()
             },
+        },
+    )
+
+
+def _build_cached_embedding_candidate(
+    config: ExperimentConfig,
+    item: ExperimentInput,
+    cache: EmbeddingCache,
+    route: str,
+) -> SemanticCandidate:
+    concept = config.concepts[item.concept_id]
+    action = config.actions[item.action_id]
+    core = config.cores[item.core_id]
+    source_entry_ids: list[str]
+    if route == "embedding_structured":
+        source_entry_ids = [
+            f"structured:{item.concept_id}:{item.action_id}:{item.core_id}"
+        ]
+        vector = cache.vector(source_entry_ids[0])
+    else:
+        prefix = "neutral" if route == "embedding_weighted" else "role"
+        role_ids = {
+            "concept": item.concept_id,
+            "action": item.action_id,
+            "core": item.core_id,
+        }
+        source_entry_ids = [
+            f"{prefix}:{role}:{role_ids[role]}"
+            for role in ("concept", "action", "core")
+        ]
+        contributions = [
+            tuple(
+                value * config.embedding_role_weights[role]
+                for value in cache.vector(entry_id)
+            )
+            for role, entry_id in zip(
+                ("concept", "action", "core"),
+                source_entry_ids,
+                strict=True,
+            )
+        ]
+        vector = _normalize(
+            tuple(
+                sum(contribution[index] for contribution in contributions)
+                for index in range(cache.dimension)
+            )
+        )
+
+    prototypes = {
+        effect_op: cache.vector(f"effect:{effect_op}")
+        for effect_op in config.effect_ops
+    }
+    scores = {
+        effect_op: _cosine(vector, prototype)
+        for effect_op, prototype in prototypes.items()
+    }
+    return SemanticCandidate(
+        route=route,
+        input=item,
+        name=f"{core.name}·{concept.name}·{action.name}",
+        budget=concept.potency + action.potency,
+        vector=vector,
+        effect_scores=scores,
+        effect_prototypes=prototypes,
+        trace={
+            "embedding_cache_digest": cache.digest,
+            "model_id": cache.model_id,
+            "model_revision": cache.model_revision,
+            "composition": route.removeprefix("embedding_"),
+            "source_entry_ids": source_entry_ids,
         },
     )
 
@@ -404,9 +529,8 @@ def _apply_state_transform(
 
 def _build_regions(
     config: ExperimentConfig,
-    route: str,
+    prototypes: dict[str, tuple[float, ...]],
 ) -> tuple[EffectRegion, ...]:
-    prototypes = _route_prototypes(config, route)
     regions = [
         EffectRegion(
             id=f"single:{effect_op}",
@@ -434,24 +558,25 @@ def _build_regions(
     return tuple(regions)
 
 
-def _route_prototypes(
+def _dynamics_prototypes(
     config: ExperimentConfig,
-    route: str,
 ) -> dict[str, tuple[float, ...]]:
-    if route == "discrete_dynamics":
-        return {
-            effect_op: tuple(
-                1.0 if index == effect_index else 0.0
-                for index in range(len(config.effect_ops))
-            )
-            for effect_index, effect_op in enumerate(config.effect_ops)
-        }
-    if route == "embedding_role_aware":
-        return {
-            effect_op: _normalize(vector)
-            for effect_op, vector in config.effect_prototypes.items()
-        }
-    raise ExperimentError(f"unknown experiment route: {route}")
+    return {
+        effect_op: tuple(
+            1.0 if index == effect_index else 0.0
+            for index in range(len(config.effect_ops))
+        )
+        for effect_index, effect_op in enumerate(config.effect_ops)
+    }
+
+
+def _manual_prototypes(
+    config: ExperimentConfig,
+) -> dict[str, tuple[float, ...]]:
+    return {
+        effect_op: _normalize(vector)
+        for effect_op, vector in config.effect_prototypes.items()
+    }
 
 
 def _legal_regions(
@@ -630,8 +755,7 @@ def _validate_experiment_card(
 
 
 def _build_route_report(
-    config: ExperimentConfig,
-    route: str,
+    regions: tuple[EffectRegion, ...],
     results: list[dict[str, object]],
 ) -> dict[str, object]:
     mapped = [result for result in results if result["status"] == "mapped"]
@@ -653,7 +777,6 @@ def _build_route_report(
         float(result["assignment"]["projection_distance"])
         for result in mapped
     ]
-    regions = _build_regions(config, route)
     summary = {
         "mapped": len(mapped),
         "unmapped": len(unmapped),
@@ -750,6 +873,7 @@ def _load_entities(
         entities[entity_id] = ExperimentEntity(
             id=entity_id,
             name=str(item.get("name", entity_id)),
+            definition=str(item.get("definition", "")),
             potency=int(item.get("potency", 0)),
             state={str(key): float(value) for key, value in item.get("state", {}).items()},
             state_scale={

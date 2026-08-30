@@ -4,7 +4,7 @@
 
 This document records technical exploration paths. It is not a GDD, does not change accepted gameplay, and does not make either path production-ready.
 
-Implementation status: `EXP-002 V0 Implemented / Human Semantic Review Pending`.
+Implementation status: `EXP-002 V1 Real Embedding Cache / Human Semantic Review Pending`.
 
 Design material: [finite semantic card physics](../game-design-workflow/idea-materials/M-2026-08-30-finite-semantic-card-physics.md).
 
@@ -96,16 +96,16 @@ Both paths should receive the same structured inputs and emit the same validated
 
 Path B should compare three composition baselines: weighted vector average, role-aware transforms and a fixed structured-sentence embedding. Direct nearest-effect mapping is a baseline, not the recommended architecture.
 
-### V0 Implementation Snapshot
+### Implementation Snapshot
 
 - The canonical input matrix now contains 8 concepts, 3 actions and 2 cores, producing 48 inputs per route.
 - Path A applies generic state scaling/deltas and projects final state channels into effect scores; it contains no combination-specific entries.
-- Path B currently uses versioned six-dimensional frozen vectors with role-specific diagonal transforms. This validates the field and allocator, not learned-language zero-shot quality.
+- Path B retains the versioned six-dimensional manual vectors as a control and now also uses a pinned 384-dimensional multilingual SentenceTransformer cache.
 - A shared minimum-cost batch assignment allocates candidates to capacity-limited single/pair regions or `unmapped`.
-- The committed report retains all 96 results and deterministic digests.
+- V1 compares neutral weighted average, role-qualified weighted average and structured-sentence embeddings; the report retains all 240 results and deterministic digests.
 - Automated checks cover input count, repeatability, region capacity, projection threshold, compatible pairs, one/two-effect limits, budget conservation and CLI report output.
 
-The weighted-average and structured-sentence Embedding baselines, a real pinned model, paraphrase inputs and blind human semantic ratings remain unimplemented.
+The neutral weighted baseline produced no legal mappings at the confirmed threshold, while role-qualified and structured inputs mapped 32 and 38 of 48 candidates. This is evidence that composition phrasing changes the geometry, not evidence that either route is semantically correct. Paraphrase inputs, action-swap sensitivity and blind human semantic ratings remain unimplemented.
 
 ## Recorded Direction
 

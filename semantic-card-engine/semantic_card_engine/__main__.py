@@ -5,12 +5,21 @@ import json
 from pathlib import Path
 import sys
 
+from .embedding_cache import (
+    DEFAULT_MODEL_ID,
+    DEFAULT_MODEL_REVISION,
+    EmbeddingCacheError,
+    build_embedding_cache,
+    load_embedding_cache,
+    write_embedding_cache,
+)
 from .engine import CatalogError, GenerationError, generate_card, load_catalog
 from .experiment import ExperimentError, load_experiment_config, run_comparison
 
 
 DEFAULT_CATALOG = Path(__file__).parents[1] / "data" / "catalog.json"
 DEFAULT_EXPERIMENT = Path(__file__).parents[1] / "data" / "experiment.json"
+DEFAULT_EMBEDDING_CACHE = Path(__file__).parents[1] / "data" / "embedding-cache.json"
 
 
 def main() -> int:
@@ -35,7 +44,21 @@ def main() -> int:
         help="Run the deterministic 48-input semantic-physics comparison.",
     )
     compare_parser.add_argument("--experiment", type=Path, default=DEFAULT_EXPERIMENT)
+    compare_parser.add_argument(
+        "--embedding-cache",
+        type=Path,
+        default=DEFAULT_EMBEDDING_CACHE,
+    )
+    compare_parser.add_argument("--manual-only", action="store_true")
     compare_parser.add_argument("--output", type=Path)
+    build_parser = subparsers.add_parser(
+        "build-embeddings",
+        help="Build a pinned offline embedding cache.",
+    )
+    build_parser.add_argument("--experiment", type=Path, default=DEFAULT_EXPERIMENT)
+    build_parser.add_argument("--output", type=Path, default=DEFAULT_EMBEDDING_CACHE)
+    build_parser.add_argument("--model-id", default=DEFAULT_MODEL_ID)
+    build_parser.add_argument("--revision", default=DEFAULT_MODEL_REVISION)
     args = parser.parse_args()
 
     try:
@@ -61,7 +84,27 @@ def main() -> int:
             print(json.dumps(card, ensure_ascii=False, indent=2, sort_keys=True))
             return 0
         config = load_experiment_config(args.experiment)
-        report = run_comparison(config)
+        if args.command == "build-embeddings":
+            payload = build_embedding_cache(
+                config,
+                model_id=args.model_id,
+                model_revision=args.revision,
+            )
+            write_embedding_cache(args.output, payload)
+            print(
+                "OK "
+                f"model={payload['model']['id']} "
+                f"revision={payload['model']['revision']} "
+                f"entries={len(payload['entries'])} "
+                f"dimension={payload['model']['dimension']} "
+                f"digest={payload['digest']} "
+                f"output={args.output}"
+            )
+            return 0
+        embedding_cache = None
+        if not args.manual_only:
+            embedding_cache = load_embedding_cache(args.embedding_cache, config)
+        report = run_comparison(config, embedding_cache)
         if args.output is None:
             print(json.dumps(report, ensure_ascii=False, indent=2, sort_keys=True))
             return 0
@@ -85,6 +128,7 @@ def main() -> int:
         return 0
     except (
         CatalogError,
+        EmbeddingCacheError,
         ExperimentError,
         GenerationError,
         OSError,

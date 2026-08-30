@@ -20,14 +20,22 @@ This document records the technical architecture of the isolated engine experime
 - Bounded: only whitelisted effect operations can enter `card-ir-v0`.
 - Offline: no model call or arbitrary generated code is executed during comparison or runtime.
 - Replaceable substrate: a later pinned embedding model can replace frozen vectors without changing the assignment or IR contracts.
+- Rebuildable cache: model identity, exact revision, license, text templates, source hashes and build-library versions are retained.
 
 ## Implemented Pipeline
 
 ```text
-data/experiment.json
+data/experiment.json -> canonical semantic texts
+  -> explicit build-embeddings command
+  -> pinned SentenceTransformer revision
+  -> normalized embedding-cache.json
+                                      |
+                                      v
+data/experiment.json ----------------+
   -> canonical 48-input matrix
   -> discrete state dynamics ---------+
-  -> role-aware frozen-vector field --+-> semantic candidates
+  -> manual frozen-vector field -------+-> semantic candidates
+  -> cached weighted/role/sentence ----+
                                       -> legal single/pair regions
                                       -> global capacity assignment
                                       -> card-ir-v0 or unmapped
@@ -67,7 +75,38 @@ Each route emits a common candidate containing a semantic vector, factorized eff
 
 ## Current Technology Choice
 
-The Embedding route currently reads six-dimensional frozen vectors from the versioned experiment catalog and applies role-specific diagonal transforms. This proves the continuous-space composition, boundary and capacity machinery without network access or model drift. It does not validate natural-language zero-shot understanding. A learned embedding model must be pinned, cached and evaluated against human judgments before that claim can be tested.
+The experiment retains the six-dimensional manual vector route as a control and adds a real multilingual SentenceTransformer cache. The model is `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`, revision `e8f8c211226b894fcb81acc59f3b34ba3efd5f42`, Apache-2.0. The build environment is optional; normal comparison and tests load only the committed JSON cache.
+
+## ADR-EXP-002: Pinned Offline Embedding Cache
+
+| Field | Decision |
+| --- | --- |
+| Status | `Accepted for EXP-002` |
+| Date | `2026-08-30` |
+| Source | User instruction to continue real Embedding integration |
+
+### Context
+
+Calling a hosted model during comparison would make reports depend on credentials, provider drift and network availability. Loading a local model during every game or test run would add a large runtime dependency and blur content production with deterministic execution. Artificial vectors alone cannot test whether language semantics transfer to unseen combinations.
+
+### Decision
+
+An explicit optional command loads one model at an exact repository revision with remote code disabled, encodes the complete versioned text manifest on CPU, and writes normalized vectors plus provenance to a content-addressed cache. Default comparison requires that cache and rejects missing, tampered or stale entries. `--manual-only` is the only explicit fallback.
+
+Three learned-vector compositions share the same cache and region publisher: neutral weighted average, role-qualified weighted average, and one structured combination sentence. None receives labeled combination answers.
+
+### Alternatives
+
+- Hosted embedding API: rejected for the experiment baseline because credentials and provider-side drift weaken reproducibility.
+- Runtime model loading: rejected because the released rules should remain lightweight, frozen and deterministic.
+- Replace manual vectors entirely: rejected because retaining them exposes how much apparent success came from hand-shaped geometry.
+
+### Consequences
+
+- A normal test run has no PyTorch, Transformers or network requirement.
+- Rebuilding needs the optional locked environment and model download; Windows without symlink support uses more cache space.
+- The committed cache is about 0.6 MB and the five-route report is larger than V0.
+- Model similarity is now real, but semantic correctness still requires blind human labels.
 
 ## Failure Modes
 
@@ -78,4 +117,6 @@ The Embedding route currently reads six-dimensional frozen vectors from the vers
 | Three effects leak into a card | Only single and compatible pair regions exist | Compatibility policy still requires player testing |
 | Numbers drift with semantic similarity | Value budget is independent of region distance | Budget values are placeholders, not balanced content |
 | Results change between runs | Canonical ordering, frozen data and SHA-256 digests | Cross-version migration is not implemented |
-| Frozen vectors appear more capable than they are | README and reports label them as a substrate | A real pinned model and blind review are still required |
+| Model or prompt silently changes | Exact revision, text hashes, cache digest and template version | Deliberate migrations need a new experiment version |
+| Cached model output appears semantically correct | Weighted, role and structured baselines are separated | Blind human review is still required |
+| Optional builder executes model repository code | `trust_remote_code=False` and an exact revision | Dependency supply-chain review remains an operational responsibility |
