@@ -1,0 +1,181 @@
+{
+  "version": "semantic-physics-exp-002-v0",
+  "effect_ops": ["damage", "shield", "heal", "cancel_intent"],
+  "region_policy": {
+    "minimum_score": 0.42,
+    "single_margin": 0.16,
+    "pair_margin": 0.12,
+    "maximum_projection_distance": 0.55,
+    "unmapped_penalty": 0.7,
+    "single_capacities": {
+      "damage": 9,
+      "shield": 9,
+      "heal": 9,
+      "cancel_intent": 9
+    },
+    "pair_capacities": {
+      "damage+shield": 2,
+      "damage+cancel_intent": 2,
+      "shield+heal": 2
+    }
+  },
+  "state_dimensions": [
+    "heat",
+    "motion",
+    "density",
+    "cohesion",
+    "vitality",
+    "radiance",
+    "entropy",
+    "conductivity"
+  ],
+  "embedding_dimensions": [
+    "force",
+    "structure",
+    "renewal",
+    "disruption",
+    "energy",
+    "flow"
+  ],
+  "embedding_role_weights": {
+    "concept": 0.6,
+    "action": 0.28,
+    "core": 0.12
+  },
+  "embedding_role_scales": {
+    "concept": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+    "action": [1.15, 1.05, 0.85, 1.15, 1.0, 0.95],
+    "core": [1.1, 1.2, 1.0, 1.1, 0.9, 0.8]
+  },
+  "effect_prototypes": {
+    "damage": [1.0, 0.1, 0.0, 0.35, 0.8, 0.4],
+    "shield": [0.15, 1.0, 0.1, 0.1, 0.25, -0.1],
+    "heal": [0.0, 0.35, 1.0, -0.2, 0.4, 0.2],
+    "cancel_intent": [0.25, 0.2, -0.1, 1.0, 0.3, 0.65]
+  },
+  "dynamics_projection": {
+    "damage": {
+      "heat": 0.45,
+      "motion": 0.35,
+      "density": 0.15,
+      "entropy": 0.05
+    },
+    "shield": {
+      "density": 0.4,
+      "cohesion": 0.45,
+      "conductivity": 0.1,
+      "vitality": 0.05
+    },
+    "heal": {
+      "vitality": 0.55,
+      "radiance": 0.35,
+      "cohesion": 0.1
+    },
+    "cancel_intent": {
+      "entropy": 0.5,
+      "motion": 0.25,
+      "conductivity": 0.15,
+      "radiance": 0.1
+    }
+  },
+  "concepts": [
+    {
+      "id": "water",
+      "name": "水",
+      "potency": 4,
+      "state": {"heat": 0.1, "motion": 0.5, "density": 0.45, "cohesion": 0.55, "vitality": 0.45, "radiance": 0.15, "entropy": 0.25, "conductivity": 0.75},
+      "embedding": [0.2, 0.35, 0.45, 0.2, 0.2, 0.9]
+    },
+    {
+      "id": "fire",
+      "name": "火",
+      "potency": 5,
+      "state": {"heat": 1.0, "motion": 0.75, "density": 0.1, "cohesion": 0.05, "vitality": 0.1, "radiance": 0.75, "entropy": 0.65, "conductivity": 0.2},
+      "embedding": [0.9, 0.05, 0.05, 0.35, 1.0, 0.5]
+    },
+    {
+      "id": "air",
+      "name": "气",
+      "potency": 3,
+      "state": {"heat": 0.25, "motion": 0.9, "density": 0.05, "cohesion": 0.05, "vitality": 0.15, "radiance": 0.3, "entropy": 0.55, "conductivity": 0.1},
+      "embedding": [0.35, 0.1, 0.2, 0.55, 0.45, 0.95]
+    },
+    {
+      "id": "sand",
+      "name": "砂",
+      "potency": 4,
+      "state": {"heat": 0.35, "motion": 0.25, "density": 0.8, "cohesion": 0.65, "vitality": 0.05, "radiance": 0.1, "entropy": 0.35, "conductivity": 0.15},
+      "embedding": [0.45, 0.8, 0.05, 0.3, 0.15, 0.2]
+    },
+    {
+      "id": "light",
+      "name": "光",
+      "potency": 3,
+      "state": {"heat": 0.65, "motion": 0.85, "density": 0.05, "cohesion": 0.05, "vitality": 0.3, "radiance": 1.0, "entropy": 0.15, "conductivity": 0.35},
+      "embedding": [0.25, 0.3, 0.85, 0.1, 0.9, 0.65]
+    },
+    {
+      "id": "seed",
+      "name": "种",
+      "potency": 4,
+      "state": {"heat": 0.2, "motion": 0.1, "density": 0.55, "cohesion": 0.7, "vitality": 1.0, "radiance": 0.35, "entropy": 0.1, "conductivity": 0.25},
+      "embedding": [0.1, 0.45, 1.0, 0.05, 0.25, 0.2]
+    },
+    {
+      "id": "iron",
+      "name": "铁",
+      "potency": 5,
+      "state": {"heat": 0.3, "motion": 0.2, "density": 1.0, "cohesion": 0.95, "vitality": 0.05, "radiance": 0.15, "entropy": 0.1, "conductivity": 1.0},
+      "embedding": [0.65, 1.0, 0.05, 0.15, 0.35, 0.1]
+    },
+    {
+      "id": "shadow",
+      "name": "影",
+      "potency": 4,
+      "state": {"heat": 0.15, "motion": 0.55, "density": 0.1, "cohesion": 0.15, "vitality": 0.25, "radiance": 0.05, "entropy": 1.0, "conductivity": 0.25},
+      "embedding": [0.3, 0.15, 0.2, 1.0, 0.35, 0.65]
+    }
+  ],
+  "actions": [
+    {
+      "id": "compress",
+      "name": "压缩",
+      "potency": 2,
+      "state_scale": {"motion": 1.1, "density": 1.25, "cohesion": 1.15},
+      "state_delta": {"motion": 0.2, "density": 0.25, "entropy": -0.1},
+      "embedding": [0.9, 0.9, 0.0, 0.1, 0.3, -0.2]
+    },
+    {
+      "id": "disperse",
+      "name": "扩散",
+      "potency": 2,
+      "state_scale": {"motion": 1.15, "density": 0.65, "cohesion": 0.7, "entropy": 1.15},
+      "state_delta": {"motion": 0.2, "entropy": 0.25, "radiance": 0.05},
+      "embedding": [0.3, -0.2, 0.2, 0.7, 0.25, 1.0]
+    },
+    {
+      "id": "gather",
+      "name": "采集",
+      "potency": 1,
+      "state_scale": {"density": 1.1, "cohesion": 1.1, "vitality": 1.1, "radiance": 1.1},
+      "state_delta": {"density": 0.1, "cohesion": 0.15, "vitality": 0.1, "entropy": -0.05},
+      "embedding": [0.2, 0.5, 0.7, -0.1, 0.3, -0.3]
+    }
+  ],
+  "cores": [
+    {
+      "id": "hero",
+      "name": "豪杰",
+      "state_scale": {"heat": 1.15, "motion": 1.2, "cohesion": 0.9, "vitality": 0.9, "entropy": 1.05},
+      "state_delta": {},
+      "embedding": [0.8, -0.3, 0.0, -0.1, 0.4, 0.2]
+    },
+    {
+      "id": "crown",
+      "name": "王权",
+      "state_scale": {"heat": 0.9, "motion": 0.9, "density": 1.15, "cohesion": 1.25, "vitality": 1.05, "radiance": 1.05, "entropy": 0.9},
+      "state_delta": {},
+      "embedding": [-0.1, 0.9, 0.25, 0.4, 0.15, -0.1]
+    }
+  ]
+}

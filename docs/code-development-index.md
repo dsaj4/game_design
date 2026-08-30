@@ -68,7 +68,7 @@
 | --- | --- | --- | --- | --- | --- |
 | Godot 统一情境 Demo | [fantacy-breakdown-godot-demo](https://github.com/Winterwhite11/fantacy-breakdown-godot-demo) | [GDD-BATTLE-003](../game-design-workflow/gdd/GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md) | 统一情境最小验证原型 V0.1 | 2026-08-29，Godot 4.7.1、53 项自动检查与双状态截图 | `Verified` |
 | 战斗系统 003 确定性模拟器 | 本仓库 [`combat-lab/`](../combat-lab/README.md) | [GDD-BATTLE-003](../game-design-workflow/gdd/GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md) | 首期合成表与 PvE 胜率基线 | 2026-08-29，34 项测试与 30,000 局主基线 | `Verified` |
-| 语义卡牌生成引擎实验 | 本仓库 [`semantic-card-engine/`](../semantic-card-engine/README.md) | [有限卡牌语义物理素材](../game-design-workflow/idea-materials/M-2026-08-30-finite-semantic-card-physics.md)、[有限效果区域素材](../game-design-workflow/idea-materials/M-2026-08-30-bounded-semantic-effect-regions.md) | 确定性语义推演 MVP；两条底层路线待并列验证 | 2026-08-30，效果数量、容量与 `Unmapped` 边界已通过素材资格闸门 | `Verified MVP / Planned Exploration` |
+| 语义卡牌生成引擎实验 | 本仓库 [`semantic-card-engine/`](../semantic-card-engine/README.md) | [有限卡牌语义物理素材](../game-design-workflow/idea-materials/M-2026-08-30-finite-semantic-card-physics.md)、[有限效果区域素材](../game-design-workflow/idea-materials/M-2026-08-30-bounded-semantic-effect-regions.md) | 48 组合离散动力学与冻结向量并列实验 V0；人工语义评审待办 | 2026-08-30，19 项测试；96 条结果与容量约束报告 | `Verified` |
 | 成语组合模拟器 | 本仓库历史 `combat-lab/` | `GDD-BATTLE-001` | 旧战斗对照证据 | 2026-08-22 归档判断 | `Parked` |
 
 ## 语义卡牌生成引擎实验
@@ -80,6 +80,8 @@
 - 合格设计素材：[有限、确定且可学习的卡牌语义物理](../game-design-workflow/idea-materials/M-2026-08-30-finite-semantic-card-physics.md)
 - 合格设计约束：[有限效果区域与可拒绝合成](../game-design-workflow/idea-materials/M-2026-08-30-bounded-semantic-effect-regions.md)
 - 技术路线比较：[离散语义动力学与 Embedding 语义效果场](../semantic-card-engine/EXPLORATION-DIRECTIONS.md)
+- 技术架构与实验决策：[Semantic Card Engine Architecture](../semantic-card-engine/ARCHITECTURE.md)
+- 最新完整证据：[EXP-002 V0 比较报告](../semantic-card-engine/reports/semantic-physics-exp-002.json)
 - 当前只验证“概念 + 动作 + 核心镜片”能否编译成确定、可审计的卡牌 IR；没有接入真实 AI、Godot 或正式卡池。
 - 上位语义物理和有限效果区域约束都已通过资格闸门，状态为 `Qualified GDD Material / Hypothesis`；Embedding 作为底层技术载体仍是待验证的技术假设。技术实现通过不代表玩法可行性、GDD 或核心构思已经采纳。
 
@@ -88,7 +90,7 @@
 | 里程碑 | 范围 | 状态 | 证据 | 下一步 |
 | --- | --- | --- | --- | --- |
 | `SEMANTIC-CARD-MVP-001` | 声明式概念目录、单调前向推演、核心镜片、预算守恒、规范化 IR 与内容哈希 | `Verified` | 9 项 pytest；`validate`/`generate` CLI；Python 编译检查 | 与 `combat-lab` 和 Godot 的效果字段统一为共享 IR |
-| `SEMANTIC-PHYSICS-EXP-002` | 离散语义动力学与 Embedding 语义效果场使用同一 48 组合输入、效果 IR 和评测指标 | `Planned` | 效果计数、区域容量、最大投影距离和 `Unmapped` 策略已完成资格确认；[探索方向文档](../semantic-card-engine/EXPLORATION-DIRECTIONS.md) | 实现 48 组合并列原型，测量语义一致率、拒绝率、分布和玩家预测率 |
+| `SEMANTIC-PHYSICS-EXP-002` | 离散语义动力学与 Embedding 语义效果场使用同一 48 组合输入、效果 IR 和评测指标 | `Verified` | 19 项 pytest；两条路线各 48 条结果；离散路线映射 39/48、冻结向量路线映射 41/48；效果数、兼容矩阵、预算、容量、投影距离和确定性均通过自动检查 | 接入固定真实 Embedding，补加权平均/结构化句基线，再做盲态人工语义与玩家预测评审 |
 
 ### 已知技术边界
 
@@ -99,6 +101,8 @@
 | 数值与平衡 | 概念强度直接形成临时预算 | 接入正式内容前增加价值预算扫描和批量战斗验证 |
 | 客户端接入 | 输出独立 `card-ir-v0` JSON | 先解决 Godot 单效果字段与 `combat-lab` 多效果列表的差异 |
 | 生成时机 | 不允许战斗运行时临场修改规律 | 首轮限定为离线内容生产/发布前验证；更细的产品时点在原型通过后再决定 |
+| Embedding 载体 | V0 使用目录内六维人工冻结向量和角色变换 | 只证明连续空间、边界和容量分配可执行；不得据此声称真实模型具有零样本语义理解 |
+| 区域分配 | 全批次最小代价分配；合法距离外不可入区，容量不足时输出 `unmapped` | 尚未实现向已发布内容版本增量加入卡牌时的持久分配与迁移策略 |
 
 ## 战斗系统 003 确定性模拟器
 

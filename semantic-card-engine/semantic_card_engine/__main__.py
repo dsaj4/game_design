@@ -6,9 +6,11 @@ from pathlib import Path
 import sys
 
 from .engine import CatalogError, GenerationError, generate_card, load_catalog
+from .experiment import ExperimentError, load_experiment_config, run_comparison
 
 
 DEFAULT_CATALOG = Path(__file__).parents[1] / "data" / "catalog.json"
+DEFAULT_EXPERIMENT = Path(__file__).parents[1] / "data" / "experiment.json"
 
 
 def main() -> int:
@@ -28,11 +30,17 @@ def main() -> int:
     generate_parser.add_argument("--concept", action="append", required=True)
     generate_parser.add_argument("--action", action="append", default=[])
     generate_parser.add_argument("--core", default="neutral")
+    compare_parser = subparsers.add_parser(
+        "compare",
+        help="Run the deterministic 48-input semantic-physics comparison.",
+    )
+    compare_parser.add_argument("--experiment", type=Path, default=DEFAULT_EXPERIMENT)
+    compare_parser.add_argument("--output", type=Path)
     args = parser.parse_args()
 
     try:
-        catalog = load_catalog(args.catalog)
         if args.command == "validate":
+            catalog = load_catalog(args.catalog)
             print(
                 "OK "
                 f"version={catalog.version} "
@@ -42,15 +50,46 @@ def main() -> int:
                 f"cores={len(catalog.cores)}"
             )
             return 0
-        card = generate_card(
-            catalog,
-            concept_ids=args.concept,
-            action_ids=args.action,
-            core_id=args.core,
+        if args.command == "generate":
+            catalog = load_catalog(args.catalog)
+            card = generate_card(
+                catalog,
+                concept_ids=args.concept,
+                action_ids=args.action,
+                core_id=args.core,
+            )
+            print(json.dumps(card, ensure_ascii=False, indent=2, sort_keys=True))
+            return 0
+        config = load_experiment_config(args.experiment)
+        report = run_comparison(config)
+        if args.output is None:
+            print(json.dumps(report, ensure_ascii=False, indent=2, sort_keys=True))
+            return 0
+        args.output.parent.mkdir(parents=True, exist_ok=True)
+        args.output.write_text(
+            json.dumps(report, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+            encoding="utf-8",
+            newline="\n",
         )
-        print(json.dumps(card, ensure_ascii=False, indent=2, sort_keys=True))
+        route_summaries = {
+            route: payload["summary"] for route, payload in report["routes"].items()
+        }
+        print(
+            "OK "
+            f"version={config.version} "
+            f"inputs={report['input_count']} "
+            f"digest={report['digest']} "
+            f"output={args.output}"
+        )
+        print(json.dumps(route_summaries, ensure_ascii=False, sort_keys=True))
         return 0
-    except (CatalogError, GenerationError, OSError, json.JSONDecodeError) as error:
+    except (
+        CatalogError,
+        ExperimentError,
+        GenerationError,
+        OSError,
+        json.JSONDecodeError,
+    ) as error:
         parser.exit(2, f"error: {error}\n")
 
 

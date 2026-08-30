@@ -4,6 +4,8 @@
 
 This document records technical exploration paths. It is not a GDD, does not change accepted gameplay, and does not make either path production-ready.
 
+Implementation status: `EXP-002 V0 Implemented / Human Semantic Review Pending`.
+
 Design material: [finite semantic card physics](../game-design-workflow/idea-materials/M-2026-08-30-finite-semantic-card-physics.md).
 
 Effect-region design material: [bounded semantic effect regions](../game-design-workflow/idea-materials/M-2026-08-30-bounded-semantic-effect-regions.md).
@@ -93,6 +95,17 @@ Both paths should receive the same structured inputs and emit the same validated
 - Evidence: retain every input, engine/model version, intermediate trace or similarity scores, source and assigned regions, projection distance, capacity state, rejection reason and final IR.
 
 Path B should compare three composition baselines: weighted vector average, role-aware transforms and a fixed structured-sentence embedding. Direct nearest-effect mapping is a baseline, not the recommended architecture.
+
+### V0 Implementation Snapshot
+
+- The canonical input matrix now contains 8 concepts, 3 actions and 2 cores, producing 48 inputs per route.
+- Path A applies generic state scaling/deltas and projects final state channels into effect scores; it contains no combination-specific entries.
+- Path B currently uses versioned six-dimensional frozen vectors with role-specific diagonal transforms. This validates the field and allocator, not learned-language zero-shot quality.
+- A shared minimum-cost batch assignment allocates candidates to capacity-limited single/pair regions or `unmapped`.
+- The committed report retains all 96 results and deterministic digests.
+- Automated checks cover input count, repeatability, region capacity, projection threshold, compatible pairs, one/two-effect limits, budget conservation and CLI report output.
+
+The weighted-average and structured-sentence Embedding baselines, a real pinned model, paraphrase inputs and blind human semantic ratings remain unimplemented.
 
 ## Recorded Direction
 
