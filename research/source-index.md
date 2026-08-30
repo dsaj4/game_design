@@ -14,6 +14,7 @@
 
 ## 游戏设计理论与学习方法
 
+- 飞书“游戏设计系统课程”逐字稿资料包：[本地资料包入口](01-theory-library/feishu-game-design-system-transcripts-2026-08-30/README.md)（237 条课程记录，235 个唯一视频，233 份逐字稿，2026-08-30）
 - MDA: A Formal Approach to Game Design and Game Research：https://aaai.org/papers/ws04-04-001-mda-a-formal-approach-to-game-design-and-game-research/
 - Game Design Workshop, Routledge 5th edition page：https://www.routledge.com/Game-Design-Workshop-A-Playcentric-Approach-to-Creating-Innovative-Games/Fullerton/p/book/9781032607009
 - Game Design Workshop, Routledge official Chapter 1 sample：https://www.routledge.com/rsc/downloads/Game_Design_Workshop_Chapter_1.pdf
