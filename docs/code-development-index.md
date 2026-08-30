@@ -66,7 +66,7 @@
 
 | 项目 | 仓库 | 关联设计 | 当前阶段 | 最近验证 | 状态 |
 | --- | --- | --- | --- | --- | --- |
-| Godot 统一情境 Demo | [fantacy-breakdown-godot-demo](https://github.com/Winterwhite11/fantacy-breakdown-godot-demo) | [GDD-BATTLE-003](../game-design-workflow/gdd/GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md) | 统一情境最小验证原型 V0.1 | 2026-08-30，启动脚本实机验证、53 项自动检查与双状态截图 | `Verified` |
+| Godot 统一情境 Demo | [fantacy-breakdown-godot-demo](https://github.com/Winterwhite11/fantacy-breakdown-godot-demo) | [GDD-BATTLE-003](../game-design-workflow/gdd/GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md) | 统一情境最小验证原型 V0.1 | 2026-08-30，双击启动验证、53 项自动检查与双状态截图 | `Verified` |
 | 战斗系统 003 确定性模拟器 | 本仓库 [`combat-lab/`](../combat-lab/README.md) | [GDD-BATTLE-003](../game-design-workflow/gdd/GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md) | 首期合成表与 PvE 胜率基线 | 2026-08-29，34 项测试与 30,000 局主基线 | `Verified` |
 | 语义卡牌生成引擎实验 | 本仓库 [`semantic-card-engine/`](../semantic-card-engine/README.md) | [有限卡牌语义物理素材](../game-design-workflow/idea-materials/M-2026-08-30-finite-semantic-card-physics.md)、[有限效果区域素材](../game-design-workflow/idea-materials/M-2026-08-30-bounded-semantic-effect-regions.md) | 固定真实 Embedding 的五路线 48 组合实验 V1；人工语义评审待办 | 2026-08-30，32 项测试；240 条结果与容量约束报告 | `Verified` |
 | 成语组合模拟器 | 本仓库历史 `combat-lab/` | `GDD-BATTLE-001` | 旧战斗对照证据 | 2026-08-22 归档判断 | `Parked` |
@@ -130,20 +130,21 @@
 
 - 仓库：https://github.com/Winterwhite11/fantacy-breakdown-godot-demo
 - 快速开始：仓库 `README.md`
-- Windows 启动脚本：仓库 `start-demo.ps1`；已使用 Godot 4.7.1 实机启动验证
+- Windows 双击入口：仓库 `start-demo.cmd`；不依赖 `.ps1` 文件关联或快捷方式起始目录
+- PowerShell 启动脚本：仓库 `start-demo.ps1`
 - 玩家操作与验收：仓库 `docs/USAGE.md`
 - 真人测试记录：仓库 `docs/TESTING.md`
 - 技术架构与扩展方式：仓库 `docs/ARCHITECTURE.md`
 - 设计来源：[GDD-BATTLE-003](../game-design-workflow/gdd/GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md)
 - 当前实现分支：`codex/2026-08-29-gdd-battle-003-demo`
-- 当前本地提交：`f24176f Add Windows demo launcher`
-- 远端同步：`Blocked`；2026-08-29 当前 GitHub 凭据 `dsaj4` 向 `Winterwhite11/fantacy-breakdown-godot-demo` 推送时返回 `403`
+- 当前本地提交：`615e4bf Fix Windows double-click demo launcher`
+- 远端同步：`Blocked`；2026-08-30 当前 GitHub 凭据 `dsaj4` 向 `Winterwhite11/fantacy-breakdown-godot-demo` 推送时返回 `403`
 
 ### 当前开发里程碑
 
 | 里程碑 | 范围 | 状态 | 证据 | 下一步 |
 | --- | --- | --- | --- | --- |
-| `B003-DEMO-V0.1` | 5 基础字素、3 行动卡、两张核心卡、两事件、3 环境对象、特殊状态战斗、分解与补充的完整路线 | `Verified` | 本地提交 `f24176f`；`start-demo.ps1` 已实机启动；固定首手可自动走完全流程 | 取得仓库推送权限并发布远端分支 |
+| `B003-DEMO-V0.1` | 5 基础字素、3 行动卡、两张核心卡、两事件、3 环境对象、特殊状态战斗、分解与补充的完整路线 | `Verified` | 本地提交 `615e4bf`；`start-demo.cmd` 从错误工作目录双击启动成功；固定首手可自动走完全流程 | 取得仓库推送权限并发布远端分支 |
 | `B003-RULES-001` | 永久合成、行动复用、核心特有候选、上限替代、逐层分解、事件生命周期与回合边界 | `Verified` | Godot 4.7.1 headless，53 项规则与集成检查通过 | 将首轮真人观察与自动规则证据分开记录 |
 | `B003-UI-001` | 单页统一情境、相关性层级、双产物并列投影与测试指标 | `Verified` | 1440×900 与 1280×720 真实渲染；普通态和双候选合成态无重叠 | 用 5 名目标玩家验证信息密度与投影穷举 |
 | `B003-HUMAN-001` | H-001—H-005 真人体验测试 | `Planned` | 仓库 `docs/TESTING.md` 已建立记录协议 | 完成首轮 5 名目标玩家测试 |
@@ -169,7 +170,7 @@
 | 内容规模 | GDD 只规定最小原型下限 | 当前使用引导式固定路线和小型人工卡池 | 先完成 H-001—H-005，不据此推断正式内容量 |
 | 地图与失败回滚 | GDD 将地图生成排除，并把探索失败后的永久变化列为 `Unknown` | 主入口使用统一单页；战败可重开，本轮不裁决永久变化是否应回滚 | 串联正式地图前回到整体系统 GDD 决策 |
 | 投影测试 | 合成投影可无限试选，需测量穷举 | 当前记录投影次数、取消次数和决策时长，不限制试选 | 真人测试后判断是否需要调整信息或试选约束 |
-| 远端交付 | 代码仓库应有可拉取分支/提交 | 本地提交完整，当前账号无目标仓库写权限 | 由仓库所有者授权或提供可写远端后推送 `f24176f` |
+| 远端交付 | 代码仓库应有可拉取分支/提交 | 本地提交完整，当前账号无目标仓库写权限 | 由仓库所有者授权或提供可写远端后推送 `615e4bf` |
 
 ## 更新协议
 
