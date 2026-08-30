@@ -108,6 +108,12 @@ Three learned-vector compositions share the same cache and region publisher: neu
 - The committed cache is about 0.6 MB and the five-route report is larger than V0.
 - Model similarity is now real, but semantic correctness still requires blind human labels.
 
+## Human Review Boundary
+
+`build-review-pack` turns the committed V1 report into three public UTF-8 CSV files and one private key. Prediction is collected before any candidate is shown; semantic-fit rows hide route identity and internal scores; action-contrast rows group the three actions for an anonymous route, concept and core. A fixed seed makes every sample ID reproducible, while SHA-256 hashes in the private key authenticate the public files.
+
+The generator refuses to overwrite existing review files unless `--overwrite` is explicit. This protects partially completed ratings. The committed blank pack is an experiment instrument, not human evidence: no route can be accepted until ratings are collected, validated and decoded separately.
+
 ## Failure Modes
 
 | Failure | Current control | Remaining risk |
@@ -119,4 +125,6 @@ Three learned-vector compositions share the same cache and region publisher: neu
 | Results change between runs | Canonical ordering, frozen data and SHA-256 digests | Cross-version migration is not implemented |
 | Model or prompt silently changes | Exact revision, text hashes, cache digest and template version | Deliberate migrations need a new experiment version |
 | Cached model output appears semantically correct | Weighted, role and structured baselines are separated | Blind human review is still required |
+| Reviewers see candidate outputs before predicting | Prediction, semantic fit and action contrast are separate ordered files | Compliance still depends on the review facilitator |
+| Anonymous samples cannot be decoded or were modified | Private one-to-one key plus public-file hashes | The key must remain hidden until rating is complete |
 | Optional builder executes model repository code | `trust_remote_code=False` and an exact revision | Dependency supply-chain review remains an operational responsibility |

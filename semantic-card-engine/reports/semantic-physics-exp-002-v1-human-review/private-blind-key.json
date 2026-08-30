@@ -1,0 +1,3686 @@
+{
+  "action_groups": [
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "shadow",
+      "core_id": "crown",
+      "group_id": "A001",
+      "route": "manual_vector_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "water",
+      "core_id": "hero",
+      "group_id": "A002",
+      "route": "discrete_dynamics"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "shadow",
+      "core_id": "hero",
+      "group_id": "A003",
+      "route": "discrete_dynamics"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "water",
+      "core_id": "crown",
+      "group_id": "A004",
+      "route": "embedding_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "light",
+      "core_id": "crown",
+      "group_id": "A005",
+      "route": "embedding_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "iron",
+      "core_id": "hero",
+      "group_id": "A006",
+      "route": "embedding_weighted"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "sand",
+      "core_id": "crown",
+      "group_id": "A007",
+      "route": "embedding_weighted"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "light",
+      "core_id": "hero",
+      "group_id": "A008",
+      "route": "discrete_dynamics"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "water",
+      "core_id": "crown",
+      "group_id": "A009",
+      "route": "discrete_dynamics"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "light",
+      "core_id": "crown",
+      "group_id": "A010",
+      "route": "discrete_dynamics"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "shadow",
+      "core_id": "hero",
+      "group_id": "A011",
+      "route": "manual_vector_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "iron",
+      "core_id": "crown",
+      "group_id": "A012",
+      "route": "embedding_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "sand",
+      "core_id": "hero",
+      "group_id": "A013",
+      "route": "embedding_weighted"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "light",
+      "core_id": "hero",
+      "group_id": "A014",
+      "route": "embedding_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "fire",
+      "core_id": "hero",
+      "group_id": "A015",
+      "route": "embedding_weighted"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "seed",
+      "core_id": "hero",
+      "group_id": "A016",
+      "route": "embedding_structured"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "air",
+      "core_id": "crown",
+      "group_id": "A017",
+      "route": "embedding_structured"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "sand",
+      "core_id": "crown",
+      "group_id": "A018",
+      "route": "discrete_dynamics"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "sand",
+      "core_id": "crown",
+      "group_id": "A019",
+      "route": "embedding_structured"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "fire",
+      "core_id": "crown",
+      "group_id": "A020",
+      "route": "embedding_structured"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "sand",
+      "core_id": "hero",
+      "group_id": "A021",
+      "route": "discrete_dynamics"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "seed",
+      "core_id": "hero",
+      "group_id": "A022",
+      "route": "manual_vector_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "air",
+      "core_id": "hero",
+      "group_id": "A023",
+      "route": "embedding_weighted"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "air",
+      "core_id": "crown",
+      "group_id": "A024",
+      "route": "discrete_dynamics"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "sand",
+      "core_id": "crown",
+      "group_id": "A025",
+      "route": "manual_vector_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "water",
+      "core_id": "crown",
+      "group_id": "A026",
+      "route": "embedding_weighted"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "iron",
+      "core_id": "crown",
+      "group_id": "A027",
+      "route": "manual_vector_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "seed",
+      "core_id": "crown",
+      "group_id": "A028",
+      "route": "discrete_dynamics"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "air",
+      "core_id": "crown",
+      "group_id": "A029",
+      "route": "embedding_weighted"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "seed",
+      "core_id": "hero",
+      "group_id": "A030",
+      "route": "embedding_weighted"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "iron",
+      "core_id": "crown",
+      "group_id": "A031",
+      "route": "embedding_weighted"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "seed",
+      "core_id": "crown",
+      "group_id": "A032",
+      "route": "manual_vector_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "light",
+      "core_id": "hero",
+      "group_id": "A033",
+      "route": "embedding_weighted"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "light",
+      "core_id": "crown",
+      "group_id": "A034",
+      "route": "manual_vector_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "iron",
+      "core_id": "hero",
+      "group_id": "A035",
+      "route": "embedding_structured"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "water",
+      "core_id": "hero",
+      "group_id": "A036",
+      "route": "embedding_structured"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "fire",
+      "core_id": "crown",
+      "group_id": "A037",
+      "route": "embedding_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "sand",
+      "core_id": "hero",
+      "group_id": "A038",
+      "route": "embedding_structured"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "water",
+      "core_id": "crown",
+      "group_id": "A039",
+      "route": "embedding_structured"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "seed",
+      "core_id": "hero",
+      "group_id": "A040",
+      "route": "discrete_dynamics"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "air",
+      "core_id": "hero",
+      "group_id": "A041",
+      "route": "manual_vector_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "shadow",
+      "core_id": "crown",
+      "group_id": "A042",
+      "route": "embedding_structured"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "iron",
+      "core_id": "crown",
+      "group_id": "A043",
+      "route": "embedding_structured"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "air",
+      "core_id": "hero",
+      "group_id": "A044",
+      "route": "discrete_dynamics"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "iron",
+      "core_id": "hero",
+      "group_id": "A045",
+      "route": "manual_vector_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "water",
+      "core_id": "hero",
+      "group_id": "A046",
+      "route": "manual_vector_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "fire",
+      "core_id": "hero",
+      "group_id": "A047",
+      "route": "manual_vector_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "light",
+      "core_id": "crown",
+      "group_id": "A048",
+      "route": "embedding_weighted"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "water",
+      "core_id": "crown",
+      "group_id": "A049",
+      "route": "manual_vector_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "air",
+      "core_id": "hero",
+      "group_id": "A050",
+      "route": "embedding_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "shadow",
+      "core_id": "hero",
+      "group_id": "A051",
+      "route": "embedding_weighted"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "seed",
+      "core_id": "hero",
+      "group_id": "A052",
+      "route": "embedding_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "fire",
+      "core_id": "crown",
+      "group_id": "A053",
+      "route": "embedding_weighted"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "iron",
+      "core_id": "hero",
+      "group_id": "A054",
+      "route": "embedding_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "light",
+      "core_id": "hero",
+      "group_id": "A055",
+      "route": "manual_vector_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "fire",
+      "core_id": "hero",
+      "group_id": "A056",
+      "route": "embedding_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "iron",
+      "core_id": "crown",
+      "group_id": "A057",
+      "route": "discrete_dynamics"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "water",
+      "core_id": "hero",
+      "group_id": "A058",
+      "route": "embedding_weighted"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "seed",
+      "core_id": "crown",
+      "group_id": "A059",
+      "route": "embedding_weighted"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "shadow",
+      "core_id": "crown",
+      "group_id": "A060",
+      "route": "discrete_dynamics"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "air",
+      "core_id": "crown",
+      "group_id": "A061",
+      "route": "embedding_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "water",
+      "core_id": "hero",
+      "group_id": "A062",
+      "route": "embedding_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "fire",
+      "core_id": "hero",
+      "group_id": "A063",
+      "route": "embedding_structured"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "air",
+      "core_id": "hero",
+      "group_id": "A064",
+      "route": "embedding_structured"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "seed",
+      "core_id": "crown",
+      "group_id": "A065",
+      "route": "embedding_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "shadow",
+      "core_id": "hero",
+      "group_id": "A066",
+      "route": "embedding_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "air",
+      "core_id": "crown",
+      "group_id": "A067",
+      "route": "manual_vector_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "light",
+      "core_id": "hero",
+      "group_id": "A068",
+      "route": "embedding_structured"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "fire",
+      "core_id": "crown",
+      "group_id": "A069",
+      "route": "discrete_dynamics"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "seed",
+      "core_id": "crown",
+      "group_id": "A070",
+      "route": "embedding_structured"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "shadow",
+      "core_id": "hero",
+      "group_id": "A071",
+      "route": "embedding_structured"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "sand",
+      "core_id": "crown",
+      "group_id": "A072",
+      "route": "embedding_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "fire",
+      "core_id": "crown",
+      "group_id": "A073",
+      "route": "manual_vector_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "sand",
+      "core_id": "hero",
+      "group_id": "A074",
+      "route": "manual_vector_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "shadow",
+      "core_id": "crown",
+      "group_id": "A075",
+      "route": "embedding_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "sand",
+      "core_id": "hero",
+      "group_id": "A076",
+      "route": "embedding_role_aware"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "shadow",
+      "core_id": "crown",
+      "group_id": "A077",
+      "route": "embedding_weighted"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "light",
+      "core_id": "crown",
+      "group_id": "A078",
+      "route": "embedding_structured"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "fire",
+      "core_id": "hero",
+      "group_id": "A079",
+      "route": "discrete_dynamics"
+    },
+    {
+      "action_ids": [
+        "compress",
+        "disperse",
+        "gather"
+      ],
+      "concept_id": "iron",
+      "core_id": "hero",
+      "group_id": "A080",
+      "route": "discrete_dynamics"
+    }
+  ],
+  "digest": "273837a7f9d89d8d20079d36579098bc10ced197bf01b5017bd0e6bb47728b98",
+  "prediction_samples": [
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "water",
+        "core_id": "crown"
+      },
+      "sample_id": "P001"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "shadow",
+        "core_id": "hero"
+      },
+      "sample_id": "P002"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "water",
+        "core_id": "hero"
+      },
+      "sample_id": "P003"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "fire",
+        "core_id": "crown"
+      },
+      "sample_id": "P004"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "iron",
+        "core_id": "crown"
+      },
+      "sample_id": "P005"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "iron",
+        "core_id": "crown"
+      },
+      "sample_id": "P006"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "water",
+        "core_id": "crown"
+      },
+      "sample_id": "P007"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "water",
+        "core_id": "hero"
+      },
+      "sample_id": "P008"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "water",
+        "core_id": "hero"
+      },
+      "sample_id": "P009"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "iron",
+        "core_id": "hero"
+      },
+      "sample_id": "P010"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "air",
+        "core_id": "crown"
+      },
+      "sample_id": "P011"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "shadow",
+        "core_id": "crown"
+      },
+      "sample_id": "P012"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "shadow",
+        "core_id": "crown"
+      },
+      "sample_id": "P013"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "sand",
+        "core_id": "hero"
+      },
+      "sample_id": "P014"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "seed",
+        "core_id": "hero"
+      },
+      "sample_id": "P015"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "light",
+        "core_id": "crown"
+      },
+      "sample_id": "P016"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "light",
+        "core_id": "hero"
+      },
+      "sample_id": "P017"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "light",
+        "core_id": "hero"
+      },
+      "sample_id": "P018"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "fire",
+        "core_id": "crown"
+      },
+      "sample_id": "P019"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "fire",
+        "core_id": "hero"
+      },
+      "sample_id": "P020"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "sand",
+        "core_id": "crown"
+      },
+      "sample_id": "P021"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "seed",
+        "core_id": "crown"
+      },
+      "sample_id": "P022"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "sand",
+        "core_id": "crown"
+      },
+      "sample_id": "P023"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "seed",
+        "core_id": "crown"
+      },
+      "sample_id": "P024"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "air",
+        "core_id": "hero"
+      },
+      "sample_id": "P025"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "sand",
+        "core_id": "crown"
+      },
+      "sample_id": "P026"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "light",
+        "core_id": "hero"
+      },
+      "sample_id": "P027"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "air",
+        "core_id": "crown"
+      },
+      "sample_id": "P028"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "fire",
+        "core_id": "hero"
+      },
+      "sample_id": "P029"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "iron",
+        "core_id": "hero"
+      },
+      "sample_id": "P030"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "sand",
+        "core_id": "hero"
+      },
+      "sample_id": "P031"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "fire",
+        "core_id": "hero"
+      },
+      "sample_id": "P032"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "shadow",
+        "core_id": "crown"
+      },
+      "sample_id": "P033"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "seed",
+        "core_id": "hero"
+      },
+      "sample_id": "P034"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "seed",
+        "core_id": "hero"
+      },
+      "sample_id": "P035"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "iron",
+        "core_id": "hero"
+      },
+      "sample_id": "P036"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "air",
+        "core_id": "hero"
+      },
+      "sample_id": "P037"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "light",
+        "core_id": "crown"
+      },
+      "sample_id": "P038"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "shadow",
+        "core_id": "hero"
+      },
+      "sample_id": "P039"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "light",
+        "core_id": "crown"
+      },
+      "sample_id": "P040"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "shadow",
+        "core_id": "hero"
+      },
+      "sample_id": "P041"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "seed",
+        "core_id": "crown"
+      },
+      "sample_id": "P042"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "air",
+        "core_id": "crown"
+      },
+      "sample_id": "P043"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "water",
+        "core_id": "crown"
+      },
+      "sample_id": "P044"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "fire",
+        "core_id": "crown"
+      },
+      "sample_id": "P045"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "sand",
+        "core_id": "hero"
+      },
+      "sample_id": "P046"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "iron",
+        "core_id": "crown"
+      },
+      "sample_id": "P047"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "air",
+        "core_id": "hero"
+      },
+      "sample_id": "P048"
+    }
+  ],
+  "public_file_sha256": {
+    "01-prediction.csv": "23f2fe7a39231ca66a664495b91a864f60151408bbc4713474b7cb94de386178",
+    "02-semantic-fit.csv": "03d2235bb55a85f023ceea4e53f0dcb024d26e7742530804b50277c177cc2c49",
+    "03-action-contrast.csv": "f7b0b81cc8420a61abcf256ece7b5d335edfa90cf0d4c6fb5098c70ba717de38",
+    "README.md": "8dcfc3e25ec5c75c19f106ca6e6e43eff3136684086ea4cff9fffd9ab0637b42"
+  },
+  "schema_version": "semantic-physics-human-review-v0",
+  "seed": 20260830,
+  "semantic_samples": [
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "fire",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S001",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "shadow",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S002",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "iron",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S003",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "iron",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S004",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "seed",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S005",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "fire",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S006",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "fire",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S007",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "water",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S008",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "iron",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S009",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "shadow",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S010",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "seed",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S011",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "light",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S012",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "iron",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S013",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "light",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S014",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "sand",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S015",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "fire",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S016",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "air",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S017",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "light",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S018",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "seed",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S019",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "water",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S020",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "air",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S021",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "shadow",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S022",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "water",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S023",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "seed",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S024",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "iron",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S025",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "sand",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S026",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "water",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S027",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "light",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S028",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "water",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S029",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "sand",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S030",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "seed",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S031",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "light",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S032",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "iron",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S033",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "sand",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S034",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "shadow",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S035",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "water",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S036",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "air",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S037",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "sand",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S038",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "air",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S039",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "water",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S040",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "seed",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S041",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "sand",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S042",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "water",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S043",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "light",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S044",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "seed",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S045",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "shadow",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S046",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "seed",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S047",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "iron",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S048",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "air",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S049",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "iron",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S050",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "shadow",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S051",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "water",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S052",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "iron",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S053",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "light",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S054",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "fire",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S055",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "water",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S056",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "fire",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S057",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "iron",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S058",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "light",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S059",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "iron",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S060",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "seed",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S061",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "seed",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S062",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "fire",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S063",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "light",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S064",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "shadow",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S065",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "water",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S066",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "seed",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S067",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "seed",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S068",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "fire",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S069",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "light",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S070",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "water",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S071",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "sand",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S072",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "light",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S073",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "iron",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S074",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "fire",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S075",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "fire",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S076",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "sand",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S077",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "light",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S078",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "seed",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S079",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "iron",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S080",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "shadow",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S081",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "iron",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S082",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "light",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S083",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "water",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S084",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "seed",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S085",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "light",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S086",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "sand",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S087",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "shadow",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S088",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "iron",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S089",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "shadow",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S090",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "seed",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S091",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "iron",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S092",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "air",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S093",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "water",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S094",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "air",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S095",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "shadow",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S096",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "air",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S097",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "sand",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S098",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "shadow",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S099",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "light",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S100",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "sand",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S101",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "fire",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S102",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "light",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S103",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "iron",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S104",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "fire",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S105",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "air",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S106",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "air",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S107",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "air",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S108",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "sand",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S109",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "sand",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S110",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "sand",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S111",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "light",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S112",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "iron",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S113",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "sand",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S114",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "light",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S115",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "seed",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S116",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "water",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S117",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "iron",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S118",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "air",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S119",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "fire",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S120",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "water",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S121",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "sand",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S122",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "light",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S123",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "sand",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S124",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "iron",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S125",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "shadow",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S126",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "iron",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S127",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "sand",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S128",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "shadow",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S129",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "sand",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S130",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "light",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S131",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "seed",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S132",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "shadow",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S133",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "seed",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S134",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "water",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S135",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "light",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S136",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "air",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S137",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "fire",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S138",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "shadow",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S139",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "iron",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S140",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "shadow",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S141",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "sand",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S142",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "air",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S143",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "seed",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S144",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "water",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S145",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "shadow",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S146",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "air",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S147",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "sand",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S148",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "light",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S149",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "fire",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S150",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "light",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S151",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "fire",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S152",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "water",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S153",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "shadow",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S154",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "fire",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S155",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "water",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S156",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "shadow",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S157",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "fire",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S158",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "shadow",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S159",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "air",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S160",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "water",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S161",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "shadow",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S162",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "light",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S163",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "fire",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S164",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "shadow",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S165",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "air",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S166",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "shadow",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S167",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "air",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S168",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "air",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S169",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "air",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S170",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "iron",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S171",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "light",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S172",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "shadow",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S173",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "iron",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S174",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "seed",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S175",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "air",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S176",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "sand",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S177",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "light",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S178",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "air",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S179",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "light",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S180",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "iron",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S181",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "iron",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S182",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "shadow",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S183",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "sand",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S184",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "seed",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S185",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "light",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S186",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "air",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S187",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "air",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S188",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "sand",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S189",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "seed",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S190",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "water",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S191",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "fire",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S192",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "shadow",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S193",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "sand",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S194",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "water",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S195",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "seed",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S196",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "iron",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S197",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "fire",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S198",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "shadow",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S199",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "air",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S200",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "seed",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S201",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "shadow",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S202",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "seed",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S203",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "seed",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S204",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "fire",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S205",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "water",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S206",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "seed",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S207",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "shadow",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S208",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "sand",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S209",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "fire",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S210",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "iron",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S211",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "fire",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S212",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "fire",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S213",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "air",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S214",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "sand",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S215",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "water",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S216",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "water",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S217",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "fire",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S218",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "water",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S219",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "sand",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S220",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "sand",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S221",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "iron",
+        "core_id": "hero"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S222",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "air",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S223",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "water",
+        "core_id": "crown"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S224",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "air",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S225",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "seed",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S226",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "air",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S227",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "water",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S228",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "seed",
+        "core_id": "hero"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S229",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "light",
+        "core_id": "hero"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S230",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "seed",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S231",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "fire",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S232",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "sand",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S233",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "fire",
+        "core_id": "hero"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S234",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "light",
+        "core_id": "crown"
+      },
+      "route": "discrete_dynamics",
+      "sample_id": "S235",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "fire",
+        "core_id": "crown"
+      },
+      "route": "manual_vector_role_aware",
+      "sample_id": "S236",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "air",
+        "core_id": "hero"
+      },
+      "route": "embedding_weighted",
+      "sample_id": "S237",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "disperse",
+        "concept_id": "water",
+        "core_id": "crown"
+      },
+      "route": "embedding_role_aware",
+      "sample_id": "S238",
+      "status": "unmapped"
+    },
+    {
+      "input": {
+        "action_id": "compress",
+        "concept_id": "fire",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S239",
+      "status": "mapped"
+    },
+    {
+      "input": {
+        "action_id": "gather",
+        "concept_id": "iron",
+        "core_id": "crown"
+      },
+      "route": "embedding_structured",
+      "sample_id": "S240",
+      "status": "unmapped"
+    }
+  ],
+  "source_report": {
+    "digest": "c3c85fbf77d0a8a86e3e84778e0aaf9d89227463712673112110fb9403931029",
+    "experiment_version": "semantic-physics-exp-002-v1",
+    "schema_version": "semantic-physics-comparison-v1"
+  }
+}

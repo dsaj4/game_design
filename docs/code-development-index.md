@@ -68,7 +68,7 @@
 | --- | --- | --- | --- | --- | --- |
 | Godot 统一情境 Demo | [fantacy-breakdown-godot-demo](https://github.com/Winterwhite11/fantacy-breakdown-godot-demo) | [GDD-BATTLE-003](../game-design-workflow/gdd/GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md) | 统一情境最小验证原型 V0.1 | 2026-08-30，双击启动验证、53 项自动检查与双状态截图 | `Verified` |
 | 战斗系统 003 确定性模拟器 | 本仓库 [`combat-lab/`](../combat-lab/README.md) | [GDD-BATTLE-003](../game-design-workflow/gdd/GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md) | 首期合成表与 PvE 胜率基线 | 2026-08-29，34 项测试与 30,000 局主基线 | `Verified` |
-| 语义卡牌生成引擎实验 | 本仓库 [`semantic-card-engine/`](../semantic-card-engine/README.md) | [有限卡牌语义物理素材](../game-design-workflow/idea-materials/M-2026-08-30-finite-semantic-card-physics.md)、[有限效果区域素材](../game-design-workflow/idea-materials/M-2026-08-30-bounded-semantic-effect-regions.md) | 固定真实 Embedding 的五路线 48 组合实验 V1；人工语义评审待办 | 2026-08-30，32 项测试；240 条结果与容量约束报告 | `Verified` |
+| 语义卡牌生成引擎实验 | 本仓库 [`semantic-card-engine/`](../semantic-card-engine/README.md) | [有限卡牌语义物理素材](../game-design-workflow/idea-materials/M-2026-08-30-finite-semantic-card-physics.md)、[有限效果区域素材](../game-design-workflow/idea-materials/M-2026-08-30-bounded-semantic-effect-regions.md) | 固定真实 Embedding 五路线 V1；盲态评审包已生成、人工填写待办 | 2026-08-30，37 项测试；240 条结果、48 条预测表与 80 组动作对照 | `Verified` |
 | 成语组合模拟器 | 本仓库历史 `combat-lab/` | `GDD-BATTLE-001` | 旧战斗对照证据 | 2026-08-22 归档判断 | `Parked` |
 
 ## 语义卡牌生成引擎实验
@@ -83,6 +83,7 @@
 - 技术架构与实验决策：[Semantic Card Engine Architecture](../semantic-card-engine/ARCHITECTURE.md)
 - 最新完整证据：[EXP-002 V1 比较报告](../semantic-card-engine/reports/semantic-physics-exp-002-v1.json)
 - 固定模型缓存：[Embedding Cache](../semantic-card-engine/data/embedding-cache.json)
+- 盲态人工评审包：[EXP-002 V1 Human Review](../semantic-card-engine/reports/semantic-physics-exp-002-v1-human-review/README.md)
 - 当前使用固定模型离线构建 Embedding 缓存，再验证“概念 + 动作 + 核心镜片”能否编译成确定、可审计的卡牌 IR；比较与运行时不调用模型，也没有接入 Godot 或正式卡池。
 - 上位语义物理和有限效果区域约束都已通过资格闸门，状态为 `Qualified GDD Material / Hypothesis`；Embedding 作为底层技术载体仍是待验证的技术假设。技术实现通过不代表玩法可行性、GDD 或核心构思已经采纳。
 
@@ -91,7 +92,7 @@
 | 里程碑 | 范围 | 状态 | 证据 | 下一步 |
 | --- | --- | --- | --- | --- |
 | `SEMANTIC-CARD-MVP-001` | 声明式概念目录、单调前向推演、核心镜片、预算守恒、规范化 IR 与内容哈希 | `Verified` | 9 项 pytest；`validate`/`generate` CLI；Python 编译检查 | 与 `combat-lab` 和 Godot 的效果字段统一为共享 IR |
-| `SEMANTIC-PHYSICS-EXP-002` | 离散动力学、人工向量与三种真实 Embedding 组合方式使用同一 48 输入、效果 IR 和评测指标 | `Verified` | 32 项 pytest；五路线共 240 条结果；真实向量加权平均/角色提示/结构化句分别映射 0/32/38；缓存完整性、效果数、兼容矩阵、预算、容量、投影距离和确定性通过自动检查 | 生成盲态人工评审表，加入同义改写、动作替换和第二模型对照 |
+| `SEMANTIC-PHYSICS-EXP-002` | 离散动力学、人工向量与三种真实 Embedding 组合方式使用同一 48 输入、效果 IR 和评测指标 | `Verified` | 37 项 pytest；五路线共 240 条结果；固定种子生成 48 条预测、240 条匿名评分和 80 组动作对照；公开表无路线泄露且可由私钥一一解盲 | 至少 3 名评审者完成盲评，再加入同义改写、动作替换和第二模型对照 |
 
 ### 已知技术边界
 
@@ -102,7 +103,7 @@
 | 数值与平衡 | 概念强度直接形成临时预算 | 接入正式内容前增加价值预算扫描和批量战斗验证 |
 | 客户端接入 | 输出独立 `card-ir-v0` JSON | 先解决 Godot 单效果字段与 `combat-lab` 多效果列表的差异 |
 | 生成时机 | 不允许战斗运行时临场修改规律 | 首轮限定为离线内容生产/发布前验证；更细的产品时点在原型通过后再决定 |
-| Embedding 载体 | V1 使用固定提交的多语 SentenceTransformer 生成 78 条、384 维缓存；保留六维人工向量作对照 | 真实相似度已经接入，但尚无盲态人工标签，不得据此声称语义涌现成立 |
+| Embedding 载体 | V1 使用固定提交的多语 SentenceTransformer 生成 78 条、384 维缓存；保留六维人工向量作对照；盲态评审工具已生成 | 尚无任何人工标签，不得据此声称语义涌现成立；必须完成预测、评分、动作对照和解盲统计 |
 | 区域分配 | 全批次最小代价分配；合法距离外不可入区，容量不足时输出 `unmapped` | 尚未实现向已发布内容版本增量加入卡牌时的持久分配与迁移策略 |
 
 ## 战斗系统 003 确定性模拟器

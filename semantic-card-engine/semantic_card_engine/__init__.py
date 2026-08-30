@@ -21,6 +21,11 @@ from .experiment import (
     run_comparison,
     validate_experiment_config,
 )
+from .human_review import (
+    HumanReviewError,
+    build_review_pack,
+    write_review_pack,
+)
 
 __all__ = [
     "Catalog",
@@ -30,9 +35,11 @@ __all__ = [
     "ExperimentConfig",
     "ExperimentError",
     "GenerationError",
+    "HumanReviewError",
     "build_experiment_inputs",
     "build_embedding_cache",
     "build_embedding_texts",
+    "build_review_pack",
     "generate_card",
     "load_catalog",
     "load_embedding_cache",
@@ -40,4 +47,5 @@ __all__ = [
     "run_comparison",
     "validate_catalog",
     "validate_experiment_config",
+    "write_review_pack",
 ]

@@ -4,7 +4,7 @@
 
 ## 状态与边界
 
-- 当前状态：`Verified MVP / EXP-002 V1 Real Embedding Cache`
+- 当前状态：`Verified MVP / EXP-002 V1 Human Review Pack Ready`
 - 设计来源：[概念合成世界模型原始想法](../game-design-workflow/idea-inbox/2026-08-29-semantic-composition-world-model.md)
 - 正式素材：[有限、确定且可学习的卡牌语义物理](../game-design-workflow/idea-materials/M-2026-08-30-finite-semantic-card-physics.md)
 - 效果约束素材：[有限效果区域与可拒绝合成](../game-design-workflow/idea-materials/M-2026-08-30-bounded-semantic-effect-regions.md)
@@ -53,6 +53,8 @@ data/experiment.json + data/embedding-cache.json
 - 效果区域总容量小于候选数，因此测试会真实覆盖 `capacity_exhausted -> unmapped`，而不是只测试理论分支。
 - 真实 Embedding 缓存固定到 `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` 的提交 `e8f8c211...`，许可证为 Apache-2.0，共保存 78 条、384 维规范化向量。
 - 缓存记录每段输入文本、文本哈希、构建库版本和整体摘要；定义变化、内容篡改或缓存缺失都会拒绝运行，不会静默退回人工向量。
+- 固定种子可从 V1 报告生成三阶段盲态评审包：48 条事前预测、240 条匿名语义评分和 80 组动作对照；路线身份只保存在独立解盲密钥中。
+- 公开评审表使用带 BOM 的 UTF-8 CSV，默认拒绝覆盖已存在文件，避免误删评审者已经填写的数据。
 
 ## V1 初步结果
 
@@ -77,10 +79,13 @@ py -3 -m semantic_card_engine generate --concept water --action compress --core 
 uv run --python 3.12 --extra embedding-build python -m semantic_card_engine build-embeddings
 py -3 -m semantic_card_engine compare --output reports/semantic-physics-exp-002-v1.json
 py -3 -m semantic_card_engine compare --manual-only
+py -3 -m semantic_card_engine build-review-pack
 py -3 -m pytest -q
 ```
 
 `build-embeddings` 是可选的内容生产命令；缓存已存在时，`compare` 和测试不需要安装 PyTorch 或 SentenceTransformers。
+
+`build-review-pack` 默认读取 V1 报告并生成到 `reports/semantic-physics-exp-002-v1-human-review/`。评审者必须按 `README.md` 顺序填写；完成全部评审前不得查看 `private-blind-key.json`。只有确认尚未写入人工结果时，才可显式使用 `--overwrite` 重建。
 
 `generate` 输出的 JSON 是候选卡牌 IR。未来可由批量模拟器校验后编译为 Godot 可加载的内容目录。
 
@@ -95,21 +100,29 @@ semantic-card-engine/
 ├── data/experiment.json
 ├── reports/semantic-physics-exp-002.json
 ├── reports/semantic-physics-exp-002-v1.json
+├── reports/semantic-physics-exp-002-v1-human-review/
+│   ├── 01-prediction.csv
+│   ├── 02-semantic-fit.csv
+│   ├── 03-action-contrast.csv
+│   ├── private-blind-key.json
+│   └── README.md
 ├── semantic_card_engine/
 │   ├── __init__.py
 │   ├── __main__.py
 │   ├── embedding_cache.py
 │   ├── engine.py
-│   └── experiment.py
+│   ├── experiment.py
+│   └── human_review.py
 ├── uv.lock
 └── tests/
     ├── test_engine.py
-    └── test_experiment.py
+    ├── test_experiment.py
+    └── test_human_review.py
 ```
 
 ## 下一阶段候选
 
-1. 为 240 条结果生成盲态人工评审表，测量语义合理性、动作敏感度与玩家预测率。
+1. 让至少 3 名评审者按盲态协议填写评审包，再解盲计算各路线的预测命中率、语义评分、拒绝准确性和评审者一致性。
 2. 加入同义改写和反义/动作替换输入，检查真实模型是否只会按表面词汇聚类。
 3. 比较另一种固定中文/多语 Embedding，判断当前结果是模型特性还是方法特性。
 4. 将通过人工评审的路线接入共享 IR 和批量战斗预算验证。

@@ -4,7 +4,7 @@
 
 This document records technical exploration paths. It is not a GDD, does not change accepted gameplay, and does not make either path production-ready.
 
-Implementation status: `EXP-002 V1 Real Embedding Cache / Human Semantic Review Pending`.
+Implementation status: `EXP-002 V1 Human Review Pack Ready / Ratings Pending`.
 
 Design material: [finite semantic card physics](../game-design-workflow/idea-materials/M-2026-08-30-finite-semantic-card-physics.md).
 
@@ -103,9 +103,10 @@ Path B should compare three composition baselines: weighted vector average, role
 - Path B retains the versioned six-dimensional manual vectors as a control and now also uses a pinned 384-dimensional multilingual SentenceTransformer cache.
 - A shared minimum-cost batch assignment allocates candidates to capacity-limited single/pair regions or `unmapped`.
 - V1 compares neutral weighted average, role-qualified weighted average and structured-sentence embeddings; the report retains all 240 results and deterministic digests.
-- Automated checks cover input count, repeatability, region capacity, projection threshold, compatible pairs, one/two-effect limits, budget conservation and CLI report output.
+- A deterministic blind-review pack separates 48 pre-result predictions, 240 anonymous candidate ratings and 80 anonymous action-contrast groups; the private key retains one-to-one route mappings and public-file hashes.
+- Automated checks cover input count, repeatability, region capacity, projection threshold, compatible pairs, one/two-effect limits, budget conservation, CLI output and route-identity leakage in public review files.
 
-The neutral weighted baseline produced no legal mappings at the confirmed threshold, while role-qualified and structured inputs mapped 32 and 38 of 48 candidates. This is evidence that composition phrasing changes the geometry, not evidence that either route is semantically correct. Paraphrase inputs, action-swap sensitivity and blind human semantic ratings remain unimplemented.
+The neutral weighted baseline produced no legal mappings at the confirmed threshold, while role-qualified and structured inputs mapped 32 and 38 of 48 candidates. This is evidence that composition phrasing changes the geometry, not evidence that either route is semantically correct. The review instrument exists, but ratings have not been collected; paraphrase and deliberate action-swap inputs also remain unimplemented.
 
 ## Recorded Direction
 

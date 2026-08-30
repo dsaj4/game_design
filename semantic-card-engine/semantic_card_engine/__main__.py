@@ -15,11 +15,20 @@ from .embedding_cache import (
 )
 from .engine import CatalogError, GenerationError, generate_card, load_catalog
 from .experiment import ExperimentError, load_experiment_config, run_comparison
+from .human_review import HumanReviewError, build_review_pack, write_review_pack
 
 
 DEFAULT_CATALOG = Path(__file__).parents[1] / "data" / "catalog.json"
 DEFAULT_EXPERIMENT = Path(__file__).parents[1] / "data" / "experiment.json"
 DEFAULT_EMBEDDING_CACHE = Path(__file__).parents[1] / "data" / "embedding-cache.json"
+DEFAULT_REPORT = (
+    Path(__file__).parents[1] / "reports" / "semantic-physics-exp-002-v1.json"
+)
+DEFAULT_REVIEW_DIR = (
+    Path(__file__).parents[1]
+    / "reports"
+    / "semantic-physics-exp-002-v1-human-review"
+)
 
 
 def main() -> int:
@@ -59,6 +68,15 @@ def main() -> int:
     build_parser.add_argument("--output", type=Path, default=DEFAULT_EMBEDDING_CACHE)
     build_parser.add_argument("--model-id", default=DEFAULT_MODEL_ID)
     build_parser.add_argument("--revision", default=DEFAULT_MODEL_REVISION)
+    review_parser = subparsers.add_parser(
+        "build-review-pack",
+        help="Build deterministic blinded human-review tables.",
+    )
+    review_parser.add_argument("--experiment", type=Path, default=DEFAULT_EXPERIMENT)
+    review_parser.add_argument("--report", type=Path, default=DEFAULT_REPORT)
+    review_parser.add_argument("--output-dir", type=Path, default=DEFAULT_REVIEW_DIR)
+    review_parser.add_argument("--seed", type=int, default=20260830)
+    review_parser.add_argument("--overwrite", action="store_true")
     args = parser.parse_args()
 
     try:
@@ -101,6 +119,18 @@ def main() -> int:
                 f"output={args.output}"
             )
             return 0
+        if args.command == "build-review-pack":
+            report = json.loads(args.report.read_text(encoding="utf-8"))
+            files = build_review_pack(report, config, args.seed)
+            write_review_pack(args.output_dir, files, overwrite=args.overwrite)
+            print(
+                "OK "
+                f"report_digest={report['digest']} "
+                f"files={len(files)} "
+                f"seed={args.seed} "
+                f"output={args.output_dir}"
+            )
+            return 0
         embedding_cache = None
         if not args.manual_only:
             embedding_cache = load_embedding_cache(args.embedding_cache, config)
@@ -131,6 +161,7 @@ def main() -> int:
         EmbeddingCacheError,
         ExperimentError,
         GenerationError,
+        HumanReviewError,
         OSError,
         json.JSONDecodeError,
     ) as error:
