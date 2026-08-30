@@ -6,6 +6,8 @@
 
 - 当前状态：`Experimental MVP / Technical Exploration`
 - 设计来源：[概念合成世界模型原始想法](../game-design-workflow/idea-inbox/2026-08-29-semantic-composition-world-model.md)
+- 正式素材：[有限、确定且可学习的卡牌语义物理](../game-design-workflow/idea-materials/M-2026-08-30-finite-semantic-card-physics.md)
+- 并列技术方向：[离散语义动力学与 Embedding 语义效果场](EXPLORATION-DIRECTIONS.md)
 - 本目录不是 GDD，也不表示该想法已经成为正式玩法或核心构思。
 - 当前不调用 AI，不生成或执行任意代码，不直接接入 Godot。
 - 临时概念、规律、预算和核心镜片只用于验证技术闭环。
