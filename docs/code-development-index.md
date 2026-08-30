@@ -87,7 +87,7 @@
 | 里程碑 | 范围 | 状态 | 证据 | 下一步 |
 | --- | --- | --- | --- | --- |
 | `SEMANTIC-CARD-MVP-001` | 声明式概念目录、单调前向推演、核心镜片、预算守恒、规范化 IR 与内容哈希 | `Verified` | 9 项 pytest；`validate`/`generate` CLI；Python 编译检查 | 与 `combat-lab` 和 Godot 的效果字段统一为共享 IR |
-| `SEMANTIC-PHYSICS-EXP-002` | 离散语义动力学与 Embedding 语义效果场使用同一 48 组合输入、效果 IR 和评测指标 | `Planned` | [探索方向文档](../semantic-card-engine/EXPLORATION-DIRECTIONS.md) | 先定义共享输入集、效果轴、拒绝策略与评测记录格式 |
+| `SEMANTIC-PHYSICS-EXP-002` | 离散语义动力学与 Embedding 语义效果场使用同一 48 组合输入、效果 IR 和评测指标 | `Planned` | [探索方向文档](../semantic-card-engine/EXPLORATION-DIRECTIONS.md) | 定义单效果区域、兼容双效果边界、区域容量、最大投影距离和 `Unmapped` 策略 |
 
 ### 已知技术边界
 

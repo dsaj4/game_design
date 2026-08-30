@@ -41,7 +41,8 @@ versioned concept definitions
   -> pinned embeddings
   -> role-aware composition
   -> factorized effect-prototype scores
-  -> uncertainty and compatibility gate
+  -> capacity-constrained effect-region assignment
+  -> boundary projection and compatibility gate
   -> independent value-budget allocation
   -> effect IR
 ```
@@ -51,6 +52,20 @@ The first baseline may use cosine similarity, but the target experiment must not
 Embedding similarity selects qualitative candidates only. It must never directly determine damage, cost, duration or rarity. Vectors, model ID, templates and normalization settings are stored with a version hash so published results do not drift when a provider or model changes.
 
 Primary strengths are zero-shot vocabulary coverage and low per-concept authoring cost. Primary risks are polysemy, symmetric similarity where directional causality is required, unstable decision boundaries, false confidence and weak causal explanations.
+
+### Capacity-Constrained Effect Partition
+
+The recorded direction divides the effect space into a finite cell complex:
+
+- a card assigned to the stable interior of one effect cell receives exactly one effect;
+- a card may receive two effects only inside a boundary band shared by two compatible effect cells;
+- triple and higher-order junctions never create three-effect cards and must project to the nearest legal single cell or compatible pair boundary;
+- every region has a versioned capacity, and pair boundaries also have a global density limit;
+- assignment retains the original vector, assigned region, projected point and projection distance.
+
+For an offline candidate batch, region selection can be solved as a minimum-cost assignment under capacity constraints. Cost combines semantic distance, projection distance and an occupancy penalty. Candidate regions are limited by confidence and an explicit effect-pair compatibility matrix. Published assignments remain immutable within one content version so adding later cards cannot silently remap existing recipes.
+
+Capacity is a content-density constraint, not semantic evidence. The allocator must not force a distant card into a region merely to satisfy coverage. A maximum projection distance and an explicit `unmapped` result are therefore recommended.
 
 ## Comparison Contract
 
@@ -72,16 +87,18 @@ Both paths should receive the same structured inputs and emit the same validated
 - Inputs: 8 concepts, 3 actions and 2 core cards, producing 48 combinations.
 - Outputs: one shared finite effect schema and one independent value-budget implementation.
 - No combination-specific rule or labeled combination table is available to either generator.
-- Evaluation: deterministic replay, paraphrase stability, action-swap sensitivity, held-out semantic coherence, result diversity, invalid-result rejection, budget conservation and human prediction.
-- Evidence: retain every input, engine/model version, intermediate trace or similarity scores, rejection reason and final IR.
+- Evaluation: deterministic replay, paraphrase stability, action-swap sensitivity, held-out semantic coherence, result diversity, invalid-result rejection, single/dual-effect density, capacity occupancy, projection distance, budget conservation and human prediction.
+- Evidence: retain every input, engine/model version, intermediate trace or similarity scores, source and assigned regions, projection distance, capacity state, rejection reason and final IR.
 
 Path B should compare three composition baselines: weighted vector average, role-aware transforms and a fixed structured-sentence embedding. Direct nearest-effect mapping is a baseline, not the recommended architecture.
 
-## Open Decision
+## Recorded Direction and Remaining Decision
 
-When a vector lands near several effect prototypes, the system needs one explicit policy:
+The effect-count policy is now explicit:
 
-- treat compatible axes as a genuine multi-effect result and allocate a shared budget; or
-- treat a small score margin as uncertainty and reject the candidate for review.
+- stable cell interiors produce one effect;
+- compatible pair-boundary bands may produce two effects under one shared budget;
+- higher-order intersections project to a legal single or pair region;
+- versioned regional capacity limits the number of cards in each boundary band.
 
-The recommended default is hybrid: allow multiple effects only when they occupy compatible effect axes and independently exceed calibrated thresholds; otherwise reject. This remains a recommendation until the raw idea qualification question is answered.
+One decision remains: whether a card may stay `unmapped` when every legal region is full or farther than the maximum projection distance. The recommended answer is yes; otherwise capacity balancing can override semantic correctness and recreate a manually forced effect table.
