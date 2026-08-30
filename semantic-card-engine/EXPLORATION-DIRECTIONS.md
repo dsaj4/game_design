@@ -6,7 +6,9 @@ This document records technical exploration paths. It is not a GDD, does not cha
 
 Design material: [finite semantic card physics](../game-design-workflow/idea-materials/M-2026-08-30-finite-semantic-card-physics.md).
 
-Embedding raw idea: [Embedding semantic effect space](../game-design-workflow/idea-inbox/2026-08-30-embedding-semantic-effect-space.md).
+Effect-region design material: [bounded semantic effect regions](../game-design-workflow/idea-materials/M-2026-08-30-bounded-semantic-effect-regions.md).
+
+Embedding source and technical analysis: [Embedding semantic effect space](../game-design-workflow/idea-inbox/2026-08-30-embedding-semantic-effect-space.md).
 
 ## Shared Boundary
 
@@ -65,7 +67,7 @@ The recorded direction divides the effect space into a finite cell complex:
 
 For an offline candidate batch, region selection can be solved as a minimum-cost assignment under capacity constraints. Cost combines semantic distance, projection distance and an occupancy penalty. Candidate regions are limited by confidence and an explicit effect-pair compatibility matrix. Published assignments remain immutable within one content version so adding later cards cannot silently remap existing recipes.
 
-Capacity is a content-density constraint, not semantic evidence. The allocator must not force a distant card into a region merely to satisfy coverage. A maximum projection distance and an explicit `unmapped` result are therefore recommended.
+Capacity is a content-density constraint, not semantic evidence. The allocator must not force a distant card into a region merely to satisfy coverage. A maximum projection distance and an explicit `unmapped` result are required. If all semantically legal regions are full or too distant, the candidate remains `unmapped` for review and is not published as a false match.
 
 ## Comparison Contract
 
@@ -92,13 +94,15 @@ Both paths should receive the same structured inputs and emit the same validated
 
 Path B should compare three composition baselines: weighted vector average, role-aware transforms and a fixed structured-sentence embedding. Direct nearest-effect mapping is a baseline, not the recommended architecture.
 
-## Recorded Direction and Remaining Decision
+## Recorded Direction
 
 The effect-count policy is now explicit:
 
 - stable cell interiors produce one effect;
 - compatible pair-boundary bands may produce two effects under one shared budget;
 - higher-order intersections project to a legal single or pair region;
-- versioned regional capacity limits the number of cards in each boundary band.
+- versioned regional capacity limits the number of cards in each region;
+- a candidate remains `unmapped` when no legal region is within the projection threshold or every legal region is full;
+- capacity never overrides semantic validity, and published assignments do not change inside one content version.
 
-One decision remains: whether a card may stay `unmapped` when every legal region is full or farther than the maximum projection distance. The recommended answer is yes; otherwise capacity balancing can override semantic correctness and recreate a manually forced effect table.
+The remaining work is empirical rather than a policy decision: implement the 48-combination comparison and measure semantic agreement, rejection rate, distribution, stability and player predictability for both exploration paths.

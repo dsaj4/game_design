@@ -40,7 +40,7 @@
 - 支持的核心体验/设计支柱：唯一核心卡身份、共享基础语法、组合发现、完整投影、确定性规划。
 - 依赖的已有系统：字素卡、行动卡、永久合成、配方记录、核心卡特有路线、价值预算。
 - 可能冲突的规则或决策：GDD-BATTLE-003 当前把核心卡定义为共享语法上的独有合成表；若核心卡改为改变语义空间或世界边界，需要另行 Proposal/Evaluation，不能由本素材自动替换现有决定。
-- 相关素材/提案/研究：[概念合成世界模型](../idea-inbox/2026-08-29-semantic-composition-world-model.md)、[战斗系统 003 素材](M-2026-08-25-battle-system-003-card-taxonomy-and-unified-event-combat.md)、[Semantic Card Engine](../../semantic-card-engine/README.md)。
+- 相关素材/提案/研究：[概念合成世界模型](../idea-inbox/2026-08-29-semantic-composition-world-model.md)、[有限效果区域与可拒绝合成](M-2026-08-30-bounded-semantic-effect-regions.md)、[战斗系统 003 素材](M-2026-08-25-battle-system-003-card-taxonomy-and-unified-event-combat.md)、[Semantic Card Engine](../../semantic-card-engine/README.md)。
 - 明确不包含：运行时自由生成规则、任意代码执行、最终效果字段、最终数值、具体 Embedding 模型或代码架构。
 
 ## 机制—行为—体验假设
