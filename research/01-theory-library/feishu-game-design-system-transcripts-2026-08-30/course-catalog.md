@@ -2,19 +2,19 @@
 
 | # | 编号 | 课程 | 时长 | 关键词 | 状态 |
 | ---: | --- | --- | --- | --- | --- |
-| 1 | SJ-001 | [游戏设计到底是什么? \| 游戏设计 / 入门课程 / 未完待续](https://www.bilibili.com/video/BV1uiNc6KEqq) | 2小时59分20秒 | 设计思维、设计哲学、玩法机制、行业洞察 | [已转写](transcripts/BV1uiNc6KEqq.txt) |
-| 2 | SJ-002 | [从创意到发布：游戏设计实战全流程 \| 游戏设计 / GDD / 游戏机制 / 原型设计 / 迭代开发 / 关卡设计 / 玩家体验 / 发布流程](https://www.bilibili.com/video/BV1hMNu64E55) | 3小时36分4秒 | 项目管理、制作人分享 | [已转写](transcripts/BV1hMNu64E55.txt) |
-| 3 | SJ-003 | [游戏测试-游戏设计的核心 \| 游戏测试 / Playtesting / 迭代设计 / 用户反馈 / 游戏品质 / 设计验证 / 数据分析](https://www.bilibili.com/video/BV1ZqN365ERZ) | 2小时41分13秒,2小时52分47秒 | 玩家体验、难度曲线、反馈机制 | [已转写](transcripts/BV1ZqN365ERZ.txt) |
-| 4 | SJ-004 | [专业GDD写作全攻略 \| 游戏设计文档 / 游戏开发流程 / 项目管理](https://www.bilibili.com/video/BV1pgNZ6JERH) | 2小时32分4秒 | 项目管理、设计思维 | [失败](failed-items.md#sj-004) |
-| 5 | SJ-006 | [独立开发者写不好GDD？规则设计全攻略 \| 规则撰写 / 游戏说明书 / 桌游规则 / GDD / 规则设计](https://www.bilibili.com/video/BV1B1KY6GEte) | 3小时10分50秒 | 项目管理、设计思维、玩法机制 | [已转写](transcripts/BV1B1KY6GEte.txt) |
-| 6 | SJ-007 | [想设计自己的桌游？来听TRPG入门大师课 \| 桌游设计 / 跑团 / 世界观构建 / DND / 角色扮演设计](https://www.bilibili.com/video/BV19Ugy6CEEu) | 4小时8分53秒 | 玩法机制、设计思维、案例分析、核心循环 | [失败](failed-items.md#sj-007) |
-| 7 | SJ-008 | [你的游戏为什么不好玩？(上) 先打牢设计基础 \| 游戏机制 / 原型制作 / 游戏测试 / 设计思维 / 玩家动机](https://www.bilibili.com/video/BV1yKg16wE9E) | 7小时4分7秒 | 设计思维、设计哲学、玩法机制、玩家心理 | [已转写](transcripts/BV1yKg16wE9E.txt) |
-| 8 | SJ-009 | [你的游戏为什么不好玩？(下) 构建游戏设计体系 \| 原型设计 / 数值平衡 / 核心循环 / 系统设计 / 玩家动机](https://www.bilibili.com/video/BV1cagy6xEmp) | 8小时18分48秒 | 设计思维、玩法机制、玩家体验、核心循环 | [已转写](transcripts/BV1cagy6xEmp.txt) |
-| 9 | SJ-011 | [游戏设计大师课——Philipp Steng顶级游戏设计入门 \| 游戏设计 / 玩家心理学 / 游戏机制 / 游戏平衡 / GDD / 关卡设计 / 独立游戏](https://www.bilibili.com/video/BV1Wnuo6tERU) | 9小时57分21秒 | 设计思维、设计哲学、玩家心理、关卡设计、玩法机制 | [已转写](transcripts/BV1Wnuo6tERU.txt) |
-| 10 | SJ-013 | [游戏设计核心课：从玩家心理到系统设计的完整工具箱 \| 游戏设计 / 玩家心理 / MDA框架 / 系统设计 / GDD / 游戏平衡 / 设计思维](https://www.bilibili.com/video/BV1pLbk6PE1g) | 4小时5分53秒 | 设计思维、玩家心理、数值平衡、核心循环 | [已转写](transcripts/BV1pLbk6PE1g.txt) |
-| 11 | SJ-015 | [你的游戏为什么不好玩？4小时打通游戏设计的任督二脉 \| 游戏机制 / 系统设计 / 玩家心理学 / 原型制作](https://www.bilibili.com/video/BV1278C6yEP5) | 4小时2分37秒 |  | [已转写](transcripts/BV1278C6yEP5.txt) |
-| 12 | SJ-030 | [行为心理学告诉你：玩家为什么对你的游戏上瘾？\| 行为设计 / 玩家动机 / Praxeology / 游戏机制心理学](https://www.bilibili.com/video/BV1gZMR6hEaq) | 1小时47分57秒 | 玩家心理、玩家体验、游戏手感、设计哲学 | [已转写](transcripts/BV1gZMR6hEaq.txt) |
-| 13 | SJ-207 | [Pascal Luban：独立游戏核心系统设计大师课](https://www.bilibili.com/video/BV1uP8t6uExH) | 2小时54分32秒 |  | [已转写](transcripts/BV1uP8t6uExH.txt) |
+| 1 | SJ-001 | [游戏设计到底是什么? \| 游戏设计 / 入门课程 / 未完待续](https://www.bilibili.com/video/BV1uiNc6KEqq) | 2小时59分20秒 | 设计思维、设计哲学、玩法机制、行业洞察 | [已转写 29/29 P](transcripts/BV1uiNc6KEqq.txt) |
+| 2 | SJ-002 | [从创意到发布：游戏设计实战全流程 \| 游戏设计 / GDD / 游戏机制 / 原型设计 / 迭代开发 / 关卡设计 / 玩家体验 / 发布流程](https://www.bilibili.com/video/BV1hMNu64E55) | 3小时36分4秒 | 项目管理、制作人分享 | [已转写 20/20 P](transcripts/BV1hMNu64E55.txt) |
+| 3 | SJ-003 | [游戏测试-游戏设计的核心 \| 游戏测试 / Playtesting / 迭代设计 / 用户反馈 / 游戏品质 / 设计验证 / 数据分析](https://www.bilibili.com/video/BV1ZqN365ERZ) | 2小时41分13秒,2小时52分47秒 | 玩家体验、难度曲线、反馈机制 | [已转写 30/30 P](transcripts/BV1ZqN365ERZ.txt) |
+| 4 | SJ-004 | [专业GDD写作全攻略 \| 游戏设计文档 / 游戏开发流程 / 项目管理](https://www.bilibili.com/video/BV1pgNZ6JERH) | 2小时32分4秒 | 项目管理、设计思维 | [部分转写 44/45 P](transcripts/BV1pgNZ6JERH.txt) |
+| 5 | SJ-006 | [独立开发者写不好GDD？规则设计全攻略 \| 规则撰写 / 游戏说明书 / 桌游规则 / GDD / 规则设计](https://www.bilibili.com/video/BV1B1KY6GEte) | 3小时10分50秒 | 项目管理、设计思维、玩法机制 | [已转写 59/59 P](transcripts/BV1B1KY6GEte.txt) |
+| 6 | SJ-007 | [想设计自己的桌游？来听TRPG入门大师课 \| 桌游设计 / 跑团 / 世界观构建 / DND / 角色扮演设计](https://www.bilibili.com/video/BV19Ugy6CEEu) | 4小时8分53秒 | 玩法机制、设计思维、案例分析、核心循环 | [已转写 40/40 P](transcripts/BV19Ugy6CEEu.txt) |
+| 7 | SJ-008 | [你的游戏为什么不好玩？(上) 先打牢设计基础 \| 游戏机制 / 原型制作 / 游戏测试 / 设计思维 / 玩家动机](https://www.bilibili.com/video/BV1yKg16wE9E) | 7小时4分7秒 | 设计思维、设计哲学、玩法机制、玩家心理 | [已转写 86/86 P](transcripts/BV1yKg16wE9E.txt) |
+| 8 | SJ-009 | [你的游戏为什么不好玩？(下) 构建游戏设计体系 \| 原型设计 / 数值平衡 / 核心循环 / 系统设计 / 玩家动机](https://www.bilibili.com/video/BV1cagy6xEmp) | 8小时18分48秒 | 设计思维、玩法机制、玩家体验、核心循环 | [部分转写 74/77 P](transcripts/BV1cagy6xEmp.txt) |
+| 9 | SJ-011 | [游戏设计大师课——Philipp Steng顶级游戏设计入门 \| 游戏设计 / 玩家心理学 / 游戏机制 / 游戏平衡 / GDD / 关卡设计 / 独立游戏](https://www.bilibili.com/video/BV1Wnuo6tERU) | 9小时57分21秒 | 设计思维、设计哲学、玩家心理、关卡设计、玩法机制 | [已转写 34/34 P](transcripts/BV1Wnuo6tERU.txt) |
+| 10 | SJ-013 | [游戏设计核心课：从玩家心理到系统设计的完整工具箱 \| 游戏设计 / 玩家心理 / MDA框架 / 系统设计 / GDD / 游戏平衡 / 设计思维](https://www.bilibili.com/video/BV1pLbk6PE1g) | 4小时5分53秒 | 设计思维、玩家心理、数值平衡、核心循环 | [已转写 44/44 P](transcripts/BV1pLbk6PE1g.txt) |
+| 11 | SJ-015 | [你的游戏为什么不好玩？4小时打通游戏设计的任督二脉 \| 游戏机制 / 系统设计 / 玩家心理学 / 原型制作](https://www.bilibili.com/video/BV1278C6yEP5) | 4小时2分37秒 |  | [已转写 27/27 P](transcripts/BV1278C6yEP5.txt) |
+| 12 | SJ-030 | [行为心理学告诉你：玩家为什么对你的游戏上瘾？\| 行为设计 / 玩家动机 / Praxeology / 游戏机制心理学](https://www.bilibili.com/video/BV1gZMR6hEaq) | 1小时47分57秒 | 玩家心理、玩家体验、游戏手感、设计哲学 | [已转写 14/14 P](transcripts/BV1gZMR6hEaq.txt) |
+| 13 | SJ-207 | [Pascal Luban：独立游戏核心系统设计大师课](https://www.bilibili.com/video/BV1uP8t6uExH) | 2小时54分32秒 |  | [已转写 24/24 P](transcripts/BV1uP8t6uExH.txt) |
 | 14 | HY-441_f | [再来一局：《蛋炒饭》](https://www.bilibili.com/video/BV1gVgy6BE4c) | 44分41秒 |  | [已转写](transcripts/BV1gVgy6BE4c.txt) |
 | 15 | HY-599_f | [《Bad North》游戏分析——「再来一局」系列](https://www.bilibili.com/video/BV1UY3P6xEhu) | 1小时7分31秒 |  | [已转写](transcripts/BV1UY3P6xEhu.txt) |
 | 16 | HY-600_f | [卡牌构筑类游戏开发者请留意! ](https://www.bilibili.com/video/BV1Ti3P6sESB) | 11分13秒 |  | [已转写](transcripts/BV1Ti3P6sESB.txt) |
@@ -224,9 +224,9 @@
 | 220 | SJ-827_f | [「GDC」站在玩家角度做游戏测试](https://www.bilibili.com/video/BV138Ng6wE5j) | 35分16秒 | 玩家体验 | [已转写](transcripts/BV138Ng6wE5j.txt) |
 | 221 | SJ-9141_f | [做游戏的真相是什么？——独立开发者必看!](https://www.bilibili.com/video/BV1tj8p6REsX) | 1小时1分34秒 |  | [已转写](transcripts/BV1tj8p6REsX.txt) |
 | 222 | SJ-9143_f | [《大金刚Bananza》中最可爱v的设计巧思](https://www.bilibili.com/video/BV1Sa8H6RE9Q) | 7分15秒 |  | [已转写](transcripts/BV1Sa8H6RE9Q.txt) |
-| 223 | SJ-9146_f | [《生死深潜：雨之子民》：独立游戏生存机制](https://www.bilibili.com/video/BV1cD8H6CE52) | 1小时16分49秒 |  | [已转写](transcripts/BV1cD8H6CE52.txt) |
+| 223 | SJ-9146_f | [《生死深潜：雨之子民》：独立游戏生存机制](https://www.bilibili.com/video/BV1cD8H6CE52) | 1小时16分49秒 |  | [已转写 2/2 P](transcripts/BV1cD8H6CE52.txt) |
 | 224 | SJ-9147_f | [《Tales of Kathay》开放世界机制：独立游戏试玩](https://www.bilibili.com/video/BV1wS8H65ETh) | 48分9秒 |  | [已转写](transcripts/BV1wS8H65ETh.txt) |
-| 225 | SJ-9148_f | [独立游戏试玩: 在无法无天的土地上驰骋——《狂野西部》](https://www.bilibili.com/video/BV1P28H6jEuh) | 1小时3分49秒 |  | [已转写](transcripts/BV1P28H6jEuh.txt) |
+| 225 | SJ-9148_f | [独立游戏试玩: 在无法无天的土地上驰骋——《狂野西部》](https://www.bilibili.com/video/BV1P28H6jEuh) | 1小时3分49秒 |  | [已转写 2/2 P](transcripts/BV1P28H6jEuh.txt) |
 | 226 | SJ-9149_f | [硬核游戏的难度有什么意义？\| 游戏难度 / 设计 / 空洞骑士 / 丝之歌](https://www.bilibili.com/video/BV1Sz8x6iERo) | 11分15秒 |  | [已转写](transcripts/BV1Sz8x6iERo.txt) |
 | 227 | SJ-9157_f | [《战锤40K：行商浪人》战斗系统深度解析](https://www.bilibili.com/video/BV1ai8x6zEmm) | 39分38秒 |  | [已转写](transcripts/BV1ai8x6zEmm.txt) |
 | 228 | SJ-923_f | [「GDC」叙事多重宇宙：《As Dusk Falls》的分支结构](https://www.bilibili.com/video/BV1GRMp6VE2J) | 52分7秒 | 剧情叙事、分支剧情、故事结构、案例分析 | [已转写](transcripts/BV1GRMp6VE2J.txt) |

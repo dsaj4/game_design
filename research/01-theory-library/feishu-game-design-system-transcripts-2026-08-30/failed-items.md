@@ -1,25 +1,25 @@
-# 转写失败项目
+# 转写失败或不完整项目
 
-以下任务已通过 BiliSum 正常提交，但 BiliSum 使用的 yt-dlp 无法解析对应 B 站页面的初始状态。未尝试绕过平台风控或使用私有登录数据。
+以下课程仍有无法由 BiliSum 完成的分集。未尝试绕过平台风控或使用私有登录数据。
 
 ## SJ-004
 
 - 课程：专业GDD写作全攻略 | 游戏设计文档 / 游戏开发流程 / 项目管理
 - 视频：[BV1pgNZ6JERH](https://www.bilibili.com/video/BV1pgNZ6JERH)
-- 飞书标注时长：2小时32分4秒
-- BiliSum 任务 ID：`126651b4caa44f819164f213c8f6eedf`
-- 状态：`failed`
-- 原因：yt-dlp 无法提取 B 站页面初始状态。
+- 状态：`partial`
+- 分集完成度：44/45
+- 原因：44/45 parts completed
+- 未完成分集：
+  - P005 [1-5 记住3S和3C](https://www.bilibili.com/video/BV1pgNZ6JERH?p=5)；任务 BV1pgNZ6JERH:5；CID 40048069359；时长 242 秒；尝试 5 次；错误：DashScope FunASR request failed: id:1 event:error data:{}
 
-## SJ-007
+## SJ-009
 
-- 课程：想设计自己的桌游？来听TRPG入门大师课 | 桌游设计 / 跑团 / 世界观构建 / DND / 角色扮演设计
-- 视频：[BV19Ugy6CEEu](https://www.bilibili.com/video/BV19Ugy6CEEu)
-- 飞书标注时长：4小时8分53秒
-- BiliSum 任务 ID：`64ed9b0cd11849b180f2d38aebf5ea75`
-- 状态：`failed`
-- 原因：yt-dlp 无法提取 B 站页面初始状态。
-
-## 后续处理
-
-当视频页面恢复为可解析状态或 BiliSum/yt-dlp 更新后，可使用原 B 站链接重新创建转写任务。成功后应补齐 `transcripts/`、`manifest.json` 和课程目录，不应删除本次失败记录。
+- 课程：你的游戏为什么不好玩？(下) 构建游戏设计体系 | 原型设计 / 数值平衡 / 核心循环 / 系统设计 / 玩家动机
+- 视频：[BV1cagy6xEmp](https://www.bilibili.com/video/BV1cagy6xEmp)
+- 状态：`partial`
+- 分集完成度：74/77
+- 原因：74/77 parts completed
+- 未完成分集：
+  - P007 [2-1 章节概览](https://www.bilibili.com/video/BV1cagy6xEmp?p=7)；任务 BV1cagy6xEmp:7；CID 40202406059；时长 484 秒；尝试 5 次；错误：DashScope FunASR request failed: id:1 event:error data:{}
+  - P033 [3-4 原型制作](https://www.bilibili.com/video/BV1cagy6xEmp?p=33)；任务 BV1cagy6xEmp:33；CID 40202470011；时长 164 秒；尝试 5 次；错误：DashScope FunASR request failed: id:1 event:error data:{}
+  - P040 [4-2 游戏测试基础](https://www.bilibili.com/video/BV1cagy6xEmp?p=40)；任务 BV1cagy6xEmp:40；CID 40202470954；时长 241 秒；尝试 5 次；错误：DashScope FunASR request failed: id:1 event:error data:{}

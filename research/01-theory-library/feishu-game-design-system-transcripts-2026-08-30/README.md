@@ -2,33 +2,36 @@
 
 状态：`Research Input / Transcript Archive`
 
-本资料包来自飞书多维表格“游戏设计系统课程”的“游戏设计系统课”视图。课程链接统一交给 BiliSum 转写，成功结果以 UTF-8 TXT 保存；这里保留原始逐字稿和来源追踪，不把课程内容直接写成项目设计结论。
+本资料包来自飞书多维表格“游戏设计系统课程”的“游戏设计系统课”视图。课程链接统一交给 BiliSum 转写；多分集视频先通过 B 站公开页面接口展开，再以 `?p=N` 逐集提交。这里保留原始逐字稿和来源追踪，不把课程内容直接写成项目设计结论。
 
 ## 来源与范围
 
-- 飞书来源：[「哈基米游戏」在线课程表](https://gcnw76y7x5f3.feishu.cn/base/OP1jbJbGIaBmeisKLakcnwDZnMh?table=tblz6Wo5dnYavy7a&view=vewngI7Gfg)
+- 飞书来源：[“哈基米游戏”在线课程表](https://gcnw76y7x5f3.feishu.cn/base/OP1jbJbGIaBmeisKLakcnwDZnMh?table=tblz6Wo5dnYavy7a&view=vewngI7Gfg)
 - 表：`游戏设计系统课程`
 - 视图：`游戏设计系统课`
 - 飞书课程记录：237 条
 - 去重后 B 站视频：235 个
-- 成功逐字稿：233 份
-- 失败：2 份
-- 转写来源：224 份 B 站字幕，9 份 DashScope FunASR
-- 逐字稿总字符数：1,343,661
+- B 站分集总数：753 P
+- 完整课程：233 个
+- 不完整或失败课程：2 个
+- 成功逐字稿分集：749 P
+- 转写来源：224 份 bilibili-subtitle，525 份 dashscope_funasr
+- 逐字稿总字符数：2499340
 
 ## 文件结构
 
 - [course-catalog.md](course-catalog.md)：237 条飞书记录、课程链接、时长、关键词和逐字稿状态。
-- [manifest.json](manifest.json)：课程记录、飞书记录 ID、BiliSum 任务 ID、转写来源、文件路径、哈希和错误信息。
-- [failed-items.md](failed-items.md)：无法由 BiliSum 读取的 2 个视频。
-- `transcripts/`：按 BV 号命名的 TXT 逐字稿，一种视频只保存一份。
+- [manifest.json](manifest.json)：课程记录、分集、BiliSum 任务 ID、转写来源、文件路径、哈希和错误信息。
+- [multipart-inventory.json](multipart-inventory.json)：从 B 站公开接口读取的分集结构与 CID。
+- [multipart-repair-state.json](multipart-repair-state.json)：逐分集修复任务的断点状态。
+- [failed-items.md](failed-items.md)：仍无法完成或不完整的课程。
+- `transcripts/<BV>.txt`：课程合并逐字稿。
+- `transcripts/<BV>/pNNN.txt`：多分集课程的单集逐字稿。
+- [repair-multipart-transcripts.ps1](repair-multipart-transcripts.ps1)：可重复执行、可断点续跑的修复脚本。
 
-## 去重与数据质量
+## 多分集处理
 
-飞书视图中有两组记录共享 B 站 URL，因此 237 条记录对应 235 个唯一视频：
-
-- `SJ-190_f` 与 `SJ-211_f` 都指向 `BV1kTKj6PEp9`，但课程标题不同，可能是来源表链接错配；两条记录暂时共享同一份逐字稿，并在 `manifest.json` 中保留原始标题。
-- `SJ-1940_f` 与 `SJ-2069_f` 都指向 `BV1XkNT6sEVc`，标题含义一致，按正常重复记录处理。
+BiliSum 1.19.1 的单 URL 转写接口不会自动遍历 B 站分 P。修复脚本先读取 `data.pages`，再把每个 `https://www.bilibili.com/video/<BV>?p=<N>` 作为独立任务提交。已有第 1 P 会复用，避免重复转写。
 
 ## 使用边界
 
