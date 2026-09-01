@@ -25,6 +25,7 @@
 
 - 论文：[Code World Model: Coding Agent as World Brain](https://arxiv.org/abs/2608.25927v1)，Yiwen Chen、Guosheng Lin、Chi Zhang，arXiv v1 发布于 2026-08-26。
 - 产品参照：[Noita 官方说明](https://noitagame.com/)。
+- 产品案例：[Noita 法杖系统：可组合施法解释器与卡牌迁移](../../research/03-product-case-studies/noita-wand-system.md)。
 - 当前设计语境：[GDD-BATTLE-003](../gdd/GDD-2026-08-29-battle-system-003-unified-glyph-action-events.md) 中的共享基础语法、永久合成、合成投影、确定性情境结算和核心卡独有合成表。
 
 ### 已核实事实与边界
@@ -118,7 +119,7 @@ AI 根据概念组合提出候选卡牌的身份、目标、作用方式、状�
 - [x] 继续使用 `grill-with-docs` 澄清
 - [x] 通过闸门后晋级 `idea-materials/`
 - [ ] 将论文转化为独立理论摘要与可验证设计假设
-- [ ] 将 Noita 转化为产品案例或横向比较
+- [x] 将 Noita 转化为产品案例：[Noita 法杖系统：可组合施法解释器与卡牌迁移](../../research/03-product-case-studies/noita-wand-system.md)
 - [ ] 与 GDD-BATTLE-003 的合成原型联合验证
 - [x] 建立独立 `semantic-card-engine/`，完成确定性语义推演最小实现
 - [ ] 保留为未达标原始想法

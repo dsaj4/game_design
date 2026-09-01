@@ -11,6 +11,19 @@
 - Pokémon TCG 官方家长介绍页：https://parents.pokemon.com/en-us/trading-card-game/
 - Balatro 官方网站：https://www.playbalatro.com/
 - Balatro 官方 FAQ：https://www.playbalatro.com/faq
+- Noita 官方网站：https://noitagame.com/
+- Noita GDC 2019 开发者演讲：https://www.gdcvault.com/play/1025695/Exploring-the-Tech-and-Design
+- Noita Falling Everything Engine 开发访谈：https://80.lv/articles/noita-a-game-based-on-falling-sand-simulation
+- Noita 设计访谈：https://www.gamedeveloper.com/design/the-unusual-game-design-of-noita
+
+## Noita 法杖技术参照
+
+- Noita Wiki - Wands：https://noita.wiki.gg/wiki/Wands
+- Noita Wiki - Expert Guide: Draw：https://noita.wiki.gg/wiki/Expert_Guide:_Draw
+- Noita Wiki - Expert Guide: Calling and Recursion：https://noita.wiki.gg/wiki/Expert_Guide:_Calling_and_Recursion
+- Noita Wiki - Modding: Custom spell：https://noita.wiki.gg/wiki/Modding:_Custom_spell
+
+上述 Wiki 页面为社区根据游戏行为与数据脚本整理的技术参照，不等同于开发者公开完整引擎源码。
 
 ## 游戏设计理论与学习方法
 

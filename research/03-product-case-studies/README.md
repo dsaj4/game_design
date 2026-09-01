@@ -15,3 +15,4 @@
 - `magic-the-gathering.md`
 - `pokemon-tcg.md`
 - `balatro.md`
+- `noita-wand-system.md`
