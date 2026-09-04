@@ -21,6 +21,7 @@ GDD-YYYY-MM-DD-short-name.md
 
 ## 当前文档
 
+- [GDD-ENEMY-001：首测怪物遭遇表](GDD-2026-09-04-monster-encounter-table.md) — `GDD-1 / Evaluation`，10 组遭遇；**不附完整卡表**。
 - [GDD-CLIENT-001：Godot 灰盒客户端代码设计](GDD-2026-08-24-godot-greybox-client.md) — `GDD-1 / Evaluation`，实现工程 `godot-demo/`（并列目录）。
 - [GDD-BATTLE-002：字素合成战斗系统](GDD-2026-08-22-glyph-synthesis-combat-system.md) — `GDD-1 / Evaluation`，**当前战斗机制主方向**；基于 `card table.docx` 与 [card-table.md](../data/card-table.md)。
 - [GDD-BATTLE-001：唯一核心卡成语组合战斗系统](GDD-2026-08-21-card-battle-system.md) — `GDD-1 / Parked`（战斗实现线暂停；`combat-lab` 羊舟数据保留作对照）。
