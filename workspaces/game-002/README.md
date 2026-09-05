@@ -7,7 +7,7 @@ Project ID：game-002
 这是全新的独立游戏构思，与上一款游戏无关，不是续作、改版或技术迁移。
 已收到暂定名《言咒》的组合施法与 Roguelike 构筑初稿，正在澄清；这些内容尚未成为正式核心构思。平台、目标玩家和实现方式仍为 Unknown。
 
-当前有 [1 份原始想法及首轮审查](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md)，状态为 Raw Idea / Unqualified；尚无合格素材、正式 GDD、玩法提案或代码任务。附件自称 GDD v0.1，不代表通过素材资格确认。
+当前有 [1 份原始想法及首轮审查](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md)，整稿仍为 Raw Idea / Unqualified；其中 [时间预算与施法打断](game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md) 已独立晋级为首份 Qualified GDD Material，证据状态 Hypothesis。尚无正式 GDD、玩法提案或代码任务。附件自称 GDD v0.1，不代表整稿通过资格确认。
 
 ## 开始
 
