@@ -7,11 +7,11 @@ Project ID：game-002
 这是全新的独立游戏构思，与上一款游戏无关，不是续作、改版或技术迁移。
 已收到暂定名《言咒》的组合施法与 Roguelike 构筑初稿，正在澄清；这些内容尚未成为正式核心构思。平台、目标玩家和实现方式仍为 Unknown。
 
-当前有 3 份 inbox 记录：[原始初稿与澄清](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md)、[词汇循环双路线评议](game-design-workflow/idea-inbox/2026-09-05-vocabulary-cycle-alternatives.md)及[方案 A 词汇卡组循环细化](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md)。用户已选择 A 继续细化，B 整套循环暂不推进；A 中按用户要求预留联想、回忆等牌序干预。[时间预算与施法打断](game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)、[时间补牌与多张牌序预览](game-design-workflow/idea-materials/M-2026-09-05-timeline-draw-preview.md)及[固定词类与句法位置](game-design-workflow/idea-materials/M-2026-09-05-fixed-grammatical-roles.md)已分别晋级为 Qualified GDD Material，共 3 份，证据状态均为 Hypothesis。其余机制和具体数值继续澄清，确认后再实现。尚无正式 GDD、玩法提案或代码任务。附件自称 GDD v0.1，不代表整稿通过资格确认。
+当前有 3 份 inbox 记录：[原始初稿与澄清](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md)、[词汇循环双路线评议](game-design-workflow/idea-inbox/2026-09-05-vocabulary-cycle-alternatives.md)及[方案 A 词汇卡组循环细化](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md)。用户已选择 A 继续细化，B 整套循环暂不推进；A 中按用户要求预留联想、回忆等牌序干预。[时间预算与施法打断](game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)、[时间补牌与多张牌序预览](game-design-workflow/idea-materials/M-2026-09-05-timeline-draw-preview.md)及[固定词类与语义兼容](game-design-workflow/idea-materials/M-2026-09-05-fixed-grammatical-roles.md)已分别晋级为 Qualified GDD Material，共 3 份，证据状态均为 Hypothesis。其余机制和具体数值继续澄清，确认后再实现。尚无正式 GDD、玩法提案或代码任务。附件自称 GDD v0.1，不代表整稿通过资格确认。
 
 ## 开始
 
-最新讨论：用户明确目前主谓宾不能混用，固定词类约束已独立晋级，有限跨位建议未采纳。当前讨论固定三类下的语义兼容：谓语能否处理宾语、主语能否承接结果。界面、逐事件等待操作与停点、具体数值及联想回忆等扩展继续后置。
+最新讨论：固定三类不混用，且同时要求谓语能处理宾语、主语能承接谓语结果；两层兼容原则已确认并扩充既有合格素材，有限跨位建议未采纳。下一步澄清宾语卡与世界状态的引用关系，该候选尚未确认。界面、逐事件等待操作与停点、具体数值及联想回忆等扩展继续后置。
 
 直接提出一个想法、参考产品或验证问题，先记录到本工作区 inbox，通过资格闸门再进入正式设计链。
 

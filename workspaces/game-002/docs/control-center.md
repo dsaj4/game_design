@@ -15,7 +15,7 @@
 
 已晋级：[时间预算与施法打断](../game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)及[时间补牌与多张牌序预览](../game-design-workflow/idea-materials/M-2026-09-05-timeline-draw-preview.md)，均为 Qualified GDD Material / Hypothesis。其余循环规则与干预扩展仍需资格确认。
 
-新增素材：[固定词类与句法位置](../game-design-workflow/idea-materials/M-2026-09-05-fixed-grammatical-roles.md)，Qualified GDD Material / Hypothesis；仅确认当前不跨类使用，不包含完整语义系统。
+构句素材：[固定词类与语义兼容](../game-design-workflow/idea-materials/M-2026-09-05-fixed-grammatical-roles.md)，Qualified GDD Material / Hypothesis；确认当前不跨类使用及两层兼容原则，不包含完整语义系统。
 
 澄清进度：用户已确认“火焰 吞噬 护甲”的护甲来源与火焰承受者为同一选定对象；具体数值与其他组合仍待澄清。
 
@@ -57,4 +57,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认：目前主谓宾不能混用，有限跨位建议未采纳，固定分类已晋级。
 
-下一步：使用 grill-with-docs 澄清谓语处理宾语与主语承接结果的兼容关系。候选保存在原稿 inbox，具体数值与界面后置。
+最新确认：谓语能处理宾语、主语能承接谓语结果，两层要求必须同时满足。已扩充构句素材并同步术语；完整类型、具体词义与战场适用条件仍未定。
+
+下一步：使用 grill-with-docs 澄清宾语卡与世界状态的引用关系。推荐操作已有状态仍需投入对应宾语卡，制造状态本身不自动获得词卡；候选保存在原稿 inbox，尚未确认，具体数值与界面后置。
