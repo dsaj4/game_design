@@ -6,7 +6,7 @@
 | --- | --- |
 | 工作区 | Active / Idea Qualification |
 | 类型、方向、目标玩家 | 用户强调卡组构筑定位，已选择 A 抽弃循环继续细化；正式核心尚未采纳，目标玩家 Unknown |
-| 原始想法记录、素材、正式 GDD | 3 / 5 / 0（包含双路线评议与 A 细化草案） |
+| 原始想法记录、素材、正式 GDD | 3 / 6 / 0（包含双路线评议与 A 细化草案） |
 | 提案、评估、正式玩法决定 | 无 |
 | 原型与代码 | 无 |
 | 生产阶段、排期 | 未确定 |
@@ -83,7 +83,7 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认：敌方准备开始时确定并公开下一次行动及执行时间；准备中仅因明确效果改变，变化须告知玩家。[确认及资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#敌方意图确定与变更确认记录)已扩充时间素材，Qualified GDD Material / Hypothesis。
 
-最新确认：本场战场状态跨施法与敌方行动保留，仅按自身规则或明确效果变化、消失。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#战场状态跨行动保留确认记录)已独立晋级为[状态留存素材](../game-design-workflow/idea-materials/M-2026-09-05-battle-state-persistence.md)，Qualified GDD Material / Hypothesis；素材共 5 份。
+最新确认：本场战场状态跨施法与敌方行动保留，仅按自身规则或明确效果变化、消失。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#战场状态跨行动保留确认记录)已独立晋级为[状态留存素材](../game-design-workflow/idea-materials/M-2026-09-05-battle-state-persistence.md)，Qualified GDD Material / Hypothesis；该次晋级后素材为 5 份，当前总数见顶部。
 
 最新确认：引用本身不附加消耗，是否消耗或改变状态由具体操作的明确规则决定；词卡弃置不自动消耗对应状态。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#状态引用与消耗关系确认记录)已扩充状态及构句素材，Qualified GDD Material / Hypothesis；具体操作和全量吞噬均未因此确定。
 
@@ -93,4 +93,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认：基础版确认投入词卡、开始施法后，不提供通用主动取消；不能因新牌、改计划或预判材料缺失而随意撤回，构句阶段仍可调整。来源与复审见[权限确认](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#基础版不提供通用主动取消确认记录)，已扩充时间素材并同步供给、构句素材，Qualified GDD Material / Hypothesis；目标失效和外部强制终止等边界仍未定。
 
-下一步：澄清普通战斗胜负目标。推荐普通战斗击败全部敌人获胜、玩家生命耗尽则失败；[胜负候选](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议普通战斗的胜负目标)仍为 Raw Idea / Unqualified。终止检查时点、同时满足条件、战后恢复及战败是否结束整局后续另议，具体数值与界面后置。
+最新确认：普通战斗击败全部敌人获胜、玩家生命耗尽则失败。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#普通战斗胜负目标确认记录)已独立晋级为[普通战斗胜负素材](../game-design-workflow/idea-materials/M-2026-09-05-normal-combat-outcomes.md)，Qualified GDD Material / Hypothesis，正式素材共 6 份。终止检查时点、双方同时满足条件及战后衔接仍待定。
+
+下一步：澄清战败是否结束当前 Roguelike 一局。推荐普通战斗失败即结束本局，继续游玩时重新开局；[整局失败范围候选](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议战败与本局结束)仍为 Raw Idea / Unqualified。局外成长、解锁、存档和特殊复活规则均未决定；具体数值与界面后置。

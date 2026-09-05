@@ -4,6 +4,14 @@
 
 ## Language
 
+**战斗胜利**：
+普通战斗中，全部敌人被击败所对应的本场结果。来源见[普通战斗胜负素材](game-design-workflow/idea-materials/M-2026-09-05-normal-combat-outcomes.md)；敌人被击败的具体判定、终止检查时点与双方同时满足条件的处理仍待明确。
+_Avoid_：与单句施法成功、整局通关或自动获得奖励混称。
+
+**战斗失败**：
+普通战斗中，玩家生命耗尽所对应的本场结果。来源同[胜负素材](game-design-workflow/idea-materials/M-2026-09-05-normal-combat-outcomes.md)；战败是否结束当前 Roguelike 一局尚未决定。
+_Avoid_：与单句被打断、材料缺失落空或整局结束混称，或据此推定局外进度损失。
+
 **词卡奖励跳过**：
 普通战斗后不收下任何候选词卡的选择；该次候选词不加入本局卡组，也不移除已有词卡。来源见[跳过确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#普通词卡奖励跳过确认记录)，具体数量、补偿与特殊奖励规则未定。
 _Avoid_：与战斗中的超限弃牌、本场移除或永久删牌混称，或认为跳过自动提供重抽和其他收益。
