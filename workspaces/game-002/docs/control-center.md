@@ -115,4 +115,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认：选择休整收益前检查能否组成完整卡包，某类无合格词时本次不提供拿牌、保留恢复。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#休整卡包可用条件确认记录)已扩充休整素材并同步入组关系与术语；不提前公开候选、不自动回血，正式素材仍为 8 份 Qualified GDD Material / Hypothesis。需验证一类满额是否过早限制其他类别获取。
 
-下一步：确认休整恢复的整体方式。建议一次有限回血、最多补至生命上限，轻伤仍可补满，具体恢复量后置。[恢复方式评议](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议休整生命恢复方式)仍为 Raw Idea / Unqualified；需平衡累计损耗的规划价值与连续恢复失去成长的风险。
+最新确认：选择休整恢复时获得一次有限回血，最多补至当前生命上限，轻伤可补满，具体恢复量后定。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#休整有限生命恢复确认记录)已扩充休整素材并同步生命保留与术语；正式素材仍为 8 份 Qualified GDD Material / Hypothesis，恢复不足影响成长的风险尚未验证。
+
+下一步：讨论休整机会是否提前可知。建议下一次休整在流程中的位置提前告知，具体路线与间隔后定，让玩家判断生命需要支撑到哪里。[可预知性评议](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议休整机会的可预知性)仍为 Raw Idea / Unqualified，不预设地图结构或每局固定布局。
