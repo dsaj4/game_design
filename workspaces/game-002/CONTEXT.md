@@ -13,8 +13,16 @@ _Avoid_：与单句施法成功、整局通关或自动获得奖励混称。
 _Avoid_：与单句被打断或材料缺失落空混称，或据此推定局外进度损失。
 
 **本局结束**：
-当前 Roguelike 游玩流程的终止；已确认普通战斗失败会触发，继续游玩时重新开局，整局通关条件仍未确定。来源见[战败范围确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#战败结束本局确认记录)。
+当前 Roguelike 游玩流程的终止；已确认普通战斗失败会触发，继续游玩时重新开局；基础版赢下本局终点首领战则通关并结束本局。来源见[胜负与本局结束素材](game-design-workflow/idea-materials/M-2026-09-05-normal-combat-outcomes.md)。
 _Avoid_：与单句结束、本场移除或所有永久进度清除混称。
+
+**终点首领战**：
+本局最后的目标战斗；基础版赢下该战斗即通关并结束本局。来源见[终点通关确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#终点首领战通关确认记录)。
+_Avoid_：与途中首领战或首领的单个阶段混称，或由此推定每局首领身份固定及战斗细则已确定。
+
+**本局通关**：
+基础版赢下本局终点首领战后，对当前一局成功完成的判定；判定后本局结束。来源同[胜负与本局结束素材](game-design-workflow/idea-materials/M-2026-09-05-normal-combat-outcomes.md)。
+_Avoid_：与普通单场胜利、局外解锁或自动获得通关奖励混称。
 
 **战后生命保留**：
 普通战斗获胜后，剩余生命继续进入后续流程、胜利本身不自动回满的原则；恢复途径另行设计。来源见[生命保留素材](game-design-workflow/idea-materials/M-2026-09-05-post-victory-health-persistence.md)。

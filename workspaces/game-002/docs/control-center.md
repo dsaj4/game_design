@@ -101,4 +101,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认：战斗中获得的护甲、燃烧等临时战场状态默认在整场战斗结束时清除；本场跨行动留存有效，生命与词卡各自沿用已确认范围。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#临时战场状态战后清除确认记录)已扩充[状态素材](../game-design-workflow/idea-materials/M-2026-09-05-battle-state-persistence.md)，Qualified GDD Material / Hypothesis，素材仍为 7 份。
 
-下一步：澄清整局通关目标。推荐基础版赢下终点首领战即通关并结束本局；[通关候选](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议终点首领战与本局通关)仍为 Raw Idea / Unqualified。首领战细则、途中流程、恢复机会、具体能力、数值与界面后续分别讨论。
+最新确认：基础版赢下本局终点首领战即通关并结束本局。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#终点首领战通关确认记录)已扩充[胜负与本局结束素材](../game-design-workflow/idea-materials/M-2026-09-05-normal-combat-outcomes.md)，Qualified GDD Material / Hypothesis；素材仍为 7 份。首领战自身的胜负、阶段和其他细则另议。
+
+下一步：评议战斗间休整的恢复与构筑取舍。建议每次休整只能选择恢复生命或改善卡组中的一项；[休整候选](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议休整时的恢复与构筑取舍)为 Raw Idea / Unqualified。需要检验低生命是否导致被迫连续恢复而缺乏成长；机会分布、改善方式、具体数值和界面后续讨论。
