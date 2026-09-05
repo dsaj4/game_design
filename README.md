@@ -4,7 +4,7 @@
 
 ## 当前工作区
 
-- **[game-002：新游戏构思](workspaces/game-002/README.md)**：默认工作区，Active / Awaiting First Idea。名称、类型、玩法、目标玩家和实现方式均未定。
+- **[game-002：新游戏构思](workspaces/game-002/README.md)**：默认工作区，Active / Idea Qualification。已收到暂定名《言咒》的原始初稿，尚未通过素材资格确认；正式玩法、目标玩家和实现方式均未定。
 - **[上一款游戏归档](archive/2026-09-05-core-card-project/README.md)**：Parked / Archived，2026-09-05 暂停。
 
 新游戏与上一款游戏无关，不是续作、改版或技术迁移。旧设定、素材资格、决策、测试、代码和排期不会自动继承。

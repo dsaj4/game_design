@@ -4,7 +4,7 @@
 
 | Project ID | 入口 | 状态 | 默认 |
 | --- | --- | --- | --- |
-| game-002 | [新游戏](../workspaces/game-002/README.md) | Active / Awaiting First Idea | 是 |
+| game-002 | [新游戏](../workspaces/game-002/README.md) | Active / Idea Qualification | 是 |
 | core-card-project | [上一款游戏](../archive/2026-09-05-core-card-project/README.md) | Parked / Archived | 否 |
 
 新游戏与上一款游戏无关，不继承设定、素材资格、决策、测试、代码或排期。
