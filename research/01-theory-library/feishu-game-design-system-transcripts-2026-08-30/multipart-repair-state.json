@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "createdAt": "2026-08-31T03:22:37.8224978Z",
-  "updatedAt": "2026-08-31T06:28:30.8509370Z",
+  "updatedAt": "2026-09-05T02:14:15.8587426Z",
   "entries": [
     {
       "key": "BV1278C6yEP5:1",
@@ -1631,7 +1631,7 @@
       "attempts": 1,
       "transcriptionId": "49371089d28e456ba2a6e4a10dfa6917",
       "provider": "dashscope_funasr",
-      "durationSeconds": 119.0,
+      "durationSeconds": 119,
       "transcriptChars": 591,
       "sha256": "f720df66a6a9dc6f70c56861e702052759a506510da332f6a924321350c4bb3e",
       "error": null,
@@ -2521,8 +2521,8 @@
       "expectedDurationSeconds": 484,
       "transcriptFile": "transcripts/BV1cagy6xEmp/p007.txt",
       "status": "failed",
-      "attempts": 5,
-      "transcriptionId": "f0f0d35d1aeb445f86c893b4624b0e5b",
+      "attempts": 8,
+      "transcriptionId": "bc5270a292c04a41814c89e0c457e3dd",
       "provider": null,
       "durationSeconds": null,
       "transcriptChars": 0,
@@ -2531,7 +2531,7 @@
         "code": "TASK_EXECUTION_FAILED",
         "message": "DashScope FunASR request failed: id:1\nevent:error\ndata:{}"
       },
-      "updatedAt": "2026-08-31T06:26:25.5949284Z"
+      "updatedAt": "2026-09-04T10:38:50.0307884Z"
     },
     {
       "key": "BV1cagy6xEmp:8",
@@ -2679,7 +2679,7 @@
       "attempts": 1,
       "transcriptionId": "e3cde20548404dc9a72b42ba6a9793d8",
       "provider": "dashscope_funasr",
-      "durationSeconds": 265.0,
+      "durationSeconds": 265,
       "transcriptChars": 1145,
       "sha256": "af6965b5b7158b8acea7fb012726008795dbc4e0f534766af563dada2cfdf4d2",
       "error": null,
@@ -3018,8 +3018,8 @@
       "expectedDurationSeconds": 164,
       "transcriptFile": "transcripts/BV1cagy6xEmp/p033.txt",
       "status": "failed",
-      "attempts": 5,
-      "transcriptionId": "9713c4aae0904ba8b95ff5633fab07b4",
+      "attempts": 9,
+      "transcriptionId": "e356cce293094235b315f7e0e4b26894",
       "provider": null,
       "durationSeconds": null,
       "transcriptChars": 0,
@@ -3028,7 +3028,7 @@
         "code": "TASK_EXECUTION_FAILED",
         "message": "DashScope FunASR request failed: id:1\nevent:error\ndata:{}"
       },
-      "updatedAt": "2026-08-31T06:27:07.3258829Z"
+      "updatedAt": "2026-09-04T10:48:22.723448Z"
     },
     {
       "key": "BV1cagy6xEmp:34",
@@ -3154,8 +3154,8 @@
       "expectedDurationSeconds": 241,
       "transcriptFile": "transcripts/BV1cagy6xEmp/p040.txt",
       "status": "failed",
-      "attempts": 5,
-      "transcriptionId": "ec90d7b0e26945ee937ee6c6ff7b193b",
+      "attempts": 8,
+      "transcriptionId": "dfacfdd904c0454884ed940f0757c327",
       "provider": null,
       "durationSeconds": null,
       "transcriptChars": 0,
@@ -3164,7 +3164,7 @@
         "code": "TASK_EXECUTION_FAILED",
         "message": "DashScope FunASR request failed: id:1\nevent:error\ndata:{}"
       },
-      "updatedAt": "2026-08-31T06:27:49.1112140Z"
+      "updatedAt": "2026-09-04T10:40:56.4178076Z"
     },
     {
       "key": "BV1cagy6xEmp:41",
@@ -4490,7 +4490,7 @@
       "attempts": 1,
       "transcriptionId": "eb8577a30c584245903beaba5310075d",
       "provider": "dashscope_funasr",
-      "durationSeconds": 843.0,
+      "durationSeconds": 843,
       "transcriptChars": 4267,
       "sha256": "13bcb133d5a47345b44486f9791e93b91764782c400b7af3488e05f0feea602f",
       "error": null,
@@ -4677,8 +4677,8 @@
       "expectedDurationSeconds": 242,
       "transcriptFile": "transcripts/BV1pgNZ6JERH/p005.txt",
       "status": "failed",
-      "attempts": 5,
-      "transcriptionId": "732e0f2bcb224f6b9a20cdcee4115647",
+      "attempts": 8,
+      "transcriptionId": "d857f540771c4b4eb156336f67c67e25",
       "provider": null,
       "durationSeconds": null,
       "transcriptChars": 0,
@@ -4687,7 +4687,7 @@
         "code": "TASK_EXECUTION_FAILED",
         "message": "DashScope FunASR request failed: id:1\nevent:error\ndata:{}"
       },
-      "updatedAt": "2026-08-31T06:28:30.8385313Z"
+      "updatedAt": "2026-09-04T10:41:28.0102608Z"
     },
     {
       "key": "BV1pgNZ6JERH:6",
@@ -5614,7 +5614,7 @@
       "attempts": 1,
       "transcriptionId": "1835f7e457d847febe889a5fdb5534d2",
       "provider": "dashscope_funasr",
-      "durationSeconds": 319.0,
+      "durationSeconds": 319,
       "transcriptChars": 1182,
       "sha256": "72fc9039f10dc759d411f1fe44908e959d6a96cdf5a1469da417e2a8b0ab4b3b",
       "error": null,
@@ -5709,7 +5709,7 @@
       "attempts": 1,
       "transcriptionId": "1c286de7a8884605aea2a6d663505fcb",
       "provider": "dashscope_funasr",
-      "durationSeconds": 289.0,
+      "durationSeconds": 289,
       "transcriptChars": 1023,
       "sha256": "781b19a3bce0e2d76142c5ccb4ae8b705cac6cc74a1670617d087c0173b7b89a",
       "error": null,
@@ -9699,7 +9699,7 @@
       "attempts": 1,
       "transcriptionId": "a693e45f4b264a0794d25f0f7e5c2a03",
       "provider": "dashscope_funasr",
-      "durationSeconds": 168.0,
+      "durationSeconds": 168,
       "transcriptChars": 851,
       "sha256": "91780aca42ecd51cf93863d3032ddd32f382f72f2d8c88c4c2e8874ff74d20c0",
       "error": null,

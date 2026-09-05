@@ -1,6 +1,6 @@
 {
   "package": "feishu-game-design-system-transcripts",
-  "generatedAt": "2026-08-31T06:35:30.6830083Z",
+  "generatedAt": "2026-09-05T02:22:49.5172440Z",
   "state": "Research Input / Transcript Archive",
   "source": {
     "type": "Feishu Bitable",
@@ -11,8 +11,6 @@
   },
   "courseRecordCount": 237,
   "uniqueVideoCount": 235,
-  "completedTranscriptCount": 233,
-  "failedTranscriptCount": 2,
   "duplicateVideoGroups": [
     {
       "url": "https://www.bilibili.com/video/BV1kTKj6PEp9",
@@ -37,16 +35,6 @@
       ]
     }
   ],
-  "providerCounts": [
-    {
-      "provider": "bilibili-subtitle",
-      "count": 224
-    },
-    {
-      "provider": "dashscope_funasr",
-      "count": 9
-    }
-  ],
   "totalTranscriptChars": 2499340,
   "records": [
     {
@@ -63,7 +51,7 @@
         "行业洞察"
       ],
       "introduction": "【视频简介】\n游戏设计简明入门课程，由资深游戏设计师 Lewis Pulsipher 主讲。从游戏设计的核心概念出发，帮助你理解什么是游戏设计、玩家在游戏中的行为模式，以及如何从一个想法开始构建游戏。适合完全没有游戏设计经验的初学者。\n\n【你将学到】\n1. 游戏设计的核心概念和基本流程\n2. 玩家行为分析和游戏动机\n3. 从零开始设计游戏的步骤\n4. 游戏规则和机制的基础知识\n5. 游戏设计师的思维方式",
-      "transcriptionId": "0a715cb51f7048e8bd38811a914902a6",
+      "transcriptionId": null,
       "status": "completed",
       "provider": "mixed",
       "durationSeconds": 10691.181999999999,
@@ -71,6 +59,8 @@
       "transcriptChars": 60065,
       "sha256": "e841cc23e9fffd0e61472352dc635b0806328d29ad08b4d0653b7ef868a434fe",
       "error": null,
+      "initialTranscriptionId": "0a715cb51f7048e8bd38811a914902a6",
+      "transcriptionIdAuthority": "parts[].transcriptionId",
       "bilibiliPageCount": 29,
       "bilibiliTotalDurationSeconds": 10760,
       "partCompletion": {
@@ -643,7 +633,7 @@
         "制作人分享"
       ],
       "introduction": "【视频简介】\n从游戏创意到最终发布的完整设计流程课程。Pascal Luban 带你走完游戏设计的全周期——从概念构思、文档撰写、原型制作到迭代优化和最终发布。\n\n【你将学到】\n1. 游戏从创意到发布的完整设计流程\n2. 游戏设计文档的撰写方法\n3. 原型制作和快速迭代技巧\n4. 游戏平衡性调整方法\n5. 发布前测试和优化策略\n\n课程配套资源:\n夸克网盘: https://pan.quark.cn/s/8e9af54942f3\n百度网盘: https://pan.baidu.com/s/1C3fh9mHh",
-      "transcriptionId": "8d90ccade60d47b89f8772805e7bded2",
+      "transcriptionId": null,
       "status": "completed",
       "provider": "mixed",
       "durationSeconds": 12953.631000000001,
@@ -651,6 +641,8 @@
       "transcriptChars": 69411,
       "sha256": "35c06dc0ee65ebcfa086b3c1e16ebf923f3df4a720fcf35f7a878bf76105cdad",
       "error": null,
+      "initialTranscriptionId": "8d90ccade60d47b89f8772805e7bded2",
+      "transcriptionIdAuthority": "parts[].transcriptionId",
       "bilibiliPageCount": 20,
       "bilibiliTotalDurationSeconds": 12964,
       "partCompletion": {
@@ -975,7 +967,7 @@
           "attempts": 1,
           "transcriptionId": "eb8577a30c584245903beaba5310075d",
           "provider": "dashscope_funasr",
-          "durationSeconds": 843.0,
+          "durationSeconds": 843,
           "transcriptChars": 4267,
           "sha256": "13bcb133d5a47345b44486f9791e93b91764782c400b7af3488e05f0feea602f",
           "error": null,
@@ -1053,7 +1045,7 @@
         "反馈机制"
       ],
       "introduction": "【视频简介】\n游戏测试是游戏设计中最核心的环节之一。Lewis Pulsipher 系统讲解如何进行有效的游戏测试——从测试计划、测试执行到数据分析，帮助你通过测试迭代提升游戏品质。\n\n【你将学到】\n1. 游戏测试的核心方法论\n2. 测试计划和测试用例设计\n3. 玩家反馈收集和分析技巧\n4. 数据驱动的游戏迭代方法\n5. 常见的游戏设计缺陷和修复策略\n\n课程配套资源:\n夸克网盘: https://pan.quark.cn/s/85ee07e1167c\n百度网盘: https://pan.baidhttps,【视频简介】\n游戏测试是游戏设计中最核心的环节之一。Lewis Pulsipher 系统讲解如何进行有效的游戏测试——从测试计划、测试执行到数据分析，帮助你通过测试迭代提升游戏品质。\n\n【你将学到】\n1. 游戏测试的核心方法论\n2. 测试计划和测试用例设计\n3. 玩家反馈收集和分析技巧\n4. 数据驱动的游戏迭代方法\n5. 常见的游戏设计缺陷和修复策略\n\n课程配套资源:\n夸克网盘: https://pan.quark.cn/s/85ee07e1167c\n百度网盘: https://pan.baidu.com",
-      "transcriptionId": "2c40d2f328ba42628a238bfe018d02e8",
+      "transcriptionId": null,
       "status": "completed",
       "provider": "mixed",
       "durationSeconds": 9650.501999999999,
@@ -1061,6 +1053,8 @@
       "transcriptChars": 56333,
       "sha256": "a83b923b0c5f041bfb185cedf6242beb09d847ba24182ec11886c06d5ec6aa9f",
       "error": null,
+      "initialTranscriptionId": "2c40d2f328ba42628a238bfe018d02e8",
+      "transcriptionIdAuthority": "parts[].transcriptionId",
       "bilibiliPageCount": 30,
       "bilibiliTotalDurationSeconds": 9673,
       "partCompletion": {
@@ -1195,7 +1189,7 @@
           "attempts": 1,
           "transcriptionId": "a693e45f4b264a0794d25f0f7e5c2a03",
           "provider": "dashscope_funasr",
-          "durationSeconds": 168.0,
+          "durationSeconds": 168,
           "transcriptChars": 851,
           "sha256": "91780aca42ecd51cf93863d3032ddd32f382f72f2d8c88c4c2e8874ff74d20c0",
           "error": null,
@@ -1652,7 +1646,7 @@
         "设计思维"
       ],
       "introduction": "【视频简介】\n专业的游戏设计文档是游戏开发的基础。本课程教你如何撰写完整的GDD，从概念描述到技术规格，覆盖游戏设计师必备的文档技能。\n\n【你将学到】\n1. GDD的标准结构和内容组织\n2. 游戏概念和核心循环的描述方法\n3. 系统设计和机制文档化\n4. 关卡和叙事设计文档撰写\n5. 团队协作中的文档管理",
-      "transcriptionId": "126651b4caa44f819164f213c8f6eedf",
+      "transcriptionId": null,
       "status": "partial",
       "provider": "dashscope_funasr",
       "durationSeconds": 8860.156000000003,
@@ -1663,6 +1657,8 @@
         "code": "MULTIPART_INCOMPLETE",
         "message": "44/45 parts completed"
       },
+      "initialTranscriptionId": "126651b4caa44f819164f213c8f6eedf",
+      "transcriptionIdAuthority": "parts[].transcriptionId",
       "bilibiliPageCount": 45,
       "bilibiliTotalDurationSeconds": 9124,
       "partCompletion": {
@@ -1756,8 +1752,8 @@
           "expectedDurationSeconds": 242,
           "transcriptFile": "transcripts/BV1pgNZ6JERH/p005.txt",
           "status": "failed",
-          "attempts": 5,
-          "transcriptionId": "732e0f2bcb224f6b9a20cdcee4115647",
+          "attempts": 8,
+          "transcriptionId": "d857f540771c4b4eb156336f67c67e25",
           "provider": null,
           "durationSeconds": null,
           "transcriptChars": 0,
@@ -1766,7 +1762,7 @@
             "code": "TASK_EXECUTION_FAILED",
             "message": "DashScope FunASR request failed: id:1\nevent:error\ndata:{}"
           },
-          "updatedAt": "2026-08-31T06:28:30.8385313Z"
+          "updatedAt": "2026-09-04T10:41:28.0102608Z"
         },
         {
           "key": "BV1pgNZ6JERH:6",
@@ -2543,7 +2539,7 @@
         "玩法机制"
       ],
       "introduction": "【视频简介】\n清晰、准确、无歧义的规则是游戏的基础。本课程教你如何撰写易于理解的游戏规则和游戏设计文档。\n\n【你将学到】\n1. 游戏规则的结构和撰写方法\n2. 规则清晰性和一致性保证\n3. 游戏设计文档的编写技巧\n4. 常见规则陷阱和避免方法\n5. 玩家测试和规则优化",
-      "transcriptionId": "6909fcd8c5a84a59a7c2c63a828001ff",
+      "transcriptionId": null,
       "status": "completed",
       "provider": "mixed",
       "durationSeconds": 11394.169999999998,
@@ -2551,6 +2547,8 @@
       "transcriptChars": 70398,
       "sha256": "f8945fa8213eb014a26c5a3e1bff13ade5400eac177340e241b45e5a3a64a987",
       "error": null,
+      "initialTranscriptionId": "6909fcd8c5a84a59a7c2c63a828001ff",
+      "transcriptionIdAuthority": "parts[].transcriptionId",
       "bilibiliPageCount": 59,
       "bilibiliTotalDurationSeconds": 11450,
       "partCompletion": {
@@ -2913,7 +2911,7 @@
           "attempts": 1,
           "transcriptionId": "49371089d28e456ba2a6e4a10dfa6917",
           "provider": "dashscope_funasr",
-          "durationSeconds": 119.0,
+          "durationSeconds": 119,
           "transcriptChars": 591,
           "sha256": "f720df66a6a9dc6f70c56861e702052759a506510da332f6a924321350c4bb3e",
           "error": null,
@@ -3695,7 +3693,7 @@
         "核心循环"
       ],
       "introduction": "【视频简介】\n桌面角色扮演游戏（TRPG）设计入门课程。从世界观构建到角色系统，系统学习TRPG设计的完整流程。\n\n【你将学到】\n1. TRPG的基本结构和设计理念\n2. 世界观和故事设定构建方法\n3. 角色系统和成长机制设计\n4. 战斗系统和判定机制\n5. GM引导技巧和场景设计\n\n【课程章节】\n01 - 引言\n02 - 游戏设计\n03 - RPG设计\n04 - 桌游RPG的商业面\n05 - 杂项与补充材料\n\n【课程配套资料】\n夸克网盘: https://pan.quark.cn/s/fe256a052",
-      "transcriptionId": "64ed9b0cd11849b180f2d38aebf5ea75",
+      "transcriptionId": null,
       "status": "completed",
       "provider": "dashscope_funasr",
       "durationSeconds": 14878.466999999999,
@@ -3703,6 +3701,8 @@
       "transcriptChars": 85350,
       "sha256": "8f35712ce09a7b5aea55e924eedab94f588fe3e6288b9876beb854cbd8158d74",
       "error": null,
+      "initialTranscriptionId": "64ed9b0cd11849b180f2d38aebf5ea75",
+      "transcriptionIdAuthority": "parts[].transcriptionId",
       "bilibiliPageCount": 40,
       "bilibiliTotalDurationSeconds": 14933,
       "partCompletion": {
@@ -4486,7 +4486,7 @@
         "玩家心理"
       ],
       "introduction": "【讲师介绍】\n讲师 Lewis Pulsipher 是一位拥有超过 30 年游戏设计经验的老兵，曾在多所大学教授游戏设计课程，出版了多本游戏设计专著。他设计的桌游在业内获得了广泛认可，被多家知名厂商发行。在这门课里，他不会讲空洞的理论，而是从最基础的问题出发——「游戏设计到底是什么」，带你一步步建立正确的设计思维框架。\n\n【课程简介】\n做了几年游戏还是摸不到门道？看了无数教程却不知道从哪下手？这门课就是为你准备的。从游戏设计的本质定义出发，带你搞清「设计」和「做游戏」的区别、学会如何拆解优秀作品的设计逻辑",
-      "transcriptionId": "d31a59c91a5247a290783bd448290cb4",
+      "transcriptionId": null,
       "status": "completed",
       "provider": "mixed",
       "durationSeconds": 25342.266999999996,
@@ -4494,6 +4494,8 @@
       "transcriptChars": 144410,
       "sha256": "843cb40c9c0ba4eb0d5d2d9d88cfe23a2c906ad3366e0231fc241ac423f645a8",
       "error": null,
+      "initialTranscriptionId": "d31a59c91a5247a290783bd448290cb4",
+      "transcriptionIdAuthority": "parts[].transcriptionId",
       "bilibiliPageCount": 86,
       "bilibiliTotalDurationSeconds": 25447,
       "partCompletion": {
@@ -6151,7 +6153,7 @@
         "核心循环"
       ],
       "introduction": "【讲师介绍】\n讲师 Lewis Pulsipher 是一位拥有超过 30 年游戏设计经验的老兵，出版了多本游戏设计畅销书，被全球多所高校选为教材。他曾在游戏设计领域获得多项殊荣，他的课程被全球数万名学员评价为「最实用的游戏设计入门课」。在第二部分里，他将带你深入研究优秀游戏的设计逻辑，学会分析和复现那些「就是好玩」的设计秘诀。\n\n【课程简介】\n你做出了第一款游戏，但总觉得差了点什么？不知道它为什么不够好玩？这门课就是解决这个问题的。在 Part 1(上篇) 的基础上，Part 2 (下篇) 聚焦于「什么让",
-      "transcriptionId": "ca7b362bc93d4e6ab538de784c598671",
+      "transcriptionId": null,
       "status": "partial",
       "provider": "mixed",
       "durationSeconds": 28956.142000000007,
@@ -6162,6 +6164,8 @@
         "code": "MULTIPART_INCOMPLETE",
         "message": "74/77 parts completed"
       },
+      "initialTranscriptionId": "ca7b362bc93d4e6ab538de784c598671",
+      "transcriptionIdAuthority": "parts[].transcriptionId",
       "bilibiliPageCount": 77,
       "bilibiliTotalDurationSeconds": 29928,
       "partCompletion": {
@@ -6293,8 +6297,8 @@
           "expectedDurationSeconds": 484,
           "transcriptFile": "transcripts/BV1cagy6xEmp/p007.txt",
           "status": "failed",
-          "attempts": 5,
-          "transcriptionId": "f0f0d35d1aeb445f86c893b4624b0e5b",
+          "attempts": 8,
+          "transcriptionId": "bc5270a292c04a41814c89e0c457e3dd",
           "provider": null,
           "durationSeconds": null,
           "transcriptChars": 0,
@@ -6303,7 +6307,7 @@
             "code": "TASK_EXECUTION_FAILED",
             "message": "DashScope FunASR request failed: id:1\nevent:error\ndata:{}"
           },
-          "updatedAt": "2026-08-31T06:26:25.5949284Z"
+          "updatedAt": "2026-09-04T10:38:50.0307884Z"
         },
         {
           "key": "BV1cagy6xEmp:8",
@@ -6451,7 +6455,7 @@
           "attempts": 1,
           "transcriptionId": "e3cde20548404dc9a72b42ba6a9793d8",
           "provider": "dashscope_funasr",
-          "durationSeconds": 265.0,
+          "durationSeconds": 265,
           "transcriptChars": 1145,
           "sha256": "af6965b5b7158b8acea7fb012726008795dbc4e0f534766af563dada2cfdf4d2",
           "error": null,
@@ -6790,8 +6794,8 @@
           "expectedDurationSeconds": 164,
           "transcriptFile": "transcripts/BV1cagy6xEmp/p033.txt",
           "status": "failed",
-          "attempts": 5,
-          "transcriptionId": "9713c4aae0904ba8b95ff5633fab07b4",
+          "attempts": 9,
+          "transcriptionId": "e356cce293094235b315f7e0e4b26894",
           "provider": null,
           "durationSeconds": null,
           "transcriptChars": 0,
@@ -6800,7 +6804,7 @@
             "code": "TASK_EXECUTION_FAILED",
             "message": "DashScope FunASR request failed: id:1\nevent:error\ndata:{}"
           },
-          "updatedAt": "2026-08-31T06:27:07.3258829Z"
+          "updatedAt": "2026-09-04T10:48:22.723448Z"
         },
         {
           "key": "BV1cagy6xEmp:34",
@@ -6926,8 +6930,8 @@
           "expectedDurationSeconds": 241,
           "transcriptFile": "transcripts/BV1cagy6xEmp/p040.txt",
           "status": "failed",
-          "attempts": 5,
-          "transcriptionId": "ec90d7b0e26945ee937ee6c6ff7b193b",
+          "attempts": 8,
+          "transcriptionId": "dfacfdd904c0454884ed940f0757c327",
           "provider": null,
           "durationSeconds": null,
           "transcriptChars": 0,
@@ -6936,7 +6940,7 @@
             "code": "TASK_EXECUTION_FAILED",
             "message": "DashScope FunASR request failed: id:1\nevent:error\ndata:{}"
           },
-          "updatedAt": "2026-08-31T06:27:49.111214Z"
+          "updatedAt": "2026-09-04T10:40:56.4178076Z"
         },
         {
           "key": "BV1cagy6xEmp:41",
@@ -7658,7 +7662,7 @@
         "玩法机制"
       ],
       "introduction": "【讲师介绍】\n由游戏设计讲师 Philipp Stenger 主讲，从玩家心理学出发，系统讲解游戏从构想到落地的完整设计方法，适合没有任何设计经验的开发者入门。\n\n【视频简介】\n游戏设计不只是「想一个好点子」。这门课带你系统走一遍游戏设计的完整旅程：从玩家心理学出发理解动机与挑战，拆解机制（Mechanics）、动态（Dynamics）与玩家体验如何相互作用；再落到实践层面——如何写游戏设计文档（GDD）、如何平衡数值、如何设计关卡与流程（Flow），以及游戏设计师在团队中的真实职责与沟通方式。无论你是开",
-      "transcriptionId": "07be6853a70d4cabbe055ca2a29c5e30",
+      "transcriptionId": null,
       "status": "completed",
       "provider": "mixed",
       "durationSeconds": 35773.054000000004,
@@ -7666,6 +7670,8 @@
       "transcriptChars": 181018,
       "sha256": "6311f1a309ff5f95407ca04ce9bd073e4e347d04106ee648c576ad30929d344c",
       "error": null,
+      "initialTranscriptionId": "07be6853a70d4cabbe055ca2a29c5e30",
+      "transcriptionIdAuthority": "parts[].transcriptionId",
       "bilibiliPageCount": 34,
       "bilibiliTotalDurationSeconds": 35841,
       "partCompletion": {
@@ -8335,7 +8341,7 @@
         "核心循环"
       ],
       "introduction": "【讲师介绍】\n本内容由游戏设计讲师 Gabriel Chauri 呈现，其拥有丰富的游戏设计经验，擅长把抽象的设计理论转化为可落地的实战方法，帮助您从零建立系统的游戏设计思维。\n\n【视频简介】\n一套内容打通游戏设计的完整知识体系：从游戏设计基础、设计思维流程、玩家心理学，到 GDD 文档写作、数学与概率建模、系统设计与平衡，最后亲手从零设计一款卡牌游戏。82 节 4 小时 20 分钟的内容覆盖设计全流程，特别适合想系统入行游戏设计、缺乏理论框架的开发者。\n\n【你将学到】\n1. 掌握游戏设计核心概念与 MD",
-      "transcriptionId": "c6fae38e6e9346cebe04dd9579f2a816",
+      "transcriptionId": null,
       "status": "completed",
       "provider": "mixed",
       "durationSeconds": 14698.742000000002,
@@ -8343,6 +8349,8 @@
       "transcriptChars": 64806,
       "sha256": "f83c5d6fc02498c359a2f9676bdf11e2eb003498c88948f9b016d995142951e4",
       "error": null,
+      "initialTranscriptionId": "c6fae38e6e9346cebe04dd9579f2a816",
+      "transcriptionIdAuthority": "parts[].transcriptionId",
       "bilibiliPageCount": 44,
       "bilibiliTotalDurationSeconds": 14753,
       "partCompletion": {
@@ -8515,7 +8523,7 @@
           "attempts": 1,
           "transcriptionId": "1835f7e457d847febe889a5fdb5534d2",
           "provider": "dashscope_funasr",
-          "durationSeconds": 319.0,
+          "durationSeconds": 319,
           "transcriptChars": 1182,
           "sha256": "72fc9039f10dc759d411f1fe44908e959d6a96cdf5a1469da417e2a8b0ab4b3b",
           "error": null,
@@ -8610,7 +8618,7 @@
           "attempts": 1,
           "transcriptionId": "1c286de7a8884605aea2a6d663505fcb",
           "provider": "dashscope_funasr",
-          "durationSeconds": 289.0,
+          "durationSeconds": 289,
           "transcriptChars": 1023,
           "sha256": "781b19a3bce0e2d76142c5ccb4ae8b705cac6cc74a1670617d087c0173b7b89a",
           "error": null,
@@ -9197,7 +9205,7 @@
       "bilibiliUrl": "https://www.bilibili.com/video/BV1278C6yEP5",
       "keywords": [],
       "introduction": "【讲师介绍】\n本内容由资深游戏设计教育专家讲解，其拥有多年游戏设计教学经验, 擅长将复杂的游戏设计理论转化为可操作的实践方法，帮助了数千名学员入门游戏设计领域。\n\n【内容简介】\n游戏设计不仅仅是\"想一个好点子\"——它是一门融合心理学、系统设计和用户体验的学科。这份内容浓缩了游戏设计的精华知识，从基础概念到高级设计技巧，涵盖游戏机制设计、系统平衡、玩家动机分析等核心内容。无论你是想系统学习游戏设计，还是已经有一些项目经验想提升设计思维，这份内容都能给你实打实的帮助。\n\n【你将学到】\n1. 游戏设计的基础理论",
-      "transcriptionId": "9820c71741ee4b18bbe8a59fa64b5907",
+      "transcriptionId": null,
       "status": "completed",
       "provider": "mixed",
       "durationSeconds": 14512.74,
@@ -9205,6 +9213,8 @@
       "transcriptChars": 84181,
       "sha256": "b3ac686a2f94605cba79969a2d5ede9ac4bb62bc0109218c666ba598b85e0f03",
       "error": null,
+      "initialTranscriptionId": "9820c71741ee4b18bbe8a59fa64b5907",
+      "transcriptionIdAuthority": "parts[].transcriptionId",
       "bilibiliPageCount": 27,
       "bilibiliTotalDurationSeconds": 14557,
       "partCompletion": {
@@ -9741,7 +9751,7 @@
         "设计哲学"
       ],
       "introduction": "【讲师介绍】\n本课程由行为科学和游戏设计交叉领域的专家授课。讲师将Praxeology（人类行为学）理论引入游戏设计，为理解玩家行为提供了全新的科学框架。\n\n【课程简介】\n为什么有些游戏让人一玩就停不下来，而你的游戏玩家五分钟就退出了？答案可能不在美术或玩法上，而在行为设计的底层逻辑中。这门课从人类行为学（Praxeology）的角度，系统拆解玩家决策的心理机制。你将学会如何用科学方法分析玩家行为，设计出真正能抓住玩家的游戏机制。\n\n【你将学到】\n1. Praxeology（人类行为学）在游戏设计中的应用",
-      "transcriptionId": "17bf3cf140b44cc49369c045aa107a4d",
+      "transcriptionId": null,
       "status": "completed",
       "provider": "mixed",
       "durationSeconds": 6456.459999999999,
@@ -9749,6 +9759,8 @@
       "transcriptChars": 34179,
       "sha256": "1a0ad63ef4ae58743bea6f03b60917ede26b118d1a7e3174830a00fc66832b4a",
       "error": null,
+      "initialTranscriptionId": "17bf3cf140b44cc49369c045aa107a4d",
+      "transcriptionIdAuthority": "parts[].transcriptionId",
       "bilibiliPageCount": 14,
       "bilibiliTotalDurationSeconds": 6477,
       "partCompletion": {
@@ -10033,7 +10045,7 @@
       "bilibiliUrl": "https://www.bilibili.com/video/BV1uP8t6uExH",
       "keywords": [],
       "introduction": "【讲师介绍】\nPascal Luban是资深游戏设计师,在独立游戏和主机游戏领域有多年实战经验, 以系统化、结构化的设计方法闻名,本课是其\"游戏设计实战大师课\"系列第一部分,聚焦独立游戏最核心的系统设计环节。\n\n【内容简介】\n独立游戏开发最容易死在\"想法很美好但玩起来很散\"。这内容来自 Pascal Luban 的\"游戏设计实战大师课\"系列第一部分(3小时25分),帮你从「想法」走到「能跑的核心系统」:用系统化的方法设计你游戏的核心玩法闭环、关键状态机、玩家循环,把\"好玩\"这件事从直觉变成可设计可验证的工",
-      "transcriptionId": "917a140799034ba1b9595c2e0ef0c5b3",
+      "transcriptionId": null,
       "status": "completed",
       "provider": "mixed",
       "durationSeconds": 10445.784,
@@ -10041,6 +10053,8 @@
       "transcriptChars": 46328,
       "sha256": "30a2e0774d618bd9f56b2d27043bb379129f4a88345e96088c77372fd50976ab",
       "error": null,
+      "initialTranscriptionId": "917a140799034ba1b9595c2e0ef0c5b3",
+      "transcriptionIdAuthority": "parts[].transcriptionId",
       "bilibiliPageCount": 24,
       "bilibiliTotalDurationSeconds": 10472,
       "partCompletion": {
@@ -11748,7 +11762,7 @@
       "transcriptionId": "b4fad3b618b148309852b554502df32f",
       "status": "completed",
       "provider": "bilibili-subtitle",
-      "durationSeconds": 452.0,
+      "durationSeconds": 452,
       "transcriptFile": "transcripts/BV1CHN86MENH.txt",
       "transcriptChars": 2524,
       "sha256": "4f7c31111aa22b0af926c2314f90636ef7d19ecf3faa4e74d21c1e7c2e7f69de",
@@ -12453,7 +12467,7 @@
       "transcriptionId": "9a64ebe9d537410eb6bec65a72cfb245",
       "status": "completed",
       "provider": "bilibili-subtitle",
-      "durationSeconds": 391.0,
+      "durationSeconds": 391,
       "transcriptFile": "transcripts/BV16Y8365EQG.txt",
       "transcriptChars": 2010,
       "sha256": "8f0afc6fcf0fed97f915137688c71d7ff43588afc9ec400ca8c7dc5df937f688",
@@ -15810,7 +15824,7 @@
       "transcriptionId": "7970e47c89ed4bc990143f5ed3a79be2",
       "status": "completed",
       "provider": "bilibili-subtitle",
-      "durationSeconds": 470.0,
+      "durationSeconds": 470,
       "transcriptFile": "transcripts/BV1moTy6tE3b.txt",
       "transcriptChars": 2586,
       "sha256": "3c94199605e3de8c92a6ccb153f08ee6a91e679f969dc0d33a9aaf507b4dca84",
@@ -16374,7 +16388,7 @@
       "transcriptionId": "ede615e0d11747f88862709347aaa61d",
       "status": "completed",
       "provider": "bilibili-subtitle",
-      "durationSeconds": 550.0,
+      "durationSeconds": 550,
       "transcriptFile": "transcripts/BV1nJMG64EVK.txt",
       "transcriptChars": 1904,
       "sha256": "8cd7ed072ba9002a82150eb75e023d442288a888ed0497208f9338daad3facba",
@@ -16503,7 +16517,7 @@
       "bilibiliUrl": "https://www.bilibili.com/video/BV1cD8H6CE52",
       "keywords": [],
       "introduction": "【视频简介】\nSplattercat 带你探索《生死深潜：雨之子民》——后末日水下文明生存游戏。在世界被洪水淹没的未来，你带领幸存者在水下建造基地、搜寻资源、抵御威胁。独特水下世界观+文明重建使命感，让这款游戏在生存游戏中脱颖而出。\n\n【你将学到】\n1. 《生死深潜：雨之子民》水下基地建设与资源管理\n2. 后末日题材的氛围塑造与世界观构建\n3. 文明重建类游戏的核心玩法循环\n4. 独立游戏如何打造独特生存系统\n5. 题材创新带来的玩家黏性提升\n\n在线课表：https://gcnw76y7x5f3.feis",
-      "transcriptionId": "f5c8eef653fd47c18853880001612c0c",
+      "transcriptionId": null,
       "status": "completed",
       "provider": "mixed",
       "durationSeconds": 4604.780000000001,
@@ -16511,6 +16525,8 @@
       "transcriptChars": 49632,
       "sha256": "a2f5230f4cf72e2d3e670cfeb215eb3526a8eaaa8208bc20a6b576936d69d42c",
       "error": null,
+      "initialTranscriptionId": "f5c8eef653fd47c18853880001612c0c",
+      "transcriptionIdAuthority": "parts[].transcriptionId",
       "bilibiliPageCount": 2,
       "bilibiliTotalDurationSeconds": 4609,
       "partCompletion": {
@@ -16592,7 +16608,7 @@
       "bilibiliUrl": "https://www.bilibili.com/video/BV1P28H6jEuh",
       "keywords": [],
       "introduction": "【视频简介】\nSplattercat 带你体验《暗黑西部The Dark West》——狂野西部题材的赏金猎人动作RPG。在无法无天的土地上，你将持枪追逐通缉犯、收集赏金、升级装备，感受西部拓荒的粗犷与自由。牛仔、左轮、马背对决，所有西部元素应有尽有。\n\n在线课表：https://gcnw76y7x5f3.feishu.cn/base/OP1jbJbGIaBmeisKLakcnwDZnMh?from=from_copylink\n\nSplattercatgaming (https://www.youtube",
-      "transcriptionId": "4d0b090d9edf4302af0d877c279e43dd",
+      "transcriptionId": null,
       "status": "completed",
       "provider": "mixed",
       "durationSeconds": 3827.41,
@@ -16600,6 +16616,8 @@
       "transcriptChars": 42534,
       "sha256": "ecf4ba89609271c82f69aa103fc244576f4ce936da00bc63b479cfc3871e5c38",
       "error": null,
+      "initialTranscriptionId": "4d0b090d9edf4302af0d877c279e43dd",
+      "transcriptionIdAuthority": "parts[].transcriptionId",
       "bilibiliPageCount": 2,
       "bilibiliTotalDurationSeconds": 3829,
       "partCompletion": {
@@ -16996,10 +17014,39 @@
       "parts": []
     }
   ],
+  "initialCompletedVideoProviderCounts": [
+    {
+      "provider": "bilibili-subtitle",
+      "count": 224
+    },
+    {
+      "provider": "dashscope_funasr",
+      "count": 9
+    }
+  ],
+  "completedRecordCount": 235,
+  "partialRecordCount": 2,
+  "failedRecordCount": 0,
   "totalPartCount": 753,
   "completedPartCount": 749,
   "completedVideoCount": 233,
+  "partialVideoCount": 2,
+  "failedVideoCount": 0,
   "incompleteVideoCount": 2,
+  "videoProviderCounts": [
+    {
+      "provider": "mixed",
+      "count": 13
+    },
+    {
+      "provider": "dashscope_funasr",
+      "count": 11
+    },
+    {
+      "provider": "bilibili-subtitle",
+      "count": 211
+    }
+  ],
   "partProviderCounts": [
     {
       "provider": "bilibili-subtitle",

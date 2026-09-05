@@ -12,8 +12,8 @@
 - 飞书课程记录：237 条
 - 去重后 B 站视频：235 个
 - B 站分集总数：753 P
-- 完整课程：233 个
-- 不完整或失败课程：2 个
+- 完整 B 站视频：233 个
+- 不完整或失败 B 站视频：2 个
 - 成功逐字稿分集：749 P
 - 转写来源：224 份 bilibili-subtitle，525 份 dashscope_funasr
 - 逐字稿总字符数：2499340
@@ -21,17 +21,22 @@
 ## 文件结构
 
 - [course-catalog.md](course-catalog.md)：237 条飞书记录、课程链接、时长、关键词和逐字稿状态。
-- [manifest.json](manifest.json)：课程记录、分集、BiliSum 任务 ID、转写来源、文件路径、哈希和错误信息。
+- [manifest.json](manifest.json)：课程记录、分集、BiliSum 任务 ID、转写来源、文件路径、哈希和错误信息；多分集视频以 `parts[*].transcriptionId` 为权威任务 ID，顶层只保留 `initialTranscriptionId` 追踪最初的基础 URL 任务。
 - [multipart-inventory.json](multipart-inventory.json)：从 B 站公开接口读取的分集结构与 CID。
 - [multipart-repair-state.json](multipart-repair-state.json)：逐分集修复任务的断点状态。
 - [failed-items.md](failed-items.md)：仍无法完成或不完整的课程。
 - `transcripts/<BV>.txt`：课程合并逐字稿。
 - `transcripts/<BV>/pNNN.txt`：多分集课程的单集逐字稿。
 - [repair-multipart-transcripts.ps1](repair-multipart-transcripts.ps1)：可重复执行、可断点续跑的修复脚本。
+- `format-json.js`：供修复脚本调用的稳定 JSON 格式化器，避免 PowerShell 5.1 产生全文件缩进噪声。
+- `.gitattributes`：把逐字稿和清单固定为 LF，避免 Windows checkout 改写字节后造成字符数或 SHA-256 误报。
+- 离线核验：运行 `repair-multipart-transcripts.ps1 -Action Verify`，复核状态、分集映射、文件字符数、SHA-256、汇总统计和失败占位。
 
 ## 多分集处理
 
 BiliSum 1.19.1 的单 URL 转写接口不会自动遍历 B 站分 P。修复脚本先读取 `data.pages`，再把每个 `https://www.bilibili.com/video/<BV>?p=<N>` 作为独立任务提交。已有第 1 P 会复用，避免重复转写。
+
+使用 `-RefreshInventory` 时，脚本会逐项核对现有 repair state 的 Key、页码、CID 和 URL。若 B 站分集结构发生变化，脚本会停止，保留已有尝试记录并要求人工核对，不会静默改配旧任务。
 
 ## 使用边界
 
