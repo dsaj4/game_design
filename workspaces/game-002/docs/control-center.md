@@ -6,7 +6,7 @@
 | --- | --- |
 | 工作区 | Active / Idea Qualification |
 | 类型、方向、目标玩家 | 用户强调卡组构筑定位，已选择 A 抽弃循环继续细化；正式核心尚未采纳，目标玩家 Unknown |
-| 原始想法记录、素材、正式 GDD | 3 / 4 / 0（包含双路线评议与 A 细化草案） |
+| 原始想法记录、素材、正式 GDD | 3 / 5 / 0（包含双路线评议与 A 细化草案） |
 | 提案、评估、正式玩法决定 | 无 |
 | 原型与代码 | 无 |
 | 生产阶段、排期 | 未确定 |
@@ -83,4 +83,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认：敌方准备开始时确定并公开下一次行动及执行时间；准备中仅因明确效果改变，变化须告知玩家。[确认及资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#敌方意图确定与变更确认记录)已扩充时间素材，Qualified GDD Material / Hypothesis。
 
-下一步：澄清战场状态的跨行动保留，衔接原稿的状态再利用目标。推荐本场状态跨施法与敌方行动保留，仅按自身规则或明确效果变化、消失；[状态留存候选](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议战场状态的跨行动保留)仍为 Raw Idea / Unqualified。具体持续时长、词卡效果和界面后置，时间轴其余未定边界继续跟踪。
+最新确认：本场战场状态跨施法与敌方行动保留，仅按自身规则或明确效果变化、消失。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#战场状态跨行动保留确认记录)已独立晋级为[状态留存素材](../game-design-workflow/idea-materials/M-2026-09-05-battle-state-persistence.md)，Qualified GDD Material / Hypothesis；素材共 5 份。
+
+下一步：澄清状态引用与消耗的关系。推荐引用本身不附加统一消耗，是否消耗由具体操作的明确规则决定；[引用与消耗候选](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议状态引用与消耗的关系)仍为 Raw Idea / Unqualified。具体状态时长、词卡效果、数值与界面后置；Q9 全量吞噬建议仍未采纳。
