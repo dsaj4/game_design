@@ -27,3 +27,11 @@ _Avoid_：将所有敌方行动都称为打断。
 **整句结算**：
 法术完整施放后，按句内词义顺序发生整条法术效果的过程；完成前被打断则整句不生效，已经经过的时间不退。来源见 [Q6 确认记录](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#q6被打断的一句如何结算)。
 _Avoid_：把开始施法视为已经产生部分效果，或把打断视为时间回退。
+
+**时间补牌**：
+词卡随战斗时间流逝按固定速度补充的供给方式；来源见[时间补牌与多张预览素材](game-design-workflow/idea-materials/M-2026-09-05-timeline-draw-preview.md)。具体速度尚未确定。
+_Avoid_：将现实中的思考时间计入补牌进度，或将它等同于施法结束补满。
+
+**牌序预览**：
+玩家对多张即将补入的词卡及其先后顺序的可见信息；来源同[时间补牌与多张预览素材](game-design-workflow/idea-materials/M-2026-09-05-timeline-draw-preview.md)。具体可见张数尚未确定。
+_Avoid_：将可见牌当作已经到手，或将可见顺序等同于可免费修改顺序。

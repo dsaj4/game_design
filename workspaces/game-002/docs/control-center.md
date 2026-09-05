@@ -6,14 +6,14 @@
 | --- | --- |
 | 工作区 | Active / Idea Qualification |
 | 类型、方向、目标玩家 | 用户强调卡组构筑定位，已选择 A 抽弃循环继续细化；正式核心尚未采纳，目标玩家 Unknown |
-| 原始想法记录、素材、正式 GDD | 3 / 1 / 0（包含双路线评议与 A 细化草案） |
+| 原始想法记录、素材、正式 GDD | 3 / 2 / 0（包含双路线评议与 A 细化草案） |
 | 提案、评估、正式玩法决定 | 无 |
 | 原型与代码 | 无 |
 | 生产阶段、排期 | 未确定 |
 
 当前材料：[《言咒》初稿与首轮审查](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md)，Raw Idea / Unqualified。
 
-已晋级：[时间预算与施法打断](../game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)，Qualified GDD Material，证据状态 Hypothesis。仅时间机制入库，整稿其他内容仍需资格确认。
+已晋级：[时间预算与施法打断](../game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)及[时间补牌与多张牌序预览](../game-design-workflow/idea-materials/M-2026-09-05-timeline-draw-preview.md)，均为 Qualified GDD Material / Hypothesis。其余循环规则与干预扩展仍需资格确认。
 
 澄清进度：用户已确认“火焰 吞噬 护甲”的护甲来源与火焰承受者为同一选定对象；具体数值与其他组合仍待澄清。
 
@@ -25,8 +25,8 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 当前范围：用户要求先确定整体机制，具体卡牌数值后续讨论。Q9 吞噬量及全量消耗建议已后置，未采纳；已有 Q1-Q8 确认保持原有范围。
 
-路线记录：[词汇循环双路线评议草案](../game-design-workflow/idea-inbox/2026-09-05-vocabulary-cycle-alternatives.md)。用户已选择 A 抽牌/弃牌继续细化，B 回忆/联想/语义继承暂不推进；路线选择不等于全部机制采纳。
+路线记录：[词汇循环双路线评议草案](../game-design-workflow/idea-inbox/2026-09-05-vocabulary-cycle-alternatives.md)。A 继续细化，B 整套循环暂不推进；用户明确要求在 A 中预留联想、回忆的牌序干预，不自动引入语义继承或 B 的其他规则。
 
-当前候选：[方案 A 词汇卡组循环](../game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md)，Raw Idea / Unqualified。用户最新提出按战斗时间固定速度补牌，已比较预览范围与排序方式，并评议等待、施法期间补牌及容量风险。旧版施法结束补满保留为未采纳历史候选；新增细节待确认，无原型、实现或试玩。
+当前候选：[方案 A 词汇卡组循环](../game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md)，整页 Raw Idea / Unqualified，供给与多张预览已局部晋级。新增联想、回忆、改序与删牌的职责候选；具体规则待确认，无原型、实现或试玩。
 
-下一步：使用 grill-with-docs 优先确认下一张词卡的完整预览与预计到达时点，再确认牌序、满手与弃词规则。具体数值后置；任何候选均不自动接入系统。
+下一步：使用 grill-with-docs 优先厘清删牌魔法是本场移除还是本局永久删除，再复核牌序、满手与弃词规则。具体数值后置；预留不等于实现。

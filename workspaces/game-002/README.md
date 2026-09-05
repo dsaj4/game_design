@@ -7,11 +7,11 @@ Project ID：game-002
 这是全新的独立游戏构思，与上一款游戏无关，不是续作、改版或技术迁移。
 已收到暂定名《言咒》的组合施法与 Roguelike 构筑初稿，正在澄清；这些内容尚未成为正式核心构思。平台、目标玩家和实现方式仍为 Unknown。
 
-当前有 3 份 inbox 记录：[原始初稿与澄清](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md)、[词汇循环双路线评议](game-design-workflow/idea-inbox/2026-09-05-vocabulary-cycle-alternatives.md)及[方案 A 词汇卡组循环细化](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md)。用户已选择 A 继续细化，B 暂不推进；A 的新增具体机制仍待确认。其中 [时间预算与施法打断](game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md) 已独立晋级为首份 Qualified GDD Material，证据状态 Hypothesis。具体卡牌数值继续后置，确认后再实现。尚无正式 GDD、玩法提案或代码任务。附件自称 GDD v0.1，不代表整稿通过资格确认。
+当前有 3 份 inbox 记录：[原始初稿与澄清](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md)、[词汇循环双路线评议](game-design-workflow/idea-inbox/2026-09-05-vocabulary-cycle-alternatives.md)及[方案 A 词汇卡组循环细化](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md)。用户已选择 A 继续细化，B 整套循环暂不推进；A 中按用户要求预留联想、回忆等牌序干预。[时间预算与施法打断](game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)及[时间补牌与多张牌序预览](game-design-workflow/idea-materials/M-2026-09-05-timeline-draw-preview.md) 已分别晋级为 Qualified GDD Material，共 2 份，证据状态均为 Hypothesis。其余机制和具体数值继续澄清，确认后再实现。尚无正式 GDD、玩法提案或代码任务。附件自称 GDD v0.1，不代表整稿通过资格确认。
 
 ## 开始
 
-最新讨论：用户提出卡牌随战斗时间按固定速度补充，正在比较下一张预览与牌序，并检查即时施法和等待的取舍。原先“施法结束补满”的 agent 建议未采纳，历史版本保留在方案 A 草案中。
+最新讨论：用户已选择多张未来牌序可见，预留联想、回忆、改序魔法和删牌魔法；当前重点是删牌作用于本场还是整局。原先施法结束补满、单张预览的建议保留为历史候选。
 
 直接提出一个想法、参考产品或验证问题，先记录到本工作区 inbox，通过资格闸门再进入正式设计链。
 
