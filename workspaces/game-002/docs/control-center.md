@@ -103,6 +103,8 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认：基础版赢下本局终点首领战即通关并结束本局。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#终点首领战通关确认记录)已扩充[胜负与本局结束素材](../game-design-workflow/idea-materials/M-2026-09-05-normal-combat-outcomes.md)，Qualified GDD Material / Hypothesis；素材仍为 7 份。首领战自身的胜负、阶段和其他细则另议。
 
-最新确认：一局途中提供战斗间休整机会，每次恢复生命与改善卡组只能选择一项。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#休整恢复与构筑取舍确认记录)已独立晋级为[休整素材](../game-design-workflow/idea-materials/M-2026-09-05-rest-recovery-deck-choice.md)，Qualified GDD Material / Hypothesis；正式素材现为 8 份。改善方式、恢复量、机会分布及两项都放弃的权限另议。
+最新确认：一局途中提供战斗间休整机会，每次恢复生命与改善卡组只能选择一项。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#休整恢复与构筑取舍确认记录)已独立晋级为[休整素材](../game-design-workflow/idea-materials/M-2026-09-05-rest-recovery-deck-choice.md)，Qualified GDD Material / Hypothesis；正式素材现为 8 份。该次确认未决定改善方式；后续已补为随机卡包三选一，见下方。恢复量、机会分布及两项都放弃的权限另议。
 
-下一步：评议休整改善卡组的方式。建议升级本局卡组的一张已有词卡，保留固定词类与核心语义，仅强化被选中卡的已有能力并延续到本局后续战斗；[词卡升级候选](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议休整改善卡组采用词卡升级)仍为 Raw Idea / Unqualified。需检验强化少数熟悉词是否抑制新组合探索；具体升级收益与次数、复制升级词的继承规则和界面继续后置。
+最新方向：用户明确“暂时不引入升级，改善卡组设计为从随机卡包中三选一”。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#休整随机卡包三选一确认记录)已扩充休整素材，正式素材仍为 8 份，证据仍为 Hypothesis。卡包提供三张候选词卡，选择一张按既有规则加入本局卡组；同名三张上限和恢复/拿牌互斥继续有效。升级候选为 Parked / Deferred。
+
+下一步：决定休整卡包公开时机。建议先公开三张候选，再由玩家选择恢复或拿一张；仅查看不算选定分支，同次休整不因反复查看刷新候选。[公开时机候选](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议休整卡包的公开时机)仍为 Raw Idea / Unqualified。候选池、重复与超限处理、跳过、主动重抽等另议；具体数值、复制能力及界面继续后置。
