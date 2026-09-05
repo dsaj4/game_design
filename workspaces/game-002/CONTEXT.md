@@ -17,7 +17,7 @@ _Avoid_：与当前手牌、抽牌堆或可自由配置出战子集的收藏库�
 _Avoid_：与自动升级、合成或单张卡无限调用混称，或将同名三张理解为每个牌区各有三张名额。
 
 **临时词卡副本**：
-战斗中由复制效果产生、仅限本场的词卡，战后消失，不成为跨战斗保留的本局卡组成员，也不占其同名三张名额，允许使本场同名数量超过三张。来源见[持续范围确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#临时变化持续范围确认记录)与[超限权限确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#临时副本超过三张确认记录)；复制对象、进入位置、循环与费用待定。
+由复制效果产生的本场词卡，默认正常弃置并参与洗回，明确的本场移除效果可使其提前退出循环，战后消失；其不成为本局卡组成员，不占同名三张名额，允许使本场同名数量超过三张。来源见[持续范围确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#临时变化持续范围确认记录)、[超限权限确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#临时副本超过三张确认记录)与[循环确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#临时副本正常循环确认记录)；复制对象、初始进入位置与费用待定。
 _Avoid_：与通过普通奖励收下的独立副本混称，或将“仅限本场”理解为“使用一次即消失”。
 
 **固定词类**：
@@ -81,7 +81,7 @@ _Avoid_：把每次查看或构句当作重新随机牌序，或将洗牌等同�
 _Avoid_：把满手当作停止补牌或自动丢弃新牌，将超限弃牌等同于本场移除，或把弃牌暂停称为施法打断。
 
 **本场移除**：
-词卡退出当前战斗的循环，本场不再参与正常抽取或弃牌洗回；下一场按本局卡组重新加入战斗。本局卡组中的拥有关系不因该效果删除。来源见[删牌范围确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#删牌范围确认)。
+词卡退出当前战斗的循环，本场不再参与正常抽取或弃牌洗回；原有词下一场按本局卡组恢复参与，临时副本则战后消失。原有词的本局拥有关系不因该效果删除，来源见[删牌范围确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#删牌范围确认)及[副本循环确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#临时副本正常循环确认记录)。
 _Avoid_：与普通弃牌、本局永久删牌混称；把移除范围确认当作目标区域或具体词卡效果已确认。
 
 **施法投入词**：
