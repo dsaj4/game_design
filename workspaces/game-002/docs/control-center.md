@@ -6,7 +6,7 @@
 | --- | --- |
 | 工作区 | Active / Idea Qualification |
 | 类型、方向、目标玩家 | 用户强调卡组构筑定位，已选择 A 抽弃循环继续细化；正式核心尚未采纳，目标玩家 Unknown |
-| 原始想法记录、素材、正式 GDD | 3 / 2 / 0（包含双路线评议与 A 细化草案） |
+| 原始想法记录、素材、正式 GDD | 3 / 3 / 0（包含双路线评议与 A 细化草案） |
 | 提案、评估、正式玩法决定 | 无 |
 | 原型与代码 | 无 |
 | 生产阶段、排期 | 未确定 |
@@ -14,6 +14,8 @@
 当前材料：[《言咒》初稿与首轮审查](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md)，Raw Idea / Unqualified。
 
 已晋级：[时间预算与施法打断](../game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)及[时间补牌与多张牌序预览](../game-design-workflow/idea-materials/M-2026-09-05-timeline-draw-preview.md)，均为 Qualified GDD Material / Hypothesis。其余循环规则与干预扩展仍需资格确认。
+
+新增素材：[固定词类与句法位置](../game-design-workflow/idea-materials/M-2026-09-05-fixed-grammatical-roles.md)，Qualified GDD Material / Hypothesis；仅确认当前不跨类使用，不包含完整语义系统。
 
 澄清进度：用户已确认“火焰 吞噬 护甲”的护甲来源与火焰承受者为同一选定对象；具体数值与其他组合仍待澄清。
 
@@ -53,4 +55,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新范围：用户要求“交互界面后续设计，先设计机制”。逐事件等待操作与停点建议为 Parked / Deferred，未采纳；已确认机制保留。
 
-下一步：使用 grill-with-docs 澄清构句职责及同一词卡能否在多个明确许可的位置使用。候选保存在原稿 inbox，具体数值与界面后置。
+最新确认：目前主谓宾不能混用，有限跨位建议未采纳，固定分类已晋级。
+
+下一步：使用 grill-with-docs 澄清谓语处理宾语与主语承接结果的兼容关系。候选保存在原稿 inbox，具体数值与界面后置。

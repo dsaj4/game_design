@@ -7,3 +7,4 @@
 | --- | --- | --- | --- |
 | 2026-09-05 | [时间预算与施法打断](M-2026-09-05-casting-time-and-interruption.md) | 《言咒》初稿及 Q2-Q6 澄清 | Hypothesis |
 | 2026-09-05 | [时间补牌与多张牌序预览](M-2026-09-05-timeline-draw-preview.md) | 方案 A 中用户的时间补牌与多张显示表达 | Hypothesis；不包含改序、回忆、联想或删牌具体规则 |
+| 2026-09-05 | [固定词类与句法位置](M-2026-09-05-fixed-grammatical-roles.md) | 用户明确“目前主谓宾不能混用” | Hypothesis；只确认分类约束，不包含完整语义系统 |

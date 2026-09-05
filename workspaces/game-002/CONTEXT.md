@@ -4,6 +4,10 @@
 
 ## Language
 
+**固定词类**：
+当前基础版本中，词卡固定属于主语、谓语或宾语，各类只用于对应句法位置，不允许同一词卡跨类使用。来源见[固定词类素材](game-design-workflow/idea-materials/M-2026-09-05-fixed-grammatical-roles.md)。
+_Avoid_：把自然语言中的多种用法直接当作词卡跨位权限，或认为三类齐全就必然语义合法。
+
 **施法选定对象**：
 玩家为当前句子明确选中的战场对象；它与句中的主语词是不同概念。当前已确认的用例为“火焰 吞噬 护甲”，定义依据见 [Q1 确认记录](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#q1法术的来源与去向)。
 _Avoid_：将“主语”与“施法选定对象”混称。
