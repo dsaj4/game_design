@@ -79,4 +79,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 范围调整：用户要求“基础复制相关设计留待复制效果相关卡牌出现再讨论”。生成位置、目标、数量、复制链、费用及相关安全余量复核标为 Parked / Deferred；默认置顶建议未采纳，已有持续范围、超限权限及正常循环确认保留，见[后置记录](../game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#复制效果设计后置记录)。
 
-下一步：回到整体战斗循环，澄清敌方行动后如何安排下一次行动。推荐普通情况下行动结束即开始下一次准备，战斗时间与固定补牌计时保持连续；[时间轴延续候选](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议敌方行动后的时间轴延续)尚未确认，具体敌人、间隔数值和界面后置。
+最新确认：敌方行动结束即开始下一次准备，战斗时间轴与固定补牌计时连续；未被打断的法术继续，普通同刻顺序及暂停规则保留。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#敌方行动后时间轴延续确认记录)已扩充[时间素材](../game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)并同步供给素材，证据为 Hypothesis。
+
+下一步：澄清敌方意图的确定与变更。推荐准备开始时确定并公开下一次行动及执行时间，准备中仅因明确效果改变；[意图候选](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议敌方意图的确定与变更)仍为 Raw Idea / Unqualified。具体敌人、数值和界面后置。
