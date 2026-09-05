@@ -7,4 +7,4 @@
 | --- | --- | --- | --- |
 | 2026-09-05 | [《言咒》核心战斗初稿与审查](2026-09-05-yanzhou-core-combat.md) | 整稿 Raw Idea / Unqualified；时间机制已独立晋级；词条数值后置 | 关联双路线评议，继续完善整体机制 |
 | 2026-09-05 | [词汇循环双路线评议草案](2026-09-05-vocabulary-cycle-alternatives.md) | Raw Idea / Unqualified；A 已选为深化方向，B 暂不推进 | 保留比较依据，转入 A 细化 |
-| 2026-09-05 | [方案 A 词汇卡组循环](2026-09-05-deck-vocabulary-cycle.md) | 整页 Raw Idea / Unqualified；已明确供给、预览、牌序、超限弃牌暂停及普通投入词结束弃置；循环汇总已更新 | 确认投入词的离手时点与容量占用 |
+| 2026-09-05 | [方案 A 词汇卡组循环](2026-09-05-deck-vocabulary-cycle.md) | 整页 Raw Idea / Unqualified；供给、预览、牌序、超限弃牌暂停及普通投入词离手/存放/弃置已明确；普通流程已核对 | 确认起手可表达性，再复核洗回边界 |
