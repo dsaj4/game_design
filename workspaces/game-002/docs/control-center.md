@@ -125,4 +125,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认（2026-09-06）：路线只向前推进，进入遭遇后不可撤回该次选路，完成节点不可回访或重复触发，后续分叉仍可选择。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#路线单向推进确认记录)已扩充[路线素材](../game-design-workflow/idea-materials/M-2026-09-06-branching-run-routes.md)，并同步休整、胜负及术语；仍为 9 份 Qualified GDD Material / Hypothesis。
 
-下一步：讨论每局路线生成。建议开局按约束随机确定路线与遭遇安排、本局内保持稳定；要能正常前进至终点，并符合已有休整及预告规则，具体生成约束后定。[生成评议](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议每局路线生成)仍为 Raw Idea / Unqualified，需检验变化是否产生新判断、随机安排是否过度影响成败。
+最新确认（2026-09-06）：每局开局按约束随机确定路线与遭遇安排，本局内保持稳定，正常可选路线可继续通往终点；既有休整与预告规则保持。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#每局路线生成确认记录)已扩充[路线素材](../game-design-workflow/idea-materials/M-2026-09-06-branching-run-routes.md)，并同步休整、胜负及术语，仍为 9 份 Qualified GDD Material / Hypothesis。具体生成分布与平衡后续验证。
+
+下一步：讨论新局起始卡组。建议基础版每次新局从同一套预设起始卡组开始，上局构筑不带入；固定起点有助于学习和比较构筑，需检验开局重复与局内发展多样性。[起始卡组评议](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议新局起始卡组)仍为 Raw Idea / Unqualified，具体词卡与数值后置，局外解锁和其他资源保留另议。
