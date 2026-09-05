@@ -15,7 +15,7 @@
 
 已晋级：[时间预算与施法打断](../game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)及[时间补牌与多张牌序预览](../game-design-workflow/idea-materials/M-2026-09-05-timeline-draw-preview.md)，均为 Qualified GDD Material / Hypothesis。其余循环规则与干预扩展仍需资格确认。
 
-构句素材：[固定词类与语义兼容](../game-design-workflow/idea-materials/M-2026-09-05-fixed-grammatical-roles.md)，Qualified GDD Material / Hypothesis；确认当前不跨类使用、两层兼容、已有状态的词卡引用要求、引用不自带消耗原则及基础版暂不启用独立字数上限，不包含完整语义系统。
+构句素材：[固定词类与语义兼容](../game-design-workflow/idea-materials/M-2026-09-05-fixed-grammatical-roles.md)，Qualified GDD Material / Hypothesis；确认当前不跨类使用、两层兼容、已有状态的词卡引用要求、引用不自带消耗原则、材料未出现时的提前启动权限及基础版暂不启用独立字数上限，不包含完整语义系统。
 
 澄清进度：用户已确认“火焰 吞噬 护甲”的护甲来源与火焰承受者为同一选定对象；具体数值与其他组合仍待澄清。
 
@@ -87,4 +87,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认：引用本身不附加消耗，是否消耗或改变状态由具体操作的明确规则决定；词卡弃置不自动消耗对应状态。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#状态引用与消耗关系确认记录)已扩充状态及构句素材，Qualified GDD Material / Hypothesis；具体操作和全量吞噬均未因此确定。
 
-下一步：澄清引用材料尚未出现时能否提前施法。推荐允许其他施法条件满足时按公开意图预判材料会出现；[提前施法候选](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议引用材料未出现时的提前施法)仍为 Raw Idea / Unqualified。Q8 只规定既有用例的完成时读甲，不自动确定启动权限或所有操作读取时点；材料不足的处理、具体词卡、数值与界面继续后置。
+最新确认：满足其他施法条件时，所引用状态尚未出现不统一阻止启动；玩家可提前投入合法词句并开始施法，启动不保证材料如期出现或最终生效。[提前施法确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#提前施法确认记录)已扩充构句素材并同步状态、时间素材，Qualified GDD Material / Hypothesis。
+
+下一步：澄清法术结算时必需材料完全缺失的结果。推荐当前三词基础句整句落空，普通投入词进入弃牌堆、已耗时间不返还；[材料缺失候选](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议必需材料缺失时的法术落空)仍为 Raw Idea / Unqualified。Q8 的读取时点范围保持，具体材料需求、数量不足、目标失效、词卡参数与界面继续后置。
