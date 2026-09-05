@@ -5,4 +5,4 @@
 
 | 日期 | 原始想法 | 状态 | 下一步 |
 | --- | --- | --- | --- |
-| 2026-09-05 | [《言咒》核心战斗初稿与审查](2026-09-05-yanzhou-core-combat.md) | Raw Idea / Unqualified | 确认法术的来源与去向 |
+| 2026-09-05 | [《言咒》核心战斗初稿与审查](2026-09-05-yanzhou-core-combat.md) | Raw Idea / Unqualified，Q1 已局部确认 | 确认基础敌我行动关系 |
