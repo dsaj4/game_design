@@ -15,7 +15,7 @@
 
 已晋级：[时间预算与施法打断](../game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)及[时间补牌与多张牌序预览](../game-design-workflow/idea-materials/M-2026-09-05-timeline-draw-preview.md)，均为 Qualified GDD Material / Hypothesis。其余循环规则与干预扩展仍需资格确认。
 
-构句素材：[固定词类与语义兼容](../game-design-workflow/idea-materials/M-2026-09-05-fixed-grammatical-roles.md)，Qualified GDD Material / Hypothesis；确认当前不跨类使用、两层兼容及已有状态的词卡引用要求，不包含完整语义系统。
+构句素材：[固定词类与语义兼容](../game-design-workflow/idea-materials/M-2026-09-05-fixed-grammatical-roles.md)，Qualified GDD Material / Hypothesis；确认当前不跨类使用、两层兼容、已有状态的词卡引用要求及基础版暂不启用独立字数上限，不包含完整语义系统。
 
 澄清进度：用户已确认“火焰 吞噬 护甲”的护甲来源与火焰承受者为同一选定对象；具体数值与其他组合仍待澄清。
 
@@ -63,4 +63,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认：词卡各自带施法耗时，整句基础耗时为投入词卡耗时之和，汉字数量不直接换算时间；已扩充时间机制素材。整句完成后结算与打断规则保持，具体数值和特殊修正尚未确定。
 
-下一步：使用 grill-with-docs 评议基础版独立字数上限的去留。推荐在当前三词基础句范围内暂不启用，待可变句长或修饰词阶段再评估；该建议保存在原稿 inbox，尚未确认。具体数值与界面继续后置。
+最新确认：基础版暂不启用独立字数上限，原稿系统保留，待可变句长或修饰词阶段再评估；已扩充构句素材并同步术语，不取消固定句式。
+
+下一步：使用 grill-with-docs 澄清已收下的新词与本局卡组的关系。推荐战斗之间收下的普通新词直接入卡组，不另设可每战免费换入换出的备用词库；候选见方案 A，尚未确认。具体数值与界面继续后置。
