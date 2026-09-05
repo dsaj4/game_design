@@ -27,6 +27,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 路线记录：[词汇循环双路线评议草案](../game-design-workflow/idea-inbox/2026-09-05-vocabulary-cycle-alternatives.md)。用户已选择 A 抽牌/弃牌继续细化，B 回忆/联想/语义继承暂不推进；路线选择不等于全部机制采纳。
 
-当前候选：[方案 A 词汇卡组循环](../game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md)，Raw Idea / Unqualified。已整理牌区、施法投入与弃置、补牌与留牌、耗时整理、洗回及战斗间重建；新增规则待确认，无原型、实现或试玩。
+当前候选：[方案 A 词汇卡组循环](../game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md)，Raw Idea / Unqualified。用户最新提出按战斗时间固定速度补牌，已比较预览范围与排序方式，并评议等待、施法期间补牌及容量风险。旧版施法结束补满保留为未采纳历史候选；新增细节待确认，无原型、实现或试玩。
 
-下一步：使用 grill-with-docs 优先确认“施法结束后补牌，未用词保留”的基础节奏，再审阅其余整体规则。具体数值后置；任何候选均不自动接入系统。
+下一步：使用 grill-with-docs 优先确认下一张词卡的完整预览与预计到达时点，再确认牌序、满手与弃词规则。具体数值后置；任何候选均不自动接入系统。
