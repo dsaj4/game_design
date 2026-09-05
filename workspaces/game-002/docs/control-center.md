@@ -123,4 +123,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认（2026-09-06）：选路前公开下一步活动类型，以及战斗的敌人类型与主要机制。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#选路前遭遇信息确认记录)已扩充[分叉路线素材](../game-design-workflow/idea-materials/M-2026-09-06-branching-run-routes.md)，仍为 9 份 Qualified GDD Material / Hypothesis；休整位置预知与开包时点保留，具体敌人数值、界面和远处信息范围后置。
 
-下一步：讨论路线是否只向前推进。建议进入遭遇后不再撤回该次选路，完成后只沿允许的后续路线前进，不能回访或重复触发已完成节点，后续分叉仍可继续选择。[单向推进评议](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议路线单向推进)仍为 Raw Idea / Unqualified，需权衡路径机会成本与选错后难以补救的压力。
+最新确认（2026-09-06）：路线只向前推进，进入遭遇后不可撤回该次选路，完成节点不可回访或重复触发，后续分叉仍可选择。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#路线单向推进确认记录)已扩充[路线素材](../game-design-workflow/idea-materials/M-2026-09-06-branching-run-routes.md)，并同步休整、胜负及术语；仍为 9 份 Qualified GDD Material / Hypothesis。
+
+下一步：讨论每局路线生成。建议开局按约束随机确定路线与遭遇安排、本局内保持稳定；要能正常前进至终点，并符合已有休整及预告规则，具体生成约束后定。[生成评议](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议每局路线生成)仍为 Raw Idea / Unqualified，需检验变化是否产生新判断、随机安排是否过度影响成败。
