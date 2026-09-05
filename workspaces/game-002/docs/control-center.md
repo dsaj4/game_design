@@ -1,12 +1,12 @@
 # game-002 总控
 
-最后更新：2026-09-05
+最后更新：2026-09-06
 
 | 事项 | 状态 |
 | --- | --- |
 | 工作区 | Active / Idea Qualification |
 | 类型、方向、目标玩家 | 用户强调卡组构筑定位，已选择 A 抽弃循环继续细化；正式核心尚未采纳，目标玩家 Unknown |
-| 原始想法记录、素材、正式 GDD | 3 / 7 / 0（包含双路线评议与 A 细化草案） |
+| 原始想法记录、素材、正式 GDD | 3 / 9 / 0（包含双路线评议与 A 细化草案） |
 | 提案、评估、正式玩法决定 | 无 |
 | 原型与代码 | 无 |
 | 生产阶段、排期 | 未确定 |
@@ -119,4 +119,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认（2026-09-06）：下一次休整在流程中的位置提前可知，具体路线和间隔后定。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#休整位置提前可知确认记录)已扩充休整素材并同步生命保留关系与术语；不提前公开卡包候选，正式素材仍为 8 份 Qualified GDD Material / Hypothesis。
 
-下一步：讨论局内是否采用分叉路线。建议让当前生命、卡组和已知休整位置影响下一段路线的选择及后续遭遇安排；[分叉路线评议](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议局内分叉路线)仍为 Raw Idea / Unqualified，具体分叉数量、节点类型与地图形式后定。需验证各路径能否在不同处境下分别成立，不默认增加事件、商店或其他成长系统。
+最新确认（2026-09-06）：局内采用分叉路线，在分叉处选择下一段路，选择影响后续遭遇与休整安排。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#局内分叉路线确认记录)已独立晋级为[分叉路线素材](../game-design-workflow/idea-materials/M-2026-09-06-branching-run-routes.md)，正式素材增至 9 份 Qualified GDD Material / Hypothesis；具体布局和体验仍待验证。
+
+下一步：讨论选路前的遭遇预告。建议公开下一步活动类型，以及战斗的敌人类型与主要机制，保留已有下一次休整位置预知。[遭遇信息评议](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议选路前的遭遇信息)仍为 Raw Idea / Unqualified；具体数值、界面和远处信息范围后置。
