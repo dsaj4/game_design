@@ -81,4 +81,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认：敌方行动结束即开始下一次准备，战斗时间轴与固定补牌计时连续；未被打断的法术继续，普通同刻顺序及暂停规则保留。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#敌方行动后时间轴延续确认记录)已扩充[时间素材](../game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)并同步供给素材，证据为 Hypothesis。
 
-下一步：澄清敌方意图的确定与变更。推荐准备开始时确定并公开下一次行动及执行时间，准备中仅因明确效果改变；[意图候选](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议敌方意图的确定与变更)仍为 Raw Idea / Unqualified。具体敌人、数值和界面后置。
+最新确认：敌方准备开始时确定并公开下一次行动及执行时间；准备中仅因明确效果改变，变化须告知玩家。[确认及资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#敌方意图确定与变更确认记录)已扩充时间素材，Qualified GDD Material / Hypothesis。
+
+下一步：澄清战场状态的跨行动保留，衔接原稿的状态再利用目标。推荐本场状态跨施法与敌方行动保留，仅按自身规则或明确效果变化、消失；[状态留存候选](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议战场状态的跨行动保留)仍为 Raw Idea / Unqualified。具体持续时长、词卡效果和界面后置，时间轴其余未定边界继续跟踪。
