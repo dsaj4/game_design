@@ -5,6 +5,6 @@
 
 | 日期 | 原始想法 | 状态 | 下一步 |
 | --- | --- | --- | --- |
-| 2026-09-05 | [《言咒》核心战斗初稿与审查](2026-09-05-yanzhou-core-combat.md) | 整稿 Raw Idea / Unqualified；时间机制、固定词类已分别晋级；兼容原则已扩充至素材，界面与数值后置 | 澄清宾语卡与世界状态的引用关系 |
+| 2026-09-05 | [《言咒》核心战斗初稿与审查](2026-09-05-yanzhou-core-combat.md) | 整稿 Raw Idea / Unqualified；时间机制、固定词类已分别晋级；兼容与状态引用要求已扩充至素材，界面与数值后置 | 澄清整句施法耗时的组成原则 |
 | 2026-09-05 | [词汇循环双路线评议草案](2026-09-05-vocabulary-cycle-alternatives.md) | Raw Idea / Unqualified；A 已选为深化方向，B 暂不推进 | 保留比较依据，转入 A 细化 |
 | 2026-09-05 | [方案 A 词汇卡组循环](2026-09-05-deck-vocabulary-cycle.md) | 整页 Raw Idea / Unqualified；普通循环局部晋级；逐事件等待操作与停点建议 Parked / Deferred | 结合构句机制继续复核循环，交互后置 |
