@@ -9,8 +9,12 @@
 _Avoid_：与单句施法成功、整局通关或自动获得奖励混称。
 
 **战斗失败**：
-普通战斗中，玩家生命耗尽所对应的本场结果。来源同[胜负素材](game-design-workflow/idea-materials/M-2026-09-05-normal-combat-outcomes.md)；战败是否结束当前 Roguelike 一局尚未决定。
-_Avoid_：与单句被打断、材料缺失落空或整局结束混称，或据此推定局外进度损失。
+普通战斗中，玩家生命耗尽所对应的本场结果，并触发当前 Roguelike 一局结束。来源同[胜负素材](game-design-workflow/idea-materials/M-2026-09-05-normal-combat-outcomes.md)。
+_Avoid_：与单句被打断或材料缺失落空混称，或据此推定局外进度损失。
+
+**本局结束**：
+当前 Roguelike 游玩流程的终止；已确认普通战斗失败会触发，继续游玩时重新开局，整局通关条件仍未确定。来源见[战败范围确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#战败结束本局确认记录)。
+_Avoid_：与单句结束、本场移除或所有永久进度清除混称。
 
 **词卡奖励跳过**：
 普通战斗后不收下任何候选词卡的选择；该次候选词不加入本局卡组，也不移除已有词卡。来源见[跳过确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#普通词卡奖励跳过确认记录)，具体数量、补偿与特殊奖励规则未定。
