@@ -17,7 +17,7 @@ _Avoid_：与当前手牌、抽牌堆或可自由配置出战子集的收藏库�
 _Avoid_：与自动升级、合成或单张卡无限调用混称，或将同名三张理解为每个牌区各有三张名额。
 
 **临时词卡副本**：
-由复制效果产生的本场词卡，默认正常弃置并参与洗回，明确的本场移除效果可使其提前退出循环，战后消失；其不成为本局卡组成员，不占同名三张名额，允许使本场同名数量超过三张。来源见[持续范围确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#临时变化持续范围确认记录)、[超限权限确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#临时副本超过三张确认记录)与[循环确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#临时副本正常循环确认记录)；复制对象、初始进入位置与费用待定。
+由复制效果产生的本场词卡，默认正常弃置并参与洗回，明确的本场移除效果可使其提前退出循环，战后消失；其不成为本局卡组成员，不占同名三张名额，允许使本场同名数量超过三张。来源见[持续范围确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#临时变化持续范围确认记录)、[超限权限确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#临时副本超过三张确认记录)与[循环确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#临时副本正常循环确认记录)；复制对象、初始进入位置与费用待相关卡牌出现后讨论，见[后置记录](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#复制效果设计后置记录)。
 _Avoid_：与通过普通奖励收下的独立副本混称，或将“仅限本场”理解为“使用一次即消失”。
 
 **固定词类**：
