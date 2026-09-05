@@ -5,6 +5,6 @@
 
 | 日期 | 原始想法 | 状态 | 下一步 |
 | --- | --- | --- | --- |
-| 2026-09-05 | [《言咒》核心战斗初稿与审查](2026-09-05-yanzhou-core-combat.md) | 整稿 Raw Idea / Unqualified；时间机制已独立晋级；词条数值后置 | 关联双路线评议，继续完善整体机制 |
+| 2026-09-05 | [《言咒》核心战斗初稿与审查](2026-09-05-yanzhou-core-combat.md) | 整稿 Raw Idea / Unqualified；时间机制已独立晋级；界面与词条数值后置 | 当前澄清构句职责与同一词卡的许可位置 |
 | 2026-09-05 | [词汇循环双路线评议草案](2026-09-05-vocabulary-cycle-alternatives.md) | Raw Idea / Unqualified；A 已选为深化方向，B 暂不推进 | 保留比较依据，转入 A 细化 |
-| 2026-09-05 | [方案 A 词汇卡组循环](2026-09-05-deck-vocabulary-cycle.md) | 整页 Raw Idea / Unqualified；已有循环、安全下限、移除截断、跨洗回预览及普通同刻顺序已局部晋级 | 确认主动等待的推进终点 |
+| 2026-09-05 | [方案 A 词汇卡组循环](2026-09-05-deck-vocabulary-cycle.md) | 整页 Raw Idea / Unqualified；普通循环局部晋级；逐事件等待操作与停点建议 Parked / Deferred | 结合构句机制继续复核循环，交互后置 |
