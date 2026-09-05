@@ -1,13 +1,15 @@
 # Semantic Card Engine
 
+> 项目状态：`Parked / Archived`，2026-09-05 暂停。以下能力与 Verified 描述是历史实验快照，不属于新游戏。设计来源见[旧项目归档](../archive/2026-09-05-core-card-project/README.md)，仅按明确恢复指令继续。
+
 独立的语义卡牌生成引擎实验。它把概念、动作和核心卡语义镜片编译成确定性的卡牌 IR，用于验证“少量共享规律能否产生可解释的组合结果”。
 
 ## 状态与边界
 
 - 当前状态：`Verified MVP / EXP-002 V1 Human Review Pack Ready`
-- 设计来源：[概念合成世界模型原始想法](../game-design-workflow/idea-inbox/2026-08-29-semantic-composition-world-model.md)
-- 正式素材：[有限、确定且可学习的卡牌语义物理](../game-design-workflow/idea-materials/M-2026-08-30-finite-semantic-card-physics.md)
-- 效果约束素材：[有限效果区域与可拒绝合成](../game-design-workflow/idea-materials/M-2026-08-30-bounded-semantic-effect-regions.md)
+- 设计来源：[概念合成世界模型原始想法](../archive/2026-09-05-core-card-project/game-design-workflow/idea-inbox/2026-08-29-semantic-composition-world-model.md)
+- 正式素材：[有限、确定且可学习的卡牌语义物理](../archive/2026-09-05-core-card-project/game-design-workflow/idea-materials/M-2026-08-30-finite-semantic-card-physics.md)
+- 效果约束素材：[有限效果区域与可拒绝合成](../archive/2026-09-05-core-card-project/game-design-workflow/idea-materials/M-2026-08-30-bounded-semantic-effect-regions.md)
 - 并列技术方向：[离散语义动力学与 Embedding 语义效果场](EXPLORATION-DIRECTIONS.md)
 - 技术架构与实验 ADR：[ARCHITECTURE.md](ARCHITECTURE.md)
 - 本目录不是 GDD，也不表示该想法已经成为正式玩法或核心构思。

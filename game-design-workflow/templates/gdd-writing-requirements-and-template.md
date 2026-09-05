@@ -32,7 +32,7 @@ GDD 只回答“玩家经历什么、可以做什么、规则如何影响选择�
 | 设计假设、备选方案、采用理由与复审条件 | 构建命令、CI、发布步骤和代码完成度 |
 | 原型要验证的问题、玩家任务与成功/失败信号 | Bug 列表、技术债、开发排期和工程验收结果 |
 
-代码开发状态统一记录在 [`docs/code-development-index.md`](../../docs/code-development-index.md)，详细技术说明留在对应代码仓库。GDD 可以链接开发证据，但不得复制技术实现，也不得因为代码已经存在就把玩法假设写成 `Confirmed`。
+代码开发状态统一记录在 [`docs/code-development-index.md`](../../archive/2026-09-05-core-card-project/docs/code-development-index.md)，详细技术说明留在对应代码仓库。GDD 可以链接开发证据，但不得复制技术实现，也不得因为代码已经存在就把玩法假设写成 `Confirmed`。
 
 ### GDD 素材硬门槛
 
@@ -264,7 +264,7 @@ GDD-0 不需要完整数值、内容清单或技术实现细节。
 
 | 字段 | 内容 |
 | --- | --- |
-| 文档 ID | `<例如 GDD-BATTLE-001>` |
+| 文档 ID | `<例如 GDD-SYSTEM-001；必须标明所属 Project ID>` |
 | 当前版本 | `<例如 0.1.0>` |
 | 文档成熟度 | `GDD-0 / GDD-1 / GDD-2` |
 | 设计状态 | `Idea / Proposal / Evaluation / Draft Change / Accepted / Parked / Rejected` |

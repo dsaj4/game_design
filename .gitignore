@@ -10,3 +10,4 @@ __pycache__/
 # External source snapshots may contain third-party PDFs/HTML.
 # Keep source indexes and original notes in git; do not publish cached raw files by default.
 research/raw-sources/
+workspaces/*/research/raw-sources/

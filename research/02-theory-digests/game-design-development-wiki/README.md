@@ -1,10 +1,12 @@
 # 游戏设计与开发 Wiki
 
+> 跨游戏共享方法库。2026-09-05 已移除历史游戏的专属假设、原型与设定示例。项目转化只写入所选工作区；通用卡牌或桌游教学不规定新游戏类型。入口见[共享知识](../../../docs/shared-knowledge.md)。
+
 Page ID：`W-README-001`
 
 状态：`Published / Phase 1 pilot`
 
-版本：`0.1.1`
+版本：`0.1.2`
 
 Owner：`游戏设计知识系统维护者`
 
@@ -14,9 +16,9 @@ Review date：`2026-10-05`
 
 来源范围：`SJ-002 / SJ-003 / SJ-004 Evidence Cards；Phase 0 外部框架对照；知识系统升级 Spec；逐字稿覆盖报告`
 
-证据状态：`E0/E1 Source Claim + E2 Inference + 当前项目 Hypothesis；无新增 Decision/Accepted`
+证据状态：`E0/E1 Source Claim + E2 Inference；无新增项目 Decision/Accepted`
 
-变更摘要：`0.1.1 补齐 W-PROC-004 导航、页面治理元数据与缺失分集的时效边界。`
+变更摘要：`0.1.2 移除历史游戏专属转化与示例，保留通用方法和课程证据。`
 
 适用阶段：`S0-S7`
 
@@ -29,10 +31,10 @@ Wiki 给初学者看的内容与课程逐字稿、证据卡和 agent 规则分�
 ```text
 逐字稿 -> Evidence Card -> 材料摘要 -> Wiki 解释
                                   -> Agent 规则候选
-                                  -> 当前项目 Hypothesis
+                                  -> 独立工作区中的 Hypothesis
 ```
 
-课程观点默认是 `Source Claim`，跨来源的总结是 `Inference`，对当前卡牌游戏的转化是 `Hypothesis`。只有项目决策记录明确采纳的内容才是 `Decision/Accepted`。
+课程观点默认是 `Source Claim`，跨来源的总结是 `Inference`，具体项目转化应在独立工作区标为 `Hypothesis`。只有项目决策记录明确采纳的内容才是 `Decision/Accepted`。
 
 ## 最短学习路径
 
@@ -72,7 +74,7 @@ Wiki 给初学者看的内容与课程逐字稿、证据卡和 agent 规则分�
 5. 什么是正例，什么是反例？
 6. 如何自行检查完成？
 7. 哪些内容来自来源，哪些是本 Wiki 的推断？
-8. 对当前项目有什么 `Hypothesis`？
+8. 方法适用于哪些情境，哪些结论需要项目独立验证？
 9. 还有哪些 `Unknown` 和下一步？
 
 ## 本 Wiki 不做什么
@@ -81,10 +83,6 @@ Wiki 给初学者看的内容与课程逐字稿、证据卡和 agent 规则分�
 - 不把讲师经验、竞品做法或 MDA 分析直接写成当前项目 `Accepted` 规则。
 - 不替代 `game-design-workflow/` 的想法资格闸门、Proposal、Evaluation、Draft Change 和 Decision Log。
 - 不记录类、函数、API、构建命令或代码完成度；这些内容留在 [代码开发进度索引](../../../docs/code-development-index.md)。
-
-## 当前项目转化
-
-本 Wiki 的项目示例围绕“唯一核心卡 + 通用辅助卡 + 组合规则 + 共享世界 + 回合制对战”。示例只帮助读者练习推理，不代表核心卡效果、卡池数量、资源数值或交易规则已经确认。
 
 ## 来源与版本
 

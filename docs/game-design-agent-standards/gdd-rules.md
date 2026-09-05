@@ -14,7 +14,7 @@
 
 本仓库继续使用 [`gdd-writing-requirements-and-template.md`](../../game-design-workflow/templates/gdd-writing-requirements-and-template.md) 作为 GDD v1 模板。本文件解释 agent 如何选成熟度、审查素材和验收正文，不创建第二套模板。
 
-GDD 是玩家体验与玩法设计合同，不是代码设计、项目排期或构建记录。技术状态只链接 [`docs/code-development-index.md`](../code-development-index.md)。
+GDD 是玩家体验与玩法设计合同，不是代码设计、项目排期或构建记录。技术状态只链接 [`docs/code-development-index.md`](../../archive/2026-09-05-core-card-project/docs/code-development-index.md)。
 
 ## 2. 成熟度选择
 

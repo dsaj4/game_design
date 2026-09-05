@@ -6,11 +6,11 @@ This document records technical exploration paths. It is not a GDD, does not cha
 
 Implementation status: `EXP-002 V1 Human Review Pack Ready / Ratings Pending`.
 
-Design material: [finite semantic card physics](../game-design-workflow/idea-materials/M-2026-08-30-finite-semantic-card-physics.md).
+Design material: [finite semantic card physics](../archive/2026-09-05-core-card-project/game-design-workflow/idea-materials/M-2026-08-30-finite-semantic-card-physics.md).
 
-Effect-region design material: [bounded semantic effect regions](../game-design-workflow/idea-materials/M-2026-08-30-bounded-semantic-effect-regions.md).
+Effect-region design material: [bounded semantic effect regions](../archive/2026-09-05-core-card-project/game-design-workflow/idea-materials/M-2026-08-30-bounded-semantic-effect-regions.md).
 
-Embedding source and technical analysis: [Embedding semantic effect space](../game-design-workflow/idea-inbox/2026-08-30-embedding-semantic-effect-space.md).
+Embedding source and technical analysis: [Embedding semantic effect space](../archive/2026-09-05-core-card-project/game-design-workflow/idea-inbox/2026-08-30-embedding-semantic-effect-space.md).
 
 ## Shared Boundary
 

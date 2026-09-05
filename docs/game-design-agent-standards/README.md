@@ -1,12 +1,18 @@
 # 游戏设计 Agent 规范
 
+## 独立工作区适用范围
+
+本规则库不绑定任何游戏。先按[工作区地图](../workspace-map.md)确定工作区根 W；正文中的项目路径相对 W，模板和生效协作协议相对仓库根。Markdown 链接按所在文件解析。
+原始想法、素材审查、项目转化、原型观察与开发进度只读写该工作区。共享知识不包含项目设定，历史项目状态不跨项目继承。
+2026-09-05 已移除旧游戏专属建议；Inherited / Proposed 状态保持原义，不因共享复用自动采纳。
+
 文档集 ID：`AGS-README-001`
 
 状态：`Proposed / Phase 4 draft`
 
-版本：`0.1.0`
+版本：`0.1.2`
 
-更新时间：`2026-09-04`
+更新时间：`2026-09-05`
 
 复审日期：`2026-10-04`
 
@@ -93,7 +99,7 @@ agent 每次至少回答：
 | 设计 | `N/A / Raw Idea / Qualified GDD Material / GDD / Proposal / Evaluation / Draft Change / Accepted / Parked / Rejected` | 项目工作流处于哪里 |
 | 生产阶段 | `S0-S7` | 正在减少哪一种开发未知 |
 | GDD 成熟度 | `GDD-0 / GDD-1 / GDD-2` | 文档写到什么深度 |
-| 代码 | `N/A / Planned / In Progress / Implemented / Blocked` | 只在开发进度索引或代码仓库维护 |
+| 代码 | `N/A / Planned / In Progress / Implemented / Verified / Blocked / Parked` | 只在项目开发进度索引或代码仓库维护 |
 
 典型报告格式：
 

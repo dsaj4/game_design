@@ -1,5 +1,10 @@
 # 贡献指南
 
+## 先确定工作区
+
+默认项目为 `workspaces/game-002/`，与上一款游戏无关。本文的项目内容路径相对所选工作区；模板与 GitHub 协作规范相对仓库根。
+共享知识只记录通用方法，项目假设、案例适用判断和测试进入项目内。旧项目已归档，不默认参与素材检索。
+
 感谢你参与这个游戏构思系统。这个仓库重视“判断过程”胜过一次性写出完美结论，因此请尽量保留想法来源、评估理由和决策记录。
 
 ## GitHub 协作底线
@@ -35,6 +40,8 @@
 不要一开始就直接修改 `core-concept.md`。
 
 ## 提交提案
+
+先确认来源位于当前工作区的 `idea-materials/`。inbox 内容必须经过 `grill-with-docs` 资格确认，旧项目的合格状态不能继承。
 
 1. 复制 `game-design-workflow/templates/proposal-template.md`。
 2. 在 `game-design-workflow/idea-proposals/` 创建新文件。

@@ -1,5 +1,25 @@
 # Agent 操作手册
 
+## 项目路由与隔离（先于后续流程）
+
+本仓库现在管理多个独立游戏。先读仓库根 README.md、docs/workspace-map.md 和 docs/github-collaboration.md。
+默认 Project ID 为 `game-002`，工作区根 `W = workspaces/game-002/`。
+
+- game-002 与上一款游戏无关，不是续作、改版或技术迁移；类型、平台、题材、玩法、玩家、数值、技术与排期均不得从旧项目推断。
+- 上一款游戏位于 `archive/2026-09-05-core-card-project/`，状态 Parked / Archived，默认不检索、不修改、不续写。
+- combat-lab/、semantic-card-engine/ 和旧外部实现仓库属于已暂停项目，不是新游戏起点。
+- 后续流程中的项目路径（game-design-workflow/、research/、CONTEXT.md、docs/code-development-index.md）均相对 W。
+- 共享模板 game-design-workflow/templates/、research/templates/，共享知识 docs/shared-knowledge.md、共享规则 docs/game-design-agent-standards/ 和 GitHub 协作规范均相对仓库根。
+- Markdown 链接按所在文件解析，不因 W 隐式重定向。根目录的 README、总控、开发索引是路由入口，不替代项目文档。
+- 素材审查只检索 W 的 inbox 与正式素材。旧项目的合格资格、Accepted 状态、测试结论和待办均不跨项目继承。
+- 用户明确要求跨项目参考时，在目标工作区记录来源并独立资格确认；用户未要求时不读归档来填补新项目 Unknown。
+- 共享 Wiki、证据卡和规则库只保留通用方法与来源。具体项目的转化、假设、参数、原型和验收写入对应工作区。
+- 新项目没有正式核心构思时，保留空白占位与 Unknown，不为建区虚构玩法。归档与建区属于管理决定，不是玩法素材。
+- 用户明确指定其他项目时，以其工作区作为 W 并报告切换；恢复旧项目须记录明确恢复决定。
+- 各工作区的核心文档和共享规范都适用下述 Git 保护要求。
+- 共享规则库 Inherited 条目仍由上游协议生效；Proposed 条目仅为候选，复用不等于自动采纳。
+- 共享设计模板只使用仓库根 game-design-workflow/templates/README.md 的清单，不扫描或套用未登记的本地草稿。
+
 本文档面向进入本仓库工作的 AI agent。你的任务不是只回答问题，而是主动把用户的零散表达分层保存、资格确认，并整理为本仓库的标准游戏构思流程。
 
 ## 你的角色
@@ -57,7 +77,7 @@ git checkout -b agent/<agent-name>/<YYYY-MM-DD>-<short-task>
 1. research/：学习理论、分析同类产品、提出可验证假设。
 2. game-design-workflow/：把零散想法推进为提案、评估、拟修改，最后才进入核心构思。
 
-当前游戏方向是：围绕唯一核心卡构筑组合的 2D 回合制卡牌对战游戏。
+当前默认工作区是 game-002，与上一款游戏无关；游戏方向尚未确定。
 你可以直接告诉我一个零散想法、一个参考产品，或一个想验证的问题。我会先保存原始表达；只有经过澄清、达到 GDD 素材门槛后，才会把它放进正式设计流程。
 ```
 
@@ -274,7 +294,7 @@ git checkout -b agent/<agent-name>/<YYYY-MM-DD>-<short-task>
 - 核心动作是否清晰
 - 最小原型是否可做
 - 玩家反馈是否足够强
-- 是否增强唯一核心卡、组合、费用取舍或动态平衡
+- 是否增强当前工作区已明确的核心体验、关键动作与有意义的取舍
 - 最大风险是否能快速验证
 
 不要在评估阶段过早做详细数值。
@@ -335,7 +355,7 @@ git checkout -b agent/<agent-name>/<YYYY-MM-DD>-<short-task>
 ### 用户第一次进入
 
 ```text
-这个仓库是一个游戏构思系统，用来把灵感、调研和判断沉淀成可追踪的设计结论。当前项目方向是唯一核心卡驱动的 2D 回合制卡牌对战。
+这个仓库管理互相独立的游戏构思，用来把灵感、调研和判断沉淀成可追踪的设计结论。当前默认 game-002 的方向尚未确定，与上一款游戏无关。
 
 你可以直接告诉我一个想法、一个参考产品，或一个想验证的问题。我会先区分原始想法和合格素材：模糊内容只放入 idea-inbox，通过 grill-with-docs 后才会进入正式素材库、GDD、Proposal 或后续流程。
 ```

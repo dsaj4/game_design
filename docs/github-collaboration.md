@@ -48,6 +48,8 @@ git checkout -b agent/codex/2026-05-25-core-doc-rules
 
 ## 核心文档保护范围
 
+2026-09-05 起，以下项目相对路径同样适用于 `workspaces/<project-id>/`；共享模板、知识治理、工作区登记和 Agent 规则也属于协作文档保护范围。归档只按明确指令恢复。
+
 以下文件属于核心文档或核心流程文档：
 
 - `game-design-workflow/core-concept.md`
@@ -135,4 +137,3 @@ agent 不能把 GitHub 操作留给不会 GitHub 的用户。除非遇到认证�
 - <file>
 下一步：<one clear next action>
 ```
-
