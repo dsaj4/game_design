@@ -6,7 +6,7 @@
 | --- | --- |
 | 工作区 | Active / Idea Qualification |
 | 类型、方向、目标玩家 | 用户强调卡组构筑定位，已选择 A 抽弃循环继续细化；正式核心尚未采纳，目标玩家 Unknown |
-| 原始想法记录、素材、正式 GDD | 3 / 6 / 0（包含双路线评议与 A 细化草案） |
+| 原始想法记录、素材、正式 GDD | 3 / 7 / 0（包含双路线评议与 A 细化草案） |
 | 提案、评估、正式玩法决定 | 无 |
 | 原型与代码 | 无 |
 | 生产阶段、排期 | 未确定 |
@@ -97,4 +97,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认：普通战斗失败即结束当前 Roguelike 一局，继续游玩需重新开局。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#战败结束本局确认记录)已扩充[胜负素材](../game-design-workflow/idea-materials/M-2026-09-05-normal-combat-outcomes.md)并关联本局卡组素材，Qualified GDD Material / Hypothesis；正式素材仍为 6 份。新局资源、局外成长、解锁、存读档和特殊复活规则均未决定。
 
-下一步：澄清普通胜利后的生命处理。推荐胜利本身不自动回满生命、剩余生命继续保留，恢复途径另行设计；[生命处理候选](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议普通胜利后的生命保留)仍为 Raw Idea / Unqualified。其他状态战后处理、具体能力、数值与界面后置。
+最新确认：普通胜利不自动回满生命，剩余生命继续保留，恢复途径另行设计。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#普通胜利后生命保留确认记录)已独立晋级为[生命保留素材](../game-design-workflow/idea-materials/M-2026-09-05-post-victory-health-persistence.md)，Qualified GDD Material / Hypothesis；正式素材现为 7 份。
+
+下一步：澄清护甲、燃烧等临时战场状态的战后处理。推荐默认在战斗结束时清除，下一场按起始规则建立状态；[状态清除候选](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议战场状态的战后清除)仍为 Raw Idea / Unqualified。生命与本局卡组沿用各自已确认规则；恢复途径、固有初始状态、特殊跨战斗效果、具体能力、数值与界面后置。
