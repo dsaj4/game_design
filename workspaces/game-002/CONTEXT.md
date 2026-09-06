@@ -2,7 +2,7 @@
 
 本词汇表记录构思澄清中已明确的术语，不代表整份初稿已经晋级或核心玩法已采纳。共享流程名词见[仓库词汇](../../CONTEXT.md)。
 
-2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6 和 SC1-SC6 已分别通过资格确认；旧分类、对象及卡包术语保留相应范围，单位共存与容量及其他候选仍待确认。
+2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6 和 SN1-SN5 已分别通过资格确认；旧分类、对象及卡包术语保留相应范围，种类词引用与目标锁定及其他候选仍待确认。
 
 ## Language
 
@@ -174,6 +174,18 @@ _Avoid_：与抽牌、施法结束补满、生成原种类词副本或立即开�
 **召唤指令**：
 玩家通过组织句子让基础召唤物执行动作的方式，相关施法共用玩家的时间投入；基础单位不自行发起攻击。来源见[召唤基础循环](game-design-workflow/idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)中的 SG5。
 _Avoid_：与召唤后自动获得额外行动、独立准备时间轴或随时免费调用关联卡混称。
+
+**基础召唤与同种共存**：
+一次基础召唤成功产生一个独立单位，同种单位可以共存；每只分别保有生命、护甲、状态和专属关联，重复召唤不合并、刷新或治疗旧单位。来源见 [SN1-SN2](game-design-workflow/idea-materials/M-2026-09-06-summon-coexistence-and-field-capacity.md)。
+_Avoid_：与同名卡副本、群体指挥或额外自主行动混称。
+
+**召唤物场上容量**：
+玩家基础召唤物共用的在场总上限，每只占一个名额，实际离场时释放；关联卡在何牌区或是否弃置不影响占用。来源见 [SN3](game-design-workflow/idea-materials/M-2026-09-06-summon-coexistence-and-field-capacity.md)，具体上限数字后定。
+_Avoid_：与手牌上限、本局同名三张、删牌安全下限或场上格位混称。
+
+**召唤容量检查**：
+基础召唤在确认施法时要求有真实空位，满员不能启动且不会自动替换旧单位；启动不预占名额，结算时无空位则整句落空，普通词弃置且时间不返还。来源见 [SN4-SN5](game-design-workflow/idea-materials/M-2026-09-06-summon-coexistence-and-field-capacity.md)。
+_Avoid_：把预计单位将离场视为当前已有空位，或把普通状态材料可提前等待推广为满员召唤许可。
 
 **基础召唤物存在范围**：
 玩家召唤的基础单位默认持续存在于本场，没有通用自动倒计时；明确离场或战斗结束时清除，单位及临时关联卡不跨战斗。来源见[SL1](game-design-workflow/idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)，生命承伤已由[SH1-SH6](game-design-workflow/idea-materials/M-2026-09-06-summon-health-damage-and-enemy-targeting.md)独立明确。
@@ -364,7 +376,7 @@ _Avoid_：将所有敌方行动都称为打断。
 _Avoid_：把开始施法视为已经产生部分效果，或把打断视为时间回退。
 
 **法术落空**：
-法术正常完成但整句不产生效果的结果；当前确认的原因包括三词基础句的必需状态材料完全缺失，以及 H4 范围内单目标法术所指普通敌人已被击败。普通投入词进入弃牌堆、已耗时间不返还、结束不额外补牌；若先被打断或整场先结束，沿用对应规则。材料缺失不自动延长施法等待材料，是否必需依具体操作判断；对象被击败不自动终止或换目标。来源见[材料缺失落空确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#必需材料缺失落空确认记录)及[击败后果素材](game-design-workflow/idea-materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md)。
+法术正常完成但整句不产生效果的结果；已确认原因包括必需状态材料完全缺失、H4 范围内普通敌人目标已被击败、[SL3](game-design-workflow/idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md) 的必需召唤物已离场，以及 [SN5](game-design-workflow/idea-materials/M-2026-09-06-summon-coexistence-and-field-capacity.md) 的基础召唤结算时无空位，各依对应范围判断。普通投入词进入弃牌堆、已耗时间不返还、结束不额外补牌；若先被打断或整场先结束，沿用对应规则。材料缺失不自动延长施法等待材料，是否必需依具体操作判断；对象被击败不自动终止或换目标。来源见[材料缺失落空确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#必需材料缺失落空确认记录)及[击败后果素材](game-design-workflow/idea-materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md)。
 _Avoid_：与未完成时的命中打断混称，把任何状态不存在都判为失败，或推定材料数量不足、其他目标失效及扩展句式也遵循同一结果。
 
 **击败与胜负检查点**：

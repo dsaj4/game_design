@@ -1,13 +1,14 @@
 # game-002 正式素材库
 
 只接收本项目通过资格确认的内容，状态为 Qualified GDD Material；入库不代表核心采纳或完成试玩验证。
-2026-09-06 适用性更新：原有 17 份素材保留历史范围，后续新增召唤循环、基础句式、类型道具、离场失效、生命承伤及[召唤关联卡生成与入手](M-2026-09-06-summon-reference-generation-and-hand-entry.md)，当前共 23 份。SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6 和 SC1-SC6 已分别通过资格复审；旧分类与对象范围按各素材顶部说明区分。当前[召唤物共存与场上容量](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#当前小板块召唤物共存与场上容量)仍为 Raw Idea / Unqualified，卡包覆盖与其他边界继续复审。
+2026-09-06 适用性更新：原有 17 份素材保留历史范围，后续新增召唤循环、基础句式、类型道具、离场失效、生命承伤、关联卡生成及[召唤物共存与场上容量](M-2026-09-06-summon-coexistence-and-field-capacity.md)，当前共 24 份。SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6 和 SN1-SN5 已分别通过资格复审；旧分类与对象范围按各素材顶部说明区分。当前[召唤词引用与目标锁定](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#当前小板块召唤词引用与目标锁定)仍为 Raw Idea / Unqualified，卡包覆盖与其他边界继续复审。
 
 使用[共享模板](../../../../game-design-workflow/templates/README.md)，按[项目流程](../README.md)进入本阶段，不复制旧项目文档。
 
 | 日期 | 素材 | 来源 | 证据状态 |
 | --- | --- | --- | --- |
-| 2026-09-06 | [召唤关联卡生成与入手](M-2026-09-06-summon-reference-generation-and-hand-entry.md) | [SC1-SC6 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#召唤关联卡生成与入手整组确认记录) | Hypothesis；每新单位一张关联卡，原投入词正常弃置；完整检查后有效卡直接入手，超限暂停弃牌，固定补牌独立且同刻不能抢施法；临时卡不占本局三张额度，单位共存、容量及具体效果后定 |
+| 2026-09-06 | [召唤物共存与场上容量](M-2026-09-06-summon-coexistence-and-field-capacity.md) | [SN1-SN5 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#召唤物共存与场上容量整组确认记录) | Hypothesis；基础单次一单位、同种独立共存、共用总上限，实际离场释放名额；满员不能启动、不自动替换，启动不预占且结算复查，无空位则落空；具体上限、种类词引用和特殊能力后定 |
+| 2026-09-06 | [召唤关联卡生成与入手](M-2026-09-06-summon-reference-generation-and-hand-entry.md) | [SC1-SC6 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#召唤关联卡生成与入手整组确认记录) | Hypothesis；每新单位一张关联卡，原投入词正常弃置；完整检查后有效卡直接入手，超限暂停弃牌，固定补牌独立且同刻不能抢施法；临时卡不占本局三张额度，单位共存与容量规则已关联 SN1-SN5，具体上限和效果后定 |
 | 2026-09-06 | [召唤生命承伤与敌方选取](M-2026-09-06-summon-health-damage-and-enemy-targeting.md) | [SH1-SH6 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#召唤物生命承伤与敌方选取整组确认记录) | Hypothesis；独立生命和防御、准备时公开目标，唯一目标离场的单目标攻击到点落空；命中单位不直接打断玩家，完整事件后生命耗尽则按 SL 离场，玩家仍承担失败条件；目标策略与数值后定，关联卡生成见 SC1-SC6 |
 | 2026-09-06 | [召唤物离场与关联卡失效](M-2026-09-06-summon-departure-and-reference-invalidation.md) | [SL1-SL6 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#召唤物离场与关联卡失效整组确认记录) | Hypothesis；单位及关联卡仅本场存在，失效卡定向清理、施法区卡句末清理，必需单位失效正常完成时落空；自身状态清除、外部状态依规则继续，原有种类词保留，关联卡不增加删牌余量；生命承伤已关联 SH1-SH6，关联卡生成已关联 SC1-SC6，特殊事件边界后定 |
 | 2026-09-06 | [法术类型与全局道具触发](M-2026-09-06-spell-types-and-item-triggers.md) | [ST1-ST6 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#法术类型与全局道具触发整组确认记录) | Hypothesis；简易按省略、召唤按操作或单位直接参与判定，条件可知、确认时固定；单项或条件不重复匹配，各道具分别检查，参数修正与成功奖励分时点，实际召出单位独立判断；具体道具、连锁与数值后定 |
