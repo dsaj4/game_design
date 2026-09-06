@@ -147,4 +147,4 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认（2026-09-06）：S1-S5 已整组确认，独立晋级[第 13 份合格素材](../game-design-workflow/idea-materials/M-2026-09-06-status-timing-and-expiration.md)，来源见[整组确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#单份周期状态计时与到期整组确认记录)。状态独立计时、完整周期首次触发，同刻状态阶段位于敌方行动后固定补牌前；末次触发先于到期，完全清除取消未来处理，每次完整处理后立即检查。证据 Hypothesis，未执行玩法验证。
 
-下一步：集中评议[同种状态的重施与叠加](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前小板块评议同种状态的重施与叠加)R1-R5，包含合并管理、数量累积、到期刷新、周期保持与部分消耗。全部为 Raw Idea / Unqualified；具体状态、数值及界面后置，多个状态内部排序另议。
+下一步：集中评议[同种状态的重施与叠加](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前小板块评议同种状态的重施与叠加)的修订方案。用户已[修改 R3](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#r3持续时长相加修改记录)为当前剩余时长加本次新增时长；R1 合并、R2 数量累积、R4 周期保持与 R5 部分消耗仍待确认。整组保留 Raw Idea / Unqualified，素材仍为 13 份；需评估数量与时长同时累积是否压过及时利用，具体状态、数值及界面后置。
