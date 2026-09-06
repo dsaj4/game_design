@@ -2,9 +2,9 @@
 
 日期：2026-09-06
 Project ID：game-002
-状态：其余整稿 Raw Idea / Unqualified；SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 及 SR1-SR6 已分别局部晋级为 Qualified GDD Material / Hypothesis，WC1-WC5 及 OH1-OH5 已局部晋级，当前集中评议 SM1-SM3。
+状态：其余整稿 Raw Idea / Unqualified；SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 及 SR1-SR6 已分别局部晋级为 Qualified GDD Material / Hypothesis，WC1-WC5 及 OH1-OH5 已局部晋级，SM1-SM3 已局部晋级，当前集中评议 PA1-PA3。
 
-本文按共享 idea-template 记录原话、资格与讨论批注，不是正式 Evaluation、Proposal、GDD 或核心采纳。此前 17 份素材保留历史来源；受本次改动影响的条目须重新确认适用性，数量不表示它们可直接组成新版规则。后续分别新增[召唤基础循环素材](../idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)与[省略句和显式主语素材](../idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)及[法术类型与道具触发素材](../idea-materials/M-2026-09-06-spell-types-and-item-triggers.md)及[召唤离场与关联卡失效素材](../idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)及[召唤生命承伤与敌方选取素材](../idea-materials/M-2026-09-06-summon-health-damage-and-enemy-targeting.md)及[召唤关联卡生成与入手素材](../idea-materials/M-2026-09-06-summon-reference-generation-and-hand-entry.md)及[召唤物共存与场上容量素材](../idea-materials/M-2026-09-06-summon-coexistence-and-field-capacity.md)及[召唤词引用与目标锁定素材](../idea-materials/M-2026-09-06-summon-word-references-and-target-locking.md)及[词性分类与卡包适配素材](../idea-materials/M-2026-09-06-word-classes-and-reward-packs.md)及[开局手牌保障与可表达性素材](../idea-materials/M-2026-09-06-opening-hand-guarantees.md)，正式素材共 27 份；其他新方向不随之晋级。
+本文按共享 idea-template 记录原话、资格与讨论批注，不是正式 Evaluation、Proposal、GDD 或核心采纳。此前 17 份素材保留历史来源；受本次改动影响的条目须重新确认适用性，数量不表示它们可直接组成新版规则。后续分别新增[召唤基础循环素材](../idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)与[省略句和显式主语素材](../idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)及[法术类型与道具触发素材](../idea-materials/M-2026-09-06-spell-types-and-item-triggers.md)及[召唤离场与关联卡失效素材](../idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)及[召唤生命承伤与敌方选取素材](../idea-materials/M-2026-09-06-summon-health-damage-and-enemy-targeting.md)及[召唤关联卡生成与入手素材](../idea-materials/M-2026-09-06-summon-reference-generation-and-hand-entry.md)及[召唤物共存与场上容量素材](../idea-materials/M-2026-09-06-summon-coexistence-and-field-capacity.md)及[召唤词引用与目标锁定素材](../idea-materials/M-2026-09-06-summon-word-references-and-target-locking.md)及[词性分类与卡包适配素材](../idea-materials/M-2026-09-06-word-classes-and-reward-packs.md)及[开局手牌保障与可表达性素材](../idea-materials/M-2026-09-06-opening-hand-guarantees.md)及[整句效果与词义复用素材](../idea-materials/M-2026-09-06-compositional-spells-and-word-meaning.md)，正式素材共 28 份；其他新方向不随之晋级。
 
 ## 原始想法
 
@@ -28,7 +28,7 @@ SG1-SG2 只确认入口和存在关系，不确认临时卡的生成数量、首
 ## 触发来源
 
 - 用户在前轮 L1-L3 尚未确认时主动提出三项关键改动，并要求评估和细化；随后回答上述两项问题。
-- [前轮词义职责候选](2026-09-05-yanzhou-core-combat.md#当前小板块评议词义职责与组合结果)保留为历史候选，不能当作已确认前提；L1 的统一“主语承接结果”尤其需要重做。L2 的组合效果目标、L3 的可复用词义目标可供重新评议，没有获得本轮自动确认。
+- [前轮词义职责候选](2026-09-05-yanzhou-core-combat.md#当前小板块评议词义职责与组合结果)保留为历史候选，不能当作已确认前提；L1 的统一“主语承接结果”尤其需要重做。L2 的组合效果目标、L3 的可复用词义目标后来由 SM1-SM3 在新句式前提下重新确认，见下方独立记录；旧 L1-L3 没有整组自动获批。
 - [原稿](2026-09-05-yanzhou-source.txt)已经提出省略、召唤与语法扩展，但其原先优先级和例句不能代替本轮选择。
 - 外部产品参照：本轮无新增来源。下面是依照本项目规则所做的机制评议，无市场结论或试玩证据。
 
@@ -52,20 +52,20 @@ SG1-SG2 只确认入口和存在关系，不确认临时卡的生成数量、首
 | 原始表达和触发来源是否可追溯？ | 原话及 SG1-SG2 本轮答复保留在上方，前轮素材和候选可定位 | Clear |
 | 素材作用于哪个对象或 GDD 章节？ | 构句、词卡分类、施法类型、召唤与构筑联动 | Clear |
 | 玩家处于什么情境？ | 手中词语不齐时组织短句；召唤后利用对应单位构句；根据道具选择兼容多类型的法术 | Clear |
-| 玩家会做什么、受到什么影响？ | SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 及 SR1-SR6 已分别明确召唤循环、句式、类型、离场、生命承伤、关联卡生成、共存容量及引用目标；WC1-WC5 已明确基础词性及卡包适配，OH1-OH5 已明确开局保障；整句组合与其他词义仍有缺口 | Partial |
+| 玩家会做什么、受到什么影响？ | SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 及 SR1-SR6 已分别明确召唤循环、句式、类型、离场、生命承伤、关联卡生成、共存容量及引用目标；WC1-WC5 已明确基础词性及卡包适配，OH1-OH5 已明确开局保障，SM1-SM3 已明确整句与词义复用；防护身份与其他具体词义仍有缺口 | Partial |
 | 希望产生什么设计价值？ | 提高词汇复用，形成短句与显式主语句的取舍，让流派由组合和道具自然形成 | Clear（意图，未验证） |
 | 与已有规则是什么关系？ | 固定三类、统一三词句及召唤物排除范围与新方向冲突；卡包分布、目标关系、耗时与循环需要复审 | Clear（影响已定位，替代规则待确认） |
-| 最大未知和验证方式？ | 召唤循环、句式、类型、离场、生命承伤、关联卡生成、共存容量及引用目标已确认，WC1-WC5 及 OH1-OH5 已明确词性卡包与起手适配，当前明确整句效果与词义复用，再完成其他词义；按下方对照情境检查规则是否可解释 | Clear（方法，未执行） |
+| 最大未知和验证方式？ | 召唤循环、句式、类型、离场、生命承伤、关联卡生成、共存容量及引用目标已确认，WC1-WC5 及 OH1-OH5 已明确词性卡包与起手适配，SM1-SM3 已明确整句效果与词义复用，当前明确防护状态身份与生成，再完成其他词义；按下方对照情境检查规则是否可解释 | Clear（方法，未执行） |
 
 ### 当前缺口
 
-SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 及 SR1-SR6 已分别局部晋级。WC1-WC5 及 OH1-OH5 已独立晋级；当前集中对齐 SM1-SM3：整句效果组成、新组合的成立方式与词义一致性。具体词卡、数值和界面后置；护盾与既有护甲是否同物及其他词义仍待明确。
+SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 及 SR1-SR6 已分别局部晋级。WC1-WC5 及 OH1-OH5 已独立晋级；SM1-SM3 已独立晋级；当前集中对齐 PA1-PA3：护盾与护甲身份、基础防护生成前提及护甲数量与存续方式。具体词卡、数值和界面后置；护盾与既有护甲是否同物及其他词义仍待明确。
 
 ### 资格结论
 
 - [x] Unqualified：整组替代方案尚未达标，继续留在 inbox。
-- [ ] Ready for Material Review：其余整句效果、词义和扩展候选仍缺明确规则。
-- [x] Promoted（仅局部）：SG1-SG5 已晋级[召唤基础循环素材](../idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)，FG1-FG5 已晋级[省略句与显式主语素材](../idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)，ST1-ST6 已晋级[法术类型与道具触发素材](../idea-materials/M-2026-09-06-spell-types-and-item-triggers.md)，SL1-SL6 已晋级[召唤离场与关联卡失效素材](../idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)，SH1-SH6 已晋级[召唤生命承伤与敌方选取素材](../idea-materials/M-2026-09-06-summon-health-damage-and-enemy-targeting.md)，SC1-SC6 已晋级[召唤关联卡生成与入手素材](../idea-materials/M-2026-09-06-summon-reference-generation-and-hand-entry.md)，SN1-SN5 已晋级[召唤物共存与场上容量素材](../idea-materials/M-2026-09-06-summon-coexistence-and-field-capacity.md)，SR1-SR6 已晋级[召唤词引用与目标锁定素材](../idea-materials/M-2026-09-06-summon-word-references-and-target-locking.md)，WC1-WC5 已晋级[词性分类与卡包适配素材](../idea-materials/M-2026-09-06-word-classes-and-reward-packs.md)，OH1-OH5 已晋级[开局手牌保障与可表达性素材](../idea-materials/M-2026-09-06-opening-hand-guarantees.md)，分别为第 18、19、20、21、22、23、24、25、26、27 份素材；证据 Hypothesis。
+- [ ] Ready for Material Review：其余防护状态、具体词义和扩展候选仍缺明确规则。
+- [x] Promoted（仅局部）：SG1-SG5 已晋级[召唤基础循环素材](../idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)，FG1-FG5 已晋级[省略句与显式主语素材](../idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)，ST1-ST6 已晋级[法术类型与道具触发素材](../idea-materials/M-2026-09-06-spell-types-and-item-triggers.md)，SL1-SL6 已晋级[召唤离场与关联卡失效素材](../idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)，SH1-SH6 已晋级[召唤生命承伤与敌方选取素材](../idea-materials/M-2026-09-06-summon-health-damage-and-enemy-targeting.md)，SC1-SC6 已晋级[召唤关联卡生成与入手素材](../idea-materials/M-2026-09-06-summon-reference-generation-and-hand-entry.md)，SN1-SN5 已晋级[召唤物共存与场上容量素材](../idea-materials/M-2026-09-06-summon-coexistence-and-field-capacity.md)，SR1-SR6 已晋级[召唤词引用与目标锁定素材](../idea-materials/M-2026-09-06-summon-word-references-and-target-locking.md)，WC1-WC5 已晋级[词性分类与卡包适配素材](../idea-materials/M-2026-09-06-word-classes-and-reward-packs.md)，OH1-OH5 已晋级[开局手牌保障与可表达性素材](../idea-materials/M-2026-09-06-opening-hand-guarantees.md)，SM1-SM3 已晋级[整句效果与词义复用素材](../idea-materials/M-2026-09-06-compositional-spells-and-word-meaning.md)，分别为第 18、19、20、21、22、23、24、25、26、27、28 份素材；证据 Hypothesis。
 
 已定位的改动方向不再被旧“固定三类不混用”拦回；同时，实际投入成本已有 FG5 的独立确认；基础名词与动词集合由 WC1 独立确认，其他词性、逐词含义及其余召唤细则不因方向明确而自动生效。
 
@@ -541,7 +541,7 @@ WC5 沿用旧卡包不保证语义适配的边界，本次新增的是不强制�
 
 确认日期：2026-09-06。用户对前轮 OH1-OH5 整组推荐回复“确认”。
 
-状态：已局部晋级[开局手牌保障与可表达性](../idea-materials/M-2026-09-06-opening-hand-guarantees.md)，Qualified GDD Material / Hypothesis，成为第 27 份素材。以下保留推荐与取舍作为确认来源；本次仅确认 OH1-OH5，后续 SM1-SM3 尚未确认。WC 卡包覆盖有独立依据，不代替起手保障；手牌数量、具体词卡、数值和界面继续后置。
+状态：已局部晋级[开局手牌保障与可表达性](../idea-materials/M-2026-09-06-opening-hand-guarantees.md)，Qualified GDD Material / Hypothesis，成为第 27 份素材。以下保留推荐与取舍作为确认来源；本次仅确认 OH1-OH5，SM1-SM3 后来由下方独立记录确认，不属于 OH 的原确认范围。WC 卡包覆盖有独立依据，不代替起手保障；手牌数量、具体词卡、数值和界面继续后置。
 
 | 编号 | 待决问题 | 推荐方案 | 主要取舍 |
 | --- | --- | --- | --- |
@@ -571,11 +571,13 @@ OH4 仅在确实需要补正时重新洗剩余堆；原随机起手已达标则�
 | 现有关系 | Clear：细化起手保障，保留投词、状态提前施法、时间、预览与同名额度；不把卡包类别覆盖等同于合法句 |
 | 未知与验证 | 词卡明确后比较自然达标、缺动词、语义不兼容、必需单位缺失、材料未出现、多份同名及无可表达卡组；成功为保障可兑现且起手仍有变化，失败为凭空补卡、保障依赖未来状态或总发同一强句；未执行 |
 
-## 当前小板块：整句效果与词义复用
+## 整句效果与词义复用整组确认记录
 
-状态：Raw Idea / Unqualified；SM1-SM3 全部待确认。本组重新评议旧 L2-L3 的整句组合与可推导目标，使用已经确认的 FG 句式和角色职责，不恢复旧 L1 的统一“主语承接结果”。具体词卡效果、数值与界面继续后置。
+确认日期：2026-09-06。用户对前轮 SM1-SM3 整组推荐回复“确认”。
 
-来源：用户原稿的组合施法与可推导目标、[旧 L1-L3 历史候选](2026-09-05-yanzhou-core-combat.md#当前小板块评议词义职责与组合结果)，以及本页灵活句式、同卡跨位与多法术类型改动。旧 L2-L3 尚未确认，本组亦未随 OH 确认。
+状态：已局部晋级[整句效果与词义复用](../idea-materials/M-2026-09-06-compositional-spells-and-word-meaning.md)，Qualified GDD Material / Hypothesis，成为第 28 份素材。以下保留推荐与取舍作为确认来源，本轮只确认 SM1-SM3；后续 PA1-PA3 尚未确认。本组在 FG 的新句式前提下重新确认组合目标，不恢复旧 L1 的统一“主语承接结果”。具体词卡效果、数值与界面继续后置。
+
+来源：用户原稿的组合施法与可推导目标、[旧 L1-L3 历史候选](2026-09-05-yanzhou-core-combat.md#当前小板块评议词义职责与组合结果)，以及本页灵活句式、同卡跨位与多法术类型改动。旧 L2-L3 作为历史候选保留；本组在 OH 之后独立获得确认，不能据此把旧 L1-L3 整组标为已确认。
 
 | 编号 | 待决问题 | 推荐方案 | 主要取舍 |
 | --- | --- | --- | --- |
@@ -596,10 +598,42 @@ SM3 允许同一普通“恶魔”种类词用于新召唤或引用已有同种�
 | 来源与触发 | Clear：用户原稿、三项关键改动、旧 L2-L3 未决范围与 FG 的已确认职责 |
 | 设计对象 | Clear：整句效果组成、新组合成立方式与词义一致性 |
 | 玩家处境 | Clear：手中有不同词卡，比较替换组件的影响并尝试未演示组合 |
-| 行为与反馈 | Partial：SM1-SM3 尚未确认，不能写入合格素材 |
-| 预期价值 | Clear：学习词义后可以迁移到新句子，发现来自可理解的规则；是否采用及体验待确认、验证 |
+| 行为与反馈 | Clear：用户已整组确认 SM1-SM3，已明确一句一法术、规则推导及词义一致性 |
+| 预期价值 | Clear：学习词义后可以迁移到新句子，发现来自可理解的规则；设计选择已确认，体验待验证 |
 | 现有关系 | Clear：承接 FG、SR、ST 与整句结算，不恢复旧固定三类及统一主语职责 |
 | 未知与验证 | 词义设计阶段对照已演示与新组合、跨位用法和不兼容例子；成功为能依据规则说明变化，失败为只能背逐句特例或换词只改数字；未执行 |
+
+## 当前小板块：防护状态的定义与生成
+
+状态：Raw Idea / Unqualified；PA1-PA3 全部待确认。本组处理用户例句“获得 护盾”与已有护甲状态的关系，以及生成、防护数量与存续方式。具体获得量、累计上限及是否需要上限、施法耗时、完整词卡表和界面继续后置。
+
+来源：本页用户原话中的“获得 护盾”、[基础句式 FG](../idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)、[伤害与护甲](../idea-materials/M-2026-09-06-damage-armor-and-interruption.md)、[状态留存](../idea-materials/M-2026-09-05-battle-state-persistence.md)及[状态重施](../idea-materials/M-2026-09-06-status-reapplication-and-stacking.md)。这些既有材料没有确认护盾与护甲同物，也没有把所有状态默认定义为可累积或无自然到期。
+
+| 编号 | 待决问题 | 推荐方案 | 主要取舍 |
+| --- | --- | --- | --- |
+| PA1 | 护盾与护甲是否为两种状态？ | 基础版视为同一防护状态，统一称“护甲”；后续规则例句使用“获得 护甲”。原稿“护盾”保留为历史表述，不因此额外建立一张护盾同义词卡 | 复用既有防御、状态与材料规则，减少重复概念；基础版暂不区分两种防护用途 |
+| PA2 | “获得 护甲”是否要求已经有护甲？ | 将该基础句明确为生成护甲，施放前不要求已有护甲，省略主语时由玩家获得；它不表示从其他对象转移或扣取护甲。操作已有护甲的法术是否需要、消耗多少材料，仍由对应动词规定 | 零护甲时也能建立防护，生成与引用已有状态有清晰区别；不按“获得”一词自动开放所有名词或任意转移 |
+| PA3 | 基础护甲怎样叠加和存续？ | 明确为同一对象上的一份可累积数量状态，有效新增护甲加入现有数量；基础护甲无自然到期、无自动周期效果，依抵伤消耗及其他明确效果变化，整场结束按原规则清除 | 可以提前储备防护或留作材料；储备价值可能压过及时进攻，须结合供给与敌方压力验证 |
+
+PA1 尚未获批，因此当前正式素材仍保留“护盾与护甲关系待定”。采纳时应更新现行例句与术语，不改写用户原话和历史确认内容。本组不授予“护盾”与“护甲”两张同义卡各自占用同名额度的获取方式；未来同义词卡或不同防护状态需要独立设计。
+
+PA2 只明确“获得 护甲”作为基础生成句的性质与默认接收者，不声明“获得”能搭配所有名词，也不在这里补齐显式主语的全部适配。它仍需要实际投入合法词卡并耗时施法，完成前被打断则不生效；生成状态本身不自动获得对应词卡的原则继续有效。基础生成句不以现有护甲为输入材料，并不取消其他法术对现有护甲的引用、消耗或转化权限；相应操作的实际效果仍须明确。
+
+PA3 是护甲自身的数量与时间规则，不把所有状态都改成永久累积。同目标同种状态合并沿既有 R1；有期限状态的剩余时长相加仍按 R3，本组护甲无自然到期，因此没有需要累加的基础持续时间。数量上限是否需要及其数值留待平衡讨论，不把暂未设定上限当成已经确认无限储备；也不擅自加入每行动清空或每秒衰减。
+
+已确认前提，不重复询问：普通直接与持续伤害等量消耗护甲，溢出扣生命；攻击命中玩家时即使全挡仍打断在途法术，持续伤害本身不打断。玩家、普通敌人和己方召唤物按各自对象拥有护甲，召唤物不自动共用玩家护甲。PA 不新增抗打断、伤害免疫、共享护甲或跨战继承。
+
+整组评估：统一防护状态能让“获得防护”与“把防护作为材料”共用已有规则，避免维护两套含义接近却边界不清的资源。主要风险是可累积且无自然到期的防护，让某些对局过度偏向先储备；需在具体获得量、耗时与敌方压力明确后，比较立刻进攻、加甲、留甲和消耗护甲的选择。尚未执行玩法或玩家测试。
+
+| 资格问题 | 当前状态 |
+| --- | --- |
+| 来源与触发 | Clear：用户“获得 护盾”例句与已有护甲、状态规则之间的明确未决关系 |
+| 设计对象 | Clear：基础防护状态身份、生成前提、数量与存续方式 |
+| 玩家处境 | Clear：零护甲或已有护甲时，比较建立防护、继续累积与使用防护材料 |
+| 行为与反馈 | Partial：PA1-PA3 尚未确认，现有素材中的术语与例句保持原范围 |
+| 预期价值 | Clear：同一防护资源可抵伤或作为材料，生成与引用容易区分；体验未验证 |
+| 现有关系 | Clear：沿用伤害、打断、状态合并与战后清除，只提议补齐身份、生成及具体存续类型 |
+| 未知与验证 | 确认后随数值设计比较零护甲生成、已有护甲重施、等待、受击消耗和战后清除；成功为玩家能预测数量来源与变化且有不同选择，失败为误当第二资源或抗打断、无需投词、长期只能囤甲；未执行 |
 
 ## 最小验证安排
 
@@ -630,6 +664,7 @@ SM3 允许同一普通“恶魔”种类词用于新召唤或引用已有同种�
 - [x] SR1-SR6 已整组确认，独立晋级召唤词引用与目标锁定素材。
 - [x] WC1-WC5 已整组确认，独立晋级词性分类与卡包适配素材。
 - [x] OH1-OH5 已整组确认，独立晋级开局手牌保障与可表达性素材。
-- [ ] 集中确认 SM1-SM3：整句效果与词义复用。
+- [x] SM1-SM3 已整组确认，独立晋级整句效果与词义复用素材。
+- [ ] 集中确认 PA1-PA3：防护状态的定义与生成。
 - [ ] 补齐其他板块后逐项资格复审，达到门槛再晋级素材。
 - [ ] 完成必要的正式流程后才写入 GDD 或核心构思；本轮没有实现任务。
