@@ -10,7 +10,7 @@ Project ID：game-002
 
 ## 2026-09-06 关键改动入口
 
-用户明确调整句式、允许词卡跨主宾位置，并加入可重叠的法术类型与召唤单位。[灵活句式、词性复用与多类型改动](2026-09-06-flexible-grammar-and-spell-types.md)保存完整原话、两个召唤入口答复、冲突审查与候选细化。旧固定三类约束不再拦截新方向；本页其余确认保留历史范围，受影响规则须复审。前轮 L1-L3 未确认，现需按新方向重议；SG1-SG5 后续已独立晋级[召唤基础循环素材](../idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)，FG1-FG5 已独立晋级[省略句与显式主语素材](../idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)，ST1-ST6 已独立晋级[类型与道具触发素材](../idea-materials/M-2026-09-06-spell-types-and-item-triggers.md)，当前素材共 20 份；下一组集中讨论 SL1-SL6 的召唤物离场与关联卡失效。
+用户明确调整句式、允许词卡跨主宾位置，并加入可重叠的法术类型与召唤单位。[灵活句式、词性复用与多类型改动](2026-09-06-flexible-grammar-and-spell-types.md)保存完整原话、两个召唤入口答复、冲突审查与候选细化。旧固定三类约束不再拦截新方向；本页其余确认保留历史范围，受影响规则须复审。前轮 L1-L3 未确认，现需按新方向重议；SG1-SG5 后续已独立晋级[召唤基础循环素材](../idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)，FG1-FG5 已独立晋级[省略句与显式主语素材](../idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)，ST1-ST6 已独立晋级[类型与道具触发素材](../idea-materials/M-2026-09-06-spell-types-and-item-triggers.md)，SL1-SL6 已独立晋级[召唤离场与关联卡失效素材](../idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)，当前素材共 21 份；下一组集中讨论 SH1-SH6 的召唤物生命、承伤与敌方选取。
 
 ## 原始想法
 
@@ -2391,7 +2391,8 @@ L2 描述的是法术效果的组成，不把词义处理分散到吟唱过程�
 - [x] SG3-SG5 已确认，与 SG1-SG2 共同晋级[召唤基础循环素材](../idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)，正式素材共 18 份。
 - [x] FG1-FG5 已确认并独立晋级[省略句与显式主语素材](../idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)，正式素材共 19 份。
 - [x] ST1-ST6 已确认并独立晋级[类型与道具触发素材](../idea-materials/M-2026-09-06-spell-types-and-item-triggers.md)，正式素材共 20 份。
-- [ ] 当前集中确认新记录的 SL1-SL6：召唤物离场与关联卡失效。
+- [x] SL1-SL6 已确认并独立晋级[召唤离场与关联卡失效素材](../idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)，正式素材共 21 份。
+- [ ] 当前集中确认新记录的 SH1-SH6：召唤物生命、承伤与敌方选取。
 - [ ] 按整体顺序澄清词汇、构句、世界状态反馈与局内构筑，避免继续逐项展开数值与细小边界。
 - [ ] 继续按独立设计对象复审其余初稿内容，通过后晋级 idea-materials。
 - [ ] 与用户确认 GDD-0/1/2 目标后，按统一模板逐步整理。

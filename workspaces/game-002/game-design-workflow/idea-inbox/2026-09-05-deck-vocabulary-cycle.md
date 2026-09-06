@@ -8,7 +8,7 @@ Project ID：game-002
 
 当前版本入口：见“当前修订：多张预览与牌序干预”。用户已选择显示多张牌序，并要求预留联想、回忆、改序和删牌魔法。此前的单张预览建议未采纳；时间补牌衔接分析继续作为候选依据。下方 A-01 至 A-12 及旧循环图保留为历史候选，不能与新修订叠加执行。
 
-最新方向（2026-09-06）：[灵活句式、词性复用与多类型改动](2026-09-06-flexible-grammar-and-spell-types.md)已进入评议。固定补牌与普通循环保留原范围；SG1-SG5 已独立晋级[召唤基础循环素材](../idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)，关联卡进手、用后弃置洗回，不能再次作为召唤种类；其他权限不自动套用临时复制品规则，基础句式已由 [FG1-FG5](../idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md) 明确，起手保障、卡包分类和安全余量仍需复审。
+最新方向（2026-09-06）：[灵活句式、词性复用与多类型改动](2026-09-06-flexible-grammar-and-spell-types.md)已进入评议。固定补牌与普通循环保留原范围；SG1-SG5 已独立晋级[召唤基础循环素材](../idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)，关联卡进手、用后弃置洗回，不能再次作为召唤种类；其他权限不自动套用临时复制品规则，基础句式已由 [FG1-FG5](../idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md) 明确，[SL1-SL6](../idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)已独立明确离场清理与关联卡不增加删牌余量，起手保障、卡包分类和安全下限数值仍需复审。
 
 ## 原始想法
 
@@ -941,7 +941,7 @@ flowchart TD
 - [x] E1-E3 已整组确认，见[多敌人同刻行动顺序](2026-09-05-yanzhou-core-combat.md#多敌人同刻行动顺序整组确认记录)，扩充时间素材，仍为 17 份合格素材。
 - [x] B1-B3 已整组确认，见[施法预算与未知后续行动](2026-09-05-yanzhou-core-combat.md#施法预算与未知后续行动整组确认记录)，扩充时间素材，仍为 17 份合格素材。
 - [x] O1-O4 已完成[开局整组确认](2026-09-05-yanzhou-core-combat.md#战斗开局与初始节拍整组确认记录)，扩充时间与供给素材。
-- [ ] 按[灵活句式、词性复用与多类型改动](2026-09-06-flexible-grammar-and-spell-types.md)重议旧 L1-L3，SG1-SG5、FG1-FG5 和 ST1-ST6 已分别独立晋级，当前确认 SL1-SL6 的召唤物离场与关联卡失效；起手与卡包适配仍后续明确，关联卡安全余量在本组提出但尚未确认。
+- [ ] 按[灵活句式、词性复用与多类型改动](2026-09-06-flexible-grammar-and-spell-types.md)重议旧 L1-L3，SG1-SG5、FG1-FG5、ST1-ST6 和 SL1-SL6 已分别独立晋级，当前确认 SH1-SH6 的召唤物生命、承伤与敌方选取；起手、卡包适配与下限数值仍后续明确，关联卡不增加删牌安全余量已由 SL6 确认。
 - [ ] 结合构句职责与词卡可用位置继续复核循环；牌区最大占用和具体数值后续复核。
 - [ ] 审阅其余会改变整体循环的规则，复审合格素材资格。
 - [ ] 用户后续明确授权且具备设计来源后，才进入实现流程。

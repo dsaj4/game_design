@@ -2,7 +2,7 @@
 
 本词汇表记录构思澄清中已明确的术语，不代表整份初稿已经晋级或核心玩法已采纳。共享流程名词见[仓库词汇](../../CONTEXT.md)。
 
-2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5、FG1-FG5 和 ST1-ST6 已分别通过资格确认；旧固定分类、对象及卡包术语按下方边界保留，召唤离场与其他候选仍待确认。
+2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5、FG1-FG5、ST1-ST6 和 SL1-SL6 已分别通过资格确认；旧分类、对象及卡包术语保留相应范围，生命承伤与其他候选仍待确认。
 
 ## Language
 
@@ -164,12 +164,32 @@ _Avoid_：把所有召唤类型法术都当成新单位生成。
 _Avoid_：与召唤完成后生成的单位及指向单位的临时卡混称。
 
 **召唤关联卡**：
-恶魔召唤中随场上单位产生、指向该具体单位的临时卡；进入普通手牌，用后弃置并参与洗回，可用于强化、指挥等合法操作，默认不能作为新召唤的种类材料。精确生成时点、离场清理等边界未定，来源见[召唤基础循环](game-design-workflow/idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)中的 SG1-SG5。
+恶魔召唤中随场上单位产生、指向该具体单位的临时卡；进入普通手牌，用后弃置并参与洗回，可用于强化、指挥等合法操作，默认不能作为新召唤的种类材料。循环依据见 [SG1-SG5](game-design-workflow/idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)，离场与战后清理由 [SL1-SL6](game-design-workflow/idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)独立确认，生成精确时点后定。
 _Avoid_：与本局原有种类词、普通临时复制品或场上单位本身混称，或把卡被弃置等同于单位消失。
 
 **召唤指令**：
 玩家通过组织句子让基础召唤物执行动作的方式，相关施法共用玩家的时间投入；基础单位不自行发起攻击。来源见[召唤基础循环](game-design-workflow/idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)中的 SG5。
 _Avoid_：与召唤后自动获得额外行动、独立准备时间轴或随时免费调用关联卡混称。
+
+**基础召唤物存在范围**：
+玩家召唤的基础单位默认持续存在于本场，没有通用自动倒计时；明确离场或战斗结束时清除，单位及临时关联卡不跨战斗。来源见[SL1](game-design-workflow/idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)，生命与承伤后定。
+_Avoid_：与无敌、无需指挥或可以积攒跨战斗单位混称。
+
+**关联卡失效清理**：
+单位离场后清理绑定它的临时关联卡，已投入施法的卡延至该句结束清理；不补偿抽牌、不产生使用或主动弃牌收益，剩余牌序与补牌计时保持。来源见[SL2-SL3](game-design-workflow/idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)。
+_Avoid_：与清理全部同名卡、本局永久删词或为守住删牌下限保留失效卡混称。
+
+**召唤指令失效**：
+必需单位在结算前离场后，在途法术不自动停止或改指；正常完成时整句落空、不退时间、不额外补牌，若先被打断或整场结束则依各自规则处理。来源见[SL3](game-design-workflow/idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)。
+_Avoid_：与受击即打断、自动退款或追溯取消本句正常效果导致的离场混称。
+
+**召唤离场后的状态归属**：
+离场单位自身附着的状态清除，它施加给其他有效对象的状态依自身规则继续，除非明确要求来源在场。来源见[SL4](game-design-workflow/idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)。
+_Avoid_：与自动转移自身状态或取消该单位施加的所有效果混称。
+
+**再次召唤与原有种类词**：
+单位离场不删除或自动抽回本局原有种类词，重新合法召唤建立新单位与新关联；旧关联卡不自动恢复或改绑。来源见[SL5](game-design-workflow/idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)。
+_Avoid_：与免费重召唤、特殊复活或撤销此前本场移除效果混称。
 
 **独立字数上限**：
 依据句中文字总数限制句子是否可用的额外门槛，旧三词基础范围已确认暂不启用；本轮灵活句式的容量限制尚待复审，未自动开启字数上限。原稿中的字数系统保留，待可变句长或修饰词阶段再评估，来源见[范围确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#基础版独立字数上限确认记录)。
@@ -368,7 +388,7 @@ _Avoid_：将施法区视为另一组可自由使用的手牌，或认为移入�
 _Avoid_：把洗回等同于所有词卡归库、立即补满手牌，或认为抽走最后一张就须提前洗回。
 
 **安全下限**：
-为防止抽牌堆和弃牌堆同时为空而设置的本场可循环词卡数量下限；本场移除最多执行到该下限，超出余量的部分不执行，并提前展示实际可移除量。计数包括手牌、施法区、抽牌堆与弃牌堆，不含已本场移除的词。具体数值未定。来源见[卡组下限确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#卡组下限方向与资格追问)。
+为防止抽牌堆和弃牌堆同时为空而设置的本场可循环词卡数量下限；本场移除最多执行到该下限，超出余量的部分不执行，并提前展示实际可移除量。计数包括手牌、施法区、抽牌堆与弃牌堆，不含已本场移除的词。其中会随单位离场清理的召唤关联卡不增加可删牌余量，失效清理也不因下限而保留无效卡；具体数值及牌区占用验证后定，来源见[卡组下限确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#卡组下限方向与资格追问)及[SL6](game-design-workflow/idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)。
 _Avoid_：只计算抽牌堆张数，将已移除词计入安全余量，或将数量保障等同于合法句保障。
 
 **起手保障**：
