@@ -157,4 +157,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认（2026-09-06）：E1-E3 已完成[整组确认](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#多敌人同刻行动顺序整组确认记录)并扩充[时间素材](../game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)。开战在场普通敌人的同刻固定序首次决策前公开，本场保持相对顺序，非同刻仍按时间先后；逐行动检查、击败取消及结束即停止保持。正式素材仍为 17 份，证据 Hypothesis，未进行玩法验证。
 
-下一步：集中评议[施法预算与未知后续行动](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前小板块评议施法预算与未知后续行动)B1-B3，包含超预算启动、无已知攻击和未来未公开行动的风险边界。全部 Raw Idea / Unqualified；具体词卡、数值与界面后置。
+最新确认（2026-09-06）：B1-B3 已完成[整组确认](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#施法预算与未知后续行动整组确认记录)并扩充[时间素材](../game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)。其他条件合法可超预算启动，无已知攻击不等于无限安全；后续新公开攻击按实际时序影响施法，原预算不提供保护或撤回权限。正式素材仍为 17 份，证据 Hypothesis，未进行玩法验证。
+
+下一步：集中评议[战斗开局与初始节拍](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前小板块评议战斗开局与初始节拍)O1-O4，包含每战时间起点、起手准备耗时、敌方首次准备和首张周期补牌。全部 Raw Idea / Unqualified；具体词卡、数值与界面后置。
