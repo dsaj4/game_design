@@ -2,7 +2,7 @@
 
 本词汇表记录构思澄清中已明确的术语，不代表整份初稿已经晋级或核心玩法已采纳。共享流程名词见[仓库词汇](../../CONTEXT.md)。
 
-2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 和 SR1-SR6 已分别通过资格确认；旧分类、对象及卡包术语保留相应范围，WC1-WC5 已明确名动词性与卡包适配，起手保障细化及其他词义仍待确认。
+2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 和 SR1-SR6 已分别通过资格确认；旧分类、对象及卡包术语保留相应范围，WC1-WC5 已明确名动词性与卡包适配，OH1-OH5 已明确开局保障，整句效果与其他词义仍待确认。
 
 ## Language
 
@@ -329,7 +329,7 @@ _Avoid_：与一局 Roguelike 的开局、现实时间或跨战生命及卡组�
 
 **起手准备**：
 首次施法或等待决策前完成的洗牌与形成起手过程，不推进战斗时间，也不因该过程触发普通敌方行动或定时补牌；沿用起手合法句保障。来源同[O1-O4 开局确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#战斗开局与初始节拍整组确认记录)。
-_Avoid_：与首张定时补牌、玩家自由选牌或保证起手法术安全完成混称；具体起手牌数与保障方法未定。
+_Avoid_：与首张定时补牌、玩家自由选牌或保证起手法术安全完成混称；具体起手牌数与随机选择权重未定，保障方法见 OH1-OH5。
 
 **多敌人独立行动**：
 基础版普通战斗允许单敌人和多敌人遭遇；每个敌人各自准备并公开下一次行动及执行时间，与玩家施法和固定补牌共用一条战斗时间轴。某个敌人行动后只接续自己的准备，不统一重置其他敌人的准备。来源见[多敌人确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#多敌人独立行动确认记录)。
@@ -427,6 +427,10 @@ _Avoid_：把洗回等同于所有词卡归库、立即补满手牌，或认为�
 为防止抽牌堆和弃牌堆同时为空而设置的本场可循环词卡数量下限；本场移除最多执行到该下限，超出余量的部分不执行，并提前展示实际可移除量。计数包括手牌、施法区、抽牌堆与弃牌堆，不含已本场移除的词。其中会随单位离场清理的召唤关联卡不增加可删牌余量，失效清理也不因下限而保留无效卡；具体数值及牌区占用验证后定，来源见[卡组下限确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#卡组下限方向与资格追问)及[SL6](game-design-workflow/idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)。
 _Avoid_：只计算抽牌堆张数，将已移除词计入安全余量，或将数量保障等同于合法句保障。
 
+**起手补正**：
+随机起手不满足保障时，从本局实际卡牌可组成的合格组合中随机选一组，保留已在手组件并等量交换缺少组件的初始化处理；换出牌回抽牌堆并洗剩余堆，最终确定后才公开首次预览。来源见 [OH3-OH5](game-design-workflow/idea-materials/M-2026-09-06-opening-hand-guarantees.md)。
+_Avoid_：与自选换牌、卡组外补卡、战中重抽或普通定时补牌混称；自然达标的起手及剩余牌序保留，准备不耗时。
+
 **起手保障**：
-开局手牌至少能用本局自有词卡组成一条合法基础句的规则；不保证最优组合或后续每次补牌都能成句，也不保证该句来得及完成。具体保障方式与牌数尚未确定。来源见[起手保障确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#起手保障确认)。
+开局手牌至少用本局自有词卡具备一条语义兼容、当前可启动且必需状态材料齐备的基础句；不保证最优、收益大小、安全完成或后续补牌成句。来源见[最初确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#起手保障确认)与[OH1-OH5](game-design-workflow/idea-materials/M-2026-09-06-opening-hand-guarantees.md)；手牌数量后定。
 _Avoid_：将其等同于任意选牌、无限重抽、卡组外补词，或只凭词类齐全就判定语义合法。

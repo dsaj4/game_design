@@ -1,7 +1,7 @@
 # game-002 正式素材库
 
 只接收本项目通过资格确认的内容，状态为 Qualified GDD Material；入库不代表核心采纳或完成试玩验证。
-2026-09-06 适用性更新：原有 17 份素材保留历史范围，后续新增召唤循环、基础句式、类型道具、离场失效、生命承伤、关联卡生成、共存容量、召唤词引用及[词性分类与卡包适配](M-2026-09-06-word-classes-and-reward-packs.md)，当前共 26 份。SG、FG、ST、SL、SH、SC、SN、SR 及 WC1-WC5 已分别通过资格复审；旧分类与对象范围按各素材顶部说明区分。当前[开局手牌保障与可表达性](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#当前小板块开局手牌保障与可表达性)仍为 Raw Idea / Unqualified，其他词义继续复审。
+2026-09-06 适用性更新：原有 17 份素材保留历史范围，后续新增召唤循环、基础句式、类型道具、离场失效、生命承伤、关联卡生成、共存容量、召唤词引用、词性卡包及[开局手牌保障与可表达性](M-2026-09-06-opening-hand-guarantees.md)，当前共 27 份。SG、FG、ST、SL、SH、SC、SN、SR、WC 及 OH1-OH5 已分别通过资格复审；旧分类与对象范围按各素材顶部说明区分。当前[整句效果与词义复用](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#当前小板块整句效果与词义复用)仍为 Raw Idea / Unqualified，其他词义继续复审。
 
 使用[共享模板](../../../../game-design-workflow/templates/README.md)，按[项目流程](../README.md)进入本阶段，不复制旧项目文档。
 
@@ -32,4 +32,5 @@
 | 2026-09-06 | [状态读值与同刻内部顺序](M-2026-09-06-status-values-and-resolution-order.md) | [T1-T5 整组确认](../idea-inbox/2026-09-05-yanzhou-core-combat.md#状态读值与同刻内部顺序整组确认记录) | Hypothesis；周期开始读取当前状态数量，同刻按首次生效先后及固定平局规则逐状态处理；重施保位、清除重建重排，周期与到期后分别检查；普通击败后果已关联独立素材，其他宿主失效、特殊连锁及具体参数后置 |
 | 2026-09-06 | [普通敌人击败后的对象与状态](M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md) | [H1-H4 整组确认](../idea-inbox/2026-09-05-yanzhou-core-combat.md#普通敌人被击败后的对象与状态整组确认记录) | Hypothesis；普通敌人被击败后退出施法对象，自身附着状态清除，其他存活对象上的既有状态默认继续；指向它的单目标在途法术正常完成时落空，先被打断或整场先结束按对应规则；基础对象选择已关联独立素材，特殊对象与失效后置 |
 | 2026-09-06 | [基础句对象选择与锁定](M-2026-09-06-basic-sentence-targeting-and-locking.md) | [G1-G3 整组确认](../idea-inbox/2026-09-05-yanzhou-core-combat.md#基础句的对象选择与锁定整组确认记录) | Hypothesis；基础句单对象来源与结果，句义条件内可选自身或尚未被击败的普通敌人；构句可改选、确认施法锁定身份，不冻结状态与统一读值；特殊对象、跨对象及具体词卡后置 |
-| 2026-09-06 | [词性分类与卡包适配](M-2026-09-06-word-classes-and-reward-packs.md) | [WC1-WC5 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#词性分类与卡包适配整组确认记录) | Hypothesis；基础名动两类，每包一名词、一动词及一个剩余随机词，过滤后至少三名且两类均有；排除单位绑定临时关联卡，不保证主宾用途、流派或语义适配；起手保障具体方法与随机权重后定 |
+| 2026-09-06 | [词性分类与卡包适配](M-2026-09-06-word-classes-and-reward-packs.md) | [WC1-WC5 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#词性分类与卡包适配整组确认记录) | Hypothesis；基础名动两类，每包一名词、一动词及一个剩余随机词，过滤后至少三名且两类均有；排除单位绑定临时关联卡，不保证主宾用途、流派或语义适配；起手保障方法已另由 OH 独立确认，随机权重后定 |
+| 2026-09-06 | [开局手牌保障与可表达性](M-2026-09-06-opening-hand-guarantees.md) | [OH1-OH5 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#开局手牌保障与可表达性整组确认记录) | Hypothesis；至少一条当前条件齐备的基础句，自有卡组与普通开局条件共同兑现；随机不达标时等量补正，补正后洗剩余堆并首次预览，只在起手阶段生效；具体牌数、随机权重与实际开局多样性待定或待验证 |
