@@ -6,7 +6,7 @@
 | --- | --- |
 | 工作区 | Active / Idea Qualification |
 | 类型、方向、目标玩家 | 用户强调卡组构筑定位，已选择 A 抽弃循环继续细化；正式核心尚未采纳，目标玩家 Unknown |
-| 原始想法记录、素材、正式 GDD | 3 / 12 / 0（包含双路线评议与 A 细化草案） |
+| 原始想法记录、素材、正式 GDD | 3 / 13 / 0（包含双路线评议与 A 细化草案） |
 | 提案、评估、正式玩法决定 | 无 |
 | 原型与代码 | 无 |
 | 生产阶段、排期 | 未确定 |
@@ -145,4 +145,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认（2026-09-06）：用户整组确认 D1-D4，普通直接与持续伤害均等量消耗护甲，溢出扣生命；护甲全挡的攻击仍打断，持续伤害本身不打断。[整组确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#伤害护甲与打断整组确认记录)已独立晋级为[第 12 份合格素材](../game-design-workflow/idea-materials/M-2026-09-06-damage-armor-and-interruption.md)，证据 Hypothesis，已同步时间、状态和胜负关系。
 
-下一步：集中评议[单份周期状态的计时与到期](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前小板块评议单份周期状态的计时与到期)S1-S5，包含首次触发、同刻阶段、到期、提前清除及胜负检查。五项均为 Raw Idea / Unqualified；不要求所有状态自然到期，重施、叠加及多个状态同刻内部排序另作小板块。
+最新确认（2026-09-06）：S1-S5 已整组确认，独立晋级[第 13 份合格素材](../game-design-workflow/idea-materials/M-2026-09-06-status-timing-and-expiration.md)，来源见[整组确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#单份周期状态计时与到期整组确认记录)。状态独立计时、完整周期首次触发，同刻状态阶段位于敌方行动后固定补牌前；末次触发先于到期，完全清除取消未来处理，每次完整处理后立即检查。证据 Hypothesis，未执行玩法验证。
+
+下一步：集中评议[同种状态的重施与叠加](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前小板块评议同种状态的重施与叠加)R1-R5，包含合并管理、数量累积、到期刷新、周期保持与部分消耗。全部为 Raw Idea / Unqualified；具体状态、数值及界面后置，多个状态内部排序另议。
