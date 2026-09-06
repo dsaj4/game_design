@@ -2,7 +2,7 @@
 
 本词汇表记录构思澄清中已明确的术语，不代表整份初稿已经晋级或核心玩法已采纳。共享流程名词见[仓库词汇](../../CONTEXT.md)。
 
-2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。下方旧固定分类、三词对象范围和卡包类别术语已标注复审边界；只有用户明确的概念与召唤入口在本轮补入词汇表，候选使用细则留在 inbox。
+2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5 召唤基础循环与 FG1-FG5 基础句式已分别通过资格确认；旧固定分类、对象及卡包术语按下方边界保留，类型与道具细则仍为候选。
 
 ## Language
 
@@ -116,8 +116,24 @@ _Avoid_：与通过普通奖励收下的独立副本或指向具体单位的召�
 _Avoid_：继续用旧禁令排除新版跨位用法，或从放开跨位推定所有词在所有位置都合法。
 
 **词性与句法角色**：
-词性描述词本身的类别，句法角色描述它在某一句中的作用；本轮允许同一卡承担主语或宾语角色，并提出按词性重新区分卡牌。具体词性集合及可用条件尚未定，来源见[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)。
+词性描述词本身的类别，句法角色描述它在某一句中的作用；同一卡可按词义作为主语或宾语，每张实际投入卡只占一个出现位置。具体词性全集与逐词兼容范围后定，来源见[基础句式素材](game-design-workflow/idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)。
 _Avoid_：把主语、宾语继续当作互斥词性，或把角色复用等同于多出一张实体卡。
+
+**基础省略句**：
+当前支持的“动词 + 名词”句式，省略显式主语，以玩家为默认执行者；具体合法性仍取决于词义和战场条件。来源见[基础句式素材](game-design-workflow/idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)。
+_Avoid_：与任意省略、任意语序或无组件施法混称。
+
+**默认执行者**：
+合法省略主语句中由语义补全的玩家“我”，不要求持有或投入实体“我”卡，也不取得未投入卡牌的专属效果；玩家已有状态与适用全局道具照常生效。来源同[基础句式素材](game-design-workflow/idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)。
+_Avoid_：与免费实体主语卡或取消玩家全部已有能力混称。
+
+**显式主语**：
+“名词 + 动词 + 名词”中实际投入、按词义指定执行者或作用载体的首个名词；承担自身卡牌耗时。来源同[基础句式素材](game-design-workflow/idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)。
+_Avoid_：与所有法术的受术目标或统一结果容器混称。
+
+**宾语与受术目标**：
+宾语提供动词直接处理的内容，受术目标是结果作用的对象，两者须按词义区分；例如恶魔释放火焰中，火焰是释放内容，目标按释放规则决定。来源同[基础句式素材](game-design-workflow/idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)。
+_Avoid_：将宾语位置等同于最终受术目标，或据此推定任意跨对象权限。
 
 **法术类型**：
 依据整条法术特征形成、可被特定全局道具识别的类别；一条法术可以同时具有多个类型，并作为构筑流派的标志。来源见[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)。
@@ -125,7 +141,7 @@ _Avoid_：与词性、单词语义属性或互斥职业混称。
 
 **简易法术**：
 用户提出的省略显式主语、由系统补“我”的法术类型，例如“获得 护盾”。它可以同时属于其他法术类型，来源见[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)。
-_Avoid_：把省略主语理解为没有语义上的执行者，或把少一个词直接等同于已经确定的耗时与强度折扣。
+_Avoid_：把省略主语理解为没有语义上的执行者，或把按实际卡牌相加的基础耗时误作固定折扣及强度结论。
 
 **召唤法术**：
 以召唤动作或召唤物参与为特征的法术类型；用户例子包括“召唤 恶魔”“强化 恶魔”“恶魔 释放 火焰”，前两者同时属于简易法术。具体判定范围仍待细化，来源见[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)。
@@ -224,7 +240,7 @@ _Avoid_：将状态出现等同于词卡入手，将拥有词卡等同于已拥�
 _Avoid_：将“主语”与“施法选定对象”混称。
 
 **施法耗时**：
-一项法术完成施放所需的战斗时间，当前基础值为所有投入词卡各自耗时之和，显示名称的汉字数量不直接换算时间。它与现实构句用时及当前窗口剩余的施法预算不同，来源见[耗时组成确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#施法耗时的组成确认记录)。
+一项法术完成施放所需的战斗时间，基础值为实际投入词卡各自耗时之和；省略主语不收隐藏主语费用，显式主语承担自身耗时，汉字数量不直接换算时间。来源见[耗时组成确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#施法耗时的组成确认记录)及[FG5](game-design-workflow/idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)。
 _Avoid_：用“字数”“专注”或“施法预算”直接替代施法耗时，或把词卡耗时相加理解为逐词产生效果。
 
 **构句阶段**：

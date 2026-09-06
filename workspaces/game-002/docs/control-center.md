@@ -161,6 +161,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认（2026-09-06）：O1-O4 已完成[整组确认](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#战斗开局与初始节拍整组确认记录)，扩充[时间素材](../game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)及[供给素材](../game-design-workflow/idea-materials/M-2026-09-05-timeline-draw-preview.md)。每场普通战斗重新计时，起手准备不推进时间，开战在场普通敌人从同一起点开始非零首次准备，首张定时牌经过完整间隔后到来；不保证合法起手句能安全完成。正式素材仍为 17 份，证据 Hypothesis，未进行玩法验证。
 
-当前改动（2026-09-06）：[灵活句式、词性复用与多法术类型](../game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)中的 SG1-SG5 已独立晋级[召唤基础循环](../game-design-workflow/idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)，正式素材共 18 份，证据 Hypothesis；其余新方向仍为 Raw Idea / Unqualified，旧分类、对象与卡包等相关范围继续复审。
+当前改动（2026-09-06）：[灵活句式、词性复用与多法术类型](../game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)中的 SG1-SG5 已晋级[召唤基础循环](../game-design-workflow/idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)，FG1-FG5 已晋级[省略句与显式主语](../game-design-workflow/idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)，正式素材共 19 份，证据 Hypothesis；两种基础句式、角色与实际成本已有独立依据，其他对象细则、卡包覆盖及类型候选继续复审。
 
-下一步：集中确认 FG1-FG5，明确基础句式、默认主语、成分职责、跨位投入与实际成本；具体词卡、数值和界面后置。
+下一步：集中确认 [ST1-ST6](../game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#当前小板块法术类型与全局道具触发)，明确法术类型判定、匹配次数、效果时点和实际事件条件；具体词卡、数值和界面后置。
