@@ -2,7 +2,7 @@
 
 状态：Qualified GDD Material；证据状态 Hypothesis。素材入库不代表正式核心采纳、完整循环定稿或已经验证好玩。
 
-适用性更新（2026-09-06）：[召唤基础循环](M-2026-09-06-summoned-unit-reference-card-cycle.md)已确认已有种类词启动召唤，关联卡进手、用后弃置洗回，指向具体单位且不能作为新召唤种类；[SL1-SL6](M-2026-09-06-summon-departure-and-reference-invalidation.md)已独立明确离场及战后清理、在途失效和关联卡不增加删牌安全余量；[SC1-SC6](M-2026-09-06-summon-reference-generation-and-hand-entry.md)已独立明确每单位一张、原词弃置、检查后有效关联卡入手、即时超限弃牌及临时归属；生成不改变抽牌堆与固定补牌，不自动套用复制规则。[FG1-FG5](M-2026-09-06-flexible-sentences-and-subject-roles.md)已明确两种基础句式、语义兼容跨位、每卡一处及实际投入成本；起手保障、下限具体数值及卡包配额需据此独立适配，不能继续机械检查三个独占词类。下文固定补牌、预览和普通牌区流转保留原范围。
+适用性更新（2026-09-06）：[召唤基础循环](M-2026-09-06-summoned-unit-reference-card-cycle.md)已确认已有种类词启动召唤，关联卡进手、用后弃置洗回，指向具体单位且不能作为新召唤种类；[SL1-SL6](M-2026-09-06-summon-departure-and-reference-invalidation.md)已独立明确离场及战后清理、在途失效和关联卡不增加删牌安全余量；[SC1-SC6](M-2026-09-06-summon-reference-generation-and-hand-entry.md)已独立明确每单位一张、原词弃置、检查后有效关联卡入手、即时超限弃牌及临时归属；生成不改变抽牌堆与固定补牌，不自动套用复制规则。[FG1-FG5](M-2026-09-06-flexible-sentences-and-subject-roles.md)已明确两种基础句式、语义兼容跨位、每卡一处及实际投入成本；卡包配额已由 [WC1-WC5](M-2026-09-06-word-classes-and-reward-packs.md) 独立适配，起手保障方法与下限具体数值仍需另议，不能继续机械检查三个独占词类。下文固定补牌、预览和普通牌区流转保留原范围。
 
 ## 素材控制
 

@@ -2,7 +2,7 @@
 
 本词汇表记录构思澄清中已明确的术语，不代表整份初稿已经晋级或核心玩法已采纳。共享流程名词见[仓库词汇](../../CONTEXT.md)。
 
-2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 和 SR1-SR6 已分别通过资格确认；旧分类、对象及卡包术语保留相应范围，词性集合与卡包适配及其他词义仍待确认。
+2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 和 SR1-SR6 已分别通过资格确认；旧分类、对象及卡包术语保留相应范围，WC1-WC5 已明确名动词性与卡包适配，起手保障细化及其他词义仍待确认。
 
 ## Language
 
@@ -74,12 +74,12 @@ _Avoid_：理解为每次必定回满、必须始终留有伤势，或在同次�
 _Avoid_：将拿牌等同于必然增强；升级暂不引入，永久删牌或换牌未因此获得采用。
 
 **休整随机卡包**：
-类别覆盖因[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)进入复审，以下主谓宾各一张为旧版分布，不自动用于新版。选择拿牌后才开启并公开主语、谓语、宾语各一张候选的随机卡包，各类内部随机、互不重名，并排除本局同名已满三张的词；跨卡包仍可出现未满额已有词。卡池权重、稀有度及重抽规则仍待定，来源见[三类各一张确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#休整卡包三类各一张确认记录)。
-_Avoid_：理解为三个卡包选一个、一次拿走三类词，或将类别覆盖等同于语义兼容；同包不重名不禁止跨卡包收集副本，休整候选规则不自动推广到所有获取场景。
+选择拿牌后才开启的三候选卡包：一个随机名词、一个随机动词及一个剩余合格随机词，三个名称不同，排除本局同名满三张的词与单位绑定临时关联卡；跨包可出现未满额已有词。来源见 [WC1-WC5](game-design-workflow/idea-materials/M-2026-09-06-word-classes-and-reward-packs.md)，词池权重、稀有度及重抽规则后定。
+_Avoid_：理解为三个卡包选一个、一次拿走三张候选，或将类别覆盖等同于语义兼容；同包不重名不禁止跨卡包收集副本，休整候选规则不自动推广到所有获取场景。
 
 **休整拿牌可用条件**：
 
-完整卡包的类别条件因[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)进入复审；旧版在选择本次休整收益前，检查能否组成三类各一张、互不重名并排除本局同名满三张词的完整卡包；只有能组成时才提供拿牌，某类无合格词时本次只保留恢复分支，不自动回血、不提前公开候选。来源见[可用条件确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#休整卡包可用条件确认记录)。
+过滤后至少有三个不同名合格词，名词、动词各至少有一个，才能生成完整卡包。休整在选收益前检查，不提前公开候选；不可用时仅保留恢复分支，不自动回血。来源见 [WC3](game-design-workflow/idea-materials/M-2026-09-06-word-classes-and-reward-packs.md) 及[休整素材](game-design-workflow/idea-materials/M-2026-09-05-rest-recovery-deck-choice.md)。
 
 _Avoid_：与候选不喜欢或语义不兼容混称；不以不完整卡包、跨类或满额词补位，不自动获得重抽或补偿。
 
@@ -88,7 +88,7 @@ _Avoid_：与候选不喜欢或语义不兼容混称；不以不完整卡包、�
 _Avoid_：与改选恢复、未选分支时直接跳过休整、重抽或补偿混称。
 
 **普通战斗词卡奖励**：
-候选类别与完整卡包条件因[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)进入复审；以下三类配额保留为旧版范围。每次普通胜利提供一次词卡奖励机会，完整卡包可用时公开一包候选，按主谓宾各一、类内随机、同包不重名和本局同名满三张过滤生成完整卡包，直接公开候选，可拿一张或全部放弃；无法组成完整卡包则不提供候选，不自动回血或补偿。它是独立战后收益，不占休整选择，也无恢复分支。来源见[普通奖励素材](game-design-workflow/idea-materials/M-2026-09-06-normal-combat-word-rewards.md)。
+每次普通胜利提供一次独立词卡奖励机会：可用时直接公开符合 WC 的三张候选，拿一张或全部放弃；无法组成完整包则不提供候选，不自动回血或补偿，不占休整选择。来源见[普通奖励素材](game-design-workflow/idea-materials/M-2026-09-06-normal-combat-word-rewards.md)与[词性卡包素材](game-design-workflow/idea-materials/M-2026-09-06-word-classes-and-reward-packs.md)。
 _Avoid_：与卡包不可用时强行发牌、强制入组、逐个敌人发奖或先选收益再开包的休整流程混称；额外跳过补偿和特殊奖励尚未确定。
 
 **词卡奖励跳过**：
@@ -116,7 +116,7 @@ _Avoid_：与通过普通奖励收下的独立副本或指向具体单位的召�
 _Avoid_：继续用旧禁令排除新版跨位用法，或从放开跨位推定所有词在所有位置都合法。
 
 **词性与句法角色**：
-词性描述词本身的类别，句法角色描述它在某一句中的作用；同一卡可按词义作为主语或宾语，每张实际投入卡只占一个出现位置。具体词性全集与逐词兼容范围后定，来源见[基础句式素材](game-design-workflow/idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)。
+词性描述词本身的类别；基础版为名词、动词，每张卡固定属于一类。句法角色描述它在具体句子中的作用，同一卡可按词义用于主语或宾语，每张实际投入卡只占一个出现位置。来源见[基础句式素材](game-design-workflow/idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)与[WC1](game-design-workflow/idea-materials/M-2026-09-06-word-classes-and-reward-packs.md)；其他词性与逐词兼容范围后定。
 _Avoid_：把主语、宾语继续当作互斥词性，或把角色复用等同于多出一张实体卡。
 
 **基础省略句**：
@@ -241,7 +241,7 @@ _Avoid_：与状态数值锁定、材料预留、通用取消或目标失效后�
 
 **语义兼容**：
 句内各词的作用能够衔接的要求；旧版具体表述是谓语能处理宾语、主语能承接谓语结果，来源见[构句素材](game-design-workflow/idea-materials/M-2026-09-05-fixed-grammatical-roles.md)。本轮加入省略主语和召唤物执行后，执行者与动作、输入之间的具体兼容关系需重议，见[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)。
-_Avoid_：将三类齐全等同于语义兼容，或将语义兼容等同于任何战况下都可施法。
+_Avoid_：将词性齐全等同于语义兼容，或将语义兼容等同于任何战况下都可施法。
 
 **战场状态留存**：
 可被后续法术引用的状态在本场跨施法、跨敌方行动保留的原则；变化与消失依状态自身规则或明确效果。来源见[状态素材](game-design-workflow/idea-materials/M-2026-09-05-battle-state-persistence.md)。
