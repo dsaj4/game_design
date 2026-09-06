@@ -139,7 +139,19 @@ _Avoid_：与取较大值、重置下一次周期或使所有状态自然到期�
 
 **状态重施与重建**：
 对仍存在的状态再次施加为重施，依已确认规则处理数量和剩余时间，但保持原周期、不额外立即触发。完全清除后再次施加为新生效，重新计算首次完整周期。仅减少数量而状态仍存在时，剩余周期和到期时间不刷新。来源同[重施与叠加素材](game-design-workflow/idea-materials/M-2026-09-06-status-reapplication-and-stacking.md)。
-_Avoid_：把每次重施视为重新开始状态，或把部分消耗等同于完全清除；同刻内部排序尚未确定。
+_Avoid_：把每次重施视为重新开始状态，或把部分消耗等同于完全清除；重施保留首次生效排序位置，清除重建按新状态排序，来源见[状态读值与顺序素材](game-design-workflow/idea-materials/M-2026-09-06-status-values-and-resolution-order.md)。
+
+**周期当前数量读值**：
+状态每次周期效果开始结算时读取它当前的数量或层数，先前已经完成的叠加和消耗影响本次读取。来源见[状态读值与顺序素材](game-design-workflow/idea-materials/M-2026-09-06-status-values-and-resolution-order.md)。
+_Avoid_：与首次施加量锁定、数量与伤害线性换算或所有法术的通用读取时点混称。
+
+**状态同刻内部顺序**：
+状态阶段内，有到时事项的有效状态按当前这一份状态首次生效的先后处理；同刻首次生效按产生效果的结算先后，同一效果同时产生多个状态时按该效果事先明确的固定顺序。重施保留位置，完全清除后重建按新状态排序。来源同[状态读值与顺序素材](game-design-workflow/idea-materials/M-2026-09-06-status-values-and-resolution-order.md)。
+_Avoid_：与不同事件阶段的优先级、多个敌人的行动顺序、每层各有位置或按阵营临时改序混称。
+
+**逐状态到时处理**：
+按状态内部顺序逐个处理到时事项；本状态周期效果后立即检查，仍应到期且战斗继续才处理到期并再检查，再处理下一个状态。轮到前已清除或不再到期的事项不执行，整场结束停止后续流程。来源同[状态读值与顺序素材](game-design-workflow/idea-materials/M-2026-09-06-status-values-and-resolution-order.md)。
+_Avoid_：与所有周期先于所有到期、同刻所有效果同时发生或本状态周期与到期只检查一次混称。
 
 **状态周期计时**：
 具有周期效果的状态从生效起独立计算战斗时间，经过完整周期首次触发，之后按自身周期继续；构句和超限弃牌暂停时计时也暂停。来源见[状态计时素材](game-design-workflow/idea-materials/M-2026-09-06-status-timing-and-expiration.md)。
@@ -211,7 +223,7 @@ _Avoid_：与每次行动自动清空护甲、护甲不消耗的减伤率、抗�
 
 **持续伤害**：
 由具体规则明确的持续性伤害效果，默认经过护甲，但本身不视为一次攻击命中，不因扣除生命而打断正在施放的法术。来源同[伤害素材](game-design-workflow/idea-materials/M-2026-09-06-damage-armor-and-interruption.md)。
-_Avoid_：与所有战场状态、持续施法或免于战败混称；周期与到期的通用过程和检查位置已由[状态计时素材](game-design-workflow/idea-materials/M-2026-09-06-status-timing-and-expiration.md)补齐；基础重施与叠加已由[独立素材](game-design-workflow/idea-materials/M-2026-09-06-status-reapplication-and-stacking.md)补齐，具体参数、周期读值和多状态内部顺序仍待定。
+_Avoid_：与所有战场状态、持续施法或免于战败混称；周期与到期的通用过程和检查位置已由[状态计时素材](game-design-workflow/idea-materials/M-2026-09-06-status-timing-and-expiration.md)补齐；基础重施与叠加已由[独立素材](game-design-workflow/idea-materials/M-2026-09-06-status-reapplication-and-stacking.md)补齐，周期当前数量读值与状态内部顺序已由[独立素材](game-design-workflow/idea-materials/M-2026-09-06-status-values-and-resolution-order.md)补齐；具体参数、宿主消失和特殊连锁仍待定。
 
 **施法打断**：
 玩家正在施放法术时遭敌方攻击命中而发生的中断；攻击即使被护甲完全抵消、没有损失生命仍会打断尚未完成的法术。敌方自我强化、增加护甲或召唤本身不属于打断，持续伤害本身也不打断。来源见 [Q5 确认记录](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#q5打断的触发范围)及[伤害板块确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#伤害护甲与打断整组确认记录)。
@@ -230,7 +242,7 @@ _Avoid_：与未完成时的命中打断混称，把任何状态不存在都判�
 _Avoid_：与玩家操作窗口、整个同刻事件组或胜负条件本身混称；普通战斗同时满足条件时失败优先已确认，特殊效果检查位置尚未确定。
 
 **同刻结算顺序**：
-同一战斗时点先结算已完成法术并弃置普通投入词，再处理敌方行动及可能的打断弃置，然后处理到时的状态，最后处理固定节拍补牌与超限弃牌；中间不开放新施法，战斗结束则停止后续流程。多敌人及多个状态各自的内部先后、特殊触发未定。来源见[同一时点顺序确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#同一时点顺序确认)及[状态时序确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#单份周期状态计时与到期整组确认记录)。
+同一战斗时点先结算已完成法术并弃置普通投入词，再处理敌方行动及可能的打断弃置，然后处理到时的状态，最后处理固定节拍补牌与超限弃牌；中间不开放新施法，战斗结束则停止后续流程。状态内部先后按首次生效及固定平局规则处理，见[状态读值与顺序素材](game-design-workflow/idea-materials/M-2026-09-06-status-values-and-resolution-order.md)；多敌人内部行动顺序和特殊触发未定。来源见[同一时点顺序确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#同一时点顺序确认)及[状态时序确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#单份周期状态计时与到期整组确认记录)。
 _Avoid_：把画面播放的先后当作新的行动机会，或用同刻刚补入的词抢在敌方行动前施法。
 
 **时间补牌**：
