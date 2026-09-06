@@ -6,7 +6,7 @@
 | --- | --- |
 | 工作区 | Active / Idea Qualification |
 | 类型、方向、目标玩家 | 用户强调卡组构筑定位，已选择 A 抽弃循环继续细化；正式核心尚未采纳，目标玩家 Unknown |
-| 原始想法记录、素材、正式 GDD | 3 / 10 / 0（包含双路线评议与 A 细化草案） |
+| 原始想法记录、素材、正式 GDD | 3 / 11 / 0（包含双路线评议与 A 细化草案） |
 | 提案、评估、正式玩法决定 | 无 |
 | 原型与代码 | 无 |
 | 生产阶段、排期 | 未确定 |
@@ -129,4 +129,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认（2026-09-06）：基础版每次新局从同一套预设起始卡组开始，上局构筑不带入。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#新局起始卡组确认记录)已独立晋级为[第 10 份合格素材](../game-design-workflow/idea-materials/M-2026-09-06-preset-starting-deck.md)，证据状态 Hypothesis；具体卡表、数值和重开体验待验证。
 
-下一步：讨论普通战斗词卡奖励是否复用休整卡包的生成与领取规则，并作为独立战后收益。[奖励评议](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议普通战斗词卡奖励)仍为 Raw Idea / Unqualified；奖励出现频率后定，需验证类别满额与休整拿牌价值的风险。
+最新确认（2026-09-06）：普通战斗词卡奖励复用休整卡包的生成与领取规则，并作为直接开包的独立战后收益。[确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#普通战斗词卡奖励确认记录)已独立晋级为[第 11 份合格素材](../game-design-workflow/idea-materials/M-2026-09-06-normal-combat-word-rewards.md)，证据状态 Hypothesis；发放频率、额外跳过补偿和特殊奖励未定。
+
+下一步：讨论卡包可用时，是否每次普通战斗胜利后都提供一次词卡奖励机会。[节奏评议](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前整体机制评议普通胜利的奖励节奏)仍为 Raw Idea / Unqualified；需结合词池和路线检验成长速度、重复拒收与休整拿牌价值。
