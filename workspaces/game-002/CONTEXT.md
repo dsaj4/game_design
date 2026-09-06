@@ -2,9 +2,19 @@
 
 本词汇表记录构思澄清中已明确的术语，不代表整份初稿已经晋级或核心玩法已采纳。共享流程名词见[仓库词汇](../../CONTEXT.md)。
 
-2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 和 SR1-SR6 已分别通过资格确认；旧分类、对象及卡包术语保留相应范围，WC1-WC5 已明确名动词性与卡包适配，OH1-OH5 已明确开局保障，SM1-SM3 已明确整句效果与词义复用，PA1-PA3 已明确防护状态与生成，效果修正归属及其他具体词义仍待确认。
+2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 和 SR1-SR6 已分别通过资格确认；旧分类、对象及卡包术语保留相应范围，WC1-WC5 已明确名动词性与卡包适配，OH1-OH5 已明确开局保障，SM1-SM3 已明确整句效果与词义复用，PA1-PA3 已明确防护状态与生成，ER1-ER3 已明确效果修正归属与读取，周期状态继承及其他具体词义仍待确认。
 
 ## Language
+
+**源方自身效果修正**：
+
+明确影响执行者产生效果的强化或削弱；默认玩家与非单位载体采用玩家自身的适用修正，召唤物执行时采用该单位自身的适用修正，双方不自动互相继承。来源见[施法效果的来源与修正](game-design-workflow/idea-materials/M-2026-09-06-spell-effect-sources-and-modifiers.md)。
+_Avoid_：与材料来源、受术者防御、全局道具、击杀或状态来源奖励归因混称。
+
+**本句源方强度读取**：
+
+法术完成、开始结算整句时读取适用的源方效果强度修正，本句结算中保持这份读取；来源同[ER3](game-design-workflow/idea-materials/M-2026-09-06-spell-effect-sources-and-modifiers.md)。
+_Avoid_：与确认施法时计算耗时、冻结战场材料数量或周期效果的全部属性继承混称。
 
 **战斗胜利**：
 普通战斗中，检查时全部敌人已被击败且玩家生命未耗尽所对应的本场结果。来源见[普通战斗胜负素材](game-design-workflow/idea-materials/M-2026-09-05-normal-combat-outcomes.md)；普通法术、敌方行动或一次状态周期效果、到期处理完整结算后立即检查，普通战斗同时满足胜负条件时失败优先已确认，普通敌人检查时生命耗尽即被击败已确认，首领等特殊击败规则与特殊检查位置仍待明确。
