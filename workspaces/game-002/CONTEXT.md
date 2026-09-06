@@ -125,6 +125,14 @@ _Avoid_：将三类齐全等同于语义兼容，或将语义兼容等同于任�
 可被后续法术引用的状态在本场跨施法、跨敌方行动保留的原则；变化与消失依状态自身规则或明确效果。来源见[状态素材](game-design-workflow/idea-materials/M-2026-09-05-battle-state-persistence.md)。
 _Avoid_：将留存等同于冻结、永不过期或跨战斗继承，或忽视具体操作对状态的消耗和改变。
 
+**状态承载对象与施加来源**：
+承载对象是状态当前附着的战场对象；施加来源是产生该状态的对象。普通敌人被击败时，其自身附着状态完全清除，但它施加在其他存活对象上的状态默认继续按自身规则运行。来源见[击败后果素材](game-design-workflow/idea-materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md)。
+_Avoid_：把来源被击败当作清除全部状态，或把同种状态合并当作混同承载对象与来源；特殊来源依赖另议。
+
+**普通敌人击败后的对象失效**：
+普通敌人在已确认检查点上被判定击败后，失去普通施法对象资格，基础版不保留可施法遗体。只指向它的单目标在途法术在战斗继续时保持原过程，不自动终止或换目标；若正常完成则落空，若先被打断或整场先结束则按各自规则处理。来源同[击败后果素材](game-design-workflow/idea-materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md)。
+_Avoid_：与所有目标失效、完整目标选择与锁定、自动取消退款或首领阶段变化混称。
+
 **状态合并**：
 同一目标的同一种基础状态共用数量和计时，不因重复施加或来源不同保留多份独立倒计时；不同目标或不同状态分别管理。同种状态由规则定义，不仅凭名称，基础合并采用相同周期。来源见[重施与叠加素材](game-design-workflow/idea-materials/M-2026-09-06-status-reapplication-and-stacking.md)。
 _Avoid_：与不同状态转化或各批数量分别到期混称，或据此取消施加来源的所有其他用途。
@@ -163,7 +171,7 @@ _Avoid_：与普通行动结束统一清除、战后清理或提前完全清除�
 
 **状态提前完全清除**：
 状态在其尚未执行的周期触发或自然到期处理之前已完全消失，因而取消该份状态未来处理、不补发；既有伤害与效果不撤销，部分数量减少但状态仍在不算完全清除。来源同[状态计时素材](game-design-workflow/idea-materials/M-2026-09-06-status-timing-and-expiration.md)。
-_Avoid_：与自动获得移除能力、宿主被击败就必然消失或撤销既有结果混称。
+_Avoid_：与自动获得移除能力或撤销既有结果混称；普通敌人被击败会清除其自身附着状态，其他宿主失效另议，见[击败后果素材](game-design-workflow/idea-materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md)。
 
 **战后状态清除**：
 战斗中获得的护甲、燃烧等临时战场状态，默认在整场战斗结束时清除的规则；生命与词卡沿用各自已确认的持续范围。来源见[战后清除确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#临时战场状态战后清除确认记录)。
@@ -223,19 +231,19 @@ _Avoid_：与每次行动自动清空护甲、护甲不消耗的减伤率、抗�
 
 **持续伤害**：
 由具体规则明确的持续性伤害效果，默认经过护甲，但本身不视为一次攻击命中，不因扣除生命而打断正在施放的法术。来源同[伤害素材](game-design-workflow/idea-materials/M-2026-09-06-damage-armor-and-interruption.md)。
-_Avoid_：与所有战场状态、持续施法或免于战败混称；周期与到期的通用过程和检查位置已由[状态计时素材](game-design-workflow/idea-materials/M-2026-09-06-status-timing-and-expiration.md)补齐；基础重施与叠加已由[独立素材](game-design-workflow/idea-materials/M-2026-09-06-status-reapplication-and-stacking.md)补齐，周期当前数量读值与状态内部顺序已由[独立素材](game-design-workflow/idea-materials/M-2026-09-06-status-values-and-resolution-order.md)补齐；具体参数、宿主消失和特殊连锁仍待定。
+_Avoid_：与所有战场状态、持续施法或免于战败混称；周期与到期的通用过程和检查位置已由[状态计时素材](game-design-workflow/idea-materials/M-2026-09-06-status-timing-and-expiration.md)补齐；基础重施与叠加已由[独立素材](game-design-workflow/idea-materials/M-2026-09-06-status-reapplication-and-stacking.md)补齐，周期当前数量读值与状态内部顺序已由[独立素材](game-design-workflow/idea-materials/M-2026-09-06-status-values-and-resolution-order.md)补齐；普通敌人被击败时的承载对象与施加来源区别已由[击败后果素材](game-design-workflow/idea-materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md)补齐；具体参数、其他宿主失效和特殊连锁仍待定。
 
 **施法打断**：
 玩家正在施放法术时遭敌方攻击命中而发生的中断；攻击即使被护甲完全抵消、没有损失生命仍会打断尚未完成的法术。敌方自我强化、增加护甲或召唤本身不属于打断，持续伤害本身也不打断。来源见 [Q5 确认记录](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#q5打断的触发范围)及[伤害板块确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#伤害护甲与打断整组确认记录)。
 _Avoid_：将所有敌方行动都称为打断。
 
 **整句结算**：
-法术完整施放后，按句内词义顺序和具体操作条件结算整句的过程；完成前被打断则整句不生效，已经经过的时间不退。完成也不保证生效，当前基础三词句的必需材料完全缺失时整句落空。来源见 [Q6 确认记录](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#q6被打断的一句如何结算)及[材料缺失落空确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#必需材料缺失落空确认记录)。
+法术完整施放后，按句内词义顺序和具体操作条件结算整句的过程；完成前被打断则整句不生效，已经经过的时间不退。完成也不保证生效，当前基础三词句的必需材料完全缺失时整句落空；H4 范围内的单目标法术正常完成时所指普通敌人已被击败，也整句落空，见[击败后果素材](game-design-workflow/idea-materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md)。来源见 [Q6 确认记录](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#q6被打断的一句如何结算)及[材料缺失落空确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#必需材料缺失落空确认记录)。
 _Avoid_：把开始施法视为已经产生部分效果，或把打断视为时间回退。
 
 **法术落空**：
-当前三词基础句已完成施法，但在结算时具体操作必需的状态材料完全缺失，因此整句不产生法术效果的结果。普通投入词进入弃牌堆，已耗时间不返还，结束不额外补牌，也不自动延长施法等待材料。无论起手未出现还是起手已有、随后消失，均适用；读取零值、生成状态或以缺失为条件是否允许，由具体操作决定。来源见[材料缺失落空确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#必需材料缺失落空确认记录)。
-_Avoid_：与未完成时的命中打断混称，把任何状态不存在都判为失败，或推定材料数量不足、目标失效及扩展句式也遵循同一结果。
+法术正常完成但整句不产生效果的结果；当前确认的原因包括三词基础句的必需状态材料完全缺失，以及 H4 范围内单目标法术所指普通敌人已被击败。普通投入词进入弃牌堆、已耗时间不返还、结束不额外补牌；若先被打断或整场先结束，沿用对应规则。材料缺失不自动延长施法等待材料，是否必需依具体操作判断；对象被击败不自动终止或换目标。来源见[材料缺失落空确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#必需材料缺失落空确认记录)及[击败后果素材](game-design-workflow/idea-materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md)。
+_Avoid_：与未完成时的命中打断混称，把任何状态不存在都判为失败，或推定材料数量不足、其他目标失效及扩展句式也遵循同一结果。
 
 **击败与胜负检查点**：
 当前已确认的普通检查位置为每句法术、每次敌方行动、每份状态的一次周期效果或一次到期处理完整结算之后、处理下一事件之前；在此判断击败与整场结果，处理已成立的结果，不在句内逐词检查，也不等同刻全部敌人行动完成才检查。来源见[完整行动后检查确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#完整行动后检查击败与胜负确认记录)及[状态时序确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#单份周期状态计时与到期整组确认记录)。
@@ -266,11 +274,11 @@ _Avoid_：把满手当作停止补牌或自动丢弃新牌，将超限弃牌等�
 _Avoid_：与普通弃牌、本局永久删牌混称；把移除范围确认当作目标区域或具体词卡效果已确认。
 
 **施法投入词**：
-已确认投入当前法术的词卡，确认施法时立即离手进入临时施法区。基础版施法开始后不能通用主动撤回，权限见上文。普通投入词在本次施法成功、被打断或因必需材料完全缺失而落空后均进入弃牌堆，结束本身不触发额外补牌。来源见[投入词去向确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#施法投入词去向确认)与[临时施法区确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#临时施法区确认)。
+已确认投入当前法术的词卡，确认施法时立即离手进入临时施法区。基础版施法开始后不能通用主动撤回，权限见上文。普通投入词在本次施法成功、被打断或因已确认原因落空后均进入弃牌堆，结束本身不触发额外补牌。来源见[投入词去向确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#施法投入词去向确认)与[临时施法区确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#临时施法区确认)。
 _Avoid_：把结束弃牌等同于本场移除，或把弃牌与法术生效混为一谈。
 
 **临时施法区**：
-存放已经确认投入当前法术的词卡的位置；其中的词卡不占手牌上限，也不能用于超限弃牌。普通投入词在施法成功、被打断或因必需材料完全缺失而落空后从这里进入弃牌堆。来源见[临时施法区确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#临时施法区确认)。
+存放已经确认投入当前法术的词卡的位置；其中的词卡不占手牌上限，也不能用于超限弃牌。普通投入词在施法成功、被打断或因已确认原因落空后从这里进入弃牌堆。来源见[临时施法区确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#临时施法区确认)。
 _Avoid_：将施法区视为另一组可自由使用的手牌，或认为移入施法区会立即补满空位。
 
 **弃牌洗回**：

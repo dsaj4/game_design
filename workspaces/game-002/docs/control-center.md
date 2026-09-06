@@ -6,7 +6,7 @@
 | --- | --- |
 | 工作区 | Active / Idea Qualification |
 | 类型、方向、目标玩家 | 用户强调卡组构筑定位，已选择 A 抽弃循环继续细化；正式核心尚未采纳，目标玩家 Unknown |
-| 原始想法记录、素材、正式 GDD | 3 / 15 / 0（包含双路线评议与 A 细化草案） |
+| 原始想法记录、素材、正式 GDD | 3 / 16 / 0（包含双路线评议与 A 细化草案） |
 | 提案、评估、正式玩法决定 | 无 |
 | 原型与代码 | 无 |
 | 生产阶段、排期 | 未确定 |
@@ -151,4 +151,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认（2026-09-06）：用户整组确认 T1-T5，[来源与复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#状态读值与同刻内部顺序整组确认记录)已独立晋级[第 15 份素材](../game-design-workflow/idea-materials/M-2026-09-06-status-values-and-resolution-order.md)。周期开始读取当前数量，同刻按首次生效先后及固定平局顺序逐状态处理；重施保位、清除重建重排，周期与到期后分别检查。证据 Hypothesis，未进行玩法验证。
 
-下一步：集中评议[普通敌人被击败后的对象与状态](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前小板块评议普通敌人被击败后的对象与状态)H1-H4，包含新施法对象资格、其身上状态、其施加在其他对象的状态及指向它的单目标在途法术。全部 Raw Idea / Unqualified；特殊连锁、其他目标失效、词卡与数值后置。
+最新确认（2026-09-06）：H1-H4 已完成[整组确认](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#普通敌人被击败后的对象与状态整组确认记录)并独立晋级[第 16 份素材](../game-design-workflow/idea-materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md)。普通敌人被击败后退出施法对象范围，自身状态清除，其他存活对象上的既有状态默认继续；只指向它的单目标在途法术正常完成时落空，先被打断或整场先结束依各自规则。证据 Hypothesis，未进行玩法验证。
+
+下一步：集中评议[基础句的对象选择与锁定](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前小板块评议基础句的对象选择与锁定)G1-G3，包含单对象来源与结果、可选自己或普通敌人、确认施法时锁定身份。全部 Raw Idea / Unqualified；Q1 用例不自动推广，具体词卡、数值与界面后置。
