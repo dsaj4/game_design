@@ -155,4 +155,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认（2026-09-06）：G1-G3 已完成[整组确认](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#基础句的对象选择与锁定整组确认记录)，独立晋级[第 17 份素材](../game-design-workflow/idea-materials/M-2026-09-06-basic-sentence-targeting-and-locking.md)。基础句材料与结果归于同一个对象，句义条件内可选自身或普通敌人；构句可改选，确认施法后锁定身份，状态数值仍按具体效果规则读取。证据 Hypothesis，未进行玩法验证。
 
-下一步：集中评议[多敌人同刻行动顺序](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前小板块评议多敌人同刻行动顺序)E1-E3，包含开战确定固定先后、首次决策前公开与本场保持相对次序。全部 Raw Idea / Unqualified；具体能力、数值与界面后置。
+最新确认（2026-09-06）：E1-E3 已完成[整组确认](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#多敌人同刻行动顺序整组确认记录)并扩充[时间素材](../game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)。开战在场普通敌人的同刻固定序首次决策前公开，本场保持相对顺序，非同刻仍按时间先后；逐行动检查、击败取消及结束即停止保持。正式素材仍为 17 份，证据 Hypothesis，未进行玩法验证。
+
+下一步：集中评议[施法预算与未知后续行动](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前小板块评议施法预算与未知后续行动)B1-B3，包含超预算启动、无已知攻击和未来未公开行动的风险边界。全部 Raw Idea / Unqualified；具体词卡、数值与界面后置。
