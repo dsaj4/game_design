@@ -6,7 +6,7 @@
 | --- | --- |
 | 工作区 | Active / Idea Qualification |
 | 类型、方向、目标玩家 | 用户强调卡组构筑定位，已选择 A 抽弃循环继续细化；正式核心尚未采纳，目标玩家 Unknown |
-| 原始想法记录、素材、正式 GDD | 3 / 13 / 0（包含双路线评议与 A 细化草案） |
+| 原始想法记录、素材、正式 GDD | 3 / 14 / 0（包含双路线评议与 A 细化草案） |
 | 提案、评估、正式玩法决定 | 无 |
 | 原型与代码 | 无 |
 | 生产阶段、排期 | 未确定 |
@@ -147,4 +147,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认（2026-09-06）：S1-S5 已整组确认，独立晋级[第 13 份合格素材](../game-design-workflow/idea-materials/M-2026-09-06-status-timing-and-expiration.md)，来源见[整组确认与资格复审](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#单份周期状态计时与到期整组确认记录)。状态独立计时、完整周期首次触发，同刻状态阶段位于敌方行动后固定补牌前；末次触发先于到期，完全清除取消未来处理，每次完整处理后立即检查。证据 Hypothesis，未执行玩法验证。
 
-下一步：集中评议[同种状态的重施与叠加](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前小板块评议同种状态的重施与叠加)的修订方案。用户已[修改 R3](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#r3持续时长相加修改记录)为当前剩余时长加本次新增时长；R1 合并、R2 数量累积、R4 周期保持与 R5 部分消耗仍待确认。整组保留 Raw Idea / Unqualified，素材仍为 13 份；需评估数量与时长同时累积是否压过及时利用，具体状态、数值及界面后置。
+最新确认（2026-09-06）：用户确认 R1、R2、R4、R5，与此前修改的 R3 时长相加组成[完整确认](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#同种状态重施与叠加整组确认记录)，独立晋级[第 14 份素材](../game-design-workflow/idea-materials/M-2026-09-06-status-reapplication-and-stacking.md)。同种状态合并、数量按定义叠加、有限剩余时长相加，重施保持周期，部分消耗不刷新，完全清除后重建。证据 Hypothesis，未执行玩法验证。
+
+下一步：集中评议[状态读值与同刻内部顺序](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前小板块评议状态读值与同刻内部顺序)T1-T5，包含当前数量读值、首次生效排序、同刻平局、重施与重建的排序位置、逐状态处理。全部 Raw Idea / Unqualified；具体参数、宿主消失与特殊连锁另议。

@@ -125,9 +125,25 @@ _Avoid_：将三类齐全等同于语义兼容，或将语义兼容等同于任�
 可被后续法术引用的状态在本场跨施法、跨敌方行动保留的原则；变化与消失依状态自身规则或明确效果。来源见[状态素材](game-design-workflow/idea-materials/M-2026-09-05-battle-state-persistence.md)。
 _Avoid_：将留存等同于冻结、永不过期或跨战斗继承，或忽视具体操作对状态的消耗和改变。
 
+**状态合并**：
+同一目标的同一种基础状态共用数量和计时，不因重复施加或来源不同保留多份独立倒计时；不同目标或不同状态分别管理。同种状态由规则定义，不仅凭名称，基础合并采用相同周期。来源见[重施与叠加素材](game-design-workflow/idea-materials/M-2026-09-06-status-reapplication-and-stacking.md)。
+_Avoid_：与不同状态转化或各批数量分别到期混称，或据此取消施加来源的所有其他用途。
+
+**状态数量叠加**：
+对明确可累积数量或层数的状态，将新增数量加入现有数量；只有有无之分的状态不因重施自动增强。来源同[重施与叠加素材](game-design-workflow/idea-materials/M-2026-09-06-status-reapplication-and-stacking.md)。
+_Avoid_：与持续时长相加混称，或推定所有效果都按层数线性增强；具体公式和上限后定。
+
+**状态时长叠加**：
+有限持续状态重施生效时，新的剩余时间等于当时剩余时间加本次新增时长；合并后的数量共用新的到期时刻，已经过去的时间不重复计入。来源同[重施与叠加素材](game-design-workflow/idea-materials/M-2026-09-06-status-reapplication-and-stacking.md)。
+_Avoid_：与取较大值、重置下一次周期或使所有状态自然到期混称。
+
+**状态重施与重建**：
+对仍存在的状态再次施加为重施，依已确认规则处理数量和剩余时间，但保持原周期、不额外立即触发。完全清除后再次施加为新生效，重新计算首次完整周期。仅减少数量而状态仍存在时，剩余周期和到期时间不刷新。来源同[重施与叠加素材](game-design-workflow/idea-materials/M-2026-09-06-status-reapplication-and-stacking.md)。
+_Avoid_：把每次重施视为重新开始状态，或把部分消耗等同于完全清除；同刻内部排序尚未确定。
+
 **状态周期计时**：
 具有周期效果的状态从生效起独立计算战斗时间，经过完整周期首次触发，之后按自身周期继续；构句和超限弃牌暂停时计时也暂停。来源见[状态计时素材](game-design-workflow/idea-materials/M-2026-09-06-status-timing-and-expiration.md)。
-_Avoid_：与全场固定补牌节拍、现实思考时间或生效时立即触发混称；不使所有状态具有周期，重施如何处理另议。
+_Avoid_：与全场固定补牌节拍、现实思考时间或生效时立即触发混称；不使所有状态具有周期；已确认仍存在的状态重施保持原周期，完全清除后重建才重新计时，来源见[重施素材](game-design-workflow/idea-materials/M-2026-09-06-status-reapplication-and-stacking.md)。
 
 **状态自然到期**：
 具有明确持续时长的状态到达自身期限后的处理；若与该状态末次周期触发同刻，先完整触发并检查，战斗继续才到期并再检查。来源同[状态计时素材](game-design-workflow/idea-materials/M-2026-09-06-status-timing-and-expiration.md)。
@@ -195,7 +211,7 @@ _Avoid_：与每次行动自动清空护甲、护甲不消耗的减伤率、抗�
 
 **持续伤害**：
 由具体规则明确的持续性伤害效果，默认经过护甲，但本身不视为一次攻击命中，不因扣除生命而打断正在施放的法术。来源同[伤害素材](game-design-workflow/idea-materials/M-2026-09-06-damage-armor-and-interruption.md)。
-_Avoid_：与所有战场状态、持续施法或免于战败混称；周期与到期的通用过程和检查位置已由[状态计时素材](game-design-workflow/idea-materials/M-2026-09-06-status-timing-and-expiration.md)补齐；具体参数、重施、叠加和多状态内部顺序仍待定。
+_Avoid_：与所有战场状态、持续施法或免于战败混称；周期与到期的通用过程和检查位置已由[状态计时素材](game-design-workflow/idea-materials/M-2026-09-06-status-timing-and-expiration.md)补齐；基础重施与叠加已由[独立素材](game-design-workflow/idea-materials/M-2026-09-06-status-reapplication-and-stacking.md)补齐，具体参数、周期读值和多状态内部顺序仍待定。
 
 **施法打断**：
 玩家正在施放法术时遭敌方攻击命中而发生的中断；攻击即使被护甲完全抵消、没有损失生命仍会打断尚未完成的法术。敌方自我强化、增加护甲或召唤本身不属于打断，持续伤害本身也不打断。来源见 [Q5 确认记录](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#q5打断的触发范围)及[伤害板块确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#伤害护甲与打断整组确认记录)。
