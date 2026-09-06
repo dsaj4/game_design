@@ -2,7 +2,7 @@
 
 本词汇表记录构思澄清中已明确的术语，不代表整份初稿已经晋级或核心玩法已采纳。共享流程名词见[仓库词汇](../../CONTEXT.md)。
 
-2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6 和 SN1-SN5 已分别通过资格确认；旧分类、对象及卡包术语保留相应范围，种类词引用与目标锁定及其他候选仍待确认。
+2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 和 SR1-SR6 已分别通过资格确认；旧分类、对象及卡包术语保留相应范围，词性集合与卡包适配及其他词义仍待确认。
 
 ## Language
 
@@ -132,7 +132,7 @@ _Avoid_：与免费实体主语卡或取消玩家全部已有能力混称。
 _Avoid_：与所有法术的受术目标或统一结果容器混称。
 
 **宾语与受术目标**：
-宾语提供动词直接处理的内容，受术目标是结果作用的对象，两者须按词义区分；例如恶魔释放火焰中，火焰是释放内容，目标按释放规则决定。来源同[基础句式素材](game-design-workflow/idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)。
+宾语提供动词直接处理的内容，受术目标是结果作用的对象；当前基础句需要另选时，至多选一个符合词义的玩家、己方有效召唤物或存活普通敌人，宾语已指明受术者时不再另选。来源见 [FG3](game-design-workflow/idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md) 及 [SR3](game-design-workflow/idea-materials/M-2026-09-06-summon-word-references-and-target-locking.md)。
 _Avoid_：将宾语位置等同于最终受术目标，或据此推定任意跨对象权限。
 
 **法术类型**：
@@ -160,8 +160,12 @@ _Avoid_：把类型固定、完成计时或存在适用道具等同于成功奖�
 _Avoid_：把所有召唤类型法术都当成新单位生成。
 
 **召唤种类词**：
-首次“召唤 恶魔”时从已有卡组投入、指明召唤种类的恶魔词卡；召唤后正常弃置循环，不转变为关联卡或被单位占用。来源见[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)中的 SG2 及 [SC2](game-design-workflow/idea-materials/M-2026-09-06-summon-reference-generation-and-hand-entry.md)，其他用途尚未定。
+指明新召唤种类、也可按动词含义引用一只己方有效同种单位的普通词卡；新召唤、强化或指挥均须满足对应词义，引用不改变其普通卡身份或本局归属。来源见 [SG2](game-design-workflow/idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)、[SC2](game-design-workflow/idea-materials/M-2026-09-06-summon-reference-generation-and-hand-entry.md) 及 [SR1-SR6](game-design-workflow/idea-materials/M-2026-09-06-summon-word-references-and-target-locking.md)。
 _Avoid_：与召唤完成后生成的单位及指向单位的临时卡混称。
+
+**种类词的本句引用**：
+普通种类词在构句中选择一个有效同种单位、确认施法时为本句固定的指向；它不使卡变成永久绑定的关联卡，单位离场也不清理该普通词。来源见 [SR2、SR4、SR6](game-design-workflow/idea-materials/M-2026-09-06-summon-word-references-and-target-locking.md)。
+_Avoid_：与一词指向全体、召唤新单位或专属关联卡改绑混称。
 
 **召唤关联卡**：
 每个实际新召出的基础单位所对应的一张专属临时卡，指向该具体单位，可用于强化、指挥等合法操作而不能作为新召唤种类材料；进入普通手牌并参与弃置洗回，不加入本局卡组或占其同名三张额度。循环依据见 [SG1-SG5](game-design-workflow/idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)，生成入手见 [SC1-SC6](game-design-workflow/idea-materials/M-2026-09-06-summon-reference-generation-and-hand-entry.md)，离场与战后清理见 [SL1-SL6](game-design-workflow/idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)。
@@ -229,10 +233,10 @@ _Avoid_：将暂不启用字数上限等同于可任意加词，或将它与词�
 
 **基础句施法对象（旧三词范围）**：
 旧三词基础句唯一选定的战场对象，承载本句需要读取或操作的状态，并承受本句结果；可为玩家自身或尚未被击败的普通敌人，但须满足具体句义和对象条件。来源见[对象选择素材](game-design-workflow/idea-materials/M-2026-09-06-basic-sentence-targeting-and-locking.md)。
-_Avoid_：将旧单对象关系直接推广至召唤物执行的法术；新版执行者、输入与受术目标的关系需按[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)重新确认。
+_Avoid_：将旧单对象关系直接推广至召唤物执行的法术；新版关系依已确认的 [SR1-SR6](game-design-workflow/idea-materials/M-2026-09-06-summon-word-references-and-target-locking.md)，旧吞噬例句保留自身范围。
 
 **施法对象身份锁定**：
-构句时可改选对象，确认施法时固定本句所指对象的身份，施法过程中不提供通用改目标；不冻结对象状态或统一具体操作的读值时点。来源同[对象选择素材](game-design-workflow/idea-materials/M-2026-09-06-basic-sentence-targeting-and-locking.md)。
+构句时可调整尚未固有绑定的选择，确认施法时锁定本句引用单位和受术目标的身份，施法中不提供通用改选；不冻结状态数值、不预留状态材料，也不改变专属卡绑定。旧对象范围见[对象素材](game-design-workflow/idea-materials/M-2026-09-06-basic-sentence-targeting-and-locking.md)，新版独立来源见 [SR4](game-design-workflow/idea-materials/M-2026-09-06-summon-word-references-and-target-locking.md)。
 _Avoid_：与状态数值锁定、材料预留、通用取消或目标失效后自动改选混称；普通敌人被击败仍按既有落空规则处理。
 
 **语义兼容**：

@@ -161,6 +161,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认（2026-09-06）：O1-O4 已完成[整组确认](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#战斗开局与初始节拍整组确认记录)，扩充[时间素材](../game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)及[供给素材](../game-design-workflow/idea-materials/M-2026-09-05-timeline-draw-preview.md)。每场普通战斗重新计时，起手准备不推进时间，开战在场普通敌人从同一起点开始非零首次准备，首张定时牌经过完整间隔后到来；不保证合法起手句能安全完成。正式素材仍为 17 份，证据 Hypothesis，未进行玩法验证。
 
-当前改动（2026-09-06）：[灵活句式、词性复用与多法术类型](../game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)中的 SG、FG、ST、SL、SH、SC 及 SN1-SN5 [召唤物共存与场上容量](../game-design-workflow/idea-materials/M-2026-09-06-summon-coexistence-and-field-capacity.md)已分别晋级，正式素材共 24 份，证据 Hypothesis；种类词引用与目标锁定、卡包适配及其他候选继续复审。
+当前改动（2026-09-06）：[灵活句式、词性复用与多法术类型](../game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)中的 SG、FG、ST、SL、SH、SC、SN 及 SR1-SR6 [召唤词引用与目标锁定](../game-design-workflow/idea-materials/M-2026-09-06-summon-word-references-and-target-locking.md)已分别晋级，正式素材共 25 份，证据 Hypothesis；基础词性与卡包适配、起手及其他词义继续复审。
 
-下一步：集中确认 [SR1-SR6](../game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#当前小板块召唤词引用与目标锁定)，明确召唤词引用与目标锁定；具体上限数字、词卡数值和界面后置。
+下一步：集中确认 [WC1-WC5](../game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#当前小板块词性分类与卡包适配)，明确基础词性和新版卡包覆盖；具体词卡、数值和界面后置。

@@ -2,7 +2,7 @@
 
 状态：Qualified GDD Material；证据状态 Hypothesis。G1-G3 已整组确认；规则选择明确，尚未进行原型或玩家测试，不代表正式核心采纳。
 
-适用性更新（2026-09-06）：G1-G2 的“只选自己或普通敌人、材料结果同对象、不加入召唤物”保留为旧版范围。[FG3](M-2026-09-06-flexible-sentences-and-subject-roles.md)已区分执行者或作用载体、操作内容和最终受术目标；[SG4](M-2026-09-06-summoned-unit-reference-card-cycle.md)已允许关联卡指向具体召唤单位并用于强化或指挥。下文保留历史依据，旧吞噬例句已确认的同对象和读值范围继续有效；新规则不自动允许任意跨对象转移，也不把普通对象的锁定与失效后果直接推广至召唤物。[SL3](M-2026-09-06-summon-departure-and-reference-invalidation.md)后来已独立确认必需召唤物离场的在途法术后果；后续 [SH3](M-2026-09-06-summon-health-damage-and-enemy-targeting.md)已独立规定敌方对玩家召唤物的目标公开与单目标失效规则，不等同于所有玩家法术的目标选择；其他具体动作范围、锁定和失效仍需明确。
+适用性更新（2026-09-06）：G1-G2 的“只选自己或普通敌人、材料结果同对象、不加入召唤物”保留为旧版范围。[FG3](M-2026-09-06-flexible-sentences-and-subject-roles.md)已区分执行者或作用载体、操作内容和最终受术目标；[SG4](M-2026-09-06-summoned-unit-reference-card-cycle.md)已允许关联卡指向具体召唤单位并用于强化或指挥。下文保留历史依据，旧吞噬例句已确认的同对象和读值范围继续有效；新规则不自动允许任意跨对象转移，也不把普通对象的锁定与失效后果直接推广至召唤物。[SL3](M-2026-09-06-summon-departure-and-reference-invalidation.md)后来已独立确认必需召唤物离场的在途法术后果；后续 [SH3](M-2026-09-06-summon-health-damage-and-enemy-targeting.md)已独立规定敌方对玩家召唤物的目标公开与单目标失效规则，不等同于所有玩家法术的目标选择；新版引用与目标现由后续 [SR1-SR6](M-2026-09-06-summon-word-references-and-target-locking.md)独立明确：普通种类词可引用一个己方有效同种单位，按动作区分执行者和受术目标，必要时另选至多一个合法对象；确认施法锁定所需身份，必需对象开始时有效、结算前离场沿既有落空处理。普通种类词不随所指单位清理，专属卡仍按绑定清理；逐词条件和其他特殊失效后定。
 
 ## 素材控制
 
