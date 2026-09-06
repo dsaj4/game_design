@@ -2,7 +2,7 @@
 
 本词汇表记录构思澄清中已明确的术语，不代表整份初稿已经晋级或核心玩法已采纳。共享流程名词见[仓库词汇](../../CONTEXT.md)。
 
-2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5 召唤基础循环与 FG1-FG5 基础句式已分别通过资格确认；旧固定分类、对象及卡包术语按下方边界保留，类型与道具细则仍为候选。
+2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5、FG1-FG5 和 ST1-ST6 已分别通过资格确认；旧固定分类、对象及卡包术语按下方边界保留，召唤离场与其他候选仍待确认。
 
 ## Language
 
@@ -136,16 +136,28 @@ _Avoid_：与所有法术的受术目标或统一结果容器混称。
 _Avoid_：将宾语位置等同于最终受术目标，或据此推定任意跨对象权限。
 
 **法术类型**：
-依据整条法术特征形成、可被特定全局道具识别的类别；一条法术可以同时具有多个类型，并作为构筑流派的标志。来源见[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)。
+依据整句特征形成、可被全局道具识别且可以并存的类别；构句时条件可知，确认施法时固定，普通施法期间不变。来源见[类型与道具触发素材](game-design-workflow/idea-materials/M-2026-09-06-spell-types-and-item-triggers.md)。
 _Avoid_：与词性、单词语义属性或互斥职业混称。
 
 **简易法术**：
-用户提出的省略显式主语、由系统补“我”的法术类型，例如“获得 护盾”。它可以同时属于其他法术类型，来源见[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)。
+合法句式省略显式主语所具有的类型，系统补默认“我”后仍保留；实际投入显式主语后不满足该条件，也可同时满足其他类型。来源见[ST1](game-design-workflow/idea-materials/M-2026-09-06-spell-types-and-item-triggers.md)，例如“获得 护盾”。
 _Avoid_：把省略主语理解为没有语义上的执行者，或把按实际卡牌相加的基础耗时误作固定折扣及强度结论。
 
 **召唤法术**：
-以召唤动作或召唤物参与为特征的法术类型；用户例子包括“召唤 恶魔”“强化 恶魔”“恶魔 释放 火焰”，前两者同时属于简易法术。具体判定范围仍待细化，来源见[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)。
+包含召唤操作，或具体召唤物直接作为执行者、被操作对象参与的法术类型；“召唤 恶魔”“强化 恶魔”同时属于简易和召唤，“恶魔 释放 火焰”属于召唤。来源见[ST2](game-design-workflow/idea-materials/M-2026-09-06-spell-types-and-item-triggers.md)；单凭场上存在召唤物或词名字样不能使无关法术归类。
 _Avoid_：与每次都生成新单位混称，或认为场上有召唤物就使所有法术自动属于召唤类。
+
+**道具类型匹配**：
+道具依据某次法术的类型满足适用条件；同一项“简易或召唤”条件双命中仍只匹配一次，兼具条件须全部满足，不同道具分别检查。来源见[ST4](game-design-workflow/idea-materials/M-2026-09-06-spell-types-and-item-triggers.md)。
+_Avoid_：与效果已经发生、多个真实事件合并或所有道具统一相乘混称。
+
+**成功施法奖励**：
+以法术成功结算为条件的道具收益，被打断或整句落空不触发，合法零伤害不因此算失败；耗时等施法参数修正在确认时计算，特殊开始或失败触发须明示。来源见[ST5](game-design-workflow/idea-materials/M-2026-09-06-spell-types-and-item-triggers.md)。
+_Avoid_：把类型固定、完成计时或存在适用道具等同于成功奖励已获得。
+
+**实际召出单位**：
+法术确实生成了召唤单位的事件，与“召唤法术成功结算”分开判断；强化现有单位不满足此事件条件。来源见[ST6](game-design-workflow/idea-materials/M-2026-09-06-spell-types-and-item-triggers.md)，具体生成数量及计次方式后定。
+_Avoid_：把所有召唤类型法术都当成新单位生成。
 
 **召唤种类词**：
 首次“召唤 恶魔”时从已有卡组投入、指明召唤种类的恶魔词卡；其其他用途尚未定，来源见[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)中的 SG2。
