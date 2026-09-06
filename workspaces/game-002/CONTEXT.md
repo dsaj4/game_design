@@ -2,7 +2,7 @@
 
 本词汇表记录构思澄清中已明确的术语，不代表整份初稿已经晋级或核心玩法已采纳。共享流程名词见[仓库词汇](../../CONTEXT.md)。
 
-2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5、FG1-FG5、ST1-ST6 和 SL1-SL6 已分别通过资格确认；旧分类、对象及卡包术语保留相应范围，生命承伤与其他候选仍待确认。
+2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6 和 SH1-SH6 已分别通过资格确认；旧分类、对象及卡包术语保留相应范围，生成衔接与其他候选仍待确认。
 
 ## Language
 
@@ -172,7 +172,7 @@ _Avoid_：与本局原有种类词、普通临时复制品或场上单位本身�
 _Avoid_：与召唤后自动获得额外行动、独立准备时间轴或随时免费调用关联卡混称。
 
 **基础召唤物存在范围**：
-玩家召唤的基础单位默认持续存在于本场，没有通用自动倒计时；明确离场或战斗结束时清除，单位及临时关联卡不跨战斗。来源见[SL1](game-design-workflow/idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)，生命与承伤后定。
+玩家召唤的基础单位默认持续存在于本场，没有通用自动倒计时；明确离场或战斗结束时清除，单位及临时关联卡不跨战斗。来源见[SL1](game-design-workflow/idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)，生命承伤已由[SH1-SH6](game-design-workflow/idea-materials/M-2026-09-06-summon-health-damage-and-enemy-targeting.md)独立明确。
 _Avoid_：与无敌、无需指挥或可以积攒跨战斗单位混称。
 
 **关联卡失效清理**：
@@ -190,6 +190,22 @@ _Avoid_：与自动转移自身状态或取消该单位施加的所有效果混�
 **再次召唤与原有种类词**：
 单位离场不删除或自动抽回本局原有种类词，重新合法召唤建立新单位与新关联；旧关联卡不自动恢复或改绑。来源见[SL5](game-design-workflow/idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)。
 _Avoid_：与免费重召唤、特殊复活或撤销此前本场移除效果混称。
+
+**召唤物独立生命与防御**：
+玩家的基础召唤物拥有自己的当前生命和生命上限，按自身上限生命入场；普通伤害由自身护甲抵挡后扣自身生命，不自动继承或共用玩家护甲和状态。来源见[SH1-SH2](game-design-workflow/idea-materials/M-2026-09-06-summon-health-damage-and-enemy-targeting.md)，具体数值后定。
+_Avoid_：与玩家额外生命、默认初始护甲或全部状态都可作用于单位混称。
+
+**敌方对召唤物选取**：
+敌方可选择玩家召唤物作为攻击目标，准备开始时确定并公开，准备中仅因明确效果变更；新单位不自动接走已瞄准其他对象的攻击。来源见[SH3](game-design-workflow/idea-materials/M-2026-09-06-summon-health-damage-and-enemy-targeting.md)，唯一目标离场的单目标攻击保持准备、到点落空，不自动转火。
+_Avoid_：与通用嘲讽、站位挡刀或敌方必定选择召唤物混称。
+
+**召唤物受击与玩家施法**：
+单纯命中召唤物不直接打断玩家施法，即使它正在执行指令；单位被击败离场则按 SL3 使依赖它的在途指令失效，命中玩家仍依既有规则打断。来源见[SH4](game-design-workflow/idea-materials/M-2026-09-06-summon-health-damage-and-enemy-targeting.md)。
+_Avoid_：把命中玩家拥有的单位当作命中玩家，或把预算充足当作执行者存活与法术成功的保证。
+
+**玩家召唤物被击败**：
+在完整法术、敌方行动或单次状态处理后的既有检查点，生命耗尽即被击败并按 SL 离场，不另要求清空护甲；召唤物全灭本身不算战败，玩家生命耗尽仍按原规则失败。来源见[SH5-SH6](game-design-workflow/idea-materials/M-2026-09-06-summon-health-damage-and-enemy-targeting.md)。
+_Avoid_：与逐词中途死亡、存活单位替玩家续战或敌方召唤物的胜利资格混称。
 
 **独立字数上限**：
 依据句中文字总数限制句子是否可用的额外门槛，旧三词基础范围已确认暂不启用；本轮灵活句式的容量限制尚待复审，未自动开启字数上限。原稿中的字数系统保留，待可变句长或修饰词阶段再评估，来源见[范围确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#基础版独立字数上限确认记录)。

@@ -4,7 +4,7 @@
 
 通过资格闸门代表可被 GDD 或 Proposal 引用，不代表已采纳为正式核心玩法，也不代表已经通过体验验证。
 
-适用性更新（2026-09-06）：[FG1-FG5](M-2026-09-06-flexible-sentences-and-subject-roles.md)已确认二词省略句与显式主语句按实际投入卡牌计算基础耗时；默认“我”不收费也不附送未投入卡效果，显式主语承担自身耗时。SG5 已确认[基础召唤指令](M-2026-09-06-summoned-unit-reference-card-cycle.md)共用玩家时间，单位不自主行动。下文既有时间轴、暂停、普通命中打断与开局记录保留范围；[ST3-ST5](M-2026-09-06-spell-types-and-item-triggers.md)已明确类型在确认时固定、参数修正在确认时计算、成功奖励需成功结算；[SL3](M-2026-09-06-summon-departure-and-reference-invalidation.md)已明确必需召唤物离场后在途法术不自动停止或改指，正常完成时落空，失效关联卡延至句末清理；最低耗时、修正数值、完整触发连锁和召唤物受击是否打断仍待明确。
+适用性更新（2026-09-06）：[FG1-FG5](M-2026-09-06-flexible-sentences-and-subject-roles.md)已确认二词省略句与显式主语句按实际投入卡牌计算基础耗时；默认“我”不收费也不附送未投入卡效果，显式主语承担自身耗时。SG5 已确认[基础召唤指令](M-2026-09-06-summoned-unit-reference-card-cycle.md)共用玩家时间，单位不自主行动。下文既有时间轴、暂停、普通命中打断与开局记录保留范围；[ST3-ST5](M-2026-09-06-spell-types-and-item-triggers.md)已明确类型在确认时固定、参数修正在确认时计算、成功奖励需成功结算；[SL3](M-2026-09-06-summon-departure-and-reference-invalidation.md)已明确必需召唤物离场后在途法术不自动停止或改指，正常完成时落空，失效关联卡延至句末清理；[SH3-SH5](M-2026-09-06-summon-health-damage-and-enemy-targeting.md)已明确敌方准备时公开目标、唯一目标离场的单目标攻击到点落空，命中召唤物不直接打断玩家而击败后按 SL3 使指令失效；最低耗时、修正数值和完整触发连锁仍待明确。
 
 ## 素材控制
 

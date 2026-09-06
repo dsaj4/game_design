@@ -26,7 +26,7 @@
 
 类型联动已由后续 [ST1-ST6](M-2026-09-06-spell-types-and-item-triggers.md)独立明确：直接操作或指挥具体召唤物可使法术属于召唤类，但不等于实际召出新单位；归类不会保证指令成功，离场与在途失效按后续 [SL1-SL6](M-2026-09-06-summon-departure-and-reference-invalidation.md)处理。
 
-关联卡参与普通循环是 SG3 的独立确认，不是从普通临时复制规则推导。关联卡生成数量、本局同名额度的适用细节与是否可承伤仍待确认；战后清理、单位离场、施法区内失效及关联卡不增加安全余量后来由 [SL1-SL6](M-2026-09-06-summon-departure-and-reference-invalidation.md)独立明确，不是从普通敌人或复制规则推导。
+关联卡参与普通循环是 SG3 的独立确认，不是从普通临时复制规则推导。[SH1-SH6](M-2026-09-06-summon-health-damage-and-enemy-targeting.md)已独立明确单位生命、伤害归属、敌方选取、受击与打断及击败胜负；关联卡生成数量与本局同名额度的适用细节仍待确认；战后清理、单位离场、施法区内失效及关联卡不增加安全余量后来由 [SL1-SL6](M-2026-09-06-summon-departure-and-reference-invalidation.md)独立明确，不是从普通敌人或复制规则推导。
 
 ## 设计对象与 GDD 映射
 

@@ -1,13 +1,14 @@
 # game-002 正式素材库
 
 只接收本项目通过资格确认的内容，状态为 Qualified GDD Material；入库不代表核心采纳或完成试玩验证。
-2026-09-06 适用性更新：原有 17 份素材保留历史范围，后续新增召唤基础循环、基础句式、类型道具触发及[召唤物离场与关联卡失效](M-2026-09-06-summon-departure-and-reference-invalidation.md)，当前共 21 份。SG1-SG5、FG1-FG5、ST1-ST6 和 SL1-SL6 已分别通过资格复审，旧分类与对象范围按各素材顶部说明区分。当前[召唤物生命承伤与敌方选取](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#当前小板块召唤物生命承伤与敌方选取)仍为 Raw Idea / Unqualified，生成衔接、卡包覆盖与其他边界继续复审。
+2026-09-06 适用性更新：原有 17 份素材保留历史范围，后续新增召唤循环、基础句式、类型道具、离场失效及[召唤生命承伤与敌方选取](M-2026-09-06-summon-health-damage-and-enemy-targeting.md)，当前共 22 份。SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6 和 SH1-SH6 已分别通过资格复审；旧分类与对象范围按各素材顶部说明区分。当前[关联卡生成与入手](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#当前小板块召唤关联卡生成与入手)仍为 Raw Idea / Unqualified，单位数量、卡包覆盖与其他边界继续复审。
 
 使用[共享模板](../../../../game-design-workflow/templates/README.md)，按[项目流程](../README.md)进入本阶段，不复制旧项目文档。
 
 | 日期 | 素材 | 来源 | 证据状态 |
 | --- | --- | --- | --- |
-| 2026-09-06 | [召唤物离场与关联卡失效](M-2026-09-06-summon-departure-and-reference-invalidation.md) | [SL1-SL6 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#召唤物离场与关联卡失效整组确认记录) | Hypothesis；单位及关联卡仅本场存在，失效卡定向清理、施法区卡句末清理，必需单位失效正常完成时落空；自身状态清除、外部状态依规则继续，原有种类词保留，关联卡不增加删牌余量；生命承伤及具体事件边界后定 |
+| 2026-09-06 | [召唤生命承伤与敌方选取](M-2026-09-06-summon-health-damage-and-enemy-targeting.md) | [SH1-SH6 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#召唤物生命承伤与敌方选取整组确认记录) | Hypothesis；独立生命和防御、准备时公开目标，唯一目标离场的单目标攻击到点落空；命中单位不直接打断玩家，完整事件后生命耗尽则按 SL 离场，玩家仍承担失败条件；目标策略、生成与数值后定 |
+| 2026-09-06 | [召唤物离场与关联卡失效](M-2026-09-06-summon-departure-and-reference-invalidation.md) | [SL1-SL6 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#召唤物离场与关联卡失效整组确认记录) | Hypothesis；单位及关联卡仅本场存在，失效卡定向清理、施法区卡句末清理，必需单位失效正常完成时落空；自身状态清除、外部状态依规则继续，原有种类词保留，关联卡不增加删牌余量；生命承伤已关联 SH1-SH6，生成及具体事件边界后定 |
 | 2026-09-06 | [法术类型与全局道具触发](M-2026-09-06-spell-types-and-item-triggers.md) | [ST1-ST6 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#法术类型与全局道具触发整组确认记录) | Hypothesis；简易按省略、召唤按操作或单位直接参与判定，条件可知、确认时固定；单项或条件不重复匹配，各道具分别检查，参数修正与成功奖励分时点，实际召出单位独立判断；具体道具、连锁与数值后定 |
 | 2026-09-06 | [省略句与显式主语](M-2026-09-06-flexible-sentences-and-subject-roles.md) | [FG1-FG5 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#省略句与显式主语整组确认记录) | Hypothesis；支持动宾与名动名，补默认玩家而不附送卡牌效果，按词义区分执行者、操作内容和受术目标，每卡一处、兼容跨位，按实际投入计算耗时；类型联动已关联 ST1-ST6，逐词效果、对象细则及奖励适配后定 |
 | 2026-09-06 | [召唤基础循环](M-2026-09-06-summoned-unit-reference-card-cycle.md) | [SG1-SG5 召唤确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#召唤单位与关联卡使用循环确认记录) | Hypothesis；已有种类词启动召唤，生成单位与具体关联卡；卡进手、用后弃置洗回，不能再作新召唤种类，基础单位由玩家句子指挥并共用玩家时间；生成精确时点及其他权限后定，基础句式已关联 FG1-FG5，离场及安全余量已关联 SL1-SL6 |
