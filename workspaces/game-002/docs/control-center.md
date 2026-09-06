@@ -153,4 +153,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认（2026-09-06）：H1-H4 已完成[整组确认](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#普通敌人被击败后的对象与状态整组确认记录)并独立晋级[第 16 份素材](../game-design-workflow/idea-materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md)。普通敌人被击败后退出施法对象范围，自身状态清除，其他存活对象上的既有状态默认继续；只指向它的单目标在途法术正常完成时落空，先被打断或整场先结束依各自规则。证据 Hypothesis，未进行玩法验证。
 
-下一步：集中评议[基础句的对象选择与锁定](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前小板块评议基础句的对象选择与锁定)G1-G3，包含单对象来源与结果、可选自己或普通敌人、确认施法时锁定身份。全部 Raw Idea / Unqualified；Q1 用例不自动推广，具体词卡、数值与界面后置。
+最新确认（2026-09-06）：G1-G3 已完成[整组确认](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#基础句的对象选择与锁定整组确认记录)，独立晋级[第 17 份素材](../game-design-workflow/idea-materials/M-2026-09-06-basic-sentence-targeting-and-locking.md)。基础句材料与结果归于同一个对象，句义条件内可选自身或普通敌人；构句可改选，确认施法后锁定身份，状态数值仍按具体效果规则读取。证据 Hypothesis，未进行玩法验证。
+
+下一步：集中评议[多敌人同刻行动顺序](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前小板块评议多敌人同刻行动顺序)E1-E3，包含开战确定固定先后、首次决策前公开与本场保持相对次序。全部 Raw Idea / Unqualified；具体能力、数值与界面后置。
