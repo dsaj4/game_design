@@ -1,7 +1,7 @@
 # game-002 正式素材库
 
 只接收本项目通过资格确认的内容，状态为 Qualified GDD Material；入库不代表核心采纳或完成试玩验证。
-2026-09-06 适用性更新：原有 17 份素材保留历史范围，后续新增召唤循环、基础句式、类型道具、离场失效、生命承伤、关联卡生成、共存容量、召唤词引用、词性卡包、开局保障及[整句效果与词义复用](M-2026-09-06-compositional-spells-and-word-meaning.md)，当前共 28 份。SG、FG、ST、SL、SH、SC、SN、SR、WC、OH 及 SM1-SM3 已分别通过资格复审；旧分类与对象范围按各素材顶部说明区分。当前[防护状态的定义与生成](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#当前小板块防护状态的定义与生成)仍为 Raw Idea / Unqualified，其他具体词义继续复审。
+2026-09-06 适用性更新：原有 17 份素材保留历史范围，后续新增召唤循环、基础句式、类型道具、离场失效、生命承伤、关联卡生成、共存容量、召唤词引用、词性卡包、开局保障、整句词义及[防护状态的定义与生成](M-2026-09-06-armor-identity-generation-and-persistence.md)，当前共 29 份。SG、FG、ST、SL、SH、SC、SN、SR、WC、OH、SM 及 PA1-PA3 已分别通过资格复审；旧分类与对象范围按各素材顶部说明区分。当前[施法效果的来源与修正](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#当前小板块施法效果的来源与修正)仍为 Raw Idea / Unqualified，其他具体词义继续复审。
 
 使用[共享模板](../../../../game-design-workflow/templates/README.md)，按[项目流程](../README.md)进入本阶段，不复制旧项目文档。
 
@@ -35,3 +35,4 @@
 | 2026-09-06 | [词性分类与卡包适配](M-2026-09-06-word-classes-and-reward-packs.md) | [WC1-WC5 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#词性分类与卡包适配整组确认记录) | Hypothesis；基础名动两类，每包一名词、一动词及一个剩余随机词，过滤后至少三名且两类均有；排除单位绑定临时关联卡，不保证主宾用途、流派或语义适配；起手保障方法已另由 OH 独立确认，随机权重后定 |
 | 2026-09-06 | [开局手牌保障与可表达性](M-2026-09-06-opening-hand-guarantees.md) | [OH1-OH5 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#开局手牌保障与可表达性整组确认记录) | Hypothesis；至少一条当前条件齐备的基础句，自有卡组与普通开局条件共同兑现；随机不达标时等量补正，补正后洗剩余堆并首次预览，只在起手阶段生效；具体牌数、随机权重与实际开局多样性待定或待验证 |
 | 2026-09-06 | [整句效果与词义复用](M-2026-09-06-compositional-spells-and-word-meaning.md) | [SM1-SM3 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#整句效果与词义复用整组确认记录) | Hypothesis；一句一法术，新组合依词义与兼容成立，无额外整句配方解锁或隐藏配方奖励；核心含义稳定、条件变化明确，类型与道具联动保留；具体词义及学习迁移待设计或验证 |
+| 2026-09-06 | [防护状态的定义与生成](M-2026-09-06-armor-identity-generation-and-persistence.md) | [PA1-PA3 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#防护状态的定义与生成整组确认记录) | Hypothesis；基础防护统一护甲，获得护甲可从零生成，同对象数量累积、无自然到期或自动周期；抵伤、打断与战后清除沿既有规则，具体获得量与上限决策后定 |

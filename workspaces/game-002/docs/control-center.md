@@ -6,7 +6,7 @@
 | --- | --- |
 | 工作区 | Active / Idea Qualification |
 | 类型、方向、目标玩家 | 用户强调卡组构筑定位，已选择 A 抽弃循环继续细化；正式核心尚未采纳，目标玩家 Unknown |
-| 原始想法记录、素材、正式 GDD | 4 / 28 / 0（前三份初稿与循环记录，加灵活句式改动；素材均为 Hypothesis） |
+| 原始想法记录、素材、正式 GDD | 4 / 29 / 0（前三份初稿与循环记录，加灵活句式改动；素材均为 Hypothesis） |
 | 提案、评估、正式玩法决定 | 无 |
 | 原型与代码 | 无 |
 | 生产阶段、排期 | 未确定 |
@@ -161,6 +161,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认（2026-09-06）：O1-O4 已完成[整组确认](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#战斗开局与初始节拍整组确认记录)，扩充[时间素材](../game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)及[供给素材](../game-design-workflow/idea-materials/M-2026-09-05-timeline-draw-preview.md)。每场普通战斗重新计时，起手准备不推进时间，开战在场普通敌人从同一起点开始非零首次准备，首张定时牌经过完整间隔后到来；不保证合法起手句能安全完成。正式素材仍为 17 份，证据 Hypothesis，未进行玩法验证。
 
-当前改动（2026-09-06）：[灵活句式、词性复用与多法术类型](../game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)中的 SG、FG、ST、SL、SH、SC、SN、SR、WC、OH 及 SM1-SM3 [整句效果与词义复用](../game-design-workflow/idea-materials/M-2026-09-06-compositional-spells-and-word-meaning.md)已分别晋级，正式素材共 28 份，证据 Hypothesis；一句一法术与规则化词义复用已明确，防护身份与其他具体词义继续复审。
+当前改动（2026-09-06）：[灵活句式、词性复用与多法术类型](../game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)中的 SG、FG、ST、SL、SH、SC、SN、SR、WC、OH、SM 及 PA1-PA3 [防护状态的定义与生成](../game-design-workflow/idea-materials/M-2026-09-06-armor-identity-generation-and-persistence.md)已分别晋级，正式素材共 29 份，证据 Hypothesis；护甲身份、生成与存续规则已明确，效果修正归属及其他具体词义继续复审。
 
-下一步：集中确认 [PA1-PA3](../game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#当前小板块防护状态的定义与生成)，明确护盾与护甲的关系、生成前提和基础护甲数量与存续方式；具体词卡数值和界面后置。
+下一步：集中确认 [ER1-ER3](../game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#当前小板块施法效果的来源与修正)，明确自身效果修正采用对象、全局道具关系和强度读取时点；具体属性、公式、词卡数值和界面后置。

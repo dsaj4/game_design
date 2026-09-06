@@ -2,7 +2,7 @@
 
 本词汇表记录构思澄清中已明确的术语，不代表整份初稿已经晋级或核心玩法已采纳。共享流程名词见[仓库词汇](../../CONTEXT.md)。
 
-2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 和 SR1-SR6 已分别通过资格确认；旧分类、对象及卡包术语保留相应范围，WC1-WC5 已明确名动词性与卡包适配，OH1-OH5 已明确开局保障，SM1-SM3 已明确整句效果与词义复用，防护状态身份及其他具体词义仍待确认。
+2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 和 SR1-SR6 已分别通过资格确认；旧分类、对象及卡包术语保留相应范围，WC1-WC5 已明确名动词性与卡包适配，OH1-OH5 已明确开局保障，SM1-SM3 已明确整句效果与词义复用，PA1-PA3 已明确防护状态与生成，效果修正归属及其他具体词义仍待确认。
 
 ## Language
 
@@ -140,7 +140,7 @@ _Avoid_：将宾语位置等同于最终受术目标，或据此推定任意跨�
 _Avoid_：与词性、单词语义属性或互斥职业混称。
 
 **简易法术**：
-合法句式省略显式主语所具有的类型，系统补默认“我”后仍保留；实际投入显式主语后不满足该条件，也可同时满足其他类型。来源见[ST1](game-design-workflow/idea-materials/M-2026-09-06-spell-types-and-item-triggers.md)，例如“获得 护盾”。
+合法句式省略显式主语所具有的类型，系统补默认“我”后仍保留；实际投入显式主语后不满足该条件，也可同时满足其他类型。来源见[ST1](game-design-workflow/idea-materials/M-2026-09-06-spell-types-and-item-triggers.md)，例如“获得 护甲”，基础防护术语按后续 [PA1](game-design-workflow/idea-materials/M-2026-09-06-armor-identity-generation-and-persistence.md) 统一。
 _Avoid_：把省略主语理解为没有语义上的执行者，或把按实际卡牌相加的基础耗时误作固定折扣及强度结论。
 
 **召唤法术**：
@@ -382,6 +382,14 @@ _Avoid_：与多张独立技能依次释放、吟唱中逐词生效或把多个�
 **词义复用**：
 以稳定的核心词义及明确的角色、输入或战场条件解释不同句子的作用；符合规则的新组合无需额外解锁整句配方，基础版不设整句隐藏配方奖励，已明确的类型与道具联动保留。来源见 [SM2-SM3](game-design-workflow/idea-materials/M-2026-09-06-compositional-spells-and-word-meaning.md)。
 _Avoid_：与任意自然语言都合法、只凭日常词名猜效果、同名显示的种类词与绑定卡完全互换，或取消当前启动条件混称。
+
+**护甲**：
+基础防护状态，原稿“护盾”在当前规则中统一为此名称；同一对象上一份可累积数量，无自然到期或自动周期效果，普通伤害等量消耗、溢出扣生命，整场结束按临时状态清除。来源见 [PA1-PA3](game-design-workflow/idea-materials/M-2026-09-06-armor-identity-generation-and-persistence.md) 与[伤害素材](game-design-workflow/idea-materials/M-2026-09-06-damage-armor-and-interruption.md)。
+_Avoid_：与额外护盾词卡、抗打断、共享防护或跨战资源混称；是否需要数量上限及数值后定。
+
+**生成护甲**：
+“获得 护甲”基础句成功时产生新的护甲数量，省略主语时由玩家获得，施放前不要求已有护甲，也不从其他对象转移或扣取；仍需实际投词与施法。来源见 [PA2](game-design-workflow/idea-materials/M-2026-09-06-armor-identity-generation-and-persistence.md)。
+_Avoid_：与操作已有护甲、状态出现即获得词卡，或“获得”能够搭配任意名词混称。
 
 **整句结算**：
 法术完整施放后，按句内词义顺序和具体操作条件结算整句的过程；完成前被打断则整句不生效，已经经过的时间不退。完成也不保证生效，当前基础三词句的必需材料完全缺失时整句落空；H4 范围内的单目标法术正常完成时所指普通敌人已被击败，也整句落空，见[击败后果素材](game-design-workflow/idea-materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md)。来源见 [Q6 确认记录](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#q6被打断的一句如何结算)及[材料缺失落空确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#必需材料缺失落空确认记录)。
