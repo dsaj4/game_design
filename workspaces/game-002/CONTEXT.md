@@ -2,7 +2,7 @@
 
 本词汇表记录构思澄清中已明确的术语，不代表整份初稿已经晋级或核心玩法已采纳。共享流程名词见[仓库词汇](../../CONTEXT.md)。
 
-2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6 和 SH1-SH6 已分别通过资格确认；旧分类、对象及卡包术语保留相应范围，生成衔接与其他候选仍待确认。
+2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6 和 SC1-SC6 已分别通过资格确认；旧分类、对象及卡包术语保留相应范围，单位共存与容量及其他候选仍待确认。
 
 ## Language
 
@@ -160,12 +160,16 @@ _Avoid_：把类型固定、完成计时或存在适用道具等同于成功奖�
 _Avoid_：把所有召唤类型法术都当成新单位生成。
 
 **召唤种类词**：
-首次“召唤 恶魔”时从已有卡组投入、指明召唤种类的恶魔词卡；其其他用途尚未定，来源见[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)中的 SG2。
+首次“召唤 恶魔”时从已有卡组投入、指明召唤种类的恶魔词卡；召唤后正常弃置循环，不转变为关联卡或被单位占用。来源见[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)中的 SG2 及 [SC2](game-design-workflow/idea-materials/M-2026-09-06-summon-reference-generation-and-hand-entry.md)，其他用途尚未定。
 _Avoid_：与召唤完成后生成的单位及指向单位的临时卡混称。
 
 **召唤关联卡**：
-恶魔召唤中随场上单位产生、指向该具体单位的临时卡；进入普通手牌，用后弃置并参与洗回，可用于强化、指挥等合法操作，默认不能作为新召唤的种类材料。循环依据见 [SG1-SG5](game-design-workflow/idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)，离场与战后清理由 [SL1-SL6](game-design-workflow/idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)独立确认，生成精确时点后定。
+每个实际新召出的基础单位所对应的一张专属临时卡，指向该具体单位，可用于强化、指挥等合法操作而不能作为新召唤种类材料；进入普通手牌并参与弃置洗回，不加入本局卡组或占其同名三张额度。循环依据见 [SG1-SG5](game-design-workflow/idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)，生成入手见 [SC1-SC6](game-design-workflow/idea-materials/M-2026-09-06-summon-reference-generation-and-hand-entry.md)，离场与战后清理见 [SL1-SL6](game-design-workflow/idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)。
 _Avoid_：与本局原有种类词、普通临时复制品或场上单位本身混称，或把卡被弃置等同于单位消失。
+
+**关联卡直接入手**：
+本次召唤完整结算并完成击败及胜负检查后，战斗继续且新单位仍在场时，将它的关联卡加入普通手牌；生成不改变抽牌堆和固定补牌进度，超限则立即暂停弃至上限，再继续同刻事件。来源见 [SC3-SC5](game-design-workflow/idea-materials/M-2026-09-06-summon-reference-generation-and-hand-entry.md)。
+_Avoid_：与抽牌、施法结束补满、生成原种类词副本或立即开始新施法混称。
 
 **召唤指令**：
 玩家通过组织句子让基础召唤物执行动作的方式，相关施法共用玩家的时间投入；基础单位不自行发起攻击。来源见[召唤基础循环](game-design-workflow/idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)中的 SG5。
@@ -368,7 +372,7 @@ _Avoid_：与未完成时的命中打断混称，把任何状态不存在都判�
 _Avoid_：与玩家操作窗口、整个同刻事件组或胜负条件本身混称；普通战斗同时满足条件时失败优先已确认，特殊效果检查位置尚未确定。
 
 **同刻结算顺序**：
-同一战斗时点先结算已完成法术并弃置普通投入词，再处理敌方行动及可能的打断弃置，然后处理到时的状态，最后处理固定节拍补牌与超限弃牌；中间不开放新施法，战斗结束则停止后续流程。状态内部先后按首次生效及固定平局规则处理，见[状态读值与顺序素材](game-design-workflow/idea-materials/M-2026-09-06-status-values-and-resolution-order.md)；普通敌人同刻行动按开战公开的固定序，见[E1-E3 确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#多敌人同刻行动顺序整组确认记录)；特殊新增敌人及触发仍待定。来源见[同一时点顺序确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#同一时点顺序确认)及[状态时序确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#单份周期状态计时与到期整组确认记录)。
+同一战斗时点先结算已完成法术并弃置普通投入词、完成检查；基础召唤按 [SC3-SC4](game-design-workflow/idea-materials/M-2026-09-06-summon-reference-generation-and-hand-entry.md)处理有效关联卡入手及超限弃牌，再处理敌方行动及可能的打断弃置，然后处理到时的状态，最后处理固定节拍补牌与超限弃牌；中间不开放新施法，战斗结束则停止后续流程。状态内部先后按首次生效及固定平局规则处理，见[状态读值与顺序素材](game-design-workflow/idea-materials/M-2026-09-06-status-values-and-resolution-order.md)；普通敌人同刻行动按开战公开的固定序，见[E1-E3 确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#多敌人同刻行动顺序整组确认记录)；特殊新增敌人及触发仍待定。来源见[同一时点顺序确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#同一时点顺序确认)及[状态时序确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#单份周期状态计时与到期整组确认记录)。
 _Avoid_：把画面播放的先后当作新的行动机会，或用同刻刚补入的词抢在敌方行动前施法。
 
 **时间补牌**：
