@@ -177,8 +177,16 @@ _Avoid_：将预定行动等同于最终效果数值锁定或必然命中，或�
 距离下一次会打断施法的敌方行动所剩的战斗时间，是当前行动窗口的剩余额度。它在构句时不减少，也不因开始下一句重置；来源见 [Q4 确认记录](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#q4施法预算的含义)。
 _Avoid_：将其称为独立法力、专注或固定施法次数，或只依据所选目标而忽略其他敌人的攻击。
 
+**护甲抵伤**：
+玩家与普通敌人的基础防御关系：普通直接伤害先由护甲等量抵消并消耗相应护甲，溢出扣生命；持续伤害默认沿用同样流程。来源见[伤害素材](game-design-workflow/idea-materials/M-2026-09-06-damage-armor-and-interruption.md)。
+_Avoid_：与每次行动自动清空护甲、护甲不消耗的减伤率、抗打断或吞噬护甲的消耗比例混称。
+
+**持续伤害**：
+由具体规则明确的持续性伤害效果，默认经过护甲，但本身不视为一次攻击命中，不因扣除生命而打断正在施放的法术。来源同[伤害素材](game-design-workflow/idea-materials/M-2026-09-06-damage-armor-and-interruption.md)。
+_Avoid_：与所有战场状态、持续施法或免于战败混称；具体触发周期、到期、叠加和检查位置仍待定。
+
 **施法打断**：
-玩家正在施放法术时遭敌方攻击命中而发生的中断。敌方自我强化、增加护甲或召唤本身不属于打断；来源见 [Q5 确认记录](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#q5打断的触发范围)。
+玩家正在施放法术时遭敌方攻击命中而发生的中断；攻击即使被护甲完全抵消、没有损失生命仍会打断尚未完成的法术。敌方自我强化、增加护甲或召唤本身不属于打断，持续伤害本身也不打断。来源见 [Q5 确认记录](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#q5打断的触发范围)及[伤害板块确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#伤害护甲与打断整组确认记录)。
 _Avoid_：将所有敌方行动都称为打断。
 
 **整句结算**：
