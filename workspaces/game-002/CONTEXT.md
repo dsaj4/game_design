@@ -2,6 +2,8 @@
 
 本词汇表记录构思澄清中已明确的术语，不代表整份初稿已经晋级或核心玩法已采纳。共享流程名词见[仓库词汇](../../CONTEXT.md)。
 
+2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。下方旧固定分类、三词对象范围和卡包类别术语已标注复审边界；只有用户明确的概念与召唤入口在本轮补入词汇表，候选使用细则留在 inbox。
+
 ## Language
 
 **战斗胜利**：
@@ -72,12 +74,12 @@ _Avoid_：理解为每次必定回满、必须始终留有伤势，或在同次�
 _Avoid_：将拿牌等同于必然增强；升级暂不引入，永久删牌或换牌未因此获得采用。
 
 **休整随机卡包**：
-选择拿牌后才开启并公开主语、谓语、宾语各一张候选的随机卡包，各类内部随机、互不重名，并排除本局同名已满三张的词；跨卡包仍可出现未满额已有词。卡池权重、稀有度及重抽规则仍待定，来源见[三类各一张确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#休整卡包三类各一张确认记录)。
+类别覆盖因[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)进入复审，以下主谓宾各一张为旧版分布，不自动用于新版。选择拿牌后才开启并公开主语、谓语、宾语各一张候选的随机卡包，各类内部随机、互不重名，并排除本局同名已满三张的词；跨卡包仍可出现未满额已有词。卡池权重、稀有度及重抽规则仍待定，来源见[三类各一张确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#休整卡包三类各一张确认记录)。
 _Avoid_：理解为三个卡包选一个、一次拿走三类词，或将类别覆盖等同于语义兼容；同包不重名不禁止跨卡包收集副本，休整候选规则不自动推广到所有获取场景。
 
 **休整拿牌可用条件**：
 
-选择本次休整收益前，检查能否组成三类各一张、互不重名并排除本局同名满三张词的完整卡包；只有能组成时才提供拿牌，某类无合格词时本次只保留恢复分支，不自动回血、不提前公开候选。来源见[可用条件确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#休整卡包可用条件确认记录)。
+完整卡包的类别条件因[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)进入复审；旧版在选择本次休整收益前，检查能否组成三类各一张、互不重名并排除本局同名满三张词的完整卡包；只有能组成时才提供拿牌，某类无合格词时本次只保留恢复分支，不自动回血、不提前公开候选。来源见[可用条件确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#休整卡包可用条件确认记录)。
 
 _Avoid_：与候选不喜欢或语义不兼容混称；不以不完整卡包、跨类或满额词补位，不自动获得重抽或补偿。
 
@@ -86,7 +88,7 @@ _Avoid_：与候选不喜欢或语义不兼容混称；不以不完整卡包、�
 _Avoid_：与改选恢复、未选分支时直接跳过休整、重抽或补偿混称。
 
 **普通战斗词卡奖励**：
-每次普通胜利提供一次词卡奖励机会，完整卡包可用时公开一包候选，按主谓宾各一、类内随机、同包不重名和本局同名满三张过滤生成完整卡包，直接公开候选，可拿一张或全部放弃；无法组成完整卡包则不提供候选，不自动回血或补偿。它是独立战后收益，不占休整选择，也无恢复分支。来源见[普通奖励素材](game-design-workflow/idea-materials/M-2026-09-06-normal-combat-word-rewards.md)。
+候选类别与完整卡包条件因[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)进入复审；以下三类配额保留为旧版范围。每次普通胜利提供一次词卡奖励机会，完整卡包可用时公开一包候选，按主谓宾各一、类内随机、同包不重名和本局同名满三张过滤生成完整卡包，直接公开候选，可拿一张或全部放弃；无法组成完整卡包则不提供候选，不自动回血或补偿。它是独立战后收益，不占休整选择，也无恢复分支。来源见[普通奖励素材](game-design-workflow/idea-materials/M-2026-09-06-normal-combat-word-rewards.md)。
 _Avoid_：与卡包不可用时强行发牌、强制入组、逐个敌人发奖或先选收益再开包的休整流程混称；额外跳过补偿和特殊奖励尚未确定。
 
 **词卡奖励跳过**：
@@ -107,26 +109,50 @@ _Avoid_：与自动升级、合成或单张卡无限调用混称，或将同名�
 
 **临时词卡副本**：
 由复制效果产生的本场词卡，默认正常弃置并参与洗回，明确的本场移除效果可使其提前退出循环，战后消失；其不成为本局卡组成员，不占同名三张名额，允许使本场同名数量超过三张。来源见[持续范围确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#临时变化持续范围确认记录)、[超限权限确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#临时副本超过三张确认记录)与[循环确认](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#临时副本正常循环确认记录)；复制对象、初始进入位置与费用待相关卡牌出现后讨论，见[后置记录](game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md#复制效果设计后置记录)。
-_Avoid_：与通过普通奖励收下的独立副本混称，或将“仅限本场”理解为“使用一次即消失”。
+_Avoid_：与通过普通奖励收下的独立副本或指向具体单位的召唤关联卡混称，或将“仅限本场”理解为“使用一次即消失”。
 
-**固定词类**：
-当前基础版本中，词卡固定属于主语、谓语或宾语，各类只用于对应句法位置，不允许同一词卡跨类使用。来源见[固定词类素材](game-design-workflow/idea-materials/M-2026-09-05-fixed-grammatical-roles.md)。
-_Avoid_：把自然语言中的多种用法直接当作词卡跨位权限，或认为三类齐全就必然语义合法。
+**固定词类（旧版约束）**：
+旧版将词卡固定分为主语、谓语、宾语，并禁止跨位；2026-09-06 用户提出同一卡可用于主语和宾语后，这项限制已被新方向替代。历史来源见[固定词类素材](game-design-workflow/idea-materials/M-2026-09-05-fixed-grammatical-roles.md)，新方向见[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)。
+_Avoid_：继续用旧禁令排除新版跨位用法，或从放开跨位推定所有词在所有位置都合法。
+
+**词性与句法角色**：
+词性描述词本身的类别，句法角色描述它在某一句中的作用；本轮允许同一卡承担主语或宾语角色，并提出按词性重新区分卡牌。具体词性集合及可用条件尚未定，来源见[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)。
+_Avoid_：把主语、宾语继续当作互斥词性，或把角色复用等同于多出一张实体卡。
+
+**法术类型**：
+依据整条法术特征形成、可被特定全局道具识别的类别；一条法术可以同时具有多个类型，并作为构筑流派的标志。来源见[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)。
+_Avoid_：与词性、单词语义属性或互斥职业混称。
+
+**简易法术**：
+用户提出的省略显式主语、由系统补“我”的法术类型，例如“获得 护盾”。它可以同时属于其他法术类型，来源见[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)。
+_Avoid_：把省略主语理解为没有语义上的执行者，或把少一个词直接等同于已经确定的耗时与强度折扣。
+
+**召唤法术**：
+以召唤动作或召唤物参与为特征的法术类型；用户例子包括“召唤 恶魔”“强化 恶魔”“恶魔 释放 火焰”，前两者同时属于简易法术。具体判定范围仍待细化，来源见[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)。
+_Avoid_：与每次都生成新单位混称，或认为场上有召唤物就使所有法术自动属于召唤类。
+
+**召唤种类词**：
+首次“召唤 恶魔”时从已有卡组投入、指明召唤种类的恶魔词卡；其其他用途尚未定，来源见[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)中的 SG2。
+_Avoid_：与召唤完成后生成的单位及指向单位的临时卡混称。
+
+**召唤关联卡**：
+本轮恶魔召唤中，随场上恶魔单位一同产生、指向该单位的临时卡；首次进入位置、后续循环与权限未定，来源见[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)中的 SG1-SG2。
+_Avoid_：与本局原有种类词、普通临时复制品或场上单位本身混称。
 
 **独立字数上限**：
-依据句中文字总数限制句子是否可用的额外门槛，当前三词基础句暂不启用。原稿中的字数系统保留，待可变句长或修饰词阶段再评估，来源见[范围确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#基础版独立字数上限确认记录)。
-_Avoid_：将暂不启用字数上限等同于可任意加词、取消固定句式，或将它与词卡施法耗时混称。
+依据句中文字总数限制句子是否可用的额外门槛，旧三词基础范围已确认暂不启用；本轮灵活句式的容量限制尚待复审，未自动开启字数上限。原稿中的字数系统保留，待可变句长或修饰词阶段再评估，来源见[范围确认](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#基础版独立字数上限确认记录)。
+_Avoid_：将暂不启用字数上限等同于可任意加词，或将它与词卡施法耗时混称；新句式权限以本轮独立改动为来源。
 
-**基础句施法对象**：
-当前三词基础句唯一选定的战场对象，承载本句需要读取或操作的状态，并承受本句结果；可为玩家自身或尚未被击败的普通敌人，但须满足具体句义和对象条件。来源见[对象选择素材](game-design-workflow/idea-materials/M-2026-09-06-basic-sentence-targeting-and-locking.md)。
-_Avoid_：与主语词混称，或理解为材料来源与结果承受者可分别选择；基础阵营范围不保证每句对双方均合法。
+**基础句施法对象（旧三词范围）**：
+旧三词基础句唯一选定的战场对象，承载本句需要读取或操作的状态，并承受本句结果；可为玩家自身或尚未被击败的普通敌人，但须满足具体句义和对象条件。来源见[对象选择素材](game-design-workflow/idea-materials/M-2026-09-06-basic-sentence-targeting-and-locking.md)。
+_Avoid_：将旧单对象关系直接推广至召唤物执行的法术；新版执行者、输入与受术目标的关系需按[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)重新确认。
 
 **施法对象身份锁定**：
 构句时可改选对象，确认施法时固定本句所指对象的身份，施法过程中不提供通用改目标；不冻结对象状态或统一具体操作的读值时点。来源同[对象选择素材](game-design-workflow/idea-materials/M-2026-09-06-basic-sentence-targeting-and-locking.md)。
 _Avoid_：与状态数值锁定、材料预留、通用取消或目标失效后自动改选混称；普通敌人被击败仍按既有落空规则处理。
 
 **语义兼容**：
-句子中须同时成立的两项关系：谓语能处理宾语提供的内容，主语能承接谓语产生的结果。它是固定词类约束之外的必要条件，不包含全部战场适用条件与指代规则，来源见[构句素材](game-design-workflow/idea-materials/M-2026-09-05-fixed-grammatical-roles.md)。
+句内各词的作用能够衔接的要求；旧版具体表述是谓语能处理宾语、主语能承接谓语结果，来源见[构句素材](game-design-workflow/idea-materials/M-2026-09-05-fixed-grammatical-roles.md)。本轮加入省略主语和召唤物执行后，执行者与动作、输入之间的具体兼容关系需重议，见[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)。
 _Avoid_：将三类齐全等同于语义兼容，或将语义兼容等同于任何战况下都可施法。
 
 **战场状态留存**：

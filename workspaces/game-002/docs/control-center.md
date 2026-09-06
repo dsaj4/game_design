@@ -161,4 +161,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认（2026-09-06）：O1-O4 已完成[整组确认](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#战斗开局与初始节拍整组确认记录)，扩充[时间素材](../game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)及[供给素材](../game-design-workflow/idea-materials/M-2026-09-05-timeline-draw-preview.md)。每场普通战斗重新计时，起手准备不推进时间，开战在场普通敌人从同一起点开始非零首次准备，首张定时牌经过完整间隔后到来；不保证合法起手句能安全完成。正式素材仍为 17 份，证据 Hypothesis，未进行玩法验证。
 
-下一步：集中评议[词义职责与组合结果](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前小板块评议词义职责与组合结果)L1-L3，包含三类词的职责、整句效果组成与词义规则复用。全部 Raw Idea / Unqualified；具体词卡、数值与界面后置。
+当前改动（2026-09-06）：[灵活句式、词性复用与多法术类型](../game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)已保存用户原话、SG1-SG2 召唤入口确认及候选细化，仍为 Raw Idea / Unqualified。旧 L1-L3 需要重议；既有 17 份素材保留历史资格，受影响的分类、对象、卡包和相关时间及循环条目已提示复审。
+
+下一步：集中确认 SG3-SG5，明确关联卡循环、再次召唤权限与召唤物自主行动。

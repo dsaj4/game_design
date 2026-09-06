@@ -1,6 +1,8 @@
 # game-002 正式素材库
 
 只接收本项目通过资格确认的内容，状态为 Qualified GDD Material；入库不代表核心采纳或完成试玩验证。
+2026-09-06 适用性更新：既有素材共 17 份。用户提出[灵活句式、词性复用与多法术类型](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)后，固定分类、基础对象范围、卡包类别及相关时间与循环假设进入复审；各素材顶部已标出受影响范围。本轮新方案仍为 Raw Idea / Unqualified，不能把这 17 份历史素材直接视为新版完整机制。
+
 使用[共享模板](../../../../game-design-workflow/templates/README.md)，按[项目流程](../README.md)进入本阶段，不复制旧项目文档。
 
 | 日期 | 素材 | 来源 | 证据状态 |
