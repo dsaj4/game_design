@@ -1,7 +1,7 @@
 # game-002 正式素材库
 
 只接收本项目通过资格确认的内容，状态为 Qualified GDD Material；入库不代表核心采纳或完成试玩验证。
-2026-09-07 适用性更新：原有 17 份素材保留历史范围，后续新增召唤循环、基础句式、类型道具、离场失效、生命承伤、关联卡生成、共存容量、召唤词引用、词性卡包、开局保障、整句词义、防护状态、施法效果修正及[周期状态的强化继承](M-2026-09-07-periodic-state-modifier-inheritance.md)，当前共 31 份。SG、FG、ST、SL、SH、SC、SN、SR、WC、OH、SM、PA、ER 及 PS1-PS3 已分别通过资格复审；旧分类与对象范围按各素材顶部说明区分。当前[全局道具的基础持有与生效](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#当前小板块全局道具的基础持有与生效)仍为 Raw Idea / Unqualified，其他具体词义继续复审。
+2026-09-07 适用性更新：原有 17 份素材保留历史范围，后续新增召唤循环、基础句式、类型道具、离场失效、生命承伤、关联卡生成、共存容量、召唤词引用、词性卡包、开局保障、整句词义、防护状态、施法效果修正、周期状态强化继承及[全局道具的基础持有与生效](M-2026-09-07-global-item-ownership-and-passive-effects.md)，当前共 32 份。SG、FG、ST、SL、SH、SC、SN、SR、WC、OH、SM、PA、ER、PS 及 GI1-GI3 已分别通过资格复审；旧分类与对象范围按各素材顶部说明区分。当前[全局道具奖励与重复限制](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#当前小板块全局道具奖励与重复限制)仍为 Raw Idea / Unqualified，其他具体词义继续复审。
 
 使用[共享模板](../../../../game-design-workflow/templates/README.md)，按[项目流程](../README.md)进入本阶段，不复制旧项目文档。
 
@@ -38,3 +38,4 @@
 | 2026-09-06 | [防护状态的定义与生成](M-2026-09-06-armor-identity-generation-and-persistence.md) | [PA1-PA3 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#防护状态的定义与生成整组确认记录) | Hypothesis；基础防护统一护甲，获得护甲可从零生成，同对象数量累积、无自然到期或自动周期；抵伤、打断与战后清除沿既有规则，具体获得量与上限决策后定 |
 | 2026-09-06 | [施法效果的来源与修正](M-2026-09-06-spell-effect-sources-and-modifiers.md) | [ER1-ER3 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#施法效果的来源与修正整组确认记录) | Hypothesis；采用实际执行者自身适用修正，玩家与单位不自动继承；全局道具按条件适用，整句开始结算时读取源方强度，耗时及材料保留各自规则；周期状态继承已由 [PS1-PS3](M-2026-09-07-periodic-state-modifier-inheritance.md)独立确认，具体词卡与公式后定 |
 | 2026-09-07 | [周期状态的强化继承](M-2026-09-07-periodic-state-modifier-inheritance.md) | [PS1-PS3 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#周期状态的强化继承整组确认记录) | Hypothesis；明确适用的源方数量修正计入新增量再合并，后续来源变化不追溯重算；周期读取当前数量且不重复增幅，目标防护及共享计时照常；状态材料与续期收益待验证，具体词卡和公式后定 |
+| 2026-09-07 | [全局道具的基础持有与生效](M-2026-09-07-global-item-ownership-and-passive-effects.md) | [GI1-GI3 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#全局道具的基础持有与生效整组确认记录) | Hypothesis；道具被动、不参与词卡循环、无需额外装备，战中不主动开关或卸下；本局跨战持有、不自动跨局继承，临时产物仍按原规则清除；获取、重复、初始道具与内部进度待定 |
