@@ -6,7 +6,7 @@
 | --- | --- |
 | 工作区 | Active / Idea Qualification |
 | 类型、方向、目标玩家 | 用户强调卡组构筑定位，已选择 A 抽弃循环继续细化；正式核心尚未采纳，目标玩家 Unknown |
-| 原始想法记录、素材、正式 GDD | 5 / 37 / 0（前三份初稿与循环记录，加灵活句式改动及商店金币记录；素材均为 Hypothesis） |
+| 原始想法记录、素材、正式 GDD | 6 / 38 / 0（前三份初稿与循环记录，加灵活句式、商店金币及全局收口记录；素材均为 Hypothesis） |
 | 提案、评估、正式玩法决定 | 无 |
 | 原型与代码 | 无 |
 | 生产阶段、排期 | 未确定 |
@@ -161,6 +161,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认（2026-09-06）：O1-O4 已完成[整组确认](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#战斗开局与初始节拍整组确认记录)，扩充[时间素材](../game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)及[供给素材](../game-design-workflow/idea-materials/M-2026-09-05-timeline-draw-preview.md)。每场普通战斗重新计时，起手准备不推进时间，开战在场普通敌人从同一起点开始非零首次准备，首张定时牌经过完整间隔后到来；不保证合法起手句能安全完成。正式素材仍为 17 份，证据 Hypothesis，未进行玩法验证。
 
-当前改动（2026-09-07）：GR1-GR4 已独立晋级[战斗道具奖励与战后结算](../game-design-workflow/idea-materials/M-2026-09-07-combat-item-rewards-and-settlement.md)，共 37 份素材，证据 Hypothesis。道具免费奖励与商店购买并存，战后先金币、再词卡、最后道具；实际成长节奏未验证。
+当前改动（2026-09-07）：NR1-NR3 已晋级[新局初始资源](../game-design-workflow/idea-materials/M-2026-09-07-new-run-starting-resources.md)，共 38 份素材，证据 Hypothesis。已按用户要求新增一次性全局确认包，当前共 6 份 inbox 记录；只 NR 获本轮确认，F01-F15 全部为候选。
 
-下一步：集中确认 [NR1-NR3 新局初始资源](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#当前小板块新局初始资源)；随后复核一局完整流程，具体效果、数值、界面和实现后置。
+下一步：一次确认 [F01-F15 全局设计收口确认包](../game-design-workflow/idea-inbox/2026-09-07-global-baseline-lock-review.md) 或按编号调整，随后转入基础数值与流派定轨；不继续逐小板块全局追问，玩法验证尚未执行。
