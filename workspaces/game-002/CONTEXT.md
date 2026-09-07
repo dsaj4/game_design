@@ -6,6 +6,21 @@
 
 ## Language
 
+**本局金币**：
+
+用于本局商店购买方向的货币，跨战斗、休整和商店累积，本局结束不带入下一局；初始金币后定。来源见[EC1-EC4](game-design-workflow/idea-materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md)。
+_Avoid_：与施法费用、跨局存款或已经确认商店交易细则混称。
+
+**战斗基础金币与耗时奖金**：
+
+每个战斗节点首次有效胜利后结算一次该遭遇预设基础金币加有上限、最低为零的耗时奖金；基础金币不随久战扣减，奖金按遭遇预设效率基准计算，不随玩家当前构筑临时抬高基准。来源同[金币素材](game-design-workflow/idea-materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md)。
+_Avoid_：与逐敌人发奖、所有遭遇同额、拒收词卡补偿或每缩短任意微小时间都增加金币混称。
+
+**金币奖励计时**：
+
+从本场起点到有效胜利判定的一份实际战斗时间轴经过时间，含施法、等待与打断前已花时间，排除暂停期间的现实思考时间；并行敌方准备不重复相加。来源同[金币素材](game-design-workflow/idea-materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md)。
+_Avoid_：与现实操作速度、仅成功法术耗时之和或敌人数乘以经过时间混称。
+
 **全局道具的本局持有**：
 
 道具作为被动构筑物，不参与抽弃牌、不占手牌或句子位置，无需额外装备，持有期间按条件生效；战中不提供主动开关、卸下或丢弃。本局跨战斗与休整保留，直到明确移除或本局结束，不自动带入下一局。来源见[GI1-GI3](game-design-workflow/idea-materials/M-2026-09-07-global-item-ownership-and-passive-effects.md)。
