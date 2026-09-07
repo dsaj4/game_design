@@ -6,7 +6,7 @@
 | --- | --- |
 | 工作区 | Active / Numerical Design & Archetype Definition |
 | 类型、方向、目标玩家 | 用户强调卡组构筑定位，已选择 A 抽弃循环继续细化；首轮 F01 已明确单人读牌规划与桌面验证场景；正式核心尚未采纳 |
-| 原始想法记录、素材、正式 GDD | 6 / 39 / 0（前三份初稿与循环记录，加灵活句式、商店金币及全局收口记录；素材均为 Hypothesis） |
+| 原始想法记录、素材、正式 GDD | 7 / 39 / 0（前三份初稿与循环记录，加灵活句式、商店金币、全局收口及基础数值记录；素材均为 Hypothesis） |
 | 提案、评估、正式玩法决定 | 无 |
 | 原型与代码 | 无 |
 | 生产阶段、排期 | 未确定 |
@@ -161,6 +161,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认（2026-09-06）：O1-O4 已完成[整组确认](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#战斗开局与初始节拍整组确认记录)，扩充[时间素材](../game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)及[供给素材](../game-design-workflow/idea-materials/M-2026-09-05-timeline-draw-preview.md)。每场普通战斗重新计时，起手准备不推进时间，开战在场普通敌人从同一起点开始非零首次准备，首张定时牌经过完整间隔后到来；不保证合法起手句能安全完成。正式素材仍为 17 份，证据 Hypothesis，未进行玩法验证。
 
-当前改动（2026-09-07）：F01-F15 已整包确认并晋级[首轮全局设计基线](../game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md)，共 39 份素材，证据 Hypothesis。新规则与首批范围已同步到相关素材；数值、流派卡表与玩法验证尚未完成。
+当前改动（2026-09-07）：新增[基础数值框架 v0.1](../game-design-workflow/idea-inbox/2026-09-07-core-numerical-framework-v01.md)，Raw Idea / Unqualified（参数草案）。完成单敌理想组件的受限算术推演，包括行动节拍、护甲值、击杀阈值、减耗和打断；不是完整战斗原型或玩家测试。正式素材仍为 39 份。
 
-下一步：使用[数值与流派交接](../game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md#数值与流派交接)填写首版参数、卡表与流派。全局收口已完成，仅在实际新效果超出基线或冲突时补局部规则。
+下一步：按参数草案反馈调整初始锚点，落实合法基础词卡并检查真实起手、牌序与多敌人，再推进召唤、状态和道具数值。全局规则继续沿已确认基线，不重新逐项访谈。

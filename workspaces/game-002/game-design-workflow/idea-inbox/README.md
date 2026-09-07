@@ -5,6 +5,7 @@
 
 | 日期 | 原始想法 | 状态 | 下一步 |
 | --- | --- | --- | --- |
+| 2026-09-07 | [基础数值框架 v0.1](2026-09-07-core-numerical-framework-v01.md) | Raw Idea / Unqualified（参数草案）；已做受限单敌算术推演，尚未采纳参数或验证牌库 | 调整参数方向，落实基础词卡并检验真实起手、牌序和遭遇 |
 | 2026-09-07 | [F01-F15 全局设计收口确认包](2026-09-07-global-baseline-lock-review.md) | Promoted：[首轮全局设计基线](../idea-materials/M-2026-09-07-first-pass-global-design-baseline.md)，第 39 份素材，Hypothesis；整包已确认 | 使用素材内交接入口，进入基础数值与流派定轨 |
 | 2026-09-07 | [商店事件与战斗金币收益](2026-09-07-shop-and-time-based-gold.md) | EC、MS、MQ、MN 基础机制已分别晋级，GR 战斗道具奖励已另行确认；正式素材共 39 份，Hypothesis | 按 [首轮全局设计基线](../idea-materials/M-2026-09-07-first-pass-global-design-baseline.md) 进入数值与流派阶段，具体配置与购买力后续验证 |
 | 2026-09-06 | [灵活句式、词性复用与多法术类型](2026-09-06-flexible-grammar-and-spell-types.md) | 其余整稿 Raw Idea / Unqualified；SG、FG、ST、SL、SH、SC、SN、SR、WC、OH、SM 已晋级，PA1-PA3 已晋级[防护状态的定义与生成](../idea-materials/M-2026-09-06-armor-identity-generation-and-persistence.md)，ER1-ER3 已晋级[施法效果的来源与修正](../idea-materials/M-2026-09-06-spell-effect-sources-and-modifiers.md)，PS1-PS3 于 2026-09-07 已晋级[周期状态的强化继承](../idea-materials/M-2026-09-07-periodic-state-modifier-inheritance.md)，GI1-GI3 已晋级[全局道具的基础持有与生效](../idea-materials/M-2026-09-07-global-item-ownership-and-passive-effects.md) | GR 奖励方式已晋级，持有原则沿 MQ，商店 EC、MS、MQ、MN 已晋级；当前按 [首轮全局设计基线](../idea-materials/M-2026-09-07-first-pass-global-design-baseline.md) 进入数值与流派阶段，具体数值与界面后置 |
