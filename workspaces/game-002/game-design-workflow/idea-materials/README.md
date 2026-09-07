@@ -1,7 +1,7 @@
 # game-002 正式素材库
 
 只接收本项目通过资格确认的内容，状态为 Qualified GDD Material；入库不代表核心采纳或完成试玩验证。
-2026-09-06 适用性更新：原有 17 份素材保留历史范围，后续新增召唤循环、基础句式、类型道具、离场失效、生命承伤、关联卡生成、共存容量、召唤词引用、词性卡包、开局保障、整句词义、防护状态及[施法效果的来源与修正](M-2026-09-06-spell-effect-sources-and-modifiers.md)，当前共 30 份。SG、FG、ST、SL、SH、SC、SN、SR、WC、OH、SM、PA 及 ER1-ER3 已分别通过资格复审；旧分类与对象范围按各素材顶部说明区分。当前[周期状态的强化继承](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#当前小板块周期状态的强化继承)仍为 Raw Idea / Unqualified，其他具体词义继续复审。
+2026-09-07 适用性更新：原有 17 份素材保留历史范围，后续新增召唤循环、基础句式、类型道具、离场失效、生命承伤、关联卡生成、共存容量、召唤词引用、词性卡包、开局保障、整句词义、防护状态、施法效果修正及[周期状态的强化继承](M-2026-09-07-periodic-state-modifier-inheritance.md)，当前共 31 份。SG、FG、ST、SL、SH、SC、SN、SR、WC、OH、SM、PA、ER 及 PS1-PS3 已分别通过资格复审；旧分类与对象范围按各素材顶部说明区分。当前[全局道具的基础持有与生效](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#当前小板块全局道具的基础持有与生效)仍为 Raw Idea / Unqualified，其他具体词义继续复审。
 
 使用[共享模板](../../../../game-design-workflow/templates/README.md)，按[项目流程](../README.md)进入本阶段，不复制旧项目文档。
 
@@ -36,4 +36,5 @@
 | 2026-09-06 | [开局手牌保障与可表达性](M-2026-09-06-opening-hand-guarantees.md) | [OH1-OH5 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#开局手牌保障与可表达性整组确认记录) | Hypothesis；至少一条当前条件齐备的基础句，自有卡组与普通开局条件共同兑现；随机不达标时等量补正，补正后洗剩余堆并首次预览，只在起手阶段生效；具体牌数、随机权重与实际开局多样性待定或待验证 |
 | 2026-09-06 | [整句效果与词义复用](M-2026-09-06-compositional-spells-and-word-meaning.md) | [SM1-SM3 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#整句效果与词义复用整组确认记录) | Hypothesis；一句一法术，新组合依词义与兼容成立，无额外整句配方解锁或隐藏配方奖励；核心含义稳定、条件变化明确，类型与道具联动保留；具体词义及学习迁移待设计或验证 |
 | 2026-09-06 | [防护状态的定义与生成](M-2026-09-06-armor-identity-generation-and-persistence.md) | [PA1-PA3 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#防护状态的定义与生成整组确认记录) | Hypothesis；基础防护统一护甲，获得护甲可从零生成，同对象数量累积、无自然到期或自动周期；抵伤、打断与战后清除沿既有规则，具体获得量与上限决策后定 |
-| 2026-09-06 | [施法效果的来源与修正](M-2026-09-06-spell-effect-sources-and-modifiers.md) | [ER1-ER3 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#施法效果的来源与修正整组确认记录) | Hypothesis；采用实际执行者自身适用修正，玩家与单位不自动继承；全局道具按条件适用，整句开始结算时读取源方强度，耗时及材料保留各自规则；周期状态继承、具体词卡与公式后定 |
+| 2026-09-06 | [施法效果的来源与修正](M-2026-09-06-spell-effect-sources-and-modifiers.md) | [ER1-ER3 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#施法效果的来源与修正整组确认记录) | Hypothesis；采用实际执行者自身适用修正，玩家与单位不自动继承；全局道具按条件适用，整句开始结算时读取源方强度，耗时及材料保留各自规则；周期状态继承已由 [PS1-PS3](M-2026-09-07-periodic-state-modifier-inheritance.md)独立确认，具体词卡与公式后定 |
+| 2026-09-07 | [周期状态的强化继承](M-2026-09-07-periodic-state-modifier-inheritance.md) | [PS1-PS3 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#周期状态的强化继承整组确认记录) | Hypothesis；明确适用的源方数量修正计入新增量再合并，后续来源变化不追溯重算；周期读取当前数量且不重复增幅，目标防护及共享计时照常；状态材料与续期收益待验证，具体词卡和公式后定 |
