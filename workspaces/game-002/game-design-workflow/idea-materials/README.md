@@ -1,7 +1,7 @@
 # game-002 正式素材库
 
 只接收本项目通过资格确认的内容，状态为 Qualified GDD Material；入库不代表核心采纳或完成试玩验证。
-2026-09-07 适用性更新：原有 17 份素材保留历史范围，后续新增召唤循环、基础句式、类型道具、离场失效、生命承伤、关联卡生成、共存容量、召唤词引用、词性卡包、开局保障、整句词义、防护状态、施法效果修正、周期状态强化继承及[全局道具的基础持有与生效](M-2026-09-07-global-item-ownership-and-passive-effects.md)、[战斗金币与耗时奖励](M-2026-09-07-combat-gold-and-efficiency-bonus.md)，当前共 33 份。SG、FG、ST、SL、SH、SC、SN、SR、WC、OH、SM、PA、ER、PS 及 GI1-GI3 已分别通过资格复审；旧分类与对象范围按各素材顶部说明区分。用户新增[商店事件与战斗金币收益](../idea-inbox/2026-09-07-shop-and-time-based-gold.md)，其中 EC1-EC4 已独立通过资格确认；商店运行仍为 Raw Idea / Unqualified，当前对齐 MS1-MS5，原 GA1-GA4 也未确认，待联动复审。
+2026-09-07 适用性更新：原有 17 份素材保留历史范围，后续新增召唤循环、基础句式、类型道具、离场失效、生命承伤、关联卡生成、共存容量、召唤词引用、词性卡包、开局保障、整句词义、防护状态、施法效果修正、周期状态强化继承及[全局道具的基础持有与生效](M-2026-09-07-global-item-ownership-and-passive-effects.md)、[战斗金币与耗时奖励](M-2026-09-07-combat-gold-and-efficiency-bonus.md)、[商店货架与交易](M-2026-09-07-shop-shelves-and-transactions.md)，当前共 34 份。SG、FG、ST、SL、SH、SC、SN、SR、WC、OH、SM、PA、ER、PS 及 GI1-GI3 已分别通过资格复审；旧分类与对象范围按各素材顶部说明区分。用户新增[商店事件与战斗金币收益](../idea-inbox/2026-09-07-shop-and-time-based-gold.md)，其中 EC1-EC4、MS1-MS5 已分别通过资格确认；商品资格及商店节点仍为 Raw Idea / Unqualified，当前对齐 MQ1-MQ4，原 GA1-GA4 也未确认，待联动复审。
 
 使用[共享模板](../../../../game-design-workflow/templates/README.md)，按[项目流程](../README.md)进入本阶段，不复制旧项目文档。
 
@@ -40,3 +40,4 @@
 | 2026-09-07 | [周期状态的强化继承](M-2026-09-07-periodic-state-modifier-inheritance.md) | [PS1-PS3 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#周期状态的强化继承整组确认记录) | Hypothesis；明确适用的源方数量修正计入新增量再合并，后续来源变化不追溯重算；周期读取当前数量且不重复增幅，目标防护及共享计时照常；状态材料与续期收益待验证，具体词卡和公式后定 |
 | 2026-09-07 | [全局道具的基础持有与生效](M-2026-09-07-global-item-ownership-and-passive-effects.md) | [GI1-GI3 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#全局道具的基础持有与生效整组确认记录) | Hypothesis；道具被动、不参与词卡循环、无需额外装备，战中不主动开关或卸下；本局跨战持有、不自动跨局继承，临时产物仍按原规则清除；获取、重复、初始道具与内部进度待定 |
 | 2026-09-07 | [战斗金币与耗时奖励](M-2026-09-07-combat-gold-and-efficiency-bonus.md) | [EC1-EC4 整组确认](../idea-inbox/2026-09-07-shop-and-time-based-gold.md#金币获取与计时整组确认记录) | Hypothesis；每节点首次胜利一次基础金币加有界耗时奖金，按实际战斗时间与遭遇预设基准，本局持有不跨局；商店 MS 与道具 GA 未确认，参数和购买力待验证 |
+| 2026-09-07 | [商店货架与交易](M-2026-09-07-shop-shelves-and-transactions.md) | [MS1-MS5 整组确认](../idea-inbox/2026-09-07-shop-and-time-based-gold.md#商店货架与交易整组确认记录) | Hypothesis；公开单卡与道具，固定货架及标价，每条目一份不补货，可连续购买，足额且合格才交易，买词入组，离开保留余额无回访；资格重复 MQ、节点和 GA 未确认 |

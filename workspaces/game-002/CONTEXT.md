@@ -6,10 +6,20 @@
 
 ## Language
 
+**商店货架**：
+
+每家商店首次到访时随机生成的公开单张词卡与具体被动道具集合，本次商品与标价固定，每个条目售一份，售出不补货，基础版不提供刷新或随机卡包。来源见[MS1-MS5](game-design-workflow/idea-materials/M-2026-09-07-shop-shelves-and-transactions.md)。
+_Avoid_：与整店三选一、同店必不重名、同种道具一件持有上限或必定适配当前构筑混称；商品资格与重复另议。
+
+**商店购买与离开**：
+
+一次到访可连续购买合格且金币足额的商品，成功才扣款并取得；买词即入本局卡组并受三张额度约束，买道具沿 GI 持有。可不买离开，剩余金币保留，不能回访补买，基础商店不提供出售、退款或付费删牌。来源同[商店素材](game-design-workflow/idea-materials/M-2026-09-07-shop-shelves-and-transactions.md)。
+_Avoid_：与离开返还货款、买入即保证起手、免费奖励被购物替代或已确认商店节点分布混称。
+
 **本局金币**：
 
-用于本局商店购买方向的货币，跨战斗、休整和商店累积，本局结束不带入下一局；初始金币后定。来源见[EC1-EC4](game-design-workflow/idea-materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md)。
-_Avoid_：与施法费用、跨局存款或已经确认商店交易细则混称。
+用于本局商店购买词卡与道具的货币，跨战斗、休整和商店累积，本局结束不带入下一局；初始金币后定。来源见[EC1-EC4](game-design-workflow/idea-materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md)。
+_Avoid_：与施法费用、跨局存款或依据货币范围推定全部商店资格规则混称。
 
 **战斗基础金币与耗时奖金**：
 
