@@ -6,7 +6,7 @@
 | --- | --- |
 | 工作区 | Active / Idea Qualification |
 | 类型、方向、目标玩家 | 用户强调卡组构筑定位，已选择 A 抽弃循环继续细化；正式核心尚未采纳，目标玩家 Unknown |
-| 原始想法记录、素材、正式 GDD | 4 / 32 / 0（前三份初稿与循环记录，加灵活句式改动；素材均为 Hypothesis） |
+| 原始想法记录、素材、正式 GDD | 5 / 32 / 0（前三份初稿与循环记录，加灵活句式改动及商店金币记录；素材均为 Hypothesis） |
 | 提案、评估、正式玩法决定 | 无 |
 | 原型与代码 | 无 |
 | 生产阶段、排期 | 未确定 |
@@ -161,6 +161,6 @@ Q8 已确认：“火焰 吞噬 护甲”完成施法、开始结算时读取目
 
 最新确认（2026-09-06）：O1-O4 已完成[整组确认](../game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#战斗开局与初始节拍整组确认记录)，扩充[时间素材](../game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)及[供给素材](../game-design-workflow/idea-materials/M-2026-09-05-timeline-draw-preview.md)。每场普通战斗重新计时，起手准备不推进时间，开战在场普通敌人从同一起点开始非零首次准备，首张定时牌经过完整间隔后到来；不保证合法起手句能安全完成。正式素材仍为 17 份，证据 Hypothesis，未进行玩法验证。
 
-当前改动（2026-09-07）：[灵活句式、词性复用与多法术类型](../game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)中的 SG、FG、ST、SL、SH、SC、SN、SR、WC、OH、SM、PA、ER、PS 及 GI1-GI3 已分别晋级，正式素材共 32 份，证据 Hypothesis。[全局道具的基础持有与生效](../game-design-workflow/idea-materials/M-2026-09-07-global-item-ownership-and-passive-effects.md)明确被动、无需装备、战中不主动调整及本局持有，临时产物清除保持；道具奖励与重复限制及其他具体词义继续复审。
+当前改动（2026-09-07）：用户新增[商店事件与战斗金币收益](../game-design-workflow/idea-inbox/2026-09-07-shop-and-time-based-gold.md)，使用金币购买词卡与道具，战斗收入暂定为固定收益加耗时奖励；新记录 Raw Idea / Unqualified，正式素材仍为 32 份。GI 等已确认范围保持，GA1-GA4 未确认且待与商店联动复审。
 
-下一步：集中确认 [GA1-GA4](../game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#当前小板块全局道具奖励与重复限制)，明确道具的指定战斗奖励、候选多选一、重复过滤和拒收；初始道具、内部计数、具体效果、数值和界面后置。
+下一步：集中确认 [EC1-EC4](../game-design-workflow/idea-inbox/2026-09-07-shop-and-time-based-gold.md#当前小板块金币获取与计时)，明确金币结算、实际战斗时间口径、奖金边界和本局持有；再讨论商店运行与 GA 联动，数值、界面和实现后置。

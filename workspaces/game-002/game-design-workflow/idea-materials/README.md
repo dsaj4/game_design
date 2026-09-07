@@ -1,7 +1,7 @@
 # game-002 正式素材库
 
 只接收本项目通过资格确认的内容，状态为 Qualified GDD Material；入库不代表核心采纳或完成试玩验证。
-2026-09-07 适用性更新：原有 17 份素材保留历史范围，后续新增召唤循环、基础句式、类型道具、离场失效、生命承伤、关联卡生成、共存容量、召唤词引用、词性卡包、开局保障、整句词义、防护状态、施法效果修正、周期状态强化继承及[全局道具的基础持有与生效](M-2026-09-07-global-item-ownership-and-passive-effects.md)，当前共 32 份。SG、FG、ST、SL、SH、SC、SN、SR、WC、OH、SM、PA、ER、PS 及 GI1-GI3 已分别通过资格复审；旧分类与对象范围按各素材顶部说明区分。当前[全局道具奖励与重复限制](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#当前小板块全局道具奖励与重复限制)仍为 Raw Idea / Unqualified，其他具体词义继续复审。
+2026-09-07 适用性更新：原有 17 份素材保留历史范围，后续新增召唤循环、基础句式、类型道具、离场失效、生命承伤、关联卡生成、共存容量、召唤词引用、词性卡包、开局保障、整句词义、防护状态、施法效果修正、周期状态强化继承及[全局道具的基础持有与生效](M-2026-09-07-global-item-ownership-and-passive-effects.md)，当前共 32 份。SG、FG、ST、SL、SH、SC、SN、SR、WC、OH、SM、PA、ER、PS 及 GI1-GI3 已分别通过资格复审；旧分类与对象范围按各素材顶部说明区分。用户新增[商店事件与战斗金币收益](../idea-inbox/2026-09-07-shop-and-time-based-gold.md)，仍为 Raw Idea / Unqualified，未增加正式素材；当前对齐 EC1-EC4，原 GA1-GA4 也未确认，待联动复审。
 
 使用[共享模板](../../../../game-design-workflow/templates/README.md)，按[项目流程](../README.md)进入本阶段，不复制旧项目文档。
 
