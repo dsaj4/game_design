@@ -3,7 +3,7 @@
 继承仓库根 AGENTS.md 的流程、资格闸门、设计/代码隔离和提交推送要求。
 本目录是工作区根 W，项目路径不得写到仓库根的旧位置。
 
-- 新游戏与上一款游戏无关，所有玩法未知，禁止从旧项目补全。
+- 本项目与上一款游戏无关。当前玩法依据本工作区已确认素材及首轮基线，禁止从旧项目补全。
 - 先读本目录 README.md、CONTEXT.md、game-design-workflow/core-concept.md、decision-log.md 和 research/00-index-and-roadmap/current-questions.md。
 - 素材检索、提案、评估、研究与开发索引仅针对本工作区。
 - 共享模板只使用 ../../game-design-workflow/templates/README.md 清单。
@@ -23,7 +23,7 @@
 
 用户要求“确认。接下来一次性确认其余全局设计问题，我将开始基础数值设计和流派定轨”，来源见[沟通方式更新](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#全局收口沟通方式更新)。本阶段以[全局设计收口确认包](game-design-workflow/idea-inbox/2026-09-07-global-baseline-lock-review.md)集中对齐，替代每轮只展开一个小板块的节奏。
 
-- 已确认 NR1-NR3；总包中新提出的 F01-F15 仍需一次确认或按编号调整，不将用户此轮确认自动扩大。
-- 审查既有素材，集中列出会影响首轮基础数值与流派的剩余全局规则，具体参数与后置扩展明确分开；不再逐项发起全局访谈。
-- 总包确认后转入基础数值与流派定轨。只有实际新内容超出既定范围或相邻规则冲突，才补必要的局部问题。
+- NR1-NR3 与 F01-F15 已分别获用户确认。现行首轮口径见[首轮全局设计基线](game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md)，原总包保留确认来源；本阶段已收口。
+- 首轮全局规则已集中审查。具体参数与后置扩展按基线区分；新参数和流派构思沿素材流程记录，不再逐项发起全局访谈。
+- 当前工作转入基础数值与流派定轨，不再次请求整包确认。只有实际新内容超出既定范围或相邻规则冲突，才补必要的局部问题。
 - 资格闸门、来源追踪、GDD 与代码隔离、Git 提交推送要求继续有效；基线确认不等于体验已验证或核心 Accepted。

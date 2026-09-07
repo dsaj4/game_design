@@ -3,9 +3,9 @@
 日期：2026-09-06
 最后更新：2026-09-07
 Project ID：game-002
-状态：其余整稿 Raw Idea / Unqualified；SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 及 SR1-SR6 已分别局部晋级为 Qualified GDD Material / Hypothesis，WC1-WC5 及 OH1-OH5 已局部晋级，SM1-SM3 已局部晋级，PA1-PA3、ER1-ER3、PS1-PS3 及 GI1-GI3 已局部晋级，奖励方式已由 GR 独立确认，持有原则沿 MQ，EC1-EC4 已独立晋级，当前转入[F01-F15 全局设计收口确认包](2026-09-07-global-baseline-lock-review.md)，实际成长节奏待与商店联动验证。
+状态：其余整稿 Raw Idea / Unqualified；SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 及 SR1-SR6 已分别局部晋级为 Qualified GDD Material / Hypothesis，WC1-WC5 及 OH1-OH5 已局部晋级，SM1-SM3 已局部晋级，PA1-PA3、ER1-ER3、PS1-PS3 及 GI1-GI3 已局部晋级，奖励方式已由 GR 独立确认，持有原则沿 MQ，EC1-EC4 已独立晋级，当前按[首轮全局设计基线](../idea-materials/M-2026-09-07-first-pass-global-design-baseline.md)进入数值与流派阶段，实际成长节奏待与商店联动验证。
 
-本文按共享 idea-template 记录原话、资格与讨论批注，不是正式 Evaluation、Proposal、GDD 或核心采纳。此前 17 份素材保留历史来源；受本次改动影响的条目须重新确认适用性，数量不表示它们可直接组成新版规则。后续分别新增[召唤基础循环素材](../idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)与[省略句和显式主语素材](../idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)及[法术类型与道具触发素材](../idea-materials/M-2026-09-06-spell-types-and-item-triggers.md)及[召唤离场与关联卡失效素材](../idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)及[召唤生命承伤与敌方选取素材](../idea-materials/M-2026-09-06-summon-health-damage-and-enemy-targeting.md)及[召唤关联卡生成与入手素材](../idea-materials/M-2026-09-06-summon-reference-generation-and-hand-entry.md)及[召唤物共存与场上容量素材](../idea-materials/M-2026-09-06-summon-coexistence-and-field-capacity.md)及[召唤词引用与目标锁定素材](../idea-materials/M-2026-09-06-summon-word-references-and-target-locking.md)及[词性分类与卡包适配素材](../idea-materials/M-2026-09-06-word-classes-and-reward-packs.md)及[开局手牌保障与可表达性素材](../idea-materials/M-2026-09-06-opening-hand-guarantees.md)及[整句效果与词义复用素材](../idea-materials/M-2026-09-06-compositional-spells-and-word-meaning.md)及[防护状态定义与生成素材](../idea-materials/M-2026-09-06-armor-identity-generation-and-persistence.md)及[施法效果的来源与修正](../idea-materials/M-2026-09-06-spell-effect-sources-and-modifiers.md)及[周期状态的强化继承](../idea-materials/M-2026-09-07-periodic-state-modifier-inheritance.md)及[全局道具的基础持有与生效](../idea-materials/M-2026-09-07-global-item-ownership-and-passive-effects.md)，后续 [战斗金币与耗时奖励](../idea-materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md)由独立商店金币记录晋级，当前正式素材共 38 份；其他新方向不随之晋级。
+本文按共享 idea-template 记录原话、资格与讨论批注，不是正式 Evaluation、Proposal、GDD 或核心采纳。此前 17 份素材保留历史来源；受本次改动影响的条目须重新确认适用性，数量不表示它们可直接组成新版规则。后续分别新增[召唤基础循环素材](../idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)与[省略句和显式主语素材](../idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)及[法术类型与道具触发素材](../idea-materials/M-2026-09-06-spell-types-and-item-triggers.md)及[召唤离场与关联卡失效素材](../idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)及[召唤生命承伤与敌方选取素材](../idea-materials/M-2026-09-06-summon-health-damage-and-enemy-targeting.md)及[召唤关联卡生成与入手素材](../idea-materials/M-2026-09-06-summon-reference-generation-and-hand-entry.md)及[召唤物共存与场上容量素材](../idea-materials/M-2026-09-06-summon-coexistence-and-field-capacity.md)及[召唤词引用与目标锁定素材](../idea-materials/M-2026-09-06-summon-word-references-and-target-locking.md)及[词性分类与卡包适配素材](../idea-materials/M-2026-09-06-word-classes-and-reward-packs.md)及[开局手牌保障与可表达性素材](../idea-materials/M-2026-09-06-opening-hand-guarantees.md)及[整句效果与词义复用素材](../idea-materials/M-2026-09-06-compositional-spells-and-word-meaning.md)及[防护状态定义与生成素材](../idea-materials/M-2026-09-06-armor-identity-generation-and-persistence.md)及[施法效果的来源与修正](../idea-materials/M-2026-09-06-spell-effect-sources-and-modifiers.md)及[周期状态的强化继承](../idea-materials/M-2026-09-07-periodic-state-modifier-inheritance.md)及[全局道具的基础持有与生效](../idea-materials/M-2026-09-07-global-item-ownership-and-passive-effects.md)，后续 [战斗金币与耗时奖励](../idea-materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md)由独立商店金币记录晋级，当前正式素材共 39 份；其他新方向不随之晋级。
 
 术语更新（2026-09-06）：[PA1-PA3](../idea-materials/M-2026-09-06-armor-identity-generation-and-persistence.md) 已确认基础防护统一称“护甲”，原“获得 护盾”对应现行“获得 护甲”；下方用户原话及历次讨论保留当时用词，历史的“关系待定”不再代表当前缺口。
 
@@ -55,19 +55,19 @@ SG1-SG2 只确认入口和存在关系，不确认临时卡的生成数量、首
 | 原始表达和触发来源是否可追溯？ | 原话及 SG1-SG2 本轮答复保留在上方，前轮素材和候选可定位 | Clear |
 | 素材作用于哪个对象或 GDD 章节？ | 构句、词卡分类、施法类型、召唤与构筑联动 | Clear |
 | 玩家处于什么情境？ | 手中词语不齐时组织短句；召唤后利用对应单位构句；根据道具选择兼容多类型的法术 | Clear |
-| 玩家会做什么、受到什么影响？ | SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 及 SR1-SR6 已分别明确召唤循环、句式、类型、离场、生命承伤、关联卡生成、共存容量及引用目标；WC1-WC5 已明确基础词性及卡包适配，OH1-OH5 已明确开局保障，SM1-SM3 已明确整句与词义复用；PA1-PA3 已明确防护身份与生成；ER1-ER3 已明确执行者效果修正归属与读取；PS1-PS3 已明确周期状态强化继承；GI1-GI3 已明确全局道具的基础持有与生效；商店与道具单件限制已有 MS、MQ 依据，GR 已补齐道具奖励方式，NR 已补齐初始资源，剩余全局建议集中于 F01-F15，具体词义与参数后续填写 | Partial |
+| 玩家会做什么、受到什么影响？ | SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 及 SR1-SR6 已分别明确召唤循环、句式、类型、离场、生命承伤、关联卡生成、共存容量及引用目标；WC1-WC5 已明确基础词性及卡包适配，OH1-OH5 已明确开局保障，SM1-SM3 已明确整句与词义复用；PA1-PA3 已明确防护身份与生成；ER1-ER3 已明确执行者效果修正归属与读取；PS1-PS3 已明确周期状态强化继承；GI1-GI3 已明确全局道具的基础持有与生效；商店与道具单件限制已有 MS、MQ 依据，GR 已补齐道具奖励方式，NR 已补齐初始资源，F01-F15 已整包确认，具体词义与参数进入数值阶段填写 | Partial |
 | 希望产生什么设计价值？ | 提高词汇复用，形成短句与显式主语句的取舍，让流派由组合和道具自然形成 | Clear（意图，未验证） |
 | 与已有规则是什么关系？ | 固定三类、统一三词句及召唤物排除范围与新方向冲突；卡包分布、目标关系、耗时与循环需要复审 | Clear（影响已定位，替代规则待确认） |
-| 最大未知和验证方式？ | 召唤循环、句式、类型、离场、生命承伤、关联卡生成、共存容量及引用目标已确认，WC1-WC5 及 OH1-OH5 已明确词性卡包与起手适配，SM1-SM3 已明确整句效果与词义复用，PA1-PA3 已明确防护状态身份与生成，ER1-ER3 已明确效果修正来源与读取，PS1-PS3 已明确周期状态继承，GI1-GI3 已明确全局道具基础持有与生效，MQ 商品资格与重复限制已独立晋级，MN 商店节点与消费机会已独立晋级，GR 奖励已独立确认，NR 初始资源已独立确认，当前一次对齐 F01-F15，再进入基础数值与流派定轨；按下方对照情境检查规则是否可解释 | Clear（方法，未执行） |
+| 最大未知和验证方式？ | 召唤循环、句式、类型、离场、生命承伤、关联卡生成、共存容量及引用目标已确认，WC1-WC5 及 OH1-OH5 已明确词性卡包与起手适配，SM1-SM3 已明确整句效果与词义复用，PA1-PA3 已明确防护状态身份与生成，ER1-ER3 已明确效果修正来源与读取，PS1-PS3 已明确周期状态继承，GI1-GI3 已明确全局道具基础持有与生效，MQ 商品资格与重复限制已独立晋级，MN 商店节点与消费机会已独立晋级，GR 奖励已独立确认，NR 初始资源已独立确认，F01-F15 已整包确认，当前进入基础数值与流派定轨；按下方对照情境检查规则是否可解释 | Clear（方法，未执行） |
 
 ### 当前缺口
 
-SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 及 SR1-SR6 已分别局部晋级。WC1-WC5 及 OH1-OH5 已独立晋级；SM1-SM3 已独立晋级；PA1-PA3 已独立晋级；ER1-ER3 已独立晋级；PS1-PS3 已独立晋级；GI1-GI3 已独立晋级；奖励方式已由 GR 独立确认，持有原则沿 MQ，实际成长节奏待与[商店事件与战斗金币收益](2026-09-07-shop-and-time-based-gold.md)联动验证；EC1-EC4 已独立晋级，MS1-MS5 已独立晋级，MQ1-MQ4 已独立晋级，MN1-MN4 已独立晋级，GR1-GR4 已独立晋级，NR1-NR3 已独立晋级，当前一次对齐 F01-F15。具体词卡、数值和界面后置，其他词义仍待明确。
+SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 及 SR1-SR6 已分别局部晋级。WC1-WC5 及 OH1-OH5 已独立晋级；SM1-SM3 已独立晋级；PA1-PA3 已独立晋级；ER1-ER3 已独立晋级；PS1-PS3 已独立晋级；GI1-GI3 已独立晋级；奖励方式已由 GR 独立确认，持有原则沿 MQ，实际成长节奏待与[商店事件与战斗金币收益](2026-09-07-shop-and-time-based-gold.md)联动验证；EC1-EC4 已独立晋级，MS1-MS5 已独立晋级，MQ1-MQ4 已独立晋级，MN1-MN4 已独立晋级，GR1-GR4 已独立晋级，NR1-NR3 已独立晋级，F01-F15 已整包确认，当前进入基础数值与流派定轨。具体词卡、数值和界面后置，其他词义仍待明确。
 
 ### 资格结论
 
 - [x] Unqualified：整组替代方案尚未达标，继续留在 inbox。
-- [ ] Ready for Material Review：F01-F15 全局新建议仍待确认；初始资源已由 NR 独立晋级，具体词义与参数进入后续阶段。
+- [ ] Ready for Material Review：F01-F15 已整包确认并独立晋级；其余具体词义、数值与流派构思按后续输入继续资格确认。
 - [x] Promoted（仅局部）：SG1-SG5 已晋级[召唤基础循环素材](../idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md)，FG1-FG5 已晋级[省略句与显式主语素材](../idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)，ST1-ST6 已晋级[法术类型与道具触发素材](../idea-materials/M-2026-09-06-spell-types-and-item-triggers.md)，SL1-SL6 已晋级[召唤离场与关联卡失效素材](../idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)，SH1-SH6 已晋级[召唤生命承伤与敌方选取素材](../idea-materials/M-2026-09-06-summon-health-damage-and-enemy-targeting.md)，SC1-SC6 已晋级[召唤关联卡生成与入手素材](../idea-materials/M-2026-09-06-summon-reference-generation-and-hand-entry.md)，SN1-SN5 已晋级[召唤物共存与场上容量素材](../idea-materials/M-2026-09-06-summon-coexistence-and-field-capacity.md)，SR1-SR6 已晋级[召唤词引用与目标锁定素材](../idea-materials/M-2026-09-06-summon-word-references-and-target-locking.md)，WC1-WC5 已晋级[词性分类与卡包适配素材](../idea-materials/M-2026-09-06-word-classes-and-reward-packs.md)，OH1-OH5 已晋级[开局手牌保障与可表达性素材](../idea-materials/M-2026-09-06-opening-hand-guarantees.md)，SM1-SM3 已晋级[整句效果与词义复用素材](../idea-materials/M-2026-09-06-compositional-spells-and-word-meaning.md)，PA1-PA3 已晋级[防护状态定义与生成素材](../idea-materials/M-2026-09-06-armor-identity-generation-and-persistence.md)，ER1-ER3 已晋级[施法效果的来源与修正](../idea-materials/M-2026-09-06-spell-effect-sources-and-modifiers.md)，PS1-PS3 已晋级[周期状态的强化继承](../idea-materials/M-2026-09-07-periodic-state-modifier-inheritance.md)，GI1-GI3 已晋级[全局道具的基础持有与生效](../idea-materials/M-2026-09-07-global-item-ownership-and-passive-effects.md)，分别为第 18、19、20、21、22、23、24、25、26、27、28、29、30、31、32 份素材；证据 Hypothesis。
 
 已定位的改动方向不再被旧“固定三类不混用”拦回；同时，实际投入成本已有 FG5 的独立确认；基础名词与动词集合由 WC1 独立确认，其他词性、逐词含义及其余召唤细则不因方向明确而自动生效。
@@ -746,7 +746,7 @@ GI3 保留的是道具本身，不把它在上场产生的临时护甲、增益�
 
 ## 当前小板块：全局道具奖励与重复限制
 
-讨论更新（2026-09-07）：商店 EC、MS、MQ、MN 已分别晋级，道具同种单件由 MQ2 确认；原 GA 的奖励方向后经 GR1-GR4 复审并独立晋级[战斗道具奖励与战后结算](../idea-materials/M-2026-09-07-combat-item-rewards-and-settlement.md)。本节保留当时推荐与资格状态作为历史，现行依据见下方 GR 确认记录；当前转到 [F01-F15 全局设计收口确认包](2026-09-07-global-baseline-lock-review.md)。
+讨论更新（2026-09-07）：商店 EC、MS、MQ、MN 已分别晋级，道具同种单件由 MQ2 确认；原 GA 的奖励方向后经 GR1-GR4 复审并独立晋级[战斗道具奖励与战后结算](../idea-materials/M-2026-09-07-combat-item-rewards-and-settlement.md)。本节保留当时推荐与资格状态作为历史，现行依据见下方 GR 确认记录；当前按 [首轮全局设计基线](../idea-materials/M-2026-09-07-first-pass-global-design-baseline.md) 进入数值与流派阶段。
 
 提议日期：2026-09-07。
 状态：历史候选（提出时 Raw Idea / Unqualified）。GA3 的持有原则后由 MQ2 独立确认；奖励机会、候选及拒收后由 GR1-GR4 独立复审确认。以下保留原推荐表，不将原 GA 当作单独 Accepted 决定，也不归入原 GI 确认范围。
@@ -860,7 +860,8 @@ GR4 定义的是机制顺序，不指定界面或额外点击次数。词卡奖�
 - [x] MN1-MN4 已独立晋级[商店节点与消费机会](../idea-materials/M-2026-09-07-shop-nodes-and-spending-opportunities.md)，第 36 份素材。
 - [x] GR1-GR4 已独立晋级[战斗道具奖励与战后结算](../idea-materials/M-2026-09-07-combat-item-rewards-and-settlement.md)，第 37 份素材。
 - [x] NR1-NR3 已独立晋级[新局初始资源](../idea-materials/M-2026-09-07-new-run-starting-resources.md)，第 38 份素材。
-- [ ] 按用户要求一次确认 [F01-F15 全局设计收口确认包](2026-09-07-global-baseline-lock-review.md)。
+- [x] F01-F15 已整包确认并晋级[首轮全局设计基线](../idea-materials/M-2026-09-07-first-pass-global-design-baseline.md)，第 39 份素材。
+- [ ] 按基线交接入口进入基础数值与流派定轨。
 - [x] GR1-GR4 已复审确认 GA 的奖励方向，金币后词卡再道具及新道具不追溯已明确；原 GA 表保留历史。
 - [ ] 补齐其他板块后逐项资格复审，达到门槛再晋级素材。
 - [ ] 完成必要的正式流程后才写入 GDD 或核心构思；本轮没有实现任务。

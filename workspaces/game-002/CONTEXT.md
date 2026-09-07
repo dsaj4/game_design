@@ -2,9 +2,49 @@
 
 本词汇表记录构思澄清中已明确的术语，不代表整份初稿已经晋级或核心玩法已采纳。共享流程名词见[仓库词汇](../../CONTEXT.md)。
 
-2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 和 SR1-SR6 已分别通过资格确认；旧分类、对象及卡包术语保留相应范围，WC1-WC5 已明确名动词性与卡包适配，OH1-OH5 已明确开局保障，SM1-SM3 已明确整句效果与词义复用，PA1-PA3 已明确防护状态与生成，ER1-ER3 已明确效果修正归属与读取，PS1-PS3 于 2026-09-07 明确周期状态的强化继承，GI1-GI3 已明确全局道具的基础持有与生效，道具同种持有上限已于 2026-09-07 由 MQ2 独立补齐，道具奖励方式已由 GR1-GR4 独立补齐，初始资源已由 NR1-NR3 明确，首轮剩余全局建议集中在收口确认包中等待确认。
+2026-09-06：[本轮改动](game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)调整句式与卡牌位置，并引入多法术类型。SG1-SG5、FG1-FG5、ST1-ST6、SL1-SL6、SH1-SH6、SC1-SC6、SN1-SN5 和 SR1-SR6 已分别通过资格确认；旧分类、对象及卡包术语保留相应范围，WC1-WC5 已明确名动词性与卡包适配，OH1-OH5 已明确开局保障，SM1-SM3 已明确整句效果与词义复用，PA1-PA3 已明确防护状态与生成，ER1-ER3 已明确效果修正归属与读取，PS1-PS3 于 2026-09-07 明确周期状态的强化继承，GI1-GI3 已明确全局道具的基础持有与生效，道具同种持有上限已于 2026-09-07 由 MQ2 独立补齐，道具奖励方式已由 GR1-GR4 独立补齐，初始资源已由 NR1-NR3 明确，F01-F15 首轮剩余全局口径已整包确认，当前进入基础数值与流派定轨。
 
 ## Language
+
+**首轮全局设计基线**：
+
+F01-F15 及详细口径组成的、用于首轮基础数值与流派验证的已确认共同规则；补齐旧素材对应的待定范围，后置扩展不作为首批必需路径，不代表体验已验证或核心 Accepted。来源见[首轮基线](game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md)。
+_Avoid_：与永久禁止扩展、完整卡表或已经通过平衡验证混称。
+
+**正战斗刻度与最终耗时**：
+
+首轮共用离散战斗刻度，最终整句耗时向上取整且至少一刻；敌方准备、定时补牌与周期为正间隔。来源同[基线 F02](game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md)。
+_Avoid_：与每张卡必定一刻、现实反应时间或所有同刻效果额外耗时混称。
+
+**同参数修正口径**：
+
+适用固定增减先合计，再乘以一加适用百分比增减合计；非负部分各自不低于零，普通数量最终向下取整，时间按正耗时规则处理，中间不逐件截断。来源同[基线 F03](game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md)。
+_Avoid_：与各道具独立连乘、所有强化适用于所有属性或周期重复计入施加增幅混称。
+
+**固定消耗与按实际量操作**：
+
+固定数量的必需材料在结算检查时不足则整句落空；明确按实际可用量操作的才允许部分执行，相关收益据实际消耗量计算。生成与合法零值读取依词义区分。来源同[基线 F04](game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md)。
+_Avoid_：与启动时预留材料、未支付便取得转换收益或所有零值都算失败混称。
+
+**一层道具响应**：
+
+原行动及既有收尾完成并检查后，战斗继续才按公开固定顺序处理响应，每项后再检查；同次结算衍生效果不即时递归，未来正周期可作为新根事件响应一层。来源同[基线 F07](game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md)。
+_Avoid_：与每个道具每场只触发一次、衍生伤害是一条新法术或战斗结束后继续响应混称。
+
+**道具计数持续范围**：
+
+首轮次数、充能与进度默认每战重置，明确写本局累计才跨战保留；具体条件和次数由道具表填写。来源同[基线 F07](game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md)。
+_Avoid_：与道具本身每战消失或一切道具进度都跨局保留混称。
+
+**稳定循环安全条件**：
+
+普通稳定循环牌数需覆盖最大手牌、施法区及瞬时超限占用后仍为抽弃堆留下至少一张，使用 N ≥ H + S + O + 1 作为保守充分条件；临时关联卡不提供移除余量。来源同[基线 F08](game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md)。
+_Avoid_：与只设任意最小牌数、每次补牌都保证成句或忽略起手 OH 检查混称。
+
+**首轮获取池**：
+
+各渠道共用可获取普通词池及可获取道具池，按各自资格和候选结构在当步合格名称内等概率抽取，首轮无稀有度分层或隐藏适配调权。来源同[基线 F13](game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md)。
+_Avoid_：与名动覆盖卡包中每个词的整包边际概率必相同、全部起始词自动进池或词卡道具混成一个池混称。
 
 **新局初始资源**：
 
