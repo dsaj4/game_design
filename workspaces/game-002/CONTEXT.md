@@ -6,6 +6,21 @@
 
 ## Language
 
+**独立商店节点**：
+
+占一次路线推进的非战斗购物节点，不附带自动回血、免费词卡或战斗收益；交易后继续后续路线，不并入休整的恢复、拿牌分支。来源见[MN1-MN4](game-design-workflow/idea-materials/M-2026-09-07-shop-nodes-and-spending-opportunities.md)。
+_Avoid_：与战后免费附加商店、休整第三选项或无机会成本的成长混称。
+
+**商店位置预知与可选机会**：
+
+选路前知道各分支下一次可达商店的位置，或后续已无商店；具体商品到店才公开。尚未获得购物机会的正常通关路线在终点前至少提供一次可选商店，之前安排能取得金币的战斗；主动绕过不保证补发。来源同[MN 素材](game-design-workflow/idea-materials/M-2026-09-07-shop-nodes-and-spending-opportunities.md)。
+_Avoid_：与强制到店、全图公开、别处不可达商店也算机会或绕过后动态改图混称。
+
+**首次基础购买力目标**：
+
+首次商店前保留固定战斗收入、且仍有合格基础商品时，无需耗时奖金也应能负担一次基础购买的设计目标；以预设收入、间隔、商品池与价格配合，尚未验证。来源同[MN4](game-design-workflow/idea-materials/M-2026-09-07-shop-nodes-and-spending-opportunities.md)。
+_Avoid_：与按当前余额改价、保证买到适配商品、所有商品都买得起或空池必补货混称。
+
 **商店商品资格与类别名额**：
 
 同店普通词卡不重名、道具种类不重复，排除本局同名满三张的词与当前已持有道具；词卡和道具各有预设名额，具体数量后定，不保底名动覆盖或流派适配。某类不足就少提供，其他类不补位，两类空时无商品、可离开且无额外补偿。来源见[MQ1-MQ4](game-design-workflow/idea-materials/M-2026-09-07-merchandise-eligibility-and-item-limits.md)。
