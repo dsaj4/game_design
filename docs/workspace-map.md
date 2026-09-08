@@ -29,3 +29,16 @@ Markdown 链接始终按所在文件解析，不隐式重定向。
 | 分析方法实验 | media-analysis-lab/ |
 
 新建项目只复用结构与方法，项目内容库、决策和排期从空白开始。
+
+## 玩法探索区（Proposed / 尚未建立）
+
+玩法探索区的架构设计见 [玩法探索区项目框架](architecture/game-exploration-framework.md) 和 [ADR-0002](adr/0002-game-exploration-workspaces.md)。该区域尚未建立，不是当前有效的工作区路径。
+
+规划中的两个独立 Project ID：
+
+| Project ID | 用途 | 背景边界 |
+| --- | --- | --- |
+| `game-002-optimization` | 基于 game-002 context pack 探索优化 | 只能通过 Draft Change 请求回写 game-002 |
+| `new-roguelike` | 自由探索肉鸽设计 | 从空白起点开始，不继承 game-002 |
+
+外部媒体分析、评判框架、数值模拟/原型契约和 GDD 标准规划放在探索区 `shared/`。现有 `media-analysis-lab/`、`combat-lab/`、`semantic-card-engine/` 暂保持原位，通过引用或适配器逐步接入。
