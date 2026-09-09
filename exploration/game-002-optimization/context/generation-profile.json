@@ -1,7 +1,7 @@
 {
   "profile_id": "game-002-context-baseline",
-  "profile_version": 1,
-  "status": "Configured",
+  "profile_version": 2,
+  "status": "Configured / Core Design Only",
   "source_project_id": "game-002",
   "destination_project_id": "game-002-optimization",
   "source_root": "workspaces/game-002",
@@ -11,17 +11,15 @@
   "follow_links": false,
   "overwrite_existing_pack": false,
   "sources": [
-    {"path": "README.md", "role": "orientation-only", "required": true},
     {"path": "CONTEXT.md", "role": "terminology-with-historical-scope", "required": true},
     {"path": "game-design-workflow/core-concept.md", "role": "formal-adoption-state", "required": true},
     {"path": "game-design-workflow/decision-log.md", "role": "decision-authority", "required": true},
-    {"path": "research/00-index-and-roadmap/current-questions.md", "role": "questions-and-history", "required": true},
     {"path": "game-design-workflow/idea-materials/README.md", "role": "qualified-material-index", "required": true},
     {"path": "game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md", "role": "qualified-work-baseline-not-accepted", "required": true},
-    {"path": "game-design-workflow/idea-materials/M-2026-09-07-core-numerical-framework-v01.md", "role": "qualified-numerical-baseline-not-balanced", "required": true},
-    {"path": "research/06-prototype-insights/README.md", "role": "experimental-evidence-index-only", "required": true},
-    {"path": "docs/code-development-index.md", "role": "implementation-status-not-design-authority", "required": true}
+    {"path": "game-design-workflow/idea-materials/M-2026-09-07-core-numerical-framework-v01.md", "role": "qualified-numerical-baseline-not-balanced", "required": true}
   ],
+  "scope": "core-design-only",
+  "scope_note": "Extract design concepts, adopted decisions, qualified design baselines, and terminology. Do not load implementation, prototype evidence, current-question planning, or peripheral research indexes.",
   "forbidden_source_segments": ["idea-inbox", "raw-sources", "archive", ".git", ".venv", "node_modules"],
   "external_repositories": "reference-only-no-read",
   "additional_sources_policy": "explicit-file-list-and-new-profile-version",
