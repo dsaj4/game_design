@@ -2,7 +2,30 @@
 
 本文件是 `game-002-optimization` 的单轮探索控制面。它只约束本项目内的研究、候选、模拟、原型和评估记录；不能授权直接修改 game-002。每次自动探索开始前先填写“当前运行”，结束后补齐结果和下一步。
 
-## 当前运行
+## 当前运行：纵向时间背包（2026-09-09 用户新输入）
+
+```text
+project_id: game-002-optimization
+run_id: OPT-20260909-003
+context_pack: baseline-2026-09-09-001
+active_question: Q-20260909-timeline-backpack
+candidate_id: C-timeline-backpack-v01
+autonomy_level: L1-supervised
+status: Active
+review: Needs Human Review
+round_budget: 1 source review, 1 user candidate, 0 simulation runs, 0 prototypes
+max_rounds: 1
+stop_conditions: await the collision-scope decision; do not infer missing rules or promote material
+```
+
+- 依据：用户要求探索“纵向时间轴的大巴扎式管理系统”，并明确不阅读其他探索方向。本轮范围按该明确输入建立，不沿用历史候选的研究预算或推荐。
+- 已完成：读取路由与活动包相关规则；保存原话、背景差异、候选完善与条件算例；记录用户确认 TB1（战前编排、战中自动循环）。
+- 产物：[原始候选](idea-inbox/2026-09-09-timeline-backpack-spells.md)、[验证问题](questions/Q-20260909-timeline-backpack.md)。
+- 消耗：1 轮背景核对、1 份新候选、依次提出 2 次单问题澄清（TB1 已回答，覆盖范围待回答）；模拟/原型执行 0 次。没有外部付费调用。
+- 待定：同刻覆盖损失一次释放还是整条循环。仅损失本次、保持原周期为 agent 推荐，未视为用户确认。
+- 下一步：覆盖范围问题已提出，收到回答后更新候选。设计状态保持 `Raw Idea / Unqualified`。
+
+## 历史运行（本轮不展开其探索候选）
 
 ```yaml
 project_id: game-002-optimization
