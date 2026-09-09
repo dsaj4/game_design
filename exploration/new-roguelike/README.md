@@ -6,6 +6,8 @@ Project ID：`new-roguelike`。状态：`Active / Ready for Raw Exploration`。
 
 先读[本项目约束](AGENTS.md)、[空白背景](context/README.md)和[项目注册表](../registry/project-registry.md)。可以从外部产品、共享研究方法或一个新问题开始，候选先留在原始想法区。
 
+每轮从[运行控制](run-control.md)开始；它记录活动问题、预算、候选版本、停止条件和人工闸门。共享执行顺序见[Agent 运行手册](../agent-runbook.md)。
+
 | 位置 | 用途 |
 | --- | --- |
 | [context](context/README.md) | 本项目自己的已知范围与 Unknown，不装入 game-002 背景 |

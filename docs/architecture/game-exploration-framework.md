@@ -6,7 +6,7 @@
 
 适用范围：仓库根目录下的 `exploration/`，不改变当前 `workspaces/game-002/` 的设计状态。
 
-用户已确认建立最小骨架、两个项目注册表和 game-002 context pack 生成规则，见[WS-004](../workspace-decisions.md)。[探索区入口](../../exploration/README.md)已可用；当前没有背景包实例、自动生成器、统一运行器、已接入适配器或探索 GDD。
+用户已确认建立最小骨架、两个项目注册表和 game-002 context pack 生成规则，见[WS-004](../workspace-decisions.md)。[探索区入口](../../exploration/README.md)已可用；game-002 优化项目已有激活背景包 `baseline-2026-09-09-001`，当前仍没有自动生成器、统一运行器、已接入模拟/原型适配器或探索 GDD。
 
 ## 1. 目标与边界
 
@@ -30,6 +30,7 @@ E:/Project/game/
 ├── exploration/                          玩法探索区（最小骨架已建立）
 │   ├── README.md                         入口、项目注册表、状态和边界
 │   ├── AGENTS.md                         探索区隔离、证据和晋级规则
+│   ├── agent-runbook.md                   受控自主等级、单轮流程和失败回流
 │   ├── registry/
 │   │   ├── project-registry.md            两个探索项目及状态
 │   │   ├── framework-registry.md         评判框架版本与适用范围
@@ -44,6 +45,7 @@ E:/Project/game/
 │   │   └── research-methods/             研究与证据登记方法
 │   ├── game-002-optimization/
 │   │   ├── README.md
+│   │   ├── run-control.md                 当前问题、预算、轮次和人工闸门
 │   │   ├── context/                       版本化背景包，只读来源 + 快照哈希
 │   │   ├── questions/                     优化问题和验证优先级
 │   │   ├── idea-inbox/                    原始想法 / Unqualified
@@ -57,6 +59,7 @@ E:/Project/game/
 │   │   └── draft-changes/                 请求回写 game-002 的拟修改
 │   └── new-roguelike/
 │       ├── README.md
+│       ├── run-control.md                 当前问题、预算、轮次和人工闸门
 │       ├── context/                       空白起点和本项目词汇
 │       ├── questions/
 │       ├── idea-inbox/
@@ -262,8 +265,8 @@ game-002 优化项目读取带哈希和来源清单的 context pack；新探索�
 2. 已完成：登记 `emergent-strategy-game-framework@v0.1`，保留根文件原位，记录其 Proposed 状态和 SHA-256；未登记模板草稿保持原状。
 3. 部分完成：背景包生成规则、v1 来源配置及 new-roguelike 空白 context 已建立。下一步按现有来源范围生成首包，无须重复确认已授权范围；新增跨项目来源仍需明确依据。
 4. 将现有 `media-analysis-lab` 的 Schema、提示词、运行记录映射到 shared media-analysis；先用引用/适配器，验证后再考虑移动。
-5. 定义 simulation/prototype contract 和最小运行清单，先接入一个小型、确定性的实验；旧 `combat-lab` 与 `semantic-card-engine` 只作为 legacy adapter。
-6. 部分完成：questions、idea-inbox、idea-materials、proposals、evaluations、gdd、insights 等目录已建立，由项目 README 导航；从媒体/假设到评估/GDD 的纵向样例尚未执行。
+5. 已完成：定义 simulation/prototype contract、research contract 和 Agent 运行手册；仍需接入一个小型、确定性的实验。旧 `combat-lab` 与 `semantic-card-engine` 只作为 legacy adapter。
+6. 部分完成：questions、idea-inbox、idea-materials、proposals、evaluations、gdd、insights 等目录已建立，由项目 README 和 `run-control.md` 导航；从媒体/假设到评估/GDD 的纵向样例尚未执行。
 7. 通过实际使用发现路径、Schema 或权限问题后，再决定是否归档根级旧实验和创建 `_local/` 临时区。
 
 ## 10. 后续实现选择
