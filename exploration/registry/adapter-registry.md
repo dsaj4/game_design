@@ -4,7 +4,8 @@
 
 | ID | 现有来源 | 登记状态 | 本轮边界 |
 | --- | --- | --- | --- |
-| game-analysis-orchestra | [已安装技能](../../.codex/skills/game-analysis-orchestra/SKILL.md) | Existing Workflow / Explicit Invocation | 后续媒体任务按技能处理；本轮未调用或复制技能 |
+| media-analysis-guide-v1 | [轻量媒体分析说明](../shared/media-analysis/README.md) | Ready / Document Workflow | 默认可按单文件流程执行；借鉴实验室方法，不依赖其脚本或已安装技能，不代表已完成媒体分析实测 |
+| game-analysis-orchestra | [已安装技能](../../.codex/skills/game-analysis-orchestra/SKILL.md) | Existing Workflow / Explicit Invocation | 用户明确调用时按该技能流程处理；轻量说明文档不依赖此技能 |
 | media-analysis-packet | [媒体分析原型](../../media-analysis-lab/README.md) | Reference Only / Not Integrated | 复用素材包、证据、分析稿与质检分层思路；不搬迁历史 runs |
 | legacy-combat | combat-lab/（冻结旧项目） | Parked / Not Integrated | 仅登记方法来源；没有跨项目移植源码、数据或测试 |
 | legacy-semantic-generation | semantic-card-engine/（冻结旧项目） | Parked / Not Integrated | 同上；不能把 embedding 数据当一般缓存清理 |

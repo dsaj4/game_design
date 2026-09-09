@@ -25,7 +25,7 @@
 
 | 模块 | 本轮已建立 | 尚未实现 |
 | --- | --- | --- |
-| [媒体分析](shared/media-analysis/README.md) | 既有技能和素材包工作流入口 | 新适配器与新的分析任务 |
+| [媒体分析](shared/media-analysis/README.md) | 单文件分析流程：素材、核心循环、系统关系、设计启发与自检 | 新的媒体分析任务与可选工具接入 |
 | [设计评判框架](shared/evaluation-frameworks/README.md) | v0.1 候选登记与适用边界 | 量化校准和机器评分器 |
 | [模拟契约](shared/simulation-contracts/README.md) | 输入、输出和证据职责占位 | 可执行 Schema、统一运行器 |
 | [原型契约](shared/prototype-contracts/README.md) | 原型观察与代码仓库边界 | 新可玩原型和验收 |
