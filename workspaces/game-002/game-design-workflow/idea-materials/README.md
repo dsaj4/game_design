@@ -1,6 +1,7 @@
 # game-002 正式素材库
 
 只接收本项目通过资格确认的内容，状态为 Qualified GDD Material；入库不代表核心采纳或完成试玩验证。
+当前规则优先级（2026-09-09）：`Core Concept v0.4 / Stable Design Baseline`、最新 Accepted 决策和[系统稳定基线审查](../draft-changes/D-2026-09-09-core-system-stable-baseline.md)高于本目录中更早的素材原文。早期素材中的战中牌组、手牌、补牌、逐句施法和“本局卡组”是历史澄清或候选系统记录；除非被 v0.4 明确引用，否则不得当作当前首版规则。素材本身仍保留 Hypothesis 证据状态。
 2026-09-07 适用性更新：原有 17 份素材保留历史范围，后续新增召唤循环、基础句式、类型道具、离场失效、生命承伤、关联卡生成、共存容量、召唤词引用、词性卡包、开局保障、整句词义、防护状态、施法效果修正、周期状态强化继承及[全局道具的基础持有与生效](M-2026-09-07-global-item-ownership-and-passive-effects.md)、[战斗金币与耗时奖励](M-2026-09-07-combat-gold-and-efficiency-bonus.md)、[商店货架与交易](M-2026-09-07-shop-shelves-and-transactions.md)、[商品资格与道具持有上限](M-2026-09-07-merchandise-eligibility-and-item-limits.md)、[商店节点与消费机会](M-2026-09-07-shop-nodes-and-spending-opportunities.md)、[战斗道具奖励与战后结算](M-2026-09-07-combat-item-rewards-and-settlement.md)、[新局初始资源](M-2026-09-07-new-run-starting-resources.md)、[首轮全局设计基线](M-2026-09-07-first-pass-global-design-baseline.md)，后续新增[基础数值框架 v0.1](M-2026-09-07-core-numerical-framework-v01.md)，当前共 40 份。SG、FG、ST、SL、SH、SC、SN、SR、WC、OH、SM、PA、ER、PS 及 GI1-GI3 已分别通过资格复审；旧分类与对象范围按各素材顶部说明区分。用户新增[商店事件与战斗金币收益](../idea-inbox/2026-09-07-shop-and-time-based-gold.md)，其中 EC1-EC4、MS1-MS5、MQ1-MQ4、MN1-MN4 已分别通过资格确认，商店基础机制已有四份素材；GR1-GR4 战斗道具奖励也已独立晋级，同种持有原则沿 MQ；NR1-NR3 已独立晋级；F01-F15 已整包确认并独立晋级，当前进入基础数值与流派定轨；现行首轮基线作为后续参数与内容的共同口径。
 
 使用[共享模板](../../../../game-design-workflow/templates/README.md)，按[项目流程](../README.md)进入本阶段，不复制旧项目文档。
