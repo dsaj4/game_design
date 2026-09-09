@@ -1,8 +1,12 @@
 # 玩法探索区项目框架
 
-状态：`Proposed / Architecture Design`  
-日期：2026-09-09  
-适用范围：仓库根目录下的未来 `exploration/`，不改变当前 `workspaces/game-002/` 的设计状态。
+状态：`Accepted / Skeleton Ready`
+
+日期：2026-09-09
+
+适用范围：仓库根目录下的 `exploration/`，不改变当前 `workspaces/game-002/` 的设计状态。
+
+用户已确认建立最小骨架、两个项目注册表和 game-002 context pack 生成规则，见[WS-004](../workspace-decisions.md)。[探索区入口](../../exploration/README.md)已可用；当前没有背景包实例、自动生成器、统一运行器、已接入适配器或探索 GDD。
 
 ## 1. 目标与边界
 
@@ -17,13 +21,13 @@
 
 共享模块提供方法和工具，不提供具体玩法结论。共享模块的任何设计假设都必须标明来源项目和状态，不能因为放在 `shared/` 就成为两个项目共同采用的规则。
 
-## 2. 建议目录
+## 2. 目录与能力边界
 
 ```text
 E:/Project/game/
 ├── workspaces/
 │   └── game-002/                         当前游戏开发与设计工作区（保持现状）
-├── exploration/                          玩法探索区（新建后才成为有效路径）
+├── exploration/                          玩法探索区（最小骨架已建立）
 │   ├── README.md                         入口、项目注册表、状态和边界
 │   ├── AGENTS.md                         探索区隔离、证据和晋级规则
 │   ├── registry/
@@ -42,6 +46,8 @@ E:/Project/game/
 │   │   ├── README.md
 │   │   ├── context/                       版本化背景包，只读来源 + 快照哈希
 │   │   ├── questions/                     优化问题和验证优先级
+│   │   ├── idea-inbox/                    原始想法 / Unqualified
+│   │   ├── idea-materials/                本项目独立资格确认的素材
 │   │   ├── proposals/                     候选优化提案
 │   │   ├── evaluations/                   框架评判和人工评议
 │   │   ├── simulations/                   参数、场景、运行清单和结果索引
@@ -53,6 +59,8 @@ E:/Project/game/
 │       ├── README.md
 │       ├── context/                       空白起点和本项目词汇
 │       ├── questions/
+│       ├── idea-inbox/
+│       ├── idea-materials/
 │       ├── proposals/
 │       ├── evaluations/
 │       ├── simulations/
@@ -66,7 +74,7 @@ E:/Project/game/
 └── semantic-card-engine/                 旧项目冻结实验，迁移前保持原位
 ```
 
-目录结构是边界，不是状态。一个文件只有在注册表登记、声明所属 Project ID、来源、版本和当前状态后，才是探索区的正式产物。`shared/` 只放可复用的方法、Schema、适配器和通用示例，不放某个游戏的候选数值或规则结论。
+目录结构是边界，不是状态。注册表记录项目、来源、框架和适配器，项目记录再声明所属 Project ID、来源、版本和状态；不要求将每个占位文件注册为来源。`shared/` 当前只建立说明入口，Schema/运行器仍待实现，不放某个游戏的候选数值或规则结论。两个项目增加的 idea-inbox/idea-materials 用于落实根资格协议，路径见[探索区规则](../../exploration/AGENTS.md)。
 
 ## 3. 端到端工作流
 
@@ -75,7 +83,10 @@ flowchart LR
   A[外部媒体 / 现有项目背景] --> B[Source Registry]
   B --> C[Analysis Cards]
   C --> D[Questions / Hypotheses]
-  D --> E[Proposal]
+  D --> R[Raw Idea / idea-inbox]
+  R --> Q[资格确认]
+  Q --> S[Qualified Material]
+  S --> E[Proposal]
   E --> F[Rule or Content Spec]
   F --> G[Simulation / Prototype]
   G --> H[Evaluation Framework]
@@ -102,13 +113,13 @@ flowchart LR
 - 现有 `media-analysis-lab/runs/` 的真实输入、截图和人工视觉记录作为历史证据；迁移前不改变路径。
 - BiliSum 只作为可选上游，不把其数据库或客户端实现写入探索区。
 
-输出路径应先进入某个探索项目的 `research/` 或 `insights/`，只有标明来源和推断边界后才可进入 proposal。外部媒体分析不能直接改变 game-002 的素材资格。
+分析输出先进入某个探索项目的 `insights/`，原始新机制写入 `idea-inbox/`，经资格确认进入 `idea-materials/` 后才可成为 proposal 来源。外部媒体分析不能直接改变 game-002 的素材资格。
 
 ### 4.2 游戏设计评判框架
 
 `shared/evaluation-frameworks/` 存放带版本的框架定义、评分维度、适用范围、反例和校准记录。评判结果存放在项目自己的 `evaluations/`，防止一个项目的分数覆盖另一个项目的结论。
 
-当前候选 `emergent_strategy_game_framework_v0.1.md` 建议登记为：
+当前候选 `emergent_strategy_game_framework_v0.1.md` 已按[框架注册表](../../exploration/registry/framework-registry.md)登记为：
 
 | 字段 | 值 |
 | --- | --- |
@@ -157,7 +168,7 @@ candidate-spec.json
 
 ### game-002 优化工作区
 
-建立 `context/baseline-<date>/` 时，从 game-002 选择明确来源生成快照，并保存来源路径、Git commit、文件 SHA-256、生成时间和包含/排除清单。建议初始只包含：项目 README、CONTEXT、当前问题、已确认素材索引、研究观察索引和开发索引摘要；不复制旧项目或未经资格确认的 inbox 内容。
+建立 `context/baseline-YYYY-MM-DD-NNN/` 时，按[生成规则](../../exploration/game-002-optimization/context/pack-generation-rules.md)和[明确来源配置](../../exploration/game-002-optimization/context/generation-profile.json)从固定 Git commit 读取原始字节，记录路径、SHA-256、profile 版本、生成时间和包含/排除清单。v1 明确列出 10 个来源，补入正式核心与决策状态、首轮全局基线与数值框架；不遍历全部素材，不复制 inbox 或旧项目，不跟随链接读取外部实现。当前只建立规则与配置，尚未生成首包。
 
 每次优化必须写明“保留什么 game-002 前提、试图改变什么、影响哪个设计对象、预期体验、验证方式和回写风险”。优化结果先进入本工作区的 proposal/evaluation/GDD；要进入 game-002，必须生成 `draft-changes/`，引用来源和评估，再按 game-002 的用户确认、`core-concept.md`、`decision-log.md` 和提交推送规则执行。
 
@@ -175,6 +186,8 @@ candidate-spec.json
 Raw Source
   -> Analysis Card
   -> Question / Hypothesis
+  -> Raw Idea / idea-inbox
+  -> 资格确认 / Qualified GDD Material
   -> Proposal
   -> Candidate Spec
   -> Simulated / Prototyped
@@ -191,7 +204,9 @@ Raw Source
 | --- | --- | --- |
 | Analysis Card | 来源可追溯，观察与推断分开 | 不能当作本项目事实 |
 | Question/Hypothesis | 对象、玩家影响、未知项和验证方式清楚 | 不能当作设计结论 |
-| Proposal | 玩家动作、价值假设、最小验证和风险清楚 | 不能直接进入 GDD 正文 |
+| Raw Idea | 原始表达、作者与来源可追溯 | 不能直接晋级正式设计链 |
+| Qualified Material | 使用 grill-with-docs 满足根资格字段 | 不等于玩法 Accepted 或体验已验证 |
+| Proposal | 来源为本项目合格素材，玩家动作、价值假设、最小验证和风险清楚 | 不能替代 GDD 素材审查或采纳 |
 | Candidate Spec | 可序列化、可执行或可由人工明确操作 | 不能因可运行而视为好设计 |
 | Simulated/Prototyped | 运行/试玩清单、版本、异常和结果完整 | 不能把单次成功当作平衡结论 |
 | Evaluated | 框架版本、自动证据、人工判断和未测项齐全 | 不能绕过项目决策 |
@@ -243,20 +258,19 @@ game-002 优化项目读取带哈希和来源清单的 context pack；新探索�
 
 ## 9. 建立顺序
 
-1. 注册 `exploration/`、两个 Project ID、权限/隔离规则和状态词汇；不迁移旧目录。
-2. 登记 `emergent-strategy-game-framework@v0.1`，保留现有根文件原位，记录其 Proposed 状态和 SHA-256；把 `overall-system-framework-template.md` 继续标为未登记草稿。
-3. 为 game-002-optimization 生成首个 context pack，并让用户确认包含范围；为 new-roguelike 创建空白 context。
+1. 已完成：注册 `exploration/`、两个 Project ID、权限/隔离规则和状态词汇；不迁移旧目录。
+2. 已完成：登记 `emergent-strategy-game-framework@v0.1`，保留根文件原位，记录其 Proposed 状态和 SHA-256；未登记模板草稿保持原状。
+3. 部分完成：背景包生成规则、v1 来源配置及 new-roguelike 空白 context 已建立。下一步按现有来源范围生成首包，无须重复确认已授权范围；新增跨项目来源仍需明确依据。
 4. 将现有 `media-analysis-lab` 的 Schema、提示词、运行记录映射到 shared media-analysis；先用引用/适配器，验证后再考虑移动。
 5. 定义 simulation/prototype contract 和最小运行清单，先接入一个小型、确定性的实验；旧 `combat-lab` 与 `semantic-card-engine` 只作为 legacy adapter。
-6. 建立各自的 questions、proposals、evaluations、gdd 和 insights 索引，运行一条从媒体/假设到评估/GDD 的纵向样例。
+6. 部分完成：questions、idea-inbox、idea-materials、proposals、evaluations、gdd、insights 等目录已建立，由项目 README 导航；从媒体/假设到评估/GDD 的纵向样例尚未执行。
 7. 通过实际使用发现路径、Schema 或权限问题后，再决定是否归档根级旧实验和创建 `_local/` 临时区。
 
-## 10. 尚待确认的架构问题
+## 10. 后续实现选择
 
-这些问题不会阻止本方案作为 Proposed 设计交付，但建立目录前应确认：
+根目录名和背景生成规则已随本轮确认落地，其余选择留到对应实现任务，不阻止当前骨架使用：
 
-- 玩法探索区正式根名采用 `exploration/`，还是需要更明确的中文/英文名称。
-- game-002 context pack 是每次运行前手动锁定，还是按 game-002 commit 自动生成候选快照。
+- 已确定根名 `exploration/`；game-002 context pack 按显式完整 commit 锁定，默认不跟踪实时变更。生成器是否自动化属于后续实现。
 - 第一版模拟契约是否只支持确定性 Python CLI，还是需要同时支持桌面/表格实验导入。
 - `emergent-strategy-game-framework@v0.1` 的评分表是否另拆为机器可读 YAML/JSON，还是 v0.1 先保持 Markdown 人工评审。
 - 是否将现有 `media-analysis-lab` 最终迁入 `exploration/shared/media-analysis/`；迁移前需修复绝对路径和历史 run 引用。

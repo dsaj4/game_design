@@ -5,7 +5,7 @@
 ## 当前记录
 
 - [ADR-0001：采用分层游戏设计知识加工系统](0001-game-design-knowledge-system.md)
-- [ADR-0002：建立隔离的玩法探索区与双项目工作区](0002-game-exploration-workspaces.md)（Proposed）
+- [ADR-0002：建立隔离的玩法探索区与双项目工作区](0002-game-exploration-workspaces.md)（Accepted；最小骨架与背景包规则已建立）
 
 ## 使用规则
 

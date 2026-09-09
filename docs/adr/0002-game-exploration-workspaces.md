@@ -2,7 +2,9 @@
 
 ## Status
 
-`Proposed`
+`Accepted`，2026-09-09 用户确认，来源见[WS-004](../workspace-decisions.md)。
+
+当前落地范围：[探索区](../../exploration/README.md)最小骨架、两个项目注册表及 game-002 context pack 生成规则。背景包实例、自动生成器、模拟/原型运行器和共享适配器尚未实现；架构采纳不表示这些能力完成。
 
 ## Context
 
@@ -19,7 +21,7 @@
 
 ## Decision
 
-采用文件型模块化单体，在仓库根新增规划中的 `exploration/`，内部划分 `shared/`、`game-002-optimization/` 和 `new-roguelike/`。
+采用文件型模块化单体，在仓库根建立 `exploration/`，内部划分 `shared/`、`game-002-optimization/` 和 `new-roguelike/`。两个探索项目均补齐 idea-inbox 与 idea-materials，按根协议保留资格闸门。
 
 - `workspaces/game-002/` 继续是当前游戏的正式工作区和开发索引，不迁入探索区。
 - `game-002-optimization` 通过带来源、版本、Git commit 和 SHA-256 的 context pack 读取 game-002 背景；探索结果必须经过 Draft Change 才能回写。
@@ -51,7 +53,7 @@
 ### Neutral
 
 - 玩法探索区建立后仍然不是游戏代码仓库；实现继续登记到对应代码仓库和 game-002 开发索引。
-- `emergent_strategy_game_framework_v0.1.md` 当前仍可留在根目录作为用户候选输入，正式注册/迁移另需执行步骤。
+- `emergent_strategy_game_framework_v0.1.md` 保持根目录唯一来源，已在[框架注册表](../../exploration/registry/framework-registry.md)登记为 Proposed 候选，尚未迁移或校准。
 
 ## Alternatives Considered
 

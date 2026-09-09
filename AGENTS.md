@@ -5,6 +5,12 @@
 本仓库现在管理多个独立游戏。先读仓库根 README.md、docs/workspace-map.md 和 docs/github-collaboration.md。
 默认 Project ID 为 `game-002`，工作区根 `W = workspaces/game-002/`。
 
+2026-09-09 已建立[玩法探索区](exploration/README.md)。用户指定 game-002 优化或独立肉鸽探索时，先按[探索项目注册表](exploration/registry/project-registry.md)选择对应根 P，并遵守 exploration/AGENTS.md 的本地路径映射；此时不要套用默认 W 或自动读取 game-002 背景。用户未指定时仍默认 game-002。
+
+- `exploration/game-002-optimization/`：仅按生成规则从 game-002 固定提交构建背景包；正常优化使用已激活包，回写须走目标项目 Draft Change。
+- `exploration/new-roguelike/`：从独立空白背景探索，不继承 game-002、优化项目或归档内容。
+- 探索区的原始想法、合格素材、提案、评估和 GDD 路径按其 AGENTS 映射；资格闸门、来源追踪与 Git 保护继续适用。建区不是玩法采纳，旧冻结代码未恢复。
+
 - game-002 与上一款游戏无关，不是续作、改版或技术迁移；类型、平台、题材、玩法、玩家、数值、技术与排期均不得从旧项目推断。
 - 上一款游戏位于 `archive/2026-09-05-core-card-project/`，状态 Parked / Archived，默认不检索、不修改、不续写。
 - combat-lab/、semantic-card-engine/ 和旧外部实现仓库属于已暂停项目，不是新游戏起点。
