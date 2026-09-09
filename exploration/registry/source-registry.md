@@ -4,10 +4,10 @@
 
 | Source ID | 类型与位置 | 允许使用方 | 当前状态 | 固定版本/摘要 |
 | --- | --- | --- | --- | --- |
-| SRC-G002-CONTEXT-V1 | [game-002 背景来源配置](../game-002-optimization/context/generation-profile.json) | 仅 game-002-optimization 的背景包生成任务 | Configured / Not Generated | 生成时固定 source commit；逐文件摘要尚未生成 |
+| SRC-G002-CONTEXT-V2 | [game-002 核心设计背景包](../game-002-optimization/context/baseline-2026-09-09-001/context-pack.md) | 仅 game-002-optimization 优化任务 | Active / Core Design Only | pack `baseline-2026-09-09-001`；source commit `d0c36b9d464680a484f83b234db081b97124b701`；逐文件摘要见 manifest |
 | SRC-EMERGENT-V01 | 用户提供的涌现式策略框架 | 两个探索项目均可按问题选择 | Registered / Proposed | [框架登记锚点](framework-registry.md) |
 
-当前未登记新的外部媒体、context pack 或跨项目设计引用。媒体分析方法的可用入口在[适配器注册表](adapter-registry.md)，方法入口不能当成已有媒体证据。
+当前未登记新的外部媒体或跨项目设计引用。媒体分析方法的可用入口在[适配器注册表](adapter-registry.md)，方法入口不能当成已有媒体证据。
 
 后续媒体来源至少登记 source ID、URL/本地位置、标题、获取时间、内容摘要、所属项目、引用片段、许可/本地保存边界及观察与推断的区别。抓取失败保留失败状态，不编造正文。
 

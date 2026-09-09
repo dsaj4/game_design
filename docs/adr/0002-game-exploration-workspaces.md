@@ -4,7 +4,7 @@
 
 `Accepted`，2026-09-09 用户确认，来源见[WS-004](../workspace-decisions.md)。
 
-当前落地范围：[探索区](../../exploration/README.md)最小骨架、两个项目注册表及 game-002 context pack 生成规则。背景包实例、自动生成器、模拟/原型运行器和共享适配器尚未实现；架构采纳不表示这些能力完成。
+当前落地范围：[探索区](../../exploration/README.md)最小骨架、两个项目注册表、game-002 context pack 生成规则及首个核心设计背景包。自动生成器、模拟/原型运行器和共享适配器尚未实现；背景包激活不表示玩法采纳。
 
 ## Context
 

@@ -168,7 +168,7 @@ candidate-spec.json
 
 ### game-002 优化工作区
 
-建立 `context/baseline-YYYY-MM-DD-NNN/` 时，按[生成规则](../../exploration/game-002-optimization/context/pack-generation-rules.md)和[明确来源配置](../../exploration/game-002-optimization/context/generation-profile.json)从固定 Git commit 读取原始字节，记录路径、SHA-256、profile 版本、生成时间和包含/排除清单。v1 明确列出 10 个来源，补入正式核心与决策状态、首轮全局基线与数值框架；不遍历全部素材，不复制 inbox 或旧项目，不跟随链接读取外部实现。当前只建立规则与配置，尚未生成首包。
+建立 `context/baseline-YYYY-MM-DD-NNN/` 时，按[生成规则](../../exploration/game-002-optimization/context/pack-generation-rules.md)和[明确来源配置](../../exploration/game-002-optimization/context/generation-profile.json)从固定 Git commit 读取原始字节，记录路径、SHA-256、profile 版本、生成时间和包含/排除清单。v2 以核心设计为范围，列出 6 个来源，补入正式核心与决策状态、首轮全局基线与数值框架；不读取实现、实验计划、inbox 或旧项目，不跟随链接追加读取。首个包为 `baseline-2026-09-09-001`，验证已通过并激活。
 
 每次优化必须写明“保留什么 game-002 前提、试图改变什么、影响哪个设计对象、预期体验、验证方式和回写风险”。优化结果先进入本工作区的 proposal/evaluation/GDD；要进入 game-002，必须生成 `draft-changes/`，引用来源和评估，再按 game-002 的用户确认、`core-concept.md`、`decision-log.md` 和提交推送规则执行。
 

@@ -5,7 +5,7 @@
 | Project ID | 入口 | 状态 | 默认 |
 | --- | --- | --- | --- |
 | game-002 | [新游戏](../workspaces/game-002/README.md) | Active / Numerical Design & Archetype Definition | 是 |
-| game-002-optimization | [优化探索](../exploration/game-002-optimization/README.md) | Skeleton Ready / Awaiting Context Pack | 否 |
+| game-002-optimization | [优化探索](../exploration/game-002-optimization/README.md) | Active / Core Design Context Active | 否 |
 | new-roguelike | [独立肉鸽探索](../exploration/new-roguelike/README.md) | Skeleton Ready / Ready for Raw Exploration | 否 |
 | core-card-project | [上一款游戏](../archive/2026-09-05-core-card-project/README.md) | Parked / Archived | 否 |
 
@@ -45,4 +45,4 @@ Markdown 链接始终按所在文件解析，不隐式重定向。
 | `game-002-optimization` | 基于 game-002 context pack 探索优化 | 只能通过 Draft Change 请求回写 game-002 |
 | `new-roguelike` | 自由探索肉鸽设计 | 从空白起点开始，不继承 game-002 |
 
-外部媒体分析、评判框架、数值模拟/原型契约和 GDD 标准已在探索区 `shared/` 建立入口/占位。当前尚无背景包实例或新实验；[生成规则](../exploration/game-002-optimization/context/pack-generation-rules.md)与明确来源配置已就绪。现有 `media-analysis-lab/`、`combat-lab/`、`semantic-card-engine/` 保持原位，统一适配器未实现。
+外部媒体分析、评判框架、数值模拟/原型契约和 GDD 标准已在探索区 `shared/` 建立入口/占位。game-002 优化区已激活核心设计背景包 `baseline-2026-09-09-001`；尚无新实验。现有 `media-analysis-lab/`、`combat-lab/`、`semantic-card-engine/` 保持原位，统一适配器未实现。

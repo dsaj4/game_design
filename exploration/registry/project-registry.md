@@ -6,7 +6,7 @@
 
 | Project ID | 工作区根 | 用途 | 生命周期 | 背景状态 | 当前背景包 |
 | --- | --- | --- | --- | --- | --- |
-| game-002-optimization | exploration/game-002-optimization/ | 基于 game-002 背景探索优化 | Active / Skeleton Ready | Generation Rules Ready | None；尚未生成 |
+| game-002-optimization | exploration/game-002-optimization/ | 基于 game-002 背景探索优化 | Active / Core Design Context Active | Pack Active | baseline-2026-09-09-001 |
 | new-roguelike | exploration/new-roguelike/ | 独立探索肉鸽设计 | Active / Raw Exploration | Blank Baseline | Not Applicable；不导入 game-002 |
 
 ## 权限与入口
@@ -24,4 +24,4 @@
 
 ## 更新约定
 
-新增项目、改变读写边界和跨项目回写权限属于管理变更，记录来源后同步根工作区地图。背景包激活时更新本表及项目 context 入口，记录 pack ID、source commit 和验证记录；已有包保持不变。不要在骨架阶段填写不存在的包 ID 或伪造运行记录。
+新增项目、改变读写边界和跨项目回写权限属于管理变更，记录来源后同步根工作区地图。背景包激活时更新本表及项目 context 入口，记录 pack ID、source commit 和验证记录；已有包保持不变。当前活动包只提供核心设计背景，不代表玩法 Accepted。

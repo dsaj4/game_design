@@ -1,8 +1,8 @@
 # game-002 优化探索
 
-Project ID：`game-002-optimization`。状态：`Active / Skeleton Ready / Awaiting Context Pack`。
+Project ID：`game-002-optimization`。状态：`Active / Core Design Context Active`。
 
-任务是基于锁定版本的 game-002 背景探索优化。当前仅建立目录和规则，尚未生成背景包，也没有新玩法、提案、评估、实验或 GDD。
+任务是基于锁定版本的 game-002 核心设计背景探索优化。当前活动包为 `baseline-2026-09-09-001`；尚无新玩法、提案、评估、实验或 GDD。
 
 先读[本项目约束](AGENTS.md)、[背景入口](context/README.md)和[项目注册表](../registry/project-registry.md)。本项目不能直接修改 game-002；优化候选在本地独立资格确认，再决定是否提出回写请求。
 

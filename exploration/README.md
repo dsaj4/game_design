@@ -6,7 +6,7 @@
 
 | 工作区 | 用途 | 当前状态 |
 | --- | --- | --- |
-| [game-002 优化](game-002-optimization/README.md) | 读取锁定版本的 game-002 背景，探索优化 | Awaiting Context Pack；生成规则已就绪 |
+| [game-002 优化](game-002-optimization/README.md) | 读取锁定版本的 game-002 背景，探索优化 | Core Design Context Active；baseline-2026-09-09-001 |
 | [独立肉鸽探索](new-roguelike/README.md) | 从本项目空白起点探索可行玩法 | Ready for Raw Exploration |
 
 默认正式工作区仍是 `workspaces/game-002/`。进入探索任务时先明确 Project ID，按[项目注册表](registry/project-registry.md)路由；两个探索项目不得互相扫描或写入。
