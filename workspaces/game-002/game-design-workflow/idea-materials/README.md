@@ -1,10 +1,12 @@
 # game-002 正式素材库
 
 只接收本项目通过资格确认的内容，状态为 Qualified GDD Material；入库不代表核心采纳或完成试玩验证。
-当前规则优先级（2026-09-09）：`Core Concept v0.4 / Stable Design Baseline`、最新 Accepted 决策和[系统稳定基线审查](../draft-changes/D-2026-09-09-core-system-stable-baseline.md)高于本目录中更早的素材原文。早期素材中的战中牌组、手牌、补牌、逐句施法和“本局卡组”是历史澄清或候选系统记录；除非被 v0.4 明确引用，否则不得当作当前首版规则。素材本身仍保留 Hypothesis 证据状态。
+当前规则优先级（2026-09-09）：`Core Concept v0.5 / Stable Design Baseline`、最新 Accepted 决策和[战前构句、循环法术与法杖设置适配](../draft-changes/D-2026-09-09-prebattle-spell-wand-assembly.md)高于本目录中更早的素材原文。早期素材中的战中牌组、手牌、补牌、逐句施法和“本局卡组”是历史澄清或候选系统记录；除非被 v0.5 明确引用，否则不得当作当前首版规则。素材本身仍保留 Hypothesis 证据状态。
 2026-09-07 适用性更新：原有 17 份素材保留历史范围，后续新增召唤循环、基础句式、类型道具、离场失效、生命承伤、关联卡生成、共存容量、召唤词引用、词性卡包、开局保障、整句词义、防护状态、施法效果修正、周期状态强化继承及[全局道具的基础持有与生效](M-2026-09-07-global-item-ownership-and-passive-effects.md)、[战斗金币与耗时奖励](M-2026-09-07-combat-gold-and-efficiency-bonus.md)、[商店货架与交易](M-2026-09-07-shop-shelves-and-transactions.md)、[商品资格与道具持有上限](M-2026-09-07-merchandise-eligibility-and-item-limits.md)、[商店节点与消费机会](M-2026-09-07-shop-nodes-and-spending-opportunities.md)、[战斗道具奖励与战后结算](M-2026-09-07-combat-item-rewards-and-settlement.md)、[新局初始资源](M-2026-09-07-new-run-starting-resources.md)、[首轮全局设计基线](M-2026-09-07-first-pass-global-design-baseline.md)，后续新增[基础数值框架 v0.1](M-2026-09-07-core-numerical-framework-v01.md)，当前共 40 份。SG、FG、ST、SL、SH、SC、SN、SR、WC、OH、SM、PA、ER、PS 及 GI1-GI3 已分别通过资格复审；旧分类与对象范围按各素材顶部说明区分。用户新增[商店事件与战斗金币收益](../idea-inbox/2026-09-07-shop-and-time-based-gold.md)，其中 EC1-EC4、MS1-MS5、MQ1-MQ4、MN1-MN4 已分别通过资格确认，商店基础机制已有四份素材；GR1-GR4 战斗道具奖励也已独立晋级，同种持有原则沿 MQ；NR1-NR3 已独立晋级；F01-F15 已整包确认并独立晋级，当前进入基础数值与流派定轨；现行首轮基线作为后续参数与内容的共同口径。
 
 使用[共享模板](../../../../game-design-workflow/templates/README.md)，按[项目流程](../README.md)进入本阶段，不复制旧项目文档。
+
+2026-09-09 适配更新：FG、SM、ST、ER、PS、SR 等素材中与构句、词义、状态、执行者和法术类型有关的内容，已按战前构句生成循环法术的方式复用；旧战中抽牌、手牌、补牌、逐句施法和投入后弃置只保留为历史来源。GI 全局道具素材转为法杖镶嵌的效果来源，GI 的“无装备槽、持有即全局生效”不覆盖当前法杖绑定和镶嵌框架。
 
 | 日期 | 素材 | 来源 | 证据状态 |
 | --- | --- | --- | --- |
@@ -39,7 +41,7 @@
 | 2026-09-06 | [防护状态的定义与生成](M-2026-09-06-armor-identity-generation-and-persistence.md) | [PA1-PA3 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#防护状态的定义与生成整组确认记录) | Hypothesis；基础防护统一护甲，获得护甲可从零生成，同对象数量累积、无自然到期或自动周期；抵伤、打断与战后清除沿既有规则，具体获得量与上限决策后定 |
 | 2026-09-06 | [施法效果的来源与修正](M-2026-09-06-spell-effect-sources-and-modifiers.md) | [ER1-ER3 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#施法效果的来源与修正整组确认记录) | Hypothesis；采用实际执行者自身适用修正，玩家与单位不自动继承；全局道具按条件适用，整句开始结算时读取源方强度，耗时及材料保留各自规则；周期状态继承已由 [PS1-PS3](M-2026-09-07-periodic-state-modifier-inheritance.md)独立确认，具体词卡与公式后定 |
 | 2026-09-07 | [周期状态的强化继承](M-2026-09-07-periodic-state-modifier-inheritance.md) | [PS1-PS3 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#周期状态的强化继承整组确认记录) | Hypothesis；明确适用的源方数量修正计入新增量再合并，后续来源变化不追溯重算；周期读取当前数量且不重复增幅，目标防护及共享计时照常；状态材料与续期收益待验证，具体词卡和公式后定 |
-| 2026-09-07 | [全局道具的基础持有与生效](M-2026-09-07-global-item-ownership-and-passive-effects.md) | [GI1-GI3 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#全局道具的基础持有与生效整组确认记录) | Hypothesis；道具被动、不参与词卡循环、无需额外装备，战中不主动开关或卸下；本局跨战持有、不自动跨局继承，临时产物仍按原规则清除；获取、重复、初始道具与内部进度待定 |
+| 2026-09-07 | [全局道具的基础持有与生效](M-2026-09-07-global-item-ownership-and-passive-effects.md) | [GI1-GI3 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#全局道具的基础持有与生效整组确认记录) | Hypothesis；作为法杖镶嵌的效果来源保留条件化修正与事件响应方向；旧的全局持有、无需装备和直接生效边界不覆盖当前镶嵌框架 |
 | 2026-09-07 | [战斗金币与耗时奖励](M-2026-09-07-combat-gold-and-efficiency-bonus.md) | [EC1-EC4 整组确认](../idea-inbox/2026-09-07-shop-and-time-based-gold.md#金币获取与计时整组确认记录) | Hypothesis；每节点首次胜利一次基础金币加有界耗时奖金，按实际战斗时间与遭遇预设基准，本局持有不跨局；商店 MS 与道具 GA 未确认，参数和购买力待验证 |
 | 2026-09-07 | [商店货架与交易](M-2026-09-07-shop-shelves-and-transactions.md) | [MS1-MS5 整组确认](../idea-inbox/2026-09-07-shop-and-time-based-gold.md#商店货架与交易整组确认记录) | Hypothesis；公开单卡与道具，固定货架及标价，每条目一份不补货，可连续购买，足额且合格才交易，买词入组，离开保留余额无回访；资格重复已由 MQ 补齐，节点及 GR 奖励方式已有独立确认，具体参数后定 |
 | 2026-09-07 | [商品资格与道具持有上限](M-2026-09-07-merchandise-eligibility-and-item-limits.md) | [MQ1-MQ4 整组确认](../idea-inbox/2026-09-07-shop-and-time-based-gold.md#商品资格与重复限制整组确认记录) | Hypothesis；同店不重名、道具同种单件且按当前持有过滤，两类各有名额、不足少卖不补位或补偿；MN 节点已有独立确认，GR 奖励方式已有独立确认，具体池及价格待定 |

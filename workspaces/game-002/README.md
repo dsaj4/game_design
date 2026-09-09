@@ -5,13 +5,13 @@ Project ID：game-002
 创建日期：2026-09-05
 
 这是全新的独立游戏构思，与上一款游戏无关，不是续作、改版或技术迁移。
-暂定名《言咒》的首轮全局机制已完成收口，当前正式核心为 `Core Concept v0.4 / Stable Design Baseline`，进入基础数值与流派定轨。新核心采用时间背包式循环法术编排和自走棋式自动战斗；玩家在战斗外保留词卡库存，战前构筑法术并设置法杖，战斗中不使用牌组、手牌或补牌。目标玩家、发行平台与实现方式仍未确定。稳定表示当前规则口径已冻结，不代表数值和平衡已验证。
+暂定名《言咒》的首轮全局机制已完成收口，当前正式核心为 `Core Concept v0.5 / Stable Design Baseline`，进入基础数值与流派定轨。新核心采用时间背包式循环法术编排和自走棋式自动战斗；玩家在战斗外保留词卡库存，战前构句、构成法术并设置法杖，战斗中不使用牌组、手牌或补牌。目标玩家、发行平台与实现方式仍未确定。稳定表示当前规则口径已冻结，不代表数值和平衡已验证。
 
-当前有 9 份 inbox 记录和 40 份 Qualified GDD Material。具体清单保留在各目录索引；与 v0.4 冲突的早期战中牌组、手牌、补牌、逐句施法和“本局卡组”内容仅作历史来源，不属于当前首版规则。系统当前以[稳定基线审查](game-design-workflow/draft-changes/D-2026-09-09-core-system-stable-baseline.md)和[项目总控](docs/control-center.md)为统一入口。
+当前有 9 份 inbox 记录和 40 份 Qualified GDD Material。具体清单保留在各目录索引；与 v0.5 冲突的早期战中牌组、手牌、补牌、逐句施法和“本局卡组”内容仅作历史来源，不属于当前首版规则。系统当前以[战前构句、循环法术与法杖设置适配](game-design-workflow/draft-changes/D-2026-09-09-prebattle-spell-wand-assembly.md)、[稳定基线审查](game-design-workflow/draft-changes/D-2026-09-09-core-system-stable-baseline.md)和[项目总控](docs/control-center.md)为统一入口。
 
 ## 开始
 
-当前阶段（2026-09-09）：规则已冻结为 `Core Concept v0.4 / Stable Design Baseline`，正式素材共40份，证据 Hypothesis。旧牌库模拟仍可作为历史实验记录，但不验证当前自走棋规则；下一步是为 v0.4 建立最小自动战斗原型并验证法术周期、范围、覆盖、打断与终止。
+当前阶段（2026-09-09）：规则已冻结为 `Core Concept v0.5 / Stable Design Baseline`，正式素材共40份，证据 Hypothesis。旧牌库模拟仍可作为历史实验记录，但不验证当前自走棋规则；下一步是为 v0.5 建立最小自动战斗原型并验证战前构句、法杖绑定、法术周期、范围、覆盖、打断与终止。
 
 ## 历史确认记录（仅作来源，不是当前规则）
 
