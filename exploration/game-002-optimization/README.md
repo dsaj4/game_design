@@ -27,3 +27,7 @@ Project ID：`game-002-optimization`。状态：`Active / Core Design Context Ac
 | [draft-changes](draft-changes/) | 拟回写 game-002 的差异及依据，不是目标已采纳记录 |
 
 当前管理依据：[WS-004](../../docs/workspace-decisions.md)。没有玩法 Accepted 决定。背景包已激活；下一步按[Agent 运行手册](../agent-runbook.md)选择一个优化问题并开始首轮受控探索，不把背景包激活当作玩法采纳。
+
+## 本轮研究入口
+
+- [纵向时间背包机制相似度研究](insights/2026-09-09-timeline-backpack-similarity-review.md)：已核对 `Moment to Moment`、`Rogue Voltage`、《The Bazaar》、`Order Automatica` 及多个邻近案例。结论为 `Research / Needs Human Review`；`Moment to Moment` 对“离散时间轴上对齐敌我行动”构成高重合风险，尚未发现第二个同构案例。该研究不改变局部合格素材的 `Hypothesis` 状态。

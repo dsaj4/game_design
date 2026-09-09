@@ -13,19 +13,19 @@ candidate_id: C-timeline-backpack-v01
 autonomy_level: L1-supervised
 status: Completed
 review: Needs Human Review
-round_budget: 1 source review, 1 user candidate, 0 simulation runs, 0 prototypes
+  round_budget: 1 source review, 1 user candidate, 0 simulation runs, 0 prototypes
 max_rounds: 1
 stop_conditions: current scoped round complete; defer concrete card effects per user scope SC1
 ```
 
 - 依据：用户要求探索“纵向时间轴的大巴扎式管理系统”，并明确不阅读其他探索方向。本轮范围按该明确输入建立，不沿用历史候选的研究预算或推荐。
-- 已完成：保存原话、背景差异与候选推演；用户逐项确认 TB1（战前编排）、TB2（覆盖）、TB3（普通打断）、TB4（词卡独占），编排部分按资格清单独立晋级。状态效果与数值未晋级，无玩法 Accepted。
+- 已完成：保存原话、背景差异与候选推演；用户逐项确认 TB1（战前编排）、TB2（覆盖）、TB3（普通打断）、TB4（词卡独占），编排部分按资格清单独立晋级；补做一次外部案例检索并形成[机制相似度研究](insights/2026-09-09-timeline-backpack-similarity-review.md)。状态效果与数值未晋级，无玩法 Accepted。
 - 产物：[原始候选](idea-inbox/2026-09-09-timeline-backpack-spells.md)、[局部合格编排素材](idea-materials/M-2026-09-09-timeline-backpack-scheduling.md)、[验证问题](questions/Q-20260909-timeline-backpack.md)。
-- 消耗：1 轮背景核对、1 份新候选、1 份局部合格素材，依次提出的 8 次单问题澄清均已回答（TB1–TB7 与 SC1）；模拟/原型执行 0 次。没有外部付费调用。
+- 消耗：1 轮背景核对、1 份新候选、1 份局部合格素材、1 轮外部来源审查，依次提出的 8 次单问题澄清均已回答（TB1–TB7 与 SC1）；模拟/原型执行 0 次。没有外部付费调用。
 - 当前范围：用户明确“先不涉及具体卡片效果”（SC1），继续时间轴边界、编排容量与战斗节奏。
 - 新确认：TB5 采用有限首次启动窗口、各法术之后独立循环整场；TB6 限制编入战斗的词卡总张数、法术数量自然受其约束；TB7 默认公开敌方整场攻击安排。已增补素材与抽象 A/B 时序表，未设定具体卡片效果。
-- 结果：本轮编排骨架整理完成，TS1–TS8 来自原始输入与 TB1–TB7；状态 `Qualified GDD Material / Hypothesis`。其余候选保持 `Raw Idea / Unqualified`；所有模拟/体验验收均为 `Untested`。
-- 下一步：下一轮用完整公开攻击表和抽象法术验证周期冲突、危险刻规划与空档价值；具体容量/启动窗口参数仍待设计，当前无未回答的已发问题。
+- 结果：本轮编排骨架整理完成，TS1–TS8 来自原始输入与 TB1–TB7；状态 `Qualified GDD Material / Hypothesis`。外部研究发现 `Moment to Moment` 与时间轴对齐核心高度重合，结论为 `Research / Needs Human Review`，未发现第二个同构案例。其余候选保持 `Raw Idea / Unqualified`；所有模拟/体验验收均为 `Untested`。
+- 下一步：下一轮用完整公开攻击表和抽象法术验证周期冲突、危险刻规划与空档价值；并以 `Moment to Moment` 为直接对照，验证词卡组句、独立循环和共享释放槽是否真正改变玩家选择。具体容量/启动窗口参数仍待设计，当前无未回答的已发问题。
 
 ## 历史运行（本轮不展开其探索候选）
 
