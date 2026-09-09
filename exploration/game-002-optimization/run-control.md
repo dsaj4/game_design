@@ -15,15 +15,15 @@ status: Active
 review: Needs Human Review
 round_budget: 1 source review, 1 user candidate, 0 simulation runs, 0 prototypes
 max_rounds: 1
-stop_conditions: await the collision-scope decision; do not infer missing rules or promote material
+stop_conditions: await the fire-enhancement target decision; do not infer remaining raw rules or adopt gameplay
 ```
 
 - 依据：用户要求探索“纵向时间轴的大巴扎式管理系统”，并明确不阅读其他探索方向。本轮范围按该明确输入建立，不沿用历史候选的研究预算或推荐。
-- 已完成：读取路由与活动包相关规则；保存原话、背景差异、候选完善与条件算例；记录用户确认 TB1（战前编排、战中自动循环）。
-- 产物：[原始候选](idea-inbox/2026-09-09-timeline-backpack-spells.md)、[验证问题](questions/Q-20260909-timeline-backpack.md)。
-- 消耗：1 轮背景核对、1 份新候选、依次提出 2 次单问题澄清（TB1 已回答，覆盖范围待回答）；模拟/原型执行 0 次。没有外部付费调用。
-- 待定：同刻覆盖损失一次释放还是整条循环。仅损失本次、保持原周期为 agent 推荐，未视为用户确认。
-- 下一步：覆盖范围问题已提出，收到回答后更新候选。设计状态保持 `Raw Idea / Unqualified`。
+- 已完成：保存原话、背景差异与候选推演；用户逐项确认 TB1（战前编排）、TB2（覆盖）、TB3（普通打断）、TB4（词卡独占），编排部分按资格清单独立晋级。状态效果与数值未晋级，无玩法 Accepted。
+- 产物：[原始候选](idea-inbox/2026-09-09-timeline-backpack-spells.md)、[局部合格编排素材](idea-materials/M-2026-09-09-timeline-backpack-scheduling.md)、[验证问题](questions/Q-20260909-timeline-backpack.md)。
+- 消耗：1 轮背景核对、1 份新候选、1 份局部合格素材，依次提出 5 次单问题澄清（TB1–TB4 已回答，强化对象待回答）；模拟/原型执行 0 次。没有外部付费调用。
+- 待定：强化火焰增强现有燃烧、未来产火强度还是下一次燃烧伤害；现有燃烧层数翻倍为 agent 推荐，未视为用户确认。
+- 下一步：强化对象问题已提出，收到回答后更新原始候选；编排素材保持 `Qualified GDD Material / Hypothesis`，其余内容保持 `Raw Idea / Unqualified`。
 
 ## 历史运行（本轮不展开其探索候选）
 
