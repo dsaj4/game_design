@@ -9,14 +9,14 @@ project_id: game-002-optimization
 autonomy_level: L1-supervised
 active_context_pack: baseline-2026-09-09-001
 active_question: Q-20260909-001
-current_candidate: H-20260909-001@v1
-round: 1
+current_candidate: H-20260909-002@v1
+round: 2
 round_budget: 1 research pass, 1 candidate, 1 desk-simulation plan; no executable runner
-max_rounds: 1
+max_rounds: 2
 status: Completed
 review: Needs Human Review
-last_artifact: insights/2026-09-09-casting-system-distinctive-directions-analysis.md
-next_action: 资格确认 Raw Idea，或选择其他施法方向进入下一轮
+last_artifact: insights/2026-09-09-roguelike-mode-fit-analysis.md
+next_action: 先用 grill-with-docs 确认奖励第一优先级，再决定是否晋级 Raw Idea 或执行 OPT-20260909-002
 ```
 
 `active_context_pack` 只能填写 `context/README.md` 中登记为 Active 的版本。当前问题和候选仅属于本轮探索记录，不是 game-002 已采纳方向。

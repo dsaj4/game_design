@@ -2,7 +2,7 @@
 
 Project ID：`game-002-optimization`。状态：`Active / Core Design Context Active`。
 
-任务是基于锁定版本的 game-002 核心设计背景探索优化。当前活动包为 `baseline-2026-09-09-001`；已有一份 `Raw Idea / Unqualified` 施法优化候选，尚无合格素材、正式提案、评估或 GDD。
+任务是基于锁定版本的 game-002 核心设计背景探索优化。当前活动包为 `baseline-2026-09-09-001`；已有两份 `Raw Idea / Unqualified` 候选（战场编译器、法术远征肉鸽），尚无合格素材、正式提案、评估或 GDD。最近一轮匹配研究推荐先验证“公开敌意的法术远征 + 时间承诺战斗 + 词卡流派构筑”。
 
 先读[本项目约束](AGENTS.md)、[背景入口](context/README.md)和[项目注册表](../registry/project-registry.md)。本项目不能直接修改 game-002；优化候选在本地独立资格确认，再决定是否提出回写请求。
 
