@@ -8,18 +8,18 @@
 project_id: game-002-optimization
 autonomy_level: L1-supervised
 active_context_pack: baseline-2026-09-09-001
-active_question: Unknown
-current_candidate: None
-round: 0
-round_budget: Unknown
-max_rounds: Unknown
-status: Ready
-review: Awaiting Question
-last_artifact: None
-next_action: 等待用户指定一个优化问题
+active_question: Q-20260909-001
+current_candidate: H-20260909-001@v1
+round: 1
+round_budget: 1 research pass, 1 candidate, 1 desk-simulation plan; no executable runner
+max_rounds: 1
+status: Completed
+review: Needs Human Review
+last_artifact: insights/2026-09-09-casting-system-distinctive-directions-analysis.md
+next_action: 资格确认 Raw Idea，或选择其他施法方向进入下一轮
 ```
 
-`active_context_pack` 只能填写 `context/README.md` 中登记为 Active 的版本。没有明确问题时，不得自行把优化方向写成既定目标。
+`active_context_pack` 只能填写 `context/README.md` 中登记为 Active 的版本。当前问题和候选仅属于本轮探索记录，不是 game-002 已采纳方向。
 
 ## 自动权限
 
