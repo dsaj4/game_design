@@ -2,7 +2,32 @@
 
 本文件是 `game-002-optimization` 的单轮探索控制面。它只约束本项目内的研究、候选、模拟、原型和评估记录；不能授权直接修改 game-002。每次自动探索开始前先填写“当前运行”，结束后补齐结果和下一步。
 
-## 当前运行：纵向时间背包（2026-09-09 用户新输入）
+## 当前运行：底层设计上的增趣机制（2026-09-10）
+
+```yaml
+project_id: game-002-optimization
+run_id: OPT-20260910-001
+context_pack: baseline-2026-09-09-001
+active_question: Q-20260910-timeline-mechanism-depth
+candidate_ids: [C-enemy-phase-windows-v01, C-limited-cycle-tuning-v01, C-postbattle-reconfiguration-v01, C-idle-reserve-v01]
+autonomy_level: L1-supervised
+status: Completed
+review: Needs Human Review
+round_budget: 1 local design review; at most 4 raw candidates; 0 external calls; 0 simulation runs; 0 prototypes
+max_rounds: 1
+stop_conditions: deliver scoped recommendations and raw records; stop before qualification or formal design promotion
+```
+
+- 授权依据：用户于 2026-09-10 要求进入 game-002 的 exploration，不阅读其他探索方向，并探索已有底层设计上增加什么机制能更好玩。本轮只执行这项请求内的一次本地分析与原始候选整理。
+- 活动设计：沿用本地时间背包素材 TS1–TS8 与 SC1（先不涉及具体卡片效果），不继承其他候选的研究结论。活动背景包之外仅核对本候选 inbox、合格素材和验证问题。
+- 状态边界：本地编排素材使用记录已记载 2026-09-09 合入 game-002 Core Concept v0.2 的历史。本轮不读取目标项目实时正文，不把较早背景包的“无 Accepted”描述当作实时状态，也不把已有采纳扩大到新增机制。
+- 产物：[增趣机制原始记录](idea-inbox/2026-09-10-timeline-mechanism-depth.md)、[本轮问题](questions/Q-20260910-timeline-mechanism-depth.md)、项目 README 导航。
+- 已完成：一次本地背景核对，整理四项 `Agent Proposal / Raw Idea / Unqualified` 候选，标明保留规则、增量代价、未知项及最小对照建议。建议先改变公开敌方攻击节奏，再单独探索有限调速；这不是用户选定或正式评估结论。
+- 实际消耗：1 轮本地分析、4 项候选（合并为 1 份 inbox）、1 份问题；外部调用、模拟、原型、真人测试均为 0。未新增合格素材、Proposal、Evaluation、GDD 或 Draft Change。
+- 结果与边界：本轮建议整理完成；乐趣与收益结论保持 `Unknown / Untested`。达到一轮候选预算后结束，没有启动后续实验。
+- 下一步单一澄清：用户希望玩家在战前编排时，最有成就感的那个瞬间是什么？推荐先增强看懂敌方时间表、调整后让关键释放如期成功的体验；候选选择和关键规则留待后续逐项确认。
+
+## 历史运行：纵向时间背包（2026-09-09 用户新输入）
 
 ```text
 project_id: game-002-optimization

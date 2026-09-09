@@ -8,6 +8,10 @@ Project ID：`game-002-optimization`。状态：`Active / Core Design Context Ac
 
 本轮后续范围按 SC1 调整：用户要求先不涉及具体卡片效果。TB5 已补齐有限首次启动窗口与各法术独立循环整场的关系；TB6 已确认以编入战斗的词卡总张数限制容量，法术数量自然受其约束；TB7 已确认默认公开敌方整场攻击安排。本轮七项机制决定与一项范围调整已记录，下一轮建议用抽象法术验证周期冲突与危险刻规划。
 
+2026-09-10 用户要求在已有底层上探索“增加其他机制让其更好玩”。本轮沿用时间背包 TS1–TS8 和 SC1，新增一份[增趣机制原始记录](idea-inbox/2026-09-10-timeline-mechanism-depth.md)，包含敌方阶段窗口、有限调速、战后重组、空档蓄能四项 `Agent Proposal / Raw Idea / Unqualified` 候选；推荐先从公开敌方节奏的变化开始，再单独探索有限调速。现有四份 inbox 文件，不读取其他探索方向。当前单一澄清点是优先增强哪种编排成就感，见[本轮问题](questions/Q-20260910-timeline-mechanism-depth.md)。本轮没有新增合格素材或执行验证。
+
+状态说明：本地编排素材使用记录已记载 2026-09-09 合入 game-002 Core Concept v0.2；早期背景包和历史介绍的“无玩法 Accepted”不代表目标项目实时状态。本轮新增机制均未采纳，也未读取或修改目标项目正文。
+
 先读[本项目约束](AGENTS.md)、[背景入口](context/README.md)和[项目注册表](../registry/project-registry.md)。本项目不能直接修改 game-002；优化候选在本地独立资格确认，再决定是否提出回写请求。
 
 每轮从[运行控制](run-control.md)开始；它记录活动问题、预算、候选版本、停止条件和人工闸门。共享执行顺序见[Agent 运行手册](../agent-runbook.md)。
