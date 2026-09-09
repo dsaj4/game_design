@@ -6,6 +6,8 @@ Project ID：`game-002-optimization`。状态：`Active / Core Design Context Ac
 
 2026-09-09 用户另行提出[纵向时间背包与循环法术](idea-inbox/2026-09-09-timeline-backpack-spells.md)，当前讨论切换至该候选 `C-timeline-backpack-v01`；连同上述历史候选，现有三份 inbox 记录。本轮仅对照活动背景包，不读取其他探索方向正文。TB1–TB4 已独立晋级[战前编排与循环调度](idea-materials/M-2026-09-09-timeline-backpack-scheduling.md)，状态 `Qualified GDD Material / Hypothesis`：战前编排、战中自动循环、实体词卡独占、同刻覆盖和命中打断只损失本次释放且周期不变。其他状态效果与改进建议保持 `Raw Idea / Unqualified`，后续问题见[验证问题](questions/Q-20260909-timeline-backpack.md)。尚无本候选的正式提案、评估、GDD 或实际验证。上段研究推荐保留为历史上下文，不作为本轮选择依据。
 
+本轮后续范围按 SC1 调整：用户要求先不涉及具体卡片效果。TB5 已补齐有限首次启动窗口与各法术独立循环整场的关系；TB6 已确认以编入战斗的词卡总张数限制容量，法术数量自然受其约束，两项均已增补入编排素材。本轮六项机制决定与一项范围调整已记录，下一轮建议明确战前敌方信息范围。
+
 先读[本项目约束](AGENTS.md)、[背景入口](context/README.md)和[项目注册表](../registry/project-registry.md)。本项目不能直接修改 game-002；优化候选在本地独立资格确认，再决定是否提出回写请求。
 
 每轮从[运行控制](run-control.md)开始；它记录活动问题、预算、候选版本、停止条件和人工闸门。共享执行顺序见[Agent 运行手册](../agent-runbook.md)。

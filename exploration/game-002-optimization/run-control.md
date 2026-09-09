@@ -11,19 +11,21 @@ context_pack: baseline-2026-09-09-001
 active_question: Q-20260909-timeline-backpack
 candidate_id: C-timeline-backpack-v01
 autonomy_level: L1-supervised
-status: Active
+status: Completed
 review: Needs Human Review
 round_budget: 1 source review, 1 user candidate, 0 simulation runs, 0 prototypes
 max_rounds: 1
-stop_conditions: await the fire-enhancement target decision; do not infer remaining raw rules or adopt gameplay
+stop_conditions: current scoped round complete; defer concrete card effects per user scope SC1
 ```
 
 - 依据：用户要求探索“纵向时间轴的大巴扎式管理系统”，并明确不阅读其他探索方向。本轮范围按该明确输入建立，不沿用历史候选的研究预算或推荐。
 - 已完成：保存原话、背景差异与候选推演；用户逐项确认 TB1（战前编排）、TB2（覆盖）、TB3（普通打断）、TB4（词卡独占），编排部分按资格清单独立晋级。状态效果与数值未晋级，无玩法 Accepted。
 - 产物：[原始候选](idea-inbox/2026-09-09-timeline-backpack-spells.md)、[局部合格编排素材](idea-materials/M-2026-09-09-timeline-backpack-scheduling.md)、[验证问题](questions/Q-20260909-timeline-backpack.md)。
-- 消耗：1 轮背景核对、1 份新候选、1 份局部合格素材，依次提出 5 次单问题澄清（TB1–TB4 已回答，强化对象待回答）；模拟/原型执行 0 次。没有外部付费调用。
-- 待定：强化火焰增强现有燃烧、未来产火强度还是下一次燃烧伤害；现有燃烧层数翻倍为 agent 推荐，未视为用户确认。
-- 下一步：强化对象问题已提出，收到回答后更新原始候选；编排素材保持 `Qualified GDD Material / Hypothesis`，其余内容保持 `Raw Idea / Unqualified`。
+- 消耗：1 轮背景核对、1 份新候选、1 份局部合格素材，依次提出的 7 次单问题澄清均已回答（TB1–TB6 与 SC1）；模拟/原型执行 0 次。没有外部付费调用。
+- 当前范围：用户明确“先不涉及具体卡片效果”（SC1），继续时间轴边界、编排容量与战斗节奏。
+- 新确认：TB5 采用有限首次启动窗口、各法术之后独立循环整场；TB6 限制编入战斗的词卡总张数、法术数量自然受其约束。已增补素材与抽象 A/B 时序表，未设定具体卡片效果。
+- 结果：本轮编排骨架整理完成，TS1–TS7 来自原始输入与 TB1–TB6；状态 `Qualified GDD Material / Hypothesis`。其余候选保持 `Raw Idea / Unqualified`；所有模拟/体验验收均为 `Untested`。
+- 下一步：下一轮建议确认战前敌方信息范围，再选择容量/启动窗口参数进行抽象调度验证；该问题尚未发问，当前无未回答的已发问题。
 
 ## 历史运行（本轮不展开其探索候选）
 
