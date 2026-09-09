@@ -124,3 +124,4 @@
 | 日期 | GDD/Proposal | 章节/版本 | 处理结果 | 备注 |
 | --- | --- | --- | --- | --- |
 | 2026-09-09 | 无 | 无 | 尚未引用 | 仅完成局部素材资格确认；无正式提案、评估或 GDD |
+| 2026-09-09 | game-002 `Core Concept v0.2` | 时间背包式循环编排 | Included | 用户明确要求合并；通过 game-002 Draft Change `D-2026-09-09-timeline-backpack-core.md` 写入正式核心。具体效果、参数和体验仍为 Hypothesis |

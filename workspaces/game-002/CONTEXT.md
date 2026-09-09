@@ -6,6 +6,24 @@
 
 ## Language
 
+**时间背包**：
+
+每场战斗前把有限实体词卡分配给多条循环法术，并把首次启动时刻放入有限窗口；启动后各法术按自身周期运行，释放机会按每刻一个的共享槽竞争。它是核心构思 v0.2 的编排机制，具体容量和时间参数仍待验证。
+来源见[时间背包循环调度素材](../../exploration/game-002-optimization/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md)与[核心构思](game-design-workflow/core-concept.md)。
+_Avoid_：与战中逐句施法、一次性时间轴卡片或单纯增加冷却数值混称。
+
+**循环法术**：
+
+由实体词卡组装、在首次启动后按自身冷却与释放周期重复尝试的法术。基础模式中不提供战中通用重排；被同刻覆盖或普通敌方命中打断只损失本次释放，后续周期保持。具体效果和特殊法术范围后置。
+来源同[时间背包循环调度素材](../../exploration/game-002-optimization/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md)。
+_Avoid_：与每张词卡独立施放、被打断后自动顺延周期或同刻冲突删除整条法术混称。
+
+**共享释放槽**：
+
+纵向战斗时间轴上每刻最多成功释放一个循环法术。同刻冲突时，后加入的法术覆盖先加入者，只取消被覆盖的本次释放，不改变被覆盖法术的后续周期。
+来源同[时间背包循环调度素材](../../exploration/game-002-optimization/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md)。
+_Avoid_：与所有法术共用一个准备过程、被覆盖法术永久失效或只按首次启动判断冲突混称。
+
 **首轮全局设计基线**：
 
 F01-F15 及详细口径组成的、用于首轮基础数值与流派验证的已确认共同规则；补齐旧素材对应的待定范围，后置扩展不作为首批必需路径，不代表体验已验证或核心 Accepted。来源见[首轮基线](game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md)。
