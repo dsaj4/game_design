@@ -24,8 +24,8 @@ stop_conditions: current scoped round complete; defer concrete card effects per 
 - 消耗：1 轮背景核对、1 份新候选、1 份局部合格素材、1 轮外部来源审查，依次提出的 8 次单问题澄清均已回答（TB1–TB7 与 SC1）；模拟/原型执行 0 次。没有外部付费调用。
 - 当前范围：用户明确“先不涉及具体卡片效果”（SC1），继续时间轴边界、编排容量与战斗节奏。
 - 新确认：TB5 采用有限首次启动窗口、各法术之后独立循环整场；TB6 限制编入战斗的词卡总张数、法术数量自然受其约束；TB7 默认公开敌方整场攻击安排。已增补素材与抽象 A/B 时序表，未设定具体卡片效果。
-- 结果：本轮编排骨架整理完成，TS1–TS8 来自原始输入与 TB1–TB7；状态 `Qualified GDD Material / Hypothesis`。外部研究发现 `Moment to Moment` 与时间轴对齐核心高度重合，结论为 `Research / Needs Human Review`，未发现第二个同构案例。其余候选保持 `Raw Idea / Unqualified`；所有模拟/体验验收均为 `Untested`。
-- 下一步：下一轮用完整公开攻击表和抽象法术验证周期冲突、危险刻规划与空档价值；并以 `Moment to Moment` 为直接对照，验证词卡组句、独立循环和共享释放槽是否真正改变玩家选择。具体容量/启动窗口参数仍待设计，当前无未回答的已发问题。
+- 结果：本轮编排骨架整理完成，TS1–TS8 来自原始输入与 TB1–TB7；状态 `Qualified GDD Material / Hypothesis`。用户确认 `Moment to Moment` 已放弃开发，仅作为历史检索证据保留，不纳入当前重复风险；外部研究的整体相似度总结为低，状态为 `Research / Needs Human Review`。其余候选保持 `Raw Idea / Unqualified`；所有模拟/体验验收均为 `Untested`。
+- 下一步：下一轮用完整公开攻击表和抽象法术验证周期冲突、危险刻规划、空档价值，以及词卡组句是否真正改变构筑选择。具体容量/启动窗口参数仍待设计，当前无未回答的已发问题。
 
 ## 历史运行（本轮不展开其探索候选）
 

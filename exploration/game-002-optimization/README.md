@@ -30,4 +30,4 @@ Project ID：`game-002-optimization`。状态：`Active / Core Design Context Ac
 
 ## 本轮研究入口
 
-- [纵向时间背包机制相似度研究](insights/2026-09-09-timeline-backpack-similarity-review.md)：已核对 `Moment to Moment`、`Rogue Voltage`、《The Bazaar》、`Order Automatica` 及多个邻近案例。结论为 `Research / Needs Human Review`；`Moment to Moment` 对“离散时间轴上对齐敌我行动”构成高重合风险，尚未发现第二个同构案例。该研究不改变局部合格素材的 `Hypothesis` 状态。
+- [纵向时间背包机制相似度研究](insights/2026-09-09-timeline-backpack-similarity-review.md)：已核对 `Moment to Moment`、`Rogue Voltage`、《The Bazaar》、`Order Automatica` 及多个邻近案例。整体相似度总结为低；`Moment to Moment` 已放弃开发，仅作为历史高重合案例保留，不纳入当前重复风险。该研究不改变局部合格素材的 `Hypothesis` 状态。
