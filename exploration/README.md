@@ -27,9 +27,9 @@
 | --- | --- | --- |
 | [媒体分析](shared/media-analysis/README.md) | 单文件分析流程：素材、核心循环、系统关系、设计启发与自检 | 新的媒体分析任务与可选工具接入 |
 | [设计评判框架](shared/evaluation-frameworks/README.md) | v0.1 五层设计链、有效策略与可理解涌现评估 | 量化校准和机器评分器 |
-| [模拟契约](shared/simulation-contracts/README.md) | 输入、输出和证据职责占位 | 可执行 Schema、统一运行器 |
-| [原型契约](shared/prototype-contracts/README.md) | 原型观察与代码仓库边界 | 新可玩原型和验收 |
+| [模拟契约](shared/simulation-contracts/README.md) | 输入、运行清单、原始结果、汇总和失败状态的文件契约 | 可执行 Schema、统一运行器 |
+| [原型契约](shared/prototype-contracts/README.md) | 原型范围、试玩 session、规则/体验验收和代码仓库边界 | 新可玩原型和自动验收器 |
 | [GDD 标准](shared/gdd-standards/README.md) | 共享正式模板入口和资格要求 | 探索 GDD 正文 |
-| [研究方法](shared/research-methods/README.md) | 观察、假设、证据和结论的区分 | 新研究结论 |
+| [研究方法](shared/research-methods/README.md) | 问题、来源卡、证据、研究报告和假设的文件契约 | 新研究结论 |
 
 各项目以 `idea-inbox -> 资格确认 -> idea-materials -> proposals/GDD -> evaluations` 推进。候选试验可保留 Experimental 状态，不能借模拟通过跳过资格确认或用户采纳。

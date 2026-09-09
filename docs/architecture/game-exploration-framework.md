@@ -74,7 +74,7 @@ E:/Project/game/
 └── semantic-card-engine/                 旧项目冻结实验，迁移前保持原位
 ```
 
-目录结构是边界，不是状态。注册表记录项目、来源、框架和适配器，项目记录再声明所属 Project ID、来源、版本和状态；不要求将每个占位文件注册为来源。`shared/` 当前只建立说明入口，Schema/运行器仍待实现，不放某个游戏的候选数值或规则结论。两个项目增加的 idea-inbox/idea-materials 用于落实根资格协议，路径见[探索区规则](../../exploration/AGENTS.md)。
+目录结构是边界，不是状态。注册表记录项目、来源、框架和适配器，项目记录再声明所属 Project ID、来源、版本和状态；不要求将每个契约文件注册为来源。`shared/` 当前已建立可执行前的文件契约说明，机器可读 Schema/运行器仍待实现，不放某个游戏的候选数值或规则结论。两个项目增加的 idea-inbox/idea-materials 用于落实根资格协议，路径见[探索区规则](../../exploration/AGENTS.md)。
 
 ## 3. 端到端工作流
 
