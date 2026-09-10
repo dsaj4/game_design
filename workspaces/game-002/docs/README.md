@@ -5,6 +5,7 @@
 - [文档审查与验收](design-alignment-audit.md)：逐文件覆盖、快照与一致性。
 - [数值重设计](numerical-redesign.md)：已确认范围、Unknown参数与验证顺序。
 - [语义世界规则交付](semantic-world-rules-adoption.md)：32项采纳、文件清单与规则走查。
+- [语义世界内容草案](semantic-world-content-index.md)：32类对象、18类能力、55个词条与40项纸面案例，新增建议仍待局部资格确认。
 - [开发索引](code-development-index.md)：实现状态与证据。
 
 共享协议见[仓库规则](../../../AGENTS.md)，本地约束见[工作区规则](../AGENTS.md)。

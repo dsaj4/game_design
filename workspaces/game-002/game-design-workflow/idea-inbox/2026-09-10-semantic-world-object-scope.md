@@ -1,6 +1,6 @@
 # 语义战斗世界与法术可操作对象范围
 
-状态：SW01范围、SW02引用模型、SW02-A单次名单 Promoted / Accepted；R01–R32随后全部采纳，见[用户确认与来源总表](2026-09-10-semantic-world-remaining-decisions.md)；具体对象、词卡和参数尚待设计。Project ID：game-002。日期：2026-09-10。
+状态：SW01范围、SW02引用模型、SW02-A单次名单 Promoted / Accepted；R01–R32随后全部采纳，见[用户确认与来源总表](2026-09-10-semantic-world-remaining-decisions.md)；[首批具体对象与词卡草案](../../docs/semantic-world-content-index.md)已完成，新增条目尚未晋级，参数仍Unknown。Project ID：game-002。日期：2026-09-10。
 
 交付范围：对象层面盘点、可操作性判断、能力矩阵、引用与求值框架，以及新增边界清单。SW01已形成[范围素材](../idea-materials/M-2026-09-10-semantic-world-object-scope.md)，SW02已形成[引用素材](../idea-materials/M-2026-09-10-instance-and-conditional-binding.md)，均已采纳；名单及R01–R32框架随后均已确认。本文的阶段性讨论保留提议时背景，现行规则见[正式执行素材](../idea-materials/M-2026-09-10-semantic-world-executable-rules.md)。这里的“全部”指覆盖设计对象的类别与新增对象的检查方式，具体对象名录和动词词表尚未穷尽。
 
@@ -349,8 +349,9 @@ C03、C04的单位占位方向可以继续解决“某个未来单位是谁”�
 - [x] 原始表达、对象图谱、能力矩阵及边界讨论已保存。
 - [x] SW01范围、SW02引用与SW02-A名单已晋级并采纳。
 - [x] R01–R32一次列出后获得用户全部采纳，形成[正式执行规则](../idea-materials/M-2026-09-10-semantic-world-executable-rules.md)。
-- [ ] 按已确认框架填写具体对象、能力、材料、词卡和过程窗口。
-- [ ] 每类制作成功、失效和变化后再次引用的代表句，进行逐刻与可读性验证。
+- [x] 已按框架制作[32类对象](2026-09-10-semantic-object-catalog.md)及[18能力、55词条和过程窗口](2026-09-10-semantic-ability-word-catalog.md)首批候选；具体新增建议尚未晋级。
+- [x] 已制作[40项代表句及符号走查](2026-09-10-semantic-sentence-cases.md)，覆盖成功、失败、再引用和后置接口缺口。
+- [ ] 集中复核SC01–SC04与词义；局部资格确认后，再进行有实际参数的逐刻与玩家可读性验证。
 - [ ] 数值按重新设计任务建立；完整召唤、镶嵌和BF1–BF3保持既有后置范围。
 
 当前为Accepted / Rule Framework，证据Hypothesis。框架完整不等于所有对象内容已完成。

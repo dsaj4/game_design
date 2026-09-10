@@ -20,3 +20,7 @@ Raw Idea / Unqualified / Parked。释放、获得、强化、火焰、护甲、�
 当前核心为[Core Concept v0.6](../core-concept.md)。已明确部分的资格、玩家影响和验证方式分别保存在对应素材；尚未决定的内容见[设计决定与后续工作](../../docs/design-decisions-needed.md)，保持Unknown或Parked，不能直接进入GDD。
 
 2026-09-10：已完成逐份适用范围复核；具体参数按[数值重设计任务](../../docs/numerical-redesign.md)重新建立；后置机制依当前决定保留范围边界。
+
+## 本批内容关联
+
+2026-09-10：用户要求继续完善，释放、获得、强化、火焰、护甲、力量六个名称在[能力与词卡候选](2026-09-10-semantic-ability-word-catalog.md)中按具体角色继续起草。该复用仅作为语义候选；新建议仍Raw Idea / Unqualified，本页关于起始词表的Parked状态不变，所有数值重新设计。

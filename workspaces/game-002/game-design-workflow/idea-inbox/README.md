@@ -1,6 +1,6 @@
 # game-002 原始表达与候选入口
 
-共14份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
+共17份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
 
 | 记录 | 状态 |
 | --- | --- |
@@ -18,5 +18,8 @@
 | [设计接口推荐决策确认](2026-09-10-design-interface-questions.md) | 状态：Promoted（规则、范围与数值重设计约束）。日期：2026-09-10。具体后置机制与参数保持Unknown。 |
 | [语义战斗世界与法术可操作对象范围](2026-09-10-semantic-world-object-scope.md) | SW01范围、SW02引用模型与SW02-A单次名单Promoted / Accepted；R01–R32框架随后全部采纳；未明示的具体内容仍为候选。 |
 | [语义世界剩余决策总表](2026-09-10-semantic-world-remaining-decisions.md) | R01–R32推荐已全部采纳并晋级正式素材；原话与替代方案保留追溯，后置系统与数值任务另列。 |
+| [语义世界对象目录](2026-09-10-semantic-object-catalog.md) | Raw Idea / Unqualified：32类对象配型，含后置/只读边界。 |
+| [能力与词卡目录](2026-09-10-semantic-ability-word-catalog.md) | Raw Idea / Unqualified：18能力、20动词、35名词；SC01–SC04为新增建议。 |
+| [语义法术代表句](2026-09-10-semantic-sentence-cases.md) | Raw Idea / Unqualified：40项纸面案例及符号逐刻走查，无运行或玩家验证。 |
 
-C01–C08已按[用户确认](2026-09-10-design-interface-questions.md)处理。[R01–R32](2026-09-10-semantic-world-remaining-decisions.md)已全部采纳，当前完善具体对象、词卡与代表句；[数值重设计](../../docs/numerical-redesign.md)继续保留，参数输入须与对象和操作范围对齐。
+C01–C08已按[用户确认](2026-09-10-design-interface-questions.md)处理。[R01–R32](2026-09-10-semantic-world-remaining-decisions.md)已全部采纳，[首批具体对象、词卡与代表句草案](../../docs/semantic-world-content-index.md)已完成，新增内容尚未晋级；[数值重设计](../../docs/numerical-redesign.md)继续保留，参数输入须与对象和操作范围对齐。
