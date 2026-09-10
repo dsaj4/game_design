@@ -1,6 +1,6 @@
 # game-002 正式素材索引
 
-共41份Qualified GDD Material；证据Hypothesis。可引用资格不等于完整系统已验证，具体范围以素材正文及[决定清单](../../docs/design-decisions-needed.md)为准。核心统一为[Core Concept v0.6](../core-concept.md)，C01–C08已按用户确认处理。
+共42份Qualified GDD Material；证据Hypothesis。可引用资格不等于完整系统已验证，具体范围以素材正文及[决定清单](../../docs/design-decisions-needed.md)为准。核心统一为[Core Concept v0.6](../core-concept.md)，C01–C08已处理，SW01对象范围已采纳。
 
 | 素材 | 明确范围 | 处理状态与后续验证 |
 | --- | --- | --- |
@@ -45,5 +45,6 @@
 | [已采纳接口规则与后置范围](M-2026-09-10-accepted-design-interfaces.md) | 伤害分类、多对象成功、产出资格与后置子系统的已采纳处理范围。 | 明确规则/范围可引用；参数和体验待验证 |
 | [法术改变战场状态的体验与表现要求](M-2026-09-10-battlefield-state-change-expression.md) | 法术会改变战场中具体对象的状态，并让这些变化体现在地形、植被、建筑、敌人与玩家自身上。玩家应能看到作用发生在哪里、对象正在怎样变化，以及变化已经造成的结果。 | 明确规则/范围可引用；参数和体验待验证 |
 | [数值重新设计的范围与验证约束](M-2026-09-10-numerical-redesign-constraints.md) | 数值重新建立；词卡时间合计用于冷却，释放单独设计；示例不构成默认参数。 | 明确规则/范围可引用；参数和体验待验证 |
+| [语义世界的可操作对象范围](M-2026-09-10-semantic-world-object-scope.md) | 实体、部件、材料、属性状态、空间关系与过程对象纳入设计范围；胜负判定和全局结算顺序等基础规则固定。 | SW01范围Accepted；SW02–SW07具体机制待设计 |
 
 数值按[重设计任务](../../docs/numerical-redesign.md)重新建立；来源快照只用于追溯。召唤、镶嵌和具体环境机制按已确认范围后置。

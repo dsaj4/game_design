@@ -4,9 +4,9 @@ Project ID：game-002。状态：Active / Stable Design Baseline。当前核心�
 
 玩家在战前使用完整词卡库存构句，每个组合对应一条循环法术；设置一法术一法杖的绑定、范围与顺序，在第0–10刻安排首次冷却。战斗自动运行，同刻按法术、敌人攻击、环境变化、状态效果处理。战后金币与法术产生的词卡整体领取或放弃。
 
-当前有41份合格素材，涵盖构句、循环、状态、目标、局内成长、战场表现及数值重设计约束。C01–C08均按推荐处理，文档统一的人工冲突已结清；召唤、镶嵌和具体环境机制按确认范围后置。数值设计重新建立，尚无正式GDD或完整对局验证结论。
+当前有42份合格素材，涵盖构句、循环、状态、目标、局内成长、战场表现、语义世界对象范围及数值重设计约束。C01–C08均按推荐处理，文档统一的人工冲突已结清；召唤、镶嵌和具体环境机制按确认范围后置。数值设计重新建立，尚无正式GDD或完整对局验证结论。
 
-当前工作为[语义战斗世界与法术可操作对象范围](game-design-workflow/idea-inbox/2026-09-10-semantic-world-object-scope.md)：已建立对象图谱、能力矩阵、引用与求值框架和SW01–SW07新增边界，状态Raw Idea / Unqualified。先确认SW01操作层级，其余分支随具体对象展开。核心仍为当前已采纳规则。
+当前[语义世界对象范围SW01](game-design-workflow/idea-materials/M-2026-09-10-semantic-world-object-scope.md)已采纳：过程对象纳入范围，基础规则保持固定。下一步为[SW02引用方案](game-design-workflow/idea-inbox/2026-09-10-semantic-world-object-scope.md)，其余交互机制仍为Raw Idea / Unqualified；新增对象尚需形成可执行规则。此次素材、提案、评估、采纳及同步文件见[交付记录](docs/semantic-world-scope-adoption.md)。
 
 - [核心构思](game-design-workflow/core-concept.md)
 - [正式素材](game-design-workflow/idea-materials/README.md)

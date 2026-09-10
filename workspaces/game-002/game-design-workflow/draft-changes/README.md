@@ -10,3 +10,4 @@
 - [当前设计文档统一](D-2026-09-10-current-design-alignment.md)
 
 - [推荐决策采纳与数值重设计](D-2026-09-10-accept-design-decisions.md)
+- [语义世界对象范围采纳](D-2026-09-10-semantic-world-object-scope.md)：SW01 / G002-SCOPE-002，范围已采纳，具体机制待定。

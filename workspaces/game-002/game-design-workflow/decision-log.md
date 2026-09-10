@@ -28,3 +28,11 @@ C01–C08按用户批量确认全部处理，当前没有本轮遗留人工冲�
 | G002-SCOPE-001 | 2026-09-10 | C03完整召唤后置，推进时设计战前单位占位与出生位置；C04当前不增加专属引用词卡；C05镶嵌细则与C07 BF1–BF3按推荐后置 | Accepted / Scope；具体机制Unknown | [决定清单](../docs/design-decisions-needed.md)、[合格范围素材](idea-materials/M-2026-09-10-accepted-design-interfaces.md) |
 
 确认前推荐、数值来源与文档验收已封存于[决策输入快照](../../../archive/2026-09-10-game-002-decision-inputs/INDEX.md)，用于追溯，不作为参数基线。
+
+## 语义世界对象范围
+
+| ID | 日期 | 决定 | 状态与证据 | 来源 |
+| --- | --- | --- | --- | --- |
+| G002-SCOPE-002 | 2026-09-10 | SW01：实体、部件、材料、属性状态、空间关系及飞行物、敌方攻击、法术冷却等过程纳入法术对象设计范围；各类按明确能力开放操作；胜负判定、全局结算顺序等基础规则保持固定 | Accepted / Scope；Hypothesis。具体引用与操作机制待定，Core Concept v0.6基础执行规则继续适用 | [用户确认](idea-inbox/2026-09-10-semantic-world-object-scope.md)、[范围素材](idea-materials/M-2026-09-10-semantic-world-object-scope.md)、[提案](idea-proposals/P-2026-09-10-semantic-world-object-scope.md)、[评估](evaluations/E-2026-09-10-semantic-world-object-scope.md)、[采纳文本](draft-changes/D-2026-09-10-semantic-world-object-scope.md) |
+
+下一步为SW02新生对象引用。SW02–SW07的候选建议尚未采纳；数值重新设计继续执行。

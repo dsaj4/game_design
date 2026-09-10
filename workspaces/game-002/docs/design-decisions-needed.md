@@ -1,6 +1,6 @@
 # 设计决定与后续工作
 
-状态：C01–C08全部已处理；当前推进SW01语义世界对象范围资格确认。日期：2026-09-10。核心：[Core Concept v0.6](../game-design-workflow/core-concept.md)，证据Hypothesis。
+状态：C01–C08全部已处理；SW01对象范围已采纳，当前推进SW02引用模型。日期：2026-09-10。核心：[Core Concept v0.6](../game-design-workflow/core-concept.md)，证据Hypothesis。
 
 用户确认“均采用推荐决策，数值设计明确重新设计”。[原话与资格记录](../game-design-workflow/idea-inbox/2026-09-10-design-interface-questions.md)、[采纳记录](../game-design-workflow/draft-changes/D-2026-09-10-accept-design-decisions.md)和[确认前建议快照](../../../archive/2026-09-10-game-002-decision-inputs/workspaces/game-002/docs/design-decisions-needed.md)建立完整追溯。
 
@@ -19,22 +19,29 @@
 
 ## 执行顺序
 
-按用户最新要求，先开展[语义世界对象范围](../game-design-workflow/idea-inbox/2026-09-10-semantic-world-object-scope.md)设计。完成对象与操作范围的局部确认后，再把结果作为数值重设计输入：确定目标战斗节奏和风险，设计攻防、时间、词表及成长参数，并进行逐刻与跨战验证。具体参数仍须重新建立。
+先依据[已确认的语义世界范围](../game-design-workflow/idea-materials/M-2026-09-10-semantic-world-object-scope.md)推进引用与具体操作。SW02首先解决新生对象，再逐项明确SW03–SW07；确认结果作为数值重设计输入，随后确定目标节奏、攻防、时间、词表和成长参数，并进行逐刻与跨战验证。具体参数仍须重新建立。
 
 召唤、镶嵌和BF1–BF3按表内触发条件独立推进。暂缓是已经采用的范围决定，具体细则仍为Unknown，不作为当前可执行机制。当前无需再次选择C01–C08；新内容若产生新的冲突，再单独登记。
 
-## 当前资格问题：SW01
+## 已采纳范围：SW01
 
-用户希望把战斗世界变成具有显式结构、交互能力和执行规则的语义世界，使拼出的句子自动产生结果。原始表达、对象图谱、能力矩阵、引用与求值框架、候选建议及素材审查全部保存在[本次inbox](../game-design-workflow/idea-inbox/2026-09-10-semantic-world-object-scope.md)，当前为Raw Idea / Unqualified，未成为核心规则。
+用户已确认把实体、部件、材料、属性状态、空间关系与飞行物、敌方攻击、法术冷却等过程纳入可操作对象设计范围；各类按明确能力开放操作，胜负判定、全局结算顺序等基础规则保持固定。状态Accepted / Scope，证据Hypothesis。
 
-当前要确认可操作层级上限：是否把飞行中的火球、敌方攻击、法术冷却等过程也作为对象，以及世界基础规则是否可被改写。推荐方向为纳入过程对象、逐类明确能力，基础规则保持固定；等待用户回答。
+来源：[用户确认记录](../game-design-workflow/idea-inbox/2026-09-10-semantic-world-object-scope.md)、[正式范围素材](../game-design-workflow/idea-materials/M-2026-09-10-semantic-world-object-scope.md)及[采纳文本](../game-design-workflow/draft-changes/D-2026-09-10-semantic-world-object-scope.md)。决策编号G002-SCOPE-002，范围已写入核心。
 
-这会影响后续的新生对象绑定、动态时间安排与环境结构设计。已有的固定目标、位置和时序边界在正式变更采纳前继续生效，不能从方向描述直接推定具体改法。
+范围确认不自动改变当前基础法术的固定目标、位置及循环规则。具体机制仍需回答对象如何被引用、何时能介入、能产生什么变化及付出什么代价。
 
-其余新增边界已在inbox的“新增边界与推荐处理”中登记：SW02新生对象绑定、SW03位置与结构变化、SW04多端点表达、SW05过程与节拍、SW06局部环境机制、SW07配置与资源权限。每项均含冲突、推荐方向与受影响规则；当前不要求一次确认全部分支，也不把方向建议当作已采纳方案。
+## 当前资格问题：SW02
+
+推荐保留“点名对象”的固定实例绑定，同时新增“战前固定选择条件、释放时自动匹配当前对象”的条件绑定，让符合条件的新生对象参与法术。两者并存的模型尚待用户确认；本次名单时点、顺序、句式和生命周期的细则也尚未采纳。
+
+[SW02候选](../game-design-workflow/idea-inbox/2026-09-10-semantic-world-object-scope.md)已包含两种方案比较与新生火球、对象同名替换、本次生成及失效等纸面推演。条件绑定会改变当前固定对象集合规则，需用户选择后再局部晋级与采纳。
+
+其余边界继续登记于同一inbox：SW03位置与结构变化、SW04多端点表达、SW05过程与节拍、SW06局部环境机制、SW07配置与资源权限。当前先处理SW02，不要求同时回答全部分支。
 
 ## 素材入口
 
 - [接口规则与范围](../game-design-workflow/idea-materials/M-2026-09-10-accepted-design-interfaces.md)。
 - [数值重新设计约束](../game-design-workflow/idea-materials/M-2026-09-10-numerical-redesign-constraints.md)。
 - [全部正式素材](../game-design-workflow/idea-materials/README.md)。
+- [语义世界范围采纳交付](semantic-world-scope-adoption.md)。
