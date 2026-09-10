@@ -5,7 +5,7 @@
 - [文档审查与验收](design-alignment-audit.md)：逐文件覆盖、快照与一致性。
 - [数值重设计](numerical-redesign.md)：已确认范围、Unknown参数与验证顺序。
 - [语义世界规则交付](semantic-world-rules-adoption.md)：32项采纳、文件清单与规则走查。
-- [语义世界内容入口](semantic-world-content-index.md)：当前简单作用、法术生成物、对象掉卡与具体内容任务。
+- [语义世界内容入口](semantic-world-content-index.md)：当前简单作用、首批18词新参数、逐刻记录与剩余内容任务。
 - [本轮范围简化交付](semantic-world-simplification.md)：来源、保存与修改清单。
 - [开发索引](code-development-index.md)：实现状态与证据。
 

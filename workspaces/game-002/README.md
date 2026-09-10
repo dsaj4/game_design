@@ -6,7 +6,7 @@ Project ID：game-002。状态：Active / Stable Design Baseline。当前核心�
 
 当前有45份合格素材，涵盖构句、循环、状态、目标、局内成长、战场表现、语义世界范围、两种引用及数值重设计约束。C01–C08均按推荐处理，文档统一的人工冲突已结清；召唤、镶嵌和复杂环境机制后置；简单点燃/冰冻及真实元素生成物进入当前内容设计。数值设计重新建立，尚无正式GDD或完整对局验证结论。
 
-当前对象范围按[简单对象交互采纳](game-design-workflow/draft-changes/D-2026-09-10-simple-object-interactions.md)收束：保留数量/状态变化，新增火焰、雷电、冰霜等真实法术生成物；收集法术作用合格对象后直接掉卡。位移、连接/支撑、指定方向/端点及环境材料加工暂缓。实例/条件引用、固定单次名单和自动循环骨架继续有效。[当前内容入口](docs/semantic-world-content-index.md)包含13个条目、10类作用与12项纸面情境；具体词义与参数待设计。
+当前对象范围按[简单对象交互采纳](game-design-workflow/draft-changes/D-2026-09-10-simple-object-interactions.md)收束：保留数量/状态变化，新增火焰、雷电、冰霜等真实法术生成物；收集法术作用合格对象后直接掉卡。位移、连接/支撑、指定方向/端点及环境材料加工暂缓。实例/条件引用、固定单次名单和自动循环骨架继续有效。[当前内容入口](docs/semantic-world-content-index.md)包含13个条目、10类作用与12项纸面情境；首批已补[18词与新参数候选](game-design-workflow/idea-inbox/2026-09-10-element-state-drop-wording.md)及逐刻记录，尚未采纳或完成平衡验证。
 
 - [核心构思](game-design-workflow/core-concept.md)
 - [正式素材](game-design-workflow/idea-materials/README.md)

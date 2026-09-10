@@ -1,6 +1,6 @@
 # game-002 原始表达与候选入口
 
-共18份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
+共20份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
 
 | 记录 | 状态 |
 | --- | --- |
@@ -22,5 +22,7 @@
 | [能力与词卡目录](2026-09-10-semantic-ability-word-catalog.md) | 当前10类简单作用；具体词名与自动接收规则仍待设计。 |
 | [语义法术代表句](2026-09-10-semantic-sentence-cases.md) | 12项纸面情境；不宣称运行或玩家验证。 |
 | [简化对象交互](2026-09-10-simple-object-interactions.md) | Promoted / Accepted：用户明确收束范围、对象掉卡并新增元素生成物。 |
+| [首批具体词义](2026-09-10-element-state-drop-wording.md) | Raw Idea / Unqualified：元素载体、燃烧/冰冻、有限掉卡及18词新参数，待采纳。 |
+| [首批纸面记录](2026-09-10-element-state-drop-paper-checks.md) | 上述候选的辅助记录：逐刻计算及24项边界；没有运行或玩家验证。 |
 
 当前依[简化对象交互](../../docs/semantic-world-content-index.md)推进。上位范围已经采纳；具体词义与参数继续设计，候选不得静默写入正式GDD。前次内容与关键规则的原始输入保存在[快照](../../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)。

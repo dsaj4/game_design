@@ -9,7 +9,7 @@
 | 当前对象设计 | 简单数量/状态变化；火焰、雷电、冰霜等真实生成物；资源收集止于对象掉卡 | [内容入口](semantic-world-content-index.md) |
 | 当前暂缓 | 位移/结构/空间参照、定向或指定接收端、材料份额/容器/配方与加工 | [范围决定](design-decisions-needed.md) |
 | 已有素材 | 45份合格素材；具体候选按inbox资格边界处理 | [正式素材](../game-design-workflow/idea-materials/README.md) |
-| 内容与数值 | 13个条目、10类作用、12项纸面情境；具体词义和数值待填 | [数值任务](numerical-redesign.md) |
-| 验证 | 本轮为文档范围与一致性检查，无实际对局/玩家证据 | [开发索引](code-development-index.md) |
+| 内容与数值 | 13个条目、10类作用；首批18词新参数、逐刻记录及24项边界已起草，尚未采纳 | [数值任务](numerical-redesign.md) |
+| 验证 | 已做局部纸面计算与文档核对，无实现运行或玩家证据 | [开发索引](code-development-index.md) |
 
-[本轮交付](semantic-world-simplification.md)列明快照、修改与检查。简单点燃/冰冻进入当前内容设计；完整召唤、镶嵌和燃料/传播/导电网络/坍塌等复杂环境机制继续后置。
+[范围简化交付](semantic-world-simplification.md)列明已完成的范围变更；[当前内容入口](semantic-world-content-index.md)汇总首批词义和剩余任务。简单点燃/冰冻进入当前内容设计；完整召唤、镶嵌和燃料/传播/导电网络/坍塌等复杂环境机制继续后置。
