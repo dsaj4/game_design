@@ -6,4 +6,4 @@
 
 [C01–C08](../docs/design-decisions-needed.md)已按用户确认处理；具体参数重新设计，完整召唤、镶嵌与环境机制依范围后置。正式核心变更须有明确采纳并同步[决策记录](decision-log.md)。
 
-[语义世界对象范围SW01](idea-materials/M-2026-09-10-semantic-world-object-scope.md)与[SW02两种引用](idea-materials/M-2026-09-10-instance-and-conditional-binding.md)均已形成素材、提案、评估并采纳。SW02-A单次名单随后已采纳。下一步为一次列出的[剩余决策R01–R32](idea-inbox/2026-09-10-semantic-world-remaining-decisions.md)，具体机制在用户选择后继续资格确认。
+[语义世界对象范围SW01](idea-materials/M-2026-09-10-semantic-world-object-scope.md)与[SW02两种引用](idea-materials/M-2026-09-10-instance-and-conditional-binding.md)均已形成素材、提案、评估并采纳。SW02-A单次名单随后已采纳。[R01–R32执行规则](idea-materials/M-2026-09-10-semantic-world-executable-rules.md)随后全部采纳；下一步为具体对象、能力、词卡、参数与代表句。

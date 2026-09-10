@@ -1,5 +1,7 @@
 # 语义世界对象范围提案
 
+本页保留SW01阶段的提案/评估范围；当时未决的框架随后按[R01–R32](../idea-materials/M-2026-09-10-semantic-world-executable-rules.md)全部采纳。当前内容设计与验证入口见[执行规则提案](P-2026-09-10-semantic-world-executable-rules.md)。
+
 状态：Proposal；SW01范围已确认，具体机制待设计。证据：Hypothesis。
 
 ## 提案名称

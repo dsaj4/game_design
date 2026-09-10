@@ -41,7 +41,7 @@ SW01范围的后续引用模型按G002-CORE-008确认，单次名单按G002-CORE
 
 | ID | 日期 | 决定 | 状态与证据 | 来源 |
 | --- | --- | --- | --- | --- |
-| G002-CORE-008 | 2026-09-10 | SW02：实例绑定保持所指身份，失效跳过、不自动改指向；条件绑定战前固定选择条件，每次释放自动匹配当前对象，符合条件的新生对象可参与。两种方式并存，战前配置与既有语义、范围和材料约束继续适用 | Accepted / Reference Model；Hypothesis。名单时点后续由G002-CORE-009明确，排序及具体表达仍待设计 | [用户确认](idea-inbox/2026-09-10-semantic-world-object-scope.md)、[素材](idea-materials/M-2026-09-10-instance-and-conditional-binding.md)、[采纳文本](draft-changes/D-2026-09-10-instance-and-conditional-binding.md) |
+| G002-CORE-008 | 2026-09-10 | SW02：实例绑定保持所指身份，失效跳过、不自动改指向；条件绑定战前固定选择条件，每次释放自动匹配当前对象，符合条件的新生对象可参与。两种方式并存，战前配置与既有语义、范围和材料约束继续适用 | Accepted / Reference Model；Hypothesis。名单时点后续由G002-CORE-009明确，排序及表达框架随后按G002-CORE-010明确，具体条目待设计 | [用户确认](idea-inbox/2026-09-10-semantic-world-object-scope.md)、[素材](idea-materials/M-2026-09-10-instance-and-conditional-binding.md)、[采纳文本](draft-changes/D-2026-09-10-instance-and-conditional-binding.md) |
 
 SW02采纳只包含引用模型；用户随后单独确认SW02-A，见下表。
 
@@ -51,4 +51,12 @@ SW02采纳只包含引用模型；用户随后单独确认SW02-A，见下表。
 | --- | --- | --- | --- | --- |
 | G002-CORE-009 | 2026-09-10 | SW02-A：完整法术开始处理时确定一次直接名单，本次不重选、追加或补位；逐对象仍检查当前合法性与材料，失效或固定消耗不足跳过且既有合法结果不回滚；本次新生或新符合条件对象留到后续释放 | Accepted / Target List；Hypothesis | [用户确认](idea-inbox/2026-09-10-semantic-world-object-scope.md)、[合格素材](idea-materials/M-2026-09-10-instance-and-conditional-binding.md)、[采纳文本](draft-changes/D-2026-09-10-single-release-target-list.md) |
 
-用户同时要求一次性列出剩余决策。[R01–R32总表](idea-inbox/2026-09-10-semantic-world-remaining-decisions.md)是待选择的新建议，状态Raw Idea / Unqualified；批量列出不等于采纳。
+用户同时要求一次性列出剩余决策。[R01–R32来源总表](idea-inbox/2026-09-10-semantic-world-remaining-decisions.md)保留批量建议；用户随后全部采纳，见G002-CORE-010。
+
+## 2026-09-10：语义世界执行规则
+
+| ID | 日期 | 决定 | 状态与证据 | 来源 |
+| --- | --- | --- | --- | --- |
+| G002-CORE-010 | 2026-09-10 | 用户全部采用R01–R32推荐：明确对象与能力、条件与成本、位移与身份、复合对象短语、多端点、过程窗口及改期、释放开始仲裁、环境反应、配置资源与跨战权限 | Accepted / Semantic World Rules；Hypothesis。32项无遗留人工选择；内容、数值与体验待验证 | [用户确认](idea-inbox/2026-09-10-semantic-world-remaining-decisions.md)、[32条正式规则](idea-materials/M-2026-09-10-semantic-world-executable-rules.md)、[提案](idea-proposals/P-2026-09-10-semantic-world-executable-rules.md)、[评估](evaluations/E-2026-09-10-semantic-world-executable-rules.md)、[采纳文本](draft-changes/D-2026-09-10-semantic-world-executable-rules.md) |
+
+R12允许明确法术位移与结构变化；R17允许明示独立遗体；R18允许名词位复合短语；R23允许改变当前剩余冷却；R24在释放开始仲裁共享槽。现用相关规则均按本决定同步，既有决定的采纳时文字从原始记录追溯。完整召唤、法杖起始资源与镶嵌、BF1–BF3仍后置；数值重新设计继续有效。

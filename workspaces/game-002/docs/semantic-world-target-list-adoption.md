@@ -1,5 +1,7 @@
 # 单次名单采纳与剩余决策交付
 
+本页保留提交0326023时的名单采纳范围与交付记录；其中R01–R32待选择及相关数量、检查结果均对应当时。用户随后已全部采用推荐，当前执行规则与检查见[本次采纳](semantic-world-rules-adoption.md)。
+
 日期：2026-09-10。SW02-A / G002-CORE-009：Accepted；R01–R32：Raw Idea / Unqualified。核心：Core Concept v0.6。证据：Hypothesis。
 
 ## 本次结果

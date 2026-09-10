@@ -1,5 +1,7 @@
 # 实例绑定与条件绑定提案
 
+本页保留SW02与SW02-A阶段的提案/评估范围；当时未决的框架随后按[R01–R32](../idea-materials/M-2026-09-10-semantic-world-executable-rules.md)全部采纳。当前内容设计与验证入口见[执行规则提案](P-2026-09-10-semantic-world-executable-rules.md)。
+
 状态：Proposal；SW02模型与SW02-A单次名单已确认，完整交互待设计。证据：Hypothesis。
 
 ## 提案名称

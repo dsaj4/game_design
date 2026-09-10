@@ -10,7 +10,7 @@
 | 循环法术 | 一个组合定义的完整法术，按既定冷却与释放周期持续尝试。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md) |
 | 首次冷却起点 | 战前为各法术选择的第0–10刻内开始第一次冷却的时刻。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md) |
 | 循环周期 | 冷却时长加释放时长；冷却由实际词卡时间贡献合计形成，释放时长单独设计。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md) |
-| 共享释放槽 | 所有法术每刻最多成功释放一个的共同约束。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-timeline-schedule-preview.md) |
+| 共享释放槽 | 所有法术在每刻竞争一次释放开始机会的共同约束；直接效果在开始时结算一次，持续作用由过程或状态承载。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-timeline-schedule-preview.md) |
 | 法杖顺序与覆盖 | 战前设置的法杖前后顺序；同刻靠后法术覆盖靠前法术，被覆盖者本次无效果、无特效，后续周期保持。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-timeline-schedule-preview.md) |
 | 生命伤害打断 | 玩家实际承受生命伤害时取消当时正在冷却的普通法术本次机会，后续周期保持，已结算结果不回退。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-damage-armor-and-interruption.md) |
 | 对象引用 | 法术指向战斗对象的方式，支持固定实例身份和战前固定条件两种绑定；对象仍须满足当前作用条件。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-10-instance-and-conditional-binding.md) |
@@ -63,6 +63,26 @@ _避免_：将同名新对象视为原实例，或失效时隐式转为条件搜
 **条件绑定**：战前固定选择条件、每次释放匹配当前符合条件对象的引用方式；符合条件的新生对象可以参与。
 _避免_：把绑定条件固定等同于匹配结果整场固定。
 
-依据：[SW02引用模型](game-design-workflow/idea-materials/M-2026-09-10-instance-and-conditional-binding.md)。SW02-A名单时点已确认，排序待定。
+依据：[SW02引用模型](game-design-workflow/idea-materials/M-2026-09-10-instance-and-conditional-binding.md)。SW02-A名单时点及R05–R11引用、排序与成本规则均已确认。
 
 **单次直接对象名单**：每次完整法术开始处理时确定的直接作用对象。本次不重选、追加或补位；逐对象仍读取当前合法性与材料，新符合条件对象留到后续释放。名单不冻结世界状态，也不预留材料。依据：[SW02-A采纳](game-design-workflow/draft-changes/D-2026-09-10-single-release-target-list.md)。
+
+## 对象交互与执行
+
+以下术语依据[已采纳R01–R32](game-design-workflow/idea-materials/M-2026-09-10-semantic-world-executable-rules.md)。
+
+| 术语 | 定义 |
+| --- | --- |
+| 语义身份 | 区分具体对象及延续关系的身份；同名不代表同一对象。 |
+| 对象粒度 | 内容明示的可独立引用层级，包括单位、部件、表面、材料、状态、关系和过程。 |
+| 交互能力 | 由材料、结构和当前状态共同决定，允许对应词义作用的资格；能力变化须有明确来源。 |
+| 复合对象短语 | 在基础句式名词位置表达结构、条件或关系的组合；新增词义由实际实体词卡承担。 |
+| 选择优先级 | 在符合条件的对象中选择单个或限量对象的明示方式，与处理已选对象的顺序分别定义。 |
+| 公开对象顺序 | 初始对象的公开顺序及新生对象按确定生成先后获得的位置；不意味着本次直接名单持续追加。 |
+| 一次性成本 | 一次法术在首个可结算对象前支付一次的成本，无合法对象不支付；与逐对象成本区别。 |
+| 范围锚点 | 战前指定、用于确定法杖范围实际覆盖的位置参照；运行时读取其当前位置。 |
+| 独立遗体或残留物 | 内容明确在单位死亡后生成的环境对象，具备自己的身份与能力；不等于原单位继续存活。 |
+| 当前剩余冷却 | 某次尚未完成冷却还需要经过的时间，可被适用法术修改；区别于词卡贡献决定的基础冷却。 |
+| 可介入窗口 | 尚未完成的过程允许指定操作生效的阶段或时段；演出与已完成记录不提供回滚权限。 |
+| 反应根因 | 一次传播或反应链的来源，用于追踪同根因、同对象、同规则的同刻重复作用。 |
+| 运行状态与配置 | 运行状态是当前对象与过程情况；配置是战前词卡分配、绑定条件、法杖顺序和镶嵌安排。 |

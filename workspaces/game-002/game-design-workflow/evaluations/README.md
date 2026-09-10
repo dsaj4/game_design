@@ -3,6 +3,7 @@
 当前核心为[Core Concept v0.6](../core-concept.md)，可用内容从[合格素材](../idea-materials/README.md)审查。未决inbox内容须先通过资格闸门，不能直接写入正文。
 
 - [语义世界对象范围评估](E-2026-09-10-semantic-world-object-scope.md)：推荐推进范围；文档关系与逻辑审查，无原型或玩家测试结论。
-- [实例绑定与条件绑定评估](E-2026-09-10-instance-and-conditional-binding.md)：推荐推进模型与单次名单边界；定性文档评估，排序仍待明确。
+- [实例绑定与条件绑定评估](E-2026-09-10-instance-and-conditional-binding.md)：推荐推进模型与单次名单边界；定性文档评估，后续框架评估见R01–R32。
 
 使用[共享模板登记清单](../../../../game-design-workflow/templates/README.md)，玩法与实现进度分别维护。
+- [语义世界执行规则评估：推荐推进，证据Hypothesis](E-2026-09-10-semantic-world-executable-rules.md)。

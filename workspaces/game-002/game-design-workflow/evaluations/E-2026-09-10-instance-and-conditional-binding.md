@@ -1,5 +1,7 @@
 # 实例绑定与条件绑定评估
 
+本页保留SW02与SW02-A阶段的提案/评估范围；当时未决的框架随后按[R01–R32](../idea-materials/M-2026-09-10-semantic-world-executable-rules.md)全部采纳。当前内容设计与验证入口见[执行规则评估](E-2026-09-10-semantic-world-executable-rules.md)。
+
 ## 评估对象
 
 - 提案：[两种引用并存](../idea-proposals/P-2026-09-10-instance-and-conditional-binding.md)。

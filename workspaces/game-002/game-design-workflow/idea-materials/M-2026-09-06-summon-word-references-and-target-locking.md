@@ -21,7 +21,7 @@
 
 执行者、操作内容和受术目标分别定义：“强化 恶魔”由玩家执行并强化恶魔，“恶魔 释放 火焰”由单位执行。
 
-普通种类词的单位引用按[SW02](M-2026-09-10-instance-and-conditional-binding.md)区分实例与条件绑定；词义和已配置条件须明确，种类词不自动代表最强、最新或全部同种单位。具体条件表达仍待设计。
+普通种类词的单位引用按[SW02](M-2026-09-10-instance-and-conditional-binding.md)区分实例与条件绑定；词义和已配置条件须明确，种类词不自动代表最强、最新或全部同种单位。条件表达框架按R05–R07执行，具体单位词条与完整召唤流程后置。
 
 专属引用只指绑定单位，普通种类词与专属引用的权限不能混同。单位离场不删除普通种类词。
 
@@ -73,9 +73,11 @@ C03已确认暂缓完整召唤指挥；推进时单独设计战前明确绑定�
 
 ## 使用记录
 
-2026-09-10：按[SW02两种引用采纳](../draft-changes/D-2026-09-10-instance-and-conditional-binding.md)同步引用范围；随后按[SW02-A名单采纳](../draft-changes/D-2026-09-10-single-release-target-list.md)明确每次开始处理时的直接名单，本次不追加、重选或补位，逐对象检查当前合法性与材料。排序等细则待确认，证据Hypothesis。
+2026-09-10：按[SW02两种引用采纳](../draft-changes/D-2026-09-10-instance-and-conditional-binding.md)同步引用范围；随后按[SW02-A名单采纳](../draft-changes/D-2026-09-10-single-release-target-list.md)明确每次开始处理时的直接名单，本次不追加、重选或补位，逐对象检查当前合法性与材料。后续R01–R32已全部采纳，排序与交互框架见[R01–R32执行规则](M-2026-09-10-semantic-world-executable-rules.md)，证据Hypothesis。
 
 | 日期 | 目标 | 处理结果 | 边界 |
 | --- | --- | --- | --- |
 | 2026-09-10 | [设计文档统一](../draft-changes/D-2026-09-10-current-design-alignment.md) | Included：明确表述部分 | 原始使用与确认记录从来源快照追溯；当前处理范围见接口采纳记录，尚无GDD |
 | 2026-09-10 | [接口采纳](../draft-changes/D-2026-09-10-accept-design-decisions.md) | Included：C03、C04处理范围 | 用户采用推荐；参数重设计，后置机制细则仍为Unknown |
+
+2026-09-10：按[用户R01–R32全部采纳](../draft-changes/D-2026-09-10-semantic-world-executable-rules.md)同步本素材受影响表述；具体对象、词卡和参数仍按对应范围设计，证据Hypothesis。

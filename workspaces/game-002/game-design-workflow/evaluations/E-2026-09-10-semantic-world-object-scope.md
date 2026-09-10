@@ -1,5 +1,7 @@
 # 语义世界对象范围评估
 
+本页保留SW01阶段的提案/评估范围；当时未决的框架随后按[R01–R32](../idea-materials/M-2026-09-10-semantic-world-executable-rules.md)全部采纳。当前内容设计与验证入口见[执行规则评估](E-2026-09-10-semantic-world-executable-rules.md)。
+
 状态：Evaluation / 推荐推进范围；证据：Hypothesis。评估依据为文档关系与逻辑审查，没有原型或玩家测试。
 
 本页保留SW01评估时的判断与待决记录。后续SW02引用模型已确认，当前评估入口为[两种引用](E-2026-09-10-instance-and-conditional-binding.md)及[决定清单](../../docs/design-decisions-needed.md)。
