@@ -5,6 +5,7 @@
 
 | 日期 | 原始想法 | 状态 | 下一步 |
 | --- | --- | --- | --- |
+| 2026-09-10 | [战场物理变化：从草原燃烧开始](2026-09-10-battlefield-physical-transformations.md) | Raw Idea / Unqualified；体验目标明确，传播、敌我影响与燃料耗尽的玩法边界待确认 | 集中确认 BF1–BF3，再细化环境与状态结算的分工；当前核心仍为 v0.5 |
 | 2026-09-07 | [18 张简易法术测试牌组](2026-09-07-simple-spell-starter-deck.md) | Raw Idea / Unqualified；六词各三张、力量+2与三对兼容为测试设定，已执行离线首场和多种子模拟 | 按模拟观察评议语义复用、攻击组件和力量值 |
 | 2026-09-07 | [基础数值框架 v0.1](2026-09-07-core-numerical-framework-v01.md) | Promoted：[基础数值框架 v0.1](../idea-materials/M-2026-09-07-core-numerical-framework-v01.md)，第40份素材；默认参数已确认，实际平衡未验证 | 结合测试卡组模拟继续检验并调整内容 |
 | 2026-09-07 | [F01-F15 全局设计收口确认包](2026-09-07-global-baseline-lock-review.md) | Promoted：[首轮全局设计基线](../idea-materials/M-2026-09-07-first-pass-global-design-baseline.md)，第 39 份素材，Hypothesis；整包已确认 | 使用素材内交接入口，进入基础数值与流派定轨 |
