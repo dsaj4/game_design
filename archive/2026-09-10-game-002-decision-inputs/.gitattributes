@@ -1,0 +1,4 @@
+* -text -diff
+/manifest.json text eol=lf diff
+/INDEX.md text eol=lf diff
+/.gitattributes text eol=lf diff

@@ -1,6 +1,6 @@
 # game-002 领域词汇
 
-当前核心：Core Concept v0.5 / Stable Design Baseline。本文只定义领域术语；证据状态为Hypothesis。
+当前核心：Core Concept v0.6 / Stable Design Baseline。本文只定义领域术语；证据状态为Hypothesis。
 
 | 术语 | 定义 | 依据 |
 | --- | --- | --- |
@@ -9,7 +9,7 @@
 | 实体词卡分配 | 一张实体卡在本次配置中只归属一条法术且占一个位置；同名重复需要对应副本。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-word-inventory-and-copies.md) |
 | 循环法术 | 一个组合定义的完整法术，按既定冷却与释放周期持续尝试。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md) |
 | 首次冷却起点 | 战前为各法术选择的第0–10刻内开始第一次冷却的时刻。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md) |
-| 循环周期 | 冷却时长加释放时长；起点0、冷却4、释放1的首释为4刻、周期为5刻。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md) |
+| 循环周期 | 冷却时长加释放时长；冷却由实际词卡时间贡献合计形成，释放时长单独设计。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md) |
 | 共享释放槽 | 所有法术每刻最多成功释放一个的共同约束。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-timeline-schedule-preview.md) |
 | 法杖顺序与覆盖 | 战前设置的法杖前后顺序；同刻靠后法术覆盖靠前法术，被覆盖者本次无效果、无特效，后续周期保持。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-timeline-schedule-preview.md) |
 | 生命伤害打断 | 玩家实际承受生命伤害时取消当时正在冷却的普通法术本次机会，后续周期保持，已结算结果不回退。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-damage-armor-and-interruption.md) |
@@ -28,12 +28,16 @@
 | 状态内部顺序 | 按首次生效、产生效果先后及效果固定顺序逐状态处理，周期和到期后分别检查。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-status-values-and-resolution-order.md) |
 | 源方修正 | 实际执行者自身适用的强度修正，每次法术开始结算时读取；不自动共享到其他单位。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-spell-effect-sources-and-modifiers.md) |
 | 周期强化继承 | 适用增幅先计入新增状态量，周期使用当前合并量，不重复应用这份增幅。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-07-periodic-state-modifier-inheritance.md) |
-| 召唤种类词与单位身份 | 种类词表达一类单位，实际单位有独立身份；专属引用只指一个单位，具体配置接口待决定。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-summon-unit-and-reference.md) |
+| 召唤种类词与单位身份 | 种类词表达一类单位，身份引用只指具体单位；当前不新增专属引用词卡，战前占位的具体机制后置。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-summon-unit-and-reference.md) |
 | 战斗胜负 | 完整事件后的结果检查：全部敌人击败且玩家存活则胜利，玩家生命耗尽则失败；同检查点失败优先。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-normal-combat-outcomes.md) |
 | 整体收益包 | 战后金币与法术产生的卡牌共同组成的领取对象，玩家整体领取或放弃。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-normal-combat-word-rewards.md) |
 | 战斗耗时奖金 | 按共用战斗时间从0到胜利的经过量及遭遇预设基准计算，有上限、最低0。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md) |
 | 休整取舍 | 在独立休整节点选择一次有限恢复或可用的词卡三候选选一；选词后拒收不返还恢复机会。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-rest-recovery-and-word-choice.md) |
 | 商店货架 | 到店后公开且本次固定的商品与标价，每条目一份，售出不补货，交易检查资格和余额。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-07-shop-shelves-and-transactions.md) |
 | 单向分叉路线 | 本局开始按约束生成且保持稳定的路线；分叉可选，进入后不撤回，完成节点不回访。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-branching-run-routes.md) |
+| 生命支付 | 由效果明确声明的生命代价，不自动归类为伤害。 | [接口素材](game-design-workflow/idea-materials/M-2026-09-10-accepted-design-interfaces.md) |
+| 法术成功事件 | 完整法术至少有一个对象合法结算时产生的一次事件；合法零值可满足，多个对象不重复计次。 | [接口素材](game-design-workflow/idea-materials/M-2026-09-10-accepted-design-interfaces.md) |
+| 待领取产出 | 本场已经合法产生、尚未加入战外持有资源的收益；造卡资格计入其中同名副本。 | [接口素材](game-design-workflow/idea-materials/M-2026-09-10-accepted-design-interfaces.md) |
+| 单位占位 | 用于战前明确未来单位身份与出生关系的后续设计方向；具体机制尚未形成。 | [接口素材](game-design-workflow/idea-materials/M-2026-09-10-accepted-design-interfaces.md) |
 
-待决接口见[人工待决清单](docs/design-decisions-needed.md)，不以术语定义代替具体设计决定。
+接口处理范围见[设计决定与后续工作](docs/design-decisions-needed.md)，具体参数按[数值任务](docs/numerical-redesign.md)重新设计。

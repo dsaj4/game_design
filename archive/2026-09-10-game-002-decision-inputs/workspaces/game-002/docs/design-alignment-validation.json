@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "active_text_files": 82,
+    "project_text_files": 76,
+    "qualified_materials": 39,
+    "inbox_markdown": 12,
+    "snapshot_files": 94,
+    "snapshot_working_files": 78,
+    "snapshot_committed_missing_files": 16,
+    "checked_local_links": 808,
+    "errors": 0,
+    "preexisting_shared_missing_links": 0
+  },
+  "errors": [],
+  "preexisting_shared_missing_links": [],
+  "git_snapshot_blobs_verified": 94,
+  "staged_diff_check": "passed",
+  "out_of_scope_staged": 0
+}

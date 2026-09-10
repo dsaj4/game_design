@@ -8,7 +8,7 @@
 
 ## 当前适用内容
 
-状态、生命、路线、构句与胜负的已确认范围已进入对应素材。具体效果和接口见待决清单。
+状态、生命、路线、构句与胜负的已确认范围已进入对应素材。具体效果和接口见决定清单。
 
 - [战场状态的存续与引用](../idea-materials/M-2026-09-05-battle-state-persistence.md)
 - [循环法术的时间与打断](../idea-materials/M-2026-09-05-casting-time-and-interruption.md)
@@ -28,6 +28,6 @@
 
 ## 资格与下一步
 
-当前核心为[Core Concept v0.5](../core-concept.md)。已明确部分的资格、玩家影响和验证方式分别保存在对应素材；尚未决定的内容见[人工待决清单](../../docs/design-decisions-needed.md)，保持Unknown或Parked，不能直接进入GDD。
+当前核心为[Core Concept v0.6](../core-concept.md)。已明确部分的资格、玩家影响和验证方式分别保存在对应素材；尚未决定的内容见[设计决定与后续工作](../../docs/design-decisions-needed.md)，保持Unknown或Parked，不能直接进入GDD。
 
-2026-09-10：已完成逐份适用范围复核；本次不把候选参数或具体机制认定为用户已确认。
+2026-09-10：已完成逐份适用范围复核；具体参数按[数值重设计任务](../../docs/numerical-redesign.md)重新建立；后置机制依当前决定保留范围边界。

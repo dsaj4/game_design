@@ -20,4 +20,4 @@
 | BF2 | 环境影响是否作用于敌我双方及如何判定 | Raw Idea / Unqualified / Parked |
 | BF3 | 草耗尽后的形态、恢复与继续作用条件 | Raw Idea / Unqualified / Parked |
 
-具体机制不作为表现素材的资格前提，按用户要求继续后置。恢复讨论时，先对照[核心](../core-concept.md)与[待决清单](../../docs/design-decisions-needed.md)完成局部资格确认。
+具体机制不作为表现素材的资格前提，按用户要求继续后置。恢复讨论时，先对照[核心](../core-concept.md)与[决定清单](../../docs/design-decisions-needed.md)完成局部资格确认。

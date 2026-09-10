@@ -1,6 +1,6 @@
 # 自动战斗边界的当前适用范围
 
-状态：Accepted / Current Applicability。核心口径：Core Concept v0.5；证据：Hypothesis。
+状态：Accepted / Current Applicability。核心口径：Core Concept v0.6；证据：Hypothesis。
 
 ## 记录用途与来源
 
@@ -23,7 +23,7 @@
 - [战后词卡与整体收益](../idea-materials/M-2026-09-06-normal-combat-word-rewards.md)
 - [战斗金币与耗时奖励](../idea-materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md)
 
-具体接口和参数见[待决清单](../../docs/design-decisions-needed.md)；具体镶嵌、召唤绑定和数值不会因本页成为Accepted。
+具体接口和参数见[决定清单](../../docs/design-decisions-needed.md)；具体镶嵌、召唤绑定和数值不会因本页成为Accepted。
 
 ## 确认状态
 

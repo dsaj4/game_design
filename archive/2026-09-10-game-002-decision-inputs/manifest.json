@@ -1,0 +1,35 @@
+{
+  "project": "game-002",
+  "created": "2026-09-10",
+  "base_commit": "642acb3b93c91e9172f632db4b70b929682639f6",
+  "files": [
+    {
+      "path": "workspaces/game-002/docs/design-decisions-needed.md",
+      "sha256": "8b96bf43f86427ffc2d1f47d0b46d1c64b43a42a68da8c0a579069e11cce4b63"
+    },
+    {
+      "path": "workspaces/game-002/docs/design-alignment-audit.md",
+      "sha256": "d2ae3ba2022bc65774583ee8b3754896d57a7f2f52566e56483b7bba913cf7b0"
+    },
+    {
+      "path": "workspaces/game-002/docs/design-alignment-validation.json",
+      "sha256": "bff56f5a8ce2d6b2ae306b7014c0e81b04b99227a95c457d35682f8c00d7a913"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-inbox/2026-09-10-design-interface-questions.md",
+      "sha256": "6ea7adfd076f73118a257be2659891331a2110b2447b797b159d28dc157f7bc3"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-inbox/2026-09-07-numerical-calibration-candidates.md",
+      "sha256": "8be116bcd97d717c71b6fcb734905befd2df1533bbee77fceba61383e7dc69ef"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-inbox/2026-09-07-numerical-design-review.md",
+      "sha256": "4c37922c82bdd08070f2b1e6e15c6dffeb584ac4ed2b0626904d20c59039a16b"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-inbox/2026-09-07-simple-spell-word-candidates.md",
+      "sha256": "4ddd3bef86f6d984edf3ff22115d798a034bbe66de46dff6f4c35b6c29e30282"
+    }
+  ]
+}

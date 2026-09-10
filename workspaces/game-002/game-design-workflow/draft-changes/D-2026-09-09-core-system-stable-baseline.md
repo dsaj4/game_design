@@ -1,6 +1,6 @@
 # 稳定设计基线的当前适用范围
 
-状态：Accepted / Current Applicability。核心口径：Core Concept v0.5；证据：Hypothesis。
+状态：Accepted / Current Applicability。核心口径：Core Concept v0.6；证据：Hypothesis。
 
 ## 记录用途与来源
 
@@ -18,7 +18,7 @@
 
 - [支撑系统与流派设计规则](../idea-materials/M-2026-09-07-supporting-design-rules.md)
 
-具体接口和参数见[待决清单](../../docs/design-decisions-needed.md)；具体镶嵌、召唤绑定和数值不会因本页成为Accepted。
+具体接口和参数见[决定清单](../../docs/design-decisions-needed.md)；具体镶嵌、召唤绑定和数值不会因本页成为Accepted。
 
 ## 确认状态
 

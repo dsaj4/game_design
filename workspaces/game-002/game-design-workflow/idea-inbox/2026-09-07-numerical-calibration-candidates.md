@@ -1,39 +1,17 @@
-# 循环法术数值校准候选
+# 数值重新设计来源入口
 
-状态：Raw Idea / Unqualified / Parked。证据：Hypothesis。
+状态：Source Only；具体参数Unknown，重新设计已确认。证据：Hypothesis。
 
 ## 原始表达与来源
 
-[原始记录](../../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-core-numerical-framework-v01.md)保存完整规则与确认来源。[来源入口](2026-09-07-numerical-design-review.md)保留该主题的当前入口。
+[原始记录](../../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-core-numerical-framework-v01.md)保存完整来源。[确认前数值输入](../../../../archive/2026-09-10-game-002-decision-inputs/workspaces/game-002/game-design-workflow/idea-inbox/2026-09-07-numerical-calibration-candidates.md)按原始字节保存。
 
-## 当前设计对象
+## 当前适用范围
 
-循环法术数值校准候选。当前核心为[Core Concept v0.5](../core-concept.md)。
+用户明确要求数值重新设计。本页只承担来源追溯，不提供参数候选或默认值。生命、伤害、防护、恢复、时间、敌人节奏、收益、价格、库存规模和法杖资源均按当前玩法重新建立。
 
-## 可复用候选与适用边界
+词卡时间贡献按实际分配相加用于冷却；释放时长单独设计。示例不是默认参数，具体数值资格和验证尚未完成。
 
-T表示离散战斗刻度，循环时间由冷却和释放构成；c=4、r=1、s=0时在4、9、14刻尝试释放。
+## 下一步与使用
 
-可复用的校准候选为：玩家基础生命100；单目标基础伤害10；基础护甲8；校准敌人生命40、护甲0、每8刻攻击8；休整恢复24且不超过上限。
-
-库存18张、至少六种名称、每种最多三张可作为规模候选，尚未确定为当前完整起始库存或法杖容量。
-
-单词时间贡献2T、两词合计4T、三词合计6T的映射待C08确定；不得同时把4T当作冷却和完整周期。
-
-较长重击18伤害仅是候选效果预算，不赋予所有三词组合统一倍率；词义贡献与额外成本须说明。
-
-这些值是待校准输入，未取得当前循环战斗的平衡验证。完整卡表、状态效果和多目标收益须另行审查。
-
-## 玩家影响与预期价值
-
-为战前配置与战后成长提供可解释的输入；具体采用哪些参数或获取规则尚待用户决定。
-
-## 资格缺口与验证
-
-缺口：时间映射、容量、固定目标数量变化带来的数值重估。 关联[C08](../../docs/design-decisions-needed.md)。补齐决定前不能作为正式设计结论。
-
-验证：明确冷却/释放后，重算攻击、防御和强化在同一公开敌方安排下的逐刻结果。 成功信号为所有关键情境有唯一可解释结果；失败信号为必须依赖未确认假设。
-
-## 使用记录
-
-2026-09-10：作为待决候选保留在 inbox，未进入 GDD 或核心采纳。
+按[数值重设计任务](../../docs/numerical-redesign.md)开展；约束已晋级[正式素材](../idea-materials/M-2026-09-10-numerical-redesign-constraints.md)，确认见[C08](../../docs/design-decisions-needed.md)。本页不得作为GDD的参数来源。

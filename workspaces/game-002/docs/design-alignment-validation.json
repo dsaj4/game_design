@@ -1,19 +1,28 @@
 {
   "counts": {
-    "active_text_files": 82,
-    "project_text_files": 76,
-    "qualified_materials": 39,
+    "active_text_files": 86,
+    "project_text_files": 80,
+    "qualified_materials": 41,
     "inbox_markdown": 12,
     "snapshot_files": 94,
     "snapshot_working_files": 78,
     "snapshot_committed_missing_files": 16,
-    "checked_local_links": 808,
+    "checked_local_links": 876,
     "errors": 0,
     "preexisting_shared_missing_links": 0
   },
   "errors": [],
   "preexisting_shared_missing_links": [],
-  "git_snapshot_blobs_verified": 94,
-  "staged_diff_check": "passed",
-  "out_of_scope_staged": 0
+  "adoption": {
+    "core_version": "0.6",
+    "decisions_processed": 8,
+    "human_conflicts_remaining": 0,
+    "numerical_design": "Redesign Required / Parameters Unknown",
+    "deferred_mechanics": "Summon flow, wand/inlay details, BF1-BF3",
+    "decision_input_snapshot_files": 7,
+    "all_snapshot_hashes_checked": 101,
+    "qualification_checklists_checked": 41,
+    "semantic_scenarios_reviewed": 10,
+    "gameplay_tests_run": false
+  }
 }
