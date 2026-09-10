@@ -16,6 +16,6 @@
 | [简易法术词汇候选](2026-09-07-simple-spell-word-candidates.md) | 状态：Raw Idea / Unqualified / Parked。Project ID：game-002。 |
 | [战场变化的体验要求](2026-09-10-battlefield-physical-transformations.md) | 状态：表现范围 Promoted；具体机制 Raw Idea / Unqualified / Parked。Project ID：game-002。 |
 | [设计接口推荐决策确认](2026-09-10-design-interface-questions.md) | 状态：Promoted（规则、范围与数值重设计约束）。日期：2026-09-10。具体后置机制与参数保持Unknown。 |
-| [语义战斗世界与法术可操作对象范围](2026-09-10-semantic-world-object-scope.md) | SW01范围Promoted / Accepted；SW02引用方案与其余具体机制保持Raw Idea / Unqualified。 |
+| [语义战斗世界与法术可操作对象范围](2026-09-10-semantic-world-object-scope.md) | SW01范围、SW02引用模型Promoted / Accepted；SW02-A名单与其余细则保持Raw Idea / Unqualified。 |
 
 C01–C08已按[用户确认](2026-09-10-design-interface-questions.md)处理。当前按用户新要求先推进[语义世界对象范围](2026-09-10-semantic-world-object-scope.md)；[数值重设计](../../docs/numerical-redesign.md)继续保留，参数输入须与对象和操作范围对齐。

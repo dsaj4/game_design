@@ -2,6 +2,8 @@
 
 日期：2026-09-10。状态：Completed / Documentation Alignment + Decision Adoption。核心：Core Concept v0.6 / Stable Design Baseline，证据Hypothesis。
 
+本页保留C01–C08文档统一完成时的审查记录与证据。后续SW01对象范围和SW02引用模型的现行规则及同步验收见[引用模型交付](semantic-world-binding-adoption.md)。
+
 ## 范围与验收口径
 
 覆盖game-002全部现用设计文本、词汇、项目规则、索引与6个仓库直接路由文件。各正文直接陈述同一套当前规则，具体参数与后置机制明确为Unknown；来源快照承担追溯职责，独立游戏、固定背景包及共享研究不属于本次玩法修改范围。

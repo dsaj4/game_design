@@ -2,6 +2,8 @@
 
 状态：Evaluation / 推荐推进范围；证据：Hypothesis。评估依据为文档关系与逻辑审查，没有原型或玩家测试。
 
+本页保留SW01评估时的判断与待决记录。后续SW02引用模型已确认，当前评估入口为[两种引用](E-2026-09-10-instance-and-conditional-binding.md)及[决定清单](../../docs/design-decisions-needed.md)。
+
 ## 评估对象
 
 - 提案：[语义世界对象范围](../idea-proposals/P-2026-09-10-semantic-world-object-scope.md)。

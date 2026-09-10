@@ -17,7 +17,7 @@
 - [普通胜利后的生命保留](../idea-materials/M-2026-09-05-post-victory-health-persistence.md)
 - [休整的恢复与词卡取舍](../idea-materials/M-2026-09-05-rest-recovery-and-word-choice.md)
 - [护甲的生成与存续](../idea-materials/M-2026-09-06-armor-identity-generation-and-persistence.md)
-- [法杖范围与固定目标](../idea-materials/M-2026-09-06-basic-sentence-targeting-and-locking.md)
+- [法杖范围与对象引用](../idea-materials/M-2026-09-06-basic-sentence-targeting-and-locking.md)
 - [局内分叉路线](../idea-materials/M-2026-09-06-branching-run-routes.md)
 - [敌人击败后的对象与状态](../idea-materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md)
 - [预设起始库存与新局重置](../idea-materials/M-2026-09-06-preset-starting-inventory.md)

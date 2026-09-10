@@ -13,7 +13,7 @@
 | 共享释放槽 | 所有法术每刻最多成功释放一个的共同约束。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-timeline-schedule-preview.md) |
 | 法杖顺序与覆盖 | 战前设置的法杖前后顺序；同刻靠后法术覆盖靠前法术，被覆盖者本次无效果、无特效，后续周期保持。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-timeline-schedule-preview.md) |
 | 生命伤害打断 | 玩家实际承受生命伤害时取消当时正在冷却的普通法术本次机会，后续周期保持，已结算结果不回退。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-damage-armor-and-interruption.md) |
-| 固定直接对象 | 战前按法杖范围与词义筛选的整场固定对象集合；身份固定不冻结其状态数值。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-basic-sentence-targeting-and-locking.md) |
+| 对象引用 | 法术指向战斗对象的方式，支持固定实例身份和战前固定条件两种绑定；对象仍须满足当前作用条件。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-10-instance-and-conditional-binding.md) |
 | 对象失效 | 对象不再具备该法术的作用条件；释放时跳过并继续其他合法对象，失效尝试仍保留释放特效。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-basic-sentence-targeting-and-locking.md) |
 | 环境对象 | 长方形场景中有位置且可操作、没有生命值和攻击行为的对象，例如大树和溪流。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-basic-sentence-targeting-and-locking.md) |
 | 法杖与镶嵌 | 每根法杖承载一条法术；镶嵌是范围、特殊效果的配置层，具体槽位、资格和效果Unknown。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-07-wand-inlay-configuration.md) |
@@ -53,4 +53,14 @@ _避免_：把一次真实过程、整个循环规则和释放演出视为同一
 **世界基础规则**：战斗世界的共同约束，包括胜负判定和全局结算顺序；SW01范围中保持固定。
 _避免_：把改变某次攻击或冷却等同于修改整个战斗的结算规则。
 
-依据：[已确认的SW01范围](game-design-workflow/idea-materials/M-2026-09-10-semantic-world-object-scope.md)。引用模型和具体能力不在本组词汇中提前定义。
+依据：[已确认的SW01范围](game-design-workflow/idea-materials/M-2026-09-10-semantic-world-object-scope.md)。
+
+## 对象引用
+
+**实例绑定**：战前明确所指对象身份、后续释放持续尝试该对象的引用方式；对象失效时跳过。
+_避免_：将同名新对象视为原实例，或失效时隐式转为条件搜索。
+
+**条件绑定**：战前固定选择条件、每次释放匹配当前符合条件对象的引用方式；符合条件的新生对象可以参与。
+_避免_：把绑定条件固定等同于匹配结果整场固定。
+
+依据：[SW02引用模型](game-design-workflow/idea-materials/M-2026-09-10-instance-and-conditional-binding.md)。单次名单与排序尚待定义。

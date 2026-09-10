@@ -11,3 +11,4 @@
 
 - [推荐决策采纳与数值重设计](D-2026-09-10-accept-design-decisions.md)
 - [语义世界对象范围采纳](D-2026-09-10-semantic-world-object-scope.md)：SW01 / G002-SCOPE-002，范围已采纳，具体机制待定。
+- [实例绑定与条件绑定采纳](D-2026-09-10-instance-and-conditional-binding.md)：SW02 / G002-CORE-008，模型已采纳，单次名单与排序待定。

@@ -1,6 +1,6 @@
 # 设计决定与后续工作
 
-状态：C01–C08全部已处理；SW01对象范围已采纳，当前推进SW02引用模型。日期：2026-09-10。核心：[Core Concept v0.6](../game-design-workflow/core-concept.md)，证据Hypothesis。
+状态：C01–C08已处理；SW01范围、SW02引用模型已采纳，当前推进SW02-A单次名单。日期：2026-09-10。核心：[Core Concept v0.6](../game-design-workflow/core-concept.md)，证据Hypothesis。
 
 用户确认“均采用推荐决策，数值设计明确重新设计”。[原话与资格记录](../game-design-workflow/idea-inbox/2026-09-10-design-interface-questions.md)、[采纳记录](../game-design-workflow/draft-changes/D-2026-09-10-accept-design-decisions.md)和[确认前建议快照](../../../archive/2026-09-10-game-002-decision-inputs/workspaces/game-002/docs/design-decisions-needed.md)建立完整追溯。
 
@@ -9,7 +9,7 @@
 | 编号 | 当前决定 | 状态 | 后续工作 |
 | --- | --- | --- | --- |
 | C01 | 特殊生命变化逐条标注伤害或生命支付；支付不自动算伤害。打断使用独立反馈，取消的释放无正常释放特效；实际发生的无效目标释放仍有特效 | Accepted：分类与反馈边界 | 具体效果及表现出现时填写标注并验证辨识度 |
-| C02 | 对象使用战前公开的固定顺序；逐对象检查材料，固定消耗不足只跳过该对象且不部分扣除，其他合法结果保留；完整法术后检查胜负，至少一对象合法结算才计一次成功，合法零值亦可满足 | Accepted：结算规则 | 明确各词义输入，验证多对象结果的可读性 |
+| C02 | 逐对象检查材料，固定消耗不足只跳过该对象且不部分扣除，其他合法结果保留；完整法术后检查胜负，至少一对象合法结算才计一次成功，合法零值亦可满足。实例既定顺序公开且固定，条件名单与排序按SW02后续细则明确 | Accepted：结算规则；引用模型按SW02 | 完善条件名单与排序，明确各词义输入并验证可读性 |
 | C03 | 保留召唤类型与单位模型；完整召唤指挥流程暂缓。推进时单独设计战前绑定的单位占位和出生位置 | Accepted：暂缓及后续方向 | 具体召唤推进时补齐容量检查、满员行为和公开敌方攻击衔接 |
 | C04 | 当前不新增专属引用词卡；若采用C03的战前单位占位，以占位身份记录指向，不自动转向其他单位 | Accepted：当前资源边界与条件方向 | 随C03设计占位生命周期，当前没有完整占位机制 |
 | C05 | 法杖起始资源和镶嵌细则后置；公开固定货架、同种候选去重、一层事件响应及每战计数重置仅作届时评议方案 | Accepted：暂缓 | 具体法杖或镶嵌进入设计时明确起点、槽位、持有、获取与触发 |
@@ -19,7 +19,7 @@
 
 ## 执行顺序
 
-先依据[已确认的语义世界范围](../game-design-workflow/idea-materials/M-2026-09-10-semantic-world-object-scope.md)推进引用与具体操作。SW02首先解决新生对象，再逐项明确SW03–SW07；确认结果作为数值重设计输入，随后确定目标节奏、攻防、时间、词表和成长参数，并进行逐刻与跨战验证。具体参数仍须重新建立。
+先依据[已确认的范围](../game-design-workflow/idea-materials/M-2026-09-10-semantic-world-object-scope.md)与[两种引用模型](../game-design-workflow/idea-materials/M-2026-09-10-instance-and-conditional-binding.md)完善SW02-A单次名单，再处理排序与SW03–SW07。确认结果作为数值重设计输入，随后确定节奏、攻防、时间、词表和成长参数，并进行逐刻与跨战验证。
 
 召唤、镶嵌和BF1–BF3按表内触发条件独立推进。暂缓是已经采用的范围决定，具体细则仍为Unknown，不作为当前可执行机制。当前无需再次选择C01–C08；新内容若产生新的冲突，再单独登记。
 
@@ -29,15 +29,19 @@
 
 来源：[用户确认记录](../game-design-workflow/idea-inbox/2026-09-10-semantic-world-object-scope.md)、[正式范围素材](../game-design-workflow/idea-materials/M-2026-09-10-semantic-world-object-scope.md)及[采纳文本](../game-design-workflow/draft-changes/D-2026-09-10-semantic-world-object-scope.md)。决策编号G002-SCOPE-002，范围已写入核心。
 
-范围确认不自动改变当前基础法术的固定目标、位置及循环规则。具体机制仍需回答对象如何被引用、何时能介入、能产生什么变化及付出什么代价。
+引用模型已由SW02确认；位置和基础循环继续按当前规则执行。具体机制仍需明确单次名单、介入时段、变化结果与代价。
 
-## 当前资格问题：SW02
+## 已采纳引用模型：SW02
 
-推荐保留“点名对象”的固定实例绑定，同时新增“战前固定选择条件、释放时自动匹配当前对象”的条件绑定，让符合条件的新生对象参与法术。两者并存的模型尚待用户确认；本次名单时点、顺序、句式和生命周期的细则也尚未采纳。
+用户确认两种方式并存：实例绑定保持对象身份，失效跳过且不自动改指向；条件绑定战前固定选择条件，每次释放匹配当前对象，包括符合条件的新生对象。状态Accepted / Reference Model，决策G002-CORE-008，证据Hypothesis。
 
-[SW02候选](../game-design-workflow/idea-inbox/2026-09-10-semantic-world-object-scope.md)已包含两种方案比较与新生火球、对象同名替换、本次生成及失效等纸面推演。条件绑定会改变当前固定对象集合规则，需用户选择后再局部晋级与采纳。
+来源：[确认与边界记录](../game-design-workflow/idea-inbox/2026-09-10-semantic-world-object-scope.md)、[正式引用素材](../game-design-workflow/idea-materials/M-2026-09-10-instance-and-conditional-binding.md)、[采纳文本](../game-design-workflow/draft-changes/D-2026-09-10-instance-and-conditional-binding.md)。单次名单、排序、句式和生命周期不随模型确认自动采纳。
 
-其余边界继续登记于同一inbox：SW03位置与结构变化、SW04多端点表达、SW05过程与节拍、SW06局部环境机制、SW07配置与资源权限。当前先处理SW02，不要求同时回答全部分支。
+## 当前资格问题：SW02-A
+
+推荐每次在完整法术开始处理时确定一次直接对象名单，此后不重选或追加；逐对象仍检查当前合法性与材料。本次产生或新符合条件的对象留到后续释放匹配。该名单边界尚待用户确认；具体排序、重叠引用及间接连锁仍分别设计。
+
+名单比较和新生、失效、条件变化情境见[本次inbox](../game-design-workflow/idea-inbox/2026-09-10-semantic-world-object-scope.md)。SW03空间与结构、SW04表达、SW05过程与节拍、SW06环境、SW07配置资源继续保留，当前先回答名单时点这一项。
 
 ## 素材入口
 
@@ -45,3 +49,4 @@
 - [数值重新设计约束](../game-design-workflow/idea-materials/M-2026-09-10-numerical-redesign-constraints.md)。
 - [全部正式素材](../game-design-workflow/idea-materials/README.md)。
 - [语义世界范围采纳交付](semantic-world-scope-adoption.md)。
+- [两种引用采纳交付](semantic-world-binding-adoption.md)。

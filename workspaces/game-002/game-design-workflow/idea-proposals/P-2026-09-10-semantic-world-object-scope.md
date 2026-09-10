@@ -41,4 +41,4 @@
 
 ## 当前疑问
 
-SW02–SW07的引用、位置、句式、时序、环境和资源权限仍待设计，见[决定清单](../../docs/design-decisions-needed.md)。已确认的范围无法独立证明完整系统可玩；[评估](../evaluations/E-2026-09-10-semantic-world-object-scope.md)只判断范围推进。
+SW02引用模型已由[两种绑定提案](P-2026-09-10-instance-and-conditional-binding.md)及其采纳明确；单次名单、排序与SW03–SW07细则仍待设计，见[决定清单](../../docs/design-decisions-needed.md)。已确认的范围无法独立证明完整系统可玩；[评估](../evaluations/E-2026-09-10-semantic-world-object-scope.md)保留范围阶段的判断。

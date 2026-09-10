@@ -1,5 +1,7 @@
 # 推荐决策采纳与数值重设计
 
+本页保存C01–C08采纳时文本与来源；对象引用及顺序的现行适用范围见[SW02采纳](D-2026-09-10-instance-and-conditional-binding.md)与[当前接口素材](../idea-materials/M-2026-09-10-accepted-design-interfaces.md)。
+
 ## 修改目标
 
 更新核心的时间合成、伤害反馈、逐对象处理、成功事件、收益资格和后置范围，形成Core Concept v0.6 / Stable Design Baseline。证据Hypothesis。

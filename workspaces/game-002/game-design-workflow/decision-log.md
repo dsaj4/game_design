@@ -5,7 +5,7 @@
 | ID | 日期 | 决定 | 状态与证据 | 来源 |
 | --- | --- | --- | --- | --- |
 | G002-ADMIN-001 | 2026-09-05 | 建立独立工作区，仅共享方法、结构与规范 | Accepted / Administration | 原始决策完整记录见下方 |
-| G002-CORE-006 | 2026-09-09 | 战前完整库存构句、一组合一循环法术、一法术一法杖；配置顺序、固定目标、0–10刻首次冷却与自动循环；同刻四阶段、生命伤害打断冷却、胜利终止、整体战后收益 | Accepted：当前核心的配置与循环依据；Hypothesis | [核心](core-concept.md)、[战前配置适用文本](draft-changes/D-2026-09-09-prebattle-spell-wand-assembly.md) |
+| G002-CORE-006 | 2026-09-09 | 战前完整库存构句、一组合一循环法术、一法术一法杖；配置顺序、0–10刻首次冷却与自动循环；同刻四阶段、生命伤害打断冷却、胜利终止、整体战后收益；目标引用适用G002-CORE-008 | Accepted：配置与循环依据；目标引用已按SW02完善；Hypothesis | [核心](core-concept.md)、[战前配置适用文本](draft-changes/D-2026-09-09-prebattle-spell-wand-assembly.md) |
 | G002-DOC-001 | 2026-09-10 | 按用户授权逐份统一文档并保存原始快照；兼容部分保留，接口集中呈现；用户采纳范围按G002-CORE-007与G002-SCOPE-001执行 | Accepted / Documentation；Hypothesis | [文档统一](draft-changes/D-2026-09-10-current-design-alignment.md)、[决定清单](../docs/design-decisions-needed.md) |
 
 ## 决策证据索引
@@ -35,4 +35,12 @@ C01–C08按用户批量确认全部处理，当前没有本轮遗留人工冲�
 | --- | --- | --- | --- | --- |
 | G002-SCOPE-002 | 2026-09-10 | SW01：实体、部件、材料、属性状态、空间关系及飞行物、敌方攻击、法术冷却等过程纳入法术对象设计范围；各类按明确能力开放操作；胜负判定、全局结算顺序等基础规则保持固定 | Accepted / Scope；Hypothesis。具体引用与操作机制待定，Core Concept v0.6基础执行规则继续适用 | [用户确认](idea-inbox/2026-09-10-semantic-world-object-scope.md)、[范围素材](idea-materials/M-2026-09-10-semantic-world-object-scope.md)、[提案](idea-proposals/P-2026-09-10-semantic-world-object-scope.md)、[评估](evaluations/E-2026-09-10-semantic-world-object-scope.md)、[采纳文本](draft-changes/D-2026-09-10-semantic-world-object-scope.md) |
 
-下一步为SW02新生对象引用。SW02–SW07的候选建议尚未采纳；数值重新设计继续执行。
+SW01范围的后续引用模型已按G002-CORE-008确认；单次名单与其余具体机制继续设计，数值重新设计继续执行。
+
+## 两种引用并存
+
+| ID | 日期 | 决定 | 状态与证据 | 来源 |
+| --- | --- | --- | --- | --- |
+| G002-CORE-008 | 2026-09-10 | SW02：实例绑定保持所指身份，失效跳过、不自动改指向；条件绑定战前固定选择条件，每次释放自动匹配当前对象，符合条件的新生对象可参与。两种方式并存，战前配置与既有语义、范围和材料约束继续适用 | Accepted / Reference Model；Hypothesis。名单时点、排序及具体表达尚待设计 | [用户确认](idea-inbox/2026-09-10-semantic-world-object-scope.md)、[素材](idea-materials/M-2026-09-10-instance-and-conditional-binding.md)、[采纳文本](draft-changes/D-2026-09-10-instance-and-conditional-binding.md) |
+
+当前问题为SW02-A：单次释放的名单边界。用户对两种方式并存的确认不自动采纳其他名单、排序、空间或过程细则。
