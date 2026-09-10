@@ -10,6 +10,7 @@
 
 | 日期 | 素材 | 来源 | 证据状态 |
 | --- | --- | --- | --- |
+| 2026-09-10 | [法术改变战场状态的体验与表现要求](M-2026-09-10-battlefield-state-change-expression.md) | [原始表达及用户范围修正](../idea-inbox/2026-09-10-battlefield-physical-transformations.md) | Hypothesis；描述地形、建筑、敌人与自身的变化过程和结果；具体卡牌与环境机制后置，未修改核心 |
 | 2026-09-06 | [召唤词引用与目标锁定](M-2026-09-06-summon-word-references-and-target-locking.md) | [SR1-SR6 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#召唤词引用与目标锁定整组确认记录) | Hypothesis；普通种类词可新召唤或引用一只同种己方单位，专属卡保持固定绑定；受术目标依句义另定，确认时锁身份，必需对象失效沿既有落空，普通词不随对象清理；词性集合与卡包适配后定 |
 | 2026-09-06 | [召唤物共存与场上容量](M-2026-09-06-summon-coexistence-and-field-capacity.md) | [SN1-SN5 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#召唤物共存与场上容量整组确认记录) | Hypothesis；基础单次一单位、同种独立共存、共用总上限，实际离场释放名额；满员不能启动、不自动替换，启动不预占且结算复查，无空位则落空；种类词引用已关联 SR1-SR6，具体上限和特殊能力后定 |
 | 2026-09-06 | [召唤关联卡生成与入手](M-2026-09-06-summon-reference-generation-and-hand-entry.md) | [SC1-SC6 整组确认](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md#召唤关联卡生成与入手整组确认记录) | Hypothesis；每新单位一张关联卡，原投入词正常弃置；完整检查后有效卡直接入手，超限暂停弃牌，固定补牌独立且同刻不能抢施法；临时卡不占本局三张额度，单位共存与容量规则已关联 SN1-SN5，具体上限和效果后定 |
