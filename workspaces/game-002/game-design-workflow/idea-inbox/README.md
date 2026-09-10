@@ -1,6 +1,6 @@
 # game-002 原始表达与候选入口
 
-共12份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
+共13份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
 
 | 记录 | 状态 |
 | --- | --- |
@@ -16,5 +16,6 @@
 | [简易法术词汇候选](2026-09-07-simple-spell-word-candidates.md) | 状态：Raw Idea / Unqualified / Parked。Project ID：game-002。 |
 | [战场变化的体验要求](2026-09-10-battlefield-physical-transformations.md) | 状态：表现范围 Promoted；具体机制 Raw Idea / Unqualified / Parked。Project ID：game-002。 |
 | [设计接口推荐决策确认](2026-09-10-design-interface-questions.md) | 状态：Promoted（规则、范围与数值重设计约束）。日期：2026-09-10。具体后置机制与参数保持Unknown。 |
+| [语义战斗世界与法术可操作对象范围](2026-09-10-semantic-world-object-scope.md) | Raw Idea / Unqualified；对象图谱、能力矩阵、求值框架及SW01–SW07边界已整理，先确认SW01操作层级。 |
 
-C01–C08已按[用户确认](2026-09-10-design-interface-questions.md)处理。下一步开展[数值重设计](../../docs/numerical-redesign.md)，后置子系统依决定清单的触发条件推进。
+C01–C08已按[用户确认](2026-09-10-design-interface-questions.md)处理。当前按用户新要求先推进[语义世界对象范围](2026-09-10-semantic-world-object-scope.md)；[数值重设计](../../docs/numerical-redesign.md)继续保留，参数输入须与对象和操作范围对齐。
