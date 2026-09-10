@@ -1,5 +1,8 @@
 # 语义世界剩余决策总表
 
+当前范围已按[用户简化指令](2026-09-10-simple-object-interactions.md)修订；本文件保留范围/引用/执行框架的原话与阶段来源，当前操作权限见[简化素材](../idea-materials/M-2026-09-10-simple-object-interactions.md)。位移、结构、材料加工与指定端点不再是当前推进事项。
+
+
 状态：Promoted / Accepted；用户已对R01–R32回复“均采用推荐”，32项规则已全部采纳。Project ID：game-002。日期：2026-09-10。
 
 ## 原始想法

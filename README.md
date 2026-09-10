@@ -4,7 +4,7 @@
 
 ## 当前工作区
 
-- **[game-002：《言咒》](workspaces/game-002/README.md)**：默认独立工作区，Core Concept v0.6 / Stable Design Baseline。完整库存战前构句、循环法术与法杖配置、自动战斗及整体战后收益已形成核心；44份合格素材，证据Hypothesis。SW01对象范围、SW02实例/条件引用与SW02-A单次名单已确认，R01–R32执行框架已全部采纳，当前完善对象、词卡与参数。入口为[设计决定与后续工作](workspaces/game-002/docs/design-decisions-needed.md)和[本次文档验收](workspaces/game-002/docs/semantic-world-rules-adoption.md)。
+- **[game-002：《言咒》](workspaces/game-002/README.md)**：默认独立工作区，Core Concept v0.6 / Stable Design Baseline。完整库存战前构句、循环法术与法杖配置、自动战斗及整体战后收益已形成核心；45份合格素材，证据Hypothesis。SW01对象范围、SW02实例/条件引用与SW02-A单次名单已确认，执行框架按G002-CORE-011收束为简单对象变化、法术生成物与对象掉卡；当前完善具体词义与参数。入口为[设计决定与后续工作](workspaces/game-002/docs/design-decisions-needed.md)和[本次文档验收](workspaces/game-002/docs/semantic-world-rules-adoption.md)。
 - **[上一款游戏归档](archive/2026-09-05-core-card-project/README.md)**：Parked / Archived，2026-09-05 暂停。
 
 [玩法探索区](exploration/README.md)已建立最小骨架：[game-002 优化](exploration/game-002-optimization/README.md)已激活核心设计背景包 `baseline-2026-09-09-001`，[独立肉鸽探索](exploration/new-roguelike/README.md)从空白背景开始。[项目注册表](exploration/registry/project-registry.md)明确两者权限；尚未运行模拟或起草探索 GDD。架构已确认，见[玩法探索区框架](docs/architecture/game-exploration-framework.md)。

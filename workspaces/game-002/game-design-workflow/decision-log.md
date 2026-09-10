@@ -1,5 +1,7 @@
 # game-002 决策记录
 
+当前生效范围以G002-CORE-011的简单对象交互修订为准；下方保留各次决策发生时的文字与来源，早先开放的位移、结构、取材和指定端点权限不再作为当前工作范围。
+
 ## 当前生效决定
 
 | ID | 日期 | 决定 | 状态与证据 | 来源 |
@@ -60,3 +62,11 @@ SW02采纳只包含引用模型；用户随后单独确认SW02-A，见下表。
 | G002-CORE-010 | 2026-09-10 | 用户全部采用R01–R32推荐：明确对象与能力、条件与成本、位移与身份、复合对象短语、多端点、过程窗口及改期、释放开始仲裁、环境反应、配置资源与跨战权限 | Accepted / Semantic World Rules；Hypothesis。32项无遗留人工选择；内容、数值与体验待验证 | [用户确认](idea-inbox/2026-09-10-semantic-world-remaining-decisions.md)、[32条正式规则](idea-materials/M-2026-09-10-semantic-world-executable-rules.md)、[提案](idea-proposals/P-2026-09-10-semantic-world-executable-rules.md)、[评估](evaluations/E-2026-09-10-semantic-world-executable-rules.md)、[采纳文本](draft-changes/D-2026-09-10-semantic-world-executable-rules.md) |
 
 R12允许明确法术位移与结构变化；R17允许明示独立遗体；R18允许名词位复合短语；R23允许改变当前剩余冷却；R24在释放开始仲裁共享槽。现用相关规则均按本决定同步，既有决定的采纳时文字从原始记录追溯。完整召唤、法杖起始资源与镶嵌、BF1–BF3仍后置；数值重新设计继续有效。
+
+## 2026-09-10：简化对象交互与法术生成物
+
+| ID | 日期 | 决定 | 状态与证据 | 来源 |
+| --- | --- | --- | --- | --- |
+| G002-CORE-011 | 2026-09-10 | 以对象数量/状态变化为主；暂缓位移、连接、支撑、独立空间参照、定向/指定端点、环境份额/容器/配方/搬运加工；收集止于对象掉卡；增加火焰、雷电、冰霜等真实法术生成对象；允许继续设计不指定方向的抵挡/反弹及非指定接收者的作用转移 | Accepted / Scope and Flow；Hypothesis。具体效果与数值Unknown | [用户原话](idea-inbox/2026-09-10-simple-object-interactions.md)、[素材](idea-materials/M-2026-09-10-simple-object-interactions.md)、[提案](idea-proposals/P-2026-09-10-simple-object-interactions.md)、[评估](evaluations/E-2026-09-10-simple-object-interactions.md)、[采纳](draft-changes/D-2026-09-10-simple-object-interactions.md) |
+
+这是对SW01及R01–R32当前操作范围的收束，已有身份、引用、单次名单、状态数量、时间与收益骨架继续有效。简单点燃/冰冻进入内容设计；燃料、传播、导电网络、坍塌及完整召唤/镶嵌仍后置。本轮未采纳首批候选的逻辑卡、路径/配方或介入额度。输入原文见[快照](../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)。

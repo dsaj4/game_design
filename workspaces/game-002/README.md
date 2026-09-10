@@ -4,9 +4,9 @@ Project ID：game-002。状态：Active / Stable Design Baseline。当前核心�
 
 玩家在战前使用完整词卡库存构句，每个组合对应一条循环法术；设置一法术一法杖的绑定、范围与顺序，在第0–10刻安排首次冷却。战斗自动运行，同刻按法术、敌人攻击、环境变化、状态效果处理。战后金币与法术产生的词卡整体领取或放弃。
 
-当前有44份合格素材，涵盖构句、循环、状态、目标、局内成长、战场表现、语义世界范围、两种引用及数值重设计约束。C01–C08均按推荐处理，文档统一的人工冲突已结清；召唤、镶嵌和具体环境机制按确认范围后置。数值设计重新建立，尚无正式GDD或完整对局验证结论。
+当前有45份合格素材，涵盖构句、循环、状态、目标、局内成长、战场表现、语义世界范围、两种引用及数值重设计约束。C01–C08均按推荐处理，文档统一的人工冲突已结清；召唤、镶嵌和复杂环境机制后置；简单点燃/冰冻及真实元素生成物进入当前内容设计。数值设计重新建立，尚无正式GDD或完整对局验证结论。
 
-当前[SW01对象范围](game-design-workflow/idea-materials/M-2026-09-10-semantic-world-object-scope.md)与[SW02两种引用](game-design-workflow/idea-materials/M-2026-09-10-instance-and-conditional-binding.md)已采纳：实例保持身份，条件战前固定而每次匹配当前对象，基础规则保持固定。SW02-A已确认完整法术开始处理时确定一次直接名单，本次不追加、重选或补位，仍逐对象读取当前合法性与材料。[R01–R32执行规则](game-design-workflow/idea-materials/M-2026-09-10-semantic-world-executable-rules.md)已全部采纳，允许明示位移与结构变化、复合对象短语、过程改期，并明确反应与资源权限。[首批内容草案](docs/semantic-world-content-index.md)已给出32类对象、18类能力、55个词条候选和40项代表句；新增内容保持Raw Idea / Unqualified，集中复核后进入参数设计与逐刻验证。本次文件和检查见[规则采纳交付](docs/semantic-world-rules-adoption.md)。
+当前对象范围按[简单对象交互采纳](game-design-workflow/draft-changes/D-2026-09-10-simple-object-interactions.md)收束：保留数量/状态变化，新增火焰、雷电、冰霜等真实法术生成物；收集法术作用合格对象后直接掉卡。位移、连接/支撑、指定方向/端点及环境材料加工暂缓。实例/条件引用、固定单次名单和自动循环骨架继续有效。[当前内容入口](docs/semantic-world-content-index.md)包含13个条目、10类作用与12项纸面情境；具体词义与参数待设计。
 
 - [核心构思](game-design-workflow/core-concept.md)
 - [正式素材](game-design-workflow/idea-materials/README.md)

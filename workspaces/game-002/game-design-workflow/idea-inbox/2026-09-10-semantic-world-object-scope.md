@@ -1,5 +1,8 @@
 # 语义战斗世界与法术可操作对象范围
 
+当前范围已按[用户简化指令](2026-09-10-simple-object-interactions.md)修订；本文件保留范围/引用/执行框架的原话与阶段来源，当前操作权限见[简化素材](../idea-materials/M-2026-09-10-simple-object-interactions.md)。位移、结构、材料加工与指定端点不再是当前推进事项。
+
+
 状态：SW01范围、SW02引用模型、SW02-A单次名单 Promoted / Accepted；R01–R32随后全部采纳，见[用户确认与来源总表](2026-09-10-semantic-world-remaining-decisions.md)；[首批具体对象与词卡草案](../../docs/semantic-world-content-index.md)已完成，新增条目尚未晋级，参数仍Unknown。Project ID：game-002。日期：2026-09-10。
 
 交付范围：对象层面盘点、可操作性判断、能力矩阵、引用与求值框架，以及新增边界清单。SW01已形成[范围素材](../idea-materials/M-2026-09-10-semantic-world-object-scope.md)，SW02已形成[引用素材](../idea-materials/M-2026-09-10-instance-and-conditional-binding.md)，均已采纳；名单及R01–R32框架随后均已确认。本文的阶段性讨论保留提议时背景，现行规则见[正式执行素材](../idea-materials/M-2026-09-10-semantic-world-executable-rules.md)。这里的“全部”指覆盖设计对象的类别与新增对象的检查方式，具体对象名录和动词词表尚未穷尽。

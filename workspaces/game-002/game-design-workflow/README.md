@@ -4,6 +4,6 @@
 
 新想法进入[inbox](idea-inbox/README.md)，经grill-with-docs明确来源、设计对象、玩家影响、价值、现有关系和验证方式后进入[正式素材](idea-materials/README.md)，再按[共享模板](../../../game-design-workflow/templates/README.md)组织GDD、提案、评估或Draft Change。
 
-[C01–C08](../docs/design-decisions-needed.md)已按用户确认处理；具体参数重新设计，完整召唤、镶嵌与环境机制依范围后置。正式核心变更须有明确采纳并同步[决策记录](decision-log.md)。
+[C01–C08](../docs/design-decisions-needed.md)已按用户确认处理；具体参数重新设计，完整召唤、镶嵌与复杂环境机制依范围后置。正式核心变更须有明确采纳并同步[决策记录](decision-log.md)。
 
-[语义世界对象范围SW01](idea-materials/M-2026-09-10-semantic-world-object-scope.md)与[SW02两种引用](idea-materials/M-2026-09-10-instance-and-conditional-binding.md)均已形成素材、提案、评估并采纳。SW02-A单次名单随后已采纳。[R01–R32执行规则](idea-materials/M-2026-09-10-semantic-world-executable-rules.md)随后全部采纳；[首批对象、能力、词卡与代表句草案](../docs/semantic-world-content-index.md)已完成，状态Raw Idea / Unqualified；下一步集中复核SC01–SC04和具体内容，再推进参数与逐刻验证。
+[当前简单对象交互范围](idea-materials/M-2026-09-10-simple-object-interactions.md)已按用户指令采纳：对象数量/状态变化、真实火焰/雷电/冰霜及对象掉卡。位移、结构、指定端点和材料加工暂缓。引用、名单与时序骨架继续有效；具体词义与参数见[内容入口](../docs/semantic-world-content-index.md)。

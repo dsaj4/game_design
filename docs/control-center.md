@@ -7,7 +7,7 @@
 
 | 层级 | 当前状态 | 下一步 |
 | --- | --- | --- |
-| game-002 | Active / Stable Design Baseline；44份合格素材，SW01范围、SW02引用及SW02-A名单已采纳；R01–R32已采纳；内容与参数待设计 | 进度与当前问题见[项目总控](../workspaces/game-002/docs/control-center.md) |
+| game-002 | Active / Stable Design Baseline；45份合格素材，SW01范围、SW02引用及SW02-A名单已采纳；G002-CORE-011简化对象范围已采纳；简单变化、生成物与对象掉卡细则待设计 | 进度与当前问题见[项目总控](../workspaces/game-002/docs/control-center.md) |
 | 旧项目 | 暂停，保留恢复入口和历史证据 | 仅按明确指令恢复 |
 | 共享 Wiki | 已移除旧游戏专属转化，保留通用方法与证据 | 按任务选择方法 |
 | 共享规则 | Inherited 生效，Proposed 保持候选 | 评审与集成另行跟踪 |
