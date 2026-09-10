@@ -1,10 +1,10 @@
 # 工作区地图
 
-最后更新：2026-09-09
+最后更新：2026-09-10
 
 | Project ID | 入口 | 状态 | 默认 |
 | --- | --- | --- | --- |
-| game-002 | [新游戏](../workspaces/game-002/README.md) | Active / Numerical Design & Archetype Definition | 是 |
+| game-002 | [新游戏](../workspaces/game-002/README.md) | Active / Core Concept v0.5 / Stable Design Baseline | 是 |
 | game-002-optimization | [优化探索](../exploration/game-002-optimization/README.md) | Active / Core Design Context Active | 否 |
 | new-roguelike | [独立肉鸽探索](../exploration/new-roguelike/README.md) | Skeleton Ready / Ready for Raw Exploration | 否 |
 | core-card-project | [上一款游戏](../archive/2026-09-05-core-card-project/README.md) | Parked / Archived | 否 |

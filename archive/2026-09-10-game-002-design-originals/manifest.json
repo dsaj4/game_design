@@ -1,0 +1,509 @@
+{
+  "project": "game-002",
+  "created": "2026-09-10",
+  "base_commit": "ec272ea73e810f216a3d0926c62e09bd31407200",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "f073cdf271ffefffc44f973786086dc9afdfa056e2df1e0c98a33681534ec825"
+    },
+    {
+      "path": "docs/architecture-for-beginners.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "13c8ca5533ffb1a1be67724bed5b56637bd23e602e249c2eba49653e7bd728a9"
+    },
+    {
+      "path": "docs/code-development-index.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "c282e97a7ecf0eebcdc81ba161e902438c3a57c9d2b3db1c28c56f89bd1c1fbd"
+    },
+    {
+      "path": "docs/control-center.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "c30b1f1e4a64d5e54a00bde62cb2aa5928a264b7fd2beabeb8910134eb9e768a"
+    },
+    {
+      "path": "docs/workspace-map.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "68d6eb5bad121bd1c2d9f36052db5a504f766cf9dbb0ae973f6bfb0d55cf1e48"
+    },
+    {
+      "path": "README.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "6553aa4c8cff70b55fa2b66a319a547cf15cff269f868f39adabc715f5cebf65"
+    },
+    {
+      "path": "workspaces/game-002/AGENTS.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "c24701ef4e358eb57a7b4913ea64886fae3c2e6873b92f602ae866c0f3a4c983"
+    },
+    {
+      "path": "workspaces/game-002/CONTEXT.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "1094798742cc8db66027d30f3efe0e22b263c2bdb7dc41c4c15e8812a168d6dc"
+    },
+    {
+      "path": "workspaces/game-002/docs/code-development-index.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "b56e714be91fd461ecac030a062e9f2b3d5626a99edae9e11395e8da4a4283b8"
+    },
+    {
+      "path": "workspaces/game-002/docs/control-center.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "5e7d389542c88e5026ff7b8049d6638fba67eb5e32792784379836bc2436d64b"
+    },
+    {
+      "path": "workspaces/game-002/docs/README.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "27742912835bcd3f84473315ec9d7ba7d5f600c203b5ba2205e0e7070ef19782"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/core-concept.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "8b7d1c973adc5a98efcab090a47b31350561f709d1c76055a464ac5fe60392bc"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/decision-log.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "184a78caa71b8542732991f78d92fed4fd680de2a1664cc9449158794560f516"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/draft-changes/D-2026-09-09-casting-core-pillar.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "40530997f734ccb8c4e97cd0048bd104a9d96c7a696f402d8bbcf055de2e7176"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/draft-changes/D-2026-09-09-core-system-stable-baseline.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "17173eb45b72cac0b86beec762935db1057faeb8955a9fe9712e19f99c187f4c"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/draft-changes/D-2026-09-09-prebattle-spell-wand-assembly.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "7ba71413dbe2581c9e33b282a16a8c6a5220d8b3613f17fc2028837b162e24dc"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/draft-changes/D-2026-09-09-timeline-backpack-core.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "dbd5a46f500652eb4f8439b71d3a62702fe851aa36c4caaf566f85dd3b04d2ea"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/draft-changes/D-2026-09-09-timeline-backpack-v03-confirmation.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "de9bc70f25d2e5be8b8338cff7301d685e6ccdb4e9137533af6933114e2fdf62"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/draft-changes/README.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "5a6ffc33de6d0623b37f7c8acf26fdf1a4fc62f88a452ebffb8739ec634d6d97"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/evaluations/README.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "35aa7a4ba06c61d4425eec2df7edef5c85a4119853301a360e3a4c0f045d1510"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/gdd/README.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "b503050b346abe580960b6668f32c4522d1e186a8b6191622fa4ee9f5014ff58"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-inbox/2026-09-05-deck-vocabulary-cycle.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "51e7faf91a9e86acd52a0ec6d8bfaae94b70b4944e61d4194192e094d8cdcafb"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-inbox/2026-09-05-vocabulary-cycle-alternatives.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "fc16b7d5cdbaec3d30886e74b8e8a1fcb0f9928d43ed63e208f43b9fa5e93214"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "a043903a3165094adf682ef15ccff992ff16ba48aa58eed056712ee0c8ee6f9c"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-inbox/2026-09-05-yanzhou-source.txt",
+      "state": "copied-byte-for-byte",
+      "sha256": "51719ba3602f7922a8e5b07b11e0239727286a6d3f5fcc1ba7192ac32e59819a"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "c755b460148240c6966affa1b082aa5a7c49c13892b43e3389350faeb7ea5bce"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-inbox/2026-09-07-core-numerical-framework-v01.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "29aa1af14710d3547e9970f2e4c689023c7f0455a7841402e0905614b342c21b"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-inbox/2026-09-07-global-baseline-lock-review.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "b64c232f5893c6e4191ab248ba92363911c93192eeaba21ac48283adc26c6383"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-inbox/2026-09-07-shop-and-time-based-gold.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "02e69aee9f04911d0f9821f6c679169905c7322d5d8eec88cca87385f82842cb"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-inbox/2026-09-07-simple-spell-starter-deck.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "c2568aabaef19659642c5403051cce3e29e9bac4f8879c66d9a61b33a851dbc9"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-inbox/2026-09-10-battlefield-physical-transformations.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "c117b698a45bcbe157255dc56f3d5b360336c7fa1e153c847bcb1192f6bf163c"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-inbox/README.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "ab5253eac8aa86ca79670db1230ec9d5ebd657c60be3ea6943c86eefb937b6df"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-05-battle-state-persistence.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "44b59852743ff9a2166b21e68459a081880c3248a57fffc29a8b12550156e444"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "24a0ea492742efd0e064ac191cfa9bcab2b4af7561516882dfba41b09a8436ff"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-05-fixed-grammatical-roles.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "ed9f7edbc457c025ac0f1aba9e4a9c7b7dbb8a4de1b52740fdffa7e77d2c0b9b"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-05-new-word-deck-inclusion.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "e9677e65c4fcfa24a0a4606646b44bb7ba6f69dbf24f43f24e1a912f0ac36731"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-05-normal-combat-outcomes.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "1790461340064f41a40b496b1cfef4bdbb1a9c2845229250456e7e2560bb5271"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-05-post-victory-health-persistence.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "d3e6f43c6297fa67271a4e907cac35b4b1fdd4122d0ae50f72baa5fd5cbbafe0"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-05-rest-recovery-deck-choice.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "bf9b4b34e932255b92b9071fac481747a85b0671854447d741ad9612d537935f"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-05-timeline-draw-preview.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "21ade46f17a386d2a3100b662bf117bec0562e4e8282036d00692ed3d3148e31"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-armor-identity-generation-and-persistence.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "bc9d8ba2aea3dbbfd23c61722137b872b2b7d841846d72df33fdde4f1d47e8a3"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-basic-sentence-targeting-and-locking.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "15e07bbc8f5617897149b7d2e3e234dd61fcbde4e1a84bfe8f49066c982849d2"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-branching-run-routes.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "97d73bb5e1b3fd3798de084ba8d36d5eecda6ec4827b3f1c9ecdc4ad09463e83"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-compositional-spells-and-word-meaning.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "ace22b01efe2c972d352ffa836d707611c49d55a1e4e39da58cf522923abb682"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-damage-armor-and-interruption.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "82d8b23e4923c62cc7fac64acdb65d5c71cfef02faab747c4cf039771f89191f"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "1de1934e6cd036b5d5c9bf74fb9b61a0e460f3c18f03b78b079e1046168df6ea"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "37acbccc5f05e9deae8c5c4c9bba4ec04e88f0be13bc08c1633acf83f66fa8f7"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-normal-combat-word-rewards.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "552421c007ca6d6421048225f85916b25ff11e01a3196be5f8c253ec94f4077d"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-opening-hand-guarantees.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "e0544cd4e802d9f36037508b344158239eb4212c7842b92c17932867a3b37a76"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-preset-starting-deck.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "1a27c8acf2f3a16fee6e5f84ffd8b428c6c306442ed2c52a2275dffd2858cb55"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-spell-effect-sources-and-modifiers.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "e48b98aac63beedf3d62c65bbfc05d2e887ad912d33d03af751ba9f02e189f04"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-spell-types-and-item-triggers.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "7d422cbdcdd46293d1ae8a29b65394df1dd4829001247dc569e4fccd52bcf272"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-status-reapplication-and-stacking.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "cc9f74b85655e0a94beff2e1f24940f8639715c24571cc25acab1bd9cd738dca"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-status-timing-and-expiration.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "14cb8ef57f3c053b8849ad964c4a6c0068caa4f819023c9196586cc8e1c8c340"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-status-values-and-resolution-order.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "f5adfd36a4ed8957deb06a1ed86bc42fbadd759234b7f5af1c8529862842a0f6"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-summon-coexistence-and-field-capacity.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "86f20c54d788e7bb24bcfd003eb4582fc245862fbf5ecdb73c47eaf8034f706f"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "23592ee36eded47eba66851659f4e4996d71c4f6dee5677ccfe4aa1a59312297"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-summon-health-damage-and-enemy-targeting.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "1d671d4120be744950789f2448fc8a460ddfd490b2350048e3983d2a6e060dbd"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-summon-reference-generation-and-hand-entry.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "d1f3445f6fa2a046c161b0f907667a9e20614c124f940bf440023b9ba971d130"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-summon-word-references-and-target-locking.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "80e657c01b221d3bb0fb68b34735d53044e995cec0f677ef8a174800443e0bff"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-summoned-unit-reference-card-cycle.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "c24838021d207b84a15efbde4e705f590acad60b3a00be9eef97bef976d516da"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-word-classes-and-reward-packs.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "7a00efaf00e87d03a12680b77bb4b6b351d4cc813c621ee84916ed81c320cbf4"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "a6138ef2d19dc8009261d60677f97d645539e55dcf931791f7cf1f4a4948f5ae"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-combat-item-rewards-and-settlement.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "4e4405d37b634d9daec49b86700f2e530f04c2060bf36639941721731c904e0a"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-core-numerical-framework-v01.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "b37b909b2ef813b2f1ff8762bc3fc0f328219275cd378a28840ed4040a0ca4c1"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "276b319db607257be0509b299dd5a282289be49a2c9afd6a3c96a21bf3d4a216"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-global-item-ownership-and-passive-effects.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "9a32f66621ea59c797035402b0ce98dc506b4715b411a36aee46d5ef3ba046de"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-merchandise-eligibility-and-item-limits.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "7f13976cd3c35e74155c9290e803969a588681391d02844889185a4b8a0c5cc0"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-new-run-starting-resources.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "f51bb2760868dc2f91e981792149c7cc07bc6dc972ef43beb909c85e366729fb"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-periodic-state-modifier-inheritance.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "c6e51c24bfae8e1490e9efe42bc3354c7e246ac5322474e75f8cfbbf50c3c1f9"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-shop-nodes-and-spending-opportunities.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "db68cc9e49ab8443a6e0d0b4ba2b5a1714f7a6591f6e35bf984fb8a4b7c3ae29"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-shop-shelves-and-transactions.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "276307a887f8788cc219edcbbef1f5d0480d1a87ad8d0f2ceabff57ea10e06e8"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-10-battlefield-state-change-expression.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "3397a8f21c91778e95303286e20810d7862d0d725adfbbf8a017369a986c3f3a"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-materials/README.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "9951a6803fc13e83d0b556d582d4ed657706f5935433a61aa86fda75b85e1f8f"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-proposals/README.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "7fe526939713d3e901cff308af66b79e0bee7cb15a30ad8dbce6031cf4b09cdc"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/market-reference.md",
+      "state": "already-missing",
+      "sha256": null,
+      "committed_source": "ec272ea73e810f216a3d0926c62e09bd31407200",
+      "committed_sha256": "d5633222a0af8a2420049a9dddf6d911ca9df24f0e7e120eeb6eb0b869336b89"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/README.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "6eab80eb38efbd5088cf4b4c23cd7e97b63eac9b1b2b6873244d3b0ab1ce0d05"
+    },
+    {
+      "path": "workspaces/game-002/README.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "d44c3e11ba2cc0e37e3e9e9e3f57da04152c366c00b8a2946e861a62738869d4"
+    },
+    {
+      "path": "workspaces/game-002/research/00-index-and-roadmap/current-questions.md",
+      "state": "already-missing",
+      "sha256": null,
+      "committed_source": "ec272ea73e810f216a3d0926c62e09bd31407200",
+      "committed_sha256": "1f38da9980b75bc498aee53c501345eef8b627d2c53ae5ffc2368cd36a91c810"
+    },
+    {
+      "path": "workspaces/game-002/research/00-index-and-roadmap/learning-roadmap.md",
+      "state": "already-missing",
+      "sha256": null,
+      "committed_source": "ec272ea73e810f216a3d0926c62e09bd31407200",
+      "committed_sha256": "ff60f09adcc8f36cf68948d5a7a1c1c9db496718089f4caf1001b4f43b0f43c2"
+    },
+    {
+      "path": "workspaces/game-002/research/00-index-and-roadmap/README.md",
+      "state": "already-missing",
+      "sha256": null,
+      "committed_source": "ec272ea73e810f216a3d0926c62e09bd31407200",
+      "committed_sha256": "2bc2bf073489d97fe3927486f18b8963783fd5212d066144653dc682a9214d4f"
+    },
+    {
+      "path": "workspaces/game-002/research/00-index-and-roadmap/research-log.md",
+      "state": "already-missing",
+      "sha256": null,
+      "committed_source": "ec272ea73e810f216a3d0926c62e09bd31407200",
+      "committed_sha256": "e772ecdfd9df7463035a9e4dd9c8a3e45ea20e52875e377d33ab4414848992c5"
+    },
+    {
+      "path": "workspaces/game-002/research/01-theory-library/README.md",
+      "state": "already-missing",
+      "sha256": null,
+      "committed_source": "ec272ea73e810f216a3d0926c62e09bd31407200",
+      "committed_sha256": "55da8b18969eeb83ee821498e74710e9d1b8b3f3bfb658b882eedb22f4f51854"
+    },
+    {
+      "path": "workspaces/game-002/research/02-theory-digests/README.md",
+      "state": "already-missing",
+      "sha256": null,
+      "committed_source": "ec272ea73e810f216a3d0926c62e09bd31407200",
+      "committed_sha256": "c30ead3e9deeb044942f7419702dc7b0616f59a35012c8046e7ac692b663f15c"
+    },
+    {
+      "path": "workspaces/game-002/research/03-product-case-studies/2026-09-09-prebattle-ui-reference.md",
+      "state": "copied-byte-for-byte",
+      "sha256": "e2a332167ff73cb8f138df2370876cb97f06c901ca58fa2f962881ce4f55af6a"
+    },
+    {
+      "path": "workspaces/game-002/research/03-product-case-studies/README.md",
+      "state": "already-missing",
+      "sha256": null,
+      "committed_source": "ec272ea73e810f216a3d0926c62e09bd31407200",
+      "committed_sha256": "ec02a16887c4ffb9bf832e652348c643080a10354e9a94c9267b9b2bcf7fc3e5"
+    },
+    {
+      "path": "workspaces/game-002/research/04-cross-game-comparisons/README.md",
+      "state": "already-missing",
+      "sha256": null,
+      "committed_source": "ec272ea73e810f216a3d0926c62e09bd31407200",
+      "committed_sha256": "6b07db7d5c902e9daeb00a8e52439c2e255e5a8ef805b3a94eafd8b49e7fda4a"
+    },
+    {
+      "path": "workspaces/game-002/research/05-design-hypotheses/README.md",
+      "state": "already-missing",
+      "sha256": null,
+      "committed_source": "ec272ea73e810f216a3d0926c62e09bd31407200",
+      "committed_sha256": "765637d645fcd27dee89dcf4413ead58ffce48ac2b25dff51926aac8f63a9842"
+    },
+    {
+      "path": "workspaces/game-002/research/06-prototype-insights/2026-09-07-simple-spell-opening-battle.md",
+      "state": "already-missing",
+      "sha256": null,
+      "committed_source": "ec272ea73e810f216a3d0926c62e09bd31407200",
+      "committed_sha256": "59aa104b666072681309f53368867c60f9d8e6db52f1e6e4b92c5f2aa1100159"
+    },
+    {
+      "path": "workspaces/game-002/research/06-prototype-insights/2026-09-07-simple-spell-simulation-data.json",
+      "state": "already-missing",
+      "sha256": null,
+      "committed_source": "ec272ea73e810f216a3d0926c62e09bd31407200",
+      "committed_sha256": "0e22d30795109b83013b3bc7b0a073410850c0f67a21aa25892b235e378e96ca"
+    },
+    {
+      "path": "workspaces/game-002/research/06-prototype-insights/README.md",
+      "state": "already-missing",
+      "sha256": null,
+      "committed_source": "ec272ea73e810f216a3d0926c62e09bd31407200",
+      "committed_sha256": "74a45d658eaff2280266eb3a1e413dcc45405a54a4afa5351280722dcf0d0b75"
+    },
+    {
+      "path": "workspaces/game-002/research/07-spaced-review/README.md",
+      "state": "already-missing",
+      "sha256": null,
+      "committed_source": "ec272ea73e810f216a3d0926c62e09bd31407200",
+      "committed_sha256": "42b8b14f3e8bec700ec9f18298e116b77de2085f650161d4866e4a6aef8c5c5d"
+    },
+    {
+      "path": "workspaces/game-002/research/README.md",
+      "state": "already-missing",
+      "sha256": null,
+      "committed_source": "ec272ea73e810f216a3d0926c62e09bd31407200",
+      "committed_sha256": "2c8c425041f0c83fa045610ca8ae0b302ca9e874462250a04035529bfcee9175"
+    },
+    {
+      "path": "workspaces/game-002/research/source-index.md",
+      "state": "already-missing",
+      "sha256": null,
+      "committed_source": "ec272ea73e810f216a3d0926c62e09bd31407200",
+      "committed_sha256": "e5ae19b867c71bcab166bcb31dfe81c4b816266c1fbd49e7e8a202943142ac7a"
+    }
+  ]
+}

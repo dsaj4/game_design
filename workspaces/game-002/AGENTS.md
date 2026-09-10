@@ -1,29 +1,24 @@
 # game-002 工作区约束
 
-继承仓库根 AGENTS.md 的流程、资格闸门、设计/代码隔离和提交推送要求。
-本目录是工作区根 W，项目路径不得写到仓库根的旧位置。
+继承仓库根AGENTS.md的资格闸门、设计与代码隔离、分支及提交推送要求。本目录为工作区根W。
 
-- 本项目与上一款游戏无关。当前玩法依据本工作区已确认素材及首轮基线，禁止从旧项目补全。
-- 先读本目录 README.md、CONTEXT.md、game-design-workflow/core-concept.md、decision-log.md 和 research/00-index-and-roadmap/current-questions.md。
-- 素材检索、提案、评估、研究与开发索引仅针对本工作区。
-- 共享模板只使用 ../../game-design-workflow/templates/README.md 清单。
-- 共享知识见 ../../docs/shared-knowledge.md，Proposed 规则不自动升级。
-- 只有用户明确要求才查阅归档，跨项目内容必须重新记录来源并资格确认。
+## 当前依据
 
-## 提问方式（用户更新：2026-09-06）
+- [核心](game-design-workflow/core-concept.md)：Accepted / Core Concept v0.5 / Stable Design Baseline；证据Hypothesis。
+- 进入时读本目录README、CONTEXT、核心、decision-log和[人工待决清单](docs/design-decisions-needed.md)。本清单为当前问题入口。
+- 素材审查以[正式素材索引](game-design-workflow/idea-materials/README.md)与[inbox](game-design-workflow/idea-inbox/README.md)为准；来源快照只用于证据追溯，不作为现行规则入口。
+- 本项目独立于其他游戏；共享模板只使用仓库根登记清单。
 
-用户要求改为一次集中对齐一个小板块的所有相关问题，来源见[沟通方式调整](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#按小板块集中提问的沟通方式调整)。本项目后续澄清按此偏好执行，替代此前每轮只确认一个细点的默认方式。
+## 设计处理
 
-- 继续使用 grill-with-docs 先查已有文档，再提出缺失问题；已确认内容作为前提，不重复询问。
-- 每轮围绕一个边界清楚的小板块，集中列出相关待决问题、编号、逐项推荐方案及整组主要取舍；不把无关系统塞进同一轮。
-- 用户可整组确认或按编号调整。涉及依赖的改动应重新检查整组是否一致，未明确的部分继续保留待定。
-- 提问方式调整不改变资格闸门：未确认建议留在 inbox，只有明确确认且达到门槛的内容才能扩充合格素材。数值、具体词卡和界面按既有要求后置。
+- 保持完整库存战前配置、自动循环、法杖固定目标与顺序、同刻四阶段、整体战后收益的一致表述。
+- 使用grill-with-docs先查文档。用户已经决定的事项不重复提问；一次集中处理边界相关的小组，可按编号批量选择。
+- 待决清单的建议都是候选。用户确认后，先在inbox记录并完成局部资格确认，再更新适用素材；改核心需Draft Change与决策记录。
+- 镶嵌具体机制、BF1–BF3具体环境机制按用户要求后置；不能为完善文档自行补齐。
+- 保留素材证据Hypothesis；文档一致、规则已确认和体验已验证分别判断。
 
-## 全局收口方式（用户更新：2026-09-07）
+## 文档维护
 
-用户要求“确认。接下来一次性确认其余全局设计问题，我将开始基础数值设计和流派定轨”，来源见[沟通方式更新](game-design-workflow/idea-inbox/2026-09-05-yanzhou-core-combat.md#全局收口沟通方式更新)。本阶段以[全局设计收口确认包](game-design-workflow/idea-inbox/2026-09-07-global-baseline-lock-review.md)集中对齐，替代每轮只展开一个小板块的节奏。
-
-- NR1-NR3 与 F01-F15 已分别获用户确认。现行首轮口径见[首轮全局设计基线](game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md)，原总包保留确认来源；本阶段已收口。
-- 首轮全局规则已集中审查。具体参数与后置扩展按基线区分；新参数和流派构思沿素材流程记录，不再逐项发起全局访谈。
-- 当前工作转入基础数值与流派定轨，不再次请求整包确认。只有实际新内容超出既定范围或相邻规则冲突，才补必要的局部问题。
-- 资格闸门、来源追踪、GDD 与代码隔离、Git 提交推送要求继续有效；基线确认不等于体验已验证或核心 Accepted。
+- 各现用文件直接陈述当前规则和明确Unknown；用户原话与完整确认过程从对应来源链接追溯。
+- 新改动同步受影响素材、词汇、索引及来源关系，禁止仅加提示却保留互相矛盾的正文。
+- 验收范围见[审查报告](docs/design-alignment-audit.md)。历史证据不删除、不改写。
