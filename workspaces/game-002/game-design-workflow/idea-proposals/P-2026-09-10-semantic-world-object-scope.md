@@ -41,4 +41,4 @@
 
 ## 当前疑问
 
-SW02引用模型已由[两种绑定提案](P-2026-09-10-instance-and-conditional-binding.md)及其采纳明确；单次名单、排序与SW03–SW07细则仍待设计，见[决定清单](../../docs/design-decisions-needed.md)。已确认的范围无法独立证明完整系统可玩；[评估](../evaluations/E-2026-09-10-semantic-world-object-scope.md)保留范围阶段的判断。
+SW02引用模型已由[两种绑定提案](P-2026-09-10-instance-and-conditional-binding.md)及其采纳明确；SW02-A单次名单随后已确认；排序与SW03–SW07细则仍待设计，见[决定清单](../../docs/design-decisions-needed.md)。已确认的范围无法独立证明完整系统可玩；[评估](../evaluations/E-2026-09-10-semantic-world-object-scope.md)保留范围阶段的判断。

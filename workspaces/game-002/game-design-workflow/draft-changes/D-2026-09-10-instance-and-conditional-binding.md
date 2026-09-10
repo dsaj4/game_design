@@ -2,6 +2,8 @@
 
 状态：Accepted / SW02引用模型。决策：G002-CORE-008。证据：Hypothesis。
 
+本文保留SW02采纳时文本；其中关于名单时点待定的记载属于当时状态。后续SW02-A已按[单次名单采纳](D-2026-09-10-single-release-target-list.md)确认；当前剩余问题见[总表](../idea-inbox/2026-09-10-semantic-world-remaining-decisions.md)。
+
 ## 修改目标
 
 在Core Concept v0.6内完善目标引用规则：实例绑定与条件绑定并存。同步当前目标、逐对象处理、预览及单位身份表述，单次名单和排序细则保持待定。

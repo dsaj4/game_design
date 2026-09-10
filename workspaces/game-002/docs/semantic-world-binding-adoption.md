@@ -1,5 +1,7 @@
 # SW02两种引用模型采纳交付
 
+本文为提交7876e34时的交付与检查记录，以下待决描述和检查数量均对应当时状态。SW02-A随后已确认，当前交付见[单次名单采纳](semantic-world-target-list-adoption.md)，剩余问题见[总表](../game-design-workflow/idea-inbox/2026-09-10-semantic-world-remaining-decisions.md)。
+
 日期：2026-09-10。状态：Accepted / Reference Model。决策：G002-CORE-008。核心：Core Concept v0.6。证据：Hypothesis。
 
 ## 已完成的规则确认

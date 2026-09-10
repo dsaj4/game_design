@@ -1,6 +1,6 @@
 # 实例绑定与条件绑定提案
 
-状态：Proposal；SW02模型已确认，完整交互待设计。证据：Hypothesis。
+状态：Proposal；SW02模型与SW02-A单次名单已确认，完整交互待设计。证据：Hypothesis。
 
 ## 提案名称
 
@@ -8,7 +8,7 @@
 
 ## 来源想法
 
-[实例绑定与条件绑定合格素材](../idea-materials/M-2026-09-10-instance-and-conditional-binding.md)。不引入inbox尚未确认的名单时点和排序规则。
+[实例绑定与条件绑定合格素材](../idea-materials/M-2026-09-10-instance-and-conditional-binding.md)。包含用户随后确认的SW02-A单次名单边界；排序及其他inbox候选仍不作为规则。
 
 ## 核心玩法假设
 
@@ -27,7 +27,7 @@
 
 ## 最小可验证原型
 
-- 原型形式：名单规则明确后的纸面场景。
+- 原型形式：按已确认名单边界走查新生、失效、条件变化和同名补位的纸面场景。
 - 核心问题：同名替换、新生对象及本次产生对象能否得到唯一解释。
 - 成功信号：不同引用结果可由配置和世界状态推导。
 - 失败信号：身份被暗中替换，或一次释放无法确定处理范围。
@@ -40,4 +40,4 @@
 
 ## 当前疑问
 
-单次名单、排序、重复引用与具体条件表达仍待确认；详见[决定清单](../../docs/design-decisions-needed.md)。模型采纳见[评估](../evaluations/E-2026-09-10-instance-and-conditional-binding.md)与[Draft Change](../draft-changes/D-2026-09-10-instance-and-conditional-binding.md)。
+SW02模型与SW02-A单次名单已确认：完整法术开始处理时确定直接名单，本次不重选、追加或补位，逐对象仍读取当前合法性与材料，新符合条件对象留到后续释放。排序、重复引用与具体条件表达等见[剩余决策总表](../idea-inbox/2026-09-10-semantic-world-remaining-decisions.md)。采纳见[评估](../evaluations/E-2026-09-10-instance-and-conditional-binding.md)、[模型采纳](../draft-changes/D-2026-09-10-instance-and-conditional-binding.md)与[名单采纳](../draft-changes/D-2026-09-10-single-release-target-list.md)。

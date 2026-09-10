@@ -35,7 +35,7 @@
 
 特殊生命变化明确标注伤害或生命支付；生命支付不自动满足打断条件。打断有独立反馈，取消的本次释放没有正常释放特效。实际进入释放的无效对象尝试保留释放特效。
 
-[SW01](M-2026-09-10-semantic-world-object-scope.md)已将敌方攻击和法术冷却等过程纳入可操作对象的设计范围；[SW02](M-2026-09-10-instance-and-conditional-binding.md)已确认两种引用模型，单次名单、介入时段和修改时序的具体效果仍待设计。上述循环规则继续适用于当前已定义的基础法术，胜负判定和全局结算顺序保持固定。
+[SW01](M-2026-09-10-semantic-world-object-scope.md)已将敌方攻击和法术冷却等过程纳入可操作对象的设计范围；[SW02](M-2026-09-10-instance-and-conditional-binding.md)已确认两种引用模型与SW02-A单次名单；过程介入时段和修改时序的具体效果仍待设计。上述循环规则继续适用于当前已定义的基础法术，胜负判定和全局结算顺序保持固定。
 
 ## 设计对象与 GDD 映射
 
@@ -81,7 +81,7 @@
 
 ## 使用记录
 
-2026-09-10：按[SW02两种引用采纳](../draft-changes/D-2026-09-10-instance-and-conditional-binding.md)同步本素材的当前引用适用范围；单次名单与排序仍待确认，证据Hypothesis。
+2026-09-10：按[SW02两种引用采纳](../draft-changes/D-2026-09-10-instance-and-conditional-binding.md)同步引用范围；随后按[SW02-A名单采纳](../draft-changes/D-2026-09-10-single-release-target-list.md)明确每次开始处理时的直接名单，本次不追加、重选或补位，逐对象检查当前合法性与材料。排序等细则待确认，证据Hypothesis。
 
 | 日期 | 目标 | 处理结果 | 边界 |
 | --- | --- | --- | --- |

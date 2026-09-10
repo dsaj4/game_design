@@ -11,4 +11,5 @@
 
 - [推荐决策采纳与数值重设计](D-2026-09-10-accept-design-decisions.md)
 - [语义世界对象范围采纳](D-2026-09-10-semantic-world-object-scope.md)：SW01 / G002-SCOPE-002，范围已采纳，具体机制待定。
-- [实例绑定与条件绑定采纳](D-2026-09-10-instance-and-conditional-binding.md)：SW02 / G002-CORE-008，模型已采纳，单次名单与排序待定。
+- [实例绑定与条件绑定采纳](D-2026-09-10-instance-and-conditional-binding.md)：SW02 / G002-CORE-008，保留模型采纳时文本；名单后续已明确，排序待定。
+- [单次释放直接对象名单采纳](D-2026-09-10-single-release-target-list.md)：SW02-A / G002-CORE-009，本次名单开始处理时确定，不追加、重选或补位；逐对象读取当前合法性与材料。

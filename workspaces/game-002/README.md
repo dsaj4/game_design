@@ -6,7 +6,7 @@ Project ID：game-002。状态：Active / Stable Design Baseline。当前核心�
 
 当前有43份合格素材，涵盖构句、循环、状态、目标、局内成长、战场表现、语义世界范围、两种引用及数值重设计约束。C01–C08均按推荐处理，文档统一的人工冲突已结清；召唤、镶嵌和具体环境机制按确认范围后置。数值设计重新建立，尚无正式GDD或完整对局验证结论。
 
-当前[SW01对象范围](game-design-workflow/idea-materials/M-2026-09-10-semantic-world-object-scope.md)与[SW02两种引用](game-design-workflow/idea-materials/M-2026-09-10-instance-and-conditional-binding.md)已采纳：实例保持身份，条件战前固定而每次匹配当前对象，基础规则保持固定。下一步为[SW02-A单次名单](game-design-workflow/idea-inbox/2026-09-10-semantic-world-object-scope.md)，其余交互细则仍为Raw Idea / Unqualified。此次素材、提案、评估、采纳及同步文件见[引用模型交付](docs/semantic-world-binding-adoption.md)。
+当前[SW01对象范围](game-design-workflow/idea-materials/M-2026-09-10-semantic-world-object-scope.md)与[SW02两种引用](game-design-workflow/idea-materials/M-2026-09-10-instance-and-conditional-binding.md)已采纳：实例保持身份，条件战前固定而每次匹配当前对象，基础规则保持固定。SW02-A已确认完整法术开始处理时确定一次直接名单，本次不追加、重选或补位，仍逐对象读取当前合法性与材料。下一步为[剩余决策R01–R32](game-design-workflow/idea-inbox/2026-09-10-semantic-world-remaining-decisions.md)，已按用户要求一次列出，仍为Raw Idea / Unqualified。本次文件和检查见[名单采纳交付](docs/semantic-world-target-list-adoption.md)。
 
 - [核心构思](game-design-workflow/core-concept.md)
 - [正式素材](game-design-workflow/idea-materials/README.md)

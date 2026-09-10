@@ -73,7 +73,7 @@ C03已确认暂缓完整召唤指挥；推进时单独设计战前明确绑定�
 
 ## 使用记录
 
-2026-09-10：按[SW02两种引用采纳](../draft-changes/D-2026-09-10-instance-and-conditional-binding.md)同步本素材的当前引用适用范围；单次名单与排序仍待确认，证据Hypothesis。
+2026-09-10：按[SW02两种引用采纳](../draft-changes/D-2026-09-10-instance-and-conditional-binding.md)同步引用范围；随后按[SW02-A名单采纳](../draft-changes/D-2026-09-10-single-release-target-list.md)明确每次开始处理时的直接名单，本次不追加、重选或补位，逐对象检查当前合法性与材料。排序等细则待确认，证据Hypothesis。
 
 | 日期 | 目标 | 处理结果 | 边界 |
 | --- | --- | --- | --- |

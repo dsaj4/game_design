@@ -35,12 +35,20 @@ C01–C08按用户批量确认全部处理，当前没有本轮遗留人工冲�
 | --- | --- | --- | --- | --- |
 | G002-SCOPE-002 | 2026-09-10 | SW01：实体、部件、材料、属性状态、空间关系及飞行物、敌方攻击、法术冷却等过程纳入法术对象设计范围；各类按明确能力开放操作；胜负判定、全局结算顺序等基础规则保持固定 | Accepted / Scope；Hypothesis。具体引用与操作机制待定，Core Concept v0.6基础执行规则继续适用 | [用户确认](idea-inbox/2026-09-10-semantic-world-object-scope.md)、[范围素材](idea-materials/M-2026-09-10-semantic-world-object-scope.md)、[提案](idea-proposals/P-2026-09-10-semantic-world-object-scope.md)、[评估](evaluations/E-2026-09-10-semantic-world-object-scope.md)、[采纳文本](draft-changes/D-2026-09-10-semantic-world-object-scope.md) |
 
-SW01范围的后续引用模型已按G002-CORE-008确认；单次名单与其余具体机制继续设计，数值重新设计继续执行。
+SW01范围的后续引用模型按G002-CORE-008确认，单次名单按G002-CORE-009确认；其余具体机制继续设计，数值重新设计继续执行。
 
 ## 两种引用并存
 
 | ID | 日期 | 决定 | 状态与证据 | 来源 |
 | --- | --- | --- | --- | --- |
-| G002-CORE-008 | 2026-09-10 | SW02：实例绑定保持所指身份，失效跳过、不自动改指向；条件绑定战前固定选择条件，每次释放自动匹配当前对象，符合条件的新生对象可参与。两种方式并存，战前配置与既有语义、范围和材料约束继续适用 | Accepted / Reference Model；Hypothesis。名单时点、排序及具体表达尚待设计 | [用户确认](idea-inbox/2026-09-10-semantic-world-object-scope.md)、[素材](idea-materials/M-2026-09-10-instance-and-conditional-binding.md)、[采纳文本](draft-changes/D-2026-09-10-instance-and-conditional-binding.md) |
+| G002-CORE-008 | 2026-09-10 | SW02：实例绑定保持所指身份，失效跳过、不自动改指向；条件绑定战前固定选择条件，每次释放自动匹配当前对象，符合条件的新生对象可参与。两种方式并存，战前配置与既有语义、范围和材料约束继续适用 | Accepted / Reference Model；Hypothesis。名单时点后续由G002-CORE-009明确，排序及具体表达仍待设计 | [用户确认](idea-inbox/2026-09-10-semantic-world-object-scope.md)、[素材](idea-materials/M-2026-09-10-instance-and-conditional-binding.md)、[采纳文本](draft-changes/D-2026-09-10-instance-and-conditional-binding.md) |
 
-当前问题为SW02-A：单次释放的名单边界。用户对两种方式并存的确认不自动采纳其他名单、排序、空间或过程细则。
+SW02采纳只包含引用模型；用户随后单独确认SW02-A，见下表。
+
+## 2026-09-10：单次直接对象名单
+
+| 编号 | 日期 | 决定 | 状态 | 来源 |
+| --- | --- | --- | --- | --- |
+| G002-CORE-009 | 2026-09-10 | SW02-A：完整法术开始处理时确定一次直接名单，本次不重选、追加或补位；逐对象仍检查当前合法性与材料，失效或固定消耗不足跳过且既有合法结果不回滚；本次新生或新符合条件对象留到后续释放 | Accepted / Target List；Hypothesis | [用户确认](idea-inbox/2026-09-10-semantic-world-object-scope.md)、[合格素材](idea-materials/M-2026-09-10-instance-and-conditional-binding.md)、[采纳文本](draft-changes/D-2026-09-10-single-release-target-list.md) |
+
+用户同时要求一次性列出剩余决策。[R01–R32总表](idea-inbox/2026-09-10-semantic-world-remaining-decisions.md)是待选择的新建议，状态Raw Idea / Unqualified；批量列出不等于采纳。

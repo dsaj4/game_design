@@ -63,4 +63,6 @@ _避免_：将同名新对象视为原实例，或失效时隐式转为条件搜
 **条件绑定**：战前固定选择条件、每次释放匹配当前符合条件对象的引用方式；符合条件的新生对象可以参与。
 _避免_：把绑定条件固定等同于匹配结果整场固定。
 
-依据：[SW02引用模型](game-design-workflow/idea-materials/M-2026-09-10-instance-and-conditional-binding.md)。单次名单与排序尚待定义。
+依据：[SW02引用模型](game-design-workflow/idea-materials/M-2026-09-10-instance-and-conditional-binding.md)。SW02-A名单时点已确认，排序待定。
+
+**单次直接对象名单**：每次完整法术开始处理时确定的直接作用对象。本次不重选、追加或补位；逐对象仍读取当前合法性与材料，新符合条件对象留到后续释放。名单不冻结世界状态，也不预留材料。依据：[SW02-A采纳](game-design-workflow/draft-changes/D-2026-09-10-single-release-target-list.md)。
