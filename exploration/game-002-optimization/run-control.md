@@ -2,7 +2,34 @@
 
 本文件是 `game-002-optimization` 的单轮探索控制面。它只约束本项目内的研究、候选、模拟、原型和评估记录；不能授权直接修改 game-002。每次自动探索开始前先填写“当前运行”，结束后补齐结果和下一步。
 
-## 当前运行：底层设计上的增趣机制（2026-09-10）
+## 当前运行：循环施法与音乐元素（2026-09-10）
+
+```yaml
+project_id: game-002-optimization
+run_id: OPT-20260910-002
+context_pack: baseline-2026-09-09-001
+active_question: Q-20260910-spell-music
+candidate_ids: [C-spell-music-feedback-v01]
+autonomy_level: L1-supervised
+status: Completed
+review: Needs Human Review
+round_budget: 1 local feasibility review; 1 raw candidate; 0 external calls; 0 simulation runs; 0 audio prototypes
+max_rounds: 1
+stop_conditions: deliver a provisional assessment and listening comparison proposal; leave unresolved music goals and rule changes unqualified
+```
+
+- 授权依据：用户要求进入 game-002 的 exploration，在已有底层设计上评估音乐元素；随后明确“继续”。本轮据此完成一次本地可行性分析与记录，不重复请求启动许可。
+- 设计依据：活动背景包、本地时间背包素材 TS1–TS8 与 SC1。已有素材的使用记录记载合入目标 Core Concept v0.2；较早背景包的空白核心描述仅代表其固定版本，不当作目标项目实时状态。
+- 范围审计：前段读取中误读了一份其他探索方向分析，另读取了上一轮增趣候选记录；这些内容不进入本轮证据链。后续只使用时间背包已确认部分、当前用户输入及共享方法。本轮未读取另一探索项目或目标工作区实时正文。
+- 当前输入：用户报告“有节奏的施法产生了音效的配合”。尚无音频、录像或独立试听，因此记为 `User Reported`，不记为已验证的音乐体验。
+- 输出范围：原始候选、研究性可行性判断、一个关键问题和试听对照建议。音乐作用尚未确定，先不晋级正式素材或 Evaluation；这不妨碍完成本轮咨询判断。
+- 产物：[原始候选](idea-inbox/2026-09-10-spell-music.md)、[可行性分析](insights/2026-09-10-spell-music-feasibility.md)、[关键问题](questions/Q-20260910-spell-music.md)，并更新项目 README 导航。
+- 实际完成：一轮本地设计分析、一份原始候选，比较三种音乐介入程度并提出四类试听对照场景。使用共享评判框架入口 v1.0 / emergent-strategy-game-framework v0.1 的可读性、协同与退化检查，不输出无证据分数。
+- 实际消耗：外部调用、模拟、音频生成、音频原型和真人试听均为 0。新增合格素材、Proposal、正式 Evaluation、GDD、Draft Change 均为 0。
+- 结论：推荐推进小规模音乐反馈验证，依据为现有编排与声音事件的结构匹配；悦耳、疲劳、玩家期待与规则理解仍为 `Unknown / Untested`。达到本轮分析与候选预算后完成，不自动启动音频制作。
+- 下一步单一澄清：加入音乐后，用户最希望玩家获得什么新体验？Agent 推荐先让玩家听见自己的编排形成一段演奏，该目标未获用户确认。
+
+## 历史运行：底层设计上的增趣机制（2026-09-10）
 
 ```yaml
 project_id: game-002-optimization
