@@ -2,7 +2,30 @@
 
 本文件是 `game-002-optimization` 的单轮探索控制面。它只约束本项目内的研究、候选、模拟、原型和评估记录；不能授权直接修改 game-002。每次自动探索开始前先填写“当前运行”，结束后补齐结果和下一步。
 
-## 当前运行：循环施法与音乐元素（2026-09-10）
+## 当前运行：视觉释放触发独有音乐（2026-09-10）
+
+```yaml
+project_id: game-002-optimization
+run_id: OPT-20260910-003
+context_pack: baseline-2026-09-09-001
+active_question: Q-20260910-spell-music
+candidate_ids: [C-spell-music-feedback-v01]
+autonomy_level: L1-supervised
+status: Completed
+review: Needs Human Review
+round_budget: 1 qualification pass; 1 material; 0 external calls; 0 audio prototypes
+max_rounds: 1
+stop_conditions: record user-confirmed trigger and experience; stop before audio specification, prototype or rule changes
+```
+
+- 授权依据：用户确认“可以在视觉上看见法术释放效果时播放独有的音乐，增加施法的核心体验感”。本轮仅据此完成素材资格晋级，不扩大到节奏输入、数值收益或音频制作。
+- 资格结果：触发时机、辨识单位（法术）和体验目标已经清楚；独有片段的音频形式、叠听、打断和疲劳保留为 `Unknown`。
+- 产物：[合格音乐素材](idea-materials/M-2026-09-10-spell-release-music.md)，同步更新[原始候选](idea-inbox/2026-09-10-spell-music.md)与[验证问题](questions/Q-20260910-spell-music.md)。
+- 实际消耗：1 轮用户回答后的资格确认、1 份合格素材；外部调用、模拟、音频生成、原型与真人试听均为 0。没有 Proposal、Evaluation、GDD 或 Draft Change。
+- 结论：`Qualified GDD Material / Hypothesis`。该素材可被后续 GDD 或 Proposal 引用，但不代表音乐方案已被采纳或已经好听、耐听。
+- 下一步：按既有可行性分析制作最小声音对照，先验证视觉释放与独有音乐是否同步、可辨认且不掩盖打断信息。
+
+## 历史运行：循环施法与音乐元素（2026-09-10）
 
 ```yaml
 project_id: game-002-optimization

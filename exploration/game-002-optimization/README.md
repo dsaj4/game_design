@@ -10,7 +10,7 @@ Project ID：`game-002-optimization`。状态：`Active / Core Design Context Ac
 
 2026-09-10 用户要求在已有底层上探索“增加其他机制让其更好玩”。本轮沿用时间背包 TS1–TS8 和 SC1，新增一份[增趣机制原始记录](idea-inbox/2026-09-10-timeline-mechanism-depth.md)，包含敌方阶段窗口、有限调速、战后重组、空档蓄能四项 `Agent Proposal / Raw Idea / Unqualified` 候选；推荐先从公开敌方节奏的变化开始，再单独探索有限调速。现有四份 inbox 文件，不读取其他探索方向。当前单一澄清点是优先增强哪种编排成就感，见[本轮问题](questions/Q-20260910-timeline-mechanism-depth.md)。本轮没有新增合格素材或执行验证。
 
-2026-09-10 后续用户观察到有节奏施法的音效配合，要求评估加入音乐元素。当前讨论转至[音乐元素可行性分析](insights/2026-09-10-spell-music-feasibility.md)，初步推荐先验证“实际施法编排产生音乐反馈”，保留 TS1–TS8；固定拍点奖励后置，战中踩拍暂不建议。新增[音乐原始候选](idea-inbox/2026-09-10-spell-music.md)，当前共五份 inbox 文件。状态 `Research / Provisional`，候选 `Raw Idea / Unqualified`；尚无试听、音频原型或真人证据，未新增合格素材或正式 Evaluation。关键体验目标见[本轮问题](questions/Q-20260910-spell-music.md)。
+2026-09-10 后续用户观察到有节奏施法的音效配合，要求评估加入音乐元素。当前讨论转至[音乐元素可行性分析](insights/2026-09-10-spell-music-feasibility.md)，初步推荐先验证“实际施法编排产生音乐反馈”，保留 TS1–TS8；固定拍点奖励后置，战中踩拍暂不建议。新增[音乐原始候选](idea-inbox/2026-09-10-spell-music.md)，当前共五份 inbox 文件，并已将用户确认的“视觉释放触发独有音乐”晋级为[合格素材](idea-materials/M-2026-09-10-spell-release-music.md)。状态 `Research / Provisional`，素材状态 `Qualified GDD Material / Hypothesis`；尚无试听、音频原型或真人证据，未生成正式 Evaluation。关键未知见[本轮问题](questions/Q-20260910-spell-music.md)。
 
 状态说明：本地编排素材使用记录已记载 2026-09-09 合入 game-002 Core Concept v0.2；早期背景包和历史介绍的“无玩法 Accepted”不代表目标项目实时状态。本轮新增机制均未采纳，也未读取或修改目标项目正文。
 
