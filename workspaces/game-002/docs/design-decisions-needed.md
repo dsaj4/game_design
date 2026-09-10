@@ -1,6 +1,6 @@
 # 设计决定与后续工作
 
-日期：2026-09-10。状态：G002-CORE-011简单对象交互范围已采纳；Core Concept v0.6，证据Hypothesis。当前入口：[内容总览](semantic-world-content-index.md)。
+日期：2026-09-11。状态：G002-CORE-012法术类型已采纳，对象范围继续按G002-CORE-011；Core Concept v0.6，证据Hypothesis。当前入口：[类型与分类讨论](spell-type-index.md)。
 
 ## 当前已确定
 
@@ -13,6 +13,7 @@
 | 法术生成物 | 增加真实火焰、雷电、冰霜对象；身份/来源/窗口与宿主状态、演出分开 | 同上 |
 | 资源收集 | 法术作用于合格对象后对象掉卡；资格与同名额度先检查，合法卡进入待领取整体收益 | [收益素材](../game-design-workflow/idea-materials/M-2026-09-06-normal-combat-word-rewards.md) |
 | 数值 | 全部重新设计；不使用示例默认值 | [数值任务](numerical-redesign.md) |
+| 法术类型 | 简易看省略主语，状态/元素/召唤看名词特征；一条法术可同时命中多类 | [类型素材](../game-design-workflow/idea-materials/M-2026-09-11-spell-type-system.md) |
 
 ## 当前暂缓
 
@@ -27,11 +28,13 @@ C01伤害/生命支付与反馈、C02逐对象数量/成本及整句成功、C06
 
 R01–R32保留编号追踪，[现行规则表](../game-design-workflow/idea-materials/M-2026-09-10-semantic-world-executable-rules.md)直接陈述收束后的权限。G002-CORE-010是框架采纳记录，G002-CORE-011是当前范围修订；不要求重新回答这32项。
 
-## 下一步内容工作
+## 当前类型工作
 
-已完成[第一批具体词义推荐](../game-design-workflow/idea-inbox/2026-09-10-element-state-drop-wording.md)：三元素载体、燃烧、冰冻减伤、生成物强度操作和对象有限掉卡，附18词新参数。另有[局部逐刻及24项边界记录](../game-design-workflow/idea-inbox/2026-09-10-element-state-drop-paper-checks.md)。当前为Raw Idea / Unqualified，未修改核心采纳范围。
+已按用户明确指令采纳四类标准，完成首批18词归类及26项例句记录，包含全部用户例句；后续按[类型入口](spell-type-index.md)逐类讨论。护甲属于状态，因此“获得护甲”为简易＋状态；“恶魔释放火焰”为召唤＋元素。
 
-具体推荐C-E1–C-E4已集中列出：元素完成一次作用、冰冻减少直接伤害而保持攻击时点、每个标记初始环境对象一次掉卡及首组参数。它们有可审阅文本但尚未采纳；没有将未知机制写成已确认规则。下一批补普通攻击抵挡、反弹自动归宿与非指定转移的接收/失败/重复规则；完整场景、平衡及玩家验证仍待开展，见[内容入口](semantic-world-content-index.md)。
+上一批元素载体、冰冻减伤、对象一次掉卡、具体数值和逐刻方案先Parked，原定普通攻击保护/反弹/转移细则也暂停。基础执行规则与已采纳对象范围保持；数值重设计任务并未取消，但不把搁置方案作为默认值。
+
+分类无需再确认四类标准。后续具体内容缺口按类记录：状态主语例句的完整语法/词义；元素的具体作用；召唤词义与完整流程边界；各类与交叉类型的收益。类型识别不替代句法和语义合法性，本次不据“燃烧蔓延／燃烧加倍”解锁新通用句式或复杂传播。
 
 ## 来源
 
@@ -39,3 +42,5 @@ R01–R32保留编号追踪，[现行规则表](../game-design-workflow/idea-mat
 - [本次采纳文本](../game-design-workflow/draft-changes/D-2026-09-10-simple-object-interactions.md)与[决策记录](../game-design-workflow/decision-log.md)。
 - [C01–C08来源](../game-design-workflow/idea-inbox/2026-09-10-design-interface-questions.md)、[SW01/SW02来源](../game-design-workflow/idea-inbox/2026-09-10-semantic-world-object-scope.md)、[R01–R32来源](../game-design-workflow/idea-inbox/2026-09-10-semantic-world-remaining-decisions.md)。
 - [本轮交付](semantic-world-simplification.md)及[修改前快照](../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)。
+
+当前分类来源：[2026-09-11用户原话](../game-design-workflow/idea-inbox/2026-09-11-spell-type-system.md)及[采纳文本](../game-design-workflow/draft-changes/D-2026-09-11-spell-type-system.md)。

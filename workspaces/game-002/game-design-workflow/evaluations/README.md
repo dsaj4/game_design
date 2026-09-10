@@ -9,3 +9,5 @@
 - [语义世界执行规则评估：推荐推进，证据Hypothesis](E-2026-09-10-semantic-world-executable-rules.md)。
 
 - [当前简单对象交互评估](E-2026-09-10-simple-object-interactions.md)：G002-CORE-011，收束位移/结构/材料加工并新增元素生成物与对象掉卡。此前文件保留采纳或评估时记录，当前范围以本项为准。
+
+- [法术类型系统评估](E-2026-09-11-spell-type-system.md)：G002-CORE-012，四类特征、多类型及按类型组织；上一批具体词效与参数Parked。

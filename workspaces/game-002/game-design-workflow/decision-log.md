@@ -1,6 +1,6 @@
 # game-002 决策记录
 
-当前生效范围以G002-CORE-011的简单对象交互修订为准；下方保留各次决策发生时的文字与来源，早先开放的位移、结构、取材和指定端点权限不再作为当前工作范围。
+当前对象范围以G002-CORE-011为准，类型特征与讨论组织按G002-CORE-012；下方保留各次决策发生时的文字与来源，早先开放的位移、结构、取材和指定端点权限不再作为当前工作范围。
 
 ## 当前生效决定
 
@@ -70,3 +70,13 @@ R12允许明确法术位移与结构变化；R17允许明示独立遗体；R18�
 | G002-CORE-011 | 2026-09-10 | 以对象数量/状态变化为主；暂缓位移、连接、支撑、独立空间参照、定向/指定端点、环境份额/容器/配方/搬运加工；收集止于对象掉卡；增加火焰、雷电、冰霜等真实法术生成对象；允许继续设计不指定方向的抵挡/反弹及非指定接收者的作用转移 | Accepted / Scope and Flow；Hypothesis。具体效果与数值Unknown | [用户原话](idea-inbox/2026-09-10-simple-object-interactions.md)、[素材](idea-materials/M-2026-09-10-simple-object-interactions.md)、[提案](idea-proposals/P-2026-09-10-simple-object-interactions.md)、[评估](evaluations/E-2026-09-10-simple-object-interactions.md)、[采纳](draft-changes/D-2026-09-10-simple-object-interactions.md) |
 
 这是对SW01及R01–R32当前操作范围的收束，已有身份、引用、单次名单、状态数量、时间与收益骨架继续有效。简单点燃/冰冻进入内容设计；燃料、传播、导电网络、坍塌及完整召唤/镶嵌仍后置。本轮未采纳首批候选的逻辑卡、路径/配方或介入额度。输入原文见[快照](../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)。
+
+## 2026-09-11：按特征识别法术类型
+
+| ID | 日期 | 决定 | 状态与证据 | 来源 |
+| --- | --- | --- | --- | --- |
+| G002-CORE-012 | 2026-09-11 | 简易看省略主语；状态、元素、召唤看参与句义的对应名词特征；一条法术保留全部命中类型。完成首批18词及例句归类，后续按四类讨论并交叉索引；上一批具体词效、参数及原定保护细则推进先搁置 | Accepted / Spell Classification；具体效果与数值Parked或按已有状态，证据Hypothesis | [用户原话](idea-inbox/2026-09-11-spell-type-system.md)、[素材](idea-materials/M-2026-09-11-spell-type-system.md)、[提案](idea-proposals/P-2026-09-11-spell-type-system.md)、[评估](evaluations/E-2026-09-11-spell-type-system.md)、[采纳文本](draft-changes/D-2026-09-11-spell-type-system.md) |
+
+护甲按已有状态定义，“获得护甲”为简易＋状态；“火焰吞噬护甲”为元素＋状态；“恶魔释放火焰”为召唤＋元素。类型不由动词、输出效果、场上偶然存在的对象或本次成功与否决定。词义合法性与类型识别分别处理，状态主语简写例句不自动扩展通用语法或解锁复杂传播；完整召唤流程仍后置。
+
+阶段调整保留18词作为分类对象，上一批6刻元素／一次使用、冰冻减伤、一次掉卡、参数及逐刻记录均为Parked。已有基础执行规则、对象范围和数值重设计约束继续有效。本次未恢复这些具体方案，后续按[类型入口](../docs/spell-type-index.md)展开。

@@ -1,77 +1,33 @@
 # 语义世界内容入口
 
-Project ID：game-002。日期：2026-09-10。当前方向已按用户明确指令采纳，决策G002-CORE-011；首批具体词义和新参数已起草为未采纳候选，证据Hypothesis。
+日期：2026-09-11。Project ID：game-002。基础对象范围按G002-CORE-011；当前分类和讨论组织按G002-CORE-012。证据Hypothesis。
 
-**当前重点是让对象直接发生数量或状态变化，并让法术产生的火焰、雷电、冰霜继续成为可操作对象。资源收集只做到法术作用于对象后对象掉卡。**
+**当前从[法术类型入口](spell-type-index.md)继续：简易、状态、元素、召唤按特征独立判断，一条法术保留全部命中类型。** 首批18词已归类；上一批具体效果与参数先搁置。
 
-| 入口 | 当前内容 |
+| 入口 | 当前用途与状态 |
 | --- | --- |
-| [对象目录](../game-design-workflow/idea-inbox/2026-09-10-semantic-object-catalog.md) | 13个当前条目：单位、环境、法术生成物、状态及过程 |
-| [能力与词卡](../game-design-workflow/idea-inbox/2026-09-10-semantic-ability-word-catalog.md) | 10类简单作用方向，具体词义的最小填写项 |
-| [代表情境](../game-design-workflow/idea-inbox/2026-09-10-semantic-sentence-cases.md) | 12项纸面情境及生成后再次引用的窗口检查 |
-| [已采纳范围](../game-design-workflow/idea-materials/M-2026-09-10-simple-object-interactions.md) | 用户明确删减/新增、与当前规则的关系 |
-| [当前执行规则](../game-design-workflow/idea-materials/M-2026-09-10-semantic-world-executable-rules.md) | R01–R32按简化范围更新 |
-| [首批具体词义](../game-design-workflow/idea-inbox/2026-09-10-element-state-drop-wording.md) | 18词候选：三元素、燃烧/冰冻、数量操作及有限掉卡；含新参数 |
-| [首批纸面记录](../game-design-workflow/idea-inbox/2026-09-10-element-state-drop-paper-checks.md) | 三条循环逐刻结果、直接句对照、冰冻/收集记录与24项边界 |
-| [范围简化交付](semantic-world-simplification.md) | 已完成范围变更的来源、快照与检查 |
+| [法术类型与讨论](spell-type-index.md) | 当前主入口，按四类交叉索引 |
+| [正式类型素材](../game-design-workflow/idea-materials/M-2026-09-11-spell-type-system.md) | Accepted：四类特征、18词分类、26项例句 |
+| [对象目录](../game-design-workflow/idea-inbox/2026-09-10-semantic-object-catalog.md) | 保留13个条目；具体词效Parked |
+| [能力目录](../game-design-workflow/idea-inbox/2026-09-10-semantic-ability-word-catalog.md) | 保留10类作用方向，不作为互斥法术类型 |
+| [代表情境](../game-design-workflow/idea-inbox/2026-09-10-semantic-sentence-cases.md) | 12项具体结算候选Parked，类型判断使用新素材 |
+| [首批词效原稿](../game-design-workflow/idea-inbox/2026-09-10-element-state-drop-wording.md) | Parked：只取18个词名作分类对象，不采用具体效果或参数 |
+| [首批纸面记录](../game-design-workflow/idea-inbox/2026-09-10-element-state-drop-paper-checks.md) | Parked：对应未采纳参数的计算，保留追溯 |
+| [已采纳对象范围](../game-design-workflow/idea-materials/M-2026-09-10-simple-object-interactions.md) | 简单数量/状态变化、法术生成物及对象掉卡范围仍有效 |
+| [共同执行规则](../game-design-workflow/idea-materials/M-2026-09-10-semantic-world-executable-rules.md) | R01–R32、引用与时序骨架继续适用 |
+| [范围简化交付](semantic-world-simplification.md) | 已完成范围修订的来源与原始快照 |
 
-## 当前保留、暂缓与新增
+## 当前内容边界
 
-| 处理 | 内容 |
-| --- | --- |
-| 保留 | 单位/环境物体、许可属性/状态变化、当前攻击/冷却；点燃与冰冻等简单改变 |
-| 保留 | 词卡实体成本、实例/条件绑定、单次名单、共享槽、四阶段、胜负与整体收益 |
-| 暂缓 | 位置作为移动目标、连接/支撑、空间参照、定向偏转、玩家指定新受术端点 |
-| 暂缓 | 材料份额、容器供收材料、配方/合成、材料转移加工、物体复制 |
-| 新增明确类别 | 法术真实生成的火焰、雷电、冰霜，具有身份、来源及实际作用窗口 |
-| 可继续设计 | 抵挡、不指定方向的反弹、无需玩家指定接收者的作用转移 |
-| 收集范围 | 作用合格对象→对象掉卡；资格、同名额度与待领取沿用，无加工/运输/拾取链 |
+- 对象与能力和法术类型分别记录；没有因类型区分新增资源加工、位置、连接或支撑操作。
+- 点燃/冰冻仍是允许讨论的简单变化方向；此前具体伤害、减伤和持续方案Parked。
+- 火焰、雷电、冰霜的真实对象身份与可操作范围已明确；6刻存续或一次使用不是已采纳规则。
+- 收集止于对象直接掉卡的流程仍有效；每对象一次、100%和指定掉卡内容的候选已Parked。
+- 召唤类型可识别，但完整召唤流程依既有范围后置。复杂传播、镶嵌及材料/空间加工仍后置。
+- 原定抵挡、反弹和自动转移细则先不推进，后续如讨论也按句子的全部类型组织。
 
-场景位置仍用于表现和法杖范围判断；环境对象仍没有单位生命与自主攻击。既有护甲消耗继续按状态规则，不作为通用环境供材能力。
+## 后续组织
 
-## 首批已写明的推荐
+先读[类型入口](spell-type-index.md)，再按本次关注类型进入具体词义。多类型内容只保留一份规则，各入口共同引用；共享的句法、成本、时序、成功与收益规则不按类型另造版本。
 
-1. 三种元素作为可调整强度的短时载体：生成后6刻内可被后续句子使用，完成一次合法作用后结束；到期刻的法术阶段仍可使用。
-2. 燃烧按层每刻造成伤害；冰冻按层减少源方直接伤害，攻击时点保持。两状态每次新增3刻，重施依已采纳的数量/时间规则。
-3. 收集只让初始标记环境对象直接掉一张预告普通卡，100%、每对象本场一次；产出前检查已持有＋待领取的同名额度。
-4. 18个词条已有新的时间贡献，三种生成强度、直接状态量、操作量与本批释放时长均明确。已有局部逐刻计算，不是完整平衡结论。
-
-以上为Raw Idea / Unqualified推荐稿；C-E1–C-E4集中列在词义文末。方向已Accepted，具体词义和参数没有自动采纳。与现行骨架的纸面核对未发现必须人工裁决的矛盾；仍需判断具体推荐是否采用。
-
-## 剩余内容任务
-
-| 内容任务 | 下一步具体产物 |
-| --- | --- |
-| 保护与作用转移 | 普通攻击抵挡、反弹自动归宿、非指定转移接收规则、无接收者行为与重复作用限制；首批只完成元素强度抵挡 |
-| 本批局部资格确认 | 审阅元素载体、冰冻减伤、有限掉卡及参数，确认后沿素材流程晋级 |
-| 完整数值比较 | 遭遇目标、起始配置、生命/攻击节奏与法杖范围，再比较直接句、元素组合、防护和收集 |
-| 体验证据 | 检查待作用元素与状态的辨识、冰冻语义、叠层压制及收集空转 |
-
-不继续推进材料配方、路径或统一介入额度建议，不重复询问已明确的简化方向。
-
-## 状态与来源
-
-正式素材45份，inbox20份；已采纳范围与具体内容草案分别标注。未创建正式GDD，未进行运行或玩家验证。完整召唤、镶嵌及燃料/传播/导电网络/坍塌等复杂环境机制继续后置。
-
-[用户原话](../game-design-workflow/idea-inbox/2026-09-10-simple-object-interactions.md)、[采纳文本](../game-design-workflow/draft-changes/D-2026-09-10-simple-object-interactions.md)、[修改前快照](../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)。快照只用于追溯，当前设计以本页入口为准。
-
-## 本次具体词义交付
-
-共新增2份候选记录、更新10份目录与入口。核心、正式素材和既有采纳记录未新增具体词义决定。
-
-| 文件 | 本次工作 |
-| --- | --- |
-| [具体词义](../game-design-workflow/idea-inbox/2026-09-10-element-state-drop-wording.md) | 新增：来源、资格边界、对象/状态/掉卡词义、18词新参数与4项推荐 |
-| [纸面记录](../game-design-workflow/idea-inbox/2026-09-10-element-state-drop-paper-checks.md) | 新增：逐刻对照、冰冻/掉卡记录及24项边界 |
-| [对象目录](../game-design-workflow/idea-inbox/2026-09-10-semantic-object-catalog.md) | 更新：首批对象和状态候选进展 |
-| [能力目录](../game-design-workflow/idea-inbox/2026-09-10-semantic-ability-word-catalog.md) | 更新：已填写用法、保护类缺口、掉卡检查顺序 |
-| [代表情境](../game-design-workflow/idea-inbox/2026-09-10-semantic-sentence-cases.md) | 更新：实际参数入口与到期阶段边界 |
-| [inbox入口](../game-design-workflow/idea-inbox/README.md) | 更新：20份记录和候选状态 |
-| [数值任务](numerical-redesign.md) | 更新：局部新参数与整体设计/验证的区别 |
-| [设计决定与后续工作](design-decisions-needed.md) | 更新：本批未采纳推荐与剩余内容 |
-| [总控](control-center.md) | 更新：当前进度与证据范围 |
-| [项目首页](../README.md) | 更新：首批具体内容入口 |
-| [docs入口](README.md) | 更新：内容入口说明 |
-| 本页 | 更新：成果、待补内容和交付清单 |
-
-复核：18词时间及实体数量、释放安排、燃烧伤害、冰冻与掉卡计数的13项计算检查通过；24项边界已逐条给出纸面裁定。12份文件严格UTF-8读取通过，140处本地链接对应50个有效目标，31组表格列数一致，inbox实数20份、正式素材45份与索引相符；补丁空白检查通过。完整对局、数值平衡和玩家理解尚未验证。
+正式素材46份，inbox21份。类型标准与首批分类已采纳，具体效果和数值的状态分开管理。本页更新前的首批交付记录可从提交f7eee73追溯，对应词效与纸面原稿保留原有内容。

@@ -1,6 +1,6 @@
 # game-002 原始表达与候选入口
 
-共20份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
+共21份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
 
 | 记录 | 状态 |
 | --- | --- |
@@ -18,11 +18,12 @@
 | [设计接口推荐决策确认](2026-09-10-design-interface-questions.md) | 状态：Promoted（规则、范围与数值重设计约束）。日期：2026-09-10。具体后置机制与参数保持Unknown。 |
 | [语义战斗世界与法术可操作对象范围](2026-09-10-semantic-world-object-scope.md) | SW01范围、SW02引用模型与SW02-A单次名单Promoted / Accepted；R01–R32框架随后全部采纳；未明示的具体内容仍为候选。 |
 | [语义世界剩余决策总表](2026-09-10-semantic-world-remaining-decisions.md) | R01–R32推荐已全部采纳并晋级正式素材；原话与替代方案保留追溯，后置系统与数值任务另列。 |
-| [语义世界对象目录](2026-09-10-semantic-object-catalog.md) | 当前简化目录：13条；范围Accepted，具体词义/参数候选。 |
-| [能力与词卡目录](2026-09-10-semantic-ability-word-catalog.md) | 当前10类简单作用；具体词名与自动接收规则仍待设计。 |
-| [语义法术代表句](2026-09-10-semantic-sentence-cases.md) | 12项纸面情境；不宣称运行或玩家验证。 |
+| [语义世界对象目录](2026-09-10-semantic-object-catalog.md) | 保留13条对象范围；具体词效/参数Parked，当前按类型归类。 |
+| [能力与词卡目录](2026-09-10-semantic-ability-word-catalog.md) | 保留10类作用方向供索引；具体规则Parked，当前按类型讨论。 |
+| [语义法术代表句](2026-09-10-semantic-sentence-cases.md) | 12项具体情境Parked；当前分类见类型素材的26项例句。 |
 | [简化对象交互](2026-09-10-simple-object-interactions.md) | Promoted / Accepted：用户明确收束范围、对象掉卡并新增元素生成物。 |
-| [首批具体词义](2026-09-10-element-state-drop-wording.md) | Raw Idea / Unqualified：元素载体、燃烧/冰冻、有限掉卡及18词新参数，待采纳。 |
-| [首批纸面记录](2026-09-10-element-state-drop-paper-checks.md) | 上述候选的辅助记录：逐刻计算及24项边界；没有运行或玩家验证。 |
+| [首批具体词义](2026-09-10-element-state-drop-wording.md) | Parked / Unqualified：具体词效及参数搁置，只保留词名供分类。 |
+| [首批纸面记录](2026-09-10-element-state-drop-paper-checks.md) | Parked：对应未采纳参数的纸面记录，不作为当前验证依据。 |
+| [法术类型系统](2026-09-11-spell-type-system.md) | Promoted / Accepted：四类特征、多类型与分类讨论；首批18词只采纳归类。 |
 
-当前依[简化对象交互](../../docs/semantic-world-content-index.md)推进。上位范围已经采纳；具体词义与参数继续设计，候选不得静默写入正式GDD。前次内容与关键规则的原始输入保存在[快照](../../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)。
+当前按[类型入口](../../docs/spell-type-index.md)推进。四类特征已采纳，具体词效与参数先搁置；候选不得静默写入正式GDD。前次内容与关键规则的原始输入保存在[快照](../../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)。
