@@ -15,3 +15,5 @@
 - [超时疲劳评估](E-2026-09-11-overtime-fatigue.md)：G002-CORE-014方向已采纳，FAT-C执行／数值候选；测试按当前交接积累。
 
 - [全局规则边界评估](E-2026-09-11-global-rule-boundaries.md)：G002-CORE-015，GR01–GR12处理方式全部采纳；具体卡牌字段按需补齐，GR07-C01与FAT-C保留Candidate，测试积累。
+
+- [修饰词系统](E-2026-09-11-modifier-card-system.md)：推荐推进：模型清楚，数值与镶嵌未完成；无新测试

@@ -45,7 +45,7 @@
 
 ## 与当前构思的关系
 
-保留[引用模型](M-2026-09-10-instance-and-conditional-binding.md)、[执行规则](M-2026-09-10-semantic-world-executable-rules.md)、[状态留存](M-2026-09-05-battle-state-persistence.md)和[表现](M-2026-09-10-battlefield-state-change-expression.md)。收束与新增的详细边界见[简化范围素材](M-2026-09-10-simple-object-interactions.md)。完整召唤、镶嵌和复杂环境反应仍后置。
+保留[引用模型](M-2026-09-10-instance-and-conditional-binding.md)、[执行规则](M-2026-09-10-semantic-world-executable-rules.md)、[状态留存](M-2026-09-05-battle-state-persistence.md)和[表现](M-2026-09-10-battlefield-state-change-expression.md)。收束与新增的详细边界见[简化范围素材](M-2026-09-10-simple-object-interactions.md)。完整召唤和复杂环境反应仍后置；镶嵌进入[当前系统设计顺序](../../docs/modifier-and-inlay-design.md)。
 
 ## 机制—行为—体验假设
 

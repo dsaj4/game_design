@@ -20,3 +20,5 @@
 - [卡牌设计—评测—采纳](card-design-review-workflow.md)：词条、组合和流派的推进入口，复用已登记模板。
 
 - [GR01–GR12正式处理](../game-design-workflow/idea-materials/M-2026-09-11-global-rule-boundaries.md)：通用规则、具体卡牌声明与保留候选的完整状态。
+
+- [修饰词与镶嵌](modifier-and-inlay-design.md)：当前系统设计顺序、Modifier v0.1与镶嵌待明确字段。

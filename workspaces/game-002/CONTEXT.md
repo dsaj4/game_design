@@ -17,7 +17,10 @@
 | 对象失效 | 对象不再具备该法术的作用条件；释放时跳过并继续其他合法对象，失效尝试仍保留释放特效。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-basic-sentence-targeting-and-locking.md) |
 | 环境对象 | 长方形场景中有位置且可操作、没有生命值和攻击行为的对象，例如大树和溪流。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-basic-sentence-targeting-and-locking.md) |
 | 法杖与镶嵌 | 每根法杖承载一条法术；镶嵌是范围、特殊效果的配置层，具体槽位、资格和效果Unknown。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-07-wand-inlay-configuration.md) |
-| 名词、动词与句法角色 | 名词、动词是固定词性；主语、谓语、宾语是位置职责，名词跨角色使用须符合词义。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-grammar-and-semantic-compatibility.md) |
+| 词卡类别与句法角色 | 名词、动词、修饰词是词卡大类；形容词修饰名词，副词修饰动词。主语、谓语、宾语是位置职责，修饰词不独立占据这些角色。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-11-modifier-card-system.md) |
+| 修饰词挂接 | 每张修饰词直接指向本句一个原词出现位置，多张可共同挂接，不递归修饰。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-11-modifier-card-system.md) |
+| 通用／适配／不兼容 | 修饰词针对原词声明的三类关系；不兼容禁止组合，适配采用替代通用的特殊版本。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-11-modifier-card-system.md) |
+| 本句数值修正 | 只改变当前法术计算采用的数值，不永久改写场上原值；实际产生的状态按自身规则存续。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-11-modifier-card-system.md) |
 | 执行者、操作内容与受术目标 | 谁执行、直接处理什么以及结果落在谁身上三个语义关系，具体词义分别声明。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md) |
 | 法术类型 | 根据句子的明确特征得到的可扩展分类，简易、状态、元素、召唤为当前基础类型；一条法术保留全部命中类型，区别于词性、实际效果与本次成功。 | [类型素材](game-design-workflow/idea-materials/M-2026-09-11-spell-type-system.md) |
 | 简易法术 | 省略显式主语的法术；默认玩家语义补全不取消简易特征。 | [类型素材](game-design-workflow/idea-materials/M-2026-09-11-spell-type-system.md) |

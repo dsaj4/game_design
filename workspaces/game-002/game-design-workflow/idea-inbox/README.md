@@ -1,6 +1,6 @@
 # game-002 原始表达与候选入口
 
-共25份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
+共26份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
 
 | 记录 | 状态 |
 | --- | --- |
@@ -9,7 +9,7 @@
 | [核心战斗与局内流程素材入口](2026-09-05-yanzhou-core-combat.md) | 状态：Promoted（仅对应明确素材）；其余 Raw Idea / Unqualified。Project ID：game-002。 |
 | [句式、状态、类型与召唤素材入口](2026-09-06-flexible-grammar-and-spell-types.md) | 状态：Promoted（仅对应明确素材）；其余 Raw Idea / Unqualified。Project ID：game-002。 |
 | [支撑系统与流派审查入口](2026-09-07-global-baseline-lock-review.md) | 状态：Promoted（仅对应明确素材）；其余 Raw Idea / Unqualified。Project ID：game-002。 |
-| [镶嵌获取与收益边界](2026-09-07-inlay-acquisition-boundary.md) | 状态：Raw Idea / Unqualified / Parked。证据：Hypothesis。 |
+| [镶嵌获取与收益边界](2026-09-07-inlay-acquisition-boundary.md) | 状态：Raw Idea / Unqualified；已列入当前镶嵌待讨论，具体获取未采纳。 |
 | [数值重新设计来源入口](2026-09-07-numerical-calibration-candidates.md) | 状态：Source Only；具体参数Unknown，重新设计已确认。证据：Hypothesis。 |
 | [数值设计审查入口](2026-09-07-numerical-design-review.md) | 状态：Source Only；数值重新设计已确认，参数Unknown。Project ID：game-002。 |
 | [商店与战斗收益素材入口](2026-09-07-shop-and-time-based-gold.md) | 状态：Promoted（仅对应明确素材）；其余 Raw Idea / Unqualified。Project ID：game-002。 |
@@ -29,5 +29,6 @@
 | [四层数值框架](2026-09-11-numerical-evaluation-framework.md) | Promoted：框架候选；用户明确先框架、暂不扩展其他词效。 |
 | [超时疲劳](2026-09-11-overtime-fatigue.md) | Promoted：疲劳方向Accepted；执行细则与数值候选。 |
 | [全局审查与测试积累](2026-09-11-global-rules-review.md) | Promoted／G002-CORE-015：全部GR处理方式已采纳，GR07-C01与FAT-C仍候选；测试积累后合批。 |
+| [修饰词系统与镶嵌设计顺序](2026-09-11-modifier-card-system.md) | Promoted：修饰词模型与四项确认；镶嵌细则仍待明确 |
 
-当前按[类型入口](../../docs/spell-type-index.md)推进。四类特征已采纳且可以扩展；上一批具体词效与参数保持Parked，攻防候选的限定计算已复核，四层框架和全局文档审查已形成，下一步回归卡牌／流派候选；候选不得静默写入正式GDD。前次内容与关键规则的原始输入保存在[快照](../../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)。
+当前按[类型入口](../../docs/spell-type-index.md)推进。四类特征已采纳且可以扩展；上一批具体词效与参数保持Parked，攻防候选的限定计算已复核，四层框架和全局文档审查已形成，当前先补修饰词与镶嵌，之后回归卡牌／流派候选；候选不得静默写入正式GDD。前次内容与关键规则的原始输入保存在[快照](../../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)。
