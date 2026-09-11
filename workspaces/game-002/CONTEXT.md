@@ -19,12 +19,13 @@
 | 法杖与镶嵌 | 每根法杖承载一条法术；镶嵌是范围、特殊效果的配置层，具体槽位、资格和效果Unknown。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-07-wand-inlay-configuration.md) |
 | 名词、动词与句法角色 | 名词、动词是固定词性；主语、谓语、宾语是位置职责，名词跨角色使用须符合词义。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-grammar-and-semantic-compatibility.md) |
 | 执行者、操作内容与受术目标 | 谁执行、直接处理什么以及结果落在谁身上三个语义关系，具体词义分别声明。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md) |
-| 法术类型 | 根据句子的明确特征得到的分类，一条法术保留全部命中类型；区别于词性、实际效果与本次成功。 | [类型素材](game-design-workflow/idea-materials/M-2026-09-11-spell-type-system.md) |
+| 法术类型 | 根据句子的明确特征得到的可扩展分类，简易、状态、元素、召唤为当前基础类型；一条法术保留全部命中类型，区别于词性、实际效果与本次成功。 | [类型素材](game-design-workflow/idea-materials/M-2026-09-11-spell-type-system.md) |
 | 简易法术 | 省略显式主语的法术；默认玩家语义补全不取消简易特征。 | [类型素材](game-design-workflow/idea-materials/M-2026-09-11-spell-type-system.md) |
 | 状态法术 | 参与句义的名词中出现状态的法术，例如护甲、燃烧、冰冻状态；产生状态的动词本身不满足此特征。 | [类型素材](game-design-workflow/idea-materials/M-2026-09-11-spell-type-system.md) |
 | 元素法术 | 参与句义的名词中出现火焰、雷电、冰霜等元素的法术。 | [类型素材](game-design-workflow/idea-materials/M-2026-09-11-spell-type-system.md) |
 | 召唤法术 | 参与句义的名词中出现召唤物的法术；类型不等于本次实际生成单位。 | [类型素材](game-design-workflow/idea-materials/M-2026-09-11-spell-type-system.md) |
 | 多类型法术 | 同一条法术同时命中多个类型特征；多标签不增加效果、释放或实体词卡次数。 | [类型素材](game-design-workflow/idea-materials/M-2026-09-11-spell-type-system.md) |
+| 流派 | 围绕具体法术组合形成的玩法方向，说明核心操作、收益、时间与词卡成本、弱点及混搭关系；类型提供分类依据，类型与流派不强制一一对应，标签本身不产生加成。 | [流派规则](game-design-workflow/idea-materials/M-2026-09-07-supporting-design-rules.md)、[类型素材](game-design-workflow/idea-materials/M-2026-09-11-spell-type-system.md) |
 | 状态引用 | 配置对应词卡后操作战场状态的语义权限；引用本身不自动消耗状态。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-battle-state-persistence.md) |
 | 护甲 | 按数量累积的防护状态，普通伤害先等量消耗护甲，溢出扣生命；无自然到期与自动周期。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-armor-identity-generation-and-persistence.md) |
 | 状态重施 | 同目标同种合并，可累积数量相加、有限剩余时长相加，保留原周期和排序位置。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-status-reapplication-and-stacking.md) |

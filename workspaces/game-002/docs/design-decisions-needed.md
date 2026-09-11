@@ -1,6 +1,6 @@
 # 设计决定与后续工作
 
-日期：2026-09-11。状态：G002-CORE-012法术类型已采纳，对象范围继续按G002-CORE-011；Core Concept v0.6，证据Hypothesis。当前入口：[类型与分类讨论](spell-type-index.md)。
+日期：2026-09-11。状态：G002-CORE-012法术类型与G002-CORE-013类型扩展已采纳，对象范围继续按G002-CORE-011；Core Concept v0.6，证据Hypothesis。当前入口：[类型与分类讨论](spell-type-index.md)。
 
 ## 当前已确定
 
@@ -13,7 +13,7 @@
 | 法术生成物 | 增加真实火焰、雷电、冰霜对象；身份/来源/窗口与宿主状态、演出分开 | 同上 |
 | 资源收集 | 法术作用于合格对象后对象掉卡；资格与同名额度先检查，合法卡进入待领取整体收益 | [收益素材](../game-design-workflow/idea-materials/M-2026-09-06-normal-combat-word-rewards.md) |
 | 数值 | 全部重新设计；不使用示例默认值 | [数值任务](numerical-redesign.md) |
-| 法术类型 | 简易看省略主语，状态/元素/召唤看名词特征；一条法术可同时命中多类 | [类型素材](../game-design-workflow/idea-materials/M-2026-09-11-spell-type-system.md) |
+| 法术类型 | 简易看省略主语，状态/元素/召唤看名词特征；一条法术可同时命中多类；当前四类可以扩展，并为流派设计提供依据 | [类型素材](../game-design-workflow/idea-materials/M-2026-09-11-spell-type-system.md) |
 
 ## 当前暂缓
 
@@ -34,6 +34,8 @@ R01–R32保留编号追踪，[现行规则表](../game-design-workflow/idea-mat
 
 上一批元素载体、冰冻减伤、对象一次掉卡、具体数值和逐刻方案先Parked，原定普通攻击保护/反弹/转移细则也暂停。基础执行规则与已采纳对象范围保持；数值重设计任务并未取消，但不把搁置方案作为默认值。
 
+类型体系已确认可扩展，并关联后续流派设计。后续遇到未归类法术时主动检查可明确判定、可复用的新特征；适合时提出新类型的名称、特征、正反例、与现有类型的关系、流派价值和待验证问题，用户采纳后同步。当前没有新增类型或遗留人工选择，不需为扩展规则重复确认；TC23“我伤害敌人”保留现有结果，纳入后续扩展检查。
+
 分类无需再确认四类标准。后续具体内容缺口按类记录：状态主语例句的完整语法/词义；元素的具体作用；召唤词义与完整流程边界；各类与交叉类型的收益。类型识别不替代句法和语义合法性，本次不据“燃烧蔓延／燃烧加倍”解锁新通用句式或复杂传播。
 
 ## 来源
@@ -44,3 +46,5 @@ R01–R32保留编号追踪，[现行规则表](../game-design-workflow/idea-mat
 - [本轮交付](semantic-world-simplification.md)及[修改前快照](../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)。
 
 当前分类来源：[2026-09-11用户原话](../game-design-workflow/idea-inbox/2026-09-11-spell-type-system.md)及[采纳文本](../game-design-workflow/draft-changes/D-2026-09-11-spell-type-system.md)。
+
+类型扩展来源：[用户补充](../game-design-workflow/idea-inbox/2026-09-11-spell-type-system.md)及[G002-CORE-013采纳](../game-design-workflow/draft-changes/D-2026-09-11-extensible-spell-types.md)。
