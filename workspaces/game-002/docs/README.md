@@ -16,5 +16,7 @@
 
 - [超时疲劳](../game-design-workflow/idea-materials/M-2026-09-11-overtime-fatigue.md)：G002-CORE-014方向已采纳，执行与数值候选；与四层框架及交接联动。
 
-- [全局规则审查](global-rules-audit-2026-09-11.md)：四处表述修正、12组依赖、49份素材覆盖及积累待测范围。
+- [全局规则审查](global-rules-audit-2026-09-11.md)：原49份素材审查、四处表述修正、12组处理的G002-CORE-015关闭依据及待测范围。
 - [卡牌设计—评测—采纳](card-design-review-workflow.md)：词条、组合和流派的推进入口，复用已登记模板。
+
+- [GR01–GR12正式处理](../game-design-workflow/idea-materials/M-2026-09-11-global-rule-boundaries.md)：通用规则、具体卡牌声明与保留候选的完整状态。

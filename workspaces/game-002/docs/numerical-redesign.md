@@ -1,6 +1,6 @@
 # 数值重新设计任务
 
-状态：四层数值框架Candidate v0.2已建立，全局文档审查已完成；下一步回归卡牌／流派候选，按框架评议并积累待测项，测试暂缓至下次合批。2026-09-11已提出简易／状态交叉的攻防Candidate v0.1，具体参数未采纳；上一批元素、冰冻和掉卡稿仍为Parked。证据：Hypothesis。来源：[用户确认](../game-design-workflow/idea-inbox/2026-09-10-design-interface-questions.md)、[合格约束素材](../game-design-workflow/idea-materials/M-2026-09-10-numerical-redesign-constraints.md)、[核心](../game-design-workflow/core-concept.md)。
+状态：四层数值框架Candidate v0.3已建立，全局文档审查已完成且GR处理方式全部采纳；下一步回归卡牌／流派候选，按框架评议并积累待测项，测试暂缓至下次合批。2026-09-11已提出简易／状态交叉的攻防Candidate v0.1，具体参数未采纳；上一批元素、冰冻和掉卡稿仍为Parked。证据：Hypothesis。来源：[用户确认](../game-design-workflow/idea-inbox/2026-09-10-design-interface-questions.md)、[合格约束素材](../game-design-workflow/idea-materials/M-2026-09-10-numerical-redesign-constraints.md)、[核心](../game-design-workflow/core-concept.md)。
 
 ## 当前框架入口
 
@@ -26,6 +26,8 @@
 | 后置子系统 | 召唤参数、镶嵌参数、复杂环境机制参数 | Parked / Unknown | 子系统机制进入设计后再建立参数，不拿空白机制做数值标定 |
 
 ## 已确认的约束
+
+[G002-CORE-015／GR v1](../game-design-workflow/idea-materials/M-2026-09-11-global-rule-boundaries.md)已采纳参数归属、普通非负数量最终取整截断、冷却取消、状态归零与联合支付等共用边界，评价按正常／极端／真实玩家分组；每批固定实际资源。具体卡牌时间域、取值与内容字段待填；GR07-C01和FAT-C仍为候选。
 
 - 离散战斗时间；全部首次冷却起点在第0–10刻，周期等于冷却加释放，覆盖和打断保持后续周期。
 - 每刻最多一个释放槽，一法术一法杖，一实体词卡一出现位置且同场只属一法术；省略主语无隐藏词卡时间。
@@ -73,7 +75,7 @@
 
 ## 测试交接
 
-每次参数测试使用[固定测试交接文档](test-handoff.md)。TH-2026-09-11-001的r1／r2已完成限定复核；TH-2026-09-11-002/r3为Draft积累稿，拟合并框架、疲劳、全局边界与后续卡牌候选；用户下一次启动前不执行。旧无疲劳证据不自动适用于新执行包。当前批次、版本与执行状态只在交接页维护；成长曲线尚未运行、人工体验未测，不能继承上一批Pass。
+每次参数测试使用[固定测试交接文档](test-handoff.md)。TH-2026-09-11-001的r1／r2已完成限定复核；TH-2026-09-11-002/r4为Draft积累稿，拟合并框架、疲劳、全局边界与后续卡牌候选；用户下一次启动前不执行。旧无疲劳证据不自动适用于新执行包。当前批次、版本与执行状态只在交接页维护；成长曲线尚未运行、人工体验未测，不能继承上一批Pass。
 
 ## 交付验收
 

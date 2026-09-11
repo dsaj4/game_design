@@ -22,3 +22,5 @@
 - [类型扩展与主动建议采纳](D-2026-09-11-extensible-spell-types.md)：G002-CORE-013，四类为可扩展基础，关联流派；适合时主动提出新类型候选，采纳后同步。
 
 - [超时疲劳采纳文本](D-2026-09-11-overtime-fatigue.md)：G002-CORE-014方向已采纳，FAT-C执行／数值候选；测试按当前交接积累。
+
+- [全局规则边界采纳文本](D-2026-09-11-global-rule-boundaries.md)：G002-CORE-015，GR01–GR12处理方式全部采纳；具体卡牌字段按需补齐，GR07-C01与FAT-C保留Candidate，测试积累。

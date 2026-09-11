@@ -96,3 +96,11 @@ R12允许明确法术位移与结构变化；R17允许明示独立遗体；R18�
 | G002-CORE-014 | 2026-09-11 | 超时进入疲劳，双方随时间扣生命，疲劳期间法术不能恢复生命；保留生命胜负与同检查点失败优先 | Accepted：FAT-A方向；FAT-C执行／数值Candidate，证据Hypothesis | [用户原话](idea-inbox/2026-09-11-overtime-fatigue.md)、[素材](idea-materials/M-2026-09-11-overtime-fatigue.md)、[提案](idea-proposals/P-2026-09-11-overtime-fatigue.md)、[评估](evaluations/E-2026-09-11-overtime-fatigue.md)、[采纳文本](draft-changes/D-2026-09-11-overtime-fatigue.md) |
 
 NF-D01的方向已确定为疲劳；不采用“到验收截止即直接失败”的处理。具体触发刻、扣血曲线、护甲／打断及同刻细则仍为候选。既有报告仅对应其固定输入；本次没有新增其他词效或实现。
+
+## 2026-09-11：全局规则边界与卡牌评测要求
+
+| ID | 日期 | 决定 | 状态与证据 | 来源 |
+| --- | --- | --- | --- | --- |
+| G002-CORE-015 | 2026-09-11 | 全部采用GR01–GR12推荐处理：参数归属／取整、冷却与取消、角色配对声明、状态归零、联合支付、存活资格与完整事件、事件声明、生成物与产出字段、候选合批、正常／极端评价范围及实际资源输入 | Accepted：处理方式／GR v1；证据Hypothesis。GR07-C01、FAT-C与数值目标仍Candidate，具体卡牌字段待设计 | [用户确认](idea-inbox/2026-09-11-global-rules-review.md)、[合格素材](idea-materials/M-2026-09-11-global-rule-boundaries.md)、[提案](idea-proposals/P-2026-09-11-global-rule-boundaries.md)、[评估](evaluations/E-2026-09-11-global-rule-boundaries.md)、[采纳文本](draft-changes/D-2026-09-11-global-rule-boundaries.md) |
+
+本次逐项保留推荐的边界：GR07选择将同阶段派生延至下一刻作为待测候选，GR10选择保留完整FAT-C候选；不等于执行细则全部定稿。GR11评价范围已采纳，四层框架升至Candidate v0.3，数值不变。12项处理选择已结清；生成物、产出、死亡派生顺序与正式资源随相关内容补齐。测试交接TH-002/r4继续Draft／NotRun，用户下一次启动前不运行或分派，旧报告不改写。

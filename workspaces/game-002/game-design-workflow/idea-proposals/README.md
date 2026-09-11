@@ -13,3 +13,5 @@
 - [法术类型系统提案](P-2026-09-11-spell-type-system.md)：G002-CORE-012，四类特征、多类型及按类型组织；上一批具体词效与参数Parked。
 
 - [超时疲劳提案](P-2026-09-11-overtime-fatigue.md)：G002-CORE-014方向已采纳，FAT-C执行／数值候选；测试按当前交接积累。
+
+- [全局规则边界提案](P-2026-09-11-global-rule-boundaries.md)：G002-CORE-015，GR01–GR12处理方式全部采纳；具体卡牌字段按需补齐，GR07-C01与FAT-C保留Candidate，测试积累。

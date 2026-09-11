@@ -1,6 +1,6 @@
 # 设计决定与后续工作
 
-日期：2026-09-11。状态：G002-CORE-012法术类型与G002-CORE-013类型扩展、G002-CORE-014疲劳方向已采纳，对象范围继续按G002-CORE-011；Core Concept v0.6，证据Hypothesis。当前已完成[全局规则审查](global-rules-audit-2026-09-11.md)，下一步回归[卡牌与流派流程](card-design-review-workflow.md)，测试积累后合批；共用[四层数值框架](../game-design-workflow/idea-materials/M-2026-09-11-numerical-evaluation-framework.md)，继续按[类型入口](spell-type-index.md)组织。
+日期：2026-09-11。状态：G002-CORE-012法术类型与G002-CORE-013类型扩展、G002-CORE-014疲劳方向与G002-CORE-015全局边界处理已采纳，对象范围继续按G002-CORE-011；Core Concept v0.6，证据Hypothesis。当前已完成[全局规则审查](global-rules-audit-2026-09-11.md)，下一步回归[卡牌与流派流程](card-design-review-workflow.md)，测试积累后合批；共用[四层数值框架](../game-design-workflow/idea-materials/M-2026-09-11-numerical-evaluation-framework.md)，继续按[类型入口](spell-type-index.md)组织。
 
 ## 当前已确定
 
@@ -47,7 +47,7 @@ R01–R32保留编号追踪，[现行规则表](../game-design-workflow/idea-mat
 
 ## 当前框架与待决问题
 
-[四层框架Candidate v0.2](../game-design-workflow/idea-materials/M-2026-09-11-numerical-evaluation-framework.md)已经给出收益／时间方法、五个进度点的双方预算、跨战账本与EX01–EX09体验门槛。用户明确设计范围；具体指标目标仍为候选，不写成已通过结论。
+[四层框架Candidate v0.3](../game-design-workflow/idea-materials/M-2026-09-11-numerical-evaluation-framework.md)已经给出收益／时间方法、五个进度点的双方预算、跨战账本与EX01–EX09体验门槛。用户明确设计范围；具体指标目标仍为候选，不写成已通过结论。
 
 | 编号 | 问题 | 推荐与当前状态 |
 | --- | --- | --- |
@@ -58,13 +58,21 @@ R01–R32保留编号追踪，[现行规则表](../game-design-workflow/idea-mat
 
 ## 全局规则审查与卡牌设计入口
 
-本轮四处确定性表述问题已按现行决定修正，另有GR01–GR12共12组歧义或输入依赖，详见[审查总表](global-rules-audit-2026-09-11.md)。GR推荐未采纳，不重问已确定的核心、四类特征或疲劳方向；卡牌进入可评测候选前，只补齐它实际涉及的依赖。
+四处表述修正已完成；用户已全部采用GR01–GR12推荐处理，见[GR v1素材](../game-design-workflow/idea-materials/M-2026-09-11-global-rule-boundaries.md)与[采纳文本](../game-design-workflow/draft-changes/D-2026-09-11-global-rule-boundaries.md)。12项处理选择已结清，不重复询问；卡牌进入可评测候选前补齐它实际涉及的具体声明或参数。
+
+| 范围 | 当前处理 | 剩余工作 |
+| --- | --- | --- |
+| GR01–06 | 数值归属／截断、冷却取消、配对声明、归零、联合支付与存活资格已采纳 | 逐卡填参数域、角色／费用和死亡派生顺序 |
+| GR07 | 事件声明与有限响应已采纳；同阶段派生延至下一刻为GR07-C01 Candidate | 相关事件卡按候选版本合批 |
+| GR08–09 | 生成物和产出卡必填项已采纳 | 填当前卡的窗口、次数、空池、费用等 |
+| GR10 | 保留完整FAT-C候选合批的处理已采纳 | 复用F06–F08，执行／数值尚未定稿 |
+| GR11–12 | 正常／极端／玩家样本范围、固定实际资源输入已采纳 | 框架v0.3阈值仍候选，实际资源与体验证据按批补齐 |
 
 用户要求暂不验证，积累到下一次一起测试；下一步按[设计—评测—采纳流程](card-design-review-workflow.md)处理词卡和流派，具体新内容尚未创建。
 
 ## 测试交接
 
-[固定测试交接](test-handoff.md)持续维护。上一批TH-2026-09-11-001已完成限定计算与demo验证，历史报告保留；TH-2026-09-11-002现为r3 Draft积累稿，保留r1／r2固定输入与待测项，追加全局边界及后续卡牌候选；按用户指令暂不运行或分派测试。旧证据复评与新情境分开，合批启动前重新固定输入。执行状态以交接页为准，不重新执行已经通过且输入未变的完整726组，仅在发现差异或扩大范围时追加必要验证。
+[固定测试交接](test-handoff.md)持续维护。上一批TH-2026-09-11-001已完成限定计算与demo验证，历史报告保留；TH-2026-09-11-002现为r4 Draft积累稿，保留r1／r2固定输入与待测项，追加全局边界及后续卡牌候选；按用户指令暂不运行或分派测试。旧证据复评与新情境分开，合批启动前重新固定输入。执行状态以交接页为准，不重新执行已经通过且输入未变的完整726组，仅在发现差异或扩大范围时追加必要验证。
 
 ## 来源
 
@@ -80,3 +88,5 @@ R01–R32保留编号追踪，[现行规则表](../game-design-workflow/idea-mat
 当前阶段来源：[本轮用户原话](../game-design-workflow/idea-inbox/2026-09-11-numerical-evaluation-framework.md)。
 
 疲劳来源：[用户原话](../game-design-workflow/idea-inbox/2026-09-11-overtime-fatigue.md)、[G002-CORE-014](../game-design-workflow/draft-changes/D-2026-09-11-overtime-fatigue.md)。
+
+全局边界来源：[用户批量确认](../game-design-workflow/idea-inbox/2026-09-11-global-rules-review.md)、[G002-CORE-015](../game-design-workflow/draft-changes/D-2026-09-11-global-rule-boundaries.md)。

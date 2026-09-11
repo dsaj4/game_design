@@ -93,7 +93,7 @@
 | 完整召唤、复杂传播、镶嵌 | 依既有范围后置 |
 | 类型扩展与主动建议 | Accepted；关联流派设计，遇到适合的新特征主动提出候选 |
 | 当前参数工作 | 简易／状态攻防Candidate v0.1已提出并做纸面算术复核，具体数值未采纳 |
-| 后续工作 | 全局文档审查已完成，下一步进入卡牌／流派候选；按GR依赖补齐定义，测试积累后合批；类型扩展检查要求保留 |
+| 后续工作 | 全局文档审查已完成，下一步进入卡牌／流派候选；按已采纳GR处理补具体卡牌字段，测试积累后合批；类型扩展检查要求保留 |
 
 首批[词效原稿](../game-design-workflow/idea-inbox/2026-09-10-element-state-drop-wording.md)与[纸面记录](../game-design-workflow/idea-inbox/2026-09-10-element-state-drop-paper-checks.md)保留追溯。已确认的对象范围和基础执行规则继续有效。
 
@@ -145,4 +145,4 @@ G002-CORE-013补充来源：[扩展采纳文本](../game-design-workflow/draft-c
 
 疲劳是[G002-CORE-014全局战斗规则](../game-design-workflow/idea-materials/M-2026-09-11-overtime-fatigue.md)，不新增词卡，不因名为“疲劳”就归为状态法术；四类特征及扩展检查要求继续适用。
 
-后续操作见[卡牌设计—评测—采纳流程](card-design-review-workflow.md)；[全局审查](global-rules-audit-2026-09-11.md)的GR条目按当前卡牌依赖处理，推荐方案不自动采纳。
+后续操作见[卡牌设计—评测—采纳流程](card-design-review-workflow.md)；[GR v1处理方式](../game-design-workflow/idea-materials/M-2026-09-11-global-rule-boundaries.md)已全部采纳，后续按卡牌实际依赖补具体字段；GR07-C01与FAT-C保留候选合批。
