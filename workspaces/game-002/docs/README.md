@@ -15,3 +15,6 @@
 共享协议见[仓库规则](../../../AGENTS.md)，本地约束见[工作区规则](../AGENTS.md)。
 
 - [超时疲劳](../game-design-workflow/idea-materials/M-2026-09-11-overtime-fatigue.md)：G002-CORE-014方向已采纳，执行与数值候选；与四层框架及交接联动。
+
+- [全局规则审查](global-rules-audit-2026-09-11.md)：四处表述修正、12组依赖、49份素材覆盖及积累待测范围。
+- [卡牌设计—评测—采纳](card-design-review-workflow.md)：词条、组合和流派的推进入口，复用已登记模板。

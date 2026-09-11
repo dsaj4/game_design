@@ -7,3 +7,5 @@
 [C01–C08](../docs/design-decisions-needed.md)已按用户确认处理；具体参数重新设计，完整召唤、镶嵌与复杂环境机制依范围后置。正式核心变更须有明确采纳并同步[决策记录](decision-log.md)。
 
 [当前简单对象交互范围](idea-materials/M-2026-09-10-simple-object-interactions.md)已按用户指令采纳：对象数量/状态变化、真实火焰/雷电/冰霜及对象掉卡。位移、结构、指定端点和材料加工暂缓。引用、名单与时序骨架继续有效。当前按[法术类型入口](../docs/spell-type-index.md)组织：四类特征与多类型、首批词名分类已采纳；上一批具体词效与参数先Parked。
+
+全局文档审查完成后的当前入口：[卡牌设计—评测—采纳流程](../docs/card-design-review-workflow.md)。[GR01–GR12](../docs/global-rules-audit-2026-09-11.md)按新卡依赖逐项处理，测试按用户指令积累后合批；流程推进不自动采纳候选规则。

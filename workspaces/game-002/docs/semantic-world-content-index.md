@@ -30,9 +30,9 @@
 
 先读[类型入口](spell-type-index.md)，再按本次关注类型进入具体词义。多类型内容只保留一份规则，各入口共同引用；共享的句法、成本、时序、成功与收益规则不按类型另造版本。
 
-正式素材49份，inbox24份。类型标准与首批分类已采纳，具体效果和数值的状态分开管理。本页更新前的首批交付记录可从提交f7eee73追溯，对应词效与纸面原稿保留原有内容。
+正式素材49份，inbox25份。类型标准与首批分类已采纳，具体效果和数值的状态分开管理。本页更新前的首批交付记录可从提交f7eee73追溯，对应词效与纸面原稿保留原有内容。
 
 
 当前已进入[参数设计](numerical-redesign.md)：另行形成[简易攻击与护甲Candidate v0.1](../game-design-workflow/idea-materials/M-2026-09-11-simple-spell-parameter-candidates.md)，参数定义与局部算例已给出，具体数值未采纳；本页首批元素／状态／掉卡词效原稿继续Parked。
 
-用户当前要求先建立[四层数值框架](../game-design-workflow/idea-materials/M-2026-09-11-numerical-evaluation-framework.md)，暂不进入其他法术效果设计；现有范围与类型保持，具体效果不因框架自动补齐。
+[四层数值框架](../game-design-workflow/idea-materials/M-2026-09-11-numerical-evaluation-framework.md)已建立；用户随后要求[全局审查](global-rules-audit-2026-09-11.md)，审查完成后回归[卡牌与流派流程](card-design-review-workflow.md)。测试积累后合批；旧词效保持Parked，新设计按资格流程逐项推进。
