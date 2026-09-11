@@ -1,6 +1,6 @@
 # 设计决定与后续工作
 
-日期：2026-09-11。状态：G002-CORE-012法术类型与G002-CORE-013类型扩展已采纳，对象范围继续按G002-CORE-011；Core Concept v0.6，证据Hypothesis。当前先建立[四层数值框架](../game-design-workflow/idea-materials/M-2026-09-11-numerical-evaluation-framework.md)，继续按[类型入口](spell-type-index.md)组织。
+日期：2026-09-11。状态：G002-CORE-012法术类型与G002-CORE-013类型扩展、G002-CORE-014疲劳方向已采纳，对象范围继续按G002-CORE-011；Core Concept v0.6，证据Hypothesis。当前先建立[四层数值框架](../game-design-workflow/idea-materials/M-2026-09-11-numerical-evaluation-framework.md)，继续按[类型入口](spell-type-index.md)组织。
 
 ## 当前已确定
 
@@ -12,6 +12,7 @@
 | 对象交互 | 以数量、强度、剩余时间或状态改变为主；点燃/冰冻等简单变化进入当前内容设计 | [简化素材](../game-design-workflow/idea-materials/M-2026-09-10-simple-object-interactions.md) |
 | 法术生成物 | 增加真实火焰、雷电、冰霜对象；身份/来源/窗口与宿主状态、演出分开 | 同上 |
 | 资源收集 | 法术作用于合格对象后对象掉卡；资格与同名额度先检查，合法卡进入待领取整体收益 | [收益素材](../game-design-workflow/idea-materials/M-2026-09-06-normal-combat-word-rewards.md) |
+| 超时疲劳 | 双方随时间扣减生命，法术不能恢复生命；沿用生命胜负，执行细则与数值候选 | [疲劳素材](../game-design-workflow/idea-materials/M-2026-09-11-overtime-fatigue.md) |
 | 数值 | 全部重新设计；不使用示例默认值 | [数值任务](numerical-redesign.md) |
 | 法术类型 | 简易看省略主语，状态/元素/召唤看名词特征；一条法术可同时命中多类；当前四类可以扩展，并为流派设计提供依据 | [类型素材](../game-design-workflow/idea-materials/M-2026-09-11-spell-type-system.md) |
 
@@ -46,17 +47,18 @@ R01–R32保留编号追踪，[现行规则表](../game-design-workflow/idea-mat
 
 ## 当前框架与待决问题
 
-[四层框架Candidate v0.1](../game-design-workflow/idea-materials/M-2026-09-11-numerical-evaluation-framework.md)已经给出收益／时间方法、五个进度点的双方预算、跨战账本与EX01–EX09体验门槛。用户明确设计范围；具体指标目标仍为候选，不写成已通过结论。
+[四层框架Candidate v0.2](../game-design-workflow/idea-materials/M-2026-09-11-numerical-evaluation-framework.md)已经给出收益／时间方法、五个进度点的双方预算、跨战账本与EX01–EX09体验门槛。用户明确设计范围；具体指标目标仍为候选，不写成已通过结论。
 
 | 编号 | 问题 | 推荐与当前状态 |
 | --- | --- | --- |
-| NF-D01 | 纯防御或无有效输出配置可能没有自动终局；现有基准也出现96刻未结束 | 推荐另行设计公开战斗时限及明确超时失败结果；待用户采纳及Draft Change。本轮80／120刻仅为体验验收候选线 |
+| NF-D01 | 超时采用何种终局压力 | 已处理：G002-CORE-014采纳疲劳，双方随时间扣血且法术禁疗；不直接超时判负 |
+| NF-D01-C | 疲劳执行细则与具体参数 | FAT-C01–08为候选：触发／周期／曲线、护甲与打断、同刻及禁疗；先独立审查，未作为正式默认值。EX02计入完整疲劳阶段 |
 | NF-I01 | 阶段资源、获取分布、路线／恢复／价格尚未形成完整输入 | 按框架分层补齐；成长2.30／1.60等是目标预算，不是假定已获得属性 |
 | NF-I02 | 卡池策略宽度、1倍速秒数与玩家理解证据不足 | 标NotEvaluable；不能从两句与自动检查证明无唯一最优或体验通过 |
 
 ## 测试交接
 
-[固定测试交接](test-handoff.md)持续维护。上一批TH-2026-09-11-001已完成限定计算与demo验证，历史报告保留；新批次TH-2026-09-11-002用于框架独立审查和既有证据复评。执行状态以交接页为准，不重新执行已经通过且输入未变的完整726组，仅在发现差异或扩大范围时追加必要验证。
+[固定测试交接](test-handoff.md)持续维护。上一批TH-2026-09-11-001已完成限定计算与demo验证，历史报告保留；新批次TH-2026-09-11-002修订r2，增加疲劳包与账本审查。r1保留原输入追溯；旧证据复评和含疲劳的新情境分开。执行状态以交接页为准，不重新执行已经通过且输入未变的完整726组，仅在发现差异或扩大范围时追加必要验证。
 
 ## 来源
 
@@ -70,3 +72,5 @@ R01–R32保留编号追踪，[现行规则表](../game-design-workflow/idea-mat
 类型扩展来源：[用户补充](../game-design-workflow/idea-inbox/2026-09-11-spell-type-system.md)及[G002-CORE-013采纳](../game-design-workflow/draft-changes/D-2026-09-11-extensible-spell-types.md)。
 
 当前阶段来源：[本轮用户原话](../game-design-workflow/idea-inbox/2026-09-11-numerical-evaluation-framework.md)。
+
+疲劳来源：[用户原话](../game-design-workflow/idea-inbox/2026-09-11-overtime-fatigue.md)、[G002-CORE-014](../game-design-workflow/draft-changes/D-2026-09-11-overtime-fatigue.md)。

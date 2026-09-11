@@ -93,7 +93,7 @@
 | 完整召唤、复杂传播、镶嵌 | 依既有范围后置 |
 | 类型扩展与主动建议 | Accepted；关联流派设计，遇到适合的新特征主动提出候选 |
 | 当前参数工作 | 简易／状态攻防Candidate v0.1已提出并做纸面算术复核，具体数值未采纳 |
-| 后续工作 | 优先审查四层数值框架及终局保障；具体词效另行推进，类型扩展检查要求继续保留 |
+| 后续工作 | 优先审查四层数值框架与疲劳执行候选；具体词效另行推进，类型扩展检查要求继续保留 |
 
 首批[词效原稿](../game-design-workflow/idea-inbox/2026-09-10-element-state-drop-wording.md)与[纸面记录](../game-design-workflow/idea-inbox/2026-09-10-element-state-drop-paper-checks.md)保留追溯。已确认的对象范围和基础执行规则继续有效。
 
@@ -142,3 +142,5 @@ G002-CORE-012分类交付记录：正式素材46份，inbox21份。已检查首�
 G002-CORE-012交付时已有两份语法与显式主语素材的本地修改，保留原样且不纳入本次提交；本次未回填它们移除的具体词效表述。
 
 G002-CORE-013补充来源：[扩展采纳文本](../game-design-workflow/draft-changes/D-2026-09-11-extensible-spell-types.md)。已将类型扩展和主动建议写入[工作区操作规则](../AGENTS.md)，沿用同一份原始记录、合格素材、提案与评估补充追踪；正式素材与inbox数量不变。
+
+疲劳是[G002-CORE-014全局战斗规则](../game-design-workflow/idea-materials/M-2026-09-11-overtime-fatigue.md)，不新增词卡，不因名为“疲劳”就归为状态法术；四类特征及扩展检查要求继续适用。

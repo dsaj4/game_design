@@ -1,6 +1,6 @@
 # game-002 正式素材索引
 
-共48份Qualified GDD Material；证据Hypothesis。可引用资格不等于完整系统已验证，具体范围以素材正文及[决定清单](../../docs/design-decisions-needed.md)为准。核心统一为[Core Concept v0.6](../core-concept.md)，C01–C08已处理，引用与执行骨架保留，SW01及R01–R32当前操作范围按G002-CORE-011简化；四类法术特征与多类型按G002-CORE-012，后续按类型讨论。
+共49份Qualified GDD Material；证据Hypothesis。可引用资格不等于完整系统已验证，具体范围以素材正文及[决定清单](../../docs/design-decisions-needed.md)为准。核心统一为[Core Concept v0.6](../core-concept.md)，C01–C08已处理，引用与执行骨架保留，SW01及R01–R32当前操作范围按G002-CORE-011简化；四类法术特征与多类型按G002-CORE-012，后续按类型讨论。
 
 | 素材 | 明确范围 | 处理状态与后续验证 |
 | --- | --- | --- |
@@ -50,7 +50,8 @@
 | [实例绑定与条件绑定](M-2026-09-10-instance-and-conditional-binding.md) | 点名对象保持身份；战前固定条件每次释放匹配当前对象，新生对象可参与。 | SW02、SW02-A / G002-CORE-008、009 Accepted；R01–R32执行框架已采纳；具体条目待设计 |
 | [语义世界的对象交互与执行规则](M-2026-09-10-semantic-world-executable-rules.md) | R01–R32：按当前简单对象范围保留引用、成本、身份、状态、过程与权益骨架。 | G002-CORE-011 / 当前范围已修订；具体词义、参数及体验待验证 |
 | [简易法术与护甲参数候选](M-2026-09-11-simple-spell-parameter-candidates.md) | 参数定义；两句首轮候选、共同测试资源、事件记录与节奏敏感性。 | Qualified / Candidate v0.1；具体参数未Accepted，证据Hypothesis |
-| [四层数值框架](M-2026-09-11-numerical-evaluation-framework.md) | 法术收益／时间、双方成长、跨战账本、体验验收及终局缺口。 | Framework Candidate v0.1；具体权重、曲线与阈值待验证 |
+| [四层数值框架](M-2026-09-11-numerical-evaluation-framework.md) | 法术收益／时间、双方成长、跨战账本、体验验收及终局缺口。 | Framework Candidate v0.2；具体权重、曲线与阈值待验证 |
+| [超时疲劳](M-2026-09-11-overtime-fatigue.md) | 超时双方扣血，法术禁疗；含FAT-C执行候选与有限收尾推导。 | G002-CORE-014方向Accepted；执行及数值Candidate，证据Hypothesis |
 
 数值按[重设计任务](../../docs/numerical-redesign.md)重新建立；来源快照只用于追溯。召唤、镶嵌与复杂环境机制后置；简单点燃/冰冻及法术生成物当前推进。
 

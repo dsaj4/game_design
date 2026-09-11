@@ -13,3 +13,5 @@
 - [开发索引](code-development-index.md)：实现状态与证据。
 
 共享协议见[仓库规则](../../../AGENTS.md)，本地约束见[工作区规则](../AGENTS.md)。
+
+- [超时疲劳](../game-design-workflow/idea-materials/M-2026-09-11-overtime-fatigue.md)：G002-CORE-014方向已采纳，执行与数值候选；与四层框架及交接联动。
