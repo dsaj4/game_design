@@ -4,6 +4,7 @@
 - [设计决定与后续工作](design-decisions-needed.md)：C01–C08及R01–R32采纳范围与后续工作。
 - [文档审查与验收](design-alignment-audit.md)：逐文件覆盖、快照与一致性。
 - [测试交接](test-handoff.md)：固定测试入口、输入版本、当前用例、验收和结果回填；每批持续维护。
+- [四层数值框架](../game-design-workflow/idea-materials/M-2026-09-11-numerical-evaluation-framework.md)：当前候选，法术收益、双方成长、跨战账本与体验门槛。
 - [数值重设计](numerical-redesign.md)：已确认范围、Unknown参数与验证顺序。
 - [语义世界规则交付](semantic-world-rules-adoption.md)：32项采纳、文件清单与规则走查。
 - [法术类型入口](spell-type-index.md)：当前主入口；四类特征、首批18词归类与后续分类讨论。

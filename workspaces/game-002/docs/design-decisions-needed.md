@@ -1,6 +1,6 @@
 # 设计决定与后续工作
 
-日期：2026-09-11。状态：G002-CORE-012法术类型与G002-CORE-013类型扩展已采纳，对象范围继续按G002-CORE-011；Core Concept v0.6，证据Hypothesis。当前进入[参数设计](numerical-redesign.md)，继续按[类型入口](spell-type-index.md)组织。
+日期：2026-09-11。状态：G002-CORE-012法术类型与G002-CORE-013类型扩展已采纳，对象范围继续按G002-CORE-011；Core Concept v0.6，证据Hypothesis。当前先建立[四层数值框架](../game-design-workflow/idea-materials/M-2026-09-11-numerical-evaluation-framework.md)，继续按[类型入口](spell-type-index.md)组织。
 
 ## 当前已确定
 
@@ -42,11 +42,21 @@ R01–R32保留编号追踪，[现行规则表](../game-design-workflow/idea-mat
 
 用户已明确本轮同时给出参数定义和首轮测试数值，见[启动记录](../game-design-workflow/idea-inbox/2026-09-11-parameter-design-start.md)。现有[攻防Candidate v0.1](../game-design-workflow/idea-materials/M-2026-09-11-simple-spell-parameter-candidates.md)完成局部资格确认：通用参数、4种测试词、伤害敌人／获得护甲两句、共同敌人、4个代表配置及节奏敏感性。具体参数尚未Accepted；没有恢复被搁置的元素、冰冻或掉卡方案。
 
-本轮结果供设计评议：以12刻敌方节奏作为入门测试候选，8、10刻作为压力样本。两种方案在快慢与损伤上有区别；护甲被击穿时会连带失去冷却机会，需要后续内容提供可解释的应对。下一步自然入口是评议该候选后明确状态词效及参数，正式资源、经济和整局平衡仍待设计。
+本轮结果供设计评议：以12刻敌方节奏作为入门测试候选，8、10刻作为压力样本。两种方案在快慢与损伤上有区别；护甲被击穿时会连带失去冷却机会，需要后续内容提供可解释的应对。限定计算与实现已独立复核；用户随后明确先建立四层框架，其他词效暂不展开。正式资源、经济和整局平衡仍待设计。
+
+## 当前框架与待决问题
+
+[四层框架Candidate v0.1](../game-design-workflow/idea-materials/M-2026-09-11-numerical-evaluation-framework.md)已经给出收益／时间方法、五个进度点的双方预算、跨战账本与EX01–EX09体验门槛。用户明确设计范围；具体指标目标仍为候选，不写成已通过结论。
+
+| 编号 | 问题 | 推荐与当前状态 |
+| --- | --- | --- |
+| NF-D01 | 纯防御或无有效输出配置可能没有自动终局；现有基准也出现96刻未结束 | 推荐另行设计公开战斗时限及明确超时失败结果；待用户采纳及Draft Change。本轮80／120刻仅为体验验收候选线 |
+| NF-I01 | 阶段资源、获取分布、路线／恢复／价格尚未形成完整输入 | 按框架分层补齐；成长2.30／1.60等是目标预算，不是假定已获得属性 |
+| NF-I02 | 卡池策略宽度、1倍速秒数与玩家理解证据不足 | 标NotEvaluable；不能从两句与自动检查证明无唯一最优或体验通过 |
 
 ## 测试交接
 
-[固定测试交接](test-handoff.md)已建立，按用户要求持续维护。当前TH-2026-09-11-001 / r1为攻防参数候选独立复核包，输入已固定、用例与回填要求已列明，当前执行状态以交接页为准。测试后的差异与设计问题回到本清单；参数采纳与体验判断继续独立处理。
+[固定测试交接](test-handoff.md)持续维护。上一批TH-2026-09-11-001已完成限定计算与demo验证，历史报告保留；新批次TH-2026-09-11-002用于框架独立审查和既有证据复评。执行状态以交接页为准，不重新执行已经通过且输入未变的完整726组，仅在发现差异或扩大范围时追加必要验证。
 
 ## 来源
 
@@ -58,3 +68,5 @@ R01–R32保留编号追踪，[现行规则表](../game-design-workflow/idea-mat
 当前分类来源：[2026-09-11用户原话](../game-design-workflow/idea-inbox/2026-09-11-spell-type-system.md)及[采纳文本](../game-design-workflow/draft-changes/D-2026-09-11-spell-type-system.md)。
 
 类型扩展来源：[用户补充](../game-design-workflow/idea-inbox/2026-09-11-spell-type-system.md)及[G002-CORE-013采纳](../game-design-workflow/draft-changes/D-2026-09-11-extensible-spell-types.md)。
+
+当前阶段来源：[本轮用户原话](../game-design-workflow/idea-inbox/2026-09-11-numerical-evaluation-framework.md)。

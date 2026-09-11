@@ -1,6 +1,6 @@
 # 法术类型与分类讨论入口
 
-日期：2026-09-11。状态：Accepted / G002-CORE-012、G002-CORE-013；证据Hypothesis。分类已明确，当前按类型进入参数定义与首轮测试候选设计。
+日期：2026-09-11。状态：Accepted / G002-CORE-012、G002-CORE-013；证据Hypothesis。分类已明确，当前先建立[四层数值框架](../game-design-workflow/idea-materials/M-2026-09-11-numerical-evaluation-framework.md)，暂不进入其他法术效果设计。
 
 [正式类型素材](../game-design-workflow/idea-materials/M-2026-09-11-spell-type-system.md)是分类依据，含18词逐项表和26项例句；本页按当前四类交叉索引，后续可扩展，不重复维护另一套词义。具体效果能否执行须另外检查。
 
@@ -37,7 +37,7 @@
 
 后续讨论状态名词允许承担的角色、操作和组合。燃烧蔓延／燃烧加倍的名词＋动词简写可作类型示例，完整句法和作用规则尚需在该类内明确；没有因此放开任意语序、传播或其他复杂环境机制。
 
-护甲生成量与时序比较共用[同一参数候选](../game-design-workflow/idea-materials/M-2026-09-11-simple-spell-parameter-candidates.md)，不重复建立状态类数值。燃烧、冰冻等先明确词效，再赋参数。
+护甲生成量与时序比较共用[同一参数候选](../game-design-workflow/idea-materials/M-2026-09-11-simple-spell-parameter-candidates.md)，不重复建立状态类数值。燃烧、冰冻等词效当前暂停推进；本阶段先明确跨类型的数值评估尺度。
 
 ## 元素法术
 
@@ -93,7 +93,7 @@
 | 完整召唤、复杂传播、镶嵌 | 依既有范围后置 |
 | 类型扩展与主动建议 | Accepted；关联流派设计，遇到适合的新特征主动提出候选 |
 | 当前参数工作 | 简易／状态攻防Candidate v0.1已提出并做纸面算术复核，具体数值未采纳 |
-| 后续工作 | 评议参数基准，按类型补齐状态和元素词义；继续检查适合新设类型的未归类法术 |
+| 后续工作 | 优先审查四层数值框架及终局保障；具体词效另行推进，类型扩展检查要求继续保留 |
 
 首批[词效原稿](../game-design-workflow/idea-inbox/2026-09-10-element-state-drop-wording.md)与[纸面记录](../game-design-workflow/idea-inbox/2026-09-10-element-state-drop-paper-checks.md)保留追溯。已确认的对象范围和基础执行规则继续有效。
 
