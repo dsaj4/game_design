@@ -14,6 +14,7 @@ Project ID：game-002。状态：Active / Stable Design Baseline。当前核心�
 - [设计决定与后续工作](docs/design-decisions-needed.md)
 - [逐文件审查与验收](docs/design-alignment-audit.md)
 - [数值重设计任务](docs/numerical-redesign.md)
+- [测试交接与回填](docs/test-handoff.md)
 - [项目决策](game-design-workflow/decision-log.md)
 - [项目总控](docs/control-center.md)
 - [领域词汇](CONTEXT.md)
