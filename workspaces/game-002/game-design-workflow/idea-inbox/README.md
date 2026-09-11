@@ -1,6 +1,6 @@
 # game-002 原始表达与候选入口
 
-共21份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
+共22份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
 
 | 记录 | 状态 |
 | --- | --- |
@@ -25,5 +25,6 @@
 | [首批具体词义](2026-09-10-element-state-drop-wording.md) | Parked / Unqualified：具体词效及参数搁置，只保留词名供分类。 |
 | [首批纸面记录](2026-09-10-element-state-drop-paper-checks.md) | Parked：对应未采纳参数的纸面记录，不作为当前验证依据。 |
 | [法术类型系统](2026-09-11-spell-type-system.md) | Promoted / Accepted：四类特征、多类型与分类讨论；首批18词只采纳归类。 |
+| [参数设计启动](2026-09-11-parameter-design-start.md) | Promoted：参数定义与首轮测试范围；具体数值为Candidate，未采纳。 |
 
-当前按[类型入口](../../docs/spell-type-index.md)推进。四类特征已采纳，具体词效与参数先搁置；候选不得静默写入正式GDD。前次内容与关键规则的原始输入保存在[快照](../../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)。
+当前按[类型入口](../../docs/spell-type-index.md)推进。四类特征已采纳且可以扩展；上一批具体词效与参数保持Parked，本轮另行提出简易攻防参数候选；候选不得静默写入正式GDD。前次内容与关键规则的原始输入保存在[快照](../../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)。
