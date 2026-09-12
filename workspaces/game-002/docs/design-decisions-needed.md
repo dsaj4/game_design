@@ -1,5 +1,7 @@
 # 设计决定与后续工作
 
+当前优先：[第二流派元素法术](../game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md)。已明确同种叠层／空格生成／满位施加、共享状态层数、固有火草冰克制及异种抵消顺序。下一步补环境转换与持续事件边界，成型后续讨论。简易期保留48项候选，点燃／冰冻动词已撤出；原50项描述为初设历史。
+
 当前新增：[第一人称战场与环境草案](battlefield-and-environment.md)。用户明确2×5与单层火焰作用，BF-C01–15已补成具体推荐；[Draft Change](../game-design-workflow/draft-changes/D-2026-09-12-first-person-grid-battlefield.md)列出对核心场景／范围／传播文字的拟替换。整包待审阅，测试r9暂缓；下方原规则采纳记录仍为正式基线，不阻止本次候选设计。
 
 ## 当前新增：第一流派简易法术

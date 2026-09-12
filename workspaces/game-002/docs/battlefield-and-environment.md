@@ -1,5 +1,7 @@
 # 第一人称战场与环境设计入口
 
+当前衔接：[元素法术机制方向](../game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md)新增同种叠层、满位施加／重试、共享层数归零消散、环境转化继承、属性克制与单元素状态。下方BF-C是原v0.1候选，独立P／寿命、满位结果及烧焦占位不能作为新元素规则默认；当前先细化元素，不再要求先整包确认旧BF-C。
+
 维护：2026-09-12。当前形成[GDD-1规则草案](../game-design-workflow/gdd/GDD-2026-09-12-first-person-grid-battlefield.md)，状态Draft Change；参数未冻结、未测试。原话与[附件](reference-images/2026-09-12-first-person-battlefield-reference.jpg)已在系统内保存。
 
 用户已明确：第一人称、前后两行每行5格、敌人居中、环境与格子有属性、生成单位占位置；火焰影响附近对象，使树草逐步燃烧／烧焦。已确认只有火焰向周围施加，树草不继续传播。

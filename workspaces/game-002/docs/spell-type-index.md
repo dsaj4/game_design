@@ -15,6 +15,8 @@
 
 ## 简易法术
 
+当前第一期48项保留候选，点燃／冰冻动词SC-V06／07已经用户要求撤出；下方旧词名及类型例句保留历史分类，不等于当前可选卡牌。状态名词和状态结果转由元素机制承担，非元素状态操作暂保留。
+
 当前已进入[第一期50项创意描述](../game-design-workflow/idea-inbox/2026-09-12-simple-spell-creative-card-pool.md)：12名词、12动词、12形容词、14镶嵌，均为Raw候选；用户要求暂不考虑平衡与数值。8组代表表达在效果覆盖SC-C1–C8登记，新词拟议类型不等于语义已通过。
 
 2026-09-12开始[第一流派设计](../game-design-workflow/idea-materials/M-2026-09-12-simple-spell-archetype.md)：基础牌组及跨流派基础内容，倾向直接、短释放、低单次量；该倾向不改写下述类型判定。完整连发参与共享槽、本杖成功积累后下次量强化并清空已确认；配套词卡、修饰词与镶嵌仍逐项设计。原始建议及库存审查见[inbox](../game-design-workflow/idea-inbox/2026-09-12-simple-spell-archetype.md)。
@@ -44,6 +46,8 @@
 护甲生成量与时序比较共用[同一参数候选](../game-design-workflow/idea-materials/M-2026-09-11-simple-spell-parameter-candidates.md)，不重复建立状态类数值。燃烧、冰冻等词效当前暂停推进；本阶段先明确跨类型的数值评估尺度。
 
 ## 元素法术
+
+当前[第二流派规则方向](../game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md)已Qualified：格子生成／叠层／满位回退、共享层数、固有属性克制、单元素状态抵消。元素法术类型、元素实体、固有属性与携带状态分别判断；不因火草冰克制新增法术类型。具体草状态、雷电关系及主动吞噬收益仍待定义，成型后续讨论。
 
 首批元素名词为火焰、雷电、冰霜。生成物、宿主状态、已结算效果与演出继续按现行对象范围区分。
 

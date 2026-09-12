@@ -4,6 +4,9 @@
 
 | 术语 | 定义 | 依据 |
 | --- | --- | --- |
+| 单位固有属性 | 单位自身携带的火／草／冰或无属性等身份性质，用于元素克制判断，区别于当前携带状态。 | [元素方向](game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md) |
+| 元素状态 | 单位身上可积累与消耗的元素状态；当前方向规定每单位最多一种，异种施加先抵消再替换，不限制非元素状态共存。 | [元素方向](game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md) |
+| 元素共享层数 | 元素本体与它携带的对应状态共用的一份层数；归零时元素消失，环境转化为元素时继承对应状态层数。 | [元素方向](game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md) |
 | 战前构句 | 从完整战外库存分配实体词卡，依据词性、句式和语义形成完整法术；配置不推进战斗时间。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-grammar-and-semantic-compatibility.md) |
 | 战外词卡库存 | 本局战斗外持有的普通词卡集合，供每场战前配置；同名普通词最多三张。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-word-inventory-and-copies.md) |
 | 实体词卡分配 | 一张实体卡在本次配置中只归属一条法术且占一个位置；同名重复需要对应副本。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-word-inventory-and-copies.md) |

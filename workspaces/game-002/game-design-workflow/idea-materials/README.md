@@ -1,9 +1,10 @@
 # game-002 正式素材索引
 
-共55份Qualified GDD Material；证据Hypothesis。可引用资格不等于完整系统已验证，具体范围以素材正文及[决定清单](../../docs/design-decisions-needed.md)为准。核心统一为[Core Concept v0.6](../core-concept.md)，C01–C08已处理，引用与执行骨架保留，SW01及R01–R32当前操作范围按G002-CORE-011简化；四类法术特征与多类型按G002-CORE-012，后续按类型讨论。
+共56份Qualified GDD Material；证据Hypothesis。可引用资格不等于完整系统已验证，具体范围以素材正文及[决定清单](../../docs/design-decisions-needed.md)为准。核心统一为[Core Concept v0.6](../core-concept.md)，C01–C08已处理，引用与执行骨架保留，SW01及R01–R32当前操作范围按G002-CORE-011简化；四类法术特征与多类型按G002-CORE-012，后续按类型讨论。
 
 | 素材 | 明确范围 | 处理状态与后续验证 |
 | --- | --- | --- |
+| [元素流派：释放、存在与状态替换](M-2026-09-12-element-spell-archetype.md) | 同种叠层、满位回退、共享层数归零消散、环境转化继承、固有属性克制与单元素状态抵消 | Qualified方向；执行边界待定，Hypothesis；成型后续讨论 |
 | [第一人称格子战场与环境](M-2026-09-12-first-person-grid-battlefield.md) | 2×5、占位、地面、火焰邻近施加及树草变化；仅火焰传播 | Qualified；BF-A方向明确，BF-C补充Draft Change，GDD-1草案 |
 | [简易法术流派方向](M-2026-09-12-simple-spell-archetype.md) | 基础牌组与混搭定位；完整连发参与共享槽，本杖成功积累后下次量强化并清空 | Qualified：方向；具体卡牌、物品、参数待设计，Hypothesis |
 | [战场状态的存续与引用](M-2026-09-05-battle-state-persistence.md) | 战场状态在本场跨法术释放、敌方行动持续存在，仅因自身规则或明确效果被消耗、清除、转换或到期。 | C02：处理范围已确认，细则/验证见正文 |

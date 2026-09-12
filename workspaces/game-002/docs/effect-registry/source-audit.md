@@ -1,5 +1,9 @@
 # 效果来源审查记录
 
+## 元素流派来源增量
+
+新增[用户原话与两次回答](../../game-design-workflow/idea-inbox/2026-09-12-element-spell-archetype.md)及[方向素材](../../game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md)，登记FX-063–068；FX-003／010升级r3、FX-060升级r2并保留BF旧版本。简易卡池当前48项，点燃／冰冻动词从活跃表移除，历史ID不重用；“保留”记录为候选保留，非全部Accepted。
+
 ## 第一期创意卡池来源增量
 
 新增[用户要求及50项描述](../../game-design-workflow/idea-inbox/2026-09-12-simple-spell-creative-card-pool.md)，仅inbox、不晋级正式素材。新增FX-035–059；旧FX的复用与新方向逐项见SC-N／V／A／I覆盖。原审查快照不改写。用户要求暂不考虑平衡和数值，未选择的复诵晶石具体版本暂停问答，不当作默认规则。
