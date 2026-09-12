@@ -114,3 +114,11 @@ NF-D01的方向已确定为疲劳；不采用“到验收截止即直接失败�
 | G002-CORE-016 | 2026-09-11 | 增加修饰词卡：形容词修饰名词，副词修饰动词；可多张直接挂原词，支付实体／时间成本；不兼容→适配→通用，特殊替代通用；数值仅修正本句，真实状态正常存续；适配看原词，同值按现有规则合并，不同附加效果从左到右。先补修饰词与镶嵌，再设计流派成套物品 | Accepted：Modifier v0.1基础模型；Hypothesis。具体词效、参数、获取及镶嵌细则仍待设计 | [四项确认](idea-inbox/2026-09-11-modifier-card-system.md)、[素材](idea-materials/M-2026-09-11-modifier-card-system.md)、[提案](idea-proposals/P-2026-09-11-modifier-card-system.md)、[评估](evaluations/E-2026-09-11-modifier-card-system.md)、[采纳文本](draft-changes/D-2026-09-11-modifier-card-system.md) |
 
 休整第三候选沿剩余合格词范围接纳有资格的修饰词，不改变前两位和三选一结构。词卡新大类不等于新法术类型。镶嵌进入当前设计顺序，取代此前排期上的后置安排；既有槽位、获取和事件候选未自动采纳。TH-002/r5只积累MDT01–MDT09，未运行或分派测试。
+
+## 2026-09-12：固定镶嵌、类型强化与范围被动
+
+| ID | 日期 | 决定 | 状态与证据 | 来源 |
+| --- | --- | --- | --- | --- |
+| G002-CORE-017 | 2026-09-12 | 每杖自带一个固定镶嵌，象征身份并规定基础范围及可选特殊效果；强化整条法术并关联类型／特征。简易加速按第2、4、6……周期各减1刻冷却，覆盖／打断也计，不永久累积；燃烧强化为范围内各来源施加增层，周期伤害不重加层 | Accepted：IN-A及两项例子含义；Hypothesis。IN-C01–IN-C14补充、具体物品与数值仍Candidate／Unknown | [用户定义和确认](idea-inbox/2026-09-12-wand-inlay-system.md)、[素材](idea-materials/M-2026-09-12-wand-inlay-system.md)、[提案](idea-proposals/P-2026-09-12-wand-inlay-system.md)、[评估](evaluations/E-2026-09-12-wand-inlay-system.md)、[采纳文本](draft-changes/D-2026-09-12-wand-inlay-system.md) |
+
+用户授权agent先补获取、装配等规则，已形成固定身份＋可换槽位、商店渠道、同种／叠加、跨战及事件的完整候选，未将建议当作用户采纳。初始固定镶嵌的存在已明确；起始法杖数、范围参数和价格仍待设计。测试交接TH-002/r6增加IN-T01–IN-T10，未启动或分派测试。

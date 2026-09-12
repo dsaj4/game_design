@@ -1,6 +1,6 @@
 # game-002 原始表达与候选入口
 
-共26份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
+共27份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
 
 | 记录 | 状态 |
 | --- | --- |
@@ -30,5 +30,6 @@
 | [超时疲劳](2026-09-11-overtime-fatigue.md) | Promoted：疲劳方向Accepted；执行细则与数值候选。 |
 | [全局审查与测试积累](2026-09-11-global-rules-review.md) | Promoted／G002-CORE-015：全部GR处理方式已采纳，GR07-C01与FAT-C仍候选；测试积累后合批。 |
 | [修饰词系统与镶嵌设计顺序](2026-09-11-modifier-card-system.md) | Promoted：修饰词模型与四项确认；镶嵌细则仍待明确 |
+| [法杖身份与镶嵌系统](2026-09-12-wand-inlay-system.md) | Promoted：用户模型与两项确认；agent补充Candidate |
 
 当前按[类型入口](../../docs/spell-type-index.md)推进。四类特征已采纳且可以扩展；上一批具体词效与参数保持Parked，攻防候选的限定计算已复核，四层框架和全局文档审查已形成，当前先补修饰词与镶嵌，之后回归卡牌／流派候选；候选不得静默写入正式GDD。前次内容与关键规则的原始输入保存在[快照](../../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)。

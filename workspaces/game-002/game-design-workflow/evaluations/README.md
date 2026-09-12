@@ -17,3 +17,5 @@
 - [全局规则边界评估](E-2026-09-11-global-rule-boundaries.md)：G002-CORE-015，GR01–GR12处理方式全部采纳；具体卡牌字段按需补齐，GR07-C01与FAT-C保留Candidate，测试积累。
 
 - [修饰词系统](E-2026-09-11-modifier-card-system.md)：推荐推进：模型清楚，数值与镶嵌未完成；无新测试
+
+- [法杖镶嵌系统](E-2026-09-12-wand-inlay-system.md)：推荐推进；未测试。

@@ -1,6 +1,6 @@
 # game-002 正式素材索引
 
-共51份Qualified GDD Material；证据Hypothesis。可引用资格不等于完整系统已验证，具体范围以素材正文及[决定清单](../../docs/design-decisions-needed.md)为准。核心统一为[Core Concept v0.6](../core-concept.md)，C01–C08已处理，引用与执行骨架保留，SW01及R01–R32当前操作范围按G002-CORE-011简化；四类法术特征与多类型按G002-CORE-012，后续按类型讨论。
+共52份Qualified GDD Material；证据Hypothesis。可引用资格不等于完整系统已验证，具体范围以素材正文及[决定清单](../../docs/design-decisions-needed.md)为准。核心统一为[Core Concept v0.6](../core-concept.md)，C01–C08已处理，引用与执行骨架保留，SW01及R01–R32当前操作范围按G002-CORE-011简化；四类法术特征与多类型按G002-CORE-012，后续按类型讨论。
 
 | 素材 | 明确范围 | 处理状态与后续验证 |
 | --- | --- | --- |
@@ -54,6 +54,7 @@
 | [超时疲劳](M-2026-09-11-overtime-fatigue.md) | 超时双方扣血，法术禁疗；含FAT-C执行候选与有限收尾推导。 | G002-CORE-014方向Accepted；执行及数值Candidate，证据Hypothesis |
 | [全局规则边界与卡牌评测要求](M-2026-09-11-global-rule-boundaries.md) | GR01–GR12全部推荐处理：共用默认、内容声明、候选合批与评价范围。 | G002-CORE-015／GR v1 Accepted；GR07-C01及FAT-C仍Candidate，具体卡牌输入待填 |
 | [修饰词：形容词、副词与三类适配](M-2026-09-11-modifier-card-system.md) | 多张直接挂原词，特殊替代通用，本句数值修正，同值合并、附加从左到右 | G002-CORE-016 / Modifier v0.1 Accepted；具体词效与数值待设计 |
+| [法杖镶嵌：固定身份与可换构筑](M-2026-09-12-wand-inlay-system.md) | 每杖固定镶嵌定义身份／范围；类型加速与范围强化，含获取／装配完整候选 | G002-CORE-017：IN-A与例子明确部分Accepted；IN-C01–14 Candidate |
 
 数值按[重设计任务](../../docs/numerical-redesign.md)重新建立；来源快照只用于追溯。召唤与复杂环境机制后置；修饰词模型已采纳，镶嵌按[当前顺序](../../docs/modifier-and-inlay-design.md)补齐；简单点燃/冰冻及法术生成物当前推进。
 

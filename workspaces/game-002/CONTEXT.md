@@ -16,7 +16,9 @@
 | 对象引用 | 法术指向战斗对象的方式，支持固定实例身份和战前固定条件两种绑定；对象仍须满足当前作用条件。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-10-instance-and-conditional-binding.md) |
 | 对象失效 | 对象不再具备该法术的作用条件；释放时跳过并继续其他合法对象，失效尝试仍保留释放特效。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-basic-sentence-targeting-and-locking.md) |
 | 环境对象 | 长方形场景中有位置且可操作、没有生命值和攻击行为的对象，例如大树和溪流。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-basic-sentence-targeting-and-locking.md) |
-| 法杖与镶嵌 | 每根法杖承载一条法术；镶嵌是范围、特殊效果的配置层，具体槽位、资格和效果Unknown。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-07-wand-inlay-configuration.md) |
+| 法杖与镶嵌 | 每根法杖承载一条法术，自带固定镶嵌定义身份、基础范围与可选特效；活动槽及获取等见候选。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-07-wand-inlay-configuration.md) |
+| 固定镶嵌 | 随法杖自带的身份组成，规定其基础范围与可选特殊效果。 | [镶嵌素材](game-design-workflow/idea-materials/M-2026-09-12-wand-inlay-system.md) |
+| 范围被动 | 以法杖范围和明确作用事件为条件的效果；可对其他来源生效，区别于仅强化本杖。 | [镶嵌素材](game-design-workflow/idea-materials/M-2026-09-12-wand-inlay-system.md) |
 | 词卡类别与句法角色 | 名词、动词、修饰词是词卡大类；形容词修饰名词，副词修饰动词。主语、谓语、宾语是位置职责，修饰词不独立占据这些角色。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-11-modifier-card-system.md) |
 | 修饰词挂接 | 每张修饰词直接指向本句一个原词出现位置，多张可共同挂接，不递归修饰。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-11-modifier-card-system.md) |
 | 通用／适配／不兼容 | 修饰词针对原词声明的三类关系；不兼容禁止组合，适配采用替代通用的特殊版本。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-11-modifier-card-system.md) |

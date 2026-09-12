@@ -153,3 +153,5 @@ G002-CORE-013补充来源：[扩展采纳文本](../game-design-workflow/draft-c
 疲劳是[G002-CORE-014全局战斗规则](../game-design-workflow/idea-materials/M-2026-09-11-overtime-fatigue.md)，不新增词卡，不因名为“疲劳”就归为状态法术；四类特征及扩展检查要求继续适用。
 
 后续操作见[卡牌设计—评测—采纳流程](card-design-review-workflow.md)；[GR v1处理方式](../game-design-workflow/idea-materials/M-2026-09-11-global-rule-boundaries.md)已全部采纳，后续按卡牌实际依赖补具体字段；GR07-C01与FAT-C保留候选合批。
+
+2026-09-12：[镶嵌](../game-design-workflow/idea-materials/M-2026-09-12-wand-inlay-system.md)可按类型或作用特征生效。“简易法术加速”看简易标签；“燃烧效果强化”看范围内实际施加事件，不要求施加来源的句子具有状态名词特征。它们是物品效果分类，不构成第五种法术类型。
