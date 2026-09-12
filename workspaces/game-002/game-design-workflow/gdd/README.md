@@ -1,5 +1,9 @@
 # game-002 GDD
 
-当前没有正式GDD文档。当前核心为[Core Concept v0.6](../core-concept.md)，可用内容从[合格素材](../idea-materials/README.md)审查。未决inbox内容须先通过资格闸门，不能直接写入正文。
+使用[共享模板](../../../../game-design-workflow/templates/README.md)，玩法与实现进度分开。现有核心为[Core Concept v0.6](../core-concept.md)，具体GDD是否已采纳按各自状态判断。
 
-使用[共享模板登记清单](../../../../game-design-workflow/templates/README.md)，玩法与实现进度分别维护。
+| GDD | 成熟度 | 状态与范围 |
+| --- | --- | --- |
+| [第一人称格子战场与环境](GDD-2026-09-12-first-person-grid-battlefield.md) | GDD-1规则草案 | Draft Change／Hypothesis；2×5占位、地面与有限火焰变化，参数未冻结、NotRun |
+
+来源限于已通过资格的素材；inbox未确认候选不得直接进入正文。当前尚无已采纳GDD。

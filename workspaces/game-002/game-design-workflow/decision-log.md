@@ -130,3 +130,11 @@ NF-D01的方向已确定为疲劳；不采用“到验收截止即直接失败�
 | G002-DOC-002 | 2026-09-12 | 建立跨系统效果注册、分类与边界理清；后续主动登记用户提出的效果，检查未来实现输入完整性，不做代码或具体架构 | Accepted / Documentation；效果与参数状态各自保留，价值Hypothesis | [用户原话](idea-inbox/2026-09-12-effect-registry.md)、[工作流素材](idea-materials/M-2026-09-12-effect-registry.md)、[系统入口](../docs/effect-registry/README.md) |
 
 本轮建立32项登记、67项显式案例关系及未决审查，接入项目AGENTS、设计流程与测试交接r7。没有修改Core Concept v0.6或采纳新的具体效果；IN-C、GR07-C01、FAT-C与Parked词效保持各自状态。本轮只做文档一致性及设计可落地审查，未运行／分派玩法测试。
+
+## 第一人称格子战场设计记录
+
+| ID | 日期 | 记录 | 状态 | 来源 |
+| --- | --- | --- | --- | --- |
+| G002-BF-001 | 2026-09-12 | 用户要求第一人称2×5、敌人居中、地面／环境物性、生成物占位及火焰导致树草燃烧／烧焦；明确树草不继续传播 | 用户方向与单项确认；完整规则Draft Change，未改核心 | [素材](idea-materials/M-2026-09-12-first-person-grid-battlefield.md)、[GDD](gdd/GDD-2026-09-12-first-person-grid-battlefield.md)、[拟修改](draft-changes/D-2026-09-12-first-person-grid-battlefield.md) |
+
+BF-C01–15为本次补全的推荐方案，未将用户对单层传播的回答扩为全部采纳。局部范围变化已列具体替换文本；原正式基线与Parked内容保持。新增FX-060–062、FX-003／010 r2候选，测试交接r9仅积累。

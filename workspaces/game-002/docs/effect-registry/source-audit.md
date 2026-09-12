@@ -99,3 +99,9 @@
 ## 后续增量维护
 
 每轮新效果登记将新来源加入本表；修改既有来源时更新相应关系、效果修订和案例。本表的81份是本次审查快照，日后累计数量另行标注，不重写历史审查范围。类型／案例表新增一行时必须附效果ID或明确的框架／后置去向，不能只有分类而没有效果登记关系。
+
+## 2026-09-12 第一人称格子战场增量
+
+本次新增[原话与附件](../../game-design-workflow/idea-inbox/2026-09-12-first-person-grid-battlefield.md)、[合格素材](../../game-design-workflow/idea-materials/M-2026-09-12-first-person-grid-battlefield.md)、[GDD](../../game-design-workflow/gdd/GDD-2026-09-12-first-person-grid-battlefield.md)、提案／评估／拟修改。复核简单对象、表现、召唤容量、状态／GR、类型、镶嵌与当前Raw创意池；处理见GDD 0.1，不复制旧试案参数。
+
+FX-003／010新增BF候选r2，FX-060–062为新增r1；具体关联见BF-E01–08。只有用户明确的方向与单层传播得到确认，BF-C细则及参数未采纳。当前素材55份、inbox31份、效果62项；上方81份审查为首轮快照，不被本次重新标记为全部已验证。

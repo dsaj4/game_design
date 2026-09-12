@@ -91,3 +91,5 @@
 | --- | --- | --- | --- | --- |
 | 2026-09-10 | [提案](../idea-proposals/P-2026-09-10-simple-object-interactions.md) | 简化对象交互 | Included | 用户已要求调整 |
 | 2026-09-10 | [采纳](../draft-changes/D-2026-09-10-simple-object-interactions.md) | G002-CORE-011 | Included | 不采纳未明示参数与效果 |
+
+2026-09-12：本主题在[第一人称格子战场素材](M-2026-09-12-first-person-grid-battlefield.md)与[GDD候选](../gdd/GDD-2026-09-12-first-person-grid-battlefield.md)中复用并局部扩展；仅火焰向周围施加已由用户明确。2×5的占位／地面／火焰细则尚为Draft Change，未用本次候选覆盖本文既有已采纳范围；正式采纳后按拟修改同步。
