@@ -1,5 +1,7 @@
 # 效果来源审查记录
 
+本轮沿同一[元素来源](../../game-design-workflow/idea-inbox/2026-09-12-element-spell-archetype.md)追加用户原话，并更新原[素材](../../game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md)；不增加素材／inbox数量。FX-065／067为r2，FX-069新增r1，环境转化与元素补生须有相关释放作用；草仅保留单位克制。
+
 ## 元素流派来源增量
 
 新增[用户原话与两次回答](../../game-design-workflow/idea-inbox/2026-09-12-element-spell-archetype.md)及[方向素材](../../game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md)，登记FX-063–068；FX-003／010升级r3、FX-060升级r2并保留BF旧版本。简易卡池当前48项，点燃／冰冻动词从活跃表移除，历史ID不重用；“保留”记录为候选保留，非全部Accepted。

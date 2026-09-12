@@ -30,4 +30,4 @@ Project ID：game-002。状态：Active / Stable Design Baseline。当前核心�
 
 [Inlay v0.1](game-design-workflow/idea-materials/M-2026-09-12-wand-inlay-system.md)已明确每杖固定身份镶嵌及两个示例的作用含义；获取、可换装配与其余运行规则已形成IN-C01–IN-C14完整候选，等待审阅采纳。
 
-[效果目录](docs/effect-registry/catalog.md)已登记68项效果／方向并对应67项显式案例；[待补边界](docs/effect-registry/readiness-review.md)区分登记、语义闭合和批次就绪。当前只做设计审查，具体效果状态不变；后续提出新效果时同步登记。
+[效果目录](docs/effect-registry/catalog.md)已登记69项效果／方向并对应67项显式案例；[待补边界](docs/effect-registry/readiness-review.md)区分登记、语义闭合和批次就绪。当前只做设计审查，具体效果状态不变；后续提出新效果时同步登记。

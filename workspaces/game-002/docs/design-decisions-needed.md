@@ -1,5 +1,7 @@
 # 设计决定与后续工作
 
+最新三项已明确：环境有转化阈值，先形态变化，有相关释放才完成转元素，无释放停留末阶段；异种元素被抵消消散时，有释放新增对应元素，无释放不新增；草状态／法术第一阶段后置，仅保留草单位克制。见[元素规则EL04／06](../game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md)。后续只补阈值判据、转化身份、补生层数／位置与持续事件，不重问上述选择。
+
 当前优先：[第二流派元素法术](../game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md)。已明确同种叠层／空格生成／满位施加、共享状态层数、固有火草冰克制及异种抵消顺序。下一步补环境转换与持续事件边界，成型后续讨论。简易期保留48项候选，点燃／冰冻动词已撤出；原50项描述为初设历史。
 
 当前新增：[第一人称战场与环境草案](battlefield-and-environment.md)。用户明确2×5与单层火焰作用，BF-C01–15已补成具体推荐；[Draft Change](../game-design-workflow/draft-changes/D-2026-09-12-first-person-grid-battlefield.md)列出对核心场景／范围／传播文字的拟替换。整包待审阅，测试r9暂缓；下方原规则采纳记录仍为正式基线，不阻止本次候选设计。

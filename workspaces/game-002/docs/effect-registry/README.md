@@ -1,5 +1,7 @@
 # 效果注册与理清系统
 
+最新目录69项：FX-065／067为r2，新增FX-069/r1。已明确有释放才完成环境转化／元素消散补生，无释放停留末形态或不补生；草状态／法术第一阶段后置，仅保留单位克制。规则正文见[元素素材](../../game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md)，测试r11只积累。
+
 当前[元素流派增量](../../game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md)：目录68项，FX-063–068新增，FX-003／010为r3、FX-060为r2，其他沿原版本。用户机制方向已Qualified；具体执行待定义。简易期48项候选保留，删除点燃／冰冻动词；历史32／50／62项记录不代表当前活跃内容或已可执行。
 
 当前新增[第一人称格子环境草案](../battlefield-and-environment.md)：FX-003／010增加r2候选，FX-060–062完成登记；目录62项。BF-A为用户明确方向，BF-C补充为Draft Change，参数未冻结。历史32项首轮审查与简易创意增量的状态分别保留。
@@ -12,11 +14,11 @@
 
 此前简易流派卡池按创意发散、只给描述、不做平衡与数值推进。新增[50项Raw卡池](../../game-design-workflow/idea-inbox/2026-09-12-simple-spell-creative-card-pool.md)及FX-035–059，先筛选再补规格；原34项的来源和状态保持，原32项首轮审查见下方历史记录。
 
-- [效果目录](catalog.md)：68项效果／待拆分方向，各有稳定ID和独立记录；新增简易流派FX-033／034的方向已确认，组件细则未闭合。
+- [效果目录](catalog.md)：69项效果／待拆分方向，各有稳定ID和独立记录；新增简易流派FX-033／034的方向已确认，组件细则未闭合。
 - [案例覆盖表](case-coverage.md)：26项类型案例、12项简单句情境、3项修饰词案例、2项镶嵌案例、24项EC情境，以及18词和B01–B10的去向。
 - [来源审查](source-audit.md)：本次81份现用素材／inbox Markdown的登记关系；仅按现行正文审查，历史试案继续隔离。
 - [待补边界与可落地审查](readiness-review.md)：哪些缺项阻止具体效果进入测试或实现交接。
-- [测试交接](../test-handoff.md)：固定批次与输入、用例和结果入口；当前r10为Draft／NotRun。
+- [测试交接](../test-handoff.md)：固定批次与输入、用例和结果入口；当前r11为Draft／NotRun。
 
 来源：[用户原话](../../game-design-workflow/idea-inbox/2026-09-12-effect-registry.md)、[工作流素材](../../game-design-workflow/idea-materials/M-2026-09-12-effect-registry.md)。本系统登记设计，不包含代码、技术选型、类、接口、数据结构或实现完成度。
 

@@ -6,7 +6,7 @@
 | --- | --- | --- |
 | 基础法术 | 战前构句、循环与法杖、引用/名单、时序、成功和收益规则继续有效 | [核心](../game-design-workflow/core-concept.md) |
 | 超时机制 | 疲劳方向已采纳：双方扣血且法术禁疗；细则与数值候选 | [疲劳素材](../game-design-workflow/idea-materials/M-2026-09-11-overtime-fatigue.md) |
-| 当前工作 | 第一人称2×5战场GDD-1草案；树草不二次传播已确认，BF-C细则Draft Change。效果目录68项；简易48项候选保留，当前细化元素流派机制 | [战场入口](battlefield-and-environment.md)、[效果登记](effect-registry/README.md) |
+| 当前工作 | 第一人称2×5战场GDD-1草案；树草不二次传播已确认，BF-C细则Draft Change。效果目录69项；简易48项候选保留，当前细化元素流派机制 | [战场入口](battlefield-and-environment.md)、[效果登记](effect-registry/README.md) |
 | 首批分类 | 18词：10动词；名词为3元素、2状态、3一般对象。26项例句已逐项归类 | [分类素材](../game-design-workflow/idea-materials/M-2026-09-11-spell-type-system.md) |
 | 当前搁置 | 上一批具体词效、参数及逐刻方案；原定保护、反弹和转移细则推进 | [内容状态](semantic-world-content-index.md) |
 | 现有范围 | 简单对象变化、真实生成物与对象掉卡；位移、结构、材料加工、完整召唤等按范围后置 | [决定与后续工作](design-decisions-needed.md) |
