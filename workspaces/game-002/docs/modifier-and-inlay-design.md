@@ -45,8 +45,12 @@
 
 ## 测试与维护
 
-固定入口为[test-handoff.md](test-handoff.md)，当前TH-2026-09-11-002/r6 Draft／NotRun。保留MDT01–MDT09，新增IN-T01–IN-T10；模型、候选与完整数值输入分开，未启动测试。
+固定入口为[test-handoff.md](test-handoff.md)，当前TH-2026-09-11-002/r7 Draft／NotRun。保留MDT01–MDT09，新增IN-T01–IN-T10；模型、候选与完整数值输入分开，未启动测试。
 
 镶嵌来源：[2026-09-12原始定义与两项确认](../game-design-workflow/idea-inbox/2026-09-12-wand-inlay-system.md)、[G002-CORE-017](../game-design-workflow/draft-changes/D-2026-09-12-wand-inlay-system.md)。
 
 修饰词来源：[用户定义与四项确认](../game-design-workflow/idea-inbox/2026-09-11-modifier-card-system.md)、[采纳文本](../game-design-workflow/draft-changes/D-2026-09-11-modifier-card-system.md)。
+
+## 特殊效果登记
+
+通用框架与采纳文本仍在上述素材维护，特效摘要与缺口统一进入[效果系统](effect-registry/README.md)：寒冷护甲通用分支[FX-024](effect-registry/entries/FX-024.md)、寒冰适配与火焰非法反例[FX-025](effect-registry/entries/FX-025.md)、隔周期加速[FX-026](effect-registry/entries/FX-026.md)、燃烧范围强化[FX-027](effect-registry/entries/FX-027.md)。后续新增修饰词、镶嵌或流派特效同样主动登记；每个效果闭合自己的依赖后才能进入可执行交接。

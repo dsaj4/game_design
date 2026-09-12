@@ -6,10 +6,10 @@
 
 | 字段 | 当前内容 |
 | --- | --- |
-| 测试批次／修订 | TH-2026-09-11-002 / r6 |
-| 主题 | 框架、疲劳、全局边界、修饰词、镶嵌与后续物品的合批积累 |
-| 用户范围 | 已明确GR01–GR12、Modifier v0.1、镶嵌固定模型及两例含义；获取／装配等整包候选待审阅，再进入流派成套物品。用户暂缓验证，待测项积累到下一次一起执行 |
-| 状态 | Draft：积累待批测；用户未启动下一批前不运行、不分派；保留F01–F08、GR与MDT01–MDT09，新增IN-T01–IN-T10；完整合批输入尚需冻结 |
+| 测试批次／修订 | TH-2026-09-11-002 / r7 |
+| 主题 | 框架、疲劳、全局边界、修饰词、镶嵌与效果登记的合批积累 |
+| 用户范围 | 已明确GR01–GR12、Modifier v0.1、镶嵌固定模型及两例含义；获取／装配等整包候选待审阅；已建立效果登记，按效果缺项补齐后再进入流派成套物品。用户暂缓验证，待测项积累到下一次一起执行 |
+| 状态 | Draft：积累待批测；用户未启动下一批前不运行、不分派；保留F01–F08、GR与MDT01–MDT09，保留IN-T01–IN-T10，新增ER-T01–ER-T05登记衔接；完整合批输入尚需冻结 |
 | 框架状态 | Framework Candidate v0.3；GR v1、Modifier v0.1、镶嵌IN-A与两例含义、FAT-A方向Accepted；IN-C01–14、GR07-C01、FAT-C与量化目标仍Candidate |
 | 当前合批固定输入 | 尚未冻结；本版为积累稿，不能直接当作完整可执行包 |
 | 保留的框架／疲劳参照 | r2输入39c7a306695aec12b35597f825fa7c6a05f23d5e；完整r2交接位于fb75812263f76992c7ebab5c66eb857a001abb63 |
@@ -20,7 +20,7 @@
 | 负责人／执行标识 | 设计agent维护积累稿；测试agent及run序号未分派 |
 | 局部缺项 | GR、修饰词及镶嵌固定模型已定；IN-C纳入范围、法杖范围／价格／数量、燃烧及寒冷／寒冰／冰冻完整词义、具体卡牌声明、候选规则组和场景尚未冻结；完整成长、路线、经济、秒数及玩家样本仍有缺项。各项分别标待定义或NotEvaluable，不假造实际结果 |
 
-当前先读取AGENTS与本页的暂缓执行指令。r2的F01–F08、数值与预期保留为参照，不因r6积累稿自动执行。r3完整积累稿位于571c6db0cd958f9e5fd0a82814293354395a35cc；r4完整交接位于ec4b7488ab0884455966a3d82297f118d38f9e65，纳入GR v1及框架v0.3评价范围；r5新增Modifier v0.1需求，完整交接保留于59e13e3dd7905a183ed3a161ede859028ea2f0f1；r6新增Inlay v0.1模型与IN-C候选需求，当前完整合批输入仍待冻结。下次用户启动后，逐项确认是否纳入、对应已采纳规则或明确候选版本、资源／场景／预期及覆盖限制，再冻结本批输入提交；不同规则版本分组，未闭合的项目不混入可执行组。旧测试报告仍按自身固定输入解释，新标准复评须明确注明。
+当前先读取AGENTS与本页的暂缓执行指令。r2的F01–F08、数值与预期保留为参照，不因r7积累稿自动执行。r3完整积累稿位于571c6db0cd958f9e5fd0a82814293354395a35cc；r4完整交接位于ec4b7488ab0884455966a3d82297f118d38f9e65，纳入GR v1及框架v0.3评价范围；r5新增Modifier v0.1需求，完整交接保留于59e13e3dd7905a183ed3a161ede859028ea2f0f1；r6新增Inlay v0.1模型与IN-C候选需求，完整r6交接位于4b9bf12787303bf9d7efcc01816469d065f6b432；r7新增效果ID、依赖与交接门槛，当前完整合批输入仍待冻结。下次用户启动后，逐项确认是否纳入、对应已采纳规则或明确候选版本、资源／场景／预期及覆盖限制，再冻结本批输入提交；不同规则版本分组，未闭合的项目不混入可执行组。旧测试报告仍按自身固定输入解释，新标准复评须明确注明。
 
 ## 输入清单
 
@@ -30,6 +30,7 @@
 | [GR v1正式素材](../game-design-workflow/idea-materials/M-2026-09-11-global-rule-boundaries.md)、[G002-CORE-015采纳](../game-design-workflow/draft-changes/D-2026-09-11-global-rule-boundaries.md) | 已采纳通用边界与声明要求；GR07-C01、FAT-C继续候选，不能混同状态 |
 | [修饰词Modifier v0.1](../game-design-workflow/idea-materials/M-2026-09-11-modifier-card-system.md)、[G002-CORE-016](../game-design-workflow/draft-changes/D-2026-09-11-modifier-card-system.md)、[系统入口](modifier-and-inlay-design.md) | 形容词／副词、三分支、原词挂接、本句数值与多修饰顺序；具体卡牌输入待补 |
 | [Inlay v0.1](../game-design-workflow/idea-materials/M-2026-09-12-wand-inlay-system.md)、[G002-CORE-017](../game-design-workflow/draft-changes/D-2026-09-12-wand-inlay-system.md) | 固定身份／范围和两例含义已明确；IN-C01–14装配／获取／叠加／事件整包仍Candidate |
+| [效果登记ER v0.1](effect-registry/README.md)、[32项效果](effect-registry/catalog.md)、[案例与缺项](effect-registry/readiness-review.md) | 逐效检查语义闭合与输入；登记不采纳、不运行；引用效果ID／修订及实际依赖 |
 | [卡牌设计流程](card-design-review-workflow.md) | 后续每项候选的来源、评议、测试与采纳出口 |
 | [原始要求](../game-design-workflow/idea-inbox/2026-09-11-numerical-evaluation-framework.md) | 用户四层范围、暂停其他词效、候选与已决定内容的区别 |
 | [四层框架](../game-design-workflow/idea-materials/M-2026-09-11-numerical-evaluation-framework.md) | NF00样本／分母，NF10收益／评分，NF20曲线，NF30账本，NF40体验门槛，NF-D01方向采纳及候选边界 |
@@ -184,7 +185,8 @@
 | TH-2026-09-11-002 / r3 | 交接提交571c6db0cd958f9e5fd0a82814293354395a35cc；r2参照＋GR审查积累 | 未分派 | Superseded／NotRun | 用户随后全部采用GR推荐处理，完整r3从该提交追溯 |
 | TH-2026-09-11-002 / r4 | 交接提交ec4b7488ab0884455966a3d82297f118d38f9e65；GR v1＋Framework v0.3＋FAT-C v0.1 | 未分派 | Superseded／NotRun | 完整r4按该提交追溯，全部待测需求保留 |
 | TH-2026-09-11-002 / r5 | 交接提交59e13e3dd7905a183ed3a161ede859028ea2f0f1；新增Modifier v0.1／MDT01–MDT09 | 未分派 | Superseded／NotRun | 完整r5从该提交追溯，全部待测需求保留 |
-| TH-2026-09-11-002 / r6 | 保留r5，新增Inlay v0.1／IN-T01–IN-T10；完整合批输入待冻结 | 未分派 | Draft／NotRun | 随G002-CORE-017提交，用户启动后固定候选范围、实际物品及参数输入 |
+| TH-2026-09-11-002 / r6 | 交接提交4b9bf12787303bf9d7efcc01816469d065f6b432；新增Inlay v0.1／IN-T01–IN-T10 | 未分派 | Superseded／NotRun | 完整r6从该提交追溯；需求全部保留 |
+| TH-2026-09-11-002 / r7 | 保留F／GR／MDT／IN-T，追加效果ER v0.1与ER-T01–ER-T05；完整输入未冻结 | 未分派 | Draft／NotRun | 先按FX修订补齐实际依赖；本轮只做文档检查 |
 
 维护记录：2026-09-11按用户“已完成，先建数值框架”建立TH-002/r1；同日用户指定疲劳后升为r2，新增归因／账本、收尾证明、禁疗和等待比较。TH-001证据及TH-002/r1固定输入保留；本次未启动测试任务或修改demo。
 
@@ -196,12 +198,30 @@
 
 2026-09-12镶嵌维护：升为r6，模型及两个例子含义已明确，IN-C补充继续Candidate。新增IN-T01–IN-T10，未进行算术验证、模拟、实现或任务分派。
 
+## 效果登记与下一批输入闸门
+
+ER v0.1有32项效果／方向、67项显式案例；其登记状态不是测试输入。FX-001／002只有原Candidate v0.1的限定证据，其余条目待澄清或Parked。参见[效果目录](effect-registry/catalog.md)、[案例覆盖](effect-registry/case-coverage.md)和[ER-Q01–12](effect-registry/readiness-review.md)。
+
+下次每项纳入内容必须列：效果ID＋修订、权威来源／规则版本、Accepted或本批明确Candidate、前置效果版本、实体与范围／资源、参数／场景、正常／边界／反例预期、固定输入提交及受影响的原用例。缺项只留Draft，不要求测试agent发明规则。所有可执行组在用户启动后才分派。
+
+| 衔接项 | 覆盖与预期 | 状态／启动前输入 |
+| --- | --- | --- |
+| ER-T01 身份与语义一致 | FX-001／002／008／023／025；区分伤害与“造成伤害”、寒冰与冰霜、加倍具体量、吞噬角色。相同词义跨句一致，非法句不能因类型匹配生效 | 待定义／NotRun；先补ER-Q01–04、10 |
+| ER-T02 状态与生成物依赖 | FX-003–015；明确对象出现／结束、状态数量／时长／周期，源方快照和当前量，名单失效不补位 | 待定义／NotRun；与GR04／08合并覆盖；不恢复EC旧数值 |
+| ER-T03 修饰与镶嵌组合 | FX-024–027引用基础效果；特殊替代通用，附加顺序明确；偶数周期计次；一次合法燃烧施加＋1且周期不重加 | 待定义／NotRun；复用MDT01–09及IN-T01–10，先固定IN-C范围、状态与费用 |
+| ER-T04 过程与有限产出 | FX-015–020／030／031；窗口、取消／改期、自动接收、循环终止、产出资格／费用／失败记账 | Parked或待定义／NotRun；只有实际选入效果才补输入，复用GR02／05／07／09 |
+| ER-T05 来源与证据隔离 | 每项结果只归属输入中的FX修订与批次；类型命中、登记完成、玩法采纳、数值测试与实现证据分别报告 | 当前仅文档关系检查；执行包未冻结，运行结果NotRun |
+
+以上为交接准备与后续用例要求，不是新增一批已执行测试。ER-T文档链接／编号核对可以在设计维护中完成；不能因此把玩法运行记为Pass。与原用例重叠时复用同一证据，不重复计算覆盖数量。用户未要求启动，当前继续不运行或分派。
+
 ## 建议技能
 
 - [handoff](C:/Users/Administrator/.codex/skills/handoff/SKILL.md)：交接时保留来源、状态、下一步与未决事项。用户已明确要求系统内持续保存，以本页路径为准。
 - [windows-cn-agent-ops](C:/Users/Administrator/.codex/skills/windows-cn-agent-ops/SKILL.md)：在本机读取中文文档、执行Git或计算工具前使用。
 - [grill-with-docs](C:/Users/Administrator/.codex/skills/grill-with-docs/SKILL.md)：遇到影响测试的设计歧义时先对照核心与术语，不能从文档解决时再集中提出关键问题。
 - [test-runner](C:/Users/Administrator/.codex/skills/test-runner-1.0.0/SKILL.md)：仅在实际进入代码测试、需要测试框架或自动化执行时使用；本轮纸面复核不强制引入测试工程。
+
+2026-09-12效果登记维护：升为r7，新增逐效身份、来源、依赖、缺项与交接门槛；保留全部前版用例和报告，未进行新数值试算、模拟、实现或测试任务分派。
 
 ## 后续交给测试agent时的说明
 

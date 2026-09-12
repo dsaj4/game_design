@@ -1,6 +1,6 @@
 # 设计决定与后续工作
 
-日期：2026-09-12。状态：G002-CORE-012法术类型与G002-CORE-013类型扩展、G002-CORE-014疲劳方向与G002-CORE-015全局边界处理已采纳，对象范围继续按G002-CORE-011；Core Concept v0.6，证据Hypothesis。当前已完成[全局规则审查](global-rules-audit-2026-09-11.md)，当前先补[修饰词与镶嵌](modifier-and-inlay-design.md)，再进入[卡牌与流派流程](card-design-review-workflow.md)，测试积累后合批；共用[四层数值框架](../game-design-workflow/idea-materials/M-2026-09-11-numerical-evaluation-framework.md)，继续按[类型入口](spell-type-index.md)组织。
+日期：2026-09-12。状态：G002-CORE-012法术类型与G002-CORE-013类型扩展、G002-CORE-014疲劳方向与G002-CORE-015全局边界处理已采纳，对象范围继续按G002-CORE-011；Core Concept v0.6，证据Hypothesis。当前已完成[全局规则审查](global-rules-audit-2026-09-11.md)，已建立[效果登记](effect-registry/README.md)，按实际依赖补齐[修饰词与镶嵌](modifier-and-inlay-design.md)，再进入[卡牌与流派流程](card-design-review-workflow.md)，测试积累后合批；共用[四层数值框架](../game-design-workflow/idea-materials/M-2026-09-11-numerical-evaluation-framework.md)，继续按[类型入口](spell-type-index.md)组织。
 
 ## 当前已确定
 
@@ -68,7 +68,7 @@ R01–R32保留编号追踪，[现行规则表](../game-design-workflow/idea-mat
 | GR10 | 保留完整FAT-C候选合批的处理已采纳 | 复用F06–F08，执行／数值尚未定稿 |
 | GR11–12 | 正常／极端／玩家样本范围、固定实际资源输入已采纳 | 框架v0.3阈值仍候选，实际资源与体验证据按批补齐 |
 
-用户要求暂不验证，积累到下一次一起测试；先补[修饰词与镶嵌](modifier-and-inlay-design.md)，再按[设计—评测—采纳流程](card-design-review-workflow.md)处理流派成套物品。
+用户要求暂不验证，积累到下一次一起测试；新增效果均先进入[登记与边界审查](effect-registry/README.md)，[修饰词与镶嵌](modifier-and-inlay-design.md)按实际依赖补齐，再按[设计—评测—采纳流程](card-design-review-workflow.md)处理流派成套物品。
 
 ## 修饰词与镶嵌
 
@@ -78,7 +78,7 @@ G002-CORE-017已明确每杖固定镶嵌定义身份、基础范围及可选特�
 
 ## 测试交接
 
-[固定测试交接](test-handoff.md)持续维护。上一批TH-2026-09-11-001已完成限定计算与demo验证，历史报告保留；TH-2026-09-11-002现为r6 Draft积累稿，保留r1／r2固定输入与待测项，追加全局边界、修饰词、镶嵌与后续物品候选；按用户指令暂不运行或分派测试。旧证据复评与新情境分开，合批启动前重新固定输入。执行状态以交接页为准，不重新执行已经通过且输入未变的完整726组，仅在发现差异或扩大范围时追加必要验证。
+[固定测试交接](test-handoff.md)持续维护。上一批TH-2026-09-11-001已完成限定计算与demo验证，历史报告保留；TH-2026-09-11-002现为r7 Draft积累稿，保留r1／r2固定输入与待测项，追加全局边界、修饰词、镶嵌与后续物品候选；按用户指令暂不运行或分派测试。旧证据复评与新情境分开，合批启动前重新固定输入。执行状态以交接页为准，不重新执行已经通过且输入未变的完整726组，仅在发现差异或扩大范围时追加必要验证。
 
 ## 来源
 
@@ -96,3 +96,7 @@ G002-CORE-017已明确每杖固定镶嵌定义身份、基础范围及可选特�
 疲劳来源：[用户原话](../game-design-workflow/idea-inbox/2026-09-11-overtime-fatigue.md)、[G002-CORE-014](../game-design-workflow/draft-changes/D-2026-09-11-overtime-fatigue.md)。
 
 全局边界来源：[用户批量确认](../game-design-workflow/idea-inbox/2026-09-11-global-rules-review.md)、[G002-CORE-015](../game-design-workflow/draft-changes/D-2026-09-11-global-rule-boundaries.md)。
+
+## 效果登记后的内容缺项
+
+用户已授权建立效果注册与理清工作流（G002-DOC-002），现有32项效果／方向与67项案例已登记，后续效果主动维护。具体缺项集中在[ER-Q01–12](effect-registry/readiness-review.md)：燃烧／冰冻词义、寒冰身份、吞噬关系、寒冷两个分支、元素窗口、镶嵌候选依赖、保护／转移细则及有限产出等。它们是逐效补齐任务，不是重新选择已采纳框架；当前没有因本轮工作流而产生的新即时审批项。

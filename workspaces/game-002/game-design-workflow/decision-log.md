@@ -122,3 +122,11 @@ NF-D01的方向已确定为疲劳；不采用“到验收截止即直接失败�
 | G002-CORE-017 | 2026-09-12 | 每杖自带一个固定镶嵌，象征身份并规定基础范围及可选特殊效果；强化整条法术并关联类型／特征。简易加速按第2、4、6……周期各减1刻冷却，覆盖／打断也计，不永久累积；燃烧强化为范围内各来源施加增层，周期伤害不重加层 | Accepted：IN-A及两项例子含义；Hypothesis。IN-C01–IN-C14补充、具体物品与数值仍Candidate／Unknown | [用户定义和确认](idea-inbox/2026-09-12-wand-inlay-system.md)、[素材](idea-materials/M-2026-09-12-wand-inlay-system.md)、[提案](idea-proposals/P-2026-09-12-wand-inlay-system.md)、[评估](evaluations/E-2026-09-12-wand-inlay-system.md)、[采纳文本](draft-changes/D-2026-09-12-wand-inlay-system.md) |
 
 用户授权agent先补获取、装配等规则，已形成固定身份＋可换槽位、商店渠道、同种／叠加、跨战及事件的完整候选，未将建议当作用户采纳。初始固定镶嵌的存在已明确；起始法杖数、范围参数和价格仍待设计。测试交接TH-002/r6增加IN-T01–IN-T10，未启动或分派测试。
+
+## 效果登记工作流
+
+| ID | 日期 | 决定 | 状态与证据 | 来源 |
+| --- | --- | --- | --- | --- |
+| G002-DOC-002 | 2026-09-12 | 建立跨系统效果注册、分类与边界理清；后续主动登记用户提出的效果，检查未来实现输入完整性，不做代码或具体架构 | Accepted / Documentation；效果与参数状态各自保留，价值Hypothesis | [用户原话](idea-inbox/2026-09-12-effect-registry.md)、[工作流素材](idea-materials/M-2026-09-12-effect-registry.md)、[系统入口](../docs/effect-registry/README.md) |
+
+本轮建立32项登记、67项显式案例关系及未决审查，接入项目AGENTS、设计流程与测试交接r7。没有修改Core Concept v0.6或采纳新的具体效果；IN-C、GR07-C01、FAT-C与Parked词效保持各自状态。本轮只做文档一致性及设计可落地审查，未运行／分派玩法测试。

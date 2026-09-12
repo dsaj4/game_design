@@ -182,3 +182,5 @@
 | 2026-09-11 | [类型讨论入口](../../docs/spell-type-index.md) | Included：四类交叉索引 | 不复制规则或恢复Parked参数 |
 
 2026-09-11补充：[用户扩展要求](../idea-inbox/2026-09-11-spell-type-system.md)已按[G002-CORE-013](../draft-changes/D-2026-09-11-extensible-spell-types.md)采纳；新类型的具体特征与流派方案仍需逐项提出和确认。
+
+2026-09-12：案例登记到[效果系统](../../docs/effect-registry/README.md)，完整映射见[案例覆盖](../../docs/effect-registry/case-coverage.md)。这里只增加追踪入口，本素材的框架／采纳／候选状态不变；登记摘要不替换本文权威规则或参数。
