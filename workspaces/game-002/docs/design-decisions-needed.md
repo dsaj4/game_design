@@ -1,5 +1,11 @@
 # 设计决定与后续工作
 
+## 当前新增：第一流派简易法术
+
+2026-09-12已按用户要求进入流派与配套内容设计。[方向素材](../game-design-workflow/idea-materials/M-2026-09-12-simple-spell-archetype.md)已Qualified：基础牌组与混搭定位、连续完整法术每次参与共享槽、本杖简易法术成功积累并强化下一次伤害／护甲后清空。未修改核心。
+
+下一步先把首个连发组件的触发、次数、间隔与原循环衔接设计清楚，再逐项设计名词、动词、形容词与镶嵌；首批建议与待定项见[inbox](../game-design-workflow/idea-inbox/2026-09-12-simple-spell-archetype.md)。FX-033／034已登记，ER-Q13／14细则未闭合；测试继续Draft／NotRun。
+
 日期：2026-09-12。状态：G002-CORE-012法术类型与G002-CORE-013类型扩展、G002-CORE-014疲劳方向与G002-CORE-015全局边界处理已采纳，对象范围继续按G002-CORE-011；Core Concept v0.6，证据Hypothesis。当前已完成[全局规则审查](global-rules-audit-2026-09-11.md)，已建立[效果登记](effect-registry/README.md)，按实际依赖补齐[修饰词与镶嵌](modifier-and-inlay-design.md)，再进入[卡牌与流派流程](card-design-review-workflow.md)，测试积累后合批；共用[四层数值框架](../game-design-workflow/idea-materials/M-2026-09-11-numerical-evaluation-framework.md)，继续按[类型入口](spell-type-index.md)组织。
 
 ## 当前已确定
@@ -99,4 +105,4 @@ G002-CORE-017已明确每杖固定镶嵌定义身份、基础范围及可选特�
 
 ## 效果登记后的内容缺项
 
-用户已授权建立效果注册与理清工作流（G002-DOC-002），现有32项效果／方向与67项案例已登记，后续效果主动维护。具体缺项集中在[ER-Q01–12](effect-registry/readiness-review.md)：燃烧／冰冻词义、寒冰身份、吞噬关系、寒冷两个分支、元素窗口、镶嵌候选依赖、保护／转移细则及有限产出等。它们是逐效补齐任务，不是重新选择已采纳框架；当前没有因本轮工作流而产生的新即时审批项。
+用户已授权建立效果注册与理清工作流（G002-DOC-002），现有34项效果／方向与67项案例已登记，后续效果主动维护。具体缺项集中在[ER-Q01–12](effect-registry/readiness-review.md)：燃烧／冰冻词义、寒冰身份、吞噬关系、寒冷两个分支、元素窗口、镶嵌候选依赖、保护／转移细则及有限产出等。它们是逐效补齐任务，不是重新选择已采纳框架；当前没有因本轮工作流而产生的新即时审批项。

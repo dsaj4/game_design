@@ -6,11 +6,11 @@
 
 ## 从哪里看
 
-- [效果目录](catalog.md)：32项效果／待拆分方向，各有稳定ID和独立记录。
+- [效果目录](catalog.md)：34项效果／待拆分方向，各有稳定ID和独立记录；新增简易流派FX-033／034的方向已确认，组件细则未闭合。
 - [案例覆盖表](case-coverage.md)：26项类型案例、12项简单句情境、3项修饰词案例、2项镶嵌案例、24项EC情境，以及18词和B01–B10的去向。
 - [来源审查](source-audit.md)：本次81份现用素材／inbox Markdown的登记关系；仅按现行正文审查，历史试案继续隔离。
 - [待补边界与可落地审查](readiness-review.md)：哪些缺项阻止具体效果进入测试或实现交接。
-- [测试交接](../test-handoff.md)：固定批次与输入、用例和结果入口；当前r7为Draft／NotRun。
+- [测试交接](../test-handoff.md)：固定批次与输入、用例和结果入口；当前r8为Draft／NotRun。
 
 来源：[用户原话](../../game-design-workflow/idea-inbox/2026-09-12-effect-registry.md)、[工作流素材](../../game-design-workflow/idea-materials/M-2026-09-12-effect-registry.md)。本系统登记设计，不包含代码、技术选型、类、接口、数据结构或实现完成度。
 

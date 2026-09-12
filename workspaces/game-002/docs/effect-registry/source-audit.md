@@ -1,5 +1,9 @@
 # 效果来源审查记录
 
+## 2026-09-12 简易流派增量
+
+新增[原话与两次确认](../../game-design-workflow/idea-inbox/2026-09-12-simple-spell-archetype.md)及[方向素材](../../game-design-workflow/idea-materials/M-2026-09-12-simple-spell-archetype.md)两份来源，关联FX-033／034；冷却方向复用FX-026并区分FX-018，基础句锚点仅参照FX-001／002／010。完整连发与本杖成功积累已确认，具体牌面／参数仍未闭合。不重写下方原81份审查快照。
+
 日期：2026-09-12。范围：本轮新增文件之前，game-002现用idea-materials与idea-inbox目录中的81份Markdown（52份正式素材、27份inbox及2份README）。另核对核心、decision-log、CONTEXT、AGENTS及相关当前工作入口。本次新建的[来源](../../game-design-workflow/idea-inbox/2026-09-12-effect-registry.md)和[工作流素材](../../game-design-workflow/idea-materials/M-2026-09-12-effect-registry.md)不计入81份。
 
 没有检索其他项目／归档原件或非Markdown原始转录来扩展效果池；也不把历史提案、报告中的试验装置默认当作当前可用词效。覆盖结论只针对上述现用正文与[67项显式案例](case-coverage.md)，不声称全仓库所有历史文本均已验收。
