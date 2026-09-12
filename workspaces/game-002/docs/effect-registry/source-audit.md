@@ -1,6 +1,6 @@
 # 效果来源审查记录
 
-本轮沿同一[元素来源](../../game-design-workflow/idea-inbox/2026-09-12-element-spell-archetype.md)追加用户原话，并更新原[素材](../../game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md)；不增加素材／inbox数量。FX-065／067为r2，FX-069新增r1，环境转化与元素补生须有相关释放作用；草仅保留单位克制。
+本轮沿同一[元素来源](../../game-design-workflow/idea-inbox/2026-09-12-element-spell-archetype.md)追加用户原话，并更新原[素材](../../game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md)；不增加素材／inbox数量。本次追加第四项原话，FX-065为r3、FX-067／069为r2，环境转化与元素补生须有相关释放作用；草仅保留单位克制。
 
 ## 元素流派来源增量
 
@@ -111,3 +111,5 @@
 本次新增[原话与附件](../../game-design-workflow/idea-inbox/2026-09-12-first-person-grid-battlefield.md)、[合格素材](../../game-design-workflow/idea-materials/M-2026-09-12-first-person-grid-battlefield.md)、[GDD](../../game-design-workflow/gdd/GDD-2026-09-12-first-person-grid-battlefield.md)、提案／评估／拟修改。复核简单对象、表现、召唤容量、状态／GR、类型、镶嵌与当前Raw创意池；处理见GDD 0.1，不复制旧试案参数。
 
 FX-003／010新增BF候选r2，FX-060–062为新增r1；具体关联见BF-E01–08。只有用户明确的方向与单层传播得到确认，BF-C细则及参数未采纳。当前素材55份、inbox31份、效果62项；上方81份审查为首轮快照，不被本次重新标记为全部已验证。
+
+本次来源结论：阈值随各单位事先设置；异种元素替换的初始层数取经克制修正后抵消的余量，零余量不留下新元素。无相关释放法术仍不新增元素，环境转化仍继承对应状态层数。效果总数仍为69，素材与inbox数量不变。
