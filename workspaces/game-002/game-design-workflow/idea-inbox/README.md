@@ -1,9 +1,10 @@
 # game-002 原始表达与候选入口
 
-共29份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
+共30份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
 
 | 记录 | 状态 |
 | --- | --- |
+| [简易流派第一期创意卡池](2026-09-12-simple-spell-creative-card-pool.md) | Raw／描述稿：12名词、12动词、12形容词、14镶嵌；各6项优先保留建议。用户要求暂不考虑平衡与数值。 |
 | [第一流派：简易法术](2026-09-12-simple-spell-archetype.md) | Promoted：定位、完整连发与本杖成功积累；具体卡池／组件仍Raw，FX-033／034已登记。 |
 | [词汇设计的后置问题](2026-09-05-vocabulary-design-questions.md) | 状态：Raw Idea / Unqualified / Parked。Project ID：game-002。 |
 | [词卡库存与分配素材入口](2026-09-05-word-inventory-and-allocation.md) | 状态：Promoted（仅对应明确素材）；其余 Raw Idea / Unqualified。Project ID：game-002。 |

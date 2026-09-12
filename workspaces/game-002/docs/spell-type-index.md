@@ -15,6 +15,8 @@
 
 ## 简易法术
 
+当前已进入[第一期50项创意描述](../game-design-workflow/idea-inbox/2026-09-12-simple-spell-creative-card-pool.md)：12名词、12动词、12形容词、14镶嵌，均为Raw候选；用户要求暂不考虑平衡与数值。8组代表表达在效果覆盖SC-C1–C8登记，新词拟议类型不等于语义已通过。
+
 2026-09-12开始[第一流派设计](../game-design-workflow/idea-materials/M-2026-09-12-simple-spell-archetype.md)：基础牌组及跨流派基础内容，倾向直接、短释放、低单次量；该倾向不改写下述类型判定。完整连发参与共享槽、本杖成功积累后下次量强化并清空已确认；配套词卡、修饰词与镶嵌仍逐项设计。原始建议及库存审查见[inbox](../game-design-workflow/idea-inbox/2026-09-12-simple-spell-archetype.md)。
 
 判定只看省略主语，不能按词少、冷却短或伤害低判断，也没有专属的“简易名词”清单。

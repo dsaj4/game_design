@@ -1,5 +1,75 @@
 # 效果与案例覆盖
 
+## 第一期创意卡池：50项描述与8组表达
+
+来源：[卡池全文](../../game-design-workflow/idea-inbox/2026-09-12-simple-spell-creative-card-pool.md)。以下为创意映射，50项不是50个闭合效果，也不是已通过语义验收的法术；原67项案例身份不变。
+
+| 来源限定ID | 内容 | 效果ID／r1 |
+| --- | --- | --- |
+| SC-N01 | 敌人 | 对象引用，非独立效果 |
+| SC-N02 | 护甲 | [FX-002](entries/FX-002.md)、[FX-007](entries/FX-007.md)、[FX-032](entries/FX-032.md) |
+| SC-N03 | 力量 | [FX-028](entries/FX-028.md) |
+| SC-N04 | 火焰 | [FX-010](entries/FX-010.md)、[FX-013](entries/FX-013.md) |
+| SC-N05 | 雷电 | [FX-011](entries/FX-011.md)、[FX-013](entries/FX-013.md) |
+| SC-N06 | 冰霜 | [FX-012](entries/FX-012.md)、[FX-013](entries/FX-013.md)、[FX-004](entries/FX-004.md) |
+| SC-N07 | 燃烧 | [FX-003](entries/FX-003.md)、[FX-005](entries/FX-005.md)、[FX-038](entries/FX-038.md) |
+| SC-N08 | 冰冻 | [FX-004](entries/FX-004.md)、[FX-006](entries/FX-006.md) |
+| SC-N09 | 印记 | [FX-035](entries/FX-035.md) |
+| SC-N10 | 蓄能 | [FX-036](entries/FX-036.md)、[FX-038](entries/FX-038.md) |
+| SC-N11 | 回响 | [FX-037](entries/FX-037.md)、[FX-033](entries/FX-033.md) |
+| SC-N12 | 冷却 | [FX-018](entries/FX-018.md) |
+| SC-V01 | 伤害 | [FX-001](entries/FX-001.md) |
+| SC-V02 | 获得 | [FX-002](entries/FX-002.md)、[FX-028](entries/FX-028.md)、[FX-036](entries/FX-036.md)、[FX-037](entries/FX-037.md) |
+| SC-V03 | 释放 | [FX-010](entries/FX-010.md)、[FX-011](entries/FX-011.md)、[FX-012](entries/FX-012.md) |
+| SC-V04 | 强化 | [FX-007](entries/FX-007.md)、[FX-013](entries/FX-013.md)、[FX-028](entries/FX-028.md) |
+| SC-V05 | 削弱 | [FX-007](entries/FX-007.md)、[FX-014](entries/FX-014.md) |
+| SC-V06 | 点燃 | [FX-003](entries/FX-003.md) |
+| SC-V07 | 冰冻 | [FX-004](entries/FX-004.md) |
+| SC-V08 | 消除 | [FX-005](entries/FX-005.md)、[FX-006](entries/FX-006.md)、[FX-032](entries/FX-032.md) |
+| SC-V09 | 标记 | [FX-035](entries/FX-035.md) |
+| SC-V10 | 蓄积 | [FX-036](entries/FX-036.md) |
+| SC-V11 | 引爆 | [FX-038](entries/FX-038.md) |
+| SC-V12 | 加速 | [FX-018](entries/FX-018.md) |
+| SC-A01 | 轻巧的 | [FX-039](entries/FX-039.md) |
+| SC-A02 | 充盈的 | [FX-040](entries/FX-040.md) |
+| SC-A03 | 锋利的 | [FX-041](entries/FX-041.md) |
+| SC-A04 | 灼热的 | [FX-003](entries/FX-003.md) |
+| SC-A05 | 寒冷的 | [FX-024](entries/FX-024.md)、[FX-025](entries/FX-025.md) |
+| SC-A06 | 带电的 | [FX-042](entries/FX-042.md) |
+| SC-A07 | 双生的 | [FX-043](entries/FX-043.md) |
+| SC-A08 | 持久的 | [FX-044](entries/FX-044.md) |
+| SC-A09 | 蓄势的 | [FX-045](entries/FX-045.md) |
+| SC-A10 | 易燃的 | [FX-046](entries/FX-046.md) |
+| SC-A11 | 爆裂的 | [FX-047](entries/FX-047.md) |
+| SC-A12 | 温和的 | [FX-059](entries/FX-059.md) |
+| SC-I01 | 简易加速 | [FX-026](entries/FX-026.md) |
+| SC-I02 | 复诵晶石 | [FX-033](entries/FX-033.md) |
+| SC-I03 | 蓄势晶石 | [FX-034](entries/FX-034.md) |
+| SC-I04 | 连击刻印 | [FX-048](entries/FX-048.md) |
+| SC-I05 | 先声石 | [FX-049](entries/FX-049.md) |
+| SC-I06 | 余音石 | [FX-050](entries/FX-050.md) |
+| SC-I07 | 专注棱镜 | [FX-051](entries/FX-051.md) |
+| SC-I08 | 双律环 | [FX-052](entries/FX-052.md) |
+| SC-I09 | 破甲齿 | [FX-053](entries/FX-053.md) |
+| SC-I10 | 借火芯 | [FX-054](entries/FX-054.md) |
+| SC-I11 | 融冰针 | [FX-055](entries/FX-055.md) |
+| SC-I12 | 空拍陀螺 | [FX-056](entries/FX-056.md) |
+| SC-I13 | 稳息扣 | [FX-057](entries/FX-057.md) |
+| SC-I14 | 元素节拍器 | [FX-058](entries/FX-058.md) |
+
+| 表达ID | 完整表达 | 全部类型（新词按拟议词义） | 关系 |
+| --- | --- | --- | --- |
+| SC-C1 | 获得 轻巧的 护甲 | 简易＋状态 | FX-002/r1、FX-039/r1 |
+| SC-C2 | 释放 双生的 火焰 | 简易＋元素 | FX-010/r1、FX-043/r1 |
+| SC-C3 | 释放 锋利的 雷电 | 简易＋元素 | FX-011/r1、FX-041/r1 |
+| SC-C4 | 标记 敌人 → 引爆 印记 | 前句简易；后句若印记按拟状态义成立则简易＋状态 | FX-035/r1、FX-038/r1 |
+| SC-C5 | 获得 蓄能 → 蓄积 蓄能 → 引爆 蓄能 | 若蓄能按拟状态义成立，三句均简易＋状态 | FX-036/r1、FX-038/r1 |
+| SC-C6 | 释放 蓄势的 火焰 → 强化 火焰 | 两句均简易＋元素 | FX-010/r1、FX-013/r1、FX-045/r1 |
+| SC-C7 | 释放 爆裂的 火焰 | 简易＋元素 | FX-010/r1、FX-047/r1 |
+| SC-C8 | 获得 回响 → 伤害 敌人 | 前句若回响按拟状态义成立则简易＋状态；后句简易 | FX-037/r1、FX-033/r1、FX-001/r1 |
+
+前后箭头表示不同完整法术组合，不是一个新句式。名单、实体卡、语义许可与时序仍按现有规则；完整适配、角色和结果尚未闭合。
+
 ## 2026-09-12 简易流派增量
 
 来源：[原话与两次确认](../../game-design-workflow/idea-inbox/2026-09-12-simple-spell-archetype.md)、[方向素材](../../game-design-workflow/idea-materials/M-2026-09-12-simple-spell-archetype.md)。原67项显式案例保持；下面3项是方向记录，不计为闭合执行案例。

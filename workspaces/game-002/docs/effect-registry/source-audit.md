@@ -1,5 +1,9 @@
 # 效果来源审查记录
 
+## 第一期创意卡池来源增量
+
+新增[用户要求及50项描述](../../game-design-workflow/idea-inbox/2026-09-12-simple-spell-creative-card-pool.md)，仅inbox、不晋级正式素材。新增FX-035–059；旧FX的复用与新方向逐项见SC-N／V／A／I覆盖。原审查快照不改写。用户要求暂不考虑平衡和数值，未选择的复诵晶石具体版本暂停问答，不当作默认规则。
+
 ## 2026-09-12 简易流派增量
 
 新增[原话与两次确认](../../game-design-workflow/idea-inbox/2026-09-12-simple-spell-archetype.md)及[方向素材](../../game-design-workflow/idea-materials/M-2026-09-12-simple-spell-archetype.md)两份来源，关联FX-033／034；冷却方向复用FX-026并区分FX-018，基础句锚点仅参照FX-001／002／010。完整连发与本杖成功积累已确认，具体牌面／参数仍未闭合。不重写下方原81份审查快照。

@@ -4,6 +4,8 @@
 
 ## 当前测试包
 
+2026-09-12当前创作指令：用户要求先做简易流派创意卡池，只给描述，暂不进行平衡与数值。已记录[50项Raw创意](../game-design-workflow/idea-inbox/2026-09-12-simple-spell-creative-card-pool.md)，FX-035–059仅作登记；它们不纳入本批可执行输入，不增加运行用例。r8及历史测试包保留，规格、数值与批测待用户后续启动。
+
 2026-09-12 r8增量：进入简易流派方向设计，保留r7全部范围；r7完整文档位于提交5d33221c12eb9d62a74d325cb896a1761e0d25a5。新增SF-T01–03仅作缺项积累，未冻结或运行。下方旧来源及ER段中的32项为r7快照；当前目录34项，新增FX-033／034。
 
 | 增量项 | 方向与待测边界 | 当前状态 |
@@ -40,7 +42,7 @@
 | [GR v1正式素材](../game-design-workflow/idea-materials/M-2026-09-11-global-rule-boundaries.md)、[G002-CORE-015采纳](../game-design-workflow/draft-changes/D-2026-09-11-global-rule-boundaries.md) | 已采纳通用边界与声明要求；GR07-C01、FAT-C继续候选，不能混同状态 |
 | [修饰词Modifier v0.1](../game-design-workflow/idea-materials/M-2026-09-11-modifier-card-system.md)、[G002-CORE-016](../game-design-workflow/draft-changes/D-2026-09-11-modifier-card-system.md)、[系统入口](modifier-and-inlay-design.md) | 形容词／副词、三分支、原词挂接、本句数值与多修饰顺序；具体卡牌输入待补 |
 | [Inlay v0.1](../game-design-workflow/idea-materials/M-2026-09-12-wand-inlay-system.md)、[G002-CORE-017](../game-design-workflow/draft-changes/D-2026-09-12-wand-inlay-system.md) | 固定身份／范围和两例含义已明确；IN-C01–14装配／获取／叠加／事件整包仍Candidate |
-| [效果登记ER v0.1](effect-registry/README.md)、[34项效果](effect-registry/catalog.md)、[案例与缺项](effect-registry/readiness-review.md) | 逐效检查语义闭合与输入；登记不采纳、不运行；引用效果ID／修订及实际依赖 |
+| [效果登记ER v0.1](effect-registry/README.md)、[效果目录](effect-registry/catalog.md)、[案例与缺项](effect-registry/readiness-review.md) | 逐效检查语义闭合与输入；登记不采纳、不运行；引用效果ID／修订及实际依赖 |
 | [卡牌设计流程](card-design-review-workflow.md) | 后续每项候选的来源、评议、测试与采纳出口 |
 | [原始要求](../game-design-workflow/idea-inbox/2026-09-11-numerical-evaluation-framework.md) | 用户四层范围、暂停其他词效、候选与已决定内容的区别 |
 | [四层框架](../game-design-workflow/idea-materials/M-2026-09-11-numerical-evaluation-framework.md) | NF00样本／分母，NF10收益／评分，NF20曲线，NF30账本，NF40体验门槛，NF-D01方向采纳及候选边界 |

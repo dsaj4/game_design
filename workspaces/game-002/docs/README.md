@@ -25,4 +25,4 @@
 
 - [法杖镶嵌素材](../game-design-workflow/idea-materials/M-2026-09-12-wand-inlay-system.md)：固定身份、两个确认示例及IN-C01–IN-C14补充候选。
 
-- [效果注册与理清](effect-registry/README.md)：34项效果／方向、67项案例、来源、边界及交接门槛；后续讨论主动登记，状态与验证分别判断。
+- [效果注册与理清](effect-registry/README.md)：59项效果／方向、67项案例、来源、边界及交接门槛；后续讨论主动登记，状态与验证分别判断。
