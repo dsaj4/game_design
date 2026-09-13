@@ -137,3 +137,5 @@ HG01已确认并晋级。HG02、WG01、SG01为新提出的成套推荐，当前�
 用户答复：“采用这版资格表（推荐）”。本答复仅选择HG01。对应[素材](../idea-materials/M-2026-09-14-element-status-host-eligibility.md)、[提案](../idea-proposals/P-2026-09-14-element-status-host-eligibility.md)、[评估](../evaluations/E-2026-09-14-element-status-host-eligibility.md)、[采纳文本](../draft-changes/D-2026-09-14-element-status-host-eligibility.md)已建立，未写新GDD。
 
 HG02／WG01／SG01成组问题仍待答复；卡牌接口见[53个实体逐项推荐](2026-09-14-card-interface-completion.md)，其新接口和取舍未随HG01采纳。
+
+参数与渠道后续：[PG v0.1](2026-09-14-first-release-parameters-and-channels.md)已为34词、19镶嵌和3法杖给出时间、结果、价格与启用期，仍Raw。其依赖本页WG01／SG01的部分等待原成组答复，不把新初值反推为本页已获采用。

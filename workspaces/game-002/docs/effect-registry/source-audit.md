@@ -1,5 +1,9 @@
 # 效果来源审查记录
 
+## 2026-09-14 PG单卡参数与渠道候选
+
+新增[PG v0.1](../../game-design-workflow/idea-inbox/2026-09-14-first-release-parameters-and-channels.md)，覆盖S2／E3共55个设计ID对应的34词与19镶嵌；源FX映射沿原S2／E3与CG，不新增FX ID、不升级已采纳修订或测试证据。新增Q-A／PG-Z01及时间／渠道细化保持Raw候选。素材62份、inbox44份、FX134项；全局参数仍未成套，不启动玩法测试或新GDD。
+
 ## 2026-09-14 宿主资格与新内容推荐
 
 用户采用[HG01资格表](../../game-design-workflow/idea-inbox/2026-09-14-host-range-starting-content.md)，仅该部分晋级[正式素材](../../game-design-workflow/idea-materials/M-2026-09-14-element-status-host-eligibility.md)并按CORE-030采纳。FX-003/r8、004/r7、065/r8已同步；共134个效果ID。HG02／WG01／SG01与[CG完整接口](../../game-design-workflow/idea-inbox/2026-09-14-card-interface-completion.md)仍为Raw推荐，原始选择范围不扩大。素材62份、inbox43份；无新GDD与新玩法测试。
