@@ -1,5 +1,7 @@
 # game-002 原始表达与候选入口
 
+最新：[UX界面／平台／体验](2026-09-14-interface-platform-and-experience.md)：Raw成套推荐，含完整旅程、开战检查、保存反馈、秒刻／倍速、教学验收及功能资产；[26组内容总审](../../docs/pre-gdd-content-review-2026-09-14.md)明确剩余选择与未来验收输入。
+
 最新：[EG环境阈值](2026-09-14-environment-forms-and-thresholds.md)与[RG整局路线／遭遇／疲劳](2026-09-14-run-route-encounters-and-fatigue.md)：Raw完整推荐待审；PG按RG-C01将原木杖不售修订为v0.2。
 
 此前：[单卡参数与渠道](2026-09-14-first-release-parameters-and-channels.md)：Raw／PG v0.1，覆盖34词、19镶嵌、3杖；全局输入仍待补齐。
@@ -8,12 +10,13 @@
 
 此前：[本轮批量确认原话](2026-09-13-pre-gdd-recommendation-batch.md)；Promoted；既有推荐与退出单项答复，未给出的内容不视为确认。
 
-当前46份inbox记录；新增[全游戏GDD准备与用户选择](2026-09-13-full-game-gdd-preparation.md)。[RC推荐](2026-09-13-card-pool-rule-recommendations.md)与[S2原池](2026-09-13-simple-spell-short-rule-card-pool.md)已各按明确范围晋级，原记录保留。
+当前47份inbox记录；新增[全游戏GDD准备与用户选择](2026-09-13-full-game-gdd-preparation.md)。[RC推荐](2026-09-13-card-pool-rule-recommendations.md)与[S2原池](2026-09-13-simple-spell-short-rule-card-pool.md)已各按明确范围晋级，原记录保留。
 
 共39份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
 
 | 记录 | 状态 |
 | --- | --- |
+| [首版界面、平台与体验](2026-09-14-interface-platform-and-experience.md) | Raw：三步编排、跨战实例处理、观看／保存、0.5秒刻、U01–08与实际功能资产，待选择 |
 | [环境形态与阈值](2026-09-14-environment-forms-and-thresholds.md) | Raw：三环境、四阈值线、双类痕迹与跨阈值推荐；待选择 |
 | [整局路线、遭遇与疲劳](2026-09-14-run-route-encounters-and-fatigue.md) | Raw：6普通＋首领、12遭遇、生命／休整、金币前缀与完整疲劳；RG-C01商品修订待审 |
 | [单卡初值与渠道](2026-09-14-first-release-parameters-and-channels.md) | Raw：τ／L、全部支付与结果系数、逐项阶段／价格、商店名额与普通金币；Q-A／PG-Z01待审 |

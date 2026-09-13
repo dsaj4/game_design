@@ -1,5 +1,9 @@
 # 效果来源审查记录
 
+## 2026-09-14 UX功能规格与总审
+
+新增[UX完整旅程／体验／资产候选](../../game-design-workflow/idea-inbox/2026-09-14-interface-platform-and-experience.md)及[26组内容总审](../pre-gdd-content-review-2026-09-14.md)。UX沿现有卡池展示规则，新增开战／保存／观看等产品取舍仍Raw；没有新增词效或FX ID，没有修改现行效果语义。当前素材62份、inbox47份、FX134项，关闭10／26；规范化未来验收输入继续补，未运行新玩法测试。
+
 ## 2026-09-14 环境与整局候选
 
 新增[EG环境表](../../game-design-workflow/idea-inbox/2026-09-14-environment-forms-and-thresholds.md)与[RG整局表](../../game-design-workflow/idea-inbox/2026-09-14-run-route-encounters-and-fatigue.md)。环境形态关联既有FX-061／062／065，疲劳作为全局规则沿BR08与独立疲劳素材，不误挂到FX-030有限产金；EG／RG新内容仅登记候选引用；另将FX-061／062同步至r2以对齐早已采纳的CORE-022–028／030，保留相反的BF r1原文；不提升新候选的素材资格或证据。PG的原木杖商品按RG-C01修为v0.2且保留旧推荐。素材62份、inbox46份、FX134项。没有新GDD或玩法测试。
