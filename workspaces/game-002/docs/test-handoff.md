@@ -46,7 +46,9 @@
 
 ## 独立实验项：Godogen 3D UI 风格实验
 
-最新修订：用户已认可法杖袋形象，要求删猫、横置后沿，并继续加长至法杖可接近或超过桌宽。已完成[整体04／05及设计记录](E:/Project/game-002-godogen-lab/docs/map-desk-visual-design-v05.md)，当前BagAppearanceConfirmed / OverallRevisionAwaitingConfirmation；独立仓库codex/setup-godogen-demo / 0db4df4（04为6b8e229，本地无远端）。当前05只有一只横向长袋，两支杖头朝右，无猫；原生资产仍为5686534、Godot仍为E1 R2。未生成MD-11组件／模型、未新增交互或测试批次；整体确认后才按顺序继续。下方03与更早记录保留当时范围。
+最新进展：用户已确认整体05并要求生产袋子设计图、替代猫的位置。[MD-11外观与包卷拆件两张稿](E:/Project/game-002-godogen-lab/concepts/blender-sheets-v02/index.md)及[建模说明](E:/Project/game-002-godogen-lab/docs/blender-wand-roll-design-v01.md)已完成，OverallDirectionConfirmed / ComponentDesignDraft；独立仓库codex/setup-godogen-demo / 0c76b88（本地无远端）。选用两张1448×1086图，保留一张剖面修订前图；三份原图复制哈希与17处文稿链接通过。图稿不是配准工程图或实际模型，未新建MD-11的.blend、GLB或交互／玩法测试；整体不再待确认，下一制作阶段为新建原生资产。
+
+前轮修订：用户已认可法杖袋形象，要求删猫、横置后沿，并继续加长至法杖可接近或超过桌宽。已完成[整体04／05及设计记录](E:/Project/game-002-godogen-lab/docs/map-desk-visual-design-v05.md)，当前BagAppearanceConfirmed / OverallRevisionAwaitingConfirmation；独立仓库codex/setup-godogen-demo / 0db4df4（04为6b8e229，本地无远端）。当前05只有一只横向长袋，两支杖头朝右，无猫；原生资产仍为5686534、Godot仍为E1 R2。未生成MD-11组件／模型、未新增交互或测试批次；整体确认后才按顺序继续。下方03与更早记录保留当时范围。
 
 前轮范围：用户要求在右后桌沿加入整张旧皮革卷成、露出一至两支杖头的破旧法杖袋，后续作为法杖管理入口。已交付[整体修订03及设计说明](E:/Project/game-002-godogen-lab/docs/map-desk-visual-design-v03.md)，OverallRevisionAwaitingConfirmation；独立仓库codex/setup-godogen-demo / 59db261（本地无远端）。本轮仅生成整体概念图并检查来源／链接，用户确认后才依次做MD-11组件稿和Blender资产；未新增模型、引擎或交互测试。以下九类资产及E1证据保留其原范围，猫模型继续暂缓。
 

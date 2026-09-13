@@ -152,3 +152,9 @@
 用户认可皮革袋形象，先要求删猫并将加长袋体横向放在后沿原猫位置，随后明确“长法杖可以和桌子差不多长甚至更长”。已完成[整体修订04／05与说明](E:/Project/game-002-godogen-lab/docs/map-desk-visual-design-v05.md)，当前以05为准，状态BagAppearanceConfirmed / OverallRevisionAwaitingConfirmation。独立仓库codex/setup-godogen-demo，04为6b8e229、05为0db4df4588465ca79cb01c1453407ed973e52ad5，本地已提交、无远端。
 
 两张1254×1254图片均由内置imagegen编辑前版，原图、完整提示词及SHA归档；05向左延长袋体，长袋和露头接近后沿可见宽度，猫移除、路线与节点及杂物保留。图像未做透视尺寸标定，提示词比例不作已测量几何。未新增MD-11组件稿、Blender模型或Godot实现；整体确认后再依次做组件图和原生资产。已有九类模型及E1 R2证据保持原范围。
+
+### 同日后续：整体05确认与MD-11设计稿
+
+用户确认“可以开始生产袋子设计图，可替代猫的位置”。已完成[两张MD-11设计板](E:/Project/game-002-godogen-lab/concepts/blender-sheets-v02/index.md)和[中文建模说明](E:/Project/game-002-godogen-lab/docs/blender-wand-roll-design-v01.md)，OverallDirectionConfirmed / ComponentDesignDraft。独立仓库codex/setup-godogen-demo / 0c76b8820c4868c817c938c76950c8e68acdf46e，本地已提交、无远端。
+
+外观稿提供长袋主效果／方向参考／端部与材质细节，拆件稿提供单张皮革包卷、同皮折底、绑带和两支长杖。两张选用图均1448×1086；剖面修订为两个实心木杆，修订前图与全部三份提示词保留，原图复制哈希及17处链接已检查。尺寸、面板缩放与视图方位限制写入建模说明，未把生成图认定为几何验收。MD-09退出当前构图但保留历史设计稿；MD-11模型尚未新建，已有九类资产与Godot E1 R2不变。整体已确认，下一制作阶段为按稿新建长法杖袋原生资产。
