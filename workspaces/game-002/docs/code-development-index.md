@@ -81,3 +81,9 @@
 | 下一步 | 等用户启动后再补看视频片段、明确最小玩家动作和视觉验收，再制作小样；当前无后台自动开发任务 |
 
 所有代码、工具版本、安装／启动方式、日志与后续技术实验留在独立仓库。环境验收不构成视觉可行性、玩法或发布质量结论。
+
+### 同日后续：视觉方向01与实验计划
+
+用户授权先读截图／视频／设计，再给效果图与实验计划。已交付[两屏概念效果图和来源观察](E:/Project/game-002-godogen-lab/docs/visual-direction-v01.md)、[E0–E4实验计划](E:/Project/game-002-godogen-lab/docs/experiment-plan-v01.md)。E0的参考抽看和概念图完成，状态VisualDesignDraft / AgentCandidate；E1风格小样、E2装配、E3地图、E4合屏维护均NotRun，实机制作仍Deferred。图为imagegen概念输出，不新增引擎验证证据；视频抽看片段和图内未精确呈现的拓扑限制已记录。
+
+独立工作区提交：codex/setup-godogen-demo / 3f76545，本地已提交、无远端；本轮只更新文档、来源状态与概念图，game/运行实现保持环境准备状态。

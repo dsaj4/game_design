@@ -4,6 +4,8 @@
 
 ## 独立待启动项：Godogen 3D UI 风格实验
 
+同日后续：已按用户请求完成[视觉方向01](E:/Project/game-002-godogen-lab/docs/visual-direction-v01.md)与[实验计划v0.1](E:/Project/game-002-godogen-lab/docs/experiment-plan-v01.md)。E0仅为参考阅读和概念图；E1–E4均NotRun，未启动实际UI实验。下方首轮登记保留为历史；当前进入VisualDesignDraft / ImplementationDeferred，不将AI效果图当作实机或玩法证据。
+
 2026-09-13用户要求先建工作区和准备环境，法杖装配／地图UI的长期可行性测试“先不急着开始”。[独立demo](E:/Project/game-002-godogen-lab/README.md)环境已就绪；[原始参考](../game-design-workflow/idea-inbox/2026-09-13-flask-style-wand-map-ui.md)为Raw Idea / Unqualified，[待启动任务](E:/Project/game-002-godogen-lab/docs/deferred-ui-experiment.md)为Deferred / NotStarted。未分配执行批次，未运行视觉／交互／玩法测试；工具链空项目检查不加入CAL或TH的玩法证据。本项等待用户重新启动，不影响下方已有数值实验记录。
 
 ## 当前包：自动平衡校准
