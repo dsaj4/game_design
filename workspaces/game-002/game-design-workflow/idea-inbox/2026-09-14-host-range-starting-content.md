@@ -139,3 +139,5 @@ HG01已确认并晋级。HG02、WG01、SG01为新提出的成套推荐，当前�
 HG02／WG01／SG01成组问题仍待答复；卡牌接口见[53个实体逐项推荐](2026-09-14-card-interface-completion.md)，其新接口和取舍未随HG01采纳。
 
 参数与渠道后续：[PG v0.1](2026-09-14-first-release-parameters-and-channels.md)已为34词、19镶嵌和3法杖给出时间、结果、价格与启用期，仍Raw。其依赖本页WG01／SG01的部分等待原成组答复，不把新初值反推为本页已获采用。
+
+新增配套：[EG环境形态与阈值](2026-09-14-environment-forms-and-thresholds.md)、[RG整局路线与遭遇](2026-09-14-run-route-encounters-and-fatigue.md)。RG-C01另建议原木杖只作起始资源、不再出售；本页“原木杖商店可购”保留为早先候选，当前整局推荐改用RG-C01。该商品修订仍独立待审，不把原范围／起点问题的答复扩大为自动采用后续新量值或商品改动。

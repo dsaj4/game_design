@@ -4,6 +4,8 @@
 
 2026-09-14参数补充：[PG v0.1](../../game-design-workflow/idea-inbox/2026-09-14-first-release-parameters-and-channels.md)已对55项设计对应的34词／19镶嵌逐项给初值、时间和渠道，并附3杖与商店／金币。当前为Raw推荐，不覆盖FX已采纳修订，不作为新证据。Q-A补层加成入口与PG-Z01零值成功许可单独待审；环境阈值、敌人、全局路线及疲劳仍需实际表。
 
+2026-09-14整局配套：[EG](../../game-design-workflow/idea-inbox/2026-09-14-environment-forms-and-thresholds.md)已给火冰环境形态／阈值；[RG](../../game-design-workflow/idea-inbox/2026-09-14-run-route-encounters-and-fatigue.md)已给逐敌攻击与布场、路线、生命／休整、完整疲劳及有限终局前提。新增痕迹共存、跨阈值、对象初始顺序等仍为推荐；不升FX修订，不以结构核对或数学推导替代实战。功能流程／现实用时／平台与资产继续补齐。
+
 ## 以下为RC确认前的审查记录
 
 保留当时缺项与建议以追溯变化；“仍待选择”不作为当前重复提问的依据。

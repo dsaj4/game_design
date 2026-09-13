@@ -1,5 +1,9 @@
 # 效果来源审查记录
 
+## 2026-09-14 环境与整局候选
+
+新增[EG环境表](../../game-design-workflow/idea-inbox/2026-09-14-environment-forms-and-thresholds.md)与[RG整局表](../../game-design-workflow/idea-inbox/2026-09-14-run-route-encounters-and-fatigue.md)。环境形态关联既有FX-061／062／065，疲劳作为全局规则沿BR08与独立疲劳素材，不误挂到FX-030有限产金；EG／RG新内容仅登记候选引用；另将FX-061／062同步至r2以对齐早已采纳的CORE-022–028／030，保留相反的BF r1原文；不提升新候选的素材资格或证据。PG的原木杖商品按RG-C01修为v0.2且保留旧推荐。素材62份、inbox46份、FX134项。没有新GDD或玩法测试。
+
 ## 2026-09-14 PG单卡参数与渠道候选
 
 新增[PG v0.1](../../game-design-workflow/idea-inbox/2026-09-14-first-release-parameters-and-channels.md)，覆盖S2／E3共55个设计ID对应的34词与19镶嵌；源FX映射沿原S2／E3与CG，不新增FX ID、不升级已采纳修订或测试证据。新增Q-A／PG-Z01及时间／渠道细化保持Raw候选。素材62份、inbox44份、FX134项；全局参数仍未成套，不启动玩法测试或新GDD。
