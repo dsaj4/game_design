@@ -1,12 +1,12 @@
 # game-002 代码开发进度
 
-日期：2026-09-11。设计依据：[Core Concept v0.6](../game-design-workflow/core-concept.md)。
+日期：2026-09-13。设计依据：[Core Concept v0.6](../game-design-workflow/core-concept.md)。
 
 | 里程碑 | 设计来源 | 状态与证据 | 阻塞与下一步 |
 | --- | --- | --- | --- |
 | 战前配置与完整自动战斗 | 当前核心及[正式素材](../game-design-workflow/idea-materials/README.md) | Planned；尚无符合当前全流程的实现验收证据 | [接口范围](design-decisions-needed.md)已确认；先建立当前规则所需参数，再登记实现与验证 |
 | 时间、覆盖、打断与终止验证 | 当前核心及[攻防候选v0.1](../game-design-workflow/idea-materials/M-2026-09-11-simple-spell-parameter-candidates.md) | Limited Verified：TH-2026-09-11-001/r2的726组逐事件差分与10项规则边界通过；[报告](test-reports/TH-2026-09-11-001-r2-run-01.md) | 仅两句攻防、固定单敌；其他词义和完整流程未验收 |
-| 超时疲劳 | [G002-CORE-014与FAT-C候选](../game-design-workflow/idea-materials/M-2026-09-11-overtime-fatigue.md) | Design Only；方向已采纳，本轮没有实现或验证证据 | 先按TH-2026-09-11-002/r2独立审查执行候选；TH-001实现不含疲劳，不能沿用其Pass |
+| 超时疲劳 | [G002-CORE-014与FAT-C候选](../game-design-workflow/idea-materials/M-2026-09-11-overtime-fatigue.md) | Limited Experimental Evidence：TH-003/r1独立模型验证无恢复条件的有限终局与归因；[报告](test-reports/TH-2026-09-13-003-r1-run-01.md) | demo尚未接入；加入治疗、复活或生命上限变化须重新检查，不外推完整玩法 |
 | 词义、数值与路线验证 | 当前合格素材及[数值重设计任务](numerical-redesign.md) | Planned；候选参数不等于已平衡 | 重新建立输入并完成资格确认，再验证完整规则关系 |
 
 可用实现资源目录为 E:/Project/game-002-glyph-timeline；本次未检查或修改该目录，不能据目录存在推定当前设计已实现。[实现记录快照](../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/docs/code-development-index.md)保留已登记的提交、测试范围及原始证据。
@@ -27,6 +27,22 @@
 | 下一步 | 当前先审查数值框架与疲劳候选；后续实现疲劳须登记新设计／实现版本并独立验证。T01/T02玩家可读性测试仍未执行 |
 
 技术细节与测试结果写在对应代码仓库；本索引只记录里程碑、证据、阻塞和下一步。代码完成度不能提升核心或素材的证据状态。
+
+## 2026-09-13 两流派独立数值实验
+
+用户要求自行设初值，明确允许补临时实验规则，并要求本轮无需注册demo。已完成[TH-2026-09-13-003/r1/run-01](test-reports/TH-2026-09-13-003-r1-run-01.md)，状态为Completed / Limited Experimental Evidence；正式规则、S2素材资格与旧demo配置保持原状态。
+
+| 项目 | 当前记录 |
+| --- | --- |
+| 设计输入 | 16231ee77e389864b10dd4de15d328cccf071d0a；简易方向、EL01–07及选定E3子集；S2新卡仅Raw实验 |
+| 实现位置 | [独立实验仓库](E:/Project/game-002-numerical-lab/README.md)，非可玩实现，无demo依赖 |
+| 实现与结果 | codex/archetype-tests-2026-09-13；2d783252999f7de703a9e6938d9840c4b408b847，本地已提交、无远端；输入冻结83b3f3c |
+| 完成证据 | 17424场主矩阵、6534场数值敏感性、484场临时规则对照、4962场连续生命账本，共29404场；14项规则检查及数据完整性检查通过 |
+| 覆盖界限 | 16构筑、9场景、两杖起点0–10；固定单敌与单目标邻近关系，尚非完整2×5环境／全卡池／真实经济／玩家试玩 |
+| 主要发现 | 简易复诵较快；元素普通场景可持续，但快攻弱、冰冻结算分支敏感；空心＋自噬与衰减取整需设计裁决 |
+| 下一步 | 先决定冰冻增甲及小数衰减接口，再复核脉冲3层候选的压力场景；扩展未测E3组合与空间过滤 |
+
+完整技术输入、实现、复现步骤与逐场证据保留在独立代码仓库。此批不证明当前两流派已能在demo游玩。
 
 ## 2026-09-13 外部技术选型调研
 
