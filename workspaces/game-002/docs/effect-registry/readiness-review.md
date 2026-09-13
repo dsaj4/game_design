@@ -2,7 +2,7 @@
 
 ## 当前元素流派细化
 
-当前目录96项，新增FX-063–068；[四组机制与两项确认](../../game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md)已Qualified。简易卡池保留48项、删除直接点燃／冰冻动词；原50项初设和BF审查仍保留历史。
+当前目录114项，新增FX-063–068；[四组机制与两项确认](../../game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md)已Qualified。简易卡池保留48项、删除直接点燃／冰冻动词；原50项初设和BF审查仍保留历史。
 
 | 缺项 | 当前明确与下一步 |
 | --- | --- |
@@ -106,3 +106,7 @@
 ## 元素卡池当前状态（2026-09-13）
 
 [元素流派创意卡池](../../game-design-workflow/idea-inbox/2026-09-13-element-spell-creative-card-pool.md)48项Raw，FX-072–096为新增25项描述方向。护生／避亲须分清邻近施加与满位回退；绵长等须分清自然衰减与主动消耗；后续收益须明确同杖来源和消费时点；转换／换相不得突破已确认生成条件。只记为选中后的澄清事项，不要求现在设计数值或执行测试。NotEvaluable／NotRun。
+
+## 第二期机制缺口（2026-09-13当前）
+
+[元素第二期机制卡池](../../game-design-workflow/idea-inbox/2026-09-13-element-spell-mechanism-card-pool-02.md)新机制FX-097–114均Raw／NotRun。封存储量不是元素层数的第二副本；解封仍是完整释放；回收抵消量不篡改原剩余量。行动炉芯、借位镜、满溢阀为待选择的局部框架例外。需在用户选择后补储量消费、延期目标、事件归属、实际消耗、部分失败与有限响应；不把这些缺项当作现在必须数值化或测试的理由。
