@@ -13,7 +13,7 @@
 | 单位固有属性 | 单位自身携带的火／草／冰或无属性等身份性质，用于元素克制判断，区别于当前携带状态。 | [元素方向](game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md) |
 | 元素状态 | 单位身上可积累与消耗的元素状态；当前方向规定每单位最多一种，异种施加先抵消再替换，不限制非元素状态共存。 | [元素方向](game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md) |
 | 元素共享层数 | 元素本体与它携带的对应状态共用的一份层数；归零时元素消失，环境转化为元素时继承对应状态层数。 | [元素方向](game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md) |
-| 环境转化 | 旧环境结束并产生新元素身份的变化；对应状态层数带入新元素，旧实例引用不随之转移。 | [G002-CORE-024](game-design-workflow/idea-materials/M-2026-09-13-first-release-content-scope.md) |
+| 环境转化 | 合格环境占位物在原格变为新元素的变化；带入对应层数及衰减进度，旧引用不转移，新归属与特性取后置的对应释放覆盖法杖。 | [G002-CORE-024](game-design-workflow/idea-materials/M-2026-09-13-first-release-content-scope.md) |
 | 战前构句 | 从完整战外库存分配实体词卡，依据词性、句式和语义形成完整法术；配置不推进战斗时间。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-grammar-and-semantic-compatibility.md) |
 | 战外词卡库存 | 本局战斗外持有的普通词卡集合，供每场战前配置；同名普通词最多三张。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-word-inventory-and-copies.md) |
 | 实体词卡分配 | 一张实体卡在本次配置中只归属一条法术且占一个位置；同名重复需要对应副本。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-word-inventory-and-copies.md) |
@@ -176,8 +176,10 @@ _避免_：依据测试结果事后剔除失败或残血样本。
 
 **刻末状态阶段**：法术、敌攻、环境之后处理状态的阶段；燃烧先于冰冻，同类按公开单位顺序。本阶段新建状态下刻处理。
 
-**自然衰减进度**：当前状态尚未足整层的衰减余量；累积满整层才扣层，同种补层不清零，状态完全消失后新建从零开始。
+**自然衰减进度**：当前状态尚未足整层的衰减余量；累积满整层才扣层，同种补层不清零。普通清除后新建从零开始；环境转化按G002-CORE-025带入新元素身份。
 
 **长期储层**：空心＋自噬关闭自动邻近作用及时间自然衰减而保留元素；仍可主动消耗、异种抵消、归零消散并受战斗结束约束。
 
 依据：[ST01–04](game-design-workflow/idea-materials/M-2026-09-13-end-tick-status-rulings.md)。
+
+**原地替换**：环境转化或异种元素抵消补生时，在旧占位对象的原格生成新元素；不与别格已有同种合并，地面保持身份。
