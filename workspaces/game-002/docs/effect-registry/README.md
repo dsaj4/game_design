@@ -4,6 +4,8 @@
 
 2026-09-13用户另行授权两流派临时规则及初值实验，已完成[TH-003/r1首轮报告](../test-reports/TH-2026-09-13-003-r1-run-01.md)。其中逐卡列明E3／S2共55项的限定覆盖与NotRun；本轮没有改变FX语义、修订、素材资格或demo注册。FX-033／034、所选元素释放／状态／爆裂／溢流／逆霜／空心／应激／自噬及S2少量例外取得的证据仅适用于实验合同。原TH-002/r13未选范围继续NotRun。
 
+同日完成[自动校准CAL/r3](../test-reports/CAL-2026-09-13-001-r3-run-01.md)：四代表在冻结目标下获得候选参数，16配置仅做硬规则回归；不扩大TH-003逐卡覆盖，不提升任何FX语义或全卡池证据状态。校准方法见[流程](../automatic-balance-calibration.md)，当前批次见[交接](../test-handoff.md)。
+
 
 此前目录123项：[第三期短规则卡池](../../game-design-workflow/idea-inbox/2026-09-13-element-spell-symbol-card-pool-03.md)为候选阅读入口，30项短规则新增FX-115–123，复用旧效果及历史版本保持独立状态。前两期78条全部记录去向，不删除历史。测试继续NotRun，未增加可执行输入。
 
@@ -29,7 +31,7 @@
 - [案例覆盖表](case-coverage.md)：26项类型案例、12项简单句情境、3项修饰词案例、2项镶嵌案例、24项EC情境，以及18词和B01–B10的去向。
 - [来源审查](source-audit.md)：本次81份现用素材／inbox Markdown的登记关系；仅按现行正文审查，历史试案继续隔离。
 - [待补边界与可落地审查](readiness-review.md)：哪些缺项阻止具体效果进入测试或实现交接。
-- [测试交接](../test-handoff.md)：当前TH-003/r1为Completed / Limited；历史TH-002及未选范围保留原状态。
+- [测试交接](../test-handoff.md)：当前CAL/r3为限定任务达标候选；TH-003为Completed / Limited，历史TH-002及未选范围保留原状态。
 
 来源：[用户原话](../../game-design-workflow/idea-inbox/2026-09-12-effect-registry.md)、[工作流素材](../../game-design-workflow/idea-materials/M-2026-09-12-effect-registry.md)。本系统登记设计，不包含代码、技术选型、类、接口、数据结构或实现完成度。
 
