@@ -4,6 +4,12 @@
 
 | 术语 | 定义 | 依据 |
 | --- | --- | --- |
+| 自身效果 | 词义明确给玩家自己的效果，不受棋盘法杖范围限制，仍受费用和合法条件约束。 | [BR01](game-design-workflow/idea-materials/M-2026-09-13-pre-gdd-recommendation-batch.md) |
+| 宿主范围 | 附属状态随其宿主判定距离与法杖范围，不为状态另建格子位置。 | [BR01](game-design-workflow/idea-materials/M-2026-09-13-pre-gdd-recommendation-batch.md) |
+| 并存释放过程 | 已合法开始且有限的释放过程可以同时存在；共享槽仅仲裁开始，不因法杖正在释放新增忙碌锁。 | [BR03](game-design-workflow/idea-materials/M-2026-09-13-pre-gdd-recommendation-batch.md) |
+| 同效果组 | 按机制和受益参数登记的去重组；同事件取最强，等强按法杖顺序及固定、槽1、槽2取先者。 | [BR07](game-design-workflow/idea-materials/M-2026-09-13-pre-gdd-recommendation-batch.md) |
+| 疲劳损耗 | 全局超时产生的独立生命损耗，不耗甲、不计普通伤害或生命支付、不打断冷却。 | [BR08](game-design-workflow/idea-materials/M-2026-09-13-pre-gdd-recommendation-batch.md) |
+| 同场锁定重播 | 战中退出后以开战时原配置和战场初态从本场开头恢复；随机结果与奖励不刷新，不能重配或重复领取。 | [BR09](game-design-workflow/idea-materials/M-2026-09-13-pre-gdd-recommendation-batch.md) |
 | 复诵 | 原完整法术最多追加一次的完整释放，重新选本次名单并竞争共享槽，正常循环不顺延，复诵不再复诵。 | [RC02](game-design-workflow/idea-materials/M-2026-09-13-card-pool-rule-rulings.md) |
 | 首次来源 | 元素／状态创建时确定的来源与持久特性；同种补量不改归属，清空重建才重新确定。 | [RC04](game-design-workflow/idea-materials/M-2026-09-13-card-pool-rule-rulings.md) |
 | 一层触发 | 原完整事件及胜负检查后即时处理其触发，触发结果不再触发其他特效；基础结算照常。 | [RC06](game-design-workflow/idea-materials/M-2026-09-13-card-pool-rule-rulings.md) |

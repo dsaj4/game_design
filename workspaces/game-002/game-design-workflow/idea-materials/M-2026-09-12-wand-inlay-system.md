@@ -1,6 +1,6 @@
 # 法杖镶嵌：固定身份与可换构筑
 
-日期：2026-09-12。版本：Inlay v0.1。状态：Qualified GDD Material；IN-A基础模型按G002-CORE-017采纳，IN-C01–IN-C14为本轮补充的Candidate。证据Hypothesis，未执行测试。
+日期：2026-09-12。版本：Inlay v0.1。状态：Qualified GDD Material；IN-A基础模型按G002-CORE-017采纳，IN-C01–IN-C14保留原候选记录，当前已采纳子集见下表及BR06／07；不能继续整表按未选择阅读。证据Hypothesis，未执行测试。
 
 ## 素材控制
 
@@ -13,6 +13,23 @@
 | 确认方式 | grill-with-docs：核对现有法杖、类型、GR、修饰词、商店、状态与收益 |
 | 当前证据状态 | Hypothesis；规则确认与候选／数值／体验分开 |
 | 负责人 | 用户决定，设计agent补充并维护，测试待下一次合批 |
+
+## 2026-09-13当前采纳映射：BR06／07
+
+用户“继续确认规则，均按推荐处理”后，以下部分按[G002-CORE-029](M-2026-09-13-pre-gdd-recommendation-batch.md)采用；原候选表保留追溯，未覆盖项不自动升级。
+
+| 原候选 | 当前状态与采用部分 | 仍待定 |
+| --- | --- | --- |
+| IN-C01／02 | Accepted：每杖固定＋2可换槽，固定不占活动槽；战前免费装卸、一件一杖 | 具体法杖与组件名单、价格 |
+| IN-C03 | Accepted：同种可换镶嵌每局1件，已装／库存合计 | 库存总容量、同款法杖持有规则 |
+| IN-C04–06 | Accepted：可换镶嵌从商店获取；既有固定货架／足额支付规则继续 | 法杖获取包、每店专属位数量与完整商品池 |
+| IN-C07 | Accepted：本局物品跨战保留、每战计数重置；新局重置沿既有起点 | 起始活动槽实际装配与物品表 |
+| IN-C08 | Accepted：已出战且绑定合法完整法术才激活；空杖无被动，不统一以本次成功为前提 | 各件实际适配条件与休眠显示 |
+| IN-C10 | Accepted：同组同事件取最强，等强沿法杖公开顺序及固定→槽1→槽2 | 各件效果组／不可比改写的明确冲突表 |
+| IN-C12／13 | 已有RC有限事件规则优先，BR05补原动作与触发分类；双律／攻守互斥保持 | 逐件事件与计次映射 |
+| 其他候选与IN-X01下限 | 保留原状态，不由本次映射整包采纳 | 时间下限、货架规模与未列条款 |
+
+正常例：一件组件可在战前换杖，同次范围增层不因多杖同组而重复。边界例：空杖不能提供范围被动；同名已装仍占持有额度；固定身份范围不会因特效休眠消失。规则证据Hypothesis，全部新组合NotRun。
 
 ## 规范化表述
 
@@ -144,3 +161,6 @@
 | 2026-09-12 | [Draft Change](../draft-changes/D-2026-09-12-wand-inlay-system.md) | G002-CORE-017 | IN-A及明确例子含义Accepted；IN-C Candidate | [测试交接](../../docs/test-handoff.md)r6继续Draft／NotRun |
 
 2026-09-12：案例登记到[效果系统](../../docs/effect-registry/README.md)（[FX-026](../../docs/effect-registry/entries/FX-026.md)、[FX-027](../../docs/effect-registry/entries/FX-027.md)），完整映射见[案例覆盖](../../docs/effect-registry/case-coverage.md)。这里只增加追踪入口，本素材的框架／采纳／候选状态不变；登记摘要不替换本文权威规则或参数。
+
+
+2026-09-13使用记录：[BR批量素材](M-2026-09-13-pre-gdd-recommendation-batch.md)、[采纳文本](../draft-changes/D-2026-09-13-pre-gdd-recommendation-batch.md)已引用本表明示子集；FX-026／027当前r2。历史“整包未采纳”不再覆盖已选子项。

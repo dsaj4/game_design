@@ -1,6 +1,6 @@
 # 效果注册与理清系统
 
-当前：RC共同规则和首版两卡池已确认。此前52项效果更新当前修订；FX-065现为r7、FX-068为r3、FX-069为r4，固定环境自动名单及与状态阶段衔接已确认，见[目录](catalog.md)；[DG清单](../pre-gdd-design-decisions-2026-09-13.md)管理真正未决项，原K01–K12不重复裁决。
+当前：首版两卡池已确认；公共规则新增[BR v1](../../game-design-workflow/idea-materials/M-2026-09-13-pre-gdd-recommendation-batch.md)，与具体FX修订及ST／RC共同组成当前输入。本批9项直接修订见[目录](catalog.md)，FX-003/r7、004/r6、020/r2、026/r2、027/r2、030/r2、033/r3、034/r3、068/r4；总ID134。其余实际内容由[DG清单](../pre-gdd-design-decisions-2026-09-13.md)追踪，新规则未测。
 
 当前目录134项：元素E3的30项方向已确认并进入[已确认元素E3素材](../../game-design-workflow/idea-materials/M-2026-09-13-element-short-rule-card-pool.md)；仅该来源应用升级为Qualified，历史变体保持原状态。[简易短规则卡池](../../game-design-workflow/idea-inbox/2026-09-13-simple-spell-short-rule-card-pool.md)新增25项待选短规则与FX-124–134。
 

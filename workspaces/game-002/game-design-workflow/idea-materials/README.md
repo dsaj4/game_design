@@ -1,6 +1,8 @@
 # game-002 正式素材索引
 
-当前共60份合格素材；新增[RC已采纳规则](M-2026-09-13-card-pool-rule-rulings.md)与[首版范围／S2／空间](M-2026-09-13-first-release-content-scope.md)。GDD写作暂停，先按DG清单裁决。
+最新：[BR01–12批量规则](M-2026-09-13-pre-gdd-recommendation-batch.md)；Qualified／Accepted；CORE-029、SCOPE-004、DOC-002，实际内容待补。
+
+当前共61份合格素材；新增[RC已采纳规则](M-2026-09-13-card-pool-rule-rulings.md)与[首版范围／S2／空间](M-2026-09-13-first-release-content-scope.md)。GDD写作暂停，先按DG清单裁决。
 
 共58份Qualified GDD Material；证据Hypothesis。可引用资格不等于完整系统已验证，具体范围以素材正文及[决定清单](../../docs/design-decisions-needed.md)为准。核心统一为[Core Concept v0.6](../core-concept.md)，C01–C08已处理，引用与执行骨架保留，SW01及R01–R32当前操作范围按G002-CORE-011简化；四类法术特征与多类型按G002-CORE-012，后续按类型讨论。
 

@@ -1,5 +1,7 @@
 # game-002 评估
 
+最新：[批量规则评估](E-2026-09-13-pre-gdd-recommendation-batch.md)；推荐推进；实际内容／参数与验证仍待补。
+
 新增[RC与首版范围评估](E-2026-09-13-card-pool-rule-rulings.md)：推荐推进已确认规则，先补全游戏缺口，再写GDD。
 
 当前核心为[Core Concept v0.6](../core-concept.md)，可用内容从[合格素材](../idea-materials/README.md)审查。未决inbox内容须先通过资格闸门，不能直接写入正文。

@@ -1,5 +1,7 @@
 # game-002 提案
 
+最新：[批量规则采纳提案](P-2026-09-13-pre-gdd-recommendation-batch.md)；基于合格BR素材；已采纳明确规则。
+
 新增[RC裁决与首版范围提案](P-2026-09-13-card-pool-rule-rulings.md)，依据已通过资格的两份素材，用户已采纳规则和范围；其余缺口另议。
 
 当前核心为[Core Concept v0.6](../core-concept.md)，可用内容从[合格素材](../idea-materials/README.md)审查。未决inbox内容须先通过资格闸门，不能直接写入正文。

@@ -164,3 +164,14 @@ ST01–04明确首次生效、阶段内新状态延后、效果后衰减、清�
 | G002-CORE-028 | 环境阶段开始固定自动元素身份名单，失效跳过、中途新生下刻；转化检查沿R08公开顺序，状态资格独立沿ST02，旧身份名额不转移 | Accepted；Hypothesis／NotRun | [用户确认](idea-inbox/2026-09-13-full-game-gdd-preparation.md)、[素材](idea-materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](draft-changes/D-2026-09-13-card-pool-rule-rulings.md) |
 
 本轮未创建新GDD、未改代码或启动测试。原始库与历史实验保留；[26组写作前缺口](../docs/pre-gdd-design-decisions-2026-09-13.md)中DG01–03已确认；DG06／07已确定当前量、形态保留、释放覆盖与环境阶段末检查；DG08身份及继承已闭合；DG09原地替换、地面边界及补生许可／来源已闭合；DG10阶段名单与顺序已收束；继续DG04／05范围与宿主资格。
+
+
+## 2026-09-13：继续确认规则，批量采用既有推荐
+
+| ID | 已采用范围 | 状态与证据 | 来源 |
+| --- | --- | --- | --- |
+| G002-CORE-029 | BR01–09：自身／宿主范围、阵营能力、正L与过程并存、公式结构、原动作与触发、2可换槽与激活、同组最强、疲劳执行、节点保存和同场开头锁定重播 | Accepted；Hypothesis／NotRun | [合格素材](idea-materials/M-2026-09-13-pre-gdd-recommendation-batch.md)、[采纳文本](draft-changes/D-2026-09-13-pre-gdd-recommendation-batch.md) |
+| G002-SCOPE-004 | BR10–11：法术掉卡／产金首版后置，保留金币整体收益；共享词同实体、不加稀有度／隐藏调权；桌面鼠标键盘与功能信息要求 | Accepted范围；实际内容／平台发行／表现待补 | 同上 |
+| G002-DOC-002 | BR12：实际内容、渠道及完整候选参数先成套，再写GDD；补表方向不能冒充表已完成，旧测试保留原输入身份 | Accepted／Documentation | 同上；用户本轮“继续确认规则，均按推荐处理” |
+
+退出恢复另有用户明确答复“从本场开头恢复，全部锁定（推荐）”，并入BR09。IN-C和FAT-C只在BR明示范围内升级，旧候选数字不自动采纳。DG19、DG23本轮关闭，共10／26组关闭；其余组按[清单](../docs/pre-gdd-design-decisions-2026-09-13.md)补实际规格。原库保留，未创建新GDD、未改代码或运行新玩法测试。
