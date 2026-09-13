@@ -4,7 +4,7 @@
 
 当前元素流派增量：FX-003／010为r3，FX-060为r2；新增FX-063–068。其余保留原修订。简易卡池删除SC-V06点燃与SC-V07冰冻动词，但FX-003／004状态效果仍由元素机制使用，不删除效果身份。
 
-维护：2026-09-13。共123项；FX-003最新r4，FX-004／010／023／065为r3，FX-060／067／069为r2，其余为r1；本轮新增修订均为Raw推荐，历史引用保留各自状态；FX-033／034的方向已确认并晋级素材，具体组件未闭合。目录的类型信息从[逐句覆盖表](case-coverage.md)读取；效果分类与法术类型是两个维度。完整规则见[登记协议](README.md)。
+维护：2026-09-13。共134项；FX-003最新r4，FX-004／010／023／065为r3，FX-060／067／069为r2，其余为r1；本轮新增修订均为Raw推荐，历史引用保留各自状态；FX-033／034的方向已确认并晋级素材，具体组件未闭合。目录的类型信息从[逐句覆盖表](case-coverage.md)读取；效果分类与法术类型是两个维度。完整规则见[登记协议](README.md)。
 
 | ID与效果 | 行为分类 | 承载 | 设计状态 | 清晰度 |
 | --- | --- | --- | --- | --- |
@@ -178,12 +178,30 @@ FX-003／010保留r1摘要，并增加r2的BF候选分支。原SC／TC或测试�
 
 | ID与效果 | 行为类别 | 状态 |
 | --- | --- | --- |
-| [FX-115 已有同种时补层替换为邻近施加](entries/FX-115.md) | 生成分支结果替换 | Raw／r1／NotRun |
-| [FX-116 冰冻增甲结果替换为宿主伤害](entries/FX-116.md) | 状态结果替换 | Raw／r1／NotRun |
-| [FX-117 异种抵消后禁止新态与补生](entries/FX-117.md) | 状态替换分支限制 | Raw／r1／NotRun |
-| [FX-118 燃烧被清空时伤害原宿主](entries/FX-118.md) | 状态清除或消耗结束触发 | Raw／r1／NotRun |
-| [FX-119 燃烧损耗护甲为源火焰补层](entries/FX-119.md) | 伤害结果与元素补层 | Raw／r1／NotRun |
-| [FX-120 元素直接伤害损耗护甲为己增甲](entries/FX-120.md) | 伤害结果与护甲获得 | Raw／r1／NotRun |
-| [FX-121 元素关闭自动邻近施加](entries/FX-121.md) | 元素行为限制 | Raw／r1／NotRun |
-| [FX-122 法术补层触发邻近施加](entries/FX-122.md) | 数量增加事件触发 | Raw／r1／NotRun |
-| [FX-123 自然衰减改由邻近施加支付层数](entries/FX-123.md) | 生命周期消耗时点替换 | Raw／r1／NotRun |
+| [FX-115 已有同种时补层替换为邻近施加](entries/FX-115.md) | 生成分支结果替换 | E3方向已确认／Qualified／r1／NotRun |
+| [FX-116 冰冻增甲结果替换为宿主伤害](entries/FX-116.md) | 状态结果替换 | E3方向已确认／Qualified／r1／NotRun |
+| [FX-117 异种抵消后禁止新态与补生](entries/FX-117.md) | 状态替换分支限制 | E3方向已确认／Qualified／r1／NotRun |
+| [FX-118 燃烧被清空时伤害原宿主](entries/FX-118.md) | 状态清除或消耗结束触发 | E3方向已确认／Qualified／r1／NotRun |
+| [FX-119 燃烧损耗护甲为源火焰补层](entries/FX-119.md) | 伤害结果与元素补层 | E3方向已确认／Qualified／r1／NotRun |
+| [FX-120 元素直接伤害损耗护甲为己增甲](entries/FX-120.md) | 伤害结果与护甲获得 | E3方向已确认／Qualified／r1／NotRun |
+| [FX-121 元素关闭自动邻近施加](entries/FX-121.md) | 元素行为限制 | E3方向已确认／Qualified／r1／NotRun |
+| [FX-122 法术补层触发邻近施加](entries/FX-122.md) | 数量增加事件触发 | E3方向已确认／Qualified／r1／NotRun |
+| [FX-123 自然衰减改由邻近施加支付层数](entries/FX-123.md) | 生命周期消耗时点替换 | E3方向已确认／Qualified／r1／NotRun |
+
+## 当前来源状态与简易增量
+
+元素E3的30项已进入[已确认元素E3素材](../../game-design-workflow/idea-materials/M-2026-09-13-element-short-rule-card-pool.md)；使用到的各FX仅按该来源方向确认，不把全部历史变体一起采纳。[简易短规则卡池](../../game-design-workflow/idea-inbox/2026-09-13-simple-spell-short-rule-card-pool.md)为新25项Raw候选，新增如下11项，总数134。
+
+| ID与效果 | 类别 | 状态 |
+| --- | --- | --- |
+| [FX-124 破甲触发本杖完整复诵](entries/FX-124.md) | 结果触发与完整释放 | Raw／r1／NotRun |
+| [FX-125 本杖直接伤敌与己方护甲收益互换](entries/FX-125.md) | 输出结果互换 | Raw／r1／NotRun |
+| [FX-126 无护甲时直接伤敌改为自身护甲](entries/FX-126.md) | 自身条件与结果替换 | Raw／r1／NotRun |
+| [FX-127 本杖直接命中附加印记](entries/FX-127.md) | 直接伤害结果与标记 | Raw／r1／NotRun |
+| [FX-128 本杖冷却免于生命伤害打断](entries/FX-128.md) | 过程取消条件例外 | Raw／r1／NotRun |
+| [FX-129 消耗印记后下个循环跳过冷却](entries/FX-129.md) | 资源消耗触发与周期阶段替换 | Raw／r1／NotRun |
+| [FX-130 使指定当前冷却完成](entries/FX-130.md) | 过程完成操作 | Raw／r1／NotRun |
+| [FX-131 本句伤害绕过目标护甲](entries/FX-131.md) | 目标防护规则例外 | Raw／r1／NotRun |
+| [FX-132 护甲实际抵伤后反击攻击者](entries/FX-132.md) | 抵伤结果触发与直接伤害 | Raw／r1／NotRun |
+| [FX-133 本句目标筛选为已有印记敌人](entries/FX-133.md) | 目标条件筛选 | Raw／r1／NotRun |
+| [FX-134 印记引爆后保留](entries/FX-134.md) | 资源消耗条件例外 | Raw／r1／NotRun |

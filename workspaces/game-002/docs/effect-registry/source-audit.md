@@ -129,3 +129,7 @@ FX-003／010新增BF候选r2，FX-060–062为新增r1；具体关联见BF-E01�
 ## 第三期来源审查（2026-09-13当前）
 
 [第三期短规则卡池](../../game-design-workflow/idea-inbox/2026-09-13-element-spell-symbol-card-pool-03.md)记录用户最新短规则与非数值创新要求。30项当前候选，前两期78条逐项追踪；第二期实际30条，已纠正旧稿误计32。当前56份素材、35份inbox、123项FX。新增FX-115–123，其余复用旧ID，不因此恢复参数或扩大采纳范围。退出本期不等于删除历史或正式Rejected。
+
+## 本轮元素确认与简易重设计
+
+来源用户“确认，把简易法术的设计也同样简化”：元素E3的30项选择Confirmed，新增[已确认元素E3素材](../../game-design-workflow/idea-materials/M-2026-09-13-element-short-rule-card-pool.md)并同步33个FX的使用范围；数值与组合接口未过执行闸门。另新增[简易短规则卡池](../../game-design-workflow/idea-inbox/2026-09-13-simple-spell-short-rule-card-pool.md)，25项新提议Raw，旧50项完整去向可追溯。当前57份素材、36份inbox、134项FX；测试r13只记录选择与待补项，不执行。

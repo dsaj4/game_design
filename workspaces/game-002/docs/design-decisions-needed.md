@@ -1,6 +1,8 @@
 # 设计决定与后续工作
 
-最新方向：[第三期短规则重设计](../game-design-workflow/idea-inbox/2026-09-13-element-spell-symbol-card-pool-03.md)为当前候选阅读入口。30项机制卡面，完整处理前两期78条；用户要求容易理解、允许规则修改、排除复杂规则句及单纯数值改动。先筛选易懂的规则，不用额外符号隐藏复杂账目；此前存储、延期、继承方案仅保留历史。
+当前：元素E3的30项卡面与机制方向已由用户确认并进入[正式素材](../game-design-workflow/idea-materials/M-2026-09-13-element-short-rule-card-pool.md)，剩余只补具体接口与参数，不重问整版选择。按用户要求完成[简易25项短规则候选](../game-design-workflow/idea-inbox/2026-09-13-simple-spell-short-rule-card-pool.md)，新简易卡面待用户筛选；旧连发／蓄势决定保留，不默认新提议已确认。
+
+此前方向：[第三期短规则重设计](../game-design-workflow/idea-inbox/2026-09-13-element-spell-symbol-card-pool-03.md)为当前候选阅读入口。30项机制卡面，完整处理前两期78条；用户要求容易理解、允许规则修改、排除复杂规则句及单纯数值改动。先筛选易懂的规则，不用额外符号隐藏复杂账目；此前存储、延期、继承方案仅保留历史。
 
 此前请求：重新设想一期元素法术，以动词／镶嵌为机制创新点。见[第二期30项描述](../game-design-workflow/idea-inbox/2026-09-13-element-spell-mechanism-card-pool-02.md)，含18项新机制。先筛选，暂不要求回答储量与事件细节；局部例外及所有新增效果均Raw。
 

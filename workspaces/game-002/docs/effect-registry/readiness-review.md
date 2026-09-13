@@ -2,7 +2,7 @@
 
 ## 当前元素流派细化
 
-当前目录123项，新增FX-063–068；[四组机制与两项确认](../../game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md)已Qualified。简易卡池保留48项、删除直接点燃／冰冻动词；原50项初设和BF审查仍保留历史。
+当前目录134项，新增FX-063–068；[四组机制与两项确认](../../game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md)已Qualified。简易卡池保留48项、删除直接点燃／冰冻动词；原50项初设和BF审查仍保留历史。
 
 | 缺项 | 当前明确与下一步 |
 | --- | --- |
@@ -114,3 +114,7 @@
 ## 第三期短规则审查（当前）
 
 [第三期短规则卡池](../../game-design-workflow/idea-inbox/2026-09-13-element-spell-symbol-card-pool-03.md)移除简单数值卡、存储、透支、分期和继承账目，保留30项规则候选。应激的已收窄为完整法术直接给已有元素补层，不被蚀甲炉派生补层触发。卡面缩短不等于语义闭合：同类结果替换、邻近触发及应激的／空心的／自噬的／指令芯组合关系仍待选中后明确。尚未解决的组合不得宣传已可落地；若必须长规则才能解释，应进一步精简或拆除。证据NotRun，不开始测试。
+
+## 当前确认范围
+
+元素E3的30项卡面及机制方向已确认，资格见[已确认元素E3素材](../../game-design-workflow/idea-materials/M-2026-09-13-element-short-rule-card-pool.md)；此前“待选择”仅代表历史阶段。组合顺序、换算和来源合并仍需完善，不声称Ready。[简易短规则卡池](../../game-design-workflow/idea-inbox/2026-09-13-simple-spell-short-rule-card-pool.md)为25项新Raw提议，其中再施放合并、穿甲、免冷却打断、收益互换及保留印记引爆是明示局部规则建议，尚未获本轮确认。已确认的连发共享槽与本杖蓄势方向继续适用。测试交接r13／NotRun。

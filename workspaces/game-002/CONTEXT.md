@@ -4,6 +4,7 @@
 
 | 术语 | 定义 | 依据 |
 | --- | --- | --- |
+| 卡面短规则 | 使用固定对象符号，按一次转换、一个触发或一条替换表达效果；属于显示约定，不取代实体词卡与句法。“改为”只执行替换后的结果。 | [已确认元素卡面素材](game-design-workflow/idea-materials/M-2026-09-13-element-short-rule-card-pool.md) |
 | 环境转化阈值 | 随各环境单位事先设置的转化阈值；单位先经历形态阶段，处于相关释放法术作用下才最终消失变为元素，无释放则停留末阶段。具体判据另行定义。 | [元素方向EL04](game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md) |
 | 单位固有属性 | 单位自身携带的火／草／冰或无属性等身份性质，用于元素克制判断，区别于当前携带状态。 | [元素方向](game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md) |
 | 元素状态 | 单位身上可积累与消耗的元素状态；当前方向规定每单位最多一种，异种施加先抵消再替换，不限制非元素状态共存。 | [元素方向](game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md) |

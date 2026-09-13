@@ -1,10 +1,11 @@
 # game-002 原始表达与候选入口
 
-共35份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
+共36份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
 
 | 记录 | 状态 |
 | --- | --- |
-| [元素第三期短规则重设计](2026-09-13-element-spell-symbol-card-pool-03.md) | 当前Raw候选：30项，逐项处理前两期78条记录；用符号／一句话表达规则，排除简单数值卡和复杂账目，FX-115–123新增。 |
+| [简易短规则卡池](2026-09-13-simple-spell-short-rule-card-pool.md) | 当前Raw候选：25项，5名词／6动词／5形容词／9镶嵌；处理旧50项，保留已确认连发／蓄势方向，新增FX-124–134。 |
+| [元素第三期短规则重设计](2026-09-13-element-spell-symbol-card-pool-03.md) | Promoted：30项卡面与机制方向已由用户确认；正式素材已建立，参数／组合接口待补。 |
 | [元素第二期机制卡池](2026-09-13-element-spell-mechanism-card-pool-02.md) | Raw：6名词／8新动词／6形容词／10新镶嵌，共30项；机制创新优先，第一期保留。FX-097–114登记，未采纳局部例外。 |
 | [元素流派第一期创意卡池](2026-09-13-element-spell-creative-card-pool.md) | Raw：48项，8名词／10动词／14形容词／16镶嵌，每类5项优先建议；先筛创意，不做平衡，FX-072–096已登记。 |
 | [第二流派：元素法术](2026-09-12-element-spell-archetype.md) | Promoted：释放／存在／属性克制／互斥抵消方向；已确认入量只修正一次与共享层数，成型后续讨论。 |
