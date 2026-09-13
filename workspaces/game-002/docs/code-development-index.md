@@ -114,3 +114,9 @@
 | 完成证据 | [R2 验证记录](E:/Project/game-002-godogen-lab/docs/evidence/E1-r2/verification.json)：基础／墨线同几何与相机、场景保存、GPU 1080p／720p 四图、字形／边界及来源哈希检查通过 |
 | 美术观察 | 木纹、地图纸与法杖轮廓较首轮改善；塔楼正面可见。形体与材质层次仍简化，地图下缘说明略受纹理干扰，未认定达到 FLASK 参考完成度 |
 | 下一步 | 继续评议和细化当前页面；不扩展装配、选路或战斗，也不改变正式美术／玩法采纳状态 |
+
+### 同日后续：先完善右侧地图整体概念
+
+用户将下一步限定为左右分开、先做右侧地图桌面的整体效果图与设计稿，整体确认后再逐件生成组件图。已交付 [地图桌面视觉设计02](E:/Project/game-002-godogen-lab/docs/map-desk-visual-design-v02.md)和[整体概念图](E:/Project/game-002-godogen-lab/concepts/map-desk-overall-v02.png)，状态 VisualDesignDraft / 整体待确认。四类地图棋子、环境地图与红线、猫／金币宝箱／书已按清单呈现；额外杂物按用户“杂物不用清除”保留。
+
+独立仓库 codex/setup-godogen-demo / 38d0df6，本地已提交、无远端。此次只有概念图片、提示词、来源及设计文稿，运行实现保持 E1 R2 / 7b36a90；没有新 Blender、Godot 或交互验收。下一步由用户确认整体后再启动组件单图，不能把保留杂物视为整体已采纳。

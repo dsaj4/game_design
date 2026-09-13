@@ -8,6 +8,8 @@
 
 ## 独立实验项：Godogen 3D UI 风格实验
 
+当前工作转为右侧地图桌面的[整体概念与设计稿](E:/Project/game-002-godogen-lab/docs/map-desk-visual-design-v02.md)，状态 VisualDesignDraft / 整体待确认；独立仓库 codex/setup-godogen-demo / 38d0df6（本地无远端）。用户明确左右分开、先整体后组件，并要求保留额外杂物；没有授权据此启动组件单图或新模型实现。本轮没有新增测试批次，现有实机证据仍是下方 E1 R2，不能将生成图作为引擎证据。
+
 最新修订：用户要求“只做这个页面”，已完成 [E1 R2 材质与 Blender 细化](E:/Project/game-002-godogen-lab/docs/e1-r2-report.md)。实现 codex/setup-godogen-demo / 7b36a90（独立本地仓库，无远端）；三份生成参考留档，电脑插件完成屋顶网格编辑，原生 Python 补充模型与贴图，导出后确认手动修改保留。[技术验证](E:/Project/game-002-godogen-lab/docs/evidence/E1-r2/verification.json)通过，含两档 GPU 四图、中文字形／边界、A/B 几何／相机及来源哈希；状态 Executed / NeedsRevision / user review pending。当前页仍是静态风格样本，E2–E4 未运行。以下为先前各轮历史。
 
 最新进展：用户明确启动 E1，已完成[首轮原生小样与实机报告](E:/Project/game-002-godogen-lab/docs/e1-report.md)，状态 Executed / NeedsRevision。实现为 codex/setup-godogen-demo / d2fa3f0（独立本地仓库，无远端）；资产 A/B 几何与相机一致、场景保存、GPU 输出分辨率与本样本中文检查通过，风格尚未达到参考完成度。E2–E4 未启动，性能/交互/玩法不在本轮证据内；下一步仍为 E1 美术修订与用户评议。下列暂停状态保留为此前历史，不覆盖本次授权。
