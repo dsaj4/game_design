@@ -2,7 +2,9 @@
 
 维护日期：2026-09-13。当前自动校准包CAL-2026-09-13-001/r3，状态CalibratedCandidate；TH-003与TH-002历史保留。
 
-## 独立待启动项：Godogen 3D UI 风格实验
+## 独立实验项：Godogen 3D UI 风格实验
+
+最新进展：用户明确启动 E1，已完成[首轮原生小样与实机报告](E:/Project/game-002-godogen-lab/docs/e1-report.md)，状态 Executed / NeedsRevision。实现为 codex/setup-godogen-demo / d2fa3f0（独立本地仓库，无远端）；资产 A/B 几何与相机一致、场景保存、GPU 输出分辨率与本样本中文检查通过，风格尚未达到参考完成度。E2–E4 未启动，性能/交互/玩法不在本轮证据内；下一步仍为 E1 美术修订与用户评议。下列暂停状态保留为此前历史，不覆盖本次授权。
 
 同日后续：已按用户请求完成[视觉方向01](E:/Project/game-002-godogen-lab/docs/visual-direction-v01.md)与[实验计划v0.1](E:/Project/game-002-godogen-lab/docs/experiment-plan-v01.md)。E0仅为参考阅读和概念图；E1–E4均NotRun，未启动实际UI实验。下方首轮登记保留为历史；当前进入VisualDesignDraft / ImplementationDeferred，不将AI效果图当作实机或玩法证据。
 

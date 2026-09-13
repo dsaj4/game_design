@@ -87,3 +87,17 @@
 用户授权先读截图／视频／设计，再给效果图与实验计划。已交付[两屏概念效果图和来源观察](E:/Project/game-002-godogen-lab/docs/visual-direction-v01.md)、[E0–E4实验计划](E:/Project/game-002-godogen-lab/docs/experiment-plan-v01.md)。E0的参考抽看和概念图完成，状态VisualDesignDraft / AgentCandidate；E1风格小样、E2装配、E3地图、E4合屏维护均NotRun，实机制作仍Deferred。图为imagegen概念输出，不新增引擎验证证据；视频抽看片段和图内未精确呈现的拓扑限制已记录。
 
 独立工作区提交：codex/setup-godogen-demo / 3f76545，本地已提交、无远端；本轮只更新文档、来源状态与概念图，game/运行实现保持环境准备状态。
+
+### 同日后续：E1 首轮实机风格小样
+
+用户明确要求“开始启动E1”。已在独立工作区完成木框、单法杖及固定镶嵌、两纸签、地图纸与单遭遇摆件的原生小样。[E1 实机报告](E:/Project/game-002-godogen-lab/docs/e1-report.md)状态为 Executed / NeedsRevision：资产管线与本样本中文检查通过，风格仍需修订；E2–E4 保持 NotRun。
+
+| 项目 | 当前记录 |
+| --- | --- |
+| 实现归档 | codex/setup-godogen-demo / d2fa3f0，本地已提交、无远端 |
+| 完成证据 | 可编辑 Blender 源、原生生成脚本、基础/墨线同构图资产、Godot 实机 1080p/720p 各两张；[机器检查](E:/Project/game-002-godogen-lab/docs/evidence/E1/verification.json) |
+| 结果 | 场景保存完整，实际 GPU 截图尺寸与中文边界通过；墨线版已有纸边和木纹，但木框重复、法杖轮廓简单、塔楼俯视辨识偏弱 |
+| 限制 | 未验证装配、选路、战斗、整屏合并、长词条、持续帧率或发行；技术通过不代表达到参考美术完成度 |
+| 下一步 | 评议同一 E1 小样，先修轮廓、排线和光照；不据此扩展 E2 或采纳正式美术方向 |
+
+原始视觉想法仍为 Raw Idea / Unqualified；当前实现只提供独立技术实验与美术观察，不改变核心构思或 GDD。
