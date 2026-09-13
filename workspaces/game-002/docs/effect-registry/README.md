@@ -1,6 +1,8 @@
 # 效果注册与理清系统
 
-当前目录114项：[元素第二期机制卡池](../../game-design-workflow/idea-inbox/2026-09-13-element-spell-mechanism-card-pool-02.md)新增FX-097–114共18项动词／镶嵌机制；32项卡片支撑第二期，均Raw／待选择。第一期及旧版本保留，测试r12仍NotRun，不纳入可执行输入。
+当前目录123项：[第三期短规则卡池](../../game-design-workflow/idea-inbox/2026-09-13-element-spell-symbol-card-pool-03.md)为候选阅读入口，30项短规则新增FX-115–123，复用旧效果及历史版本保持独立状态。前两期78条全部记录去向，不删除历史。测试继续NotRun，未增加可执行输入。
+
+此前目录114项：[元素第二期机制卡池](../../game-design-workflow/idea-inbox/2026-09-13-element-spell-mechanism-card-pool-02.md)新增FX-097–114共18项动词／镶嵌机制；30项卡片支撑第二期，均Raw／待选择。第一期及旧版本保留，测试r12仍NotRun，不纳入可执行输入。
 
 此前目录96项（2026-09-13）：[元素流派创意卡池](../../game-design-workflow/idea-inbox/2026-09-13-element-spell-creative-card-pool.md)新增48项描述，登记FX-072–096共25个Raw效果方向，其余复用既有ID。卡池未过逐卡资格闸门，不纳入可执行测试包；此前测试r12继续NotRun。
 
@@ -18,7 +20,7 @@
 
 此前简易流派卡池按创意发散、只给描述、不做平衡与数值推进。新增[50项Raw卡池](../../game-design-workflow/idea-inbox/2026-09-12-simple-spell-creative-card-pool.md)及FX-035–059，先筛选再补规格；原34项的来源和状态保持，原32项首轮审查见下方历史记录。
 
-- [效果目录](catalog.md)：114项效果／待拆分方向，各有稳定ID和独立记录；新增简易流派FX-033／034的方向已确认，组件细则未闭合。
+- [效果目录](catalog.md)：123项效果／待拆分方向，各有稳定ID和独立记录；新增简易流派FX-033／034的方向已确认，组件细则未闭合。
 - [案例覆盖表](case-coverage.md)：26项类型案例、12项简单句情境、3项修饰词案例、2项镶嵌案例、24项EC情境，以及18词和B01–B10的去向。
 - [来源审查](source-audit.md)：本次81份现用素材／inbox Markdown的登记关系；仅按现行正文审查，历史试案继续隔离。
 - [待补边界与可落地审查](readiness-review.md)：哪些缺项阻止具体效果进入测试或实现交接。

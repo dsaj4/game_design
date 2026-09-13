@@ -1,6 +1,8 @@
 # 设计决定与后续工作
 
-最新请求：重新设想一期元素法术，以动词／镶嵌为机制创新点。见[第二期32项描述](../game-design-workflow/idea-inbox/2026-09-13-element-spell-mechanism-card-pool-02.md)，含18项新机制。先筛选，暂不要求回答储量与事件细节；局部例外及所有新增效果均Raw。
+最新方向：[第三期短规则重设计](../game-design-workflow/idea-inbox/2026-09-13-element-spell-symbol-card-pool-03.md)为当前候选阅读入口。30项机制卡面，完整处理前两期78条；用户要求容易理解、允许规则修改、排除复杂规则句及单纯数值改动。先筛选易懂的规则，不用额外符号隐藏复杂账目；此前存储、延期、继承方案仅保留历史。
+
+此前请求：重新设想一期元素法术，以动词／镶嵌为机制创新点。见[第二期30项描述](../game-design-workflow/idea-inbox/2026-09-13-element-spell-mechanism-card-pool-02.md)，含18项新机制。先筛选，暂不要求回答储量与事件细节；局部例外及所有新增效果均Raw。
 
 此前2026-09-13进入[第二流派48项创意卡池](../game-design-workflow/idea-inbox/2026-09-13-element-spell-creative-card-pool.md)：先筛选名词、动词、形容词和镶嵌，不开展数值与成型。新增方向均Raw，冰冻增甲与消耗护甲命名沿已确认方向。以下机制缺项保留，不要求在创意发散前逐项回答。
 
