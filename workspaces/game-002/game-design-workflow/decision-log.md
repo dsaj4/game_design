@@ -138,3 +138,11 @@ NF-D01的方向已确定为疲劳；不采用“到验收截止即直接失败�
 | G002-BF-001 | 2026-09-12 | 用户要求第一人称2×5、敌人居中、地面／环境物性、生成物占位及火焰导致树草燃烧／烧焦；明确树草不继续传播 | 用户方向与单项确认；完整规则Draft Change，未改核心 | [素材](idea-materials/M-2026-09-12-first-person-grid-battlefield.md)、[GDD](gdd/GDD-2026-09-12-first-person-grid-battlefield.md)、[拟修改](draft-changes/D-2026-09-12-first-person-grid-battlefield.md) |
 
 BF-C01–15为本次补全的推荐方案，未将用户对单层传播的回答扩为全部采纳。局部范围变化已列具体替换文本；原正式基线与Parked内容保持。新增FX-060–062、FX-003／010 r2候选，测试交接r9仅积累。
+
+## 2026-09-13：每刻末状态与自然衰减裁决
+
+| ID | 决定 | 状态与证据 | 来源 |
+| --- | --- | --- | --- |
+| G002-CORE-018 | 燃烧伤害／冰冻增甲每刻末处理；固定先燃烧后冰冻、同类公开单位顺序；自然衰减保留小数进度累计扣层；允许空心＋自噬长期储层 | Accepted：用户裁决及授权固定先后的落实方案；Hypothesis，新规则NotRun，旧CAL不外推 | [原话](idea-inbox/2026-09-13-end-tick-status-rulings.md)、[素材](idea-materials/M-2026-09-13-end-tick-status-rulings.md)、[提案](idea-proposals/P-2026-09-13-end-tick-status-rulings.md)、[评估](evaluations/E-2026-09-13-end-tick-status-rulings.md)、[采纳文本](draft-changes/D-2026-09-13-end-tick-status-rulings.md) |
+
+ST01–04明确首次生效、阶段内新状态延后、效果后衰减、清空重置进度及终局停止。其他状态不自动改为每刻周期；主动消耗、异种抵消和跨战边界保持。环境转化进度继承、每刻效果量与其余元素接口未定。本轮未改代码、未测试或采纳新参数。

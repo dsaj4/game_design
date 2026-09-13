@@ -1,5 +1,9 @@
 # game-002 代码开发进度
 
+## 2026-09-13 最新设计变更尚未实现
+
+[G002-CORE-018 / ST01–04](../game-design-workflow/idea-materials/M-2026-09-13-end-tick-status-rulings.md)已采纳每刻末状态、固定排序、自然衰减累计小数和允许空心＋自噬储层。现有TH-003／CAL引擎与候选仍对应旧周期／取整输入；本轮只改设计文档，没有修改代码或demo，新规则实现与测试NotRun。下一步按[交接](test-handoff.md)冻结新输入后再登记实现版本。
+
 日期：2026-09-13。设计依据：[Core Concept v0.6](../game-design-workflow/core-concept.md)。
 
 | 里程碑 | 设计来源 | 状态与证据 | 阻塞与下一步 |

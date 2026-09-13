@@ -1,5 +1,7 @@
 # 元素第三期短规则卡池：已确认内容方向
 
+2026-09-13后续：[ST01–04](M-2026-09-13-end-tick-status-rulings.md)已采纳。E3-N03／04改为每刻末伤害／增甲，E3-A03＋A06允许长期储层，自然衰减累计小数；其他卡面选择保持。TH-003／CAL只覆盖旧输入的子集，新规则NotRun，不以原文历史NotRun概括已完成实验。
+
 状态：Qualified GDD Material。用户选择：Confirmed（30项卡面、机制方向与明确局部例外）；证据Hypothesis。尚未完成参数、全部组合规格或测试，不标为Core Accepted。
 
 ## 素材控制

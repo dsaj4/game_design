@@ -19,3 +19,5 @@
 - [修饰词系统](E-2026-09-11-modifier-card-system.md)：推荐推进：模型清楚，数值与镶嵌未完成；无新测试
 
 - [法杖镶嵌系统](E-2026-09-12-wand-inlay-system.md)：推荐推进；未测试。
+
+- [每刻末状态与自然衰减](E-2026-09-13-end-tick-status-rulings.md)：G002-CORE-018已采纳，固定顺序、累计扣层与允许储层；新规则NotRun。

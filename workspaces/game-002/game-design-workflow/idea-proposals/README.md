@@ -19,3 +19,5 @@
 - [修饰词系统](P-2026-09-11-modifier-card-system.md)：Accepted：G002-CORE-016基础模型；效果与体验待设计／验证
 
 - [法杖镶嵌系统](P-2026-09-12-wand-inlay-system.md)：模型Accepted／补充Candidate。
+
+- [每刻末状态与自然衰减](P-2026-09-13-end-tick-status-rulings.md)：G002-CORE-018已采纳，固定顺序、累计扣层与允许储层；新规则NotRun。

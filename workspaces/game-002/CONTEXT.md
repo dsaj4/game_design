@@ -39,8 +39,8 @@
 | 状态引用 | 配置对应词卡后操作战场状态的语义权限；引用本身不自动消耗状态。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-battle-state-persistence.md) |
 | 护甲 | 按数量累积的防护状态，普通伤害先等量消耗护甲，溢出扣生命；无自然到期与自动周期。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-armor-identity-generation-and-persistence.md) |
 | 状态重施 | 同目标同种合并，可累积数量相加、有限剩余时长相加，保留原周期和排序位置。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-status-reapplication-and-stacking.md) |
-| 状态周期 | 自生效起经过完整正周期后首次触发，随后按周期推进；每次开始读取当前量。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-status-timing-and-expiration.md) |
-| 状态内部顺序 | 按首次生效、产生效果先后及效果固定顺序逐状态处理，周期和到期后分别检查。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-status-values-and-resolution-order.md) |
+| 状态周期 | 普通状态沿明示周期；燃烧／冰冻每刻末处理，阶段前生效可本刻首次触发，每次读取当前量。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-status-timing-and-expiration.md) |
+| 状态内部顺序 | 按预设状态类型顺序处理，当前先燃烧后冰冻；同类按公开单位顺序，逐完整事件检查。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-status-values-and-resolution-order.md) |
 | 源方修正 | 实际执行者自身适用的强度修正，每次法术开始结算时读取；不自动共享到其他单位。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-spell-effect-sources-and-modifiers.md) |
 | 周期强化继承 | 适用增幅先计入新增状态量，周期使用当前合并量，不重复应用这份增幅。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-07-periodic-state-modifier-inheritance.md) |
 | 召唤种类词与单位身份 | 种类词表达一类单位，身份引用只指具体单位；当前不新增专属引用词卡，战前占位的具体机制后置。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-06-summon-unit-and-reference.md) |
@@ -166,3 +166,13 @@ _避免_：依据测试结果事后剔除失败或残血样本。
 | 邻近脉冲 | 火焰的明示后续环境作用；候选为本格地面及正交邻格，树草不派生同类作用 |
 
 当前动作名称：消耗护甲（原名“吞噬护甲”）。2026-09-13用户要求仅改名，原消耗护甲转执行元素层数的推荐效果保持不变，具体规格以FX-023及来源素材为准。
+
+## 每刻末状态与衰减
+
+**刻末状态阶段**：法术、敌攻、环境之后处理状态的阶段；燃烧先于冰冻，同类按公开单位顺序。本阶段新建状态下刻处理。
+
+**自然衰减进度**：当前状态尚未足整层的衰减余量；累积满整层才扣层，同种补层不清零，状态完全消失后新建从零开始。
+
+**长期储层**：空心＋自噬关闭自动邻近作用及时间自然衰减而保留元素；仍可主动消耗、异种抵消、归零消散并受战斗结束约束。
+
+依据：[ST01–04](game-design-workflow/idea-materials/M-2026-09-13-end-tick-status-rulings.md)。
