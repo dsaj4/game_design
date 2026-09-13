@@ -1,17 +1,19 @@
 # game-002 项目总控
 
-日期：2026-09-12。状态：Active / Stable Design Baseline。Core Concept v0.6；对象范围G002-CORE-011，类型系统G002-CORE-012、013。证据Hypothesis。
+日期：2026-09-13。状态：Active / Stable Design Baseline。正式核心Core Concept v0.6，完整玩法证据Hypothesis。当前进入两流派内容收束与局部数值验证。
+
+完整盘点：[测试后构思系统全体状况](design-system-status-2026-09-13.md)。
 
 | 范围 | 当前结论 | 入口 |
 | --- | --- | --- |
-| 基础法术 | 战前构句、循环与法杖、引用/名单、时序、成功和收益规则继续有效 | [核心](../game-design-workflow/core-concept.md) |
-| 超时机制 | 疲劳方向已采纳：双方扣血且法术禁疗；细则与数值候选 | [疲劳素材](../game-design-workflow/idea-materials/M-2026-09-11-overtime-fatigue.md) |
-| 当前工作 | 第一人称2×5战场GDD-1草案；树草不二次传播已确认，BF-C细则Draft Change。效果目录69项；简易48项候选保留，当前细化元素流派机制 | [战场入口](battlefield-and-environment.md)、[效果登记](effect-registry/README.md) |
-| 首批分类 | 18词：10动词；名词为3元素、2状态、3一般对象。26项例句已逐项归类 | [分类素材](../game-design-workflow/idea-materials/M-2026-09-11-spell-type-system.md) |
-| 当前搁置 | 上一批具体词效、参数及逐刻方案；原定保护、反弹和转移细则推进 | [内容状态](semantic-world-content-index.md) |
-| 现有范围 | 简单对象变化、真实生成物与对象掉卡；位移、结构、材料加工、完整召唤等按范围后置 | [决定与后续工作](design-decisions-needed.md) |
-| 素材状态 | 56份合格素材，32份inbox记录；分类采纳不提升被搁置词效的状态 | [素材](../game-design-workflow/idea-materials/README.md) |
-| 测试交接 | 用户要求积累到下次合批；当前Draft／NotRun，不自动执行 | [固定交接入口](test-handoff.md) |
-| 验证 | TH-001限定独立计算与demo事件一致性已通过；新框架待审查，玩家与整局平衡未验证 | [开发索引](code-development-index.md) |
+| 基础规则 | 构句、循环、引用／名单、时序、攻防、收益与四类特征已形成基线；修饰词和固定镶嵌基础已采纳 | [核心](../game-design-workflow/core-concept.md) |
+| 两流派 | 简易方向Qualified，S2新版25项Raw；元素E3的30项卡面／机制方向已确认、Qualified，参数与组合待补 | [设计决定](design-decisions-needed.md) |
+| 战场 | 第一人称2×5和树草不二次传播已确认；整包GDD-1／BF-C仍Draft Change | [战场入口](battlefield-and-environment.md) |
+| 库存 | 57份合格素材、37份inbox、134项效果；10提案、10评估、19拟修改、1份GDD，含历史而非全为待办 | [全体盘点](design-system-status-2026-09-13.md) |
+| 数值测试 | TH-003完成29,404场；CAL三轮975,659场，r3找到通过限定验证的候选 | [测试交接](test-handoff.md) |
+| 验证边界 | 新参数未采纳、未注册demo；全卡池、完整战场、真实经济与玩家体验未验收 | [CAL报告](test-reports/CAL-2026-09-13-001-r3-run-01.md) |
+| 当前优先 | 冰冻给甲时点、小数衰减、空心＋自噬；随后收束内容／战场并定义压力和防御成本目标 | [全体盘点](design-system-status-2026-09-13.md) |
+| 实现与美术 | 旧攻防demo、独立数值模型、3D E1 R2实验分别登记；3D小样NeedsRevision，E2–E4未运行 | [开发索引](code-development-index.md) |
+| 继续后置 | 完整召唤／指挥、位移／结构、材料加工、复杂传播；草状态／法术本阶段后置 | [范围与待办](design-decisions-needed.md) |
 
-当前以效果登记集中理清案例与特效；修饰词与镶嵌按实际依赖补齐后按可扩展的已采纳类型交叉索引设计卡牌与流派，一条规则只维护一份。未指定类型时先整理简易类，涉及状态、元素或召唤名词时同时列出相关类型。
+后续测试按选定规则另立固定输入；本轮完成盘点，不启动新实验。历史暂缓措辞仅表示当时状态，不覆盖已完成的TH-003与CAL。

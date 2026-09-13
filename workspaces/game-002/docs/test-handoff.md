@@ -2,6 +2,10 @@
 
 维护日期：2026-09-13。当前自动校准包CAL-2026-09-13-001/r3，状态CalibratedCandidate；TH-003与TH-002历史保留。
 
+## 测试后盘点
+
+用户已说明本轮测试结束；[构思系统全体状况](design-system-status-2026-09-13.md)汇总本页已有证据与待决规则，不改变批次结果或参数状态，不启动新测试。当前优先收束规则与内容，再定义压力／防御成本目标。
+
 ## 独立实验项：Godogen 3D UI 风格实验
 
 最新修订：用户要求“只做这个页面”，已完成 [E1 R2 材质与 Blender 细化](E:/Project/game-002-godogen-lab/docs/e1-r2-report.md)。实现 codex/setup-godogen-demo / 7b36a90（独立本地仓库，无远端）；三份生成参考留档，电脑插件完成屋顶网格编辑，原生 Python 补充模型与贴图，导出后确认手动修改保留。[技术验证](E:/Project/game-002-godogen-lab/docs/evidence/E1-r2/verification.json)通过，含两档 GPU 四图、中文字形／边界、A/B 几何／相机及来源哈希；状态 Executed / NeedsRevision / user review pending。当前页仍是静态风格样本，E2–E4 未运行。以下为先前各轮历史。
