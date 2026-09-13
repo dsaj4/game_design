@@ -31,3 +31,5 @@
 ## 2026-09-13 外部技术选型调研
 
 用户要求调研Astra游戏开发案例，并明确目标为持续开发可发布的独立游戏。[案例与选型研究](../research/03-product-case-studies/2026-09-13-astra-game-development-stack.md)推荐Godot、带类型标注的GDScript与Blender，状态为Research / Recommendation / Proposed。尚未确定为本项目技术栈，未审查或迁移既有代码，未运行游戏测试；现有实现里程碑保持原状态。下一步在启动实现时结合首发平台、目标设备与既有代码审查决定是否采用。
+
+同日补充[生成工作流与Blender MCP比较](../research/03-product-case-studies/2026-09-13-godot-blender-workflow-comparison.md)：推荐原生Godot主项目、Blender脚本生产与单一Blender MCP交互桥接；Godogen／GodotMaker用于独立实验或方法参考。状态仍为Research / Recommendation，未安装、运行或采纳工具链。

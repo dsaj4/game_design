@@ -2,6 +2,8 @@
 
 日期：2026-09-13。状态：Research / Technology Recommendation；未采纳为项目技术决策。
 
+后续补充：[Godogen、GodotMaker与Blender MCP比较及推荐组合](2026-09-13-godot-blender-workflow-comparison.md)。
+
 用户原始请求：“调研一下网络上使用astra开发游戏的实例，推荐一个最好的技术栈”。随后明确目标：“持续开发可发布的独立游戏”。本文中的 Astra 指 GPT-6 Astra。
 
 按默认工作区 game-002 保存研究。本文只形成外部案例比较与选型建议，不改变核心构思、素材资格、发行平台或既有实现状态。公开页面与作者报告已查阅；本轮没有下载、运行或独立复现案例。案例不能作为 Astra 与其他模型、或不同引擎之间的受控性能排名。
