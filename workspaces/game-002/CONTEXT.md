@@ -9,10 +9,11 @@
 | 一层触发 | 原完整事件及胜负检查后即时处理其触发，触发结果不再触发其他特效；基础结算照常。 | [RC06](game-design-workflow/idea-materials/M-2026-09-13-card-pool-rule-rulings.md) |
 | 合法元素出生格 | 无同种时，范围内所选首个敌人的正交相邻、法杖允许且可生成的空格；其他位置空着不代替该资格。 | [G002-CORE-021](game-design-workflow/idea-materials/M-2026-09-13-first-release-content-scope.md) |
 | 卡面短规则 | 使用固定对象符号，按一次转换、一个触发或一条替换表达效果；属于显示约定，不取代实体词卡与句法。“改为”只执行替换后的结果。 | [已确认元素卡面素材](game-design-workflow/idea-materials/M-2026-09-13-element-short-rule-card-pool.md) |
-| 环境转化阈值 | 随各环境单位事先设置的转化阈值；单位先经历形态阶段，处于相关释放法术作用下才最终消失变为元素，无释放则停留末阶段。具体判据另行定义。 | [元素方向EL04](game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md) |
+| 环境转化阈值 | 各环境单位预设的当前对应状态层数门槛；不累计历史施加量。已达形态不自动回退，环境阶段末结合对应持续释放覆盖判断推进与转化。 | [元素方向EL04](game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md) |
 | 单位固有属性 | 单位自身携带的火／草／冰或无属性等身份性质，用于元素克制判断，区别于当前携带状态。 | [元素方向](game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md) |
 | 元素状态 | 单位身上可积累与消耗的元素状态；当前方向规定每单位最多一种，异种施加先抵消再替换，不限制非元素状态共存。 | [元素方向](game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md) |
 | 元素共享层数 | 元素本体与它携带的对应状态共用的一份层数；归零时元素消失，环境转化为元素时继承对应状态层数。 | [元素方向](game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md) |
+| 环境转化 | 旧环境结束并产生新元素身份的变化；对应状态层数带入新元素，旧实例引用不随之转移。 | [G002-CORE-024](game-design-workflow/idea-materials/M-2026-09-13-first-release-content-scope.md) |
 | 战前构句 | 从完整战外库存分配实体词卡，依据词性、句式和语义形成完整法术；配置不推进战斗时间。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-grammar-and-semantic-compatibility.md) |
 | 战外词卡库存 | 本局战斗外持有的普通词卡集合，供每场战前配置；同名普通词最多三张。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-word-inventory-and-copies.md) |
 | 实体词卡分配 | 一张实体卡在本次配置中只归属一条法术且占一个位置；同名重复需要对应副本。 | [对应素材](game-design-workflow/idea-materials/M-2026-09-05-word-inventory-and-copies.md) |
@@ -166,7 +167,7 @@ _避免_：依据测试结果事后剔除失败或残血样本。
 | 格子地面 | 具有独立地表属性与状态的格子对象；无占位物时仍存在 |
 | 环境占位体 | 树、石块等占格物体；不自动拥有战斗单位生命或自主攻击 |
 | 点燃／燃烧 | 点燃为动作；燃烧为宿主数量状态，不新增同义“点燃状态” |
-| 燃烧形态／烧焦形态 | 环境对象依自身阈值改变的形态与资格，不等于换身份 |
+| 燃烧形态／烧焦形态 | 环境对象依自身阈值改变并保留的形态；阶段变化本身不更换身份，最终转为元素才结束旧环境身份 |
 | 邻近脉冲 | 火焰的明示后续环境作用；候选为本格地面及正交邻格，树草不派生同类作用 |
 
 当前动作名称：消耗护甲（原名“吞噬护甲”）。2026-09-13用户要求仅改名，原消耗护甲转执行元素层数的推荐效果保持不变，具体规格以FX-023及来源素材为准。

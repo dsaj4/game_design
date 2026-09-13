@@ -157,5 +157,6 @@ ST01–04明确首次生效、阶段内新状态延后、效果后衰减、清�
 | G002-CORE-021 | 无同种时只在范围内首个存活敌人的正交相邻合法空格生成；无此类格回退，即使其他格空着；同种仍优先补层 | Accepted；Hypothesis | 同上；用户“只在所选敌人旁生成（推荐）” |
 | G002-CORE-022 | 各环境形态阶段与最终转化阈值均按当前对应元素状态层数判断，不累计历史施加量；已达到形态只前进、不自动回退 | Accepted；Hypothesis／NotRun | [用户选择](idea-inbox/2026-09-13-full-game-gdd-preparation.md)、[确认素材](idea-materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](draft-changes/D-2026-09-13-card-pool-rule-rulings.md) |
 | G002-CORE-023 | 对应法术正在持续释放且范围覆盖即提供环境转化条件；环境阶段末统一检查形态与转化，释放最后一刻有效，本次转化新元素下一刻自动作用 | Accepted；Hypothesis／NotRun | [用户选择](idea-inbox/2026-09-13-full-game-gdd-preparation.md)、[确认素材](idea-materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](draft-changes/D-2026-09-13-card-pool-rule-rulings.md) |
+| G002-CORE-024 | 环境转化产生新元素身份并继承当前对应层数；旧实例绑定与当次名单不自动转向新元素，后续条件选取仍可选新元素 | Accepted；Hypothesis／NotRun | [用户确认](idea-inbox/2026-09-13-full-game-gdd-preparation.md)、[素材](idea-materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](draft-changes/D-2026-09-13-card-pool-rule-rulings.md) |
 
-本轮未创建新GDD、未改代码或启动测试。原始库与历史实验保留；[26组写作前缺口](../docs/pre-gdd-design-decisions-2026-09-13.md)中DG01–03已确认；DG06／07已确定当前量、形态保留、释放覆盖与环境阶段末检查；其余按依赖继续裁决。
+本轮未创建新GDD、未改代码或启动测试。原始库与历史实验保留；[26组写作前缺口](../docs/pre-gdd-design-decisions-2026-09-13.md)中DG01–03已确认；DG06／07已确定当前量、形态保留、释放覆盖与环境阶段末检查；DG08已确认转化产生新身份，剩余来源／特性／进度继续裁决。
