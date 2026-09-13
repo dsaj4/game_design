@@ -1,13 +1,16 @@
 # game-002 正式素材索引
 
-最新：[BR01–12批量规则](M-2026-09-13-pre-gdd-recommendation-batch.md)；Qualified／Accepted；CORE-029、SCOPE-004、DOC-002，实际内容待补。
+最新：[HG01宿主资格](M-2026-09-14-element-status-host-eligibility.md)已采纳，G002-CORE-030；其余本轮推荐仍独立待审。
 
-当前共61份合格素材；新增[RC已采纳规则](M-2026-09-13-card-pool-rule-rulings.md)与[首版范围／S2／空间](M-2026-09-13-first-release-content-scope.md)。GDD写作暂停，先按DG清单裁决。
+此前：[BR01–12批量规则](M-2026-09-13-pre-gdd-recommendation-batch.md)；Qualified／Accepted；CORE-029、SCOPE-004、DOC-002，实际内容待补。
+
+当前共62份合格素材；新增[RC已采纳规则](M-2026-09-13-card-pool-rule-rulings.md)与[首版范围／S2／空间](M-2026-09-13-first-release-content-scope.md)。GDD写作暂停，先按DG清单裁决。
 
 共58份Qualified GDD Material；证据Hypothesis。可引用资格不等于完整系统已验证，具体范围以素材正文及[决定清单](../../docs/design-decisions-needed.md)为准。核心统一为[Core Concept v0.6](../core-concept.md)，C01–C08已处理，引用与执行骨架保留，SW01及R01–R32当前操作范围按G002-CORE-011简化；四类法术特征与多类型按G002-CORE-012，后续按类型讨论。
 
 | 素材 | 明确范围 | 处理状态与后续验证 |
 | --- | --- | --- |
+| [火冰状态宿主资格](M-2026-09-14-element-status-host-eligibility.md) | 玩家／敌人、树木、草地、石地与元素的状态接受及结果能力 | Qualified／Accepted；Hypothesis／NotRun，阈值另定 |
 | [状态刻末与衰减裁决](M-2026-09-13-end-tick-status-rulings.md) | ST01–04：每刻末、固定顺序、小数累计、允许储层 | G002-CORE-018已采纳；新规则Hypothesis／NotRun |
 | [元素第三期短规则卡池](M-2026-09-13-element-short-rule-card-pool.md) | 30项卡面与机制方向、明示局部例外与符号读法 | 用户选择Confirmed／资格Qualified；参数与组合接口未闭合，Hypothesis／NotRun |
 | [元素流派：释放、存在与状态替换](M-2026-09-12-element-spell-archetype.md) | 同种叠层、满位回退、共享层数归零消散、环境转化继承、固有属性克制与单元素状态抵消 | Qualified方向；执行边界待定，Hypothesis；成型后续讨论 |

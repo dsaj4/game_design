@@ -175,3 +175,11 @@ ST01–04明确首次生效、阶段内新状态延后、效果后衰减、清�
 | G002-DOC-002 | BR12：实际内容、渠道及完整候选参数先成套，再写GDD；补表方向不能冒充表已完成，旧测试保留原输入身份 | Accepted／Documentation | 同上；用户本轮“继续确认规则，均按推荐处理” |
 
 退出恢复另有用户明确答复“从本场开头恢复，全部锁定（推荐）”，并入BR09。IN-C和FAT-C只在BR明示范围内升级，旧候选数字不自动采纳。DG19、DG23本轮关闭，共10／26组关闭；其余组按[清单](../docs/pre-gdd-design-decisions-2026-09-13.md)补实际规格。原库保留，未创建新GDD、未改代码或运行新玩法测试。
+
+## 2026-09-14：火冰宿主资格
+
+| ID | 已采用范围 | 状态与证据 | 来源 |
+| --- | --- | --- | --- |
+| G002-CORE-030 | HG01：玩家／敌人承载并兑现火冰攻防；树木／草地可持层参与形态、抵消与汲取但无生命／护甲；石地不接受；元素保持共享层数与抵消规则 | Accepted；Hypothesis／NotRun | [用户确认](idea-inbox/2026-09-14-host-range-starting-content.md)、[合格素材](idea-materials/M-2026-09-14-element-status-host-eligibility.md)、[采纳文本](draft-changes/D-2026-09-14-element-status-host-eligibility.md) |
+
+HG02／WG01／SG01为待审阵营、实际范围与起始资源推荐；[CG逐卡接口](idea-inbox/2026-09-14-card-interface-completion.md)亦待审。HG01不代表这些新选择或全部DG05已经确定。当前仍10／26组关闭，继续实际内容及参数补齐。

@@ -1,6 +1,6 @@
 # 效果可落地审查与待补边界
 
-当前结论（2026-09-13）：[RC01–12](../../game-design-workflow/idea-materials/M-2026-09-13-card-pool-rule-rulings.md)已采纳；S2全部25项已选用，E3全部30项保持确认。K01–K12共同机制选择不再待决；空间、出生已另按DG02／03确认。未关闭的对象资格、转化、公式、装配与全局输入见[写作前清单](../pre-gdd-design-decisions-2026-09-13.md)。新规则NotRun。
+当前结论（2026-09-14）：HG01宿主资格已补齐并采纳，见[素材](../../game-design-workflow/idea-materials/M-2026-09-14-element-status-host-eligibility.md)；ST／RC／BR保持。55项设计已形成[53实体接口推荐](../../game-design-workflow/idea-inbox/2026-09-14-card-interface-completion.md)，逐项列角色、配对、反例与事件组，但新接口待选择，不等于已经闭合。实际阵营表、范围、初始资源、参数和遭遇继续按[DG清单](../pre-gdd-design-decisions-2026-09-13.md)追踪。新规则NotRun。
 
 ## 以下为RC确认前的审查记录
 

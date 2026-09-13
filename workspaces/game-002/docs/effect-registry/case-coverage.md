@@ -1,5 +1,15 @@
 # 效果与案例覆盖
 
+## 2026-09-14 HG01宿主资格
+
+| 来源 | 正常／边界情境 | 效果关系与证据 |
+| --- | --- | --- |
+| [HG01](../../game-design-workflow/idea-materials/M-2026-09-14-element-status-host-eligibility.md) | 玩家／敌人接受燃烧和冰冻，分别产生伤害／护甲 | FX-003/r8、FX-004/r7；Accepted／NotRun |
+| HG01 | 草地／树木可持火冰层数并被合法汲取，但无生命／护甲；草地不转占位元素 | FX-003/r8、004/r7、065/r8；仅资格采纳，阈值另定 |
+| HG01 | 普通石地不持火冰；火冰本体维持共享层数，不结算自身攻防 | 同上；不新增效果ID |
+
+新[CG逐卡推荐](../../game-design-workflow/idea-inbox/2026-09-14-card-interface-completion.md)为待审接口覆盖，不能视为运行或验证覆盖。
+
 ## 环境转化与条件补生补充
 
 | 来源ID | 当前情境 | 关系与状态 |

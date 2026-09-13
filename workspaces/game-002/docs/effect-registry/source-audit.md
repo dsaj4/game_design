@@ -1,5 +1,9 @@
 # 效果来源审查记录
 
+## 2026-09-14 宿主资格与新内容推荐
+
+用户采用[HG01资格表](../../game-design-workflow/idea-inbox/2026-09-14-host-range-starting-content.md)，仅该部分晋级[正式素材](../../game-design-workflow/idea-materials/M-2026-09-14-element-status-host-eligibility.md)并按CORE-030采纳。FX-003/r8、004/r7、065/r8已同步；共134个效果ID。HG02／WG01／SG01与[CG完整接口](../../game-design-workflow/idea-inbox/2026-09-14-card-interface-completion.md)仍为Raw推荐，原始选择范围不扩大。素材62份、inbox43份；无新GDD与新玩法测试。
+
 本轮沿同一[元素来源](../../game-design-workflow/idea-inbox/2026-09-12-element-spell-archetype.md)追加用户原话，并更新原[素材](../../game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md)；不增加素材／inbox数量。本次追加第四项原话，FX-065为r3、FX-067／069为r2，环境转化与元素补生须有相关释放作用；草仅保留单位克制。
 
 ## 元素流派来源增量
