@@ -161,5 +161,6 @@ ST01–04明确首次生效、阶段内新状态延后、效果后衰减、清�
 | G002-CORE-025 | 环境转化归对应持续释放覆盖法杖，多杖后置优先；采用其生成特性及新元素固有属性，继承当前层数与小数衰减进度，不复制旧无关资源 | Accepted；Hypothesis／NotRun | [本轮确认](idea-inbox/2026-09-13-full-game-gdd-preparation.md)、[素材](idea-materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](draft-changes/D-2026-09-13-card-pool-rule-rulings.md) |
 | G002-CORE-026 | 两种转化原地生成新元素，允许范围多同种；普通释放仍同种优先；仅合格环境占位物可转化，地面保留身份 | Accepted；Hypothesis／NotRun | 同上；两次原地替换与地面边界选择 |
 | G002-CORE-027 | 异种补生采用对应持续释放覆盖与后置来源，合法邻近抵消亦可触发；正余量原地补生不重复加成，新状态衰减进度从零 | Accepted；Hypothesis／NotRun | [本轮选择](idea-inbox/2026-09-13-full-game-gdd-preparation.md)、[素材](idea-materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](draft-changes/D-2026-09-13-card-pool-rule-rulings.md) |
+| G002-CORE-028 | 环境阶段开始固定自动元素身份名单，失效跳过、中途新生下刻；转化检查沿R08公开顺序，状态资格独立沿ST02，旧身份名额不转移 | Accepted；Hypothesis／NotRun | [用户确认](idea-inbox/2026-09-13-full-game-gdd-preparation.md)、[素材](idea-materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](draft-changes/D-2026-09-13-card-pool-rule-rulings.md) |
 
-本轮未创建新GDD、未改代码或启动测试。原始库与历史实验保留；[26组写作前缺口](../docs/pre-gdd-design-decisions-2026-09-13.md)中DG01–03已确认；DG06／07已确定当前量、形态保留、释放覆盖与环境阶段末检查；DG08身份及继承已闭合；DG09原地替换、地面边界及补生许可／来源已闭合；继续DG10其余阶段名单与顺序。
+本轮未创建新GDD、未改代码或启动测试。原始库与历史实验保留；[26组写作前缺口](../docs/pre-gdd-design-decisions-2026-09-13.md)中DG01–03已确认；DG06／07已确定当前量、形态保留、释放覆盖与环境阶段末检查；DG08身份及继承已闭合；DG09原地替换、地面边界及补生许可／来源已闭合；DG10阶段名单与顺序已收束；继续DG04／05范围与宿主资格。

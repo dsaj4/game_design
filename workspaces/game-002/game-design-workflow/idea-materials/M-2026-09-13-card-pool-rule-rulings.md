@@ -190,3 +190,7 @@
 | 日期 | 目标 | 处理 |
 | --- | --- | --- |
 | 2026-09-13 | [提案](../idea-proposals/P-2026-09-13-card-pool-rule-rulings.md)、[评估](../evaluations/E-2026-09-13-card-pool-rule-rulings.md)、[采纳文本](../draft-changes/D-2026-09-13-card-pool-rule-rulings.md) | RC01–12已采纳；未写新GDD |
+
+## 后续细化：环境阶段（RC07）
+
+G002-CORE-028已确认环境阶段开始固定自动元素身份名单，期间新生等下刻，旧身份失效跳过；转化检查及刻末状态衔接见[当前阶段素材](M-2026-09-13-first-release-content-scope.md)。R08公开对象顺序及ST02独立状态名单继续适用，自动作用延后不额外冻结状态衰减。RC01–12其他已采纳条款保持。
