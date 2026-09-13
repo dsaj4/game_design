@@ -124,3 +124,11 @@
 用户将下一步限定为左右分开、先做右侧地图桌面的整体效果图与设计稿，整体确认后再逐件生成组件图。已交付 [地图桌面视觉设计02](E:/Project/game-002-godogen-lab/docs/map-desk-visual-design-v02.md)和[整体概念图](E:/Project/game-002-godogen-lab/concepts/map-desk-overall-v02.png)，状态 VisualDesignDraft / 整体待确认。四类地图棋子、环境地图与红线、猫／金币宝箱／书已按清单呈现；额外杂物按用户“杂物不用清除”保留。
 
 独立仓库 codex/setup-godogen-demo / 38d0df6，本地已提交、无远端。此次只有概念图片、提示词、来源及设计文稿，运行实现保持 E1 R2 / 7b36a90；没有新 Blender、Godot 或交互验收。下一步由用户确认整体后再启动组件单图，不能把保留杂物视为整体已采纳。
+
+### 同日后续：整体确认与十张 Blender 组件设计稿
+
+用户明确“确认，开始生成，每张图做成blender设计稿”。整体美术方向据此进入 OverallDirectionConfirmed，已交付[十张组件图册](E:/Project/game-002-godogen-lab/concepts/blender-sheets-v01/index.md)与[中文建模说明](E:/Project/game-002-godogen-lab/docs/blender-component-design-v01.md)，组件状态 ComponentDesignDraft。内容涵盖桌面及保留杂物、环境地图、红线、法师木雕、篝火、水晶球、地点建筑、金币宝箱、猫和旧书。
+
+独立仓库 codex/setup-godogen-demo / 78b77d1（内容提交4b98aca，本地已提交、无远端）。10张选用图均1536×1024，地图和红线各修订一次；共12张原图与12份提示词、来源SHA留档。已检查原图复制哈希和66处文稿链接；生成视图的局部透视／方位偏差及尺寸建议记入建模说明。
+
+本轮完成的是建模参考图，不是新.blend模型或运行贴图；实际实现继续为E1 R2 / 7b36a90，无新增引擎、交互或玩法验收。后续制作建议先搭桌面／纸面／红线与相机，再以法师木雕校准风格；本次美术确认不替代原始玩法想法的资格确认。
