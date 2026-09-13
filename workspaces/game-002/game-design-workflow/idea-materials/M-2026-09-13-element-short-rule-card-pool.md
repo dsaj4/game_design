@@ -1,6 +1,6 @@
 # 元素第三期短规则卡池：已确认内容方向
 
-后续审查：[2026-09-13逐卡清晰度表](../../docs/card-pool-clarity-audit-2026-09-13.md)覆盖全部E3项。已确认方向保持；来源归属、元素过程、消耗／归零输出与派生触发等仍待收束。审查不增加新规则，不将已完成旧输入测试外推。
+当前：RC01–12已采纳，公共来源、触发、支付与过程接口见[RC素材](M-2026-09-13-card-pool-rule-rulings.md)；首版选择及空间／出生见[首版素材](M-2026-09-13-first-release-content-scope.md)。参数与其余DG缺口继续细化。
 
 2026-09-13后续：[ST01–04](M-2026-09-13-end-tick-status-rulings.md)已采纳。E3-N03／04改为每刻末伤害／增甲，E3-A03＋A06允许长期储层，自然衰减累计小数；其他卡面选择保持。TH-003／CAL只覆盖旧输入的子集，新规则NotRun，不以原文历史NotRun概括已完成实验。
 
@@ -50,9 +50,9 @@
 | E3-V02 | 汲取 | 目标【燃】→🔥；目标【冻】→❄ | 元素抽走目标的同种状态，补给自身。 | [FX-097](../../docs/effect-registry/entries/FX-097.md) |
 | E3-V03 | 倾注 | 🔥→目标【燃】；❄→目标【冻】 | 消耗执行元素，给目标施加对应状态。 | [FX-098](../../docs/effect-registry/entries/FX-098.md) |
 | E3-V04 | 消耗 | 敌🛡→执行元素 | 消耗敌方护甲，为执行元素补层。 | [FX-023](../../docs/effect-registry/entries/FX-023.md) |
-| E3-V05 | 拆甲 | 敌🛡→己🛡 | 由冰霜执行：消耗敌方护甲，给自己护甲。 | [FX-101](../../docs/effect-registry/entries/FX-101.md) |
+| E3-V05 | 拆甲 | 敌🛡→己🛡 | 由冰霜执行：消耗敌方护甲，玩家获得护甲。 | [FX-101](../../docs/effect-registry/entries/FX-101.md) |
 | E3-V06 | 引爆 | 敌【燃】→伤害敌人 | 消耗敌人燃烧，立即造成伤害。 | [FX-038](../../docs/effect-registry/entries/FX-038.md) |
-| E3-V07 | 凝结 | ❄→己🛡 | 消耗冰霜层数，给自己护甲。 | [FX-071](../../docs/effect-registry/entries/FX-071.md) |
+| E3-V07 | 凝结 | ❄→己🛡 | 消耗冰霜层数，玩家获得护甲。 | [FX-071](../../docs/effect-registry/entries/FX-071.md) |
 | E3-V08 | 爆裂 | 全部🔥→范围伤害 | 耗尽火焰，对范围内敌人造成伤害。 | [FX-070](../../docs/effect-registry/entries/FX-070.md) |
 | E3-V09 | 净化 | 清除目标【燃】或【冻】 | 移除所指的元素状态，不撤回其已造成的伤害或已获得的护甲。 | [FX-005](../../docs/effect-registry/entries/FX-005.md)、[FX-006](../../docs/effect-registry/entries/FX-006.md) |
 | E3-A01 | 护生的 | ❄邻近：仅友方 | 冰霜的邻近施加只作用友方。 | [FX-079](../../docs/effect-registry/entries/FX-079.md) |
@@ -61,7 +61,7 @@
 | E3-A04 | 应激的 | 法术补层：邻近施加 | 法术给已有元素补层后，该元素进行一次邻近施加。 | [FX-122](../../docs/effect-registry/entries/FX-122.md) |
 | E3-A05 | 爆裂的 | 元素消散：范围伤害 | 元素消散时，对范围内敌人造成伤害。 | [FX-047](../../docs/effect-registry/entries/FX-047.md) |
 | E3-A06 | 自噬的 | 衰减：改在邻近施加时 | 元素不再按时间自然减层，改为每次邻近施加时消耗自身层数。 | [FX-123](../../docs/effect-registry/entries/FX-123.md) |
-| E3-I01 | 指令芯 | 邻近施加：改在操控后 | 本杖元素停止自动邻近施加，改在执行本杖操控后施加。 | [FX-105](../../docs/effect-registry/entries/FX-105.md) |
+| E3-I01 | 指令芯 | 邻近施加：改在操控后 | 本杖创建元素停止自动邻近施加，被任意法杖成功操控且仍存活后施加一次。 | [FX-105](../../docs/effect-registry/entries/FX-105.md) |
 | E3-I02 | 借位镜 | 操控范围：以元素为中心 | 本杖操控元素时，从元素所在格确定目标范围。 | [FX-106](../../docs/effect-registry/entries/FX-106.md) |
 | E3-I03 | 满溢阀 | 满位：火改伤敌；冰改护己 | 无同种也无空格时，本杖回退结果改为火伤敌、冰给己护甲。 | [FX-107](../../docs/effect-registry/entries/FX-107.md) |
 | E3-I04 | 同享镜 | 他人冰冻增甲：己也增甲 | 其他单位因本杖冰冻获得护甲时，自己也获得护甲。 | [FX-110](../../docs/effect-registry/entries/FX-110.md) |

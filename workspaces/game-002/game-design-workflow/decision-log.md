@@ -146,3 +146,14 @@ BF-C01–15为本次补全的推荐方案，未将用户对单层传播的回答
 | G002-CORE-018 | 燃烧伤害／冰冻增甲每刻末处理；固定先燃烧后冰冻、同类公开单位顺序；自然衰减保留小数进度累计扣层；允许空心＋自噬长期储层 | Accepted：用户裁决及授权固定先后的落实方案；Hypothesis，新规则NotRun，旧CAL不外推 | [原话](idea-inbox/2026-09-13-end-tick-status-rulings.md)、[素材](idea-materials/M-2026-09-13-end-tick-status-rulings.md)、[提案](idea-proposals/P-2026-09-13-end-tick-status-rulings.md)、[评估](evaluations/E-2026-09-13-end-tick-status-rulings.md)、[采纳文本](draft-changes/D-2026-09-13-end-tick-status-rulings.md) |
 
 ST01–04明确首次生效、阶段内新状态延后、效果后衰减、清空重置进度及终局停止。其他状态不自动改为每刻周期；主动消耗、异种抵消和跨战边界保持。环境转化进度继承、每刻效果量与其余元素接口未定。本轮未改代码、未测试或采纳新参数。
+
+## 2026-09-13：新版卡池裁决与GDD写作前收束
+
+| ID | 决定 | 状态与证据 | 来源 |
+| --- | --- | --- | --- |
+| G002-CORE-019 | 采用RC01–12完整推荐：首次来源、有限完整复诵、蓄势兑现、一次替换、即时一层触发、逐刻过程、消耗与自耗完成、跨杖操控与生成适配 | Accepted；Hypothesis，新规则NotRun | [RC素材](idea-materials/M-2026-09-13-card-pool-rule-rulings.md)、[采纳文本](draft-changes/D-2026-09-13-card-pool-rule-rulings.md) |
+| G002-SCOPE-003 | 首版S2全部25项＋E3全部30项，战前／战斗／路线／休整／商店／单阶段首领；其余创意储备；先定缺口再写GDD | Accepted范围；S2方向Confirmed，参数未定 | [用户选择](idea-inbox/2026-09-13-full-game-gdd-preparation.md)、[范围素材](idea-materials/M-2026-09-13-first-release-content-scope.md) |
+| G002-CORE-020 | 每格独立地面＋一个占位体，玩家棋盘外；本格地面＋正交邻格作用，不含自身／斜角／环绕；前排树木不自动遮挡后排施法 | Accepted；Hypothesis | [空间素材](idea-materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](draft-changes/D-2026-09-13-card-pool-rule-rulings.md) |
+| G002-CORE-021 | 无同种时只在范围内首个存活敌人的正交相邻合法空格生成；无此类格回退，即使其他格空着；同种仍优先补层 | Accepted；Hypothesis | 同上；用户“只在所选敌人旁生成（推荐）” |
+
+本轮未创建新GDD、未改代码或启动测试。原始库与历史实验保留；[26组写作前缺口](../docs/pre-gdd-design-decisions-2026-09-13.md)中DG01–03已确认，其余按依赖继续裁决。

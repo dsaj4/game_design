@@ -1,5 +1,7 @@
 # 每刻末状态结算与自然衰减裁决
 
+当前补充（2026-09-13）：S2整池及首版范围已选，空间与出生规则已确认，详见[首版素材](M-2026-09-13-first-release-content-scope.md)；原复诵／来源／过程等共同缺项按[RC01–12](M-2026-09-13-card-pool-rule-rulings.md)关闭。其余未知继续按[DG清单](../../docs/pre-gdd-design-decisions-2026-09-13.md)，新GDD尚未写作。
+
 状态：Qualified GDD Material；用户裁决与授权固定顺序的落实方案已按G002-CORE-018采纳；新版本证据Hypothesis／NotRun。
 
 ## 素材控制

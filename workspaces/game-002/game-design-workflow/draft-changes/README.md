@@ -1,5 +1,7 @@
 # game-002 Draft Change
 
+新增[RC／首版范围／空间采纳文本](D-2026-09-13-card-pool-rule-rulings.md)，G002-CORE-019／020／021及G002-SCOPE-003；新GDD未开始。
+
 当前核心为Core Concept v0.6。各页注明当前适用范围及原始来源，文档统一不会自动采纳未决机制。
 
 - [自动战斗边界的当前适用范围](D-2026-09-09-automatic-battle-boundaries.md)

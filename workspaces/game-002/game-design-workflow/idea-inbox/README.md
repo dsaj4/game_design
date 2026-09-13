@@ -1,5 +1,7 @@
 # game-002 原始表达与候选入口
 
+当前40份inbox记录；新增[全游戏GDD准备与用户选择](2026-09-13-full-game-gdd-preparation.md)。[RC推荐](2026-09-13-card-pool-rule-recommendations.md)与[S2原池](2026-09-13-simple-spell-short-rule-card-pool.md)已各按明确范围晋级，原记录保留。
+
 共39份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
 
 | 记录 | 状态 |

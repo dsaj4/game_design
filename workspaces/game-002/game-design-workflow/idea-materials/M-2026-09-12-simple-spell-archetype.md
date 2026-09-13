@@ -1,5 +1,7 @@
 # 简易法术流派：基础牌组、连发与蓄积爆发
 
+当前补充（2026-09-13）：S2整池及首版范围已选，空间与出生规则已确认，详见[首版素材](M-2026-09-13-first-release-content-scope.md)；原复诵／来源／过程等共同缺项按[RC01–12](M-2026-09-13-card-pool-rule-rulings.md)关闭。其余未知继续按[DG清单](../../docs/pre-gdd-design-decisions-2026-09-13.md)，新GDD尚未写作。
+
 状态：Qualified GDD Material（仅定位与两项成型方向）。尚未作为完整流派采纳；具体卡牌、物品和参数未完成。证据：Hypothesis。
 
 ## 素材控制

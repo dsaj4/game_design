@@ -1,5 +1,7 @@
 # game-002 提案
 
+新增[RC裁决与首版范围提案](P-2026-09-13-card-pool-rule-rulings.md)，依据已通过资格的两份素材，用户已采纳规则和范围；其余缺口另议。
+
 当前核心为[Core Concept v0.6](../core-concept.md)，可用内容从[合格素材](../idea-materials/README.md)审查。未决inbox内容须先通过资格闸门，不能直接写入正文。
 
 - [语义世界对象范围](P-2026-09-10-semantic-world-object-scope.md)：SW01范围已采纳，引用及单次名单按后续提案；操作框架后续按R01–R32采纳，具体内容待设计，证据Hypothesis。
