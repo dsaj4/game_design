@@ -158,3 +158,13 @@
 用户确认“可以开始生产袋子设计图，可替代猫的位置”。已完成[两张MD-11设计板](E:/Project/game-002-godogen-lab/concepts/blender-sheets-v02/index.md)和[中文建模说明](E:/Project/game-002-godogen-lab/docs/blender-wand-roll-design-v01.md)，OverallDirectionConfirmed / ComponentDesignDraft。独立仓库codex/setup-godogen-demo / 0c76b8820c4868c817c938c76950c8e68acdf46e，本地已提交、无远端。
 
 外观稿提供长袋主效果／方向参考／端部与材质细节，拆件稿提供单张皮革包卷、同皮折底、绑带和两支长杖。两张选用图均1448×1086；剖面修订为两个实心木杆，修订前图与全部三份提示词保留，原图复制哈希及17处链接已检查。尺寸、面板缩放与视图方位限制写入建模说明，未把生成图认定为几何验收。MD-09退出当前构图但保留历史设计稿；MD-11模型尚未新建，已有九类资产与Godot E1 R2不变。整体已确认，下一制作阶段为按稿新建长法杖袋原生资产。
+
+### 同日后续：MD-11长法杖袋原生建模与桌面组合v02
+
+用户明确“开始建模”。已交付[长法杖袋可编辑模型／GLB与真实渲染](E:/Project/game-002-godogen-lab/art/md-11-v01/README.md)、[桌面组合v02](E:/Project/game-002-godogen-lab/art/map-desk-v02/README.md)及[制作报告](E:/Project/game-002-godogen-lab/docs/md-11-native-report.md)，状态NativeAssetCreated / NeedsArtReview。独立仓库codex/setup-godogen-demo / 8a1d614eefab6755a89c7646a0e815ef503ba9f9，本地已提交、无远端。
+
+约1.9米整皮袋身、同皮折底与开放卷口、两道绑带、两支完整长杖均为实际几何；连同露头总长约2.252米。袋子横放后沿替代猫，杂物保留；星仪与羽毛笔组前移让出空间，旧九类模型没有覆盖。内置图像模型另生成1254×1254旧皮革albedo，原图及提示词／SHA归档；电脑插件在真实Blender中调整叉枝杖角度至12°，后续发布保留。
+
+[27项验证](E:/Project/game-002-godogen-lab/art/md-11-v01/verification.json)通过：源文件重新打开、整皮网格连通、修改器与曲线保留、贴图内嵌，GLB实际回导后三角面一致／尺寸误差小于2mm，旧母版SHA不变、原1,894个对象保留、无猫、长袋完整入镜。已查看四张实际Blender渲染，检查57处本地文稿链接及生成原图复制哈希；最终组合已在Blender打开。
+
+当前GLB有331,584三角面，尚未减面或制作LOD；细排线、搭接厚重感与木节雕刻仍待美术评议，Blender Freestyle外轮廓不进入GLB。本轮未新增Godot运行场景、法杖管理交互或玩法测试；E1 R2仍为引擎实现，E2–E4保持未启动。下一步评议首版长袋和后沿构图，再据反馈精修，不因建模升级玩法素材资格。

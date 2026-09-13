@@ -46,7 +46,9 @@
 
 ## 独立实验项：Godogen 3D UI 风格实验
 
-最新进展：用户已确认整体05并要求生产袋子设计图、替代猫的位置。[MD-11外观与包卷拆件两张稿](E:/Project/game-002-godogen-lab/concepts/blender-sheets-v02/index.md)及[建模说明](E:/Project/game-002-godogen-lab/docs/blender-wand-roll-design-v01.md)已完成，OverallDirectionConfirmed / ComponentDesignDraft；独立仓库codex/setup-godogen-demo / 0c76b88（本地无远端）。选用两张1448×1086图，保留一张剖面修订前图；三份原图复制哈希与17处文稿链接通过。图稿不是配准工程图或实际模型，未新建MD-11的.blend、GLB或交互／玩法测试；整体不再待确认，下一制作阶段为新建原生资产。
+最新进展：用户明确“开始建模”，已完成[MD-11原生长法杖袋](E:/Project/game-002-godogen-lab/art/md-11-v01/README.md)与[桌面组合v02](E:/Project/game-002-godogen-lab/art/map-desk-v02/README.md)，NativeAssetCreated / NeedsArtReview；独立仓库codex/setup-godogen-demo / 8a1d614eefab6755a89c7646a0e815ef503ba9f9（本地无远端）。袋子横放后沿替代猫，两道绑带和两支长杖独立可编辑，杂物保留。[27项文件／结构／回导检查](E:/Project/game-002-godogen-lab/art/md-11-v01/verification.json)通过，原生UI的12°杖头调整保留，旧母版SHA及1,894个原对象保留；四张实际Blender渲染已查看，57处文稿链接及生成原图复制哈希通过。33万三角面的首版资产尚未减面／LOD或接入Godot，不新增玩法测试批次；风格仍待美术评议。
+
+前轮进展：用户已确认整体05并要求生产袋子设计图、替代猫的位置。[MD-11外观与包卷拆件两张稿](E:/Project/game-002-godogen-lab/concepts/blender-sheets-v02/index.md)及[建模说明](E:/Project/game-002-godogen-lab/docs/blender-wand-roll-design-v01.md)已完成，OverallDirectionConfirmed / ComponentDesignDraft；独立仓库codex/setup-godogen-demo / 0c76b88（本地无远端）。选用两张1448×1086图，保留一张剖面修订前图；三份原图复制哈希与17处文稿链接通过。图稿不是配准工程图或实际模型，未新建MD-11的.blend、GLB或交互／玩法测试；整体不再待确认，下一制作阶段为新建原生资产。
 
 前轮修订：用户已认可法杖袋形象，要求删猫、横置后沿，并继续加长至法杖可接近或超过桌宽。已完成[整体04／05及设计记录](E:/Project/game-002-godogen-lab/docs/map-desk-visual-design-v05.md)，当前BagAppearanceConfirmed / OverallRevisionAwaitingConfirmation；独立仓库codex/setup-godogen-demo / 0db4df4（04为6b8e229，本地无远端）。当前05只有一只横向长袋，两支杖头朝右，无猫；原生资产仍为5686534、Godot仍为E1 R2。未生成MD-11组件／模型、未新增交互或测试批次；整体确认后才按顺序继续。下方03与更早记录保留当时范围。
 

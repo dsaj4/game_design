@@ -1,8 +1,16 @@
 # Flask 参考风格的法杖装配与地图 UI
 
-状态：Raw Idea / Unqualified。日期：2026-09-13。用户已确认整体05，并授权制作替代猫位置的法杖袋设计稿；MD-11外观与包卷拆件两张图已完成，状态OverallDirectionConfirmed / ComponentDesignDraft。长法杖允许接近或超过桌宽，MD-09退出当前构图。MD-11原生模型尚未制作，此前九类资产与Godot E1 R2保留。本条玩法资格状态不因美术确认或组件生图晋级。
+状态：Raw Idea / Unqualified。日期：2026-09-13。用户在确认整体05和法杖袋设计稿后明确“开始建模”；MD-11原生长袋及新的桌面组合已完成，资产状态NativeAssetCreated / NeedsArtReview。长袋横放后沿替代猫，长法杖接近或超过桌宽，杂物保留。此前九类独立资产与Godot E1 R2保留；本条玩法资格状态不因美术确认或建模晋级。
 
-## 最新输入：确认整体并制作法杖袋设计稿
+## 最新输入：开始建模
+
+用户：“开始建模”。已按确认的整体与组件图制作[MD-11长法杖袋原生模型](E:/Project/game-002-godogen-lab/art/md-11-v01/README.md)、[桌面组合v02](E:/Project/game-002-godogen-lab/art/map-desk-v02/README.md)和[制作记录](E:/Project/game-002-godogen-lab/docs/md-11-native-report.md)。约1.9米袋身由一张连续网格包卷，左端同皮折底、右端开放；两道绑带和两支完整长杖可独立编辑，总长约2.252米。
+
+独立仓库codex/setup-godogen-demo / 8a1d614eefab6755a89c7646a0e815ef503ba9f9，本地无远端。原生UI调整、生成皮革albedo、可编辑.blend、GLB、实际渲染及27项验证留档。长袋替代猫，原对象和杂物保留；为让出后沿空间，星仪和羽毛笔组前移。旧九类独立模型未覆盖，未新增Godot场景或法杖管理交互。
+
+当前是待美术评议的首版资产；可点击区域、管理范围、玩家操作与反馈等玩法资格缺口仍为Unknown。建模尺寸服务构图，不定义库存容量、携带数量或正式数值规则。
+
+## 前轮输入：确认整体并制作法杖袋设计稿
 
 用户：“确认，可以开始生产袋子设计图，可替代猫的位置”。整体05据此确认，不再重复请求整体确认。已完成[MD-11两张设计图册](E:/Project/game-002-godogen-lab/concepts/blender-sheets-v02/index.md)与[中文建模说明](E:/Project/game-002-godogen-lab/docs/blender-wand-roll-design-v01.md)，包含长袋外观与各方向参考、整张皮革展开、同皮折底、包卷、两道绑带与两支完整长法杖的拆件思路。
 
