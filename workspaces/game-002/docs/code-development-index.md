@@ -146,3 +146,9 @@
 用户新增右后侧整皮卷成的破旧法杖袋，露出一至两支杖头，指定后续作为法杖管理入口，并明确先整体、确认后组件图、再Blender资产。已交付[整体效果图03](E:/Project/game-002-godogen-lab/concepts/map-desk-overall-v03.png)与[设计说明](E:/Project/game-002-godogen-lab/docs/map-desk-visual-design-v03.md)，状态OverallRevisionAwaitingConfirmation；独立仓库codex/setup-godogen-demo / 59db26136b46a6ef3185203e57aa3d01fb5a0f17，本地已提交、无远端。
 
 本轮以已确认手绘整体02为底图，用内置imagegen编辑；1254×1254原图、完整提示词与来源SHA已归档，原图复制一致并检查5处设计文稿链接。红线和四类节点可见，保留杂物与原概念中的猫；猫模型仍暂缓。预留MD-11但未生成组件稿、模型或管理交互，原生资产实现仍为5686534、Godot仍为E1 R2 / 7b36a90。下一步等待用户确认新版整体，再按指定顺序制作；本图不是Blender或Godot实机证据。
+
+### 同日后续：删猫、横置与桌宽长法杖
+
+用户认可皮革袋形象，先要求删猫并将加长袋体横向放在后沿原猫位置，随后明确“长法杖可以和桌子差不多长甚至更长”。已完成[整体修订04／05与说明](E:/Project/game-002-godogen-lab/docs/map-desk-visual-design-v05.md)，当前以05为准，状态BagAppearanceConfirmed / OverallRevisionAwaitingConfirmation。独立仓库codex/setup-godogen-demo，04为6b8e229、05为0db4df4588465ca79cb01c1453407ed973e52ad5，本地已提交、无远端。
+
+两张1254×1254图片均由内置imagegen编辑前版，原图、完整提示词及SHA归档；05向左延长袋体，长袋和露头接近后沿可见宽度，猫移除、路线与节点及杂物保留。图像未做透视尺寸标定，提示词比例不作已测量几何。未新增MD-11组件稿、Blender模型或Godot实现；整体确认后再依次做组件图和原生资产。已有九类模型及E1 R2证据保持原范围。
