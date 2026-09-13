@@ -31,7 +31,9 @@
 
 ## 独立实验项：Godogen 3D UI 风格实验
 
-用户已明确“确认，开始生成，每张图做成blender设计稿”。右侧地图[整体方向](E:/Project/game-002-godogen-lab/docs/map-desk-visual-design-v02.md)现为 OverallDirectionConfirmed，已完成[十张组件建模设计稿](E:/Project/game-002-godogen-lab/concepts/blender-sheets-v01/index.md)与[中文建模说明](E:/Project/game-002-godogen-lab/docs/blender-component-design-v01.md)，组件状态 ComponentDesignDraft；独立仓库 codex/setup-godogen-demo / 78b77d1（本地无远端）。杂物保留，10张选用图、2张修订前图与完整提示词／来源哈希归档。只检查图像来源、尺寸和文稿链接，未新建.blend模型或新增测试批次；现有实机证据仍为下方E1 R2，生成多视图不能作为几何一致性、引擎或玩法通过证据。
+用户最新要求“开始生成blender资产，猫先不用生成”。已完成[九类原生资产与渲染图册](E:/Project/game-002-godogen-lab/art/map-desk-v01/README.md)，状态 NativeAssetsCreated / NeedsArtReview；独立仓库 codex/setup-godogen-demo / 568653496dd70ebbbb8a2f161147d20fe1bda774（本地无远端）。MD-01–08和MD-10包含分件.blend、GLB与组合工程，猫暂缓、杂物保留。电脑插件实际调整宝箱铰链，后续加工保留该变换。[最终文件验证](E:/Project/game-002-godogen-lab/art/map-desk-v01/verification.json)通过：九件源文件及组合重新打开、贴图打包、GLB实际回导后三角面与尺寸一致、没有展示地面混入且无猫；组合与九张单件图均为Blender实际渲染。尚未接入新Godot场景或新增玩法测试批次，精细美术和引擎效果未验收。
+
+上一轮右侧地图[整体方向](E:/Project/game-002-godogen-lab/docs/map-desk-visual-design-v02.md)为 OverallDirectionConfirmed，[十张组件建模设计稿](E:/Project/game-002-godogen-lab/concepts/blender-sheets-v01/index.md)为 ComponentDesignDraft；其独立提交78b77d1及来源记录保留。当前Godot实机证据仍为下方E1 R2；原生资产文件验证与生成多视图均不能代替引擎或玩法验收。
 
 最新修订：用户要求“只做这个页面”，已完成 [E1 R2 材质与 Blender 细化](E:/Project/game-002-godogen-lab/docs/e1-r2-report.md)。实现 codex/setup-godogen-demo / 7b36a90（独立本地仓库，无远端）；三份生成参考留档，电脑插件完成屋顶网格编辑，原生 Python 补充模型与贴图，导出后确认手动修改保留。[技术验证](E:/Project/game-002-godogen-lab/docs/evidence/E1-r2/verification.json)通过，含两档 GPU 四图、中文字形／边界、A/B 几何／相机及来源哈希；状态 Executed / NeedsRevision / user review pending。当前页仍是静态风格样本，E2–E4 未运行。以下为先前各轮历史。
 

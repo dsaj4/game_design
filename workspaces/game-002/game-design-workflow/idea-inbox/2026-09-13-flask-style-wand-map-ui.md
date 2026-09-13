@@ -1,8 +1,14 @@
 # Flask 参考风格的法杖装配与地图 UI
 
-状态：Raw Idea / Unqualified。日期：2026-09-13。右侧地图整体美术方向已获用户确认（OverallDirectionConfirmed），十张 Blender 组件参考稿已生成（ComponentDesignDraft）。此前 E1 R2 已完成独立实机美术实验；本轮仅完成分件设计图与建模文稿，没有新模型或引擎实现。美术确认与技术证据不代表本条原始玩法想法晋级或玩法采纳。
+状态：Raw Idea / Unqualified。日期：2026-09-13。右侧地图整体美术方向已获用户确认（OverallDirectionConfirmed），十张 Blender 组件参考稿已生成（ComponentDesignDraft）。最新已按授权制作九类原生Blender资产，猫暂缓（NativeAssetsCreated / NeedsArtReview）；Godot实机仍为此前E1 R2。本批美术制作与文件验证不代表本条原始玩法想法晋级或玩法采纳。
 
-## 最新输入：确认整体并生成 Blender 分件设计稿
+## 最新输入：制作原生 Blender 资产，猫暂缓
+
+用户：“开始生成blender资产，猫先不用生成”。[九类原生资产图册](E:/Project/game-002-godogen-lab/art/map-desk-v01/README.md)已交付，涵盖桌面与保留杂物、环境地图纸面、红线、法师木雕、篝火、水晶球、地点建筑、金币宝箱和旧书；MD-09猫本批跳过。分件与组合均为实际可编辑模型，附GLB、打包纹理和Blender渲染。独立仓库 codex/setup-godogen-demo / 568653496dd70ebbbb8a2f161147d20fe1bda774，本地无远端。
+
+[制作记录](E:/Project/game-002-godogen-lab/docs/map-desk-assets-v01.md)保留生成贴图来源、原生UI铰链修改、脚本加工与[文件验证](E:/Project/game-002-godogen-lab/art/map-desk-v01/verification.json)。源文件重新打开及GLB回导检查通过；当前仍为首轮三维美术资产，尚未认定达到FLASK参考完成度。未新增Godot、操作、事件结果、经济或路线规则；下方玩法资格缺口仍保留。
+
+## 前轮输入：确认整体并生成 Blender 分件设计稿
 
 用户：“确认，开始生成，每张图做成blender设计稿”。已按确认后的整体方向生成[十张图册](E:/Project/game-002-godogen-lab/concepts/blender-sheets-v01/index.md)，并完成[中文建模说明](E:/Project/game-002-godogen-lab/docs/blender-component-design-v01.md)。每个实体组件提供多方向参考与拆件／材质细节，地图和红线侧重顶视及分层；保留杂物归入桌面设计稿。
 
