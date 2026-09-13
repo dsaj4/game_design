@@ -1,5 +1,9 @@
 # 效果来源审查记录
 
+## 2026-09-14 VB规范化验收输入
+
+[VB输入](../pre-gdd-validation-inputs-2026-09-14.md)补4库存断点、9套构筑、固定采购／相位／范围、720项单场计划、36边界输入、20整局计划、20局部事件预期及6项成长诊断，全部NotRun。沿CORE／RC／BR与待审CG／PG／EG／RG／UX，不新增FX ID或提升采纳／证据状态。旧NF与RG首领损耗目标差异明示待裁决；当前素材62份、inbox47份、FX134项，关闭10／26。
+
 ## 2026-09-14 UX功能规格与总审
 
 新增[UX完整旅程／体验／资产候选](../../game-design-workflow/idea-inbox/2026-09-14-interface-platform-and-experience.md)及[26组内容总审](../pre-gdd-content-review-2026-09-14.md)。UX沿现有卡池展示规则，新增开战／保存／观看等产品取舍仍Raw；没有新增词效或FX ID，没有修改现行效果语义。当前素材62份、inbox47份、FX134项，关闭10／26；规范化未来验收输入继续补，未运行新玩法测试。

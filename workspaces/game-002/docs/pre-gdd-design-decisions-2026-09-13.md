@@ -28,8 +28,8 @@ RC01–12已按[G002-CORE-019](../game-design-workflow/draft-changes/D-2026-09-1
 - **EG环境表已形成**：[树木／草地阈值](../game-design-workflow/idea-inbox/2026-09-14-environment-forms-and-thresholds.md)及双类痕迹／跨阈值推荐，补PV04实际内容，待审。
 - **RG整局表已形成**：[6普通＋1首领、12遭遇、逐敌攻击与整局压力](../game-design-workflow/idea-inbox/2026-09-14-run-route-encounters-and-fatigue.md)，包括100生命、24点休整、完整疲劳56／96刻进入、4刻间隔及6次内收尾的带前提推导。原木杖冗余商品由RG-C01提出修订，PG更新v0.2，均未采纳。
 - **UX流程与体验表已形成**：[界面、平台、观看时间与资产](../game-design-workflow/idea-inbox/2026-09-14-interface-platform-and-experience.md)，补完整旅程、三步编排／跨战实例、保存反馈、0.5秒／刻、观看档位、U01–08及逐类资产。新增开战门槛和产品取舍仍待选。
-- **全量内容总审**：[26组DG／12类PV落点](pre-gdd-content-review-2026-09-14.md)区分已采用与六份待审推荐；12类参数均已有具体候选，RG常规构筑组A仍需规范化实际资源输入。
-- 实际范围与CG／PG／EG／RG／UX取舍仍待选择，继续整理未来验收输入，不执行实验。关闭数保持10／26；本轮不写新GDD，不运行玩法测试。
+- **全量内容总审**：[26组DG／12类PV落点](pre-gdd-content-review-2026-09-14.md)区分已采用与六份待审推荐；12类参数均已有具体候选，[VB](pre-gdd-validation-inputs-2026-09-14.md)已补RG常规构筑组A的实际资源、具体配置、采购和相位／范围输入，全部NotRun。
+- 实际范围与CG／PG／EG／RG／UX取舍仍待选择；VB新增9配置及未来执行规格后，剩余是实际采用与同步，关闭数保持10／26。旧NF与RG首领损耗目标差异已明示，待随RG目标一并裁决；本轮不写新GDD，不运行玩法测试。
 
 ## 26组真实缺口
 
@@ -325,7 +325,7 @@ RC01–12已按[G002-CORE-019](../game-design-workflow/draft-changes/D-2026-09-1
 
 - 本轮采用：[BR12](../game-design-workflow/idea-materials/M-2026-09-13-pre-gdd-recommendation-batch.md)。新GDD Wiki在机制、公式结构、首版实际名单与数量、资源及渠道明确后写作；用于首版开发的候选数值先给完整一版，标注待校准，正式平衡结论待新输入验证，不以永久无需调参为写作条件。下一步由agent按已定方向补齐：逐卡合法输入／执行者／结果宿主、真实实体分词及正反例、有限事件、实际范围、起始库存、获取渠道、完整遭遇／路线、经济压力目标、交互与资产表；优先使用单执行者表达，不能用显示连接词或自由条件暗赠词义。推荐补表不等于表已经完成，也不等于未给出的数量获批；未明确内容须作为具体推荐供审阅，原构思库和旧试验完整保留。
 - 2026-09-14候选：[RG05／07](../game-design-workflow/idea-inbox/2026-09-14-run-route-encounters-and-fatigue.md)列100起始生命、每次休整24、三次机会、6场普通总48–72金币及前缀支出；普通胜利中位损5–15、首领10–30等目标明确为未测。PG实际价格与期别、S4消费最后金币、RG-C01冗余商品修订可共同审阅。
-- 当前未完项：实际输入及压力目标仍待采用；[UX06](../game-design-workflow/idea-inbox/2026-09-14-interface-platform-and-experience.md)已补PV12现实用时。RG常规构筑组A还需逐个列出真实资源基准，后续核对渠道和前缀生命，不以币值算例声称已平衡。
+- 当前未完项：实际输入及压力目标仍待采用；[UX06](../game-design-workflow/idea-inbox/2026-09-14-interface-platform-and-experience.md)已补PV12现实用时。[VB](pre-gdd-validation-inputs-2026-09-14.md)已逐个列出I0–I3／K01–09和采购／前缀生命规则。待采用RG目标并明确旧NF15–30与新推荐10–30的首领损耗差异；不以币值算例声称已平衡。
 - 正常例：所有首版内容与候选参数成套后，可以开始GDD-1 Wiki，参数仍明确标注待校准。
 - 边界例：只有“应填起始牌组”的方向而没有卡名、副本和可运行组合时，不能关闭DG17；旧校准参数不能自动充当新55项输入。
 - 证据：规则Accepted，Hypothesis／NotRun；本轮不启动玩法测试。
@@ -478,7 +478,7 @@ RC01–12已按[G002-CORE-019](../game-design-workflow/draft-changes/D-2026-09-1
 5. DG23–26确定首版参数完成度、局外流程、平台与呈现要求。
 6. 关闭纳入首版的机制／内容缺口，或由用户明确后置；候选数值和未验证证据按约定标注。到此才开始新GDD Wiki，不先写一份靠开发者补规则的正文。
 
-当前26组中10组已关闭：DG01–03、DG06–10、DG19、DG23。其余16组均已有实际候选入口，见[26组内容总审](pre-gdd-content-review-2026-09-14.md)，但新取舍尚未采用，仍有RG规范化真实资源基准需要补齐。下一步先处理正在等待的HG／WG／SG答复，并独立补未来验收输入；之后成组采用CG／PG／EG／RG／UX，不重复询问已经确认的公共规则。
+当前26组中10组已关闭：DG01–03、DG06–10、DG19、DG23。其余16组均已有实际候选入口，见[26组内容总审](pre-gdd-content-review-2026-09-14.md)，但新取舍尚未采用。[VB](pre-gdd-validation-inputs-2026-09-14.md)已补规范化真实资源基准和局部确定结果，下一步处理正在等待的HG／WG／SG答复，之后成组采用CG／PG／EG／RG／UX并同步资格、核心及FX，不重复询问已经确认的公共规则。
 
 ## 来源与审查覆盖
 
