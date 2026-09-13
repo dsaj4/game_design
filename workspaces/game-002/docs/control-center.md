@@ -1,5 +1,7 @@
 # game-002 项目总控
 
+最新检查：[新版卡池55项清晰度审查](card-pool-clarity-audit-2026-09-13.md)。仍有12组共同接口缺项，优先来源合并，再处理复诵与支付／结果。审查建议未采纳，未开展新测试。
+
 日期：2026-09-13。状态：Active / Stable Design Baseline。正式核心Core Concept v0.6，完整玩法证据Hypothesis。当前进入两流派内容收束与局部数值验证。
 
 最新裁决：[每刻末状态与衰减](../game-design-workflow/idea-materials/M-2026-09-13-end-tick-status-rulings.md)，G002-CORE-018；现行新规则未测，旧CAL为历史输入。
