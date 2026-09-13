@@ -1,9 +1,10 @@
 # game-002 原始表达与候选入口
 
-共32份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
+共33份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
 
 | 记录 | 状态 |
 | --- | --- |
+| [元素流派第一期创意卡池](2026-09-13-element-spell-creative-card-pool.md) | Raw：48项，8名词／10动词／14形容词／16镶嵌，每类5项优先建议；先筛创意，不做平衡，FX-072–096已登记。 |
 | [第二流派：元素法术](2026-09-12-element-spell-archetype.md) | Promoted：释放／存在／属性克制／互斥抵消方向；已确认入量只修正一次与共享层数，成型后续讨论。 |
 | [第一人称格子战场与环境](2026-09-12-first-person-grid-battlefield.md) | Promoted：用户原话／图片与单层传播确认；agent补充Candidate |
 | [简易流派第一期创意卡池](2026-09-12-simple-spell-creative-card-pool.md) | 用户先保留48项候选：12名词、10动词、12形容词、14镶嵌；删除点燃／冰冻动词，状态转接元素机制。具体词义仍Raw。 |
