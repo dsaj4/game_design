@@ -1,5 +1,7 @@
 # 效果目录
 
+当前新增候选关联：[RC01–12共同规则推荐](../../game-design-workflow/idea-inbox/2026-09-13-card-pool-rule-recommendations.md)，覆盖K01–K12，含FX-105／125明确局部修订建议。合计仍134项；现行修订与采纳状态保持，本次不新增生效规则。
+
 最新清晰度检查：[S2＋E3共55项逐卡审查](../card-pool-clarity-audit-2026-09-13.md)。K01–K12缺项已映射到[审查入口](readiness-review.md)，无新增效果／修订或规则采纳；具体当前卡面及ST01–04优先于旧历史Unknown。
 
 最新裁决：G002-CORE-018，详见[ST01–04](../../game-design-workflow/idea-materials/M-2026-09-13-end-tick-status-rulings.md)。FX-003为r5、FX-004为r4、FX-064／066／121／123为r2：刻末固定状态、累计自然衰减、允许空心＋自噬储层。合计仍134项；新修订NotRun，后文旧版本统计保留历史身份。

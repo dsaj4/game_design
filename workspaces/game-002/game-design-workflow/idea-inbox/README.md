@@ -1,9 +1,10 @@
 # game-002 原始表达与候选入口
 
-共38份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
+共39份Markdown记录。已晋级部分链接正式素材；未明确内容保持Raw Idea / Unqualified或Parked。Source Only只提供追溯，不能作为参数来源。
 
 | 记录 | 状态 |
 | --- | --- |
+| [新版卡池共同规则推荐](2026-09-13-card-pool-rule-recommendations.md) | Raw：RC01–12完整推荐，含首次来源、复诵、一层触发、支付和指令芯跨杖修订；未采纳 |
 | [测试后状态裁决](2026-09-13-end-tick-status-rulings.md) | Promoted；三项裁决及授权固定先后，G002-CORE-018 |
 | [简易短规则卡池](2026-09-13-simple-spell-short-rule-card-pool.md) | 当前Raw候选：25项，5名词／6动词／5形容词／9镶嵌；处理旧50项，保留已确认连发／蓄势方向，新增FX-124–134。 |
 | [元素第三期短规则重设计](2026-09-13-element-spell-symbol-card-pool-03.md) | Promoted：30项卡面与机制方向已由用户确认；正式素材已建立，参数／组合接口待补。 |
