@@ -64,3 +64,20 @@
 用户要求调研Astra游戏开发案例，并明确目标为持续开发可发布的独立游戏。[案例与选型研究](../research/03-product-case-studies/2026-09-13-astra-game-development-stack.md)推荐Godot、带类型标注的GDScript与Blender，状态为Research / Recommendation / Proposed。尚未确定为本项目技术栈，未审查或迁移既有代码，未运行游戏测试；现有实现里程碑保持原状态。下一步在启动实现时结合首发平台、目标设备与既有代码审查决定是否采用。
 
 同日补充[生成工作流与Blender MCP比较](../research/03-product-case-studies/2026-09-13-godot-blender-workflow-comparison.md)：推荐原生Godot主项目、Blender脚本生产与单一Blender MCP交互桥接；Godogen／GodotMaker用于独立实验或方法参考。状态仍为Research / Recommendation，未安装、运行或采纳工具链。
+
+## 2026-09-13 Godogen 独立 3D demo 环境
+
+用户后续明确选择“从零试验3D：Godogen + 原生 Blender + Python”，并要求先完成新工作区与环境准备。上述调研保留为当时建议；本次选择仅对独立实验生效，不自动迁移正式游戏或已有 demo。
+
+| 项目 | 当前记录 |
+| --- | --- |
+| 工作区 | [game-002-godogen-lab](E:/Project/game-002-godogen-lab/README.md)，独立本地 Git 仓库 |
+| 实现记录 | codex/setup-godogen-demo；0a67711；已本地提交，尚无远端 |
+| 来源 | 启动时设计提交305044d6d25783e914ff6d7265ed9d724684a989，12份选定文档快照及哈希；保留Accepted／Qualified／Candidate／Raw状态 |
+| 里程碑 | EnvironmentReady；空项目可启动，未制作法杖装配／地图UI或美术样件 |
+| 环境证据 | [环境报告](E:/Project/game-002-godogen-lab/docs/environment-report.md)：C#编译、场景生成、Blender保存／GLB导出与Godot读取通过；Vulkan及PNG输出通过 |
+| 实验方向 | Godogen本地适配、原生Blender/Python，未启用Blender MCP或上游云端资产技能 |
+| 后续任务 | [原始视觉想法](../game-design-workflow/idea-inbox/2026-09-13-flask-style-wand-map-ui.md)，Raw Idea / Unqualified；[详细待办](E:/Project/game-002-godogen-lab/docs/deferred-ui-experiment.md)为Deferred / NotStarted |
+| 下一步 | 等用户启动后再补看视频片段、明确最小玩家动作和视觉验收，再制作小样；当前无后台自动开发任务 |
+
+所有代码、工具版本、安装／启动方式、日志与后续技术实验留在独立仓库。环境验收不构成视觉可行性、玩法或发布质量结论。

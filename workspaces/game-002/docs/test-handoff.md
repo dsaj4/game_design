@@ -2,6 +2,10 @@
 
 维护日期：2026-09-13。当前自动校准包CAL-2026-09-13-001/r3，状态CalibratedCandidate；TH-003与TH-002历史保留。
 
+## 独立待启动项：Godogen 3D UI 风格实验
+
+2026-09-13用户要求先建工作区和准备环境，法杖装配／地图UI的长期可行性测试“先不急着开始”。[独立demo](E:/Project/game-002-godogen-lab/README.md)环境已就绪；[原始参考](../game-design-workflow/idea-inbox/2026-09-13-flask-style-wand-map-ui.md)为Raw Idea / Unqualified，[待启动任务](E:/Project/game-002-godogen-lab/docs/deferred-ui-experiment.md)为Deferred / NotStarted。未分配执行批次，未运行视觉／交互／玩法测试；工具链空项目检查不加入CAL或TH的玩法证据。本项等待用户重新启动，不影响下方已有数值实验记录。
+
 ## 当前包：自动平衡校准
 
 用户明确要求先定标准／硬规则、再定任务／临时结算、最后模拟并自动调参。按[自动校准流程](automatic-balance-calibration.md)执行，详细证据见[CAL/r1–r3报告](test-reports/CAL-2026-09-13-001-r3-run-01.md)。
