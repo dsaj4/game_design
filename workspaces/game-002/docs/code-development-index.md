@@ -140,3 +140,9 @@
 独立仓库 codex/setup-godogen-demo / 568653496dd70ebbbb8a2f161147d20fe1bda774，本地已提交、无远端。地图贴图另行生成并保存原图／提示词／来源哈希，木纹复用已归档生成素材。电脑插件在原生Blender中实际修改宝箱后铰链开角，后续加工保留；组合与分件均保留可编辑结构和打包图片。
 
 [最终验证](E:/Project/game-002-godogen-lab/art/map-desk-v01/verification.json)通过：组合与九个源文件重新打开，GLB逐件实际回导，三角面数量一致、尺寸误差小于0.002米、无展示地面混入且无猫；组合渲染1536×1280、分件图1100×1100，另检查69处本地文稿链接。当前证据覆盖资产文件和实际Blender渲染，精细雕刻、墨线与透明／火焰效果仍待美术评议。Godot运行实现继续为E1 R2 / 7b36a90，未新增引擎场景、性能、交互或玩法验收；下一步先评议当前分件与组合风格，再决定精修对象。
+
+### 同日后续：法杖袋整体修订，等待确认
+
+用户新增右后侧整皮卷成的破旧法杖袋，露出一至两支杖头，指定后续作为法杖管理入口，并明确先整体、确认后组件图、再Blender资产。已交付[整体效果图03](E:/Project/game-002-godogen-lab/concepts/map-desk-overall-v03.png)与[设计说明](E:/Project/game-002-godogen-lab/docs/map-desk-visual-design-v03.md)，状态OverallRevisionAwaitingConfirmation；独立仓库codex/setup-godogen-demo / 59db26136b46a6ef3185203e57aa3d01fb5a0f17，本地已提交、无远端。
+
+本轮以已确认手绘整体02为底图，用内置imagegen编辑；1254×1254原图、完整提示词与来源SHA已归档，原图复制一致并检查5处设计文稿链接。红线和四类节点可见，保留杂物与原概念中的猫；猫模型仍暂缓。预留MD-11但未生成组件稿、模型或管理交互，原生资产实现仍为5686534、Godot仍为E1 R2 / 7b36a90。下一步等待用户确认新版整体，再按指定顺序制作；本图不是Blender或Godot实机证据。

@@ -35,7 +35,9 @@
 
 ## 独立实验项：Godogen 3D UI 风格实验
 
-用户最新要求“开始生成blender资产，猫先不用生成”。已完成[九类原生资产与渲染图册](E:/Project/game-002-godogen-lab/art/map-desk-v01/README.md)，状态 NativeAssetsCreated / NeedsArtReview；独立仓库 codex/setup-godogen-demo / 568653496dd70ebbbb8a2f161147d20fe1bda774（本地无远端）。MD-01–08和MD-10包含分件.blend、GLB与组合工程，猫暂缓、杂物保留。电脑插件实际调整宝箱铰链，后续加工保留该变换。[最终文件验证](E:/Project/game-002-godogen-lab/art/map-desk-v01/verification.json)通过：九件源文件及组合重新打开、贴图打包、GLB实际回导后三角面与尺寸一致、没有展示地面混入且无猫；组合与九张单件图均为Blender实际渲染。尚未接入新Godot场景或新增玩法测试批次，精细美术和引擎效果未验收。
+最新范围：用户要求在右后桌沿加入整张旧皮革卷成、露出一至两支杖头的破旧法杖袋，后续作为法杖管理入口。已交付[整体修订03及设计说明](E:/Project/game-002-godogen-lab/docs/map-desk-visual-design-v03.md)，OverallRevisionAwaitingConfirmation；独立仓库codex/setup-godogen-demo / 59db261（本地无远端）。本轮仅生成整体概念图并检查来源／链接，用户确认后才依次做MD-11组件稿和Blender资产；未新增模型、引擎或交互测试。以下九类资产及E1证据保留其原范围，猫模型继续暂缓。
+
+上一批用户要求“开始生成blender资产，猫先不用生成”。已完成[九类原生资产与渲染图册](E:/Project/game-002-godogen-lab/art/map-desk-v01/README.md)，状态 NativeAssetsCreated / NeedsArtReview；独立仓库 codex/setup-godogen-demo / 568653496dd70ebbbb8a2f161147d20fe1bda774（本地无远端）。MD-01–08和MD-10包含分件.blend、GLB与组合工程，猫暂缓、杂物保留。电脑插件实际调整宝箱铰链，后续加工保留该变换。[最终文件验证](E:/Project/game-002-godogen-lab/art/map-desk-v01/verification.json)通过：九件源文件及组合重新打开、贴图打包、GLB实际回导后三角面与尺寸一致、没有展示地面混入且无猫；组合与九张单件图均为Blender实际渲染。尚未接入新Godot场景或新增玩法测试批次，精细美术和引擎效果未验收。
 
 上一轮右侧地图[整体方向](E:/Project/game-002-godogen-lab/docs/map-desk-visual-design-v02.md)为 OverallDirectionConfirmed，[十张组件建模设计稿](E:/Project/game-002-godogen-lab/concepts/blender-sheets-v01/index.md)为 ComponentDesignDraft；其独立提交78b77d1及来源记录保留。当前Godot实机证据仍为下方E1 R2；原生资产文件验证与生成多视图均不能代替引擎或玩法验收。
 

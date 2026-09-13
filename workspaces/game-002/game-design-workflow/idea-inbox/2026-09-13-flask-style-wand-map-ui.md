@@ -1,8 +1,16 @@
 # Flask 参考风格的法杖装配与地图 UI
 
-状态：Raw Idea / Unqualified。日期：2026-09-13。右侧地图整体美术方向已获用户确认（OverallDirectionConfirmed），十张 Blender 组件参考稿已生成（ComponentDesignDraft）。最新已按授权制作九类原生Blender资产，猫暂缓（NativeAssetsCreated / NeedsArtReview）；Godot实机仍为此前E1 R2。本批美术制作与文件验证不代表本条原始玩法想法晋级或玩法采纳。
+状态：Raw Idea / Unqualified。日期：2026-09-13。最新为新增法杖袋的整体修订图03，状态OverallRevisionAwaitingConfirmation；用户确认整体后，再依次制作新增组件图和Blender资产。此前整体02已确认、十张组件参考稿与九类原生资产已交付，猫模型暂缓；Godot实机仍为E1 R2。美术制作与文件验证不代表本条原始玩法想法晋级或玩法采纳。
 
-## 最新输入：制作原生 Blender 资产，猫暂缓
+## 最新输入：旧皮革法杖袋与法杖管理入口
+
+用户：“右侧再加入一个破旧的法杖袋（由整张的旧皮革卷成），斜靠在桌子右后侧，末端露出一到二支法杖头；后续将其作为法杖管理入口。先更新整体效果图，确认后再新增组件效果图、再新建blender资产”。
+
+已生成[整体效果图03](E:/Project/game-002-godogen-lab/concepts/map-desk-overall-v03.png)，[设计说明与来源](E:/Project/game-002-godogen-lab/docs/map-desk-visual-design-v03.md)记录右后桌沿的整皮卷袋、搭接边、绑带与两支外露杖头；保留杂物，原概念中的猫略向左移，猫模型继续暂缓。独立仓库codex/setup-godogen-demo / 59db26136b46a6ef3185203e57aa3d01fb5a0f17，本地无远端。
+
+本次已明确法杖袋作为后续法杖管理入口的用途。按grill-with-docs核对现行核心与词汇，其与战前法杖配置有关；但点击／悬停反馈、所进入界面与管理范围仍为Unknown，不在本轮补写。露出一至两支只约束视觉，不定义库存或携带上限。新增物件预留MD-11，当前只有整体概念修订、等待确认；组件稿与原生模型未开始。整体图确认不自动填补本条原始想法的全部资格缺口。
+
+## 前轮输入：制作原生 Blender 资产，猫暂缓
 
 用户：“开始生成blender资产，猫先不用生成”。[九类原生资产图册](E:/Project/game-002-godogen-lab/art/map-desk-v01/README.md)已交付，涵盖桌面与保留杂物、环境地图纸面、红线、法师木雕、篝火、水晶球、地点建筑、金币宝箱和旧书；MD-09猫本批跳过。分件与组合均为实际可编辑模型，附GLB、打包纹理和Blender渲染。独立仓库 codex/setup-godogen-demo / 568653496dd70ebbbb8a2f161147d20fe1bda774，本地无远端。
 
