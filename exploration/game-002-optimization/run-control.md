@@ -2,7 +2,32 @@
 
 本文件是 `game-002-optimization` 的单轮探索控制面。它只约束本项目内的研究、候选、模拟、原型和评估记录；不能授权直接修改 game-002。每次自动探索开始前先填写“当前运行”，结束后补齐结果和下一步。
 
-## 当前运行：基于全游戏 RC1 的策略深度与独特机制（2026-09-14）
+## 当前运行：时间轴施法构筑的跨品类研究（2026-09-14）
+
+```yaml
+project_id: game-002-optimization
+run_id: OPT-20260914-002
+context_pack: baseline-2026-09-09-001
+explicit_source: GDD-G002-FULL-001@1.0-RC1
+source_commit: 87840a221af330a2c715fc9c390eae982a00aebd
+active_question: Q-20260914-timeline-construction
+candidate_ids: [C-rhythm-budget-v01, C-bounded-ready-window-v01, C-wand-follow-clock-v01]
+autonomy_level: L1-supervised
+status: Completed
+review: Needs Human Review
+round_budget: 1 cross-genre research pass; at most 10 web calls; at most 3 raw candidates; 0 gameplay simulations; 0 playable prototypes
+max_rounds: 1
+stop_conditions: deliver primary-source comparison and concrete timeline alternatives; no automatic qualification or RC1 writeback
+```
+
+- 授权依据：用户要求在核心时间轴施法构筑上创新并调研其他品类。本轮活动问题转为时间调度；上一轮优先体验问题不再作为当前待答问题，也不把本次转向记成采纳上一轮任何候选。
+- 读取边界：继续使用用户指定 RC1 及相关构句／战斗正文；活动包保持原登记。仅检索外部产品的公开资料，不读其他本地探索方向。
+- 预期产物：跨品类研究、三项时间轴原始候选、当前问题、导航与控制更新。既有完成冷却、复诵、蓄势和节律杖作为差异检查，不换名声称新增。
+- 已完成：[研究与来源](insights/2026-09-14-timeline-cross-genre-research.md)、[三项原始候选](idea-inbox/2026-09-14-timeline-construction.md)、[当前问题](questions/Q-20260914-timeline-construction.md)、README与本控制文件。实际8次web调用，核心采用4个产品的官方来源；没有执行游戏模拟、原型或真人试玩。
+- 文档验证：5份任务文件的本地Markdown链接可解析，无Unicode替换字符；核对R1示例的三组释放序列及两间隔和均为12刻。这只是算术核对，不是玩法验收或可用构筑证明。
+- 结论：研究Provisional，3项设计仍Raw Idea / Unqualified。已提出优先级问题，未答时保持开放；推荐R1，不自动视为用户采纳，也不回写RC1。
+
+## 历史运行：基于全游戏 RC1 的策略深度与独特机制（2026-09-14）
 
 ```yaml
 project_id: game-002-optimization

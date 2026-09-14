@@ -2,7 +2,13 @@
 
 Project ID：`game-002-optimization`。状态：`Active / Core Design Context Active`。
 
-## 当前入口：2026-09-14 RC1 策略深度与独特机制
+## 当前入口：2026-09-14 时间轴施法构筑
+
+用户将研究重点转到核心时间轴，并授权参考其他品类。[跨品类研究](insights/2026-09-14-timeline-cross-genre-research.md)核对BRAVELY DEFAULT II、Opus Magnum、Tzolk'in和Phantom Brigade的官方资料，提出[三项原始候选](idea-inbox/2026-09-14-timeline-construction.md)：相邻循环冷却预算重排、有限候发、法杖跟随。建议先验证时间分配，再独立比较启动依赖。
+
+研究结论为`Provisional`，新增机制为`Agent Proposal / Raw Idea / Unqualified`；没有改变RC1或执行对局／真人测试。来源仍为用户指定RC1，活动包不变；未读取其他本地探索方向。当前问题见[Q](questions/Q-20260914-timeline-construction.md)，运行见[控制记录](run-control.md)。
+
+## 历史入口：2026-09-14 RC1 策略深度与独特机制
 
 用户指定 game-002 的全游戏 GDD，并要求不阅读其他探索方向。本轮以 `GDD-G002-FULL-001 / 1.0 RC1` 为显式补充来源，活动背景包保持原登记；[来源记录](insights/2026-09-14-rc1-strategy-source-record.md)保存提交、摘要与旧包差异。
 
