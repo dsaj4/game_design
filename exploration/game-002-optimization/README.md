@@ -2,6 +2,14 @@
 
 Project ID：`game-002-optimization`。状态：`Active / Core Design Context Active`。
 
+## 当前入口：2026-09-14 RC1 策略深度与独特机制
+
+用户指定 game-002 的全游戏 GDD，并要求不阅读其他探索方向。本轮以 `GDD-G002-FULL-001 / 1.0 RC1` 为显式补充来源，活动背景包保持原登记；[来源记录](insights/2026-09-14-rc1-strategy-source-record.md)保存提交、摘要与旧包差异。
+
+已整理[四项原始创意](idea-inbox/2026-09-14-rc1-strategy-depth.md)：公开条件敌意、封词借词、痕迹牵动敌方能力、两杖接句。全部为 `Agent Proposal / Raw Idea / Unqualified`，优先建议先验证公开条件敌意；尚无用户选择、模拟、试玩、资格晋级或 RC1 回写。下一项问题见[本轮问题](questions/Q-20260914-rc1-strategy-depth.md)，运行入口见[run-control](run-control.md)。
+
+## 历史阶段与导航
+
 任务是基于锁定版本的 game-002 核心设计背景探索优化。当前活动包为 `baseline-2026-09-09-001`。本次时间背包探索之前，已有两份 `Raw Idea / Unqualified` 候选（战场编译器、法术远征肉鸽），当时尚无合格素材、正式提案、评估或 GDD；前一轮匹配研究推荐先验证“公开敌意的法术远征 + 时间承诺战斗 + 词卡流派构筑”。
 
 2026-09-09 用户另行提出[纵向时间背包与循环法术](idea-inbox/2026-09-09-timeline-backpack-spells.md)，当前讨论切换至该候选 `C-timeline-backpack-v01`；连同上述历史候选，现有三份 inbox 记录。本轮仅对照活动背景包，不读取其他探索方向正文。TB1–TB4 已独立晋级[战前编排与循环调度](idea-materials/M-2026-09-09-timeline-backpack-scheduling.md)，状态 `Qualified GDD Material / Hypothesis`：战前编排、战中自动循环、实体词卡独占、同刻覆盖和命中打断只损失本次释放且周期不变。其他状态效果与改进建议保持 `Raw Idea / Unqualified`，后续问题见[验证问题](questions/Q-20260909-timeline-backpack.md)。尚无本候选的正式提案、评估、GDD 或实际验证。上段研究推荐保留为历史上下文，不作为本轮选择依据。
