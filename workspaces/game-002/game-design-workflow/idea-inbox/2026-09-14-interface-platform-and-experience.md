@@ -11,7 +11,7 @@
 - [当前缺口与关闭标准](../../docs/pre-gdd-design-decisions-2026-09-13.md)、[BR已确认批次](../idea-materials/M-2026-09-13-pre-gdd-recommendation-batch.md)、[核心](../core-concept.md)。
 - [战场前态／过程／结果表现](../idea-materials/M-2026-09-10-battlefield-state-change-expression.md)。
 - [地图桌面及法杖袋原始记录](2026-09-13-flask-style-wand-map-ui.md)：只读取同项目记录来核对用途与已确认构图，不把示意节点、露出的两支杖或模型尺寸转换为路线、库存或正式参数。
-- [HG／WG／SG](2026-09-14-host-range-starting-content.md)、[CG实体接口](2026-09-14-card-interface-completion.md)、[PG v0.2参数与渠道](2026-09-14-first-release-parameters-and-channels.md)、[EG环境](2026-09-14-environment-forms-and-thresholds.md)、[RG路线／遭遇／压力](2026-09-14-run-route-encounters-and-fatigue.md)均含待选项；本页引用其候选时同步继承待选状态。
+- [HG／WG／SG](../idea-materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)已按CORE-031采用；[CG实体接口](2026-09-14-card-interface-completion.md)、[PG v0.2参数与渠道](2026-09-14-first-release-parameters-and-channels.md)、[EG环境](2026-09-14-environment-forms-and-thresholds.md)、[RG路线／遭遇／压力](2026-09-14-run-route-encounters-and-fatigue.md)仍含待选项，本页引用时继承其状态。
 - [统一GDD模板](../../../../game-design-workflow/templates/gdd-writing-requirements-and-template.md)第1、2、5、10–13、15章用于检查将来写作需要的信息；本页仍采用inbox资格结构。
 
 ## 可能带来的玩家体验
@@ -212,7 +212,7 @@ UX-E01建议首次教学由四个可跳过提示组成：用实体卡构句→�
 | 玩家处境／功能 | 战前编排、自动观察、战外成长及继续游戏的完整操作路径 | Clear |
 | 玩家行为／可见影响 | 本页给实际屏幕动作、锁定与失败反馈，但UX-C01、跨战绑定处置、UX-T01／S01等新增取舍尚未由用户选择 | Unknown／待裁决 |
 | 预期价值 | 能读句、理解时序并从具体失败原因调整；目前是候选目标 | Clear／Hypothesis |
-| 与现行关系 | BR09／11、HG01、已确认视觉用途为约束；实际内容依待选HG／WG／SG／CG／PG／EG／RG | Clear |
+| 与现行关系 | BR09／11、HG01、HG02／WG01／SG01及已确认视觉用途为约束；其他实际内容依待选CG／PG／EG／RG | Clear |
 | 未知与验证 | 用户选定交互／秒刻／范围后，以U01–08和RG压力指标验证；当前不执行 | Clear |
 
 ### 当前缺口
@@ -228,6 +228,7 @@ UX-E01建议首次教学由四个可跳过提示组成：用实体卡构句→�
 ## 下一步
 
 - [x] 使用grill-with-docs查阅同项目规则与视觉来源，形成具体候选。
-- [ ] 先完成正在等待的HG／WG／SG答复，再按依赖评议CG／PG／EG／RG／UX，不重复询问HG01。
+- [x] HG／WG／SG已明确采用并同步为CORE-031，不重复提问。
+- [ ] 继续按依赖评议CG／PG／EG／RG／UX，默认配置、最少出战数及跨战实例处理不随SG资源采纳。
 - [ ] 采用后晋级并同步受影响规则、素材与追踪；不以提稿数当关闭数。
 - [ ] 设计缺口结清后再写统一模板的全游戏GDD Wiki；各项功能与体验维持Hypothesis／NotRun直到得到新证据。

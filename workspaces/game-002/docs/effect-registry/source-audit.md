@@ -1,5 +1,9 @@
 # 效果来源审查记录
 
+## 2026-09-14 HG02／WG01／SG01明确采纳
+
+用户本次“确认”回应此前阵营／三种范围／4杖12词的成组问题，晋级[合格素材](../../game-design-workflow/idea-materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)并按CORE-031采纳。FX-026／027／079／106更新r3，旧版本保留；共同创建阵营适用于元素创建、环境转化及抵消补生，不改变其事件与继承顺序。原木杖商品仍由RG-C01裁决；CG／PG／EG／RG／UX新选择未升级。当前63素材、47inbox、134FX，13／26组DG已关闭。仅静态实体／范围及文档检查，玩法证据仍Hypothesis／NotRun。
+
 ## 2026-09-14 VB规范化验收输入
 
 [VB输入](../pre-gdd-validation-inputs-2026-09-14.md)补4库存断点、9套构筑、固定采购／相位／范围、720项单场计划、36边界输入、20整局计划、20局部事件预期及6项成长诊断，全部NotRun。沿CORE／RC／BR与待审CG／PG／EG／RG／UX，不新增FX ID或提升采纳／证据状态。旧NF与RG首领损耗目标差异明示待裁决；当前素材62份、inbox47份、FX134项，关闭10／26。

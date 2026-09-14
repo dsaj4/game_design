@@ -183,3 +183,11 @@ ST01–04明确首次生效、阶段内新状态延后、效果后衰减、清�
 | G002-CORE-030 | HG01：玩家／敌人承载并兑现火冰攻防；树木／草地可持层参与形态、抵消与汲取但无生命／护甲；石地不接受；元素保持共享层数与抵消规则 | Accepted；Hypothesis／NotRun | [用户确认](idea-inbox/2026-09-14-host-range-starting-content.md)、[合格素材](idea-materials/M-2026-09-14-element-status-host-eligibility.md)、[采纳文本](draft-changes/D-2026-09-14-element-status-host-eligibility.md) |
 
 HG02／WG01／SG01为待审阵营、实际范围与起始资源推荐；[CG逐卡接口](idea-inbox/2026-09-14-card-interface-completion.md)亦待审。HG01不代表这些新选择或全部DG05已经确定。当前仍10／26组关闭，继续实际内容及参数补齐。
+
+## 2026-09-14：阵营、实际范围与起始资源
+
+| ID | 决定 | 状态与证据 | 来源 |
+| --- | --- | --- | --- |
+| G002-CORE-031 | HG02玩家／敌人／环境／创建元素／预设元素的阵营与固有属性；WG01三种固定法杖、10格锚点与裁边及角色范围；SG01起始4根原木杖、12张词卡、空可换槽、4出战上限及库存容量 | Accepted；Hypothesis／NotRun | [原问题与“确认”](idea-inbox/2026-09-14-host-range-starting-content.md)、[合格素材](idea-materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)、[采纳文本](draft-changes/D-2026-09-14-factions-wand-ranges-and-starting-loadout.md) |
+
+用户本次“确认”回应HG02／WG01／SG01成组推荐，HG01此前的单独采纳仍成立。DG04、DG05、DG17关闭，累计13／26；DG15补齐容量子项，货架与UX开战门槛待审。UX默认配置／跨战失效引用归DG24／25继续裁决，不作为DG17的资源未定项。原木杖额外出售留给RG-C01；PG／EG／RG／UX新数值和CG新接口不随本次升级。旧决策时点文字与候选完整保留，无新GDD或玩法测试。

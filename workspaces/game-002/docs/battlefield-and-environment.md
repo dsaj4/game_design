@@ -1,5 +1,7 @@
 # 第一人称战场与环境设计入口
 
+2026-09-14当前：[HG01宿主资格](../game-design-workflow/idea-materials/M-2026-09-14-element-status-host-eligibility.md)及[HG02阵营／WG01范围](../game-design-workflow/idea-materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)均已采纳。玩家友方且在棋盘外，环境中立，玩家创建元素友方；三种法杖与锚点／裁边已定。下方保留历史衔接，EG实际阈值与双痕迹仍待审。
+
 最新明确：环境单位各有转化阈值；在相关释放作用下经历树木／燃烧树木／烧焦树木等阶段后消失变元素，无释放停留末阶段。旧BF的“烧焦始终保留占位”仅是旧候选，当前元素方向按[EL04补充](../game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md)处理。草状态／法术第一阶段后置，单位克制保留。
 
 当前衔接：[元素法术机制方向](../game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md)新增同种叠层、满位施加／重试、共享层数归零消散、环境转化继承、属性克制与单元素状态。下方BF-C是原v0.1候选，独立P／寿命、满位结果及烧焦占位不能作为新元素规则默认；当前先细化元素，不再要求先整包确认旧BF-C。

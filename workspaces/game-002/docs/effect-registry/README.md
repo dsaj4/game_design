@@ -1,5 +1,7 @@
 # 效果注册与理清系统
 
+2026-09-14最新：HG02／WG01／SG01已按[CORE-031](../../game-design-workflow/idea-materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)采纳。FX-026／027／079／106均更新r3，落实节律／余火固定芯、实际阵营和借位范围；其余创建／转化／补生效果共同依赖HG02的身份阵营表，不新增触发或效果ID。总ID134，Hypothesis／NotRun；CG／PG／EG／RG／UX新取舍仍待审。
+
 2026-09-14同步：FX-061／062升级r2，对齐已采纳环境末检查、当前层数、形态保留及HG01烧焦后仍接受火冰；历史r1完整保留。[EG](../../game-design-workflow/idea-inbox/2026-09-14-environment-forms-and-thresholds.md)阈值／双痕迹和[RG](../../game-design-workflow/idea-inbox/2026-09-14-run-route-encounters-and-fatigue.md)整局／疲劳为待审候选，不因本次登记同步获得采纳或运行证据。
 
 当前（2026-09-14）：[HG01宿主资格](../../game-design-workflow/idea-materials/M-2026-09-14-element-status-host-eligibility.md)已采纳，FX-003/r8、004/r7、065/r8。S2／E3及ST／RC／BR保持；总ID134。其余实际内容与本轮待审CG接口由[DG清单](../pre-gdd-design-decisions-2026-09-13.md)追踪，新规则Hypothesis／NotRun。

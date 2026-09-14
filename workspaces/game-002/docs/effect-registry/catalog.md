@@ -1,8 +1,10 @@
 # 效果目录
 
+2026-09-14最新：HG02／WG01／SG01已按[CORE-031](../../game-design-workflow/idea-materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)采纳。FX-026／027／079／106均更新r3，落实节律／余火固定芯、实际阵营和借位范围；其余创建／转化／补生效果共同依赖HG02的身份阵营表，不新增触发或效果ID。总ID134，Hypothesis／NotRun；CG／PG／EG／RG／UX新取舍仍待审。
+
 2026-09-14同步遗漏的旧登记：FX-061/r2“环境元素阈值与形态推进”、FX-062/r2“环境已达形态保留”，依据已采纳CORE-022–028／030修正r1的即时检查／回退／烧焦失去资格。EG具体阈值及新分支仍Raw；总ID134不变。
 
-当前（2026-09-14）：HG01宿主资格已采纳，FX-003/r8、004/r7、065/r8；S2的25项与E3的30项及ST／RC／BR保持。WG／SG及CG新接口为待审推荐，见[DG清单](../pre-gdd-design-decisions-2026-09-13.md)。总ID134，无新效果ID，新规则NotRun。
+当前（2026-09-14）：HG01宿主资格已采纳，FX-003/r8、004/r7、065/r8；S2的25项与E3的30项及ST／RC／BR保持。WG／SG已按CORE-031采纳，CG新接口为待审推荐，见[DG清单](../pre-gdd-design-decisions-2026-09-13.md)。总ID134，无新效果ID，新规则NotRun。
 
 ## 本批公共规则版本：BR v1
 
@@ -15,8 +17,8 @@
 | 效果 | 修订 | RC依据 |
 | --- | --- | --- |
 | [FX-030](entries/FX-030.md) | r2 | BR10／SCOPE-004：具体法术产金首版后置 |
-| [FX-027](entries/FX-027.md) | r2 | BR06／07：空杖激活与范围同组去重 |
-| [FX-026](entries/FX-026.md) | r2 | BR03／06／07：装配、每战重置及同组去重 |
+| [FX-027](entries/FX-027.md) | r3 | CORE-031：余火杖横三格范围；合法燃烧施加＋1 |
+| [FX-026](entries/FX-026.md) | r3 | CORE-031：节律杖十字范围；仅本杖简易法术隔周期减1 |
 | [FX-020](entries/FX-020.md) | r2 | BR10／SCOPE-004：具体法术掉卡首版后置 |
 | [FX-065](entries/FX-065.md) | r8 | HG01：环境：树木可持火冰层数并按资格转化，草地保持地面身份 |
 | [FX-069](entries/FX-069.md) | r4 | G002-CORE-026／027／028 |
@@ -43,13 +45,13 @@
 | [FX-068](entries/FX-068.md) | r4 | BR01／02／04：邻近范围、过滤与当前源层数公式 |
 | [FX-070](entries/FX-070.md) | r2 | RC08、RC09 |
 | [FX-071](entries/FX-071.md) | r2 | RC08、RC09 |
-| [FX-079](entries/FX-079.md) | r2 | RC12 |
+| [FX-079](entries/FX-079.md) | r3 | CORE-031：实际友方／中立及玩家棋盘外 |
 | [FX-080](entries/FX-080.md) | r2 | RC12 |
 | [FX-097](entries/FX-097.md) | r2 | RC08 |
 | [FX-098](entries/FX-098.md) | r2 | RC08、RC09 |
 | [FX-101](entries/FX-101.md) | r2 | RC08 |
 | [FX-105](entries/FX-105.md) | r2 | RC06、RC10 |
-| [FX-106](entries/FX-106.md) | r2 | RC07 |
+| [FX-106](entries/FX-106.md) | r3 | CORE-031：三固定形状与借位实际裁边 |
 | [FX-107](entries/FX-107.md) | r2 | RC07 |
 | [FX-110](entries/FX-110.md) | r2 | RC04、RC06 |
 | [FX-115](entries/FX-115.md) | r2 | RC07、RC10 |
@@ -116,8 +118,8 @@
 | [FX-023 消耗护甲](entries/FX-023.md) | 复合变化／消耗收益待定 | 动词＋元素与状态 | r4：当前S2／E3用法已选，RC适用规则Accepted；旧变体独立 | 公共规则已定；剩余DG依赖与参数待补 |
 | [FX-024 寒冷的：护甲通用分支](entries/FX-024.md) | 本句数值修饰＋附加状态 | 形容词卡 | Modifier v0.1方向Accepted；具体量和状态待定 | 待澄清 |
 | [FX-025 寒冷的：寒冰适配分支](entries/FX-025.md) | 本句数值修饰＋附加能力 | 形容词卡 | Modifier v0.1方向Accepted；对象身份与结果待定 | 待澄清 |
-| [FX-026 简易法术隔周期减冷却](entries/FX-026.md) | 条件数值修饰／周期计数 | 镶嵌 | r2：BR03／06／07：装配、每战重置及同组去重；未定内容见条目 | 公共规则已定；实际规格待补／NotRun |
-| [FX-027 燃烧施加范围强化](entries/FX-027.md) | 范围被动／事件量修饰 | 镶嵌 | r2：BR06／07：空杖激活与范围同组去重；未定内容见条目 | 公共规则已定；实际规格待补／NotRun |
+| [FX-026 简易法术隔周期减冷却](entries/FX-026.md) | 条件数值修饰／周期计数 | 镶嵌 | r3：节律杖固定芯，十字范围，仅简易法术隔周期减1 | 实际身份／范围已定，时间域待审／NotRun |
+| [FX-027 燃烧施加范围强化](entries/FX-027.md) | 范围被动／事件量修饰 | 镶嵌 | r3：余火杖固定芯，横三格，范围合法燃烧施加＋1 | 范围／宿主已定，PG量修正待审／NotRun |
 | [FX-028 力量等许可属性的强化](entries/FX-028.md) | 数量改变 | 名词／动词内容方向 | 已有提及；具体属性词义和参数待设计 | 待澄清 |
 | [FX-029 战内恢复及吸血方向](entries/FX-029.md) | 生命恢复／复合收益 | 未形成具体词卡 | Parked | 待澄清 |
 | [FX-030 有限产金](entries/FX-030.md) | 资源产出 | 待定义词卡或特效 | r2：BR10／SCOPE-004：具体法术产金首版后置；未定内容见条目 | 首版后置／NotRun |
@@ -211,7 +213,7 @@ FX-003／010保留r1摘要，并增加r2的BF候选分支。原SC／TC或测试�
 | [FX-076 缩小邻近范围并增强施加量](entries/FX-076.md) | 范围与施加量修饰 | Raw／r1／NotRun |
 | [FX-077 扩大邻近范围并降低施加量](entries/FX-077.md) | 范围与施加量修饰 | Raw／r1／NotRun |
 | [FX-078 提高消耗护甲的元素转层收益](entries/FX-078.md) | 消耗收益修饰 | Raw／r1／NotRun |
-| [FX-079 冰霜邻近施加仅限友方](entries/FX-079.md) | 对象筛选 | Raw／r1／NotRun |
+| [FX-079 冰霜邻近施加仅限友方](entries/FX-079.md) | 对象筛选 | E3护生／r3；实际阵营已定／NotRun |
 | [FX-080 火焰邻近施加排除友方](entries/FX-080.md) | 对象筛选 | Raw／r1／NotRun |
 | [FX-081 元素少邻居时增强邻近施加](entries/FX-081.md) | 占位条件与施加量修饰 | Raw／r1／NotRun |
 | [FX-082 元素多邻居时增强邻近施加](entries/FX-082.md) | 占位条件与施加量修饰 | Raw／r1／NotRun |
@@ -245,7 +247,7 @@ FX-003／010保留r1摘要，并增加r2的BF候选分支。原SC／TC或测试�
 | [FX-103 邻近施加提前并扣除未来一次](entries/FX-103.md) | 事件时间调整 | E2-V07 透支 |
 | [FX-104 邻近施加延后并合并后续输出](entries/FX-104.md) | 事件延后与输出暂存 | E2-V08 蓄放 |
 | [FX-105 自动邻近改由主动操控触发](entries/FX-105.md) | 触发方式替换 | E2-I01 行动炉芯 |
-| [FX-106 元素操控改从元素所在格计算范围](entries/FX-106.md) | 作用范围起点替换 | E2-I02 借位镜 |
+| [FX-106 元素操控改从元素所在格计算范围](entries/FX-106.md) | 作用范围起点替换 | E3-I02借位镜／r3；三形状裁边已定／NotRun |
 | [FX-107 满位回退由状态施加改为直接攻防](entries/FX-107.md) | 条件结果替换 | E2-I03 满溢阀 |
 | [FX-108 异种抵消的施加消耗回收为封存储量](entries/FX-108.md) | 消耗结果与资源回收 | E2-I04 抵消匣 |
 | [FX-109 异种状态抵消触发原状态收尾收益](entries/FX-109.md) | 状态消耗触发与分支结果 | E2-I05 逆温钉 |

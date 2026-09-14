@@ -1,10 +1,10 @@
 # game-002 正式素材索引
 
-最新：[HG01宿主资格](M-2026-09-14-element-status-host-eligibility.md)已采纳，G002-CORE-030；其余本轮推荐仍独立待审。
+最新：[阵营、法杖范围与起始库存](M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)已按G002-CORE-031采纳，HG01宿主资格保持；CG／PG／EG／RG／UX新取舍仍独立待审。
 
 此前：[BR01–12批量规则](M-2026-09-13-pre-gdd-recommendation-batch.md)；Qualified／Accepted；CORE-029、SCOPE-004、DOC-002，实际内容待补。
 
-当前共62份合格素材；新增[RC已采纳规则](M-2026-09-13-card-pool-rule-rulings.md)与[首版范围／S2／空间](M-2026-09-13-first-release-content-scope.md)。GDD写作暂停，先按DG清单裁决。
+当前共63份合格素材；新增[RC已采纳规则](M-2026-09-13-card-pool-rule-rulings.md)与[首版范围／S2／空间](M-2026-09-13-first-release-content-scope.md)。GDD写作暂停，先按DG清单裁决。
 
 共58份Qualified GDD Material；证据Hypothesis。可引用资格不等于完整系统已验证，具体范围以素材正文及[决定清单](../../docs/design-decisions-needed.md)为准。核心统一为[Core Concept v0.6](../core-concept.md)，C01–C08已处理，引用与执行骨架保留，SW01及R01–R32当前操作范围按G002-CORE-011简化；四类法术特征与多类型按G002-CORE-012，后续按类型讨论。
 

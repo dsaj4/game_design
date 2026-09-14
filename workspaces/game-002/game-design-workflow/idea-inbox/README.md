@@ -20,7 +20,7 @@
 | [环境形态与阈值](2026-09-14-environment-forms-and-thresholds.md) | Raw：三环境、四阈值线、双类痕迹与跨阈值推荐；待选择 |
 | [整局路线、遭遇与疲劳](2026-09-14-run-route-encounters-and-fatigue.md) | Raw：6普通＋首领、12遭遇、生命／休整、金币前缀与完整疲劳；RG-C01商品修订待审 |
 | [单卡初值与渠道](2026-09-14-first-release-parameters-and-channels.md) | Raw：τ／L、全部支付与结果系数、逐项阶段／价格、商店名额与普通金币；Q-A／PG-Z01待审 |
-| [宿主、范围与起始内容](2026-09-14-host-range-starting-content.md) | HG01已晋级；HG02／WG01／SG01为Raw待审推荐 |
+| [宿主、范围与起始内容](2026-09-14-host-range-starting-content.md) | HG01及HG02／WG01／SG01已晋级并采纳；原木杖商品与后续参数仍待审 |
 | [首版卡池逐项接口](2026-09-14-card-interface-completion.md) | Raw：55项设计／53实体，角色、配对、正反例、事件／效果组及4项新取舍 |
 | [新版卡池共同规则推荐](2026-09-13-card-pool-rule-recommendations.md) | Raw：RC01–12完整推荐，含首次来源、复诵、一层触发、支付和指令芯跨杖修订；未采纳 |
 | [测试后状态裁决](2026-09-13-end-tick-status-rulings.md) | Promoted；三项裁决及授权固定先后，G002-CORE-018 |
