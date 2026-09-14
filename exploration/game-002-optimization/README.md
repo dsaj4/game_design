@@ -2,7 +2,13 @@
 
 Project ID：`game-002-optimization`。状态：`Active / Core Design Context Active`。
 
-## 当前入口：2026-09-14 时间轴施法构筑
+## 当前入口：2026-09-14 时间轴与战场表现
+
+用户要求通过时间轴带来战场新表现、新交互。[本轮创意](idea-inbox/2026-09-14-timeline-battlefield.md)区分未来投影（表现／战前查看）、待发法阵（新增场上对象）与巡行范围（新增动态锚点），并提供[范围巡行解释示意](insights/visuals/timeline-field-patrol.html)。全部为`Agent Proposal / Raw Idea / Unqualified`；示意不是对局模拟，没有修改RC1或读取其他探索方向。
+
+当前问题见[Q](questions/Q-20260914-timeline-battlefield.md)，执行范围见[run-control](run-control.md)。建议先以场景联动解释时间，再独立验证巡行范围；待发法阵需要更完整的新增规则审查。
+
+## 历史入口：2026-09-14 时间轴施法构筑
 
 用户将研究重点转到核心时间轴，并授权参考其他品类。[跨品类研究](insights/2026-09-14-timeline-cross-genre-research.md)核对BRAVELY DEFAULT II、Opus Magnum、Tzolk'in和Phantom Brigade的官方资料，提出[三项原始候选](idea-inbox/2026-09-14-timeline-construction.md)：相邻循环冷却预算重排、有限候发、法杖跟随。建议先验证时间分配，再独立比较启动依赖。
 
