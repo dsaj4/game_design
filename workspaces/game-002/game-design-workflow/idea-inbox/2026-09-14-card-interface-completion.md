@@ -1,5 +1,12 @@
 # 首版55项卡池的实体、角色与有限事件推荐
 
+## 2026-09-14 最新处理：已晋级并采纳
+
+原始表达保留。用户确认本组推荐。实际条款见[合格素材](../idea-materials/M-2026-09-14-card-interface-completion.md)，G002-CORE-032，RC1；设计Accepted，体验Hypothesis，新验证NotRun。下文“Raw／待选”仅记录晋级前时点，不再形成当前阻塞。
+
+## 晋级前原始记录（历史）
+
+
 基础依赖更新：HG02／WG01／SG01已按[CORE-031](../idea-materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)采纳；本页CG新增角色、事件与分组仍为待审推荐。
 
 日期：2026-09-14。状态：Raw Idea / Unqualified／完整推荐待审；已选卡面与已定公共规则继续有效，本页新增接口不能静默当作用户已确认。目标是补DG11／14／16，并为时间、参数和渠道提供实际条目。

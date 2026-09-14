@@ -1,5 +1,16 @@
 # game-002 原始表达与候选入口
 
+2026-09-14当前：CG／PG／EG／RG／UX已按CORE-032–036采纳，26组设计缺口全部Closed。首版S2 25项＋E3 30项，合并53实体（34词／19可换件）；合格素材68份、inbox47份、效果134项。当前内容为RC1基准，设计Accepted，平衡与理解Hypothesis／NotRun。用户授权后续无需确认直接补齐；后续按已有范围自主完成并保留来源，不再逐项提问。
+
+- [首版卡池实体、角色、事件与效果组](2026-09-14-card-interface-completion.md)：原文保留，已晋级对应M并采纳。
+- [首版时间、公式、卡牌参数与获取渠道](2026-09-14-first-release-parameters-and-channels.md)：原文保留，已晋级对应M并采纳。
+- [首版环境形态、痕迹与转化阈值](2026-09-14-environment-forms-and-thresholds.md)：原文保留，已晋级对应M并采纳。
+- [首版完整路线、敌人、遭遇、成长与疲劳](2026-09-14-run-route-encounters-and-fatigue.md)：原文保留，已晋级对应M并采纳。
+- [首版玩家旅程、交互、保存与功能表现](2026-09-14-interface-platform-and-experience.md)：原文保留，已晋级对应M并采纳。
+
+## 先前入口与处理记录（历史；通用约束保留）
+
+
 最新：[UX界面／平台／体验](2026-09-14-interface-platform-and-experience.md)：Raw成套推荐，含完整旅程、开战检查、保存反馈、秒刻／倍速、教学验收及功能资产；[26组内容总审](../../docs/pre-gdd-content-review-2026-09-14.md)明确剩余选择与未来验收输入。
 
 最新：[EG环境阈值](2026-09-14-environment-forms-and-thresholds.md)与[RG整局路线／遭遇／疲劳](2026-09-14-run-route-encounters-and-fatigue.md)：Raw完整推荐待审；PG按RG-C01将原木杖不售修订为v0.2。

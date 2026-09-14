@@ -69,3 +69,12 @@
 | 日期 | GDD／Proposal或协作入口 | 章节／版本 | 处理结果 | 备注 |
 | --- | --- | --- | --- | --- |
 | 2026-09-12 | [效果系统](../../docs/effect-registry/README.md)、工作区AGENTS、设计流程与测试交接 | ER v0.1／TH-002 r7 | Included | 用户明确授权的工作流；没有新GDD／Proposal或游戏核心变更 |
+
+
+## 2026-09-14 全游戏GDD使用记录
+
+| 日期 | 目标与处理 | 当前适用边界 |
+| --- | --- | --- |
+| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/09-validation-and-risks.md) | 纳入验证方法、记录与范围约束；旧数据只作历史。压力目标采用RG／UX，登记ID不代表全部旧效果入选。 |
+
+本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。

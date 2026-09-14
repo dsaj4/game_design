@@ -85,3 +85,12 @@
 2026-09-10：按[用户R01–R32全部采纳](../draft-changes/D-2026-09-10-semantic-world-executable-rules.md)同步本素材受影响表述；具体对象、词卡和参数仍按对应范围设计，证据Hypothesis。
 
 2026-09-10：按[简单对象交互采纳](../draft-changes/D-2026-09-10-simple-object-interactions.md)收束当前适用范围；详细词义和参数仍待设计。
+
+
+## 2026-09-14 全游戏GDD使用记录
+
+| 日期 | 目标与处理 | 当前适用边界 |
+| --- | --- | --- |
+| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/02-grammar-and-configuration.md) | 纳入实体、合法句、类型、绑定和装配；实际白名单、3种法杖、起点与角色由CG／WG／SG限定；寒冷、召唤与未选卡不因例句入池。 |
+
+本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。

@@ -73,3 +73,12 @@
 | 2026-09-10 | [SW01采纳](../draft-changes/D-2026-09-10-semantic-world-object-scope.md) | 初始范围证据 |
 | 2026-09-10 | [SW02采纳](../draft-changes/D-2026-09-10-instance-and-conditional-binding.md) | 引用模型保留 |
 | 2026-09-10 | [简化范围采纳](../draft-changes/D-2026-09-10-simple-object-interactions.md) | 当前G002-CORE-011范围 |
+
+
+## 2026-09-14 全游戏GDD使用记录
+
+| 日期 | 目标与处理 | 当前适用边界 |
+| --- | --- | --- |
+| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/03-combat-and-status.md) | 只纳入可引用对象、固定名单、当前过程、费用与公开顺序；掉卡／雷电／位移／材料加工等旧扩展首版后置。 |
+
+本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。

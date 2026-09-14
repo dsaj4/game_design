@@ -1,3 +1,50 @@
+# GDD前实际内容总审：RC1已采纳
+
+日期：2026-09-14。状态：Closed / Accepted，26／26设计组已收束。用户明确授权后续无需确认直接补齐；CG直接确认，其余PG／EG／RG／UX按已有推荐整包裁决。首版参数为RC1基准，平衡、可读性及玩法结果Hypothesis／NotRun。68份合格素材、47份原始记录、134个效果ID，历史库保留。
+
+## 五组采用依据
+
+- [CG：首版卡池实体、角色、事件与效果组](../game-design-workflow/idea-materials/M-2026-09-14-card-interface-completion.md)，CORE-032。
+- [PG：首版时间、公式、卡牌参数与获取渠道](../game-design-workflow/idea-materials/M-2026-09-14-first-release-parameters-and-channels.md)，CORE-033。
+- [EG：首版环境形态、痕迹与转化阈值](../game-design-workflow/idea-materials/M-2026-09-14-environment-forms-and-thresholds.md)，CORE-034。
+- [RG：首版完整路线、敌人、遭遇、成长与疲劳](../game-design-workflow/idea-materials/M-2026-09-14-run-route-encounters-and-fatigue.md)，CORE-035。
+- [UX：首版玩家旅程、交互、保存与功能表现](../game-design-workflow/idea-materials/M-2026-09-14-interface-platform-and-experience.md)，CORE-036。
+
+| 组 | 已采用内容 | 正常例 | 边界例 | 来源 |
+| --- | --- | --- | --- | --- |
+| DG01 首版范围与S2选择 | 已关闭：已确认，2026-09-13用户选择“采用这个首版范围（推荐）”。S2全部25项纳入细化；不是数值冻结。 | 依既有已确认条件按公开顺序结算 | 不越范围、不补对象、不恢复已取消身份 | [CORE-019–031与历史逐组来源](../game-design-workflow/core-concept.md) |
+| DG02 格子、玩家位置与邻近 | 已关闭：已确认，2026-09-13用户选择“采用这版空间规则（推荐）”，G002-CORE-020。 | 依既有已确认条件按公开顺序结算 | 不越范围、不补对象、不恢复已取消身份 | [CORE-019–031与历史逐组来源](../game-design-workflow/core-concept.md) |
+| DG03 元素出生格与公开顺序 | 已关闭：已确认，2026-09-13用户选择“只在所选敌人旁生成（推荐）”，G002-CORE-021。 | 依既有已确认条件按公开顺序结算 | 不越范围、不补对象、不恢复已取消身份 | [CORE-019–031与历史逐组来源](../game-design-workflow/core-concept.md) |
+| DG04 法杖范围与实际角色范围 | 已关闭：已确认并关闭；WG01实际范围按G002-CORE-031采用。 | 合法的“获得 护甲”可以给棋盘外玩家加甲；范围内敌人的护甲可随敌人被引用。 | 敌人不在法杖范围内时，不能因其护甲是状态而跨范围选中；元素位于范围边缘时，邻近作用可到达范围外合格邻格。 | [CORE-019–031与历史逐组来源](../game-design-workflow/core-concept.md) |
+| DG05 阵营、物性与状态宿主资格 | 已关闭：已确认并关闭；BR02、HG01及HG02实际对象表全部采用。 | 护生过滤时排除中立树木；避亲过滤时只保留敌方的合格对象。 | 玩家为友方也不因此出现在棋盘正交邻近名单中；环境有冰冻外观不等于拥有可消耗的护甲。 | [CORE-019–031与历史逐组来源](../game-design-workflow/core-concept.md) |
+| DG06 环境阈值的衡量方式与形态回退 | 已关闭：已确认。2026-09-13用户先后选择“按当前状态层数判断（推荐）”和“保留已达到形态，不自动回退（推荐）”，共同登记G002-CORE-022。 | 当前量达到下一阶段阈值，且满足其余条件时可推进。 | 历史累计足够、当前量不足，不继续推进；此前已达到形态保留，不因层数减少而恢复。 | [CORE-019–031与历史逐组来源](../game-design-workflow/core-concept.md) |
+| DG07 转化时点与相关释放的含义 | 已关闭：已确认。2026-09-13用户先后选择“对应法术正在释放且范围覆盖（推荐）”与“每刻环境阶段末统一检查（推荐）”，G002-CORE-023。 | 法杖给已有火焰补层，范围内树木由火焰邻近作用达标，在环境阶段末可转化；不要求释放法术直接给树木加层。 | 残留火焰仍在但对应释放已结束，不能单靠残留火焰授予环境最终转化许可；本刻曾经达标但检查时不足，不转化。 | [CORE-019–031与历史逐组来源](../game-design-workflow/core-concept.md) |
+| DG08 环境转元素的身份、来源和进度 | 已关闭：已确认。新身份按G002-CORE-024；用户本轮“均按推荐处理”收束当前DG08继承推荐，G002-CORE-025。 | 前杖曾点燃树木，检查时后杖提供对应覆盖，则新火焰归后杖，层数和已有小数衰减进度来自树木。 | 多覆盖只取后置合格杖的生成特性，不混合多根特性；草树变火焰后采用火固有属性，不重新修正带入层数；普通完全清除后重建仍从零计衰减进度。 | [CORE-019–031与历史逐组来源](../game-design-workflow/core-concept.md) |
+| DG09 补生位置、同种协调与地面转化 | 已关闭：已确认。用户选择两种转化原地生成、仅环境占位物可转化而地面保留，G002-CORE-026；进一步选择补生采用对应覆盖及后置优先，G002-CORE-027。 | 树木或旧元素原地转成新元素，别格已有同种不吸收本次量；原格地面继续存在。边界例：恰好抵消没有正余量则只消散，不生成零层元素。 | 不越范围、不补对象、不恢复已取消身份 | [CORE-019–031与历史逐组来源](../game-design-workflow/core-concept.md) |
+| DG10 环境阶段新生、状态阶段转换排序 | 已关闭：已确认。用户对固定环境阶段自动名单回答“确认”，G002-CORE-028；其他顺序与新状态资格已依据R08、SW02-A及ST02核对闭合。 | 法术阶段生成的元素可以参与当刻环境自动；环境阶段途中或末尾新生最早下刻自动。 | 旧元素已在名单中但中途消失则跳过，新元素不接替；环境中新生在随后状态阶段开始前存在时，可当刻自然衰减；状态阶段中新生不插队，不以延迟自动作用推导延迟衰减。 | [CORE-019–031与历史逐组来源](../game-design-workflow/core-concept.md) |
+| DG11 逐卡词义角色与实体分词 | 已关闭：CG：53实体，实际分词与角色、默认单体及明确范围例外 | 元素伤害敌人须3张对应实体 | 状态不存在可参与为0条件，但不能当正支付 | [CG](../game-design-workflow/idea-materials/M-2026-09-14-card-interface-completion.md) |
+| DG12 零时长与复诵释放段重叠 | 已关闭：PG／CG：普通C≥1，特殊C0；L1／3，复诵可重叠且同杖追加优先 | 完成把当前释放改至下刻 | 本刻仍在冷却，生命伤害可取消该机会 | [PG](../game-design-workflow/idea-materials/M-2026-09-14-first-release-parameters-and-channels.md) |
+| DG13 数值公式结构、零量与蓄势首次兑现 | 已关闭：PG：逐行τ、量、费用、零值；先固定修正后乘数再取整 | 3次简易成功积满，下一整句实际攻防×2 | 没有支付输入不能靠固定加成启动；全实际0不清蓄势 | [PG](../game-design-workflow/idea-materials/M-2026-09-14-first-release-parameters-and-channels.md) |
+| DG14 派生分类与多目标消散组合表 | 已关闭：CG：来源、根动作／一层触发及消散原因逐项登记 | 原动作自耗归零仍完成已提交动作 | 消散爆炸后不再触发递归响应 | [CG](../game-design-workflow/idea-materials/M-2026-09-14-card-interface-completion.md) |
+| DG15 可换槽、持有、获取与激活 | 已关闭：CG／PG／UX：固定＋2可换槽，19唯一物品渠道与装配反馈完整 | 战前免费卸装，库存与已装合计同ID≤1 | 双律与攻守同装拒绝并保留原装配 | [CG](../game-design-workflow/idea-materials/M-2026-09-14-card-interface-completion.md)、[PG](../game-design-workflow/idea-materials/M-2026-09-14-first-release-parameters-and-channels.md)、[UX](../game-design-workflow/idea-materials/M-2026-09-14-interface-platform-and-experience.md) |
+| DG16 同效果组叠加与非数值冲突 | 已关闭：CG-G01：每个机制归组，布尔合并、同事件最强一次 | 指令与应激同根同元素邻近请求合1次 | 溢流是原分支操作，不凭组名变递归触发 | [CG](../game-design-workflow/idea-materials/M-2026-09-14-card-interface-completion.md) |
+| DG17 首批固定法杖、起始库存与配置容量 | 已关闭：已确认并关闭；SG01起始资源与配置容量按CORE-031采用。UX默认配置与跨战失效实例的产品处理归DG24／25继续待审。 | 伤害敌人／获得护甲／释放火焰／火焰伤害敌人使用9实体，剩获得1、护甲1、冰霜1；两条伤害敌人与两条获得护甲使用8实体。 | 两条不同法术不能共用同一张释放卡；获得第5根法杖仍最多4根出战。默认相位与配置未随示例采用，可构句不等于已证明胜率。 | [CORE-019–031与历史逐组来源](../game-design-workflow/core-concept.md) |
+| DG18 渠道资格、内容阶段与完整卡池 | 已关闭：PG：3期34词／19件及价格、休整／商店资格完整 | 胜3后期2累计30词14件 | 同名已满3张词或已持同ID件先过滤，钱少不刷新商品 | [PG](../game-design-workflow/idea-materials/M-2026-09-14-first-release-parameters-and-channels.md) |
+| DG19 收集法术、掉卡与产金是否纳入首版 | 已关闭：已确认，G002-SCOPE-004；本组关闭。 | 普通胜利获得合法金币包；在休整或商店取得的护甲卡与已持有副本共同计算同名额度。 | 普通击败敌人不会凭空掉词卡；S2护甲和E3护甲不能各占一套三张额度；后置产卡接口不能据此出现在首版奖励池。 | [CORE-019–031与历史逐组来源](../game-design-workflow/core-concept.md) |
+| DG20 遭遇阵容、首领和路线规模 | 已关闭：RG：19节点、12遭遇、6普通＋单阶段首领、完整摆位 | 两组独立直连或交叉，图固定后128选择序列 | C4L敌旁全占进入回退，远处空格不解除限制 | [RG](../game-design-workflow/idea-materials/M-2026-09-14-run-route-encounters-and-fatigue.md) |
+| DG21 疲劳执行包 | 已关闭：RG06：F56／96，首扣F+4，ceil(Hf·k/20) | 第6次疲劳已累计≥1.05Hf，普通≤80／首领≤120 | 联合扣血同亡玩家失败，不用伤害、甲或打断结算 | [RG](../game-design-workflow/idea-materials/M-2026-09-14-run-route-encounters-and-fatigue.md) |
+| DG22 经济、恢复与成长压力 | 已关闭：PG／RG：生命100、恢复24、固定金币与完整风险目标 | 六次普通全领金币合计48–72再减采购 | 不战后回血，首领胜利直接终局不新增资源 | [RG](../game-design-workflow/idea-materials/M-2026-09-14-run-route-encounters-and-fatigue.md) |
+| DG23 GDD写作与数值冻结门槛 | 已关闭：已确认，G002-DOC-002；本组关闭。 | 所有首版内容与候选参数成套后，可以开始GDD-1 Wiki，参数仍明确标注待校准。 | 只有“应填起始牌组”的方向而没有卡名、副本和可运行组合时，不能关闭DG17；旧校准参数不能自动充当新55项输入。 | [CORE-019–031与历史逐组来源](../game-design-workflow/core-concept.md) |
+| DG24 局外流程、退出与保存 | 已关闭：UX：全旅程、单存档、逐次选择保存、锁定重播 | 胜利未领奖恢复同一领奖页 | 保存失败保留同结果重试，不继续刷新或虚报完成 | [UX](../game-design-workflow/idea-materials/M-2026-09-14-interface-platform-and-experience.md) |
+| DG25 平台、输入、时长与教学 | 已关闭：UX：Windows离线简中、键鼠、.5秒／刻、四档、教学任务 | 初态暂停，开始处理第0刻；单步完整一刻 | 观看速度不能改变疲劳时刻或奖励 | [UX](../game-design-workflow/idea-materials/M-2026-09-14-interface-platform-and-experience.md) |
+| DG26 视觉、信息层级与内容资产范围 | 已关闭：EG／UX：树草各9痕迹组合，完整信息、音画与替代通道 | 清层停动画，已达火冰痕迹各自保留 | 不因装饰书／宝箱增加卡牌词义、事件或商店 | [UX](../game-design-workflow/idea-materials/M-2026-09-14-interface-platform-and-experience.md) |
+
+## 剩余工作归属
+
+设计问题已收束，开始按统一GDD-2模板整理Wiki。VB为未来验收输入，依赖已升级到RC1；720项单场、36项边界、20整局计划和20局部预期仍全部NotRun。体验是否成立与参数是否需要调整属于后续验证。草法术、旧未选卡、召唤、复杂环境与局外成长保持Parked。
+
+## 采用前总审（历史，保留原始取舍）
+
 # GDD前实际内容总审：采用记录、候选与剩余工作
 
 日期：2026-09-14。状态：Review／设计审查，不是玩法测试或GDD。审查依据为当前[DG主清单](pre-gdd-design-decisions-2026-09-13.md)、CORE-031及以前已采纳规则与六份9月14日实际推荐。原始库及历史证据保留。

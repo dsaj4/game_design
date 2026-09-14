@@ -78,3 +78,12 @@
 | 2026-09-10 | [设计文档统一](../draft-changes/D-2026-09-10-current-design-alignment.md) | Included：明确表述部分 | 原始使用与确认记录从来源快照追溯；当前处理范围见接口采纳记录，尚无GDD |
 | 2026-09-10 | [接口采纳](../draft-changes/D-2026-09-10-accept-design-decisions.md) | Included：C05处理范围 | 用户采用推荐；参数重设计，后置机制细则仍为Unknown |
 | 2026-09-14 | [CORE-031](../draft-changes/D-2026-09-14-factions-wand-ranges-and-starting-loadout.md) | Included：实际起点／范围／容量 | 原始规则与历史确认保留，后续参数不自动采用 |
+
+
+## 2026-09-14 全游戏GDD使用记录
+
+| 日期 | 目标与处理 | 当前适用边界 |
+| --- | --- | --- |
+| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/02-grammar-and-configuration.md) | 纳入实体、合法句、类型、绑定和装配；实际白名单、3种法杖、起点与角色由CG／WG／SG限定；寒冷、召唤与未选卡不因例句入池。 |
+
+本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。

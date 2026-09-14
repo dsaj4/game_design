@@ -1,5 +1,10 @@
 # 第一人称战场与环境设计入口
 
+2026-09-14当前：CG／PG／EG／RG／UX已按CORE-032–036采纳，26组设计缺口全部Closed。首版S2 25项＋E3 30项，合并53实体（34词／19可换件）；合格素材68份、inbox47份、效果134项。当前内容为RC1基准，设计Accepted，平衡与理解Hypothesis／NotRun。用户授权后续无需确认直接补齐；后续按已有范围自主完成并保留来源，不再逐项提问。
+
+## 先前入口与处理记录（历史；通用约束保留）
+
+
 2026-09-14当前：[HG01宿主资格](../game-design-workflow/idea-materials/M-2026-09-14-element-status-host-eligibility.md)及[HG02阵营／WG01范围](../game-design-workflow/idea-materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)均已采纳。玩家友方且在棋盘外，环境中立，玩家创建元素友方；三种法杖与锚点／裁边已定。下方保留历史衔接，EG实际阈值与双痕迹仍待审。
 
 最新明确：环境单位各有转化阈值；在相关释放作用下经历树木／燃烧树木／烧焦树木等阶段后消失变元素，无释放停留末阶段。旧BF的“烧焦始终保留占位”仅是旧候选，当前元素方向按[EL04补充](../game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md)处理。草状态／法术第一阶段后置，单位克制保留。

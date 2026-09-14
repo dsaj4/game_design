@@ -155,3 +155,12 @@ S2／E3范围现按[RC06](M-2026-09-13-card-pool-rule-rulings.md)：原完整事
 | --- | --- | --- | --- | --- |
 | 2026-09-11 | [提案](../idea-proposals/P-2026-09-11-global-rule-boundaries.md) | GR v1 | Included | 已获用户批量采纳处理方式 |
 | 2026-09-11 | [评估](../evaluations/E-2026-09-11-global-rule-boundaries.md)、[Draft Change](../draft-changes/D-2026-09-11-global-rule-boundaries.md) | G002-CORE-015 | Accepted | 同步核心、受影响素材与交接；新测试NotRun |
+
+
+## 2026-09-14 全游戏GDD使用记录
+
+| 日期 | 目标与处理 | 当前适用边界 |
+| --- | --- | --- |
+| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/03-combat-and-status.md) | 保留现行身份、时序、成功及费用框架；旧具体例和参数只在RC1仍适用时使用。 |
+
+本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。

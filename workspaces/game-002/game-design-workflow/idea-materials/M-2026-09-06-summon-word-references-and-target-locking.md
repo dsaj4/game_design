@@ -81,3 +81,12 @@ C03已确认暂缓完整召唤指挥；推进时单独设计战前明确绑定�
 | 2026-09-10 | [接口采纳](../draft-changes/D-2026-09-10-accept-design-decisions.md) | Included：C03、C04处理范围 | 用户采用推荐；参数重设计，后置机制细则仍为Unknown |
 
 2026-09-10：按[用户R01–R32全部采纳](../draft-changes/D-2026-09-10-semantic-world-executable-rules.md)同步本素材受影响表述；具体对象、词卡和参数仍按对应范围设计，证据Hypothesis。
+
+
+## 2026-09-14 全游戏GDD使用记录
+
+| 日期 | 目标与处理 | 当前适用边界 |
+| --- | --- | --- |
+| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Park；[实际章节](../gdd/yanzhou-rc1/README.md) | 完整召唤与指挥首版后置；保留来源、类型与单位模型，不要求制作这些卡或流程。 |
+
+本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。

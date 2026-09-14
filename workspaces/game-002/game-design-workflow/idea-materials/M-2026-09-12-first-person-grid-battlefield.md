@@ -74,3 +74,12 @@
 | --- | --- | --- |
 | 2026-09-12 | [GDD](../gdd/GDD-2026-09-12-first-person-grid-battlefield.md)、[Proposal](../idea-proposals/P-2026-09-12-first-person-grid-battlefield.md) | Included：方向及明确标记的候选补充；用户原话与传播选择不再重复询问 |
 | 2026-09-12 | [效果登记](../../docs/effect-registry/catalog.md)、测试交接r9 | 复用FX-003／010并登记FX-060–062；只积累，未运行 |
+
+
+## 2026-09-14 全游戏GDD使用记录
+
+| 日期 | 目标与处理 | 当前适用边界 |
+| --- | --- | --- |
+| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/04-elements-and-environment.md) | 保留空间、可见变化与宿主资格；具体出生、阈值、身份、固定名单依CORE-020–034替换旧BF候选。 |
+
+本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。

@@ -250,3 +250,12 @@
 - 边界例：名单中的冰霜先被抵消并替换为火焰，旧冰霜轮到时跳过，新火焰不借用其名额；新火焰在后续状态阶段开始前存在时仍可能自然掉层，若层数耗尽则在首次自动作用前消散。状态阶段内的替换也不把旧状态名额交给新状态。
 - 关系与资格：来源、设计对象、玩家预判、当前量读取、RC06／07及ST02依赖明确，Qualified／Accepted；Hypothesis／NotRun。DG10的自动名单、转化检查顺序与状态资格收束；数值、对象资格及后续合法句仍按其对应DG处理，当前不运行测试。
 - 使用记录：本轮进入[提案](../idea-proposals/P-2026-09-13-card-pool-rule-rulings.md)、[评估](../evaluations/E-2026-09-13-card-pool-rule-rulings.md)、[采纳文本](../draft-changes/D-2026-09-13-card-pool-rule-rulings.md)，同步核心、术语、EL03／04、ST与FX-068/r3、FX-065/r7、FX-069/r4。
+
+
+## 2026-09-14 全游戏GDD使用记录
+
+| 日期 | 目标与处理 | 当前适用边界 |
+| --- | --- | --- |
+| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/05-card-catalog.md) | 仅S2 25项／E3 30项及流派定位纳入；共用实体合并，CG／PG补足接口与参数，旧草／雷和早期卡池不恢复。 |
+
+本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。

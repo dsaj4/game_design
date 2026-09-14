@@ -93,3 +93,12 @@
 | 2026-09-10 | [采纳](../draft-changes/D-2026-09-10-simple-object-interactions.md) | G002-CORE-011 | Included | 不采纳未明示参数与效果 |
 
 2026-09-12：本主题在[第一人称格子战场素材](M-2026-09-12-first-person-grid-battlefield.md)与[GDD候选](../gdd/GDD-2026-09-12-first-person-grid-battlefield.md)中复用并局部扩展；仅火焰向周围施加已由用户明确。2×5的占位／地面／火焰细则尚为Draft Change，未用本次候选覆盖本文既有已采纳范围；正式采纳后按拟修改同步。
+
+
+## 2026-09-14 全游戏GDD使用记录
+
+| 日期 | 目标与处理 | 当前适用边界 |
+| --- | --- | --- |
+| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/03-combat-and-status.md) | 只纳入可引用对象、固定名单、当前过程、费用与公开顺序；掉卡／雷电／位移／材料加工等旧扩展首版后置。 |
+
+本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。

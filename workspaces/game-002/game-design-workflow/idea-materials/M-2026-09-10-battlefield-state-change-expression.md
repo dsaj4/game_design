@@ -106,3 +106,12 @@
 2026-09-10：按[简单对象交互采纳](../draft-changes/D-2026-09-10-simple-object-interactions.md)收束当前表现范围。简单点燃/冰冻进入内容设计，但不自动确认燃料、传播、导电、坍塌或冰冻控制效果。
 
 2026-09-12：本主题在[第一人称格子战场素材](M-2026-09-12-first-person-grid-battlefield.md)与[GDD候选](../gdd/GDD-2026-09-12-first-person-grid-battlefield.md)中复用并局部扩展；仅火焰向周围施加已由用户明确。2×5的占位／地面／火焰细则尚为Draft Change，未用本次候选覆盖本文既有已采纳范围；正式采纳后按拟修改同步。
+
+
+## 2026-09-14 全游戏GDD使用记录
+
+| 日期 | 目标与处理 | 当前适用边界 |
+| --- | --- | --- |
+| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/04-elements-and-environment.md) | 保留空间、可见变化与宿主资格；具体出生、阈值、身份、固定名单依CORE-020–034替换旧BF候选。 |
+
+本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。

@@ -1,5 +1,10 @@
 # 效果与案例覆盖
 
+2026-09-14当前：CG／PG／EG／RG／UX已按CORE-032–036采纳，26组设计缺口全部Closed。首版S2 25项＋E3 30项，合并53实体（34词／19可换件）；合格素材68份、inbox47份、效果134项。当前内容为RC1基准，设计Accepted，平衡与理解Hypothesis／NotRun。用户授权后续无需确认直接补齐；后续按已有范围自主完成并保留来源，不再逐项提问。
+
+## 先前入口与处理记录（历史；通用约束保留）
+
+
 ## 2026-09-14 CORE-031实际范围与阵营
 
 来源：[已采纳实际表](../../game-design-workflow/idea-materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)。以下为设计例与静态核对，均非玩法测试。

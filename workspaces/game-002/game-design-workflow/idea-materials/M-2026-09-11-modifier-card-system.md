@@ -135,3 +135,12 @@
 | 2026-09-11 | [采纳文本](../draft-changes/D-2026-09-11-modifier-card-system.md) | G002-CORE-016 | Accepted：明确范围 | 测试交接r5继续Draft，镶嵌细则另行推进 |
 
 2026-09-12：案例登记到[效果系统](../../docs/effect-registry/README.md)（[FX-024](../../docs/effect-registry/entries/FX-024.md)、[FX-025](../../docs/effect-registry/entries/FX-025.md)），完整映射见[案例覆盖](../../docs/effect-registry/case-coverage.md)。这里只增加追踪入口，本素材的框架／采纳／候选状态不变；登记摘要不替换本文权威规则或参数。
+
+
+## 2026-09-14 全游戏GDD使用记录
+
+| 日期 | 目标与处理 | 当前适用边界 |
+| --- | --- | --- |
+| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/02-grammar-and-configuration.md) | 纳入实体、合法句、类型、绑定和装配；实际白名单、3种法杖、起点与角色由CG／WG／SG限定；寒冷、召唤与未选卡不因例句入池。 |
+
+本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。

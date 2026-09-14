@@ -1,5 +1,12 @@
 # 首版词卡、镶嵌参数与获取渠道推荐
 
+## 2026-09-14 最新处理：已晋级并采纳
+
+原始表达保留。用户明确授权后续无需确认、由agent直接补齐；本组按已有推荐整包裁决。实际条款见[合格素材](../idea-materials/M-2026-09-14-first-release-parameters-and-channels.md)，G002-CORE-033，RC1；设计Accepted，体验Hypothesis，新验证NotRun。下文“Raw／待选”仅记录晋级前时点，不再形成当前阻塞。
+
+## 晋级前原始记录（历史）
+
+
 日期：2026-09-14。版本：PG v0.2。状态：**Raw Idea / Unqualified／可审阅的完整单卡候选表**。[RG路线／遭遇／疲劳](2026-09-14-run-route-encounters-and-fatigue.md)与[EG环境阈值](2026-09-14-environment-forms-and-thresholds.md)已形成待审配套候选；[UX界面／体验](2026-09-14-interface-platform-and-experience.md)和[VB验收输入](../../docs/pre-gdd-validation-inputs-2026-09-14.md)现已配套成候选，实际取舍仍未采用，因此不是整局设计定稿、平衡完成或新GDD。此页所有新量值、渠道期与补充裁决都待用户选择；已有规则不因本页改写。
 
 ## 原始想法

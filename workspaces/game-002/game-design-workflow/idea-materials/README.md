@@ -1,5 +1,16 @@
 # game-002 正式素材索引
 
+2026-09-14当前：CG／PG／EG／RG／UX已按CORE-032–036采纳，26组设计缺口全部Closed。首版S2 25项＋E3 30项，合并53实体（34词／19可换件）；合格素材68份、inbox47份、效果134项。当前内容为RC1基准，设计Accepted，平衡与理解Hypothesis／NotRun。用户授权后续无需确认直接补齐；后续按已有范围自主完成并保留来源，不再逐项提问。
+
+- [首版卡池实体、角色、事件与效果组](M-2026-09-14-card-interface-completion.md)：Qualified GDD Material / Accepted，RC1。
+- [首版时间、公式、卡牌参数与获取渠道](M-2026-09-14-first-release-parameters-and-channels.md)：Qualified GDD Material / Accepted，RC1。
+- [首版环境形态、痕迹与转化阈值](M-2026-09-14-environment-forms-and-thresholds.md)：Qualified GDD Material / Accepted，RC1。
+- [首版完整路线、敌人、遭遇、成长与疲劳](M-2026-09-14-run-route-encounters-and-fatigue.md)：Qualified GDD Material / Accepted，RC1。
+- [首版玩家旅程、交互、保存与功能表现](M-2026-09-14-interface-platform-and-experience.md)：Qualified GDD Material / Accepted，RC1。
+
+## 先前入口与处理记录（历史；通用约束保留）
+
+
 最新：[阵营、法杖范围与起始库存](M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)已按G002-CORE-031采纳，HG01宿主资格保持；CG／PG／EG／RG／UX新取舍仍独立待审。
 
 此前：[BR01–12批量规则](M-2026-09-13-pre-gdd-recommendation-batch.md)；Qualified／Accepted；CORE-029、SCOPE-004、DOC-002，实际内容待补。

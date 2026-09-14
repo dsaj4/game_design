@@ -1,5 +1,10 @@
 # 效果注册与理清系统
 
+2026-09-14当前：CG／PG／EG／RG／UX已按CORE-032–036采纳，26组设计缺口全部Closed。首版S2 25项＋E3 30项，合并53实体（34词／19可换件）；合格素材68份、inbox47份、效果134项。当前内容为RC1基准，设计Accepted，平衡与理解Hypothesis／NotRun。用户授权后续无需确认直接补齐；后续按已有范围自主完成并保留来源，不再逐项提问。
+
+## 先前入口与处理记录（历史；通用约束保留）
+
+
 2026-09-14最新：HG02／WG01／SG01已按[CORE-031](../../game-design-workflow/idea-materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)采纳。FX-026／027／079／106均更新r3，落实节律／余火固定芯、实际阵营和借位范围；其余创建／转化／补生效果共同依赖HG02的身份阵营表，不新增触发或效果ID。总ID134，Hypothesis／NotRun；CG／PG／EG／RG／UX新取舍仍待审。
 
 2026-09-14同步：FX-061／062升级r2，对齐已采纳环境末检查、当前层数、形态保留及HG01烧焦后仍接受火冰；历史r1完整保留。[EG](../../game-design-workflow/idea-inbox/2026-09-14-environment-forms-and-thresholds.md)阈值／双痕迹和[RG](../../game-design-workflow/idea-inbox/2026-09-14-run-route-encounters-and-fatigue.md)整局／疲劳为待审候选，不因本次登记同步获得采纳或运行证据。

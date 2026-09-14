@@ -103,3 +103,12 @@
 2026-09-10：按[简单对象交互采纳](../draft-changes/D-2026-09-10-simple-object-interactions.md)收束当前适用范围；详细词义和参数仍待设计。
 
 2026-09-11：按[类型扩展采纳](../draft-changes/D-2026-09-11-extensible-spell-types.md)明确类型与后续流派设计关系，加入未归类法术的新类型主动建议流程；具体流派收益与数值仍待设计。
+
+
+## 2026-09-14 全游戏GDD使用记录
+
+| 日期 | 目标与处理 | 当前适用边界 |
+| --- | --- | --- |
+| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/09-validation-and-risks.md) | 纳入验证方法、记录与范围约束；旧数据只作历史。压力目标采用RG／UX，登记ID不代表全部旧效果入选。 |
+
+本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。

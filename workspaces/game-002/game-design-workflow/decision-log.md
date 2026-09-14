@@ -191,3 +191,21 @@ HG02／WG01／SG01为待审阵营、实际范围与起始资源推荐；[CG逐�
 | G002-CORE-031 | HG02玩家／敌人／环境／创建元素／预设元素的阵营与固有属性；WG01三种固定法杖、10格锚点与裁边及角色范围；SG01起始4根原木杖、12张词卡、空可换槽、4出战上限及库存容量 | Accepted；Hypothesis／NotRun | [原问题与“确认”](idea-inbox/2026-09-14-host-range-starting-content.md)、[合格素材](idea-materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)、[采纳文本](draft-changes/D-2026-09-14-factions-wand-ranges-and-starting-loadout.md) |
 
 用户本次“确认”回应HG02／WG01／SG01成组推荐，HG01此前的单独采纳仍成立。DG04、DG05、DG17关闭，累计13／26；DG15补齐容量子项，货架与UX开战门槛待审。UX默认配置／跨战失效引用归DG24／25继续裁决，不作为DG17的资源未定项。原木杖额外出售留给RG-C01；PG／EG／RG／UX新数值和CG新接口不随本次升级。旧决策时点文字与候选完整保留，无新GDD或玩法测试。
+
+
+## 2026-09-14：完成首版设计缺口（CORE-032–036）
+
+用户原话：“确认。明确授权后续无需确认直接补齐”。CG按直接确认采用；PG／EG／RG／UX由agent在该授权内按既有推荐整包裁决，不逐项重问。首版范围保持S2 25项＋E3 30项，合并53实体；26组设计缺口全部已有具体条款、参数、例外和验证方法，状态Closed / Accepted。体验与平衡仍Hypothesis，新规则NotRun。
+
+- G002-CORE-032：[首版卡池实体、角色、事件与效果组](idea-materials/M-2026-09-14-card-interface-completion.md)。
+- G002-CORE-033：[首版时间、公式、卡牌参数与获取渠道](idea-materials/M-2026-09-14-first-release-parameters-and-channels.md)。
+- G002-CORE-034：[首版环境形态、痕迹与转化阈值](idea-materials/M-2026-09-14-environment-forms-and-thresholds.md)。
+- G002-CORE-035：[首版完整路线、敌人、遭遇、成长与疲劳](idea-materials/M-2026-09-14-run-route-encounters-and-fatigue.md)。
+- G002-CORE-036：[首版玩家旅程、交互、保存与功能表现](idea-materials/M-2026-09-14-interface-platform-and-experience.md)。
+
+采用理由：让首版从实体构句、自动战斗、路线经济到保存与呈现形成可交接的完整规则。原始候选、旧数值与失败路径保留；素材门槛、提案、评估和拟修改已完成。[Proposal](idea-proposals/P-2026-09-14-complete-first-release-design.md)／[Evaluation](evaluations/E-2026-09-14-complete-first-release-design.md)／[Draft Change](draft-changes/D-2026-09-14-complete-first-release-design.md)。规则存在反例或玩法验证失败时回到相应规则ID修订，不以旧实验结果覆盖RC1。先完成此采纳同步，再编写全游戏GDD Wiki。
+
+
+## 2026-09-14：全游戏GDD Wiki交接（G002-DOC-003）
+
+依据用户先收束设计缺口再写全游戏GDD的要求，以及后续无需确认直接补齐的授权，完成[全游戏GDD RC1](gdd/GDD-2026-09-14-yanzhou-full-game.md)，GDD-2 / Accepted。此文档及其Wiki正文为开发第一材料；有矛盾再查构思系统。68正式素材／47inbox逐项审查，53实体全表及12遭遇完整给出；旧素材、单项BF草案、早期卡池与历史证据保留。此次只整理已采纳规则，不启动新测试，不把规则采用或文档静态检查当作体验验证。

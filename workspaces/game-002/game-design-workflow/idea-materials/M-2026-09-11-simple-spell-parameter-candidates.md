@@ -200,3 +200,12 @@
 | 2026-09-11 | [数值任务](../../docs/numerical-redesign.md)、[类型入口](../../docs/spell-type-index.md) | 参数定义、两句候选和局部算例 | Included：候选索引 | 无正式GDD、Proposal或核心变更；下一步评议基准并完善状态词义 |
 
 2026-09-11维护：参数值及既有固定测试输入保持Candidate v0.1；现行参数声明与非负普通数量取整补充引用[GR v1](M-2026-09-11-global-rule-boundaries.md)的GR01。新边界随下一批检查，旧结果只对应其原输入。
+
+
+## 2026-09-14 全游戏GDD使用记录
+
+| 日期 | 目标与处理 | 当前适用边界 |
+| --- | --- | --- |
+| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Park；[实际章节](../gdd/yanzhou-rc1/06-parameters-and-economy.md) | 原有限两句候选与实验身份保留；实际量值全部采用PG RC1，不继承12伤害等旧值。 |
+
+本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。

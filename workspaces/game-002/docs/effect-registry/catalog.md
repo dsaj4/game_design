@@ -1,79 +1,73 @@
 # 效果目录
 
-2026-09-14最新：HG02／WG01／SG01已按[CORE-031](../../game-design-workflow/idea-materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)采纳。FX-026／027／079／106均更新r3，落实节律／余火固定芯、实际阵营和借位范围；其余创建／转化／补生效果共同依赖HG02的身份阵营表，不新增触发或效果ID。总ID134，Hypothesis／NotRun；CG／PG／EG／RG／UX新取舍仍待审。
-
-2026-09-14同步遗漏的旧登记：FX-061/r2“环境元素阈值与形态推进”、FX-062/r2“环境已达形态保留”，依据已采纳CORE-022–028／030修正r1的即时检查／回退／烧焦失去资格。EG具体阈值及新分支仍Raw；总ID134不变。
-
-当前（2026-09-14）：HG01宿主资格已采纳，FX-003/r8、004/r7、065/r8；S2的25项与E3的30项及ST／RC／BR保持。WG／SG已按CORE-031采纳，CG新接口为待审推荐，见[DG清单](../pre-gdd-design-decisions-2026-09-13.md)。总ID134，无新效果ID，新规则NotRun。
-
-## 本批公共规则版本：BR v1
-
-[BR01–12](../../game-design-workflow/idea-materials/M-2026-09-13-pre-gdd-recommendation-batch.md)为当前首版效果的共用规则输入。复用时同时记录具体FX修订、ST／RC和BR v1；单个旧FX摘要不能覆盖已采纳的范围、时序、支付、装配及叠加规则。逐卡角色／事件／分组仍须补全；不把公共规则版本当作所有参数已闭合。
-
-本批直接修订9项，旧修订原文全部保留，总ID仍134；FX-020／030标记首版后置，未新增实际产出卡。
+2026-09-14：RC1的CG／PG／EG已采纳，本次更新60个受影响效果的当前修订；总ID仍134。首版55设计项合并53实体，范围外变体保持原资格。设计闭合与玩法验证分别记录，全部新修订Hypothesis／NotRun。
 
 ## 当前修订映射
 
 | 效果 | 修订 | RC依据 |
 | --- | --- | --- |
+| [FX-067](entries/FX-067.md) | r3 | RC1实际规格 |
+| [FX-066](entries/FX-066.md) | r2 | RC1实际规格 |
+| [FX-062](entries/FX-062.md) | r3 | RC1实际规格 |
+| [FX-061](entries/FX-061.md) | r3 | RC1实际规格 |
 | [FX-030](entries/FX-030.md) | r2 | BR10／SCOPE-004：具体法术产金首版后置 |
-| [FX-027](entries/FX-027.md) | r3 | CORE-031：余火杖横三格范围；合法燃烧施加＋1 |
-| [FX-026](entries/FX-026.md) | r3 | CORE-031：节律杖十字范围；仅本杖简易法术隔周期减1 |
+| [FX-027](entries/FX-027.md) | r4 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-026](entries/FX-026.md) | r4 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
 | [FX-020](entries/FX-020.md) | r2 | BR10／SCOPE-004：具体法术掉卡首版后置 |
-| [FX-065](entries/FX-065.md) | r8 | HG01：环境：树木可持火冰层数并按资格转化，草地保持地面身份 |
-| [FX-069](entries/FX-069.md) | r4 | G002-CORE-026／027／028 |
-| [FX-001](entries/FX-001.md) | r2 | 首版内容选择，原基础语义保持 |
-| [FX-002](entries/FX-002.md) | r2 | RC04 |
-| [FX-003](entries/FX-003.md) | r8 | HG01：燃烧：玩家／敌人周期伤害；树木／草地只持层，石地拒绝 |
-| [FX-004](entries/FX-004.md) | r7 | HG01：冰冻：玩家／敌人周期增甲；树木／草地只持层，石地拒绝 |
-| [FX-005](entries/FX-005.md) | r2 | RC08 |
-| [FX-006](entries/FX-006.md) | r2 | RC08 |
-| [FX-010](entries/FX-010.md) | r4 | RC04、RC07 |
-| [FX-012](entries/FX-012.md) | r2 | RC04、RC07 |
-| [FX-018](entries/FX-018.md) | r2 | 首版内容选择，原基础语义保持 |
-| [FX-023](entries/FX-023.md) | r4 | RC08 |
-| [FX-032](entries/FX-032.md) | r2 | RC08 |
-| [FX-033](entries/FX-033.md) | r3 | BR01／03：自身回响与正L并存过程 |
-| [FX-034](entries/FX-034.md) | r3 | BR04：整句增强版本与零实际收益 |
-| [FX-035](entries/FX-035.md) | r2 | RC04、RC08 |
-| [FX-037](entries/FX-037.md) | r2 | RC01 |
-| [FX-038](entries/FX-038.md) | r2 | RC08 |
-| [FX-047](entries/FX-047.md) | r2 | RC06、RC09 |
-| [FX-055](entries/FX-055.md) | r2 | RC08、RC11 |
-| [FX-063](entries/FX-063.md) | r2 | RC07 |
-| [FX-064](entries/FX-064.md) | r3 | RC04、RC07 |
-| [FX-068](entries/FX-068.md) | r4 | BR01／02／04：邻近范围、过滤与当前源层数公式 |
-| [FX-070](entries/FX-070.md) | r2 | RC08、RC09 |
-| [FX-071](entries/FX-071.md) | r2 | RC08、RC09 |
-| [FX-079](entries/FX-079.md) | r3 | CORE-031：实际友方／中立及玩家棋盘外 |
-| [FX-080](entries/FX-080.md) | r2 | RC12 |
-| [FX-097](entries/FX-097.md) | r2 | RC08 |
-| [FX-098](entries/FX-098.md) | r2 | RC08、RC09 |
-| [FX-101](entries/FX-101.md) | r2 | RC08 |
-| [FX-105](entries/FX-105.md) | r2 | RC06、RC10 |
-| [FX-106](entries/FX-106.md) | r3 | CORE-031：三固定形状与借位实际裁边 |
-| [FX-107](entries/FX-107.md) | r2 | RC07 |
-| [FX-110](entries/FX-110.md) | r2 | RC04、RC06 |
-| [FX-115](entries/FX-115.md) | r2 | RC07、RC10 |
-| [FX-116](entries/FX-116.md) | r2 | RC04 |
-| [FX-117](entries/FX-117.md) | r2 | RC11 |
-| [FX-118](entries/FX-118.md) | r2 | RC04、RC06、RC11 |
-| [FX-119](entries/FX-119.md) | r2 | RC04、RC06、RC11 |
-| [FX-120](entries/FX-120.md) | r2 | RC06、RC11 |
-| [FX-121](entries/FX-121.md) | r3 | RC10、RC12 |
-| [FX-122](entries/FX-122.md) | r2 | RC10、RC12 |
-| [FX-123](entries/FX-123.md) | r3 | RC08、RC09、RC10、RC12 |
-| [FX-124](entries/FX-124.md) | r2 | RC02、RC06、RC11 |
-| [FX-125](entries/FX-125.md) | r2 | RC05 |
-| [FX-126](entries/FX-126.md) | r2 | RC05 |
-| [FX-127](entries/FX-127.md) | r2 | RC06、RC11 |
-| [FX-128](entries/FX-128.md) | r2 | 首版内容选择，原基础语义保持 |
-| [FX-129](entries/FX-129.md) | r2 | RC03 |
-| [FX-130](entries/FX-130.md) | r2 | 首版内容选择，原基础语义保持 |
-| [FX-131](entries/FX-131.md) | r2 | RC12 |
-| [FX-132](entries/FX-132.md) | r2 | RC04、RC06、RC12 |
-| [FX-133](entries/FX-133.md) | r2 | RC12 |
-| [FX-134](entries/FX-134.md) | r2 | RC12 |
+| [FX-065](entries/FX-065.md) | r9 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-069](entries/FX-069.md) | r5 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-001](entries/FX-001.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-002](entries/FX-002.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-003](entries/FX-003.md) | r9 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-004](entries/FX-004.md) | r8 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-005](entries/FX-005.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-006](entries/FX-006.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-010](entries/FX-010.md) | r5 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-012](entries/FX-012.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-018](entries/FX-018.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-023](entries/FX-023.md) | r5 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-032](entries/FX-032.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-033](entries/FX-033.md) | r4 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-034](entries/FX-034.md) | r4 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-035](entries/FX-035.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-037](entries/FX-037.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-038](entries/FX-038.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-047](entries/FX-047.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-055](entries/FX-055.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-063](entries/FX-063.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-064](entries/FX-064.md) | r4 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-068](entries/FX-068.md) | r5 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-070](entries/FX-070.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-071](entries/FX-071.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-079](entries/FX-079.md) | r4 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-080](entries/FX-080.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-097](entries/FX-097.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-098](entries/FX-098.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-101](entries/FX-101.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-105](entries/FX-105.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-106](entries/FX-106.md) | r4 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-107](entries/FX-107.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-110](entries/FX-110.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-115](entries/FX-115.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-116](entries/FX-116.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-117](entries/FX-117.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-118](entries/FX-118.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-119](entries/FX-119.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-120](entries/FX-120.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-121](entries/FX-121.md) | r4 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-122](entries/FX-122.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-123](entries/FX-123.md) | r4 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-124](entries/FX-124.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-125](entries/FX-125.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-126](entries/FX-126.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-127](entries/FX-127.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-128](entries/FX-128.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-129](entries/FX-129.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-130](entries/FX-130.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-131](entries/FX-131.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-132](entries/FX-132.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-133](entries/FX-133.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
+| [FX-134](entries/FX-134.md) | r3 | RC1：CG／PG／EG实际规格已采纳，Hypothesis／NotRun |
 
 ## 旧轮次说明与总目录
 
@@ -290,3 +284,20 @@ FX-003／010保留r1摘要，并增加r2的BF候选分支。原SC／TC或测试�
 | [FX-132 护甲实际抵伤后反击攻击者](entries/FX-132.md) | 抵伤结果触发与直接伤害 | Raw／r1／NotRun |
 | [FX-133 本句目标筛选为已有印记敌人](entries/FX-133.md) | 目标条件筛选 | Raw／r1／NotRun |
 | [FX-134 印记引爆后保留](entries/FX-134.md) | 资源消耗条件例外 | Raw／r1／NotRun |
+
+
+## 2026-09-14采纳前目录说明（历史）
+
+# 效果目录
+
+2026-09-14最新：HG02／WG01／SG01已按[CORE-031](../../game-design-workflow/idea-materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)采纳。FX-026／027／079／106均更新r3，落实节律／余火固定芯、实际阵营和借位范围；其余创建／转化／补生效果共同依赖HG02的身份阵营表，不新增触发或效果ID。总ID134，Hypothesis／NotRun；CG／PG／EG／RG／UX新取舍仍待审。
+
+2026-09-14同步遗漏的旧登记：FX-061/r2“环境元素阈值与形态推进”、FX-062/r2“环境已达形态保留”，依据已采纳CORE-022–028／030修正r1的即时检查／回退／烧焦失去资格。EG具体阈值及新分支仍Raw；总ID134不变。
+
+当前（2026-09-14）：HG01宿主资格已采纳，FX-003/r8、004/r7、065/r8；S2的25项与E3的30项及ST／RC／BR保持。WG／SG已按CORE-031采纳，CG新接口为待审推荐，见[DG清单](../pre-gdd-design-decisions-2026-09-13.md)。总ID134，无新效果ID，新规则NotRun。
+
+## 本批公共规则版本：BR v1
+
+[BR01–12](../../game-design-workflow/idea-materials/M-2026-09-13-pre-gdd-recommendation-batch.md)为当前首版效果的共用规则输入。复用时同时记录具体FX修订、ST／RC和BR v1；单个旧FX摘要不能覆盖已采纳的范围、时序、支付、装配及叠加规则。逐卡角色／事件／分组仍须补全；不把公共规则版本当作所有参数已闭合。
+
+本批直接修订9项，旧修订原文全部保留，总ID仍134；FX-020／030标记首版后置，未新增实际产出卡。

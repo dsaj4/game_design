@@ -1,5 +1,17 @@
 # game-002 领域词汇
 
+## 当前首版：全游戏GDD RC1
+
+[《言咒》全游戏GDD](game-design-workflow/gdd/GDD-2026-09-14-yanzhou-full-game.md)已按统一GDD-2模板完成；26／26设计缺口Closed。53实体逐卡、全参数／渠道、3杖、12遭遇、路线经济、四阶段／环境与保存交互都有Wiki正文。素材68／inbox47／FX134；设计Accepted，玩法与平衡Hypothesis／NotRun。
+
+后续开发以GDD为第一材料，矛盾再核对构思系统；用户已明确授权后续无需确认直接补齐，本版范围内不再逐项追问。旧创意和测试身份保留。
+
+
+2026-09-14当前：CG／PG／EG／RG／UX已按CORE-032–036采纳，26组设计缺口全部Closed。首版S2 25项＋E3 30项，合并53实体（34词／19可换件）；合格素材68份、inbox47份、效果134项。当前内容为RC1基准，设计Accepted，平衡与理解Hypothesis／NotRun。用户授权后续无需确认直接补齐；后续按已有范围自主完成并保留来源，不再逐项提问。
+
+## 先前入口与处理记录（历史；通用约束保留）
+
+
 当前核心：Core Concept v0.6 / Stable Design Baseline。本文只定义领域术语；证据状态为Hypothesis。
 
 | 术语 | 定义 | 依据 |
