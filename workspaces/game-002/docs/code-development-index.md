@@ -190,3 +190,13 @@
 七张选用稿均1448×1086；另保留原木／余火去除生成铜铃前的两张历史稿。完整提示词、原图／引用图SHA及来源链保留，[检查记录](E:/Project/game-002-godogen-lab/concepts/wand-management-sheets-v01/verification.json)验证九张原图复制与尺寸、82处文稿链接；已目视核对四组皮袋固定件、开放木架、三类杖轮廓、两个空槽、F3十格范围、只读法术信息及保存／退架等操作件。
 
 说明中明确主体几何、纹理与动态文字分工，给出待校准尺度及制作顺序；侧背面与装配细节尚非工程配准，纸面内容未烘焙成生产材质。没有新建左页.blend、GLB、Godot交互或玩法测试，既有MD-11／右桌与E1 R2保留。下一步骤是依据组件稿校准组合比例和原生建模，合屏可读性、库存换入与其他运行状态留待后续实现验证。
+
+### 2026-09-14 后续：法杖管理首版原生建模完成
+
+用户在整体确认及组件细化后明确“开始建模”。已交付[七组原生资产、总装母版与真实渲染](E:/Project/game-002-godogen-lab/art/wand-management-v01/README.md)和[制作报告](E:/Project/game-002-godogen-lab/docs/wand-management-native-report.md)，状态NativeAssetsCreated / NeedsArtReview；独立仓库codex/setup-godogen-demo / c6a8ffc61a869e35b31ac54d05cfdda2f6890699，本地已提交、无远端。
+
+连续展开皮袋悬挂四根出战杖，开放木架独立陈列两根备用杖；三种法杖、配置羊皮纸、编号吊签与操作牌均可编辑。法术信息只读，两个可换空槽与固定芯分开，2×5格范围正确标出F3四格，首轮名义释放沿用4、5、7–9、8刻。保留书、灯、羽毛笔；六根仍是示例库存，不改玩法规则。
+
+[验证](E:/Project/game-002-godogen-lab/art/wand-management-v01/verification.json)118项通过，包括七个原生组件重开、七个GLB与总装实际回导、几何／文本、取景、哈希及旧资产保留；[交付检查](E:/Project/game-002-godogen-lab/art/wand-management-v01/delivery-checks.json)另核对135处文稿链接、脚本语法及新生成暖木纹原图。源文件有49个可编辑文字对象，当前总装481,414三角形，未作运行时优化。电脑控制工具当前不可调用，本轮实际采用Blender内置Python，没有GUI建模操作记录。
+
+已目视检查正面、斜视及七张分件渲染，修正镜头偏移与浅色按钮字描边问题。材质磨损、木纹节奏及局部轮廓仍需美术细化；文字在GLB中是固定网格，未新增Godot页面或管理交互。右桌／MD-11与E1 R2保留，E2–E4未开始。下一步评议这一批真实模型的比例、轮廓与材质，不以结构验证替代最终美术或玩法验收。

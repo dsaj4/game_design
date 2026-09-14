@@ -75,6 +75,8 @@ EG／RG已实际补环境形态阈值、6普通＋首领路线、12遭遇、生�
 
 ## 独立实验项：Godogen 3D UI 风格实验
 
+2026-09-14建模更新：用户明确“开始建模”，[法杖管理七组原生资产与总装](E:/Project/game-002-godogen-lab/art/wand-management-v01/README.md)完成，NativeAssetsCreated / NeedsArtReview。独立仓库codex/setup-godogen-demo / c6a8ffc61a869e35b31ac54d05cfdda2f6890699（本地无远端）。[118项检查](E:/Project/game-002-godogen-lab/art/wand-management-v01/verification.json)通过原生重开、实际GLB回导、结构／字体贴图、全组件入镜与旧源文件保留；七组分件、正面及斜视已目视检查。另核对135处文稿链接与暖木纹原始输出复制。源含49个可编辑文字对象，总装481,414三角形；本轮使用Blender内置Python，电脑控制工具不可调用。[制作报告](E:/Project/game-002-godogen-lab/docs/wand-management-native-report.md)记录首版美术差距、固定网格文字和引擎描边待转换等限制。没有新增Godot页面、管理交互或玩法测试；E2–E4仍未开始，下一步评议真实模型后细化。
+
 2026-09-14最新：用户确认法杖管理整体03并授权细化组件，[七组组件图册](E:/Project/game-002-godogen-lab/concepts/wand-management-sheets-v01/index.md)与[建模说明](E:/Project/game-002-godogen-lab/docs/blender-wand-management-components-v01.md)完成，OverallDirectionConfirmed / ComponentDesignDraft。独立仓库codex/setup-godogen-demo / 00c502b1b0aeb630582e5368e8c823dc0164ab8f（本地无远端）；选用七张1448×1086参考板、保留两张去铜铃前历史稿。[文件检查](E:/Project/game-002-godogen-lab/concepts/wand-management-sheets-v01/verification.json)通过九张原图复制／提示词／引用哈希、尺寸与82处文稿链接；袋中四位、独立架体、三杖轮廓、两空槽／F3格数与只读边界已目视核对。整体不再待确认；组件结构、建议尺度和多视图仍待原生校准，不新增模型／交互或玩法测试批次。以下保留此前各阶段记录。
 
 2026-09-14最新修订：[法杖管理整体03与视觉说明](E:/Project/game-002-godogen-lab/docs/wand-management-visual-design-v01.md)按用户要求移除法术／词卡页签及编辑入口，绑定法术只读；四根出战留在皮袋，两根备用移至独立旧木架，当前出战杖动作改为“移至备战架”。独立仓库codex/setup-godogen-demo / d075ce5969ea10df7726c2c50b3170232fc9a77c（本地无远端），状态VisualDesignDraft / OverallAwaitingReview。1086×1448原图、提示词及SHA留档，36处文稿链接与原图复制哈希通过；独立架体、数量、入口移除、固定芯／两空槽及F3范围已目视核对。仍为单一选中出战杖的示例图，备用选中／换入和合屏可读性未验证；未新增模型、交互或玩法测试批次。

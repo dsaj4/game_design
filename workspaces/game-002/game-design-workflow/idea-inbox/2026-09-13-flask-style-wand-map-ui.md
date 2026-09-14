@@ -1,8 +1,14 @@
 # Flask 参考风格的法杖装配与地图 UI
 
-原始记录状态：Raw Idea / Unqualified。创建：2026-09-13；更新：2026-09-14。用户已确认左侧“法杖管理”整体03，并授权细化组件；当前七组组件稿完成，OverallDirectionConfirmed / ComponentDesignDraft。袋中出战、架上备战，法术／词卡不在本页修改；其余管理功能以用户指定的已Accepted全游戏GDD RC1为准。本原始视觉记录不因整体美术通过自动晋级为新玩法素材，右侧长袋与桌面原生资产保留，Godot仍为E1 R2。
+原始记录状态：Raw Idea / Unqualified。创建：2026-09-13；更新：2026-09-14。用户已确认左侧“法杖管理”整体03，细化组件后明确“开始建模”；当前七组原生资产与总装完成，NativeAssetsCreated / NeedsArtReview。袋中出战、架上备战，法术／词卡不在本页修改；其余管理功能以用户指定的已Accepted全游戏GDD RC1为准。本原始视觉记录不因美术或模型制作自动晋级为新玩法素材，右侧长袋与桌面原生资产保留，Godot仍为E1 R2。
 
-## 最新输入：整体通过，细化七组组件
+## 最新输入：开始左侧法杖管理建模
+
+用户：“开始建模”。已按通过的整体与七组组件稿制作[原生资产和实际渲染图册](E:/Project/game-002-godogen-lab/art/wand-management-v01/README.md)：展开皮袋、独立备战架、原木／节律／余火杖、配置羊皮纸及吊牌操作件。组合中四根出战、两根备战；绑定法术只读，固定芯与两个可换槽分开。保留书、灯及羽毛笔，不新增猫或法术编辑页。
+
+独立仓库codex/setup-godogen-demo / c6a8ffc61a869e35b31ac54d05cfdda2f6890699，本地无远端。118项原生结构／GLB回导检查和135处文稿链接检查通过；制作方法为Blender内置Python，电脑控制工具当前不可调用。实际渲染已查看，当前NativeAssetsCreated / NeedsArtReview；[制作报告](E:/Project/game-002-godogen-lab/docs/wand-management-native-report.md)记录材质与轮廓仍需细化、静态文字和管理交互未实现等限制。整体已通过不再重复确认，下一步评议真实模型；不改GDD或原始记录资格。
+
+## 前轮输入：整体通过，细化七组组件
 
 用户：“设计通过，下一步开始细化组件”。整体03据此确认，不再等待整体评议。已交付[七组Blender建模参考图册](E:/Project/game-002-godogen-lab/concepts/wand-management-sheets-v01/index.md)和[中文组件设计与建模说明](E:/Project/game-002-godogen-lab/docs/blender-wand-management-components-v01.md)：展开出战皮袋、独立备战架、原木／节律／余火三类法杖、配置羊皮纸及吊牌操作件。
 
