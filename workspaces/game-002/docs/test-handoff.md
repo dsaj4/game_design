@@ -75,6 +75,8 @@ EG／RG已实际补环境形态阈值、6普通＋首领路线、12遭遇、生�
 
 ## 独立实验项：Godogen 3D UI 风格实验
 
+2026-09-14最新：用户确认法杖管理整体03并授权细化组件，[七组组件图册](E:/Project/game-002-godogen-lab/concepts/wand-management-sheets-v01/index.md)与[建模说明](E:/Project/game-002-godogen-lab/docs/blender-wand-management-components-v01.md)完成，OverallDirectionConfirmed / ComponentDesignDraft。独立仓库codex/setup-godogen-demo / 00c502b1b0aeb630582e5368e8c823dc0164ab8f（本地无远端）；选用七张1448×1086参考板、保留两张去铜铃前历史稿。[文件检查](E:/Project/game-002-godogen-lab/concepts/wand-management-sheets-v01/verification.json)通过九张原图复制／提示词／引用哈希、尺寸与82处文稿链接；袋中四位、独立架体、三杖轮廓、两空槽／F3格数与只读边界已目视核对。整体不再待确认；组件结构、建议尺度和多视图仍待原生校准，不新增模型／交互或玩法测试批次。以下保留此前各阶段记录。
+
 2026-09-14最新修订：[法杖管理整体03与视觉说明](E:/Project/game-002-godogen-lab/docs/wand-management-visual-design-v01.md)按用户要求移除法术／词卡页签及编辑入口，绑定法术只读；四根出战留在皮袋，两根备用移至独立旧木架，当前出战杖动作改为“移至备战架”。独立仓库codex/setup-godogen-demo / d075ce5969ea10df7726c2c50b3170232fc9a77c（本地无远端），状态VisualDesignDraft / OverallAwaitingReview。1086×1448原图、提示词及SHA留档，36处文稿链接与原图复制哈希通过；独立架体、数量、入口移除、固定芯／两空槽及F3范围已目视核对。仍为单一选中出战杖的示例图，备用选中／换入和合屏可读性未验证；未新增模型、交互或玩法测试批次。
 
 2026-09-14前版：用户开始左侧“法杖管理”页，要求展开旧皮革悬挂法杖、按全游戏GDD RC1所需功能先生图。[整体效果02](E:/Project/game-002-godogen-lab/concepts/wand-management-overall-v02.png)已完成，VisualDesignDraft / OverallAwaitingReview；独立仓库codex/setup-godogen-demo / 786b937126fb31fe3428f1047dbbd85fd5696bd8（本地无远端）。四出战／两备用为购入后示例，固定芯、两可换槽、范围和首次冷却起点按GDD表达。两张1086×1448原图、提示词与来源快照留档；36处文稿链接及原图／提示词哈希通过，关键分组／格数／数字已目视核对。没有新增左页模型或运行交互，不新增玩法测试批次或可读性通过结论；下方建模进展为前轮历史。

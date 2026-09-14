@@ -182,3 +182,11 @@
 按用户两点修改完成[整体效果03](E:/Project/game-002-godogen-lab/concepts/wand-management-overall-v03.png)及[视觉文稿](E:/Project/game-002-godogen-lab/docs/wand-management-visual-design-v01.md)。四根出战法杖留在收窄的旧皮袋中，两根备用原木杖移到独立旧木陈列架；架体有立柱／横梁／底座，与皮革收边留出间隙。法术／词卡页签和更换／编辑法术按钮移除，绑定法术保留只读名称与参数，当前出战杖按钮改为“移至备战架”。木架表示同一库存的未出战部分，不新增容量或库存系统；其余固定芯、两可换槽、锚点、排序和首次冷却起点保留。
 
 独立仓库codex/setup-godogen-demo / d075ce5969ea10df7726c2c50b3170232fc9a77c，本地已提交、无远端；VisualDesignDraft / OverallAwaitingReview。内置imagegen以02为目标生成1086×1448的03，原图按字节复制，完整提示词及来源清单留档；哈希、尺寸与36处文稿链接通过，目标修改与关键数值／格数已目视核对。本轮只修订概念图与说明，未改GDD、Blender或Godot；备用杖选中／换入和较多库存浏览状态后续另画。下一步先评议袋架比例与信息密度，再细化组件。
+
+### 同日后续：整体03通过，七组法杖管理组件设计稿
+
+用户确认“设计通过，下一步开始细化组件”。已完成[组件图册](E:/Project/game-002-godogen-lab/concepts/wand-management-sheets-v01/index.md)及[Blender分件与建模说明](E:/Project/game-002-godogen-lab/docs/blender-wand-management-components-v01.md)，OverallDirectionConfirmed / ComponentDesignDraft；独立仓库codex/setup-godogen-demo / 00c502b1b0aeb630582e5368e8c823dc0164ab8f（本地已提交、无远端）。WM-01–07分别为展开皮袋、独立备战架、原木杖、节律杖、余火杖、配置羊皮纸、吊牌与操作件。整体03已通过，不再待确认。
+
+七张选用稿均1448×1086；另保留原木／余火去除生成铜铃前的两张历史稿。完整提示词、原图／引用图SHA及来源链保留，[检查记录](E:/Project/game-002-godogen-lab/concepts/wand-management-sheets-v01/verification.json)验证九张原图复制与尺寸、82处文稿链接；已目视核对四组皮袋固定件、开放木架、三类杖轮廓、两个空槽、F3十格范围、只读法术信息及保存／退架等操作件。
+
+说明中明确主体几何、纹理与动态文字分工，给出待校准尺度及制作顺序；侧背面与装配细节尚非工程配准，纸面内容未烘焙成生产材质。没有新建左页.blend、GLB、Godot交互或玩法测试，既有MD-11／右桌与E1 R2保留。下一步骤是依据组件稿校准组合比例和原生建模，合屏可读性、库存换入与其他运行状态留待后续实现验证。
