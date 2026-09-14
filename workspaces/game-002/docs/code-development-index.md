@@ -168,3 +168,11 @@
 [27项验证](E:/Project/game-002-godogen-lab/art/md-11-v01/verification.json)通过：源文件重新打开、整皮网格连通、修改器与曲线保留、贴图内嵌，GLB实际回导后三角面一致／尺寸误差小于2mm，旧母版SHA不变、原1,894个对象保留、无猫、长袋完整入镜。已查看四张实际Blender渲染，检查57处本地文稿链接及生成原图复制哈希；最终组合已在Blender打开。
 
 当前GLB有331,584三角面，尚未减面或制作LOD；细排线、搭接厚重感与木节雕刻仍待美术评议，Blender Freestyle外轮廓不进入GLB。本轮未新增Godot运行场景、法杖管理交互或玩法测试；E1 R2仍为引擎实现，E2–E4保持未启动。下一步评议首版长袋和后沿构图，再据反馈精修，不因建模升级玩法素材资格。
+
+### 2026-09-14：左侧法杖管理页，先做整体生图
+
+用户指定展开法杖袋皮革、逐根悬挂法杖，并以[全游戏GDD RC1](../game-design-workflow/gdd/GDD-2026-09-14-yanzhou-full-game.md)为功能来源，仍然先生图。已完成[整体效果02](E:/Project/game-002-godogen-lab/concepts/wand-management-overall-v02.png)及[视觉设计文稿](E:/Project/game-002-godogen-lab/docs/wand-management-visual-design-v01.md)，状态VisualDesignDraft / OverallAwaitingReview。独立仓库codex/setup-godogen-demo / 786b937126fb31fe3428f1047dbbd85fd5696bd8，本地已提交、无远端。
+
+画面采用6根持有／4根出战的购入后示例，区分两根备用；包含三种杖、完整法术短名、所选节律杖的固定芯与两个可换槽、2×5的F3四格范围、首次冷却起点与首轮名义释放，以及更换／编辑／移回库存／排序／保存／返回入口。六根不是起始赠送或库存总量上限，来源与参数按UX03、WG01／SG01、PG-T01逐项对照。
+
+两张1086×1448位图由内置imagegen生成，第二张定点补齐移回库存按钮；原图、两份完整提示词与SHA留档，四份GDD相关输入按87840a2另存局部快照。已查看最终图并核对关键格数、数字、物件分组，36处实验文稿链接和两张原图／提示词哈希通过。尚未制作左页Blender或Godot交互，也未做合屏、字号、键盘或玩家理解验收；原生右桌仍为8a1d614，Godot仍为E1 R2。下一步先评议整体视觉与信息密度，再继续细化组件稿。

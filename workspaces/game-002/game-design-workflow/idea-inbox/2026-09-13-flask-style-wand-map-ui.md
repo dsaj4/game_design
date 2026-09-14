@@ -1,8 +1,16 @@
 # Flask 参考风格的法杖装配与地图 UI
 
-状态：Raw Idea / Unqualified。日期：2026-09-13。用户在确认整体05和法杖袋设计稿后明确“开始建模”；MD-11原生长袋及新的桌面组合已完成，资产状态NativeAssetCreated / NeedsArtReview。长袋横放后沿替代猫，长法杖接近或超过桌宽，杂物保留。此前九类独立资产与Godot E1 R2保留；本条玩法资格状态不因美术确认或建模晋级。
+原始记录状态：Raw Idea / Unqualified。创建：2026-09-13；更新：2026-09-14。当前用户转向左侧“法杖管理”页，指定按全游戏GDD RC1先生图；展开旧皮革与悬挂法杖的整体效果稿已完成，VisualDesignDraft / OverallAwaitingReview。管理功能以已Accepted的GDD为准，本原始视觉记录不因生图自动晋级。右侧长袋与桌面原生资产保留，Godot仍为E1 R2。
 
-## 最新输入：开始建模
+## 最新输入：左侧法杖管理页面，按全游戏GDD先生图
+
+用户：“接下来开始左侧页面：第一个页面：‘法杖管理’页面：页面采用展开的法杖袋皮革样式，挂着一根根需要管理的法杖；法杖管理页面所需要素参考全游戏GDD入口；仍然先生图。”
+
+功能依据[全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)的UX02／03／05／07／08、WG01／SG01及PG-T01。展开皮革、悬挂长杖和纸签详情是本次视觉表达；持有与出战、固定芯／两可换槽、锚点／范围、起点／释放时刻、保存与只读等规则来自GDD，旧轮记录的相关Unknown不再作为当前功能缺口。
+
+已完成[左页整体效果02](E:/Project/game-002-godogen-lab/concepts/wand-management-overall-v02.png)及[设计对照文稿](E:/Project/game-002-godogen-lab/docs/wand-management-visual-design-v01.md)。独立仓库codex/setup-godogen-demo / 786b937126fb31fe3428f1047dbbd85fd5696bd8，本地无远端；两张1086×1448生成原图、提示词、SHA和四份局部GDD输入快照留档。图中6持有／4出战是购入两根法杖后的示例，不定义新起点资源或库存上限。未新增左页模型、Godot交互或玩法测试；后续先评议整体造型与信息密度。
+
+## 前轮输入：开始建模
 
 用户：“开始建模”。已按确认的整体与组件图制作[MD-11长法杖袋原生模型](E:/Project/game-002-godogen-lab/art/md-11-v01/README.md)、[桌面组合v02](E:/Project/game-002-godogen-lab/art/map-desk-v02/README.md)和[制作记录](E:/Project/game-002-godogen-lab/docs/md-11-native-report.md)。约1.9米袋身由一张连续网格包卷，左端同皮折底、右端开放；两道绑带和两支完整长杖可独立编辑，总长约2.252米。
 
