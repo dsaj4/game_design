@@ -2,7 +2,7 @@
   "date": "2026-09-19",
   "project": "game-002",
   "design": "RC1",
-  "visualStatus": "Visual Draft / Awaiting user confirmation",
+  "visualStatus": "Selected Visual / option 05 compact dark",
   "sourceCommit": "a76e5473d392ea246fe28acab1f11e93be3cf0c9",
   "existingRepositoryImagesOpened": false,
   "sources": [
@@ -73,5 +73,13 @@
     }
   ],
   "generation": "Built-in image_gen via delegated workers",
-  "demoDevelopmentStarted": false
+  "demoDevelopmentStarted": true,
+  "selection": {
+    "date": "2026-09-19",
+    "userQuote": "05的紧凑暗面",
+    "image": "images/05-noita-study-v2.png",
+    "independentDemo": "E:/Project/yanzhou-dark-demo",
+    "codeCommit": "cf7b98d",
+    "status": "Playable Demo v0.1; full RC1 acceptance incomplete"
+  }
 }

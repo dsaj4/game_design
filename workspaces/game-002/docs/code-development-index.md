@@ -1,10 +1,22 @@
 # game-002 代码开发进度
 
+## 2026-09-19：05紧凑暗面选定，独立Demo v0.1交付
+
+用户选择“05的紧凑暗面”，依据上一轮“确认后尝试独立开发Demo”的要求，已按[05v2视觉方向](visual-review-2026-09-19-fresh/style-guide.md)在[E:/Project/yanzhou-dark-demo](E:/Project/yanzhou-dark-demo/README.md)建立独立Git代码仓库。未复用旧Demo、场景或旧示例图；新工坊、法杖、守卫、火焰和材质由原生生图生成。代码分支 `codex/dark-demo`，本地提交 `cf7b98d`；代码仓库尚未配置远端。
+
+状态：**Playable Demo v0.1 / 05 Visual Selected / RC1 Full Acceptance Incomplete**。已接34词／19镶嵌内容表、三杖、实体构句、时序／范围、2×5自动战斗、19节点与12遭遇、金币／商店／休整、本地保存与锁定重播；具备真实流程，不是静态页面图。预览[本地Demo](http://127.0.0.1:8877/)，[Windows离线试玩包](E:/Project/yanzhou-dark-demo/release/yanzhou-dark-demo-v0.1.zip)解压后双击Start-Demo，使用系统PowerShell和浏览器，无需安装开发依赖。
+
+验证：[16项实现检查及浏览器流程记录](E:/Project/yanzhou-dark-demo/docs/verification.md)；[05同尺寸视觉核对](E:/Project/yanzhou-dark-demo/design-qa.md)通过本次Demo交付门槛，已修桌面／窄侧栏裁切、字体密度、名义刻轴及商店恢复入口。种子42固定烟测在C5L第76刻失败，保留失败与后续未到达，未调整设计参数保证通关。已回填[固定测试交接](test-handoff.md)。
+
+明确缺口：复杂条件／数量比较与精确实例绑定编辑、拖动、独立敌人和完整环境形态美术、音频、GDD实体桌面与长法杖袋入口、完整路线红线表现、全卡池组合和完整RC1验收。原生EXE也未制作。具体技术与偏差见代码仓库README；这些缺口没有被当作设计删减，平衡与真人理解仍Hypothesis。
+
+下一步：基于本版试玩收集问题，补完整引用／条件输入与内容表现，再按RC1冻结新的验收输入。不能把16项检查或视觉通过扩写为53实体全部组合、自然随机通关或真实玩家理解已验证。
+
 ## 2026-09-19：从 RC1 文字重新建立独立 Demo 视觉评审包
 
 用户要求完整阅读当前GDD、不看仓库已有示例图，先交付简明风格文档与页面效果图，确认后再尝试独立开发Demo。本轮以[全游戏RC1](../game-design-workflow/gdd/GDD-2026-09-14-yanzhou-full-game.md)和全部Wiki正文为设计来源，交付[新视觉风格](visual-review-2026-09-19-fresh/style-guide.md)、[图片评审页](visual-review-2026-09-19-fresh/index.html)、原生生成图及逐图质量记录。未读取旧示例图；GDD中的已确认文字约束继续适用。
 
-状态：**AwaitingVisualConfirmation / 本任务尚未启动Demo开发**。这是本次独立开发请求的前置视觉候选，与下方已有资产制作任务分别记录，不将旧Demo、既有模型或旧测试结果计入本任务完成度。本轮只核对图片、页面与设计映射，未运行玩法测试，未改变GDD规则、参数或Accepted范围。
+阶段一交付时状态为AwaitingVisualConfirmation；随后用户已选择05紧凑暗面，当前Demo进展见本页顶部。此记录保留原始视觉评审阶段，旧Demo、既有模型与旧测试结果不计入本次独立开发完成度；GDD规则、参数和Accepted范围保持其设计来源。
 
 下一步：用户确认主风格与页面组合后，在独立代码目录／仓库建立Demo；先形成真实构句、法杖时序、2×5自动战斗与原因记录，再接路线、获取、保存和首领。中间切片明确标阶段性版本，完整单局目标仍以RC1为准。技术方案与实际验收证据届时在对应代码仓库维护。
 

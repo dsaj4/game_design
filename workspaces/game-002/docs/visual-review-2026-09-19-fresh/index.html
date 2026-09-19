@@ -18,15 +18,15 @@ dialog{width:min(97vw,1800px);max-width:none;max-height:97vh;border:1px solid #8
 <body>
 <header>
 <p class="eyebrow">GAME–002 / VISUAL REVIEW / 2026.09.19</p>
-<h1>言咒 · 可以摆弄的法术工坊 <span class="badge">视觉草案 · 待确认</span></h1>
+<h1>言咒 · 可以摆弄的法术工坊 <span class="badge">05紧凑暗面 · 已选定</span></h1>
 <p>墨色石台、羊皮纸词卡、旧木与黄铜。六张新图，比较场景触感与信息布局。全部依据 RC1 文字制作，未查看仓库已有示例图。</p>
-<nav aria-label="评审资料"><a href="style-guide.md">简明风格文档 ↗</a><a href="gdd-reading-notes.md">GDD 阅读对照 ↗</a><a href="qa-notes.md">逐图质量记录 ↗</a></nav>
+<nav aria-label="评审资料"><a href="http://127.0.0.1:8877/">试玩独立Demo ↗</a><a href="style-guide.md">简明风格文档 ↗</a><a href="gdd-reading-notes.md">GDD 阅读对照 ↗</a><a href="qa-notes.md">逐图质量记录 ↗</a></nav>
 </header>
 <main>
-<div class="recommendation"><strong>建议以 01–03 为主方向，采用 02 的编排结构与 06 的选词层级。</strong><p>04比较更强的实体桌面感，05比较更紧凑的装配信息。确认后再开始独立 Demo 开发。</p></div>
-<div class="toolbar" role="group" aria-label="筛选图片"><button type="button" aria-pressed="true" data-filter="all">全部 6 张</button><button type="button" aria-pressed="false" data-filter="main">主方向 01–03</button><button type="button" aria-pressed="false" data-filter="study">参考改编 04–06</button><small>点图放大 · 左右键切换 · Esc 返回</small></div>
+<div class="recommendation"><strong>已选定 05 的紧凑暗面，并据此制作独立 Demo v0.1。</strong><p>当前主方向是深炭面板、灰金文字、紧凑词槽与集中详情。其余图片保留为历史对照。</p></div>
+<div class="toolbar" role="group" aria-label="筛选图片"><button type="button" aria-pressed="true" data-filter="all">全部 6 张</button><button type="button" aria-pressed="false" data-filter="main">本作参考 01–03</button><button type="button" aria-pressed="false" data-filter="study">方案对照 04–06</button><small>点图放大 · 左右键切换 · Esc 返回</small></div>
 <div id="gallery" class="grid" aria-live="polite"></div>
-<section class="review-note"><h2>这次先判断三个问题</h2><p>是否喜欢这套木、石、纸的材质；战斗视角是否清楚；编排页更偏向02的明亮纸面，还是05的紧凑暗面。</p><p>图片用于视觉评审，尚无真实交互。图中的装饰、小字与路线连线不能代替 GDD；已发现的问题和定点修订均有记录。</p><p>玩法基线：战前编排、最多四杖、2×5自动战斗、原因可查、完整单局。当前没有启动游戏代码开发。</p></section>
+<section class="review-note"><h2>当前选择与试玩</h2><p>用户已选05紧凑暗面。可从顶部“试玩独立Demo”进入真实构句、战斗、路线和获取流程。</p><p>图片用于视觉评审，尚无真实交互。图中的装饰、小字与路线连线不能代替 GDD；已发现的问题和定点修订均有记录。</p><p>玩法基线：战前编排、最多四杖、2×5自动战斗、原因可查、完整单局。当前已交付独立Demo v0.1，完整RC1验收仍未完成。</p></section>
 <footer><span>基于《言咒》全游戏 GDD RC1 · 设计已采纳，平衡与体验仍待验证</span><a href="source-manifest.json">来源版本与生成记录</a></footer>
 </main>
 <dialog id="lightbox" aria-labelledby="dialogTitle"><div class="dialogbar"><h2 id="dialogTitle"></h2><button id="previous" type="button" aria-label="上一张">←</button><button id="next" type="button" aria-label="下一张">→</button><button id="close" type="button">关闭 ×</button></div><img id="fullimage" class="fullimage" alt=""><p id="dialogCaption" class="dialogcaption"></p></dialog>
