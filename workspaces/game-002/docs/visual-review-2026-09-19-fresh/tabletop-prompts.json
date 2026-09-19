@@ -1,0 +1,106 @@
+{
+  "created_date": "2026-09-19",
+  "project_id": "game-002",
+  "status": "Visual review candidates only / not a GDD change or gameplay adoption",
+  "method": "Built-in tools.image_gen__imagegen; one separate new-image call per initial asset plus one referenced-image edit for 03-route-v2 (two calls total for route). No relay/API fallback; no previous repository image viewed or used.",
+  "review_method": "Both workspace PNGs copied from original generated paths and opened with tools.view_image. Pixel dimensions read using System.Drawing.Image.",
+  "edits": [
+    {
+      "id": "03-route-v2",
+      "source_asset": "03-route",
+      "tool": "tools.image_gen__imagegen",
+      "mode": "edit",
+      "attempt_in_asset_chain": 2,
+      "referenced_image_paths": [
+        "E:/Project/game/workspaces/game-002/docs/visual-review-2026-09-19-fresh/images/03-route.png"
+      ],
+      "workspace_path": "E:/Project/game/workspaces/game-002/docs/visual-review-2026-09-19-fresh/images/03-route-v2.png",
+      "generated_path": "C:/Users/Administrator/.codex/generated_images/01a0b9a5-2348-7e73-ac81-8bd761d84e70/exec-18be3c33-5a30-4203-aa7c-a2ec547dd0d1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2309169,
+      "final_prompt": "Use case: precise-object-edit\nEdit the supplied original route-screen image for “言咒”. Make exactly ONE tiny text correction and otherwise preserve the image pixel-for-pixel as far as possible.\nThere are two consecutive lower-row combat seals both mistakenly labeled “C2R”. Keep the first lower-row “C2R” unchanged: it is in column 3, centered around x=21.5% of image width, under the first lower crossed-swords seal. Change ONLY the second lower-row “C2R”, in column 4 centered around x=28.5% of image width and y=58% of image height, to read exactly “C3R”. This target is directly underneath the upper “C3L” node, and just left of the middle lower “商店” tent.\nReplace only digit 2 with digit 3 in that label, matching the same dark ink, small italic serif lettering, scale, baseline and parchment texture. Keep the letters C and R.\nInvariants: preserve every other text character and title, the first C2R, all 19 node circles and pictograms, all thin red route connections including bypasses, pawn, leather case, two exposed wands, book, coin box, parchment illustrations, right-side route panel, status bar, bottom navigation, lighting, perspective, material texture and exact layout. Do not reimagine, redraw, restyle, crop, resize, move or add anything. The result must be the same original image with only the column-4 lower label corrected to C3R.",
+      "qa": {
+        "verdict": "Targeted label correction succeeded; preferred route candidate for review. Original preserved for comparison. Exact pixel preservation was not achieved by generative editing.",
+        "checked": [
+          "Fourth-column lower label now reads C3R.",
+          "Third-column lower label remains C2R.",
+          "19 visible nodes and 11-column ordering retained.",
+          "Major screen layout, camera, props, route panel, status text, parchment scene and thin red routes visually retained."
+        ],
+        "limitations": [
+          "Generative edit also regenerated fine material and background line-art details, so it cannot be described as a pixel-only text substitution.",
+          "The C3R-to-next-upper-rest diagonal is more explicit in the edited image; the complete edge set and invariant preservation are not certified.",
+          "Structured design data, rather than this visual candidate, remains authoritative for exact route connections.",
+          "1672×941 is approximately 16:9."
+        ]
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "03-route",
+      "workspace_path": "E:/Project/game/workspaces/game-002/docs/visual-review-2026-09-19-fresh/images/03-route.png",
+      "generated_path": "C:/Users/Administrator/.codex/generated_images/01a0b9a5-2348-7e73-ac81-8bd761d84e70/exec-01da2326-91a7-4fdf-822a-8bb24de5db1f.png",
+      "tool": "tools.image_gen__imagegen",
+      "attempts": 1,
+      "reference_images": [],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2600971,
+      "final_prompt": "Use case: ui-mockup\nAsset type: 16:9 landscape PC game screen visual-review candidate for an original Chinese fantasy indie game titled “言咒”. Generate a complete high-quality playable-looking route selection screen, not advertising art and not a diagram pasted over a photo.\nComposition: gently elevated, shallow angled view over a tactile wooden spellcraft table. A very large stretched parchment map covers about 70% of the screen. Along the back edge lies one long horizontal leather wand case, with two wooden wand tips peeking out. Bottom-right has a closed book, small coin box, and very few tools. No cat or other animal. Most of the clear parchment is the route graph, moving left to right. Restrained narrow right-side parchment information panel, separate from the graph. Upper-left title “言咒”. Upper edge modest status line “HP 100/100” and “金币 0”. Bottom-left quiet text navigation “法杖与词卡”.\nArt direction: mature original fantasy indie videogame, clear book copperplate engraving blended with hand-painted low-poly 3D props, ink-gray stone #202629, warm parchment #E7D8B5, wood brown #655046, restrained brass #B89B67, selected ochre-red #A44E42. Small fire accents #E47B48 and ice accents #8FC9D5. Readable Simplified Chinese. Titles slightly Song-style serif, body clear Chinese sans. Fine etched marks, soft warm side light, natural material variation; keep broad paper areas uncluttered and text sharp. Never mobile-game glossy panels or a business dashboard; no excessive gilding.\nABSOLUTE ROUTE CONTENT: exactly 19 visible nodes, in ELEVEN evenly spaced vertical columns across the large map. Do not add any node. Keep nodes compact enough that all 11 columns fit. Each node is a small crisp circular ink seal with its functional pictogram, not a landscape location that a player walks freely through. Paired columns have one upper and one lower node. The exact sequence from left to right is:\nColumn 1: ONE entry node, caption “入口”, selected ring and one small carved wooden wizard pawn immediately beside it. This is C1, the entrance combat.\nColumn 2: TWO nodes: upper campfire “休整”, lower tent “商店”.\nColumn 3: TWO crossed-swords ordinary combat nodes, short labels “C2L”, “C2R”.\nColumn 4: TWO crossed-swords ordinary combat nodes, labels “C3L”, “C3R”.\nColumn 5: TWO nodes: upper campfire “休整”, lower tent “商店”.\nColumn 6: TWO crossed-swords ordinary combat nodes, labels “C4L”, “C4R”.\nColumn 7: TWO crossed-swords ordinary combat nodes, labels “C5L”, “C5R”.\nColumn 8: TWO nodes: upper campfire “休整”, lower tent “商店”.\nColumn 9: TWO crossed-swords ordinary combat nodes, labels “C6L”, “C6R”.\nColumn 10: ONE tent shop node caption “商店”. A faint short route bypass curves around this shop and rejoins before the boss; the bypass has NO extra node.\nColumn 11: ONE boss gatehouse pictogram node caption “首领”.\nConnections are very thin red ink lines, with clear separations between nodes. Entry branches to both column-2 nodes. Each camp/rest-shop pair connects each of its two nodes to both nodes of the next combat pair. Column 3 upper connects only to column 4 upper, and column 3 lower only to column 4 lower: TWO parallel straight lines, NO crossing there. Column 6 upper connects only to column 7 upper, and lower only to lower: TWO parallel lines, NO crossing there. From each combat pair before a rest/shop pair, connect to that next pair. Column 9 converges towards column 10 and the single boss beyond it.\nRight narrow information panel text is only: heading “路线”, current selection “入口”, sublabel “普通战斗”, one clear button “进入”. Keep it well away from the 19 map nodes. Do not display duplicate node previews in the panel.\nMust avoid: question-mark nodes, treasure chests or reward nodes, open-world travel, extra branch nodes, extra shops, cartoon faces, a cat, unrelated monsters, giant 3D map landmarks, decorative UI noise, English marketing text, added mechanics. This is a proposed visual, not a final design spec.",
+      "qa": {
+        "verdict": "Usable candidate for route desktop composition, materials and atmosphere; not an authoritative route graph.",
+        "checked": [
+          "19 visible route nodes in 11 left-to-right columns: 1,2,2,2,2,2,2,2,2,1,1.",
+          "Three camp/shop pairs; four shop nodes total including the final optional shop; boss gate pictogram; no question-mark or reward chest node.",
+          "Entry wooden wizard marker; large paper map, horizontal leather wand case showing two wand tips, lower-right book and coin box; no cat.",
+          "Right route panel, HP 100/100, gold 0 and bottom 法杖与词卡 navigation legible.",
+          "C2-to-C3 and C4-to-C5 shown as upper/lower parallel lines. Final shop has visible bypass routes."
+        ],
+        "limitations": [
+          "The fourth-column lower combat label is generated as C2R instead of intended C3R.",
+          "Many-to-many route lines overlap at small scale. The visual check does not certify the complete edge set; verify against the exact structural graph before implementation.",
+          "Image generator added ornamental Chinese taglines not requested; these are visual filler, not adopted product copy.",
+          "Overall rendering is more realistic and ornamented than the requested restrained hand-painted low-poly blend.",
+          "Returned 1672×941 is approximately 16:9, not an exact 16:9 pixel pair."
+        ],
+        "intended_use": "Review tabletop framing, parchment tactility, screen hierarchy and visual tone; exact graph rules remain in structured documents or deterministic layout."
+      }
+    },
+    {
+      "id": "04-inscryption-study",
+      "workspace_path": "E:/Project/game/workspaces/game-002/docs/visual-review-2026-09-19-fresh/images/04-inscryption-study.png",
+      "generated_path": "C:/Users/Administrator/.codex/generated_images/01a0b9a5-2348-7e73-ac81-8bd761d84e70/exec-67965bed-c853-4bd0-be6d-c39842c3f127.png",
+      "tool": "tools.image_gen__imagegen",
+      "attempts": 1,
+      "reference_images": [],
+      "reference_basis": "Parent agent's observation of the official Inscryption Steam page: low viewpoint wooden table, warm side light, etched placement marks, physical paper cards and dark background. Only spatial/material lighting vocabulary adapted; no original logo, character or card artwork reproduced.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2702009,
+      "final_prompt": "Use case: ui-mockup\nAsset type: 16:9 widescreen playable-looking pre-battle spell programming screen for original Chinese fantasy indie game “言咒”, visual-review candidate, standalone original design.\nReference adaptation: use only the spatial arrangement and physical tabletop atmosphere observed in the official Inscryption Steam page: low viewpoint looking down slightly on a wooden tabletop, warm side lighting, etched placement marks and tangible paper cards against a dark background. This is an original bright readable spellcraft workshop reinterpretation, NOT an Inscryption screenshot; no replicated logos, characters, card artwork, sacrifice, scales, squirrels, horror opponent or horror narrative. No reference image supplied.\nCamera and composition: slightly elevated intimate low angle over a handmade dark wood workbench. The horizontal work surface is the functional interface. Along the back edge place a long leather wand case. Upper-left clean unobstructed title reads “言咒 · 战前编排”. Keep center very readable, minimal props. An open word-card box sits at lower left with a few loose word cards tucked into partitions. Main center has exactly FOUR parallel horizontal spell rows carved into the table, one physical wooden wand per row. Each row has a single physical word-strip assembly aligned along its wand and exactly TWO small empty socket rings at the wand's right end. The sockets are empty and visibly separate from word cards.\nCritical rule: one spell is represented by one physical assembly in one location. Do not repeat the same spell in a duplicate list, do not draw a second four-row overview. Words exist only on their central physical paper strip/cards. Four rows read, in order, exactly:\nRow 1: “伤害” “敌人”\nRow 2: “获得” “护甲”\nRow 3: “释放” “火焰”\nRow 4: “火焰” “伤害” “敌人”\nEach word is in bold legible dark simplified Chinese on a warm ivory small rectangular paper card. Some quiet fire-orange #E47B48 or ice-cyan #8FC9D5 ink markings may differentiate word kinds but do not add rules, digits or new word content. Lower left word card box may show short loose vocabulary cards “伤害”, “敌人”, “获得”, “护甲”, “释放”, “火焰”. No hand of cards across screen bottom.\nAt the immediate right of the four spell rows sits ONE small narrow ruled cardboard timing sheet, aligned visually with all four rows. Top headings: “首次冷却” and “名义计划”. Under first heading, four aligned values from top to bottom: “0”, “1”, “2”, “2”. Under second heading, four aligned values: “首放 4”, “首放 5”, “首放 7”, “首放 8”. Compact handwritten ledger quality but crisp typesetting, not a large stats dashboard.\nAt upper-right rear corner on table sits a small modest target practice board showing exactly TEN target squares in a 2-row by 5-column grid. Only the six middle squares glow gently: both rows, columns 2,3,4. Outer columns 1 and 5 unlit. No characters or enemies standing in it. Keep this board much smaller than the wand rows, a subordinate preview prop.\nBottom edge two clear tangible button plates: “保存配置” and “返回路线”. Selected button in restrained ochre-red.\nArt direction: original mature indie fantasy, copperplate book engravings plus hand-painted low-poly 3D objects. More tangible, substantial, physical than an ordinary route-map screen. Warm side lighting brings out card paper fibers, wooden wands, carved guide lines and scratched leather. Dark background but all functional cards and texts are well lit. Palette ink gray #202629, parchment #E7D8B5, brown wood #655046, restrained brass #B89B67, selection red #A44E42, small flame orange #E47B48 and ice cyan #8FC9D5. Slight Song-style serif title, crisp clear Chinese sans body. Readable localized game UI.\nAvoid: needless golden borders, mobile game UI, business dashboard widgets, duplicate spell representation, sacrifice, blood, scales, squirrels, horror opponent, face in darkness, battle hand, “结束回合”, combat action buttons, creatures, extra wand rows, filled socket gems, hidden extra mechanics, explanatory marketing slogans. The image is a proposal for visual study, not a final GDD.",
+      "qa": {
+        "verdict": "Usable candidate for a distinct physical tabletop reinterpretation; content placement is readable and main requested counts are visible.",
+        "checked": [
+          "Exactly four wand rows and one central representation per spell.",
+          "Spell rows read 伤害 敌人 / 获得 护甲 / 释放 火焰 / 火焰 伤害 敌人.",
+          "Exactly two visually empty rings at the right end of each row.",
+          "Timing sheet shows 首次冷却 0/1/2/2 and 名义计划 首放4/5/7/8.",
+          "Upper-right target board has 2×5 squares with six central squares highlighted and four outer squares dim.",
+          "Open vocabulary-card box at left, leather wand case along back, 保存配置 and 返回路线 buttons.",
+          "No sacrifice, scales, squirrels, horror opponent, battle hand or end-turn button."
+        ],
+        "limitations": [
+          "The generator placed ornamental colored stones on wand handles; these are not the empty socket rings and must not be treated as a new mechanical state.",
+          "Empty rings are positioned just beside the wand tips rather than physically embedded into each wood shaft.",
+          "The timing sheet occupies more visual area than the requested small cardboard readout.",
+          "Added decorative tagline and vocabulary-box label are not adopted copy or new rules.",
+          "The style is substantially realistic with elaborate carved wand handles, rather than strictly low-poly raw wood.",
+          "Returned 1672×941 is approximately 16:9, not an exact 16:9 pixel pair."
+        ],
+        "intended_use": "Compare low-viewpoint lighting, physical spell assemblies and readable tactile controls with the original direction; not a fake original Inscryption screenshot."
+      }
+    }
+  ]
+}

@@ -1,5 +1,13 @@
 # game-002 代码开发进度
 
+## 2026-09-19：从 RC1 文字重新建立独立 Demo 视觉评审包
+
+用户要求完整阅读当前GDD、不看仓库已有示例图，先交付简明风格文档与页面效果图，确认后再尝试独立开发Demo。本轮以[全游戏RC1](../game-design-workflow/gdd/GDD-2026-09-14-yanzhou-full-game.md)和全部Wiki正文为设计来源，交付[新视觉风格](visual-review-2026-09-19-fresh/style-guide.md)、[图片评审页](visual-review-2026-09-19-fresh/index.html)、原生生成图及逐图质量记录。未读取旧示例图；GDD中的已确认文字约束继续适用。
+
+状态：**AwaitingVisualConfirmation / 本任务尚未启动Demo开发**。这是本次独立开发请求的前置视觉候选，与下方已有资产制作任务分别记录，不将旧Demo、既有模型或旧测试结果计入本任务完成度。本轮只核对图片、页面与设计映射，未运行玩法测试，未改变GDD规则、参数或Accepted范围。
+
+下一步：用户确认主风格与页面组合后，在独立代码目录／仓库建立Demo；先形成真实构句、法杖时序、2×5自动战斗与原因记录，再接路线、获取、保存和首领。中间切片明确标阶段性版本，完整单局目标仍以RC1为准。技术方案与实际验收证据届时在对应代码仓库维护。
+
 ## 2026-09-19：法杖管理质量复查与实体面板 v03
 
 用户要求先复查模型切换异常后的资产质量，再用已恢复的生图能力生成真实面板形态。已交付[当前资产图册](E:/Project/game-002-godogen-lab/art/wand-management-v03/README.md)、[三版实际渲染对照](E:/Project/game-002-godogen-lab/art/wand-management-v03/comparison.md)和[质量复查记录](E:/Project/game-002-godogen-lab/art/wand-management-v03/quality-review.md)。状态 **PhysicalPanelRefined / NeedsArtReview**，属于左页静态 Blender 美术优化，不新增玩法或提升设计采纳状态。

@@ -1,0 +1,77 @@
+{
+  "date": "2026-09-19",
+  "project": "game-002",
+  "design": "RC1",
+  "visualStatus": "Visual Draft / Awaiting user confirmation",
+  "sourceCommit": "a76e5473d392ea246fe28acab1f11e93be3cf0c9",
+  "existingRepositoryImagesOpened": false,
+  "sources": [
+    {
+      "file": "E:/Project/game/workspaces/game-002/game-design-workflow/gdd/README.md",
+      "bytes": 1153,
+      "sha256": "d70f4270d4987d989ec16d0f9a9fd343ea331a630d4c272ef02d5e3688920506"
+    },
+    {
+      "file": "E:/Project/game/workspaces/game-002/game-design-workflow/gdd/GDD-2026-09-14-yanzhou-full-game.md",
+      "bytes": 28551,
+      "sha256": "8bcea638dbb4a72194100ae0189cfb6dbb871acfdf118e2fd508330ac2d170c6"
+    },
+    {
+      "file": "E:/Project/game/workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/01-systems.md",
+      "bytes": 32022,
+      "sha256": "ac305c5b701e734c1d81c91eefaa90ccfe75e6f90e510ffc64874345495116d2"
+    },
+    {
+      "file": "E:/Project/game/workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/02-grammar-and-configuration.md",
+      "bytes": 39756,
+      "sha256": "5dd54a0966ffdec1d7f40c99cc36e9c94274caf877f832494d9cfb8e533bf243"
+    },
+    {
+      "file": "E:/Project/game/workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/03-combat-and-status.md",
+      "bytes": 43798,
+      "sha256": "96b73e32242fe2ac8e30e2255933def77ebf37b804313fa4817c458d38f65ada"
+    },
+    {
+      "file": "E:/Project/game/workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/04-elements-and-environment.md",
+      "bytes": 17522,
+      "sha256": "fa80b67b1bdefcc1c87ece1c65e4bdf812243504b916aafaaebbcca0ff9e67e8"
+    },
+    {
+      "file": "E:/Project/game/workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/05-card-catalog.md",
+      "bytes": 74064,
+      "sha256": "65d4360e9a838f2b041af15fe1a1c3b307e1f16ee378eb9010f07b99c7d58590"
+    },
+    {
+      "file": "E:/Project/game/workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/06-parameters-and-economy.md",
+      "bytes": 25371,
+      "sha256": "a7688040b02f396bb5738078add1a3a30d587ddeab02832ed9df27be5c824317"
+    },
+    {
+      "file": "E:/Project/game/workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/07-route-and-encounters.md",
+      "bytes": 21609,
+      "sha256": "dfc324fbe17845bb6d0f809beebc94aab93bd45806c47ec0b4904a1fb44d3541"
+    },
+    {
+      "file": "E:/Project/game/workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/08-journey-ui-and-assets.md",
+      "bytes": 24374,
+      "sha256": "bdf02042eb5a2616896998f9ba978ba0e87dce4a453b29aa6ee4fcd23bc0e547"
+    },
+    {
+      "file": "E:/Project/game/workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/09-validation-and-risks.md",
+      "bytes": 31184,
+      "sha256": "91a10344f593f1373dce9d52a76e617e92bd46ff2f1435babb0cbde0050ae755"
+    },
+    {
+      "file": "E:/Project/game/workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/10-source-review.md",
+      "bytes": 62650,
+      "sha256": "428c574d4e761ef04df0a116830bf2decf3cfb64efc74b9bde89a1b64b2b3da9"
+    },
+    {
+      "file": "E:/Project/game/workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/README.md",
+      "bytes": 1143,
+      "sha256": "ca3e51c401f09374cc2639837fed65ae048245b3cdd790da81f2c1e00302d20d"
+    }
+  ],
+  "generation": "Built-in image_gen via delegated workers",
+  "demoDevelopmentStarted": false
+}
