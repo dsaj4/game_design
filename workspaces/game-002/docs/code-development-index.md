@@ -1,5 +1,17 @@
 # game-002 代码开发进度
 
+## 2026-09-19：法杖管理质量复查与实体面板 v03
+
+用户要求先复查模型切换异常后的资产质量，再用已恢复的生图能力生成真实面板形态。已交付[当前资产图册](E:/Project/game-002-godogen-lab/art/wand-management-v03/README.md)、[三版实际渲染对照](E:/Project/game-002-godogen-lab/art/wand-management-v03/comparison.md)和[质量复查记录](E:/Project/game-002-godogen-lab/art/wand-management-v03/quality-review.md)。状态 **PhysicalPanelRefined / NeedsArtReview**，属于左页静态 Blender 美术优化，不新增玩法或提升设计采纳状态。
+
+复查 v01/v02 后确认：v02 细皮纹与纸纤维有改善，主要几何／变换／文字布局保留，但主按钮移除实体钉帽和边线后立体感退步，因此没有直接认定上一轮整体通过。v03 保留有效皮纹，以图像模型生成空白层叠羊皮板、炭黑返回牌、酒红保存牌，再制作真实轮廓网格、三片纸页、厚度、独立铆钉及转移／加减控件。生成原图的假透明问题已检测并处理，原始图片、完整提示词及哈希见[来源清单](E:/Project/game-002-godogen-lab/references/wm-panel-v03/provenance.json)；生图原稿与实际 Blender 渲染分开记录。
+
+资产仓库为[dsaj4/game_assets](https://github.com/dsaj4/game_assets/tree/codex/setup-godogen-demo)，分支 `codex/setup-godogen-demo`，内容提交 `1d1c295f5f7c40ad0434361bfa5e86bd700ad02e`。含七组可编辑 .blend／GLB、组合母版与新渲染；启动脚本默认 v03，并可切回保留的 v01/v02。本轮生产使用 Blender 内置 Python，没有声称电脑插件 GUI 操作。
+
+[共享验证126项](E:/Project/game-002-godogen-lab/art/wand-management-v03/verification.json)与[补充质量验证18项](E:/Project/game-002-godogen-lab/art/wand-management-v03/quality-verification.json)通过：原生重开、GLB实际回导、贴图打包、旧资产保护；袋／架／法杖几何及材质槽未被本轮改动，49个文字内容相等。四出战／两示例备用、只读法术、两镶嵌槽、十格及B3/F2/F3/F4保留。已查看总装、面板正／斜视、按钮近景；另检查84处文稿链接与脚本语法。v01/v02母版未覆盖，无关E1修改未纳入本轮提交。
+
+范围限制：整页仍有比概念稿简化的法杖和架体；559,486个总装三角形包含固定中文字形，尚无LOD或运行性能验收。生成皮肤包含手绘微阴影，不是完整PBR分层；GLB需后续动态文字和引擎描边。未新增Godot管理页面、换装／保存交互或玩法测试。下一步从本轮真实近景评议面板和按钮，再按实际问题细化；不把结构通过视为整页最终美术通过。
+
 ## 2026-09-13 最新设计变更尚未实现
 
 [G002-CORE-018 / ST01–04](../game-design-workflow/idea-materials/M-2026-09-13-end-tick-status-rulings.md)已采纳每刻末状态、固定排序、自然衰减累计小数和允许空心＋自噬储层。现有TH-003／CAL引擎与候选仍对应旧周期／取整输入；本轮只改设计文档，没有修改代码或demo，新规则实现与测试NotRun。下一步按[交接](test-handoff.md)冻结新输入后再登记实现版本。
