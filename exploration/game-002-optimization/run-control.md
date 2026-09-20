@@ -2,7 +2,36 @@
 
 本文件是 `game-002-optimization` 的单轮探索控制面。它只约束本项目内的研究、候选、模拟、原型和评估记录；不能授权直接修改 game-002。每次自动探索开始前先填写“当前运行”，结束后补齐结果和下一步。
 
-## 当前运行：时间轴与战场表现及交互（2026-09-14）
+## 当前运行：局内／局外策略循环（2026-09-20）
+
+```yaml
+project_id: game-002-optimization
+source_project_id: game-002
+run_id: OPT-20260920-001
+context_pack: baseline-2026-09-09-001
+explicit_source: GDD-G002-FULL-001@1.0-RC1
+source_commit: f5a32c384e77ab1c2bc912fde2f7dc6cd2c4e788
+active_question: Q-20260920-strategic-run-and-meta-loops
+candidate_ids: [C-informed-expedition-v01, C-committed-trial-v01, C-wave-workshop-v01, C-puzzle-circuit-v01]
+autonomy_level: L1-supervised
+status: Completed
+review: Needs Human Review
+round_budget: 1 local design pass; at most 4 raw loop architectures; 0 external research; 0 gameplay simulations; 0 playable prototypes
+max_rounds: 1
+stop_conditions: deliver loop comparison, recommended architecture, concrete player choices and validation plan; no automatic qualification or RC1 writeback
+```
+
+- 授权：用户明确进入 exploration、目标 game-002、不阅读其他探索方向，指定全游戏 GDD，并要求围绕策略深度与独特机制设计局内／局外循环。本次请求足以启动上述有限设计工作，不沿用历史问题或候选推荐。
+- 阅读边界：必要路由／治理文件、项目 README／运行控制的导航信息、活动包摘要和用户指定 RC1 及相关正文分册。没有打开其他探索方向的候选、问题、素材或研究正文；导航中的历史摘要不作为本轮设计依据。
+- 当前来源的工作树内容与上述 HEAD 一致；GDD 原始提交及逐文件 SHA-256 登记在本轮来源记录。旧包只用于版本识别，不以旧补牌、起手或 Unknown 覆盖 RC1。
+- 交付范围：四种循环的研究性比较、一份原始创意记录、一份问题及项目导航。局内含战斗内和战间；局外单指跨局。用户没有要求直接采纳、制作原型或修改正式 GDD。
+- 产物：[四种循环原始设计](idea-inbox/2026-09-20-strategic-run-and-meta-loops.md)、[适配与来源](insights/2026-09-20-strategic-loop-fit-and-sources.md)、[主要问题](questions/Q-20260920-strategic-run-and-meta-loops.md)及README／本控制文件。
+- 已完成：1轮本地设计分析、4个替代主循环、A的跨局知识反馈与A0／A1／A2验证计划。外部调研、游戏模拟、可玩原型与真人测试均为0；静态实体与币值例只核对来源，不视为获胜／成型证据。
+- 当前结果：优先建议A知情远征，但四项均保持`Agent Proposal / Raw Idea / Unqualified`。没有用户主方向选择、资格晋级或正式设计回写；此前历史问题不自动成为本轮前置条件。
+- 文档验证：5份文件UTF-8严格解码、85个本地链接、6份来源SHA-256和代码围栏检查通过；任务范围内`git diff --check`通过。实体分配、阶段价格及币值例经静态核对；没有把这些检查记成玩法测试。
+- 下一步：交付推荐及完整候选；后续由用户选择主要体验，再按`grill-with-docs`逐项确认。A优先从一个两战分岔拆分验证“提前信息”和“路线影响成长机会”，不同时叠加其他循环。
+
+## 历史运行：时间轴与战场表现及交互（2026-09-14）
 
 ```yaml
 project_id: game-002-optimization

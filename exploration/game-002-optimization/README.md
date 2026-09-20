@@ -2,7 +2,13 @@
 
 Project ID：`game-002-optimization`。状态：`Active / Core Design Context Active`。
 
-## 当前入口：2026-09-14 时间轴与战场表现
+## 当前入口：2026-09-20 局内／局外策略循环
+
+用户指定game-002全游戏GDD，要求比较能增加策略深度与独特体验的主循环，并禁止阅读其他探索方向。本轮[四种循环原始设计](idea-inbox/2026-09-20-strategic-run-and-meta-loops.md)比较知情远征、限额整备连续试炼、守点波次工坊和工坊谜题巡回；[适配与来源记录](insights/2026-09-20-strategic-loop-fit-and-sources.md)保存RC1版本、文件摘要、已有机制与新增差异。
+
+Agent优先建议“为未来咒式选路→现有词编排应对→短自动战斗→购物／恢复与重构”，先试验一个路径关联的预告词卡货位；跨局以咒典收藏、成败复盘和下一局目标形成知识循环。当前全部为`Agent Proposal / Raw Idea / Unqualified`；没有采纳、玩法模拟、原型或真人测试，未回写game-002。待确认的主取舍见[本轮问题](questions/Q-20260920-strategic-run-and-meta-loops.md)，范围与消耗见[run-control](run-control.md)。
+
+## 历史入口：2026-09-14 时间轴与战场表现
 
 用户要求通过时间轴带来战场新表现、新交互。[本轮创意](idea-inbox/2026-09-14-timeline-battlefield.md)区分未来投影（表现／战前查看）、待发法阵（新增场上对象）与巡行范围（新增动态锚点），并提供[范围巡行解释示意](insights/visuals/timeline-field-patrol.html)。全部为`Agent Proposal / Raw Idea / Unqualified`；示意不是对局模拟，没有修改RC1或读取其他探索方向。
 
