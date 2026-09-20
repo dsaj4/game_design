@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "project": {
+    "game_name": "GIC 24款创新机制与《言咒》迁移研究",
+    "slug": "gic-yanzhou",
+    "analysis_scope": "只分析来源可支持的机制结构及RC1适配；不写新GDD、不推定原作完整规则或商业表现",
+    "status": "Research / Provisional",
+    "target_questions": [
+      "哪些结构真正增加实体词卡的机会成本？",
+      "哪些改变能保留战前编排与自动执行？",
+      "五个方向如何最小化验证并独立决定去留？"
+    ],
+    "source_note": "外部检索由用户明确授权；游戏分析技能仅用于证据与八模块组织，技能中的旧项目背景不适用。"
+  },
+  "text_sources": [
+    {
+      "path": "source-notes.md",
+      "role": "GIC公开档案的自写事实转述与逐条来源",
+      "description": "24款来源描述，T01–T24；原始文本哈希见source-manifest.json"
+    },
+    {
+      "path": "../../../../workspaces/game-002/game-design-workflow/gdd/GDD-2026-09-14-yanzhou-full-game.md",
+      "role": "用户指定设计基线",
+      "description": "game-002全游戏GDD RC1；新玩法不得被视为既有规则"
+    }
+  ],
+  "images": []
+}

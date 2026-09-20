@@ -2,7 +2,32 @@
 
 本文件是 `game-002-optimization` 的单轮探索控制面。它只约束本项目内的研究、候选、模拟、原型和评估记录；不能授权直接修改 game-002。每次自动探索开始前先填写“当前运行”，结束后补齐结果和下一步。
 
-## 当前运行：局内／局外策略循环（2026-09-20）
+## 当前运行：GIC设计吸收与五方向比较（2026-09-20）
+
+```yaml
+project_id: game-002-optimization
+source_project_id: game-002
+run_id: GIC-20260920-001
+active_question: Q-GIC-20260920
+source_baseline: GDD-G002-FULL-001 / 1.0 RC1; explicit user-provided GDD and relevant body chapters
+source_commit: 97a1bfc9774845d3e63f3bc5bba29e14ba8a8e16
+baseline_sha256: 8bcea638dbb4a72194100ae0189cfb6dbb871acfdf118e2fd508330ac2d170c6
+active_context_pack: baseline-2026-09-09-001; unchanged; current GDD is an explicit supplemental source
+autonomy_level: L1-supervised; user-authorized autonomous research and raw candidate revision
+candidate_ids: [C-GIC-A-v1, C-GIC-B-v1, C-GIC-C-v1, C-GIC-D-v1, C-GIC-E-v1]
+status: Completed
+review: Needs Human Review for selection and qualification only
+round_budget: one catalog pass; 24 detailed game cases; at most 5 final raw directions; 0 gameplay simulations; 0 playable prototypes; 0 human sessions
+actual: 224 indexed archive records; 24 games / 40 detailed text records; 5 raw directions; 0 gameplay tests
+source_limitations: secondary archive text; 10 additional short-summary games / 12 records not promoted to detailed analysis; image retrieval incomplete or 403
+stop_conditions: deliver per-game analysis, candidate revisions, comparison and falsifiable plans; no automatic qualification or target-project writeback
+```
+
+产物：[研究入口](insights/gic-2026-09-20/README.md)、[逐案处理](insights/gic-2026-09-20/case-index.md)、[五方向](insights/gic-2026-09-20/directions.md)、[来源哈希](insights/gic-2026-09-20/source-manifest.json)、[原始候选](idea-inbox/2026-09-20-gic-design-directions.md)、[当前问题](questions/Q-20260920-gic-design-directions.md)。
+
+设计仍为Agent Proposal / Raw Idea / Unqualified。下一步推荐先独立审查“借词布阵”的实体机会成本；研究交付已完成，选择与采纳仍Open。目录中的其他游戏仅筛选，不把224份说成224款完整分析。其他探索方向正文未用作来源。
+
+## 历史运行：局内／局外策略循环（2026-09-20）
 
 ```yaml
 project_id: game-002-optimization

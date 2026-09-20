@@ -2,7 +2,13 @@
 
 Project ID：`game-002-optimization`。状态：`Active / Core Design Context Active`。
 
-## 当前入口：2026-09-20 局内／局外策略循环
+## 当前入口：2026-09-20 GIC设计吸收与五个新方向
+
+用户指定game-002全游戏GDD，要求只进入本探索项目，读取GIC中的游戏设计并自主建立吸收、评估、更新流程。[本轮研究](insights/gic-2026-09-20/README.md)已登记224份档案目录，对24款游戏的40份详细文字档案逐款处理，给出[五个新方向](insights/gic-2026-09-20/directions.md)：双面战利品、借词布阵、咒式委托、自编遗迹、咒理试炼。
+
+优先建议借词布阵：本场借用一张火/冰名词换初始元素，同一实体不能再入句，战后返还；其次是把下一场挑战与指定词卡成对选择。全部仍为`Agent Proposal / Raw Idea / Unqualified`，研究判断为`Research / Provisional`；无玩法模拟、原型、真人测试或game-002回写。来源与差异已按用户指定RC1单独记录，未使用其他探索方向正文作为来源。见[原始候选](idea-inbox/2026-09-20-gic-design-directions.md)、[当前问题](questions/Q-20260920-gic-design-directions.md)及[运行记录](run-control.md)。
+
+## 历史入口：2026-09-20 局内／局外策略循环
 
 用户指定game-002全游戏GDD，要求比较能增加策略深度与独特体验的主循环，并禁止阅读其他探索方向。本轮[四种循环原始设计](idea-inbox/2026-09-20-strategic-run-and-meta-loops.md)比较知情远征、限额整备连续试炼、守点波次工坊和工坊谜题巡回；[适配与来源记录](insights/2026-09-20-strategic-loop-fit-and-sources.md)保存RC1版本、文件摘要、已有机制与新增差异。
 

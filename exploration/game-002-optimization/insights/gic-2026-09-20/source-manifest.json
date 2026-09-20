@@ -1,0 +1,2034 @@
+{
+  "version": "1.0",
+  "project_id": "game-002-optimization",
+  "source_project_id": "game-002",
+  "source_url": "https://www.9cards.cn/gic/",
+  "retrieved_at": "2026-09-20T08:02:15.478385+00:00",
+  "source_export_sha256": "f730fe8d84e6063704e9c86ea88d35a648a12280abd9912b8b242d20cabd399f",
+  "source_commit": "97a1bfc9774845d3e63f3bc5bba29e14ba8a8e16",
+  "baseline_version": "GDD-G002-FULL-001 / 1.0 RC1",
+  "baseline_scope": "用户指定入口及02构句/04元素正文，02按有关条款读取，未递归检索历史素材",
+  "baseline_files": [
+    {
+      "path": "workspaces/game-002/game-design-workflow/gdd/GDD-2026-09-14-yanzhou-full-game.md",
+      "sha256": "8bcea638dbb4a72194100ae0189cfb6dbb871acfdf118e2fd508330ac2d170c6"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/02-grammar-and-configuration.md",
+      "sha256": "5dd54a0966ffdec1d7f40c99cc36e9c94274caf877f832494d9cfb8e533bf243"
+    },
+    {
+      "path": "workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/04-elements-and-environment.md",
+      "sha256": "fa80b67b1bdefcc1c87ece1c65e4bdf812243504b916aafaaebbcca0ff9e67e8"
+    }
+  ],
+  "archive_count": 224,
+  "selected_game_count": 24,
+  "selected_archive_count": 40,
+  "evidence_kind": "secondary archive text; no gameplay testing",
+  "snapshot_policy": "third-party full text and image downloads remain ignored under .raw",
+  "games": [
+    {
+      "evidence_id": "T01",
+      "name": "双侠小队",
+      "case": "cases/01-tag-team.md",
+      "archive_ids": [
+        "26-2025-T-5-Tag Team",
+        "26-2025-T-N-Tag Team-1",
+        "26-2025-T-N-Tag Team-2"
+      ]
+    },
+    {
+      "evidence_id": "T02",
+      "name": "守誓者：深入密林",
+      "case": "cases/02-oathsworn.md",
+      "archive_ids": [
+        "26-2022-T-N-Oathsworn Into the Deepwood-1",
+        "26-2022-T-N-Oathsworn Into the Deepwood-2"
+      ]
+    },
+    {
+      "evidence_id": "T03",
+      "name": "王之凝视",
+      "case": "cases/03-king-watching.md",
+      "archive_ids": [
+        "26-2025-V-5-The King is watching"
+      ]
+    },
+    {
+      "evidence_id": "T04",
+      "name": "冠军挑战者",
+      "case": "cases/04-challengers.md",
+      "archive_ids": [
+        "26-2022-T-N-Challengers!-1",
+        "26-2022-T-N-Challengers!-2"
+      ]
+    },
+    {
+      "evidence_id": "T05",
+      "name": "时序迷局",
+      "case": "cases/05-take-time.md",
+      "archive_ids": [
+        "26-2025-T-5-Take Time",
+        "26-2025-T-N-Take Time"
+      ]
+    },
+    {
+      "evidence_id": "T06",
+      "name": "霓虹白客",
+      "case": "cases/06-neon-white.md",
+      "archive_ids": [
+        "26-2022-V-N-Neon White-1",
+        "26-2022-V-N-Neon White-2",
+        "26-2022-V-N-Neon White-3"
+      ]
+    },
+    {
+      "evidence_id": "T07",
+      "name": "永恒牌",
+      "case": "cases/07-eternal-decks.md",
+      "archive_ids": [
+        "26-2025-T-N-Eternal Decks"
+      ]
+    },
+    {
+      "evidence_id": "T08",
+      "name": "火爆狂飙：全速前进",
+      "case": "cases/08-heat.md",
+      "archive_ids": [
+        "26-2022-T-N-Heat Pedal to the Metal"
+      ]
+    },
+    {
+      "evidence_id": "T09",
+      "name": "蒂尔特之辉",
+      "case": "cases/09-tiletum.md",
+      "archive_ids": [
+        "26-2022-T-N-Tiletum"
+      ]
+    },
+    {
+      "evidence_id": "T10",
+      "name": "阿亚尔：太阳之子",
+      "case": "cases/10-ayar.md",
+      "archive_ids": [
+        "26-2025-T-5-Ayar Children of the Sun"
+      ]
+    },
+    {
+      "evidence_id": "T11",
+      "name": "孤勇英豪",
+      "case": "cases/11-unstoppable.md",
+      "archive_ids": [
+        "26-2025-T-N-Unstoppable"
+      ]
+    },
+    {
+      "evidence_id": "T12",
+      "name": "夺心魔虫：初次照面",
+      "case": "cases/12-mindbug.md",
+      "archive_ids": [
+        "26-2022-T-5-Mindbug First Contact",
+        "26-2022-T-N-Mindbug First Contact"
+      ]
+    },
+    {
+      "evidence_id": "T13",
+      "name": "Moon Colony Bloodbath",
+      "case": "cases/13-moon-colony.md",
+      "archive_ids": [
+        "26-2025-T-N-Moon Colony Bloodbath"
+      ]
+    },
+    {
+      "evidence_id": "T14",
+      "name": "盒中猫：豪华版",
+      "case": "cases/14-cat-in-box.md",
+      "archive_ids": [
+        "26-2022-T-N-Cat in the Box Deluxe Edition"
+      ]
+    },
+    {
+      "evidence_id": "T15",
+      "name": "文字游戏",
+      "case": "cases/15-word-game.md",
+      "archive_ids": [
+        "26-2022-V-5-Word Game"
+      ]
+    },
+    {
+      "evidence_id": "T16",
+      "name": "堆叠大陆",
+      "case": "cases/16-stacklands.md",
+      "archive_ids": [
+        "26-2022-V-1-Stacklands",
+        "26-2022-V-N-Stacklands-1",
+        "26-2022-V-N-Stacklands-2"
+      ]
+    },
+    {
+      "evidence_id": "T17",
+      "name": "蓝途王子",
+      "case": "cases/17-blue-prince.md",
+      "archive_ids": [
+        "26-2025-V-1-Blue Prince",
+        "26-2025-V-N-Blue Prince-1",
+        "26-2025-V-N-Blue Prince-2",
+        "26-2025-V-N-Blue Prince-3",
+        "26-2025-V-N-Blue Prince-4"
+      ]
+    },
+    {
+      "evidence_id": "T18",
+      "name": "万境奇旅",
+      "case": "cases/18-vantage.md",
+      "archive_ids": [
+        "26-2025-T-N-Vantage"
+      ]
+    },
+    {
+      "evidence_id": "T19",
+      "name": "苏丹的游戏",
+      "case": "cases/19-sultans-game.md",
+      "archive_ids": [
+        "26-2025-V-5-Sultan's Game"
+      ]
+    },
+    {
+      "evidence_id": "T20",
+      "name": "拯救世界操作指南",
+      "case": "cases/20-save-world.md",
+      "archive_ids": [
+        "26-2025-T-N-How to Save a World"
+      ]
+    },
+    {
+      "evidence_id": "T21",
+      "name": "海盐折纸",
+      "case": "cases/21-sea-salt-paper.md",
+      "archive_ids": [
+        "26-2022-T-N-Sea Salt & Paper-1",
+        "26-2022-T-N-Sea Salt & Paper-2"
+      ]
+    },
+    {
+      "evidence_id": "T22",
+      "name": "漫威终极逆转",
+      "case": "cases/22-marvel-snap.md",
+      "archive_ids": [
+        "26-2022-V-5-Marvel Snap",
+        "26-2022-V-N-Marvel Snap"
+      ]
+    },
+    {
+      "evidence_id": "T23",
+      "name": "TUNIC",
+      "case": "cases/23-tunic.md",
+      "archive_ids": [
+        "26-2022-V-N-TUNIC"
+      ]
+    },
+    {
+      "evidence_id": "T24",
+      "name": "预视武宗",
+      "case": "cases/24-forestrike.md",
+      "archive_ids": [
+        "26-2025-V-5-Forestrike"
+      ]
+    }
+  ],
+  "archives": [
+    {
+      "id": "25-2023-T-1-Hegemony Lead Your Class to Victory",
+      "name_cn": "领国者",
+      "name_en": "Hegemony: Lead Your Class to Victory",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-1-Hegemony-Lead-Your-Class-to-Victory-Set.png",
+      "text_sha256": "be2b077707c97e4444f68533204d5c559693878ca5198d3941cbd9f47d959601",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-5-Darwin's Journey",
+      "name_cn": "达尔文的旅程",
+      "name_en": "Darwin's Journey",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-5-Darwins-Journey-Set.png",
+      "text_sha256": "284f97d9cd64c7595ccd8d5fea27f02bdd681997bc6fd44a78c10213d1d7994c",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-5-DroPolter",
+      "name_cn": "",
+      "name_en": "DroPolter",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-5-DroPolter-Set.png",
+      "text_sha256": "cacfb599f90b27e3bbb265437eb5a7ce270e041e8dac4cc6369978ec52d22ee9",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-5-Forest Shuffle",
+      "name_cn": "森森不息",
+      "name_en": "Forest Shuffle",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-5-Forest-Shuffle-Set.png",
+      "text_sha256": "3ab212661488ca564bc284728a77594f421babc32d74b69c11a556eb2409f94b",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-5-Scout",
+      "name_cn": "马戏星探",
+      "name_en": "Scout",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-5-Scout-Set.png",
+      "text_sha256": "a3afd66461fc1fe16a4db3dbaba30f28ab263e7a4c4899df9efbfe19dd073c8b",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-5-Skyteam",
+      "name_cn": "天合小队",
+      "name_en": "Sky Team",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-5-Skyteam-Set.png",
+      "text_sha256": "0347d710b8df59d2992ac9a57dcfce4747f3d963c035a19ef929dc07ec708c2b",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-9 Cards Game HUA XIA",
+      "name_cn": "九张牌：华夏中原",
+      "name_en": "9 Cards Game HUA XIA",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-9-Cards-Game-HUA-XIA-Set.png",
+      "text_sha256": "cd19f5dfd249530dc0bd2fbb71e50b3fd8db9c5597c888bd122757a99ff450be",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-9 Cards Game S1",
+      "name_cn": "九张牌：桌面游戏合集第一季",
+      "name_en": "9 Cards Game: Collection Season 1",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-9-Cards-Game-S1-Set.png",
+      "text_sha256": "9c2415b8c4f7b391d54bbb9fd65317d4b07116bca67598aa4cb448ff55a16136",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-9 Cards Game The Nine Sons of The Dragon",
+      "name_cn": "九张牌：龙生九子",
+      "name_en": "9 Cards Game The Nine Sons of The Dragon",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-9-Cards-Game-The-Nine-Sons-of-The-Dragon-Set.png",
+      "text_sha256": "e9ad9eaaa600f8fd21eaa2f3a0f05a18a84a5dade0459edc18c61eed31adbf9c",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-Amalfi Renaissance",
+      "name_cn": "海商传奇",
+      "name_en": "Amalfi Renaissance",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-Amalfi-Renaissance-Set.png",
+      "text_sha256": "da1ab2881c5a867c2f71a02538dbc38e687a61d76f2da3ea39b6e7b2e8dccf2c",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-Ancient Knowledge",
+      "name_cn": "亘古真知",
+      "name_en": "Ancient Knowledge",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-Ancient-Knowledge-Set.png",
+      "text_sha256": "5c831abb2143beaf590f54e7871e6fb0b8d026dea11acfe6734cae1bb95389ce",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-Barcelona",
+      "name_cn": "巴塞罗那",
+      "name_en": "Barcelona",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-Barcelona-Set.png",
+      "text_sha256": "ce23fe00ad635eaaf8fe7ca2f913271d3da4e96ab7d3b1fb68e6f63db3ff98b9",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-Daybreak",
+      "name_cn": "曙光计划",
+      "name_en": "Daybreak",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-Daybreak-Set.png",
+      "text_sha256": "d91099ce1368cc1be92eec6b75292242462f36104f035a62319db8aaeeaae393",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-Faraway",
+      "name_cn": "遥远之地",
+      "name_en": "Faraway",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-Faraway-Set.png",
+      "text_sha256": "f9a0b567b4016ae46615d4669ee9d56183a67795b8378c91fd467bb9323ed02a",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-Karvi",
+      "name_cn": "",
+      "name_en": "Karvi",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-Karvi-Set.png",
+      "text_sha256": "051bb663b5a9a554ad16d16ccfedeb0da24de95de247f3fa8b1736b171ffc07d",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-Kutna Hora The City of Silver",
+      "name_cn": "库特纳霍拉：银矿之城",
+      "name_en": "Kutná Hora: The City of Silver",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-Kutna-Hora-The-City-of-Silver-Set.png",
+      "text_sha256": "607a0d088d7899aa29c15058fa4cc9a6de8ac319e902bdf16b48d45aac0cc1c0",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-Kutna Hora The City of Silver-2",
+      "name_cn": "库特纳霍拉：银矿之城",
+      "name_en": "Kutná Hora: The City of Silver",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-Kutna-Hora-The-City-of-Silver-2-Set.png",
+      "text_sha256": "797a16550ebd9952ee9e4b4eaea815b571bf835b877b2f088ee9eb26e6b8ac71",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-Kutna Hora The City of Silver-3",
+      "name_cn": "库特纳霍拉：银矿之城",
+      "name_en": "Kutná Hora: The City of Silver",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-Kutna-Hora-The-City-of-Silver-3-Set.png",
+      "text_sha256": "8d93a6ae0ba3de4e2cd5da9ecfb50d1267240fc724af640ee6e248b83e4bf593",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-Nucleum",
+      "name_cn": "核子激荡",
+      "name_en": "Nucleum",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-Nucleum-Set.png",
+      "text_sha256": "05725de1ff03f928fff44f78d027afe8a7c4368c38a482b742cf09ce220aa3f7",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-Nucleum-2",
+      "name_cn": "核子激荡",
+      "name_en": "Nucleum",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-Nucleum-2-Set.png",
+      "text_sha256": "9479b8648cad571424aa972d7f0f158f6aec68e4d285ba73ee898347c8770b8c",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-Nucleum-3",
+      "name_cn": "核子激荡",
+      "name_en": "Nucleum",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-Nucleum-3-Set.png",
+      "text_sha256": "33133681597b4f0fe38446210f4024a257e230810f73074860959992179d7f2d",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-Oranienburger Kanal",
+      "name_cn": "果拉宁堡运河",
+      "name_en": "Oranienburger Kanal",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-Oranienburger-Kanal-Set.png",
+      "text_sha256": "9715e956b5c9dcd69bb7714b07ed3bea5a865fd8da44e60e9d5ac7f82d2f6273",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-Oranienburger Kanal-2",
+      "name_cn": "果拉宁堡运河",
+      "name_en": "Oranienburger Kanal",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-Oranienburger-Kanal-2-Set.png",
+      "text_sha256": "6117092d77c6235a5de7c0dbaa6ffd99c87bcda89f3f7554c55822b3c7f4b84b",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-Rebel Princess",
+      "name_cn": "叛逆公主",
+      "name_en": "Rebel Princess",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-Rebel-Princess-Set.png",
+      "text_sha256": "a08cb387b212d70bc74a4f3b23b4466c193aa59b6a2451901095cc6d5c74281b",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-Terrorscape",
+      "name_cn": "恶夜杀机",
+      "name_en": "Terrorscape",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-Terrorscape-Set.png",
+      "text_sha256": "ca36ecfa4a3a87c67c8886905e1dcd5440afca044224f7a3f0a0949c25541be8",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-The Vale of Eternity",
+      "name_cn": "永恒之谷",
+      "name_en": "The Vale of Eternity",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-The-Vale-of-Eternity-Set.png",
+      "text_sha256": "f214a9c612d727069ccc494c95dfc11f85bc5c94c9c2a16b914d332081fd4248",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-The Vale of Eternity-2",
+      "name_cn": "永恒之谷",
+      "name_en": "The Vale of Eternity",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-The-Vale-of-Eternity-2-Set.png",
+      "text_sha256": "391ca56075863742be7bd8249cdd0af4574d7b892d4ff425d41eca29036b34e3",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-The White Castle",
+      "name_cn": "姬路城",
+      "name_en": "The White Castle",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-The-White-Castle-Set.png",
+      "text_sha256": "a74cb0e4a9a3e36a69111b357ce745f51bdd7df4ebad188db013c939833a1c24",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-The White Castle-2",
+      "name_cn": "姬路城",
+      "name_en": "The White Castle",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-The-White-Castle-2-Set.png",
+      "text_sha256": "6e1b52af7c61d2dade3f4b260ca59cd20098fbfab96b68afcebcaba50949bedb",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-The White Castle-3",
+      "name_cn": "姬路城",
+      "name_en": "The White Castle",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-The-White-Castle-3-Set.png",
+      "text_sha256": "9d0e317a7873c29e7b43408030bd2bc340a673b237fea2b8e57b8d7034a2530e",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-Uchronicle",
+      "name_cn": "食墩简史",
+      "name_en": "Uchronicle",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-Uchronicle-Set.png",
+      "text_sha256": "af6d799ee27b03ae58daaafeb29b21297bafabb41c03e7ca8d3ea3deeb2e3507",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-T-N-Void 1680 AM",
+      "name_cn": "虚空电台",
+      "name_en": "Void 1680 AM",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-T-N-Void-1680-AM-Set.png",
+      "text_sha256": "2777d500a25e46ab3a2bed3a80998987670d56145af2f12739a5c434c1355cc8",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-V-1-The Legend of Zelda Tears of the Kingdom",
+      "name_cn": "塞尔达传说：王国之泪",
+      "name_en": "The Legend of Zelda: Tears of the Kingdom",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-V-1-The-Legend-of-Zelda-Tears-of-the-Kingdom-Set.png",
+      "text_sha256": "761aa204128e11b810eded56f97dd527e15166edb2523411baa53e56521e978d",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-V-5-Baldur's Gate 3",
+      "name_cn": "博德之门3",
+      "name_en": "Baldur's Gate 3",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-V-5-Baldurs-Gate-3-Set.png",
+      "text_sha256": "e41f0b0102314c3891c9b2c7ebc3930a52f91c83e60df7072be7e8f8c4d79b3e",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-V-5-Charts of Sennaar",
+      "name_cn": "巴别塔圣歌",
+      "name_en": "Chants of Sennaar",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-V-5-Charts-of-Sennaar-Set.png",
+      "text_sha256": "2b5b1bef3f93bcb040c513c7262a86ef2f0b3f0210e4761c77cae42b5a829c6f",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-V-5-Cocoon",
+      "name_cn": "茧",
+      "name_en": "Cocoon",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-V-5-Cocoon-Set.png",
+      "text_sha256": "e20d6353ab44fec1810835f1853849c8c3c35300c6aeae4574088d772c94551f",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-V-5-Dave The Diver",
+      "name_cn": "潜水员戴夫",
+      "name_en": "Dave the Diver",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-V-5-Dave-The-Diver-Set.png",
+      "text_sha256": "44de687912e3d64def6df53977d5efcfc95091ae768b2b287b51fd20eb6778b9",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-V-5-Storyteller",
+      "name_cn": "",
+      "name_en": "Storyteller",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-V-5-Storyteller-Set.png",
+      "text_sha256": "0d9b02eeeb3752d33a563089bcfb686151267b71509d5ee51482df18f9aa68f7",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-V-5-Super Mario Bros. Wonder",
+      "name_cn": "超级马力欧兄弟：惊奇",
+      "name_en": "Super Mario Bros. Wonder",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-V-5-Super-Mario-Bros.-Wonder-Set.png",
+      "text_sha256": "02a2966b549450c196c56104d2622986afc5034f40b21c52c31cc6b9423d0221",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-V-N-Alan Wake 2 Deluxe Upgrade",
+      "name_cn": "心灵杀手Z",
+      "name_en": "Alan Wake 2 Deluxe Upgrade",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-V-N-Alan-Wake-2-Deluxe-Upgrade-Set.png",
+      "text_sha256": "1fe1e2fd1615b8c5e42dd5f78af624192f299fee7172ffeec4d1b99c84b3193f",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-V-N-Backpack Hero",
+      "name_cn": "背包英雄",
+      "name_en": "Backpack Hero",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-V-N-Backpack-Hero-Set.png",
+      "text_sha256": "d7852629243f231a0e2f9fe9ca7c9a698585065ba6ffadc5269cdad741220676",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-V-N-Bombe",
+      "name_cn": "",
+      "name_en": "Bombe",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-V-N-Bombe-Set.png",
+      "text_sha256": "c64f2d14fbd3400703a61e5eb58797dd83ea45f24f35749542b63823775aa82b",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-V-N-Brotato",
+      "name_cn": "土豆兄弟",
+      "name_en": "Brotato",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-V-N-Brotato-Set.png",
+      "text_sha256": "d8d1bde59fc986b20279406a51e73a7dbddb1bf3c3b7e88f567eaabed92114ee",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-V-N-Buckshot Roulette",
+      "name_cn": "恶魔轮盘",
+      "name_en": "Buckshot Roulette",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-V-N-Buckshot-Roulette-Set.png",
+      "text_sha256": "466f69652ab58614fd278a7a4e7ec64401603cacd3842fbbef0cc96883b6cb4c",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-V-N-Chost Trick Phantom Detective",
+      "name_cn": "幽灵诡计：重制版",
+      "name_en": "Ghost Trick: Phantom Detective",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-V-N-Chost-Trick-Phantom-Detective-Set.png",
+      "text_sha256": "c7b49933d0ec5acd5d9c3b574c7f1f0cca5e409145aa6085dc32243674e2527e",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-V-N-Hexarchy",
+      "name_cn": "帝王牌局：古国纷争",
+      "name_en": "Hexarchy",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-V-N-Hexarchy-Set.png",
+      "text_sha256": "ab80872a11126fdebabb71ad85755f0d073fa3f117ea18399b180d413d5086c9",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-V-N-Portal Snake",
+      "name_cn": "传送门蛇",
+      "name_en": "Portal Snake",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-V-N-Portal-Snake-Set.png",
+      "text_sha256": "2d215562e82bd666ebc00c2f2eb9d4f2f4ff05998aa3fbc12a9fed1a8df64008",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-V-N-The Last Spell",
+      "name_cn": "最后的咒语",
+      "name_en": "The Last Spell",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-V-N-The-Last-Spell-Set.png",
+      "text_sha256": "2e1ca7d793cf956ecf2d54ab20e14c62c9437b4198b912d49db6bf3f6a91d20c",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-V-N-The Legend of Zelda Tears of the Kingdom",
+      "name_cn": "塞尔达传说：王国之泪",
+      "name_en": "The Legend of Zelda: Tears of the Kingdom",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-V-N-The-Legend-of-Zelda-Tears-of-the-Kingdom-Set.png",
+      "text_sha256": "6ffaabab3f46c2e66969ba60d5ac72ee2ff601949a9373250f1e5857eb66dba1",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2023-V-N-Your only move is hustle",
+      "name_cn": "",
+      "name_en": "Your Only Move Is Hustle",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2023-V-N-Your-only-move-is-hustle-Set.png",
+      "text_sha256": "77b0702b1a8e0b4b65ace33d5d6490a52eecaf800cad645015a7cf2de0f4af94",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-1-Things in Rings",
+      "name_cn": "环中物语",
+      "name_en": "Things in Rings",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-1-Things-in-Rings-Set.png",
+      "text_sha256": "e99f41dd3435eb5a12dafab0630bff8ebd818ad89e823a5b55f1a7cdae5c2475",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-5-Fishing",
+      "name_cn": "不捞而获",
+      "name_en": "Fishing",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-5-Fishing-Set.png",
+      "text_sha256": "0ba6d285daa7b03237ca8335637f961e86793164517893ce5c48c457921a5427",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-5-Harmonies",
+      "name_cn": "自然和弦",
+      "name_en": "Harmonies",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-5-Harmonies-Set.png",
+      "text_sha256": "c0e4824b3a9272774be67799ea0f7b3eb97778b36b98feefb63c7ae582a3c2d1",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-5-The Gang",
+      "name_cn": "纸牌帮",
+      "name_en": "The Gang",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-5-The-Gang-Set.png",
+      "text_sha256": "08b7e98680df9843d49adad1c64a97563486c754ffe5b5bc8b8b109b3d37e3cb",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-5-The Lord of the Rings Duel for Middle-earth",
+      "name_cn": "魔戒：中洲对决",
+      "name_en": "The Lord of the Rings: Duel for Middle-earth",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-5-The-Lord-of-the-Rings-Duel-for-Middle-earth-Set.png",
+      "text_sha256": "384cbe3dc234aaa9c21dcaacdffa764eec103957306ef465eda7dc52ad87686e",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-5-Windmilly Vally",
+      "name_cn": "风语花香",
+      "name_en": "Windmill Valley",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-5-Windmilly-Vally-Set.png",
+      "text_sha256": "93e55e8b67baf978f1bcf5fdf5db52e6465202dd58567252b29753edb642a742",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-9 Cards Game Attitude Terminal",
+      "name_cn": "九张牌：态度终端",
+      "name_en": "9 Cards Game Attitude Terminal",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-9-Cards-Game-Attitude-Terminal-Set.png",
+      "text_sha256": "0dce49bd8ef7639e30460fa598a03cd49dc00ae5c46b80719619a11a2010464d",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-9 Cards Game Beasts in Mist",
+      "name_cn": "九张牌：斗兽迷踪",
+      "name_en": "9 Cards Game Beasts in Mist",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-9-Cards-Game-Beasts-in-Mist-Set.png",
+      "text_sha256": "6008bfdf1d9da54d289cd969fd8e76d75796447acdef600a0acfdd75dcf2f9f8",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-9 Cards Game Counting Stars",
+      "name_cn": "九张牌：目里星辰",
+      "name_en": "9 Cards Game Counting Stars",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-9-Cards-Game-Counting-Stars-Set.png",
+      "text_sha256": "4d8921b0c639669dbb51c42ee2c969b59bca8b76b0dbeab22a80c2250f8375a9",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-9 Cards Game S2",
+      "name_cn": "九张牌：桌面游戏合集第二季",
+      "name_en": "9 Cards Game: Collection Season 2",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-9-Cards-Game-S2-Set.png",
+      "text_sha256": "9c2415b8c4f7b391d54bbb9fd65317d4b07116bca67598aa4cb448ff55a16136",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-9 Cards Game Team-Rogue-Like",
+      "name_cn": "九张牌：肉鸽小队",
+      "name_en": "9 Cards Game Team-Rogue-Like",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-9-Cards-Game-Team-Rogue-Like-Set.png",
+      "text_sha256": "e29090c344c1c30f93e21b616edd6b1558b85147f753f4cec5ba58b53fe5400b",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-9 Cards Game The Village of Werewolves",
+      "name_cn": "九张牌：狼人村落",
+      "name_en": "9 Cards Game The Village of Werewolves",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-9-Cards-Game-The-Village-of-Werewolves-Set.png",
+      "text_sha256": "c2368d1d1bfb00b075ca444c61c920541942d245c4d71b3db5c08f6395f9d0f5",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-9 Cards Game The Vortex Line",
+      "name_cn": "九张牌：旋涡航路",
+      "name_en": "9 Cards Game The Vortex Line",
+      "source_url": "",
+      "text_sha256": "e164c69dc61e6a32a35adee99c75e9b5ac2b1a6fa6cc6def24edf8417ac418fa",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-A Dream of Red Masions",
+      "name_cn": "红楼梦：海棠诗社",
+      "name_en": "A Dream of Red Mansions",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-A-Dream-of-Red-Masions-Set.png",
+      "text_sha256": "1a2f5ec4d07c3fc62ec480e4e5fcbcbcf19865c13ebd83cd68752aaa7e0ecd86",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-Age of Innovation",
+      "name_cn": "大创造时代",
+      "name_en": "Age of Innovation",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-Age-of-Innovation-Set.png",
+      "text_sha256": "20105d73476304ad6f85719fdcddaae6c2b66243ad2e70acfa3aa20bfb689e38",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-CU ZHI",
+      "name_cn": "促织",
+      "name_en": "CU ZHI",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-CU-ZHI-Set.png",
+      "text_sha256": "eb10a3e26e8f508ca85b03cc8eca3449c6b061c2531d3c51a841d62f968669a9",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-Cities",
+      "name_cn": "璀璨都市",
+      "name_en": "Cities",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-Cities-Set.png",
+      "text_sha256": "cad339ddc7756ab012f8b9e234c2d512f7d4f34d05ebfec1dda3bd4c273249bd",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-Civolution",
+      "name_cn": "文明演化",
+      "name_en": "Civolution",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-Civolution-Set.png",
+      "text_sha256": "7276a530e2926f2c50d214d188e051df46e265f156e36860fab36b1808b4c577",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-Civolution-2",
+      "name_cn": "文明演化",
+      "name_en": "Civolution",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-Civolution-2-Set.png",
+      "text_sha256": "d8a52179d96368768755bd127b79cd93ecd3d8d03b743d51a30bd6fd53242a1b",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-Detective Conan Cards Game",
+      "name_cn": "柯南TCG",
+      "name_en": "Detective Conan Cards Game",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-Detective-Conan-Cards-Game-Set.png",
+      "text_sha256": "c807763d3109d5f5ff216aa633f7d153ad7da5b57984985c010682624b7eeb5d",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-Fromage",
+      "name_cn": "奶酪世家",
+      "name_en": "Fromage",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-Fromage-Set.png",
+      "text_sha256": "cd1324a1cc608086b566cc05a1cc97c8a862bf81d72d70437123d567d1e69a1f",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-Hourseless Carriage",
+      "name_cn": "无马之车",
+      "name_en": "Horseless Carriage",
+      "source_url": "",
+      "text_sha256": "722cc6031b9744a312abd7425b961c52a8ab8c33812de08e1cf5f9eac664147e",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-Ironwood",
+      "name_cn": "铁械木影",
+      "name_en": "Ironwood",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-Ironwood-Set.png",
+      "text_sha256": "3de561c4b886a817d9973b1460e672e9b04e94ab66457a41d52a93102cdefbee",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-Knarr",
+      "name_cn": "維京商船",
+      "name_en": "Knarr",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-Knarr-Set.png",
+      "text_sha256": "79f04e869e4cf9c309f9f188a6d7c5625e6516df481c27bf33984b1fcf786bc5",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-Kronologic Paris 1920",
+      "name_cn": "时空神探",
+      "name_en": "Kronologic Paris 1920",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-Kronologic-Paris-1920-Set.png",
+      "text_sha256": "c241359457403fcd38c3a9a2722d5bea831516ff4d97d490c6db7bcd13be4588",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-Mesos",
+      "name_cn": "史前物语",
+      "name_en": "Mesos",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-Mesos-Set.png",
+      "text_sha256": "fb29b0aafc7ec563e76ac7de9fd0020b6645c9975bd3fe6ad0e53c9939df8a29",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-Monkey Palace",
+      "name_cn": "猴宫巧匠",
+      "name_en": "Monkey Palace",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-Monkey-Palace-Set.png",
+      "text_sha256": "a92bae2dd07a17294dbfab155ffed229e974e5a1a7394b40bf2001e961885eb6",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-Mothership 1E",
+      "name_cn": "母舰",
+      "name_en": "Mothership 1E",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-Mothership-1E-Set.png",
+      "text_sha256": "84bbb2938b97d01e0c3637e47fe61d18c7c6e08d7afc086adbc82ab75446d389",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-SETI Search for Extraterrestrial Intelligence",
+      "name_cn": "星空觅迹：群星计画",
+      "name_en": "SETI: Search for Extraterrestrial Intelligence",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-SETI-Search-for-Extraterrestrial-Intelligence-Set.png",
+      "text_sha256": "b4e8d05e0ec4e7a155a9fbe40480d7f7f23ba2ab035d38d881554430f05097bb",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-SETI Search for Extraterrestrial Intelligence-2",
+      "name_cn": "星空觅迹：群星计画",
+      "name_en": "SETI: Search for Extraterrestrial Intelligence",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-SETI-Search-for-Extraterrestrial-Intelligence-2-Set.png",
+      "text_sha256": "f9179b1a8e10a0705d39b685049310e543592331d4b587d091eac03393648ea9",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-SETI Search for Extraterrestrial Intelligence-3",
+      "name_cn": "星空觅迹：群星计画",
+      "name_en": "SETI: Search for Extraterrestrial Intelligence",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-SETI-Search-for-Extraterrestrial-Intelligence-3-Set.png",
+      "text_sha256": "07ee53e826f1aaf6c67c263e2593d94ac8d6ac3de239847fcb18549e883068ff",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-SETI Search for Extraterrestrial Intelligence-4",
+      "name_cn": "星空觅迹：群星计画",
+      "name_en": "SETI: Search for Extraterrestrial Intelligence",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-SETI-Search-for-Extraterrestrial-Intelligence-4-Set.png",
+      "text_sha256": "c402944307c57674a16f87b4d4cab5225b7ebbc745c177a3e36aa1ca3bf1e5ba",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-Sense Series",
+      "name_cn": "略有不同系列",
+      "name_en": "Sense Series",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-Sense-Series-Set.png",
+      "text_sha256": "4cce51bd7a50f64b78317db7c8a6729bba18ae7ef26f7ad69037c8ea2c33ca17",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-The Lord of the Rings Duel for Middle-earth",
+      "name_cn": "魔戒：中洲对决",
+      "name_en": "The Lord of the Rings Duel for Middle-earth",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-The-Lord-of-the-Rings-Duel-for-Middle-earth-Set.png",
+      "text_sha256": "d4f1fed1c8c95a6770cd95f6ff04e61ff85798952691690cf1cf269abc8bf5f1",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-T-N-Windmilly Vally",
+      "name_cn": "风语花香",
+      "name_en": "Windmill Valley",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-T-N-Windmilly-Vally-Set.png",
+      "text_sha256": "1537a6a5d96c8d3201182b1a0e2cd0c1130cc9a69e6fb5a982248113292bc52c",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-V-1-Balatro",
+      "name_cn": "小丑牌",
+      "name_en": "Balatro",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-V-1-Balatro-Set.png",
+      "text_sha256": "5cb2448e57b1dd3deadb4a46d6af99831d596f09a3d4cdb6930a1b589c707e4d",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-V-5-Animal Well",
+      "name_cn": "动物井",
+      "name_en": "Animal Well",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-V-5-Animal-Well-Set.png",
+      "text_sha256": "6bc19ad9b6b441c445663312deb5b0f9b80d75fa24d6a47ca4e0ec557dd853d6",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-V-5-Black Myth WuKong",
+      "name_cn": "黑神语：悟空",
+      "name_en": "Black Myth: Wukong",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-V-5-Black-Myth-WuKong-Set.png",
+      "text_sha256": "7610a673920c75fcbaa34670e37a59435af2c677ead542b7a999a5553467e904",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-V-5-Dice Mancer",
+      "name_cn": "骰子浪游者",
+      "name_en": "Dice Mancer",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-V-5-Dice-Mancer-Set.png",
+      "text_sha256": "96db404df1bed4259e84d5c75ba59fab647bb98b97a43313f54a36e906399019",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-V-5-Leap Year",
+      "name_cn": "闰跃之年",
+      "name_en": "Leap Year",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-V-5-Leap-Year-Set.png",
+      "text_sha256": "48420d5821f7037f6dff2b49a9a910a4ee7a0c97c8b71f6ab2a0563f54490b98",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-V-N-7 Days to Die",
+      "name_cn": "",
+      "name_en": "7 Days to Die",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-V-N-7-Days-to-Die-Set.png",
+      "text_sha256": "616ceeaf7697719ecab82a6bac473733595d08df4a07c08d986bf55201ac25de",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-V-N-Astro Bot",
+      "name_cn": "宇宙机器人",
+      "name_en": "Astro Bot",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-V-N-Astro-Bot-Set.png",
+      "text_sha256": "87a55e201f939f0de01f0b0def30984a091ee2a214508b74fce995b52d4472f7",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-V-N-Black Myth WuKong",
+      "name_cn": "黑神话 悟空",
+      "name_en": "Black Myth: Wukong",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-V-N-Black-Myth-WuKong-Set.png",
+      "text_sha256": "e773152964ad114fc3caa6a2b8c1b2441028e21f2b129de4829759f71851f370",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-V-N-Caves of Qud",
+      "name_cn": "",
+      "name_en": "Caves of Qud",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-V-N-Caves-of-Qud-Set.png",
+      "text_sha256": "3a88ca48c5e80b77b69119860657365956ae4d0287aaf56e190c2d5f441fbfa0",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-V-N-CrossOver Roll For Initiative",
+      "name_cn": "",
+      "name_en": "CrossOver Roll For Initiative",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-V-N-CrossOver-Roll-For-Initiative-Set.png",
+      "text_sha256": "19c899d2224eff3cebb41d9d5b1046ffe2babf9f400b5ec4f6724d7600969090",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-V-N-Drova Forsaken Kin",
+      "name_cn": "",
+      "name_en": "Drova Forsaken Kin",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-V-N-Drova-Forsaken-Kin-Set.png",
+      "text_sha256": "719cd95f3744e93492da3a87955c5ff36f8da6ff8ec027c103d44986a8e3e161",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-V-N-Shougun Showdown",
+      "name_cn": "将军：对决",
+      "name_en": "Shogun Showdown",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/25-2024-V-N-Shougun-Showdown-Set.png",
+      "text_sha256": "d935520520baf5953ea9fe96116dd092f48f0469f1be33170570c57e76fef2e6",
+      "review": "index-only"
+    },
+    {
+      "id": "25-2024-V-N-Peglin",
+      "name_cn": "哥布林弹珠",
+      "name_en": "Peglin",
+      "source_url": "",
+      "text_sha256": "46bd58efb4b46ebbfac3a53aa8e00fecfb265f3c10411fb7862e63127c97880f",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-1-Blood on the Clocktower",
+      "name_cn": "染·钟楼谜团",
+      "name_en": "Blood on the Clocktower",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-1-Blood-on-the-Clocktower-Set.png",
+      "text_sha256": "b29c5fd7aaf0ddb7612a3f3e9f16f76e5c9cf4493ec723b4cf26f662eeb95e66",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-5-Mindbug First Contact",
+      "name_cn": "夺心魔虫：初次照面",
+      "name_en": "Mindbug: First Contact",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-5-Mindbug-First-Contact-Set.png",
+      "text_sha256": "088ec4de58ab664679803113b1b08a64509d4a27c255e9ce4a23f10aca2cce5e",
+      "review": "T12"
+    },
+    {
+      "id": "26-2022-T-5-Turing Machine",
+      "name_cn": "图灵机",
+      "name_en": "Turing Machine",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-5-Turing-Machine-Set.png",
+      "text_sha256": "c4be28a4f8f7e6f8b69ef0c0f608607bbc5a829d22ffb5bb7f15f7e25dae858b",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-5-Blood on the Clocktower",
+      "name_cn": "染·钟楼谜团",
+      "name_en": "Blood on the Clocktower",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-5-Blood-on-the-Clocktower-Set.png",
+      "text_sha256": "a76886fd1be859954b7b337dc90238eed363bcdd3e36a033b0268431d7bc1abc",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-5-Phantom Ink",
+      "name_cn": "幽灵笔迹",
+      "name_en": "Phantom Ink",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-5-Phantom-Ink-Set.png",
+      "text_sha256": "8ebaba6ad314797bded26b73321ec0cc454752dac2d0fde6b6a0394db2d1965d",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-N-Blood on the Clocktower-1",
+      "name_cn": "染·钟楼谜团",
+      "name_en": "Blood on the Clocktower",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Blood-on-the-Clocktower-1-Set.png",
+      "text_sha256": "4a3efe29fa667f66665d8f0cf02abd3d7dcaf0723e4e6775c9213091604d32b1",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-N-Blood on the Clocktower-2",
+      "name_cn": "染·钟楼谜团",
+      "name_en": "Blood on the Clocktower",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Blood-on-the-Clocktower-2-Set.png",
+      "text_sha256": "240a3525b813b8239ad4ea090d5cb7496136134f80fc6d9fc1f57a675e31b8a0",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-N-Décorum",
+      "name_cn": "同房异梦",
+      "name_en": "Décorum",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Décorum-Set.png",
+      "text_sha256": "1631ae55db9c2db3041f4d6440df54778d77f73acac970cf5f4d480a1174895b",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-N-Marrakesh-1",
+      "name_cn": "马拉喀什",
+      "name_en": "Marrakesh",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Marrakesh-1-Set.png",
+      "text_sha256": "8b11b9a7afe0834b000f982685bfb5c15578c0d9cf28acc0a75abcdc02658546",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-N-Marrakesh-2",
+      "name_cn": "马拉喀什",
+      "name_en": "Marrakesh",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Marrakesh-2-Set.png",
+      "text_sha256": "7e115a7ceab92b6621abfda39cb9b170f7ab68c01d00339dbbb65dcd61b0dd90",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-N-Marrakesh-3",
+      "name_cn": "马拉喀什",
+      "name_en": "Marrakesh",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Marrakesh-3-Set.png",
+      "text_sha256": "00a48916614c355911fce203438adcf11709a3a7a1b1142c453fb40eda2f6484",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-N-Marrakesh-4",
+      "name_cn": "马拉喀什",
+      "name_en": "Marrakesh",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Marrakesh-4-Set.png",
+      "text_sha256": "4b3e2397477e7ae066995aec445e593675c4680d762d8df5d2cccae61e8bdff1",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-N-Oathsworn Into the Deepwood-1",
+      "name_cn": "守誓者：深入密林",
+      "name_en": "Oathsworn: Into the Deepwood",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Oathsworn-Into-the-Deepwood-1-Set.png",
+      "text_sha256": "22ebb3fcb5eb9782c3e52d2332c375017055ede6adcee660fb1dfd7eeb1212de",
+      "review": "T02"
+    },
+    {
+      "id": "26-2022-T-N-Oathsworn Into the Deepwood-2",
+      "name_cn": "守誓者：深入密林",
+      "name_en": "Oathsworn: Into the Deepwood",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Oathsworn-Into-the-Deepwood-2-Set.png",
+      "text_sha256": "07b9c7060e10f7a531082229a855fe72ffdcbd7d876f4e7b84fb460197568ce7",
+      "review": "T02"
+    },
+    {
+      "id": "26-2022-T-N-Carnegie-1",
+      "name_cn": "钢铁大王：卡内基",
+      "name_en": "Carnegie",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Carnegie-1-Set.png",
+      "text_sha256": "68621cfba67d1aa4072f524e7eb4baac286d8be53202577139b06e375cbb6f93",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-N-Carnegie-2",
+      "name_cn": "钢铁大王：卡内基",
+      "name_en": "Carnegie",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Carnegie-2-Set.png",
+      "text_sha256": "46e936bf403abc4c24c16682eef7d374976c32dd1793ace50ff1779ef09a943c",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-N-Rear Window",
+      "name_cn": "后窗",
+      "name_en": "Rear Window",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Rear-Window-Set.png",
+      "text_sha256": "2c7fe0dbcd173144bd99fc4b66d80072729b294e496551ae0bc4ff1e0d7bd2ea",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-N-Ready Set Bet",
+      "name_cn": "赛马大亨",
+      "name_en": "Ready Set Bet",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Ready-Set-Bet-Set.png",
+      "text_sha256": "b18ce724382baa7a16d4b98b95b2d3b9045a9ac9e84675461c1a64e5f06f6471",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-N-First Rat",
+      "name_cn": "萌鼠摘月",
+      "name_en": "First Rat",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-First-Rat-Set.png",
+      "text_sha256": "e43c97ed961d5f1311737b15dd8b10e7b91c92f08a68d77d6935cb08d20adf90",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-N-Long Shot The Dice Game",
+      "name_cn": "狂野赛马：骰子版",
+      "name_en": "Long Shot: The Dice Game",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Long-Shot-The-Dice-Game-Set.png",
+      "text_sha256": "c0742243afd1d852d49f6e066299001d0cc435b34829eedf0aa9859a279fe6b1",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-N-Sea Salt & Paper-1",
+      "name_cn": "海盐折纸",
+      "name_en": "Sea Salt & Paper",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Sea-Salt-Paper-1-Set.png",
+      "text_sha256": "630b68d441ba944607b4589beb2259a587f5d3167f928fdfd12b5bbffc1b61b7",
+      "review": "T21"
+    },
+    {
+      "id": "26-2022-T-N-Sea Salt & Paper-2",
+      "name_cn": "海盐折纸",
+      "name_en": "Sea Salt & Paper",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Sea-Salt-Paper-2-Set.png",
+      "text_sha256": "089d5d6ab384a2bbeba2e8d5b8eee7bf2bb36896cd9e28e068a2e04ae3d20832",
+      "review": "T21"
+    },
+    {
+      "id": "26-2022-T-N-Spots",
+      "name_cn": "狗运当骰",
+      "name_en": "Spots",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Spots-Set.png",
+      "text_sha256": "853a179651d727c0b027b6ed0079d3aa48a77b90b5a6cc3bd2ad15c2aa32b844",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-N-Mindbug First Contact",
+      "name_cn": "夺心魔虫：初次照面",
+      "name_en": "Mindbug: First Contact",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Mindbug-First-Contact-Set.png",
+      "text_sha256": "6f38eba372777257002fa3e9c722986edb55fd15d58cc3ed481f8445a2a36725",
+      "review": "T12"
+    },
+    {
+      "id": "26-2022-T-N-Federation",
+      "name_cn": "太空议会",
+      "name_en": "Federation",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Federation-Set.png",
+      "text_sha256": "869fa49b1a3ede06edd30fb148ce42f17d0a8e0b54937e89d6c65bc8145eb17a",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-N-Tiletum",
+      "name_cn": "蒂尔特之辉",
+      "name_en": "Tiletum",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Tiletum-Set.png",
+      "text_sha256": "ff7ae63498bffc15430f71c088e461d2021d302fb6d81de5a8640fcc564ec3fb",
+      "review": "T09"
+    },
+    {
+      "id": "26-2022-T-N-Akropolis",
+      "name_cn": "雅典卫城",
+      "name_en": "Akropolis",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Akropolis-Set.png",
+      "text_sha256": "7c28e0de9db92771817cc11ac58a0f1821e9e7d12cbf87cab0a01a3ae2ff9a22",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-N-Planet Unknown-1",
+      "name_cn": "未知行星",
+      "name_en": "Planet Unknown",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Planet-Unknown-1-Set.png",
+      "text_sha256": "826c675ab0ec3b79038fd68a4a0a58cdd4ee93e852a382380ba5de97a4f94351",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-N-Planet Unknown-2",
+      "name_cn": "未知行星",
+      "name_en": "Planet Unknown",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Planet-Unknown-2-Set.png",
+      "text_sha256": "36b03c610e90c86fa1b72f261047ba1508908f09a67bb640eca40c206638b40b",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-N-Heat Pedal to the Metal",
+      "name_cn": "火爆狂飙：全速前进",
+      "name_en": "Heat: Pedal to the Metal",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Heat-Pedal-to-the-Metal-Set.png",
+      "text_sha256": "cdc527d7dff97c26cfc755176e50f6f3d6b439dcb4759d1863337b32885b2d86",
+      "review": "T08"
+    },
+    {
+      "id": "26-2022-T-N-Railway Boom",
+      "name_cn": "铁道狂潮",
+      "name_en": "Railway Boom",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Railway-Boom-Set.png",
+      "text_sha256": "5812943a81b1f8d3324e8baaa9319db38f035590e26ce7d60d581df6a6ceb0c0",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-T-N-Cat in the Box Deluxe Edition",
+      "name_cn": "盒中猫：豪华版",
+      "name_en": "Cat in the Box: Deluxe Edition",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Cat-in-the-Box-Deluxe-Edition-Set.png",
+      "text_sha256": "079b364c0e13a4b759ac2d99e20c705e1e9f28b4c8c278fcaba4d8405c9346cd",
+      "review": "T14"
+    },
+    {
+      "id": "26-2022-T-N-Challengers!-1",
+      "name_cn": "冠军挑战者",
+      "name_en": "Challengers!",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Challengers-1-Set.png",
+      "text_sha256": "0d0e5a943be1835251d6a12e261cc2bf5be35520925a7aa0b665eb835c0320ad",
+      "review": "T04"
+    },
+    {
+      "id": "26-2022-T-N-Challengers!-2",
+      "name_cn": "冠军挑战者",
+      "name_en": "Challengers!",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-T-N-Challengers-2-Set.png",
+      "text_sha256": "3b240b3f6dbd61207a0b78ed1ab9c7ad7556228a6e6f8bd85f66a49e06665f03",
+      "review": "T04"
+    },
+    {
+      "id": "26-2025-T-1-猜字解底",
+      "name_cn": "猜字解底",
+      "name_en": "猜字解底",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-1-猜字解底-Set.png",
+      "text_sha256": "338df84fedb166c80a84c9947ec0345cfb509d7fdf7b857c5e0f78fe6132bbc3",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-5-Tag Team",
+      "name_cn": "双侠小队",
+      "name_en": "Tag Team",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-5-Tag-Team-Set.png",
+      "text_sha256": "1eafd55a33b7ea3a40429bdf37b895c5c9fccbc55b072039a18854844d3ad792",
+      "review": "T01"
+    },
+    {
+      "id": "26-2025-T-5-Tend",
+      "name_cn": "Tend",
+      "name_en": "Tend",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-5-Tend-Set.png",
+      "text_sha256": "d176424223c97f43f03ed7b6be8a87d57353a42dffb313c0a642aead30f7cef0",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-5-Take Time",
+      "name_cn": "时序迷局",
+      "name_en": "Take Time",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-5-Take-Time-Set.png",
+      "text_sha256": "53ce4055100b98791601452debe3dae629a6d0abf750da57b528d3aeb9349301",
+      "review": "T05"
+    },
+    {
+      "id": "26-2025-T-5-Ayar Children of the Sun",
+      "name_cn": "阿亚尔：太阳之子",
+      "name_en": "Ayar: Children of the Sun",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-5-Ayar-Children-of-the-Sun-Set.png",
+      "text_sha256": "5c129fb8ac19fd3ce6e780c4f3cc8c0a5095541588c78fd90121721fbe200af8",
+      "review": "T10"
+    },
+    {
+      "id": "26-2025-T-5-9 Cards Game Tabletop Collection Season 3",
+      "name_cn": "九张牌桌面游戏合集第3季",
+      "name_en": "9 Cards Game: Collection Season 3",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-5-9-Cards-Game-Tabletop-Collection-Season-3-Set.png",
+      "text_sha256": "f37558cd7ad070a24cc41fb7fda5389cf42148bd5adef3c02ccc862dd7c424d7",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-Light Speed Arena",
+      "name_cn": "光速狂潮",
+      "name_en": "Light Speed: Arena",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-Light-Speed-Arena-Set.png",
+      "text_sha256": "83f068a8b03159f076450c69e0a344fbec7465628dc050d267d23b072baaf8fd",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-The Druids of Edora-1",
+      "name_cn": "埃多拉的德鲁伊",
+      "name_en": "The Druids of Edora",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-The-Druids-of-Edora-1-Set.png",
+      "text_sha256": "b61fb534754f0faeb5ae493c098f900d2271fcd4585da4dd18c002029a7ea215",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-The Druids of Edora-2",
+      "name_cn": "埃多拉的德鲁伊",
+      "name_en": "The Druids of Edora",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-The-Druids-of-Edora-2-Set.png",
+      "text_sha256": "656d719626af94251011ccf43385063efbd77e6d6cc6a6dea103cd0b043aabe6",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-The Druids of Edora-3",
+      "name_cn": "埃多拉的德鲁伊",
+      "name_en": "The Druids of Edora",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-The-Druids-of-Edora-3-Set.png",
+      "text_sha256": "ca8e45d8ff937ef53efbd52577fa71e4d6338e91025b5719c26ea3e39ea3e479",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-The Druids of Edora-4",
+      "name_cn": "埃多拉的德鲁伊",
+      "name_en": "The Druids of Edora",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-The-Druids-of-Edora-4-Set.png",
+      "text_sha256": "bd056f4ad694081a5c4869426ff1937e3ba6d881435c2035355b37ee7784f686",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-Take Time",
+      "name_cn": "时序迷局",
+      "name_en": "Take Time",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-Take-Time-Set.png",
+      "text_sha256": "5bd40e8352e0e6c2a98b4ab694485686243022d8eaf7516753d9b48fa6fab35c",
+      "review": "T05"
+    },
+    {
+      "id": "26-2025-T-N-Eternal Decks",
+      "name_cn": "永恒牌",
+      "name_en": "Eternal Decks",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-Eternal-Decks-Set.png",
+      "text_sha256": "7871d9cabd412299f7d8f7a36d1d4ceebcf95a8fa5bc63b2951b1857eac9e767",
+      "review": "T07"
+    },
+    {
+      "id": "26-2025-T-N-Ants",
+      "name_cn": "蚂蚁特工队",
+      "name_en": "Ants",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-Ants-Set.png",
+      "text_sha256": "4786760420695b7b2bdc1f37b4087e2cf91688b1c20e397b1beb51ae45d713d9",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-Tag Team-1",
+      "name_cn": "双侠小队",
+      "name_en": "Tag Team",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-Tag-Team-1-Set.png",
+      "text_sha256": "18ef95e5027f2e98eb75e6259fabfc20a21797113af9aeeb2bc5a4bdcd69e65c",
+      "review": "T01"
+    },
+    {
+      "id": "26-2025-T-N-Tag Team-2",
+      "name_cn": "双侠小队",
+      "name_en": "Tag Team",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-Tag-Team-2-Set.png",
+      "text_sha256": "6996a381616b92bf2da62bd5deb4424831cc6fa0c5b58042080af0206b8f05f1",
+      "review": "T01"
+    },
+    {
+      "id": "26-2025-T-N-Little Soldiers",
+      "name_cn": "玩具兵大作战",
+      "name_en": "Little Soldiers",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-Little-Soldiers-Set.png",
+      "text_sha256": "1b422e6932bf68d0a2e17b209a68291ee1309d575b93723a64f70d28e2b3b5b5",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-Arydia The Paths We Dare Tread-1",
+      "name_cn": "阿瑞迪亚：勇踏征途",
+      "name_en": "Arydia: The Paths We Dare Tread",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-Arydia-The-Paths-We-Dare-Tread-1-Set.png",
+      "text_sha256": "64807ea05f6bac031866a12690c81088007fc83314301dfe3bfbfde6aebdcbe1",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-Arydia The Paths We Dare Tread-2",
+      "name_cn": "阿瑞迪亚：勇踏征途",
+      "name_en": "Arydia: The Paths We Dare Tread",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-Arydia-The-Paths-We-Dare-Tread-2-Set.png",
+      "text_sha256": "9b109dbc7194e5ec10af63e911886d9bfbebddab1a068c7bd6faf004335eb4b6",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-Vantage",
+      "name_cn": "万境奇旅",
+      "name_en": "Vantage",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-Vantage-Set.png",
+      "text_sha256": "f27551e7a2a0964431afdb952ac04cb487096b8ab35a811aae1d9d3ec3231efa",
+      "review": "T18"
+    },
+    {
+      "id": "26-2025-T-N-Moon Colony Bloodbath",
+      "name_cn": "Moon Colony Bloodbath",
+      "name_en": "Moon Colony Bloodbath",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-Moon-Colony-Bloodbath-Set.png",
+      "text_sha256": "76b632a79c6f13d55677138f380a40e5315f4fa58f95297ea8d2a9bff9256cd0",
+      "review": "T13"
+    },
+    {
+      "id": "26-2025-T-N-Railway Boom",
+      "name_cn": "铁道狂潮",
+      "name_en": "Railway Boom",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-Railway-Boom-Set.png",
+      "text_sha256": "5812943a81b1f8d3324e8baaa9319db38f035590e26ce7d60d581df6a6ceb0c0",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-Heist Night",
+      "name_cn": "Heist Night",
+      "name_en": "Heist Night",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-Heist-Night-Set.png",
+      "text_sha256": "2cd1255aef62a63f34870741c6aa74d84d4a793caab8f77cc3396c54f8362745",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-猜字解底",
+      "name_cn": "猜字解底",
+      "name_en": "猜字解底",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-猜字解底-Set.png",
+      "text_sha256": "eabd7548b4f9898b21a4755f702709a26ee7ae4a9d4ce23c580d2e95df4c091b",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-How to Save a World",
+      "name_cn": "拯救世界操作指南",
+      "name_en": "How to Save a World",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-How-to-Save-a-World-Set.png",
+      "text_sha256": "ef06837397a3a37a4c0542fbe0b8e2319bde9ef143cc056ab15f4b2a028c1fa6",
+      "review": "T20"
+    },
+    {
+      "id": "26-2025-T-N-West Story a town building game",
+      "name_cn": "West Story: a town building game",
+      "name_en": "West Story: a town building game",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-West-Story-a-town-building-game-Set.png",
+      "text_sha256": "8c55dc5f7ed0ace888d914a68637ddcfff9c05c6a219bfb3fe84837153b5a11c",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-The Lord of the Rings Fate of the Fellowship",
+      "name_cn": "魔戒：命运同盟",
+      "name_en": "The Lord of the Rings: Fate of the Fellowship",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-The-Lord-of-the-Rings-Fate-of-the-Fellowship-Set.png",
+      "text_sha256": "e133617463e2ba12e7513e4f13670d5c6f371f01281feacf33f8e06352617c88",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-Unstoppable",
+      "name_cn": "孤勇英豪",
+      "name_en": "Unstoppable",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-Unstoppable-Set.png",
+      "text_sha256": "fc29c4184ee24902aca738548b21e2d28bc86bdc6db2a015da1d423678b9a6e9",
+      "review": "T11"
+    },
+    {
+      "id": "26-2025-T-N-Ace of Spades",
+      "name_cn": "Ace of Spades",
+      "name_en": "Ace of Spades",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-Ace-of-Spades-Set.png",
+      "text_sha256": "a5537fe191e447fea6f225bfc4e3f0396ca97f497e61691fb23770de8507e7f6",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-Iliad",
+      "name_cn": "Iliad",
+      "name_en": "Iliad",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-Iliad-Set.png",
+      "text_sha256": "bf9fd94bedebe0aa396a93bda9924225d4fa58d07b4bd67bca268445ca25df18",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-Classic of Mountains and Seas Nine Ding-1",
+      "name_cn": "山海经·九鼎",
+      "name_en": "Classic of Mountains and Seas: Nine Ding",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-Classic-of-Mountains-and-Seas-Nine-Ding-1-Set.png",
+      "text_sha256": "d83fe6b2e0349941cd8e2337de5f5802edc54582aceb4f87a5e1f4cb7107d273",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-Classic of Mountains and Seas Nine Ding-2",
+      "name_cn": "山海经·九鼎",
+      "name_en": "Classic of Mountains and Seas: Nine Ding",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-Classic-of-Mountains-and-Seas-Nine-Ding-2-Set.png",
+      "text_sha256": "37ffae9bbe1906af62c079cba1c4bf0e3571dbbdb724517de9e3d2cfe374e8f5",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-9 Cards Game Battle of Sehihara-1",
+      "name_cn": "九张牌：关原之战",
+      "name_en": "9 Cards Game: Battle of Sehihara",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-9-Cards-Game-Battle-of-Sehihara-1-Set.png",
+      "text_sha256": "39fd49416af6175e5a5c34a88d99101bbcea0788e09f8ceba376480463b921ea",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-9 Cards Game Battle of Sehihara-2",
+      "name_cn": "九张牌：关原之战",
+      "name_en": "9 Cards Game: Battle of Sehihara",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-9-Cards-Game-Battle-of-Sehihara-2-Set.png",
+      "text_sha256": "024dac034e3a1d26e6e8b052f0a6e8f1cd4f3bf95a931e8143c4f184956efa5c",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-9 Cards Game Emotional Dice",
+      "name_cn": "九张牌：情绪骰子",
+      "name_en": "9 Cards Game: Emotional Dice",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-9-Cards-Game-Emotional-Dice-Set.png",
+      "text_sha256": "574412f0fdc5bd9d93410556276664c0104df80d1108a5f7b09d659c98f7a6d4",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-9 Cards Game Dancing with masks",
+      "name_cn": "九张牌：舞池假面",
+      "name_en": "9 Cards Game: Dancing with masks",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-9-Cards-Game-Dancing-with-masks-Set.png",
+      "text_sha256": "65fb1e6fffb8a9040dfadf2c2f192ccca099f9c64ec958a8985837fca005b846",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-9 Cards Game Alchemist's Trail",
+      "name_cn": "九张牌：炼金考核",
+      "name_en": "9 Cards Game: Alchemist's Trail",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-9-Cards-Game-Alchemists-Trail-Set.png",
+      "text_sha256": "2ac88ed2e81de7825c52ff446f8a6494f58b1b66dd7f687f23b0dd64515d8520",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-T-N-9 Cards Game Three kingdoms to one",
+      "name_cn": "九张牌：纷争三国",
+      "name_en": "9 Cards Game: Three kingdoms to one",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-9-Cards-Game-Three-kingdoms-to-one-Set.png",
+      "text_sha256": "d019b0d1c1b8aa2c89a7187643a873fb3aa7577ece70d0787f2304cde0208f88",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-V-1-Stacklands",
+      "name_cn": "堆叠大陆",
+      "name_en": "Stacklands",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-1-Stacklands-Set.png",
+      "text_sha256": "91c6edfe7181f28858813c4289dca676d8d98c68a3995e1ee9afc7ee22663a91",
+      "review": "T16"
+    },
+    {
+      "id": "26-2022-V-5-Vampire Survivors",
+      "name_cn": "吸血鬼幸存者",
+      "name_en": "Vampire Survivors",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-5-Vampire-Survivors-Set.png",
+      "text_sha256": "cb90a6838e20df516cb61479ae140b0437fb4dc18a0f09510b1550d01839dbe5",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-V-5-Word Game",
+      "name_cn": "文字游戏",
+      "name_en": "Word Game",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-5-Word-Game-Set.png",
+      "text_sha256": "9dd647fc0026dd49264c33ffb85193dc43a6759e9692d7b45842914072cb6780",
+      "review": "T15"
+    },
+    {
+      "id": "26-2022-V-5-Patrick's Parabox",
+      "name_cn": "帕特里克的箱子无穷奇遇",
+      "name_en": "Patrick's Parabox",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-5-Patricks-Parabox-Set.png",
+      "text_sha256": "13bf04439b54758db8e9e3d77b4f6cadde79e8340c273b9e85ebcb83ed422e3d",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-V-5-Marvel Snap",
+      "name_cn": "漫威终极逆转",
+      "name_en": "Marvel Snap",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-5-Marvel-Snap-Set.png",
+      "text_sha256": "00950e1b86e0280e6d57e3952898d07808c5df82f9bfbc9fbfe14cfca3245e90",
+      "review": "T22"
+    },
+    {
+      "id": "26-2022-V-N-Gibbon Beyond the Trees",
+      "name_cn": "长臂猿传奇：丛林之外",
+      "name_en": "Gibbon: Beyond the Trees",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-N-Gibbon-Beyond-the-Trees-Set.png",
+      "text_sha256": "18be4ca83b50caf2c38e1b9025045f3d9f7dd235a3df9f828dbeed9b60446603",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-V-N-TUNIC",
+      "name_cn": "TUNIC",
+      "name_en": "TUNIC",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-N-TUNIC-Set.png",
+      "text_sha256": "03dbf10c0035a7266e6d6a24a3b46c1aa757ab5d0f5dc68fca52c2812e36bc73",
+      "review": "T23"
+    },
+    {
+      "id": "26-2022-V-N-Card Shark",
+      "name_cn": "Card Shark",
+      "name_en": "Card Shark",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-N-Card-Shark-Set.png",
+      "text_sha256": "38deadcdb2afdc36c3cef058e9a8a6ddcc8a5106e1ce2ea73da52bed1870c07a",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-V-N-Patrick's Parabox",
+      "name_cn": "帕特里克的箱子无穷奇遇",
+      "name_en": "Patrick's Parabox",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-N-Patricks-Parabox-Set.png",
+      "text_sha256": "83e355a050fec4bd95b9202d4b701f89483afb6f86fb4fdc351d28be50a6650a",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-V-N-Marvel Snap",
+      "name_cn": "漫威终极逆转",
+      "name_en": "Marvel Snap",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-N-Marvel-Snap-Set.png",
+      "text_sha256": "09f3ffa0171c7efb766b4e0cc34c3c37c8ccdf504529f94f2e889d8b5af78b04",
+      "review": "T22"
+    },
+    {
+      "id": "26-2022-V-N-Neon White-1",
+      "name_cn": "霓虹白客",
+      "name_en": "Neon White",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-N-Neon-White-1-Set.png",
+      "text_sha256": "ca33b59fa37394fb252cb2147d4a7351f40fde1c97715cb735aa675e83e36bc3",
+      "review": "T06"
+    },
+    {
+      "id": "26-2022-V-N-Neon White-2",
+      "name_cn": "霓虹白客",
+      "name_en": "Neon White",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-N-Neon-White-2-Set.png",
+      "text_sha256": "59544dc1070cfebc6495a56daca04037586e59d87faacbee0bf9e192a7d435c0",
+      "review": "T06"
+    },
+    {
+      "id": "26-2022-V-N-Neon White-3",
+      "name_cn": "霓虹白客",
+      "name_en": "Neon White",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-N-Neon-White-3-Set.png",
+      "text_sha256": "3d5001c17c0187198f4172bdb632bf84975b3c3fe5440b18a7a4bc4c73e136fb",
+      "review": "T06"
+    },
+    {
+      "id": "26-2022-V-N-Vampire Survivors-1",
+      "name_cn": "吸血鬼幸存者",
+      "name_en": "Vampire Survivors",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-N-Vampire-Survivors-1-Set.png",
+      "text_sha256": "128895a535e114bb2fddb78bc18fd92fc100038304d6fc95dcdc8fc7fc60d747",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-V-N-Vampire Survivors-2",
+      "name_cn": "吸血鬼幸存者",
+      "name_en": "Vampire Survivors",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-N-Vampire-Survivors-2-Set.png",
+      "text_sha256": "978cac202aa215134f934f41c567e61e7e3f7f36a02fe2224cba2ef6f146aa42",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-V-N-Teenage Mutant Ninja Turtles Shredder's Revenge",
+      "name_cn": "忍者龟：施莱德的复仇",
+      "name_en": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-N-Teenage-Mutant-Ninja-Turtles-Shredders-Revenge-Set.png",
+      "text_sha256": "6f8b1214c8daba563f8b68189eb923546e9f6219b2277d7f5f595c4de30a4a5e",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-V-N-Pokémon Scarlet and Pokémon Violet Double Pack",
+      "name_cn": "宝可梦朱/紫",
+      "name_en": "Pokémon Scarlet and Pokémon Violet Double Pack",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-N-Pokémon-Scarlet-and-Pokémon-Violet-Double-Pack-Set.png",
+      "text_sha256": "24269d2f12f4b896611a88a52810ec80d9c91d2320734049b4b7852fb9fafd97",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-V-N-Gordian Quest",
+      "name_cn": "高殿战记",
+      "name_en": "Gordian Quest",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-N-Gordian-Quest-Set.png",
+      "text_sha256": "a978e28981b3f8d1c6d49a1f44e0ff17642debe23869e81e8fad4104cc88392c",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-V-N-Cult of the Lamb",
+      "name_cn": "咩咩启示录",
+      "name_en": "Cult of the Lamb",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-N-Cult-of-the-Lamb-Set.png",
+      "text_sha256": "2eb0bf764e0a4fc761ca32dbd0b43ef5a21ef5a4485deb1addbf1c1dea933920",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-V-N-Stacklands-1",
+      "name_cn": "堆叠大陆",
+      "name_en": "Stacklands",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-N-Stacklands-1-Set.png",
+      "text_sha256": "9dd43d64445f8b1f023fdf229e5f231b1fd6351cb7606bfadb6712e11bbce4e2",
+      "review": "T16"
+    },
+    {
+      "id": "26-2022-V-N-Stacklands-2",
+      "name_cn": "堆叠大陆",
+      "name_en": "Stacklands",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-N-Stacklands-2-Set.png",
+      "text_sha256": "d5551d85dbfd24e2be09d0d57b0cb2c8142889e8290ed11b3fbe3e2fc404f173",
+      "review": "T16"
+    },
+    {
+      "id": "26-2022-V-N-Stray",
+      "name_cn": "Stray",
+      "name_en": "Stray",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-N-Stray-Set.png",
+      "text_sha256": "a8c1508e34a9a39574c097457d750a995d2f06611b429dc2f490372e089a0300",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-V-N-Sifu-1",
+      "name_cn": "师父",
+      "name_en": "Sifu",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-N-Sifu-1-Set.png",
+      "text_sha256": "1fcdbefcdaa8f5f94a807a63be9f29fe283e3a4bfeea59ffcc6b9eeb628a3a74",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-V-N-Sifu-2",
+      "name_cn": "师父",
+      "name_en": "Sifu",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-N-Sifu-2-Set.png",
+      "text_sha256": "777bdca74313293017221e79ffb35e5afa528fae966f44f51fe8d96c502bcc84",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-V-N-Tinykin",
+      "name_cn": "小眷灵",
+      "name_en": "Tinykin",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-N-Tinykin-Set.png",
+      "text_sha256": "c44fcdd9520827e432d5ac5b57ea5522fe382e0693dab9080e96da308af23609",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2022-V-N-Elden Ring",
+      "name_cn": "艾尔登法环",
+      "name_en": "Elden Ring",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2022-V-N-Elden-Ring-Set.png",
+      "text_sha256": "c7752d380a120fcfeea3e8e32e33a3aa215a7cf5bbc85867a846ad27bfb6c050",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-V-1-Blue Prince",
+      "name_cn": "蓝途王子",
+      "name_en": "Blue Prince",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-1-Blue-Prince-Set.png",
+      "text_sha256": "710c2a83088a739dd502c47588a4cc09e04c9aaecf9806edb22bb1ace939cb3c",
+      "review": "T17"
+    },
+    {
+      "id": "26-2025-V-5-Donkey Kong Bananza",
+      "name_cn": "‌咚奇刚：蕉力全开‌",
+      "name_en": "Donkey Kong Bananza",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-5-Donkey-Kong-Bananza-Set.png",
+      "text_sha256": "75a169fe3749799c74fbe0644eb973b3ea340d206698a02507cff333f08d3dd8",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-V-5-Sultan's Game",
+      "name_cn": "苏丹的游戏",
+      "name_en": "Sultan's Game",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-5-Sultans-Game-Set.png",
+      "text_sha256": "e8d9f38bb2718d8ddf074b2a4faaeea5c98ad19446e11c3b0aa14d40fad04000",
+      "review": "T19"
+    },
+    {
+      "id": "26-2025-V-5-The King is watching",
+      "name_cn": "王之凝视",
+      "name_en": "The King is watching",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-5-The-King-is-watching-Set.png",
+      "text_sha256": "424afb381be7b8fa4a1e20082ec68db7e7b00efbffeacc6945f43e4e18401573",
+      "review": "T03"
+    },
+    {
+      "id": "26-2025-V-5-Forestrike",
+      "name_cn": "预视武宗",
+      "name_en": "Forestrike",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-5-Forestrike-Set.png",
+      "text_sha256": "a2f45f897f6a53b258f22c1379154a9502aa1c062ca02ab56dc3a7e6346ffa68",
+      "review": "T24"
+    },
+    {
+      "id": "26-2025-V-5-Pipistrello and the Cursed Yoyo",
+      "name_cn": "Pipistrello and the Cursed Yoyo",
+      "name_en": "Pipistrello and the Cursed Yoyo",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-5-Pipistrello-and-the-Cursed-Yoyo-Set.png",
+      "text_sha256": "a240aea327cf2f4a683f4ca954bc362fe23d7df794bd28fd9f1fb58b5626e80a",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-V-5-The Bazaar",
+      "name_cn": "大巴扎",
+      "name_en": "The Bazaar",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-5-The-Bazaar-Set.png",
+      "text_sha256": "ee2c938b7867878974032687def79a69d9114a4248300a801c343ce5321f5da7",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-V-N-Strange Jigsaws",
+      "name_cn": "Strange Jigsaws",
+      "name_en": "Strange Jigsaws",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-N-Strange-Jigsaws-Set.png",
+      "text_sha256": "90ac42faa5933af14a42c1619bfa7ff68f52f9e0329f15ebd8553bdd7c5a7d76",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-V-N-The Bazaar-1",
+      "name_cn": "大巴扎",
+      "name_en": "The Bazaar",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-N-The-Bazaar-1-Set.png",
+      "text_sha256": "6b91b3cc17e115620f3e8e33d339ab4464d5c359b10099b735fb1d220d3cde5d",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-V-N-The Bazaar-2",
+      "name_cn": "大巴扎",
+      "name_en": "The Bazaar",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-N-The-Bazaar-2-Set.png",
+      "text_sha256": "0d37a9ea7b153110199f2c160e24d2dec2ec27ade35351c19ce9760d0a5caa78",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-V-N-Keep Driving",
+      "name_cn": "心驰神往",
+      "name_en": "Keep Driving",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-N-Keep-Driving-Set.png",
+      "text_sha256": "c0c05053053e06a22585d8cc227274a8704e1e12e0dc418b209b5864b4dc403d",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-V-N-MegaBonk",
+      "name_cn": "MegaBonk",
+      "name_en": "MegaBonk",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-N-MegaBonk-Set.png",
+      "text_sha256": "a91b826c22e6a5f98264de3af770ccbe3e9733619cc3df075bddd6c1e546eae8",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-V-N-BALL x PIT",
+      "name_cn": "球比仑战记",
+      "name_en": "BALL x PIT",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-N-BALL-x-PIT-Set.png",
+      "text_sha256": "f22fa0cc69aafe9f1ab685821d2adf2b339a5500f3c5c1078651c38051182a8b",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-V-N-Blue Prince-1",
+      "name_cn": "蓝途王子",
+      "name_en": "Blue Prince",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-N-Blue-Prince-1-Set.png",
+      "text_sha256": "805332d9d63cb758e301fd51c891f3bcb2a15ae76aec33364d19587a0baac638",
+      "review": "T17"
+    },
+    {
+      "id": "26-2025-V-N-Blue Prince-2",
+      "name_cn": "蓝途王子",
+      "name_en": "Blue Prince",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-N-Blue-Prince-2-Set.png",
+      "text_sha256": "b4f30ee7a867d7b3b0505a720832932517f13eda196b562ebe12a2d32b17dbb4",
+      "review": "T17"
+    },
+    {
+      "id": "26-2025-V-N-Blue Prince-3",
+      "name_cn": "蓝途王子",
+      "name_en": "Blue Prince",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-N-Blue-Prince-3-Set.png",
+      "text_sha256": "0d54c10b4b4c63b5da4c821690dcde065923235b468d230e9702f32ad9a71c2c",
+      "review": "T17"
+    },
+    {
+      "id": "26-2025-V-N-Blue Prince-4",
+      "name_cn": "蓝途王子",
+      "name_en": "Blue Prince",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-N-Blue-Prince-4-Set.png",
+      "text_sha256": "25f49bb958e17ee24e4b73031b1a31981ca8a9d0784f8a37a923d2939ff4a127",
+      "review": "T17"
+    },
+    {
+      "id": "26-2025-V-N-Split Fiction",
+      "name_cn": "双影奇境",
+      "name_en": "Split Fiction",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-N-Split-Fiction-Set.png",
+      "text_sha256": "eaaa19a15bb130fc6fff1e82441c40117ccdad27406cab6dae919f8c8dc0b50b",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-V-N-Kingdom Come Deliverance II",
+      "name_cn": "天国：拯救2",
+      "name_en": "Kingdom Come: Deliverance II",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-N-Kingdom-Come-Deliverance-II-Set.png",
+      "text_sha256": "96f058ca3ce3944ceed202dd2906dd6b017327cad61857a807e3941ebe532121",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-V-N-And Roger",
+      "name_cn": "折言",
+      "name_en": "And Roger",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-N-And-Roger-Set.png",
+      "text_sha256": "bb3f4860a8e0c08297bd39f25a3c201805c07850206ea05431a3aed3e2bccb35",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-V-N-Consume Me",
+      "name_cn": "Consume Me",
+      "name_en": "Consume Me",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-N-Consume-Me-Set.png",
+      "text_sha256": "269b90b78c5189aa25bbd092910d35be8bb15fd0d96024a67cbf33bfe106a10c",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-V-N-No Door Can Not be Opened with a Non-black Key",
+      "name_cn": "没有不是黑色钥匙打不开的门",
+      "name_en": "No Door Can Not be Opened with a Non-black Key",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-N-No-Door-Can-Not-be-Opened-with-a-Non-black-Key-Set.png",
+      "text_sha256": "8a6f948d4da5adaf334f0f3cbb5c683bed953caf3916d356324355b75568fdd5",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-V-N-Clair Obscur Expedition 33-1",
+      "name_cn": "光与影：33 号远征队",
+      "name_en": "Clair Obscur: Expedition 33",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-N-Clair-Obscur-Expedition-33-1-Set.png",
+      "text_sha256": "65c7e4256f17413a1e3dd38408eaab60bca7adc3ceb9dc951e1dc0d52f0e4f74",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-V-N-Clair Obscur Expedition 33-2",
+      "name_cn": "光与影：33 号远征队",
+      "name_en": "Clair Obscur: Expedition 33",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-N-Clair-Obscur-Expedition-33-2-Set.png",
+      "text_sha256": "bd510818d44dd91db2bb51292a2e4413b4038b6fe85bb4d92544fa384d8bcc15",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-V-N-Clair Obscur Expedition 33-3",
+      "name_cn": "光与影：33 号远征队",
+      "name_en": "Clair Obscur: Expedition 33",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-N-Clair-Obscur-Expedition-33-3-Set.png",
+      "text_sha256": "399e8bf09cccaccbbfa6f94d85065783e9025be4d4da9cbf3cff15739508a6df",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-V-N-Murdoku",
+      "name_cn": "Murdoku",
+      "name_en": "Murdoku",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-N-Murdoku-Set.png",
+      "text_sha256": "ae5d625351b4214054ab5637aadb19e4b1f05b903098106fa4abcc09436984cc",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-V-N-Baby Steps",
+      "name_cn": "一步一脚印",
+      "name_en": "Baby Steps",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-N-Baby-Steps-Set.png",
+      "text_sha256": "9f0b36bff0886ae516e398a92cf063245beaa6e812e6597edbf23394cd1a5747",
+      "review": "index-only"
+    },
+    {
+      "id": "26-2025-V-N-Foundation",
+      "name_cn": "基石",
+      "name_en": "Foundation",
+      "source_url": "https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-N-Foundation-Set.png",
+      "text_sha256": "a7efd0fbb25e26853cd95064261117cb5ca507890c13dd01469fb0fd6a26fa2c",
+      "review": "index-only"
+    }
+  ]
+}
