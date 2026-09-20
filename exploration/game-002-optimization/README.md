@@ -2,7 +2,17 @@
 
 Project ID：`game-002-optimization`。状态：`Active / Core Design Context Active`。
 
-## 当前入口：2026-09-20 局内／局外策略循环
+## 当前入口：2026-09-20 法术构筑的独特设计
+
+用户以game-002全游戏GDD为背景，提出复杂构句引擎、词条锻造、几何法术构型三个方向，要求先完善机制再综合分析，并禁止阅读其他探索方向。
+
+[综合构思分析](insights/2026-09-20-spell-construction-analysis.md)比较可玩性、策略深度、可理解涌现、复杂度、独特性与内容成本，附反例及最小验证。三个独立机制稿分别为[语义引擎](idea-inbox/2026-09-20-semantic-engine.md)、[词条锻造](idea-inbox/2026-09-20-keyword-forging.md)、[几何构型](idea-inbox/2026-09-20-geometric-spell-core.md)，保留用户原话并标明Agent补完。
+
+初步建议：优先以小型纸面夹具验证几何构型的独特性；更重视上手与局内成长时先试词条锻造；语义引擎须先验证玩家是否享受排错。研究为`Research / Provisional`，候选均`Agent Proposal / Raw Idea / Unqualified`；没有玩法模拟、原型、真人测试、正式晋级或game-002回写。
+
+来源版本与旧包差异见[来源记录](insights/2026-09-20-spell-construction-sources.md)。下一项设计问题是三个方向能否替代原构句层，见[本轮问题](questions/Q-20260920-spell-construction.md)；执行范围见[run-control](run-control.md)。
+
+## 历史入口：2026-09-20 局内／局外策略循环
 
 用户指定game-002全游戏GDD，要求比较能增加策略深度与独特体验的主循环，并禁止阅读其他探索方向。本轮[四种循环原始设计](idea-inbox/2026-09-20-strategic-run-and-meta-loops.md)比较知情远征、限额整备连续试炼、守点波次工坊和工坊谜题巡回；[适配与来源记录](insights/2026-09-20-strategic-loop-fit-and-sources.md)保存RC1版本、文件摘要、已有机制与新增差异。
 

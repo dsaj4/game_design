@@ -2,7 +2,33 @@
 
 本文件是 `game-002-optimization` 的单轮探索控制面。它只约束本项目内的研究、候选、模拟、原型和评估记录；不能授权直接修改 game-002。每次自动探索开始前先填写“当前运行”，结束后补齐结果和下一步。
 
-## 当前运行：局内／局外策略循环（2026-09-20）
+## 当前运行：法术构筑机制完善与综合分析（2026-09-20）
+
+```yaml
+project_id: game-002-optimization
+target_project_id: game-002
+active_question: questions/Q-20260920-spell-construction.md
+context_pack: baseline-2026-09-09-001
+explicit_source: workspaces/game-002/game-design-workflow/gdd/GDD-2026-09-14-yanzhou-full-game.md
+source_version: GDD-G002-FULL-001 / 1.0 RC1
+source_commit: 97a1bfc9774845d3e63f3bc5bba29e14ba8a8e16
+candidate_ids: [SC-A-v01, SC-B-v01, SC-C-v01]
+autonomy_level: L1-supervised
+status: Completed
+review: Needs Human Review
+round_budget: 1 local mechanism-design and analysis pass; 3 raw candidates; 0 external research; 0 gameplay simulations; 0 playable prototypes; 0 human sessions
+actual: 3 raw mechanism dossiers; 1 comparative analysis; 1 source record; 1 question; navigation and run-control updated
+evidence: Research / Provisional; gameplay and experience NotRun
+next_step: confirm replacement-versus-addition scope, then qualify the selected mechanism rules
+```
+
+- 授权：用户明确指定game-002及全游戏GDD，要求完善、记录和分析三个法术构筑方向。本轮按此范围建立预算，不继承其他方向的活动问题、结论或测试。
+- 读取：登记活动包、指定GDD及作为其正文的构句／配置与战斗／状态两页相关条款。路由文件中的历史导航仅用于保留结构，不展开其他方向正文；不读取其他探索项目。
+- 停止条件：完成本轮三个可审阅机制推荐稿和综合分析；新玩法留`Raw Idea / Unqualified`。需要决定替换构句或叠加时，记录一个明确问题，不以Agent猜测晋级。
+- 产物：[综合分析](insights/2026-09-20-spell-construction-analysis.md)、[来源](insights/2026-09-20-spell-construction-sources.md)、[问题](questions/Q-20260920-spell-construction.md)、[A](idea-inbox/2026-09-20-semantic-engine.md)、[B](idea-inbox/2026-09-20-keyword-forging.md)、[C](idea-inbox/2026-09-20-geometric-spell-core.md)。
+- Completed只表示本轮文档工作完成；不表示资格通过、规则执行通过或玩法已证实。未生成正式Evaluation或GDD，未回写game-002。
+
+## 历史运行：局内／局外策略循环（2026-09-20）
 
 ```yaml
 project_id: game-002-optimization
