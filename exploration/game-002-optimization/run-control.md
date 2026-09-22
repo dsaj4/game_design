@@ -2,7 +2,30 @@
 
 本文件是 `game-002-optimization` 的单轮探索控制面。它只约束本项目内的研究、候选、模拟、原型和评估记录；不能授权直接修改 game-002。每次自动探索开始前先填写“当前运行”，结束后补齐结果和下一步。
 
-## 当前运行：法术构筑机制完善与综合分析（2026-09-20）
+## 当前运行：七方向统一底层规则（2026-09-22）
+
+```yaml
+project_id: game-002-optimization
+target_project_id: game-002
+active_question: questions/Q-20260922-unified-spell-foundation.md
+context_pack: baseline-2026-09-09-001
+explicit_source: GDD-G002-FULL-001 / 1.0 RC1 and this conversation's selected directions 1,2,3,4,7,8,9
+candidate_ids: [UF-v01]
+autonomy_level: L1-supervised
+status: Completed
+review: Needs Human Review
+round_budget: 1 unified rules pass; 1 raw candidate; 1 review; 0 external research; 0 gameplay simulations; 0 playable prototypes
+actual: unified rules candidate; compatibility review with 16 manual counterexamples; question; navigation update
+evidence: documentary reasoning only; gameplay and experience NotRun
+next_step: resolve scheduled-reaction tradeoff, then qualify the unified candidate
+```
+
+- 用户已授权底层重设计、兼容取舍与简化，不再请求草拟许可。新增具体玩法仍标Agent建议，未把方向选择当作全部细则的确认。
+- 仅使用本任务锁定RC1和本次对话所选方向；沿用隔离工作树，从e81f223创建本轮分支。没有吸收其他任务的新玩法或读取其他方向正文。
+- 产物：[统一规则](idea-inbox/2026-09-22-unified-spell-foundation.md)、[兼容审查](insights/2026-09-22-unified-spell-review.md)、[当前问题](questions/Q-20260922-unified-spell-foundation.md)。
+- 结束边界：一套可审阅底层已写成，资格与正式回写待处理；没有完成新全游戏GDD、53实体迁移、玩法测试或真人验证。Completed只表示本轮文档交付完成。
+
+## 历史运行：法术构筑机制完善与综合分析（2026-09-20）
 
 ```yaml
 project_id: game-002-optimization
