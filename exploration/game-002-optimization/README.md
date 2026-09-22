@@ -4,9 +4,9 @@ Project ID：`game-002-optimization`。状态：`Active / Core Design Context Ac
 
 ## 当前入口：2026-09-22 七方向统一底层规则
 
-用户选择对话九方向中的1／2／3／4／7／8／9，要求清晰简洁优先，允许暂缓不兼容细节。本轮形成[新底层规则讨论稿UF-v01](idea-inbox/2026-09-22-unified-spell-foundation.md)：三个语义位置＋一个改写槽；应变只在正常施法时判断；相位与跨杖协奏共用前两刻接续条件；已有状态承担资源回路；过载直接延长下一轮冷却；空位使用明确省略语义。
+用户选择对话九方向中的1／2／3／4／7／8／9，要求清晰简洁优先，允许暂缓不兼容细节；随后对[UF-T01–16](questions/Q-20260922-unified-spell-foundation.md)全部按推荐确认。当前正式入口为[统一法术底层UF-v1.0](idea-materials/M-2026-09-22-unified-spell-foundation.md)：三个语义位置＋一个改写槽；应变只在正常施法时判断；相位与跨杖协奏共用前两刻接续条件；已有状态承担资源回路；过载直接延长下一轮冷却；空位使用明确省略语义。[原始讨论稿](idea-inbox/2026-09-22-unified-spell-foundation.md)已晋级，保留作来源。
 
-[兼容与反例审查](insights/2026-09-22-unified-spell-review.md)记录七方向的保留／暂缓、RC1迁移边界、16个手工反例和验证计划。总体提案已获认可，UF-T01定时应变已由用户确认；其余按用户要求一次列出[UF-T02–16整批决策](questions/Q-20260922-unified-spell-foundation.md)。整份候选仍为`Raw Idea / Unqualified`，证据`Research / Provisional`；未执行游戏模拟或真人测试，未迁移全部卡池，未替换正式GDD。范围见[run-control](run-control.md)。
+[提案](proposals/P-2026-09-22-unified-spell-foundation.md)、[正式评估](evaluations/E-2026-09-22-unified-spell-foundation.md)和[回写拟修改](draft-changes/D-2026-09-22-unified-spell-foundation.md)已建立；[手工反例研究](insights/2026-09-22-unified-spell-review.md)保留原证据身份。本地素材Qualified，规则Accepted／UF-v1.0，证据Hypothesis／NotRun；16项决策全部关闭。目标GDD同步、旧53实体与参数迁移仍在下一阶段，不把探索采纳写成目标已更新。范围见[run-control](run-control.md)。
 
 ## 历史入口：2026-09-20 法术构筑的独特设计
 

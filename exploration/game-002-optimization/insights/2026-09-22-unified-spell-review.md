@@ -2,8 +2,8 @@
 
 - 日期：2026-09-22
 - Project ID：`game-002-optimization`
-- 对象：[UF-v01统一规则讨论稿](../idea-inbox/2026-09-22-unified-spell-foundation.md)
-- 状态：`Research / Provisional`；对象仍为`Agent Proposal / Raw Idea / Unqualified`
+- 对象：[UF-v01原始讨论稿](../idea-inbox/2026-09-22-unified-spell-foundation.md)，现已晋级[UF-v1.0正式素材](../idea-materials/M-2026-09-22-unified-spell-foundation.md)。
+- 状态：`Research / Provisional`；本研究保留原文档推导证据。对象的16项设计现已全部确认，正式评估另见[E文档](../evaluations/E-2026-09-22-unified-spell-foundation.md)。
 - 方法：沿用[共享评判框架v1.0](../../shared/evaluation-frameworks/README.md)的取舍、可读性、状态依赖与退化检查；不计算总分。
 - 证据：文档对照和本稿手工逻辑推导。没有运行游戏、模拟器、代码测试或真人试玩。
 
@@ -95,5 +95,5 @@
 - 基线为本任务原锁定RC1，文件版本／摘要见[来源记录](2026-09-20-spell-construction-sources.md)，活动背景包未改变。
 - 起始分支提交`e81f223`，新工作分支`codex/2026-09-22-spell-rule-foundation`；在既有干净隔离工作树继续，未处理主工作区改动。
 - 未读其他探索方向正文，未扫描目标工作区素材库来扩大当前范围；本轮不是GDD写作或全库迁移。
-- 新玩法保留inbox候选；本研究不是正式Evaluation。
-- 后续状态：用户已确认UF-T01定时应变，并要求一次列出全部剩余决策。下一步见[整批决策清单UF-T02–16](../questions/Q-20260922-unified-spell-foundation.md)；不重问方向选择、总体授权或已确认的定时应变，未决定项保持推荐状态。本研究的手工推导不随局部确认升级为试玩证据。
+- 初审时新玩法保留inbox；用户整批确认后已晋级，本研究仍不冒充正式Evaluation或实际测试报告。
+- 后续状态：用户“全部按推荐”确认[UF-T01–16](../questions/Q-20260922-unified-spell-foundation.md)，已建立正式素材、提案、评估和本地回写拟修改。手工推导不随设计采纳升级为试玩证据。

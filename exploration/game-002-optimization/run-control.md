@@ -2,25 +2,27 @@
 
 本文件是 `game-002-optimization` 的单轮探索控制面。它只约束本项目内的研究、候选、模拟、原型和评估记录；不能授权直接修改 game-002。每次自动探索开始前先填写“当前运行”，结束后补齐结果和下一步。
 
-## 当前运行：统一底层整批取舍确认（2026-09-22）
+## 当前运行：统一底层采纳与素材晋级（2026-09-22）
 
 ```yaml
 project_id: game-002-optimization
 target_project_id: game-002
 active_question: questions/Q-20260922-unified-spell-foundation.md
-candidate_ids: [UF-v01]
+candidate_ids: [UF-v1.0]
 autonomy_level: L1-supervised
-status: Awaiting Question
-review: Needs Human Review
-authorization: user endorsed the proposal, confirmed UF-T01, and requested all remaining decisions together
-round_budget: 1 complete batch of remaining foundation decisions; 0 new design directions; 0 simulations; 0 prototypes
-actual: UF-T01 confirmed; UF-T02 through UF-T16 prepared as 15 pending decision groups
-next_step: apply the user's batch decision or numbered exceptions, then review material qualification
+status: Completed
+review: Accepted Design / Hypothesis
+authorization: user confirmed all recommendations in UF-T01 through UF-T16
+round_budget: 1 adoption and qualification pass; material, proposal, evaluation, local draft change; 0 simulations; 0 prototypes
+actual: 16 decisions confirmed; source promoted; formal rule baseline and P/E/D linked; target compatibility reviewed
+next_step: migrate legacy cards and parameters, then synchronize target documents under the confirmed scope
 ```
 
 - 用户原话：“授权通过该提案，开始确认取舍”。认可总体提案、启动逐项确认已经明确，不重复请求许可。
 - 用户随后明确：“确认。尽量一次性给出全部待确定决策”。UF-T01已确认，后续采用整批清单；用户偏好覆盖技能默认的一次一问。
-- 更新[规则确认记录](idea-inbox/2026-09-22-unified-spell-foundation.md)与[完整待定清单](questions/Q-20260922-unified-spell-foundation.md)。UF-T02–16尚未决定，具体平衡数值不要求本轮逐项拍板。
+- 用户最终回复：“全部按推荐”。UF-T01–16均Confirmed，全部资格字段Clear；不存在本批待回答问题，不重复请求确认。
+- 产物：[正式素材UF-v1.0](idea-materials/M-2026-09-22-unified-spell-foundation.md)、[Proposal](proposals/P-2026-09-22-unified-spell-foundation.md)、[Evaluation](evaluations/E-2026-09-22-unified-spell-foundation.md)、[本地Draft Change](draft-changes/D-2026-09-22-unified-spell-foundation.md)。原始记录已Promoted，术语与导航同步。
+- 本轮读取目标项目指定核心／决策／GDD以核对回写适用性，只写本探索目录。未迁移53实体，未更改目标正式核心／GDD，未运行玩法或真人测试；这些执行状态不影响本地规则已采纳。
 
 ## 历史运行：七方向统一底层规则（2026-09-22）
 
