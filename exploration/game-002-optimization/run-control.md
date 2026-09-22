@@ -2,7 +2,7 @@
 
 本文件是 `game-002-optimization` 的单轮探索控制面。它只约束本项目内的研究、候选、模拟、原型和评估记录；不能授权直接修改 game-002。每次自动探索开始前先填写“当前运行”，结束后补齐结果和下一步。
 
-## 当前运行：统一底层逐项取舍确认（2026-09-22）
+## 当前运行：统一底层整批取舍确认（2026-09-22）
 
 ```yaml
 project_id: game-002-optimization
@@ -12,15 +12,15 @@ candidate_ids: [UF-v01]
 autonomy_level: L1-supervised
 status: Awaiting Question
 review: Needs Human Review
-authorization: user endorsed the overall proposal and requested tradeoff confirmation
-round_budget: 1 decision question per user response; 0 new design directions; 0 simulations; 0 prototypes
-actual: recorded endorsement and started UF-T01; no individual tradeoff decided yet
-next_step: record the user's UF-T01 decision, update affected rules, then ask the next unresolved tradeoff
+authorization: user endorsed the proposal, confirmed UF-T01, and requested all remaining decisions together
+round_budget: 1 complete batch of remaining foundation decisions; 0 new design directions; 0 simulations; 0 prototypes
+actual: UF-T01 confirmed; UF-T02 through UF-T16 prepared as 15 pending decision groups
+next_step: apply the user's batch decision or numbered exceptions, then review material qualification
 ```
 
 - 用户原话：“授权通过该提案，开始确认取舍”。认可总体提案、启动逐项确认已经明确，不重复请求许可。
-- 当前第1项UF-T01讨论正常施法时判断与即时响应的取舍，具体答案仍待用户给出。
-- 更新[规则授权记录](idea-inbox/2026-09-22-unified-spell-foundation.md)与[取舍记录](questions/Q-20260922-unified-spell-foundation.md)。没有修改候选机制或将流程授权冒充具体规则确认。
+- 用户随后明确：“确认。尽量一次性给出全部待确定决策”。UF-T01已确认，后续采用整批清单；用户偏好覆盖技能默认的一次一问。
+- 更新[规则确认记录](idea-inbox/2026-09-22-unified-spell-foundation.md)与[完整待定清单](questions/Q-20260922-unified-spell-foundation.md)。UF-T02–16尚未决定，具体平衡数值不要求本轮逐项拍板。
 
 ## 历史运行：七方向统一底层规则（2026-09-22）
 

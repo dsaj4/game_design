@@ -6,7 +6,7 @@ Project ID：`game-002-optimization`。状态：`Active / Core Design Context Ac
 
 用户选择对话九方向中的1／2／3／4／7／8／9，要求清晰简洁优先，允许暂缓不兼容细节。本轮形成[新底层规则讨论稿UF-v01](idea-inbox/2026-09-22-unified-spell-foundation.md)：三个语义位置＋一个改写槽；应变只在正常施法时判断；相位与跨杖协奏共用前两刻接续条件；已有状态承担资源回路；过载直接延长下一轮冷却；空位使用明确省略语义。
 
-[兼容与反例审查](insights/2026-09-22-unified-spell-review.md)记录七方向的保留／暂缓、RC1迁移边界、16个手工反例和验证计划。当前为`Agent Proposal / Raw Idea / Unqualified`及`Research / Provisional`；未执行游戏模拟或真人测试，未迁移全部卡池，未替换正式GDD。下一项问题是[定时应变是否接受](questions/Q-20260922-unified-spell-foundation.md)，范围见[run-control](run-control.md)。
+[兼容与反例审查](insights/2026-09-22-unified-spell-review.md)记录七方向的保留／暂缓、RC1迁移边界、16个手工反例和验证计划。总体提案已获认可，UF-T01定时应变已由用户确认；其余按用户要求一次列出[UF-T02–16整批决策](questions/Q-20260922-unified-spell-foundation.md)。整份候选仍为`Raw Idea / Unqualified`，证据`Research / Provisional`；未执行游戏模拟或真人测试，未迁移全部卡池，未替换正式GDD。范围见[run-control](run-control.md)。
 
 ## 历史入口：2026-09-20 法术构筑的独特设计
 
