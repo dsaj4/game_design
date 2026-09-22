@@ -2,7 +2,15 @@
 
 Project ID：`game-002-optimization`。状态：`Active / Core Design Context Active`。
 
-## 当前入口：2026-09-22 七方向统一底层规则
+## 当前入口：2026-09-22 UF下的简易与元素流派简化
+
+用户明确先暂缓旧53实体逐卡迁移、成套参数及正式GDD同步，继续以清晰简洁为优先优化流派。[完整候选SF-v0.1](idea-inbox/2026-09-22-spell-school-simplification.md)保留简易／元素两家族，优先比较直接攻防、敌人印记、场上火焰储备；元素保留真实本体，推荐固定格生成、正常法术主动消费，暂缓自动邻近与环境转化。冰霜储层换甲与直接护甲重复，建议先搁置其构筑路线。
+
+[机制分析、16个手工反例与来源](insights/2026-09-22-spell-school-review.md)明确玩法收益、损失与UF兼容边界；全部新增取舍集中在[SF-T01–12](questions/Q-20260922-spell-school-simplification.md)。当前为Agent Proposal / Raw Idea / Unqualified，研究Provisional，玩法NotRun；不是新规则已采纳。[UF-v1.0](idea-materials/M-2026-09-22-unified-spell-foundation.md)及其16项已确认决定保持不变，不重复确认。
+
+下一步只审阅流派取舍；本轮不进入逐卡、参数、原型或正式同步。运行范围见[run-control](run-control.md)。
+
+## 历史入口：2026-09-22 七方向统一底层规则
 
 用户选择对话九方向中的1／2／3／4／7／8／9，要求清晰简洁优先，允许暂缓不兼容细节；随后对[UF-T01–16](questions/Q-20260922-unified-spell-foundation.md)全部按推荐确认。当前正式入口为[统一法术底层UF-v1.0](idea-materials/M-2026-09-22-unified-spell-foundation.md)：三个语义位置＋一个改写槽；应变只在正常施法时判断；相位与跨杖协奏共用前两刻接续条件；已有状态承担资源回路；过载直接延长下一轮冷却；空位使用明确省略语义。[原始讨论稿](idea-inbox/2026-09-22-unified-spell-foundation.md)已晋级，保留作来源。
 
