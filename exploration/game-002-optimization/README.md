@@ -2,7 +2,15 @@
 
 Project ID：`game-002-optimization`。状态：`Active / Core Design Context Active`。
 
-## 当前入口：2026-09-23 两流派核心、成长与具体卡牌
+## 当前入口：2026-09-23 词义可推导的法术底层
+
+用户指出23卡的词义、效果和句法缺乏直观对应。新的[SL-v0.1语义候选](idea-inbox/2026-09-23-compositional-spell-language.md)先用增加、移除、转移、造成伤害四种固定动作，加护甲／火两种存量，检验玩家能否不背配方就推导夺甲、嫁火、敌间集火；第二层再研究目标关系。
+
+[语义审查](insights/2026-09-23-spell-semantic-composition-review.md)记录20项手工推导、流派得失、支配性风险和未教学句子的理解门槛。旧SCF的特殊改写暂停扩写，印记、火焰本体和引爆暂退出本轮语义验证；不将此写成UF正式规则已更改。
+
+全部关键取舍集中在候选的SL-T01–10。新稿为Agent Proposal / Raw Idea / Unqualified，研究Provisional；真实理解与可玩性均NotRun，UF-v1.0仍Accepted。继续暂缓旧53实体迁移、成套参数和正式GDD同步。范围见[run-control](run-control.md)。
+
+## 历史入口：2026-09-23 两流派核心、成长与具体卡牌
 
 用户允许按SF继续简化，但要求先完成简易／元素两流派核心、确定可玩性后再采纳。[SCF-v0.1核心设计](idea-inbox/2026-09-23-spell-school-core-designs.md)补齐两个家族的定位、入门闭环、局内成长、六套四杖配置及弱点；[23种规则卡附册](idea-inbox/2026-09-23-spell-school-card-pack.md)包含5名词、8动作、10改写，规则明确但不形成完整参数卡池。
 

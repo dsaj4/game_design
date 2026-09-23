@@ -2,6 +2,8 @@
 
 > SCF-v0.1附册 / Agent Proposal / Raw Idea / Unqualified。
 >
+> 2026-09-23后续反馈：这23种卡被用户指出仍依赖专属解释，未达到按词义自行拼装的目标。本册保留作问题来源，暂停继续扩写；新候选见[SL语义底层](2026-09-23-compositional-spell-language.md)，分析见[语义审查](../insights/2026-09-23-spell-semantic-composition-review.md)。不把旧静态检查当作用户理解已通过。
+>
 > 主记录、原话与资格字段见[两流派核心设计](2026-09-23-spell-school-core-designs.md)。本册是新核心所需的有限代表卡集，不是旧53实体迁移表，也不是正式发行卡池。
 
 ## 读卡合同
