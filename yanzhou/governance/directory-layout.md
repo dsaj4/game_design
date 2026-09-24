@@ -8,7 +8,8 @@ yanzhou/
 ├── AGENTS.md                    实际路径映射及权限
 ├── CONTEXT.md                   术语
 ├── design/                      唯一现行规格
-│   ├── GDD.md / core-concept.md / baseline.md
+│   ├── GDD.md / core-design.md   完整规格／核心浓缩
+│   ├── core-concept.md / baseline.md  版本入口
 │   ├── systems/                 七个系统，各自维护规则
 │   ├── content/                 词卡、法杖、敌人与遭遇
 │   └── parameters.md / validation.md / source-review.md
@@ -19,6 +20,7 @@ yanzhou/
 ├── effects/entries/              FX身份及追踪
 ├── exploration/                 一个方向一个文件夹
 │   ├── README.md / comparison.md / AGENTS.md
+│   ├── start.md                  阅读模式与启动记录
 │   └── DIR-NNN-short-name/README.md  构思、未知、来源与状态
 ├── development/                 外部实现索引与实际证据
 │   ├── reports/ / inputs/

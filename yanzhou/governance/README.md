@@ -13,3 +13,6 @@ Project ID：game-002。文档角色：Navigation。
 
 
 [探索结构简化报告](exploration-simplification-report.md) · [layout.2路径对照](exploration-path-map.json)。活动方向只在探索README维护入口，旧registry.json为历史记录。
+
+
+[核心设计浓缩](../design/core-design.md)与[探索阅读模式READ-1](../exploration/start.md)由G002-DOC-008登记；不改变RC1玩法版本。

@@ -27,3 +27,6 @@ G002-DOC-006：yanzhou目录迁移，Accepted / Documentation；layout.1不等�
 
 
 G002-DOC-007：探索按方向简化，Accepted / Documentation；DIR-001–027保持原编号与Candidate ID，新增从下一未占用编号登记。
+
+
+G002-DOC-008：核心设计浓缩CORE-SUM-1与探索阅读合同READ-1，Accepted / Documentation；不升级RC1玩法或已有方向基线。

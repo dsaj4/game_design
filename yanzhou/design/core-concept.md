@@ -1,29 +1,21 @@
 # game-002：《言咒》核心构思
 
-核心标识：Core Concept v0.6。设计状态：Accepted；现行制作规格：GDD 1.0 RC1 / doc.1。体验与完整RC1验证仍Hypothesis。
+核心标识：Core Concept v0.6；设计基准：GDD 1.0 RC1 / doc.1。文档角色：Navigation。2026-09-24起，本页保留版本与旧链接入口，成篇的浓缩正文统一维护在[核心设计](core-design.md)。
 
 ## 核心概念
 
-玩家在战前使用真实词卡组成完整循环法术，绑定法杖、设置范围、顺序与首次冷却起点；战中观察自动执行；战后处理整体收益，沿分叉路线成长并挑战单阶段首领。目标体验是能解释法术为何成功或落空，并知道下一场应怎样调整。
+玩家战前用实体词卡构句并编排法杖，战中观察自动执行，沿分叉路线成长并挑战首领。完整的概括、玩家循环与系统关系见[《言咒》核心设计](core-design.md)。
 
 ## 必须保持的核心约束
 
-- 一实体一位置一法术；完整法术绑定一根杖。类型允许多标签，词性、类型和流派分别判断。
-- 战前配置、战中自动；观察、暂停、倍速不开放重配权限。
-- 共享槽仲裁每刻释放开始；覆盖和打断的续排按现行时序，持续过程可有限并存。
-- 实例身份与条件搜索分开；本次名单固定，逐对象仍检查当前资格与费用。
-- 第一人称2×5棋盘，每格地面与占位独立，玩家在棋盘外；元素、状态、固有属性和历史痕迹分开。
-- 完整事件后检查胜负，有限一层触发；数量取整、自然衰减与疲劳例外各按明确规则。
-- 普通胜利整体领取或放弃金币；真实资源跨战，场内状态清理；同场锁定重播不刷新选择。
-
-以上为摘要，不单独定义全部例外、参数或执行细节。
+统一阅读[核心设计](core-design.md)中的构句、编排、执行与首版边界；精确规则和例外以[GDD及系统正文](GDD.md)为准。本入口不再重复维护约束清单。设计选择Accepted不等于体验已验证，AUD-010仍Open。
 
 ## 现行规格与来源
 
-- [完整GDD](GDD.md)与[七系统、内容及参数](README.md)。
-- [版本清单](baseline.md)：53实体、三种法杖、四根出战与路线范围。
-- [决策记录](../governance/decision-log.md)：CORE-001–036与文档决定。
-- [当前问题](../governance/questions.md)：AUD-010未因原26组关闭而自动解决。
-- [本次整理决定](../sources/draft-changes/D-2026-09-23-document-organization.md)：只重组既有设计。
+- [核心设计浓缩](core-design.md)：整体理解与CORE探索输入。
+- [完整GDD](GDD.md)、[系统导航](README.md)与[版本清单](baseline.md)：详细制作规格。
+- [决策记录](../governance/decision-log.md)与[当前问题](../governance/questions.md)。
+- [本次文档决定](../sources/draft-changes/D-2026-09-24-core-design-and-reading-modes.md)：只整理摘要与阅读规则，不改变玩法。
+- [整理前完整核心](../history/pre-organization/game-design-workflow/core-concept.md)：原日期语境。
 
-[整理前完整核心](../history/pre-organization/game-design-workflow/core-concept.md)。优化探索不属于现行核心，回写须走目标项目Draft Change。
+探索输入范围按[启动规范](../exploration/start.md)选择；链接不自动授权扩读，候选回写仍需目标Draft Change。

@@ -228,3 +228,10 @@ HG02／WG01／SG01为待审阵营、实际范围与起始资源推荐；[CG逐�
 ## 2026-09-24：探索按方向简化（G002-DOC-007）
 
 Accepted / Documentation / layout.2。用户明确要求“exploration内部的结构也简化一下，以方向为单位能储存必要构思即可”。取消optimization包装层与活动区流程目录；27方向各用一个文件夹、README直接保存构思，比较及基线吸收合并到comparison。旧原始记录、合格材料、运行与固定包归入history/exploration-2026-09-24。原Candidate ID、局部资格和吸收边界保留；没有新CORE决定、没有新玩法验证，AUD-010保持Open。[Draft Change](../sources/draft-changes/D-2026-09-24-simplify-exploration.md) · [报告](exploration-simplification-report.md)。
+
+
+## 2026-09-24：核心设计浓缩与可选探索背景（G002-DOC-008）
+
+Accepted / Documentation。用户要求补充GDD概括浓缩，并控制启动探索时阅读的游戏材料。新增[核心设计](../design/core-design.md)，保留core-concept为版本入口；新增[READ-1启动合同](../exploration/start.md)，支持CORE、固定GDD包、全量主系统文本、自选及空白。新方向默认CORE并先说明；旧方向续作沿原来源，切换需当轮明确要求。历史、其他方向与外部材料分别授权；实际文件、固定版本及覆盖直接记录在方向README。当前任务已读背景不能被抹除，须如实声明边界。
+
+不新增CORE玩法决定，不修改现行参数、原候选资格或AUD-010。依据已提交GDD整理摘要，未启动玩法测试。[Draft Change](../sources/draft-changes/D-2026-09-24-core-design-and-reading-modes.md)。

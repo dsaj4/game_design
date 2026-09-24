@@ -8,7 +8,7 @@
 - [CONTEXT.md](../CONTEXT.md)
 - [README.md](../README.md)
 
-## design（18份）
+## design（19份）
 
 - [design/GDD.md](../design/GDD.md)
 - [design/README.md](../design/README.md)
@@ -17,6 +17,7 @@
 - [design/content/enemies-encounters.md](../design/content/enemies-encounters.md)
 - [design/content/wands.md](../design/content/wands.md)
 - [design/core-concept.md](../design/core-concept.md)
+- [design/core-design.md](../design/core-design.md)
 - [design/legacy-index.md](../design/legacy-index.md)
 - [design/parameters.md](../design/parameters.md)
 - [design/source-review.md](../design/source-review.md)
@@ -182,7 +183,7 @@
 - [effects/readiness-review.md](../effects/readiness-review.md)
 - [effects/source-audit.md](../effects/source-audit.md)
 
-## exploration（30份）
+## exploration（31份）
 
 - [exploration/AGENTS.md](../exploration/AGENTS.md)
 - [exploration/DIR-001-battlefield-compiler/README.md](../exploration/DIR-001-battlefield-compiler/README.md)
@@ -213,6 +214,7 @@
 - [exploration/DIR-026-self-built-ruins/README.md](../exploration/DIR-026-self-built-ruins/README.md)
 - [exploration/DIR-027-spell-principle-trial/README.md](../exploration/DIR-027-spell-principle-trial/README.md)
 - [exploration/README.md](../exploration/README.md)
+- [exploration/start.md](../exploration/start.md)
 - [exploration/comparison.md](../exploration/comparison.md)
 
 ## governance（16份）
@@ -584,7 +586,7 @@
 - [research/03-product-case-studies/2026-09-13-astra-game-development-stack.md](../research/03-product-case-studies/2026-09-13-astra-game-development-stack.md)
 - [research/03-product-case-studies/2026-09-13-godot-blender-workflow-comparison.md](../research/03-product-case-studies/2026-09-13-godot-blender-workflow-comparison.md)
 
-## sources（183份）
+## sources（184份）
 
 - [sources/README.md](../sources/README.md)
 - [sources/draft-changes/D-2026-09-09-automatic-battle-boundaries.md](../sources/draft-changes/D-2026-09-09-automatic-battle-boundaries.md)
@@ -614,6 +616,7 @@
 - [sources/draft-changes/D-2026-09-14-factions-wand-ranges-and-starting-loadout.md](../sources/draft-changes/D-2026-09-14-factions-wand-ranges-and-starting-loadout.md)
 - [sources/draft-changes/D-2026-09-23-document-organization.md](../sources/draft-changes/D-2026-09-23-document-organization.md)
 - [sources/draft-changes/D-2026-09-23-yanzhou-project-layout.md](../sources/draft-changes/D-2026-09-23-yanzhou-project-layout.md)
+- [sources/draft-changes/D-2026-09-24-core-design-and-reading-modes.md](../sources/draft-changes/D-2026-09-24-core-design-and-reading-modes.md)
 - [sources/draft-changes/D-2026-09-24-simplify-exploration.md](../sources/draft-changes/D-2026-09-24-simplify-exploration.md)
 - [sources/draft-changes/README.md](../sources/draft-changes/README.md)
 - [sources/evaluations/E-2026-09-10-instance-and-conditional-binding.md](../sources/evaluations/E-2026-09-10-instance-and-conditional-binding.md)

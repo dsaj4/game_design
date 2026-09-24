@@ -4,6 +4,7 @@
 
 | 入口 | 用途 |
 | --- | --- |
+| [言咒核心设计](yanzhou/design/core-design.md) | GDD浓缩：循环、七系统、核心取舍与边界 |
 | [言咒现行设计](yanzhou/design/README.md) | 七系统、53实体内容、参数与验收 |
 | [言咒探索方向](yanzhou/exploration/README.md) | 独立候选、版本、关系与专题比较 |
 | [独立肉鸽探索](exploration/new-roguelike/README.md) | 空白背景起点，不继承言咒 |
@@ -12,7 +13,7 @@
 | [协作规范](docs/github-collaboration.md) | 分支、保护与提交推送 |
 | [上一轮文档整理报告](yanzhou/history/reorganizations/2026-09-23-doc1/organization-report.md) | 迁移、检查与遗留项 |
 
-新玩法先进入对应项目inbox并完成资格确认。探索、实现与历史证据不会自动成为主系统设计。旧项目archive及冻结代码保持隔离，不是言咒起点；当前已有删除和未跟踪文件由原任务处理。
+主系统新玩法先进入对应inbox；言咒探索按[阅读模式](yanzhou/exploration/start.md)启动并保存到方向README，正式晋级仍需资格确认。探索、实现与历史证据不会自动成为主系统设计。旧项目archive及冻结代码保持隔离，不是言咒起点；当前已有删除和未跟踪文件由原任务处理。
 
 [Agent手册](AGENTS.md) · [新手说明](docs/architecture-for-beginners.md) · [探索总导航](exploration/README.md)
 

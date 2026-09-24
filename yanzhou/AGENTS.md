@@ -4,13 +4,13 @@
 
 ## 开始阅读
 
-主系统任务先读README.md、CONTEXT.md、design/core-concept.md、design/baseline.md、governance/questions.md及相关决策。仅涉及指定子目录时按任务缩小读取范围。进入探索时遵守exploration/AGENTS.md及所选项目规则，不自动读取主系统或其他方向正文。
+主系统任务先读README.md、CONTEXT.md、design/core-design.md、design/baseline.md、governance/questions.md及相关决策。仅涉及指定子目录时按任务缩小读取范围。进入探索时先读exploration/start.md与exploration/AGENTS.md，并按用户材料模式执行；不先套用上述主系统清单，不自动读取主系统或其他方向正文。
 
 ## 职责到实际路径
 
 | 根手册旧职责路径 | 本项目实际路径 |
 | --- | --- |
-| game-design-workflow/core-concept.md | design/core-concept.md |
+| game-design-workflow/core-concept.md | design/core-concept.md为版本入口；design/core-design.md为GDD浓缩摘要 |
 | game-design-workflow/decision-log.md | governance/decision-log.md |
 | game-design-workflow/gdd/current/ | design/；GDD.md保留0–18章 |
 | 新GDD草案 | sources/gdd-drafts/GDD-YYYY-MM-DD-short-name.md；采纳后按变更更新design/ |
@@ -33,7 +33,7 @@
 
 - 主系统新想法先入sources/inbox；探索新想法按exploration/AGENTS直接写所属方向，Unknown保留；资格确认主动使用grill-with-docs，先查文档，一次一个关键问题。资格不等于采纳。
 - GDD使用统一模板，审查相关素材；Raw不能直接进入GDD/Proposal/Evaluation。明确采纳的范围不重复索要许可。
-- 改核心或规则先Draft Change并同步决策；G002-DOC-006/007只改变目录，不新增CORE决定。
+- 改核心或规则先Draft Change并同步决策；G002-DOC-006/007为目录决定，G002-DOC-008为核心摘要与阅读规则决定，均不新增CORE玩法决定。
 - design/是现行规则；sources/保留原日期决定；history/中的AGENTS和旧“当前”仅为历史材料，不覆盖本文件。
 - 参数与系统职责按governance/document-contract.md；FX仅作稳定身份与追踪，不另维护竞争规则。
 - 设计Accepted、Hypothesis/NotRun、实现进度分开记录。历史TH/CAL和Demo局部结果不得外推完整RC1或真人体验。

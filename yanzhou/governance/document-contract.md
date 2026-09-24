@@ -6,7 +6,8 @@ Project ID：game-002。治理状态：Accepted / Documentation；依据用户�
 
 | 信息 | 唯一维护处 | 其他页面的职责 |
 | --- | --- | --- |
-| 产品范围、体验目标与不变量 | GDD主文档 | 核心为摘要，首页只导航 |
+| 产品范围、体验目标与不变量 | GDD主文档 | core-design为唯一成篇浓缩；core-concept保留版本入口 |
+| 探索阅读权限与材料预设 | exploration/start.md | AGENTS负责路由；每DIR记录当轮清单及实际覆盖 |
 | 实体语法、类型、条件 | SYS-001 | 内容条目声明具体合法角色 |
 | 法杖范围、装配、相位 | SYS-002 | 法杖目录提供索引 |
 | 公共执行时序、来源、支付、状态与疲劳执行 | SYS-003 | 元素与卡牌只能声明明确局部例外 |
@@ -33,7 +34,7 @@ Project ID：game-002。治理状态：Accepted / Documentation；依据用户�
 
 参数至少包含：ID、单位、数值／公式、合法域、零值许可、适用角色及来源。C是冷却，L是释放段，τ是词卡时间；历史c／r在当前文稿分别按C／L理解。明确区分开始槽仲裁、完整事件、过程子事件和派生响应。
 
-每份现用文档标明Project ID、文档角色、设计基准、文档修订、设计／证据状态及来源。Navigation、CurrentSpec、SourceRecord、DecisionRecord、HistoricalSnapshot、ResearchComparison、ValidationSpec、ImplementationIndex不得混用。
+每份现用文档标明Project ID、文档角色、设计基准、文档修订、设计／证据状态及来源。Navigation、CoreDesignSummary、ExplorationReadingContract、CurrentSpec、SourceRecord、DecisionRecord、HistoricalSnapshot、ResearchComparison、ValidationSpec、ImplementationIndex不得混用。
 
 ## 状态与变更
 
@@ -58,3 +59,10 @@ Project ID：game-002。治理状态：Accepted / Documentation；依据用户�
 ## 探索构思的轻量存储
 
 每个方向以README保存必要构思、问题、来源和阶段，comparison集中保留跨方向判断与吸收范围。正文摘录属于DirectionNote，不等于CurrentSpec。旧流程记录在history/exploration-2026-09-24；不在活动探索区恢复同名流程树。需要正式设计输出时才建立带类型ID的独立材料，资格与回写规则按exploration/AGENTS执行。
+
+
+## 核心摘要与阅读合同
+
+core-design.md沿GDD核心事实浓缩，不拥有独立规则裁决权；更新GDD循环、范围、系统关系或不变量时必须复核摘要，更新来源基准或显式标待同步。core-concept.md只保留版本与兼容导航，避免两套长摘要竞争。
+
+探索输入按start.md，用户选择的窄范围不会因文内链接或本文件提及其他来源自动扩大。全量阅读中，CurrentSpec定义现行规则，SourceRecord保留原资格，HistoricalSnapshot仅按原轮次，ImplementationIndex不反向覆盖设计；治理清单中的其他方向名称只作元数据，不作为候选设计来源。缺少详细GDD输入时，不对规则相容性作完整结论。

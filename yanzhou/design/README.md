@@ -2,7 +2,7 @@
 
 基准：GDD-G002-FULL-001 / 1.0 RC1 / doc.1。doc.1只整理文档，不代表RC2或玩法验证。
 
-[完整GDD（0–18章）](GDD.md) · [版本清单](baseline.md) · [待决问题](../governance/questions.md)
+[核心设计浓缩](core-design.md) · [完整GDD（0–18章）](GDD.md) · [版本清单](baseline.md) · [待决问题](../governance/questions.md)
 
 | 系统 | 内容 | 唯一规则正文 |
 | --- | --- | --- |

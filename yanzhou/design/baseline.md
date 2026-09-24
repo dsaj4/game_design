@@ -30,3 +30,8 @@
 ## 目录修订layout.1
 
 2026-09-23项目迁至yanzhou/，主规则在design/，优化在exploration/optimization/。设计基准仍为RC1 / doc.1；目录移动不冻结新的玩法输入。现行文件位置见[目录规范](../governance/directory-layout.md)，原提交路径按[迁移表](../governance/path-map.json)追溯。
+
+
+## 核心设计浓缩与探索输入READ-1
+
+2026-09-24新增[核心设计](core-design.md)，角色CoreDesignSummary；保留Core Concept v0.6标识，未改变RC1 / doc.1玩法。core-concept.md只作版本入口。探索根现为yanzhou/exploration/，按[启动规范](../exploration/start.md)选择CORE／GDD／FULL／CUSTOM／NONE；读取版本记录于各方向，不因目录或摘要修订自动升级旧方向背景。

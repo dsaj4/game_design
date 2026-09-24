@@ -12,3 +12,6 @@
 [Agent运行手册](agent-runbook.md) · [来源注册](registry/source-registry.md) · [框架注册](registry/framework-registry.md) · [适配器注册](registry/adapter-registry.md) · [共享方法](shared) · [历史背景生成规则](../yanzhou/history/exploration-2026-09-24/context/pack-generation-rules.md)
 
 独立方向有索引不代表存在正式Proposal或已验证玩法。共享框架是方法，不能作为另一项目的背景。
+
+
+言咒新方向可按[启动规范](../yanzhou/exploration/start.md)选择核心设计、完整GDD、全量主系统文档或自选材料；旧方向续作保留原基准。

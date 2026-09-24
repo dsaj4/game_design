@@ -7,7 +7,7 @@
 
 2026-09-09 已建立[玩法探索区](exploration/README.md)。用户指定 game-002 优化或独立肉鸽探索时，先按[探索项目注册表](exploration/registry/project-registry.md)选择对应根 P，并遵守 exploration/AGENTS.md 的本地路径映射；此时不要套用默认 W 或自动读取 game-002 背景。用户未指定时仍默认 game-002。
 
-- `yanzhou/exploration/`：仅按生成规则从 game-002 固定提交构建背景包；正常优化使用已激活包，回写须走目标项目 Draft Change。
+- `yanzhou/exploration/`：先按[探索启动规范](yanzhou/exploration/start.md)选择CORE/GDD/FULL/CUSTOM/NONE游戏材料；新方向默认CORE，旧方向沿已登记来源。不要先自动读主系统清单或旧背景包；回写须走目标项目 Draft Change。
 - `exploration/new-roguelike/`：从独立空白背景探索，不继承 game-002、优化项目或归档内容。
 - 探索区的原始想法、合格素材、提案、评估和 GDD 路径按其 AGENTS 映射；资格闸门、来源追踪与 Git 保护继续适用。建区不是玩法采纳，旧冻结代码未恢复。
 
@@ -436,3 +436,8 @@ git checkout -b agent/<agent-name>/<YYYY-MM-DD>-<short-task>
 ## 2026-09-24 探索按方向简化
 
 用户要求探索内部按方向保存必要构思。P为yanzhou/exploration/；每个DIR文件夹以README维护构思、问题、来源和状态，不再预建流程目录。此项目存储映射以[yanzhou/exploration/AGENTS.md](yanzhou/exploration/AGENTS.md)为准；正式资格与回写门槛不变。旧流程和冻结背景在yanzhou/history/exploration-2026-09-24，只作历史取证。
+
+
+## 2026-09-24 核心浓缩与探索阅读选择
+
+用户要求可控制新探索方向的游戏背景。[核心设计](yanzhou/design/core-design.md)是GDD浓缩，旧core-concept仅作版本入口。言咒探索任务在任何主系统内容检索前应用[start.md](yanzhou/exploration/start.md)：默认CORE、完整GDD固定包、全量主系统文档、自选或空白；明确增补/排除优先，链接不自动扩读。每方向记录实际版本、已读/未读与扩读授权；已有方向不自动换基线。这里替代本手册对探索的默认游戏背景读取步骤，必要操作规则与资格、Git保护继续有效。
