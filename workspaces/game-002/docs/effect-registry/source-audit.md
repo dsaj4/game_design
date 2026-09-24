@@ -1,3 +1,5 @@
+> 文档角色：HistoricalAudit。以下为原日期的审查及修订记录；正文中的“当前”“待审”“Closed”均限定在其版本和范围。2026-09-23整理未改变历史证据。现行问题见[问题登记](../governance/conflict-register.md)，现行规则见[GDD](../../game-design-workflow/gdd/current/README.md)。
+
 # 效果来源审查记录
 
 2026-09-14当前：CG／PG／EG／RG／UX已按CORE-032–036采纳，26组设计缺口全部Closed。首版S2 25项＋E3 30项，合并53实体（34词／19可换件）；合格素材68份、inbox47份、效果134项。当前内容为RC1基准，设计Accepted，平衡与理解Hypothesis／NotRun。用户授权后续无需确认直接补齐；后续按已有范围自主完成并保留来源，不再逐项提问。

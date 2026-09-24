@@ -1,3 +1,5 @@
+> 文档角色：HistoricalAudit。以下为原日期的审查及修订记录；正文中的“当前”“待审”“Closed”均限定在其版本和范围。2026-09-23整理未改变历史证据。现行问题见[问题登记](governance/conflict-register.md)，现行规则见[GDD](../game-design-workflow/gdd/current/README.md)。
+
 # 全局规则审查：回归卡牌与流派设计前
 
 日期：2026-09-11。Project ID：game-002。状态：Documentation Review Completed；玩法与数值验证Deferred。审查基线提交：fb75812263f76992c7ebab5c66eb857a001abb63，Core Concept v0.6／G002-CORE-014。本页保留审查发现并追踪关闭依据；用户随后全部采用推荐处理，见[G002-CORE-015](../game-design-workflow/draft-changes/D-2026-09-11-global-rule-boundaries.md)。本页不是测试报告。

@@ -1,3 +1,5 @@
+> 文档角色：HistoricalAudit。以下为原日期的审查及修订记录；正文中的“当前”“待审”“Closed”均限定在其版本和范围。2026-09-23整理未改变历史证据。现行问题见[问题登记](governance/conflict-register.md)，现行规则见[GDD](../game-design-workflow/gdd/current/README.md)。
+
 # 新版卡池语义清晰度审查：S2＋E3
 
 当前结论（2026-09-13）：[RC01–12](../game-design-workflow/idea-materials/M-2026-09-13-card-pool-rule-rulings.md)已采纳；S2全部25项已选用，E3全部30项保持确认。K01–K12共同机制选择不再待决；空间、出生已另按DG02／03确认。未关闭的对象资格、转化、公式、装配与全局输入见[写作前清单](pre-gdd-design-decisions-2026-09-13.md)。新规则NotRun。

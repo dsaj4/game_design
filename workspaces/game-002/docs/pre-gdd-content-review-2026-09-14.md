@@ -1,3 +1,5 @@
+> 文档角色：HistoricalAudit。以下为原日期的审查及修订记录；正文中的“当前”“待审”“Closed”均限定在其版本和范围。2026-09-23整理未改变历史证据。现行问题见[问题登记](governance/conflict-register.md)，现行规则见[GDD](../game-design-workflow/gdd/current/README.md)。
+
 # GDD前实际内容总审：RC1已采纳
 
 日期：2026-09-14。状态：Closed / Accepted，26／26设计组已收束。用户明确授权后续无需确认直接补齐；CG直接确认，其余PG／EG／RG／UX按已有推荐整包裁决。首版参数为RC1基准，平衡、可读性及玩法结果Hypothesis／NotRun。68份合格素材、47份原始记录、134个效果ID，历史库保留。

@@ -1,18 +1,9 @@
-# game-002 GDD
+# 言咒GDD入口
 
-## 当前全游戏设计：RC1
+Project ID：game-002。文档角色：Navigation。2026-09-23。
 
-[《言咒》全游戏GDD](GDD-2026-09-14-yanzhou-full-game.md)／[Wiki目录](yanzhou-rc1/README.md)，2026-09-14，GDD-2 / Accepted。26组设计缺口与12类参数已实际收束；正文12页，覆盖7系统、55设计ID／53实体、完整路线／遭遇／经济／保存与验收。原始库完整保留，平衡与体验Hypothesis／NotRun。
+现行唯一正文包：[RC1 / doc.1](current/README.md)，含[完整0–18章GDD](current/GDD.md)、7系统、内容、参数、来源与验证规格。原26组设计选择Accepted；完整体验/平衡验收NotRun，新增AUD-010待消歧。
 
-后续以此作为开发第一材料，有矛盾再查构思系统。以下战场单项草案只保留历史，不覆盖RC1。
+旧全游戏路径与yanzhou-rc1目录保留兼容导航；第一人称战场草案保留历史入口，不构成另一套现行GDD。
 
-## 旧GDD入口（历史）
-
-
-使用[共享模板](../../../../game-design-workflow/templates/README.md)，玩法与实现进度分开。现有核心为[Core Concept v0.6](../core-concept.md)，具体GDD是否已采纳按各自状态判断。
-
-| GDD | 成熟度 | 状态与范围 |
-| --- | --- | --- |
-| [第一人称格子战场与环境](GDD-2026-09-12-first-person-grid-battlefield.md) | GDD-1规则草案 | Draft Change／Hypothesis；2×5占位、地面与有限火焰变化，参数未冻结、NotRun |
-
-来源限于已通过资格的素材；inbox未确认候选不得直接进入正文。当前尚无已采纳GDD。
+[统一模板](../../../../game-design-workflow/templates/gdd-writing-requirements-and-template.md) · [版本身份](current/baseline.md) · [整理前目录](../../docs/history/pre-organization/game-design-workflow/gdd/README.md)

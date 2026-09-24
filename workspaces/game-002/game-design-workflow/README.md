@@ -1,11 +1,11 @@
-# game-002 设计流程
+# 言咒设计流程
 
-当前[核心](core-concept.md)为Accepted / Core Concept v0.6 / Stable Design Baseline，证据Hypothesis。
+Project ID：game-002。文档角色：Navigation。2026-09-23 / doc.1。
 
-新想法进入[inbox](idea-inbox/README.md)，经grill-with-docs明确来源、设计对象、玩家影响、价值、现有关系和验证方式后进入[正式素材](idea-materials/README.md)，再按[共享模板](../../../game-design-workflow/templates/README.md)组织GDD、提案、评估或Draft Change。
+[现行RC1](gdd/current/README.md) · [核心摘要](core-concept.md) · [决策记录](decision-log.md) · [当前问题](../docs/design-decisions-needed.md)
 
-[C01–C08](../docs/design-decisions-needed.md)已按用户确认处理；具体参数重新设计，完整召唤与复杂环境机制依范围后置；[修饰词与镶嵌](../docs/modifier-and-inlay-design.md)先于流派成套物品设计。正式核心变更须有明确采纳并同步[决策记录](decision-log.md)。
+原始表达进入[idea-inbox](idea-inbox/README.md)，资格确认后成为[合格素材](idea-materials/README.md)，再按[统一模板](../../../game-design-workflow/templates/README.md)组织[GDD](gdd/README.md)、[提案](idea-proposals/README.md)、[评估](evaluations/README.md)和[Draft Change](draft-changes/README.md)。写入GDD不自动构成采纳，代码进度单独维护。
 
-[当前简单对象交互范围](idea-materials/M-2026-09-10-simple-object-interactions.md)已按用户指令采纳：对象数量/状态变化、真实火焰/雷电/冰霜及对象掉卡。位移、结构、指定端点和材料加工暂缓。引用、名单与时序骨架继续有效。当前按[法术类型入口](../docs/spell-type-index.md)组织：四类特征与多类型、首批词名分类已采纳；上一批具体词效与参数先Parked。
+核心v0.6是既有标识；实际首版规则及参数采用RC1 / doc.1，原26组选择Closed，AUD-010待消歧。旧雷电、产卡和未选副词等不能据早期摘要恢复。
 
-全局文档审查完成后的当前入口：[卡牌设计—评测—采纳流程](../docs/card-design-review-workflow.md)。[GR01–GR12处理方式](idea-materials/M-2026-09-11-global-rule-boundaries.md)已全部采纳，按新卡依赖填写具体内容；GR07-C01与FAT-C仍为候选，测试按用户指令积累后合批。
+新优化方向集中在[独立探索区](../../../exploration/game-002-optimization/directions/README.md)。历史想法保留来源资格；[整理前流程首页](../docs/history/pre-organization/game-design-workflow/README.md)只按原阶段阅读。

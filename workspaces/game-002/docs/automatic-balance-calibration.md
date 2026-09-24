@@ -1,3 +1,5 @@
+> 文档角色：HistoricalAudit / ScopedEvidence。原日期的输入、方法和结果按原版本保留；不代表现行RC1重新验证，也不自动启动实验。现行规则见[RC1](../game-design-workflow/gdd/current/README.md)，实际批次见[测试交接](test-handoff.md)。
+
 # 自动平衡校准流程
 
 日期：2026-09-13。状态：Workflow Candidate / Implemented / Limited Validated。CAL-2026-09-13-001/r3已产出限定任务达标候选。适用：game-002数值测试；属于测试工作流与实验合同，不是新增玩法GDD或核心采纳。

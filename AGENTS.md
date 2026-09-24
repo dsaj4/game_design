@@ -44,13 +44,13 @@ game-002 当前问题入口为 `workspaces/game-002/docs/design-decisions-needed
 
 ## 每次开始时先做什么
 
-进入仓库后，先快速阅读或确认这些文件：
+进入仓库后，先快速阅读或确认这些文件（项目路径按本项目AGENTS映射；game-002现行规格入口为game-design-workflow/gdd/current/）：
 
 1. `README.md`
 2. `docs/architecture-for-beginners.md`
 3. `game-design-workflow/core-concept.md`
 4. `game-design-workflow/decision-log.md`
-5. `research/00-index-and-roadmap/current-questions.md`
+5. 当前项目明确指定的问题入口；game-002为`workspaces/game-002/docs/design-decisions-needed.md`，不再读取已不存在的旧current-questions路径。
 
 如果任务涉及代码实现、开发进度、技术架构、Bug、构建或发布，还必须阅读 `docs/code-development-index.md` 和对应代码仓库文档。
 
@@ -113,7 +113,7 @@ git checkout -b agent/<agent-name>/<YYYY-MM-DD>-<short-task>
 | “我看到一篇文章/理论” | 理论资料 | `research/01-theory-library/` 或 `research/02-theory-digests/` |
 | “这个想法是否值得继续” | 评估 | 已有 Proposal/合格素材则进入 `evaluations/`；否则先完成素材资格确认 |
 | “这个结论确认了，写进正式文档” | 拟修改 | `game-design-workflow/draft-changes/`，确认后再改 `core-concept.md` |
-| “我们下一步该验证什么” | 当前问题/原型计划 | `research/00-index-and-roadmap/current-questions.md` 或 `research/06-prototype-insights/` |
+| “我们下一步该验证什么” | 当前问题/原型计划 | 本项目指定问题入口或 `research/06-prototype-insights/` |
 
 如果一句话同时包含多个意图，先把未经确认的部分保存为 `Raw Idea / Unqualified`，再决定是否资格确认、拆成正式素材、产品案例或研究假设。不能因为同时存在明确内容，就把其中模糊部分一起带入正式文档。
 
@@ -187,7 +187,7 @@ git checkout -b agent/<agent-name>/<YYYY-MM-DD>-<short-task>
 操作：
 
 1. 明确告诉用户本次将使用 `game-design-workflow/templates/gdd-writing-requirements-and-template.md`，并确认目标完成度：`GDD-0 / GDD-1 / GDD-2`。
-2. 阅读当前 `core-concept.md`、`decision-log.md`、`current-questions.md` 以及目标 GDD 的已有版本。
+2. 阅读当前 `core-concept.md`、`decision-log.md`、项目指定的当前问题文件 以及目标 GDD 的已有版本。
 3. 检索 `idea-materials/` 和 `idea-inbox/`，按相关性分成：
    - 合格素材候选：可在对应章节主动提请用户 `Include / Omit / Park`。
    - 未确认 inbox 候选：只能说明其相关性和缺失字段，不得直接写入正文。
@@ -423,3 +423,7 @@ git checkout -b agent/<agent-name>/<YYYY-MM-DD>-<short-task>
 ```text
 已记录到 idea-inbox，当前状态是 Raw Idea / Unqualified，尚不能进入正式设计链。下一步使用 grill-with-docs 补齐资格字段；通过后晋级 Qualified GDD Material，再决定进入 GDD 还是 Proposal。
 ```
+
+## 2026-09-23 文档治理与探索方向索引
+
+用户已授权主系统与探索区全量整理。game-002以current正文为现行规则，核心为摘要；历史、候选和旧运行指令不覆盖现用入口。探索方向索引及跨方向研究仅在探索区，原始来源和资格保留。管理任务可横向整理方向元数据与比较；普通探索仍按所选方向的来源范围，不自动读取其他候选。详见[文档合同](workspaces/game-002/docs/governance/document-contract.md)与[方向索引](exploration/game-002-optimization/directions/README.md)。

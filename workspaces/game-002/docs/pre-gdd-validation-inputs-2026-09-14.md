@@ -1,3 +1,5 @@
+> 文档角色：HistoricalAudit / ScopedEvidence。原日期的输入、方法和结果按原版本保留；不代表现行RC1重新验证，也不自动启动实验。现行规则见[RC1](../game-design-workflow/gdd/current/README.md)，实际批次见[测试交接](test-handoff.md)。
+
 # GDD前验收输入：真实资源基准与规则片段 VB v0.1
 
 日期：2026-09-14。版本VB v0.2／RC1。状态：未来验收输入／NotRun。HG／WG／SG与CG／PG／EG／RG／UX已按CORE-031–036实际采纳；本文只登记输入与预期，不是测试报告。
