@@ -2,7 +2,7 @@
 
 Project ID：`game-002-optimization`。目录修订：layout.2 / 2026-09-24。这里保存独立构思，与主系统现行规则隔离。
 
-**一个方向一个文件夹，一份README存必要构思。** 先从下表选方向，打开即可阅读想法、玩家选择、与RC1的差异、未知项和来源。当前共28个方向，既有编号保留。
+**一个方向一个文件夹，一份README存必要构思。** 先从下表选方向，打开即可阅读想法、玩家选择、与RC1的差异、未知项和来源。当前共29个方向，既有编号保留。
 
 [启动探索：选择阅读材料](start.md) · [核心设计](../design/core-design.md) · [方向对比与主系统吸收](comparison.md) · [整理前档案](../history/exploration-2026-09-24/README.md) · [主系统入口](../design/README.md)
 
@@ -69,6 +69,7 @@ exploration/
 | [DIR-026 自编遗迹](DIR-026-self-built-ruins/README.md) | 战前从合法地形模板选择初态并锁定。 | Raw Idea / Unqualified |
 | [DIR-027 咒理试炼](DIR-027-spell-principle-trial/README.md) | 同一配置应对多种输入，通过解释和复盘形成知识成长。 | Raw Idea / Unqualified |
 | [DIR-028 时间轴深度构筑](DIR-028-timeline-depth/README.md) | 将节奏、时间窗口与事件接续关系作为构筑对象，探索时间轴成为核心玩法的可能性。 | Agent Proposal / Raw Idea / Unqualified |
+| [DIR-029 时间轴铺卡战斗](DIR-029-timeline-card-battle/README.md) | 将完整法术排成双方时间轴，同刻翻牌；敌方具体牌隐藏，战前提供部分线索。 | Raw Idea / Unqualified |
 
 ## 历史怎么查
 
