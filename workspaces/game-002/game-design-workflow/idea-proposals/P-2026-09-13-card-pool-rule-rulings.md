@@ -1,72 +1,79 @@
-# RC01–12共同规则提案
+# RC01–12共同规则提案（已迁移）
 
-## 提案名称
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-以短卡面和共同规则收束S2／E3组合。状态：用户已确认，进入G002-CORE-019。
+[打开新位置](../../../../yanzhou/sources/proposals/P-2026-09-13-card-pool-rule-rulings.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-## 来源想法
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-[RC合格素材](../idea-materials/M-2026-09-13-card-pool-rule-rulings.md)；[用户已选择的首版范围和S2素材](../idea-materials/M-2026-09-13-first-release-content-scope.md)。
+<a id="rc0112共同规则提案"></a>
 
-## 核心玩法假设
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-card-pool-rule-rulings.md#rc0112共同规则提案)
 
-玩家能通过创建先后、法杖节拍、消耗与一次替换预测复杂组合，不需要多份来源层数或递归触发账本。
+<a id="为什么可能好玩"></a>
 
-## 玩家会做什么
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-card-pool-rule-rulings.md#为什么可能好玩)
 
-- 战前配置完整法术和法杖顺序，选择创建、操控和消耗的分工。
-- 用完整复诵增加机会，承担共享槽覆盖；等待蓄势兑现。
-- 通过状态创建顺序保留性质，必要时清空重建。
-- 从明确原因读懂补层、触发、无合法目标及终局停止。
+<a id="可能的同类参考"></a>
 
-## 为什么可能好玩
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-card-pool-rule-rulings.md#可能的同类参考)
 
-短句能有规则差异；同一资源、位置与释放机会具有不同用途。取舍包括不能无限连锁、后来加层不能改性质、双律与攻守不能共杖。
+<a id="固定阶段名单补充g002-core-028"></a>
 
-## 最小可验证原型
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-card-pool-rule-rulings.md#固定阶段名单补充g002-core-028)
 
-后续用固定对象与少量法杖逐情境检验来源、复诵、替换、支付和一层触发。成功为唯一结果、有限调度、计次清晰；失败为隐式复制或相同输入多解。本轮只进行文档审查，不启动原型或测试。
+<a id="异种补生来源补充g002-core-027"></a>
 
-## 可能的同类参考
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-card-pool-rule-rulings.md#异种补生来源补充g002-core-027)
 
-本提案来源于本项目已确认玩法，无需新增产品参照或外部事实。
+<a id="当前疑问"></a>
 
-## 首版范围补充
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-card-pool-rule-rulings.md#当前疑问)
 
-用户已选择S2全部25项＋E3全部30项与完整局内流程，形成G002-SCOPE-003。保留旧构思库，按DG清单先细化再写GDD；这不采纳未决BF／IN-C／FAT-C整包。
+<a id="提案名称"></a>
 
-## 当前疑问
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-card-pool-rule-rulings.md#提案名称)
 
-空间、转化、配装、逐卡公式与完整一局资源仍需按写作前清单确定；本次确认不解决全部制作参数。
+<a id="最小可验证原型"></a>
 
-## 空间基础补充
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-card-pool-rule-rulings.md#最小可验证原型)
 
-采用DG02的一格两层、单占位、棋盘外玩家、正交邻近与不自动遮挡，复用原BF方向；生成、物性和转化仍独立细化。
+<a id="来源想法"></a>
 
-## 生成位置补充（G002-CORE-021）
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-card-pool-rule-rulings.md#来源想法)
 
-来源：[已确认首版与空间素材](../idea-materials/M-2026-09-13-first-release-content-scope.md)。用户选择只在所选敌人旁生成。该限制使出生可预测且空间代价明确；无合法邻格仍保留元素回退，不能随意换目标绕过拥塞。其余环境阈值与物性尚未定。
+<a id="核心玩法假设"></a>
 
-## 环境阈值判据补充（G002-CORE-022）
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-card-pool-rule-rulings.md#核心玩法假设)
 
-来源：[已确认阈值素材](../idea-materials/M-2026-09-13-first-release-content-scope.md)。用户选择各形态阶段与最终转化都读取当前对应状态层数，不累计历史施加量。玩家可从当前层数判断后续推进条件，抵消、清除和消耗会改变是否达标。假设是减少隐藏进度使转化可预测；后续以达到阈值、降至阈值下、清空再积累三类例检查。用户进一步确认已达到形态不自动回退，状态减少仅改变当前效果和后续达标条件；释放作用判据仍待选择，本次不补默认答案或数值。
+<a id="玩家会做什么"></a>
 
-## 释放覆盖与转化时点补充（G002-CORE-023）
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-card-pool-rule-rulings.md#玩家会做什么)
 
-来源：[已确认转化素材](../idea-materials/M-2026-09-13-first-release-content-scope.md)。同种补层优先时，玩家仍可通过持续释放覆盖与元素邻近作用推进环境；不强制法术亲自给每个环境物体加层。环境阶段末统一读取当前量和覆盖，使本刻自动作用与转化分明；新元素下一刻自动作用，释放最后一刻仍有效。后续检验正常补层、残留火焰无释放、最后一刻和新生不追加自动作用四类情境；身份、来源和位置协调另行明确。
+<a id="环境继承与原地替换补充g002-core-025026"></a>
 
-## 环境转化新身份补充（G002-CORE-024）
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-card-pool-rule-rulings.md#环境继承与原地替换补充g002-core-025026)
 
-[确认素材](../idea-materials/M-2026-09-13-first-release-content-scope.md)采用环境转化产生新元素身份。玩家需通过合法后续选择操控新元素，旧树的固定指向不能自动取得新火焰；仅形态改变仍是原树。后续检查实例绑定、条件重选与当次名单的一致性；来源、生成特性和衰减进度继续细化。
+<a id="环境转化新身份补充g002-core-024"></a>
 
-## 环境继承与原地替换补充（G002-CORE-025／026）
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-card-pool-rule-rulings.md#环境转化新身份补充g002-core-024)
 
-[已确认素材](../idea-materials/M-2026-09-13-first-release-content-scope.md)采用覆盖法杖归属、多覆盖后置优先及对应生成特性，继承当前层数和小数衰减进度，新元素取自身固有属性。两种转化原地生成，普通释放仍同种优先，地面保持身份。玩家通过覆盖和排列决定创建归属，通过占位预判新元素位置；后续以多覆盖、先前来源不同、进度带入、同范围多同种和原格地面保留检查。异种补生的许可／来源继续明确，数值与完整体验仍未验证。
+<a id="环境阈值判据补充g002-core-022"></a>
 
-## 异种补生来源补充（G002-CORE-027）
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-card-pool-rule-rulings.md#环境阈值判据补充g002-core-022)
 
-采用[补生确认素材](../idea-materials/M-2026-09-13-first-release-content-scope.md)：对应持续释放覆盖提供补生许可，多覆盖后置优先；合法抵消来源可以是邻近作用等效果，正余量保留而不因创建者改变重新加成。补生随抵消事件完成，旧状态已清空故新进度从零；后续检验正确覆盖、异种覆盖、无覆盖、零余量及多覆盖，不启动本轮测试。
+<a id="生成位置补充g002-core-021"></a>
 
-## 固定阶段名单补充（G002-CORE-028）
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-card-pool-rule-rulings.md#生成位置补充g002-core-021)
 
-[确认素材](../idea-materials/M-2026-09-13-first-release-content-scope.md)采用环境阶段开始固定自动元素名单，中途新生等下刻，旧身份失效跳过。环境末检查沿R08公开顺序及单次名单原则；状态阶段独立按ST02建立名单。玩家能预测当前自动作用次数，并区分自动作用延迟与自然衰减。后续验证阶段前生成、自动事件补生、环境末转化、状态阶段替换四种时点，当前不运行测试。
+<a id="空间基础补充"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-card-pool-rule-rulings.md#空间基础补充)
+
+<a id="释放覆盖与转化时点补充g002-core-023"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-card-pool-rule-rulings.md#释放覆盖与转化时点补充g002-core-023)
+
+<a id="首版范围补充"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-card-pool-rule-rulings.md#首版范围补充)

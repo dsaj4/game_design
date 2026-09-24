@@ -1,45 +1,39 @@
-# 元素状态宿主资格评估
+# 元素状态宿主资格评估（已迁移）
 
-## 评估对象
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-- 提案：[HG01](../idea-proposals/P-2026-09-14-element-status-host-eligibility.md)。
-- 日期：2026-09-14。
-- 评估人：Codex；用户已明确采用资格表。
+[打开新位置](../../../../yanzhou/sources/evaluations/E-2026-09-14-element-status-host-eligibility.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-## 快速结论
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-推荐推进。它补齐BR02要求的具体宿主名单，保持环境不具备生命／护甲及元素共享层数的原有边界。
+<a id="主要风险"></a>
 
-## 评估维度
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-element-status-host-eligibility.md#主要风险)
 
-| 维度 | 分数 | 判断问题 | 评估 |
-| --- | --- | --- | --- |
-| 核心动作清晰度 | 不量化 | 能否预判对象能力 | 六类宿主逐一明确 |
-| 实现可能性 | 不量化 | 是否新增不必要系统 | 复用既有状态与能力判断，不要求环境攻防 |
-| 可玩性潜力 | 待验证 | 环境持层是否有实际用途 | 汲取／抵消／形态已有方向，强度仍待参数 |
-| 决策深度 | 待验证 | 场景是否改变选择 | 草地与石地的资格差异可影响操作 |
-| 反馈强度 | 待验证 | 能否分清层数与护甲 | 需对应教学与界面检查 |
-| 差异化 | 未评估 | 是否形成独特体验 | 不以单一资格表声称产品差异 |
-| 市场参照 | 无 | 是否有外部证据 | 本轮未引入 |
-| 范围控制 | 明确 | 是否扩张首版内容 | 不增加卡、草状态、材料链或新宿主 |
-| 扩展潜力 | 待验证 | 后续对象能否登记 | 可逐对象明确能力，不默认全部接受 |
-| 风险可验证性 | 明确 | 是否有可观察失败 | 对照宿主检查虚假攻防与非法持层 |
+<a id="元素状态宿主资格评估"></a>
 
-## 同类产品观察
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-element-status-host-eligibility.md#元素状态宿主资格评估)
 
-本轮无外部研究；不能把设计一致性审查当作玩家验证。
+<a id="同类产品观察"></a>
 
-## 主要风险
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-element-status-host-eligibility.md#同类产品观察)
 
-- 玩法：环境层数的实际使用频率取决于范围、卡牌与阈值。
-- 制作：实际环境形态仍需完整内容表。
-- 表达：冰冻图标可能让玩家误以为任何宿主都会获得护甲。
-- 市场识别：当前不作结论。
+<a id="建议修改"></a>
 
-## 建议修改
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-element-status-host-eligibility.md#建议修改)
 
-将“接受状态”和“能产生何种结果”分列；形态和阈值保持单独待办；范围、阵营、起始资源不随本项自动采纳。
+<a id="快速结论"></a>
 
-## 最终建议
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-element-status-host-eligibility.md#快速结论)
 
-进入[Draft Change](../draft-changes/D-2026-09-14-element-status-host-eligibility.md)，依据已收到的用户答复采纳HG01。证据仍Hypothesis／NotRun。
+<a id="最终建议"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-element-status-host-eligibility.md#最终建议)
+
+<a id="评估对象"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-element-status-host-eligibility.md#评估对象)
+
+<a id="评估维度"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-element-status-host-eligibility.md#评估维度)

@@ -1,93 +1,51 @@
-# 同种状态的重施与叠加
+# 同种状态的重施与叠加（已迁移）
 
-状态：Qualified GDD Material。证据：Hypothesis。资格覆盖下列明确表述；具体后置机制与参数保持 Unknown，素材可引用不等于完整系统已采纳或通过验证。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 素材控制
+[打开新位置](../../../../yanzhou/sources/materials/M-2026-09-06-status-reapplication-and-stacking.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-| 字段 | 内容 |
-| --- | --- |
-| 素材 ID | MAT-2026-09-06-status-reapplication-and-stacking |
-| 素材类型 | Mechanic / System / Constraint |
-| 来源 inbox | [来源入口](../idea-inbox/2026-09-05-yanzhou-core-combat.md) |
-| 原始确认 | [原始记录](../../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-status-reapplication-and-stacking.md) |
-| 资格确认日期 | 2026-09-06；适用范围复核2026-09-10 |
-| 确认方式 | grill-with-docs：依据用户确认记录、当前核心及文档统一授权复核 |
-| 当前证据状态 | Hypothesis |
-| 负责人 | 用户决定设计，agent维护表述与来源 |
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 规范化表述
+<a id="2026-09-14-全游戏gdd使用记录"></a>
 
-同种合并的持久来源与特性按[RC04](M-2026-09-13-card-pool-rule-rulings.md)：首次创建决定，后来只加量及允许时长；完全清空后重建重新决定。每次新增量仍采用当次源方修正，既有量不重算。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-status-reapplication-and-stacking.md#2026-09-14-全游戏gdd使用记录)
 
-同一目标的同一种基础状态合并为一份，共用数量、周期和到期时间；不同目标或不同种状态分别管理，来源不同不额外建立倒计时。
+<a id="与当前构思的关系"></a>
 
-允许累积数量或层数的状态，将新增量加入当前量；只有有无之分的状态不因重施自动增强。是否累积及数量效果由具体状态声明。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-status-reapplication-and-stacking.md#与当前构思的关系)
 
-有限状态的新剩余时长＝当前剩余时长＋本次新增时长，合并后的全部数量共用延后的到期点；已经过去的时间不重新计入。
+<a id="使用记录"></a>
 
-重施仍存在的状态保持下一次周期及其排序位置，不额外立即触发，不重新等待完整周期。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-status-reapplication-and-stacking.md#使用记录)
 
-部分数量消耗保持剩余状态的到期点和周期；数量型状态默认耗尽即清除，取消未来周期与到期，再施加时按新状态从头计时和排序。有无型状态及特殊零值含义逐条声明；生成或读取0可合法，但是否创建状态身份由对应词义明确，不靠零量空壳延续旧状态排序。见[GR v1](M-2026-09-11-global-rule-boundaries.md)的GR04。
+<a id="同种状态的重施与叠加"></a>
 
-同刻在法术、敌人攻击、环境变化之后处理状态。此前已经完成的新增、消耗和时长变化参与当前判断。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-status-reapplication-and-stacking.md#同种状态的重施与叠加)
 
-没有统一数量或时长硬上限；具体状态需要专属上限时明示。护甲无自然到期，因此不增加持续时间。
+<a id="未知项与验证"></a>
 
-施加量先计算适用源方修正再合并，源方后来变化不追溯重算；周期读取当前量且不重复应用这份强化。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-status-reapplication-and-stacking.md#未知项与验证)
 
-## 设计对象与 GDD 映射
+<a id="机制行为体验假设"></a>
 
-- 作用对象：同种状态的重施与叠加。
-- 目标 GDD：尚未创建；作为相应系统、规则边界及验证章节的素材。
-- 对应完成度：GDD-0 / GDD-1 素材输入；具体内容与参数需另行确认。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-status-reapplication-and-stacking.md#机制行为体验假设)
 
-## 玩家处境、行为与反馈
+<a id="玩家处境行为与反馈"></a>
 
-- 玩家处境：依据库存、场景与公开攻击安排进行战前选择，观察自动战斗，再处理战后及路线决定。
-- 玩家可见信息：本素材规范化表述中的条件、对象和结果；具体界面呈现待验证。
-- 行为与反馈：通过上述规则判断资源、时间或对象关系；验证情境为“比较周期前重施、部分消耗、完全清除后重建，检查数量、到期与下一次周期。”
-- 预期价值：玩家能解释选择如何改变后续结果；实际策略价值仍为Hypothesis。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-status-reapplication-and-stacking.md#玩家处境行为与反馈)
 
-## 与当前构思的关系
+<a id="素材控制"></a>
 
-- 核心依据：[Core Concept v0.6](../core-concept.md)，支持战前配置、自动循环与可推导语义。
-- 相关系统：[素材索引](README.md)按主题列出依赖；[领域词汇](../../CONTEXT.md)统一概念。
-- 已确认处理范围：[无未决规则冲突；具体内容与体验仍待验证](../../docs/design-decisions-needed.md)。
-- 明确边界：本文不补齐未决的具体效果、参数、资源权限或额外玩家操作，也不作为实现完成证明。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-status-reapplication-and-stacking.md#素材控制)
 
-## 机制—行为—体验假设
+<a id="规范化表述"></a>
 
-| 规则 | 可能行为 | 目标体验 |
-| --- | --- | --- |
-| 同一目标的同一种基础状态合并为一份，共用数量、周期和到期时间；不同目标或不同种状态分别管理，来源不同不额外建立倒计时。 | 依据明确约束比较方案及其后果 | 可预测且可解释的选择 |
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-status-reapplication-and-stacking.md#规范化表述)
 
-## 未知项与验证
+<a id="设计对象与-gdd-映射"></a>
 
-| 未知或风险 | 影响 | 下一步 | 成功信号 | 失败信号 |
-| --- | --- | --- | --- | --- |
-| 持续累积是否压过及时消耗，以及专属上限。 | 影响完整设计与效果可解释性 | 比较周期前重施、部分消耗、完全清除后重建，检查数量、到期与下一次周期。 | 玩家可预测结果，关键情境有唯一裁定 | 结果依赖未确认规则，或一类选择长期无价值 |
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-status-reapplication-and-stacking.md#设计对象与-gdd-映射)
 
-## 资格确认清单
+<a id="资格确认清单"></a>
 
-- [x] 原始表达与用户确认可追溯。
-- [x] 设计对象与章节用途明确。
-- [x] 玩家处境或设计功能明确。
-- [x] 当前规范化表述的行为、可见影响或约束明确。
-- [x] 预期价值明确，验证状态如实保留。
-- [x] 与核心及处理范围的关系明确。
-- [x] 未知项与下一步验证方式明确。
-
-## 使用记录
-
-| 日期 | 目标 | 处理结果 | 边界 |
-| --- | --- | --- | --- |
-| 2026-09-10 | [设计文档统一](../draft-changes/D-2026-09-10-current-design-alignment.md) | Included：明确表述部分 | 原始使用与确认记录从来源快照追溯；当前处理范围见接口采纳记录，尚无GDD |
-
-
-## 2026-09-14 全游戏GDD使用记录
-
-| 日期 | 目标与处理 | 当前适用边界 |
-| --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/03-combat-and-status.md) | 保留现行身份、时序、成功及费用框架；旧具体例和参数只在RC1仍适用时使用。 |
-
-本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-status-reapplication-and-stacking.md#资格确认清单)

@@ -1,41 +1,43 @@
-# 阵营、法杖范围与起始库存提案
+# 阵营、法杖范围与起始库存提案（已迁移）
 
-状态：Accepted；用户已确认本组，证据Hypothesis／NotRun。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 提案名称
+[打开新位置](../../../../yanzhou/sources/proposals/P-2026-09-14-factions-wand-ranges-and-starting-loadout.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-HG02／WG01／SG01：可直接编排的首版空间与开局内容。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 来源想法
+<a id="为什么可能好玩"></a>
 
-[合格素材](../idea-materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)。原始推荐与成组确认从素材溯源；不把未选CG／PG／EG／RG／UX内容带入。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-factions-wand-ranges-and-starting-loadout.md#为什么可能好玩)
 
-## 核心玩法假设
+<a id="可能的同类参考"></a>
 
-玩家用12张实体词卡和4根原木杖反复调整完整法术与锚点，能从明确的阵营、裁边范围和固定特效预测结果，并比较直接攻防与元素协作。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-factions-wand-ranges-and-starting-loadout.md#可能的同类参考)
 
-## 玩家会做什么
+<a id="当前疑问"></a>
 
-- 主要动作：分配实体词卡、选择锚点与出战法杖。
-- 次要动作：购得新杖后替换出战位置，免费重新分配可换镶嵌。
-- 决策点：覆盖哪些敌人、是否给元素预留生成与操控空间、如何使用有限副本。
-- 反馈：阵营与状态分列，范围预览明确实际格子，已分配词卡占用可见。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-factions-wand-ranges-and-starting-loadout.md#当前疑问)
 
-## 为什么可能好玩
+<a id="提案名称"></a>
 
-起始库存同时支持基础攻防和元素协作，玩家无需额外资源即可表达两类意图。三种固定形状和特效提供后续空间／节拍选择；是否有足够策略宽度仍待参数与遭遇验证。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-factions-wand-ranges-and-starting-loadout.md#提案名称)
 
-## 最小可验证原型
+<a id="最小可验证原型"></a>
 
-- 形式：未来冻结参数后的限定战前配置与单场观察；本轮仅文档与实体数量核对。
-- 核心问题：玩家能否从实际库存构句并预测边缘与借位范围。
-- 成功信号：两套示例不借卡；实际格子与预览一致；护生排除中立且不把棋盘外玩家拉入邻近。
-- 失败信号：依赖未持有词义、错误复制实体、误把状态来源当阵营或忽略边缘裁切。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-factions-wand-ranges-and-starting-loadout.md#最小可验证原型)
 
-## 可能的同类参考
+<a id="来源想法"></a>
 
-本次仅细化本项目已确认规则，没有新增外部产品依据。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-factions-wand-ranges-and-starting-loadout.md#来源想法)
 
-## 当前疑问
+<a id="核心玩法假设"></a>
 
-PG数值与商品、CG角色事件、RG实际遭遇和UX流程仍待裁决。原木杖是否额外出售只随RG-C01定，不由本提案替用户选择。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-factions-wand-ranges-and-starting-loadout.md#核心玩法假设)
+
+<a id="玩家会做什么"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-factions-wand-ranges-and-starting-loadout.md#玩家会做什么)
+
+<a id="阵营法杖范围与起始库存提案"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-factions-wand-ranges-and-starting-loadout.md#阵营法杖范围与起始库存提案)

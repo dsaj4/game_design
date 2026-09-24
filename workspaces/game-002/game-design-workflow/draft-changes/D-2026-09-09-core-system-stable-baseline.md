@@ -1,25 +1,27 @@
-# 稳定设计基线的当前适用范围
+# 稳定设计基线的当前适用范围（已迁移）
 
-状态：Accepted / Current Applicability。核心口径：Core Concept v0.6；证据：Hypothesis。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 记录用途与来源
+[打开新位置](../../../../yanzhou/sources/draft-changes/D-2026-09-09-core-system-stable-baseline.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-本页是当前适用文本，编写于2026-09-10；原始决定的措辞与当时状态由[原始记录](../../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/draft-changes/D-2026-09-09-core-system-stable-baseline.md)完整保存，不将本页视为当时的原文。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 当前适用文本
+<a id="当前适用文本"></a>
 
-玩家在战前使用完整战外词卡库存构句，每个组合定义一条循环法术，实体词卡同场独占分配。每条法术绑定一根法杖，法杖顺序决定同刻覆盖；对象引用按[SW02](D-2026-09-10-instance-and-conditional-binding.md)支持实例与条件绑定，分别固定所指身份或战前选择条件。两者均受词义与法杖允许范围约束，条件绑定可在每次释放匹配符合条件的新生对象；[SW02-A](D-2026-09-10-single-release-target-list.md)已确定完整法术开始时的直接名单，本次不追加、重选或补位，仍逐对象检查当前合法性与材料；排序与交互框架按[R01–R32](D-2026-09-10-semantic-world-executable-rules.md)执行；名词位可用复合短语，明确法术可改变对象位置、结构与未完成过程。
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-09-core-system-stable-baseline.md#当前适用文本)
 
-第0–10刻安排第一次冷却，周期由冷却和释放相加。第0刻开始、4刻冷却与1刻释放在第4刻首次释放。共享槽每刻仲裁释放开始，直接效果开始时结算一次，持续作用由过程或状态承载；未改期时按基础周期，明确法术可修改当前剩余冷却，最早进入下一刻调度；覆盖无效果、无特效，失效对象跳过但释放特效保留。生命伤害只影响当时正在冷却的法术，已结算结果保持。
+<a id="确认状态"></a>
 
-同刻为法术效果、敌人攻击、环境变化、状态效果；胜利立即停止其余处理。战后金币与法术产生的词卡整体领取或放弃。
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-09-core-system-stable-baseline.md#确认状态)
 
-## 细节与边界
+<a id="稳定设计基线的当前适用范围"></a>
 
-- [支撑系统与流派设计规则](../idea-materials/M-2026-09-07-supporting-design-rules.md)
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-09-core-system-stable-baseline.md#稳定设计基线的当前适用范围)
 
-具体接口和参数见[决定清单](../../docs/design-decisions-needed.md)；具体镶嵌、召唤绑定和数值不会因本页成为Accepted。
+<a id="细节与边界"></a>
 
-## 确认状态
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-09-core-system-stable-baseline.md#细节与边界)
 
-当前规则依据[核心构思](../core-concept.md)。本页整理受[文档统一授权](D-2026-09-10-current-design-alignment.md)约束，R01–R32的后续明确采纳已同步至本页。
+<a id="记录用途与来源"></a>
+
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-09-core-system-stable-baseline.md#记录用途与来源)

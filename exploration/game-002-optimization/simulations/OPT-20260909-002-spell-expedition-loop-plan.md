@@ -1,41 +1,35 @@
-# OPT-20260909-002 法术远征肉鸽循环最小验证计划
+# OPT-20260909-002 法术远征肉鸽循环最小验证计划（已迁移）
 
-- Project ID：`game-002-optimization`
-- 状态：`Planned`
-- 研究问题：[Q-20260909-001](../questions/Q-20260909-casting-strategy-depth.md)
-- 候选：[法术远征 Raw Idea](../idea-inbox/2026-09-09-spell-expedition-roguelike.md)，`H-20260909-002@v1`
-- 相关洞察：[法术体系的肉鸽模式匹配研究](../insights/2026-09-09-roguelike-mode-fit-analysis.md)
-- 背景包：`baseline-2026-09-09-001`
-- 评判框架：`emergent-strategy-game-framework@v0.1`
-- 验证形式：纸面连续节点推演；当前没有统一运行器
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 目标
+[打开新位置](../../../yanzhou/exploration/optimization/simulations/OPT-20260909-002-spell-expedition-loop-plan.md) · [言咒项目入口](../../../yanzhou/README.md) · [迁移说明](../../../yanzhou/governance/layout-migration-report.md)
 
-验证肉鸽节点、奖励和战斗施法是否形成同一条可解释的决策链，而不是验证完整平衡或最终玩家体验。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 最小输入
+<a id="opt-20260909-002-法术远征肉鸽循环最小验证计划"></a>
 
-- 3 场连续战斗：短准备高威胁、长准备低威胁、混合压力各 1 场。
-- 2 条分叉路线：一条提供词卡/表达性，一条提供恢复/经济；节点信息范围与现有公开规则一致。
-- 6 个占位词和 3 类奖励：改变可表达句子、改变时间风险、改变战后资源；具体词义和数值只作占位。
-- 1 次休整、1 次商店、1 次普通奖励拒收机会。
-- 2 种起始状态：生命紧张/金币充足，生命宽裕/手牌表达不足。
+[对应正文](../../../yanzhou/exploration/optimization/simulations/OPT-20260909-002-spell-expedition-loop-plan.md#opt-20260909-002-法术远征肉鸽循环最小验证计划)
 
-## 记录字段
+<a id="停止条件"></a>
 
-每个节点记录：可见信息、玩家可选行动、改变的词卡/时间/资源、下一场可表达句子、玩家选择、放弃的机会、战斗中的施法姿态、战后状态和选择理由。
+[对应正文](../../../yanzhou/exploration/optimization/simulations/OPT-20260909-002-spell-expedition-loop-plan.md#停止条件)
 
-## 成功与失败信号
+<a id="成功与失败信号"></a>
 
-- 成功：玩家能解释路线或奖励如何改变下一场的法术计划；两条路线在不同起始状态下各有合理用途；战斗选择能反馈到后续节点。
-- 失败：所有节点只按即时面板值选择；路线与施法计划互不影响；同一奖励或时间姿态在所有状态支配；玩家无法预测奖励的长期影响。
+[对应正文](../../../yanzhou/exploration/optimization/simulations/OPT-20260909-002-spell-expedition-loop-plan.md#成功与失败信号)
 
-## 停止条件
+<a id="最小输入"></a>
 
-- 三场不足以区分“改变表达性”和“改变时间风险”的优先级，转为单独问题，不扩大内容池。
-- 需要引入 F15 后置系统、局外成长或未经确认的事件规则才能继续。
-- 路线信息无法支撑任何可解释选择，说明先修路线信息/奖励契约，不继续堆节点。
+[对应正文](../../../yanzhou/exploration/optimization/simulations/OPT-20260909-002-spell-expedition-loop-plan.md#最小输入)
 
-## 结果去向
+<a id="目标"></a>
 
-本计划尚未执行。原始推演留在本目录，汇总观察写入 `insights/`；结果不能自动晋级 Raw Idea，也不会修改 game-002。
+[对应正文](../../../yanzhou/exploration/optimization/simulations/OPT-20260909-002-spell-expedition-loop-plan.md#目标)
+
+<a id="结果去向"></a>
+
+[对应正文](../../../yanzhou/exploration/optimization/simulations/OPT-20260909-002-spell-expedition-loop-plan.md#结果去向)
+
+<a id="记录字段"></a>
+
+[对应正文](../../../yanzhou/exploration/optimization/simulations/OPT-20260909-002-spell-expedition-loop-plan.md#记录字段)

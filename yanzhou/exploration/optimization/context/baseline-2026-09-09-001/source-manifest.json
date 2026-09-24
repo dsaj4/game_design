@@ -1,0 +1,150 @@
+{
+  "schema_version": "context-pack-manifest/v1",
+  "pack_id": "baseline-2026-09-09-001",
+  "source_project_id": "game-002",
+  "destination_project_id": "game-002-optimization",
+  "source_root": "workspaces/game-002",
+  "source_commit": "d0c36b9d464680a484f83b234db081b97124b701",
+  "profile_id": "game-002-context-baseline",
+  "profile_version": 2,
+  "profile_commit": "d0c36b9d464680a484f83b234db081b97124b701",
+  "profile_sha256": "0fe84d76b075512f5f777a3ffffc57d52133c40f74bfe4f57773b39abdecddbf",
+  "generated_at": "2026-09-09T08:42:03+08:00",
+  "scope": "core-design-only",
+  "sources": [
+    {
+      "source_path": "CONTEXT.md",
+      "package_path": "sources/CONTEXT.md",
+      "git_blob": "ca1ef737d284c1342bec24b90dfe1922f8dc40c9",
+      "sha256": "a4926fad417eb4ba874a94d3a958217965dbb6de3d949c21fec83a056b12d0c9",
+      "bytes": 72541,
+      "role": "terminology-with-historical-scope",
+      "source_status": "Terminology / Qualified terms",
+      "inclusion_reason": "Core design scope v2"
+    },
+    {
+      "source_path": "game-design-workflow/core-concept.md",
+      "package_path": "sources/game-design-workflow/core-concept.md",
+      "git_blob": "c9af68513b1bb795767f3370c093e582f99a08fa",
+      "sha256": "b95637b8f9c94a7e6ee0842b1dfee920bfa0bc4553ab85af59ef0fb5a60d3a65",
+      "bytes": 487,
+      "role": "formal-adoption-state",
+      "source_status": "Not Started / Unknown",
+      "inclusion_reason": "Core design scope v2"
+    },
+    {
+      "source_path": "game-design-workflow/decision-log.md",
+      "package_path": "sources/game-design-workflow/decision-log.md",
+      "git_blob": "e6b58008293a5cd275f31438d7d0e32e2f35efbe",
+      "sha256": "839a0b3256a0e36d958f87e0531f0aa8c24d2de1bfa9c91095f9ac7c48905e3a",
+      "bytes": 353,
+      "role": "decision-authority",
+      "source_status": "Workspace administration accepted; no gameplay accepted",
+      "inclusion_reason": "Core design scope v2"
+    },
+    {
+      "source_path": "game-design-workflow/idea-materials/README.md",
+      "package_path": "sources/game-design-workflow/idea-materials/README.md",
+      "git_blob": "4daa077a738478ec5dcb1e562fabd8f5783bf2d1",
+      "sha256": "7453d99dd8e9b9af4279356392a69d6a897ba07d660d993aba07e8c2a1c8652d",
+      "bytes": 27491,
+      "role": "qualified-material-index",
+      "source_status": "Qualified material index",
+      "inclusion_reason": "Core design scope v2"
+    },
+    {
+      "source_path": "game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md",
+      "package_path": "sources/game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md",
+      "git_blob": "85a297d3a7e3bac287f8dcef43def50c716088f9",
+      "sha256": "276b319db607257be0509b299dd5a282289be49a2c9afd6a3c96a21bf3d4a216",
+      "bytes": 29785,
+      "role": "qualified-work-baseline-not-accepted",
+      "source_status": "Qualified GDD Material / Hypothesis",
+      "inclusion_reason": "Core design scope v2"
+    },
+    {
+      "source_path": "game-design-workflow/idea-materials/M-2026-09-07-core-numerical-framework-v01.md",
+      "package_path": "sources/game-design-workflow/idea-materials/M-2026-09-07-core-numerical-framework-v01.md",
+      "git_blob": "3e6ea949593acb3f3e23c19b97fd5a10e2114043",
+      "sha256": "b37b909b2ef813b2f1ff8762bc3fc0f328219275cd378a28840ed4040a0ca4c1",
+      "bytes": 8409,
+      "role": "qualified-numerical-baseline-not-balanced",
+      "source_status": "Qualified GDD Material / Hypothesis",
+      "inclusion_reason": "Core design scope v2"
+    }
+  ],
+  "excluded": [
+    {
+      "path": "workspaces/game-002/game-design-workflow/idea-inbox/",
+      "reason": "Unqualified raw ideas excluded from core design baseline"
+    },
+    {
+      "path": "workspaces/game-002/research/06-prototype-insights/",
+      "reason": "Experimental evidence excluded from this core-only pack"
+    },
+    {
+      "path": "workspaces/game-002/docs/code-development-index.md",
+      "reason": "Implementation status excluded"
+    },
+    {
+      "path": "archive/; combat-lab/; semantic-card-engine/; external repositories",
+      "reason": "Cross-project and implementation isolation"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C-001",
+      "section": "当前设计状态",
+      "source_path": "game-design-workflow/core-concept.md",
+      "lines": "1-12",
+      "evidence_status": "Not Started / Unknown"
+    },
+    {
+      "id": "C-002",
+      "section": "项目背景与词汇",
+      "source_path": "CONTEXT.md",
+      "lines": "1-12",
+      "evidence_status": "Terminology / Qualified terms"
+    },
+    {
+      "id": "C-003",
+      "section": "已确认工作基线",
+      "source_path": "game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md",
+      "lines": "1-20",
+      "evidence_status": "Qualified / Hypothesis"
+    },
+    {
+      "id": "C-004",
+      "section": "数值设计输入",
+      "source_path": "game-design-workflow/idea-materials/M-2026-09-07-core-numerical-framework-v01.md",
+      "lines": "1-35",
+      "evidence_status": "Qualified / Hypothesis"
+    },
+    {
+      "id": "C-005",
+      "section": "管理边界",
+      "source_path": "game-design-workflow/decision-log.md",
+      "lines": "1-8",
+      "evidence_status": "Workspace administration accepted; no gameplay accepted"
+    }
+  ],
+  "conflicts": [],
+  "unknowns": [
+    "核心玩法、目标玩家、平台和发行范围",
+    "完整词表、敌人和流派内容",
+    "平衡与真人体验"
+  ],
+  "artifacts": [
+    {
+      "path": "context-pack.md",
+      "sha256": "90895b2085e01b63e119488a6835206f3a24d9523436034ab7c809f8078dffbb",
+      "bytes": 3244
+    },
+    {
+      "path": "validation.md",
+      "sha256": "63e063cf3b3bc4c384b8739dc4ce76ad2883687a1bd79dcd88b1bd6330a3b34e",
+      "bytes": 1174
+    }
+  ],
+  "validation_status": "Passed"
+}

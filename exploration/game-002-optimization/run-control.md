@@ -1,12 +1,11 @@
-# 优化探索运行控制
+# 优化探索运行控制（已迁移）
 
-Project ID：game-002-optimization。文档角色：Navigation / RunControl。更新：2026-09-23。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-当前没有正在执行的玩法研究、模拟或原型任务。本轮为用户授权的文档整理；未继承历史预算或自动启动历史推荐实验。
+[打开新位置](../../yanzhou/exploration/optimization/run-control.md) · [言咒项目入口](../../yanzhou/README.md) · [迁移说明](../../yanzhou/governance/layout-migration-report.md)
 
-- [方向选择与资格](directions/README.md)
-- [对比](directions/comparison.md)
-- [各轮记录](runs/README.md)
-- [整理前全文](history/pre-organization/run-control.md)
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-下一次启动研究时记录run_id、唯一问题、候选修订、实际来源提交、权限、预算、停止条件、证据产物和结果。未知项不由运行控制替代决策。
+<a id="优化探索运行控制"></a>
+
+[对应正文](../../yanzhou/exploration/optimization/run-control.md#优化探索运行控制)

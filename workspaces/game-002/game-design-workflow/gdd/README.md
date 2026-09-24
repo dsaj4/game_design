@@ -1,9 +1,11 @@
-# 言咒GDD入口
+# 言咒GDD入口（已迁移）
 
-Project ID：game-002。文档角色：Navigation。2026-09-23。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-现行唯一正文包：[RC1 / doc.1](current/README.md)，含[完整0–18章GDD](current/GDD.md)、7系统、内容、参数、来源与验证规格。原26组设计选择Accepted；完整体验/平衡验收NotRun，新增AUD-010待消歧。
+[打开新位置](../../../../yanzhou/design/legacy-index.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-旧全游戏路径与yanzhou-rc1目录保留兼容导航；第一人称战场草案保留历史入口，不构成另一套现行GDD。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-[统一模板](../../../../game-design-workflow/templates/gdd-writing-requirements-and-template.md) · [版本身份](current/baseline.md) · [整理前目录](../../docs/history/pre-organization/game-design-workflow/gdd/README.md)
+<a id="言咒gdd入口"></a>
+
+[对应正文](../../../../yanzhou/design/legacy-index.md#言咒gdd入口)

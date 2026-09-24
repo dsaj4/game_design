@@ -1,46 +1,19 @@
-> 历史快照：2026-09-23整理前正文；只用于来源追溯，不构成当前规则或新的审批要求。原文中的“当前”均按原日期理解。
-> 原路径：`workspaces/game-002/docs/control-center.md`。本副本仅调整相对链接，原字节SHA见整理清单。
+# game-002 项目总控（已迁移）
 
-# game-002 项目总控
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 当前首版：全游戏GDD RC1
+[打开新位置](../../../../../../yanzhou/history/pre-organization/docs/control-center.md) · [言咒项目入口](../../../../../../yanzhou/README.md) · [迁移说明](../../../../../../yanzhou/governance/layout-migration-report.md)
 
-[《言咒》全游戏GDD](../../../../game-design-workflow/gdd/GDD-2026-09-14-yanzhou-full-game.md)已按统一GDD-2模板完成；26／26设计缺口Closed。53实体逐卡、全参数／渠道、3杖、12遭遇、路线经济、四阶段／环境与保存交互都有Wiki正文。素材68／inbox47／FX134；设计Accepted，玩法与平衡Hypothesis／NotRun。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-后续开发以GDD为第一材料，矛盾再核对构思系统；用户已明确授权后续无需确认直接补齐，本版范围内不再逐项追问。旧创意和测试身份保留。
+<a id="game-002-项目总控"></a>
 
+[对应正文](../../../../../../yanzhou/history/pre-organization/docs/control-center.md#game-002-项目总控)
 
-2026-09-14当前：CG／PG／EG／RG／UX已按CORE-032–036采纳，26组设计缺口全部Closed。首版S2 25项＋E3 30项，合并53实体（34词／19可换件）；合格素材68份、inbox47份、效果134项。当前内容为RC1基准，设计Accepted，平衡与理解Hypothesis／NotRun。用户授权后续无需确认直接补齐；后续按已有范围自主完成并保留来源，不再逐项提问。
+<a id="先前入口与处理记录历史通用约束保留"></a>
 
-## 先前入口与处理记录（历史；通用约束保留）
+[对应正文](../../../../../../yanzhou/history/pre-organization/docs/control-center.md#先前入口与处理记录历史通用约束保留)
 
+<a id="当前首版全游戏gdd-rc1"></a>
 
-2026-09-14当前：HG01火冰宿主资格及HG02／WG01／SG01阵营、三种法杖实际范围、4杖／12词起点已采纳（CORE-030／031）；BR01–12及本场开头锁定重播保持。26组缺口中13组已关闭（DG01–10、17、19、23），CG／PG／EG／RG／UX新增取舍继续待审，再写新GDD。首版S2的25项＋E3的30项；素材63份、inbox47份、FX134项。规则证据Hypothesis／NotRun，本轮不启动玩法测试。
-
-EG／RG已实际补环境形态阈值、6普通＋首领路线、12遭遇、生命／休整与完整疲劳候选；PG按原木杖不售的新推荐至v0.2，历史取值保留。UX已补完整流程、观看时间、平台范围和功能资产；[26组总审](../../../pre-gdd-content-review-2026-09-14.md)已列明实际候选与剩余关闭动作。[VB验收输入](../../../pre-gdd-validation-inputs-2026-09-14.md)已补4库存断点、9配置、实际采购与相位／范围、跨战计划及局部事件预期，全部NotRun。当前待实际取舍与采用同步，不以候选已写代替采用或验证。
-
-当前工作入口：[写作前设计缺口清单](../../../pre-gdd-design-decisions-2026-09-13.md)。明确推荐成组落实；新出现且会改变结果的取舍单独确认。旧章节按对应日期追溯，不能用旧‘未确认’覆盖本批选择。
-
-当前可审阅：[RC01–12共同规则推荐](../../../../game-design-workflow/idea-inbox/2026-09-13-card-pool-rule-recommendations.md)。针对55项卡池的12组缺口给出完整推荐，状态Raw／待选择；核心、E3确认身份与ST01–04不变，新方案未测。
-
-最新检查：[新版卡池55项清晰度审查](../../../card-pool-clarity-audit-2026-09-13.md)。仍有12组共同接口缺项，优先来源合并，再处理复诵与支付／结果。审查建议未采纳，未开展新测试。
-
-日期：2026-09-13。状态：Active / Stable Design Baseline。正式核心Core Concept v0.6，完整玩法证据Hypothesis。当前进入两流派内容收束与局部数值验证。
-
-最新裁决：[每刻末状态与衰减](../../../../game-design-workflow/idea-materials/M-2026-09-13-end-tick-status-rulings.md)，G002-CORE-018；现行新规则未测，旧CAL为历史输入。
-
-此前完整盘点：[测试后构思系统全体状况](../../../design-system-status-2026-09-13.md)。
-
-| 范围 | 当前结论 | 入口 |
-| --- | --- | --- |
-| 基础规则 | 构句、循环、引用／名单、时序、攻防、收益与四类特征已形成基线；修饰词和固定镶嵌基础已采纳 | [核心](../../../../game-design-workflow/core-concept.md) |
-| 两流派 | 简易方向Qualified，S2新版25项Raw；元素E3的30项卡面／机制方向已确认、Qualified，参数与组合待补 | [设计决定](../../../design-decisions-needed.md) |
-| 战场 | 第一人称2×5和树草不二次传播已确认；整包GDD-1／BF-C仍Draft Change | [战场入口](../../../battlefield-and-environment.md) |
-| 库存 | 58份合格素材、39份inbox、134项效果；11提案、11评估、20拟修改、1份GDD，含历史而非全为待办 | [全体盘点](../../../design-system-status-2026-09-13.md) |
-| 数值测试 | TH-003完成29,404场；CAL三轮975,659场，r3找到通过限定验证的候选 | [测试交接](../../../test-handoff.md) |
-| 验证边界 | 新参数未采纳、未注册demo；全卡池、完整战场、真实经济与玩家体验未验收 | [CAL报告](../../../test-reports/CAL-2026-09-13-001-r3-run-01.md) |
-| 当前优先 | ST01–04三项裁决已采纳；收束内容／战场、每刻效果量，再定义压力与防御成本目标 | [全体盘点](../../../design-system-status-2026-09-13.md) |
-| 实现与美术 | 旧攻防demo、独立数值模型、3D E1 R2实验分别登记；3D小样NeedsRevision，E2–E4未运行 | [开发索引](../../../code-development-index.md) |
-| 继续后置 | 完整召唤／指挥、位移／结构、材料加工、复杂传播；草状态／法术本阶段后置 | [范围与待办](../../../design-decisions-needed.md) |
-
-后续测试按选定规则另立固定输入；本轮完成盘点，不启动新实验。历史暂缓措辞仅表示当时状态，不覆盖已完成的TH-003与CAL。
+[对应正文](../../../../../../yanzhou/history/pre-organization/docs/control-center.md#当前首版全游戏gdd-rc1)

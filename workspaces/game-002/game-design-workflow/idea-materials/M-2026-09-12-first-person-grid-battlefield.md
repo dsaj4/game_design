@@ -1,85 +1,51 @@
-# 第一人称格子战场与有限环境变化
+# 第一人称格子战场与有限环境变化（已迁移）
 
-当前补充（2026-09-13）：S2整池及首版范围已选，空间与出生规则已确认，详见[首版素材](M-2026-09-13-first-release-content-scope.md)；原复诵／来源／过程等共同缺项按[RC01–12](M-2026-09-13-card-pool-rule-rulings.md)关闭。其余未知继续按[DG清单](../../docs/pre-gdd-design-decisions-2026-09-13.md)，新GDD尚未写作。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-状态：Qualified GDD Material。证据Hypothesis。用户明确方向与候选补充分开；完整系统处于Draft Change，未替换核心v0.6。
+[打开新位置](../../../../yanzhou/sources/materials/M-2026-09-12-first-person-grid-battlefield.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-## 素材控制
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-| 字段 | 内容 |
-| --- | --- |
-| 素材ID | MAT-2026-09-12-first-person-grid-battlefield |
-| 素材类型 | System / Mechanic / Presentation |
-| 来源inbox | [原话、附件与传播确认](../idea-inbox/2026-09-12-first-person-grid-battlefield.md) |
-| 资格日期／方法 | 2026-09-12；grill-with-docs，查文档并确认唯一传播来源 |
-| 当前证据 | Hypothesis；无玩法／数值／实现新证据 |
-| 负责人 | 用户决定玩法；设计agent整理与维护 |
+<a id="2026-09-14-全游戏gdd使用记录"></a>
 
-## 规范化表述
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-12-first-person-grid-battlefield.md#2026-09-14-全游戏gdd使用记录)
 
-第一人称面对战场，战场由前后两行、每行五格组成。敌人默认居中，敌人、环境占位体和法术创建的占位对象使用这两行的位置；格子地面和环境对象分别具有可操作的物理属性。释放火焰可在敌人附近生成真实火焰元素，火焰按规则向附近对象施加燃烧，树和草地达到阈值后进入燃烧、烧焦形态。只有火焰向周围施加，树和草地不继续传播。
+<a id="与当前构思的关系"></a>
 
-“环境单位”在本轮规范化为环境占位体，不因叫单位而自动拥有生命、护甲或攻击。点燃是动作，燃烧是附着状态；环境形态是该对象的结果，不另造第二个同义状态。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-12-first-person-grid-battlefield.md#与当前构思的关系)
 
-## 设计对象与GDD映射
+<a id="使用记录"></a>
 
-- 作用对象：战场视角／格子占位、物性、生成位置和环境变化。
-- 目标：[GDD-2026-09-12-first-person-grid-battlefield](../gdd/GDD-2026-09-12-first-person-grid-battlefield.md)。
-- 章节：3–5战场系统与时序、7内容规则、9遭遇、14–16验证与风险。
-- 完成度目标：GDD-1规则草案，参数未冻结、不能直接执行批测。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-12-first-person-grid-battlefield.md#使用记录)
 
-## 玩家处境、行为与反馈
+<a id="未知项与验证"></a>
 
-- 战前看清前后排、空格、地面、敌人和环境属性；按当前词卡权限配置法术与法杖。
-- 战中观察火焰出现、邻近作用、燃烧积累、树／草地形态改变及火焰结束。
-- 同一格的树与草地分别展示状态；格子无占位对象时地面仍存在。
-- 预期价值：理解“在哪里生成”和“附近有什么”会影响结果，能解释失败与空间代价；不新增战中移动或点选补目标。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-12-first-person-grid-battlefield.md#未知项与验证)
 
-## 与当前构思的关系
+<a id="机制行为体验假设"></a>
 
-- 复用：实体卡与共享释放槽、法杖范围、实例／条件绑定、一次名单、逐对象复查、状态重施、完整事件与终局。
-- 有限扩展：格子地面成为独立可作用对象，生成物占位，火焰有明示的自主邻近施加。
-- 不自动扩展：位移／支撑／结构、材料加工、环境单位攻击、燃烧树草的二次传播、完整召唤与冰雷元素反应。
-- 相关素材：简单对象交互、表现、召唤容量、GR v1和FX-003／010。
-- 推荐补充由agent受用户“补全完善”委托提出，其完整输入—输出关系、体验功能及验证风险已明确，具体规则在GDD标BF-C01–15；不是用户已采纳事实。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-12-first-person-grid-battlefield.md#机制行为体验假设)
 
-## 机制—行为—体验假设
+<a id="玩家处境行为与反馈"></a>
 
-| Mechanics | Dynamics | Aesthetics |
-| --- | --- | --- |
-| 可读格子、分开的地面和占位体、有限邻近作用及阈值变化 | 玩家比较出生空间、可燃对象、影响范围与直接攻击的取舍 | 法术能改变眼前世界，结果可预测且有持续反馈 |
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-12-first-person-grid-battlefield.md#玩家处境行为与反馈)
 
-## 未知项与验证
+<a id="第一人称格子战场与有限环境变化"></a>
 
-| 未知／风险 | 影响 | 下一步与成功信号 | 失败信号 |
-| --- | --- | --- | --- |
-| 候选占位与出生规则是否易懂 | 判断法术为何生成失败 | 审阅BF-C01–04，预测同一场景唯一落点 | 以为格子无限叠物或场满仍能生成 |
-| 环境阈值与燃烧量 | 阶段变化与时间成本 | 定义符号关系，数值以后冻结；玩家能区分受火／燃烧／烧焦 | 烧焦后反复重置，状态消失被误认为对象消失 |
-| 火焰作用事件与旧名单 | 连锁与时序歧义 | 每次脉冲独立定名单，树草不派生传播，终局停止 | 同刻递归或靠循环产生无限对象 |
-| 两排视觉遮挡／战前选择价值 | 是否看得清并有实际取舍 | 低成本格子说明图和后续玩家预测任务 | 后排不可识别，位置只有装饰意义 |
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-12-first-person-grid-battlefield.md#第一人称格子战场与有限环境变化)
 
-## 资格确认清单
+<a id="素材控制"></a>
 
-- [x] 原话和附件可追溯。
-- [x] 设计对象与章节明确。
-- [x] 玩家处境与信息明确。
-- [x] 行为／可见改变／约束明确。
-- [x] 预期价值明确，证据仍Hypothesis。
-- [x] 与既有规则及范围差异明确。
-- [x] 未知项与验证方式明确。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-12-first-person-grid-battlefield.md#素材控制)
 
-## 使用记录
+<a id="规范化表述"></a>
 
-| 日期 | 去向 | 范围／状态 |
-| --- | --- | --- |
-| 2026-09-12 | [GDD](../gdd/GDD-2026-09-12-first-person-grid-battlefield.md)、[Proposal](../idea-proposals/P-2026-09-12-first-person-grid-battlefield.md) | Included：方向及明确标记的候选补充；用户原话与传播选择不再重复询问 |
-| 2026-09-12 | [效果登记](../../docs/effect-registry/catalog.md)、测试交接r9 | 复用FX-003／010并登记FX-060–062；只积累，未运行 |
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-12-first-person-grid-battlefield.md#规范化表述)
 
+<a id="设计对象与gdd映射"></a>
 
-## 2026-09-14 全游戏GDD使用记录
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-12-first-person-grid-battlefield.md#设计对象与gdd映射)
 
-| 日期 | 目标与处理 | 当前适用边界 |
-| --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/04-elements-and-environment.md) | 保留空间、可见变化与宿主资格；具体出生、阈值、身份、固定名单依CORE-020–034替换旧BF候选。 |
+<a id="资格确认清单"></a>
 
-本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-12-first-person-grid-battlefield.md#资格确认清单)

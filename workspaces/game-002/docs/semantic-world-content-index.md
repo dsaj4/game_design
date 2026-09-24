@@ -1,24 +1,27 @@
-# 语义世界内容入口（兼容入口）
+# 语义世界内容入口（兼容入口）（已迁移）
 
-文档角色：Navigation。现行基准RC1 / doc.1。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-- [当前正文](../game-design-workflow/gdd/current/systems/01-grammar.md)
-- [整理前历史正文](history/pre-organization/docs/semantic-world-content-index.md)
+[打开新位置](../../../yanzhou/design/systems/01-grammar.md) · [言咒项目入口](../../../yanzhou/README.md) · [迁移说明](../../../yanzhou/governance/layout-migration-report.md)
 
-此页不维护玩法规则。固定历史研究应使用其来源提交或原始背景包；导航至当前正文不改变历史证据适用版本。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 历史章节兼容索引
+<a id="历史章节兼容索引"></a>
 
-旧章节名称只用于兼容来源链接；当前正文以各条链接的适用范围为准。
-
-<a id="语义世界内容入口"></a>
-
-- 语义世界内容入口 → [原版本章节](history/pre-organization/docs/semantic-world-content-index.md#语义世界内容入口)
-
-<a id="当前内容边界"></a>
-
-- 当前内容边界 → [原版本章节](history/pre-organization/docs/semantic-world-content-index.md#当前内容边界)
+[对应正文](../../../yanzhou/design/systems/01-grammar.md)
 
 <a id="后续组织"></a>
 
-- 后续组织 → [原版本章节](history/pre-organization/docs/semantic-world-content-index.md#后续组织)
+[对应正文](../../../yanzhou/design/systems/01-grammar.md)
+
+<a id="当前内容边界"></a>
+
+[对应正文](../../../yanzhou/design/systems/01-grammar.md)
+
+<a id="语义世界内容入口"></a>
+
+[对应正文](../../../yanzhou/design/systems/01-grammar.md)
+
+<a id="语义世界内容入口兼容入口"></a>
+
+[对应正文](../../../yanzhou/design/systems/01-grammar.md)

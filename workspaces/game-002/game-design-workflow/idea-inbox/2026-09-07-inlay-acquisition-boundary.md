@@ -1,39 +1,35 @@
-# 镶嵌获取与收益边界
+# 镶嵌获取与收益边界（已迁移）
 
-状态：Raw Idea / Unqualified；已列入当前镶嵌待讨论，具体获取未采纳。证据：Hypothesis。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 原始表达与来源
+[打开新位置](../../../../yanzhou/sources/inbox/2026-09-07-inlay-acquisition-boundary.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-[原始记录](../../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-combat-item-rewards-and-settlement.md)保存完整规则与确认来源。[来源入口](2026-09-06-flexible-grammar-and-spell-types.md)保留该主题的当前入口。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 当前设计对象
+<a id="使用记录"></a>
 
-镶嵌获取与收益边界。当前核心为[Core Concept v0.6](../core-concept.md)。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-07-inlay-acquisition-boundary.md#使用记录)
 
-## 可复用候选与适用边界
+<a id="原始表达与来源"></a>
 
-法杖镶嵌是战前配置的一部分，影响范围或明确特殊效果；获取渠道、资源数量及持有资格尚未确定。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-07-inlay-acquisition-boundary.md#原始表达与来源)
 
-当前战斗收益按金币与法术产生的词卡整体处理。镶嵌奖励不因这个收益流程自动成立。
+<a id="可复用候选与适用边界"></a>
 
-已明确的商店节点、固定货架和足额购买可作为获取流程的支撑素材；镶嵌是否出售须在对应资源规则中确认。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-07-inlay-acquisition-boundary.md#可复用候选与适用边界)
 
-当前按[用户最新顺序](2026-09-11-modifier-card-system.md)在修饰词之后补镶嵌，获取细则已按[本轮授权](2026-09-12-wand-inlay-system.md)形成完整候选，尚未采纳；公开固定货架、同种候选去重、一层事件响应及计数每战重置只作为届时评议方案。当前不设定额外奖励结构或数量。
+<a id="当前设计对象"></a>
 
-## 玩家影响与预期价值
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-07-inlay-acquisition-boundary.md#当前设计对象)
 
-为战前配置与战后成长提供可解释的输入；具体采用哪些参数或获取规则尚待用户决定。
+<a id="玩家影响与预期价值"></a>
 
-## 资格缺口与验证
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-07-inlay-acquisition-boundary.md#玩家影响与预期价值)
 
-缺口：镶嵌是否进入商店和战斗收益、独立选择是否允许。 关联[C05](../../docs/design-decisions-needed.md)。补齐决定前不能作为正式设计结论。
+<a id="资格缺口与验证"></a>
 
-验证：把镶嵌资源放入一次完整战后流程，检查是否改变整体领取决定。 成功信号为所有关键情境有唯一可解释结果；失败信号为必须依赖未确认假设。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-07-inlay-acquisition-boundary.md#资格缺口与验证)
 
-## 使用记录
+<a id="镶嵌获取与收益边界"></a>
 
-2026-09-10：C05的暂缓范围已采纳；获取细则仍为Raw Idea / Unqualified / Parked，未进入GDD或完整机制采纳。
-
-2026-09-11：用户将镶嵌提至当前系统设计顺序，见[设计入口](../../docs/modifier-and-inlay-design.md)。本来源解除讨论排期上的搁置，资格缺口仍在，未晋级为获取机制。
-
-2026-09-12：本来源作为对照，由[新原始表达](2026-09-12-wand-inlay-system.md)补齐设计对象、行为、体验及方案；[新素材](../idea-materials/M-2026-09-12-wand-inlay-system.md)正式记录商店获取与不新增战后镶嵌收益的候选。源记录不转写成早先已采纳机制。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-07-inlay-acquisition-boundary.md#镶嵌获取与收益边界)

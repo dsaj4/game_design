@@ -1,31 +1,19 @@
-# 背景适配与主系统吸收
+# 背景适配与主系统吸收（已迁移）
 
-Project ID：game-002-optimization。文档角色：ResearchComparison / AdoptionTrace。2026-09-23 / doc.1。适配判断Research / Provisional，采纳只按目标决策记录。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-| 方向批次 | 实际背景 | 当前RC1适配要求 |
-| --- | --- | --- |
-| DIR-001–003 | 固定包baseline-2026-09-09-001，d0c36b9d | 旧战斗和手牌假设逐项重审；003另有已晋级和吸收范围 |
-| DIR-004–008 | 同一旧包＋本地时间背包素材/范围决定 | 旧总卡容量、命中取消语义不直接覆盖现行规则 |
-| DIR-009–018 | 用户显式RC1，87840a2 | 沿各原研究来源清单；当前doc.1仅改变文档组织 |
-| DIR-019–022 | 用户显式RC1，f5a32c3 | 原路线、经济与战间规则作为对照；新增循环仍Raw |
-| DIR-023–027 | 用户显式RC1，97a1bfc | 原始GIC档案的事实和Agent转化分开；不据整理晋级 |
+[打开新位置](../../../yanzhou/exploration/optimization/directions/baseline-and-absorption.md) · [言咒项目入口](../../../yanzhou/README.md) · [迁移说明](../../../yanzhou/governance/layout-migration-report.md)
 
-完整提交号在每个方向页。旧背景包原样保留；这些显式来源补充是各轮授权，不代表包已更新，也不授权未来任务读取全部方向。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 已有吸收逐项核对
+<a id="后续吸收合同"></a>
 
-| 来源方向／内容 | 目标来源 | 现行适用情况 |
-| --- | --- | --- |
-| DIR-003战前编排、独立循环、实体独占 | G002-CORE-002；后续CORE-005/006 | 已有部分吸收；以当前SYS-002/003为执行依据 |
-| DIR-003同刻覆盖 | CORE-006及后续开始槽规则 | 保留后配置优先的开始仲裁；不能据旧文取消所有正在释放的过程 |
-| DIR-003旧命中取消、敌人先处理 | CORE-006及后续RC/BR | 当前玩家释放、敌人行动、环境、状态四阶段；实际生命伤害打断冷却，不能整体照搬旧TS文本 |
-| DIR-003编入词卡总量限制 | CORE-006/031，SG01 | 当前完整库存构句、最多4杖出战；旧总张数容量不是当前默认 |
-| DIR-008视觉释放触发独有音乐 | 本地合格素材 | 仅Qualified / Hypothesis；未发现将此音乐方案采纳至主系统的决定 |
-| DIR-006战后重组与DIR-002路线主题 | RC1已有相关权限与结构 | 功能重合不证明这些Raw候选已被采纳；保留原状态 |
-| DIR-001/004–007/009–027其余增量 | 无对应正式回写采纳记录 | Raw / Unqualified；不得因相似、已画示意或研究排序升级 |
+[对应正文](../../../yanzhou/exploration/optimization/directions/baseline-and-absorption.md#后续吸收合同)
 
-[目标决策记录](../../../workspaces/game-002/game-design-workflow/decision-log.md) · [目标现行设计](../../../workspaces/game-002/game-design-workflow/gdd/current/README.md)。本表只作本次管理核对，不复制完整主系统背景。
+<a id="已有吸收逐项核对"></a>
 
-## 后续吸收合同
+[对应正文](../../../yanzhou/exploration/optimization/directions/baseline-and-absorption.md#已有吸收逐项核对)
 
-方向页登记候选修订 → 本地资格确认 → 提案/评估与回写差异 → 目标项目复审和Draft Change → 明确采纳及决策ID → 同步本表。记录“采纳哪些、未采纳哪些、替换哪版、何种证据”；不把方向整体改为Accepted来掩盖局部范围。
+<a id="背景适配与主系统吸收"></a>
+
+[对应正文](../../../yanzhou/exploration/optimization/directions/baseline-and-absorption.md#背景适配与主系统吸收)

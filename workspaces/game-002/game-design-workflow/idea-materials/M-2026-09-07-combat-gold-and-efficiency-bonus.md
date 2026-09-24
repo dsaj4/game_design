@@ -1,92 +1,51 @@
-# 战斗金币与耗时奖励
+# 战斗金币与耗时奖励（已迁移）
 
-状态：Qualified GDD Material。证据：Hypothesis。资格覆盖下列明确表述；具体后置机制与参数保持 Unknown，素材可引用不等于完整系统已采纳或通过验证。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 素材控制
+[打开新位置](../../../../yanzhou/sources/materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-| 字段 | 内容 |
-| --- | --- |
-| 素材 ID | MAT-2026-09-07-combat-gold-and-efficiency-bonus |
-| 素材类型 | Mechanic / System / Constraint |
-| 来源 inbox | [来源入口](../idea-inbox/2026-09-07-shop-and-time-based-gold.md) |
-| 原始确认 | [原始记录](../../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md) |
-| 资格确认日期 | 2026-09-07；适用范围复核2026-09-10 |
-| 确认方式 | grill-with-docs：依据用户确认记录、当前核心及文档统一授权复核 |
-| 当前证据状态 | Hypothesis |
-| 负责人 | 用户决定设计，agent维护表述与来源 |
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 规范化表述
+<a id="2026-09-14-全游戏gdd使用记录"></a>
 
-每个战斗节点首次有效胜利结算一次遭遇预设基础金币，另计战斗时间奖金和明确法术效果产生的金币。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md#2026-09-14-全游戏gdd使用记录)
 
-基础金币不随久战减少，不按单个敌人重复发放。时间奖金有上限且最低为零，按预设效率基准计算，不依玩家构筑临时抬高基准。
+<a id="与当前构思的关系"></a>
 
-耗时从本场第0刻到胜利判定，统计共用战斗时间实际经过量；并行法术和敌人安排不重复累加，战前思考与战后选择不计入。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md#与当前构思的关系)
 
-金币与法术产生的词卡组成一个收益包，整体领取或整体放弃；产生金额不等于已经加入玩家持有余额。
+<a id="使用记录"></a>
 
-已领取金币跨本局战斗、休整和商店保留，可储蓄购物；新局零金币，上局余额不继承。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md#使用记录)
 
-首次商店前保留基础收入应能支持一次合格基础购买；时间奖金提供额外余量。具体收入、奖金曲线与商品价格待验证。
+<a id="战斗金币与耗时奖励"></a>
 
-产金效果须明示有限触发或其他实质成本，无限等待本身不构成成本。具体次数、金额与成本重新设计，并与耗时奖金、生命损耗和商店价格一同验证，防止无代价延长战斗持续获利。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md#战斗金币与耗时奖励)
 
-按[GR v1](M-2026-09-11-global-rule-boundaries.md)的GR09，产金卡须明示次数归属、确定／概率、失败尝试及费用时点；先校验资格再按明确规则尝试，失败不默认重试至成功。首批优先确定产出；疲劳只保障终局方向，不能代替有限来源和实质成本。
+<a id="未知项与验证"></a>
 
-## 设计对象与 GDD 映射
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md#未知项与验证)
 
-- 作用对象：战斗金币与耗时奖励。
-- 目标 GDD：尚未创建；作为相应系统、规则边界及验证章节的素材。
-- 对应完成度：GDD-0 / GDD-1 素材输入；具体内容与参数需另行确认。
+<a id="机制行为体验假设"></a>
 
-## 玩家处境、行为与反馈
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md#机制行为体验假设)
 
-- 玩家处境：依据库存、场景与公开攻击安排进行战前选择，观察自动战斗，再处理战后及路线决定。
-- 玩家可见信息：本素材规范化表述中的条件、对象和结果；具体界面呈现待验证。
-- 行为与反馈：通过上述规则判断资源、时间或对象关系；验证情境为“比较同一遭遇不同胜利时刻及整体拒收，核对产生额、持有额和购入资格。”
-- 预期价值：玩家能解释选择如何改变后续结果；实际策略价值仍为Hypothesis。
+<a id="玩家处境行为与反馈"></a>
 
-## 与当前构思的关系
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md#玩家处境行为与反馈)
 
-- 核心依据：[Core Concept v0.6](../core-concept.md)，支持战前配置、自动循环与可推导语义。
-- 相关系统：[素材索引](README.md)按主题列出依赖；[领域词汇](../../CONTEXT.md)统一概念。
-- 已确认处理范围：[C06](../../docs/design-decisions-needed.md)。
-- 明确边界：本文不补齐未决的具体效果、参数、资源权限或额外玩家操作，也不作为实现完成证明。
+<a id="素材控制"></a>
 
-## 机制—行为—体验假设
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md#素材控制)
 
-| 规则 | 可能行为 | 目标体验 |
-| --- | --- | --- |
-| 每个战斗节点首次有效胜利结算一次遭遇预设基础金币，另计战斗时间奖金和明确法术效果产生的金币。 | 依据明确约束比较方案及其后果 | 可预测且可解释的选择 |
+<a id="规范化表述"></a>
 
-## 未知项与验证
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md#规范化表述)
 
-| 未知或风险 | 影响 | 下一步 | 成功信号 | 失败信号 |
-| --- | --- | --- | --- | --- |
-| 每个产出效果的次数、金额与成本重新设计；产出资格前置原则已确认。 | 影响具体内容与体验 | 先按已确认规则审查情境，后置机制在实际推进时独立设计；参数按数值重设计任务验证 | 结果唯一且可解释 | 依赖未设计参数或产生隐含权限 |
+<a id="设计对象与-gdd-映射"></a>
 
-## 资格确认清单
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md#设计对象与-gdd-映射)
 
-- [x] 原始表达与用户确认可追溯。
-- [x] 设计对象与章节用途明确。
-- [x] 玩家处境或设计功能明确。
-- [x] 当前规范化表述的行为、可见影响或约束明确。
-- [x] 预期价值明确，验证状态如实保留。
-- [x] 与核心及处理范围的关系明确。
-- [x] 未知项与下一步验证方式明确。
+<a id="资格确认清单"></a>
 
-## 使用记录
-
-| 日期 | 目标 | 处理结果 | 边界 |
-| --- | --- | --- | --- |
-| 2026-09-10 | [设计文档统一](../draft-changes/D-2026-09-10-current-design-alignment.md) | Included：明确表述部分 | 原始使用与确认记录从来源快照追溯；当前处理范围见接口采纳记录，尚无GDD |
-| 2026-09-10 | [接口采纳](../draft-changes/D-2026-09-10-accept-design-decisions.md) | Included：C06处理范围 | 用户采用推荐；参数重设计，后置机制细则仍为Unknown |
-
-
-## 2026-09-14 全游戏GDD使用记录
-
-| 日期 | 目标与处理 | 当前适用边界 |
-| --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/06-parameters-and-economy.md) | 纳入整体收益、休整、商品资格、同名额度与交易；首版战斗只给金币，价格／阶段／数量用PG，掉卡法术后置。 |
-
-本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md#资格确认清单)

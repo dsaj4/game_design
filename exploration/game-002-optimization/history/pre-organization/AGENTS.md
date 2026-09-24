@@ -1,13 +1,13 @@
-> 历史快照：2026-09-23整理前正文；只用于来源追溯，不构成当前规则或新的审批要求。原文中的“当前”均按原日期理解。
-> 原路径：`exploration/game-002-optimization/AGENTS.md`。本副本仅调整相对链接，原字节SHA见整理清单。
+# 优化项目约束（已迁移）
 
-# 优化项目约束
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-继承[探索区规则](../../../AGENTS.md)。项目根 P 是本目录，Project ID 固定为 `game-002-optimization`。
+[打开新位置](../../../../yanzhou/exploration/optimization/history/pre-organization/AGENTS.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-- 先读 README 和 context/README。无当前背景包时只能先补问题或按规则生成包，不能从实时全库拼接隐式背景。
-- 生成包时允许读取[配置](../../context/generation-profile.json)列出的 game-002 文件的固定提交版本；普通探索仅使用已激活包。不得顺着索引链接抓取 inbox、归档或外部代码。
-- 原游戏已确认工作基线、Hypothesis 与正式 Accepted 分开记录。来源资格不自动晋级为本项目的新设计资格。
-- 新候选写入本地 idea-inbox；基线差异必须写清保留前提、修改对象、玩家影响和验证方式。
-- 只能写入本目录；没有本轮明确管理任务时，不写共享注册表、另一探索项目或 game-002。
-- 回写须先有本地合格素材、提案/评估和拟修改，再在 game-002 进行适用性复审及正式 Draft Change；用户已经明确采纳的决定不重复索要许可。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
+
+<a id="优化项目约束"></a>
+
+[对应正文](../../../../yanzhou/exploration/optimization/history/pre-organization/AGENTS.md#优化项目约束)
+
+本旧目录停止新增内容。默认主系统按新项目AGENTS映射；优化任务仍只读选定方向，不能借搬迁跨越项目边界。原有未提交文件由其原任务继续处理，不覆盖、不代为提交。

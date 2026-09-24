@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-19",
+  "localMarkdownLinksChecked": 34,
+  "missingLinks": [],
+  "images": [
+    {
+      "file": "images/01-battle.png",
+      "bytes": 2490408,
+      "width": 1672,
+      "height": 941,
+      "sha256": "d6441866c3d1d514e291589b690551319ee77b894afd11252d980c937f992f19"
+    },
+    {
+      "file": "images/02-assembly.png",
+      "bytes": 2530534,
+      "width": 1672,
+      "height": 941,
+      "sha256": "16317daaae5239a8059440a2c6ea25c891f45c58b6ef12cb1f1a0d75cb48e16e"
+    },
+    {
+      "file": "images/03-route-v2.png",
+      "bytes": 2309169,
+      "width": 1672,
+      "height": 941,
+      "sha256": "8225b7bc524a81d6964eb601437893678a077976684e7f9e738f8d493b2a41e5"
+    },
+    {
+      "file": "images/03-route.png",
+      "bytes": 2600971,
+      "width": 1672,
+      "height": 941,
+      "sha256": "b80a98352a3537a5731048f4f27da58e2b3eed7634cc509a0952e48862fc1ba4"
+    },
+    {
+      "file": "images/04-inscryption-study.png",
+      "bytes": 2702009,
+      "width": 1672,
+      "height": 941,
+      "sha256": "513a43451ca2f32d9e4b37fd6d7fd9e351a9518554ea1363a0222baf0bde0538"
+    },
+    {
+      "file": "images/05-noita-study-v2.png",
+      "bytes": 2187461,
+      "width": 1672,
+      "height": 941,
+      "sha256": "2865c7cd7ddfa7c4100398dfa71124cc1b4141db3636611d3caa1eba81eef645"
+    },
+    {
+      "file": "images/05-noita-study.png",
+      "bytes": 2565430,
+      "width": 1672,
+      "height": 941,
+      "sha256": "9b5d54b7ccd4c97bdba3e1709b06d8f02c6e8c7c9c6ebee65b707f53a1ee9e1e"
+    },
+    {
+      "file": "images/06-slay-the-spire-study.png",
+      "bytes": 2306305,
+      "width": 1672,
+      "height": 941,
+      "sha256": "5129420fdb99e35eadf46b30e88537efcc36a33c14c5d2ae5f611af268d1c3b4"
+    }
+  ],
+  "finalImageCount": 6,
+  "retainedFirstDraftCount": 2,
+  "gameplayTestsRun": false
+}

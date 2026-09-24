@@ -1,0 +1,166 @@
+> 文档角色：HistoricalAudit。以下为原日期的审查及修订记录；正文中的“当前”“待审”“Closed”均限定在其版本和范围。2026-09-23整理未改变历史证据。现行问题见[问题登记](../governance/conflict-register.md)，现行规则见[GDD](../design/README.md)。
+
+# 效果来源审查记录
+
+2026-09-14当前：CG／PG／EG／RG／UX已按CORE-032–036采纳，26组设计缺口全部Closed。首版S2 25项＋E3 30项，合并53实体（34词／19可换件）；合格素材68份、inbox47份、效果134项。当前内容为RC1基准，设计Accepted，平衡与理解Hypothesis／NotRun。用户授权后续无需确认直接补齐；后续按已有范围自主完成并保留来源，不再逐项提问。
+
+## 先前入口与处理记录（历史；通用约束保留）
+
+
+## 2026-09-14 HG02／WG01／SG01明确采纳
+
+用户本次“确认”回应此前阵营／三种范围／4杖12词的成组问题，晋级[合格素材](../sources/materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)并按CORE-031采纳。FX-026／027／079／106更新r3，旧版本保留；共同创建阵营适用于元素创建、环境转化及抵消补生，不改变其事件与继承顺序。原木杖商品仍由RG-C01裁决；CG／PG／EG／RG／UX新选择未升级。当前63素材、47inbox、134FX，13／26组DG已关闭。仅静态实体／范围及文档检查，玩法证据仍Hypothesis／NotRun。
+
+## 2026-09-14 VB规范化验收输入
+
+[VB输入](../development/inputs/pre-gdd-2026-09-14.md)补4库存断点、9套构筑、固定采购／相位／范围、720项单场计划、36边界输入、20整局计划、20局部事件预期及6项成长诊断，全部NotRun。沿CORE／RC／BR与待审CG／PG／EG／RG／UX，不新增FX ID或提升采纳／证据状态。旧NF与RG首领损耗目标差异明示待裁决；当前素材62份、inbox47份、FX134项，关闭10／26。
+
+## 2026-09-14 UX功能规格与总审
+
+新增[UX完整旅程／体验／资产候选](../sources/inbox/2026-09-14-interface-platform-and-experience.md)及[26组内容总审](../history/audits/pre-gdd-content-review-2026-09-14.md)。UX沿现有卡池展示规则，新增开战／保存／观看等产品取舍仍Raw；没有新增词效或FX ID，没有修改现行效果语义。当前素材62份、inbox47份、FX134项，关闭10／26；规范化未来验收输入继续补，未运行新玩法测试。
+
+## 2026-09-14 环境与整局候选
+
+新增[EG环境表](../sources/inbox/2026-09-14-environment-forms-and-thresholds.md)与[RG整局表](../sources/inbox/2026-09-14-run-route-encounters-and-fatigue.md)。环境形态关联既有FX-061／062／065，疲劳作为全局规则沿BR08与独立疲劳素材，不误挂到FX-030有限产金；EG／RG新内容仅登记候选引用；另将FX-061／062同步至r2以对齐早已采纳的CORE-022–028／030，保留相反的BF r1原文；不提升新候选的素材资格或证据。PG的原木杖商品按RG-C01修为v0.2且保留旧推荐。素材62份、inbox46份、FX134项。没有新GDD或玩法测试。
+
+## 2026-09-14 PG单卡参数与渠道候选
+
+新增[PG v0.1](../sources/inbox/2026-09-14-first-release-parameters-and-channels.md)，覆盖S2／E3共55个设计ID对应的34词与19镶嵌；源FX映射沿原S2／E3与CG，不新增FX ID、不升级已采纳修订或测试证据。新增Q-A／PG-Z01及时间／渠道细化保持Raw候选。素材62份、inbox44份、FX134项；全局参数仍未成套，不启动玩法测试或新GDD。
+
+## 2026-09-14 宿主资格与新内容推荐
+
+用户采用[HG01资格表](../sources/inbox/2026-09-14-host-range-starting-content.md)，仅该部分晋级[正式素材](../sources/materials/M-2026-09-14-element-status-host-eligibility.md)并按CORE-030采纳。FX-003/r8、004/r7、065/r8已同步；共134个效果ID。HG02／WG01／SG01与[CG完整接口](../sources/inbox/2026-09-14-card-interface-completion.md)仍为Raw推荐，原始选择范围不扩大。素材62份、inbox43份；无新GDD与新玩法测试。
+
+本轮沿同一[元素来源](../sources/inbox/2026-09-12-element-spell-archetype.md)追加用户原话，并更新原[素材](../sources/materials/M-2026-09-12-element-spell-archetype.md)；不增加素材／inbox数量。本次追加第四项原话，FX-065为r3、FX-067／069为r2，环境转化与元素补生须有相关释放作用；草仅保留单位克制。
+
+## 元素流派来源增量
+
+新增[用户原话与两次回答](../sources/inbox/2026-09-12-element-spell-archetype.md)及[方向素材](../sources/materials/M-2026-09-12-element-spell-archetype.md)，登记FX-063–068；FX-003／010升级r3、FX-060升级r2并保留BF旧版本。简易卡池当前48项，点燃／冰冻动词从活跃表移除，历史ID不重用；“保留”记录为候选保留，非全部Accepted。
+
+## 第一期创意卡池来源增量
+
+新增[用户要求及50项描述](../sources/inbox/2026-09-12-simple-spell-creative-card-pool.md)，仅inbox、不晋级正式素材。新增FX-035–059；旧FX的复用与新方向逐项见SC-N／V／A／I覆盖。原审查快照不改写。用户要求暂不考虑平衡和数值，未选择的复诵晶石具体版本暂停问答，不当作默认规则。
+
+## 2026-09-12 简易流派增量
+
+新增[原话与两次确认](../sources/inbox/2026-09-12-simple-spell-archetype.md)及[方向素材](../sources/materials/M-2026-09-12-simple-spell-archetype.md)两份来源，关联FX-033／034；冷却方向复用FX-026并区分FX-018，基础句锚点仅参照FX-001／002／010。完整连发与本杖成功积累已确认，具体牌面／参数仍未闭合。不重写下方原81份审查快照。
+
+日期：2026-09-12。范围：本轮新增文件之前，game-002现用idea-materials与idea-inbox目录中的81份Markdown（52份正式素材、27份inbox及2份README）。另核对核心、decision-log、CONTEXT、AGENTS及相关当前工作入口。本次新建的[来源](../sources/inbox/2026-09-12-effect-registry.md)和[工作流素材](../sources/materials/M-2026-09-12-effect-registry.md)不计入81份。
+
+没有检索其他项目／归档原件或非Markdown原始转录来扩展效果池；也不把历史提案、报告中的试验装置默认当作当前可用词效。覆盖结论只针对上述现用正文与[67项显式案例](case-coverage.md)，不声称全仓库所有历史文本均已验收。
+
+| 审查文件 | 登记关系 | 处理说明 |
+| --- | --- | --- |
+| [词汇设计的后置问题](../sources/inbox/2026-09-05-vocabulary-design-questions.md) | ER-H01（联想／回忆，Raw／Parked） | 后置词汇方向，见边界表 |
+| [词卡库存与分配素材入口](../sources/inbox/2026-09-05-word-inventory-and-allocation.md) | 框架、来源或索引；不新增独立效果 | 原始来源／候选，按正文状态，不因登记晋级 |
+| [核心战斗与局内流程素材入口](../sources/inbox/2026-09-05-yanzhou-core-combat.md) | 框架、来源或索引；不新增独立效果 | 原始来源／候选，按正文状态，不因登记晋级 |
+| [句式、状态、类型与召唤素材入口](../sources/inbox/2026-09-06-flexible-grammar-and-spell-types.md) | [FX-001](entries/FX-001.md)、[FX-002](entries/FX-002.md)、[FX-023](entries/FX-023.md) | 原始来源／候选，按正文状态，不因登记晋级 |
+| [支撑系统与流派审查入口](../sources/inbox/2026-09-07-global-baseline-lock-review.md) | 框架、来源或索引；不新增独立效果 | 原始来源／候选，按正文状态，不因登记晋级 |
+| [镶嵌获取与收益边界](../sources/inbox/2026-09-07-inlay-acquisition-boundary.md) | ER-F05（范围／装配框架），特效见FX-026／027 | 原始来源／候选，按正文状态，不因登记晋级 |
+| [数值重新设计来源入口](../sources/inbox/2026-09-07-numerical-calibration-candidates.md) | 框架、来源或索引；不新增独立效果 | 参数／评价参照；具体版本与权限分开 |
+| [数值设计审查入口](../sources/inbox/2026-09-07-numerical-design-review.md) | 框架、来源或索引；不新增独立效果 | 参数／评价参照；具体版本与权限分开 |
+| [商店与战斗收益素材入口](../sources/inbox/2026-09-07-shop-and-time-based-gold.md) | 框架、来源或索引；不新增独立效果 | 原始来源／候选，按正文状态，不因登记晋级 |
+| [简易法术词汇候选](../sources/inbox/2026-09-07-simple-spell-word-candidates.md) | [FX-002](entries/FX-002.md)、[FX-010](entries/FX-010.md)、[FX-013](entries/FX-013.md)、[FX-028](entries/FX-028.md) | 原始来源／候选，按正文状态，不因登记晋级 |
+| [战场变化的体验要求](../sources/inbox/2026-09-10-battlefield-physical-transformations.md) | [FX-003](entries/FX-003.md)、[FX-004](entries/FX-004.md)、[FX-010](entries/FX-010.md)、[FX-011](entries/FX-011.md)、[FX-012](entries/FX-012.md) | 表现与后置机制分开，见ER-H02／03 |
+| [设计接口推荐决策确认](../sources/inbox/2026-09-10-design-interface-questions.md) | [FX-001](entries/FX-001.md)、[FX-002](entries/FX-002.md)、[FX-020](entries/FX-020.md)、[FX-021](entries/FX-021.md)、[FX-030](entries/FX-030.md) | 原始来源／候选，按正文状态，不因登记晋级 |
+| [第一批词义的逐刻与边界记录](../sources/inbox/2026-09-10-element-state-drop-paper-checks.md) | [FX-001](entries/FX-001.md)、[FX-003](entries/FX-003.md)、[FX-004](entries/FX-004.md)、[FX-005](entries/FX-005.md)、[FX-006](entries/FX-006.md)、[FX-010](entries/FX-010.md)、[FX-011](entries/FX-011.md)、[FX-012](entries/FX-012.md)、[FX-013](entries/FX-013.md)、[FX-014](entries/FX-014.md)、[FX-015](entries/FX-015.md)、[FX-020](entries/FX-020.md) | Parked案例／参数；只登记问题，全部不恢复 |
+| [第一批具体词义：元素、简单状态与对象掉卡](../sources/inbox/2026-09-10-element-state-drop-wording.md) | [FX-001](entries/FX-001.md)、[FX-003](entries/FX-003.md)、[FX-004](entries/FX-004.md)、[FX-005](entries/FX-005.md)、[FX-006](entries/FX-006.md)、[FX-010](entries/FX-010.md)、[FX-011](entries/FX-011.md)、[FX-012](entries/FX-012.md)、[FX-013](entries/FX-013.md)、[FX-014](entries/FX-014.md)、[FX-015](entries/FX-015.md)、[FX-020](entries/FX-020.md) | Parked案例／参数；只登记问题，全部不恢复 |
+| [能力与词卡：简单作用目录](../sources/inbox/2026-09-10-semantic-ability-word-catalog.md) | [FX-001](entries/FX-001.md)、[FX-002](entries/FX-002.md)、[FX-003](entries/FX-003.md)、[FX-004](entries/FX-004.md)、[FX-005](entries/FX-005.md)、[FX-006](entries/FX-006.md)、[FX-007](entries/FX-007.md)、[FX-010](entries/FX-010.md)、[FX-011](entries/FX-011.md)、[FX-012](entries/FX-012.md)、[FX-013](entries/FX-013.md)、[FX-014](entries/FX-014.md)、[FX-015](entries/FX-015.md)、[FX-016](entries/FX-016.md)、[FX-017](entries/FX-017.md)、[FX-018](entries/FX-018.md)、[FX-019](entries/FX-019.md)、[FX-020](entries/FX-020.md)、[FX-028](entries/FX-028.md)、[FX-032](entries/FX-032.md) | 原始来源／候选，按正文状态，不因登记晋级 |
+| [对象目录：简单变化与法术生成物](../sources/inbox/2026-09-10-semantic-object-catalog.md) | [FX-003](entries/FX-003.md)、[FX-004](entries/FX-004.md)、[FX-010](entries/FX-010.md)、[FX-011](entries/FX-011.md)、[FX-012](entries/FX-012.md)、[FX-018](entries/FX-018.md)、[FX-019](entries/FX-019.md)、[FX-020](entries/FX-020.md) | 原始来源／候选，按正文状态，不因登记晋级 |
+| [代表句：简单对象变化的检查情境](../sources/inbox/2026-09-10-semantic-sentence-cases.md) | [FX-002](entries/FX-002.md)、[FX-003](entries/FX-003.md)、[FX-004](entries/FX-004.md)、[FX-010](entries/FX-010.md)、[FX-011](entries/FX-011.md)、[FX-012](entries/FX-012.md)、[FX-014](entries/FX-014.md)、[FX-015](entries/FX-015.md)、[FX-016](entries/FX-016.md)、[FX-017](entries/FX-017.md)、[FX-018](entries/FX-018.md)、[FX-020](entries/FX-020.md) | 原始来源／候选，按正文状态，不因登记晋级 |
+| [语义战斗世界与法术可操作对象范围](../sources/inbox/2026-09-10-semantic-world-object-scope.md) | [FX-007](entries/FX-007.md)、[FX-010](entries/FX-010.md)、[FX-011](entries/FX-011.md)、[FX-012](entries/FX-012.md)、[FX-018](entries/FX-018.md)、[FX-019](entries/FX-019.md)、[FX-020](entries/FX-020.md)、[FX-031](entries/FX-031.md) | 原始来源／候选，按正文状态，不因登记晋级 |
+| [语义世界剩余决策总表](../sources/inbox/2026-09-10-semantic-world-remaining-decisions.md) | [FX-007](entries/FX-007.md)、[FX-010](entries/FX-010.md)、[FX-011](entries/FX-011.md)、[FX-012](entries/FX-012.md)、[FX-018](entries/FX-018.md)、[FX-019](entries/FX-019.md)、[FX-020](entries/FX-020.md)、[FX-031](entries/FX-031.md) | 原始来源／候选，按正文状态，不因登记晋级 |
+| [简化对象交互与法术生成对象](../sources/inbox/2026-09-10-simple-object-interactions.md) | [FX-003](entries/FX-003.md)、[FX-004](entries/FX-004.md)、[FX-010](entries/FX-010.md)、[FX-011](entries/FX-011.md)、[FX-012](entries/FX-012.md)、[FX-015](entries/FX-015.md)、[FX-016](entries/FX-016.md)、[FX-017](entries/FX-017.md)、[FX-020](entries/FX-020.md) | 原始来源／候选，按正文状态，不因登记晋级 |
+| [全局规则审查与测试积累](../sources/inbox/2026-09-11-global-rules-review.md) | [FX-007](entries/FX-007.md)、[FX-018](entries/FX-018.md)、[FX-019](entries/FX-019.md)、[FX-020](entries/FX-020.md)、[FX-026](entries/FX-026.md)、[FX-027](entries/FX-027.md)、[FX-030](entries/FX-030.md)、[FX-031](entries/FX-031.md) | 原始来源／候选，按正文状态，不因登记晋级 |
+| [修饰词系统与镶嵌设计顺序](../sources/inbox/2026-09-11-modifier-card-system.md) | [FX-024](entries/FX-024.md)、[FX-025](entries/FX-025.md) | 原始来源／候选，按正文状态，不因登记晋级 |
+| [数值框架与体验验收](../sources/inbox/2026-09-11-numerical-evaluation-framework.md) | [FX-001](entries/FX-001.md)、[FX-002](entries/FX-002.md)、[FX-020](entries/FX-020.md)、[FX-029](entries/FX-029.md)、[FX-030](entries/FX-030.md) | 参数／评价参照；具体版本与权限分开 |
+| [超时疲劳与法术恢复限制](../sources/inbox/2026-09-11-overtime-fatigue.md) | [FX-029](entries/FX-029.md) | ER-F01全局规则，非词卡；Candidate细则不升级 |
+| [参数设计启动与首轮测试范围](../sources/inbox/2026-09-11-parameter-design-start.md) | 框架、来源或索引；不新增独立效果 | 参数／评价参照；具体版本与权限分开 |
+| [法术类型系统与按类型讨论](../sources/inbox/2026-09-11-spell-type-system.md) | [FX-001](entries/FX-001.md)、[FX-002](entries/FX-002.md)、[FX-003](entries/FX-003.md)、[FX-004](entries/FX-004.md)、[FX-005](entries/FX-005.md)、[FX-006](entries/FX-006.md)、[FX-008](entries/FX-008.md)、[FX-009](entries/FX-009.md)、[FX-010](entries/FX-010.md)、[FX-011](entries/FX-011.md)、[FX-012](entries/FX-012.md)、[FX-013](entries/FX-013.md)、[FX-014](entries/FX-014.md)、[FX-015](entries/FX-015.md)、[FX-020](entries/FX-020.md)、[FX-021](entries/FX-021.md)、[FX-022](entries/FX-022.md)、[FX-023](entries/FX-023.md) | 原始来源／候选，按正文状态，不因登记晋级 |
+| [法杖身份与镶嵌系统](../sources/inbox/2026-09-12-wand-inlay-system.md) | [FX-026](entries/FX-026.md)、[FX-027](entries/FX-027.md) | 原始来源／候选，按正文状态，不因登记晋级 |
+| [game-002 原始表达与候选入口](../sources/inbox/README.md) | 框架、来源或索引；不新增独立效果 | 入口索引，仅核对登记关系 |
+| [战场状态的存续与引用](../sources/materials/M-2026-09-05-battle-state-persistence.md) | [FX-003](entries/FX-003.md)、[FX-004](entries/FX-004.md)、[FX-005](entries/FX-005.md)、[FX-006](entries/FX-006.md)、[FX-007](entries/FX-007.md)、[FX-027](entries/FX-027.md) | 合格素材；资格与细则采纳状态分开 |
+| [循环法术的时间与打断](../sources/materials/M-2026-09-05-casting-time-and-interruption.md) | 框架、来源或索引；不新增独立效果 | 合格素材；资格与细则采纳状态分开 |
+| [词性、句式与语义兼容](../sources/materials/M-2026-09-05-grammar-and-semantic-compatibility.md) | [FX-001](entries/FX-001.md)、[FX-002](entries/FX-002.md)、[FX-023](entries/FX-023.md) | 合格素材；资格与细则采纳状态分开 |
+| [战斗胜负与本局结束](../sources/materials/M-2026-09-05-normal-combat-outcomes.md) | 框架、来源或索引；不新增独立效果 | 合格素材；资格与细则采纳状态分开 |
+| [普通胜利后的生命保留](../sources/materials/M-2026-09-05-post-victory-health-persistence.md) | 框架、来源或索引；不新增独立效果 | 合格素材；资格与细则采纳状态分开 |
+| [休整的恢复与词卡取舍](../sources/materials/M-2026-09-05-rest-recovery-and-word-choice.md) | 框架、来源或索引；不新增独立效果 | 合格素材；资格与细则采纳状态分开 |
+| [战前编排与周期预览](../sources/materials/M-2026-09-05-timeline-schedule-preview.md) | 框架、来源或索引；不新增独立效果 | 合格素材；资格与细则采纳状态分开 |
+| [战外词卡库存与实体副本](../sources/materials/M-2026-09-05-word-inventory-and-copies.md) | 框架、来源或索引；不新增独立效果 | 合格素材；资格与细则采纳状态分开 |
+| [护甲的生成与存续](../sources/materials/M-2026-09-06-armor-identity-generation-and-persistence.md) | [FX-002](entries/FX-002.md)、[FX-032](entries/FX-032.md) | 合格素材；资格与细则采纳状态分开 |
+| [法杖范围与对象引用](../sources/materials/M-2026-09-06-basic-sentence-targeting-and-locking.md) | 框架、来源或索引；不新增独立效果 | 合格素材；资格与细则采纳状态分开 |
+| [局内分叉路线](../sources/materials/M-2026-09-06-branching-run-routes.md) | 框架、来源或索引；不新增独立效果 | 合格素材；资格与细则采纳状态分开 |
+| [整句效果与词义复用](../sources/materials/M-2026-09-06-compositional-spells-and-word-meaning.md) | 框架、来源或索引；不新增独立效果 | 合格素材；资格与细则采纳状态分开 |
+| [伤害、护甲与冷却打断](../sources/materials/M-2026-09-06-damage-armor-and-interruption.md) | [FX-001](entries/FX-001.md)、[FX-002](entries/FX-002.md) | 合格素材；资格与细则采纳状态分开 |
+| [敌人击败后的对象与状态](../sources/materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md) | 框架、来源或索引；不新增独立效果 | 合格素材；资格与细则采纳状态分开 |
+| [省略句与显式主语](../sources/materials/M-2026-09-06-flexible-sentences-and-subject-roles.md) | [FX-001](entries/FX-001.md)、[FX-002](entries/FX-002.md)、[FX-023](entries/FX-023.md) | 合格素材；资格与细则采纳状态分开 |
+| [战后词卡与整体收益](../sources/materials/M-2026-09-06-normal-combat-word-rewards.md) | [FX-020](entries/FX-020.md) | 合格素材；资格与细则采纳状态分开 |
+| [战前库存的可表达性](../sources/materials/M-2026-09-06-prebattle-expressibility.md) | 框架、来源或索引；不新增独立效果 | 合格素材；资格与细则采纳状态分开 |
+| [预设起始库存与新局重置](../sources/materials/M-2026-09-06-preset-starting-inventory.md) | 框架、来源或索引；不新增独立效果 | 合格素材；资格与细则采纳状态分开 |
+| [效果来源与修正读取](../sources/materials/M-2026-09-06-spell-effect-sources-and-modifiers.md) | [FX-001](entries/FX-001.md)、[FX-003](entries/FX-003.md)、[FX-004](entries/FX-004.md)、[FX-024](entries/FX-024.md)、[FX-025](entries/FX-025.md)、[FX-027](entries/FX-027.md) | 合格素材；资格与细则采纳状态分开 |
+| [法术类型与效果条件](../sources/materials/M-2026-09-06-spell-types-and-effect-conditions.md) | 框架、来源或索引；不新增独立效果 | 合格素材；资格与细则采纳状态分开 |
+| [同种状态的重施与叠加](../sources/materials/M-2026-09-06-status-reapplication-and-stacking.md) | [FX-003](entries/FX-003.md)、[FX-004](entries/FX-004.md)、[FX-005](entries/FX-005.md)、[FX-006](entries/FX-006.md)、[FX-007](entries/FX-007.md)、[FX-027](entries/FX-027.md) | 合格素材；资格与细则采纳状态分开 |
+| [状态计时与到期](../sources/materials/M-2026-09-06-status-timing-and-expiration.md) | [FX-003](entries/FX-003.md)、[FX-004](entries/FX-004.md)、[FX-005](entries/FX-005.md)、[FX-006](entries/FX-006.md)、[FX-007](entries/FX-007.md)、[FX-027](entries/FX-027.md) | 合格素材；资格与细则采纳状态分开 |
+| [状态读值与内部顺序](../sources/materials/M-2026-09-06-status-values-and-resolution-order.md) | [FX-003](entries/FX-003.md)、[FX-004](entries/FX-004.md)、[FX-005](entries/FX-005.md)、[FX-006](entries/FX-006.md)、[FX-007](entries/FX-007.md)、[FX-027](entries/FX-027.md) | 合格素材；资格与细则采纳状态分开 |
+| [召唤物共存与容量约束](../sources/materials/M-2026-09-06-summon-coexistence-and-field-capacity.md) | [FX-021](entries/FX-021.md)、[FX-022](entries/FX-022.md) | 合格素材；资格与细则采纳状态分开 |
+| [召唤物离场与引用失效](../sources/materials/M-2026-09-06-summon-departure-and-reference-invalidation.md) | [FX-021](entries/FX-021.md)、[FX-022](entries/FX-022.md) | 合格素材；资格与细则采纳状态分开 |
+| [召唤物生命与承伤](../sources/materials/M-2026-09-06-summon-health-damage-and-enemy-targeting.md) | [FX-021](entries/FX-021.md)、[FX-022](entries/FX-022.md) | 合格素材；资格与细则采纳状态分开 |
+| [召唤身份引用的可用边界](../sources/materials/M-2026-09-06-summon-reference-availability.md) | [FX-021](entries/FX-021.md)、[FX-022](entries/FX-022.md) | 合格素材；资格与细则采纳状态分开 |
+| [召唤单位与指令语义](../sources/materials/M-2026-09-06-summon-unit-and-reference.md) | [FX-021](entries/FX-021.md)、[FX-022](entries/FX-022.md) | 合格素材；资格与细则采纳状态分开 |
+| [召唤词语义与单位绑定](../sources/materials/M-2026-09-06-summon-word-references-and-target-locking.md) | [FX-021](entries/FX-021.md)、[FX-022](entries/FX-022.md) | 合格素材；资格与细则采纳状态分开 |
+| [词性与休整候选结构](../sources/materials/M-2026-09-06-word-classes-and-reward-packs.md) | 框架、来源或索引；不新增独立效果 | 合格素材；资格与细则采纳状态分开 |
+| [战斗金币与耗时奖励](../sources/materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md) | [FX-030](entries/FX-030.md) | 合格素材；资格与细则采纳状态分开 |
+| [商店商品资格](../sources/materials/M-2026-09-07-merchandise-eligibility.md) | [FX-020](entries/FX-020.md) | 合格素材；资格与细则采纳状态分开 |
+| [新局初始资源](../sources/materials/M-2026-09-07-new-run-starting-resources.md) | 框架、来源或索引；不新增独立效果 | 合格素材；资格与细则采纳状态分开 |
+| [周期状态的强化继承](../sources/materials/M-2026-09-07-periodic-state-modifier-inheritance.md) | [FX-003](entries/FX-003.md)、[FX-004](entries/FX-004.md)、[FX-005](entries/FX-005.md)、[FX-006](entries/FX-006.md)、[FX-007](entries/FX-007.md)、[FX-027](entries/FX-027.md) | 合格素材；资格与细则采纳状态分开 |
+| [商店节点与消费机会](../sources/materials/M-2026-09-07-shop-nodes-and-spending-opportunities.md) | 框架、来源或索引；不新增独立效果 | 合格素材；资格与细则采纳状态分开 |
+| [商店货架与交易](../sources/materials/M-2026-09-07-shop-shelves-and-transactions.md) | 框架、来源或索引；不新增独立效果 | 合格素材；资格与细则采纳状态分开 |
+| [支撑系统与流派设计规则](../sources/materials/M-2026-09-07-supporting-design-rules.md) | [FX-007](entries/FX-007.md)、[FX-020](entries/FX-020.md)、[FX-021](entries/FX-021.md)、[FX-028](entries/FX-028.md)、[FX-029](entries/FX-029.md)、[FX-030](entries/FX-030.md) | 合格素材；资格与细则采纳状态分开 |
+| [法杖与镶嵌配置](../sources/materials/M-2026-09-07-wand-inlay-configuration.md) | ER-F05（范围／装配框架），特效见FX-026／027 | 合格素材；资格与细则采纳状态分开 |
+| [已采纳接口规则与后置范围](../sources/materials/M-2026-09-10-accepted-design-interfaces.md) | [FX-001](entries/FX-001.md)、[FX-002](entries/FX-002.md)、[FX-020](entries/FX-020.md)、[FX-021](entries/FX-021.md)、[FX-030](entries/FX-030.md) | 合格素材；资格与细则采纳状态分开 |
+| [法术改变战场状态的体验与表现要求](../sources/materials/M-2026-09-10-battlefield-state-change-expression.md) | [FX-003](entries/FX-003.md)、[FX-004](entries/FX-004.md)、[FX-010](entries/FX-010.md)、[FX-011](entries/FX-011.md)、[FX-012](entries/FX-012.md) | 表现与后置机制分开，见ER-H02／03 |
+| [实例绑定与条件绑定](../sources/materials/M-2026-09-10-instance-and-conditional-binding.md) | 框架、来源或索引；不新增独立效果 | 合格素材；资格与细则采纳状态分开 |
+| [数值重新设计的范围与验证约束](../sources/materials/M-2026-09-10-numerical-redesign-constraints.md) | 框架、来源或索引；不新增独立效果 | 参数／评价参照；具体版本与权限分开 |
+| [语义世界的对象交互与执行规则](../sources/materials/M-2026-09-10-semantic-world-executable-rules.md) | [FX-007](entries/FX-007.md)、[FX-010](entries/FX-010.md)、[FX-011](entries/FX-011.md)、[FX-012](entries/FX-012.md)、[FX-018](entries/FX-018.md)、[FX-019](entries/FX-019.md)、[FX-020](entries/FX-020.md)、[FX-031](entries/FX-031.md) | 合格素材；资格与细则采纳状态分开 |
+| [法术可操作对象范围](../sources/materials/M-2026-09-10-semantic-world-object-scope.md) | [FX-007](entries/FX-007.md)、[FX-010](entries/FX-010.md)、[FX-011](entries/FX-011.md)、[FX-012](entries/FX-012.md)、[FX-018](entries/FX-018.md)、[FX-019](entries/FX-019.md)、[FX-020](entries/FX-020.md)、[FX-031](entries/FX-031.md) | 合格素材；资格与细则采纳状态分开 |
+| [简单对象交互与法术生成物](../sources/materials/M-2026-09-10-simple-object-interactions.md) | [FX-003](entries/FX-003.md)、[FX-004](entries/FX-004.md)、[FX-010](entries/FX-010.md)、[FX-011](entries/FX-011.md)、[FX-012](entries/FX-012.md)、[FX-015](entries/FX-015.md)、[FX-016](entries/FX-016.md)、[FX-017](entries/FX-017.md)、[FX-020](entries/FX-020.md) | 合格素材；资格与细则采纳状态分开 |
+| [全局规则边界与卡牌评测要求](../sources/materials/M-2026-09-11-global-rule-boundaries.md) | [FX-007](entries/FX-007.md)、[FX-018](entries/FX-018.md)、[FX-019](entries/FX-019.md)、[FX-020](entries/FX-020.md)、[FX-026](entries/FX-026.md)、[FX-027](entries/FX-027.md)、[FX-030](entries/FX-030.md)、[FX-031](entries/FX-031.md) | 合格素材；资格与细则采纳状态分开 |
+| [修饰词卡：形容词、副词与三类适配](../sources/materials/M-2026-09-11-modifier-card-system.md) | [FX-024](entries/FX-024.md)、[FX-025](entries/FX-025.md) | 合格素材；资格与细则采纳状态分开 |
+| [四层数值框架：法术、成长、整局与体验](../sources/materials/M-2026-09-11-numerical-evaluation-framework.md) | [FX-001](entries/FX-001.md)、[FX-002](entries/FX-002.md)、[FX-020](entries/FX-020.md)、[FX-029](entries/FX-029.md)、[FX-030](entries/FX-030.md) | 参数／评价参照；具体版本与权限分开 |
+| [超时疲劳：双方扣血与法术禁疗](../sources/materials/M-2026-09-11-overtime-fatigue.md) | [FX-029](entries/FX-029.md) | ER-F01全局规则，非词卡；Candidate细则不升级 |
+| [简易法术与护甲：参数定义及首轮测试候选](../sources/materials/M-2026-09-11-simple-spell-parameter-candidates.md) | [FX-001](entries/FX-001.md)、[FX-002](entries/FX-002.md) | 参数／评价参照；具体版本与权限分开 |
+| [法术类型系统：特征、多类型与首批分类](../sources/materials/M-2026-09-11-spell-type-system.md) | [FX-001](entries/FX-001.md)、[FX-002](entries/FX-002.md)、[FX-003](entries/FX-003.md)、[FX-004](entries/FX-004.md)、[FX-005](entries/FX-005.md)、[FX-006](entries/FX-006.md)、[FX-008](entries/FX-008.md)、[FX-009](entries/FX-009.md)、[FX-010](entries/FX-010.md)、[FX-011](entries/FX-011.md)、[FX-012](entries/FX-012.md)、[FX-013](entries/FX-013.md)、[FX-014](entries/FX-014.md)、[FX-015](entries/FX-015.md)、[FX-020](entries/FX-020.md)、[FX-021](entries/FX-021.md)、[FX-022](entries/FX-022.md)、[FX-023](entries/FX-023.md) | 合格素材；资格与细则采纳状态分开 |
+| [法杖镶嵌：固定身份与可换构筑](../sources/materials/M-2026-09-12-wand-inlay-system.md) | [FX-026](entries/FX-026.md)、[FX-027](entries/FX-027.md) | 合格素材；资格与细则采纳状态分开 |
+| [game-002 正式素材索引](../sources/materials/README.md) | 框架、来源或索引；不新增独立效果 | 入口索引，仅核对登记关系 |
+
+## 后续增量维护
+
+每轮新效果登记将新来源加入本表；修改既有来源时更新相应关系、效果修订和案例。本表的81份是本次审查快照，日后累计数量另行标注，不重写历史审查范围。类型／案例表新增一行时必须附效果ID或明确的框架／后置去向，不能只有分类而没有效果登记关系。
+
+## 2026-09-12 第一人称格子战场增量
+
+本次新增[原话与附件](../sources/inbox/2026-09-12-first-person-grid-battlefield.md)、[合格素材](../sources/materials/M-2026-09-12-first-person-grid-battlefield.md)、[GDD](../design/systems/04-elements-environment.md)、提案／评估／拟修改。复核简单对象、表现、召唤容量、状态／GR、类型、镶嵌与当前Raw创意池；处理见GDD 0.1，不复制旧试案参数。
+
+FX-003／010新增BF候选r2，FX-060–062为新增r1；具体关联见BF-E01–08。只有用户明确的方向与单层传播得到确认，BF-C细则及参数未采纳。当前素材55份、inbox31份、效果62项；上方81份审查为首轮快照，不被本次重新标记为全部已验证。
+
+本次来源结论：阈值随各单位事先设置；异种元素替换的初始层数取经克制修正后抵消的余量，零余量不留下新元素。无相关释放法术仍不新增元素，环境转化仍继承对应状态层数。效果总数仍为69，素材与inbox数量不变。
+
+当前增量：同一元素inbox追加第五项用户请求与EL-R01–05 agent推荐；无新增inbox或素材文件，效果总数71。FX-003/r4、004/r2、023/r2及070–071/r1均Raw／未选择，不升级既有核心。
+
+2026-09-13：元素inbox第六项记录用户原话，局部冰冻方向进入素材EL07。FX-004/r3改为增加护甲；FX-023/r3仅更名“消耗护甲”，不修改转层数效果。inbox、素材与效果数量均不变，旧推荐完整版本见70c5d69。
+
+## 2026-09-13元素卡池来源增量（当前）
+
+新增[元素流派创意卡池](../sources/inbox/2026-09-13-element-spell-creative-card-pool.md)，用户授权创意发散，agent提出48项Raw候选。新增FX-072–096共25项，其余映射既有ID；未对复用效果的旧数值或候选状态作批量升级。当前56份素材、33份inbox、96项FX；本批不新增合格素材或测试输入。
+
+## 元素第二期来源增量（2026-09-13当前）
+
+[元素第二期机制卡池](../sources/inbox/2026-09-13-element-spell-mechanism-card-pool-02.md)保留用户重新设想并以动词／镶嵌创新的原话；30项描述中18项新机制分别登记FX-097–114，名词／形容词复用原方向。第一期保留，不批量晋级。当前56份合格素材、34份inbox、114项FX，未增加可执行测试输入。
+
+## 第三期来源审查（2026-09-13当前）
+
+[第三期短规则卡池](../sources/inbox/2026-09-13-element-spell-symbol-card-pool-03.md)记录用户最新短规则与非数值创新要求。30项当前候选，前两期78条逐项追踪；第二期实际30条，已纠正旧稿误计32。当前56份素材、35份inbox、123项FX。新增FX-115–123，其余复用旧ID，不因此恢复参数或扩大采纳范围。退出本期不等于删除历史或正式Rejected。
+
+## 本轮元素确认与简易重设计
+
+来源用户“确认，把简易法术的设计也同样简化”：元素E3的30项选择Confirmed，新增[已确认元素E3素材](../sources/materials/M-2026-09-13-element-short-rule-card-pool.md)并同步33个FX的使用范围；数值与组合接口未过执行闸门。另新增[简易短规则卡池](../sources/inbox/2026-09-13-simple-spell-short-rule-card-pool.md)，25项新提议Raw，旧50项完整去向可追溯。当前57份素材、36份inbox、134项FX；测试r13只记录选择与待补项，不执行。

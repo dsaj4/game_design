@@ -1,17 +1,11 @@
-# game-002优化探索
+# game-002优化探索（已迁移）
 
-Project ID：game-002-optimization。文档角色：Navigation。更新：2026-09-23。状态：Active / Research；27个独立方向索引，10份原始想法文件，2份局部合格素材。不存在因本次整理新增的玩法采纳或实验结果。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-- [27方向索引](directions/README.md)
-- [方向差异与架构比较](directions/comparison.md)
-- [各方向背景与主系统吸收](directions/baseline-and-absorption.md)
-- [运行控制](run-control.md)与[历史](runs/README.md)
-- [原始想法](idea-inbox/)与[合格素材](idea-materials/)
-- [问题](questions/)与[研究记录](insights/)
-- [提案](proposals/)、[评估](evaluations/)、[GDD](gdd/)、[回写差异](draft-changes/)
-- [模拟](simulations/)与[原型](prototypes/)
-- [背景包](context/README.md)、[项目约束](AGENTS.md)、[项目注册](../registry/project-registry.md)
+[打开新位置](../../yanzhou/exploration/optimization/README.md) · [言咒项目入口](../../yanzhou/README.md) · [迁移说明](../../yanzhou/governance/layout-migration-report.md)
 
-活动包仍为baseline-2026-09-09-001；各轮显式RC1补充来源单独记录。时间背包局部被主系统吸收，其余旧规则不能整体搬回；音乐局部Qualified但未采纳。正式状态以来源和目标决策为准。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-历史推荐、旧库存计数和运行叙述保留在[整理前首页](history/pre-organization/README.md)，不再滚动堆入当前入口。
+<a id="game-002优化探索"></a>
+
+[对应正文](../../yanzhou/exploration/optimization/README.md#game-002优化探索)

@@ -1,31 +1,27 @@
-# GIC研究写作大纲
+# GIC研究写作大纲（已迁移）
 
-状态：Research / Provisional。Project ID：game-002-optimization。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 总论点
+[打开新位置](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/outline/outline.md) · [言咒项目入口](../../../../../yanzhou/README.md) · [迁移说明](../../../../../yanzhou/governance/layout-migration-report.md)
 
-最值得吸收的是让同一选择承担不同后果；本轮将24款来源结构收敛为五个独立、可证伪的Raw方向，优先借词布阵。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 证据地图
+<a id="gic研究写作大纲"></a>
 
-T01–T24对应24款游戏与40份GIC档案，B0为用户指定RC1；逐条见[source-notes](../source-notes.md)与[source-manifest](../source-manifest.json)。
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/outline/outline.md#gic研究写作大纲)
 
-## 模块安排
+<a id="图示计划"></a>
 
-| 模块 | 判断 | 证据 | 未知 |
-| --- | --- | --- | --- |
-| 定位与来源边界 | 24款游戏的40份GIC文字档案只支持机制研究；商业表现与完整原作规则不作判断。 | T01, T24, B0 | 原作当前版本、完整规则与商业结果未核实。 |
-| 玩家体验与设计目标 | 优先寻找改变玩家取舍的结构，保留可解释的战前编排和自动执行。 | T03, T04, T06, T15, B0 | 候选趣味与理解负担尚无真人证据。 |
-| 核心玩法循环 | 比较来源中的承诺、执行、反馈和再次选择；五方向分别改变其中一个环节。 | T01, T06, T11, T17, T19, T24, B0 | 新循环是否存在无代价支配策略未知。 |
-| 系统关系与约束 | 每个候选必须标明新增实体用途、获取渠道、布场或模式与RC1系统的接口。 | T03, T07, T14, T16, B0 | 新初态与保存、时序、来源的完整边界尚待规格。 |
-| 内容与关卡 | 先做两份契约、两种目标或两份模板，不引入全卡池双面化和无限场景特例。 | T05, T17, T18, T19, B0 | 内容可生产性及所有关卡的可解性未验证。 |
-| 资源与经济 | 同一资源承担互斥用途才形成成本；新收益必须检查既有额度与后续采购。 | T06, T07, T08, T09, T11, B0 | 奖励、初始层数和整局平衡待测试。 |
-| 叙事、媒介与呈现 | 让词成为可见实体并让理解成为奖励；不依赖隐藏规则或主题皮肤。 | T15, T16, T18, T23, B0 | 没有音画原型或系统截图审计。 |
-| 研究结论与后续验证 | B优先、A次之，C/E按目的选择，D后置；五方向独立验证，保持Raw资格。 | T10, T12, T20, T21, T22, T24, B0 | 用户未选择新增设计方向；全部验证NotRun。 |
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/outline/outline.md#图示计划)
 
-## 图示计划
+<a id="总论点"></a>
 
-- 模块3：核心循环图，标出五个候选改变的选择。
-- 模块4：系统关系图，标出RC1依赖与不自动回写的界限。
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/outline/outline.md#总论点)
 
-本轮为文本研究；未可靠获取的档案原图不用于推断，没有图像审计完成声明。
+<a id="模块安排"></a>
+
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/outline/outline.md#模块安排)
+
+<a id="证据地图"></a>
+
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/outline/outline.md#证据地图)

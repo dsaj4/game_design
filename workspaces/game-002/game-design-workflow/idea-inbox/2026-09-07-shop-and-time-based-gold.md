@@ -1,23 +1,23 @@
-# 商店与战斗收益素材入口
+# 商店与战斗收益素材入口（已迁移）
 
-状态：Promoted（仅对应明确素材）；其余 Raw Idea / Unqualified。Project ID：game-002。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 原始表达与来源
+[打开新位置](../../../../yanzhou/sources/inbox/2026-09-07-shop-and-time-based-gold.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-[原始记录](../../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-inbox/2026-09-07-shop-and-time-based-gold.md)完整保存用户原话、确认过程、未采纳建议及使用记录。本页为当前主题入口，不能替代原始证据。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 当前适用内容
+<a id="原始表达与来源"></a>
 
-金币与法术产生的词卡整体领取。普通商店交易可复用；镶嵌商品和奖励需C05决定。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-07-shop-and-time-based-gold.md#原始表达与来源)
 
-- [战斗金币与耗时奖励](../idea-materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md)
-- [镶嵌获取与收益边界](2026-09-07-inlay-acquisition-boundary.md)
-- [商店商品资格](../idea-materials/M-2026-09-07-merchandise-eligibility.md)
-- [商店节点与消费机会](../idea-materials/M-2026-09-07-shop-nodes-and-spending-opportunities.md)
-- [商店货架与交易](../idea-materials/M-2026-09-07-shop-shelves-and-transactions.md)
+<a id="商店与战斗收益素材入口"></a>
 
-## 资格与下一步
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-07-shop-and-time-based-gold.md#商店与战斗收益素材入口)
 
-当前核心为[Core Concept v0.6](../core-concept.md)。已明确部分的资格、玩家影响和验证方式分别保存在对应素材；尚未决定的内容见[设计决定与后续工作](../../docs/design-decisions-needed.md)，保持Unknown或Parked，不能直接进入GDD。
+<a id="当前适用内容"></a>
 
-2026-09-10：已完成逐份适用范围复核；具体参数按[数值重设计任务](../../docs/numerical-redesign.md)重新建立；后置机制依当前决定保留范围边界。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-07-shop-and-time-based-gold.md#当前适用内容)
+
+<a id="资格与下一步"></a>
+
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-07-shop-and-time-based-gold.md#资格与下一步)

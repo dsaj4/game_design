@@ -1,33 +1,27 @@
-# Q-20260914：RC1 上如何增加有效策略与机制辨识度
+# Q-20260914：RC1 上如何增加有效策略与机制辨识度（已迁移）
 
-- Project ID：`game-002-optimization`；Run ID：`OPT-20260914-001`。
-- 状态：`Open / Research / Provisional`；日期：2026-09-14。
-- 来源：[版本与证据](../insights/2026-09-14-rc1-strategy-source-record.md)。
-- 候选：[四项原始创意](../idea-inbox/2026-09-14-rc1-strategy-depth.md)。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 主问题
+[打开新位置](../../../yanzhou/exploration/optimization/questions/Q-20260914-rc1-strategy-depth.md) · [言咒项目入口](../../../yanzhou/README.md) · [迁移说明](../../../yanzhou/governance/layout-migration-report.md)
 
-在保留实体词卡机会成本、战前编排、自动执行及有限一局的前提下，哪一种增量能让同一批词卡因公开敌情而形成不同有效用法，并让玩家说清自己的编排为什么奏效？
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 已可从文档回答
+<a id="q-20260914rc1-上如何增加有效策略与机制辨识度"></a>
 
-- 玩家主要在战前与战间决策，不需要增加战中操作。
-- 条件选取、复诵、蓄势、冷却操作、元素借位和转换已经存在。
-- 敌方条件行为、借用敌词、痕迹供能、同刻两杖接句不是 RC1 已有能力。
-- 首版仍缺完整体验证据，因此“需要新增机制才能好玩”本身不是已确认事实。
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260914-rc1-strategy-depth.md#q-20260914rc1-上如何增加有效策略与机制辨识度)
 
-## 下一项用户选择
+<a id="下一项用户选择"></a>
 
-首轮优先深化哪一种体验？Agent 推荐先“读懂并改写敌人意图”（候选 A），再以“封词借词”（B）验证《言咒》的机制辨识度；这一排序不是用户选择。C 是环境方向，D 会改动共享槽核心边界，宜独立讨论。
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260914-rc1-strategy-depth.md#下一项用户选择)
 
-只提出这一个优先级问题。用户选择后，在该候选内逐次确认玩家代价、失败分支与验证范围；不能因选择方向就自动把所有规则晋级。
+<a id="主问题"></a>
 
-## 后续验证建议，尚未执行
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260914-rc1-strategy-depth.md#主问题)
 
-- 保留 RC1 原样作为对照。先单独加入一个候选，不叠四套系统。
-- 使用同阶段实际可得库存和金币，分别安排直接输出、攻防、元素操控的可达配置；高级组件不得无偿补给。
-- A 首轮只比较原普通遭遇、带一个条件的敌人、两敌不同时间压力三个场景。B／C／D 选择后另冻结自己的输入与规则，不借用 A 的成功结论。
-- 记录配置改动、关键作用刻、覆盖／打断／无目标、生命损耗与玩家预测，胜率只是其中一项。
-- 正信号：情境改变后最佳取舍也改变；至少两类有机会成本的应对成立；玩家能用规则解释结果。具体量化阈值待选中候选后预登记。
-- 负信号：始终使用同一配置；为触发奖励加入固定税卡；某唯一词不出就无解；读懂时间明显增加而选择没有变化。
-- 玩家理解与乐趣必须由真人观察；纸面推演只查因果和边界。本轮所有运行与体验验收为 `NotRun / Untested`。
+<a id="后续验证建议尚未执行"></a>
+
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260914-rc1-strategy-depth.md#后续验证建议尚未执行)
+
+<a id="已可从文档回答"></a>
+
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260914-rc1-strategy-depth.md#已可从文档回答)

@@ -1,28 +1,31 @@
-# 素材审查与来源追踪（兼容入口）
+# 素材审查与来源追踪（兼容入口）（已迁移）
 
-文档角色：Navigation。现行基准RC1 / doc.1。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-- [当前正文](../current/source-review.md)
-- [整理前历史正文](../../../docs/history/pre-organization/game-design-workflow/gdd/yanzhou-rc1/10-source-review.md)
+[打开新位置](../../../../../yanzhou/design/source-review.md) · [言咒项目入口](../../../../../yanzhou/README.md) · [迁移说明](../../../../../yanzhou/governance/layout-migration-report.md)
 
-此页不维护玩法规则。固定历史研究应使用其来源提交或原始背景包；导航至当前正文不改变历史证据适用版本。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 历史章节兼容索引
+<a id="历史章节兼容索引"></a>
 
-旧章节名称只用于兼容来源链接；当前正文以各条链接的适用范围为准。
-
-<a id="素材审查与来源追踪"></a>
-
-- 素材审查与来源追踪 → [原版本章节](../../../docs/history/pre-organization/game-design-workflow/gdd/yanzhou-rc1/10-source-review.md#素材审查与来源追踪)
-
-<a id="正式素材候选与实际处理"></a>
-
-- 正式素材候选与实际处理 → [当前对应章节](../current/source-review.md#正式素材候选与实际处理)
+[对应正文](../../../../../yanzhou/design/source-review.md)
 
 <a id="原始想法审查"></a>
 
-- 原始想法审查 → [当前对应章节](../current/source-review.md#原始想法审查)
+[对应正文](../../../../../yanzhou/design/source-review.md#原始想法审查)
+
+<a id="正式素材候选与实际处理"></a>
+
+[对应正文](../../../../../yanzhou/design/source-review.md#正式素材候选与实际处理)
+
+<a id="素材审查与来源追踪"></a>
+
+[对应正文](../../../../../yanzhou/design/source-review.md)
+
+<a id="素材审查与来源追踪兼容入口"></a>
+
+[对应正文](../../../../../yanzhou/design/source-review.md)
 
 <a id="设计差异的处理顺序"></a>
 
-- 设计差异的处理顺序 → [当前对应章节](../current/source-review.md#设计差异的处理顺序)
+[对应正文](../../../../../yanzhou/design/source-review.md#设计差异的处理顺序)

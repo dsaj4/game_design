@@ -1,17 +1,11 @@
-# 项目文档导航
+# 项目文档导航（已迁移）
 
-文档角色：Navigation。更新：2026-09-23。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-现行规则位于[统一GDD](../game-design-workflow/gdd/current/README.md)。
+[打开新位置](../../../yanzhou/governance/supporting-docs.md) · [言咒项目入口](../../../yanzhou/README.md) · [迁移说明](../../../yanzhou/governance/layout-migration-report.md)
 
-- [当前设计问题](design-decisions-needed.md)
-- [治理、冲突与全量整理](governance/README.md)
-- [效果登记](effect-registry/README.md)
-- [实现索引](code-development-index.md)
-- [测试交接](test-handoff.md)
-- [视觉入口](visual/README.md)
-- [历史资料](history/README.md)
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-docs承载导航、治理、证据和实现索引，不建立另一套玩法正文。
+<a id="项目文档导航"></a>
 
-[整理前记录](history/pre-organization/docs/README.md)
+[对应正文](../../../yanzhou/governance/supporting-docs.md#项目文档导航)

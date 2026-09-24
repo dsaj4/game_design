@@ -1,45 +1,39 @@
-# GDD前既有推荐批量采纳评估
+# GDD前既有推荐批量采纳评估（已迁移）
 
-## 评估对象
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-- 提案：[BR01–12](../idea-proposals/P-2026-09-13-pre-gdd-recommendation-batch.md)。
-- 日期：2026-09-13。
-- 评估人：设计agent，基于已确认材料进行文档评估。
+[打开新位置](../../../../yanzhou/sources/evaluations/E-2026-09-13-pre-gdd-recommendation-batch.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-## 快速结论
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-结论：推荐推进。明确范围、过程并存、装配和疲劳执行，足以作为下一轮具体内容设计依据；不把表格尚未填写或旧候选量值视为完成。
+<a id="gdd前既有推荐批量采纳评估"></a>
 
-## 评估维度
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-13-pre-gdd-recommendation-batch.md#gdd前既有推荐批量采纳评估)
 
-| 维度 | 判断 | 评估 |
-| --- | --- | --- |
-| 核心动作清晰度 | 配置与战斗权限是否清楚 | 本批保持战前操作与战中观察，补齐自身范围和暂停边界 |
-| 实现可能性 | 输入是否足够唯一求值 | 机制可审阅；具体参数、对象资格和逐卡表未齐，尚非可直接实现全池 |
-| 可玩性潜力 | 能否支持不同方案 | 过程并存与有限槽保留组合；实际强弱待验证 |
-| 决策深度 | 是否存在真实成本 | 单件物品、同组去重与商店获取保留配置机会成本 |
-| 反馈强度 | 玩家能否解释结果 | 已要求来源、范围、触发和取消原因可查；布局仍需设计 |
-| 差异化 | 是否服务项目支柱 | 继续围绕词义复用与时序编排，不新增外围系统 |
-| 市场参照 | 是否有本批外部证据 | 无，不能据内部文档确认市场表现 |
-| 范围控制 | 是否清楚后置项 | 首版法术掉卡／产金后置；55项不增卡，GDD仍有明确门槛 |
-| 扩展潜力 | 以后能否追溯修改 | 已建立BR编号、来源及IN／FAT局部采用映射 |
-| 风险可验证性 | 是否能构造反例 | 素材每条均有正常和边界例，待真实输入再测 |
+<a id="主要风险"></a>
 
-## 同类产品观察
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-13-pre-gdd-recommendation-batch.md#主要风险)
 
-本次未使用外部产品，不新增市场判断。
+<a id="同类产品观察"></a>
 
-## 主要风险
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-13-pre-gdd-recommendation-batch.md#同类产品观察)
 
-- 玩法：高层数邻近和重叠过程可能放大成长，需新参数后验证。
-- 制作：实际内容、资格、范围与渠道未齐，不能交给开发自行补默认。
-- 表达：同组先者与共享槽后者不同，必须分别显示原因。
-- 市场识别：没有真实玩家证据，不把规则清楚等同受欢迎。
+<a id="建议修改"></a>
 
-## 建议修改
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-13-pre-gdd-recommendation-batch.md#建议修改)
 
-采用明确推荐，保持未完成清单；IN-C／FAT-C只有在BR明确引用的范围内升级。完整终局证明需新曲线和前提，旧算例继续隔离。
+<a id="快速结论"></a>
 
-## 最终建议
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-13-pre-gdd-recommendation-batch.md#快速结论)
 
-进入[Draft Change](../draft-changes/D-2026-09-13-pre-gdd-recommendation-batch.md)，按本轮已有“均按推荐”授权同步核心。证据保留Hypothesis／NotRun，不启动新GDD或玩法测试。
+<a id="最终建议"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-13-pre-gdd-recommendation-batch.md#最终建议)
+
+<a id="评估对象"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-13-pre-gdd-recommendation-batch.md#评估对象)
+
+<a id="评估维度"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-13-pre-gdd-recommendation-batch.md#评估维度)

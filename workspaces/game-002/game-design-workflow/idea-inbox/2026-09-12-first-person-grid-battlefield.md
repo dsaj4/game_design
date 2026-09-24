@@ -1,53 +1,43 @@
-# 第一人称两行五格战场与环境变化
+# 第一人称两行五格战场与环境变化（已迁移）
 
-状态：Promoted（明确方向与本轮局部资格）；具体补充方案Candidate。日期：2026-09-12。Project ID：game-002。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 原始想法
+[打开新位置](../../../../yanzhou/sources/inbox/2026-09-12-first-person-grid-battlefield.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-> 帮我补全完善环境与战场系统，我的思路：游玩视角：第一人称战场（参考附件，和之前构思有区分），战场形态：设置前后两行每行5格格子，敌人默认居中，可能存在环境单位，不同单位占据不同格子的位置，不同环境单位有对应物理属性，可以受法术影响变化，战场格子也有物理属性。玩家使用法术创建的单位也存在这两行中占据位置。环境变化实例：例如玩家使用“释放 火焰”，在敌人旁边的格子生成火焰元素，此时敌人、附近格子（比如草地格子）、附近环境单位（比如一棵树）开始按规则被附加“点燃”状态，达到一定值后发生变化，树变化为被点燃的树，草地变化为被点燃的草地，再打到一定值后变为被烧焦的树和被烧焦的草地
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-本轮澄清：被点燃的树和草地是否继续点燃周围对象？用户选择“仅火焰元素向周围施加（推荐）”。只确认传播来源边界，未把其余agent补充方案整包采纳。
+<a id="下一步"></a>
 
-## 触发来源
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-12-first-person-grid-battlefield.md#下一步)
 
-用户当前请求及[所附第一人称画面](../../docs/reference-images/2026-09-12-first-person-battlefield-reference.jpg)。原临时文件名codex-clipboard-4e2f2f0b-b22a-47c4-ba80-8b178f11027e.jpg；原图复制保存，SHA-256：1928b55d32a5adedef549ba4df3d29dd4ed9b17194205a2fbb86469137ae13ee。
+<a id="原始想法"></a>
 
-图中可见正面敌人、近景地面与远景背景；仅作为视角／构图参考。两行五格来自用户文字，不是从截图识别的事实；截图中的手牌、能量、伤害数值、结束回合按钮或文字不构成本项目玩法指令。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-12-first-person-grid-battlefield.md#原始想法)
 
-## 可能带来的玩家体验
+<a id="可能带来的玩家体验"></a>
 
-玩家能从格子位置、对象属性和变化外观预测一次法术的后续环境影响；通过战前编排观察战场逐步改变。体验价值Hypothesis，尚未试玩。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-12-first-person-grid-battlefield.md#可能带来的玩家体验)
 
-## 暂定标签
+<a id="当前缺口"></a>
 
-- 类型：System / Mechanic / Presentation。
-- 情绪：可预测的变化、构筑反馈。
-- 玩法关键词：第一人称、2×5格、占位、地面、火焰、燃烧阈值、烧焦。
-- 风险关键词：空间拥塞、前后遮挡、无穷传播、对象与地面混淆。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-12-first-person-grid-battlefield.md#当前缺口)
 
-## 资格确认记录
+<a id="暂定标签"></a>
 
-使用grill-with-docs核对核心v0.6、简单对象交互、表现素材、召唤容量、GR v1、效果登记与最新简易流派创作节奏。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-12-first-person-grid-battlefield.md#暂定标签)
 
-| 资格问题 | 当前答案 | 状态 |
-| --- | --- | --- |
-| 设计对象／章节 | 战场形态、对象占位、地面属性、环境反馈；系统GDD | Clear |
-| 玩家处境／功能 | 战前读取敌人与环境，配置法术，第一人称观察自动战斗 | Clear |
-| 行为与影响 | 生成物占格，火焰影响邻近单位／地面，阈值改变环境外观及可作用资格 | Clear |
-| 设计价值 | 位置与物性可读，生成法术具有持续世界影响 | Clear |
-| 与现有关系 | 复用战前配置、四阶段和状态骨架；局部扩展格子及火焰邻近作用，区别于全面传播或位移 | Clear |
-| 未知与验证 | 占位层、邻近、出生、阈值与事件细节由agent补Candidate；未来用最小场景与边界验证 | Clear |
+<a id="第一人称两行五格战场与环境变化"></a>
 
-### 当前缺口
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-12-first-person-grid-battlefield.md#第一人称两行五格战场与环境变化)
 
-方向达到素材资格；推荐补充在GDD中明确标Candidate。具体平衡数值、完整其他元素／召唤能力和整包正式采纳未完成，不能称为可执行测试输入。
+<a id="触发来源"></a>
 
-### 资格结论
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-12-first-person-grid-battlefield.md#触发来源)
 
-- [x] Promoted：[正式素材](../idea-materials/M-2026-09-12-first-person-grid-battlefield.md)。
-- [x] 原始表达与单项确认保持可追溯。
-- [ ] 整包玩法采纳：待审阅具体草案，不因局部回答自动采纳。
+<a id="资格确认记录"></a>
 
-## 下一步
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-12-first-person-grid-battlefield.md#资格确认记录)
 
-完成[系统草案](../gdd/GDD-2026-09-12-first-person-grid-battlefield.md)、效果登记与拟修改，集中展示推荐方案；不启动测试或代码开发。
+<a id="资格结论"></a>
+
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-12-first-person-grid-battlefield.md#资格结论)

@@ -1,44 +1,39 @@
-# 简单对象交互范围评估
+# 简单对象交互范围评估（已迁移）
 
-## 评估对象
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-- 提案：[简单对象变化与元素生成物](../idea-proposals/P-2026-09-10-simple-object-interactions.md)。
-- 日期：2026-09-10。
-- 评估人：Codex；定性文档审查，未做原型或玩家测试。
+[打开新位置](../../../../yanzhou/sources/evaluations/E-2026-09-10-simple-object-interactions.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-## 快速结论
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-推荐推进。用户已经明确要求收束操作范围；该方案可减少材料和空间依赖，并保留“对象受到作用后改变”的核心诉求。
+<a id="主要风险"></a>
 
-## 评估维度
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-10-simple-object-interactions.md#主要风险)
 
-| 维度 | 判断 |
-| --- | --- |
-| 核心动作 | 战前构句不变，结果集中于数量/状态与真实生成物 |
-| 实现可能性 | 设计依赖减少；本轮不作代码或排期估算 |
-| 可玩性潜力 | 生成物复用和作用时机有待验证，不能凭简化判定更好玩 |
-| 决策深度 | 放弃空间加工深度，保留对象、效果、时间和收集取舍 |
-| 反馈强度 | 点燃/冰冻和掉卡较易呈现，真实对象与特效须区分 |
-| 差异化/市场 | 本轮无外部产品证据，不评分 |
-| 范围控制 | 不依赖容器、份额、配方、连接和指定方向 |
-| 扩展潜力 | 可按单一词义逐步补对象，不须恢复整条复杂操作链 |
-| 风险可验证性 | 生成后再引用、反弹失效和重复掉卡可以小场景走查 |
+<a id="同类产品观察"></a>
 
-## 同类产品观察
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-10-simple-object-interactions.md#同类产品观察)
 
-未引入竞品结论，评估仅依据本项目已确认目标与规则。
+<a id="建议修改"></a>
 
-## 主要风险
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-10-simple-object-interactions.md#建议修改)
 
-- 生成物缺少真实窗口，会把所见可操作降成操作特效。
-- 冰冻被默认为停攻，或雷电默认为连锁，会越过实际确认范围。
-- 自动反弹/转移没有明确接收规则，结果仍无法唯一解释。
-- 掉卡缺少资格与次数约束，会造成重复产出。
+<a id="快速结论"></a>
 
-## 建议修改
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-10-simple-object-interactions.md#快速结论)
 
-同步核心及R表的当前适用范围；收拢目录并保存输入快照；将具体未知集中为内容任务。不要再次询问用户是否删去已明确暂缓的能力。
+<a id="最终建议"></a>
 
-## 最终建议
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-10-simple-object-interactions.md#最终建议)
 
-进入[Draft Change](../draft-changes/D-2026-09-10-simple-object-interactions.md)，按用户明确指令采纳范围；具体效果和参数后续独立完善。
+<a id="简单对象交互范围评估"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-10-simple-object-interactions.md#简单对象交互范围评估)
+
+<a id="评估对象"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-10-simple-object-interactions.md#评估对象)
+
+<a id="评估维度"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-10-simple-object-interactions.md#评估维度)

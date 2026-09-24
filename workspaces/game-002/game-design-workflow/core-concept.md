@@ -1,29 +1,23 @@
-# game-002：《言咒》核心构思
+# game-002：《言咒》核心构思（已迁移）
 
-核心标识：Core Concept v0.6。设计状态：Accepted；现行制作规格：GDD 1.0 RC1 / doc.1。体验与完整RC1验证仍Hypothesis。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 核心概念
+[打开新位置](../../../yanzhou/design/core-concept.md) · [言咒项目入口](../../../yanzhou/README.md) · [迁移说明](../../../yanzhou/governance/layout-migration-report.md)
 
-玩家在战前使用真实词卡组成完整循环法术，绑定法杖、设置范围、顺序与首次冷却起点；战中观察自动执行；战后处理整体收益，沿分叉路线成长并挑战单阶段首领。目标体验是能解释法术为何成功或落空，并知道下一场应怎样调整。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 必须保持的核心约束
+<a id="game-002言咒核心构思"></a>
 
-- 一实体一位置一法术；完整法术绑定一根杖。类型允许多标签，词性、类型和流派分别判断。
-- 战前配置、战中自动；观察、暂停、倍速不开放重配权限。
-- 共享槽仲裁每刻释放开始；覆盖和打断的续排按现行时序，持续过程可有限并存。
-- 实例身份与条件搜索分开；本次名单固定，逐对象仍检查当前资格与费用。
-- 第一人称2×5棋盘，每格地面与占位独立，玩家在棋盘外；元素、状态、固有属性和历史痕迹分开。
-- 完整事件后检查胜负，有限一层触发；数量取整、自然衰减与疲劳例外各按明确规则。
-- 普通胜利整体领取或放弃金币；真实资源跨战，场内状态清理；同场锁定重播不刷新选择。
+[对应正文](../../../yanzhou/design/core-concept.md#game-002言咒核心构思)
 
-以上为摘要，不单独定义全部例外、参数或执行细节。
+<a id="必须保持的核心约束"></a>
 
-## 现行规格与来源
+[对应正文](../../../yanzhou/design/core-concept.md#必须保持的核心约束)
 
-- [完整GDD](gdd/current/GDD.md)与[七系统、内容及参数](gdd/current/README.md)。
-- [版本清单](gdd/current/baseline.md)：53实体、三种法杖、四根出战与路线范围。
-- [决策记录](decision-log.md)：CORE-001–036与文档决定。
-- [当前问题](../docs/design-decisions-needed.md)：AUD-010未因原26组关闭而自动解决。
-- [本次整理决定](draft-changes/D-2026-09-23-document-organization.md)：只重组既有设计。
+<a id="核心概念"></a>
 
-[整理前完整核心](../docs/history/pre-organization/game-design-workflow/core-concept.md)。优化探索不属于现行核心，回写须走目标项目Draft Change。
+[对应正文](../../../yanzhou/design/core-concept.md#核心概念)
+
+<a id="现行规格与来源"></a>
+
+[对应正文](../../../yanzhou/design/core-concept.md#现行规格与来源)

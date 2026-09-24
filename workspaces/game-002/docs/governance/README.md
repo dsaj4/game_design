@@ -1,14 +1,11 @@
-# 文档治理
+# 文档治理（已迁移）
 
-- [文档职责与规则写法](document-contract.md)
-- [规则、决策与内容编号](id-registry.md)
-- [矛盾与模糊表述处理](conflict-register.md)
-- [整理报告与文件清单](organization-report.md)
-- [全量范围库存](inventory.md)
-- [机器清单](inventory.json)
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-本目录管理文档，不新增玩法。设计来源仍经inbox、资格确认、Proposal／Evaluation与Draft Change推进。
+[打开新位置](../../../../yanzhou/governance/README.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-[规则ID定位](rule-index.md)按公共规则和各系统章节提供直达入口。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-[核心闭环迁移覆盖](migration-coverage.md)记录跨系统旧段落的现行归属。
+<a id="文档治理"></a>
+
+[对应正文](../../../../yanzhou/governance/README.md)

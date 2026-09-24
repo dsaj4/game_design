@@ -1,89 +1,51 @@
-# 护甲的生成与存续
+# 护甲的生成与存续（已迁移）
 
-状态：Qualified GDD Material。证据：Hypothesis。资格覆盖下列明确表述；具体后置机制与参数保持 Unknown，素材可引用不等于完整系统已采纳或通过验证。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 素材控制
+[打开新位置](../../../../yanzhou/sources/materials/M-2026-09-06-armor-identity-generation-and-persistence.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-| 字段 | 内容 |
-| --- | --- |
-| 素材 ID | MAT-2026-09-06-armor-identity-generation-and-persistence |
-| 素材类型 | Mechanic / System / Constraint |
-| 来源 inbox | [来源入口](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md) |
-| 原始确认 | [原始记录](../../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-armor-identity-generation-and-persistence.md) |
-| 资格确认日期 | 2026-09-06；适用范围复核2026-09-10 |
-| 确认方式 | grill-with-docs：依据用户确认记录、当前核心及文档统一授权复核 |
-| 当前证据状态 | Hypothesis |
-| 负责人 | 用户决定设计，agent维护表述与来源 |
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 规范化表述
+<a id="2026-09-14-全游戏gdd使用记录"></a>
 
-基础防护状态统一称护甲，同一对象上作为一份可累积数量状态存在。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-armor-identity-generation-and-persistence.md#2026-09-14-全游戏gdd使用记录)
 
-“获得 护甲”是生成操作，省略主语时玩家获得；零护甲也可生成，不从其他对象扣取。
+<a id="与当前构思的关系"></a>
 
-新增护甲加入现有量，无自然到期、无自动周期效果；整场结束后按临时状态规则清除。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-armor-identity-generation-and-persistence.md#与当前构思的关系)
 
-普通直接和持续伤害先等量消耗受伤对象的护甲，溢出再扣其生命；护甲完全抵挡的攻击不会触发生命伤害打断。
+<a id="使用记录"></a>
 
-玩家、敌人和召唤物使用各自护甲，不自动共享。护甲作为材料的读取或消耗由具体词义决定。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-armor-identity-generation-and-persistence.md#使用记录)
 
-持有护甲状态与分配护甲词卡是不同条件。配置词卡及重复释放本身不扣除护甲状态。
+<a id="护甲的生成与存续"></a>
 
-护甲没有统一硬上限，具体效果需要专属上限时须明示；不可自动加入每行动清零或自然衰减。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-armor-identity-generation-and-persistence.md#护甲的生成与存续)
 
-## 设计对象与 GDD 映射
+<a id="未知项与验证"></a>
 
-- 作用对象：护甲的生成与存续。
-- 目标 GDD：尚未创建；作为相应系统、规则边界及验证章节的素材。
-- 对应完成度：GDD-0 / GDD-1 素材输入；具体内容与参数需另行确认。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-armor-identity-generation-and-persistence.md#未知项与验证)
 
-## 玩家处境、行为与反馈
+<a id="机制行为体验假设"></a>
 
-- 玩家处境：依据库存、场景与公开攻击安排进行战前选择，观察自动战斗，再处理战后及路线决定。
-- 玩家可见信息：本素材规范化表述中的条件、对象和结果；具体界面呈现待验证。
-- 行为与反馈：通过上述规则判断资源、时间或对象关系；验证情境为“比较同一敌方攻击被完全抵挡和部分穿透时的生命及冷却后果。”
-- 预期价值：玩家能解释选择如何改变后续结果；实际策略价值仍为Hypothesis。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-armor-identity-generation-and-persistence.md#机制行为体验假设)
 
-## 与当前构思的关系
+<a id="玩家处境行为与反馈"></a>
 
-- 核心依据：[Core Concept v0.6](../core-concept.md)，支持战前配置、自动循环与可推导语义。
-- 相关系统：[素材索引](README.md)按主题列出依赖；[领域词汇](../../CONTEXT.md)统一概念。
-- 已确认处理范围：[无未决规则冲突；具体内容与体验仍待验证](../../docs/design-decisions-needed.md)。
-- 明确边界：本文不补齐未决的具体效果、参数、资源权限或额外玩家操作，也不作为实现完成证明。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-armor-identity-generation-and-persistence.md#玩家处境行为与反馈)
 
-## 机制—行为—体验假设
+<a id="素材控制"></a>
 
-| 规则 | 可能行为 | 目标体验 |
-| --- | --- | --- |
-| 基础防护状态统一称护甲，同一对象上作为一份可累积数量状态存在。 | 依据明确约束比较方案及其后果 | 可预测且可解释的选择 |
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-armor-identity-generation-and-persistence.md#素材控制)
 
-## 未知项与验证
+<a id="规范化表述"></a>
 
-| 未知或风险 | 影响 | 下一步 | 成功信号 | 失败信号 |
-| --- | --- | --- | --- | --- |
-| 生成量、专属上限和长期积累的平衡。 | 影响完整设计与效果可解释性 | 比较同一敌方攻击被完全抵挡和部分穿透时的生命及冷却后果。 | 玩家可预测结果，关键情境有唯一裁定 | 结果依赖未确认规则，或一类选择长期无价值 |
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-armor-identity-generation-and-persistence.md#规范化表述)
 
-## 资格确认清单
+<a id="设计对象与-gdd-映射"></a>
 
-- [x] 原始表达与用户确认可追溯。
-- [x] 设计对象与章节用途明确。
-- [x] 玩家处境或设计功能明确。
-- [x] 当前规范化表述的行为、可见影响或约束明确。
-- [x] 预期价值明确，验证状态如实保留。
-- [x] 与核心及处理范围的关系明确。
-- [x] 未知项与下一步验证方式明确。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-armor-identity-generation-and-persistence.md#设计对象与-gdd-映射)
 
-## 使用记录
+<a id="资格确认清单"></a>
 
-| 日期 | 目标 | 处理结果 | 边界 |
-| --- | --- | --- | --- |
-| 2026-09-10 | [设计文档统一](../draft-changes/D-2026-09-10-current-design-alignment.md) | Included：明确表述部分 | 原始使用与确认记录从来源快照追溯；当前处理范围见接口采纳记录，尚无GDD |
-
-
-## 2026-09-14 全游戏GDD使用记录
-
-| 日期 | 目标与处理 | 当前适用边界 |
-| --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/03-combat-and-status.md) | 保留现行身份、时序、成功及费用框架；旧具体例和参数只在RC1仍适用时使用。 |
-
-本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-armor-identity-generation-and-persistence.md#资格确认清单)

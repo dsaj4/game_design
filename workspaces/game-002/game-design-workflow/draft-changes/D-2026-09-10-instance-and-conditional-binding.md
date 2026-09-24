@@ -1,52 +1,39 @@
-# 实例绑定与条件绑定采纳
+# 实例绑定与条件绑定采纳（已迁移）
 
-状态：Accepted / SW02引用模型。决策：G002-CORE-008。证据：Hypothesis。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-本文保留SW02采纳时文本；其中关于名单时点待定的记载属于当时状态。后续SW02-A已按[单次名单采纳](D-2026-09-10-single-release-target-list.md)确认；当前剩余问题见[总表](../idea-inbox/2026-09-10-semantic-world-remaining-decisions.md)。
+[打开新位置](../../../../yanzhou/sources/draft-changes/D-2026-09-10-instance-and-conditional-binding.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-## 修改目标
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-在Core Concept v0.6内完善目标引用规则：实例绑定与条件绑定并存。同步当前目标、逐对象处理、预览及单位身份表述，单次名单和排序细则保持待定。
+<a id="仍需保留的疑问"></a>
 
-## 来源
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-instance-and-conditional-binding.md#仍需保留的疑问)
 
-- [合格引用素材](../idea-materials/M-2026-09-10-instance-and-conditional-binding.md)。
-- 提案：[两种引用并存](../idea-proposals/P-2026-09-10-instance-and-conditional-binding.md)。
-- 评估：[引用模型评估](../evaluations/E-2026-09-10-instance-and-conditional-binding.md)。
-- [SW02用户确认记录](../idea-inbox/2026-09-10-semantic-world-object-scope.md)：用户对两种引用并存回答“确认”。确认不包含此前注明另议的名单时点、排序与表达细则。
+<a id="修改目标"></a>
 
-## 拟新增内容
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-instance-and-conditional-binding.md#修改目标)
 
-以下为核心与素材使用的引用规则正文：
+<a id="实例绑定与条件绑定采纳"></a>
 
-法术对象引用支持实例绑定与条件绑定，两种方式并存。实例绑定在战前明确所指对象身份，后续释放持续尝试该对象；对象失效时跳过，不自动指向同名或其他对象。条件绑定在战前确定选择条件，每次释放按当前世界匹配符合条件的对象，符合条件的新生对象可以参与。
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-instance-and-conditional-binding.md#实例绑定与条件绑定采纳)
 
-两种绑定均遵守法杖允许范围、已分配词卡的词义及对象当前合法性；匹配到对象不保证材料足够或效果可执行。词卡分配、绑定方式和选择条件在战前配置，战中不由玩家改写。具体实例的失效不会把该引用自动转为条件搜索。
+<a id="拟新增内容"></a>
 
-单次释放的名单确定时点、名单内顺序及过程中新增或变化对象的处理，继续按SW02-A及后续细则设计。条件表达、空间变化、过程可介入时段与具体操作权限仍分别依赖SW03–SW07；数值继续重新设计。
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-instance-and-conditional-binding.md#拟新增内容)
 
-## 拟替换内容
+<a id="拟替换内容"></a>
 
-- 核心的目标段落改为两种引用并存；环境位置、无生命与攻击行为边界继续适用。
-- 逐对象段落区分实例既定顺序与尚需明确的条件名单顺序；材料检查、失败跳过、完整法术判胜和成功事件继续适用。
-- 核心边界中的对象集合固定要求限定为实例身份；条件绑定固定的是战前选择条件。
-- 当前适用说明、词汇、预览、召唤引用、数值输入及项目入口同步同一含义。
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-instance-and-conditional-binding.md#拟替换内容)
 
-采纳前完整文本保留于Git提交04820cd；本次精确改动可由提交差异追溯。既有原始快照及采纳时证据不改写。
+<a id="来源"></a>
 
-## 采纳理由
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-instance-and-conditional-binding.md#来源)
 
-SW01已覆盖过程对象，SW02让满足条件的新生对象可以被表达；具体实例仍有稳定身份，法术配置继续在战前完成。
+<a id="确认状态"></a>
 
-## 仍需保留的疑问
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-instance-and-conditional-binding.md#确认状态)
 
-SW02-A名单确定时点，随后是公开排序、重复引用、条件表达、空间与过程窗口；其余SW03–SW07及数值继续独立设计。
+<a id="采纳理由"></a>
 
-## 确认状态
-
-- [x] 用户已明确确认两种引用并存。
-- [x] 已采纳并写入core-concept.md及G002-CORE-008。
-- [ ] 已搁置。
-- [ ] 已拒绝。
-
-文件范围与检查记录见[本次交付](../../docs/semantic-world-binding-adoption.md)。
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-instance-and-conditional-binding.md#采纳理由)

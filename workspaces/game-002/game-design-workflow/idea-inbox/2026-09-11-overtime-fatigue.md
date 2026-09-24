@@ -1,49 +1,43 @@
-# 超时疲劳与法术恢复限制
+# 超时疲劳与法术恢复限制（已迁移）
 
-状态：Promoted。日期：2026-09-11。Project ID：game-002。用户明确的疲劳方向Accepted；执行细则与具体数值为Candidate。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 原始想法
+[打开新位置](../../../../yanzhou/sources/inbox/2026-09-11-overtime-fatigue.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-> 超时时引入 疲劳 机制，双方开始随时间扣减血量且法术不再能够恢复血量
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 触发来源
+<a id="下一步"></a>
 
-用户针对[四层框架NF-D01](../idea-materials/M-2026-09-11-numerical-evaluation-framework.md)给出终局保障方向。现有攻防测试出现截止未结束；纯护甲配置缺少结束压力。用户同时要求先完善数值框架，暂不扩展其他法术效果。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-overtime-fatigue.md#下一步)
 
-## 可能带来的玩家体验
+<a id="原始想法"></a>
 
-长时间未分胜负时出现双方共同承受的生命压力，玩家能理解继续拖延的代价。可控时长与策略多样性仍须验证，不能因为存在疲劳就判体验通过。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-overtime-fatigue.md#原始想法)
 
-## 暂定标签
+<a id="可能带来的玩家体验"></a>
 
-- 类型：System / Constraint。
-- 体验：结束压力、可预期风险。
-- 关键词：超时、疲劳、持续扣血、法术禁疗。
-- 风险：护甲抵消疲劳、禁疗漏判、双方同死歧义、纯防御等待成为最优。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-overtime-fatigue.md#可能带来的玩家体验)
 
-## 资格确认记录
+<a id="当前缺口"></a>
 
-使用grill-with-docs对照核心、伤害／护甲、胜负及数值框架。用户已决定引入疲劳、双方随时间扣血及禁止法术恢复生命，无需再询问是否采用。下面推荐细则由agent提出，未冒充用户确认。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-overtime-fatigue.md#当前缺口)
 
-| 资格问题 | 当前答案 | 状态 |
-| --- | --- | --- |
-| 设计对象 | 战斗超时后的全局终局机制 | Clear |
-| 玩家处境／功能 | 已配置法术自动运行，战斗超过常规时间仍未结束 | Clear |
-| 行为与影响 | 战前权衡输出与防护；超时后观察双方扣血及法术恢复被阻止 | Clear |
-| 预期价值 | 对无限防御循环施加结束压力，同时保留继续争取胜利的过程 | Clear，体验Hypothesis |
-| 与现有关系 | 沿用自动战斗及同检查点失败优先；疲劳是世界基础规则，不新增词卡 | Clear |
-| 未知与验证 | 触发时刻、扣血曲线、护甲／打断关系、同刻时序尚待定值；以候选边界及有限结束证明审查 | Clear |
+<a id="暂定标签"></a>
 
-### 当前缺口
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-overtime-fatigue.md#暂定标签)
 
-精确执行细则与参数未采纳；详见正式素材的FAT-C候选，测试以明确候选包运行。不会因禁疗约束而开放尚未设计的治疗法术。
+<a id="触发来源"></a>
 
-### 资格结论
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-overtime-fatigue.md#触发来源)
 
-- [x] Promoted：[超时疲劳素材](../idea-materials/M-2026-09-11-overtime-fatigue.md)。
-- [x] 用户明确方向进入提案、评估、Draft Change并采纳；候选细则保留独立状态。
+<a id="资格确认记录"></a>
 
-## 下一步
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-overtime-fatigue.md#资格确认记录)
 
-- [ ] 独立审查候选扣血、禁疗与终局边界，并检查纯防御等待收益。
-- [ ] 根据证据校准参数，继续完善四层数值框架。
+<a id="资格结论"></a>
+
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-overtime-fatigue.md#资格结论)
+
+<a id="超时疲劳与法术恢复限制"></a>
+
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-overtime-fatigue.md#超时疲劳与法术恢复限制)

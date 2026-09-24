@@ -1,92 +1,51 @@
-# 召唤词语义与单位绑定
+# 召唤词语义与单位绑定（已迁移）
 
-状态：Qualified GDD Material。证据：Hypothesis。资格覆盖下列明确表述；具体后置机制与参数保持 Unknown，素材可引用不等于完整系统已采纳或通过验证。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 素材控制
+[打开新位置](../../../../yanzhou/sources/materials/M-2026-09-06-summon-word-references-and-target-locking.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-| 字段 | 内容 |
-| --- | --- |
-| 素材 ID | MAT-2026-09-06-summon-word-references-and-target-locking |
-| 素材类型 | Mechanic / System / Constraint |
-| 来源 inbox | [来源入口](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md) |
-| 原始确认 | [原始记录](../../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-summon-word-references-and-target-locking.md) |
-| 资格确认日期 | 2026-09-06；适用范围复核2026-09-10 |
-| 确认方式 | grill-with-docs：依据用户确认记录、当前核心及文档统一授权复核 |
-| 当前证据状态 | Hypothesis |
-| 负责人 | 用户决定设计，agent维护表述与来源 |
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 规范化表述
+<a id="2026-09-14-全游戏gdd使用记录"></a>
 
-普通召唤种类词在词义上可表达生成同种单位，也可表达操作该种已有单位；语义许可不保证当前已有有效单位。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-summon-word-references-and-target-locking.md#2026-09-14-全游戏gdd使用记录)
 
-执行者、操作内容和受术目标分别定义：“强化 恶魔”由玩家执行并强化恶魔，“恶魔 释放 火焰”由单位执行。
+<a id="与当前构思的关系"></a>
 
-普通种类词的单位引用按[SW02](M-2026-09-10-instance-and-conditional-binding.md)区分实例与条件绑定；词义和已配置条件须明确，种类词不自动代表最强、最新或全部同种单位。条件表达框架按R05–R07执行，具体单位词条与完整召唤流程后置。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-summon-word-references-and-target-locking.md#与当前构思的关系)
 
-专属引用只指绑定单位，普通种类词与专属引用的权限不能混同。单位离场不删除普通种类词。
+<a id="使用记录"></a>
 
-固定身份不冻结生命和状态数值，不预留状态量/成本，也不保证对象存活。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-summon-word-references-and-target-locking.md#使用记录)
 
-C03已确认暂缓完整召唤指挥；推进时单独设计战前明确绑定的单位占位及出生位置。C04确认当前不新增专属引用词卡；若采用单位占位，以其身份记录引用。上述方向不代表已有完整占位机制。
+<a id="召唤词语义与单位绑定"></a>
 
-## 设计对象与 GDD 映射
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-summon-word-references-and-target-locking.md#召唤词语义与单位绑定)
 
-- 作用对象：召唤词语义与单位绑定。
-- 目标 GDD：尚未创建；作为相应系统、规则边界及验证章节的素材。
-- 对应完成度：GDD-0 / GDD-1 素材输入；具体内容与参数需另行确认。
+<a id="未知项与验证"></a>
 
-## 玩家处境、行为与反馈
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-summon-word-references-and-target-locking.md#未知项与验证)
 
-- 玩家处境：依据库存、场景与公开攻击安排进行战前选择，观察自动战斗，再处理战后及路线决定。
-- 玩家可见信息：本素材规范化表述中的条件、对象和结果；具体界面呈现待验证。
-- 行为与反馈：通过上述规则判断资源、时间或对象关系；验证情境为“用先召唤后指挥的两条循环法术逐刻列出身份、容量和范围所需前提。”
-- 预期价值：玩家能解释选择如何改变后续结果；实际策略价值仍为Hypothesis。
+<a id="机制行为体验假设"></a>
 
-## 与当前构思的关系
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-summon-word-references-and-target-locking.md#机制行为体验假设)
 
-- 核心依据：[Core Concept v0.6](../core-concept.md)，支持战前配置、自动循环与可推导语义。
-- 相关系统：[素材索引](README.md)按主题列出依赖；[领域词汇](../../CONTEXT.md)统一概念。
-- 已确认处理范围：[C03、C04](../../docs/design-decisions-needed.md)。
-- 明确边界：本文不补齐未决的具体效果、参数、资源权限或额外玩家操作，也不作为实现完成证明。
+<a id="玩家处境行为与反馈"></a>
 
-## 机制—行为—体验假设
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-summon-word-references-and-target-locking.md#玩家处境行为与反馈)
 
-| 规则 | 可能行为 | 目标体验 |
-| --- | --- | --- |
-| 普通召唤种类词在词义上可表达生成同种单位，也可表达操作该种已有单位；语义许可不保证当前已有有效单位。 | 依据明确约束比较方案及其后果 | 可预测且可解释的选择 |
+<a id="素材控制"></a>
 
-## 未知项与验证
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-summon-word-references-and-target-locking.md#素材控制)
 
-| 未知或风险 | 影响 | 下一步 | 成功信号 | 失败信号 |
-| --- | --- | --- | --- | --- |
-| 已后置的战前单位占位、出生位置、容量检查及敌方攻击绑定细则。 已后置的占位身份生命周期；当前不新增专属引用词卡。 | 影响具体内容与体验 | 先按已确认规则审查情境，后置机制在实际推进时独立设计；参数按数值重设计任务验证 | 结果唯一且可解释 | 依赖未设计参数或产生隐含权限 |
+<a id="规范化表述"></a>
 
-## 资格确认清单
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-summon-word-references-and-target-locking.md#规范化表述)
 
-- [x] 原始表达与用户确认可追溯。
-- [x] 设计对象与章节用途明确。
-- [x] 玩家处境或设计功能明确。
-- [x] 当前规范化表述的行为、可见影响或约束明确。
-- [x] 预期价值明确，验证状态如实保留。
-- [x] 与核心及处理范围的关系明确。
-- [x] 未知项与下一步验证方式明确。
+<a id="设计对象与-gdd-映射"></a>
 
-## 使用记录
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-summon-word-references-and-target-locking.md#设计对象与-gdd-映射)
 
-2026-09-10：按[SW02两种引用采纳](../draft-changes/D-2026-09-10-instance-and-conditional-binding.md)同步引用范围；随后按[SW02-A名单采纳](../draft-changes/D-2026-09-10-single-release-target-list.md)明确每次开始处理时的直接名单，本次不追加、重选或补位，逐对象检查当前合法性与材料。后续R01–R32已全部采纳，排序与交互框架见[R01–R32执行规则](M-2026-09-10-semantic-world-executable-rules.md)，证据Hypothesis。
+<a id="资格确认清单"></a>
 
-| 日期 | 目标 | 处理结果 | 边界 |
-| --- | --- | --- | --- |
-| 2026-09-10 | [设计文档统一](../draft-changes/D-2026-09-10-current-design-alignment.md) | Included：明确表述部分 | 原始使用与确认记录从来源快照追溯；当前处理范围见接口采纳记录，尚无GDD |
-| 2026-09-10 | [接口采纳](../draft-changes/D-2026-09-10-accept-design-decisions.md) | Included：C03、C04处理范围 | 用户采用推荐；参数重设计，后置机制细则仍为Unknown |
-
-2026-09-10：按[用户R01–R32全部采纳](../draft-changes/D-2026-09-10-semantic-world-executable-rules.md)同步本素材受影响表述；具体对象、词卡和参数仍按对应范围设计，证据Hypothesis。
-
-
-## 2026-09-14 全游戏GDD使用记录
-
-| 日期 | 目标与处理 | 当前适用边界 |
-| --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Park；[实际章节](../gdd/yanzhou-rc1/README.md) | 完整召唤与指挥首版后置；保留来源、类型与单位模型，不要求制作这些卡或流程。 |
-
-本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-summon-word-references-and-target-locking.md#资格确认清单)

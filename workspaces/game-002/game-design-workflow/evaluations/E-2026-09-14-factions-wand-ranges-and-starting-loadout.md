@@ -1,45 +1,39 @@
-# 阵营、法杖范围与起始库存评估
+# 阵营、法杖范围与起始库存评估（已迁移）
 
-## 评估对象
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-- 提案：[HG02／WG01／SG01](../idea-proposals/P-2026-09-14-factions-wand-ranges-and-starting-loadout.md)。
-- 日期：2026-09-14。
-- 评估人：设计agent；用户已明确采纳该组。
+[打开新位置](../../../../yanzhou/sources/evaluations/E-2026-09-14-factions-wand-ranges-and-starting-loadout.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-## 快速结论
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-推荐推进：该组提供具体对象、实际覆盖格与实体库存，可关闭范围、资格及起点的规则缺口；不构成平衡或玩家理解证据。
+<a id="主要风险"></a>
 
-## 评估维度
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-factions-wand-ranges-and-starting-loadout.md#主要风险)
 
-| 维度 | 分数 | 判断问题 | 评估 |
-| --- | --- | --- | --- |
-| 核心动作清晰度 | 不评分 | 是否明确怎样配置 | 12张实体、4杖、10锚点与三形状均明确 |
-| 实现可能性 | 不评分 | 规则是否可以唯一解释 | 范围裁切、身份归属可确定；不评技术实现 |
-| 可玩性潜力 | 未验证 | 两套配置是否有价值 | 实体可表达，不推断战斗胜率 |
-| 决策深度 | 未验证 | 是否存在实质取舍 | 生成／操控分别占词，范围与特效不同；强弱待PG／RG |
-| 反馈强度 | 未验证 | 是否可辨认规则结果 | 可由范围预览与身份标识表现；待UX与用户观察 |
-| 差异化 | 不评分 | 是否增强本项目体验 | 明确空间与语义编排，不新增无关循环 |
-| 市场参照 | 未研究 | 有无外部证据 | 本次没有市场结论 |
-| 范围控制 | 不评分 | 是否越界 | 3固定芯属于3法杖身份，19可换镶嵌不增项 |
-| 扩展潜力 | 未验证 | 是否支持后续内容 | 同款实体与替换机制明确，不增加出战数量 |
-| 风险可验证性 | 不评分 | 能否定向观察错误 | 边缘锚点、借位、友方冰霜和重复副本有明确反例 |
+<a id="同类产品观察"></a>
 
-## 同类产品观察
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-factions-wand-ranges-and-starting-loadout.md#同类产品观察)
 
-没有新增同类资料，不据此判断市场识别度。
+<a id="建议修改"></a>
 
-## 主要风险
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-factions-wand-ranges-and-starting-loadout.md#建议修改)
 
-- 玩法：基础法术可编不代表初战能赢，需成套参数与遭遇。
-- 制作：范围、附属状态和固定芯需一致展示，实际制作另行安排。
-- 表达：友方冰霜的主要邻近对象可能是友方元素；玩家棋盘外规则必须保持。
-- 市场识别：本次未评估。
+<a id="快速结论"></a>
 
-## 建议修改
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-factions-wand-ranges-and-starting-loadout.md#快速结论)
 
-同步旧素材中起始数量／范围Unknown；节律芯明确只强化含简易类型的本杖法术。原木杖商品改动留给RG，UX初始配置和跨战实例处理不作为本组默认规则。
+<a id="最终建议"></a>
 
-## 最终建议
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-factions-wand-ranges-and-starting-loadout.md#最终建议)
 
-按用户本次“确认”进入[Draft Change](../draft-changes/D-2026-09-14-factions-wand-ranges-and-starting-loadout.md)并采纳，无需重复征询。设计状态Accepted，证据Hypothesis／NotRun；继续裁决CG及后续实际候选。
+<a id="评估对象"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-factions-wand-ranges-and-starting-loadout.md#评估对象)
+
+<a id="评估维度"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-factions-wand-ranges-and-starting-loadout.md#评估维度)
+
+<a id="阵营法杖范围与起始库存评估"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-factions-wand-ranges-and-starting-loadout.md#阵营法杖范围与起始库存评估)

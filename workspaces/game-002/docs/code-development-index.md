@@ -1,21 +1,19 @@
-# 言咒实现与资产索引
+# 言咒实现与资产索引（已迁移）
 
-文档角色：ImplementationIndex。更新：2026-09-23。以下是已有交付记录的整理，不是本轮重新运行验收。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-| 项目 | 记录中的版本与用途 | 完成边界／入口 |
-| --- | --- | --- |
-| 暗面Demo | v0.1；codex/dark-demo；cf7b98d | [README](E:/Project/yanzhou-dark-demo/README.md)；05视觉下的独立可玩流程，完整RC1验收未完成 |
-| Godot／Blender资产实验 | 独立美术及技术实验，按各报告版本 | [资产仓库入口](E:/Project/game-002-godogen-lab/README.md)；模型、渲染、Godot小样不能合并成完整游戏进度 |
-| 其他历史Demo与迭代 | 原版本分别保留 | 见历史开发记录，不按最近修改日期自动替代 |
+[打开新位置](../../../yanzhou/development/README.md) · [言咒项目入口](../../../yanzhou/README.md) · [迁移说明](../../../yanzhou/governance/layout-migration-report.md)
 
-## 当前可玩Demo缺口
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-已有34词／19可换件、三种杖、四杖起点、2×5战斗、19节点／12遭遇及保存流程。尚缺复杂条件／数量比较、精确实例与来源筛选编辑、拖动、独立敌人／完整环境形态美术、音频、实体桌面与长袋及完整路线表现。不是原生引擎EXE。
+<a id="后续工作"></a>
 
-16项局部检查和固定seed42烟测已记录；烟测在C5L第76刻失败，第6战与首领未到达。720单场／20整局和真人U01–08未完成；[测试交接](test-handoff.md)维护运行身份。
+[对应正文](../../../yanzhou/development/README.md#后续工作)
 
-## 后续工作
+<a id="当前可玩demo缺口"></a>
 
-依据[RC1当前规则](../game-design-workflow/gdd/current/README.md)修补实现，先处理有唯一预期的差异；AUD-010等设计歧义先回设计问题。新测试须另冻结设计和代码输入，不把本次目录整理当作新玩法证据。
+[对应正文](../../../yanzhou/development/README.md#当前可玩demo缺口)
 
-[全部历史版本、资产和交付证据](history/pre-organization/docs/code-development-index.md)。
+<a id="言咒实现与资产索引"></a>
+
+[对应正文](../../../yanzhou/development/README.md#言咒实现与资产索引)

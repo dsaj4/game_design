@@ -1,48 +1,39 @@
-# 第一人称格子环境系统评估
+# 第一人称格子环境系统评估（已迁移）
 
-## 评估对象
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-- 提案：[P-2026-09-12-first-person-grid-battlefield](../idea-proposals/P-2026-09-12-first-person-grid-battlefield.md)。
-- 日期：2026-09-12。
-- 评估人：设计agent；仅文档推理，无新执行证据。
+[打开新位置](../../../../yanzhou/sources/evaluations/E-2026-09-12-first-person-grid-battlefield.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-## 快速结论
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-- 结论：推荐推进。
-- 理由：用固定十格、独立地面与占位体、单一火焰传播源实现可观察环境变化；在已知规则上可给出有限且唯一的候选结果。
+<a id="主要风险"></a>
 
-## 评估维度
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-12-first-person-grid-battlefield.md#主要风险)
 
-不对未测内容伪造量化评分，以下以定性判断替代1–5分。
+<a id="同类产品观察"></a>
 
-| 维度 | 判断 | 依据／限制 |
-| --- | --- | --- |
-| 核心动作 | 清晰 | 战前配置、战中观察，第一人称不改变输入流程 |
-| 设计可落地性 | 可形成有限规格 | 格子、名单、寿命、阈值明确；未审具体代码，参数未冻结 |
-| 可玩性潜力 | 待测 | 邻近对象与空位改变潜在价值，但不能只靠烧焦演出证明策略 |
-| 决策深度 | 有具体取舍 | 生成与直接作用、空位占用和兑现等待 |
-| 反馈强度 | 有明确目标 | 树草各阶段和火焰存续可辨，后排遮挡待检查 |
-| 差异化 | 项目内有变化 | 明确2×5及真实地面，与当前长方形范围描述不同；未作市场调研 |
-| 市场参照 | 证据不足 | 附件只证明用户希望的构图，不证明该机制市场价值 |
-| 范围控制 | 可控但须守边界 | 树草不传播，不做位移／结构／材料；完整召唤不偷渡 |
-| 扩展潜力 | 可复用 | 后续物性和词效可按资格／阈值／事件框架另行登记 |
-| 风险可验证性 | 明确 | 单敌、树、两类地面即可检查基础预测与空间拥塞 |
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-12-first-person-grid-battlefield.md#同类产品观察)
 
-## 同类产品观察
+<a id="建议修改"></a>
 
-附件未确认产品身份；本轮未开展竞品核实，不能据此证明用户留存、市场规模或平衡。
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-12-first-person-grid-battlefield.md#建议修改)
 
-## 主要风险
+<a id="快速结论"></a>
 
-- 玩法：十格过早占满；燃烧／烧焦若无可读规则意义可能只剩表现。
-- 制作：前后排对象与地面信息可能互相遮挡；本轮不选技术。
-- 表达：点燃动作、燃烧状态与环境形态混淆；用一份B和各宿主阈值解释。
-- 市场识别：未验证，不作结论。
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-12-first-person-grid-battlefield.md#快速结论)
 
-## 建议修改
+<a id="最终建议"></a>
 
-采用GDD的分层、正交邻近、确定出生与有限脉冲候选；敌我阵营不默认隔离，范围外持续作用必须明示；直接名单与后续脉冲分别固定，烧焦不新建身份或奖励。
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-12-first-person-grid-battlefield.md#最终建议)
 
-## 最终建议
+<a id="第一人称格子环境系统评估"></a>
 
-已组织为[Draft Change](../draft-changes/D-2026-09-12-first-person-grid-battlefield.md)供集中审阅。推荐推进不等于整包Accepted；用户本轮确认只覆盖传播来源，BF-C细则与平衡仍未确认。测试继续积累。
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-12-first-person-grid-battlefield.md#第一人称格子环境系统评估)
+
+<a id="评估对象"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-12-first-person-grid-battlefield.md#评估对象)
+
+<a id="评估维度"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-12-first-person-grid-battlefield.md#评估维度)

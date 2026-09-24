@@ -1,41 +1,43 @@
-# 首版完整设计收束提案
+# 首版完整设计收束提案（已迁移）
 
-状态：Accepted；依据2026-09-14用户“确认。明确授权后续无需确认直接补齐”。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 提案名称
+[打开新位置](../../../../yanzhou/sources/proposals/P-2026-09-14-complete-first-release-design.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-CG／PG／EG／RG／UX首版RC1：从语义编排到完整通关旅程。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 来源想法
+<a id="为什么可能好玩"></a>
 
-- [首版卡池实体、角色、事件与效果组](../idea-materials/M-2026-09-14-card-interface-completion.md)
-- [首版时间、公式、卡牌参数与获取渠道](../idea-materials/M-2026-09-14-first-release-parameters-and-channels.md)
-- [首版环境形态、痕迹与转化阈值](../idea-materials/M-2026-09-14-environment-forms-and-thresholds.md)
-- [首版完整路线、敌人、遭遇、成长与疲劳](../idea-materials/M-2026-09-14-run-route-encounters-and-fatigue.md)
-- [首版玩家旅程、交互、保存与功能表现](../idea-materials/M-2026-09-14-interface-platform-and-experience.md)
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-complete-first-release-design.md#为什么可能好玩)
 
-## 核心玩法假设
+<a id="可能的同类参考"></a>
 
-玩家以有限实体词卡、4根出战杖、固定空间与共享开始槽编排可预测的自动法术，再以生命、金币和路线机会调整构筑，能够形成至少三类有不同代价的可行策略。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-complete-first-release-design.md#可能的同类参考)
 
-## 玩家会做什么
+<a id="当前疑问"></a>
 
-- 分配词卡、确定角色／状态关系、选择法杖与锚点、编排第一次冷却。
-- 观察结果与原因，再选择生命恢复、扩展词汇或购买机制组件。
-- 使用全部实际规则完成6普通＋首领的一局，承担分支和经济机会成本。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-complete-first-release-design.md#当前疑问)
 
-## 为什么可能好玩
+<a id="提案名称"></a>
 
-同一语义词在不同执行者和状态输入中复用；时序冲突、真实元素和环境转化创造可解释的编排后果。实际策略宽度与等待体验仍须验证，当前不以参数已填代替结论。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-complete-first-release-design.md#提案名称)
 
-## 最小可验证原型
+<a id="最小可验证原型"></a>
 
-以新RC1输入覆盖一场直接攻防、一场满位回退、一场中立冰霜与完整一局；沿VB预先固定的库存／配置／路径，另用UX任务观察新玩家。成功信号和停止条件按RG／UX／VB；本轮只做文档与确定性算术检查，不启动玩法测试。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-complete-first-release-design.md#最小可验证原型)
 
-## 可能的同类参考
+<a id="来源想法"></a>
 
-本次不新增外部产品依据；只收束本项目已形成设计。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-complete-first-release-design.md#来源想法)
 
-## 当前疑问
+<a id="核心玩法假设"></a>
 
-平衡与玩家理解仍Hypothesis；成品制作与商业发行独立。首版规则、名单、量值、渠道和旅程已有确定基准，无需再向用户逐项征询。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-complete-first-release-design.md#核心玩法假设)
+
+<a id="玩家会做什么"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-complete-first-release-design.md#玩家会做什么)
+
+<a id="首版完整设计收束提案"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-complete-first-release-design.md#首版完整设计收束提案)

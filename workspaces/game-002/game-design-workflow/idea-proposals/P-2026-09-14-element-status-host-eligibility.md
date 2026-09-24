@@ -1,40 +1,43 @@
-# 元素状态宿主资格提案
+# 元素状态宿主资格提案（已迁移）
 
-## 提案名称
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-HG01：明确单位、环境、地面与元素各自的状态能力。
+[打开新位置](../../../../yanzhou/sources/proposals/P-2026-09-14-element-status-host-eligibility.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-## 来源想法
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-[合格素材](../idea-materials/M-2026-09-14-element-status-host-eligibility.md)。只使用已确认HG01，不把同一inbox里的其他新推荐带入。
+<a id="为什么可能好玩"></a>
 
-## 核心玩法假设
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-element-status-host-eligibility.md#为什么可能好玩)
 
-若玩家能把火冰层数与宿主攻防能力分开理解，就能对环境汲取、抵消与转化作出可预判选择，而不会期待不存在的环境护甲或生命。
+<a id="元素状态宿主资格提案"></a>
 
-## 玩家会做什么
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-element-status-host-eligibility.md#元素状态宿主资格提案)
 
-- 主要动作：战前根据宿主资格配置施加与操控。
-- 次要动作：查看环境形态、状态和元素共享层数。
-- 决策点：利用草地／树木上的状态，或选择对敌人兑现伤害。
-- 反馈方式：单位显示攻防量，环境显示层数和形态；普通石地拒绝状态。
+<a id="可能的同类参考"></a>
 
-## 为什么可能好玩
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-element-status-host-eligibility.md#可能的同类参考)
 
-相同状态在单位和环境上具有不同用途，保留词义复用；结果能力有明确边界，选择能由场景信息推导。
+<a id="当前疑问"></a>
 
-## 最小可验证原型
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-element-status-host-eligibility.md#当前疑问)
 
-- 形式：未来冻结整套输入后，采用玩家、敌人、树木、草地、石地和元素的对照局面。
-- 核心问题：能否解释草地冰冻可汲取但不可拆甲，以及火焰层数不是自身受伤。
-- 成功信号：结果与资格表一致，玩家能预测合法作用。
-- 失败信号：产生虚假环境护甲／生命，或石地可以储层。
-- 本轮仅文档审查，不运行新玩法测试。
+<a id="提案名称"></a>
 
-## 可能的同类参考
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-element-status-host-eligibility.md#提案名称)
 
-未引入外部产品，依据本项目现有能力模型。
+<a id="最小可验证原型"></a>
 
-## 当前疑问
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-element-status-host-eligibility.md#最小可验证原型)
 
-具体环境形态、阈值和逐卡接口仍按DG／PV补齐；不影响本次宿主资格可被明确裁决。
+<a id="来源想法"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-element-status-host-eligibility.md#来源想法)
+
+<a id="核心玩法假设"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-element-status-host-eligibility.md#核心玩法假设)
+
+<a id="玩家会做什么"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-14-element-status-host-eligibility.md#玩家会做什么)

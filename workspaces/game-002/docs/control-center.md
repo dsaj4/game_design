@@ -1,9 +1,11 @@
-# 项目控制中心
+# 项目控制中心（已迁移）
 
-文档角色：Navigation。更新：2026-09-23。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-[项目导航](../README.md) · [当前问题](design-decisions-needed.md) · [版本](../game-design-workflow/gdd/current/baseline.md) · [实现](code-development-index.md) · [测试](test-handoff.md)
+[打开新位置](../../../yanzhou/governance/control-center.md) · [言咒项目入口](../../../yanzhou/README.md) · [迁移说明](../../../yanzhou/governance/layout-migration-report.md)
 
-此页仅导航，当前进度分别由对应负责人页维护。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-[整理前记录](history/pre-organization/docs/control-center.md)
+<a id="项目控制中心"></a>
+
+[对应正文](../../../yanzhou/governance/control-center.md#项目控制中心)

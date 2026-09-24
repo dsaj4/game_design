@@ -1,39 +1,31 @@
-# T10 · 阿亚尔：太阳之子
+# T10 · 阿亚尔：太阳之子（已迁移）
 
-Project ID：`game-002-optimization`。状态：`Research / Provisional`。日期：2026-09-20。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 来源与证据边界
+[打开新位置](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/10-ayar.md) · [言咒项目入口](../../../../../yanzhou/README.md) · [迁移说明](../../../../../yanzhou/governance/layout-migration-report.md)
 
-来自 [GIC 档案馆](https://www.9cards.cn/gic/) 的 1 份记录；下列为该站原图地址，可按档案 ID 在站内检索。读取依据为公开网页内的 innovation_cn/en 正文；同站多记录不等于独立交叉验证。未观看视频、未玩原作、未核实当前版本或商业表现。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-- [26-2025-T-5-Ayar Children of the Sun](https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-5-Ayar-Children-of-the-Sun-Set.png)
+<a id="t10--阿亚尔太阳之子"></a>
 
-## 吸收：来源实际描述了什么
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/10-ayar.md#t10--阿亚尔太阳之子)
 
-档案中角色逐轮退出，使可用行动次数减少；个人版图释放出的空间则强化剩余行动。
+<a id="吸收来源实际描述了什么"></a>
 
-**输入—行动—输出—回流（本轮结构归纳）：**投入路线和行动 → 回合结束部分角色退出 → 可选行动减少但强度提升 → 更集中地规划。
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/10-ayar.md#吸收来源实际描述了什么)
 
-**玩家为什么可能在意（推断）：**成长可以表现为收敛与专精，而非持续增加操作数量。
+<a id="更新决定"></a>
 
-## 适配：与 RC1 的关系
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/10-ayar.md#更新决定)
 
-把四杖逐步缩成两杖会改变 RC1 主要构筑空间，且未证明更少法术更好理解。
+<a id="未确认信息与下一步"></a>
 
-**保留结构：**作为设计减法原则：每个最终方向只改变一个主要决策，不把五个方向叠加。
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/10-ayar.md#未确认信息与下一步)
 
-**不迁移／雷同与范围风险：**递减法杖/强制淘汰咒式暂不迁移，不能凭概念替本游戏决定核心收缩。
+<a id="来源与证据边界"></a>
 
-## 更新决定
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/10-ayar.md#来源与证据边界)
 
-“递减咒阵”留作研究后置，不占最终五方向名额。
+<a id="适配与-rc1-的关系"></a>
 
-去向：研究后置／仅方法参考。这是候选形成过程，不是 Qualified GDD Material 或正式 Evaluation。
-
-## 未确认信息与下一步
-
-新能力强度能否补偿选项减少，需独立设计与实测。
-
-下一步按[方向比较与验证](../directions.md)检查实际取舍；若需要准确复现原作，先补官方规则与当前版本证据，不用本档案替代规则书。
-
-[返回逐案索引](../case-index.md) · [流程](../workflow.md)
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/10-ayar.md#适配与-rc1-的关系)

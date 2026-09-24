@@ -1,42 +1,39 @@
-# 超时疲劳评估
+# 超时疲劳评估（已迁移）
 
-## 评估对象
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-- 提案：[超时疲劳](../idea-proposals/P-2026-09-11-overtime-fatigue.md)。
-- 日期：2026-09-11。
-- 评估人：设计agent，基于现行规则作设计评议。
+[打开新位置](../../../../yanzhou/sources/evaluations/E-2026-09-11-overtime-fatigue.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-## 快速结论
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-- 结论：推荐推进用户明确的疲劳方向。
-- 理由：能为无输出或长期防御提供共同生命压力；扣血必须真正降低生命，且恢复不能抵消压力。
-- 状态：方向已有用户授权；评估不把FAT-C细则或数值升级为Accepted。
+<a id="主要风险"></a>
 
-## 评估维度
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-11-overtime-fatigue.md#主要风险)
 
-| 维度 | 评估 |
-| --- | --- |
-| 核心动作与范围 | 保留战前编排与自动运行，仅新增全局结束压力 |
-| 可验证性 | 纯护甲反例、禁疗边界和同死检查可独立推导 |
-| 决策深度 | 可能支持速度与防御取舍，仍须排除等疲劳的支配策略 |
-| 反馈 | 需区分全局扣血、敌攻、普通打断与恢复被阻止 |
-| 制作与内容 | 无需新增法术或复杂对象；具体实现未执行 |
+<a id="同类产品观察"></a>
 
-## 同类产品观察
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-11-overtime-fatigue.md#同类产品观察)
 
-未做产品类比，不以外部惯例代替本项目测试。
+<a id="建议修改"></a>
 
-## 主要风险
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-11-overtime-fatigue.md#建议修改)
 
-- 玩法风险：疲劳成为免费输出，使防御等待成为最优；比例取整对不同生命尺度不对称。
-- 制作风险：同刻顺序或禁疗生效时点存在差异；未执行实现验证。
-- 表达风险：将世界规则误作可驱散状态，或将80／120验收线误当疲劳开始刻。
-- 市场识别风险：本次无玩家样本，不作市场结论。
+<a id="快速结论"></a>
 
-## 建议修改
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-11-overtime-fatigue.md#快速结论)
 
-正式采纳仅写用户方向及已有规则衔接；完整执行包单列候选。测试补充有限终局证明、既存恢复拦截和等待策略比较。
+<a id="最终建议"></a>
 
-## 最终建议
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-11-overtime-fatigue.md#最终建议)
 
-进入[Draft Change](../draft-changes/D-2026-09-11-overtime-fatigue.md)，同步核心、数值框架和固定交接。执行与体验分别验证，继续暂停其他词效设计。
+<a id="评估对象"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-11-overtime-fatigue.md#评估对象)
+
+<a id="评估维度"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-11-overtime-fatigue.md#评估维度)
+
+<a id="超时疲劳评估"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-11-overtime-fatigue.md#超时疲劳评估)

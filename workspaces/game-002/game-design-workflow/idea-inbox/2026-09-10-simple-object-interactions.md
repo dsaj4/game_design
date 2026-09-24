@@ -1,57 +1,43 @@
-# 简化对象交互与法术生成对象
+# 简化对象交互与法术生成对象（已迁移）
 
-状态：Promoted / Accepted（范围与流程）；具体词义、数值及表现仍需设计。Project ID：game-002。日期：2026-09-10。证据Hypothesis。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 原始想法
+[打开新位置](../../../../yanzhou/sources/inbox/2026-09-10-simple-object-interactions.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-> 简化对象与规则：
-> 只需要保证世界中的对象可以被操作影响发生变化，例如点燃、冰冻等，不需要深入到指定合成、转移之类的复杂操作
-> 暂时不做
-> 1.位置（用于移动） 、结构连接等单一数值无法衡量的对象，不做 连接、支撑、接受位移 提供空间参照 偏转飞行方向（可做抵挡或反弹，不指定方向）改换受术端点（可做不指定对象的转移） 等能力
-> 2.限定材料份额 容器 等涉及利用环境物件转化资源的对象，不做 提供材料或消耗量 接收材料 按配方转化 等能力，资源收集法术只做到法术运用到对象后，对象掉落卡牌这一步，其他复杂操作步骤不涉及
-> 需要新增：
-> 1.法术产生的新对象，例如火焰、雷电、冰霜等
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 触发来源
+<a id="下一步"></a>
 
-用户对[对象目录](2026-09-10-semantic-object-catalog.md)、[能力词卡](2026-09-10-semantic-ability-word-catalog.md)和[代表句](2026-09-10-semantic-sentence-cases.md)提出明确收束，并要求增加法术产生的新对象。消息中的空白实体在此按普通空格/换行保留，不改变文字意思。修改前的内容与关键规则见[输入快照](../../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-10-simple-object-interactions.md#下一步)
 
-## 可能带来的玩家体验
+<a id="原始想法"></a>
 
-玩家通过点燃、冰冻、增强、削弱等直接变化理解法术作用；可以继续操作场上真实火焰、雷电和冰霜，不需要先规划材料加工链或几何端点。预期降低构句负担，同时保留同词跨对象作用的空间；体验尚未验证。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-10-simple-object-interactions.md#原始想法)
 
-## 暂定标签
+<a id="可能带来的玩家体验"></a>
 
-- 类型：System / Constraint / Content Scope。
-- 情绪：直观、变化感、可推导。
-- 玩法关键词：简单状态变化、法术生成对象、对象掉卡。
-- 风险关键词：生成物与特效混淆、冰冻被误写为完整硬控、反弹归宿未定、掉卡无限重复。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-10-simple-object-interactions.md#可能带来的玩家体验)
 
-## 资格确认记录
+<a id="当前缺口"></a>
 
-使用grill-with-docs核对核心、R01–R32、现有状态与奖励素材。用户明确的收束直接采纳，不再次确认；详细词义不作为范围资格前提。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-10-simple-object-interactions.md#当前缺口)
 
-| 资格问题 | 当前答案 | 状态 |
-| --- | --- | --- |
-| 设计对象与章节 | 法术对象范围、可用操作及资源收集流程；将来统一GDD的系统章节 | Clear |
-| 玩家情境 | 战前构句与配置，战中观察自动求值 | Clear |
-| 行为、影响或约束 | 以数值/状态变化影响对象；不配置位置/连接/材料端点；收集落到对象掉卡 | Clear：用户明确 |
-| 预期价值 | 减少复杂操作链，保留世界变化与可见对象的交互 | Clear：体验Hypothesis |
-| 现有关系 | 收紧SW01及R02–R04/R11–R16/R19/R22/R28–R31适用范围；保留引用、时序、收益骨架 | Clear |
-| 未知与方法 | 为火焰/雷电/冰霜确定生成、窗口和变化量；为反弹/转移确定自动规则；补掉卡资格和次数，再逐刻走查 | Clear |
+<a id="暂定标签"></a>
 
-### 当前缺口
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-10-simple-object-interactions.md#暂定标签)
 
-范围没有待确认缺口。法术生成物的具体作用、冰冻对行动的影响、反弹/转移接收规则和掉卡条件仍Unknown；只记录为后续内容任务，不擅自补成已采纳玩法。
+<a id="简化对象交互与法术生成对象"></a>
 
-### 资格结论
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-10-simple-object-interactions.md#简化对象交互与法术生成对象)
 
-- [ ] Unqualified。
-- [ ] Ready for Material Review。
-- [x] Promoted：明确范围已晋级[正式素材](../idea-materials/M-2026-09-10-simple-object-interactions.md)。
+<a id="触发来源"></a>
 
-## 下一步
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-10-simple-object-interactions.md#触发来源)
 
-- [x] 建立合格素材、提案、评估与Draft Change，按本次直接修改指令同步核心。
-- [x] 将当前对象、能力和代表句收拢到简单作用范围。
-- [ ] 继续补齐生成物与简单状态的具体词义；全部参数重新设计。
+<a id="资格确认记录"></a>
+
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-10-simple-object-interactions.md#资格确认记录)
+
+<a id="资格结论"></a>
+
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-10-simple-object-interactions.md#资格结论)

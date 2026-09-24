@@ -1,51 +1,43 @@
-# 数值框架与体验验收
+# 数值框架与体验验收（已迁移）
 
-状态：Promoted：四层数值评估框架候选。日期：2026-09-11。Project ID：game-002。具体目标曲线、权重与阈值尚未采纳；终局方向按后续[疲劳确认](2026-09-11-overtime-fatigue.md)处理。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 原始想法
+[打开新位置](../../../../yanzhou/sources/inbox/2026-09-11-numerical-evaluation-framework.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-> 已完成；先不进入其他法术的效果设计，先建立数值框架，界定：1.针对法术的数值评估框架：法术的综合收益、时间消耗、特殊收益等 2.玩家的预计成长曲线和对应的敌人成长曲线 3.玩家全局系统的数值评估框架：一场战斗的预计损耗、持续时间等 4.体验出发的验收标准：比如不存在超长战斗、秒杀战斗，唯一卡牌最优解等等
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 触发来源
+<a id="下一步"></a>
 
-用户在首轮测试完成后调整优先级。[独立复核与demo报告](../../docs/test-reports/TH-2026-09-11-001-r2-run-01.md)确认所测计算一致，同时记录54／726组到96刻未结束、压力变化并非平滑、玩家可读性未验证。已有[数值约束](../idea-materials/M-2026-09-10-numerical-redesign-constraints.md)和[支撑规则](../idea-materials/M-2026-09-07-supporting-design-rules.md)为框架输入。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-numerical-evaluation-framework.md#下一步)
 
-## 可能带来的玩家体验
+<a id="原始想法"></a>
 
-让玩家在速度、保存生命与成长收益间有选择，成长后仍能遇到可理解的压力；避免没有交互的过短战斗、无法结束的战斗及所有场景都必须使用同一优势卡。具体阈值由agent提出为可检验候选，不冒充用户给定数值。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-numerical-evaluation-framework.md#原始想法)
 
-## 暂定标签
+<a id="可能带来的玩家体验"></a>
 
-- 类型：System / Constraint / Evaluation Framework。
-- 体验：成长感、可预测的风险、有意义的选择。
-- 关键词：法术收益、时间机会成本、成长预算、跨战损耗、体验门槛。
-- 风险：重复计收益、以输出率代替整句价值、幸存者偏差、过拟合最快方案、无限战斗。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-numerical-evaluation-framework.md#可能带来的玩家体验)
 
-## 资格确认记录
+<a id="当前缺口"></a>
 
-使用grill-with-docs核对核心、正式素材、相关inbox及测试报告。范围与暂停其他词效由用户明确；公式、候选曲线和阈值是本轮设计建议，经过资格确认仍非Accepted。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-numerical-evaluation-framework.md#当前缺口)
 
-| 资格问题 | 当前答案 | 状态 |
-| --- | --- | --- |
-| 设计对象 | 法术、成长、整局与体验四层数值评估 | Clear |
-| 玩家处境／设计功能 | 战前构筑、跨战成长、面对对应阶段敌人；为后续定值提供统一判断依据 | Clear |
-| 行为与影响 | 比较同资源方案、规划生命与收益、调整时序；用可见结果判断取舍 | Clear |
-| 预期价值 | 战斗长度可控、成长可感、多个方案有适用情境 | Clear，体验未验证 |
-| 与现有关系 | 保留已确认循环／词卡／类型／收益规则；不扩展其他法术效果 | Clear |
-| 未知与验证 | 成长预算可达性、整局与秒数输入不足；先审查框架及复评现有证据，再补阶段内容和玩家观察 | Clear |
+<a id="数值框架与体验验收"></a>
 
-### 当前缺口
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-numerical-evaluation-framework.md#数值框架与体验验收)
 
-NF-D01已由用户后续明确为超时疲劳、双方扣血及法术禁疗；执行细则与数值仍为候选。原框架的时限建议从提交f74b198追溯，当前以[疲劳素材](../idea-materials/M-2026-09-11-overtime-fatigue.md)为准。其他数值阈值继续作为候选。
+<a id="暂定标签"></a>
 
-### 资格结论
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-numerical-evaluation-framework.md#暂定标签)
 
-- [x] Promoted：[四层数值框架](../idea-materials/M-2026-09-11-numerical-evaluation-framework.md)。
-- [ ] Unqualified：不适用于已明确的框架范围；尚未设计的其他词效没有因此晋级。
+<a id="触发来源"></a>
 
-## 下一步
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-numerical-evaluation-framework.md#触发来源)
 
-- [x] 定义收益、成本、成长、整局账本和体验门槛。
-- [x] 用既有测试结果核对可观察性，保留不满足与无法评价的项目。
-- [x] 更新固定测试交接，保留上一批完成记录。
-- [ ] 由测试agent独立审查框架，完成可执行部分，并审查疲劳执行候选。
+<a id="资格确认记录"></a>
+
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-numerical-evaluation-framework.md#资格确认记录)
+
+<a id="资格结论"></a>
+
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-numerical-evaluation-framework.md#资格结论)

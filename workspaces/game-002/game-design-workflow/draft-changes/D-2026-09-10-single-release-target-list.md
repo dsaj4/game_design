@@ -1,50 +1,39 @@
-# 单次释放直接对象名单采纳
+# 单次释放直接对象名单采纳（已迁移）
 
-本页保留提交0326023时的名单采纳范围与交付记录；其中R01–R32待选择及相关数量、检查结果均对应当时。用户随后已全部采用推荐，当前执行规则与检查见[本次采纳](D-2026-09-10-semantic-world-executable-rules.md)。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-状态：Accepted / SW02-A。决策：G002-CORE-009。日期：2026-09-10。核心：Core Concept v0.6。证据：Hypothesis。
+[打开新位置](../../../../yanzhou/sources/draft-changes/D-2026-09-10-single-release-target-list.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-## 修改目标
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-完善一次完整法术的直接对象名单边界，统一核心、引用、逐对象材料检查、预览和当前问题入口。
+<a id="仍需保留的疑问"></a>
 
-## 来源
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-single-release-target-list.md#仍需保留的疑问)
 
-- 用户回复“确认，一次性列出剩下需要决策的部分”，确认上下文为SW02-A推荐；[原话及资格记录](../idea-inbox/2026-09-10-semantic-world-object-scope.md)。
-- [合格引用素材](../idea-materials/M-2026-09-10-instance-and-conditional-binding.md)，延伸既有素材，不增加素材计数。
-- [引用提案](../idea-proposals/P-2026-09-10-instance-and-conditional-binding.md)与[名单边界补充评估](../evaluations/E-2026-09-10-instance-and-conditional-binding.md)。
-- SW02模型采纳先于本次；原文保留在[模型采纳记录](D-2026-09-10-instance-and-conditional-binding.md)。
+<a id="修改目标"></a>
 
-## 拟新增内容
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-single-release-target-list.md#修改目标)
 
-以下正文同步核心与合格素材：
+<a id="单次释放直接对象名单采纳"></a>
 
-每次完整法术开始处理时，按当时的绑定与世界确定本次直接对象名单。本次处理过程中不重新选取、不追加，也不以其他对象补位。轮到每个对象时仍读取当前状态，检查当前合法性与材料；失效或固定消耗不足只跳过该对象，已合法结果不回滚。
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-single-release-target-list.md#单次释放直接对象名单采纳)
 
-本次产生或新符合条件的对象留到后续释放重新匹配。本次名单确定不冻结对象状态、不预留材料，也不保留已失效对象的操作资格。名单排序、重叠引用、空名单反馈、间接反应、空间变化和多刻释放的具体效果时点分别按剩余决策处理。
+<a id="拟新增内容"></a>
 
-## 拟替换内容
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-single-release-target-list.md#拟新增内容)
 
-- 当前正文中的名单时点待定改为上述规则；排序等未确认问题继续显式待定。
-- 当前问题改为[剩余决策R01–R32](../idea-inbox/2026-09-10-semantic-world-remaining-decisions.md)，按用户要求一次列出。
-- SW02采纳时文本和交付检查保留并注明历史适用范围，不改写当时证据。
+<a id="拟替换内容"></a>
 
-修改前基线为Git提交7876e34，完整原文可由该提交追溯；既有原始版本快照保持原样。
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-single-release-target-list.md#拟替换内容)
 
-## 采纳理由
+<a id="来源"></a>
 
-一次确定名单可以给单次法术划出明确处理边界。逐对象仍检查当前合法性与材料，避免把名单固定误解为冻结世界。本次新生或新符合条件对象等待后续释放的取舍已向用户说明并获确认。
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-single-release-target-list.md#来源)
 
-## 仍需保留的疑问
+<a id="确认状态"></a>
 
-R01–R32为本次新增建议，均为Raw Idea / Unqualified，未因用户确认SW02-A而自动采纳。排序、身份变化、空间、表达、过程和环境等细则在总表中列出推荐、替代方案与依赖。召唤、镶嵌和BF1–BF3继续按既有决定后置；数值重新设计已经获得授权。
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-single-release-target-list.md#确认状态)
 
-## 确认状态
+<a id="采纳理由"></a>
 
-- [x] 用户明确采纳SW02-A。
-- [x] 通过素材资格门槛并有提案、评估及本采纳文本。
-- [x] 同步核心与G002-CORE-009。
-- [ ] 已验证可玩性或数值。
-- [ ] 已采纳R01–R32。
-
-本次文件范围和文档检查见[交付记录](../../docs/semantic-world-target-list-adoption.md)。
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-single-release-target-list.md#采纳理由)

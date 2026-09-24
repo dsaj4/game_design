@@ -1,44 +1,39 @@
-# 首版完整设计收束评估
+# 首版完整设计收束评估（已迁移）
 
-## 评估对象
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-- 提案：[首版RC1](../idea-proposals/P-2026-09-14-complete-first-release-design.md)。
-- 日期：2026-09-14；评估人：设计agent，依据用户明确授权。
+[打开新位置](../../../../yanzhou/sources/evaluations/E-2026-09-14-complete-first-release-design.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-## 快速结论
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-推荐推进并采纳为首版基准：五组实际表闭合角色、量值、渠道、环境、整局与玩家操作。保留验证未知，不把测试完成或成品交付作为虚构事实。
+<a id="主要风险"></a>
 
-## 评估维度
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-complete-first-release-design.md#主要风险)
 
-| 维度 | 分数 | 判断问题 | 评估 |
-| --- | --- | --- | --- |
-| 核心动作清晰度 | 不评分 | 能否确定玩家选择 | 词卡、完整法术、法杖、起点和战后流程明确 |
-| 实现可能性 | 不评分 | 是否仍需猜规则 | 输入、名单、先后、公式与失败可按规格交付；技术方案另列 |
-| 可玩性潜力 | 未验证 | 完整循环有无意义 | 资源与机制形成取舍，效果需新测试 |
-| 决策深度 | 未验证 | 是否仅单一最优 | RG要求同预算至少3类策略，VB预设固定输入 |
-| 反馈强度 | 未验证 | 原因是否可读 | UX有对象／状态／事件及8项理解任务 |
-| 差异化 | 不评分 | 是否强化本项目 | 语义与时空编排保持，无外围系统扩张 |
-| 市场参照 | 未研究 | 能否证明受众 | 没有新增市场结论 |
-| 范围控制 | 不评分 | 首版数量能否锁定 | 34词19可换件3杖8敌12遭遇，草法术等继续后置 |
-| 扩展潜力 | 未验证 | 如何扩展 | 保留原库与固定规则，不自动恢复旧变体 |
-| 风险可验证性 | 不评分 | 能否快速定位问题 | 规则例、反例、输入与停止信号可追溯 |
+<a id="同类产品观察"></a>
 
-## 同类产品观察
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-complete-first-release-design.md#同类产品观察)
 
-无新增调研，本次不以外部产品成功证明本玩法。
+<a id="建议修改"></a>
 
-## 主要风险
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-complete-first-release-design.md#建议修改)
 
-- 玩法：纸面量值不保证策略宽度；正式平衡需后续授权验证。
-- 制作：信息密度高，须保持文字／图形双通道和可暂停查看。
-- 表达：阵营、属性、状态、痕迹和来源容易混淆；按U05／U06观察。
-- 市场：未评估商业发行，明确后置。
+<a id="快速结论"></a>
 
-## 建议修改
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-complete-first-release-design.md#快速结论)
 
-采用CG的下刻释放窗口、实际来源和范围；采用PG v0.2与RG-C01原木杖不售；首领损耗目标用RG10–30替代旧候选15–30。其余旧推荐保留来源，不并入现行规则。
+<a id="最终建议"></a>
 
-## 最终建议
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-complete-first-release-design.md#最终建议)
 
-进入[采纳文本](../draft-changes/D-2026-09-14-complete-first-release-design.md)，依授权写入CORE-032至036，逐组关闭DG并完成全游戏GDD Wiki。设计Accepted、体验Hypothesis、玩法测试NotRun分别记录。
+<a id="评估对象"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-complete-first-release-design.md#评估对象)
+
+<a id="评估维度"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-complete-first-release-design.md#评估维度)
+
+<a id="首版完整设计收束评估"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-14-complete-first-release-design.md#首版完整设计收束评估)

@@ -1,41 +1,43 @@
-# 全局规则边界提案
+# 全局规则边界提案（已迁移）
 
-状态：Accepted（处理方式）／Hypothesis。日期：2026-09-11。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 提案名称
+[打开新位置](../../../../yanzhou/sources/proposals/P-2026-09-11-global-rule-boundaries.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-GR01–GR12：让卡牌组合依赖明确的共用规则。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 来源想法
+<a id="为什么可能好玩"></a>
 
-[合格素材GR v1](../idea-materials/M-2026-09-11-global-rule-boundaries.md)。已通过grill-with-docs资格确认，来源含用户批量采纳；不直接引用未晋级inbox作为玩法依据。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-11-global-rule-boundaries.md#为什么可能好玩)
 
-## 核心玩法假设
+<a id="全局规则边界提案"></a>
 
-如果词义、时间、状态、成本和结果边界一致，玩家就能把已学词义迁移到新组合，并依据相同资源比较收益与风险。规则清晰可能支持卡牌／流派设计，尚不能证明其平衡或乐趣。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-11-global-rule-boundaries.md#全局规则边界提案)
 
-## 玩家会做什么
+<a id="可能的同类参考"></a>
 
-- 主要动作：战前构句、绑定法杖并编排第一次冷却。
-- 次要动作：比较对象、状态量、支付与跨战生命的限制。
-- 决策点：较快输出、较低损耗、产出机会及组合成本。
-- 反馈方式：明确取消、失效、费用不足、合法零值和当前作用窗口。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-11-global-rule-boundaries.md#可能的同类参考)
 
-## 为什么可能好玩
+<a id="当前疑问"></a>
 
-同词复用与明确边界能让玩家推断新组合；不同速度、风险和资源条件为混搭提供取舍，减少依赖临时裁定的结果。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-11-global-rule-boundaries.md#当前疑问)
 
-## 最小可验证原型
+<a id="提案名称"></a>
 
-- 原型形式：后续按固定交接合批，对照已有攻防参照与实际新增卡牌；本轮不执行。
-- 核心问题：相同输入是否有唯一解释，收益是否源于合法组合，正常／极端样本是否分清。
-- 成功信号：无隐含配对、收费或额外触发，同预算存在可解释取舍。
-- 失败信号：需实现者补规则、已取消机会复活、终局后收集或样本分组掩盖风险。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-11-global-rule-boundaries.md#提案名称)
 
-## 可能的同类参考
+<a id="最小可验证原型"></a>
 
-本次不引入外部产品或跨项目玩法；依据本项目既有规则与审查情境，不作市场证明。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-11-global-rule-boundaries.md#最小可验证原型)
 
-## 当前疑问
+<a id="来源想法"></a>
 
-具体卡牌字段、GR07-C01及FAT-C候选、正式资源与体验仍待对应输入和测试。全部处理方式已按用户授权采用，候选身份按素材逐项保留；见[评估](../evaluations/E-2026-09-11-global-rule-boundaries.md)与[采纳文本](../draft-changes/D-2026-09-11-global-rule-boundaries.md)。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-11-global-rule-boundaries.md#来源想法)
+
+<a id="核心玩法假设"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-11-global-rule-boundaries.md#核心玩法假设)
+
+<a id="玩家会做什么"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-11-global-rule-boundaries.md#玩家会做什么)

@@ -1,5 +1,11 @@
-# 历史资料
+# 历史资料（已迁移）
 
-[整理前全文目录](pre-organization/)保留旧入口、旧GDD和FX修订。日期型测试报告与审查报告保持原位置；其结论只适用于原范围与输入。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-当前规格见[现行导航](../../game-design-workflow/gdd/current/README.md)。原字节摘要与迁移清单见[整理报告](../governance/organization-report.md)。
+[打开新位置](../../../../yanzhou/history/README.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
+
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
+
+<a id="历史资料"></a>
+
+[对应正文](../../../../yanzhou/history/README.md)

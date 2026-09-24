@@ -1,11 +1,11 @@
-# Q-GIC-20260920：哪一种代价最能增强《言咒》的选择
+# Q-GIC-20260920：哪一种代价最能增强《言咒》的选择（已迁移）
 
-Project ID：game-002-optimization。日期：2026-09-20。研究交付：Completed；设计选择：Open / Needs Human Review。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-本轮已经从GIC的224份目录中筛出24款游戏、40份详细文字档案，逐款完成吸收、适配判断和候选更新；[完整报告](../insights/gic-2026-09-20/README.md)。未读取其他探索方向正文作为来源。
+[打开新位置](../../../yanzhou/exploration/optimization/questions/Q-20260920-gic-design-directions.md) · [言咒项目入口](../../../yanzhou/README.md) · [迁移说明](../../../yanzhou/governance/layout-migration-report.md)
 
-主要研究问题：保留实体词卡构句、战前编排和自动战斗时，怎样让一次选择承担清楚而不同的后果？研究答案收敛为五个Raw方向，当前推荐借词布阵。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-下一项会改变设计结果的问题：是否接受把一张火/冰名词本场封存，以换取一个初始元素，且不再允许该实体进入法术？推荐先接受为独立实验候选，再确定层数与合法落点；这不是默认为正式规则。
+<a id="q-gic-20260920哪一种代价最能增强言咒的选择"></a>
 
-其他方向的未知保存在[候选比较](../insights/gic-2026-09-20/directions.md)，不同时提出五个澄清问题。不在本轮执行玩法模拟或真实玩家验证，不因研究评分晋级资格。
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260920-gic-design-directions.md#q-gic-20260920哪一种代价最能增强言咒的选择)

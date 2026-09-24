@@ -1,93 +1,51 @@
-# 周期状态的强化继承
+# 周期状态的强化继承（已迁移）
 
-状态：Qualified GDD Material。证据：Hypothesis。资格覆盖下列明确表述；具体后置机制与参数保持 Unknown，素材可引用不等于完整系统已采纳或通过验证。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 素材控制
+[打开新位置](../../../../yanzhou/sources/materials/M-2026-09-07-periodic-state-modifier-inheritance.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-| 字段 | 内容 |
-| --- | --- |
-| 素材 ID | MAT-2026-09-07-periodic-state-modifier-inheritance |
-| 素材类型 | Mechanic / System / Constraint |
-| 来源 inbox | [来源入口](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md) |
-| 原始确认 | [原始记录](../../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-periodic-state-modifier-inheritance.md) |
-| 资格确认日期 | 2026-09-07；适用范围复核2026-09-10 |
-| 确认方式 | grill-with-docs：依据用户确认记录、当前核心及文档统一授权复核 |
-| 当前证据状态 | Hypothesis |
-| 负责人 | 用户决定设计，agent维护表述与来源 |
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 规范化表述
+<a id="2026-09-14-全游戏gdd使用记录"></a>
 
-同种合并的持久来源与特性按[RC04](M-2026-09-13-card-pool-rule-rulings.md)：首次创建决定，后来只加量及允许时长；完全清空后重建重新决定。每次新增量仍采用当次源方修正，既有量不重算。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-periodic-state-modifier-inheritance.md#2026-09-14-全游戏gdd使用记录)
 
-本规则只用于明确可累积数量的周期状态，护甲没有自动周期，不纳入该范围。
+<a id="与当前构思的关系"></a>
 
-法术每次开始结算时读取适用于本次状态施加量的源方修正，将其计入实际新增数量，再与目标已有同种状态合并。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-periodic-state-modifier-inheritance.md#与当前构思的关系)
 
-已生效数量不因源方后来获得或失去强化、强化到期或来源离场而追溯重算；下一次施加按当时修正重新计算新增量。
+<a id="使用记录"></a>
 
-周期读取合并后的当前数量，依具体状态规则产生效果，不重复应用已经计入施加量的增幅；受术目标当前护甲照常抵伤。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-periodic-state-modifier-inheritance.md#使用记录)
 
-直接伤害增幅不自动变成层数加成，持续时长修正不自动增加数量，层数不必线性换算伤害。
+<a id="周期状态的强化继承"></a>
 
-重施保留周期并累加有限剩余时长；合并后的全部数量共用延后到期点。数量依明确操作仍可减少或清除。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-periodic-state-modifier-inheritance.md#周期状态的强化继承)
 
-宿主失效、明确清除、自然到期和整场结束按各自规则清理；来源与宿主是同一对象时仍清理其自身状态。
+<a id="未知项与验证"></a>
 
-## 设计对象与 GDD 映射
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-periodic-state-modifier-inheritance.md#未知项与验证)
 
-- 作用对象：周期状态的强化继承。
-- 目标 GDD：尚未创建；作为相应系统、规则边界及验证章节的素材。
-- 对应完成度：GDD-0 / GDD-1 素材输入；具体内容与参数需另行确认。
+<a id="机制行为体验假设"></a>
 
-## 玩家处境、行为与反馈
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-periodic-state-modifier-inheritance.md#机制行为体验假设)
 
-- 玩家处境：依据库存、场景与公开攻击安排进行战前选择，观察自动战斗，再处理战后及路线决定。
-- 玩家可见信息：本素材规范化表述中的条件、对象和结果；具体界面呈现待验证。
-- 行为与反馈：通过上述规则判断资源、时间或对象关系；验证情境为“先强后弱两次施加同种状态，核对新增量分别计算、周期不重复强化和时长相加。”
-- 预期价值：玩家能解释选择如何改变后续结果；实际策略价值仍为Hypothesis。
+<a id="玩家处境行为与反馈"></a>
 
-## 与当前构思的关系
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-periodic-state-modifier-inheritance.md#玩家处境行为与反馈)
 
-- 核心依据：[Core Concept v0.6](../core-concept.md)，支持战前配置、自动循环与可推导语义。
-- 相关系统：[素材索引](README.md)按主题列出依赖；[领域词汇](../../CONTEXT.md)统一概念。
-- 已确认处理范围：[无未决规则冲突；具体内容与体验仍待验证](../../docs/design-decisions-needed.md)。
-- 明确边界：本文不补齐未决的具体效果、参数、资源权限或额外玩家操作，也不作为实现完成证明。
+<a id="素材控制"></a>
 
-## 机制—行为—体验假设
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-periodic-state-modifier-inheritance.md#素材控制)
 
-| 规则 | 可能行为 | 目标体验 |
-| --- | --- | --- |
-| 本规则只用于明确可累积数量的周期状态，护甲没有自动周期，不纳入该范围。 | 依据明确约束比较方案及其后果 | 可预测且可解释的选择 |
+<a id="规范化表述"></a>
 
-## 未知项与验证
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-periodic-state-modifier-inheritance.md#规范化表述)
 
-| 未知或风险 | 影响 | 下一步 | 成功信号 | 失败信号 |
-| --- | --- | --- | --- | --- |
-| 具体效果公式、持续累积价值与来源归因扩展。 | 影响完整设计与效果可解释性 | 先强后弱两次施加同种状态，核对新增量分别计算、周期不重复强化和时长相加。 | 玩家可预测结果，关键情境有唯一裁定 | 结果依赖未确认规则，或一类选择长期无价值 |
+<a id="设计对象与-gdd-映射"></a>
 
-## 资格确认清单
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-periodic-state-modifier-inheritance.md#设计对象与-gdd-映射)
 
-- [x] 原始表达与用户确认可追溯。
-- [x] 设计对象与章节用途明确。
-- [x] 玩家处境或设计功能明确。
-- [x] 当前规范化表述的行为、可见影响或约束明确。
-- [x] 预期价值明确，验证状态如实保留。
-- [x] 与核心及处理范围的关系明确。
-- [x] 未知项与下一步验证方式明确。
+<a id="资格确认清单"></a>
 
-## 使用记录
-
-| 日期 | 目标 | 处理结果 | 边界 |
-| --- | --- | --- | --- |
-| 2026-09-10 | [设计文档统一](../draft-changes/D-2026-09-10-current-design-alignment.md) | Included：明确表述部分 | 原始使用与确认记录从来源快照追溯；当前处理范围见接口采纳记录，尚无GDD |
-
-2026-09-12：[燃烧范围强化](M-2026-09-12-wand-inlay-system.md)明确可以修正其他来源的燃烧施加，范围条件在本次实际施加时检查；只改本次新增量，已有量不追溯重算，周期跳伤不重新加层。它不是新的独立施加，不自动增加持续时间；叠加与激活细则仍按IN-C候选。
-
-
-## 2026-09-14 全游戏GDD使用记录
-
-| 日期 | 目标与处理 | 当前适用边界 |
-| --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/02-grammar-and-configuration.md) | 纳入实体、合法句、类型、绑定和装配；实际白名单、3种法杖、起点与角色由CG／WG／SG限定；寒冷、召唤与未选卡不因例句入池。 |
-
-本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-07-periodic-state-modifier-inheritance.md#资格确认清单)

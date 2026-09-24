@@ -1,0 +1,2 @@
+原始表达已完整保存在 archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-inbox/2026-09-05-yanzhou-source.txt。
+当前设计入口：workspaces/game-002/game-design-workflow/core-concept.md。

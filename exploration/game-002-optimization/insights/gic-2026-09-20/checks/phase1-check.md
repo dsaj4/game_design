@@ -1,18 +1,11 @@
-# Phase 1 Check
+# Phase 1 Check（已迁移）
 
-- Passed: 11 / 11
-- Status: PASS
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-| Check | Result |
-| --- | --- |
-| outline/outline.md exists | PASS |
-| outline/outline.json exists | PASS |
-| draft exists | PASS |
-| contains eight modules | PASS |
-| contains evidence map | PASS |
-| contains visual evidence section | PASS |
-| contains core loop diagram | PASS |
-| contains system relation diagram | PASS |
-| uses Simplified Chinese body | PASS |
-| contains project transfer | PASS |
-| contains unknowns | PASS |
+[打开新位置](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/checks/phase1-check.md) · [言咒项目入口](../../../../../yanzhou/README.md) · [迁移说明](../../../../../yanzhou/governance/layout-migration-report.md)
+
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
+
+<a id="phase-1-check"></a>
+
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/checks/phase1-check.md#phase-1-check)

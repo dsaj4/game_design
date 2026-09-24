@@ -3,18 +3,18 @@
 ## 项目路由与隔离（先于后续流程）
 
 本仓库现在管理多个独立游戏。先读仓库根 README.md、docs/workspace-map.md 和 docs/github-collaboration.md。
-默认 Project ID 为 `game-002`，工作区根 `W = workspaces/game-002/`。
+默认 Project ID 为 `game-002`，工作区根 `W = yanzhou/`。
 
 2026-09-09 已建立[玩法探索区](exploration/README.md)。用户指定 game-002 优化或独立肉鸽探索时，先按[探索项目注册表](exploration/registry/project-registry.md)选择对应根 P，并遵守 exploration/AGENTS.md 的本地路径映射；此时不要套用默认 W 或自动读取 game-002 背景。用户未指定时仍默认 game-002。
 
-- `exploration/game-002-optimization/`：仅按生成规则从 game-002 固定提交构建背景包；正常优化使用已激活包，回写须走目标项目 Draft Change。
+- `yanzhou/exploration/optimization/`：仅按生成规则从 game-002 固定提交构建背景包；正常优化使用已激活包，回写须走目标项目 Draft Change。
 - `exploration/new-roguelike/`：从独立空白背景探索，不继承 game-002、优化项目或归档内容。
 - 探索区的原始想法、合格素材、提案、评估和 GDD 路径按其 AGENTS 映射；资格闸门、来源追踪与 Git 保护继续适用。建区不是玩法采纳，旧冻结代码未恢复。
 
 - game-002 与上一款游戏无关，不是续作、改版或技术迁移；类型、平台、题材、玩法、玩家、数值、技术与排期均不得从旧项目推断。
 - 上一款游戏位于 `archive/2026-09-05-core-card-project/`，状态 Parked / Archived，默认不检索、不修改、不续写。
 - combat-lab/、semantic-card-engine/ 和旧外部实现仓库属于已暂停项目，不是新游戏起点。
-- 后续流程中的项目路径（game-design-workflow/、research/、CONTEXT.md、docs/code-development-index.md）均相对 W。
+- 后续流程中的旧项目职责路径（game-design-workflow/、research/、CONTEXT.md、docs/code-development-index.md）按 yanzhou/AGENTS.md 映射；不再把旧字面路径直接拼到W。
 - 共享模板 game-design-workflow/templates/、research/templates/，共享知识 docs/shared-knowledge.md、共享规则 docs/game-design-agent-standards/ 和 GitHub 协作规范均相对仓库根。
 - Markdown 链接按所在文件解析，不因 W 隐式重定向。根目录的 README、总控、开发索引是路由入口，不替代项目文档。
 - 素材审查只检索 W 的 inbox 与正式素材。旧项目的合格资格、Accepted 状态、测试结论和待办均不跨项目继承。
@@ -40,17 +40,17 @@
 
 本仓库不是游戏代码仓库，而是游戏创意、理论学习、同类产品分析、提案评估和核心设计沉淀的 Markdown 工作流。
 
-game-002 当前问题入口为 `workspaces/game-002/docs/design-decisions-needed.md`；本项目路径按其 AGENTS.md 映射。
+game-002 当前问题入口为 `yanzhou/governance/questions.md`；本项目路径按其 AGENTS.md 映射。
 
 ## 每次开始时先做什么
 
-进入仓库后，先快速阅读或确认这些文件（项目路径按本项目AGENTS映射；game-002现行规格入口为game-design-workflow/gdd/current/）：
+进入仓库后，先快速阅读或确认这些文件（项目路径按本项目AGENTS映射；game-002现行规格入口为yanzhou/design/）：
 
 1. `README.md`
 2. `docs/architecture-for-beginners.md`
 3. `game-design-workflow/core-concept.md`
 4. `game-design-workflow/decision-log.md`
-5. 当前项目明确指定的问题入口；game-002为`workspaces/game-002/docs/design-decisions-needed.md`，不再读取已不存在的旧current-questions路径。
+5. 当前项目明确指定的问题入口；game-002为`yanzhou/governance/questions.md`，不再读取已不存在的旧current-questions路径。
 
 如果任务涉及代码实现、开发进度、技术架构、Bug、构建或发布，还必须阅读 `docs/code-development-index.md` 和对应代码仓库文档。
 
@@ -426,4 +426,8 @@ git checkout -b agent/<agent-name>/<YYYY-MM-DD>-<short-task>
 
 ## 2026-09-23 文档治理与探索方向索引
 
-用户已授权主系统与探索区全量整理。game-002以current正文为现行规则，核心为摘要；历史、候选和旧运行指令不覆盖现用入口。探索方向索引及跨方向研究仅在探索区，原始来源和资格保留。管理任务可横向整理方向元数据与比较；普通探索仍按所选方向的来源范围，不自动读取其他候选。详见[文档合同](workspaces/game-002/docs/governance/document-contract.md)与[方向索引](exploration/game-002-optimization/directions/README.md)。
+用户已授权主系统与探索区全量整理。game-002以current正文为现行规则，核心为摘要；历史、候选和旧运行指令不覆盖现用入口。探索方向索引及跨方向研究仅在探索区，原始来源和资格保留。管理任务可横向整理方向元数据与比较；普通探索仍按所选方向的来源范围，不自动读取其他候选。详见[文档合同](yanzhou/governance/document-contract.md)与[方向索引](yanzhou/exploration/optimization/directions/README.md)。
+
+## layout.1：言咒物理目录
+
+用户授权新建yanzhou并迁移文件结构。默认game-002的W改为yanzhou/；根手册内game-design-workflow、docs等旧职责路径按[yanzhou/AGENTS.md](yanzhou/AGENTS.md)映射，不能在旧兼容路径新建正文。主规则design/，来源链sources/，问题与决策governance/，实现development/。优化Project ID不变，P改为yanzhou/exploration/optimization/；普通探索不自动读主系统。共享模板、知识、独立肉鸽、归档仍留根目录各自位置。

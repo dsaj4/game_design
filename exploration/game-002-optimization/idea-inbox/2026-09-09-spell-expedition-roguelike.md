@@ -1,65 +1,43 @@
----
-id: H-20260909-002
-type: Design Hypothesis
-project_id: game-002-optimization
-status: Raw Idea / Unqualified
-created: 2026-09-09
-updated: 2026-09-09
-question_ids: [Q-20260909-001]
-source_ids: [SRC-USER-ROGUELIKE-EXAMPLES-20260909, I-20260909-002, SRC-G002-CONTEXT-V2]
-method: desk-review
-author: agent
-version: v1
----
+# 法术远征：公开敌意的时间承诺肉鸽（已迁移）
 
-# 法术远征：公开敌意的时间承诺肉鸽
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 原始想法
+[打开新位置](../../../yanzhou/exploration/optimization/idea-inbox/2026-09-09-spell-expedition-roguelike.md) · [言咒项目入口](../../../yanzhou/README.md) · [迁移说明](../../../yanzhou/governance/layout-migration-report.md)
 
-把肉鸽模式做成“公开敌意的法术远征”：玩家沿可见分叉路线推进，在每场战斗中读敌方准备、用词卡组成一句法术，并选择这句话何时兑现；战后用有限奖励、商店、休整和全局道具改变下一场能表达什么、能承担什么。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-一句话原则：**读敌意，组一句，押节拍，带着代价走下一站。**
+<a id="下一步"></a>
 
-## 触发来源
+[对应正文](../../../yanzhou/exploration/optimization/idea-inbox/2026-09-09-spell-expedition-roguelike.md#下一步)
 
-用户询问如何为目前法术体系搭配合适的肉鸽模式，并提供“肉鸽闯关+卡牌战斗”“伪实时对战+背包管理构筑”“得分闯关+二十一点变化”作为结构对照。项目背景为 `baseline-2026-09-09-001`；匹配分析见 [I-20260909-002](../insights/2026-09-09-roguelike-mode-fit-analysis.md)。
+<a id="原始想法"></a>
 
-## 可能带来的玩家体验
+[对应正文](../../../yanzhou/exploration/optimization/idea-inbox/2026-09-09-spell-expedition-roguelike.md#原始想法)
 
-玩家应感到自己是在准备一场短远征：每次奖励和路线选择都让下一场的句子计划发生变化，战斗中又必须在即时安全、等待收益和被打断风险之间做出可解释的选择。具体强度、节奏和乐趣仍为 `Unknown`。
+<a id="可能带来的玩家体验"></a>
 
-## 暂定标签
+[对应正文](../../../yanzhou/exploration/optimization/idea-inbox/2026-09-09-spell-expedition-roguelike.md#可能带来的玩家体验)
 
-- 类型：Roguelike Run Structure / Core Loop Candidate
-- 情绪：预判、承诺、风险管理、构筑成长
-- 玩法关键词：路线分叉、词卡构筑、公开敌意、时间轴、施法打断、休整、商店
-- 风险关键词：路线只变成奖励菜单、单一时间姿态支配、奖励数值化、节点过多、构筑与战斗脱节
+<a id="当前缺口"></a>
 
-## 资格确认记录
+[对应正文](../../../yanzhou/exploration/optimization/idea-inbox/2026-09-09-spell-expedition-roguelike.md#当前缺口)
 
-| 资格问题 | 当前答案 | 状态 |
-| --- | --- | --- |
-| 这是什么类型的素材，作用于哪个设计对象或 GDD 章节？ | 肉鸽外层与核心循环候选；对应路线、战斗奖励、构筑和施法时机章节 | Clear |
-| 玩家处于什么情境，或这项素材承担什么明确设计功能？ | 在一条短远征中，玩家要为下一场敌意准备可表达且能承受风险的法术句子 | Clear |
-| 玩家会做什么、看到什么或受到什么影响？ | 选择分叉节点、取得/拒收词卡或道具、购买和休整；在战斗中构句并决定兑现时间；生命、金币、牌组和路线位置发生变化 | Clear（具体节点和规则 Unknown） |
-| 希望产生什么反馈、体验或设计价值？ | 让肉鸽成长直接改变施法表达与时间决策，形成“为下一场准备一句话”的长期计划 | Clear（体验未验证） |
-| 它与当前核心构思、已有系统和相关素材是什么关系？ | 承接词卡、离散时间、公开敌意、打断、路线、休整、商店、召唤和道具；不替代正式核心构思 | Clear |
-| 最大未知项是什么，下一步如何验证或决策？ | 奖励应优先改变句子表达、时间风险还是经济恢复；用 3 场连续战斗和 2 条分叉路线桌面推演 | Clear |
+<a id="暂定标签"></a>
 
-### 当前缺口
+[对应正文](../../../yanzhou/exploration/optimization/idea-inbox/2026-09-09-spell-expedition-roguelike.md#暂定标签)
 
-- 尚未决定肉鸽奖励的第一优先级，以及奖励如何避免变成单纯数值升级。
-- 尚未验证路线选择是否会真正改变下一场的法术计划。
-- 尚未完成 `grill-with-docs` 的用户确认，因此不能晋级正式素材、Proposal 或 GDD。
+<a id="法术远征公开敌意的时间承诺肉鸽"></a>
 
-### 资格结论
+[对应正文](../../../yanzhou/exploration/optimization/idea-inbox/2026-09-09-spell-expedition-roguelike.md#法术远征公开敌意的时间承诺肉鸽)
 
-- [x] `Unqualified`：继续留在 inbox，不得进入正式设计链
-- [ ] `Ready for Material Review`
-- [ ] `Promoted`
+<a id="触发来源"></a>
 
-## 下一步
+[对应正文](../../../yanzhou/exploration/optimization/idea-inbox/2026-09-09-spell-expedition-roguelike.md#触发来源)
 
-- [ ] 使用 `grill-with-docs` 确认奖励第一优先级
-- [ ] 执行 [最小路线桌面验证计划](../simulations/OPT-20260909-002-spell-expedition-loop-plan.md)
-- [ ] 根据结果决定晋级正式素材、改写候选或保留为未达标想法
+<a id="资格确认记录"></a>
+
+[对应正文](../../../yanzhou/exploration/optimization/idea-inbox/2026-09-09-spell-expedition-roguelike.md#资格确认记录)
+
+<a id="资格结论"></a>
+
+[对应正文](../../../yanzhou/exploration/optimization/idea-inbox/2026-09-09-spell-expedition-roguelike.md#资格结论)

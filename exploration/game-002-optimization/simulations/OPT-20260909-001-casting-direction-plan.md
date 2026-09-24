@@ -1,40 +1,35 @@
-# OPT-20260909-001 施法时间语义最小验证计划
+# OPT-20260909-001 施法时间语义最小验证计划（已迁移）
 
-- Project ID：`game-002-optimization`
-- 状态：`Planned`
-- 研究问题：[Q-20260909-001](../questions/Q-20260909-casting-strategy-depth.md)
-- 候选：[战场编译器 Raw Idea](../idea-inbox/2026-09-09-battlefield-compiler-casting.md)，`H-20260909-001@v1`
-- 背景包：`baseline-2026-09-09-001`
-- 评判框架：`emergent-strategy-game-framework@v0.1`
-- 验证形式：纸面状态推演 / Desk Simulation；当前没有统一运行器
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 目标
+[打开新位置](../../../yanzhou/exploration/optimization/simulations/OPT-20260909-001-casting-direction-plan.md) · [言咒项目入口](../../../yanzhou/README.md) · [迁移说明](../../../yanzhou/governance/layout-migration-report.md)
 
-验证“时间姿态是否带来真实策略取舍”，而不是验证完整数值平衡或玩家最终体验。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 最小输入
+<a id="opt-20260909-001-施法时间语义最小验证计划"></a>
 
-- 6 个基础词：2 个名词对象、2 个直接转化动词、2 个状态/准备动词；具体词义在本计划中只作占位。
-- 3 种时间姿态：`Now`、`Commit`、`Echo`。
-- 2 类敌方意图：短准备高威胁、长准备低威胁。
-- 2 种资源压力：手牌紧张、生命紧张。
-- 12 个场景：每次只改变一个状态变量，并保留至少一个无新增姿态的对照。
+[对应正文](../../../yanzhou/exploration/optimization/simulations/OPT-20260909-001-casting-direction-plan.md#opt-20260909-001-施法时间语义最小验证计划)
 
-## 记录字段
+<a id="停止条件"></a>
 
-每个场景记录：初始状态、可见信息、可选句子、每种姿态的预计时点/成本/结果、玩家选择、放弃的机会、后续状态、是否被打断、选择理由和未知项。
+[对应正文](../../../yanzhou/exploration/optimization/simulations/OPT-20260909-001-casting-direction-plan.md#停止条件)
 
-## 成功与失败信号
+<a id="成功与失败信号"></a>
 
-- 成功：至少两种姿态在不同情境下各有合理用途；玩家能指出等待换来的收益和风险；失败/失效原因可解释；不存在所有场景都支配其他姿态的模式。
-- 失败：固定姿态在多数场景支配；回响只等于延迟伤害；玩家无法预测触发；为了触发回响而无意义刷牌；信息量增加但选择没有改变。
+[对应正文](../../../yanzhou/exploration/optimization/simulations/OPT-20260909-001-casting-direction-plan.md#成功与失败信号)
 
-## 停止条件
+<a id="最小输入"></a>
 
-- 发现 `Commit` 或 `Echo` 可在所有场景无代价取代 `Now`。
-- 规则边界无法用当前背景包和候选文本表达，需要虚构未确认系统。
-- 12 个场景不足以区分候选，转为新问题而不是扩大样本掩盖不确定性。
+[对应正文](../../../yanzhou/exploration/optimization/simulations/OPT-20260909-001-casting-direction-plan.md#最小输入)
 
-## 结果去向
+<a id="目标"></a>
 
-本计划尚未执行。执行后将原始记录留在本目录，汇总观察写入 `insights/`，并在目标项目 `evaluations/` 中引用框架版本、自动/人工证据和限制。结果不会自动晋级 Raw Idea，也不会修改 game-002。
+[对应正文](../../../yanzhou/exploration/optimization/simulations/OPT-20260909-001-casting-direction-plan.md#目标)
+
+<a id="结果去向"></a>
+
+[对应正文](../../../yanzhou/exploration/optimization/simulations/OPT-20260909-001-casting-direction-plan.md#结果去向)
+
+<a id="记录字段"></a>
+
+[对应正文](../../../yanzhou/exploration/optimization/simulations/OPT-20260909-001-casting-direction-plan.md#记录字段)

@@ -1,91 +1,51 @@
-# 词性与休整候选结构
+# 词性与休整候选结构（已迁移）
 
-状态：Qualified GDD Material。证据：Hypothesis。资格覆盖下列明确表述；具体后置机制与参数保持 Unknown，素材可引用不等于完整系统已采纳或通过验证。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 素材控制
+[打开新位置](../../../../yanzhou/sources/materials/M-2026-09-06-word-classes-and-reward-packs.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-| 字段 | 内容 |
-| --- | --- |
-| 素材 ID | MAT-2026-09-06-word-classes-and-reward-packs |
-| 素材类型 | Mechanic / System / Constraint |
-| 来源 inbox | [来源入口](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md) |
-| 原始确认 | [原始记录](../../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-word-classes-and-reward-packs.md) |
-| 资格确认日期 | 2026-09-06；适用范围复核2026-09-10 |
-| 确认方式 | grill-with-docs：依据用户确认记录、当前核心及文档统一授权复核 |
-| 当前证据状态 | Hypothesis |
-| 负责人 | 用户决定设计，agent维护表述与来源 |
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 规范化表述
+<a id="2026-09-14-全游戏gdd使用记录"></a>
 
-每张词卡固定属于名词、动词或修饰词；形容词修饰名词、副词修饰动词，名词的主语和宾语权限由具体词义决定。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-word-classes-and-reward-packs.md#2026-09-14-全游戏gdd使用记录)
 
-休整词卡包提供一个随机名词、一个随机动词及一个从剩余合格词中产生的词，三者名称不同，第三个可属任一类，包括有该渠道资格的修饰词；前两个仍为名词和动词，不新增必出修饰词的槽位。
+<a id="与当前构思的关系"></a>
 
-先过滤获取资格和普通同名三张上限，再检查至少三个不同名且名词、动词均有候选；不足则不能生成完整休整包。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-word-classes-and-reward-packs.md#与当前构思的关系)
 
-各步在当步合格名称中等概率选取，不额外保底主宾用途、法术类型或当前构筑适配；第三张不是先按词性各半再取词。
+<a id="使用记录"></a>
 
-普通召唤种类词按自身资格入池；本场单位身份不作为普通库存词卡候选。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-word-classes-and-reward-packs.md#使用记录)
 
-休整先选分支再生成候选，领取一张或拒收全部；商店使用公开商品规则，战斗收益使用法术产出与整体领取规则。
+<a id="未知项与验证"></a>
 
-起始词是否可获取由词表明示，不因起始身份自动禁售或自动入池；首轮普通词池不设稀有度或隐性适配调权。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-word-classes-and-reward-packs.md#未知项与验证)
 
-## 设计对象与 GDD 映射
+<a id="机制行为体验假设"></a>
 
-- 作用对象：词性与休整候选结构。
-- 目标 GDD：尚未创建；作为相应系统、规则边界及验证章节的素材。
-- 对应完成度：GDD-0 / GDD-1 素材输入；具体内容与参数需另行确认。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-word-classes-and-reward-packs.md#机制行为体验假设)
 
-## 玩家处境、行为与反馈
+<a id="玩家处境行为与反馈"></a>
 
-- 玩家处境：依据库存、场景与公开攻击安排进行战前选择，观察自动战斗，再处理战后及路线决定。
-- 玩家可见信息：本素材规范化表述中的条件、对象和结果；具体界面呈现待验证。
-- 行为与反馈：通过上述规则判断资源、时间或对象关系；验证情境为“检查满额、某类为空、不足三个名称及三者均合法四种候选生成情境。”
-- 预期价值：玩家能解释选择如何改变后续结果；实际策略价值仍为Hypothesis。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-word-classes-and-reward-packs.md#玩家处境行为与反馈)
 
-## 与当前构思的关系
+<a id="素材控制"></a>
 
-- 核心依据：[Core Concept v0.6](../core-concept.md)，支持战前配置、自动循环与可推导语义。
-- 相关系统：[素材索引](README.md)按主题列出依赖；[领域词汇](../../CONTEXT.md)统一概念。
-- 已确认处理范围：[无未决规则冲突；具体内容与体验仍待验证](../../docs/design-decisions-needed.md)。
-- 明确边界：本文不补齐未决的具体效果、参数、资源权限或额外玩家操作，也不作为实现完成证明。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-word-classes-and-reward-packs.md#素材控制)
 
-## 机制—行为—体验假设
+<a id="规范化表述"></a>
 
-| 规则 | 可能行为 | 目标体验 |
-| --- | --- | --- |
-| 每张词卡固定属于名词、动词或修饰词；形容词修饰名词、副词修饰动词，名词的主语和宾语权限由具体词义决定。 | 依据明确约束比较方案及其后果 | 可预测且可解释的选择 |
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-word-classes-and-reward-packs.md#规范化表述)
 
-## 未知项与验证
+<a id="设计对象与-gdd-映射"></a>
 
-| 未知或风险 | 影响 | 下一步 | 成功信号 | 失败信号 |
-| --- | --- | --- | --- | --- |
-| 完整词池及候选多样性。 | 影响完整设计与效果可解释性 | 检查满额、某类为空、不足三个名称及三者均合法四种候选生成情境。 | 玩家可预测结果，关键情境有唯一裁定 | 结果依赖未确认规则，或一类选择长期无价值 |
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-word-classes-and-reward-packs.md#设计对象与-gdd-映射)
 
-## 资格确认清单
+<a id="词性与休整候选结构"></a>
 
-- [x] 原始表达与用户确认可追溯。
-- [x] 设计对象与章节用途明确。
-- [x] 玩家处境或设计功能明确。
-- [x] 当前规范化表述的行为、可见影响或约束明确。
-- [x] 预期价值明确，验证状态如实保留。
-- [x] 与核心及处理范围的关系明确。
-- [x] 未知项与下一步验证方式明确。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-word-classes-and-reward-packs.md#词性与休整候选结构)
 
-## 使用记录
+<a id="资格确认清单"></a>
 
-| 日期 | 目标 | 处理结果 | 边界 |
-| --- | --- | --- | --- |
-| 2026-09-10 | [设计文档统一](../draft-changes/D-2026-09-10-current-design-alignment.md) | Included：明确表述部分 | 原始使用与确认记录从来源快照追溯；当前处理范围见接口采纳记录，尚无GDD |
-
-2026-09-11：[G002-CORE-016](../draft-changes/D-2026-09-11-modifier-card-system.md)增加第三类词卡；具体修饰词渠道资格、数量与时间另行设计，现有三选一、不同名、资格过滤与第三位抽取方式继续适用。
-
-
-## 2026-09-14 全游戏GDD使用记录
-
-| 日期 | 目标与处理 | 当前适用边界 |
-| --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/06-parameters-and-economy.md) | 纳入整体收益、休整、商品资格、同名额度与交易；首版战斗只给金币，价格／阶段／数量用PG，掉卡法术后置。 |
-
-本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-word-classes-and-reward-packs.md#资格确认清单)

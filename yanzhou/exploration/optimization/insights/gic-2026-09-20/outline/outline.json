@@ -1,0 +1,408 @@
+{
+  "game_name": "GIC 24款创新机制与《言咒》迁移研究",
+  "slug": "gic-yanzhou",
+  "scope": "只分析来源可支持的机制结构及RC1适配；不写新GDD、不推定原作完整规则或商业表现",
+  "target_questions": [
+    "哪些结构真正增加实体词卡的机会成本？",
+    "哪些改变能保留战前编排与自动执行？",
+    "五个方向如何最小化验证并独立决定去留？"
+  ],
+  "thesis": "最值得吸收的是让同一选择承担不同后果；本轮将24款来源结构收敛为五个独立、可证伪的Raw方向，优先借词布阵。",
+  "evidence_map": [
+    {
+      "id": "T01",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/01-tag-team.md",
+      "summary": "双侠小队；GIC档案ID见source-manifest",
+      "modules": [
+        "module-1",
+        "module-3"
+      ]
+    },
+    {
+      "id": "T02",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/02-oathsworn.md",
+      "summary": "守誓者：深入密林；GIC档案ID见source-manifest",
+      "modules": []
+    },
+    {
+      "id": "T03",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/03-king-watching.md",
+      "summary": "王之凝视；GIC档案ID见source-manifest",
+      "modules": [
+        "module-2",
+        "module-4"
+      ]
+    },
+    {
+      "id": "T04",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/04-challengers.md",
+      "summary": "冠军挑战者；GIC档案ID见source-manifest",
+      "modules": [
+        "module-2"
+      ]
+    },
+    {
+      "id": "T05",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/05-take-time.md",
+      "summary": "时序迷局；GIC档案ID见source-manifest",
+      "modules": [
+        "module-5"
+      ]
+    },
+    {
+      "id": "T06",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/06-neon-white.md",
+      "summary": "霓虹白客；GIC档案ID见source-manifest",
+      "modules": [
+        "module-2",
+        "module-3",
+        "module-6"
+      ]
+    },
+    {
+      "id": "T07",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/07-eternal-decks.md",
+      "summary": "永恒牌；GIC档案ID见source-manifest",
+      "modules": [
+        "module-4",
+        "module-6"
+      ]
+    },
+    {
+      "id": "T08",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/08-heat.md",
+      "summary": "火爆狂飙：全速前进；GIC档案ID见source-manifest",
+      "modules": [
+        "module-6"
+      ]
+    },
+    {
+      "id": "T09",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/09-tiletum.md",
+      "summary": "蒂尔特之辉；GIC档案ID见source-manifest",
+      "modules": [
+        "module-6"
+      ]
+    },
+    {
+      "id": "T10",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/10-ayar.md",
+      "summary": "阿亚尔：太阳之子；GIC档案ID见source-manifest",
+      "modules": [
+        "module-8"
+      ]
+    },
+    {
+      "id": "T11",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/11-unstoppable.md",
+      "summary": "孤勇英豪；GIC档案ID见source-manifest",
+      "modules": [
+        "module-3",
+        "module-6"
+      ]
+    },
+    {
+      "id": "T12",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/12-mindbug.md",
+      "summary": "夺心魔虫：初次照面；GIC档案ID见source-manifest",
+      "modules": [
+        "module-8"
+      ]
+    },
+    {
+      "id": "T13",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/13-moon-colony.md",
+      "summary": "Moon Colony Bloodbath；GIC档案ID见source-manifest",
+      "modules": []
+    },
+    {
+      "id": "T14",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/14-cat-in-box.md",
+      "summary": "盒中猫：豪华版；GIC档案ID见source-manifest",
+      "modules": [
+        "module-4"
+      ]
+    },
+    {
+      "id": "T15",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/15-word-game.md",
+      "summary": "文字游戏；GIC档案ID见source-manifest",
+      "modules": [
+        "module-2",
+        "module-7"
+      ]
+    },
+    {
+      "id": "T16",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/16-stacklands.md",
+      "summary": "堆叠大陆；GIC档案ID见source-manifest",
+      "modules": [
+        "module-4",
+        "module-7"
+      ]
+    },
+    {
+      "id": "T17",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/17-blue-prince.md",
+      "summary": "蓝途王子；GIC档案ID见source-manifest",
+      "modules": [
+        "module-3",
+        "module-5"
+      ]
+    },
+    {
+      "id": "T18",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/18-vantage.md",
+      "summary": "万境奇旅；GIC档案ID见source-manifest",
+      "modules": [
+        "module-5",
+        "module-7"
+      ]
+    },
+    {
+      "id": "T19",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/19-sultans-game.md",
+      "summary": "苏丹的游戏；GIC档案ID见source-manifest",
+      "modules": [
+        "module-3",
+        "module-5"
+      ]
+    },
+    {
+      "id": "T20",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/20-save-world.md",
+      "summary": "拯救世界操作指南；GIC档案ID见source-manifest",
+      "modules": [
+        "module-8"
+      ]
+    },
+    {
+      "id": "T21",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/21-sea-salt-paper.md",
+      "summary": "海盐折纸；GIC档案ID见source-manifest",
+      "modules": [
+        "module-8"
+      ]
+    },
+    {
+      "id": "T22",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/22-marvel-snap.md",
+      "summary": "漫威终极逆转；GIC档案ID见source-manifest",
+      "modules": [
+        "module-8"
+      ]
+    },
+    {
+      "id": "T23",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/23-tunic.md",
+      "summary": "TUNIC；GIC档案ID见source-manifest",
+      "modules": [
+        "module-7"
+      ]
+    },
+    {
+      "id": "T24",
+      "type": "secondary-source-paraphrase",
+      "path": "cases/24-forestrike.md",
+      "summary": "预视武宗；GIC档案ID见source-manifest",
+      "modules": [
+        "module-1",
+        "module-3",
+        "module-8"
+      ]
+    },
+    {
+      "id": "B0",
+      "type": "user-design-baseline",
+      "path": "../../../../workspaces/game-002/game-design-workflow/gdd/GDD-2026-09-14-yanzhou-full-game.md",
+      "summary": "全游戏GDD RC1；文件哈希已锁定",
+      "modules": [
+        "module-1",
+        "module-2",
+        "module-3",
+        "module-4",
+        "module-5",
+        "module-6",
+        "module-7",
+        "module-8"
+      ]
+    }
+  ],
+  "visual_evidence": [],
+  "modules": [
+    {
+      "id": "module-1",
+      "title": "定位与来源边界",
+      "claim": "24款游戏的40份GIC文字档案只支持机制研究；商业表现与完整原作规则不作判断。",
+      "evidence": [
+        "T01",
+        "T24",
+        "B0"
+      ],
+      "open_questions": [
+        "原作当前版本、完整规则与商业结果未核实。"
+      ],
+      "write_priority": "medium",
+      "illustration_candidates": []
+    },
+    {
+      "id": "module-2",
+      "title": "玩家体验与设计目标",
+      "claim": "优先寻找改变玩家取舍的结构，保留可解释的战前编排和自动执行。",
+      "evidence": [
+        "T03",
+        "T04",
+        "T06",
+        "T15",
+        "B0"
+      ],
+      "open_questions": [
+        "候选趣味与理解负担尚无真人证据。"
+      ],
+      "write_priority": "high",
+      "illustration_candidates": []
+    },
+    {
+      "id": "module-3",
+      "title": "核心玩法循环",
+      "claim": "比较来源中的承诺、执行、反馈和再次选择；五方向分别改变其中一个环节。",
+      "evidence": [
+        "T01",
+        "T06",
+        "T11",
+        "T17",
+        "T19",
+        "T24",
+        "B0"
+      ],
+      "open_questions": [
+        "新循环是否存在无代价支配策略未知。"
+      ],
+      "write_priority": "high",
+      "illustration_candidates": []
+    },
+    {
+      "id": "module-4",
+      "title": "系统关系与约束",
+      "claim": "每个候选必须标明新增实体用途、获取渠道、布场或模式与RC1系统的接口。",
+      "evidence": [
+        "T03",
+        "T07",
+        "T14",
+        "T16",
+        "B0"
+      ],
+      "open_questions": [
+        "新初态与保存、时序、来源的完整边界尚待规格。"
+      ],
+      "write_priority": "high",
+      "illustration_candidates": []
+    },
+    {
+      "id": "module-5",
+      "title": "内容与关卡",
+      "claim": "先做两份契约、两种目标或两份模板，不引入全卡池双面化和无限场景特例。",
+      "evidence": [
+        "T05",
+        "T17",
+        "T18",
+        "T19",
+        "B0"
+      ],
+      "open_questions": [
+        "内容可生产性及所有关卡的可解性未验证。"
+      ],
+      "write_priority": "medium",
+      "illustration_candidates": []
+    },
+    {
+      "id": "module-6",
+      "title": "资源与经济",
+      "claim": "同一资源承担互斥用途才形成成本；新收益必须检查既有额度与后续采购。",
+      "evidence": [
+        "T06",
+        "T07",
+        "T08",
+        "T09",
+        "T11",
+        "B0"
+      ],
+      "open_questions": [
+        "奖励、初始层数和整局平衡待测试。"
+      ],
+      "write_priority": "medium",
+      "illustration_candidates": []
+    },
+    {
+      "id": "module-7",
+      "title": "叙事、媒介与呈现",
+      "claim": "让词成为可见实体并让理解成为奖励；不依赖隐藏规则或主题皮肤。",
+      "evidence": [
+        "T15",
+        "T16",
+        "T18",
+        "T23",
+        "B0"
+      ],
+      "open_questions": [
+        "没有音画原型或系统截图审计。"
+      ],
+      "write_priority": "medium",
+      "illustration_candidates": []
+    },
+    {
+      "id": "module-8",
+      "title": "研究结论与后续验证",
+      "claim": "B优先、A次之，C/E按目的选择，D后置；五方向独立验证，保持Raw资格。",
+      "evidence": [
+        "T10",
+        "T12",
+        "T20",
+        "T21",
+        "T22",
+        "T24",
+        "B0"
+      ],
+      "open_questions": [
+        "用户未选择新增设计方向；全部验证NotRun。"
+      ],
+      "write_priority": "high",
+      "illustration_candidates": []
+    }
+  ],
+  "diagrams": [
+    {
+      "type": "core_loop",
+      "module": "module-3",
+      "purpose": "解释玩家输入、行动、产出、消耗、反馈和回流。"
+    },
+    {
+      "type": "system_relation",
+      "module": "module-4",
+      "purpose": "解释主要系统之间的输入、输出和反馈关系。"
+    }
+  ]
+}

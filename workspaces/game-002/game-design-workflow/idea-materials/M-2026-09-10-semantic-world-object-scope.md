@@ -1,84 +1,55 @@
-# 法术可操作对象范围
+# 法术可操作对象范围（已迁移）
 
-状态：Qualified GDD Material / Accepted：当前按G002-CORE-011简化。日期：2026-09-10。证据Hypothesis。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 素材控制
+[打开新位置](../../../../yanzhou/sources/materials/M-2026-09-10-semantic-world-object-scope.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-| 字段 | 内容 |
-| --- | --- |
-| 素材ID | MAT-2026-09-10-semantic-world-object-scope |
-| 来源inbox | [范围原话](../idea-inbox/2026-09-10-semantic-world-object-scope.md)、[简化指令](../idea-inbox/2026-09-10-simple-object-interactions.md) |
-| 确认方式 | grill-with-docs，SW01范围采纳后依据用户直接指令收束 |
-| 当前证据 | Hypothesis，无原型/玩家验证 |
-| 修改前范围 | [输入快照](../../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md) |
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 规范化表述
+<a id="2026-09-14-全游戏gdd使用记录"></a>
 
-法术的当前可操作范围以单位、环境物体、法术生成对象、属性状态及未完成过程为主。玩家用词卡使对象的数量、强度、剩余时间或状态发生可见变化，例如点燃、冰冻；这些数值含义逐对象声明，不把所有对象统一为单位生命。环境仍没有单位生命与自主攻击。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-semantic-world-object-scope.md#2026-09-14-全游戏gdd使用记录)
 
-火焰、雷电、冰霜等由法术产生、真实存在且可继续受到作用的内容，明确纳入法术生成对象。它们具有独立身份、来源与可操作窗口；同名新生对象不继承已失效实例引用，符合战前条件的生成物可在后续释放中被匹配。生成物与附着状态、已经结算的伤害及纯演出分开；范围确认不自动补齐持续时间、周期、伤害、互相反应或再次命中。
+<a id="与当前构思的关系"></a>
 
-位置用于场景展示和法杖范围判定，不作为移动指令的目标。暂不开放位移、连接、支撑、独立空间参照、指定飞行方向或玩家指定新受术端点。抵挡、不指定方向的反弹和无需玩家指定接收者的作用转移可继续设计；接收规则与失败结果由具体词义明确，不能通过运行中点选补齐，也不视为环境材料搬运。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-semantic-world-object-scope.md#与当前构思的关系)
 
-暂不建立限定材料份额、容器收材、材料供给、环境材料转移、配方合成或物体复制等资源加工链。资源收集法术的流程止于“法术作用于合格对象 → 对象掉落卡牌”；掉落卡按现行资格、同名额度和待领取收益规则处理，不增加材料提取、加工、运输或手动拾取步骤。没有明示掉卡词义的普通效果不会自动产卡。
+<a id="使用记录"></a>
 
-点燃和冰冻等简单对象状态变化进入当前内容设计；燃料、导电网络、自动传播、结构坍塌等复杂环境机制继续后置。既有护甲等状态数量与明确消耗规则仍可复用，但不再据此赋予对象通用供材能力。基础句式、词卡实体成本、实例/条件绑定、单次名单、共享释放槽、当前冷却改期、四阶段、胜负与整体收益规则继续适用。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-semantic-world-object-scope.md#使用记录)
 
-## 当前对象层面
+<a id="当前对象层面"></a>
 
-| 层面 | 对象 | 当前设计功能 |
-| --- | --- | --- |
-| 单位 | 玩家、敌人；完整召唤后置 | 生命/护甲及合法状态变化，生命参与胜负 |
-| 环境物体 | 树木、石块等可辨认事物 | 明示点燃/冰冻等状态变化；收集资格明确时掉卡，无环境单位生命 |
-| 法术生成物 | 火焰、雷电、冰霜等真实作用对象 | 有来源和新身份，可被后续合法作用改变 |
-| 属性/附着状态 | 护甲、力量等许可属性，燃烧、冰冻等状态 | 数量或状态变化，是否允许修改逐词义明确 |
-| 未完成过程 | 攻击、真实未交付作用、当前冷却 | 按窗口修改当前量/时间或处理未来作用；无定向/指定端点 |
-| 基础判定与显示 | 场景位置、法杖范围、配置、权益与特效映射 | 作为判断和查看信息，不提供空间/结构/加工操作 |
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-semantic-world-object-scope.md#当前对象层面)
 
-## 设计对象与GDD映射
+<a id="未知项与验证"></a>
 
-作用于统一GDD的法术对象和交互范围章节；当前是GDD-0范围素材及部分GDD-1边界输入，尚无正式GDD。类别纳入不等于全部具体词卡和参数完成。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-semantic-world-object-scope.md#未知项与验证)
 
-## 玩家处境、行为与反馈
+<a id="机制行为体验假设"></a>
 
-玩家战前构句并设定实例或条件引用，战中观察对象真实变化及掉卡。重点是能看出对象现在是什么状态、哪个作用使它变化、下一次法术是否仍能作用；不要求指定几何路径或资源加工端点。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-semantic-world-object-scope.md#机制行为体验假设)
 
-## 与当前构思的关系
+<a id="法术可操作对象范围"></a>
 
-保留[引用模型](M-2026-09-10-instance-and-conditional-binding.md)、[执行规则](M-2026-09-10-semantic-world-executable-rules.md)、[状态留存](M-2026-09-05-battle-state-persistence.md)和[表现](M-2026-09-10-battlefield-state-change-expression.md)。收束与新增的详细边界见[简化范围素材](M-2026-09-10-simple-object-interactions.md)。完整召唤和复杂环境反应仍后置；镶嵌进入[当前系统设计顺序](../../docs/modifier-and-inlay-design.md)。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-semantic-world-object-scope.md#法术可操作对象范围)
 
-## 机制—行为—体验假设
+<a id="玩家处境行为与反馈"></a>
 
-| 规则 | 可能行为 | 目标体验 |
-| --- | --- | --- |
-| 可见对象接受明确数量/状态变化 | 以同词义作用不同对象 | 易理解的改变 |
-| 法术生成物有真实身份和窗口 | 在后续释放匹配它并继续操作 | 法术结果继续参与世界 |
-| 收集直接作用于对象并掉卡 | 为合格对象分配收集法术 | 资源反馈直接 |
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-semantic-world-object-scope.md#玩家处境行为与反馈)
 
-## 未知项与验证
+<a id="素材控制"></a>
 
-生成物的出现/存续/消失、具体可改变的量、点燃/冰冻效果及掉卡条件待填；反弹/非指定转移还需唯一接收规则。使用[当前代表句](../idea-inbox/2026-09-10-semantic-sentence-cases.md)检查生成前后引用、失效跳过和资格，具体参数重新设计。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-semantic-world-object-scope.md#素材控制)
 
-## 资格确认清单
+<a id="规范化表述"></a>
 
-- [x] 用户范围原话与本次简化指令可追溯。
-- [x] 对象层面、玩家情境和直接影响明确。
-- [x] 简化目标与当前规则关系明确。
-- [x] 未知项和验证方式明确，细则未被假装完成。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-semantic-world-object-scope.md#规范化表述)
 
-## 使用记录
+<a id="设计对象与gdd映射"></a>
 
-| 日期 | 目标 | 处理 |
-| --- | --- | --- |
-| 2026-09-10 | [SW01采纳](../draft-changes/D-2026-09-10-semantic-world-object-scope.md) | 初始范围证据 |
-| 2026-09-10 | [SW02采纳](../draft-changes/D-2026-09-10-instance-and-conditional-binding.md) | 引用模型保留 |
-| 2026-09-10 | [简化范围采纳](../draft-changes/D-2026-09-10-simple-object-interactions.md) | 当前G002-CORE-011范围 |
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-semantic-world-object-scope.md#设计对象与gdd映射)
 
+<a id="资格确认清单"></a>
 
-## 2026-09-14 全游戏GDD使用记录
-
-| 日期 | 目标与处理 | 当前适用边界 |
-| --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/03-combat-and-status.md) | 只纳入可引用对象、固定名单、当前过程、费用与公开顺序；掉卡／雷电／位移／材料加工等旧扩展首版后置。 |
-
-本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-semantic-world-object-scope.md#资格确认清单)

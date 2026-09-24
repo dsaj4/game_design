@@ -1,21 +1,19 @@
-> 历史快照：2026-09-23整理前正文；只用于来源追溯，不构成当前规则或新的审批要求。原文中的“当前”均按原日期理解。
-> 原路径：`workspaces/game-002/game-design-workflow/gdd/README.md`。本副本仅调整相对链接，原字节SHA见整理清单。
+# game-002 GDD（已迁移）
 
-# game-002 GDD
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 当前全游戏设计：RC1
+[打开新位置](../../../../../../../yanzhou/history/pre-organization/game-design-workflow/gdd/README.md) · [言咒项目入口](../../../../../../../yanzhou/README.md) · [迁移说明](../../../../../../../yanzhou/governance/layout-migration-report.md)
 
-[《言咒》全游戏GDD](../../../../../game-design-workflow/gdd/GDD-2026-09-14-yanzhou-full-game.md)／[Wiki目录](../../../../../game-design-workflow/gdd/yanzhou-rc1/README.md)，2026-09-14，GDD-2 / Accepted。26组设计缺口与12类参数已实际收束；正文12页，覆盖7系统、55设计ID／53实体、完整路线／遭遇／经济／保存与验收。原始库完整保留，平衡与体验Hypothesis／NotRun。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-后续以此作为开发第一材料，有矛盾再查构思系统。以下战场单项草案只保留历史，不覆盖RC1。
+<a id="game-002-gdd"></a>
 
-## 旧GDD入口（历史）
+[对应正文](../../../../../../../yanzhou/history/pre-organization/game-design-workflow/gdd/README.md#game-002-gdd)
 
+<a id="当前全游戏设计rc1"></a>
 
-使用[共享模板](../../../../../../../game-design-workflow/templates/README.md)，玩法与实现进度分开。现有核心为[Core Concept v0.6](../../../../../game-design-workflow/core-concept.md)，具体GDD是否已采纳按各自状态判断。
+[对应正文](../../../../../../../yanzhou/history/pre-organization/game-design-workflow/gdd/README.md#当前全游戏设计rc1)
 
-| GDD | 成熟度 | 状态与范围 |
-| --- | --- | --- |
-| [第一人称格子战场与环境](../../../../../game-design-workflow/gdd/GDD-2026-09-12-first-person-grid-battlefield.md) | GDD-1规则草案 | Draft Change／Hypothesis；2×5占位、地面与有限火焰变化，参数未冻结、NotRun |
+<a id="旧gdd入口历史"></a>
 
-来源限于已通过资格的素材；inbox未确认候选不得直接进入正文。当前尚无已采纳GDD。
+[对应正文](../../../../../../../yanzhou/history/pre-organization/game-design-workflow/gdd/README.md#旧gdd入口历史)

@@ -1,95 +1,51 @@
-# 整句效果与词义复用
+# 整句效果与词义复用（已迁移）
 
-状态：Qualified GDD Material。证据：Hypothesis。资格覆盖下列明确表述；具体后置机制与参数保持 Unknown，素材可引用不等于完整系统已采纳或通过验证。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 素材控制
+[打开新位置](../../../../yanzhou/sources/materials/M-2026-09-06-compositional-spells-and-word-meaning.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-| 字段 | 内容 |
-| --- | --- |
-| 素材 ID | MAT-2026-09-06-compositional-spells-and-word-meaning |
-| 素材类型 | Mechanic / System / Constraint |
-| 来源 inbox | [来源入口](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)、[来源入口](../idea-inbox/2026-09-05-yanzhou-core-combat.md) |
-| 原始确认 | [原始记录](../../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-compositional-spells-and-word-meaning.md) |
-| 资格确认日期 | 2026-09-06；适用范围复核2026-09-10 |
-| 确认方式 | grill-with-docs：依据用户确认记录、当前核心及文档统一授权复核 |
-| 当前证据状态 | Hypothesis |
-| 负责人 | 用户决定设计，agent维护表述与来源 |
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 规范化表述
+<a id="2026-09-14-全游戏gdd使用记录"></a>
 
-多个词共同定义一条完整循环法术，组合中的词不各自独立释放。一次法术可以产生多个相关变化，但仍按一条法术处理。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-compositional-spells-and-word-meaning.md#2026-09-14-全游戏gdd使用记录)
 
-满足明确词义、句式与兼容条件的新组合无需额外解锁整句配方；首版不设置整句专属隐藏奖励。
+<a id="与当前构思的关系"></a>
 
-同一个词在不同组合中保持核心含义；角色、输入与战况带来的差别必须写在词义条件中。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-compositional-spells-and-word-meaning.md#与当前构思的关系)
 
-构句合法、配置完成、释放尝试和成功结算分别判断；词卡和配置齐备不保证每轮都有有效对象或所需状态数量/成本。
+<a id="使用记录"></a>
 
-省略主语由玩家执行，显式主语指定执行者或载体；一张实体词卡只占一个位置且同场只归属一条法术。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-compositional-spells-and-word-meaning.md#使用记录)
 
-法术可有多个类型，类型用于构筑偏好；显式多一个词不自动提供统一伤害倍率。
+<a id="整句效果与词义复用"></a>
 
-R24在释放开始时完整结算直接效果，持续或分段作用由明确过程或状态承载。表现以发生、发展与结果组织，多段视觉变化不自行新增法术事件、伤害或奖励。条件筛选不自动触发额外施法；事件效果须独立声明条件与成本。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-compositional-spells-and-word-meaning.md#整句效果与词义复用)
 
-成功事件以完整法术为单位，至少一个对象合法结算才计一次，合法零值也可满足；多个对象不重复生成同次法术的成功事件。全部失效、状态数量或成本不足、被覆盖或打断均不产生该成功事件。
+<a id="未知项与验证"></a>
 
-按[GR v1](M-2026-09-11-global-rule-boundaries.md)的GR01／03／06／07，每个词贡献什么参数、各角色如何配对、完整效果和释放时长怎样得到，都由词义明示。归零后的单位不能因完整事件尚未结束而保留存活操作资格；死亡产物与成功通知涉及的相对顺序须随内容明确。额外事件需声明计费／计次、阶段、顺序与有限响应；S2／E3范围的独立触发按RC06在原事件胜负检查后即时处理一层；有限子步骤与独立触发分开，其他未声明事件不自动开放。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-compositional-spells-and-word-meaning.md#未知项与验证)
 
-## 设计对象与 GDD 映射
+<a id="机制行为体验假设"></a>
 
-- 作用对象：整句效果与词义复用。
-- 目标 GDD：尚未创建；作为相应系统、规则边界及验证章节的素材。
-- 对应完成度：GDD-0 / GDD-1 素材输入；具体内容与参数需另行确认。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-compositional-spells-and-word-meaning.md#机制行为体验假设)
 
-## 玩家处境、行为与反馈
+<a id="玩家处境行为与反馈"></a>
 
-- 玩家处境：依据库存、场景与公开攻击安排进行战前选择，观察自动战斗，再处理战后及路线决定。
-- 玩家可见信息：本素材规范化表述中的条件、对象和结果；具体界面呈现待验证。
-- 行为与反馈：通过上述规则判断资源、时间或对象关系；验证情境为“用同一名词的至少两种合法组合和一条非法组合，检查含义一致、结果可解释。”
-- 预期价值：玩家能解释选择如何改变后续结果；实际策略价值仍为Hypothesis。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-compositional-spells-and-word-meaning.md#玩家处境行为与反馈)
 
-## 与当前构思的关系
+<a id="素材控制"></a>
 
-- 核心依据：[Core Concept v0.6](../core-concept.md)，支持战前配置、自动循环与可推导语义。
-- 相关系统：[素材索引](README.md)按主题列出依赖；[领域词汇](../../CONTEXT.md)统一概念。
-- 已确认处理范围：[无未决规则冲突；具体内容与体验仍待验证](../../docs/design-decisions-needed.md)。
-- 明确边界：本文不补齐未决的具体效果、参数、资源权限或额外玩家操作，也不作为实现完成证明。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-compositional-spells-and-word-meaning.md#素材控制)
 
-## 机制—行为—体验假设
+<a id="规范化表述"></a>
 
-| 规则 | 可能行为 | 目标体验 |
-| --- | --- | --- |
-| 多个词共同定义一条完整循环法术，组合中的词不各自独立释放。一次法术可以产生多个相关变化，但仍按一条法术处理。 | 依据明确约束比较方案及其后果 | 可预测且可解释的选择 |
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-compositional-spells-and-word-meaning.md#规范化表述)
 
-## 未知项与验证
+<a id="设计对象与-gdd-映射"></a>
 
-| 未知或风险 | 影响 | 下一步 | 成功信号 | 失败信号 |
-| --- | --- | --- | --- | --- |
-| 具体词义能否提供足够复用而不过多增加特例。 | 影响完整设计与效果可解释性 | 用同一名词的至少两种合法组合和一条非法组合，检查含义一致、结果可解释。 | 玩家可预测结果，关键情境有唯一裁定 | 结果依赖未确认规则，或一类选择长期无价值 |
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-compositional-spells-and-word-meaning.md#设计对象与-gdd-映射)
 
-## 资格确认清单
+<a id="资格确认清单"></a>
 
-- [x] 原始表达与用户确认可追溯。
-- [x] 设计对象与章节用途明确。
-- [x] 玩家处境或设计功能明确。
-- [x] 当前规范化表述的行为、可见影响或约束明确。
-- [x] 预期价值明确，验证状态如实保留。
-- [x] 与核心及处理范围的关系明确。
-- [x] 未知项与下一步验证方式明确。
-
-## 使用记录
-
-| 日期 | 目标 | 处理结果 | 边界 |
-| --- | --- | --- | --- |
-| 2026-09-10 | [设计文档统一](../draft-changes/D-2026-09-10-current-design-alignment.md) | Included：明确表述部分 | 原始使用与确认记录从来源快照追溯；当前处理范围见接口采纳记录，尚无GDD |
-
-2026-09-10：按[用户R01–R32全部采纳](../draft-changes/D-2026-09-10-semantic-world-executable-rules.md)同步本素材受影响表述；具体对象、词卡和参数仍按对应范围设计，证据Hypothesis。
-
-
-## 2026-09-14 全游戏GDD使用记录
-
-| 日期 | 目标与处理 | 当前适用边界 |
-| --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/03-combat-and-status.md) | 保留现行身份、时序、成功及费用框架；旧具体例和参数只在RC1仍适用时使用。 |
-
-本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-compositional-spells-and-word-meaning.md#资格确认清单)

@@ -1,29 +1,31 @@
-# 当前设计文档统一
+# 当前设计文档统一（已迁移）
 
-## 修改目标
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-以 Core Concept v0.6 / Stable Design Baseline 为唯一核心口径，统一全部现用设计正文、术语、来源入口和支撑素材。证据仍为 Hypothesis。
+[打开新位置](../../../../yanzhou/sources/draft-changes/D-2026-09-10-current-design-alignment.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-## 来源
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-- 用户于2026-09-10要求保存原始版本，逐份统一构思文件，尽量复用兼容设计，汇总需要人工决定的冲突。
-- [核心构思](../core-concept.md)与[战前构句及法杖配置](D-2026-09-09-prebattle-spell-wand-assembly.md)。
-- [逐文件审查](../../docs/design-alignment-audit.md)记录范围、来源及校验结果。
+<a id="修改目标"></a>
 
-## 具体文本
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-current-design-alignment.md#修改目标)
 
-核心配置直接表述为：“玩家在战前使用完整战外词卡库存，按名词、动词、两种基础句式、语义兼容及执行者关系组成完整法术。一个组合对应一条循环法术，每张实体词卡在本次配置中只归属一条法术。”
+<a id="具体文本"></a>
 
-法杖直接表述为：“每条循环法术绑定一根法杖，每根法杖承载一条法术。法杖顺序决定同刻覆盖；法杖及其镶嵌配置决定范围，镶嵌的槽位、资格、替换和具体效果为 Unknown。”
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-current-design-alignment.md#具体文本)
 
-核心身份、0–10刻启动、冷却加释放周期、生命伤害打断、同刻四阶段与整体收益保持同一规则语义。目标引用现按[SW02采纳](D-2026-09-10-instance-and-conditional-binding.md)区分实例与条件绑定。支撑素材中的兼容细节逐项保留，接口按[采纳记录](D-2026-09-10-accept-design-decisions.md)及后续决定明确处理范围；编辑本身不构成玩法采纳。
+<a id="当前设计文档统一"></a>
 
-## 采纳理由与边界
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-current-design-alignment.md#当前设计文档统一)
 
-让任一现用文件可以直接用于理解当前设计。原始文件按完整快照保存，当前索引与正文独立组织；来源证据不可改写。素材资格只覆盖文中明确的规则范围，候选参数和未决机制留在 inbox。
+<a id="来源"></a>
 
-## 确认状态
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-current-design-alignment.md#来源)
 
-- [x] 用户已授权本次文档统一。
-- [x] 文档统一授权已执行；本页为当前适用说明，核心口径以接口采纳记录为准，证据Hypothesis。
-- [x] [C01–C08](../../docs/design-decisions-needed.md)已按用户确认处理，数值重新设计，推荐暂缓的范围继续暂缓。
+<a id="确认状态"></a>
+
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-current-design-alignment.md#确认状态)
+
+<a id="采纳理由与边界"></a>
+
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-current-design-alignment.md#采纳理由与边界)

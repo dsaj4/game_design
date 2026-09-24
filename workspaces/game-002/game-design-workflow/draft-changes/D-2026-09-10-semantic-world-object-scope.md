@@ -1,49 +1,39 @@
-# 语义世界对象范围采纳
+# 语义世界对象范围采纳（已迁移）
 
-状态：Accepted / Scope；SW01。证据：Hypothesis。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-本页保存SW01采纳时的精确文本及当时未决项，作为来源证据。当前引用模型已由[SW02采纳](D-2026-09-10-instance-and-conditional-binding.md)明确；现行规则见核心与正式素材。
+[打开新位置](../../../../yanzhou/sources/draft-changes/D-2026-09-10-semantic-world-object-scope.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-## 修改目标
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-在核心增加“法术可操作对象的设计范围”，记录过程对象纳入以及基础规则固定。执行基线维持Core Concept v0.6；本次是范围决定，具体新机制另行确认。
+<a id="仍需保留的疑问"></a>
 
-## 来源
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-semantic-world-object-scope.md#仍需保留的疑问)
 
-- 合格素材：[语义世界的可操作对象范围](../idea-materials/M-2026-09-10-semantic-world-object-scope.md)。
-- 提案：[范围提案](../idea-proposals/P-2026-09-10-semantic-world-object-scope.md)。
-- 评估：[范围评估](../evaluations/E-2026-09-10-semantic-world-object-scope.md)，结论为推荐推进范围，证据为文档审查。
-- 用户确认：[SW01原问题及“确认”](../idea-inbox/2026-09-10-semantic-world-object-scope.md)；仅适用于该问题提出的范围。
+<a id="修改目标"></a>
 
-## 拟新增内容
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-semantic-world-object-scope.md#修改目标)
 
-以下为核心新增小节的精确正文：
+<a id="拟新增内容"></a>
 
-法术可操作对象的设计范围覆盖实体与部件、材料与介质、属性与附着状态、空间与对象关系，以及飞行物、敌方攻击和法术冷却等过程对象。各类对象按明确能力开放操作；玩家在战前用词卡构成句子，句子在自动战斗中依照对象结构、交互能力和明确规则产生结果。
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-semantic-world-object-scope.md#拟新增内容)
 
-胜负判定、全局结算顺序等世界基础规则保持固定，不作为句子直接改写的对象。过程对象纳入可操作设计范围；具体引用、可介入时段、操作效果和代价须逐项形成规则，才能成为可用法术。
+<a id="拟替换内容"></a>
 
-当前战前固定直接对象、固定位置和循环安排的执行规则继续适用于已定义的基础法术。新生对象绑定、移动与结构变化、多端点表达、过程改期、局部环境机制和配置资源权限，分别按SW02–SW07推进；范围确认不替代这些具体机制的确认。数值重新设计。
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-semantic-world-object-scope.md#拟替换内容)
 
-## 拟替换内容
+<a id="来源"></a>
 
-核心末尾“下一步见数值重设计任务”更新为：先完成语义对象引用与操作边界，再将确认结果作为数值重设计输入。基础法术的固定目标、位置和时序正文保持其现有适用范围。
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-semantic-world-object-scope.md#来源)
 
-## 采纳理由
+<a id="确认状态"></a>
 
-用户已经确认SW01推荐方向，可将对象范围作为后续设计的共同约束。每类按能力开放操作，基础规则固定；其余具体能力与绑定候选不因范围确认自动采纳。
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-semantic-world-object-scope.md#确认状态)
 
-## 仍需保留的疑问
+<a id="语义世界对象范围采纳"></a>
 
-- SW02：战前固定对象如何覆盖战中新生对象。
-- SW03–SW07：位置与结构、关系表达、过程改期、环境机制和配置资源权限。
-- 具体词卡、代价与数值，以及真实玩家能否理解这些操作，均待后续验证。
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-semantic-world-object-scope.md#语义世界对象范围采纳)
 
-## 确认状态
+<a id="采纳理由"></a>
 
-- [x] 用户已针对SW01明确回答“确认”。
-- [x] 仅SW01范围已采纳并写入core-concept.md。
-- [ ] 已搁置。
-- [ ] 已拒绝。
-
-同步对象：范围素材、领域词汇、决策记录G002-SCOPE-002、受影响目标与时间素材、相关索引。文件清单和检查结果见[交付记录](../../docs/semantic-world-scope-adoption.md)。
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-10-semantic-world-object-scope.md#采纳理由)

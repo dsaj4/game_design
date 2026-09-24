@@ -1,50 +1,43 @@
-# 设计接口推荐决策确认
+# 设计接口推荐决策确认（已迁移）
 
-状态：Promoted（规则、范围与数值重设计约束）。日期：2026-09-10。具体后置机制与参数保持Unknown。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 原始想法
+[打开新位置](../../../../yanzhou/sources/inbox/2026-09-10-design-interface-questions.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-用户原话：“均采用推荐决策，数值设计明确重新设计”。重复输入表达同一项确认。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 触发来源
+<a id="下一步"></a>
 
-用户在逐份文档统一后，确认C01–C08的推荐处理方向。[确认前建议快照](../../../../archive/2026-09-10-game-002-decision-inputs/workspaces/game-002/docs/design-decisions-needed.md)保留完整措辞和选项；[当前决定](../../docs/design-decisions-needed.md)记录生效范围。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-10-design-interface-questions.md#下一步)
 
-## 可能带来的玩家体验
+<a id="原始想法"></a>
 
-玩家能预测多对象结算、伤害反馈与收益资格；数值将围绕战前编排的实际节奏重新建立，策略与平衡仍为Hypothesis。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-10-design-interface-questions.md#原始想法)
 
-## 暂定标签
+<a id="可能带来的玩家体验"></a>
 
-- 类型：System / Constraint / Presentation。
-- 玩法关键词：逐对象检查、完整法术、伤害分类、合法收益、固定绑定。
-- 风险关键词：范围误扩、具体数值未验证。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-10-design-interface-questions.md#可能带来的玩家体验)
 
-## 资格确认记录
+<a id="当前缺口"></a>
 
-确认方式：grill-with-docs；先核对核心、词汇、相关素材与C01–C08建议，再按用户批量采纳及数值重设计要求收束，不重复询问已决定事项。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-10-design-interface-questions.md#当前缺口)
 
-| 资格问题 | 当前答案 | 状态 |
-| --- | --- | --- |
-| 原始表达和来源 | 上述用户原话、确认前建议快照 | Clear |
-| 设计对象与章节 | 自动战斗、目标结算、成长收益、表现与数值设计约束 | Clear |
-| 玩家处境与设计功能 | 战前规划固定法术，观察循环结果，战后整体领取收益 | Clear |
-| 行为与可见影响 | 逐对象材料检查和固定顺序、可区分的打断反馈、产出前资格检查 | Clear |
-| 预期价值 | 结果可解释、整体收益可合法领取、参数与当前战斗结构一致 | Clear |
-| 与当前构思关系 | 补齐C01/C02/C06规则；C03/C04/C05/C07按推荐暂缓；C08明确时间含义和重设计任务 | Clear |
-| 未知项与验证方式 | 参数、具体表现及后置子系统待独立设计；先做规则情境审查，再做新参数逐刻验证 | Clear |
+<a id="暂定标签"></a>
 
-### 当前缺口
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-10-design-interface-questions.md#暂定标签)
 
-采纳范围无资格缺口。数值重设计要求优先于C08的具体参数候选：词卡合计时间用于冷却，具体词卡时长和释放时长重新设计，不将示例的释放1刻视为默认参数。核心已确认的0–10刻起点、每刻一个释放槽及普通同名三张上限继续作为规则约束。
+<a id="触发来源"></a>
 
-### 资格结论
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-10-design-interface-questions.md#触发来源)
 
-- [x] Promoted：规则和范围进入[接口规则与后置范围](../idea-materials/M-2026-09-10-accepted-design-interfaces.md)。
-- [x] Promoted：数值任务进入[数值重设计约束](../idea-materials/M-2026-09-10-numerical-redesign-constraints.md)。
+<a id="设计接口推荐决策确认"></a>
 
-暂缓的完整召唤指挥、镶嵌细则和BF1–BF3并未取得可执行机制资格；确认的是后置边界。数值约束合格不代表任何新参数已经形成。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-10-design-interface-questions.md#设计接口推荐决策确认)
 
-## 下一步
+<a id="资格确认记录"></a>
 
-按[拟修改](../draft-changes/D-2026-09-10-accept-design-decisions.md)同步核心与素材，再以[数值重设计任务](../../docs/numerical-redesign.md)组织参数与验证。当前没有需要用户再次批量确认的接口。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-10-design-interface-questions.md#资格确认记录)
+
+<a id="资格结论"></a>
+
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-10-design-interface-questions.md#资格结论)

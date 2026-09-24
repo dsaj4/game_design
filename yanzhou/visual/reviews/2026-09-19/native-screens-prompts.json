@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "created_date": "2026-09-19",
+  "project_id": "game-002",
+  "status": "VisualCandidate / NotImplemented",
+  "generation_mode": "built-in image_gen__imagegen",
+  "reference_images_used": [],
+  "existing_repository_images_read": false,
+  "source_text": "workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/08-journey-ui-and-assets.md",
+  "images": [
+    {
+      "id": "01-battle",
+      "title": "Battle — C1 paused initial state",
+      "file": "images/01-battle.png",
+      "absolute_path": "E:/Project/game/workspaces/game-002/docs/visual-review-2026-09-19-fresh/images/01-battle.png",
+      "generated_path": "C:/Users/Administrator/.codex/generated_images/01a0b9a4-86b7-77b3-9493-ff950dde7c41/exec-b404cb08-85f7-4686-af29-cc04df586cac.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2490408,
+      "requested_aspect_ratio": "16:9",
+      "actual_aspect_ratio": 1.7768331562167907,
+      "attempts": [
+        {
+          "attempt": 1,
+          "result": "success"
+        }
+      ],
+      "final_english_prompt": "Use case: ui-mockup\nAsset type: original high-fidelity visual review screenshot for the Chinese independent strategy game “言咒”, game-002. Generate a brand-new image solely from this written specification. 16:9 wide landscape, preferably 2560x1440 or 2048x1152, finished indie game screenshot, not a poster or explanation diagram.\n\nArt direction: a mature, quiet, tactile sorcerer's workshop combining antique copperplate book illustration and clean low-poly hand-painted 3D scenery. Charcoal ink #202629, gray teal stone #465759, warm parchment #E7D8B5, aged wood brown #655046, restrained brass #B89B67; small fire vermilion #E47B48, ice pale cyan #8FC9D5, grass gray green #839572 accents. Crisp readable SimSun-style Chinese serif headings, legible clean Chinese sans-serif body labels. Broad flat illumination, minimal perspective distortion, no depth-of-field blur. Materials have subtle grain and engraved linework but never obscure lettering. Confident spacing and refined desktop game UI, not a modern analytics dashboard, not ornate mobile fantasy UI.\n\nView and layout: first-person camera OUTSIDE a large stone tabletop battlefield, looking modestly down. The central open 3D play scene occupies 60% of the screen, left parchment read-only wand list about 22%, right narrow parchment timeline about 18%. Thin dark header and unobtrusive bottom playback bar. Restrained workshop atmosphere beyond the table; no people or heroes at screen edges, no player's hands or miniature on the battlefield.\n\nHard battlefield geometry: ONE rectangular grid of EXACTLY TEN large readable cells: EXACTLY TWO ROWS and EXACTLY FIVE COLUMNS. The far row from left to right is B1 B2 B3 B4 B5. The near row from left to right is F1 F2 F3 F4 F5. Clear bevel-separated square cells embedded in one stone table. No third row, no side cells, no decorative paving mistaken for extra gameplay cells. Clearly label all ten coordinates at the cell edges.\nThis is encounter C1 in its PAUSED INITIAL STATE, before logical tick zero. Exactly ONE enemy occupies F3, the center of the near row. The enemy “巡卫” is an original modest sentinel sculpted of rough gray stone and clay, a compact torso-and-head silhouette with short cloth armor; a readable physical miniature, NOT an illustrated enemy card. No other enemy, no other occupant. The other NINE cells are EMPTY. F2 and F3 have low flat gray-green GRASS GROUND, not tall grass models; every other cell is bare gray-teal STONE GROUND. Show grass as the ground under the F3 sentinel. No trees, no fire, no ice, no already-generated elemental bodies, no beams or floating impact particles, no combat animations. Above the single sentinel show the exact compact status “巡卫  48/48” and “护甲 0 · 下次攻击 第12刻”. A subtle floor overlay may clarify the 2x5 grid; do not show any selected targeting/action control.\n\nHeader: left title “言咒”, small adjacent location text “入口”; center “第0刻前 · 已锁定”; right player status “生命 100/100” and “护甲 0”.\nLeft panel title “查看配置”. Exactly FOUR compact horizontal read-only rows with a small original wooden wand icon, number, sentence and next nominal timing:\n“1  伤害敌人” / “首次 4刻”\n“2  获得护甲” / “首次 5刻”\n“3  释放火焰” / “首次 7–9刻”\n“4  火焰伤害敌人” / “首次 8刻”\nThese are bound wand configurations, not playable cards or a hand. Small leaf-like inset separators, quiet texture, highly legible Chinese. Do not add equip, target, move, cast or card-play buttons.\n\nRight panel title “共同刻”. Draw a single VERTICAL shared tick scale, with start at 0 and legible ticks 4, 5, 7, 8, 9, 12. Use tiny numbered wand tokens tied to the scale: token 1 at 4, token 2 at 5, a thin bracket for token 3 from 7 to 9, token 4 at 8. Enemy attack annotation at 12. The timeline must remain clearly legible and visually subordinate to the actual battlefield. Small subtitle “名义计划”.\nBottom playback bar: a generous button “开始播放”, a secondary button “前进1刻”, small playback speed “1×”, and an outlined button “战斗记录”. This screen permits watching and inspection only. No battle-time playing, movement or target-selection controls.\n\nPriority: believable polished screenshot and clear visual hierarchy, while preserving exact two-by-five geometry, single F3 sentinel, empty other cells, and initial paused state. All Chinese is simplified, rendered as actual legible game UI text. No logo other than “言咒”, no watermark, no external reference artwork, no novel mechanics.",
+      "verification": {
+        "file_nonempty": true,
+        "visually_inspected_with": "view_image",
+        "accepted_as_visual_candidate": true,
+        "passed": [
+          "Exactly two rows of five cells; B1–B5 far and F1–F5 near.",
+          "Single sentinel miniature at F3; the other nine cells have no occupants.",
+          "Only F2 and F3 have grass ground; all other cells have stone ground; no trees or generated element bodies.",
+          "Player life 100/100 and armor 0; sentinel life 48/48, armor 0, next attack tick 12.",
+          "Four read-only wand rows use the correct four sentences and initial timings 4, 5, 7–9, 8.",
+          "Shared vertical timeline displays those four planned events and enemy attack at 12.",
+          "Paused-before-tick-0 locked state and playback/log controls are visible; no battle action controls."
+        ],
+        "limitations": [
+          "Native output is 1672x941, approximately 16:9 rather than the preferred 2048x1152 or 2560x1440.",
+          "The workshop and stone table materials lean more realistically rendered than the requested simplified hand-painted low-poly target.",
+          "The enemy reads as a compact armored miniature rather than a strongly clay-like rough-stone half-body design.",
+          "The generator added small decorative footer slogans; they are decorative candidate copy, not approved game wording.",
+          "Four read-only wand illustrations differ visibly in ornament; this is visual exploration and must not imply four distinct wand item types.",
+          "Image generation does not prove functional interaction, accessibility, localization accuracy at all sizes, or gameplay implementation."
+        ]
+      }
+    },
+    {
+      "id": "02-assembly",
+      "title": "Preparation — four wand bindings",
+      "file": "images/02-assembly.png",
+      "absolute_path": "E:/Project/game/workspaces/game-002/docs/visual-review-2026-09-19-fresh/images/02-assembly.png",
+      "generated_path": "C:/Users/Administrator/.codex/generated_images/01a0b9a4-86b7-77b3-9493-ff950dde7c41/exec-0d8de6ef-3c84-406e-a1d2-30f45217a4ab.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2530534,
+      "requested_aspect_ratio": "16:9",
+      "actual_aspect_ratio": 1.7768331562167907,
+      "attempts": [
+        {
+          "attempt": 1,
+          "result": "failed",
+          "error": "http 429 Too Many Requests",
+          "code": "gateway_concurrency_limit",
+          "message": "Concurrency limit exceeded for user, please retry later"
+        },
+        {
+          "attempt": 2,
+          "result": "success",
+          "strategy": "Retried same built-in prompt after completing first-image copy and inspection; no API/relay fallback."
+        }
+      ],
+      "final_english_prompt": "Use case: ui-mockup\nAsset type: original high-fidelity desktop preparation-screen visual review screenshot for the Chinese independent strategy game “言咒”, game-002. Generate a brand-new image solely from the written specification, no reference images. 16:9 horizontal, preferably 2560x1440 or 2048x1152. A polished playable-looking game screenshot, not a poster, not a wireframe.\n\nUnified art direction: mature independent strategy game, antique copperplate book illustration mixed with simple low-poly hand-painted 3D workshop objects. Charcoal ink #202629, gray-teal stone #465759, warm parchment #E7D8B5, aged wood brown #655046, subtle brass #B89B67. Fire vermilion #E47B48, ice pale cyan #8FC9D5 and grass gray-green #839572 used sparsely. Straight-on readable parchment panels over a stone workbench; clean calm spacing, shallow material texture, clear word-card edges. Chinese Song-style serif titles and large simplified Chinese card names, Chinese sans-serif small text. Avoid photorealistic gloss, strong perspective, blur, excessive ornament, gleaming gold borders, mobile game looks, modern web dashboards, large character portraits. All text must be readable and not covered by objects.\n\nScreen purpose: arranging physical inventory word cards into sentences and binding those spells to FOUR wooden wands BEFORE combat. These are real allocated word cards, never a battle hand. No creatures, battle scene or element effects on this screen.\n\nPrecise layout: LEFT column 22% width is full inventory overview; CENTER column 50% width contains EXACTLY FOUR large wand-bound sentence rows; RIGHT column 28% width gives the selected wand detail, a 2x5 range preview and a VERTICAL nominal timeline. Header contains “言咒” left and the three preparation steps “构句 / 法术 / 法杖”, with “法杖” selected. Small screen title “战前编排”. Bottom includes “9/12词已配置 · 4/4出战” on left and large useful buttons “保存配置” and “确认开战” right.\n\nLEFT INVENTORY:\nHeading “词卡库存” then “全部 12 · 已配置 9 · 未分配 3”.\nShow concise inventory rows with name and real total count / assigned count:\n“伤害 ×2” “已配置 2”\n“敌人 ×2” “已配置 2”\n“获得 ×2” “已配置 1”\n“护甲 ×2” “已配置 1”\n“释放 ×1” “已配置 1”\n“火焰 ×2” “已配置 2”\n“冰霜 ×1” “已配置 0”\nBelow, a clearly labelled small section “未分配” with EXACTLY THREE individual parchment word cards: “获得”, “护甲”, “冰霜”, each “×1”. These three cards only, no extra card stock or fan of decorative cards. Use tiny consistent etched icons and large name lettering, quiet category chips if space permits.\n\nCENTER WAND SENTENCES:\nHeading “出战法杖”. EXACTLY FOUR evenly spaced horizontal rows, numbered 1, 2, 3, 4. Each row includes a small simple wooden wand object, label “原木杖”, a fixed core label “木纹芯”, and EXACTLY TWO EMPTY round inlay sockets, visibly empty not filled gems. Cards are physically separate parchment rectangles with plenty of room between words; “伤害” and “敌人” must NEVER be fused into a single card. No arrows or plus signs posing as additional cards.\nRow 1: separate cards “伤害” then “敌人”. Supporting exact text “起点 0 · C4 · L1 · 首放 4刻”. Small anchor “锚点 F3”.\nRow 2: separate cards “获得” then “护甲”. Supporting exact text “起点 1 · C4 · L1 · 首放 5刻”. Small anchor “锚点 F3”.\nRow 3: separate cards “释放” then “火焰”. Supporting exact text “起点 2 · C5 · L3 · 首放 7刻”. Small anchor “锚点 F3”. SELECT THIS ROW with a thin muted brass focus border, not glow.\nRow 4: separate cards “火焰” then “伤害” then “敌人”. Supporting exact text “起点 2 · C6 · L1 · 首放 8刻”. Small anchor “锚点 F3”.\nThus there are NINE allocated word cards across the four rows, plus THREE unallocated cards in the left inventory. Do not add other bound spell rows or repeated decorative card copies.\n\nRIGHT DETAILS:\nHeading “原木杖 03”, next line “释放火焰”, compact labels “固定芯：木纹芯” and “可换槽：空 / 空”.\nShow EXACTLY ONE readable range preview, a rectangular grid with EXACTLY TEN equal cells in EXACTLY TWO ROWS OF FIVE. The upper row is B1 B2 B3 B4 B5 and the lower row F1 F2 F3 F4 F5. Tint EXACTLY SIX cells: B2 B3 B4 F2 F3 F4, the central 2 columns? NO: central THREE columns across TWO rows, a 2-by-3 rectangle. The four outside edge cells B1 B5 F1 F5 remain untinted. Mark F3 with a distinct small anchor dot/ring and label “锚点 F3 · 范围 6格”. The diagram must not have any third row or six-column mistake.\nBelow, heading “名义时序” and a compact VERTICAL tick line for the selected third wand: “2 起点”, “7 释放”, “8 持续”, “9 持续”. Show 2 through 7 as cool gray preparation and 7 through 9 as a subtle fire-colored bracket, no flames. Small readable footnote “名义计划，战中可改期或取消”.\n\nPriorities: mature restrained art; tangible word cards as the central gameplay object; strong readable Chinese hierarchy; accurate inventory count; exactly four wooden wands, two empty sockets each, precise 2x5 grid with a central 2x3 range. Buttons are visibly clickable and large, but retain parchment-and-stone game character. No watermarks, no extra slogans, no invented stats, no added equipment, no imported reference art.",
+      "verification": {
+        "file_nonempty": true,
+        "visually_inspected_with": "view_image",
+        "accepted_as_visual_candidate": true,
+        "passed": [
+          "Four numbered wand rows, each with a fixed wood-grain core label and two visually empty round sockets.",
+          "Nine bound physical cards: two in row 1, two in row 2, two in row 3 and three in row 4; damage and enemy are separate cards.",
+          "Inventory totals 12, assigned 9 and unallocated 3; only Obtain, Armor and Frost each appear once in unallocated inventory.",
+          "Correct start/C/L/first-release values for all rows: 0/4/1/4, 1/4/1/5, 2/5/3/7, 2/6/1/8.",
+          "All rows are anchored at F3.",
+          "Range preview has exactly two rows of five cells, with central three columns in both rows tinted; six cells total.",
+          "Selected third-wand vertical nominal timeline shows start 2 and release duration 7,8,9.",
+          "Preparation steps, word counts, save and begin-combat controls are clear and readable."
+        ],
+        "limitations": [
+          "Native output is 1672x941, approximately 16:9 rather than preferred higher resolution.",
+          "At the F3 cell the anchor dot replaces the printed F3 coordinate; the caption directly below explicitly identifies F3.",
+          "Planned column widths are approximate; the generated left inventory occupies slightly more than the requested 22%.",
+          "The generator added a small decorative top-right slogan; this is not approved game copy.",
+          "This is a static art candidate; it does not demonstrate focus traversal, editing controls, drag/click behavior or live inventory enforcement."
+        ]
+      }
+    }
+  ]
+}

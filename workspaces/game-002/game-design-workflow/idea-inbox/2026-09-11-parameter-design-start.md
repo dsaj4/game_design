@@ -1,58 +1,43 @@
-# 参数设计启动与首轮测试范围
+# 参数设计启动与首轮测试范围（已迁移）
 
-状态：Promoted：参数定义与首轮测试候选；具体参数未采纳。日期：2026-09-11。Project ID：game-002。证据Hypothesis。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 原始想法
+[打开新位置](../../../../yanzhou/sources/inbox/2026-09-11-parameter-design-start.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-> 下一步：进入参数设计
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-用户随后选择本轮交付范围：
+<a id="下一步"></a>
 
-> 参数定义＋首轮测试数值（推荐）
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-parameter-design-start.md#下一步)
 
-此选择授权起草和试算候选，不代表认可某组具体数值、遭遇难度或起始资源。
+<a id="原始想法"></a>
 
-## 触发来源
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-parameter-design-start.md#原始想法)
 
-法术类型与扩展规则已按G002-CORE-012、013确认；数值重新设计任务已经采纳。当前按[类型入口](../../docs/spell-type-index.md)从简易类开始，交叉涉及护甲状态。依据[数值约束](../idea-materials/M-2026-09-10-numerical-redesign-constraints.md)、[时间规则](../idea-materials/M-2026-09-05-casting-time-and-interruption.md)和[护甲规则](../idea-materials/M-2026-09-06-armor-identity-generation-and-persistence.md)，重新提出可比较的参数。
+<a id="参数设计启动与首轮测试范围"></a>
 
-## 可能带来的玩家体验
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-parameter-design-start.md#参数设计启动与首轮测试范围)
 
-战前比较快速结束与保存生命的取舍，并通过释放、覆盖、护甲抵伤与冷却打断的实际时点解释差异。预期体验来自现行设计支柱，尚未经过玩家测试。
+<a id="可能带来的玩家体验"></a>
 
-## 暂定标签
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-parameter-design-start.md#可能带来的玩家体验)
 
-- 类型：Content / Parameter Candidate。
-- 情绪：规划、预测、风险判断。
-- 玩法关键词：简易法术、状态交叉、冷却、直接伤害、护甲、公开敌方节奏。
-- 风险关键词：护甲防打断价值、攻速阈值、同刻覆盖、候选误作默认参数。
+<a id="当前缺口"></a>
 
-## 资格确认记录
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-parameter-design-start.md#当前缺口)
 
-使用grill-with-docs对照现行核心、数值任务、正式素材索引和相关inbox。现有数值来源页只作追溯；上一批元素/冰冻/掉卡词效及参数保持Parked，未作为本次数值输入。用户已明确本轮交付深度，不重复询问。
+<a id="暂定标签"></a>
 
-| 资格问题 | 当前答案 | 状态 |
-| --- | --- | --- |
-| 素材与设计对象 | 通用参数定义、简易攻击与简易＋状态护甲的候选数值及比较证据 | Clear |
-| 玩家处境或设计功能 | 同一公开遭遇、同一可用资源下作战前配置 | Clear |
-| 行为与影响 | 分配实际词卡、选择两条法术与起点，观察胜利时间、生命损失和打断 | Clear |
-| 预期价值 | 攻防取舍和时序后果可解释；体验仍是假设 | Clear |
-| 与现行规则关系 | 沿用冷却合计、释放单独设计、多类型、四阶段、护甲和生命打断规则 | Clear |
-| 未知项与验证 | 基准是否适合正式遭遇、是否出现强支配；先算事件顺序、检查不同攻击节奏，再由用户评议候选 | Clear |
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-parameter-design-start.md#暂定标签)
 
-### 当前缺口
+<a id="触发来源"></a>
 
-候选是否采纳为后续测试基准仍待评议；具体数值及局部目标均由agent本轮提出，未冒充用户决定。这个未知不影响参数候选的设计对象、作用、假设及验证方式已经明确。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-parameter-design-start.md#触发来源)
 
-### 资格结论
+<a id="资格确认记录"></a>
 
-- [ ] Unqualified：不适用于本轮明确候选范围。
-- [ ] Ready for Material Review。
-- [x] Promoted：已形成[首轮参数候选](../idea-materials/M-2026-09-11-simple-spell-parameter-candidates.md)，状态Qualified GDD Material / Candidate v0.1，并非Accepted。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-parameter-design-start.md#资格确认记录)
 
-## 下一步
+<a id="资格结论"></a>
 
-- [x] 给出参数定义、单位、归属、计算规则及当前依赖。
-- [x] 给出全新的首轮攻防参数、相同测试资源与逐刻算例。
-- [x] 检查敌人攻击加快时的敏感性，保留失败和阈值风险。
-- [ ] 评议基准后进入状态类的具体词效与参数；正式起始资源、跨战经济和完整平衡另行设计。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-11-parameter-design-start.md#资格结论)

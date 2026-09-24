@@ -1,50 +1,39 @@
-# 实例绑定与条件绑定评估
+# 实例绑定与条件绑定评估（已迁移）
 
-本页保留SW02与SW02-A阶段的提案/评估范围；当时未决的框架随后按[R01–R32](../idea-materials/M-2026-09-10-semantic-world-executable-rules.md)全部采纳。当前内容设计与验证入口见[执行规则评估](E-2026-09-10-semantic-world-executable-rules.md)。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 评估对象
+[打开新位置](../../../../yanzhou/sources/evaluations/E-2026-09-10-instance-and-conditional-binding.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-- 提案：[两种引用并存](../idea-proposals/P-2026-09-10-instance-and-conditional-binding.md)。
-- 日期：2026-09-10。
-- 评估人：Codex；依据项目文档及用户确认，证据Hypothesis。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 快速结论
+<a id="主要风险"></a>
 
-- 结论：推荐推进。
-- 理由：条件绑定承接新生对象范围，实例绑定维持精确身份；二者可以沿用战前配置，单次直接名单边界已明确，排序等细则仍需设计。
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-10-instance-and-conditional-binding.md#主要风险)
 
-## 评估维度
+<a id="同类产品观察"></a>
 
-采用定性判断，不以缺乏证据的分数证明可玩性。
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-10-instance-and-conditional-binding.md#同类产品观察)
 
-| 维度 | 评估 |
-| --- | --- |
-| 核心动作清晰度 | 仍为战前构句配置、战中观察 |
-| 实现可能性 | 可先纸面验证；完整制作成本Unknown |
-| 可玩性潜力 | 可表达对动态世界的条件应对，实际价值待验证 |
-| 决策深度 | 精确指向与条件选取有不同用途，具体取舍依赖内容 |
-| 反馈强度 | 需要解释匹配原因和实例失效，界面未验证 |
-| 差异化 | 支持项目既定语义表达目标；无外部比较证据 |
-| 市场参照 | Unknown |
-| 范围控制 | 已采纳引用模型与单次名单边界，排序及新操作独立设计 |
-| 扩展潜力 | 能覆盖战中出现的对象，不必逐个预设所有实例 |
-| 风险可验证性 | 同名替换、目标变化与连锁名单可由少量场景审查 |
+<a id="实例绑定与条件绑定评估"></a>
 
-## 同类产品观察
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-10-instance-and-conditional-binding.md#实例绑定与条件绑定评估)
 
-本轮未研究产品，不形成市场或竞品结论。机会在于补齐本项目已确认过程对象的引用能力。
+<a id="建议修改"></a>
 
-## 主要风险
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-10-instance-and-conditional-binding.md#建议修改)
 
-- 玩法风险：条件匹配规模扩大而缺少相应成本。
-- 制作风险：同时展开全部条件词表与关系表达。
-- 表达风险：把按条件选到另一个对象误认为实例改绑。
-- 市场识别风险：玩家对条件表达的接受度Unknown。
+<a id="快速结论"></a>
 
-## 建议修改
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-10-instance-and-conditional-binding.md#快速结论)
 
-核心、目标、预览和召唤身份文档统一区分两种引用；不能继续把整场固定对象集合作为通用约束。按C02保留逐对象检查；SW02-A确定本次直接名单，不冻结状态或材料，排序等缺口进入剩余决策总表。
+<a id="最终建议"></a>
 
-## 最终建议
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-10-instance-and-conditional-binding.md#最终建议)
 
-两种引用模型已通过[模型采纳](../draft-changes/D-2026-09-10-instance-and-conditional-binding.md)写入核心。SW02-A补充评估：一次确定直接名单可解释本次新生、不再合法和同名替换的边界，避免隐式追加；代价是新符合条件对象需等待后续释放。该取舍已获用户确认，通过[名单采纳](../draft-changes/D-2026-09-10-single-release-target-list.md)同步核心。其余建议一次汇总于[剩余决策总表](../idea-inbox/2026-09-10-semantic-world-remaining-decisions.md)，尚未采纳。本评估仅作规则一致性判断，未执行纸面走查、验证数值、制作成本或玩家体验。
+<a id="评估对象"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-10-instance-and-conditional-binding.md#评估对象)
+
+<a id="评估维度"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-10-instance-and-conditional-binding.md#评估维度)

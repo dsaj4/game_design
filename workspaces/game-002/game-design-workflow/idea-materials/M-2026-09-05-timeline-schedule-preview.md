@@ -1,93 +1,51 @@
-# 战前编排与周期预览
+# 战前编排与周期预览（已迁移）
 
-状态：Qualified GDD Material。证据：Hypothesis。资格覆盖下列明确表述；具体后置机制与参数保持 Unknown，素材可引用不等于完整系统已采纳或通过验证。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 素材控制
+[打开新位置](../../../../yanzhou/sources/materials/M-2026-09-05-timeline-schedule-preview.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-| 字段 | 内容 |
-| --- | --- |
-| 素材 ID | MAT-2026-09-05-timeline-draw-preview |
-| 素材类型 | Mechanic / System / Constraint |
-| 来源 inbox | [来源入口](../idea-inbox/2026-09-06-flexible-grammar-and-spell-types.md)、[来源入口](../idea-inbox/2026-09-05-word-inventory-and-allocation.md)、[来源入口](../idea-inbox/2026-09-05-yanzhou-core-combat.md) |
-| 原始确认 | [原始记录](../../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-05-timeline-draw-preview.md) |
-| 资格确认日期 | 2026-09-05；适用范围复核2026-09-10 |
-| 确认方式 | grill-with-docs：依据用户确认记录、当前核心及文档统一授权复核 |
-| 当前证据状态 | Hypothesis |
-| 负责人 | 用户决定设计，agent维护表述与来源 |
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 规范化表述
+<a id="2026-09-14-全游戏gdd使用记录"></a>
 
-战前同时展示完整词卡库存、实体卡分配、法杖绑定与顺序、实例引用或条件绑定配置及循环时间安排。条件绑定展示选择条件，不承诺整场匹配同一批对象；本次直接名单在完整法术开始处理时确定；排序按公开初始顺序和确定生成顺序，具体预览布局待验证。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-05-timeline-schedule-preview.md#2026-09-14-全游戏gdd使用记录)
 
-每条法术的第一次冷却起点位于第0–10刻；预览应继续展示启动后的多轮释放，帮助识别周期逐渐重合的冲突。
+<a id="与当前构思的关系"></a>
 
-覆盖优先级使用玩家在设置法杖时确定的顺序，靠后者覆盖靠前者；修改首次起点不自动改变法杖顺序。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-05-timeline-schedule-preview.md#与当前构思的关系)
 
-公开敌方当前已知攻击安排与变化原因，玩家据此比较哪些冷却区间存在生命伤害风险。基础计划、当前剩余冷却与明确改期后的计划分别表达。预览当前可确定的结果，不保证未来状态数量、目标或护甲保持不变。
+<a id="使用记录"></a>
 
-公开对象能力、来源和关系，区分被覆盖、伤害打断、无匹配、目标失效、状态数量或成本不足与成功结算；目标失效仍播放释放特效，被覆盖不播放。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-05-timeline-schedule-preview.md#使用记录)
 
-战斗自动运行，玩家观察结果并用于下一场配置；界面表达方式仍是研究候选。
+<a id="战前编排与周期预览"></a>
 
-打断反馈独立于正常释放特效；被打断取消的本次释放不播放正常释放特效。实例绑定中战前已列明的对象顺序公开且本场固定；条件绑定的本次直接名单在完整法术开始处理时确定，按R08公开顺序处理，不能以战前画面中的对象代表全部未来匹配对象。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-05-timeline-schedule-preview.md#战前编排与周期预览)
 
-## 设计对象与 GDD 映射
+<a id="未知项与验证"></a>
 
-- 作用对象：战前编排与周期预览。
-- 目标 GDD：尚未创建；作为相应系统、规则边界及验证章节的素材。
-- 对应完成度：GDD-0 / GDD-1 素材输入；具体内容与参数需另行确认。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-05-timeline-schedule-preview.md#未知项与验证)
 
-## 玩家处境、行为与反馈
+<a id="机制行为体验假设"></a>
 
-- 玩家处境：依据库存、场景与公开攻击安排进行战前选择，观察自动战斗，再处理战后及路线决定。
-- 玩家可见信息：本素材规范化表述中的条件、对象和结果；具体界面呈现待验证。
-- 行为与反馈：通过上述规则判断资源、时间或对象关系；验证情境为“让玩家从三条不同周期中指出首次冲突、覆盖者和后续仍保留的释放。”
-- 预期价值：玩家能解释选择如何改变后续结果；实际策略价值仍为Hypothesis。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-05-timeline-schedule-preview.md#机制行为体验假设)
 
-## 与当前构思的关系
+<a id="玩家处境行为与反馈"></a>
 
-- 核心依据：[Core Concept v0.6](../core-concept.md)，支持战前配置、自动循环与可推导语义。
-- 相关系统：[素材索引](README.md)按主题列出依赖；[领域词汇](../../CONTEXT.md)统一概念。
-- 已确认处理范围：[无未决规则冲突；具体内容与体验仍待验证](../../docs/design-decisions-needed.md)。
-- 明确边界：本文不补齐未决的具体效果、参数、资源权限或额外玩家操作，也不作为实现完成证明。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-05-timeline-schedule-preview.md#玩家处境行为与反馈)
 
-## 机制—行为—体验假设
+<a id="素材控制"></a>
 
-| 规则 | 可能行为 | 目标体验 |
-| --- | --- | --- |
-| 战前展示库存、实体分配、法杖与引用配置及循环时间安排。 | 依据绑定意图与时间比较方案 | 可预测且可解释的选择 |
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-05-timeline-schedule-preview.md#素材控制)
 
-## 未知项与验证
+<a id="规范化表述"></a>
 
-| 未知或风险 | 影响 | 下一步 | 成功信号 | 失败信号 |
-| --- | --- | --- | --- | --- |
-| 未来周期显示长度、冲突提示及条件变化的可读性。 | 影响完整设计与效果可解释性 | 让玩家从三条不同周期中指出首次冲突、覆盖者和后续仍保留的释放。 | 玩家可预测结果，关键情境有唯一裁定 | 结果依赖未确认规则，或一类选择长期无价值 |
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-05-timeline-schedule-preview.md#规范化表述)
 
-## 资格确认清单
+<a id="设计对象与-gdd-映射"></a>
 
-- [x] 原始表达与用户确认可追溯。
-- [x] 设计对象与章节用途明确。
-- [x] 玩家处境或设计功能明确。
-- [x] 当前规范化表述的行为、可见影响或约束明确。
-- [x] 预期价值明确，验证状态如实保留。
-- [x] 与核心及处理范围的关系明确。
-- [x] 未知项与下一步验证方式明确。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-05-timeline-schedule-preview.md#设计对象与-gdd-映射)
 
-## 使用记录
+<a id="资格确认清单"></a>
 
-2026-09-10：按[SW02两种引用采纳](../draft-changes/D-2026-09-10-instance-and-conditional-binding.md)同步引用范围；随后按[SW02-A名单采纳](../draft-changes/D-2026-09-10-single-release-target-list.md)明确每次开始处理时的直接名单，本次不追加、重选或补位，逐对象检查当前合法性与材料。后续R01–R32已全部采纳，排序与交互框架见[R01–R32执行规则](M-2026-09-10-semantic-world-executable-rules.md)，证据Hypothesis。
-
-| 日期 | 目标 | 处理结果 | 边界 |
-| --- | --- | --- | --- |
-| 2026-09-10 | [设计文档统一](../draft-changes/D-2026-09-10-current-design-alignment.md) | Included：明确表述部分 | 原始使用与确认记录从来源快照追溯；当前处理范围见接口采纳记录，尚无GDD |
-
-2026-09-10：按[用户R01–R32全部采纳](../draft-changes/D-2026-09-10-semantic-world-executable-rules.md)同步本素材受影响表述；具体对象、词卡和参数仍按对应范围设计，证据Hypothesis。
-
-
-## 2026-09-14 全游戏GDD使用记录
-
-| 日期 | 目标与处理 | 当前适用边界 |
-| --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/03-combat-and-status.md) | 保留现行身份、时序、成功及费用框架；旧具体例和参数只在RC1仍适用时使用。 |
-
-本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-05-timeline-schedule-preview.md#资格确认清单)

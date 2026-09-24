@@ -1,30 +1,31 @@
-# Q-20260914：时间安排如何变成场上的选择
+# Q-20260914：时间安排如何变成场上的选择（已迁移）
 
-- Project ID：`game-002-optimization`；Run ID：`OPT-20260914-003`。
-- 日期：2026-09-14；状态：`Open / Research / Provisional`。
-- 负责人：Agent负责草案，用户负责设计选择。
-- 来源与版本：[原始记录的来源段](../idea-inbox/2026-09-14-timeline-battlefield.md#触发来源)，用户指定RC1固定提交及UX正文。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 主问题
+[打开新位置](../../../yanzhou/exploration/optimization/questions/Q-20260914-timeline-battlefield.md) · [言咒项目入口](../../../yanzhou/README.md) · [迁移说明](../../../yanzhou/governance/layout-migration-report.md)
 
-在战前编排、战中自动的合同下，时间是否可以直接改变战场作用位置或场上待发对象，让玩家看到并利用这些变化，而不只是多看一条进度条？
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 已知
+<a id="q-20260914时间安排如何变成场上的选择"></a>
 
-- UX已经允许战前调起点、选范围、查看时间轴；战中仅观察。
-- WG01现有法杖锚点战中固定；普通直接效果在开始时结算，释放L段不自动重复命中。
-- 场上投影可以解释上述规则；待发法阵与巡行锚点则需要明确的新玩法权限。
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260914-timeline-battlefield.md#q-20260914时间安排如何变成场上的选择)
 
-## 候选与未知
+<a id="主问题"></a>
 
-[三方向](../idea-inbox/2026-09-14-timeline-battlefield.md)：未来投影、待发法阵、巡行范围，均Raw Idea / Unqualified。未知是用户优先的时空体验、新机制是否值得成本、表达能否让玩家正确预测与解释。
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260914-timeline-battlefield.md#主问题)
 
-## 验证建议
+<a id="候选与未知"></a>
 
-表达层比较范围与时间的联动是否减少误解；巡行比较固定／移动范围面对集中／分散敌人；待发阵比较直接／延迟／催发的实际代价。一次只增加一个玩法机制，不用示意动画代替伤害与完整规则验证。
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260914-timeline-battlefield.md#候选与未知)
 
-成功信号：同库存出现“何时照顾哪里”或“何时兑现投入”的不同选择，且可从场上画面解释。失败信号：只是更华丽的同一最优操作、自动覆盖所有目标、假未来投影或普遍误解出手机会。
+<a id="已知"></a>
 
-## 当前下一问
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260914-timeline-battlefield.md#已知)
 
-优先巡行范围，还是可被其他法术操作的待发法阵？推荐前者，未来投影作为阅读基础。选择方向不等于接受全部规则。前轮的冷却／跟随优先级问题保留历史，不阻塞本轮。
+<a id="当前下一问"></a>
+
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260914-timeline-battlefield.md#当前下一问)
+
+<a id="验证建议"></a>
+
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260914-timeline-battlefield.md#验证建议)

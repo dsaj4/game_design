@@ -1,45 +1,43 @@
-# 测试后状态时点、自然衰减与储层裁决
+# 测试后状态时点、自然衰减与储层裁决（已迁移）
 
-## 原始想法
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-用户：“开始裁决：状态效果每一刻最后处理，比如燃烧和冰冻；这些状态的顺序设计固定先后即可；允许”
-随后对自然衰减问题选择：“保留小数进度，累计扣层（推荐）”。
+[打开新位置](../../../../yanzhou/sources/inbox/2026-09-13-end-tick-status-rulings.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-## 触发来源
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-本任务上一轮[测试后盘点](../../docs/design-system-status-2026-09-13.md)的三项待决。末句“允许”按紧接上文第三项解释为空心＋自噬长期储层；已在本轮开场向用户说明。用户授权agent设计固定顺序；先燃烧后冰冻及同类公开单位顺序是此次落实方案。
+<a id="下一步"></a>
 
-## 可能带来的玩家体验
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-13-end-tick-status-rulings.md#下一步)
 
-预判每刻末伤害／护甲变化，理解克制减慢衰减而不造成取整停滞，允许用关闭自动作用换取储层。
+<a id="原始想法"></a>
 
-## 暂定标签
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-13-end-tick-status-rulings.md#原始想法)
 
-- 类型：System / Mechanic
-- 玩法关键词：状态阶段、固定顺序、小数衰减、空心＋自噬
-- 风险关键词：旧校准失效、同刻新状态、死亡终止
+<a id="可能带来的玩家体验"></a>
 
-## 资格确认记录
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-13-end-tick-status-rulings.md#可能带来的玩家体验)
 
-使用grill-with-docs核对核心、状态周期／内部顺序素材、元素E3与TH-003／CAL报告。
+<a id="当前缺口"></a>
 
-| 资格问题 | 当前答案 | 状态 |
-| --- | --- | --- |
-| 对象／章节 | 状态结算与元素生命周期 | Clear |
-| 玩家情境 | 战前配置火冰与储层组合，战中观察 | Clear |
-| 行为与影响 | 预判刻末伤害、增甲和剩余层数 | Clear |
-| 价值 | 固定可读的顺序，保留克制减半含义 | Clear |
-| 现有关系 | 保留四阶段；局部替换首次触发、类型排序及自然衰减取整 | Clear |
-| 未知与验证 | 效果量、元素脉冲及未闭合来源接口仍待补；后续新版本检查逐刻例子与旧目标适用性 | Clear |
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-13-end-tick-status-rulings.md#当前缺口)
 
-### 当前缺口
+<a id="暂定标签"></a>
 
-环境转化身份与小数进度继承随既有转化接口处理；不虚构数值或把旧测试视为新规则通过。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-13-end-tick-status-rulings.md#暂定标签)
 
-### 资格结论
+<a id="测试后状态时点自然衰减与储层裁决"></a>
 
-- [x] Promoted：原始表达先记录，已通过字段审查并晋级[正式素材](../idea-materials/M-2026-09-13-end-tick-status-rulings.md)。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-13-end-tick-status-rulings.md#测试后状态时点自然衰减与储层裁决)
 
-## 下一步
+<a id="触发来源"></a>
 
-按用户裁决形成提案、评估和拟修改后同步核心；只更新设计交接，不运行测试。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-13-end-tick-status-rulings.md#触发来源)
+
+<a id="资格确认记录"></a>
+
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-13-end-tick-status-rulings.md#资格确认记录)
+
+<a id="资格结论"></a>
+
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-13-end-tick-status-rulings.md#资格结论)

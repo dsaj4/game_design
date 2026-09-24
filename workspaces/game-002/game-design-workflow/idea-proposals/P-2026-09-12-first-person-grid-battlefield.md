@@ -1,41 +1,43 @@
-# 第一人称两排战场与有限环境变化
+# 第一人称两排战场与有限环境变化（已迁移）
 
-状态：Proposal／配套Draft Change。证据Hypothesis。日期：2026-09-12。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 提案名称
+[打开新位置](../../../../yanzhou/sources/proposals/P-2026-09-12-first-person-grid-battlefield.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-第一人称2×5格、地面与占位分层、火焰邻近施加与树草阶段变化。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 来源想法
+<a id="为什么可能好玩"></a>
 
-[合格素材](../idea-materials/M-2026-09-12-first-person-grid-battlefield.md)。用户明确视角、格子与变化方向，并确认树草不二次传播；候选细则见[GDD](../gdd/GDD-2026-09-12-first-person-grid-battlefield.md)。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-12-first-person-grid-battlefield.md#为什么可能好玩)
 
-## 核心玩法假设
+<a id="可能的同类参考"></a>
 
-若玩家能看清格子物性、占位与火焰作用范围，战前配置带来的持续变化能产生可预测的空间取舍，并强化“句子改变世界”的体验。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-12-first-person-grid-battlefield.md#可能的同类参考)
 
-## 玩家会做什么
+<a id="当前疑问"></a>
 
-- 主要动作：观察布局，按现有词义配置法术、法杖及节拍。
-- 次要动作：查看地面和占位体的状态及下一次作用。
-- 决策点：直接作用还是生成火焰，空位、邻近对象和持续时间是否值得投入。
-- 反馈：火焰实际出现，树草先受火、再燃烧、最终烧焦；失败解释清楚。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-12-first-person-grid-battlefield.md#当前疑问)
 
-## 为什么可能好玩
+<a id="提案名称"></a>
 
-一个句子能在眼前留下持续影响，且不同位置和物性改变受影响对象。空间拥塞、时间等待与范围共同形成代价，不需引入自由移动和复杂物理模拟。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-12-first-person-grid-battlefield.md#提案名称)
 
-## 最小可验证原型
+<a id="最小可验证原型"></a>
 
-- 形式：十格图示与固定场景事件说明；实际执行留待用户启动。
-- 核心问题：玩家能否预测出生、邻域和环境阶段。
-- 成功信号：能分清同格地面与树的独立状态，知道树不传火。
-- 失败信号：以为格子可无限叠物、火焰全场生效或形态必然产出资源。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-12-first-person-grid-battlefield.md#最小可验证原型)
 
-## 可能的同类参考
+<a id="来源想法"></a>
 
-用户附件仅作为第一人称正面构图参考，未确认产品身份，不据图引入其回合、手牌或能量玩法。本提案仍为战前编排、自动战斗。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-12-first-person-grid-battlefield.md#来源想法)
 
-## 当前疑问
+<a id="核心玩法假设"></a>
 
-BF-C01–15整包待审阅；数值参数未定，完整召唤及其他元素仍后置。十格拥塞与环境改变是否产生足够选择，需要之后验证。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-12-first-person-grid-battlefield.md#核心玩法假设)
+
+<a id="玩家会做什么"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-12-first-person-grid-battlefield.md#玩家会做什么)
+
+<a id="第一人称两排战场与有限环境变化"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-12-first-person-grid-battlefield.md#第一人称两排战场与有限环境变化)

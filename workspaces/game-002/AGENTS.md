@@ -1,36 +1,29 @@
-# game-002 工作区约束
+# game-002 工作区约束（已迁移）
 
-继承根AGENTS及Git保护。当前工作区W为本目录。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 当前入口与权限
+[打开新位置](../../yanzhou/AGENTS.md) · [言咒项目入口](../../yanzhou/README.md) · [迁移说明](../../yanzhou/governance/layout-migration-report.md)
 
-先读README、CONTEXT、game-design-workflow/gdd/current/baseline.md及docs/design-decisions-needed.md。当前设计GDD 1.0 RC1 / doc.1；核心标识v0.6。详规按七系统、内容与参数唯一来源维护，见docs/governance/document-contract.md。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-CORE-001–036已有明确采纳范围；用户此前授权范围内无需重复逐项确认。原26组Closed不代表新发现的AUD-010已解决。新机制不得以文档整理或代码行为代替采纳。
+<a id="game-002-工作区约束"></a>
 
-## 设计与资格
+[对应正文](../../yanzhou/AGENTS.md)
 
-- 新原始想法先idea-inbox；未知写Unknown。主动使用grill-with-docs，能查文档的先查；一次最多一个关键问题。
-- Qualified只用于资格字段清晰且有来源的明确范围。Raw不能直接进入GDD、Proposal或Evaluation。
-- 修改核心须Draft Change、明确采纳及决策同步；本次治理依据G002-DOC-005，不新增玩法。
-- GDD遵守根登记模板0–18章；不得混入代码、类、API、构建命令、实现完成度或测试运行细节。
-- 当前53实体；三种法杖、起始四根、最多四根出战；范围／参数以对应正文为准，不抄数字另建规则。
-- 法术类型可多标签，流派不是互斥职业；遇未归类内容先查词义与已有特征，再提出可判定的新类型候选，不自动采纳。
-- 实例身份、条件绑定、固定名单、同刻四阶段、完整事件与有限触发按现行规则；不从旧词效恢复Parked内容。
-- 新效果主动登记FX、实际依赖、范围、参数和正反例；登记不等于进入首版。
+<a id="当前入口与权限"></a>
 
-## 证据与开发
+[对应正文](../../yanzhou/AGENTS.md)
 
-- 设计Accepted、证据Hypothesis和实现状态分别记录。历史TH／CAL仅覆盖原输入；DEMO05局部检查不外推全卡池或真人体验。
-- 测试计划与结果同步docs/test-handoff.md；冻结提交、修订、实际输入、用例与失败边界。未经启动新测试的任务授权不自动运行或分派玩法测试。
-- 代码工作以GDD及明确规则来源开展；技术与运行细节进入对应代码仓库，设计仓库只更新开发索引和设计观察。
-- 美术、模型、概念图与运行证据分别标记，不用制作存在替代风格或玩法通过。
+<a id="文档与项目隔离"></a>
 
-## 文档与项目隔离
+[对应正文](../../yanzhou/AGENTS.md)
 
-- current只保留现行规格；历史在history、源素材和固定提交。禁止仅加顶部提示而把冲突的旧规则继续当现行正文。
-- exploration/game-002-optimization独立候选、资格和来源版本；索引与比较不自动回写。独立肉鸽与旧项目不作为默认背景。
-- 只暂存本任务文件。已有未提交修改、删除、未跟踪资产不得顺手恢复、覆盖或提交。
-- 所有保护文件修改同轮提交推送，报告分支、提交和文件清单。
+<a id="设计与资格"></a>
 
-[整理前完整约束与历史轮次](docs/history/pre-organization/AGENTS.md)。历史任务口令不覆盖以上当前约束。
+[对应正文](../../yanzhou/AGENTS.md)
+
+<a id="证据与开发"></a>
+
+[对应正文](../../yanzhou/AGENTS.md)
+
+本旧目录停止新增内容。默认主系统按新项目AGENTS映射；优化任务仍只读选定方向，不能借搬迁跨越项目边界。原有未提交文件由其原任务继续处理，不覆盖、不代为提交。

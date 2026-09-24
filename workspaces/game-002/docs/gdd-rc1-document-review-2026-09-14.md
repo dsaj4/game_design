@@ -1,207 +1,23 @@
-> 文档角色：HistoricalAudit。以下为原日期的审查及修订记录；正文中的“当前”“待审”“Closed”均限定在其版本和范围。2026-09-23整理未改变历史证据。现行问题见[问题登记](governance/conflict-register.md)，现行规则见[GDD](../game-design-workflow/gdd/current/README.md)。
+# RC1全游戏GDD交付审查（已迁移）
 
-# RC1全游戏GDD交付审查
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-日期：2026-09-14。状态：DocumentReview / Completed。此处只登记设计闭合与文档静态检查，不是玩法／平衡／UI实测报告。
+[打开新位置](../../../yanzhou/history/audits/gdd-rc1-document-review-2026-09-14.md) · [言咒项目入口](../../../yanzhou/README.md) · [迁移说明](../../../yanzhou/governance/layout-migration-report.md)
 
-## 需求与实际证据
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-| 要求 | 实际交付 | 判断 |
-| --- | --- | --- |
-| 先定缺口再写GDD | [DG26组清单](pre-gdd-design-decisions-2026-09-13.md)逐组闭合；CORE-032–036及五份M／P／E／D | 26／26 Closed / Accepted |
-| 无需后续逐项确认 | 本次用户授权已写入核心、决策与原始GDD准备记录；CG直接确认，其余四组依现有推荐裁决 | 已执行，无新增待审设计分支 |
-| 原始库保留 | 68份正式素材、47份inbox Markdown、1个原始文本路由、134个FX ID | 无删除旧想法或失败路径；当前与历史分开 |
-| 全游戏GDD与Wiki | [GDD-2主文档](../game-design-workflow/gdd/GDD-2026-09-14-yanzhou-full-game.md)0–18章，10专题页及Wiki目录，共12页 | 当前首版的开发第一材料 |
-| 系统规格闭合 | [七系统](../game-design-workflow/gdd/yanzhou-rc1/01-systems.md)各含4.1–4.10，覆盖13项设计字段 | 未用摘要替代关键规则 |
-| 卡池与机制 | 55设计ID均能定位，去重53实体；CG角色、事件、组、正反例与PG参数／渠道对应 | 9名词＋14动词＋11形容词＋19可换件 |
-| 实际战斗与环境 | 四阶段、完整事件胜负、有限触发、身份／来源／支付、范围、火冰与环境末转化完整 | 无靠开发者猜测的当前规则选项 |
-| 内容与流程 | 3种法杖、4杖／12词起点、19节点／12遭遇、6普通＋单阶段首领、完整经济／保存／UX | 具体参数RC1，非已平衡宣告 |
-| 来源双向追踪 | [逐项素材审查](../game-design-workflow/gdd/yanzhou-rc1/10-source-review.md)与68份素材使用记录 | Include范围和Park内容均有说明 |
-| 验证边界 | [验收计划](../game-design-workflow/gdd/yanzhou-rc1/09-validation-and-risks.md)包含规则／体验、具体输入、停止信号和责任 | 所有新玩法验证NotRun |
-| 历史隔离 | 原美术交接尾段逐字保持；原有两份素材删除行未混入本次提交 | 只提交本次追加使用记录 |
+<a id="rc1全游戏gdd交付审查"></a>
 
-## 文档检查范围与结果
+[对应正文](../../../yanzhou/history/audits/gdd-rc1-document-review-2026-09-14.md#rc1全游戏gdd交付审查)
 
-- 实际磁盘文件按UTF-8读取，GDD全文与准备交付文本逐字比较；最终173个改动文件、1,216处新增或GDD本地链接（221个目标）检查通过，无缺失、文本差异或编码异常。
-- 主文档0–18章齐全，7个系统的4.1–4.10各出现7次；55设计ID全部可定位。
-- GDD共1,680行表格，逐段列数已检查；已修正VB九配置表多余的一列分隔符。代码围栏成对，未发现破损中文字符。
-- 实际词卡34种，全部三副本的时间贡献合计237刻；逐期新增词18／12／4、可换件6／8／5，对应累计18／30／34与6／14／19。
-- D中CORE-032–036采纳文本与核心对应段一致；原木不售、首领损耗10–30、普通／首领疲劳上界80／120、0杖不可开战等当前裁决在正文使用同一基准。
-- 只检查文档、内容库存和静态算术；没有运行战斗模拟、自动平衡、真实玩家测试或美术制作。规则采用、文档完整与体验成立分别判断。
+<a id="修改文件清单"></a>
 
-## 修改文件清单
+[对应正文](../../../yanzhou/history/audits/gdd-rc1-document-review-2026-09-14.md#修改文件清单)
 
-以下为本次设计采纳、来源追踪与GDD交付涉及的文件；本报告另计。仓库其他未提交内容不属于本次变更。
+<a id="文档检查范围与结果"></a>
 
-- [AGENTS.md](../AGENTS.md)
-- [CONTEXT.md](../CONTEXT.md)
-- [README.md](../README.md)
-- [docs/README.md](README.md)
-- [docs/battlefield-and-environment.md](battlefield-and-environment.md)
-- [docs/control-center.md](control-center.md)
-- [docs/design-decisions-needed.md](design-decisions-needed.md)
-- [docs/effect-registry/README.md](effect-registry/README.md)
-- [docs/effect-registry/case-coverage.md](effect-registry/case-coverage.md)
-- [docs/effect-registry/catalog.md](effect-registry/catalog.md)
-- [docs/effect-registry/entries/FX-001.md](effect-registry/entries/FX-001.md)
-- [docs/effect-registry/entries/FX-002.md](effect-registry/entries/FX-002.md)
-- [docs/effect-registry/entries/FX-003.md](effect-registry/entries/FX-003.md)
-- [docs/effect-registry/entries/FX-004.md](effect-registry/entries/FX-004.md)
-- [docs/effect-registry/entries/FX-005.md](effect-registry/entries/FX-005.md)
-- [docs/effect-registry/entries/FX-006.md](effect-registry/entries/FX-006.md)
-- [docs/effect-registry/entries/FX-010.md](effect-registry/entries/FX-010.md)
-- [docs/effect-registry/entries/FX-012.md](effect-registry/entries/FX-012.md)
-- [docs/effect-registry/entries/FX-018.md](effect-registry/entries/FX-018.md)
-- [docs/effect-registry/entries/FX-023.md](effect-registry/entries/FX-023.md)
-- [docs/effect-registry/entries/FX-026.md](effect-registry/entries/FX-026.md)
-- [docs/effect-registry/entries/FX-027.md](effect-registry/entries/FX-027.md)
-- [docs/effect-registry/entries/FX-032.md](effect-registry/entries/FX-032.md)
-- [docs/effect-registry/entries/FX-033.md](effect-registry/entries/FX-033.md)
-- [docs/effect-registry/entries/FX-034.md](effect-registry/entries/FX-034.md)
-- [docs/effect-registry/entries/FX-035.md](effect-registry/entries/FX-035.md)
-- [docs/effect-registry/entries/FX-037.md](effect-registry/entries/FX-037.md)
-- [docs/effect-registry/entries/FX-038.md](effect-registry/entries/FX-038.md)
-- [docs/effect-registry/entries/FX-047.md](effect-registry/entries/FX-047.md)
-- [docs/effect-registry/entries/FX-055.md](effect-registry/entries/FX-055.md)
-- [docs/effect-registry/entries/FX-061.md](effect-registry/entries/FX-061.md)
-- [docs/effect-registry/entries/FX-062.md](effect-registry/entries/FX-062.md)
-- [docs/effect-registry/entries/FX-063.md](effect-registry/entries/FX-063.md)
-- [docs/effect-registry/entries/FX-064.md](effect-registry/entries/FX-064.md)
-- [docs/effect-registry/entries/FX-065.md](effect-registry/entries/FX-065.md)
-- [docs/effect-registry/entries/FX-066.md](effect-registry/entries/FX-066.md)
-- [docs/effect-registry/entries/FX-067.md](effect-registry/entries/FX-067.md)
-- [docs/effect-registry/entries/FX-068.md](effect-registry/entries/FX-068.md)
-- [docs/effect-registry/entries/FX-069.md](effect-registry/entries/FX-069.md)
-- [docs/effect-registry/entries/FX-070.md](effect-registry/entries/FX-070.md)
-- [docs/effect-registry/entries/FX-071.md](effect-registry/entries/FX-071.md)
-- [docs/effect-registry/entries/FX-079.md](effect-registry/entries/FX-079.md)
-- [docs/effect-registry/entries/FX-080.md](effect-registry/entries/FX-080.md)
-- [docs/effect-registry/entries/FX-097.md](effect-registry/entries/FX-097.md)
-- [docs/effect-registry/entries/FX-098.md](effect-registry/entries/FX-098.md)
-- [docs/effect-registry/entries/FX-101.md](effect-registry/entries/FX-101.md)
-- [docs/effect-registry/entries/FX-105.md](effect-registry/entries/FX-105.md)
-- [docs/effect-registry/entries/FX-106.md](effect-registry/entries/FX-106.md)
-- [docs/effect-registry/entries/FX-107.md](effect-registry/entries/FX-107.md)
-- [docs/effect-registry/entries/FX-110.md](effect-registry/entries/FX-110.md)
-- [docs/effect-registry/entries/FX-115.md](effect-registry/entries/FX-115.md)
-- [docs/effect-registry/entries/FX-116.md](effect-registry/entries/FX-116.md)
-- [docs/effect-registry/entries/FX-117.md](effect-registry/entries/FX-117.md)
-- [docs/effect-registry/entries/FX-118.md](effect-registry/entries/FX-118.md)
-- [docs/effect-registry/entries/FX-119.md](effect-registry/entries/FX-119.md)
-- [docs/effect-registry/entries/FX-120.md](effect-registry/entries/FX-120.md)
-- [docs/effect-registry/entries/FX-121.md](effect-registry/entries/FX-121.md)
-- [docs/effect-registry/entries/FX-122.md](effect-registry/entries/FX-122.md)
-- [docs/effect-registry/entries/FX-123.md](effect-registry/entries/FX-123.md)
-- [docs/effect-registry/entries/FX-124.md](effect-registry/entries/FX-124.md)
-- [docs/effect-registry/entries/FX-125.md](effect-registry/entries/FX-125.md)
-- [docs/effect-registry/entries/FX-126.md](effect-registry/entries/FX-126.md)
-- [docs/effect-registry/entries/FX-127.md](effect-registry/entries/FX-127.md)
-- [docs/effect-registry/entries/FX-128.md](effect-registry/entries/FX-128.md)
-- [docs/effect-registry/entries/FX-129.md](effect-registry/entries/FX-129.md)
-- [docs/effect-registry/entries/FX-130.md](effect-registry/entries/FX-130.md)
-- [docs/effect-registry/entries/FX-131.md](effect-registry/entries/FX-131.md)
-- [docs/effect-registry/entries/FX-132.md](effect-registry/entries/FX-132.md)
-- [docs/effect-registry/entries/FX-133.md](effect-registry/entries/FX-133.md)
-- [docs/effect-registry/entries/FX-134.md](effect-registry/entries/FX-134.md)
-- [docs/effect-registry/readiness-review.md](effect-registry/readiness-review.md)
-- [docs/effect-registry/source-audit.md](effect-registry/source-audit.md)
-- [docs/modifier-and-inlay-design.md](modifier-and-inlay-design.md)
-- [docs/pre-gdd-content-review-2026-09-14.md](pre-gdd-content-review-2026-09-14.md)
-- [docs/pre-gdd-design-decisions-2026-09-13.md](pre-gdd-design-decisions-2026-09-13.md)
-- [docs/pre-gdd-validation-inputs-2026-09-14.md](pre-gdd-validation-inputs-2026-09-14.md)
-- [docs/test-handoff.md](test-handoff.md)
-- [game-design-workflow/core-concept.md](../game-design-workflow/core-concept.md)
-- [game-design-workflow/decision-log.md](../game-design-workflow/decision-log.md)
-- [game-design-workflow/draft-changes/D-2026-09-14-complete-first-release-design.md](../game-design-workflow/draft-changes/D-2026-09-14-complete-first-release-design.md)
-- [game-design-workflow/evaluations/E-2026-09-14-complete-first-release-design.md](../game-design-workflow/evaluations/E-2026-09-14-complete-first-release-design.md)
-- [game-design-workflow/gdd/GDD-2026-09-12-first-person-grid-battlefield.md](../game-design-workflow/gdd/GDD-2026-09-12-first-person-grid-battlefield.md)
-- [game-design-workflow/gdd/GDD-2026-09-14-yanzhou-full-game.md](../game-design-workflow/gdd/GDD-2026-09-14-yanzhou-full-game.md)
-- [game-design-workflow/gdd/README.md](../game-design-workflow/gdd/README.md)
-- [game-design-workflow/gdd/yanzhou-rc1/01-systems.md](../game-design-workflow/gdd/yanzhou-rc1/01-systems.md)
-- [game-design-workflow/gdd/yanzhou-rc1/02-grammar-and-configuration.md](../game-design-workflow/gdd/yanzhou-rc1/02-grammar-and-configuration.md)
-- [game-design-workflow/gdd/yanzhou-rc1/03-combat-and-status.md](../game-design-workflow/gdd/yanzhou-rc1/03-combat-and-status.md)
-- [game-design-workflow/gdd/yanzhou-rc1/04-elements-and-environment.md](../game-design-workflow/gdd/yanzhou-rc1/04-elements-and-environment.md)
-- [game-design-workflow/gdd/yanzhou-rc1/05-card-catalog.md](../game-design-workflow/gdd/yanzhou-rc1/05-card-catalog.md)
-- [game-design-workflow/gdd/yanzhou-rc1/06-parameters-and-economy.md](../game-design-workflow/gdd/yanzhou-rc1/06-parameters-and-economy.md)
-- [game-design-workflow/gdd/yanzhou-rc1/07-route-and-encounters.md](../game-design-workflow/gdd/yanzhou-rc1/07-route-and-encounters.md)
-- [game-design-workflow/gdd/yanzhou-rc1/08-journey-ui-and-assets.md](../game-design-workflow/gdd/yanzhou-rc1/08-journey-ui-and-assets.md)
-- [game-design-workflow/gdd/yanzhou-rc1/09-validation-and-risks.md](../game-design-workflow/gdd/yanzhou-rc1/09-validation-and-risks.md)
-- [game-design-workflow/gdd/yanzhou-rc1/10-source-review.md](../game-design-workflow/gdd/yanzhou-rc1/10-source-review.md)
-- [game-design-workflow/gdd/yanzhou-rc1/README.md](../game-design-workflow/gdd/yanzhou-rc1/README.md)
-- [game-design-workflow/idea-inbox/2026-09-13-full-game-gdd-preparation.md](../game-design-workflow/idea-inbox/2026-09-13-full-game-gdd-preparation.md)
-- [game-design-workflow/idea-inbox/2026-09-14-card-interface-completion.md](../game-design-workflow/idea-inbox/2026-09-14-card-interface-completion.md)
-- [game-design-workflow/idea-inbox/2026-09-14-environment-forms-and-thresholds.md](../game-design-workflow/idea-inbox/2026-09-14-environment-forms-and-thresholds.md)
-- [game-design-workflow/idea-inbox/2026-09-14-first-release-parameters-and-channels.md](../game-design-workflow/idea-inbox/2026-09-14-first-release-parameters-and-channels.md)
-- [game-design-workflow/idea-inbox/2026-09-14-interface-platform-and-experience.md](../game-design-workflow/idea-inbox/2026-09-14-interface-platform-and-experience.md)
-- [game-design-workflow/idea-inbox/2026-09-14-run-route-encounters-and-fatigue.md](../game-design-workflow/idea-inbox/2026-09-14-run-route-encounters-and-fatigue.md)
-- [game-design-workflow/idea-inbox/README.md](../game-design-workflow/idea-inbox/README.md)
-- [game-design-workflow/idea-materials/M-2026-09-05-battle-state-persistence.md](../game-design-workflow/idea-materials/M-2026-09-05-battle-state-persistence.md)
-- [game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md](../game-design-workflow/idea-materials/M-2026-09-05-casting-time-and-interruption.md)
-- [game-design-workflow/idea-materials/M-2026-09-05-grammar-and-semantic-compatibility.md](../game-design-workflow/idea-materials/M-2026-09-05-grammar-and-semantic-compatibility.md)
-- [game-design-workflow/idea-materials/M-2026-09-05-normal-combat-outcomes.md](../game-design-workflow/idea-materials/M-2026-09-05-normal-combat-outcomes.md)
-- [game-design-workflow/idea-materials/M-2026-09-05-post-victory-health-persistence.md](../game-design-workflow/idea-materials/M-2026-09-05-post-victory-health-persistence.md)
-- [game-design-workflow/idea-materials/M-2026-09-05-rest-recovery-and-word-choice.md](../game-design-workflow/idea-materials/M-2026-09-05-rest-recovery-and-word-choice.md)
-- [game-design-workflow/idea-materials/M-2026-09-05-timeline-schedule-preview.md](../game-design-workflow/idea-materials/M-2026-09-05-timeline-schedule-preview.md)
-- [game-design-workflow/idea-materials/M-2026-09-05-word-inventory-and-copies.md](../game-design-workflow/idea-materials/M-2026-09-05-word-inventory-and-copies.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-armor-identity-generation-and-persistence.md](../game-design-workflow/idea-materials/M-2026-09-06-armor-identity-generation-and-persistence.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-basic-sentence-targeting-and-locking.md](../game-design-workflow/idea-materials/M-2026-09-06-basic-sentence-targeting-and-locking.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-branching-run-routes.md](../game-design-workflow/idea-materials/M-2026-09-06-branching-run-routes.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-compositional-spells-and-word-meaning.md](../game-design-workflow/idea-materials/M-2026-09-06-compositional-spells-and-word-meaning.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-damage-armor-and-interruption.md](../game-design-workflow/idea-materials/M-2026-09-06-damage-armor-and-interruption.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md](../game-design-workflow/idea-materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md](../game-design-workflow/idea-materials/M-2026-09-06-flexible-sentences-and-subject-roles.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-normal-combat-word-rewards.md](../game-design-workflow/idea-materials/M-2026-09-06-normal-combat-word-rewards.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-prebattle-expressibility.md](../game-design-workflow/idea-materials/M-2026-09-06-prebattle-expressibility.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-preset-starting-inventory.md](../game-design-workflow/idea-materials/M-2026-09-06-preset-starting-inventory.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-spell-effect-sources-and-modifiers.md](../game-design-workflow/idea-materials/M-2026-09-06-spell-effect-sources-and-modifiers.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-spell-types-and-effect-conditions.md](../game-design-workflow/idea-materials/M-2026-09-06-spell-types-and-effect-conditions.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-status-reapplication-and-stacking.md](../game-design-workflow/idea-materials/M-2026-09-06-status-reapplication-and-stacking.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-status-timing-and-expiration.md](../game-design-workflow/idea-materials/M-2026-09-06-status-timing-and-expiration.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-status-values-and-resolution-order.md](../game-design-workflow/idea-materials/M-2026-09-06-status-values-and-resolution-order.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-summon-coexistence-and-field-capacity.md](../game-design-workflow/idea-materials/M-2026-09-06-summon-coexistence-and-field-capacity.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md](../game-design-workflow/idea-materials/M-2026-09-06-summon-departure-and-reference-invalidation.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-summon-health-damage-and-enemy-targeting.md](../game-design-workflow/idea-materials/M-2026-09-06-summon-health-damage-and-enemy-targeting.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-summon-reference-availability.md](../game-design-workflow/idea-materials/M-2026-09-06-summon-reference-availability.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-summon-unit-and-reference.md](../game-design-workflow/idea-materials/M-2026-09-06-summon-unit-and-reference.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-summon-word-references-and-target-locking.md](../game-design-workflow/idea-materials/M-2026-09-06-summon-word-references-and-target-locking.md)
-- [game-design-workflow/idea-materials/M-2026-09-06-word-classes-and-reward-packs.md](../game-design-workflow/idea-materials/M-2026-09-06-word-classes-and-reward-packs.md)
-- [game-design-workflow/idea-materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md](../game-design-workflow/idea-materials/M-2026-09-07-combat-gold-and-efficiency-bonus.md)
-- [game-design-workflow/idea-materials/M-2026-09-07-merchandise-eligibility.md](../game-design-workflow/idea-materials/M-2026-09-07-merchandise-eligibility.md)
-- [game-design-workflow/idea-materials/M-2026-09-07-new-run-starting-resources.md](../game-design-workflow/idea-materials/M-2026-09-07-new-run-starting-resources.md)
-- [game-design-workflow/idea-materials/M-2026-09-07-periodic-state-modifier-inheritance.md](../game-design-workflow/idea-materials/M-2026-09-07-periodic-state-modifier-inheritance.md)
-- [game-design-workflow/idea-materials/M-2026-09-07-shop-nodes-and-spending-opportunities.md](../game-design-workflow/idea-materials/M-2026-09-07-shop-nodes-and-spending-opportunities.md)
-- [game-design-workflow/idea-materials/M-2026-09-07-shop-shelves-and-transactions.md](../game-design-workflow/idea-materials/M-2026-09-07-shop-shelves-and-transactions.md)
-- [game-design-workflow/idea-materials/M-2026-09-07-supporting-design-rules.md](../game-design-workflow/idea-materials/M-2026-09-07-supporting-design-rules.md)
-- [game-design-workflow/idea-materials/M-2026-09-07-wand-inlay-configuration.md](../game-design-workflow/idea-materials/M-2026-09-07-wand-inlay-configuration.md)
-- [game-design-workflow/idea-materials/M-2026-09-10-accepted-design-interfaces.md](../game-design-workflow/idea-materials/M-2026-09-10-accepted-design-interfaces.md)
-- [game-design-workflow/idea-materials/M-2026-09-10-battlefield-state-change-expression.md](../game-design-workflow/idea-materials/M-2026-09-10-battlefield-state-change-expression.md)
-- [game-design-workflow/idea-materials/M-2026-09-10-instance-and-conditional-binding.md](../game-design-workflow/idea-materials/M-2026-09-10-instance-and-conditional-binding.md)
-- [game-design-workflow/idea-materials/M-2026-09-10-numerical-redesign-constraints.md](../game-design-workflow/idea-materials/M-2026-09-10-numerical-redesign-constraints.md)
-- [game-design-workflow/idea-materials/M-2026-09-10-semantic-world-executable-rules.md](../game-design-workflow/idea-materials/M-2026-09-10-semantic-world-executable-rules.md)
-- [game-design-workflow/idea-materials/M-2026-09-10-semantic-world-object-scope.md](../game-design-workflow/idea-materials/M-2026-09-10-semantic-world-object-scope.md)
-- [game-design-workflow/idea-materials/M-2026-09-10-simple-object-interactions.md](../game-design-workflow/idea-materials/M-2026-09-10-simple-object-interactions.md)
-- [game-design-workflow/idea-materials/M-2026-09-11-global-rule-boundaries.md](../game-design-workflow/idea-materials/M-2026-09-11-global-rule-boundaries.md)
-- [game-design-workflow/idea-materials/M-2026-09-11-modifier-card-system.md](../game-design-workflow/idea-materials/M-2026-09-11-modifier-card-system.md)
-- [game-design-workflow/idea-materials/M-2026-09-11-numerical-evaluation-framework.md](../game-design-workflow/idea-materials/M-2026-09-11-numerical-evaluation-framework.md)
-- [game-design-workflow/idea-materials/M-2026-09-11-overtime-fatigue.md](../game-design-workflow/idea-materials/M-2026-09-11-overtime-fatigue.md)
-- [game-design-workflow/idea-materials/M-2026-09-11-simple-spell-parameter-candidates.md](../game-design-workflow/idea-materials/M-2026-09-11-simple-spell-parameter-candidates.md)
-- [game-design-workflow/idea-materials/M-2026-09-11-spell-type-system.md](../game-design-workflow/idea-materials/M-2026-09-11-spell-type-system.md)
-- [game-design-workflow/idea-materials/M-2026-09-12-effect-registry.md](../game-design-workflow/idea-materials/M-2026-09-12-effect-registry.md)
-- [game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md](../game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md)
-- [game-design-workflow/idea-materials/M-2026-09-12-first-person-grid-battlefield.md](../game-design-workflow/idea-materials/M-2026-09-12-first-person-grid-battlefield.md)
-- [game-design-workflow/idea-materials/M-2026-09-12-simple-spell-archetype.md](../game-design-workflow/idea-materials/M-2026-09-12-simple-spell-archetype.md)
-- [game-design-workflow/idea-materials/M-2026-09-12-wand-inlay-system.md](../game-design-workflow/idea-materials/M-2026-09-12-wand-inlay-system.md)
-- [game-design-workflow/idea-materials/M-2026-09-13-card-pool-rule-rulings.md](../game-design-workflow/idea-materials/M-2026-09-13-card-pool-rule-rulings.md)
-- [game-design-workflow/idea-materials/M-2026-09-13-element-short-rule-card-pool.md](../game-design-workflow/idea-materials/M-2026-09-13-element-short-rule-card-pool.md)
-- [game-design-workflow/idea-materials/M-2026-09-13-end-tick-status-rulings.md](../game-design-workflow/idea-materials/M-2026-09-13-end-tick-status-rulings.md)
-- [game-design-workflow/idea-materials/M-2026-09-13-first-release-content-scope.md](../game-design-workflow/idea-materials/M-2026-09-13-first-release-content-scope.md)
-- [game-design-workflow/idea-materials/M-2026-09-13-pre-gdd-recommendation-batch.md](../game-design-workflow/idea-materials/M-2026-09-13-pre-gdd-recommendation-batch.md)
-- [game-design-workflow/idea-materials/M-2026-09-14-card-interface-completion.md](../game-design-workflow/idea-materials/M-2026-09-14-card-interface-completion.md)
-- [game-design-workflow/idea-materials/M-2026-09-14-element-status-host-eligibility.md](../game-design-workflow/idea-materials/M-2026-09-14-element-status-host-eligibility.md)
-- [game-design-workflow/idea-materials/M-2026-09-14-environment-forms-and-thresholds.md](../game-design-workflow/idea-materials/M-2026-09-14-environment-forms-and-thresholds.md)
-- [game-design-workflow/idea-materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md](../game-design-workflow/idea-materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)
-- [game-design-workflow/idea-materials/M-2026-09-14-first-release-parameters-and-channels.md](../game-design-workflow/idea-materials/M-2026-09-14-first-release-parameters-and-channels.md)
-- [game-design-workflow/idea-materials/M-2026-09-14-interface-platform-and-experience.md](../game-design-workflow/idea-materials/M-2026-09-14-interface-platform-and-experience.md)
-- [game-design-workflow/idea-materials/M-2026-09-14-run-route-encounters-and-fatigue.md](../game-design-workflow/idea-materials/M-2026-09-14-run-route-encounters-and-fatigue.md)
-- [game-design-workflow/idea-materials/README.md](../game-design-workflow/idea-materials/README.md)
-- [game-design-workflow/idea-proposals/P-2026-09-14-complete-first-release-design.md](../game-design-workflow/idea-proposals/P-2026-09-14-complete-first-release-design.md)
+[对应正文](../../../yanzhou/history/audits/gdd-rc1-document-review-2026-09-14.md#文档检查范围与结果)
+
+<a id="需求与实际证据"></a>
+
+[对应正文](../../../yanzhou/history/audits/gdd-rc1-document-review-2026-09-14.md#需求与实际证据)

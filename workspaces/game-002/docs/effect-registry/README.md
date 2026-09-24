@@ -1,11 +1,11 @@
-# 效果注册与追踪
+# 效果注册与追踪（已迁移）
 
-Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-23 / doc.1。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-- [134个稳定效果ID](catalog.md)：关联首版实体、系统规则与原始来源。
-- [现行规则与53实体](../../game-design-workflow/gdd/current/README.md)：唯一维护玩法正文；FX不另存参数表。
-- [来源审查](source-audit.md)、[案例覆盖](case-coverage.md)、[历次就绪审查](readiness-review.md)：保留各次审查范围。
-- [测试交接](../test-handoff.md)：实际证据按输入和版本独立记录。
-- [历史规范和更新全文](../history/pre-organization/docs/effect-registry/README.md)：ER v0.1的字段要求和旧登记记录。
+[打开新位置](../../../../yanzhou/effects/README.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-每次变更明确语义身份、关联实体、适用版本、来源与必需依赖；只改参数不新增同义FX。未具名方向FX-019/028/029不构成通用能力权限。完整规格按[统一规范](../governance/document-contract.md)维护；需新增玩法仍走资格及采纳流程。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
+
+<a id="效果注册与追踪"></a>
+
+[对应正文](../../../../yanzhou/effects/README.md#效果注册与追踪)

@@ -1,43 +1,43 @@
-# 语义世界执行规则提案
+# 语义世界执行规则提案（已迁移）
 
-状态：Proposal / 用户已采纳R01–R32。证据：Hypothesis。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 提案名称
+[打开新位置](../../../../yanzhou/sources/proposals/P-2026-09-10-semantic-world-executable-rules.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-让战前拼出的法术在具有明确结构、能力和过程的战斗世界中自动求值。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 来源想法
+<a id="为什么可能好玩"></a>
 
-[对象交互与执行规则合格素材](../idea-materials/M-2026-09-10-semantic-world-executable-rules.md)，覆盖用户全部采纳的R01–R32；不引入未明确的具体词卡或参数。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-semantic-world-executable-rules.md#为什么可能好玩)
 
-## 核心玩法假设
+<a id="可能的同类参考"></a>
 
-如果玩家能把单位、部件、材料、关系和未完成过程当作具有统一规则的对象，并在战前用有限词卡配置操作，就可能通过可复用表达形成多种可解释的自动战斗方案。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-semantic-world-executable-rules.md#可能的同类参考)
 
-## 玩家会做什么
+<a id="当前疑问"></a>
 
-- 主要动作：组合词义、对象短语与绑定条件，安排法杖和首次冷却。
-- 次要动作：观察对象变化、引用失败及过程改期，调整下一场配置。
-- 决策点：对象粒度、筛选数量、材料来源、端点、操作窗口及时间先后。
-- 反馈方式：公开能力、条件、原因与已知时间安排；对象变化与真实结算对应。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-semantic-world-executable-rules.md#当前疑问)
 
-## 为什么可能好玩
+<a id="提案名称"></a>
 
-同一词义可以因材料、结构、状态和过程的不同产生新用途；玩家需要同时考虑表达权限、范围、材料和介入窗口。实例绑定提供精确指向，条件绑定适应新生对象，明确的名单与顺序使结果可以复盘。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-semantic-world-executable-rules.md#提案名称)
 
-## 最小可验证原型
+<a id="最小可验证原型"></a>
 
-- 原型形式：先用符号对象作规则走查，再以最小词表与参数进行纸面对局。
-- 核心问题：能否用同一套规则解释失效、移动、拆分、改期、空名单和反应传播。
-- 成功信号：同一配置可以推导唯一顺序、材料去向、身份及作用结果。
-- 失败信号：依赖隐藏例外、临时补位、重复产出、同刻无限循环或画面回滚。
-- 当前状态：本轮只有文档与规则推导；没有可玩原型或玩家体验证据。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-semantic-world-executable-rules.md#最小可验证原型)
 
-## 可能的同类参考
+<a id="来源想法"></a>
 
-- 产品/玩法：Unknown，本轮不做产品研究。
-- 相似点与差异点：没有外部比较证据。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-semantic-world-executable-rules.md#来源想法)
 
-## 当前疑问
+<a id="核心玩法假设"></a>
 
-具体对象名录、词卡、几何、过程窗口与数值仍须产出；完整召唤、镶嵌和BF1–BF3保持后置。[评估](../evaluations/E-2026-09-10-semantic-world-executable-rules.md)与[采纳文本](../draft-changes/D-2026-09-10-semantic-world-executable-rules.md)明确当前框架范围。
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-semantic-world-executable-rules.md#核心玩法假设)
+
+<a id="玩家会做什么"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-semantic-world-executable-rules.md#玩家会做什么)
+
+<a id="语义世界执行规则提案"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-semantic-world-executable-rules.md#语义世界执行规则提案)

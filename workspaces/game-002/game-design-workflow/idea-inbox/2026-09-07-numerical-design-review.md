@@ -1,15 +1,23 @@
-# 数值设计审查入口
+# 数值设计审查入口（已迁移）
 
-状态：Source Only；数值重新设计已确认，参数Unknown。Project ID：game-002。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 原始表达与来源
+[打开新位置](../../../../yanzhou/sources/inbox/2026-09-07-numerical-design-review.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-[原始记录](../../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-inbox/2026-09-07-core-numerical-framework-v01.md)保存来源。本页的任务范围以[用户确认](2026-09-10-design-interface-questions.md)为准。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 当前适用内容
+<a id="原始表达与来源"></a>
 
-参数设计从[数值重设计任务](../../docs/numerical-redesign.md)开始；其约束进入[合格素材](../idea-materials/M-2026-09-10-numerical-redesign-constraints.md)。[数值来源入口](2026-09-07-numerical-calibration-candidates.md)只用于追溯，不提供可直接采用的候选值。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-07-numerical-design-review.md#原始表达与来源)
 
-## 资格与下一步
+<a id="当前适用内容"></a>
 
-具体参数尚无资格与验证结论。先建立目标和候选表，再按当前核心逐刻及跨战验证；规则确认与参数验证分开记录。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-07-numerical-design-review.md#当前适用内容)
+
+<a id="数值设计审查入口"></a>
+
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-07-numerical-design-review.md#数值设计审查入口)
+
+<a id="资格与下一步"></a>
+
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-07-numerical-design-review.md#资格与下一步)

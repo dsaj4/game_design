@@ -1,41 +1,35 @@
-# 哪种局内／局外循环最能放大《言咒》的策略深度？
+# 哪种局内／局外循环最能放大《言咒》的策略深度？（已迁移）
 
-- Project ID：`game-002-optimization`；来源项目：`game-002`。
-- 日期／运行：2026-09-20／`OPT-20260920-001`。
-- 状态：`Open / Research / Provisional`；新增设计均为 `Agent Proposal / Raw Idea / Unqualified`。
-- 依据：用户指定的 `GDD-G002-FULL-001 / 1.0 RC1`；来源与读取边界见[本轮研究记录](../insights/2026-09-20-strategic-loop-fit-and-sources.md)。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 主要问题
+[打开新位置](../../../yanzhou/exploration/optimization/questions/Q-20260920-strategic-run-and-meta-loops.md) · [言咒项目入口](../../../yanzhou/README.md) · [迁移说明](../../../yanzhou/governance/layout-migration-report.md)
 
-在保留实体词卡构句、四杖时间／范围编排和战中自动执行的前提下，怎样让单场解法、战间成长与下一局动机彼此支持，并维持 RC1 的15–25分钟整局目标？
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 术语与已知约束
+<a id="下一步"></a>
 
-- **战斗内循环**：准备好的法术自动尝试、世界变化、结果反馈。观看操作不改变战斗结果。
-- **局内战间循环**：选路、购物／休整、重组法术、承担跨战生命损耗。商店不属于跨局成长。
-- **局外循环**：本局结束后的复盘、知识保留与下一局目标。RC1 不含永久资源、永久强化或多起点。
-- RC1 已有路线预览、固定遭遇、金币时间奖金、自由战前重配、三期内容开放；不得换名当成本轮新增机制。
-- 本轮候选的实际乐趣、可行策略数量、购得目标组件概率、决策时间增量均为 `Unknown / Untested`。
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260920-strategic-run-and-meta-loops.md#下一步)
 
-## 待比较候选
+<a id="主要问题"></a>
 
-见[原始创意](../idea-inbox/2026-09-20-strategic-run-and-meta-loops.md)：知情远征、限额整备连续试炼、守点波次工坊、工坊谜题巡回。四者是替代的主循环方向，不建议同时叠加。
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260920-strategic-run-and-meta-loops.md#主要问题)
 
-## 当前最关键的设计分歧
+<a id="哪种局内局外循环最能放大言咒的策略深度"></a>
 
-是否把“选择更容易应付的路线，还是承担风险去补齐未来构筑”确立为局内的主要取舍？
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260920-strategic-run-and-meta-loops.md#哪种局内局外循环最能放大言咒的策略深度)
 
-Agent 推荐：先沿此方向测试知情远征，让一个有限成长机会在选路前可见；保留战前自由重配和跨局资源重置。该推荐尚未获得用户选择，不能据此晋级。
+<a id="当前最关键的设计分歧"></a>
 
-## 最小验证与退回信号
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260920-strategic-run-and-meta-loops.md#当前最关键的设计分歧)
 
-1. 保持现有两场战斗分支、金币、词卡池和货架容量，先只改变一个未来商品的可见性与路径归属，比较有／无前瞻成长信息。
-2. 冻结两组实际可达库存及生命／金币账本，检查不同处境能否产生不同合理选路；不能为了论证而免费补组件或抹掉前缀损耗。
-3. 再分别比较自由重配与限额整备，不能同时改奖励、敌人和编辑权限后归因于一个机制。
-4. 记录玩家选路理由、实际改句、第一次关键成败的解释、决策用时与整局结果。小样本只能发现问题，不能证明整体平衡。
+<a id="待比较候选"></a>
 
-若总是选同一路线、只看稀有度、买到词仍不改变法术用途、受限编辑只是反复撤销，或解释与决策耗时显著挤压当前会话目标，退回本问题调整。没有运行结果时一律记 `NotRun`。
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260920-strategic-run-and-meta-loops.md#待比较候选)
 
-## 下一步
+<a id="最小验证与退回信号"></a>
 
-本轮先完成并交付比较和推荐。用户明确选择方向后，用 `grill-with-docs` 一次确认一个关键设计结果，再独立审查资格；不因创意写得具体而自动生成正式 Proposal、Evaluation 或 GDD。
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260920-strategic-run-and-meta-loops.md#最小验证与退回信号)
+
+<a id="术语与已知约束"></a>
+
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260920-strategic-run-and-meta-loops.md#术语与已知约束)

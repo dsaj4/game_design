@@ -1,39 +1,31 @@
-# T20 · 拯救世界操作指南
+# T20 · 拯救世界操作指南（已迁移）
 
-Project ID：`game-002-optimization`。状态：`Research / Provisional`。日期：2026-09-20。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 来源与证据边界
+[打开新位置](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/20-save-world.md) · [言咒项目入口](../../../../../yanzhou/README.md) · [迁移说明](../../../../../yanzhou/governance/layout-migration-report.md)
 
-来自 [GIC 档案馆](https://www.9cards.cn/gic/) 的 1 份记录；下列为该站原图地址，可按档案 ID 在站内检索。读取依据为公开网页内的 innovation_cn/en 正文；同站多记录不等于独立交叉验证。未观看视频、未玩原作、未核实当前版本或商业表现。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-- [26-2025-T-N-How to Save a World](https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-How-to-Save-a-World-Set.png)
+<a id="t20--拯救世界操作指南"></a>
 
-## 吸收：来源实际描述了什么
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/20-save-world.md#t20--拯救世界操作指南)
 
-档案描述多个救援项目按顺序结算，先前项目失败仍能帮助后续项目；最终胜利还关联玩家在成功项目中的贡献。
+<a id="吸收来源实际描述了什么"></a>
 
-**输入—行动—输出—回流（本轮结构归纳）：**选择项目投入 → 观察完成可能 → 转向其他方案 → 前期投入影响后续救援 → 结算。
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/20-save-world.md#吸收来源实际描述了什么)
 
-**玩家为什么可能在意（推断）：**次优路径可以保留部分投入价值，失败不一定等同此前所有决策归零。
+<a id="更新决定"></a>
 
-## 适配：与 RC1 的关系
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/20-save-world.md#更新决定)
 
-RC1 单人胜负需要唯一且可解释；直接并列消灭、救援、撤离会大改终局。
+<a id="未确认信息与下一步"></a>
 
-**保留结构：**C 先保留原胜负，只比较普通通关与额外委托成功两层结果。
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/20-save-world.md#未确认信息与下一步)
 
-**不迁移／雷同与范围风险：**不同时引入三个互相折算的胜利轨，不声称附加委托就是原游戏的失败转化机制。
+<a id="来源与证据边界"></a>
 
-## 更新决定
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/20-save-world.md#来源与证据边界)
 
-C 收束为一个可选目标；多个救援终局研究后置，避免目标系统先于核心成熟。
+<a id="适配与-rc1-的关系"></a>
 
-去向：C。这是候选形成过程，不是 Qualified GDD Material 或正式 Evaluation。
-
-## 未确认信息与下一步
-
-此迁移只借鉴多层结果意识，尚未证明失败补偿对本游戏有效。
-
-下一步按[方向比较与验证](../directions.md)检查实际取舍；若需要准确复现原作，先补官方规则与当前版本证据，不用本档案替代规则书。
-
-[返回逐案索引](../case-index.md) · [流程](../workflow.md)
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/20-save-world.md#适配与-rc1-的关系)

@@ -1,52 +1,43 @@
-# GDD前既有推荐的批量确认
+# GDD前既有推荐的批量确认（已迁移）
 
-日期：2026-09-13。状态：Promoted；仅本页列明的既有推荐进入正式素材，未完成内容和参数不视作已确认。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 原始想法
+[打开新位置](../../../../yanzhou/sources/inbox/2026-09-13-pre-gdd-recommendation-batch.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-用户原话：“继续确认规则，均按推荐处理”。此前已明确：“先把设计缺口和待决事项确定再写作GDD”。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-本轮开始时尚待答复的推荐为：玩家在棋盘外，法术明确给予自己的效果不受棋盘法杖范围限制，仍满足词义及其他条件。本轮统一确认采用此项，并按[DG清单](../../docs/pre-gdd-design-decisions-2026-09-13.md)中已明确提出的推荐继续处理。
+<a id="gdd前既有推荐的批量确认"></a>
 
-## 触发来源
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-13-pre-gdd-recommendation-batch.md#gdd前既有推荐的批量确认)
 
-来源为当前对话的直接确认、DG04–26推荐、已有IN-C和FAT-C对应条文，以及已采纳R／GR／ST／RC；不是从原型反推规则。相关[全游戏GDD准备原话](2026-09-13-full-game-gdd-preparation.md)保留。
+<a id="下一步"></a>
 
-本次确认覆盖BR01–12规范化文本。对“先补实际起始牌组”等工作建议，记录为工作与验收方向，不伪造尚未出现的卡名、数值、范围或遭遇。IN-C、FAT-C只采纳本轮明确映射的内容，原表未覆盖条款继续保持候选；旧数值算例不转为默认。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-13-pre-gdd-recommendation-batch.md#下一步)
 
-## 可能带来的玩家体验
+<a id="原始想法"></a>
 
-玩家可以预测自身收益、法杖范围和多过程重叠，比较有限镶嵌槽带来的取舍，并辨认疲劳与普通伤害。此为体验假设，尚未取得新玩法证据。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-13-pre-gdd-recommendation-batch.md#原始想法)
 
-## 暂定标签
+<a id="可能带来的玩家体验"></a>
 
-- 类型：机制／范围／交互／写作约束。
-- 情绪：可预判、掌控。
-- 玩法关键词：范围、共享槽、实际支付、镶嵌、疲劳。
-- 风险关键词：候选数值误采纳、隐式规则、未完成内容误关闭。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-13-pre-gdd-recommendation-batch.md#可能带来的玩家体验)
 
-## 资格确认记录
+<a id="当前缺口"></a>
 
-| 资格问题 | 当前答案 | 状态 |
-| --- | --- | --- |
-| 作用对象与章节 | 战斗、卡牌、镶嵌、流程、呈现及GDD写作门槛 | Clear |
-| 玩家情境／设计功能 | 战前配置、自动战斗观察与战后成长；为GDD提供明确规则 | Clear |
-| 行为和可见影响 | 自身效果范围、重叠过程、装配与去重、疲劳、暂停均有明确结果 | Clear |
-| 设计价值 | 保留时序取舍并让卡牌组合可解释 | Clear |
-| 与当前构思关系 | 继承R／GR／ST／RC，明确替代部分IN-C／FAT-C候选状态；首版收集后置 | Clear |
-| 未知项及验证方式 | 逐条列未完内容、参数和正常／边界例；先成套输入，再独立验证 | Clear |
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-13-pre-gdd-recommendation-batch.md#当前缺口)
 
-### 当前缺口
+<a id="暂定标签"></a>
 
-本轮另行提出中途退出推荐后，用户明确选择“从本场开头恢复，全部锁定（推荐）”。问题原文：“战斗中退出后，是否从这场战斗的开头恢复，并锁定退出前的配置、敌人、随机结果和奖励？推荐这样配合‘节点存档’：可以重看战斗，但不能借退出重配或刷新内容。”已并入BR09。剩余关键缺口为逐类状态宿主资格和实际范围等内容，详见正式素材。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-13-pre-gdd-recommendation-batch.md#暂定标签)
 
-### 资格结论
+<a id="触发来源"></a>
 
-- [x] Promoted：经grill-with-docs核对现有来源，资格字段明确，用户已批量授权。
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-13-pre-gdd-recommendation-batch.md#触发来源)
 
-正式素材：[BR01–12](../idea-materials/M-2026-09-13-pre-gdd-recommendation-batch.md)。
+<a id="资格确认记录"></a>
 
-## 下一步
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-13-pre-gdd-recommendation-batch.md#资格确认记录)
 
-- [x] 晋级正式素材并建立提案、评估、拟修改和采纳记录。
-- [ ] 补齐实际内容表及首版候选参数；先确认剩余关键取舍，再写GDD。
+<a id="资格结论"></a>
+
+[对应正文](../../../../yanzhou/sources/inbox/2026-09-13-pre-gdd-recommendation-batch.md#资格结论)

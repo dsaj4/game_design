@@ -1,39 +1,39 @@
-# 评估：每刻末状态与累计衰减
+# 评估：每刻末状态与累计衰减（已迁移）
 
-## 评估对象
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-提案：[ST01–04](../idea-proposals/P-2026-09-13-end-tick-status-rulings.md)。日期2026-09-13；评估人Codex。
+[打开新位置](../../../../yanzhou/sources/evaluations/E-2026-09-13-end-tick-status-rulings.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-## 快速结论
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-推荐推进。三处裁决明确且可局部落地；不需要扩大卡池或引入保底寿命。
+<a id="主要风险"></a>
 
-## 评估维度
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-13-end-tick-status-rulings.md#主要风险)
 
-| 维度 | 定性评估 |
-| --- | --- |
-| 核心动作与反馈 | 固定阶段、类型先后和公开单位顺序使刻末结果可解释 |
-| 实现可能性／范围 | 只改状态时点、排序、衰减余量与两卡组合；技术实现本轮未验证 |
-| 可玩性／决策深度 | 储层与自动作用有取舍；效果量未定，不评强弱 |
-| 差异化／市场参照 | 本轮不新增市场判断 |
-| 扩展性 | 其他状态登记固定顺位，保留独立周期声明 |
-| 风险可验证性 | 用小范围逐刻事件检查即可发现顺序和余量错误 |
+<a id="同类产品观察"></a>
 
-## 同类产品观察
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-13-end-tick-status-rulings.md#同类产品观察)
 
-未使用外部产品证据；不推断玩家测试结果。
+<a id="建议修改"></a>
 
-## 主要风险
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-13-end-tick-status-rulings.md#建议修改)
 
-- 每刻结算显著改变旧三刻模型收益，旧参数仅留历史。
-- 类型顺序替代首次生效排序，会改变跨宿主死亡与终止先后。
-- 阶段内新状态延后，避免无限追加；进度清空与转化身份需分清。
-- 玩家是否读懂仍待试玩，不凭规则简短宣称体验通过。
+<a id="快速结论"></a>
 
-## 建议修改
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-13-end-tick-status-rulings.md#快速结论)
 
-采用素材ST01–04：先燃烧后冰冻，同类公开单位顺序；保留终局立即停止和清除不追溯。
+<a id="最终建议"></a>
 
-## 最终建议
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-13-end-tick-status-rulings.md#最终建议)
 
-进入[Draft Change](../draft-changes/D-2026-09-13-end-tick-status-rulings.md)。用户已明确开始裁决并授权固定先后设计，可完成局部采纳；本轮不采纳新数值、不运行测试。
+<a id="评估对象"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-13-end-tick-status-rulings.md#评估对象)
+
+<a id="评估每刻末状态与累计衰减"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-13-end-tick-status-rulings.md#评估每刻末状态与累计衰减)
+
+<a id="评估维度"></a>
+
+[对应正文](../../../../yanzhou/sources/evaluations/E-2026-09-13-end-tick-status-rulings.md#评估维度)

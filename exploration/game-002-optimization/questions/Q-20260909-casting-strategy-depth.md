@@ -1,43 +1,31 @@
----
-id: Q-20260909-001
-type: Question
-project_id: game-002-optimization
-status: Open
-created: 2026-09-09
-updated: 2026-09-09
-question_ids: [Q-20260909-001]
-source_ids: [SRC-G002-CONTEXT-V2, SRC-EMERGENT-V01]
-method: desk-review
-author: user
-version: v1
----
+# 如何让现有施法体系更有策略深度和差异化？（已迁移）
 
-# 如何让现有施法体系更有策略深度和差异化？
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 问题
+[打开新位置](../../../yanzhou/exploration/optimization/questions/Q-20260909-casting-strategy-depth.md) · [言咒项目入口](../../../yanzhou/README.md) · [迁移说明](../../../yanzhou/governance/layout-migration-report.md)
 
-在保留词卡组合、离散战斗时间、可见敌方意图、生命/牌组/路线取舍和局内构筑的前提下，如何修改施法体系，使玩家不是只寻找固定强配方，而是根据战场状态主动选择不同施法路径，并能用一句简单原则理解它的特色？
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 当前已知
+<a id="下一步"></a>
 
-- 当前背景包已确认词卡、句式、时间轴、打断、状态、召唤、路线、奖励和构筑是主要设计输入，但完整词表、敌人、流派和体验仍是 `Unknown`。
-- 基础数值（例如普通词耗时 2T、基础伤害 4T/10、基础护甲 4T/8）是校准锚点，不是已平衡的完整牌表。
-- 现有规则强调可见信息、时间与组件机会成本，禁止零耗时循环和把长句自动换算为统一倍率。
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260909-casting-strategy-depth.md#下一步)
 
-## 范围
+<a id="如何让现有施法体系更有策略深度和差异化"></a>
 
-- 评估施法的核心决策单元、词卡复用方式、时间/打断取舍和可理解性。
-- 允许提出新的局部施法语义，但不默认改动商店、路线、局外成长或正式核心构思。
-- 暂不确定完整词表、具体数值、UI 规格和实现技术。
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260909-casting-strategy-depth.md#如何让现有施法体系更有策略深度和差异化)
 
-## 方法与最小验证
+<a id="当前已知"></a>
 
-先用 `emergent-strategy-game-framework@v0.1` 做 Primitive Rule → Interaction → Pattern → Strategy 检查，再用纸面场景比较不同施法模式。至少覆盖两个敌方意图、两个资源压力和一个失败/打断情境。
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260909-casting-strategy-depth.md#当前已知)
 
-成功信号：同一组词在不同状态下有至少两种有理由的用法；玩家能说明即时收益、未来风险和放弃的机会；没有一种模式在所有状态支配其他模式。
+<a id="方法与最小验证"></a>
 
-失败信号：玩家只记固定配方或固定模式；新增规则只增加记忆/UI 负担；强模式没有可见代价；出现零时间、递归或不可解释的延迟收益。
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260909-casting-strategy-depth.md#方法与最小验证)
 
-## 下一步
+<a id="范围"></a>
 
-阅读本轮[施法体系差异化研究洞察](../insights/2026-09-09-casting-system-distinctive-directions-analysis.md)，对推荐候选完成资格确认，或选择其他候选进入下一轮纸面验证。
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260909-casting-strategy-depth.md#范围)
+
+<a id="问题"></a>
+
+[对应正文](../../../yanzhou/exploration/optimization/questions/Q-20260909-casting-strategy-depth.md#问题)

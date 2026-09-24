@@ -1,40 +1,43 @@
-# GDD前既有推荐批量采纳提案
+# GDD前既有推荐批量采纳提案（已迁移）
 
-## 提案名称
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-BR01–12：明确共用规则并分开记录未完成规格。
+[打开新位置](../../../../yanzhou/sources/proposals/P-2026-09-13-pre-gdd-recommendation-batch.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-## 来源想法
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-唯一新增来源为合格素材[BR01–12](../idea-materials/M-2026-09-13-pre-gdd-recommendation-batch.md)；其内已链接原话与所有规则依据，不直接使用未合格inbox补结论。
+<a id="gdd前既有推荐批量采纳提案"></a>
 
-## 核心玩法假设
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-pre-gdd-recommendation-batch.md#gdd前既有推荐批量采纳提案)
 
-玩家能够用公开范围、有限时序、实付资源和有限镶嵌槽预测组合结果；减少未声明默认值，可以保留共享槽与空间编排的真实取舍。
+<a id="为什么可能好玩"></a>
 
-## 玩家会做什么
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-pre-gdd-recommendation-batch.md#为什么可能好玩)
 
-- 主要动作：战前构句、选范围、装配镶嵌并安排时序。
-- 次要动作：暂停查看来源和失效原因，战后选择休整／购买。
-- 决策点：哪些法杖承担直接攻防、元素操控和协作，哪些同组组件不值得重复占槽。
-- 反馈方式：公开实际名单、来源、支付结果、独立疲劳和冷却变化原因。
+<a id="可能的同类参考"></a>
 
-## 为什么可能好玩
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-pre-gdd-recommendation-batch.md#可能的同类参考)
 
-同一词义可跨流派复用，而不同范围、时间与组件位置仍改变结果；玩家可以通过预测与复盘调整下一场配置。此为假设，尚无本批新输入的玩家证据。
+<a id="当前疑问"></a>
 
-## 最小可验证原型
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-pre-gdd-recommendation-batch.md#当前疑问)
 
-- 形式：在首版具体内容确定后，用固定场景对照BR素材中的正常与边界例。
-- 核心问题：结果是否唯一、单件与同组约束能否清楚解释，疲劳是否保持独立分类。
-- 成功信号：同输入同结果，原事件与一层触发有明确来源，不发生资源复制。
-- 失败信号：忙碌锁隐藏取消、重叠加成、空杖获益或退出重复领取。
-- 当前仅登记需求，未运行原型或新测试。
+<a id="提案名称"></a>
 
-## 可能的同类参考
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-pre-gdd-recommendation-batch.md#提案名称)
 
-本批是项目内部规则收束，不引入外部产品结论或借用其参数。
+<a id="最小可验证原型"></a>
 
-## 当前疑问
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-pre-gdd-recommendation-batch.md#最小可验证原型)
 
-逐卡接口、实际范围与起始资源、遭遇、经济、完整参数等仍待补；中途退出按本场开头锁定重播已确认；GDD继续暂停。用户已统一授权采纳明确推荐，不重复请求逐条许可。
+<a id="来源想法"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-pre-gdd-recommendation-batch.md#来源想法)
+
+<a id="核心玩法假设"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-pre-gdd-recommendation-batch.md#核心玩法假设)
+
+<a id="玩家会做什么"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-13-pre-gdd-recommendation-batch.md#玩家会做什么)

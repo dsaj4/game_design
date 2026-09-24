@@ -1,41 +1,31 @@
-# T01 · 双侠小队
+# T01 · 双侠小队（已迁移）
 
-Project ID：`game-002-optimization`。状态：`Research / Provisional`。日期：2026-09-20。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 来源与证据边界
+[打开新位置](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/01-tag-team.md) · [言咒项目入口](../../../../../yanzhou/README.md) · [迁移说明](../../../../../yanzhou/governance/layout-migration-report.md)
 
-来自 [GIC 档案馆](https://www.9cards.cn/gic/) 的 3 份记录；下列为该站原图地址，可按档案 ID 在站内检索。读取依据为公开网页内的 innovation_cn/en 正文；同站多记录不等于独立交叉验证。未观看视频、未玩原作、未核实当前版本或商业表现。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-- [26-2025-T-5-Tag Team](https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-5-Tag-Team-Set.png)
-- [26-2025-T-N-Tag Team-1](https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-Tag-Team-1-Set.png)
-- [26-2025-T-N-Tag Team-2](https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-Tag-Team-2-Set.png)
+<a id="t01--双侠小队"></a>
 
-## 吸收：来源实际描述了什么
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/01-tag-team.md#t01--双侠小队)
 
-档案描述在已固定的牌序中插入新牌，再逐张翻牌自动结算；另一条记录补充双角色混合牌组。保持所有牌公开是提名人的变体建议，不能误写为原规则。
+<a id="吸收来源实际描述了什么"></a>
 
-**输入—行动—输出—回流（本轮结构归纳）：**已有序列与对方信息 → 选牌及插入点 → 自动交锋 → 看到错位或配合 → 再插牌。
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/01-tag-team.md#吸收来源实际描述了什么)
 
-**玩家为什么可能在意（推断）：**成长可以改变未来行为的顺序，而不仅增加能力总量。旧顺序锁定使新加入的能力同时承担历史承诺。
+<a id="更新决定"></a>
 
-## 适配：与 RC1 的关系
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/01-tag-team.md#更新决定)
 
-RC1 已有法杖排序、首次起点和自动循环，不能把编排本身称作新发现；不可重排又与战外完整重配相冲突。
+<a id="未确认信息与下一步"></a>
 
-**保留结构：**仅吸收“选择需要承担后续后果”，用于双面战利品的跨场承诺。
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/01-tag-team.md#未确认信息与下一步)
 
-**不迁移／雷同与范围风险：**不把单场循环改成抽牌序列，不引入记忆测试或强制永久锁序。
+<a id="来源与证据边界"></a>
 
-## 更新决定
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/01-tag-team.md#来源与证据边界)
 
-先提出不可逆咒序；对照战外重配合同后研究后置，仅保留选择留下后果这一原则。
+<a id="适配与-rc1-的关系"></a>
 
-去向：A。这是候选形成过程，不是 Qualified GDD Material 或正式 Evaluation。
-
-## 未确认信息与下一步
-
-资料没有给出所有插入、洗牌与英雄边界，不能完整复刻战斗。
-
-下一步按[方向比较与验证](../directions.md)检查实际取舍；若需要准确复现原作，先补官方规则与当前版本证据，不用本档案替代规则书。
-
-[返回逐案索引](../case-index.md) · [流程](../workflow.md)
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/01-tag-team.md#适配与-rc1-的关系)

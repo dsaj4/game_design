@@ -1,52 +1,39 @@
-# HG01宿主资格采纳文本
+# HG01宿主资格采纳文本（已迁移）
 
-## 修改目标
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-补充core-concept.md中火冰状态的实际宿主资格，编号G002-CORE-030。
+[打开新位置](../../../../yanzhou/sources/draft-changes/D-2026-09-14-element-status-host-eligibility.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-## 来源
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-- 提案：[HG01](../idea-proposals/P-2026-09-14-element-status-host-eligibility.md)。
-- 评估：[HG01](../evaluations/E-2026-09-14-element-status-host-eligibility.md)。
-- [合格素材](../idea-materials/M-2026-09-14-element-status-host-eligibility.md)。
-- [用户答复](../idea-inbox/2026-09-14-host-range-starting-content.md)：2026-09-14“采用这版资格表（推荐）”。
+<a id="hg01宿主资格采纳文本"></a>
 
-## 拟新增内容
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-14-element-status-host-eligibility.md#hg01宿主资格采纳文本)
 
-```md
-### HG01 燃烧／冰冻的宿主资格
+<a id="仍需保留的疑问"></a>
 
-| 宿主 | 燃烧／冰冻层数 | 伤害／增甲结算 | 环境阶段与转化 |
-| --- | --- | --- | --- |
-| 玩家 | 两者均可，仍只能同时一种元素状态 | 燃烧伤害、冰冻增甲；明确逆霜替换按原规则 | 不转元素；棋盘外不进入普通邻近名单 |
-| 存活敌人 | 两者均可，状态与固有属性分开 | 燃烧伤害、冰冻增甲；实际伤害先护甲后生命 | 不作为环境转元素；生命耗尽按死亡规则 |
-| 树木及其保留形态 | 两者均可 | 无生命和护甲，不结算这两种攻防收益 | 层数用于形态阈值、汲取、抵消；合格覆盖下可按对应阈值转元素 |
-| 草地及其保留形态 | 两者均可 | 无生命和护甲，不结算攻防收益 | 层数用于形态阈值、汲取、抵消；地面始终不转占位元素 |
-| 普通石地 | 均不接受 | 不生成状态、生命或护甲 | 保留地面，不转元素 |
-| 火焰／冰霜元素本体 | 自身对应状态为共享层数；异种按既有抵消／补生 | 无生命和护甲，不结算自身燃烧伤害或冰冻增甲 | 归零消散；继承、来源及补生沿CORE-025–028 |
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-14-element-status-host-eligibility.md#仍需保留的疑问)
 
-层数有明确用途，接受状态不等于具备所有结果能力。无生命／护甲宿主跳过状态攻防结果，仍处理合法层数消耗、抵消及自然衰减。冰冻或燃烧清空不撤销已达到环境形态。状态名词可以引用合格环境上的对应状态，不因此获得未持有的树木／草地名词、环境材料加工或传播能力。
+<a id="修改目标"></a>
 
-本表规定状态接受资格与结果能力；实际施加仍须满足当前词义、阵营过滤、作用范围和来源规则。树木、草地的具体形态名与阈值另表确定；HG01不设量值、不改固有属性或阵营。
-```
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-14-element-status-host-eligibility.md#修改目标)
 
-## 拟替换内容
+<a id="拟新增内容"></a>
 
-无删除或整体替换；在当前规则中补充明确名单。历史来源及旧版本保留，不把本次选择扩展到HG02／WG01／SG01或CG新接口。
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-14-element-status-host-eligibility.md#拟新增内容)
 
-## 采纳理由
+<a id="拟替换内容"></a>
 
-把BR02中的宿主能力约束具体化，明确树木和草地接受火冰层数但不产生命／护甲结果，普通石地拒绝这两种状态。
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-14-element-status-host-eligibility.md#拟替换内容)
 
-## 仍需保留的疑问
+<a id="来源"></a>
 
-环境形态及阈值、实际阵营表、法杖范围、卡牌角色和全部候选量值继续细化；本项不关闭整组DG05或宣称玩法验证完成。
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-14-element-status-host-eligibility.md#来源)
 
-## 确认状态
+<a id="确认状态"></a>
 
-- [x] 用户已采纳HG01，按本稿写入core-concept.md。
-- [ ] 待用户选择
-- [ ] 已搁置
-- [ ] 已拒绝
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-14-element-status-host-eligibility.md#确认状态)
 
-证据：Hypothesis／NotRun。新GDD尚未开始。
+<a id="采纳理由"></a>
+
+[对应正文](../../../../yanzhou/sources/draft-changes/D-2026-09-14-element-status-host-eligibility.md#采纳理由)

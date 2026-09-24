@@ -1,0 +1,21 @@
+> 历史快照：2026-09-23整理前正文；只用于来源追溯，不构成当前规则或新的审批要求。原文中的“当前”均按原日期理解。
+> 原路径：`workspaces/game-002/game-design-workflow/gdd/README.md`。本副本仅调整相对链接，原字节SHA见整理清单。
+
+# game-002 GDD
+
+## 当前全游戏设计：RC1
+
+[《言咒》全游戏GDD](../../../../design/GDD.md)／[Wiki目录](../../../../design/README.md)，2026-09-14，GDD-2 / Accepted。26组设计缺口与12类参数已实际收束；正文12页，覆盖7系统、55设计ID／53实体、完整路线／遭遇／经济／保存与验收。原始库完整保留，平衡与体验Hypothesis／NotRun。
+
+后续以此作为开发第一材料，有矛盾再查构思系统。以下战场单项草案只保留历史，不覆盖RC1。
+
+## 旧GDD入口（历史）
+
+
+使用[共享模板](../../../../../game-design-workflow/templates/README.md)，玩法与实现进度分开。现有核心为[Core Concept v0.6](../../../../design/core-concept.md)，具体GDD是否已采纳按各自状态判断。
+
+| GDD | 成熟度 | 状态与范围 |
+| --- | --- | --- |
+| [第一人称格子战场与环境](../../../../design/systems/04-elements-environment.md) | GDD-1规则草案 | Draft Change／Hypothesis；2×5占位、地面与有限火焰变化，参数未冻结、NotRun |
+
+来源限于已通过资格的素材；inbox未确认候选不得直接进入正文。当前尚无已采纳GDD。

@@ -1,39 +1,43 @@
-# 超时疲劳提案
+# 超时疲劳提案（已迁移）
 
-## 提案名称
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-超时后以双方生命压力推动终局。
+[打开新位置](../../../../yanzhou/sources/proposals/P-2026-09-11-overtime-fatigue.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-## 来源想法
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-[合格素材](../idea-materials/M-2026-09-11-overtime-fatigue.md)，来源为用户对NF-D01的明确方向。
+<a id="为什么可能好玩"></a>
 
-## 核心玩法假设
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-11-overtime-fatigue.md#为什么可能好玩)
 
-超时进入持续扣血且法术无法回血的疲劳阶段，能让玩家比较输出速度与生存的代价，使退化配置也面临结束压力。
+<a id="可能的同类参考"></a>
 
-## 玩家会做什么
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-11-overtime-fatigue.md#可能的同类参考)
 
-- 主要动作：战前编排自动法术。
-- 次要动作：观察疲劳与生命结果。
-- 决策点：常规时间内结束，或承担疲劳继续争取胜利。
-- 反馈方式：公开进入与扣血、禁疗原因；具体呈现待验证。
+<a id="当前疑问"></a>
 
-## 为什么可能好玩
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-11-overtime-fatigue.md#当前疑问)
 
-保留超时后的争胜过程，拖延有共同代价。单纯等待是否成为支配策略尚需验证。
+<a id="提案名称"></a>
 
-## 最小可验证原型
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-11-overtime-fatigue.md#提案名称)
 
-- 形式：现有攻防规则的纸面事件及候选疲劳包。
-- 问题：能否有限结束、禁疗无遗漏、双方同扣结果唯一。
-- 成功：边界一致且正常攻防取舍保留。
-- 失败：护甲无限抵消疲劳、治疗绕过、同死误判或等待全局最优。
+<a id="最小可验证原型"></a>
 
-## 可能的同类参考
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-11-overtime-fatigue.md#最小可验证原型)
 
-本次不引入外部产品依据，直接验证本项目已知退化配置。
+<a id="来源想法"></a>
 
-## 当前疑问
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-11-overtime-fatigue.md#来源想法)
 
-精确触发、扣血、护甲／打断与同刻安排见素材FAT-C候选；细则尚未采纳，不在提案重复数值表。
+<a id="核心玩法假设"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-11-overtime-fatigue.md#核心玩法假设)
+
+<a id="玩家会做什么"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-11-overtime-fatigue.md#玩家会做什么)
+
+<a id="超时疲劳提案"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-11-overtime-fatigue.md#超时疲劳提案)

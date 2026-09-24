@@ -1,87 +1,51 @@
-# 数值重新设计的范围与验证约束
+# 数值重新设计的范围与验证约束（已迁移）
 
-状态：Qualified GDD Material；明确约束Accepted，证据Hypothesis。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 素材控制
+[打开新位置](../../../../yanzhou/sources/materials/M-2026-09-10-numerical-redesign-constraints.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-| 字段 | 内容 |
-| --- | --- |
-| 素材 ID | MAT-2026-09-10-numerical-redesign-constraints |
-| 素材类型 | System / Constraint / Presentation |
-| 来源 inbox | [用户确认与资格记录](../idea-inbox/2026-09-10-design-interface-questions.md) |
-| 资格确认日期 | 2026-09-10 |
-| 确认方式 | grill-with-docs：仓库核对、情境审查、用户批量确认 |
-| 当前证据状态 | Hypothesis |
-| 负责人 | 用户决定设计，agent维护表述与来源 |
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 规范化表述
+<a id="2026-09-14-全游戏gdd使用记录"></a>
 
-数值设计重新建立。现行素材不提供可直接沿用的校准锚点，具体生命、伤害、护甲、状态强度、恢复量、词卡时长、释放时长、敌人节奏、金币、价格、库存规模、法杖数量与范围均按当前循环战斗重新设计并验证。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-numerical-redesign-constraints.md#2026-09-14-全游戏gdd使用记录)
 
-词卡时间贡献按实际分配相加，其合计用于法术冷却；省略主语没有隐藏词卡时间。释放时长单独设计，周期等于冷却加释放。时序示例只用于说明运算，不规定默认释放时长或卡牌数值。
+<a id="与当前构思的关系"></a>
 
-已确认的结构性规则继续生效：首次冷却起点0–10刻、每刻最多一个释放槽、一实体一位置、一法术一法杖、普通同名词卡最多三张、完整法术后检查与整体收益。新局零金币、普通休整三候选选一等明确流程规则也保留。其余参数的空缺不能通过示例填入。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-numerical-redesign-constraints.md#与当前构思的关系)
 
-数值重设计先提出战斗节奏与风险目标，再建立词卡、敌人和成长的候选参数及逐刻证据；详细工作表见[数值重设计任务](../../docs/numerical-redesign.md)。参数设计与试玩验证尚未完成。
+<a id="使用记录"></a>
 
-## 设计对象与 GDD 映射
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-numerical-redesign-constraints.md#使用记录)
 
-- 作用对象：战斗与成长数值的设计约束。
-- 目标 GDD：尚未创建；建议章节为参数设计目标、成本收益与验证。
-- 对应完成度：GDD-0约束；GDD-1/2参数仍为Unknown。
+<a id="数值重新设计的范围与验证约束"></a>
 
-## 玩家处境、行为与反馈
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-numerical-redesign-constraints.md#数值重新设计的范围与验证约束)
 
-- 玩家用完整库存安排循环、覆盖和抗打断策略，并承担跨战生命损耗。
-- 数值需让速度、防御、状态消耗效果和成长收益产生可比较的取舍。
-- 设计者须区分库存持有、实际编入实体数和可用法杖数；不能把同一规模值填入不同资源。
-- 预期价值是参数服务于已确认玩法，体验与平衡保持Hypothesis。
+<a id="未知项与验证"></a>
 
-## 与当前构思的关系
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-numerical-redesign-constraints.md#未知项与验证)
 
-- 依赖[循环时间](M-2026-09-05-casting-time-and-interruption.md)、[实体分配](M-2026-09-05-word-inventory-and-copies.md)、[接口约束](M-2026-09-10-accepted-design-interfaces.md)。
-- 用户明确要求重新设计，C08中的具体数值建议不作为输入基线；来源仅供追溯。
-- 不包含具体新参数，不将待设计的多刻释放、召唤或镶嵌细则视为已决定。
+<a id="机制行为体验假设"></a>
 
-## 机制—行为—体验假设
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-numerical-redesign-constraints.md#机制行为体验假设)
 
-| Mechanics | Dynamics | Aesthetics |
-| --- | --- | --- |
-| 冷却由实际词卡贡献合成，释放独立定长 | 比较组合成本、覆盖和有效释放 | 清晰的节奏规划 |
-| 按当前规则重新建立成本与收益 | 在攻击、防御和成长之间取舍 | 有代价的持续成长 |
+<a id="玩家处境行为与反馈"></a>
 
-## 未知项与验证
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-numerical-redesign-constraints.md#玩家处境行为与反馈)
 
-| 未知项/风险 | 影响 | 下一步验证或决策方式 | 成功信号 | 失败信号 |
-| --- | --- | --- | --- | --- |
-| 目标战斗时长、容错和跨战压力 | 缺少参数评价尺度 | 先建立目标，再输出候选表 | 每个参数可对应设计目标 | 只凭示例值微调 |
-| 词卡时间与释放长度 | 有效释放率和覆盖 | 依R23改期与R24释放开始仲裁进行完整时序推演 | 起点和后续周期唯一可算 | 把冷却和完整周期混用 |
-| 攻防、收益、价格、规模 | 单一路线支配 | 同一公开遭遇下对照组合与成长 | 多种策略存在可解释取舍 | 无限拖延产出或某短句全面占优 |
+<a id="素材控制"></a>
 
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-numerical-redesign-constraints.md#素材控制)
 
-## 资格确认清单
+<a id="规范化表述"></a>
 
-- [x] 原始表达和触发来源可追溯。
-- [x] 设计对象或目标 GDD 章节明确。
-- [x] 玩家处境或设计功能明确。
-- [x] 玩家行为、可见影响或设计约束明确。
-- [x] 预期反馈、体验或设计价值明确。
-- [x] 与当前核心构思和已有系统的关系明确。
-- [x] 未知项与下一步验证/决策方式明确。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-numerical-redesign-constraints.md#规范化表述)
 
-## 使用记录
+<a id="设计对象与-gdd-映射"></a>
 
-| 日期 | GDD/Proposal/决定 | 章节/版本 | 处理结果 | 备注 |
-| --- | --- | --- | --- | --- |
-| 2026-09-10 | [接口采纳](../draft-changes/D-2026-09-10-accept-design-decisions.md) | Core Concept v0.6 | Included / Accepted | 用户明确采纳；体验证据Hypothesis；尚无正式GDD |
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-numerical-redesign-constraints.md#设计对象与-gdd-映射)
 
-2026-09-10：按[用户R01–R32全部采纳](../draft-changes/D-2026-09-10-semantic-world-executable-rules.md)同步本素材受影响表述；具体对象、词卡和参数仍按对应范围设计，证据Hypothesis。
+<a id="资格确认清单"></a>
 
-
-## 2026-09-14 全游戏GDD使用记录
-
-| 日期 | 目标与处理 | 当前适用边界 |
-| --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/09-validation-and-risks.md) | 纳入验证方法、记录与范围约束；旧数据只作历史。压力目标采用RG／UX，登记ID不代表全部旧效果入选。 |
-
-本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-10-numerical-redesign-constraints.md#资格确认清单)

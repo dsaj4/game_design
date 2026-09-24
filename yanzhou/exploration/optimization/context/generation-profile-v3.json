@@ -1,0 +1,72 @@
+{
+  "profile_id": "game-002-context-baseline",
+  "profile_version": 3,
+  "status": "Draft / SourceMappingIncomplete; no new pack activated",
+  "source_project_id": "game-002",
+  "destination_project_id": "game-002-optimization",
+  "source_root": "yanzhou",
+  "destination_root": "yanzhou/exploration/optimization/context",
+  "revision_policy": "explicit-full-git-commit",
+  "read_mode": "git-blob-bytes",
+  "follow_links": false,
+  "overwrite_existing_pack": false,
+  "sources": [
+    {
+      "path": "CONTEXT.md",
+      "role": "terminology-with-historical-scope",
+      "required": true
+    },
+    {
+      "path": "design/core-concept.md",
+      "role": "formal-adoption-state",
+      "required": true
+    },
+    {
+      "path": "governance/decision-log.md",
+      "role": "decision-authority",
+      "required": true
+    },
+    {
+      "path": "sources/materials/README.md",
+      "role": "qualified-material-index",
+      "required": true
+    },
+    {
+      "path": null,
+      "role": "qualified-work-baseline-not-accepted",
+      "required": true,
+      "legacy_source_path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md",
+      "mapping_status": "Unresolved; resolve explicitly before generation"
+    },
+    {
+      "path": null,
+      "role": "qualified-numerical-baseline-not-balanced",
+      "required": true,
+      "legacy_source_path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-core-numerical-framework-v01.md",
+      "mapping_status": "Unresolved; resolve explicitly before generation"
+    }
+  ],
+  "scope": "core-design-only",
+  "scope_note": "Extract design concepts, adopted decisions, qualified design baselines, and terminology. Do not load implementation, prototype evidence, current-question planning, or peripheral research indexes. Path layout v3 only; generate against an explicit commit containing yanzhou. The active v2 pack is unchanged.",
+  "forbidden_source_segments": [
+    "idea-inbox",
+    "raw-sources",
+    "archive",
+    ".git",
+    ".venv",
+    "node_modules"
+  ],
+  "external_repositories": "reference-only-no-read",
+  "additional_sources_policy": "explicit-file-list-and-new-profile-version",
+  "activation_requires": [
+    "all-required-sources-present",
+    "source-and-output-hashes-verified",
+    "claim-provenance-reviewed",
+    "conflicts-and-unknowns-recorded"
+  ],
+  "unresolved_sources": [
+    "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md",
+    "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-core-numerical-framework-v01.md"
+  ],
+  "generation_ready": false
+}

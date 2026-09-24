@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>言咒 · 视觉方向评审</title>
+<style>
+:root{--ink:#202629;--paper:#eee5d2;--brass:#b89b67;--red:#a44e42;--muted:#6c726b}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;line-height:1.65}button,a{touch-action:manipulation}button{font:inherit;cursor:pointer}a{color:inherit;text-underline-offset:4px}button:focus-visible,a:focus-visible{outline:3px solid #458f9e;outline-offset:5px}
+header{background:var(--ink);color:var(--paper);padding:46px max(5vw,24px) 34px;border-bottom:5px solid var(--brass)}.eyebrow{letter-spacing:.18em;font-size:12px;color:#c5b592;margin:0 0 10px}h1{font:500 clamp(30px,4vw,55px)/1.3 "SimSun",serif;letter-spacing:.06em;margin:0 0 16px}header p{max-width:780px;font-size:16px;color:#d5cfbf}header nav{display:flex;gap:24px;flex-wrap:wrap;margin-top:25px;font-size:14px}.badge{border:1px solid #748078;padding:3px 10px;color:#e4d7b9;font-size:12px;letter-spacing:0;margin-left:14px;vertical-align:middle}
+main{max-width:1480px;margin:auto;padding:30px max(3vw,22px) 50px}.recommendation{border-left:3px solid var(--red);padding:7px 18px;margin:0 0 26px}.recommendation strong{font-size:18px}.recommendation p{margin:4px 0 0;color:var(--muted);font-size:14px}.toolbar{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin-bottom:24px}.toolbar button{border:1px solid #bdb49e;background:transparent;padding:7px 17px;border-radius:2px}.toolbar button[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}.toolbar small{margin-left:auto;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 26px}.card{background:#f8f3e8;border:1px solid #d7cdb9;box-shadow:0 4px 14px #20262908}.imageButton{display:block;border:0;padding:0;width:100%;background:#202629;position:relative;overflow:hidden;aspect-ratio:1672/941}.imageButton img{display:block;width:100%;height:100%;object-fit:contain;transition:transform .18s ease}.imageButton:hover img{transform:scale(1.015)}.imageButton span{position:absolute;right:12px;bottom:12px;background:#202629e8;color:#fff;padding:3px 10px;font-size:12px}.info{padding:17px 20px 20px}.meta{display:flex;align-items:baseline;gap:10px}.number{color:var(--red);font:600 14px monospace}.info h2{font-size:19px;font-weight:600;margin:0}.tag{font-size:11px;color:var(--muted);margin-left:auto;white-space:nowrap}.info p{font-size:14px;margin:8px 0;color:#565f5d}.info .note{color:#796b57;font-size:12px}.imageLink{font-size:12px}.empty{padding:40px}
+.review-note{margin-top:32px;padding:22px 25px;background:#e3dac6;border-top:1px solid #bfb198}.review-note h2{margin:0 0 8px;font-size:19px}.review-note p{margin:5px 0;font-size:14px;color:#59605b}footer{margin-top:28px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+dialog{width:min(97vw,1800px);max-width:none;max-height:97vh;border:1px solid #837354;padding:0;background:#151a1d;color:#eee5d2}dialog::backdrop{background:#080d10e8}.dialogbar{display:flex;align-items:center;gap:14px;padding:12px 18px}.dialogbar h2{font-size:17px;margin:0;flex:1}.dialogbar button{background:#303a3f;color:#eee5d2;border:1px solid #727b7b;padding:5px 13px}.fullimage{display:block;max-width:100%;max-height:77vh;margin:auto;object-fit:contain}.dialogcaption{font-size:13px;padding:8px 20px 16px;color:#c4c5bd;margin:0}
+@media(max-width:760px){.grid{grid-template-columns:1fr}.toolbar small{width:100%;margin-left:0}.badge{display:inline-block;margin-left:0;margin-top:12px}header{padding:30px 22px}main{padding-top:24px}.dialogbar{flex-wrap:wrap}.dialogbar h2{flex-basis:70%}.tag{font-size:10px}.dialogcaption{font-size:12px}}@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+<p class="eyebrow">GAME–002 / VISUAL REVIEW / 2026.09.19</p>
+<h1>言咒 · 可以摆弄的法术工坊 <span class="badge">05紧凑暗面 · 已选定</span></h1>
+<p>墨色石台、羊皮纸词卡、旧木与黄铜。六张新图，比较场景触感与信息布局。全部依据 RC1 文字制作，未查看仓库已有示例图。</p>
+<nav aria-label="评审资料"><a href="http://127.0.0.1:8877/">试玩独立Demo ↗</a><a href="style-guide.md">简明风格文档 ↗</a><a href="gdd-reading-notes.md">GDD 阅读对照 ↗</a><a href="qa-notes.md">逐图质量记录 ↗</a></nav>
+</header>
+<main>
+<div class="recommendation"><strong>已选定 05 的紧凑暗面，并据此制作独立 Demo v0.1。</strong><p>当前主方向是深炭面板、灰金文字、紧凑词槽与集中详情。其余图片保留为历史对照。</p></div>
+<div class="toolbar" role="group" aria-label="筛选图片"><button type="button" aria-pressed="true" data-filter="all">全部 6 张</button><button type="button" aria-pressed="false" data-filter="main">本作参考 01–03</button><button type="button" aria-pressed="false" data-filter="study">方案对照 04–06</button><small>点图放大 · 左右键切换 · Esc 返回</small></div>
+<div id="gallery" class="grid" aria-live="polite"></div>
+<section class="review-note"><h2>当前选择与试玩</h2><p>用户已选05紧凑暗面。可从顶部“试玩独立Demo”进入真实构句、战斗、路线和获取流程。</p><p>图片用于视觉评审，尚无真实交互。图中的装饰、小字与路线连线不能代替 GDD；已发现的问题和定点修订均有记录。</p><p>玩法基线：战前编排、最多四杖、2×5自动战斗、原因可查、完整单局。当前已交付独立Demo v0.1，完整RC1验收仍未完成。</p></section>
+<footer><span>基于《言咒》全游戏 GDD RC1 · 设计已采纳，平衡与体验仍待验证</span><a href="source-manifest.json">来源版本与生成记录</a></footer>
+</main>
+<dialog id="lightbox" aria-labelledby="dialogTitle"><div class="dialogbar"><h2 id="dialogTitle"></h2><button id="previous" type="button" aria-label="上一张">←</button><button id="next" type="button" aria-label="下一张">→</button><button id="close" type="button">关闭 ×</button></div><img id="fullimage" class="fullimage" alt=""><p id="dialogCaption" class="dialogcaption"></p></dialog>
+<script>
+const items=[
+{n:'01',group:'main',title:'第一人称战斗',file:'images/01-battle.png',tag:'主方向 · 战斗',text:'两排五格石台，场景居中；法杖配置与共同刻轴留在两侧。首战第0刻前的锁定初态。',note:'比较视角与阅读比例；同款原木杖的造型差异只作装饰。'},
+{n:'02',group:'main',title:'战前法术编排',file:'images/02-assembly.png',tag:'主方向 · 推荐布局',text:'左侧实体库存，中央四句与四杖，右侧范围和名义时序。明亮纸面承载主要决策。',note:'9/12词已配置、4/4出战；完整编辑按钮需在Demo中补齐。'},
+{n:'03',group:'main',title:'路线桌面',file:'images/03-route-v2.png',tag:'主方向 · 地图',text:'红线纸地图、法师木雕、后沿长法杖袋。桌面的实物入口与文字入口并存。',note:'19节点布局候选；精确可达连接以RC1路线表为准。'},
+{n:'04',group:'study',title:'更强的实体桌面感',file:'images/04-inscryption-study.png',tag:'借鉴 Inscryption',text:'取低视点、暖侧光、木桌与卡纸触感，将对战牌桌改编成四杖编排台。',note:'参考改编图；图标、装饰宝石与试法靶不代表新增机制。'},
+{n:'05',group:'study',title:'更紧凑的装配界面',file:'images/05-noita-study-v2.png',tag:'借鉴 Noita',text:'取法杖清单、横向词卡槽、集中详情和较高信息密度；采用本作实体与时序规则。',note:'概念借鉴，不是原游戏截图复刻；空间范围已修订为2×5。'},
+{n:'06',group:'study',title:'休整 · 选择一个词',file:'images/06-slay-the-spire-study.png',tag:'借鉴 Slay the Spire',text:'背景压暗，三张候选占据中心；大词名、词性、短规则和单一确认焦点。',note:'采用本作休整拿词流程；生命和金币为界面示意值。'}
+];
+const gallery=document.getElementById('gallery'),dialog=document.getElementById('lightbox');let active=0,returnFocus=null;
+function render(filter='all'){gallery.replaceChildren();items.forEach((item,i)=>{if(filter!=='all'&&item.group!==filter)return;const card=document.createElement('article');card.className='card';const button=document.createElement('button');button.type='button';button.className='imageButton';button.setAttribute('aria-label','放大 '+item.n+' '+item.title);const img=document.createElement('img');img.src=item.file;img.alt=item.title+'：'+item.text;img.loading='lazy';button.append(img);const zoom=document.createElement('span');zoom.textContent='放大查看 ↗';button.append(zoom);button.addEventListener('click',()=>{returnFocus=button;show(i);dialog.showModal();});const info=document.createElement('div');info.className='info';const meta=document.createElement('div');meta.className='meta';const num=document.createElement('span');num.className='number';num.textContent=item.n;const title=document.createElement('h2');title.textContent=item.title;const tag=document.createElement('span');tag.className='tag';tag.textContent=item.tag;meta.append(num,title,tag);const description=document.createElement('p');description.textContent=item.text;const note=document.createElement('p');note.className='note';note.textContent=item.note;const link=document.createElement('a');link.className='imageLink';link.href=item.file;link.target='_blank';link.rel='noopener';link.textContent='打开原尺寸图片';info.append(meta,description,note,link);card.append(button,info);gallery.append(card);});}
+function show(i){active=(i+items.length)%items.length;const item=items[active];document.getElementById('dialogTitle').textContent=item.n+' / '+item.title;const img=document.getElementById('fullimage');img.src=item.file;img.alt=item.title;document.getElementById('dialogCaption').textContent=item.text+' '+item.note;}
+document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(other=>other.setAttribute('aria-pressed',String(other===button)));render(button.dataset.filter);}));
+document.getElementById('previous').addEventListener('click',()=>show(active-1));document.getElementById('next').addEventListener('click',()=>show(active+1));document.getElementById('close').addEventListener('click',()=>dialog.close());dialog.addEventListener('close',()=>returnFocus?.focus());dialog.addEventListener('keydown',event=>{if(event.key==='ArrowLeft'){event.preventDefault();show(active-1);}if(event.key==='ArrowRight'){event.preventDefault();show(active+1);}});render();
+</script>
+</body>
+</html>

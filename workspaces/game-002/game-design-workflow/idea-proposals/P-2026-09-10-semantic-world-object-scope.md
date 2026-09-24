@@ -1,46 +1,43 @@
-# 语义世界对象范围提案
+# 语义世界对象范围提案（已迁移）
 
-本页保留SW01阶段的提案/评估范围；当时未决的框架随后按[R01–R32](../idea-materials/M-2026-09-10-semantic-world-executable-rules.md)全部采纳。当前内容设计与验证入口见[执行规则提案](P-2026-09-10-semantic-world-executable-rules.md)。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-状态：Proposal；SW01范围已确认，具体机制待设计。证据：Hypothesis。
+[打开新位置](../../../../yanzhou/sources/proposals/P-2026-09-10-semantic-world-object-scope.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-## 提案名称
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-让实体、关系与过程共同进入法术的可操作对象范围。
+<a id="为什么可能好玩"></a>
 
-## 来源想法
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-semantic-world-object-scope.md#为什么可能好玩)
 
-唯一设计来源：[合格范围素材](../idea-materials/M-2026-09-10-semantic-world-object-scope.md)。引用其对象类别、按能力开放操作和基础规则固定的边界；不引用inbox未确认的动词、绑定或连锁方案。
+<a id="可能的同类参考"></a>
 
-## 核心玩法假设
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-semantic-world-object-scope.md#可能的同类参考)
 
-如果玩家可以用可复用词义表达对实体、状态、关系和过程的作用，并能理解句子自动产生的结果，那么战前构筑可能获得更大的表达空间。飞行物、攻击和冷却进入可操作设计范围，胜负判定与全局结算顺序保持固定。
+<a id="当前疑问"></a>
 
-## 玩家会做什么
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-semantic-world-object-scope.md#当前疑问)
 
-- 主要动作：从完整库存构句，以对象的结构和能力规划作用。
-- 次要动作：观察自动战斗的结果，调整下一场配置。
-- 决策点：词义如何利用当前对象及过程；具体引用和操作选择须由后续机制支持。
-- 反馈方式：世界对象发生对应变化，玩家能把结果与句子联系起来。
+<a id="提案名称"></a>
 
-## 为什么可能好玩
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-semantic-world-object-scope.md#提案名称)
 
-同一词义可以作用于不同层面的战斗内容，玩家的关注点由单位状态延伸到关系与正在发生的作用。实际的有效组合数量、策略取舍和理解成本尚未验证。
+<a id="最小可验证原型"></a>
 
-## 最小可验证原型
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-semantic-world-object-scope.md#最小可验证原型)
 
-- 原型形式：引用与过程机制确认后的纸面场景；本次尚未执行。
-- 需要验证的核心问题：能否找到对象、在作用完成前介入，并解释下一次法术读取的结果。
-- 成功信号：代表句的对象、条件、结果及后续状态明确，可以迁移到同能力对象。
-- 失败信号：过程没有可介入时段、必须隐藏换目标，或依赖整句特例。
-- 范围限制：先选择一个实体、一个附着状态和一个过程，不展开完整数值系统。
+<a id="来源想法"></a>
 
-## 可能的同类参考
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-semantic-world-object-scope.md#来源想法)
 
-- 产品/玩法：Unknown；本次依据项目文档和用户决定，不引入产品比较结论。
-- 相似点：Unknown。
-- 差异点：Unknown。
+<a id="核心玩法假设"></a>
 
-## 当前疑问
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-semantic-world-object-scope.md#核心玩法假设)
 
-SW02引用模型已由[两种绑定提案](P-2026-09-10-instance-and-conditional-binding.md)及其采纳明确；SW02-A单次名单随后已确认；排序与SW03–SW07细则仍待设计，见[决定清单](../../docs/design-decisions-needed.md)。已确认的范围无法独立证明完整系统可玩；[评估](../evaluations/E-2026-09-10-semantic-world-object-scope.md)保留范围阶段的判断。
+<a id="玩家会做什么"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-semantic-world-object-scope.md#玩家会做什么)
+
+<a id="语义世界对象范围提案"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-semantic-world-object-scope.md#语义世界对象范围提案)

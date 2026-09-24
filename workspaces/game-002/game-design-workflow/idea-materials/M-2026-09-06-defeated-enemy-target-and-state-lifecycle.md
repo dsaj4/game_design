@@ -1,93 +1,51 @@
-# 敌人击败后的对象与状态
+# 敌人击败后的对象与状态（已迁移）
 
-状态：Qualified GDD Material。证据：Hypothesis。资格覆盖下列明确表述；具体后置机制与参数保持 Unknown，素材可引用不等于完整系统已采纳或通过验证。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 素材控制
+[打开新位置](../../../../yanzhou/sources/materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-| 字段 | 内容 |
-| --- | --- |
-| 素材 ID | MAT-2026-09-06-defeated-enemy-target-and-state-lifecycle |
-| 素材类型 | Mechanic / System / Constraint |
-| 来源 inbox | [来源入口](../idea-inbox/2026-09-05-yanzhou-core-combat.md) |
-| 原始确认 | [原始记录](../../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md) |
-| 资格确认日期 | 2026-09-06；适用范围复核2026-09-10 |
-| 确认方式 | grill-with-docs：依据用户确认记录、当前核心及文档统一授权复核 |
-| 当前证据状态 | Hypothesis |
-| 负责人 | 用户决定设计，agent维护表述与来源 |
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 规范化表述
+<a id="2026-09-14-全游戏gdd使用记录"></a>
 
-普通敌人生命耗尽时立即失去存活单位操作资格；完整事件后的检查点处理击败、离场与状态清理，取消尚未执行的攻击与后续安排。完整事件内后续步骤不能继续把归零对象当存活单位，已合法结果保留。死亡产物、成功通知与收益的相对顺序须随涉及内容明确，未声明不能补造终局后收集，见[GR v1](M-2026-09-11-global-rule-boundaries.md)的GR06。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md#2026-09-14-全游戏gdd使用记录)
 
-被击败敌人的单位身份及原单位作用资格失效；其附着状态清除，取消尚未执行的周期和到期。R17允许内容明示生成具有独立身份、状态与明示能力的遗体或残留物作为环境对象，不继承原攻击或专属引用，也不自动复制原附着状态。未明示产物时不凭演出生成可操作对象。当前不开放遗体材料供给或加工；成为掉卡对象须另有明确收集词义。
+<a id="与当前构思的关系"></a>
 
-清除不算自然到期，不补发末次周期，不转移状态，也不撤销已经造成的结果。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md#与当前构思的关系)
 
-该敌人施加于其他有效对象的状态默认继续依宿主规则运行；明确依赖来源存活的效果须单独声明。
+<a id="使用记录"></a>
 
-敌人失效后，对它的实例绑定每次释放跳过该对象且不自动改指向，失效尝试仍有释放特效；其他合法对象继续处理。条件绑定按每次释放的当前世界匹配，已失效敌人不因曾经符合条件而保留资格，名单细则见[SW02引用规则](M-2026-09-10-instance-and-conditional-binding.md)。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md#使用记录)
 
-若其击败使胜利成立，立即停止整场其余处理，不再等待任何法术到点。
+<a id="敌人击败后的对象与状态"></a>
 
-## 设计对象与 GDD 映射
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md#敌人击败后的对象与状态)
 
-- 作用对象：敌人击败后的对象与状态。
-- 目标 GDD：尚未创建；作为相应系统、规则边界及验证章节的素材。
-- 对应完成度：GDD-0 / GDD-1 素材输入；具体内容与参数需另行确认。
+<a id="未知项与验证"></a>
 
-## 玩家处境、行为与反馈
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md#未知项与验证)
 
-- 玩家处境：依据库存、场景与公开攻击安排进行战前选择，观察自动战斗，再处理战后及路线决定。
-- 玩家可见信息：本素材规范化表述中的条件、对象和结果；具体界面呈现待验证。
-- 行为与反馈：通过上述规则判断资源、时间或对象关系；验证情境为“让一个敌人先被击败，检查自身状态消失、外部状态保留、其攻击被取消和其他目标继续处理。”
-- 预期价值：玩家能解释选择如何改变后续结果；实际策略价值仍为Hypothesis。
+<a id="机制行为体验假设"></a>
 
-## 与当前构思的关系
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md#机制行为体验假设)
 
-- 核心依据：[Core Concept v0.6](../core-concept.md)，支持战前配置、自动循环与可推导语义。
-- 相关系统：[素材索引](README.md)按主题列出依赖；[领域词汇](../../CONTEXT.md)统一概念。
-- 已确认处理范围：[无未决规则冲突；具体内容与体验仍待验证](../../docs/design-decisions-needed.md)。
-- 明确边界：本文不补齐未决的具体效果、参数、资源权限或额外玩家操作，也不作为实现完成证明。
+<a id="玩家处境行为与反馈"></a>
 
-## 机制—行为—体验假设
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md#玩家处境行为与反馈)
 
-| 规则 | 可能行为 | 目标体验 |
-| --- | --- | --- |
-| 普通敌人在完整事件后的检查点生命耗尽即被击败，取消尚未执行的攻击与后续安排。 | 依据明确约束比较方案及其后果 | 可预测且可解释的选择 |
+<a id="素材控制"></a>
 
-## 未知项与验证
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md#素材控制)
 
-| 未知或风险 | 影响 | 下一步 | 成功信号 | 失败信号 |
-| --- | --- | --- | --- | --- |
-| 明示遗体的具体条目与来源依赖效果待设计；特殊复活继续后置。 | 影响完整设计与效果可解释性 | 让一个敌人先被击败，检查自身状态消失、外部状态保留、其攻击被取消和其他目标继续处理。 | 玩家可预测结果，关键情境有唯一裁定 | 结果依赖未确认规则，或一类选择长期无价值 |
+<a id="规范化表述"></a>
 
-## 资格确认清单
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md#规范化表述)
 
-- [x] 原始表达与用户确认可追溯。
-- [x] 设计对象与章节用途明确。
-- [x] 玩家处境或设计功能明确。
-- [x] 当前规范化表述的行为、可见影响或约束明确。
-- [x] 预期价值明确，验证状态如实保留。
-- [x] 与核心及处理范围的关系明确。
-- [x] 未知项与下一步验证方式明确。
+<a id="设计对象与-gdd-映射"></a>
 
-## 使用记录
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md#设计对象与-gdd-映射)
 
-2026-09-10：按[SW02两种引用采纳](../draft-changes/D-2026-09-10-instance-and-conditional-binding.md)同步引用范围；随后按[SW02-A名单采纳](../draft-changes/D-2026-09-10-single-release-target-list.md)明确每次开始处理时的直接名单，本次不追加、重选或补位，逐对象检查当前合法性与材料。后续R01–R32已全部采纳，排序与交互框架见[R01–R32执行规则](M-2026-09-10-semantic-world-executable-rules.md)，证据Hypothesis。
+<a id="资格确认清单"></a>
 
-| 日期 | 目标 | 处理结果 | 边界 |
-| --- | --- | --- | --- |
-| 2026-09-10 | [设计文档统一](../draft-changes/D-2026-09-10-current-design-alignment.md) | Included：明确表述部分 | 原始使用与确认记录从来源快照追溯；当前处理范围见接口采纳记录，尚无GDD |
-
-2026-09-10：按[用户R01–R32全部采纳](../draft-changes/D-2026-09-10-semantic-world-executable-rules.md)同步本素材受影响表述；具体对象、词卡和参数仍按对应范围设计，证据Hypothesis。
-
-2026-09-11：按[全局规则审查](../../docs/global-rules-audit-2026-09-11.md)统一现用表述，依据G002-CORE-011与现行R17；仅纠正与现行决定不一致的措辞，没有新增玩法或测试结论。
-
-
-## 2026-09-14 全游戏GDD使用记录
-
-| 日期 | 目标与处理 | 当前适用边界 |
-| --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/03-combat-and-status.md) | 保留现行身份、时序、成功及费用框架；旧具体例和参数只在RC1仍适用时使用。 |
-
-本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md#资格确认清单)

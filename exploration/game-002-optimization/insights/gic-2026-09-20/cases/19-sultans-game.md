@@ -1,39 +1,31 @@
-# T19 · 苏丹的游戏
+# T19 · 苏丹的游戏（已迁移）
 
-Project ID：`game-002-optimization`。状态：`Research / Provisional`。日期：2026-09-20。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 来源与证据边界
+[打开新位置](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/19-sultans-game.md) · [言咒项目入口](../../../../../yanzhou/README.md) · [迁移说明](../../../../../yanzhou/governance/layout-migration-report.md)
 
-来自 [GIC 档案馆](https://www.9cards.cn/gic/) 的 1 份记录；下列为该站原图地址，可按档案 ID 在站内检索。读取依据为公开网页内的 innovation_cn/en 正文；同站多记录不等于独立交叉验证。未观看视频、未玩原作、未核实当前版本或商业表现。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-- [26-2025-V-5-Sultan's Game](https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-V-5-Sultans-Game-Set.png)
+<a id="t19--苏丹的游戏"></a>
 
-## 吸收：来源实际描述了什么
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/19-sultans-game.md#t19--苏丹的游戏)
 
-档案描述限时命令压迫下调配角色和物资，同一要求可用不同路径达成并影响后续关系与处境。
+<a id="吸收来源实际描述了什么"></a>
 
-**输入—行动—输出—回流（本轮结构归纳）：**接到要求 → 在期限与资源中择法 → 完成并承受后果 → 调整下一次处境。
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/19-sultans-game.md#吸收来源实际描述了什么)
 
-**玩家为什么可能在意（推断）：**目标若要求玩家改变做法，已有资源会重新获得价值；并不需要每次再造一种动作。
+<a id="更新决定"></a>
 
-## 适配：与 RC1 的关系
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/19-sultans-game.md#更新决定)
 
-RC1 当前终局目标为击败敌人，环境操作主要服务攻防；额外任务可能使环境关系成为直接目的。
+<a id="未确认信息与下一步"></a>
 
-**保留结构：**C 在开战前公开并选择一项委托，如胜利时保留某棵树的火冰两类痕迹。
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/19-sultans-game.md#未确认信息与下一步)
 
-**不迁移／雷同与范围风险：**不加入成人宫廷题材、角色关系模拟或任务失败直接抹杀整局。
+<a id="来源与证据边界"></a>
 
-## 更新决定
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/19-sultans-game.md#来源与证据边界)
 
-C-v0 的强制生死任务改成 C-v1 可选、有明确放弃机会成本的附加目标。
+<a id="适配与-rc1-的关系"></a>
 
-去向：C。这是候选形成过程，不是 Qualified GDD Material 或正式 Evaluation。
-
-## 未确认信息与下一步
-
-额外目标是否分散核心构句体验，以及合适奖励强度，均未验证。
-
-下一步按[方向比较与验证](../directions.md)检查实际取舍；若需要准确复现原作，先补官方规则与当前版本证据，不用本档案替代规则书。
-
-[返回逐案索引](../case-index.md) · [流程](../workflow.md)
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/19-sultans-game.md#适配与-rc1-的关系)

@@ -1,39 +1,31 @@
-# T11 · 孤勇英豪
+# T11 · 孤勇英豪（已迁移）
 
-Project ID：`game-002-optimization`。状态：`Research / Provisional`。日期：2026-09-20。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 来源与证据边界
+[打开新位置](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/11-unstoppable.md) · [言咒项目入口](../../../../../yanzhou/README.md) · [迁移说明](../../../../../yanzhou/governance/layout-migration-report.md)
 
-来自 [GIC 档案馆](https://www.9cards.cn/gic/) 的 1 份记录；下列为该站原图地址，可按档案 ID 在站内检索。读取依据为公开网页内的 innovation_cn/en 正文；同站多记录不等于独立交叉验证。未观看视频、未玩原作、未核实当前版本或商业表现。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-- [26-2025-T-N-Unstoppable](https://www.9cards.cn/wp-content/uploads/2026/09/26-2025-T-N-Unstoppable-Set.png)
+<a id="t11--孤勇英豪"></a>
 
-## 吸收：来源实际描述了什么
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/11-unstoppable.md#t11--孤勇英豪)
 
-档案说明双面卡把玩家能力与敌人联系起来，升级一面也会影响另一面；未来敌人可见，击败后成为可用手牌。
+<a id="吸收来源实际描述了什么"></a>
 
-**输入—行动—输出—回流（本轮结构归纳）：**选择强化 → 同时改变未来敌人 → 面对自己制造的挑战 → 取得能力 → 再作强化取舍。
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/11-unstoppable.md#吸收来源实际描述了什么)
 
-**玩家为什么可能在意（推断）：**成长与遭遇可以成为同一个决定的两面，强奖励不再脱离它引出的难题。
+<a id="更新决定"></a>
 
-## 适配：与 RC1 的关系
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/11-unstoppable.md#更新决定)
 
-RC1 目前普通战斗只给金币，词卡来自起点、商店、休整；双面战利品是明确新增的渠道与路线规则。
+<a id="未确认信息与下一步"></a>
 
-**保留结构：**A 提供成对公开的“下一战敌情＋胜后词卡”，用现有卡与遭遇构成小型实验。
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/11-unstoppable.md#未确认信息与下一步)
 
-**不迁移／雷同与范围风险：**不引入无界连杀摸牌，也不承诺所有词卡都要设计对应敌人。
+<a id="来源与证据边界"></a>
 
-## 更新决定
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/11-unstoppable.md#来源与证据边界)
 
-A-v0 的全卡池双面化缩至 A-v1 的两组固定契约，先比较选挑战是否改变构筑。
+<a id="适配与-rc1-的关系"></a>
 
-去向：A。这是候选形成过程，不是 Qualified GDD Material 或正式 Evaluation。
-
-## 未确认信息与下一步
-
-奖励与挑战如何绑定才能避免总选对自己最有利的一组，尚无证据。
-
-下一步按[方向比较与验证](../directions.md)检查实际取舍；若需要准确复现原作，先补官方规则与当前版本证据，不用本档案替代规则书。
-
-[返回逐案索引](../case-index.md) · [流程](../workflow.md)
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/cases/11-unstoppable.md#适配与-rc1-的关系)

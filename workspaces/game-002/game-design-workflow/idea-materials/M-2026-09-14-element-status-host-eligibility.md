@@ -1,96 +1,55 @@
-# 燃烧／冰冻的宿主资格
+# 燃烧／冰冻的宿主资格（已迁移）
 
-> 状态：Qualified GDD Material；HG01已由用户采用，G002-CORE-030。证据Hypothesis／NotRun。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-## 素材控制
+[打开新位置](../../../../yanzhou/sources/materials/M-2026-09-14-element-status-host-eligibility.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-| 字段 | 内容 |
-| --- | --- |
-| 素材 ID | MAT-2026-09-14-element-status-host-eligibility |
-| 素材类型 | System / Content / Constraint |
-| 来源 inbox | [宿主、范围与起始内容](../idea-inbox/2026-09-14-host-range-starting-content.md)，仅HG01 |
-| 资格确认日期 | 2026-09-14 |
-| 确认方式 | grill-with-docs；查BR02、元素共享层数及环境转化规则，用户选择“采用这版资格表（推荐）” |
-| 当前证据状态 | Hypothesis；新输入NotRun |
-| 负责人 | 用户裁决，Codex整理 |
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-## 规范化表述
+<a id="2026-09-14-全游戏gdd使用记录"></a>
 
-### HG01 燃烧／冰冻的宿主资格
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-14-element-status-host-eligibility.md#2026-09-14-全游戏gdd使用记录)
 
-| 宿主 | 燃烧／冰冻层数 | 伤害／增甲结算 | 环境阶段与转化 |
-| --- | --- | --- | --- |
-| 玩家 | 两者均可，仍只能同时一种元素状态 | 燃烧伤害、冰冻增甲；明确逆霜替换按原规则 | 不转元素；棋盘外不进入普通邻近名单 |
-| 存活敌人 | 两者均可，状态与固有属性分开 | 燃烧伤害、冰冻增甲；实际伤害先护甲后生命 | 不作为环境转元素；生命耗尽按死亡规则 |
-| 树木及其保留形态 | 两者均可 | 无生命和护甲，不结算这两种攻防收益 | 层数用于形态阈值、汲取、抵消；合格覆盖下可按对应阈值转元素 |
-| 草地及其保留形态 | 两者均可 | 无生命和护甲，不结算攻防收益 | 层数用于形态阈值、汲取、抵消；地面始终不转占位元素 |
-| 普通石地 | 均不接受 | 不生成状态、生命或护甲 | 保留地面，不转元素 |
-| 火焰／冰霜元素本体 | 自身对应状态为共享层数；异种按既有抵消／补生 | 无生命和护甲，不结算自身燃烧伤害或冰冻增甲 | 归零消散；继承、来源及补生沿CORE-025–028 |
+<a id="hg01-燃烧冰冻的宿主资格"></a>
 
-层数有明确用途，接受状态不等于具备所有结果能力。无生命／护甲宿主跳过状态攻防结果，仍处理合法层数消耗、抵消及自然衰减。冰冻或燃烧清空不撤销已达到环境形态。状态名词可以引用合格环境上的对应状态，不因此获得未持有的树木／草地名词、环境材料加工或传播能力。
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-14-element-status-host-eligibility.md#hg01-燃烧冰冻的宿主资格)
 
-本表规定状态接受资格与结果能力；实际施加仍须满足当前词义、阵营过滤、作用范围和来源规则。树木、草地的具体形态名与阈值另表确定；HG01不设量值、不改固有属性或阵营。
+<a id="与当前构思的关系"></a>
 
-## 设计对象与 GDD 映射
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-14-element-status-host-eligibility.md#与当前构思的关系)
 
-- 作用对象：战场宿主、火冰状态、环境与元素。
-- 目标GDD：后续全游戏GDD Wiki，当前不写作。
-- 建议章节：战场对象／元素状态／内容资格表。
-- 对应完成度：GDD-1所需机制素材；本素材不单独构成GDD-1。
+<a id="使用记录"></a>
 
-## 玩家处境、行为与反馈
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-14-element-status-host-eligibility.md#使用记录)
 
-- 玩家处境：战前判断法术能影响哪些对象，并观察元素与地面状态。
-- 玩家看见：生命／护甲宿主与只承载层数的环境有明确区别；石地不显示不存在的火冰状态。
-- 玩家行为：在合法范围内选择元素生成、状态抵消或汲取，不能把环境层数当作环境生命或护甲。
-- 系统反馈：树木／草地显示状态及形态，玩家／敌人另显示实际攻防结果；元素显示共享层数。
-- 设计价值：保留环境互动，避免为了状态统一而增加虚假的环境攻防系统。
+<a id="未知项与验证"></a>
 
-## 与当前构思的关系
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-14-element-status-host-eligibility.md#未知项与验证)
 
-- 支持：可推导语义、时间与空间编排。
-- 依赖：[BR01／02／04](M-2026-09-13-pre-gdd-recommendation-batch.md)、[ST01–04](M-2026-09-13-end-tick-status-rulings.md)、[元素](M-2026-09-12-element-spell-archetype.md)、[首版空间与转化](M-2026-09-13-first-release-content-scope.md)。
-- 冲突处理：旧“具体宿主待定”由本表补齐；不得用早期环境拥有通用数量的表达追加生命或护甲。
-- 相关提案：[HG01提案](../idea-proposals/P-2026-09-14-element-status-host-eligibility.md)。
-- 明确不包含：HG02阵营对象表、WG01法杖范围、SG01起始资源及CG逐卡新接口；它们仍按各自选择状态处理。
+<a id="机制行为体验假设"></a>
 
-## 机制—行为—体验假设
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-14-element-status-host-eligibility.md#机制行为体验假设)
 
-| Mechanics：规则／约束 | Dynamics：可能行为 | Aesthetics：预期体验 |
-| --- | --- | --- |
-| 环境可持层、不可兑现攻防，石地不接受火冰 | 按地形与对象能力安排施加、汲取和转换 | 看到同一状态在不同宿主上的可解释用途 |
-| 元素与对应状态共享层数 | 区分维持元素与给敌人叠状态 | 能追踪消耗、归零与替换 |
+<a id="燃烧冰冻的宿主资格"></a>
 
-## 未知项与验证
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-14-element-status-host-eligibility.md#燃烧冰冻的宿主资格)
 
-| 未知项／风险 | 影响 | 下一步 | 成功信号 | 失败信号 |
-| --- | --- | --- | --- | --- |
-| 实际环境形态与阈值 | 转化速度与可读性 | 补PV04环境表，随后随整套参数验证 | 每个环境形态及终点可明确判断 | 状态已经达标却无已定义结果 |
-| 玩家可能误以为环境冰冻产甲 | 误配拆甲／汲取 | 后续用树、草、石地与单位对照教学 | 能解释草地冰冻可汲取但无护甲 | 把图标层数当环境生命或护甲 |
-| 实际法杖范围与逐卡角色尚未定稿 | 可表达组合依赖 | 审阅WG／CG，不由HG01补权限 | 正反例对齐各卡实际许可 | 一张状态名词被当作任意环境操作许可 |
+<a id="玩家处境行为与反馈"></a>
 
-## 资格确认清单
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-14-element-status-host-eligibility.md#玩家处境行为与反馈)
 
-- [x] 原始表达和来源可追溯。
-- [x] 设计对象与目标章节明确。
-- [x] 玩家处境明确。
-- [x] 可见影响与约束明确。
-- [x] 设计价值明确。
-- [x] 与既有系统的关系明确。
-- [x] 未知项及下一步明确。
+<a id="素材控制"></a>
 
-## 使用记录
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-14-element-status-host-eligibility.md#素材控制)
 
-| 日期 | GDD/Proposal | 章节／版本 | 处理结果 | 备注 |
-| --- | --- | --- | --- | --- |
-| 2026-09-14 | [HG01提案](../idea-proposals/P-2026-09-14-element-status-host-eligibility.md) | HG01 | Included | 资格与结果能力 |
-| 2026-09-14 | [采纳文本](../draft-changes/D-2026-09-14-element-status-host-eligibility.md) | G002-CORE-030 | Included／Accepted | 用户已选择；未写新GDD |
+<a id="规范化表述"></a>
 
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-14-element-status-host-eligibility.md#规范化表述)
 
-## 2026-09-14 全游戏GDD使用记录
+<a id="设计对象与-gdd-映射"></a>
 
-| 日期 | 目标与处理 | 当前适用边界 |
-| --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../gdd/GDD-2026-09-14-yanzhou-full-game.md)：Include；[实际章节](../gdd/yanzhou-rc1/04-elements-and-environment.md) | 保留空间、可见变化与宿主资格；具体出生、阈值、身份、固定名单依CORE-020–034替换旧BF候选。 |
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-14-element-status-host-eligibility.md#设计对象与-gdd-映射)
 
-本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。
+<a id="资格确认清单"></a>
+
+[对应正文](../../../../yanzhou/sources/materials/M-2026-09-14-element-status-host-eligibility.md#资格确认清单)

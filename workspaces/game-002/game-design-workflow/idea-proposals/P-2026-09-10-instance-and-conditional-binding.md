@@ -1,45 +1,43 @@
-# 实例绑定与条件绑定提案
+# 实例绑定与条件绑定提案（已迁移）
 
-本页保留SW02与SW02-A阶段的提案/评估范围；当时未决的框架随后按[R01–R32](../idea-materials/M-2026-09-10-semantic-world-executable-rules.md)全部采纳。当前内容设计与验证入口见[执行规则提案](P-2026-09-10-semantic-world-executable-rules.md)。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-状态：Proposal；SW02模型与SW02-A单次名单已确认，完整交互待设计。证据：Hypothesis。
+[打开新位置](../../../../yanzhou/sources/proposals/P-2026-09-10-instance-and-conditional-binding.md) · [言咒项目入口](../../../../yanzhou/README.md) · [迁移说明](../../../../yanzhou/governance/layout-migration-report.md)
 
-## 提案名称
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-保留精确对象引用，同时允许战前固定条件匹配战中新生对象。
+<a id="为什么可能好玩"></a>
 
-## 来源想法
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-instance-and-conditional-binding.md#为什么可能好玩)
 
-[实例绑定与条件绑定合格素材](../idea-materials/M-2026-09-10-instance-and-conditional-binding.md)。包含用户随后确认的SW02-A单次名单边界；排序及其他inbox候选仍不作为规则。
+<a id="可能的同类参考"></a>
 
-## 核心玩法假设
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-instance-and-conditional-binding.md#可能的同类参考)
 
-如果玩家能区分“持续作用于这个对象”和“作用于当前符合条件的对象”，就可能用固定战前配置表达对变化世界的应对，同时维持清晰的对象身份。
+<a id="实例绑定与条件绑定提案"></a>
 
-## 玩家会做什么
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-instance-and-conditional-binding.md#实例绑定与条件绑定提案)
 
-- 主要动作：在允许的表达中配置实例绑定或条件绑定。
-- 次要动作：观察实际作用对象，调整下一场方案。
-- 决策点：精确指向与条件匹配的适用情境。
-- 反馈方式：解释此次对象为何符合条件，或某个实例为何失效；呈现细节待设计。
+<a id="当前疑问"></a>
 
-## 为什么可能好玩
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-instance-and-conditional-binding.md#当前疑问)
 
-条件绑定使飞行物、残留物和后续单位能够进入法术表达；实例绑定保留针对某个对象的持续安排。策略价值需要结合具体词义、代价和作用窗口验证。
+<a id="提案名称"></a>
 
-## 最小可验证原型
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-instance-and-conditional-binding.md#提案名称)
 
-- 原型形式：按已确认名单边界走查新生、失效、条件变化和同名补位的纸面场景。
-- 核心问题：同名替换、新生对象及本次产生对象能否得到唯一解释。
-- 成功信号：不同引用结果可由配置和世界状态推导。
-- 失败信号：身份被暗中替换，或一次释放无法确定处理范围。
-- 当前状态：尚无可玩原型或玩家测试。
+<a id="最小可验证原型"></a>
 
-## 可能的同类参考
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-instance-and-conditional-binding.md#最小可验证原型)
 
-- 产品/玩法：Unknown；本轮未做产品研究。
-- 相似点与差异点：未评估。
+<a id="来源想法"></a>
 
-## 当前疑问
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-instance-and-conditional-binding.md#来源想法)
 
-SW02模型与SW02-A单次名单已确认：完整法术开始处理时确定直接名单，本次不重选、追加或补位，逐对象仍读取当前合法性与材料，新符合条件对象留到后续释放。排序、重复引用与具体条件表达等见[剩余决策总表](../idea-inbox/2026-09-10-semantic-world-remaining-decisions.md)。采纳见[评估](../evaluations/E-2026-09-10-instance-and-conditional-binding.md)、[模型采纳](../draft-changes/D-2026-09-10-instance-and-conditional-binding.md)与[名单采纳](../draft-changes/D-2026-09-10-single-release-target-list.md)。
+<a id="核心玩法假设"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-instance-and-conditional-binding.md#核心玩法假设)
+
+<a id="玩家会做什么"></a>
+
+[对应正文](../../../../yanzhou/sources/proposals/P-2026-09-10-instance-and-conditional-binding.md#玩家会做什么)

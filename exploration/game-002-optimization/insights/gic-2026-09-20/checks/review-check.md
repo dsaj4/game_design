@@ -1,22 +1,11 @@
-# 本轮文档检查
+# 本轮文档检查（已迁移）
 
-日期：2026-09-20。检查对象是研究文件及来源链；不代表玩法测试、平衡或用户体验通过。
+文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-| 检查 | 结果 |
-| --- | --- |
-| 24款独立研究卡 | PASS |
-| 40份深读档案唯一归属 | PASS |
-| 224份目录与深读来源闭合 | PASS |
-| 深读档案逐条登记一致 | PASS |
-| 3份设计来源文件与本轮哈希一致 | PASS |
-| UTF-8可读、JSON合法、无替换乱码 | PASS |
-| 本轮Markdown本地链接可解析 | PASS |
-| 24个来源编号均在笔记中 | PASS |
-| 逐案都有吸收/适配/更新/未知 | PASS |
-| 五候选保留Raw资格与模板审查 | PASS |
+[打开新位置](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/checks/review-check.md) · [言咒项目入口](../../../../../yanzhou/README.md) · [迁移说明](../../../../../yanzhou/governance/layout-migration-report.md)
 
-合计：10/10。
+此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
-另已通过材料包验证与[八模块结构检查](phase1-check.md)。本轮0场模拟、0个可玩原型、0位真人受试者。
+<a id="本轮文档检查"></a>
 
-人工核对：新渠道/初态/目标/布场/模式均标明与RC1差异；GIC描述、研究推断、agent候选分开；同站多档案不作独立证据；短摘要且未补全的条目未计入24款；原图与第三方原文在忽略目录，不随Git提交。
+[对应正文](../../../../../yanzhou/exploration/optimization/insights/gic-2026-09-20/checks/review-check.md#本轮文档检查)
