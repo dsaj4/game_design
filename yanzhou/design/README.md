@@ -25,7 +25,7 @@
 
 ## 当前状态
 
-原26组选择Closed / Accepted；AUD-010为本次发现的待消歧边界。完整RC1玩法／平衡／真人理解未完成验收。新探索保持独立：[方向索引](../exploration/optimization/directions/README.md)。
+原26组选择Closed / Accepted；AUD-010为本次发现的待消歧边界。完整RC1玩法／平衡／真人理解未完成验收。新探索保持独立：[方向索引](../exploration/README.md)。
 
 ## 系统之间怎样衔接
 

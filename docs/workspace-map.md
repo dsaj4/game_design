@@ -1,15 +1,15 @@
 # 工作区地图
 
-更新：2026-09-23。项目权限由对应AGENTS与探索注册表规定。
+更新：2026-09-24。项目权限由对应AGENTS与探索注册表规定。
 
 | Project ID | 根目录／入口 | 当前用途 | 默认 |
 | --- | --- | --- | --- |
 | game-002 | [yanzhou](../yanzhou/README.md) | 言咒RC1现行设计 | 是 |
-| game-002-optimization | [优化探索](../yanzhou/exploration/optimization/README.md) | 候选、方向索引、比较；逐方向固定背景 | 否 |
+| game-002-optimization | [优化探索](../yanzhou/exploration/README.md) | 候选、方向索引、比较；逐方向固定背景 | 否 |
 | new-roguelike | [独立肉鸽](../exploration/new-roguelike/README.md) | 自身空白背景，独立探索 | 否 |
 | core-card-project | archive/2026-09-05-core-card-project | Parked / Archived；默认不读不写 | 否 |
 
-W为yanzhou/；原职责路径按yanzhou/AGENTS.md映射到design、sources、governance及development。共享设计模板在根game-design-workflow/templates；探索项目P按[探索AGENTS](../exploration/AGENTS.md)映射，不套用W子树。
+W为yanzhou/；原职责路径按yanzhou/AGENTS.md映射到design、sources、governance及development。共享设计模板在根game-design-workflow/templates；探索项目P按注册表及项目本地AGENTS映射；言咒按[yanzhou探索AGENTS](../yanzhou/exploration/AGENTS.md)直接保存方向，不套用W子树。
 
 言咒当前问题唯一入口为W/governance/questions.md，现行GDD为W/design。根目录只导航，不复制项目规则或库存数。Markdown链接按文件所在位置解析。
 

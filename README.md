@@ -5,7 +5,7 @@
 | 入口 | 用途 |
 | --- | --- |
 | [言咒现行设计](yanzhou/design/README.md) | 七系统、53实体内容、参数与验收 |
-| [言咒探索方向](yanzhou/exploration/optimization/directions/README.md) | 独立候选、版本、关系与专题比较 |
+| [言咒探索方向](yanzhou/exploration/README.md) | 独立候选、版本、关系与专题比较 |
 | [独立肉鸽探索](exploration/new-roguelike/README.md) | 空白背景起点，不继承言咒 |
 | [项目地图](docs/workspace-map.md) | 路径与身份 |
 | [共享知识](docs/shared-knowledge.md) | 通用方法、模板与规则 |

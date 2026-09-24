@@ -6,7 +6,7 @@ Project ID：game-002。文档角色：OrganizationReport。日期：2026-09-23�
 
 - [现行正文](../../../design/README.md)：RC1 / doc.1，保留GDD的0–18章，拆分7系统及内容、参数、验证、来源分册。
 - [统一规范](../../../governance/document-contract.md)、[规则定位](../../../governance/rule-index.md)、[ID登记](../../../governance/id-registry.md)、[矛盾登记](../../../governance/conflict-register.md)：明确唯一维护位置、状态维度和变更约定。
-- [27探索方向](../../../exploration/optimization/directions/README.md)及[横向对比](../../../exploration/optimization/directions/comparison.md)：拆分10份原始记录中的独立候选，保存原ID及背景；[部分吸收记录](../../../exploration/optimization/directions/baseline-and-absorption.md)区分已有采纳、功能重合和未采纳增量。
+- [27探索方向](../../exploration-2026-09-24/directions/README.md)及[横向对比](../../exploration-2026-09-24/directions/comparison.md)：拆分10份原始记录中的独立候选，保存原ID及背景；[部分吸收记录](../../exploration-2026-09-24/directions/baseline-and-absorption.md)区分已有采纳、功能重合和未采纳增量。
 - [134效果追踪](../../../effects/README.md)：稳定FX身份链接现行实体与规则，完整历次语义和旧参数独立留存。
 - [开发索引](../../../development/README.md)、[测试交接](../../../development/test-handoff.md)、[视觉入口](../../../visual/README.md)、[历史](../../README.md)：设计与实现、局部证据分别阅读。
 

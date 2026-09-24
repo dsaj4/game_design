@@ -52,4 +52,9 @@
 
 ## layout.1物理路径
 
-game-002-optimization的P已迁到yanzhou/exploration/optimization/，读取限制、资格和目标回写要求全部保持；本探索总目录仍管理独立new-roguelike和共享方法。先按注册表选择P，不因旧兼容入口自动使用过时目录。
+game-002-optimization的P已迁到yanzhou/exploration/，读取限制、资格和目标回写要求全部保持；本探索总目录仍管理独立new-roguelike和共享方法。先按注册表选择P，不因旧兼容入口自动使用过时目录。
+
+
+## layout.2：言咒探索存储例外
+
+game-002-optimization的P为yanzhou/exploration/。用户已要求按方向保存必要构思，因此上文流程路径、P/directions与runs映射不适用于该项目；以[项目AGENTS](../yanzhou/exploration/AGENTS.md)为准。构思、问题和状态直接留在DIR文件夹README，正式材料确有需要时同文件夹存放。旧背景与研究在yanzhou/history/exploration-2026-09-24，不恢复旧流程树。new-roguelike继续按其本地规则和原有路径执行。

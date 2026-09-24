@@ -1,6 +1,6 @@
 # 文档职责与统一规范
 
-Project ID：game-002。治理状态：Accepted / Documentation；依据用户授权全量整理。更新：2026-09-23。
+Project ID：game-002。治理状态：Accepted / Documentation；依据用户授权全量整理。更新：2026-09-24。
 
 ## 权威来源
 
@@ -23,7 +23,7 @@ Project ID：game-002。治理状态：Accepted / Documentation；依据用户�
 | 效果登记、应用、历史修订 | effects/ | 关联规则和内容，不复制整套通用规则与价格 |
 | 规则验收预期 | GDD validation.md | 测试交接指定冻结输入，报告保留实际结果 |
 | 设计原因与替代范围 | decision-log及Draft Change | 当前正文直接陈述规则并链接来源 |
-| 探索候选 | exploration/optimization/ | 只经明确回写流程进入主系统 |
+| 探索候选 | exploration/各DIR方向文件夹 | 只经明确回写流程进入主系统 |
 
 ## 规则写法
 
@@ -53,3 +53,8 @@ Project ID：game-002。治理状态：Accepted / Documentation；依据用户�
 ## 系统间接口
 
 构句输出合法法术与引用条件；法杖输出锁定配置和空间／时间参数；战斗按阶段执行；元素系统提供对象变化结果；收益系统只在规定节点提交资源；交互提供查看和授权动作。图像、演出和代码的默认行为均不能新增规则。
+
+
+## 探索构思的轻量存储
+
+每个方向以README保存必要构思、问题、来源和阶段，comparison集中保留跨方向判断与吸收范围。正文摘录属于DirectionNote，不等于CurrentSpec。旧流程记录在history/exploration-2026-09-24；不在活动探索区恢复同名流程树。需要正式设计输出时才建立带类型ID的独立材料，资格与回写规则按exploration/AGENTS执行。

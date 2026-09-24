@@ -2,54 +2,54 @@
 
 文档角色：CompatibilityNavigation。目录修订layout.1 / 2026-09-23。
 
-[打开新位置](../../../yanzhou/exploration/optimization/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md) · [言咒项目入口](../../../yanzhou/README.md) · [迁移说明](../../../yanzhou/governance/layout-migration-report.md)
+[打开新位置](../../../yanzhou/history/exploration-2026-09-24/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md) · [言咒项目入口](../../../yanzhou/README.md) · [迁移说明](../../../yanzhou/governance/layout-migration-report.md)
 
 此路径只作旧链接兼容，不维护正文。历史提交及来源哈希仍按原日期/原路径解释。新写入按yanzhou/AGENTS.md；探索候选的资格与主系统回写权限不变。
 
 <a id="与当前构思的关系"></a>
 
-[对应正文](../../../yanzhou/exploration/optimization/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#与当前构思的关系)
+[对应正文](../../../yanzhou/history/exploration-2026-09-24/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#与当前构思的关系)
 
 <a id="使用记录"></a>
 
-[对应正文](../../../yanzhou/exploration/optimization/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#使用记录)
+[对应正文](../../../yanzhou/history/exploration-2026-09-24/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#使用记录)
 
 <a id="已明确的局部规则"></a>
 
-[对应正文](../../../yanzhou/exploration/optimization/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#已明确的局部规则)
+[对应正文](../../../yanzhou/history/exploration-2026-09-24/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#已明确的局部规则)
 
 <a id="抽象时序对照"></a>
 
-[对应正文](../../../yanzhou/exploration/optimization/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#抽象时序对照)
+[对应正文](../../../yanzhou/history/exploration-2026-09-24/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#抽象时序对照)
 
 <a id="未知项与验证"></a>
 
-[对应正文](../../../yanzhou/exploration/optimization/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#未知项与验证)
+[对应正文](../../../yanzhou/history/exploration-2026-09-24/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#未知项与验证)
 
 <a id="机制行为体验假设"></a>
 
-[对应正文](../../../yanzhou/exploration/optimization/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#机制行为体验假设)
+[对应正文](../../../yanzhou/history/exploration-2026-09-24/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#机制行为体验假设)
 
 <a id="玩家处境行为与反馈"></a>
 
-[对应正文](../../../yanzhou/exploration/optimization/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#玩家处境行为与反馈)
+[对应正文](../../../yanzhou/history/exploration-2026-09-24/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#玩家处境行为与反馈)
 
 <a id="素材控制"></a>
 
-[对应正文](../../../yanzhou/exploration/optimization/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#素材控制)
+[对应正文](../../../yanzhou/history/exploration-2026-09-24/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#素材控制)
 
 <a id="纵向时间背包的战前编排与循环调度"></a>
 
-[对应正文](../../../yanzhou/exploration/optimization/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#纵向时间背包的战前编排与循环调度)
+[对应正文](../../../yanzhou/history/exploration-2026-09-24/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#纵向时间背包的战前编排与循环调度)
 
 <a id="规范化表述"></a>
 
-[对应正文](../../../yanzhou/exploration/optimization/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#规范化表述)
+[对应正文](../../../yanzhou/history/exploration-2026-09-24/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#规范化表述)
 
 <a id="设计对象与-gdd-映射"></a>
 
-[对应正文](../../../yanzhou/exploration/optimization/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#设计对象与-gdd-映射)
+[对应正文](../../../yanzhou/history/exploration-2026-09-24/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#设计对象与-gdd-映射)
 
 <a id="资格确认清单"></a>
 
-[对应正文](../../../yanzhou/exploration/optimization/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#资格确认清单)
+[对应正文](../../../yanzhou/history/exploration-2026-09-24/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md#资格确认清单)

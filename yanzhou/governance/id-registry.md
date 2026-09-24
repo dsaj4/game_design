@@ -24,3 +24,6 @@
 历史原文不改号；当前decision-log用唯一ID并明确旧别名。新增ID前检查本表及所属登记。
 
 G002-DOC-006：yanzhou目录迁移，Accepted / Documentation；layout.1不等同玩法版本。
+
+
+G002-DOC-007：探索按方向简化，Accepted / Documentation；DIR-001–027保持原编号与Candidate ID，新增从下一未占用编号登记。

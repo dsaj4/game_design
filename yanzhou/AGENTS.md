@@ -25,15 +25,15 @@
 | docs/effect-registry/ | effects/ |
 | docs/governance/ | governance/ |
 | 研究问题、理论与案例 | 尚无项目研究树；需要时在research/按根职责建立，不凭目录补造材料 |
-| game-002优化探索 | exploration/optimization/，Project ID另为game-002-optimization |
+| game-002优化探索 | exploration/，Project ID另为game-002-optimization |
 
 共享设计模板仍只从[根登记清单](../game-design-workflow/templates/README.md)选择，共享规则及Git规范仍在仓库根docs/。Markdown链接按真实文件位置解析。
 
 ## 设计及证据边界
 
-- 新想法先入sources/inbox，Unknown保留；资格确认主动使用grill-with-docs，先查文档，一次一个关键问题。资格不等于采纳。
+- 主系统新想法先入sources/inbox；探索新想法按exploration/AGENTS直接写所属方向，Unknown保留；资格确认主动使用grill-with-docs，先查文档，一次一个关键问题。资格不等于采纳。
 - GDD使用统一模板，审查相关素材；Raw不能直接进入GDD/Proposal/Evaluation。明确采纳的范围不重复索要许可。
-- 改核心或规则先Draft Change并同步决策；本轮G002-DOC-006只改变目录，不新增CORE决定。
+- 改核心或规则先Draft Change并同步决策；G002-DOC-006/007只改变目录，不新增CORE决定。
 - design/是现行规则；sources/保留原日期决定；history/中的AGENTS和旧“当前”仅为历史材料，不覆盖本文件。
 - 参数与系统职责按governance/document-contract.md；FX仅作稳定身份与追踪，不另维护竞争规则。
 - 设计Accepted、Hypothesis/NotRun、实现进度分开记录。历史TH/CAL和Demo局部结果不得外推完整RC1或真人体验。

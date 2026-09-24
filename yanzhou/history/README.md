@@ -8,3 +8,6 @@
 - [本次目录迁移](../governance/layout-migration-report.md)
 
 旧机器清单中的路径和SHA描述当时工作树/固定提交，原样保留；当前路径对照使用governance/path-map.json。历史快照的可点击相对链接为阅读可达性作重定位，原始字节可从其原提交取得。固定背景包与原始来源数据不改字节。
+
+
+[2026-09-24探索旧流程档案](exploration-2026-09-24/README.md)：旧运行、问题、研究与固定背景；必要构思已提取到当前方向页。后续路径以[探索简化映射](../governance/exploration-path-map.json)衔接layout.1。

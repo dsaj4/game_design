@@ -26,135 +26,135 @@
 | [docs/workspace-map.md](../../../../docs/workspace-map.md) | Navigation / SupportingRecord | modified |
 | [exploration/AGENTS.md](../../../../exploration/AGENTS.md) | Governance | modified |
 | [exploration/README.md](../../../../exploration/README.md) | Navigation / SupportingRecord | modified |
-| [exploration/game-002-optimization/AGENTS.md](../../../exploration/optimization/AGENTS.md) | Governance | modified |
-| [exploration/game-002-optimization/README.md](../../../exploration/optimization/README.md) | Navigation / SupportingRecord | modified |
-| [exploration/game-002-optimization/context/README.md](../../../exploration/optimization/context/README.md) | LockedBackground / SourceRecord | retained |
-| [exploration/game-002-optimization/context/baseline-2026-09-09-001/context-pack.md](../../../exploration/optimization/context/baseline-2026-09-09-001/context-pack.md) | LockedBackground / SourceRecord | retained |
-| [exploration/game-002-optimization/context/baseline-2026-09-09-001/sources/CONTEXT.md](../../../exploration/optimization/context/baseline-2026-09-09-001/sources/CONTEXT.md) | LockedBackground / SourceRecord | retained |
-| [exploration/game-002-optimization/context/baseline-2026-09-09-001/sources/game-design-workflow/core-concept.md](../../../exploration/optimization/context/baseline-2026-09-09-001/sources/game-design-workflow/core-concept.md) | LockedBackground / SourceRecord | retained |
-| [exploration/game-002-optimization/context/baseline-2026-09-09-001/sources/game-design-workflow/decision-log.md](../../../exploration/optimization/context/baseline-2026-09-09-001/sources/game-design-workflow/decision-log.md) | LockedBackground / SourceRecord | retained |
-| [exploration/game-002-optimization/context/baseline-2026-09-09-001/sources/game-design-workflow/idea-materials/M-2026-09-07-core-numerical-framework-v01.md](../../../exploration/optimization/context/baseline-2026-09-09-001/sources/game-design-workflow/idea-materials/M-2026-09-07-core-numerical-framework-v01.md) | QualifiedSourceRecord | retained |
-| [exploration/game-002-optimization/context/baseline-2026-09-09-001/sources/game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md](../../../exploration/optimization/context/baseline-2026-09-09-001/sources/game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md) | QualifiedSourceRecord | retained |
-| [exploration/game-002-optimization/context/baseline-2026-09-09-001/sources/game-design-workflow/idea-materials/README.md](../../../exploration/optimization/context/baseline-2026-09-09-001/sources/game-design-workflow/idea-materials/README.md) | QualifiedSourceRecord | retained |
-| [exploration/game-002-optimization/context/baseline-2026-09-09-001/validation.md](../../../exploration/optimization/context/baseline-2026-09-09-001/validation.md) | LockedBackground / SourceRecord | retained |
-| [exploration/game-002-optimization/context/pack-generation-rules.md](../../../exploration/optimization/context/pack-generation-rules.md) | LockedBackground / SourceRecord | retained |
-| [exploration/game-002-optimization/directions/DIR-001.md](../../../exploration/optimization/directions/DIR-001.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-002.md](../../../exploration/optimization/directions/DIR-002.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-003.md](../../../exploration/optimization/directions/DIR-003.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-004.md](../../../exploration/optimization/directions/DIR-004.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-005.md](../../../exploration/optimization/directions/DIR-005.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-006.md](../../../exploration/optimization/directions/DIR-006.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-007.md](../../../exploration/optimization/directions/DIR-007.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-008.md](../../../exploration/optimization/directions/DIR-008.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-009.md](../../../exploration/optimization/directions/DIR-009.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-010.md](../../../exploration/optimization/directions/DIR-010.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-011.md](../../../exploration/optimization/directions/DIR-011.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-012.md](../../../exploration/optimization/directions/DIR-012.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-013.md](../../../exploration/optimization/directions/DIR-013.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-014.md](../../../exploration/optimization/directions/DIR-014.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-015.md](../../../exploration/optimization/directions/DIR-015.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-016.md](../../../exploration/optimization/directions/DIR-016.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-017.md](../../../exploration/optimization/directions/DIR-017.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-018.md](../../../exploration/optimization/directions/DIR-018.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-019.md](../../../exploration/optimization/directions/DIR-019.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-020.md](../../../exploration/optimization/directions/DIR-020.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-021.md](../../../exploration/optimization/directions/DIR-021.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-022.md](../../../exploration/optimization/directions/DIR-022.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-023.md](../../../exploration/optimization/directions/DIR-023.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-024.md](../../../exploration/optimization/directions/DIR-024.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-025.md](../../../exploration/optimization/directions/DIR-025.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-026.md](../../../exploration/optimization/directions/DIR-026.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/DIR-027.md](../../../exploration/optimization/directions/DIR-027.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/README.md](../../../exploration/optimization/directions/README.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/baseline-and-absorption.md](../../../exploration/optimization/directions/baseline-and-absorption.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/comparison.md](../../../exploration/optimization/directions/comparison.md) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/directions/registry.json](../../../exploration/optimization/directions/registry.json) | DirectionIndex / ResearchComparison | created |
-| [exploration/game-002-optimization/history/pre-organization/AGENTS.md](../../../exploration/optimization/history/pre-organization/AGENTS.md) | HistoricalSnapshot | created |
-| [exploration/game-002-optimization/history/pre-organization/README.md](../../../exploration/optimization/history/pre-organization/README.md) | HistoricalSnapshot | created |
-| [exploration/game-002-optimization/history/pre-organization/run-control.md](../../../exploration/optimization/history/pre-organization/run-control.md) | HistoricalSnapshot | created |
-| [exploration/game-002-optimization/idea-inbox/2026-09-09-battlefield-compiler-casting.md](../../../exploration/optimization/idea-inbox/2026-09-09-battlefield-compiler-casting.md) | RawSourceRecord | retained |
-| [exploration/game-002-optimization/idea-inbox/2026-09-09-spell-expedition-roguelike.md](../../../exploration/optimization/idea-inbox/2026-09-09-spell-expedition-roguelike.md) | RawSourceRecord | retained |
-| [exploration/game-002-optimization/idea-inbox/2026-09-09-timeline-backpack-spells.md](../../../exploration/optimization/idea-inbox/2026-09-09-timeline-backpack-spells.md) | RawSourceRecord | retained |
-| [exploration/game-002-optimization/idea-inbox/2026-09-10-spell-music.md](../../../exploration/optimization/idea-inbox/2026-09-10-spell-music.md) | RawSourceRecord | retained |
-| [exploration/game-002-optimization/idea-inbox/2026-09-10-timeline-mechanism-depth.md](../../../exploration/optimization/idea-inbox/2026-09-10-timeline-mechanism-depth.md) | RawSourceRecord | retained |
-| [exploration/game-002-optimization/idea-inbox/2026-09-14-rc1-strategy-depth.md](../../../exploration/optimization/idea-inbox/2026-09-14-rc1-strategy-depth.md) | RawSourceRecord | retained |
-| [exploration/game-002-optimization/idea-inbox/2026-09-14-timeline-battlefield.md](../../../exploration/optimization/idea-inbox/2026-09-14-timeline-battlefield.md) | RawSourceRecord | retained |
-| [exploration/game-002-optimization/idea-inbox/2026-09-14-timeline-construction.md](../../../exploration/optimization/idea-inbox/2026-09-14-timeline-construction.md) | RawSourceRecord | retained |
-| [exploration/game-002-optimization/idea-inbox/2026-09-20-gic-design-directions.md](../../../exploration/optimization/idea-inbox/2026-09-20-gic-design-directions.md) | RawSourceRecord | retained |
-| [exploration/game-002-optimization/idea-inbox/2026-09-20-strategic-run-and-meta-loops.md](../../../exploration/optimization/idea-inbox/2026-09-20-strategic-run-and-meta-loops.md) | RawSourceRecord | retained |
-| [exploration/game-002-optimization/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md](../../../exploration/optimization/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md) | QualifiedSourceRecord | retained |
-| [exploration/game-002-optimization/idea-materials/M-2026-09-10-spell-release-music.md](../../../exploration/optimization/idea-materials/M-2026-09-10-spell-release-music.md) | QualifiedSourceRecord | retained |
-| [exploration/game-002-optimization/insights/2026-09-09-casting-system-distinctive-directions-analysis.md](../../../exploration/optimization/insights/2026-09-09-casting-system-distinctive-directions-analysis.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/2026-09-09-roguelike-mode-fit-analysis.md](../../../exploration/optimization/insights/2026-09-09-roguelike-mode-fit-analysis.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/2026-09-09-timeline-backpack-similarity-review.md](../../../exploration/optimization/insights/2026-09-09-timeline-backpack-similarity-review.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/2026-09-10-spell-music-feasibility.md](../../../exploration/optimization/insights/2026-09-10-spell-music-feasibility.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/2026-09-14-rc1-strategy-source-record.md](../../../exploration/optimization/insights/2026-09-14-rc1-strategy-source-record.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/2026-09-14-timeline-cross-genre-research.md](../../../exploration/optimization/insights/2026-09-14-timeline-cross-genre-research.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/2026-09-20-strategic-loop-fit-and-sources.md](../../../exploration/optimization/insights/2026-09-20-strategic-loop-fit-and-sources.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/README.md](../../../exploration/optimization/insights/gic-2026-09-20/README.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/case-index.md](../../../exploration/optimization/insights/gic-2026-09-20/case-index.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/01-tag-team.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/01-tag-team.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/02-oathsworn.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/02-oathsworn.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/03-king-watching.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/03-king-watching.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/04-challengers.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/04-challengers.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/05-take-time.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/05-take-time.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/06-neon-white.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/06-neon-white.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/07-eternal-decks.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/07-eternal-decks.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/08-heat.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/08-heat.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/09-tiletum.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/09-tiletum.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/10-ayar.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/10-ayar.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/11-unstoppable.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/11-unstoppable.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/12-mindbug.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/12-mindbug.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/13-moon-colony.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/13-moon-colony.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/14-cat-in-box.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/14-cat-in-box.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/15-word-game.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/15-word-game.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/16-stacklands.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/16-stacklands.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/17-blue-prince.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/17-blue-prince.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/18-vantage.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/18-vantage.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/19-sultans-game.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/19-sultans-game.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/20-save-world.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/20-save-world.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/21-sea-salt-paper.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/21-sea-salt-paper.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/22-marvel-snap.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/22-marvel-snap.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/23-tunic.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/23-tunic.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/24-forestrike.md](../../../exploration/optimization/insights/gic-2026-09-20/cases/24-forestrike.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/catalog.md](../../../exploration/optimization/insights/gic-2026-09-20/catalog.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/checks/phase1-check.md](../../../exploration/optimization/insights/gic-2026-09-20/checks/phase1-check.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/checks/review-check.md](../../../exploration/optimization/insights/gic-2026-09-20/checks/review-check.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/directions.md](../../../exploration/optimization/insights/gic-2026-09-20/directions.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/drafts/gic-yanzhou-dossier.md](../../../exploration/optimization/insights/gic-2026-09-20/drafts/gic-yanzhou-dossier.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/iterations.md](../../../exploration/optimization/insights/gic-2026-09-20/iterations.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/outline/outline.md](../../../exploration/optimization/insights/gic-2026-09-20/outline/outline.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/source-notes.md](../../../exploration/optimization/insights/gic-2026-09-20/source-notes.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/insights/gic-2026-09-20/workflow.md](../../../exploration/optimization/insights/gic-2026-09-20/workflow.md) | ResearchRecord | retained |
-| [exploration/game-002-optimization/questions/Q-20260909-casting-strategy-depth.md](../../../exploration/optimization/questions/Q-20260909-casting-strategy-depth.md) | Navigation / SupportingRecord | retained |
-| [exploration/game-002-optimization/questions/Q-20260909-timeline-backpack.md](../../../exploration/optimization/questions/Q-20260909-timeline-backpack.md) | Navigation / SupportingRecord | retained |
-| [exploration/game-002-optimization/questions/Q-20260910-spell-music.md](../../../exploration/optimization/questions/Q-20260910-spell-music.md) | Navigation / SupportingRecord | retained |
-| [exploration/game-002-optimization/questions/Q-20260910-timeline-mechanism-depth.md](../../../exploration/optimization/questions/Q-20260910-timeline-mechanism-depth.md) | Navigation / SupportingRecord | retained |
-| [exploration/game-002-optimization/questions/Q-20260914-rc1-strategy-depth.md](../../../exploration/optimization/questions/Q-20260914-rc1-strategy-depth.md) | Navigation / SupportingRecord | retained |
-| [exploration/game-002-optimization/questions/Q-20260914-timeline-battlefield.md](../../../exploration/optimization/questions/Q-20260914-timeline-battlefield.md) | Navigation / SupportingRecord | retained |
-| [exploration/game-002-optimization/questions/Q-20260914-timeline-construction.md](../../../exploration/optimization/questions/Q-20260914-timeline-construction.md) | Navigation / SupportingRecord | retained |
-| [exploration/game-002-optimization/questions/Q-20260920-gic-design-directions.md](../../../exploration/optimization/questions/Q-20260920-gic-design-directions.md) | Navigation / SupportingRecord | retained |
-| [exploration/game-002-optimization/questions/Q-20260920-strategic-run-and-meta-loops.md](../../../exploration/optimization/questions/Q-20260920-strategic-run-and-meta-loops.md) | Navigation / SupportingRecord | retained |
-| [exploration/game-002-optimization/run-control.md](../../../exploration/optimization/run-control.md) | Navigation / SupportingRecord | modified |
-| [exploration/game-002-optimization/runs/README.md](../../../exploration/optimization/runs/README.md) | RunRecord | created |
-| [exploration/game-002-optimization/runs/RUN-001.md](../../../exploration/optimization/runs/RUN-001.md) | RunRecord | created |
-| [exploration/game-002-optimization/runs/RUN-002.md](../../../exploration/optimization/runs/RUN-002.md) | RunRecord | created |
-| [exploration/game-002-optimization/runs/RUN-003.md](../../../exploration/optimization/runs/RUN-003.md) | RunRecord | created |
-| [exploration/game-002-optimization/runs/RUN-004.md](../../../exploration/optimization/runs/RUN-004.md) | RunRecord | created |
-| [exploration/game-002-optimization/runs/RUN-005.md](../../../exploration/optimization/runs/RUN-005.md) | RunRecord | created |
-| [exploration/game-002-optimization/runs/RUN-006.md](../../../exploration/optimization/runs/RUN-006.md) | RunRecord | created |
-| [exploration/game-002-optimization/runs/RUN-007.md](../../../exploration/optimization/runs/RUN-007.md) | RunRecord | created |
-| [exploration/game-002-optimization/runs/RUN-008.md](../../../exploration/optimization/runs/RUN-008.md) | RunRecord | created |
-| [exploration/game-002-optimization/runs/RUN-009.md](../../../exploration/optimization/runs/RUN-009.md) | RunRecord | created |
-| [exploration/game-002-optimization/runs/RUN-010.md](../../../exploration/optimization/runs/RUN-010.md) | RunRecord | created |
-| [exploration/game-002-optimization/runs/RUN-011.md](../../../exploration/optimization/runs/RUN-011.md) | RunRecord | created |
-| [exploration/game-002-optimization/runs/RUN-012.md](../../../exploration/optimization/runs/RUN-012.md) | RunRecord | created |
-| [exploration/game-002-optimization/runs/RUN-013.md](../../../exploration/optimization/runs/RUN-013.md) | RunRecord | created |
-| [exploration/game-002-optimization/runs/RUN-014.md](../../../exploration/optimization/runs/RUN-014.md) | RunRecord | created |
-| [exploration/game-002-optimization/runs/RUN-015.md](../../../exploration/optimization/runs/RUN-015.md) | RunRecord | created |
-| [exploration/game-002-optimization/runs/RUN-016.md](../../../exploration/optimization/runs/RUN-016.md) | RunRecord | created |
-| [exploration/game-002-optimization/simulations/OPT-20260909-001-casting-direction-plan.md](../../../exploration/optimization/simulations/OPT-20260909-001-casting-direction-plan.md) | Navigation / SupportingRecord | retained |
-| [exploration/game-002-optimization/simulations/OPT-20260909-002-spell-expedition-loop-plan.md](../../../exploration/optimization/simulations/OPT-20260909-002-spell-expedition-loop-plan.md) | Navigation / SupportingRecord | retained |
+| [exploration/game-002-optimization/AGENTS.md](../../exploration-2026-09-24/AGENTS.md) | Governance | modified |
+| [exploration/game-002-optimization/README.md](../../exploration-2026-09-24/README.md) | Navigation / SupportingRecord | modified |
+| [exploration/game-002-optimization/context/README.md](../../exploration-2026-09-24/context/README.md) | LockedBackground / SourceRecord | retained |
+| [exploration/game-002-optimization/context/baseline-2026-09-09-001/context-pack.md](../../exploration-2026-09-24/context/baseline-2026-09-09-001/context-pack.md) | LockedBackground / SourceRecord | retained |
+| [exploration/game-002-optimization/context/baseline-2026-09-09-001/sources/CONTEXT.md](../../exploration-2026-09-24/context/baseline-2026-09-09-001/sources/CONTEXT.md) | LockedBackground / SourceRecord | retained |
+| [exploration/game-002-optimization/context/baseline-2026-09-09-001/sources/game-design-workflow/core-concept.md](../../exploration-2026-09-24/context/baseline-2026-09-09-001/sources/game-design-workflow/core-concept.md) | LockedBackground / SourceRecord | retained |
+| [exploration/game-002-optimization/context/baseline-2026-09-09-001/sources/game-design-workflow/decision-log.md](../../exploration-2026-09-24/context/baseline-2026-09-09-001/sources/game-design-workflow/decision-log.md) | LockedBackground / SourceRecord | retained |
+| [exploration/game-002-optimization/context/baseline-2026-09-09-001/sources/game-design-workflow/idea-materials/M-2026-09-07-core-numerical-framework-v01.md](../../exploration-2026-09-24/context/baseline-2026-09-09-001/sources/game-design-workflow/idea-materials/M-2026-09-07-core-numerical-framework-v01.md) | QualifiedSourceRecord | retained |
+| [exploration/game-002-optimization/context/baseline-2026-09-09-001/sources/game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md](../../exploration-2026-09-24/context/baseline-2026-09-09-001/sources/game-design-workflow/idea-materials/M-2026-09-07-first-pass-global-design-baseline.md) | QualifiedSourceRecord | retained |
+| [exploration/game-002-optimization/context/baseline-2026-09-09-001/sources/game-design-workflow/idea-materials/README.md](../../exploration-2026-09-24/context/baseline-2026-09-09-001/sources/game-design-workflow/idea-materials/README.md) | QualifiedSourceRecord | retained |
+| [exploration/game-002-optimization/context/baseline-2026-09-09-001/validation.md](../../exploration-2026-09-24/context/baseline-2026-09-09-001/validation.md) | LockedBackground / SourceRecord | retained |
+| [exploration/game-002-optimization/context/pack-generation-rules.md](../../exploration-2026-09-24/context/pack-generation-rules.md) | LockedBackground / SourceRecord | retained |
+| [exploration/game-002-optimization/directions/DIR-001.md](../../exploration-2026-09-24/directions/DIR-001.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-002.md](../../exploration-2026-09-24/directions/DIR-002.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-003.md](../../exploration-2026-09-24/directions/DIR-003.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-004.md](../../exploration-2026-09-24/directions/DIR-004.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-005.md](../../exploration-2026-09-24/directions/DIR-005.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-006.md](../../exploration-2026-09-24/directions/DIR-006.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-007.md](../../exploration-2026-09-24/directions/DIR-007.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-008.md](../../exploration-2026-09-24/directions/DIR-008.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-009.md](../../exploration-2026-09-24/directions/DIR-009.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-010.md](../../exploration-2026-09-24/directions/DIR-010.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-011.md](../../exploration-2026-09-24/directions/DIR-011.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-012.md](../../exploration-2026-09-24/directions/DIR-012.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-013.md](../../exploration-2026-09-24/directions/DIR-013.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-014.md](../../exploration-2026-09-24/directions/DIR-014.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-015.md](../../exploration-2026-09-24/directions/DIR-015.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-016.md](../../exploration-2026-09-24/directions/DIR-016.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-017.md](../../exploration-2026-09-24/directions/DIR-017.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-018.md](../../exploration-2026-09-24/directions/DIR-018.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-019.md](../../exploration-2026-09-24/directions/DIR-019.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-020.md](../../exploration-2026-09-24/directions/DIR-020.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-021.md](../../exploration-2026-09-24/directions/DIR-021.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-022.md](../../exploration-2026-09-24/directions/DIR-022.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-023.md](../../exploration-2026-09-24/directions/DIR-023.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-024.md](../../exploration-2026-09-24/directions/DIR-024.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-025.md](../../exploration-2026-09-24/directions/DIR-025.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-026.md](../../exploration-2026-09-24/directions/DIR-026.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/DIR-027.md](../../exploration-2026-09-24/directions/DIR-027.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/README.md](../../exploration-2026-09-24/directions/README.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/baseline-and-absorption.md](../../exploration-2026-09-24/directions/baseline-and-absorption.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/comparison.md](../../exploration-2026-09-24/directions/comparison.md) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/directions/registry.json](../../exploration-2026-09-24/directions/registry.json) | DirectionIndex / ResearchComparison | created |
+| [exploration/game-002-optimization/history/pre-organization/AGENTS.md](../../exploration-2026-09-24/history/pre-organization/AGENTS.md) | HistoricalSnapshot | created |
+| [exploration/game-002-optimization/history/pre-organization/README.md](../../exploration-2026-09-24/history/pre-organization/README.md) | HistoricalSnapshot | created |
+| [exploration/game-002-optimization/history/pre-organization/run-control.md](../../exploration-2026-09-24/history/pre-organization/run-control.md) | HistoricalSnapshot | created |
+| [exploration/game-002-optimization/idea-inbox/2026-09-09-battlefield-compiler-casting.md](../../exploration-2026-09-24/idea-inbox/2026-09-09-battlefield-compiler-casting.md) | RawSourceRecord | retained |
+| [exploration/game-002-optimization/idea-inbox/2026-09-09-spell-expedition-roguelike.md](../../exploration-2026-09-24/idea-inbox/2026-09-09-spell-expedition-roguelike.md) | RawSourceRecord | retained |
+| [exploration/game-002-optimization/idea-inbox/2026-09-09-timeline-backpack-spells.md](../../exploration-2026-09-24/idea-inbox/2026-09-09-timeline-backpack-spells.md) | RawSourceRecord | retained |
+| [exploration/game-002-optimization/idea-inbox/2026-09-10-spell-music.md](../../exploration-2026-09-24/idea-inbox/2026-09-10-spell-music.md) | RawSourceRecord | retained |
+| [exploration/game-002-optimization/idea-inbox/2026-09-10-timeline-mechanism-depth.md](../../exploration-2026-09-24/idea-inbox/2026-09-10-timeline-mechanism-depth.md) | RawSourceRecord | retained |
+| [exploration/game-002-optimization/idea-inbox/2026-09-14-rc1-strategy-depth.md](../../exploration-2026-09-24/idea-inbox/2026-09-14-rc1-strategy-depth.md) | RawSourceRecord | retained |
+| [exploration/game-002-optimization/idea-inbox/2026-09-14-timeline-battlefield.md](../../exploration-2026-09-24/idea-inbox/2026-09-14-timeline-battlefield.md) | RawSourceRecord | retained |
+| [exploration/game-002-optimization/idea-inbox/2026-09-14-timeline-construction.md](../../exploration-2026-09-24/idea-inbox/2026-09-14-timeline-construction.md) | RawSourceRecord | retained |
+| [exploration/game-002-optimization/idea-inbox/2026-09-20-gic-design-directions.md](../../exploration-2026-09-24/idea-inbox/2026-09-20-gic-design-directions.md) | RawSourceRecord | retained |
+| [exploration/game-002-optimization/idea-inbox/2026-09-20-strategic-run-and-meta-loops.md](../../exploration-2026-09-24/idea-inbox/2026-09-20-strategic-run-and-meta-loops.md) | RawSourceRecord | retained |
+| [exploration/game-002-optimization/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md](../../exploration-2026-09-24/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md) | QualifiedSourceRecord | retained |
+| [exploration/game-002-optimization/idea-materials/M-2026-09-10-spell-release-music.md](../../exploration-2026-09-24/idea-materials/M-2026-09-10-spell-release-music.md) | QualifiedSourceRecord | retained |
+| [exploration/game-002-optimization/insights/2026-09-09-casting-system-distinctive-directions-analysis.md](../../exploration-2026-09-24/insights/2026-09-09-casting-system-distinctive-directions-analysis.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/2026-09-09-roguelike-mode-fit-analysis.md](../../exploration-2026-09-24/insights/2026-09-09-roguelike-mode-fit-analysis.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/2026-09-09-timeline-backpack-similarity-review.md](../../exploration-2026-09-24/insights/2026-09-09-timeline-backpack-similarity-review.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/2026-09-10-spell-music-feasibility.md](../../exploration-2026-09-24/insights/2026-09-10-spell-music-feasibility.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/2026-09-14-rc1-strategy-source-record.md](../../exploration-2026-09-24/insights/2026-09-14-rc1-strategy-source-record.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/2026-09-14-timeline-cross-genre-research.md](../../exploration-2026-09-24/insights/2026-09-14-timeline-cross-genre-research.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/2026-09-20-strategic-loop-fit-and-sources.md](../../exploration-2026-09-24/insights/2026-09-20-strategic-loop-fit-and-sources.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/README.md](../../exploration-2026-09-24/insights/gic-2026-09-20/README.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/case-index.md](../../exploration-2026-09-24/insights/gic-2026-09-20/case-index.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/01-tag-team.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/01-tag-team.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/02-oathsworn.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/02-oathsworn.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/03-king-watching.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/03-king-watching.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/04-challengers.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/04-challengers.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/05-take-time.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/05-take-time.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/06-neon-white.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/06-neon-white.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/07-eternal-decks.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/07-eternal-decks.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/08-heat.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/08-heat.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/09-tiletum.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/09-tiletum.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/10-ayar.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/10-ayar.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/11-unstoppable.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/11-unstoppable.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/12-mindbug.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/12-mindbug.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/13-moon-colony.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/13-moon-colony.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/14-cat-in-box.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/14-cat-in-box.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/15-word-game.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/15-word-game.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/16-stacklands.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/16-stacklands.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/17-blue-prince.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/17-blue-prince.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/18-vantage.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/18-vantage.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/19-sultans-game.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/19-sultans-game.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/20-save-world.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/20-save-world.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/21-sea-salt-paper.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/21-sea-salt-paper.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/22-marvel-snap.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/22-marvel-snap.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/23-tunic.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/23-tunic.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/cases/24-forestrike.md](../../exploration-2026-09-24/insights/gic-2026-09-20/cases/24-forestrike.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/catalog.md](../../exploration-2026-09-24/insights/gic-2026-09-20/catalog.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/checks/phase1-check.md](../../exploration-2026-09-24/insights/gic-2026-09-20/checks/phase1-check.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/checks/review-check.md](../../exploration-2026-09-24/insights/gic-2026-09-20/checks/review-check.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/directions.md](../../exploration-2026-09-24/insights/gic-2026-09-20/directions.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/drafts/gic-yanzhou-dossier.md](../../exploration-2026-09-24/insights/gic-2026-09-20/drafts/gic-yanzhou-dossier.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/iterations.md](../../exploration-2026-09-24/insights/gic-2026-09-20/iterations.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/outline/outline.md](../../exploration-2026-09-24/insights/gic-2026-09-20/outline/outline.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/source-notes.md](../../exploration-2026-09-24/insights/gic-2026-09-20/source-notes.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/insights/gic-2026-09-20/workflow.md](../../exploration-2026-09-24/insights/gic-2026-09-20/workflow.md) | ResearchRecord | retained |
+| [exploration/game-002-optimization/questions/Q-20260909-casting-strategy-depth.md](../../exploration-2026-09-24/questions/Q-20260909-casting-strategy-depth.md) | Navigation / SupportingRecord | retained |
+| [exploration/game-002-optimization/questions/Q-20260909-timeline-backpack.md](../../exploration-2026-09-24/questions/Q-20260909-timeline-backpack.md) | Navigation / SupportingRecord | retained |
+| [exploration/game-002-optimization/questions/Q-20260910-spell-music.md](../../exploration-2026-09-24/questions/Q-20260910-spell-music.md) | Navigation / SupportingRecord | retained |
+| [exploration/game-002-optimization/questions/Q-20260910-timeline-mechanism-depth.md](../../exploration-2026-09-24/questions/Q-20260910-timeline-mechanism-depth.md) | Navigation / SupportingRecord | retained |
+| [exploration/game-002-optimization/questions/Q-20260914-rc1-strategy-depth.md](../../exploration-2026-09-24/questions/Q-20260914-rc1-strategy-depth.md) | Navigation / SupportingRecord | retained |
+| [exploration/game-002-optimization/questions/Q-20260914-timeline-battlefield.md](../../exploration-2026-09-24/questions/Q-20260914-timeline-battlefield.md) | Navigation / SupportingRecord | retained |
+| [exploration/game-002-optimization/questions/Q-20260914-timeline-construction.md](../../exploration-2026-09-24/questions/Q-20260914-timeline-construction.md) | Navigation / SupportingRecord | retained |
+| [exploration/game-002-optimization/questions/Q-20260920-gic-design-directions.md](../../exploration-2026-09-24/questions/Q-20260920-gic-design-directions.md) | Navigation / SupportingRecord | retained |
+| [exploration/game-002-optimization/questions/Q-20260920-strategic-run-and-meta-loops.md](../../exploration-2026-09-24/questions/Q-20260920-strategic-run-and-meta-loops.md) | Navigation / SupportingRecord | retained |
+| [exploration/game-002-optimization/run-control.md](../../exploration-2026-09-24/run-control.md) | Navigation / SupportingRecord | modified |
+| [exploration/game-002-optimization/runs/README.md](../../exploration-2026-09-24/runs/README.md) | RunRecord | created |
+| [exploration/game-002-optimization/runs/RUN-001.md](../../exploration-2026-09-24/runs/RUN-001.md) | RunRecord | created |
+| [exploration/game-002-optimization/runs/RUN-002.md](../../exploration-2026-09-24/runs/RUN-002.md) | RunRecord | created |
+| [exploration/game-002-optimization/runs/RUN-003.md](../../exploration-2026-09-24/runs/RUN-003.md) | RunRecord | created |
+| [exploration/game-002-optimization/runs/RUN-004.md](../../exploration-2026-09-24/runs/RUN-004.md) | RunRecord | created |
+| [exploration/game-002-optimization/runs/RUN-005.md](../../exploration-2026-09-24/runs/RUN-005.md) | RunRecord | created |
+| [exploration/game-002-optimization/runs/RUN-006.md](../../exploration-2026-09-24/runs/RUN-006.md) | RunRecord | created |
+| [exploration/game-002-optimization/runs/RUN-007.md](../../exploration-2026-09-24/runs/RUN-007.md) | RunRecord | created |
+| [exploration/game-002-optimization/runs/RUN-008.md](../../exploration-2026-09-24/runs/RUN-008.md) | RunRecord | created |
+| [exploration/game-002-optimization/runs/RUN-009.md](../../exploration-2026-09-24/runs/RUN-009.md) | RunRecord | created |
+| [exploration/game-002-optimization/runs/RUN-010.md](../../exploration-2026-09-24/runs/RUN-010.md) | RunRecord | created |
+| [exploration/game-002-optimization/runs/RUN-011.md](../../exploration-2026-09-24/runs/RUN-011.md) | RunRecord | created |
+| [exploration/game-002-optimization/runs/RUN-012.md](../../exploration-2026-09-24/runs/RUN-012.md) | RunRecord | created |
+| [exploration/game-002-optimization/runs/RUN-013.md](../../exploration-2026-09-24/runs/RUN-013.md) | RunRecord | created |
+| [exploration/game-002-optimization/runs/RUN-014.md](../../exploration-2026-09-24/runs/RUN-014.md) | RunRecord | created |
+| [exploration/game-002-optimization/runs/RUN-015.md](../../exploration-2026-09-24/runs/RUN-015.md) | RunRecord | created |
+| [exploration/game-002-optimization/runs/RUN-016.md](../../exploration-2026-09-24/runs/RUN-016.md) | RunRecord | created |
+| [exploration/game-002-optimization/simulations/OPT-20260909-001-casting-direction-plan.md](../../exploration-2026-09-24/simulations/OPT-20260909-001-casting-direction-plan.md) | Navigation / SupportingRecord | retained |
+| [exploration/game-002-optimization/simulations/OPT-20260909-002-spell-expedition-loop-plan.md](../../exploration-2026-09-24/simulations/OPT-20260909-002-spell-expedition-loop-plan.md) | Navigation / SupportingRecord | retained |
 | [exploration/registry/project-registry.md](../../../../exploration/registry/project-registry.md) | Navigation / SupportingRecord | modified |
 | [workspaces/game-002/AGENTS.md](../../../AGENTS.md) | Governance | modified |
 | [workspaces/game-002/CONTEXT.md](../../../CONTEXT.md) | Navigation / SupportingRecord | modified |

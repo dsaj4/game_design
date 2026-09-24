@@ -2,7 +2,7 @@
 
 - [言咒现行设计](../yanzhou/README.md)
 - [言咒当前问题](../yanzhou/governance/questions.md)
-- [探索方向与比较](../yanzhou/exploration/optimization/directions/README.md)
+- [探索方向与比较](../yanzhou/exploration/README.md)
 - [实现进度](../yanzhou/development/README.md)
 - [项目地图](workspace-map.md)
 

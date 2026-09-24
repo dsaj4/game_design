@@ -10,6 +10,6 @@
 | 完整RC1规则、平衡与真人理解是否成立 | Hypothesis / NotRun或未完成 | [验证规格](../design/validation.md)，执行另冻结输入 |
 | Demo复杂条件、精确实例与完整表现缺口 | Partial Implementation | [开发索引](../development/README.md)，不得以当前实现删减设计 |
 
-探索方向的选择问题只在[探索区](../exploration/optimization/directions/README.md)维护，不混入主系统缺口。本次整理未启动玩法验证。
+探索方向的选择问题只在[探索区](../exploration/README.md)维护，不混入主系统缺口。本次整理未启动玩法验证。
 
 [整理前记录](../history/pre-organization/docs/design-decisions-needed.md)

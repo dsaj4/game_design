@@ -1,5 +1,7 @@
 # 玩法探索 Agent 运行手册
 
+> 2026-09-24范围说明：game-002-optimization日常构思已按[方向存储规则](../yanzhou/exploration/AGENTS.md)简化。本手册的运行流程与P/idea-inbox等路径不适用于其普通构思任务；只有明确运行任务才按选定范围使用相应方法，不恢复旧目录树。
+
 版本：v1.0。状态：`Ready for Supervised Exploration`。更新日期：2026-09-09。
 
 本手册是玩法探索区的最小执行入口。它把共享契约串成单轮工作流，允许 agent 在明确的 Project ID、研究问题和预算内自动推进文件产物；资格晋级、正式设计采纳和跨项目回写仍是人工闸门。

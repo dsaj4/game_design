@@ -7,7 +7,7 @@
 
 2026-09-09 已建立[玩法探索区](exploration/README.md)。用户指定 game-002 优化或独立肉鸽探索时，先按[探索项目注册表](exploration/registry/project-registry.md)选择对应根 P，并遵守 exploration/AGENTS.md 的本地路径映射；此时不要套用默认 W 或自动读取 game-002 背景。用户未指定时仍默认 game-002。
 
-- `yanzhou/exploration/optimization/`：仅按生成规则从 game-002 固定提交构建背景包；正常优化使用已激活包，回写须走目标项目 Draft Change。
+- `yanzhou/exploration/`：仅按生成规则从 game-002 固定提交构建背景包；正常优化使用已激活包，回写须走目标项目 Draft Change。
 - `exploration/new-roguelike/`：从独立空白背景探索，不继承 game-002、优化项目或归档内容。
 - 探索区的原始想法、合格素材、提案、评估和 GDD 路径按其 AGENTS 映射；资格闸门、来源追踪与 Git 保护继续适用。建区不是玩法采纳，旧冻结代码未恢复。
 
@@ -426,8 +426,13 @@ git checkout -b agent/<agent-name>/<YYYY-MM-DD>-<short-task>
 
 ## 2026-09-23 文档治理与探索方向索引
 
-用户已授权主系统与探索区全量整理。game-002以current正文为现行规则，核心为摘要；历史、候选和旧运行指令不覆盖现用入口。探索方向索引及跨方向研究仅在探索区，原始来源和资格保留。管理任务可横向整理方向元数据与比较；普通探索仍按所选方向的来源范围，不自动读取其他候选。详见[文档合同](yanzhou/governance/document-contract.md)与[方向索引](yanzhou/exploration/optimization/directions/README.md)。
+用户已授权主系统与探索区全量整理。game-002以current正文为现行规则，核心为摘要；历史、候选和旧运行指令不覆盖现用入口。探索方向索引及跨方向研究仅在探索区，原始来源和资格保留。管理任务可横向整理方向元数据与比较；普通探索仍按所选方向的来源范围，不自动读取其他候选。详见[文档合同](yanzhou/governance/document-contract.md)与[方向索引](yanzhou/exploration/README.md)。
 
 ## layout.1：言咒物理目录
 
-用户授权新建yanzhou并迁移文件结构。默认game-002的W改为yanzhou/；根手册内game-design-workflow、docs等旧职责路径按[yanzhou/AGENTS.md](yanzhou/AGENTS.md)映射，不能在旧兼容路径新建正文。主规则design/，来源链sources/，问题与决策governance/，实现development/。优化Project ID不变，P改为yanzhou/exploration/optimization/；普通探索不自动读主系统。共享模板、知识、独立肉鸽、归档仍留根目录各自位置。
+用户授权新建yanzhou并迁移文件结构。默认game-002的W改为yanzhou/；根手册内game-design-workflow、docs等旧职责路径按[yanzhou/AGENTS.md](yanzhou/AGENTS.md)映射，不能在旧兼容路径新建正文。主规则design/，来源链sources/，问题与决策governance/，实现development/。优化Project ID不变，P改为yanzhou/exploration/；普通探索不自动读主系统。共享模板、知识、独立肉鸽、归档仍留根目录各自位置。
+
+
+## 2026-09-24 探索按方向简化
+
+用户要求探索内部按方向保存必要构思。P为yanzhou/exploration/；每个DIR文件夹以README维护构思、问题、来源和状态，不再预建流程目录。此项目存储映射以[yanzhou/exploration/AGENTS.md](yanzhou/exploration/AGENTS.md)为准；正式资格与回写门槛不变。旧流程和冻结背景在yanzhou/history/exploration-2026-09-24，只作历史取证。

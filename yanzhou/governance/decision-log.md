@@ -223,3 +223,8 @@ HG02／WG01／SG01为待审阵营、实际范围与起始资源推荐；[CG逐�
 ## 2026-09-23：言咒项目独立目录（G002-DOC-006）
 
 用户授权新建yanzhou并重新梳理物理目录，提交推送新分支。Accepted / Documentation / layout.1。主系统与优化分别映射，Project ID及资格/回写权限不变；旧路径保留兼容入口和明确冻结来源。未修改玩法、不解决AUD-010、不运行新玩法测试。[Draft Change](../sources/draft-changes/D-2026-09-23-yanzhou-project-layout.md) · [目录规范](directory-layout.md)。
+
+
+## 2026-09-24：探索按方向简化（G002-DOC-007）
+
+Accepted / Documentation / layout.2。用户明确要求“exploration内部的结构也简化一下，以方向为单位能储存必要构思即可”。取消optimization包装层与活动区流程目录；27方向各用一个文件夹、README直接保存构思，比较及基线吸收合并到comparison。旧原始记录、合格材料、运行与固定包归入history/exploration-2026-09-24。原Candidate ID、局部资格和吸收边界保留；没有新CORE决定、没有新玩法验证，AUD-010保持Open。[Draft Change](../sources/draft-changes/D-2026-09-24-simplify-exploration.md) · [报告](exploration-simplification-report.md)。
