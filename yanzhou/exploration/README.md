@@ -69,7 +69,7 @@ exploration/
 | [DIR-026 自编遗迹](DIR-026-self-built-ruins/README.md) | 战前从合法地形模板选择初态并锁定。 | Raw Idea / Unqualified |
 | [DIR-027 咒理试炼](DIR-027-spell-principle-trial/README.md) | 同一配置应对多种输入，通过解释和复盘形成知识成长。 | Raw Idea / Unqualified |
 | [DIR-028 时间轴深度构筑](DIR-028-timeline-depth/README.md) | 将节奏、时间窗口与事件接续关系作为构筑对象，探索时间轴成为核心玩法的可能性。 | Agent Proposal / Raw Idea / Unqualified |
-| [DIR-029 时间轴铺卡战斗](DIR-029-timeline-card-battle/README.md) | 自构法术，每杖一行，可展开折叠到共同时间轴；同刻效果同时生效，敌方暗牌提供部分线索。 | Raw Idea / Unqualified |
+| [DIR-029 时间轴铺卡战斗](DIR-029-timeline-card-battle/README.md) | 自构法术，每杖按冷却重复生成一行牌，可展开折叠到共同时间轴；同刻效果同时生效，敌方暗牌提供部分线索。 | Raw Idea / Unqualified |
 
 ## 历史怎么查
 
