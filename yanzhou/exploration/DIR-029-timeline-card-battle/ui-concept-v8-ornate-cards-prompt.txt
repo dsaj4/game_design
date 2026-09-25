@@ -1,0 +1,26 @@
+UI v8 — ornate storybook tarot card style
+Date: 2026-09-25
+Mode: built-in image_gen reference edit; no CLI or relay.
+Status: Style Concept / Awaiting Visual Review.
+Edit target: ui-concept-v7-single-lane.png
+Style reference: user-reference-v8-ornate-cards.png (user attachment codex-clipboard-176a3009-81f9-4ea4-afb1-38b2c24aea66.png).
+
+PROMPT
+Use case: style-transfer / ui-mockup.
+Create one polished V8 game UI effect concept from TWO references.
+Image1 (V7 Chinese timeline battle diagram) is the LAYOUT AND CONTENT EDIT TARGET. Image2 (user game screenshot) is ONLY a CARD ART DIRECTION reference. The requested single design change is to give the V7 cards an ornate vintage illustrated tarot / storybook card style inspired by Image2. This is a full battle UI image, not a sheet of isolated cards.
+
+PRESERVE the V7 interface structure exactly: one enemy horizontal card band and one merged player horizontal card band. Two fixed carved tokens aligned vertically at x=50% canvas width: burgundy crowned enemy at top center, green hooded player at bottom center. One faint gold centerline. Current03 between pawns; all card groups move left. Compact wandA/B/C selector lower left, B selected blue. Two health bars far right, startbutton bottom. No grid battlefield, no boardgame buildings, no inventory, dice, goblet, compass, portrait panel, card-description sidebar, coins or new UI copied from the screenshot.
+Keep the same data: four enemy hidden-back cards at01,02,03,04. Six player action cards total:01 A+B,02 C,03 A+B,04 C. A/B pairs overlap as physical poker cards, around25percent of card width with slight opposing tilt; C are singles. No extra cards. Enemy03 card center and player03 whole-pile center must coincide EXACTLY with both pawns at x=50%. NOT the left edge of the pile. Reposition neighboring groups only enough to fit taller cards, maintaining01<02<03<04. Preserve clear separation between enemy and player bands.
+
+CARD REDESIGN: replace the former short square white icon cards with elegant taller portrait cards, approximately width:height=0.58:1. Image2's card characteristics are the main inspiration: thick engraved antique brass double borders, aged ivory paper, ornate cream scalloped corner panels framing an illustration window, small inset circular corner medallions, fine sepia engraved botanical filigree, dark chocolate or wine interior, small parchment name ribbon, slightly worn bevels and tactile cardstock thickness, gentle cast shadows. Art is stylized medieval storybook / woodcut-inspired painted illustration, muted warm pigments, graphic silhouettes, sophisticated hand-drawn details; NOT photorealistic, NOT glossy modern collectible-card sci-fi.
+Each action card gets an ORIGINAL simple readable spell illustration: A a stylized curling red-orange magical flame, B a deep blue heraldic shield with a subtle star motif, C a teal curling wave. These are FULL SPELLS, not word fragments or characters. Use identical art for repeated actions from same wand. A/B/C source letters in clearly visible UPPER-LEFT ivory medallion, not hidden by overlap. Small lower title ribbons read "焰", "护", "潮" respectively. No invented damage numbers, costs, rule paragraphs, attack/defense stats, names from reference game, or lore.
+Enemy backs: ornate symmetrical burgundy and antique gold scrollwork, central abstract eye emblem, elegant cream/brass border; precisely same taller card proportions as player cards. Do not expose enemy spell art. Current enemy03 has a discrete amber emphasis with small "进攻线索" badge.
+B selection remains BLUE, on B cards at01 and03 and B selector, subtle luminous thin edge / blue corner gem highlight, not recoloring the whole card. Current03 whole A+B pair has a warm gold enclosing accent under BOTH cards. Distinguish source selection vs current time. All six player illustrations/source badges readable; dim none completely.
+The TABLE remains quiet and easy to read: retain V7 pale desaturated sage surface and cream canvas with a very subtle aged paper/felt texture; thin warm brass/wood edging allowed only as surface finish. It must not become the screenshot's room or ornate crowded board. Keep ample empty space and no distracting props. Pawns retain same silhouettes, a restrained carved/painted finish. Card details are the visual focus. This is the same UI with a card skin experiment, not a total layout redesign.
+
+Landscape high-quality presentation at similar aspect ratio toV7. Title "时间轴翻牌", subtitle "复古雕花卡牌 · 风格预览". Keep short Chinese labels "敌方","己方","法杖 A","法杖 B","法杖 C". Keep arrow "← 牌列左移", discreet "棋子固定" near top pawn, "局部点压" near lower pawn. Keep concise group callout "同刻一摞，一起翻开" and selector note "选法杖，只高亮对应牌". Remove duplicated pawn callout if space needed, but not structural components. Startbutton "拨动起点，开始翻牌". Footer "风格示意 · 待确认". Crisp readable Chinese, avoid long captions. No third-party names, logos, subtitle overlays or watermarks.
+The result should immediately communicate beautiful tall old storybook tarot cards on our existing single-row timeline battle, with exactly six player cards and the fixed current03 center axis preserved.
+
+Selected output: exec-f2839aa7-4eaf-41d8-b5b5-1420c44918ab.png
+
