@@ -1,0 +1,30 @@
+UI v7 — single shared player lane (B preview)
+Date: 2026-09-25
+Mode: built-in image_gen reference edits, no CLI or relay.
+Status: UI Concept / Awaiting Visual Review; not adopted.
+Reference: ui-concept-v6-fixed-pawns.png
+
+PASS 1
+Use case: precise-object-edit / ui-mockup.
+Input image is the EDIT TARGET: the existing V6 Chinese timeline card battle UI diagram. Create a sibling V7 concept image. Make ONE design change only: replace the multiple player wand rows and the expanded/collapsed comparison with ONE permanent shared player card row. Show the proposed B view clearly for review, not as a finalized rule. Preserve the simple offwhite/sage diagram aesthetic, not a new art style.
+
+Keep invariants: two fixed physical pawns exactly at canvas center x=50%, burgundy enemy pawn at upper center and green hooded player pawn at lower center of the board; a single subtle amber centerline; chronological01,02,03,04 with CURRENT03 group exactly centered between pawns. Card lanes scroll LEFT. Small in-place press motion ticks at player base, no walking. Same-time spells take effect together. Enemy row separate from player row, hidden backs with clue. Same exact six player actions: time01 A flame+B shield; time02 C wave; time03 A flame+B shield; time04 C wave. Four enemy backs, one per time. No extra spell cards.
+
+Composition: landscape, one generous pale sage round-corner board on warm opaque offwhite background. Main title "时间轴翻牌", smaller subtitle "单行合并 · 同刻堆叠". No old expanded panel, no bottom collapsed comparison, no expand/collapse toggle: only ONE battlefield, with TWO horizontal card bands total: enemy band above, player shared band below. The board occupies most of the image, with open space between bands. Four timeline labels01/02/03/04 in a quiet thin horizontal alignment above enemy cards, no vertical grid divisions except current centerline. Place01 left,02 left of center,03 exactly center,04 right of center. Keep original small healthbar sidebar at far right.
+Enemy pawn at top-center above enemy band; player pawn at bottom-center below player band; cards never overlap either pawn. Arrow beside top pawn "← 牌列左移"; unobtrusive note "棋子固定".
+Enemy label "敌方". Enemy03 has amber outer emphasis and "进攻线索"; other three enemy cards ordinary burgundy patterned backs. These are structural diagram placeholders, no new reveal-state logic.
+Player label "己方". Its ONE horizontal row contains exactly four time groups:01 pair(A,B),02 single(C),03 pair(A,B),04 single(C). Each paired group consists of two portrait cream poker cards truly overlapping around 35–45 percent, with slight opposing tilt and horizontal offset, like a small spread in a poker hand. Each card's letter at top and icon remains identifiable. Group center, not the top card center, is aligned to corresponding time. Current03 pair midpoint lies exactly on the x=50% centerline.
+At time01 and03 A is the flame card and B is the blue shield card; at02 and04 C is wave. Keep all six faces legible, do not heavily fade unselected cards.
+Demonstrate wand selection with compact three-chip selector at lower LEFT within board: "法杖 A", "法杖 B", "法杖 C", small matching source icons. Select B using blue chip and blue small corner/edge accents on BOTH B cards at01 and03; A/C remain normal cream readable faces, never removed or moved. Add short nearby callout "选法杖，只高亮对应牌". Selector is not another card lane and not an inventory panel.
+Distinguish current time from source selection: enclose the WHOLE current03 A+B pile in one soft AMBER enclosing highlight. B cards separately have small BLUE source accents. Add concise callout near the current pair "同刻一摞，一起翻开", point to whole pair. Very slight raised paper edge/shadow on both03 cards together suggests collective flipping, without concealing icons or duplicating cards. Do not draw sequential small arrows between A and B.
+No large explanatory paragraphs; at most three short callouts for fixed pawn, source selection, same-time stack. Existing bottom start button may remain "拨动起点，开始翻牌", small footer "B方案预览 · 待确认". Remove old expanded/folded labels everywhere. No resources, shops, new gameplay, exclusive rules, extra wands, cursor hands, logos, watermark, extra diagrams. Maintain generous readable typography, clear hierarchy, understated physical paper feel. Sole goal: show reduced height from merging wand rows, readable source highlighting, and same-time overlapping cards on the existing fixed-pawn battlefield.
+
+PASS 2
+Reference: exec-e4f6c875-f8ea-401a-9d46-68b83197f31a.png
+Correct this V7 diagram, preserving all UI content, style and exact card counts. This is a precision correction, not another design addition.
+CRITICAL: fixed pawns are correctly at x=790 pixels in the 1584-wide image. Their dashed line x=790 is the ONLY vertical centerline to retain. The current03 is incorrectly at x=887: MOVE label03, dot03, enemy03 card, entire player03 A+B pile and enclosing amber rectangle LEFT by 97 pixels. The enemy03 card CENTER and current03 pile's OVERALL MIDPOINT MUST BOTH be EXACTLY x=790, directly between the two pawn bases. Remove the erroneous secondary dashed line at x=887 completely. The only line goes through both pawns and the center of both current03 groups. Leave01 at x381,02 at x637,04 at x1134. Do not move the pawns to follow03.
+Make both same-time A+B piles at01 and03 look more clearly overlapped: 30 percent card-width overlap, slight fanning, A card in front-left, B behind-right with B label and shield still visible; preserve B blue border/corner selection at BOTH01 and03. A flame must remain entirely recognizable. Pile midpoint01 stays x381, pile midpoint03 becomes x790. No additional cards. Keep C02 and C04 single cards unchanged. Amber frame surrounds ONLY whole current03 pile, centered x790.
+Move进攻线索 callout and同刻一摞，一起翻开 callout as needed for clean layout. Exact heading and footer unchanged. Retain two rows, three compact wand selector buttons with B selected, healthbars, startbutton and all other existing layout. Show no duplicate current03 or duplicate guidelines.
+
+Selected: exec-8fcd1a90-b212-4f63-a98c-30e5edbd538a.png
+
