@@ -1,0 +1,50 @@
+UI v9 — complete antique tabletop scene
+Date: 2026-09-25
+Mode: built-in image_gen reference editing; no CLI or relay.
+Status: Scene Concept / Awaiting Visual Review.
+References: ui-concept-v8-ornate-cards.png (content); user-reference-v8-ornate-cards.png (whole-scene art direction).
+
+PASS 1
+Use case: style-transfer / ui-mockup.
+Create a COMPLETE IMMERSIVE GAME SCREENSHOT concept, landscape16:9, for our Chinese spell timeline card battle. Two references:
+Image1 is the gameplay structure and our established card identities (V8 diagram).
+Image2 is the primary visual inspiration for the ENTIRE TABLE SCENE: an intimate theatrical handcrafted tabletop inside an antique wooden game cabinet, warm walnut, brass fittings, rich shadows, ornate illustrated cards, tactile miniature objects, beautiful premium stylized3D mixed with painted2D. User explicitly wants a full tabletop version now. This must be a convincing game screenshot filling the screen, NOT the flat diagram on a wood background, NOT a presentation slide. No enormous heading, white canvas, cartoon yellow explanation bubbles, diagram arrows or dashed guidelines.
+
+SCENE:
+Camera from player's seated side, raised three-quarter overhead (about60degrees above table), enough perspective to see table thickness, card paper edges, pawn bases and cabinet drawers, but cards remain readable. Warm dark walnut gaming desk with curved carved border, patinated brass hinges and fine ivory inlaid corner flourishes. Central large muted deep green/teal leather/felt play mat with subtle wear and fine brass perimeter. Cabinet backdrop along top edge with dark drawers, keyhole handles, a few old book spines; small restrained warm lamp/candle light from upper left, golden dusty atmosphere. Right edge a closed antique spellbook and inkwell, partially cropped; these are scenic props without interfaces. No reference-game chessboard, grid, castle miniatures, terrain diorama, character portrait sidebar, resource counters, dice, roulette/compass, coins or unrelated mechanics. Table and card timeline dominate at least75percent of screen. Scene is rich but central playing area spacious, cards brighter than backdrop. Stylized hand-painted fantasy textures, tactile shapes, soft warm key light, dimensional shadows; no photoreal human hands.
+
+GAMEPLAY COMPOSITION — exact:
+Two opposing horizontal card bands, enemy above and own below, nothing resembling three wand rows.
+Exactly TWO chesslike tokens fixed on the vertical center of the actual screen x=50%: burgundy crowned enemy on upper middle rim of mat around y=22%, dark green hooded player on bottom middle rim around y=86%. They face each other across the play area. Both are small sculpted wood/brass miniatures, not people. No pawn on cards.
+Current time03 is on the SAME CENTER AXIS x=50%, between the two pawns. Enemy03 CARD CENTER exactlyx50%; player03 A+B GROUP MIDPOINT exactlyx50%. THIS ALIGNMENT IS CRUCIAL. The two cards in the03 pile straddle the centerline symmetrically. Do not align its left edge to center.
+Four time groups in left-to-right order01,02,03,04, with03 exactlycenter. Suggested horizontal centers01=21%,02=36%,03=50%,04=73%. Allow sensible spacing but03 never moves away fromx50%. Sparse tiny brass engraved time numerals near card groups, no continuous grid or slot boxes. Whole bands are understood to move left toward past; express only with a tiny leftward chevron in the mat border, not a giant arrow. Do NOT show all pairs side-by-side as eight independent time slots.
+Enemy band aroundy38%: exactly FOUR face-down burgundy/gold ornate tarot cards01,02,03,04, each lying on mat. Current03 modest warm gold rim-light with tiny attached ivory badge "进攻线索". Other backs same eye motif. No visible enemy spell faces.
+Player band aroundy64%: exactly SIX face-up spell cards total.01 is overlapping A flame+B shield pair;02 singleC wave;03 overlapping A flame+B shield pair;04 singleC wave. A/B pairs overlap25–30percent width, slight fan tilt, like overlapping poker cards lying on felt. They are two distinct cards, no single combined A/B card. Each source letter and recognizable illustration exposed. Each group is horizontally centered under corresponding enemy group. Player cards not at the bottom UI dock: they are the active shared timeline band inside the tabletop.
+
+CARDS:
+Preserve ornate V8 tall portrait tarot proportions (roughly0.58width:1height), ivory scalloped corners, engraved old brass double frame, large illustrated storybook flame A (red-orange), heraldic blue shieldB, curling teal waveC, dark burgundy/navy interiors, small parchment title ribbons "焰","护","潮", clear A/B/C top-left ivory medallions. Repeated cards use identical illustrations. Original spell imagery, no source-game names or characters. Same physical dimensions for all cards before perspective; enemy apparent size may be a little smaller due to depth. Card surfaces and small bevels convincingly physical, with visible shadows. No extra stats, numbers, costs or text paragraphs.
+Both B cards at01 and03 have restrained sapphire edge/corner light denoting selected wandB. Current03 WHOLE A+B GROUP has a single shared warm amber pool of light/filigree underline beneath BOTH cards to indicate same-time; not a separate brightly framed UI rectangle per spell. A remains unselected but clearly active along withB. No blazing magicVFX hiding illustrations. Both current03 cards may have slightly curled near edges, jointly raised a few millimeters, suggesting shared lift; they are simultaneously active, no sequential arrows. Enemies retain hidden card backs in this structure preview.
+
+INTEGRATED UI:
+Top left tiny elegant logo/plaque "言咒", with understated subtitle "时间轴对战", not a diagram title.
+Far right narrow unobtrusive carved inset with exactly TWO horizontal vitals bars: burgundy labelled"敌方", green labelled"己方". No new numeric resources.
+Bottom left a small wooden wand holder with exactly three short physical wand-selection tokens/handles in brass mounts, labelled"A","B","C" or"法杖 A","法杖 B","法杖 C"; B mount has sapphire selection light. These replace flat selector buttons, not additional spell cards. No duplicates.
+Bottom right inset ornamental ivory/brass pushbutton "开始翻牌". Keep this understated so the tabletop is main focus.
+Tiny footer "牌桌效果示意" optional. No annotation bubbles such as棋子固定/同刻一摞/选法杖, no explanation paragraph, no watermarks, video logos, quest tabs or screenshot subtitles.
+Key outcome: atmospheric ornate COMPLETE PHYSICAL TABLETOP UI close toImage2's handcrafted fantasy tabletop visual sophistication, but our two-row merged timeline, fixed centered opposing pawns, six spell cards, same-time overlapping piles and source highlighting remain instantly legible. High-quality intentional composition, no excessive peripheral clutter.
+
+PASS 2
+Reference: exec-2285b48b-d917-4b7f-b87d-fd65529a5ab3.png
+Precision edit of this full tabletop screenshot. Preserve the beautiful entire scene, camera, lighting, materials, typography, scenery, health panel, selector, pawns, all ten cards and exact gameplay. Make ONLY this correction to the current03 PLAYER A+B pile.
+Currently the03 flameA is centered on the pawn axis and the shieldB extends too far to the right. The WHOLE A+B pair must instead be centered on the pawn axis. Both pawns, enemy03 and the brass03 marker are at x=50% image width and must NOT move. Reposition current player A+B together LEFT and increase their overlap so:
+- A flame card center atx47.0% and B shield card center atx53.0%.
+- The OUTER BOUNDING BOX of the pair has its midpoint EXACTLY atx50.0%, on the line between two pawn bases and through the center of enemy03.
+- In the1672pixel image, A center around786 and B center886; combined bounds approximately720..952, centered836. Current before edit A center~846 B~978, so moveA left60 andB left92.
+- Cards overlap about30percent of width, slightly fanned; A is front-left and B behind-right. BOTH A/B medallions and flame/shield imagery readable. They stay the same physical card size and row height.
+- No overlapping theC02 card: leave small gap between its right edge andA03 left edge.
+- Keep sapphire blue selected edge onB; create ONE shared soft warm gold pool / brass ornamental underline under the ENTIRE currentpair centeredx50%, rather than two independent neon rectangular frames. The existing centered circular gold focus can remain and should now sit exactly under the pair midpoint.
+Remove old outlines/shadows at their former positions. No duplicates or extra cards.
+Keep everything else precisely unchanged:01pair,02C,04C, all enemycards, wands, startbutton and backdrops. Do not add diagram guides, labels, grids or annotations. Single corrected polished game screenshot.
+
+Selected: exec-1e2797dc-1274-4322-baa7-525f609e2866.png
+
