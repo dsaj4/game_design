@@ -1,0 +1,27 @@
+UI concept v5 — simple structure
+Date: 2026-09-25
+Mode: built-in image_gen; first generation without image reference, followed by background cleanup edit.
+
+PASS 1
+Use case: ui-mockup.
+Create ONE very clear Chinese game UI concept illustration for “时间轴翻牌”, landscape 16:10, high legibility. This is a simplified explanatory design sheet for a game designer, not a polished commercial screenshot. Warm off-white paper background, muted sage tabletop panel, charcoal typography, flat hand-drawn card edges, restrained amber highlight. Generous whitespace, very few labels, no textures clutter, no ornamental frames, no particle effects, no CRT. Simplified tarot-like cards with large flame, shield, or wave icons rather than detailed artwork.
+
+Title at top left “时间轴翻牌”. Small subtitle “每杖一行 · 同刻一起翻”.
+Main expanded view occupies upper 70%, titled “展开：看每根法杖”. Left narrow area has enemy label and three wand row labels. Top enemy row, then three player rows. Four shared temporal anchor positions left to right, labeled only once “01”, “02”, “03”, “04”. NO grid boxes or full vertical grid lines. A subtle arrow above indicates “时间推进 →”.
+Exact event layout, preserve:
+Enemy row labeled “敌方”: four burgundy face-down cards at 01,02,03,04, all identical mysterious backs. The 03 card is tilted partway flipping, with a small tag “进攻线索” above it, no exposed enemy effect description.
+Wand A row labeled “法杖 A” with tiny wand silhouette and flame icon: face-up cream flame action card at 01 and at 03, no cards at02 or04. Each card marked A at its top-left corner.
+Wand B row labeled “法杖 B” with tiny wand silhouette and shield icon: face-up cream shield action card at01 and03, no cards at02 or04. Each card marked B.
+Wand C row labeled “法杖 C” with tiny wand silhouette and wave icon: face-up cream wave action card at02 and04, no cards at01 or03. Each marked C.
+The two player cards at03 A/B are raised slightly from tabletop and have matching amber outlines. Enemy03 receives the same amber outline. Use a slim amber bracket adjacent to this current cluster, not a full-width grid, with a short callout “同刻，一起生效”. Cards at01/02 look muted but remain legible, at04 normal. No arrows imply A acts before B. No fake empty-slot cards.
+On far right of main panel a tiny vertical summary with two slim health bars labeled “敌方” and “己方”, no numerical stats. One small callout at left, pointing to a wand row header, reads “点法杖，编辑法术”. No huge sidebars.
+Below main panel, separate small comparison strip occupying lower20%, titled “折叠：看共同时间轴”. A compact shared player timeline, same four nodes01 02 03 04. EXACT cards from above: at01 a slightly fanned pair A flame and B shield; at02 one C wave; at03 a slightly fanned pair A flame and B shield with amber outlines; at04 one C wave. These are six individual cards total, never combine flame and shield onto a new card. All source letters and large icons legible. Group overlap like poker cards, preserve time groups.
+Between expanded and folded labels a small “展开 / 折叠” toggle graphic conveys two alternative views of the SAME battle, not two simultaneous battles.
+Footer has one simple button “拨动起点，开始翻牌” and tiny caption “结构示意 · 规则待定”. Four time positions, three wands, icon spells are illustrative only.
+Chinese typography must be crisp, minimal and readable. The entire picture should explain the central structure at a glance. Do not add invented resource currencies, shops, upgrades, additional panels, extra cards, dense paragraphs, floating numerical results, pointer cursor, hands or ornamental tabletop props.
+
+PASS 2
+Reference: generated first pass exec-2c5574b1-6582-4b65-8b11-5ed25a868475.png
+Edit only the background and legibility of this UI explanation illustration. Preserve all cards, positions, icons, labels, numbers, the exact expanded and collapsed event mapping, and overall layout. Replace ALL transparent areas, black blotches, white speckles and noisy ragged areas around panels with a completely solid opaque uniform warm off-white (#F5F2EA) background. No texture, no transparency, no stippling, no distressed edges. Render the title and subtitle at the top in flat solid charcoal, no shadows, no bevel or transparency. Remove faint illegible extra text at bottom right and retain only the short dark gray footer '结构示意 · 规则待定'. Keep green panels and amber highlights clean and understated. The entire rectangular image must be fully opaque and clean. Do not add any UI or change any existing content.
+
+Selected: exec-8e9889d2-f163-4cf1-9326-c1e98a8854b3.png
