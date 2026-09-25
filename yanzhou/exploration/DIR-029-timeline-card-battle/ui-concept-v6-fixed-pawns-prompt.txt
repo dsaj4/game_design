@@ -1,0 +1,37 @@
+UI v6 — fixed pawns, leftward card motion
+Date: 2026-09-25
+Mode: built-in image_gen reference edits, no CLI or relay.
+Reference: ui-concept-v5-simple-structure.png
+
+PASS 1
+Use case: ui-mockup / precise-object-edit.
+Edit the provided Chinese UI diagram. Make exactly ONE design addition: implement the confirmed FIXED ENEMY AND PLAYER PAWNS with leftward scrolling card lanes and a tiny local pressing gesture. Keep the rest of the diagram's simple presentation and exact action data. This is incremental version V6, not a redesign.
+
+Preserve: warm opaque off-white background, pale sage rounded board, charcoal type, cream card faces, burgundy enemy backs, flame/shield/wave symbols, three wand rows A/B/C, four chronological anchors01/02/03/04, amber emphasis on03, right-side two health bars, row header edit callout, expand/collapse toggle, bottom collapsed comparison strip, existing start button. No new mechanics, panels, currencies, spell editor, shops, new actions, new decorative props. The canvas can be a little taller to fit pawns cleanly, but retain landscape proportions and hierarchy.
+
+Single change in the MAIN EXPANDED BOARD:
+Place exactly TWO small physical chess-like game tokens on round bases, vertically aligned on the true horizontal center of the picture (x=50% image width). Burgundy enemy token near the TOP edge of the main board, muted green player token near the BOTTOM edge of the main board. All four card rows occupy the space BETWEEN their bases. Use simple 2.5D carved silhouettes: enemy crowned token and player hooded token. Labels next to them “敌方棋子” and “玩家棋子”. Remove the old little horned enemy head icon from the row header so it is not a third pawn; keep the text enemy row label. No pawn on top of a card or obstructing a card.
+Recenter CURRENT anchor03 precisely on this same vertical axis, along with the enemy03, A03 and B03 cards. Shift other columns only as necessary to maintain chronological order:01 then02 left of03,04 right of03. The03 flame and03 shield cards must both remain visible and amber outlined. Add a hairline faint dashed amber alignment guide from the top pawn to the bottom pawn BEHIND the cards, explicitly just ONE central guide, not a grid.
+Add a short leftward arrow ABOVE the card lanes beside (not over) the enemy pawn, labelled exactly “← 牌列左移”. Replace the old upper “时间推进 →” arrow; do not leave it to conflict with card motion. Add a concise callout “棋子固定” pointing to a pawn base. Beside the player pawn a very small downward/forward press-tick and short label “局部点压” shows a small in-place gesture, NOT a walking path, NOT a horizontal movement arrow, no duplicate ghost pawn. Both bases anchored to the board.
+Keep the existing amber bracket around current A/B and its callout “同刻，一起生效”. A tiny label near03 can read “当前”.
+For space, distribute title/top pawn area/card rows/bottom pawn clearly without overlaps. Health bars stay in right-hand sidebar, not moved onto pawns.
+
+Exact unchanged action data:
+Enemy one back card at each01/02/03/04;03 back tilted and amber outlined with “进攻线索”.
+A flame cards ONLY at01 and03.
+B shield cards ONLY at01 and03.
+C wave cards ONLY at02 and04.
+Six player action cards total in expanded panel.
+Bottom collapsed comparison remains01 pairA+B,02 singleC,03 pairA+B highlighted amber,04 singleC; six player cards. It is a small reference strip, not a second full battle board; do not add more pawns there.
+
+Main title “时间轴翻牌”. Change subtitle to “固定棋子 · 牌列左移” to describe this single new feature and remove the previous typo. Main panel heading “展开：看每根法杖”. Bottom heading “折叠：看共同时间轴”. Keep footer “结构示意 · 规则待定”. All text crisp and Chinese correctly spelled.
+The central takeaway must be visually unmistakable: two fixed opposing pawns, current simultaneous cards between them on the vertical center line, card lanes shift LEFT, small local pawn press drives flipping. Do not add any further design feature.
+
+PASS 2
+Reference: exec-4df7fe56-d58a-4227-94b6-41b8d97117ca.png
+Correct this existing diagram with TWO precision corrections within the SAME fixed-pawn design. Do not redesign or add features.
+1. Crucial alignment: the vertical dashed amber line and BOTH pawns are correctly at x=50% of the canvas. Keep them fixed. Move the entire CURRENT03 card column LEFT by about 90 pixels so the center of enemy03 card, center of A03 flame card, and center of B03 shield card are ALL EXACTLY ON THE DASHED LINE x=50%. The line must pass behind the MIDDLE of these three cards, not beside their left edge. Move the "03" number and its进攻线索 tag and same-time bracket/callout accordingly. Preserve all six player cards, four enemy cards, other times, health bars, row labels. No card should cover the pawns. Move the bottom collapsed03 GROUP and03 dot left so the center of its A+B pair is on x=50% too; space02 and01 leftward a little only if necessary, preserve04. Keep its two separate cards and labels.
+2. Remove the white pointing mouse-hand symbol beside the player pawn. "局部点压" describes the pawn's own animation, NOT user click input. Replace the hand and green downward arrow with just two tiny understated contact-motion ticks beside the pawn base. Keep the label局部点压 and base fixed.
+Everything else unchanged. All text must remain readable. Keep opaque background.
+
+Selected: exec-b8fa450e-6393-48eb-8572-2c98603d20f5.png
