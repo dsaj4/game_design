@@ -10,6 +10,7 @@
 | [独立肉鸽探索](exploration/new-roguelike/README.md) | 空白背景起点，不继承言咒 |
 | [项目地图](docs/workspace-map.md) | 路径与身份 |
 | [共享知识](docs/shared-knowledge.md) | 通用方法、模板与规则 |
+| [玩法机制设计器](docs/skills/gameplay-mechanism-designer.md) | 项目内 skill：机制发散、循环与系统关系，含推荐话术 |
 | [协作规范](docs/github-collaboration.md) | 分支、保护与提交推送 |
 | [上一轮文档整理报告](yanzhou/history/reorganizations/2026-09-23-doc1/organization-report.md) | 迁移、检查与遗留项 |
 

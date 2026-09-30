@@ -1,0 +1,68 @@
+{
+  "repository": "https://github.com/qiuaoru-coder/game-design-agent-skills",
+  "commit": "29e8c759ca26c6bd4f337744b647dc728bf322b6",
+  "subdirectory": "gameplay-mechanism-designer",
+  "installed_at": "2026-09-30",
+  "scope": "project-runtime-conditional",
+  "integration_revision": "game-project-1",
+  "upstream_files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "9e3396ab1c8192cc2c2c07629a2942c3fcfbfac8619fd615dd669254ac11ff32"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "eaa9f79791f6fe6d731e4bd9e59ce84c38a6269d7de4058fbd8027151b9123a4"
+    },
+    {
+      "path": "references/design-output-spec.md",
+      "sha256": "be65893a869c9c5b439c6e7519cbc75abb542cbce2009554e4a42ddb1eac3a98"
+    },
+    {
+      "path": "references/gameplay-placements.md",
+      "sha256": "b0ca7de3d6fa8636fbdc6d85bc0fc07699d28ce4c9d376483fec79a4e3a78b1f"
+    },
+    {
+      "path": "references/input-output-contract.md",
+      "sha256": "9ff578b3add0baea2c24055a587baa11dd2c77fdc77db9286e2c5734b40ee21b"
+    },
+    {
+      "path": "references/loop-patterns.md",
+      "sha256": "373d9a38ff6e8de1ef1e2801ba566c8d395131c5addd9bf9ea7e43cabb8c4cc2"
+    },
+    {
+      "path": "references/mechanism-chains.tsv",
+      "sha256": "98be12dd77413ac20fc3f0b969a0856d51a025d797ef8ba952e3ecbebc8ecc0e"
+    },
+    {
+      "path": "references/mechanism-elements.md",
+      "sha256": "6aea2995c6e2af02ee4d90591abc114ec6ffb8c5ba81faa9591e8e6e0d9f6e3f"
+    },
+    {
+      "path": "references/mechanism-families.md",
+      "sha256": "3d270c18eb54887d4ae156b72254e2f79e3bebe42221a44f400e5dc1059d1beb"
+    },
+    {
+      "path": "references/state-domains.md",
+      "sha256": "7505ea426a52f811dc4cc2143a8da00392df035ff02167f3dbe8bd628c254fd2"
+    },
+    {
+      "path": "references/system-relations.md",
+      "sha256": "c84990d3e4c3b9d835c9a2221580c62e9ae413445c09fd303b45286782748734"
+    },
+    {
+      "path": "LICENSE",
+      "upstream_path": "LICENSE",
+      "sha256": "c78dfe0f170f9c11e0865c3ebdda760c7536127f82efd8f5242c7f38e1c9f30f"
+    }
+  ],
+  "locally_modified": [
+    "SKILL.md",
+    "agents/openai.yaml"
+  ],
+  "locally_added": [
+    "references/project-integration.md",
+    "source-lock.json"
+  ],
+  "license_note": "Repository MIT notice copied from pinned root LICENSE; preserve source attribution in mechanism-chains.tsv."
+}

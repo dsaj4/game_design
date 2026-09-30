@@ -1,0 +1,4 @@
+interface:
+  display_name: "玩法机制设计器"
+  short_description: "从灵感扩展到机制链、核心循环、系统网络与可测试原型方案"
+  default_prompt: "使用 $gameplay-mechanism-designer，启动言咒新探索：按 CORE 阅读核心设计，用 Spark 将我的灵感展开为三个有不同取舍的 Raw 候选，在一个方向 README 保存；缺失信息保留 Unknown，不自动扩读或回写主系统。"

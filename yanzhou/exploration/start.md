@@ -108,4 +108,6 @@ GDD不是只读主页后就算全读，也不是递归打开所有链接。当�
 
 明确构思后继续资格确认；正式素材、提案、评估确有需要时才同方向建文件。回写现行设计仍需目标复审、Draft Change、明确采纳与决策记录。本规范只控制阅读输入，不能把“读了全量”变成跳过资格或覆写主系统的理由。
 
+需要机制发散、循环补全或系统关系分析时，可使用项目内 [gameplay-mechanism-designer](../../docs/skills/gameplay-mechanism-designer.md)。其内置图谱属于通用方法材料，选择性读取并与游戏背景分开记录；不会扩大本规范的游戏材料范围。用户也可显式排除内置方法库。Spark 的多个候选先留同一方向 README，Full Design 与 Prototype Pack 不改变资格或执行权限。
+
 [返回方向入口](README.md) · [操作规则](AGENTS.md) · [核心设计](../design/core-design.md)

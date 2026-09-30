@@ -441,3 +441,7 @@ git checkout -b agent/<agent-name>/<YYYY-MM-DD>-<short-task>
 ## 2026-09-24 核心浓缩与探索阅读选择
 
 用户要求可控制新探索方向的游戏背景。[核心设计](yanzhou/design/core-design.md)是GDD浓缩，旧core-concept仅作版本入口。言咒探索任务在任何主系统内容检索前应用[start.md](yanzhou/exploration/start.md)：默认CORE、完整GDD固定包、全量主系统文档、自选或空白；明确增补/排除优先，链接不自动扩读。每方向记录实际版本、已读/未读与扩读授权；已有方向不自动换基线。这里替代本手册对探索的默认游戏背景读取步骤，必要操作规则与资格、Git保护继续有效。
+
+## 2026-09-30 项目内玩法机制设计 skill
+
+已安装 [gameplay-mechanism-designer](.codex/skills/gameplay-mechanism-designer/SKILL.md)，固定上游与[推荐用法](docs/skills/gameplay-mechanism-designer.md)可追踪。用于机制发散、变体、循环、系统关系及验证计划；调用时先读其项目适配层。方法参考与游戏背景分别记录，不能越过 READ-1；新候选保持 Raw，资格继续使用 grill-with-docs，正式文档继续使用根登记模板。Full Design 不自动成为正式 GDD，Prototype Pack 不自动实现或运行测试；不要求普通文档管理任务调用本 skill。
