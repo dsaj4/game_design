@@ -70,7 +70,7 @@ exploration/
 | [DIR-027 咒理试炼](DIR-027-spell-principle-trial/README.md) | 同一配置应对多种输入，通过解释和复盘形成知识成长。 | Raw Idea / Unqualified |
 | [DIR-028 时间轴深度构筑](DIR-028-timeline-depth/README.md) | 将节奏、时间窗口与事件接续关系作为构筑对象，探索时间轴成为核心玩法的可能性。 | Agent Proposal / Raw Idea / Unqualified |
 | [DIR-029 时间轴铺卡战斗](DIR-029-timeline-card-battle/README.md) | 自构法术，每杖按冷却生成一行牌，共享可折叠时间轴；默认并行、强力法术有独占格，同刻效果同时生效，敌方暗牌有线索。 | Raw Idea / Unqualified |
-| [DIR-030 卡牌规则设计](DIR-030-card-rule-design/README.md) | 全部机制可重做；从简单清晰的基础卡牌规则出发，探索拼接匹配与后续机会的取舍。 | Raw Idea / Unqualified；CORE |
+| [DIR-030 卡牌规则设计](DIR-030-card-rule-design/README.md) | 全部机制可重做，优先保留时间轴铺排，以时间轴资源管理为核心；构句可重做且不作为核心。 | Raw Idea / Unqualified；CORE |
 
 ## 历史怎么查
 
