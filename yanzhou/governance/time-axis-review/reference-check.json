@@ -1,0 +1,19 @@
+{
+  "head": "e540b0fd6885992e9701abe2e461316d07c2021f",
+  "scope": "current yanzhou Markdown plus new audit sources index; existing history excluded; local file existence; new report anchors checked; no remote URL verification",
+  "broken": [
+    {
+      "path": "yanzhou/sources/inbox/2026-09-12-first-person-grid-battlefield.md",
+      "line": 13,
+      "target": "../../../workspaces/game-002/docs/reference-images/2026-09-12-first-person-battlefield-reference.jpg"
+    }
+  ],
+  "new_report_anchors": [
+    {
+      "source": "yanzhou/governance/time-axis-review.md",
+      "target": "conflict-register.md#aud-010最小澄清场景",
+      "exists": true
+    }
+  ],
+  "before": "reference-check-before.json"
+}

@@ -18,3 +18,5 @@ Project ID：`game-002`。项目目录：`yanzhou/`。设计基准：**GDD 1.0 R
 [术语](CONTEXT.md) · [Agent路径与权限](AGENTS.md) · [完整目录设计](governance/directory-layout.md) · [文件清单](governance/file-index.md) · [探索简化报告](governance/exploration-simplification-report.md)
 
 正式设计、探索候选和运行证据分别维护。设计Accepted不代表体验已验证；AUD-010仍Open。旧`workspaces/game-002/`和`exploration/game-002-optimization/`为兼容入口，冻结来源与已有未提交文件按迁移报告保留。独立肉鸽、旧游戏和共享模板仍在仓库各自目录，不并入言咒。
+
+[时间轴主题导航与审查](governance/time-axis-review.md)：按规则版本、探索状态和验证范围追踪全部时间轴资料。

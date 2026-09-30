@@ -16,7 +16,7 @@
 ```md
 ## 阵营、实际法杖范围与起始资源
 
-依据：G002-CORE-031，2026-09-14用户确认HG02／WG01／SG01。实际表同时见[合格素材](../../../workspaces/game-002/game-design-workflow/draft-changes/idea-materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)。
+依据：G002-CORE-031，2026-09-14用户确认HG02／WG01／SG01。实际表同时见[合格素材](../materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)。
 
 ### HG02 阵营与固有属性的具体对象登记（已采纳）
 
@@ -91,13 +91,13 @@
 原文：
 
 ```md
-实际法杖、货架与参数另定，已采用边界见下方BR06／07和[镶嵌素材](../../../workspaces/game-002/game-design-workflow/draft-changes/idea-materials/M-2026-09-12-wand-inlay-system.md)。
+实际法杖、货架与参数另定，已采用边界见下方BR06／07和[镶嵌素材](../materials/M-2026-09-12-wand-inlay-system.md)。
 ```
 
 新文：
 
 ```md
-实际法杖、范围、起始库存及容量按下方G002-CORE-031；货架、价格与其余参数另定。已采用装配边界见BR06／07和[镶嵌素材](../../../workspaces/game-002/game-design-workflow/draft-changes/idea-materials/M-2026-09-12-wand-inlay-system.md)。
+实际法杖、范围、起始库存及容量按下方G002-CORE-031；货架、价格与其余参数另定。已采用装配边界见BR06／07和[镶嵌素材](../materials/M-2026-09-12-wand-inlay-system.md)。
 ```
 
 ## 采纳理由

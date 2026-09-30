@@ -16,3 +16,5 @@ Project ID：game-002。文档角色：Navigation。
 
 
 [核心设计浓缩](../design/core-design.md)与[探索阅读模式READ-1](../exploration/start.md)由G002-DOC-008登记；不改变RC1玩法版本。
+
+- [时间轴全量资料导航与一致性审查](time-axis-review.md)：现行规则、全部方向、来源历史、证据与覆盖清单。

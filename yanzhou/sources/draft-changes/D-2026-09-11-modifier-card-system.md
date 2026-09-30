@@ -29,7 +29,7 @@
 
 修饰词不自动新增法术类型；分类继续读取既定主语与名词特征。修饰词的渠道资格逐卡声明；休整的名词、动词及剩余合格词三选一结构继续适用，第三候选可包含具备资格的修饰词。镶嵌属于法杖配置层，按当前顺序在修饰词之后补足，再开展流派成套物品设计。
 
-规则详见[修饰词素材](../../../workspaces/game-002/game-design-workflow/draft-changes/idea-materials/M-2026-09-11-modifier-card-system.md)与[G002-CORE-016](../../../workspaces/game-002/game-design-workflow/draft-changes/draft-changes/D-2026-09-11-modifier-card-system.md)。当前证据Hypothesis，测试继续积累。
+规则详见[修饰词素材](../materials/M-2026-09-11-modifier-card-system.md)与[G002-CORE-016](D-2026-09-11-modifier-card-system.md)。当前证据Hypothesis，测试继续积累。
 ```
 
 ## 拟替换内容

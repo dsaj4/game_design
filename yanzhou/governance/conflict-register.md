@@ -11,7 +11,7 @@
 | AUD-005 | 稍后赋值／先写GDD等旧阶段语句 | 当前正文改指既有PG／CG／EG；历史文本原样追溯 | Resolved |
 | AUD-006 | 下方WG01实际位于另一文件 | 改为SYS-002明确引用，旧链接保留兼容入口 | Resolved |
 | AUD-007 | G002-DOC-002重复 | BR12唯一ID改DOC-004，历史别名按日期限定 | Resolved |
-| AUD-008 | 旧current-questions路径不存在 | game-002统一使用docs/design-decisions-needed.md | Resolved |
+| AUD-008 | 旧current-questions路径不存在 | game-002统一使用yanzhou/governance/questions.md（layout.1现行入口） | Resolved |
 | AUD-009 | 多个当前修订与历史未确认混排 | 当前入口与FX现用索引分离历史；原状态不重写 | Resolved |
 | AUD-010 | 新开始动作与既有持续过程子事件同刻先后不够明确 | 需规则来源核实／裁决；不能用开始槽优先级代替过程总顺序 | Open / DesignClarification |
 | AUD-011 | 三种杖／四根出战，55ID／53实体混称 | 统一款式、实体、流派ID和通关／全图数量单位 | Resolved |

@@ -21,7 +21,7 @@
 ```md
 ## 共用规则与卡牌设计要求
 
-[G002-CORE-015](../../../workspaces/game-002/game-design-workflow/draft-changes/draft-changes/D-2026-09-11-global-rule-boundaries.md)已采纳GR01–GR12的推荐处理，详细规则与状态见[全局边界素材](../../../workspaces/game-002/game-design-workflow/draft-changes/idea-materials/M-2026-09-11-global-rule-boundaries.md)。卡牌在进入可评测候选前补齐实际依赖的参数域、角色配对、零值、费用、过程窗口与完整事件顺序；没有涉及的后置机制不成为统一前置。
+[G002-CORE-015](D-2026-09-11-global-rule-boundaries.md)已采纳GR01–GR12的推荐处理，详细规则与状态见[全局边界素材](../materials/M-2026-09-11-global-rule-boundaries.md)。卡牌在进入可评测候选前补齐实际依赖的参数域、角色配对、零值、费用、过程窗口与完整事件顺序；没有涉及的后置机制不成为统一前置。
 
 事件型内容须声明观察事件、计费／计次、处理时点、阶段、顺序与有限响应；条件筛选不自动增加施法。GR07-C01“同阶段新派生事件延至下一刻”为选定待测候选，明确的有限子步骤仍在当前完整效果内；现有四阶段及状态周期／到期顺序保持。FAT-C继续保留完整候选身份，细则与数值未因本次批量确认升级。
 

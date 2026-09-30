@@ -793,3 +793,8 @@
 - [visual/reviews/2026-09-19/source-manifest.json](../visual/reviews/2026-09-19/source-manifest.json)
 - [visual/reviews/2026-09-19/style-guide.md](../visual/reviews/2026-09-19/style-guide.md)
 - [visual/reviews/2026-09-19/tabletop-prompts.json](../visual/reviews/2026-09-19/tabletop-prompts.json)
+
+
+## 2026-09-30 时间轴治理附件
+
+[主题导航与审查](time-axis-review.md)；[覆盖说明](time-axis-review/coverage.md)；[全部资料定位](time-axis-review/sources.md)；[文件与哈希清单](time-axis-review/inventory.json)；[章节定位目录](time-axis-review/catalog.json)；[修订与检查](time-axis-review/verification.json)；[修订前链接](time-axis-review/reference-check-before.json)。这些是治理与导航附件，未新增CurrentSpec或DirectionNote。
