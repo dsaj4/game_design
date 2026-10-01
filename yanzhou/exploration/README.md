@@ -43,7 +43,7 @@ exploration/
 
 | 方向 | 构思 | 状态 |
 | --- | --- | --- |
-| [DIR-028 时间轴深度构筑](DIR-028-timeline-depth/README.md) | 将节奏、时间窗口与事件接续关系作为构筑对象，探索时间轴成为核心玩法的可能性。 | Agent Proposal / Raw Idea / Unqualified |
+| [DIR-028 时间轴深度构筑](DIR-028-timeline-depth/README.md) | 将节奏、窗口与接续关系落到行动牌；2026-10-01整合DIR-029铺卡与DIR-030有限容量目标，保留自动生成／手动铺排两条未合并路径。 | Agent Proposal / Raw Idea / Unqualified；第2轮CUSTOM |
 | [DIR-029 时间轴铺卡战斗](DIR-029-timeline-card-battle/README.md) | 自构法术，每杖按冷却生成一行牌，共享可折叠时间轴；默认并行、强力法术有独占格，同刻效果同时生效，敌方暗牌有线索。 | Raw Idea / Unqualified |
 | [DIR-030 卡牌规则设计](DIR-030-card-rule-design/README.md) | 优先保留时间轴铺排，构句不作为核心；从有限时间容量发散十版简单规则，后续再收敛与评估。 | Raw Idea / Unqualified；CORE |
 
