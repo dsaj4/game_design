@@ -1,18 +1,18 @@
 # 时间轴资料导航与一致性审查
 
-> 2026-09-30清理注：本文审查结论及覆盖统计保留原轮次语境；详细机器目录已固定在提交`d44ecd04840b434b171d26f601bafbd87c311c92`。现用定位见[来源导航](time-axis-review/sources.md)，旧行号不用于解释清理后的文件。
+> 2026-09-30 / layout.3：本轮只更新简化后的系统内导航。下列机制、来源演变与方向比较保留既有审查摘要，没有新增玩法审查或采纳。
 
-Project ID：game-002 / game-002-optimization。文档角色：TopicNavigation / DocumentationAudit。日期：2026-09-30。状态：文档整理；没有新增玩法采纳、资格晋级或验证结果。
+Project ID：game-002。文档角色：TopicNavigation / DocumentationAudit。日期：2026-09-30。状态：文档整理；没有新增玩法采纳、资格晋级或验证结果。
 
 本页把“时间轴”作为主题，把现行规格、原始来源、探索候选、历史版本、效果身份、实现证据与视觉表现连起来。规则仍由[现行设计](../design/README.md)维护，本页摘要不能成为第二套规则。
 
-本次使用READ-1 **CUSTOM**：任务授权横向整理言咒主系统、全部探索方向、项目自身历史、兼容路径及明确关联的共享入口。固定起始HEAD为`e540b0fd6885992e9701abe2e461316d07c2021f`。普通方向后续仍按自己的既定来源阅读；本次横向审查不替它们升级背景。
+本轮使用READ-1 **CUSTOM**：只盘点简化后 `yanzhou/` 内实际存在的文件；本地历史仅登记来源位置。起始HEAD为 `e11b98ff941b3689c6f60aeafb2cf720f477e79f`。已删除目录、Git历史快照、根归档、共享文档和外部仓库不纳入。普通方向后续仍按自己的既定来源阅读。
 
-完整盘点及阅读边界见[覆盖说明](time-axis-review/coverage.md)。[资料定位目录](time-axis-review/sources.md)连接全部主题命中来源；[文件清单](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/governance/time-axis-review/inventory.json)保存Git blob、SHA、原工作树差异及阅读状态，[章节目录](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/governance/time-axis-review/catalog.json)保存精确定位行与章节范围。文件盘点、机器检索、主题摘录审查和全文阅读是不同状态。
+完整盘点及阅读边界见[覆盖说明](time-axis-review/coverage.md)。[资料定位目录](time-axis-review/sources.md)提供主题入口与目录统计；[现存文件索引](file-index.md)逐项列出409份文件。本轮不另建重复机器清单，也不把文件存在性盘点记作全文阅读。
 
 ## 现行规则从哪里读
 
-| 问题 | 权威入口与定位 | 本次核对的口径 |
+| 问题 | 权威入口与定位 | 既有主题摘要（规则以链接正文为准） |
 | --- | --- | --- |
 | 一刻多长、何时暂停 | [GDD §3](../design/GDD.md)、[UX04](../design/systems/07-interaction-save.md) | 1×下逻辑刻0.5秒；战斗前停在第0刻之前，单步推进下一完整刻。速度和动画不改变规则顺序；终局可以在事件后提前结束当刻。 |
 | 什么是起点 | [SYS-002](../design/systems/02-wands.md)、[PG-T01](../design/parameters.md) | 每杖首次冷却开始在0–10整数刻；不是直接指定第一次效果发生刻，也不是公共循环板的长度。 |
@@ -37,19 +37,19 @@ UX默认配置起点0／1／2／2，对应4／5／7–9／8刻首轮；第8刻�
 
 | 来源阶段 | 可追溯记录 | 与今天的关系 |
 | --- | --- | --- |
-| 早期逐句施法／时间成本 | [施法耗时素材](../sources/materials/M-2026-09-05-casting-time-and-interruption.md)、[编排预览素材](../sources/materials/M-2026-09-05-timeline-schedule-preview.md)及各自原始存档 | 历史的逐句构句、词卡周转与时间含义经过后续重组。现行素材中的归一化字段和历史原文必须分别解释。 |
+| 早期逐句施法／时间成本 | [施法耗时素材](../sources/materials/M-2026-09-05-casting-time-and-interruption.md)、[编排预览素材](../sources/materials/M-2026-09-05-timeline-schedule-preview.md) | 历史的逐句构句、词卡周转与时间含义经过后续重组。现行素材中的归一化字段和历史原文必须分别解释；系统外原始存档不纳入本轮盘点。 |
 | 09-09 时间背包TS1–8 | [原始确认TB1–7](../history/exploration-2026-09-24/idea-inbox/2026-09-09-timeline-backpack-spells.md)、[局部合格素材](../history/exploration-2026-09-24/idea-materials/M-2026-09-09-timeline-backpack-scheduling.md)、[CORE-002拟修改](../sources/draft-changes/D-2026-09-09-timeline-backpack-core.md) | 战前编排、实体独占、循环、有限首次窗口及公开敌情部分进入主系统。原TS的首轮第5刻、命中同刻先取消、容量自然约束法术数等不能整包带入RC1。AUD-014已登记部分吸收。 |
 | CORE-006／007 | [战前构句拟修改](../sources/draft-changes/D-2026-09-09-prebattle-spell-wand-assembly.md)、[接口素材](../sources/materials/M-2026-09-10-accepted-design-interfaces.md)、[决定记录](decision-log.md) | 当前四阶段、0–10首次冷却、词卡时间求C、实际生命伤害取消冷却及独立失败反馈的依据。 |
 | R23／R24及GR02 | [R01–32素材](../sources/materials/M-2026-09-10-semantic-world-executable-rules.md)、[GR素材](../sources/materials/M-2026-09-11-global-rule-boundaries.md) | 取消不复活、改期续排、开始槽与多刻过程分离；旧GR07-C01在S2／E3内已被RC06替代。 |
 | ST与RC | [ST01–04](../sources/materials/M-2026-09-13-end-tick-status-rulings.md)、[RC01–12](../sources/materials/M-2026-09-13-card-pool-rule-rulings.md) | CORE-018改为每刻末状态并保留小数衰减；CORE-019明确有限完整复诵、一层即时触发与逐刻持续过程。旧每3刻实验不能外推。 |
 | BR与最终首版包 | [BR](../sources/materials/M-2026-09-13-pre-gdd-recommendation-batch.md)、[CG](../sources/materials/M-2026-09-14-card-interface-completion.md)、[PG](../sources/materials/M-2026-09-14-first-release-parameters-and-channels.md)、[RG](../sources/materials/M-2026-09-14-run-route-encounters-and-fatigue.md)、[UX](../sources/materials/M-2026-09-14-interface-platform-and-experience.md) | CORE-029的正L／并存／保存等接口，加CORE-032–036的具体词效、时间、路线、疲劳和表现。对应现行正文，不由旧实验参数替代。 |
-| doc.1／layout.1–2／CORE-SUM-1 | [文档合同](document-contract.md)、[基准](../design/baseline.md)、[摘要](../design/core-design.md) | 文档权威与路径管理；不重新采纳玩法。摘要自身依据0591fa5…，本次实际读取HEAD另列，两者不混写。 |
+| doc.1／layout.1–3／CORE-SUM-1 | [文档合同](document-contract.md)、[基准](../design/baseline.md)、[摘要](../design/core-design.md) | 文档权威与路径管理；不重新采纳玩法。摘要自身依据0591fa5…，本轮盘点起始HEAD另列，两者不混写。 |
 
-[资料目录](time-axis-review/sources.md)还包含inbox、Proposal、Evaluation、Draft Change、旧冻结背景及对应FX历史。Qualified只授予明确素材范围的正式引用资格；Proposal／Evaluation与技术实现不自动授予Accepted。
+[资料目录](time-axis-review/sources.md)连接系统内现存inbox、Proposal、Evaluation、Draft Change、历史来源及FX记录。Qualified只授予明确素材范围的正式引用资格；Proposal／Evaluation与技术实现不自动授予Accepted。
 
 ## 全部30个探索方向的时间轴关系
 
-下表是本次治理任务的主题定位与Research / Provisional比较，不替各方向确认细则或合并机制。早期方向沿原固定背景；09-14与09-20候选沿各自显式RC1；028–030沿各自固定CORE。每个页首与阅读表中的完整提交／blob是其实际依据，不能用本次HEAD统一覆盖。
+下表保留既有主题定位与Research / Provisional比较，本轮没有重评候选或升级背景。早期方向沿原固定背景；09-14与09-20候选沿各自显式RC1；028–030沿各自固定CORE。每个页首与阅读表中的完整提交／blob是其实际依据，不能用本轮HEAD统一覆盖。
 
 | 方向 | 时间轴相关内容与主要边界 | 原资格／采纳 |
 | --- | --- | --- |
@@ -96,12 +96,12 @@ DIR-030十版分别是：连续时间拼排、截止时刻、时间邻接、空�
 | [RC1验证计划](../design/validation.md)与[冻结输入](../development/inputs/pre-gdd-2026-09-14.md) | V01–20、720单场、20整局切片及U01–08的未来输入／预期。 | 已实跑；这些切片穷举全部合法配置。AUD-010场景先明确结果再作实现／平衡判断。 |
 | [主系统09-19视觉](../visual/reviews/2026-09-19/style-guide.md) | 战前配置、计划轴、C／L／起点与实际事件应区分；静态图只作表现参照。 | 图中数字／连线准确即证明结算；旧构图或动画给新权限。01／02图的首轮4／5／7–9／8与UX例一致；05-v2局部刻轴不能替代PG时序。 |
 | [DIR-029主UI](../exploration/DIR-029-timeline-card-battle/UI-2026-09-25-timeline-flip-structure.md)／[运动选择](../exploration/DIR-029-timeline-card-battle/UI-2026-09-25-pawn-and-card-motion.md) | 固定两枚敌我棋子、牌列左移、局部点压、共同中轴已在方向内确认；词卡／行动牌／同刻组身份明确。 | 同刻组逐张推进、动画先后规定结算优先级，棋子演出成为战场位移，折叠合成新法术。 |
-| DIR-029两份既有研究、v1–v9图稿及提示词 | 研究身份、构图演变、风格参照。11张方向PNG含两张用户参考均已查看；v3／v4紧排与共同时间对齐问题已由UI文字保留。 | 原游戏产品规则全部被核实／视频逐帧看过，图中的示例牌名／刻数成为正式参数，v7／v9候选布局整体已采纳。 |
-| [DIR-029动效索引](../development/README.md) | 09-30四刻局部翻牌演示，既有说明／verification.json记录同步、暂停、重播、固定基座及窄窗口等检查。 | 新实跑、战斗结算／真实冷却／独占／构句实现或真人验证。本次仅读两份被索引的证据文件，没有进入外部实现源码。 |
+| DIR-029两份既有研究、v1–v9图稿及提示词 | 保留系统内研究记录、构图演变及风格参照；v3／v4紧排与共同时间对齐问题已由UI文字保留。本轮仅登记现存文件，未新读图。 | 原游戏产品规则全部被核实／视频逐帧看过，图中的示例牌名／刻数成为正式参数，v7／v9候选布局整体已采纳。 |
+| [DIR-029动效索引](../development/README.md) | 系统内索引保留09-30四刻局部翻牌演示的范围、既有检查与外部证据位置。 | 新实跑、战斗结算／真实冷却／独占／构句实现或真人验证。本轮没有展开外部说明、verification或源码。 |
 
 具体FX追踪：当前冷却[018](../effects/catalog.md#fx-018)、其他未完成时间[019](../effects/catalog.md#fx-019)、隔周期加速[026](../effects/catalog.md#fx-026)、完整复诵[033](../effects/catalog.md#fx-033)、跳冷却[129](../effects/catalog.md#fx-129)。轻巧039、被覆盖后加速056、护甲存续057、生成后加速058、替换成功088、冰甲后缩时090、消耗层加速093及耗尽后缩时095等历史候选由[FX目录](../effects/catalog.md)和各历史来源追踪；有稳定ID不意味着首版可获得或已采纳。
 
-## 一致性结论与本次修订
+## 既有结论与本轮导航更新
 
 | 审查项 | 结论／动作 |
 | --- | --- |
@@ -110,12 +110,12 @@ DIR-030十版分别是：连续时间拼排、截止时刻、时间邻接、空�
 | AUD-010 | **Open / DesignClarification**保持：新开始动作与已有持续过程子事件同刻的总先后未唯一确定。后杖赢开始槽、四阶段或R08对象顺序均不足以代替这一裁决。 |
 | DIR-029规则差异 | 是主动探索替代规则，整体仍Raw；局部UI确认不消除同刻资源生成／消耗、防护／伤害、打断、同亡与独占边界。保留Unknown，不“修成”RC1。 |
 | DIR-030范围 | 用户已把核心转为时间容量，三版推荐与早期匹配记录有各自状态。没有把构句重新当作已选核心，没有跨方向嫁接规则。 |
-| 方向数量／导航 | 首页29改30；比较页“27方向索引”改为“全部方向索引”，原27方向比较范围保持。 |
-| DIR-014摘要 | 原正文和原始R2只讨论无合法对象候发，旧摘要“取消与有限等候”易暗示救回覆盖。改为准时／晚1／晚3供给对照，明确覆盖／打断不补发；不新增规则。 |
-| AUD-008旧问题路径 | 改为layout.1现行`yanzhou/governance/questions.md`，不改原问题Resolved状态。 |
-| 来源断链 | 修复6份Draft Change中的17处已唯一对应的相对链接，恢复到同项目现行M／D；历史文字和原始存档不变。逐项见[修订记录](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/governance/time-axis-review/corrections.json)。 |
-| 缺失引用图片 | 09-12第一人称战场来源所指旧兼容jpg在起始工作树缺失，登记为缺口；没有恢复或替换用户文件。它不能补充时间规则或视觉验收。 |
+| 方向数量／导航 | 保留30方向导航；原27方向比较范围保持。本轮盘点探索目录现存58份文件，不把方向数当作文件数。 |
+| DIR-014摘要 | 保留前轮订正：原正文和原始R2只讨论无合法对象候发；准时／晚1／晚3供给对照明确覆盖／打断不补发，不新增规则。 |
+| AUD-008旧问题路径 | 保留现行`yanzhou/governance/questions.md`定位及原问题Resolved状态。 |
+| 来源导航 | 改用简化后的主题入口与409份现存文件索引；移除旧机器附件的直接导航，不合并退役路径和Git快照。本轮检查范围见[覆盖说明](time-axis-review/coverage.md)。 |
+| 旧兼容图片缺口 | 旧兼容路径已退出本轮范围，不作为现存资料或本轮断链，也不恢复文件。旧缺口不能补充时间规则或视觉验收。 |
 
-审查结论限于下述可追溯覆盖，不能描述为全部历史文本逐句阅读、全部链接锚点验证、外部代码复核或全部合法组合正确。详细阅读状态、非主题排除及未实跑边界见[coverage](time-axis-review/coverage.md)；检查结果见[verification](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/governance/time-axis-review/verification.json)。
+既有审查摘要不等于本轮重新验证全部机制。现存文件盘点、阅读状态、排除范围与导航检查结果见[覆盖说明](time-axis-review/coverage.md)；没有新增历史全文审查、外部代码复核或玩法验证。
 
 后续最自然的设计动作仍是按[原最小场景](conflict-register.md#aud-010最小澄清场景)裁决AUD-010，再冻结相应规则验收输入；本次没有替用户选择先后，也没有执行新的玩法实验。
