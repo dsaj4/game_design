@@ -8,7 +8,7 @@
 
 ## 触发来源
 
-[新版55项清晰度审查](../../history/audits/card-pool-clarity-audit-2026-09-13.md)；用户此前要求短规则、机制创新、避免复杂规则句。本版把共同规则放在规则说明里，卡面继续短句。
+[新版55项清晰度审查](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/card-pool-clarity-audit-2026-09-13.md)；用户此前要求短规则、机制创新、避免复杂规则句。本版把共同规则放在规则说明里，卡面继续短句。
 
 ## 可能带来的玩家体验
 
@@ -185,7 +185,7 @@
 
 ## 下一步
 
-按[写作前缺口](../../history/audits/pre-gdd-design-decisions-2026-09-13.md)继续细化。用户已要求先确定缺口再写GDD，不运行新测试。
+按[写作前缺口](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/pre-gdd-design-decisions-2026-09-13.md)继续细化。用户已要求先确定缺口再写GDD，不运行新测试。
 
 ## 效果登记对应
 

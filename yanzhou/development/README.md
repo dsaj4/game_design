@@ -26,4 +26,4 @@
 
 依据[RC1当前规则](../design/README.md)修补实现，先处理有唯一预期的差异；AUD-010等设计歧义先回设计问题。新测试须另冻结设计和代码输入，不把本次目录整理当作新玩法证据。
 
-[全部历史版本、资产和交付证据](../history/pre-organization/docs/code-development-index.md)。
+[全部历史版本、资产和交付证据](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/code-development-index.md)。

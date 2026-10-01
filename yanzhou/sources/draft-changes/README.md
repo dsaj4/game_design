@@ -2,7 +2,7 @@
 
 Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 
-本目录按每份来源的资格、采纳和使用范围阅读；不以文件日期推断当前玩法。[现行规则](../../design/README.md)、[完整清单](../../history/reorganizations/2026-09-23-doc1/inventory.md)、[旧目录与阶段记录](../../history/pre-organization/game-design-workflow/draft-changes/README.md)分别维护。
+本目录按每份来源的资格、采纳和使用范围阅读；不以文件日期推断当前玩法。[现行规则](../../design/README.md)、[完整清单](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/reorganizations/2026-09-23-doc1/inventory.md)、[旧目录与阶段记录](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/game-design-workflow/draft-changes/README.md)分别维护。
 
 - [D-2026-09-09-automatic-battle-boundaries](D-2026-09-09-automatic-battle-boundaries.md)
 - [D-2026-09-09-casting-design-pillars](D-2026-09-09-casting-design-pillars.md)
@@ -23,12 +23,12 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 - [D-2026-09-11-spell-type-system](D-2026-09-11-spell-type-system.md)
 - [D-2026-09-12-first-person-grid-battlefield](D-2026-09-12-first-person-grid-battlefield.md)
 - [D-2026-09-12-wand-inlay-system](D-2026-09-12-wand-inlay-system.md)
-- [D-2026-09-13-card-pool-rule-rulings](D-2026-09-13-card-pool-rule-rulings.md)
-- [D-2026-09-13-end-tick-status-rulings](D-2026-09-13-end-tick-status-rulings.md)
-- [D-2026-09-13-pre-gdd-recommendation-batch](D-2026-09-13-pre-gdd-recommendation-batch.md)
-- [D-2026-09-14-complete-first-release-design](D-2026-09-14-complete-first-release-design.md)
-- [D-2026-09-14-element-status-host-eligibility](D-2026-09-14-element-status-host-eligibility.md)
-- [D-2026-09-14-factions-wand-ranges-and-starting-loadout](D-2026-09-14-factions-wand-ranges-and-starting-loadout.md)
-- [D-2026-09-23-document-organization](D-2026-09-23-document-organization.md)
+- [D-2026-09-13-card-pool-rule-rulings](../../history/accepted-design-records/D-2026-09-13-card-pool-rule-rulings.md)
+- [D-2026-09-13-end-tick-status-rulings](../../history/accepted-design-records/D-2026-09-13-end-tick-status-rulings.md)
+- [D-2026-09-13-pre-gdd-recommendation-batch](../../history/accepted-design-records/D-2026-09-13-pre-gdd-recommendation-batch.md)
+- [D-2026-09-14-complete-first-release-design](../../history/accepted-design-records/D-2026-09-14-complete-first-release-design.md)
+- [D-2026-09-14-element-status-host-eligibility](../../history/accepted-design-records/D-2026-09-14-element-status-host-eligibility.md)
+- [D-2026-09-14-factions-wand-ranges-and-starting-loadout](../../history/accepted-design-records/D-2026-09-14-factions-wand-ranges-and-starting-loadout.md)
+- [D-2026-09-23-document-organization](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/sources/draft-changes/D-2026-09-23-document-organization.md)
 
-- [言咒项目目录迁移](D-2026-09-23-yanzhou-project-layout.md)：G002-DOC-006，Documentation / Accepted。
+- [言咒项目目录迁移](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/sources/draft-changes/D-2026-09-23-yanzhou-project-layout.md)：G002-DOC-006，Documentation / Accepted。

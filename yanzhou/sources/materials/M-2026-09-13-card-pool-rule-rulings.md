@@ -172,7 +172,7 @@
 
 | 未知项／风险 | 影响 | 下一步 | 成功信号 | 失败信号 |
 | --- | --- | --- | --- | --- |
-| 空间、环境转化和对象资格 | 具体场面仍可能有多种解释 | 按[写作前缺口清单](../../history/audits/pre-gdd-design-decisions-2026-09-13.md)裁决 | 同输入有唯一合法对象与去向 | 用旧BF补默认 |
+| 空间、环境转化和对象资格 | 具体场面仍可能有多种解释 | 按[写作前缺口清单](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/pre-gdd-design-decisions-2026-09-13.md)裁决 | 同输入有唯一合法对象与去向 | 用旧BF补默认 |
 | 逐卡角色、公式结构、零值与取得渠道 | 不能形成完整内容规格 | 按当前选用范围细化 | 每张卡有合法句及反例 | 卡名代替完整词义 |
 | 数值、资源规模与压力目标 | 不能评价平衡或可达性 | 机制闭合后冻结候选输入 | 结果有对应输入证据 | 直接复用旧CAL放行 |
 | 所有组合与体验 | 文本一致不等于玩法成立 | 用户启动新测试时验证RC与ST；本轮不运行 | 有限、唯一且玩家可解释 | 递归、免费复制、靠隐含规则运行 |
@@ -191,7 +191,7 @@
 
 | 日期 | 目标 | 处理 |
 | --- | --- | --- |
-| 2026-09-13 | [提案](../proposals/P-2026-09-13-card-pool-rule-rulings.md)、[评估](../evaluations/E-2026-09-13-card-pool-rule-rulings.md)、[采纳文本](../draft-changes/D-2026-09-13-card-pool-rule-rulings.md) | RC01–12已采纳；未写新GDD |
+| 2026-09-13 | [提案](../../history/accepted-design-records/P-2026-09-13-card-pool-rule-rulings.md)、[评估](../../history/accepted-design-records/E-2026-09-13-card-pool-rule-rulings.md)、[采纳文本](../../history/accepted-design-records/D-2026-09-13-card-pool-rule-rulings.md) | RC01–12已采纳；未写新GDD |
 
 ## 后续细化：环境阶段（RC07）
 

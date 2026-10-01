@@ -7,7 +7,7 @@
 
 ## 触发来源
 
-本任务上一轮[测试后盘点](../../history/audits/design-system-status-2026-09-13.md)的三项待决。末句“允许”按紧接上文第三项解释为空心＋自噬长期储层；已在本轮开场向用户说明。用户授权agent设计固定顺序；先燃烧后冰冻及同类公开单位顺序是此次落实方案。
+本任务上一轮[测试后盘点](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/design-system-status-2026-09-13.md)的三项待决。末句“允许”按紧接上文第三项解释为空心＋自噬长期储层；已在本轮开场向用户说明。用户授权agent设计固定顺序；先燃烧后冰冻及同类公开单位顺序是此次落实方案。
 
 ## 可能带来的玩家体验
 

@@ -1,6 +1,6 @@
 # 工作区地图
 
-更新：2026-09-24。项目权限由对应AGENTS与探索注册表规定。
+更新：2026-09-30 / layout.3。项目权限由对应AGENTS与探索注册表规定。
 
 | Project ID | 根目录／入口 | 当前用途 | 默认 |
 | --- | --- | --- | --- |
@@ -17,3 +17,6 @@ W为yanzhou/；原职责路径按yanzhou/AGENTS.md映射到design、sources、go
 
 
 言咒新探索的材料入口为[启动规范](../yanzhou/exploration/start.md)；先选择CORE／GDD／FULL／CUSTOM／NONE，再读游戏正文，不套用默认主系统背景。
+
+
+旧workspaces与exploration/game-002-optimization兼容目录已删除，不再是可写或可读入口。历史与固定来源按[yanzhou/history](../yanzhou/history/README.md)取证。

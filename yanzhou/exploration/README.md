@@ -37,7 +37,17 @@ exploration/
 
 例：“启动新方向：〈标题〉，只读核心设计，探索〈目标〉，不自行扩读。”完整边界、版本与记录方式见[start.md](start.md)。日常构思仍只用方向README，不增加流程树。
 
-## 全部方向
+## 近期记录
+
+此分组只反映最近新增的记录，不是新的推进、资格或采纳决定。编号永不复用。
+
+| 方向 | 构思 | 状态 |
+| --- | --- | --- |
+| [DIR-028 时间轴深度构筑](DIR-028-timeline-depth/README.md) | 将节奏、时间窗口与事件接续关系作为构筑对象，探索时间轴成为核心玩法的可能性。 | Agent Proposal / Raw Idea / Unqualified |
+| [DIR-029 时间轴铺卡战斗](DIR-029-timeline-card-battle/README.md) | 自构法术，每杖按冷却生成一行牌，共享可折叠时间轴；默认并行、强力法术有独占格，同刻效果同时生效，敌方暗牌有线索。 | Raw Idea / Unqualified |
+| [DIR-030 卡牌规则设计](DIR-030-card-rule-design/README.md) | 优先保留时间轴铺排，构句不作为核心；从有限时间容量发散十版简单规则，后续再收敛与评估。 | Raw Idea / Unqualified；CORE |
+
+## 其余待选与局部合格方向
 
 | 方向 | 构思 | 状态 |
 | --- | --- | --- |
@@ -68,9 +78,10 @@ exploration/
 | [DIR-025 咒式委托](DIR-025-spell-commission/README.md) | 普通胜利之外提供可选环境目标及奖励。 | Raw Idea / Unqualified |
 | [DIR-026 自编遗迹](DIR-026-self-built-ruins/README.md) | 战前从合法地形模板选择初态并锁定。 | Raw Idea / Unqualified |
 | [DIR-027 咒理试炼](DIR-027-spell-principle-trial/README.md) | 同一配置应对多种输入，通过解释和复盘形成知识成长。 | Raw Idea / Unqualified |
-| [DIR-028 时间轴深度构筑](DIR-028-timeline-depth/README.md) | 将节奏、时间窗口与事件接续关系作为构筑对象，探索时间轴成为核心玩法的可能性。 | Agent Proposal / Raw Idea / Unqualified |
-| [DIR-029 时间轴铺卡战斗](DIR-029-timeline-card-battle/README.md) | 自构法术，每杖按冷却生成一行牌，共享可折叠时间轴；默认并行、强力法术有独占格，同刻效果同时生效，敌方暗牌有线索。 | Raw Idea / Unqualified |
-| [DIR-030 卡牌规则设计](DIR-030-card-rule-design/README.md) | 优先保留时间轴铺排，构句不作为核心；从有限时间容量发散十版简单规则，后续再收敛与评估。 | Raw Idea / Unqualified；CORE |
+
+## 已搁置或结束
+
+本次未发现足以将其余方向整体判为Parked/Rejected的明确决定，因此不以日期替代选择。后续明确搁置时在原README记原因，将同一条目移到本节；保留编号与来源，不复制新目录。旧流程、重复方向快照已按历史入口收束。
 
 ## 历史怎么查
 

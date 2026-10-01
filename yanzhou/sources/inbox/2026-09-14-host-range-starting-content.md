@@ -4,7 +4,7 @@
 
 ## 原始想法
 
-用户本轮目标：“逐步补齐全部缺口”。此前已统一采用BR01–12，并要求先定全部设计缺口、再写新GDD。当前以[26组清单](../../history/audits/pre-gdd-design-decisions-2026-09-13.md)为依据，先细化DG04／05／17，再衔接逐卡接口。
+用户本轮目标：“逐步补齐全部缺口”。此前已统一采用BR01–12，并要求先定全部设计缺口、再写新GDD。当前以[26组清单](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/pre-gdd-design-decisions-2026-09-13.md)为依据，先细化DG04／05／17，再衔接逐卡接口。
 
 ## 触发来源
 
@@ -135,11 +135,11 @@ HG01及HG02／WG01／SG01已分别采纳。金币价格、生命、词卡时间�
 
 2026-09-14问题：“是否采用这版宿主资格：玩家与敌人可承载燃烧／冰冻并结算伤害／护甲；树木与草地也可承载层数，用于形态变化、抵消和汲取，但不产生生命或护甲；普通石地不接受这两种状态；元素本体继续沿用共享层数与抵消规则？”
 
-用户答复：“采用这版资格表（推荐）”。本答复仅选择HG01。对应[素材](../materials/M-2026-09-14-element-status-host-eligibility.md)、[提案](../proposals/P-2026-09-14-element-status-host-eligibility.md)、[评估](../evaluations/E-2026-09-14-element-status-host-eligibility.md)、[采纳文本](../draft-changes/D-2026-09-14-element-status-host-eligibility.md)已建立，未写新GDD。
+用户答复：“采用这版资格表（推荐）”。本答复仅选择HG01。对应[素材](../materials/M-2026-09-14-element-status-host-eligibility.md)、[提案](../../history/accepted-design-records/P-2026-09-14-element-status-host-eligibility.md)、[评估](../../history/accepted-design-records/E-2026-09-14-element-status-host-eligibility.md)、[采纳文本](../../history/accepted-design-records/D-2026-09-14-element-status-host-eligibility.md)已建立，未写新GDD。
 
 2026-09-14成组问题：“是否采用此前的整组推荐：元素随创建方阵营；原木杖两排三列、节律杖十字、余火杖横三格；起始4根原木杖＋12张词卡？”
 
-用户本次答复：“确认”。采用HG02／WG01／SG01的实际阵营、范围、角色选取及起始／容量；对应[素材](../materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)、[提案](../proposals/P-2026-09-14-factions-wand-ranges-and-starting-loadout.md)、[评估](../evaluations/E-2026-09-14-factions-wand-ranges-and-starting-loadout.md)、[采纳文本](../draft-changes/D-2026-09-14-factions-wand-ranges-and-starting-loadout.md)。CG的[53实体新接口](2026-09-14-card-interface-completion.md)仍待审；这次答复不选择后续新商品改动、参数和UX默认流程。
+用户本次答复：“确认”。采用HG02／WG01／SG01的实际阵营、范围、角色选取及起始／容量；对应[素材](../materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)、[提案](../../history/accepted-design-records/P-2026-09-14-factions-wand-ranges-and-starting-loadout.md)、[评估](../../history/accepted-design-records/E-2026-09-14-factions-wand-ranges-and-starting-loadout.md)、[采纳文本](../../history/accepted-design-records/D-2026-09-14-factions-wand-ranges-and-starting-loadout.md)。CG的[53实体新接口](2026-09-14-card-interface-completion.md)仍待审；这次答复不选择后续新商品改动、参数和UX默认流程。
 
 参数与渠道后续：[PG v0.1](2026-09-14-first-release-parameters-and-channels.md)已为34词、19镶嵌和3法杖给出时间、结果、价格与启用期，仍Raw。其WG01／SG01基础依赖已确认，PG本身的新初值和渠道仍待选择。
 

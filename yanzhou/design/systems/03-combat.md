@@ -262,7 +262,7 @@ Project ID：game-002。文档角色：CurrentSpec。基准：RC1 / 文档整理
 
 ## 状态刻末结算与元素衰减
 
-依据：[G002-CORE-018采纳文本](../../sources/draft-changes/D-2026-09-13-end-tick-status-rulings.md)。
+依据：[G002-CORE-018采纳文本](../../history/accepted-design-records/D-2026-09-13-end-tick-status-rulings.md)。
 
 ### ST01 每刻末状态结算
 

@@ -80,7 +80,7 @@
 ## 与当前构思的关系
 
 - 依赖[首版范围与空间](M-2026-09-13-first-release-content-scope.md)、[RC01–12](M-2026-09-13-card-pool-rule-rulings.md)、[ST01–04](M-2026-09-13-end-tick-status-rulings.md)、[镶嵌](M-2026-09-12-wand-inlay-system.md)与[疲劳](M-2026-09-11-overtime-fatigue.md)。
-- 本轮选择追踪见[DG清单](../../history/audits/pre-gdd-design-decisions-2026-09-13.md)，保留原推荐发生时的记录。
+- 本轮选择追踪见[DG清单](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/pre-gdd-design-decisions-2026-09-13.md)，保留原推荐发生时的记录。
 - BR03确认复诵与正常有限过程可以并存；BR06／07只提升明示装配与叠加规则；BR08只提升执行类别、时点及既有禁疗衔接，不提升旧数值证明。
 - BR10使具体法术掉卡／产金退出首版实际内容，原产出资格接口和历史构思仍保留；收益包本身不删除。
 - 本批不增加草状态、完整召唤、位移、战中配置、永久成长或新卡；55项为设计条目数，134为既有FX条目数。
@@ -127,8 +127,8 @@
 
 | 日期 | GDD/Proposal | 章节/版本 | 处理结果 | 备注 |
 | --- | --- | --- | --- | --- |
-| 2026-09-13 | [提案](../proposals/P-2026-09-13-pre-gdd-recommendation-batch.md)、[评估](../evaluations/E-2026-09-13-pre-gdd-recommendation-batch.md) | BR01–12 | Included | 只据本份合格素材推进 |
-| 2026-09-13 | [采纳文本](../draft-changes/D-2026-09-13-pre-gdd-recommendation-batch.md) | CORE-029／SCOPE-004／DOC-002 | Accepted | 已有统一授权；新GDD尚未写作 |
+| 2026-09-13 | [提案](../../history/accepted-design-records/P-2026-09-13-pre-gdd-recommendation-batch.md)、[评估](../../history/accepted-design-records/E-2026-09-13-pre-gdd-recommendation-batch.md) | BR01–12 | Included | 只据本份合格素材推进 |
+| 2026-09-13 | [采纳文本](../../history/accepted-design-records/D-2026-09-13-pre-gdd-recommendation-batch.md) | CORE-029／SCOPE-004／DOC-002 | Accepted | 已有统一授权；新GDD尚未写作 |
 
 
 ## 2026-09-14 全游戏GDD使用记录

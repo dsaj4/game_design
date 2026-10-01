@@ -2,7 +2,7 @@
 
 版本：v1.0。状态：`Registry Ready / Proposed Framework / Scoring Not Calibrated`。更新日期：2026-09-09。
 
-本页把[涌现式策略游戏设计框架 v0.1](../../../emergent_strategy_game_framework_v0.1.md)整理成可执行的评估说明。原文是参考框架，不是对任何探索项目的玩法指令；示例、终极目标和公式都必须结合本次项目问题解释。
+本页把[涌现式策略游戏设计框架 v0.1](https://github.com/dsaj4/game_design/blob/9b97feaefd02a698977bb1f841b8afa040e9bfe5/emergent_strategy_game_framework_v0.1.md)整理成可执行的评估说明。原文是参考框架，不是对任何探索项目的玩法指令；示例、终极目标和公式都必须结合本次项目问题解释。
 
 ## 用途与边界
 

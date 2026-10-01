@@ -2,7 +2,7 @@
 
 > 文档状态：`Workflow Template`
 >
-> 知识来源：[GDD 写作知识 Wiki](../../research/02-theory-digests/gdd-writing-knowledge-wiki-2026-08-18.md)
+> 知识来源：[GDD 写作知识 Wiki](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/research/02-theory-digests/gdd-writing-knowledge-wiki-2026-08-18.md)
 >
 > 用途：把已经成形的游戏构思写成一份围绕玩家体验、核心玩法规则、设计决策与验证的设计合同。
 >

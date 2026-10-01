@@ -11,4 +11,4 @@
 
 后续执行前记录设计提交／文件哈希、代码提交、批次修订、完整输入和范围。先解决会使预期不唯一的AUD-010，再冻结受其影响的用例。原输入错误、失败、未到达和NotRun完整保留。新测试需要实际任务授权；本次整理不是启动令。
 
-[历次完整交接和输入要求](../history/pre-organization/docs/test-handoff.md)。
+[历次完整交接和输入要求](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/test-handoff.md)。

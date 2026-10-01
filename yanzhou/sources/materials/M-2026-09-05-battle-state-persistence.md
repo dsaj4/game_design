@@ -86,7 +86,7 @@
 
 2026-09-11：按[法术类型系统](M-2026-09-11-spell-type-system.md)统一状态名词引用，分类不限宾语位置；不因类型识别解锁未声明的句式或状态效果。
 
-2026-09-11：按[全局规则审查](../../history/audits/global-rules-audit-2026-09-11.md)统一现用表述，依据SW02-A与R08；仅纠正与现行决定不一致的措辞，没有新增玩法或测试结论。
+2026-09-11：按[全局规则审查](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/global-rules-audit-2026-09-11.md)统一现用表述，依据SW02-A与R08；仅纠正与现行决定不一致的措辞，没有新增玩法或测试结论。
 
 
 ## 2026-09-14 全游戏GDD使用记录

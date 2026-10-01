@@ -1,21 +1,17 @@
 # 游戏构思系统
 
-本仓库管理互相独立的游戏设计、研究与探索。当前默认项目是 **[《言咒》game-002](yanzhou/README.md)**，现行设计为GDD 1.0 RC1 / doc.1。
+默认项目是[《言咒》game-002](yanzhou/README.md)。现行规则、探索候选和历史证据分别维护。
 
-| 入口 | 用途 |
+| 我想做什么 | 入口 |
 | --- | --- |
-| [言咒核心设计](yanzhou/design/core-design.md) | GDD浓缩：循环、七系统、核心取舍与边界 |
-| [言咒现行设计](yanzhou/design/README.md) | 七系统、53实体内容、参数与验收 |
-| [言咒探索方向](yanzhou/exploration/README.md) | 独立候选、版本、关系与专题比较 |
-| [独立肉鸽探索](exploration/new-roguelike/README.md) | 空白背景起点，不继承言咒 |
-| [项目地图](docs/workspace-map.md) | 路径与身份 |
-| [共享知识](docs/shared-knowledge.md) | 通用方法、模板与规则 |
-| [玩法机制设计器](docs/skills/gameplay-mechanism-designer.md) | 项目内 skill：机制发散、循环与系统关系，含推荐话术 |
-| [协作规范](docs/github-collaboration.md) | 分支、保护与提交推送 |
-| [上一轮文档整理报告](yanzhou/history/reorganizations/2026-09-23-doc1/organization-report.md) | 迁移、检查与遗留项 |
+| 了解游戏 | [核心设计](yanzhou/design/core-design.md) |
+| 查询正式规则 | [GDD与系统目录](yanzhou/design/README.md) |
+| 探索新方案 | [方向与阅读选择](yanzhou/exploration/README.md) |
+| 处理当前问题 | [问题清单](yanzhou/governance/questions.md) |
+| 查看实现与验证 | [开发索引](yanzhou/development/README.md) |
 
-主系统新玩法先进入对应inbox；言咒探索按[阅读模式](yanzhou/exploration/start.md)启动并保存到方向README，正式晋级仍需资格确认。探索、实现与历史证据不会自动成为主系统设计。旧项目archive及冻结代码保持隔离，不是言咒起点；当前已有删除和未跟踪文件由原任务处理。
+[项目地图](docs/workspace-map.md) · [独立肉鸽](exploration/new-roguelike/README.md) · [设计流程](docs/design-workflow.md) · [贡献与协作](CONTRIBUTING.md)
 
-[Agent手册](AGENTS.md) · [新手说明](docs/architecture-for-beginners.md) · [探索总导航](exploration/README.md)
+追溯资料：[设计来源](yanzhou/sources/README.md) · [项目历史](yanzhou/history/README.md) · [共享知识](docs/shared-knowledge.md) · [文档清理记录](yanzhou/governance/cleanup-report.md)。
 
-言咒已迁入[yanzhou/](yanzhou/README.md)：[目录设计](yanzhou/governance/directory-layout.md) · [本次路径迁移报告](yanzhou/governance/layout-migration-report.md)。Project ID保持不变。
+工具：[玩法机制设计器用法](docs/skills/gameplay-mechanism-designer.md)。Agent先读[操作手册](AGENTS.md)，按任务范围读取材料，不默认扫描全部来源与历史。

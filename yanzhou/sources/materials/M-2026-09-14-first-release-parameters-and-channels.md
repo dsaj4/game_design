@@ -277,8 +277,8 @@ PG-C01采用已确认SG01的12张起始卡、4根W01和0件可换镶嵌作为基
 
 | 日期 | GDD/Proposal | 章节/版本 | 处理结果 | 备注 |
 | --- | --- | --- | --- | --- |
-| 2026-09-14 | [首版收束提案](../proposals/P-2026-09-14-complete-first-release-design.md) | PG／RC1 | Included | 用户明确授权采用 |
-| 2026-09-14 | [采纳文本](../draft-changes/D-2026-09-14-complete-first-release-design.md) | CORE-033 | Included／Accepted | 规则基准；新玩法NotRun |
+| 2026-09-14 | [首版收束提案](../../history/accepted-design-records/P-2026-09-14-complete-first-release-design.md) | PG／RC1 | Included | 用户明确授权采用 |
+| 2026-09-14 | [采纳文本](../../history/accepted-design-records/D-2026-09-14-complete-first-release-design.md) | CORE-033 | Included／Accepted | 规则基准；新玩法NotRun |
 
 
 ## 2026-09-14 全游戏GDD使用记录

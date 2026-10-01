@@ -157,7 +157,7 @@ Review trigger: 何时复审或废止
 - [游戏设计知识与构思辅助系统升级 Spec](../game-design-knowledge-system-spec.md)
 - [GDD 写作要求与模板](../../game-design-workflow/templates/gdd-writing-requirements-and-template.md)
 - [Agent 操作手册](../../AGENTS.md)
-- [游戏设计与开发 Wiki](../../research/02-theory-digests/game-design-development-wiki/README.md)
+- [游戏设计与开发 Wiki](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/research/02-theory-digests/game-design-development-wiki/README.md)
 - [GitHub 协作规范](../github-collaboration.md)
 
 课程证据只作为规则候选来源，例如 `E-SJ002-P009-001`、`E-SJ002-P017-001`、`E-SJ002-P018-001`、`E-SJ002-P019-001`、`E-SJ003-P001-001`、`E-SJ003-P007-001`、`E-SJ003-P010-001` 和 `E-SJ003-P021-001`。课程主张默认是 `Source Claim`，不能自动升级为项目 `Accepted`。

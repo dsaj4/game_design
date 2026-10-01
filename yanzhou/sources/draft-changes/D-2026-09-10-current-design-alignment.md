@@ -8,7 +8,7 @@
 
 - 用户于2026-09-10要求保存原始版本，逐份统一构思文件，尽量复用兼容设计，汇总需要人工决定的冲突。
 - [核心构思](../../design/core-concept.md)与[战前构句及法杖配置](D-2026-09-09-prebattle-spell-wand-assembly.md)。
-- [逐文件审查](../../history/audits/design-alignment-audit.md)记录范围、来源及校验结果。
+- [逐文件审查](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/design-alignment-audit.md)记录范围、来源及校验结果。
 
 ## 具体文本
 

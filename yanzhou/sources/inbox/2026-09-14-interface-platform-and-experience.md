@@ -15,7 +15,7 @@
 
 ## 触发来源
 
-- [当前缺口与关闭标准](../../history/audits/pre-gdd-design-decisions-2026-09-13.md)、[BR已确认批次](../materials/M-2026-09-13-pre-gdd-recommendation-batch.md)、[核心](../../design/core-concept.md)。
+- [当前缺口与关闭标准](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/pre-gdd-design-decisions-2026-09-13.md)、[BR已确认批次](../materials/M-2026-09-13-pre-gdd-recommendation-batch.md)、[核心](../../design/core-concept.md)。
 - [战场前态／过程／结果表现](../materials/M-2026-09-10-battlefield-state-change-expression.md)。
 - [地图桌面及法杖袋原始记录](2026-09-13-flask-style-wand-map-ui.md)：只读取同项目记录来核对用途与已确认构图，不把示意节点、露出的两支杖或模型尺寸转换为路线、库存或正式参数。
 - [HG／WG／SG](../materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)已按CORE-031采用；[CG实体接口](2026-09-14-card-interface-completion.md)、[PG v0.2参数与渠道](2026-09-14-first-release-parameters-and-channels.md)、[EG环境](2026-09-14-environment-forms-and-thresholds.md)、[RG路线／遭遇／压力](2026-09-14-run-route-encounters-and-fatigue.md)仍含待选项，本页引用时继承其状态。

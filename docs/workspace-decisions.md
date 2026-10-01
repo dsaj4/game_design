@@ -24,7 +24,7 @@
 ## 2026-09-09 探索区建区范围
 
 - [项目注册表](../exploration/registry/project-registry.md)登记两个独立探索项目，默认正式项目仍为 game-002。
-- [背景包规则](../exploration/game-002-optimization/context/pack-generation-rules.md)和 v1 明确来源配置已建立；没有生成背景包或取得新玩法结论。
+- [背景包规则](../yanzhou/history/exploration-2026-09-24/context/pack-generation-rules.md)和 v1 明确来源配置已建立；没有生成背景包或取得新玩法结论。
 - 根路由与探索区规则补齐原始想法/合格素材路径，继续执行资格与 GDD 边界。
 - 框架 v0.1 仅登记为 Proposed / Candidate；没有把框架目标采纳为游戏目标。
 - 旧实验保持冻结原位，没有迁移、清理或新代码运行；模拟/原型共享能力仅建立契约入口。

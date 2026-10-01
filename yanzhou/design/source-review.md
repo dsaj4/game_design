@@ -138,4 +138,4 @@ Project ID：game-002。文档角色：SourceIndex。基准：RC1 / 文档整理
 3. 构思系统保留未选卡、候选和历史实验；它们用于说明来源与替代路径，不自动扩展首版范围。
 4. 修订时同时更新规则章节、卡牌／遭遇表、例子、来源使用记录和验收预期；新量值另记版本，实测证据不得移用。
 
-当前26组关闭记录见[设计缺口](../history/audits/pre-gdd-design-decisions-2026-09-13.md)。核心框架CORE-001–031与新采纳CORE-032–036的精确文本及历史在[决策记录](../governance/decision-log.md)与[核心](core-concept.md)保留。
+当前26组关闭记录见[设计缺口](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/pre-gdd-design-decisions-2026-09-13.md)。核心框架CORE-001–031与新采纳CORE-032–036的精确文本及历史在[决策记录](../governance/decision-log.md)与[核心](core-concept.md)保留。

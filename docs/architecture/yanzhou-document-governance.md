@@ -16,4 +16,4 @@
 
 ## 边界与结果
 
-不更改玩法、参数或运行代码，不引入线上服务、权限或账户。索引不复制密钥或外部私密配置。独立肉鸽和旧项目保持隔离。实际结果见[整理报告](../../workspaces/game-002/docs/governance/organization-report.md)。
+不更改玩法、参数或运行代码，不引入线上服务、权限或账户。索引不复制密钥或外部私密配置。独立肉鸽和旧项目保持隔离。实际结果见[整理报告](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/reorganizations/2026-09-23-doc1/organization-report.md)。

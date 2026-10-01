@@ -1,59 +1,23 @@
-# 目录结构与文件放置规范
+# 目录与文件放置
 
-修订：layout.2 / 2026-09-24。依据用户明确要求新建yanzhou并重新设计文件结构。Project ID保持game-002，优化Project ID保持game-002-optimization。
+Project ID：game-002。修订：layout.3 / 2026-09-30。当前规则仍为RC1 / doc.1。
 
-```text
-yanzhou/
-├── README.md                    阅读入口
-├── AGENTS.md                    实际路径映射及权限
-├── CONTEXT.md                   术语
-├── design/                      唯一现行规格
-│   ├── GDD.md / core-design.md   完整规格／核心浓缩
-│   ├── core-concept.md / baseline.md  版本入口
-│   ├── systems/                 七个系统，各自维护规则
-│   ├── content/                 词卡、法杖、敌人与遭遇
-│   └── parameters.md / validation.md / source-review.md
-├── sources/                     设计形成过程
-│   ├── inbox/ / materials/ / proposals/ / evaluations/
-│   ├── draft-changes/ / gdd-drafts/
-│   └── supporting/              其他原设计流程记录
-├── effects/entries/              FX身份及追踪
-├── exploration/                 一个方向一个文件夹
-│   ├── README.md / comparison.md / AGENTS.md
-│   ├── start.md                  阅读模式与启动记录
-│   └── DIR-NNN-short-name/README.md  构思、未知、来源与状态
-├── development/                 外部实现索引与实际证据
-│   ├── reports/ / inputs/
-│   └── test-handoff.md / calibration-method.md
-├── visual/reviews/              视觉评审、图像与来源
-├── governance/                  问题、决策、规范、编号、迁移清单
-└── history/                     历史，不覆盖现行规则
-    ├── pre-organization/        整理前全文，保留原目录层级追溯
-    ├── audits/                  旧日期审查与记录
-    ├── reorganizations/         以往整理报告及原始清单
-    └── exploration-2026-09-24/   旧探索流程、研究与冻结背景
-```
-
-## 放在哪里
-
-| 内容 | 放置方式 |
+| 位置 | 内容与维护责任 |
 | --- | --- |
-| 修改当前机制细则 | 经采纳后更新design对应唯一正文；原因记决策与Draft Change |
-| 一个尚未明确的新想法 | 主系统sources/inbox；探索直接写所属DIR文件夹的README |
-| 提出替代主循环 | exploration/DIR-NNN-short-name/README.md；独立方向及比较，不写进现行GDD |
-| 设计预期和验收条件 | design/validation.md及对应规则页 |
-| 测试已经运行的事实 | development/reports，附版本、输入、失败和覆盖边界 |
-| 实现进度、技术资产 | development索引；具体代码留在外部仓库 |
-| 视觉方案与图片 | visual/reviews/日期，附方案状态和来源；不是规则权限 |
-| 旧规则、旧审查、旧来源哈希 | history或原来源记录；标明原日期和适用范围 |
+| README.md | 五个日常入口；不复制库存、进度或规则正文 |
+| design/ | 唯一现行GDD、系统分册、内容、参数、验收；core-design仅浓缩 |
+| sources/ | 原始表达、合格素材与尚需追踪的P/E/D；已完成的指定记录见history |
+| exploration/ | 一个DIR一个README，附件按需；索引区分近期记录与其余待选，不擅自改资格 |
+| effects/catalog.md | 134个稳定FX身份、关联实体、参数及历史来源，取消每FX一个导航文件 |
+| governance/ | 问题、决策、规范与专题；文件索引自动生成，迁移旧快照按Git查 |
+| development/ | 外部实现索引、交接输入和实际验证证据 |
+| visual/与research/ | 表现来源、项目研究；不拥有规则采纳权 |
+| history/accepted-design-records/ | 已完成指定P/E/D记录，编号及原采纳范围保留 |
+| history/exploration-2026-09-24/ | 仍有独有价值的原始构思、资格、研究、运行记录与冻结背景 |
+| history/README.md | 固定Git历史入口；已删除快照无需恢复到工作树即可读取 |
 
-## 命名与路径
+`workspaces/`及`exploration/game-002-optimization/`完全退役；不留跳转文件。原迁移映射与被删快照保存在清理基准提交，现用映射为cleanup-map.json。来源提交中的旧路径按原提交解释，不能全局替换历史manifest字段。
 
-现行职责页使用稳定名称；历史/来源用日期和既有M/P/E/D/FX/DIR ID。新GDD草案使用日期命名，不在design中增建第二套“最新版本”。中文标题用于阅读，路径沿英文小写与连字符。相对链接按真实目录解析；固定提交里的旧路径按原提交解释，不能全局替换历史manifest字段。
+新文件用稳定职责名或日期/ID。来源与历史不复制现行规格；结束的批次只归档，不批量生成空流程树。共享模板留根game-design-workflow/templates，独立肉鸽和旧游戏留自身项目。
 
-共享模板、通用知识、独立肉鸽及旧游戏仍在仓库根各自目录。本目录是言咒项目组织入口，不声称是包含所有共享依赖和实现代码的独立仓库。
-
-旧路径兼容页只导航；冻结包、机器来源记录、媒体以及已有未提交修改作为明确例外保留旧地址，具体见迁移报告。新写入统一使用本目录；两个遗留未提交素材由原修改任务决定如何同步，不在迁移中替用户采纳。
-
-
-layout.2仅简化探索：方向构思直接可读，附件按需，不要求为每个阶段建目录。[本次整理报告](exploration-simplification-report.md)与[路径对照](exploration-path-map.json)记录旧路径到档案和当前方向的映射；layout.1的path-map.json保留原迁移语境。
+运行`python tools/docs.py index`更新文件索引，`python tools/docs.py check`检查活动文档本地链接。历史冻结正文按固定提交解析，不当作现用导航。具体范围与已知历史缺口见清理报告。

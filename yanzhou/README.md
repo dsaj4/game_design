@@ -1,22 +1,17 @@
 # 言咒 · Yanzhou
 
-Project ID：`game-002`。项目目录：`yanzhou/`。设计基准：**GDD 1.0 RC1 / doc.1**；目录修订layout.2（2026-09-24）。目录调整不改变玩法、采纳范围或验证结论。
+Project ID：game-002。设计基准：GDD 1.0 RC1 / doc.1。目录修订：layout.3 / 2026-09-30。目录清理不改变玩法、资格与验证结论。
 
-第一次阅读从[核心设计浓缩](design/core-design.md)进入，再读[完整GDD](design/GDD.md)或[系统导航](design/README.md)。查未决项直接看[当前问题](governance/questions.md)。
+| 我想做什么 | 入口 |
+| --- | --- |
+| 了解游戏 | [核心设计](design/core-design.md) |
+| 查询正式规则 | [GDD与系统导航](design/README.md) |
+| 探索新方案 | [方向索引](exploration/README.md) · [材料选择](exploration/start.md) |
+| 处理当前问题 | [问题清单](governance/questions.md) |
+| 查看实现与验证 | [开发索引](development/README.md) |
 
-| 目录 | 负责什么 | 阅读入口 |
-| --- | --- | --- |
-| design/ | 现行GDD、7系统、实体目录、参数、验证预期 | [正式设计](design/README.md) |
-| sources/ | 原始表达、合格素材、提案、评估和拟修改 | [设计来源链](sources/README.md) |
-| effects/ | 134个FX稳定身份及来源追踪 | [效果目录](effects/README.md) |
-| exploration/ | 按阅读范围启动方向，各自保存必要构思 | [探索导航](exploration/README.md)／[启动方式](exploration/start.md) |
-| development/ | 外部实现、测试交接、限定输入与实际报告 | [开发索引](development/README.md) |
-| visual/ | 风格、评审、概念图和功能表现来源 | [视觉导航](visual/README.md) |
-| governance/ | 规范、问题、决策、编号、目录与迁移记录 | [项目治理](governance/README.md) |
-| history/ | 整理前正文、旧审查、旧目录与历史证据 | [历史导航](history/README.md) |
+专项资料：[时间轴](governance/time-axis-review.md) · [效果身份](effects/catalog.md) · [视觉材料](visual/README.md)。
 
-[术语](CONTEXT.md) · [Agent路径与权限](AGENTS.md) · [完整目录设计](governance/directory-layout.md) · [文件清单](governance/file-index.md) · [探索简化报告](governance/exploration-simplification-report.md)
+追溯与维护：[设计来源](sources/README.md) · [决定与规范](governance/README.md) · [保留历史与Git取证](history/README.md) · [自动文件索引](governance/file-index.md) · [清理报告](governance/cleanup-report.md)。
 
-正式设计、探索候选和运行证据分别维护。设计Accepted不代表体验已验证；AUD-010仍Open。旧`workspaces/game-002/`和`exploration/game-002-optimization/`为兼容入口，冻结来源与已有未提交文件按迁移报告保留。独立肉鸽、旧游戏和共享模板仍在仓库各自目录，不并入言咒。
-
-[时间轴主题导航与审查](governance/time-axis-review.md)：按规则版本、探索状态和验证范围追踪全部时间轴资料。
+[术语](CONTEXT.md) · [Agent规则](AGENTS.md)。现行规则、探索候选和运行证据各有身份；Accepted不表示体验已验证，AUD-010仍Open。

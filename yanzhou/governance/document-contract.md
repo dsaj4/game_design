@@ -1,6 +1,6 @@
 # 文档职责与统一规范
 
-Project ID：game-002。治理状态：Accepted / Documentation；依据用户授权全量整理。更新：2026-09-24。
+Project ID：game-002。治理状态：Accepted / Documentation；依据用户授权全量整理。更新：2026-09-30 / layout.3。
 
 ## 权威来源
 
@@ -21,7 +21,7 @@ Project ID：game-002。治理状态：Accepted / Documentation；依据用户�
 | 疲劳参数（RG06） | SYS-003 | 参数总入口链接该节 |
 | 敌人能力、初态与布场 | content/enemies-encounters.md | 系统页不复制敌人表 |
 | 术语 | CONTEXT.md | 规则页引用定义，不另改词义 |
-| 效果登记、应用、历史修订 | effects/ | 关联规则和内容，不复制整套通用规则与价格 |
+| 效果登记、应用、历史修订 | effects/catalog.md | 关联规则和内容，不复制整套通用规则与价格 |
 | 规则验收预期 | GDD validation.md | 测试交接指定冻结输入，报告保留实际结果 |
 | 设计原因与替代范围 | decision-log及Draft Change | 当前正文直接陈述规则并链接来源 |
 | 探索候选 | exploration/各DIR方向文件夹 | 只经明确回写流程进入主系统 |
@@ -49,7 +49,7 @@ Project ID：game-002。治理状态：Accepted / Documentation；依据用户�
 
 ## 迁移与链接
 
-旧GDD及主题入口保留兼容页；整理前文本在history，原提交记录于baseline。旧研究应按其提交／哈希取证，不能把兼容页跳转后的正文视为原研究输入。归档、源文件、未提交用户修改不纳入自动替换。
+旧兼容目录已完全删除；整理前重复快照、迁移报告和机器审查附件从history入口按固定Git提交取证。现用材料链接到实际正文或明确的固定版本，不重建兼容树。旧研究应按其提交／哈希取证，不能把兼容页跳转后的正文视为原研究输入。归档、源文件、未提交用户修改不纳入自动替换。
 
 ## 系统间接口
 

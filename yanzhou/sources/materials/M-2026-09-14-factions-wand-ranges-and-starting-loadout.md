@@ -131,8 +131,8 @@ HG02／WG01／SG01于CORE-031采纳。后续CORE-032–036已采用原木杖不�
 
 | 日期 | GDD/Proposal | 章节/版本 | 处理结果 | 备注 |
 | --- | --- | --- | --- | --- |
-| 2026-09-14 | [提案](../proposals/P-2026-09-14-factions-wand-ranges-and-starting-loadout.md) | HG02／WG01／SG01 | Included | 仅本组 |
-| 2026-09-14 | [采纳文本](../draft-changes/D-2026-09-14-factions-wand-ranges-and-starting-loadout.md) | G002-CORE-031 | Included／Accepted | 关闭DG04／05／17；DG15只补容量子项；不启动新GDD或测试 |
+| 2026-09-14 | [提案](../../history/accepted-design-records/P-2026-09-14-factions-wand-ranges-and-starting-loadout.md) | HG02／WG01／SG01 | Included | 仅本组 |
+| 2026-09-14 | [采纳文本](../../history/accepted-design-records/D-2026-09-14-factions-wand-ranges-and-starting-loadout.md) | G002-CORE-031 | Included／Accepted | 关闭DG04／05／17；DG15只补容量子项；不启动新GDD或测试 |
 
 
 ## 2026-09-14 全游戏GDD使用记录

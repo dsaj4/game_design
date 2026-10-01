@@ -25,11 +25,11 @@
 
 [现行文件导航](README.md)是本版正文清单。每个文件有唯一职责，详见[文档合同](../governance/document-contract.md)。历史基线从固定Git提交读取；旧GDD路径已改为兼容导航，不再作为冻结输入。需要冻结测试时必须记录当前设计提交及文件哈希，不能只写“RC1”。
 
-[本次整理清单](../history/reorganizations/2026-09-23-doc1/organization-report.md)记录实际检查、遗留问题和修改文件。
+[本次整理清单](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/reorganizations/2026-09-23-doc1/organization-report.md)记录实际检查、遗留问题和修改文件。
 
 ## 目录修订layout.1
 
-2026-09-23项目迁至yanzhou/，主规则在design/，优化在exploration/optimization/。设计基准仍为RC1 / doc.1；目录移动不冻结新的玩法输入。现行文件位置见[目录规范](../governance/directory-layout.md)，原提交路径按[迁移表](../governance/path-map.json)追溯。
+2026-09-23项目迁至yanzhou/，主规则在design/，优化在exploration/optimization/。设计基准仍为RC1 / doc.1；目录移动不冻结新的玩法输入。现行文件位置见[目录规范](../governance/directory-layout.md)，原提交路径按[迁移表](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/governance/path-map.json)追溯。
 
 
 ## 核心设计浓缩与探索输入READ-1

@@ -72,7 +72,7 @@ Proposed
 ## References
 
 - [游戏设计知识与构思辅助系统升级 Spec](../game-design-knowledge-system-spec.md)
-- [飞书游戏设计系统课程逐字稿资料包](../../research/01-theory-library/feishu-game-design-system-transcripts-2026-08-30/README.md)
+- [飞书游戏设计系统课程逐字稿资料包](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/research/01-theory-library/feishu-game-design-system-transcripts-2026-08-30/README.md)
 - [GDD 写作要求与模板](../../game-design-workflow/templates/gdd-writing-requirements-and-template.md)
-- [GDD 写作知识 Wiki](../../research/02-theory-digests/gdd-writing-knowledge-wiki-2026-08-18.md)
+- [GDD 写作知识 Wiki](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/research/02-theory-digests/gdd-writing-knowledge-wiki-2026-08-18.md)
 - [GitHub 协作规范](../github-collaboration.md)

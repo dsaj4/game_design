@@ -80,5 +80,5 @@
 
 - [知识系统升级 Spec](../game-design-knowledge-system-spec.md)
 - [Agent 操作手册](../../AGENTS.md)
-- [游戏设计与开发 Wiki](../../research/02-theory-digests/game-design-development-wiki/README.md)
+- [游戏设计与开发 Wiki](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/research/02-theory-digests/game-design-development-wiki/README.md)
 - [GitHub 协作规范](../github-collaboration.md)

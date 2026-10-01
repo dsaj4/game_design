@@ -257,4 +257,4 @@ A组正常输入建议在冻结时预先列明：同阶段真实可获取资源�
 
 ## 下一步
 
-[UX实际界面／体验／功能资产](2026-09-14-interface-platform-and-experience.md)已给；按[26组总审](../../history/audits/pre-gdd-content-review-2026-09-14.md)处理待选依赖，并使用已给出的[VB具体资源基准与事件预期](../../development/inputs/pre-gdd-2026-09-14.md)；待选依赖仍未因输入成套而采用。已确认部分及时晋级，全部写作前缺口收束后再写GDD Wiki，不把候选文档或数学推导当作GDD已完成。
+[UX实际界面／体验／功能资产](2026-09-14-interface-platform-and-experience.md)已给；按[26组总审](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/pre-gdd-content-review-2026-09-14.md)处理待选依赖，并使用已给出的[VB具体资源基准与事件预期](../../development/inputs/pre-gdd-2026-09-14.md)；待选依赖仍未因输入成套而采用。已确认部分及时晋级，全部写作前缺口收束后再写GDD Wiki，不把候选文档或数学推导当作GDD已完成。

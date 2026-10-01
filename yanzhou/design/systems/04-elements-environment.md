@@ -114,7 +114,7 @@ G002-CORE-028：每刻环境阶段开始时，固定当时已存在的元素身�
 
 ## 火冰状态的实际宿主
 
-依据：[G002-CORE-030](../../sources/draft-changes/D-2026-09-14-element-status-host-eligibility.md)，2026-09-14用户确认。
+依据：[G002-CORE-030](../../history/accepted-design-records/D-2026-09-14-element-status-host-eligibility.md)，2026-09-14用户确认。
 
 ### HG01 燃烧／冰冻的宿主资格
 

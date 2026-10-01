@@ -1,6 +1,6 @@
 # 简易法术流派：基础牌组、连发与蓄积爆发
 
-当前补充（2026-09-13）：S2整池及首版范围已选，空间与出生规则已确认，详见[首版素材](M-2026-09-13-first-release-content-scope.md)；原复诵／来源／过程等共同缺项按[RC01–12](M-2026-09-13-card-pool-rule-rulings.md)关闭。其余未知继续按[DG清单](../../history/audits/pre-gdd-design-decisions-2026-09-13.md)，新GDD尚未写作。
+当前补充（2026-09-13）：S2整池及首版范围已选，空间与出生规则已确认，详见[首版素材](M-2026-09-13-first-release-content-scope.md)；原复诵／来源／过程等共同缺项按[RC01–12](M-2026-09-13-card-pool-rule-rulings.md)关闭。其余未知继续按[DG清单](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/pre-gdd-design-decisions-2026-09-13.md)，新GDD尚未写作。
 
 状态：Qualified GDD Material（仅定位与两项成型方向）。尚未作为完整流派采纳；具体卡牌、物品和参数未完成。证据：Hypothesis。
 
@@ -43,7 +43,7 @@
 - 依赖：实体副本分配、完整法术、单次名单、共享释放槽、成功事件、修饰词与镶嵌模型。
 - 需要检查的边界：每次连发与原基础循环如何衔接；本杖成功计数与FX-026按周期计数分开；连发不绕过共享槽，爆发不默认新增一次完整释放。
 - 相关来源：[类型](M-2026-09-11-spell-type-system.md)、[全局规则](M-2026-09-11-global-rule-boundaries.md)、[修饰词](M-2026-09-11-modifier-card-system.md)、[镶嵌](M-2026-09-12-wand-inlay-system.md)。
-- 效果：连发[FX-033/r1](../../effects/entries/FX-033.md)，蓄积[FX-034/r1](../../effects/entries/FX-034.md)；冷却缩减优先评议既有[FX-026/r1](../../effects/entries/FX-026.md)，不与[FX-018/r1](../../effects/entries/FX-018.md)当前冷却改期混同。其实际选用仍未决定。
+- 效果：连发[FX-033/r1](../../effects/catalog.md#fx-033)，蓄积[FX-034/r1](../../effects/catalog.md#fx-034)；冷却缩减优先评议既有[FX-026/r1](../../effects/catalog.md#fx-026)，不与[FX-018/r1](../../effects/catalog.md#fx-018)当前冷却改期混同。其实际选用仍未决定。
 - 明确不包含：起始卡池、副本／法杖数量、正式牌面、价格、参数或IN-C整包采纳；不恢复Parked词效，不修改核心或新建类型。
 
 ## 机制—行为—体验假设

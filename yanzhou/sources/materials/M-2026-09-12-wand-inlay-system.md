@@ -164,10 +164,10 @@
 | 2026-09-12 | [提案](../proposals/P-2026-09-12-wand-inlay-system.md)、[评估](../evaluations/E-2026-09-12-wand-inlay-system.md) | Inlay v0.1 | Included | 模型与补充候选分层 |
 | 2026-09-12 | [Draft Change](../draft-changes/D-2026-09-12-wand-inlay-system.md) | G002-CORE-017 | IN-A及明确例子含义Accepted；IN-C Candidate | [测试交接](../../development/test-handoff.md)r6继续Draft／NotRun |
 
-2026-09-12：案例登记到[效果系统](../../effects/README.md)（[FX-026](../../effects/entries/FX-026.md)、[FX-027](../../effects/entries/FX-027.md)），完整映射见[案例覆盖](../../effects/case-coverage.md)。这里只增加追踪入口，本素材的框架／采纳／候选状态不变；登记摘要不替换本文权威规则或参数。
+2026-09-12：案例登记到[效果系统](../../effects/README.md)（[FX-026](../../effects/catalog.md#fx-026)、[FX-027](../../effects/catalog.md#fx-027)），完整映射见[案例覆盖](../../effects/case-coverage.md)。这里只增加追踪入口，本素材的框架／采纳／候选状态不变；登记摘要不替换本文权威规则或参数。
 
 
-2026-09-13使用记录：[BR批量素材](M-2026-09-13-pre-gdd-recommendation-batch.md)、[采纳文本](../draft-changes/D-2026-09-13-pre-gdd-recommendation-batch.md)已引用本表明示子集；FX-026／027当前r2。历史“整包未采纳”不再覆盖已选子项。
+2026-09-13使用记录：[BR批量素材](M-2026-09-13-pre-gdd-recommendation-batch.md)、[采纳文本](../../history/accepted-design-records/D-2026-09-13-pre-gdd-recommendation-batch.md)已引用本表明示子集；FX-026／027当前r2。历史“整包未采纳”不再覆盖已选子项。
 
 
 ## 2026-09-14 全游戏GDD使用记录

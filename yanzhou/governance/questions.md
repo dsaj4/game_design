@@ -12,4 +12,4 @@
 
 探索方向的选择问题只在[探索区](../exploration/README.md)维护，不混入主系统缺口。本次整理未启动玩法验证。
 
-[整理前记录](../history/pre-organization/docs/design-decisions-needed.md)
+[整理前记录](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/design-decisions-needed.md)

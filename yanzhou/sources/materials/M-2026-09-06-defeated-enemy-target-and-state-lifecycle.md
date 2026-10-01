@@ -81,7 +81,7 @@
 
 2026-09-10：按[用户R01–R32全部采纳](../draft-changes/D-2026-09-10-semantic-world-executable-rules.md)同步本素材受影响表述；具体对象、词卡和参数仍按对应范围设计，证据Hypothesis。
 
-2026-09-11：按[全局规则审查](../../history/audits/global-rules-audit-2026-09-11.md)统一现用表述，依据G002-CORE-011与现行R17；仅纠正与现行决定不一致的措辞，没有新增玩法或测试结论。
+2026-09-11：按[全局规则审查](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/global-rules-audit-2026-09-11.md)统一现用表述，依据G002-CORE-011与现行R17；仅纠正与现行决定不一致的措辞，没有新增玩法或测试结论。
 
 
 ## 2026-09-14 全游戏GDD使用记录

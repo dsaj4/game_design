@@ -1,6 +1,6 @@
 # 第一人称格子战场与有限环境变化
 
-当前补充（2026-09-13）：S2整池及首版范围已选，空间与出生规则已确认，详见[首版素材](M-2026-09-13-first-release-content-scope.md)；原复诵／来源／过程等共同缺项按[RC01–12](M-2026-09-13-card-pool-rule-rulings.md)关闭。其余未知继续按[DG清单](../../history/audits/pre-gdd-design-decisions-2026-09-13.md)，新GDD尚未写作。
+当前补充（2026-09-13）：S2整池及首版范围已选，空间与出生规则已确认，详见[首版素材](M-2026-09-13-first-release-content-scope.md)；原复诵／来源／过程等共同缺项按[RC01–12](M-2026-09-13-card-pool-rule-rulings.md)关闭。其余未知继续按[DG清单](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/pre-gdd-design-decisions-2026-09-13.md)，新GDD尚未写作。
 
 状态：Qualified GDD Material。证据Hypothesis。用户明确方向与候选补充分开；完整系统处于Draft Change，未替换核心v0.6。
 

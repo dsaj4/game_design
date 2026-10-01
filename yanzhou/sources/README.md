@@ -12,3 +12,8 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 | 新GDD草案 | [gdd-drafts](gdd-drafts/README.md) | 使用登记模板；未采纳版本不覆盖现行design |
 
 [决策记录](../governance/decision-log.md)说明何时采纳了哪些范围。文件名和原设计ID保持，旧素材使用记录的链接已定位新路径；原提交和历史哈希仍按原路径解释。
+
+
+## 已完成过程记录
+
+六组已采纳设计的18份P/E/D已归档到[完成记录](../history/accepted-design-records/README.md)。原始输入、合格素材与仍有局部未决内容的过程文档留原处；归档不扩大采纳或验证范围。旧文档管理拟修改按固定Git取证。新增任务按需要创建正式文件，不预建空树。

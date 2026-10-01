@@ -43,7 +43,7 @@
 - [x] 保存审查请求和建议来源。
 - [x] GR01–GR12的处理方式通过资格确认并晋级正式素材；G002-CORE-015采纳，证据Hypothesis。
 
-审查结果：[全局规则审查](../../history/audits/global-rules-audit-2026-09-11.md)。现有决定可唯一推出的四处措辞修正与新规则建议分列。
+审查结果：[全局规则审查](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/global-rules-audit-2026-09-11.md)。现有决定可唯一推出的四处措辞修正与新规则建议分列。
 
 ## 下一步
 
@@ -55,4 +55,4 @@
 
 > 待明确部分均采用推荐处理
 
-确认对象是[审查报告](../../history/audits/global-rules-audit-2026-09-11.md)中的全部12组推荐。此前未采纳状态可从提交571c6db0cd958f9e5fd0a82814293354395a35cc追溯；本次没有把“继续候选合批”的建议变成执行细则定稿。来源已形成[合格素材](../materials/M-2026-09-11-global-rule-boundaries.md) → [提案](../proposals/P-2026-09-11-global-rule-boundaries.md) → [评估](../evaluations/E-2026-09-11-global-rule-boundaries.md) → [采纳文本](../draft-changes/D-2026-09-11-global-rule-boundaries.md)。暂缓测试指令继续有效。
+确认对象是[审查报告](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/global-rules-audit-2026-09-11.md)中的全部12组推荐。此前未采纳状态可从提交571c6db0cd958f9e5fd0a82814293354395a35cc追溯；本次没有把“继续候选合批”的建议变成执行细则定稿。来源已形成[合格素材](../materials/M-2026-09-11-global-rule-boundaries.md) → [提案](../proposals/P-2026-09-11-global-rule-boundaries.md) → [评估](../evaluations/E-2026-09-11-global-rule-boundaries.md) → [采纳文本](../draft-changes/D-2026-09-11-global-rule-boundaries.md)。暂缓测试指令继续有效。

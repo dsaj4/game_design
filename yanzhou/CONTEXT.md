@@ -218,4 +218,4 @@ _避免_：依据测试结果事后剔除失败或残血样本。
 - CurrentSpec为现行规则；SourceRecord为来源；HistoricalSnapshot只用于当时判断追溯。
 - Closed针对一个有范围的问题；Accepted不意味着验证通过。
 
-[整理前全文](history/pre-organization/CONTEXT.md)
+[整理前全文](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/CONTEXT.md)

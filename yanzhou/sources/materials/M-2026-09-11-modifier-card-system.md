@@ -134,7 +134,7 @@
 | 2026-09-11 | [提案](../proposals/P-2026-09-11-modifier-card-system.md)、[评估](../evaluations/E-2026-09-11-modifier-card-system.md) | Modifier v0.1 | Included | 初版系统模型，非完整卡池 |
 | 2026-09-11 | [采纳文本](../draft-changes/D-2026-09-11-modifier-card-system.md) | G002-CORE-016 | Accepted：明确范围 | 测试交接r5继续Draft，镶嵌细则另行推进 |
 
-2026-09-12：案例登记到[效果系统](../../effects/README.md)（[FX-024](../../effects/entries/FX-024.md)、[FX-025](../../effects/entries/FX-025.md)），完整映射见[案例覆盖](../../effects/case-coverage.md)。这里只增加追踪入口，本素材的框架／采纳／候选状态不变；登记摘要不替换本文权威规则或参数。
+2026-09-12：案例登记到[效果系统](../../effects/README.md)（[FX-024](../../effects/catalog.md#fx-024)、[FX-025](../../effects/catalog.md#fx-025)），完整映射见[案例覆盖](../../effects/case-coverage.md)。这里只增加追踪入口，本素材的框架／采纳／候选状态不变；登记摘要不替换本文权威规则或参数。
 
 
 ## 2026-09-14 全游戏GDD使用记录

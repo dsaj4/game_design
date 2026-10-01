@@ -1,20 +1,14 @@
-# 项目治理与目录
+# 项目治理
 
-Project ID：game-002。文档角色：Navigation。
+Project ID：game-002。文档角色：Navigation。2026-09-30 / layout.3。
 
-- [当前问题](questions.md)与[矛盾登记](conflict-register.md)
-- [设计决定](decision-log.md)与[编号/别名](id-registry.md)
-- [文档职责和规范](document-contract.md)、[规则定位](rule-index.md)、[卡牌审查流程](card-review-workflow.md)
-- [目录结构与放置规则](directory-layout.md)
-- [layout.1迁移报告](layout-migration-report.md)、[路径映射](path-map.json)、[文件索引](file-index.md)
-- [上一轮文档整理报告](../history/reorganizations/2026-09-23-doc1/organization-report.md)
+| 需要处理什么 | 唯一入口 |
+| --- | --- |
+| 当前缺口与冲突 | [问题](questions.md) · [冲突及具体场景](conflict-register.md) |
+| 决策与编号 | [决策记录](decision-log.md) · [编号别名](id-registry.md) |
+| 文档职责与放置 | [文档合同](document-contract.md) · [目录规范](directory-layout.md) |
+| 规则与卡牌定位 | [规则索引](rule-index.md) · [卡牌审查](card-review-workflow.md) |
+| 专题资料 | [时间轴审查](time-axis-review.md) |
+| 文件与清理记录 | [自动文件索引](file-index.md) · [清理报告](cleanup-report.md) · [清理映射](cleanup-map.json) |
 
-目录修订layout.2是管理变更。新玩法仍需资格与采纳，AUD-010不会随迁移自动关闭。
-
-
-[探索结构简化报告](exploration-simplification-report.md) · [layout.2路径对照](exploration-path-map.json)。活动方向只在探索README维护入口，旧registry.json为历史记录。
-
-
-[核心设计浓缩](../design/core-design.md)与[探索阅读模式READ-1](../exploration/start.md)由G002-DOC-008登记；不改变RC1玩法版本。
-
-- [时间轴全量资料导航与一致性审查](time-axis-review.md)：现行规则、全部方向、来源历史、证据与覆盖清单。
+设计工作使用[统一流程](../../docs/design-workflow.md)。旧迁移报告从[历史入口](../history/README.md)按固定提交取证，不保留第二套总控或项目导航。

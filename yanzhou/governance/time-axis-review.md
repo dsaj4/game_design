@@ -1,12 +1,14 @@
 # 时间轴资料导航与一致性审查
 
+> 2026-09-30清理注：本文审查结论及覆盖统计保留原轮次语境；详细机器目录已固定在提交`d44ecd04840b434b171d26f601bafbd87c311c92`。现用定位见[来源导航](time-axis-review/sources.md)，旧行号不用于解释清理后的文件。
+
 Project ID：game-002 / game-002-optimization。文档角色：TopicNavigation / DocumentationAudit。日期：2026-09-30。状态：文档整理；没有新增玩法采纳、资格晋级或验证结果。
 
 本页把“时间轴”作为主题，把现行规格、原始来源、探索候选、历史版本、效果身份、实现证据与视觉表现连起来。规则仍由[现行设计](../design/README.md)维护，本页摘要不能成为第二套规则。
 
 本次使用READ-1 **CUSTOM**：任务授权横向整理言咒主系统、全部探索方向、项目自身历史、兼容路径及明确关联的共享入口。固定起始HEAD为`e540b0fd6885992e9701abe2e461316d07c2021f`。普通方向后续仍按自己的既定来源阅读；本次横向审查不替它们升级背景。
 
-完整盘点及阅读边界见[覆盖说明](time-axis-review/coverage.md)。[资料定位目录](time-axis-review/sources.md)连接全部主题命中来源；[文件清单](time-axis-review/inventory.json)保存Git blob、SHA、原工作树差异及阅读状态，[章节目录](time-axis-review/catalog.json)保存精确定位行与章节范围。文件盘点、机器检索、主题摘录审查和全文阅读是不同状态。
+完整盘点及阅读边界见[覆盖说明](time-axis-review/coverage.md)。[资料定位目录](time-axis-review/sources.md)连接全部主题命中来源；[文件清单](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/governance/time-axis-review/inventory.json)保存Git blob、SHA、原工作树差异及阅读状态，[章节目录](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/governance/time-axis-review/catalog.json)保存精确定位行与章节范围。文件盘点、机器检索、主题摘录审查和全文阅读是不同状态。
 
 ## 现行规则从哪里读
 
@@ -97,7 +99,7 @@ DIR-030十版分别是：连续时间拼排、截止时刻、时间邻接、空�
 | DIR-029两份既有研究、v1–v9图稿及提示词 | 研究身份、构图演变、风格参照。11张方向PNG含两张用户参考均已查看；v3／v4紧排与共同时间对齐问题已由UI文字保留。 | 原游戏产品规则全部被核实／视频逐帧看过，图中的示例牌名／刻数成为正式参数，v7／v9候选布局整体已采纳。 |
 | [DIR-029动效索引](../development/README.md) | 09-30四刻局部翻牌演示，既有说明／verification.json记录同步、暂停、重播、固定基座及窄窗口等检查。 | 新实跑、战斗结算／真实冷却／独占／构句实现或真人验证。本次仅读两份被索引的证据文件，没有进入外部实现源码。 |
 
-具体FX追踪：当前冷却[018](../effects/entries/FX-018.md)、其他未完成时间[019](../effects/entries/FX-019.md)、隔周期加速[026](../effects/entries/FX-026.md)、完整复诵[033](../effects/entries/FX-033.md)、跳冷却[129](../effects/entries/FX-129.md)。轻巧039、被覆盖后加速056、护甲存续057、生成后加速058、替换成功088、冰甲后缩时090、消耗层加速093及耗尽后缩时095等历史候选由[FX目录](../effects/catalog.md)和各历史来源追踪；有稳定ID不意味着首版可获得或已采纳。
+具体FX追踪：当前冷却[018](../effects/catalog.md#fx-018)、其他未完成时间[019](../effects/catalog.md#fx-019)、隔周期加速[026](../effects/catalog.md#fx-026)、完整复诵[033](../effects/catalog.md#fx-033)、跳冷却[129](../effects/catalog.md#fx-129)。轻巧039、被覆盖后加速056、护甲存续057、生成后加速058、替换成功088、冰甲后缩时090、消耗层加速093及耗尽后缩时095等历史候选由[FX目录](../effects/catalog.md)和各历史来源追踪；有稳定ID不意味着首版可获得或已采纳。
 
 ## 一致性结论与本次修订
 
@@ -111,9 +113,9 @@ DIR-030十版分别是：连续时间拼排、截止时刻、时间邻接、空�
 | 方向数量／导航 | 首页29改30；比较页“27方向索引”改为“全部方向索引”，原27方向比较范围保持。 |
 | DIR-014摘要 | 原正文和原始R2只讨论无合法对象候发，旧摘要“取消与有限等候”易暗示救回覆盖。改为准时／晚1／晚3供给对照，明确覆盖／打断不补发；不新增规则。 |
 | AUD-008旧问题路径 | 改为layout.1现行`yanzhou/governance/questions.md`，不改原问题Resolved状态。 |
-| 来源断链 | 修复6份Draft Change中的17处已唯一对应的相对链接，恢复到同项目现行M／D；历史文字和原始存档不变。逐项见[修订记录](time-axis-review/corrections.json)。 |
+| 来源断链 | 修复6份Draft Change中的17处已唯一对应的相对链接，恢复到同项目现行M／D；历史文字和原始存档不变。逐项见[修订记录](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/governance/time-axis-review/corrections.json)。 |
 | 缺失引用图片 | 09-12第一人称战场来源所指旧兼容jpg在起始工作树缺失，登记为缺口；没有恢复或替换用户文件。它不能补充时间规则或视觉验收。 |
 
-审查结论限于下述可追溯覆盖，不能描述为全部历史文本逐句阅读、全部链接锚点验证、外部代码复核或全部合法组合正确。详细阅读状态、非主题排除及未实跑边界见[coverage](time-axis-review/coverage.md)；检查结果见[verification](time-axis-review/verification.json)。
+审查结论限于下述可追溯覆盖，不能描述为全部历史文本逐句阅读、全部链接锚点验证、外部代码复核或全部合法组合正确。详细阅读状态、非主题排除及未实跑边界见[coverage](time-axis-review/coverage.md)；检查结果见[verification](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/governance/time-axis-review/verification.json)。
 
 后续最自然的设计动作仍是按[原最小场景](conflict-register.md#aud-010最小澄清场景)裁决AUD-010，再冻结相应规则验收输入；本次没有替用户选择先后，也没有执行新的玩法实验。

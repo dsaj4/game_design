@@ -15,7 +15,7 @@
 - [核心设计浓缩](core-design.md)：整体理解与CORE探索输入。
 - [完整GDD](GDD.md)、[系统导航](README.md)与[版本清单](baseline.md)：详细制作规格。
 - [决策记录](../governance/decision-log.md)与[当前问题](../governance/questions.md)。
-- [本次文档决定](../sources/draft-changes/D-2026-09-24-core-design-and-reading-modes.md)：只整理摘要与阅读规则，不改变玩法。
-- [整理前完整核心](../history/pre-organization/game-design-workflow/core-concept.md)：原日期语境。
+- [本次文档决定](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/sources/draft-changes/D-2026-09-24-core-design-and-reading-modes.md)：只整理摘要与阅读规则，不改变玩法。
+- [整理前完整核心](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/game-design-workflow/core-concept.md)：原日期语境。
 
 探索输入范围按[启动规范](../exploration/start.md)选择；链接不自动授权扩读，候选回写仍需目标Draft Change。

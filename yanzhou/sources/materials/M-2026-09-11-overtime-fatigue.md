@@ -125,7 +125,7 @@ C01–03的疲劳起点、首扣窗口、间隔与曲线须作为完整新输入
 2026-09-11维护：用户按[GR v1](M-2026-09-11-global-rule-boundaries.md)的GR10采用“保留完整FAT-C候选并合批审查”的处理方式。FAT-C仍为Execution Candidate v0.1，未改变任何细则／数值或把C01升级为正式三类；测试继续积累，复用交接F06–F08。
 
 
-2026-09-13使用记录：[BR08](M-2026-09-13-pre-gdd-recommendation-batch.md)及[采纳文本](../draft-changes/D-2026-09-13-pre-gdd-recommendation-batch.md)记录C04–07的本次采用范围；历史执行候选和算例保留，不自动运行新测试。
+2026-09-13使用记录：[BR08](M-2026-09-13-pre-gdd-recommendation-batch.md)及[采纳文本](../../history/accepted-design-records/D-2026-09-13-pre-gdd-recommendation-batch.md)记录C04–07的本次采用范围；历史执行候选和算例保留，不自动运行新测试。
 
 
 ## 2026-09-14 全游戏GDD使用记录

@@ -26,3 +26,6 @@ Project ID：game-002-optimization；P = yanzhou/exploration/。layout.2；阅�
 普通任务只写所选方向及必要索引。回写主系统必须有合格来源、提案/评估、差异及目标项目复审，目标Draft Change放yanzhou/sources/draft-changes；明确采纳后才改design并登记决策和比较表中的吸收范围。物理同属yanzhou不扩大权限。
 
 暂停方向标Parked并保留，不删除失败路径。保护文档改动同轮提交推送，只暂存本任务文件。
+
+
+layout.3：旧兼容目录已完全退役；剩余冻结背景和独有历史材料按[历史读取规范](../history/README.md)解释。Git固定版本取证仍受当轮材料范围限制；不重建旧路径、不因归档改变方向基线。

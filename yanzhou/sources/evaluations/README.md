@@ -2,7 +2,7 @@
 
 Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 
-本目录按每份来源的资格、采纳和使用范围阅读；不以文件日期推断当前玩法。[现行规则](../../design/README.md)、[完整清单](../../history/reorganizations/2026-09-23-doc1/inventory.md)、[旧目录与阶段记录](../../history/pre-organization/game-design-workflow/evaluations/README.md)分别维护。
+本目录按每份来源的资格、采纳和使用范围阅读；不以文件日期推断当前玩法。[现行规则](../../design/README.md)、[完整清单](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/reorganizations/2026-09-23-doc1/inventory.md)、[旧目录与阶段记录](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/game-design-workflow/evaluations/README.md)分别维护。
 
 - [E-2026-09-10-instance-and-conditional-binding](E-2026-09-10-instance-and-conditional-binding.md)
 - [E-2026-09-10-semantic-world-executable-rules](E-2026-09-10-semantic-world-executable-rules.md)
@@ -14,9 +14,9 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 - [E-2026-09-11-spell-type-system](E-2026-09-11-spell-type-system.md)
 - [E-2026-09-12-first-person-grid-battlefield](E-2026-09-12-first-person-grid-battlefield.md)
 - [E-2026-09-12-wand-inlay-system](E-2026-09-12-wand-inlay-system.md)
-- [E-2026-09-13-card-pool-rule-rulings](E-2026-09-13-card-pool-rule-rulings.md)
-- [E-2026-09-13-end-tick-status-rulings](E-2026-09-13-end-tick-status-rulings.md)
-- [E-2026-09-13-pre-gdd-recommendation-batch](E-2026-09-13-pre-gdd-recommendation-batch.md)
-- [E-2026-09-14-complete-first-release-design](E-2026-09-14-complete-first-release-design.md)
-- [E-2026-09-14-element-status-host-eligibility](E-2026-09-14-element-status-host-eligibility.md)
-- [E-2026-09-14-factions-wand-ranges-and-starting-loadout](E-2026-09-14-factions-wand-ranges-and-starting-loadout.md)
+- [E-2026-09-13-card-pool-rule-rulings](../../history/accepted-design-records/E-2026-09-13-card-pool-rule-rulings.md)
+- [E-2026-09-13-end-tick-status-rulings](../../history/accepted-design-records/E-2026-09-13-end-tick-status-rulings.md)
+- [E-2026-09-13-pre-gdd-recommendation-batch](../../history/accepted-design-records/E-2026-09-13-pre-gdd-recommendation-batch.md)
+- [E-2026-09-14-complete-first-release-design](../../history/accepted-design-records/E-2026-09-14-complete-first-release-design.md)
+- [E-2026-09-14-element-status-host-eligibility](../../history/accepted-design-records/E-2026-09-14-element-status-host-eligibility.md)
+- [E-2026-09-14-factions-wand-ranges-and-starting-loadout](../../history/accepted-design-records/E-2026-09-14-factions-wand-ranges-and-starting-loadout.md)

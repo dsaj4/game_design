@@ -37,7 +37,7 @@
 | 范围与内容 | DG01用户选择采用：S2全部25项＋E3全部30项和完整战前／战斗／路线／休整／商店／单阶段首领 | Clear |
 | 用户可见影响 | 文档清晰、详细、保留全部当前信息的去向 | Clear |
 | 现有关系 | 保留构思库；RC已确认；新GDD写作等待设计缺口裁决 | Clear |
-| 下一步 | [26组缺口](../../history/audits/pre-gdd-design-decisions-2026-09-13.md)，先范围，再按依赖逐组裁决 | Clear |
+| 下一步 | [26组缺口](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/pre-gdd-design-decisions-2026-09-13.md)，先范围，再按依赖逐组裁决 | Clear |
 
 ### 当前缺口
 

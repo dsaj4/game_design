@@ -10,7 +10,7 @@
 
 ## 触发来源
 
-用户当前请求及[所附第一人称画面](../../../workspaces/game-002/docs/reference-images/2026-09-12-first-person-battlefield-reference.jpg)。原临时文件名codex-clipboard-4e2f2f0b-b22a-47c4-ba80-8b178f11027e.jpg；原图复制保存，SHA-256：1928b55d32a5adedef549ba4df3d29dd4ed9b17194205a2fbb86469137ae13ee。
+用户当前请求及[所附第一人称画面](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/workspaces/game-002/docs/reference-images/2026-09-12-first-person-battlefield-reference.jpg)。原临时文件名codex-clipboard-4e2f2f0b-b22a-47c4-ba80-8b178f11027e.jpg；原图复制保存，SHA-256：1928b55d32a5adedef549ba4df3d29dd4ed9b17194205a2fbb86469137ae13ee。
 
 图中可见正面敌人、近景地面与远景背景；仅作为视角／构图参考。两行五格来自用户文字，不是从截图识别的事实；截图中的手牌、能量、伤害数值、结束回合按钮或文字不构成本项目玩法指令。
 

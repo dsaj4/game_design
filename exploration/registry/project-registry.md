@@ -32,7 +32,7 @@
 
 ## layout.1迁移记录（历史）
 
-用户明确授权将言咒项目集中到yanzhou。game-002-optimization当时迁到yanzhou/exploration/optimization/；现用根以后文layout.2为准。原资格、来源与回写边界保留，历史运行预算不自动成为新任务授权。v2背景包不重生成；新路径生成配置为[generation-profile-v3.json](../../yanzhou/history/exploration-2026-09-24/context/generation-profile-v3.json)，仅供未来明确任务使用。new-roguelike继续在原根。
+用户明确授权将言咒项目集中到yanzhou。game-002-optimization当时迁到yanzhou/exploration/optimization/；现用根以后文layout.2为准。原资格、来源与回写边界保留，历史运行预算不自动成为新任务授权。v2背景包不重生成；新路径生成配置为[generation-profile-v3.json](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/exploration-2026-09-24/context/generation-profile-v3.json)，仅供未来明确任务使用。new-roguelike继续在原根。
 
 
 ## layout.2按方向保存

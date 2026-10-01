@@ -13,8 +13,8 @@
 | 评审责任 | 主设计审规则与范围；UI／美术／音频审功能表达；QA与玩家研究分别验收规则和体验 |
 | 创建／更新日期 | 设计2026-09-14；文档整理2026-09-23 |
 | 目标里程碑 | 首版完整内容与玩家流程的设计交接；不表示成品或玩法测试完成 |
-| 关联提案／评估 | [首版补齐提案](../sources/proposals/P-2026-09-14-complete-first-release-design.md)／[评估](../sources/evaluations/E-2026-09-14-complete-first-release-design.md) |
-| 关联决策 | [CORE-032–036采纳文本](../sources/draft-changes/D-2026-09-14-complete-first-release-design.md)／[决策记录](../governance/decision-log.md) |
+| 关联提案／评估 | [首版补齐提案](../history/accepted-design-records/P-2026-09-14-complete-first-release-design.md)／[评估](../history/accepted-design-records/E-2026-09-14-complete-first-release-design.md) |
+| 关联决策 | [CORE-032–036采纳文本](../history/accepted-design-records/D-2026-09-14-complete-first-release-design.md)／[决策记录](../governance/decision-log.md) |
 | 关联正式素材／inbox审查 | [68份正式素材、47份原始记录逐项审查](source-review.md)；没有未晋级候选直接充当规则 |
 | 关联验证 | [现行验收输入与风险](validation.md)；新规格NotRun |
 | 关联开发进度 | [开发进度索引](../development/README.md)，只建立设计关联，不在GDD记录实现状态 |

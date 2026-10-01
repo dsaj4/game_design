@@ -77,6 +77,6 @@
 
 - [玩法探索区项目框架](../architecture/game-exploration-framework.md)
 - [当前工作区地图](../workspace-map.md)
-- [涌现式策略游戏设计框架 v0.1](../../emergent_strategy_game_framework_v0.1.md)（当前根目录候选，未登记为 Accepted）
+- [涌现式策略游戏设计框架 v0.1](https://github.com/dsaj4/game_design/blob/9b97feaefd02a698977bb1f841b8afa040e9bfe5/emergent_strategy_game_framework_v0.1.md)（当前根目录候选，未登记为 Accepted）
 - [GDD 写作模板索引](../../game-design-workflow/templates/README.md)
 - [媒体分析实验室](../../media-analysis-lab/README.md)

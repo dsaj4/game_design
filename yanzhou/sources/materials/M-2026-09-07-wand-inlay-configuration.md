@@ -77,7 +77,7 @@
 | --- | --- | --- | --- |
 | 2026-09-10 | [设计文档统一](../draft-changes/D-2026-09-10-current-design-alignment.md) | Included：明确表述部分 | 原始使用与确认记录从来源快照追溯；当前处理范围见接口采纳记录，尚无GDD |
 | 2026-09-10 | [接口采纳](../draft-changes/D-2026-09-10-accept-design-decisions.md) | Included：C05处理范围 | 用户采用推荐；参数重设计，后置机制细则仍为Unknown |
-| 2026-09-14 | [CORE-031](../draft-changes/D-2026-09-14-factions-wand-ranges-and-starting-loadout.md) | Included：实际起点／范围／容量 | 原始规则与历史确认保留，后续参数不自动采用 |
+| 2026-09-14 | [CORE-031](../../history/accepted-design-records/D-2026-09-14-factions-wand-ranges-and-starting-loadout.md) | Included：实际起点／范围／容量 | 原始规则与历史确认保留，后续参数不自动采用 |
 
 
 ## 2026-09-14 全游戏GDD使用记录

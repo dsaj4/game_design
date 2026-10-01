@@ -38,7 +38,7 @@
 
 飞书课程已经整理为本地逐字稿资料包：
 
-- 入口：[飞书游戏设计系统课程逐字稿资料包](../research/01-theory-library/feishu-game-design-system-transcripts-2026-08-30/README.md)
+- 入口：[飞书游戏设计系统课程逐字稿资料包](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/research/01-theory-library/feishu-game-design-system-transcripts-2026-08-30/README.md)
 - 飞书记录：237 条；去重后视频：235 个。
 - B 站分集总数：753 P；成功逐字稿：749 P。
 - 完整视频：233/235；多分集视频 15 个，共 533 P，成功 529 P。

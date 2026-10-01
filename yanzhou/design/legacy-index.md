@@ -6,4 +6,4 @@ Project ID：game-002。文档角色：Navigation。2026-09-23。
 
 旧全游戏路径与yanzhou-rc1目录保留兼容导航；第一人称战场草案保留历史入口，不构成另一套现行GDD。
 
-[统一模板](../../game-design-workflow/templates/gdd-writing-requirements-and-template.md) · [版本身份](baseline.md) · [整理前目录](../history/pre-organization/game-design-workflow/gdd/README.md)
+[统一模板](../../game-design-workflow/templates/gdd-writing-requirements-and-template.md) · [版本身份](baseline.md) · [整理前目录](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/game-design-workflow/gdd/README.md)

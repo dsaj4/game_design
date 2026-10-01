@@ -244,8 +244,8 @@ UX-E01：首次教学由四个可跳过提示组成：用实体卡构句→确�
 
 | 日期 | GDD/Proposal | 章节/版本 | 处理结果 | 备注 |
 | --- | --- | --- | --- | --- |
-| 2026-09-14 | [首版收束提案](../proposals/P-2026-09-14-complete-first-release-design.md) | UX／RC1 | Included | 用户明确授权采用 |
-| 2026-09-14 | [采纳文本](../draft-changes/D-2026-09-14-complete-first-release-design.md) | CORE-036 | Included／Accepted | 规则基准；新玩法NotRun |
+| 2026-09-14 | [首版收束提案](../../history/accepted-design-records/P-2026-09-14-complete-first-release-design.md) | UX／RC1 | Included | 用户明确授权采用 |
+| 2026-09-14 | [采纳文本](../../history/accepted-design-records/D-2026-09-14-complete-first-release-design.md) | CORE-036 | Included／Accepted | 规则基准；新玩法NotRun |
 
 
 ## 2026-09-14 全游戏GDD使用记录

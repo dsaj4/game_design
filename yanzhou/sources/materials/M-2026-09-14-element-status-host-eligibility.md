@@ -51,7 +51,7 @@
 - 支持：可推导语义、时间与空间编排。
 - 依赖：[BR01／02／04](M-2026-09-13-pre-gdd-recommendation-batch.md)、[ST01–04](M-2026-09-13-end-tick-status-rulings.md)、[元素](M-2026-09-12-element-spell-archetype.md)、[首版空间与转化](M-2026-09-13-first-release-content-scope.md)。
 - 冲突处理：旧“具体宿主待定”由本表补齐；不得用早期环境拥有通用数量的表达追加生命或护甲。
-- 相关提案：[HG01提案](../proposals/P-2026-09-14-element-status-host-eligibility.md)。
+- 相关提案：[HG01提案](../../history/accepted-design-records/P-2026-09-14-element-status-host-eligibility.md)。
 - 明确不包含：HG02阵营对象表、WG01法杖范围、SG01起始资源及CG逐卡新接口；它们仍按各自选择状态处理。
 
 ## 机制—行为—体验假设
@@ -83,8 +83,8 @@
 
 | 日期 | GDD/Proposal | 章节／版本 | 处理结果 | 备注 |
 | --- | --- | --- | --- | --- |
-| 2026-09-14 | [HG01提案](../proposals/P-2026-09-14-element-status-host-eligibility.md) | HG01 | Included | 资格与结果能力 |
-| 2026-09-14 | [采纳文本](../draft-changes/D-2026-09-14-element-status-host-eligibility.md) | G002-CORE-030 | Included／Accepted | 用户已选择；未写新GDD |
+| 2026-09-14 | [HG01提案](../../history/accepted-design-records/P-2026-09-14-element-status-host-eligibility.md) | HG01 | Included | 资格与结果能力 |
+| 2026-09-14 | [采纳文本](../../history/accepted-design-records/D-2026-09-14-element-status-host-eligibility.md) | G002-CORE-030 | Included／Accepted | 用户已选择；未写新GDD |
 
 
 ## 2026-09-14 全游戏GDD使用记录

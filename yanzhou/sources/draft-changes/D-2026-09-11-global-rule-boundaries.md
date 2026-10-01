@@ -12,7 +12,7 @@
 - 提案：[全局规则边界](../proposals/P-2026-09-11-global-rule-boundaries.md)。
 - 评估：[定性文档评估](../evaluations/E-2026-09-11-global-rule-boundaries.md)。
 - 用户确认：[原话与资格记录](../inbox/2026-09-11-global-rules-review.md)；原话“待明确部分均采用推荐处理”。
-- 审查：[原12项情境与依据](../../history/audits/global-rules-audit-2026-09-11.md)；采纳前完整版本可从571c6db0cd958f9e5fd0a82814293354395a35cc追溯。
+- 审查：[原12项情境与依据](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/global-rules-audit-2026-09-11.md)；采纳前完整版本可从571c6db0cd958f9e5fd0a82814293354395a35cc追溯。
 
 ## 拟新增内容
 

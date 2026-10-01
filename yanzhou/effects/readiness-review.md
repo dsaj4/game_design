@@ -7,7 +7,7 @@
 ## 先前入口与处理记录（历史；通用约束保留）
 
 
-当前结论（2026-09-14）：HG01宿主资格已补齐并采纳，见[素材](../sources/materials/M-2026-09-14-element-status-host-eligibility.md)；ST／RC／BR保持。55项设计已形成[53实体接口推荐](../sources/inbox/2026-09-14-card-interface-completion.md)，逐项列角色、配对、反例与事件组，但新接口待选择，不等于已经闭合。实际阵营表、范围、初始资源已按CORE-031采用，FX-026／027／079／106已至r3；参数、遭遇及CG新接口继续按[DG清单](../history/audits/pre-gdd-design-decisions-2026-09-13.md)追踪。新规则NotRun。
+当前结论（2026-09-14）：HG01宿主资格已补齐并采纳，见[素材](../sources/materials/M-2026-09-14-element-status-host-eligibility.md)；ST／RC／BR保持。55项设计已形成[53实体接口推荐](../sources/inbox/2026-09-14-card-interface-completion.md)，逐项列角色、配对、反例与事件组，但新接口待选择，不等于已经闭合。实际阵营表、范围、初始资源已按CORE-031采用，FX-026／027／079／106已至r3；参数、遭遇及CG新接口继续按[DG清单](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/pre-gdd-design-decisions-2026-09-13.md)追踪。新规则NotRun。
 
 2026-09-14参数补充：[PG v0.1](../sources/inbox/2026-09-14-first-release-parameters-and-channels.md)已对55项设计对应的34词／19镶嵌逐项给初值、时间和渠道，并附3杖与商店／金币。当前为Raw推荐，不覆盖FX已采纳修订，不作为新证据。Q-A补层加成入口与PG-Z01零值成功许可单独待审；环境阈值、敌人、全局路线及疲劳仍需实际表。
 
@@ -25,7 +25,7 @@
 
 ## 最新：S2／E3全卡池清晰度审查
 
-[55项逐卡审查](../history/audits/card-pool-clarity-audit-2026-09-13.md)已完成：11项基础词义可解释、13项单卡清楚但组合待补、31项仍有关键接口缺项。该分类不等于实现就绪或测试通过；参数与获取资格另查。审查建议未采纳，不新增效果ID。
+[55项逐卡审查](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/card-pool-clarity-audit-2026-09-13.md)已完成：11项基础词义可解释、13项单卡清楚但组合待补、31项仍有关键接口缺项。该分类不等于实现就绪或测试通过；参数与获取资格另查。审查建议未采纳，不新增效果ID。
 
 | 审查ID | 对应效果／问题 |
 | --- | --- |

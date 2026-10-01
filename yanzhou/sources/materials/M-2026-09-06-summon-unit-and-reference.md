@@ -78,7 +78,7 @@
 | 2026-09-10 | [设计文档统一](../draft-changes/D-2026-09-10-current-design-alignment.md) | Included：明确表述部分 | 原始使用与确认记录从来源快照追溯；当前处理范围见接口采纳记录，尚无GDD |
 | 2026-09-10 | [接口采纳](../draft-changes/D-2026-09-10-accept-design-decisions.md) | Included：C03、C04处理范围 | 用户采用推荐；参数重设计，后置机制细则仍为Unknown |
 
-2026-09-11：按[全局规则审查](../../history/audits/global-rules-audit-2026-09-11.md)统一现用表述，依据G002-CORE-012／013；仅纠正与现行决定不一致的措辞，没有新增玩法或测试结论。
+2026-09-11：按[全局规则审查](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/global-rules-audit-2026-09-11.md)统一现用表述，依据G002-CORE-012／013；仅纠正与现行决定不一致的措辞，没有新增玩法或测试结论。
 
 
 ## 2026-09-14 全游戏GDD使用记录

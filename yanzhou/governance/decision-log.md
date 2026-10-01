@@ -145,7 +145,7 @@ BF-C01–15为本次补全的推荐方案，未将用户对单层传播的回答
 
 | ID | 决定 | 状态与证据 | 来源 |
 | --- | --- | --- | --- |
-| G002-CORE-018 | 燃烧伤害／冰冻增甲每刻末处理；固定先燃烧后冰冻、同类公开单位顺序；自然衰减保留小数进度累计扣层；允许空心＋自噬长期储层 | Accepted：用户裁决及授权固定先后的落实方案；Hypothesis，新规则NotRun，旧CAL不外推 | [原话](../sources/inbox/2026-09-13-end-tick-status-rulings.md)、[素材](../sources/materials/M-2026-09-13-end-tick-status-rulings.md)、[提案](../sources/proposals/P-2026-09-13-end-tick-status-rulings.md)、[评估](../sources/evaluations/E-2026-09-13-end-tick-status-rulings.md)、[采纳文本](../sources/draft-changes/D-2026-09-13-end-tick-status-rulings.md) |
+| G002-CORE-018 | 燃烧伤害／冰冻增甲每刻末处理；固定先燃烧后冰冻、同类公开单位顺序；自然衰减保留小数进度累计扣层；允许空心＋自噬长期储层 | Accepted：用户裁决及授权固定先后的落实方案；Hypothesis，新规则NotRun，旧CAL不外推 | [原话](../sources/inbox/2026-09-13-end-tick-status-rulings.md)、[素材](../sources/materials/M-2026-09-13-end-tick-status-rulings.md)、[提案](../history/accepted-design-records/P-2026-09-13-end-tick-status-rulings.md)、[评估](../history/accepted-design-records/E-2026-09-13-end-tick-status-rulings.md)、[采纳文本](../history/accepted-design-records/D-2026-09-13-end-tick-status-rulings.md) |
 
 ST01–04明确首次生效、阶段内新状态延后、效果后衰减、清空重置进度及终局停止。其他状态不自动改为每刻周期；主动消耗、异种抵消和跨战边界保持。环境转化进度继承、每刻效果量与其余元素接口未定。本轮未改代码、未测试或采纳新参数。
 
@@ -153,36 +153,36 @@ ST01–04明确首次生效、阶段内新状态延后、效果后衰减、清�
 
 | ID | 决定 | 状态与证据 | 来源 |
 | --- | --- | --- | --- |
-| G002-CORE-019 | 采用RC01–12完整推荐：首次来源、有限完整复诵、蓄势兑现、一次替换、即时一层触发、逐刻过程、消耗与自耗完成、跨杖操控与生成适配 | Accepted；Hypothesis，新规则NotRun | [RC素材](../sources/materials/M-2026-09-13-card-pool-rule-rulings.md)、[采纳文本](../sources/draft-changes/D-2026-09-13-card-pool-rule-rulings.md) |
+| G002-CORE-019 | 采用RC01–12完整推荐：首次来源、有限完整复诵、蓄势兑现、一次替换、即时一层触发、逐刻过程、消耗与自耗完成、跨杖操控与生成适配 | Accepted；Hypothesis，新规则NotRun | [RC素材](../sources/materials/M-2026-09-13-card-pool-rule-rulings.md)、[采纳文本](../history/accepted-design-records/D-2026-09-13-card-pool-rule-rulings.md) |
 | G002-SCOPE-003 | 首版S2全部25项＋E3全部30项，战前／战斗／路线／休整／商店／单阶段首领；其余创意储备；先定缺口再写GDD | Accepted范围；S2方向Confirmed，参数未定 | [用户选择](../sources/inbox/2026-09-13-full-game-gdd-preparation.md)、[范围素材](../sources/materials/M-2026-09-13-first-release-content-scope.md) |
-| G002-CORE-020 | 每格独立地面＋一个占位体，玩家棋盘外；本格地面＋正交邻格作用，不含自身／斜角／环绕；前排树木不自动遮挡后排施法 | Accepted；Hypothesis | [空间素材](../sources/materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](../sources/draft-changes/D-2026-09-13-card-pool-rule-rulings.md) |
+| G002-CORE-020 | 每格独立地面＋一个占位体，玩家棋盘外；本格地面＋正交邻格作用，不含自身／斜角／环绕；前排树木不自动遮挡后排施法 | Accepted；Hypothesis | [空间素材](../sources/materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](../history/accepted-design-records/D-2026-09-13-card-pool-rule-rulings.md) |
 | G002-CORE-021 | 无同种时只在范围内首个存活敌人的正交相邻合法空格生成；无此类格回退，即使其他格空着；同种仍优先补层 | Accepted；Hypothesis | 同上；用户“只在所选敌人旁生成（推荐）” |
-| G002-CORE-022 | 各环境形态阶段与最终转化阈值均按当前对应元素状态层数判断，不累计历史施加量；已达到形态只前进、不自动回退 | Accepted；Hypothesis／NotRun | [用户选择](../sources/inbox/2026-09-13-full-game-gdd-preparation.md)、[确认素材](../sources/materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](../sources/draft-changes/D-2026-09-13-card-pool-rule-rulings.md) |
-| G002-CORE-023 | 对应法术正在持续释放且范围覆盖即提供环境转化条件；环境阶段末统一检查形态与转化，释放最后一刻有效，本次转化新元素下一刻自动作用 | Accepted；Hypothesis／NotRun | [用户选择](../sources/inbox/2026-09-13-full-game-gdd-preparation.md)、[确认素材](../sources/materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](../sources/draft-changes/D-2026-09-13-card-pool-rule-rulings.md) |
-| G002-CORE-024 | 环境转化产生新元素身份并继承当前对应层数；旧实例绑定与当次名单不自动转向新元素，后续条件选取仍可选新元素 | Accepted；Hypothesis／NotRun | [用户确认](../sources/inbox/2026-09-13-full-game-gdd-preparation.md)、[素材](../sources/materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](../sources/draft-changes/D-2026-09-13-card-pool-rule-rulings.md) |
-| G002-CORE-025 | 环境转化归对应持续释放覆盖法杖，多杖后置优先；采用其生成特性及新元素固有属性，继承当前层数与小数衰减进度，不复制旧无关资源 | Accepted；Hypothesis／NotRun | [本轮确认](../sources/inbox/2026-09-13-full-game-gdd-preparation.md)、[素材](../sources/materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](../sources/draft-changes/D-2026-09-13-card-pool-rule-rulings.md) |
+| G002-CORE-022 | 各环境形态阶段与最终转化阈值均按当前对应元素状态层数判断，不累计历史施加量；已达到形态只前进、不自动回退 | Accepted；Hypothesis／NotRun | [用户选择](../sources/inbox/2026-09-13-full-game-gdd-preparation.md)、[确认素材](../sources/materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](../history/accepted-design-records/D-2026-09-13-card-pool-rule-rulings.md) |
+| G002-CORE-023 | 对应法术正在持续释放且范围覆盖即提供环境转化条件；环境阶段末统一检查形态与转化，释放最后一刻有效，本次转化新元素下一刻自动作用 | Accepted；Hypothesis／NotRun | [用户选择](../sources/inbox/2026-09-13-full-game-gdd-preparation.md)、[确认素材](../sources/materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](../history/accepted-design-records/D-2026-09-13-card-pool-rule-rulings.md) |
+| G002-CORE-024 | 环境转化产生新元素身份并继承当前对应层数；旧实例绑定与当次名单不自动转向新元素，后续条件选取仍可选新元素 | Accepted；Hypothesis／NotRun | [用户确认](../sources/inbox/2026-09-13-full-game-gdd-preparation.md)、[素材](../sources/materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](../history/accepted-design-records/D-2026-09-13-card-pool-rule-rulings.md) |
+| G002-CORE-025 | 环境转化归对应持续释放覆盖法杖，多杖后置优先；采用其生成特性及新元素固有属性，继承当前层数与小数衰减进度，不复制旧无关资源 | Accepted；Hypothesis／NotRun | [本轮确认](../sources/inbox/2026-09-13-full-game-gdd-preparation.md)、[素材](../sources/materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](../history/accepted-design-records/D-2026-09-13-card-pool-rule-rulings.md) |
 | G002-CORE-026 | 两种转化原地生成新元素，允许范围多同种；普通释放仍同种优先；仅合格环境占位物可转化，地面保留身份 | Accepted；Hypothesis／NotRun | 同上；两次原地替换与地面边界选择 |
-| G002-CORE-027 | 异种补生采用对应持续释放覆盖与后置来源，合法邻近抵消亦可触发；正余量原地补生不重复加成，新状态衰减进度从零 | Accepted；Hypothesis／NotRun | [本轮选择](../sources/inbox/2026-09-13-full-game-gdd-preparation.md)、[素材](../sources/materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](../sources/draft-changes/D-2026-09-13-card-pool-rule-rulings.md) |
-| G002-CORE-028 | 环境阶段开始固定自动元素身份名单，失效跳过、中途新生下刻；转化检查沿R08公开顺序，状态资格独立沿ST02，旧身份名额不转移 | Accepted；Hypothesis／NotRun | [用户确认](../sources/inbox/2026-09-13-full-game-gdd-preparation.md)、[素材](../sources/materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](../sources/draft-changes/D-2026-09-13-card-pool-rule-rulings.md) |
+| G002-CORE-027 | 异种补生采用对应持续释放覆盖与后置来源，合法邻近抵消亦可触发；正余量原地补生不重复加成，新状态衰减进度从零 | Accepted；Hypothesis／NotRun | [本轮选择](../sources/inbox/2026-09-13-full-game-gdd-preparation.md)、[素材](../sources/materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](../history/accepted-design-records/D-2026-09-13-card-pool-rule-rulings.md) |
+| G002-CORE-028 | 环境阶段开始固定自动元素身份名单，失效跳过、中途新生下刻；转化检查沿R08公开顺序，状态资格独立沿ST02，旧身份名额不转移 | Accepted；Hypothesis／NotRun | [用户确认](../sources/inbox/2026-09-13-full-game-gdd-preparation.md)、[素材](../sources/materials/M-2026-09-13-first-release-content-scope.md)、[采纳文本](../history/accepted-design-records/D-2026-09-13-card-pool-rule-rulings.md) |
 
-本轮未创建新GDD、未改代码或启动测试。原始库与历史实验保留；[26组写作前缺口](../history/audits/pre-gdd-design-decisions-2026-09-13.md)中DG01–03已确认；DG06／07已确定当前量、形态保留、释放覆盖与环境阶段末检查；DG08身份及继承已闭合；DG09原地替换、地面边界及补生许可／来源已闭合；DG10阶段名单与顺序已收束；继续DG04／05范围与宿主资格。
+本轮未创建新GDD、未改代码或启动测试。原始库与历史实验保留；[26组写作前缺口](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/pre-gdd-design-decisions-2026-09-13.md)中DG01–03已确认；DG06／07已确定当前量、形态保留、释放覆盖与环境阶段末检查；DG08身份及继承已闭合；DG09原地替换、地面边界及补生许可／来源已闭合；DG10阶段名单与顺序已收束；继续DG04／05范围与宿主资格。
 
 
 ## 2026-09-13：继续确认规则，批量采用既有推荐
 
 | ID | 已采用范围 | 状态与证据 | 来源 |
 | --- | --- | --- | --- |
-| G002-CORE-029 | BR01–09：自身／宿主范围、阵营能力、正L与过程并存、公式结构、原动作与触发、2可换槽与激活、同组最强、疲劳执行、节点保存和同场开头锁定重播 | Accepted；Hypothesis／NotRun | [合格素材](../sources/materials/M-2026-09-13-pre-gdd-recommendation-batch.md)、[采纳文本](../sources/draft-changes/D-2026-09-13-pre-gdd-recommendation-batch.md) |
+| G002-CORE-029 | BR01–09：自身／宿主范围、阵营能力、正L与过程并存、公式结构、原动作与触发、2可换槽与激活、同组最强、疲劳执行、节点保存和同场开头锁定重播 | Accepted；Hypothesis／NotRun | [合格素材](../sources/materials/M-2026-09-13-pre-gdd-recommendation-batch.md)、[采纳文本](../history/accepted-design-records/D-2026-09-13-pre-gdd-recommendation-batch.md) |
 | G002-SCOPE-004 | BR10–11：法术掉卡／产金首版后置，保留金币整体收益；共享词同实体、不加稀有度／隐藏调权；桌面鼠标键盘与功能信息要求 | Accepted范围；实际内容／平台发行／表现待补 | 同上 |
 | G002-DOC-004（历史别名DOC-002／BR12） | BR12：实际内容、渠道及完整候选参数先成套，再写GDD；补表方向不能冒充表已完成，旧测试保留原输入身份 | Accepted／Documentation | 同上；用户本轮“继续确认规则，均按推荐处理” |
 
-退出恢复另有用户明确答复“从本场开头恢复，全部锁定（推荐）”，并入BR09。IN-C和FAT-C只在BR明示范围内升级，旧候选数字不自动采纳。DG19、DG23本轮关闭，共10／26组关闭；其余组按[清单](../history/audits/pre-gdd-design-decisions-2026-09-13.md)补实际规格。原库保留，未创建新GDD、未改代码或运行新玩法测试。
+退出恢复另有用户明确答复“从本场开头恢复，全部锁定（推荐）”，并入BR09。IN-C和FAT-C只在BR明示范围内升级，旧候选数字不自动采纳。DG19、DG23本轮关闭，共10／26组关闭；其余组按[清单](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/pre-gdd-design-decisions-2026-09-13.md)补实际规格。原库保留，未创建新GDD、未改代码或运行新玩法测试。
 
 ## 2026-09-14：火冰宿主资格
 
 | ID | 已采用范围 | 状态与证据 | 来源 |
 | --- | --- | --- | --- |
-| G002-CORE-030 | HG01：玩家／敌人承载并兑现火冰攻防；树木／草地可持层参与形态、抵消与汲取但无生命／护甲；石地不接受；元素保持共享层数与抵消规则 | Accepted；Hypothesis／NotRun | [用户确认](../sources/inbox/2026-09-14-host-range-starting-content.md)、[合格素材](../sources/materials/M-2026-09-14-element-status-host-eligibility.md)、[采纳文本](../sources/draft-changes/D-2026-09-14-element-status-host-eligibility.md) |
+| G002-CORE-030 | HG01：玩家／敌人承载并兑现火冰攻防；树木／草地可持层参与形态、抵消与汲取但无生命／护甲；石地不接受；元素保持共享层数与抵消规则 | Accepted；Hypothesis／NotRun | [用户确认](../sources/inbox/2026-09-14-host-range-starting-content.md)、[合格素材](../sources/materials/M-2026-09-14-element-status-host-eligibility.md)、[采纳文本](../history/accepted-design-records/D-2026-09-14-element-status-host-eligibility.md) |
 
 HG02／WG01／SG01为待审阵营、实际范围与起始资源推荐；[CG逐卡接口](../sources/inbox/2026-09-14-card-interface-completion.md)亦待审。HG01不代表这些新选择或全部DG05已经确定。当前仍10／26组关闭，继续实际内容及参数补齐。
 
@@ -190,7 +190,7 @@ HG02／WG01／SG01为待审阵营、实际范围与起始资源推荐；[CG逐�
 
 | ID | 决定 | 状态与证据 | 来源 |
 | --- | --- | --- | --- |
-| G002-CORE-031 | HG02玩家／敌人／环境／创建元素／预设元素的阵营与固有属性；WG01三种固定法杖、10格锚点与裁边及角色范围；SG01起始4根原木杖、12张词卡、空可换槽、4出战上限及库存容量 | Accepted；Hypothesis／NotRun | [原问题与“确认”](../sources/inbox/2026-09-14-host-range-starting-content.md)、[合格素材](../sources/materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)、[采纳文本](../sources/draft-changes/D-2026-09-14-factions-wand-ranges-and-starting-loadout.md) |
+| G002-CORE-031 | HG02玩家／敌人／环境／创建元素／预设元素的阵营与固有属性；WG01三种固定法杖、10格锚点与裁边及角色范围；SG01起始4根原木杖、12张词卡、空可换槽、4出战上限及库存容量 | Accepted；Hypothesis／NotRun | [原问题与“确认”](../sources/inbox/2026-09-14-host-range-starting-content.md)、[合格素材](../sources/materials/M-2026-09-14-factions-wand-ranges-and-starting-loadout.md)、[采纳文本](../history/accepted-design-records/D-2026-09-14-factions-wand-ranges-and-starting-loadout.md) |
 
 用户本次“确认”回应HG02／WG01／SG01成组推荐，HG01此前的单独采纳仍成立。DG04、DG05、DG17关闭，累计13／26；DG15补齐容量子项，货架与UX开战门槛待审。UX默认配置／跨战失效引用归DG24／25继续裁决，不作为DG17的资源未定项。原木杖额外出售留给RG-C01；PG／EG／RG／UX新数值和CG新接口不随本次升级。旧决策时点文字与候选完整保留，无新GDD或玩法测试。
 
@@ -205,7 +205,7 @@ HG02／WG01／SG01为待审阵营、实际范围与起始资源推荐；[CG逐�
 - G002-CORE-035：[首版完整路线、敌人、遭遇、成长与疲劳](../sources/materials/M-2026-09-14-run-route-encounters-and-fatigue.md)。
 - G002-CORE-036：[首版玩家旅程、交互、保存与功能表现](../sources/materials/M-2026-09-14-interface-platform-and-experience.md)。
 
-采用理由：让首版从实体构句、自动战斗、路线经济到保存与呈现形成可交接的完整规则。原始候选、旧数值与失败路径保留；素材门槛、提案、评估和拟修改已完成。[Proposal](../sources/proposals/P-2026-09-14-complete-first-release-design.md)／[Evaluation](../sources/evaluations/E-2026-09-14-complete-first-release-design.md)／[Draft Change](../sources/draft-changes/D-2026-09-14-complete-first-release-design.md)。规则存在反例或玩法验证失败时回到相应规则ID修订，不以旧实验结果覆盖RC1。先完成此采纳同步，再编写全游戏GDD Wiki。
+采用理由：让首版从实体构句、自动战斗、路线经济到保存与呈现形成可交接的完整规则。原始候选、旧数值与失败路径保留；素材门槛、提案、评估和拟修改已完成。[Proposal](../history/accepted-design-records/P-2026-09-14-complete-first-release-design.md)／[Evaluation](../history/accepted-design-records/E-2026-09-14-complete-first-release-design.md)／[Draft Change](../history/accepted-design-records/D-2026-09-14-complete-first-release-design.md)。规则存在反例或玩法验证失败时回到相应规则ID修订，不以旧实验结果覆盖RC1。先完成此采纳同步，再编写全游戏GDD Wiki。
 
 
 ## 2026-09-14：全游戏GDD Wiki交接（G002-DOC-003）
@@ -216,22 +216,29 @@ HG02／WG01／SG01为待审阵营、实际范围与起始资源推荐；[CG逐�
 
 | ID | 决定 | 状态与来源 |
 | --- | --- | --- |
-| G002-DOC-005 | 统一current规格、七系统职责、参数和内容来源；旧正文留历史，探索方向独立索引与比较，候选不自动回写；BR12修复为DOC-004 | Accepted / Documentation；用户明确开始全量整理；[Draft Change](../sources/draft-changes/D-2026-09-23-document-organization.md) |
+| G002-DOC-005 | 统一current规格、七系统职责、参数和内容来源；旧正文留历史，探索方向独立索引与比较，候选不自动回写；BR12修复为DOC-004 | Accepted / Documentation；用户明确开始全量整理；[Draft Change](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/sources/draft-changes/D-2026-09-23-document-organization.md) |
 
 本次未新增CORE玩法决定。原26组选择已采纳；AUD-010保持Open。旧输入与两份已有素材删行未纳入本次修改。
 
 ## 2026-09-23：言咒项目独立目录（G002-DOC-006）
 
-用户授权新建yanzhou并重新梳理物理目录，提交推送新分支。Accepted / Documentation / layout.1。主系统与优化分别映射，Project ID及资格/回写权限不变；旧路径保留兼容入口和明确冻结来源。未修改玩法、不解决AUD-010、不运行新玩法测试。[Draft Change](../sources/draft-changes/D-2026-09-23-yanzhou-project-layout.md) · [目录规范](directory-layout.md)。
+用户授权新建yanzhou并重新梳理物理目录，提交推送新分支。Accepted / Documentation / layout.1。主系统与优化分别映射，Project ID及资格/回写权限不变；旧路径保留兼容入口和明确冻结来源。未修改玩法、不解决AUD-010、不运行新玩法测试。[Draft Change](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/sources/draft-changes/D-2026-09-23-yanzhou-project-layout.md) · [目录规范](directory-layout.md)。
 
 
 ## 2026-09-24：探索按方向简化（G002-DOC-007）
 
-Accepted / Documentation / layout.2。用户明确要求“exploration内部的结构也简化一下，以方向为单位能储存必要构思即可”。取消optimization包装层与活动区流程目录；27方向各用一个文件夹、README直接保存构思，比较及基线吸收合并到comparison。旧原始记录、合格材料、运行与固定包归入history/exploration-2026-09-24。原Candidate ID、局部资格和吸收边界保留；没有新CORE决定、没有新玩法验证，AUD-010保持Open。[Draft Change](../sources/draft-changes/D-2026-09-24-simplify-exploration.md) · [报告](exploration-simplification-report.md)。
+Accepted / Documentation / layout.2。用户明确要求“exploration内部的结构也简化一下，以方向为单位能储存必要构思即可”。取消optimization包装层与活动区流程目录；27方向各用一个文件夹、README直接保存构思，比较及基线吸收合并到comparison。旧原始记录、合格材料、运行与固定包归入history/exploration-2026-09-24。原Candidate ID、局部资格和吸收边界保留；没有新CORE决定、没有新玩法验证，AUD-010保持Open。[Draft Change](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/sources/draft-changes/D-2026-09-24-simplify-exploration.md) · [报告](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/governance/exploration-simplification-report.md)。
 
 
 ## 2026-09-24：核心设计浓缩与可选探索背景（G002-DOC-008）
 
 Accepted / Documentation。用户要求补充GDD概括浓缩，并控制启动探索时阅读的游戏材料。新增[核心设计](../design/core-design.md)，保留core-concept为版本入口；新增[READ-1启动合同](../exploration/start.md)，支持CORE、固定GDD包、全量主系统文本、自选及空白。新方向默认CORE并先说明；旧方向续作沿原来源，切换需当轮明确要求。历史、其他方向与外部材料分别授权；实际文件、固定版本及覆盖直接记录在方向README。当前任务已读背景不能被抹除，须如实声明边界。
 
-不新增CORE玩法决定，不修改现行参数、原候选资格或AUD-010。依据已提交GDD整理摘要，未启动玩法测试。[Draft Change](../sources/draft-changes/D-2026-09-24-core-design-and-reading-modes.md)。
+不新增CORE玩法决定，不修改现行参数、原候选资格或AUD-010。依据已提交GDD整理摘要，未启动玩法测试。[Draft Change](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/sources/draft-changes/D-2026-09-24-core-design-and-reading-modes.md)。
+
+
+## 2026-09-30：四批清理与兼容目录退役（G002-DOC-009）
+
+Accepted / Documentation / layout.3。用户明确要求“将前4批都一起进行，并且大胆清理history中的无用材料、完全删除旧兼容目录”。收束五个日常入口和操作规范，删除两套旧兼容目录；重复历史快照、迁移与机器审查附件改固定Git取证，独有探索证据与冻结背景保留。134个FX集中登记，18份已完成P/E/D归档，探索索引按近期记录/其余待选分组，不擅自改变资格或Parked状态。自动生成文件索引并检查活动链接。
+
+未新增CORE决定，AUD-010仍Open；不运行玩法实验。未提交旧素材、视觉文件和临时产物逐字节备份到仓库外，不自动发布或合并为正式来源。[管理Draft Change](../sources/draft-changes/D-2026-09-30-document-cleanup.md) · [报告](cleanup-report.md)。

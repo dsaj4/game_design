@@ -45,45 +45,45 @@
 | ID | 名称 | 卡面短句／符号 | 描述 | 效果 |
 | --- | --- | --- | --- | --- |
 | S2-N01 | 敌人 | 敌 | 伤害、标记和印记操作的目标。 | 对象引用 |
-| S2-N02 | 护甲 | 🛡 | 抵挡伤害的防护状态。 | [FX-002](../../effects/entries/FX-002.md) |
-| S2-N03 | 印记 | ◉ | 可供筛选或消耗的目标标记。 | [FX-035](../../effects/entries/FX-035.md) |
-| S2-N04 | 回响 | 【回】 | 下一条不产生回响的普通简易法术成功时消费，并追加一次完整复诵。 | [FX-037](../../effects/entries/FX-037.md)、[FX-033](../../effects/entries/FX-033.md) |
-| S2-N05 | 冷却 | ⏳ | 指定法杖正在等待的冷却过程。 | [FX-018](../../effects/entries/FX-018.md) |
+| S2-N02 | 护甲 | 🛡 | 抵挡伤害的防护状态。 | [FX-002](../../effects/catalog.md#fx-002) |
+| S2-N03 | 印记 | ◉ | 可供筛选或消耗的目标标记。 | [FX-035](../../effects/catalog.md#fx-035) |
+| S2-N04 | 回响 | 【回】 | 下一条不产生回响的普通简易法术成功时消费，并追加一次完整复诵。 | [FX-037](../../effects/catalog.md#fx-037)、[FX-033](../../effects/catalog.md#fx-033) |
+| S2-N05 | 冷却 | ⏳ | 指定法杖正在等待的冷却过程。 | [FX-018](../../effects/catalog.md#fx-018) |
 
 ## 动词：6项
 
 | ID | 名称 | 卡面短句／符号 | 描述 | 效果 |
 | --- | --- | --- | --- | --- |
-| S2-V01 | 伤害 | 伤害敌人 | 最基础的直接攻击。 | [FX-001](../../effects/entries/FX-001.md) |
-| S2-V02 | 获得 | 获得🛡／【回】 | 取得所指的非元素状态。 | [FX-002](../../effects/entries/FX-002.md)、[FX-037](../../effects/entries/FX-037.md) |
-| S2-V03 | 标记 | 敌人获得◉ | 给目标留下印记。 | [FX-035](../../effects/entries/FX-035.md) |
-| S2-V04 | 引爆 | 目标◉→伤害该目标 | 消耗印记，立即造成伤害。 | [FX-038](../../effects/entries/FX-038.md) |
-| S2-V05 | 清除 | 移除指定状态 | 可清除护甲或明确指名的其他状态。 | [FX-005](../../effects/entries/FX-005.md)、[FX-006](../../effects/entries/FX-006.md)、[FX-032](../../effects/entries/FX-032.md) |
-| S2-V06 | 完成 | 指定⏳结束，法术就绪 | 结束一个正在进行的冷却，法术仍需竞争共享槽。 | [FX-130](../../effects/entries/FX-130.md) |
+| S2-V01 | 伤害 | 伤害敌人 | 最基础的直接攻击。 | [FX-001](../../effects/catalog.md#fx-001) |
+| S2-V02 | 获得 | 获得🛡／【回】 | 取得所指的非元素状态。 | [FX-002](../../effects/catalog.md#fx-002)、[FX-037](../../effects/catalog.md#fx-037) |
+| S2-V03 | 标记 | 敌人获得◉ | 给目标留下印记。 | [FX-035](../../effects/catalog.md#fx-035) |
+| S2-V04 | 引爆 | 目标◉→伤害该目标 | 消耗印记，立即造成伤害。 | [FX-038](../../effects/catalog.md#fx-038) |
+| S2-V05 | 清除 | 移除指定状态 | 可清除护甲或明确指名的其他状态。 | [FX-005](../../effects/catalog.md#fx-005)、[FX-006](../../effects/catalog.md#fx-006)、[FX-032](../../effects/catalog.md#fx-032) |
+| S2-V06 | 完成 | 指定⏳结束，法术就绪 | 结束一个正在进行的冷却，法术仍需竞争共享槽。 | [FX-130](../../effects/catalog.md#fx-130) |
 
 ## 形容词：5项
 
 | ID | 名称 | 卡面短句／符号 | 描述 | 效果 |
 | --- | --- | --- | --- | --- |
-| S2-A01 | 裸露的 | 对该敌人的伤害：绕过🛡 | 修饰敌人，让本句对其造成的伤害直接作用生命。 | [FX-131](../../effects/entries/FX-131.md) |
-| S2-A02 | 反刺的 | 🛡抵挡伤害：伤害攻击者 | 修饰护甲，实际抵挡伤害后反击合法攻击者。 | [FX-132](../../effects/entries/FX-132.md) |
-| S2-A03 | 回响的 | 本句成功：再施放 | 修饰名词，使包含它的简易法术成功后再完整施放。 | [FX-033](../../effects/entries/FX-033.md) |
-| S2-A04 | 专注的 | 本句目标：仅带◉者 | 修饰敌人，只选择带有印记的合法敌人。 | [FX-133](../../effects/entries/FX-133.md) |
-| S2-A05 | 顽固的 | 引爆◉：保留◉ | 修饰印记，使其可以被引爆而不消耗；主动清除仍有效。 | [FX-134](../../effects/entries/FX-134.md) |
+| S2-A01 | 裸露的 | 对该敌人的伤害：绕过🛡 | 修饰敌人，让本句对其造成的伤害直接作用生命。 | [FX-131](../../effects/catalog.md#fx-131) |
+| S2-A02 | 反刺的 | 🛡抵挡伤害：伤害攻击者 | 修饰护甲，实际抵挡伤害后反击合法攻击者。 | [FX-132](../../effects/catalog.md#fx-132) |
+| S2-A03 | 回响的 | 本句成功：再施放 | 修饰名词，使包含它的简易法术成功后再完整施放。 | [FX-033](../../effects/catalog.md#fx-033) |
+| S2-A04 | 专注的 | 本句目标：仅带◉者 | 修饰敌人，只选择带有印记的合法敌人。 | [FX-133](../../effects/catalog.md#fx-133) |
+| S2-A05 | 顽固的 | 引爆◉：保留◉ | 修饰印记，使其可以被引爆而不消耗；主动清除仍有效。 | [FX-134](../../effects/catalog.md#fx-134) |
 
 ## 镶嵌：9项
 
 | ID | 名称 | 卡面短句／符号 | 描述 | 效果 |
 | --- | --- | --- | --- | --- |
-| S2-I01 | 复诵晶石 | 本杖简易法术成功：再施放 | 成功后追加完整复诵，仍参与共享槽。 | [FX-033](../../effects/entries/FX-033.md) |
-| S2-I02 | 蓄势晶石 | 成功蓄势；蓄满后下次攻防爆发 | 沿已确认方向：本杖简易成功积累，满后强化下一次伤害或护甲，兑现清空。 | [FX-034](../../effects/entries/FX-034.md) |
-| S2-I03 | 破甲回环 | 本杖击破敌甲：再施放 | 把破甲作为追加复诵的触发条件。 | [FX-124](../../effects/entries/FX-124.md) |
-| S2-I04 | 双律环 | 伤敌改护己；护己改伤害范围内首个敌人 | 将本杖原本的伤敌结果改为己方护甲，原本的己方护甲结果改为伤敌。 | [FX-125](../../effects/entries/FX-125.md) |
-| S2-I05 | 攻守转盘 | 自己无甲：本杖伤敌改为护己 | 无护甲时自动把本杖直接伤敌结果转为给自己护甲；有甲时正常伤敌。 | [FX-126](../../effects/entries/FX-126.md) |
-| S2-I06 | 留痕针 | 本杖直接伤害命中：标记目标 | 让基础攻击留下可供后续引爆或筛选的印记。 | [FX-127](../../effects/entries/FX-127.md) |
-| S2-I07 | 稳息扣 | 生命受伤：不打断本杖冷却 | 只保护本杖的冷却过程，其他伤害结果照常。 | [FX-128](../../effects/entries/FX-128.md) |
-| S2-I08 | 耗印芯 | 本杖消耗◉：下次跳过冷却 | 实际消耗印记后，本杖下一次正常循环跳过冷却，释放仍竞争共享槽。 | [FX-129](../../effects/entries/FX-129.md) |
-| S2-I09 | 融冰针 | 伤害冰冻目标：【冻】换本次伤害 | 消耗目标冰冻，强化本次直接伤害；不撤回它已获得的护甲。 | [FX-055](../../effects/entries/FX-055.md) |
+| S2-I01 | 复诵晶石 | 本杖简易法术成功：再施放 | 成功后追加完整复诵，仍参与共享槽。 | [FX-033](../../effects/catalog.md#fx-033) |
+| S2-I02 | 蓄势晶石 | 成功蓄势；蓄满后下次攻防爆发 | 沿已确认方向：本杖简易成功积累，满后强化下一次伤害或护甲，兑现清空。 | [FX-034](../../effects/catalog.md#fx-034) |
+| S2-I03 | 破甲回环 | 本杖击破敌甲：再施放 | 把破甲作为追加复诵的触发条件。 | [FX-124](../../effects/catalog.md#fx-124) |
+| S2-I04 | 双律环 | 伤敌改护己；护己改伤害范围内首个敌人 | 将本杖原本的伤敌结果改为己方护甲，原本的己方护甲结果改为伤敌。 | [FX-125](../../effects/catalog.md#fx-125) |
+| S2-I05 | 攻守转盘 | 自己无甲：本杖伤敌改为护己 | 无护甲时自动把本杖直接伤敌结果转为给自己护甲；有甲时正常伤敌。 | [FX-126](../../effects/catalog.md#fx-126) |
+| S2-I06 | 留痕针 | 本杖直接伤害命中：标记目标 | 让基础攻击留下可供后续引爆或筛选的印记。 | [FX-127](../../effects/catalog.md#fx-127) |
+| S2-I07 | 稳息扣 | 生命受伤：不打断本杖冷却 | 只保护本杖的冷却过程，其他伤害结果照常。 | [FX-128](../../effects/catalog.md#fx-128) |
+| S2-I08 | 耗印芯 | 本杖消耗◉：下次跳过冷却 | 实际消耗印记后，本杖下一次正常循环跳过冷却，释放仍竞争共享槽。 | [FX-129](../../effects/catalog.md#fx-129) |
+| S2-I09 | 融冰针 | 伤害冰冻目标：【冻】换本次伤害 | 消耗目标冰冻，强化本次直接伤害；不撤回它已获得的护甲。 | [FX-055](../../effects/catalog.md#fx-055) |
 
 ## 代表短句与全部类型
 
@@ -122,7 +122,7 @@
 
 | 缺项 | 影响 | 下一步 | 成功信号 | 失败信号 |
 | --- | --- | --- | --- | --- |
-| 空间、转化、装配与逐词角色 | 单句仍可能无法唯一解释 | 按[DG清单](../../history/audits/pre-gdd-design-decisions-2026-09-13.md)逐项定案 | 每张卡有合法例与反例 | 依赖实现者猜测 |
+| 空间、转化、装配与逐词角色 | 单句仍可能无法唯一解释 | 按[DG清单](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/audits/pre-gdd-design-decisions-2026-09-13.md)逐项定案 | 每张卡有合法例与反例 | 依赖实现者猜测 |
 | 首版库存、获取和遭遇 | 无法验证流派是否可获得／成长 | 实际内容表，固定参数输入 | 合法资源能组成代表构筑 | 仅在临时测试装置成立 |
 | 平衡与阅读体验 | 已选不等于好用易懂 | 后续新版本验收 | 速度、风险与资源有可解释取舍 | 同预算单一支配或玩家不能预测 |
 
@@ -138,7 +138,7 @@
 
 | 日期 | 目标 | 结果 |
 | --- | --- | --- |
-| 2026-09-13 | [采纳文本](../draft-changes/D-2026-09-13-card-pool-rule-rulings.md)、G002-SCOPE-003 | 首版范围采纳；S2全25项方向已选择，下一步细化 |
+| 2026-09-13 | [采纳文本](../../history/accepted-design-records/D-2026-09-13-card-pool-rule-rulings.md)、G002-SCOPE-003 | 首版范围采纳；S2全25项方向已选择，下一步细化 |
 
 ## 已确认空间基础（DG02）
 
@@ -167,7 +167,7 @@
 - 正常例：当前对应状态层数达到物体预设的下一阶段阈值时，满足其余条件即可推进。
 - 边界例：过去曾累计施加足够多状态，但现在的层数低于下一阈值，不能继续跨过该阈值；已出现形态保留，但不能因此跳过后续当前层数要求。
 - 资格结论：来源、设计对象、玩家影响、既有关系与后续验证清楚，Qualified／Accepted；证据Hypothesis。DG06两项选择已关闭；DG07随后已确认；DG08的身份／继承与PV04的实际阈值仍待确认。后续检查须覆盖降层、清空再施加与持续释放，当前不启动测试。
-- 使用记录：同日进入[提案](../proposals/P-2026-09-13-card-pool-rule-rulings.md)、[评估](../evaluations/E-2026-09-13-card-pool-rule-rulings.md)和[采纳文本](../draft-changes/D-2026-09-13-card-pool-rule-rulings.md)，同步核心与元素素材。
+- 使用记录：同日进入[提案](../../history/accepted-design-records/P-2026-09-13-card-pool-rule-rulings.md)、[评估](../../history/accepted-design-records/E-2026-09-13-card-pool-rule-rulings.md)和[采纳文本](../../history/accepted-design-records/D-2026-09-13-card-pool-rule-rulings.md)，同步核心与元素素材。
 
 ## 已确认释放覆盖与环境阶段末检查（DG07）
 
@@ -181,7 +181,7 @@
 - 边界例：仅有上次留下的火焰而无正在释放的对应法术覆盖，树木即使当前层数足够也不完成转化。释放段最后一刻有效；此前环境阶段内短暂达标、检查时已低于阈值的对象，不凭过去达标转化。
 - 新生边界：在本次环境转化中生成的元素不再追加一轮本刻自动邻近施加；其状态效果、自身消散等仍沿已有资格与后续身份规则。
 - 资格结论：问答、设计对象、玩家影响、反馈目的与规则关系明确，Qualified／Accepted；证据Hypothesis。DG08创建来源／身份／进度、DG09位置协调、DG10其余新生与检查对象顺序、PV04具体阈值继续细化。后续以同种补层、无释放残留、释放最后一刻、转化新生四类情境检查，当前未测试。
-- 使用记录：同日进入[提案](../proposals/P-2026-09-13-card-pool-rule-rulings.md)、[评估](../evaluations/E-2026-09-13-card-pool-rule-rulings.md)与[采纳文本](../draft-changes/D-2026-09-13-card-pool-rule-rulings.md)，同步核心、EL04和FX-065/r4。
+- 使用记录：同日进入[提案](../../history/accepted-design-records/P-2026-09-13-card-pool-rule-rulings.md)、[评估](../../history/accepted-design-records/E-2026-09-13-card-pool-rule-rulings.md)与[采纳文本](../../history/accepted-design-records/D-2026-09-13-card-pool-rule-rulings.md)，同步核心、EL04和FX-065/r4。
 
 ## 已确认环境转化新身份（DG08，第一项）
 
@@ -194,7 +194,7 @@
 - 边界例：已经指向旧树的实例绑定或本次固定目标名单不能自动替换为新火焰；单纯烧焦而未转化的树木仍保留原身份。
 - 既有关系：遵守SW02实例绑定／条件绑定、SW02-A单次名单和G002-CORE-023环境阶段末转化；继承层数不等于继承旧对象身份。
 - 资格与证据：来源、对象、行为约束、可见影响、设计价值和现有关系明确，Qualified／Accepted；Hypothesis／NotRun。DG08来源／特性／进度、DG09位置协调和DG10其余排序仍待明确；后续用实例绑定、条件选取、当次名单与仅变形四类情境检查，当前不运行测试。
-- 使用记录：进入[提案](../proposals/P-2026-09-13-card-pool-rule-rulings.md)、[评估](../evaluations/E-2026-09-13-card-pool-rule-rulings.md)和[采纳文本](../draft-changes/D-2026-09-13-card-pool-rule-rulings.md)，同步核心与FX-065/r5。
+- 使用记录：进入[提案](../../history/accepted-design-records/P-2026-09-13-card-pool-rule-rulings.md)、[评估](../../history/accepted-design-records/E-2026-09-13-card-pool-rule-rulings.md)和[采纳文本](../../history/accepted-design-records/D-2026-09-13-card-pool-rule-rulings.md)，同步核心与FX-065/r5。
 
 ## 已确认环境转化继承与归属（DG08，收束）
 
@@ -206,7 +206,7 @@
 - 正常例：前杖最初使树木燃烧，转化检查时另一根后置合格法杖提供覆盖，新火焰归后杖并采用其生成特性，层数仍来自树木当前燃烧量。
 - 边界例：旧状态已积累0.5层衰减进度，转化后仍带0.5进度；这只说明继承，不确定基础衰减参数。旧树草属性不带给新火焰，带入层数不再按新宿主克制关系重新增减。
 - 关系与资格：来源、对象、玩家取舍、可见结果和RC04／12、ST03关系明确，Qualified／Accepted；Hypothesis／NotRun。DG08的身份、来源、特性、固有属性和进度闭合，具体对象资格／数值按DG05与PV04确定；多覆盖、性质替换和进度继承需后续检查。
-- 使用记录：本轮进入[提案](../proposals/P-2026-09-13-card-pool-rule-rulings.md)、[评估](../evaluations/E-2026-09-13-card-pool-rule-rulings.md)、[采纳文本](../draft-changes/D-2026-09-13-card-pool-rule-rulings.md)，同步核心、元素EL04、ST03、术语与FX-065/r6。
+- 使用记录：本轮进入[提案](../../history/accepted-design-records/P-2026-09-13-card-pool-rule-rulings.md)、[评估](../../history/accepted-design-records/E-2026-09-13-card-pool-rule-rulings.md)、[采纳文本](../../history/accepted-design-records/D-2026-09-13-card-pool-rule-rulings.md)，同步核心、元素EL04、ST03、术语与FX-065/r6。
 
 ## 已确认原地替换与地面边界（DG09）
 
@@ -218,7 +218,7 @@
 - 正常例：一棵树原地变成新火焰；范围内已有另一团火焰也不吸走这棵树的层数。其下方地面保持原身份。
 - 边界例：冰霜被恰好抵消时只消散，不留零层火焰；有正余量且满足相关释放条件时才原地补生。转化位置不再受‘必须在所选敌人旁空格普通生成’的限制。
 - 资格与关系：原话、位置对象、玩家预判、单占位及RC07普通释放分支关系明确，Qualified／Accepted；Hypothesis／NotRun。异种补生的具体释放许可与来源随后已按G002-CORE-027确认，具体物性资格和数值继续细化；当前不运行测试。
-- 使用记录：本轮进入[提案](../proposals/P-2026-09-13-card-pool-rule-rulings.md)、[评估](../evaluations/E-2026-09-13-card-pool-rule-rulings.md)、[采纳文本](../draft-changes/D-2026-09-13-card-pool-rule-rulings.md)，同步核心、EL04及FX-065/r6、FX-069/r3。
+- 使用记录：本轮进入[提案](../../history/accepted-design-records/P-2026-09-13-card-pool-rule-rulings.md)、[评估](../../history/accepted-design-records/E-2026-09-13-card-pool-rule-rulings.md)、[采纳文本](../../history/accepted-design-records/D-2026-09-13-card-pool-rule-rulings.md)，同步核心、EL04及FX-065/r6、FX-069/r3。
 
 ## 已确认异种补生覆盖与来源（DG09，收束）
 
@@ -230,7 +230,7 @@
 - 正常例：火焰邻近作用抵消冰霜且剩有火余量，原格被正在释放的火法术覆盖，则即时原地补生火焰；新元素归后置合格覆盖杖，不因抵消来自其他元素而失去资格。
 - 边界例：只有冰法术覆盖而无对应火法术覆盖时，不能给火余量提供许可；恰好抵消不补生。旧冰冻的小数衰减进度不带给新火焰。
 - 关系与资格：输入来源、创建来源、层数守恒、原地结果与RC04／06、EL06、ST03关系明确，Qualified／Accepted；Hypothesis／NotRun。DG09位置、同种协调、地面边界与补生许可／来源已闭合；逐类资格和阶段新生名单仍依DG05／10细化，当前不运行测试。
-- 使用记录：同步[提案](../proposals/P-2026-09-13-card-pool-rule-rulings.md)、[评估](../evaluations/E-2026-09-13-card-pool-rule-rulings.md)、[采纳文本](../draft-changes/D-2026-09-13-card-pool-rule-rulings.md)、核心与FX-069/r3。
+- 使用记录：同步[提案](../../history/accepted-design-records/P-2026-09-13-card-pool-rule-rulings.md)、[评估](../../history/accepted-design-records/E-2026-09-13-card-pool-rule-rulings.md)、[采纳文本](../../history/accepted-design-records/D-2026-09-13-card-pool-rule-rulings.md)、核心与FX-069/r3。
 
 ## 已确认环境与状态阶段名单（DG10）
 
@@ -249,7 +249,7 @@
 - 正常例：法术阶段生成的火焰可进入随后环境自动名单；环境阶段补生的火焰下一刻才自动作用。
 - 边界例：名单中的冰霜先被抵消并替换为火焰，旧冰霜轮到时跳过，新火焰不借用其名额；新火焰在后续状态阶段开始前存在时仍可能自然掉层，若层数耗尽则在首次自动作用前消散。状态阶段内的替换也不把旧状态名额交给新状态。
 - 关系与资格：来源、设计对象、玩家预判、当前量读取、RC06／07及ST02依赖明确，Qualified／Accepted；Hypothesis／NotRun。DG10的自动名单、转化检查顺序与状态资格收束；数值、对象资格及后续合法句仍按其对应DG处理，当前不运行测试。
-- 使用记录：本轮进入[提案](../proposals/P-2026-09-13-card-pool-rule-rulings.md)、[评估](../evaluations/E-2026-09-13-card-pool-rule-rulings.md)、[采纳文本](../draft-changes/D-2026-09-13-card-pool-rule-rulings.md)，同步核心、术语、EL03／04、ST与FX-068/r3、FX-065/r7、FX-069/r4。
+- 使用记录：本轮进入[提案](../../history/accepted-design-records/P-2026-09-13-card-pool-rule-rulings.md)、[评估](../../history/accepted-design-records/E-2026-09-13-card-pool-rule-rulings.md)、[采纳文本](../../history/accepted-design-records/D-2026-09-13-card-pool-rule-rulings.md)，同步核心、术语、EL03／04、ST与FX-068/r3、FX-065/r7、FX-069/r4。
 
 
 ## 2026-09-14 全游戏GDD使用记录
