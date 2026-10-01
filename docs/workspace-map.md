@@ -4,7 +4,7 @@
 
 | Project ID | 根目录／入口 | 当前用途 | 默认 |
 | --- | --- | --- | --- |
-| game-002 | [yanzhou](../yanzhou/README.md) | 言咒RC1现行设计 | 是 |
+| game-002 | [yanzhou](../yanzhou/README.md) | 言咒现行设计（TL-1时间产线） | 是 |
 | game-002-optimization | [优化探索](../yanzhou/exploration/README.md) | 候选、方向索引、比较；逐方向选择阅读模式及固定背景 | 否 |
 | new-roguelike | [独立肉鸽](../exploration/new-roguelike/README.md) | 自身空白背景，独立探索 | 否 |
 | core-card-project | archive/2026-09-05-core-card-project | Parked / Archived；默认不读不写 | 否 |

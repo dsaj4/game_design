@@ -1,13 +1,9 @@
-# 法杖内容索引
+# 法杖内容重设计
 
-Project ID：game-002。文档角色：Navigation。基准：RC1 / 文档整理修订 doc.1（2026-09-23）。设计选择沿CORE-001–036；体验与完整RC1验收仍Hypothesis / NotRun。
+Project ID：game-002。文档角色：ContentScope / Navigation。2026-10-01 / TL-1。
 
-[版本与阅读入口](../baseline.md) · [GDD](../GDD.md)
+已确认每杖一个法术反复执行，战前安排周期和首次起点，战中按允许的路由与干涉接口控制。每款法杖要声明输入条件、处理能力、周期、交付和差异，不能只以装饰区分。
 
-| 款式 | 固定芯 | 获取 | 规则来源 |
-| --- | --- | --- | --- |
-| W01 原木杖 | 木纹芯 | 起始四根，不出售 | [WG01／SG01](../systems/02-wands.md) |
-| W02 节律杖 | 节律芯 | 期2起商店 | [WG01](../systems/02-wands.md) |
-| W03 余火杖 | 余火芯 | 期2起商店 | [WG01](../systems/02-wands.md) |
+旧原木／节律／余火依赖2×5范围或冷却计数，均待重新设计；原W01–03身份见[旧表](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/wands.md)。旧出战数量和镶嵌槽数作为旧版本参数保留，新版数量须与生产链所需机器数一并决定，不擅自沿用三种范围。
 
-三种款式不等于三根出战。最多四根出战；固定芯不计入19种可换镶嵌。价格统一见[参数表](../parameters.md)。
+新款式与数值未采纳。卡表候选的机器数仅用于表达不同构筑取舍，不能视为正式开局赠送。[生产规则](../systems/02-wands.md) · [参数](../parameters.md)

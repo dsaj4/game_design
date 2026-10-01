@@ -1,8 +1,43 @@
 # 效果追踪目录
 
-Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / layout.3。134个稳定FX身份，不等于134张首版卡。修订号属于各效果语义历史；当前规则由GDD统一维护。
+## TL-1效果应用与新增登记（2026-10-01）
 
-| 效果 | 原语义修订 | 当前关联实体（非全部变体采纳） |
+旧FX-001–134的身份与原修订保留，下面“原目录”中的当前关联实体均指RC1或更早来源。新版只按本节登记的应用与[当前系统](../design/README.md)生效。原始语义未因登记被抹去；相同效果身份不等于复用旧载体和旧数值。
+
+| 身份／应用 | 新用途、时点与代价 | 状态／依赖 |
+| --- | --- | --- |
+| FX-001 / TL-app1 | 行动卡生效时对合法敌人普通伤害，先甲后生命；制造成本已经发生，无目标空放 | 基础结果Accepted；TA-01／04数字Proposed；TL-08／21 |
+| FX-002 / TL-app1 | 行动卡生效给予玩家护甲；不自动挡住独立打断 | 基础结果沿用；TA-02数字Proposed；TL-11／12 |
+| FX-031 / TL-app1 | TA-03取消已揭示待发敌牌，普通队列且必须早于T；敌方明确中断指定杖则退加工料丢进度 | 结构Accepted；两种载体权限分别声明，不能相互代用；TL-07／10 |
+| [FX-135](#fx-135) | 资源卡配方转化 | 结构Accepted，TS-01–03具体配方Proposed |
+| [FX-136](#fx-136) | 高阶产物维护与休眠恢复 | 结构Accepted，周期／耗量／托管细则待定 |
+| [FX-137](#fx-137) | 消耗材料提升同一高阶产物增幅 | 支持增幅方向，TS-08完整效果Proposed |
+
+<a id="fx-135"></a>
+
+### FX-135 资源卡配方转化
+
+修订r1 / TL-1。分类：资源转换、产物。触发：合法程序取得完整材料后加工，完成后交付资源区，最早下拍使用。目标：配方允许的材料；成本：真实托管与消耗及加工时间。顺序：维护优先再按杖序分料，不能同卡两用。加工中断退料不产物；成功后的材料提交时点和满位退回细则待闭合。叠加按具体资源容量／单位声明，无无限同拍链。正例：灵屑加工火种；边界：缺半份料不得重复分配；反例：免费改线变换已成品。来源：新卡表M，验证TL-V03／04／07／19。Hypothesis / NotRun。
+
+<a id="fx-136"></a>
+
+### FX-136 高阶产物自动维护、休眠与恢复
+
+修订r1 / TL-1。分类：资源支付、运行状态。维护不足休眠并保留身份与增幅，补料自动恢复；维护先于新加工分料。维护周期、量、对象内部争用、托管中是否维护及欠账细则Unknown，不能声明语义完全闭合。多产物不合并身份免费共付一份维护。跨战只保留选中资源数量，运行状态与增幅重置。正例：缺料休眠后恢复；边界：多产物同刻到期；反例：每次缺料弹确认强迫操作。来源：INT-06／08／13与TL-22／23／25；TL-V18／19／22。Hypothesis / NotRun。
+
+<a id="fx-137"></a>
+
+### FX-137 消耗材料增幅同一高阶资源
+
+修订r1 / TL-1。分类：产物强化。候选TS-08托管辉核并付火种、耗时，成功后返还同一身份并加增幅；上限与伤害公式为候选数字，不自动采纳。中断按生产规则退输入，既有增幅不凭返工增加；休眠期能否接受加工待定。达到上限时不吃料空转为候选边界。增幅不复制资源身份，跨战清零。正例：付火种换后续更大攻击；边界：被打断／维护到期；反例：复制两个满级辉核。来源：新卡表M，待输入冻结后同预算比较，NotRun。
+
+新增登记共同来源：[核心M](../exploration/DIR-028-timeline-depth/M-2026-10-01-timeline-production-core.md)／[卡表M](../exploration/DIR-028-timeline-depth/M-2026-10-01-resource-card-pool.md)／[采纳D](../sources/draft-changes/D-2026-10-01-timeline-production-core.md)。具体付费干涉能力按用户要求延期，不在FX中补造能力。
+
+## 原目录：RC1与更早版本
+
+Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / layout.3。原134个稳定FX身份；本轮另增3个，共137个，不等于137张卡。修订号属于各效果语义历史；当前规则由GDD统一维护。
+
+| 效果 | 原语义修订 | 原版本关联实体（非全部变体采纳） |
 | --- | --- | --- |
 | [FX-001 造成直接伤害](catalog.md#fx-001) | r3 | S2-V01 |
 | [FX-002 获得护甲](catalog.md#fx-002) | r3 | E3-N05、S2-N02、S2-V02 |
@@ -156,8 +191,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-001.md) |
-| 当前关联实体 | [S2-V01](../design/content/cards.md#s2-v01) |
-| 统一参数 | [S2-V01](../design/parameters.md#pg-s2-v01) |
+| 当前关联实体 | [S2-V01](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-v01) |
+| 统一参数 | [S2-V01](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-v01) |
 
 原语义修订：r3。
 
@@ -176,8 +211,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-002.md) |
-| 当前关联实体 | [E3-N05](../design/content/cards.md#e3-n05)、[S2-N02](../design/content/cards.md#s2-n02)、[S2-V02](../design/content/cards.md#s2-v02) |
-| 统一参数 | [E3-N05](../design/parameters.md#pg-e3-n05)、[S2-N02](../design/parameters.md#pg-s2-n02)、[S2-V02](../design/parameters.md#pg-s2-v02) |
+| 当前关联实体 | [E3-N05](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-n05)、[S2-N02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-n02)、[S2-V02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-v02) |
+| 统一参数 | [E3-N05](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-n05)、[S2-N02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-n02)、[S2-V02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-v02) |
 
 原语义修订：r3。
 
@@ -196,8 +231,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-003.md) |
-| 当前关联实体 | [E3-N03](../design/content/cards.md#e3-n03) |
-| 统一参数 | [E3-N03](../design/parameters.md#pg-e3-n03) |
+| 当前关联实体 | [E3-N03](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-n03) |
+| 统一参数 | [E3-N03](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-n03) |
 
 原语义修订：r9。
 
@@ -216,8 +251,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-004.md) |
-| 当前关联实体 | [E3-N04](../design/content/cards.md#e3-n04) |
-| 统一参数 | [E3-N04](../design/parameters.md#pg-e3-n04) |
+| 当前关联实体 | [E3-N04](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-n04) |
+| 统一参数 | [E3-N04](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-n04) |
 
 原语义修订：r8。
 
@@ -236,8 +271,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-005.md) |
-| 当前关联实体 | [E3-V09](../design/content/cards.md#e3-v09)、[S2-V05](../design/content/cards.md#s2-v05) |
-| 统一参数 | [E3-V09](../design/parameters.md#pg-e3-v09)、[S2-V05](../design/parameters.md#pg-s2-v05) |
+| 当前关联实体 | [E3-V09](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-v09)、[S2-V05](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-v05) |
+| 统一参数 | [E3-V09](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-v09)、[S2-V05](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-v05) |
 
 原语义修订：r3。
 
@@ -256,8 +291,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-006.md) |
-| 当前关联实体 | [E3-V09](../design/content/cards.md#e3-v09)、[S2-V05](../design/content/cards.md#s2-v05) |
-| 统一参数 | [E3-V09](../design/parameters.md#pg-e3-v09)、[S2-V05](../design/parameters.md#pg-s2-v05) |
+| 当前关联实体 | [E3-V09](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-v09)、[S2-V05](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-v05) |
+| 统一参数 | [E3-V09](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-v09)、[S2-V05](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-v05) |
 
 原语义修订：r3。
 
@@ -327,8 +362,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-010.md) |
-| 当前关联实体 | [E3-N01](../design/content/cards.md#e3-n01) |
-| 统一参数 | [E3-N01](../design/parameters.md#pg-e3-n01) |
+| 当前关联实体 | [E3-N01](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-n01) |
+| 统一参数 | [E3-N01](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-n01) |
 
 原语义修订：r5。
 
@@ -366,8 +401,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-012.md) |
-| 当前关联实体 | [E3-N02](../design/content/cards.md#e3-n02) |
-| 统一参数 | [E3-N02](../design/parameters.md#pg-e3-n02) |
+| 当前关联实体 | [E3-N02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-n02) |
+| 统一参数 | [E3-N02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-n02) |
 
 原语义修订：r3。
 
@@ -477,8 +512,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-018.md) |
-| 当前关联实体 | [S2-N05](../design/content/cards.md#s2-n05) |
-| 统一参数 | [S2-N05](../design/parameters.md#pg-s2-n05) |
+| 当前关联实体 | [S2-N05](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-n05) |
+| 统一参数 | [S2-N05](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-n05) |
 
 原语义修订：r3。
 
@@ -567,8 +602,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-023.md) |
-| 当前关联实体 | [E3-V04](../design/content/cards.md#e3-v04) |
-| 统一参数 | [E3-V04](../design/parameters.md#pg-e3-v04) |
+| 当前关联实体 | [E3-V04](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-v04) |
+| 统一参数 | [E3-V04](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-v04) |
 
 原语义修订：r5。
 
@@ -724,8 +759,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-032.md) |
-| 当前关联实体 | [S2-V05](../design/content/cards.md#s2-v05) |
-| 统一参数 | [S2-V05](../design/parameters.md#pg-s2-v05) |
+| 当前关联实体 | [S2-V05](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-v05) |
+| 统一参数 | [S2-V05](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-v05) |
 
 原语义修订：r3。
 
@@ -744,8 +779,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-033.md) |
-| 当前关联实体 | [S2-A03](../design/content/cards.md#s2-a03)、[S2-I01](../design/content/cards.md#s2-i01)、[S2-N04](../design/content/cards.md#s2-n04) |
-| 统一参数 | [S2-A03](../design/parameters.md#pg-s2-a03)、[S2-I01](../design/parameters.md#pg-s2-i01)、[S2-N04](../design/parameters.md#pg-s2-n04) |
+| 当前关联实体 | [S2-A03](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-a03)、[S2-I01](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-i01)、[S2-N04](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-n04) |
+| 统一参数 | [S2-A03](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-a03)、[S2-I01](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-i01)、[S2-N04](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-n04) |
 
 原语义修订：r4。
 
@@ -764,8 +799,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-034.md) |
-| 当前关联实体 | [S2-I02](../design/content/cards.md#s2-i02) |
-| 统一参数 | [S2-I02](../design/parameters.md#pg-s2-i02) |
+| 当前关联实体 | [S2-I02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-i02) |
+| 统一参数 | [S2-I02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-i02) |
 
 原语义修订：r4。
 
@@ -784,8 +819,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-035.md) |
-| 当前关联实体 | [S2-N03](../design/content/cards.md#s2-n03)、[S2-V03](../design/content/cards.md#s2-v03) |
-| 统一参数 | [S2-N03](../design/parameters.md#pg-s2-n03)、[S2-V03](../design/parameters.md#pg-s2-v03) |
+| 当前关联实体 | [S2-N03](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-n03)、[S2-V03](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-v03) |
+| 统一参数 | [S2-N03](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-n03)、[S2-V03](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-v03) |
 
 原语义修订：r3。
 
@@ -820,8 +855,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-037.md) |
-| 当前关联实体 | [S2-N04](../design/content/cards.md#s2-n04)、[S2-V02](../design/content/cards.md#s2-v02) |
-| 统一参数 | [S2-N04](../design/parameters.md#pg-s2-n04)、[S2-V02](../design/parameters.md#pg-s2-v02) |
+| 当前关联实体 | [S2-N04](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-n04)、[S2-V02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-v02) |
+| 统一参数 | [S2-N04](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-n04)、[S2-V02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-v02) |
 
 原语义修订：r3。
 
@@ -840,8 +875,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-038.md) |
-| 当前关联实体 | [E3-V06](../design/content/cards.md#e3-v06)、[S2-V04](../design/content/cards.md#s2-v04) |
-| 统一参数 | [E3-V06](../design/parameters.md#pg-e3-v06)、[S2-V04](../design/parameters.md#pg-s2-v04) |
+| 当前关联实体 | [E3-V06](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-v06)、[S2-V04](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-v04) |
+| 统一参数 | [E3-V06](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-v06)、[S2-V04](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-v04) |
 
 原语义修订：r3。
 
@@ -988,8 +1023,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-047.md) |
-| 当前关联实体 | [E3-A05](../design/content/cards.md#e3-a05) |
-| 统一参数 | [E3-A05](../design/parameters.md#pg-e3-a05) |
+| 当前关联实体 | [E3-A05](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-a05) |
+| 统一参数 | [E3-A05](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-a05) |
 
 原语义修订：r3。
 
@@ -1120,8 +1155,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-055.md) |
-| 当前关联实体 | [S2-I09](../design/content/cards.md#s2-i09) |
-| 统一参数 | [S2-I09](../design/parameters.md#pg-s2-i09) |
+| 当前关联实体 | [S2-I09](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-i09) |
+| 统一参数 | [S2-I09](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-i09) |
 
 原语义修订：r3。
 
@@ -1257,8 +1292,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-063.md) |
-| 当前关联实体 | [E3-N01](../design/content/cards.md#e3-n01)、[E3-N02](../design/content/cards.md#e3-n02)、[E3-V01](../design/content/cards.md#e3-v01) |
-| 统一参数 | [E3-N01](../design/parameters.md#pg-e3-n01)、[E3-N02](../design/parameters.md#pg-e3-n02)、[E3-V01](../design/parameters.md#pg-e3-v01) |
+| 当前关联实体 | [E3-N01](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-n01)、[E3-N02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-n02)、[E3-V01](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-v01) |
+| 统一参数 | [E3-N01](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-n01)、[E3-N02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-n02)、[E3-V01](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-v01) |
 
 原语义修订：r3。
 
@@ -1277,8 +1312,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-064.md) |
-| 当前关联实体 | [E3-N01](../design/content/cards.md#e3-n01)、[E3-N02](../design/content/cards.md#e3-n02) |
-| 统一参数 | [E3-N01](../design/parameters.md#pg-e3-n01)、[E3-N02](../design/parameters.md#pg-e3-n02) |
+| 当前关联实体 | [E3-N01](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-n01)、[E3-N02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-n02) |
+| 统一参数 | [E3-N01](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-n01)、[E3-N02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-n02) |
 
 原语义修订：r4。
 
@@ -1351,8 +1386,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-068.md) |
-| 当前关联实体 | [E3-N01](../design/content/cards.md#e3-n01)、[E3-N02](../design/content/cards.md#e3-n02) |
-| 统一参数 | [E3-N01](../design/parameters.md#pg-e3-n01)、[E3-N02](../design/parameters.md#pg-e3-n02) |
+| 当前关联实体 | [E3-N01](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-n01)、[E3-N02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-n02) |
+| 统一参数 | [E3-N01](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-n01)、[E3-N02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-n02) |
 
 原语义修订：r5。
 
@@ -1389,8 +1424,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-070.md) |
-| 当前关联实体 | [E3-V08](../design/content/cards.md#e3-v08) |
-| 统一参数 | [E3-V08](../design/parameters.md#pg-e3-v08) |
+| 当前关联实体 | [E3-V08](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-v08) |
+| 统一参数 | [E3-V08](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-v08) |
 
 原语义修订：r3。
 
@@ -1409,8 +1444,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-071.md) |
-| 当前关联实体 | [E3-V07](../design/content/cards.md#e3-v07) |
-| 统一参数 | [E3-V07](../design/parameters.md#pg-e3-v07) |
+| 当前关联实体 | [E3-V07](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-v07) |
+| 统一参数 | [E3-V07](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-v07) |
 
 原语义修订：r3。
 
@@ -1541,8 +1576,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-079.md) |
-| 当前关联实体 | [E3-A01](../design/content/cards.md#e3-a01) |
-| 统一参数 | [E3-A01](../design/parameters.md#pg-e3-a01) |
+| 当前关联实体 | [E3-A01](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-a01) |
+| 统一参数 | [E3-A01](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-a01) |
 
 原语义修订：r4。
 
@@ -1561,8 +1596,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-080.md) |
-| 当前关联实体 | [E3-A02](../design/content/cards.md#e3-a02) |
-| 统一参数 | [E3-A02](../design/parameters.md#pg-e3-a02) |
+| 当前关联实体 | [E3-A02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-a02) |
+| 统一参数 | [E3-A02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-a02) |
 
 原语义修订：r3。
 
@@ -1837,8 +1872,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-097.md) |
-| 当前关联实体 | [E3-V02](../design/content/cards.md#e3-v02) |
-| 统一参数 | [E3-V02](../design/parameters.md#pg-e3-v02) |
+| 当前关联实体 | [E3-V02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-v02) |
+| 统一参数 | [E3-V02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-v02) |
 
 原语义修订：r3。
 
@@ -1857,8 +1892,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-098.md) |
-| 当前关联实体 | [E3-V03](../design/content/cards.md#e3-v03) |
-| 统一参数 | [E3-V03](../design/parameters.md#pg-e3-v03) |
+| 当前关联实体 | [E3-V03](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-v03) |
+| 统一参数 | [E3-V03](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-v03) |
 
 原语义修订：r3。
 
@@ -1909,8 +1944,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-101.md) |
-| 当前关联实体 | [E3-V05](../design/content/cards.md#e3-v05) |
-| 统一参数 | [E3-V05](../design/parameters.md#pg-e3-v05) |
+| 当前关联实体 | [E3-V05](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-v05) |
+| 统一参数 | [E3-V05](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-v05) |
 
 原语义修订：r3。
 
@@ -1977,8 +2012,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-105.md) |
-| 当前关联实体 | [E3-I01](../design/content/cards.md#e3-i01) |
-| 统一参数 | [E3-I01](../design/parameters.md#pg-e3-i01) |
+| 当前关联实体 | [E3-I01](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-i01) |
+| 统一参数 | [E3-I01](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-i01) |
 
 原语义修订：r3。
 
@@ -1997,8 +2032,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-106.md) |
-| 当前关联实体 | [E3-I02](../design/content/cards.md#e3-i02) |
-| 统一参数 | [E3-I02](../design/parameters.md#pg-e3-i02) |
+| 当前关联实体 | [E3-I02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-i02) |
+| 统一参数 | [E3-I02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-i02) |
 
 原语义修订：r4。
 
@@ -2017,8 +2052,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-107.md) |
-| 当前关联实体 | [E3-I03](../design/content/cards.md#e3-i03) |
-| 统一参数 | [E3-I03](../design/parameters.md#pg-e3-i03) |
+| 当前关联实体 | [E3-I03](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-i03) |
+| 统一参数 | [E3-I03](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-i03) |
 
 原语义修订：r3。
 
@@ -2069,8 +2104,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-110.md) |
-| 当前关联实体 | [E3-I04](../design/content/cards.md#e3-i04) |
-| 统一参数 | [E3-I04](../design/parameters.md#pg-e3-i04) |
+| 当前关联实体 | [E3-I04](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-i04) |
+| 统一参数 | [E3-I04](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-i04) |
 
 原语义修订：r3。
 
@@ -2153,8 +2188,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-115.md) |
-| 当前关联实体 | [E3-I05](../design/content/cards.md#e3-i05) |
-| 统一参数 | [E3-I05](../design/parameters.md#pg-e3-i05) |
+| 当前关联实体 | [E3-I05](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-i05) |
+| 统一参数 | [E3-I05](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-i05) |
 
 原语义修订：r3。
 
@@ -2173,8 +2208,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-116.md) |
-| 当前关联实体 | [E3-I06](../design/content/cards.md#e3-i06) |
-| 统一参数 | [E3-I06](../design/parameters.md#pg-e3-i06) |
+| 当前关联实体 | [E3-I06](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-i06) |
+| 统一参数 | [E3-I06](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-i06) |
 
 原语义修订：r3。
 
@@ -2193,8 +2228,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-117.md) |
-| 当前关联实体 | [E3-I07](../design/content/cards.md#e3-i07) |
-| 统一参数 | [E3-I07](../design/parameters.md#pg-e3-i07) |
+| 当前关联实体 | [E3-I07](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-i07) |
+| 统一参数 | [E3-I07](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-i07) |
 
 原语义修订：r3。
 
@@ -2213,8 +2248,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-118.md) |
-| 当前关联实体 | [E3-I08](../design/content/cards.md#e3-i08) |
-| 统一参数 | [E3-I08](../design/parameters.md#pg-e3-i08) |
+| 当前关联实体 | [E3-I08](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-i08) |
+| 统一参数 | [E3-I08](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-i08) |
 
 原语义修订：r3。
 
@@ -2233,8 +2268,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-119.md) |
-| 当前关联实体 | [E3-I09](../design/content/cards.md#e3-i09) |
-| 统一参数 | [E3-I09](../design/parameters.md#pg-e3-i09) |
+| 当前关联实体 | [E3-I09](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-i09) |
+| 统一参数 | [E3-I09](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-i09) |
 
 原语义修订：r3。
 
@@ -2253,8 +2288,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-120.md) |
-| 当前关联实体 | [E3-I10](../design/content/cards.md#e3-i10) |
-| 统一参数 | [E3-I10](../design/parameters.md#pg-e3-i10) |
+| 当前关联实体 | [E3-I10](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-i10) |
+| 统一参数 | [E3-I10](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-i10) |
 
 原语义修订：r3。
 
@@ -2273,8 +2308,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-121.md) |
-| 当前关联实体 | [E3-A03](../design/content/cards.md#e3-a03) |
-| 统一参数 | [E3-A03](../design/parameters.md#pg-e3-a03) |
+| 当前关联实体 | [E3-A03](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-a03) |
+| 统一参数 | [E3-A03](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-a03) |
 
 原语义修订：r4。
 
@@ -2293,8 +2328,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-122.md) |
-| 当前关联实体 | [E3-A04](../design/content/cards.md#e3-a04) |
-| 统一参数 | [E3-A04](../design/parameters.md#pg-e3-a04) |
+| 当前关联实体 | [E3-A04](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-a04) |
+| 统一参数 | [E3-A04](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-a04) |
 
 原语义修订：r3。
 
@@ -2313,8 +2348,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-123.md) |
-| 当前关联实体 | [E3-A06](../design/content/cards.md#e3-a06) |
-| 统一参数 | [E3-A06](../design/parameters.md#pg-e3-a06) |
+| 当前关联实体 | [E3-A06](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#e3-a06) |
+| 统一参数 | [E3-A06](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-e3-a06) |
 
 原语义修订：r4。
 
@@ -2333,8 +2368,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-124.md) |
-| 当前关联实体 | [S2-I03](../design/content/cards.md#s2-i03) |
-| 统一参数 | [S2-I03](../design/parameters.md#pg-s2-i03) |
+| 当前关联实体 | [S2-I03](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-i03) |
+| 统一参数 | [S2-I03](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-i03) |
 
 原语义修订：r3。
 
@@ -2353,8 +2388,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-125.md) |
-| 当前关联实体 | [S2-I04](../design/content/cards.md#s2-i04) |
-| 统一参数 | [S2-I04](../design/parameters.md#pg-s2-i04) |
+| 当前关联实体 | [S2-I04](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-i04) |
+| 统一参数 | [S2-I04](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-i04) |
 
 原语义修订：r3。
 
@@ -2373,8 +2408,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-126.md) |
-| 当前关联实体 | [S2-I05](../design/content/cards.md#s2-i05) |
-| 统一参数 | [S2-I05](../design/parameters.md#pg-s2-i05) |
+| 当前关联实体 | [S2-I05](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-i05) |
+| 统一参数 | [S2-I05](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-i05) |
 
 原语义修订：r3。
 
@@ -2393,8 +2428,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-127.md) |
-| 当前关联实体 | [S2-I06](../design/content/cards.md#s2-i06) |
-| 统一参数 | [S2-I06](../design/parameters.md#pg-s2-i06) |
+| 当前关联实体 | [S2-I06](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-i06) |
+| 统一参数 | [S2-I06](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-i06) |
 
 原语义修订：r3。
 
@@ -2413,8 +2448,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-128.md) |
-| 当前关联实体 | [S2-I07](../design/content/cards.md#s2-i07) |
-| 统一参数 | [S2-I07](../design/parameters.md#pg-s2-i07) |
+| 当前关联实体 | [S2-I07](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-i07) |
+| 统一参数 | [S2-I07](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-i07) |
 
 原语义修订：r3。
 
@@ -2433,8 +2468,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-129.md) |
-| 当前关联实体 | [S2-I08](../design/content/cards.md#s2-i08) |
-| 统一参数 | [S2-I08](../design/parameters.md#pg-s2-i08) |
+| 当前关联实体 | [S2-I08](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-i08) |
+| 统一参数 | [S2-I08](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-i08) |
 
 原语义修订：r3。
 
@@ -2453,8 +2488,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-130.md) |
-| 当前关联实体 | [S2-V06](../design/content/cards.md#s2-v06) |
-| 统一参数 | [S2-V06](../design/parameters.md#pg-s2-v06) |
+| 当前关联实体 | [S2-V06](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-v06) |
+| 统一参数 | [S2-V06](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-v06) |
 
 原语义修订：r3。
 
@@ -2473,8 +2508,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-131.md) |
-| 当前关联实体 | [S2-A01](../design/content/cards.md#s2-a01) |
-| 统一参数 | [S2-A01](../design/parameters.md#pg-s2-a01) |
+| 当前关联实体 | [S2-A01](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-a01) |
+| 统一参数 | [S2-A01](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-a01) |
 
 原语义修订：r3。
 
@@ -2493,8 +2528,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-132.md) |
-| 当前关联实体 | [S2-A02](../design/content/cards.md#s2-a02) |
-| 统一参数 | [S2-A02](../design/parameters.md#pg-s2-a02) |
+| 当前关联实体 | [S2-A02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-a02) |
+| 统一参数 | [S2-A02](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-a02) |
 
 原语义修订：r3。
 
@@ -2513,8 +2548,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-133.md) |
-| 当前关联实体 | [S2-A04](../design/content/cards.md#s2-a04) |
-| 统一参数 | [S2-A04](../design/parameters.md#pg-s2-a04) |
+| 当前关联实体 | [S2-A04](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-a04) |
+| 统一参数 | [S2-A04](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-a04) |
 
 原语义修订：r3。
 
@@ -2533,8 +2568,8 @@ Project ID：game-002。文档角色：Navigation / EffectTrace。2026-09-30 / l
 | 采纳口径 | 以当前GDD及CORE决定的具体部分为限；未选历史变体维持原状态 |
 | 证据 | 本轮仅文档索引；不扩大既有TH/CAL范围，RC1完整验收NotRun |
 | 原始语义、历次修订及未选变体 | [完整历史来源](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/docs/effect-registry/entries/FX-134.md) |
-| 当前关联实体 | [S2-A05](../design/content/cards.md#s2-a05) |
-| 统一参数 | [S2-A05](../design/parameters.md#pg-s2-a05) |
+| 当前关联实体 | [S2-A05](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/cards.md#s2-a05) |
+| 统一参数 | [S2-A05](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md#pg-s2-a05) |
 
 原语义修订：r3。
 

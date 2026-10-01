@@ -1,3 +1,5 @@
+> 2026-10-01适用范围：本页保留2026-09-30专题盘点，文件数、版本与“当前”按当时理解。TL-1新审查见[DIR-028](../../exploration/DIR-028-timeline-depth/compatibility-audit-2026-10-01.md)，最新文件数以[自动索引](../file-index.md)为准。
+
 # 覆盖范围与盘点记录
 
 Project ID：game-002。文档角色：DocumentationAudit。2026-09-30 / layout.3。入口：[时间轴导航](../time-axis-review.md) · [来源定位](sources.md)。
@@ -6,7 +8,7 @@ Project ID：game-002。文档角色：DocumentationAudit。2026-09-30 / layout.
 
 ## 纳入范围
 
-只盘点 `yanzhou/` 下当前工作树实际存在的Git跟踪或未忽略文件。复用 `tools/docs.py index` 的口径，已删除的Git跟踪路径不计入，忽略缓存不计入。[文件索引](../file-index.md)逐项列出409份文件，[来源导航](sources.md#简化后的文件盘点)按目录汇总。
+只盘点 `yanzhou/` 下当前工作树实际存在的Git跟踪或未忽略文件。复用 `tools/docs.py index` 的口径，已删除的Git跟踪路径不计入，忽略缓存不计入。[文件索引](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/governance/file-index.md)逐项列出409份文件，[来源导航](sources.md#简化后的文件盘点)按目录汇总。
 
 其中历史目录117份仅登记路径和数量；其余292份包含现行设计、来源过程、探索、治理与视觉资料，也不等于292份现行规则。探索有30个方向、58份文件；效果有134个FX身份、5份文件。图片与其他非Markdown文件按实际文件计数，未作新视觉验收。
 

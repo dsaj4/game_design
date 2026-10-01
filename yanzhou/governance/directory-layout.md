@@ -1,6 +1,6 @@
 # 目录与文件放置
 
-Project ID：game-002。修订：layout.3 / 2026-09-30。当前规则仍为RC1 / doc.1。
+Project ID：game-002。修订：layout.3 / 2026-09-30。当前规则为TL-1 / GDD 2.0（GDD-0）；2026-10-01更新。
 
 | 位置 | 内容与维护责任 |
 | --- | --- |
@@ -8,7 +8,7 @@ Project ID：game-002。修订：layout.3 / 2026-09-30。当前规则仍为RC1 /
 | design/ | 唯一现行GDD、系统分册、内容、参数、验收；core-design仅浓缩 |
 | sources/ | 原始表达、合格素材与尚需追踪的P/E/D；已完成的指定记录见history |
 | exploration/ | 一个DIR一个README，附件按需；索引区分近期记录与其余待选，不擅自改资格 |
-| effects/catalog.md | 134个稳定FX身份、关联实体、参数及历史来源，取消每FX一个导航文件 |
+| effects/catalog.md | 137个稳定FX身份（旧134＋新3）、关联实体、参数及历史来源，取消每FX一个导航文件 |
 | governance/ | 问题、决策、规范与专题；文件索引自动生成，迁移旧快照按Git查 |
 | development/ | 外部实现索引、交接输入和实际验证证据 |
 | visual/与research/ | 表现来源、项目研究；不拥有规则采纳权 |

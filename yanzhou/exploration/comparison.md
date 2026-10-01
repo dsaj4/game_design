@@ -1,5 +1,7 @@
 # 探索方向横向对比
 
+> 2026-10-01补充：DIR-028第8轮的已确认核心经正式M/P/E/D进入TL-1；仅本方向明确吸收范围改变，其他方向的原基线与资格不升级。下方既有比较保留原轮次，涉及“当前RC1”时按当时版本理解。详见[DIR-028兼容性审查](DIR-028-timeline-depth/compatibility-audit-2026-10-01.md)。
+
 Project ID：game-002-optimization。文档角色：ResearchComparison。内容基准2026-09-23 / doc.1；目录修订2026-09-24 / layout.2。以下是基于原文的结构判断，状态Research / Provisional；没有数值打分或新实验结果，也不代表优先级已采纳。
 
 ## 相近方向究竟差在哪里

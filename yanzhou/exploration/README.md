@@ -2,7 +2,7 @@
 
 Project ID：`game-002-optimization`。目录修订：layout.2 / 2026-09-24。这里保存独立构思，与主系统现行规则隔离。
 
-**一个方向一个文件夹，一份README存必要构思。** 先从下表选方向，打开即可阅读想法、玩家选择、与RC1的差异、未知项和来源。当前共30个方向，既有编号保留。
+**一个方向一个文件夹，一份README存必要构思。** 先从下表选方向，打开即可阅读想法、玩家选择、与其登记基线的差异、未知项和来源。当前共30个方向，既有编号保留。
 
 [启动探索：选择阅读材料](start.md) · [核心设计](../design/core-design.md) · [方向对比与主系统吸收](comparison.md) · [整理前档案](../history/exploration-2026-09-24/README.md) · [主系统入口](../design/README.md)
 
@@ -33,7 +33,7 @@ exploration/
 | 读完整GDD | GDD及固定16份包内正文，不追读来源链接 |
 | 读全量文档 | 当前主系统全部登记文本；历史、其他探索、外部代码分别选择 |
 | 只读这些材料 | 精确文件／章节清单，不补读其他游戏正文 |
-| 不读游戏背景 | 只从本轮输入形成新方向，不能宣称与RC1兼容 |
+| 不读游戏背景 | 只从本轮输入形成新方向，不能宣称与当前系统兼容 |
 
 例：“启动新方向：〈标题〉，只读核心设计，探索〈目标〉，不自行扩读。”完整边界、版本与记录方式见[start.md](start.md)。日常构思仍只用方向README，不增加流程树。
 
@@ -43,7 +43,7 @@ exploration/
 
 | 方向 | 构思 | 状态 |
 | --- | --- | --- |
-| [DIR-028 时间轴深度构筑](DIR-028-timeline-depth/README.md) | 将节奏、窗口与接续关系落到行动牌；2026-10-01整合DIR-029铺卡与DIR-030有限容量目标，保留自动生成／手动铺排两条未合并路径。 | Agent Proposal / Raw Idea / Unqualified；第2轮CUSTOM |
+| [DIR-028 时间轴深度构筑](DIR-028-timeline-depth/README.md) | 第8轮：时间产线核心升入TL-1，卡牌战场与新卡表重设计；兼容性审查、原始探索和UI候选各保留身份。 | 核心Qualified / Accepted；具体卡表Proposed；UI与早期构思Raw；FULL |
 | [DIR-029 时间轴铺卡战斗](DIR-029-timeline-card-battle/README.md) | 自构法术，每杖按冷却生成一行牌，共享可折叠时间轴；默认并行、强力法术有独占格，同刻效果同时生效，敌方暗牌有线索。 | Raw Idea / Unqualified |
 | [DIR-030 卡牌规则设计](DIR-030-card-rule-design/README.md) | 优先保留时间轴铺排，构句不作为核心；从有限时间容量发散十版简单规则，后续再收敛与评估。 | Raw Idea / Unqualified；CORE |
 

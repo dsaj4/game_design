@@ -1,8 +1,10 @@
+> 2026-10-01适用范围：本页保留2026-09-30专题盘点，文件数、版本与“当前”按当时理解。TL-1新审查见[DIR-028](../../exploration/DIR-028-timeline-depth/compatibility-audit-2026-10-01.md)，最新文件数以[自动索引](../file-index.md)为准。
+
 # 时间轴来源定位
 
 Project ID：game-002。文档角色：TopicNavigation。2026-09-30 / layout.3。专题摘要见[时间轴导航](../time-axis-review.md)。
 
-本页只导航简化后 `yanzhou/` 内实际保留的文件。完整逐文件盘点复用[言咒文件索引](../file-index.md)，不重复维护机器清单。历史目录中的本地文件计入盘点；文件内指向的旧提交、外部文件和退役目录不自动展开。范围与检查见[覆盖说明](coverage.md)。
+本页只导航简化后 `yanzhou/` 内实际保留的文件。完整逐文件盘点复用[言咒文件索引](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/governance/file-index.md)，不重复维护机器清单。历史目录中的本地文件计入盘点；文件内指向的旧提交、外部文件和退役目录不自动展开。范围与检查见[覆盖说明](coverage.md)。
 
 ## 按用途找资料
 
@@ -26,16 +28,16 @@ Project ID：game-002。文档角色：TopicNavigation。2026-09-30 / layout.3�
 
 | 系统内位置 | 现存文件数 | 完整文件定位与盘点用途 |
 | --- | ---: | --- |
-| 项目入口 | 3 | [入口文件](../file-index.md#项目入口3)：项目首页、AGENTS与术语 |
-| design | 19 | [设计文件](../file-index.md#design19)：现行权威正文 |
-| sources | 163 | [来源文件](../file-index.md#sources163)：inbox、素材及设计过程 |
-| exploration | 58 | [探索文件](../file-index.md#exploration58)：30个方向及其现存附件、导航 |
-| effects | 5 | [效果文件](../file-index.md#effects5)：134个FX身份集中在目录中，按实际文件计数 |
-| development | 8 | [开发文件](../file-index.md#development8)：本地索引、输入与报告 |
-| visual | 18 | [视觉文件](../file-index.md#visual18)：说明、提示词与图像 |
-| research | 3 | [研究文件](../file-index.md#research3)：本地研究入口与记录 |
-| governance | 15 | [治理文件](../file-index.md#governance15)：规则定位、问题、导航与清理记录 |
-| history | 117 | [历史文件](../file-index.md#history117)：现存来源的路径与数量；本轮没有重新阅读历史正文 |
+| 项目入口 | 3 | [入口文件](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/governance/file-index.md#项目入口3)：项目首页、AGENTS与术语 |
+| design | 19 | [设计文件](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/governance/file-index.md#design19)：现行权威正文 |
+| sources | 163 | [来源文件](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/governance/file-index.md#sources163)：inbox、素材及设计过程 |
+| exploration | 58 | [探索文件](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/governance/file-index.md#exploration58)：30个方向及其现存附件、导航 |
+| effects | 5 | [效果文件](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/governance/file-index.md#effects5)：134个FX身份集中在目录中，按实际文件计数 |
+| development | 8 | [开发文件](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/governance/file-index.md#development8)：本地索引、输入与报告 |
+| visual | 18 | [视觉文件](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/governance/file-index.md#visual18)：说明、提示词与图像 |
+| research | 3 | [研究文件](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/governance/file-index.md#research3)：本地研究入口与记录 |
+| governance | 15 | [治理文件](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/governance/file-index.md#governance15)：规则定位、问题、导航与清理记录 |
+| history | 117 | [历史文件](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/governance/file-index.md#history117)：现存来源的路径与数量；本轮没有重新阅读历史正文 |
 | 合计 | 409 | 当前工作树存在的Git跟踪或未忽略文件；文件数不等于独立机制数 |
 
 已退出工作树的文件不列为现存资料。清理过程由[清理报告](../cleanup-report.md)维护；本页不重复其退役清单或旧机器附件。

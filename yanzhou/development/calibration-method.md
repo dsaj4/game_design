@@ -1,4 +1,4 @@
-> 文档角色：HistoricalAudit / ScopedEvidence。原日期的输入、方法和结果按原版本保留；不代表现行RC1重新验证，也不自动启动实验。现行规则见[RC1](../design/README.md)，实际批次见[测试交接](test-handoff.md)。
+> 文档角色：HistoricalAudit / ScopedEvidence。原日期的输入、方法和结果按原版本保留；不代表TL-1或RC1重新验证，也不自动启动实验。现行规则见[TL-1](../design/README.md)，实际批次见[测试交接](test-handoff.md)。
 
 # 自动平衡校准流程
 

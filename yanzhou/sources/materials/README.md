@@ -1,5 +1,7 @@
 # 合格来源素材
 
+> TL-1版本说明（2026-10-01）：本目录的既有日期型记录保留原资格、原采纳与原证据范围，其中历史“当前”不覆盖新版。TL-1仅使用[素材审查](../../design/source-review.md)明示部分；[逐文件清单](../../exploration/DIR-028-timeline-depth/reading-log.md)登记保留或替代，不把旧来源全文重写成新规则。
+
 Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 
 本目录按每份来源的资格、采纳和使用范围阅读；不以文件日期推断当前玩法。[现行规则](../../design/README.md)、[完整清单](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/reorganizations/2026-09-23-doc1/inventory.md)、[旧目录与阶段记录](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/game-design-workflow/idea-materials/README.md)分别维护。
@@ -72,3 +74,8 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 - [M-2026-09-14-first-release-parameters-and-channels](M-2026-09-14-first-release-parameters-and-channels.md)
 - [M-2026-09-14-interface-platform-and-experience](M-2026-09-14-interface-platform-and-experience.md)
 - [M-2026-09-14-run-route-encounters-and-fatigue](M-2026-09-14-run-route-encounters-and-fatigue.md)
+
+## TL-1
+
+- [M-2026-10-01-timeline-production-core](../../exploration/DIR-028-timeline-depth/M-2026-10-01-timeline-production-core.md)：核心Qualified / 已确认范围Accepted。
+- [M-2026-10-01-resource-card-pool](../../exploration/DIR-028-timeline-depth/M-2026-10-01-resource-card-pool.md)：新卡表Qualified / 具体内容Proposed。

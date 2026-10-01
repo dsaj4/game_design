@@ -1,5 +1,7 @@
 # 设计来源链
 
+> TL-1版本说明（2026-10-01）：本目录的既有日期型记录保留原资格、原采纳与原证据范围，其中历史“当前”不覆盖新版。TL-1仅使用[素材审查](../design/source-review.md)明示部分；[逐文件清单](../exploration/DIR-028-timeline-depth/reading-log.md)登记保留或替代，不把旧来源全文重写成新规则。
+
 Project ID：game-002。文档角色：SourceCollection / Navigation。这里保存设计形成过程，现行规则统一在[design/](../design/README.md)。
 
 | 阶段 | 目录 | 允许状态 |
@@ -17,3 +19,7 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 ## 已完成过程记录
 
 六组已采纳设计的18份P/E/D已归档到[完成记录](../history/accepted-design-records/README.md)。原始输入、合格素材与仍有局部未决内容的过程文档留原处；归档不扩大采纳或验证范围。旧文档管理拟修改按固定Git取证。新增任务按需要创建正式文件，不预建空树。
+
+## TL-1 本轮来源链
+
+[DIR-028核心M](../exploration/DIR-028-timeline-depth/M-2026-10-01-timeline-production-core.md)／[新卡表M](../exploration/DIR-028-timeline-depth/M-2026-10-01-resource-card-pool.md)／[P](../exploration/DIR-028-timeline-depth/P-2026-10-01-timeline-production-system.md)／[E](../exploration/DIR-028-timeline-depth/E-2026-10-01-timeline-production-system.md)／[采纳D](draft-changes/D-2026-10-01-timeline-production-core.md)。方向内正式文件保持原位置，本索引不复制正文。

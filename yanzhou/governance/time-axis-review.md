@@ -1,5 +1,7 @@
 # 时间轴资料导航与一致性审查
 
+> **当前导航更新（2026-10-01）**：现行基线为[TL-1](../design/README.md)，时间规则看[SYS-002](../design/systems/02-wands.md)和[SYS-003](../design/systems/03-combat.md)，本轮替代范围见[审查](../exploration/DIR-028-timeline-depth/compatibility-audit-2026-10-01.md)。以下全文是2026-09-30专题快照，其中“现行”指当时RC1，其他方向保持原资格。动态链接只作导航，旧规则原文须按[固定版本](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/governance/time-axis-review.md)取证。
+
 > 2026-09-30 / layout.3：本轮只更新简化后的系统内导航。下列机制、来源演变与方向比较保留既有审查摘要，没有新增玩法审查或采纳。
 
 Project ID：game-002。文档角色：TopicNavigation / DocumentationAudit。日期：2026-09-30。状态：文档整理；没有新增玩法采纳、资格晋级或验证结果。
