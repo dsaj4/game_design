@@ -31,7 +31,7 @@
 
 ## 设计及证据边界
 
-- 主系统新想法先入sources/inbox；探索新想法按exploration/AGENTS直接写所属方向，Unknown保留；资格确认主动使用grill-with-docs，先查文档，一次一个关键问题。资格不等于采纳。
+- 主系统新想法先入sources/inbox；探索新想法按exploration/AGENTS直接写所属方向，Unknown保留；资格确认主动使用grill-with-docs，先查允许文档，再按[批量澄清](../docs/design-workflow.md#批量澄清)一次尽可能处理多个问题，逐项给推荐并记录答案。资格不等于采纳。
 - GDD使用统一模板，审查相关素材；Raw不能直接进入GDD/Proposal/Evaluation。明确采纳的范围不重复索要许可。
 - 改核心或规则先Draft Change并同步决策；G002-DOC-006/007为目录决定，G002-DOC-008为核心摘要与阅读规则决定，G002-DOC-009为清理与兼容退役决定，均不新增CORE玩法决定。
 - design/是现行规则；sources/保留原日期决定；history/中的AGENTS和旧“当前”仅为历史材料，不覆盖本文件。

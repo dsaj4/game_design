@@ -59,7 +59,7 @@ Extract:
 - must-have, forbidden direction, team, engine, time, content, business, and live-operation constraints;
 - requested output depth.
 
-Do not block on optional gaps. State material assumptions and preserve the user's explicit choices. Ask one concise question only when no safe assumption exists and different answers would radically change the deliverable.
+Do not block on optional gaps. State material assumptions and preserve the user's explicit choices. Batch as many currently answerable, relevant clarification questions as practical, with a recommendation and impact for each. Show conditional dependencies or defer questions whose premises cannot yet be established. Follow the project clarification policy; unanswered items remain Unknown rather than implicitly approved.
 
 For visual inputs, inspect the image first. Separate observations from inferences. Extract subjects, spatial relations, possible verbs, visible state changes, hazards, resources, tone, scale, and implied fantasy. A visual mood is not yet gameplay.
 

@@ -4,7 +4,8 @@
   "subdirectory": "gameplay-mechanism-designer",
   "installed_at": "2026-09-30",
   "scope": "project-runtime-conditional",
-  "integration_revision": "game-project-1",
+  "integration_revision": "game-project-2",
+  "adapted_at": "2026-10-01",
   "upstream_files": [
     {
       "path": "SKILL.md",

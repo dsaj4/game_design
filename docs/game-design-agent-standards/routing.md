@@ -59,7 +59,7 @@ Output：目标文件路径、状态轴、来源/决策链接、下一步问题�
 
 Pass criteria：读者能从输出中看出为什么写到该目录，以及哪些内容被明确排除。
 
-Failure handling：意图仍有两个以上不可合并的解释时，分别保留候选并一次询问一个会改变路由的问题；不得自行选定高风险路径。
+Failure handling：意图仍有两个以上不可合并的解释时，分别保留候选，按[批量澄清](../design-workflow.md#批量澄清)成组询问当前能回答的路由问题并逐项给推荐；相互依赖的选项标明条件，不得自行选定高风险路径。
 
 Evidence：`AGENTS.md` 用户意图识别与工作区分流；知识系统 Spec 第 4、9 节。
 
@@ -83,20 +83,20 @@ MUST：
 
 1. 使用 `game-design-workflow/templates/idea-template.md` 的结构在 `idea-inbox/` 建档。
 2. 默认标为 `Raw Idea / Unqualified`，未知字段写 `Unknown`。
-3. 使用 `grill-with-docs` 一次确认一个关键资格问题。
+3. 使用 `grill-with-docs` 按批量澄清约定一次尽可能确认多个关键资格问题，各项单独记录答案与剩余缺口。
 4. 只有七项资格字段全部清楚时，才在 `idea-materials/` 创建 `M-YYYY-MM-DD-short-name.md` 并双向链接。
 
 资格字段：来源可追溯、设计对象/GDD 章节、玩家处境、玩家行为或可见影响、预期反馈/价值、与当前构思关系、最大未知与验证方式。
 
 MUST NOT：把模糊聊天、自行补全的猜测或未确认 inbox 内容当作 GDD、Proposal、Evaluation 或核心构思来源。
 
-Procedure：`保存原始表达 -> 标记 Raw Idea / Unqualified -> 对照仓库文档补齐可回答项 -> 一次确认一个关键问题 -> 通过七项门槛后晋级并双向链接`。
+Procedure：`保存原始表达 -> 标记 Raw Idea / Unqualified -> 对照允许文档补齐可回答项 -> 成组澄清并逐项记录 -> 通过七项门槛后晋级并双向链接`。
 
 Output：原始想法文件；通过后才有合格素材文件和资格记录。
 
 Pass criteria：每项资格字段均有用户/来源依据，且最大未知有最小验证方式。
 
-Failure handling：字段缺失则继续留在 inbox，记录下一个关键问题；不能用 `Proposed` 伪装为 `Qualified`。
+Failure handling：字段缺失则继续留在 inbox，记录下一批缺口及依赖；不能用 `Proposed` 伪装为 `Qualified`。
 
 Evidence：`AGENTS.md` 原始想法流程与合格 GDD 素材硬门槛；`grill-with-docs` 技能。
 

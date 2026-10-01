@@ -1,6 +1,6 @@
 # Agent 操作手册
 
-版本：2026-09-30 / layout.3。这里只维护路由与操作底线；完整设计流程在[design-workflow](docs/design-workflow.md)。
+版本：2026-10-01 / layout.3。这里只维护路由与操作底线；完整设计流程在[design-workflow](docs/design-workflow.md)。
 
 ## 先定项目与材料范围
 
@@ -14,7 +14,7 @@
 ## 内容资格与采纳
 
 - 主系统零散想法先进入`yanzhou/sources/inbox/`；探索先进入所属DIR的README。不完整内容标Raw Idea / Unqualified，缺项写Unknown，保留用户原话。
-- 资格确认主动使用[grill-with-docs](C:/Users/Administrator/.codex/skills/grill-with-docs/SKILL.md)：能从允许材料回答的先查，一次只问一个关键问题；模型推演不等于用户确认。
+- 资格确认主动使用[grill-with-docs](C:/Users/Administrator/.codex/skills/grill-with-docs/SKILL.md)：能从允许材料回答的先查，其余按主题和依赖成组澄清，一次尽可能处理多个可回答的问题，每项给推荐答案和影响。用户2026-10-01明确选择此交互方式；本项目调用`grill-me`／`grill-with-docs`时同样适用，覆盖技能上游的逐题等待默认。完整约定见[批量澄清](docs/design-workflow.md#批量澄清)。模型推演不等于用户确认。
 - 资格必须具备来源、设计对象、玩家情境/设计功能、行为/可见影响、价值、与已有设计关系、主要未知及验证方式。具体流程见[设计流程](docs/design-workflow.md)。
 - Raw不能进入正式素材、GDD、Proposal、Evaluation或Draft Change。需要正式输出时用[登记模板](game-design-workflow/templates/README.md)，不扫描未登记草稿。GDD明确GDD-0/1/2并审查相关正式素材与inbox；未通过资格的候选不得混入正文。
 - 写入GDD不等于采纳。修改现行玩法需合格来源、提案/评估、目标Draft Change及明确采纳，再更新权威正文与决策。用户已有明确采纳授权时不重复询问。
@@ -30,6 +30,6 @@
 - 共享规则的Inherited继续按上游生效，Proposed仍为候选；项目决定写项目内，通用知识不混入项目参数和采纳结果。
 - 修改前检查`git status --short --branch`和当前分支；不得在main/master修改保护文档，必要时自动建任务分支。
 - 保护范围包括核心设计、来源流程、AGENTS、README、模板、项目注册和协作规范；修改后同轮提交推送，仅暂存本任务文件。不覆盖他人的修改，不提交原始第三方缓存或未授权资产，不强推。
-- 完成时报告文件、状态、检查、未决项以及分支/提交。需要继续资格确认时给出下一个关键问题。
+- 完成时报告文件、状态、检查、未决项以及分支/提交。需要继续资格确认时给出下一批可一起处理的问题与各项推荐。
 
 [设计流程](docs/design-workflow.md) · [文档合同](yanzhou/governance/document-contract.md) · [清理与历史读取](yanzhou/history/README.md)

@@ -1,6 +1,6 @@
 # 玩法机制设计器：项目安装与推荐用法
 
-日期：2026-09-30。状态：Installed / Project-local；适配修订 game-project-1。这是机制构思工具的安装与流程适配，不是玩法采纳或测试结论。
+安装：2026-09-30；适配更新：2026-10-01。状态：Installed / Project-local；适配修订 game-project-2。这是机制构思工具的安装与流程适配，不是玩法采纳或测试结论。
 
 已安装到 [项目 skill](../../.codex/skills/gameplay-mechanism-designer/SKILL.md)，固定使用[用户指定的上游版本](https://github.com/qiuaoru-coder/game-design-agent-skills/tree/29e8c759ca26c6bd4f337744b647dc728bf322b6/gameplay-mechanism-designer)，提交 `29e8c759ca26c6bd4f337744b647dc728bf322b6`。在本项目下一轮对话中可用 `$gameplay-mechanism-designer` 调用；没有安装全局副本。
 
@@ -81,11 +81,13 @@ CUSTOM 不隐含 CORE；这里因为明确列出了 core-design 才读取它。�
 
 它与现有工具各司其职：`game-analysis-orchestra` 处理参考产品拆解；本 skill 组织机制候选；`grill-with-docs` 负责资格澄清和文档一致性。无需为了使用本 skill 再安装配套技能。
 
+按2026-10-01用户要求，澄清使用[批量问答](../design-workflow.md#批量澄清)：一次尽可能处理多个相关问题，每项给推荐与影响，可按编号回答或明确说“本批全部按推荐”。未回答项保持Unknown，依赖问题标条件或留到下一批。此项目规则也适用于`grill-me`和`grill-with-docs`。
+
 ## 来源审查与维护
 
 本轮按 skill-vetter 完整审查固定提交下的11份 skill 文件及仓库 MIT LICENSE。内容为 Markdown、YAML、TSV，无执行脚本、依赖安装、凭据读取、上传逻辑或后台任务。判定 **LOW：可按本项目文档范围安装**。GitHub API 审查时为0 stars / 0 forks；下载量、外部审查记录未知，不据此声称可信度已经被社区验证。
 
-保留仓库 MIT 通知及 TSV 对“六边形老闪（张鹏）”原图谱的署名。安装时11份文件与固定 Git blob 逐字节一致；之后仅修改 SKILL.md 的前置项目规则和 agents/openai.yaml 的启动话术，新增 project-integration.md 与 source-lock.json，并从仓库根补入 LICENSE。九份上游方法参考文件保持原字节。
+保留仓库 MIT 通知及 TSV 对“六边形老闪（张鹏）”原图谱的署名。安装时11份文件与固定 Git blob 逐字节一致；初次适配修改 SKILL.md 的前置项目规则和 agents/openai.yaml 的启动话术，新增 project-integration.md 与 source-lock.json，并从仓库根补入 LICENSE。game-project-2继续更新SKILL.md与项目适配层的批量澄清规则；九份上游方法参考文件保持原字节。
 
 [source-lock.json](../../.codex/skills/gameplay-mechanism-designer/source-lock.json)记录上游文件 SHA-256、提交与本地修改清单。更新时先登记计划、审查新版本差异，再重新合并适配层；不要用上游覆盖安装抹掉本地规则，也不要把这里登记的来源版本冒充游戏文档版本。审计临时副本与脚本不属于运行 skill。
 
