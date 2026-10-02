@@ -32,9 +32,12 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 | <a id="as-g002-001"></a>AS-G002-001 05紧凑暗面视觉包；UI、风格 | game-002 / main；[风格说明](../../yanzhou/visual/reviews/2026-09-19/style-guide.md)、[文件清单](../../yanzhou/visual/reviews/2026-09-19/source-manifest.json) | v0.2 / 2026-09-19；基线提交下`yanzhou/visual/reviews/2026-09-19/`的已跟踪文件；生成来源/提示词沿原包，分发条件未审 | Catalogued / PresentLocal；旧RC1 Selected Visual；不能当成TL-1最终布局 |
 | <a id="as-g002-002"></a>AS-G002-002 DIR-029完整牌桌v9；概念图 | game-002-optimization / DIR-029；[PNG原件](../../yanzhou/exploration/DIR-029-timeline-card-battle/ui-concept-v9-full-tabletop.png)、[提示词](../../yanzhou/exploration/DIR-029-timeline-card-battle/ui-concept-v9-full-tabletop-prompt.txt) | 基线提交下上述两个文件；生成资料，具体生成模型/分发条件本轮未审 | Catalogued / PresentLocal；Scene Concept / Awaiting Visual Review，尚非最终生产素材；尺寸等在实际复用前补录 |
 | <a id="as-g002-003"></a>AS-G002-003 Godot/Blender实验集合；模型、渲染、概念图 | game-002 / main；[恢复后的仓库入口](E:/Project/game-002-godogen-lab/README.md)、[登记来源](../../yanzhou/development/README.md) | 外部提交`1dd488c507a73933e5f16e9d3829e451b5e37937`；范围与入口见下方恢复记录；依赖见外部工具链锁，逐项分发条件待核实 | Catalogued / **PresentLocal**（2026-10-01用户通知恢复后复查）；旧RC1资产与视觉探索，未认定TL-1兼容或完成美术验收 |
+| <a id="as-g002-004"></a>AS-G002-004 DIR-031视觉案例参考包；官方截图、牌桌、炼金工作台 | game-002-optimization / DIR-031；[图文与登记](../../yanzhou/exploration/DIR-031-visual-form-style/README.md#第4轮五个相邻案例的真实游戏截图)、[来源清单](../../yanzhou/exploration/DIR-031-visual-form-style/reference-screenshots-v01-sources.json) | v0.1 / 2026-10-02；固定提交`46f8a0ff7813f022e8e4c9b13516f5ba68c2ce98`下`yanzhou/exploration/DIR-031-visual-form-style/`，文件范围仅限清单所列7张图；5张官方Steam截图＋2张既有用户参考图，逐项规格、来源、SHA-256见清单；具体许可Unknown | Catalogued / PresentLocal；2026-10-02核对7图哈希及解码，目视核对5张新增官方截图；DIR-031仅作视觉参照，保持Raw / Unqualified，未运行游戏、不授予资产复制改作或商业分发权 |
 | <a id="as-sh-001"></a>AS-SH-001 拆解写法参考包；结构、DOCX范例 | shared-reference / media-analysis-lab；[包入口](../../media-analysis-lab/references/writing-examples/README.md) | 基线提交下`media-analysis-lab/references/writing-examples/`的已跟踪文件；结构MD与两份DOCX各自来源/转载条件待核实 | Catalogued / PresentLocal；按原入口只作结构和写法参考；本轮未读DOCX正文或检查版式，不授予复制正文/重发权限 |
 
 素材PresentLocal仅指列出入口/原件存在及已跟踪，不代表已目视审图或核验全部清单。包范围以固定提交内已跟踪文件为限，未跟踪资源不纳入。文件规格、作者和许可缺口保留Unknown；实际复用时按所需范围补齐，不把目录登记当作授权或Qualified素材。
+
+AS-G002-004为2026-10-02的后续登记，使用该行独立固定提交，不适用页首初始登记基线。其来源清单SHA-256为`db79a49078d3a48f95a28b0d45239c662bea0bfc161385847e6bbed1c05c6019`；目视核对范围以该行和方向页记录为准。
 
 ### Godogen恢复登记（2026-10-01）
 
@@ -53,6 +56,7 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 | DM-G002-001 | AS-G002-001@v0.2（基线提交） | 视觉选择/参考关系来自原风格说明与开发索引；本轮未核对代码中实际导入文件 |
 | DM-G002-002 | AS-G002-002@v9（基线提交） | 原方向与开发索引说明采用v9候选作视觉参照；演示使用文字/装饰占位，不代表导入这张PNG |
 | DM-G002-003 | AS-G002-003中的E1子集@外部固定提交 | 外部README记载`art/e1`与`game/assets/e1`的源/运行资产关系；本轮未执行构建，工作树Blender修改不纳入固定版结论 |
+| [DIR-031第4轮](../../yanzhou/exploration/DIR-031-visual-form-style/README.md#第4轮五个相邻案例的真实游戏截图) | AS-G002-004@v0.1 / `46f8a0ff7813f022e8e4c9b13516f5ba68c2ce98` | README内嵌官方截图作视觉参照；既有两张用户参考图保持原字节，不导入实现、不回写现行视觉规范 |
 
 新使用关系写在目标维护文档；此表保留跨资源发现入口，不复制项目参数或验证结论。正式系统与探索方向互相参考后仍保留各自设计版本。
 
