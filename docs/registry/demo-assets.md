@@ -21,6 +21,15 @@
 - 来源／复用：本任务自制代码、CSS占位图形及验证附件；uses: None，derived-from: None，不引用其他方向资产或旧代码。可在本项目继续改作，未另授公开分发许可证；系统字体不随包分发。代码已本地Git保存，尚无远端仓库，不等于已公开发布。
 - 设计边界：Q1–Q16只确认DIR-032试点，未回写主系统。未含付费干涉能力、完整路线／商店、复杂修饰或完整发行池。单文件构建无网络依赖；浏览器保存按来源隔离，下载事件未核验，可复制JSON导出已核对。
 
+### <a id="dm-g002-005"></a>DM-G002-005 效果语言与卡面展示稿（2026-10-02新增）
+
+- 归属：game-002-optimization / DIR-032；[用途、来源与资格边界](../../yanzhou/exploration/DIR-032-playable-mechanism-loop/README.md)、[EL-01设计候选](../../yanzhou/exploration/DIR-032-playable-mechanism-loop/UI-2026-10-02-effect-language.md)。
+- 类型／用途：可操作UI展示稿，评审八配方、战前／战中词卡显示、关键词释义、时间／费用与资源状态；不运行战斗。
+- 固定版本：EL-01，外部Git 22950acae3bbe805432a7bd4449364c9c33bc016，文件范围ui-language/；[单文件入口](E:/Project/yanzhou-tl1-demo/ui-language/index.html)、[操作与检查记录](E:/Project/yanzhou-tl1-demo/ui-language/README.md)。本机预览http://127.0.0.1:8766/仅为当前入口。
+- ReadyForScope / PresentLocal；2026-10-02实际浏览器核对四页签、八配方和主要呈现交互，查看两张截图；真人可读性与窄屏实测未做。设计仍Raw候选，Q17只确认词卡展开方式。
+- 来源／复用：本任务原创HTML、CSS图形、脚本及截图，无第三方美术；官方参考只使用链接和方法归纳。允许本项目继续改作，公开分发许可未另定；本地Git保存，无远端发布。
+- 关系：uses: None；derived-from: None。概念／参数参照DM-G002-004@afc6e4e0454bb3e306a49899022c340faabb5941，未导入其运行代码或存档；既有可玩Demo文件未改变。
+
 以下为原DM-G002-001–003登记记录，保留各自日期、来源与未验范围。
 
 DM-G002-001的打开、安装与操作按外部README核查；原登记轮未审查代码许可、完整依赖或构建，不声称已具备复制改作条件。设计源为旧RC1及旧视觉，原实现缺口、局部检查和失败记录仍以开发索引为准。
