@@ -12,7 +12,18 @@
 | <a id="dm-g002-002"></a>DM-G002-002 时间轴翻牌；动效、交互 | game-002-optimization / DIR-029；[方向第19轮](../../yanzhou/exploration/DIR-029-timeline-card-battle/README.md#第19轮四刻翻牌动效演示)、[开发证据](../../yanzhou/development/README.md) | v0.1 / 2026-09-30；[本机预览文件](C:/Users/Administrator/.codex/visualizations/2026/09/24/01a0d1f2-4d90-7db2-8527-684c3085e2ee/timeline-flip-demo-preview.html)、[技术说明](C:/Users/Administrator/.codex/visualizations/2026/09/24/01a0d1f2-4d90-7db2-8527-684c3085e2ee/timeline-flip-demo-notes.txt)；文件指纹见下 | Catalogued / PresentLocal；可参考共同翻牌、移动与播放反馈，未包含战斗结算；本轮未运行 |
 | <a id="dm-g002-003"></a>DM-G002-003 Godogen E1 R2；Godot材质与场景小样 | game-002 / main；[开发索引](../../yanzhou/development/README.md)、[原E1报告](E:/Project/game-002-godogen-lab/docs/e1-r2-report.md) | 外部提交`1dd488c507a73933e5f16e9d3829e451b5e37937`；[仓库与启动说明](E:/Project/game-002-godogen-lab/README.md)、[Godot工程入口](E:/Project/game-002-godogen-lab/game/project.godot) | Catalogued / PresentLocal（2026-10-01恢复后检查）；原记录为E1 R2小样，不含完整装配/选路/战斗；本轮未运行 |
 
-DM-G002-001的打开、安装与操作按外部README核查；本轮没有审查代码许可、完整依赖或构建，不声称已具备复制改作条件。设计源为旧RC1及旧视觉，原实现缺口、局部检查和失败记录仍以开发索引为准。
+### <a id="dm-g002-004"></a>DM-G002-004 炼咒试验台（2026-10-02新增）
+
+- 归属：game-002-optimization / DIR-032；[探索与机制规格](../../yanzhou/exploration/DIR-032-playable-mechanism-loop/README.md)、[开发索引](../../yanzhou/development/README.md)。
+- 类型／用途：两战最小可玩Demo；TL-1生产、卡牌试点、队列、维护／增幅、临时路由、跨战奖励与携带。
+- 固定版本：DIR032-0.1，外部Git提交`afc6e4e0454bb3e306a49899022c340faabb5941`；[单文件Demo](E:/Project/yanzhou-tl1-demo/demo.html)、[操作／构建说明](E:/Project/yanzhou-tl1-demo/README.md)、[逐文件SHA-256](E:/Project/yanzhou-tl1-demo/manifest.json)。本机预览`http://127.0.0.1:8765`仅为本次会话入口，不替代固定版本。
+- ReadyForScope / PresentLocal；2026-10-02已实际运行22项规则检查、6组固定输入两战试跑，并通过浏览器操作完成基础→增幅与辉核→辉核；[证据及限制](E:/Project/yanzhou-tl1-demo/evidence/verification.md)。真人体验、完整路线及平衡未验证。
+- 来源／复用：本任务自制代码、CSS占位图形及验证附件；uses: None，derived-from: None，不引用其他方向资产或旧代码。可在本项目继续改作，未另授公开分发许可证；系统字体不随包分发。代码已本地Git保存，尚无远端仓库，不等于已公开发布。
+- 设计边界：Q1–Q16只确认DIR-032试点，未回写主系统。未含付费干涉能力、完整路线／商店、复杂修饰或完整发行池。单文件构建无网络依赖；浏览器保存按来源隔离，下载事件未核验，可复制JSON导出已核对。
+
+以下为原DM-G002-001–003登记记录，保留各自日期、来源与未验范围。
+
+DM-G002-001的打开、安装与操作按外部README核查；原登记轮未审查代码许可、完整依赖或构建，不声称已具备复制改作条件。设计源为旧RC1及旧视觉，原实现缺口、局部检查和失败记录仍以开发索引为准。
 
 DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 

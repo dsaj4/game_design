@@ -48,7 +48,7 @@ exploration/
 | [DIR-028 时间轴深度构筑](DIR-028-timeline-depth/README.md) | 第8轮：时间产线核心升入TL-1，卡牌战场与新卡表重设计；兼容性审查、原始探索和UI候选各保留身份。 | 核心Qualified / Accepted；具体卡表Proposed；UI与早期构思Raw；FULL |
 | [DIR-029 时间轴铺卡战斗](DIR-029-timeline-card-battle/README.md) | 自构法术，每杖按冷却生成一行牌，共享可折叠时间轴；默认并行、强力法术有独占格，同刻效果同时生效，敌方暗牌有线索。 | Raw Idea / Unqualified |
 | [DIR-030 卡牌规则设计](DIR-030-card-rule-design/README.md) | 优先保留时间轴铺排，构句不作为核心；从有限时间容量发散十版简单规则，后续再收敛与评估。 | Raw Idea / Unqualified；CORE |
-| [DIR-032 完整机制、卡牌试点与最小可玩链路](DIR-032-playable-mechanism-loop/README.md) | 已确认五类卡牌职能与两战Demo切片，CORE＋GDD包已读；具体卡池和结算边界待确认。 | Raw Idea / Unqualified；CUSTOM；NotRun |
+| [DIR-032 完整机制、卡牌试点与最小可玩链路](DIR-032-playable-mechanism-loop/README.md) | Q1–Q16确认，8配方与两战Demo已实现；生产、队列、维护、路由、奖励及携带形成完整试点链路，局部检查通过。 | Qualified试点；CUSTOM；真人体验NotRun |
 
 ## 其余待选与局部合格方向
 
