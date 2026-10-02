@@ -15,6 +15,10 @@ Phase 1 is inspired by PaperOrchestra and AutoSurvey, but it only works from sup
 
 When screenshots or keyframes are available, run a visual audit before writing the outline. If the current agent has any direct image-reading capability, it must open and inspect the image files themselves; do not rely only on captions, filenames, BiliSum visual notes, or material-pack observations. Modern multimodal models can extract useful gameplay signals from game screenshots, but their observations must be treated as auditable evidence, not as final truth. Cross-check visual claims against transcript text, captions, and nearby frames.
 
+## Project storage
+
+In this repository, use `media-analysis-lab/` as the shared game-analysis workspace: reusable methods and writing references live there; new source packs, evidence, dossiers and checks go under `media-analysis-lab/runs/<task-slug>/`. Read its README for routing when needed. Skill candidates and calibration belong to `media-analysis-lab/skill-iteration/`; they are not installed skills and must not be promoted merely because files moved. Keep this active installation under `.codex/skills/`. Project-specific design qualification and adoption stay in the target game project with versioned links to analysis evidence.
+
 ## Inputs
 
 Prefer a `materialpack.json` matching `assets/materialpack.schema.json`. If the user gives loose files instead, first create or update a material pack.

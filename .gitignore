@@ -15,3 +15,10 @@ workspaces/*/research/raw-sources/
 # Agent scratch and local logs; preserved artifacts belong in project docs.
 .codex-tmp/
 *.log
+
+# Local skill candidates; only shared navigation is published
+/skill-iteration-workspace/*
+!/skill-iteration-workspace/README.md
+/media-analysis-lab/skill-iteration/game-analysis-orchestra/
+# Misexpanded Windows cache directory
+/%SystemDrive%/

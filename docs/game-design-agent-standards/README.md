@@ -134,7 +134,7 @@ Review trigger: 何时复审或废止
 
 ## 7. 与仓库流程的边界
 
-- 原始想法只能先进入 `game-design-workflow/idea-inbox/`，通过 `grill-with-docs` 资格闸门后才能进入 `idea-materials/`、GDD 或 Proposal。
+- 原始想法只能先进入 `目标项目AGENTS指定的原始输入位置`，通过 `grill-with-docs` 资格闸门后才能进入 `idea-materials/`、GDD 或 Proposal。
 - GDD 只写玩家体验、玩法规则、设计决策和验证；引擎、类、函数、API、构建、Bug 和代码完成度进入 `docs/code-development-index.md` 或实现仓库。
 - 理论和课程材料进入 `research/`，先成为带证据的摘要或假设；不能直接改 `core-concept.md`。
 - 正式核心设定变更必须经过 Proposal、Evaluation、Draft Change、用户确认和 Decision Log；本目录不替代这条流程。

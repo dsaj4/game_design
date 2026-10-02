@@ -13,7 +13,8 @@ import sys
 import unicodedata
 
 ROOT = Path(__file__).resolve().parents[1]
-FROZEN = ('archive/', 'docs/history/', 'media-analysis-lab/', 'skill-iteration-workspace/',
+FROZEN = ('archive/', 'docs/history/', 'media-analysis-lab/runs/', 'media-analysis-lab/examples/',
+          'media-analysis-lab/skill-iteration/game-analysis-orchestra/',
           'yanzhou/history/exploration-2026-09-24/')
 LINK = re.compile(r'\[[^\]\n]*\]\((<[^>]+>|[^)\n]+)\)')
 

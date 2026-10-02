@@ -1,22 +1,21 @@
 # 工作区地图
 
-更新：2026-09-30 / layout.3。项目权限由对应AGENTS与探索注册表规定。
+2026-10-01 / layout.4。权限以[项目注册表](registry/project-registry.md)及项目AGENTS为准。
 
-| Project ID | 根目录／入口 | 当前用途 | 默认 |
-| --- | --- | --- | --- |
-| game-002 | [yanzhou](../yanzhou/README.md) | 言咒现行设计（TL-1时间产线） | 是 |
-| game-002-optimization | [优化探索](../yanzhou/exploration/README.md) | 候选、方向索引、比较；逐方向选择阅读模式及固定背景 | 否 |
-| new-roguelike | [独立肉鸽](../exploration/new-roguelike/README.md) | 自身空白背景，独立探索 | 否 |
-| core-card-project | archive/2026-09-05-core-card-project | Parked / Archived；默认不读不写 | 否 |
+| 区域 | 用途 |
+| --- | --- |
+| [yanzhou](../yanzhou/README.md) | 默认游戏game-002；design、sources、exploration、governance、development分别维护正式设计、来源、方向、治理和开发证据 |
+| [new-roguelike](../new-roguelike/README.md) | 平级独立肉鸽项目；同一职责结构，Blank Baseline、默认NONE，不继承言咒玩法 |
+| [media-analysis-lab](../media-analysis-lab/README.md) | 全部公共游戏拆解方法、参考素材、输入/输出、校准与拆解技能试验 |
+| [docs](shared-knowledge.md) | 通用规则、方法、项目登记与管理决定 |
+| [game-design-workflow/templates](../game-design-workflow/templates/README.md) | 唯一共享模板登记；根流程目录不存游戏正文 |
+| [skill-iteration-workspace](../skill-iteration-workspace/README.md) | 技能试验统一入口；实际材料按所属业务集中 |
+| .codex/skills | Codex项目运行技能，保留标准安装位置 |
+| tools | 文档索引与检查 |
+| archive | 旧项目与独有历史证据；默认不读不写 |
 
-W为yanzhou/；原职责路径按yanzhou/AGENTS.md映射到design、sources、governance及development。共享设计模板在根game-design-workflow/templates；探索项目P按注册表及项目本地AGENTS映射；言咒按[yanzhou探索AGENTS](../yanzhou/exploration/AGENTS.md)直接保存方向，不套用W子树。
+根exploration与assets已退役；旧workspaces、optimization兼容树不恢复。根目录只导航，不复制项目规则。来源链接不扩大阅读授权。
 
-言咒当前问题唯一入口为W/governance/questions.md，现行GDD为W/design。根目录只导航，不复制项目规则或库存数。Markdown链接按文件所在位置解析。
+言咒方向按[READ-1](../yanzhou/exploration/start.md)，肉鸽按[READ-NR-1](../new-roguelike/exploration/start.md)选择材料。代码/API/构建留外部代码仓库，媒体分析不是新游戏的默认背景。
 
-[探索项目权限登记](../exploration/registry/project-registry.md)保持独立；旧背景包不原地更新，后续显式RC1来源按方向登记。
-
-
-言咒新探索的材料入口为[启动规范](../yanzhou/exploration/start.md)；先选择CORE／GDD／FULL／CUSTOM／NONE，再读游戏正文，不套用默认主系统背景。
-
-
-旧workspaces与exploration/game-002-optimization兼容目录已删除，不再是可写或可读入口。历史与固定来源按[yanzhou/history](../yanzhou/history/README.md)取证。
+[本次整理与取证](maintenance/2026-10-01-workspace-cleanup.md)

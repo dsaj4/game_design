@@ -1,10 +1,12 @@
 # ADR-0002：建立隔离的玩法探索区与双项目工作区
 
+2026-10-01补充：本ADR保留2026-09-09建区决定的历史语境；物理布局和默认读取方式已由[WS-005](../workspace-decisions.md)、[当前架构](../architecture/game-exploration-framework.md)及项目阅读合同覆盖。下文旧路径和“当前”只按原日期解释，不是重建目录的指令。
+
 ## Status
 
 `Accepted`，2026-09-09 用户确认，来源见[WS-004](../workspace-decisions.md)。
 
-当前落地范围：[探索区](../../exploration/README.md)最小骨架、两个项目注册表、game-002 context pack 生成规则及首个核心设计背景包。自动生成器、模拟/原型运行器和共享适配器尚未实现；背景包激活不表示玩法采纳。
+当前落地范围：[探索区](../registry/project-registry.md)最小骨架、两个项目注册表、game-002 context pack 生成规则及首个核心设计背景包。自动生成器、模拟/原型运行器和共享适配器尚未实现；背景包激活不表示玩法采纳。
 
 ## Context
 
@@ -53,7 +55,7 @@
 ### Neutral
 
 - 玩法探索区建立后仍然不是游戏代码仓库；实现继续登记到对应代码仓库和 game-002 开发索引。
-- `emergent_strategy_game_framework_v0.1.md` 保持根目录唯一来源，已在[框架注册表](../../exploration/registry/framework-registry.md)登记为 Proposed 候选，尚未迁移或校准。
+- `emergent_strategy_game_framework_v0.1.md` 保持根目录唯一来源，已在[框架注册表](../registry/framework-registry.md)登记为 Proposed 候选，尚未迁移或校准。
 
 ## Alternatives Considered
 

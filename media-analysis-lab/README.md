@@ -1,84 +1,28 @@
-# 游戏视频拆解实验室
+# 游戏拆解与媒体分析
 
-状态：Prototype Lab
+2026-10-01统一入口。状态：Research / Prototype Lab。游戏视频、截图、文本拆解的方法、参考样例、材料包、分析产物和拆解技能试验集中在本目录；观察和研究不等于任何游戏的正式规则。
 
-这个目录是一个隔离开发区，用来验证“游戏视频 / 图片 / 文本材料 -> 高质量游戏拆解案”的新工作流。它暂时不并入 `research/` 的正式案例系统，也不修改现有核心构思文档。
+| 位置 | 用途 |
+| --- | --- |
+| [methods/project-analysis](methods/project-analysis.md) | 从媒体证据到玩法分析的方法 |
+| [methods/gdd-transfer](methods/gdd-transfer.md) | 拆解启发进入目标项目GDD的资格边界 |
+| [references/writing-examples](references/writing-examples/README.md) | 原根assets中的结构标准与两份DOCX参考样例 |
+| [schemas](schemas/material-pack.schema.json)、[templates](templates/game-analysis-dossier-template.md)、[prompts](prompts/game-analysis-dossier.md) | 原型材料包与写作结构 |
+| [examples](examples/core-card-duel/materialpack.json) | 保留的旧项目格式样例，仅作方法参考 |
+| [runs](runs/) | 既有真实输入、截图、分析稿、检查和失败记录；路径与字节不改 |
+| [skill-iteration](skill-iteration/README.md) | 拆解技能候选、人工校准与质量迭代入口 |
+| [正式拆解技能](../.codex/skills/game-analysis-orchestra/SKILL.md) | 保留在Codex识别的安装位置；本目录不维护第二套运行安装 |
 
-## 当前目标
+新拆解按`runs/<来源或任务slug>/`集中保存输入清单、证据、分析稿与检查；相同材料的修订追加版本，不复制整套根目录。第三方原始缓存和未授权资产默认不发布；现有引用和失败证据保留。外部事实、图像观察、推断和作者判断分别标注，材料不足写Unknown。
 
-第一阶段先不接入真实视频分析，也不依赖 BiliSum 任务库。验收目标是：
+对言咒或肉鸽的设计转化留目标项目sources或方向README，并引用这里的报告版本；不把项目资格、参数或采纳决定迁到公共拆解区。已退出工作树的研究案例只在[历史案例索引](references/historical-cases.md)登记固定Git位置，不恢复旧research兼容树。
 
-- 输入一组图片和文本材料。
-- 输出一份结构完整、证据可追溯、面向策划讨论的游戏拆解稿。
-- 同时输出一个可交给多模态模型继续润色或重生成的分析任务包。
-- 用质量检查清单验证报告是否覆盖核心定位、玩家体验、核心循环、系统架构、内容节奏、经济闭环、叙事包装和项目转化。
+## 原型工具
 
-## 为什么先做隔离目录
-
-BiliSum 已经具备视频转写、截图理解、VLM 图文笔记和 Markdown 导出能力。这个实验室只验证“游戏拆解总结模式”的信息结构和输出质量，不直接改 BiliSum 代码。
-
-等效果过关后，可以把这里的素材包协议和提示词迁移为 BiliSum 的一种总结模式：
-
-```text
-BiliSum 视频任务
-  -> 转写文本
-  -> 关键帧 / 截图
-  -> VLM 图文笔记
-  -> 游戏拆解素材包
-  -> 游戏拆解稿
-```
-
-## 目录结构
-
-```text
-media-analysis-lab/
-  README.md
-  architecture.md
-  acceptance.md
-  schemas/
-    material-pack.schema.json
-  templates/
-    game-analysis-dossier-template.md
-  prompts/
-    game-analysis-dossier.md
-  tools/
-    build_analysis_packet.py
-  examples/
-    core-card-duel/
-      materialpack.json
-      materials.md
-      images/
-        battle-layout.svg
-```
-
-## 快速运行
-
-在仓库根目录执行：
+现有工具与格式保留，架构见[architecture](architecture.md)，验收见[acceptance](acceptance.md)。拆解原型不自动联网、下载、运行ASR或改写游戏核心。
 
 ```powershell
-py -3 media-analysis-lab/tools/build_analysis_packet.py `
-  --pack media-analysis-lab/examples/core-card-duel/materialpack.json `
-  --out media-analysis-lab/examples/core-card-duel/dist `
-  --check
+python media-analysis-lab/tools/build_analysis_packet.py --pack media-analysis-lab/examples/core-card-duel/materialpack.json --out <仓库外临时输出目录> --check
 ```
 
-运行后会生成：
-
-- `core-card-duel-analysis-packet.md`：可交给 LLM / VLM 的完整任务包。
-- `core-card-duel-draft.md`：基于素材包生成的拆解稿初稿。
-- `core-card-duel-quality-check.md`：覆盖度与质量门槛检查。
-
-## 当前边界
-
-- 不下载视频。
-- 不调用真实 VLM / LLM。
-- 不读取 BiliSum 数据库。
-- 不把结论写入 `core-concept.md`。
-- 输出状态仍是 Research / Prototype Lab，不是 Accepted。
-
-## 下一步
-
-1. 用真实游戏截图和游玩记录替换示例素材。
-2. 对比人工拆解稿，调整素材字段和提示词。
-3. 增加 BiliSum 导出适配器：把 `visual-note.md`、转写和截图目录转换为 `materialpack.json`。
-4. 再考虑接入模型调用，生成最终长文。
+该工具生成分析任务包、草稿和质量检查；这不等于正式技能完整流程通过。既有runs仍按原日期与原验证范围解释。

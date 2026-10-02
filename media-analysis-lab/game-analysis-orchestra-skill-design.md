@@ -81,7 +81,7 @@ game-analysis-orchestra
 - 自动 ASR。
 - 联网补商业数据。
 - 多模型 peer review。
-- 自动写入 `research/03-product-case-studies/`。
+- 原候选自动写入旧research目录已退役；现用分析输出写media-analysis-lab/runs，项目转化按目标资格流程。
 - 修改 `core-concept.md`。
 
 ## 推荐 Skill 目录结构

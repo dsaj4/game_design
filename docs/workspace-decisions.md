@@ -6,6 +6,7 @@
 | WS-002 | 2026-09-05 | Accepted | 建立 game-002 默认独立工作区，与上一款游戏无关，仅复用流程、结构、知识和规范 | 用户明确要求 |
 | WS-003 | 2026-09-05 | Accepted | 从共享 Wiki 和规则库移除旧游戏专属内容，保留清理前快照和通用来源 | 用户明确要求 |
 | WS-004 | 2026-09-09 | Accepted / Workspace Administration | 按 ADR-0002 建立探索区最小骨架、game-002-optimization 与 new-roguelike 注册表、game-002 背景包生成规则 | 用户：“确认，开始创建最小目录骨架，并先建立两个项目的注册表与 game-002 context pack 生成规则” |
+| WS-005 | 2026-10-01 | Accepted / Workspace Administration | 平级new-roguelike项目；根exploration退役；公共拆解资料集中media-analysis-lab；重建技能迭代入口并收尾旧缺失路径，见[清理记录](maintenance/2026-10-01-workspace-cleanup.md) | 用户本轮明确要求 |
 
 这是管理决定，不是玩法采纳，不构成新游戏的设计素材。
 迁移基线：d8d11f524a4db6aef1435a37babb8b906cc61170。
@@ -23,7 +24,7 @@
 
 ## 2026-09-09 探索区建区范围
 
-- [项目注册表](../exploration/registry/project-registry.md)登记两个独立探索项目，默认正式项目仍为 game-002。
+- [项目注册表](registry/project-registry.md)登记两个独立探索项目，默认正式项目仍为 game-002。
 - [背景包规则](../yanzhou/history/exploration-2026-09-24/context/pack-generation-rules.md)和 v1 明确来源配置已建立；没有生成背景包或取得新玩法结论。
 - 根路由与探索区规则补齐原始想法/合格素材路径，继续执行资格与 GDD 边界。
 - 框架 v0.1 仅登记为 Proposed / Candidate；没有把框架目标采纳为游戏目标。

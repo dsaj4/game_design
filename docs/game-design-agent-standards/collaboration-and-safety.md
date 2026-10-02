@@ -58,7 +58,7 @@ Preconditions：设计输入已经过素材资格、Proposal 和 Evaluation，�
 
 Input：合格设计来源、Proposal、Evaluation、拟改文本、用户采纳证据和当前核心文档/Decision Log。
 
-MUST：先在 `game-design-workflow/draft-changes/` 写来源、拟改文本、理由、影响、备选和回退；确认后同步核心文档与决策记录，并在本轮提交推送。
+MUST：先在 `目标项目AGENTS指定的Draft Change位置` 写来源、拟改文本、理由、影响、备选和回退；确认后同步核心文档与决策记录，并在本轮提交推送。
 
 MUST NOT：把课程观点、未通过资格的想法、代码现状或 agent 推断直接写进核心构思；不得删除历史失败路径。
 

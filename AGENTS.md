@@ -1,14 +1,14 @@
 # Agent 操作手册
 
-版本：2026-10-01 / layout.3。这里只维护路由与操作底线；完整设计流程在[design-workflow](docs/design-workflow.md)。
+版本：2026-10-01 / layout.4。这里只维护路由与操作底线；完整设计流程在[design-workflow](docs/design-workflow.md)。
 
 ## 先定项目与材料范围
 
 - 先确认[仓库入口](README.md)、[项目地图](docs/workspace-map.md)和[Git协作](docs/github-collaboration.md)。默认Project ID为game-002，W=`yanzhou/`，按[yanzhou/AGENTS](yanzhou/AGENTS.md)路由。局部管理任务只读必要文件，不自动加载玩法背景。
 - 言咒探索P=`yanzhou/exploration/`。**任何游戏正文检索前**先读[start](yanzhou/exploration/start.md)与[探索AGENTS](yanzhou/exploration/AGENTS.md)，选CORE/GDD/FULL/CUSTOM/NONE；新方向默认CORE，已有方向沿登记版本。显式增补/排除优先，链接不自动扩读。
-- 指定其他项目时按[探索注册表](exploration/registry/project-registry.md)及其本地AGENTS切换并报告。独立肉鸽从空白背景起步；言咒与上一款游戏无关，不跨项目继承玩法、资格、验证或代码。
+- 指定其他项目时按[探索注册表](docs/registry/project-registry.md)及其本地AGENTS切换并报告。独立肉鸽从空白背景起步；言咒与上一款游戏无关，不跨项目继承玩法、资格、验证或代码。
 - 上一款游戏位于`archive/2026-09-05-core-card-project/`，默认不读不写。旧combat-lab、semantic-card-engine及外部实现属于暂停项目，不能作为言咒起点。
-- `workspaces/`和`exploration/game-002-optimization/`已经删除，禁止重建兼容正文。项目路径使用当前映射；共享模板位于根`game-design-workflow/templates/`，共享知识和规则位于docs。
+- 根`exploration/`、`assets/`以及旧`workspaces/`已经删除，禁止重建兼容正文。独立肉鸽在`new-roguelike/`；共享方法在`docs/methods/`、登记在`docs/registry/`，游戏拆解集中到`media-analysis-lab/`。项目路径使用当前映射；共享模板位于根`game-design-workflow/templates/`，共享知识和规则位于docs。
 - 治理任务可在用户授权范围横向整理元数据与来源。普通方向任务只读所选方向和允许材料，不因治理权限扩大日常阅读。
 
 ## 内容资格与采纳

@@ -1,5 +1,7 @@
 # 游戏设计知识与构思辅助系统升级 Spec
 
+2026-10-01目录说明：本文保留知识系统方法与提案状态；示意树不是实际写入指令。现行项目与材料位置以[工作区地图](workspace-map.md)及目标AGENTS为准，产品拆解集中media-analysis-lab，项目资格与采纳留各项目。
+
 > 2026-09-05 工作区隔离修订：本 Spec 为跨游戏的方法规格。正文模板中的“项目转化”须写入所选工作区，不能在共享 Wiki、证据卡或规则库中维护具体游戏设定；其他候选规范状态不变。
 
 状态：`Proposed / Implementation Spec`
@@ -437,7 +439,7 @@ game-design-development-wiki/
 1. **基础框架**：游戏设计是什么、开发流程、GDD、规则写作、原型和测试（例如 `SJ-001/002/003/004/006/008/009/011/013/015/030/207`）。
 2. **系统专项**：核心循环、玩家动机、反馈、数值经济、卡牌/组合、关卡和叙事。
 3. **生产与交付**：范围、工具、协作、QA、发布和复盘。
-4. **产品案例**：进入 `game-analysis-orchestra` 或 `research/03-product-case-studies/`，不把案例经验直接当规范。
+4. **产品案例**：进入 `game-analysis-orchestra` 或 `media-analysis-lab/runs/`，不把案例经验直接当规范。
 
 每批处理前更新一个队列，记录材料 ID、预期用途、分集覆盖、负责人和阻塞项。
 
@@ -629,10 +631,10 @@ Review trigger: 何时重新检视
 | 飞书原始逐字稿和分集状态 | `research/01-theory-library/feishu-game-design-system-transcripts-2026-08-30/` | 只校验完整性和引用，不覆盖原文 |
 | 课程单材料摘要 | `research/02-theory-digests/` 下的 Wiki/摘要目录 | 逐材料、带证据、带状态 |
 | 理论来源和外部核验 | `research/01-theory-library/`、`research/source-index.md` | 标记来源层级和适用边界 |
-| 游戏产品案例 | `research/03-product-case-studies/` 或 `game-analysis-orchestra` | 按案例流程分析，不直接变规范 |
+| 游戏产品案例 | `media-analysis-lab/runs/` 或 `game-analysis-orchestra` | 按案例流程分析，不直接变规范 |
 | 可验证项目假设 | `research/05-design-hypotheses/` | 由材料转化而来，不能直接改核心文档 |
 | 原型/试玩观察 | `research/06-prototype-insights/` | 写事实、玩家解释和设计判断的区别 |
-| GDD 与提案 | `game-design-workflow/gdd/`、`idea-proposals/` | 只引用合格素材和已确认证据 |
+| GDD 与提案 | `目标项目AGENTS指定的GDD草案位置`、`idea-proposals/` | 只引用合格素材和已确认证据 |
 | agent 操作规范 | `AGENTS.md`、相关模板、技能 `SKILL.md` 或其 references | 通过规则评审后再集成，不在本阶段静默改写 |
 | 代码状态和技术细节 | `docs/code-development-index.md` 与代码仓库 | 不复制进 GDD |
 | 流程设计 Spec 和 ADR | `docs/plans/`、`docs/adr/` | 记录本系统本身的决策和变更 |

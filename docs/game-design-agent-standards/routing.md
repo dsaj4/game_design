@@ -18,12 +18,12 @@
 
 | 用户信号 | 意图状态 | 标准去向 | 不能做的事 |
 | --- | --- | --- | --- |
-| “我想到一个玩法/卡牌效果” | `Raw Idea / Unqualified` | `game-design-workflow/idea-inbox/` | 直接写 GDD、Proposal 或核心构思 |
-| “把这个想法写成 GDD” | `GDD` | `game-design-workflow/gdd/` | 跳过素材审查，直接采纳 inbox 内容 |
+| “我想到一个玩法/卡牌效果” | `Raw Idea / Unqualified` | `目标项目AGENTS指定的原始输入位置` | 直接写 GDD、Proposal 或核心构思 |
+| “把这个想法写成 GDD” | `GDD` | `目标项目AGENTS指定的GDD草案位置` | 跳过素材审查，直接采纳 inbox 内容 |
 | “这个机制能不能做/值不值得做” | `Proposal / Evaluation` | `idea-proposals/` 或 `evaluations/` | 在素材不合格时生成正式 Proposal |
-| “这个像某款游戏” | `Market Reference / Research` | `market-reference.md` 或 `research/03-product-case-studies/` | 直接复制产品系统或把案例当行业规则 |
+| “这个像某款游戏” | `Market Reference / Research` | `market-reference.md` 或 `media-analysis-lab/runs/` | 直接复制产品系统或把案例当行业规则 |
 | “我看到文章/课程/视频” | `Research Material` | `research/01-theory-library/`、`02-theory-digests/` | 把讲者观点写成项目决策 |
-| “这个结论确认了，写进正式文档” | `Draft Change` | `game-design-workflow/draft-changes/`，确认后核心文档 | 未经确认直接改 `core-concept.md` |
+| “这个结论确认了，写进正式文档” | `Draft Change` | `目标项目AGENTS指定的Draft Change位置`，确认后核心文档 | 未经确认直接改 `core-concept.md` |
 | “实现/修 Bug/代码进度” | `Development Progress` | `docs/code-development-index.md` 与对应代码仓库 | 把类、函数、API、构建或 Bug 写进 GDD |
 | “下一步验证什么/试玩发现了什么” | `Prototype Insight` | `research/06-prototype-insights/`、当前问题清单 | 用一次试玩把假设自动标为 Accepted |
 
@@ -150,7 +150,7 @@ MUST：至少记录产品名称、类型/平台、核心循环、相关玩法点
 
 MUST NOT：只写“像/不像”，或因产品成功就直接复制其系统、商业结果或目标玩家。
 
-Procedure：顺手提及则追加 `game-design-workflow/market-reference.md`；需要认真拆解则进入 `research/03-product-case-studies/` 或 `game-analysis-orchestra`；多个产品比较进入 `research/04-cross-game-comparisons/`。
+Procedure：顺手提及则追加 `目标项目sources中的参照记录`；需要认真拆解则进入 `media-analysis-lab/runs/` 或 `game-analysis-orchestra`；多个产品比较进入 `media-analysis-lab/runs/`。
 
 Output：产品案例或比较文档，项目转化保持 `Hypothesis`。
 
