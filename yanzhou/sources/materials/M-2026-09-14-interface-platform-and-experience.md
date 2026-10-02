@@ -1,5 +1,7 @@
 # 首版玩家旅程、交互、保存与功能表现
 
+> TL-1适用范围（2026-10-01，CORE-048）：UX03配置校验、UX05决策保存、UX07信息可达性；UX02菜单边界已按TL-31／36复用到[现行系统](../../design/README.md)。战中改为结清时点恢复，旧4杖／9词、倍速与0.5秒不继承。下文保留原版本形成记录，其中“当前”不覆盖TL-1；具体改写与排除见[复用记录](../../exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)。
+
 状态：Qualified GDD Material／Accepted；G002-CORE-036。版本：首版基准RC1。日期：2026-09-14。证据：Hypothesis／NotRun；参数采用不代表平衡或体验已经验证。
 
 ## 素材控制

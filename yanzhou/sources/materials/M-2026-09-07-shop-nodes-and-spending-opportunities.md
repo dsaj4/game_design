@@ -1,5 +1,7 @@
 # 商店节点与消费机会
 
+> TL-1适用范围（2026-10-01，CORE-048）：可选商店及此前金币机会、店外不知货架已按TL-32／35复用到[现行系统](../../design/README.md)。可负担是待核对目标，旧货架期数与报价不迁入。下文保留原版本形成记录，其中“当前”不覆盖TL-1；具体改写与排除见[复用记录](../../exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)。
+
 状态：Qualified GDD Material。证据：Hypothesis。资格覆盖下列明确表述；具体后置机制与参数保持 Unknown，素材可引用不等于完整系统已采纳或通过验证。
 
 ## 素材控制

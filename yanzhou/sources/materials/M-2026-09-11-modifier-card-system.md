@@ -1,5 +1,7 @@
 # 修饰词卡：形容词、副词与三类适配
 
+> TL-1适用范围（2026-10-01，CORE-048）：直接挂接、实体占用、兼容检查与专属适配已按TL-28复用到[现行系统](../../design/README.md)。旧修饰卡、τ、空间效果及复杂叠加公式另审。下文保留原版本形成记录，其中“当前”不覆盖TL-1；具体改写与排除见[复用记录](../../exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)。
+
 状态：Qualified GDD Material / Accepted（已明确的基础模型，G002-CORE-016）。版本：Modifier v0.1。日期：2026-09-11。证据Hypothesis；具体数值、冰冻效果和镶嵌细则尚未完成，未执行新测试。
 
 ## 素材控制

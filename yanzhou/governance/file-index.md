@@ -2,7 +2,7 @@
 
 自动生成：`python tools/docs.py index`。当前工作树存在的Git跟踪或未忽略文件；不据此授予游戏材料阅读权限。
 
-共 416 份。日常工作从[项目首页](../README.md)开始；历史内容按固定版本解释。
+共 418 份。日常工作从[项目首页](../README.md)开始；历史内容按固定版本解释。
 
 ## design（19）
 
@@ -45,7 +45,7 @@
 - [effects/readiness-review.md](../effects/readiness-review.md)
 - [effects/source-audit.md](../effects/source-audit.md)
 
-## exploration（64）
+## exploration（65）
 
 - [exploration/AGENTS.md](../exploration/AGENTS.md)
 - [exploration/DIR-001-battlefield-compiler/README.md](../exploration/DIR-001-battlefield-compiler/README.md)
@@ -81,6 +81,7 @@
 - [exploration/DIR-028-timeline-depth/P-2026-10-01-timeline-production-system.md](../exploration/DIR-028-timeline-depth/P-2026-10-01-timeline-production-system.md)
 - [exploration/DIR-028-timeline-depth/README.md](../exploration/DIR-028-timeline-depth/README.md)
 - [exploration/DIR-028-timeline-depth/compatibility-audit-2026-10-01.md](../exploration/DIR-028-timeline-depth/compatibility-audit-2026-10-01.md)
+- [exploration/DIR-028-timeline-depth/compatible-rules-reuse.md](../exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)
 - [exploration/DIR-028-timeline-depth/reading-log.md](../exploration/DIR-028-timeline-depth/reading-log.md)
 - [exploration/DIR-029-timeline-card-battle/R-2026-09-24-chain-flip-visual-references.md](../exploration/DIR-029-timeline-card-battle/R-2026-09-24-chain-flip-visual-references.md)
 - [exploration/DIR-029-timeline-card-battle/R-2026-09-24-flipping-games-ui.md](../exploration/DIR-029-timeline-card-battle/R-2026-09-24-flipping-games-ui.md)
@@ -256,7 +257,7 @@
 - [research/03-product-case-studies/2026-09-13-astra-game-development-stack.md](../research/03-product-case-studies/2026-09-13-astra-game-development-stack.md)
 - [research/03-product-case-studies/2026-09-13-godot-blender-workflow-comparison.md](../research/03-product-case-studies/2026-09-13-godot-blender-workflow-comparison.md)
 
-## sources（164）
+## sources（165）
 
 - [sources/README.md](../sources/README.md)
 - [sources/draft-changes/D-2026-09-09-automatic-battle-boundaries.md](../sources/draft-changes/D-2026-09-09-automatic-battle-boundaries.md)
@@ -279,6 +280,7 @@
 - [sources/draft-changes/D-2026-09-12-first-person-grid-battlefield.md](../sources/draft-changes/D-2026-09-12-first-person-grid-battlefield.md)
 - [sources/draft-changes/D-2026-09-12-wand-inlay-system.md](../sources/draft-changes/D-2026-09-12-wand-inlay-system.md)
 - [sources/draft-changes/D-2026-09-30-document-cleanup.md](../sources/draft-changes/D-2026-09-30-document-cleanup.md)
+- [sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md)
 - [sources/draft-changes/D-2026-10-01-timeline-production-core.md](../sources/draft-changes/D-2026-10-01-timeline-production-core.md)
 - [sources/draft-changes/README.md](../sources/draft-changes/README.md)
 - [sources/evaluations/E-2026-09-10-instance-and-conditional-binding.md](../sources/evaluations/E-2026-09-10-instance-and-conditional-binding.md)

@@ -1,5 +1,7 @@
 # 实例绑定与条件绑定
 
+> TL-1适用范围（2026-10-01，CORE-048）：实例／条件绑定、名单不补位、逐项复查已按TL-27复用到[现行系统](../../design/README.md)。己方选取改为生效时；旧冻结全场与空间范围不迁入。下文保留原版本形成记录，其中“当前”不覆盖TL-1；具体改写与排除见[复用记录](../../exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)。
+
 状态：Qualified GDD Material / Accepted：SW02引用模型与SW02-A单次名单。证据：Hypothesis；排序及交互框架按R01–R32执行。
 
 ## 素材控制

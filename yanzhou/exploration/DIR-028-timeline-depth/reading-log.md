@@ -240,3 +240,37 @@ Project ID：game-002。2026-10-01。模式FULL＋DIR-028；固定比较提交�
 ## 写入复核补记
 
 最终补充：development/calibration-method与inputs/pre-gdd只订正页首的现行导航标签；time-axis-review/sources与coverage添加原轮次声明并固定旧文件索引链接。effects/catalog原目录的130个旧卡表／参数链接固定到比较提交，新增效果使用独立TL-1应用，不修改旧效果结论。governance/file-index由工具重新生成，现有416份；这些机械修订不增加历史正文语义复审覆盖。
+
+## 第9轮定向复用阅读（2026-10-01）
+
+输入TL-1固定提交：`ed013948f6c5379fc984413ffd08ae8e7ce0f0c9`。继续FULL授权范围，实际只扩读与兼容复用有关的已合格章节。当前设计、术语、问题与来源索引按本轮涉及页复核；不是重新逐页全文阅读全部旧材料。
+
+| 原素材 | 实际阅读覆盖 | 修改前固定blob |
+| --- | --- | --- |
+| [M-2026-09-10-instance-and-conditional-binding](../../sources/materials/M-2026-09-10-instance-and-conditional-binding.md) | 规范化表述及资格状态；非全文 | `fbef0c4c72795fbdab43e54747cf8a85572f4b29` |
+| [M-2026-09-11-modifier-card-system](../../sources/materials/M-2026-09-11-modifier-card-system.md) | 规范化表述及资格状态；非全文 | `8e024c52e7667d68df550cd4754475b6524953f7` |
+| [M-2026-09-06-branching-run-routes](../../sources/materials/M-2026-09-06-branching-run-routes.md) | 规范化表述及资格状态；非全文 | `8b1961fa7a180fae807b36f4af14ef2cf422b2b2` |
+| [M-2026-09-05-rest-recovery-and-word-choice](../../sources/materials/M-2026-09-05-rest-recovery-and-word-choice.md) | 规范化表述及资格状态；非全文 | `c30c16f7f73f5483c277d03b9e00fc9fe66848c1` |
+| [M-2026-09-07-shop-shelves-and-transactions](../../sources/materials/M-2026-09-07-shop-shelves-and-transactions.md) | 规范化表述及资格状态；非全文 | `80efe0efb19e8941f5b3b8c5e97416524c3af8a5` |
+| [M-2026-09-07-merchandise-eligibility](../../sources/materials/M-2026-09-07-merchandise-eligibility.md) | 规范化表述及资格状态；非全文 | `c2bb8eddabc151544fdf8c3ea6f8c319458cf245` |
+| [M-2026-09-05-post-victory-health-persistence](../../sources/materials/M-2026-09-05-post-victory-health-persistence.md) | 规范化表述及资格状态；非全文 | `3dd6c972acf0e6e8b2850afb0e769d655cd4b3b2` |
+| [M-2026-09-06-prebattle-expressibility](../../sources/materials/M-2026-09-06-prebattle-expressibility.md) | 规范化表述及资格状态；非全文 | `0f0eb07cd500a075e068e668ac6532f0e924b029` |
+| [M-2026-09-06-armor-identity-generation-and-persistence](../../sources/materials/M-2026-09-06-armor-identity-generation-and-persistence.md) | 规范化表述及资格状态；非全文 | `fe5eb477a9c24ab1f7c27da6ccac1741613aefd9` |
+| [M-2026-09-06-defeated-enemy-target-and-state-lifecycle](../../sources/materials/M-2026-09-06-defeated-enemy-target-and-state-lifecycle.md) | 规范化表述及资格状态；非全文 | `9e2c5a6cd050a8b778fa1293643b6c1939ce942d` |
+| [M-2026-09-06-spell-effect-sources-and-modifiers](../../sources/materials/M-2026-09-06-spell-effect-sources-and-modifiers.md) | 规范化表述及资格状态；非全文 | `d8fff7aefd9fc1010bc95da561cf939f7f038bfc` |
+| [M-2026-09-10-accepted-design-interfaces](../../sources/materials/M-2026-09-10-accepted-design-interfaces.md) | 规范化表述及资格状态；非全文 | `3a4505c935e44103e06f342f1ad4c7e8eecf9477` |
+| [M-2026-09-07-new-run-starting-resources](../../sources/materials/M-2026-09-07-new-run-starting-resources.md) | 规范化表述及资格状态；非全文 | `54f126218e595d1bc334d41e0738a6a7fad4c5ed` |
+| [M-2026-09-07-shop-nodes-and-spending-opportunities](../../sources/materials/M-2026-09-07-shop-nodes-and-spending-opportunities.md) | 规范化表述及资格状态；非全文 | `92ab1e43f693e2b5249ced3eb46b67f5723fc8cf` |
+| [M-2026-09-10-numerical-redesign-constraints](../../sources/materials/M-2026-09-10-numerical-redesign-constraints.md) | 规范化表述及资格状态；非全文 | `09077c89c01904e8100388e3f529c442f3c37e34` |
+| [M-2026-09-10-semantic-world-executable-rules](../../sources/materials/M-2026-09-10-semantic-world-executable-rules.md) | 规范化表述及资格状态；非全文 | `ccd0becbb84925559fefe9cf3d45aa689c3ceb14` |
+| [M-2026-09-11-global-rule-boundaries](../../sources/materials/M-2026-09-11-global-rule-boundaries.md) | 规范化表述及资格状态；非全文 | `dd85a8f761b49924e3f47660bcf6970009e9f4a1` |
+| [M-2026-09-14-run-route-encounters-and-fatigue](../../sources/materials/M-2026-09-14-run-route-encounters-and-fatigue.md) | RG04、RG05及资格状态；非全文 | `9beb9f9e845752f236a17f6791945f85509390c3` |
+| [M-2026-09-14-interface-platform-and-experience](../../sources/materials/M-2026-09-14-interface-platform-and-experience.md) | UX05、UX03、UX07及资格状态；非全文 | `1e6642179ebce122b773fcb533f6fb7b6c3cd759` |
+| [M-2026-09-06-normal-combat-word-rewards](../../sources/materials/M-2026-09-06-normal-combat-word-rewards.md) | 规范化表述及资格状态；非全文 | `649277cb4eeedd7da696481f1a6849ba37be420c` |
+| [M-2026-09-05-grammar-and-semantic-compatibility](../../sources/materials/M-2026-09-05-grammar-and-semantic-compatibility.md) | 规范化表述及资格状态；非全文 | `3af81a51165ff6b696984e10a5418f423e96d07b` |
+| [M-2026-09-05-word-inventory-and-copies](../../sources/materials/M-2026-09-05-word-inventory-and-copies.md) | 规范化表述及资格状态；非全文 | `2ce60857aa66c0a55608d578f5d6ee89b136798f` |
+| [M-2026-09-06-compositional-spells-and-word-meaning](../../sources/materials/M-2026-09-06-compositional-spells-and-word-meaning.md) | 规范化表述及资格状态；非全文 | `70b1ad367907cc6ab5a2df8aa7a184ef9786e41e` |
+
+另读取固定RC1提交`d6e54af395518401fb4d8466b2302a1271da557a`的SYS-007相关UX03–05段（含145–184行的显示／保存语境）；UX素材的UX01／02在分段输出中可见，UX03／05／07另行定向完整提取。过长输出中其他仅零散出现的段落不计全文覆盖。RG04的旧遭遇仅核对，不迁入。
+
+21份来源直接按[复用记录](compatible-rules-reuse.md)限定使用；数值重设计和RG04／05两份只作边界对照。来源文件新增当前适用说明但保留历史正文。本轮不读其他方向、archive/history正文、外部代码、网络或二进制，不运行玩法实验。

@@ -11,6 +11,12 @@ Project ID：game-002。2026-10-01。文档角色：Navigation。具体规则只
 | TL-16 敌方程序与遭遇 | [SYS-005](../design/systems/05-route-encounters.md) |
 | TL-25 跨战资源 | [SYS-006](../design/systems/06-rewards-growth.md) |
 | TL-17–19 暂停、干涉接口与恢复 | [SYS-007](../design/systems/07-interaction-save.md) |
+| TL-26–28 实体词义、绑定名单与修饰挂接 | [SYS-001](../design/systems/01-grammar.md) |
+| TL-29／30 对象护甲与分阶段支付 | [SYS-003](../design/systems/03-combat.md) |
+| TL-31／36 配置可表达性、提交保存与可达性 | [SYS-007](../design/systems/07-interaction-save.md) |
+| TL-32 单向路线与信息边界 | [SYS-005](../design/systems/05-route-encounters.md) |
+| TL-33–35 本局库存、收益、休整与商店 | [SYS-006](../design/systems/06-rewards-growth.md) |
+| TL-37 数量、来源与有限事件合同 | [SYS-004](../design/systems/04-elements-environment.md) |
 
 [参数](../design/parameters.md) · [内容](../design/content/cards.md) · [验收](../design/validation.md) · [当前未知](questions.md)
 

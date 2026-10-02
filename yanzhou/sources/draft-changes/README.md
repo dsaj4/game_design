@@ -36,3 +36,5 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 - [言咒项目目录迁移](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/sources/draft-changes/D-2026-09-23-yanzhou-project-layout.md)：G002-DOC-006，Documentation / Accepted。
 
 - [D-2026-10-01-timeline-production-core](D-2026-10-01-timeline-production-core.md)：CORE-037–047，核心及INT-01–13范围Accepted；新发行卡表和参数未整包采纳。
+
+- [D-2026-10-01-compatible-rules-reuse](D-2026-10-01-compatible-rules-reuse.md)：CORE-048，TL-26–37兼容条款合并；具体新卡表／数值仍未整包采纳。

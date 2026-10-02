@@ -1,5 +1,7 @@
 # 战前库存的可表达性
 
+> TL-1适用范围（2026-10-01，CORE-048）：用真实库存与规则审可表达性已按TL-31复用到[现行系统](../../design/README.md)。加入新资源初态和供给链，不凭旧配置证明可达。下文保留原版本形成记录，其中“当前”不覆盖TL-1；具体改写与排除见[复用记录](../../exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)。
+
 状态：Qualified GDD Material。证据：Hypothesis。资格覆盖下列明确表述；具体后置机制与参数保持 Unknown，素材可引用不等于完整系统已采纳或通过验证。
 
 ## 素材控制

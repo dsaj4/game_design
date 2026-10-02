@@ -1,5 +1,7 @@
 # 语义世界的对象交互与执行规则
 
+> TL-1适用范围（2026-10-01，CORE-048）：对象能力、去重配对、条件非事件与可解释结果已按TL-26／27／29／37复用到[现行系统](../../design/README.md)。材料生产、卡牌行及战中控制以新确认优先。下文保留原版本形成记录，其中“当前”不覆盖TL-1；具体改写与排除见[复用记录](../../exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)。
+
 状态：Qualified GDD Material / Accepted；当前适用范围按G002-CORE-011收束。日期：2026-09-10。证据Hypothesis。
 
 ## 素材控制

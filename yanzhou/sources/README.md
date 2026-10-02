@@ -23,3 +23,5 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 ## TL-1 本轮来源链
 
 [DIR-028核心M](../exploration/DIR-028-timeline-depth/M-2026-10-01-timeline-production-core.md)／[新卡表M](../exploration/DIR-028-timeline-depth/M-2026-10-01-resource-card-pool.md)／[P](../exploration/DIR-028-timeline-depth/P-2026-10-01-timeline-production-system.md)／[E](../exploration/DIR-028-timeline-depth/E-2026-10-01-timeline-production-system.md)／[采纳D](draft-changes/D-2026-10-01-timeline-production-core.md)。方向内正式文件保持原位置，本索引不复制正文。
+
+第9轮[兼容复用表](../exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)限定21份原Qualified来源的当前使用部分，既有P/E追加本轮论证；[D兼容复用](draft-changes/D-2026-10-01-compatible-rules-reuse.md)记录CORE-048。原文与历史资格保留，现行表述以TL-26–37为准。

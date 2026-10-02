@@ -21,3 +21,5 @@ Project ID：game-002。文档角色：Navigation。更新：2026-10-01。当前
 | [素材审查](source-review.md) | 纳入、替代、重设计与原始来源边界 |
 
 旧RC1数字、空间规则与验收用例不再从本目录的“当前”身份继承；需要追溯时读固定旧提交。
+
+兼容材料已按[CORE-048](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md)补入TL-26–37（文档修订reuse.1）：构句／对象／支付、单向路线、库存与节点选择、保存及数量合同。使用旧材料时先核对[逐来源适用表](../exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)，不从历史正文补入未定新参数。
