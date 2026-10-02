@@ -7,6 +7,7 @@
 | WS-003 | 2026-09-05 | Accepted | 从共享 Wiki 和规则库移除旧游戏专属内容，保留清理前快照和通用来源 | 用户明确要求 |
 | WS-004 | 2026-09-09 | Accepted / Workspace Administration | 按 ADR-0002 建立探索区最小骨架、game-002-optimization 与 new-roguelike 注册表、game-002 背景包生成规则 | 用户：“确认，开始创建最小目录骨架，并先建立两个项目的注册表与 game-002 context pack 生成规则” |
 | WS-005 | 2026-10-01 | Accepted / Workspace Administration | 平级new-roguelike项目；根exploration退役；公共拆解资料集中media-analysis-lab；重建技能迭代入口并收尾旧缺失路径，见[清理记录](maintenance/2026-10-01-workspace-cleanup.md) | 用户本轮明确要求 |
+| WS-006 | 2026-10-01 | Accepted / Workspace Administration | 建立[DA-1 Demo与素材规范](demo-asset-standard.md)、[统一目录](registry/demo-assets.md)和登记模板；原件就地保管，按稳定ID/固定版本追踪主系统、方向及公共参考的复用；不重建退役资产树，不自动采纳或执行 | 用户：“帮我新建一个demo和素材规范，旨在统一管理各个探索方向和正式系统的demo和素材，方便复用参考” |
 
 这是管理决定，不是玩法采纳，不构成新游戏的设计素材。
 迁移基线：d8d11f524a4db6aef1435a37babb8b906cc61170。

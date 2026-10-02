@@ -16,6 +16,8 @@
 
 根exploration与assets已退役；旧workspaces、optimization兼容树不恢复。根目录只导航，不复制项目规则。来源链接不扩大阅读授权。
 
+Demo和制作/参考素材由[统一目录](registry/demo-assets.md)跨项目索引，[DA-1](demo-asset-standard.md)规定归属、版本和复用记录。原文件仍在所属项目或外部实现位置，登记不改变项目权限。
+
 言咒方向按[READ-1](../yanzhou/exploration/start.md)，肉鸽按[READ-NR-1](../new-roguelike/exploration/start.md)选择材料。代码/API/构建留外部代码仓库，媒体分析不是新游戏的默认背景。
 
 [本次整理与取证](maintenance/2026-10-01-workspace-cleanup.md)

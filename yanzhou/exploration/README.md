@@ -6,6 +6,8 @@ Project ID：`game-002-optimization`。目录修订：layout.2 / 2026-09-24。�
 
 [启动探索：选择阅读材料](start.md) · [核心设计](../design/core-design.md) · [方向对比与主系统吸收](comparison.md) · [整理前档案](../history/exploration-2026-09-24/README.md) · [主系统入口](../design/README.md)
 
+方向Demo和制作/参考素材按[DA-1](../../docs/demo-asset-standard.md)在[统一目录](../../docs/registry/demo-assets.md)登记，原件与复用记录留所属方向或实现位置。查看其他方向资源仍须纳入本轮允许材料；不因目录可见自动扩读。
+
 ## 目录怎么用
 
 ```text

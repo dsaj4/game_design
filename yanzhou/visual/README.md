@@ -9,3 +9,5 @@ Project ID：game-002。2026-10-01。当前TL-1使用卡牌主战场；具体页
 - [实现与资产](../development/README.md)：各版本单独列证据。
 
 旧视觉包与提示词按原输入保留，不以新规则原地刷新。未跟踪资产保持原工作区状态，本轮不提交或重新发布它们。
+
+复用时遵循[Demo与素材规范](../../docs/demo-asset-standard.md)并查[统一目录](../../docs/registry/demo-assets.md)。旧05包登记为[AS-G002-001](../../docs/registry/demo-assets.md#as-g002-001)，DIR-029 v9概念图为[AS-G002-002](../../docs/registry/demo-assets.md#as-g002-002)；视觉选择、原件版本和适用设计各自保留。新增素材优先在现有包说明中记录来源、规格与使用者，不复制一套资产库。

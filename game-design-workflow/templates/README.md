@@ -9,4 +9,8 @@
 - [评估](evaluation-template.md)
 - [拟修改](draft-change-template.md)
 
+管理类模板（不参与玩法资格晋级）：
+
+- [Demo与素材登记](demo-asset-record-template.md)：可嵌入现有README；遵循[DA-1](../../docs/demo-asset-standard.md)。
+
 未列入此索引的本地草稿不属于共享模板，不得把已填入项目设定的草稿套用到新项目。

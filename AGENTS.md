@@ -26,6 +26,7 @@
 
 - 新用户先简述这是游戏构思系统，提供一个与其意图匹配的入口，不倾倒整个目录树。
 - 文件按实际日期和既有ID命名；不复用DIR/M/P/E/D/FX编号。Markdown链接按真实文件位置解析。
+- 新建或复用Demo、图片/模型/音频等资源时按[Demo与素材规范](docs/demo-asset-standard.md)登记到[统一目录](docs/registry/demo-assets.md)，保留固定版本、归属、使用关系和复用条件。原件就地保管，普通探索仍受材料范围限制；AS资源登记不替代M素材资格，登记不自动运行、发布或采纳。
 - 启用[玩法机制设计器](.codex/skills/gameplay-mechanism-designer/SKILL.md)时先读其项目适配层；方法图谱与游戏材料分开，Full Design不越过资格，Prototype Pack不自动执行。一般管理任务不要求调用。
 - 共享规则的Inherited继续按上游生效，Proposed仍为候选；项目决定写项目内，通用知识不混入项目参数和采纳结果。
 - 修改前检查`git status --short --branch`和当前分支；不得在main/master修改保护文档，必要时自动建任务分支。

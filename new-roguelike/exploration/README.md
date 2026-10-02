@@ -4,4 +4,6 @@
 
 先读[启动与阅读范围](start.md)和[操作规则](AGENTS.md)。已有方向在此登记编号、标题、状态和入口；需要比较多个方向时再建立comparison.md，不提前生成空表。
 
+方向产出的Demo和制作/参考素材按[DA-1](../../docs/demo-asset-standard.md)登记到[统一目录](../../docs/registry/demo-assets.md)，使用NR编号，原件按需留方向或实现位置。复用其他项目资源须明确选定版本与材料范围，不继承其玩法结论。
+
 [返回项目](../README.md)

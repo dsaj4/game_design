@@ -17,6 +17,8 @@
 
 对言咒或肉鸽的设计转化留目标项目sources或方向README，并引用这里的报告版本；不把项目资格、参数或采纳决定迁到公共拆解区。已退出工作树的研究案例只在[历史案例索引](references/historical-cases.md)登记固定Git位置，不恢复旧research兼容树。
 
+需要跨任务复用的资料包按[Demo与素材规范](../docs/demo-asset-standard.md)登记到[统一目录](../docs/registry/demo-assets.md)。写法参考包已登记[AS-SH-001](../docs/registry/demo-assets.md#as-sh-001)，原件仍在本区；SH仅表示公共参考身份，不表示无条件复制或转载许可。
+
 ## 原型工具
 
 现有工具与格式保留，架构见[architecture](architecture.md)，验收见[acceptance](acceptance.md)。拆解原型不自动联网、下载、运行ASR或改写游戏核心。

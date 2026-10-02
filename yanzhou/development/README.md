@@ -4,10 +4,18 @@
 
 文档角色：ImplementationIndex。更新：2026-09-30。主系统条目保留原交付结论；DIR-029本轮新增独立动效演示，验证范围见下文。
 
+## Demo与素材登记（DA-1 / 2026-10-01）
+
+按[统一规范](../../docs/demo-asset-standard.md)管理；[全项目目录](../../docs/registry/demo-assets.md)负责发现入口，本页继续维护实现范围和原证据。本次仅登记，未运行或升级旧Demo。
+
+- [DM-G002-001 暗面Demo](../../docs/registry/demo-assets.md#dm-g002-001)：视觉参照[AS-G002-001](../../docs/registry/demo-assets.md#as-g002-001)；完整代码版本和复用条件待补，旧RC1身份保留。
+- [DM-G002-002 DIR-029翻牌演示](../../docs/registry/demo-assets.md#dm-g002-002)：以[AS-G002-002 v9](../../docs/registry/demo-assets.md#as-g002-002)为视觉参照，使用文字/装饰占位，并非导入该PNG；源码/预览指纹见目录。
+- [AS-G002-003 Godot/Blender实验集合](../../docs/registry/demo-assets.md#as-g002-003)：2026-10-01核对原README入口缺失，下面保留历史登记地址；新位置与固定版本待补，不标为可运行。
+
 | 项目 | 记录中的版本与用途 | 完成边界／入口 |
 | --- | --- | --- |
 | 暗面Demo | v0.1；codex/dark-demo；cf7b98d | [README](E:/Project/yanzhou-dark-demo/README.md)；05视觉下的独立可玩流程，完整RC1验收未完成 |
-| Godot／Blender资产实验 | 独立美术及技术实验，按各报告版本 | [资产仓库入口](E:/Project/game-002-godogen-lab/README.md)；模型、渲染、Godot小样不能合并成完整游戏进度 |
+| Godot／Blender资产实验 | 独立美术及技术实验，按各报告版本；AS-G002-003 | 原入口`E:/Project/game-002-godogen-lab/README.md`于2026-10-01本机检查缺失，新位置待补；模型、渲染、Godot小样不能合并成完整游戏进度 |
 | 其他历史Demo与迭代 | 原版本分别保留 | 见历史开发记录，不按最近修改日期自动替代 |
 | DIR-029时间轴翻牌 | v0.1；2026-09-30；局部动效原型 | [实现说明及验证入口](C:/Users/Administrator/.codex/visualizations/2026/09/24/01a0d1f2-4d90-7db2-8527-684c3085e2ee/timeline-flip-demo-notes.txt)；四刻翻牌、固定棋子、牌列左移，不含战斗结算 |
 
