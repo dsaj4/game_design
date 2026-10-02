@@ -30,6 +30,15 @@
 - 来源／复用：本任务原创HTML、CSS图形、脚本及截图，无第三方美术；官方参考只使用链接和方法归纳。允许本项目继续改作，公开分发许可未另定；本地Git保存，无远端发布。
 - 关系：uses: None；derived-from: None。概念／参数参照DM-G002-004@afc6e4e0454bb3e306a49899022c340faabb5941，未导入其运行代码或存档；既有可玩Demo文件未改变。
 
+### <a id="dm-g002-006"></a>DM-G002-006 卡牌与法杖设计卡册（2026-10-02新增）
+
+- 归属：game-002-optimization / DIR-032；[方向与来源边界](../../yanzhou/exploration/DIR-032-playable-mechanism-loop/README.md)、[开发索引](../../yanzhou/development/README.md)。
+- 类型／用途：独立可编辑HTML卡册；46条基准内容涵盖卡牌、通用法杖、词条／状态与基础规则，支持形象、效果、属性编辑、基准对照和候选草稿备份。
+- 固定版本：ATLAS-01；外部Git 24f191946f9acd3413aae26dce0d67fed73c0574，文件范围atlas/；[单文件入口](E:/Project/yanzhou-tl1-demo/atlas/index.html)、[操作与检查](E:/Project/yanzhou-tl1-demo/atlas/README.md)。本机预览http://127.0.0.1:8767/为当前入口。
+- ReadyForScope / PresentLocal（设计工具）；2026-10-02通过6项数据检查、实际浏览器保存刷新／对照／复制／导入拒绝与恢复／撤销／词条跳转，两张截图已查看。真人可读性、窄屏与跨浏览器未验；HTML下载完成事件超时，未核验导出文件落盘；JSON可见文本备份与导入已验证。
+- 来源／关系：本方向P、EL-01及用户直接制作授权；DM-G002-004@afc6e4e0454bb3e306a49899022c340faabb5941与DM-G002-005@22950acae3bbe805432a7bd4449364c9c33bc016仅作概念／参数／表达参照。uses: None；derived-from: None；未导入引擎、存档或资源文件。
+- 复用／边界：原创HTML、CSS、SVG、脚本和截图，无第三方美术；可在本项目改作，公开分发许可未另定。本地Git保存，无远端发布。草稿保持候选，不自动改写战斗或主系统；既有Demo与EL-01未变。
+
 以下为原DM-G002-001–003登记记录，保留各自日期、来源与未验范围。
 
 DM-G002-001的打开、安装与操作按外部README核查；原登记轮未审查代码许可、完整依赖或构建，不声称已具备复制改作条件。设计源为旧RC1及旧视觉，原实现缺口、局部检查和失败记录仍以开发索引为准。
