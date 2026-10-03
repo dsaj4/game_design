@@ -10,6 +10,7 @@
 | WS-006 | 2026-10-01 | Accepted / Workspace Administration | 建立[DA-1 Demo与素材规范](demo-asset-standard.md)、[统一目录](registry/demo-assets.md)和登记模板；原件就地保管，按稳定ID/固定版本追踪主系统、方向及公共参考的复用；不重建退役资产树，不自动采纳或执行 | 用户：“帮我新建一个demo和素材规范，旨在统一管理各个探索方向和正式系统的demo和素材，方便复用参考” |
 
 这是管理决定，不是玩法采纳，不构成新游戏的设计素材。
+
 迁移基线：d8d11f524a4db6aef1435a37babb8b906cc61170。
 [迁移清单](../archive/2026-09-05-core-card-project/migration-manifest.json)记录原路径与归档路径。
 旧项目未决冲突、人工测试和交付阻塞保留在旧项目，不转移为新项目待办。
@@ -31,3 +32,7 @@
 - 框架 v0.1 仅登记为 Proposed / Candidate；没有把框架目标采纳为游戏目标。
 - 旧实验保持冻结原位，没有迁移、清理或新代码运行；模拟/原型共享能力仅建立契约入口。
 - 建区核验：两个项目目录齐全，10 个配置来源在固定提交中均为普通文件，139 个文档链接可解析；框架原文 SHA-256 与登记一致，game-002、旧实验及已安装技能内容未改动。没有生成背景包或运行玩法测试。
+
+## WS-007 / 2026-10-02 / Accepted · Workspace Administration
+
+按用户本轮明确请求，直接沿用全局 skill-registry-control，建立[SK-1](skill-management.md)、[项目安装清单](registry/project-skills.md)与[AGC-1 多智能体协作](../yanzhou/governance/agent-collaboration.md)。经[来源及边界审查](skills/2026-10-02-game-design-skill-review.md)安装 game-design-reality-check 和 gdd-toolkit 的项目适配版，保留原有两项技能。此决定不启动后台协作，不采纳玩法，不引入上游 CLI/hooks 或第二套文档库。

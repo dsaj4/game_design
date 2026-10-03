@@ -17,3 +17,5 @@
 工具：[游戏拆解与媒体分析](media-analysis-lab/README.md) · [技能迭代入口](skill-iteration-workspace/README.md) · [玩法机制设计器用法](docs/skills/gameplay-mechanism-designer.md)。Agent先读[操作手册](AGENTS.md)，按任务范围读取材料，不默认扫描全部来源与历史。
 
 复用参考：[Demo与素材目录](docs/registry/demo-assets.md) · [登记与复用规范](docs/demo-asset-standard.md)。文件保留原位，按项目/方向、版本和用途关联。
+
+协作工具：[Skill管理规范](docs/skill-management.md) · [项目Skill清单](docs/registry/project-skills.md) · [言咒多智能体分工](yanzhou/governance/agent-collaboration.md)。

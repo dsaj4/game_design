@@ -24,6 +24,8 @@
 
 ## 日常操作与交付
 
+- Skill安装、更新、移除与盘点直接使用全局skill-registry-control，遵守[SK-1](docs/skill-management.md)并更新[项目清单](docs/registry/project-skills.md)。多智能体按[AGC-1](yanzhou/governance/agent-collaboration.md)分配材料白名单和文件所有权；方法不扩大资格、采纳或实验授权。
+
 - 新用户先简述这是游戏构思系统，提供一个与其意图匹配的入口，不倾倒整个目录树。
 - 文件按实际日期和既有ID命名；不复用DIR/M/P/E/D/FX编号。Markdown链接按真实文件位置解析。
 - 新建或复用Demo、图片/模型/音频等资源时按[Demo与素材规范](docs/demo-asset-standard.md)登记到[统一目录](docs/registry/demo-assets.md)，保留固定版本、归属、使用关系和复用条件。原件就地保管，普通探索仍受材料范围限制；AS资源登记不替代M素材资格，登记不自动运行、发布或采纳。

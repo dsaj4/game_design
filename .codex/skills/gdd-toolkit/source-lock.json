@@ -1,0 +1,74 @@
+{
+  "repository": "https://github.com/mamoru-miyagawa/gdd_toolkit",
+  "commit": "33f2d88677da8f9ab6ac2659c8ed72a951dbbff0",
+  "subdirectory": "gdd-toolkit",
+  "installed_at": "2026-10-02",
+  "scope": "project-runtime-conditional",
+  "integration_revision": "game-project-1",
+  "upstream_files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "905e29a42f06d27b47167da4ec1cd93546a389aff625dec8b95838868f9a438f"
+    },
+    {
+      "path": "assets/obsidian-vault-layout.md",
+      "sha256": "1d50d4b1efe7a77492053f2767d594a52c2a46baf23eaa4ae7348087befc1efb"
+    },
+    {
+      "path": "references/domains/TEMPLATE.md",
+      "sha256": "673c266d8809789f0732f2e00d8281651c4851c41b4c53407bd0248b24d417c8"
+    },
+    {
+      "path": "references/failure-modes.md",
+      "sha256": "f95de6fffdf2d5ee12ac9d8cb4682f0f86d08b3aa60a4c8bc32f8e3a811a6b56"
+    },
+    {
+      "path": "references/flowcharts.md",
+      "sha256": "95865d0a133c7556b84f562e6de04fe681a447ae7c88dc422e236d284ce40f9e"
+    },
+    {
+      "path": "references/pillars-reference.md",
+      "sha256": "297f1c1ec5580abf58d995c53d157fc679f808ab1c4ad4eb88e7a773cd68a30f"
+    },
+    {
+      "path": "references/templates/GDD-skeleton.md",
+      "sha256": "9071f82fd918437d573e2ff6492491e6a024371c9dcd322949db50621155fa0b"
+    },
+    {
+      "path": "references/templates/balance-table.md",
+      "sha256": "ada14bb7131a691f3e38c4c2a71277c6cce37108624e86c210b9189ac18d2e5f"
+    },
+    {
+      "path": "references/templates/core-loop-canvas.md",
+      "sha256": "af4838ad5fb6e5e1cfcea29720ecfd5de22817915d880ca053f2ffe2fa33da68"
+    },
+    {
+      "path": "references/templates/mda-reference.md",
+      "sha256": "bbb75b033e886b1318c110f7eb326524188ea0d68c503be50d0e69ea2f1b42a3"
+    },
+    {
+      "path": "references/templates/project-context.md",
+      "sha256": "6352d4acfa07b9f0db51256d15cb2af4c689135e351b3fc89f3384f57d703ff7"
+    },
+    {
+      "path": "references/templates/system-design.md",
+      "sha256": "a59126e909c70aee2eef45914f69340454117b1d8034bfe31827fed396bdc911"
+    },
+    {
+      "path": "LICENSE",
+      "upstream_path": "LICENSE",
+      "sha256": "d417b0857c46bc12aa878066b5fb15aa119a5a8343d79acf820ec1bb2ee962c9"
+    }
+  ],
+  "locally_modified": [
+    "SKILL.md"
+  ],
+  "locally_added": [
+    "references/project-integration.md",
+    "source-lock.json",
+    "agents/openai.yaml"
+  ],
+  "excluded_repository_components": [
+    "Root installers, hooks, agent configs and gdd.py are not installed or executed."
+  ]
+}

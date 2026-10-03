@@ -1,0 +1,48 @@
+{
+  "repository": "https://github.com/qiuaoru-coder/game-design-agent-skills",
+  "commit": "29e8c759ca26c6bd4f337744b647dc728bf322b6",
+  "subdirectory": "game-design-reality-check",
+  "installed_at": "2026-10-02",
+  "scope": "project-runtime-conditional",
+  "integration_revision": "game-project-1",
+  "upstream_files": [
+    {
+      "path": "README.md",
+      "sha256": "472ee373dfa12e6460280027bf5e0af071b159a7b45424d30576c24efa7e7dca"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "81ec3dc5ddaebefb872a357a4406f9149c19cd1ae843e05a514ac33ce9a18505"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "b773b2f57f647ad995228792352d9ed63aba67d99117574348fffedf82116117"
+    },
+    {
+      "path": "references/gmt-framework.md",
+      "sha256": "7ccd902a36cc968c2ff199b101a171b022d1962b81153ce76d2a2f1e933585f2"
+    },
+    {
+      "path": "references/reality-check-framework.md",
+      "sha256": "f71ba8a7b16a0d8a04f89b03bb97e55826000f28edeb4c26a8c567c713ee971a"
+    },
+    {
+      "path": "references/review-output.md",
+      "sha256": "48aeed67518713009d9a55d698fd8fa0d47e47e43f2439ac1c97ea607c9e8403"
+    },
+    {
+      "path": "LICENSE",
+      "upstream_path": "LICENSE",
+      "sha256": "c78dfe0f170f9c11e0865c3ebdda760c7536127f82efd8f5242c7f38e1c9f30f"
+    }
+  ],
+  "locally_modified": [
+    "SKILL.md",
+    "agents/openai.yaml"
+  ],
+  "locally_added": [
+    "references/project-integration.md",
+    "source-lock.json"
+  ],
+  "excluded_repository_components": []
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "游戏策划现实校验器"
+  short_description: "审查玩法假设、反例与证据边界，并给出最低成本的验证方案"
+  default_prompt: "使用 $game-design-reality-check，在本轮允许材料内检查指定方案的假设、反例与证据边界，给最小验证计划；沿原资格保存，不自动运行测试或采纳。"

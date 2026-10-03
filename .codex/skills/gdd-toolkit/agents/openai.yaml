@@ -1,0 +1,4 @@
+interface:
+  display_name: "GDD一致性与系统交叉审查"
+  short_description: "检查目标、系统接口与体验假设，沿现有文档流程记录冲突及缺口"
+  default_prompt: "使用 $gdd-toolkit，在指定材料范围内审查系统接口与GDD一致性，记录来源、冲突和Unknown，沿现有路径保存，不创建第二套文档或自动改规则。"
