@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DIR-034 炼金回路展示册 · 言咒</title>
+<style>
+:root {
+  color-scheme: light;
+  --bg: #f7f5f0;
+  --surface: #ffffff;
+  --surface-raised: #fdf9f3;
+  --border: #d9d3c8;
+  --border-light: #ede8df;
+  --text: #1a1714;
+  --text-muted: #6b6560;
+  --text-faint: #9b9590;
+  --accent: oklch(52% 0.18 45deg);
+  --accent-light: oklch(92% 0.06 45deg);
+  --accent-dark: oklch(38% 0.18 45deg);
+  --tag-fire: oklch(60% 0.18 30deg);
+  --tag-frost: oklch(58% 0.14 220deg);
+  --tag-lumi: oklch(62% 0.16 60deg);
+  --tag-spirit: oklch(55% 0.12 280deg);
+  --tag-action: oklch(52% 0.14 160deg);
+  --tag-bg-fire: oklch(96% 0.04 30deg);
+  --tag-bg-frost: oklch(96% 0.04 220deg);
+  --tag-bg-lumi: oklch(97% 0.04 60deg);
+  --tag-bg-spirit: oklch(96% 0.04 280deg);
+  --tag-bg-action: oklch(96% 0.04 160deg);
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 15px; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'PingFang SC', 'Microsoft YaHei', system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Layout */
+.app { max-width: 980px; margin: 0 auto; padding: 24px 20px 64px; }
+
+header { margin-bottom: 32px; }
+header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.01em; }
+header p { color: var(--text-muted); font-size: 0.875rem; margin-top: 4px; }
+.badge { display: inline-block; padding: 1px 8px; border-radius: 100px; font-size: 0.75rem; font-weight: 600; background: var(--accent-light); color: var(--accent-dark); margin-left: 8px; vertical-align: middle; }
+
+.section-title { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); margin: 32px 0 12px; }
+
+/* Tabs */
+.tabs { display: flex; gap: 0; border-bottom: 1px solid var(--border); margin-bottom: 24px; }
+.tab { padding: 10px 18px; cursor: pointer; font-size: 0.875rem; color: var(--text-muted); border-bottom: 2px solid transparent; margin-bottom: -1px; transition: color 120ms ease, border-color 120ms ease; user-select: none; }
+.tab:hover { color: var(--text); }
+.tab.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+
+.panel { display: none; }
+.panel.active { display: block; }
+
+/* Circuit board */
+.circuit { display: flex; align-items: center; gap: 0; flex-wrap: nowrap; overflow-x: auto; padding: 16px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); margin-bottom: 16px; min-height: 96px; }
+
+.node {
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  min-width: 80px; padding: 10px 8px;
+  background: var(--surface-raised); border: 1px solid var(--border); border-radius: var(--radius-md);
+  cursor: pointer; transition: border-color 120ms, box-shadow 120ms;
+  position: relative; flex-shrink: 0;
+}
+.node:hover { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-light); }
+.node.active-node { border-color: var(--accent); background: var(--accent-light); }
+.node.blocked { border-color: #e0a000; background: oklch(97% 0.04 80deg); }
+.node.processing { border-color: var(--tag-action); background: var(--tag-bg-action); }
+
+.node-icon { font-size: 1.4rem; line-height: 1; }
+.node-name { font-size: 0.7rem; font-weight: 600; text-align: center; color: var(--text); white-space: nowrap; }
+.node-state { font-size: 0.65rem; color: var(--text-muted); text-align: center; }
+
+.arrow { flex-shrink: 0; padding: 0 6px; color: var(--border); font-size: 1.1rem; }
+.arrow.active-arrow { color: var(--accent); }
+
+/* Resource tags */
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.tag { display: inline-flex; align-items: center; gap: 4px; padding: 2px 8px; border-radius: 100px; font-size: 0.72rem; font-weight: 600; }
+.tag-fire { background: var(--tag-bg-fire); color: var(--tag-fire); }
+.tag-frost { background: var(--tag-bg-frost); color: var(--tag-frost); }
+.tag-lumi { background: var(--tag-bg-lumi); color: var(--tag-lumi); }
+.tag-spirit { background: var(--tag-bg-spirit); color: var(--tag-spirit); }
+.tag-action { background: var(--tag-bg-action); color: var(--tag-action); }
+
+/* Info cards */
+.info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 600px) { .info-grid { grid-template-columns: 1fr; } }
+
+.info-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 14px 16px; }
+.info-card h3 { font-size: 0.8rem; font-weight: 700; color: var(--text-muted); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.04em; }
+.info-card p { font-size: 0.875rem; line-height: 1.5; }
+
+/* Comparison table */
+.comp-table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+.comp-table th { text-align: left; padding: 10px 12px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-muted); border-bottom: 1px solid var(--border); background: var(--surface); }
+.comp-table td { padding: 10px 12px; border-bottom: 1px solid var(--border-light); vertical-align: top; }
+.comp-table tr:last-child td { border-bottom: none; }
+.comp-table tr:hover td { background: var(--surface-raised); }
+.comp-table .dim { color: var(--text-muted); font-size: 0.8rem; }
+.rec { background: var(--accent-light); }
+
+/* Node detail panel */
+.detail-panel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 20px; margin-top: 16px; }
+.detail-panel h2 { font-size: 1rem; font-weight: 700; margin-bottom: 12px; }
+.detail-row { display: flex; gap: 8px; font-size: 0.875rem; padding: 6px 0; border-bottom: 1px solid var(--border-light); }
+.detail-row:last-child { border-bottom: none; }
+.detail-label { color: var(--text-muted); flex-shrink: 0; min-width: 80px; }
+.detail-val { color: var(--text); }
+
+/* Cost row */
+.cost-summary { display: flex; gap: 16px; flex-wrap: wrap; font-size: 0.875rem; padding: 14px 16px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); margin-top: 12px; }
+.cost-item { display: flex; flex-direction: column; gap: 2px; }
+.cost-item span:first-child { font-size: 0.7rem; color: var(--text-muted); font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+.cost-item span:last-child { font-weight: 600; font-variant-numeric: tabular-nums; }
+
+/* Status pills */
+.status { display: inline-flex; align-items: center; gap: 4px; padding: 2px 10px; border-radius: 100px; font-size: 0.72rem; font-weight: 700; }
+.status-raw { background: oklch(95% 0.04 260deg); color: oklch(48% 0.14 260deg); }
+
+/* Recommendation box */
+.rec-box { background: var(--accent-light); border: 1px solid oklch(82% 0.08 45deg); border-radius: var(--radius-lg); padding: 18px 20px; margin: 20px 0; }
+.rec-box h3 { font-size: 0.875rem; font-weight: 700; color: var(--accent-dark); margin-bottom: 6px; }
+.rec-box p { font-size: 0.875rem; line-height: 1.6; }
+
+/* Constraints */
+.constraint-list { display: flex; flex-direction: column; gap: 6px; }
+.constraint { display: flex; gap: 10px; align-items: flex-start; font-size: 0.875rem; }
+.constraint-icon { flex-shrink: 0; width: 20px; height: 20px; border-radius: 50%; background: var(--border-light); display: flex; align-items: center; justify-content: center; font-size: 0.7rem; margin-top: 1px; }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1>DIR-034 炼金回路展示册 <span class="badge">Raw</span></h1>
+    <p>言咒构句机制重设计第二版 · 2026-10-02 · 仅用于交互展示，不执行完整战斗</p>
+  </header>
+
+  <div class="tabs" id="tabs">
+    <div class="tab active" data-panel="spark">Spark 三候选</div>
+    <div class="tab" data-panel="circuits">回路样本</div>
+    <div class="tab" data-panel="compare">对比与推荐</div>
+    <div class="tab" data-panel="constraints">TL-1 约束</div>
+  </div>
+
+  <!-- Panel 1: Spark -->
+  <div class="panel active" id="panel-spark">
+    <p class="section-title">候选 A — 推荐</p>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>炼金回路（节点连接型）</h3>
+        <p>把资源源、处理节点、催化节点和行动出口连成有向回路。同样材料经不同路径产出不同类型和时机的行动卡。法阵是路径结构，炼金工具是处理单元。</p>
+        <div class="tags" style="margin-top:10px">
+          <span class="tag tag-fire">🔥 热标签</span>
+          <span class="tag tag-frost">❄ 冷标签</span>
+          <span class="tag tag-action">⚡ 行动</span>
+        </div>
+      </div>
+      <div class="info-card">
+        <h3>玩家选择</h3>
+        <p>短回路快速产出 vs 长回路追求协同突破；稀缺催化节点给攻击还是打断；稳定单用途 vs 可分流多用途；是否让两条回路争夺同一材料源。</p>
+      </div>
+      <div class="info-card">
+        <h3>代价</h3>
+        <p>节点槽位有限；同一节点实体不能同时在两条回路；长回路消耗更多时间；分流降低单路径产量；拆解已运行回路损失部分已托管材料。</p>
+      </div>
+      <div class="info-card">
+        <h3>主要未知</h3>
+        <p>连接规则过多后玩家是否专注排查接口而非做策略；最优回路发现后是否长期不变；协同触发不可见时是否像随机奖励。</p>
+      </div>
+    </div>
+
+    <p class="section-title">候选 B</p>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>炼金批次（配比风险型）</h3>
+        <p>每次把资源投入炼金容器，决定投料顺序、配比和是否冒险追加。顺序会改变结果，规则公开。封炉后材料托管，使用"部分揭示"而非纯随机。</p>
+      </div>
+      <div class="info-card">
+        <h3>玩家选择</h3>
+        <p>现在稳定出行动 vs 赌一炉高阶产出；稀缺材料投当前批次 vs 留给关键威胁；何时封炉止损 vs 继续追加；单张强行动 vs 一组彼此触发的小行动。</p>
+      </div>
+      <div class="info-card">
+        <h3>代价</h3>
+        <p>封炉后材料托管无法撤回；催化剂通常一次性消耗；失败批次留下残渣占库存；冒险追加可能错过敌方截止时刻。</p>
+      </div>
+      <div class="info-card">
+        <h3>主要未知</h3>
+        <p>配方过于固定时玩家是否只查表；风险区间过宽时失败是否被理解为运气；每一炉重新操作是否违背轻操作体验。</p>
+      </div>
+    </div>
+
+    <p class="section-title">候选 C</p>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>炼金工坊（模块自动机型）</h3>
+        <p>搭建自行运行的炼金工坊，用有限槽位安装生产、转化和输出模块。工坊持续生产行动卡，玩家通过拆换模块改变整套机器行为。</p>
+      </div>
+      <div class="info-card">
+        <h3>玩家选择</h3>
+        <p>稳定生产模块 vs 条件苛刻但上限突破的模块；单条高产线 vs 分两条等待共鸣；是否安装回收模块；哪个模块要拆掉才能腾出协同位置。</p>
+      </div>
+      <div class="info-card">
+        <h3>代价</h3>
+        <p>复杂工坊维护成本持续增加；模块拆换可能损失当前生产进度；高阶模块可能需要跨战保留资源；生产链过长使行动卡来得太晚。</p>
+      </div>
+      <div class="info-card">
+        <h3>主要未知</h3>
+        <p>玩家是否只在战前搭一次，战中不再思考；模块依赖多时反馈是否变成工程图排错；自动化越强是否变成被动数值增长。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Panel 2: Circuits -->
+  <div class="panel" id="panel-circuits">
+    <p class="section-title">样本回路 1：快速火矢（单节点攻击）</p>
+    <div class="circuit" id="circuit-1">
+      <div class="node" data-id="spirit-src" onclick="selectNode(this,'灵屑源','资源源','type:资源源','input:—','output:灵屑×2 / 拍','tags:spirit','cost:—','state:循环产出')">
+        <div class="node-icon">🌀</div>
+        <div class="node-name">灵屑源</div>
+        <div class="node-state">循环产出</div>
+      </div>
+      <div class="arrow active-arrow">→</div>
+      <div class="node processing" data-id="smelt" onclick="selectNode(this,'熔炼节点','处理节点','type:处理节点','input:灵屑×2','output:火种×1（+热标签）','tags:fire','cost:D=2 / J=1','state:加工中')">
+        <div class="node-icon">🔥</div>
+        <div class="node-name">熔炼节点</div>
+        <div class="node-state">加工中 D=2</div>
+      </div>
+      <div class="arrow active-arrow">→</div>
+      <div class="node" data-id="dmg-out" onclick="selectNode(this,'伤害出口','行动出口','type:行动出口','input:火种×1','output:行动卡：普通火矢（伤害6）','tags:action','cost:J=1','state:等待输入')">
+        <div class="node-icon">⚡</div>
+        <div class="node-name">伤害出口</div>
+        <div class="node-state">等待输入</div>
+      </div>
+    </div>
+    <div class="cost-summary">
+      <div class="cost-item"><span>材料</span><span>灵屑×2</span></div>
+      <div class="cost-item"><span>加工时间 D</span><span>2 拍</span></div>
+      <div class="cost-item"><span>交付时间 J</span><span>1 拍</span></div>
+      <div class="cost-item"><span>最早行动生效</span><span>开工后第 4 拍</span></div>
+      <div class="cost-item"><span>产出</span><span>普通火矢（Raw候选伤害：6）</span></div>
+    </div>
+
+    <p class="section-title">样本回路 2：分流协同（攻击＋封止）</p>
+    <div class="circuit" id="circuit-2">
+      <div class="node" onclick="selectNode(this,'灵屑源','资源源','type:资源源','input:—','output:灵屑×2 / 拍','tags:spirit','cost:—','state:循环产出')">
+        <div class="node-icon">🌀</div>
+        <div class="node-name">灵屑源</div>
+        <div class="node-state">循环产出</div>
+      </div>
+      <div class="arrow">→</div>
+      <div class="node" onclick="selectNode(this,'熔炼节点','处理节点','type:处理节点','input:灵屑×2','output:火种×1（+热标签）','tags:fire','cost:D=2 / J=1','state:待输入')">
+        <div class="node-icon">🔥</div>
+        <div class="node-name">熔炼节点</div>
+        <div class="node-state">待输入</div>
+      </div>
+      <div class="arrow">→</div>
+      <div class="node" onclick="selectNode(this,'分流节点','连接节点','type:连接节点','input:火种×1','output:火种A×1 + 火种B×1（各半量）','tags:fire','cost:D=1','state:待输入')">
+        <div class="node-icon">⑂</div>
+        <div class="node-name">分流节点</div>
+        <div class="node-state">待输入</div>
+      </div>
+      <div class="arrow">→</div>
+      <div class="node" onclick="selectNode(this,'霜晶催化','催化节点','type:催化节点','input:火种B×1 ＋ 霜晶×1','output:混合中间态（+热+冷标签）','tags:fire','cost:D=2','state:需要霜晶')">
+        <div class="node-icon">❄</div>
+        <div class="node-name">霜晶催化</div>
+        <div class="node-state">需要霜晶</div>
+      </div>
+      <div class="arrow">→</div>
+      <div class="node blocked" onclick="selectNode(this,'封止出口','行动出口','type:行动出口','input:混合中间态','output:行动卡：封止（取消最早合法截止敌牌）','tags:action','cost:J=1','state:缺料等待')">
+        <div class="node-icon">🛑</div>
+        <div class="node-name">封止出口</div>
+        <div class="node-state">缺料等待</div>
+      </div>
+    </div>
+    <div class="cost-summary">
+      <div class="cost-item"><span>并行输入</span><span>灵屑×2 ＋ 霜晶×1</span></div>
+      <div class="cost-item"><span>火矢最早生效</span><span>第 4 拍</span></div>
+      <div class="cost-item"><span>封止最早生效</span><span>第 6 拍（需提前于敌牌截止）</span></div>
+      <div class="cost-item"><span>当前状态</span><span>封止路径缺霜晶，等待</span></div>
+    </div>
+
+    <p class="section-title">样本回路 3：压缩协同（延迟高伤）</p>
+    <div class="circuit" id="circuit-3">
+      <div class="node" onclick="selectNode(this,'灵屑源×2','资源源','type:资源源','input:—','output:灵屑×2 / 拍','tags:spirit','cost:—','state:循环产出')">
+        <div class="node-icon">🌀</div>
+        <div class="node-name">灵屑源</div>
+        <div class="node-state">循环产出</div>
+      </div>
+      <div class="arrow active-arrow">→</div>
+      <div class="node processing" onclick="selectNode(this,'熔炼节点','处理节点','type:处理节点','input:灵屑×2','output:火种×1（+热标签）','tags:fire','cost:D=2','state:加工中')">
+        <div class="node-icon">🔥</div>
+        <div class="node-name">熔炼节点</div>
+        <div class="node-state">加工中</div>
+      </div>
+      <div class="arrow active-arrow">→</div>
+      <div class="node processing" onclick="selectNode(this,'压缩节点','处理节点','type:处理节点','input:火种×2（需两批）','output:浓缩火种×1（+高热标签）','tags:fire','cost:D=3','state:积累第1批')">
+        <div class="node-icon">⚗</div>
+        <div class="node-name">压缩节点</div>
+        <div class="node-state">积累第1批</div>
+      </div>
+      <div class="arrow">→</div>
+      <div class="node" onclick="selectNode(this,'高伤出口','行动出口','type:行动出口','input:浓缩火种×1','output:行动卡：高温矢（Raw候选伤害：18）','tags:action','cost:J=1','state:等待输入')">
+        <div class="node-icon">💥</div>
+        <div class="node-name">高伤出口</div>
+        <div class="node-state">等待输入</div>
+      </div>
+    </div>
+    <div class="cost-summary">
+      <div class="cost-item"><span>材料</span><span>灵屑×4（两批）</span></div>
+      <div class="cost-item"><span>最早行动生效</span><span>第 8 拍（需两批熔炼）</span></div>
+      <div class="cost-item"><span>代价</span><span>等待时间是快速火矢的 2 倍，且压缩节点被占用</span></div>
+      <div class="cost-item"><span>产出</span><span>Raw候选：高温矢（伤害约为快速火矢的 3×）</span></div>
+    </div>
+
+    <div id="node-detail" class="detail-panel" style="display:none">
+      <h2 id="nd-title">节点详情</h2>
+      <div class="detail-row"><span class="detail-label">类型</span><span class="detail-val" id="nd-type">—</span></div>
+      <div class="detail-row"><span class="detail-label">输入</span><span class="detail-val" id="nd-input">—</span></div>
+      <div class="detail-row"><span class="detail-label">输出</span><span class="detail-val" id="nd-output">—</span></div>
+      <div class="detail-row"><span class="detail-label">标签</span><span class="detail-val" id="nd-tags">—</span></div>
+      <div class="detail-row"><span class="detail-label">成本</span><span class="detail-val" id="nd-cost">—</span></div>
+      <div class="detail-row"><span class="detail-label">当前状态</span><span class="detail-val" id="nd-state">—</span></div>
+    </div>
+  </div>
+
+  <!-- Panel 3: Compare -->
+  <div class="panel" id="panel-compare">
+    <table class="comp-table">
+      <thead>
+        <tr>
+          <th>维度</th>
+          <th class="rec">🏆 A 炼金回路</th>
+          <th>B 炼金批次</th>
+          <th>C 炼金工坊</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>核心构筑对象</td>
+          <td class="rec">节点与连接关系</td>
+          <td>一炉资源的顺序、配比和风险</td>
+          <td>长期运行的模块机器</td>
+        </tr>
+        <tr>
+          <td>装配感</td>
+          <td class="rec">连接节点、搭建路径</td>
+          <td>投入材料、安排处理阶段</td>
+          <td>安装模块、维护和扩展机器</td>
+        </tr>
+        <tr>
+          <td>自由构筑</td>
+          <td class="rec">高（组合来自路径变化）</td>
+          <td>中高（组合来自投料和顺序）</td>
+          <td>高（组合来自模块网络）</td>
+        </tr>
+        <tr>
+          <td>协同突破表现</td>
+          <td class="rec">可迁移的结构发现（汇合、分流、回流）</td>
+          <td>赌对配方后的高阶产出</td>
+          <td>共鸣条件满足时的双产出</td>
+        </tr>
+        <tr>
+          <td>TL-1 兼容性</td>
+          <td class="rec">高——回路仍是法杖生产网络</td>
+          <td>高——批次承诺直接对应</td>
+          <td>中——自动化需谨慎控制</td>
+        </tr>
+        <tr>
+          <td>最大代价</td>
+          <td class="rec">稀缺节点的机会成本</td>
+          <td>封炉后材料不可撤回</td>
+          <td>复杂工坊的维护成本</td>
+        </tr>
+        <tr>
+          <td>最大风险</td>
+          <td class="rec">接口规则过多导致玩家排查而非策略</td>
+          <td>高风险变成被动承受运气</td>
+          <td>战中失去主动决策空间</td>
+        </tr>
+        <tr>
+          <td>反馈</td>
+          <td class="rec">逐节点可追溯因果</td>
+          <td>炉内状态预览＋部分揭示</td>
+          <td>蓝图常驻＋战后产量报告</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="rec-box">
+      <h3>推荐：候选 A 炼金回路</h3>
+      <p>TL-1 的核心体验是"自行运作的法术生产网络"。A 把因果链留在常驻视野，玩家能解释"这张牌为什么来晚了"或"这根工具为什么停了"。A 的协同突破表现为可迁移的结构原则而非隐藏配方——玩家发现的是"让两个标签在同一时刻汇合"，而非偶然触发整句奖励。A 与炼金工具（处理单元）和法阵（连接结构）的视觉语义自然对应，无需引入额外隐喻层。B 的批次模型适合作为 A 的补充（单次投料仍是一个批次），C 的工坊模型风险较高。</p>
+    </div>
+  </div>
+
+  <!-- Panel 4: Constraints -->
+  <div class="panel" id="panel-constraints">
+    <div class="info-card" style="margin-bottom:16px">
+      <h3>TL-1 硬边界（不可违反）</h3>
+      <p>以下约束在任何候选和任何展示中均不可绕过。本展示为只读原型；下方回路样本仅展示规则结构，不执行完整战斗。</p>
+    </div>
+    <div class="constraint-list">
+      <div class="constraint"><div class="constraint-icon">✓</div><div><strong>构筑卡持续占位</strong>——构筑卡（原词卡）持续占用程序位，不是每批耗材；资源卡才是真实耗材。一实体不能同时支撑两条回路。</div></div>
+      <div class="constraint"><div class="constraint-icon">✓</div><div><strong>全批托管</strong>——完整配方满足才一次托管整批材料，不能部分扣料开工，一份材料不能同时支付两个配方。</div></div>
+      <div class="constraint"><div class="constraint-icon">✓</div><div><strong>阶段分开计时</strong>——加工 D、交付 J、休歇 R 分开登记，不是旧冷却的改名；缺料、行满、返工按实际顺延，不补发。</div></div>
+      <div class="constraint"><div class="constraint-icon">✓</div><div><strong>有限战斗行</strong>——每格一张牌，同拍最多结算一张玩家行动卡；行满时成品留在原炼金工具，不丢弃、不无限缓存。</div></div>
+      <div class="constraint"><div class="constraint-icon">✓</div><div><strong>无合法目标空放</strong>——行动卡生效时无合法目标则空放离队，不退制造材料、不补发。</div></div>
+      <div class="constraint"><div class="constraint-icon">✓</div><div><strong>取消必须严格早于 T</strong>——打断行动必须在敌牌触发时刻 T 之前实际生效；同拍来不及。</div></div>
+      <div class="constraint"><div class="constraint-icon">✓</div><div><strong>普通掉血不打断工具</strong>——只有明确打断效果才作用于指定炼金工具；普通伤害不自动中断全部产线。</div></div>
+      <div class="constraint"><div class="constraint-icon">✓</div><div><strong>改线只影响未来批次</strong>——免费路由变更只作用于尚未托管的未来批次；已托管材料、成品和已入行牌不因改线改变。</div></div>
+      <div class="constraint"><div class="constraint-icon">✓</div><div><strong>新产与退料下拍可用</strong>——本拍产出的新资源和退回材料最早在下一拍被使用，不能同拍立即形成无限链。</div></div>
+      <div class="constraint"><div class="constraint-icon">✓</div><div><strong>维护优先</strong>——到期维护先于新加工分料；余料按战前炼金工具优先顺序分配。</div></div>
+    </div>
+
+    <div style="margin-top:24px; padding:14px 16px; background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-md); font-size:0.82rem; color:var(--text-muted);">
+      <strong>展示边界</strong>：本 HTML 为只读静态展示，任意节点点击仅显示详情。本轮不执行战斗引擎、不实现完整时序、不验证真人理解。数值（如"伤害6""伤害18"）均为 Raw 候选，未经平衡验证。正式参数待后续通过 grill-with-docs 批量确认。
+    </div>
+  </div>
+</div>
+
+<script>
+// Tab switching
+document.getElementById('tabs').addEventListener('click', function(e) {
+  const tab = e.target.closest('.tab');
+  if (!tab) return;
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  tab.classList.add('active');
+  document.getElementById('panel-' + tab.dataset.panel).classList.add('active');
+});
+
+// Node detail panel
+function selectNode(el, name, type, ...attrs) {
+  document.querySelectorAll('.node').forEach(n => n.classList.remove('active-node'));
+  el.classList.add('active-node');
+  const detail = document.getElementById('node-detail');
+  detail.style.display = 'block';
+  document.getElementById('nd-title').textContent = name + '  ·  ' + type;
+  const parsed = {};
+  attrs.forEach(a => {
+    const idx = a.indexOf(':');
+    if (idx > -1) parsed[a.slice(0, idx)] = a.slice(idx + 1);
+  });
+  document.getElementById('nd-type').textContent = parsed['type'] || '—';
+  document.getElementById('nd-input').textContent = parsed['input'] || '—';
+  document.getElementById('nd-output').textContent = parsed['output'] || '—';
+  document.getElementById('nd-tags').textContent = parsed['tags'] || '—';
+  document.getElementById('nd-cost').textContent = parsed['cost'] || '—';
+  document.getElementById('nd-state').textContent = parsed['state'] || '—';
+}
+</script>
+</body>
+</html>

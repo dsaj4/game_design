@@ -48,8 +48,10 @@ exploration/
 | [DIR-028 时间轴深度构筑](DIR-028-timeline-depth/README.md) | 第8轮：时间产线核心升入TL-1，卡牌战场与新卡表重设计；兼容性审查、原始探索和UI候选各保留身份。 | 核心Qualified / Accepted；具体卡表Proposed；UI与早期构思Raw；FULL |
 | [DIR-029 时间轴铺卡战斗](DIR-029-timeline-card-battle/README.md) | 自构法术，每杖按冷却生成一行牌，共享可折叠时间轴；默认并行、强力法术有独占格，同刻效果同时生效，敌方暗牌有线索。 | Raw Idea / Unqualified |
 | [DIR-030 卡牌规则设计](DIR-030-card-rule-design/README.md) | 优先保留时间轴铺排，构句不作为核心；从有限时间容量发散十版简单规则，后续再收敛与评估。 | Raw Idea / Unqualified；CORE |
+| [DIR-031 视觉形态设计与美术风格确认](DIR-031-visual-form-style/README.md) | 用Spark比较仪器化炼金作业台、战术卷轴与事件舞台、召唤剧场三种视觉结构；推荐先验证作业台的因果可读性。 | Raw Idea / Unqualified；CORE |
 | [DIR-032 完整机制、卡牌试点与最小可玩链路](DIR-032-playable-mechanism-loop/README.md) | Q1–Q16确认，8配方与两战Demo已实现；生产、队列、维护、路由、奖励及携带形成完整试点链路，局部检查通过。 | Qualified试点；CUSTOM；真人体验NotRun |
 | [DIR-033 炼金系统构筑与构句重设计](DIR-033-alchemy-system-redesign/README.md) | AGC-1分离设计、展示实现与独立审查；将构句重设计为真实卡牌装配、资源转化与行动协同的炼金系统，交付可操作展示册。 | 新卡义Raw候选；CUSTOM固定最新主系统＋DIR-031／032；Q1–Q3确认 |
+| [DIR-034 炼金回路：构句重设计第二版](DIR-034-alchemy-circuit-redesign/README.md) | Spark三候选比较（节点连接型 / 配比风险型 / 模块自动机型）；推荐炼金回路；本地材料重新设计，不读取远端内容；附交互展示册。 | Raw Idea / Unqualified；CUSTOM本地主系统＋DIR-031／032 |
 
 ## 其余待选与局部合格方向
 
