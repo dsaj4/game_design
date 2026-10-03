@@ -2,7 +2,7 @@
 
 > 2026-10-01版本范围：当前设计已切换TL-1；以下既有实现和局部检查仍对应原输入。本轮只迁移设计文档，不修改外部代码、不执行玩法测试。
 
-文档角色：ImplementationIndex。更新：2026-10-02。旧主系统与DIR-029条目保留原日期和交付结论；本次新增DIR-032独立TL-1试点，范围及证据见新增节。
+文档角色：ImplementationIndex。更新：2026-10-02。旧主系统与DIR-029条目保留原日期和交付结论；新增DIR-032独立TL-1试点与DIR-033炼金构筑展示册，分别保留范围及证据。
 
 ## Demo与素材登记（DA-1 / 2026-10-01）
 
@@ -69,3 +69,13 @@
 - 局部证据：6项数据检查通过；实际浏览器核对分类和搜索、保存刷新恢复、基准与修改对照、配色／符号、候选复制、有效／无效导入、未保存输入保护、移除后撤销、恢复基准、词条跳转；两张桌面截图已查看，捕获错误日志为空。
 - 偏差／未验：不解释或执行新效果，不验证任意新构句或数值平衡；更改词条名不自动改写所有引用。内置浏览器HTML下载完成事件超时，未核验落盘；随仓库单文件已运行，JSON文本备份／导入已验证。真人可读性、窄屏、跨浏览器和存储故障未验。
 - 原可玩Demo的8项manifest文件哈希与EL-01文件保持不变，本轮无玩法测试；候选草稿不等于试点或主系统采纳。
+
+## DIR-033 炼金系统构筑展示册：DM-G002-007
+
+2026-10-02。归属game-002-optimization / DIR-033；[方向与设计边界](../exploration/DIR-033-alchemy-system-redesign/README.md)、[独立审查](../exploration/DIR-033-alchemy-system-redesign/independent-review.md)、[统一登记](../../docs/registry/demo-assets.md#dm-g002-007)。AGC-1分离设计、实现与审查，协调者实际浏览器验收。
+
+- 交付：[原创展示册](E:/Project/yanzhou-alchemy-atlas/alchemy-atlas.html)、[运行与范围](E:/Project/yanzhou-alchemy-atlas/README.md)，ALC-ATLAS-01.1；[私有远端固定提交](https://github.com/dsaj4/yanzhou-alchemy-atlas/tree/887bfebaad384d2276e8b51fb742caec8e475c0e) `887bfebaad384d2276e8b51fb742caec8e475c0e`。当前预览http://127.0.0.1:8770/，没有网站发布。
+- 已实现范围：30种卡与3套系统展示，有限真实实体装配／卸下／整工具拆解、类型连接与唯一出口、自回连线、配方耗材和时间预览、草稿保存恢复，以及三份冻结案例的成本／时序／效果演算。任意草稿不运行战斗。
+- 局部证据：[12组程序检查](E:/Project/yanzhou-alchemy-atlas/check-report.json)通过；[实际浏览器核对与两张截图](E:/Project/yanzhou-alchemy-atlas/evidence/browser-review.md)覆盖非预设变体、原实体恢复、保存刷新、自回与重复出口拒绝、辅助真实成本和冻结案例。独立设计审查无待解决P1，判断Plausible but unproven。
+- 覆盖边界：HTTP模块入口已核对；单文件同数据／语法检查通过，但内置浏览器安全策略拒绝file://，直接文件运行未验。下载落盘、窄屏、跨浏览器、任意草稿执行、完整战斗、真人理解与平衡未验。
+- 设计偏差／风险：等待养核在本例被早食支配，轻型工具无独特优势，共同输入下分馏上游未运行，满级核定向自回可停工且不可免费迁移。新端口、辅助、裂纹与数字均为Raw候选；Q1–Q3确认仅覆盖术语、构筑时机和有成本协同。后续见[交接](../exploration/DIR-033-alchemy-system-redesign/handoff.md)。

@@ -39,6 +39,16 @@
 - 来源／关系：本方向P、EL-01及用户直接制作授权；DM-G002-004@afc6e4e0454bb3e306a49899022c340faabb5941与DM-G002-005@22950acae3bbe805432a7bd4449364c9c33bc016仅作概念／参数／表达参照。uses: None；derived-from: None；未导入引擎、存档或资源文件。
 - 复用／边界：原创HTML、CSS、SVG、脚本和截图，无第三方美术；可在本项目改作，公开分发许可未另定。本地Git保存，无远端发布。草稿保持候选，不自动改写战斗或主系统；既有Demo与EL-01未变。
 
+### <a id="dm-g002-007"></a>DM-G002-007 炼金系统构筑展示册（2026-10-02新增）
+
+- 归属：game-002-optimization / DIR-033；[方向、设计与资格边界](../../yanzhou/exploration/DIR-033-alchemy-system-redesign/README.md)、[开发索引](../../yanzhou/development/README.md)。标签：炼金系统、真实实体、自由装拆、类型连线、效果协同。
+- 类型／用途：可操作机制与卡牌展示册；30种卡、3套系统，战前有限库存装配／拆解／连接、配方成本预览、草稿保存恢复和冻结局部账本。不执行任意草稿或完整战斗。
+- 固定版本：ALC-ATLAS-01.1，独立外部Git提交`887bfebaad384d2276e8b51fb742caec8e475c0e`；[私有远端固定目录](https://github.com/dsaj4/yanzhou-alchemy-atlas/tree/887bfebaad384d2276e8b51fb742caec8e475c0e)，文件范围为该提交全部18文件，含源码、数据、单文件与检查／截图证据。[单文件入口](E:/Project/yanzhou-alchemy-atlas/alchemy-atlas.html)、[运行依赖与操作](E:/Project/yanzhou-alchemy-atlas/README.md)、[数据指纹](E:/Project/yanzhou-alchemy-atlas/manifest.json)。本机预览http://127.0.0.1:8770/只为当前入口。
+- ReadyForScope / PresentLocal；2026-10-02已实际浏览器核对HTTP模块入口，12组程序检查通过，数据与DIR-033镜像SHA-256一致；[浏览器证据](E:/Project/yanzhou-alchemy-atlas/evidence/browser-review.md)、[程序报告](E:/Project/yanzhou-alchemy-atlas/check-report.json)。私有远端已同轮推送成功；需仓库权限，不等于公开网站发布。
+- 未验／限制：单文件同数据与脚本语法检查通过，内置浏览器安全策略拒绝file://，直接双击运行未验；下载落盘、窄屏、跨浏览器、存储故障、完整战斗与真人体验／平衡未验。三账无敌伤与环境补给，不能推断持续供料或有效策略平衡。
+- 来源／关系：本轮自制HTML、CSS、SVG、脚本与截图，无第三方图片／字体导入。概念输入固定为主系统＋DIR-031／032文本@`0702a146ccd079b28d7fb939b7297e47f8d5a27e`；uses: None；derived-from: None。未导入DM-G002-004／005／006的引擎、存档、代码或图片。
+- 复用／设计身份：可在本项目继续改作，公开分发许可未另定；系统字体不随包分发。新增卡义／端口Raw候选，Q1–Q3只确认术语、战前构筑和有成本协同。展示完成不等于正式素材资格、主系统采纳或体验成立；[下一轮交接](../../yanzhou/exploration/DIR-033-alchemy-system-redesign/handoff.md)。
+
 以下为原DM-G002-001–003登记记录，保留各自日期、来源与未验范围。
 
 DM-G002-001的打开、安装与操作按外部README核查；原登记轮未审查代码许可、完整依赖或构建，不声称已具备复制改作条件。设计源为旧RC1及旧视觉，原实现缺口、局部检查和失败记录仍以开发索引为准。
