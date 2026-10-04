@@ -2,7 +2,7 @@
 
 2026-10-04生成快照：按当前工作树存在的Git跟踪或未忽略文件登记，不据此授予游戏材料阅读权限。原tools/docs.py处于既有未提交删除，本次只在仓库外调用其固定版本逻辑。
 
-共 363 份。日常工作从[项目首页](../README.md)开始；历史内容按固定版本解释。
+共 364 份。日常工作从[项目首页](../README.md)开始；历史内容按固定版本解释。
 
 ## design（19）
 
@@ -188,7 +188,7 @@
 - [history/exploration-2026-09-24/simulations/OPT-20260909-001-casting-direction-plan.md](../history/exploration-2026-09-24/simulations/OPT-20260909-001-casting-direction-plan.md)
 - [history/exploration-2026-09-24/simulations/OPT-20260909-002-spell-expedition-loop-plan.md](../history/exploration-2026-09-24/simulations/OPT-20260909-002-spell-expedition-loop-plan.md)
 
-## sources（176）
+## sources（177）
 
 - [sources/README.md](../sources/README.md)
 - [sources/draft-changes/D-2026-09-09-automatic-battle-boundaries.md](../sources/draft-changes/D-2026-09-09-automatic-battle-boundaries.md)
@@ -279,6 +279,7 @@
 - [sources/inbox/2026-09-14-host-range-starting-content.md](../sources/inbox/2026-09-14-host-range-starting-content.md)
 - [sources/inbox/2026-09-14-interface-platform-and-experience.md](../sources/inbox/2026-09-14-interface-platform-and-experience.md)
 - [sources/inbox/2026-09-14-run-route-encounters-and-fatigue.md](../sources/inbox/2026-09-14-run-route-encounters-and-fatigue.md)
+- [sources/inbox/2026-10-04-feishu-design-stage-research.md](../sources/inbox/2026-10-04-feishu-design-stage-research.md)
 - [sources/inbox/2026-10-04-routing-response-clarification.md](../sources/inbox/2026-10-04-routing-response-clarification.md)
 - [sources/inbox/README.md](../sources/inbox/README.md)
 - [sources/materials/M-2026-09-05-battle-state-persistence.md](../sources/materials/M-2026-09-05-battle-state-persistence.md)

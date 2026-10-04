@@ -55,3 +55,4 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 - [2026-09-14-run-route-encounters-and-fatigue](2026-09-14-run-route-encounters-and-fatigue.md)
 
 - [延时敌情与路由澄清原话](2026-10-04-routing-response-clarification.md)：第1–3项与调时答复已局部提升；付费调牌序仍Raw / Unqualified。
+- [飞书课程资料调研与阶段规划讨论稿](2026-10-04-feishu-design-stage-research.md)：Raw / Unqualified；含课程筛选、BiliSum成果入口与六阶段建议，实际覆盖、余额阻断及未决项见记录。
