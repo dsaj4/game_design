@@ -1,15 +1,15 @@
 # 目录与文件放置
 
-Project ID：game-002。修订：layout.3 / 2026-09-30。当前规则为TL-1 / GDD 2.0（GDD-0）；2026-10-01更新。
+Project ID：game-002。修订：layout.3 / 2026-09-30。当前规则为TL-1 + INS-1 / GDD 2.1（GDD-0）；2026-10-04更新。
 
 | 位置 | 内容与维护责任 |
 | --- | --- |
 | README.md | 五个日常入口；不复制库存、进度或规则正文 |
 | design/ | 唯一现行GDD、系统分册、内容、参数、验收；core-design仅浓缩 |
 | sources/ | 原始表达、合格素材与尚需追踪的P/E/D；已完成的指定记录见history |
-| exploration/ | 一个DIR一个README，附件按需；索引区分近期记录与其余待选，不擅自改资格 |
-| effects/catalog.md | 137个稳定FX身份（旧134＋新3）、关联实体、参数及历史来源，取消每FX一个导航文件 |
-| governance/ | 问题、决策、规范与专题；文件索引自动生成，迁移旧快照按Git查 |
+| exploration/ | 一个DIR一个README，附件按需；DIR-001–036已退役，新方向从DIR-037继续，不擅自改历史资格 |
+| effects/catalog.md | 137个稳定FX身份、当前应用与固定历史来源；旧条目全文和参数按原版本取证 |
+| governance/ | 问题、决策、规范与专题；文件索引按现存文件维护，迁移旧快照按Git查 |
 | development/ | 外部实现索引、交接输入和实际验证证据 |
 | visual/与research/ | 表现来源、项目研究；不拥有规则采纳权 |
 | history/accepted-design-records/ | 已完成指定P/E/D记录，编号及原采纳范围保留 |
@@ -20,4 +20,4 @@ Project ID：game-002。修订：layout.3 / 2026-09-30。当前规则为TL-1 / G
 
 新文件用稳定职责名或日期/ID。来源与历史不复制现行规格；结束的批次只归档，不批量生成空流程树。共享模板留根game-design-workflow/templates，独立肉鸽和旧游戏留自身项目。
 
-运行`python tools/docs.py index`更新文件索引，`python tools/docs.py check`检查活动文档本地链接。历史冻结正文按固定提交解析，不当作现用导航。具体范围与已知历史缺口见清理报告。
+新增或迁移后更新文件索引，并检查活动文档本地路径与锚点。原`tools/docs.py`目前为用户既有未提交删除，不能把该命令列为现用工具；本轮临时检查使用固定Git中的校验逻辑，不恢复其工作树文件。历史冻结正文按固定提交解析，不当作现用导航。具体范围与已知历史缺口见清理报告。

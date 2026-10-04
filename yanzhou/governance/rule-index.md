@@ -1,10 +1,10 @@
-# TL-1 规则定位
+# TL-1 + INS-1 规则定位
 
-Project ID：game-002。2026-10-01。文档角色：Navigation。具体规则只有所指系统页维护，本文不复制数值。
+Project ID：game-002。2026-10-04。文档角色：Navigation。具体规则只有所指系统页维护，本文不复制数值。
 
 | 规则 | 权威页 |
 | --- | --- |
-| TL-01／02／20 卡牌类别、程序目标承诺、材料句法 | [SYS-001](../design/systems/01-grammar.md) |
+| TL-01／02 卡牌类别与配置／批次承诺 | [SYS-001](../design/systems/01-grammar.md) |
 | TL-03–07 生产、相位、交付、路由、中断 | [SYS-002](../design/systems/02-wands.md) |
 | TL-08–13／21／24 战斗行、倒计时、截止、结算、空放、疲劳 | [SYS-003](../design/systems/03-combat.md) |
 | TL-14／15／22／23 卡牌战场、资源、维护、争用 | [SYS-004](../design/systems/04-elements-environment.md) |
@@ -17,6 +17,12 @@ Project ID：game-002。2026-10-01。文档角色：Navigation。具体规则只
 | TL-32 单向路线与信息边界 | [SYS-005](../design/systems/05-route-encounters.md) |
 | TL-33–35 本局库存、收益、休整与商店 | [SYS-006](../design/systems/06-rewards-growth.md) |
 | TL-37 数量、来源与有限事件合同 | [SYS-004](../design/systems/04-elements-environment.md) |
+| TL-38 统一法器与行动输出 | [SYS-002](../design/systems/02-wands.md) |
+| TL-39–41／44–45 暗句、核心、辅槽、行动类别与契合 | [SYS-001](../design/systems/01-grammar.md) |
+| TL-42 辅槽打造 | [SYS-006](../design/systems/06-rewards-growth.md) |
+| TL-43 材料类别绑定制造内容 | [SYS-004](../design/systems/04-elements-environment.md) |
+
+TL-20保留历史ID；其材料—动作—目标入口已由CORE-049替代，不列现行规则。TL-01–19及TL-21–45共44个现行规则ID；TL-V01–37、INS-V01–09只登记验收预期，全部NotRun。
 
 [参数](../design/parameters.md) · [内容](../design/content/cards.md) · [验收](../design/validation.md) · [当前未知](questions.md)
 

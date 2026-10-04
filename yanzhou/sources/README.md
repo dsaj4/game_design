@@ -1,6 +1,6 @@
 # 设计来源链
 
-> TL-1版本说明（2026-10-01）：本目录的既有日期型记录保留原资格、原采纳与原证据范围，其中历史“当前”不覆盖新版。TL-1仅使用[素材审查](../design/source-review.md)明示部分；[逐文件清单](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/reading-log.md)登记保留或替代，不把旧来源全文重写成新规则。
+> TL-1 + INS-1版本说明（2026-10-04）：本目录的既有日期型记录保留原资格、原采纳与原证据范围，其中历史“当前”不覆盖新版。TL-1仅使用[素材审查](../design/source-review.md)明示部分；[逐文件清单](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/reading-log.md)登记保留或替代，不把旧来源全文重写成新规则。
 
 Project ID：game-002。文档角色：SourceCollection / Navigation。这里保存设计形成过程，现行规则统一在[design/](../design/README.md)。
 
@@ -24,7 +24,7 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 
 [DIR-028核心M](materials/M-2026-10-01-timeline-production-core.md)／[退役卡表固定记录](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/M-2026-10-01-resource-card-pool.md)／[P](proposals/P-2026-10-01-timeline-production-system.md)／[E](evaluations/E-2026-10-01-timeline-production-system.md)／[采纳D](draft-changes/D-2026-10-01-timeline-production-core.md)。2026-10-04已采纳M/P/E迁入本来源体系，原方向答复和审查按固定Git取证；卡表不列当前候选。
 
-第9轮[兼容复用表](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)限定21份原Qualified来源的当前使用部分，既有P/E追加本轮论证；[D兼容复用](draft-changes/D-2026-10-01-compatible-rules-reuse.md)记录CORE-048。原文与历史资格保留，现行表述以TL-26–37为准。
+第9轮[兼容复用表](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)限定21份原Qualified来源的当前使用部分，既有P/E追加本轮论证；[D兼容复用](draft-changes/D-2026-10-01-compatible-rules-reuse.md)记录CORE-048。原文与历史资格保留，现行复用以TL-26–37及CORE-049的局部替代为准。
 
 ## INS-1来源链（CORE-049）
 
