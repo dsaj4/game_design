@@ -52,6 +52,7 @@ exploration/
 | [DIR-032 完整机制、卡牌试点与最小可玩链路](DIR-032-playable-mechanism-loop/README.md) | Q1–Q16确认，8配方与两战Demo已实现；生产、队列、维护、路由、奖励及携带形成完整试点链路，局部检查通过。 | Qualified试点；CUSTOM；真人体验NotRun |
 | [DIR-033 炼金系统构筑与构句重设计](DIR-033-alchemy-system-redesign/README.md) | AGC-1分离设计、展示实现与独立审查；将构句重设计为真实卡牌装配、资源转化与行动协同的炼金系统，交付可操作展示册。 | 新卡义Raw候选；CUSTOM固定最新主系统＋DIR-031／032；Q1–Q3确认 |
 | [DIR-034 炼金回路：构句重设计第二版](DIR-034-alchemy-circuit-redesign/README.md) | Spark三候选比较（节点连接型 / 配比风险型 / 模块自动机型）；推荐炼金回路；本地材料重新设计，不读取远端内容；附交互展示册。 | Raw Idea / Unqualified；CUSTOM本地主系统＋DIR-031／032 |
+| [DIR-036 构句系统重设计：法器铭刻](DIR-036-sentence-inscription-redesign/README.md) | 以法器暗句与有限铭文装配重设计构句入口；比较槽位、兼容、产出反馈、机会成本与契合增幅，保留六项原话及批量未决问题。 | Raw Idea / Unqualified；CORE固定提交；Hypothesis / NotRun |
 
 ## 其余待选与局部合格方向
 
