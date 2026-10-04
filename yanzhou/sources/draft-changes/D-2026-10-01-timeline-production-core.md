@@ -9,11 +9,11 @@ Project ID：game-002。2026-10-01。文档角色：DecisionRecord / DraftChange
 
 ## 来源
 
-- [核心Qualified素材](../../exploration/DIR-028-timeline-depth/M-2026-10-01-timeline-production-core.md)
-- [卡表Qualified候选](../../exploration/DIR-028-timeline-depth/M-2026-10-01-resource-card-pool.md)
-- [提案](../../exploration/DIR-028-timeline-depth/P-2026-10-01-timeline-production-system.md)
-- [评估](../../exploration/DIR-028-timeline-depth/E-2026-10-01-timeline-production-system.md)
-- 原输入固定提交：`d6e54af395518401fb4d8466b2302a1271da557a`；[逐项审查](../../exploration/DIR-028-timeline-depth/compatibility-audit-2026-10-01.md)
+- [核心Qualified素材](../materials/M-2026-10-01-timeline-production-core.md)
+- [卡表Qualified候选](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/M-2026-10-01-resource-card-pool.md)
+- [提案](../proposals/P-2026-10-01-timeline-production-system.md)
+- [评估](../evaluations/E-2026-10-01-timeline-production-system.md)
+- 原输入固定提交：`d6e54af395518401fb4d8466b2302a1271da557a`；[逐项审查](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatibility-audit-2026-10-01.md)
 
 ## 授权与决策
 

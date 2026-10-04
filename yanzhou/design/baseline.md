@@ -21,13 +21,13 @@
 
 新卡表重新设计不等于删除原始资料。探索其他方向的固定背景也不随此次主系统切换自动更新。
 
-[现行正文](README.md) · [当前问题](../governance/questions.md) · [逐文件兼容性审查](../exploration/DIR-028-timeline-depth/compatibility-audit-2026-10-01.md)
+[现行正文](README.md) · [当前问题](../governance/questions.md) · [逐文件兼容性审查](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatibility-audit-2026-10-01.md)
 
 兼容补全以TL-1提交`ed013948f6c5379fc984413ffd08ae8e7ce0f0c9`为输入，按[CORE-048](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md)明确复用TL-26–37；不改变上轮RC1固定取证版本。原参数继续不默认继承，只有本轮明示的结构常量进入参数表。
 
 ## INS-1局部替代（2026-10-04）
 
-复审输入为提交`a4a7aea8500970ef3504a62e576fc99f08c566db`；[DIR-036素材与P/E](../exploration/DIR-036-sentence-inscription-redesign/M-2026-10-04-artifact-inscription-core.md)只确认用户已明确的结构，通过[CORE-049采纳D](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)回写。原方向R1–R3仍使用其登记CORE版本，本轮主系统复审范围独立登记，未刷新原输入。
+复审输入为提交`a4a7aea8500970ef3504a62e576fc99f08c566db`；[DIR-036素材与P/E](../sources/materials/M-2026-10-04-artifact-inscription-core.md)只确认用户已明确的结构，通过[CORE-049采纳D](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)回写。原方向R1–R3仍使用其登记CORE版本，本轮主系统复审范围独立登记，未刷新原输入。
 
 TL-38–45采用法器、有限名词／动词核心空缺、必填核心、预设挂接可选辅槽、辅槽新增／解锁打造、材料类别绑定、行动类别与独立卡效及核心契合方向。替代TL-20入口、自由修饰挂接和法器直接交付资源卡路径；不改变实体占用、材料托管、有限队列、效果目标、实际顺延、每战固定干涉费用与保存边界。
 

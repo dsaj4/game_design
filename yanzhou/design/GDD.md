@@ -11,10 +11,10 @@
 | 证据状态 | Hypothesis / NotRun |
 | 负责人／评审 | 用户为设计负责人；Codex整理；规则、内容、体验分别评审 |
 | 目标里程碑 | 统一新核心，完成卡表与边界后再升GDD-1 |
-| 合格来源 | [铭刻素材](../exploration/DIR-036-sentence-inscription-redesign/M-2026-10-04-artifact-inscription-core.md)；[核心素材](../exploration/DIR-028-timeline-depth/M-2026-10-01-timeline-production-core.md) |
-| 提案／评估 | [铭刻P](../exploration/DIR-036-sentence-inscription-redesign/P-2026-10-04-artifact-inscription-core.md)／[铭刻E](../exploration/DIR-036-sentence-inscription-redesign/E-2026-10-04-artifact-inscription-core.md)；[P](../exploration/DIR-028-timeline-depth/P-2026-10-01-timeline-production-system.md)／[E](../exploration/DIR-028-timeline-depth/E-2026-10-01-timeline-production-system.md) |
+| 合格来源 | [铭刻素材](../sources/materials/M-2026-10-04-artifact-inscription-core.md)；[核心素材](../sources/materials/M-2026-10-01-timeline-production-core.md) |
+| 提案／评估 | [铭刻P](../sources/proposals/P-2026-10-04-artifact-inscription-core.md)／[铭刻E](../sources/evaluations/E-2026-10-04-artifact-inscription-core.md)；[P](../sources/proposals/P-2026-10-01-timeline-production-system.md)／[E](../sources/evaluations/E-2026-10-01-timeline-production-system.md) |
 | 采纳 | [CORE-049铭刻](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)；[CORE-037–047](../sources/draft-changes/D-2026-10-01-timeline-production-core.md)与[CORE-048兼容复用](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md) |
-| 未纳入候选 | 新卡表、UI展示及未决边界；不因被链接而成为规则 |
+| 内容与展示缺口 | 旧卡表与UI候选已退役，实际内容、展示及未决边界待设计；历史链接不成为规则 |
 | 验证／开发 | [验收计划](validation.md)／[实现索引](../development/README.md)，没有新版执行证据 |
 
 ### 0.1 目标与范围
@@ -25,7 +25,7 @@
 
 ### 0.2 素材审查
 
-原始用户表达经过[Qualified素材](../exploration/DIR-028-timeline-depth/M-2026-10-01-timeline-production-core.md)进入正式P/E/D。新卡表已另行Qualified，通用边界局部采纳、具体发行池尚未采纳，UI仍Raw；旧来源按[审查表](source-review.md)限定使用，不将全部历史素材一次性灌入新基线。
+原始用户表达经过[Qualified素材](../sources/materials/M-2026-10-01-timeline-production-core.md)进入正式P/E/D。旧卡表曾另行Qualified，通用边界局部采纳；具体卡表及UI候选于2026-10-04随探索退役，发行池仍待重新设计；旧来源按[审查表](source-review.md)限定使用，不将全部历史素材一次性灌入新基线。
 
 ## 1. 产品与体验合同
 
@@ -106,7 +106,7 @@ INS-1按用户明确回写授权采纳TL-38–45，替代TL-20材料—动作—
 
 ## 7. 卡牌与组合
 
-[新卡表](content/cards.md)重新设计；现阶段只有内容合同，没有已采纳的完整发行池。既有卡表候选的配置、资源与行动关系须先按铭刻接口复审，再审核兼容、成本、失效和可达性，才能加入当前可用表。
+[新卡表](content/cards.md)重新设计；现阶段只有内容合同，没有已采纳的完整发行池。旧探索卡表已退役，新内容须按铭刻接口明确配置、资源与行动关系，再审核兼容、成本、失效和可达性，才能加入当前可用表。
 
 ## 8. 经济与成长
 
@@ -122,7 +122,7 @@ INS-1按用户明确回写授权采纳TL-38–45，替代TL-20材料—动作—
 
 ## 11. UI与可读性
 
-必须展示敌行、资源、玩家行、法器以及核心缺项／兼容、辅槽预设挂接、对应行动与制造要求、关键成本和原因；支持暂停思考、点击／键盘等价操作、文字与符号并用及减动效。DIR-028三个布局和七项形态选择尚未整包采纳。
+必须展示敌行、资源、玩家行、法器以及核心缺项／兼容、辅槽预设挂接、对应行动与制造要求、关键成本和原因；支持暂停思考、点击／键盘等价操作、文字与符号并用及减动效。旧探索布局与形态候选已退役，具体UI后续重新设计。
 
 ## 12. 音画
 
@@ -146,13 +146,13 @@ INS-1按用户明确回写授权采纳TL-38–45，替代TL-20材料—动作—
 
 ## 17. 附录
 
-[版本](baseline.md) · [素材审查](source-review.md) · [兼容性逐项记录](../exploration/DIR-028-timeline-depth/compatibility-audit-2026-10-01.md)
+[版本](baseline.md) · [素材审查](source-review.md) · [兼容性逐项记录](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatibility-audit-2026-10-01.md)
 
 ## 18. 自检
 
 - [x] 核心循环、目标、代价与反馈明确。
 - [x] Qualified来源、P/E/D与用户决定可追溯。
 - [x] 当前基线唯一，旧内容与证据按原版本保留。
-- [x] 正式结构、候选卡表、UI和延期能力分开。
+- [x] 正式结构、退役候选、待设计内容与UI、延期能力分开。
 - [ ] 完整卡表、参数与边界达到GDD-1：未完成。
 - [ ] 玩法、平衡和真人体验验证：NotRun。

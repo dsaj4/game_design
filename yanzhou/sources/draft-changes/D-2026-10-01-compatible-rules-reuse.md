@@ -6,7 +6,7 @@ Project ID：game-002。2026-10-01。文档角色：DecisionRecord / DraftChange
 
 在现行TL-1补回可以复用的已合格规则，修正旧词义在新机制中的落点。涉及SYS-001／003–007、摘要、内容合同、参数、验收、术语和来源适用范围。SYS-002生产结构保持既有已确认规则。
 
-[逐来源复用表](../../exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)给出每份旧Qualified素材、当前规则和排除项；[P第9轮](../../exploration/DIR-028-timeline-depth/P-2026-10-01-timeline-production-system.md)／[E第9轮](../../exploration/DIR-028-timeline-depth/E-2026-10-01-timeline-production-system.md)记录提案与评估。当前修改基准为`ed013948f6c5379fc984413ffd08ae8e7ce0f0c9`，旧RC1参考为`d6e54af395518401fb4d8466b2302a1271da557a`。
+[逐来源复用表](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)给出每份旧Qualified素材、当前规则和排除项；[P第9轮](../proposals/P-2026-10-01-timeline-production-system.md)／[E第9轮](../evaluations/E-2026-10-01-timeline-production-system.md)记录提案与评估。当前修改基准为`ed013948f6c5379fc984413ffd08ae8e7ce0f0c9`，旧RC1参考为`d6e54af395518401fb4d8466b2302a1271da557a`。
 
 ## 明确授权
 

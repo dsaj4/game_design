@@ -1,6 +1,6 @@
 # 当前设计问题
 
-Project ID：game-002。文档角色：Navigation。2026-10-04。基准TL-1 + INS-1 / GDD-0。INT-01–13已答，不重复询问；整张候选卡表及UI尚未采纳。
+Project ID：game-002。文档角色：Navigation。2026-10-04。基准TL-1 + INS-1 / GDD-0。INT-01–13已答，不重复询问；旧卡表及UI候选已随探索退役，实际内容与展示仍待设计。
 
 | 编号 | 未决内容 | 负责人／完成条件 |
 | --- | --- | --- |
@@ -9,15 +9,15 @@ Project ID：game-002。文档角色：Navigation。2026-10-04。基准TL-1 + IN
 | TL-Q03 | 维护对象互相争料、休眠恢复先后、托管中维护、容量与退料位置 | 资源系统闭合后冻结用例；不让程序默认顺序代设计 |
 | TL-Q04 | 交付被满行阻塞的计时、取消后再开工、行动最早翻开时点 | 在生产状态表补齐边界 |
 | TL-Q05 | 敌牌锁定目标失效、来源敌人死亡后已揭示牌是否取消、多牌同拍到期、程序跨段重叠 | 补遭遇与目标规则，保留严格提前取消 |
-| TL-Q06 | 新可用卡池及修饰范围、法器暗句／槽位／契合差异与数量、初始铭文／法器库存、供应与价格、选择优先级及配对方式 | 审阅新卡表及同预算可达性，具体数字Proposed |
+| TL-Q06 | 新可用卡池及修饰范围、法器暗句／槽位／契合差异与数量、初始铭文／法器库存、供应与价格、选择优先级及配对方式 | 重新设计实际卡表并核对同预算可达性，具体数字Unknown |
 | TL-Q07 | 递增疲劳的起点／频率／曲线、恢复约束与有限终局证明 | 参数重定，旧80／120不作保证 |
-| TL-Q08 | 基础展示形态与布局 | DIR-028第7轮候选，网站发布不代表采纳 |
+| TL-Q08 | 基础展示形态与布局 | 旧探索UI候选已退役，后续重新设计；网站发布不代表采纳 |
 | TL-Q09 | 玩家干涉具体能力、费用单位／额度、价格、时长、回充与共享 | 明确延期；每场固定、暂不成长，不能擅自填入 |
 | TL-Q10 | 真实玩家能否低微操运行且看懂应对代价 | Hypothesis / NotRun；完整输入冻结并另有实验授权后执行 |
 
 AUD-010原RC1总时序问题保留历史未解，不因TL-1替代旧模型被虚报解决；新版本对应TL-Q02。旧26组Closed和Demo局部结果各自只对原版本有效。
 
-[本轮采纳](../sources/draft-changes/D-2026-10-01-timeline-production-core.md) · [具体审查](../exploration/DIR-028-timeline-depth/compatibility-audit-2026-10-01.md)
+[本轮采纳](../sources/draft-changes/D-2026-10-01-timeline-production-core.md) · [具体审查](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatibility-audit-2026-10-01.md)
 
 第9轮兼容复用已补TL-26–37：绑定框架、固定路线／货架、休整互斥、库存与保存边界不再作为空白；新局0金币、休整3选1已明确。它们不关闭TL-Q06中的实际卡池／经济，也不关闭TL-Q02的完整时序。详见[CORE-048](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md)。
 
@@ -37,4 +37,4 @@ CORE-049已采纳主辅槽、名词／动词核心角色、材料类别绑定、
 
 可一起处理INS-Q01–03（法器／行动／制造来源），再处理INS-Q04–06（契合／打造／修饰）。玩家是否产生真实取舍与理解仍归TL-Q10，NotRun；没有本轮实验授权。
 
-[本次采纳](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md) · [原始方向](../exploration/DIR-036-sentence-inscription-redesign/README.md)
+[本次采纳](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md) · [原始方向](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-036-sentence-inscription-redesign/README.md)

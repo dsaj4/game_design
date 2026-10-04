@@ -4,9 +4,9 @@
 
 素材ID：MAT-G002-INS-20261004。Project ID：game-002。日期：2026-10-04。文档角色：QualifiedMaterial / SourceRecord。资格：**Qualified，仅TL-38–45及下述兼容继承范围**。体验：Hypothesis / NotRun。
 
-原始来源为[DIR-036 README](README.md)保存的用户六项种子、R2槽位补充、三项明确答复与R3收窄；原文不改写。R1–R3固定CORE背景不变。本轮用户明确要求“将其回写到主系统中”，授权对受影响的主系统进行局部复审及采纳，未授权运行实验。主体资格不扩展到README中的模型推荐、示例卡效和全部未知。
+原始来源为[DIR-036 README](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-036-sentence-inscription-redesign/README.md)保存的用户六项种子、R2槽位补充、三项明确答复与R3收窄；原文不改写。R1–R3固定CORE背景不变。本轮用户明确要求“将其回写到主系统中”，授权对受影响的主系统进行局部复审及采纳，未授权运行实验。主体资格不扩展到README中的模型推荐、示例卡效和全部未知。
 
-来源固定输入：方向R3及本轮主系统提交`a4a7aea8500970ef3504a62e576fc99f08c566db`，逐文件blob见[评估阅读覆盖](E-2026-10-04-artifact-inscription-core.md#输入版本与覆盖)。会话答复原样存方向README，外部会话本身没有Git版本。
+来源固定输入：方向R3及本轮主系统提交`a4a7aea8500970ef3504a62e576fc99f08c566db`，逐文件blob见[评估阅读覆盖](../evaluations/E-2026-10-04-artifact-inscription-core.md#输入版本与覆盖)。会话答复原样存方向README，外部会话本身没有Git版本。
 
 ## 规范化素材与设计对象
 
@@ -57,4 +57,6 @@
 
 ## 使用记录
 
-[P](P-2026-10-04-artifact-inscription-core.md) → [E](E-2026-10-04-artifact-inscription-core.md) → [D／CORE-049](../../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)。用户2026-10-04回写授权采纳上述限定结构；具体发行内容与体验仍未完成。
+[P](../proposals/P-2026-10-04-artifact-inscription-core.md) → [E](../evaluations/E-2026-10-04-artifact-inscription-core.md) → [D／CORE-049](../draft-changes/D-2026-10-04-artifact-inscription-core.md)。用户2026-10-04回写授权采纳上述限定结构；具体发行内容与体验仍未完成。
+
+> 2026-10-04来源迁移：原探索方向已退役，本文件迁入主系统来源目录。原资格、限定采纳范围和证据状态不变；原文中的轮次与“当前”按原日期解释。[迁移前固定版本](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-036-sentence-inscription-redesign/M-2026-10-04-artifact-inscription-core.md)。

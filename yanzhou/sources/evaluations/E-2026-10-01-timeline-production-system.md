@@ -2,7 +2,7 @@
 
 ## 评估对象
 
-提案：[P-2026-10-01-timeline-production-system](P-2026-10-01-timeline-production-system.md)。
+提案：[P-2026-10-01-timeline-production-system](../proposals/P-2026-10-01-timeline-production-system.md)。
 日期：2026-10-01。评估人：Codex。文档推演，Hypothesis / NotRun。
 
 ## 快速结论
@@ -49,7 +49,7 @@
 
 ## 最终建议
 
-进入[目标Draft Change](../../sources/draft-changes/D-2026-10-01-timeline-production-core.md)，仅采纳已确认结构和明确兼容继承。新卡名、配方、维护周期／耗量、增幅公式与数值保持Proposed；UI保持原候选状态。没有测试启动或完成结论。
+进入[目标Draft Change](../draft-changes/D-2026-10-01-timeline-production-core.md)，仅采纳已确认结构和明确兼容继承。新卡名、配方、维护周期／耗量、增幅公式与数值保持Proposed；UI保持原候选状态。没有测试启动或完成结论。
 
 ## INT-05–10后的范围更新
 
@@ -59,10 +59,12 @@ INT-11–13补充：按卡表标记可携带，基础环境料清空；共用携
 
 ## 第9轮：兼容复用评估
 
-结论：采纳[复用记录](compatible-rules-reuse.md)中TL-26–37的限定条款。来源均为已有Qualified材料；本轮用户授权合并兼容部分。评估方式是按新机制逐条检查主体、时点、对象、支付和持久化，不采用模型推演替代用户未确认的重大选择。
+结论：采纳[复用记录](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)中TL-26–37的限定条款。来源均为已有Qualified材料；本轮用户授权合并兼容部分。评估方式是按新机制逐条检查主体、时点、对象、支付和持久化，不采用模型推演替代用户未确认的重大选择。
 
 直接沿用实体占用、固定路线／货架和节点一次性；将旧选目标时点改到行动生效、材料角色与执行者分离、奖励包与资源携带分离。护甲战终清理不冲突于带走资源，因为两者并非同一资产；休整3选1不等于恢复旧持有上限。菜单与决策保存纳入战中操作，旧开头重播继续退役。
 
 风险：过早补回数值会伪造内容就绪；库存资格与新池尚未齐时无法验证商店和休整可达；来源敌人死亡对已揭示敌牌的影响仍不唯一。故保持新发行池、价格、目标优先级、完整时序和战终托管为Unknown，并在TL-Q05明确敌牌来源死亡问题。
 
 本次不新增评分或测试结论。规则Accepted，组合深度、经济与操作体验仍Hypothesis / NotRun；TL-V23–37仅预期，不是测试通过。
+
+> 2026-10-04来源迁移：原探索方向已退役，本文件迁入主系统来源目录。原资格、限定采纳范围和证据状态不变；原文中的轮次与“当前”按原日期解释。[迁移前固定版本](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/E-2026-10-01-timeline-production-system.md)。

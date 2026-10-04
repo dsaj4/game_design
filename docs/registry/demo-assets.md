@@ -9,45 +9,45 @@
 | ID / 名称 / 标签 | 归属 / 权威说明 | 固定版本与入口 | 状态 / 可复用范围 |
 | --- | --- | --- | --- |
 | <a id="dm-g002-001"></a>DM-G002-001 暗面Demo；可玩流程、旧RC1 | game-002 / main；[开发索引](../../yanzhou/development/README.md) | 原登记v0.1、分支codex/dark-demo、短提交cf7b98d；完整实现提交待补。[外部README](E:/Project/yanzhou-dark-demo/README.md) | Catalogued / PresentLocal（2026-10-01仅确认README存在）；可参考旧流程和视觉，不是TL-1实现 |
-| <a id="dm-g002-002"></a>DM-G002-002 时间轴翻牌；动效、交互 | game-002-optimization / DIR-029；[方向第19轮](../../yanzhou/exploration/DIR-029-timeline-card-battle/README.md#第19轮四刻翻牌动效演示)、[开发证据](../../yanzhou/development/README.md) | v0.1 / 2026-09-30；[本机预览文件](C:/Users/Administrator/.codex/visualizations/2026/09/24/01a0d1f2-4d90-7db2-8527-684c3085e2ee/timeline-flip-demo-preview.html)、[技术说明](C:/Users/Administrator/.codex/visualizations/2026/09/24/01a0d1f2-4d90-7db2-8527-684c3085e2ee/timeline-flip-demo-notes.txt)；文件指纹见下 | Catalogued / PresentLocal；可参考共同翻牌、移动与播放反馈，未包含战斗结算；本轮未运行 |
+| <a id="dm-g002-002"></a>DM-G002-002 时间轴翻牌；动效、交互 | game-002-optimization / DIR-029；[方向第19轮](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-029-timeline-card-battle/README.md#第19轮四刻翻牌动效演示)、[开发证据](../../yanzhou/development/README.md) | v0.1 / 2026-09-30；[本机预览文件](C:/Users/Administrator/.codex/visualizations/2026/09/24/01a0d1f2-4d90-7db2-8527-684c3085e2ee/timeline-flip-demo-preview.html)、[技术说明](C:/Users/Administrator/.codex/visualizations/2026/09/24/01a0d1f2-4d90-7db2-8527-684c3085e2ee/timeline-flip-demo-notes.txt)；文件指纹见下 | Archived / PresentLocal（外部原件保留；2026-10-04退出当前候选）；原Catalogued / PresentLocal记录；可参考共同翻牌、移动与播放反馈，未包含战斗结算；本轮未运行 |
 | <a id="dm-g002-003"></a>DM-G002-003 Godogen E1 R2；Godot材质与场景小样 | game-002 / main；[开发索引](../../yanzhou/development/README.md)、[原E1报告](E:/Project/game-002-godogen-lab/docs/e1-r2-report.md) | 外部提交`1dd488c507a73933e5f16e9d3829e451b5e37937`；[仓库与启动说明](E:/Project/game-002-godogen-lab/README.md)、[Godot工程入口](E:/Project/game-002-godogen-lab/game/project.godot) | Catalogued / PresentLocal（2026-10-01恢复后检查）；原记录为E1 R2小样，不含完整装配/选路/战斗；本轮未运行 |
 
 ### <a id="dm-g002-004"></a>DM-G002-004 炼咒试验台（2026-10-02新增）
 
-- 归属：game-002-optimization / DIR-032；[探索与机制规格](../../yanzhou/exploration/DIR-032-playable-mechanism-loop/README.md)、[开发索引](../../yanzhou/development/README.md)。
+- 归属：game-002-optimization / DIR-032；[探索与机制规格](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-032-playable-mechanism-loop/README.md)、[开发索引](../../yanzhou/development/README.md)。
 - 类型／用途：两战最小可玩Demo；TL-1生产、卡牌试点、队列、维护／增幅、临时路由、跨战奖励与携带。
 - 固定版本：DIR032-0.1，外部Git提交`afc6e4e0454bb3e306a49899022c340faabb5941`；[单文件Demo](E:/Project/yanzhou-tl1-demo/demo.html)、[操作／构建说明](E:/Project/yanzhou-tl1-demo/README.md)、[逐文件SHA-256](E:/Project/yanzhou-tl1-demo/manifest.json)。本机预览`http://127.0.0.1:8765`仅为本次会话入口，不替代固定版本。
-- ReadyForScope / PresentLocal；2026-10-02已实际运行22项规则检查、6组固定输入两战试跑，并通过浏览器操作完成基础→增幅与辉核→辉核；[证据及限制](E:/Project/yanzhou-tl1-demo/evidence/verification.md)。真人体验、完整路线及平衡未验证。
+- Archived / PresentLocal（外部原件保留；2026-10-04退出当前候选）；原ReadyForScope记录；2026-10-02已实际运行22项规则检查、6组固定输入两战试跑，并通过浏览器操作完成基础→增幅与辉核→辉核；[证据及限制](E:/Project/yanzhou-tl1-demo/evidence/verification.md)。真人体验、完整路线及平衡未验证。
 - 来源／复用：本任务自制代码、CSS占位图形及验证附件；uses: None，derived-from: None，不引用其他方向资产或旧代码。可在本项目继续改作，未另授公开分发许可证；系统字体不随包分发。代码已本地Git保存，尚无远端仓库，不等于已公开发布。
 - 设计边界：Q1–Q16只确认DIR-032试点，未回写主系统。未含付费干涉能力、完整路线／商店、复杂修饰或完整发行池。单文件构建无网络依赖；浏览器保存按来源隔离，下载事件未核验，可复制JSON导出已核对。
 
 ### <a id="dm-g002-005"></a>DM-G002-005 效果语言与卡面展示稿（2026-10-02新增）
 
-- 归属：game-002-optimization / DIR-032；[用途、来源与资格边界](../../yanzhou/exploration/DIR-032-playable-mechanism-loop/README.md)、[EL-01设计候选](../../yanzhou/exploration/DIR-032-playable-mechanism-loop/UI-2026-10-02-effect-language.md)。
+- 归属：game-002-optimization / DIR-032；[用途、来源与资格边界](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-032-playable-mechanism-loop/README.md)、[EL-01设计候选](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-032-playable-mechanism-loop/UI-2026-10-02-effect-language.md)。
 - 类型／用途：可操作UI展示稿，评审八配方、战前／战中词卡显示、关键词释义、时间／费用与资源状态；不运行战斗。
 - 固定版本：EL-01，外部Git 22950acae3bbe805432a7bd4449364c9c33bc016，文件范围ui-language/；[单文件入口](E:/Project/yanzhou-tl1-demo/ui-language/index.html)、[操作与检查记录](E:/Project/yanzhou-tl1-demo/ui-language/README.md)。本机预览http://127.0.0.1:8766/仅为当前入口。
-- ReadyForScope / PresentLocal；2026-10-02实际浏览器核对四页签、八配方和主要呈现交互，查看两张截图；真人可读性与窄屏实测未做。设计仍Raw候选，Q17只确认词卡展开方式。
+- Archived / PresentLocal（外部原件保留；2026-10-04退出当前候选）；原ReadyForScope记录；2026-10-02实际浏览器核对四页签、八配方和主要呈现交互，查看两张截图；真人可读性与窄屏实测未做。设计仍Raw候选，Q17只确认词卡展开方式。
 - 来源／复用：本任务原创HTML、CSS图形、脚本及截图，无第三方美术；官方参考只使用链接和方法归纳。允许本项目继续改作，公开分发许可未另定；本地Git保存，无远端发布。
 - 关系：uses: None；derived-from: None。概念／参数参照DM-G002-004@afc6e4e0454bb3e306a49899022c340faabb5941，未导入其运行代码或存档；既有可玩Demo文件未改变。
 
 ### <a id="dm-g002-006"></a>DM-G002-006 卡牌与法杖设计卡册（2026-10-02新增）
 
-- 归属：game-002-optimization / DIR-032；[方向与来源边界](../../yanzhou/exploration/DIR-032-playable-mechanism-loop/README.md)、[开发索引](../../yanzhou/development/README.md)。
+- 归属：game-002-optimization / DIR-032；[方向与来源边界](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-032-playable-mechanism-loop/README.md)、[开发索引](../../yanzhou/development/README.md)。
 - 类型／用途：独立可编辑HTML卡册；46条基准内容涵盖卡牌、通用法杖、词条／状态与基础规则，支持形象、效果、属性编辑、基准对照和候选草稿备份。
 - 固定版本：ATLAS-01；外部Git 24f191946f9acd3413aae26dce0d67fed73c0574，文件范围atlas/；[单文件入口](E:/Project/yanzhou-tl1-demo/atlas/index.html)、[操作与检查](E:/Project/yanzhou-tl1-demo/atlas/README.md)。本机预览http://127.0.0.1:8767/为当前入口。
-- ReadyForScope / PresentLocal（设计工具）；2026-10-02通过6项数据检查、实际浏览器保存刷新／对照／复制／导入拒绝与恢复／撤销／词条跳转，两张截图已查看。真人可读性、窄屏与跨浏览器未验；HTML下载完成事件超时，未核验导出文件落盘；JSON可见文本备份与导入已验证。
+- Archived / PresentLocal（外部原件保留；2026-10-04退出当前候选）；原ReadyForScope记录（设计工具）；2026-10-02通过6项数据检查、实际浏览器保存刷新／对照／复制／导入拒绝与恢复／撤销／词条跳转，两张截图已查看。真人可读性、窄屏与跨浏览器未验；HTML下载完成事件超时，未核验导出文件落盘；JSON可见文本备份与导入已验证。
 - 来源／关系：本方向P、EL-01及用户直接制作授权；DM-G002-004@afc6e4e0454bb3e306a49899022c340faabb5941与DM-G002-005@22950acae3bbe805432a7bd4449364c9c33bc016仅作概念／参数／表达参照。uses: None；derived-from: None；未导入引擎、存档或资源文件。
 - 复用／边界：原创HTML、CSS、SVG、脚本和截图，无第三方美术；可在本项目改作，公开分发许可未另定。本地Git保存，无远端发布。草稿保持候选，不自动改写战斗或主系统；既有Demo与EL-01未变。
 
 ### <a id="dm-g002-007"></a>DM-G002-007 炼金系统构筑展示册（2026-10-02新增）
 
-- 归属：game-002-optimization / DIR-033；[方向、设计与资格边界](../../yanzhou/exploration/DIR-033-alchemy-system-redesign/README.md)、[开发索引](../../yanzhou/development/README.md)。标签：炼金系统、真实实体、自由装拆、类型连线、效果协同。
+- 归属：game-002-optimization / DIR-033；[方向、设计与资格边界](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-033-alchemy-system-redesign/README.md)、[开发索引](../../yanzhou/development/README.md)。标签：炼金系统、真实实体、自由装拆、类型连线、效果协同。
 - 类型／用途：可操作机制与卡牌展示册；30种卡、3套系统，战前有限库存装配／拆解／连接、配方成本预览、草稿保存恢复和冻结局部账本。不执行任意草稿或完整战斗。
 - 固定版本：ALC-ATLAS-01.1，独立外部Git提交`887bfebaad384d2276e8b51fb742caec8e475c0e`；[私有远端固定目录](https://github.com/dsaj4/yanzhou-alchemy-atlas/tree/887bfebaad384d2276e8b51fb742caec8e475c0e)，文件范围为该提交全部18文件，含源码、数据、单文件与检查／截图证据。[单文件入口](E:/Project/yanzhou-alchemy-atlas/alchemy-atlas.html)、[运行依赖与操作](E:/Project/yanzhou-alchemy-atlas/README.md)、[数据指纹](E:/Project/yanzhou-alchemy-atlas/manifest.json)。本机预览http://127.0.0.1:8770/只为当前入口。
-- ReadyForScope / PresentLocal；2026-10-02已实际浏览器核对HTTP模块入口，12组程序检查通过，数据与DIR-033镜像SHA-256一致；[浏览器证据](E:/Project/yanzhou-alchemy-atlas/evidence/browser-review.md)、[程序报告](E:/Project/yanzhou-alchemy-atlas/check-report.json)。私有远端已同轮推送成功；需仓库权限，不等于公开网站发布。
+- Archived / PresentLocal（外部原件保留；2026-10-04退出当前候选）；原ReadyForScope记录；2026-10-02已实际浏览器核对HTTP模块入口，12组程序检查通过，数据与DIR-033镜像SHA-256一致；[浏览器证据](E:/Project/yanzhou-alchemy-atlas/evidence/browser-review.md)、[程序报告](E:/Project/yanzhou-alchemy-atlas/check-report.json)。私有远端已同轮推送成功；需仓库权限，不等于公开网站发布。
 - 未验／限制：单文件同数据与脚本语法检查通过，内置浏览器安全策略拒绝file://，直接双击运行未验；下载落盘、窄屏、跨浏览器、存储故障、完整战斗与真人体验／平衡未验。三账无敌伤与环境补给，不能推断持续供料或有效策略平衡。
 - 来源／关系：本轮自制HTML、CSS、SVG、脚本与截图，无第三方图片／字体导入。概念输入固定为主系统＋DIR-031／032文本@`0702a146ccd079b28d7fb939b7297e47f8d5a27e`；uses: None；derived-from: None。未导入DM-G002-004／005／006的引擎、存档、代码或图片。
-- 复用／设计身份：可在本项目继续改作，公开分发许可未另定；系统字体不随包分发。新增卡义／端口Raw候选，Q1–Q3只确认术语、战前构筑和有成本协同。展示完成不等于正式素材资格、主系统采纳或体验成立；[下一轮交接](../../yanzhou/exploration/DIR-033-alchemy-system-redesign/handoff.md)。
+- 复用／设计身份：可在本项目继续改作，公开分发许可未另定；系统字体不随包分发。新增卡义／端口Raw候选，Q1–Q3只确认术语、战前构筑和有成本协同。展示完成不等于正式素材资格、主系统采纳或体验成立；[下一轮交接](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-033-alchemy-system-redesign/handoff.md)。
 
 以下为原DM-G002-001–003登记记录，保留各自日期、来源与未验范围。
 
@@ -69,16 +69,16 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 | ID / 名称 / 标签 | 归属 / 原件入口 | 版本 / 来源条件 | 状态 / 使用边界 |
 | --- | --- | --- | --- |
 | <a id="as-g002-001"></a>AS-G002-001 05紧凑暗面视觉包；UI、风格 | game-002 / main；[风格说明](../../yanzhou/visual/reviews/2026-09-19/style-guide.md)、[文件清单](../../yanzhou/visual/reviews/2026-09-19/source-manifest.json) | v0.2 / 2026-09-19；基线提交下`yanzhou/visual/reviews/2026-09-19/`的已跟踪文件；生成来源/提示词沿原包，分发条件未审 | Catalogued / PresentLocal；旧RC1 Selected Visual；不能当成TL-1最终布局 |
-| <a id="as-g002-002"></a>AS-G002-002 DIR-029完整牌桌v9；概念图 | game-002-optimization / DIR-029；[PNG原件](../../yanzhou/exploration/DIR-029-timeline-card-battle/ui-concept-v9-full-tabletop.png)、[提示词](../../yanzhou/exploration/DIR-029-timeline-card-battle/ui-concept-v9-full-tabletop-prompt.txt) | 基线提交下上述两个文件；生成资料，具体生成模型/分发条件本轮未审 | Catalogued / PresentLocal；Scene Concept / Awaiting Visual Review，尚非最终生产素材；尺寸等在实际复用前补录 |
+| <a id="as-g002-002"></a>AS-G002-002 DIR-029完整牌桌v9；概念图 | game-002-optimization / DIR-029；[PNG原件](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-029-timeline-card-battle/ui-concept-v9-full-tabletop.png)、[提示词](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-029-timeline-card-battle/ui-concept-v9-full-tabletop-prompt.txt) | 基线提交下上述两个文件；生成资料，具体生成模型/分发条件本轮未审 | Archived / GitSnapshot（2026-10-04本地原件随方向删除）；原Catalogued / PresentLocal记录；Scene Concept / Awaiting Visual Review，尚非最终生产素材；尺寸等在实际复用前补录 |
 | <a id="as-g002-003"></a>AS-G002-003 Godot/Blender实验集合；模型、渲染、概念图 | game-002 / main；[恢复后的仓库入口](E:/Project/game-002-godogen-lab/README.md)、[登记来源](../../yanzhou/development/README.md) | 外部提交`1dd488c507a73933e5f16e9d3829e451b5e37937`；范围与入口见下方恢复记录；依赖见外部工具链锁，逐项分发条件待核实 | Catalogued / **PresentLocal**（2026-10-01用户通知恢复后复查）；旧RC1资产与视觉探索，未认定TL-1兼容或完成美术验收 |
-| <a id="as-g002-004"></a>AS-G002-004 DIR-031视觉案例参考包；官方截图、牌桌、炼金工作台 | game-002-optimization / DIR-031；[图文与登记](../../yanzhou/exploration/DIR-031-visual-form-style/README.md#第4轮五个相邻案例的真实游戏截图)、[来源清单](../../yanzhou/exploration/DIR-031-visual-form-style/reference-screenshots-v01-sources.json) | v0.1 / 2026-10-02；固定提交`46f8a0ff7813f022e8e4c9b13516f5ba68c2ce98`下`yanzhou/exploration/DIR-031-visual-form-style/`，文件范围仅限清单所列7张图；5张官方Steam截图＋2张既有用户参考图，逐项规格、来源、SHA-256见清单；具体许可Unknown | Catalogued / PresentLocal；2026-10-02核对7图哈希及解码，目视核对5张新增官方截图；DIR-031仅作视觉参照，保持Raw / Unqualified，未运行游戏、不授予资产复制改作或商业分发权 |
+| <a id="as-g002-004"></a>AS-G002-004 DIR-031视觉案例参考包；官方截图、牌桌、炼金工作台 | game-002-optimization / DIR-031；[图文与登记](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-031-visual-form-style/README.md#第4轮五个相邻案例的真实游戏截图)、[来源清单](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-031-visual-form-style/reference-screenshots-v01-sources.json) | v0.1 / 2026-10-02；固定提交`46f8a0ff7813f022e8e4c9b13516f5ba68c2ce98`下`yanzhou/exploration/DIR-031-visual-form-style/`，文件范围仅限清单所列7张图；5张官方Steam截图＋2张既有用户参考图，逐项规格、来源、SHA-256见清单；具体许可Unknown | Archived / GitSnapshot（2026-10-04本地原件随方向删除）；原Catalogued / PresentLocal记录；2026-10-02核对7图哈希及解码，目视核对5张新增官方截图；DIR-031仅作视觉参照，保持Raw / Unqualified，未运行游戏、不授予资产复制改作或商业分发权 |
 | <a id="as-sh-001"></a>AS-SH-001 拆解写法参考包；结构、DOCX范例 | shared-reference / media-analysis-lab；[包入口](../../media-analysis-lab/references/writing-examples/README.md) | 基线提交下`media-analysis-lab/references/writing-examples/`的已跟踪文件；结构MD与两份DOCX各自来源/转载条件待核实 | Catalogued / PresentLocal；按原入口只作结构和写法参考；本轮未读DOCX正文或检查版式，不授予复制正文/重发权限 |
 
 素材PresentLocal仅指列出入口/原件存在及已跟踪，不代表已目视审图或核验全部清单。包范围以固定提交内已跟踪文件为限，未跟踪资源不纳入。文件规格、作者和许可缺口保留Unknown；实际复用时按所需范围补齐，不把目录登记当作授权或Qualified素材。
 
 AS-G002-004为2026-10-02的后续登记，使用该行独立固定提交，不适用页首初始登记基线。其来源清单SHA-256为`db79a49078d3a48f95a28b0d45239c662bea0bfc161385847e6bbed1c05c6019`；目视核对范围以该行和方向页记录为准。
 
-2026-10-02使用范围调整：用户决定排除Tainted Grail: Conquest，原话“该案例可以排除，基本没有可借鉴点”。DIR-031当前只使用包内其余6张图（4张官方截图＋2张用户参考图）；被排除截图及v0.1来源清单保留作历史追溯，不再作为当前风格参考。包的固定版本、文件哈希和原采集证据不变。
+2026-10-02使用范围调整：用户决定排除Tainted Grail: Conquest，原话“该案例可以排除，基本没有可借鉴点”。DIR-031当时只使用包内其余6张图（4张官方截图＋2张用户参考图）；被排除截图及v0.1来源清单保留作历史追溯，不再作为当前风格参考。包的固定版本、文件哈希和原采集证据不变。
 
 ### Godogen恢复登记（2026-10-01）
 
@@ -97,9 +97,16 @@ AS-G002-004为2026-10-02的后续登记，使用该行独立固定提交，不�
 | DM-G002-001 | AS-G002-001@v0.2（基线提交） | 视觉选择/参考关系来自原风格说明与开发索引；本轮未核对代码中实际导入文件 |
 | DM-G002-002 | AS-G002-002@v9（基线提交） | 原方向与开发索引说明采用v9候选作视觉参照；演示使用文字/装饰占位，不代表导入这张PNG |
 | DM-G002-003 | AS-G002-003中的E1子集@外部固定提交 | 外部README记载`art/e1`与`game/assets/e1`的源/运行资产关系；本轮未执行构建，工作树Blender修改不纳入固定版结论 |
-| [DIR-031第4轮](../../yanzhou/exploration/DIR-031-visual-form-style/README.md#第4轮五个相邻案例的真实游戏截图) | AS-G002-004@v0.1 / `46f8a0ff7813f022e8e4c9b13516f5ba68c2ce98` | 当前使用其中6张图；Tainted Grail: Conquest已按用户决定排除，截图仅作历史保存；其余4张官方截图与2张既有用户参考图作视觉参照，不导入实现、不回写现行视觉规范 |
+| [DIR-031第4轮](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-031-visual-form-style/README.md#第4轮五个相邻案例的真实游戏截图) | AS-G002-004@v0.1 / `46f8a0ff7813f022e8e4c9b13516f5ba68c2ce98` | 当前使用其中6张图；Tainted Grail: Conquest已按用户决定排除，截图仅作历史保存；其余4张官方截图与2张既有用户参考图作视觉参照，不导入实现、不回写现行视觉规范 |
 
 新使用关系写在目标维护文档；此表保留跨资源发现入口，不复制项目参数或验证结论。正式系统与探索方向互相参考后仍保留各自设计版本。
+
+### <a id="dm-g002-008"></a>DM-G002-008 炼金构句重设计展示册退役记录
+
+- 归属：game-002-optimization / DIR-035；2026-10-04按用户决定退役，ID不复用。
+- 状态：Archived / PresentLocal（仓库外恢复副本）；原条目与三个未提交文件逐字节保存在 `E:/Project/game-exploration-cleanup-20261004/recovery/`，SHA-256见该目录的上级 `recovery-manifest.json`。
+- 原文件范围：DIR-035的README.md、handoff.md、alchemy-showcase.html；未发布这些未提交字节，也未将其登记为已采纳内容。恢复与原来源说明见[清理记录](../../yanzhou/governance/cleanup-report.md#2026-10-04探索方向退役)。
+
 
 ## 待补与维护
 
@@ -109,3 +116,7 @@ AS-G002-004为2026-10-02的后续登记，使用该行独立固定提交，不�
 - AS-G002-003 / DM-G002-003：入口已恢复；实际选用时核对具体子包规格、分发条件及未提交Blender修改，目标环境运行能力尚未重新检查。
 - new-roguelike：其[开发索引](../../new-roguelike/development/README.md)当前无登记产物，保持空白，不继承言咒条目。
 - 其他方向、历史Demo、已发布布局站点和未跟踪资产未逐项盘点；遇到实际复用需求再登记，不宣称此次收录全部资源。稳定ID归档后保留记录，不重新分配。
+
+## 2026-10-04探索资源退役
+
+用户决定删除现有方向并允许后续重做测试与UI。DM-G002-002、004–008及AS-G002-002、004停止维护，ID与原版本不复用；本仓库原件随方向删除，已提交内容以固定Git取证，未提交内容只保存在仓库外恢复目录。外部实现原件未删除，访问状态未重新验证。历史检查保持原覆盖，不外推到INS-1；详情见[清理记录](../../yanzhou/governance/cleanup-report.md#2026-10-04探索方向退役)。

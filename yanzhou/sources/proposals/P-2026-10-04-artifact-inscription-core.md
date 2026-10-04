@@ -1,6 +1,6 @@
 # P：法器铭刻替代自由构句入口
 
-提案ID：P-G002-INS-20261004。Project ID：game-002。日期：2026-10-04。文档角色：Proposal。来源：[局部Qualified素材](M-2026-10-04-artifact-inscription-core.md)；体验Hypothesis / NotRun。采纳结果见[D](../../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)，提案不另行扩大范围。
+提案ID：P-G002-INS-20261004。Project ID：game-002。日期：2026-10-04。文档角色：Proposal。来源：[局部Qualified素材](../materials/M-2026-10-04-artifact-inscription-core.md)；体验Hypothesis / NotRun。采纳结果见[D](../draft-changes/D-2026-10-04-artifact-inscription-core.md)，提案不另行扩大范围。
 
 ## 玩法假设与机制
 
@@ -19,3 +19,5 @@
 ## 对照与未决
 
 本轮只对照当前主系统入口与用户设计，不引用未经阅读的外部游戏。真实乐趣、最优配置和平衡Unknown；机制逻辑不作为证据。卡效、契合形式、打造费用及高阶材料来源按[当前问题](../../governance/questions.md#ins-1未决项)分组补齐。
+
+> 2026-10-04来源迁移：原探索方向已退役，本文件迁入主系统来源目录。原资格、限定采纳范围和证据状态不变；原文中的轮次与“当前”按原日期解释。[迁移前固定版本](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-036-sentence-inscription-redesign/P-2026-10-04-artifact-inscription-core.md)。

@@ -1,6 +1,6 @@
 # 新局初始资源
 
-> TL-1适用范围（2026-10-01，CORE-048）：新局满预设生命、0金币、局间重置已按TL-33复用到[现行系统](../../design/README.md)。旧12词／四杖不开启；0金币不影响固定干涉费用。下文保留原版本形成记录，其中“当前”不覆盖TL-1；具体改写与排除见[复用记录](../../exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)。
+> TL-1适用范围（2026-10-01，CORE-048）：新局满预设生命、0金币、局间重置已按TL-33复用到[现行系统](../../design/README.md)。旧12词／四杖不开启；0金币不影响固定干涉费用。下文保留原版本形成记录，其中“当前”不覆盖TL-1；具体改写与排除见[复用记录](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)。
 
 状态：Qualified GDD Material。证据：Hypothesis。资格覆盖下列明确表述；具体后置机制与参数保持 Unknown，素材可引用不等于完整系统已采纳或通过验证。
 

@@ -1,6 +1,6 @@
 # 文档矛盾与消歧登记
 
-> 2026-10-01：下方AUD-001–014保留RC1原审查。TL-1的四处重大冲突（战场、打断、卡表、保存）及INT-05–13已由用户解决，见[本轮审查](../exploration/DIR-028-timeline-depth/compatibility-audit-2026-10-01.md)。当前未决项统一见[问题](questions.md)；AUD-010历史未解不冒充新版已解决。
+> 2026-10-01：下方AUD-001–014保留RC1原审查。TL-1的四处重大冲突（战场、打断、卡表、保存）及INT-05–13已由用户解决，见[本轮审查](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatibility-audit-2026-10-01.md)。当前未决项统一见[问题](questions.md)；AUD-010历史未解不冒充新版已解决。
 
 日期：2026-09-23。基准：RC1 / doc.1。Resolved表示文档已按既有来源订正，不表示玩法验证通过。
 

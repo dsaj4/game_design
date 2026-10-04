@@ -6,7 +6,7 @@ Draft Change ID：D-G002-INS-20261004。Project ID：game-002。日期：2026-10
 
 目标为现行GDD、SYS-001／002／004／006／007及其摘要、术语、内容合同与派生入口；SYS-003／005只适配术语和兼容接口，不重设计战斗／路线。
 
-来源链：[Raw方向与用户原话](../../exploration/DIR-036-sentence-inscription-redesign/README.md) → [局部Qualified M](../../exploration/DIR-036-sentence-inscription-redesign/M-2026-10-04-artifact-inscription-core.md) → [P](../../exploration/DIR-036-sentence-inscription-redesign/P-2026-10-04-artifact-inscription-core.md) → [E](../../exploration/DIR-036-sentence-inscription-redesign/E-2026-10-04-artifact-inscription-core.md) → 本D → [当前正文](../../design/README.md)。输入提交`a4a7aea8500970ef3504a62e576fc99f08c566db`；逐文件版本与实际覆盖见E。整份方向没有升级为Qualified。
+来源链：[Raw方向与用户原话](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-036-sentence-inscription-redesign/README.md) → [局部Qualified M](../materials/M-2026-10-04-artifact-inscription-core.md) → [P](../proposals/P-2026-10-04-artifact-inscription-core.md) → [E](../evaluations/E-2026-10-04-artifact-inscription-core.md) → 本D → [当前正文](../../design/README.md)。输入提交`a4a7aea8500970ef3504a62e576fc99f08c566db`；逐文件版本与实际覆盖见E。整份方向没有升级为Qualified。
 
 ## 拟改／已采纳范围
 

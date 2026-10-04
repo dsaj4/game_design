@@ -1,6 +1,6 @@
 # 全局规则边界与卡牌评测要求
 
-> TL-1适用范围（2026-10-01，CORE-048）：参数域、零值、原子支付、独立生命周期与有限事件已按TL-29／30／37复用到[现行系统](../../design/README.md)。旧总时序、RC06层数和时间公式不继承。下文保留原版本形成记录，其中“当前”不覆盖TL-1；具体改写与排除见[复用记录](../../exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)。
+> TL-1适用范围（2026-10-01，CORE-048）：参数域、零值、原子支付、独立生命周期与有限事件已按TL-29／30／37复用到[现行系统](../../design/README.md)。旧总时序、RC06层数和时间公式不继承。下文保留原版本形成记录，其中“当前”不覆盖TL-1；具体改写与排除见[复用记录](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)。
 
 状态：Qualified GDD Material / Accepted（GR01–GR12的处理方式）。日期：2026-09-11。Project ID：game-002。版本：GR v1。证据：Hypothesis；未执行新测试。S2／E3的GR07-C01已由G002-CORE-019／RC06取代；FAT-C执行／数值及四层量化目标仍Candidate。
 

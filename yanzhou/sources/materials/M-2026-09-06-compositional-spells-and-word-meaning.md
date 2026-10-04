@@ -1,6 +1,6 @@
 # 整句效果与词义复用
 
-> TL-1适用范围（2026-10-01，CORE-048）：完整程序、词义稳定、无隐藏整句解锁已按TL-26复用到[现行系统](../../design/README.md)。制造成功、行动生效与命中分阶段，不照抄旧施法成功时点。下文保留原版本形成记录，其中“当前”不覆盖TL-1；具体改写与排除见[复用记录](../../exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)。
+> TL-1适用范围（2026-10-01，CORE-048）：完整程序、词义稳定、无隐藏整句解锁已按TL-26复用到[现行系统](../../design/README.md)。制造成功、行动生效与命中分阶段，不照抄旧施法成功时点。下文保留原版本形成记录，其中“当前”不覆盖TL-1；具体改写与排除见[复用记录](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)。
 
 状态：Qualified GDD Material。证据：Hypothesis。资格覆盖下列明确表述；具体后置机制与参数保持 Unknown，素材可引用不等于完整系统已采纳或通过验证。
 

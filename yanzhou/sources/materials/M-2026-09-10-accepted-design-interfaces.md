@@ -1,6 +1,6 @@
 # 已采纳接口规则与后置范围
 
-> TL-1适用范围（2026-10-01，CORE-048）：完整支付、实际权限、不能共享一份消费已按TL-30复用到[现行系统](../../design/README.md)。制造托管与生效支付分开，不移植无目标免制造成本或材料禁令。下文保留原版本形成记录，其中“当前”不覆盖TL-1；具体改写与排除见[复用记录](../../exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)。
+> TL-1适用范围（2026-10-01，CORE-048）：完整支付、实际权限、不能共享一份消费已按TL-30复用到[现行系统](../../design/README.md)。制造托管与生效支付分开，不移植无目标免制造成本或材料禁令。下文保留原版本形成记录，其中“当前”不覆盖TL-1；具体改写与排除见[复用记录](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)。
 
 状态：Qualified GDD Material；明确约束Accepted，证据Hypothesis。
 

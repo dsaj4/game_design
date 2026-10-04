@@ -5,7 +5,7 @@
 | Project ID | 项目根与入口 | 状态／背景 | 读写边界 |
 | --- | --- | --- | --- |
 | game-002 | [yanzhou](../../yanzhou/README.md) | Active；正式规则在design | 按项目AGENTS；现行设计和探索候选隔离 |
-| game-002-optimization | [yanzhou/exploration](../../yanzhou/exploration/README.md) | Active / Direction Notes；言咒内的探索身份，不是另一个游戏 | 新方向按[start](../../yanzhou/exploration/start.md)选CORE/GDD/FULL/CUSTOM/NONE；续作沿登记来源。只写所选DIR及必要索引；回写主系统需目标复审和Draft Change |
+| game-002-optimization | [yanzhou/exploration](../../yanzhou/exploration/README.md) | Active / Empty；DIR-001–036于2026-10-04退役，下一个编号DIR-037；言咒内的探索身份 | 新方向按[start](../../yanzhou/exploration/start.md)选CORE/GDD/FULL/CUSTOM/NONE；续作沿登记来源。只写所选DIR及必要索引；回写主系统需目标复审和Draft Change |
 | new-roguelike | [new-roguelike](../../new-roguelike/README.md) | Active / Raw Exploration；Blank Baseline | 与言咒平级且独立；默认NONE，按[本地规则](../../new-roguelike/AGENTS.md)和[阅读范围](../../new-roguelike/exploration/start.md)。没有正式GDD或Accepted玩法 |
 | core-card-project | [旧项目归档](../../archive/2026-09-05-core-card-project/README.md) | Parked / Archived | 默认不读不写，不继承代码或实验资格 |
 

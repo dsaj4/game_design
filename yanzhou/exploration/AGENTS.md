@@ -17,7 +17,7 @@ Project ID：game-002-optimization；P = yanzhou/exploration/。layout.2；阅�
 - 原始输入、澄清和轻量研究记录先留在方向页；默认Raw Idea / Unqualified。新增方向分配不复用的编号，并在P/README增加一行。只有确需比较时才更新comparison.md。
 - 图片或长篇支撑材料按实际需要直接放同一方向文件夹；不预建inbox、materials、proposals、evaluations、questions、runs、gdd等流程树，也不维护第二份机器方向注册表。
 - 正式资格确认仍使用grill-with-docs和根登记模板。若确实形成合格素材、Proposal、Evaluation或GDD，将带类型/日期/ID的独立文件直接放所属方向内，由README链接；Raw正文不可直接冒充正式材料。日常构思不要求先生成这些文件。
-- 原有27方向的摘录是DirectionNote；DIR-003、008只保留既有局部资格与采纳差异，其余保持Raw。研究建议、规划测试与真实结果分开，未指定实验任务不自动运行测试。
+- DIR-001至DIR-036已于2026-10-04按用户决定退役，当前活动方向为0；原资格与证据按固定版本保留，不再作为待办。新方向从DIR-037继续，不复用退役编号。研究建议、规划测试与真实结果分开，未指定实验任务不自动运行测试。
 
 ## 历史与回写
 

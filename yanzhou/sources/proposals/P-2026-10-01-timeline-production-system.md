@@ -7,7 +7,7 @@ P-2026-10-01-timeline-production-system；2026-10-01；game-002-optimization →
 
 ## 来源想法
 
-初始第8轮引用已通过资格的[时间产线核心素材](M-2026-10-01-timeline-production-core.md)和[新卡表候选素材](M-2026-10-01-resource-card-pool.md)。原话与局部答复在[README](README.md)，未确认UI不纳入。
+初始第8轮引用已通过资格的[时间产线核心素材](../materials/M-2026-10-01-timeline-production-core.md)和[新卡表候选素材](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/M-2026-10-01-resource-card-pool.md)。原话与局部答复在[README](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/README.md)，未确认UI不纳入。
 
 ## 核心玩法假设
 
@@ -44,7 +44,7 @@ P-2026-10-01-timeline-production-system；2026-10-01；game-002-optimization →
 
 ## 当前疑问
 
-见[兼容性审查](compatibility-audit-2026-10-01.md)和主系统[当前问题](../../governance/questions.md)。干涉能力的具体数值仍按用户要求后续单独设计。
+见[兼容性审查](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatibility-audit-2026-10-01.md)和主系统[当前问题](../../governance/questions.md)。干涉能力的具体数值仍按用户要求后续单独设计。
 
 ## INT-05–10后的范围更新
 
@@ -54,8 +54,10 @@ INT-11–13补充：按卡表标记可携带，基础环境料清空；共用携
 
 ## 第9轮：兼容材料补全
 
-用户授权将之前不冲突且可复用的材料合并到当前设计。来源扩展为[复用记录](compatible-rules-reuse.md)逐项列出的旧Qualified材料，仅引用其限定条款。提出TL-26–37：补全实体语义／绑定／修饰、对象与支付、真实配置、路线、库存／休整／商店、决策保存和参数合同。
+用户授权将之前不冲突且可复用的材料合并到当前设计。来源扩展为[复用记录](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)逐项列出的旧Qualified材料，仅引用其限定条款。提出TL-26–37：补全实体语义／绑定／修饰、对象与支付、真实配置、路线、库存／休整／商店、决策保存和参数合同。
 
-机制链：稳定词义和真实库存使构筑有可解释代价；固定节点与货架让资源选择留有后果；制造和结算分阶段避免退款或重复支付。预期减少重新解释规则的负担，仍是Hypothesis。旧整场攻击公开、格子、旧卡表、旧时序和数值不回灌。具体适配文本在各系统，目标D为[兼容复用](../../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md)。
+机制链：稳定词义和真实库存使构筑有可解释代价；固定节点与货架让资源选择留有后果；制造和结算分阶段避免退款或重复支付。预期减少重新解释规则的负担，仍是Hypothesis。旧整场攻击公开、格子、旧卡表、旧时序和数值不回灌。具体适配文本在各系统，目标D为[兼容复用](../draft-changes/D-2026-10-01-compatible-rules-reuse.md)。
 
 最小未来验证沿TL-V23–37，先确认规则和输入再另行授权执行。本次不因补全而提升GDD成熟度，不增加干涉能力。
+
+> 2026-10-04来源迁移：原探索方向已退役，本文件迁入主系统来源目录。原资格、限定采纳范围和证据状态不变；原文中的轮次与“当前”按原日期解释。[迁移前固定版本](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/P-2026-10-01-timeline-production-system.md)。

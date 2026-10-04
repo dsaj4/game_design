@@ -2,7 +2,7 @@
 
 自动生成：`python tools/docs.py index`。当前工作树存在的Git跟踪或未忽略文件；不据此授予游戏材料阅读权限。
 
-上次自动生成快照计数为418份；本轮只追加下面4份INS-1正式记录，不重新统计其他任务的未提交变动。日常工作从[项目首页](../README.md)开始；历史内容按固定版本解释。
+共 359 份。日常工作从[项目首页](../README.md)开始；历史内容按固定版本解释。
 
 ## design（19）
 
@@ -45,77 +45,17 @@
 - [effects/readiness-review.md](../effects/readiness-review.md)
 - [effects/source-audit.md](../effects/source-audit.md)
 
-## exploration（65）
+## exploration（4）
 
 - [exploration/AGENTS.md](../exploration/AGENTS.md)
-- [exploration/DIR-001-battlefield-compiler/README.md](../exploration/DIR-001-battlefield-compiler/README.md)
-- [exploration/DIR-002-spell-expedition/README.md](../exploration/DIR-002-spell-expedition/README.md)
-- [exploration/DIR-003-timeline-backpack/README.md](../exploration/DIR-003-timeline-backpack/README.md)
-- [exploration/DIR-004-enemy-phase-windows/README.md](../exploration/DIR-004-enemy-phase-windows/README.md)
-- [exploration/DIR-005-limited-cycle-tuning/README.md](../exploration/DIR-005-limited-cycle-tuning/README.md)
-- [exploration/DIR-006-postbattle-reconfiguration/README.md](../exploration/DIR-006-postbattle-reconfiguration/README.md)
-- [exploration/DIR-007-idle-reserve/README.md](../exploration/DIR-007-idle-reserve/README.md)
-- [exploration/DIR-008-spell-music/README.md](../exploration/DIR-008-spell-music/README.md)
-- [exploration/DIR-009-conditional-intent/README.md](../exploration/DIR-009-conditional-intent/README.md)
-- [exploration/DIR-010-bound-enemy-word/README.md](../exploration/DIR-010-bound-enemy-word/README.md)
-- [exploration/DIR-011-scar-linked-enemy/README.md](../exploration/DIR-011-scar-linked-enemy/README.md)
-- [exploration/DIR-012-sentence-handoff/README.md](../exploration/DIR-012-sentence-handoff/README.md)
-- [exploration/DIR-013-rhythm-budget/README.md](../exploration/DIR-013-rhythm-budget/README.md)
-- [exploration/DIR-014-bounded-ready-window/README.md](../exploration/DIR-014-bounded-ready-window/README.md)
-- [exploration/DIR-015-wand-follow-clock/README.md](../exploration/DIR-015-wand-follow-clock/README.md)
-- [exploration/DIR-016-field-time-projection/README.md](../exploration/DIR-016-field-time-projection/README.md)
-- [exploration/DIR-017-pending-spell-circle/README.md](../exploration/DIR-017-pending-spell-circle/README.md)
-- [exploration/DIR-018-patrol-cast-range/README.md](../exploration/DIR-018-patrol-cast-range/README.md)
-- [exploration/DIR-019-informed-expedition/README.md](../exploration/DIR-019-informed-expedition/README.md)
-- [exploration/DIR-020-committed-trial/README.md](../exploration/DIR-020-committed-trial/README.md)
-- [exploration/DIR-021-wave-workshop/README.md](../exploration/DIR-021-wave-workshop/README.md)
-- [exploration/DIR-022-puzzle-circuit/README.md](../exploration/DIR-022-puzzle-circuit/README.md)
-- [exploration/DIR-023-dual-reward/README.md](../exploration/DIR-023-dual-reward/README.md)
-- [exploration/DIR-024-borrow-word-formation/README.md](../exploration/DIR-024-borrow-word-formation/README.md)
-- [exploration/DIR-025-spell-commission/README.md](../exploration/DIR-025-spell-commission/README.md)
-- [exploration/DIR-026-self-built-ruins/README.md](../exploration/DIR-026-self-built-ruins/README.md)
-- [exploration/DIR-027-spell-principle-trial/README.md](../exploration/DIR-027-spell-principle-trial/README.md)
-- [exploration/DIR-028-timeline-depth/E-2026-10-01-timeline-production-system.md](../exploration/DIR-028-timeline-depth/E-2026-10-01-timeline-production-system.md)
-- [exploration/DIR-028-timeline-depth/M-2026-10-01-resource-card-pool.md](../exploration/DIR-028-timeline-depth/M-2026-10-01-resource-card-pool.md)
-- [exploration/DIR-028-timeline-depth/M-2026-10-01-timeline-production-core.md](../exploration/DIR-028-timeline-depth/M-2026-10-01-timeline-production-core.md)
-- [exploration/DIR-028-timeline-depth/P-2026-10-01-timeline-production-system.md](../exploration/DIR-028-timeline-depth/P-2026-10-01-timeline-production-system.md)
-- [exploration/DIR-028-timeline-depth/README.md](../exploration/DIR-028-timeline-depth/README.md)
-- [exploration/DIR-028-timeline-depth/compatibility-audit-2026-10-01.md](../exploration/DIR-028-timeline-depth/compatibility-audit-2026-10-01.md)
-- [exploration/DIR-028-timeline-depth/compatible-rules-reuse.md](../exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)
-- [exploration/DIR-028-timeline-depth/reading-log.md](../exploration/DIR-028-timeline-depth/reading-log.md)
-- [exploration/DIR-029-timeline-card-battle/R-2026-09-24-chain-flip-visual-references.md](../exploration/DIR-029-timeline-card-battle/R-2026-09-24-chain-flip-visual-references.md)
-- [exploration/DIR-029-timeline-card-battle/R-2026-09-24-flipping-games-ui.md](../exploration/DIR-029-timeline-card-battle/R-2026-09-24-flipping-games-ui.md)
-- [exploration/DIR-029-timeline-card-battle/README.md](../exploration/DIR-029-timeline-card-battle/README.md)
-- [exploration/DIR-029-timeline-card-battle/UI-2026-09-25-pawn-and-card-motion.md](../exploration/DIR-029-timeline-card-battle/UI-2026-09-25-pawn-and-card-motion.md)
-- [exploration/DIR-029-timeline-card-battle/UI-2026-09-25-timeline-flip-structure.md](../exploration/DIR-029-timeline-card-battle/UI-2026-09-25-timeline-flip-structure.md)
-- [exploration/DIR-029-timeline-card-battle/ui-concept-v1-prompt.txt](../exploration/DIR-029-timeline-card-battle/ui-concept-v1-prompt.txt)
-- [exploration/DIR-029-timeline-card-battle/ui-concept-v1.png](../exploration/DIR-029-timeline-card-battle/ui-concept-v1.png)
-- [exploration/DIR-029-timeline-card-battle/ui-concept-v2-tarot-prompt.txt](../exploration/DIR-029-timeline-card-battle/ui-concept-v2-tarot-prompt.txt)
-- [exploration/DIR-029-timeline-card-battle/ui-concept-v2-tarot.png](../exploration/DIR-029-timeline-card-battle/ui-concept-v2-tarot.png)
-- [exploration/DIR-029-timeline-card-battle/ui-concept-v3-overlap-prompt.txt](../exploration/DIR-029-timeline-card-battle/ui-concept-v3-overlap-prompt.txt)
-- [exploration/DIR-029-timeline-card-battle/ui-concept-v3-overlap.png](../exploration/DIR-029-timeline-card-battle/ui-concept-v3-overlap.png)
-- [exploration/DIR-029-timeline-card-battle/ui-concept-v4-handpainted-prompt.txt](../exploration/DIR-029-timeline-card-battle/ui-concept-v4-handpainted-prompt.txt)
-- [exploration/DIR-029-timeline-card-battle/ui-concept-v4-handpainted.png](../exploration/DIR-029-timeline-card-battle/ui-concept-v4-handpainted.png)
-- [exploration/DIR-029-timeline-card-battle/ui-concept-v5-simple-structure-prompt.txt](../exploration/DIR-029-timeline-card-battle/ui-concept-v5-simple-structure-prompt.txt)
-- [exploration/DIR-029-timeline-card-battle/ui-concept-v5-simple-structure.png](../exploration/DIR-029-timeline-card-battle/ui-concept-v5-simple-structure.png)
-- [exploration/DIR-029-timeline-card-battle/ui-concept-v6-fixed-pawns-prompt.txt](../exploration/DIR-029-timeline-card-battle/ui-concept-v6-fixed-pawns-prompt.txt)
-- [exploration/DIR-029-timeline-card-battle/ui-concept-v6-fixed-pawns.png](../exploration/DIR-029-timeline-card-battle/ui-concept-v6-fixed-pawns.png)
-- [exploration/DIR-029-timeline-card-battle/ui-concept-v7-single-lane-prompt.txt](../exploration/DIR-029-timeline-card-battle/ui-concept-v7-single-lane-prompt.txt)
-- [exploration/DIR-029-timeline-card-battle/ui-concept-v7-single-lane.png](../exploration/DIR-029-timeline-card-battle/ui-concept-v7-single-lane.png)
-- [exploration/DIR-029-timeline-card-battle/ui-concept-v8-ornate-cards-prompt.txt](../exploration/DIR-029-timeline-card-battle/ui-concept-v8-ornate-cards-prompt.txt)
-- [exploration/DIR-029-timeline-card-battle/ui-concept-v8-ornate-cards.png](../exploration/DIR-029-timeline-card-battle/ui-concept-v8-ornate-cards.png)
-- [exploration/DIR-029-timeline-card-battle/ui-concept-v9-full-tabletop-prompt.txt](../exploration/DIR-029-timeline-card-battle/ui-concept-v9-full-tabletop-prompt.txt)
-- [exploration/DIR-029-timeline-card-battle/ui-concept-v9-full-tabletop.png](../exploration/DIR-029-timeline-card-battle/ui-concept-v9-full-tabletop.png)
-- [exploration/DIR-029-timeline-card-battle/ui-reference-v4-user.png](../exploration/DIR-029-timeline-card-battle/ui-reference-v4-user.png)
-- [exploration/DIR-029-timeline-card-battle/user-reference-v8-ornate-cards.png](../exploration/DIR-029-timeline-card-battle/user-reference-v8-ornate-cards.png)
-- [exploration/DIR-030-card-rule-design/README.md](../exploration/DIR-030-card-rule-design/README.md)
 - [exploration/README.md](../exploration/README.md)
 - [exploration/comparison.md](../exploration/comparison.md)
 - [exploration/start.md](../exploration/start.md)
 
-## governance（15）
+## governance（13）
 
 - [governance/README.md](README.md)
+- [governance/agent-collaboration.md](agent-collaboration.md)
 - [governance/card-review-workflow.md](card-review-workflow.md)
 - [governance/cleanup-map.json](cleanup-map.json)
 - [governance/cleanup-report.md](cleanup-report.md)
@@ -127,9 +67,6 @@
 - [governance/id-registry.md](id-registry.md)
 - [governance/questions.md](questions.md)
 - [governance/rule-index.md](rule-index.md)
-- [governance/time-axis-review.md](time-axis-review.md)
-- [governance/time-axis-review/coverage.md](time-axis-review/coverage.md)
-- [governance/time-axis-review/sources.md](time-axis-review/sources.md)
 
 ## history（117）
 
@@ -251,13 +188,7 @@
 - [history/exploration-2026-09-24/simulations/OPT-20260909-001-casting-direction-plan.md](../history/exploration-2026-09-24/simulations/OPT-20260909-001-casting-direction-plan.md)
 - [history/exploration-2026-09-24/simulations/OPT-20260909-002-spell-expedition-loop-plan.md](../history/exploration-2026-09-24/simulations/OPT-20260909-002-spell-expedition-loop-plan.md)
 
-## research（3）
-
-- [research/03-product-case-studies/2026-09-09-prebattle-ui-reference.md](../research/03-product-case-studies/2026-09-09-prebattle-ui-reference.md)
-- [research/03-product-case-studies/2026-09-13-astra-game-development-stack.md](../research/03-product-case-studies/2026-09-13-astra-game-development-stack.md)
-- [research/03-product-case-studies/2026-09-13-godot-blender-workflow-comparison.md](../research/03-product-case-studies/2026-09-13-godot-blender-workflow-comparison.md)
-
-## sources（165）
+## sources（172）
 
 - [sources/README.md](../sources/README.md)
 - [sources/draft-changes/D-2026-09-09-automatic-battle-boundaries.md](../sources/draft-changes/D-2026-09-09-automatic-battle-boundaries.md)
@@ -282,6 +213,7 @@
 - [sources/draft-changes/D-2026-09-30-document-cleanup.md](../sources/draft-changes/D-2026-09-30-document-cleanup.md)
 - [sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md)
 - [sources/draft-changes/D-2026-10-01-timeline-production-core.md](../sources/draft-changes/D-2026-10-01-timeline-production-core.md)
+- [sources/draft-changes/D-2026-10-04-artifact-inscription-core.md](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)
 - [sources/draft-changes/README.md](../sources/draft-changes/README.md)
 - [sources/evaluations/E-2026-09-10-instance-and-conditional-binding.md](../sources/evaluations/E-2026-09-10-instance-and-conditional-binding.md)
 - [sources/evaluations/E-2026-09-10-semantic-world-executable-rules.md](../sources/evaluations/E-2026-09-10-semantic-world-executable-rules.md)
@@ -293,6 +225,8 @@
 - [sources/evaluations/E-2026-09-11-spell-type-system.md](../sources/evaluations/E-2026-09-11-spell-type-system.md)
 - [sources/evaluations/E-2026-09-12-first-person-grid-battlefield.md](../sources/evaluations/E-2026-09-12-first-person-grid-battlefield.md)
 - [sources/evaluations/E-2026-09-12-wand-inlay-system.md](../sources/evaluations/E-2026-09-12-wand-inlay-system.md)
+- [sources/evaluations/E-2026-10-01-timeline-production-system.md](../sources/evaluations/E-2026-10-01-timeline-production-system.md)
+- [sources/evaluations/E-2026-10-04-artifact-inscription-core.md](../sources/evaluations/E-2026-10-04-artifact-inscription-core.md)
 - [sources/evaluations/README.md](../sources/evaluations/README.md)
 - [sources/gdd-drafts/README.md](../sources/gdd-drafts/README.md)
 - [sources/inbox/2026-09-05-vocabulary-design-questions.md](../sources/inbox/2026-09-05-vocabulary-design-questions.md)
@@ -412,6 +346,8 @@
 - [sources/materials/M-2026-09-14-first-release-parameters-and-channels.md](../sources/materials/M-2026-09-14-first-release-parameters-and-channels.md)
 - [sources/materials/M-2026-09-14-interface-platform-and-experience.md](../sources/materials/M-2026-09-14-interface-platform-and-experience.md)
 - [sources/materials/M-2026-09-14-run-route-encounters-and-fatigue.md](../sources/materials/M-2026-09-14-run-route-encounters-and-fatigue.md)
+- [sources/materials/M-2026-10-01-timeline-production-core.md](../sources/materials/M-2026-10-01-timeline-production-core.md)
+- [sources/materials/M-2026-10-04-artifact-inscription-core.md](../sources/materials/M-2026-10-04-artifact-inscription-core.md)
 - [sources/materials/README.md](../sources/materials/README.md)
 - [sources/proposals/P-2026-09-10-instance-and-conditional-binding.md](../sources/proposals/P-2026-09-10-instance-and-conditional-binding.md)
 - [sources/proposals/P-2026-09-10-semantic-world-executable-rules.md](../sources/proposals/P-2026-09-10-semantic-world-executable-rules.md)
@@ -423,6 +359,8 @@
 - [sources/proposals/P-2026-09-11-spell-type-system.md](../sources/proposals/P-2026-09-11-spell-type-system.md)
 - [sources/proposals/P-2026-09-12-first-person-grid-battlefield.md](../sources/proposals/P-2026-09-12-first-person-grid-battlefield.md)
 - [sources/proposals/P-2026-09-12-wand-inlay-system.md](../sources/proposals/P-2026-09-12-wand-inlay-system.md)
+- [sources/proposals/P-2026-10-01-timeline-production-system.md](../sources/proposals/P-2026-10-01-timeline-production-system.md)
+- [sources/proposals/P-2026-10-04-artifact-inscription-core.md](../sources/proposals/P-2026-10-04-artifact-inscription-core.md)
 - [sources/proposals/README.md](../sources/proposals/README.md)
 
 ## visual（18）
@@ -451,12 +389,3 @@
 - [AGENTS.md](../AGENTS.md)
 - [CONTEXT.md](../CONTEXT.md)
 - [README.md](../README.md)
-
-## 2026-10-04 INS-1局部新增登记（4）
-
-- [法器铭刻M](../exploration/DIR-036-sentence-inscription-redesign/M-2026-10-04-artifact-inscription-core.md)
-- [法器铭刻P](../exploration/DIR-036-sentence-inscription-redesign/P-2026-10-04-artifact-inscription-core.md)
-- [法器铭刻E](../exploration/DIR-036-sentence-inscription-redesign/E-2026-10-04-artifact-inscription-core.md)
-- [法器铭刻D](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)
-
-仅登记本任务正式文件；原索引统计按其生成时点解释，未收录或读取其他未提交资产。

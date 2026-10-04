@@ -269,7 +269,7 @@ Accepted / Hypothesis / NotRun。用户要求“将之前材料中不冲突且�
 
 己方目标选取适配到生效时，材料不是执行者，制造成本不因空放退款，携带选择与收益包分开。明确复用休整3选1及新局0金币，不恢复同名3张、旧开局、旧卡池、格子、旧冷却或参数。已揭示敌牌是否随来源死亡取消仍Unknown。此前INT-01–13与TL-01–25继续优先，具体干涉能力延期。
 
-[复用记录](../exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)／[D](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md)。本次只完善TL-1文档，修订reuse.1；成熟度仍GDD-0，没有新玩法测试。
+[复用记录](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)／[D](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md)。本次只完善TL-1文档，修订reuse.1；成熟度仍GDD-0，没有新玩法测试。
 
 ## 2026-10-04：法器铭刻主系统采纳（G002-CORE-049）
 
@@ -280,3 +280,10 @@ Accepted / Hypothesis / NotRun。用户明确要求“将其回写到主系统�
 CORE-041的材料—动作—目标入口被替代，铭文实体占用与耗材分账保留。完整自由构句、任意修饰挂接与法器直接资源交付退出当前规则；效果目标、材料托管、有限队列、实际顺延、节点经济及保存边界兼容继承。高阶材料来源／加工Unknown，资源维护与携带只在内容明确提供时适用。
 
 具体法器与卡池、卡效／制造映射、打造成本／时机／持久范围、契合形式与叠加不随之采纳；剑与盾之符为方向种子，模型例子仍候选。无新实验或实现证据，原方向Raw内容与原CORE背景版本保留。
+
+
+## 2026-10-04探索方向退役（G002-DOC-010）
+
+用户原话：“经我审查目前方向价值不高，部分测试、UI等低价值信息可以后续重做，开始执行删除”。据此删除DIR-001至DIR-036，清空活动方向与旧卡表／UI候选入口。只迁移DIR-028、036已采纳来源所需的六份M/P/E，修正活动引用；其余构思、独有失败路径、原确认和证据按固定Git取证，未提交字节先在仓库外校验备份。
+
+状态：Accepted / Documentation；不改变CORE-037–049、GDD 2.1 / TL-1 + INS-1的采纳范围，不关闭TL／INS未决项，不启动或宣称新实验。外部实现仓库与既有冻结history未删除；新方向从DIR-037继续。逐项处理与恢复见[清理报告](cleanup-report.md#2026-10-04探索方向退役)及[清单](cleanup-map.json)。

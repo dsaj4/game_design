@@ -31,7 +31,7 @@
 
 修订r1 / TL-1。分类：产物强化。候选TS-08托管辉核并付火种、耗时，成功后返还同一身份并加增幅；上限与伤害公式为候选数字，不自动采纳。中断按生产规则退输入，既有增幅不凭返工增加；休眠期能否接受加工待定。达到上限时不吃料空转为候选边界。增幅不复制资源身份，跨战清零。正例：付火种换后续更大攻击；边界：被打断／维护到期；反例：复制两个满级辉核。来源：新卡表M，待输入冻结后同预算比较，NotRun。
 
-新增登记共同来源：[核心M](../exploration/DIR-028-timeline-depth/M-2026-10-01-timeline-production-core.md)／[卡表M](../exploration/DIR-028-timeline-depth/M-2026-10-01-resource-card-pool.md)／[采纳D](../sources/draft-changes/D-2026-10-01-timeline-production-core.md)。具体付费干涉能力按用户要求延期，不在FX中补造能力。
+新增登记共同来源：[核心M](../sources/materials/M-2026-10-01-timeline-production-core.md)／[卡表M](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/M-2026-10-01-resource-card-pool.md)／[采纳D](../sources/draft-changes/D-2026-10-01-timeline-production-core.md)。具体付费干涉能力按用户要求延期，不在FX中补造能力。
 
 ## 原目录：RC1与更早版本
 

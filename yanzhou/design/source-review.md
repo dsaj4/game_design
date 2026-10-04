@@ -8,14 +8,14 @@ Project ID：game-002。文档角色：SourceReview。2026-10-04。当前GDD-0 /
 
 | 来源 | 资格／采纳 | 用途与限制 |
 | --- | --- | --- |
-| [DIR-028核心素材](../exploration/DIR-028-timeline-depth/M-2026-10-01-timeline-production-core.md) | Qualified；确认结构Accepted | 自动产线、有限队列、敌牌倒计时、自动维护恢复、保存与本轮INT边界 |
-| [DIR-028新卡表](../exploration/DIR-028-timeline-depth/M-2026-10-01-resource-card-pool.md) | Qualified；通用边界局部Accepted，具体内容Proposed | 材料句法等仅按用户答复采纳；13词／4资源／4行动及全部数字没有整包采纳 |
-| [P](../exploration/DIR-028-timeline-depth/P-2026-10-01-timeline-production-system.md)／[E](../exploration/DIR-028-timeline-depth/E-2026-10-01-timeline-production-system.md)／[D](../sources/draft-changes/D-2026-10-01-timeline-production-core.md) | 正式过程记录 | 结构替代关系、风险、用户授权；不是实验结果 |
+| [DIR-028核心素材](../sources/materials/M-2026-10-01-timeline-production-core.md) | Qualified；确认结构Accepted | 自动产线、有限队列、敌牌倒计时、自动维护恢复、保存与本轮INT边界 |
+| [DIR-028新卡表](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/M-2026-10-01-resource-card-pool.md) | Qualified；通用边界局部Accepted，具体内容Proposed | 材料句法等仅按用户答复采纳；13词／4资源／4行动及全部数字没有整包采纳 |
+| [P](../sources/proposals/P-2026-10-01-timeline-production-system.md)／[E](../sources/evaluations/E-2026-10-01-timeline-production-system.md)／[D](../sources/draft-changes/D-2026-10-01-timeline-production-core.md) | 正式过程记录 | 结构替代关系、风险、用户授权；不是实验结果 |
 | DIR-028第7轮UI与HTML | Raw / Unqualified | 仅展示候选；发布网站不等于采纳页面布局 |
 
 ## 旧来源逐类处置
 
-原68份素材与47份inbox的资格、形成过程及原采纳结论保留；本轮不从未读旧inbox抽取新规则。其现行适用性以本表与[逐文件清单](../exploration/DIR-028-timeline-depth/reading-log.md)为准，而非文件里的历史“当前”。
+原68份素材与47份inbox的资格、形成过程及原采纳结论保留；本轮不从未读旧inbox抽取新规则。其现行适用性以本表与[逐文件清单](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/reading-log.md)为准，而非文件里的历史“当前”。
 
 | 旧规则来源族 | TL-1处置 | 原因 |
 | --- | --- | --- |
@@ -37,16 +37,21 @@ Project ID：game-002。文档角色：SourceReview。2026-10-04。当前GDD-0 /
 
 ## 第9轮兼容复用审查
 
-以TL-1提交`ed013948f6c5379fc984413ffd08ae8e7ce0f0c9`继续复核旧Qualified材料的相关规范化章节。[21份直接复用来源表](../exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)逐项列出TL-26–37的当前落点和禁止迁入部分；另两份数值／遭遇素材只作边界对照。旧材料页添加当前适用范围，原文保留。没有把68份素材或47份inbox声称为本轮全文重审。
+以TL-1提交`ed013948f6c5379fc984413ffd08ae8e7ce0f0c9`继续复核旧Qualified材料的相关规范化章节。[21份直接复用来源表](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)逐项列出TL-26–37的当前落点和禁止迁入部分；另两份数值／遭遇素材只作边界对照。旧材料页添加当前适用范围，原文保留。没有把68份素材或47份inbox声称为本轮全文重审。
 
-采用用户明确授权合并的兼容条款，通过既有[P/E第9轮](../exploration/DIR-028-timeline-depth/P-2026-10-01-timeline-production-system.md)及[新D](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md)记录CORE-048。改变的是当前使用范围，不重写原资格或补造原确认。具体阅读覆盖和固定blob见[reading-log第9轮](../exploration/DIR-028-timeline-depth/reading-log.md)。
+采用用户明确授权合并的兼容条款，通过既有[P/E第9轮](../sources/proposals/P-2026-10-01-timeline-production-system.md)及[新D](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md)记录CORE-048。改变的是当前使用范围，不重写原资格或补造原确认。具体阅读覆盖和固定blob见[reading-log第9轮](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/reading-log.md)。
 
 由此补回构句／绑定／修饰、护甲／支付、真实配置、路线／库存／节点经济及保存约束。旧“施法开始”“执行者”“无目标免付”“整包收益”均按新阶段限定，不覆盖材料句法、空放制造损失、资源携带和战中恢复。没有新的发行卡、效果身份、玩法实测或UI采纳。
 
 ## INS-1法器铭刻局部复审（2026-10-04）
 
-[DIR-036局部M](../exploration/DIR-036-sentence-inscription-redesign/M-2026-10-04-artifact-inscription-core.md) Qualified、[P](../exploration/DIR-036-sentence-inscription-redesign/P-2026-10-04-artifact-inscription-core.md)／[E](../exploration/DIR-036-sentence-inscription-redesign/E-2026-10-04-artifact-inscription-core.md)与[D／CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)记录限定采纳。比较输入`a4a7aea8500970ef3504a62e576fc99f08c566db`，逐文件blob与全文／局部覆盖在E；本轮不声称全读历史、其他方向或所有旧候选卡表。
+[DIR-036局部M](../sources/materials/M-2026-10-04-artifact-inscription-core.md) Qualified、[P](../sources/proposals/P-2026-10-04-artifact-inscription-core.md)／[E](../sources/evaluations/E-2026-10-04-artifact-inscription-core.md)与[D／CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)记录限定采纳。比较输入`a4a7aea8500970ef3504a62e576fc99f08c566db`，逐文件blob与全文／局部覆盖在E；本轮不声称全读历史、其他方向或所有旧候选卡表。
 
 上表及第9轮记录保留当时使用情况；当前适用按以下覆盖：TL-20入口与CORE-041材料—动作—目标已替代；实体占用、耗材分账和卡效绑定继续适用；修饰目的地改为法器辅槽预设；法器直接资源输出退出，高阶材料来源／加工Unknown，资源维护与携带只在内容明确提供时成立。TL-38–45以用户确认结构为来源，不纳入模型推荐或发行例子。
 
 原Qualified卡表保持原资格与历史含义，但完整程序、材料／目标角色与直接资源生产内容须按INS-1复审后才能发行。未更改其原文或声称整池重新合格。原CORE背景不刷新，没有新FX、实验或实现证据。
+
+
+## 2026-10-04探索退役后的来源状态
+
+用户明确审查后决定删除全部现有方向，测试、UI等信息可后续重做。DIR-001–036的未采纳候选不再进入当前待审清单；上述表格保留原轮次资格与使用事实。DIR-028、036的六份已采纳M/P/E已迁入sources，其原始答复、兼容审查和覆盖记录通过固定Git链接取证。CORE-037–049与现行规则未因清理撤销，未知内容不由旧试点补齐。详情见[清理记录](../governance/cleanup-report.md#2026-10-04探索方向退役)。

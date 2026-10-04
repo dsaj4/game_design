@@ -8,7 +8,7 @@
 | --- | --- |
 | 素材ID | MAT-2026-10-01-timeline-production-core |
 | 类型／项目 | Mechanic / System / Constraint；来源game-002-optimization，目标game-002 |
-| 原始来源 | [README第3–6轮与第8轮](README.md)，本会话用户六点原始输入、逐次答复及INT-01–13 |
+| 原始来源 | [README第3–6轮与第8轮](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/README.md)，本会话用户六点原始输入、逐次答复及INT-01–13 |
 | 资格确认 | 2026-10-01；grill-with-docs；已确认表达＋现行细则兼容性核对 |
 | 负责人 | 用户：设计决定；Codex：规则整理、资格检查与影响分析 |
 | 输入基准 | `d6e54af395518401fb4d8466b2302a1271da557a`；具体覆盖见reading-log |
@@ -87,10 +87,12 @@
 
 ## 使用记录
 
-2026-10-01：进入[P](P-2026-10-01-timeline-production-system.md)、[E](E-2026-10-01-timeline-production-system.md)与[目标Draft Change](../../sources/draft-changes/D-2026-10-01-timeline-production-core.md)；仅明确采纳范围进入TL-1。
+2026-10-01：进入[P](../proposals/P-2026-10-01-timeline-production-system.md)、[E](../evaluations/E-2026-10-01-timeline-production-system.md)与[目标Draft Change](../draft-changes/D-2026-10-01-timeline-production-core.md)；仅明确采纳范围进入TL-1。
 
 ## 本轮继续确认的边界
 
 用户INT-05–10已明确采纳材料—动作—目标、维护不足休眠保留与补料恢复、无目标空放不退款补发、维护优先与战前杖序争用、递增疲劳重定参数，以及部分资源与高阶产物跨战。完整答复、替代范围见D；不将整张候选卡表和数字一并采纳。
 
 INT-11–13继续确认可携带标签、基础环境料清空、共用容量及战后偏好；仅资源种类与数量保留，增幅与运行状态全部重置。此为数量继承，不采纳旧建议的跨战继续维护计时。容量数字与战终托管仍Unknown。
+
+> 2026-10-04来源迁移：原探索方向已退役，本文件迁入主系统来源目录。原资格、限定采纳范围和证据状态不变；原文中的轮次与“当前”按原日期解释。[迁移前固定版本](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/M-2026-10-01-timeline-production-core.md)。
