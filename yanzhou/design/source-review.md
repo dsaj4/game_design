@@ -55,3 +55,11 @@ Project ID：game-002。文档角色：SourceReview。2026-10-04。当前GDD-0 /
 ## 2026-10-04探索退役后的来源状态
 
 用户明确审查后决定删除全部现有方向，测试、UI等信息可后续重做。DIR-001–036的未采纳候选不再进入当前待审清单；上述表格保留原轮次资格与使用事实。DIR-028、036的六份已采纳M/P/E已迁入sources，其原始答复、兼容审查和覆盖记录通过固定Git链接取证。CORE-037–049与现行规则未因清理撤销，未知内容不由旧试点补齐。详情见[清理记录](../governance/cleanup-report.md#2026-10-04探索方向退役)。
+
+## routing.1：敌情、资源优先级与供料调时澄清
+
+[原话与答复](../sources/inbox/2026-10-04-routing-response-clarification.md)中第1–3项及供料调时答复已形成[局部Qualified M](../sources/materials/M-2026-10-04-routing-response-clarification.md)、[E](../sources/evaluations/E-2026-10-04-routing-response-clarification.md)与[CORE-050采纳D](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)。这是现有机制的限定澄清，沿M→E→D回写，不另作完整新系统提案。
+
+比较输入`b0754e5c08273201f4b04639a371ff2da16cafe6`。使用本轮用户说明、当前系统及其审查，不扩读退役方向或借历史实现补规则；受影响条款为TL-05／06／09／16／23／30及对应展示／验收。所有敌方行动牌Δ＞0；供料去向与优先级可临时调整，只影响未来未承诺批次；规避打断先通过供料间接改未来开工。维护优先、托管、战前争入行顺序与普通队列保留。
+
+第4项关于拥堵是玩家操作后果的意见用于修订AUD-022；其中付费调牌序能力仍Raw / Unqualified，仅保存在inbox，未进入本次Qualified玩法范围。三端不固定物理端口或卡类，“5回合”不固化数值，运转具体配方与资源来源、恢复触发／重叠及额外调时均未决。无Observed玩家证据，全部NotRun。

@@ -46,6 +46,10 @@ G002-CORE-049：DIR-036法器铭刻局部采纳，Accepted / Hypothesis / NotRun
 
 G002-DOC-010：2026-10-04探索方向退役，Accepted / Documentation。DIR-001–036全部保留为历史ID、不复用；活动方向0，下一编号DIR-037。六份已采纳来源迁入sources，其余按固定Git或仓库外恢复副本取证，不新增CORE采纳或实验结果。
 
-## 当前登记补充（2026-10-04）
+## 主系统审查登记快照（2026-10-04 / DOC-011）
 
 G002-DOC-011：主系统一致性审查与旧版效果资料清理，Accepted / Documentation。AUD-015–020为已修正文档问题，AUD-021–030为Open设计风险／边界；详情见conflict-register。TL-20为已替代历史ID，现行TL-01–19、TL-21–45共44个规则；TL-V01–37与INS-V01–09共46个未执行预期。TC／TR／TS／TA／TE为退役候选身份，不复用改义；当前无新发行池。
+
+## 当前增量（2026-10-04 / routing.1）
+
+G002-CORE-050：延时敌情与三端供料调度澄清，Accepted / Hypothesis / NotRun；见[采纳D](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)。MAT／E／D-G002-RTE-20261004为本轮来源身份，未新增完整P、FX或发行卡。TL-05／06／09／23／30等现行条款局部细化，规则ID仍44个；新增TL-V38–40，现行TL-V01–40与INS-V01–09共49个未执行预期。AUD-021／022的意图疑问已澄清，窗口与反馈尚待内容验证；其他风险不因此关闭。

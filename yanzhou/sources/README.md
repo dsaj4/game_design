@@ -29,3 +29,7 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 ## INS-1来源链（CORE-049）
 
 [DIR-036 Raw原话](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-036-sentence-inscription-redesign/README.md) → [局部Qualified M](materials/M-2026-10-04-artifact-inscription-core.md) → [P](proposals/P-2026-10-04-artifact-inscription-core.md)／[E](evaluations/E-2026-10-04-artifact-inscription-core.md) → [采纳D](draft-changes/D-2026-10-04-artifact-inscription-core.md)。主系统采用已确认的铭刻结构；整个方向与未决卡效／打造／契合不自动提升资格。
+
+## routing.1来源链（CORE-050）
+
+[原话／调时答复](inbox/2026-10-04-routing-response-clarification.md) → [局部Qualified M](materials/M-2026-10-04-routing-response-clarification.md) → [E](evaluations/E-2026-10-04-routing-response-clarification.md) → [采纳D](draft-changes/D-2026-10-04-routing-response-clarification.md)。仅全敌牌正延迟、未来供料调度及供料调时范围进入当前规则；付费调牌序保持inbox Raw候选。

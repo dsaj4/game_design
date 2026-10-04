@@ -26,3 +26,5 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 ## TL-1
 
 - [E-2026-10-01-timeline-production-system](E-2026-10-01-timeline-production-system.md)：文档评估 / Hypothesis / NotRun。
+
+- [延时敌情与供料调度E](E-2026-10-04-routing-response-clarification.md)：文档评估，Hypothesis / NotRun；修订AUD-021／022的过度推断。

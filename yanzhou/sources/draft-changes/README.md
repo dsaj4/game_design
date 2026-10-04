@@ -40,3 +40,5 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 - [D-2026-10-01-compatible-rules-reuse](D-2026-10-01-compatible-rules-reuse.md)：CORE-048，TL-26–37兼容条款合并；具体新卡表／数值仍未整包采纳。
 
 - [D-2026-10-04-artifact-inscription-core](D-2026-10-04-artifact-inscription-core.md)：CORE-049／TL-38–45，法器铭刻结构局部Accepted；具体卡效、材料、打造与契合形式仍Unknown。
+
+- [延时敌情与供料调度D](D-2026-10-04-routing-response-clarification.md)：CORE-050 / routing.1，限定Accepted；额外调时待定，付费调牌序未采纳。

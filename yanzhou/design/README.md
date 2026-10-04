@@ -25,3 +25,5 @@ Project ID：game-002。文档角色：Navigation。更新：2026-10-04。当前
 兼容材料已按[CORE-048](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md)补入TL-26–37（文档修订reuse.1）：构句／对象／支付、单向路线、库存与节点选择、保存及数量合同。使用旧材料时先核对[逐来源适用表](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)，不从历史正文补入未定新参数。
 
 INS-1按[CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)采纳TL-38–45；替代完整自由构句、TL-20入口与法器直接资源交付，明确主辅槽和行动输出。未决卡效、打造费用与契合形式不因本次回写变成已定规则。
+
+局部修订routing.1按[CORE-050](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)明确全敌牌正延迟、未承诺批次的临时供料优先级及供料调时；成品争入行仍用战前法器序。GDD版本与成熟度不变。

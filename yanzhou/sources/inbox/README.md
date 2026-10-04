@@ -53,3 +53,5 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 - [2026-09-14-host-range-starting-content](2026-09-14-host-range-starting-content.md)
 - [2026-09-14-interface-platform-and-experience](2026-09-14-interface-platform-and-experience.md)
 - [2026-09-14-run-route-encounters-and-fatigue](2026-09-14-run-route-encounters-and-fatigue.md)
+
+- [延时敌情与路由澄清原话](2026-10-04-routing-response-clarification.md)：第1–3项与调时答复已局部提升；付费调牌序仍Raw / Unqualified。
