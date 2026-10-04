@@ -2,7 +2,7 @@
 
 自动生成：`python tools/docs.py index`。当前工作树存在的Git跟踪或未忽略文件；不据此授予游戏材料阅读权限。
 
-共 418 份。日常工作从[项目首页](../README.md)开始；历史内容按固定版本解释。
+上次自动生成快照计数为418份；本轮只追加下面4份INS-1正式记录，不重新统计其他任务的未提交变动。日常工作从[项目首页](../README.md)开始；历史内容按固定版本解释。
 
 ## design（19）
 
@@ -451,3 +451,12 @@
 - [AGENTS.md](../AGENTS.md)
 - [CONTEXT.md](../CONTEXT.md)
 - [README.md](../README.md)
+
+## 2026-10-04 INS-1局部新增登记（4）
+
+- [法器铭刻M](../exploration/DIR-036-sentence-inscription-redesign/M-2026-10-04-artifact-inscription-core.md)
+- [法器铭刻P](../exploration/DIR-036-sentence-inscription-redesign/P-2026-10-04-artifact-inscription-core.md)
+- [法器铭刻E](../exploration/DIR-036-sentence-inscription-redesign/E-2026-10-04-artifact-inscription-core.md)
+- [法器铭刻D](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)
+
+仅登记本任务正式文件；原索引统计按其生成时点解释，未收录或读取其他未提交资产。

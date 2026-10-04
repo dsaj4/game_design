@@ -79,3 +79,7 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 
 - [M-2026-10-01-timeline-production-core](../../exploration/DIR-028-timeline-depth/M-2026-10-01-timeline-production-core.md)：核心Qualified / 已确认范围Accepted。
 - [M-2026-10-01-resource-card-pool](../../exploration/DIR-028-timeline-depth/M-2026-10-01-resource-card-pool.md)：新卡表Qualified / 具体内容Proposed。
+
+## 2026-10-04局部Qualified来源
+
+[DIR-036法器铭刻核心M](../../exploration/DIR-036-sentence-inscription-redesign/M-2026-10-04-artifact-inscription-core.md)留在所属方向，仅TL-38–45与明确兼容范围Qualified，已经[CORE-049](../draft-changes/D-2026-10-04-artifact-inscription-core.md)采纳；不复制原文，不提升整个Raw方向。

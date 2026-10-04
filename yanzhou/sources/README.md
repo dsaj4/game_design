@@ -25,3 +25,7 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 [DIR-028核心M](../exploration/DIR-028-timeline-depth/M-2026-10-01-timeline-production-core.md)／[新卡表M](../exploration/DIR-028-timeline-depth/M-2026-10-01-resource-card-pool.md)／[P](../exploration/DIR-028-timeline-depth/P-2026-10-01-timeline-production-system.md)／[E](../exploration/DIR-028-timeline-depth/E-2026-10-01-timeline-production-system.md)／[采纳D](draft-changes/D-2026-10-01-timeline-production-core.md)。方向内正式文件保持原位置，本索引不复制正文。
 
 第9轮[兼容复用表](../exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)限定21份原Qualified来源的当前使用部分，既有P/E追加本轮论证；[D兼容复用](draft-changes/D-2026-10-01-compatible-rules-reuse.md)记录CORE-048。原文与历史资格保留，现行表述以TL-26–37为准。
+
+## INS-1来源链（CORE-049）
+
+[DIR-036 Raw原话](../exploration/DIR-036-sentence-inscription-redesign/README.md) → [局部Qualified M](../exploration/DIR-036-sentence-inscription-redesign/M-2026-10-04-artifact-inscription-core.md) → [P](../exploration/DIR-036-sentence-inscription-redesign/P-2026-10-04-artifact-inscription-core.md)／[E](../exploration/DIR-036-sentence-inscription-redesign/E-2026-10-04-artifact-inscription-core.md) → [采纳D](draft-changes/D-2026-10-04-artifact-inscription-core.md)。主系统采用已确认的铭刻结构；整个方向与未决卡效／打造／契合不自动提升资格。

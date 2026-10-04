@@ -1,8 +1,10 @@
-# TL-1 素材使用审查
+# TL-1 + INS-1 素材使用审查
 
-Project ID：game-002。文档角色：SourceReview。2026-10-01。当前GDD-0 / 2.0；原RC1审查见[固定版本](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/source-review.md)。
+Project ID：game-002。文档角色：SourceReview。2026-10-04。当前GDD-0 / 2.1；原RC1审查见[固定版本](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/source-review.md)。
 
-## 本轮正式使用
+## TL-1当时正式使用（2026-10-01）
+
+以下至第9轮保留原使用记录；当前INS-1覆盖范围见末节，旧材料句法和直接资源输出不再作为现行入口。
 
 | 来源 | 资格／采纳 | 用途与限制 |
 | --- | --- | --- |
@@ -40,3 +42,11 @@ Project ID：game-002。文档角色：SourceReview。2026-10-01。当前GDD-0 /
 采用用户明确授权合并的兼容条款，通过既有[P/E第9轮](../exploration/DIR-028-timeline-depth/P-2026-10-01-timeline-production-system.md)及[新D](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md)记录CORE-048。改变的是当前使用范围，不重写原资格或补造原确认。具体阅读覆盖和固定blob见[reading-log第9轮](../exploration/DIR-028-timeline-depth/reading-log.md)。
 
 由此补回构句／绑定／修饰、护甲／支付、真实配置、路线／库存／节点经济及保存约束。旧“施法开始”“执行者”“无目标免付”“整包收益”均按新阶段限定，不覆盖材料句法、空放制造损失、资源携带和战中恢复。没有新的发行卡、效果身份、玩法实测或UI采纳。
+
+## INS-1法器铭刻局部复审（2026-10-04）
+
+[DIR-036局部M](../exploration/DIR-036-sentence-inscription-redesign/M-2026-10-04-artifact-inscription-core.md) Qualified、[P](../exploration/DIR-036-sentence-inscription-redesign/P-2026-10-04-artifact-inscription-core.md)／[E](../exploration/DIR-036-sentence-inscription-redesign/E-2026-10-04-artifact-inscription-core.md)与[D／CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)记录限定采纳。比较输入`a4a7aea8500970ef3504a62e576fc99f08c566db`，逐文件blob与全文／局部覆盖在E；本轮不声称全读历史、其他方向或所有旧候选卡表。
+
+上表及第9轮记录保留当时使用情况；当前适用按以下覆盖：TL-20入口与CORE-041材料—动作—目标已替代；实体占用、耗材分账和卡效绑定继续适用；修饰目的地改为法器辅槽预设；法器直接资源输出退出，高阶材料来源／加工Unknown，资源维护与携带只在内容明确提供时成立。TL-38–45以用户确认结构为来源，不纳入模型推荐或发行例子。
+
+原Qualified卡表保持原资格与历史含义，但完整程序、材料／目标角色与直接资源生产内容须按INS-1复审后才能发行。未更改其原文或声称整池重新合格。原CORE背景不刷新，没有新FX、实验或实现证据。

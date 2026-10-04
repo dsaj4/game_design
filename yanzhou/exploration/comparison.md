@@ -73,3 +73,13 @@ Project ID：game-002-optimization。文档角色：ResearchComparison / Adoptio
 ### 后续吸收合同
 
 方向页登记候选修订 → 本地资格确认 → 提案/评估与回写差异 → 目标项目复审和Draft Change → 明确采纳及决策ID → 同步本表。记录“采纳哪些、未采纳哪些、替换哪版、何种证据”；不把方向整体改为Accepted来掩盖局部范围。
+
+## 2026-10-04 DIR-036局部吸收
+
+仅记录本方向吸收，不刷新其他方向背景或资格。
+
+| 来源范围 | 目标与状态 | 保留边界 |
+| --- | --- | --- |
+| DIR-036用户六项种子、R2槽位及三项答复、R3核心收窄 | [局部M](DIR-036-sentence-inscription-redesign/M-2026-10-04-artifact-inscription-core.md) → [P](DIR-036-sentence-inscription-redesign/P-2026-10-04-artifact-inscription-core.md)／[E](DIR-036-sentence-inscription-redesign/E-2026-10-04-artifact-inscription-core.md) → [D／CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)；GDD 2.1 / TL-1 + INS-1 | TL-38–45结构Accepted，整个方向仍有Raw；模型例子和未决形式不采纳 |
+| 旧构句／资源输出接口 | 替代TL-20入口、自由修饰挂接和法器直接资源交付 | 实体占用、材料托管、有限队列和卡效目标保留；高阶材料来源Unknown |
+| 原探索与验证状态 | R1–R3 CORE固定提交不变；R4复审输入`a4a7aea8500970ef3504a62e576fc99f08c566db` | Hypothesis / NotRun；没有实验、实现或新发行池 |

@@ -40,3 +40,5 @@ DIR-028–030为现有方向，不回收旧编号；DIR-028本轮CORE范围已�
 ## 2026-10-01兼容复用
 
 G002-CORE-048：兼容旧材料并入TL-1，Accepted / Hypothesis / NotRun。TL-26–37：实体语义至参数来源的十二组复用规则；TL-V23–37：新增验收预期，全部NotRun。文档修订TL-1 / reuse.1，仍GDD-0；不改旧ID含义，不增加发行实体或新FX身份。
+
+G002-CORE-049：DIR-036法器铭刻局部采纳，Accepted / Hypothesis / NotRun，见[采纳D](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)。TL-38–45：统一法器行动输出、暗句核心、核心必填、预设辅槽、打造、材料绑定、行动类别与核心契合。INS-V01–09：新增验收预期；INS-Q01–07：当前未决。MAT／P／E／D-G002-INS-20261004登记本轮正式来源链。GDD 2.1 / TL-1 + INS-1，仍GDD-0；未新增发行实体或FX，旧TL-20及CORE-041入口按替代范围保留历史身份。
