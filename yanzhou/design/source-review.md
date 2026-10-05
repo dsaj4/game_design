@@ -87,3 +87,9 @@ Include：S1-Q9／10／11／1／5的容量预留不排牌序、按有效供料�
 Include：仅Q12–14的拍末一次开工、a+D、正常空位当拍复用、条件齐备同拍续开／其他材料空位重开、到期—揭示—观察输入关系、基础补给下拍可用与初始库存第0拍可用。Replace：当前正文中对应Unknown。Park／Unknown：复杂总序、维护、多牌内部关系、失效目标与来源死亡、真实内容／参数与UI自动暂停表现。Omit from CurrentSpec：工作包中的临时数值、分析代号和单效果／单张案例限制；它们只用于条件推演，不是发行内容。
 
 八组案例文档复核见E，案例丙入行历史已订正；阶段一交付与未知移交完成，不新增玩法运行证据。前轮M／E／D和本文旧增量保留当时未决范围，当前状态以CORE-053为准。实际读取覆盖与固定blob见E；未全量重审旧素材，不借课程或外部实现替规则作决定。
+
+## enemy.1：阶段二敌情合同与卡面种类（2026-10-05）
+
+输入提交`95c136ed954f70c9d5336552ee5cd30b3e9fcc69`。[阶二Q01–24及各轮答复](../sources/inbox/2026-10-05-stage-two-enemy-pressure.md#2026-10-05第五轮确认与晋级)经[Qualified M](../sources/materials/M-2026-10-05-stage-two-enemy-pressure.md)、[E](../sources/evaluations/E-2026-10-05-stage-two-enemy-pressure.md)和[CORE-054 D](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)进入正文，现有接口细化按M→E→D处理。
+
+Include：固定循环时间表与翻开表公开、四类卡面种类与地域变体规则、打断锁定剩余最长施法及落空、单一来源死亡即胜、伤害与打断大类内敌方先结算、危险开工带展示、首版内容约束与表现方向。Replace：TL-13“敌人全灭判胜”、TL-29来源死亡Unknown。Omit from CurrentSpec：候选敌人的具体数值、分析套组和逐拍路线（只作条件推演）。Park：「字身」、三本原卡背、“战前法器序中D最长”目标规则、“工序不止／随身”、特色扩展表中的新规则类形态。神秘学意象出处未核实，不作为规则依据。

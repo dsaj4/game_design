@@ -47,3 +47,4 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 - [生产与队列接口D](D-2026-10-05-production-queue-interfaces.md)：CORE-052／processing.2；容量不排位、联合检查开工、中断回收下拍可用、入行最早下拍翻开、单份临时供料到期恢复；其余总序与内容仍待定。
 
 - [阶段一共同拍序D](D-2026-10-05-stage-one-common-timing.md)：采纳变更；CORE-053／timing.1采纳Q12–14，阶段一文档完成；示例值与复杂总序未一并采纳，Hypothesis / NotRun。
+- [阶段二敌情合同D](D-2026-10-05-stage-two-enemy-pressure.md)：采纳变更；CORE-054／enemy.1，替代TL-13“敌人全灭判胜”。

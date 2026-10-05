@@ -1,6 +1,6 @@
 # TL-1 + INS-1 参数登记
 
-Project ID：game-002。文档角色：ParameterScope。2026-10-05 / processing.2 + timing.1。结构约束Accepted；未定数值Unknown。旧PG数值见[固定RC1表](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md)。
+Project ID：game-002。文档角色：ParameterScope。2026-10-05 / processing.2 + timing.1 + enemy.1。结构约束Accepted；未定数值Unknown。旧PG数值见[固定RC1表](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md)。
 
 | 参数 | 单位／约束 | 当前值／状态 |
 | --- | --- | --- |
@@ -18,6 +18,10 @@ Project ID：game-002。文档角色：ParameterScope。2026-10-05 / processing.
 | 资源容量／补给 | 张、拍 | 基础周期供给；容量、数量、周期Unknown |
 | 敌牌延迟Δ | 拍 | 从揭示r到T；所有敌方行动牌Δ＞0，具体值逐牌设计；用户“5回合”仅为窗口示例，不固定统一延迟 |
 | 取消截止 | 拍 | 实际生效严格小于T |
+| 来源敌人 | 个／场 | 1；死亡即胜，未到期敌牌作废；附属物不计入，CORE-054 |
+| 敌程序循环长L与翻开偏移 | 拍 | 逐遭遇声明，固定不移动；开战即公开翻开拍，CORE-054 |
+| 打断锁定剩余R | 拍 | R＝a+D−r≥0，取最大者，并列按战前法器序；无施法则无锁定，CORE-054 |
+| 卡面种类 | 类 | 4：攻击／防御／打断／其他，敌我共用，CORE-054 |
 | 玩家干涉费用 | 另定费用单位／战 | 每场固定、暂不成长；额度、回充、共享、价格延期 |
 | 法器与铭文额度 | 个／张 | 随新卡表确定；旧数量不自动迁入 |
 | 生命周期／维护／增幅 | 拍、材料量、级数等 | 资源接口已保留，具体量待定；法器核心契合形式另行待定 |

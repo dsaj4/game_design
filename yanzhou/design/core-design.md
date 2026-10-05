@@ -1,6 +1,6 @@
 # 《言咒》核心设计
 
-Project ID：game-002。文档角色：CoreDesignSummary。2026-10-05 / CORE-SUM-6 / Core Concept v0.11。浓缩[GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1](GDD.md)，采纳范围见[CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)、[routing.1／CORE-050](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)、[processing.1／CORE-051](../sources/draft-changes/D-2026-10-05-single-processing-time.md)与[processing.2／CORE-052](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)。共同拍序见[CORE-053](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)。结构Accepted，当前GDD-0；体验Hypothesis / NotRun。
+Project ID：game-002。文档角色：CoreDesignSummary。2026-10-05 / CORE-SUM-7 / Core Concept v0.12。浓缩[GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1](GDD.md)，采纳范围见[CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)、[routing.1／CORE-050](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)、[processing.1／CORE-051](../sources/draft-changes/D-2026-10-05-single-processing-time.md)与[processing.2／CORE-052](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)。共同拍序见[CORE-053](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)，敌情合同见[CORE-054](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)。结构Accepted，当前GDD-0；体验Hypothesis / NotRun。
 
 ## 核心体验
 
@@ -30,7 +30,7 @@ Project ID：game-002。文档角色：CoreDesignSummary。2026-10-05 / CORE-SUM
 
 ## 敌情、目标与操作
 
-所有敌方行动牌均在揭示后经过正延迟才生效。揭示前只给类型线索，揭示后完整公开效果、目标／范围、到期与打断条件并锁定目标。取消敌牌的行动也经普通队列，必须严格早于到期实际生效；成功后留空档，后续不提前。
+所有敌方行动牌均在揭示后经过正延迟才生效。敌程序是固定循环时间表，开战即公开每张暗牌的位置、翻开拍与种类（攻击／防御／打断／其他，敌我共用通用符号）；揭示后完整公开效果、目标／范围、到期与打断条件并锁定目标。指定打断锁定翻开时剩余时间最长的施法所在法器，到期打断它当时的批次，无批次即落空。取消敌牌的行动也经普通队列，必须严格早于到期实际生效；成功后留空档，后续不提前。
 
 核心不开放目标类别槽，具体行动卡仍独立声明效果目标。己方按本批承诺在生效时选择；实例消失不换同名对象，本次名单不补位，已完成合法结果不回滚。无合法目标空放离队，不退制造材料、不补发；制造与明示效果支付分开。
 
@@ -40,7 +40,7 @@ Project ID：game-002。文档角色：CoreDesignSummary。2026-10-05 / CORE-SUM
 
 ## 战场、恢复与跨战取舍
 
-卡牌战场表达敌行、资源区、玩家行与法器处理区；旧2×5、邻近和范围锚点不作为默认规则。完整事件后检查胜负，玩家存活且敌全灭才胜，同检查点双亡玩家失败。未终局时敌程序循环、旧倒计时继续。
+卡牌战场表达敌行、资源区、玩家行与法器处理区；旧2×5、邻近和范围锚点不作为默认规则。完整事件后检查胜负；每场只有一个来源敌人，玩家存活且其死亡即胜，未到期敌牌作废；同拍到期的敌方行动先于玩家同类行动，同检查点双亡玩家失败。首版敌人以“秘仪与炼金”为表现方向，地域特色只体现在牌组变体，不改通用组件。未终局时敌程序循环、旧倒计时继续。
 
 全局暂停冻结双方和资源计时；退出恢复最近结清的一刻及已提交操作，保留敌情、支付、材料、队列与进度，以及翻开资格、待复用容量和临时方案结束拍。资源内容明确存在时才适用自动维护／休眠与增幅规则；到期维护优先，再按当前有效供料优先级依次检查完整材料和可用容量，默认战前法器序。条件齐备才托管、预留并开工，不满足者本次跳过。实际入行仍沿战前法器序处理同拍完成的批次。递增疲劳方向保留，参数和终局上界重定。
 

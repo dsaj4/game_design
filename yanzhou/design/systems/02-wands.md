@@ -1,6 +1,6 @@
 # SYS-002 法器生产与编排
 
-Project ID：game-002。文档角色：CurrentSpec。基准：GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1。2026-10-05。本文已采纳条款与Unknown分开；体验Hypothesis / NotRun。生产简化来源：[CORE-051](../../sources/draft-changes/D-2026-10-05-single-processing-time.md)；接口细化：[CORE-052](../../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)。时序细化：[CORE-053](../../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)。
+Project ID：game-002。文档角色：CurrentSpec。基准：GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1。2026-10-05。本文已采纳条款与Unknown分开；体验Hypothesis / NotRun。生产简化来源：[CORE-051](../../sources/draft-changes/D-2026-10-05-single-processing-time.md)；接口细化：[CORE-052](../../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)。时序细化：[CORE-053](../../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)。
 
 ## 目的与玩家选择
 
@@ -41,7 +41,7 @@ Project ID：game-002。文档角色：CurrentSpec。基准：GDD 2.1 / TL-1 + I
 
 ## TL-07 打断与返工
 
-只有明确打断效果作用于公开指定的法器时才中断其加工。普通生命伤害不自动取消其他法器。被中断的加工退回本批材料，损失加工进度与时机；退料最早下一拍可用，未来循环按实际进展顺延。
+只有明确打断效果作用于公开指定的法器时才中断其加工；敌方指定打断在翻开时锁定剩余时间最长的施法所在法器，到期打断它当时的批次，无批次则落空（SYS-003 TL-09／12，[CORE-054](../../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)）。普通生命伤害不自动取消其他法器。被中断的加工退回本批材料，损失加工进度与时机；退料最早下一拍可用，未来循环按实际进展顺延。
 
 中断结清时解除该批预留，释放的容量与退料均最早下一拍可供新批次使用；本拍释放的容量记为待复用，不再是有效批次预留，也不属于本拍可分配余量。不得借同拍连续打断反复回收开工容量。此规则不开放玩家免费撤销当前批次。被中断法器如有其他原本可用的完整材料和独立空位，可在本拍末统一检查时重开；不得使用本拍刚中断回收的部分。这不是额外整机冷却。
 

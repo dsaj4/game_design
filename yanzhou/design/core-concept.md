@@ -1,6 +1,6 @@
 # 《言咒》核心构思入口
 
-Project ID：game-002。文档角色：Navigation。Core Concept v0.11；基准GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1；2026-10-05。
+Project ID：game-002。文档角色：Navigation。Core Concept v0.12；基准GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1；2026-10-05。
 
 玩家战前在法器上补齐名词／动词暗句的核心铭文，选择辅槽修饰与基础供料；战中开工预留有限容量，仅经历处理耗时、完成即入行，经普通队列兑现，面对揭示后的倒计时威胁作有限调整。
 
@@ -11,3 +11,5 @@ Project ID：game-002。文档角色：Navigation。Core Concept v0.11；基准G
 [CORE-051](../sources/draft-changes/D-2026-10-05-single-processing-time.md)简化生产时间：D≥1整数拍，取消J／R／独立周期／冷却／S；无位在开工前等待。[CORE-052](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)补齐容量预留不排牌序、按有效供料优先级开工、中断回收下拍可用、入行最早下拍翻开及单份临时供料到期恢复；完整同拍总序仍待定。
 
 [CORE-053](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)确认拍末一次开工、a+D完工、正常空位当拍复用、揭示后观察提交及基础补给下拍可用。阶段一文档完成；复杂效果、真实内容与体验仍待后续阶段。
+
+[CORE-054](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)确定敌程序固定时间表与翻开表公开、打断锁定剩余最长施法、单一来源敌人死亡即胜、敌我共用四类卡面种类；首批敌人仍为候选。

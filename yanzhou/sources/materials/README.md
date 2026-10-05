@@ -90,3 +90,4 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 - [生产与队列接口M](M-2026-10-05-production-queue-interfaces.md)：局部Qualified；CORE-052／processing.2采纳S1-Q9／10／11／1／5，预留、最早翻开与临时供料恢复已明确，完整总序仍待定。
 
 - [阶段一共同拍序M](M-2026-10-05-stage-one-common-timing.md)：合格素材；CORE-053／timing.1采纳Q12–14，阶段一文档完成；示例值与复杂总序未一并采纳，Hypothesis / NotRun。
+- [阶段二敌情合同M](M-2026-10-05-stage-two-enemy-pressure.md)：合格素材；CORE-054／enemy.1采纳，范围限阶二Q01–24；首批敌人仍为候选。

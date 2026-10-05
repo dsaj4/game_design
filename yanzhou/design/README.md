@@ -1,6 +1,6 @@
 # 言咒现行设计
 
-Project ID：game-002。文档角色：Navigation。更新：2026-10-05。当前GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1，GDD-0；已采纳核心结构，内容与完整参数尚未闭合。
+Project ID：game-002。文档角色：Navigation。更新：2026-10-05。当前GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1，GDD-0；已采纳核心结构，内容与完整参数尚未闭合。
 
 [核心设计](core-design.md) · [GDD总览](GDD.md) · [版本与旧版取证](baseline.md) · [当前问题](../governance/questions.md)
 
@@ -15,7 +15,7 @@ Project ID：game-002。文档角色：Navigation。更新：2026-10-05。当前
 | [SYS-007](systems/07-interaction-save.md) | 可操作信息、暂停、保存与干涉系统边界 |
 | [卡表](content/cards.md) | 新卡表设计合同与候选入口 |
 | [法器](content/wands.md) | 法器暗句、槽位、契合与内容合同 |
-| [敌人与遭遇](content/enemies-encounters.md) | 敌牌内容字段与迁移状态 |
+| [敌人与遭遇](content/enemies-encounters.md) | 敌牌内容字段、首版约束、表现方向与首批候选 |
 | [参数](parameters.md) | 单位、已定约束与未定数值 |
 | [验收](validation.md) | 新版规则、体验任务与停止条件，全部NotRun |
 | [素材审查](source-review.md) | 纳入、替代、重设计与原始来源边界 |
@@ -33,3 +33,5 @@ INS-1按[CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-co
 processing.2按[CORE-052](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)补齐五项接口：预留不排牌序、按有效供料优先级联合检查开工条件、中断回收下拍可用、入行最早下拍翻开、单份临时供料在指定结束拍恢复基础方案。完整同拍时序、多牌批次和实际内容仍待补齐，GDD仍2.1／GDD-0。
 
 timing.1按[CORE-053](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)补齐拍末开工、a+D、正常空位复用、揭示后输入窗口及补给可用拍。阶段一文档完成，见[收束包](../sources/inbox/2026-10-05-stage-one-closure.md)；复杂总序及真实内容继续按阶段二至四处理，GDD-0／NotRun不变。
+
+enemy.1按[CORE-054](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)确定敌程序固定时间表与翻开表公开、打断锁定剩余最长施法、单一来源敌人死亡即胜、同拍敌方到期先于玩家行动及四类通用卡面种类；首批敌人为候选，见[阶段二工作包](../sources/inbox/2026-10-05-stage-two-enemy-pressure.md)。GDD-0／NotRun不变。

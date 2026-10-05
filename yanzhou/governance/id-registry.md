@@ -71,3 +71,9 @@ G002-CORE-052：生产预留、入行与临时供料接口，Accepted / Hypothes
 G002-CORE-053：阶段一共同拍序，Accepted / Hypothesis / NotRun；见[采纳D](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)。MAT／E／D-G002-S1T-20261005登记本次新来源链，不复用旧编号。细化现有生产、拍序、资源和输入保存条款，现用TL规则仍44个；无新发行实体或FX。
 
 新增TL-V53–60，当前TL预期58项（TL-V01–60去除02／20），加INS-V01–09共67项，全部NotRun。S1-Q12–14已确认，阶段一文档完成；复杂总序与内容仍待后续阶段。主版本GDD 2.1／GDD-0不变，局部基准processing.2 + timing.1，核心v0.11／CORE-SUM-6。旧增量中的计数及未决保留当轮含义。
+
+## 当前增量（2026-10-05 / enemy.1）
+
+G002-CORE-054：阶段二敌情合同与卡面种类，Accepted / Hypothesis / NotRun；见[采纳D](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)。MAT／E／D-G002-ENC-20261005为本次来源身份。细化TL-09／11／12／13／16／29及展示合同，现用TL规则仍44个；无新发行实体或FX。工作包“阶二Q01–24”为局部提问编号，不是全局ID。绿狮、万溶之液、雷比斯为候选名称，未登记内容ID。
+
+新增TL-V61–68，当前TL预期66项（TL-V01–68去除02／20），加INS-V01–09共75项，全部NotRun。主版本GDD 2.1／GDD-0不变，局部基准processing.2 + timing.1 + enemy.1，核心v0.12／CORE-SUM-7。
