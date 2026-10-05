@@ -1,6 +1,6 @@
 # 《言咒》核心设计
 
-Project ID：game-002。文档角色：CoreDesignSummary。2026-10-05 / CORE-SUM-5 / Core Concept v0.10。浓缩[GDD 2.1 / TL-1 + INS-1 / processing.2](GDD.md)，采纳范围见[CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)、[routing.1／CORE-050](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)、[processing.1／CORE-051](../sources/draft-changes/D-2026-10-05-single-processing-time.md)与[processing.2／CORE-052](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)。结构Accepted，当前GDD-0；体验Hypothesis / NotRun。
+Project ID：game-002。文档角色：CoreDesignSummary。2026-10-05 / CORE-SUM-6 / Core Concept v0.11。浓缩[GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1](GDD.md)，采纳范围见[CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)、[routing.1／CORE-050](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)、[processing.1／CORE-051](../sources/draft-changes/D-2026-10-05-single-processing-time.md)与[processing.2／CORE-052](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)。共同拍序见[CORE-053](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)。结构Accepted，当前GDD-0；体验Hypothesis / NotRun。
 
 ## 核心体验
 
@@ -24,7 +24,7 @@ Project ID：game-002。文档角色：CoreDesignSummary。2026-10-05 / CORE-SUM
 
 法器只设处理耗时D，至少1拍且为整数；不设交付J、休歇R、独立生产周期／冷却或首次起点S。合法配置、完整材料和本批所需队列容量均满足才开工，同时托管材料并预留入行位置；无位在开工前等待，处理完成立即入行，不留完工成品等待。
 
-预留只占容量，不预定未来牌序；实际入行才进入正常队列，同拍入行按战前法器序。行内每格一牌、每拍至多一张生效，入行后最早下一拍翻开，排队可能更晚。处理中预留、已入行牌及中断后待下拍复用容量共同约束有限容量Q。缺料、缺位与返工改变实际时机，不补发；后续批次无独立冷却，但仍须满足开工条件。正常离队容量复用、再开工的同拍阶段和多牌批次内部关系仍待定。
+预留只占容量，不预定未来牌序；实际入行才进入正常队列，同拍入行按战前法器序。行内每格一牌、每拍至多一张生效，入行后最早下一拍翻开，排队可能更晚。处理中预留、已入行牌及中断后待下拍复用容量共同约束有限容量Q。缺料、缺位与返工改变实际时机，不补发；后续批次无独立冷却，但仍须满足开工条件。每拍在行动结算与幸存完工后统一检查一次开工，a拍开工、a+D拍完工。正常离队空位可供本拍末使用，完工法器可同拍续开；中断者如另有可用料与独立空位也可当拍末重开，回收部分仍下拍可用。多牌批次内部关系仍待定。
 
 铭刻是否合法与当前是否有料分开：完整合法配置缺料自动等待。免费改合法路由只影响未承诺的未来批次，不重铭、不改已托管材料、既有预留或已入行牌；预览区分预计与实际结果。
 
@@ -36,7 +36,7 @@ Project ID：game-002。文档角色：CoreDesignSummary。2026-10-05 / CORE-SUM
 
 普通伤害扣护甲／生命，不自动中断全部法器。明确打断只作用公开指定法器，被中断加工退料、损失进度和时机；中断结清时解除预留，释放容量和退料最早下一拍复用。临时供料只保留一份方案并指定结束拍，到期分料前恢复基础方案；新方案替换旧方案，到期不恢复旧临时方案。托管、预留、已入行牌、已付费、返工、延误和合法收益保留。暂停不自动授权重铭或打造。
 
-同拍已定大类顺序为防护→伤害与打断→幸存加工完工；新产资源与退料最早下一拍使用。复合行动、维护及其他并发总顺序仍须补齐。
+每拍先使上一拍待用资源／容量可用并恢复到期临时供料，再揭示敌牌、提供结算前观察／提交窗口；窗口新方案结束拍须晚于当前拍，用于当拍末开工，结算途中操作留下一窗口，不强制逐拍点击。随后沿防护→伤害与打断→幸存加工完工，最后统一检查开工。新增基础补给也最早下一拍可用；初始库存第0拍可用，先揭示观察再首次开工，D=1时最早2拍兑现。复合行动、维护及其他并发总顺序仍须补齐；任一完整事件已终局即停止后续步骤。
 
 ## 战场、恢复与跨战取舍
 

@@ -5,15 +5,15 @@
 | 字段 | 内容 |
 | --- | --- |
 | 文档ID／项目 | GDD-G002-FULL-001 / game-002 |
-| 版本／更新 | 2.1 / TL-1 + INS-1，局部修订routing.1 + processing.2；2026-10-05 |
+| 版本／更新 | 2.1 / TL-1 + INS-1，局部修订routing.1 + processing.2 + timing.1；2026-10-05 |
 | 成熟度 | **GDD-0：概念与核心结构版**；不宣称原型或完整制作规格就绪 |
 | 设计状态 | 已确认核心结构Accepted；具体新卡表与未决边界独立Proposed / Unknown |
 | 证据状态 | Hypothesis / NotRun |
 | 负责人／评审 | 用户为设计负责人；Codex整理；规则、内容、体验分别评审 |
 | 目标里程碑 | 统一新核心，完成卡表与边界后再升GDD-1 |
-| 合格来源 | [生产与队列接口M](../sources/materials/M-2026-10-05-production-queue-interfaces.md)；[单一处理耗时M](../sources/materials/M-2026-10-05-single-processing-time.md)；[路由澄清素材](../sources/materials/M-2026-10-04-routing-response-clarification.md)；[铭刻素材](../sources/materials/M-2026-10-04-artifact-inscription-core.md)；[核心素材](../sources/materials/M-2026-10-01-timeline-production-core.md) |
-| 提案／评估 | [生产与队列接口E](../sources/evaluations/E-2026-10-05-production-queue-interfaces.md)；[单一处理耗时E](../sources/evaluations/E-2026-10-05-single-processing-time.md)；[路由澄清E](../sources/evaluations/E-2026-10-04-routing-response-clarification.md)；[铭刻P](../sources/proposals/P-2026-10-04-artifact-inscription-core.md)／[铭刻E](../sources/evaluations/E-2026-10-04-artifact-inscription-core.md)；[P](../sources/proposals/P-2026-10-01-timeline-production-system.md)／[E](../sources/evaluations/E-2026-10-01-timeline-production-system.md) |
-| 采纳 | [CORE-052生产与队列接口](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)；[CORE-051单一处理与预留](../sources/draft-changes/D-2026-10-05-single-processing-time.md)；[CORE-050路由澄清](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)；[CORE-049铭刻](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)；[CORE-037–047](../sources/draft-changes/D-2026-10-01-timeline-production-core.md)与[CORE-048兼容复用](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md) |
+| 合格来源 | [共同拍序M](../sources/materials/M-2026-10-05-stage-one-common-timing.md)； [生产与队列接口M](../sources/materials/M-2026-10-05-production-queue-interfaces.md)；[单一处理耗时M](../sources/materials/M-2026-10-05-single-processing-time.md)；[路由澄清素材](../sources/materials/M-2026-10-04-routing-response-clarification.md)；[铭刻素材](../sources/materials/M-2026-10-04-artifact-inscription-core.md)；[核心素材](../sources/materials/M-2026-10-01-timeline-production-core.md) |
+| 提案／评估 | [共同拍序E](../sources/evaluations/E-2026-10-05-stage-one-common-timing.md)； [生产与队列接口E](../sources/evaluations/E-2026-10-05-production-queue-interfaces.md)；[单一处理耗时E](../sources/evaluations/E-2026-10-05-single-processing-time.md)；[路由澄清E](../sources/evaluations/E-2026-10-04-routing-response-clarification.md)；[铭刻P](../sources/proposals/P-2026-10-04-artifact-inscription-core.md)／[铭刻E](../sources/evaluations/E-2026-10-04-artifact-inscription-core.md)；[P](../sources/proposals/P-2026-10-01-timeline-production-system.md)／[E](../sources/evaluations/E-2026-10-01-timeline-production-system.md) |
+| 采纳 | [CORE-053共同拍序](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)； [CORE-052生产与队列接口](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)；[CORE-051单一处理与预留](../sources/draft-changes/D-2026-10-05-single-processing-time.md)；[CORE-050路由澄清](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)；[CORE-049铭刻](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)；[CORE-037–047](../sources/draft-changes/D-2026-10-01-timeline-production-core.md)与[CORE-048兼容复用](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md) |
 | 内容与展示缺口 | 旧卡表与UI候选已退役，实际内容、展示及未决边界待设计；历史链接不成为规则 |
 | 验证／开发 | [验收计划](validation.md)／[实现索引](../development/README.md)，没有新版执行证据 |
 
@@ -89,7 +89,7 @@ flowchart LR
 
 兼容规则TL-26–37补充稳定词义、实例／条件名单、修饰挂接、护甲生命周期、分阶段支付、真实配置、单向路线与节点经济、决策保存和普通数量合同。制造耗材不因无目标退还，铭文和战斗状态不混入资源携带；[来源审查](source-review.md)限定原材料使用范围。
 
-这些是已定结构，尚不是全部事件的总顺序。
+这些是已定结构，共同拍序见第5章及SYS-003 TL-11，尚不是全部事件的总顺序。
 
 ## 4. 系统规格
 
@@ -99,9 +99,11 @@ INS-1按用户明确回写授权采纳TL-38–45，替代TL-20材料—动作—
 
 ## 5. 状态与时序
 
-生产：缺料／缺位等待→材料托管并预留容量→处理D→完成即入行→下一批条件检查，无独立冷却。预留不排牌序；开工按有效供料优先级联合检查；中断释放最早下拍复用；入行最早下拍翻开。下一批检查阶段、正常离队容量本拍复用及多牌批次内部关系仍待明确。敌牌：暗牌→揭示锁定→倒计时→触发或提前取消。
+生产：缺料／缺位等待→材料托管并预留容量→处理D→完成即入行→下一批条件检查，无独立冷却。预留不排牌序；开工按有效供料优先级联合检查；中断释放最早下拍复用；入行最早下拍翻开。每拍在行动结算与幸存完工后检查一次开工，a拍开工、a+D拍完成。正常离队空位可用于本拍末，刚完成法器可同拍续开；中断法器如另有原本可用料和独立空位也可当拍末重开，中断回收仍下拍可用。多牌批次内部关系仍待明确。敌牌：暗牌→揭示锁定→倒计时→触发或提前取消。
 
-完整同拍排序、维护对象内部争料和段尾碰撞仍须闭合；不得把旧四阶段或开始槽规则补成隐式默认。
+每拍先使上一拍待用资源／容量可用并恢复到期临时供料，再揭示敌牌并提供结算前观察／提交窗口。新方案结束拍>当前拍，用于当拍末开工；结算途中操作留下一窗口，旧到期不抹去窗口新方案，不强制逐拍点击。基础补给也最早下拍可用，初始库存第0拍可用；第0拍先揭示观察再开工，D=1时0开工、1入行、最早2生效。终局成立立即停止后续步骤。
+
+复杂效果完整同拍排序、维护对象内部争料及其相对战斗效果的位置、段尾碰撞仍须闭合；不得把旧四阶段或开始槽规则补成隐式默认。
 
 ## 6. 内容与数值
 
@@ -125,7 +127,7 @@ INS-1按用户明确回写授权采纳TL-38–45，替代TL-20材料—动作—
 
 ## 11. UI与可读性
 
-必须展示敌行、资源、玩家行、法器以及核心缺项／兼容、辅槽预设挂接、对应行动与制造要求、关键成本和原因；区分实际牌序、有效预留与待下拍复用容量，展示最早翻开拍及当前临时方案结束拍。支持暂停思考、点击／键盘等价操作、文字与符号并用及减动效。旧探索布局与形态候选已退役，具体UI后续重新设计。
+必须展示敌行、资源、玩家行、法器以及核心缺项／兼容、辅槽预设挂接、对应行动与制造要求、关键成本和原因；区分实际牌序、有效预留与待下拍复用容量，展示最早翻开拍、资源可用拍、当前观察／提交窗口及临时方案结束拍。支持暂停思考、点击／键盘等价操作、文字与符号并用及减动效。旧探索布局与形态候选已退役，具体UI后续重新设计。
 
 ## 12. 音画
 
@@ -145,7 +147,7 @@ INS-1按用户明确回写授权采纳TL-38–45，替代TL-20材料—动作—
 
 ## 16. 风险、未知与决策
 
-风险：频繁微操、队列阻塞无法解释、大批次长期等位、材料循环无代价、维护吞掉全部供给、单一高阶路线支配。设计负责人在GDD-1前完成卡表和总时序；真实体验在独立授权验证后判断。CORE-037–052及进一步局部决定见[决策记录](../governance/decision-log.md)。
+风险：频繁微操、队列阻塞无法解释、大批次长期等位、材料循环无代价、维护吞掉全部供给、单一高阶路线支配。设计负责人在GDD-1前完成卡表和总时序；真实体验在独立授权验证后判断。CORE-037–053及进一步局部决定见[决策记录](../governance/decision-log.md)。
 
 ## 17. 附录
 
@@ -159,3 +161,5 @@ INS-1按用户明确回写授权采纳TL-38–45，替代TL-20材料—动作—
 - [x] 正式结构、退役候选、待设计内容与UI、延期能力分开。
 - [ ] 完整卡表、参数与边界达到GDD-1：未完成。
 - [ ] 玩法、平衡和真人体验验证：NotRun。
+
+阶段一共同规则、预算、条件情境及未知移交已完成，见[收束包](../sources/inbox/2026-10-05-stage-one-closure.md)与CORE-053。示例值未采纳为发行参数，阶段二／三仍需设计真实压力与配置；阶段推进不提升本GDD成熟度或证据状态。

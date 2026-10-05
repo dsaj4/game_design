@@ -45,3 +45,5 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 
 - [单一处理耗时与预留D](D-2026-10-05-single-processing-time.md)：CORE-051／processing.1；D≥1整数、取消J／R／周期／冷却／S，开工预留、完成入行；保留当轮未决范围，后续接口见CORE-052。
 - [生产与队列接口D](D-2026-10-05-production-queue-interfaces.md)：CORE-052／processing.2；容量不排位、联合检查开工、中断回收下拍可用、入行最早下拍翻开、单份临时供料到期恢复；其余总序与内容仍待定。
+
+- [阶段一共同拍序D](D-2026-10-05-stage-one-common-timing.md)：采纳变更；CORE-053／timing.1采纳Q12–14，阶段一文档完成；示例值与复杂总序未一并采纳，Hypothesis / NotRun。

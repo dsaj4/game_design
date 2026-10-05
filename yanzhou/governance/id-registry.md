@@ -65,3 +65,9 @@ TL-V02／20退出现用预期集，保留原编号与固定版本含义；新增
 G002-CORE-052：生产预留、入行与临时供料接口，Accepted / Hypothesis / NotRun；见[采纳D](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)。MAT／E／D-G002-PQI-20261005为本次新来源身份，不复用PROC编号。修订TL-05／06／07／08／23／30及显示／保存，现用TL规则仍44个，无新发行实体或FX。
 
 新增TL-V46–52，现用TL预期50项（TL-V01–52去除02／20），加INS-V01–09共59项，全部NotRun。S1-Q9／10／11／1／5已确认；完整同拍总序、多牌批次等仍未决。主版本GDD 2.1／GDD-0不变；局部processing.2，核心v0.10／CORE-SUM-5。
+
+## 当前增量（2026-10-05 / timing.1）
+
+G002-CORE-053：阶段一共同拍序，Accepted / Hypothesis / NotRun；见[采纳D](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)。MAT／E／D-G002-S1T-20261005登记本次新来源链，不复用旧编号。细化现有生产、拍序、资源和输入保存条款，现用TL规则仍44个；无新发行实体或FX。
+
+新增TL-V53–60，当前TL预期58项（TL-V01–60去除02／20），加INS-V01–09共67项，全部NotRun。S1-Q12–14已确认，阶段一文档完成；复杂总序与内容仍待后续阶段。主版本GDD 2.1／GDD-0不变，局部基准processing.2 + timing.1，核心v0.11／CORE-SUM-6。旧增量中的计数及未决保留当轮含义。

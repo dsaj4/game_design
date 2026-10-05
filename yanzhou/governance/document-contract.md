@@ -1,6 +1,6 @@
 # 文档职责与统一规范
 
-Project ID：game-002。治理状态：Accepted / Documentation；依据用户授权全量整理。更新：2026-10-05 / layout.3；规则基准TL-1 + INS-1 / processing.2；生产与队列术语同步CORE-051／052。
+Project ID：game-002。治理状态：Accepted / Documentation；依据用户授权全量整理。更新：2026-10-05 / layout.3；规则基准TL-1 + INS-1 / processing.2 + timing.1；生产、队列与共同拍序术语同步CORE-051／052／053。
 
 ## 权威来源
 
@@ -32,7 +32,7 @@ Project ID：game-002。治理状态：Accepted / Documentation；依据用户�
 
 具体条款覆盖通用规则时必须明示规则ID、适用对象和覆盖范围，不能只靠更晚日期或更具体的卡名自动取得例外。找不到裁决时登记Open，不根据代码行为反向采纳。
 
-参数至少包含：ID、单位、数值／公式、合法域、零值许可、适用角色及来源。CORE-051只保留法器处理耗时D，正整数拍且至少1拍；J、R、独立周期／冷却及S已取消。旧C／L／τ只在RC1解释。明确区分开工预留、处理完成即入行、行动生效、敌牌揭示与到期；CORE-052明确预留只占容量，入行后最早下拍翻开。容量须区分实际牌、有效预留和中断后待复用部分，临时供料须明确唯一方案及结束拍；这些接口不是新增生产耗时参数。
+参数至少包含：ID、单位、数值／公式、合法域、零值许可、适用角色及来源。CORE-051只保留法器处理耗时D，正整数拍且至少1拍；J、R、独立周期／冷却及S已取消。旧C／L／τ只在RC1解释。明确区分开工预留、处理完成即入行、行动生效、敌牌揭示与到期；CORE-052明确预留只占容量，入行后最早下拍翻开。容量须区分实际牌、有效预留和中断后待复用部分，临时供料须明确唯一方案及结束拍；CORE-053进一步区分拍末一次开工与a+D完工、正常空位当拍复用与中断回收下拍可用、观察窗口提交与结算途中待受理操作、初始库存与新增补给可用拍。这些接口不是新增生产耗时参数。
 
 每份现用文档标明Project ID、文档角色、设计基准、文档修订、设计／证据状态及来源。Navigation、CoreDesignSummary、ExplorationReadingContract、CurrentSpec、SourceRecord、DecisionRecord、HistoricalSnapshot、ResearchComparison、ValidationSpec、ImplementationIndex不得混用。
 
