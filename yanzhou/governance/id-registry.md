@@ -59,3 +59,9 @@ G002-CORE-050：延时敌情与三端供料调度澄清，Accepted / Hypothesis 
 G002-CORE-051：法器单一处理耗时与开工容量预留，Accepted / Hypothesis / NotRun；见[采纳D](../sources/draft-changes/D-2026-10-05-single-processing-time.md)。MAT／E／D-G002-PROC-20261005为本次来源身份。修订现有生产／队列／支付与保存条款，未新增TL规则ID，现用仍44个；未新增发行实体或FX。
 
 TL-V02／20退出现用预期集，保留原编号与固定版本含义；新增TL-V41–45。当前现用TL预期43项，加INS-V01–09共52项，全部NotRun。主版本仍GDD 2.1／GDD-0，局部修订processing.1；核心v0.9／CORE-SUM-4。预留排位、争用、中断释放等未决不随本次采纳。
+
+## 当前增量（2026-10-05 / processing.2）
+
+G002-CORE-052：生产预留、入行与临时供料接口，Accepted / Hypothesis / NotRun；见[采纳D](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)。MAT／E／D-G002-PQI-20261005为本次新来源身份，不复用PROC编号。修订TL-05／06／07／08／23／30及显示／保存，现用TL规则仍44个，无新发行实体或FX。
+
+新增TL-V46–52，现用TL预期50项（TL-V01–52去除02／20），加INS-V01–09共59项，全部NotRun。S1-Q9／10／11／1／5已确认；完整同拍总序、多牌批次等仍未决。主版本GDD 2.1／GDD-0不变；局部processing.2，核心v0.10／CORE-SUM-5。

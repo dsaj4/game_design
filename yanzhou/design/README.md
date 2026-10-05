@@ -1,6 +1,6 @@
 # 言咒现行设计
 
-Project ID：game-002。文档角色：Navigation。更新：2026-10-05。当前GDD 2.1 / TL-1 + INS-1 / processing.1，GDD-0；已采纳核心结构，内容与完整参数尚未闭合。
+Project ID：game-002。文档角色：Navigation。更新：2026-10-05。当前GDD 2.1 / TL-1 + INS-1 / processing.2，GDD-0；已采纳核心结构，内容与完整参数尚未闭合。
 
 [核心设计](core-design.md) · [GDD总览](GDD.md) · [版本与旧版取证](baseline.md) · [当前问题](../governance/questions.md)
 
@@ -28,4 +28,6 @@ INS-1按[CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-co
 
 2026-10-04局部修订routing.1按[CORE-050](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)明确全敌牌正延迟、未承诺批次的临时供料优先级及供料调时；成品争入行仍用战前法器序。GDD版本与成熟度不变。
 
-局部修订processing.1按[CORE-051](../sources/draft-changes/D-2026-10-05-single-processing-time.md)采用唯一处理耗时D≥1整数拍，取消J／R／周期／冷却／S；开工预留容量、无位不开工、完成即入行。旧完工等位已替代；预留细则与完整同拍时序仍待补齐，GDD仍2.1／GDD-0。
+局部修订processing.1按[CORE-051](../sources/draft-changes/D-2026-10-05-single-processing-time.md)采用唯一处理耗时D≥1整数拍，取消J／R／周期／冷却／S；开工预留容量、无位不开工、完成即入行。旧完工等位已替代。
+
+processing.2按[CORE-052](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)补齐五项接口：预留不排牌序、按有效供料优先级联合检查开工条件、中断回收下拍可用、入行最早下拍翻开、单份临时供料在指定结束拍恢复基础方案。完整同拍时序、多牌批次和实际内容仍待补齐，GDD仍2.1／GDD-0。

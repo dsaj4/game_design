@@ -30,3 +30,4 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 - [延时敌情与供料调度E](E-2026-10-04-routing-response-clarification.md)：文档评估，Hypothesis / NotRun；修订AUD-021／022的过度推断。
 
 - [单一处理耗时E](E-2026-10-05-single-processing-time.md)：局部文档评估，Hypothesis / NotRun；M→E→D，不新增完整系统P。
+- [生产与队列接口E](E-2026-10-05-production-queue-interfaces.md)：五项已确认接口的文档评估，Hypothesis / NotRun；保留容量饥饿和完整总序缺口。

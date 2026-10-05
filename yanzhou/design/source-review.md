@@ -1,10 +1,10 @@
 # TL-1 + INS-1 素材使用审查
 
-Project ID：game-002。文档角色：SourceReview。2026-10-05。当前GDD-0 / 2.1 / processing.1；原RC1审查见[固定版本](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/source-review.md)。
+Project ID：game-002。文档角色：SourceReview。2026-10-05。当前GDD-0 / 2.1 / processing.2；原RC1审查见[固定版本](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/source-review.md)。
 
 ## TL-1当时正式使用（2026-10-01）
 
-以下至第9轮保留原使用记录；当前覆盖范围见后续INS-1、routing.1与processing.1章节，旧材料句法和直接资源输出不再作为现行入口。
+以下至第9轮保留原使用记录；当前覆盖范围见后续INS-1、routing.1与processing.1／2章节，旧材料句法和直接资源输出不再作为现行入口。
 
 | 来源 | 资格／采纳 | 用途与限制 |
 | --- | --- | --- |
@@ -71,3 +71,11 @@ Project ID：game-002。文档角色：SourceReview。2026-10-05。当前GDD-0 /
 Include：仅D且整数≥1，取消J／R／独立周期／冷却／S；开工预留所需容量，无位不开工，完工即入行。Replace：旧完工成品滞留与之后争空位的路径；同期入行处理的战前法器序保留。Park／Unknown：预留排位、开工争用与中断释放、具体卡数／Q／D、最早翻开及临时供料恢复。正式范围不包含额外付费干涉或模型未列出的新规则。
 
 实际阅读清单与新增blob见E；此前已读主系统按固定输入复用，增补内容合同与验收相关页，未全量重审旧来源、退役方向、SYS-006或整个GDD包。外部课程仍为研究材料，不作为此生产规则的采纳依据。旧来源与验收按原版本保留，不改原始资格或运行结果。
+
+## processing.2：生产与队列接口（2026-10-05）
+
+输入提交`0c511dd7f8c1e2dda84a65e2b540a2517456771d`。[五项推荐及用户“下一批全部按推荐”](../sources/inbox/2026-10-05-single-processing-time.md#2026-10-05第二批确认与晋级)经[Qualified M](../sources/materials/M-2026-10-05-production-queue-interfaces.md)、[E](../sources/evaluations/E-2026-10-05-production-queue-interfaces.md)和[CORE-052 D](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)限定采纳，M→E→D不另建完整P。
+
+Include：S1-Q9／10／11／1／5的容量预留不排牌序、按有效供料优先级联合检查开工、中断释放下拍可用、入行最早下拍翻开、单份临时供料及结束拍恢复。Replace：当前正文中这五项仍为Unknown的表述。Park／Unknown：完整总序、普通离队容量复用、多牌内部关系、到期与新操作受理先后、维护内部顺序、内容及数值。未新增免费撤销、公平轮转、插队或重铭能力。
+
+上节processing.1及原M／E／D保留当轮未决范围，不改写原确认。实际阅读及blob见本轮E；只对相关系统和来源作限定复核，不宣称全量旧素材或完整GDD包重审。课程仍Raw研究输入，未晋级为本规则来源；全部体验与新增验收预期NotRun。

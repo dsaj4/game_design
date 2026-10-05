@@ -1,6 +1,6 @@
 # SYS-001 法器铭刻、暗句与卡牌类别
 
-Project ID：game-002。文档角色：CurrentSpec。基准：GDD 2.1 / TL-1 + INS-1 / processing.1。2026-10-05。结构Accepted；具体内容Unknown；体验Hypothesis / NotRun。来源：[CORE-049](../../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)。
+Project ID：game-002。文档角色：CurrentSpec。基准：GDD 2.1 / TL-1 + INS-1 / processing.2。2026-10-05。结构Accepted；具体内容Unknown；体验Hypothesis / NotRun。来源：[CORE-049](../../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)。
 
 ## 目的、行为与反馈
 
@@ -12,7 +12,7 @@ Project ID：game-002。文档角色：CurrentSpec。基准：GDD 2.1 / TL-1 + I
 | --- | --- | --- | --- |
 | 铭文（原程序词卡） | 填入法器核心槽，或作为修饰词填入辅槽 | 持续占用配置，不随每批加工销毁 | 一实体一位置；同名多位置须真实副本 |
 | 资源卡 | 环境材料、中间资源、明示法术产物 | 按制造内容托管、消耗或返还；效果明确提供时才生成 | 不作为材料类别核心空缺；能力由内容声明 |
-| 行动卡 | 法器完成生产后提交的一次战斗行动 | 在玩家战斗行翻开生效 | 处理完成即入行；开工预留有限容量，生效受普通队列及每拍结算限制 |
+| 行动卡 | 法器完成生产后提交的一次战斗行动 | 在玩家战斗行翻开生效 | 处理完成即入行，最早下一拍翻开；预留只占容量，生效受实际队列及每拍结算限制 |
 
 战中产牌不构成复制永久铭文或获得金币的权限。法器统一交付行动卡；资源卡保留独立职责，不是另一种默认法器交付物。
 

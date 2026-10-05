@@ -43,4 +43,5 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 
 - [延时敌情与供料调度D](D-2026-10-04-routing-response-clarification.md)：CORE-050 / routing.1，限定Accepted；额外调时待定，付费调牌序未采纳。
 
-- [单一处理耗时与预留D](D-2026-10-05-single-processing-time.md)：CORE-051／processing.1；D≥1整数、取消J／R／周期／冷却／S，开工预留、完成入行；其余接口待定。
+- [单一处理耗时与预留D](D-2026-10-05-single-processing-time.md)：CORE-051／processing.1；D≥1整数、取消J／R／周期／冷却／S，开工预留、完成入行；保留当轮未决范围，后续接口见CORE-052。
+- [生产与队列接口D](D-2026-10-05-production-queue-interfaces.md)：CORE-052／processing.2；容量不排位、联合检查开工、中断回收下拍可用、入行最早下拍翻开、单份临时供料到期恢复；其余总序与内容仍待定。

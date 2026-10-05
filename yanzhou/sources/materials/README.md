@@ -86,4 +86,5 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 
 - [延时敌情与三端供料调度M](M-2026-10-04-routing-response-clarification.md)：局部Qualified；已按CORE-050限定采纳，付费调牌序排除。
 
-- [单一处理耗时与开工预留M](M-2026-10-05-single-processing-time.md)：局部Qualified；CORE-051／processing.1限定采纳，预留细则和最早翻开仍待定。
+- [单一处理耗时与开工预留M](M-2026-10-05-single-processing-time.md)：局部Qualified；CORE-051／processing.1限定采纳，保留当轮未决范围。
+- [生产与队列接口M](M-2026-10-05-production-queue-interfaces.md)：局部Qualified；CORE-052／processing.2采纳S1-Q9／10／11／1／5，预留、最早翻开与临时供料恢复已明确，完整总序仍待定。
