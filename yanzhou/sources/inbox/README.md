@@ -58,4 +58,4 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 - [飞书课程资料调研与阶段规划讨论稿](2026-10-04-feishu-design-stage-research.md)：Raw / Unqualified；11门课程恢复完成，区分17项方法/框架与30条局部建议，重点整理卡牌专题；覆盖缺口及前轮六阶段讨论稿见记录。
 - [法器生产简化与两批确认](2026-10-05-single-processing-time.md)：CORE-051／052已局部晋级并采纳；保留各轮原话、推荐与答复范围。
 - [阶段一收束工作包](2026-10-05-stage-one-closure.md)：Q12–14已Qualified并按CORE-053采纳；共同规则、预算、八组情境文档复核与交接完成，阶段一文档完成；示例值未采纳，NotRun。
-- [阶段二敌人压力工作包](2026-10-05-stage-two-enemy-pressure.md)：Raw / Unqualified；「字身」表现方向、三名首批敌人候选、窗口关系与阶二Q01–15待答；数值Illustrative，NotRun。
+- [阶段二敌人压力工作包](2026-10-05-stage-two-enemy-pressure.md)：Raw / Unqualified；「字身」已按用户答复Parked，改为秘仪炼金形态（绿狮、万溶之液、雷比斯）；窗口关系与阶二Q01–18待答；数值Illustrative，意象出处未核实，NotRun。
