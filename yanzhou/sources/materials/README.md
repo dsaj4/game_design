@@ -85,3 +85,5 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 [DIR-036法器铭刻核心M](M-2026-10-04-artifact-inscription-core.md)已迁入本目录，仅TL-38–45与明确兼容范围Qualified，已经[CORE-049](../draft-changes/D-2026-10-04-artifact-inscription-core.md)采纳；原始方向按固定Git取证，不提升其他Raw内容。
 
 - [延时敌情与三端供料调度M](M-2026-10-04-routing-response-clarification.md)：局部Qualified；已按CORE-050限定采纳，付费调牌序排除。
+
+- [单一处理耗时与开工预留M](M-2026-10-05-single-processing-time.md)：局部Qualified；CORE-051／processing.1限定采纳，预留细则和最早翻开仍待定。

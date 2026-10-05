@@ -1,6 +1,6 @@
 # 文档职责与统一规范
 
-Project ID：game-002。治理状态：Accepted / Documentation；依据用户授权全量整理。更新：2026-10-04 / layout.3；规则基准TL-1 + INS-1。
+Project ID：game-002。治理状态：Accepted / Documentation；依据用户授权全量整理。更新：2026-10-05 / layout.3；规则基准TL-1 + INS-1 / processing.1；生产术语同步CORE-051。
 
 ## 权威来源
 
@@ -9,14 +9,14 @@ Project ID：game-002。治理状态：Accepted / Documentation；依据用户�
 | 产品范围、体验目标与不变量 | GDD主文档 | core-design为唯一成篇浓缩；core-concept保留版本入口 |
 | 探索阅读权限与材料预设 | exploration/start.md | AGENTS负责路由；每DIR记录当轮清单及实际覆盖 |
 | 法器暗句、铭刻核心／辅槽、兼容、行动类别与契合接口 | SYS-001 | 内容条目声明实际词义、槽位与卡效 |
-| 法器铭刻运行、统一行动输出、生产、交付、相位 | SYS-002 | 法器目录提供索引 |
+| 法器铭刻运行、处理、容量预留、完成入行及实际时机 | SYS-002 | 法器目录提供索引 |
 | 公共战斗行、倒计时、目标、打断、终局与疲劳 | SYS-003 | 元素与卡牌只能声明明确局部例外 |
 | 资源／环境卡、托管、维护、增幅与生成转化 | SYS-004 | 遭遇表提供初态，不重定义机制 |
 | 路线与整局结构 | SYS-005 | 图和交互引用连接规则 |
 | 奖励、获取、辅槽打造与跨战资源 | SYS-006 | 商品／打造参数引用统一参数表，Unknown不补默认 |
 | 交互与恢复合同 | SYS-007 | 实现偏差进入开发索引 |
 | 新卡表内容合同（尚无已采纳新发行实体） | content/cards.md | 旧S2／E3保留RC1身份；TC／TR／TS／TA／TE为已退役候选身份，不是当前待审池 |
-| 加工／交付／休歇、量值、容量、疲劳和商品参数 | parameters.md | 卡牌详情引用对应行；示例明确非独立默认值 |
+| 处理耗时D、量值、容量、疲劳和商品参数 | parameters.md | 卡牌详情引用对应行；示例明确非独立默认值 |
 | 资源生命周期与维护 | SYS-004 | 内容条目声明具体例外；数值入口不重复机制 |
 | 疲劳方向 | SYS-003 | 新参数与终局证明重定，不沿旧RG06上界 |
 | 敌人能力、初态与布场 | content/enemies-encounters.md | 系统页不复制敌人表 |
@@ -32,7 +32,7 @@ Project ID：game-002。治理状态：Accepted / Documentation；依据用户�
 
 具体条款覆盖通用规则时必须明示规则ID、适用对象和覆盖范围，不能只靠更晚日期或更具体的卡名自动取得例外。找不到裁决时登记Open，不根据代码行为反向采纳。
 
-参数至少包含：ID、单位、数值／公式、合法域、零值许可、适用角色及来源。TL-1使用加工D、交付J、休歇R与首次起点S；旧C／L／τ只在RC1解释，不换名代入新版。明确区分加工完成、入行、生效、敌牌揭示与到期。
+参数至少包含：ID、单位、数值／公式、合法域、零值许可、适用角色及来源。processing.1只保留法器处理耗时D，正整数拍且至少1拍；J、R、独立周期／冷却及S已由CORE-051取消。旧C／L／τ只在RC1解释。明确区分开工预留、处理完成即入行、行动生效、敌牌揭示与到期；容量预留不自行决定实际牌序。
 
 每份现用文档标明Project ID、文档角色、设计基准、文档修订、设计／证据状态及来源。Navigation、CoreDesignSummary、ExplorationReadingContract、CurrentSpec、SourceRecord、DecisionRecord、HistoricalSnapshot、ResearchComparison、ValidationSpec、ImplementationIndex不得混用。
 

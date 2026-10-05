@@ -1,10 +1,10 @@
 # TL-1 + INS-1 素材使用审查
 
-Project ID：game-002。文档角色：SourceReview。2026-10-04。当前GDD-0 / 2.1；原RC1审查见[固定版本](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/source-review.md)。
+Project ID：game-002。文档角色：SourceReview。2026-10-05。当前GDD-0 / 2.1 / processing.1；原RC1审查见[固定版本](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/source-review.md)。
 
 ## TL-1当时正式使用（2026-10-01）
 
-以下至第9轮保留原使用记录；当前INS-1覆盖范围见末节，旧材料句法和直接资源输出不再作为现行入口。
+以下至第9轮保留原使用记录；当前覆盖范围见后续INS-1、routing.1与processing.1章节，旧材料句法和直接资源输出不再作为现行入口。
 
 | 来源 | 资格／采纳 | 用途与限制 |
 | --- | --- | --- |
@@ -63,3 +63,11 @@ Project ID：game-002。文档角色：SourceReview。2026-10-04。当前GDD-0 /
 比较输入`b0754e5c08273201f4b04639a371ff2da16cafe6`。使用本轮用户说明、当前系统及其审查，不扩读退役方向或借历史实现补规则；受影响条款为TL-05／06／09／16／23／30及对应展示／验收。所有敌方行动牌Δ＞0；供料去向与优先级可临时调整，只影响未来未承诺批次；规避打断先通过供料间接改未来开工。维护优先、托管、战前争入行顺序与普通队列保留。
 
 第4项关于拥堵是玩家操作后果的意见用于修订AUD-022；其中付费调牌序能力仍Raw / Unqualified，仅保存在inbox，未进入本次Qualified玩法范围。三端不固定物理端口或卡类，“5回合”不固化数值，运转具体配方与资源来源、恢复触发／重叠及额外调时均未决。无Observed玩家证据，全部NotRun。
+
+## processing.1：单一处理耗时与开工预留（2026-10-05）
+
+输入提交`cb5bea76595d3a7bff057a15332f5148effa84c2`。[原话及Q6–8答复](../sources/inbox/2026-10-05-single-processing-time.md#2026-10-05批量确认与晋级)经[Qualified M](../sources/materials/M-2026-10-05-single-processing-time.md)、[E](../sources/evaluations/E-2026-10-05-single-processing-time.md)和[CORE-051 D](../sources/draft-changes/D-2026-10-05-single-processing-time.md)进入现行规则；用户本批明确确认，不重复索取采纳许可。
+
+Include：仅D且整数≥1，取消J／R／独立周期／冷却／S；开工预留所需容量，无位不开工，完工即入行。Replace：旧完工成品滞留与之后争空位的路径；同期入行处理的战前法器序保留。Park／Unknown：预留排位、开工争用与中断释放、具体卡数／Q／D、最早翻开及临时供料恢复。正式范围不包含额外付费干涉或模型未列出的新规则。
+
+实际阅读清单与新增blob见E；此前已读主系统按固定输入复用，增补内容合同与验收相关页，未全量重审旧来源、退役方向、SYS-006或整个GDD包。外部课程仍为研究材料，不作为此生产规则的采纳依据。旧来源与验收按原版本保留，不改原始资格或运行结果。

@@ -53,3 +53,9 @@ G002-DOC-011：主系统一致性审查与旧版效果资料清理，Accepted / 
 ## 当前增量（2026-10-04 / routing.1）
 
 G002-CORE-050：延时敌情与三端供料调度澄清，Accepted / Hypothesis / NotRun；见[采纳D](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)。MAT／E／D-G002-RTE-20261004为本轮来源身份，未新增完整P、FX或发行卡。TL-05／06／09／23／30等现行条款局部细化，规则ID仍44个；新增TL-V38–40，现行TL-V01–40与INS-V01–09共49个未执行预期。AUD-021／022的意图疑问已澄清，窗口与反馈尚待内容验证；其他风险不因此关闭。
+
+## 当前增量（2026-10-05 / processing.1）
+
+G002-CORE-051：法器单一处理耗时与开工容量预留，Accepted / Hypothesis / NotRun；见[采纳D](../sources/draft-changes/D-2026-10-05-single-processing-time.md)。MAT／E／D-G002-PROC-20261005为本次来源身份。修订现有生产／队列／支付与保存条款，未新增TL规则ID，现用仍44个；未新增发行实体或FX。
+
+TL-V02／20退出现用预期集，保留原编号与固定版本含义；新增TL-V41–45。当前现用TL预期43项，加INS-V01–09共52项，全部NotRun。主版本仍GDD 2.1／GDD-0，局部修订processing.1；核心v0.9／CORE-SUM-4。预留排位、争用、中断释放等未决不随本次采纳。

@@ -1,6 +1,6 @@
 # 言咒 · Yanzhou
 
-Project ID：game-002。当前设计：**GDD 2.1 / TL-1 + INS-1 法器铭刻与时间产线，GDD-0**。2026-10-04。核心结构及主辅槽铭刻已采纳；发行内容与数值待设计，体验Hypothesis / NotRun。现有探索方向已退役。
+Project ID：game-002。当前设计：**GDD 2.1 / TL-1 + INS-1 / processing.1，GDD-0**。2026-10-05。核心结构、主辅槽铭刻及单一处理／开工预留已采纳；发行内容与数值待设计，体验Hypothesis / NotRun。现有探索方向已退役。
 
 | 我想做什么 | 入口 |
 | --- | --- |
