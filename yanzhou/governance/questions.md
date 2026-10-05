@@ -6,6 +6,8 @@ Project ID：game-002。文档角色：Navigation。2026-10-05。基准TL-1 + IN
 
 阶段一文档已完成：[Q12–14确认与收束包](../sources/inbox/2026-10-05-stage-one-closure.md#2026-10-05第三批确认与阶段一完成)。用户“Q12–14全部按推荐”已形成[CORE-053](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)，共同拍序、预算及八组条件情境已按最终规则复核；数值仍Illustrative，运行与体验NotRun。下一工作为阶段二敌人压力并与阶段三真实配置配套；复杂效果总序继续归阶段四，GDD仍GDD-0。
 
+阶段二已启动：[首批敌人压力候选](../sources/inbox/2026-10-05-stage-two-enemy-pressure.md#阶二第一批决定)Raw / Unqualified，阶二Q01–15待答；其中Q10–12对应TL-Q05的首批默认与内容约束，答复前TL-Q05保持Unknown。
+
 | 编号 | 未决内容 | 负责人／完成条件 |
 | --- | --- | --- |
 | TL-Q01 | 携带容量数值、各资源占用量／标签、未完工托管料及具体卡效资源的战终归属（法器直接资源交付路径已退出） | 资格按卡表、共用容量、仅数量保留已定；资源表与保存合同补齐 |
