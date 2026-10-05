@@ -6,7 +6,7 @@ Project ID：game-002。文档角色：Navigation。2026-10-05。基准TL-1 + IN
 
 阶段一文档已完成：[Q12–14确认与收束包](../sources/inbox/2026-10-05-stage-one-closure.md#2026-10-05第三批确认与阶段一完成)。用户“Q12–14全部按推荐”已形成[CORE-053](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)，共同拍序、预算及八组条件情境已按最终规则复核；数值仍Illustrative，运行与体验NotRun。下一工作为阶段二敌人压力并与阶段三真实配置配套；复杂效果总序继续归阶段四，GDD仍GDD-0。
 
-阶段二已启动：[首批敌人压力候选](../sources/inbox/2026-10-05-stage-two-enemy-pressure.md#阶二第一批决定)Raw / Unqualified，「字身」已Parked，首版秘仪炼金方向与四类通用卡面种类已确认，其余阶二Q待答；其中Q10–12对应TL-Q05的首批默认与内容约束，答复前TL-Q05保持Unknown。
+阶段二已启动：[首批敌人压力候选](../sources/inbox/2026-10-05-stage-two-enemy-pressure.md#阶二第一批决定)Raw / Unqualified，「字身」已Parked，首版秘仪炼金方向、四类通用卡面种类已确认；Q06打断锁定剩余最长施法、Q10每场单一来源敌人且死亡即胜已获用户答复（待正式化，未改TL-13），TL-Q05来源死亡部分在该方向下消解，锁定目标失效与同一来源多牌同拍仍Unknown。
 
 | 编号 | 未决内容 | 负责人／完成条件 |
 | --- | --- | --- |
