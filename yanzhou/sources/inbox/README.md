@@ -56,3 +56,5 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 
 - [延时敌情与路由澄清原话](2026-10-04-routing-response-clarification.md)：第1–3项与调时答复已局部提升；付费调牌序仍Raw / Unqualified。
 - [飞书课程资料调研与阶段规划讨论稿](2026-10-04-feishu-design-stage-research.md)：Raw / Unqualified；11门课程恢复完成，区分17项方法/框架与30条局部建议，重点整理卡牌专题；覆盖缺口及前轮六阶段讨论稿见记录。
+- [法器生产简化与两批确认](2026-10-05-single-processing-time.md)：CORE-051／052已局部晋级并采纳；保留各轮原话、推荐与答复范围。
+- [阶段一收束工作包](2026-10-05-stage-one-closure.md)：共同规则、预算、四组配套情境与交接已整理；新增Q12–14待确认，Raw / Unqualified，NotRun。
