@@ -1,6 +1,6 @@
 # DIR-037 效果机制设计
 
-Project ID：game-002-optimization。创建：2026-10-06。轮次：R1。
+Project ID：game-002-optimization。创建：2026-10-06。设计框架：R1；最新交付：R2展示册Demo。
 状态：**Raw Idea / Unqualified**；所有新机制、命名与展示均为候选。体验：**Hypothesis / NotRun**。
 工作方式：gameplay-mechanism-designer 的 Mechanism Variants，附效果编写与双载体描述框架；grill-with-docs 按项目约定批量澄清。
 
@@ -350,3 +350,39 @@ flowchart LR
 本方向README保存种子、锁定输入、框架、候选、UI描述、未决问题与方法出处；探索入口新增一行。当前停留在可讨论的Raw设计，允许继续细化，不代表要求先审批才能构思。下一步先记录Q1–Q5答复，再缩小第一批词条与具体内容边界；资格、主系统采纳与玩法验证分别推进。
 
 [返回探索入口](../README.md) · [读取合同](../start.md) · [本轮所用现行设计入口](../../design/README.md)
+
+## R2 · 示例展示册（2026-10-06）
+
+用户原话：“按这个框架制作一个仅含示例法器和行动卡的展示册demo”。
+
+本轮按R1推荐制作交互展示，限定两类藏品：5件法器及5张对应行动卡。继续使用R1主系统阅读基线4138735c33c0a0f937e6c0c52998725cdaf15a01；设计输入固定为本方向R1提交0457eeeb9177c0faafdf9c360e156797832baef0。未增读其他游戏正文或退役Demo；新增阅读仅DA-1、资源目录元数据、登记模板与制作方法。
+
+制作授权允许将推荐作为展示假设，未把该指令登记为Q1–Q5逐项资格答复或主系统采纳。R1的“未制作Demo”是上一轮事实，本节记录新的交付；玩法证据仍NotRun。
+
+| 示例法器 | 对应行动卡 | 本册展示的关系 |
+| --- | --- | --- |
+| 缄声铃 | 止语 | 法器专注与行动封缄分开；提前取消与同拍失败 |
+| 守箴镜 | 守箴 | 普通护甲直接描述，提供承句的前序示例 |
+| 双誓匕 | 断章 | 承句〈防御〉成功、未满足与空放断句 |
+| 沉星漏 | 沉吟 | 额外排队的蓄言收益和上限 |
+| 白汞坩埚 | 凝汞 | 炼成经普通行动生效，资源最早下拍可用 |
+
+新器物、行动名称、核心铭刻、灰盐／粗汞／精汞、具体配方、D和数量均为Illustrative；不是新增发行池。所有辅槽留空、契合未设定。没有敌牌／资源／铭文册页或战斗模拟，词条只在相关卡片详情中解释。器物与咒式插图由本轮原创矢量图绘制，未复用历史资产。
+
+### DM-G002-009 藏器与咒式
+
+| 字段 | 内容 |
+| --- | --- |
+| 归属／维护 | game-002-optimization / DIR-037；本节维护用途与资格，外部README维护操作与实现 |
+| 用途／类型 | 法器与行动卡的交互展示册；词条解释、铭刻关系、产出／来源跳转、条件读法 |
+| 主入口 | [本机展示入口](http://127.0.0.1:8771/)（会话服务）；[离线入口](E:/Project/yanzhou-effect-atlas/index.html)；[操作／技术说明](E:/Project/yanzhou-effect-atlas/README.md) |
+| 固定版本 | EFFECT-ATLAS-01；外部本地Git提交df2af4310a27afc23f433323902c7a0ed5596795；[逐文件清单与SHA-256](E:/Project/yanzhou-effect-atlas/manifest.json) |
+| 设计来源 | 本方向R1@0457eeeb9177c0faafdf9c360e156797832baef0及本轮明确制作授权；Raw / Unqualified |
+| 生命周期／访问 | ReadyForScope（本机交互展示）／PresentLocal；2026-10-06实际浏览器核对 |
+| 检查证据 | [检查记录](E:/Project/yanzhou-effect-atlas/evidence/verification.md)；[法器截图](E:/Project/yanzhou-effect-atlas/evidence/artifacts-desktop.jpg)、[行动截图](E:/Project/yanzhou-effect-atlas/evidence/actions-desktop.jpg) |
+| 来源／复用条件 | 本任务原创页面、样例和内嵌矢量图；无第三方图片、字体文件或外部依赖。可在本项目继续改作，公开分发许可证未另定 |
+| 关联／派生 | uses: None；derived-from: None；未导入旧Demo |
+
+已验证页签、词条展开、双向关系、三类条件交互、键盘页签与关闭、宽／窄屏布局；精简显示仍保留关键条件。未验证真人理解、跨浏览器和游戏平衡。Demo交付不改变本方向Raw资格，未修改design。
+
+本机预览不是公网发布，外部实现仓库仅本地提交；游戏仓库只登记入口、版本与证据。无其他方向登记使用者。

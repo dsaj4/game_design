@@ -64,6 +64,15 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 
 历史报告记载局部浏览器检查通过；本轮未重新执行。四刻静态样例、临时动画节奏和占位美术不升级为正式规则。代码/依赖的复制改作与对外分发条件仍待目标任务核对。跨机器先取得源文件与所需依赖；本机地址不是网站发布或便携构建证明。
 
+### <a id="dm-g002-009"></a>DM-G002-009 藏器与咒式（2026-10-06新增）
+
+- 归属：game-002-optimization / DIR-037；[方向与权威登记](../../yanzhou/exploration/DIR-037-effect-framework/README.md#dm-g002-009-藏器与咒式)。
+- 类型／用途：仅5件示例法器与5张行动卡的展示册；铭刻与生产信息、词条解释、产出／来源跳转及固定条件读法。
+- 固定版本：EFFECT-ATLAS-01；外部本地Git df2af4310a27afc23f433323902c7a0ed5596795；[离线入口](E:/Project/yanzhou-effect-atlas/index.html)、[操作／技术说明](E:/Project/yanzhou-effect-atlas/README.md)、[文件清单与SHA-256](E:/Project/yanzhou-effect-atlas/manifest.json)。[本机预览](http://127.0.0.1:8771/)仅为会话入口，未公网发布。
+- ReadyForScope（本机交互展示）／PresentLocal；2026-10-06实际浏览器检查页签、详情、词条、双向跳转、蓄言／承句／封缄情境、键盘和桌面／窄屏布局。[检查与截图](E:/Project/yanzhou-effect-atlas/evidence/verification.md)。真人理解、跨浏览器及玩法平衡未验证。
+- 来源／关系：本方向R1@0457eeeb9177c0faafdf9c360e156797832baef0和用户明确制作授权；原创页面与内嵌矢量图，无第三方资源或外部依赖。uses: None；derived-from: None；未导入退役Demo。
+- 复用／边界：可在本项目改作，公开分发许可证未另定；外部实现仅本地Git保存。本册没有战斗模拟或其他卡册；名称、配方与数值为Illustrative，设计Raw / Unqualified、玩法NotRun，不因交付成为主系统规则。
+
 ## 素材与参考包
 
 | ID / 名称 / 标签 | 归属 / 原件入口 | 版本 / 来源条件 | 状态 / 使用边界 |
