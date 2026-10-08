@@ -1,10 +1,12 @@
-# SYS-003 战斗行、倒计时与结算
+# SYS-003 战斗行、倒计时与结算：规则
 
-Project ID：game-002。文档角色：CurrentSpec。基准：GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1。2026-10-05。本文已采纳条款与Unknown分开；体验Hypothesis / NotRun。队列接口来源：[CORE-052](../../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)。时序细化：[CORE-053](../../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)。敌情、目标与终局：[CORE-054](../../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)。
+Project ID：game-002。文档角色：CurrentSpec。基准：GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1。2026-10-05。本文已采纳条款与Unknown分开；体验Hypothesis / NotRun。队列接口来源：[CORE-052](../../../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)。时序细化：[CORE-053](../../../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)。敌情、目标与终局：[CORE-054](../../../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)。 文档拆分：2026-10-08 / system-docs.1；原条款采纳状态不变。
 
-## 目的、玩家行为与反馈
+[系统入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md)
 
-玩家需要看出“已经做好”与“来得及生效”的差别。面对公开倒计时，比较队列、材料和法器状态，决定应对或接受损失；普通区间由基础循环解决。记录同时给出生产来源、入行时刻、生效时刻、失败原因和实际损失。
+本页维护已采纳条款、信息义务、失败结果与规则示例。条款中保留的 Unknown 只标明尚未授予的权限或待补参数，不构成候选方案；设计问题与体验判断分别见同目录文件。
+
+记录同时给出生产来源、入行时刻、生效时刻、失败原因和实际损失。
 
 ## TL-08 玩家战斗行
 
@@ -88,6 +90,4 @@ D≥1，开工拍a到a+D完成，不在开工当拍再推进一拍。第0拍初�
 
 示例仅校对时间关系：假设本批已合法取得材料和容量预留，D＝1，在第4拍开工、第5拍完成即入行。按已采纳的最早下拍翻开规则，在队列允许时最早第6拍生效；第6拍已有资格的防护可能保护第6拍威胁，第6拍取消行动不能取消同拍敌牌，需敌牌至少第7拍到期。若前面仍有行动等待，实际生效更晚。示例D与具体时刻不是发行参数；第4拍开工发生于本拍末统一检查，完成时刻沿a+D。
 
-检查同拍截止、队列拥堵、指定法器被打断、普通掉血不中断、取消后空档、段尾遗留倒计时及终局停止；另查打断锁定剩余最长施法、无施法与无批次落空、来源敌人死亡即胜及同拍敌方到期先于玩家行动（TL-V61–68）。规则与玩家是否读懂分别验收；均NotRun。
-
-[验收](../validation.md) · [未决边界](../../governance/questions.md)
+[验收](../../validation.md) · [未决边界](../../../governance/questions.md)

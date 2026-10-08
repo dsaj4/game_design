@@ -2,7 +2,7 @@
 
 Project ID：game-002。2026-10-04。当前TL-1 + INS-1使用卡牌主战场；具体页面布局尚未采纳。
 
-- [基础展示与交互要求](../design/systems/07-interaction-save.md)：敌牌揭示／截止、资源、玩家队列、法器生产、维护和代价。
+- [基础展示与交互要求](../design/systems/07-interaction-save/rules.md)：敌牌揭示／截止、资源、玩家队列、法器生产、维护和代价。
 - 旧探索UI候选已于2026-10-04退役，当前布局重新设计；原确认与截图仅按固定版本取证。
 - [已发布可视化](https://yanzhou-battle-layouts.visiontreeai.chatgpt.site)：旧探索发布留存，已退出当前候选；发布不等于规则或布局采纳。
 - [05紧凑暗面](reviews/2026-09-19/style-guide.md)与[原质量评审](reviews/2026-09-19/qa-notes.md)：保留旧Demo的Selected Visual身份，不再约束新版格子、只读界面或卡表。

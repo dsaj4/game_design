@@ -121,6 +121,6 @@ G002-CORE-015已采纳[GR v1](M-2026-09-11-global-rule-boundaries.md)的GR01–G
 
 | 日期 | 目标与处理 | 当前适用边界 |
 | --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../../design/GDD.md)：Include；[实际章节](../../design/systems/03-combat.md) | 只纳入可引用对象、固定名单、当前过程、费用与公开顺序；掉卡／雷电／位移／材料加工等旧扩展首版后置。 |
+| 2026-09-14 | [全游戏GDD RC1](../../design/GDD.md)：Include；[实际章节](../../design/systems/03-combat/rules.md) | 只纳入可引用对象、固定名单、当前过程、费用与公开顺序；掉卡／雷电／位移／材料加工等旧扩展首版后置。 |
 
 本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。

@@ -49,4 +49,4 @@
 
 ## 最终建议
 
-通过[Draft Change](../draft-changes/D-2026-09-10-semantic-world-executable-rules.md)采纳用户已确认的32项框架，逐文件同步冲突表述。代表性规则走查记录在[交付报告](../../design/systems/03-combat.md)；这些是文档推导，不能当作可玩性、数值或技术验证。
+通过[Draft Change](../draft-changes/D-2026-09-10-semantic-world-executable-rules.md)采纳用户已确认的32项框架，逐文件同步冲突表述。代表性规则走查记录在[交付报告](../../design/systems/03-combat/rules.md)；这些是文档推导，不能当作可玩性、数值或技术验证。

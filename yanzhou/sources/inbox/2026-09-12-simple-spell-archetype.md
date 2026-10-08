@@ -59,7 +59,7 @@
 
 | 来源 | 本次用途与处理 |
 | --- | --- |
-| [法术类型](../../design/systems/01-grammar.md) | 复用省略主语与全部命中类型；“短、直接、小数值”是本流派的选牌倾向，不重定义所有简易法术 |
+| [法术类型](../../design/systems/01-grammar/rules.md) | 复用省略主语与全部命中类型；“短、直接、小数值”是本流派的选牌倾向，不重定义所有简易法术 |
 | [攻防参数候选](../materials/M-2026-09-11-simple-spell-parameter-candidates.md) | 建议以“伤害敌人／获得护甲”为首批基础法术锚点；仅作Candidate参照，不把原测试资源当起始牌组 |
 | [修饰词素材](../materials/M-2026-09-11-modifier-card-system.md) | 形容词只能直接修饰名词；若使用修饰动词的“快速地／重复地”等语义，应归副词。此处仅举词性，不定义加速或重复卡 |
 | [镶嵌素材](../materials/M-2026-09-12-wand-inlay-system.md) | 复用FX-026/r1隔周期减冷却；IN-C获取／槽位／叠加等仍Candidate |

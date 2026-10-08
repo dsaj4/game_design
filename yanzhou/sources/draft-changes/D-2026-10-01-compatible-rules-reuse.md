@@ -18,12 +18,12 @@ Project ID：game-002。2026-10-01。文档角色：DecisionRecord / DraftChange
 
 | 原TL-1简写／旧语境 | 合并后的当前规则 | 权威页 |
 | --- | --- | --- |
-| 只概述实体、完整法术与引用 | TL-26–28补稳定词义、实体占用、实例／条件名单与修饰挂接；材料角色另释 | [SYS-001](../../design/systems/01-grammar.md) |
-| 基础伤害和合法目标原则 | TL-29／30补护甲与对象失效、整批托管与生效支付分开 | [SYS-003](../../design/systems/03-combat.md) |
-| 资源与参数字段约定 | TL-37补普通数量、真实来源与有限事件声明；不套旧时间公式 | [SYS-004](../../design/systems/04-elements-environment.md) |
-| 仅保留路线组织用途 | TL-32恢复单向固定路线、分叉选择、揭示边界与消费机会 | [SYS-005](../../design/systems/05-route-encounters.md) |
-| 经济和库存概述 | TL-33–35恢复本局库存、0金币新局、收益包、休整3选1与固定商店；携带选择单列 | [SYS-006](../../design/systems/06-rewards-growth.md) |
-| 操作与战中恢复摘要 | TL-31／36补配置可表达性、战外提交边界、失败保存及可达性 | [SYS-007](../../design/systems/07-interaction-save.md) |
+| 只概述实体、完整法术与引用 | TL-26–28补稳定词义、实体占用、实例／条件名单与修饰挂接；材料角色另释 | [SYS-001](../../design/systems/01-grammar/rules.md) |
+| 基础伤害和合法目标原则 | TL-29／30补护甲与对象失效、整批托管与生效支付分开 | [SYS-003](../../design/systems/03-combat/rules.md) |
+| 资源与参数字段约定 | TL-37补普通数量、真实来源与有限事件声明；不套旧时间公式 | [SYS-004](../../design/systems/04-elements-environment/rules.md) |
+| 仅保留路线组织用途 | TL-32恢复单向固定路线、分叉选择、揭示边界与消费机会 | [SYS-005](../../design/systems/05-route-encounters/rules.md) |
+| 经济和库存概述 | TL-33–35恢复本局库存、0金币新局、收益包、休整3选1与固定商店；携带选择单列 | [SYS-006](../../design/systems/06-rewards-growth/rules.md) |
+| 操作与战中恢复摘要 | TL-31／36补配置可表达性、战外提交边界、失败保存及可达性 | [SYS-007](../../design/systems/07-interaction-save/rules.md) |
 
 对应完整新增文本以权威页TL标题为准，不维护第二份逐字规格。新参数登记只增加已复用的结构常量；旧卡池、持有上限、价格、恢复量、时序和疲劳上界没有恢复。
 

@@ -47,4 +47,4 @@ R01–R32为本次新增建议，均为Raw Idea / Unqualified，未因用户确�
 - [ ] 已验证可玩性或数值。
 - [ ] 已采纳R01–R32。
 
-本次文件范围和文档检查见[交付记录](../../design/systems/01-grammar.md)。
+本次文件范围和文档检查见[交付记录](../../design/systems/01-grammar/rules.md)。

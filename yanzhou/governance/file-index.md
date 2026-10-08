@@ -2,9 +2,9 @@
 
 2026-10-04生成快照：按当前工作树存在的Git跟踪或未忽略文件登记，不据此授予游戏材料阅读权限。原tools/docs.py处于既有未提交删除，本次只在仓库外调用其固定版本逻辑。
 
-共 364 份。日常工作从[项目首页](../README.md)开始；历史内容按固定版本解释。
+原始快照共 364 份；2026-10-08 仅增量更新系统文件清单，其他目录仍按原快照，不代表本轮完整盘点。日常工作从[项目首页](../README.md)开始；历史内容按固定版本解释。
 
-## design（19）
+## design（45；系统目录于2026-10-08更新）
 
 - [design/GDD.md](../design/GDD.md)
 - [design/README.md](../design/README.md)
@@ -17,13 +17,39 @@
 - [design/legacy-index.md](../design/legacy-index.md)
 - [design/parameters.md](../design/parameters.md)
 - [design/source-review.md](../design/source-review.md)
-- [design/systems/01-grammar.md](../design/systems/01-grammar.md)
-- [design/systems/02-wands.md](../design/systems/02-wands.md)
-- [design/systems/03-combat.md](../design/systems/03-combat.md)
-- [design/systems/04-elements-environment.md](../design/systems/04-elements-environment.md)
-- [design/systems/05-route-encounters.md](../design/systems/05-route-encounters.md)
-- [design/systems/06-rewards-growth.md](../design/systems/06-rewards-growth.md)
-- [design/systems/07-interaction-save.md](../design/systems/07-interaction-save.md)
+- [design/systems/01-grammar/README.md](../design/systems/01-grammar/README.md)
+- [design/systems/01-grammar/rules.md](../design/systems/01-grammar/rules.md)
+- [design/systems/01-grammar/experience.md](../design/systems/01-grammar/experience.md)
+- [design/systems/01-grammar/design.md](../design/systems/01-grammar/design.md)
+- [design/systems/02-wands/README.md](../design/systems/02-wands/README.md)
+- [design/systems/02-wands/rules.md](../design/systems/02-wands/rules.md)
+- [design/systems/02-wands/experience.md](../design/systems/02-wands/experience.md)
+- [design/systems/02-wands/design.md](../design/systems/02-wands/design.md)
+- [design/systems/03-combat/README.md](../design/systems/03-combat/README.md)
+- [design/systems/03-combat/rules.md](../design/systems/03-combat/rules.md)
+- [design/systems/03-combat/experience.md](../design/systems/03-combat/experience.md)
+- [design/systems/03-combat/design.md](../design/systems/03-combat/design.md)
+- [design/systems/04-elements-environment/README.md](../design/systems/04-elements-environment/README.md)
+- [design/systems/04-elements-environment/rules.md](../design/systems/04-elements-environment/rules.md)
+- [design/systems/04-elements-environment/experience.md](../design/systems/04-elements-environment/experience.md)
+- [design/systems/04-elements-environment/design.md](../design/systems/04-elements-environment/design.md)
+- [design/systems/05-route-encounters/README.md](../design/systems/05-route-encounters/README.md)
+- [design/systems/05-route-encounters/rules.md](../design/systems/05-route-encounters/rules.md)
+- [design/systems/05-route-encounters/experience.md](../design/systems/05-route-encounters/experience.md)
+- [design/systems/05-route-encounters/design.md](../design/systems/05-route-encounters/design.md)
+- [design/systems/06-rewards-growth/README.md](../design/systems/06-rewards-growth/README.md)
+- [design/systems/06-rewards-growth/rules.md](../design/systems/06-rewards-growth/rules.md)
+- [design/systems/06-rewards-growth/experience.md](../design/systems/06-rewards-growth/experience.md)
+- [design/systems/06-rewards-growth/design.md](../design/systems/06-rewards-growth/design.md)
+- [design/systems/07-interaction-save/README.md](../design/systems/07-interaction-save/README.md)
+- [design/systems/07-interaction-save/rules.md](../design/systems/07-interaction-save/rules.md)
+- [design/systems/07-interaction-save/experience.md](../design/systems/07-interaction-save/experience.md)
+- [design/systems/07-interaction-save/design.md](../design/systems/07-interaction-save/design.md)
+- [design/systems/README.md](../design/systems/README.md)
+- [design/systems/augment-system/README.md](../design/systems/augment-system/README.md)
+- [design/systems/augment-system/rules.md](../design/systems/augment-system/rules.md)
+- [design/systems/augment-system/experience.md](../design/systems/augment-system/experience.md)
+- [design/systems/augment-system/design.md](../design/systems/augment-system/design.md)
 - [design/validation.md](../design/validation.md)
 
 ## development（8）

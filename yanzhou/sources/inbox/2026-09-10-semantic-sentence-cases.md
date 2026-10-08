@@ -1,12 +1,12 @@
 # 代表句：简单对象变化的检查情境
 
-状态：对象方向沿用G002-CORE-011；具体词效与参数于2026-09-11搁置（Parked）。当前按G002-CORE-012作词名与类型归类，见[类型入口](../../design/systems/01-grammar.md)。Project ID：game-002。证据Hypothesis。
+状态：对象方向沿用G002-CORE-011；具体词效与参数于2026-09-11搁置（Parked）。当前按G002-CORE-012作词名与类型归类，见[类型入口](../../design/systems/01-grammar/rules.md)。Project ID：game-002。证据Hypothesis。
 
 ## 原始想法与来源
 
 用户要求对象只需能受法术影响发生变化，例如点燃、冰冻；暂不做位移、结构、指定方向/端点及环境材料加工，收集只到对象掉卡；新增火焰、雷电、冰霜等法术生成对象。[完整原话与资格确认](2026-09-10-simple-object-interactions.md)、[已采纳范围](../materials/M-2026-09-10-simple-object-interactions.md)。
 
-修改前目录已保存为[字节快照](../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)，不作为当前玩法入口。[当前内容总览](../../design/systems/01-grammar.md)。
+修改前目录已保存为[字节快照](../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)，不作为当前玩法入口。[当前内容总览](../../design/systems/01-grammar/rules.md)。
 
 ## 体验与资格边界
 
@@ -62,4 +62,4 @@
 
 ## 按类型继续
 
-按[类型入口](../../design/systems/01-grammar.md)查看首批句子的全部类型及命中理由；当前不继续这批具体结算与参数。普通攻击保护、反弹与转移细则也先暂停。基础引用、名单、时间与成功规则继续作为所有类型的共同依据。
+按[类型入口](../../design/systems/01-grammar/rules.md)查看首批句子的全部类型及命中理由；当前不继续这批具体结算与参数。普通攻击保护、反弹与转移细则也先暂停。基础引用、名单、时间与成功规则继续作为所有类型的共同依据。

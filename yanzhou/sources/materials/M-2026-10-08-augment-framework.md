@@ -62,7 +62,7 @@ Project ID：game-002。日期：2026-10-08。文档角色：QualifiedMaterial�
 ## 设计对象与GDD映射
 
 - 作用对象：辅槽系统的定位、权限、跨系统分工、选择成长及表达。
-- 目标GDD：[SYS-001铭刻与辅槽](../../design/systems/01-grammar.md)、[SYS-002生产](../../design/systems/02-wands.md)、[SYS-003结算](../../design/systems/03-combat.md)、[SYS-004资源与参数合同](../../design/systems/04-elements-environment.md)、[SYS-006成长与打造](../../design/systems/06-rewards-growth.md)，以及用户指定的augment-system三文档。
+- 目标GDD：[SYS-001铭刻与辅槽](../../design/systems/01-grammar/rules.md)、[SYS-002生产](../../design/systems/02-wands/rules.md)、[SYS-003结算](../../design/systems/03-combat/rules.md)、[SYS-004资源与参数合同](../../design/systems/04-elements-environment/rules.md)、[SYS-006成长与打造](../../design/systems/06-rewards-growth/rules.md)，以及用户指定的augment-system三文档。
 - 建议章节：系统定位／职责、修饰权限、生产与行动接口、标记支付、成长表达。
 - 对应完成度：**GDD-0层的系统框架素材**；不是完整GDD-1规则或GDD-2验收规格。
 
@@ -125,4 +125,4 @@ Project ID：game-002。日期：2026-10-08。文档角色：QualifiedMaterial�
 
 ## 使用记录
 
-尚未被GDD、Proposal或CurrentSpec引用，未形成正式规则回写。后续使用按本素材的局部范围推进；来源笔记中的其他推荐不随本素材自动纳入。
+2026-10-08：用户要求系统各自建目录，并分离规则、玩家体验与设计内容。本素材已用于 [辅槽专题重写](../../design/systems/augment-system/README.md)，其中规则性内容以 QualifiedFramework 标识，并由 GDD 入口链接；未形成完整 CurrentSpec 采纳或新的 Proposal。原资格与证据状态不变，来源笔记中的其他推荐不随本素材自动纳入。

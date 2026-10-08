@@ -57,4 +57,4 @@
 
 ## 下一步
 
-先完成修饰词共用模型，再依[系统设计入口](../../design/systems/02-wands.md)补镶嵌；暂不展开流派成套物品。测试积累到[固定交接](../../development/test-handoff.md)，不启动执行。
+先完成修饰词共用模型，再依[系统设计入口](../../design/systems/02-wands/rules.md)补镶嵌；暂不展开流派成套物品。测试积累到[固定交接](../../development/test-handoff.md)，不启动执行。

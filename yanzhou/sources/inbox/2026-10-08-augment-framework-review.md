@@ -26,7 +26,7 @@
 
 五项均已答复，这些确认不自动采纳本文件的全部具体规则建议。v0.1已在提交`26f8bf2`保留，包含最初候选和当时Q1／Q2答复；本版按新增决定收敛，不抹去先前分析。
 
-输入为三份工作树文件：[定位](../../design/systems/augment-system/positioning.md)、[规则](../../design/systems/augment-system/rules.md)、[示例](../../design/systems/augment-system/examples.md)，以及[既有研究来源记录](2026-10-04-feishu-design-stage-research.md)。三份目标文件为未跟踪输入，原文保留；标签分别为 Archive / Qualified、Archive / Qualified、Archive / Reference。未找到这三个路径的已提交历史，标签不能独自证明采纳，也不取消其可能已有的资格。
+输入为当时的三份工作树文件：`augment-system/positioning.md`、`augment-system/rules.md`、`augment-system/examples.md`（原路径均在 `yanzhou/design/systems/` 下；2026-10-08 重写后的同名 rules.md 不是这份原输入，保全见文末），以及[既有研究来源记录](2026-10-04-feishu-design-stage-research.md)。三份目标文件为未跟踪输入，原文保留；标签分别为 Archive / Qualified、Archive / Qualified、Archive / Reference。未找到这三个路径的已提交历史，标签不能独自证明采纳，也不取消其可能已有的资格。
 
 新增允许的阶段材料见文末阅读清单。其中“用户确认”小节作为既有确认记录承接；Raw、Illustrative 段落与其区分。阶段交付页中较早的“待确认／下一步”等字样不覆盖本轮进度前提。未把整个 inbox 或设计完成声明升级成所有细节都已正式采纳。
 
@@ -277,3 +277,17 @@ flowchart LR
 | R/BV13dMp6kEsD-subtitle.json | 仅P1 14:26–15:15、49:20–49:55 | `b42310f982c2ba5f014c54f6a4db87580a5c05149cfd4c42f023ce3c71d84304` |
 | R/chapters/BV1B1KY6GEte-p25-subtitle.json | 仅P25 00:25–01:02、02:30–03:10 | `2a08039e82464a0fa2382ee4469d9d47e30059e8a12b42cf05bf62bd673ecc29` |
 | R/coordinator-checks/BV1ojT16CESu-subtitle.json | 仅P1 04:30–07:20 | `fb3d73c56e209a8f5456ec9c3640d902b4b5eaf4ca21ba9590429fe1a5680a9e` |
+
+## 文档拆分与原输入保全
+
+2026-10-08 用户要求每个系统单独建文件夹，并将确定规则、玩家体验假设和设计内容分开；[辅槽目录](../../design/systems/augment-system/README.md)据五项确认重写。本记录的原始诊断、版本清单和输入哈希保留原轮次含义，不把新规则页当作原输入。
+
+三份未提交原件在替换前逐字节复制到本地 `.git/codex-tasks/2026-10-08-system-doc-split/augment-inputs/`，并核对 SHA-256。备份未随本次提交发布；原 `augment-system-archive.md` 不在本次读写范围。
+
+| 原输入文件 | SHA-256 |
+| --- | --- |
+| `positioning.md` | `67f9b9e6ee21c99093db883aa6a98ff076d4ff4fba39b576b31fc5b0738c4c15` |
+| `rules.md` | `ba52f008a7a590a42094de029604fadbb2ad6b8711d841cb0a86c534585bb96c` |
+| `examples.md` | `58cc32735dc2c1b8099ed5847d3faa2d799868d6d4e85fa02a3b6d84799b3cb5` |
+
+原三文件中的示例按旧身份保存，未作为本版发行内容。当前规则边界例进入 rules.md，观察情境进入 experience.md，候选与设计理由进入 design.md。

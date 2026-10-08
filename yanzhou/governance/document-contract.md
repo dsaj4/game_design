@@ -1,6 +1,6 @@
 # 文档职责与统一规范
 
-Project ID：game-002。治理状态：Accepted / Documentation；依据用户授权全量整理。更新：2026-10-05 / layout.3；规则基准TL-1 + INS-1 / processing.2 + timing.1；生产、队列与共同拍序术语同步CORE-051／052／053。
+Project ID：game-002。治理状态：Accepted / Documentation；依据用户授权全量整理。更新：2026-10-08 / system-docs.1；规则基准TL-1 + INS-1 / processing.2 + timing.1；生产、队列与共同拍序术语同步CORE-051／052／053。
 
 ## 权威来源
 
@@ -34,7 +34,26 @@ Project ID：game-002。治理状态：Accepted / Documentation；依据用户�
 
 参数至少包含：ID、单位、数值／公式、合法域、零值许可、适用角色及来源。CORE-051只保留法器处理耗时D，正整数拍且至少1拍；J、R、独立周期／冷却及S已取消。旧C／L／τ只在RC1解释。明确区分开工预留、处理完成即入行、行动生效、敌牌揭示与到期；CORE-052明确预留只占容量，入行后最早下拍翻开。容量须区分实际牌、有效预留和中断后待复用部分，临时供料须明确唯一方案及结束拍；CORE-053进一步区分拍末一次开工与a+D完工、正常空位当拍复用与中断回收下拍可用、观察窗口提交与结算途中待受理操作、初始库存与新增补给可用拍。这些接口不是新增生产耗时参数。
 
-每份现用文档标明Project ID、文档角色、设计基准、文档修订、设计／证据状态及来源。Navigation、CoreDesignSummary、ExplorationReadingContract、CurrentSpec、SourceRecord、DecisionRecord、HistoricalSnapshot、ResearchComparison、ValidationSpec、ImplementationIndex不得混用。
+每份现用文档标明Project ID、文档角色、设计基准、文档修订、设计／证据状态及来源。Navigation、CoreDesignSummary、ExplorationReadingContract、CurrentSpec、QualifiedFramework、DesignNote、ExperienceHypothesis、SourceRecord、DecisionRecord、HistoricalSnapshot、ResearchComparison、ValidationSpec、ImplementationIndex不得混用。
+
+## 系统文件夹与分文件职责
+
+每个系统使用独立目录，统一为 `README.md`、`rules.md`、`experience.md`、`design.md`；入口见 [系统目录](../design/systems/README.md)。SYS 编号与跨系统职责不因拆分变化。
+
+| 文件 | 维护内容 | 不承担的职责 |
+| --- | --- | --- |
+| README.md | Navigation：范围、各文件状态、来源与入口 | 不重复维护规则或长篇设计正文 |
+| rules.md | 已确认约束、权限、条件、时点、支付、结果、失败与规则边界例；已采纳部分为 CurrentSpec，已确认但未完成采纳的框架为 QualifiedFramework | 不把理想行为、预期体验、未选方案和调参建议写成硬规则 |
+| experience.md | ExperienceHypothesis：机制—可能行为—预期体验、观察方式、支持／失败信号、证据版本与范围 | 不把规则通过、文档完成或理论引用写成体验已验证 |
+| design.md | DesignNote：定位、价值顺序、风格与表达方向、取舍理由、候选方案、未决接口和替代原因 | 不另建一套当前规则、参数或采纳历史 |
+
+先按陈述性质分类，再标状态。已确认的定位仍标“已确认”，不能因移入设计页而任意推翻；尚未采纳的规则性约束也不能因文件名叫 rules 就变为 Accepted。规则页可标明未定义参数或未授予权限，并链接设计页的具体问题，但不在缺口后附一个无标识的默认答案。
+
+信息展示中已采纳的必需内容、通用符号与可达性约束属于规则；布局、动效和风格候选属于设计；“玩家会读懂”属于体验假设。每个例子放在其说明对象旁，并标清是确定结果、假设情境还是未采用方案。
+
+本结构是 [已登记系统规格模板](../../game-design-workflow/templates/gdd-writing-requirements-and-template.md) 的分文件落位，不新增另一套 GDD 流程：目的／定位与待定依赖进入 design，MDA 与体验观察进入 experience，输入输出／核心规则／失败／信息义务和规则示例进入 rules。统一验收编号与参数继续在原权威页维护，来源与决定继续在 sources 和 decision-log 保存。
+
+修改任一文件时检查相关文件是否需要同步：规则改变复核假设与说明；体验证据可促成设计修订，但不能反向覆盖规则；设计候选仍按资格与采纳流程进入规则。具体改动均保留原来源和状态。
 
 ## 状态与变更
 

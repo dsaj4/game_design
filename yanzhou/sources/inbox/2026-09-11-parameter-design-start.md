@@ -14,7 +14,7 @@
 
 ## 触发来源
 
-法术类型与扩展规则已按G002-CORE-012、013确认；数值重新设计任务已经采纳。当前按[类型入口](../../design/systems/01-grammar.md)从简易类开始，交叉涉及护甲状态。依据[数值约束](../materials/M-2026-09-10-numerical-redesign-constraints.md)、[时间规则](../materials/M-2026-09-05-casting-time-and-interruption.md)和[护甲规则](../materials/M-2026-09-06-armor-identity-generation-and-persistence.md)，重新提出可比较的参数。
+法术类型与扩展规则已按G002-CORE-012、013确认；数值重新设计任务已经采纳。当前按[类型入口](../../design/systems/01-grammar/rules.md)从简易类开始，交叉涉及护甲状态。依据[数值约束](../materials/M-2026-09-10-numerical-redesign-constraints.md)、[时间规则](../materials/M-2026-09-05-casting-time-and-interruption.md)和[护甲规则](../materials/M-2026-09-06-armor-identity-generation-and-persistence.md)，重新提出可比较的参数。
 
 ## 可能带来的玩家体验
 

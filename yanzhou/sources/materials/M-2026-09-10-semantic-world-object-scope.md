@@ -45,7 +45,7 @@
 
 ## 与当前构思的关系
 
-保留[引用模型](M-2026-09-10-instance-and-conditional-binding.md)、[执行规则](M-2026-09-10-semantic-world-executable-rules.md)、[状态留存](M-2026-09-05-battle-state-persistence.md)和[表现](M-2026-09-10-battlefield-state-change-expression.md)。收束与新增的详细边界见[简化范围素材](M-2026-09-10-simple-object-interactions.md)。完整召唤和复杂环境反应仍后置；镶嵌进入[当前系统设计顺序](../../design/systems/02-wands.md)。
+保留[引用模型](M-2026-09-10-instance-and-conditional-binding.md)、[执行规则](M-2026-09-10-semantic-world-executable-rules.md)、[状态留存](M-2026-09-05-battle-state-persistence.md)和[表现](M-2026-09-10-battlefield-state-change-expression.md)。收束与新增的详细边界见[简化范围素材](M-2026-09-10-simple-object-interactions.md)。完整召唤和复杂环境反应仍后置；镶嵌进入[当前系统设计顺序](../../design/systems/02-wands/rules.md)。
 
 ## 机制—行为—体验假设
 
@@ -79,6 +79,6 @@
 
 | 日期 | 目标与处理 | 当前适用边界 |
 | --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../../design/GDD.md)：Include；[实际章节](../../design/systems/03-combat.md) | 只纳入可引用对象、固定名单、当前过程、费用与公开顺序；掉卡／雷电／位移／材料加工等旧扩展首版后置。 |
+| 2026-09-14 | [全游戏GDD RC1](../../design/GDD.md)：Include；[实际章节](../../design/systems/03-combat/rules.md) | 只纳入可引用对象、固定名单、当前过程、费用与公开顺序；掉卡／雷电／位移／材料加工等旧扩展首版后置。 |
 
 本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。
