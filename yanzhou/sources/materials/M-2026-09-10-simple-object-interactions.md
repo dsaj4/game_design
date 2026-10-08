@@ -53,7 +53,7 @@
 
 ## 与当前构思的关系
 
-沿[修饰词模型](M-2026-09-11-modifier-card-system.md)使用名词、动词与修饰词，保留两种外层句式、词卡实体成本、护甲状态规则、实例与条件引用、固定单次名单、当前冷却改期、共享释放槽、四阶段、完整事件胜负与整体收益。收紧位移、结构、空间参照、环境供材和指定端点权限；不把复杂能力当必需前置。简单点燃/冰冻进入当前设计，燃料/传播/导电/坍塌等复杂BF内容仍后置；完整召唤仍后置；镶嵌按[当前顺序](../../design/systems/02-wands/rules.md)在修饰词后补齐。
+沿[修饰词模型](M-2026-09-11-modifier-card-system.md)使用名词、动词与修饰词，保留两种外层句式、词卡实体成本、护甲状态规则、实例与条件引用、固定单次名单、当前冷却改期、共享释放槽、四阶段、完整事件胜负与整体收益。收紧位移、结构、空间参照、环境供材和指定端点权限；不把复杂能力当必需前置。简单点燃/冰冻进入当前设计，燃料/传播/导电/坍塌等复杂BF内容仍后置；完整召唤仍后置；镶嵌按[当前顺序](../../design/systems/artifact-system/rules.md)在修饰词后补齐。
 
 依据：[当前核心](../../design/core-concept.md)、[执行规则](M-2026-09-10-semantic-world-executable-rules.md)、[状态留存](M-2026-09-05-battle-state-persistence.md)、[战后收益](M-2026-09-06-normal-combat-word-rewards.md)。没有确认词卡发行清单、开局卡组、环境生命条、完整冰冻硬控或元素现实物理。
 
@@ -92,13 +92,13 @@
 | 2026-09-10 | [提案](../proposals/P-2026-09-10-simple-object-interactions.md) | 简化对象交互 | Included | 用户已要求调整 |
 | 2026-09-10 | [采纳](../draft-changes/D-2026-09-10-simple-object-interactions.md) | G002-CORE-011 | Included | 不采纳未明示参数与效果 |
 
-2026-09-12：本主题在[第一人称格子战场素材](M-2026-09-12-first-person-grid-battlefield.md)与[GDD候选](../../design/systems/04-elements-environment/rules.md)中复用并局部扩展；仅火焰向周围施加已由用户明确。2×5的占位／地面／火焰细则尚为Draft Change，未用本次候选覆盖本文既有已采纳范围；正式采纳后按拟修改同步。
+2026-09-12：本主题在[第一人称格子战场素材](M-2026-09-12-first-person-grid-battlefield.md)与[GDD候选](../../design/systems/resource-system/rules.md)中复用并局部扩展；仅火焰向周围施加已由用户明确。2×5的占位／地面／火焰细则尚为Draft Change，未用本次候选覆盖本文既有已采纳范围；正式采纳后按拟修改同步。
 
 
 ## 2026-09-14 全游戏GDD使用记录
 
 | 日期 | 目标与处理 | 当前适用边界 |
 | --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../../design/GDD.md)：Include；[实际章节](../../design/systems/03-combat/rules.md) | 只纳入可引用对象、固定名单、当前过程、费用与公开顺序；掉卡／雷电／位移／材料加工等旧扩展首版后置。 |
+| 2026-09-14 | [全游戏GDD RC1](../../design/GDD.md)：Include；[实际章节](../../design/systems/action-card-system/rules.md) | 只纳入可引用对象、固定名单、当前过程、费用与公开顺序；掉卡／雷电／位移／材料加工等旧扩展首版后置。 |
 
 本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。

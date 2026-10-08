@@ -1,6 +1,6 @@
 # 文档职责与统一规范
 
-Project ID：game-002。治理状态：Accepted / Documentation；依据用户授权全量整理。更新：2026-10-08 / system-docs.1；规则基准TL-1 + INS-1 / processing.2 + timing.1；生产、队列与共同拍序术语同步CORE-051／052／053。
+Project ID：game-002。治理状态：Accepted / Documentation；依据用户授权全量整理。更新：2026-10-08 / system-catalog.2；规则基准TL-1 + INS-1 / processing.2 + timing.1；生产、队列与共同拍序术语同步CORE-051／052／053。
 
 ## 权威来源
 
@@ -8,13 +8,16 @@ Project ID：game-002。治理状态：Accepted / Documentation；依据用户�
 | --- | --- | --- |
 | 产品范围、体验目标与不变量 | GDD主文档 | core-design为唯一成篇浓缩；core-concept保留版本入口 |
 | 探索阅读权限与材料预设 | exploration/start.md | AGENTS负责路由；每DIR记录当轮清单及实际覆盖 |
-| 法器暗句、铭刻核心／辅槽、兼容、行动类别与契合接口 | SYS-001 | 内容条目声明实际词义、槽位与卡效 |
-| 法器铭刻运行、处理、容量预留、完成入行及实际时机 | SYS-002 | 法器目录提供索引 |
-| 公共战斗行、倒计时、目标、打断、终局与疲劳 | SYS-003 | 元素与卡牌只能声明明确局部例外 |
-| 资源／环境卡、托管、维护、增幅与生成转化 | SYS-004 | 遭遇表提供初态，不重定义机制 |
-| 路线与整局结构 | SYS-005 | 图和交互引用连接规则 |
-| 奖励、获取、辅槽打造与跨战资源 | SYS-006 | 商品／打造参数引用统一参数表，Unknown不补默认 |
-| 交互与恢复合同 | SYS-007 | 实现偏差进入开发索引 |
+| 铭文实体、核心／辅槽装配、兼容与打造 | [铭文系统](../design/systems/inscription-system/rules.md) | 主要沿 SYS-001；TL-42 保留原 SYS-006 身份；辅槽权限在所属子目录 |
+| 法器契合接口 | [法器系统](../design/systems/artifact-system/rules.md) TL-45 | 保留原 SYS-001 来源；实际法器内容仍在内容目录 |
+| 法器铭刻运行、处理、容量预留、完成入行及实际时机 | [法器系统](../design/systems/artifact-system/rules.md) | 沿 SYS-002；法器内容目录提供索引 |
+| 卡牌类别、独立卡效、战斗行、倒计时、目标、打断、终局与疲劳 | [行动卡系统](../design/systems/action-card-system/rules.md) | 沿 SYS-003 及原 SYS-001 的 TL-01／44；标记归所属子目录，不自动采纳未整理细则 |
+| 资源／环境卡、托管、维护、增幅与生成转化 | [资源系统](../design/systems/resource-system/rules.md) | 沿 SYS-004；遭遇表提供初态，不重定义机制 |
+| 敌方程序与遭遇字段 | [敌人系统](../design/systems/enemy-system/rules.md) | 沿原 SYS-005 的 TL-16；行动结算引用行动卡规则 |
+| 路线与整局结构 | [局内路线](../design/common/run-route/rules.md) | 沿原 SYS-005 的 TL-32；图和交互引用连接规则 |
+| 局内奖励、获取、商店与跨战资源 | [局内经济](../design/common/run-economy/rules.md) | 沿 SYS-006 的 TL-25／33–35；辅槽打造 TL-42 已归铭文，不作为局外成长 |
+| 局外成长 | [局外成长入口](../design/systems/meta-progression-system/README.md) | 尚未开发；目录占位不建立规则 |
+| 交互与恢复合同 | [交互与保存](../design/common/interaction-save/rules.md) | 沿 SYS-007；实现偏差进入开发索引 |
 | 新卡表内容合同（尚无已采纳新发行实体） | content/cards.md | 旧S2／E3保留RC1身份；TC／TR／TS／TA／TE为已退役候选身份，不是当前待审池 |
 | 处理耗时D、量值、容量、疲劳和商品参数 | parameters.md | 卡牌详情引用对应行；示例明确非独立默认值 |
 | 资源生命周期与维护 | SYS-004 | 内容条目声明具体例外；数值入口不重复机制 |
@@ -38,7 +41,7 @@ Project ID：game-002。治理状态：Accepted / Documentation；依据用户�
 
 ## 系统文件夹与分文件职责
 
-每个系统使用独立目录，统一为 `README.md`、`rules.md`、`experience.md`、`design.md`；入口见 [系统目录](../design/systems/README.md)。SYS 编号与跨系统职责不因拆分变化。
+每个系统使用独立目录，统一为 `README.md`、`rules.md`、`experience.md`、`design.md`；入口见 [系统目录](../design/systems/README.md)。按用户指定的六个主系统组织；辅槽归铭文、标记归行动卡，局外成长尚未开发。路线、局内经济、交互与保存作为公共流程／合同移到 design/common。既有 SYS 编号保留原身份，条款位置以规则索引为准，不把七个旧编号复用为六个新系统编号。
 
 | 文件 | 维护内容 | 不承担的职责 |
 | --- | --- | --- |
@@ -51,7 +54,7 @@ Project ID：game-002。治理状态：Accepted / Documentation；依据用户�
 
 信息展示中已采纳的必需内容、通用符号与可达性约束属于规则；布局、动效和风格候选属于设计；“玩家会读懂”属于体验假设。每个例子放在其说明对象旁，并标清是确定结果、假设情境还是未采用方案。
 
-本结构是 [已登记系统规格模板](../../game-design-workflow/templates/gdd-writing-requirements-and-template.md) 的分文件落位，不新增另一套 GDD 流程：目的／定位与待定依赖进入 design，MDA 与体验观察进入 experience，输入输出／核心规则／失败／信息义务和规则示例进入 rules。统一验收编号与参数继续在原权威页维护，来源与决定继续在 sources 和 decision-log 保存。
+空白文件包见 [系统通用框架模板](../../game-design-workflow/templates/system-framework/README.md)，仅提供待填写结构。本结构是 [已登记系统规格模板](../../game-design-workflow/templates/gdd-writing-requirements-and-template.md) 的分文件落位，不新增另一套 GDD 流程：目的／定位与待定依赖进入 design，MDA 与体验观察进入 experience，输入输出／核心规则／失败／信息义务和规则示例进入 rules。统一验收编号与参数继续在原权威页维护，来源与决定继续在 sources 和 decision-log 保存。
 
 修改任一文件时检查相关文件是否需要同步：规则改变复核假设与说明；体验证据可促成设计修订，但不能反向覆盖规则；设计候选仍按资格与采纳流程进入规则。具体改动均保留原来源和状态。
 
@@ -72,7 +75,7 @@ Project ID：game-002。治理状态：Accepted / Documentation；依据用户�
 
 ## 系统间接口
 
-法器暗句与铭文补全输出合法配置；制造内容绑定材料类别，卡效独立声明目标；法器加工并统一交付行动卡；战斗行结算行动和敌牌倒计时；资源系统负责供给、维护与归属；收益系统处理跨战携带与战外库存；交互提交授权操作并保存结清状态。图像、演出和代码的默认行为均不能新增规则。
+法器暗句与铭文补全输出合法配置；制造内容绑定材料类别，卡效独立声明目标；法器加工并统一交付行动卡；战斗行结算行动和敌牌倒计时；资源系统负责供给、维护与归属；局内经济流程处理跨战携带与本局库存；交互提交授权操作并保存结清状态。图像、演出和代码的默认行为均不能新增规则。
 
 
 ## 探索构思的轻量存储

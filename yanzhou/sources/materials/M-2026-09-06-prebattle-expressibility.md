@@ -85,6 +85,6 @@
 
 | 日期 | 目标与处理 | 当前适用边界 |
 | --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../../design/GDD.md)：Include；[实际章节](../../design/systems/01-grammar/rules.md) | 纳入实体、合法句、类型、绑定和装配；实际白名单、3种法杖、起点与角色由CG／WG／SG限定；寒冷、召唤与未选卡不因例句入池。 |
+| 2026-09-14 | [全游戏GDD RC1](../../design/GDD.md)：Include；[实际章节](../../design/systems/inscription-system/rules.md) | 纳入实体、合法句、类型、绑定和装配；实际白名单、3种法杖、起点与角色由CG／WG／SG限定；寒冷、召唤与未选卡不因例句入池。 |
 
 本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。

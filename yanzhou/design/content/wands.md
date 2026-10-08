@@ -8,4 +8,4 @@ Project ID：game-002。文档角色：ContentScope / Navigation。2026-10-05 / 
 
 用户“剑与盾之符＋攻击／防御”是方向种子，不构成新发行身份、固定槽数或具体伤害／护盾参数。旧原木／节律／余火及W01–03保留[RC1身份](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/wands.md)，不直接迁为新器具。
 
-新法器数量、获取与初始组合，辅槽打造路径／价格、批次卡数、材料与时间映射和契合清单仍待定。须与真实铭文库存、资源来源和有限队列一起核对；按CORE-051开工预留、无位不开工、完成即入行，不另设J／R／S／独立周期。CORE-052按有效供料优先级联合检查材料与容量、不足者本次跳过；设计大批次时须检查长期等位风险，不能靠固定预留牌序获得先出牌权限。[生产规则](../systems/02-wands/rules.md) · [铭刻规则](../systems/01-grammar/rules.md) · [采纳来源](../../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)。
+新法器数量、获取与初始组合，辅槽打造路径／价格、批次卡数、材料与时间映射和契合清单仍待定。须与真实铭文库存、资源来源和有限队列一起核对；按CORE-051开工预留、无位不开工、完成即入行，不另设J／R／S／独立周期。CORE-052按有效供料优先级联合检查材料与容量、不足者本次跳过；设计大批次时须检查长期等位风险，不能靠固定预留牌序获得先出牌权限。[生产规则](../systems/artifact-system/rules.md) · [铭刻规则](../systems/inscription-system/rules.md) · [采纳来源](../../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)。

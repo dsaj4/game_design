@@ -49,4 +49,4 @@ SW02-A名单确定时点，随后是公开排序、重复引用、条件表达�
 - [ ] 已搁置。
 - [ ] 已拒绝。
 
-文件范围与检查记录见[本次交付](../../design/systems/01-grammar/rules.md)。
+文件范围与检查记录见[本次交付](../../design/systems/inscription-system/rules.md)。

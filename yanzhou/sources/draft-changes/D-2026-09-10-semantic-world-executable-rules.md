@@ -52,4 +52,4 @@
 - [ ] 已完成全部对象与词卡内容。
 - [ ] 已通过玩家与数值验证。
 
-文件清单、规则走查及文档检查见[交付记录](../../design/systems/03-combat/rules.md)。
+文件清单、规则走查及文档检查见[交付记录](../../design/systems/action-card-system/rules.md)。

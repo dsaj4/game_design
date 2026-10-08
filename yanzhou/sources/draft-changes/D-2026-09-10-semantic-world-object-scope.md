@@ -46,4 +46,4 @@
 - [ ] 已搁置。
 - [ ] 已拒绝。
 
-同步对象：范围素材、领域词汇、决策记录G002-SCOPE-002、受影响目标与时间素材、相关索引。文件清单和检查结果见[交付记录](../../design/systems/04-elements-environment/rules.md)。
+同步对象：范围素材、领域词汇、决策记录G002-SCOPE-002、受影响目标与时间素材、相关索引。文件清单和检查结果见[交付记录](../../design/systems/resource-system/rules.md)。

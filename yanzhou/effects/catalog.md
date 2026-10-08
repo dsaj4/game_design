@@ -6,12 +6,12 @@ Project ID：game-002。文档角色：EffectTrace。2026-10-04 / TL-1 + INS-1�
 
 | 身份／应用 | 已采纳部分与权威来源 | 内容／证据边界 |
 | --- | --- | --- |
-| FX-001 / TL-app1 | 普通伤害先甲后生命；[TL-12／29／30](../design/systems/03-combat/rules.md) | 具体行动、量和制造映射待设计；旧TA-01／04已退役 |
-| FX-002 / TL-app2 | 合格宿主累计护甲、耗尽消失、战终清理；[TL-29](../design/systems/03-combat/rules.md) | 具体赋予内容与量未定；旧TA-02已退役 |
-| FX-031 / TL-app1 | 提前取消敌牌与指定法器中断是不同权限；[TL-07](../design/systems/02-wands/rules.md)、[TL-10](../design/systems/03-combat/rules.md) | 不从同一FX推导权限互通；旧TA-03已退役 |
+| FX-001 / TL-app1 | 普通伤害先甲后生命；[TL-12／29／30](../design/systems/action-card-system/rules.md) | 具体行动、量和制造映射待设计；旧TA-01／04已退役 |
+| FX-002 / TL-app2 | 合格宿主累计护甲、耗尽消失、战终清理；[TL-29](../design/systems/action-card-system/rules.md) | 具体赋予内容与量未定；旧TA-02已退役 |
+| FX-031 / TL-app1 | 提前取消敌牌与指定法器中断是不同权限；[TL-07](../design/systems/artifact-system/rules.md)、[TL-10](../design/systems/action-card-system/rules.md) | 不从同一FX推导权限互通；旧TA-03已退役 |
 | [FX-135](#fx-135) | 资源转化的历史身份 | 原直接资源交付路径已由INS-1替代；新来源／加工途径Unknown |
-| [FX-136](#fx-136) | 明确存在的高阶产物维护不足休眠、补料恢复；[TL-22／23](../design/systems/04-elements-environment/rules.md) | 参数、内部争料与托管维护未定；没有默认发行“辉核” |
-| [FX-137](#fx-137) | 高阶资源增幅的历史身份；[TL-15](../design/systems/04-elements-environment/rules.md)保留接口方向 | 具体效果待设计；不同于TL-45核心契合，旧TS-08已退役 |
+| [FX-136](#fx-136) | 明确存在的高阶产物维护不足休眠、补料恢复；[TL-22／23](../design/systems/resource-system/rules.md) | 参数、内部争料与托管维护未定；没有默认发行“辉核” |
+| [FX-137](#fx-137) | 高阶资源增幅的历史身份；[TL-15](../design/systems/resource-system/rules.md)保留接口方向 | 具体效果待设计；不同于TL-45核心契合，旧TS-08已退役 |
 
 全部Hypothesis / NotRun。没有新增FX身份或效果修订；此次只同步既有CORE-049及探索退役的适用范围。
 

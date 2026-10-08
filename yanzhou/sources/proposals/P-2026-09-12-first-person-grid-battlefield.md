@@ -8,7 +8,7 @@
 
 ## 来源想法
 
-[合格素材](../materials/M-2026-09-12-first-person-grid-battlefield.md)。用户明确视角、格子与变化方向，并确认树草不二次传播；候选细则见[GDD](../../design/systems/04-elements-environment/rules.md)。
+[合格素材](../materials/M-2026-09-12-first-person-grid-battlefield.md)。用户明确视角、格子与变化方向，并确认树草不二次传播；候选细则见[GDD](../../design/systems/resource-system/rules.md)。
 
 ## 核心玩法假设
 

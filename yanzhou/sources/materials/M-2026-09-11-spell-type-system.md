@@ -179,7 +179,7 @@
 | 日期 | 目标 | 处理结果 | 边界 |
 | --- | --- | --- | --- |
 | 2026-09-11 | [提案](../proposals/P-2026-09-11-spell-type-system.md)及[采纳](../draft-changes/D-2026-09-11-spell-type-system.md) | Included：类型、分类结果与讨论组织 | G002-CORE-012；具体词效仍按其状态 |
-| 2026-09-11 | [类型讨论入口](../../design/systems/01-grammar/rules.md) | Included：四类交叉索引 | 不复制规则或恢复Parked参数 |
+| 2026-09-11 | [类型讨论入口](../../design/systems/inscription-system/rules.md) | Included：四类交叉索引 | 不复制规则或恢复Parked参数 |
 
 2026-09-11补充：[用户扩展要求](../inbox/2026-09-11-spell-type-system.md)已按[G002-CORE-013](../draft-changes/D-2026-09-11-extensible-spell-types.md)采纳；新类型的具体特征与流派方案仍需逐项提出和确认。
 
@@ -190,6 +190,6 @@
 
 | 日期 | 目标与处理 | 当前适用边界 |
 | --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../../design/GDD.md)：Include；[实际章节](../../design/systems/01-grammar/rules.md) | 纳入实体、合法句、类型、绑定和装配；实际白名单、3种法杖、起点与角色由CG／WG／SG限定；寒冷、召唤与未选卡不因例句入池。 |
+| 2026-09-14 | [全游戏GDD RC1](../../design/GDD.md)：Include；[实际章节](../../design/systems/inscription-system/rules.md) | 纳入实体、合法句、类型、绑定和装配；实际白名单、3种法杖、起点与角色由CG／WG／SG限定；寒冷、召唤与未选卡不因例句入池。 |
 
 本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。

@@ -6,14 +6,13 @@ Project ID：game-002。文档角色：Navigation。更新：2026-10-08（文档
 
 | 文档 | 维护内容 |
 | --- | --- |
-| [SYS-001](systems/01-grammar/README.md) | 法器暗句、核心／辅槽铭刻、兼容与卡牌类别 |
-| [SYS-002](systems/02-wands/README.md) | 统一行动输出、处理与容量预留、路由与返工 |
-| [SYS-003](systems/03-combat/README.md) | 战斗行、敌方倒计时、时序、伤害和胜负 |
-| [SYS-004](systems/04-elements-environment/README.md) | 环境资源、转化、维护与产物；目录沿用原系统标识 |
-| [SYS-005](systems/05-route-encounters/README.md) | 遭遇程序与路线接口 |
-| [SYS-006](systems/06-rewards-growth/README.md) | 战中与战外资源、获取、辅槽打造和成长边界 |
-| [SYS-007](systems/07-interaction-save/README.md) | 可操作信息、暂停、保存与干涉系统边界 |
-| [辅槽通用框架](systems/augment-system/README.md) | 五项用户确认的 Qualified 框架；规则、体验、设计分文件，未扩大为完整采纳 |
+| [法器系统](systems/artifact-system/README.md) | 法器本体、处理流程、供料编排、容量预留、打断返工与契合接口；既有规则与待定内容分别保留 |
+| [铭文系统](systems/inscription-system/README.md) | 铭文实体、核心装配、兼容与挂接，包含辅槽子系统；既有规则；辅槽新增通用框架仍为 Qualified |
+| [行动卡系统](systems/action-card-system/README.md) | 卡牌类别、行动效果、战斗行与共同结算，包含标记子系统；既有规则；标记细则待按阶段成果整理 |
+| [敌人系统](systems/enemy-system/README.md) | 敌人程序、遭遇输入、敌方行动与应对窗口；既有规则与设计目标分别保留 |
+| [资源系统](systems/resource-system/README.md) | 材料、供给、托管、维护、转化与数量合同；既有规则与待定内容分别保留 |
+| [局外成长系统](systems/meta-progression-system/README.md) | 预留独立系统入口；范围、机制与持续性均待设计；尚未开发；仅占位 |
+| [公共流程与合同](common/README.md) | 局内路线、局内经济、交互与保存；沿用既有规则 |
 | [卡表](content/cards.md) | 新卡表设计合同与候选入口 |
 | [法器](content/wands.md) | 法器暗句、槽位、契合与内容合同 |
 | [敌人与遭遇](content/enemies-encounters.md) | 敌牌内容字段、首版约束、表现方向与首批候选 |
@@ -21,7 +20,7 @@ Project ID：game-002。文档角色：Navigation。更新：2026-10-08（文档
 | [验收](validation.md) | 新版规则、体验任务与停止条件，全部NotRun |
 | [素材审查](source-review.md) | 纳入、替代、重设计与原始来源边界 |
 
-系统均使用独立文件夹，入口见 [系统目录](systems/README.md)。每个目录以 rules、experience、design 分别维护规则、体验假设和设计，README 负责导航。2026-10-08 的拆分不重置既有阶段进度、不补写阶段成果，也不改变原规则采纳和验证状态。
+当前按六个主系统组织，辅槽归铭文、标记归行动卡，局外成长仅预留目录。每个目录以 rules、experience、design 分别维护规则、体验假设和设计，README 负责导航；公共流程另存。目录调整不改变原规则采纳和验证状态。
 
 旧RC1数字、空间规则与验收用例不再从本目录的“当前”身份继承；需要追溯时读固定旧提交。
 

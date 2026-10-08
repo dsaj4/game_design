@@ -197,7 +197,7 @@
 
 | 日期 | GDD／Proposal或入口 | 范围 | 处理结果 | 备注 |
 | --- | --- | --- | --- | --- |
-| 2026-09-11 | [数值任务](../../design/parameters.md)、[类型入口](../../design/systems/01-grammar/rules.md) | 参数定义、两句候选和局部算例 | Included：候选索引 | 无正式GDD、Proposal或核心变更；下一步评议基准并完善状态词义 |
+| 2026-09-11 | [数值任务](../../design/parameters.md)、[类型入口](../../design/systems/inscription-system/rules.md) | 参数定义、两句候选和局部算例 | Included：候选索引 | 无正式GDD、Proposal或核心变更；下一步评议基准并完善状态词义 |
 
 2026-09-11维护：参数值及既有固定测试输入保持Candidate v0.1；现行参数声明与非负普通数量取整补充引用[GR v1](M-2026-09-11-global-rule-boundaries.md)的GR01。新边界随下一批检查，旧结果只对应其原输入。
 

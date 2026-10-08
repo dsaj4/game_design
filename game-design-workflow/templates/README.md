@@ -5,6 +5,7 @@
 - [原始想法](idea-template.md)
 - [合格 GDD 素材](qualified-gdd-material-template.md)
 - [GDD 写作要求](gdd-writing-requirements-and-template.md)
+- [系统通用框架空白模板](system-framework/README.md)：整目录复制；README 导航、rules 规则、experience 体验假设、design 定位与待定方案。是 GDD 系统规格的分文件形式，不内置项目玩法。
 - [提案](proposal-template.md)
 - [评估](evaluation-template.md)
 - [拟修改](draft-change-template.md)

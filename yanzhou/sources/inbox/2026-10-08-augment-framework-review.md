@@ -280,7 +280,7 @@ flowchart LR
 
 ## 文档拆分与原输入保全
 
-2026-10-08 用户要求每个系统单独建文件夹，并将确定规则、玩家体验假设和设计内容分开；[辅槽目录](../../design/systems/augment-system/README.md)据五项确认重写。本记录的原始诊断、版本清单和输入哈希保留原轮次含义，不把新规则页当作原输入。
+2026-10-08 用户要求每个系统单独建文件夹，并将确定规则、玩家体验假设和设计内容分开；[辅槽目录](../../design/systems/inscription-system/augment-system/README.md)据五项确认重写。本记录的原始诊断、版本清单和输入哈希保留原轮次含义，不把新规则页当作原输入。
 
 三份未提交原件在替换前逐字节复制到本地 `.git/codex-tasks/2026-10-08-system-doc-split/augment-inputs/`，并核对 SHA-256。备份未随本次提交发布；原 `augment-system-archive.md` 不在本次读写范围。
 

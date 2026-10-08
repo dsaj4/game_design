@@ -24,7 +24,7 @@
 ## 设计对象与GDD映射
 
 - 作用对象：战场视角／格子占位、物性、生成位置和环境变化。
-- 目标：[GDD-2026-09-12-first-person-grid-battlefield](../../design/systems/04-elements-environment/rules.md)。
+- 目标：[GDD-2026-09-12-first-person-grid-battlefield](../../design/systems/resource-system/rules.md)。
 - 章节：3–5战场系统与时序、7内容规则、9遭遇、14–16验证与风险。
 - 完成度目标：GDD-1规则草案，参数未冻结、不能直接执行批测。
 
@@ -72,7 +72,7 @@
 
 | 日期 | 去向 | 范围／状态 |
 | --- | --- | --- |
-| 2026-09-12 | [GDD](../../design/systems/04-elements-environment/rules.md)、[Proposal](../proposals/P-2026-09-12-first-person-grid-battlefield.md) | Included：方向及明确标记的候选补充；用户原话与传播选择不再重复询问 |
+| 2026-09-12 | [GDD](../../design/systems/resource-system/rules.md)、[Proposal](../proposals/P-2026-09-12-first-person-grid-battlefield.md) | Included：方向及明确标记的候选补充；用户原话与传播选择不再重复询问 |
 | 2026-09-12 | [效果登记](../../effects/catalog.md)、测试交接r9 | 复用FX-003／010并登记FX-060–062；只积累，未运行 |
 
 
@@ -80,6 +80,6 @@
 
 | 日期 | 目标与处理 | 当前适用边界 |
 | --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../../design/GDD.md)：Include；[实际章节](../../design/systems/04-elements-environment/rules.md) | 保留空间、可见变化与宿主资格；具体出生、阈值、身份、固定名单依CORE-020–034替换旧BF候选。 |
+| 2026-09-14 | [全游戏GDD RC1](../../design/GDD.md)：Include；[实际章节](../../design/systems/resource-system/rules.md) | 保留空间、可见变化与宿主资格；具体出生、阈值、身份、固定名单依CORE-020–034替换旧BF候选。 |
 
 本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。

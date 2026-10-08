@@ -82,7 +82,7 @@
 
 2026-09-10：按[用户R01–R32全部采纳](../draft-changes/D-2026-09-10-semantic-world-executable-rules.md)同步本素材受影响表述；具体对象、词卡和参数仍按对应范围设计，证据Hypothesis。
 
-2026-09-12：本主题在[第一人称格子战场素材](M-2026-09-12-first-person-grid-battlefield.md)与[GDD候选](../../design/systems/04-elements-environment/rules.md)中复用并局部扩展；仅火焰向周围施加已由用户明确。2×5的占位／地面／火焰细则尚为Draft Change，未用本次候选覆盖本文既有已采纳范围；正式采纳后按拟修改同步。
+2026-09-12：本主题在[第一人称格子战场素材](M-2026-09-12-first-person-grid-battlefield.md)与[GDD候选](../../design/systems/resource-system/rules.md)中复用并局部扩展；仅火焰向周围施加已由用户明确。2×5的占位／地面／火焰细则尚为Draft Change，未用本次候选覆盖本文既有已采纳范围；正式采纳后按拟修改同步。
 
 
 ## 2026-09-14 全游戏GDD使用记录

@@ -277,6 +277,6 @@ A组正常输入在冻结时预先列明：同阶段真实可获取资源、入�
 
 | 日期 | 目标与处理 | 当前适用边界 |
 | --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../../design/GDD.md)：Include；[实际章节](../../design/systems/05-route-encounters/rules.md) | 局内分叉与疲劳方向保留，RG给出实际19节点、12遭遇及完整参数；旧疲劳曲线与示例被RC1替代。 |
+| 2026-09-14 | [全游戏GDD RC1](../../design/GDD.md)：Include；[实际章节](../../design/common/run-route/rules.md) | 局内分叉与疲劳方向保留，RG给出实际19节点、12遭遇及完整参数；旧疲劳曲线与示例被RC1替代。 |
 
 本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。

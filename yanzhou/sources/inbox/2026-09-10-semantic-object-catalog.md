@@ -1,12 +1,12 @@
 # 对象目录：简单变化与法术生成物
 
-状态：对象方向沿用G002-CORE-011；具体词效与参数于2026-09-11搁置（Parked）。当前按G002-CORE-012作词名与类型归类，见[类型入口](../../design/systems/01-grammar/rules.md)。Project ID：game-002。证据Hypothesis。
+状态：对象方向沿用G002-CORE-011；具体词效与参数于2026-09-11搁置（Parked）。当前按G002-CORE-012作词名与类型归类，见[类型入口](../../design/systems/inscription-system/rules.md)。Project ID：game-002。证据Hypothesis。
 
 ## 原始想法与来源
 
 用户要求对象只需能受法术影响发生变化，例如点燃、冰冻；暂不做位移、结构、指定方向/端点及环境材料加工，收集只到对象掉卡；新增火焰、雷电、冰霜等法术生成对象。[完整原话与资格确认](2026-09-10-simple-object-interactions.md)、[已采纳范围](../materials/M-2026-09-10-simple-object-interactions.md)。
 
-修改前目录已保存为[字节快照](../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)，不作为当前玩法入口。[当前内容总览](../../design/systems/01-grammar/rules.md)。
+修改前目录已保存为[字节快照](../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)，不作为当前玩法入口。[当前内容总览](../../design/systems/inscription-system/rules.md)。
 
 ## 体验与资格边界
 
@@ -62,4 +62,4 @@ U/E/F/S/P编号只用于当前文档追踪，旧快照的O编号不续用。召�
 
 ## 按类型继续
 
-[首批18词分类](../materials/M-2026-09-11-spell-type-system.md)已完成。元素名词关联元素类，状态名词关联状态类，单位和环境一般名词随整句特征判断；简易看省略主语。原具体效果、参数和纸面记录Parked，按[类型入口](../../design/systems/01-grammar/rules.md)组织后续讨论。
+[首批18词分类](../materials/M-2026-09-11-spell-type-system.md)已完成。元素名词关联元素类，状态名词关联状态类，单位和环境一般名词随整句特征判断；简易看省略主语。原具体效果、参数和纸面记录Parked，按[类型入口](../../design/systems/inscription-system/rules.md)组织后续讨论。

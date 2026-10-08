@@ -50,4 +50,4 @@
 
 ## 下一步
 
-完成[系统草案](../../design/systems/04-elements-environment/rules.md)、效果登记与拟修改，集中展示推荐方案；不启动测试或代码开发。
+完成[系统草案](../../design/systems/resource-system/rules.md)、效果登记与拟修改，集中展示推荐方案；不启动测试或代码开发。

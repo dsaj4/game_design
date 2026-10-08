@@ -254,6 +254,6 @@ UX-E01：首次教学由四个可跳过提示组成：用实体卡构句→确�
 
 | 日期 | 目标与处理 | 当前适用边界 |
 | --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../../design/GDD.md)：Include；[实际章节](../../design/systems/07-interaction-save/rules.md) | 纳入已资格确认的玩家可见信息、操作、保存与功能资产；独立视觉素材不自动证明成品合格。 |
+| 2026-09-14 | [全游戏GDD RC1](../../design/GDD.md)：Include；[实际章节](../../design/common/interaction-save/rules.md) | 纳入已资格确认的玩家可见信息、操作、保存与功能资产；独立视觉素材不自动证明成品合格。 |
 
 本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。

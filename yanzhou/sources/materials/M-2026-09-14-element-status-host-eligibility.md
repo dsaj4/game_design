@@ -91,6 +91,6 @@
 
 | 日期 | 目标与处理 | 当前适用边界 |
 | --- | --- | --- |
-| 2026-09-14 | [全游戏GDD RC1](../../design/GDD.md)：Include；[实际章节](../../design/systems/04-elements-environment/rules.md) | 保留空间、可见变化与宿主资格；具体出生、阈值、身份、固定名单依CORE-020–034替换旧BF候选。 |
+| 2026-09-14 | [全游戏GDD RC1](../../design/GDD.md)：Include；[实际章节](../../design/systems/resource-system/rules.md) | 保留空间、可见变化与宿主资格；具体出生、阈值、身份、固定名单依CORE-020–034替换旧BF候选。 |
 
 本素材保留形成时的原话、规范化表述与未知项。上方历史数值、未完字段和候选不覆盖RC1已采用的CG／PG／EG／RG／UX；本次规则采用有CORE-032–036依据，玩法与平衡仍Hypothesis／NotRun。

@@ -11,7 +11,7 @@
 - 提案：[P](../proposals/P-2026-09-12-first-person-grid-battlefield.md)。
 - 评估：[E](../evaluations/E-2026-09-12-first-person-grid-battlefield.md)。
 - 合格素材：[M](../materials/M-2026-09-12-first-person-grid-battlefield.md)。
-- 具体规则：[GDD v0.1](../../design/systems/04-elements-environment/rules.md)。
+- 具体规则：[GDD v0.1](../../design/systems/resource-system/rules.md)。
 
 ## 拟新增内容
 

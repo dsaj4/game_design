@@ -1,12 +1,13 @@
 # 目录与文件放置
 
-Project ID：game-002。修订：system-docs.1 / 2026-10-08。规则基准仍为TL-1 + INS-1 / GDD 2.1（GDD-0）；本次更新系统文件夹与分文件职责。
+Project ID：game-002。修订：system-catalog.2 / 2026-10-08。规则基准仍为TL-1 + INS-1 / GDD 2.1（GDD-0）；本次更新系统文件夹与分文件职责。
 
 | 位置 | 内容与维护责任 |
 | --- | --- |
 | README.md | 五个日常入口；不复制库存、进度或规则正文 |
 | design/ | 唯一现行GDD、系统分册、内容、参数、验收；core-design仅浓缩 |
-| design/systems/各系统/ | README 导航；rules 规则；experience 体验假设；design 定位、理由与待定方案；状态沿各文件，不按位置升级 |
+| design/systems/各系统/ | 六个主系统：法器、铭文、行动卡、敌人、资源、局外成长；辅槽归铭文、标记归行动卡；各目录四文件分工 |
+| design/common/ | 既有局内路线、局内经济、交互与保存的公共流程／合同；不计作额外主系统，不混入未开发的局外成长 |
 | sources/ | 原始表达、合格素材与尚需追踪的P/E/D；已完成的指定记录见history |
 | exploration/ | 一个DIR一个README，附件按需；DIR-001–036已退役，新方向从DIR-037继续，不擅自改历史资格 |
 | effects/catalog.md | 137个稳定FX身份、当前应用与固定历史来源；旧条目全文和参数按原版本取证 |
