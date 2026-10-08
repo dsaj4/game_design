@@ -60,3 +60,5 @@
 [P](../proposals/P-2026-10-04-artifact-inscription-core.md) → [E](../evaluations/E-2026-10-04-artifact-inscription-core.md) → [D／CORE-049](../draft-changes/D-2026-10-04-artifact-inscription-core.md)。用户2026-10-04回写授权采纳上述限定结构；具体发行内容与体验仍未完成。
 
 > 2026-10-04来源迁移：原探索方向已退役，本文件迁入主系统来源目录。原资格、限定采纳范围和证据状态不变；原文中的轮次与“当前”按原日期解释。[迁移前固定版本](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-036-sentence-inscription-redesign/M-2026-10-04-artifact-inscription-core.md)。
+
+2026-10-08：用于 [铭文框架整理](../../design/systems/inscription-system/README.md)的定位、实体分配、兼容理解、信息表达及规则边界例；继承 CORE-049 的限定采纳范围，体验仍 Hypothesis / NotRun。实际输入与 Raw 排除见 [本轮来源记录](../inbox/2026-10-08-inscription-framework-review.md)。未重新采纳具体词义、卡效或打造参数。

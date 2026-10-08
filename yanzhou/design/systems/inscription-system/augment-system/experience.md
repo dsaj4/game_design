@@ -1,6 +1,6 @@
 # 辅槽子系统：玩家体验
 
-Project ID：game-002。文档角色：ExperienceHypothesis。修订：2026-10-08 / augment-framework.1。证据：**Hypothesis / NotRun**。来源：[通用框架素材](../../../../sources/materials/M-2026-10-08-augment-framework.md)。
+Project ID：game-002。文档角色：ExperienceHypothesis。修订：2026-10-08 / augment-framework.2。证据：**Hypothesis / NotRun**。来源：[通用框架素材](../../../../sources/materials/M-2026-10-08-augment-framework.md)。
 
 [入口](README.md) · [已确认规则](rules.md) · [设计](design.md) · [示例](examples.md)
 
@@ -53,6 +53,8 @@ Project ID：game-002。文档角色：ExperienceHypothesis。修订：2026-10-0
 **观察**：分别询问缺标记、缺容量、已付后中断、已完成但排队等情境中的预期，和已闭合的规则结果对照。
 
 **不支持该假设的信号**：把完工当生效、把缺位当标记不足、认为材料退款必然包含标记退款；即使界面说明正确仍无法解释。未决退款与失败分支须先在设计页完成，不能把尚无答案的题目算作玩家理解失败。
+
+用于整理观察输入的情境见 [检查与支付](examples.md#检查与支付)、[未到账预告与争用](examples.md#未到账预告与同拍争用)和 [失效边界](examples.md#中断目标失效与终局)。这些是规则推导，不是观察记录；实际层数、未来预告与效果兑现应分开询问，避免把一个含糊的“有没有收益”当成理解证据。
 
 ## 验证前提与记录边界
 

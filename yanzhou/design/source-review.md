@@ -110,3 +110,11 @@ Include as QualifiedFramework：[局部素材](../sources/materials/M-2026-10-08
 Inherited：TL-03—07／38／45 保留 Accepted；供料情境移入独立示例。Include as Qualified interface：既有 [辅槽素材](../sources/materials/M-2026-10-08-augment-framework.md)与 [行动／标记素材](../sources/materials/M-2026-10-08-action-card-framework.md)中的生成时间、行动量值、标记协同、足额支付、实际状态与未来预告边界，权威正文仍留相邻系统。Experience：原目标展开为假设与观察方式，全部 NotRun。
 
 Omit：Raw 具体法器／辅槽、减料／虚拟材料、单批多产、压缩预留、开工或完工绕队列收益，以及未确认数字。Park / Unknown：D 的读取及叠加、标记不足分支与退款、同拍消费／兑现顺序、契合形式、多牌内部关系、维护及战终未完成批次材料归属。没有新增玩法资格、P／E／D、CORE 采纳、发行实体或实验结果；框架整理记 DOC-015。
+
+## inscription-framework.1：铭文与辅槽整理（2026-10-08）
+
+固定输入 `a23c75d74187f45f04b50376658be0274049f3f8`。本轮 CUSTOM 整理铭文／辅槽两个五文件目录，来源 blob、局部未提交原件哈希及覆盖见 [来源记录](../sources/inbox/2026-10-08-inscription-framework-review.md)。未全读 inbox、GDD 包、其他方向或历史。
+
+Inherited：铭文 TL-02／26—28／39—42 保持 Accepted。Include as Qualified interface：沿 [辅槽素材](../sources/materials/M-2026-10-08-augment-framework.md)的 AUG-Q1—5 及相邻标记实有状态／预告／支付约束。Design：依据 [核心结构素材](../sources/materials/M-2026-10-04-artifact-inscription-core.md)补定位、选择代价和已知依赖。Experience：兼容理解、实体分配和变化归因展开为观察假设。Example：铭文六组规则例，辅槽原五例展开并补零值、未到账、退款与终局；均为 Derived / NotRun。
+
+Omit：Raw 具体效果、减料／多产／虚拟材料、统一槽数、打造价格、成就解锁及未经证据支持的验证结论。Park / Unknown：实际铭文与卡效、D 读取／叠加、标记不足和退款、同拍顺序、多修饰／契合、打造成本及持久范围。没有新的资格晋级、发行、P／E／D、玩法采纳或实验执行；文档组织记 DOC-016。

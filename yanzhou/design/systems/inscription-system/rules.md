@@ -1,12 +1,25 @@
 # 铭文系统：规则
 
-Project ID：game-002。文档角色：CurrentSpec。基准：GDD 2.1 / TL-1 + INS-1 / processing.2。2026-10-05。结构Accepted；具体内容Unknown；体验Hypothesis / NotRun。来源：[CORE-049](../../../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)。 文档拆分：2026-10-08 / system-docs.1；原条款采纳状态不变。
+Project ID：game-002。文档角色：CurrentSpec（继承 TL）＋ QualifiedFramework（辅槽接口引用）。基准：GDD 2.1 / TL-1 + INS-1 / processing.2。修订：2026-10-08 / inscription-framework.1；GDD-0 通用结构，具体内容 Unknown；体验 Hypothesis / NotRun。来源：[CORE-049](../../../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)；原条款采纳状态不变。
 
 [系统入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md) · [示例](examples.md)
 
 本页维护已采纳条款、信息义务与失败结果；说明性情境独立放在 [示例](examples.md)。条款中保留的 Unknown 只标明尚未授予的权限或待补参数，不构成候选方案；设计问题与体验判断分别见同目录文件。
 
 界面区分未补齐／不兼容、铭文占用与暂时缺料，并说明将产出的行动与制造要求。
+
+## 输入、输出与规则归属
+
+本页维护 SYS-001 的 TL-02／26—28／39—41，以及保留原 SYS-006 身份的 TL-42；不重编规则编号。继承条款均保留 Accepted，尚未定义的内容仍为 Unknown。
+
+| 接口 | 本页维护／接收的内容 | 下游权威 |
+| --- | --- | --- |
+| 装配输入 | 实际持有的铭文实体、法器预设核心空缺、兼容范围和辅槽挂接 | 战前编辑与开始资格见 [TL-31](../../common/interaction-save/rules.md#tl-31-战前配置与可表达性) |
+| 配置结果 | 按下列条款判断合法核心、可选修饰、占用及绑定；合法配置交给生产系统 | [TL-03／05](../artifact-system/rules.md)负责开工检查与承诺，配置合法不等于已经开工 |
+| 行动与制造说明 | 配置关联已声明的行动及制造要求；不从自然语言补造效果或材料 | [TL-44](../action-card-system/rules.md#tl-44-行动类别与独立卡效)、[TL-43](../resource-system/rules.md#tl-43-材料类别绑定制造内容) |
+| 保存与后续重配 | 铭文持续占用；实际允许的编辑、跨战重验与保存由交互合同管理 | [TL-31／36 与操作边界](../../common/interaction-save/rules.md)，暂停不自行开放重铭或打造 |
+
+铭文的词性、具体词义、法器能力、修饰兼容和行动种类分别判断。规则性未知见各条款，后续填写顺序见 [设计页](design.md#未知与依赖)。
 
 
 ## TL-39 暗句与核心空缺
@@ -66,7 +79,7 @@ Project ID：game-002。文档角色：CurrentSpec。基准：GDD 2.1 / TL-1 + I
 - 材料缺口：自动等待；不重新开放选材槽或要求玩家每批确认。
 - 已产牌后改未来路由：既有牌的类型、规则和支付来源不变。
 
-[内容合同](../../content/cards.md) · [法器生产](../artifact-system/rules.md) · [辅槽打造](../../common/run-economy/rules.md)
+[内容合同](../../content/cards.md) · [法器生产](../artifact-system/rules.md) · [辅槽打造](#tl-42-辅槽打造) · [独立边界示例](examples.md)
 
 
 ## TL-42 辅槽打造
@@ -79,3 +92,5 @@ Project ID：game-002。文档角色：CurrentSpec。基准：GDD 2.1 / TL-1 + I
 ## 相邻规则入口
 
 三类卡牌与行动独立卡效（TL-01／44）见 [行动卡系统](../action-card-system/rules.md)；法器契合（TL-45）见 [法器系统](../artifact-system/rules.md)。辅槽的通用权限见 [辅槽子系统](augment-system/rules.md)，打造条款 TL-42 仍保留其原 SYS-006 来源身份。
+
+辅槽新增约束来自 [AUG-Q1—5 的局部 Qualified 素材](../../../sources/materials/M-2026-10-08-augment-framework.md)，本页不重复一份效果权限表。修改位置与排除项、标记支付、普通队列和稀有度由 [辅槽规则](augment-system/rules.md)唯一维护；具体 D 读取／叠加、失败分支与退款未定。规则例及信息义务的静态对照不将该框架升级为完整 CurrentSpec。
