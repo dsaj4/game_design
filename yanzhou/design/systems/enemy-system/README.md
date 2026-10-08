@@ -9,6 +9,7 @@ Project ID：game-002。文档角色：Navigation。修订：2026-10-08 / system
 | [rules.md](rules.md) | 规则、权限、支付、结算和失败边界；按实际确认状态标注 |
 | [experience.md](experience.md) | 玩家行为与体验假设、观察和证据 |
 | [design.md](design.md) | 定位、风格、理由及待定设计 |
+| [examples.md](examples.md) | 独立情境、确定结果及未决边界；不新增规则或参数 |
 
 ## 相邻文档
 

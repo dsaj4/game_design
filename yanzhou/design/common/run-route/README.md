@@ -9,5 +9,6 @@ Project ID：game-002。文档角色：Navigation。修订：2026-10-08 / system
 | [rules.md](rules.md) | 已有确定条款与规则边界 |
 | [experience.md](experience.md) | 既有体验假设与观察 |
 | [design.md](design.md) | 设计目的、理由和待定内容 |
+| [examples.md](examples.md) | 独立情境、确定结果及未决边界；不新增规则或参数 |
 
 [公共流程](../README.md) · [六个主系统](../../systems/README.md) · [规则编号定位](../../../governance/rule-index.md)

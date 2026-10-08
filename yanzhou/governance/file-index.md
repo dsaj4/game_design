@@ -4,7 +4,7 @@
 
 原始快照共 364 份；2026-10-08 仅增量更新系统与公共流程文件清单，其他目录仍按原快照，不代表本轮完整盘点。日常工作从[项目首页](../README.md)开始；历史内容按固定版本解释。
 
-## design（58；系统及公共流程于2026-10-08更新）
+## design（69；系统及公共流程于2026-10-08更新）
 
 - [design/GDD.md](../design/GDD.md)
 - [design/README.md](../design/README.md)
@@ -12,14 +12,17 @@
 - [design/common/README.md](../design/common/README.md)
 - [design/common/interaction-save/README.md](../design/common/interaction-save/README.md)
 - [design/common/interaction-save/design.md](../design/common/interaction-save/design.md)
+- [design/common/interaction-save/examples.md](../design/common/interaction-save/examples.md)
 - [design/common/interaction-save/experience.md](../design/common/interaction-save/experience.md)
 - [design/common/interaction-save/rules.md](../design/common/interaction-save/rules.md)
 - [design/common/run-economy/README.md](../design/common/run-economy/README.md)
 - [design/common/run-economy/design.md](../design/common/run-economy/design.md)
+- [design/common/run-economy/examples.md](../design/common/run-economy/examples.md)
 - [design/common/run-economy/experience.md](../design/common/run-economy/experience.md)
 - [design/common/run-economy/rules.md](../design/common/run-economy/rules.md)
 - [design/common/run-route/README.md](../design/common/run-route/README.md)
 - [design/common/run-route/design.md](../design/common/run-route/design.md)
+- [design/common/run-route/examples.md](../design/common/run-route/examples.md)
 - [design/common/run-route/experience.md](../design/common/run-route/experience.md)
 - [design/common/run-route/rules.md](../design/common/run-route/rules.md)
 - [design/content/cards.md](../design/content/cards.md)
@@ -33,34 +36,42 @@
 - [design/systems/README.md](../design/systems/README.md)
 - [design/systems/action-card-system/README.md](../design/systems/action-card-system/README.md)
 - [design/systems/action-card-system/design.md](../design/systems/action-card-system/design.md)
+- [design/systems/action-card-system/examples.md](../design/systems/action-card-system/examples.md)
 - [design/systems/action-card-system/experience.md](../design/systems/action-card-system/experience.md)
 - [design/systems/action-card-system/mark-system/README.md](../design/systems/action-card-system/mark-system/README.md)
 - [design/systems/action-card-system/mark-system/design.md](../design/systems/action-card-system/mark-system/design.md)
+- [design/systems/action-card-system/mark-system/examples.md](../design/systems/action-card-system/mark-system/examples.md)
 - [design/systems/action-card-system/mark-system/experience.md](../design/systems/action-card-system/mark-system/experience.md)
 - [design/systems/action-card-system/mark-system/rules.md](../design/systems/action-card-system/mark-system/rules.md)
 - [design/systems/action-card-system/rules.md](../design/systems/action-card-system/rules.md)
 - [design/systems/artifact-system/README.md](../design/systems/artifact-system/README.md)
 - [design/systems/artifact-system/design.md](../design/systems/artifact-system/design.md)
+- [design/systems/artifact-system/examples.md](../design/systems/artifact-system/examples.md)
 - [design/systems/artifact-system/experience.md](../design/systems/artifact-system/experience.md)
 - [design/systems/artifact-system/rules.md](../design/systems/artifact-system/rules.md)
 - [design/systems/enemy-system/README.md](../design/systems/enemy-system/README.md)
 - [design/systems/enemy-system/design.md](../design/systems/enemy-system/design.md)
+- [design/systems/enemy-system/examples.md](../design/systems/enemy-system/examples.md)
 - [design/systems/enemy-system/experience.md](../design/systems/enemy-system/experience.md)
 - [design/systems/enemy-system/rules.md](../design/systems/enemy-system/rules.md)
 - [design/systems/inscription-system/README.md](../design/systems/inscription-system/README.md)
 - [design/systems/inscription-system/augment-system/README.md](../design/systems/inscription-system/augment-system/README.md)
 - [design/systems/inscription-system/augment-system/design.md](../design/systems/inscription-system/augment-system/design.md)
+- [design/systems/inscription-system/augment-system/examples.md](../design/systems/inscription-system/augment-system/examples.md)
 - [design/systems/inscription-system/augment-system/experience.md](../design/systems/inscription-system/augment-system/experience.md)
 - [design/systems/inscription-system/augment-system/rules.md](../design/systems/inscription-system/augment-system/rules.md)
 - [design/systems/inscription-system/design.md](../design/systems/inscription-system/design.md)
+- [design/systems/inscription-system/examples.md](../design/systems/inscription-system/examples.md)
 - [design/systems/inscription-system/experience.md](../design/systems/inscription-system/experience.md)
 - [design/systems/inscription-system/rules.md](../design/systems/inscription-system/rules.md)
 - [design/systems/meta-progression-system/README.md](../design/systems/meta-progression-system/README.md)
 - [design/systems/meta-progression-system/design.md](../design/systems/meta-progression-system/design.md)
+- [design/systems/meta-progression-system/examples.md](../design/systems/meta-progression-system/examples.md)
 - [design/systems/meta-progression-system/experience.md](../design/systems/meta-progression-system/experience.md)
 - [design/systems/meta-progression-system/rules.md](../design/systems/meta-progression-system/rules.md)
 - [design/systems/resource-system/README.md](../design/systems/resource-system/README.md)
 - [design/systems/resource-system/design.md](../design/systems/resource-system/design.md)
+- [design/systems/resource-system/examples.md](../design/systems/resource-system/examples.md)
 - [design/systems/resource-system/experience.md](../design/systems/resource-system/experience.md)
 - [design/systems/resource-system/rules.md](../design/systems/resource-system/rules.md)
 - [design/validation.md](../design/validation.md)
@@ -433,3 +444,11 @@
 - [AGENTS.md](../AGENTS.md)
 - [CONTEXT.md](../CONTEXT.md)
 - [README.md](../README.md)
+
+
+## 2026-10-08 行动卡框架来源增量
+
+以下仅登记本轮新增来源，不代表重扫 sources 目录或改变上文历史快照计数。
+
+- [来源与两项确认](../sources/inbox/2026-10-08-action-card-framework-review.md)
+- [局部 Qualified 素材](../sources/materials/M-2026-10-08-action-card-framework.md)

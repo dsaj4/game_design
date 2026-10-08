@@ -26,4 +26,4 @@ routing.1 / [CORE-050](../sources/draft-changes/D-2026-10-04-routing-response-cl
 
 辅槽的新增通用边界见 [Qualified 框架](../design/systems/inscription-system/augment-system/rules.md)，不在本表伪登记为新采纳的 TL 条款；体验与设计分文件见 [系统目录](../design/systems/README.md)。
 
-SYS 编号保留原来源身份，不等于现用主目录数量。标记子系统目前是阶段成果整理入口，局外成长尚未开发，均不在此新增 TL 条款。
+SYS 编号保留原来源身份，不等于现用主目录数量。行动卡及 [标记子系统](../design/systems/action-card-system/mark-system/rules.md)已整理局部 Qualified 通用框架；未决细则不因此采纳。局外成长尚未开发，本轮均不新增 TL 条款。

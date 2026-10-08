@@ -2,9 +2,9 @@
 
 Project ID：game-002。文档角色：CurrentSpec。基准：GDD 2.1 / TL-1 + INS-1 / processing.2。2026-10-05。结构Accepted；具体内容Unknown；体验Hypothesis / NotRun。来源：[CORE-049](../../../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)。 文档拆分：2026-10-08 / system-docs.1；原条款采纳状态不变。
 
-[系统入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md)
+[系统入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md) · [示例](examples.md)
 
-本页维护已采纳条款、信息义务、失败结果与规则示例。条款中保留的 Unknown 只标明尚未授予的权限或待补参数，不构成候选方案；设计问题与体验判断分别见同目录文件。
+本页维护已采纳条款、信息义务与失败结果；说明性情境独立放在 [示例](examples.md)。条款中保留的 Unknown 只标明尚未授予的权限或待补参数，不构成候选方案；设计问题与体验判断分别见同目录文件。
 
 界面区分未补齐／不兼容、铭文占用与暂时缺料，并说明将产出的行动与制造要求。
 

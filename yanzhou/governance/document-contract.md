@@ -1,6 +1,6 @@
 # 文档职责与统一规范
 
-Project ID：game-002。治理状态：Accepted / Documentation；依据用户授权全量整理。更新：2026-10-08 / system-catalog.2；规则基准TL-1 + INS-1 / processing.2 + timing.1；生产、队列与共同拍序术语同步CORE-051／052／053。
+Project ID：game-002。治理状态：Accepted / Documentation；依据用户授权全量整理。更新：2026-10-08 / system-docs.2；规则基准TL-1 + INS-1 / processing.2 + timing.1；生产、队列与共同拍序术语同步CORE-051／052／053。
 
 ## 权威来源
 
@@ -11,7 +11,7 @@ Project ID：game-002。治理状态：Accepted / Documentation；依据用户�
 | 铭文实体、核心／辅槽装配、兼容与打造 | [铭文系统](../design/systems/inscription-system/rules.md) | 主要沿 SYS-001；TL-42 保留原 SYS-006 身份；辅槽权限在所属子目录 |
 | 法器契合接口 | [法器系统](../design/systems/artifact-system/rules.md) TL-45 | 保留原 SYS-001 来源；实际法器内容仍在内容目录 |
 | 法器铭刻运行、处理、容量预留、完成入行及实际时机 | [法器系统](../design/systems/artifact-system/rules.md) | 沿 SYS-002；法器内容目录提供索引 |
-| 卡牌类别、独立卡效、战斗行、倒计时、目标、打断、终局与疲劳 | [行动卡系统](../design/systems/action-card-system/rules.md) | 沿 SYS-003 及原 SYS-001 的 TL-01／44；标记归所属子目录，不自动采纳未整理细则 |
+| 卡牌类别、独立卡效、战斗行、倒计时、目标、打断、终局与疲劳 | [行动卡系统](../design/systems/action-card-system/rules.md) | 沿 SYS-003 及原 SYS-001 的 TL-01／44；标记归所属子目录；本轮新增通用结构为 Qualified，未决细则不自动采纳 |
 | 资源／环境卡、托管、维护、增幅与生成转化 | [资源系统](../design/systems/resource-system/rules.md) | 沿 SYS-004；遭遇表提供初态，不重定义机制 |
 | 敌方程序与遭遇字段 | [敌人系统](../design/systems/enemy-system/rules.md) | 沿原 SYS-005 的 TL-16；行动结算引用行动卡规则 |
 | 路线与整局结构 | [局内路线](../design/common/run-route/rules.md) | 沿原 SYS-005 的 TL-32；图和交互引用连接规则 |
@@ -31,32 +31,33 @@ Project ID：game-002。治理状态：Accepted / Documentation；依据用户�
 
 ## 规则写法
 
-按“规则ID／对象／前置条件 → 时点与名单 → 支付 → 结果与单位 → 零值和失败 → 有限触发与终止 → 正例和反例 → 决策与验收来源”陈述。
+按“规则ID／对象／前置条件 → 时点与名单 → 支付 → 结果与单位 → 零值和失败 → 有限触发与终止 → 示例链接 → 决策与验收来源”陈述。
 
 具体条款覆盖通用规则时必须明示规则ID、适用对象和覆盖范围，不能只靠更晚日期或更具体的卡名自动取得例外。找不到裁决时登记Open，不根据代码行为反向采纳。
 
 参数至少包含：ID、单位、数值／公式、合法域、零值许可、适用角色及来源。CORE-051只保留法器处理耗时D，正整数拍且至少1拍；J、R、独立周期／冷却及S已取消。旧C／L／τ只在RC1解释。明确区分开工预留、处理完成即入行、行动生效、敌牌揭示与到期；CORE-052明确预留只占容量，入行后最早下拍翻开。容量须区分实际牌、有效预留和中断后待复用部分，临时供料须明确唯一方案及结束拍；CORE-053进一步区分拍末一次开工与a+D完工、正常空位当拍复用与中断回收下拍可用、观察窗口提交与结算途中待受理操作、初始库存与新增补给可用拍。这些接口不是新增生产耗时参数。
 
-每份现用文档标明Project ID、文档角色、设计基准、文档修订、设计／证据状态及来源。Navigation、CoreDesignSummary、ExplorationReadingContract、CurrentSpec、QualifiedFramework、DesignNote、ExperienceHypothesis、SourceRecord、DecisionRecord、HistoricalSnapshot、ResearchComparison、ValidationSpec、ImplementationIndex不得混用。
+每份现用文档标明Project ID、文档角色、设计基准、文档修订、设计／证据状态及来源。Navigation、CoreDesignSummary、ExplorationReadingContract、CurrentSpec、QualifiedFramework、DesignNote、ExperienceHypothesis、ExampleSet、SourceRecord、DecisionRecord、HistoricalSnapshot、ResearchComparison、ValidationSpec、ImplementationIndex不得混用。
 
 ## 系统文件夹与分文件职责
 
-每个系统使用独立目录，统一为 `README.md`、`rules.md`、`experience.md`、`design.md`；入口见 [系统目录](../design/systems/README.md)。按用户指定的六个主系统组织；辅槽归铭文、标记归行动卡，局外成长尚未开发。路线、局内经济、交互与保存作为公共流程／合同移到 design/common。既有 SYS 编号保留原身份，条款位置以规则索引为准，不把七个旧编号复用为六个新系统编号。
+每个系统使用独立目录，统一为 `README.md`、`rules.md`、`experience.md`、`design.md`、`examples.md` 五个文件；入口见 [系统目录](../design/systems/README.md)。按用户指定的六个主系统组织；辅槽归铭文、标记归行动卡，局外成长尚未开发。路线、局内经济、交互与保存作为公共流程／合同移到 design/common。既有 SYS 编号保留原身份，条款位置以规则索引为准，不把七个旧编号复用为六个新系统编号。
 
 | 文件 | 维护内容 | 不承担的职责 |
 | --- | --- | --- |
 | README.md | Navigation：范围、各文件状态、来源与入口 | 不重复维护规则或长篇设计正文 |
-| rules.md | 已确认约束、权限、条件、时点、支付、结果、失败与规则边界例；已采纳部分为 CurrentSpec，已确认但未完成采纳的框架为 QualifiedFramework | 不把理想行为、预期体验、未选方案和调参建议写成硬规则 |
+| rules.md | 已确认约束、权限、条件、时点、支付、结果、失败与信息义务；已采纳部分为 CurrentSpec，已确认但未完成采纳的框架为 QualifiedFramework | 不把理想行为、预期体验、未选方案和调参建议写成硬规则 |
 | experience.md | ExperienceHypothesis：机制—可能行为—预期体验、观察方式、支持／失败信号、证据版本与范围 | 不把规则通过、文档完成或理论引用写成体验已验证 |
 | design.md | DesignNote：定位、价值顺序、风格与表达方向、取舍理由、候选方案、未决接口和替代原因 | 不另建一套当前规则、参数或采纳历史 |
+| examples.md | ExampleSet：独立保存规则正反例、边界情境及有明确资格／状态的假设演示，链接对应正文 | 不新增规则、默认参数、发行内容或运行证据；不把 Raw 候选借示例晋级 |
 
 先按陈述性质分类，再标状态。已确认的定位仍标“已确认”，不能因移入设计页而任意推翻；尚未采纳的规则性约束也不能因文件名叫 rules 就变为 Accepted。规则页可标明未定义参数或未授予权限，并链接设计页的具体问题，但不在缺口后附一个无标识的默认答案。
 
-信息展示中已采纳的必需内容、通用符号与可达性约束属于规则；布局、动效和风格候选属于设计；“玩家会读懂”属于体验假设。每个例子放在其说明对象旁，并标清是确定结果、假设情境还是未采用方案。
+信息展示中已采纳的必需内容、通用符号与可达性约束属于规则；布局、动效和风格候选属于设计；“玩家会读懂”属于体验假设。示例统一存储在 examples.md；其他文件只链接相关情境，不重复维护示例正文。每例注明用途、对应条款／假设及版本、前提／输入、步骤／时点、确定结果与未决部分。已确认规则推导与合格候选的假设情境分开标注；未通过资格的 Raw 内容留来源。示例数字不成为默认参数，未决机制不能由示例补成答案。公式、规则表和验收要求本身仍留原权威页。
 
-空白文件包见 [系统通用框架模板](../../game-design-workflow/templates/system-framework/README.md)，仅提供待填写结构。本结构是 [已登记系统规格模板](../../game-design-workflow/templates/gdd-writing-requirements-and-template.md) 的分文件落位，不新增另一套 GDD 流程：目的／定位与待定依赖进入 design，MDA 与体验观察进入 experience，输入输出／核心规则／失败／信息义务和规则示例进入 rules。统一验收编号与参数继续在原权威页维护，来源与决定继续在 sources 和 decision-log 保存。
+空白文件包见 [系统通用框架模板](../../game-design-workflow/templates/system-framework/README.md)，仅提供待填写结构。本结构是 [已登记系统规格模板](../../game-design-workflow/templates/gdd-writing-requirements-and-template.md) 的分文件落位，不新增另一套 GDD 流程：目的／定位与待定依赖进入 design，MDA 与体验观察进入 experience，输入输出／核心规则／失败／信息义务进入 rules，所有说明性情境进入 examples 并引用对应正文。统一验收编号与参数继续在原权威页维护，来源与决定继续在 sources 和 decision-log 保存。
 
-修改任一文件时检查相关文件是否需要同步：规则改变复核假设与说明；体验证据可促成设计修订，但不能反向覆盖规则；设计候选仍按资格与采纳流程进入规则。具体改动均保留原来源和状态。
+修改任一文件时检查相关文件是否需要同步：规则改变复核假设与关联示例；体验证据可促成设计修订，但不能反向覆盖规则；设计候选仍按资格与采纳流程进入规则。具体改动均保留原来源和状态。
 
 ## 状态与变更
 

@@ -2,7 +2,7 @@
 
 Project ID：game-002。文档角色：DesignNote。修订：2026-10-08 / augment-framework.1。范围：通用框架，不展开具体辅槽、法器清单和数值平衡。
 
-[入口](README.md) · [已确认规则](rules.md) · [玩家体验假设](experience.md)
+[入口](README.md) · [已确认规则](rules.md) · [玩家体验假设](experience.md) · [示例](examples.md)
 
 本页保存选择设计方案的理由与可调整部分。**已确认的价值顺序仍有确认约束**；“放在设计页”不表示可以静默反转。待定建议与理想效果不作为规则，也不作为已有体验证据。
 

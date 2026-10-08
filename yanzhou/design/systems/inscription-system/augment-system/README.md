@@ -9,6 +9,7 @@ Project ID：game-002。文档角色：Navigation。修订：2026-10-08 / system
 | [rules.md：已确认规则与边界](rules.md) | 作用范围、允许修改项、支付底线、稀有度表达与既有接口 | 既有接口为 Accepted；AUG-Q2—5 为用户已确认的 Qualified 框架，尚非完整 CurrentSpec |
 | [experience.md：玩家体验假设](experience.md) | 机制可能引起的行为、预期体验、观察与失败信号 | Hypothesis / NotRun |
 | [design.md：设计定位与待定方案](design.md) | 已确认价值顺序、设计理由、表达方向、待补接口 | Q1 为已确认方向；具体落地建议与 Unknown 分列 |
+| [examples.md](examples.md) | 独立情境、确定结果及未决边界；不新增规则或参数 | 说明性示例 / NotRun |
 
 本目录是铭文系统下的辅槽子系统，不另分配 SYS 编号。槽位、实体、生产、队列和打造等共享规则仍由对应系统维护；本目录声明辅槽如何接入。放入 `rules.md` 表示它是规则性内容，不表示跳过资格、提案与采纳流程。
 

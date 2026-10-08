@@ -378,3 +378,20 @@ SYS-001—007 移入各自同名目录，README 导航、rules 维护规则、ex
 交付：[六系统目录](../design/systems/README.md)、[公共流程](../design/common/README.md)、[空白模板](../../game-design-workflow/templates/system-framework/README.md)。模板以四文件包登记到共享模板清单，不预填项目规则。GDD 固定阅读包按新位置登记为 42 份，含明确标识的入口／占位正文。
 
 静态检查：六个主目录、两个子目录及四文件模板齐全；44 个 TL 条款各保留一处正文，原实质内容保留；1974 个本地链接无缺失，42 份阅读文件存在。规则与体验均未新增实验结果。
+
+
+<a id="g002-doc-014"></a>
+
+## 2026-10-08：行动卡框架初填与示例独立文件（G002-DOC-014）
+
+状态：Accepted / Documentation；仅文档组织决定。行动／标记通用结构仍标 Qualified／用户已确认，继承 TL 仍 Accepted，体验与平衡 NotRun。
+
+用户要求结合旧版本、主要参考指定行动卡与标记文件开始填写行动卡系统，并在规范中新增独立示例文件。各系统、子系统及公共流程统一 README、rules、experience、design、examples 五文件；已有法器、资源、行动、辅槽示例迁出，未有示例的目录明确留空，局外成长继续尚未开发。
+
+本轮 CUSTOM 范围、固定提交／输入哈希、主材料确认和 ACT-Q1／2 答复见 [来源记录](../sources/inbox/2026-10-08-action-card-framework-review.md)。用户确认：行动结算后独立登记未来标记，预告不占行动队列或额外翻牌；行动可读取并支付标记，完整检查成功才扣，失败不部分支付。这些结构经 [局部 Qualified 素材](../sources/materials/M-2026-10-08-action-card-framework.md)进入框架，未将 Raw 卡池、推荐数值或详细排序一起纳入。
+
+旧规则与失败路径保留；内容合同中仍写“来源死亡未决”的过期摘要按已经采纳的 CORE-054 纠正。没有新发行内容、P／E／D、运行测试或实现证据。未决同拍时序、复合步骤、上限与生命周期等集中在设计页。
+
+[文档规范](document-contract.md#系统文件夹与分文件职责)、[空白模板](../../game-design-workflow/templates/system-framework/README.md)、[行动卡入口](../design/systems/action-card-system/README.md)已同步。GDD 固定阅读包为 53 份；示例提供说明，不提高来源采纳或证据状态。
+
+静态核对：11 个系统／子系统／公共流程目录及空白模板均有五文件；44 个既有 TL 条款各保留一处正文，137 段继承规则实质内容在规则或迁出示例中保留；本轮文件的 1224 个本地链接无缺失，新链接锚点可达，53 份阅读文件存在。三个未提交输入原件哈希未变。上述均为文档检查，不是玩法验证。

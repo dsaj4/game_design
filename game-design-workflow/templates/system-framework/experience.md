@@ -2,7 +2,7 @@
 
 项目／系统：〈填写〉。版本／日期：〈填写〉。文档角色：ExperienceHypothesis。证据状态：〈填写；未运行则 NotRun〉。依据：〈填写〉。
 
-[入口](README.md) · [规则](rules.md) · [设计](design.md)
+[入口](README.md) · [规则](rules.md) · [设计](design.md) · [示例](examples.md)
 
 ## 玩家情境
 

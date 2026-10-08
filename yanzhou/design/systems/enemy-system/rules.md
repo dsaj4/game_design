@@ -2,7 +2,7 @@
 
 Project ID：game-002。文档角色：CurrentSpec。修订：2026-10-08 / system-catalog.2。状态：继承 TL-16 的 Accepted 条款及原未定边界。原 SYS-005 身份与规则来源保留。
 
-[入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md)
+[入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md) · [示例](examples.md)
 
 敌人系统维护敌方程序与遭遇输入。敌方行动的揭示、锁定、取消和共同结算引用 [行动卡系统](../action-card-system/rules.md)，路线推进见 [局内路线](../../common/run-route/rules.md)。
 

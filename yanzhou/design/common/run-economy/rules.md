@@ -2,9 +2,9 @@
 
 Project ID：game-002。文档角色：CurrentSpec。2026-10-04 / GDD 2.1 / TL-1 + INS-1。结构已采纳；完整内容Unknown，体验Hypothesis / NotRun。 文档拆分：2026-10-08 / system-docs.1；原条款采纳状态不变。
 
-[系统入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md)
+[系统入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md) · [示例](examples.md)
 
-本页维护已采纳条款、信息义务、失败结果与规则示例。条款中保留的 Unknown 只标明尚未授予的权限或待补参数，不构成候选方案；设计问题与体验判断分别见同目录文件。
+本页维护已采纳条款、信息义务与失败结果；说明性情境独立放在 [示例](examples.md)。条款中保留的 Unknown 只标明尚未授予的权限或待补参数，不构成候选方案；设计问题与体验判断分别见同目录文件。
 
 | 资源层 | 当前规则 | 尚未采用的推论 |
 | --- | --- | --- |

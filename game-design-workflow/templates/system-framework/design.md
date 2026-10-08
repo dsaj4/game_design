@@ -2,7 +2,7 @@
 
 项目／系统：〈填写〉。版本／日期：〈填写〉。文档角色：DesignNote。来源：〈填写〉。以下各项分别标明已确认、候选或 Unknown。
 
-[入口](README.md) · [规则](rules.md) · [玩家体验](experience.md)
+[入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [示例](examples.md)
 
 ## 定位与价值顺序
 

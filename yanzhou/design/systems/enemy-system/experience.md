@@ -2,7 +2,7 @@
 
 Project ID：game-002。文档角色：ExperienceHypothesis。修订：2026-10-08 / system-catalog.2。状态：Hypothesis / NotRun。原 SYS-005 身份与规则来源保留。
 
-[入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md)
+[入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md) · [示例](examples.md)
 
 本页保留敌人相关的体验观察要求；玩家选择分支的假设见 [局内路线](../../common/run-route/experience.md)。未运行玩法实验。
 

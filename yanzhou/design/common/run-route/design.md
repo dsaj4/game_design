@@ -2,7 +2,7 @@
 
 Project ID：game-002。文档角色：DesignNote。修订：2026-10-08 / system-docs.1。定位与待定内容沿原状态；不是新增采纳。
 
-[系统入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md)
+[系统入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md) · [示例](examples.md)
 
 本页保存设计用途、内容方向、替代原因与未定接口。已确认的方向需要显式变更，Unknown 和后续建议不因写入本页成为规则。玩家是否获得预期体验见 [experience.md](experience.md)。
 

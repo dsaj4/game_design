@@ -2,7 +2,7 @@
 
 Project ID：game-002。文档角色：ExperienceHypothesis。修订：2026-10-08 / augment-framework.1。证据：**Hypothesis / NotRun**。来源：[通用框架素材](../../../../sources/materials/M-2026-10-08-augment-framework.md)。
 
-[入口](README.md) · [已确认规则](rules.md) · [设计](design.md)
+[入口](README.md) · [已确认规则](rules.md) · [设计](design.md) · [示例](examples.md)
 
 本页回答辅槽是否能让玩家作出有理由的选择，并看见成长。规则检查通过只能说明结果符合规格，不能证明选择有趣、成长清楚或理解成本更低。以下关系需要后续内容和观察支持。
 

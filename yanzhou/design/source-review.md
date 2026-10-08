@@ -93,3 +93,12 @@ Include：仅Q12–14的拍末一次开工、a+D、正常空位当拍复用、�
 输入提交`95c136ed954f70c9d5336552ee5cd30b3e9fcc69`。[阶二Q01–24及各轮答复](../sources/inbox/2026-10-05-stage-two-enemy-pressure.md#2026-10-05第五轮确认与晋级)经[Qualified M](../sources/materials/M-2026-10-05-stage-two-enemy-pressure.md)、[E](../sources/evaluations/E-2026-10-05-stage-two-enemy-pressure.md)和[CORE-054 D](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)进入正文，现有接口细化按M→E→D处理。
 
 Include：固定循环时间表与翻开表公开、四类卡面种类与地域变体规则、打断锁定剩余最长施法及落空、单一来源死亡即胜、伤害与打断大类内敌方先结算、危险开工带展示、首版内容约束与表现方向。Replace：TL-13“敌人全灭判胜”、TL-29来源死亡Unknown。Omit from CurrentSpec：候选敌人的具体数值、分析套组和逐拍路线（只作条件推演）。Park：「字身」、三本原卡背、“战前法器序中D最长”目标规则、“工序不止／随身”、特色扩展表中的新规则类形态。神秘学意象出处未核实，不作为规则依据。
+
+
+## action-framework.1：行动卡与标记通用框架（2026-10-08）
+
+固定输入 `6dd669d6d2ee17d3362a12b029da5d2dec884b27`；用户指定本地未提交主材料完整读取，相关阶段文件局部核对。具体覆盖、三个原件 SHA-256、Q-MARK 既有确认、ACT-Q1／2 本轮答复及冲突处理见 [来源记录](../sources/inbox/2026-10-08-action-card-framework-review.md)。
+
+Include as QualifiedFramework：[局部素材](../sources/materials/M-2026-10-08-action-card-framework.md)中的标记宿主／极性／叠层／上限方向、禁止转移、周期停止、简单条件、独立定时效果和行动读取支付。Inherited：既有生产、队列、目标、护甲、支付与终局 TL 规则。Omit：Raw 卡池、推荐数值、减料增产的辅槽例、未确认事件链和支付优先级。Unknown：同拍总序、复合步骤、期限叠加、上限／溢出、绑定失效与退款。
+
+新增通用内容未成为完整 CurrentSpec；既有条款不因排版迁移重新采纳。示例独立保存并标为说明性推导，不当作实体、默认数值或玩家观察。阶段完成前提不变，本轮没有执行玩法实验或导入外部实现。

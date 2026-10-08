@@ -81,3 +81,8 @@ G002-CORE-054：阶段二敌情合同与卡面种类，Accepted / Hypothesis / N
 ## 2026-10-08文档目录决定
 
 G002-DOC-012：规则、体验、设计分文件。G002-DOC-013：六个主系统目录、辅槽／标记归属、局外成长占位及空白模板。均为 Accepted / Documentation，不新增 CORE 或 TL 玩法编号；现行 TL 条款仍为 44 个。
+
+
+## 2026-10-08 行动卡框架与示例文件
+
+G002-DOC-014：系统统一五文件、示例独立存储及模板／阅读合同同步，Accepted / Documentation。MAT-2026-10-08-action-card-framework：行动与标记的局部 Qualified 框架，含主材料已有 Q-MARK 确认及本轮 ACT-Q1／2；不是全系统 CurrentSpec 新采纳。未新增 CORE、TL、FX 或发行实体，44 个既有 TL 身份保留；新示例不是验收执行结果。

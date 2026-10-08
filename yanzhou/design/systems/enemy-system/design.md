@@ -2,7 +2,7 @@
 
 Project ID：game-002。文档角色：DesignNote。修订：2026-10-08 / system-catalog.2。状态：既有设计方向，未新增采纳。原 SYS-005 身份与规则来源保留。
 
-[入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md)
+[入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md) · [示例](examples.md)
 
 本页从原路线与敌方程序分册提取敌人相关设计目标。敌人具体内容继续在 [内容目录](../../content/enemies-encounters.md) 维护。
 

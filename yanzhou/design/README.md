@@ -8,7 +8,7 @@ Project ID：game-002。文档角色：Navigation。更新：2026-10-08（文档
 | --- | --- |
 | [法器系统](systems/artifact-system/README.md) | 法器本体、处理流程、供料编排、容量预留、打断返工与契合接口；既有规则与待定内容分别保留 |
 | [铭文系统](systems/inscription-system/README.md) | 铭文实体、核心装配、兼容与挂接，包含辅槽子系统；既有规则；辅槽新增通用框架仍为 Qualified |
-| [行动卡系统](systems/action-card-system/README.md) | 卡牌类别、行动效果、战斗行与共同结算，包含标记子系统；既有规则；标记细则待按阶段成果整理 |
+| [行动卡系统](systems/action-card-system/README.md) | 卡牌类别、行动效果、战斗行与共同结算，包含标记子系统；既有条款 Accepted；行动／标记新增通用结构 Qualified，体验 NotRun |
 | [敌人系统](systems/enemy-system/README.md) | 敌人程序、遭遇输入、敌方行动与应对窗口；既有规则与设计目标分别保留 |
 | [资源系统](systems/resource-system/README.md) | 材料、供给、托管、维护、转化与数量合同；既有规则与待定内容分别保留 |
 | [局外成长系统](systems/meta-progression-system/README.md) | 预留独立系统入口；范围、机制与持续性均待设计；尚未开发；仅占位 |
@@ -20,7 +20,7 @@ Project ID：game-002。文档角色：Navigation。更新：2026-10-08（文档
 | [验收](validation.md) | 新版规则、体验任务与停止条件，全部NotRun |
 | [素材审查](source-review.md) | 纳入、替代、重设计与原始来源边界 |
 
-当前按六个主系统组织，辅槽归铭文、标记归行动卡，局外成长仅预留目录。每个目录以 rules、experience、design 分别维护规则、体验假设和设计，README 负责导航；公共流程另存。目录调整不改变原规则采纳和验证状态。
+当前按六个主系统组织，辅槽归铭文、标记归行动卡，局外成长仅预留目录。每个目录以 rules、experience、design、examples 分别维护规则、体验假设、设计和独立示例，README 负责导航；公共流程另存。目录调整不改变原规则采纳和验证状态。
 
 旧RC1数字、空间规则与验收用例不再从本目录的“当前”身份继承；需要追溯时读固定旧提交。
 
