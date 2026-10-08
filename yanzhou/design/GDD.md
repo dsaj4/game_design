@@ -5,16 +5,16 @@
 | 字段 | 内容 |
 | --- | --- |
 | 文档ID／项目 | GDD-G002-FULL-001 / game-002 |
-| 版本／更新 | 2.1 / TL-1 + INS-1，局部修订routing.1 + processing.2 + timing.1 + enemy.1；2026-10-05 |
+| 版本／更新 | 2.1 / TL-1 + INS-1，局部修订routing.1 + processing.2 + timing.1 + enemy.1；规则基准2026-10-05，文档审查2026-10-08 |
 | 成熟度 | **GDD-0：概念与核心结构版**；不宣称原型或完整制作规格就绪 |
-| 设计状态 | 已确认核心结构Accepted；具体新卡表与未决边界独立Proposed / Unknown |
+| 设计状态 | 既有核心结构Accepted；辅槽、行动／标记新增通用框架Qualified；具体新卡表与未决边界独立Proposed / Unknown |
 | 证据状态 | Hypothesis / NotRun |
 | 负责人／评审 | 用户为设计负责人；Codex整理；规则、内容、体验分别评审 |
 | 目标里程碑 | 统一新核心，完成卡表与边界后再升GDD-1 |
 | 合格来源 | [敌情合同M](../sources/materials/M-2026-10-05-stage-two-enemy-pressure.md)；[共同拍序M](../sources/materials/M-2026-10-05-stage-one-common-timing.md)； [生产与队列接口M](../sources/materials/M-2026-10-05-production-queue-interfaces.md)；[单一处理耗时M](../sources/materials/M-2026-10-05-single-processing-time.md)；[路由澄清素材](../sources/materials/M-2026-10-04-routing-response-clarification.md)；[铭刻素材](../sources/materials/M-2026-10-04-artifact-inscription-core.md)；[核心素材](../sources/materials/M-2026-10-01-timeline-production-core.md) |
 | 提案／评估 | [敌情合同E](../sources/evaluations/E-2026-10-05-stage-two-enemy-pressure.md)；[共同拍序E](../sources/evaluations/E-2026-10-05-stage-one-common-timing.md)； [生产与队列接口E](../sources/evaluations/E-2026-10-05-production-queue-interfaces.md)；[单一处理耗时E](../sources/evaluations/E-2026-10-05-single-processing-time.md)；[路由澄清E](../sources/evaluations/E-2026-10-04-routing-response-clarification.md)；[铭刻P](../sources/proposals/P-2026-10-04-artifact-inscription-core.md)／[铭刻E](../sources/evaluations/E-2026-10-04-artifact-inscription-core.md)；[P](../sources/proposals/P-2026-10-01-timeline-production-system.md)／[E](../sources/evaluations/E-2026-10-01-timeline-production-system.md) |
 | 采纳 | [CORE-054敌情合同与卡面种类](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)；[CORE-053共同拍序](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)； [CORE-052生产与队列接口](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)；[CORE-051单一处理与预留](../sources/draft-changes/D-2026-10-05-single-processing-time.md)；[CORE-050路由澄清](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)；[CORE-049铭刻](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)；[CORE-037–047](../sources/draft-changes/D-2026-10-01-timeline-production-core.md)与[CORE-048兼容复用](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md) |
-| 内容与展示缺口 | 旧卡表与UI候选已退役，实际内容、展示及未决边界待设计；历史链接不成为规则 |
+| 内容与展示缺口 | 旧探索卡表与UI候选已退役；阶段1—4设计完成沿用户前提，已提交框架的剩余接口与正式内容登记仍待核对；历史链接不成为规则 |
 | 验证／开发 | [验收计划](validation.md)／[实现索引](../development/README.md)，没有新版执行证据 |
 
 ### 0.1 目标与范围
@@ -120,7 +120,7 @@ INS-1按用户明确回写授权采纳TL-38–45，替代TL-20材料—动作—
 
 ## 9. 遭遇与路线
 
-敌人采用盖放程序，所有行动牌揭示与到期之间均有正延迟；通常一个关键威胁，少量双威胁。每场一个来源敌人，程序为开战即公开翻开表的固定循环时间表。首批候选绿狮、万溶之液、雷比斯及首版内容约束见[敌人与遭遇合同](content/enemies-encounters.md)，数值待阶段三按真实法器重标。旧敌攻公式和格子布场不迁为新牌序。
+敌人采用盖放程序，所有行动牌揭示与到期之间均有正延迟；通常一个关键威胁，少量双威胁。每场一个来源敌人，程序为开战即公开翻开表的固定循环时间表。首批候选绿狮、万溶之液、雷比斯及首版内容约束见[敌人与遭遇合同](content/enemies-encounters.md)，数值须对照已交付阶段成果中的真实法器完成适配和正式登记，不把阶段交付视为自动发行。旧敌攻公式和格子布场不迁为新牌序。
 
 ## 10. 引导
 
@@ -163,6 +163,8 @@ INS-1按用户明确回写授权采纳TL-38–45，替代TL-20材料—动作—
 - [ ] 完整卡表、参数与边界达到GDD-1：未完成。
 - [ ] 玩法、平衡和真人体验验证：NotRun。
 
-阶段一共同规则、预算、条件情境及未知移交已完成，见[收束包](../sources/inbox/2026-10-05-stage-one-closure.md)与CORE-053。示例值未采纳为发行参数，阶段二／三仍需设计真实压力与配置；阶段推进不提升本GDD成熟度或证据状态。
+阶段一共同规则、预算、条件情境及未知移交已完成，见[收束包](../sources/inbox/2026-10-05-stage-one-closure.md)与CORE-053。示例值未采纳为发行参数，阶段推进不提升本GDD成熟度或证据状态；该段保存原交付范围，不再指示重启阶段二／三。
 
-阶段二首批敌情合同、卡面种类与敌人候选见[CORE-054](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)；候选不构成发行池，阶段三须按真实组件重标。成熟度与证据状态不变。
+阶段二首批敌情合同、卡面种类与敌人候选见[CORE-054](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)；候选不构成发行池，真实组件的来源、参数与遭遇适配仍须在正式内容登记时核对。当前沿阶段1—4已完成的用户前提推进框架接口整理，成熟度与证据状态不变。
+
+[2026-10-08重建审查](../governance/main-system-review-2026-10-08.md)记录已订正旧表述及仍未闭合的时间修饰、标记支付／定时、恢复与内容接口；当前问题统一在[问题清单](../governance/questions.md#重建后接口核对2026-10-08)维护。

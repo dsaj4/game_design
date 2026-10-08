@@ -118,3 +118,9 @@ Omit：Raw 具体法器／辅槽、减料／虚拟材料、单批多产、压缩
 Inherited / Accepted：TL-16、CORE-054 的敌程序、首版内容限制及信息合同。内容页的通用字段与约束归 rules，压力定位、取舍和秘仪炼金方向归 design，行为假设和观察方式归 experience，六组已采纳规则说明归 examples；具体敌人程序表与数值留内容目录，仍为候选 / Illustrative。行动结算、返工和可达性只引用相邻权威。
 
 Include as Qualified interface：既有行动／标记素材中的敌我宿主、正负归属、实有层数与未来预告边界。Omit：Raw 改 Δ、提前取消暗牌、新事件链、由辅槽扩展取消类别、敌方施法成本及 10—15 张敌牌计划。Unknown：真实内容配套、复杂同拍、附属物、其他类子类、定时效果绑定失效和表现布局。未新增 M／P／E／D、CORE 采纳、发行实体或运行证据；文档组织记 DOC-016，体验仍 NotRun。
+
+## augment-framework.1与本轮主系统审查（2026-10-08）
+
+[辅槽局部Qualified素材](../sources/materials/M-2026-10-08-augment-framework.md)已用于通用权限：生产侧只改D、行动侧改明示量值、跨法器以标记协同、完整检查后支付、稀有度表达强弱。旧减料、单批增产、直接跨法器加成和统一三阶不作为新版默认；D快照、叠加、失败分支和退款仍未决定。该素材的原资格与用户答复不因本节重新评定或升级。
+
+本轮以`cb8c8b2376cfe217e6d65a128d0fbf9909f83edb`完整阅读69份已跟踪design及相关来源，订正阶段入口、旧Unknown与索引，并评审共享状态和内容风险。逐文件版本、全文／局部范围与排除项见[清理映射](../governance/cleanup-map.json)中的`main_system_audit_20261008`；结论见[审查报告](../governance/main-system-review-2026-10-08.md)。没有全读所有sources、未提交阶段原件或历史正文，没有新增玩法采纳或运行结果。

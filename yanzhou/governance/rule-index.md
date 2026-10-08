@@ -16,7 +16,7 @@ Project ID：game-002。2026-10-08（六系统目录）。文档角色：Navigat
 | TL-42 辅槽打造 | [铭文](../design/systems/inscription-system/rules.md#tl-42-辅槽打造) | SYS-006 |
 | TL-17–19／31／36 交互、暂停、保存与可达性 | [交互与保存](../design/common/interaction-save/rules.md) | SYS-007 |
 
-TL-20保留历史ID；其材料—动作—目标入口已由CORE-049替代，不列现行规则。TL-01–19及TL-21–45共44个现行规则ID；TL-V01–40、INS-V01–09共49项只登记验收预期，全部NotRun。
+TL-20保留历史ID；其材料—动作—目标入口已由CORE-049替代，不列现行规则。TL-01–19及TL-21–45共44个现行规则ID；TL-V01–68去除已退役02／20共66项，加INS-V01–09共75项现用验收预期，全部NotRun；新增Qualified框架不借计数升级为Accepted。
 
 [参数](../design/parameters.md) · [内容](../design/content/cards.md) · [验收](../design/validation.md) · [当前未知](questions.md)
 

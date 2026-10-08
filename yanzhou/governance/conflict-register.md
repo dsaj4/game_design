@@ -1,5 +1,8 @@
 # 主系统一致性与设计风险审查
 
+> 版本提示（2026-10-08）：本文为2026-10-04及更早审查记录，旧Open不直接代表当前未决。CORE-051—054后的逐项状态见[重建复核](main-system-review-2026-10-08.md#旧问题的当前状态)，待办唯一入口为[questions](questions.md)。原反例与用户本地修订保留；不恢复D/J/R、完工待位或已解决的来源死亡问题。
+
+
 Project ID：game-002。文档角色：DesignReview / Governance。日期：2026-10-04。输入：`e9b2a8fa7c88e9a34ab6e9a37b4cf05daecf89a4`，GDD 2.1 / TL-1 + INS-1，GDD-0。状态：文档订正已执行；后续用户澄清已按CORE-050限定采纳；其余审查建议未采纳，体验Hypothesis / NotRun。
 
 ## 结论与证据边界

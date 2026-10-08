@@ -1,6 +1,6 @@
 # 言咒现行设计
 
-Project ID：game-002。文档角色：Navigation。更新：2026-10-08（文档拆分）。当前GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1，GDD-0；已采纳核心结构，内容与完整参数尚未闭合。
+Project ID：game-002。文档角色：Navigation。更新：2026-10-08（框架重建后审查）。当前GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1，GDD-0；已采纳核心结构，内容与完整参数尚未闭合。
 
 [核心设计](core-design.md) · [GDD总览](GDD.md) · [版本与旧版取证](baseline.md) · [当前问题](../governance/questions.md)
 
@@ -34,6 +34,8 @@ INS-1按[CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-co
 
 processing.2按[CORE-052](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)补齐五项接口：预留不排牌序、按有效供料优先级联合检查开工条件、中断回收下拍可用、入行最早下拍翻开、单份临时供料在指定结束拍恢复基础方案。完整同拍时序、多牌批次和实际内容仍待补齐，GDD仍2.1／GDD-0。
 
-timing.1按[CORE-053](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)补齐拍末开工、a+D、正常空位复用、揭示后输入窗口及补给可用拍。阶段一文档完成，见[收束包](../sources/inbox/2026-10-05-stage-one-closure.md)；复杂总序及真实内容继续按阶段二至四处理，GDD-0／NotRun不变。
+timing.1按[CORE-053](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)补齐拍末开工、a+D、正常空位复用、揭示后输入窗口及补给可用拍。阶段一文档完成，见[收束包](../sources/inbox/2026-10-05-stage-one-closure.md)；当轮把复杂总序及真实内容移交阶段二至四；当前未决按框架接口核对，GDD-0／NotRun不变。
 
 enemy.1按[CORE-054](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)确定敌程序固定时间表与翻开表公开、打断锁定剩余最长施法、单一来源敌人死亡即胜、同拍敌方到期先于玩家行动及四类通用卡面种类；首批敌人为候选，见[阶段二工作包](../sources/inbox/2026-10-05-stage-two-enemy-pressure.md)。GDD-0／NotRun不变。
+
+当前阶段进度沿用户“阶段1—4设计完成”的前提，前述日期型增量保留当轮含义。后续按[重建审查](../governance/main-system-review-2026-10-08.md)与[当前接口问题](../governance/questions.md#重建后接口核对2026-10-08)推进，不从旧阶段移交文字重启已完成工作；正式内容采纳与NotRun仍独立记录。

@@ -66,7 +66,7 @@ Project ID：game-002。文档角色：CurrentSpec。基准：GDD 2.1 / TL-1 + I
 - 材料缺口：自动等待；不重新开放选材槽或要求玩家每批确认。
 - 已产牌后改未来路由：既有牌的类型、规则和支付来源不变。
 
-[内容合同](../../content/cards.md) · [法器生产](../artifact-system/rules.md) · [辅槽打造](../../common/run-economy/rules.md)
+[内容合同](../../content/cards.md) · [法器生产](../artifact-system/rules.md) · [辅槽打造](#tl-42-辅槽打造)
 
 
 ## TL-42 辅槽打造

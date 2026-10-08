@@ -33,3 +33,10 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 ## routing.1来源链（CORE-050）
 
 [原话／调时答复](inbox/2026-10-04-routing-response-clarification.md) → [局部Qualified M](materials/M-2026-10-04-routing-response-clarification.md) → [E](evaluations/E-2026-10-04-routing-response-clarification.md) → [采纳D](draft-changes/D-2026-10-04-routing-response-clarification.md)。仅全敌牌正延迟、未来供料调度及供料调时范围进入当前规则；付费调牌序保持inbox Raw候选。
+
+## 当前重建框架与后续采纳增量（2026-10-08）
+
+- 既有规则增量：[CORE-051单一处理](draft-changes/D-2026-10-05-single-processing-time.md)、[CORE-052生产队列接口](draft-changes/D-2026-10-05-production-queue-interfaces.md)、[CORE-053共同拍序](draft-changes/D-2026-10-05-stage-one-common-timing.md)、[CORE-054敌情合同](draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)。原轮次Unknown按后续明确替代范围解释。
+- 新增局部Qualified框架：[辅槽](materials/M-2026-10-08-augment-framework.md)、[行动／标记](materials/M-2026-10-08-action-card-framework.md)。已确认结构可引用，未自动完成全系统采纳或内容发行。
+- 当前阶段沿[阶段1—4完成的用户前提](inbox/2026-10-08-augment-framework-review.md#原始想法与触发来源)；具体归位、未采纳差异和未提交原件身份见[法器整理](inbox/2026-10-08-artifact-framework-review.md)与[敌人整理](inbox/2026-10-08-enemy-framework-review.md)。旧阶段规划不覆盖当前进度。
+- [重建后一致性审查](../governance/main-system-review-2026-10-08.md)及[剩余接口](../governance/questions.md#重建后接口核对2026-10-08)是后续工作入口；原来源不改写为新版规则。

@@ -8383,5 +8383,966 @@
       "prior_cleanup_records_unchanged": true,
       "task_files": 27
     }
+  },
+  "main_system_audit_20261008": {
+    "date": "2026-10-08",
+    "timezone": "America/New_York",
+    "decision": "G002-DOC-017",
+    "mode": "CUSTOM",
+    "input_commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+    "branch": "codex/2026-10-08-main-system-audit",
+    "scope": "完整已提交design及必要主系统来源／治理；排除未提交玩法原件、历史正文、其他方向、外部代码、联网和媒体",
+    "input_files": [
+      {
+        "path": "yanzhou/CONTEXT.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "1978eac37890a95ea6fe051a9ca2329132603aad",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "708cd2305b5746db20fc5df460826d77c9d3db69",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/GDD.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "e4a5581ed572cc54bd7c2941fc7a47b05372f9de",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "d2a6260ee5ada749a058b163b53d2175dc86e098",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/baseline.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "845b2c0a50010e30952ae491a2448b3762c09548",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/common/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "4ec1fde670d7e8e610647416c64c87b7f2c3fa14",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/common/interaction-save/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "5a71036a29df381492d510e97bf6a15a613eabe7",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/common/interaction-save/design.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "7a540e4ebd9db14a22596ae4a50906e1a182edbc",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/common/interaction-save/examples.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "c0f60762fb4dd567c671ef314dc2b65745b0a72f",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/common/interaction-save/experience.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "430178deed230da15ff4c854d366e0abae6fd883",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/common/interaction-save/rules.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "b032283cf4df1be99a896e248d37d8d502e19f6b",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/common/run-economy/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "92c70d9cab345ade766eddf65db178b41074fa62",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/common/run-economy/design.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "265041e89a0261082424be716ec7af22ed6eb7ea",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/common/run-economy/examples.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "b25e3791bdbf12bf1368b82945cf284110013210",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/common/run-economy/experience.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "c0cf97084b1e6cb7ea2f5080d86fd9a4ff0b374c",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/common/run-economy/rules.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "e87924ae3f745990b2be2cbef2eeb4dc7fe55f36",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/common/run-route/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "92d5d22dc92540fee17b1250176140600559d75e",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/common/run-route/design.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "2835eb6ea53f0672507d0d7f73fe4980c1770b60",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/common/run-route/examples.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "c192767c2cdd3b1e0d45c76bb69d05cda64f2216",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/common/run-route/experience.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "067bee2c5c3b61d5f0e4985128b8bcff7eaaf7ab",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/common/run-route/rules.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "6336b1f6a92a3c9ecd463a6d704a05a2362c2fb2",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/content/cards.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "3a3ab52537667c3ea419d75d2568aa61200565d6",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/content/enemies-encounters.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "1ac8005c210a588eacab2d614fb7e860b7b29433",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/content/wands.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "c09149d5f180cb34bcafa08e972da23303fc974d",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/core-concept.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "aeff7f13edcca1af016295797686de4bb08780d4",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/core-design.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "99c1c11a705f11b907a02d68438c9691a808cab2",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/legacy-index.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "cb839e450a4424a0fffbb184f1784b08843ad52e",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/parameters.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "12e34b1e892b9d1e715d0f7e81849e6de0c7810e",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/source-review.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "822f224ce6ab7123cb1e7961eb8df161bdee17c9",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "c19d2ff709ce54a9f8effeb44f612bc52ec5ed26",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/action-card-system/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "7de98ecdc3ce0a6932848a798cd2a8e7fe72db45",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/action-card-system/design.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "8939f15d52107ea2b11919f9a23f601f824e564d",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/action-card-system/examples.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "c86f838b2b47df7ff447a87a89017ebdffe67414",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/action-card-system/experience.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "ca6dea657223c48bc081433241fb33867a0fcc5d",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/action-card-system/mark-system/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "c6d5f5729fa87693011c2bfde833d3828066523a",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/action-card-system/mark-system/design.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "478d865619d389982aa281c3cc77701b92b649cf",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/action-card-system/mark-system/examples.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "36150c760764f33812604501254b8fae28984a2b",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/action-card-system/mark-system/experience.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "38959e7b8739d87b8f63c58cbfbae41195c4318f",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/action-card-system/mark-system/rules.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "f29a74f7cc1116c05257ff94d8bccbea3c2f78b8",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/action-card-system/rules.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "4fbe97b9205facd2ea3db1c422c3c4a39003551f",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/artifact-system/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "77bf2cc65fc2d598f196884a1e5590e7c8bc2cda",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/artifact-system/design.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "b441c6639514f2da6e9bcf9d54baf101aa5ef264",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/artifact-system/examples.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "d52cb00c6e036f2f84eb8d369adb15de2af4ff54",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/artifact-system/experience.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "6e4f48b417988a8ba146d747823ea6ecf6c3e151",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/artifact-system/rules.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "f04adf4ef13473c688a8b5aeadf9ea555eb25ec1",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/enemy-system/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "a283dcc7ce186871ecea5abb2517c33570d99be0",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/enemy-system/design.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "be643fb14d011c1f727a8474104f20c8aa96fb51",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/enemy-system/examples.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "97162e76c7f80cab65ca9e7a982f63569bf42d5c",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/enemy-system/experience.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "02d666d7ec6fdc3e57838ba6928c081140c95fff",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/enemy-system/rules.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "424cca4facee8e4922446c5ce903d3e5a337fe75",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/inscription-system/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "5346f867b8cb95221425360ec61e947af30ce182",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/inscription-system/augment-system/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "9ee382a3a6008266555d4ee7c362bb8b4cdc4512",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/inscription-system/augment-system/design.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "f8809fe7da3c8b4a74160bbd763988c4340eeb0b",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/inscription-system/augment-system/examples.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "3d501083928df1dc2775a5d7e730da926eebf4d1",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/inscription-system/augment-system/experience.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "26a95379e968166a5a62eea374239d33e6613170",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/inscription-system/augment-system/rules.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "dac5316b3abb22883843684c857453a46351fd66",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/inscription-system/design.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "8b16db6b41dae29d9c22030379113f03a10c182b",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/inscription-system/examples.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "96ba590d091e847cce456a53a14750bc464f7fb6",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/inscription-system/experience.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "e6a30e09e4b626eb90584d7e321c9c8317ab3967",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/inscription-system/rules.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "2a9d602adb517c6cfdd8d8cf31770c3a140eba7d",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/meta-progression-system/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "c021ddc8a6b0da8865ae95c2d8638051e61938e6",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/meta-progression-system/design.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "7ad4548de83b1822f7d6e1f9899e01f0ff6238b2",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/meta-progression-system/examples.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "4641eaa04f2d239d8fd4d0975ec83cc201844c48",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/meta-progression-system/experience.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "fdee5e3886ecf0f6487acb6ce3004c0ea50e3f67",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/meta-progression-system/rules.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "ed46888c57ee3722b5eb44bc79496ad30b25d7c5",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/resource-system/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "4772bd233097157e6c73dcc5c8a9b3785033106e",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/resource-system/design.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "fbf5ddf8ce0701912da9d01d082fa109cf2cfc19",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/resource-system/examples.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "1d68c448b8b3c88e607334828c43b5437409c915",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/resource-system/experience.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "b370cda352507ddbf2ac12f5a113affc1661ae6d",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/systems/resource-system/rules.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "ba5c96ebbe05a724f03b3cdbb3c1b9719fa74013",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/design/validation.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "06d5fce634aaff47bac486563f8fd905eb251733",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/development/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "e31166ffe02975f68acc5f5429b542d416821d77",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/development/test-handoff.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "ccfa3317f574fb2a31a48635931023e9da7d8071",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/effects/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "bde2b0d9f1a970f0a9d374a5ca04234a16c14b00",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/effects/case-coverage.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "6002dc961a18e7989d37c5572bf039d454e60808",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/effects/catalog.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "fd59c42f77ad3be7cd5f4f82743ed142931a5702",
+        "coverage": "partial",
+        "read_detail": "1—70行，当前应用与FX-135—137；其余只核对137身份／锚点元数据"
+      },
+      {
+        "path": "yanzhou/effects/readiness-review.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "2967925c4f60adccddd2c04fe7af39cf24643972",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/effects/source-audit.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "db340923e5744a3dbe986303138f6950d68c00a1",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/governance/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "371f7fe2e93b4c1ffec8120d5ab55e27524ba366",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/governance/cleanup-report.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "5172b39d588a6bf70b74172b60da221aa1dc7848",
+        "coverage": "partial",
+        "read_detail": "首部旧批次身份、2026-10-04退役与主系统审查相关处置／检查；原计数保留当轮意义"
+      },
+      {
+        "path": "yanzhou/governance/conflict-register.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "dc3b80135a4e2e72ee1c86f3bd46e068f65ccf2f",
+        "coverage": "partial",
+        "read_detail": "当前结论、AUD-015—030、接口覆盖与原范围、尾部旧AUD；本地AUD-021标题差异单列，不以未完整显示的旧问卷为本轮决定"
+      },
+      {
+        "path": "yanzhou/governance/decision-log.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "1f4a3ad4ec24af93065ab9cf2a386fb11c3b4976",
+        "coverage": "partial",
+        "read_detail": "首部适用范围，CORE-050—054、DOC-010—016；早期记录只查ID与标题，不重读历史正文"
+      },
+      {
+        "path": "yanzhou/governance/document-contract.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "ed02b475b0b2f6248faa6e68c68bf1720d9d7a1c",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/governance/file-index.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "3c3327f9ed264f83eb34cbbe5ab0f57b036ae26f",
+        "coverage": "partial",
+        "read_detail": "原日期和范围说明；路径／版本元数据检查，不沿链接扩读"
+      },
+      {
+        "path": "yanzhou/governance/id-registry.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "b9c6983f1ae4f7f6442ae2153d3864624c753d81",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/governance/questions.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "46bae14893f17e1329ab63517c4f0d54e2fa45cc",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/governance/rule-index.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "4955dc98df721e8d2cafa522d9a0d7fb7da085ff",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/sources/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "961d24912ede7beb743f941c7c81f54094baddf8",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/sources/draft-changes/D-2026-10-05-production-queue-interfaces.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "5a9fb36ca00c1aedf8aa282dac548939338eddb0",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/sources/draft-changes/D-2026-10-05-single-processing-time.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "5b8a7cfa795f37ba69542d44ef017c2076101e67",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/sources/draft-changes/D-2026-10-05-stage-one-common-timing.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "7ddf412fdcf3e364c4ec8a0d388152a7afdb7a00",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "357739f17418b9decabe4dba3429f6b70f4b9312",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/sources/draft-changes/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "852fb1e5bf375a0a8f339798356642f05a5be8e2",
+        "coverage": "partial",
+        "read_detail": "来源导航、当前增量及路径元数据；批量输出部分截断，不称全来源阅读"
+      },
+      {
+        "path": "yanzhou/sources/evaluations/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "59da2cc0013287a9b6dc4c29bbf4d8527884b22f",
+        "coverage": "partial",
+        "read_detail": "来源导航、当前增量及路径元数据；批量输出部分截断，不称全来源阅读"
+      },
+      {
+        "path": "yanzhou/sources/gdd-drafts/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "5044e117900399f2bc70cd4d2a3a5042788ebc83",
+        "coverage": "partial",
+        "read_detail": "来源导航、当前增量及路径元数据；批量输出部分截断，不称全来源阅读"
+      },
+      {
+        "path": "yanzhou/sources/inbox/2026-10-08-action-card-framework-review.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "cfeb9d21f85cd12a199f9e3fce8365dd283880fc",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/sources/inbox/2026-10-08-artifact-framework-review.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "8dd1149eb3f494ed21209bd64c30563981047abc",
+        "coverage": "partial",
+        "read_detail": "请求范围、已提交输入表、未提交输入、归类处置及检查；主输出有截断处，保守按局部记录，不称全文"
+      },
+      {
+        "path": "yanzhou/sources/inbox/2026-10-08-augment-framework-review.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "593b8326b27a331423855a8d5407b57c6b557c83",
+        "coverage": "partial",
+        "read_detail": "1—18、196—219行原话／阶段前提及AUG-Q1—5；其他为关键词定位，未读研究正文"
+      },
+      {
+        "path": "yanzhou/sources/inbox/2026-10-08-enemy-framework-review.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "9e99481374cd0fe55c533f593d4205e1ad4df214",
+        "coverage": "partial",
+        "read_detail": "请求范围、覆盖、分类、未采纳扩展及检查；仅作为本轮必要来源，不继承其原件阅读覆盖"
+      },
+      {
+        "path": "yanzhou/sources/inbox/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "d34b05130f8dcbbe48bb7611555bb2d2b84de0a7",
+        "coverage": "partial",
+        "read_detail": "来源导航、当前增量及路径元数据；批量输出部分截断，不称全来源阅读"
+      },
+      {
+        "path": "yanzhou/sources/materials/M-2026-10-08-action-card-framework.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "69db64359906594a0c2b331f113fa8dbf6381cc7",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/sources/materials/M-2026-10-08-augment-framework.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "4f5b90bb754910adf4e3faeaa10b2d1c65a7cbe5",
+        "coverage": "full",
+        "read_detail": "全文"
+      },
+      {
+        "path": "yanzhou/sources/materials/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "236e0aaef904b9ee441c18e91781cba80457b092",
+        "coverage": "partial",
+        "read_detail": "来源导航、当前增量及路径元数据；批量输出部分截断，不称全来源阅读"
+      },
+      {
+        "path": "yanzhou/sources/proposals/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "814c698cd488b575b17d71ca9657b2bf1dae4d47",
+        "coverage": "partial",
+        "read_detail": "来源导航、当前增量及路径元数据；批量输出部分截断，不称全来源阅读"
+      },
+      {
+        "path": "yanzhou/visual/README.md",
+        "commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "blob": "688d1fe9aaada0d66c4fad29fed602c1fb515493",
+        "coverage": "full",
+        "read_detail": "全文"
+      }
+    ],
+    "operation_routes": [
+      "README.md",
+      "docs/workspace-map.md",
+      "docs/github-collaboration.md",
+      "yanzhou/AGENTS.md",
+      "yanzhou/exploration/start.md",
+      "yanzhou/exploration/AGENTS.md",
+      "docs/design-workflow.md",
+      "yanzhou/history/README.md"
+    ],
+    "excluded": [
+      "untracked gameplay drafts: path and hash inventory only",
+      "yanzhou/history gameplay bodies",
+      "yanzhou/exploration direction bodies",
+      "external implementation repositories",
+      "other projects",
+      "visual binaries and old report bodies",
+      "unlisted source bodies"
+    ],
+    "preexisting_worktree_paths": [
+      {
+        "path": "skill-iteration-workspace/README.md",
+        "state": "deleted",
+        "sha256": null
+      },
+      {
+        "path": "tools/docs.py",
+        "state": "deleted",
+        "sha256": null
+      },
+      {
+        "path": "yanzhou/governance/conflict-register.md",
+        "state": "preserve-uncommitted",
+        "sha256": "123482ab05e232e53a19ad085092a19737a4e38a825604e529b144dd73bc8a6e"
+      },
+      {
+        "path": "yanzhou/governance/time-axis-review.md",
+        "state": "deleted",
+        "sha256": null
+      },
+      {
+        "path": "yanzhou/governance/time-axis-review/coverage.md",
+        "state": "deleted",
+        "sha256": null
+      },
+      {
+        "path": "yanzhou/governance/time-axis-review/sources.md",
+        "state": "deleted",
+        "sha256": null
+      },
+      {
+        "path": "yanzhou/research/03-product-case-studies/2026-09-09-prebattle-ui-reference.md",
+        "state": "deleted",
+        "sha256": null
+      },
+      {
+        "path": "yanzhou/research/03-product-case-studies/2026-09-13-astra-game-development-stack.md",
+        "state": "deleted",
+        "sha256": null
+      },
+      {
+        "path": "yanzhou/research/03-product-case-studies/2026-09-13-godot-blender-workflow-comparison.md",
+        "state": "deleted",
+        "sha256": null
+      },
+      {
+        "path": "docs/plans/2026-08-21-three-week-vertical-slice-development-plan.docx",
+        "state": "preserve-uncommitted",
+        "sha256": "ee98a3db031d3eb13254f2eb2bb5dee21cfde4d1b8f88fb31323c2547b3b2992"
+      },
+      {
+        "path": "game-design-workflow/templates/overall-system-framework-template.md",
+        "state": "preserve-uncommitted",
+        "sha256": "49dddd41e21a7e12deea936d4ab63092cb89ff36272ad13446b4d9555ef95716"
+      },
+      {
+        "path": "yanzhou/design/systems/augment-system-archive.md",
+        "state": "preserve-uncommitted",
+        "sha256": "9e76e818e4d1fd07c0f21c8a4ebb6af8b5b2ad31a447c9bb3546991c069abb2e"
+      },
+      {
+        "path": "yanzhou/inbox/2026-10-08-action-cards-mark-system.md",
+        "state": "preserve-uncommitted",
+        "sha256": "5ed1cc5dbe621963447294cb8fec32b2bc5d1bfe4c2d58d9f2d2f1fe52c9a566"
+      },
+      {
+        "path": "yanzhou/inbox/2026-10-08-action-cards-pool-design.md",
+        "state": "preserve-uncommitted",
+        "sha256": "4fe43871392a4ec219942881aeead19abfc7dd58912f6141fd9f4f3d1fedaff9"
+      },
+      {
+        "path": "yanzhou/inbox/2026-10-08-action-cards-stage-delivery.md",
+        "state": "preserve-uncommitted",
+        "sha256": "08cfc166512a620cd444d4ab9ad244df34cb162f12bfd758be5192d413c6ba2b"
+      },
+      {
+        "path": "yanzhou/inbox/2026-10-08-artifact-augment-effects.md",
+        "state": "preserve-uncommitted",
+        "sha256": "a6ad801015c976969a23f8d1eba653770597d77f0e7da08268f33d1e36468374"
+      },
+      {
+        "path": "yanzhou/inbox/2026-10-08-mark-system-rules-detailed.md",
+        "state": "preserve-uncommitted",
+        "sha256": "b1dcfbfbb7432df8e64c664cbd82d8fc795c38605f234227a4eedd40ef5c4c9d"
+      },
+      {
+        "path": "yanzhou/sources/inbox/2026-10-05-stage-three-artifact-effects.md",
+        "state": "preserve-uncommitted",
+        "sha256": "2388bcf366fd38c2f987e1bce7e080faa6d2a5a9995e32d1d07725012382e333"
+      },
+      {
+        "path": "yanzhou/sources/inbox/2026-10-06-stage-three-artifact-effects.md",
+        "state": "preserve-uncommitted",
+        "sha256": "ffdc5ff6e121f320a470a63f56c0aa51ebe138658d0fa9dfeb9d5b012e46a19f"
+      },
+      {
+        "path": "yanzhou/sources/inbox/2026-10-07-stage-three-handoff.md",
+        "state": "preserve-uncommitted",
+        "sha256": "32ec908038656e38d277814d7600143bb97c7c394099360eea1ba9368f538836"
+      }
+    ],
+    "user_conflict_edit": "AUD-021 title change preserved in working tree; index receives only task version banner",
+    "cleanup": [
+      {
+        "path": "yanzhou/governance/file-index.md",
+        "action": "replace-stale-enumeration-with-role-navigation",
+        "old_blob": "3c3327f9ed264f83eb34cbbe5ab0f57b036ae26f",
+        "evidence_commit": "cb8c8b2376cfe217e6d65a128d0fbf9909f83edb",
+        "unique_source_deletion": false
+      },
+      {
+        "path": "yanzhou/governance/conflict-register.md",
+        "action": "retain-old-body-add-version-boundary",
+        "old_blob": "dc3b80135a4e2e72ee1c86f3bd46e068f65ccf2f",
+        "user_worktree_preserved": true
+      },
+      {
+        "path_group": "current design and navigation",
+        "action": "correct-authorized-existing-decisions-only",
+        "basis": [
+          "CORE-051",
+          "CORE-052",
+          "CORE-053",
+          "CORE-054",
+          "DOC-012",
+          "DOC-013",
+          "DOC-014",
+          "DOC-015",
+          "DOC-016"
+        ],
+        "new_gameplay_adoption": false
+      }
+    ],
+    "findings": {
+      "documentation_resolved": [
+        "AUD-031",
+        "AUD-032",
+        "AUD-033"
+      ],
+      "open_design": [
+        "AUD-034",
+        "AUD-035",
+        "AUD-036",
+        "AUD-037",
+        "AUD-038",
+        "AUD-039",
+        "AUD-040"
+      ],
+      "question_batch": "FW-Q1—6 in existing questions; recommendations unadopted"
+    },
+    "evidence": "Derived / Sourced / Assumed / Unknown; gameplay Hypothesis / NotRun",
+    "task_files": [
+      "yanzhou/README.md",
+      "yanzhou/CONTEXT.md",
+      "yanzhou/design/baseline.md",
+      "yanzhou/design/GDD.md",
+      "yanzhou/design/README.md",
+      "yanzhou/design/systems/action-card-system/rules.md",
+      "yanzhou/design/systems/inscription-system/rules.md",
+      "yanzhou/design/parameters.md",
+      "yanzhou/design/validation.md",
+      "yanzhou/design/content/cards.md",
+      "yanzhou/design/content/enemies-encounters.md",
+      "yanzhou/governance/rule-index.md",
+      "yanzhou/governance/document-contract.md",
+      "yanzhou/governance/decision-log.md",
+      "yanzhou/governance/questions.md",
+      "yanzhou/design/source-review.md",
+      "yanzhou/governance/README.md",
+      "yanzhou/effects/readiness-review.md",
+      "yanzhou/governance/conflict-register.md",
+      "yanzhou/governance/file-index.md",
+      "yanzhou/governance/id-registry.md",
+      "yanzhou/sources/README.md",
+      "yanzhou/governance/cleanup-report.md",
+      "yanzhou/governance/main-system-review-2026-10-08.md",
+      "yanzhou/governance/cleanup-map.json"
+    ],
+    "verification": {
+      "checked_markdown_files": 83,
+      "local_links": 1141,
+      "anchors_checked": 164,
+      "added_local_links": 62,
+      "link_findings": [],
+      "added_link_errors": [],
+      "fixed_git_objects": 32,
+      "current_tl_ids": 44,
+      "validation_not_run": 75,
+      "fx_ids": 137,
+      "five_file_directories": 11,
+      "gdd_package_files": 53,
+      "design_files_full_read": 69,
+      "preexisting_paths_preserved": 20,
+      "tests": "static documentation only; gameplay NotRun"
+    }
   }
 }

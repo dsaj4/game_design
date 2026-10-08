@@ -86,3 +86,11 @@ G002-DOC-012：规则、体验、设计分文件。G002-DOC-013：六个主系�
 ## 2026-10-08 行动卡框架与示例文件
 
 G002-DOC-014：系统统一五文件、示例独立存储及模板／阅读合同同步，Accepted / Documentation。MAT-2026-10-08-action-card-framework：行动与标记的局部 Qualified 框架，含主材料已有 Q-MARK 确认及本轮 ACT-Q1／2；不是全系统 CurrentSpec 新采纳。未新增 CORE、TL、FX 或发行实体，44 个既有 TL 身份保留；新示例不是验收执行结果。
+
+## 2026-10-08重建与主系统复核增量
+
+补齐文档索引：G002-DOC-015为法器框架整理，G002-DOC-016为敌人框架整理，均已在decision-log登记，Accepted / Documentation。
+
+G002-DOC-017：主系统重建后一致性审查、旧进度／Unknown订正及重复文件清单退役。AUD-031—033为文档问题，Resolved / Documentation；AUD-034—040为接口与设计风险，Open，证据Derived／Assumed／Unknown。详见[审查](main-system-review-2026-10-08.md)。FW-Q1—6只是questions中的本批澄清编号，依附既有TL／INS主题，不另建玩法问题状态系统。
+
+现行44个TL规则、75项NotRun预期和137个FX身份保持；不新增CORE、TL、正式卡牌或实验结果。阶段1—4完成沿用户前提，Qualified框架未整包晋为Accepted。
