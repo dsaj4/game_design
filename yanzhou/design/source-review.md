@@ -110,3 +110,11 @@ Include as QualifiedFramework：[局部素材](../sources/materials/M-2026-10-08
 Inherited：TL-03—07／38／45 保留 Accepted；供料情境移入独立示例。Include as Qualified interface：既有 [辅槽素材](../sources/materials/M-2026-10-08-augment-framework.md)与 [行动／标记素材](../sources/materials/M-2026-10-08-action-card-framework.md)中的生成时间、行动量值、标记协同、足额支付、实际状态与未来预告边界，权威正文仍留相邻系统。Experience：原目标展开为假设与观察方式，全部 NotRun。
 
 Omit：Raw 具体法器／辅槽、减料／虚拟材料、单批多产、压缩预留、开工或完工绕队列收益，以及未确认数字。Park / Unknown：D 的读取及叠加、标记不足分支与退款、同拍消费／兑现顺序、契合形式、多牌内部关系、维护及战终未完成批次材料归属。没有新增玩法资格、P／E／D、CORE 采纳、发行实体或实验结果；框架整理记 DOC-015。
+
+## enemy-framework.1：敌人系统整理（2026-10-08）
+
+固定输入 `a23c75d74187f45f04b50376658be0274049f3f8`。CUSTOM 限敌人五文件、内容合同、必要相邻接口及登记来源；五份未提交输入仅检索和局部选读。实际覆盖、blob、原件哈希与差异见 [敌人来源记录](../sources/inbox/2026-10-08-enemy-framework-review.md)。没有全读 GDD 包、历史或其他探索。
+
+Inherited / Accepted：TL-16、CORE-054 的敌程序、首版内容限制及信息合同。内容页的通用字段与约束归 rules，压力定位、取舍和秘仪炼金方向归 design，行为假设和观察方式归 experience，六组已采纳规则说明归 examples；具体敌人程序表与数值留内容目录，仍为候选 / Illustrative。行动结算、返工和可达性只引用相邻权威。
+
+Include as Qualified interface：既有行动／标记素材中的敌我宿主、正负归属、实有层数与未来预告边界。Omit：Raw 改 Δ、提前取消暗牌、新事件链、由辅槽扩展取消类别、敌方施法成本及 10—15 张敌牌计划。Unknown：真实内容配套、复杂同拍、附属物、其他类子类、定时效果绑定失效和表现布局。未新增 M／P／E／D、CORE 采纳、发行实体或运行证据；文档组织记 DOC-016，体验仍 NotRun。

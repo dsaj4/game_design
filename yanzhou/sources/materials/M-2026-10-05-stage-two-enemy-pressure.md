@@ -80,3 +80,4 @@
 | 日期 | 正式过程 | 版本／章节 | 处理 |
 | --- | --- | --- | --- |
 | 2026-10-05 | [E](../evaluations/E-2026-10-05-stage-two-enemy-pressure.md)／[D](../draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)→GDD | enemy.1；敌情、目标、终局、卡面种类与内容合同 | Included，仅阶二Q01–24；CORE-054 |
+| 2026-10-08 | [敌人框架整理](../../design/systems/enemy-system/README.md) | enemy-framework.1；通用约束、设计方向、体验假设与说明性示例 | 继承原状态，无新采纳；[范围与固定输入](../inbox/2026-10-08-enemy-framework-review.md) |

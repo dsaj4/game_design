@@ -59,3 +59,4 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 - [法器生产简化与两批确认](2026-10-05-single-processing-time.md)：CORE-051／052已局部晋级并采纳；保留各轮原话、推荐与答复范围。
 - [阶段一收束工作包](2026-10-05-stage-one-closure.md)：Q12–14已Qualified并按CORE-053采纳；共同规则、预算、八组情境文档复核与交接完成，阶段一文档完成；示例值未采纳，NotRun。
 - [阶段二敌人压力工作包](2026-10-05-stage-two-enemy-pressure.md)：阶二Q01–24全部确认，已Qualified并经CORE-054采纳，阶段二首批文档完成；「字身」等未采纳方案Parked；三名敌人仍为候选，数值Illustrative，意象出处未核实，NotRun。
+- [敌人系统框架来源审查](2026-10-08-enemy-framework-review.md)：既有规则、内容约束与表现方向归位；标记引用 Qualified，Raw 扩展未纳入；没有新增玩法采纳或实验。

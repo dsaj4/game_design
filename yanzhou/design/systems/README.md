@@ -1,6 +1,6 @@
 # 系统目录
 
-Project ID：game-002。文档角色：Navigation。修订：2026-10-08 / system-docs.2；法器内容索引增量 artifact-framework.1。依据 G002-DOC-013／014／015。
+Project ID：game-002。文档角色：Navigation。修订：2026-10-08 / system-docs.2；法器及敌人内容索引增量 artifact-framework.1 / enemy-framework.1。依据 G002-DOC-013／014／015／016。
 
 ## 六个主系统
 
@@ -23,7 +23,7 @@ systems/
 | [法器系统](artifact-system/README.md) | 法器本体、处理流程、供料编排、容量预留、打断返工与契合接口 | 五文件已整理；既有 TL 为 Accepted，辅槽／标记引用 Qualified，体验 NotRun |
 | [铭文系统](inscription-system/README.md) | 铭文实体、核心装配、兼容与挂接，包含辅槽子系统 | 既有规则；辅槽新增通用框架仍为 Qualified |
 | [行动卡系统](action-card-system/README.md) | 卡牌类别、行动效果、战斗行与共同结算，包含标记子系统 | 既有条款 Accepted；行动／标记新增通用结构 Qualified，体验 NotRun |
-| [敌人系统](enemy-system/README.md) | 敌人程序、遭遇输入、敌方行动与应对窗口 | 既有规则与设计目标分别保留 |
+| [敌人系统](enemy-system/README.md) | 敌人程序、遭遇字段与首版约束、信息与应对窗口 | 五文件已整理；继承 Accepted，标记引用 Qualified，具体敌人仍为候选，体验 NotRun |
 | [资源系统](resource-system/README.md) | 材料、供给、托管、维护、转化与数量合同 | 既有规则与待定内容分别保留 |
 | [局外成长系统](meta-progression-system/README.md) | 预留独立系统入口；范围、机制与持续性均待设计 | 尚未开发；仅占位 |
 
