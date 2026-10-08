@@ -126,3 +126,5 @@ Project ID：game-002。日期：2026-10-08。文档角色：QualifiedMaterial�
 ## 使用记录
 
 2026-10-08：用户要求系统各自建目录，并分离规则、玩家体验与设计内容。本素材已用于 [辅槽专题重写](../../design/systems/inscription-system/augment-system/README.md)，其中规则性内容以 QualifiedFramework 标识，并由 GDD 入口链接；未形成完整 CurrentSpec 采纳或新的 Proposal。原资格与证据状态不变，来源笔记中的其他推荐不随本素材自动纳入。
+
+2026-10-08：用于 [法器框架整理](../../design/systems/artifact-system/README.md)的生产权限、标记协同及支付接口引用，保持 Qualified 身份；未裁定 D 读取／叠加、失败回退或标记退款。实际阅读和 Raw 排除范围见 [法器来源记录](../inbox/2026-10-08-artifact-framework-review.md)。

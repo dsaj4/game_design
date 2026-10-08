@@ -1,10 +1,16 @@
 # 法器系统：规则
 
-Project ID：game-002。文档角色：CurrentSpec。基准：GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1。2026-10-05。本文已采纳条款与Unknown分开；体验Hypothesis / NotRun。生产简化来源：[CORE-051](../../../sources/draft-changes/D-2026-10-05-single-processing-time.md)；接口细化：[CORE-052](../../../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)。时序细化：[CORE-053](../../../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)。 文档拆分：2026-10-08 / system-docs.1；原条款采纳状态不变。
+Project ID：game-002。文档角色：CurrentSpec（继承 TL）＋ QualifiedFramework（文末相邻接口引用）。基准：GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1。修订：2026-10-08 / artifact-framework.1。已采纳条款、Qualified 接口与 Unknown 分开；体验 Hypothesis / NotRun。生产简化来源：[CORE-051](../../../sources/draft-changes/D-2026-10-05-single-processing-time.md)；接口细化：[CORE-052](../../../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)；时序细化：[CORE-053](../../../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)。原条款采纳状态不变。
 
 [系统入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md)
 
 本页维护已采纳条款、信息义务与失败结果；说明性情境独立放在 [示例](examples.md)。条款中保留的 Unknown 只标明尚未授予的权限或待补参数，不构成候选方案；设计问题与体验判断分别见同目录文件。
+
+## 规则入口与配置输入
+
+本页 TL-03—07／38 沿 SYS-002，TL-45 保留原 SYS-001 身份。法器接收 [铭文 TL-02／26／28／39—41](../inscription-system/rules.md)定义的合法配置；法器具体字段仍由 [内容合同](../../content/wands.md)维护，不另建配方或参数表。
+
+开工、处理中承诺与完工由下列 TL 规定；完工后的目标资格、空放、效果支付与终局引用 [行动 TL-08／11—13／29／30](../action-card-system/rules.md)。材料可用、维护和取整引用 [资源 TL-14／15／37／43](../resource-system/rules.md)。这些入口不将行动目标检查提前为制造条件，也不将辅槽标记消费自动归入制造材料退款。
 
 ## TL-03 一批生产的可见状态
 
@@ -33,7 +39,7 @@ Project ID：game-002。文档角色：CurrentSpec。基准：GDD 2.1 / TL-1 + I
 
 战中可免费调整合法的材料输入路由及已声明的未来输出设置，但只作用于尚未承诺的未来批次。已托管材料、处理中批次的容量预留、已入行牌及其目标预设保持本批承诺。免费改线不转移已付成本，也不改变铭刻配置、行动卡种类或效果预设。行动卡仍进入普通战斗行；不开放法器直接交付资源卡。
 
-路由允许临时改变未来批次的供料去向和优先级。攻击端、防御端、运转端分别描述造成攻势、获得防护、积累资源的功能，不规定恰好三个物理端口或互斥卡类。面对已揭示攻击，玩家可暂缓下一轮运转端开工，把尚未承诺且配方兼容的材料优先分给防御端，换取护甲并承担资源积累延后；也可维持原计划或优先攻击。具体运转行动与高阶材料来源仍须按INS-1另定，不恢复法器直接交付资源卡。
+路由允许临时改变未来批次的供料去向和优先级。攻击端、防御端、运转端分别描述造成攻势、获得防护、积累资源的功能，不规定恰好三个物理端口或互斥卡类。具体运转行动与高阶材料来源仍须按INS-1另定，不恢复法器直接交付资源卡。供料取舍情境见 [示例](examples.md#供料取舍与临时方案)。
 
 面对指定法器打断，先仅通过供料调整未来批次的开工时间，以避开危险处理时段；仍受完整配方、容量预留与实际顺延约束，不保证任意指定时刻开工。已取消S与休歇，不再用独立起点或冷却调时。正在处理的批次不能借改线暂停、改速、撤回材料或挪走预留，已入行牌不重排。
 
@@ -61,3 +67,17 @@ INS-1的统一行动输出来源见[CORE-049](../../../sources/draft-changes/D-2
 ## TL-45 法器与核心铭文的契合增幅
 
 法器对若干核心铭文提供特别增幅，契合关系与法器内涵相关。契合增幅与资源产物已有增幅不是同一生命周期。具体形式见 [设计页](design.md#契合增幅的内容方向)，本页不从这一接口推定倍率或额外事件。
+
+## 辅槽与标记接口（Qualified 引用）
+
+本节只定位已确认的相邻框架，依据 [辅槽素材](../../../sources/materials/M-2026-10-08-augment-framework.md)和 [行动／标记素材](../../../sources/materials/M-2026-10-08-action-card-framework.md)。其状态仍为 Qualified，完整正文各自唯一维护；本轮未新增法器权限或完成全系统采纳。
+
+| 法器处理到的接口 | 权威位置 | 在本系统的适用边界 |
+| --- | --- | --- |
+| 生成时间与行动量值修饰 | [辅槽修改权限](../inscription-system/augment-system/rules.md#2-修改权限) | AUG-Q3 只开放生成时间这一生产效率方向；制造材料消耗、每批张数不由辅槽修改。D 沿 TL-03 合法域，读取与叠加保持 Unknown |
+| 跨法器组合 | [辅槽标记协同](../inscription-system/augment-system/rules.md#3-跨法器只通过标记协同) | AUG-Q2 以标记连接配置，不让本法器的辅槽加成直接传给另一台 |
+| 开工侧条件及支付 | [辅槽支付原则](../inscription-system/augment-system/rules.md#4-检查成功才支付) | AUG-Q4 要求完整检查成功才足额支付；缺材料、可用容量或必要标记时不提前扣标记。失败分支及标记退款未定 |
+| 实有层数与未来效果 | [标记读取与支付](../action-card-system/mark-system/rules.md#读取与支付)、[定时登记](../action-card-system/mark-system/rules.md#定时登记与兑现) | 标记不附着于法器；按声明读取／支付宿主实有层数。生产完成不等于标记生成，未来预告不是余额 |
+| 多来源修饰与数量 | [资源 TL-37](../resource-system/rules.md#tl-37-参数来源与有限事件的共同合同)（Accepted） | 普通行动量值公式不自动套给 D；契合、辅槽与标记不得靠名称暗设乘区或额外事件 |
+
+同拍多个消费者的标记争用、定时效果相对开工的位置以及契合叠加未闭合；不能直接套用材料供料顺序补成标记总序。边界见 [设计页](design.md#未知与依赖)，说明性情境见 [标记接口示例](examples.md#标记支付与尚未到账的预告)。

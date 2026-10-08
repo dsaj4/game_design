@@ -102,3 +102,11 @@ Include：固定循环时间表与翻开表公开、四类卡面种类与地域�
 Include as QualifiedFramework：[局部素材](../sources/materials/M-2026-10-08-action-card-framework.md)中的标记宿主／极性／叠层／上限方向、禁止转移、周期停止、简单条件、独立定时效果和行动读取支付。Inherited：既有生产、队列、目标、护甲、支付与终局 TL 规则。Omit：Raw 卡池、推荐数值、减料增产的辅槽例、未确认事件链和支付优先级。Unknown：同拍总序、复合步骤、期限叠加、上限／溢出、绑定失效与退款。
 
 新增通用内容未成为完整 CurrentSpec；既有条款不因排版迁移重新采纳。示例独立保存并标为说明性推导，不当作实体、默认数值或玩家观察。阶段完成前提不变，本轮没有执行玩法实验或导入外部实现。
+
+## artifact-framework.1：法器系统整理（2026-10-08）
+
+固定输入 `71e7a0a18709e19e85ea171feb10b2ba2b432097`。本轮 CUSTOM 只整理法器五文件及必要接口；已提交来源 blob、局部原输入哈希、实际覆盖和逐类处置见 [法器来源记录](../sources/inbox/2026-10-08-artifact-framework-review.md)。未全读 inbox、GDD 包、其他方向或历史正文。
+
+Inherited：TL-03—07／38／45 保留 Accepted；供料情境移入独立示例。Include as Qualified interface：既有 [辅槽素材](../sources/materials/M-2026-10-08-augment-framework.md)与 [行动／标记素材](../sources/materials/M-2026-10-08-action-card-framework.md)中的生成时间、行动量值、标记协同、足额支付、实际状态与未来预告边界，权威正文仍留相邻系统。Experience：原目标展开为假设与观察方式，全部 NotRun。
+
+Omit：Raw 具体法器／辅槽、减料／虚拟材料、单批多产、压缩预留、开工或完工绕队列收益，以及未确认数字。Park / Unknown：D 的读取及叠加、标记不足分支与退款、同拍消费／兑现顺序、契合形式、多牌内部关系、维护及战终未完成批次材料归属。没有新增玩法资格、P／E／D、CORE 采纳、发行实体或实验结果；框架整理记 DOC-015。

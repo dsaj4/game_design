@@ -71,3 +71,5 @@ Project ID：game-002。文档角色：QualifiedMaterial。日期：2026-10-08�
 ## 使用记录
 
 2026-10-08：用于行动卡及标记的首版通用框架。新增规则性内容为 Qualified／用户已确认，继承的 TL 条款仍为 Accepted；体验均 NotRun。说明性示例独立进入 examples.md，不成为数值、卡牌或新规则来源。
+
+2026-10-08：用于 [法器框架整理](../../design/systems/artifact-system/README.md)的行动兑现、实有标记与未来预告接口引用；状态仍 Qualified，未补定时效果相对开工或多消费者顺序。覆盖见 [法器来源记录](../inbox/2026-10-08-artifact-framework-review.md)。
