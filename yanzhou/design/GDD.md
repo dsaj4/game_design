@@ -5,15 +5,15 @@
 | 字段 | 内容 |
 | --- | --- |
 | 文档ID／项目 | GDD-G002-FULL-001 / game-002 |
-| 版本／更新 | 2.1 / TL-1 + INS-1，局部修订routing.1 + processing.2 + timing.1 + enemy.1 + commitment.1；规则基准2026-10-08 |
+| 版本／更新 | 2.1 / TL-1 + INS-1，局部修订routing.1 + processing.2 + timing.1 + enemy.1 + commitment.1 + time-formula.1；规则基准2026-10-08 |
 | 成熟度 | **GDD-0：概念与核心结构版**；不宣称原型或完整制作规格就绪 |
-| 设计状态 | 既有核心结构及CORE-055限定接口Accepted；辅槽、行动／标记其余新增通用框架Qualified；具体新卡表与未决边界独立Proposed / Unknown |
+| 设计状态 | 既有核心结构及CORE-055／056限定接口Accepted；辅槽、行动／标记其余新增通用框架Qualified；具体新卡表与未决边界独立Proposed / Unknown |
 | 证据状态 | Hypothesis / NotRun |
 | 负责人／评审 | 用户为设计负责人；Codex整理；规则、内容、体验分别评审 |
 | 目标里程碑 | 统一新核心，完成卡表与边界后再升GDD-1 |
-| 合格来源 | [批次冻结与消费锁定M](../sources/materials/M-2026-10-08-batch-freeze-consumption-lock.md)；[敌情合同M](../sources/materials/M-2026-10-05-stage-two-enemy-pressure.md)；[共同拍序M](../sources/materials/M-2026-10-05-stage-one-common-timing.md)； [生产与队列接口M](../sources/materials/M-2026-10-05-production-queue-interfaces.md)；[单一处理耗时M](../sources/materials/M-2026-10-05-single-processing-time.md)；[路由澄清素材](../sources/materials/M-2026-10-04-routing-response-clarification.md)；[铭刻素材](../sources/materials/M-2026-10-04-artifact-inscription-core.md)；[核心素材](../sources/materials/M-2026-10-01-timeline-production-core.md) |
-| 提案／评估 | [批次冻结与消费锁定E](../sources/evaluations/E-2026-10-08-batch-freeze-consumption-lock.md)；[敌情合同E](../sources/evaluations/E-2026-10-05-stage-two-enemy-pressure.md)；[共同拍序E](../sources/evaluations/E-2026-10-05-stage-one-common-timing.md)； [生产与队列接口E](../sources/evaluations/E-2026-10-05-production-queue-interfaces.md)；[单一处理耗时E](../sources/evaluations/E-2026-10-05-single-processing-time.md)；[路由澄清E](../sources/evaluations/E-2026-10-04-routing-response-clarification.md)；[铭刻P](../sources/proposals/P-2026-10-04-artifact-inscription-core.md)／[铭刻E](../sources/evaluations/E-2026-10-04-artifact-inscription-core.md)；[P](../sources/proposals/P-2026-10-01-timeline-production-system.md)／[E](../sources/evaluations/E-2026-10-01-timeline-production-system.md) |
-| 采纳 | [批次冻结与消费锁定D](../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)；[CORE-054敌情合同与卡面种类](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)；[CORE-053共同拍序](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)； [CORE-052生产与队列接口](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)；[CORE-051单一处理与预留](../sources/draft-changes/D-2026-10-05-single-processing-time.md)；[CORE-050路由澄清](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)；[CORE-049铭刻](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)；[CORE-037–047](../sources/draft-changes/D-2026-10-01-timeline-production-core.md)与[CORE-048兼容复用](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md) |
+| 合格来源 | [处理耗时公式M](../sources/materials/M-2026-10-08-processing-time-formula.md)；[批次冻结与消费锁定M](../sources/materials/M-2026-10-08-batch-freeze-consumption-lock.md)；[敌情合同M](../sources/materials/M-2026-10-05-stage-two-enemy-pressure.md)；[共同拍序M](../sources/materials/M-2026-10-05-stage-one-common-timing.md)； [生产与队列接口M](../sources/materials/M-2026-10-05-production-queue-interfaces.md)；[单一处理耗时M](../sources/materials/M-2026-10-05-single-processing-time.md)；[路由澄清素材](../sources/materials/M-2026-10-04-routing-response-clarification.md)；[铭刻素材](../sources/materials/M-2026-10-04-artifact-inscription-core.md)；[核心素材](../sources/materials/M-2026-10-01-timeline-production-core.md) |
+| 提案／评估 | [处理耗时公式E](../sources/evaluations/E-2026-10-08-processing-time-formula.md)；[批次冻结与消费锁定E](../sources/evaluations/E-2026-10-08-batch-freeze-consumption-lock.md)；[敌情合同E](../sources/evaluations/E-2026-10-05-stage-two-enemy-pressure.md)；[共同拍序E](../sources/evaluations/E-2026-10-05-stage-one-common-timing.md)； [生产与队列接口E](../sources/evaluations/E-2026-10-05-production-queue-interfaces.md)；[单一处理耗时E](../sources/evaluations/E-2026-10-05-single-processing-time.md)；[路由澄清E](../sources/evaluations/E-2026-10-04-routing-response-clarification.md)；[铭刻P](../sources/proposals/P-2026-10-04-artifact-inscription-core.md)／[铭刻E](../sources/evaluations/E-2026-10-04-artifact-inscription-core.md)；[P](../sources/proposals/P-2026-10-01-timeline-production-system.md)／[E](../sources/evaluations/E-2026-10-01-timeline-production-system.md) |
+| 采纳 | [处理耗时公式D](../sources/draft-changes/D-2026-10-08-processing-time-formula.md)；[批次冻结与消费锁定D](../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)；[CORE-054敌情合同与卡面种类](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)；[CORE-053共同拍序](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)； [CORE-052生产与队列接口](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)；[CORE-051单一处理与预留](../sources/draft-changes/D-2026-10-05-single-processing-time.md)；[CORE-050路由澄清](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)；[CORE-049铭刻](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)；[CORE-037–047](../sources/draft-changes/D-2026-10-01-timeline-production-core.md)与[CORE-048兼容复用](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md) |
 | 内容与展示缺口 | 旧探索卡表与UI候选已退役；阶段1—4设计完成沿用户前提，已提交框架的剩余接口与正式内容登记仍待核对；历史链接不成为规则 |
 | 验证／开发 | [验收计划](validation.md)／[实现索引](../development/README.md)，没有新版执行证据 |
 
@@ -150,7 +150,7 @@ INS-1按用户明确回写授权采纳TL-38–45，替代TL-20材料—动作—
 
 ## 16. 风险、未知与决策
 
-风险：频繁微操、队列阻塞无法解释、大批次长期等位、材料循环无代价、维护吞掉全部供给、单一高阶路线支配。设计负责人在GDD-1前完成卡表和总时序；真实体验在独立授权验证后判断。CORE-037–055及进一步局部决定见[决策记录](../governance/decision-log.md)。
+风险：频繁微操、队列阻塞无法解释、大批次长期等位、材料循环无代价、维护吞掉全部供给、单一高阶路线支配。设计负责人在GDD-1前完成卡表和总时序；真实体验在独立授权验证后判断。CORE-037–056及进一步局部决定见[决策记录](../governance/decision-log.md)。
 
 ## 17. 附录
 

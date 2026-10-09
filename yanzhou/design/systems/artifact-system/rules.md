@@ -1,6 +1,6 @@
 # 法器系统：规则
 
-Project ID：game-002。文档角色：CurrentSpec（继承 TL）＋ QualifiedFramework（文末相邻接口引用）。基准：GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1 + commitment.1。修订：2026-10-08 / artifact-framework.1。已采纳条款、Qualified 接口与 Unknown 分开；体验 Hypothesis / NotRun。生产简化来源：[CORE-051](../../../sources/draft-changes/D-2026-10-05-single-processing-time.md)；接口细化：[CORE-052](../../../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)；时序细化：[CORE-053](../../../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)。原条款采纳状态不变。
+Project ID：game-002。文档角色：CurrentSpec（继承 TL）＋ QualifiedFramework（文末相邻接口引用）。基准：GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1 + commitment.1 + time-formula.1。修订：2026-10-08 / artifact-framework.1。已采纳条款、Qualified 接口与 Unknown 分开；体验 Hypothesis / NotRun。生产简化来源：[CORE-051](../../../sources/draft-changes/D-2026-10-05-single-processing-time.md)；接口细化：[CORE-052](../../../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)；时序细化：[CORE-053](../../../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)。原条款采纳状态不变。
 
 [系统入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md)
 
@@ -23,7 +23,29 @@ Project ID：game-002。文档角色：CurrentSpec（继承 TL）＋ QualifiedFr
 
 唯一处理耗时D取正整数拍，D≥1。交付耗时J、休歇R、独立生产周期／冷却和首次起点S退出当前参数；不能以动画或另一名称补回完工后等待。“无冷却”不允许零时间完成下一批，处理仍须经历D。资源补给与维护周期不属于被取消的法器周期。a拍开工的幸存批次在a+D拍完成并立即入行；开工当拍不再额外推进一拍。第0拍初始库存可用，先揭示敌牌与观察提交，再首次检查开工；这不是可调首次起点S。
 
-**CORE-055 / commitment.1：**完整开工检查通过时确定并冻结本批D，处理中不因共享标记的增减或其他消费重算。a+D完工与剩余R使用该批已经确定的D；后续批次重新检查当时条件。时间修饰合成、舍入及下限处理仍待补齐，不由此默认一种公式。来源：[采纳变更](../../../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)。
+**CORE-055 / commitment.1：**完整开工检查通过时确定并冻结本批D，处理中不因共享标记的增减或其他消费重算。a+D完工与剩余R使用该批已经确定的D；后续批次重新检查当时条件。时间修饰合成、舍入及下限处理已由下节CORE-056补齐。来源：[采纳变更](../../../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)。
+
+### 时间修饰公式（CORE-056）
+
+来源：[time-formula.1采纳变更](../../../sources/draft-changes/D-2026-10-08-processing-time-formula.md)。固定增减先合并，再将每个有效倍率逐项连乘；只在最后取整。
+
+```text
+A = max(0, D0 + ΣΔ)
+M = ∏m（无倍率时为1）
+D = max(1, ceil(A × M))
+```
+
+- D0：内容声明的基础正整数拍数。Δ：合法时间效果的有符号整数拍修正，缩短为负、延长为正；先求和，再把小于0的和按0处理。
+- m：每个合法生效效果贡献的非负有限倍率。耗时减少p%对应1−p、增加p%对应1+p；除以k对应乘1/k，k必须大于0。负倍率、除零或非有限值属于非法内容，不静默改成合法效果。“速度提高”不直接当作同数值的“耗时减少”，内容须明确转换并写出耗时倍率。
+- 不同有效倍率连乘，不将百分比相加；契合、辅槽、标记只区分来源，不因来源类型再额外乘一次。每项实际效果只登记自己的贡献一次。
+- 同类效果先按明确的层数含义、覆盖或并存规则形成贡献，再参与计算；n层标记不自动解释成m的n次方。若层数表示持续时间，不据此提高倍率强度；若层数修改强度，由内容给出该层数到Δ或m的映射。缺少声明的内容保持未完成，不由公式猜默认。
+- 中间不取整；最后向上取整，再保底1拍，没有默认额外D上限。取整前的值不是可运行的小数拍，不能新增半拍完成或即时生产。
+
+所有条件与数值贡献读取同一开工检查快照；不能按修饰遍历顺序读取前一项的中间计算值。其他批次冻结量不得读取，本批应付量在本次完整检查成功后与D一起承诺，不因随后的本批冻结而回头重算D。公式确定的是已有合法效果集合的数值，不裁定同拍谁先获得标记。完整检查后D沿CORE-055冻结，处理中不再重算。
+
+**取整与费用分开：**启用且条件成立的付费效果，即使最终D因取整或最低1拍没有进一步缩短，仍按声明足额冻结标记、完工扣除；不自动免单、退款或挑选最省标记的子集。预警须显示最终D与费用，并提示取整／下限导致的无进一步缩短。必付标记不足仍等待；仅明示可选且允许基础回退的效果可不增强继续。玩家可沿CORE-055主动锁定未承诺数量，不能由本条绕过必要费用。
+
+时间公式只管加工D，不改普通行动量值的向下取整、敌牌Δ、维护周期、费用或标记生命周期。具体效果强度与收益仍须内容设计；数值唯一不证明成长和平衡有效。
 
 ## TL-04 实际节拍顺延
 
@@ -80,10 +102,10 @@ INS-1的统一行动输出来源见[CORE-049](../../../sources/draft-changes/D-2
 
 | 法器处理到的接口 | 权威位置 | 在本系统的适用边界 |
 | --- | --- | --- |
-| 生成时间与行动量值修饰 | [辅槽修改权限](../inscription-system/augment-system/rules.md#2-修改权限) | AUG-Q3 只开放生成时间这一生产效率方向；制造材料消耗、每批张数不由辅槽修改。D沿TL-03开工定值并冻结；合成／舍入保持Unknown |
+| 生成时间与行动量值修饰 | [辅槽修改权限](../inscription-system/augment-system/rules.md#2-修改权限) | AUG-Q3 只开放生成时间这一生产效率方向；制造材料消耗、每批张数不由辅槽修改。D沿TL-03开工定值并冻结；合成／舍入沿CORE-056时间公式，具体效果数值仍待内容 |
 | 跨法器组合 | [辅槽标记协同](../inscription-system/augment-system/rules.md#3-跨法器只通过标记协同) | AUG-Q2 以标记连接配置，不让本法器的辅槽加成直接传给另一台 |
 | 开工侧条件及支付 | [辅槽支付原则](../inscription-system/augment-system/rules.md#4-检查成功才支付) | AUG-Q4完整检查底线保留；CORE-055改开工侧为足额冻结、完工扣除，打断释放下拍可用；必需不足等待，明确可选才回退 |
 | 实有层数与未来效果 | [标记读取与支付](../action-card-system/mark-system/rules.md#读取与支付)、[定时登记](../action-card-system/mark-system/rules.md#定时登记与兑现) | 标记不附着于法器；按声明读取／支付宿主实有层数。生产完成不等于标记生成，未来预告不是余额 |
 | 多来源修饰与数量 | [资源 TL-37](../resource-system/rules.md#tl-37-参数来源与有限事件的共同合同)（Accepted） | 普通行动量值公式不自动套给 D；契合、辅槽与标记不得靠名称暗设乘区或额外事件 |
 
-同拍多个消费者的标记争用、定时效果相对开工的位置以及契合叠加未闭合；不能直接套用材料供料顺序补成标记总序。边界见 [设计页](design.md#未知与依赖)，说明性情境见 [标记接口示例](examples.md#标记支付与尚未到账的预告)。
+同拍多个消费者的标记争用、定时效果相对开工的位置、契合实际效果及同类覆盖／并存仍未闭合；已声明的时间数值贡献统一沿CORE-056计算。不能直接套用材料供料顺序补成标记总序。边界见 [设计页](design.md#未知与依赖)，说明性情境见 [标记接口示例](examples.md#标记支付与尚未到账的预告)。

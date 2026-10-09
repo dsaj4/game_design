@@ -98,3 +98,7 @@ G002-DOC-017：主系统重建后一致性审查、旧进度／Unknown订正及�
 ## 2026-10-08批次承诺与消费锁定
 
 G002-CORE-055 / commitment.1：Accepted / Hypothesis / NotRun；MAT／E／D-G002-FZ-20261008为本轮正式来源身份。FZ-Q1—5是FW-Q1／2局部确认编号，不另建全局问题体系。新增TL-V69—76，共8项NotRun预期；当前TL-V01—76去除02／20共74项，加INS-V01—09共83项。既有44个TL和137个FX身份不变，无新发行实体。核心v0.13／CORE-SUM-8，GDD 2.1／GDD-0。旧增量计数保留各自日期语境。
+
+## 2026-10-08处理耗时公式
+
+G002-CORE-056 / time-formula.1，Accepted / Hypothesis / NotRun。MAT／E／D-G002-TMF-20261008为本轮来源身份；新增TL-V77—82，当前TL预期80项（01—82去除02／20），加INS-V01—09共89项NotRun。44个TL、137个FX身份保持，无新发行实体；核心v0.14／CORE-SUM-9，GDD仍2.1／GDD-0。历史各批计数不改写。

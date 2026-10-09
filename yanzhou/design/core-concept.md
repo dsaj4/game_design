@@ -1,6 +1,6 @@
 # 《言咒》核心构思入口
 
-Project ID：game-002。文档角色：Navigation。Core Concept v0.13；基准GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1 + commitment.1；2026-10-08。
+Project ID：game-002。文档角色：Navigation。Core Concept v0.14；基准GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1 + commitment.1 + time-formula.1；2026-10-08。
 
 玩家战前在法器上补齐名词／动词暗句的核心铭文，选择辅槽修饰与基础供料；战中开工预留有限容量，仅经历处理耗时、完成即入行，经普通队列兑现，面对揭示后的倒计时威胁作有限调整。
 
@@ -15,3 +15,5 @@ Project ID：game-002。文档角色：Navigation。Core Concept v0.13；基准G
 [CORE-054](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)确定敌程序固定时间表与翻开表公开、打断锁定剩余最长施法、单一来源敌人死亡即胜、敌我共用四类卡面种类；首批敌人仍为候选。
 
 当前局部采纳：[CORE-055 / commitment.1](../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)，开工冻结D与应付标记、完工扣除、打断释放下拍可用；消费前预警和玩家指定数量锁定。其他Qualified框架不整包升级，完整总序与生命周期仍待补齐，NotRun。
+
+[CORE-056 / time-formula.1](../sources/draft-changes/D-2026-10-08-processing-time-formula.md)已补齐D的固定增减、有效倍率连乘、最终向上取整和最低1拍；取整无进一步缩短不自动免除已声明费用。具体内容、总序和生命周期仍待定，GDD-0／NotRun不变。

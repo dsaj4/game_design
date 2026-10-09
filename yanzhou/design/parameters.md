@@ -1,11 +1,11 @@
 # TL-1 + INS-1 参数登记
 
-Project ID：game-002。文档角色：ParameterScope。2026-10-08 / processing.2 + timing.1 + enemy.1 + commitment.1。结构约束Accepted；未定数值Unknown。旧PG数值见[固定RC1表](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md)。
+Project ID：game-002。文档角色：ParameterScope。2026-10-08 / processing.2 + timing.1 + enemy.1 + commitment.1 + time-formula.1。结构约束Accepted；未定数值Unknown。旧PG数值见[固定RC1表](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/parameters.md)。
 
 | 参数 | 单位／约束 | 当前值／状态 |
 | --- | --- | --- |
 | 逻辑拍 | 离散战斗时间 | 实际秒数Unknown；不默认旧0.5秒 |
-| 处理耗时D | 拍／批；正整数，D≥1，不允许0 | 开工确定并冻结本批值，处理中不随标记变化重算；具体值及合成／舍入Unknown；a拍开工、a+D拍完成即入行；CORE-051／053／055 |
+| 处理耗时D | 拍／批；正整数，D≥1，不允许0 | 开工确定并冻结本批值，处理中不随标记变化重算；具体值Unknown；固定增减后有效倍率连乘，最终向上取整保底1拍，CORE-056；a拍开工、a+D拍完成即入行；CORE-051／053／055 |
 | 批次标记占用 | 层／批，完整费用；不部分占用 | 开工冻结、完工扣除；冻结量不供其他支付或条件读取，打断释放最早下拍可用；CORE-055 |
 | 玩家消费锁定 | 自有且未承诺的指定数量资源／标记 | 阻止所有自动消费者使用，至主动解锁；不是全库存或未来新增量自动锁定；CORE-055 |
 | 玩家队列Q | 容量单位；已入行牌数＋有效预留容量＋中断后待下拍复用容量≤Q | 有限，值Unknown；一张行动卡占1；预留只占容量、不预排牌序 |

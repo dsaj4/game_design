@@ -130,3 +130,9 @@ Include as Qualified interface：既有行动／标记素材中的敌我宿主�
 固定输入`830c0b063e62c816fe1abe39c7818787d9c4a089`。本轮沿CUSTOM只读受影响系统、核心／治理与相关来源，未提交阶段原件、历史正文和外部代码不纳入。Include：[本轮M](../sources/materials/M-2026-10-08-batch-freeze-consumption-lock.md)中D冻结与FZ-Q1—5，经E→D以CORE-055局部采纳。旧辅槽／行动M保留历史确认，开工立即扣费表述由本轮限定替代。
 
 Omit：开工立即扣费备选、全库存默认锁定、敌方状态锁定、动态重算D、额外输入窗口与强制逐批确认。Unknown：公式、同拍总序、冻结量上限／失效／战终以及完整定时保存。本轮没有发行内容或实验，其他Qualified结构不整体提升。
+
+## time-formula.1耗时公式与外部参照（2026-10-08）
+
+固定言咒输入`614a6e2dd48cfbb4894bfed8a4669703f0004553`，CUSTOM限定相关时间／支付接口与治理。用户明确指定外部本地目录，实际只读SlayTheSpire2恢复工程的局部数值／Buff逻辑，哈希与覆盖见[参考摘要](../../media-analysis-lab/runs/2026-10-08-sts2-numeric-reference/README.md)。未复制第三方代码或资产，未运行／修改外部工程；这不是言咒实现或正式发行版验证。
+
+Include：[本轮M](../sources/materials/M-2026-10-08-processing-time-formula.md)，经E→D以CORE-056采纳。采用先加后乘及有效倍率连乘；向上取整、最低1拍和无收益费用规则是授权内的本项目适配。Omit：助手中途提出的百分比加算方案、把所有Buff层数当乘方、外部遗物／卡池／上限／时长规则。普通行动量值仍沿自己的合同；内容参数、同拍总序和生命周期不被公式代定。

@@ -93,3 +93,5 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 - [阶段二敌情合同M](M-2026-10-05-stage-two-enemy-pressure.md)：合格素材；CORE-054／enemy.1采纳，范围限阶二Q01–24；首批敌人仍为候选。
 
 - [批次冻结与消费锁定M](M-2026-10-08-batch-freeze-consumption-lock.md)：CORE-055／commitment.1，限D冻结及FZ-Q1—5；Hypothesis / NotRun。
+
+- [处理耗时公式与连乘参考](M-2026-10-08-processing-time-formula.md)：CORE-056／time-formula.1，用户授权直接选定，最终采用有效倍率连乘；向上取整保底1拍，Hypothesis / NotRun。
