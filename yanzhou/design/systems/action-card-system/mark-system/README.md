@@ -2,7 +2,7 @@
 
 Project ID：game-002。文档角色：Navigation。修订：2026-10-08 / mark-framework.1。归属：行动卡子系统。状态：通用结构 Qualified／用户已确认；体验 Hypothesis / NotRun。
 
-2026-10-08局部更新：[CORE-055 / commitment.1](../../../../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)已采纳本批D与开工标记冻结、完工扣除、打断释放及消费锁定相关接口；其余Qualified范围保持原状态，完整生命周期与总序仍未闭合。
+2026-10-08局部更新：[CORE-055 / commitment.1](../../../../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)已采纳本批D与开工标记冻结、完工扣除、打断释放及消费锁定相关接口；其余Qualified范围保持原状态；CORE-057已补通用总序、定时与支付承诺边界，具体上限／刷新／跨战等生命周期内容仍待定。
 
 标记承载行动留下的宿主状态、层数积累与后续兑现。沿阶段 1—4 完成的前提，本轮已整理指定主材料的确认部分和 ACT-Q1／2；不把全部候选标记与详细结算一并采纳。
 

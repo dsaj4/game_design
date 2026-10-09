@@ -63,4 +63,4 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 - [批次冻结与消费锁定答复](2026-10-08-batch-freeze-consumption-lock.md)：用户明确保留开工冻结D、支付标记不被他项消费，以及消费前预警和主动锁定；FZ-Q1—5已按“都按推荐”确认并晋级，CORE-055限定采纳；公式、总序与生命周期剩余接口仍Unknown。
 
 - [处理耗时公式与连乘参考](2026-10-08-processing-time-formula.md)：CORE-056／time-formula.1，用户授权直接选定，最终采用有效倍率连乘；向上取整保底1拍，Hypothesis / NotRun。
-- [同拍结算的本地工程参考](2026-10-08-settlement-order-reference.md)：静态研究完成；阶段、行动内部步骤、状态触发与死亡检查的迁移建议为Raw / Unqualified，FW-Q3未关闭。
+- [同拍结算的本地工程参考](2026-10-08-settlement-order-reference.md)：静态研究及后续选定完成；CORE-057／timing.2限定采纳通用总序与结清边界，FW-Q3闭合；具体内容风险仍NotRun。

@@ -2,7 +2,7 @@
 
 Project ID：game-002。文档角色：QualifiedFramework。修订：2026-10-08 / augment-framework.1。来源：[通用框架素材](../../../../sources/materials/M-2026-10-08-augment-framework.md)及其中 AUG-Q2—5 的用户确认。
 
-2026-10-08局部更新：[CORE-055 / commitment.1](../../../../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)已采纳本批D与开工标记冻结、完工扣除、打断释放及消费锁定相关接口；其余Qualified范围保持原状态，完整生命周期与总序仍未闭合。
+2026-10-08局部更新：[CORE-055 / commitment.1](../../../../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)已采纳本批D与开工标记冻结、完工扣除、打断释放及消费锁定相关接口；其余Qualified范围保持原状态；CORE-057已补通用总序、定时与支付承诺边界，具体上限／刷新／跨战等生命周期内容仍待定。
 
 状态：辅槽新增通用约束为 **Qualified／用户已确认**；引用的既有系统接口保留 **Accepted** 身份。本页不是完整结算规格，不宣称已完成全系统采纳。体验证据为 NotRun，见独立体验页。
 
@@ -50,7 +50,7 @@ Project ID：game-002。文档角色：QualifiedFramework。修订：2026-10-08 
 - 仅把标记作为条件：没有消费声明便不扣除。
 - 若效果声明在行动生效侧支付：按该步骤的条件与费用检查，不能把尚未发生的支付当作已付制造成本。
 
-[CORE-055](../../../../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)已进一步采纳：必需材料／必付标记不足则该批等待，只有明确声明可选增强且允许基础回退的内容才能不增强继续。开工冻结量不供其他支付或条件读取；本批被打断时释放，最早下一拍可用。详细生命周期唯一见[标记冻结](../../action-card-system/mark-system/rules.md#批次标记冻结core-055)。这不裁定其他阶段已付标记的退款、冻结量自然失效、同拍总序或战终归属。CORE-056进一步明确：已启用且条件成立的付费时间修饰，不因最终D被取整或最低1拍抵消就自动免单；预告须提示没有进一步缩短，并显示实际费用。
+[CORE-055](../../../../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)已进一步采纳：必需材料／必付标记不足则该批等待，只有明确声明可选增强且允许基础回退的内容才能不增强继续。开工冻结量不供其他支付或条件读取；本批被打断时释放，最早下一拍可用。详细生命周期唯一见[标记冻结](../../action-card-system/mark-system/rules.md#批次标记冻结core-055)。其他阶段支付、冻结量失效与同拍顺序后由CORE-057统一；战终归属仍待定。CORE-056进一步明确：已启用且条件成立的付费时间修饰，不因最终D被取整或最低1拍抵消就自动免单；预告须提示没有进一步缩短，并显示实际费用。
 
 ## 5. 与生产、队列的关系
 

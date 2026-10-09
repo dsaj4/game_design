@@ -136,3 +136,9 @@ Omit：开工立即扣费备选、全库存默认锁定、敌方状态锁定、�
 固定言咒输入`614a6e2dd48cfbb4894bfed8a4669703f0004553`，CUSTOM限定相关时间／支付接口与治理。用户明确指定外部本地目录，实际只读SlayTheSpire2恢复工程的局部数值／Buff逻辑，哈希与覆盖见[参考摘要](../../media-analysis-lab/runs/2026-10-08-sts2-numeric-reference/README.md)。未复制第三方代码或资产，未运行／修改外部工程；这不是言咒实现或正式发行版验证。
 
 Include：[本轮M](../sources/materials/M-2026-10-08-processing-time-formula.md)，经E→D以CORE-056采纳。采用先加后乘及有效倍率连乘；向上取整、最低1拍和无收益费用规则是授权内的本项目适配。Omit：助手中途提出的百分比加算方案、把所有Buff层数当乘方、外部遗物／卡池／上限／时长规则。普通行动量值仍沿自己的合同；内容参数、同拍总序和生命周期不被公式代定。
+
+## timing.2：同拍结算（2026-10-08）
+
+固定输入`a3fa9101940df567b56d8fe665bcbe6ceb7f1265`，CUSTOM覆盖及用户直接选定授权见[来源](../sources/inbox/2026-10-08-settlement-order-reference.md#本轮直接选定与采纳)。[M](../sources/materials/M-2026-10-08-settlement-order-reference.md)→[E](../sources/evaluations/E-2026-10-08-settlement-order-reference.md)→[CORE-057 D](../sources/draft-changes/D-2026-10-08-settlement-order-reference.md)。未全量重审历史或未提交阶段原件。
+
+Include：通用阶段／同类序、复合分组、有限事件边界、定时期限／绑定、维护恢复、共享支付／承诺失效及恢复合同。Replace：相关现行Unknown。Omit：外部受伤前荆棘与多人选择恢复、不具资格的新反应卡效。Park：上限／刷新／周期预算、托管维护、附属物、批次内部关系、跨战归属与具体参数。其他Qualified框架不整包提升；体验和实现仍NotRun。

@@ -52,3 +52,5 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 - [批次冻结与消费锁定D](D-2026-10-08-batch-freeze-consumption-lock.md)：CORE-055／commitment.1，限D冻结及FZ-Q1—5；Hypothesis / NotRun。
 
 - [处理耗时公式与连乘参考](D-2026-10-08-processing-time-formula.md)：CORE-056／time-formula.1，用户授权直接选定，最终采用有效倍率连乘；向上取整保底1拍，Hypothesis / NotRun。
+
+- [同拍结算D](D-2026-10-08-settlement-order-reference.md)：CORE-057／timing.2，用户授权结合言咒直接选定通用总序、事件边界及相关支付／维护／恢复合同；NotRun。

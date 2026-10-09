@@ -1,6 +1,6 @@
 # 《言咒》核心设计
 
-Project ID：game-002。文档角色：CoreDesignSummary。2026-10-08 / CORE-SUM-9 / Core Concept v0.14。浓缩[GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1 + commitment.1 + time-formula.1](GDD.md)，采纳范围见[CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)、[routing.1／CORE-050](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)、[processing.1／CORE-051](../sources/draft-changes/D-2026-10-05-single-processing-time.md)与[processing.2／CORE-052](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)。共同拍序见[CORE-053](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)，敌情合同见[CORE-054](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)。结构Accepted，当前GDD-0；体验Hypothesis / NotRun。
+Project ID：game-002。文档角色：CoreDesignSummary。2026-10-08 / CORE-SUM-10 / Core Concept v0.15。浓缩[GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.2 + enemy.1 + commitment.1 + time-formula.1](GDD.md)，采纳范围见[CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)、[routing.1／CORE-050](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)、[processing.1／CORE-051](../sources/draft-changes/D-2026-10-05-single-processing-time.md)与[processing.2／CORE-052](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)。共同拍序见[CORE-053](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)，敌情合同见[CORE-054](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)。结构Accepted，当前GDD-0；体验Hypothesis / NotRun。
 
 ## 核心体验
 
@@ -28,7 +28,7 @@ Project ID：game-002。文档角色：CoreDesignSummary。2026-10-08 / CORE-SUM
 
 铭刻是否合法与当前是否有料分开：完整合法配置缺料自动等待。免费改合法路由只影响未承诺的未来批次，不重铭、不改已托管材料、既有预留或已入行牌；预览区分预计与实际结果。
 
-本批D按[CORE-056时间公式](systems/artifact-system/rules.md#时间修饰公式core-056)先合并固定增减、再连乘有效倍率，最后向上取整并保底1拍；在完整开工检查成功时确定并冻结；需要消费的开工侧标记只占用本批费用，完工扣除，冻结量不供其他支付或条件读取。明确打断释放本批冻结量，最早下一拍可用。此为[CORE-055](../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)的局部采纳；冻结量自身失效、上限与战终归属仍待定。
+本批D按[CORE-056时间公式](systems/artifact-system/rules.md#时间修饰公式core-056)先合并固定增减、再连乘有效倍率，最后向上取整并保底1拍；在完整开工检查成功时确定并冻结；需要消费的开工侧标记只占用本批费用，完工扣除，冻结量不供其他支付或条件读取。明确打断释放本批冻结量，最早下一拍可用。此为[CORE-055](../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)的局部采纳；CORE-057进一步明确冻结量失效不补扣、不重算D，完工清账或打断仅返仍有效部分；具体上限与战终归属仍待定。
 
 玩家可在可操作观察窗口锁定自有且尚未承诺的指定数量资源／标记，阻止所有自动消费，直到主动解锁；不撤回已投入批次，不阻止伤害或自然失效。下一批消费前显示预计消耗、可用量和锁定后果，随条件更新，不要求逐批确认。维护也受锁定约束；必需材料／标记不足则该批等待，只有明确允许基础回退的可选增强可不增强继续。
 
@@ -40,7 +40,7 @@ Project ID：game-002。文档角色：CoreDesignSummary。2026-10-08 / CORE-SUM
 
 普通伤害扣护甲／生命，不自动中断全部法器。明确打断只作用公开指定法器，被中断加工退料、损失进度和时机；中断结清时解除预留，释放容量和退料最早下一拍复用。临时供料只保留一份方案并指定结束拍，到期分料前恢复基础方案；新方案替换旧方案，到期不恢复旧临时方案。托管、预留、已入行牌、已付费、返工、延误和合法收益保留。暂停不自动授权重铭或打造。
 
-每拍先使上一拍待用资源／容量可用并恢复到期临时供料，再揭示敌牌、提供结算前观察／提交窗口；窗口新方案结束拍须晚于当前拍，用于当拍末开工，结算途中操作留下一窗口，不强制逐拍点击。随后沿防护→伤害与打断→幸存加工完工，最后统一检查开工。新增基础补给也最早下一拍可用；初始库存第0拍可用，先揭示观察再首次开工，D=1时最早2拍兑现。复合行动、维护及其他并发总顺序仍须补齐；任一完整事件已终局即停止后续步骤。
+每拍先使上一拍待用资源／容量可用并恢复到期临时供料，再揭示敌牌、提供结算前观察／提交窗口；窗口新方案结束拍须晚于当前拍，用于当拍末开工，结算途中操作留下一窗口，不强制逐拍点击。随后沿防护→伤害与打断→幸存加工完工，最后统一检查开工。新增基础补给也最早下一拍可用；初始库存第0拍可用，先揭示观察再首次开工，D=1时最早2拍兑现。CORE-057定行动阶段先防护后其余，各组内到期定时→敌方到期→玩家队首；复合卡按步骤分组，一击及其有限附属反应结清后检查终局，不等待整张牌执行完。其余组加层不能补救前组防护失败；即时层可供后续步骤，定时新登记最早下拍、结束拍不含兑现。幸存完工后先到期维护，再旧休眠恢复，最后统一开工；终局即停止后续步骤。
 
 ## 战场、恢复与跨战取舍
 
