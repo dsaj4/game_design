@@ -1,6 +1,6 @@
 # 铭文系统：设计
 
-Project ID：game-002。文档角色：DesignNote。修订：2026-10-09 / inscription-framework.2。范围：GDD-0 通用框架；既有结构沿原状态，新增设计意图及 INS-I1—5 为 Qualified 候选，未采纳为 CurrentSpec；设计推导与体验假设分列，体验 Hypothesis / NotRun。
+Project ID：game-002。文档角色：DesignNote。修订：2026-10-09 / inscription-framework.3。范围：GDD-0 通用框架；既有结构沿原状态，新增设计意图及 INS-I1—5 为 Qualified 候选，未采纳为 CurrentSpec；资源相邻接口增补 CORE-058 / resource.1；设计推导与体验假设分列，体验 Hypothesis / NotRun。
 
 [系统入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md) · [示例](examples.md)
 
@@ -32,7 +32,11 @@ Project ID：game-002。文档角色：DesignNote。修订：2026-10-09 / inscri
 
 法器提供器具内涵、合法表达范围并执行生产，铭文提供配方语义与组合，行动卡负责把已声明效果实际兑现。铭文占用是一份持续的配置承诺，材料是生产各批的运行成本，标记是明确宿主上的状态与协同条件／支付；三个账目不能因都影响同一结果就被当作同一费用。
 
-材料流转、共享核心词义、辅槽读取／支付标记分别说明材料去向、内容共性和状态使用。辅槽的跨法器权限限制只约束它的修饰，不推导为全系统禁止材料串联。[资源候选](https://github.com/dsaj4/game_design/blob/54ad7597145127922759be7840c5d4d30ea786e1/yanzhou/sources/materials/M-2026-10-08-resource-design-intent.md)的无铭文加工、多阶量值及效果差异尚未采纳；未来要核对适用域和预先声明的结果怎样保持核心语义可解释，本页不让这些候选自动成为规则。
+材料流转、共享核心词义、辅槽读取／支付标记分别说明材料去向、内容共性和状态使用。[CORE-058 / resource.1](https://github.com/dsaj4/game_design/blob/79be780e2ef9c9c8af76d8c1ed1467deb7f242bc/yanzhou/sources/draft-changes/D-2026-10-09-resource-system-design.md)已采纳资源三个职责及 R1—R20，并将辅槽的跨法器限制明确限定于辅槽修饰，允许资源材料在不同用途间流转；不再将这些资源接口标为未采纳候选。
+
+法器可另行声明无需铭文的基础加工用途，这是独立生产入口，不修复非法铭刻配置；铭刻仍须完整核心，开战仍须至少一台合法铭刻法器。观察窗口可为未来批次选择已有用途及兑现阶级对应的已声明产出，不能任意改效果或改写已承诺批次，也不开放重铭。多阶相似产出的量值和效果均须有差异；具体流派内容仍需使这些差异与核心语义的联系可解释，辅槽因此并未获得改主逻辑的权限。
+
+上述增补以 `79be780e2ef9c9c8af76d8c1ed1467deb7f242bc` 的采纳记录及必要条款为准，本工作树没有合并资源分支或覆盖本地 rules。资源的普通基础加工信息公开与本页候选的未知铭文组合探索应按各自对象解释；资源采纳不提升 INS-I1—5 的资格，也不新增发现、试配或知识保存的 Accepted 规则。
 
 ## 玩家选择与代价
 

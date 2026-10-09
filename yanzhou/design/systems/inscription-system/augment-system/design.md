@@ -1,6 +1,6 @@
 # 辅槽子系统：设计
 
-Project ID：game-002。文档角色：DesignNote。修订：2026-10-09 / augment-framework.3。范围：GDD-0 通用框架；本轮新增设计意图及 INS-I4／5 为 Qualified 确认，未采纳为 CurrentSpec，体验 Hypothesis / NotRun；不展开具体辅槽、法器清单和数值平衡。
+Project ID：game-002。文档角色：DesignNote。修订：2026-10-09 / augment-framework.4。范围：GDD-0 通用框架；本轮新增设计意图及 INS-I4／5 为 Qualified 确认，未采纳为 CurrentSpec；资源相邻接口增补 CORE-058 / resource.1，体验 Hypothesis / NotRun；不展开具体辅槽、法器清单和数值平衡。
 
 [入口](README.md) · [已确认规则](rules.md) · [玩家体验假设](experience.md) · [示例](examples.md)
 
@@ -47,6 +47,8 @@ INS-I5明确本轮“升级”按替换更适配或更高稀有度副铭文理�
 | 更多槽位容易被误当成已有能力 | 容量、实体、兼容候选与推荐展示分别解释 | 打造不赠铭文，也不证明每种成长都有深度 |
 
 本表是规则的设计理由，具体权限以 [rules.md](rules.md) 为准。既有框架中的“专注”减料、“蓄言”增加成品张数、直接跨法器增益及统一三阶数值不延续到本版；保留其原来源身份，不替旧名称或 ID 悄悄换义。
+
+资源相邻接口以 [CORE-058 对应的辅槽规则第 3 节](https://github.com/dsaj4/game_design/blob/79be780e2ef9c9c8af76d8c1ed1467deb7f242bc/yanzhou/design/systems/inscription-system/augment-system/rules.md#3-跨法器只通过标记协同)增补：跨法器通过标记的限制针对辅槽修饰，资源材料流转是另一种已采纳的联系。无需铭文的基础加工入口也不自动继承辅槽或铭刻修饰，实际能接受哪些修饰须有明确内容。本分支未合并该规则文件；此处引用不整体提升其他 Qualified 辅槽条款或 INS-I4／5。
 
 ## 表达方向与理想效果
 
