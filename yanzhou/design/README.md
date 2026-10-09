@@ -1,6 +1,6 @@
 # 言咒现行设计
 
-Project ID：game-002。文档角色：Navigation。更新：2026-10-08（框架重建后审查）。当前GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.2 + enemy.1 + commitment.1 + time-formula.1，GDD-0；已采纳核心结构，内容与完整参数尚未闭合。
+Project ID：game-002。文档角色：Navigation。更新：2026-10-09（框架重建后审查）。当前GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.2 + enemy.1 + commitment.1 + time-formula.1 + resource.1，GDD-0；已采纳核心结构，内容与完整参数尚未闭合。
 
 [核心设计](core-design.md) · [GDD总览](GDD.md) · [版本与旧版取证](baseline.md) · [当前问题](../governance/questions.md)
 
@@ -10,7 +10,7 @@ Project ID：game-002。文档角色：Navigation。更新：2026-10-08（框架
 | [铭文系统](systems/inscription-system/README.md) | 铭文实体、核心装配、兼容与挂接，包含辅槽子系统；既有规则；辅槽新增通用框架仍为 Qualified |
 | [行动卡系统](systems/action-card-system/README.md) | 卡牌类别、行动效果、战斗行与共同结算，包含标记子系统；既有条款 Accepted；行动／标记新增通用结构 Qualified，体验 NotRun |
 | [敌人系统](systems/enemy-system/README.md) | 敌人程序、遭遇输入、敌方行动与应对窗口；既有规则与设计目标分别保留 |
-| [资源系统](systems/resource-system/README.md) | 材料、供给、托管、维护、转化与数量合同；既有规则与待定内容分别保留 |
+| [资源系统](systems/resource-system/README.md) | 核心约束、产出积累、环境表达；基础加工、性质／阶级、托管、维护、转化与数量合同；CORE-058通用设计已采纳 |
 | [局外成长系统](systems/meta-progression-system/README.md) | 预留独立系统入口；范围、机制与持续性均待设计；尚未开发；仅占位 |
 | [公共流程与合同](common/README.md) | 局内路线、局内经济、交互与保存；沿用既有规则 |
 | [卡表](content/cards.md) | 新卡表设计合同与候选入口 |

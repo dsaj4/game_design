@@ -1,6 +1,6 @@
 # 法器系统：设计
 
-Project ID：game-002。文档角色：DesignNote。修订：2026-10-08 / artifact-framework.1。基准：GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1，附相邻 Qualified 框架。定位与待定内容沿原状态；体验 Hypothesis / NotRun，不是新增采纳。
+Project ID：game-002。文档角色：DesignNote。修订：2026-10-08 / artifact-framework.1。基准：GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1，附相邻 Qualified 框架。定位与待定内容沿原状态；体验 Hypothesis / NotRun，不是新增采纳。 当前局部更新：2026-10-09 / CORE-058 / resource.1；仅新增明确采纳范围。
 
 [系统入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md) · [示例](examples.md)
 
@@ -38,7 +38,7 @@ Project ID：game-002。文档角色：DesignNote。修订：2026-10-08 / artifa
 | 标记与同拍开工 | CORE-057已定定时／行动早于开工；开工按有效供料序联合争材料、容量与标记 | 具体消费内容和强度预算仍待定 |
 | 契合及多来源修饰 | TL-45确认契合关系；合法时间贡献沿CORE-056合成 | 实际效果、表现、同类覆盖／并存及非时间量值叠加仍Unknown；不凭名称添加倍率或次数 |
 | 多牌及复杂事件 | CORE-057已定复合步骤、逐事件终局及总序 | 批次内部关系与具体卡效仍Unknown |
-| 维护及战终托管 | CORE-057已定完工后维护→旧休眠恢复→开工 | 托管中维护、战终未完工材料归属仍Unknown |
+| 维护及战终托管 | CORE-057已定完工后维护→旧休眠恢复→开工 | CORE-058已定普通耗材未完工战终退回按携带资格结算；托管中维护与特殊持续对象仍Unknown |
 
 预留语义、开工优先级、中断回收下拍可用、最早下拍翻开、拍末开工与 a+D、正常空位当拍使用及到期／输入窗口已定，不重问。旧三种法器的空间差异、节律减冷却与镶嵌表不迁入。
 

@@ -1,6 +1,6 @@
 # 资源系统设计定位与候选机制评估
 
-Project ID：game-002。文档角色：Evaluation。日期：2026-10-08。状态：评估建议，未采纳；Hypothesis / NotRun。
+Project ID：game-002。文档角色：Evaluation。日期：2026-10-08。原评估状态：候选评估；Hypothesis / NotRun。2026-10-09用户明确采纳后，三个职责与R1—R20已按[CORE-058](../draft-changes/D-2026-10-09-resource-system-design.md)写入主系统；以下“不进入采纳”等保留原评估轮次边界，不抵消后续授权，体验风险与延期内容继续有效。
 
 ## 评估对象
 

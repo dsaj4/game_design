@@ -1,6 +1,6 @@
 # 言咒 · Yanzhou
 
-Project ID：game-002。当前设计：**GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.2 + enemy.1 + commitment.1 + time-formula.1，GDD-0**。规则采纳基准2026-10-08；系统框架整理2026-10-08。核心结构、主辅槽铭刻、单一处理、生产／队列接口、阶段一共同拍序与阶段二敌情合同已采纳；发行内容、具体生命周期与数值待设计，体验Hypothesis / NotRun。现有探索方向已退役。
+Project ID：game-002。当前设计：**GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.2 + enemy.1 + commitment.1 + time-formula.1 + resource.1，GDD-0**。规则采纳基准2026-10-09；系统框架整理2026-10-09。核心结构、主辅槽铭刻、单一处理、生产／队列接口、阶段一共同拍序与阶段二敌情合同已采纳；发行内容、具体生命周期与数值待设计，体验Hypothesis / NotRun。现有探索方向已退役。
 
 | 我想做什么 | 入口 |
 | --- | --- |
@@ -26,3 +26,5 @@ Project ID：game-002。当前设计：**GDD 2.1 / TL-1 + INS-1 / processing.2 +
 [CORE-056 / time-formula.1](sources/draft-changes/D-2026-10-08-processing-time-formula.md)已补齐D的固定增减、有效倍率连乘、最终向上取整和最低1拍；取整无进一步缩短不自动免除已声明费用。通用总序后由CORE-057补齐，具体内容与剩余生命周期仍待定，GDD-0／NotRun不变。
 
 [CORE-057 / timing.2](sources/draft-changes/D-2026-10-08-settlement-order-reference.md)已确认同拍总序、复合步骤、定时与维护、逐事件终局及恢复合同；通用顺序已定，具体内容／生命周期缺口仍按当前问题处理，GDD-0／NotRun不变。
+
+[CORE-058 / resource.1](sources/draft-changes/D-2026-10-09-resource-system-design.md)已采纳资源设计及R1—R20：基础加工、性质／阶级、多阶兑现、资源背包和跨战结算，以及公开信息与自动运行目标。具体流派内容延期，体验NotRun。

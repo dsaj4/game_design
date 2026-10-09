@@ -5,15 +5,15 @@
 | 字段 | 内容 |
 | --- | --- |
 | 文档ID／项目 | GDD-G002-FULL-001 / game-002 |
-| 版本／更新 | 2.1 / TL-1 + INS-1，局部修订routing.1 + processing.2 + timing.2 + enemy.1 + commitment.1 + time-formula.1；规则基准2026-10-08 |
+| 版本／更新 | 2.1 / TL-1 + INS-1，局部修订routing.1 + processing.2 + timing.2 + enemy.1 + commitment.1 + time-formula.1 + resource.1；规则基准2026-10-09 |
 | 成熟度 | **GDD-0：概念与核心结构版**；不宣称原型或完整制作规格就绪 |
-| 设计状态 | 既有核心结构及CORE-055—057限定接口Accepted；辅槽、行动／标记其余新增通用框架Qualified；具体新卡表与未决边界独立Proposed / Unknown |
+| 设计状态 | 既有核心结构及CORE-055—058限定接口与资源设计Accepted；辅槽、行动／标记其余新增通用框架Qualified；具体新卡表与未决边界独立Proposed / Unknown |
 | 证据状态 | Hypothesis / NotRun |
 | 负责人／评审 | 用户为设计负责人；Codex整理；规则、内容、体验分别评审 |
 | 目标里程碑 | 统一新核心，完成卡表与边界后再升GDD-1 |
-| 合格来源 | [同拍结算M](../sources/materials/M-2026-10-08-settlement-order-reference.md)；[处理耗时公式M](../sources/materials/M-2026-10-08-processing-time-formula.md)；[批次冻结与消费锁定M](../sources/materials/M-2026-10-08-batch-freeze-consumption-lock.md)；[敌情合同M](../sources/materials/M-2026-10-05-stage-two-enemy-pressure.md)；[共同拍序M](../sources/materials/M-2026-10-05-stage-one-common-timing.md)； [生产与队列接口M](../sources/materials/M-2026-10-05-production-queue-interfaces.md)；[单一处理耗时M](../sources/materials/M-2026-10-05-single-processing-time.md)；[路由澄清素材](../sources/materials/M-2026-10-04-routing-response-clarification.md)；[铭刻素材](../sources/materials/M-2026-10-04-artifact-inscription-core.md)；[核心素材](../sources/materials/M-2026-10-01-timeline-production-core.md) |
-| 提案／评估 | [同拍结算E](../sources/evaluations/E-2026-10-08-settlement-order-reference.md)；[处理耗时公式E](../sources/evaluations/E-2026-10-08-processing-time-formula.md)；[批次冻结与消费锁定E](../sources/evaluations/E-2026-10-08-batch-freeze-consumption-lock.md)；[敌情合同E](../sources/evaluations/E-2026-10-05-stage-two-enemy-pressure.md)；[共同拍序E](../sources/evaluations/E-2026-10-05-stage-one-common-timing.md)； [生产与队列接口E](../sources/evaluations/E-2026-10-05-production-queue-interfaces.md)；[单一处理耗时E](../sources/evaluations/E-2026-10-05-single-processing-time.md)；[路由澄清E](../sources/evaluations/E-2026-10-04-routing-response-clarification.md)；[铭刻P](../sources/proposals/P-2026-10-04-artifact-inscription-core.md)／[铭刻E](../sources/evaluations/E-2026-10-04-artifact-inscription-core.md)；[P](../sources/proposals/P-2026-10-01-timeline-production-system.md)／[E](../sources/evaluations/E-2026-10-01-timeline-production-system.md) |
-| 采纳 | [同拍结算D](../sources/draft-changes/D-2026-10-08-settlement-order-reference.md)；[处理耗时公式D](../sources/draft-changes/D-2026-10-08-processing-time-formula.md)；[批次冻结与消费锁定D](../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)；[CORE-054敌情合同与卡面种类](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)；[CORE-053共同拍序](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)； [CORE-052生产与队列接口](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)；[CORE-051单一处理与预留](../sources/draft-changes/D-2026-10-05-single-processing-time.md)；[CORE-050路由澄清](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)；[CORE-049铭刻](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)；[CORE-037–047](../sources/draft-changes/D-2026-10-01-timeline-production-core.md)与[CORE-048兼容复用](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md) |
+| 合格来源 | [资源设计M](../sources/materials/M-2026-10-08-resource-design-intent.md)； [同拍结算M](../sources/materials/M-2026-10-08-settlement-order-reference.md)；[处理耗时公式M](../sources/materials/M-2026-10-08-processing-time-formula.md)；[批次冻结与消费锁定M](../sources/materials/M-2026-10-08-batch-freeze-consumption-lock.md)；[敌情合同M](../sources/materials/M-2026-10-05-stage-two-enemy-pressure.md)；[共同拍序M](../sources/materials/M-2026-10-05-stage-one-common-timing.md)； [生产与队列接口M](../sources/materials/M-2026-10-05-production-queue-interfaces.md)；[单一处理耗时M](../sources/materials/M-2026-10-05-single-processing-time.md)；[路由澄清素材](../sources/materials/M-2026-10-04-routing-response-clarification.md)；[铭刻素材](../sources/materials/M-2026-10-04-artifact-inscription-core.md)；[核心素材](../sources/materials/M-2026-10-01-timeline-production-core.md) |
+| 提案／评估 | [资源设计E](../sources/evaluations/E-2026-10-08-resource-design-intent.md)； [同拍结算E](../sources/evaluations/E-2026-10-08-settlement-order-reference.md)；[处理耗时公式E](../sources/evaluations/E-2026-10-08-processing-time-formula.md)；[批次冻结与消费锁定E](../sources/evaluations/E-2026-10-08-batch-freeze-consumption-lock.md)；[敌情合同E](../sources/evaluations/E-2026-10-05-stage-two-enemy-pressure.md)；[共同拍序E](../sources/evaluations/E-2026-10-05-stage-one-common-timing.md)； [生产与队列接口E](../sources/evaluations/E-2026-10-05-production-queue-interfaces.md)；[单一处理耗时E](../sources/evaluations/E-2026-10-05-single-processing-time.md)；[路由澄清E](../sources/evaluations/E-2026-10-04-routing-response-clarification.md)；[铭刻P](../sources/proposals/P-2026-10-04-artifact-inscription-core.md)／[铭刻E](../sources/evaluations/E-2026-10-04-artifact-inscription-core.md)；[P](../sources/proposals/P-2026-10-01-timeline-production-system.md)／[E](../sources/evaluations/E-2026-10-01-timeline-production-system.md) |
+| 采纳 | [资源设计D](../sources/draft-changes/D-2026-10-09-resource-system-design.md)； [同拍结算D](../sources/draft-changes/D-2026-10-08-settlement-order-reference.md)；[处理耗时公式D](../sources/draft-changes/D-2026-10-08-processing-time-formula.md)；[批次冻结与消费锁定D](../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)；[CORE-054敌情合同与卡面种类](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)；[CORE-053共同拍序](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)； [CORE-052生产与队列接口](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)；[CORE-051单一处理与预留](../sources/draft-changes/D-2026-10-05-single-processing-time.md)；[CORE-050路由澄清](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)；[CORE-049铭刻](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)；[CORE-037–047](../sources/draft-changes/D-2026-10-01-timeline-production-core.md)与[CORE-048兼容复用](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md) |
 | 内容与展示缺口 | 旧探索卡表与UI候选已退役；阶段1—4设计完成沿用户前提，已提交框架的剩余接口与正式内容登记仍待核对；历史链接不成为规则 |
 | 验证／开发 | [验收计划](validation.md)／[实现索引](../development/README.md)，没有新版执行证据 |
 
@@ -47,11 +47,17 @@ commitment.1按[CORE-055](../sources/draft-changes/D-2026-10-08-batch-freeze-con
 
 最大风险是暗句兼容难以推理、核心契合压过其他配置，以及维护微操、队列淹没计划和囤积支配。下一验证只先回答“普通区间能自动运行、关键威胁能引发有代价的多种选择吗”；完整输入未冻结，本轮不运行实验。
 
+### 资源的设计与体验方向（CORE-058）
+
+资源承担核心约束、产出积累、环境表达，表现材料逐步精炼和施法逐渐完成。玩家选择即时攻防或继续升级、增加消耗快速取胜或节料延长战斗，以及当前兑现或跨战留存。转化／升级和兑现法器分工，使中间产物有使用入口；多阶类似产出同时具有量值和效果差异。
+
+资源总种类可丰富，单场只运行少量，高阶常见1—2个为密度目标；战中资源区不另设硬容量。配方主要按性质与最低阶级识别，默认最低合格阶级，兑现可指定阶级不足等待；观察窗口切换已有用途或指定阶级只影响未来批次，不改承诺。普通用途公开兼容、消耗和产物，基础路线不依赖隐藏彩蛋；常态自动运行、关键敌情再改计划。具体卡表延期，体验仍Hypothesis / NotRun，风险与观察见[资源设计](systems/resource-system/design.md)及[资源体验](systems/resource-system/experience.md)。
+
 ## 2. 核心循环与玩家旅程
 
 ```mermaid
 flowchart LR
-    A[战前：法器核心铭刻、可选辅槽、基础供料] --> B[条件满足：托管材料并预留容量，处理]
+    A[战前：铭刻与辅槽、用途与供料、背包投入] --> B[条件满足：托管材料并预留容量，处理]
     B --> C[完成即入行，有限队列等待生效]
     C -->|最早入行下一拍，仍受队列限制| D[翻牌生效与收益]
     C -->|后续批次条件满足| B
@@ -70,8 +76,8 @@ flowchart LR
 
 [统一术语](../CONTEXT.md)区分铭文、资源卡、行动卡、托管、容量预留、处理、完成入行、生效、揭示与到期。
 
-- 每个法器读取一组完整合法铭刻配置反复生产行动卡；一张铭文不能重复分配。
-- 核心空缺仅属于名词＋动词组合；全部必填且不可打造，不开放对象类别／材料类别槽。
+- 法器执行完整合法铭刻用途，或另行声明的无铭文基础加工用途，统一生产行动卡；两者择一，一张铭文不能重复分配。
+- 铭刻用途的核心空缺仅属于名词＋动词组合；全部必填且不可打造，不开放对象类别／材料类别槽。
 - 辅槽装修饰、可留空、由法器预设挂接；可打造新增／解锁，数量原则上不超过核心槽。
 - 暗句意义决定行动种类，具体卡效独立设计；核心契合增幅的形式仍Unknown。
 - 改线可临时调整未来未承诺批次的供料去向与优先级；仅一份临时方案，指定结束拍，到期分料前恢复基础方案，新方案替换旧临时方案。攻击／防御／运转是功能划分，具体资源积累行动仍须另定。已承诺批次不变，已完成结果不回滚。
@@ -98,7 +104,7 @@ flowchart LR
 
 [系统目录](systems/README.md)按法器、铭文（含辅槽）、行动卡（含标记）、敌人、资源和局外成长六个系统组织。局外成长尚未开发，行动／标记已填写局部 Qualified 通用框架，未决细则仍保留原身份；[公共流程](common/README.md)维护既有路线、局内经济、交互与保存。各目录以 rules、experience、design、examples 分开规则、体验、设计和示例，README 负责导航；具体条款的采纳范围不因目录调整改变。
 
-INS-1按用户明确回写授权采纳TL-38–45，替代TL-20材料—动作—目标入口、自由完整构句与自由修饰挂接。法器统一交付行动卡；高阶材料获取／加工途径转为Unknown，资源维护与携带只适用于内容明确提供的相应资源。行动卡的效果目标规则仍保留，不从核心目标槽退出推导取消战斗目标。
+INS-1按用户明确回写授权采纳TL-38–45，替代TL-20材料—动作—目标入口、自由完整构句与自由修饰挂接。法器统一交付行动卡；CORE-058已明确基础加工、转化／升级和多阶兑现的通用取得链，具体配方留流派设计，资源维护与携带只适用于内容明确提供的相应资源。行动卡的效果目标规则仍保留，不从核心目标槽退出推导取消战斗目标。
 
 ## 5. 状态与时序
 
@@ -118,7 +124,7 @@ CORE-057／timing.2已补齐通用总序：已有行动先防护后其余，各�
 
 ## 8. 经济与成长
 
-战中资源供应、玩家干涉费用、战外铭文与金币分账。固定干涉费用不设计成长，也不因环境补给自动回充。辅槽打造允许新增／解锁修饰容量，成本、时机和跨战／跨局保留Unknown，与干涉费用分别设计。已允许标注可携带的部分资源与高阶产物跨战，共用携带容量并记住选择偏好，只保留数量、增幅和运行状态重置；容量数值、战终托管与起始库存待明确；本局库存、单向路线、固定商店和休整互斥选择沿TL-32–35；新局满预设生命／0金币，普通胜利不免费回血，休整沿3选1但词池不足不能补免费组件。胜利收益包与资源携带分开结算，具体奖励与价格重新核对。
+战中资源供应、玩家干涉费用、战外铭文与金币分账。固定干涉费用不设计成长，也不因环境补给自动回充。辅槽打造允许新增／解锁修饰容量，成本、时机和跨战／跨局保留Unknown，与干涉费用分别设计。CORE-058的资源背包同时限制具体种类与共享容量，每份占容量，不同阶级算不同种。战前选本场投入，未投入者仍占容量且本战不可用；战后与合格剩余和新获得材料统一选留。携带保留材料身份阶级，临时增幅与运行状态重置；普通耗材战终未完工退回参选，已完工不退。新局给少量启动材料，不每战补满；具体容量、种类上限与材料组合延期；本局库存、单向路线、固定商店和休整互斥选择沿TL-32–35；新局满预设生命／0金币，普通胜利不免费回血，休整沿3选1但词池不足不能补免费组件。胜利收益包与资源携带分开结算，具体奖励与价格重新核对。
 
 ## 9. 遭遇与路线
 
@@ -126,7 +132,7 @@ CORE-057／timing.2已补齐通用总序：已有行动先防护后其余，各�
 
 ## 10. 引导
 
-应教会核心必填／辅槽可空、法器兼容、预设修饰挂接，以及铭文与耗材区别、预留不排牌序、入行最早下拍翻开、敌牌截止、免费改线的承诺边界和单份临时方案到期恢复。旧“指出哪个法器被覆盖”的教学退出新版。完整引导顺序待新卡表。
+应教会铭刻核心必填／辅槽可空，以及明示基础加工的独立入口、法器兼容、预设修饰挂接，以及铭文与耗材区别、预留不排牌序、入行最早下拍翻开、敌牌截止、免费改线的承诺边界和单份临时方案到期恢复。旧“指出哪个法器被覆盖”的教学退出新版。完整引导顺序待新卡表。
 
 ## 11. UI与可读性
 
@@ -150,7 +156,7 @@ CORE-057／timing.2已补齐通用总序：已有行动先防护后其余，各�
 
 ## 16. 风险、未知与决策
 
-风险：频繁微操、队列阻塞无法解释、大批次长期等位、材料循环无代价、维护吞掉全部供给、单一高阶路线支配。设计负责人在GDD-1前完成卡表和总时序；真实体验在独立授权验证后判断。CORE-037–056及进一步局部决定见[决策记录](../governance/decision-log.md)。
+风险：频繁微操、队列阻塞无法解释、大批次长期等位、材料循环无代价、维护吞掉全部供给、单一高阶路线支配。设计负责人在GDD-1前完成卡表和总时序；真实体验在独立授权验证后判断。CORE-037–058及进一步局部决定见[决策记录](../governance/decision-log.md)。
 
 ## 17. 附录
 

@@ -47,7 +47,7 @@ Project ID：game-002。文档角色：SourceReview。2026-10-05。当前GDD-0 /
 
 [DIR-036局部M](../sources/materials/M-2026-10-04-artifact-inscription-core.md) Qualified、[P](../sources/proposals/P-2026-10-04-artifact-inscription-core.md)／[E](../sources/evaluations/E-2026-10-04-artifact-inscription-core.md)与[D／CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)记录限定采纳。比较输入`a4a7aea8500970ef3504a62e576fc99f08c566db`，逐文件blob与全文／局部覆盖在E；本轮不声称全读历史、其他方向或所有旧候选卡表。
 
-上表及第9轮记录保留当时使用情况；当前适用按以下覆盖：TL-20入口与CORE-041材料—动作—目标已替代；实体占用、耗材分账和卡效绑定继续适用；修饰目的地改为法器辅槽预设；法器直接资源输出退出，高阶材料来源／加工Unknown，资源维护与携带只在内容明确提供时成立。TL-38–45以用户确认结构为来源，不纳入模型推荐或发行例子。
+上表及第9轮记录保留当时使用情况；当前适用按以下覆盖：TL-20入口与CORE-041材料—动作—目标已替代；实体占用、耗材分账和卡效绑定继续适用；修饰目的地改为法器辅槽预设；法器直接资源输出退出；高阶材料来源／加工在INS-1当轮为Unknown，现按下方CORE-058明确通用取得链，具体配方延期；资源维护与携带只在内容明确提供时成立。TL-38–45以用户确认结构为来源，不纳入模型推荐或发行例子。
 
 原Qualified卡表保持原资格与历史含义，但完整程序、材料／目标角色与直接资源生产内容须按INS-1复审后才能发行。未更改其原文或声称整池重新合格。原CORE背景不刷新，没有新FX、实验或实现证据。
 
@@ -142,3 +142,9 @@ Include：[本轮M](../sources/materials/M-2026-10-08-processing-time-formula.md
 固定输入`a3fa9101940df567b56d8fe665bcbe6ceb7f1265`，CUSTOM覆盖及用户直接选定授权见[来源](../sources/inbox/2026-10-08-settlement-order-reference.md#本轮直接选定与采纳)。[M](../sources/materials/M-2026-10-08-settlement-order-reference.md)→[E](../sources/evaluations/E-2026-10-08-settlement-order-reference.md)→[CORE-057 D](../sources/draft-changes/D-2026-10-08-settlement-order-reference.md)。未全量重审历史或未提交阶段原件。
 
 Include：通用阶段／同类序、复合分组、有限事件边界、定时期限／绑定、维护恢复、共享支付／承诺失效及恢复合同。Replace：相关现行Unknown。Omit：外部受伤前荆棘与多人选择恢复、不具资格的新反应卡效。Park：上限／刷新／周期预算、托管维护、附属物、批次内部关系、跨战归属与具体参数。其他Qualified框架不整包提升；体验和实现仍NotRun。
+
+## resource.1：资源设计与通用边界（2026-10-09）
+
+固定输入`54ad7597145127922759be7840c5d4d30ea786e1`，沿本聊天已读GDD及相关来源定向复核资源、法器、铭文、经济、交互、内容、参数与派生摘要；未扩大到历史、其他方向、未提交原件或外部代码。[M](../sources/materials/M-2026-10-08-resource-design-intent.md)→[E](../sources/evaluations/E-2026-10-08-resource-design-intent.md)→[CORE-058 D](../sources/draft-changes/D-2026-10-09-resource-system-design.md)，依据用户“更新到主系统中”采纳。
+
+Include：三个职责及R1—R20全部已确认通用边界与体验目标。Replace：核心必填适用域、未来用途／阶级设置边界、普通耗材战终Unknown、战中容量Unknown及笼统的仅种类数量跨战。Omit：R10仅量值推荐、免费即时加工、全量跨战与每战补满、单场统一高阶硬上限。Park：具体卡池、性质阶级数、配方和各阶效果、容量与D、复杂分料及特殊对象合同。用户方向例不发行，体验仍NotRun。

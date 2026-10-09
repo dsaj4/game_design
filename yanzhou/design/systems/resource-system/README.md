@@ -1,8 +1,10 @@
 # 资源系统
 
-Project ID：game-002。文档角色：Navigation。修订：2026-10-08 / system-catalog.2。状态：既有规则与待定内容分别保留。
+Project ID：game-002。文档角色：Navigation。修订：2026-10-08 / system-catalog.2。状态：既有规则与待定内容分别保留。 当前局部更新：2026-10-09 / CORE-058 / resource.1；仅新增明确采纳范围。
 
-本系统范围：材料、供给、托管、维护、转化与数量合同。
+本系统范围：核心约束、产出积累与环境表达；材料性质／阶级、基础加工与多阶兑现、供给、托管、维护及数量合同。背包结算由局内经济维护。
+
+[CORE-058 / resource.1](../../../sources/draft-changes/D-2026-10-09-resource-system-design.md)已采纳资源设计及R1—R20通用边界；具体流派内容延期，体验仍Hypothesis / NotRun。
 
 | 文件 | 维护内容 |
 | --- | --- |

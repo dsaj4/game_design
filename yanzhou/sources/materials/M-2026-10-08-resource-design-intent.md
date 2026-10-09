@@ -1,6 +1,6 @@
 # 资源的核心约束、产出积累与环境表达
 
-Project ID：game-002。文档角色：QualifiedMaterial。状态：Qualified GDD Material；未采纳。体验 Hypothesis / NotRun。
+Project ID：game-002。文档角色：QualifiedMaterial。状态：Qualified GDD Material；2026-10-09经[CORE-058](../draft-changes/D-2026-10-09-resource-system-design.md)采纳明确范围。体验 Hypothesis / NotRun。下文候选和未采纳用语保存2026-10-08资格记录，不再代表当前采纳状态。
 
 ## 素材控制
 
@@ -127,3 +127,4 @@ R9提供多阶材料进入兑现的用途结构；R7规定性质／最低阶级�
 | 2026-10-08／R9增量 | 同一限定评估 | Included | 用户直接明确用途分工及多阶兑现；当轮R10—R11尚待答复 |
 | 2026-10-08／R10—R11答复 | 同一限定评估 | Included | 用户修正量值与效果均须不同，并确认指定阶级等待；替代此前未决表述，不采纳仅量值推荐 |
 | 2026-10-08／R12—R20答复 | 同一限定评估 | Included | 三组均按推荐，补携带、生命周期、切换、容量与体验取向；具体内容延期，仍未采纳 |
+| 2026-10-09／主系统采纳 | [CORE-058](../draft-changes/D-2026-10-09-resource-system-design.md) | Accepted for scope | 用户“更新到主系统中”；三个职责及R1—R20进入权威页，具体内容延期、体验NotRun |
