@@ -1,6 +1,6 @@
 # 言咒统一术语
 
-Project ID：game-002。文档角色：Glossary。基准：GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1。2026-10-05。规则以[六系统与公共流程](design/README.md)为准，SYS-001—007保留原规格域身份；词义不自动授予额外效果。
+Project ID：game-002。文档角色：Glossary。基准：GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1 + commitment.1。2026-10-08。规则以[六系统与公共流程](design/README.md)为准，SYS-001—007保留原规格域身份；词义不自动授予额外效果。
 
 | 术语 | 当前定义 | 权威处 |
 | --- | --- | --- |
@@ -84,7 +84,17 @@ Accepted是设计采纳；Qualified是来源达到使用资格；Proposed是可�
 | --- | --- | --- |
 | 标记／宿主实有层数 | 仅玩家或敌人持有，正负相对宿主；读取不等于消费，预告不能支付 | [标记规则](design/systems/action-card-system/mark-system/rules.md) |
 | 独立定时效果／虚幻砝码 | 行动结算后登记未来指定拍或周期的标记效果；不占普通队列、不额外翻牌；兑现总序仍未定 | [ACT-Q1](design/systems/action-card-system/rules.md#行动标记与后续兑现) |
-| 辅槽生成时间修饰 | 修改本法器的D；不修改材料消耗、每批张数或全局Q；D读取与叠加尚未闭合 | [辅槽权限](design/systems/inscription-system/augment-system/rules.md#2-修改权限) |
-| 标记支付 | 完整检查成功才足额扣层，失败不部分支付；基础回退、退款与同拍竞争另定 | [ACT-Q2](design/systems/action-card-system/rules.md#行动标记与后续兑现) |
+| 辅槽生成时间修饰 | 修改本法器的D；不修改材料消耗、每批张数或全局Q；CORE-055已定开工冻结D，叠加／舍入仍未闭合 | [辅槽权限](design/systems/inscription-system/augment-system/rules.md#2-修改权限) |
+| 标记支付 | 一般支付完整检查成功才足额扣层；开工侧按CORE-055冻结后完工扣除，其他阶段退款与同拍竞争另定 | [ACT-Q2](design/systems/action-card-system/rules.md#行动标记与后续兑现) |
 
 文档阶段完成沿用户前提；Accepted、Qualified、内容发行、体验NotRun仍分别解释。
+
+## 批次承诺与消费锁定（CORE-055，Accepted）
+
+| 术语 | 定义 | 权威处 |
+| --- | --- | --- |
+| 本批冻结D | 完整开工检查成功时确定的本批耗时，处理中不随共享标记变化重算 | 法器TL-03 |
+| 批次标记冻结 | 开工足额占用本批应付标记，完工扣除；冻结量不供其他支付或条件读取，不改变标记宿主 | [标记规则](design/systems/action-card-system/mark-system/rules.md#批次标记冻结core-055) |
+| 待释放标记 | 明确打断后释放的本批冻结量，最早下一拍可用；不能复活已失效状态 | 标记规则、法器TL-07 |
+| 玩家消费锁定 | 锁住自有未承诺的指定数量，禁止所有自动消费至主动解锁；不撤回承诺、不阻止伤害或自然失效，不自动禁止条件读取 | [交互TL-17](design/common/interaction-save/rules.md#玩家消费锁定与预警core-055) |
+| 消费预警 | 下一批开工前可操作窗口的预计消耗、可用量及锁定后果；随条件更新，不占用余额、不承诺开工、不强制逐批确认 | 交互TL-17 |

@@ -2,6 +2,8 @@
 
 Project ID：game-002。文档角色：Navigation。修订：2026-10-08 / system-docs.1。范围：系统通用框架；沿用阶段 1—4 已完成的前提。
 
+2026-10-08局部更新：[CORE-055 / commitment.1](../../../../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)已采纳本批D与开工标记冻结、完工扣除、打断释放及消费锁定相关接口；其余Qualified范围保持原状态，完整生命周期与总序仍未闭合。
+
 辅槽让玩家在本法器的生成节奏、行动量值与标记使用之间做配置取舍，同时保留可见成长。
 
 | 文件 | 内容 | 状态 |

@@ -1,6 +1,6 @@
 # 言咒 · Yanzhou
 
-Project ID：game-002。当前设计：**GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1，GDD-0**。规则采纳基准2026-10-05；系统框架整理2026-10-08。核心结构、主辅槽铭刻、单一处理、生产／队列接口、阶段一共同拍序与阶段二敌情合同已采纳；发行内容、完整时序与数值待设计，体验Hypothesis / NotRun。现有探索方向已退役。
+Project ID：game-002。当前设计：**GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1 + commitment.1，GDD-0**。规则采纳基准2026-10-08；系统框架整理2026-10-08。核心结构、主辅槽铭刻、单一处理、生产／队列接口、阶段一共同拍序与阶段二敌情合同已采纳；发行内容、完整时序与数值待设计，体验Hypothesis / NotRun。现有探索方向已退役。
 
 | 我想做什么 | 入口 |
 | --- | --- |
@@ -20,3 +20,5 @@ Project ID：game-002。当前设计：**GDD 2.1 / TL-1 + INS-1 / processing.2 +
 当前工作是系统框架重建后的接口核对。沿用户“阶段1—4设计完成”的前提，六系统及公共流程已分文件整理；辅槽、行动／标记的新增通用结构为 Qualified，既有 TL 条款保持 Accepted，局外成长尚未开发。阶段交付、正式内容登记与运行验证分别记录，不重启旧阶段，也不把候选自动当作发行池。
 
 [2026-10-08主系统审查与清理](governance/main-system-review-2026-10-08.md) · [当前未决接口与下一批建议](governance/questions.md#重建后接口核对2026-10-08)
+
+当前局部采纳：[CORE-055 / commitment.1](sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)，开工冻结D与应付标记、完工扣除、打断释放下拍可用；消费前预警和玩家指定数量锁定。其他Qualified框架不整包升级，完整总序与生命周期仍待补齐，NotRun。

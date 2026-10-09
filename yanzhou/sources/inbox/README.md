@@ -60,4 +60,4 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 - [阶段一收束工作包](2026-10-05-stage-one-closure.md)：Q12–14已Qualified并按CORE-053采纳；共同规则、预算、八组情境文档复核与交接完成，阶段一文档完成；示例值未采纳，NotRun。
 - [阶段二敌人压力工作包](2026-10-05-stage-two-enemy-pressure.md)：阶二Q01–24全部确认，已Qualified并经CORE-054采纳，阶段二首批文档完成；「字身」等未采纳方案Parked；三名敌人仍为候选，数值Illustrative，意象出处未核实，NotRun。
 - [敌人系统框架来源审查](2026-10-08-enemy-framework-review.md)：既有规则、内容约束与表现方向归位；标记引用 Qualified，Raw 扩展未纳入；没有新增玩法采纳或实验。
-- [批次冻结与消费锁定答复](2026-10-08-batch-freeze-consumption-lock.md)：用户明确保留开工冻结D、支付标记不被他项消费，以及消费前预警和主动锁定；新增支付／锁定边界仍Unqualified，FZ-Q1—5待答。
+- [批次冻结与消费锁定答复](2026-10-08-batch-freeze-consumption-lock.md)：用户明确保留开工冻结D、支付标记不被他项消费，以及消费前预警和主动锁定；FZ-Q1—5已按“都按推荐”确认并晋级，CORE-055限定采纳；公式、总序与生命周期剩余接口仍Unknown。

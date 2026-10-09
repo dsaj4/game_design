@@ -1,6 +1,6 @@
 # 言咒现行设计
 
-Project ID：game-002。文档角色：Navigation。更新：2026-10-08（框架重建后审查）。当前GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1，GDD-0；已采纳核心结构，内容与完整参数尚未闭合。
+Project ID：game-002。文档角色：Navigation。更新：2026-10-08（框架重建后审查）。当前GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1 + commitment.1，GDD-0；已采纳核心结构，内容与完整参数尚未闭合。
 
 [核心设计](core-design.md) · [GDD总览](GDD.md) · [版本与旧版取证](baseline.md) · [当前问题](../governance/questions.md)
 
@@ -39,3 +39,5 @@ timing.1按[CORE-053](../sources/draft-changes/D-2026-10-05-stage-one-common-tim
 enemy.1按[CORE-054](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)确定敌程序固定时间表与翻开表公开、打断锁定剩余最长施法、单一来源敌人死亡即胜、同拍敌方到期先于玩家行动及四类通用卡面种类；首批敌人为候选，见[阶段二工作包](../sources/inbox/2026-10-05-stage-two-enemy-pressure.md)。GDD-0／NotRun不变。
 
 当前阶段进度沿用户“阶段1—4设计完成”的前提，前述日期型增量保留当轮含义。后续按[重建审查](../governance/main-system-review-2026-10-08.md)与[当前接口问题](../governance/questions.md#重建后接口核对2026-10-08)推进，不从旧阶段移交文字重启已完成工作；正式内容采纳与NotRun仍独立记录。
+
+当前局部采纳：[CORE-055 / commitment.1](../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)，开工冻结D与应付标记、完工扣除、打断释放下拍可用；消费前预警和玩家指定数量锁定。其他Qualified框架不整包升级，完整总序与生命周期仍待补齐，NotRun。

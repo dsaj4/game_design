@@ -94,3 +94,7 @@ G002-DOC-014：系统统一五文件、示例独立存储及模板／阅读合�
 G002-DOC-017：主系统重建后一致性审查、旧进度／Unknown订正及重复文件清单退役。AUD-031—033为文档问题，Resolved / Documentation；AUD-034—040为接口与设计风险，Open，证据Derived／Assumed／Unknown。详见[审查](main-system-review-2026-10-08.md)。FW-Q1—6只是questions中的本批澄清编号，依附既有TL／INS主题，不另建玩法问题状态系统。
 
 现行44个TL规则、75项NotRun预期和137个FX身份保持；不新增CORE、TL、正式卡牌或实验结果。阶段1—4完成沿用户前提，Qualified框架未整包晋为Accepted。
+
+## 2026-10-08批次承诺与消费锁定
+
+G002-CORE-055 / commitment.1：Accepted / Hypothesis / NotRun；MAT／E／D-G002-FZ-20261008为本轮正式来源身份。FZ-Q1—5是FW-Q1／2局部确认编号，不另建全局问题体系。新增TL-V69—76，共8项NotRun预期；当前TL-V01—76去除02／20共74项，加INS-V01—09共83项。既有44个TL和137个FX身份不变，无新发行实体。核心v0.13／CORE-SUM-8，GDD 2.1／GDD-0。旧增量计数保留各自日期语境。

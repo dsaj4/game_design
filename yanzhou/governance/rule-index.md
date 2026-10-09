@@ -16,7 +16,7 @@ Project ID：game-002。2026-10-08（六系统目录）。文档角色：Navigat
 | TL-42 辅槽打造 | [铭文](../design/systems/inscription-system/rules.md#tl-42-辅槽打造) | SYS-006 |
 | TL-17–19／31／36 交互、暂停、保存与可达性 | [交互与保存](../design/common/interaction-save/rules.md) | SYS-007 |
 
-TL-20保留历史ID；其材料—动作—目标入口已由CORE-049替代，不列现行规则。TL-01–19及TL-21–45共44个现行规则ID；TL-V01–68去除已退役02／20共66项，加INS-V01–09共75项现用验收预期，全部NotRun；新增Qualified框架不借计数升级为Accepted。
+TL-20保留历史ID；其材料—动作—目标入口已由CORE-049替代，不列现行规则。TL-01–19及TL-21–45共44个现行规则ID；TL-V01–76去除已退役02／20共74项，加INS-V01–09共83项现用验收预期，全部NotRun；新增Qualified框架不借计数升级为Accepted。
 
 [参数](../design/parameters.md) · [内容](../design/content/cards.md) · [验收](../design/validation.md) · [当前未知](questions.md)
 
@@ -27,3 +27,5 @@ routing.1 / [CORE-050](../sources/draft-changes/D-2026-10-04-routing-response-cl
 辅槽的新增通用边界见 [Qualified 框架](../design/systems/inscription-system/augment-system/rules.md)，不在本表伪登记为新采纳的 TL 条款；体验与设计分文件见 [系统目录](../design/systems/README.md)。
 
 SYS 编号保留原来源身份，不等于现用主目录数量。行动卡及 [标记子系统](../design/systems/action-card-system/mark-system/rules.md)已整理局部 Qualified 通用框架；未决细则不因此采纳。局外成长尚未开发，本轮均不新增 TL 条款。
+
+CORE-055／commitment.1细化现有TL-03／05／07、TL-15／23、TL-17／19及标记／辅槽接口，不新增TL身份；详细来源见[采纳D](../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)。

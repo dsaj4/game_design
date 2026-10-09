@@ -1,6 +1,6 @@
 # 《言咒》核心设计
 
-Project ID：game-002。文档角色：CoreDesignSummary。2026-10-05 / CORE-SUM-7 / Core Concept v0.12。浓缩[GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1](GDD.md)，采纳范围见[CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)、[routing.1／CORE-050](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)、[processing.1／CORE-051](../sources/draft-changes/D-2026-10-05-single-processing-time.md)与[processing.2／CORE-052](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)。共同拍序见[CORE-053](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)，敌情合同见[CORE-054](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)。结构Accepted，当前GDD-0；体验Hypothesis / NotRun。
+Project ID：game-002。文档角色：CoreDesignSummary。2026-10-08 / CORE-SUM-8 / Core Concept v0.13。浓缩[GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1 + commitment.1](GDD.md)，采纳范围见[CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)、[routing.1／CORE-050](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)、[processing.1／CORE-051](../sources/draft-changes/D-2026-10-05-single-processing-time.md)与[processing.2／CORE-052](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)。共同拍序见[CORE-053](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)，敌情合同见[CORE-054](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)。结构Accepted，当前GDD-0；体验Hypothesis / NotRun。
 
 ## 核心体验
 
@@ -27,6 +27,10 @@ Project ID：game-002。文档角色：CoreDesignSummary。2026-10-05 / CORE-SUM
 预留只占容量，不预定未来牌序；实际入行才进入正常队列，同拍入行按战前法器序。行内每格一牌、每拍至多一张生效，入行后最早下一拍翻开，排队可能更晚。处理中预留、已入行牌及中断后待下拍复用容量共同约束有限容量Q。缺料、缺位与返工改变实际时机，不补发；后续批次无独立冷却，但仍须满足开工条件。每拍在行动结算与幸存完工后统一检查一次开工，a拍开工、a+D拍完工。正常离队空位可供本拍末使用，完工法器可同拍续开；中断者如另有可用料与独立空位也可当拍末重开，回收部分仍下拍可用。多牌批次内部关系仍待定。
 
 铭刻是否合法与当前是否有料分开：完整合法配置缺料自动等待。免费改合法路由只影响未承诺的未来批次，不重铭、不改已托管材料、既有预留或已入行牌；预览区分预计与实际结果。
+
+本批D在完整开工检查成功时确定并冻结；需要消费的开工侧标记只占用本批费用，完工扣除，冻结量不供其他支付或条件读取。明确打断释放本批冻结量，最早下一拍可用。此为[CORE-055](../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)的局部采纳；冻结量自身失效、上限与战终归属仍待定。
+
+玩家可在可操作观察窗口锁定自有且尚未承诺的指定数量资源／标记，阻止所有自动消费，直到主动解锁；不撤回已投入批次，不阻止伤害或自然失效。下一批消费前显示预计消耗、可用量和锁定后果，随条件更新，不要求逐批确认。维护也受锁定约束；必需材料／标记不足则该批等待，只有明确允许基础回退的可选增强可不增强继续。
 
 ## 敌情、目标与操作
 
