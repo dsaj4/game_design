@@ -75,9 +75,9 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 
 ### <a id="dm-g002-010"></a>DM-G002-010 战斗HTML结构示意（2026-10-11新增）
 
-- 归属：game-002 / main；[交付范围与本机入口](../../yanzhou/visual/battle-ui-2026-10-11/v03-html.md)，实现证据另见项目开发索引。BATTLE-UI-HTML-03；固定文件及SHA-256见交付页所链manifest。
-- ReadyForScope（HTML结构评审）/ PresentLocal；2026-10-11实际Edge检查同刻对齐、空位、双快照、详情点击／键盘、未揭示信息、四档宽度及HTTP／离线入口。无战斗引擎或对局测试，整体UI仍待评审。
-- 来源：用户明确要求HTML；uses: AS-G002-005@v02（结构参照），derived-from: None（外部代码）。自制单文件HTML／CSS／JavaScript，无外部依赖，不嵌入第三方图像或字体。可在本项目改作，对外分发许可未另定。原件位于本机持久演示目录，未公开发布。
+- 归属：game-002 / main；[当前交付与本机入口](../../yanzhou/visual/battle-ui-2026-10-11/v04-outline.md)，BATTLE-UI-HTML-04；固定文件及SHA-256见交付页所链manifest。[v03及其检查](../../yanzhou/visual/battle-ui-2026-10-11/v03-html.md)和原件保持原版本，不覆盖。
+- ReadyForScope（3D界面轮廓位置评审）/ PresentLocal；2026-10-11实际Edge检查同刻对齐、空位、三档宽度及HTTP／离线入口，1920／1366预览目视检查完成。当前仅描位，无交互、战斗数据或模型；整体UI仍待评审，玩法NotRun。
+- 来源：用户要求HTML并明确仅轮廓描位；uses: AS-G002-005@v02（对齐结构）、AS-G002-006（构图参照），derived-from: None（外部代码）。自制单文件HTML内联SVG，无外部依赖，不嵌入第三方图像或字体。可在本项目改作，对外分发许可未另定。原件位于本机持久演示目录，未公开发布。
 
 ## 素材与参考包
 
@@ -93,7 +93,7 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 
 - 归属：game-002 / main；[原件位置、来源、规格与使用记录](../../yanzhou/visual/battle-ui-2026-10-11/v02-notes.md#as-g002-006-用户提供的牌桌布局参考)。PNG 1672×941；固定SHA-256 `5b402a3b35d3b1d44d79c316f1fe09251fc440a2f5a8598f3c41603893a5b63f`。
 - Catalogued / PresentLocal；2026-10-11目视、尺寸与哈希核对。原件位于用户附件临时目录，未复制／推送原图，长期访问未知；作者、生成来源与对外分发权Unknown。
-- 用户授权用于本轮UI布局参照；使用者AS-G002-005@v02。只参考空间构图，不导入美术像素，不继承卡义或玩法；uses: None；derived-from: None。
+- 用户授权用于本轮UI布局参照；使用者AS-G002-005@v02、[DM-G002-010@v04](../../yanzhou/visual/battle-ui-2026-10-11/v04-outline.md)。只参考空间构图，不导入美术像素，不继承卡义或玩法；uses: None；derived-from: None。
 
 | ID / 名称 / 标签 | 归属 / 原件入口 | 版本 / 来源条件 | 状态 / 使用边界 |
 | --- | --- | --- | --- |
