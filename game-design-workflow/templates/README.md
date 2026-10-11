@@ -3,6 +3,7 @@
 仅复用以下模板。正文项目路径相对所选工作区根，复制后重新填写，不继承旧游戏内容。条件章节仅在适用时使用。
 
 - [原始想法](idea-template.md)
+- [构思卡（流派／系统方向／物件）](concept-card-template.md)：原始想法的结构化填写形式；用户先写原话与画面，agent整理行为、依赖、取舍和缺口。沿原资格流程，不代替合格素材或GDD。
 - [合格 GDD 素材](qualified-gdd-material-template.md)
 - [GDD 写作要求](gdd-writing-requirements-and-template.md)
 - [系统通用框架空白模板](system-framework/README.md)：整目录复制；README 导航、rules 规则、experience 体验假设、design 定位与待定方案、examples 独立示例。是 GDD 系统规格的分文件形式，不内置项目玩法。

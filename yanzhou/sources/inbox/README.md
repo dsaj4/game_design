@@ -67,4 +67,6 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 
 ## 2026-10-11指导集成来源
 
+本轮新增[第一批主流派与系统物件构思填写稿](2026-10-11-first-archetype-concept-cards.md)：Raw / Unqualified。已预填用户任务范围和既有设计方向的来源，具体流派与物件留待填写；不是新发行池或玩法采纳。
+
 [外部指导原文快照](2026-10-11-systems-design-guidance-source.md)用于对照，不整体晋级。接回既有[铭文框架来源](2026-10-08-inscription-framework-review.md)、[铭文意图与答复](2026-10-09-inscription-design-intent.md)、[法器意图与答复](2026-10-09-artifact-design-intent.md)、[行动卡原话与资格](2026-10-10-action-card-design-intent.md)，均保留原轮次，不视作当前未答任务。吸收与排除见[审查](../../governance/main-system-review-2026-10-11.md)。
