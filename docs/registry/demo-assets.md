@@ -82,6 +82,13 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 
 ## 素材与参考包
 
+### <a id="as-g002-010"></a>AS-G002-010 战斗桌面 Blender 建模首版（2026-10-11新增）
+
+- 归属：game-002 / main；BATTLE-3D-01；[交付、预览及证据](../../yanzhou/visual/battle-ui-2026-10-11/model-v01.md)。原生 `.blend`、20份组件集合库、`.glb`、四张卡面纹理及十张检查渲染保存在 `E:/Project/yanzhou-battle-3d/`；固定范围和逐文件 SHA-256 见交付页链接的 manifest。
+- ReadyForScope（静态三维结构与视觉评审）/ PresentLocal；2026-10-11检查源工程重开、纹理打包、GLB回导与几何尺寸、主视角及近景。真实几何已建立，雕饰为首版简化；原生约61.4万三角面，米制，Blender Z-up／GLB Y-up，无骨骼动画，实时预算 Unknown。
+- derived-from（视觉改作）：AS-G002-008@BATTLE-UI-ART-01、AS-G002-009@BATTLE-COMPONENTS-01；uses：DM-G002-010@BATTLE-UI-HTML-10（构图），AS-G002-009的11–14卡面PNG（直接纹理）。其余物件效果图仅参照，模型/程序材质本轮自制。程序纹理与体积雾在GLB中简化，未宣称等效材质或目标引擎通过。
+- 用户授权真实建模与本项目评审改作；上游对外分发许可 Unknown。二进制和制作脚本就地保管，未公开上传；登记不等于美术采纳、战斗实现或玩法验证。
+
 ### <a id="as-g002-009"></a>AS-G002-009 战斗组件隔离设计 v01（2026-10-11新增）
 
 - 归属：game-002 / main；BATTLE-COMPONENTS-01；[独立图片、提示词、总览与检查](../../yanzhou/visual/battle-ui-2026-10-11/components-v01/README.md)。固定文件范围、规格及SHA-256见该页所链manifest。
