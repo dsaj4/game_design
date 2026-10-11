@@ -108,3 +108,7 @@ G002-CORE-056 / time-formula.1，Accepted / Hypothesis / NotRun。MAT／E／D-G0
 G002-DOC-016保持当前敌人框架整理身份。固定提交`51257ba5e00b0cae155940c11251134dffd6db69`的2026-10-08铭文／辅槽整理也曾使用DOC-016，当前唯一映射为G002-DOC-018，引用须附主题／原提交；原来源不改写。
 
 G002-DOC-019：本轮指导集成、一致性清理与风险复核，Accepted / Documentation。MAT-2026-10-09-inscription-design-intent、MAT-2026-10-09-artifact-design-intent、MAT-2026-10-10-action-card-design-intent沿原身份接回，保持Qualified；没有新CORE、TL、FX或发行实体。规则仍44个TL，验收113项NotRun；本轮未新增验收ID。
+
+## 2026-10-11简易法术流首批来源登记
+
+[首批设计登记](../sources/inbox/2026-10-11-simple-spell-first-batch-registration.md)以日期与文件路径标识Raw来源，附原文SHA-256。两法器、三核心、一副铭文、三个已展开行动条目、一标记、一敌人四敌牌及四案例保持候选；积蓄对应行动与资源物件未完成。原稿A1／A2／B及Q1—Q10仅为稿内标签，不分配或复用MAT、P／E／D、CORE、FX、正式卡牌或退役同名流派身份。登记完成不等于资格通过、采纳或验证。

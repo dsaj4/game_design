@@ -18,6 +18,8 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 
 ## 已完成过程记录
 
+首批内容候选入口：[简易法术流设计登记（2026-10-11）](inbox/2026-10-11-simple-spell-first-batch-registration.md)。用户提供的首批方案已保存；Raw / Unqualified、NotRun，包含物件清单、案例、原稿待确认项及登记核对，不属于下述已采纳过程。
+
 六组已采纳设计的18份P/E/D已归档到[完成记录](../history/accepted-design-records/README.md)。原始输入、合格素材与仍有局部未决内容的过程文档留原处；归档不扩大采纳或验证范围。旧文档管理拟修改按固定Git取证。新增任务按需要创建正式文件，不预建空树。
 
 ## TL-1 本轮来源链
