@@ -118,3 +118,7 @@ G002-DOC-019：本轮指导集成、一致性清理与风险复核，Accepted / 
 G002-CORE-059 / first-example.1；G002-DOC-020 / documentation.3。MAT-2026-10-11-simple-spell-example及同题E／D为新增限定来源。EX-001是首个跨系统案例ID，后续从EX-002继续；案例物件没有发行或FX身份。
 
 TL-V107—110新增4项，合计117项NotRun；44个TL和137个FX身份不变。FB-Q01—03、META-Q01为questions集中问题标识，其他TL／INS主题保留；不复用旧编号。
+
+## 2026-10-11正式开发准备
+
+G002-DOC-021：开发规范、分阶段计划、Unity／Godot同题评估任务及当前资产接入整理；Accepted / Documentation。不新增CORE／TL／FX／EX／AS／DM；44个现行TL、117项NotRun预期保持。P0—P5仅为本计划阶段标签，不是新全局编号族。

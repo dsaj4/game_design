@@ -7,7 +7,8 @@ game-002 · 2026-10-11 · GDD 2.2 / GDD-0。
 | 当前要做什么 | 入口 |
 | --- | --- |
 | 了解游戏 | [核心设计](design/core-design.md) |
-| 开始UI设计与规则实装 | [主系统阅读入口](design/README.md) |
+| 开始正式开发 | [阶段计划与引擎评估](development/production-plan.md) · [开发规范](development/development-standard.md) |
+| 查询主系统与开发资产 | [主系统阅读入口](design/README.md) · [当前资产](development/asset-readiness.md) |
 | 查看首批物件和案例 | [EX-001简易法术流](design/examples/simple-spell.md) |
 | 处理缺口 | [集中问题登记](governance/questions.md) |
 | 查询词义 | [术语](CONTEXT.md) |

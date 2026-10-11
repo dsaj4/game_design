@@ -1,6 +1,18 @@
 # 言咒实现与资产索引
 
-> 当前输入：2026-10-11 / GDD 2.2 / CORE-059。UI与规则实装从[主系统](../design/README.md)、[EX-001](../design/examples/simple-spell.md)和[集中问题](../governance/questions.md)接手。已新增HTML结构展示，尚无新版战斗实现或玩家测试。下列记录只对应其原版本。
+> 当前阶段：2026-10-11正式开发准备。用户已完成界面设计；采用HTML v10、效果图及Blender v02作为开发视觉输入，玩法沿GDD 2.2 / CORE-059及EX-001。Unity／Godot尚未选定，先执行同题评估。尚未创建新版战斗工程或取得玩法测试结果。
+
+## 当前开发入口
+
+| 需要什么 | 唯一入口 |
+| --- | --- |
+| 阶段目标、引擎评估与下一任务 | [正式开发计划](production-plan.md) |
+| 工作方式、质量与交付要求 | [开发规范](development-standard.md) |
+| 当前资产、接入差异及核验 | [开发输入与资产](asset-readiness.md) |
+| 玩法与首批内容 | [主系统](../design/README.md) · [EX-001](../design/examples/simple-spell.md) |
+| 设计待决与验证入口 | [集中问题](../governance/questions.md) · [测试交接](test-handoff.md) |
+
+本轮已核验5包75文件与原哈希一致，未运行引擎或玩法实验。P0评估未执行；后续每阶段在这里回填实际代码／构建／报告入口。以下保留各原日期交付说明，不等同正式游戏完成。
 
 文档角色：ImplementationIndex。更新：2026-10-04。旧主系统与探索试点保留原日期和交付结论；DIR-029／032／033等已退役，不再是当前实现任务。
 

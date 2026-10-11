@@ -1,0 +1,581 @@
+{
+  "date": "2026-10-11",
+  "design_commit": "5c542e12c53a5ba3044b6e647e6c3950e9260bc5",
+  "method": "Read-only byte/hash and GLB metadata checks; no engine or Blender execution",
+  "packages": [
+    {
+      "id": "AS-G002-005",
+      "version": "UI-WF-01/v02",
+      "manifest": "E:\\Project\\game\\yanzhou\\visual\\battle-ui-2026-10-11\\manifest-v02.json",
+      "manifest_sha256": "8303b3ae94b40da27fe1a236d7d0d426a2d40b29c9d5b5d680fc341ac87e5001",
+      "files": [
+        {
+          "file": "battle-wireframe-v02-adjustment.png",
+          "bytes": 236992,
+          "sha256": "364846cfed8213a77ef997a15933958a9e964df05de8bad218b70c5ef196040c",
+          "expected_sha256": "364846cfed8213a77ef997a15933958a9e964df05de8bad218b70c5ef196040c",
+          "match": true
+        },
+        {
+          "file": "battle-wireframe-v02-adjustment.svg",
+          "bytes": 26325,
+          "sha256": "d001f18dae9502e40d3d6a4697699785770813aa4d6126085c60be0927d84816",
+          "expected_sha256": "d001f18dae9502e40d3d6a4697699785770813aa4d6126085c60be0927d84816",
+          "match": true
+        },
+        {
+          "file": "battle-wireframe-v02-main.png",
+          "bytes": 230901,
+          "sha256": "5f47f95692b207573af77732744d8cbcebf0ff65a530c23642421bb268514ad1",
+          "expected_sha256": "5f47f95692b207573af77732744d8cbcebf0ff65a530c23642421bb268514ad1",
+          "match": true
+        },
+        {
+          "file": "battle-wireframe-v02-main.svg",
+          "bytes": 26133,
+          "sha256": "3427a041204fcfeff6504b7a6e472ae86b6a4614a35d22605a5c3b19a912a807",
+          "expected_sha256": "3427a041204fcfeff6504b7a6e472ae86b6a4614a35d22605a5c3b19a912a807",
+          "match": true
+        },
+        {
+          "file": "battle-wireframe-v02-overview.png",
+          "bytes": 217653,
+          "sha256": "e636e5d918cc8fcdc5f136629b5e037e4794686196b8750304693e8faeeed9a8",
+          "expected_sha256": "e636e5d918cc8fcdc5f136629b5e037e4794686196b8750304693e8faeeed9a8",
+          "match": true
+        },
+        {
+          "file": "battle-wireframe-v02-overview.svg",
+          "bytes": 24327,
+          "sha256": "1a09a1e1595b43bd6c46fa73d6ba972ec58ea486d83657369271ce81edc6ac10",
+          "expected_sha256": "1a09a1e1595b43bd6c46fa73d6ba972ec58ea486d83657369271ce81edc6ac10",
+          "match": true
+        }
+      ]
+    },
+    {
+      "id": "AS-G002-008",
+      "version": "BATTLE-UI-ART-01",
+      "manifest": "E:\\Project\\game\\yanzhou\\visual\\battle-ui-2026-10-11\\manifest-art-v01.json",
+      "manifest_sha256": "7a33cf07e100910425ec64b88f2257d7c063775e6865bc2fed0f87edb443718d",
+      "files": [
+        {
+          "file": "battle-art-v01.png",
+          "bytes": 2697311,
+          "sha256": "3bfb4d31480cb5743b20ef144f93f69c548bc0123b66821bb2d7542748ab75e6",
+          "expected_sha256": "3bfb4d31480cb5743b20ef144f93f69c548bc0123b66821bb2d7542748ab75e6",
+          "match": true
+        },
+        {
+          "file": "battle-art-v01-prompt.md",
+          "bytes": 6415,
+          "sha256": "5fe8257008fa31fe7a85c0649cabf95d4a0622695a0d9f1875674fb04be7724f",
+          "expected_sha256": "5fe8257008fa31fe7a85c0649cabf95d4a0622695a0d9f1875674fb04be7724f",
+          "match": true
+        },
+        {
+          "file": "art-v01.md",
+          "bytes": 2422,
+          "sha256": "80c464b4c5d622349d6a377a72b76d0e47f12a7378614a92a13307a7c2953105",
+          "expected_sha256": "80c464b4c5d622349d6a377a72b76d0e47f12a7378614a92a13307a7c2953105",
+          "match": true
+        }
+      ]
+    },
+    {
+      "id": "AS-G002-009",
+      "version": "BATTLE-COMPONENTS-01",
+      "manifest": "E:\\Project\\game\\yanzhou\\visual\\battle-ui-2026-10-11\\components-v01\\manifest.json",
+      "manifest_sha256": "17ded72d91bb21ebb2d397dafb6861e1e5eac8061b5f814efa4b65e893c656dc",
+      "files": [
+        {
+          "file": "01-table-body.png",
+          "bytes": 2191349,
+          "sha256": "53210dde28e5644ea90953c89670c3e1cf8a98c226b0a7d8e2cb3b7e4b1b340d",
+          "expected_sha256": "53210dde28e5644ea90953c89670c3e1cf8a98c226b0a7d8e2cb3b7e4b1b340d",
+          "match": true
+        },
+        {
+          "file": "02-table-mat.png",
+          "bytes": 2854950,
+          "sha256": "d68677ebec04ae98b70b9662467f2bdec299325a0137b525b7299322c2280712",
+          "expected_sha256": "d68677ebec04ae98b70b9662467f2bdec299325a0137b525b7299322c2280712",
+          "match": true
+        },
+        {
+          "file": "03-timeline.png",
+          "bytes": 218389,
+          "sha256": "b2e12e4bd9f30b2140b687a5a19fa0aeab9d9d01e030331748bb3657b82fce44",
+          "expected_sha256": "b2e12e4bd9f30b2140b687a5a19fa0aeab9d9d01e030331748bb3657b82fce44",
+          "match": true
+        },
+        {
+          "file": "04-empty-slot.png",
+          "bytes": 1216934,
+          "sha256": "cf2dd7372d99764c9732f77d77bdf74d396f8f1107023474e1fa32c721827ace",
+          "expected_sha256": "cf2dd7372d99764c9732f77d77bdf74d396f8f1107023474e1fa32c721827ace",
+          "match": true
+        },
+        {
+          "file": "05-title-plaque.png",
+          "bytes": 1643410,
+          "sha256": "c552d43d028073683209582c71f6386115f484f4aa9dac2f5b322667ac2c9b82",
+          "expected_sha256": "c552d43d028073683209582c71f6386115f484f4aa9dac2f5b322667ac2c9b82",
+          "match": true
+        },
+        {
+          "file": "06-resource-drawer.png",
+          "bytes": 2629817,
+          "sha256": "889089f4fe5bdbc7dfaa5da2d91750aee2ce0d9aec12ca1d667133876dd1991e",
+          "expected_sha256": "889089f4fe5bdbc7dfaa5da2d91750aee2ce0d9aec12ca1d667133876dd1991e",
+          "match": true
+        },
+        {
+          "file": "07-enemy-pawn.png",
+          "bytes": 2032880,
+          "sha256": "3add9961543a9bb79d7786fe97404ac83e93fffc8e6f59ef6ad004e8d8819161",
+          "expected_sha256": "3add9961543a9bb79d7786fe97404ac83e93fffc8e6f59ef6ad004e8d8819161",
+          "match": true
+        },
+        {
+          "file": "08-player-pawn.png",
+          "bytes": 1390132,
+          "sha256": "33dee1c288f6738034ebb5437db9223873680f41f2a8249874ebf1c7566dabaa",
+          "expected_sha256": "33dee1c288f6738034ebb5437db9223873680f41f2a8249874ebf1c7566dabaa",
+          "match": true
+        },
+        {
+          "file": "09-enemy-chips.png",
+          "bytes": 1961308,
+          "sha256": "0e35d6639b7b8ad15402ef2d7947fb5ba66e2842ac9b49ddfeab8ffbf2075854",
+          "expected_sha256": "0e35d6639b7b8ad15402ef2d7947fb5ba66e2842ac9b49ddfeab8ffbf2075854",
+          "match": true
+        },
+        {
+          "file": "10-player-chips.png",
+          "bytes": 1829135,
+          "sha256": "25f7bdaa11700f04a54fdf5eecc6b23418b8fe04e675615c8aad70e52f91820a",
+          "expected_sha256": "25f7bdaa11700f04a54fdf5eecc6b23418b8fe04e675615c8aad70e52f91820a",
+          "match": true
+        },
+        {
+          "file": "11-card-back.png",
+          "bytes": 3070339,
+          "sha256": "2e493f91588674cdd4d535affba1fd2c6af60b491d14bf0703e1a68fd8562714",
+          "expected_sha256": "2e493f91588674cdd4d535affba1fd2c6af60b491d14bf0703e1a68fd8562714",
+          "match": true
+        },
+        {
+          "file": "12-card-fire.png",
+          "bytes": 2997788,
+          "sha256": "bfa152189b342d25e9758ef1d2fd7a83ca370d1cbbc8833789214d48fbc287c8",
+          "expected_sha256": "bfa152189b342d25e9758ef1d2fd7a83ca370d1cbbc8833789214d48fbc287c8",
+          "match": true
+        },
+        {
+          "file": "13-card-shield.png",
+          "bytes": 3097593,
+          "sha256": "8b55f1d852885276d1fc9d56d9996e96036bcaa3c87feae96a906c9b8b73d2c1",
+          "expected_sha256": "8b55f1d852885276d1fc9d56d9996e96036bcaa3c87feae96a906c9b8b73d2c1",
+          "match": true
+        },
+        {
+          "file": "14-card-wave.png",
+          "bytes": 2864251,
+          "sha256": "f875aabb5eb33a035a8b6cfdc1fcfd11b28344e0f3ce3bc494290c458b072f14",
+          "expected_sha256": "f875aabb5eb33a035a8b6cfdc1fcfd11b28344e0f3ce3bc494290c458b072f14",
+          "match": true
+        },
+        {
+          "file": "15-crystal-wand.png",
+          "bytes": 659023,
+          "sha256": "b919bfeeb00f26894d62596e5de0efc4992d5bd8dabc71a1de3de19ca250c5a3",
+          "expected_sha256": "b919bfeeb00f26894d62596e5de0efc4992d5bd8dabc71a1de3de19ca250c5a3",
+          "match": true
+        },
+        {
+          "file": "16-ring-scepter.png",
+          "bytes": 1539698,
+          "sha256": "854f9215f527af8c93186385092bed50c185201ae2edf4f718484cca5e649a99",
+          "expected_sha256": "854f9215f527af8c93186385092bed50c185201ae2edf4f718484cca5e649a99",
+          "match": true
+        },
+        {
+          "file": "17-spellbook.png",
+          "bytes": 2167967,
+          "sha256": "705bd98c40ed5ecced9173027d769296574937dc6128cfbcbb9ddd69710f8fb3",
+          "expected_sha256": "705bd98c40ed5ecced9173027d769296574937dc6128cfbcbb9ddd69710f8fb3",
+          "match": true
+        },
+        {
+          "file": "18-crystal-orb.png",
+          "bytes": 1835088,
+          "sha256": "75d6e12e504c2104a25a98048a47c26b3cd61f03e3437da63833fb722d6710e4",
+          "expected_sha256": "75d6e12e504c2104a25a98048a47c26b3cd61f03e3437da63833fb722d6710e4",
+          "match": true
+        },
+        {
+          "file": "19-study-background.png",
+          "bytes": 2413675,
+          "sha256": "02de555ac63dcdc882798d38c402b8a3148dbc7d2a038b0c070e4c1b09bc42b7",
+          "expected_sha256": "02de555ac63dcdc882798d38c402b8a3148dbc7d2a038b0c070e4c1b09bc42b7",
+          "match": true
+        },
+        {
+          "file": "README.md",
+          "bytes": 4246,
+          "sha256": "ef54fd0eb8588fcea2614b9d548ab5fec89a19da3d35a01f19cae0348f72a3a1",
+          "expected_sha256": "ef54fd0eb8588fcea2614b9d548ab5fec89a19da3d35a01f19cae0348f72a3a1",
+          "match": true
+        },
+        {
+          "file": "generation-records.json",
+          "bytes": 35621,
+          "sha256": "3747ce2a8251e998566e4f8aa3687d0776c3ca00e11e0dfcfbe7d3d391c8e409",
+          "expected_sha256": "3747ce2a8251e998566e4f8aa3687d0776c3ca00e11e0dfcfbe7d3d391c8e409",
+          "match": true
+        }
+      ]
+    },
+    {
+      "id": "AS-G002-010",
+      "version": "BATTLE-3D-02",
+      "manifest": "E:\\Project\\yanzhou-battle-3d\\v02\\manifest.json",
+      "manifest_sha256": "a3bb4a3bd60562b0605e1dc3c476384b4e68b749d646f76cebf135b4632c4ddd",
+      "files": [
+        {
+          "file": "README.md",
+          "bytes": 2210,
+          "sha256": "0fc10f2aa1ab706b6ca67ec4902a86b14e0801a906353c89ca16cc14517962e9",
+          "expected_sha256": "0fc10f2aa1ab706b6ca67ec4902a86b14e0801a906353c89ca16cc14517962e9",
+          "match": true
+        },
+        {
+          "file": "revision.json",
+          "bytes": 2561,
+          "sha256": "777ced896e006821b90b580ebcecf4bd6eb25b38de2b810f593bc43eb584e3e0",
+          "expected_sha256": "777ced896e006821b90b580ebcecf4bd6eb25b38de2b810f593bc43eb584e3e0",
+          "match": true
+        },
+        {
+          "file": "verification.json",
+          "bytes": 10678,
+          "sha256": "4e074c0d5a54c365a017eca3a973e550e4eef6515e679c055585668b05011424",
+          "expected_sha256": "4e074c0d5a54c365a017eca3a973e550e4eef6515e679c055585668b05011424",
+          "match": true
+        },
+        {
+          "file": "yanzhou-battle-v02.blend",
+          "bytes": 37207307,
+          "sha256": "e3a8be7acbec595ffbe79fe6614a343459d5f100cd158853f57b64dc1e066e34",
+          "expected_sha256": "e3a8be7acbec595ffbe79fe6614a343459d5f100cd158853f57b64dc1e066e34",
+          "match": true
+        },
+        {
+          "file": "yanzhou-battle-v02.glb",
+          "bytes": 30897800,
+          "sha256": "c27d44909024126230e6e6318fa0dc04613002ee6bbb5efc49aa8ab875782876",
+          "expected_sha256": "c27d44909024126230e6e6318fa0dc04613002ee6bbb5efc49aa8ab875782876",
+          "match": true
+        },
+        {
+          "file": "components/01_Table.blend",
+          "bytes": 74026,
+          "sha256": "d0afeb9e9bbd7c9b410b5084bc0ce82a658bbad3b170e2ea1231dee78cabbb1a",
+          "expected_sha256": "d0afeb9e9bbd7c9b410b5084bc0ce82a658bbad3b170e2ea1231dee78cabbb1a",
+          "match": true
+        },
+        {
+          "file": "components/02_Mat.blend",
+          "bytes": 90380,
+          "sha256": "abbf852f39b8b5124ca2c909c6c30c65572cec1256bb4465838e60f3a3e8b01a",
+          "expected_sha256": "abbf852f39b8b5124ca2c909c6c30c65572cec1256bb4465838e60f3a3e8b01a",
+          "match": true
+        },
+        {
+          "file": "components/03_Timeline.blend",
+          "bytes": 89546,
+          "sha256": "874a0b20f6d7a52ee6c9a17b306ef1a74c720cbc6751e5c49f1afca43033160d",
+          "expected_sha256": "874a0b20f6d7a52ee6c9a17b306ef1a74c720cbc6751e5c49f1afca43033160d",
+          "match": true
+        },
+        {
+          "file": "components/04_Slots.blend",
+          "bytes": 70399,
+          "sha256": "27a733a7623c735efde600e89281dd0d0a23c416fd54f0a2ac589a2d7c2f1408",
+          "expected_sha256": "27a733a7623c735efde600e89281dd0d0a23c416fd54f0a2ac589a2d7c2f1408",
+          "match": true
+        },
+        {
+          "file": "components/05_Title.blend",
+          "bytes": 110800,
+          "sha256": "fe7d650952778e40bab3f39e262cf40170ae63358c0a3877dfb4e67746220b39",
+          "expected_sha256": "fe7d650952778e40bab3f39e262cf40170ae63358c0a3877dfb4e67746220b39",
+          "match": true
+        },
+        {
+          "file": "components/06_Drawer.blend",
+          "bytes": 126726,
+          "sha256": "1be80699574bfbb3ed453c1403a1c752d1c5aff11a8ff73934c4fd48c22215e9",
+          "expected_sha256": "1be80699574bfbb3ed453c1403a1c752d1c5aff11a8ff73934c4fd48c22215e9",
+          "match": true
+        },
+        {
+          "file": "components/06_DrawerHousing.blend",
+          "bytes": 68593,
+          "sha256": "76ab879d367afbc8dc12bbc529693bfddbe8bf32ed29063d7c369d0a881dcd0a",
+          "expected_sha256": "76ab879d367afbc8dc12bbc529693bfddbe8bf32ed29063d7c369d0a881dcd0a",
+          "match": true
+        },
+        {
+          "file": "components/07_EnemyPawn.blend",
+          "bytes": 229995,
+          "sha256": "d06db8cf32c6543ac09f619a494fb581c8be40b3b9c630de7fd73964b4444a9d",
+          "expected_sha256": "d06db8cf32c6543ac09f619a494fb581c8be40b3b9c630de7fd73964b4444a9d",
+          "match": true
+        },
+        {
+          "file": "components/08_PlayerPawn.blend",
+          "bytes": 175132,
+          "sha256": "f69eb37262135181582521bee4a4db9f4ab1fc17ad1d8273152fa59cf5a61a2c",
+          "expected_sha256": "f69eb37262135181582521bee4a4db9f4ab1fc17ad1d8273152fa59cf5a61a2c",
+          "match": true
+        },
+        {
+          "file": "components/09_EnemyChips.blend",
+          "bytes": 91506,
+          "sha256": "7230d2b184ca3563cf6be66324e293e98a7572ae9af12e95d71ee9596675d7b5",
+          "expected_sha256": "7230d2b184ca3563cf6be66324e293e98a7572ae9af12e95d71ee9596675d7b5",
+          "match": true
+        },
+        {
+          "file": "components/10_PlayerChips.blend",
+          "bytes": 91451,
+          "sha256": "42571024bb980b433dcca8aa2a8ecaffd60e1cae3976be0db19e9edb7b990c4b",
+          "expected_sha256": "42571024bb980b433dcca8aa2a8ecaffd60e1cae3976be0db19e9edb7b990c4b",
+          "match": true
+        },
+        {
+          "file": "components/11_CardBacks.blend",
+          "bytes": 3129441,
+          "sha256": "3efe7629ff4222fe84a7be8d06f85e06ba15c97dac298d4a85255e80abd1ab47",
+          "expected_sha256": "3efe7629ff4222fe84a7be8d06f85e06ba15c97dac298d4a85255e80abd1ab47",
+          "match": true
+        },
+        {
+          "file": "components/12_FireCards.blend",
+          "bytes": 3055519,
+          "sha256": "ec0fcc0f9f8a475380690c9302b753d5b47db45a17853f6eb0be1a045fa87ca9",
+          "expected_sha256": "ec0fcc0f9f8a475380690c9302b753d5b47db45a17853f6eb0be1a045fa87ca9",
+          "match": true
+        },
+        {
+          "file": "components/13_ShieldCard.blend",
+          "bytes": 3153940,
+          "sha256": "9b5cd03d221ec0b1cbcfc2f4bca14a3570ca17b6ddd7569f07838030a8931a46",
+          "expected_sha256": "9b5cd03d221ec0b1cbcfc2f4bca14a3570ca17b6ddd7569f07838030a8931a46",
+          "match": true
+        },
+        {
+          "file": "components/14_WaveCard.blend",
+          "bytes": 2922550,
+          "sha256": "bc098c6569a0cf5db0882a858faa7a780b18a9236632916f100e79c836e0ebe4",
+          "expected_sha256": "bc098c6569a0cf5db0882a858faa7a780b18a9236632916f100e79c836e0ebe4",
+          "match": true
+        },
+        {
+          "file": "components/15_CrystalWand.blend",
+          "bytes": 312249,
+          "sha256": "674990a2bf19c946b93fe9852af2f03bebdcc0ea788925ccfcc9f28ca53f2202",
+          "expected_sha256": "674990a2bf19c946b93fe9852af2f03bebdcc0ea788925ccfcc9f28ca53f2202",
+          "match": true
+        },
+        {
+          "file": "components/16_RingScepter.blend",
+          "bytes": 179508,
+          "sha256": "5f9a2dadd4df3d04834418c464e73eecbc6b2db041f7201e009b500f2e85a181",
+          "expected_sha256": "5f9a2dadd4df3d04834418c464e73eecbc6b2db041f7201e009b500f2e85a181",
+          "match": true
+        },
+        {
+          "file": "components/17_Spellbook.blend",
+          "bytes": 169479,
+          "sha256": "27b9db7b5c56208e00d5527f2211b75ec1a8d273a163acc8a06f5e3ae55caf3a",
+          "expected_sha256": "27b9db7b5c56208e00d5527f2211b75ec1a8d273a163acc8a06f5e3ae55caf3a",
+          "match": true
+        },
+        {
+          "file": "components/18_CrystalOrb.blend",
+          "bytes": 2170139,
+          "sha256": "b4f30c63423ff2be3cbd6fdb0821e279cf759b63e827d9a8a7f0b3a8c8be0488",
+          "expected_sha256": "b4f30c63423ff2be3cbd6fdb0821e279cf759b63e827d9a8a7f0b3a8c8be0488",
+          "match": true
+        },
+        {
+          "file": "components/19_Study.blend",
+          "bytes": 267539,
+          "sha256": "c705e1ed7e7eebbd243376e10480438e8c20ba6bec65c0612a0e7cfdcda61978",
+          "expected_sha256": "c705e1ed7e7eebbd243376e10480438e8c20ba6bec65c0612a0e7cfdcda61978",
+          "match": true
+        },
+        {
+          "file": "textures/11-card-back.png",
+          "bytes": 3070339,
+          "sha256": "2e493f91588674cdd4d535affba1fd2c6af60b491d14bf0703e1a68fd8562714",
+          "expected_sha256": "2e493f91588674cdd4d535affba1fd2c6af60b491d14bf0703e1a68fd8562714",
+          "match": true
+        },
+        {
+          "file": "textures/12-card-fire.png",
+          "bytes": 2997788,
+          "sha256": "bfa152189b342d25e9758ef1d2fd7a83ca370d1cbbc8833789214d48fbc287c8",
+          "expected_sha256": "bfa152189b342d25e9758ef1d2fd7a83ca370d1cbbc8833789214d48fbc287c8",
+          "match": true
+        },
+        {
+          "file": "textures/13-card-shield.png",
+          "bytes": 3097593,
+          "sha256": "8b55f1d852885276d1fc9d56d9996e96036bcaa3c87feae96a906c9b8b73d2c1",
+          "expected_sha256": "8b55f1d852885276d1fc9d56d9996e96036bcaa3c87feae96a906c9b8b73d2c1",
+          "match": true
+        },
+        {
+          "file": "textures/14-card-wave.png",
+          "bytes": 2864251,
+          "sha256": "f875aabb5eb33a035a8b6cfdc1fcfd11b28344e0f3ce3bc494290c458b072f14",
+          "expected_sha256": "f875aabb5eb33a035a8b6cfdc1fcfd11b28344e0f3ce3bc494290c458b072f14",
+          "match": true
+        },
+        {
+          "file": "scripts/audit_v02.py",
+          "bytes": 1231,
+          "sha256": "2124084c0210150e906c7c3c8ec0abc5e2fd8d6ada9ab4082d799405c52c8334",
+          "expected_sha256": "2124084c0210150e906c7c3c8ec0abc5e2fd8d6ada9ab4082d799405c52c8334",
+          "match": true
+        },
+        {
+          "file": "scripts/deliver_v02.py",
+          "bytes": 7459,
+          "sha256": "90ec7133d690b8487e4adfd217c1435922382485c5e04bf6f0c88d35cd1b4475",
+          "expected_sha256": "90ec7133d690b8487e4adfd217c1435922382485c5e04bf6f0c88d35cd1b4475",
+          "match": true
+        },
+        {
+          "file": "scripts/package_v02.py",
+          "bytes": 1230,
+          "sha256": "b747ce85d1da55655d6bfb3c5c7b18987280e2f892e30ecac9e9a3fc4aa6f49b",
+          "expected_sha256": "b747ce85d1da55655d6bfb3c5c7b18987280e2f892e30ecac9e9a3fc4aa6f49b",
+          "match": true
+        },
+        {
+          "file": "scripts/prepare_delivery.py",
+          "bytes": 1885,
+          "sha256": "dd7f7de4bd0fa5cde00c866e2dc795bb34a0e45f262b2e4a0ff2a0c48d653978",
+          "expected_sha256": "dd7f7de4bd0fa5cde00c866e2dc795bb34a0e45f262b2e4a0ff2a0c48d653978",
+          "match": true
+        },
+        {
+          "file": "scripts/revise.py",
+          "bytes": 3786,
+          "sha256": "f31faedccbc7291ccb072d18262c2e1beedb51fea166ecd914a34d3e69214d33",
+          "expected_sha256": "f31faedccbc7291ccb072d18262c2e1beedb51fea166ecd914a34d3e69214d33",
+          "match": true
+        },
+        {
+          "file": "renders/main.png",
+          "bytes": 2441092,
+          "sha256": "4eebe1bca4e8d56cc9d77b1f1310e812ce5f670159df3cc1c19f609d6146e255",
+          "expected_sha256": "4eebe1bca4e8d56cc9d77b1f1310e812ce5f670159df3cc1c19f609d6146e255",
+          "match": true
+        },
+        {
+          "file": "renders/clay.png",
+          "bytes": 2056135,
+          "sha256": "8a7338be412ee1205395c9f2eb5d1a1c990eb0bda5252ca4fa465e4ccd93a018",
+          "expected_sha256": "8a7338be412ee1205395c9f2eb5d1a1c990eb0bda5252ca4fa465e4ccd93a018",
+          "match": true
+        },
+        {
+          "file": "renders/oblique.png",
+          "bytes": 2482741,
+          "sha256": "155288dfaea38496ae58982025c63f3dfc7b036e9846d8ff32ad5114e512623f",
+          "expected_sha256": "155288dfaea38496ae58982025c63f3dfc7b036e9846d8ff32ad5114e512623f",
+          "match": true
+        },
+        {
+          "file": "renders/glb-roundtrip.png",
+          "bytes": 1082807,
+          "sha256": "8e076269b07e180b056370d0e00a194c118fd1f2356e08f989dc7fd81b8447d3",
+          "expected_sha256": "8e076269b07e180b056370d0e00a194c118fd1f2356e08f989dc7fd81b8447d3",
+          "match": true
+        }
+      ]
+    },
+    {
+      "id": "DM-G002-010",
+      "version": "BATTLE-UI-HTML-10",
+      "manifest": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\10\\11\\01a12b3f-545d-7672-8512-7579183a1c80\\battle-ui-html-v10\\manifest.json",
+      "manifest_sha256": "b466f4db6160c240e422c9d21761f4ab3cba1e3b81349f78f61ab4b5536685b0",
+      "files": [
+        {
+          "file": "check-layout.py",
+          "bytes": 4433,
+          "sha256": "849b807efade6aab3b41633002ed3028ae2c23cf922f47097e95838bd6be5bb3",
+          "expected_sha256": "849b807efade6aab3b41633002ed3028ae2c23cf922f47097e95838bd6be5bb3",
+          "match": true
+        },
+        {
+          "file": "index.html",
+          "bytes": 10648,
+          "sha256": "1cb73bfb422a79a89bacabb3d530be9ad22ecee0a56b9b8329e723742a3fd846",
+          "expected_sha256": "1cb73bfb422a79a89bacabb3d530be9ad22ecee0a56b9b8329e723742a3fd846",
+          "match": true
+        },
+        {
+          "file": "preview-1366.png",
+          "bytes": 119366,
+          "sha256": "fdeeb9132c0825bb3a0f5ff78facac5c0e0cc36f35bcff203fdec475b1c1661a",
+          "expected_sha256": "fdeeb9132c0825bb3a0f5ff78facac5c0e0cc36f35bcff203fdec475b1c1661a",
+          "match": true
+        },
+        {
+          "file": "preview-1920.png",
+          "bytes": 155267,
+          "sha256": "055e28cf56ed90af34c77469bb84288597910f623cb5f3f395a4ccda46910509",
+          "expected_sha256": "055e28cf56ed90af34c77469bb84288597910f623cb5f3f395a4ccda46910509",
+          "match": true
+        },
+        {
+          "file": "preview-736.png",
+          "bytes": 58444,
+          "sha256": "3ee553e4ce983d190a329e18cef234e7ccc86deb9dc5c937dc64339a9d31dc21",
+          "expected_sha256": "3ee553e4ce983d190a329e18cef234e7ccc86deb9dc5c937dc64339a9d31dc21",
+          "match": true
+        },
+        {
+          "file": "README.md",
+          "bytes": 1422,
+          "sha256": "deff822c3299108005c8de0e012fb8245b9b6694bc50fc65ae5835741a15cad7",
+          "expected_sha256": "deff822c3299108005c8de0e012fb8245b9b6694bc50fc65ae5835741a15cad7",
+          "match": true
+        },
+        {
+          "file": "verification.json",
+          "bytes": 1601,
+          "sha256": "16fb641a6765b8223a1e22249fb569fc5e6ec08476c93c640202f8449c6cd2e6",
+          "expected_sha256": "16fb641a6765b8223a1e22249fb569fc5e6ec08476c93c640202f8449c6cd2e6",
+          "match": true
+        }
+      ]
+    }
+  ],
+  "glb_metadata": {
+    "cameras": [
+      "perspective"
+    ],
+    "mesh_count": 1103,
+    "material_count": 22,
+    "animation_count": 0,
+    "external_uris": []
+  }
+}

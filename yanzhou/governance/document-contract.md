@@ -91,3 +91,7 @@ Project ID：game-002。Accepted / Documentation。2026-10-11 / documentation.3�
 core-design.md沿GDD核心事实浓缩，不拥有独立规则裁决权；更新GDD循环、范围、系统关系或不变量时必须复核摘要，更新来源基准或显式标待同步。core-concept.md只保留版本与兼容导航，避免两套长摘要竞争。
 
 探索输入按start.md，用户选择的窄范围不会因文内链接或本文件提及其他来源自动扩大。全量阅读中，CurrentSpec定义现行规则，SourceRecord保留原资格，HistoricalSnapshot仅按原轮次，ImplementationIndex不反向覆盖设计；治理清单中的其他方向名称只作元数据，不作为候选设计来源。缺少详细GDD输入时，不对规则相容性作完整结论。
+
+## 正式开发文档（DOC-021）
+
+`development/production-plan.md`维护阶段范围、交付和验收门槛；`development/development-standard.md`维护本项目开发质量与协作要求；`development/asset-readiness.md`引用已登记AS／DM并记录本次接入差异。资产身份仍在统一目录、玩法问题仍在questions、规则仍在design。技术ADR、具体架构、代码任务与Bug留选定的实现仓库；开发入口只链接当前范围、版本与实际证据。

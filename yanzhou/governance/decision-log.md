@@ -513,3 +513,11 @@ Accepted / first-example.1。用户“可以无材料”“三项均按推荐”
 Accepted / Documentation。用户明确要求UI／实装前彻底整理简化、集中问题并加入首批案例。主阅读线改为简短GDD→权威规则→EX-001；各系统设计／体验压缩为职责、取舍和观察信号；未决统一questions，版本来源集中baseline，独有历史解释按固定Git保留。具体规则、失败路径及保存义务保留；清理映射见cleanup-report。
 
 保留11个五文件目录，新增跨系统examples两文件并把固定GDD阅读包从53增为55；EX身份独立于发行卡、FX和TL。未改用户原有未提交材料，不运行实现或玩法测试。
+
+<a id="g002-doc-021"></a>
+
+## 2026-10-11：正式开发准备（G002-DOC-021）
+
+Accepted / Documentation。用户说明“设计界面已经完成”，要求开发前整理主系统与资产、制订规范和阶段目标；随后明确引擎尚未确定，考虑Unity和Godot，把评估加入计划。建立[开发规范](../development/development-standard.md)、[阶段计划](../development/production-plan.md)及[资产接入](../development/asset-readiness.md)，同步主系统／视觉／开发入口和TL-Q08当前范围。
+
+开发视觉沿HTML v10、效果图v01、组件v01及Blender v02，原件不动；5包75文件校验一致。规则／EX-001内容未改，不新增CORE／TL／FX或发行身份，GDD仍2.2／GDD-0，117项预期NotRun。Unity／Godot待同题实测后选择，本轮不决定引擎或创建实现仓库，不运行玩法实验。旧交付证据和22条用户已有工作树路径保留。

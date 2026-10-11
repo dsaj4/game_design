@@ -1,6 +1,6 @@
 # 言咒主系统
 
-2026-10-11 · GDD 2.2 / GDD-0 · UI与开发查阅版。
+2026-10-11 · GDD 2.2 / GDD-0 · 开发查阅版。正式开发先看[阶段计划](../development/production-plan.md)、[开发规范](../development/development-standard.md)和[资产接入](../development/asset-readiness.md)。
 
 **从[GDD](GDD.md)看整体，再按系统查 rules，使用[EX-001简易法术流](examples/simple-spell.md)对照具体物件与时序。** 当前未决事项只在[问题登记](../governance/questions.md)维护。
 
