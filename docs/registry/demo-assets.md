@@ -78,9 +78,15 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 ### <a id="as-g002-005"></a>AS-G002-005 战斗界面结构线稿包（2026-10-11新增）
 
 - 归属：game-002 / main；[维护说明与三张图入口](../../yanzhou/visual/battle-ui-2026-10-11/README.md)。用途：第一步评审战斗UI位置、信息层级和功能；Raw UI Candidate / Unqualified，未采纳布局，玩法与体验NotRun。
-- 固定版本：UI-WF-01 / v01；[六文件范围与SHA-256](../../yanzhou/visual/battle-ui-2026-10-11/manifest.json)。三份可编辑SVG及同名PNG，各1920×1200，不透明白底，无图集关系。
+- 当前版本：UI-WF-01 / v02；[六文件范围与SHA-256](../../yanzhou/visual/battle-ui-2026-10-11/manifest-v02.json)，[修订说明](../../yanzhou/visual/battle-ui-2026-10-11/v02-notes.md)。三份可编辑SVG及同名PNG，各1920×1200，不透明白底，无图集关系；[v01固定清单](../../yanzhou/visual/battle-ui-2026-10-11/manifest.json)及图源保留。
 - ReadyForScope（仅静态结构评审）/ PresentLocal；2026-10-11核对图像解析、文字边界、三张PNG目视及EX-001指定快照。无交互实现／模型；小屏、真人理解及完整战斗未验证。
-- 来源／关系：用户本轮授权，Codex自制线条与文字；游戏文本输入固定提交`19ed8760c6a925914eb7770a38d2ac551e316f7f`，完整读取范围见维护页。uses: None；derived-from: None；未引用旧UI或第三方美术。SVG使用本机系统字体但不嵌入字体文件；可在本项目改作，对外分发许可未另定。
+- 来源／关系：用户本轮授权，Codex自制线条与文字；游戏文本输入固定提交`19ed8760c6a925914eb7770a38d2ac551e316f7f`，完整读取范围见维护页。v01 uses: None；v02 uses: AS-G002-006@固定SHA-256（仅布局参照）；derived-from: None（外部资产）。SVG使用本机系统字体但不嵌入字体文件；可在本项目改作，对外分发许可未另定。
+
+### <a id="as-g002-006"></a>AS-G002-006 用户提供的牌桌布局参考（2026-10-11新增）
+
+- 归属：game-002 / main；[原件位置、来源、规格与使用记录](../../yanzhou/visual/battle-ui-2026-10-11/v02-notes.md#as-g002-006-用户提供的牌桌布局参考)。PNG 1672×941；固定SHA-256 `5b402a3b35d3b1d44d79c316f1fe09251fc440a2f5a8598f3c41603893a5b63f`。
+- Catalogued / PresentLocal；2026-10-11目视、尺寸与哈希核对。原件位于用户附件临时目录，未复制／推送原图，长期访问未知；作者、生成来源与对外分发权Unknown。
+- 用户授权用于本轮UI布局参照；使用者AS-G002-005@v02。只参考空间构图，不导入美术像素，不继承卡义或玩法；uses: None；derived-from: None。
 
 | ID / 名称 / 标签 | 归属 / 原件入口 | 版本 / 来源条件 | 状态 / 使用边界 |
 | --- | --- | --- | --- |

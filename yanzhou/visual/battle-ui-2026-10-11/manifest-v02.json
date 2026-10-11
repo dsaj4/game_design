@@ -1,0 +1,52 @@
+{
+  "asset_id": "AS-G002-005",
+  "version": "UI-WF-01/v02",
+  "date": "2026-10-11",
+  "design_input_commit": "19ed8760c6a925914eb7770a38d2ac551e316f7f",
+  "reference_asset": "AS-G002-006",
+  "reference_sha256": "5b402a3b35d3b1d44d79c316f1fe09251fc440a2f5a8598f3c41603893a5b63f",
+  "files": [
+    {
+      "path": "battle-wireframe-v02-adjustment.png",
+      "sha256": "364846cfed8213a77ef997a15933958a9e964df05de8bad218b70c5ef196040c",
+      "bytes": 236992,
+      "width": 1920,
+      "height": 1200
+    },
+    {
+      "path": "battle-wireframe-v02-adjustment.svg",
+      "sha256": "d001f18dae9502e40d3d6a4697699785770813aa4d6126085c60be0927d84816",
+      "bytes": 26325,
+      "width": 1920,
+      "height": 1200
+    },
+    {
+      "path": "battle-wireframe-v02-main.png",
+      "sha256": "5f47f95692b207573af77732744d8cbcebf0ff65a530c23642421bb268514ad1",
+      "bytes": 230901,
+      "width": 1920,
+      "height": 1200
+    },
+    {
+      "path": "battle-wireframe-v02-main.svg",
+      "sha256": "3427a041204fcfeff6504b7a6e472ae86b6a4614a35d22605a5c3b19a912a807",
+      "bytes": 26133,
+      "width": 1920,
+      "height": 1200
+    },
+    {
+      "path": "battle-wireframe-v02-overview.png",
+      "sha256": "e636e5d918cc8fcdc5f136629b5e037e4794686196b8750304693e8faeeed9a8",
+      "bytes": 217653,
+      "width": 1920,
+      "height": 1200
+    },
+    {
+      "path": "battle-wireframe-v02-overview.svg",
+      "sha256": "1a09a1e1595b43bd6c46fa73d6ba972ec58ea486d83657369271ce81edc6ac10",
+      "bytes": 24327,
+      "width": 1920,
+      "height": 1200
+    }
+  ]
+}
