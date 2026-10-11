@@ -1,6 +1,8 @@
 # 系统目录
 
-Project ID：game-002。文档角色：Navigation。修订：2026-10-08 / system-docs.2；法器及敌人内容索引增量 artifact-framework.1 / enemy-framework.1。依据 G002-DOC-013／014／015／016。
+Project ID：game-002。文档角色：Navigation。修订：2026-10-11 / guidance-alignment.1；沿system-docs.2目录，汇入法器、铭文／辅槽、行动意图。依据G002-DOC-013—019。
+
+当前跨系统复核：[2026-10-11设计指导集成](../../governance/main-system-review-2026-10-11.md)。已汇入三组Qualified设计意图；规则仍CORE-058，具体内容与体验验证未完成。
 
 ## 六个主系统
 

@@ -5,9 +5,9 @@
 | 字段 | 内容 |
 | --- | --- |
 | 文档ID／项目 | GDD-G002-FULL-001 / game-002 |
-| 版本／更新 | 2.1 / TL-1 + INS-1，局部修订routing.1 + processing.2 + timing.2 + enemy.1 + commitment.1 + time-formula.1 + resource.1；规则基准2026-10-09 |
+| 版本／更新 | 2.1 / TL-1 + INS-1，局部修订routing.1 + processing.2 + timing.2 + enemy.1 + commitment.1 + time-formula.1 + resource.1；规则基准2026-10-09；文档集成2026-10-11 / guidance-alignment.1 |
 | 成熟度 | **GDD-0：概念与核心结构版**；不宣称原型或完整制作规格就绪 |
-| 设计状态 | 既有核心结构及CORE-055—058限定接口与资源设计Accepted；辅槽、行动／标记其余新增通用框架Qualified；具体新卡表与未决边界独立Proposed / Unknown |
+| 设计状态 | 既有核心结构及CORE-055—058限定接口与资源设计Accepted；法器／铭文／行动新设计意图与其候选、辅槽及行动／标记其余通用框架Qualified；具体新卡表与未决边界独立Proposed / Unknown |
 | 证据状态 | Hypothesis / NotRun |
 | 负责人／评审 | 用户为设计负责人；Codex整理；规则、内容、体验分别评审 |
 | 目标里程碑 | 统一新核心，完成卡表与边界后再升GDD-1 |
@@ -52,6 +52,23 @@ commitment.1按[CORE-055](../sources/draft-changes/D-2026-10-08-batch-freeze-con
 资源承担核心约束、产出积累、环境表达，表现材料逐步精炼和施法逐渐完成。玩家选择即时攻防或继续升级、增加消耗快速取胜或节料延长战斗，以及当前兑现或跨战留存。转化／升级和兑现法器分工，使中间产物有使用入口；多阶类似产出同时具有量值和效果差异。
 
 资源总种类可丰富，单场只运行少量，高阶常见1—2个为密度目标；战中资源区不另设硬容量。配方主要按性质与最低阶级识别，默认最低合格阶级，兑现可指定阶级不足等待；观察窗口切换已有用途或指定阶级只影响未来批次，不改承诺。普通用途公开兼容、消耗和产物，基础路线不依赖隐藏彩蛋；常态自动运行、关键敌情再改计划。具体卡表延期，体验仍Hypothesis / NotRun，风险与观察见[资源设计](systems/resource-system/design.md)及[资源体验](systems/resource-system/experience.md)。
+
+### 系统设计与体验分工（2026-10-11集成）
+
+本表摘要已有规则与已确认意图；新增意图仍Qualified，不是新的操作权限或体验证据。完整设计、假设与反例分别在原系统文件中维护。
+
+| 系统 | 希望玩家完成的判断与感受 | 来源状态与边界 |
+| --- | --- | --- |
+| [法器](systems/artifact-system/design.md) | 理解器具工序，观察实际状态，以合法调整改变后续运行 | ART-I1—4 Qualified；程序实现与决策重心、摘要／详情、加工／空闲形态，不开放重铭 |
+| [铭文](systems/inscription-system/design.md) | 从语义规律发现组合，运用共性分配实际实体 | INS-I1—3 Qualified；发现、免费试配与长期知识尚未成为执行规格，不赠实体或永久属性 |
+| [辅槽](systems/inscription-system/augment-system/design.md) | 保留核心逻辑，选择有侧重的时间／量值增强 | AUG与INS-I4／5 Qualified；取舍为主、成长并存，替换成长不等于强化／合成，打造费用和时机待定 |
+| [行动卡](systems/action-card-system/design.md) | 看清攻防与投入兑现，以可理解的单卡和标记组织效果 | 行动意图Qualified；可强力不等于已平衡，结果判断不新增逐卡出牌或选目标 |
+| [标记](systems/action-card-system/mark-system/design.md) | 识别持续状态，比较保留与消费，追踪共享条件及未来兑现 | Q-MARK／ACT框架Qualified，CORE-055／057接口局部Accepted；实有、预告、冻结和锁定分开 |
+| [资源](systems/resource-system/design.md) | 比较即时攻防、继续精炼、环境取材与跨战留存，感受准备逐渐兑现 | CORE-058 Accepted；多阶须有量值与效果差异，普通用途公开，具体配方延期 |
+| [敌人](systems/enemy-system/design.md) | 用分阶段公开的信息判断承受、转防、取消或调整未来开工 | CORE-054 Accepted；实际生效含等待和队列，窗口不是T−D，首版内容限制继续有效 |
+| [局外成长](systems/meta-progression-system/design.md) | 尚未定义独立职责 | 尚未开发；不把知识查阅候选、局内打造或跨战携带当作永久成长 |
+
+公共流程承接[路线选择](common/run-route/design.md)、[获取和留存](common/run-economy/design.md)、[合法操作与恢复](common/interaction-save/design.md)。常态由配置自动运行，关键情境才改计划；系统各自可读之外，还须检验组合后的操作负担与实际替代选择。来源与纠错见[审查](../governance/main-system-review-2026-10-11.md)，所有体验仍Hypothesis / NotRun。
 
 ## 2. 核心循环与玩家旅程
 
@@ -98,7 +115,7 @@ flowchart LR
 
 兼容规则TL-26–37补充稳定词义、实例／条件名单、修饰挂接、护甲生命周期、分阶段支付、真实配置、单向路线与节点经济、决策保存和普通数量合同。制造耗材不因无目标退还，铭文和战斗状态不混入资源携带；[来源审查](source-review.md)限定原材料使用范围。
 
-这些是已定结构，共同拍序见第5章及SYS-003 TL-11，尚不是全部事件的总顺序。
+通用总序已由CORE-057闭合，见第5章及SYS-003 TL-11；具体内容仍须声明步骤、依赖、费用和生命周期，不能由总序代填。
 
 ## 4. 系统规格
 
@@ -156,7 +173,7 @@ CORE-057／timing.2已补齐通用总序：已有行动先防护后其余，各�
 
 ## 16. 风险、未知与决策
 
-风险：频繁微操、队列阻塞无法解释、大批次长期等位、材料循环无代价、维护吞掉全部供给、单一高阶路线支配。设计负责人在GDD-1前完成卡表和总时序；真实体验在独立授权验证后判断。CORE-037–058及进一步局部决定见[决策记录](../governance/decision-log.md)。
+风险：频繁微操、队列阻塞无法解释、大批次长期等位、材料循环无代价、维护吞掉全部供给、单一高阶路线支配。设计负责人在GDD-1前完成卡表、参数及具体生命周期；通用总序已由CORE-057确定；真实体验在独立授权验证后判断。CORE-037–058及进一步局部决定见[决策记录](../governance/decision-log.md)。
 
 ## 17. 附录
 
@@ -175,4 +192,4 @@ CORE-057／timing.2已补齐通用总序：已有行动先防护后其余，各�
 
 阶段二首批敌情合同、卡面种类与敌人候选见[CORE-054](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)；候选不构成发行池，真实组件的来源、参数与遭遇适配仍须在正式内容登记时核对。当前沿阶段1—4已完成的用户前提推进框架接口整理，成熟度与证据状态不变。
 
-[2026-10-08重建审查](../governance/main-system-review-2026-10-08.md)记录已订正旧表述及仍未闭合的时间修饰、标记支付／定时、恢复与内容接口；当前问题统一在[问题清单](../governance/questions.md#重建后接口核对2026-10-08)维护。
+[2026-10-08重建审查](../governance/main-system-review-2026-10-08.md)保留原轮次的审查；其中通用时间修饰、支付／定时及恢复合同现已由CORE-055—057补齐，具体内容接口仍待闭合；当前问题统一在[问题清单](../governance/questions.md#重建后接口核对2026-10-08)维护。

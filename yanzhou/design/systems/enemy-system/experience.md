@@ -1,6 +1,7 @@
 # 敌人系统：玩家体验
 
 Project ID：game-002。文档角色：ExperienceHypothesis。修订：2026-10-08 / enemy-framework.1。基准：TL-1 + INS-1 / enemy.1。状态：Hypothesis / NotRun。来源为 [阶段二合格素材](../../../sources/materials/M-2026-10-05-stage-two-enemy-pressure.md)及 [限定评估](../../../sources/evaluations/E-2026-10-05-stage-two-enemy-pressure.md)，原 SYS-005 身份保留。
+本轮文档复核：2026-10-11 / guidance-alignment.1；规则输入CORE-058及之前采纳，新增意图保持原资格；无玩法执行证据。
 
 [入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md) · [示例](examples.md)
 
@@ -46,3 +47,7 @@ Project ID：game-002。文档角色：ExperienceHypothesis。修订：2026-10-0
 新遭遇要能形成普通自动运行区间、一个明确应对窗口与一次收益兑现；记录是否每拍都被迫操作。先做内容与截止关系核对，再经单独授权运行玩法验证。
 
 优先补齐真实配置、遭遇参数与所需的复杂效果接口，见 [未决依赖](design.md#未决接口与依赖)。本页不因阶段交付完成、静态核对通过或存在多条纸面路线而标记体验已验证。
+
+## 同一威胁是否只剩固定操作
+
+后续在已冻结内容中改变玩家的真实库存、队列及生命，观察其对同一程序的选择。支持信号是能用当前机会成本说明为何承受、转防或停供；失败信号是每轮只复现同一停供时间表，或者只有背出未揭示Δ才有生路。需区分熟练掌握规则与无需再作判断，不能把“程序固定”本身判为设计失败。先核对存在可达替代，再做获授权观察；本轮NotRun。

@@ -18,3 +18,5 @@ Project ID：game-002。文档角色：Navigation。修订：2026-10-08 / system
 本次以已确认的 [通用框架素材](../../../../sources/materials/M-2026-10-08-augment-framework.md) 重写。原三份 `positioning.md`、`rules.md`、`examples.md` 已在本地逐字节备份；原输入身份与哈希见 [来源记录](../../../../sources/inbox/2026-10-08-augment-framework-review.md#文档拆分与原输入保全)。旧数值、线性三阶与被排除的效果不作为本版默认。
 
 [铭文系统](../README.md) · [全部系统](../../README.md) · [分文件维护约定](../../../../governance/document-contract.md#系统文件夹与分文件职责) · [规则来源与用户原话](../../../../sources/inbox/2026-10-08-augment-framework-review.md#原始想法与触发来源)
+
+2026-10-11指导集成：**保持核心逻辑、有侧重的替换成长**，见[设计](design.md)与[体验](experience.md)。状态按各页来源保留，未新增玩法采纳或运行证据。

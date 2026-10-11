@@ -1,6 +1,8 @@
 # 言咒 · Yanzhou
 
-Project ID：game-002。当前设计：**GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.2 + enemy.1 + commitment.1 + time-formula.1 + resource.1，GDD-0**。规则采纳基准2026-10-09；系统框架整理2026-10-09。核心结构、主辅槽铭刻、单一处理、生产／队列接口、阶段一共同拍序与阶段二敌情合同已采纳；发行内容、具体生命周期与数值待设计，体验Hypothesis / NotRun。现有探索方向已退役。
+Project ID：game-002。当前设计：**GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.2 + enemy.1 + commitment.1 + time-formula.1 + resource.1，GDD-0**。规则采纳基准2026-10-09；系统设计与体验集成2026-10-11。核心结构、主辅槽铭刻、单一处理、生产／队列接口、阶段一共同拍序与阶段二敌情合同已采纳；发行内容、具体生命周期与数值待设计，体验Hypothesis / NotRun。现有探索方向已退役。
+
+当前跨系统复核：[2026-10-11设计指导集成](governance/main-system-review-2026-10-11.md)。已汇入三组Qualified设计意图；规则仍CORE-058，具体内容与体验验证未完成。
 
 | 我想做什么 | 入口 |
 | --- | --- |

@@ -1,0 +1,647 @@
+{
+  "project": "game-002",
+  "date": "2026-10-11",
+  "mode": "CUSTOM",
+  "baseline": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+  "guidance": {
+    "path": "C:\\Users\\Administrator\\AppData\\Local\\Claude-3p\\local-agent-mode-sessions\\971d2948\\00000000\\dd4a8c72\\outputs\\yanzhou-systems-design-guidance.md",
+    "sha256": "aba28366aff2bed576b9e2ab7aa6fd8cf8870672b10ce947090d69d3c2e37068",
+    "coverage": "完整分段读取；原文快照保留"
+  },
+  "design_scope": [
+    {
+      "path": "yanzhou/design/GDD.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "3847daef75d93f8a4bc70193c0cb407166cd8b23",
+      "sha256": "98a858d56a5e67771953cc6772c68cb73bb0b592942974cd7db6f72dd5d5d066",
+      "coverage": "相关章节、导航、元数据或搜索核对；不记全文"
+    },
+    {
+      "path": "yanzhou/design/README.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "ad0babcb35d6c4256174111d245dd92a5ad2b78b",
+      "sha256": "2279f8f07ab18ea9831c9fea9554737ee3bea4894f9965ff3033ff9477a43e9a",
+      "coverage": "相关章节、导航、元数据或搜索核对；不记全文"
+    },
+    {
+      "path": "yanzhou/design/baseline.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "bde76bbcb9e104efb1d6503b858c0569456bbc1c",
+      "sha256": "5260e16ac1847197b45e44986e8be0096197338b635422d5d4dc67e0c30269b8",
+      "coverage": "相关章节、导航、元数据或搜索核对；不记全文"
+    },
+    {
+      "path": "yanzhou/design/common/README.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "4ec1fde670d7e8e610647416c64c87b7f2c3fa14",
+      "sha256": "243273460413ebff1614a3c96f07742f9fd577d4917e992d1e00eaa41af9cef9",
+      "coverage": "相关章节、导航、元数据或搜索核对；不记全文"
+    },
+    {
+      "path": "yanzhou/design/common/interaction-save/README.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "5a71036a29df381492d510e97bf6a15a613eabe7",
+      "sha256": "6b47a87aea3d4118890fe126464ac8c5f72a8830c3abb42935ff1381e6f005a5",
+      "coverage": "相关章节、导航、元数据或搜索核对；不记全文"
+    },
+    {
+      "path": "yanzhou/design/common/interaction-save/design.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "7a540e4ebd9db14a22596ae4a50906e1a182edbc",
+      "sha256": "37f6b53118aabc9a70e59173a993183514a80c0dab4395f3f380bca8be3295a8",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/common/interaction-save/examples.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "c0f60762fb4dd567c671ef314dc2b65745b0a72f",
+      "sha256": "8103242e176039ca7ddc50a3e3532f493a9b0465d5954555ee3f13c3fa30a142",
+      "coverage": "关联示例核对；interaction-save示例未作全文复核"
+    },
+    {
+      "path": "yanzhou/design/common/interaction-save/experience.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "c411ca68dd8cfe888d42262c49b6de1fd7e0f35c",
+      "sha256": "1055e5f93b62f0690ea5f8d2049da631e2870bfc018aa065854ad0a927b13369",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/common/interaction-save/rules.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "b4918a2316e5ee909d12181ef345511baab934d4",
+      "sha256": "1141d23906a7c060440b6f7543b3bb3ca2db187dac0b6f6f2c30b1c524694c31",
+      "coverage": "全文规则或内容核对"
+    },
+    {
+      "path": "yanzhou/design/common/run-economy/README.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "92c70d9cab345ade766eddf65db178b41074fa62",
+      "sha256": "61924f53cd4bfaf113bd08d3954265064de46888983b45e5154f39947b3d86a7",
+      "coverage": "相关章节、导航、元数据或搜索核对；不记全文"
+    },
+    {
+      "path": "yanzhou/design/common/run-economy/design.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "265041e89a0261082424be716ec7af22ed6eb7ea",
+      "sha256": "f9ba0f1776bf096770ff8aa235b98fa8c86748bccc1340f2c3babc2414936827",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/common/run-economy/examples.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "b25e3791bdbf12bf1368b82945cf284110013210",
+      "sha256": "a909d95f3ef9d33392c627ed16c4d9a7957fb70e90c6935c412f1a2f0d02a254",
+      "coverage": "全文或关联边界核对"
+    },
+    {
+      "path": "yanzhou/design/common/run-economy/experience.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "c0cf97084b1e6cb7ea2f5080d86fd9a4ff0b374c",
+      "sha256": "1a83680cfbb7fd89ee26e45a10c11c579fc39a4b13fa3bed609d886fa51ea721",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/common/run-economy/rules.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "b8d9c6f67384a4c57fe6ec58df453b1b7c96749a",
+      "sha256": "4aba245d2b8e3f9657525015640318a1b583d1795b43a2ea2747128f7ced07ba",
+      "coverage": "全文规则或内容核对"
+    },
+    {
+      "path": "yanzhou/design/common/run-route/README.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "92d5d22dc92540fee17b1250176140600559d75e",
+      "sha256": "ee03f5ec7e63e9a2c9dd75ce5f593327e6f51882b26dbc7af9465436f49e0858",
+      "coverage": "相关章节、导航、元数据或搜索核对；不记全文"
+    },
+    {
+      "path": "yanzhou/design/common/run-route/design.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "2835eb6ea53f0672507d0d7f73fe4980c1770b60",
+      "sha256": "977a2823d8eb053dcc875211cae97a831091a758d8d8ed411bab4a644edba6fc",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/common/run-route/examples.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "c192767c2cdd3b1e0d45c76bb69d05cda64f2216",
+      "sha256": "c0d834761d9daad3900bead2b5e8da66809cbeb4b31a059084d1cc3d666c6430",
+      "coverage": "全文或关联边界核对"
+    },
+    {
+      "path": "yanzhou/design/common/run-route/experience.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "067bee2c5c3b61d5f0e4985128b8bcff7eaaf7ab",
+      "sha256": "0f40c17a4a823ea5c08bc9fcdcc6ae59027a60be46ce79480e9ba879ed090f78",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/common/run-route/rules.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "6336b1f6a92a3c9ecd463a6d704a05a2362c2fb2",
+      "sha256": "0d1823f86628a1d1cce12d3c0ee8685b90c00a3bb67ae3379c02821b576358ca",
+      "coverage": "全文规则或内容核对"
+    },
+    {
+      "path": "yanzhou/design/content/cards.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "2d0a1f2fb7c51c85f632eb9f01f6e731a94253df",
+      "sha256": "27c9e7ee83868fc50eff8742d7e865fb374c069bd98b1f6caa58d5721d36b999",
+      "coverage": "全文规则或内容核对"
+    },
+    {
+      "path": "yanzhou/design/content/enemies-encounters.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "29dc1b76b2900420fcaafa42595372f28a3c87d9",
+      "sha256": "cad610c2a9ddc2a501be3e213d9fdd7d49a0d0577f81eaa1cbe33c2e39757ccf",
+      "coverage": "全文规则或内容核对"
+    },
+    {
+      "path": "yanzhou/design/content/wands.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "a45a8ca745d6b00a5d655dc5aa5c2c15fed47ecc",
+      "sha256": "69af07bafc9437cdaa9166a8e2f5a1ab02293dd95ce92cd62fb2a840e3536abe",
+      "coverage": "全文规则或内容核对"
+    },
+    {
+      "path": "yanzhou/design/core-concept.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "577cc89e43fc9d59c17cff98980fee23f697f52d",
+      "sha256": "aff441cb8132d969fec4c2834e73e69352db4a9840a750a20a17f2d64dc2dcba",
+      "coverage": "相关章节、导航、元数据或搜索核对；不记全文"
+    },
+    {
+      "path": "yanzhou/design/core-design.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "1ae6f48daa396a35d0bd9e597bc82797001f909e",
+      "sha256": "4eb8a7bb10bbdb6eedadbf3696908ac7cb8f875537626cc9c109ade1b3f02531",
+      "coverage": "相关章节、导航、元数据或搜索核对；不记全文"
+    },
+    {
+      "path": "yanzhou/design/legacy-index.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "cb839e450a4424a0fffbb184f1784b08843ad52e",
+      "sha256": "56a6eebf2d7cf6104eb26d883fda8e798bca21cb38ca72a33d7ad390702a8ff4",
+      "coverage": "相关章节、导航、元数据或搜索核对；不记全文"
+    },
+    {
+      "path": "yanzhou/design/parameters.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "28a4ba691a9d6e77bcaaf0cb8ceb73f52282fab5",
+      "sha256": "4c930449c22662d7d4fe31d6a219a78966d272a3f9a11e5187fa3e6d04d4d606",
+      "coverage": "全文规则或内容核对"
+    },
+    {
+      "path": "yanzhou/design/source-review.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "1d50c9cb3aee7a83a7db5fb169cca64bed5aea7f",
+      "sha256": "07146d6f5f23ca12fc26c328b9c31c18adc3c1112ba2696b44e0048d7c338d98",
+      "coverage": "相关章节、导航、元数据或搜索核对；不记全文"
+    },
+    {
+      "path": "yanzhou/design/systems/README.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "c19d2ff709ce54a9f8effeb44f612bc52ec5ed26",
+      "sha256": "942b5fb5b028d72bcec9ea68a7cb04892d0eaffb90d75391114ddb475993aaf9",
+      "coverage": "相关章节、导航、元数据或搜索核对；不记全文"
+    },
+    {
+      "path": "yanzhou/design/systems/action-card-system/README.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "b60a549d2b909e54f3b274c348863a6ee83d115c",
+      "sha256": "e9bdecac1fc43f277b6d2c9f0d3aa15e6df57dd4b792e4a8c3f19676311bb8c7",
+      "coverage": "相关章节、导航、元数据或搜索核对；不记全文"
+    },
+    {
+      "path": "yanzhou/design/systems/action-card-system/design.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "fcf556d4ae5a05f23d63304e74cf675beefcb5d4",
+      "sha256": "b0ddd8f3297ae98cea6d1045cc1a3a19adedc3dc16e7f7c7a651aa2aff9df1c3",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/systems/action-card-system/examples.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "790279c858202b070fdba0301ac954e7ead9f253",
+      "sha256": "1179587d5cc3fc6ec349912e9f219d78d26a019484a933ce19c1b15cfcd483e1",
+      "coverage": "全文或关联边界核对"
+    },
+    {
+      "path": "yanzhou/design/systems/action-card-system/experience.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "904783b3415747cd000a07efa57d6cbc9a3c9401",
+      "sha256": "c47324fc7e9556e663b8cc7501448ab115f7298cb50ed60887c0b3dea778a681",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/systems/action-card-system/mark-system/README.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "23b0e6d03c10bd082ebe2180be442bdf20154079",
+      "sha256": "d08f076b7e541170c2c7663599ed2857e75461c154a50c7f98104598fae3bfab",
+      "coverage": "相关章节、导航、元数据或搜索核对；不记全文"
+    },
+    {
+      "path": "yanzhou/design/systems/action-card-system/mark-system/design.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "41b320befe3043d7051e017f81323fcc1d2b5590",
+      "sha256": "8e300404db8d587aa54f1e375ccc5f66aa9226243a5d781c91ab6f9ae02bf813",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/systems/action-card-system/mark-system/examples.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "b861131f82c8dc6e0488feb76c4e3110044c3d9d",
+      "sha256": "1b49db881c9bb1d76dabedc6be0a1bf3e96f11c4843f027c8310163167beb7be",
+      "coverage": "全文或关联边界核对"
+    },
+    {
+      "path": "yanzhou/design/systems/action-card-system/mark-system/experience.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "38959e7b8739d87b8f63c58cbfbae41195c4318f",
+      "sha256": "d0090783de475d7efeaa057bc0a8ca796cca0b878849fbdc62c8d46e58281de3",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/systems/action-card-system/mark-system/rules.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "252e49ecdd497046bfb21b6fbc7fc3e5c2d05e53",
+      "sha256": "1abb9e4230021c4037e107564bdf42f1c4894b9f5c93b50a66ed78572fb9961e",
+      "coverage": "全文规则或内容核对"
+    },
+    {
+      "path": "yanzhou/design/systems/action-card-system/rules.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "4962629458e0ae815b6ffc91877a50fa140fff87",
+      "sha256": "de0731f7dac2d495b9a5ae6b541240c871d67746eb89b377f265ac9ac65f3c30",
+      "coverage": "全文规则或内容核对"
+    },
+    {
+      "path": "yanzhou/design/systems/artifact-system/README.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "77bf2cc65fc2d598f196884a1e5590e7c8bc2cda",
+      "sha256": "ac74061a088cc2ccf7d10d4787fa47b81f373561f259b9edafe43cb46426d601",
+      "coverage": "相关章节、导航、元数据或搜索核对；不记全文"
+    },
+    {
+      "path": "yanzhou/design/systems/artifact-system/design.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "5257db074ee7301881b41ae2aa322b2404d52374",
+      "sha256": "84cfcd3822022d6de18e458da7827ac9be9885b112a514f4303dac38f1dba968",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/systems/artifact-system/examples.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "6243ee9a360782c73f44cc141cea18ae4f68b955",
+      "sha256": "8baf27c3cd12d168d0ba8dc482cc8bc454439e119f6c7ee9c1f423803c0d96d1",
+      "coverage": "全文或关联边界核对"
+    },
+    {
+      "path": "yanzhou/design/systems/artifact-system/experience.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "102b78d00e24bb5426d2f084e13d2941b6c089cb",
+      "sha256": "83810e9f21dec00f0ab93ef6823db8637a0807cdc4d425e119dc66dbc102b180",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/systems/artifact-system/rules.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "57776dcbca50cbda75ace42eb6232f032e6288dc",
+      "sha256": "fc3698111c7b5532a5214fd5e1a1316d5df23463bfeef71a92012a8e1065ff06",
+      "coverage": "全文规则或内容核对"
+    },
+    {
+      "path": "yanzhou/design/systems/enemy-system/README.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "a283dcc7ce186871ecea5abb2517c33570d99be0",
+      "sha256": "49f070850d095040a61a612bf07ff29aeae0e12771f79f39279680e1a4168a46",
+      "coverage": "相关章节、导航、元数据或搜索核对；不记全文"
+    },
+    {
+      "path": "yanzhou/design/systems/enemy-system/design.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "75309bdcccccbdb9723ac7ad0ece6d980d3d07e5",
+      "sha256": "89fc0f73d34fde232ab9aca7a90679af589b2ac3a4a424a6d41e7253784a4700",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/systems/enemy-system/examples.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "b819189c70ca300abb788f24c4d3ebffe6f958b1",
+      "sha256": "52ca67734c26865580474b6e4bb248ec14e5c7ba53987213eb881df61d15ffc9",
+      "coverage": "全文或关联边界核对"
+    },
+    {
+      "path": "yanzhou/design/systems/enemy-system/experience.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "82e9eb05315eae779b424770c583b63052151d50",
+      "sha256": "503ccc694f200c8603e55fc11f7b518b4e7d82aabd5293f2874f732f3c822856",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/systems/enemy-system/rules.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "239db8ede603ece64f9027fc9b1eebda464f4996",
+      "sha256": "4833772a60936c034d95052d1c82b7684a0f6ec7281987a093d8152665751d52",
+      "coverage": "全文规则或内容核对"
+    },
+    {
+      "path": "yanzhou/design/systems/inscription-system/README.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "5346f867b8cb95221425360ec61e947af30ce182",
+      "sha256": "4cd94d04b9aec4809ca639f7cc000a8ec497167a3a5c3e2eb639ef22ccb25a3f",
+      "coverage": "相关章节、导航、元数据或搜索核对；不记全文"
+    },
+    {
+      "path": "yanzhou/design/systems/inscription-system/augment-system/README.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "b548a1ef0701980b7e9872616acdf07e4a1bb636",
+      "sha256": "127297173cf120188a13eaf92bd27234f2196eab180a2fa4557cd2c76929ac62",
+      "coverage": "相关章节、导航、元数据或搜索核对；不记全文"
+    },
+    {
+      "path": "yanzhou/design/systems/inscription-system/augment-system/design.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "23e8438307c250a0aeeae33ec09455f12859bdb5",
+      "sha256": "2a6207f1d4b54a1cf502f91988e7e9e498021d33692673ada00e447b7e4a6df5",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/systems/inscription-system/augment-system/examples.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "8751de79edee4ec9b2e8958b8fde1f2f1b9c930d",
+      "sha256": "834a13d9f8079793e5ead039d8c36eaa787df13944a0f0a868273217236c0ca6",
+      "coverage": "全文或关联边界核对"
+    },
+    {
+      "path": "yanzhou/design/systems/inscription-system/augment-system/experience.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "26a95379e968166a5a62eea374239d33e6613170",
+      "sha256": "d1c620dd504954017f83140c733d9aef7b2d79e5db555742147f9ee00a815b00",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/systems/inscription-system/augment-system/rules.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "905cc8f80e8297f22b95a576e46987ef919668d4",
+      "sha256": "765e7b7eddf62dff4392d3f4cdb354fb48dbe945c7463114549c1f1566df1d66",
+      "coverage": "全文规则或内容核对"
+    },
+    {
+      "path": "yanzhou/design/systems/inscription-system/design.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "8b16db6b41dae29d9c22030379113f03a10c182b",
+      "sha256": "6b7904eef1e91393244ca8272d92e3ab4c61417c24de5fa08dc1cd4854f792a1",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/systems/inscription-system/examples.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "96ba590d091e847cce456a53a14750bc464f7fb6",
+      "sha256": "6d4f2d0ab6107a7c487013069eccbaacd87f19b2a5331ae861df41edd3f63d35",
+      "coverage": "全文或关联边界核对"
+    },
+    {
+      "path": "yanzhou/design/systems/inscription-system/experience.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "e6a30e09e4b626eb90584d7e321c9c8317ab3967",
+      "sha256": "2329464b8b541f87a23b95cddfc7d31667eac99af003f88c2bd86b1732277065",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/systems/inscription-system/rules.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "347e52a251c7129a55f8579c6f18e47ff956d18f",
+      "sha256": "6a91c30142d8b8bd58f0686b2ef81a7074acb28a03f2d94f1f81c0f0af4fefdb",
+      "coverage": "全文规则或内容核对"
+    },
+    {
+      "path": "yanzhou/design/systems/meta-progression-system/README.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "c021ddc8a6b0da8865ae95c2d8638051e61938e6",
+      "sha256": "5f5e81bb14a7d48206b54d942a465191a97396a30d44edbb5676eff6f54b3e9a",
+      "coverage": "相关章节、导航、元数据或搜索核对；不记全文"
+    },
+    {
+      "path": "yanzhou/design/systems/meta-progression-system/design.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "7ad4548de83b1822f7d6e1f9899e01f0ff6238b2",
+      "sha256": "30e5480f9f61c8ef4eda40f9097503c79e472da6e8cca591b07ae4f132143864",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/systems/meta-progression-system/examples.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "4641eaa04f2d239d8fd4d0975ec83cc201844c48",
+      "sha256": "6e322d65ae1f07aadc5ee6f5c31c8ea525804ee0719e43f5687392301f0b136a",
+      "coverage": "全文或关联边界核对"
+    },
+    {
+      "path": "yanzhou/design/systems/meta-progression-system/experience.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "fdee5e3886ecf0f6487acb6ce3004c0ea50e3f67",
+      "sha256": "0bbcba0b9cd6bf26831ee775427c68a70f710aae35b104459bd10f0ec0f8771c",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/systems/meta-progression-system/rules.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "ed46888c57ee3722b5eb44bc79496ad30b25d7c5",
+      "sha256": "7d37067b9ec3b5a25b223d466b9aee7d7d85c72d171367693ff16e3e4504428f",
+      "coverage": "全文规则或内容核对"
+    },
+    {
+      "path": "yanzhou/design/systems/resource-system/README.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "8083d2a0c95889c7503f54dab64c4bb7d2e93698",
+      "sha256": "712c24efb05f566d951f4c7ca70756a7283e89837480a0473af4b3a751887652",
+      "coverage": "相关章节、导航、元数据或搜索核对；不记全文"
+    },
+    {
+      "path": "yanzhou/design/systems/resource-system/design.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "12b154e0aacc689f4757adea5b770f6406c89367",
+      "sha256": "8c74dec3ba4bc917e095bf3b453f6c34f58b8450255176640780a7e4597696cb",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/systems/resource-system/examples.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "fd7be3af25fe1fe9df39795f477a10c00528e7e2",
+      "sha256": "cacefccf448fcaf60b7cde20776fb22b68c7a9fc505e6fd55d7601b28bac1edb",
+      "coverage": "全文或关联边界核对"
+    },
+    {
+      "path": "yanzhou/design/systems/resource-system/experience.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "fa14e163660143f671bc1d4f5f85dbc336b86186",
+      "sha256": "d91f3f4de5a5ea082dabdde356e1a4a19a8e8659134bfdaa69bd14e5594292b6",
+      "coverage": "设计与体验核对；长页分段读取，重点涵盖职责、假设与待定接口"
+    },
+    {
+      "path": "yanzhou/design/systems/resource-system/rules.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "13e72d60678e760dd39629665837d881af2345f3",
+      "sha256": "5e852506568fbeb876f8f4343af7a1f89cabde4cdfd01e66d890b2a4db537026",
+      "coverage": "全文规则或内容核对"
+    },
+    {
+      "path": "yanzhou/design/validation.md",
+      "version": "79be780e2ef9c9c8af76d8c1ed1467deb7f242bc",
+      "blob": "1023900037a315b479e59e8ccaff8bfe8cb5f533",
+      "sha256": "e462fbb86648430942a31e6567b7df8fd859bdbbd06fa4c3cb691801916a9a08",
+      "coverage": "相关章节、导航、元数据或搜索核对；不记全文"
+    }
+  ],
+  "imported_files": [
+    {
+      "path": "yanzhou/design/systems/artifact-system/design.md",
+      "commit": "215b82b4a19d1c4ae0889f33cd883fd6ca73e2a6",
+      "blob": "ae00f88296e01f431d2e5c924af151f56e6c29d0",
+      "sha256": "65efdeaf576b35d6b2266729184938d02ffe1799bdb2ed1ce06cd8de01437696",
+      "coverage": "设计／体验及确认相关章节核对；来源记录保留原文"
+    },
+    {
+      "path": "yanzhou/design/systems/artifact-system/experience.md",
+      "commit": "215b82b4a19d1c4ae0889f33cd883fd6ca73e2a6",
+      "blob": "95ac5b7fb34f60f7f93588f2de7d6db20fdb1bde",
+      "sha256": "0c342029826c7f06c180245c0caa0b09a9e01d9660bfdf5d1704e1825f5b0ce3",
+      "coverage": "设计／体验及确认相关章节核对；来源记录保留原文"
+    },
+    {
+      "path": "yanzhou/design/systems/action-card-system/design.md",
+      "commit": "215b82b4a19d1c4ae0889f33cd883fd6ca73e2a6",
+      "blob": "bd0b62ef77aefc4941073e55f93ec2100644e53a",
+      "sha256": "c9c43f24f8ff985c476dad24cd3201c05450be092e4b385137c3e3568650e4a7",
+      "coverage": "设计／体验及确认相关章节核对；来源记录保留原文"
+    },
+    {
+      "path": "yanzhou/design/systems/action-card-system/experience.md",
+      "commit": "215b82b4a19d1c4ae0889f33cd883fd6ca73e2a6",
+      "blob": "b07b58c4568cb425dc99aabf45308a10bb3ab9ba",
+      "sha256": "45d5403bb4b84ae81e8ab902ebbfd74f7bb1731b5ab45d530dcb01d566945618",
+      "coverage": "设计／体验及确认相关章节核对；来源记录保留原文"
+    },
+    {
+      "path": "yanzhou/sources/inbox/2026-10-09-artifact-design-intent.md",
+      "commit": "215b82b4a19d1c4ae0889f33cd883fd6ca73e2a6",
+      "blob": "1d9713965c138870522d6c200b5bd5ddb000dc0d",
+      "sha256": "b84f3efe8f67e3e8254fedc54447c456c70c10bd326836306ee2a5113939c959",
+      "coverage": "设计／体验及确认相关章节核对；来源记录保留原文"
+    },
+    {
+      "path": "yanzhou/sources/inbox/2026-10-10-action-card-design-intent.md",
+      "commit": "215b82b4a19d1c4ae0889f33cd883fd6ca73e2a6",
+      "blob": "f5dfdfa365cf99101b411e2cc61964e7710c7123",
+      "sha256": "4dbc573899f1f20b44e0880ff4be403d3aaf2a18edafe72a7bab2cc54fc078da",
+      "coverage": "设计／体验及确认相关章节核对；来源记录保留原文"
+    },
+    {
+      "path": "yanzhou/sources/materials/M-2026-10-09-artifact-design-intent.md",
+      "commit": "215b82b4a19d1c4ae0889f33cd883fd6ca73e2a6",
+      "blob": "2933c1fd2d525e2a30d13d7f547b90598661e16d",
+      "sha256": "c283345b0ad80fe8a197870ee4275eb537ceac9d6c0cb40d87abbe292fd11a02",
+      "coverage": "设计／体验及确认相关章节核对；来源记录保留原文"
+    },
+    {
+      "path": "yanzhou/sources/materials/M-2026-10-10-action-card-design-intent.md",
+      "commit": "215b82b4a19d1c4ae0889f33cd883fd6ca73e2a6",
+      "blob": "f8dc260b995c3487e15b9504335913c484f2c3d9",
+      "sha256": "1d0fd31fd8d7bfd32577ecc7797158a87105d027cc8719c5bbc621f1a25952d6",
+      "coverage": "设计／体验及确认相关章节核对；来源记录保留原文"
+    },
+    {
+      "path": "yanzhou/design/systems/inscription-system/design.md",
+      "commit": "0a5011ad81caf93cbe230c09c0d5e12cf5ce8eae",
+      "blob": "44c741a030ed82eae58ee4768cee61e9955058db",
+      "sha256": "fb2516111715d017432e8a3f79e60c19018255d922fc36145e0c432a83ee06d9",
+      "coverage": "设计／体验及确认相关章节核对；来源记录保留原文"
+    },
+    {
+      "path": "yanzhou/design/systems/inscription-system/experience.md",
+      "commit": "0a5011ad81caf93cbe230c09c0d5e12cf5ce8eae",
+      "blob": "de13bfd3c06a49f246df6ebaebae9d7ecc154745",
+      "sha256": "bcd8777891b9966a8ec77cb9514be372b05d42ea9e414ab92f91e822d25b6543",
+      "coverage": "设计／体验及确认相关章节核对；来源记录保留原文"
+    },
+    {
+      "path": "yanzhou/design/systems/inscription-system/augment-system/design.md",
+      "commit": "0a5011ad81caf93cbe230c09c0d5e12cf5ce8eae",
+      "blob": "29c6e9dca6e916efe8763f179e2a239e217c0e65",
+      "sha256": "682c63fcf0ecdecb39896abfb3e33ca22a79bbdac86a2a4e7a5a607d283bb57f",
+      "coverage": "设计／体验及确认相关章节核对；来源记录保留原文"
+    },
+    {
+      "path": "yanzhou/design/systems/inscription-system/augment-system/experience.md",
+      "commit": "0a5011ad81caf93cbe230c09c0d5e12cf5ce8eae",
+      "blob": "4bc14a819d14f41f99e64ed6752fbcf87de6c508",
+      "sha256": "cfa3338926728286bd5d7b161ed497c0ffe70b1ab7552c1b983e61eb4c6e80ff",
+      "coverage": "设计／体验及确认相关章节核对；来源记录保留原文"
+    },
+    {
+      "path": "yanzhou/sources/inbox/2026-10-08-inscription-framework-review.md",
+      "commit": "0a5011ad81caf93cbe230c09c0d5e12cf5ce8eae",
+      "blob": "03a3d47b08623aebfefa7505ece5313a5beab267",
+      "sha256": "03d9de186da1e79e7545e6eb2a5d123cbfe4b668525fe3e89b0e814d35f0264b",
+      "coverage": "设计／体验及确认相关章节核对；来源记录保留原文"
+    },
+    {
+      "path": "yanzhou/sources/inbox/2026-10-09-inscription-design-intent.md",
+      "commit": "0a5011ad81caf93cbe230c09c0d5e12cf5ce8eae",
+      "blob": "67a1bd57a2c29c95c2e5bb6c76b3bc83797fb159",
+      "sha256": "ac1faeeaaedcc33ebf147444c299c960cc0107ffda1acd6b8717fa09f722302a",
+      "coverage": "设计／体验及确认相关章节核对；来源记录保留原文"
+    },
+    {
+      "path": "yanzhou/sources/materials/M-2026-10-09-inscription-design-intent.md",
+      "commit": "0a5011ad81caf93cbe230c09c0d5e12cf5ce8eae",
+      "blob": "9ddf1a81a1f91f6d6201e1d6246bd18aed2bd75a",
+      "sha256": "5ef10eeea7caf3d90014c4e5836ba136307029ba2b790c12f84b489ab8144769",
+      "coverage": "设计／体验及确认相关章节核对；来源记录保留原文"
+    }
+  ],
+  "other_inputs": [
+    "yanzhou/README.md",
+    "yanzhou/CONTEXT.md",
+    "yanzhou/governance/questions.md",
+    "yanzhou/governance/decision-log.md（相关段落）",
+    "yanzhou/governance/document-contract.md",
+    "yanzhou/governance/main-system-review-2026-10-08.md（相关段落）",
+    "yanzhou-systems-design-guidance-2026-10-11.md（仅版本识别，不采纳）"
+  ],
+  "excluded": [
+    "history",
+    "exploration其他方向",
+    "archive",
+    "development代码及运行证据",
+    "visual资产",
+    "未登记阶段原件"
+  ],
+  "not_claimed": [
+    "完整53份GDD包全文重审",
+    "全部历史来源全文复审",
+    "玩法或真人验证"
+  ],
+  "preexisting_integrity": {
+    "path_count": 21,
+    "status": "21条路径的SHA-256／删除状态均与开工快照一致；未暂存"
+  },
+  "static_verification": {
+    "task_files": 60,
+    "markdown_files": 59,
+    "local_links": 1098,
+    "anchor_references": 112,
+    "preexisting_unchanged": 21,
+    "source_exact": 7,
+    "guidance_exact": true,
+    "rule_ids": 44,
+    "unique_rule_ids": 44,
+    "validation_ids": 113,
+    "unique_validation_ids": 113,
+    "five_file_directories": 11,
+    "gdd_package_files": 53,
+    "fixed_git_objects": 34,
+    "result": "通过；只证明文档静态一致性，不是113项玩法验收已执行",
+    "whitespace": "当前正文及其余来源通过；附件原文快照保留21处原有行末空白（Markdown换行／引用空行），逐字节来源校验通过，不清洗原件"
+  }
+}

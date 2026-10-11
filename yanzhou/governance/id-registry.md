@@ -102,3 +102,9 @@ G002-CORE-055 / commitment.1：Accepted / Hypothesis / NotRun；MAT／E／D-G002
 ## 2026-10-08处理耗时公式
 
 G002-CORE-056 / time-formula.1，Accepted / Hypothesis / NotRun。MAT／E／D-G002-TMF-20261008为本轮来源身份；新增TL-V77—82，当前TL预期80项（01—82去除02／20），加INS-V01—09共89项NotRun。44个TL、137个FX身份保持，无新发行实体；核心v0.14／CORE-SUM-9，GDD仍2.1／GDD-0。历史各批计数不改写。
+
+## 2026-10-11设计指导集成与跨分支重号
+
+G002-DOC-016保持当前敌人框架整理身份。固定提交`51257ba5e00b0cae155940c11251134dffd6db69`的2026-10-08铭文／辅槽整理也曾使用DOC-016，当前唯一映射为G002-DOC-018，引用须附主题／原提交；原来源不改写。
+
+G002-DOC-019：本轮指导集成、一致性清理与风险复核，Accepted / Documentation。MAT-2026-10-09-inscription-design-intent、MAT-2026-10-09-artifact-design-intent、MAT-2026-10-10-action-card-design-intent沿原身份接回，保持Qualified；没有新CORE、TL、FX或发行实体。规则仍44个TL，验收113项NotRun；本轮未新增验收ID。

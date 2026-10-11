@@ -16,3 +16,5 @@ Project ID：game-002。文档角色：Navigation。修订：2026-10-08 / mark-f
 来源：[固定输入与确认](../../../../sources/inbox/2026-10-08-action-card-framework-review.md)、[Qualified 素材](../../../../sources/materials/M-2026-10-08-action-card-framework.md)。指定本地原件仍保留原路径和身份，其完整卡池不作为本目录内容。
 
 [行动卡系统](../README.md) · [辅槽系统](../../inscription-system/augment-system/README.md) · [全部系统](../../README.md)
+
+2026-10-11指导集成：**持续状态、条件／支付与实有／预告区分**，见[设计](design.md)与[体验](experience.md)。状态按各页来源保留，未新增玩法采纳或运行证据。

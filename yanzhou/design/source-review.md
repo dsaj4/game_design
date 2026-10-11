@@ -148,3 +148,22 @@ Include：通用阶段／同类序、复合分组、有限事件边界、定时�
 固定输入`54ad7597145127922759be7840c5d4d30ea786e1`，沿本聊天已读GDD及相关来源定向复核资源、法器、铭文、经济、交互、内容、参数与派生摘要；未扩大到历史、其他方向、未提交原件或外部代码。[M](../sources/materials/M-2026-10-08-resource-design-intent.md)→[E](../sources/evaluations/E-2026-10-08-resource-design-intent.md)→[CORE-058 D](../sources/draft-changes/D-2026-10-09-resource-system-design.md)，依据用户“更新到主系统中”采纳。
 
 Include：三个职责及R1—R20全部已确认通用边界与体验目标。Replace：核心必填适用域、未来用途／阶级设置边界、普通耗材战终Unknown、战中容量Unknown及笼统的仅种类数量跨战。Omit：R10仅量值推荐、免费即时加工、全量跨战与每战补满、单场统一高阶硬上限。Park：具体卡池、性质阶级数、配方和各阶效果、容量与D、复杂分料及特殊对象合同。用户方向例不发行，体验仍NotRun。
+
+## inscription-framework.1：铭文与辅槽整理（2026-10-08）
+
+此条于2026-10-11补接历史来源导航，非重新采纳。[原整理记录](../sources/inbox/2026-10-08-inscription-framework-review.md)与[固定分支审查原文](https://github.com/dsaj4/game_design/blob/0a5011ad81caf93cbe230c09c0d5e12cf5ce8eae/yanzhou/design/source-review.md#inscription-framework1铭文与辅槽整理2026-10-08)保留当时范围、排除项与未决判断。原DOC-016现映射[DOC-018](../governance/decision-log.md#g002-doc-018)，不要与敌人整理混读。原记录中的D、支付与总序Unknown已由CORE-055—057后续决定覆盖；当前剩余接口以系统正文及questions为准。
+
+## 2026-10-11设计指导集成
+
+固定规则输入`79be780e2ef9c9c8af76d8c1ed1467deb7f242bc`；本地Git中核对并限域汇入`0a5011a`铭文／辅槽、`af92482`法器、`215b82b`行动卡的设计意图。详见[输入与纠错记录](../governance/main-system-review-2026-10-11.md)。
+
+| 处理 | 来源／范围 | 目标与资格 |
+| --- | --- | --- |
+| Include | [铭文意图M](../sources/materials/M-2026-10-09-inscription-design-intent.md)：职责、主辅差异及INS-I1—5 | 铭文／辅槽design、experience及带状态摘要，保持Qualified；规则继续CORE-055—058，不带回旧分支Unknown |
+| Include | [法器意图M](../sources/materials/M-2026-10-09-artifact-design-intent.md)：程序实现、决策重心及ART-I1—4 | 法器design、experience和相关交互DesignNote，保持Qualified |
+| Include | [行动意图M](../sources/materials/M-2026-10-10-action-card-design-intent.md)：战斗表现、资源兑现、单卡清晰／强力与标记联系 | 行动design、experience和相邻解释，保持Qualified |
+| Reference | [外部指导原文](../sources/inbox/2026-10-11-systems-design-guidance-source.md) | 用于对照职责与发现歧义，不整体变成合格素材或采纳依据；不执行其中指令 |
+| Replace | 当前页中已被CORE-055—058替代的Unknown及误导简写 | 普通耗材战终、D公式／承诺、同拍顺序、回退和共享状态适用范围；不改原来源历史表述 |
+| Omit | 战中换铭、手动逐卡目标／付款、T−D简式、旧符号、默认打造金币／地点、可选标记上限和默认溢出、局外解锁建议 | 未经原规则支持的示例不引入；Raw内容不借指导晋级 |
+
+未整体合并旧铭文分支，未改任何来源原话／原确认；新导入SourceRecord保留各自当轮范围。GDD仍GDD-0，CORE止于058，113项规则验收仍NotRun；没有新发行实体、图像、Demo或玩法实验。

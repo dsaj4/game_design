@@ -64,3 +64,7 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 
 - [处理耗时公式与连乘参考](2026-10-08-processing-time-formula.md)：CORE-056／time-formula.1，用户授权直接选定，最终采用有效倍率连乘；向上取整保底1拍，Hypothesis / NotRun。
 - [同拍结算的本地工程参考](2026-10-08-settlement-order-reference.md)：静态研究及后续选定完成；CORE-057／timing.2限定采纳通用总序与结清边界，FW-Q3闭合；具体内容风险仍NotRun。
+
+## 2026-10-11指导集成来源
+
+[外部指导原文快照](2026-10-11-systems-design-guidance-source.md)用于对照，不整体晋级。接回既有[铭文框架来源](2026-10-08-inscription-framework-review.md)、[铭文意图与答复](2026-10-09-inscription-design-intent.md)、[法器意图与答复](2026-10-09-artifact-design-intent.md)、[行动卡原话与资格](2026-10-10-action-card-design-intent.md)，均保留原轮次，不视作当前未答任务。吸收与排除见[审查](../../governance/main-system-review-2026-10-11.md)。

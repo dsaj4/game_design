@@ -33,3 +33,5 @@ Project ID：game-002。文档角色：Navigation。修订：2026-10-08 / enemy-
 [敌人与遭遇内容](../../content/enemies-encounters.md) · [局内路线](../../common/run-route/README.md)
 
 [全部系统](../README.md) · [文档职责](../../../governance/document-contract.md#系统文件夹与分文件职责)
+
+2026-10-11指导集成：**分阶段可预见压力与实际应对窗口**，见[设计](design.md)与[体验](experience.md)。状态按各页来源保留，未新增玩法采纳或运行证据。

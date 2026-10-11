@@ -1,6 +1,6 @@
 # 文档职责与统一规范
 
-Project ID：game-002。治理状态：Accepted / Documentation；依据用户授权全量整理。更新：2026-10-08 / system-docs.2；规则基准TL-1 + INS-1 / processing.2 + timing.1 + enemy.1；生产、队列、共同拍序与敌情术语同步CORE-051—054，新增辅槽及行动／标记框架保留Qualified。
+Project ID：game-002。治理状态：Accepted / Documentation；依据既有整理授权及本轮一致性更新。更新：2026-10-11 / guidance-alignment.1；规则基准TL-1 + INS-1 / processing.2 + timing.2 + enemy.1 + commitment.1 + time-formula.1 + resource.1，沿CORE-058及之前采纳。框架中未被后续决定采纳的部分，以及法器、铭文／辅槽、行动卡新增设计意图仍保持Qualified；体验Hypothesis / NotRun。
 
 ## 权威来源
 

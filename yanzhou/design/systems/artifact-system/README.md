@@ -34,3 +34,5 @@ Project ID：game-002。文档角色：Navigation。修订：2026-10-08 / artifa
 [铭文装配](../inscription-system/README.md) · [法器内容](../../content/wands.md)
 
 [全部系统](../README.md) · [文档职责](../../../governance/document-contract.md#系统文件夹与分文件职责)
+
+2026-10-11指导集成：**程序实现与决策重心**，见[设计](design.md)与[体验](experience.md)。状态按各页来源保留，未新增玩法采纳或运行证据。

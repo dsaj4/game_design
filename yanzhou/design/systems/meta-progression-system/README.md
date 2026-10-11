@@ -16,3 +16,5 @@ Project ID：game-002。文档角色：Navigation。修订：2026-10-08 / system
 [既有局内经济](../../common/run-economy/README.md)；不能把局内跨战持有或本局购买直接当作局外成长规则。
 
 [全部系统](../README.md) · [文档职责](../../../governance/document-contract.md#系统文件夹与分文件职责)
+
+2026-10-11指导集成：**尚未开发，区分知识候选与局外数值成长**，见[设计](design.md)与[体验](experience.md)。状态按各页来源保留，未新增玩法采纳或运行证据。

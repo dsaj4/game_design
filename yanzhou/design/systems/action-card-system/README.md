@@ -18,3 +18,5 @@ Project ID：game-002。文档角色：Navigation。修订：2026-10-08 / action
 以指定主材料为主要输入；已有确认、本轮 ACT-Q1／2、旧规则及差异见 [来源记录](../../../sources/inbox/2026-10-08-action-card-framework-review.md)与 [Qualified 素材](../../../sources/materials/M-2026-10-08-action-card-framework.md)。阶段 1—4 完成沿用户前提；原始候选不因阶段完成整体成为 CurrentSpec。
 
 [行动内容合同](../../content/cards.md) · [法器](../artifact-system/README.md) · [敌人](../enemy-system/README.md) · [全部系统](../README.md)
+
+2026-10-11指导集成：**战斗表现、资源兑现与标记协同**，见[设计](design.md)与[体验](experience.md)。状态按各页来源保留，未新增玩法采纳或运行证据。

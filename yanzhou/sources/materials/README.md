@@ -97,3 +97,11 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 - [处理耗时公式与连乘参考](M-2026-10-08-processing-time-formula.md)：CORE-056／time-formula.1，用户授权直接选定，最终采用有效倍率连乘；向上取整保底1拍，Hypothesis / NotRun。
 
 - [同拍结算M](M-2026-10-08-settlement-order-reference.md)：CORE-057／timing.2，用户授权结合言咒直接选定通用总序、事件边界及相关支付／维护／恢复合同；NotRun。
+
+## 2026-10-11接回的系统设计意图
+
+- [铭文／辅槽意图](M-2026-10-09-inscription-design-intent.md)：配方语言、探索与主辅差异，Qualified。
+- [法器意图](M-2026-10-09-artifact-design-intent.md)：程序实现、决策重心及ART-I1—4，Qualified。
+- [行动卡意图](M-2026-10-10-action-card-design-intent.md)：战斗表现、资源兑现与清楚单卡，Qualified。
+
+原日期／资格保持；本轮仅集成并对齐现行规则，不新建采纳或重复确认。

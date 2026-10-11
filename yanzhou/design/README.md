@@ -1,6 +1,8 @@
 # 言咒现行设计
 
-Project ID：game-002。文档角色：Navigation。更新：2026-10-09（框架重建后审查）。当前GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.2 + enemy.1 + commitment.1 + time-formula.1 + resource.1，GDD-0；已采纳核心结构，内容与完整参数尚未闭合。
+Project ID：game-002。文档角色：Navigation。更新：2026-10-11（设计指导集成）。当前GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.2 + enemy.1 + commitment.1 + time-formula.1 + resource.1，GDD-0；已采纳核心结构，内容与完整参数尚未闭合。
+
+当前跨系统复核：[2026-10-11设计指导集成](../governance/main-system-review-2026-10-11.md)。已汇入三组Qualified设计意图；规则仍CORE-058，具体内容与体验验证未完成。
 
 [核心设计](core-design.md) · [GDD总览](GDD.md) · [版本与旧版取证](baseline.md) · [当前问题](../governance/questions.md)
 

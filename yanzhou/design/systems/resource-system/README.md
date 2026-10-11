@@ -18,3 +18,5 @@ Project ID：game-002。文档角色：Navigation。修订：2026-10-08 / system
 [局内携带与经济](../../common/run-economy/README.md) · [参数](../../parameters.md)
 
 [全部系统](../README.md) · [文档职责](../../../governance/document-contract.md#系统文件夹与分文件职责)
+
+2026-10-11指导集成：**核心约束、产出积累与环境表达**，见[设计](design.md)与[体验](experience.md)。状态按各页来源保留，未新增玩法采纳或运行证据。
