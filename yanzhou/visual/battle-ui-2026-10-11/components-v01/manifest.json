@@ -1,0 +1,286 @@
+{
+  "asset_id": "AS-G002-009",
+  "version": "BATTLE-COMPONENTS-01",
+  "date": "2026-10-11",
+  "derived_from": "AS-G002-008@BATTLE-UI-ART-01",
+  "source_sha256": "3bfb4d31480cb5743b20ef144f93f69c548bc0123b66821bb2d7542748ab75e6",
+  "files": [
+    {
+      "file": "01-table-body.png",
+      "name": "木质桌体与前沿",
+      "sha256": "53210dde28e5644ea90953c89670c3e1cf8a98c226b0a7d8e2cb3b7e4b1b340d",
+      "bytes": 2191349,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_pixels": 514200
+    },
+    {
+      "file": "02-table-mat.png",
+      "name": "墨绿桌垫与金边",
+      "sha256": "d68677ebec04ae98b70b9662467f2bdec299325a0137b525b7299322c2280712",
+      "bytes": 2854950,
+      "width": 1671,
+      "height": 941,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_pixels": 392526
+    },
+    {
+      "file": "03-timeline.png",
+      "name": "七刻时间轴",
+      "sha256": "b2e12e4bd9f30b2140b687a5a19fa0aeab9d9d01e030331748bb3657b82fce44",
+      "bytes": 218389,
+      "width": 2172,
+      "height": 724,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_pixels": 1503811
+    },
+    {
+      "file": "04-empty-slot.png",
+      "name": "空位金线框",
+      "sha256": "cf2dd7372d99764c9732f77d77bdf74d396f8f1107023474e1fa32c721827ace",
+      "bytes": 1216934,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 1425370
+    },
+    {
+      "file": "05-title-plaque.png",
+      "name": "言咒标题牌",
+      "sha256": "c552d43d028073683209582c71f6386115f484f4aa9dac2f5b322667ac2c9b82",
+      "bytes": 1643410,
+      "width": 1821,
+      "height": 864,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_pixels": 894528
+    },
+    {
+      "file": "06-resource-drawer.png",
+      "name": "三格资源抽屉",
+      "sha256": "889089f4fe5bdbc7dfaa5da2d91750aee2ce0d9aec12ca1d667133876dd1991e",
+      "bytes": 2629817,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 612901
+    },
+    {
+      "file": "07-enemy-pawn.png",
+      "name": "敌方红色王冠棋子",
+      "sha256": "3add9961543a9bb79d7786fe97404ac83e93fffc8e6f59ef6ad004e8d8819161",
+      "bytes": 2032880,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 1037664
+    },
+    {
+      "file": "08-player-pawn.png",
+      "name": "己方绿色兜帽棋子",
+      "sha256": "33dee1c288f6738034ebb5437db9223873680f41f2a8249874ebf1c7566dabaa",
+      "bytes": 1390132,
+      "width": 1145,
+      "height": 1374,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_pixels": 1009145
+    },
+    {
+      "file": "09-enemy-chips.png",
+      "name": "敌方红色标记筹码",
+      "sha256": "0e35d6639b7b8ad15402ef2d7947fb5ba66e2842ac9b49ddfeab8ffbf2075854",
+      "bytes": 1961308,
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 1037810
+    },
+    {
+      "file": "10-player-chips.png",
+      "name": "己方绿色标记筹码",
+      "sha256": "25f7bdaa11700f04a54fdf5eecc6b23418b8fe04e675615c8aad70e52f91820a",
+      "bytes": 1829135,
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 1096244
+    },
+    {
+      "file": "11-card-back.png",
+      "name": "敌方眼纹牌背",
+      "sha256": "2e493f91588674cdd4d535affba1fd2c6af60b491d14bf0703e1a68fd8562714",
+      "bytes": 3070339,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 515971
+    },
+    {
+      "file": "12-card-fire.png",
+      "name": "火焰行动卡",
+      "sha256": "bfa152189b342d25e9758ef1d2fd7a83ca370d1cbbc8833789214d48fbc287c8",
+      "bytes": 2997788,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 393537
+    },
+    {
+      "file": "13-card-shield.png",
+      "name": "护盾行动卡",
+      "sha256": "8b55f1d852885276d1fc9d56d9996e96036bcaa3c87feae96a906c9b8b73d2c1",
+      "bytes": 3097593,
+      "width": 1060,
+      "height": 1484,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_pixels": 352723
+    },
+    {
+      "file": "14-card-wave.png",
+      "name": "水浪行动卡",
+      "sha256": "f875aabb5eb33a035a8b6cfdc1fcfd11b28344e0f3ce3bc494290c458b072f14",
+      "bytes": 2864251,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 557397
+    },
+    {
+      "file": "15-crystal-wand.png",
+      "name": "蓝晶石短杖",
+      "sha256": "b919bfeeb00f26894d62596e5de0efc4992d5bd8dabc71a1de3de19ca250c5a3",
+      "bytes": 659023,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_pixels": 1347790
+    },
+    {
+      "file": "16-ring-scepter.png",
+      "name": "环首法杖",
+      "sha256": "854f9215f527af8c93186385092bed50c185201ae2edf4f718484cca5e649a99",
+      "bytes": 1539698,
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "fully_transparent_pixels": 1326507
+    },
+    {
+      "file": "17-spellbook.png",
+      "name": "绿色法典",
+      "sha256": "705bd98c40ed5ecced9173027d769296574937dc6128cfbcbb9ddd69710f8fb3",
+      "bytes": 2167967,
+      "width": 1402,
+      "height": 1122,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_pixels": 755445
+    },
+    {
+      "file": "18-crystal-orb.png",
+      "name": "黄铜座晶球",
+      "sha256": "75d6e12e504c2104a25a98048a47c26b3cd61f03e3437da63833fb722d6710e4",
+      "bytes": 1835088,
+      "width": 1368,
+      "height": 1149,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_pixels": 835150
+    },
+    {
+      "file": "19-study-background.png",
+      "name": "书房环境背景",
+      "sha256": "02de555ac63dcdc882798d38c402b8a3148dbc7d2a038b0c070e4c1b09bc42b7",
+      "bytes": 2413675,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "fully_transparent_pixels": 0
+    },
+    {
+      "file": "README.md",
+      "sha256": "ef54fd0eb8588fcea2614b9d548ab5fec89a19da3d35a01f19cae0348f72a3a1",
+      "bytes": 4246
+    },
+    {
+      "file": "generation-records.json",
+      "sha256": "3747ce2a8251e998566e4f8aa3687d0776c3ca00e11e0dfcfbe7d3d391c8e409",
+      "bytes": 35621
+    }
+  ],
+  "external_preview": {
+    "path": "C:\\Users\\Administrator\\.codex\\visualizations\\2026\\10\\11\\01a12b3f-545d-7672-8512-7579183a1c80\\battle-components-v01\\index.html",
+    "sha256": "1e05353ca64d64deed7b565c502de4479f7383893f1be849778153ab09c9b8cb"
+  }
+}
