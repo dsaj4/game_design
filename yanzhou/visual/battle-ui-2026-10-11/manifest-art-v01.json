@@ -1,0 +1,29 @@
+{
+  "id": "AS-G002-008",
+  "version": "BATTLE-UI-ART-01",
+  "date": "2026-10-11",
+  "generator": "built-in image_gen",
+  "image": {
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "transparent": false
+  },
+  "files": [
+    {
+      "path": "battle-art-v01.png",
+      "bytes": 2697311,
+      "sha256": "3bfb4d31480cb5743b20ef144f93f69c548bc0123b66821bb2d7542748ab75e6"
+    },
+    {
+      "path": "battle-art-v01-prompt.md",
+      "bytes": 6415,
+      "sha256": "5fe8257008fa31fe7a85c0649cabf95d4a0622695a0d9f1875674fb04be7724f"
+    },
+    {
+      "path": "art-v01.md",
+      "bytes": 2422,
+      "sha256": "80c464b4c5d622349d6a377a72b76d0e47f12a7378614a92a13307a7c2953105"
+    }
+  ]
+}

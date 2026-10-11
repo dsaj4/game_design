@@ -78,8 +78,15 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 - 归属：game-002 / main；[当前交付与本机入口](../../yanzhou/visual/battle-ui-2026-10-11/v10-outline.md)，BATTLE-UI-HTML-10，抽屉向桌内展开、两主体与时间轴中点居中，保留前沿四件法器本体；固定文件及SHA-256见交付页所链manifest。[v09及其检查](../../yanzhou/visual/battle-ui-2026-10-11/v09-outline.md)和原件保持原版本，不覆盖。
 - ReadyForScope（3D界面轮廓位置评审）/ PresentLocal；2026-10-11实际Edge检查抽屉在桌内、主体与轴中点居中、刻位对称、四法器、面板删除、桌上物件、空位、三档宽度及HTTP／离线入口，1366预览目视检查完成。当前仅描位，无交互、战斗数据或模型；整体UI仍待评审，玩法NotRun。
 - 来源：用户要求HTML并明确仅轮廓描位；uses: AS-G002-005@v02（对齐结构）、AS-G002-006（既有构图）、AS-G002-007（桌面与桌沿关系），derived-from: None（外部代码）。自制单文件HTML内联SVG，无外部依赖，不嵌入第三方图像或字体。可在本项目改作，对外分发许可未另定。原件位于本机持久演示目录，未公开发布。
+- 后续使用：[AS-G002-008](../../yanzhou/visual/battle-ui-2026-10-11/art-v01.md)以HTML v10为构图骨架生成独立效果图；HTML原件与固定版本未改。
 
 ## 素材与参考包
+
+### <a id="as-g002-008"></a>AS-G002-008 战斗效果图 v01（2026-10-11新增）
+
+- 归属：game-002 / main；BATTLE-UI-ART-01；[原件、提示词与交付说明](../../yanzhou/visual/battle-ui-2026-10-11/art-v01.md)。PNG 1672×941，RGB不透明，固定文件和SHA-256见交付页所链manifest。
+- ReadyForScope（概念图评审）/ PresentLocal；2026-10-11实际核对解码、规格、哈希及构图。用户授权内置image_gen独立生成；uses: DM-G002-010@BATTLE-UI-HTML-10（布局）、AS-G002-006（风格）；原参考图和HTML未修改。
+- 仅美术效果候选，未正式采纳、拆分组件或建模；本项目可继续评审改作，对外分发许可未另定。最终新图已复制入本工作区，原始生成输出保留，未公开部署。
 
 ### <a id="as-g002-007"></a>AS-G002-007 桌面承载与边沿布局参考（2026-10-11新增）
 
@@ -99,7 +106,7 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 
 - 归属：game-002 / main；[原件位置、来源、规格与使用记录](../../yanzhou/visual/battle-ui-2026-10-11/v02-notes.md#as-g002-006-用户提供的牌桌布局参考)。PNG 1672×941；固定SHA-256 `5b402a3b35d3b1d44d79c316f1fe09251fc440a2f5a8598f3c41603893a5b63f`。
 - Catalogued / PresentLocal；2026-10-11目视、尺寸与哈希核对。原件位于用户附件临时目录，未复制／推送原图，长期访问未知；作者、生成来源与对外分发权Unknown。
-- 用户授权用于本轮UI布局参照；使用者AS-G002-005@v02、[DM-G002-010@v04](../../yanzhou/visual/battle-ui-2026-10-11/v04-outline.md)及[v08](../../yanzhou/visual/battle-ui-2026-10-11/v08-outline.md)。只参考空间构图，不导入美术像素，不继承卡义或玩法；uses: None；derived-from: None。
+- 用户授权UI布局参照；使用者AS-G002-005@v02、[DM-G002-010@v04](../../yanzhou/visual/battle-ui-2026-10-11/v04-outline.md)及[v08](../../yanzhou/visual/battle-ui-2026-10-11/v08-outline.md)。原结构稿仅参考空间构图；用户2026-10-11另授权[AS-G002-008](../../yanzhou/visual/battle-ui-2026-10-11/art-v01.md)参考材质、配色与光照生成新图。原图未修改或复制入交付，不继承卡义或玩法；uses: None；derived-from: None。
 
 | ID / 名称 / 标签 | 归属 / 原件入口 | 版本 / 来源条件 | 状态 / 使用边界 |
 | --- | --- | --- | --- |
