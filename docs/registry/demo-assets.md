@@ -75,6 +75,13 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 
 ## 素材与参考包
 
+### <a id="as-g002-005"></a>AS-G002-005 战斗界面结构线稿包（2026-10-11新增）
+
+- 归属：game-002 / main；[维护说明与三张图入口](../../yanzhou/visual/battle-ui-2026-10-11/README.md)。用途：第一步评审战斗UI位置、信息层级和功能；Raw UI Candidate / Unqualified，未采纳布局，玩法与体验NotRun。
+- 固定版本：UI-WF-01 / v01；[六文件范围与SHA-256](../../yanzhou/visual/battle-ui-2026-10-11/manifest.json)。三份可编辑SVG及同名PNG，各1920×1200，不透明白底，无图集关系。
+- ReadyForScope（仅静态结构评审）/ PresentLocal；2026-10-11核对图像解析、文字边界、三张PNG目视及EX-001指定快照。无交互实现／模型；小屏、真人理解及完整战斗未验证。
+- 来源／关系：用户本轮授权，Codex自制线条与文字；游戏文本输入固定提交`19ed8760c6a925914eb7770a38d2ac551e316f7f`，完整读取范围见维护页。uses: None；derived-from: None；未引用旧UI或第三方美术。SVG使用本机系统字体但不嵌入字体文件；可在本项目改作，对外分发许可未另定。
+
 | ID / 名称 / 标签 | 归属 / 原件入口 | 版本 / 来源条件 | 状态 / 使用边界 |
 | --- | --- | --- | --- |
 | <a id="as-g002-001"></a>AS-G002-001 05紧凑暗面视觉包；UI、风格 | game-002 / main；[风格说明](../../yanzhou/visual/reviews/2026-09-19/style-guide.md)、[文件清单](../../yanzhou/visual/reviews/2026-09-19/source-manifest.json) | v0.2 / 2026-09-19；基线提交下`yanzhou/visual/reviews/2026-09-19/`的已跟踪文件；生成来源/提示词沿原包，分发条件未审 | Catalogued / PresentLocal；旧RC1 Selected Visual；不能当成TL-1最终布局 |

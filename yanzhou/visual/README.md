@@ -2,6 +2,8 @@
 
 Project ID：game-002。2026-10-04。当前TL-1 + INS-1使用卡牌主战场；具体页面布局尚未采纳。
 
+- [战斗UI第一步：黑白结构示意 v01](battle-ui-2026-10-11/README.md)（2026-10-11）：位置／功能总览、EX-001第12拍主布局及必要局部展开。Raw UI Candidate，待评审；资源[AS-G002-005](../../docs/registry/demo-assets.md#as-g002-005)，不含美术风格或建模。
+
 - [基础展示与交互要求](../design/common/interaction-save/rules.md)：敌牌揭示／截止、资源、玩家队列、法器生产、维护和代价。
 - 旧探索UI候选已于2026-10-04退役，当前布局重新设计；原确认与截图仅按固定版本取证。
 - [已发布可视化](https://yanzhou-battle-layouts.visiontreeai.chatgpt.site)：旧探索发布留存，已退出当前候选；发布不等于规则或布局采纳。
