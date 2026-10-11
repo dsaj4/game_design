@@ -73,6 +73,12 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 - 来源／关系：本方向R1@0457eeeb9177c0faafdf9c360e156797832baef0和用户明确制作授权；原创页面与内嵌矢量图，无第三方资源或外部依赖。uses: None；derived-from: None；未导入退役Demo。
 - 复用／边界：可在本项目改作，公开分发许可证未另定；外部实现仅本地Git保存。本册没有战斗模拟或其他卡册；名称、配方与数值为Illustrative，设计Raw / Unqualified、玩法NotRun，不因交付成为主系统规则。
 
+### <a id="dm-g002-010"></a>DM-G002-010 战斗HTML结构示意（2026-10-11新增）
+
+- 归属：game-002 / main；[交付范围与本机入口](../../yanzhou/visual/battle-ui-2026-10-11/v03-html.md)，实现证据另见项目开发索引。BATTLE-UI-HTML-03；固定文件及SHA-256见交付页所链manifest。
+- ReadyForScope（HTML结构评审）/ PresentLocal；2026-10-11实际Edge检查同刻对齐、空位、双快照、详情点击／键盘、未揭示信息、四档宽度及HTTP／离线入口。无战斗引擎或对局测试，整体UI仍待评审。
+- 来源：用户明确要求HTML；uses: AS-G002-005@v02（结构参照），derived-from: None（外部代码）。自制单文件HTML／CSS／JavaScript，无外部依赖，不嵌入第三方图像或字体。可在本项目改作，对外分发许可未另定。原件位于本机持久演示目录，未公开发布。
+
 ## 素材与参考包
 
 ### <a id="as-g002-005"></a>AS-G002-005 战斗界面结构线稿包（2026-10-11新增）
@@ -81,6 +87,7 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 - 当前版本：UI-WF-01 / v02；[六文件范围与SHA-256](../../yanzhou/visual/battle-ui-2026-10-11/manifest-v02.json)，[修订说明](../../yanzhou/visual/battle-ui-2026-10-11/v02-notes.md)。三份可编辑SVG及同名PNG，各1920×1200，不透明白底，无图集关系；[v01固定清单](../../yanzhou/visual/battle-ui-2026-10-11/manifest.json)及图源保留。
 - ReadyForScope（仅静态结构评审）/ PresentLocal；2026-10-11核对图像解析、文字边界、三张PNG目视及EX-001指定快照。无交互实现／模型；小屏、真人理解及完整战斗未验证。
 - 来源／关系：用户本轮授权，Codex自制线条与文字；游戏文本输入固定提交`19ed8760c6a925914eb7770a38d2ac551e316f7f`，完整读取范围见维护页。v01 uses: None；v02 uses: AS-G002-006@固定SHA-256（仅布局参照）；derived-from: None（外部资产）。SVG使用本机系统字体但不嵌入字体文件；可在本项目改作，对外分发许可未另定。
+- 后续使用：DM-G002-010@BATTLE-UI-HTML-03参照v02结构，以HTML重绘；未导入PNG／SVG文件。
 
 ### <a id="as-g002-006"></a>AS-G002-006 用户提供的牌桌布局参考（2026-10-11新增）
 
