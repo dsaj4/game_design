@@ -1,6 +1,6 @@
 # 文档职责与统一规范
 
-Project ID：game-002。治理状态：Accepted / Documentation；依据既有整理授权及本轮一致性更新。更新：2026-10-11 / guidance-alignment.1；规则基准TL-1 + INS-1 / processing.2 + timing.2 + enemy.1 + commitment.1 + time-formula.1 + resource.1，沿CORE-058及之前采纳。框架中未被后续决定采纳的部分，以及法器、铭文／辅槽、行动卡新增设计意图仍保持Qualified；体验Hypothesis / NotRun。
+Project ID：game-002。Accepted / Documentation。2026-10-11 / documentation.3。状态与来源统一见[当前基准](../design/baseline.md)。
 
 ## 权威来源
 
@@ -25,6 +25,8 @@ Project ID：game-002。治理状态：Accepted / Documentation；依据既有�
 | 敌人能力、初态与布场 | content/enemies-encounters.md | 系统页不复制敌人表 |
 | 术语 | CONTEXT.md | 规则页引用定义，不另改词义 |
 | 效果登记、应用、历史修订 | effects/catalog.md | 关联规则和内容，不复制整套通用规则与价格 |
+| 当前未决设计与风险 | governance/questions.md | 系统页仅引用问题，不维护第二份待决表 |
+| 跨系统案例 | design/examples/README.md及具体EX文件 | 单一物件／数值／时序；含来源与证据，不变成全局默认 |
 | 规则验收预期 | GDD validation.md | 测试交接指定冻结输入，报告保留实际结果 |
 | 设计原因与替代范围 | decision-log及Draft Change | 当前正文直接陈述规则并链接来源 |
 | 探索候选 | exploration/各DIR方向文件夹 | 只经明确回写流程进入主系统 |
@@ -37,7 +39,7 @@ Project ID：game-002。治理状态：Accepted / Documentation；依据既有�
 
 参数至少包含：ID、单位、数值／公式、合法域、零值许可、适用角色及来源。CORE-051只保留法器处理耗时D，正整数拍且至少1拍；J、R、独立周期／冷却及S已取消。旧C／L／τ只在RC1解释。明确区分开工预留、处理完成即入行、行动生效、敌牌揭示与到期；CORE-052明确预留只占容量，入行后最早下拍翻开。容量须区分实际牌、有效预留和中断后待复用部分，临时供料须明确唯一方案及结束拍；CORE-053进一步区分拍末一次开工与a+D完工、正常空位当拍复用与中断回收下拍可用、观察窗口提交与结算途中待受理操作、初始库存与新增补给可用拍。这些接口不是新增生产耗时参数。
 
-每份现用文档标明Project ID、文档角色、设计基准、文档修订、设计／证据状态及来源。Navigation、CoreDesignSummary、ExplorationReadingContract、CurrentSpec、QualifiedFramework、DesignNote、ExperienceHypothesis、ExampleSet、SourceRecord、DecisionRecord、HistoricalSnapshot、ResearchComparison、ValidationSpec、ImplementationIndex不得混用。
+各页标明职责与修订；Project ID、当前基准、共同状态和来源可显式继承design/baseline.md，来源型文件仍写自己的固定版本。Navigation、CoreDesignSummary、ExplorationReadingContract、CurrentSpec、QualifiedFramework、DesignNote、ExperienceHypothesis、ExampleSet、SourceRecord、DecisionRecord、HistoricalSnapshot、ResearchComparison、ValidationSpec、ImplementationIndex不得混用。
 
 ## 系统文件夹与分文件职责
 
@@ -48,12 +50,12 @@ Project ID：game-002。治理状态：Accepted / Documentation；依据既有�
 | README.md | Navigation：范围、各文件状态、来源与入口 | 不重复维护规则或长篇设计正文 |
 | rules.md | 已确认约束、权限、条件、时点、支付、结果、失败与信息义务；已采纳部分为 CurrentSpec，已确认但未完成采纳的框架为 QualifiedFramework | 不把理想行为、预期体验、未选方案和调参建议写成硬规则 |
 | experience.md | ExperienceHypothesis：机制—可能行为—预期体验、观察方式、支持／失败信号、证据版本与范围 | 不把规则通过、文档完成或理论引用写成体验已验证 |
-| design.md | DesignNote：定位、价值顺序、风格与表达方向、取舍理由、候选方案、未决接口和替代原因 | 不另建一套当前规则、参数或采纳历史 |
+| design.md | DesignNote：定位、价值顺序、风格与表达方向、取舍理由；未决工作链接questions | 不另建一套当前规则、参数或采纳历史 |
 | examples.md | ExampleSet：独立保存规则正反例、边界情境及有明确资格／状态的假设演示，链接对应正文 | 不新增规则、默认参数、发行内容或运行证据；不把 Raw 候选借示例晋级 |
 
-先按陈述性质分类，再标状态。已确认的定位仍标“已确认”，不能因移入设计页而任意推翻；尚未采纳的规则性约束也不能因文件名叫 rules 就变为 Accepted。规则页可标明未定义参数或未授予权限，并链接设计页的具体问题，但不在缺口后附一个无标识的默认答案。
+先按陈述性质分类，再标状态。已确认的定位仍标“已确认”，不能因移入设计页而任意推翻；尚未采纳的规则性约束也不能因文件名叫 rules 就变为 Accepted。规则页说明确定行为和当前提供的操作；缺失参数与功能统一链接questions的稳定问题，但不在缺口后附一个无标识的默认答案。
 
-信息展示中已采纳的必需内容、通用符号与可达性约束属于规则；布局、动效和风格候选属于设计；“玩家会读懂”属于体验假设。示例统一存储在 examples.md；其他文件只链接相关情境，不重复维护示例正文。每例注明用途、对应条款／假设及版本、前提／输入、步骤／时点、确定结果与未决部分。已确认规则推导与合格候选的假设情境分开标注；未通过资格的 Raw 内容留来源。示例数字不成为默认参数，未决机制不能由示例补成答案。公式、规则表和验收要求本身仍留原权威页。
+信息展示中已采纳的必需内容、通用符号与可达性约束属于规则；布局、动效和风格候选属于设计；“玩家会读懂”属于体验假设。系统局部情境存储在examples.md；跨系统首批案例存储在design/examples/，使用EX-NNN稳定ID、单一初态与数值，各系统examples只链接。其他文件不重复维护案例参数。每例注明用途、对应条款／假设及版本、前提／输入、步骤／时点、确定结果与未决部分。已确认规则推导与合格候选的假设情境分开标注；未通过资格的 Raw 内容留来源。示例数字不成为默认参数，未决机制不能由示例补成答案。公式、规则表和验收要求本身仍留原权威页。
 
 空白文件包见 [系统通用框架模板](../../game-design-workflow/templates/system-framework/README.md)，仅提供待填写结构。本结构是 [已登记系统规格模板](../../game-design-workflow/templates/gdd-writing-requirements-and-template.md) 的分文件落位，不新增另一套 GDD 流程：目的／定位与待定依赖进入 design，MDA 与体验观察进入 experience，输入输出／核心规则／失败／信息义务进入 rules，所有说明性情境进入 examples 并引用对应正文。统一验收编号与参数继续在原权威页维护，来源与决定继续在 sources 和 decision-log 保存。
 

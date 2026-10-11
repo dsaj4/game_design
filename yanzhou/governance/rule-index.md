@@ -1,6 +1,6 @@
 # TL-1 + INS-1 规则定位
 
-Project ID：game-002。2026-10-08（六系统目录）。文档角色：Navigation。具体规则只有所指系统页维护，本文不复制数值。
+Project ID：game-002。2026-10-11 / DOC-020。文档角色：Navigation。具体规则只有所指系统页维护，本文不复制数值。
 
 | 规则 | 当前权威位置 | 原规格域 |
 | --- | --- | --- |
@@ -16,7 +16,7 @@ Project ID：game-002。2026-10-08（六系统目录）。文档角色：Navigat
 | TL-42 辅槽打造 | [铭文](../design/systems/inscription-system/rules.md#tl-42-辅槽打造) | SYS-006 |
 | TL-17–19／31／36 交互、暂停、保存与可达性 | [交互与保存](../design/common/interaction-save/rules.md) | SYS-007 |
 
-TL-20保留历史ID；其材料—动作—目标入口已由CORE-049替代，不列现行规则。TL-01–19及TL-21–45共44个现行规则ID；TL-V01–96去除已退役02／20共94项，加INS-V01–09共103项现用验收预期，全部NotRun；新增Qualified框架不借计数升级为Accepted。
+TL-20保留历史ID；其材料—动作—目标入口已由CORE-049替代，不列现行规则。TL-01–19及TL-21–45共44个现行规则ID；TL-V01–110去除已退役02／20共108项，加INS-V01–09共117项现用验收预期，全部NotRun；Qualified框架不借计数升级为Accepted。
 
 [参数](../design/parameters.md) · [内容](../design/content/cards.md) · [验收](../design/validation.md) · [当前未知](questions.md)
 
@@ -33,3 +33,5 @@ CORE-055／commitment.1细化现有TL-03／05／07、TL-15／23、TL-17／19及�
 CORE-056／time-formula.1补齐法器TL-03的时间数值合同；新增TL-V77—82，不新增TL身份或扩大普通量值合同。
 
 CORE-057／timing.2补齐TL-11及关联支付、定时、维护和恢复合同，新增TL-V83—96，不增加TL或FX身份；[采纳D](../sources/draft-changes/D-2026-10-08-settlement-order-reference.md)。
+
+CORE-058补齐资源合同，新增TL-V97—106。CORE-059／first-example.1限定采纳零材料与有限固定用途，新增TL-V107—110；首批具体输入统一见[EX-001](../design/examples/simple-spell.md)。均沿现有TL身份。

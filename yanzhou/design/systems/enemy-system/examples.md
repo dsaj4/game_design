@@ -1,10 +1,14 @@
 # 敌人系统：示例
 
-Project ID：game-002。文档角色：ExampleSet。修订：2026-10-08 / enemy-framework.1。依据版本：TL-1 + INS-1 / processing.2 + timing.1 + enemy.1，读取提交 `a23c75d74187f45f04b50376658be0274049f3f8`。状态：已采纳规则的 Derived 说明；运行和体验 NotRun。
+2026-10-11 · ExampleSet。通用规则情境／Derived，执行NotRun。
 
 [入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md) · [示例](examples.md)
 
 本页只说明已有规则，不定义新敌人、发行数字或未决总序。除另行说明外，假定单一来源敌人、简单单效果、目标稳定、未先发生终局、敌牌到期互不冲突；具体能力须已有明确声明。
+
+## 首批案例
+
+[EX-001：简易法术流](../../examples/simple-spell.md)维护统一物件、初态、时序与战后片段；本页保留其他规则情境。
 
 ## 示例索引
 

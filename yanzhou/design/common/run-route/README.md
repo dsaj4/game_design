@@ -1,14 +1,15 @@
-# 局内路线流程
+# 局内路线
 
-Project ID：game-002。文档角色：Navigation。修订：2026-10-08 / system-catalog.2。状态：既有条款与证据状态沿原记录。
+把战斗风险、构筑状态和下一次取得机会连起来。
 
-本页属于公共流程／合同，不计入六个主系统。范围：路线生成、分支推进、节点信息与单局终点；敌人程序已归敌人系统。
-
-| 文件 | 内容 |
+| 阅读目的 | 文件 |
 | --- | --- |
-| [rules.md](rules.md) | 已有确定条款与规则边界 |
-| [experience.md](experience.md) | 既有体验假设与观察 |
-| [design.md](design.md) | 设计目的、理由和待定内容 |
-| [examples.md](examples.md) | 独立情境、确定结果及未决边界；不新增规则或参数 |
+| 查当前行为 | [规则](rules.md) |
+| 了解设计理由 | [设计](design.md) |
+| 看体验目标与失败信号 | [体验](experience.md) |
+| 看具体情境 | [示例](examples.md) |
 
-[公共流程](../README.md) · [六个主系统](../../systems/README.md) · [规则编号定位](../../../governance/rule-index.md)
+[状态与来源](../../baseline.md) · [集中问题](../../../governance/questions.md)（TL-Q06／10）
+
+<!-- 旧章节链接保留；历史正文见 baseline 固定版本。 -->
+<a id="局内路线流程"></a>

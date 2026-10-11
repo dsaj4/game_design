@@ -40,3 +40,5 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 - [处理耗时公式与连乘参考](E-2026-10-08-processing-time-formula.md)：CORE-056／time-formula.1，用户授权直接选定，最终采用有效倍率连乘；向上取整保底1拍，Hypothesis / NotRun。
 
 - [同拍结算E](E-2026-10-08-settlement-order-reference.md)：CORE-057／timing.2，用户授权结合言咒直接选定通用总序、事件边界及相关支付／维护／恢复合同；NotRun。
+
+2026-10-11：[ 首批案例限定评估 ](E-2026-10-11-simple-spell-example.md)。来源与适用范围见正文。

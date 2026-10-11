@@ -1,102 +1,54 @@
-# 现行版本清单
+# 当前设计基准
 
-规则基准：2026-10-09；文档更新：2026-10-11（guidance-alignment.1）。Project ID：game-002。文档角色：BaselineManifest。
+2026-10-11 · documentation.3 / first-example.1。
 
-| 层 | 当前身份 | 边界 |
-| --- | --- | --- |
-| 产品设计 | GDD-G002-FULL-001 / 2.1 / TL-1 + INS-1 / processing.2 + timing.2 + enemy.1 + commitment.1 + time-formula.1 + resource.1 | 已确认核心结构进入正式系统，见G002-CORE-037–058；CORE-041的配置入口由INS-1替代 |
-| 文档成熟度 | GDD-0，概念与核心结构版 | 通用时序已补，卡表、具体生命周期与参数尚未闭合，不能沿用旧GDD-2的制作就绪结论 |
-| 核心摘要 | Core Concept v0.16 / CORE-SUM-11 | 只浓缩本版已采纳规则 |
-| 新卡表 | 重新设计；通用边界局部采纳，旧候选池已退役 | 旧53实体不是新版可用池；当前没有已采纳的新发行池 |
-| 空间 | 卡牌行是主战场 | 旧2×5、邻近、锚点、满位回退及三种范围均不作为TL-1默认规则 |
-| 费用与干涉 | 每战固定费用，暂不设计成长 | 具体能力、数值、时长、回充等延期 |
-| 证据 | Hypothesis / NotRun | 未运行新玩法、平衡或真人测试 |
-| 视觉与实现 | 原版本分别保存 | 旧暗面Demo、旧翻牌演示、布局可视化均不是TL-1规则实现 |
+| 项目 | 当前值 |
+| --- | --- |
+| GDD | 2.2 / GDD-0 |
+| 核心摘要 | v0.17 / CORE-SUM-12 |
+| 规则 | TL-1 + INS-1，CORE-037—059；44个现行TL身份（TL-20退役） |
+| 本轮增量 | CORE-059：允许明示零材料配方、同一合法铭刻的有限固定用途；首批兼容和契合处理 |
+| 结构 | 六主系统、两子系统、三公共流程，各保留五文件 |
+| 内容 | EX-001简易法术流为首批已登记设计案例；数值是案例配置 |
+| 证据 | 规则预期及玩家体验NotRun；本轮只作静态文档与算术核对 |
 
-## 来源与替代
+## 状态只在这里统一解释
 
-本轮比较输入固定为 `d6e54af395518401fb4d8466b2302a1271da557a`。新结构来自DIR-028已确认内容及本轮INT-01–13答复；[正式素材、提案、评估与差异](../sources/draft-changes/D-2026-10-01-timeline-production-core.md)记录精确范围。
+- **Accepted**：已采纳规则与明确决定。各 rules 页TL条款及CORE-055—059的限定接口按此执行。
+- **Qualified**：已确认且可用于设计的素材。辅槽／行动／标记尚未整包采纳的通用框架，以及ART-I1—4、INS-I1—5、行动设计意图仍保留此状态；其已被具体CORE采纳的部分按Accepted执行。
+- **EX-001**：用户要求加入的首批案例，三项后续推荐已确认；完整参数在案例内固定，用于展示与开发对照。未晋为全局发行池或平衡结果。
+- **Hypothesis / NotRun**：体验、平衡与执行证据未完成。文档版本更新不提升证据等级。
 
-[旧RC1完整目录](https://github.com/dsaj4/game_design/tree/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design)及[旧术语](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/CONTEXT.md)按固定提交保留，不创建第二份当前规格。旧CORE-001–036、53实体、12遭遇、数值、源材料及失败证据保持当时含义；只按新版明确保留的条款使用，不能填补新版Unknown。
+## 来源与追溯
 
-新卡表重新设计不等于删除原始资料。探索其他方向的固定背景也不随此次主系统切换自动更新。
+| 内容 | 依据 |
+| --- | --- |
+| 原核心与兼容复用 | [CORE-037—048来源审查](source-review.md) |
+| 铭刻结构 | [CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md) |
+| 供料调整 | [CORE-050](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md) |
+| 单一D、预留和拍序 | [CORE-051](../sources/draft-changes/D-2026-10-05-single-processing-time.md) · [CORE-052](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md) · [CORE-053](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md) |
+| 敌情 | [CORE-054](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md) |
+| 冻结与锁定 | [CORE-055](../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md) |
+| D公式 | [CORE-056](../sources/draft-changes/D-2026-10-08-processing-time-formula.md) |
+| 总序与恢复 | [CORE-057](../sources/draft-changes/D-2026-10-08-settlement-order-reference.md) |
+| 资源与跨战 | [CORE-058](../sources/draft-changes/D-2026-10-09-resource-system-design.md) |
+| 首批设计与新增明确接口 | [CORE-059](../sources/draft-changes/D-2026-10-11-simple-spell-example.md) |
+| 通用设计与体验意图 | [2026-10-11集成记录](../governance/main-system-review-2026-10-11.md) |
 
-[现行正文](README.md) · [当前问题](../governance/questions.md) · [逐文件兼容性审查](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatibility-audit-2026-10-01.md)
+整理输入固定提交：`a9a7be3a48356379d9fb3eed86c17cfe3ada7325`。此前的基准沿革、各轮来源及独有设计解释保留在[整理前版本](https://github.com/dsaj4/game_design/blob/a9a7be3a48356379d9fb3eed86c17cfe3ada7325/yanzhou/design/baseline.md)及[决策记录](../governance/decision-log.md)。当前问题只查[集中登记](../governance/questions.md)，不从旧轮次的Unknown倒推待办。
 
-兼容补全以TL-1提交`ed013948f6c5379fc984413ffd08ae8e7ce0f0c9`为输入，按[CORE-048](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md)明确复用TL-26–37；不改变上轮RC1固定取证版本。原参数继续不默认继承，只有本轮明示的结构常量进入参数表。
-
-## INS-1局部替代（2026-10-04）
-
-复审输入为提交`a4a7aea8500970ef3504a62e576fc99f08c566db`；[DIR-036素材与P/E](../sources/materials/M-2026-10-04-artifact-inscription-core.md)只确认用户已明确的结构，通过[CORE-049采纳D](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)回写。原方向R1–R3仍使用其登记CORE版本，本轮主系统复审范围独立登记，未刷新原输入。
-
-TL-38–45采用法器、有限名词／动词核心空缺、必填核心、预设挂接可选辅槽、辅槽新增／解锁打造、材料类别绑定、行动类别与独立卡效及核心契合方向。替代TL-20入口、自由修饰挂接和法器直接交付资源卡路径；不改变实体占用、材料托管、有限队列、效果目标、实际顺延、每战固定干涉费用与保存边界。
-
-材料／卡效、契合形式、打造成本与持久范围、高阶材料来源仍Unknown；后续新卡表需按铭刻接口设计与审查。仍GDD-0 / Hypothesis / NotRun，无新发行实体、实验或实现证据。
-
-## routing.1局部澄清（2026-10-04）
-
-输入为`b0754e5c08273201f4b04639a371ff2da16cafe6`及本轮用户四项说明、供料调时答复。[CORE-050](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)明确所有敌方行动牌正延迟、攻防／运转功能取舍、未来供料优先级可临时调整，以及供料间接调整未来开工。CORE-044的固定分料顺序局部细化为默认顺序；维护优先、托管边界和战前争入行顺序保留。
-
-付费调牌序只保留inbox候选；额外调时与具体干涉能力待定，未确定新的卡效、配方或数值。主版本仍GDD 2.1 / TL-1 + INS-1，GDD-0 / Hypothesis / NotRun。
-
-## processing.1局部替代（2026-10-05）
-
-输入提交`cb5bea76595d3a7bff057a15332f5148effa84c2`及用户“仅设处理时间……”和S1-Q6–8“本批全部按推荐”。[CORE-051／M→E→D](../sources/draft-changes/D-2026-10-05-single-processing-time.md)采纳：仅处理耗时D且正整数≥1，取消J、R、独立周期／冷却及首次起点S；开工托管完整材料并预留本批所需队列容量，无位不开工，处理完成立即入行。容量Q同时计已入行牌与有效预留。
-
-替代旧完工后留在法器等位的机制；同拍实际入行处理保留战前法器序。当轮开工预留争用、具体排位和打断释放时点仍Unknown，S1-Q1最早翻开与S1-Q5临时供料恢复未被该批确认；后续决定见processing.2。该轮主版本仍2.1、GDD-0，核心摘要v0.9／CORE-SUM-4，未新增卡池、实验或实现证据。
-
-## processing.2接口补全（2026-10-05）
-
-输入提交`0c511dd7f8c1e2dda84a65e2b540a2517456771d`及用户“下一批全部按推荐”。[CORE-052／M→E→D](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)采纳S1-Q9／10／11／1／5：预留只占容量，实际入行排队；开工按有效供料优先级同时检查材料与容量，不足者本次跳过；中断结清释放预留，容量与退料最早下拍复用；入行最早下拍翻开；单份临时供料在指定结束拍分料前恢复基础方案，新替旧且不恢复旧临时方案。
-
-保留CORE-051唯一D、无冷却、无完工等待与有限队列；不把最早下拍翻开解释成下拍保证生效。该轮完整同拍顺序、正常离队容量复用、多牌批次、到期与新操作受理先后以及内容数值仍Unknown，后续局部确认见timing.1。该轮主版本GDD 2.1／GDD-0不变；核心v0.10／CORE-SUM-5，全部新验收预期NotRun，无新发行实体、实验或实现证据。
-
-## timing.1共同拍序与阶段一完成（2026-10-05）
-
-输入提交`dfc844a41f2cd6a9d78d01abafc43b3340745664`及用户“Q12–14全部按推荐”。[CORE-053／M→E→D](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)采纳：行动结算与幸存完工后每拍一次开工，a+D完工，正常离队容量可供本拍末使用；中断回收下拍可用，其他材料与独立空位可用于同拍末重开。每拍先边界可用与到期恢复，再揭示和观察提交；窗口新方案供本拍末开工，结束拍>当前拍，中途输入留下一窗口。基础补给也最早下拍可用，初始库存第0拍可用。
-
-核心摘要v0.11／CORE-SUM-6，当前局部基准processing.2 + timing.1；主版本GDD 2.1／GDD-0不变。阶段一文档交付完成，八组条件情境已作文档复核；示例值和案例限制不晋级为正式内容。复杂总序、多牌批次、维护和敌牌失效等按后续责任移交；新增TL-V53–60，现用67项预期全部NotRun，无新发行实体、FX、实验或实现证据。
-
-## enemy.1敌情合同与卡面种类（2026-10-05）
-
-输入提交`95c136ed954f70c9d5336552ee5cd30b3e9fcc69`及用户第三至五轮答复（含“本批全部按推荐”）。[CORE-054／M→E→D](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)采纳：敌程序固定循环时间表、开战公开翻开表与种类；指定打断锁定翻开时剩余最长施法所在法器，无施法或无批次落空；每场一个来源敌人，死亡即胜、未到期敌牌作废；伤害与打断大类内敌方到期先于玩家行动；敌我共用攻击／防御／打断／其他四类通用符号，地域特色只在牌组变体；首版“秘仪与炼金”表现方向与内容约束。替代TL-13“敌人全灭判胜”。
-
-核心摘要v0.12／CORE-SUM-7，局部基准processing.2 + timing.1 + enemy.1；主版本GDD 2.1／GDD-0不变。阶段二首批文档交付完成；绿狮、万溶之液、雷比斯仅为候选，数值Illustrative。新增TL-V61–68，现用75项预期全部NotRun，无新发行实体、FX、实验或实现证据。
-
-## 2026-10-08系统框架重建与审查
-
-DOC-012—016完成六主系统、两个子系统及三个公共流程的五文件组织，并整理辅槽、行动／标记、法器与敌人框架。沿用户“阶段1—4设计完成”的前提；旧阶段二／三／四推进语句只说明原轮次，不作为当前重做任务。
-
-DOC-017审查当时规则采纳止于CORE-054；新增辅槽及行动／标记通用结构保持局部Qualified，未决接口继续Unknown。GDD 2.1／GDD-0、Core Concept v0.12／CORE-SUM-7及Hypothesis／NotRun不因文档组织自动升级。该轮验收为75项既有预期，未覆盖为已采纳规格的完整标记结算。
-
-DOC-017按固定输入`cb8c8b2376cfe217e6d65a128d0fbf9909f83edb`订正进度、旧Unknown和索引，完整覆盖及风险见[主系统审查](../governance/main-system-review-2026-10-08.md)。当前没有已采纳的完整新发行池；这与阶段交付完成可以同时成立。
-
-## commitment.1批次冻结与消费锁定（2026-10-08）
-
-输入提交`830c0b063e62c816fe1abe39c7818787d9c4a089`及用户D冻结答复、FZ-Q1—5“都按推荐”。[CORE-055 / M→E→D](../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)限定采纳：开工冻结D及本批应付标记，完工扣除，打断释放下拍可用；消费前预警、不逐批确认；玩家锁定自有未承诺的指定数量以阻止全部自动消费，至主动解锁；必需不足等待，明确可选才基础回退。
-
-核心v0.13／CORE-SUM-8，GDD仍2.1／GDD-0；现用44条TL、83项NotRun验收预期及137个FX身份。新增TL-V69—76，不复用编号。时间公式、同拍总序、冻结量与自然失效／上限／战终的接口及定时登记恢复尚未闭合。未增加发行内容、实现或运行证据；其他Qualified框架不整体提升。
-
-## time-formula.1耗时公式（2026-10-08）
-
-输入`614a6e2dd48cfbb4894bfed8a4669703f0004553`，用户授权直接选定一致规则，随后明确以参考中的连乘为最终逻辑。[CORE-056 / M→E→D](../sources/draft-changes/D-2026-10-08-processing-time-formula.md)采纳先固定增减后有效倍率连乘、最后向上取整及最低1拍；同一效果先按其叠层声明形成贡献，不按层数默认乘方；支付不因取整无收益而自动免单。
-
-核心v0.14／CORE-SUM-9，GDD仍2.1／GDD-0，44条TL与137个FX身份不变。新增TL-V77—82，该轮89项NotRun预期。数学／文档核对不是玩法验证；局部外部参考不代表正式发行版全规则，不复制第三方代码或资产。具体内容、同拍总序和生命周期继续Unknown。
-
-## timing.2同拍结算（2026-10-08）
-
-输入`a3fa9101940df567b56d8fe665bcbe6ceb7f1265`，用户要求结合言咒确认一致规则。[CORE-057／M→E→D](../sources/draft-changes/D-2026-10-08-settlement-order-reference.md)补齐通用总序、复合分组、逐步骤与有限反应结清、定时期限／绑定、维护恢复、共享支付、冻结失效及保存合同。参考只借组织方法，具体优先级为言咒选择。
-
-核心v0.15／CORE-SUM-10，GDD仍2.1／GDD-0，44个TL及137个FX不变；TL-V83—96新增后共103项NotRun预期。具体内容、层数上限／刷新／周期预算、托管维护、附属物、批次内部关系与跨战归属等仍开放。前述各轮Unknown仅代表当轮输入；通用顺序不再列未决，文档一致不证明体验和平衡。
-
-## resource.1资源设计与通用边界（2026-10-09）
-
-输入`54ad7597145127922759be7840c5d4d30ea786e1`。用户在R1—R20确认与评估之后要求“更新到主系统中”，通过[CORE-058 / M→E→D](../sources/draft-changes/D-2026-10-09-resource-system-design.md)采纳资源三个职责、无铭文基础加工、背包投入／选留、性质与阶级、多阶兑现、普通耗材生命周期及公开信息／自动运行目标。具体内容留后续流派；其他Qualified框架不整体升级。
-
-核心v0.16／CORE-SUM-11，GDD仍2.1／GDD-0，44个TL身份不变，新增TL-V97—106后113项验收预期全部NotRun；无新发行内容、玩法测试或实现证据。
-
-## guidance-alignment.1设计与体验集成（2026-10-11）
-
-规则基准仍为CORE-058 / resource.1，GDD 2.1／GDD-0、核心v0.16／CORE-SUM-11不因文档整理升级。汇入铭文／辅槽、法器、行动卡三个固定分支的Qualified设计意图，逐系统订正设计、体验及关联示例，公共流程同步。采纳、资格与体验证据分别保留；113项既有验收预期仍NotRun。
-
-[本轮审查](../governance/main-system-review-2026-10-11.md)为当前跨系统复核入口；旧日期章节与10月8日报告保留当时含义，已闭合的公式和总序不再重问。
+<!-- 旧章节链接保留；历史正文见 baseline 固定版本。 -->
+<a id="2026-10-08系统框架重建与审查"></a>
+<a id="commitment1批次冻结与消费锁定2026-10-08"></a>
+<a id="enemy1敌情合同与卡面种类2026-10-05"></a>
+<a id="guidance-alignment1设计与体验集成2026-10-11"></a>
+<a id="ins-1局部替代2026-10-04"></a>
+<a id="processing1局部替代2026-10-05"></a>
+<a id="processing2接口补全2026-10-05"></a>
+<a id="resource1资源设计与通用边界2026-10-09"></a>
+<a id="routing1局部澄清2026-10-04"></a>
+<a id="time-formula1耗时公式2026-10-08"></a>
+<a id="timing1共同拍序与阶段一完成2026-10-05"></a>
+<a id="timing2同拍结算2026-10-08"></a>
+<a id="来源与替代"></a>
+<a id="现行版本清单"></a>

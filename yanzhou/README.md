@@ -1,32 +1,16 @@
 # 言咒 · Yanzhou
 
-Project ID：game-002。当前设计：**GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.2 + enemy.1 + commitment.1 + time-formula.1 + resource.1，GDD-0**。规则采纳基准2026-10-09；系统设计与体验集成2026-10-11。核心结构、主辅槽铭刻、单一处理、生产／队列接口、阶段一共同拍序与阶段二敌情合同已采纳；发行内容、具体生命周期与数值待设计，体验Hypothesis / NotRun。现有探索方向已退役。
+game-002 · 2026-10-11 · GDD 2.2 / GDD-0。
 
-当前跨系统复核：[2026-10-11设计指导集成](governance/main-system-review-2026-10-11.md)。已汇入三组Qualified设计意图；规则仍CORE-058，具体内容与体验验证未完成。
+用铭文构筑自动运行的法器，在敌情压力下调整未来生产，让行动逐张兑现。
 
-| 我想做什么 | 入口 |
+| 当前要做什么 | 入口 |
 | --- | --- |
 | 了解游戏 | [核心设计](design/core-design.md) |
-| 查询正式规则 | [GDD与系统导航](design/README.md) |
-| 设计新卡表 | [内容合同与当前缺口](design/content/cards.md) |
-| 查看铭刻采纳范围 | [DIR-036局部采纳](sources/draft-changes/D-2026-10-04-artifact-inscription-core.md) |
-| 处理当前问题 | [问题清单](governance/questions.md) |
-| 查看实现与验证 | [开发索引](development/README.md) |
+| 开始UI设计与规则实装 | [主系统阅读入口](design/README.md) |
+| 查看首批物件和案例 | [EX-001简易法术流](design/examples/simple-spell.md) |
+| 处理缺口 | [集中问题登记](governance/questions.md) |
+| 查询词义 | [术语](CONTEXT.md) |
+| 看实现与证据 | [开发索引](development/README.md) |
 
-[探索方向](exploration/README.md) · [阅读范围](exploration/start.md) · [术语](CONTEXT.md) · [来源](sources/README.md) · [决策与规范](governance/README.md) · [效果身份](effects/README.md) · [视觉](visual/README.md) · [历史取证](history/README.md) · [文件索引](governance/file-index.md) · [Agent规则](AGENTS.md)。
-
-阶段一文档交付已完成：[共同规则、预算与配套情境](sources/inbox/2026-10-05-stage-one-closure.md)。示例数值不等于发行参数，阶段完成不等于运行验证。
-
-阶段二首批文档交付已完成：[敌人压力、卡面种类与候选](sources/inbox/2026-10-05-stage-two-enemy-pressure.md)，按CORE-054采纳。该记录保留当轮进度，不再作为当前阶段待办。
-
-当前工作是系统框架重建后的接口核对。沿用户“阶段1—4设计完成”的前提，六系统及公共流程已分文件整理；辅槽、行动／标记的新增通用结构为 Qualified，既有 TL 条款保持 Accepted，局外成长尚未开发。阶段交付、正式内容登记与运行验证分别记录，不重启旧阶段，也不把候选自动当作发行池。
-
-[2026-10-08主系统审查与清理](governance/main-system-review-2026-10-08.md) · [当前未决接口与下一批建议](governance/questions.md#重建后接口核对2026-10-08)
-
-当前局部采纳：[CORE-055 / commitment.1](sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)，开工冻结D与应付标记、完工扣除、打断释放下拍可用；消费前预警和玩家指定数量锁定。其他Qualified框架不整包升级，通用总序后由CORE-057补齐，具体生命周期仍待补齐，NotRun。
-
-[CORE-056 / time-formula.1](sources/draft-changes/D-2026-10-08-processing-time-formula.md)已补齐D的固定增减、有效倍率连乘、最终向上取整和最低1拍；取整无进一步缩短不自动免除已声明费用。通用总序后由CORE-057补齐，具体内容与剩余生命周期仍待定，GDD-0／NotRun不变。
-
-[CORE-057 / timing.2](sources/draft-changes/D-2026-10-08-settlement-order-reference.md)已确认同拍总序、复合步骤、定时与维护、逐事件终局及恢复合同；通用顺序已定，具体内容／生命周期缺口仍按当前问题处理，GDD-0／NotRun不变。
-
-[CORE-058 / resource.1](sources/draft-changes/D-2026-10-09-resource-system-design.md)已采纳资源设计及R1—R20：基础加工、性质／阶级、多阶兑现、资源背包和跨战结算，以及公开信息与自动运行目标。具体流派内容延期，体验NotRun。
+[版本与来源](design/baseline.md) · [设计来源](sources/README.md) · [决策](governance/decision-log.md) · [探索阅读](exploration/start.md) · [历史](history/README.md) · [Agent规则](AGENTS.md)

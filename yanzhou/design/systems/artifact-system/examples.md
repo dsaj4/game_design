@@ -1,9 +1,12 @@
 # 法器系统：示例
 
-Project ID：game-002。文档角色：ExampleSet。修订：2026-10-08 / artifact-framework.1。依据版本：GDD 2.1 / TL-1 + INS-1 / processing.2 + timing.1 + enemy.1，附已注明的 Qualified 接口。状态：说明性推导 / NotRun；不新增规则、发行内容或默认参数。
-本轮文档复核：2026-10-11 / guidance-alignment.1；规则输入CORE-058及之前采纳，新增意图保持原资格；无玩法执行证据。
+2026-10-11 · ExampleSet。通用规则情境／Derived，执行NotRun。
 
 [入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md) · [示例](examples.md)
+
+## 首批案例
+
+[EX-001：简易法术流](../../examples/simple-spell.md)维护统一物件、初态、时序与战后片段；本页保留其他规则情境。
 
 ## 既有正反例
 

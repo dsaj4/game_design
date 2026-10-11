@@ -105,3 +105,5 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 - [行动卡意图](M-2026-10-10-action-card-design-intent.md)：战斗表现、资源兑现与清楚单卡，Qualified。
 
 原日期／资格保持；本轮仅集成并对齐现行规则，不新建采纳或重复确认。
+
+2026-10-11：[ Qualified首批案例素材 ](M-2026-10-11-simple-spell-example.md)。来源与适用范围见正文。

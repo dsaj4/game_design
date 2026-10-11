@@ -1,8 +1,12 @@
 # 资源系统：示例
 
-Project ID：game-002。文档角色：ExampleSet。修订：2026-10-08 / system-docs.2。状态：继承规则的说明性推导，非运行结果；不新增规则或发行参数。 当前局部更新：2026-10-09 / CORE-058 / resource.1；仅新增明确采纳范围。
+2026-10-11 · ExampleSet。通用规则情境／Derived，执行NotRun。
 
 [入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md) · [示例](examples.md)
+
+## 首批案例
+
+[EX-001：简易法术流](../../examples/simple-spell.md)维护统一物件、初态、时序与战后片段；本页保留其他规则情境。
 
 ## 既有正反例
 

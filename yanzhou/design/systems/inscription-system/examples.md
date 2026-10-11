@@ -1,9 +1,12 @@
 # 铭文系统：示例
 
-Project ID：game-002。文档角色：ExampleSet。修订：2026-10-08 / system-docs.2。状态：Inherited / Accepted条件推导；Illustrative / NotRun，无发行实体或默认数值。
-本轮文档复核：2026-10-11 / guidance-alignment.1；规则输入CORE-058及之前采纳，新增意图保持原资格；无玩法执行证据。
+2026-10-11 · ExampleSet。通用规则情境／Derived，执行NotRun。
 
 [入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md) · [示例](examples.md)
+
+## 首批案例
+
+[EX-001：简易法术流](../../examples/simple-spell.md)维护统一物件、初态、时序与战后片段；本页保留其他规则情境。
 
 ## 核心合法性与暂时缺料
 

@@ -1,20 +1,15 @@
-# 标记系统
+# 标记
 
-Project ID：game-002。文档角色：Navigation。修订：2026-10-08 / mark-framework.1。归属：行动卡子系统。状态：通用结构 Qualified／用户已确认；体验 Hypothesis / NotRun。
+保留施法后果，为行动和法器提供共享条件与支付。
 
-2026-10-08局部更新：[CORE-055 / commitment.1](../../../../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md)已采纳本批D与开工标记冻结、完工扣除、打断释放及消费锁定相关接口；其余Qualified范围保持原状态；CORE-057已补通用总序、定时与支付承诺边界，具体上限／刷新／跨战等生命周期内容仍待定。
-
-标记承载行动留下的宿主状态、层数积累与后续兑现。沿阶段 1—4 完成的前提，本轮已整理指定主材料的确认部分和 ACT-Q1／2；不把全部候选标记与详细结算一并采纳。
-
-| 文件 | 内容 |
+| 阅读目的 | 文件 |
 | --- | --- |
-| [rules.md](rules.md) | 宿主与极性、叠层上限、读取支付、定时效果及生命周期边界 |
-| [experience.md](experience.md) | 状态可读性、积累消费与时间预测的假设 |
-| [design.md](design.md) | 砝码表现、生命两套方案、未决接口 |
-| [examples.md](examples.md) | 宿主分组、叠层、定时和停止的边界说明 |
+| 查当前行为 | [规则](rules.md) |
+| 了解设计理由 | [设计](design.md) |
+| 看体验目标与失败信号 | [体验](experience.md) |
+| 看具体情境 | [示例](examples.md) |
 
-来源：[固定输入与确认](../../../../sources/inbox/2026-10-08-action-card-framework-review.md)、[Qualified 素材](../../../../sources/materials/M-2026-10-08-action-card-framework.md)。指定本地原件仍保留原路径和身份，其完整卡池不作为本目录内容。
+[状态与来源](../../../baseline.md) · [集中问题](../../../../governance/questions.md)（TL-Q02／08、FB-Q02）
 
-[行动卡系统](../README.md) · [辅槽系统](../../inscription-system/augment-system/README.md) · [全部系统](../../README.md)
-
-2026-10-11指导集成：**持续状态、条件／支付与实有／预告区分**，见[设计](design.md)与[体验](experience.md)。状态按各页来源保留，未新增玩法采纳或运行证据。
+<!-- 旧章节链接保留；历史正文见 baseline 固定版本。 -->
+<a id="标记系统"></a>

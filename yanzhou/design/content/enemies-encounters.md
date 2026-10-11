@@ -1,8 +1,12 @@
 # 敌牌与遭遇内容合同
 
-Project ID：game-002。文档角色：ContentScope。设计基准：2026-10-05 / TL-1 + INS-1 / enemy.1。文档修订：2026-10-08 / enemy-framework.1。规则见SYS-003／005／007；本页维护具体候选及扩展处置，通用约束与表现方向归 [敌人系统](../systems/enemy-system/README.md)。首批敌人均为**候选**，不是发行池；数值Illustrative，体验Hypothesis / NotRun。来源：[CORE-054](../../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)。
+2026-10-11 · ContentScope。当前首批案例为EX-001；较早候选保留为储备，数值未冻结为发行值。
 
 旧EN01–07、B01和12场布场不作为新数值默认值，保留[原RC1内容](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/enemies-encounters.md)。旧v0.1的三种敌牌候选已随探索退役，不作为当前待审遭遇表。
+
+## 当前首批案例
+
+[EX-001炼金学徒](../examples/simple-spell.md#6-炼金学徒)：唯一维护完整程序、玩家初态及逐拍结果。下列绿狮、万溶之液、雷比斯不混入该初始遭遇。
 
 ## 必需字段
 
@@ -20,7 +24,7 @@ Project ID：game-002。文档角色：ContentScope。设计基准：2026-10-05 
 
 已确认方向、世界观假设、同一敌人不混用地域意象、图谱页候选及出处核实约束统一见 [敌人设计](../systems/enemy-system/design.md#表现方向与可调整部分)。意象出处仍未核实；本次只迁移落位，不把图谱页布局或具体历史断言视为已确定。
 
-## 首批候选（数值Illustrative）
+## 储备候选（数值Illustrative）
 
 | 候选 | 压力入口 | 程序摘要 | 设计意图 |
 | --- | --- | --- | --- |
@@ -33,3 +37,6 @@ Project ID：game-002。文档角色：ContentScope。设计基准：2026-10-05 
 ## 后续扩展边界
 
 衔尾蛇（首尾相衔的循环程序）与星时占师（行星时辰排程）在现行规则内，作为后续候选；泥人、死首改为附属物形态候选；改速／改延迟、战中召出敌人、读取玩家选择生成敌牌须另走新规则；卡背种类与实际类别不符的设计排除。详见[特色扩展边界](../../sources/inbox/2026-10-05-stage-two-enemy-pressure.md#特色扩展边界)。
+
+<!-- 旧章节链接保留；历史正文见 baseline 固定版本。 -->
+<a id="首批候选数值illustrative"></a>

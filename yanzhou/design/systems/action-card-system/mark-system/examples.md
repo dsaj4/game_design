@@ -1,8 +1,12 @@
 # 标记系统：示例
 
-Project ID：game-002。文档角色：ExampleSet。修订：2026-10-08 / mark-framework.1。状态：Qualified 规则的说明性推导；NotRun。甲、乙、n、k、t 只是示意符号，不是已发行标记、参数或内容 ID。
+2026-10-11 · ExampleSet。通用规则情境／Derived，执行NotRun。
 
 [入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md) · [示例](examples.md)
+
+## 首批案例
+
+[EX-001：简易法术流](../../../examples/simple-spell.md)维护统一物件、初态、时序与战后片段；本页保留其他规则情境。
 
 ## 宿主与极性分开
 

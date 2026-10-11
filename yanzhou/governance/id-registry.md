@@ -112,3 +112,9 @@ G002-DOC-019：本轮指导集成、一致性清理与风险复核，Accepted / 
 ## 2026-10-11简易法术流首批来源登记
 
 [首批设计登记](../sources/inbox/2026-10-11-simple-spell-first-batch-registration.md)以日期与文件路径标识Raw来源，附原文SHA-256。两法器、三核心、一副铭文、三个已展开行动条目、一标记、一敌人四敌牌及四案例保持候选；积蓄对应行动与资源物件未完成。原稿A1／A2／B及Q1—Q10仅为稿内标签，不分配或复用MAT、P／E／D、CORE、FX、正式卡牌或退役同名流派身份。登记完成不等于资格通过、采纳或验证。
+
+## 2026-10-11首批案例与开发阅读
+
+G002-CORE-059 / first-example.1；G002-DOC-020 / documentation.3。MAT-2026-10-11-simple-spell-example及同题E／D为新增限定来源。EX-001是首个跨系统案例ID，后续从EX-002继续；案例物件没有发行或FX身份。
+
+TL-V107—110新增4项，合计117项NotRun；44个TL和137个FX身份不变。FB-Q01—03、META-Q01为questions集中问题标识，其他TL／INS主题保留；不复用旧编号。

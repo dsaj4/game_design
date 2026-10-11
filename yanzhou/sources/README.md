@@ -18,7 +18,7 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 
 ## 已完成过程记录
 
-首批内容候选入口：[简易法术流设计登记（2026-10-11）](inbox/2026-10-11-simple-spell-first-batch-registration.md)。用户提供的首批方案已保存；Raw / Unqualified、NotRun，包含物件清单、案例、原稿待确认项及登记核对，不属于下述已采纳过程。
+首批内容候选入口：[简易法术流设计登记（2026-10-11）](inbox/2026-10-11-simple-spell-first-batch-registration.md)。原件保持原始记录；后续明确范围已晋级，并按CORE-059进入首批案例，剩余未完成内容保留原资格。
 
 六组已采纳设计的18份P/E/D已归档到[完成记录](../history/accepted-design-records/README.md)。原始输入、合格素材与仍有局部未决内容的过程文档留原处；归档不扩大采纳或验证范围。旧文档管理拟修改按固定Git取证。新增任务按需要创建正式文件，不预建空树。
 
@@ -44,3 +44,7 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 - [重建后一致性审查](../governance/main-system-review-2026-10-08.md)及[剩余接口](../governance/questions.md#重建后接口核对2026-10-08)是后续工作入口；原来源不改写为新版规则。
 
 [同拍结算原话](inbox/2026-10-08-settlement-order-reference.md)→[Qualified M](materials/M-2026-10-08-settlement-order-reference.md)→[E](evaluations/E-2026-10-08-settlement-order-reference.md)→[CORE-057 D](draft-changes/D-2026-10-08-settlement-order-reference.md)：timing.2限定采纳；前轮Raw研究与本轮适配分别保留，不扩大具体内容资格。
+
+## 2026-10-11首批案例与固定用途
+
+[用户答复](inbox/2026-10-11-simple-spell-first-batch-registration.md#2026-10-11进入ui与实装前的明确更新) → [M](materials/M-2026-10-11-simple-spell-example.md) → [E](evaluations/E-2026-10-11-simple-spell-example.md) → [CORE-059 D](draft-changes/D-2026-10-11-simple-spell-example.md) → [EX-001](../design/examples/simple-spell.md)。

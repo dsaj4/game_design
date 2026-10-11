@@ -1,20 +1,16 @@
-# 局外成长系统
+# 局外成长
 
-Project ID：game-002。文档角色：Navigation。修订：2026-10-08 / system-catalog.2。状态：尚未开发；仅占位。
+暂不进入当前制作内容。
 
-本系统范围：预留独立系统入口；范围、机制与持续性均待设计。
-
-| 文件 | 维护内容 |
+| 阅读目的 | 文件 |
 | --- | --- |
-| [rules.md](rules.md) | 规则、权限、支付、结算和失败边界；按实际确认状态标注 |
-| [experience.md](experience.md) | 玩家行为与体验假设、观察和证据 |
-| [design.md](design.md) | 定位、风格、理由及待定设计 |
-| [examples.md](examples.md) | 独立情境、确定结果及未决边界；不新增规则或参数 |
+| 查当前行为 | [规则](rules.md) |
+| 了解设计理由 | [设计](design.md) |
+| 看体验目标与失败信号 | [体验](experience.md) |
+| 看具体情境 | [示例](examples.md) |
 
-## 相邻文档
+[状态与来源](../../baseline.md) · [集中问题](../../../governance/questions.md)（META-Q01）
 
-[既有局内经济](../../common/run-economy/README.md)；不能把局内跨战持有或本局购买直接当作局外成长规则。
-
-[全部系统](../README.md) · [文档职责](../../../governance/document-contract.md#系统文件夹与分文件职责)
-
-2026-10-11指导集成：**尚未开发，区分知识候选与局外数值成长**，见[设计](design.md)与[体验](experience.md)。状态按各页来源保留，未新增玩法采纳或运行证据。
+<!-- 旧章节链接保留；历史正文见 baseline 固定版本。 -->
+<a id="局外成长系统"></a>
+<a id="相邻文档"></a>

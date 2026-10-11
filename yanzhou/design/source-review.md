@@ -167,3 +167,11 @@ Include：三个职责及R1—R20全部已确认通用边界与体验目标。Re
 | Omit | 战中换铭、手动逐卡目标／付款、T−D简式、旧符号、默认打造金币／地点、可选标记上限和默认溢出、局外解锁建议 | 未经原规则支持的示例不引入；Raw内容不借指导晋级 |
 
 未整体合并旧铭文分支，未改任何来源原话／原确认；新导入SourceRecord保留各自当轮范围。GDD仍GDD-0，CORE止于058，113项规则验收仍NotRun；没有新发行实体、图像、Demo或玩法实验。
+
+## 2026-10-11开发阅读整理与首批案例
+
+本轮来源：[原始登记与明确答复](../sources/inbox/2026-10-11-simple-spell-first-batch-registration.md)、[限定Qualified素材](../sources/materials/M-2026-10-11-simple-spell-example.md)。
+
+Include：零材料允许、普通／兑现固定用途、两护符兼容迅速、暂缓本例契合；原稿明确物件值作为EX-001案例输入。Replace：原案例过早生效、非法Q状态、追溯中断旧批次和混乱重开拍。Park：积蓄、未命名休整候选、持续按层成长及缺失调度。Omit：D1即时生效、声明“已验证”及12—20拍时长结论。
+
+Core v0.17／GDD 2.2／CORE-059，44个TL身份，117项验收预期NotRun。通用Qualified框架不整包晋级；具体EX值不成为全局发行池。正文清理与固定Git取证见[清理登记](../governance/cleanup-report.md#2026-10-11主系统开发阅读整理)。
