@@ -1,0 +1,30 @@
+{
+  "id": "DM-G002-012",
+  "version": "PHYSICAL-CARD-HTML-04",
+  "date": "2026-10-12",
+  "project": "game-002",
+  "status": "Catalogued / PresentLocal; source and function checks passed, browser NotRun",
+  "designInput": "20b92ec65fa66219ec8b2a4f7dd5c1a6d63d9ba8",
+  "derivedFrom": "DM-G002-012@PHYSICAL-CARD-HTML-03",
+  "stage": 2,
+  "stage3": "NotStarted",
+  "stage4": "NotStarted",
+  "scope": "Floating player and enemy pawn status closeups; other v03 interactions unchanged",
+  "files": [
+    {
+      "path": "card-flow-v04.html",
+      "bytes": 103110,
+      "sha256": "a4136fb6f2a32bd25f2e0ee04104cd00da32e55b2b1c9a5db97bddd22871448d"
+    },
+    {
+      "path": "card-flow-html-v04.md",
+      "bytes": 2023,
+      "sha256": "56c78ceef3ff0b5824b9c2193502090420d8e3d3d9ee74c18e713f84dc08f640"
+    },
+    {
+      "path": "card-flow-html-verification-v04.md",
+      "bytes": 1504,
+      "sha256": "bb28e90a5d09d900ae036a659a7fa5f6ca2a866a06117e19516d529a6dfe66c2"
+    }
+  ]
+}

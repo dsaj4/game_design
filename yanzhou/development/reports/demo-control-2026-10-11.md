@@ -170,3 +170,8 @@ A／B及C本轮均已交回，无在途构建、测试或后台自动化。A额�
 [PHYSICAL-CARD-HTML-03](../../visual/physical-table-2026-10-12/card-flow-html-v03.md)把正向筹码统一到棋子右侧，左侧留负面状态；筹码去掉详情，悬停／焦点显示精确数量。卡牌与空抽屉改为无底板悬浮。原20情境47帧保持固定回放，另设可操作消费锁情境，检查逐层锁／解、排队受理、消费排除锁定量和新增量不自动锁定；不把台账示意冒充第二套战斗后端。
 
 [总控复核](../../visual/physical-table-2026-10-12/card-flow-html-verification-v03.md)区分源码／函数检查与浏览器证据。本轮对用户已打开file页的读取被浏览器URL政策明确拒绝，不绕过；v03布局、真实悬停／手势和焦点仍待实测。v01／v02按原清单保全，新版按[manifest](../../visual/physical-table-2026-10-12/card-flow-v03-manifest.json)固定；仅同步相关DQ局部阶段，原56任务身份不变。没有Godot改动、构建、玩法实验或真人测试。
+
+
+## 2026-10-12 卡片HTML v04：双方棋子悬浮近观
+
+用户在v03玩家状态近观批注“同样做悬浮”，要求“同步修改”。原设计agent据此补齐玩家与敌方棋子近观：独立棋子、右侧生命／护盾及共同疲劳沙漏，去除底板与数值块；关闭仍停、回原棋子。交付[PHYSICAL-CARD-HTML-04](../../visual/physical-table-2026-10-12/card-flow-html-v04.md)，[检查范围](../../visual/physical-table-2026-10-12/card-flow-html-verification-v04.md)与[固定清单](../../visual/physical-table-2026-10-12/card-flow-v04-manifest.json)分开登记。原21情境、消费锁及旧版证据保持；仅阶段2，未作浏览器、Godot、构建或玩法实验。
