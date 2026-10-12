@@ -1,8 +1,8 @@
 # 言咒实现与资产索引
 
-> 当前阶段：2026-10-12 Godot第四批源码集成通过，完整战斗、事件恢复、播放及界面入口已接入；固定源码9346dc6f572945c565f9501588f4f98697eaab1f。唯一工程为[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)，设计CORE-060／EX-002、视觉Blender v02。原DM-G002-011@GODOT-EX001-0.2包只读保留，新包未导出；正式音画、字体随包与真人体验未完成。
+> 当前阶段：2026-10-12 Godot第四批源码集成通过，完整战斗、事件恢复、播放及界面入口已接入；固定源码9346dc6f572945c565f9501588f4f98697eaab1f。唯一工程为[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)，设计CORE-060／061及EX-002、视觉Blender v02。原DM-G002-011@GODOT-EX001-0.2包只读保留，新包未导出；正式音画、字体随包与真人体验未完成。
 
-> 当前调度（2026-10-12）：**第五批暂停—待设计对接核对演出／音效的暂停、单步收尾与读档反馈**。按[DOC-024](development-standard.md#8-设计裁决闸门)整批停下，[唯一问题登记](../governance/questions.md#presentation-round03)。第四批310项主工程、两档各32项真实键鼠与8次Godot运行（含完整胜败、跨进程恢复）通过，[第四批报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-04-integration.md)；它们不是正式音画／完整117项验收。
+> 当前调度（2026-10-12）：**R4—R6已直接确认并集成CORE-061，第五批恢复字体与表现开发**。总控完成来源复审与静态合同核对，新设计取舍仍按[DOC-024](development-standard.md#8-设计裁决闸门)暂停，[唯一问题登记](../governance/questions.md#presentation-round03)。第四批310项主工程、两档各32项真实键鼠与8次Godot运行（含完整胜败、跨进程恢复）通过，[第四批报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-04-integration.md)；它们不是正式音画／完整117项验收。
 
 ## 当前开发入口
 

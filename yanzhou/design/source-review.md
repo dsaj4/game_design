@@ -183,3 +183,7 @@ Core v0.17／GDD 2.2／CORE-059，44个TL身份，117项验收预期NotRun。通
 Include：原案R1／R2首场操作完整条件，R3独立完整单战配置、疲劳及静态胜败。Replace：TL-Q08／07本场仍未知的当前表述。Omit：3秒默认、详情保持播放、3拍疲劳周期三个未选替代。Park：主动启停、泛化复合卡分类、跨构筑疲劳和局内扩展。EX-001原文件及旧运行输入不改。
 
 资格、相容性及人工算术经限定复核；具体覆盖见E，不宣称全读旧素材或其他inbox。核心v0.18／GDD2.3仍GDD-0，TL身份不增加，既有117项运行状态不变；新EX-002及UI预期NotRun，不以设计裁决闭合代替DQ任务验收。
+
+## 2026-10-12开发设计对接第03轮（CORE-061）
+
+总控复核[Qualified M](../sources/materials/M-2026-10-12-development-design-round-03.md)、[限定E](../sources/evaluations/E-2026-10-12-development-design-round-03.md)和[采纳D](../sources/draft-changes/D-2026-10-12-development-design-round-03.md)，并核实用户R4—R6直接答复。七项资格完整，范围限暂停／单步／恢复的表现与声音政策；仅定向审查相关交互、EX-002及原案，不宣称全量复审其他来源。CORE-061／核心v0.19／GDD2.4仍GDD-0，TL身份与战斗参数不变；运行及体验NotRun。

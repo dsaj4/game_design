@@ -52,3 +52,7 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 ## 2026-10-11开发设计对接首轮
 
 [原案与R1—R3直接答复](inbox/2026-10-11-development-design-round-01.md) → [M](materials/M-2026-10-11-development-design-round-01.md) → [E](evaluations/E-2026-10-11-development-design-round-01.md) → [CORE-060 D](draft-changes/D-2026-10-11-development-design-round-01.md)。首场交互合同与EX-002已采纳，原EX-001及首版证据不变，运行与体验NotRun。
+
+## 2026-10-12：首场表现与声音
+
+[第03轮原案及R4—R6答复](inbox/2026-10-12-development-design-round-03.md) → [Qualified M](materials/M-2026-10-12-development-design-round-03.md) → [限定E](evaluations/E-2026-10-12-development-design-round-03.md) → [CORE-061 D](draft-changes/D-2026-10-12-development-design-round-03.md)。三项推荐已采纳，其他替代未采用；表现运行与体验仍NotRun。

@@ -1,6 +1,6 @@
 # 《言咒》核心设计
 
-2026-10-11 · v0.18 / CORE-SUM-13。详规见[GDD](GDD.md)，状态及来源见[基准](baseline.md)。
+2026-10-12 · v0.19 / CORE-SUM-14。详规见[GDD](GDD.md)，状态及来源见[基准](baseline.md)。
 
 玩家把铭文装入法器，形成能自动运行的施法配置。法器加工行动卡，行动卡进入有限队列逐张生效；敌人按固定程序揭示倒计时威胁。玩家平时观察运行，在关键时刻暂停思考，调整未来用途、供料或标记保留，承担已作安排的后果。
 
@@ -33,7 +33,7 @@
 
 希望玩家感到自己读懂了配方、安排了工序，并看到投入兑现为清楚的攻防结果。普通运行无需逐批操作，关键调整应有可解释的收益和放弃项。各系统experience页保留待观察的支持与失败信号。
 
-[EX-001首批案例](examples/simple-spell.md)保留原物件与回归；[EX-002完整单战](examples/complete-battle.md)已有本场疲劳与胜败预期，播放／回看／数量操作沿[首场合同](common/interaction-save/rules.md#首场战斗操作合同core-060)。这些已采纳，运行与体验仍待验证。[集中问题](../governance/questions.md)保留扩展调度、泛化UI、跨构筑疲劳及整局内容；局外成长暂未设计。
+[EX-001首批案例](examples/simple-spell.md)保留原物件与回归；[EX-002完整单战](examples/complete-battle.md)已有本场疲劳与胜败预期，播放／回看／数量操作沿[首场合同](common/interaction-save/rules.md#首场战斗操作合同core-060)。暂停归位、单步有序静态摘要与载入不重播旧音画沿[首场表现合同](common/interaction-save/rules.md#首场表现与声音合同core-061)。操作与表现政策已采纳；运行证据见开发入口，音画实现与体验仍待验证。[集中问题](../governance/questions.md)保留扩展调度、泛化UI、跨构筑疲劳及整局内容；局外成长暂未设计。
 
 <!-- 旧章节链接保留；历史正文见 baseline 固定版本。 -->
 <a id="战场恢复与跨战取舍"></a>
