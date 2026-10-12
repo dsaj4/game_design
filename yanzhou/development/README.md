@@ -2,9 +2,11 @@
 
 > 当前阶段：2026-10-12 第六批Windows包 **GODOT-EX002-0.4** 限定技术验收通过；固定运行源码9c50458a56a38f0c6ebd001d9e6a3ef34382adaa，设计输入abe8869。完整单战／恢复／播放／界面、固定字体与基础音画设置，新增失焦暂停、公开卡面和运行材质样板；唯一工程为[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)。设计CORE-060—062及EX-002，视觉Blender v02；旧0.1／0.2／0.3包保留，正式音画质量与真人体验未完成。
 
-> 当前调度（2026-10-12）：**第六批完成，第06轮工程职责核对已闭合；总控冻结限定预算后恢复第七批DQ-12／44准备**；[唯一问题登记](../governance/questions.md#performance-round06)。R7失焦／最小化停、返回仍停及状态／草稿保留已完成限定工程验证，无需再问。346项核心、复制包旧案例7次／完整界面12次／失焦2次运行通过；两档各32项UI、31项表现、19项卡面、53项失焦检查，失焦每档25次自有窗口OS操作；[第六批报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-06-integration.md)、[包证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-06-release-evidence.json)。每项证据仅证明其技术范围，不等于成品或真人验收。
+> 当前调度（2026-10-12）：**第六批完成，第06轮工程职责核对已闭合；第七批性能基线已测，继续卡顿定位与材质调优**；[唯一问题登记](../governance/questions.md#performance-round06)。R7失焦／最小化停、返回仍停及状态／草稿保留已完成限定工程验证，无需再问。346项核心、复制包旧案例7次／完整界面12次／失焦2次运行通过；两档各32项UI、31项表现、19项卡面、53项失焦检查，失焦每档25次自有窗口OS操作；[第六批报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-06-integration.md)、[包证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-06-release-evidence.json)。每项证据仅证明其技术范围，不等于成品或真人验收。
 
 ## 当前开发入口
+
+第七批进展（2026-10-12）：固定0.4单战的1080p连续600秒基线完成，分位数达标但有一次113.127ms尖峰，性能结论Fail；768p 120秒仅为通过预算的诊断。继续在既有工程授权内定位首次进入卡顿、调优独立木纹／皮革样板；无新增设计裁决或玩家包。[限定性能报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-07-performance.md)、[固定证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-07-performance-evidence.json)，代码57e95441fa497f30d5f857419724fd02dae98fd5。第06轮仍闭合，DQ-44全项、正式音画与真人体验未验。
 
 | 需要什么 | 唯一入口 |
 | --- | --- |

@@ -29,6 +29,8 @@
 
 - 2026-10-12后续包：**GODOT-EX002-0.4**，固定运行源码9c50458a56a38f0c6ebd001d9e6a3ef34382adaa、设计abe8869；[当前Windows包](E:/Project/yanzhou-godot/build/development-batch-06/windows-02/Yanzhou.exe)、[固定证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-06-release-evidence.json)、[实际范围](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-06-integration.md)。新增失焦暂停、公开插图卡面和运行材质样板，修复读数遮挡；346项核心、独立复制包旧案例7次／完整界面12次／失焦2次运行通过，两档各32项UI／31项表现／19项卡面／53项失焦检查。包与副本各195文件／238,983,705字节，指纹、原OFL及来源说明一致；uses新增AS-G002-009三张原图，其余AS-G002-010／011／012固定版本保持。ReadyForScope仅限本批技术范围；正式音画、真人体验、完整性能、实际断网及独立机器未验，原包／失败与453文件保全保持。仅本地内部交付，无新DM或公开发布。
 
+- 2026-10-12第七批测量复用：沿GODOT-EX002-0.4固定源码9c50458叠加工程仪器，保存于实现57e95441fa497f30d5f857419724fd02dae98fd5；[限定性能报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-07-performance.md)、[固定证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-07-performance-evidence.json)。193文件测量包指纹复核一致，复用原GLB／卡图／字体／声音，无素材改版。1080p连续600秒因一次113.127ms尖峰判Fail；768p 120秒仅为通过预算的诊断。不是新玩家版本、最终最重场景验收或公开发布，原0.4包及证据保留。
+
 ### <a id="dm-g002-004"></a>DM-G002-004 炼咒试验台（2026-10-02新增）
 
 - 归属：game-002-optimization / DIR-032；[探索与机制规格](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-032-playable-mechanism-loop/README.md)、[开发索引](../../yanzhou/development/README.md)。
