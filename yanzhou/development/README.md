@@ -1,6 +1,6 @@
 # 言咒实现与资产索引
 
-> 当前阶段：2026-10-11正式开发准备。用户已完成界面设计；采用HTML v10、效果图及Blender v02作为开发视觉输入，玩法沿GDD 2.2 / CORE-059及EX-001。类似游戏引擎调研已完成，Unity／Godot尚未选定，同题实测待执行。尚未创建新版战斗工程或取得玩法测试结果。
+> 当前阶段：2026-10-11 Godot首版工程接入。用户明确选定Godot，停止Unity对比；唯一工程为[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)。玩法沿GDD 2.2 / CORE-059及EX-001，视觉沿Blender v02。已有真实结算、3D与原型操作、独立Windows包和拍末恢复证据；完整战斗与真人体验未完成。
 
 ## 当前开发入口
 
@@ -8,12 +8,13 @@
 | --- | --- |
 | 阶段目标、引擎评估与下一任务 | [正式开发计划](production-plan.md) |
 | 类似游戏使用的引擎与选型依据 | [2026-10-11引擎调研](reports/similar-game-engine-research-2026-10-11.md) |
+| Godot首版、实际检查与边界 | [本轮交付](reports/godot-start-2026-10-11.md) · [代码／构建入口](E:/Project/yanzhou-godot/README.md) |
 | 工作方式、质量与交付要求 | [开发规范](development-standard.md) |
 | 当前资产、接入差异及核验 | [开发输入与资产](asset-readiness.md) |
 | 玩法与首批内容 | [主系统](../design/README.md) · [EX-001](../design/examples/simple-spell.md) |
 | 设计待决与验证入口 | [集中问题](../governance/questions.md) · [测试交接](test-handoff.md) |
 
-准备轮次已核验5包75文件与原哈希一致；随后按用户要求完成11款类似游戏的引擎资料调研，支持继续比较Unity／Godot。用户确认目标设备采用当前Windows电脑、按实测选择引擎。P0实测未执行，未运行引擎或玩法实验；后续每阶段在这里回填实际代码／构建／报告入口。以下保留各原日期交付说明，不等同正式游戏完成。
+准备轮核验5包75文件与原哈希一致，随后完成11款类似游戏的引擎资料调研。用户先授权当前Windows电脑实测，最终直接选定Godot，替代双引擎比较流程。本轮[DM-G002-011](../../docs/registry/demo-assets.md#dm-g002-011)实装EX-001 0—14拍并进行规则／交互／恢复等技术检查；这些不是完整117项验收或真人体验／平衡实验。后续逐阶段回填实际版本与结果，以下保留各原日期交付说明。
 
 文档角色：ImplementationIndex。更新：2026-10-11。旧主系统与探索试点保留原日期和交付结论；DIR-029／032／033等已退役，不再是当前实现任务。
 

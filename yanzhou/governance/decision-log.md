@@ -521,3 +521,13 @@ Accepted / Documentation。用户明确要求UI／实装前彻底整理简化、
 Accepted / Documentation。用户说明“设计界面已经完成”，要求开发前整理主系统与资产、制订规范和阶段目标；随后明确引擎尚未确定，考虑Unity和Godot，把评估加入计划。建立[开发规范](../development/development-standard.md)、[阶段计划](../development/production-plan.md)及[资产接入](../development/asset-readiness.md)，同步主系统／视觉／开发入口和TL-Q08当前范围。
 
 开发视觉沿HTML v10、效果图v01、组件v01及Blender v02，原件不动；5包75文件校验一致。规则／EX-001内容未改，不新增CORE／TL／FX或发行身份，GDD仍2.2／GDD-0，117项预期NotRun。Unity／Godot待同题实测后选择，本轮不决定引擎或创建实现仓库，不运行玩法实验。旧交付证据和22条用户已有工作树路径保留。
+
+<a id="g002-doc-022"></a>
+
+## 2026-10-11：Godot选型与首版工程（G002-DOC-022）
+
+Accepted / Development。用户先授权“开始实测”，许可澄清时选择“先完成Godot，Unity暂缓”，随后明确“直接确定使用godot”。据此采用Godot唯一工程，替代DOC-021原双引擎比较流程。Unity未实测，不以调研或Godot结果伪造比较优势。
+
+唯一实现入口[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)，工具冻结、技术ADR、代码／构建和测量留该仓库。开发计划和索引记录[首版交付及未验范围](../development/reports/godot-start-2026-10-11.md)，新Demo登记为DM-G002-011，实际导入AS-G002-010@BATTLE-3D-02。
+
+本轮检查EX-001 0—14拍、输入、拍末恢复与导入／打包，不修改规则或案例数值；原型按钮、两件模型与逻辑对象映射及占位卡面只用于实装核对，不补TL-Q08设计决定。GDD仍2.2／GDD-0，完整117项验收、完整单战、真人体验及平衡继续未完成，其他阶段不因此整体标完成。

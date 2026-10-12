@@ -12,6 +12,16 @@
 | <a id="dm-g002-002"></a>DM-G002-002 时间轴翻牌；动效、交互 | game-002-optimization / DIR-029；[方向第19轮](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-029-timeline-card-battle/README.md#第19轮四刻翻牌动效演示)、[开发证据](../../yanzhou/development/README.md) | v0.1 / 2026-09-30；[本机预览文件](C:/Users/Administrator/.codex/visualizations/2026/09/24/01a0d1f2-4d90-7db2-8527-684c3085e2ee/timeline-flip-demo-preview.html)、[技术说明](C:/Users/Administrator/.codex/visualizations/2026/09/24/01a0d1f2-4d90-7db2-8527-684c3085e2ee/timeline-flip-demo-notes.txt)；文件指纹见下 | Archived / PresentLocal（外部原件保留；2026-10-04退出当前候选）；原Catalogued / PresentLocal记录；可参考共同翻牌、移动与播放反馈，未包含战斗结算；本轮未运行 |
 | <a id="dm-g002-003"></a>DM-G002-003 Godogen E1 R2；Godot材质与场景小样 | game-002 / main；[开发索引](../../yanzhou/development/README.md)、[原E1报告](E:/Project/game-002-godogen-lab/docs/e1-r2-report.md) | 外部提交`1dd488c507a73933e5f16e9d3829e451b5e37937`；[仓库与启动说明](E:/Project/game-002-godogen-lab/README.md)、[Godot工程入口](E:/Project/game-002-godogen-lab/game/project.godot) | Catalogued / PresentLocal（2026-10-01恢复后检查）；原记录为E1 R2小样，不含完整装配/选路/战斗；本轮未运行 |
 
+### <a id="dm-g002-011"></a>DM-G002-011 Godot EX-001首版（2026-10-11新增）
+
+- 归属：game-002 / main；[当前开发入口](../../yanzhou/development/README.md)、[交付范围](../../yanzhou/development/reports/godot-start-2026-10-11.md)。标签：Godot、真实结算、GLB接入、Windows、拍末恢复。
+- 类型／用途：唯一正式工程的首个局部可运行版本；验证EX-001 0—14拍、中文详情、用途改变、队列／支付／打断、存取及资产重导入。完整游戏未实现。
+- 固定版本：GODOT-EX001-0.1，外部完整代码提交`e71dcb78e81324b10eb8be08f5a5fce68facd937`；[源码与运行](E:/Project/yanzhou-godot/README.md)、[Windows包](E:/Project/yanzhou-godot/build/windows/Yanzhou.exe)、[manifest与文件哈希](E:/Project/yanzhou-godot/manifest.json)、[原始检查入口](E:/Project/yanzhou-godot/evidence/verification.md)。本地Git保存，无远端发布。
+- 生命周期：ReadyForScope（EX-001局部技术检查）/ PresentLocal，2026-10-11实际运行；28项规则检查、两档各12项输入检查、独立包跨进程拍末恢复和组件重导入通过。实际断网、独立人员接手、完整117项验收、完整单战与真人体验NotRun。
+- 来源／复用：本轮原创代码与占位卡面；uses: AS-G002-010@BATTLE-3D-02（实际复制导入原GLB）；derived-from: None（新工程，不复用旧Demo代码）。暂时放宽器具的Blender／GLB副本只是本Demo故障／重导入夹具，未成为新正式资产，交付包已恢复源版本。
+- 工具／资产条件：Godot与.NET许可随包提供；调用系统中文字体，不打包字体文件。源模型沿AS-G002-010内部改作授权，公开分发权Unknown；原资产原件就地保留，未上传二进制、第三方缓存或原始美术。
+- 设计边界：原型操作不补TL-Q08决定，示例数值不扩为默认；仅拍末保存，无中间步骤恢复。完整实现范围及保留差异以代码报告为准。
+
 ### <a id="dm-g002-004"></a>DM-G002-004 炼咒试验台（2026-10-02新增）
 
 - 归属：game-002-optimization / DIR-032；[探索与机制规格](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-032-playable-mechanism-loop/README.md)、[开发索引](../../yanzhou/development/README.md)。
@@ -88,6 +98,7 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 - ReadyForScope（静态三维结构与视觉评审）/ PresentLocal；2026-10-11检查源工程重开、纹理打包、GLB回导与几何尺寸、主视角及近景。真实几何已建立，雕饰为首版简化；原生约61.4万三角面，米制，Blender Z-up／GLB Y-up，无骨骼动画，实时预算 Unknown。
 - derived-from（视觉改作）：AS-G002-008@BATTLE-UI-ART-01、AS-G002-009@BATTLE-COMPONENTS-01；uses：DM-G002-010@BATTLE-UI-HTML-10（构图），AS-G002-009的11–14卡面PNG（直接纹理）。其余物件效果图仅参照，模型/程序材质本轮自制。程序纹理与体积雾在GLB中简化，未宣称等效材质或目标引擎通过。
 - 用户授权真实建模与本项目评审改作；上游对外分发许可 Unknown。二进制和制作脚本就地保管，未公开上传；登记不等于美术采纳、战斗实现或玩法验证。
+- 2026-10-11复用：DM-G002-011@GODOT-EX001-0.1实际复制BATTLE-3D-02 GLB到Godot工程；源SHA-256与原件一致。临时组件变体只用于重导入夹具，交付包恢复源版本；[代码与实际范围](E:/Project/yanzhou-godot/evidence/verification.md)。此复用不升级原美术采纳或公开分发条件。
 
 ### <a id="as-g002-009"></a>AS-G002-009 战斗组件隔离设计 v01（2026-10-11新增）
 
