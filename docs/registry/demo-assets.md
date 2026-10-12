@@ -102,7 +102,7 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 
 ### <a id="dm-g002-012"></a>DM-G002-012 战斗卡片交互HTML（2026-10-12新增）
 
-- 当前修订：PHYSICAL-CARD-HTML-04，game-002 / main；[HTML](../../yanzhou/visual/physical-table-2026-10-12/card-flow-v04.html)、[说明](../../yanzhou/visual/physical-table-2026-10-12/card-flow-html-v04.md)、[manifest](../../yanzhou/visual/physical-table-2026-10-12/card-flow-v04-manifest.json)、[检查](../../yanzhou/visual/physical-table-2026-10-12/card-flow-html-verification-v04.md)。derived-from：本资源@PHYSICAL-CARD-HTML-03，固定输入`20b92ec65fa66219ec8b2a4f7dd5c1a6d63d9ba8`及用户同步悬浮批注；只补齐双方棋子状态近观。Catalogued / PresentLocal，浏览器未验；原回放与消费锁沿v03，阶段3／4未开始，复用条件沿v01。
+- 当前修订：PHYSICAL-CARD-HTML-04，game-002 / main；[HTML](../../yanzhou/visual/physical-table-2026-10-12/card-flow-v04.html)、[说明](../../yanzhou/visual/physical-table-2026-10-12/card-flow-html-v04.md)、[manifest](../../yanzhou/visual/physical-table-2026-10-12/card-flow-v04-manifest.json)、[检查](../../yanzhou/visual/physical-table-2026-10-12/card-flow-html-verification-v04.md)。derived-from：本资源@PHYSICAL-CARD-HTML-03，固定输入`20b92ec65fa66219ec8b2a4f7dd5c1a6d63d9ba8`及用户同步悬浮批注；只补齐双方棋子状态近观。Catalogued / PresentLocal，浏览器未验；原回放与消费锁沿v03，HTML交付时阶段3／4未开始，复用条件沿v01。后续阶段3已生成[AS-G002-013首批效果图](../../yanzhou/visual/physical-table-2026-10-12/art-v01/README.md)，仅作结构参照使用，不改本HTML固定版或浏览器结论。
 
 - 旧版保留：PHYSICAL-CARD-HTML-03，game-002 / main；[HTML v03](../../yanzhou/visual/physical-table-2026-10-12/card-flow-v03.html)、[文字增补与来源](../../yanzhou/visual/physical-table-2026-10-12/card-flow-html-v03.md)、[固定清单](../../yanzhou/visual/physical-table-2026-10-12/card-flow-v03-manifest.json)、[本轮检查](../../yanzhou/visual/physical-table-2026-10-12/card-flow-html-verification-v03.md)。derived-from：本资源@PHYSICAL-CARD-HTML-02，固定输入`1d6b151f4634383d7ea7f5ec80873171e89cb447`及用户四条批注／消费锁答复。右正向／左负面筹码，悬停／焦点精确读数，卡牌与空抽屉无底板；消费锁在独立示意中可操作，原20回放保持只读。Catalogued / PresentLocal，浏览器未验；阶段3／4未开始，自制及项目内复用条件沿v01。
 
@@ -113,6 +113,14 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 - 复用：可在本项目继续制作与改作，对外分发许可未另定。原件与截图在本仓库按清单固定；预览仅本机回环服务，无公开发布。旧HTML v10、图片、模型及Godot工程未修改；不把预设帧视为规则实现或采纳新玩法。
 
 ## 素材与参考包
+
+### <a id="as-g002-013"></a>AS-G002-013 战斗卡片交互效果示意（2026-10-12新增）
+
+- 归属：game-002 / main；PHYSICAL-CARD-ART-01；[维护说明与检查](../../yanzhou/visual/physical-table-2026-10-12/art-v01/README.md)、[三图画册](../../yanzhou/visual/physical-table-2026-10-12/art-v01/index.html)、[实际提示词](../../yanzhou/visual/physical-table-2026-10-12/art-v01/prompts.md)。类型：静态效果示意／事件分镜；DOC-025阶段3首批候选。
+- 固定输入：设计提交9ef30c702d81fa2b38d7db28018796a32c8db07b；三张PNG均1672×941、RGB不透明；原图、说明、画册及提示词六文件的版本／SHA-256见[manifest](../../yanzhou/visual/physical-table-2026-10-12/art-v01/manifest.json)。工具原始生成输出保留，选定三图复制入本项目。
+- Catalogued / PresentLocal / Art Candidate；2026-10-12已逐图目视、图像解码、哈希与来源检查。覆盖第0拍桌面、四类悬浮近观及G02守护牌过程；遗漏字段、道具一致性与未覆盖情境见维护说明。未认定完整阶段3通过、用户接受或引擎实现。
+- derived-from：AS-G002-008@BATTLE-UI-ART-01（材质／道具／光照改作）；uses：DM-G002-012@PHYSICAL-CARD-HTML-04（结构与状态）、AS-G002-010@BATTLE-3D-02（仅窄牌透视说明）。内置image_gen生成，未使用CLI；旧PNG、HTML、模型未改，本轮未复制模型或第三方原件。
+- 用户授权本项目效果示意生成和继续评审改作；对外分发许可未另定，上游参考权利保持。本轮只是静态图片包，未公开部署或导入Godot，浏览器／运行／体验状态不提升。
 
 ### <a id="as-g002-011"></a>AS-G002-011 Noto 简体中文与符号字体来源（2026-10-12新增）
 
@@ -151,6 +159,7 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 
 - 归属：game-002 / main；BATTLE-UI-ART-01；[原件、提示词与交付说明](../../yanzhou/visual/battle-ui-2026-10-11/art-v01.md)。PNG 1672×941，RGB不透明，固定文件和SHA-256见交付页所链manifest。
 - ReadyForScope（概念图评审）/ PresentLocal；2026-10-11实际核对解码、规格、哈希及构图。用户授权内置image_gen独立生成；uses: DM-G002-010@BATTLE-UI-HTML-10（布局）、AS-G002-006（风格）；原参考图和HTML未修改。
+- 2026-10-12后续视觉改作：[AS-G002-013@PHYSICAL-CARD-ART-01](../../yanzhou/visual/physical-table-2026-10-12/art-v01/README.md)将本PNG作为材质／道具／光照图像输入，结构沿HTML v04；本源件字节不变。
 - 用户2026-10-11已选定为效果示意图初版；后续使用者为[AS-G002-009组件隔离设计](../../yanzhou/visual/battle-ui-2026-10-11/components-v01/README.md)，尚未建模或验证玩法。本项目可继续评审改作，对外分发许可未另定。最终新图已复制入本工作区，原始生成输出保留，未公开部署。
 
 ### <a id="as-g002-007"></a>AS-G002-007 桌面承载与边沿布局参考（2026-10-11新增）

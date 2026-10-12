@@ -1,0 +1,141 @@
+{
+  "id": "AS-G002-013",
+  "version": "PHYSICAL-CARD-ART-01",
+  "date": "2026-10-12",
+  "project": "game-002",
+  "direction": "main",
+  "status": "Catalogued / PresentLocal / Art Candidate",
+  "stage": 3,
+  "stage3": "Started; first batch of three images, limited coverage",
+  "stage4": "NotStarted",
+  "designInput": "9ef30c702d81fa2b38d7db28018796a32c8db07b",
+  "derivedFrom": {
+    "id": "AS-G002-008",
+    "version": "BATTLE-UI-ART-01",
+    "path": "../../battle-ui-2026-10-11/battle-art-v01.png",
+    "sha256": "3bfb4d31480cb5743b20ef144f93f69c548bc0123b66821bb2d7542748ab75e6",
+    "role": "Style, materials, props and lighting image reference; original unchanged"
+  },
+  "uses": [
+    {
+      "id": "DM-G002-012",
+      "version": "PHYSICAL-CARD-HTML-04",
+      "path": "../card-flow-v04.html",
+      "sha256": "a4136fb6f2a32bd25f2e0ee04104cd00da32e55b2b1c9a5db97bddd22871448d",
+      "role": "Structure and fixture-state reference"
+    },
+    {
+      "id": "AS-G002-010",
+      "version": "BATTLE-3D-02",
+      "path": "../../battle-ui-2026-10-11/model-v02.md",
+      "role": "Written narrow-card and camera-proportion guidance only; no external models imported"
+    }
+  ],
+  "generator": {
+    "mode": "built-in image_gen",
+    "tool": "image_gen.imagegen",
+    "transparent_background": false,
+    "model": "Tool-managed; exact model not reported",
+    "originalOutputDirectory": "C:/Users/Administrator/.codex/generated_images/01a12f78-9518-7a90-b8ea-91fab3a04de8",
+    "prompts": "prompts.md",
+    "calls": [
+      {
+        "step": "01-initial",
+        "prompt": "01 主桌面生成",
+        "output": "exec-93cb5df2-91a2-4faf-abe9-441bba5ecaae.png",
+        "input": "AS-G002-008/battle-art-v01.png",
+        "selected": false
+      },
+      {
+        "step": "01-corrected",
+        "prompt": "01 定向修正",
+        "output": "exec-49cff011-c048-4b49-8cd0-5595b05b24b5.png",
+        "input": "exec-93cb5df2-91a2-4faf-abe9-441bba5ecaae.png",
+        "selected": "01-tabletop.png"
+      },
+      {
+        "step": "02-initial",
+        "prompt": "02 悬浮近观生成",
+        "output": "exec-c47b8b13-7ece-4d7e-943d-26bcd1e14c20.png",
+        "input": "exec-49cff011-c048-4b49-8cd0-5595b05b24b5.png",
+        "selected": false
+      },
+      {
+        "step": "02-corrected",
+        "prompt": "02 定向修正",
+        "output": "exec-c88df101-1283-40b0-8caf-22398504ff34.png",
+        "input": "exec-c47b8b13-7ece-4d7e-943d-26bcd1e14c20.png",
+        "selected": "02-floating-closeups.png"
+      },
+      {
+        "step": "03-initial",
+        "prompt": "03 守护牌过程生成",
+        "output": "exec-cfc4dcf1-056d-43f7-be36-59a169765928.png",
+        "input": "exec-49cff011-c048-4b49-8cd0-5595b05b24b5.png",
+        "selected": false
+      },
+      {
+        "step": "03-corrected",
+        "prompt": "03 定向修正",
+        "output": "exec-91ab5397-186e-4647-9c98-c42ae93e6e26.png",
+        "input": "exec-cfc4dcf1-056d-43f7-be36-59a169765928.png",
+        "selected": "03-shield-sequence.png"
+      }
+    ]
+  },
+  "images": {
+    "format": "PNG",
+    "width": 1672,
+    "height": 941,
+    "colorMode": "RGB",
+    "alpha": false,
+    "atlas": false
+  },
+  "verification": {
+    "date": "2026-10-12",
+    "performed": [
+      "Image decoding and dimensions",
+      "Parent visual review and targeted generation corrections",
+      "Independent design-agent visual review",
+      "SHA-256 and local output copies"
+    ],
+    "limits": [
+      "First art batch only; omissions and differences in README.md",
+      "Gallery not browser-tested",
+      "No engine integration, gameplay or user acceptance evidence"
+    ]
+  },
+  "reuse": "Project review and iteration authorized; no additional public distribution license established; upstream reference conditions retained",
+  "files": [
+    {
+      "path": "01-tabletop.png",
+      "bytes": 2466961,
+      "sha256": "6cafdc5f94237f8a982a99bc83edb03723eb163d5b4c728b557f9c8938389b1b"
+    },
+    {
+      "path": "02-floating-closeups.png",
+      "bytes": 2007253,
+      "sha256": "a9c0e338de3ad697f0c49a6ee72a9560b60739df4b9e97db90de7f1e02c44c47"
+    },
+    {
+      "path": "03-shield-sequence.png",
+      "bytes": 2313066,
+      "sha256": "84cdbb615af043550e6f5388ef08119679a2f73859c8a4cd6133334056ca85c2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4751,
+      "sha256": "948722bd9e8fad13cc885896f129efa4c9f560747081e1009a3f722e798da08d"
+    },
+    {
+      "path": "prompts.md",
+      "bytes": 14598,
+      "sha256": "71dff6f7282d7a9dbef69e2f7b6bddbe292bf0e2008b13d99a53aaf801d50044"
+    },
+    {
+      "path": "index.html",
+      "bytes": 3712,
+      "sha256": "a8e21442463e32c723014324221cfc6046e3c828994ab58565c0ecc00b200c3a"
+    }
+  ]
+}
