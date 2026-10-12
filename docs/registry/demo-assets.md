@@ -93,6 +93,14 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 
 ## 素材与参考包
 
+### <a id="as-g002-011"></a>AS-G002-011 Noto 简体中文与符号字体来源（2026-10-12新增）
+
+- 归属：game-002 / main；FONT-ASSETS-01；维护于[实现报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-bundled-font.md)，固定来源与完整SHA-256见[字体清单](E:/Project/yanzhou-godot/docs/coordination/font-assets-v01.json)。类型：第三方字体原件／许可证；拟用于DM-G002-011中文及类别符号随包，当前尚未接入。
+- 固定范围：Noto Sans CJK SC Regular 2.004（官方提交523d033d6cb47f4a80c58a35753646f5c3608a78，OTF 16,437,364字节）与Noto Sans Symbols 2 Regular 2.008（官方提交25b00f0d3f40873a005287514ba2a48558655314，TTF 671,568字节）。原始下载及两份OFL保留在实现仓库evidence/development-batch-05/fonts/source/，清单给精确文件路径；未修改、子集化或转换，原ZIP亦保留。
+- Catalogued / PresentLocal。2026-10-12暂停前完成来源、版本、哈希、许可及cmap检查；467个当前汉字主字体全部覆盖，✱由符号字体补齐。两字体原始共约16.32 MiB；字形存在不等于Godot布局／小字号验收，渲染、运行目录恢复、包体和内存测量尚未做。
+- 来源：官方notofonts/noto-cjk与notofonts/symbols，OFL-1.1；按许可证保留版权／许可、字体不可单独售卖，具体声明见实现清单。未取用系统雅黑文件，未公开发布二进制。此字体许可不改变模型等其他资产的权利边界。
+- uses: None；derived-from: None（未经修改第三方原件）；拟使用者DM-G002-011，暂无已接入运行版。第五批因演出边界按DOC-024整批暂停，字体工作安全保全；本条仅登记事实，不解除暂停、不采纳美术或证明玩法成立。
+
 ### <a id="as-g002-010"></a>AS-G002-010 战斗桌面 Blender 建模首版（2026-10-11新增）
 
 - 归属：game-002 / main；当前BATTLE-3D-02；[v02交付、预览及证据](../../yanzhou/visual/battle-ui-2026-10-11/model-v02.md)。按用户要求调整透视与窄卡型；原生 `.blend`、20份组件集合库、含主相机的 `.glb`、四张卡面纹理及四张检查渲染另存 `E:/Project/yanzhou-battle-3d/v02/`。固定范围和逐文件 SHA-256 见交付页链接的 manifest。[v01及其十张原检查图](../../yanzhou/visual/battle-ui-2026-10-11/model-v01.md)保持原文件与原哈希。

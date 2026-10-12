@@ -35,6 +35,8 @@
 
 ## Demo与素材登记（DA-1 / 2026-10-01）
 
+2026-10-12字体来源保全：[AS-G002-011@FONT-ASSETS-01](../../docs/registry/demo-assets.md#as-g002-011)，Noto简体中文＋缺字符号回退，Catalogued / PresentLocal。官方版本／许可及暂停前字符表检查已留证，恢复脚本、Godot接入、双档渲染及随包未实施；不计入当前运行依赖，不解除第五批暂停。
+
 2026-10-11新增[AS-G002-008 战斗效果图 v01](../visual/battle-ui-2026-10-11/art-v01.md)：基于HTML v10结构的独立生成概念图，已目视核对构图及检查图像文件；用户已选为效果示意图初版。同日交付[AS-G002-009 组件隔离设计 v01](../visual/battle-ui-2026-10-11/components-v01/README.md)，含18张透明组件及1张环境图；已检查图像与透明通道并核对本机总览显示。无运行实现或3D工程。HTML v10原件未改，玩法验证状态不变。
 
 按[统一规范](../../docs/demo-asset-standard.md)管理；[全项目目录](../../docs/registry/demo-assets.md)负责发现入口，本页继续维护实现范围和原证据。本次仅登记，未运行或升级旧Demo。
