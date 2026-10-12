@@ -122,3 +122,9 @@ TL-V107—110新增4项，合计117项NotRun；44个TL和137个FX身份不变。
 ## 2026-10-11正式开发准备
 
 G002-DOC-021：开发规范、分阶段计划、Unity／Godot同题评估任务及当前资产接入整理；Accepted / Documentation。不新增CORE／TL／FX／EX／AS／DM；44个现行TL、117项NotRun预期保持。P0—P5仅为本计划阶段标签，不是新全局编号族。
+
+## 2026-10-11 Godot接入与成品任务分解
+
+G002-DOC-022沿[既有决策](decision-log.md#g002-doc-022)：Godot选型与首版工程，Accepted / Development；本处补齐原已使用身份的索引，不分配新号。
+
+G002-DOC-023：成品Demo HTML任务表与开发入口同步，Accepted / Documentation。52项必做＋4项后续扩展；DQ-01—56和表内阶段0—7仅为局部任务标签。不新增CORE／TL／FX／EX／AS／DM，不改变玩法、案例、规则验收或既有实现结果；本轮未运行游戏和玩法实验。

@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-11",
+  "document": "G002-DOC-023",
+  "scope": "HTML task document only; no game execution, gameplay experiment, or source asset modification",
+  "task_count": 56,
+  "required": 52,
+  "optional": 4,
+  "static_checks": [
+    "unique task IDs",
+    "dependency references exist and are acyclic",
+    "all task fields present",
+    "all source paths exist",
+    "all 22 preexisting worktree paths preserved"
+  ],
+  "browser_checks": [
+    "render via loopback HTTP",
+    "1366x900 and 736x900 visual inspection",
+    "narrow viewport overflow corrected; document width721 at viewport736",
+    "search and phase/optional/ready filters",
+    "task detail expansion",
+    "acceptance evidence required",
+    "progress save and reload",
+    "temporary test state restored to not-started",
+    "CSV export:56 records,15 columns",
+    "JSON export and import",
+    "no captured browser warnings or errors"
+  ],
+  "not_run": [
+    "file:// direct-open browser check: browser URL policy disallows file protocol",
+    "print/PDF dialog output not inspected"
+  ],
+  "offline_design": "all CSS, JS and task data inline; no external runtime requests; local reference links require repository files",
+  "html_sha256": "2f7fa5cd5b765748261d97af6fd20b9027610312bb9163f4a82c5bf33a9a5104"
+}
