@@ -27,6 +27,8 @@
 
 - 2026-10-12后续包：**GODOT-EX002-0.3**，固定运行源码9cf9b64b34f689a71c3a0362db25917b93259ddf、设计输入5518fde；[Windows包](E:/Project/yanzhou-godot/build/development-batch-05/windows/Yanzhou.exe)、[固定包证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-05-release-evidence.json)。增加非暂停新揭示提示并完成本批包验收：主工程340项；独立复制包旧案例7次、完整界面10次运行，两档各32项键鼠及31项音画检查、胜败／跨进程恢复通过。包与复制目录各195文件、232,308,612字节且逐文件指纹一致，两份字体OFL原字节随包。uses为AS-G002-010@BATTLE-3D-02、AS-G002-011@FONT-ASSETS-01、AS-G002-012@SYNTH-AUDIO-01；ReadyForScope仅限本批技术范围，正式美术／音色、真人体验和独立机器重建未验。原包与失败证据保留，无新DM或公开发布；第六批曾因失焦政策R7暂停，后续用户选择及CORE-062集成已闭合，设计确认不改变此固定包的运行范围。
 
+- 2026-10-12后续包：**GODOT-EX002-0.4**，固定运行源码9c50458a56a38f0c6ebd001d9e6a3ef34382adaa、设计abe8869；[当前Windows包](E:/Project/yanzhou-godot/build/development-batch-06/windows-02/Yanzhou.exe)、[固定证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-06-release-evidence.json)、[实际范围](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-06-integration.md)。新增失焦暂停、公开插图卡面和运行材质样板，修复读数遮挡；346项核心、独立复制包旧案例7次／完整界面12次／失焦2次运行通过，两档各32项UI／31项表现／19项卡面／53项失焦检查。包与副本各195文件／238,983,705字节，指纹、原OFL及来源说明一致；uses新增AS-G002-009三张原图，其余AS-G002-010／011／012固定版本保持。ReadyForScope仅限本批技术范围；正式音画、真人体验、完整性能、实际断网及独立机器未验，原包／失败与453文件保全保持。仅本地内部交付，无新DM或公开发布。
+
 ### <a id="dm-g002-004"></a>DM-G002-004 炼咒试验台（2026-10-02新增）
 
 - 归属：game-002-optimization / DIR-032；[探索与机制规格](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-032-playable-mechanism-loop/README.md)、[开发索引](../../yanzhou/development/README.md)。
@@ -120,6 +122,7 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 - 用户授权真实建模与本项目评审改作；上游对外分发许可 Unknown。二进制和制作脚本就地保管，未公开上传；登记不等于美术采纳、战斗实现或玩法验证。
 - 2026-10-11复用：DM-G002-011@GODOT-EX001-0.1实际复制BATTLE-3D-02 GLB到Godot工程；源SHA-256与原件一致。临时组件变体只用于重导入夹具，交付包恢复源版本；[代码与实际范围](E:/Project/yanzhou-godot/evidence/verification.md)。此复用不升级原美术采纳或公开分发条件。
 - 同日0.2续作沿用相同GLB字节，新增[固定依赖清单](E:/Project/yanzhou-godot/docs/coordination/runtime-assets-v01.json)与[参数化恢复检查](E:/Project/yanzhou-godot/docs/reviews/2026-10-11-runtime-assets.md)，两种PowerShell环境各22项通过；新目录恢复副本仅为运行依赖／技术夹具，源原件和资产版本不变。中文字体、正式卡面、音频／动画与实时材质仍有缺口，权利条件沿原登记。
+- 2026-10-12第六批复用：DM-G002-011完整单战在相同BATTLE-3D-02原GLB上挂接运行材质／灯光代码小样RUNTIME-ART-SAMPLE-01，固定实现9c50458a56a38f0c6ebd001d9e6a3ef34382adaa；[限定报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-06-art.md)。18项资源隔离／恢复检查及两档四张实际前后对照通过，14种材质／540个surface，原几何、贴图和源件不变；木纹、皮革细节及晶球体积未还原。不形成独立模型分支，代码组件随DM登记，不新分配AS；原美术／分发资格不变。
 
 ### <a id="as-g002-009"></a>AS-G002-009 战斗组件隔离设计 v01（2026-10-11新增）
 
@@ -127,6 +130,7 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 - ReadyForScope（组件外观评审）/ PresentLocal；19张PNG，其中18张RGBA透明组件、1张RGB环境图；2026-10-11检查文件解码、alpha、哈希及浏览器合成显示。
 - 用户授权内置image_gen逐项生成；derived-from / uses: AS-G002-008@BATTLE-UI-ART-01。源图已由用户选定为效果示意图初版；独立组件为本轮重绘设计参考，源图与HTML未改。用于后续外观评审与建模参考，不是三维资产或玩法采纳。
 - 本项目可继续改作；对外分发许可未另定，上游参考权利沿源登记保留。原始生成输出保留，19张最终图片入库，无公开部署；本机总览源在交付页指定的持久目录。
+- 2026-10-12第六批直接复用：DM-G002-011完整单战复制11牌背、12火焰、13护盾三张原PNG作运行卡面插图，字节不改；[固定文件清单](E:/Project/yanzhou-godot/docs/coordination/card-art-v01.json)，使用实现9c50458a56a38f0c6ebd001d9e6a3ef34382adaa。状态／名称／数值由真实公开内容另绘，图片不新增元素规则；两档公开信息、长名／两位数、同拍双牌和按住检查通过。未复制水浪独立插图或重绘新图，原19图版本／权限不变。
 
 ### <a id="as-g002-008"></a>AS-G002-008 战斗效果图 v01（2026-10-11新增）
 

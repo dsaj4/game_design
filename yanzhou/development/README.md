@@ -1,8 +1,8 @@
 # 言咒实现与资产索引
 
-> 当前阶段：2026-10-12 第五批Windows包 **GODOT-EX002-0.3** 限定技术验收通过；固定运行源码9cf9b64b34f689a71c3a0362db25917b93259ddf，设计输入5518fde。完整单战／恢复／播放／界面、固定字体、事件摘要及基础音画设置已接入，唯一工程为[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)。设计CORE-060／061及EX-002，视觉Blender v02；旧0.1／0.2包保留，正式音画质量与真人体验未完成。
+> 当前阶段：2026-10-12 第六批Windows包 **GODOT-EX002-0.4** 限定技术验收通过；固定运行源码9c50458a56a38f0c6ebd001d9e6a3ef34382adaa，设计输入abe8869。完整单战／恢复／播放／界面、固定字体与基础音画设置，新增失焦暂停、公开卡面和运行材质样板；唯一工程为[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)。设计CORE-060—062及EX-002，视觉Blender v02；旧0.1／0.2／0.3包保留，正式音画质量与真人体验未完成。
 
-> 当前调度（2026-10-12）：**R7已由用户选择并集成CORE-062，总控固定设计输入后恢复第六批**。失焦／最小化暂停，返回仍停并明确继续，保留状态、回看、弹层和同进程草稿；[DOC-024](development-standard.md#8-设计裁决闸门)及[唯一问题登记](../governance/questions.md#focus-round05)。第五批340项主工程、独立复制包旧案例7次／完整界面10次运行、两档各32项键鼠＋31项音画检查及胜败／跨进程恢复通过；[第五批报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-05-integration.md)、[包证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-05-release-evidence.json)。失焦适配与运行尚未完成，不重复提问R7。
+> 当前调度（2026-10-12）：**第六批完成，下一批DQ-12／44预算确认按DOC-024暂停，专门设计对接进行第06轮**；[唯一问题登记](../governance/questions.md#performance-round06)。R7失焦／最小化停、返回仍停及状态／草稿保留已完成限定工程验证，无需再问。346项核心、复制包旧案例7次／完整界面12次／失焦2次运行通过；两档各32项UI、31项表现、19项卡面、53项失焦检查，失焦每档25次自有窗口OS操作；[第六批报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-06-integration.md)、[包证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-06-release-evidence.json)。每项证据仅证明其技术范围，不等于成品或真人验收。
 
 ## 当前开发入口
 
@@ -14,7 +14,7 @@
 | 类似游戏使用的引擎与选型依据 | [2026-10-11引擎调研](reports/similar-game-engine-research-2026-10-11.md) |
 | Godot首版、实际检查与边界 | [本轮交付](reports/godot-start-2026-10-11.md) · [代码／构建入口](E:/Project/yanzhou-godot/README.md) |
 | Godot第二批工程集成与新证据 | [GODOT-EX001-0.2报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-11-batch-02-integration.md) · [新Windows包](E:/Project/yanzhou-godot/build/development-batch-02/windows/Yanzhou.exe) · [四状态对照板](E:/Project/yanzhou-godot/evidence/development-batch-02/captures/index.html) |
-| 当前完整单战包与技术证据 | [GODOT-EX002-0.3 Windows包](E:/Project/yanzhou-godot/build/development-batch-05/windows/Yanzhou.exe) · [第五批报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-05-integration.md) · [固定包证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-05-release-evidence.json) |
+| 当前完整单战包与技术证据 | [GODOT-EX002-0.4 Windows包](E:/Project/yanzhou-godot/build/development-batch-06/windows-02/Yanzhou.exe) · [第六批报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-06-integration.md) · [固定包证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-06-release-evidence.json) |
 | 工作方式、质量与交付要求 | [开发规范](development-standard.md) |
 | 当前资产、接入差异及核验 | [开发输入与资产](asset-readiness.md) |
 | 玩法与首批内容 | [主系统](../design/README.md) · [EX-001原回归](../design/examples/simple-spell.md) · [EX-002完整单战](../design/examples/complete-battle.md) |
@@ -35,6 +35,8 @@
 [DM-G002-010 / BATTLE-UI-HTML-10](../visual/battle-ui-2026-10-11/v10-outline.md)：三格抽屉向桌内展开，两主体与时间轴中点对齐桌面中心线，刻位左右对称。保留前沿四法器本体、桌上物件及空位，未恢复已删面板。单文件离线可看，原件和证据在链接中的本机持久目录。Edge检查1920／1366／736宽度、抽屉方向、主体及时间轴居中、刻位对称、物件边界、空位、面板删除和HTTP／离线显示；1366预览已目视检查。仅轮廓展示完成，无交互或3D模型；玩法与体验NotRun。[v09及其原检查](../visual/battle-ui-2026-10-11/v09-outline.md)完整保留。
 
 ## Demo与素材登记（DA-1 / 2026-10-01）
+
+2026-10-12第六批素材复用：0.4包固定运行源码9c50458，直接复用AS-G002-009原版牌背／火焰／护盾三图；AS-G002-010原GLB叠加运行材质／灯光代码小样，源件未改，不新分配模型ID。两者使用关系见[统一目录](../../docs/registry/demo-assets.md#as-g002-009)。包和副本各195文件、238,983,705字节，指纹一致，来源说明和字体原许可随包；运行卡面与生命布局问题已修，仍保留材质细节／完整动作和成品质量缺口。
 
 2026-10-12第五批素材接入：[AS-G002-011@FONT-ASSETS-01](../../docs/registry/demo-assets.md#as-g002-011)固定Noto中文／符号已随0.3包运行，禁系统回退及两份OFL原字节随包检查通过；[AS-G002-012@SYNTH-AUDIO-01](../../docs/registry/demo-assets.md#as-g002-012)原创程序合成声音样板已接入非暂停新揭示，暂停清理与实际引擎混音检查通过，听感未审。胜败音有资源但依CORE-061无可听运行触发。两者由固定运行源码9cf9b64使用，包及复制目录各195文件、232,308,612字节，逐文件指纹一致；登记不提升成品状态。
 
