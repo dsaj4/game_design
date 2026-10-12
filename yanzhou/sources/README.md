@@ -60,3 +60,7 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 ## 主窗口失焦与返回（2026-10-12）
 
 [第05轮原案与R7直接答复](inbox/2026-10-12-development-design-round-05.md) → [Qualified M](materials/M-2026-10-12-development-design-round-05.md) → [限定E](evaluations/E-2026-10-12-development-design-round-05.md) → [CORE-062 D](draft-changes/D-2026-10-12-development-design-round-05.md)。R7-A失焦停、返回仍停并明确继续已采纳；后台继续／返回自动继续未采用。失焦适配及体验NotRun。
+
+## 第06轮工程职责核对（2026-10-12）
+
+[性能预算冻结职责与测量边界](inbox/2026-10-12-development-design-round-06.md)为Derived clarification：已有开发授权允许技术负责人冻结本批推荐目标，无新用户裁决或玩法采纳，不新增M／E／D与CORE。总控已记录工程合同并恢复第七批，性能结果仍NotRun。当前实施状态以[开发入口](../development/README.md)为准，前轮交回时的NotRun保持历史语境。
