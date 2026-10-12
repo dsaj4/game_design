@@ -11,8 +11,8 @@
 | 结构 | 六主系统、两子系统、三公共流程，各保留五文件 |
 | 内容 | EX-001简易法术流为首批已登记设计案例；数值是案例配置 |
 | 证据 | 规则预期及玩家体验NotRun；静态检查不代表运行通过 |
-| 开发准备 | DOC-021；用户完成界面设计后进入开发准备，Unity／Godot评估待执行；[阶段计划](../development/production-plan.md) |
-| 视觉输入 | HTML v10＋效果图v01＋组件v01＋Blender v02；[当前资产及核验](../development/asset-readiness.md)；运行接入和性能尚未验收 |
+| 开发状态 | DOC-021／022／023；用户已选Godot，首版局部接入完成，P0—P3仍为Partial；[阶段计划](../development/production-plan.md)与[总控首轮](../development/reports/demo-control-2026-10-11.md) |
+| 视觉输入 | HTML v10＋效果图v01＋组件v01＋Blender v02；[当前资产及核验](../development/asset-readiness.md)；GLB已接入，正式材质／UI及完整战斗性能仍待验收 |
 
 ## 状态只在这里统一解释
 

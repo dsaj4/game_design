@@ -8,6 +8,7 @@
 | --- | --- |
 | 阶段目标、引擎评估与下一任务 | [正式开发计划](production-plan.md) |
 | 基础逻辑之后：画面、资产、动作、UI与完整单战 | [成品 Demo HTML 任务表](demo-quality-taskboard.html)（52项必做＋4项后续；含依赖、产物和验收） |
+| 开发总控、并行分工与首版保全 | [2026-10-11 总控首轮](reports/demo-control-2026-10-11.md) · [实现仓库当前调度](E:/Project/yanzhou-godot/README.md) |
 | 类似游戏使用的引擎与选型依据 | [2026-10-11引擎调研](reports/similar-game-engine-research-2026-10-11.md) |
 | Godot首版、实际检查与边界 | [本轮交付](reports/godot-start-2026-10-11.md) · [代码／构建入口](E:/Project/yanzhou-godot/README.md) |
 | 工作方式、质量与交付要求 | [开发规范](development-standard.md) |
