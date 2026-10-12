@@ -2,7 +2,7 @@
 
 > 当前阶段：2026-10-11 Godot第二批工程集成，DM-G002-011@GODOT-EX001-0.2。用户明确选定Godot；唯一工程为[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)。运行仍CORE-059／EX-001，设计目标为GDD2.3／CORE-060／EX-002，视觉沿Blender v02。已加强内容完整性、实际反馈、输入保护、资源恢复并补齐四状态双分辨率取证；正式交互合同、完整战斗与真人体验尚未验收。
 
-> 当前调度（2026-10-12）：**第三批恢复开发，自动接续完整单战与事件恢复基础**。专门“言咒设计对接”已确认终局快照／清理／保存可由现行条文唯一解释，总控复核并补充EX-002说明，无新用户裁决。R1—R3不重复确认；恢复依据见[当前问题](../governance/questions.md#2026-10-12-第三批终局边界核对tl-q020708)。下一次真正设计取舍仍按[DOC-024](development-standard.md#8-设计裁决闸门)暂停整批。[第二批实际报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-11-batch-02-integration.md)及原证据保留。
+> 当前调度（2026-10-12）：**第三批完整单战与事件恢复基础已集成，自动接续第四批播放、窗口、详情与玩家入口**。源码固定cd6a29c4277651c60dfa74bbdfcc7d9bc2b7793c；233项主工程检查与10个独立进程的四存档点恢复对照通过，[第三批报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-03-integration.md)。本批未另出Godot包，上方0.2仍为固定运行包；不是正式音画／完整117项验收。当前无设计待决，下一次真正设计取舍仍按[DOC-024](development-standard.md#8-设计裁决闸门)暂停整批。
 
 ## 当前开发入口
 
