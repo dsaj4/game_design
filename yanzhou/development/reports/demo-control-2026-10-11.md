@@ -156,3 +156,9 @@ A／B及C本轮均已交回，无在途构建、测试或后台自动化。A额�
 交付[DM-G002-012 / PHYSICAL-CARD-HTML-01](../../visual/physical-table-2026-10-12/card-flow-html-v01.md)，20情境／47预设帧，HTML SHA-256为CEE446AF69FD22730BD2A5F78FA3DC3EEA323B6719BB5C690C5FDC647EEADC42。[总控记录及截图](../../visual/physical-table-2026-10-12/card-flow-html-verification-v01.md)包含1920×1080、1366×768各20入口状态检查及实际关键交互；初稿布局、时点和错误闭环问题已修，冻结版限定通过。阶段2完成，不把预设样例视为真实战斗运行。
 
 阶段3带美术效果图和阶段4真实实现均未开始；用途／数量等后续专项另按四阶段。真实OS失焦未触发、file协议被浏览器工具阻止，保留未实测；本机HTTP预览、无外部依赖静态检查通过。没有Godot改动、构建、性能或玩法测试，无新设计裁决；旧0.4／0.5候选及失败记录不变。资产目录、开发入口与原DQ四阶段表仅更新首条链范围，其他工作树改动未纳入。
+
+## 2026-10-12 卡片HTML v02：筹码与悬浮法器近观
+
+按用户两条直接浏览器批注，由原设计agent完成[PHYSICAL-CARD-HTML-02](../../visual/physical-table-2026-10-12/card-flow-html-v02.md)：双方棋子左右分别为生命／护盾筹码；法器无底板近观，以静态逻辑拍圆环计时，右侧默认材料，上下切换预计产物。无需材料与未开工／等待／中断／终局如实为空态，查看不改变当前承诺或未来设置。本轮为阶段2视觉修订，不新增玩法裁决或引擎任务。
+
+[总控检查](../../visual/physical-table-2026-10-12/card-flow-html-verification-v02.md)记录语法、状态处理、情境保全及v01清单9文件逐项哈希一致。临时预览服务器启动被自动审批以“blocked by policy”拒绝，应用内文件预览仅queued；没有绕过，v02布局、真实手势及浏览器控制台均未实测。当前登记Catalogued / PresentLocal，不沿用v01的浏览器通过结论。新文件按[manifest](../../visual/physical-table-2026-10-12/card-flow-v02-manifest.json)固定；共享索引仅更新本次范围，其他工作树改动保持。

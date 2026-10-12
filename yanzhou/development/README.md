@@ -2,7 +2,7 @@
 
 > 当前阶段：2026-10-12 第六批Windows包 **GODOT-EX002-0.4** 限定技术验收通过；固定运行源码9c50458a56a38f0c6ebd001d9e6a3ef34382adaa，设计输入abe8869。完整单战／恢复／播放／界面、固定字体与基础音画设置，新增失焦暂停、公开卡面和运行材质样板；唯一工程为[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)。设计CORE-060—062及EX-002，视觉Blender v02；旧0.1／0.2／0.3包保留，正式音画质量与真人体验未完成。
 
-> 当前调度（2026-10-12）：**第07轮已正式集成CORE-063；首条卡片链文字与HTML完成并复核，美术示意及真实实现待制作。** [唯一问题登记](../governance/questions.md#physical-table-round07)无待用户裁决；R8保留自动推进，R9按用户修正限制为3D主页面入口及图形近观／系统页。按[DOC-025](development-standard.md#9-每项重点交互的四阶段制作)，专门设计agent先做法器产牌→真实卡片入列→合法揭示／使用→目标反馈→离场与暂停近观。后台保留；前三阶段完成并固定范围前不派Godot重写。旧0.4技术通过不代表用户接受其主UI。
+> 当前调度（2026-10-12）：**第07轮已正式集成CORE-063；首条卡片链文字与HTML v01完成并复核；v02按批注修订，静态通过、浏览器待验；美术示意及真实实现待制作。** [唯一问题登记](../governance/questions.md#physical-table-round07)无待用户裁决；R8保留自动推进，R9按用户修正限制为3D主页面入口及图形近观／系统页。按[DOC-025](development-standard.md#9-每项重点交互的四阶段制作)，专门设计agent先做法器产牌→真实卡片入列→合法揭示／使用→目标反馈→离场与暂停近观。后台保留；前三阶段完成并固定范围前不派Godot重写。旧0.4技术通过不代表用户接受其主UI。
 
 ## 当前开发入口
 
@@ -26,7 +26,9 @@
 
 文档角色：ImplementationIndex。更新：2026-10-11。旧主系统与探索试点保留原日期和交付结论；DIR-029／032／033等已退役，不再是当前实现任务。
 
-## 2026-10-12 战斗卡片交互HTML v01
+## 2026-10-12 战斗卡片交互HTML v02
+
+[DM-G002-012 / PHYSICAL-CARD-HTML-02](../visual/physical-table-2026-10-12/card-flow-html-v02.md)：按用户两条浏览器批注，双方棋子左生命、右护盾改为带精确数值的筹码；法器近观改为悬浮法器、拍数圆环与右侧材料／预计产物，上下切换仅查看。[打开HTML v02](../visual/physical-table-2026-10-12/card-flow-v02.html)，本轮检查与限制见[总控记录](../visual/physical-table-2026-10-12/card-flow-html-verification-v02.md)。阶段2视觉修订，不新增玩法或引擎实现；v01及其原检查完整保留。
 
 [DM-G002-012 / PHYSICAL-CARD-HTML-01](../visual/physical-table-2026-10-12/card-flow-html-v01.md)：首条卡片链的可操作结构稿，含20情境／47预设帧；[打开HTML](../visual/physical-table-2026-10-12/card-flow-v01.html)，固定版本与截图见[总控复核](../visual/physical-table-2026-10-12/card-flow-html-verification-v01.md)。实际检查两档各20情境、七／五列、公开与暗牌近观、运动取消、13→14单步、回看、错误重试及终局。修正初稿遮挡和样例时序后限定通过；真实OS失焦、直接file入口、Godot、真实存取／音频及真人体验未验。仅DOC-025阶段2完成，阶段3／4及其余交互专项保持待办。
 

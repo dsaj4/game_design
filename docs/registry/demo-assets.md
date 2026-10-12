@@ -102,6 +102,7 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 
 ### <a id="dm-g002-012"></a>DM-G002-012 战斗卡片交互HTML（2026-10-12新增）
 
+- 当前修订：PHYSICAL-CARD-HTML-02，game-002 / main；[HTML v02](../../yanzhou/visual/physical-table-2026-10-12/card-flow-v02.html)、[说明与用户原话](../../yanzhou/visual/physical-table-2026-10-12/card-flow-html-v02.md)、[固定清单](../../yanzhou/visual/physical-table-2026-10-12/card-flow-v02-manifest.json)、[本轮检查](../../yanzhou/visual/physical-table-2026-10-12/card-flow-html-verification-v02.md)。derived-from：本资源@PHYSICAL-CARD-HTML-01；固定输入`9be040292d64f3b15f24bb746c42951cb1c7ba36`及本轮两条直接浏览器批注。筹码分居双方棋子左右、法器与材料／预计产物悬浮近观、静态拍数圆环。Catalogued / PresentLocal：已制作，浏览器视觉／手势待实测；v01浏览器结论不外推到v02。阶段3／4未开始，自制与项目内复用条件沿v01。
 - 归属：game-002 / main；PHYSICAL-CARD-HTML-01；[可操作单文件](../../yanzhou/visual/physical-table-2026-10-12/card-flow-v01.html)、[制作说明](../../yanzhou/visual/physical-table-2026-10-12/card-flow-html-v01.md)、[固定文件及SHA-256](../../yanzhou/visual/physical-table-2026-10-12/card-flow-v01-manifest.json)。DOC-025首条卡片链阶段2，20情境／47个预设帧，包含公开／暗牌、暂停近观、回看、错误和终局。
 - ReadyForScope（限定HTML空间与点击路径评审）/ PresentLocal；两档各20情境的实际浏览器布局扫描、关键点击／键盘、暂停、单步、错误重试和结果路径通过，见[总控证据](../../yanzhou/visual/physical-table-2026-10-12/card-flow-html-verification-v01.md)。真实OS失焦、直接file入口、Godot、音频、实际存取及真人体验未验；阶段3／4未完成。
 - 来源：用户明确开始制作战斗卡片交互示意；固定设计输入`6d98641eaed3a4c3e063cca2f3484175474408d5`与首条文字结构。uses：DM-G002-010@BATTLE-UI-HTML-10及AS-G002-010@BATTLE-3D-02仅构图／形制说明参考；derived-from：None（外部代码／二进制）。HTML、CSS、内嵌SVG为本轮自制，无外部脚本、图片、下载字体或模型依赖。
