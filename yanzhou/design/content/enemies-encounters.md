@@ -1,12 +1,14 @@
 # 敌牌与遭遇内容合同
 
-2026-10-11 · ContentScope。当前首批案例为EX-001；较早候选保留为储备，数值未冻结为发行值。
+2026-10-11 · ContentScope。当前EX-001保留首批回归，EX-002用于完整单战；较早候选保留为储备，数值未冻结为发行值。
 
 旧EN01–07、B01和12场布场不作为新数值默认值，保留[原RC1内容](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/content/enemies-encounters.md)。旧v0.1的三种敌牌候选已随探索退役，不作为当前待审遭遇表。
 
 ## 当前首批案例
 
 [EX-001炼金学徒](../examples/simple-spell.md#6-炼金学徒)：唯一维护完整程序、玩家初态及逐拍结果。下列绿狮、万溶之液、雷比斯不混入该初始遭遇。
+
+[EX-002完整单战](../examples/complete-battle.md)固定复用上述first-example.1程序／初态，另维护已采纳的本场疲劳与15拍后胜败预期；不是修改EX-001或新增敌种。
 
 ## 必需字段
 

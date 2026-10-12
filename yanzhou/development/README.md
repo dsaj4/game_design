@@ -1,6 +1,8 @@
 # 言咒实现与资产索引
 
-> 当前阶段：2026-10-11 Godot首版工程接入。用户明确选定Godot，停止Unity对比；唯一工程为[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)。玩法沿GDD 2.2 / CORE-059及EX-001，视觉沿Blender v02。已有真实结算、3D与原型操作、独立Windows包和拍末恢复证据；完整战斗与真人体验未完成。
+> 当前阶段：2026-10-11 Godot首版工程接入。用户明确选定Godot，停止Unity对比；唯一工程为[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)。旧运行底座仍CORE-059／EX-001；下一批设计输入已为GDD2.3／CORE-060／EX-002，视觉沿Blender v02。已有局部结算、3D、Windows包和拍末恢复证据；新合同、完整战斗与真人体验尚未验收。
+
+> 当前调度：**本批裁决与集成复核完成，设计暂停已解除**。专门“言咒设计对接”交回R1—R3，用户全部按推荐，CORE-060已集成；总控按[DOC-024](development-standard.md#8-设计裁决闸门)核查后允许恢复既定开发，下一批尚未派发。见[问题与答复](../governance/questions.md)及[总控记录](reports/demo-control-2026-10-11.md)，本轮无待用户回答项。
 
 ## 当前开发入口
 
@@ -13,7 +15,7 @@
 | Godot首版、实际检查与边界 | [本轮交付](reports/godot-start-2026-10-11.md) · [代码／构建入口](E:/Project/yanzhou-godot/README.md) |
 | 工作方式、质量与交付要求 | [开发规范](development-standard.md) |
 | 当前资产、接入差异及核验 | [开发输入与资产](asset-readiness.md) |
-| 玩法与首批内容 | [主系统](../design/README.md) · [EX-001](../design/examples/simple-spell.md) |
+| 玩法与首批内容 | [主系统](../design/README.md) · [EX-001原回归](../design/examples/simple-spell.md) · [EX-002完整单战](../design/examples/complete-battle.md) |
 | 设计待决与验证入口 | [集中问题](../governance/questions.md) · [测试交接](test-handoff.md) |
 
 准备轮核验5包75文件与原哈希一致，随后完成11款类似游戏的引擎资料调研。用户先授权当前Windows电脑实测，最终直接选定Godot，替代双引擎比较流程。本轮[DM-G002-011](../../docs/registry/demo-assets.md#dm-g002-011)实装EX-001 0—14拍并进行规则／交互／恢复等技术检查；这些不是完整117项验收或真人体验／平衡实验。后续逐阶段回填实际版本与结果，以下保留各原日期交付说明。

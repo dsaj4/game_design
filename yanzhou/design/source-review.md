@@ -175,3 +175,11 @@ Include：三个职责及R1—R20全部已确认通用边界与体验目标。Re
 Include：零材料允许、普通／兑现固定用途、两护符兼容迅速、暂缓本例契合；原稿明确物件值作为EX-001案例输入。Replace：原案例过早生效、非法Q状态、追溯中断旧批次和混乱重开拍。Park：积蓄、未命名休整候选、持续按层成长及缺失调度。Omit：D1即时生效、声明“已验证”及12—20拍时长结论。
 
 Core v0.17／GDD 2.2／CORE-059，44个TL身份，117项验收预期NotRun。通用Qualified框架不整包晋级；具体EX值不成为全局发行池。正文清理与固定Git取证见[清理登记](../governance/cleanup-report.md#2026-10-11主系统开发阅读整理)。
+
+## 2026-10-11开发设计对接首轮（CORE-060）
+
+[原案与R1—R3答复](../sources/inbox/2026-10-11-development-design-round-01.md)经[Qualified M](../sources/materials/M-2026-10-11-development-design-round-01.md)、[限定E](../sources/evaluations/E-2026-10-11-development-design-round-01.md)与[采纳D](../sources/draft-changes/D-2026-10-11-development-design-round-01.md)集成。专人GPT-6.1-sol完成候选，用户直接“本批按推荐”，总控核实原始消息后集成，不重复确认。
+
+Include：原案R1／R2首场操作完整条件，R3独立完整单战配置、疲劳及静态胜败。Replace：TL-Q08／07本场仍未知的当前表述。Omit：3秒默认、详情保持播放、3拍疲劳周期三个未选替代。Park：主动启停、泛化复合卡分类、跨构筑疲劳和局内扩展。EX-001原文件及旧运行输入不改。
+
+资格、相容性及人工算术经限定复核；具体覆盖见E，不宣称全读旧素材或其他inbox。核心v0.18／GDD2.3仍GDD-0，TL身份不增加，既有117项运行状态不变；新EX-002及UI预期NotRun，不以设计裁决闭合代替DQ任务验收。

@@ -48,3 +48,7 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 ## 2026-10-11首批案例与固定用途
 
 [用户答复](inbox/2026-10-11-simple-spell-first-batch-registration.md#2026-10-11进入ui与实装前的明确更新) → [M](materials/M-2026-10-11-simple-spell-example.md) → [E](evaluations/E-2026-10-11-simple-spell-example.md) → [CORE-059 D](draft-changes/D-2026-10-11-simple-spell-example.md) → [EX-001](../design/examples/simple-spell.md)。
+
+## 2026-10-11开发设计对接首轮
+
+[原案与R1—R3直接答复](inbox/2026-10-11-development-design-round-01.md) → [M](materials/M-2026-10-11-development-design-round-01.md) → [E](evaluations/E-2026-10-11-development-design-round-01.md) → [CORE-060 D](draft-changes/D-2026-10-11-development-design-round-01.md)。首场交互合同与EX-002已采纳，原EX-001及首版证据不变，运行与体验NotRun。
