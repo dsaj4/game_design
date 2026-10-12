@@ -575,3 +575,11 @@ Accepted / battle-presentation.1。用户在专门设计对接直接选择R4—R
 ### CORE-061第04轮限定解释（2026-10-12）
 
 [第04轮来源核对](../sources/inbox/2026-10-12-development-design-round-04.md)为Derived clarification，不新增CORE身份或用户选择。新观察清上一拍滞后，未暂停的新揭示可给一次非阻塞提示；自动暂停、单步和新终局没有战斗音画例外，旧局不重播，不能用UI命名规避。音效资源清单不覆盖Accepted暂停政策，胜败音资源本场未启用。总控复核并同步现行交互规则后恢复第五批，无需重问R4—R6。
+
+<a id="g002-core-062"></a>
+
+## 2026-10-12：首场主窗口失焦与返回合同（G002-CORE-062）
+
+Accepted / battle-focus.1。用户在专门设计对接选择R7-A，总控核实userMessage `01a12eb3-3dee-73e2-9b75-f1378382e519`。主窗口OS失焦／最小化请求合法完整事件边界暂停，返回仍停并明确继续；保留批次、队列、已提交输入、回看、弹层及同进程草稿，音画沿CORE-061，不补后台时间。显示试用恢复独立于战斗预算。来源与Qualified／E／D见[采纳记录](../sources/draft-changes/D-2026-10-12-development-design-round-05.md)。
+
+核心v0.20／CORE-SUM-15、GDD2.5仍GDD-0，TL身份、R1—R6、CORE-061第04轮解释与案例数值不变。后台继续／返回自动继续未采用；失焦运行适配与体验NotRun。总控完成静态复核与固定输入后恢复第六批，新设计取舍仍按DOC-024交专人，不重问R7。

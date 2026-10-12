@@ -1,6 +1,6 @@
 # 言咒主系统
 
-2026-10-11 · GDD 2.3 / GDD-0 · 开发查阅版。正式开发先看[阶段计划](../development/production-plan.md)、[开发规范](../development/development-standard.md)和[资产接入](../development/asset-readiness.md)。
+2026-10-12 · GDD 2.5 / GDD-0 · 开发查阅版。正式开发先看[阶段计划](../development/production-plan.md)、[开发规范](../development/development-standard.md)和[资产接入](../development/asset-readiness.md)。
 
 **从[GDD](GDD.md)看整体，再按系统查 rules；[EX-001](examples/simple-spell.md)保留原回归，[EX-002](examples/complete-battle.md)给出独立完整单战。** 当前未决事项只在[问题登记](../governance/questions.md)维护。
 

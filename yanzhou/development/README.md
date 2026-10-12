@@ -1,8 +1,8 @@
 # 言咒实现与资产索引
 
-> 当前阶段：2026-10-12 第五批源码技术集成通过；固定源码7a5b55daadfe0ffdf4ff81cb209d7beec43d7759。完整单战／恢复／播放／界面、固定字体、事件摘要及基础音画设置已接入，唯一工程为[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)。设计CORE-060／061及EX-002，视觉Blender v02；旧0.1／0.2包保留，新Windows包未导出，正式音画质量与真人体验未完成。
+> 当前阶段：2026-10-12 第五批Windows包 **GODOT-EX002-0.3** 限定技术验收通过；固定运行源码9cf9b64b34f689a71c3a0362db25917b93259ddf，设计输入5518fde。完整单战／恢复／播放／界面、固定字体、事件摘要及基础音画设置已接入，唯一工程为[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)。设计CORE-060／061及EX-002，视觉Blender v02；旧0.1／0.2包保留，正式音画质量与真人体验未完成。
 
-> 当前调度（2026-10-12）：**第04轮依据现行规则闭合，第五批后续开发与打包恢复**。非暂停新揭示可提示，暂停／单步／新终局静态静默；新取舍仍按[DOC-024](development-standard.md#8-设计裁决闸门)处理，[唯一问题登记](../governance/questions.md#presentation-round04)。340项主工程、两档各32项键鼠＋22项音画检查、10次Godot运行与跨进程恢复通过；[第五批报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-05-integration.md)、[固定证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-05-evidence.json)。
+> 当前调度（2026-10-12）：**R7已由用户选择并集成CORE-062，总控固定设计输入后恢复第六批**。失焦／最小化暂停，返回仍停并明确继续，保留状态、回看、弹层和同进程草稿；[DOC-024](development-standard.md#8-设计裁决闸门)及[唯一问题登记](../governance/questions.md#focus-round05)。第五批340项主工程、独立复制包旧案例7次／完整界面10次运行、两档各32项键鼠＋31项音画检查及胜败／跨进程恢复通过；[第五批报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-05-integration.md)、[包证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-05-release-evidence.json)。失焦适配与运行尚未完成，不重复提问R7。
 
 ## 当前开发入口
 
@@ -14,6 +14,7 @@
 | 类似游戏使用的引擎与选型依据 | [2026-10-11引擎调研](reports/similar-game-engine-research-2026-10-11.md) |
 | Godot首版、实际检查与边界 | [本轮交付](reports/godot-start-2026-10-11.md) · [代码／构建入口](E:/Project/yanzhou-godot/README.md) |
 | Godot第二批工程集成与新证据 | [GODOT-EX001-0.2报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-11-batch-02-integration.md) · [新Windows包](E:/Project/yanzhou-godot/build/development-batch-02/windows/Yanzhou.exe) · [四状态对照板](E:/Project/yanzhou-godot/evidence/development-batch-02/captures/index.html) |
+| 当前完整单战包与技术证据 | [GODOT-EX002-0.3 Windows包](E:/Project/yanzhou-godot/build/development-batch-05/windows/Yanzhou.exe) · [第五批报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-05-integration.md) · [固定包证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-05-release-evidence.json) |
 | 工作方式、质量与交付要求 | [开发规范](development-standard.md) |
 | 当前资产、接入差异及核验 | [开发输入与资产](asset-readiness.md) |
 | 玩法与首批内容 | [主系统](../design/README.md) · [EX-001原回归](../design/examples/simple-spell.md) · [EX-002完整单战](../design/examples/complete-battle.md) |
@@ -35,7 +36,7 @@
 
 ## Demo与素材登记（DA-1 / 2026-10-01）
 
-2026-10-12第五批素材接入：[AS-G002-011@FONT-ASSETS-01](../../docs/registry/demo-assets.md#as-g002-011)固定Noto中文／符号已恢复并在两档Godot源码运行中使用，包导出／许可随包仍待验；新增[AS-G002-012@SYNTH-AUDIO-01](../../docs/registry/demo-assets.md#as-g002-012)为原创程序合成声音技术样板，声学质量未验，揭示／胜败边界已由第04轮解释，胜败音资源本场无可听运行触发。两者由固定源码7a5b55d使用，不升级完整成品状态。
+2026-10-12第五批素材接入：[AS-G002-011@FONT-ASSETS-01](../../docs/registry/demo-assets.md#as-g002-011)固定Noto中文／符号已随0.3包运行，禁系统回退及两份OFL原字节随包检查通过；[AS-G002-012@SYNTH-AUDIO-01](../../docs/registry/demo-assets.md#as-g002-012)原创程序合成声音样板已接入非暂停新揭示，暂停清理与实际引擎混音检查通过，听感未审。胜败音有资源但依CORE-061无可听运行触发。两者由固定运行源码9cf9b64使用，包及复制目录各195文件、232,308,612字节，逐文件指纹一致；登记不提升成品状态。
 
 2026-10-11新增[AS-G002-008 战斗效果图 v01](../visual/battle-ui-2026-10-11/art-v01.md)：基于HTML v10结构的独立生成概念图，已目视核对构图及检查图像文件；用户已选为效果示意图初版。同日交付[AS-G002-009 组件隔离设计 v01](../visual/battle-ui-2026-10-11/components-v01/README.md)，含18张透明组件及1张环境图；已检查图像与透明通道并核对本机总览显示。无运行实现或3D工程。HTML v10原件未改，玩法验证状态不变。
 

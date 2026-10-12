@@ -56,3 +56,7 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 ## 2026-10-12：首场表现与声音
 
 [第03轮原案及R4—R6答复](inbox/2026-10-12-development-design-round-03.md) → [Qualified M](materials/M-2026-10-12-development-design-round-03.md) → [限定E](evaluations/E-2026-10-12-development-design-round-03.md) → [CORE-061 D](draft-changes/D-2026-10-12-development-design-round-03.md)。三项推荐已采纳，其他替代未采用；表现运行与体验仍NotRun。
+
+## 主窗口失焦与返回（2026-10-12）
+
+[第05轮原案与R7直接答复](inbox/2026-10-12-development-design-round-05.md) → [Qualified M](materials/M-2026-10-12-development-design-round-05.md) → [限定E](evaluations/E-2026-10-12-development-design-round-05.md) → [CORE-062 D](draft-changes/D-2026-10-12-development-design-round-05.md)。R7-A失焦停、返回仍停并明确继续已采纳；后台继续／返回自动继续未采用。失焦适配及体验NotRun。

@@ -25,6 +25,8 @@
 
 - 2026-10-12第五批源码增量：GODOT-EX002-BATCH05-SOURCE，固定7a5b55daadfe0ffdf4ff81cb209d7beec43d7759，[实际报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-05-integration.md)、[固定证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-05-evidence.json)。完整单战、事件恢复、正式操作、固定字体、摘要与基础音画／设置，340项主工程、两档各32＋22项技术检查及胜败／跨进程恢复通过。uses新增AS-G002-011@FONT-ASSETS-01、AS-G002-012@SYNTH-AUDIO-01；AS-G002-010原固定GLB不变。没有导出新包，正式音画／真人体验未验，第04轮边界按现行规则解释后恢复开发；旧包及证据原样保留。
 
+- 2026-10-12后续包：**GODOT-EX002-0.3**，固定运行源码9cf9b64b34f689a71c3a0362db25917b93259ddf、设计输入5518fde；[Windows包](E:/Project/yanzhou-godot/build/development-batch-05/windows/Yanzhou.exe)、[固定包证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-05-release-evidence.json)。增加非暂停新揭示提示并完成本批包验收：主工程340项；独立复制包旧案例7次、完整界面10次运行，两档各32项键鼠及31项音画检查、胜败／跨进程恢复通过。包与复制目录各195文件、232,308,612字节且逐文件指纹一致，两份字体OFL原字节随包。uses为AS-G002-010@BATTLE-3D-02、AS-G002-011@FONT-ASSETS-01、AS-G002-012@SYNTH-AUDIO-01；ReadyForScope仅限本批技术范围，正式美术／音色、真人体验和独立机器重建未验。原包与失败证据保留，无新DM或公开发布；第六批曾因失焦政策R7暂停，后续用户选择及CORE-062集成已闭合，设计确认不改变此固定包的运行范围。
+
 ### <a id="dm-g002-004"></a>DM-G002-004 炼咒试验台（2026-10-02新增）
 
 - 归属：game-002-optimization / DIR-032；[探索与机制规格](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-032-playable-mechanism-loop/README.md)、[开发索引](../../yanzhou/development/README.md)。
@@ -97,18 +99,18 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 
 ### <a id="as-g002-011"></a>AS-G002-011 Noto 简体中文与符号字体来源（2026-10-12新增）
 
-- 归属：game-002 / main；FONT-ASSETS-01；维护于[实现报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-bundled-font.md)，固定来源与完整SHA-256见[字体清单](E:/Project/yanzhou-godot/docs/coordination/font-assets-v01.json)。类型：第三方字体原件／许可证；已用于DM-G002-011第五批源码运行的中文及类别符号，Windows随包待实际导出。
+- 归属：game-002 / main；FONT-ASSETS-01；维护于[实现报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-bundled-font.md)，固定来源与完整SHA-256见[字体清单](E:/Project/yanzhou-godot/docs/coordination/font-assets-v01.json)。类型：第三方字体原件／许可证；已用于DM-G002-011@GODOT-EX002-0.3的中文及类别符号，Windows包与独立复制目录均已运行检查。
 - 固定范围：Noto Sans CJK SC Regular 2.004（官方提交523d033d6cb47f4a80c58a35753646f5c3608a78，OTF 16,437,364字节）与Noto Sans Symbols 2 Regular 2.008（官方提交25b00f0d3f40873a005287514ba2a48558655314，TTF 671,568字节）。原始下载及两份OFL保留在实现仓库evidence/development-batch-05/fonts/source/，清单给精确文件路径；未修改、子集化或转换，原ZIP亦保留。
-- ReadyForScope（固定来源恢复及源码接入）/ PresentLocal。2026-10-12完成两种PowerShell各17项恢复检查，480个当前汉字及▲■⊘✱组合无缺字；两档实际Godot禁系统回退检查与截图通过。原字体共约16.32 MiB，正式包体、内存和真人小字号可读性未验。
+- ReadyForScope（固定来源恢复、源码接入与随包技术检查）/ PresentLocal。2026-10-12完成两种PowerShell各17项恢复检查，480个检查汉字及▲■⊘✱组合无缺字；两档实际Godot及独立复制包禁系统回退检查与截图通过。原字体共约16.32 MiB，0.3整包约221.55 MiB；字体增量内存和真人小字号可读性未验。
 - 来源：官方notofonts/noto-cjk与notofonts/symbols，OFL-1.1；按许可证保留版权／许可、字体不可单独售卖，具体声明见实现清单。未取用系统雅黑文件，未公开发布二进制。此字体许可不改变模型等其他资产的权利边界。
-- uses: None；derived-from: None（未经修改第三方原件）；使用者DM-G002-011第五批源码7a5b55daadfe0ffdf4ff81cb209d7beec43d7759，复制到godot/assets/fonts，原字体／版权及两份OFL字节保留。新包未导出；本条登记局部技术范围，不证明成品或玩法成立。
+- uses: None；derived-from: None（未经修改第三方原件）；使用者DM-G002-011@GODOT-EX002-0.3，固定运行源码9cf9b64b34f689a71c3a0362db25917b93259ddf，复制到godot/assets/fonts；两份原字节OFL也随EXE提供，实际哈希核对通过。来源及早期7a5b55d检查保留；本条登记局部技术范围，不证明成品或玩法成立。
 
 ### <a id="as-g002-012"></a>AS-G002-012 程序合成声音样板（2026-10-12新增）
 
 - 归属：game-002 / main；SYNTH-AUDIO-01；维护于[第五批实现报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-05-integration.md)，[来源与14组PCM指纹](E:/Project/yanzhou-godot/docs/coordination/synth-audio-v01.json)。类型：原创程序合成效果／环境声音技术样板，非正式音色。
 - 固定版本：实现提交7a5b55daadfe0ffdf4ff81cb209d7beec43d7759，godot/EncounterAudio.cs，SHA-256 77cb7499590fe6e8e9f5d65d9247a761d3f03594cea8ff855bd730c6a84baa3b。由正弦谐波和包络在启动时生成22050Hz单声道PCM16，不下载录音、不访问用户音频、不导入旧游戏资产；14组包括尚未派发的胜败预备波形。
-- Catalogued / PresentLocal，2026-10-12实际引擎混音有信号／静音零及声音暂停／恢复生命周期通过；听感、音色和正式DQ-31未验。7a5b55d当前新揭示／终局边界尚不播放这些声音；第04轮已明确后续只接非暂停新揭示，胜败音在EX-002无可听运行触发，不把资源存在当运行通过。
-- 来源／使用：本次项目原创实现，无外部录音或第三方音频依赖；不新增通用公开许可。uses: None；derived-from: None；使用者DM-G002-011第五批源码，同项目后续复用按固定版本与合同核对。没有新Windows包或公开发布。
+- Catalogued / PresentLocal，2026-10-12实际引擎混音有信号／静音零及声音暂停／恢复生命周期通过；9cf9b64／0.3独立复制包已接通非暂停新揭示并留实际音频信号与图像证据，原7a5b55d停点尚未接通的记录保留。胜败音在EX-002依CORE-061无可听运行触发，不把资源存在当运行通过；听感、音色和正式DQ-31未验。
+- 来源／使用：本次项目原创实现，无外部录音或第三方音频依赖；不新增通用公开许可。uses: None；derived-from: None；使用者DM-G002-011@GODOT-EX002-0.3，固定运行源码9cf9b64。后续增加诊断／接线未改变14组PCM字节，当前源文件与PCM核对见清单；同项目后续复用按固定版本与合同核对。Windows包仅本机保管，无公开发布。
 
 ### <a id="as-g002-010"></a>AS-G002-010 战斗桌面 Blender 建模首版（2026-10-11新增）
 

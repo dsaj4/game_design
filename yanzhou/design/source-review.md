@@ -187,3 +187,7 @@ Include：原案R1／R2首场操作完整条件，R3独立完整单战配置、�
 ## 2026-10-12开发设计对接第03轮（CORE-061）
 
 总控复核[Qualified M](../sources/materials/M-2026-10-12-development-design-round-03.md)、[限定E](../sources/evaluations/E-2026-10-12-development-design-round-03.md)和[采纳D](../sources/draft-changes/D-2026-10-12-development-design-round-03.md)，并核实用户R4—R6直接答复。七项资格完整，范围限暂停／单步／恢复的表现与声音政策；仅定向审查相关交互、EX-002及原案，不宣称全量复审其他来源。CORE-061／核心v0.19／GDD2.4仍GDD-0，TL身份与战斗参数不变；运行及体验NotRun。
+
+## 2026-10-12开发设计对接第05轮（CORE-062）
+
+总控读取直接userMessage `01a12eb3-3dee-73e2-9b75-f1378382e519`，核实R7-A及题内保留状态、草稿和音画条件。经[Qualified M](../sources/materials/M-2026-10-12-development-design-round-05.md)→[限定E](../sources/evaluations/E-2026-10-12-development-design-round-05.md)→[采纳D](../sources/draft-changes/D-2026-10-12-development-design-round-05.md)集成CORE-062。七项资格完整；CUSTOM只含原案、既有暂停／焦点／声音合同、DQ-24／36／37及本轮定向回写，未全量审查其他来源。核心v0.20／GDD2.5仍GDD-0，TL身份与数值不变，失焦适配和体验NotRun。
