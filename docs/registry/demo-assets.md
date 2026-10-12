@@ -31,6 +31,7 @@
 
 - 2026-10-12第七批测量复用：沿GODOT-EX002-0.4固定源码9c50458叠加工程仪器，保存于实现57e95441fa497f30d5f857419724fd02dae98fd5；[限定性能报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-07-performance.md)、[固定证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-07-performance-evidence.json)。193文件测量包指纹复核一致，复用原GLB／卡图／字体／声音，无素材改版。1080p连续600秒因一次113.127ms尖峰判Fail；768p 120秒仅为通过预算的诊断。不是新玩家版本、最终最重场景验收或公开发布，原0.4包及证据保留。
 
+- 2026-10-12第七批组合候选保全：实现e0077ffa10d22ad1c9dd91e8037aa2c021409098，沿相同AS-G002-009卡图、AS-G002-010原GLB、字体及声音，增加卡图准备/复用及木纹/皮革代码组件SURFACE-DETAIL-CANDIDATE-02；不改源素材、不新分配AS。候选包和副本各195文件/239,109,709字节，指纹一致；[保全索引](E:/Project/yanzhou-godot/docs/coordination/development-batch-07-preserved-evidence.json)。组合包限定检查未全部完成，600秒测量因系统前台变化中断，不登记0.5正式交付。用户随后明确要求主交互依赖3D模型及真实桌面翻牌，当前暂停待第07轮设计对接；材质样板与旧HUD技术结果不构成新主交互或美术采纳。原包/素材/失败记录及复用权利保持。
 ### <a id="dm-g002-004"></a>DM-G002-004 炼咒试验台（2026-10-02新增）
 
 - 归属：game-002-optimization / DIR-032；[探索与机制规格](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-032-playable-mechanism-loop/README.md)、[开发索引](../../yanzhou/development/README.md)。

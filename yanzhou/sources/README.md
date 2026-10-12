@@ -64,3 +64,7 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 ## 第06轮工程职责核对（2026-10-12）
 
 [性能预算冻结职责与测量边界](inbox/2026-10-12-development-design-round-06.md)为Derived clarification：已有开发授权允许技术负责人冻结本批推荐目标，无新用户裁决或玩法采纳，不新增M／E／D与CORE。总控已记录工程合同并恢复第七批，性能结果仍NotRun。当前实施状态以[开发入口](../development/README.md)为准，前轮交回时的NotRun保持历史语境。
+
+## 第07轮桌面3D主交互（2026-10-12）
+
+[用户纠偏与具体流程草案](inbox/2026-10-12-development-design-round-07.md)：用户明确主交互依赖3D模型、真实桌面卡片放置/翻转；当前黑色文本框主UI不符合目标。具体推进含义及文字/系统界面边界R8/R9待答，仍为Raw / Unqualified，不进入M/E/D或权威规则。已按DOC-024暂停开发，唯一状态见[当前问题](../governance/questions.md#physical-table-round07)；技术保全不等于用户接受旧界面。
