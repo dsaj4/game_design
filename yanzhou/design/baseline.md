@@ -1,22 +1,22 @@
 # 当前设计基准
 
-2026-10-12 · documentation.3 / first-example.1 / battle-demo.1 / battle-presentation.1 / battle-focus.1。
+2026-10-12 · documentation.3 / first-example.1 / battle-demo.1 / battle-presentation.1 / battle-focus.1 / physical-table.1。
 
 | 项目 | 当前值 |
 | --- | --- |
-| GDD | 2.5 / GDD-0 |
-| 核心摘要 | v0.20 / CORE-SUM-15 |
-| 规则 | TL-1 + INS-1，CORE-037—062；44个现行TL身份（TL-20退役） |
-| 本轮增量 | CORE-062：首场主窗口失焦／最小化暂停，返回仍停并明确继续；保留状态、回看、弹层及同进程草稿，不补后台时间；CORE-060／061及案例数值不变 |
+| GDD | 2.6 / GDD-0 |
+| 核心摘要 | v0.21 / CORE-SUM-16 |
+| 规则 | TL-1 + INS-1，CORE-037—063；44个现行TL身份（TL-20退役） |
+| 本轮增量 | CORE-063：真实3D物件承担全部主页面入口，真实卡片自动呈现已提交事实，近观／系统独立图形页；R9采用用户修正，CORE-060—062停点及案例数值不变 |
 | 结构 | 六主系统、两子系统、三公共流程，各保留五文件 |
 | 内容 | EX-001保留原回归；EX-002为独立完整单战；具体值仅适用各自固定配置 |
 | 证据 | 已实现规则、界面及CORE-061基础音画有局部技术证据，见开发入口；正式音画质量、玩家体验及平衡NotRun；设计采纳不代替验收 |
-| 开发状态 | DOC-021—024；第六批GODOT-EX002-0.4包固定运行源码9c50458，完整单战、恢复、UI、字体／基础音画，新增失焦暂停、公开卡面与材质样板限定技术验收通过；第06轮已闭合工程职责，限定预算冻结后恢复第七批，见[当前问题](../governance/questions.md#performance-round06)及[开发入口](../development/README.md)。正式美术、性能及真人体验仍未验，不改变设计版本 |
+| 开发状态 | DOC-021—025；0.4保留原限定技术验收，0.5候选未正式交付。第07轮R8／R9完成资格及CORE-063集成；推进每项文字→HTML→美术设计，真实实现须在对应前三阶段复核后记录恢复。见[问题](../governance/questions.md#physical-table-round07)与[开发入口](../development/README.md)。正式美术、性能及真人体验仍未验 |
 | 视觉输入 | HTML v10＋效果图v01＋组件v01＋Blender v02；[当前资产及核验](../development/asset-readiness.md)；GLB已接入，正式材质／UI及完整战斗性能仍待验收 |
 
 ## 状态只在这里统一解释
 
-- **Accepted**：已采纳规则与明确决定。各 rules 页TL条款及CORE-055—062的限定接口按此执行。
+- **Accepted**：已采纳规则与明确决定。各 rules 页TL条款及CORE-055—063的限定接口按此执行。
 - **Qualified**：已确认且可用于设计的素材。辅槽／行动／标记尚未整包采纳的通用框架，以及ART-I1—4、INS-I1—5、行动设计意图仍保留此状态；其已被具体CORE采纳的部分按Accepted执行。
 - **EX-001**：用户要求加入的首批案例，三项后续推荐已确认；完整参数在案例内固定，用于展示与开发对照。未晋为全局发行池或平衡结果。
 - **EX-002**：用户确认R3后的独立完整单战；疲劳与静态胜败只适用于本场，原EX-001回归不变。
@@ -38,6 +38,8 @@
 | 首批设计与新增明确接口 | [CORE-059](../sources/draft-changes/D-2026-10-11-simple-spell-example.md) |
 | 首场操作合同与完整单战 | [CORE-060](../sources/draft-changes/D-2026-10-11-development-design-round-01.md) |
 | 首场表现与声音 | [CORE-061](../sources/draft-changes/D-2026-10-12-development-design-round-03.md) |
+| 首场失焦与返回 | [CORE-062](../sources/draft-changes/D-2026-10-12-development-design-round-05.md) |
+| 桌面3D主交互 | [CORE-063](../sources/draft-changes/D-2026-10-12-development-design-round-07.md) |
 | 通用设计与体验意图 | [2026-10-11集成记录](../governance/main-system-review-2026-10-11.md) |
 
 整理输入固定提交：`a9a7be3a48356379d9fb3eed86c17cfe3ada7325`。此前的基准沿革、各轮来源及独有设计解释保留在[整理前版本](https://github.com/dsaj4/game_design/blob/a9a7be3a48356379d9fb3eed86c17cfe3ada7325/yanzhou/design/baseline.md)及[决策记录](../governance/decision-log.md)。当前问题只查[集中登记](../governance/questions.md)，不从旧轮次的Unknown倒推待办。

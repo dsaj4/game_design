@@ -6,8 +6,9 @@
 <aside><div class="eyebrow">Yanzhou / Production</div><div class="brand">言咒</div><div class="aside-caption">从逻辑小样，到成品单战。<br>开发任务 · 2026.10.11 / v1.0</div><nav id="nav" aria-label="阶段筛选"></nav><div class="aside-bottom">设计仓库 · game-002<br>G002-DOC-023<br><br>Godot / C# / Windows<br>1080p 主目标 · 768p 检查<br><br><a href="production-plan.md">原 P0—P5 阶段计划 ↗</a><br><a href="README.md">开发入口 ↗</a></div></aside>
 <main><div class="topline"><span>DEVELOPMENT PLAN / 成品质量任务分解</span><span class="edition">基础逻辑之后 · 52 项必做 + 4 项后续</span></div><h1>把牌桌，做成<span>完整的体验。</span></h1><p class="lead">以当前 Godot 首版为起点，把画面、资产、物体动作、正式 UI、音效与完整战斗接成一个可交付 Demo。每项都写明制作内容、依赖、产物和验收证据，供开发 agent 逐项接手。</p>
 <div class="stats" id="stats" aria-live="polite"></div>
-<details class="scope"><summary>范围、当前证据与使用说明</summary><div class="scope-body"><div class="scope-grid"><div><h3>本次交付：成品质量的一场战斗</h3><p>最小开始页 → 首批配置说明／短引导 → 完整战斗 → 胜败结果 → 重试／返回；包含设置、继续游戏、正式音画、异常反馈和独立 Windows 包。使用既定牌桌构图与首批内容。</p><p>路线、商店、战前装配、新流派、多平台列为后续。完整遭遇必要参数仍需沿原设计流程确定，不把 EX-001 十四拍序列冒充完整战斗。</p><h3>任务表怎样使用</h3><p>先打开 DQ-01／05／06，再按前置任务推进。S/M/L 为相对规模：单一交付、跨组件、多环节联调；不是工期承诺。负责人是建议职责，同一人或 agent 可兼任。</p></div><div><h3>已交付的底座</h3><p>DM-G002-011 / GODOT-EX001-0.1，代码 <code>e71dcb78e813</code>；设计输入 <code>5c542e12c53a</code>。已报告28项规则检查、两档各12项输入检查、独立包和拍末跨进程恢复。</p><p>现有画面已导入主场景，但材质仍有差距，卡面占位，右侧与底部检查 UI 遮挡道具。完整单战、正式交互合同、物件动作、音频与真人体验还未完成。</p><h3>状态有明确含义</h3><p>本表是新增交付任务，因此初始均为“待开始”；每项保留已有底座说明。“已验收”必须填写证据，但本地打勾不等于设计采纳或仓库阶段通过。待决只引用原 questions，具体技术任务与 Bug 留代码仓库。</p></div></div><div class="source-note">依据：<a href="reports/godot-start-2026-10-11.md">Godot 首版报告</a> · <a href="file:///E:/Project/yanzhou-godot/evidence/verification.md">实现验证原文（本机）</a> · <a href="file:///E:/Project/yanzhou-godot/evidence/package-first-1080/benchmark-1920.png">当前真实截图（本机）</a> · <a href="asset-readiness.md">资产版本与差异</a> · <a href="../governance/questions.md">唯一设计问题登记处</a><br>本轮只制作开发任务文档；未运行游戏或玩法实验，未改玩法/案例/源资产。建议的性能预算和试玩人数须在相应任务开始时确认。技术测量不代替真人体验验证。外部本机链接需在同一电脑打开。</div></div></details>
+<details class="scope"><summary>2026-10-11初始规划与使用说明（当前状态见下方重做记录）</summary><div class="scope-body"><div class="scope-grid"><div><h3>本次交付：成品质量的一场战斗</h3><p>最小开始页 → 首批配置说明／短引导 → 完整战斗 → 胜败结果 → 重试／返回；包含设置、继续游戏、正式音画、异常反馈和独立 Windows 包。使用既定牌桌构图与首批内容。</p><p>路线、商店、战前装配、新流派、多平台列为后续。完整遭遇必要参数仍需沿原设计流程确定，不把 EX-001 十四拍序列冒充完整战斗。</p><h3>任务表怎样使用</h3><p>先打开 DQ-01／05／06，再按前置任务推进。S/M/L 为相对规模：单一交付、跨组件、多环节联调；不是工期承诺。负责人是建议职责，同一人或 agent 可兼任。</p></div><div><h3>已交付的底座</h3><p>DM-G002-011 / GODOT-EX001-0.1，代码 <code>e71dcb78e813</code>；设计输入 <code>5c542e12c53a</code>。已报告28项规则检查、两档各12项输入检查、独立包和拍末跨进程恢复。</p><p>现有画面已导入主场景，但材质仍有差距，卡面占位，右侧与底部检查 UI 遮挡道具。完整单战、正式交互合同、物件动作、音频与真人体验还未完成。</p><h3>状态有明确含义</h3><p>本表是新增交付任务，因此初始均为“待开始”；每项保留已有底座说明。“已验收”必须填写证据，但本地打勾不等于设计采纳或仓库阶段通过。待决只引用原 questions，具体技术任务与 Bug 留代码仓库。</p></div></div><div class="source-note">依据：<a href="reports/godot-start-2026-10-11.md">Godot 首版报告</a> · <a href="file:///E:/Project/yanzhou-godot/evidence/verification.md">实现验证原文（本机）</a> · <a href="file:///E:/Project/yanzhou-godot/evidence/package-first-1080/benchmark-1920.png">当前真实截图（本机）</a> · <a href="asset-readiness.md">资产版本与差异</a> · <a href="../governance/questions.md">唯一设计问题登记处</a><br>本轮只制作开发任务文档；未运行游戏或玩法实验，未改玩法/案例/源资产。建议的性能预算和试玩人数须在相应任务开始时确认。技术测量不代替真人体验验证。外部本机链接需在同一电脑打开。</div></div></details>
 <div class="next"><strong>推荐推进顺序</strong><p><a href="#DQ-01" data-jump="DQ-01">范围与合同</a> → <a href="#DQ-14" data-jump="DQ-14">一张最终品质引擎样板</a> → <a href="#DQ-24" data-jump="DQ-24">可操作正式 UI</a> → <a href="#DQ-40" data-jump="DQ-40">完整音画单战</a> → <a href="#DQ-50" data-jump="DQ-50">最终包验收</a>。美术样板与完整单战内容可在各自前置满足后并行；先把代表性物件做完整，再推广到全流程。</p></div>
+<section class="scope" id="physical-table-stages"><div class="scope-body"><h2>当前交互重做 · 2026.10.12</h2><p>R8／R9已正式集成 <a href="../design/common/interaction-save/rules.md#首场桌面3d主交互合同core-063">CORE-063</a>；每项按 <a href="development-standard.md#9-每项重点交互的四阶段制作">DOC-025</a> 依次完成文字、HTML、美术示意、真实实现。下表是仓库制作状态；浏览器本地旧勾选不代表新3D任务完成。</p><div class="table-wrap"><table aria-label="重点交互四阶段"><thead><tr><th>重点交互 / 原DQ</th><th>文字结构</th><th>HTML示意</th><th>美术示意</th><th>真实实现 / 依赖</th></tr></thead><tbody><tr><td>产牌→真实卡入列→揭示/使用→目标→离场/近观 · DQ-17/18/20/21/25—30</td><td><a href="../visual/physical-table-2026-10-12/card-flow-structure.md">完成，总控静态复核通过</a></td><td>未开始</td><td>未开始</td><td>未开始；依赖前三阶段复核</td></tr><tr><td>用途与数量编辑 · DQ-18/19/21</td><td>第07轮边界已定，具体稿待做</td><td>未开始</td><td>未开始</td><td>依赖法器/标记图形入口</td></tr><tr><td>生命/护甲/标记读数 · DQ-19/28</td><td>具体稿待做</td><td>未开始</td><td>未开始</td><td>依赖准确投影与图形信息</td></tr><tr><td>播放/单步/倍速 · DQ-23/24/32</td><td>具体稿待做</td><td>未开始</td><td>未开始</td><td>依赖实体控制与原播放合同</td></tr><tr><td>回看/归位/历史 · DQ-16/21/24</td><td>具体稿待做</td><td>未开始</td><td>未开始</td><td>依赖刻位、保位与静态记录</td></tr><tr><td>抽屉 · DQ-22/28</td><td>具体稿待做</td><td>未开始</td><td>未开始</td><td>合法暂停后静态开合</td></tr><tr><td>开始/设置/保存错误/结果等系统页 · DQ-15/35—39</td><td>逐页具体稿待做</td><td>未开始</td><td>未开始</td><td>每页独立图形，主页面入口实体化</td></tr></tbody></table></div><p>复用当前后端、保存与公开信息投影；旧0.4限定技术验收、0.5候选未完成和性能失败均保留。HTML仅证明结构，效果图仅证明制作意图；规则、工程、视觉一致性、用户接受和真人体验分别记录。真实实现恢复须总控写明固定输入和范围。</p></div></section>
 <div class="toolbar"><label class="sr" for="search">搜索任务</label><input id="search" type="search" placeholder="搜索任务、物件、验收、ID…"><label class="sr" for="area">工作领域</label><select id="area"><option value="">全部工作领域</option></select><label class="sr" for="status">状态</label><select id="status"><option value="">全部状态</option></select><label class="sr" for="scopeFilter">任务范围</label><select id="scopeFilter"><option value="all">全部任务</option><option value="required">仅成品必做</option><option value="optional">仅后续扩展</option><option value="ready">前置已满足</option></select></div>
 <div class="controls"><button class="btn" id="expandAll">展开当前结果</button><button class="btn" id="collapseAll">收起详情</button><button class="btn" id="exportCsv">导出任务 CSV</button><button class="btn" id="exportJson">备份进度 JSON</button><button class="btn" id="importJson">导入进度</button><button class="btn" id="print">打印 / 存为 PDF</button><input hidden type="file" accept=".json,application/json" id="importFile"></div>
 <div class="notice" id="storageNotice">进度只保存到当前浏览器；文件移动或换浏览器可能无法读取原进度，请导出 JSON 备份。导出含全部56项，筛选只影响浏览和打印。</div>
@@ -313,14 +314,15 @@
         "DQ-13"
       ],
       "title": "验收一个“最终品质”静态战斗画面",
-      "baseline": "尚无正式引擎美术验收基准",
-      "work": "把一件活动法器、一张正式卡、两棋子、筹码和详情状态做到目标品质；在引擎里统一尺度、材质和信息层级",
-      "deliver": "可复用的运行视觉样板",
+      "baseline": "旧引擎样板有局部技术证据；CORE-063真实物件方向尚无最终品质验收",
+      "work": "每项先有文字结构、HTML和美术示意，再将活动法器、真实3D卡、棋子、筹码和图形近观做到目标品质；两档对照前三阶段",
+      "deliver": "有前三阶段对应依据的真实3D运行视觉样板",
       "accept": "同一截图内无占位牌、调试面板遮挡或明显材质缺失；对照板差异逐条有结论",
-      "evidence": "1080p/768p真实截图与美术评审结论",
+      "evidence": "1080p/768p真实截图与美术评审结论；对应文字→HTML→美术→真实实现的产物与复核记录",
       "sources": [
         "assets",
-        "report"
+        "report",
+        "physical"
       ]
     },
     {
@@ -336,15 +338,16 @@
         "DQ-08",
         "DQ-13"
       ],
-      "title": "替换调试面板，建立正式HUD",
-      "baseline": "顶部/右侧/底部仍为大块检查UI",
-      "work": "将必需信息嵌入既定牌桌构图；保留开发检查入口但默认隐藏；建立UI焦点、遮挡和关闭顺序",
-      "deliver": "正式HUD与统一面板层级",
-      "accept": "普通启动无检查文本；打开详情仍看得到关键时间轴和目标；Esc逐层关闭且不会意外退出",
-      "evidence": "两档截图、面板开关录屏",
+      "title": "以真实3D物件重建主页面与图形页面",
+      "baseline": "旧文本框HUD不符合用户目标，技术通过不等于UI被接受",
+      "work": "主页面所有入口由3D物件承担；删除独立二维按钮条、悬停文字框和大日志。点击暂停近观及系统页须用对应图形UI；保留精确信息与焦点层级",
+      "deliver": "实体入口映射、图形近观/系统页面及对应四阶段产物",
+      "accept": "真实空间拾取且键盘激活同一对象；必要数字/卡效可读；纯文字UI清除，Esc静态关闭后仍暂停",
+      "evidence": "两档截图、面板开关录屏；对应文字→HTML→美术→真实实现的产物与复核记录",
       "sources": [
         "questions",
-        "assets"
+        "assets",
+        "physical"
       ]
     },
     {
@@ -361,13 +364,14 @@
       ],
       "title": "实装时间轴窗口、回看与归位",
       "baseline": "已有局部队列显示，正式窗口合同待落实",
-      "work": "按合同显示刻号、当前拍、敌我同刻对齐；支持窗口移动及回当前；容量状态独立于显示列数",
-      "deliver": "正式时间轴控件",
+      "work": "按CORE-060/063显示7/5列、真实拍号与敌我同刻对齐；回看先暂停并保位，实体归位不推进；容量摘要与显示列数分开",
+      "deliver": "真实刻轴与实体回看/归位控制",
       "accept": "历史不计Q；预留不冒充实牌；溢出可达；回看不会推进战斗或改变牌时点",
-      "evidence": "跨窗口满队列与回看录屏、状态对照",
+      "evidence": "跨窗口满队列与回看录屏、状态对照；对应文字→HTML→美术→真实实现的产物与复核记录",
       "sources": [
         "semantic",
-        "example"
+        "example",
+        "physical"
       ]
     },
     {
@@ -382,15 +386,16 @@
         "DQ-15",
         "DQ-16"
       ],
-      "title": "完成真实卡面及所有展示状态",
-      "baseline": "实际队列当前为占位卡",
-      "work": "绑定名称、类别、目标、来源和真实数值；区分未翻开/已揭示/将生效/结算后历史/中断；未知内容不放入详情或提示",
+      "title": "完成真实3D卡片及公开展示状态",
+      "baseline": "旧实现卡图属于屏幕控件，未完成真实空间卡片",
+      "work": "真实卡片具厚度、正背面、空间位置与拾取；已知玩家牌正面；敌牌r前只公开程序位置/r/类别，r后显示T等公开字段；历史痕迹不冒充队列牌",
       "deliver": "三种首批行动及敌牌状态组件",
       "accept": "缩略可辨类别、展开可读详情；未知T和效果没有泄漏；显示与事件账目一致",
-      "evidence": "状态矩阵截图、隐藏信息检查、边界数据",
+      "evidence": "状态矩阵截图、隐藏信息检查、边界数据；对应文字→HTML→美术→真实实现的产物与复核记录",
       "sources": [
         "example",
-        "semantic"
+        "semantic",
+        "physical"
       ]
     },
     {
@@ -410,10 +415,11 @@
       "work": "显示当前批次、D进度、未来用途、容量等待/中断；切换未来用途提供即时确认；非活动摆件移除或按合同区分",
       "deliver": "两护符正式控件与物件详情",
       "accept": "当前/未来同时存在时不混淆；第7拍切换不改当前批次和已入行牌；不能凭零材料增加停供操作",
-      "evidence": "第7/13拍录屏、键鼠路径、状态图",
+      "evidence": "第7/13拍录屏、键鼠路径、状态图；对应文字→HTML→美术→真实实现的产物与复核记录",
       "sources": [
         "example",
-        "questions"
+        "questions",
+        "physical"
       ]
     },
     {
@@ -433,10 +439,11 @@
       "work": "让棋子/筹码与准确数值同源；显示可用、锁定和总量；锁定/释放有清晰状态反馈与失败原因",
       "deliver": "敌我状态组件及标记操作",
       "accept": "视觉数量近似不替代精确值；支付/上限/锁定一致；不能对同份标记重复支付",
-      "evidence": "第13/14拍与锁定夹具截图、账目对照",
+      "evidence": "第13/14拍与锁定夹具截图、账目对照；对应文字→HTML→美术→真实实现的产物与复核记录",
       "sources": [
         "example",
-        "questions"
+        "questions",
+        "physical"
       ]
     },
     {
@@ -456,10 +463,11 @@
       "work": "提供已知翻开表、揭示后的真实到期与目标；区分即将到来和已结算；从牌或敌棋子可追溯当前威胁",
       "deliver": "敌情详情及指向反馈",
       "accept": "未揭示字段无泄漏；提示不覆盖同刻牌；第13拍打断目标与逻辑一致",
-      "evidence": "揭示前后截图、输入/目标检查",
+      "evidence": "揭示前后截图、输入/目标检查；对应文字→HTML→美术→真实实现的产物与复核记录",
       "sources": [
         "semantic",
-        "example"
+        "example",
+        "physical"
       ]
     },
     {
@@ -475,15 +483,16 @@
         "DQ-19",
         "DQ-20"
       ],
-      "title": "统一悬停、点选、详情和失败提示",
+      "title": "统一物件焦点、暂停图形近观与失败说明",
       "baseline": "原型详情可读但操作体验未验",
-      "work": "明确短提示与锁定详情；处理长文、屏幕边缘、多对象重叠、不可操作原因和指针离开；提示内容沿当前规则",
-      "deliver": "统一详情与提示组件",
-      "accept": "提示不闪烁/越界；不能从背后误点；只靠键盘可打开和关闭；失败有原因和下一步",
-      "evidence": "边角/长文/叠层录屏、键盘检查",
+      "work": "悬停只给静态轮廓/形状，不弹文字框；点击/Enter请求合法暂停后静态进入对应图形页，关闭仍停。处理长文、边角、重叠对象和失败原因",
+      "deliver": "实体焦点与图形近观组件及前三阶段对应稿",
+      "accept": "主页面无悬停文字框；暗牌信息不泄漏；页面有对应对象/状态图形；键盘可开关且不穿透误操作",
+      "evidence": "边角/长文/叠层录屏、键盘检查；对应文字→HTML→美术→真实实现的产物与复核记录",
       "sources": [
         "questions",
-        "standard"
+        "standard",
+        "physical"
       ]
     },
     {
@@ -500,13 +509,14 @@
       ],
       "title": "完成零材料抽屉的空状态",
       "baseline": "当前只有开合，尚无库存逻辑",
-      "work": "按首批零材料场景制作内开抽屉、空态文案和关闭反馈；不填假资源；资源交互扩展留后续",
+      "work": "真实把手或D打开资源抽屉，按合法暂停边界静态向桌内展开与关闭；呈现零材料空态，不填假资源；资源扩展留后续",
       "deliver": "正式空态与开合控件",
       "accept": "三格不显示为容量上限；无可拖拽假物品；开合不遮住关键操作或穿桌",
-      "evidence": "两档开合录屏及焦点检查",
+      "evidence": "两档开合录屏及焦点检查；对应文字→HTML→美术→真实实现的产物与复核记录",
       "sources": [
         "assets",
-        "example"
+        "example",
+        "physical"
       ]
     },
     {
@@ -522,14 +532,15 @@
         "DQ-16"
       ],
       "title": "完成暂停、继续、单步与输入反馈",
-      "baseline": "已有P/空格，但正式合同未定",
-      "work": "按合同接入播放状态、速度、待受理命令提示；防止重复激活与焦点冲突；恢复后状态明确",
-      "deliver": "播放控件及输入反馈",
+      "baseline": "播放规则和旧键鼠已实现；新实体入口尚未制作",
+      "work": "通过桌沿真实3D物件承载播放、单步、速度和受理反馈；P/Space等激活等价功能，最上页面/字段优先；不以二维快捷按钮条保留主入口",
+      "deliver": "实体播放物件、状态图形及四阶段产物",
       "accept": "连点/长按不重复付款或推进；输入被延后时可见；暂停与动画状态不相互误导",
-      "evidence": "快速输入、切焦点、恢复后的录屏",
+      "evidence": "快速输入、切焦点、恢复后的录屏；对应文字→HTML→美术→真实实现的产物与复核记录",
       "sources": [
         "questions",
-        "report"
+        "report",
+        "physical"
       ]
     },
     {
@@ -555,10 +566,11 @@
       "work": "在1080p/768p及窗口缩放下检查安全区、文字、焦点顺序、命中区；低宽减少刻列按合同处理；丢焦/Alt-Tab反馈一致",
       "deliver": "适配清单及可操作版本",
       "accept": "核心任务全程不用调试快捷键；Tab不掉入隐藏UI；缩放不导致误点；非颜色线索保留",
-      "evidence": "两档真人输入录像、焦点与文字检查表",
+      "evidence": "两档真人输入录像、焦点与文字检查表；对应文字→HTML→美术→真实实现的产物与复核记录",
       "sources": [
         "standard",
-        "report"
+        "report",
+        "physical"
       ]
     },
     {
@@ -575,13 +587,14 @@
       ],
       "title": "定义事件到演出的对应关系",
       "baseline": "规则已有事件账目，源资产0段动画",
-      "work": "逐项映射开工/完成/入行/翻开/生效/支付/受击/中断/终局；声明并行或串行、可快进、暂停/重载清理及减动效方案",
-      "deliver": "演出矩阵与时长样板",
+      "work": "按CORE-060—063映射产牌/入行/r揭示/T生效/支付/目标结果/中断/离场与终局。为每项先形成文字、HTML、美术方案，核对事件身份及公开信息；暂停清理立即静态归位，单步/载入不补演",
+      "deliver": "物件—操作—信息—事件矩阵及逐交互四阶段依据",
       "accept": "动画不决定规则时点；同列不演成同时结算；无动画回调再次支付；节奏参数标为表现参数",
-      "evidence": "事件—镜头/动作/音效表及样板录屏",
+      "evidence": "事件—镜头/动作/音效表及样板录屏；对应文字→HTML→美术→真实实现的产物与复核记录",
       "sources": [
         "example",
-        "semantic"
+        "semantic",
+        "physical"
       ]
     },
     {
@@ -601,10 +614,11 @@
       "work": "轻待机、加工进度、完成输出和打断停顿分别制作；只活动对象有加工；选中反馈与加工状态可叠加",
       "deliver": "两法器动作集",
       "accept": "动作不遮卡；中断后正确复位；批次切换不跳变；暂停/减动效仍可辨生产状态",
-      "evidence": "正常/满容量/中断/恢复录屏",
+      "evidence": "正常/满容量/中断/恢复录屏；对应文字→HTML→美术→真实实现的产物与复核记录",
       "sources": [
         "example",
-        "assets"
+        "assets",
+        "physical"
       ]
     },
     {
@@ -620,14 +634,15 @@
         "DQ-25"
       ],
       "title": "制作卡牌生成、入列、翻面与离场",
-      "baseline": "卡牌为静态占位",
-      "work": "从真实完成事件生成卡；平滑到达刻位；翻开、揭示、结算与历史状态各有轨迹；处理多牌同拍和窗口外事件",
+      "baseline": "旧卡图/HUD动作非真实3D卡链",
+      "work": "从已结清完工事实产生真实有厚度的3D牌，入列、合法揭示/使用、目标反馈及离场；玩家已知牌不重新揭密，敌r与T分开；暂停立即取消运动，历史保持静态",
       "deliver": "完整卡牌动作链",
-      "accept": "没有预留幽灵牌；移动中可追踪实体；反复入列不重叠穿插；动作后坐标与窗口一致",
-      "evidence": "慢速与正常速、多牌/跨窗口录屏",
+      "accept": "空间位置/命中/稳定身份同源；无预留幽灵牌、暗牌泄漏或动画回调重复支付；复合牌最后一步才离队；两档及跨窗口停点真实",
+      "evidence": "慢速与正常速、多牌/跨窗口录屏；对应文字→HTML→美术→真实实现的产物与复核记录",
       "sources": [
         "semantic",
-        "example"
+        "example",
+        "physical"
       ]
     },
     {
@@ -644,13 +659,14 @@
       ],
       "title": "制作棋子、筹码与抽屉动作",
       "baseline": "静态模型已有，动作未制作",
-      "work": "实现选择、轻受击、护甲响应、筹码增减/锁定与抽屉缓动；统一重量、阻尼和落桌反馈",
+      "work": "按合同制作棋子受击/护甲、筹码增减/锁定反馈；暂停静态真实末态，抽屉按暂停边界静态切换而非暂停缓动；精确读数与对应宿主同源",
       "deliver": "可复用桌面动作组件",
       "accept": "筹码不会暗示错误精确数量；抽屉连点不穿模；受击不会遮挡敌情；所有动作可复位",
-      "evidence": "动作合集、连点/暂停/恢复检查",
+      "evidence": "动作合集、连点/暂停/恢复检查；对应文字→HTML→美术→真实实现的产物与复核记录",
       "sources": [
         "assets",
-        "example"
+        "example",
+        "physical"
       ]
     },
     {
@@ -673,10 +689,11 @@
       "work": "为三行动制作可辨轨迹、命中点与短暂残留；护盾先建立、攻击到正确目标、集中兑现有更强但受控的表现",
       "deliver": "三种核心效果及材质资源",
       "accept": "命中目标正确；护盾4/攻击6/兑现18等显示来自内容；强效果不淹没下一威胁；支付不足回退仍表现普通攻击",
-      "evidence": "第13/14拍及不足支付对照录像",
+      "evidence": "第13/14拍及不足支付对照录像；对应文字→HTML→美术→真实实现的产物与复核记录",
       "sources": [
         "example",
-        "assets"
+        "assets",
+        "physical"
       ]
     },
     {
@@ -697,10 +714,11 @@
       "work": "为打断取消、等待空位、标记被锁和支付不足建立区别；失败用文字/形状/轻反馈组合；不增加惩罚规则",
       "deliver": "异常反馈状态包",
       "accept": "第13拍中断回收时点正确；失败不播放成功兑现；所有异常可追溯原因；不凭颜色区分",
-      "evidence": "失败夹具、事件账目与录像对应",
+      "evidence": "失败夹具、事件账目与录像对应；对应文字→HTML→美术→真实实现的产物与复核记录",
       "sources": [
         "example",
-        "questions"
+        "questions",
+        "physical"
       ]
     },
     {
@@ -715,14 +733,15 @@
         "DQ-25"
       ],
       "title": "补齐交互与战斗音效、环境底声",
-      "baseline": "当前包没有已登记运行音频",
-      "work": "制作/取得可用音频：选中/确认/开合/入牌/翻面/护盾/命中/兑现/打断/胜败；环境或短音乐循环统一音量，限制同拍叠声",
+      "baseline": "已有固定字体/程序合成声音样板，音色与正式品质未验",
+      "work": "沿CORE-061及第04轮解释制作并登记选中/确认/开合/入牌/非暂停新揭示/护盾/命中/兑现/打断与环境声；胜败资源可以预备，但本场终局静态且无可听战斗触发，不能冒称已启用",
       "deliver": "音频资源、来源及事件映射",
       "accept": "静音仍能读全信息；密集事件不削波；无丢失循环接缝或重复触发；退出/暂停声音规则明确",
-      "evidence": "音频清单、无声/正常录屏、叠声测试",
+      "evidence": "音频清单、无声/正常录屏、叠声测试；对应文字→HTML→美术→真实实现的产物与复核记录",
       "sources": [
         "assets",
-        "standard"
+        "standard",
+        "physical"
       ]
     },
     {
@@ -743,13 +762,14 @@
       ],
       "title": "联调节奏、快进、暂停与恢复",
       "baseline": "各动作集尚未实现",
-      "work": "按0—14拍和密集事件联调；优先保证先后关系与可读性；快进压缩表现但保留结算；载入/重置清理残留",
-      "deliver": "完整演出版本与节奏结论",
+      "work": "按EX-002完整胜败链及原EX-001回归联调真实3D表现；0.5×/1×/2×规则结果一致；暂停、单步、载入立即静态末态且不补旧音画，回看保位、暗牌字段和实体拾取均核对",
+      "deliver": "对应前三阶段的真实3D演出版本、未完成项与实际证据",
       "accept": "正常/快速/减动效末态相同；无残留牌/音效/粒子；第13拍防护→打断→记次可识别；界面不长时间失去响应",
-      "evidence": "三模式事件对照、完整过程录像",
+      "evidence": "三模式事件对照、完整过程录像；对应文字→HTML→美术→真实实现的产物与复核记录",
       "sources": [
         "example",
-        "report"
+        "report",
+        "physical"
       ]
     },
     {
@@ -1379,6 +1399,10 @@
     "save": [
       "交互与保存合同",
       "../design/common/interaction-save/rules.md"
+    ],
+    "physical": [
+      "桌面3D合同与四阶段",
+      "../design/common/interaction-save/rules.md#首场桌面3d主交互合同core-063"
     ]
   }
 }</script>

@@ -196,6 +196,8 @@ Include：原案R1／R2首场操作完整条件，R3独立完整单战配置、�
 
 [性能预算冻结职责](../sources/inbox/2026-10-12-development-design-round-06.md)为Derived clarification，限定开发标准、计划、DQ-12／44／45及原技术ADR。确认开工预算由工程负责人按既有授权设定冻结，不需新增用户玩法选择；没有R8或新用户答复，不生成M／E／D采纳链，也不改变CORE／GDD／案例。总控已记录本批技术方法后恢复开发；性能、视觉损失和最终品质结果仍待实际证据。
 
-## 2026-10-12开发对接第07轮（待澄清，不写权威规则）
+## 2026-10-12开发对接第07轮（CORE-063）
 
-[桌面3D主交互原案](../sources/inbox/2026-10-12-development-design-round-07.md)保留用户明确方向及可评审流程，直接userMessage 01a12f52-8c23-7161-a12f-f98cea96a554已由总控核实。R8/R9尚待直接答复，具体合同为Raw / Unqualified；没有新M/E/D或CORE/GDD修改。旧源码/截图仅作为实现偏差证据，不能反向证明交互采纳。总控暂停新开发、集成、构建/测试，由专门设计对接完成一轮；正式资格及恢复另记。
+总控直接读取方向userMessage `01a12f52-8c23-7161-a12f-f98cea96a554`、R8／R9答复`01a12f60-c246-7581-84dd-c7ece4a242e4`，核实R8按推荐、R9按用户自由修正；经[Qualified M](../sources/materials/M-2026-10-12-development-design-round-07.md)→[限定E](../sources/evaluations/E-2026-10-12-development-design-round-07.md)→[采纳D](../sources/draft-changes/D-2026-10-12-development-design-round-07.md)集成。Include真实3D主页面入口、自动真实卡片表现、近观与系统图形页；Omit逐牌手动推进、主页面二维快捷入口／悬停文字框及纯文字UI。原案物件形制、排版与具体制作参数不作为用户逐项采纳。
+
+七项资格齐备；定向复核交互、摘要、第07轮及开发范围，未全量复审其他来源。核心v0.21／GDD2.6仍GDD-0，CORE-060—062、TL身份与案例数值不变，新3D运行与体验NotRun。每项四阶段要求依据用户`01a12f65-1b8e-7192-97ed-eb246bc10f65`登记DOC-025；规则闭合不表示前三阶段或真实实现完成。
