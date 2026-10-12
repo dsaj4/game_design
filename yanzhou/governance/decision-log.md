@@ -571,3 +571,7 @@ CORE-060／核心v0.18／GDD2.3仍GDD-0，不增加TL身份，不升级实现或
 Accepted / battle-presentation.1。用户在专门设计对接直接选择R4—R6全部推荐，总控核实userMessage `01a12e7c-27db-7fb0-b624-ba794708eb8a`。来源及Qualified／E／D见[采纳记录](../sources/draft-changes/D-2026-10-12-development-design-round-03.md)。合法暂停停点取消未完瞬态并归位，单步立即到下一观察配有序静态摘要；载入不重播旧音画，暂停截停战斗声且不续播、暂停环境循环，明确继续恢复环境，允许新UI声，退出清场。
 
 核心v0.19／CORE-SUM-14、GDD2.4仍GDD-0；CORE-060、EX-001／002规则参数不变，其他替代未采用。总控完成权威集成后恢复第五批；音画运行、听感与真人可读性NotRun，新设计冲突仍按DOC-024处理。
+
+### CORE-061第04轮限定解释（2026-10-12）
+
+[第04轮来源核对](../sources/inbox/2026-10-12-development-design-round-04.md)为Derived clarification，不新增CORE身份或用户选择。新观察清上一拍滞后，未暂停的新揭示可给一次非阻塞提示；自动暂停、单步和新终局没有战斗音画例外，旧局不重播，不能用UI命名规避。音效资源清单不覆盖Accepted暂停政策，胜败音资源本场未启用。总控复核并同步现行交互规则后恢复第五批，无需重问R4—R6。

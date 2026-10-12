@@ -1,8 +1,8 @@
 # 言咒实现与资产索引
 
-> 当前阶段：2026-10-12 Godot第四批源码集成通过，完整战斗、事件恢复、播放及界面入口已接入；固定源码9346dc6f572945c565f9501588f4f98697eaab1f。唯一工程为[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)，设计CORE-060／061及EX-002、视觉Blender v02。原DM-G002-011@GODOT-EX001-0.2包只读保留，新包未导出；正式音画、字体随包与真人体验未完成。
+> 当前阶段：2026-10-12 第五批源码技术集成通过；固定源码7a5b55daadfe0ffdf4ff81cb209d7beec43d7759。完整单战／恢复／播放／界面、固定字体、事件摘要及基础音画设置已接入，唯一工程为[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)。设计CORE-060／061及EX-002，视觉Blender v02；旧0.1／0.2包保留，新Windows包未导出，正式音画质量与真人体验未完成。
 
-> 当前调度（2026-10-12）：**R4—R6已直接确认并集成CORE-061，第五批恢复字体与表现开发**。总控完成来源复审与静态合同核对，新设计取舍仍按[DOC-024](development-standard.md#8-设计裁决闸门)暂停，[唯一问题登记](../governance/questions.md#presentation-round03)。第四批310项主工程、两档各32项真实键鼠与8次Godot运行（含完整胜败、跨进程恢复）通过，[第四批报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-04-integration.md)；它们不是正式音画／完整117项验收。
+> 当前调度（2026-10-12）：**第04轮依据现行规则闭合，第五批后续开发与打包恢复**。非暂停新揭示可提示，暂停／单步／新终局静态静默；新取舍仍按[DOC-024](development-standard.md#8-设计裁决闸门)处理，[唯一问题登记](../governance/questions.md#presentation-round04)。340项主工程、两档各32项键鼠＋22项音画检查、10次Godot运行与跨进程恢复通过；[第五批报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-05-integration.md)、[固定证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-05-evidence.json)。
 
 ## 当前开发入口
 
@@ -35,7 +35,7 @@
 
 ## Demo与素材登记（DA-1 / 2026-10-01）
 
-2026-10-12字体来源保全：[AS-G002-011@FONT-ASSETS-01](../../docs/registry/demo-assets.md#as-g002-011)，Noto简体中文＋缺字符号回退，Catalogued / PresentLocal。官方版本／许可及暂停前字符表检查已留证，恢复脚本、Godot接入、双档渲染及随包未实施；不计入当前运行依赖，不解除第五批暂停。
+2026-10-12第五批素材接入：[AS-G002-011@FONT-ASSETS-01](../../docs/registry/demo-assets.md#as-g002-011)固定Noto中文／符号已恢复并在两档Godot源码运行中使用，包导出／许可随包仍待验；新增[AS-G002-012@SYNTH-AUDIO-01](../../docs/registry/demo-assets.md#as-g002-012)为原创程序合成声音技术样板，声学质量未验，揭示／胜败边界已由第04轮解释，胜败音资源本场无可听运行触发。两者由固定源码7a5b55d使用，不升级完整成品状态。
 
 2026-10-11新增[AS-G002-008 战斗效果图 v01](../visual/battle-ui-2026-10-11/art-v01.md)：基于HTML v10结构的独立生成概念图，已目视核对构图及检查图像文件；用户已选为效果示意图初版。同日交付[AS-G002-009 组件隔离设计 v01](../visual/battle-ui-2026-10-11/components-v01/README.md)，含18张透明组件及1张环境图；已检查图像与透明通道并核对本机总览显示。无运行实现或3D工程。HTML v10原件未改，玩法验证状态不变。
 
