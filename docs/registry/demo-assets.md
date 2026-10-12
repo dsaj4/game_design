@@ -21,6 +21,7 @@
 - 来源／复用：本轮原创代码与占位卡面；uses: AS-G002-010@BATTLE-3D-02（实际复制导入原GLB）；derived-from: None（新工程，不复用旧Demo代码）。暂时放宽器具的Blender／GLB副本只是本Demo故障／重导入夹具，未成为新正式资产，交付包已恢复源版本。
 - 工具／资产条件：Godot与.NET许可随包提供；调用系统中文字体，不打包字体文件。源模型沿AS-G002-010内部改作授权，公开分发权Unknown；原资产原件就地保留，未上传二进制、第三方缓存或原始美术。
 - 设计边界：原型操作不补TL-Q08决定，示例数值不扩为默认；仅拍末保存，无中间步骤恢复。完整实现范围及保留差异以代码报告为准。
+- 2026-10-11后续版本：**GODOT-EX001-0.2**，固定运行代码`c81fec17a39249dc733405ef842881d3bbb44c3f`；[新包](E:/Project/yanzhou-godot/build/development-batch-02/windows/Yanzhou.exe)、[193项包指纹](E:/Project/yanzhou-godot/evidence/development-batch-02/build/package-manifest.json)、[集成报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-11-batch-02-integration.md)、[四状态对照板](E:/Project/yanzhou-godot/evidence/development-batch-02/captures/index.html)。内容完整性／真实反馈／故障输入保护／参数化恢复的局部续作，仍EX-001；主工程133项、两档各13项输入、跨进程拍末恢复和10张原生尺寸截图通过。原0.1包、原证据和453文件保全未变；ReadyForScope仅限本批技术范围。CORE-060正式交互、EX-002完整单战、正式美术及独立人员接手仍未验收，不等于117项全通过。uses仍为AS-G002-010@BATTLE-3D-02，无资产改版、无新DM或公开发布。
 
 ### <a id="dm-g002-004"></a>DM-G002-004 炼咒试验台（2026-10-02新增）
 
@@ -99,6 +100,7 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 - derived-from（视觉改作）：AS-G002-008@BATTLE-UI-ART-01、AS-G002-009@BATTLE-COMPONENTS-01；uses：DM-G002-010@BATTLE-UI-HTML-10（构图），AS-G002-009的11–14卡面PNG（直接纹理）。其余物件效果图仅参照，模型/程序材质本轮自制。程序纹理与体积雾在GLB中简化，未宣称等效材质或目标引擎通过。
 - 用户授权真实建模与本项目评审改作；上游对外分发许可 Unknown。二进制和制作脚本就地保管，未公开上传；登记不等于美术采纳、战斗实现或玩法验证。
 - 2026-10-11复用：DM-G002-011@GODOT-EX001-0.1实际复制BATTLE-3D-02 GLB到Godot工程；源SHA-256与原件一致。临时组件变体只用于重导入夹具，交付包恢复源版本；[代码与实际范围](E:/Project/yanzhou-godot/evidence/verification.md)。此复用不升级原美术采纳或公开分发条件。
+- 同日0.2续作沿用相同GLB字节，新增[固定依赖清单](E:/Project/yanzhou-godot/docs/coordination/runtime-assets-v01.json)与[参数化恢复检查](E:/Project/yanzhou-godot/docs/reviews/2026-10-11-runtime-assets.md)，两种PowerShell环境各22项通过；新目录恢复副本仅为运行依赖／技术夹具，源原件和资产版本不变。中文字体、正式卡面、音频／动画与实时材质仍有缺口，权利条件沿原登记。
 
 ### <a id="as-g002-009"></a>AS-G002-009 战斗组件隔离设计 v01（2026-10-11新增）
 

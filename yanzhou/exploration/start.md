@@ -36,7 +36,7 @@ Project ID：game-002-optimization。文档角色：ExplorationReadingContract�
 | 模式 | 游戏背景范围 | 适合做什么 | 默认不包含 |
 | --- | --- | --- | --- |
 | CORE／核心设计 | 仅`yanzhou/design/core-design.md` | 理解循环、系统关系、核心取舍，提出方向构思 | GDD全文、逐卡参数、主系统来源、历史、其他方向 |
-| GDD／完整GDD | 下表列出的55份GDD包文件 | 对照现行细则、卡牌、资源、遭遇和交互提出具体增量 | GDD链接到的原始素材、历史、FX目录、开发与视觉材料、其他方向 |
+| GDD／完整GDD | 下表列出的56份GDD包文件 | 对照现行细则、卡牌、资源、遭遇和交互提出具体增量 | GDD链接到的原始素材、历史、FX目录、开发与视觉材料、其他方向 |
 | FULL／全量文档／全量主系统文档 | `yanzhou/`根README与CONTEXT，以及`design/`、`sources/`、`effects/`、`governance/`、`development/`、`visual/`下全部已登记文本材料；以后新增主系统资料目录须先登记 | 同时核对现行设计、形成原因、候选来源、证据与表现约束 | `history/`、`exploration/`其他方向、外部代码仓库、共享资料库、独立肉鸽、旧游戏、联网获取 |
 | CUSTOM／自选材料 | 用户明确列出的文件、章节、目录或已提供材料；不隐含CORE或GDD | 控制变量、只讨论某系统、指定研究材料 | 未列出的全部游戏材料 |
 | NONE／空白背景 | 仅本轮用户原话；续作仍能使用所选方向明确保留的自身记录 | 不借用言咒规则提出独立构思；纯空白须使用新方向 | 任何游戏文档；不得声称与现行基线兼容 |
@@ -45,7 +45,7 @@ FULL中的“全量”是**全量主系统文本材料**，不是仓库所有文
 
 ### GDD包固定文件清单
 
-GDD不是只读主页后就算全读，也不是递归打开所有链接。当前包共55份；已采纳规则、Qualified 框架、说明性示例与未开发占位分别读取，不因纳入阅读包提高状态：
+GDD不是只读主页后就算全读，也不是递归打开所有链接。当前包共56份；已采纳规则、Qualified 框架、说明性示例与未开发占位分别读取，不因纳入阅读包提高状态：
 
 | 范围 | 路径 |
 | --- | --- |
@@ -54,7 +54,7 @@ GDD不是只读主页后就算全读，也不是递归打开所有链接。当�
 | 两个子系统（8份） | `yanzhou/design/systems/inscription-system/augment-system/` 与 `yanzhou/design/systems/action-card-system/mark-system/` 各自的 `rules.md`、`experience.md`、`design.md`、`examples.md`；辅槽与标记为局部 Qualified 框架，状态不随纳入阅读包改变 |
 | 公共流程／合同（12份） | `yanzhou/design/common/` 下 `run-route/`、`run-economy/`、`interaction-save/` 各自的 `rules.md`、`experience.md`、`design.md`、`examples.md` |
 | 内容 | `yanzhou/design/content/cards.md`、`yanzhou/design/content/wands.md`、`yanzhou/design/content/enemies-encounters.md` |
-| 跨系统案例（2份） | `yanzhou/design/examples/README.md`、`yanzhou/design/examples/simple-spell.md` |
+| 跨系统案例（3份） | `yanzhou/design/examples/README.md`、`yanzhou/design/examples/simple-spell.md`、`yanzhou/design/examples/complete-battle.md` |
 | 参数、验收与来源审查 | `yanzhou/design/parameters.md`、`yanzhou/design/validation.md`、`yanzhou/design/source-review.md` |
 
 文件改名或GDD包新增正文时同步此表。系统 README 与 systems/README.md 是导航，读取它们不替代四类正文；以后新增目录不自动进入本包。`core-design.md`、`core-concept.md`和`legacy-index.md`不是补读GDD包的必要材料；包内链接到的sources、CONTEXT、历史及代码进度都不自动加载。只读GDD主页或只读某分册时记CUSTOM，不能报告“完整GDD已读”。

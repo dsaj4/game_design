@@ -1,8 +1,8 @@
 # 言咒实现与资产索引
 
-> 当前阶段：2026-10-11 Godot首版工程接入。用户明确选定Godot，停止Unity对比；唯一工程为[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)。旧运行底座仍CORE-059／EX-001；下一批设计输入已为GDD2.3／CORE-060／EX-002，视觉沿Blender v02。已有局部结算、3D、Windows包和拍末恢复证据；新合同、完整战斗与真人体验尚未验收。
+> 当前阶段：2026-10-11 Godot第二批工程集成，DM-G002-011@GODOT-EX001-0.2。用户明确选定Godot；唯一工程为[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)。运行仍CORE-059／EX-001，设计目标为GDD2.3／CORE-060／EX-002，视觉沿Blender v02。已加强内容完整性、实际反馈、输入保护、资源恢复并补齐四状态双分辨率取证；正式交互合同、完整战斗与真人体验尚未验收。
 
-> 当前调度：**本批裁决与集成复核完成，设计暂停已解除**。专门“言咒设计对接”交回R1—R3，用户全部按推荐，CORE-060已集成；总控按[DOC-024](development-standard.md#8-设计裁决闸门)核查后允许恢复既定开发，下一批尚未派发。见[问题与答复](../governance/questions.md)及[总控记录](reports/demo-control-2026-10-11.md)，本轮无待用户回答项。
+> 当前调度：**设计暂停解除后的第二批开发与总控验收已完成**。A／B两席已交回，当前无在途开发任务。本批未出现新设计裁决；R1—R3不重复确认，后续遇真正设计取舍继续按[DOC-024](development-standard.md#8-设计裁决闸门)暂停整批并交专门“言咒设计对接”。见[本批实际报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-11-batch-02-integration.md)与[总控记录](reports/demo-control-2026-10-11.md)，本轮无待用户回答项。
 
 ## 当前开发入口
 
@@ -13,6 +13,7 @@
 | 开发总控、并行分工与首版保全 | [2026-10-11 总控首轮](reports/demo-control-2026-10-11.md) · [实现仓库当前调度](E:/Project/yanzhou-godot/README.md) |
 | 类似游戏使用的引擎与选型依据 | [2026-10-11引擎调研](reports/similar-game-engine-research-2026-10-11.md) |
 | Godot首版、实际检查与边界 | [本轮交付](reports/godot-start-2026-10-11.md) · [代码／构建入口](E:/Project/yanzhou-godot/README.md) |
+| Godot第二批工程集成与新证据 | [GODOT-EX001-0.2报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-11-batch-02-integration.md) · [新Windows包](E:/Project/yanzhou-godot/build/development-batch-02/windows/Yanzhou.exe) · [四状态对照板](E:/Project/yanzhou-godot/evidence/development-batch-02/captures/index.html) |
 | 工作方式、质量与交付要求 | [开发规范](development-standard.md) |
 | 当前资产、接入差异及核验 | [开发输入与资产](asset-readiness.md) |
 | 玩法与首批内容 | [主系统](../design/README.md) · [EX-001原回归](../design/examples/simple-spell.md) · [EX-002完整单战](../design/examples/complete-battle.md) |
