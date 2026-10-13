@@ -7,8 +7,28 @@
 <main><div class="topline"><span>DEVELOPMENT PLAN / 成品质量任务分解</span><span class="edition">基础逻辑之后 · 52 项必做 + 4 项后续</span></div><h1>把牌桌，做成<span>完整的体验。</span></h1><p class="lead">以当前 Godot 首版为起点，把画面、资产、物体动作、正式 UI、音效与完整战斗接成一个可交付 Demo。每项都写明制作内容、依赖、产物和验收证据，供开发 agent 逐项接手。</p>
 <div class="stats" id="stats" aria-live="polite"></div>
 <details class="scope"><summary>2026-10-11初始规划与使用说明（当前状态见下方重做记录）</summary><div class="scope-body"><div class="scope-grid"><div><h3>本次交付：成品质量的一场战斗</h3><p>最小开始页 → 首批配置说明／短引导 → 完整战斗 → 胜败结果 → 重试／返回；包含设置、继续游戏、正式音画、异常反馈和独立 Windows 包。使用既定牌桌构图与首批内容。</p><p>路线、商店、战前装配、新流派、多平台列为后续。完整遭遇必要参数仍需沿原设计流程确定，不把 EX-001 十四拍序列冒充完整战斗。</p><h3>任务表怎样使用</h3><p>先打开 DQ-01／05／06，再按前置任务推进。S/M/L 为相对规模：单一交付、跨组件、多环节联调；不是工期承诺。负责人是建议职责，同一人或 agent 可兼任。</p></div><div><h3>已交付的底座</h3><p>DM-G002-011 / GODOT-EX001-0.1，代码 <code>e71dcb78e813</code>；设计输入 <code>5c542e12c53a</code>。已报告28项规则检查、两档各12项输入检查、独立包和拍末跨进程恢复。</p><p>现有画面已导入主场景，但材质仍有差距，卡面占位，右侧与底部检查 UI 遮挡道具。完整单战、正式交互合同、物件动作、音频与真人体验还未完成。</p><h3>状态有明确含义</h3><p>本表是新增交付任务，因此初始均为“待开始”；每项保留已有底座说明。“已验收”必须填写证据，但本地打勾不等于设计采纳或仓库阶段通过。待决只引用原 questions，具体技术任务与 Bug 留代码仓库。</p></div></div><div class="source-note">依据：<a href="reports/godot-start-2026-10-11.md">Godot 首版报告</a> · <a href="file:///E:/Project/yanzhou-godot/evidence/verification.md">实现验证原文（本机）</a> · <a href="file:///E:/Project/yanzhou-godot/evidence/package-first-1080/benchmark-1920.png">当前真实截图（本机）</a> · <a href="asset-readiness.md">资产版本与差异</a> · <a href="../governance/questions.md">唯一设计问题登记处</a><br>本轮只制作开发任务文档；未运行游戏或玩法实验，未改玩法/案例/源资产。建议的性能预算和试玩人数须在相应任务开始时确认。技术测量不代替真人体验验证。外部本机链接需在同一电脑打开。</div></div></details>
-<div class="next"><strong>推荐推进顺序</strong><p><a href="#DQ-01" data-jump="DQ-01">范围与合同</a> → <a href="#DQ-14" data-jump="DQ-14">一张最终品质引擎样板</a> → <a href="#DQ-24" data-jump="DQ-24">可操作正式 UI</a> → <a href="#DQ-40" data-jump="DQ-40">完整音画单战</a> → <a href="#DQ-50" data-jump="DQ-50">最终包验收</a>。美术样板与完整单战内容可在各自前置满足后并行；先把代表性物件做完整，再推广到全流程。</p></div>
-<section class="scope" id="physical-table-stages"><div class="scope-body"><h2>当前交互重做 · 2026.10.12</h2><p>R8／R9已正式集成 <a href="../design/common/interaction-save/rules.md#首场桌面3d主交互合同core-063">CORE-063</a>；每项按 <a href="development-standard.md#9-每项重点交互的四阶段制作">DOC-025</a> 依次完成文字、HTML、美术示意、真实实现。下表是仓库制作状态；浏览器本地旧勾选不代表新3D任务完成。</p><div class="table-wrap"><table aria-label="重点交互四阶段"><thead><tr><th>重点交互 / 原DQ</th><th>文字结构</th><th>HTML示意</th><th>美术示意</th><th>真实实现 / 依赖</th></tr></thead><tbody><tr><td>产牌→真实卡入列→揭示/使用→目标→离场/近观 · DQ-17/18/20/21/25—30</td><td><a href="../visual/physical-table-2026-10-12/card-flow-html-v05.md">v05替代两段动作，其他结构沿原稿</a></td><td><a href="../visual/physical-table-2026-10-12/card-flow-v05.html">HTML v05已制作</a> · <a href="../visual/physical-table-2026-10-12/card-flow-html-verification-v05.md">限定交互检查，浏览器待验</a>；<a href="../visual/physical-table-2026-10-12/card-flow-html-verification-v01.md">v01原检查保留</a></td><td><a href="../visual/physical-table-2026-10-12/art-v02/index.html">v02动作修订候选</a>：原位浮现／同步发光；敌牌揭示等待补</td><td>未开始；依赖前三阶段复核</td></tr><tr><td>用途与数量编辑 · DQ-18/19/21</td><td><a href="../visual/physical-table-2026-10-12/card-flow-html-v03.md">消费锁直接筹码操作增补</a>；用途待做</td><td>v03消费锁独立示意；未接真实战斗</td><td>未开始</td><td>依赖法器/标记图形入口</td></tr><tr><td>生命/护甲/标记读数 · DQ-19/28</td><td><a href="../visual/physical-table-2026-10-12/card-flow-html-v03.md">正负筹码分侧与标记读数增补</a></td><td>v04补齐双方棋子悬浮近观；v03筹码／消费锁沿用，浏览器待验</td><td><a href="../visual/physical-table-2026-10-12/art-v01/02-floating-closeups.png">v01棋子近观候选</a>；消费锁双堆待补</td><td>依赖准确投影与图形信息</td></tr><tr><td>播放/单步/倍速 · DQ-23/24/32</td><td>具体稿待做</td><td>未开始</td><td>未开始</td><td>依赖实体控制与原播放合同</td></tr><tr><td>回看/归位/历史 · DQ-16/21/24</td><td>具体稿待做</td><td>未开始</td><td>未开始</td><td>依赖刻位、保位与静态记录</td></tr><tr><td>抽屉 · DQ-22/28</td><td><a href="../visual/physical-table-2026-10-12/card-flow-html-v03.md">空抽屉悬浮增补</a></td><td>v03空态已制作；非空库存未含</td><td><a href="../visual/physical-table-2026-10-12/art-v01/02-floating-closeups.png">v01空态候选</a>；非空未含</td><td>合法暂停后静态开合</td></tr><tr><td>开始/设置/保存错误/结果等系统页 · DQ-15/35—39</td><td>逐页具体稿待做</td><td>未开始</td><td>未开始</td><td>每页独立图形，主页面入口实体化</td></tr></tbody></table></div><p>复用当前后端、保存与公开信息投影；旧0.4限定技术验收、0.5候选未完成和性能失败均保留。HTML仅证明结构，效果图仅证明制作意图；规则、工程、视觉一致性、用户接受和真人体验分别记录。真实实现恢复须总控写明固定输入和范围。</p></div></section>
+<div class="next"><strong>当前推进顺序</strong><p><a href="#physical-table-stages">已确认首批范围</a> → D字段对应 → A真实物件/事件 → A近观与B局部效果 → D复核与总控运行验收 → 后续卡链/系统页 → DQ-40/44/50收束。具体范围见<a href="production-plan.md#physical-table-approved-2026-10-13">2026-10-13计划</a>。</p></div>
+<section class="scope" id="physical-table-stages"><div class="scope-body">
+<h2>效果已确认 · 第八批待实施 · 2026.10.13</h2>
+<p>用户已确认ART-02守护链及沿用的ART-01总览／悬浮近观。<a href="production-plan.md#physical-table-approved-2026-10-13">当前计划与确认范围</a>固定首批闭环；<a href="development-standard.md#9-每项重点交互的四阶段制作">DOC-025</a>继续用于尚未覆盖的交互。确认效果不代表完整DQ、浏览器或Godot验收通过。</p>
+<div class="table-wrap"><table aria-label="重点交互四阶段"><thead><tr><th>重点交互 / 原DQ</th><th>文字结构</th><th>HTML示意</th><th>美术示意</th><th>真实实现 / 依赖</th></tr></thead><tbody>
+<tr><td>产牌→入列→揭示/使用→目标→离场/近观 · DQ-17/18/20/21/25—30</td><td><a href="../visual/physical-table-2026-10-12/card-flow-html-v05.md">v05两段动作修订</a>，其余沿原结构</td><td><a href="../visual/physical-table-2026-10-12/card-flow-v05.html">HTML v05</a>；<a href="../visual/physical-table-2026-10-12/card-flow-html-verification-v05.md">限定检查，浏览器未验</a></td><td><a href="../visual/physical-table-2026-10-12/art-v02/index.html">首批效果已确认</a>；原位显牌／同步局部效果，敌r揭示等后续补稿</td><td>首批待派单：A事实/物件，B表现；整链不标完成</td></tr>
+<tr><td>用途与数量编辑 · DQ-18/19/21</td><td><a href="../visual/physical-table-2026-10-12/card-flow-html-v03.md">消费锁增补</a>；未来用途待补</td><td>v03独立消费锁示意，未接真实战斗</td><td>双堆锁定／未来用途／产物态待补</td><td>D先补对应稿，后续由A/B接入</td></tr>
+<tr><td>生命/护甲/标记读数 · DQ-19/28</td><td>正向右、负面左；数量与真实台账同源</td><td>v04双方棋子悬浮近观、v03筹码操作，沿v05保留</td><td>棋子近观与筹码形制已确认；消费锁双堆仍需细化</td><td>首批接只读状态／精确字段；锁定操作另计范围</td></tr>
+<tr><td>播放/单步/倍速 · DQ-23/24/32</td><td>既有政策继续复用；全套实体控制专项待做</td><td>专项未完成</td><td>专项未完成</td><td>首批验证既有暂停边界，全套控件后续</td></tr>
+<tr><td>回看/归位/历史 · DQ-16/21/24</td><td>具体稿待补</td><td>完整专项未完成</td><td>完整专项未完成</td><td>首批不删除原能力；全套重做后续</td></tr>
+<tr><td>抽屉 · DQ-22/28</td><td><a href="../visual/physical-table-2026-10-12/card-flow-html-v03.md">空抽屉悬浮增补</a></td><td>v03空态已制作</td><td>空态无底板悬浮已确认</td><td>首批待派单，合法暂停后静态切换；不造材料</td></tr>
+<tr><td>开始/设置/保存错误/结果等系统页 · DQ-15/35—39</td><td>逐页具体稿待做</td><td>专项未完成</td><td>专项未完成</td><td>保留既有后端，各页依四阶段接续</td></tr>
+</tbody></table></div>
+<h3>本批agent分工</h3>
+<div class="table-wrap"><table aria-label="第八批agent分工"><thead><tr><th>席位</th><th>负责交付</th><th>依赖／当前状态</th></tr></thead><tbody>
+<tr><td>总控</td><td>输入与范围、共享接线、验收、两仓库索引与提交</td><td>计划已更新；下一步冻结工程对应表</td></tr>
+<tr><td>A · 实现</td><td>真实身份／公开投影、刻位／命中／键盘、无底板近观</td><td>待派单；先交对象／事实接口给B</td></tr>
+<tr><td>B · 表现</td><td>模型材质、完工闪光、原位显牌、同步局部效果、离场与取消</td><td>待派单；隔离材质可先行，接入等A接口</td></tr>
+<tr><td>D · 设计</td><td>续用physical_card_design，CF／字段对应、后续情境、实现一致性复核</td><td>本轮只读复核已完成；后续随制作接续</td></tr>
+</tbody></table></div>
+<p>总控＋A／B／D最多四席，<a href="E:/Project/yanzhou-godot/docs/coordination/2026-10-13-batch-08-plan.md">独占路径与验收</a>已列明。本轮只更新计划，未启动实现／测试；0.4限定证据、0.5未完成与性能失败保持。浏览器本地勾选不覆盖以上仓库状态。</p>
+</div></section>
 <div class="toolbar"><label class="sr" for="search">搜索任务</label><input id="search" type="search" placeholder="搜索任务、物件、验收、ID…"><label class="sr" for="area">工作领域</label><select id="area"><option value="">全部工作领域</option></select><label class="sr" for="status">状态</label><select id="status"><option value="">全部状态</option></select><label class="sr" for="scopeFilter">任务范围</label><select id="scopeFilter"><option value="all">全部任务</option><option value="required">仅成品必做</option><option value="optional">仅后续扩展</option><option value="ready">前置已满足</option></select></div>
 <div class="controls"><button class="btn" id="expandAll">展开当前结果</button><button class="btn" id="collapseAll">收起详情</button><button class="btn" id="exportCsv">导出任务 CSV</button><button class="btn" id="exportJson">备份进度 JSON</button><button class="btn" id="importJson">导入进度</button><button class="btn" id="print">打印 / 存为 PDF</button><input hidden type="file" accept=".json,application/json" id="importFile"></div>
 <div class="notice" id="storageNotice">进度只保存到当前浏览器；文件移动或换浏览器可能无法读取原进度，请导出 JSON 备份。导出含全部56项，筛选只影响浏览和打印。</div>
@@ -304,7 +324,7 @@
       "phase": 1,
       "area": "视效样板",
       "priority": "必做",
-      "owner": "美术/制作",
+      "owner": "B / D / 总控",
       "size": "M",
       "deps": [
         "DQ-08",
@@ -379,7 +399,7 @@
       "phase": 2,
       "area": "卡牌",
       "priority": "必做",
-      "owner": "UI/工程",
+      "owner": "A · 实现",
       "size": "L",
       "deps": [
         "DQ-13",
@@ -403,7 +423,7 @@
       "phase": 2,
       "area": "法器",
       "priority": "必做",
-      "owner": "交互/工程",
+      "owner": "D / A",
       "size": "M",
       "deps": [
         "DQ-03",
@@ -412,7 +432,7 @@
       ],
       "title": "完成法器选择、加工与未来用途显示",
       "baseline": "能点击代理模型，详情是原型文字",
-      "work": "显示当前批次、D进度、未来用途、容量等待/中断；切换未来用途提供即时确认；非活动摆件移除或按合同区分",
+      "work": "法器近观无底板悬浮：当前批次、D圆环、完工拍、默认材料；上划预计产物与未来用途后续补对应稿。容量等待/中断保留；改未来用途不改当前承诺；书与晶球只作布景",
       "deliver": "两护符正式控件与物件详情",
       "accept": "当前/未来同时存在时不混淆；第7拍切换不改当前批次和已入行牌；不能凭零材料增加停供操作",
       "evidence": "第7/13拍录屏、键鼠路径、状态图；对应文字→HTML→美术→真实实现的产物与复核记录",
@@ -427,7 +447,7 @@
       "phase": 2,
       "area": "数值反馈",
       "priority": "必做",
-      "owner": "UI/工程",
+      "owner": "A / B",
       "size": "M",
       "deps": [
         "DQ-03",
@@ -436,7 +456,7 @@
       ],
       "title": "完成生命、护甲与标记的精确显示",
       "baseline": "顶部一行原型数字，筹码尚未语义绑定",
-      "work": "让棋子/筹码与准确数值同源；显示可用、锁定和总量；锁定/释放有清晰状态反馈与失败原因",
+      "work": "正向筹码含生命/护盾/标记在棋子右侧，负面在左；与准确数值同源，悬停/焦点显示数量，不开筹码详情。标记可用/锁定分堆，点击沿合法消费锁；生命/护盾只读，不因锁定免伤",
       "deliver": "敌我状态组件及标记操作",
       "accept": "视觉数量近似不替代精确值；支付/上限/锁定一致；不能对同份标记重复支付",
       "evidence": "第13/14拍与锁定夹具截图、账目对照；对应文字→HTML→美术→真实实现的产物与复核记录",
@@ -475,7 +495,7 @@
       "phase": 2,
       "area": "详情提示",
       "priority": "必做",
-      "owner": "交互/UI",
+      "owner": "A / D",
       "size": "M",
       "deps": [
         "DQ-17",
@@ -485,9 +505,9 @@
       ],
       "title": "统一物件焦点、暂停图形近观与失败说明",
       "baseline": "原型详情可读但操作体验未验",
-      "work": "悬停只给静态轮廓/形状，不弹文字框；点击/Enter请求合法暂停后静态进入对应图形页，关闭仍停。处理长文、边角、重叠对象和失败原因",
+      "work": "物件悬停显示静态轮廓；筹码悬停/焦点可读精确数量。点击/Enter请求合法暂停后进入无底板图形近观，关闭仍停并回源；筹码点击沿消费锁而非详情。处理长文、边角、重叠对象和失败原因",
       "deliver": "实体焦点与图形近观组件及前三阶段对应稿",
-      "accept": "主页面无悬停文字框；暗牌信息不泄漏；页面有对应对象/状态图形；键盘可开关且不穿透误操作",
+      "accept": "主页面无旧HUD/详情框；近观无矩形底板与统计块但保留必要字段；暗牌不泄漏；键盘可开关且不穿透误操作",
       "evidence": "边角/长文/叠层录屏、键盘检查；对应文字→HTML→美术→真实实现的产物与复核记录",
       "sources": [
         "questions",
@@ -500,7 +520,7 @@
       "phase": 2,
       "area": "抽屉",
       "priority": "必做",
-      "owner": "UI/工程",
+      "owner": "A / B",
       "size": "M",
       "deps": [
         "DQ-03",
@@ -548,7 +568,7 @@
       "phase": 2,
       "area": "适配可达",
       "priority": "必做",
-      "owner": "UI/测试",
+      "owner": "总控 / D",
       "size": "M",
       "deps": [
         "DQ-15",
@@ -578,7 +598,7 @@
       "phase": 3,
       "area": "演出合同",
       "priority": "必做",
-      "owner": "交互/技术美术",
+      "owner": "D / A / 总控",
       "size": "M",
       "deps": [
         "DQ-02",
@@ -587,7 +607,7 @@
       ],
       "title": "定义事件到演出的对应关系",
       "baseline": "规则已有事件账目，源资产0段动画",
-      "work": "按CORE-060—063映射产牌/入行/r揭示/T生效/支付/目标结果/中断/离场与终局。为每项先形成文字、HTML、美术方案，核对事件身份及公开信息；暂停清理立即静态归位，单步/载入不补演",
+      "work": "按CORE-060—063映射真实事件与稳定物件身份；2026-10-13首批效果已确认：完工法器亮后原位显牌，使用牌光与真实目标局部效果同步。其余情境逐项补四阶段；暂停清理，单步/载入不补演",
       "deliver": "物件—操作—信息—事件矩阵及逐交互四阶段依据",
       "accept": "动画不决定规则时点；同列不演成同时结算；无动画回调再次支付；节奏参数标为表现参数",
       "evidence": "事件—镜头/动作/音效表及样板录屏；对应文字→HTML→美术→真实实现的产物与复核记录",
@@ -602,7 +622,7 @@
       "phase": 3,
       "area": "物体动作",
       "priority": "必做",
-      "owner": "动画/技术美术",
+      "owner": "B · 表现",
       "size": "M",
       "deps": [
         "DQ-11",
@@ -611,7 +631,7 @@
       ],
       "title": "制作法器待机、加工、完成与中断动作",
       "baseline": "无正式动作",
-      "work": "轻待机、加工进度、完成输出和打断停顿分别制作；只活动对象有加工；选中反馈与加工状态可叠加",
+      "work": "待机、加工进度、完成和打断状态分开；真实完工时法器一次局部亮光，然后目标刻位卡牌浮现。只活动对象有加工，选中反馈与生产状态区分，暂停/减动效保留静态读数",
       "deliver": "两法器动作集",
       "accept": "动作不遮卡；中断后正确复位；批次切换不跳变；暂停/减动效仍可辨生产状态",
       "evidence": "正常/满容量/中断/恢复录屏；对应文字→HTML→美术→真实实现的产物与复核记录",
@@ -626,7 +646,7 @@
       "phase": 3,
       "area": "物体动作",
       "priority": "必做",
-      "owner": "动画/工程",
+      "owner": "A / B",
       "size": "L",
       "deps": [
         "DQ-11",
@@ -635,7 +655,7 @@
       ],
       "title": "制作卡牌生成、入列、翻面与离场",
       "baseline": "旧卡图/HUD动作非真实3D卡链",
-      "work": "从已结清完工事实产生真实有厚度的3D牌，入列、合法揭示/使用、目标反馈及离场；玩家已知牌不重新揭密，敌r与T分开；暂停立即取消运动，历史保持静态",
+      "work": "已结清完工后产生有厚度的真实3D牌，在目标刻位直接浮现，不飞入。使用时牌保持原刻位亮起，真实目标同时出局部效果，无抬牌或连接光束；玩家已知牌不重新揭密，敌r揭示与T使用分开；按实际最后步骤离场，暂停静态清理",
       "deliver": "完整卡牌动作链",
       "accept": "空间位置/命中/稳定身份同源；无预留幽灵牌、暗牌泄漏或动画回调重复支付；复合牌最后一步才离队；两档及跨窗口停点真实",
       "evidence": "慢速与正常速、多牌/跨窗口录屏；对应文字→HTML→美术→真实实现的产物与复核记录",
@@ -650,7 +670,7 @@
       "phase": 3,
       "area": "物体动作",
       "priority": "必做",
-      "owner": "动画/技术美术",
+      "owner": "B / A",
       "size": "M",
       "deps": [
         "DQ-11",
@@ -674,7 +694,7 @@
       "phase": 3,
       "area": "战斗视效",
       "priority": "必做",
-      "owner": "特效/工程",
+      "owner": "D / B",
       "size": "L",
       "deps": [
         "DQ-09",
@@ -686,7 +706,7 @@
       ],
       "title": "制作护盾、普通攻击与集中兑现特效",
       "baseline": "尚无正式战斗特效",
-      "work": "为三行动制作可辨轨迹、命中点与短暂残留；护盾先建立、攻击到正确目标、集中兑现有更强但受控的表现",
+      "work": "使用牌原位亮起，同时真实目标出现局部效果，不制作牌到目标的飞行轨迹/连接光束。先实现已确认护盾链，再补攻击/兑现对应效果稿；保留正确目标、内容数值与支付不足回退语义",
       "deliver": "三种核心效果及材质资源",
       "accept": "命中目标正确；护盾4/攻击6/兑现18等显示来自内容；强效果不淹没下一威胁；支付不足回退仍表现普通攻击",
       "evidence": "第13/14拍及不足支付对照录像；对应文字→HTML→美术→真实实现的产物与复核记录",
@@ -701,7 +721,7 @@
       "phase": 3,
       "area": "异常反馈",
       "priority": "必做",
-      "owner": "特效/交互",
+      "owner": "D → A / B",
       "size": "M",
       "deps": [
         "DQ-18",
@@ -749,7 +769,7 @@
       "phase": 3,
       "area": "演出整合",
       "priority": "必做",
-      "owner": "工程/动画/测试",
+      "owner": "总控 / A / B",
       "size": "L",
       "deps": [
         "DQ-23",

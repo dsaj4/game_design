@@ -117,8 +117,9 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 ## 素材与参考包
 
 ### <a id="as-g002-013"></a>AS-G002-013 战斗卡片交互效果示意（2026-10-12新增）
+- **2026-10-13用户确认：Selected Visual／ReadyForScope（限定视觉制作输入）/ PresentLocal。** 确认组合为ART-02的03守护牌过程＋ART-01的01总览／02悬浮近观，即[当前画册](../../yanzhou/visual/physical-table-2026-10-12/art-v02/index.html)；原话“效果确认完毕，更新开发计划和agent分工”，范围与接续见[当前开发计划](../../yanzhou/development/production-plan.md#physical-table-approved-2026-10-13)。旧包候选状态按交付日期保留，不改PNG／manifest；没有引擎运行或完整DQ验收结论。
 
-- 当前局部修订 **PHYSICAL-CARD-ART-02**：[新版过程图与说明](../../yanzhou/visual/physical-table-2026-10-12/art-v02/README.md)、[当前画册](../../yanzhou/visual/physical-table-2026-10-12/art-v02/index.html)、[固定清单](../../yanzhou/visual/physical-table-2026-10-12/art-v02/manifest.json)。依用户两条直接修正，完工改为法器亮起后卡牌原位浮现；使用改为卡牌原位亮起、棋子同时出效果，移除飞行／箭头／连接光带。derived-from：本资源@ART-01的过程图；新PNG 1672×941、RGB不透明，其余两图引用v01固定原件。仍Art Candidate，本轮方向已明确，不视为整包验收；原版及其缺口保留。内置image_gen编辑、项目内复用条件不变。
+- 2026-10-12局部修订 **PHYSICAL-CARD-ART-02**：[新版过程图与说明](../../yanzhou/visual/physical-table-2026-10-12/art-v02/README.md)、[当前画册](../../yanzhou/visual/physical-table-2026-10-12/art-v02/index.html)、[固定清单](../../yanzhou/visual/physical-table-2026-10-12/art-v02/manifest.json)。依用户两条直接修正，完工改为法器亮起后卡牌原位浮现；使用改为卡牌原位亮起、棋子同时出效果，移除飞行／箭头／连接光带。derived-from：本资源@ART-01的过程图；新PNG 1672×941、RGB不透明，其余两图引用v01固定原件。仍Art Candidate，本轮方向已明确，不视为整包验收；原版及其缺口保留。内置image_gen编辑、项目内复用条件不变。
 - 归属：game-002 / main；PHYSICAL-CARD-ART-01；[维护说明与检查](../../yanzhou/visual/physical-table-2026-10-12/art-v01/README.md)、[三图画册](../../yanzhou/visual/physical-table-2026-10-12/art-v01/index.html)、[实际提示词](../../yanzhou/visual/physical-table-2026-10-12/art-v01/prompts.md)。类型：静态效果示意／事件分镜；DOC-025阶段3首批候选。
 - 固定输入：设计提交9ef30c702d81fa2b38d7db28018796a32c8db07b；三张PNG均1672×941、RGB不透明；原图、说明、画册及提示词六文件的版本／SHA-256见[manifest](../../yanzhou/visual/physical-table-2026-10-12/art-v01/manifest.json)。工具原始生成输出保留，选定三图复制入本项目。
 - Catalogued / PresentLocal / Art Candidate；2026-10-12已逐图目视、图像解码、哈希与来源检查。覆盖第0拍桌面、四类悬浮近观及G02守护牌过程；遗漏字段、道具一致性与未覆盖情境见维护说明。未认定完整阶段3通过、用户接受或引擎实现。
