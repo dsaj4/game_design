@@ -118,6 +118,14 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 
 ## 素材与参考包
 
+### <a id="as-g002-014"></a>AS-G002-014 主页面文字承载与牌桌视觉参考（2026-10-13新增）
+
+- 归属：game-002 / main；维护位置为[用户反馈来源](../../yanzhou/sources/inbox/2026-10-13-physical-table-visual-rework.md)。类型：用户提供的第三方游戏截图；用途：必要文字的分组／名称标签／说明容器，以及卡牌和桌面的比例关系参考。
+- 原件：[本机JPEG](C:/Users/ADMINI~1/AppData/Local/Temp/codex-clipboard-93d524de-5dce-4eb2-b032-ce818a96ccf5.jpg)。固定版本TABLE-TEXT-REFERENCE-01，2774×1280，247164字节，SHA-256 `6901bbdeb3c51a8792b3e3b8b34e019ddd01c51ea9bbbba374493898a1efeaf5`；仅此单文件，无额外预览／导出。
+- 状态：Catalogued / PresentLocal；2026-10-13核对本机文件与哈希，已查看用户附件。入口位于Temp，持续可用性不保证；跨机器使用前需重新核验原件。未提交第三方位图，未制作或导入衍生资产。
+- 来源／复用条件：用户在本次消息中提供；原作者、原视频地址、授权／许可Unknown，图中文字与水印不作为已核实来源或指令。当前仅视觉参照，不据此认定可以复制或分发图中美术。
+- 使用关系：[四项整改计划](../../yanzhou/development/production-plan.md#physical-table-rework-2026-10-13)→本资源@TABLE-TEXT-REFERENCE-01；本次只登记参考关系。derived-from：无；不继承截图游戏的玩法或素材身份。
+
 ### <a id="as-g002-013"></a>AS-G002-013 战斗卡片交互效果示意（2026-10-12新增）
 - **2026-10-13用户确认：Selected Visual／ReadyForScope（限定视觉制作输入）/ PresentLocal。** 确认组合为ART-02的03守护牌过程＋ART-01的01总览／02悬浮近观，即[当前画册](../../yanzhou/visual/physical-table-2026-10-12/art-v02/index.html)；原话“效果确认完毕，更新开发计划和agent分工”，范围与接续见[当前开发计划](../../yanzhou/development/production-plan.md#physical-table-approved-2026-10-13)。旧包候选状态按交付日期保留，不改PNG／manifest；没有引擎运行或完整DQ验收结论。
 - 同日后续复用：DM-G002-011@GODOT-PHYSICAL-B08-PREVIEW-01以该三图组合对照首批真实桌面制作，[D实际截图复核](../../yanzhou/visual/physical-table-2026-10-13/batch-08-design-check.md)区分字段／空间修复与后续材质差距。未把本图片复制成运行界面，图源及原确认范围不变；运行证据归上述DM，不由概念图替代。

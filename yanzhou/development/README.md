@@ -2,7 +2,7 @@
 
 > 当前阶段：2026-10-12 第六批Windows包 **GODOT-EX002-0.4** 限定技术验收通过；固定运行源码9c50458a56a38f0c6ebd001d9e6a3ef34382adaa，设计输入abe8869。完整单战／恢复／播放／界面、固定字体与基础音画设置，新增失焦暂停、公开卡面和运行材质样板；唯一工程为[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)。设计CORE-060—062及EX-002，视觉Blender v02；旧0.1／0.2／0.3包保留，正式音画质量与真人体验未完成。
 
-> 当前调度（2026-10-13）：**第八批首个真实3D守护牌闭环已实现。** 已接通原位显牌、同步局部效果、筹码真实消费锁及已绘悬浮近观；核心352项、两档各38项限定引擎检查通过。[实际范围与证据](E:/Project/yanzhou-godot/docs/reviews/2026-10-13-batch-08-integration.md) · [设计复核](../visual/physical-table-2026-10-13/batch-08-design-check.md) · [当前计划](production-plan.md#physical-table-approved-2026-10-13)。引擎注入输入不冒充OS操作，完整新单战、美术品质和性能仍待后续。A／B首批交回，D接续未覆盖卡链和系统页；第07轮无待用户裁决。
+> 当前调度（2026-10-13）：**优先整改桌面塑料感、主页面文字框、主卡片模型与摆放、过宽槽位。** [四项计划与分工](production-plan.md#physical-table-rework-2026-10-13)均为Planned / NotStarted；D先设计，文本框按文字结构→HTML→美术示意确定后再由A／B实现，完成后接续其他卡链与系统页。首批守护链核心352项、两档各38项[限定技术证据](E:/Project/yanzhou-godot/docs/reviews/2026-10-13-batch-08-integration.md)保留，但不代表本轮用户视觉验收。完整新单战、实际OS操作和性能仍待后续。
 
 ## 当前开发入口
 
@@ -10,7 +10,7 @@
 
 | 需要什么 | 唯一入口 |
 | --- | --- |
-| 当前效果确认、第八批顺序与agent分工 | [正式开发计划](production-plan.md#physical-table-approved-2026-10-13) · [具体工程所有权](E:/Project/yanzhou-godot/docs/coordination/2026-10-13-batch-08-plan.md) |
+| 当前四项视觉整改、设计顺序与agent分工 | [正式开发计划](production-plan.md#physical-table-rework-2026-10-13) · [具体工程所有权](E:/Project/yanzhou-godot/docs/coordination/2026-10-13-batch-08-plan.md) |
 | 基础逻辑之后：画面、资产、动作、UI与完整单战 | [成品 Demo HTML 任务表](demo-quality-taskboard.html)（52项必做＋4项后续；含依赖、产物和验收） |
 | 开发总控、并行分工与首版保全 | [2026-10-11 总控首轮](reports/demo-control-2026-10-11.md) · [实现仓库当前调度](E:/Project/yanzhou-godot/README.md) |
 | 类似游戏使用的引擎与选型依据 | [2026-10-11引擎调研](reports/similar-game-engine-research-2026-10-11.md) |

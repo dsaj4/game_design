@@ -1,6 +1,6 @@
 # 当前开发输入与资产接入
 
-更新2026-10-13 · game-002 · ReadinessReview · G002-DOC-021／023／025。本页从既有[统一目录](../../docs/registry/demo-assets.md)选择开发输入；当前输入见2026-10-13节，原准备轮及后续证据保留日期，不分配新AS／DM编号。
+更新2026-10-13 · game-002 · ReadinessReview · G002-DOC-021／023／025。本页从[统一目录](../../docs/registry/demo-assets.md)选择开发输入；当前输入见2026-10-13节，原准备轮及后续证据保留日期。本轮仅新增用户视觉参考AS-G002-014，尚无新模型／材质交付。
 
 **当前接入状态**：Godot首版已实际导入3D-02并完成局部输入、拍末恢复、重导入与打包检查，详见[首版报告](reports/godot-start-2026-10-11.md)。下方“准备轮”哈希及检查说明保留原日期范围，不代表尚未接入；实时材质、运行卡面、字体、动作、音效、正式UI与成品优化继续按[成品任务表](demo-quality-taskboard.html)推进。
 
@@ -8,7 +8,9 @@
 
 ## 2026-10-13 当前实施输入
 
-用户已确认[当前三图组合](../visual/physical-table-2026-10-12/art-v02/index.html)，随后开始执行。首批真实桌面、守护链与悬浮近观已接入；[限定集成证据](E:/Project/yanzhou-godot/docs/reviews/2026-10-13-batch-08-integration.md)与[D复核](../visual/physical-table-2026-10-13/batch-08-design-check.md)分别记录技术与视觉范围。[开发计划](production-plan.md#physical-table-approved-2026-10-13)接续其余卡链；原效果包的候选文字与哈希保留为制作时记录。
+用户已确认[当前三图组合](../visual/physical-table-2026-10-12/art-v02/index.html)，随后开始执行。首批真实桌面、守护链与悬浮近观已接入；[限定集成证据](E:/Project/yanzhou-godot/docs/reviews/2026-10-13-batch-08-integration.md)与[D复核](../visual/physical-table-2026-10-13/batch-08-design-check.md)保留当时范围。用户运行审查后要求优先整改材质／光影、文字框、卡片模型与槽位，[当前计划](production-plan.md#physical-table-rework-2026-10-13)已调整顺序；原效果包的候选文字与哈希保持。
+
+新增输入[AS-G002-014@TABLE-TEXT-REFERENCE-01](../../docs/registry/demo-assets.md#as-g002-014)仅作文字承载及牌桌关系参照，没有导入运行工程。主卡片将重新建模与放置，槽位随新比例收窄；材质／光影先对照再确定所需细节。新模型和文本框方案均Planned，制作后另存派生版本并登记来源，AS-G002-010原GLB、AS-G002-009原PNG保持只读。
 
 | 当前输入 | 固定版本 | 使用方式与检查边界 |
 | --- | --- | --- |
