@@ -32,6 +32,8 @@
 - 2026-10-12第七批测量复用：沿GODOT-EX002-0.4固定源码9c50458叠加工程仪器，保存于实现57e95441fa497f30d5f857419724fd02dae98fd5；[限定性能报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-07-performance.md)、[固定证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-07-performance-evidence.json)。193文件测量包指纹复核一致，复用原GLB／卡图／字体／声音，无素材改版。1080p连续600秒因一次113.127ms尖峰判Fail；768p 120秒仅为通过预算的诊断。不是新玩家版本、最终最重场景验收或公开发布，原0.4包及证据保留。
 
 - 2026-10-12第七批组合候选保全：实现e0077ffa10d22ad1c9dd91e8037aa2c021409098，沿相同AS-G002-009卡图、AS-G002-010原GLB、字体及声音，增加卡图准备/复用及木纹/皮革代码组件SURFACE-DETAIL-CANDIDATE-02；不改源素材、不新分配AS。候选包和副本各195文件/239,109,709字节，指纹一致；[保全索引](E:/Project/yanzhou-godot/docs/coordination/development-batch-07-preserved-evidence.json)。组合包限定检查未全部完成，600秒测量因系统前台变化中断，不登记0.5正式交付。用户随后明确要求主交互依赖3D模型及真实桌面翻牌，当前暂停待第07轮设计对接；材质样板与旧HUD技术结果不构成新主交互或美术采纳。原包/素材/失败记录及复用权利保持。
+- 2026-10-13第八批首批预览：**GODOT-PHYSICAL-B08-PREVIEW-01**，运行源码`ed982ec2b7122310bc415c0a868d87089246618e`，设计计划`c646447762b7c712b58da7bd998e28bfad816398`；[Windows本机预览](E:/Project/yanzhou-godot/build/development-batch-08/preview-01/windows/Yanzhou.exe)、[限定集成报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-13-batch-08-integration.md)、[固定证据与包哈希](E:/Project/yanzhou-godot/docs/coordination/development-batch-08-evidence.json)。首个真实桌面／稳定卡片身份、G02守护链、精确筹码与消费锁、已绘无底板近观；核心352项、两档各38项限定引擎检查。输入采用引擎注入，OS失焦、完整新单战、正式材质和性能未验；ReadyForScope仅限本批本机技术审查，不登记0.5正式成品。uses沿AS-G002-009原三图、AS-G002-010@3D-02、AS-G002-011字体、AS-G002-012程序声；AS-G002-013确认图仅制作对照，不作为全屏贴图；结构参照DM-G002-012@HTML-05。新增程序筹码／卡片／局部光效随本DM登记；源GLB／PNG不改字节，原件、0.4包、0.5候选及失败证据保留，无新AS、无公开发布。
+
 ### <a id="dm-g002-004"></a>DM-G002-004 炼咒试验台（2026-10-02新增）
 
 - 归属：game-002-optimization / DIR-032；[探索与机制规格](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-032-playable-mechanism-loop/README.md)、[开发索引](../../yanzhou/development/README.md)。
@@ -102,7 +104,7 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 
 ### <a id="dm-g002-012"></a>DM-G002-012 战斗卡片交互HTML（2026-10-12新增）
 
-- 当前修订：PHYSICAL-CARD-HTML-05；[HTML](../../yanzhou/visual/physical-table-2026-10-12/card-flow-v05.html)、[动作修订说明](../../yanzhou/visual/physical-table-2026-10-12/card-flow-html-v05.md)、[固定清单](../../yanzhou/visual/physical-table-2026-10-12/card-flow-v05-manifest.json)、[限定复核](../../yanzhou/visual/physical-table-2026-10-12/card-flow-html-verification-v05.md)。derived-from：本资源@HTML-04及用户两点简化要求；法器完工一次亮光后原刻位浮现，使用牌原位亮起且真实目标同步局部特效。21情境不变，Catalogued / PresentLocal，浏览器未验；对应AS-G002-013@ART-02，阶段4未开始。
+- 当前修订：PHYSICAL-CARD-HTML-05；[HTML](../../yanzhou/visual/physical-table-2026-10-12/card-flow-v05.html)、[动作修订说明](../../yanzhou/visual/physical-table-2026-10-12/card-flow-html-v05.md)、[固定清单](../../yanzhou/visual/physical-table-2026-10-12/card-flow-v05-manifest.json)、[限定复核](../../yanzhou/visual/physical-table-2026-10-12/card-flow-html-verification-v05.md)。derived-from：本资源@HTML-04及用户两点简化要求；法器完工一次亮光后原刻位浮现，使用牌原位亮起且真实目标同步局部特效。21情境不变，Catalogued / PresentLocal，浏览器未验；对应AS-G002-013@ART-02；HTML制作时阶段4未开始，2026-10-13首批真实接入见DM-G002-011本轮记录，HTML浏览器结论不变。
 
 - 旧版保留：PHYSICAL-CARD-HTML-04，game-002 / main；[HTML](../../yanzhou/visual/physical-table-2026-10-12/card-flow-v04.html)、[说明](../../yanzhou/visual/physical-table-2026-10-12/card-flow-html-v04.md)、[manifest](../../yanzhou/visual/physical-table-2026-10-12/card-flow-v04-manifest.json)、[检查](../../yanzhou/visual/physical-table-2026-10-12/card-flow-html-verification-v04.md)。derived-from：本资源@PHYSICAL-CARD-HTML-03，固定输入`20b92ec65fa66219ec8b2a4f7dd5c1a6d63d9ba8`及用户同步悬浮批注；只补齐双方棋子状态近观。Catalogued / PresentLocal，浏览器未验；原回放与消费锁沿v03，HTML交付时阶段3／4未开始，复用条件沿v01。后续阶段3已生成[AS-G002-013首批效果图](../../yanzhou/visual/physical-table-2026-10-12/art-v01/README.md)，仅作结构参照使用，不改本HTML固定版或浏览器结论。
 
@@ -118,6 +120,7 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 
 ### <a id="as-g002-013"></a>AS-G002-013 战斗卡片交互效果示意（2026-10-12新增）
 - **2026-10-13用户确认：Selected Visual／ReadyForScope（限定视觉制作输入）/ PresentLocal。** 确认组合为ART-02的03守护牌过程＋ART-01的01总览／02悬浮近观，即[当前画册](../../yanzhou/visual/physical-table-2026-10-12/art-v02/index.html)；原话“效果确认完毕，更新开发计划和agent分工”，范围与接续见[当前开发计划](../../yanzhou/development/production-plan.md#physical-table-approved-2026-10-13)。旧包候选状态按交付日期保留，不改PNG／manifest；没有引擎运行或完整DQ验收结论。
+- 同日后续复用：DM-G002-011@GODOT-PHYSICAL-B08-PREVIEW-01以该三图组合对照首批真实桌面制作，[D实际截图复核](../../yanzhou/visual/physical-table-2026-10-13/batch-08-design-check.md)区分字段／空间修复与后续材质差距。未把本图片复制成运行界面，图源及原确认范围不变；运行证据归上述DM，不由概念图替代。
 
 - 2026-10-12局部修订 **PHYSICAL-CARD-ART-02**：[新版过程图与说明](../../yanzhou/visual/physical-table-2026-10-12/art-v02/README.md)、[当前画册](../../yanzhou/visual/physical-table-2026-10-12/art-v02/index.html)、[固定清单](../../yanzhou/visual/physical-table-2026-10-12/art-v02/manifest.json)。依用户两条直接修正，完工改为法器亮起后卡牌原位浮现；使用改为卡牌原位亮起、棋子同时出效果，移除飞行／箭头／连接光带。derived-from：本资源@ART-01的过程图；新PNG 1672×941、RGB不透明，其余两图引用v01固定原件。仍Art Candidate，本轮方向已明确，不视为整包验收；原版及其缺口保留。内置image_gen编辑、项目内复用条件不变。
 - 归属：game-002 / main；PHYSICAL-CARD-ART-01；[维护说明与检查](../../yanzhou/visual/physical-table-2026-10-12/art-v01/README.md)、[三图画册](../../yanzhou/visual/physical-table-2026-10-12/art-v01/index.html)、[实际提示词](../../yanzhou/visual/physical-table-2026-10-12/art-v01/prompts.md)。类型：静态效果示意／事件分镜；DOC-025阶段3首批候选。

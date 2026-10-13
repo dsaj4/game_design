@@ -8,7 +8,7 @@
 
 ## 2026-10-13 当前实施输入
 
-用户已确认[当前三图组合](../visual/physical-table-2026-10-12/art-v02/index.html)，状态为效果已确认／待实现。[开发计划](production-plan.md#physical-table-approved-2026-10-13)划定首批范围；原效果包的候选文字与哈希保留为制作时记录。
+用户已确认[当前三图组合](../visual/physical-table-2026-10-12/art-v02/index.html)，随后开始执行。首批真实桌面、守护链与悬浮近观已接入；[限定集成证据](E:/Project/yanzhou-godot/docs/reviews/2026-10-13-batch-08-integration.md)与[D复核](../visual/physical-table-2026-10-13/batch-08-design-check.md)分别记录技术与视觉范围。[开发计划](production-plan.md#physical-table-approved-2026-10-13)接续其余卡链；原效果包的候选文字与哈希保留为制作时记录。
 
 | 当前输入 | 固定版本 | 使用方式与检查边界 |
 | --- | --- | --- |
@@ -17,11 +17,11 @@
 | 确认效果 | AS-G002-013@ART-02流程图＋ART-01总览／近观；[当前清单](../visual/physical-table-2026-10-12/art-v02/manifest.json) | 用作制作对照，不作为全屏贴图或可交互3D资产；未覆盖情境按计划补图 |
 | 三维与卡图 | AS-G002-010@BATTLE-3D-02、AS-G002-009@BATTLE-COMPONENTS-01 | 源GLB／PNG只读；新增形制、碰撞、材质和动画作为运行派生，记录来源与差异 |
 | 字体与声音 | AS-G002-011@FONT-ASSETS-01、AS-G002-012@SYNTH-AUDIO-01 | 现有包固定依赖复用；不将技术声音样板升级为正式音色验收 |
-| 代码起点 | Godot仓库45bfed20b111ae80da11ed53d8cdb39276da75f3；保留运行源码e0077ffa10d22ad1c9dd91e8037aa2c021409098 | 0.4正式局部证据、0.5候选未完与性能Fail保留；新批从当前工程继续，见[路径所有权](E:/Project/yanzhou-godot/docs/coordination/2026-10-13-batch-08-plan.md) |
+| 代码起点与首批接入 | 开工de3e56996c87de2618827feab134d19536eee3a4；固定运行版本见[本批证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-08-evidence.json) | 本机限定预览，0.4局部证据、0.5候选未完与性能Fail保留；[路径所有权](E:/Project/yanzhou-godot/docs/coordination/2026-10-13-batch-08-plan.md)不变 |
 
 正向状态含生命／护盾／施法标记统一在棋子右侧，负面在左；常态筹码不弹详情，悬停／焦点显示数量，标记点击沿合法消费锁。无底板近观、名称、冻结D与必要公开字段按HTML和合同补齐；原图缺一组空托或字段不改变真实台账。蓝晶杖／环杖对应两护符，书／晶球只作布景。
 
-本轮只核对固定输入并更新计划，未重新导入资产、启动引擎或补跑历史检查。下方准备轮清单保持原日期范围，不再作为新主页面布局选择。
+本轮复用固定源件，新增卡牌／筹码实体、局部光效及近观作为运行派生；书与晶球仅在运行场景移位以避开操作物件。未修改源GLB、原PNG、HTML或manifest；不新分配AS。主读数按两档20／18像素、近观至少16像素实测；精细材质和完整音画专项继续制作。下方准备轮清单保持原日期范围，不再作为新主页面布局选择。
 
 ## 准备轮原输入（2026-10-11）
 

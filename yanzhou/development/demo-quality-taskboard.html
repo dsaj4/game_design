@@ -7,27 +7,27 @@
 <main><div class="topline"><span>DEVELOPMENT PLAN / 成品质量任务分解</span><span class="edition">基础逻辑之后 · 52 项必做 + 4 项后续</span></div><h1>把牌桌，做成<span>完整的体验。</span></h1><p class="lead">以当前 Godot 首版为起点，把画面、资产、物体动作、正式 UI、音效与完整战斗接成一个可交付 Demo。每项都写明制作内容、依赖、产物和验收证据，供开发 agent 逐项接手。</p>
 <div class="stats" id="stats" aria-live="polite"></div>
 <details class="scope"><summary>2026-10-11初始规划与使用说明（当前状态见下方重做记录）</summary><div class="scope-body"><div class="scope-grid"><div><h3>本次交付：成品质量的一场战斗</h3><p>最小开始页 → 首批配置说明／短引导 → 完整战斗 → 胜败结果 → 重试／返回；包含设置、继续游戏、正式音画、异常反馈和独立 Windows 包。使用既定牌桌构图与首批内容。</p><p>路线、商店、战前装配、新流派、多平台列为后续。完整遭遇必要参数仍需沿原设计流程确定，不把 EX-001 十四拍序列冒充完整战斗。</p><h3>任务表怎样使用</h3><p>先打开 DQ-01／05／06，再按前置任务推进。S/M/L 为相对规模：单一交付、跨组件、多环节联调；不是工期承诺。负责人是建议职责，同一人或 agent 可兼任。</p></div><div><h3>已交付的底座</h3><p>DM-G002-011 / GODOT-EX001-0.1，代码 <code>e71dcb78e813</code>；设计输入 <code>5c542e12c53a</code>。已报告28项规则检查、两档各12项输入检查、独立包和拍末跨进程恢复。</p><p>现有画面已导入主场景，但材质仍有差距，卡面占位，右侧与底部检查 UI 遮挡道具。完整单战、正式交互合同、物件动作、音频与真人体验还未完成。</p><h3>状态有明确含义</h3><p>本表是新增交付任务，因此初始均为“待开始”；每项保留已有底座说明。“已验收”必须填写证据，但本地打勾不等于设计采纳或仓库阶段通过。待决只引用原 questions，具体技术任务与 Bug 留代码仓库。</p></div></div><div class="source-note">依据：<a href="reports/godot-start-2026-10-11.md">Godot 首版报告</a> · <a href="file:///E:/Project/yanzhou-godot/evidence/verification.md">实现验证原文（本机）</a> · <a href="file:///E:/Project/yanzhou-godot/evidence/package-first-1080/benchmark-1920.png">当前真实截图（本机）</a> · <a href="asset-readiness.md">资产版本与差异</a> · <a href="../governance/questions.md">唯一设计问题登记处</a><br>本轮只制作开发任务文档；未运行游戏或玩法实验，未改玩法/案例/源资产。建议的性能预算和试玩人数须在相应任务开始时确认。技术测量不代替真人体验验证。外部本机链接需在同一电脑打开。</div></div></details>
-<div class="next"><strong>当前推进顺序</strong><p><a href="#physical-table-stages">已确认首批范围</a> → D字段对应 → A真实物件/事件 → A近观与B局部效果 → D复核与总控运行验收 → 后续卡链/系统页 → DQ-40/44/50收束。具体范围见<a href="production-plan.md#physical-table-approved-2026-10-13">2026-10-13计划</a>。</p></div>
+<div class="next"><strong>当前推进顺序</strong><p><a href="#physical-table-stages">首批真实闭环已接入</a> → D补后续卡链/系统页 → A/B分项实现 → 完整联调 → DQ-40/44/50收束。具体范围见<a href="production-plan.md#physical-table-approved-2026-10-13">2026-10-13计划</a>。</p></div>
 <section class="scope" id="physical-table-stages"><div class="scope-body">
-<h2>效果已确认 · 第八批待实施 · 2026.10.13</h2>
+<h2>第八批首个真实闭环已接入 · 2026.10.13</h2>
 <p>用户已确认ART-02守护链及沿用的ART-01总览／悬浮近观。<a href="production-plan.md#physical-table-approved-2026-10-13">当前计划与确认范围</a>固定首批闭环；<a href="development-standard.md#9-每项重点交互的四阶段制作">DOC-025</a>继续用于尚未覆盖的交互。确认效果不代表完整DQ、浏览器或Godot验收通过。</p>
 <div class="table-wrap"><table aria-label="重点交互四阶段"><thead><tr><th>重点交互 / 原DQ</th><th>文字结构</th><th>HTML示意</th><th>美术示意</th><th>真实实现 / 依赖</th></tr></thead><tbody>
-<tr><td>产牌→入列→揭示/使用→目标→离场/近观 · DQ-17/18/20/21/25—30</td><td><a href="../visual/physical-table-2026-10-12/card-flow-html-v05.md">v05两段动作修订</a>，其余沿原结构</td><td><a href="../visual/physical-table-2026-10-12/card-flow-v05.html">HTML v05</a>；<a href="../visual/physical-table-2026-10-12/card-flow-html-verification-v05.md">限定检查，浏览器未验</a></td><td><a href="../visual/physical-table-2026-10-12/art-v02/index.html">首批效果已确认</a>；原位显牌／同步局部效果，敌r揭示等后续补稿</td><td>首批待派单：A事实/物件，B表现；整链不标完成</td></tr>
+<tr><td>产牌→入列→揭示/使用→目标→离场/近观 · DQ-17/18/20/21/25—30</td><td><a href="../visual/physical-table-2026-10-12/card-flow-html-v05.md">v05两段动作修订</a>，其余沿原结构</td><td><a href="../visual/physical-table-2026-10-12/card-flow-v05.html">HTML v05</a>；<a href="../visual/physical-table-2026-10-12/card-flow-html-verification-v05.md">限定检查，浏览器未验</a></td><td><a href="../visual/physical-table-2026-10-12/art-v02/index.html">首批效果已确认</a>；原位显牌／同步局部效果，敌r揭示等后续补稿</td><td>第0拍桌面、真实身份、G02守护链与对应近观已接通并限定检查；完整卡链仍待后续</td></tr>
 <tr><td>用途与数量编辑 · DQ-18/19/21</td><td><a href="../visual/physical-table-2026-10-12/card-flow-html-v03.md">消费锁增补</a>；未来用途待补</td><td>v03独立消费锁示意，未接真实战斗</td><td>双堆锁定／未来用途／产物态待补</td><td>D先补对应稿，后续由A/B接入</td></tr>
-<tr><td>生命/护甲/标记读数 · DQ-19/28</td><td>正向右、负面左；数量与真实台账同源</td><td>v04双方棋子悬浮近观、v03筹码操作，沿v05保留</td><td>棋子近观与筹码形制已确认；消费锁双堆仍需细化</td><td>首批接只读状态／精确字段；锁定操作另计范围</td></tr>
-<tr><td>播放/单步/倍速 · DQ-23/24/32</td><td>既有政策继续复用；全套实体控制专项待做</td><td>专项未完成</td><td>专项未完成</td><td>首批验证既有暂停边界，全套控件后续</td></tr>
-<tr><td>回看/归位/历史 · DQ-16/21/24</td><td>具体稿待补</td><td>完整专项未完成</td><td>完整专项未完成</td><td>首批不删除原能力；全套重做后续</td></tr>
-<tr><td>抽屉 · DQ-22/28</td><td><a href="../visual/physical-table-2026-10-12/card-flow-html-v03.md">空抽屉悬浮增补</a></td><td>v03空态已制作</td><td>空态无底板悬浮已确认</td><td>首批待派单，合法暂停后静态切换；不造材料</td></tr>
+<tr><td>生命/护甲/标记读数 · DQ-19/28</td><td>正向右、负面左；数量与真实台账同源</td><td>v04双方棋子悬浮近观、v03筹码操作，沿v05保留</td><td>棋子近观与筹码形制已确认；消费锁双堆仍需细化</td><td>真实筹码、精确读数、单层锁定/释放已接入；结算中显示待受理，完整数量专项后续</td></tr>
+<tr><td>播放/单步/倍速 · DQ-23/24/32</td><td>既有政策继续复用；全套实体控制专项待做</td><td>专项未完成</td><td>专项未完成</td><td>桌沿入口已接通；首批暂停/单步与键鼠有引擎注入证据，全专项与OS操作未验</td></tr>
+<tr><td>回看/归位/历史 · DQ-16/21/24</td><td>具体稿待补</td><td>完整专项未完成</td><td>完整专项未完成</td><td>实体回看/归位、公开窗口外牌与历史标记已接通；完整专项后续</td></tr>
+<tr><td>抽屉 · DQ-22/28</td><td><a href="../visual/physical-table-2026-10-12/card-flow-html-v03.md">空抽屉悬浮增补</a></td><td>v03空态已制作</td><td>空态无底板悬浮已确认</td><td>空态悬浮已接通并两档检查；不造材料，非空库存不在本场</td></tr>
 <tr><td>开始/设置/保存错误/结果等系统页 · DQ-15/35—39</td><td>逐页具体稿待做</td><td>专项未完成</td><td>专项未完成</td><td>保留既有后端，各页依四阶段接续</td></tr>
 </tbody></table></div>
 <h3>本批agent分工</h3>
 <div class="table-wrap"><table aria-label="第八批agent分工"><thead><tr><th>席位</th><th>负责交付</th><th>依赖／当前状态</th></tr></thead><tbody>
-<tr><td>总控</td><td>输入与范围、共享接线、验收、两仓库索引与提交</td><td>计划已更新；下一步冻结工程对应表</td></tr>
-<tr><td>A · 实现</td><td>真实身份／公开投影、刻位／命中／键盘、无底板近观</td><td>待派单；先交对象／事实接口给B</td></tr>
-<tr><td>B · 表现</td><td>模型材质、完工闪光、原位显牌、同步局部效果、离场与取消</td><td>待派单；隔离材质可先行，接入等A接口</td></tr>
-<tr><td>D · 设计</td><td>续用physical_card_design，CF／字段对应、后续情境、实现一致性复核</td><td>本轮只读复核已完成；后续随制作接续</td></tr>
+<tr><td>总控</td><td>输入与范围、共享接线、验收、两仓库索引与提交</td><td>已完成首批集成与限定检查，固定预览证据</td></tr>
+<tr><td>A · 实现</td><td>真实身份／公开投影、刻位／命中／键盘、无底板近观</td><td>首批已交回；后续按D对应稿接续</td></tr>
+<tr><td>B · 表现</td><td>模型材质、完工闪光、原位显牌、同步局部效果、离场与取消</td><td>首批已交回；细化材质与其余效果待后续</td></tr>
+<tr><td>D · 设计</td><td>续用physical_card_design，CF／字段对应、后续情境、实现一致性复核</td><td>已核字段与真实截图；接续未覆盖情境</td></tr>
 </tbody></table></div>
-<p>总控＋A／B／D最多四席，<a href="E:/Project/yanzhou-godot/docs/coordination/2026-10-13-batch-08-plan.md">独占路径与验收</a>已列明。本轮只更新计划，未启动实现／测试；0.4限定证据、0.5未完成与性能失败保持。浏览器本地勾选不覆盖以上仓库状态。</p>
+<p>总控＋A／B／D最多四席，<a href="E:/Project/yanzhou-godot/docs/coordination/2026-10-13-batch-08-plan.md">独占路径</a>不变。核心352项、两档各38项限定引擎检查通过，<a href="E:/Project/yanzhou-godot/docs/reviews/2026-10-13-batch-08-integration.md">实际证据与限制</a>、<a href="../visual/physical-table-2026-10-13/batch-08-design-check.md">D复核</a>单列；0.4证据、0.5未完成与性能失败保持。首批不关闭完整DQ，浏览器本地勾选不覆盖仓库状态。</p>
 </div></section>
 <div class="toolbar"><label class="sr" for="search">搜索任务</label><input id="search" type="search" placeholder="搜索任务、物件、验收、ID…"><label class="sr" for="area">工作领域</label><select id="area"><option value="">全部工作领域</option></select><label class="sr" for="status">状态</label><select id="status"><option value="">全部状态</option></select><label class="sr" for="scopeFilter">任务范围</label><select id="scopeFilter"><option value="all">全部任务</option><option value="required">仅成品必做</option><option value="optional">仅后续扩展</option><option value="ready">前置已满足</option></select></div>
 <div class="controls"><button class="btn" id="expandAll">展开当前结果</button><button class="btn" id="collapseAll">收起详情</button><button class="btn" id="exportCsv">导出任务 CSV</button><button class="btn" id="exportJson">备份进度 JSON</button><button class="btn" id="importJson">导入进度</button><button class="btn" id="print">打印 / 存为 PDF</button><input hidden type="file" accept=".json,application/json" id="importFile"></div>
