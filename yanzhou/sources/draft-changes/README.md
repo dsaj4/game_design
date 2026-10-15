@@ -56,3 +56,4 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 - [同拍结算D](D-2026-10-08-settlement-order-reference.md)：CORE-057／timing.2，用户授权结合言咒直接选定通用总序、事件边界及相关支付／维护／恢复合同；NotRun。
 
 2026-10-11：[ CORE-059首批接口与案例采纳 ](D-2026-10-11-simple-spell-example.md)。来源与适用范围见正文。
+2026-10-14：[CORE-063 physical-table.2已采纳](D-2026-10-14-demoncards-presentation.md)，基于用户继续制作授权与DC-v01；真实运行结果另登记。

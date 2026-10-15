@@ -1,5 +1,12 @@
 # 正式开发阶段目标
 
+<a id="demoncards-assets-2026-10-15"></a>
+## 2026-10-15 原资源接入批次
+
+用户明确要求「列出清单进行接入」。以当前十九组件/真实UI为基线，仅接入对应桌/布、卡牌实体/纸底及作者字体（原游戏暗背未证实，沿现有背面）；按[工程清单与所有权](E:/Project/yanzhou-godot/docs/coordination/2026-10-15-demoncards-asset-integration.md)完成导出校验→适配→两档画面与交互→独立包。设计沿既有对接D，A字体、B原资源、总控画面与交付。保持原公开/结算/命中与暂停合同，后续系统制作不因资源接入自动完成。
+
+本批已交付独立本机预览：3模型、3运行纹理、3作者字体，源码与包两档各72/72、200文件指纹匹配；[限定交付记录](reports/demoncards-assets-2026-10-15.md)和设计D复核分别固定范围。下方各轮保持原日期和验收范围，原包不覆盖。
+
 <a id="component-detail-round-2026-10-14"></a>
 ## 当前优先级：组件细节制作与分批拼装
 
@@ -22,7 +29,7 @@
 
 全19件新预览：`E:/Project/yanzhou-godot/build/development-batch-10/components-01/windows/Yanzhou.exe`。源码与Release的1920×1080／1366×768各72/72，68PNG逐字节相同；[独立限定视觉复核](../visual/component-production-2026-10-14/q3-expansion-source-06-review.md)、[完整运行交付](E:/Project/yanzhou-godot/docs/reviews/2026-10-15-component-expansion-integration.md)和Workspace逐组件状态已收口。下一步为用户审查预览、非阻塞排版打磨及另行正式性能检查，未擅自启动新玩法实验。
 
-更新2026-10-13 · game-002 · DevelopmentPlan · G002-DOC-021／022／025。第八批首个真实桌面闭环已实现；用户审查后提出四项视觉整改，现列为下一批优先工作，具体方案与实现均待开展。此前技术证据保留原范围，不能替代本轮视觉验收。
+更新2026-10-14 · game-002 · DevelopmentPlan · G002-DOC-021／022／025。新DC-v01三阶段已交付，用户授权继续真实桌面及动画制作；总控／A／B正在完成第九批复验与包交付，持续设计D复核。此前技术证据保留原范围。
 
 已完成[11款作品与开发者经验对照](reports/similar-game-engine-research-2026-10-11.md)。用户确认使用当前Windows电脑；最终主动选定Godot，替代此前“两引擎实测后选择”的流程。Unity未安装／激活、未取得实测结果，停止该分支工作，不给比较分数。选型依据与实际接入状态见[本轮交付](reports/godot-start-2026-10-11.md)。
 
@@ -30,12 +37,25 @@
 
 先交付基于当前牌桌视觉的真实战斗，再接通最小局内循环，最后扩充系统内容。每阶段有独立退出条件；不以画面完成代替规则、交互、保存或构建完成。
 
-当前设计内容固定于8905e427e21213eae3811c6ee89cdc0a6cd23f86，沿CORE-060—063／EX-002和本页2026-10-13效果确认。空间／交互输入为DM-G002-012@HTML-05，视觉为AS-G002-013@ART-02流程图＋ART-01总览／近观；模型、组件、字体、声音按[资产接入](asset-readiness.md)固定复用。旧5c542e12／EX-001和v10是原首版输入，继续用于原回归和历史追溯，不再决定新主界面。
+当前规则沿CORE-060—063／EX-002，增补[physical-table.2展示衔接](../sources/draft-changes/D-2026-10-14-demoncards-presentation.md)。本批输入为[DC-v01文字／HTML／美术／复核](../visual/demoncards-reference-2026-10-14/design-review-v01.md)，登记DM-G002-013／AS-G002-015；参考为AS-SH-002本机Demoncards取证，实际重制为AS-G002-016。完整固定设计／运行／资产指纹由[第九批证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-09-evidence.json)记录，旧HTML-05／ART-01／02及旧规则版本保留历史范围。
 
 唯一代码仓库为[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)，Godot 4.7.2 stable .NET、C#、Forward+，技术冻结与取舍见该仓库ADR。目标设备采用当前Windows电脑；主分辨率1920×1080、检查1366×768、工作目标60fps，硬件和实际测量留代码报告。当前按依赖和可验收结果排阶段，不虚构发布日期。
 
 <a id="physical-table-rework-2026-10-13"></a>
-## 2026-10-13 用户审查后的四项优先整改
+## 2026-10-14 DC-v01真实制作与第九批
+
+用户已通知新设计稿交付并要求继续深度制作牌桌／卡牌／物件／镜头／光影、触发／物品使用／详情／移动；不再等待设计开始许可。设计由既有「言咒设计对接」负责，总控只提供真实画面与统一调度。完整职责与文件独占范围留[运行计划](E:/Project/yanzhou-godot/docs/coordination/2026-10-14-demoncards-plan.md)。
+
+| 交付 | 本轮实际推进与检查 |
+| --- | --- |
+| 桌／牌／物件 | 9:13真实薄纸、双面圆角／窄槽、磨损木纹／细织布／旧黄铜、切面晶体及棋子／书／筹码重制；自制15图固定指纹，原游戏素材仅取证参照，未导入原始像素／网格 |
+| 镜头／光影 | 固定俯视相机，暖主光／弱中性补光、局部烛光、纸与旧铜分材质；以真实遮挡与D画面意见持续打磨 |
+| 动作／详情 | 真实事件原位完工／使用、新公开翻面／r→T转位、真实离队短淡出；稳定身份与视觉／命中共Pivot，停点立即归位；详情静态、公开短提示和消费锁同源 |
+| 交付与证据 | 源／独立Windows包分别两档运行、必要字号／真实目标／保存恢复、D限定复核；失败目录单列保留，正式用户美术接受／真人体验及长测不被局部检查替代 |
+
+最终结果及待续项以[第九批集成报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-14-demoncards-integration.md)为准。下方2026-10-13计划保留当时状态，不再视为本轮NotStarted；新包仍是本机可审查预览，不自动升级完整DQ或0.5正式玩家版。
+
+## 2026-10-13 用户审查后的四项优先整改（历史计划）
 
 依据[本次用户原话与参考图](../sources/inbox/2026-10-13-physical-table-visual-rework.md)。**先完成下列整改，再接续其余卡链与系统页。四项均为Planned / NotStarted；本轮仅登记计划和分工。** 早先确认的完工／使用动作继续有效，当前运行桌面、主卡片和槽位的视觉质量仍待整改；首批技术通过及D限定复核保留历史范围，不视为用户对当前成品画面的接受。
 

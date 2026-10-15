@@ -1,8 +1,10 @@
 # 言咒实现与资产索引
 
+> 当前资产接入（2026-10-15）：用户要求列清单并实际接入恶魔牌桌面、卡牌和字体。沿十九组件运行版本继续，由原设计对接D核对、A接字体、B接原模型/纹理、总控打包验收。见[接入清单](E:/Project/yanzhou-godot/docs/coordination/2026-10-15-demoncards-asset-integration.md)与[本次授权](../sources/inbox/2026-10-15-demoncards-asset-integration.md)。第九批两档源/包61项及D v09范围内通过已补记，OS操作因实体Escape未验；旧包和失败证据保持原范围。
+
 > 当前阶段：2026-10-12 第六批Windows包 **GODOT-EX002-0.4** 限定技术验收通过；固定运行源码9c50458a56a38f0c6ebd001d9e6a3ef34382adaa，设计输入abe8869。完整单战／恢复／播放／界面、固定字体与基础音画设置，新增失焦暂停、公开卡面和运行材质样板；唯一工程为[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)。设计CORE-060—062及EX-002，视觉Blender v02；旧0.1／0.2／0.3包保留，正式音画质量与真人体验未完成。
 
-> 当前调度（2026-10-13）：**优先整改桌面塑料感、主页面文字框、主卡片模型与摆放、过宽槽位。** [四项计划与分工](production-plan.md#physical-table-rework-2026-10-13)均为Planned / NotStarted；D先设计，文本框按文字结构→HTML→美术示意确定后再由A／B实现，完成后接续其他卡链与系统页。首批守护链核心352项、两档各38项[限定技术证据](E:/Project/yanzhou-godot/docs/reviews/2026-10-13-batch-08-integration.md)保留，但不代表本轮用户视觉验收。完整新单战、实际OS操作和性能仍待后续。
+> 当前调度（2026-10-14）：**DC-v01已交付，用户授权继续真实牌桌及动画。** 既有「言咒设计对接」持续D复核；总控提供画面／接线／包验，A负责同身份与交互，B负责几何／材质／光影。当前[运行制作与限定证据](E:/Project/yanzhou-godot/docs/reviews/2026-10-14-demoncards-integration.md)和[设计包](../visual/demoncards-reference-2026-10-14/design-review-v01.md)独立定位；原0.4／第八批包、失败及未完成性能保持历史范围。
 
 ## 当前开发入口
 
@@ -10,7 +12,9 @@
 
 | 需要什么 | 唯一入口 |
 | --- | --- |
-| 当前四项视觉整改、设计顺序与agent分工 | [正式开发计划](production-plan.md#physical-table-rework-2026-10-13) · [具体工程所有权](E:/Project/yanzhou-godot/docs/coordination/2026-10-13-batch-08-plan.md) |
+| 原桌／布／卡与字体接入 | [第十二批记录](reports/demoncards-assets-2026-10-15.md) · [真实画面](E:/Project/yanzhou-godot/evidence/development-batch-12/captures/index.html) · [新Windows包](E:/Project/yanzhou-godot/build/development-batch-12/original-assets-01/windows/Yanzhou.exe) |
+| 当前DC-v01制作与agent分工 | [正式开发计划](production-plan.md#physical-table-rework-2026-10-13) · [具体工程所有权](E:/Project/yanzhou-godot/docs/coordination/2026-10-14-demoncards-plan.md) |
+| Demoncards参照与真实重制预览 | [取证／未知边界](reports/demoncards-reference-2026-10-14.md) · [第九批运行报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-14-demoncards-integration.md) · [Windows预览](E:/Project/yanzhou-godot/build/development-batch-09/preview-01/windows/Yanzhou.exe) |
 | 基础逻辑之后：画面、资产、动作、UI与完整单战 | [成品 Demo HTML 任务表](demo-quality-taskboard.html)（52项必做＋4项后续；含依赖、产物和验收） |
 | 开发总控、并行分工与首版保全 | [2026-10-11 总控首轮](reports/demo-control-2026-10-11.md) · [实现仓库当前调度](E:/Project/yanzhou-godot/README.md) |
 | 类似游戏使用的引擎与选型依据 | [2026-10-11引擎调研](reports/similar-game-engine-research-2026-10-11.md) |

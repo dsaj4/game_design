@@ -1,0 +1,86 @@
+{
+  "artifact": "design-v01.html",
+  "date": "2026-10-14",
+  "input": "CUA browser locators / DOM, not Godot or OS game input",
+  "viewports": [
+    {
+      "cardHeight": 181.6425018310547,
+      "cardWidth": 125.75252532958984,
+      "columns": 7,
+      "height": 1080,
+      "mainNumberFont": "23px",
+      "sceneWidth": 1862.9998779296875,
+      "width": 1920,
+      "mainNumberPx": 26.78062324523926
+    },
+    {
+      "cardHeight": 127.6274871826172,
+      "cardWidth": 88.35750579833984,
+      "columns": 5,
+      "height": 768,
+      "mainNumberFont": "23px",
+      "sceneWidth": 1309,
+      "width": 1366,
+      "mainNumberPx": 18.816875
+    }
+  ],
+  "cases": [
+    {
+      "name": "完工显牌",
+      "caption": "来源亮起后，同一张护盾牌在第3刻原位显现；不从法器飞来。",
+      "state": "已提交事实的表现示意"
+    },
+    {
+      "name": "原位使用",
+      "caption": "第3拍护盾+4、记次+1；原位卡边与真实玩家局部效果同时开始。",
+      "state": "已提交事实的表现示意"
+    },
+    {
+      "name": "r揭示",
+      "caption": "程序2已在r4公开：攻击6，T8，目标玩家。牌面仅展示已经公开的信息。",
+      "state": "已提交事实的表现示意"
+    },
+    {
+      "name": "公开牌转位",
+      "caption": "合法回看位置5并继续的示例：显示2—8，真实第4拍；新公开牌从r4的显示位转到T8，不改规则时点。",
+      "state": "已提交事实的表现示意"
+    },
+    {
+      "name": "暂停取消",
+      "caption": "取消后立即真实末态：护甲4、次数1；无旧护盾卡、光或轨迹残留。",
+      "state": "示意暂停 · 规则不推进"
+    },
+    {
+      "name": "法器近观",
+      "caption": "法器图形近观：当前批次、冻结D、余拍、完工与未来设置分开。",
+      "state": "近观暂停 · 静态进入／退出"
+    },
+    {
+      "name": "暗牌近观",
+      "caption": "暗牌近观仅程序2／r4／攻击；没有T、量值、目标或提前翻面。",
+      "state": "近观暂停 · 静态进入／退出"
+    },
+    {
+      "name": "消费锁",
+      "caption": "消费锁演示采用已知9层样例：输入数量明确提交，超量全拒绝，不暗改成可用量。",
+      "state": "近观暂停 · 静态进入／退出"
+    },
+    {
+      "name": "保存错误",
+      "caption": "图形保存错误页：保留同一结果并停止后续不可逆提交；提供明确重试。",
+      "state": "近观暂停 · 静态进入／退出"
+    }
+  ],
+  "checks": {
+    "guardPlanReadonly": true,
+    "resizeDraftPreserved": true,
+    "observedOverLockReject": true,
+    "observedZeroDisabled": true,
+    "observedLegalLockAndReturnSource": true,
+    "observedFailureBlocksContinueUntilRetry": true,
+    "syntaxCheck": "node --check passed",
+    "playerAttackSourceIsolated": true,
+    "reducedMotionNoGhost": true
+  },
+  "consoleErrors": []
+}

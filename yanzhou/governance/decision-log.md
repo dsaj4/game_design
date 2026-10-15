@@ -595,3 +595,9 @@ Accepted / physical-table.1。总控直接读取方向消息 `01a12f52-8c23-7161
 Accepted / DevelopmentPolicy。用户直接消息 `01a12f65-1b8e-7192-97ed-eb246bc10f65` 要求复用后端、重做交互表现，并由设计agent对每项重点交互依次完成文字结构、HTML示意、美术效果示意、真实实现。总控已读原消息核实，纳入[开发规范第9节](../development/development-standard.md#9-每项重点交互的四阶段制作)。
 
 各阶段有可查看产物及复核，设计agent负责连续性，总控负责集成和恢复。复用既有DQ表，不把全局效果图或旧HUD技术验收当作全部重点交互完成；不新增逐页审批、玩法或实验授权。第07轮裁决闭合后先推进设计制作，真实实现仍须前三阶段及具体恢复记录。
+
+### 2026-10-14：CORE-063 展示修订 physical-table.2
+
+依据[本聊天用户原话与继续制作授权](../sources/inbox/2026-10-14-demoncards-presentation.md)及原D的[三阶段交付](../visual/demoncards-reference-2026-10-14/design-review-v01.md)，总控完成[M／P／E／D来源链](../sources/draft-changes/D-2026-10-14-demoncards-presentation.md)。必要名称／精确值／公开状态允许绑定3D物件的精简只读容器与悬停／键盘短提示；提示不暂停、不提交、不揭示。静态近观、原位Completion／Use、公开信息、消费锁与暂停继续有效；未暂停的新公开事实可作同身份r→T展示转位，不改真实队序或结算。
+
+沿用CORE-063，无新玩法编号；尺寸／材质／时长为本轮可逆制作参数。Demoncards作为第一表现参照，新Godot视觉／动作／输入／用户接受分别取证；来源资格和制作授权不证明体验成立。

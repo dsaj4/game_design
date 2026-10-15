@@ -26,3 +26,4 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 ## TL-1
 
 - [P-2026-10-01-timeline-production-system](P-2026-10-01-timeline-production-system.md)：时间产线核心与卡表重设计提案。
+2026-10-14：[表现衔接提案](P-2026-10-14-demoncards-presentation.md)，基于用户继续制作授权与DC-v01；真实运行结果另登记。

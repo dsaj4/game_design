@@ -257,6 +257,34 @@ AS-G002-004为2026-10-02的后续登记，使用该行独立固定提交，不�
 用户已完成界面设计并进入正式开发准备。当前使用DM-G002-010@HTML-10、AS-G002-008@ART-01、AS-G002-009@COMPONENTS-01、AS-G002-010@3D-02；AS-G002-005@v02仅补充同刻对齐语义。用途与实际核验集中见[开发资产接入](../../yanzhou/development/asset-readiness.md)。
 
 本轮逐文件复核5包75文件与原manifest哈希一致，GLB元数据解析及v02主渲染目视完成；未重跑Blender、浏览器、引擎或玩法。接入尚为计划关系，没有把资源复制到运行工程。旧记录中的“未建模／待评审”保留其原日期范围，当前建模入口为3D-02；原件、旧版本及来源／分发条件不变，不新增AS／DM身份。
+## 2026-10-14 Demoncards 第一表现参照与真实制作
+
+### <a id="as-sh-002"></a>AS-SH-002 Demoncards 本机游戏与有界取证包
+
+- 归属：shared-reference；原件在[E:/Game/Demoncards](E:/Game/Demoncards/verified-2026-10-14/source-manifest-v01.json)，维护说明为[言咒本次限定取证](../../yanzhou/development/reports/demoncards-reference-2026-10-14.md)。类型：用户提供第三方游戏、两篇分析报告、OBJ、静态解析、截图／录屏；标签：纸牌、牌桌、UE曲线、材质。
+- 固定版本：DEMONCARDS-REFERENCE-2026-10-14-v01，源清单所列10件原物与SHA-256；主pak指纹`c61d079f5a853f51b52b81d1799f8c3595b8a2d079a1d449329af4597075ebd4`。类型化证据指纹`1eb267f32f31c0b00718eb01f176eefc2d4b3fdb01ac4346e0045311ff0d6aa2`；运行帧／媒体位于同包verified-2026-10-14。固定范围为清单和本轮报告明确文件，不把整个可变目录当固定版。
+- Catalogued / PresentLocal，2026-10-14核查原件哈希、局部卡网格和31项UE导出；菜单／教程／选牌实际观察，物品成功使用、详情、完整移动触发及精确测时未取得。局部网格600×10.0002×800不等于世界单位，原Card.obj失败拓扑保留，Card_fixed闭合版另列。
+- 使用者：DM-G002-013／AS-G002-015／AS-G002-016／DM-G002-011第九批，均为视觉／几何关系参照。uses: None；derived-from: None。原游戏再分发／改作权Unknown；本轮只在用户授权范围本机内部取证，不上传原exe、pak、提取缓存，不向言咒包导入其原始像素／网格／音频／文本。跨项目引用不继承言咒资格、规则或验证。
+
+### <a id="dm-g002-013"></a>DM-G002-013 Demoncards 风格言咒设计交接HTML
+
+- 归属：game-002 / main；维护者既有「言咒设计对接」，[文字结构](../../yanzhou/visual/demoncards-reference-2026-10-14/design-v01.md)、[可操作HTML](../../yanzhou/visual/demoncards-reference-2026-10-14/design-v01.html)、[前三阶段复核](../../yanzhou/visual/demoncards-reference-2026-10-14/design-review-v01.md)。类型：独立设计原型；标签：牌桌、必要文本、薄纸牌、触发、移动、近观。
+- 固定DC-v01，设计包清单SHA-256 `d0154eabed4351613c001cf7ac329a9652807522d5cf879fd9957b16f8ae8212`，[完整范围／逐文件哈希](../../yanzhou/visual/demoncards-reference-2026-10-14/design-manifest-v01.json)。ReadyForScope（两档HTML列明路径）/ PresentLocal，2026-10-14由D实际浏览器核查，记录在清单；非真实规则Demo，真实包单列DM-G002-011。
+- uses: AS-SH-002@REFERENCE-v01（视觉参照）、AS-G002-015@DC-ART-01（制作对照）；derived-from: None。沿CORE-063／EX-002的公开／受理／停点，html动作快照不是后端状态依据。原创HTML/CSS/脚本、系统字体不嵌入，可在本项目改作；公共分发许可未另定。来源材料资格与展示衔接见physical-table.2，浏览器通过不等于用户视觉接受或玩法成立。
+
+### <a id="as-g002-015"></a>AS-G002-015 DC-v01 牌桌与动作美术示意包
+
+- 归属：game-002 / main；[原件画册／说明](../../yanzhou/visual/demoncards-reference-2026-10-14/art-v01/README.md)、[预览](../../yanzhou/visual/demoncards-reference-2026-10-14/art-v01/index.html)、[实际提示词](../../yanzhou/visual/demoncards-reference-2026-10-14/art-v01/prompts.md)。固定DC-ART-01，范围由上方DC-v01清单固定。
+- 4张选用PNG，1672×940／941，另保留2张失败PNG、布局输入与HTML浏览器证据；不把失败帧替换成成功。02-actions第三帧错误■攻击角标明确排除，正确Move采用04-card-move；图片Q4省略不能改变真实Q5。
+- ReadyForScope（D设计制作对照）/ PresentLocal，D已目视候选与列明缺口；内置image_gen生成，用户已授权后续真实制作。uses: DM-G002-013@DC-v01布局、AS-SH-002@REFERENCE-v01仅风格参照；derived-from: None（独立新图）。使用者DM-G002-011／AS-G002-016作为制作参照，未整图贴进游戏。允许本项目继续改作，公开分发许可未另定；不宣称3D资产或真实运行已验。
+
+### <a id="as-g002-016"></a>AS-G002-016 DC 真实牌桌重制几何与自制材质
+
+- 归属：game-002 / main；[B制作报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-14-demoncards-b.md)、[几何源](E:/Project/yanzhou-godot/godot/DemoncardsTableGeometry.cs)、[实际材质源](E:/Project/yanzhou-godot/godot/DemoncardsSurfaceMaterials.cs)。代码在唯一实现仓库；图片原件在godot/assets/demoncards-v01，固定清单为[DC-ASSETS-01](E:/Project/yanzhou-godot/docs/coordination/demoncards-assets-v01.json)／[DC-MATERIAL-TUNE-02](E:/Project/yanzhou-godot/docs/coordination/demoncards-materials-v02.json)，指纹分别`98d8738724ea4ff34cb9ed9bc3f29ef567c4d3e68a9a2846e9b51263f419c843`／`cf92697a73b981fff56b217d501b46849148103e72c63f4c0322386fcd5ab791`。
+- 7张v01与8张修订v02 PNG，512×512；PBR RGB木／布／纸、RGBA独立墨绘／完整背纹。薄卡、窄槽、木桌／刺绣布、车制棋子、切面晶体、书页／旧铜器与筹码由代码生成；Godot坐标Y向上，网格／材质依赖随实现说明，不是参考游戏世界单位复制。生成器及重建／指纹校验留实现仓库；旧v01与失败截图完整保留。
+- Catalogued / PresentLocal，2026-10-14生成与15图哈希校验；最终两档／包验／D复核按[集成报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-14-demoncards-integration.md)实际范围登记。uses: DM-G002-013@DC-v01、AS-G002-015@DC-ART-01、AS-SH-002@REFERENCE-v01（只参照结构／材质语言）；derived-from: None（独立代码／像素重建）。运行依附AS-G002-010原GLB宿主，原GLB、原卡图字节不改。本项目自制允许内部复用；原游戏像素／网格未导入，公开发布未授权。
+
+使用关系：DM-G002-011第九批真实Godot预览→AS-G002-016实际运行导入；DM-G002-013／AS-G002-015制作对照不作为全屏贴图。旧DM-G002-012、AS-G002-013／014及旧包保留原版本，不以新图覆盖其历史结论。
 
 ## 2026-10-14 组件细节重新设计
 
@@ -321,3 +349,17 @@ A/B/C/D按米制可编辑源、独立GLB/PBR、枢轴/轴向/尺寸及源重开/
 - 归属：game-002 / main；字体比较；维护[字体调查](../../yanzhou/visual/ui-review-2026-10-15/fonts-v01.md)，供DM-G002-015内部审阅使用。FONT-CANDIDATES-01，原件 `E:/Project/yanzhou-godot/evidence/development-batch-11/ui-review-v01/fonts/`；固定文件清单、下载URL、大小／SHA及许可SHA见DM015代码提交中的data.json。ReadyForScope / PresentLocal，仅本轮503字技术覆盖及浏览器同尺寸对照。
 - Noto Serif CJK SC Regular 2.003，官方源提交 `9b0f1436e455d902de067a2501422e5dc71ad16b`，文件SHA `2a2eae2628df83556c54018c41e20fa532c1b862c5256ae8b3f23feb918d12ca`；LXGW WenKai Regular 1.522，官方发布tag v1.522，文件SHA `39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009`。均原始未修改文件、原OFL1.1逐份保留；软件嵌入／捆绑按原文保留版权许可、不得单售字体、修改版本遵守保留名称条件。未安装字体、未付费授权或公开发布。
 - 每个主字体503测试字，本体缺✱，配AS-G002-011的Symbols2后无缺字；其他字重与罕见字、Godot基线／fallback和成本未验。不由此认定全中文字库或全游戏选型。来源官方URL和权利原文见维护页；字体最终选择待用户逐组件审阅。
+
+## AS-G002-025 恶魔牌原资源本机适配包
+
+- 归属：game-002 / main；原桌、桌布、卡牌网格与纹理。源文件沿AS-SH-002本机固定pak；[接入清单](E:/Project/yanzhou-godot/docs/coordination/2026-10-15-demoncards-asset-integration.md)与[原资源固定清单](E:/Project/yanzhou-godot/docs/coordination/demoncards-original-assets-v01.json)。
+- 版本 DEMONCARDS-ORIGINAL-01；具体源/导出SHA、顶点/UV/纹理尺寸、轴向与运行缩放见清单。原件在E:/Game/Demoncards，派生在唯一代码仓库ignored的godot/assets/demoncards-original-v01，原第三方二进制不提交。
+- ReadyForScope / PresentLocal（本机接入限定范围）。原3模型+5纹理已导出，实际运行为3模型+3纹理，另两图保留来源；源码修正轮两档各72项通过，独立包/设计复核见[本轮记录](../../yanzhou/development/reports/demoncards-assets-2026-10-15.md)。uses: AS-SH-002、DM-G002-013及当前组件合同；derived-from: AS-SH-002@DEMONCARDS-REFERENCE-2026-10-14-v01。使用者DM-G002-011第十二批；原游戏资源再分发条件Unknown，本次没有公开上传。
+
+## AS-G002-026 恶魔牌字体对应作者原版包
+
+- 归属：game-002 / main；全濑体1.11和狮尾B2宋朝简中Regular/Bold，直接从原作者渠道取得；[固定下载与字形清单](E:/Project/yanzhou-godot/docs/coordination/demoncards-fonts-v01.json)、[字体接入报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-15-demoncards-fonts-a.md)。
+- 版本 demoncards-fonts-v01；作者下载URL、Swei固定commit、原文件/原OFL SHA与实际字形覆盖在清单。三份TTF放代码仓库ignored字体目录，原许可证跟随代码和本机包；没有全局安装字体。游戏清单只证明家族/字重存在，不证明每个页面原字重或作者文件与游戏内文件字节一致。
+- ReadyForScope / PresentLocal（本机接入限定范围）。2026-10-15原件指纹及348字符合并覆盖通过；全濑体短标题、Swei Regular正文、真实Bold常驻精确值，修正轮两档各72项通过。字体字节和两份原OFL随包核对；完整检查见[本轮记录](../../yanzhou/development/reports/demoncards-assets-2026-10-15.md)。uses: AS-G002-011符号/中文覆盖回退；derived-from: None（作者原版未修改）；使用者DM-G002-011第十二批。沿两份原OFL保留版权/许可证，具体条款按原文，不由参考游戏的资源许可代替字体授权。
+
+DM-G002-011第十二批使用补记：GODOT-DEMONCARDS-ASSETS-B12-01，本机独立预览；固定代码 `8d22262dfa4a3cf9cdc96cae5f9994f27608cafe`，使用AS-G002-025/026，保留AS-G002-018—023其他组件及既有动作。原桌/布/牌只替换对应外观，旧源件和包不覆盖。[范围与证据入口](../../yanzhou/development/reports/demoncards-assets-2026-10-15.md)记录实际源码、包、D限定复核；OS、性能、用户最终美术接受不由此升级。

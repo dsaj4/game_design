@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "version": "YANZHOU-DEMONCARDS-REVIEW-V05",
+  "date": "2026-10-14",
+  "timezone": "America/New_York",
+  "project": "game-002",
+  "scope": "R4-R9 replies reconciled with already accepted CORE-061 to CORE-063; no new design requirements",
+  "predecessors": [
+    {
+      "path": "E:\\Project\\game\\yanzhou\\visual\\demoncards-reference-2026-10-14\\design-manifest-v01.json",
+      "bytes": 10292,
+      "sha256": "d0154eabed4351613c001cf7ac329a9652807522d5cf879fd9957b16f8ae8212"
+    },
+    {
+      "path": "E:\\Project\\game\\yanzhou\\visual\\demoncards-reference-2026-10-14\\design-manifest-v02.json",
+      "bytes": 1733,
+      "sha256": "1722f6ede3fafdf9fdacf8c7feeada83bf0b9cdcf82b009b714edcb207ba3dbe"
+    },
+    {
+      "path": "E:\\Project\\game\\yanzhou\\visual\\demoncards-reference-2026-10-14\\design-manifest-v03.json",
+      "bytes": 3832,
+      "sha256": "d3dd64bea5c10143f29308a008fc12bb6e3e9b3554f2480da310eb25d8897dda"
+    },
+    {
+      "path": "E:\\Project\\game\\yanzhou\\visual\\demoncards-reference-2026-10-14\\design-manifest-v04.json",
+      "bytes": 2781,
+      "sha256": "7b2a8fc4c2b303805b60dbc3584b6a4f5cc10d7ab7f5c279ed23dbb77f376817"
+    }
+  ],
+  "authorityReadAtReview": [
+    {
+      "path": "E:\\Project\\game\\yanzhou\\design\\common\\interaction-save\\rules.md",
+      "bytes": 25129,
+      "sha256": "98e167066e585e57e069d85301c2f5cf9a1cf328fbe8a6685b3d6e8f7b2d0553"
+    },
+    {
+      "path": "E:\\Project\\game\\yanzhou\\design\\common\\interaction-save\\design.md",
+      "bytes": 1901,
+      "sha256": "4d0b3fe7c688c482580685ec827d2b693502109deb9e4a25bf501c35e922ca0b"
+    },
+    {
+      "path": "E:\\Project\\game\\yanzhou\\sources\\draft-changes\\D-2026-10-14-demoncards-presentation.md",
+      "bytes": 1986,
+      "sha256": "2de149e557c1a49bf08d28bf7a105e77c44922a5458c8153a3ff2a345843235c"
+    }
+  ],
+  "frozenOutputChecks": {
+    "checked": 22,
+    "mismatches": []
+  },
+  "newOutputs": [
+    {
+      "path": "E:\\Project\\game\\yanzhou\\visual\\demoncards-reference-2026-10-14\\design-review-v05.md",
+      "bytes": 3982,
+      "sha256": "dd9966994401d2aefe263ede42e9f664c3b873d67c3560ec67b049909733c4a2"
+    }
+  ],
+  "status": {
+    "decisionReconciliation": "AlreadyAccepted; no new decision or user questions",
+    "source06": "Historical failed candidate per coordinator; no image review in this v05",
+    "source07": "Pending new two-resolution evidence; no source07 inputs in this v05",
+    "finalStage4": "Pending source07+",
+    "runtimeCodeReadOrChangedByD": false,
+    "newRuntimeExecutionByD": false,
+    "sharedAuthorityEditedByD": false,
+    "gitCommitOrPushByD": false
+  },
+  "branch": "codex/2026-10-11-demo-control"
+}

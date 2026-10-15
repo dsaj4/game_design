@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "version": "YANZHOU-DEMONCARDS-REVIEW-V09",
+  "date": "2026-10-14",
+  "timezone": "America/New_York",
+  "project": "game-002",
+  "owner": "D / existing design liaison",
+  "scope": "Source15 two-resolution visual review: 38 actual images, five mandatory corrections closed for reviewed scope",
+  "predecessors": [
+    {
+      "path": "E:\\Project\\game\\yanzhou\\visual\\demoncards-reference-2026-10-14\\design-manifest-v01.json",
+      "bytes": 10292,
+      "sha256": "d0154eabed4351613c001cf7ac329a9652807522d5cf879fd9957b16f8ae8212"
+    },
+    {
+      "path": "E:\\Project\\game\\yanzhou\\visual\\demoncards-reference-2026-10-14\\design-manifest-v02.json",
+      "bytes": 1733,
+      "sha256": "1722f6ede3fafdf9fdacf8c7feeada83bf0b9cdcf82b009b714edcb207ba3dbe"
+    },
+    {
+      "path": "E:\\Project\\game\\yanzhou\\visual\\demoncards-reference-2026-10-14\\design-manifest-v03.json",
+      "bytes": 3832,
+      "sha256": "d3dd64bea5c10143f29308a008fc12bb6e3e9b3554f2480da310eb25d8897dda"
+    },
+    {
+      "path": "E:\\Project\\game\\yanzhou\\visual\\demoncards-reference-2026-10-14\\design-manifest-v04.json",
+      "bytes": 2781,
+      "sha256": "7b2a8fc4c2b303805b60dbc3584b6a4f5cc10d7ab7f5c279ed23dbb77f376817"
+    },
+    {
+      "path": "E:\\Project\\game\\yanzhou\\visual\\demoncards-reference-2026-10-14\\design-manifest-v05.json",
+      "bytes": 2775,
+      "sha256": "539234030c64d75a2675ced1f95adb067486ae8c1be20717a975decf909c048b"
+    },
+    {
+      "path": "E:\\Project\\game\\yanzhou\\visual\\demoncards-reference-2026-10-14\\design-manifest-v06.json",
+      "bytes": 5500,
+      "sha256": "2df3ac02390281d8be8663753542e2b821aba4d5cefe458c9391d2656d5d5167"
+    },
+    {
+      "path": "E:\\Project\\game\\yanzhou\\visual\\demoncards-reference-2026-10-14\\design-manifest-v07.json",
+      "bytes": 3827,
+      "sha256": "5bd78778da73e7076fa0afcff5d11db11c413d8effa75ce5ce83dbaf4991b977"
+    },
+    {
+      "path": "E:\\Project\\game\\yanzhou\\visual\\demoncards-reference-2026-10-14\\design-manifest-v08.json",
+      "bytes": 4604,
+      "sha256": "6d9e157ea6ab194924714968fd7fd398cfbe4599608271295403ba9be5724435"
+    }
+  ],
+  "runtimeImages": [
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1920x1080\\04-dark-closeup.png",
+      "bytes": 697543,
+      "sha256": "bc4f6554d0c998713eef75449d86629d76271abaf35885f4c3e625ff968dd391",
+      "reviewResolution": "1920x1080"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1920x1080\\05-resource-closeup.png",
+      "bytes": 621181,
+      "sha256": "625f954da9d0914fba931e720ad9b01976591f873ba3627ed04412e6e1543655",
+      "reviewResolution": "1920x1080"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1920x1080\\06-guard-closeup.png",
+      "bytes": 678490,
+      "sha256": "9330fba1f2b99200a5209ebae4a24f4e0555e50fedd58f8340f03812115a6575",
+      "reviewResolution": "1920x1080"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1920x1080\\07-completion-source.png",
+      "bytes": 1874904,
+      "sha256": "49a9b4d01a9c3eaf8afad03e3fcdf4478801257f834c6c4ea2668521459a64ae",
+      "reviewResolution": "1920x1080"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1920x1080\\08-completion-appear.png",
+      "bytes": 1904024,
+      "sha256": "338539bf7cfa91009d9231eb263d70e2bef4c489c25b91d8167335849a8e1f12",
+      "reviewResolution": "1920x1080"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1920x1080\\09-completion-paused.png",
+      "bytes": 1903803,
+      "sha256": "a0a0237574f56b513fe211564bf6cec761bc36c107cea8a75031c77153344a14",
+      "reviewResolution": "1920x1080"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1920x1080\\10-card-closeup.png",
+      "bytes": 712733,
+      "sha256": "803d7e9225782d6d83e2eb7aaaa55faffc9f10854fc11c9d4f9b5a8cf7dc8e20",
+      "reviewResolution": "1920x1080"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1920x1080\\11-shield-use.png",
+      "bytes": 1903264,
+      "sha256": "2ae3214662fb36d28febbbbe8314fabc1d843b8e013fe502c12f642c881d9bfa",
+      "reviewResolution": "1920x1080"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1920x1080\\12-departed.png",
+      "bytes": 1881499,
+      "sha256": "857fc8720f5c3c17cf5a669533355909e16073d6c4dd5dc70d5f5857ad30d071",
+      "reviewResolution": "1920x1080"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1920x1080\\13-final-tabletop.png",
+      "bytes": 1878825,
+      "sha256": "3c229f16964410eb07c4b9c8a7d8255ecf0ecf75541e3cc661b2e9142f5bad71",
+      "reviewResolution": "1920x1080"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1920x1080\\demon-03-reveal-start.png",
+      "bytes": 1910088,
+      "sha256": "01c39ed07f792757699d5e70be8a2de173e12440d6b7ddc2a688790d14a9d183",
+      "reviewResolution": "1920x1080"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1920x1080\\demon-04-reveal-mid.png",
+      "bytes": 1901186,
+      "sha256": "737af1be41fe004af8345461c4c97693ba390c932f55156dd3364ab1ac415e36",
+      "reviewResolution": "1920x1080"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1920x1080\\demon-05-reveal-click.png",
+      "bytes": 695238,
+      "sha256": "ea94e6c6b42a8e7448f9a92423f190b9980d90880d3657e475bdd7a2bd86b207",
+      "reviewResolution": "1920x1080"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1920x1080\\demon-06-reveal-finish.png",
+      "bytes": 1898776,
+      "sha256": "1d9247ba3a6a7a9d1bde35b6260f9ba439114005a9c061bb8daa848b30dfe32b",
+      "reviewResolution": "1920x1080"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1920x1080\\demon-07-lock-detail.png",
+      "bytes": 669188,
+      "sha256": "274e46b7b1202c2b4f479c2cd3b2b480083c737ae2dd6929ed280857e87783e6",
+      "reviewResolution": "1920x1080"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1920x1080\\demon-08-save-error.png",
+      "bytes": 1020787,
+      "sha256": "b8d8f848461a30714484a190c060cb6a095b9b5ade5be5ba8520297a09e095ff",
+      "reviewResolution": "1920x1080"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1920x1080\\demon-09-player-attack.png",
+      "bytes": 1889356,
+      "sha256": "9a16c6ac869c9cc1fb1430c954cb1a100b7a8da5abf30de1b1c27866d5148b2a",
+      "reviewResolution": "1920x1080"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1920x1080\\demon-10-enemy-attack.png",
+      "bytes": 1881074,
+      "sha256": "58b709480741ea4be52a06e14ad5471bddf66476029ddfa15a1744576ceb102a",
+      "reviewResolution": "1920x1080"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1920x1080\\demon-11-interrupt.png",
+      "bytes": 1923930,
+      "sha256": "cb4201ba86d0eb2a3ad37d2124b45cbddac8cf92b6b3644708846dd8109a032a",
+      "reviewResolution": "1920x1080"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1366x768\\04-dark-closeup.png",
+      "bytes": 370610,
+      "sha256": "fba7592506b1623a7526c3a9b00b4a143e3f87a415c8f0a64e23804e2639dada",
+      "reviewResolution": "1366x768"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1366x768\\05-resource-closeup.png",
+      "bytes": 338282,
+      "sha256": "1bb0dfd87d05a5a568ae70ac95127a007c89581a7b485909a00ee3efba15fbdd",
+      "reviewResolution": "1366x768"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1366x768\\06-guard-closeup.png",
+      "bytes": 363672,
+      "sha256": "d43ca9a8a4896c0f9c64ddf8bf745aec55a6a8611715cd33babadfd1437d0ca8",
+      "reviewResolution": "1366x768"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1366x768\\07-completion-source.png",
+      "bytes": 960332,
+      "sha256": "2aed2725fed2c5401c651bafbfab200c523bbc7dc327ab68954ab886d75f2398",
+      "reviewResolution": "1366x768"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1366x768\\08-completion-appear.png",
+      "bytes": 977912,
+      "sha256": "aae9a64833c81be9f060d232214a864b3da63dea4dac4020a9e63013897e0413",
+      "reviewResolution": "1366x768"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1366x768\\09-completion-paused.png",
+      "bytes": 976049,
+      "sha256": "ebca59065246df375fcfabe5dc5dc892962a57b2d656bfd6468bcd9fc72d13bb",
+      "reviewResolution": "1366x768"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1366x768\\10-card-closeup.png",
+      "bytes": 389216,
+      "sha256": "52dfa75ead54793989decbccdf55a07a4b99fb00179060560ac8ac4898dc3903",
+      "reviewResolution": "1366x768"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1366x768\\11-shield-use.png",
+      "bytes": 966858,
+      "sha256": "5c8762ec859eb97954b5bcda6729827573d24699f228c564be04acd65beac191",
+      "reviewResolution": "1366x768"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1366x768\\12-departed.png",
+      "bytes": 961309,
+      "sha256": "69b536fd6f0fe91d9dd4f041768c24657281af821034a4aa9ad7763f17d0f6d8",
+      "reviewResolution": "1366x768"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1366x768\\13-final-tabletop.png",
+      "bytes": 963826,
+      "sha256": "3cf659673bb3a5a8d9549464c87e1e24e3a537db4dd0c8c18e4d26a6ab484904",
+      "reviewResolution": "1366x768"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1366x768\\demon-03-reveal-start.png",
+      "bytes": 986632,
+      "sha256": "401d2de36f322608faeaee76768575e362553b0b8c0fca74664f7f0b192db211",
+      "reviewResolution": "1366x768"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1366x768\\demon-04-reveal-mid.png",
+      "bytes": 981617,
+      "sha256": "11963022788c16ee98259b81cab9f77032077b8abe756e49c96f8ec40bdc8eb2",
+      "reviewResolution": "1366x768"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1366x768\\demon-05-reveal-click.png",
+      "bytes": 381083,
+      "sha256": "c6581a785bf0ba3357a59743c9fa0e90831235560ea809b6587844423307b10a",
+      "reviewResolution": "1366x768"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1366x768\\demon-06-reveal-finish.png",
+      "bytes": 979459,
+      "sha256": "f3327080f092046a1218c96bcc14c4e802d33f69fa57b69e8bfdec4ed108a1fc",
+      "reviewResolution": "1366x768"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1366x768\\demon-07-lock-detail.png",
+      "bytes": 361525,
+      "sha256": "39282bfaca2a1b752b40a052524b10264e66bf97beeb656ca322b0ff6ec6a821",
+      "reviewResolution": "1366x768"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1366x768\\demon-08-save-error.png",
+      "bytes": 458136,
+      "sha256": "9d126a74a3fa386a867276321afe686addb5d22864c403f06f615f150cc9537e",
+      "reviewResolution": "1366x768"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1366x768\\demon-09-player-attack.png",
+      "bytes": 972534,
+      "sha256": "a4da0cb221684d9ac92b5fe77fef1820b6d8c65dfee67d22fbe2febbf37790f7",
+      "reviewResolution": "1366x768"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1366x768\\demon-10-enemy-attack.png",
+      "bytes": 969584,
+      "sha256": "a7f486757a19912f73472cf38e63fe6fcd74d18b158993f5fc2795547d028495",
+      "reviewResolution": "1366x768"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-09\\source-physical-15\\1366x768\\demon-11-interrupt.png",
+      "bytes": 987751,
+      "sha256": "3d7594df75b28078ba19230dbd384df6a789c0a96362894ba1516982e77c7011",
+      "reviewResolution": "1366x768"
+    }
+  ],
+  "frozenOutputChecks": {
+    "checked": 26,
+    "mismatches": []
+  },
+  "newOutputs": [
+    {
+      "path": "E:\\Project\\game\\yanzhou\\visual\\demoncards-reference-2026-10-14\\design-review-v09.md",
+      "bytes": 6694,
+      "sha256": "67849f6b12740a9bb804cc1a148912e9bdbc8a759f11cc2132825f7e68e3db36"
+    }
+  ],
+  "status": {
+    "stage4": "LimitedForScope",
+    "mandatoryVisualCorrections": "ClosedForReviewedScope",
+    "runtimeChecks": "Coordinator reported complete 61/61 and font gate Pass per resolution; not rerun by D",
+    "source15": "Current fixed source candidate per coordinator",
+    "sourceCommit": "Unknown to D; coordinator fixing code version",
+    "packageVerification": "Pending coordinator independent package evidence",
+    "userFinalArtAcceptance": "NotRecorded",
+    "completeDQ": "NotClaimed",
+    "demoncardsFrameExactUseReplication": "NotClaimed",
+    "runtimeCodeReadOrChangedByD": false,
+    "runtimeLogsReadByD": false,
+    "newRuntimeExecutionByD": false,
+    "newUserQuestions": 0
+  },
+  "coverageLimits": [
+    "Card inspection page2 entry/earliest fields not read",
+    "768 card inspection top phase tag partially overlaps first explanatory line; primary Q/source/quantity visible",
+    "Other start/help/settings/result/system pages not visually reviewed by D",
+    "Static images do not independently prove input, timing, audio, OS focus or long test",
+    "Same-T overlapping card layout not certification of every click path"
+  ],
+  "branch": "codex/2026-10-11-demo-control",
+  "commitByD": false,
+  "pushByD": false
+}

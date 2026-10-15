@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "version": "ORIGINAL-ASSETS-D-REVIEW-V02",
+  "date": "2026-10-15",
+  "timezone": "America/New_York",
+  "project": "game-002",
+  "scope": "Ten actually viewed source-original-03 images, five per resolution; no claim to other 58 frames",
+  "status": "LimitedForScope; no new reviewed-scope blocker",
+  "designInput": {
+    "name": "design-handoff-v01.md",
+    "path": "E:\\Project\\game\\yanzhou\\visual\\demoncards-assets-2026-10-15\\design-handoff-v01.md",
+    "bytes": 9422,
+    "sha256": "ad63c939a1688f46c0fbddd5cc5ce834d4627077b920492a436be61e016bd8c7"
+  },
+  "predecessors": [
+    {
+      "name": "font-review-v01.md",
+      "path": "E:\\Project\\game\\yanzhou\\visual\\demoncards-assets-2026-10-15\\font-review-v01.md",
+      "bytes": 4167,
+      "sha256": "46c9026dfd6dde3ce91578de860b1093113c19cafa67409344e32bb5e112f195"
+    },
+    {
+      "name": "design-review-v01.md",
+      "path": "E:\\Project\\game\\yanzhou\\visual\\demoncards-assets-2026-10-15\\design-review-v01.md",
+      "bytes": 3717,
+      "sha256": "738a204ae40c1e286f9f3eb36470c90fbd248b8d4f6e96c90e16b7cf217665e1"
+    },
+    {
+      "name": "design-review-v01-inputs.json",
+      "path": "E:\\Project\\game\\yanzhou\\visual\\demoncards-assets-2026-10-15\\design-review-v01-inputs.json",
+      "bytes": 4957,
+      "sha256": "d143ac7842ce846adee6c0df49773422f3a58b44321d84ca5d368d6b937a126d"
+    }
+  ],
+  "images": [
+    {
+      "relativePath": "1920x1080/01-tabletop.png",
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-12\\source-original-03\\1920x1080\\01-tabletop.png",
+      "bytes": 1894268,
+      "sha256": "b2c6a6bd90e6dc4c0c342fcf7f4995ae440aa086dc36689ffd8b94bcc8b67cb4"
+    },
+    {
+      "relativePath": "1920x1080/10-card-closeup.png",
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-12\\source-original-03\\1920x1080\\10-card-closeup.png",
+      "bytes": 769375,
+      "sha256": "40dfbbb51a2524a3915e301f823c8734afe26e38787a4795e808c2518b4e2df3"
+    },
+    {
+      "relativePath": "1920x1080/demon-05-reveal-click.png",
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-12\\source-original-03\\1920x1080\\demon-05-reveal-click.png",
+      "bytes": 807761,
+      "sha256": "91c554ea19ab07213effaa5e31e4de23df5cf7ce3f09bd2494b6ea24e6a17f65"
+    },
+    {
+      "relativePath": "1920x1080/demon-07-lock-detail.png",
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-12\\source-original-03\\1920x1080\\demon-07-lock-detail.png",
+      "bytes": 795159,
+      "sha256": "07b31456ab1900c725a79b7560d3096ccb8a5d89cd48865042f75d3cad43faac"
+    },
+    {
+      "relativePath": "1920x1080/demon-08-save-error.png",
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-12\\source-original-03\\1920x1080\\demon-08-save-error.png",
+      "bytes": 1191996,
+      "sha256": "8f62516994619a5acbeca48152a27874850ffe8f66d0095658732213d31a1031"
+    },
+    {
+      "relativePath": "1366x768/01-tabletop.png",
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-12\\source-original-03\\1366x768\\01-tabletop.png",
+      "bytes": 975431,
+      "sha256": "cbaf51e7c5c23d10d135b5055bcce7abfc392070b2aea6a298902e4dbbcd57eb"
+    },
+    {
+      "relativePath": "1366x768/10-card-closeup.png",
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-12\\source-original-03\\1366x768\\10-card-closeup.png",
+      "bytes": 421898,
+      "sha256": "9c9a8f6a7c2febb0e1b823f6e6a7c9ae23c9716e91e580e39a5b9920bfdd0521"
+    },
+    {
+      "relativePath": "1366x768/demon-05-reveal-click.png",
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-12\\source-original-03\\1366x768\\demon-05-reveal-click.png",
+      "bytes": 440527,
+      "sha256": "c693e2613c544f02fc9b4e9707cef82edaf626cdecbe1ebe867f1e60cdb01d7d"
+    },
+    {
+      "relativePath": "1366x768/demon-07-lock-detail.png",
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-12\\source-original-03\\1366x768\\demon-07-lock-detail.png",
+      "bytes": 431574,
+      "sha256": "a587b1ecfc7b658109255539b6bff18bc73e0ad44e4f2e6d9982b6ef02c0af82"
+    },
+    {
+      "relativePath": "1366x768/demon-08-save-error.png",
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-12\\source-original-03\\1366x768\\demon-08-save-error.png",
+      "bytes": 598913,
+      "sha256": "41265ef20647b04321323d29612aaf3d760cc04d35a858344affa440cc992e7d"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "design-review-v02.md",
+      "path": "E:\\Project\\game\\yanzhou\\visual\\demoncards-assets-2026-10-15\\design-review-v02.md",
+      "bytes": 4484,
+      "sha256": "54d242151fec025f7be2fb48c7d56ac8af724dd3dc67c0086d739360ee6ff97a"
+    }
+  ],
+  "coordinatorReportedEvidence": {
+    "sourceChecks": "72/72 in each resolution",
+    "packageChecks": "72/72 in each resolution",
+    "packageCopy": "200 files, 364033411 bytes, all hashes equal",
+    "sourceVsPackagePng": "64 byte-identical, 4 1080 inspection images differ by 1 or 5 edge pixels each; not 68 identical",
+    "fixedCodeCommit": "8d22262dfa4a3cf9cdc96cae5f9994f27608cafe",
+    "verificationByD": "Image review only; no independent run, code/log read or package audit"
+  },
+  "limits": [
+    "Other 58 source03 frames not visually reviewed",
+    "768 orphan punctuation and forecast phrase pagination noted as nonblocking",
+    "No OS input/performance/long-test/user-final-art/complete-DQ/source-game-1:1 claim"
+  ],
+  "runtimeCodeReadOrChangedByD": false,
+  "newRuntimeExecutionByD": false,
+  "newUserQuestions": 0,
+  "branch": "codex/2026-10-11-demo-control",
+  "commitOrPushByD": false
+}
