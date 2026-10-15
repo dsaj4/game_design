@@ -1,5 +1,11 @@
 # 当前开发输入与资产接入
 
+## 2026-10-15 全部候选适配交付（B13）
+
+用户在追加盘点后明确要求「尝试全部适配接入」。[第十三批实际记录](reports/demoncards-candidates-2026-10-15.md)已交付45候选检视、6模型及9音效主桌接入；19曲线／13时间轴与有限Godot特效样例可独立查看。AS-G002-027/028登记新视觉和音频派生，AS-G002-025/026及旧组件源字节不改。源／复制包两档各80项主桌、87项检视通过，D指定16图ValidatedForScope；不扩大为主观听感、OS输入、性能或最终美术接受。
+
+后续优先复用已核运行资产，再从检视候选按宿主尺寸和用途选择。托盘、晶体不合现宿主，瓶／卡包等没有当前玩法宿主，不为凑数量强行替换；FuncCardBack原暗背身份仍Unknown。完整[逐项使用结果](E:/Project/yanzhou-godot/docs/coordination/demoncards-candidates-integration-v01.json)留实现仓库。下方盘点与B12段落保留各自发生时的状态，不代表B13仍未接入。
+
 ## 2026-10-15 追加盘点与后续复用
 
 用户明确要求后续优先使用现成资源；[开发规范第5节](development-standard.md#5-资产接入)已作为开工规则。先用当前十九组件、固定 PBR/纸页分层、B12 原桌布卡及作者字体，再按[追加候选清单](E:/Project/yanzhou-godot/docs/coordination/2026-10-15-existing-assets.md)处理卡牌/物件音效、小物件、桌布变体与局部特效；缺口才新建/生成。

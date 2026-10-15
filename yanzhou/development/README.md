@@ -1,6 +1,8 @@
 # 言咒实现与资产索引
 
-> 后续制作默认（2026-10-15）：**优先使用现成资源，缺口才新建/生成。** [追加盘点与接入顺序](E:/Project/yanzhou-godot/docs/coordination/2026-10-15-existing-assets.md)列出已运行组件、现成源库和原游戏候选；[开发规范第5节](development-standard.md#5-资产接入)记录选材要求。此次只盘点，当前包仍为 B12，候选不冒充已接入。
+> 当前交付（2026-10-15）：**B13已完成45候选的本机适配预览。** 6模型、9声音接入主桌，其余通过资源检视呈现；另有19曲线与13时间轴样例。源码／复制包两档各80项主桌和87项检视检查通过，D指定16图限定复核通过。见[本批记录与入口](reports/demoncards-candidates-2026-10-15.md)；旧B12和早期失败保持原范围。
+
+> 后续制作默认（2026-10-15）：**优先使用现成资源，缺口才新建/生成。** [追加盘点与接入顺序](E:/Project/yanzhou-godot/docs/coordination/2026-10-15-existing-assets.md)列出已运行组件、现成源库和原游戏候选；[开发规范第5节](development-standard.md#5-资产接入)记录选材要求。盘点时尚未接入的结论保留在原记录，用户随后授权的实际接入以上方B13为准。
 
 > 当前资产接入（2026-10-15）：用户要求列清单并实际接入恶魔牌桌面、卡牌和字体。沿十九组件运行版本继续，由原设计对接D核对、A接字体、B接原模型/纹理、总控打包验收。见[接入清单](E:/Project/yanzhou-godot/docs/coordination/2026-10-15-demoncards-asset-integration.md)与[本次授权](../sources/inbox/2026-10-15-demoncards-asset-integration.md)。第九批两档源/包61项及D v09范围内通过已补记，OS操作因实体Escape未验；旧包和失败证据保持原范围。
 
@@ -14,6 +16,7 @@
 
 | 需要什么 | 唯一入口 |
 | --- | --- |
+| 追加45候选适配与素材检视 | [第十三批记录](reports/demoncards-candidates-2026-10-15.md) · [实图／混音](E:/Project/yanzhou-godot/evidence/development-batch-13/captures/index.html) · [B13 Windows包](E:/Project/yanzhou-godot/build/development-batch-13/candidates-01/windows/Yanzhou.exe) |
 | 原桌／布／卡与字体接入 | [第十二批记录](reports/demoncards-assets-2026-10-15.md) · [真实画面](E:/Project/yanzhou-godot/evidence/development-batch-12/captures/index.html) · [新Windows包](E:/Project/yanzhou-godot/build/development-batch-12/original-assets-01/windows/Yanzhou.exe) |
 | 当前DC-v01制作与agent分工 | [正式开发计划](production-plan.md#physical-table-rework-2026-10-13) · [具体工程所有权](E:/Project/yanzhou-godot/docs/coordination/2026-10-14-demoncards-plan.md) |
 | Demoncards参照与真实重制预览 | [取证／未知边界](reports/demoncards-reference-2026-10-14.md) · [第九批运行报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-14-demoncards-integration.md) · [Windows预览](E:/Project/yanzhou-godot/build/development-batch-09/preview-01/windows/Yanzhou.exe) |

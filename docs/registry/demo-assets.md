@@ -365,3 +365,19 @@ A/B/C/D按米制可编辑源、独立GLB/PBR、枢轴/轴向/尺寸及源重开/
 - ReadyForScope / PresentLocal（本机接入限定范围）。2026-10-15原件指纹及348字符合并覆盖通过；全濑体短标题、Swei Regular正文、真实Bold常驻精确值，修正轮两档各72项通过。字体字节和两份原OFL随包核对；完整检查见[本轮记录](../../yanzhou/development/reports/demoncards-assets-2026-10-15.md)。uses: AS-G002-011符号/中文覆盖回退；derived-from: None（作者原版未修改）；使用者DM-G002-011第十二批。沿两份原OFL保留版权/许可证，具体条款按原文，不由参考游戏的资源许可代替字体授权。
 
 DM-G002-011第十二批使用补记：GODOT-DEMONCARDS-ASSETS-B12-01，本机独立预览；固定代码 `8d22262dfa4a3cf9cdc96cae5f9994f27608cafe`，使用AS-G002-025/026，保留AS-G002-018—023其他组件及既有动作。原桌/布/牌只替换对应外观，旧源件和包不覆盖。[范围与证据入口](../../yanzhou/development/reports/demoncards-assets-2026-10-15.md)记录实际源码、包、D限定复核；OS、性能、用户最终美术接受不由此升级。
+
+## AS-G002-027 恶魔牌追加视觉与曲线适配包
+
+- 归属：game-002 / main；模型、纹理、表面／局部特效、曲线。维护[本批开发记录](../../yanzhou/development/reports/demoncards-candidates-2026-10-15.md)；派生原件保存在代码仓库ignored的 `E:/Project/yanzhou-godot/godot/assets/demoncards-candidates-v01/` 与 `demoncards-motion-v01/`，原pak沿AS-SH-002就地保管。
+- 固定版本 DEMONCARDS-CANDIDATES-01：[51文件清单](E:/Project/yanzhou-godot/docs/coordination/demoncards-candidates-v01.json)，SHA `12e731f41ed0fa10593f940bef750dbe6226e0c9ec4e06e74b4b27dbf4bc270b`；13GLB＋17指定PNG＋21材质依赖PNG，源包、规格、轴向／单位／UV、材质绑定及导出哈希逐件记录。DEMONCARDS-MOTION-01：[曲线清单](E:/Project/yanzhou-godot/docs/coordination/demoncards-motion-v01.json)，SHA `6b84f7a923338eac4b9e3ebd5235f30d4121b57bd2272c14d5a52460a7f3313c`；19曲线＋13时间轴保存在一份固定JSON，并非32段独立动作。
+- ReadyForScope / PresentLocal（2026-10-15本机有限适配）。全部模型／纹理可检视，6模型用于主桌；17纹理中书页随主桌使用，其他用于检视与载体／局部效果样例。书表面、烛组合、NS样例为Godot重建，原材质图／Blueprint／Niagara未完整执行；5处默认WorldGrid槽明确使用项目补材质，源无效次UV只在派生中省略，原件保留。源／包两档检视87/87，逐项结果见[接入记录](E:/Project/yanzhou-godot/docs/coordination/demoncards-candidates-integration-v01.json)，D复核限指定16张静态图，最终美术接受NotRun。
+- uses: AS-SH-002、DM-G002-013及现十九组件宿主；derived-from: AS-SH-002@DEMONCARDS-REFERENCE-2026-10-14-v01，原pak SHA `c61d079f5a853f51b52b81d1799f8c3595b8a2d079a1d449329af4597075ebd4`；使用者DM-G002-011@B13。第三方原作者／公开再分发条件沿源记录，Unknown不改为开放许可；仅用户授权本机预览，无原始二进制入Git或公开上传。
+
+## AS-G002-028 恶魔牌十二音效适配包
+
+- 归属：game-002 / main；短音效。维护[本批开发记录](../../yanzhou/development/reports/demoncards-candidates-2026-10-15.md)，派生原件在ignored的 `E:/Project/yanzhou-godot/godot/assets/demoncards-audio-v01/`；原包沿AS-SH-002。
+- 固定版本 demoncards-audio-v01：[25文件清单](E:/Project/yanzhou-godot/docs/coordination/demoncards-audio-v01.json)，SHA `ed2ee4d53969d099bc05ff2d77a573ffee70769de625b64c914d0ef548a94be0`。12完整48kHz双声道PCM16 WAV＋12逐字节相同PCM sidecar＋1catalog；单个0.042—1.106秒、非循环，具体采样数／增益／源与派生哈希见清单。CloseHandbook防饱和整体衰减约0.404dB，其余不裁剪、不归一化。
+- ReadyForScope / PresentLocal（2026-10-15本机技术范围）。12音效可试听，9个用于主桌既有事件／UI，3个瓶／饮用音仅试听。源／独立包两档均完成12份真实混音、静音、切换停止及完整PCM匹配；[实际交付证据](E:/Project/yanzhou-godot/docs/coordination/development-batch-13-evidence.json)记录后续总控验证，清单中A交回时的NotRun保持原快照。主观音色／平衡NotRun。
+- uses: AS-SH-002；derived-from: AS-SH-002@DEMONCARDS-REFERENCE-2026-10-14-v01；使用者DM-G002-011@B13。原游戏音效的作者／再分发条件Unknown；本次仅用户授权本机适配。既有AS-G002-012程序声作为回退保留；不提交原第三方声音或构建二进制，不公开上传。
+
+DM-G002-011第十三批使用补记：GODOT-DEMONCARDS-CANDIDATES-B13-01，固定运行代码 `e975de8bdbbe70591d4099c34b799e76c4bff1d7`；uses AS-G002-027/028及既有AS-G002-025/026、十九组件的固定版本。45候选均有检视适配，6模型／9音效用于主桌，有限UE对象重建不声称原脚本移植完成。[本机Windows包](E:/Project/yanzhou-godot/build/development-batch-13/candidates-01/windows/Yanzhou.exe)、[使用／验证与限制](../../yanzhou/development/reports/demoncards-candidates-2026-10-15.md)、[D限定复核](../../yanzhou/visual/demoncards-candidates-2026-10-15/design-review-v02.md)各自定位。源码及复制包两档主桌80/80、检视87/87，202包文件指纹一致；ReadyForScope / PresentLocal。源件、B12和阶段失败全部保留；非OS输入、性能、主观听感、用户接受或玩法成立证明。
