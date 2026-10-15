@@ -1,0 +1,760 @@
+{
+  "package": "COMPONENT-EXPANSION-E-01",
+  "manifestSha256": "c1fe336bf9ca2e96d0eb35f148ac65fbb4d5f75c876dae648b55bf13b0f1242c",
+  "manifestFileCount": 607,
+  "fullManifestBytesAndHashes": "607/607 verified independently by root; not claimed rerun by D",
+  "svgActuallyParsed": 145,
+  "svgDynamicTextOrEmbeddedImageErrors": 0,
+  "runtimePngActuallyChecked": 441,
+  "layoutCount": 28,
+  "fontPath": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-05\\fonts\\source\\NotoSansCJK-Sans2.004-523d033\\NotoSansCJKsc-Regular.otf",
+  "fontSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+  "glyphRemeasurements": [
+    {
+      "tag": "txt02-216-2line-top",
+      "fontPx": 18,
+      "text": "施法次数 · 实有9",
+      "remeasuredWidth": 144,
+      "fits": true
+    },
+    {
+      "tag": "txt02-216-2line-top",
+      "fontPx": 18,
+      "text": "可用6 · 锁定3",
+      "remeasuredWidth": 118,
+      "fits": true
+    },
+    {
+      "tag": "txt02-216-2line-right",
+      "fontPx": 18,
+      "text": "施法次数 · 实有9",
+      "remeasuredWidth": 144,
+      "fits": true
+    },
+    {
+      "tag": "txt02-216-2line-right",
+      "fontPx": 18,
+      "text": "可用6 · 锁定3",
+      "remeasuredWidth": 118,
+      "fits": true
+    },
+    {
+      "tag": "txt02-216-2line-bottom",
+      "fontPx": 18,
+      "text": "施法次数 · 实有9",
+      "remeasuredWidth": 144,
+      "fits": true
+    },
+    {
+      "tag": "txt02-216-2line-bottom",
+      "fontPx": 18,
+      "text": "可用6 · 锁定3",
+      "remeasuredWidth": 118,
+      "fits": true
+    },
+    {
+      "tag": "txt02-216-2line-left",
+      "fontPx": 18,
+      "text": "施法次数 · 实有9",
+      "remeasuredWidth": 144,
+      "fits": true
+    },
+    {
+      "tag": "txt02-216-2line-left",
+      "fontPx": 18,
+      "text": "可用6 · 锁定3",
+      "remeasuredWidth": 118,
+      "fits": true
+    },
+    {
+      "tag": "txt02-196-2line-top",
+      "fontPx": 18,
+      "text": "施法次数 · 实有9",
+      "remeasuredWidth": 144,
+      "fits": true
+    },
+    {
+      "tag": "txt02-196-2line-top",
+      "fontPx": 18,
+      "text": "可用6 · 锁定3",
+      "remeasuredWidth": 118,
+      "fits": true
+    },
+    {
+      "tag": "txt02-196-2line-right",
+      "fontPx": 18,
+      "text": "施法次数 · 实有9",
+      "remeasuredWidth": 144,
+      "fits": true
+    },
+    {
+      "tag": "txt02-196-2line-right",
+      "fontPx": 18,
+      "text": "可用6 · 锁定3",
+      "remeasuredWidth": 118,
+      "fits": true
+    },
+    {
+      "tag": "txt02-196-2line-bottom",
+      "fontPx": 18,
+      "text": "施法次数 · 实有9",
+      "remeasuredWidth": 144,
+      "fits": true
+    },
+    {
+      "tag": "txt02-196-2line-bottom",
+      "fontPx": 18,
+      "text": "可用6 · 锁定3",
+      "remeasuredWidth": 118,
+      "fits": true
+    },
+    {
+      "tag": "txt02-196-2line-left",
+      "fontPx": 18,
+      "text": "施法次数 · 实有9",
+      "remeasuredWidth": 144,
+      "fits": true
+    },
+    {
+      "tag": "txt02-196-2line-left",
+      "fontPx": 18,
+      "text": "可用6 · 锁定3",
+      "remeasuredWidth": 118,
+      "fits": true
+    },
+    {
+      "tag": "txt02-216-1line-bottom",
+      "fontPx": 18,
+      "text": "继续 · P",
+      "remeasuredWidth": 73,
+      "fits": true
+    },
+    {
+      "tag": "txt02-196-2line-left",
+      "fontPx": 18,
+      "text": "程序2 · 攻击",
+      "remeasuredWidth": 108,
+      "fits": true
+    },
+    {
+      "tag": "txt02-196-2line-left",
+      "fontPx": 18,
+      "text": "r8 · 尚未揭示",
+      "remeasuredWidth": 115,
+      "fits": true
+    },
+    {
+      "tag": "facts title",
+      "fontPx": 24,
+      "text": "当前批次 #1",
+      "remeasuredWidth": 127,
+      "fits": true
+    },
+    {
+      "tag": "current facts",
+      "fontPx": 18,
+      "text": "开工 0 → 完工 2",
+      "remeasuredWidth": 126,
+      "fits": true
+    },
+    {
+      "tag": "current facts",
+      "fontPx": 18,
+      "text": "承诺 简易护盾",
+      "remeasuredWidth": 112,
+      "fits": true
+    },
+    {
+      "tag": "current facts",
+      "fontPx": 18,
+      "text": "D 2 · 剩余 1",
+      "remeasuredWidth": 102,
+      "fits": true
+    },
+    {
+      "tag": "current facts",
+      "fontPx": 18,
+      "text": "当前批次事实",
+      "remeasuredWidth": 108,
+      "fits": true
+    },
+    {
+      "tag": "materials",
+      "fontPx": 18,
+      "text": "材料 无需材料",
+      "remeasuredWidth": 112,
+      "fits": true
+    },
+    {
+      "tag": "future",
+      "fontPx": 18,
+      "text": "下一批 守护",
+      "remeasuredWidth": 94,
+      "fits": true
+    },
+    {
+      "tag": "future",
+      "fontPx": 18,
+      "text": "未来 D 2 · 不改当前批次",
+      "remeasuredWidth": 200,
+      "fits": true
+    },
+    {
+      "tag": "previous",
+      "fontPx": 18,
+      "text": "上页",
+      "remeasuredWidth": 36,
+      "fits": true
+    },
+    {
+      "tag": "next",
+      "fontPx": 18,
+      "text": "下页",
+      "remeasuredWidth": 36,
+      "fits": true
+    },
+    {
+      "tag": "page number",
+      "fontPx": 18,
+      "text": "1 / 1",
+      "remeasuredWidth": 35,
+      "fits": true
+    },
+    {
+      "tag": "quantity label",
+      "fontPx": 18,
+      "text": "指定数量 · 0 不提交",
+      "remeasuredWidth": 166,
+      "fits": true
+    },
+    {
+      "tag": "digits",
+      "fontPx": 18,
+      "text": "7",
+      "remeasuredWidth": 10,
+      "fits": true
+    },
+    {
+      "tag": "quantity facts",
+      "fontPx": 18,
+      "text": "实有 9 · 可用 6 · 锁定 3",
+      "remeasuredWidth": 202,
+      "fits": true
+    },
+    {
+      "tag": "txt03-320-reason-error",
+      "fontPx": 18,
+      "text": "数量 7 超过可用 6",
+      "remeasuredWidth": 140,
+      "fits": true
+    },
+    {
+      "tag": "txt03-320-reason-error",
+      "fontPx": 18,
+      "text": "数量 7 超过可解除 3",
+      "remeasuredWidth": 158,
+      "fits": true
+    },
+    {
+      "tag": "txt03-320-reason",
+      "fontPx": 18,
+      "text": "等待受理 · 草稿 3 已保留",
+      "remeasuredWidth": 206,
+      "fits": true
+    },
+    {
+      "tag": "txt03-320-reason",
+      "fontPx": 18,
+      "text": "结果由当前状态返回",
+      "remeasuredWidth": 162,
+      "fits": true
+    },
+    {
+      "tag": "save title",
+      "fontPx": 24,
+      "text": "保存失败",
+      "remeasuredWidth": 96,
+      "fits": true
+    },
+    {
+      "tag": "save body",
+      "fontPx": 18,
+      "text": "旧档仍有效",
+      "remeasuredWidth": 90,
+      "fits": true
+    },
+    {
+      "tag": "save body",
+      "fontPx": 18,
+      "text": "当前结果保留在内存",
+      "remeasuredWidth": 162,
+      "fits": true
+    },
+    {
+      "tag": "save body",
+      "fontPx": 18,
+      "text": "重试同一结果",
+      "remeasuredWidth": 108,
+      "fits": true
+    },
+    {
+      "tag": "save body",
+      "fontPx": 18,
+      "text": "此处只呈现真实保存结果",
+      "remeasuredWidth": 198,
+      "fits": true
+    },
+    {
+      "tag": "save retry",
+      "fontPx": 18,
+      "text": "重试同一结果",
+      "remeasuredWidth": 108,
+      "fits": true
+    },
+    {
+      "tag": "save title",
+      "fontPx": 24,
+      "text": "重试成功",
+      "remeasuredWidth": 96,
+      "fits": true
+    },
+    {
+      "tag": "save body",
+      "fontPx": 18,
+      "text": "同一结果已保存",
+      "remeasuredWidth": 126,
+      "fits": true
+    },
+    {
+      "tag": "save body",
+      "fontPx": 18,
+      "text": "没有重复结算",
+      "remeasuredWidth": 108,
+      "fits": true
+    },
+    {
+      "tag": "success close",
+      "fontPx": 18,
+      "text": "关闭后仍暂停",
+      "remeasuredWidth": 108,
+      "fits": true
+    },
+    {
+      "tag": "txt02-196-2line-top",
+      "fontPx": 18,
+      "text": "程序2 · 攻击",
+      "remeasuredWidth": 108,
+      "fits": true
+    },
+    {
+      "tag": "txt02-196-2line-top",
+      "fontPx": 18,
+      "text": "r8 · 尚未揭示",
+      "remeasuredWidth": 115,
+      "fits": true
+    },
+    {
+      "tag": "facts title",
+      "fontPx": 24,
+      "text": "当前批次 #1",
+      "remeasuredWidth": 127,
+      "fits": true
+    },
+    {
+      "tag": "current facts",
+      "fontPx": 18,
+      "text": "开工 0 → 完工 2",
+      "remeasuredWidth": 126,
+      "fits": true
+    },
+    {
+      "tag": "current facts",
+      "fontPx": 18,
+      "text": "承诺 简易护盾",
+      "remeasuredWidth": 112,
+      "fits": true
+    },
+    {
+      "tag": "current facts",
+      "fontPx": 18,
+      "text": "D 2 · 剩余 1",
+      "remeasuredWidth": 102,
+      "fits": true
+    },
+    {
+      "tag": "current facts",
+      "fontPx": 18,
+      "text": "当前批次事实",
+      "remeasuredWidth": 108,
+      "fits": true
+    },
+    {
+      "tag": "materials",
+      "fontPx": 18,
+      "text": "材料 无需材料",
+      "remeasuredWidth": 112,
+      "fits": true
+    },
+    {
+      "tag": "future",
+      "fontPx": 18,
+      "text": "下一批 守护",
+      "remeasuredWidth": 94,
+      "fits": true
+    },
+    {
+      "tag": "future",
+      "fontPx": 18,
+      "text": "未来 D 2 · 不改当前批次",
+      "remeasuredWidth": 200,
+      "fits": true
+    },
+    {
+      "tag": "previous",
+      "fontPx": 18,
+      "text": "上页",
+      "remeasuredWidth": 36,
+      "fits": true
+    },
+    {
+      "tag": "next",
+      "fontPx": 18,
+      "text": "下页",
+      "remeasuredWidth": 36,
+      "fits": true
+    },
+    {
+      "tag": "page number",
+      "fontPx": 18,
+      "text": "1 / 1",
+      "remeasuredWidth": 35,
+      "fits": true
+    },
+    {
+      "tag": "quantity label",
+      "fontPx": 18,
+      "text": "指定数量 · 0 不提交",
+      "remeasuredWidth": 166,
+      "fits": true
+    },
+    {
+      "tag": "digits",
+      "fontPx": 18,
+      "text": "7",
+      "remeasuredWidth": 10,
+      "fits": true
+    },
+    {
+      "tag": "quantity facts",
+      "fontPx": 18,
+      "text": "实有 9 · 可用 6 · 锁定 3",
+      "remeasuredWidth": 202,
+      "fits": true
+    },
+    {
+      "tag": "txt03-380-reason-error",
+      "fontPx": 18,
+      "text": "数量 7 超过可用 6",
+      "remeasuredWidth": 140,
+      "fits": true
+    },
+    {
+      "tag": "txt03-380-reason-error",
+      "fontPx": 18,
+      "text": "数量 7 超过可解除 3",
+      "remeasuredWidth": 158,
+      "fits": true
+    },
+    {
+      "tag": "txt03-380-reason",
+      "fontPx": 18,
+      "text": "等待受理 · 草稿 3 已保留",
+      "remeasuredWidth": 206,
+      "fits": true
+    },
+    {
+      "tag": "txt03-380-reason",
+      "fontPx": 18,
+      "text": "结果由当前状态返回",
+      "remeasuredWidth": 162,
+      "fits": true
+    },
+    {
+      "tag": "save title",
+      "fontPx": 24,
+      "text": "保存失败",
+      "remeasuredWidth": 96,
+      "fits": true
+    },
+    {
+      "tag": "save body",
+      "fontPx": 18,
+      "text": "旧档仍有效",
+      "remeasuredWidth": 90,
+      "fits": true
+    },
+    {
+      "tag": "save body",
+      "fontPx": 18,
+      "text": "当前结果保留在内存",
+      "remeasuredWidth": 162,
+      "fits": true
+    },
+    {
+      "tag": "save body",
+      "fontPx": 18,
+      "text": "重试同一结果",
+      "remeasuredWidth": 108,
+      "fits": true
+    },
+    {
+      "tag": "save body",
+      "fontPx": 18,
+      "text": "此处只呈现真实保存结果",
+      "remeasuredWidth": 198,
+      "fits": true
+    },
+    {
+      "tag": "save retry",
+      "fontPx": 18,
+      "text": "重试同一结果",
+      "remeasuredWidth": 108,
+      "fits": true
+    },
+    {
+      "tag": "save title",
+      "fontPx": 24,
+      "text": "重试成功",
+      "remeasuredWidth": 96,
+      "fits": true
+    },
+    {
+      "tag": "save body",
+      "fontPx": 18,
+      "text": "同一结果已保存",
+      "remeasuredWidth": 126,
+      "fits": true
+    },
+    {
+      "tag": "save body",
+      "fontPx": 18,
+      "text": "没有重复结算",
+      "remeasuredWidth": 108,
+      "fits": true
+    },
+    {
+      "tag": "success close",
+      "fontPx": 18,
+      "text": "关闭后仍暂停",
+      "remeasuredWidth": 108,
+      "fits": true
+    },
+    {
+      "tag": "txt02-216-2line-top",
+      "fontPx": 18,
+      "text": "程序2 · 攻击",
+      "remeasuredWidth": 108,
+      "fits": true
+    },
+    {
+      "tag": "txt02-216-2line-top",
+      "fontPx": 18,
+      "text": "r8 · 尚未揭示",
+      "remeasuredWidth": 115,
+      "fits": true
+    },
+    {
+      "tag": "long1 title",
+      "fontPx": 24,
+      "text": "公开记录 · 第 1 页",
+      "remeasuredWidth": 201,
+      "fits": true
+    },
+    {
+      "tag": "long1",
+      "fontPx": 18,
+      "text": "本页为长内容排版审查。",
+      "remeasuredWidth": 198,
+      "fits": true
+    },
+    {
+      "tag": "long1",
+      "fontPx": 18,
+      "text": "每行使用 18px 实际字体，",
+      "remeasuredWidth": 210,
+      "fits": true
+    },
+    {
+      "tag": "long1",
+      "fontPx": 18,
+      "text": "正文不压缩，也不以缩放挤入。",
+      "remeasuredWidth": 252,
+      "fits": true
+    },
+    {
+      "tag": "long1",
+      "fontPx": 18,
+      "text": "当前事实与未来用途分别分组。",
+      "remeasuredWidth": 252,
+      "fits": true
+    },
+    {
+      "tag": "long1",
+      "fontPx": 18,
+      "text": "材料、产物保持各自宿主关系。",
+      "remeasuredWidth": 252,
+      "fits": true
+    },
+    {
+      "tag": "long1",
+      "fontPx": 18,
+      "text": "超出九行时，内容转入下一页。",
+      "remeasuredWidth": 252,
+      "fits": true
+    },
+    {
+      "tag": "long1",
+      "fontPx": 18,
+      "text": "关闭始终位于右上独立区域。",
+      "remeasuredWidth": 234,
+      "fits": true
+    },
+    {
+      "tag": "long1",
+      "fontPx": 18,
+      "text": "页码和翻页保留底部安全区。",
+      "remeasuredWidth": 234,
+      "fits": true
+    },
+    {
+      "tag": "long1",
+      "fontPx": 18,
+      "text": "这些示例文字不是运行事实。",
+      "remeasuredWidth": 234,
+      "fits": true
+    },
+    {
+      "tag": "previous",
+      "fontPx": 18,
+      "text": "上页",
+      "remeasuredWidth": 36,
+      "fits": true
+    },
+    {
+      "tag": "next",
+      "fontPx": 18,
+      "text": "下页",
+      "remeasuredWidth": 36,
+      "fits": true
+    },
+    {
+      "tag": "page number",
+      "fontPx": 18,
+      "text": "1 / 2",
+      "remeasuredWidth": 35,
+      "fits": true
+    },
+    {
+      "tag": "long2 title",
+      "fontPx": 24,
+      "text": "公开记录 · 第 2 页",
+      "remeasuredWidth": 201,
+      "fits": true
+    },
+    {
+      "tag": "long2",
+      "fontPx": 18,
+      "text": "这是长内容的续页。",
+      "remeasuredWidth": 162,
+      "fits": true
+    },
+    {
+      "tag": "long2",
+      "fontPx": 18,
+      "text": "页面高度保持不变，木条不变粗。",
+      "remeasuredWidth": 270,
+      "fits": true
+    },
+    {
+      "tag": "long2",
+      "fontPx": 18,
+      "text": "正文仍使用 18px 字体。",
+      "remeasuredWidth": 192,
+      "fits": true
+    },
+    {
+      "tag": "long2",
+      "fontPx": 18,
+      "text": "待接入时，以真实公开字段排版。",
+      "remeasuredWidth": 270,
+      "fits": true
+    },
+    {
+      "tag": "long2",
+      "fontPx": 18,
+      "text": "数量编辑与当前批次分开。",
+      "remeasuredWidth": 216,
+      "fits": true
+    },
+    {
+      "tag": "long2",
+      "fontPx": 18,
+      "text": "退出后仍暂停，回到原宿主。",
+      "remeasuredWidth": 234,
+      "fits": true
+    },
+    {
+      "tag": "previous",
+      "fontPx": 18,
+      "text": "上页",
+      "remeasuredWidth": 36,
+      "fits": true
+    },
+    {
+      "tag": "next",
+      "fontPx": 18,
+      "text": "下页",
+      "remeasuredWidth": 36,
+      "fits": true
+    },
+    {
+      "tag": "page number",
+      "fontPx": 18,
+      "text": "2 / 2",
+      "remeasuredWidth": 35,
+      "fits": true
+    }
+  ],
+  "transparentNonzeroRGBPixels": 0,
+  "partialAlphaPureWhitePixels": 0,
+  "sourceEditProbeChangedPixelsIndependentlyCompared": 51098,
+  "sourceRegeneration": "Asset agent executed; D read source and checked derived pixel change, did not rerun production generator",
+  "actuallyViewedImages": [
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-e-v01\\renders\\txt02-four-directions-1x.png",
+      "sha256": "5e6a5b63f876908e72133be4768d5a93526f809044e8ec9b96a0f905eb29342d"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-e-v01\\renders\\text-review-1366x768-1x.png",
+      "sha256": "b93b03d2a012fa097b1e6c0bc316224f64814b4ea6d8367af5ffefe7d75f01ad"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-e-v01\\renders\\text-review-1920x1080-1x.png",
+      "sha256": "23c8afb0d359533dc1ac2aadd79bd3e755f2cec9d99760a73b92dae55f2fbc24"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-e-v01\\renders\\txt03-long-content-pages-1x.png",
+      "sha256": "57ed9d21af987bba6f0e2d2119428f432b0481df97c88cf5295107058e9801dc"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-e-v01\\renders\\editable-layers-atlas.png",
+      "sha256": "0f0c385682cf3b6d25c2ec7cffcf92cfe97fe19498c4d47f76218b5c01e59941"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-e-v01\\renders\\alpha-edge-white-black-burgundy.png",
+      "sha256": "3a0f30dfe21954de3ed14c607036ced88fa3e2fc541b35aec5b111e707f86b28"
+    }
+  ],
+  "errors": [],
+  "scope": "offline source structure, actual font/layout, alpha and visual review; RuntimeNotRun"
+}
