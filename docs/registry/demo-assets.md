@@ -381,3 +381,9 @@ DM-G002-011第十二批使用补记：GODOT-DEMONCARDS-ASSETS-B12-01，本机独
 - uses: AS-SH-002；derived-from: AS-SH-002@DEMONCARDS-REFERENCE-2026-10-14-v01；使用者DM-G002-011@B13。原游戏音效的作者／再分发条件Unknown；本次仅用户授权本机适配。既有AS-G002-012程序声作为回退保留；不提交原第三方声音或构建二进制，不公开上传。
 
 DM-G002-011第十三批使用补记：GODOT-DEMONCARDS-CANDIDATES-B13-01，固定运行代码 `e975de8bdbbe70591d4099c34b799e76c4bff1d7`；uses AS-G002-027/028及既有AS-G002-025/026、十九组件的固定版本。45候选均有检视适配，6模型／9音效用于主桌，有限UE对象重建不声称原脚本移植完成。[本机Windows包](E:/Project/yanzhou-godot/build/development-batch-13/candidates-01/windows/Yanzhou.exe)、[使用／验证与限制](../../yanzhou/development/reports/demoncards-candidates-2026-10-15.md)、[D限定复核](../../yanzhou/visual/demoncards-candidates-2026-10-15/design-review-v02.md)各自定位。源码及复制包两档主桌80/80、检视87/87，202包文件指纹一致；ReadyForScope / PresentLocal。源件、B12和阶段失败全部保留；非OS输入、性能、主观听感、用户接受或玩法成立证明。
+
+## DM-G002-015 第十三批资产同步审阅稿（v02）
+
+- 同一Demo续版 UI-REVIEW-02；维护入口[逐组件审阅v02](../../yanzhou/visual/ui-review-2026-10-15/review-v02.md)，本机仍为 `http://127.0.0.1:5191`。外部代码 `E:/Project/yanzhou-godot/tools/ui-review-2026-10-15/`，固定提交 `f5c702907cfa157565764435e759611dd471d0cf`；9份发布源文件，manifest SHA `1e8a394be46c874c7ed72b3cfcfaee2e37751feb73f2df36efdbff0e466cf2a8`。
+- ReadyForScope / PresentLocal（2026-10-15本机审阅工具）。70主桌截图、136条去重取证文字、118资源检视图和12种声音的两档引擎混音；新字体分工、逐组件意见、视口隔离草稿与JSON导出已接入。335项资源／HTTP检查及两档70状态浏览器入口检查通过；用户接受、引擎像素对照、动态资源检视未由网页检查推定。
+- uses: DM-G002-011@GODOT-DEMONCARDS-CANDIDATES-B13-01固定包证据，AS-G002-025/026/027/028；继续复用AS-G002-011/018/023/024。原第三方资源和混音证据仍在本机ignored路径，只通过localhost白名单读取；许可／再分发条件沿原条目，未公开上传。首版UI-REVIEW-01及其固定输入保留Git取证，当前预览由v02承接。
