@@ -9,6 +9,7 @@
 | 探索新方案 | [方向与阅读选择](yanzhou/exploration/README.md) |
 | 处理当前问题 | [问题清单](yanzhou/governance/questions.md) |
 | 查看实现与验证 | [开发索引](yanzhou/development/README.md) |
+| 使用 Mr. Mak 工作台 | [言咒开发工作台](yanzhou/development/workspace.md) |
 
 [项目地图](docs/workspace-map.md) · [独立肉鸽](new-roguelike/README.md) · [设计流程](docs/design-workflow.md) · [贡献与协作](CONTRIBUTING.md)
 

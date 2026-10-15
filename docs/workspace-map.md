@@ -12,6 +12,7 @@
 | [项目技能入口](registry/project-skills.md) | 正式技能及使用边界；试验材料仍按所属业务集中 |
 | .codex/skills | Codex项目运行技能，保留标准安装位置 |
 | tools | 文档索引与检查 |
+| [言咒开发工作台](../yanzhou/development/workspace.md) | 本机独立Mr. Mak仓库连接既有设计、代码与资产；应用源码和依赖不放本仓库 |
 | archive | 旧项目与独有历史证据；默认不读不写 |
 
 根exploration与assets已退役；旧workspaces、optimization兼容树不恢复。根目录只导航，不复制项目规则。来源链接不扩大阅读授权。
