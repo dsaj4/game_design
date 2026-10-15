@@ -307,3 +307,17 @@ A/B/C/D按米制可编辑源、独立GLB/PBR、枢轴/轴向/尺寸及源重开/
 - AS-G002-023：`expansion-e-v01/manifest.json` SHA `c1fe336bf9ca2e96d0eb35f148ac65fbb4d5f75c876dae648b55bf13b0f1242c`；607文件5876261字节总控逐项核对，145SVG/441PNG/6审查图。[D独立Q1/Q2](../../yanzhou/visual/component-production-2026-10-14/expansion-e-review-v01.md)通过，实际项目字体18/24px、28布局、102字形界及编辑重导已核；最终Godot限定Q3见下方整合补记。运行选28份准确逻辑尺寸的2倍合成无字皮肤及layouts，原分层源完整保留，禁止整体拉伸合成图。这里只覆盖二维文本载体，不宣称包含真实木条3D网格。
 
 2026-10-15整合补记：AS-G002-018—023共同进入全19件预览。[D独立限定Q3](../../yanzhou/visual/component-production-2026-10-14/q3-expansion-source-06-review.md)通过；[实际运行与包交付](E:/Project/yanzhou-godot/docs/reviews/2026-10-15-component-expansion-integration.md)记录源码和Release两档各72/72、68PNG逐字节一致。运行v05选74项，SHA `a597788ee7e0366489400bec22ecfcf82ad02d375df117c76cee468d5cf209f1`；代码 `399d933ca191e5811232d3e8862749ba0e2c8c5e`；新包`E:/Project/yanzhou-godot/build/development-batch-10/components-01/windows/`，旧四样件包保留。原源件SHA不变。透明壳与压痕为运行近似，只有护盾新墨绘；1366少量标点/辅助页码换行保留。HTML浏览器、OS输入、正式性能及用户最终美术接受未验，不推为完整美术或玩法验收。
+
+
+## DM-G002-015 真实UI文字／截图交互审阅首版
+
+- 归属：game-002 / main；DM / UI审阅。主入口 `E:/Project/yanzhou-godot/tools/ui-review-2026-10-15/index.html`；[逐组件审阅与范围](../../yanzhou/visual/ui-review-2026-10-15/review-v01.md)。本机临时预览 `http://127.0.0.1:5191`，恢复说明在原代码目录README。
+- 固定 UI-REVIEW-01；代码提交 `d8a94ed303923a067826450a024e7be6751cce86`；原目录manifest SHA-256 `89438025b4ab87720a7233c81fd10c1c6aaaae6d3bf52195c30fc7c15fa46742`，8个发布源文件另加manifest与技术检查报告。ReadyForScope / PresentLocal，2026-10-15浏览器实际操作及179项本机资源／HTTP完整性通过；不是完整战斗模拟、全状态验收或用户接受。
+- 68真实截图状态、112去重捕获文案、11条入口；候选文字／字体／偏移和审阅草稿可操作。开始／设置全页及未捕获历史未实现，待受理和后续页为源码派生HTML。Godot替换、截图局部美术图与像素差分尚未执行。全部组件待审，设计资格与采纳不变。
+- uses: AS-G002-011@FONT-ASSETS-01（现行字体）、AS-G002-018@COMPONENT-SAMPLES-01（TXT01原载体切片）、AS-G002-023@expansion-e-v01（原生纸页／签）、AS-G002-024@FONT-CANDIDATES-01；截图复用DM-G002-011的package-components-01固定证据。derived-from: None（新审阅工具；旧109状态HTML仅作历史参考）。原图片、字体及许可就地保管，未复制原始二进制入本仓库。
+
+## AS-G002-024 中文字体候选比较包
+
+- 归属：game-002 / main；字体比较；维护[字体调查](../../yanzhou/visual/ui-review-2026-10-15/fonts-v01.md)，供DM-G002-015内部审阅使用。FONT-CANDIDATES-01，原件 `E:/Project/yanzhou-godot/evidence/development-batch-11/ui-review-v01/fonts/`；固定文件清单、下载URL、大小／SHA及许可SHA见DM015代码提交中的data.json。ReadyForScope / PresentLocal，仅本轮503字技术覆盖及浏览器同尺寸对照。
+- Noto Serif CJK SC Regular 2.003，官方源提交 `9b0f1436e455d902de067a2501422e5dc71ad16b`，文件SHA `2a2eae2628df83556c54018c41e20fa532c1b862c5256ae8b3f23feb918d12ca`；LXGW WenKai Regular 1.522，官方发布tag v1.522，文件SHA `39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009`。均原始未修改文件、原OFL1.1逐份保留；软件嵌入／捆绑按原文保留版权许可、不得单售字体、修改版本遵守保留名称条件。未安装字体、未付费授权或公开发布。
+- 每个主字体503测试字，本体缺✱，配AS-G002-011的Symbols2后无缺字；其他字重与罕见字、Godot基线／fallback和成本未验。不由此认定全中文字库或全游戏选型。来源官方URL和权利原文见维护页；字体最终选择待用户逐组件审阅。
