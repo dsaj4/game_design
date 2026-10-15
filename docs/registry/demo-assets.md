@@ -257,3 +257,17 @@ AS-G002-004为2026-10-02的后续登记，使用该行独立固定提交，不�
 用户已完成界面设计并进入正式开发准备。当前使用DM-G002-010@HTML-10、AS-G002-008@ART-01、AS-G002-009@COMPONENTS-01、AS-G002-010@3D-02；AS-G002-005@v02仅补充同刻对齐语义。用途与实际核验集中见[开发资产接入](../../yanzhou/development/asset-readiness.md)。
 
 本轮逐文件复核5包75文件与原manifest哈希一致，GLB元数据解析及v02主渲染目视完成；未重跑Blender、浏览器、引擎或玩法。接入尚为计划关系，没有把资源复制到运行工程。旧记录中的“未建模／待评审”保留其原日期范围，当前建模入口为3D-02；原件、旧版本及来源／分发条件不变，不新增AS／DM身份。
+
+## 2026-10-14 组件细节重新设计
+
+### <a id="dm-g002-014"></a>DM-G002-014 言咒组件细节HTML
+
+- 归属：game-002 / main；独立维护的组件细化结构稿，derived-from: DM-G002-013@DC-v01（视觉与公开信息结构参照）。[HTML入口](../../yanzhou/visual/component-detail-2026-10-14/design-v01.html)、[19组件规格与操作说明](../../yanzhou/visual/component-detail-2026-10-14/brief-v01.md)、[限定检查](../../yanzhou/visual/component-detail-2026-10-14/design-review-v01.md)、[交接范围](../../yanzhou/visual/component-detail-2026-10-14/handoff-readiness-v01.md)。
+- 固定YANZHOU-COMPONENT-DETAIL-V01，文件范围与逐项SHA-256见[manifest](../../yanzhou/visual/component-detail-2026-10-14/manifest-v01.json)。Catalogued / PresentLocal，19组件、109状态选择入口（包含共用图形，实际覆盖见state-coverage）；HTML/CSS/SVG/JS内嵌数据，无运行后端。2026-10-14静态结构/脚本检查已做；浏览器file协议策略拒绝，真实打开、布局与输入NotRun。两档布局选择不代表两档浏览器通过。
+- uses: AS-G002-017（美术目标）；Demoncards与旧B09仅作造型/材质和问题对照。原创结构稿及确定性几何更正图可在本项目改作；系统字体不嵌入，公开分发许可未另定。非玩法验证、非真实3D、非已接受最终造型；后续工具评估/独立资产/运行绑定按交接范围分别推进。
+
+### <a id="as-g002-017"></a>AS-G002-017 组件细节效果板与提示词
+
+- 归属：game-002 / main；[原件说明](../../yanzhou/visual/component-detail-2026-10-14/art-v01/README.md)、[可放大画册](../../yanzhou/visual/component-detail-2026-10-14/art-v01/index.html)。固定COMPONENT-ART-01，三张v02修订及三张保留v01，6个实际提示词、原生成来源、逐文件SHA-256见[图像manifest](../../yanzhou/visual/component-detail-2026-10-14/art-v01/manifest-v01.json)。
+- PNG实际1586×992、非透明底；提示请求2560×1600但工具未返回该尺寸。内置image_gen生成和定向编辑，未上传原游戏资产。覆盖文字/纸牌、法器/棋子/筹码、桌面/控制/装饰三组；只是外观与装配参考，不是模型、PBR图集、动态状态全套或游戏截图。
+- Catalogued / PresentLocal。2026-10-14总控与D目视并修正内容/形状/符号；仍有环开口、币局部等生成不一致，排除项及确定性更正见DM-G002-014复核。不将旧稿错误用于运行内容，不整板贴入游戏。uses: DM-G002-014文字与HTML；derived-from: None（新生成包，内部v02分别基于对应v01）；允许本轮言咒制作继续改作，公共分发许可未另定。

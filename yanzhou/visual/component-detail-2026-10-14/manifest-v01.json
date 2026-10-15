@@ -1,0 +1,429 @@
+{
+  "schemaVersion": 1,
+  "version": "YANZHOU-COMPONENT-DETAIL-V01",
+  "date": "2026-10-14",
+  "timezone": "America/New_York",
+  "project": "game-002",
+  "readingMode": "CUSTOM",
+  "owner": "D/component_detail_design",
+  "firstVisualReference": "Demoncards",
+  "baseHeads": {
+    "design": "a673b1db1529ddce9ae26f279c5f79bbbaf0b9fa",
+    "workspace": "307a7cde73a70fb7df8bf28375cafebe8104376c",
+    "code": "9ee60f32b5a61e3fdb63e315cc8bda9072061f52"
+  },
+  "sourceMode": "Current worktree including uncommitted material. Hashes captured at manifest creation; no adoption inferred.",
+  "capturedAt": "2026-10-15T03:08:45.807Z",
+  "components": [
+    {
+      "id": "TXT-01",
+      "states": 7,
+      "stage": "ReadyForResearch; AssetsNotStarted; RuntimeNotRun"
+    },
+    {
+      "id": "TXT-02",
+      "states": 6,
+      "stage": "ReadyForResearch; AssetsNotStarted; RuntimeNotRun"
+    },
+    {
+      "id": "TXT-03",
+      "states": 7,
+      "stage": "ReadyForResearch; AssetsNotStarted; RuntimeNotRun"
+    },
+    {
+      "id": "CARD-01",
+      "states": 8,
+      "stage": "ReadyForResearch; AssetsNotStarted; RuntimeNotRun"
+    },
+    {
+      "id": "TABLE-01",
+      "states": 5,
+      "stage": "ReadyForResearch; AssetsNotStarted; RuntimeNotRun"
+    },
+    {
+      "id": "MAT-01",
+      "states": 5,
+      "stage": "ReadyForResearch; AssetsNotStarted; RuntimeNotRun"
+    },
+    {
+      "id": "SLOT-01",
+      "states": 5,
+      "stage": "ReadyForResearch; AssetsNotStarted; RuntimeNotRun"
+    },
+    {
+      "id": "WAND-01",
+      "states": 6,
+      "stage": "ReadyForResearch; AssetsNotStarted; RuntimeNotRun"
+    },
+    {
+      "id": "WAND-02",
+      "states": 6,
+      "stage": "ReadyForResearch; AssetsNotStarted; RuntimeNotRun"
+    },
+    {
+      "id": "PAWN-01",
+      "states": 6,
+      "stage": "ReadyForResearch; AssetsNotStarted; RuntimeNotRun"
+    },
+    {
+      "id": "PAWN-02",
+      "states": 6,
+      "stage": "ReadyForResearch; AssetsNotStarted; RuntimeNotRun"
+    },
+    {
+      "id": "CHIP-01",
+      "states": 5,
+      "stage": "ReadyForResearch; AssetsNotStarted; RuntimeNotRun"
+    },
+    {
+      "id": "CHIP-02",
+      "states": 5,
+      "stage": "ReadyForResearch; AssetsNotStarted; RuntimeNotRun"
+    },
+    {
+      "id": "CHIP-03",
+      "states": 7,
+      "stage": "ReadyForResearch; AssetsNotStarted; RuntimeNotRun"
+    },
+    {
+      "id": "DRAWER-01",
+      "states": 5,
+      "stage": "ReadyForResearch; AssetsNotStarted; RuntimeNotRun"
+    },
+    {
+      "id": "CONTROL-01",
+      "states": 7,
+      "stage": "ReadyForResearch; AssetsNotStarted; RuntimeNotRun"
+    },
+    {
+      "id": "DECOR-01",
+      "states": 4,
+      "stage": "ReadyForResearch; AssetsNotStarted; RuntimeNotRun"
+    },
+    {
+      "id": "DECOR-02",
+      "states": 4,
+      "stage": "ReadyForResearch; AssetsNotStarted; RuntimeNotRun"
+    },
+    {
+      "id": "DECOR-03",
+      "states": 5,
+      "stage": "ReadyForResearch; AssetsNotStarted; RuntimeNotRun"
+    }
+  ],
+  "stages": {
+    "text": "Delivered",
+    "html": "StaticStructureAndSyntaxChecked; BrowserNotRun",
+    "browser": "NotRun: IAB file URL policy denied; no bypass attempted",
+    "art": "Three v02 boards visually reviewed; scoped exclusions resolved by geometry-constraints-v01.svg and brief; no user acceptance",
+    "research": "Ready for coordinator dispatch",
+    "productionAssets": "NotStarted",
+    "engine": "NotRun"
+  },
+  "checks": {
+    "componentCount": 19,
+    "stateSnapshotCount": 109,
+    "idsUnique": true,
+    "requiredFieldsPresent": true,
+    "embeddedJSONMatches": true,
+    "inlineJSSyntax": "Pass after final edits; not browser execution",
+    "staticRendering": {
+      "executions": 109,
+      "distinctFragmentsAfterRemovingAriaLabels": 60,
+      "errors": 0,
+      "coverageFile": "state-coverage-v01.json",
+      "limitation": "String fragment differences include text-only changes; not 60 independent models. Browser NotRun."
+    },
+    "localMarkdownLinks": {
+      "checked": 18,
+      "missing": 0
+    },
+    "svgXML": "Pass"
+  },
+  "inputs": [
+    {
+      "path": "E:/Project/game/yanzhou/development/production-plan.md",
+      "bytes": 24037,
+      "sha256": "2afd640f55dba2cffa5150c13407973b8ae409af403a438bf5afc1a673ea2419",
+      "coverage": "部分读取：当前调度与首批范围；工作树输入"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/development/asset-readiness.md",
+      "bytes": 12625,
+      "sha256": "449d391ab9d54e44fc92c8e45ddd83ebd3519988a5034dbdaa69111fc486807d",
+      "coverage": "部分读取：当前输入与原资产边界；工作树输入"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/demoncards-reference-2026-10-14/design-v01.md",
+      "bytes": 14654,
+      "sha256": "728828adb34603dce537a9bf84a759616397b87188db7a4ab01732b18a4ff787",
+      "coverage": "完整读取：结构/展示/动作合同；未提交来源"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/demoncards-reference-2026-10-14/design-v01.html",
+      "bytes": 33278,
+      "sha256": "7633812817e5fb89e538ae0f1e007ba0bd74f05cd82c67a31bed5ea7281c2bab",
+      "coverage": "部分读取：CSS与主要脚本结构；未运行"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/demoncards-reference-2026-10-14/design-review-v09.md",
+      "bytes": 6694,
+      "sha256": "67849f6b12740a9bb804cc1a148912e9bdbc8a759f11cc2132825f7e68e3db36",
+      "coverage": "完整读取：旧限定复核结论；非本轮用户接受"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/demoncards-reference-2026-10-14/design-manifest-v01.json",
+      "bytes": 10292,
+      "sha256": "d0154eabed4351613c001cf7ac329a9652807522d5cf879fd9957b16f8ae8212",
+      "coverage": "部分读取：输入与艺术图路径"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/sources/inbox/2026-10-13-physical-table-visual-rework.md",
+      "bytes": 3248,
+      "sha256": "3e8056b39a74a97809a5d3cde11e1c6bd113439ca9b85ebe4d5b8a57f70bfabd",
+      "coverage": "完整读取：原用户四项反馈"
+    },
+    {
+      "path": "E:/Game/Demoncards/分析报告/恶魔牌_借鉴分析报告.md",
+      "bytes": 18351,
+      "sha256": "f57ddab91b8341940ef86e39bfbb07a3aa2af2c9fc6134f2987ad83bb1fd7dc6",
+      "coverage": "部分读取：前95行资产/材质/字段；不采纳原世界单位/时长推测"
+    },
+    {
+      "path": "E:/Game/Demoncards/分析报告/恶魔牌_反编译数据_补充.md",
+      "bytes": 9107,
+      "sha256": "c449a056a08b44c304ff7a44145d4ca3fdf05e1ad073d7b270e0cda3eba3fe97",
+      "coverage": "部分读取：前105行；数值仅原报告陈述，不当实测"
+    },
+    {
+      "path": "E:/Game/Demoncards/verified-2026-10-14/runtime-v01/01-menu.png",
+      "bytes": 181837,
+      "sha256": "fb5f1daca974843fd90585f123c4260a2319094e70800d20ae874a02b1a251fc",
+      "coverage": "已实际目视"
+    },
+    {
+      "path": "E:/Game/Demoncards/verified-2026-10-14/runtime-v01/02-table-intro.png",
+      "bytes": 177440,
+      "sha256": "a515e4350af5b5f14e0f66e7853b2489dbf7b7c077424594c9ed85da87f4ae07",
+      "coverage": "已实际目视"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/demoncards-reference-2026-10-14/art-v01/03-inspection.png",
+      "bytes": 1963962,
+      "sha256": "59efa23342ff654eef4fca40bfac2db571b8019752a1175ef60033cbf7bb046a",
+      "coverage": "已实际目视：旧候选效果板，不是新模型"
+    },
+    {
+      "path": "E:/Project/yanzhou-godot/evidence/development-batch-09/source-physical-15/1920x1080/01-tabletop.png",
+      "bytes": 1879867,
+      "sha256": "b255fe5e7a30bb3b2e759cc67c5436f7417ec0b3d2858824bcf657bc9de793ab",
+      "coverage": "已实际目视：静态问题定位"
+    },
+    {
+      "path": "E:/Project/yanzhou-godot/evidence/development-batch-09/source-physical-15/1366x768/06-guard-closeup.png",
+      "bytes": 363672,
+      "sha256": "d43ca9a8a4896c0f9c64ddf8bf745aec55a6a8611715cd33babadfd1437d0ca8",
+      "coverage": "已实际目视：静态问题定位"
+    }
+  ],
+  "files": [
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-brief-v01.md",
+      "bytes": 12230,
+      "sha256": "5ed349e40f53102807456e8ac8e6da66a34d3904b09fde68c1ef36c19f619464"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-review-v01.md",
+      "bytes": 4382,
+      "sha256": "adb74fa944874de4915878e4f66eb3aeb9be647a166d817eedc50f4035eb20de"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-review-v02.md",
+      "bytes": 4558,
+      "sha256": "e8eb90ebe611ff0afd396f6110298847ff3aa120c8f9f8a8b08c8390bc0bf291"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/brief-v01.md",
+      "bytes": 24578,
+      "sha256": "c9909430a269041937e328f77014985677c3b3a9734642b8f966610f9bd35f81"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/components-v01.json",
+      "bytes": 20623,
+      "sha256": "d47235e101ae29000c283ae385a8fe78b836b9774135265c8c121b4ce6898207"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/design-review-v01.md",
+      "bytes": 5330,
+      "sha256": "d1823d254837fddea58135c7e686003fc54859037c815199ca5bc292e720bcbf"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/design-template.html",
+      "bytes": 40237,
+      "sha256": "9f45edfb2a416176683352b424675a41351370304921e328b9a07d5ad430c6ef"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/design-v01.html",
+      "bytes": 60842,
+      "sha256": "376443dd6ebb1f7ac34fe2b237972aef951a36160acbceaf13e39f05802c8a4d"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/geometry-constraints-v01.svg",
+      "bytes": 7042,
+      "sha256": "36f5f6d088dd9964bd4c378604ea9b6832345adbb5c478910c08f1cdef0bded2"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/handoff-readiness-v01.md",
+      "bytes": 4324,
+      "sha256": "c8eb1a564e02d45ded8af70d74e30ea09a9fa7e6c4003a02fc00e9474e6f968d"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/state-coverage-v01.json",
+      "bytes": 35190,
+      "sha256": "8f52c9934f22bb19d109a72d392483b03551ec9c206e2a78d11398591b24b823"
+    }
+  ],
+  "assetRegistry": "Coordinator assigns IDs and updates shared catalog; originals unchanged; no third-party binaries copied",
+  "limits": [
+    "No user visual acceptance inferred",
+    "Some state choices share geometry and change labels; 109 snapshots are not 109 finished models or animations",
+    "No gameplay changes",
+    "No 3D/PBR production generation",
+    "No claimed final batch-09 package closure"
+  ],
+  "registryIds": {
+    "structure": "DM-G002-014",
+    "art": "AS-G002-017",
+    "status": "Catalogued/PresentLocal; not user acceptance"
+  },
+  "scopeReadiness": {
+    "research": "19 components ReadyForResearch with scoped exclusions and browser NotRun disclosed",
+    "independentAssets": "16 entity geometries/PBR and 3 text-container backgrounds can be independently made after research and coordinator dispatch; no blanket browser block",
+    "runtimeIntegration": "Actual layout/input/state binding and animation evidence still required"
+  },
+  "artInitialEvidence": [
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-v01/01-text-card.png",
+      "bytes": 3012412,
+      "sha256": "1f4b0c5d4fff4b13874f97a9fa4e0a16955adaaf3d2fa0604ce2e87cab1959f6",
+      "review": "art-review-v01.md",
+      "status": "Original candidate; retain after edits"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-v01/02-wands-pawns-chips.png",
+      "bytes": 2757732,
+      "sha256": "f8c40a30c41d337ea29a001435eb0368e6c56338d8eb970219f5bdb4bc26ad59",
+      "review": "art-review-v01.md",
+      "status": "Original candidate; retain after edits"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-v01/03-table-decor.png",
+      "bytes": 2932097,
+      "sha256": "a133f66ae2d2aa6d9f8ac3369a7646ac20ad7b9927f85825c3af07a77ef25cc4",
+      "review": "art-review-v01.md",
+      "status": "Original candidate; retain after edits"
+    }
+  ],
+  "status": "ReadyForResearch",
+  "frozenAt": "2026-10-15T03:20:51.646Z",
+  "selectedArt": [
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-v01/01-text-card-v02.png",
+      "bytes": 2500850,
+      "sha256": "2023c6732485218a37fe96eda79384b01e0b7393e778eb76860bb7c9a8e7b0bd",
+      "review": "art-review-v02.md",
+      "scope": "Buildable shape/material candidate; exclusions in geometry-constraints-v01.svg; not production texture"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-v01/02-wands-pawns-chips-v02.png",
+      "bytes": 2490800,
+      "sha256": "8c11fea018526c9a1b1c3a1e7a850b4980893cf380c519a59aab1819024710de",
+      "review": "art-review-v02.md",
+      "scope": "Buildable shape/material candidate; exclusions in geometry-constraints-v01.svg; not production texture"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-v01/03-table-decor-v02.png",
+      "bytes": 2560355,
+      "sha256": "1cc541fc9ecc29b6b56479e94d6697b9bd798fab86074711061859c09df0964f",
+      "review": "art-review-v02.md",
+      "scope": "Buildable shape/material candidate; exclusions in geometry-constraints-v01.svg; not production texture"
+    }
+  ],
+  "artPackage": [
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-v01/01-text-card-prompt.txt",
+      "bytes": 2725,
+      "sha256": "f32b3e57a6dfa087028a426cd94d64a2424992b6285d67d90b97a14440ad457b"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-v01/01-text-card-v02-prompt.txt",
+      "bytes": 1320,
+      "sha256": "6aa0e2c597740e5806b0da4dd50a17506c9fd5390f194eb484075da6207f2a05"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-v01/01-text-card-v02.png",
+      "bytes": 2500850,
+      "sha256": "2023c6732485218a37fe96eda79384b01e0b7393e778eb76860bb7c9a8e7b0bd"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-v01/01-text-card.png",
+      "bytes": 3012412,
+      "sha256": "1f4b0c5d4fff4b13874f97a9fa4e0a16955adaaf3d2fa0604ce2e87cab1959f6"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-v01/02-wands-pawns-chips-prompt.txt",
+      "bytes": 3048,
+      "sha256": "739a1732b1fe3134a8cc5cb0bb6e1dc0cc4937612cd8b403606e6ed7a3ebacb1"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-v01/02-wands-pawns-chips-v02-prompt.txt",
+      "bytes": 1470,
+      "sha256": "c0b8c672985ac13754704dd3b2152ecb3711914e973a8deda205b1fd17f3c949"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-v01/02-wands-pawns-chips-v02.png",
+      "bytes": 2490800,
+      "sha256": "8c11fea018526c9a1b1c3a1e7a850b4980893cf380c519a59aab1819024710de"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-v01/02-wands-pawns-chips.png",
+      "bytes": 2757732,
+      "sha256": "f8c40a30c41d337ea29a001435eb0368e6c56338d8eb970219f5bdb4bc26ad59"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-v01/03-table-decor-prompt.txt",
+      "bytes": 3039,
+      "sha256": "4f59a242f062fec786825e2a137efbb768d5b302755e537904030f3c01981117"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-v01/03-table-decor-v02-prompt.txt",
+      "bytes": 805,
+      "sha256": "36e9e5974151c7c390a921704b7fe0fd816d5fb1b40715f8720edc3ad1840860"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-v01/03-table-decor-v02.png",
+      "bytes": 2560355,
+      "sha256": "1cc541fc9ecc29b6b56479e94d6697b9bd798fab86074711061859c09df0964f"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-v01/03-table-decor.png",
+      "bytes": 2932097,
+      "sha256": "a133f66ae2d2aa6d9f8ac3369a7646ac20ad7b9927f85825c3af07a77ef25cc4"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-v01/index.html",
+      "bytes": 5153,
+      "sha256": "bb611ef88915af8d7934732f4255f3b419f29e267807d9a6f75696b91f424e81"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-v01/manifest-v01.json",
+      "bytes": 4689,
+      "sha256": "29517dc1ebcdca2cfd071d72c672d8b1643a0511b88a5404865cdba55ef2d2f0"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/component-detail-2026-10-14/art-v01/README.md",
+      "bytes": 1870,
+      "sha256": "3c63eb21f34316836a8ce1f8fccd59b808b4f55602a688ddb060aac5af382979"
+    }
+  ]
+}

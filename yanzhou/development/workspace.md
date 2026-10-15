@@ -6,6 +6,8 @@
 
 日常怎么分工、下任务、看产物和交接，先读[言咒与Mr. Mak协作使用指南](../../../yanzhou-workspace/workspace/2026-10-14_yanzhou/collaboration.md)。工作台言咒卡片新增“协作使用”页签，可随时查看并复制话术。
 
+当前制作轮（2026-10-14）：依据[用户模型细化要求](../sources/inbox/2026-10-14-component-detail-round.md)重新进入HTML与效果图阶段，优先文本框与19项组件形态细节。工作台同卡片的[组件制作流程](../../../yanzhou-workspace/workspace/2026-10-14_yanzhou/component-pipeline.md)及“组件设计进度”页签持续登记各项状态。设计完成后先交调研agent评估Higgsfield，再交专门资产agent生成，最后打磨拼装；阶段与证据分别记录。
+
 | 分区 | 维护位置与接入方式 |
 | --- | --- |
 | 现行设计、来源、探索、治理 | 继续在本项目各目录维护；工作台只读预览明确选择的文档，不复制权威正文 |
