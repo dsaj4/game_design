@@ -261,6 +261,8 @@ AS-G002-004为2026-10-02的后续登记，使用该行独立固定提交，不�
 
 ### <a id="as-sh-002"></a>AS-SH-002 Demoncards 本机游戏与有界取证包
 
+- 2026-10-15追加盘点：[候选与接入优先级](E:/Project/yanzhou-godot/docs/coordination/2026-10-15-existing-assets.md)、[固定审计数据](E:/Project/yanzhou-godot/docs/coordination/existing-assets-audit-2026-10-15.json)。主pak哈希未变，旧索引7,811包全部可定位；定向45对象核类型，17纹理内存解码、13模型缓冲候选，无新运行导出。沿本条登记参考，不新分配AS，不把Catalogued升级为整体ReadyForScope；B12已接部分另沿AS-G002-025及下文2026-10-15记录。后续复用默认见[开发规范](../../yanzhou/development/development-standard.md#5-资产接入)。以下2026-10-14边界保留原轮次含义。
+
 - 归属：shared-reference；原件在[E:/Game/Demoncards](E:/Game/Demoncards/verified-2026-10-14/source-manifest-v01.json)，维护说明为[言咒本次限定取证](../../yanzhou/development/reports/demoncards-reference-2026-10-14.md)。类型：用户提供第三方游戏、两篇分析报告、OBJ、静态解析、截图／录屏；标签：纸牌、牌桌、UE曲线、材质。
 - 固定版本：DEMONCARDS-REFERENCE-2026-10-14-v01，源清单所列10件原物与SHA-256；主pak指纹`c61d079f5a853f51b52b81d1799f8c3595b8a2d079a1d449329af4597075ebd4`。类型化证据指纹`1eb267f32f31c0b00718eb01f176eefc2d4b3fdb01ac4346e0045311ff0d6aa2`；运行帧／媒体位于同包verified-2026-10-14。固定范围为清单和本轮报告明确文件，不把整个可变目录当固定版。
 - Catalogued / PresentLocal，2026-10-14核查原件哈希、局部卡网格和31项UE导出；菜单／教程／选牌实际观察，物品成功使用、详情、完整移动触发及精确测时未取得。局部网格600×10.0002×800不等于世界单位，原Card.obj失败拓扑保留，Card_fixed闭合版另列。

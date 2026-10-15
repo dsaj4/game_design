@@ -1,5 +1,7 @@
 # 言咒实现与资产索引
 
+> 后续制作默认（2026-10-15）：**优先使用现成资源，缺口才新建/生成。** [追加盘点与接入顺序](E:/Project/yanzhou-godot/docs/coordination/2026-10-15-existing-assets.md)列出已运行组件、现成源库和原游戏候选；[开发规范第5节](development-standard.md#5-资产接入)记录选材要求。此次只盘点，当前包仍为 B12，候选不冒充已接入。
+
 > 当前资产接入（2026-10-15）：用户要求列清单并实际接入恶魔牌桌面、卡牌和字体。沿十九组件运行版本继续，由原设计对接D核对、A接字体、B接原模型/纹理、总控打包验收。见[接入清单](E:/Project/yanzhou-godot/docs/coordination/2026-10-15-demoncards-asset-integration.md)与[本次授权](../sources/inbox/2026-10-15-demoncards-asset-integration.md)。第九批两档源/包61项及D v09范围内通过已补记，OS操作因实体Escape未验；旧包和失败证据保持原范围。
 
 > 当前阶段：2026-10-12 第六批Windows包 **GODOT-EX002-0.4** 限定技术验收通过；固定运行源码9c50458a56a38f0c6ebd001d9e6a3ef34382adaa，设计输入abe8869。完整单战／恢复／播放／界面、固定字体与基础音画设置，新增失焦暂停、公开卡面和运行材质样板；唯一工程为[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)。设计CORE-060—062及EX-002，视觉Blender v02；旧0.1／0.2／0.3包保留，正式音画质量与真人体验未完成。
