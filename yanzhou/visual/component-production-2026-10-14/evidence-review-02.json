@@ -1,0 +1,44 @@
+{
+  "reviewID": "COMPONENT-SAMPLES-QA-01",
+  "dateLocal": "2026-10-15T00:22:57.4177149-04:00",
+  "assetManifestSHA256": "e81b4175ed0d9b0f4ba7a4656ae6a14a87a5e6a5a2832848ed1e765feb3cbd3c",
+  "sourceSHA256": "2ba59d4a572d7593faef6f6a25902314a8c9ace1bb3dede7388ee36091f7abb7",
+  "images": [
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\TXT-01-glb-roundtrip.png",
+      "sha256": "3fec308656465e78f8572ff0720546a8fb5017bdf227c189ae086cb219a5ed76",
+      "observed": "view_image",
+      "role": "final release evidence actually viewed by D"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\CARD-01-glb-roundtrip.png",
+      "sha256": "6fe66ddc754b5c859a7428c9c20b10272fc9e3e5491bed095ddbca2c8e39beb7",
+      "observed": "view_image",
+      "role": "final release evidence actually viewed by D"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\WAND-01-glb-roundtrip.png",
+      "sha256": "fe3baf575d81180e778078377237ea16f958e43f903659e3fa40374a3e461f89",
+      "observed": "view_image",
+      "role": "final release evidence actually viewed by D"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\PAWN-01-glb-roundtrip.png",
+      "sha256": "7b369cd909a6ab74a87cf18fc4eb47d5a4b528d9220f6731cd42ea93a80a0e44",
+      "observed": "view_image",
+      "role": "final release evidence actually viewed by D"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\WAND-01-back-pad-neck-detail.png",
+      "sha256": "67a3410ee60e96036fe03db0541ca06af0bce85bf858962dd839a69fc38fc630",
+      "observed": "view_image",
+      "role": "final release evidence actually viewed by D"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\WAND-01-back-pad-tail-detail.png",
+      "sha256": "4c0313f8fd6fc9249cb9036eb333dea6a7c3a5f9a1af93c6aabdf50acfafc1dd",
+      "observed": "view_image",
+      "role": "final release evidence actually viewed by D"
+    }
+  ]
+}

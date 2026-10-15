@@ -1,0 +1,95 @@
+{
+  "reviewID": "COMPONENT-SAMPLES-QA-01",
+  "inspectedUtc": "2026-10-15T04:18:34.389145Z",
+  "inspector": "component_detail_design",
+  "sourceSHA256": "2ba59d4a572d7593faef6f6a25902314a8c9ace1bb3dede7388ee36091f7abb7",
+  "assetManifestSHA256": "e81b4175ed0d9b0f4ba7a4656ae6a14a87a5e6a5a2832848ed1e765feb3cbd3c",
+  "scope": "Read-only byte hashes and GLB JSON identity; actual Blender execution by asset agent as recorded in verification.json. Four roundtrip PNG visually viewed by D.",
+  "components": [
+    {
+      "id": "TXT-01",
+      "glbSHA256": "dcdb4370149d156b35263f8870a9d9d2582de4d2b83229eb2fd8a7a7c962a290",
+      "sourceMatchesVerification": true,
+      "sourceMatchesRenderEvidence": true,
+      "glbMatchesRenderEvidence": true,
+      "imageSHA256": "3fec308656465e78f8572ff0720546a8fb5017bdf227c189ae086cb219a5ed76",
+      "imageMatchesRenderEvidence": true,
+      "gltfVersion": "2.0",
+      "nodes": 54,
+      "meshes": 53,
+      "stableRoot": "TXT-01__ROOT",
+      "materials": [
+        "TXT end clips brass roughness .42",
+        "Linen seam",
+        "Warm unprinted paper",
+        "Dark brown hard leather"
+      ]
+    },
+    {
+      "id": "CARD-01",
+      "glbSHA256": "4080ca8ace7ced14cb5c3e6a067e0f731d4be33fe3cc17ec799a6f2f2a3c861f",
+      "sourceMatchesVerification": true,
+      "sourceMatchesRenderEvidence": true,
+      "glbMatchesRenderEvidence": true,
+      "imageSHA256": "6fe66ddc754b5c859a7428c9c20b10272fc9e3e5491bed095ddbca2c8e39beb7",
+      "imageMatchesRenderEvidence": true,
+      "gltfVersion": "2.0",
+      "nodes": 5,
+      "meshes": 4,
+      "stableRoot": "CARD-01__ROOT",
+      "materials": [
+        "Paper fibre core",
+        "Card front UV composite export",
+        "Card original back print"
+      ]
+    },
+    {
+      "id": "WAND-01",
+      "glbSHA256": "c74c223c2941e08bba62dfb2e4d8a8e6d672fe8176b3798c342e8074d4f76976",
+      "sourceMatchesVerification": true,
+      "sourceMatchesRenderEvidence": true,
+      "glbMatchesRenderEvidence": true,
+      "imageSHA256": "fe3baf575d81180e778078377237ea16f958e43f903659e3fa40374a3e461f89",
+      "imageMatchesRenderEvidence": true,
+      "gltfVersion": "2.0",
+      "nodes": 48,
+      "meshes": 47,
+      "stableRoot": "WAND-01__ROOT",
+      "materials": [
+        "Aged brass · metallic1",
+        "Engraved brass recess",
+        "Green wrapped leather",
+        "Contact felt",
+        "Dark grain recess"
+      ]
+    },
+    {
+      "id": "PAWN-01",
+      "glbSHA256": "c5db71cbd5744cdea2a4e8fc43e06be27aca2fd579111b74ac066d80d2a36011",
+      "sourceMatchesVerification": true,
+      "sourceMatchesRenderEvidence": true,
+      "glbMatchesRenderEvidence": true,
+      "imageSHA256": "7b369cd909a6ab74a87cf18fc4eb47d5a4b528d9220f6731cd42ea93a80a0e44",
+      "imageMatchesRenderEvidence": true,
+      "gltfVersion": "2.0",
+      "nodes": 8,
+      "meshes": 7,
+      "stableRoot": "PAWN-01__ROOT",
+      "materials": [
+        "Carved dark green wood",
+        "Dark grain recess",
+        "Pawn inset brass roughness .38",
+        "Contact felt",
+        "Carved wood edge wear"
+      ]
+    }
+  ],
+  "manifestFileCheck": {
+    "checked": 119,
+    "listed": 119,
+    "failures": [],
+    "result": "Pass",
+    "executedBy": "component_detail_design",
+    "atUtc": "2026-10-15T04:19:36.3826829Z"
+  }
+}

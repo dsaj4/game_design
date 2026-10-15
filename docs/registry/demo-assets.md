@@ -271,3 +271,13 @@ AS-G002-004为2026-10-02的后续登记，使用该行独立固定提交，不�
 - 归属：game-002 / main；[原件说明](../../yanzhou/visual/component-detail-2026-10-14/art-v01/README.md)、[可放大画册](../../yanzhou/visual/component-detail-2026-10-14/art-v01/index.html)。固定COMPONENT-ART-01，三张v02修订及三张保留v01，6个实际提示词、原生成来源、逐文件SHA-256见[图像manifest](../../yanzhou/visual/component-detail-2026-10-14/art-v01/manifest-v01.json)。
 - PNG实际1586×992、非透明底；提示请求2560×1600但工具未返回该尺寸。内置image_gen生成和定向编辑，未上传原游戏资产。覆盖文字/纸牌、法器/棋子/筹码、桌面/控制/装饰三组；只是外观与装配参考，不是模型、PBR图集、动态状态全套或游戏截图。
 - Catalogued / PresentLocal。2026-10-14总控与D目视并修正内容/形状/符号；仍有环开口、币局部等生成不一致，排除项及确定性更正见DM-G002-014复核。不将旧稿错误用于运行内容，不整板贴入游戏。uses: DM-G002-014文字与HTML；derived-from: None（新生成包，内部v02分别基于对应v01）；允许本轮言咒制作继续改作，公共分发许可未另定。
+
+## 2026-10-15 四组件生产样件
+
+### <a id="as-g002-018"></a>AS-G002-018 文本框、薄纸牌、环杖与雕木棋子首样
+
+- 归属：game-002 / main。原件就地维护在`E:/Project/yanzhou-battle-3d/component-detail-2026-10-14/sample-v01/`；[制作说明](E:/Project/yanzhou-battle-3d/component-detail-2026-10-14/sample-v01/README.md)、[四样件图册](E:/Project/yanzhou-battle-3d/component-detail-2026-10-14/sample-v01/renders/four-samples-neutral-contact-sheet.png)、[独立复核](../../yanzhou/visual/component-production-2026-10-14/sample-review-v02.md)。仅TXT-01、CARD-01、WAND-01、PAWN-01，其他15件不在此版本中。
+- 固定COMPONENT-SAMPLES-01，[manifest](E:/Project/yanzhou-battle-3d/component-detail-2026-10-14/sample-v01/manifest.json) SHA-256 `e81b4175ed0d9b0f4ba7a4656ae6a14a87a5e6a5a2832848ed1e765feb3cbd3c`，119文件112614894字节；源Blender SHA `2ba59d4a572d7593faef6f6a25902314a8c9ace1bb3dede7388ee36091f7abb7`。四GLB、可编辑blend、独立PBR/原生SVG、RGBA皮肤与切片、检查报告、失败图和提示词均在清单范围。
+- 单位米，C=.063；源Z上，GLB Y上；牌正面+Y/牌顶-Z，棋子正面+Z，无骨骼动画。TXT生产层640×192 RGBA，端夹固定、中央重复，无中文数字；盾墨绘1086×1448 RGBA原图保留，合成牌面属于派生；材质色彩空间、UV/节点/枢轴与独立通道见原件说明和asset-bindings。不是扫描PBR或完整卡种图集。
+- Catalogued / PresentLocal。2026-10-15总控复核119项字节/哈希全匹配，资产方源重开/GLB回导检查通过，视觉按D独立报告的具体Q1/Q2范围；Godot接入、两档显示、OS输入、性能与用户最终美术接受另验，不以本登记代替。
+- uses: DM-G002-014@YANZHOU-COMPONENT-DETAIL-V01、AS-G002-017@COMPONENT-ART-01（仅设计/外观参照）；derived-from: None（本轮原创网格、程序表面与图形，未复制参考游戏网格或像素）。盾墨绘由内置image_gen新生成，原始提示词和源图保留于同轮illustration-v01且副本纳入本包；允许本项目内部继续改作，公开分发条件Unknown。供DM-G002-011后续限定接入使用，当前不覆盖旧AS-G002-010/016资产。

@@ -1,0 +1,196 @@
+{
+  "id": "COMPONENT-PRODUCTION-REVIEW-01",
+  "capturedUtc": "2026-10-15T03:52:09.9926245Z",
+  "note": "WIP资产在返修中；这是第一轮实际目视文件哈希快照，不是最终ReadyForIntegration清单。旧PAWN四图另由资产agent保存在renders/q1-review-01。",
+  "images": [
+    {
+      "name": "PAWN-01-front-clay.png",
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\PAWN-01-front-clay.png",
+      "sha256": "4e283030592375899827c5daac1c67d04b49a4d61749232a7fe58c7ac44cb18a",
+      "lastWriteUtc": "2026-10-15T03:42:15.5781223Z",
+      "size": 986317,
+      "observed": "view_image",
+      "frozen": false
+    },
+    {
+      "name": "PAWN-01-three-quarter-clay.png",
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\PAWN-01-three-quarter-clay.png",
+      "sha256": "108396146c91e899d42c347203b7e32946cf39fa0d0b4d80ab8d8bb7df1e9f51",
+      "lastWriteUtc": "2026-10-15T03:42:50.8096300Z",
+      "size": 992203,
+      "observed": "view_image",
+      "frozen": false
+    },
+    {
+      "name": "PAWN-01-material.png",
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\PAWN-01-material.png",
+      "sha256": "b7945216953b66f1ef5eb2118184a00144fe3f11eba4cf2bbeb4d9a56aac9334",
+      "lastWriteUtc": "2026-10-15T03:42:03.8348404Z",
+      "size": 1002138,
+      "observed": "view_image",
+      "frozen": false
+    },
+    {
+      "name": "PAWN-01-detail.png",
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\PAWN-01-detail.png",
+      "sha256": "affa3452d187b8bde81ba0499aeb41bcf89622ea1bfe6c3aed8f1312fd43c9f9",
+      "lastWriteUtc": "2026-10-15T03:43:00.9944819Z",
+      "size": 1040256,
+      "observed": "view_image",
+      "frozen": false
+    },
+    {
+      "name": "PAWN-01-q1-revision-clay.png",
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\PAWN-01-q1-revision-clay.png",
+      "sha256": "37318141fbf1387fc9564345a45c21e343247a180687b5c74356e68b61a1a65a",
+      "lastWriteUtc": "2026-10-15T03:48:00.6643748Z",
+      "size": 989580,
+      "observed": "view_image",
+      "frozen": false
+    },
+    {
+      "name": "PAWN-01-q1-revision-front-clay.png",
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\PAWN-01-q1-revision-front-clay.png",
+      "sha256": "eac86499a3b70101a22a2e004c3d2c1e8384f8ef51f6b7b920959056deb247da",
+      "lastWriteUtc": "2026-10-15T03:48:12.1618157Z",
+      "size": 982884,
+      "observed": "view_image",
+      "frozen": false
+    },
+    {
+      "name": "WAND-01-front-clay.png",
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\WAND-01-front-clay.png",
+      "sha256": "1f72ab2e18ad38ff1536c918f438bc3a941aee92384b4794c0b6287773227b51",
+      "lastWriteUtc": "2026-10-15T03:43:13.7464884Z",
+      "size": 968190,
+      "observed": "view_image",
+      "frozen": false
+    },
+    {
+      "name": "WAND-01-side-clay.png",
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\WAND-01-side-clay.png",
+      "sha256": "a4728cf8e6ad006bde97db2ea9119fc3f8344521c89040f6c7329d7bb1da10ec",
+      "lastWriteUtc": "2026-10-15T03:43:24.8505722Z",
+      "size": 947462,
+      "observed": "view_image",
+      "frozen": false
+    },
+    {
+      "name": "WAND-01-material.png",
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\WAND-01-material.png",
+      "sha256": "a1de109bf4e3e2c745761036f2e0a7907e561cf049ec02b3e125399d464d5b77",
+      "lastWriteUtc": "2026-10-15T03:43:07.3817190Z",
+      "size": 990152,
+      "observed": "view_image",
+      "frozen": false
+    },
+    {
+      "name": "WAND-01-detail.png",
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\WAND-01-detail.png",
+      "sha256": "d1a051c337733ebb8d66d69073720d1250f1be741490bb25699c45e9e8ed9a1d",
+      "lastWriteUtc": "2026-10-15T03:43:59.4603531Z",
+      "size": 1093787,
+      "observed": "view_image",
+      "frozen": false
+    },
+    {
+      "name": "WAND-01-three-quarter-clay.png",
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\WAND-01-three-quarter-clay.png",
+      "sha256": "e5f42cb34a3b2b623b42214118d282421404b441ecd14d9ce11f4f5f3edf53ec",
+      "lastWriteUtc": "2026-10-15T03:43:47.7458267Z",
+      "size": 993347,
+      "observed": "view_image",
+      "frozen": false
+    },
+    {
+      "name": "TXT-01-material.png",
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\TXT-01-material.png",
+      "sha256": "1642349c5d91f62a82ee09384cba32b0b344485a4c7baa1e0cb253943ddb0345",
+      "lastWriteUtc": "2026-10-15T03:45:35.6056320Z",
+      "size": 923805,
+      "observed": "view_image",
+      "frozen": false
+    },
+    {
+      "name": "TXT-01-detail.png",
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\TXT-01-detail.png",
+      "sha256": "096badbe9fa4c94f71e485b35f93f66e7395d1c4b754a7ee99ef9510da20daa2",
+      "lastWriteUtc": "2026-10-15T03:45:47.6666661Z",
+      "size": 879145,
+      "observed": "view_image",
+      "frozen": false
+    },
+    {
+      "name": "TXT-01-front-clay.png",
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\TXT-01-front-clay.png",
+      "sha256": "1a0fd172e4fa22b8ff3d9ff4d8da5ee4279e0a1c3f49b788b279fd21758b78fc",
+      "lastWriteUtc": "2026-10-15T03:45:05.9831471Z",
+      "size": 939260,
+      "observed": "view_image",
+      "frozen": false
+    },
+    {
+      "name": "TXT-01-side-clay.png",
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\TXT-01-side-clay.png",
+      "sha256": "130013e8395aeb38fa992805affe85934c5f7676ae3ada6dbaba03a98644983c",
+      "lastWriteUtc": "2026-10-15T03:45:12.6651849Z",
+      "size": 936933,
+      "observed": "view_image",
+      "frozen": false
+    },
+    {
+      "name": "txt01-scaling-test.png",
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\txt01-scaling-test.png",
+      "sha256": "e79775fcd854c8292210a907076e172b20184f924b5d4ea82898277e1936b10b",
+      "lastWriteUtc": "2026-10-15T03:47:25.1705349Z",
+      "size": 24454,
+      "observed": "view_image",
+      "frozen": false
+    },
+    {
+      "name": "CARD-01-material.png",
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\CARD-01-material.png",
+      "sha256": "30c47229dbcee4cca7af36aa6661a8b46e9c918a4cae44d20c404471bd9d3f43",
+      "lastWriteUtc": "2026-10-15T03:44:38.3513840Z",
+      "size": 1028399,
+      "observed": "view_image",
+      "frozen": false
+    },
+    {
+      "name": "CARD-01-back-material.png",
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\CARD-01-back-material.png",
+      "sha256": "b6477b6247ce3a7ff9ac7ebebf6cf721143c2378acde8d90bf91c9afb9b752af",
+      "lastWriteUtc": "2026-10-15T03:44:55.1014213Z",
+      "size": 1000196,
+      "observed": "view_image",
+      "frozen": false
+    },
+    {
+      "name": "CARD-01-detail.png",
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\CARD-01-detail.png",
+      "sha256": "a3b45c0485a12c26c798130bde471c47d86f1e629a3ec3d09dca217b511ab4e7",
+      "lastWriteUtc": "2026-10-15T03:44:49.2311143Z",
+      "size": 1063151,
+      "observed": "view_image",
+      "frozen": false
+    },
+    {
+      "name": "CARD-01-side-clay.png",
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\CARD-01-side-clay.png",
+      "sha256": "591594a2e3c5d406fa79735c5e53d66077ae30938cfeff992f4499b32a611fa5",
+      "lastWriteUtc": "2026-10-15T03:44:17.6807051Z",
+      "size": 905916,
+      "observed": "view_image",
+      "frozen": false
+    },
+    {
+      "name": "CARD-01-three-quarter-clay.png",
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\sample-v01\\renders\\CARD-01-three-quarter-clay.png",
+      "sha256": "41aeb3c03c9056e2548e4585826cc7397dcb43ddd6a912cb8fdf2b76e0a81558",
+      "lastWriteUtc": "2026-10-15T03:44:27.8910059Z",
+      "size": 1013622,
+      "observed": "view_image",
+      "frozen": false
+    }
+  ]
+}
