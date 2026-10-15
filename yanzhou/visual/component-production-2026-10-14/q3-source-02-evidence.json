@@ -1,0 +1,767 @@
+{
+  "comparisonImage": {
+    "actualViewed": true,
+    "path": "E:/Project/yanzhou-battle-3d/component-detail-2026-10-14/sample-v01/renders/WAND-01-material.png",
+    "sha256": "55bce59b24196b250edec31407bfa35c435995d92a5ae9ff7f48e8f77132fe2c"
+  },
+  "exclusions": [
+    "Not packaged acceptance",
+    "Not OS input/focus testing",
+    "Not performance testing",
+    "Not full battle or all visual states",
+    "Not user art acceptance",
+    "No revalidation of frozen Q1/Q2"
+  ],
+  "executionManifestSHA256": "af013fe97dbe948fce0715f84461928eb6ec4f3b4d5c01fc21a38f49673a80d3",
+  "debugAssemblySHA256": "25c49b4b19de93f7265c51b978bcae4c8970fb160bca4f142df6abedd591bd34",
+  "id": "COMPONENT-Q3-SOURCE02",
+  "q3": {
+    "WAND-01": "GeometryAndLayoutPass_MetalFaceLightingFail",
+    "TXT-01": "PassWithinCapturedLayoutAndAssertedInputScope",
+    "CARD-01": "PassShieldRepresentativeOnly",
+    "PAWN-01": "PassWithinCapturedBodyAndTargetFeedbackScope"
+  },
+  "codeCommit": "979b1e6a16f9a9951634361ccb8299b87ba5860c",
+  "runSummaries": [
+    {
+      "resolution": "1920x1080",
+      "exitCode": 0,
+      "report": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\source-02\\1920x1080\\physical-result.json",
+      "passed": true,
+      "count": 61
+    },
+    {
+      "resolution": "1366x768",
+      "exitCode": 0,
+      "report": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\source-02\\1366x768\\physical-result.json",
+      "passed": true,
+      "count": 61
+    }
+  ],
+  "sourceSnapshot": [
+    {
+      "sha256": "d513b3e20320e27d083d4152bc5f844fb0c76ea35858fa5a1942fab3b5fccdb5",
+      "path": "godot\\CompleteMain.cs"
+    },
+    {
+      "sha256": "8384146a1a5ea88912661c79728c4b90700c6111fef0969932d5de819535288a",
+      "path": "godot\\CompleteMainCardChecks.cs"
+    },
+    {
+      "sha256": "92573a432813ab0b01a2f0868f335122e79c15a9e4d1c09a3660d7ecd0272ef8",
+      "path": "godot\\CompleteMainCards.cs"
+    },
+    {
+      "sha256": "7f78825cdfc0b4c4ad057b344300669caafd4f1ad23e7928439d0e0ca171e4da",
+      "path": "godot\\CompleteMainChecks.cs"
+    },
+    {
+      "sha256": "275753b8706b4812cc21e0c7be485c21ea3ffc3dd9f23a46a85c14f022673494",
+      "path": "godot\\CompleteMainDemoncardsChecksA.cs"
+    },
+    {
+      "sha256": "9cfa99b8b6ce62cb5185925295438698879932f9cb53ac2bfc29e32ce90f5774",
+      "path": "godot\\CompleteMainFocus.cs"
+    },
+    {
+      "sha256": "b80a5f62fb6b7dde3914794c6c7e62bbe79697706ba4fa386424b6556f672362",
+      "path": "godot\\CompleteMainFocusChecks.cs"
+    },
+    {
+      "sha256": "24c68c67eeb0b6570f59101c20d52b2f171fd4db8f69d3f8dfe6f2eaaec2cf66",
+      "path": "godot\\CompleteMainPerformance.cs"
+    },
+    {
+      "sha256": "816571422f06abb013606a96782fd9771766b3d60a43f4c6280b5eb7145e9399",
+      "path": "godot\\CompleteMainPhysicalChecks.cs"
+    },
+    {
+      "sha256": "52c8320a00f1ad0b89355a1a7637da06b156225812620de99da81bc722042d9a",
+      "path": "godot\\CompleteMainPresentation.cs"
+    },
+    {
+      "sha256": "cebb0c5b9bb8dda26d7aa507fc46435119ecb7345a04216aa87ce97a9bc8a77f",
+      "path": "godot\\CompleteMainPresentationChecks.cs"
+    },
+    {
+      "sha256": "1c812c91d9c3366ff753f70578c130845d35222a618085037067394ca8cf3d8d",
+      "path": "godot\\CompleteMainStartupProfile.cs"
+    },
+    {
+      "sha256": "29897513a0af428e99d43957b5d523f0bbcdde88af67f449ecf7845729a91846",
+      "path": "godot\\CompleteMainUi.cs"
+    },
+    {
+      "sha256": "7ac0f4666835a2e9aec6bebeed92d70680470dad026d9bea0cc74934af3eb1c8",
+      "path": "godot\\ComponentAssetAdapter.cs"
+    },
+    {
+      "sha256": "2efd08baa9175896a541f69acdd2908f771e79d9d5c805e7ededeb0546c5d147",
+      "path": "godot\\DemoncardsInteractionMotion.cs"
+    },
+    {
+      "sha256": "ac810d2a0d66632e91a7915e31806f76a088d6178dce1049347462dac4ccd729",
+      "path": "godot\\DemoncardsSurfaceMaterials.cs"
+    },
+    {
+      "sha256": "ef556e5984c1da5cf770ae47d704eac49aaad9797ce30720b92a50673a2a7c86",
+      "path": "godot\\DemoncardsSystemGraphic.cs"
+    },
+    {
+      "sha256": "29f7f04e8659c04e5fbf9e372bfb4754c809276eb6e1915f12665082c7343e6d",
+      "path": "godot\\DemoncardsTableGeometry.cs"
+    },
+    {
+      "sha256": "bd0fa8aeaeb7fedeb6fff1ec8165928afbc3aed0ffb584a4972cada9c674a4e3",
+      "path": "godot\\DemoncardsTextContainers.cs"
+    },
+    {
+      "sha256": "b1aeb18a519901bf0b44c75901b63b574a0437603029906fa93e177a62caa423",
+      "path": "godot\\EncounterArt.cs"
+    },
+    {
+      "sha256": "651b0b3e628595f86d1ce2f99ab1754364aabe112e04a1938c4bbaef09abf8ae",
+      "path": "godot\\EncounterArtSample.cs"
+    },
+    {
+      "sha256": "a62319d9a247865ab533ec076f88fb08eb64b4af3f7950acbabf767a104c7cea",
+      "path": "godot\\EncounterAudio.cs"
+    },
+    {
+      "sha256": "c21e691a6691fc8c3fa7425c48238bd06a93b93b997144bbfa69fb4aeaa77f30",
+      "path": "godot\\EncounterEffects.cs"
+    },
+    {
+      "sha256": "9b6a80fbf51845f2deb160355fdebdcb8d816a5218091f3ed53aaa7be184bf72",
+      "path": "godot\\EncounterSurfaceDetail.cs"
+    },
+    {
+      "sha256": "869860c008ae0ac54b2ed965c05a39080a51939123e76d6c860d7971fa2dc8f7",
+      "path": "godot\\EncounterSurfaceDetailSample.cs"
+    },
+    {
+      "sha256": "b405f3a33b45befc5cc146f6a3335f1424757e14f3dde04ac6ff9418c09ea5ec",
+      "path": "godot\\Main.cs"
+    },
+    {
+      "sha256": "076f396a98d97e00d11712c5c6594be7f314bb4c5f85435a098a538cc354af54",
+      "path": "godot\\PhysicalTableAppearance.cs"
+    },
+    {
+      "sha256": "b7159ef6ac85dbee2effe73d0d1507d851dfcf6e6b374ad96393e855222b0bb9",
+      "path": "godot\\PhysicalTableControls.cs"
+    },
+    {
+      "sha256": "76559acf5461d3c142496ba0a534f9d8875b64d71ab93cf18d96b74cea83b14f",
+      "path": "godot\\PhysicalTableEffects.cs"
+    },
+    {
+      "sha256": "e398efabcf82aaaab3a9bf2c4e74cc271ee252ab4b92c7a8445c083c4d7b2cbd",
+      "path": "godot\\PhysicalTableInteraction.cs"
+    },
+    {
+      "sha256": "ef06fde11721204518a1aca5896d8f13f230b71845c21a94bf4ccf4cf05456a3",
+      "path": "godot\\project.godot"
+    },
+    {
+      "sha256": "531cb2148a313a7072c6c792bbe011219f1ce4f51fe9ebe2add8af8f1195004e",
+      "path": "godot\\TimelineCardVisual.cs"
+    },
+    {
+      "sha256": "c2cd465e410999305b4bdf7679be9c0dcfcd8927c044d8f61038dbe41f01c55a",
+      "path": "godot\\Yanzhou.csproj"
+    }
+  ],
+  "runStartUtc": "2026-10-15T04:33:33.3110711Z",
+  "runs": [
+    {
+      "assertions": [
+        {
+          "name": "new-via-actual-button",
+          "status": "Pass"
+        },
+        {
+          "name": "guide-escape-no-advance",
+          "status": "Pass"
+        },
+        {
+          "name": "tabletop-real-mesh-no-hud",
+          "status": "Pass"
+        },
+        {
+          "name": "all-initial-enemy-programs-accessible",
+          "status": "Pass"
+        },
+        {
+          "name": "dark-card-public-fields-only",
+          "status": "Pass"
+        },
+        {
+          "name": "positive-chips-right-zero-trays",
+          "status": "Pass"
+        },
+        {
+          "name": "life-chip-hover-no-detail",
+          "status": "Pass"
+        },
+        {
+          "name": "player-world-closeup",
+          "status": "Pass"
+        },
+        {
+          "name": "player-escape-focus-and-paused",
+          "status": "Pass"
+        },
+        {
+          "name": "enemy-world-closeup",
+          "status": "Pass"
+        },
+        {
+          "name": "closeup-blocks-play-step",
+          "status": "Pass"
+        },
+        {
+          "name": "dark-card-world-closeup",
+          "status": "Pass"
+        },
+        {
+          "name": "resource-empty-floating",
+          "status": "Pass"
+        },
+        {
+          "name": "step-is-static",
+          "status": "Pass"
+        },
+        {
+          "name": "guard-live-batch-fields",
+          "status": "Pass"
+        },
+        {
+          "name": "closeup-snapshot-does-not-advance",
+          "status": "Pass"
+        },
+        {
+          "name": "keyboard-return-to-world-focus",
+          "status": "Pass"
+        },
+        {
+          "name": "completion-real-id-source-first",
+          "status": "Pass"
+        },
+        {
+          "name": "completion-appears-in-place-after-source",
+          "status": "Pass"
+        },
+        {
+          "name": "pause-restores-exact-card",
+          "status": "Pass"
+        },
+        {
+          "name": "same-card-closeup-identity",
+          "status": "Pass"
+        },
+        {
+          "name": "resume-does-not-replay-completion",
+          "status": "Pass"
+        },
+        {
+          "name": "use-card-and-pawn-start-together",
+          "status": "Pass"
+        },
+        {
+          "name": "pause-at-shield-keeps-card-before-mark",
+          "status": "Pass"
+        },
+        {
+          "name": "mark-before-depart-real-state",
+          "status": "Pass"
+        },
+        {
+          "name": "step-and-reduced-motion-clean",
+          "status": "Pass"
+        },
+        {
+          "name": "restore-same-state-static",
+          "status": "Pass"
+        },
+        {
+          "name": "focus-loss-clears-transients",
+          "status": "Pass"
+        },
+        {
+          "name": "focus-return-does-not-resume",
+          "status": "Pass"
+        },
+        {
+          "name": "world-controls-pan-home",
+          "status": "Pass"
+        },
+        {
+          "name": "world-control-home-static",
+          "status": "Pass"
+        },
+        {
+          "name": "keyboard-chip-exact-count",
+          "status": "Pass"
+        },
+        {
+          "name": "chip-click-queues-lock-until-observation",
+          "status": "Pass"
+        },
+        {
+          "name": "queued-lock-applies-at-observation",
+          "status": "Pass"
+        },
+        {
+          "name": "locked-chip-click-releases-real-balance",
+          "status": "Pass"
+        },
+        {
+          "name": "settings-world-control-and-static-return",
+          "status": "Pass"
+        },
+        {
+          "name": "controller-tick-drives-real-three-beat-chain",
+          "status": "Pass"
+        },
+        {
+          "name": "new-battle-clears-card-and-sequence",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-uniform-thin-rounded-paper-and-narrow-slots",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-focus-two-lines-public-and-does-not-pause",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-focus-leave-clears-and-window-follow-is-static",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-new-reveal-moves-one-public-identity",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-reveal-midpoint-hit-shares-visible-pivot",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-mid-move-click-is-current-public-detail",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-close-and-continue-do-not-replay-reveal",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-reveal-finishes-exact-public-pose",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-repeated-fresh-delivery-does-not-replay",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-single-step-publishes-without-old-motion",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-reduced-motion-publishes-static",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-focus-loss-cancels-and-return-stays-static",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-load-cancels-live-move-and-does-not-replay",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-quantity-closeup-zero-disabled-and-draft-preserved",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-quantity-excess-rejected-without-partial-lock",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-quantity-zero-disabled-and-close-discards-draft",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-new-fixture-resets-motion-cursor",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-player-attack-card-and-enemy-simultaneous",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-enemy-attack-card-and-player-simultaneous",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-interrupt-card-and-locked-artifact-simultaneous",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-all-use-cues-cancel-to-static-authoritative-pose",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-save-error-graphic-preserves-current-result",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-save-retry-does-not-repeat-battle-result",
+          "status": "Pass"
+        }
+      ],
+      "actualViewedPngs": [
+        {
+          "actualViewed": true,
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\source-02\\1920x1080\\01-tabletop.png",
+          "sha256": "366b28e3a1f68c781cb41ff6d5c7ec43bfe175fea0ae6c3defa7fd2c1a669977"
+        },
+        {
+          "actualViewed": true,
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\source-02\\1920x1080\\02-player-closeup.png",
+          "sha256": "3e6651c745b836e44fa402c7c1cdb6fb44f39d6668f778e3e71832e7ade054d3"
+        },
+        {
+          "actualViewed": true,
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\source-02\\1920x1080\\06-guard-closeup.png",
+          "sha256": "87b57062c4702635b67bc183d3b21e6900e00fc49deeeaa50555befa5d1e3ca7"
+        },
+        {
+          "actualViewed": true,
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\source-02\\1920x1080\\07-completion-source.png",
+          "sha256": "4c2212eb048757cb1028534251c1763e755f13bececee769fc33378913aef942"
+        },
+        {
+          "actualViewed": true,
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\source-02\\1920x1080\\08-completion-appear.png",
+          "sha256": "8937732c46e95fdb149d0d51bc3c0f47bd7c4b4644ed1898dd15956b75ebbd87"
+        },
+        {
+          "actualViewed": true,
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\source-02\\1920x1080\\10-card-closeup.png",
+          "sha256": "bdf291465913875e207719f13d57b12d6affd970f14ed21a659dcbb1da3a7395"
+        },
+        {
+          "actualViewed": true,
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\source-02\\1920x1080\\11-shield-use.png",
+          "sha256": "90ada29572b6d9bb17d51b616892c4b7c539a197b7dcf6fd90053a51e07e8c9c"
+        }
+      ],
+      "resultSha256": "c45e161fb384ed76de7086d736e187bb8513c890aac61dcc7a2bb2c7cd89a140",
+      "reportedPassed": true,
+      "nonPass": 0,
+      "stderrBytes": 0,
+      "assertionCount": 61,
+      "resultPath": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\source-02\\1920x1080\\physical-result.json",
+      "inputBoundary": "Godot Viewport.PushInput mouse/key; deterministic actual-event driver; effects manually timed; focus handlers directly invoked (not OS focus test)",
+      "resolution": "1920x1080"
+    },
+    {
+      "assertions": [
+        {
+          "name": "new-via-actual-button",
+          "status": "Pass"
+        },
+        {
+          "name": "guide-escape-no-advance",
+          "status": "Pass"
+        },
+        {
+          "name": "tabletop-real-mesh-no-hud",
+          "status": "Pass"
+        },
+        {
+          "name": "all-initial-enemy-programs-accessible",
+          "status": "Pass"
+        },
+        {
+          "name": "dark-card-public-fields-only",
+          "status": "Pass"
+        },
+        {
+          "name": "positive-chips-right-zero-trays",
+          "status": "Pass"
+        },
+        {
+          "name": "life-chip-hover-no-detail",
+          "status": "Pass"
+        },
+        {
+          "name": "player-world-closeup",
+          "status": "Pass"
+        },
+        {
+          "name": "player-escape-focus-and-paused",
+          "status": "Pass"
+        },
+        {
+          "name": "enemy-world-closeup",
+          "status": "Pass"
+        },
+        {
+          "name": "closeup-blocks-play-step",
+          "status": "Pass"
+        },
+        {
+          "name": "dark-card-world-closeup",
+          "status": "Pass"
+        },
+        {
+          "name": "resource-empty-floating",
+          "status": "Pass"
+        },
+        {
+          "name": "step-is-static",
+          "status": "Pass"
+        },
+        {
+          "name": "guard-live-batch-fields",
+          "status": "Pass"
+        },
+        {
+          "name": "closeup-snapshot-does-not-advance",
+          "status": "Pass"
+        },
+        {
+          "name": "keyboard-return-to-world-focus",
+          "status": "Pass"
+        },
+        {
+          "name": "completion-real-id-source-first",
+          "status": "Pass"
+        },
+        {
+          "name": "completion-appears-in-place-after-source",
+          "status": "Pass"
+        },
+        {
+          "name": "pause-restores-exact-card",
+          "status": "Pass"
+        },
+        {
+          "name": "same-card-closeup-identity",
+          "status": "Pass"
+        },
+        {
+          "name": "resume-does-not-replay-completion",
+          "status": "Pass"
+        },
+        {
+          "name": "use-card-and-pawn-start-together",
+          "status": "Pass"
+        },
+        {
+          "name": "pause-at-shield-keeps-card-before-mark",
+          "status": "Pass"
+        },
+        {
+          "name": "mark-before-depart-real-state",
+          "status": "Pass"
+        },
+        {
+          "name": "step-and-reduced-motion-clean",
+          "status": "Pass"
+        },
+        {
+          "name": "restore-same-state-static",
+          "status": "Pass"
+        },
+        {
+          "name": "focus-loss-clears-transients",
+          "status": "Pass"
+        },
+        {
+          "name": "focus-return-does-not-resume",
+          "status": "Pass"
+        },
+        {
+          "name": "world-controls-pan-home",
+          "status": "Pass"
+        },
+        {
+          "name": "world-control-home-static",
+          "status": "Pass"
+        },
+        {
+          "name": "keyboard-chip-exact-count",
+          "status": "Pass"
+        },
+        {
+          "name": "chip-click-queues-lock-until-observation",
+          "status": "Pass"
+        },
+        {
+          "name": "queued-lock-applies-at-observation",
+          "status": "Pass"
+        },
+        {
+          "name": "locked-chip-click-releases-real-balance",
+          "status": "Pass"
+        },
+        {
+          "name": "settings-world-control-and-static-return",
+          "status": "Pass"
+        },
+        {
+          "name": "controller-tick-drives-real-three-beat-chain",
+          "status": "Pass"
+        },
+        {
+          "name": "new-battle-clears-card-and-sequence",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-uniform-thin-rounded-paper-and-narrow-slots",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-focus-two-lines-public-and-does-not-pause",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-focus-leave-clears-and-window-follow-is-static",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-new-reveal-moves-one-public-identity",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-reveal-midpoint-hit-shares-visible-pivot",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-mid-move-click-is-current-public-detail",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-close-and-continue-do-not-replay-reveal",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-reveal-finishes-exact-public-pose",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-repeated-fresh-delivery-does-not-replay",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-single-step-publishes-without-old-motion",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-reduced-motion-publishes-static",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-focus-loss-cancels-and-return-stays-static",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-load-cancels-live-move-and-does-not-replay",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-quantity-closeup-zero-disabled-and-draft-preserved",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-quantity-excess-rejected-without-partial-lock",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-quantity-zero-disabled-and-close-discards-draft",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-new-fixture-resets-motion-cursor",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-player-attack-card-and-enemy-simultaneous",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-enemy-attack-card-and-player-simultaneous",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-interrupt-card-and-locked-artifact-simultaneous",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-all-use-cues-cancel-to-static-authoritative-pose",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-save-error-graphic-preserves-current-result",
+          "status": "Pass"
+        },
+        {
+          "name": "demoncards-save-retry-does-not-repeat-battle-result",
+          "status": "Pass"
+        }
+      ],
+      "actualViewedPngs": [
+        {
+          "actualViewed": true,
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\source-02\\1366x768\\01-tabletop.png",
+          "sha256": "186eb6c5203e00364bc994e01b6fc220f87b706879f6e412ce67cbb1c0bd6c71"
+        },
+        {
+          "actualViewed": true,
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\source-02\\1366x768\\02-player-closeup.png",
+          "sha256": "3119aa402658d52a3dfaf7f8b30ea7a3ca242a0244e01dccea7f34042e2799e2"
+        },
+        {
+          "actualViewed": true,
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\source-02\\1366x768\\06-guard-closeup.png",
+          "sha256": "0549434dd4735c360136a8efc757c1f554637ed32e22505ec1f3668a3cf53d67"
+        },
+        {
+          "actualViewed": true,
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\source-02\\1366x768\\07-completion-source.png",
+          "sha256": "e93265ff3d9a6437b2a6f2bdc0f2e5c8e34942391d5d363ebaee7d61be89ee77"
+        },
+        {
+          "actualViewed": true,
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\source-02\\1366x768\\08-completion-appear.png",
+          "sha256": "edfe9717e546f846203e9b5229c9525d511842076ba9d756d3c61c9d4b6c3ce2"
+        },
+        {
+          "actualViewed": true,
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\source-02\\1366x768\\10-card-closeup.png",
+          "sha256": "5ccecd1e7b37f7fc0a59afd1964775882ecc6fdb39b06e4337eb4802eb51b3a1"
+        },
+        {
+          "actualViewed": true,
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\source-02\\1366x768\\11-shield-use.png",
+          "sha256": "7ebda1d4f38fbd15c003bb49ebe75b2644f5b6c9971d3a91ecf89c78013a6d8c"
+        }
+      ],
+      "resultSha256": "b6ca9d50a6b68ed1ec750b4cc0dad15e325107cfe2fe05d7b5503681910de206",
+      "reportedPassed": true,
+      "nonPass": 0,
+      "stderrBytes": 0,
+      "assertionCount": 61,
+      "resultPath": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\source-02\\1366x768\\physical-result.json",
+      "inputBoundary": "Godot Viewport.PushInput mouse/key; deterministic actual-event driver; effects manually timed; focus handlers directly invoked (not OS focus test)",
+      "resolution": "1366x768"
+    }
+  ],
+  "status": "PartialPass_WandCloseupLightingRework",
+  "dateLocal": "2026-10-15T00:37:51.6325164-04:00",
+  "debugAssemblyLastWriteUtc": "2026-10-15T04:33:05.6315237Z"
+}

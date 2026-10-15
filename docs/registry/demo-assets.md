@@ -279,5 +279,21 @@ AS-G002-004为2026-10-02的后续登记，使用该行独立固定提交，不�
 - 归属：game-002 / main。原件就地维护在`E:/Project/yanzhou-battle-3d/component-detail-2026-10-14/sample-v01/`；[制作说明](E:/Project/yanzhou-battle-3d/component-detail-2026-10-14/sample-v01/README.md)、[四样件图册](E:/Project/yanzhou-battle-3d/component-detail-2026-10-14/sample-v01/renders/four-samples-neutral-contact-sheet.png)、[独立复核](../../yanzhou/visual/component-production-2026-10-14/sample-review-v02.md)。仅TXT-01、CARD-01、WAND-01、PAWN-01，其他15件不在此版本中。
 - 固定COMPONENT-SAMPLES-01，[manifest](E:/Project/yanzhou-battle-3d/component-detail-2026-10-14/sample-v01/manifest.json) SHA-256 `e81b4175ed0d9b0f4ba7a4656ae6a14a87a5e6a5a2832848ed1e765feb3cbd3c`，119文件112614894字节；源Blender SHA `2ba59d4a572d7593faef6f6a25902314a8c9ace1bb3dede7388ee36091f7abb7`。四GLB、可编辑blend、独立PBR/原生SVG、RGBA皮肤与切片、检查报告、失败图和提示词均在清单范围。
 - 单位米，C=.063；源Z上，GLB Y上；牌正面+Y/牌顶-Z，棋子正面+Z，无骨骼动画。TXT生产层640×192 RGBA，端夹固定、中央重复，无中文数字；盾墨绘1086×1448 RGBA原图保留，合成牌面属于派生；材质色彩空间、UV/节点/枢轴与独立通道见原件说明和asset-bindings。不是扫描PBR或完整卡种图集。
-- Catalogued / PresentLocal。2026-10-15总控复核119项字节/哈希全匹配，资产方源重开/GLB回导检查通过，视觉按D独立报告的具体Q1/Q2范围；Godot接入、两档显示、OS输入、性能与用户最终美术接受另验，不以本登记代替。
+- ReadyForScope / PresentLocal（仅首批四件限定范围）。2026-10-15总控复核119项字节/哈希全匹配，源重开/GLB回导及D独立Q1/Q2通过；[限定Q3](../../yanzhou/visual/component-production-2026-10-14/q3-source-04-review.md)通过，源码与Release两档各61/61，48张PNG逐字节相同。[运行交付记录](E:/Project/yanzhou-godot/docs/reviews/2026-10-15-component-samples-integration.md)、预览目录`E:/Project/yanzhou-godot/build/development-batch-10/samples-01/windows/`。OS输入、性能与用户最终美术接受未验，其他15件及其他卡种新墨绘不在本限定范围。
 - uses: DM-G002-014@YANZHOU-COMPONENT-DETAIL-V01、AS-G002-017@COMPONENT-ART-01（仅设计/外观参照）；derived-from: None（本轮原创网格、程序表面与图形，未复制参考游戏网格或像素）。盾墨绘由内置image_gen新生成，原始提示词和源图保留于同轮illustration-v01且副本纳入本包；允许本项目内部继续改作，公开分发条件Unknown。供DM-G002-011后续限定接入使用，当前不覆盖旧AS-G002-010/016资产。
+
+## 2026-10-15 组件扩量制作登记
+
+以下均归属game-002 / main，用于DM-G002-011后续表现接入；原件根为`E:/Project/yanzhou-battle-3d/component-detail-2026-10-14/`。当前为Planned，版本标签是制作分组标识，最终manifest与SHA-256均待源件固定后补记。目录存在不代表Q1/Q2/Q3通过。
+
+| ID与入口 | 制作版本 | 范围 | 生命周期 / 可访问性 |
+| --- | --- | --- | --- |
+| <a id="as-g002-019"></a>AS-G002-019 · `expansion-a-v01/` | COMPONENT-EXPANSION-A-01 | PAWN-02、CHIP-01/02/03、CONTROL-01 | Planned / PresentLocal |
+| <a id="as-g002-020"></a>AS-G002-020 · `expansion-c-v01/` | COMPONENT-EXPANSION-C-01 | TABLE-01、MAT-01、SLOT-01、DRAWER-01，含独立runtime-fit桌/垫 | Planned / PresentLocal |
+| <a id="as-g002-021"></a>AS-G002-021 · `expansion-b-v01/` | COMPONENT-EXPANSION-B-01 | WAND-02 | Planned / Unknown（尚待创建源目录） |
+| <a id="as-g002-022"></a>AS-G002-022 · `expansion-d-v01/` | COMPONENT-EXPANSION-D-01 | DECOR-01/02/03 | Planned / Unknown（尚待创建源目录） |
+| <a id="as-g002-023"></a>AS-G002-023 · `expansion-e-v01/` | COMPONENT-EXPANSION-E-01 | TXT-02、TXT-03分层皮肤及布局说明 | Planned / PresentLocal |
+
+共同uses：DM-G002-014@YANZHOU-COMPONENT-DETAIL-V01、AS-G002-017@COMPONENT-ART-01；工具选择依据[固定调研结论](../../yanzhou/development/reports/component-detail-higgsfield-assessment-2026-10-14.md)。计划采用本项目原创网格、程序表面及可编辑SVG；允许复用AS-G002-018@COMPONENT-SAMPLES-01的自制生成函数/表面，具体derived-from文件和指纹以各包最终manifest为准，不改冻结样件。未复制参考游戏原始网格或像素。
+
+A/B/C/D按米制可编辑源、独立GLB/PBR、枢轴/轴向/尺寸及源重开/回导证据交接；E按分层RGBA/原生SVG、切片/内容区/锚点和18/24px实际字体审查图交接。进度登记在Mr. Mak Workspace对应组件页；完成后分别做独立质量复核和Godot限定运行检查。玻璃排序/成本、真实文本避让及用户最终美术接受不能由首批四件结论继承。内部制作复用已获本轮授权，公开分发条件Unknown；原件就地保存，Git仅登记来源与证据，不提交生产二进制。
