@@ -1,0 +1,3199 @@
+{
+  "reviewer": "root, independent of A producer",
+  "date": "2026-10-15",
+  "manifest": {
+    "sha256": "3144406c979f28266c39cb521ef26465b6a5228f3368a1149e6348268f474507",
+    "files": 124,
+    "bytes": 108911850
+  },
+  "sourceSha256": "596ef556a1f24a601c3a752a704d1650ac13135e97dc546bb1779f76d5654a24",
+  "actualImageViews": [
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\renders\\PAWN-02-roundtrip-final.png",
+      "sha256": "026d7b88d2e686488ef34ea6b6dd3c9e633c35b5bd6d19b6f03a9809f5c8f583"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\renders\\CHIPS-roundtrip-final.png",
+      "sha256": "26839e5823bcd871966331aaecc687e9d96af4edc9df6972673ee39137a0e34b"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\renders\\CONTROL-01-roundtrip-final.png",
+      "sha256": "1122e1ee47713600cde2010276d0e22a73569b1230eef8c82a33d42699ff042f"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\renders\\PAWN-02-raking-material.png",
+      "sha256": "269605481c0fc4f8efa6cab272f921a7241c8bda058a9c1c253dedd09628bf0d"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\renders\\PAWN-02-corner-fastening-detail-v03.png",
+      "sha256": "2e76f2bf2d17aa76f7624572522d20595bdc2b363b134fdf732b47eab30e8966"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\renders\\CHIP-01-tray-contact-side-final.png",
+      "sha256": "131950701bf23650c43bd477598a6f19d0901e9bc90581a7cfe15f7a016feedd"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\renders\\CHIP-02-tray-contact-side-final.png",
+      "sha256": "6b2c021fdb31b4c6d8e84aaf32c7b7c00105d2014ce6e78f7d234baea1d74c23"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\renders\\CHIP-01-empty-tray-final.png",
+      "sha256": "d2e0a09e5c66c8b062318abdf42f12c60706e6f6108a1e34d809fb05e1f690a2"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\renders\\CHIP-02-empty-tray-final.png",
+      "sha256": "1c86a281d2704c660f0229be5405b759d500bc72240892ca0e2c5a3ad793b2e0"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\renders\\CHIP-03-full-tray-final.png",
+      "sha256": "2244880b83aadfca4023b9a7150a624b9c5117310a62cd399a3c4a925e118823"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\renders\\CHIP-03-lock-contact-detail-v03.png",
+      "sha256": "875de1047fa2591ed3534912ce687fd398f4edf3ffde7b017c54985acfc99a4e"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\renders\\CHIP-01-relief-detail-v03.png",
+      "sha256": "a3b2605744b5c2c4049e403e0d287131ead8145993fd80410474f20228197b11"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\renders\\CHIP-02-relief-detail-v03.png",
+      "sha256": "80c4ce36da00e9f0ac343be5f6e67c555499c0fac3806dedf86fb703cc1a7abf"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\renders\\CONTROL-step-speed-detail-v03.png",
+      "sha256": "951824af79cbfe2b81fbd0fb3d4e3bd5b104287f2d718a947a1a9af0387adbdf"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\renders\\CONTROL-pause-state-material.png",
+      "sha256": "2b318a9052209df5596f1122cd1fdb150f5f35b782d11d79926b9dd96e3d3ad2"
+    }
+  ],
+  "independentGlbParse": [
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\models\\CHIP-01-tray.glb",
+      "sha256": "a3a5f4f22b8c93cc19cb8b70d34a4c55300c6711aae074f58fd5cc472df9f9a0",
+      "meshes": 1,
+      "surfaces": 2,
+      "nodes": [
+        {
+          "name": "CHIP-01-tray__STATIC",
+          "extras": {
+            "runtime_role": "STATIC"
+          }
+        },
+        {
+          "name": "CHIP-01-tray__ROOT",
+          "extras": {
+            "C_m": 0.063,
+            "quantity_zero_requires_no_coin": true,
+            "stack_anchor_source_m": [
+              0.0,
+              0.0,
+              0.0012
+            ],
+            "contact_floor_z_m": 0.0012,
+            "minimum_coin_side_clearance_m": 0.0004,
+            "stable_export_root": "CHIP-01-tray__ROOT",
+            "source_axes": "X right, Y back, Z up; glTF X right, Y up, Z forward"
+          }
+        }
+      ],
+      "materials": [
+        {
+          "name": "EXP-A brown leather",
+          "pbr": {
+            "baseColorTexture": {
+              "index": 1
+            },
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8299999833106995
+          }
+        },
+        {
+          "name": "EXP-A incised dark recess",
+          "pbr": {
+            "baseColorFactor": [
+              0.012000000104308128,
+              0.01600000075995922,
+              0.014000000432133675,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8500000238418579
+          }
+        }
+      ],
+      "embeddedImages": 2
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\models\\CHIP-01.glb",
+      "sha256": "a4d399c0912743277745f996fed57887555da59a0fbbebdee37161ec450fac42",
+      "meshes": 1,
+      "surfaces": 2,
+      "nodes": [
+        {
+          "name": "CHIP-01__STATIC",
+          "extras": {
+            "runtime_role": "STATIC"
+          }
+        },
+        {
+          "name": "CHIP-01__ROOT",
+          "extras": {
+            "C_m": 0.063,
+            "diameter_m": 0.02835,
+            "coin_total_thickness_m": 0.003,
+            "edge_identity": 12,
+            "front": "+Z",
+            "stable_export_root": "CHIP-01__ROOT",
+            "source_axes": "X right, Y back, Z up; glTF X right, Y up, Z forward"
+          }
+        }
+      ],
+      "materials": [
+        {
+          "name": "EXP-A aged brass",
+          "pbr": {
+            "baseColorTexture": {
+              "index": 1
+            },
+            "roughnessFactor": 0.4000000059604645
+          }
+        },
+        {
+          "name": "CHIP-01 red brown enamel",
+          "pbr": {
+            "baseColorFactor": [
+              0.30000001192092896,
+              0.06400000303983688,
+              0.03999999910593033,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.44999998807907104
+          }
+        }
+      ],
+      "embeddedImages": 2
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\models\\CHIP-02-tray.glb",
+      "sha256": "0a2c5793805f6668e4cb375fee1abeeb7bf3fa548a1c9cb6f565f631be85c4d9",
+      "meshes": 1,
+      "surfaces": 2,
+      "nodes": [
+        {
+          "name": "CHIP-02-tray__STATIC",
+          "extras": {
+            "runtime_role": "STATIC"
+          }
+        },
+        {
+          "name": "CHIP-02-tray__ROOT",
+          "extras": {
+            "C_m": 0.063,
+            "quantity_zero_requires_no_coin": true,
+            "stack_anchor_source_m": [
+              0.0,
+              0.0,
+              0.0012
+            ],
+            "contact_floor_z_m": 0.0012,
+            "minimum_coin_side_clearance_m": 0.0004,
+            "stable_export_root": "CHIP-02-tray__ROOT",
+            "source_axes": "X right, Y back, Z up; glTF X right, Y up, Z forward"
+          }
+        }
+      ],
+      "materials": [
+        {
+          "name": "EXP-A brown leather",
+          "pbr": {
+            "baseColorTexture": {
+              "index": 1
+            },
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8299999833106995
+          }
+        },
+        {
+          "name": "EXP-A incised dark recess",
+          "pbr": {
+            "baseColorFactor": [
+              0.012000000104308128,
+              0.01600000075995922,
+              0.014000000432133675,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8500000238418579
+          }
+        }
+      ],
+      "embeddedImages": 2
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\models\\CHIP-02.glb",
+      "sha256": "bae1c65c67c58e0592f17146150244c762d3c2cf2cebd37a2a7430f6af69f533",
+      "meshes": 1,
+      "surfaces": 2,
+      "nodes": [
+        {
+          "name": "CHIP-02__STATIC",
+          "extras": {
+            "runtime_role": "STATIC"
+          }
+        },
+        {
+          "name": "CHIP-02__ROOT",
+          "extras": {
+            "C_m": 0.063,
+            "diameter_m": 0.02835,
+            "coin_total_thickness_m": 0.003,
+            "edge_identity": 6,
+            "front": "+Z",
+            "stable_export_root": "CHIP-02__ROOT",
+            "source_axes": "X right, Y back, Z up; glTF X right, Y up, Z forward"
+          }
+        }
+      ],
+      "materials": [
+        {
+          "name": "EXP-A aged brass",
+          "pbr": {
+            "baseColorTexture": {
+              "index": 1
+            },
+            "roughnessFactor": 0.4000000059604645
+          }
+        },
+        {
+          "name": "CHIP-02 gray blue enamel",
+          "pbr": {
+            "baseColorFactor": [
+              0.06499999761581421,
+              0.11999999731779099,
+              0.15000000596046448,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.5
+          }
+        }
+      ],
+      "embeddedImages": 2
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\models\\CHIP-03-lock.glb",
+      "sha256": "37fae5076448a1f2cd989d47a1f2c07b49a8fbb09df0bc605514d54339456587",
+      "meshes": 1,
+      "surfaces": 2,
+      "nodes": [
+        {
+          "name": "CHIP-03-lock__STATIC",
+          "extras": {
+            "runtime_role": "STATIC"
+          }
+        },
+        {
+          "name": "CHIP-03-lock__ROOT",
+          "extras": {
+            "C_m": 0.063,
+            "default_visible": false,
+            "bind_to": "CHIP-03 coin local origin; not life/shield",
+            "band_width_m": 0.004,
+            "stable_export_root": "CHIP-03-lock__ROOT",
+            "source_axes": "X right, Y back, Z up; glTF X right, Y up, Z forward"
+          }
+        }
+      ],
+      "materials": [
+        {
+          "name": "EXP-A dark iron",
+          "pbr": {
+            "baseColorFactor": [
+              0.03500000014901161,
+              0.04500000178813934,
+              0.041999999433755875,
+              1
+            ],
+            "roughnessFactor": 0.6200000047683716
+          }
+        },
+        {
+          "name": "EXP-A aged brass",
+          "pbr": {
+            "baseColorTexture": {
+              "index": 1
+            },
+            "roughnessFactor": 0.4000000059604645
+          }
+        }
+      ],
+      "embeddedImages": 2
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\models\\CHIP-03-tray.glb",
+      "sha256": "08ff0d1aaa23deb46676d95bc1b97ff07579611cee84a8ba45c6fedda5aed8cd",
+      "meshes": 1,
+      "surfaces": 2,
+      "nodes": [
+        {
+          "name": "CHIP-03-tray__STATIC",
+          "extras": {
+            "runtime_role": "STATIC"
+          }
+        },
+        {
+          "name": "CHIP-03-tray__ROOT",
+          "extras": {
+            "C_m": 0.063,
+            "quantity_zero_requires_no_coin": true,
+            "stack_anchor_source_m": [
+              -0.0165,
+              0.0,
+              0.0012
+            ],
+            "contact_floor_z_m": 0.0012,
+            "stable_export_root": "CHIP-03-tray__ROOT",
+            "source_axes": "X right, Y back, Z up; glTF X right, Y up, Z forward"
+          }
+        }
+      ],
+      "materials": [
+        {
+          "name": "EXP-A brown leather",
+          "pbr": {
+            "baseColorTexture": {
+              "index": 1
+            },
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8299999833106995
+          }
+        },
+        {
+          "name": "EXP-A incised dark recess",
+          "pbr": {
+            "baseColorFactor": [
+              0.012000000104308128,
+              0.01600000075995922,
+              0.014000000432133675,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8500000238418579
+          }
+        }
+      ],
+      "embeddedImages": 2
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\models\\CHIP-03.glb",
+      "sha256": "b90b1b59b6577b7ab9b1974e738ff0653ed117c357449ce40da3306348bda409",
+      "meshes": 1,
+      "surfaces": 2,
+      "nodes": [
+        {
+          "name": "CHIP-03__STATIC",
+          "extras": {
+            "runtime_role": "STATIC"
+          }
+        },
+        {
+          "name": "CHIP-03__ROOT",
+          "extras": {
+            "C_m": 0.063,
+            "diameter_m": 0.02835,
+            "coin_total_thickness_m": 0.003,
+            "edge_identity": 8,
+            "front": "+Z",
+            "stable_export_root": "CHIP-03__ROOT",
+            "source_axes": "X right, Y back, Z up; glTF X right, Y up, Z forward"
+          }
+        }
+      ],
+      "materials": [
+        {
+          "name": "EXP-A aged brass",
+          "pbr": {
+            "baseColorTexture": {
+              "index": 1
+            },
+            "roughnessFactor": 0.4000000059604645
+          }
+        },
+        {
+          "name": "EXP-A incised dark recess",
+          "pbr": {
+            "baseColorFactor": [
+              0.012000000104308128,
+              0.01600000075995922,
+              0.014000000432133675,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8500000238418579
+          }
+        }
+      ],
+      "embeddedImages": 2
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\models\\CONTROL-01-home.glb",
+      "sha256": "76b76a2a8ddcc352841ea4348813e478b73cc828a06df1fe06360ad897e5e591",
+      "meshes": 2,
+      "surfaces": 5,
+      "nodes": [
+        {
+          "name": "CONTROL-01-home__PRESS_CAP",
+          "extras": {
+            "runtime_role": "PRESS_CAP",
+            "press_axis": "local -Z in Blender; -Y in glTF",
+            "nominal_travel_m": 0.00065
+          }
+        },
+        {
+          "name": "CONTROL-01-home__STATIC",
+          "extras": {
+            "runtime_role": "STATIC"
+          }
+        },
+        {
+          "name": "CONTROL-01-home__ROOT",
+          "extras": {
+            "C_m": 0.063,
+            "host_variant": "home",
+            "baseline_diameter_m": 0.0378,
+            "base_cap_height_m": 0.00945,
+            "hit_target_runtime_px": 44,
+            "stable_export_root": "CONTROL-01-home__ROOT",
+            "source_axes": "X right, Y back, Z up; glTF X right, Y up, Z forward"
+          }
+        }
+      ],
+      "materials": [
+        {
+          "name": "CONTROL-01 green inlay",
+          "pbr": {
+            "baseColorFactor": [
+              0.03500000014901161,
+              0.07500000298023224,
+              0.05700000002980232,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.6800000071525574
+          }
+        },
+        {
+          "name": "CONTROL-01 ivory enamel symbols",
+          "pbr": {
+            "baseColorFactor": [
+              0.7599999904632568,
+              0.6899999976158142,
+              0.49000000953674316,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.5
+          }
+        },
+        {
+          "name": "EXP-A aged brass",
+          "pbr": {
+            "baseColorTexture": {
+              "index": 1
+            },
+            "roughnessFactor": 0.4000000059604645
+          }
+        },
+        {
+          "name": "EXP-A contact felt",
+          "pbr": {
+            "baseColorFactor": [
+              0.017999999225139618,
+              0.02500000037252903,
+              0.020999999716877937,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.9599999785423279
+          }
+        },
+        {
+          "name": "EXP-A incised dark recess",
+          "pbr": {
+            "baseColorFactor": [
+              0.012000000104308128,
+              0.01600000075995922,
+              0.014000000432133675,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8500000238418579
+          }
+        }
+      ],
+      "embeddedImages": 2
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\models\\CONTROL-01-left.glb",
+      "sha256": "5e8d793a3636eb26ca5935370965f2a98b214be8788e496011a9a40c5d25e7f6",
+      "meshes": 2,
+      "surfaces": 5,
+      "nodes": [
+        {
+          "name": "CONTROL-01-left__PRESS_CAP",
+          "extras": {
+            "runtime_role": "PRESS_CAP",
+            "press_axis": "local -Z in Blender; -Y in glTF",
+            "nominal_travel_m": 0.00065
+          }
+        },
+        {
+          "name": "CONTROL-01-left__STATIC",
+          "extras": {
+            "runtime_role": "STATIC"
+          }
+        },
+        {
+          "name": "CONTROL-01-left__ROOT",
+          "extras": {
+            "C_m": 0.063,
+            "host_variant": "left",
+            "baseline_diameter_m": 0.0378,
+            "base_cap_height_m": 0.00945,
+            "hit_target_runtime_px": 44,
+            "stable_export_root": "CONTROL-01-left__ROOT",
+            "source_axes": "X right, Y back, Z up; glTF X right, Y up, Z forward"
+          }
+        }
+      ],
+      "materials": [
+        {
+          "name": "CONTROL-01 green inlay",
+          "pbr": {
+            "baseColorFactor": [
+              0.03500000014901161,
+              0.07500000298023224,
+              0.05700000002980232,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.6800000071525574
+          }
+        },
+        {
+          "name": "CONTROL-01 ivory enamel symbols",
+          "pbr": {
+            "baseColorFactor": [
+              0.7599999904632568,
+              0.6899999976158142,
+              0.49000000953674316,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.5
+          }
+        },
+        {
+          "name": "EXP-A aged brass",
+          "pbr": {
+            "baseColorTexture": {
+              "index": 1
+            },
+            "roughnessFactor": 0.4000000059604645
+          }
+        },
+        {
+          "name": "EXP-A contact felt",
+          "pbr": {
+            "baseColorFactor": [
+              0.017999999225139618,
+              0.02500000037252903,
+              0.020999999716877937,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.9599999785423279
+          }
+        },
+        {
+          "name": "EXP-A incised dark recess",
+          "pbr": {
+            "baseColorFactor": [
+              0.012000000104308128,
+              0.01600000075995922,
+              0.014000000432133675,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8500000238418579
+          }
+        }
+      ],
+      "embeddedImages": 2
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\models\\CONTROL-01-play-pause.glb",
+      "sha256": "6c1a18c66a4469865121da09745aed5eaa8d5661e4a5bf8d52f7351f4964d204",
+      "meshes": 3,
+      "surfaces": 7,
+      "nodes": [
+        {
+          "name": "CONTROL-01-play-pause__PAUSE_CAP",
+          "extras": {
+            "runtime_role": "PAUSE_CAP",
+            "default_visible": false,
+            "press_axis": "local -Z in Blender; -Y in glTF",
+            "nominal_travel_m": 0.00065
+          }
+        },
+        {
+          "name": "CONTROL-01-play-pause__PLAY_CAP",
+          "extras": {
+            "runtime_role": "PLAY_CAP",
+            "press_axis": "local -Z in Blender; -Y in glTF",
+            "nominal_travel_m": 0.00065
+          }
+        },
+        {
+          "name": "CONTROL-01-play-pause__STATIC",
+          "extras": {
+            "runtime_role": "STATIC"
+          }
+        },
+        {
+          "name": "CONTROL-01-play-pause__ROOT",
+          "extras": {
+            "C_m": 0.063,
+            "host_variant": "play-pause",
+            "baseline_diameter_m": 0.0378,
+            "base_cap_height_m": 0.00945,
+            "hit_target_runtime_px": 44,
+            "stable_export_root": "CONTROL-01-play-pause__ROOT",
+            "source_axes": "X right, Y back, Z up; glTF X right, Y up, Z forward"
+          }
+        }
+      ],
+      "materials": [
+        {
+          "name": "CONTROL-01 green inlay",
+          "pbr": {
+            "baseColorFactor": [
+              0.03500000014901161,
+              0.07500000298023224,
+              0.05700000002980232,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.6800000071525574
+          }
+        },
+        {
+          "name": "CONTROL-01 ivory enamel symbols",
+          "pbr": {
+            "baseColorFactor": [
+              0.7599999904632568,
+              0.6899999976158142,
+              0.49000000953674316,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.5
+          }
+        },
+        {
+          "name": "EXP-A aged brass",
+          "pbr": {
+            "baseColorTexture": {
+              "index": 1
+            },
+            "roughnessFactor": 0.4000000059604645
+          }
+        },
+        {
+          "name": "EXP-A contact felt",
+          "pbr": {
+            "baseColorFactor": [
+              0.017999999225139618,
+              0.02500000037252903,
+              0.020999999716877937,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.9599999785423279
+          }
+        },
+        {
+          "name": "EXP-A incised dark recess",
+          "pbr": {
+            "baseColorFactor": [
+              0.012000000104308128,
+              0.01600000075995922,
+              0.014000000432133675,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8500000238418579
+          }
+        }
+      ],
+      "embeddedImages": 2
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\models\\CONTROL-01-right.glb",
+      "sha256": "4d6a507a080a11dbdeedf057b75a76b8a6c0e0a58cf92104264da52d675236a4",
+      "meshes": 2,
+      "surfaces": 5,
+      "nodes": [
+        {
+          "name": "CONTROL-01-right__PRESS_CAP",
+          "extras": {
+            "runtime_role": "PRESS_CAP",
+            "press_axis": "local -Z in Blender; -Y in glTF",
+            "nominal_travel_m": 0.00065
+          }
+        },
+        {
+          "name": "CONTROL-01-right__STATIC",
+          "extras": {
+            "runtime_role": "STATIC"
+          }
+        },
+        {
+          "name": "CONTROL-01-right__ROOT",
+          "extras": {
+            "C_m": 0.063,
+            "host_variant": "right",
+            "baseline_diameter_m": 0.0378,
+            "base_cap_height_m": 0.00945,
+            "hit_target_runtime_px": 44,
+            "stable_export_root": "CONTROL-01-right__ROOT",
+            "source_axes": "X right, Y back, Z up; glTF X right, Y up, Z forward"
+          }
+        }
+      ],
+      "materials": [
+        {
+          "name": "CONTROL-01 green inlay",
+          "pbr": {
+            "baseColorFactor": [
+              0.03500000014901161,
+              0.07500000298023224,
+              0.05700000002980232,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.6800000071525574
+          }
+        },
+        {
+          "name": "CONTROL-01 ivory enamel symbols",
+          "pbr": {
+            "baseColorFactor": [
+              0.7599999904632568,
+              0.6899999976158142,
+              0.49000000953674316,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.5
+          }
+        },
+        {
+          "name": "EXP-A aged brass",
+          "pbr": {
+            "baseColorTexture": {
+              "index": 1
+            },
+            "roughnessFactor": 0.4000000059604645
+          }
+        },
+        {
+          "name": "EXP-A contact felt",
+          "pbr": {
+            "baseColorFactor": [
+              0.017999999225139618,
+              0.02500000037252903,
+              0.020999999716877937,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.9599999785423279
+          }
+        },
+        {
+          "name": "EXP-A incised dark recess",
+          "pbr": {
+            "baseColorFactor": [
+              0.012000000104308128,
+              0.01600000075995922,
+              0.014000000432133675,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8500000238418579
+          }
+        }
+      ],
+      "embeddedImages": 2
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\models\\CONTROL-01-settings.glb",
+      "sha256": "db5c8d1c7496183478e798c68862c977a068c498636e419bbdc192bba2a237dd",
+      "meshes": 2,
+      "surfaces": 5,
+      "nodes": [
+        {
+          "name": "CONTROL-01-settings__PRESS_CAP",
+          "extras": {
+            "runtime_role": "PRESS_CAP",
+            "press_axis": "local -Z in Blender; -Y in glTF",
+            "nominal_travel_m": 0.00065
+          }
+        },
+        {
+          "name": "CONTROL-01-settings__STATIC",
+          "extras": {
+            "runtime_role": "STATIC"
+          }
+        },
+        {
+          "name": "CONTROL-01-settings__ROOT",
+          "extras": {
+            "C_m": 0.063,
+            "host_variant": "settings",
+            "baseline_diameter_m": 0.0378,
+            "base_cap_height_m": 0.00945,
+            "hit_target_runtime_px": 44,
+            "stable_export_root": "CONTROL-01-settings__ROOT",
+            "source_axes": "X right, Y back, Z up; glTF X right, Y up, Z forward"
+          }
+        }
+      ],
+      "materials": [
+        {
+          "name": "CONTROL-01 green inlay",
+          "pbr": {
+            "baseColorFactor": [
+              0.03500000014901161,
+              0.07500000298023224,
+              0.05700000002980232,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.6800000071525574
+          }
+        },
+        {
+          "name": "CONTROL-01 ivory enamel symbols",
+          "pbr": {
+            "baseColorFactor": [
+              0.7599999904632568,
+              0.6899999976158142,
+              0.49000000953674316,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.5
+          }
+        },
+        {
+          "name": "EXP-A aged brass",
+          "pbr": {
+            "baseColorTexture": {
+              "index": 1
+            },
+            "roughnessFactor": 0.4000000059604645
+          }
+        },
+        {
+          "name": "EXP-A contact felt",
+          "pbr": {
+            "baseColorFactor": [
+              0.017999999225139618,
+              0.02500000037252903,
+              0.020999999716877937,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.9599999785423279
+          }
+        },
+        {
+          "name": "EXP-A incised dark recess",
+          "pbr": {
+            "baseColorFactor": [
+              0.012000000104308128,
+              0.01600000075995922,
+              0.014000000432133675,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8500000238418579
+          }
+        }
+      ],
+      "embeddedImages": 2
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\models\\CONTROL-01-speed.glb",
+      "sha256": "1933325d09cb95491a7cd608adb6697063a42bee67bc45f7e026a3210bba893d",
+      "meshes": 2,
+      "surfaces": 6,
+      "nodes": [
+        {
+          "name": "CONTROL-01-speed__SPEED_LEVER",
+          "extras": {
+            "runtime_role": "SPEED_LEVER",
+            "detent_angles_deg": [
+              -60,
+              0,
+              60
+            ],
+            "rotation_axis": "local Z in Blender; Y in glTF"
+          }
+        },
+        {
+          "name": "CONTROL-01-speed__STATIC",
+          "extras": {
+            "runtime_role": "STATIC"
+          }
+        },
+        {
+          "name": "CONTROL-01-speed__ROOT",
+          "extras": {
+            "C_m": 0.063,
+            "host_variant": "speed",
+            "baseline_diameter_m": 0.0378,
+            "base_cap_height_m": 0.00945,
+            "hit_target_runtime_px": 44,
+            "stable_export_root": "CONTROL-01-speed__ROOT",
+            "source_axes": "X right, Y back, Z up; glTF X right, Y up, Z forward"
+          }
+        }
+      ],
+      "materials": [
+        {
+          "name": "EXP-A aged brass",
+          "pbr": {
+            "baseColorTexture": {
+              "index": 1
+            },
+            "roughnessFactor": 0.4000000059604645
+          }
+        },
+        {
+          "name": "EXP-A contact felt",
+          "pbr": {
+            "baseColorFactor": [
+              0.017999999225139618,
+              0.02500000037252903,
+              0.020999999716877937,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.9599999785423279
+          }
+        },
+        {
+          "name": "EXP-A incised dark recess",
+          "pbr": {
+            "baseColorFactor": [
+              0.012000000104308128,
+              0.01600000075995922,
+              0.014000000432133675,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8500000238418579
+          }
+        },
+        {
+          "name": "CONTROL-01 green inlay",
+          "pbr": {
+            "baseColorFactor": [
+              0.03500000014901161,
+              0.07500000298023224,
+              0.05700000002980232,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.6800000071525574
+          }
+        },
+        {
+          "name": "CONTROL-01 ivory enamel symbols",
+          "pbr": {
+            "baseColorFactor": [
+              0.7599999904632568,
+              0.6899999976158142,
+              0.49000000953674316,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.5
+          }
+        }
+      ],
+      "embeddedImages": 2
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\models\\CONTROL-01-step.glb",
+      "sha256": "483812739860e8c4f591849f17ef057abf73fb70bbac18282d61deac9b5d2f0d",
+      "meshes": 2,
+      "surfaces": 5,
+      "nodes": [
+        {
+          "name": "CONTROL-01-step__PRESS_CAP",
+          "extras": {
+            "runtime_role": "PRESS_CAP",
+            "press_axis": "local -Z in Blender; -Y in glTF",
+            "nominal_travel_m": 0.00065
+          }
+        },
+        {
+          "name": "CONTROL-01-step__STATIC",
+          "extras": {
+            "runtime_role": "STATIC"
+          }
+        },
+        {
+          "name": "CONTROL-01-step__ROOT",
+          "extras": {
+            "C_m": 0.063,
+            "host_variant": "step",
+            "baseline_diameter_m": 0.0378,
+            "base_cap_height_m": 0.00945,
+            "hit_target_runtime_px": 44,
+            "stable_export_root": "CONTROL-01-step__ROOT",
+            "source_axes": "X right, Y back, Z up; glTF X right, Y up, Z forward"
+          }
+        }
+      ],
+      "materials": [
+        {
+          "name": "CONTROL-01 green inlay",
+          "pbr": {
+            "baseColorFactor": [
+              0.03500000014901161,
+              0.07500000298023224,
+              0.05700000002980232,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.6800000071525574
+          }
+        },
+        {
+          "name": "EXP-A aged brass",
+          "pbr": {
+            "baseColorTexture": {
+              "index": 1
+            },
+            "roughnessFactor": 0.4000000059604645
+          }
+        },
+        {
+          "name": "EXP-A contact felt",
+          "pbr": {
+            "baseColorFactor": [
+              0.017999999225139618,
+              0.02500000037252903,
+              0.020999999716877937,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.9599999785423279
+          }
+        },
+        {
+          "name": "EXP-A incised dark recess",
+          "pbr": {
+            "baseColorFactor": [
+              0.012000000104308128,
+              0.01600000075995922,
+              0.014000000432133675,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8500000238418579
+          }
+        },
+        {
+          "name": "CONTROL-01 ivory enamel symbols",
+          "pbr": {
+            "baseColorFactor": [
+              0.7599999904632568,
+              0.6899999976158142,
+              0.49000000953674316,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.5
+          }
+        }
+      ],
+      "embeddedImages": 2
+    },
+    {
+      "path": "E:\\Project\\yanzhou-battle-3d\\component-detail-2026-10-14\\expansion-a-v01\\models\\PAWN-02.glb",
+      "sha256": "70b7412bbfb165b74e86d99e6e8beffbe296c6415794d4091b9916d962762547",
+      "meshes": 1,
+      "surfaces": 9,
+      "nodes": [
+        {
+          "name": "PAWN-02__STATIC",
+          "extras": {
+            "runtime_role": "STATIC"
+          }
+        },
+        {
+          "name": "PAWN-02__ROOT",
+          "extras": {
+            "C_m": 0.063,
+            "height_target_m": 0.14805,
+            "base_target_m": 0.05985,
+            "front": "-Y",
+            "static_bottles_count": 2,
+            "narrow_neck_width_m": 0.01386,
+            "base_height_m": 0.01071,
+            "stable_export_root": "PAWN-02__ROOT",
+            "source_axes": "X right, Y back, Z up; glTF X right, Y up, Z forward"
+          }
+        }
+      ],
+      "materials": [
+        {
+          "name": "PAWN-02 deep ochre carved wood",
+          "pbr": {
+            "baseColorTexture": {
+              "index": 1
+            },
+            "metallicFactor": 0,
+            "roughnessFactor": 0.7200000286102295
+          }
+        },
+        {
+          "name": "EXP-A contact felt",
+          "pbr": {
+            "baseColorFactor": [
+              0.017999999225139618,
+              0.02500000037252903,
+              0.020999999716877937,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.9599999785423279
+          }
+        },
+        {
+          "name": "EXP-A aged brass",
+          "pbr": {
+            "baseColorTexture": {
+              "index": 3
+            },
+            "roughnessFactor": 0.4000000059604645
+          }
+        },
+        {
+          "name": "EXP-A dark iron",
+          "pbr": {
+            "baseColorFactor": [
+              0.03500000014901161,
+              0.04500000178813934,
+              0.041999999433755875,
+              1
+            ],
+            "roughnessFactor": 0.6200000047683716
+          }
+        },
+        {
+          "name": "PAWN-02 dark leather apron panels",
+          "pbr": {
+            "baseColorTexture": {
+              "index": 5
+            },
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8299999833106995
+          }
+        },
+        {
+          "name": "EXP-A incised dark recess",
+          "pbr": {
+            "baseColorFactor": [
+              0.012000000104308128,
+              0.01600000075995922,
+              0.014000000432133675,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8500000238418579
+          }
+        },
+        {
+          "name": "EXP-A brown leather",
+          "pbr": {
+            "baseColorTexture": {
+              "index": 7
+            },
+            "metallicFactor": 0,
+            "roughnessFactor": 0.8299999833106995
+          }
+        },
+        {
+          "name": "PAWN-02 rubbed edge wood",
+          "pbr": {
+            "baseColorFactor": [
+              0.23000000417232513,
+              0.12999999523162842,
+              0.05999999865889549,
+              1
+            ],
+            "metallicFactor": 0,
+            "roughnessFactor": 0.5400000214576721
+          }
+        },
+        {
+          "name": "PAWN-02 dark iron mask",
+          "pbr": {
+            "baseColorFactor": [
+              0.03500000014901161,
+              0.041999999433755875,
+              0.039000000804662704,
+              1
+            ],
+            "roughnessFactor": 0.5
+          }
+        }
+      ],
+      "embeddedImages": 6
+    }
+  ],
+  "producerExecutedBlenderEvidence": {
+    "asset_id": "AS-G002-019",
+    "source_reopen": "Pass",
+    "source_sha256": "596ef556a1f24a601c3a752a704d1650ac13135e97dc546bb1779f76d5654a24",
+    "Godot": "NotRun by asset worker",
+    "scope": [
+      "PAWN-02",
+      "CHIP-01",
+      "CHIP-02",
+      "CHIP-03",
+      "CONTROL-01"
+    ],
+    "assets": {
+      "CHIP-01-tray": {
+        "source": {
+          "min_m": [
+            -0.021599141880869865,
+            -0.02289522998034954,
+            0.0
+          ],
+          "max_m": [
+            0.021599141880869865,
+            0.016100000590085983,
+            0.0035000001080334187
+          ],
+          "dimensions_m": [
+            0.04319828376173973,
+            0.038995230570435524,
+            0.0035000001080334187
+          ],
+          "triangles": 7772,
+          "max_xy_radius_m": 0.022895232399575697
+        },
+        "modifier_count": 2,
+        "root": "CHIP-01-tray__ROOT",
+        "source_nodes": [
+          {
+            "name": "CHIP-01-tray__ROOT",
+            "type": "EMPTY",
+            "parent": null,
+            "extras": {
+              "C_m": 0.063,
+              "quantity_zero_requires_no_coin": true,
+              "stack_anchor_source_m": [
+                0.0,
+                0.0,
+                0.0012
+              ],
+              "contact_floor_z_m": 0.0012,
+              "minimum_coin_side_clearance_m": 0.0004
+            }
+          },
+          {
+            "name": "CHIP-01 / empty tray leather base",
+            "type": "MESH",
+            "parent": "CHIP-01-tray__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-01 / raised empty tray lip",
+            "type": "MESH",
+            "parent": "CHIP-01-tray__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-01 / zero quantity shallow imprint",
+            "type": "CURVE",
+            "parent": "CHIP-01-tray__ROOT",
+            "extras": {}
+          }
+        ],
+        "roundtrip": {
+          "min_m": [
+            -0.021599141880869865,
+            -0.02289522998034954,
+            0.0
+          ],
+          "max_m": [
+            0.021599141880869865,
+            0.016100000590085983,
+            0.0035000001080334187
+          ],
+          "dimensions_m": [
+            0.04319828376173973,
+            0.038995230570435524,
+            0.0035000001080334187
+          ],
+          "triangles": 7772,
+          "max_xy_radius_m": 0.022895232399575697,
+          "mesh_count": 1,
+          "missing_uv": [],
+          "bad_normals": 0,
+          "nonfinite_vertices": 0,
+          "degenerate_triangles": 0,
+          "missing_images": [],
+          "dimensions_delta_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "sha256": "a3a5f4f22b8c93cc19cb8b70d34a4c55300c6711aae074f58fd5cc472df9f9a0"
+      },
+      "CHIP-01": {
+        "source": {
+          "min_m": [
+            -0.014093028381466866,
+            -0.014093028381466866,
+            0.0
+          ],
+          "max_m": [
+            0.014093028381466866,
+            0.014093028381466866,
+            0.003000000026077032
+          ],
+          "dimensions_m": [
+            0.02818605676293373,
+            0.02818605676293373,
+            0.003000000026077032
+          ],
+          "triangles": 11764,
+          "max_xy_radius_m": 0.014175000629844971
+        },
+        "modifier_count": 5,
+        "root": "CHIP-01__ROOT",
+        "source_nodes": [
+          {
+            "name": "CHIP-01__ROOT",
+            "type": "EMPTY",
+            "parent": null,
+            "extras": {
+              "C_m": 0.063,
+              "diameter_m": 0.02835,
+              "coin_total_thickness_m": 0.003,
+              "edge_identity": 12,
+              "front": "+Z"
+            }
+          },
+          {
+            "name": "CHIP-01 / physical coin edge",
+            "type": "MESH",
+            "parent": "CHIP-01__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-01 / inset face",
+            "type": "MESH",
+            "parent": "CHIP-01__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-01 / heart enamel relief",
+            "type": "MESH",
+            "parent": "CHIP-01__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-01 / heart outline copper",
+            "type": "CURVE",
+            "parent": "CHIP-01__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-01 / reverse rim",
+            "type": "CURVE",
+            "parent": "CHIP-01__ROOT",
+            "extras": {}
+          }
+        ],
+        "roundtrip": {
+          "min_m": [
+            -0.014093028381466866,
+            -0.014093028381466866,
+            0.0
+          ],
+          "max_m": [
+            0.014093028381466866,
+            0.014093028381466866,
+            0.003000000026077032
+          ],
+          "dimensions_m": [
+            0.02818605676293373,
+            0.02818605676293373,
+            0.003000000026077032
+          ],
+          "triangles": 11764,
+          "max_xy_radius_m": 0.014175000629844971,
+          "mesh_count": 1,
+          "missing_uv": [],
+          "bad_normals": 0,
+          "nonfinite_vertices": 0,
+          "degenerate_triangles": 0,
+          "missing_images": [],
+          "dimensions_delta_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "sha256": "a4d399c0912743277745f996fed57887555da59a0fbbebdee37161ec450fac42"
+      },
+      "CHIP-02-tray": {
+        "source": {
+          "min_m": [
+            -0.019104648381471634,
+            -0.020668337121605873,
+            0.0
+          ],
+          "max_m": [
+            0.019104648381471634,
+            0.02070000022649765,
+            0.0035000001080334187
+          ],
+          "dimensions_m": [
+            0.03820929676294327,
+            0.04136833734810352,
+            0.0035000001080334187
+          ],
+          "triangles": 6588,
+          "max_xy_radius_m": 0.02467803985206841
+        },
+        "modifier_count": 2,
+        "root": "CHIP-02-tray__ROOT",
+        "source_nodes": [
+          {
+            "name": "CHIP-02-tray__ROOT",
+            "type": "EMPTY",
+            "parent": null,
+            "extras": {
+              "C_m": 0.063,
+              "quantity_zero_requires_no_coin": true,
+              "stack_anchor_source_m": [
+                0.0,
+                0.0,
+                0.0012
+              ],
+              "contact_floor_z_m": 0.0012,
+              "minimum_coin_side_clearance_m": 0.0004
+            }
+          },
+          {
+            "name": "CHIP-02 / empty tray leather base",
+            "type": "MESH",
+            "parent": "CHIP-02-tray__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-02 / raised empty tray lip",
+            "type": "MESH",
+            "parent": "CHIP-02-tray__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-02 / zero quantity shallow imprint",
+            "type": "CURVE",
+            "parent": "CHIP-02-tray__ROOT",
+            "extras": {}
+          }
+        ],
+        "roundtrip": {
+          "min_m": [
+            -0.019104648381471634,
+            -0.020668337121605873,
+            0.0
+          ],
+          "max_m": [
+            0.019104648381471634,
+            0.02070000022649765,
+            0.0035000001080334187
+          ],
+          "dimensions_m": [
+            0.03820929676294327,
+            0.04136833734810352,
+            0.0035000001080334187
+          ],
+          "triangles": 6588,
+          "max_xy_radius_m": 0.02467803985206841,
+          "mesh_count": 1,
+          "missing_uv": [],
+          "bad_normals": 0,
+          "nonfinite_vertices": 0,
+          "degenerate_triangles": 0,
+          "missing_images": [],
+          "dimensions_delta_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "sha256": "0a2c5793805f6668e4cb375fee1abeeb7bf3fa548a1c9cb6f565f631be85c4d9"
+      },
+      "CHIP-02": {
+        "source": {
+          "min_m": [
+            -0.014093028381466866,
+            -0.014174999669194221,
+            0.0
+          ],
+          "max_m": [
+            0.014093028381466866,
+            0.014174999669194221,
+            0.003000000026077032
+          ],
+          "dimensions_m": [
+            0.02818605676293373,
+            0.028349999338388443,
+            0.003000000026077032
+          ],
+          "triangles": 8276,
+          "max_xy_radius_m": 0.014175000629844971
+        },
+        "modifier_count": 5,
+        "root": "CHIP-02__ROOT",
+        "source_nodes": [
+          {
+            "name": "CHIP-02__ROOT",
+            "type": "EMPTY",
+            "parent": null,
+            "extras": {
+              "C_m": 0.063,
+              "diameter_m": 0.02835,
+              "coin_total_thickness_m": 0.003,
+              "edge_identity": 6,
+              "front": "+Z"
+            }
+          },
+          {
+            "name": "CHIP-02 / physical coin edge",
+            "type": "MESH",
+            "parent": "CHIP-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-02 / inset face",
+            "type": "MESH",
+            "parent": "CHIP-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-02 / shield shallow relief",
+            "type": "MESH",
+            "parent": "CHIP-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-02 / shield contour copper",
+            "type": "CURVE",
+            "parent": "CHIP-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-02 / shield midline",
+            "type": "CURVE",
+            "parent": "CHIP-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-02 / shield crossline",
+            "type": "CURVE",
+            "parent": "CHIP-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-02 / reverse rim",
+            "type": "CURVE",
+            "parent": "CHIP-02__ROOT",
+            "extras": {}
+          }
+        ],
+        "roundtrip": {
+          "min_m": [
+            -0.014093028381466866,
+            -0.014174999669194221,
+            0.0
+          ],
+          "max_m": [
+            0.014093028381466866,
+            0.014174999669194221,
+            0.003000000026077032
+          ],
+          "dimensions_m": [
+            0.02818605676293373,
+            0.028349999338388443,
+            0.003000000026077032
+          ],
+          "triangles": 8276,
+          "max_xy_radius_m": 0.014175000629844971,
+          "mesh_count": 1,
+          "missing_uv": [],
+          "bad_normals": 0,
+          "nonfinite_vertices": 0,
+          "degenerate_triangles": 0,
+          "missing_images": [],
+          "dimensions_delta_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "sha256": "bae1c65c67c58e0592f17146150244c762d3c2cf2cebd37a2a7430f6af69f533"
+      },
+      "CHIP-03-lock": {
+        "source": {
+          "min_m": [
+            -0.013849999755620956,
+            -0.008999999612569809,
+            0.0
+          ],
+          "max_m": [
+            0.013849999755620956,
+            -0.0029999997932463884,
+            0.005249999929219484
+          ],
+          "dimensions_m": [
+            0.027699999511241913,
+            0.0059999998193234205,
+            0.005249999929219484
+          ],
+          "triangles": 1164,
+          "max_xy_radius_m": 0.015456501606371567
+        },
+        "modifier_count": 5,
+        "root": "CHIP-03-lock__ROOT",
+        "source_nodes": [
+          {
+            "name": "CHIP-03-lock__ROOT",
+            "type": "EMPTY",
+            "parent": null,
+            "extras": {
+              "C_m": 0.063,
+              "default_visible": false,
+              "bind_to": "CHIP-03 coin local origin; not life/shield",
+              "band_width_m": 0.004
+            }
+          },
+          {
+            "name": "CHIP-03 / removable lower lock band",
+            "type": "MESH",
+            "parent": "CHIP-03-lock__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-03 / lock side attachment",
+            "type": "MESH",
+            "parent": "CHIP-03-lock__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-03 / lock side attachment.001",
+            "type": "MESH",
+            "parent": "CHIP-03-lock__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-03 / independent lock tongue",
+            "type": "MESH",
+            "parent": "CHIP-03-lock__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-03 / tongue fastener",
+            "type": "MESH",
+            "parent": "CHIP-03-lock__ROOT",
+            "extras": {}
+          }
+        ],
+        "roundtrip": {
+          "min_m": [
+            -0.013849999755620956,
+            -0.008999999612569809,
+            0.0
+          ],
+          "max_m": [
+            0.013849999755620956,
+            -0.0029999997932463884,
+            0.005249999929219484
+          ],
+          "dimensions_m": [
+            0.027699999511241913,
+            0.0059999998193234205,
+            0.005249999929219484
+          ],
+          "triangles": 1164,
+          "max_xy_radius_m": 0.015456501606371567,
+          "mesh_count": 1,
+          "missing_uv": [],
+          "bad_normals": 0,
+          "nonfinite_vertices": 0,
+          "degenerate_triangles": 0,
+          "missing_images": [],
+          "dimensions_delta_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "sha256": "37fae5076448a1f2cd989d47a1f2c07b49a8fbb09df0bc605514d54339456587"
+      },
+      "CHIP-03-tray": {
+        "source": {
+          "min_m": [
+            -0.03465000167489052,
+            -0.017500000074505806,
+            0.0
+          ],
+          "max_m": [
+            0.03465000167489052,
+            0.017500000074505806,
+            0.0035000001080334187
+          ],
+          "dimensions_m": [
+            0.06930000334978104,
+            0.03500000014901161,
+            0.0035000001080334187
+          ],
+          "triangles": 1076,
+          "max_xy_radius_m": 0.03878589658778726
+        },
+        "modifier_count": 4,
+        "root": "CHIP-03-tray__ROOT",
+        "source_nodes": [
+          {
+            "name": "CHIP-03-tray__ROOT",
+            "type": "EMPTY",
+            "parent": null,
+            "extras": {
+              "C_m": 0.063,
+              "quantity_zero_requires_no_coin": true,
+              "stack_anchor_source_m": [
+                -0.0165,
+                0.0,
+                0.0012
+              ],
+              "contact_floor_z_m": 0.0012
+            }
+          },
+          {
+            "name": "CHIP-03 / empty tray leather base",
+            "type": "MESH",
+            "parent": "CHIP-03-tray__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-03 / raised empty tray lip",
+            "type": "MESH",
+            "parent": "CHIP-03-tray__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-03 / available locked tray divider",
+            "type": "MESH",
+            "parent": "CHIP-03-tray__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-03 / tray diamond imprint",
+            "type": "CURVE",
+            "parent": "CHIP-03-tray__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-03 / tray diamond imprint.001",
+            "type": "CURVE",
+            "parent": "CHIP-03-tray__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-03 / tray lock zone imprint",
+            "type": "MESH",
+            "parent": "CHIP-03-tray__ROOT",
+            "extras": {}
+          }
+        ],
+        "roundtrip": {
+          "min_m": [
+            -0.03465000167489052,
+            -0.017500000074505806,
+            0.0
+          ],
+          "max_m": [
+            0.03465000167489052,
+            0.017500000074505806,
+            0.0035000001080334187
+          ],
+          "dimensions_m": [
+            0.06930000334978104,
+            0.03500000014901161,
+            0.0035000001080334187
+          ],
+          "triangles": 1076,
+          "max_xy_radius_m": 0.03878589658778726,
+          "mesh_count": 1,
+          "missing_uv": [],
+          "bad_normals": 0,
+          "nonfinite_vertices": 0,
+          "degenerate_triangles": 0,
+          "missing_images": [],
+          "dimensions_delta_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "sha256": "08ff0d1aaa23deb46676d95bc1b97ff07579611cee84a8ba45c6fedda5aed8cd"
+      },
+      "CHIP-03": {
+        "source": {
+          "min_m": [
+            -0.014174999669194221,
+            -0.014174999669194221,
+            0.0
+          ],
+          "max_m": [
+            0.014174999669194221,
+            0.014174999669194221,
+            0.003000000026077032
+          ],
+          "dimensions_m": [
+            0.028349999338388443,
+            0.028349999338388443,
+            0.003000000026077032
+          ],
+          "triangles": 8236,
+          "max_xy_radius_m": 0.014175000629844971
+        },
+        "modifier_count": 20,
+        "root": "CHIP-03__ROOT",
+        "source_nodes": [
+          {
+            "name": "CHIP-03__ROOT",
+            "type": "EMPTY",
+            "parent": null,
+            "extras": {
+              "C_m": 0.063,
+              "diameter_m": 0.02835,
+              "coin_total_thickness_m": 0.003,
+              "edge_identity": 8,
+              "front": "+Z"
+            }
+          },
+          {
+            "name": "CHIP-03 / physical coin edge",
+            "type": "MESH",
+            "parent": "CHIP-03__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-03 / inset face",
+            "type": "MESH",
+            "parent": "CHIP-03__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-03 / shallow diamond stamp",
+            "type": "CURVE",
+            "parent": "CHIP-03__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-03 / diamond central score",
+            "type": "CURVE",
+            "parent": "CHIP-03__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-03 / diamond cross score",
+            "type": "CURVE",
+            "parent": "CHIP-03__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CHIP-03 / reverse rim",
+            "type": "CURVE",
+            "parent": "CHIP-03__ROOT",
+            "extras": {}
+          }
+        ],
+        "roundtrip": {
+          "min_m": [
+            -0.014174999669194221,
+            -0.014174999669194221,
+            0.0
+          ],
+          "max_m": [
+            0.014174999669194221,
+            0.014174999669194221,
+            0.003000000026077032
+          ],
+          "dimensions_m": [
+            0.028349999338388443,
+            0.028349999338388443,
+            0.003000000026077032
+          ],
+          "triangles": 8236,
+          "max_xy_radius_m": 0.014175000629844971,
+          "mesh_count": 1,
+          "missing_uv": [],
+          "bad_normals": 0,
+          "nonfinite_vertices": 0,
+          "degenerate_triangles": 0,
+          "missing_images": [],
+          "dimensions_delta_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "sha256": "b90b1b59b6577b7ab9b1974e738ff0653ed117c357449ce40da3306348bda409"
+      },
+      "CONTROL-01-home": {
+        "source": {
+          "min_m": [
+            -0.01889999955892563,
+            -0.01889999955892563,
+            0.0
+          ],
+          "max_m": [
+            0.01889999955892563,
+            0.01889999955892563,
+            0.009449999779462814
+          ],
+          "dimensions_m": [
+            0.03779999911785126,
+            0.03779999911785126,
+            0.009449999779462814
+          ],
+          "triangles": 5676,
+          "max_xy_radius_m": 0.01890000048494057
+        },
+        "modifier_count": 6,
+        "root": "CONTROL-01-home__ROOT",
+        "source_nodes": [
+          {
+            "name": "CONTROL-01-home__ROOT",
+            "type": "EMPTY",
+            "parent": null,
+            "extras": {
+              "C_m": 0.063,
+              "host_variant": "home",
+              "baseline_diameter_m": 0.0378,
+              "base_cap_height_m": 0.00945,
+              "hit_target_runtime_px": 44
+            }
+          },
+          {
+            "name": "CONTROL-01-home / copper host body",
+            "type": "MESH",
+            "parent": "CONTROL-01-home__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-home / felt base",
+            "type": "MESH",
+            "parent": "CONTROL-01-home__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-home / press travel shadow gap",
+            "type": "MESH",
+            "parent": "CONTROL-01-home__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-home / moving green inlay cap",
+            "type": "MESH",
+            "parent": "CONTROL-01-home__ROOT",
+            "extras": {
+              "runtime_role": "Press cap, nominal travel along local -Z; no physics simulation"
+            }
+          },
+          {
+            "name": "CONTROL-01-home / home inlay",
+            "type": "MESH",
+            "parent": "CONTROL-01-home__ROOT",
+            "extras": {}
+          }
+        ],
+        "roundtrip": {
+          "min_m": [
+            -0.01889999955892563,
+            -0.01889999955892563,
+            0.0
+          ],
+          "max_m": [
+            0.01889999955892563,
+            0.01889999955892563,
+            0.009449999779462814
+          ],
+          "dimensions_m": [
+            0.03779999911785126,
+            0.03779999911785126,
+            0.009449999779462814
+          ],
+          "triangles": 5676,
+          "max_xy_radius_m": 0.01890000048494057,
+          "mesh_count": 2,
+          "missing_uv": [],
+          "bad_normals": 0,
+          "nonfinite_vertices": 0,
+          "degenerate_triangles": 0,
+          "missing_images": [],
+          "dimensions_delta_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "sha256": "76b76a2a8ddcc352841ea4348813e478b73cc828a06df1fe06360ad897e5e591"
+      },
+      "CONTROL-01-left": {
+        "source": {
+          "min_m": [
+            -0.01889999955892563,
+            -0.01889999955892563,
+            0.0
+          ],
+          "max_m": [
+            0.01889999955892563,
+            0.01889999955892563,
+            0.009449999779462814
+          ],
+          "dimensions_m": [
+            0.03779999911785126,
+            0.03779999911785126,
+            0.009449999779462814
+          ],
+          "triangles": 5324,
+          "max_xy_radius_m": 0.01890000048494057
+        },
+        "modifier_count": 6,
+        "root": "CONTROL-01-left__ROOT",
+        "source_nodes": [
+          {
+            "name": "CONTROL-01-left__ROOT",
+            "type": "EMPTY",
+            "parent": null,
+            "extras": {
+              "C_m": 0.063,
+              "host_variant": "left",
+              "baseline_diameter_m": 0.0378,
+              "base_cap_height_m": 0.00945,
+              "hit_target_runtime_px": 44
+            }
+          },
+          {
+            "name": "CONTROL-01-left / copper host body",
+            "type": "MESH",
+            "parent": "CONTROL-01-left__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-left / felt base",
+            "type": "MESH",
+            "parent": "CONTROL-01-left__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-left / press travel shadow gap",
+            "type": "MESH",
+            "parent": "CONTROL-01-left__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-left / moving green inlay cap",
+            "type": "MESH",
+            "parent": "CONTROL-01-left__ROOT",
+            "extras": {
+              "runtime_role": "Press cap, nominal travel along local -Z; no physics simulation"
+            }
+          },
+          {
+            "name": "CONTROL-01-left / history direction inlay",
+            "type": "MESH",
+            "parent": "CONTROL-01-left__ROOT",
+            "extras": {}
+          }
+        ],
+        "roundtrip": {
+          "min_m": [
+            -0.01889999955892563,
+            -0.01889999955892563,
+            0.0
+          ],
+          "max_m": [
+            0.01889999955892563,
+            0.01889999955892563,
+            0.009449999779462814
+          ],
+          "dimensions_m": [
+            0.03779999911785126,
+            0.03779999911785126,
+            0.009449999779462814
+          ],
+          "triangles": 5324,
+          "max_xy_radius_m": 0.01890000048494057,
+          "mesh_count": 2,
+          "missing_uv": [],
+          "bad_normals": 0,
+          "nonfinite_vertices": 0,
+          "degenerate_triangles": 0,
+          "missing_images": [],
+          "dimensions_delta_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "sha256": "5e8d793a3636eb26ca5935370965f2a98b214be8788e496011a9a40c5d25e7f6"
+      },
+      "CONTROL-01-play-pause": {
+        "source": {
+          "min_m": [
+            -0.01889999955892563,
+            -0.01889999955892563,
+            0.0
+          ],
+          "max_m": [
+            0.01889999955892563,
+            0.01889999955892563,
+            0.009449999779462814
+          ],
+          "dimensions_m": [
+            0.03779999911785126,
+            0.03779999911785126,
+            0.009449999779462814
+          ],
+          "triangles": 6708,
+          "max_xy_radius_m": 0.01890000048494057
+        },
+        "modifier_count": 11,
+        "root": "CONTROL-01-play-pause__ROOT",
+        "source_nodes": [
+          {
+            "name": "CONTROL-01-play-pause__ROOT",
+            "type": "EMPTY",
+            "parent": null,
+            "extras": {
+              "C_m": 0.063,
+              "host_variant": "play-pause",
+              "baseline_diameter_m": 0.0378,
+              "base_cap_height_m": 0.00945,
+              "hit_target_runtime_px": 44
+            }
+          },
+          {
+            "name": "CONTROL-01-play-pause / copper host body",
+            "type": "MESH",
+            "parent": "CONTROL-01-play-pause__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-play-pause / felt base",
+            "type": "MESH",
+            "parent": "CONTROL-01-play-pause__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-play-pause / press travel shadow gap",
+            "type": "MESH",
+            "parent": "CONTROL-01-play-pause__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-play-pause / moving green inlay cap",
+            "type": "MESH",
+            "parent": "CONTROL-01-play-pause__ROOT",
+            "extras": {
+              "runtime_role": "Press cap, nominal travel along local -Z; no physics simulation"
+            }
+          },
+          {
+            "name": "CONTROL-01-play-pause / pause-state green cap",
+            "type": "MESH",
+            "parent": "CONTROL-01-play-pause__ROOT",
+            "extras": {
+              "runtime_role": "Pause cap; mutually exclusive with play cap",
+              "default_visible": false
+            }
+          },
+          {
+            "name": "CONTROL-01-play-pause / play inlay",
+            "type": "MESH",
+            "parent": "CONTROL-01-play-pause__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-play-pause / pause inlay",
+            "type": "MESH",
+            "parent": "CONTROL-01-play-pause__ROOT",
+            "extras": {
+              "default_visible": false,
+              "runtime_role": "Pause icon; mutually exclusive with play symbol"
+            }
+          },
+          {
+            "name": "CONTROL-01-play-pause / pause inlay.001",
+            "type": "MESH",
+            "parent": "CONTROL-01-play-pause__ROOT",
+            "extras": {
+              "default_visible": false,
+              "runtime_role": "Pause icon; mutually exclusive with play symbol"
+            }
+          }
+        ],
+        "roundtrip": {
+          "min_m": [
+            -0.01889999955892563,
+            -0.01889999955892563,
+            0.0
+          ],
+          "max_m": [
+            0.01889999955892563,
+            0.01889999955892563,
+            0.009449999779462814
+          ],
+          "dimensions_m": [
+            0.03779999911785126,
+            0.03779999911785126,
+            0.009449999779462814
+          ],
+          "triangles": 6708,
+          "max_xy_radius_m": 0.01890000048494057,
+          "mesh_count": 3,
+          "missing_uv": [],
+          "bad_normals": 0,
+          "nonfinite_vertices": 0,
+          "degenerate_triangles": 0,
+          "missing_images": [],
+          "dimensions_delta_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "sha256": "6c1a18c66a4469865121da09745aed5eaa8d5661e4a5bf8d52f7351f4964d204"
+      },
+      "CONTROL-01-right": {
+        "source": {
+          "min_m": [
+            -0.01889999955892563,
+            -0.01889999955892563,
+            0.0
+          ],
+          "max_m": [
+            0.01889999955892563,
+            0.01889999955892563,
+            0.009449999779462814
+          ],
+          "dimensions_m": [
+            0.03779999911785126,
+            0.03779999911785126,
+            0.009449999779462814
+          ],
+          "triangles": 5324,
+          "max_xy_radius_m": 0.01890000048494057
+        },
+        "modifier_count": 6,
+        "root": "CONTROL-01-right__ROOT",
+        "source_nodes": [
+          {
+            "name": "CONTROL-01-right__ROOT",
+            "type": "EMPTY",
+            "parent": null,
+            "extras": {
+              "C_m": 0.063,
+              "host_variant": "right",
+              "baseline_diameter_m": 0.0378,
+              "base_cap_height_m": 0.00945,
+              "hit_target_runtime_px": 44
+            }
+          },
+          {
+            "name": "CONTROL-01-right / copper host body",
+            "type": "MESH",
+            "parent": "CONTROL-01-right__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-right / felt base",
+            "type": "MESH",
+            "parent": "CONTROL-01-right__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-right / press travel shadow gap",
+            "type": "MESH",
+            "parent": "CONTROL-01-right__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-right / moving green inlay cap",
+            "type": "MESH",
+            "parent": "CONTROL-01-right__ROOT",
+            "extras": {
+              "runtime_role": "Press cap, nominal travel along local -Z; no physics simulation"
+            }
+          },
+          {
+            "name": "CONTROL-01-right / history direction inlay",
+            "type": "MESH",
+            "parent": "CONTROL-01-right__ROOT",
+            "extras": {}
+          }
+        ],
+        "roundtrip": {
+          "min_m": [
+            -0.01889999955892563,
+            -0.01889999955892563,
+            0.0
+          ],
+          "max_m": [
+            0.01889999955892563,
+            0.01889999955892563,
+            0.009449999779462814
+          ],
+          "dimensions_m": [
+            0.03779999911785126,
+            0.03779999911785126,
+            0.009449999779462814
+          ],
+          "triangles": 5324,
+          "max_xy_radius_m": 0.01890000048494057,
+          "mesh_count": 2,
+          "missing_uv": [],
+          "bad_normals": 0,
+          "nonfinite_vertices": 0,
+          "degenerate_triangles": 0,
+          "missing_images": [],
+          "dimensions_delta_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "sha256": "4d6a507a080a11dbdeedf057b75a76b8a6c0e0a58cf92104264da52d675236a4"
+      },
+      "CONTROL-01-settings": {
+        "source": {
+          "min_m": [
+            -0.018802953884005547,
+            -0.018802953884005547,
+            0.0
+          ],
+          "max_m": [
+            0.018802953884005547,
+            0.018802953884005547,
+            0.009449999779462814
+          ],
+          "dimensions_m": [
+            0.03760590776801109,
+            0.03760590776801109,
+            0.009449999779462814
+          ],
+          "triangles": 3396,
+          "max_xy_radius_m": 0.018803441616689787
+        },
+        "modifier_count": 8,
+        "root": "CONTROL-01-settings__ROOT",
+        "source_nodes": [
+          {
+            "name": "CONTROL-01-settings__ROOT",
+            "type": "EMPTY",
+            "parent": null,
+            "extras": {
+              "C_m": 0.063,
+              "host_variant": "settings",
+              "baseline_diameter_m": 0.0378,
+              "base_cap_height_m": 0.00945,
+              "hit_target_runtime_px": 44
+            }
+          },
+          {
+            "name": "CONTROL-01-settings / copper host body",
+            "type": "MESH",
+            "parent": "CONTROL-01-settings__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-settings / felt base",
+            "type": "MESH",
+            "parent": "CONTROL-01-settings__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-settings / press travel shadow gap",
+            "type": "MESH",
+            "parent": "CONTROL-01-settings__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-settings / moving green inlay cap",
+            "type": "MESH",
+            "parent": "CONTROL-01-settings__ROOT",
+            "extras": {
+              "runtime_role": "Press cap, nominal travel along local -Z; no physics simulation"
+            }
+          },
+          {
+            "name": "CONTROL-01-settings / settings cog inlay",
+            "type": "MESH",
+            "parent": "CONTROL-01-settings__ROOT",
+            "extras": {}
+          }
+        ],
+        "roundtrip": {
+          "min_m": [
+            -0.018802953884005547,
+            -0.018802953884005547,
+            0.0
+          ],
+          "max_m": [
+            0.018802953884005547,
+            0.018802953884005547,
+            0.009449999779462814
+          ],
+          "dimensions_m": [
+            0.03760590776801109,
+            0.03760590776801109,
+            0.009449999779462814
+          ],
+          "triangles": 3396,
+          "max_xy_radius_m": 0.018803441616689787,
+          "mesh_count": 2,
+          "missing_uv": [],
+          "bad_normals": 0,
+          "nonfinite_vertices": 0,
+          "degenerate_triangles": 0,
+          "missing_images": [],
+          "dimensions_delta_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "sha256": "db5c8d1c7496183478e798c68862c977a068c498636e419bbdc192bba2a237dd"
+      },
+      "CONTROL-01-speed": {
+        "source": {
+          "min_m": [
+            -0.01889999955892563,
+            -0.01889999955892563,
+            0.0
+          ],
+          "max_m": [
+            0.01889999955892563,
+            0.01889999955892563,
+            0.009449999779462814
+          ],
+          "dimensions_m": [
+            0.03779999911785126,
+            0.03779999911785126,
+            0.009449999779462814
+          ],
+          "triangles": 6710,
+          "max_xy_radius_m": 0.01890000048494057
+        },
+        "modifier_count": 12,
+        "root": "CONTROL-01-speed__ROOT",
+        "source_nodes": [
+          {
+            "name": "CONTROL-01-speed__ROOT",
+            "type": "EMPTY",
+            "parent": null,
+            "extras": {
+              "C_m": 0.063,
+              "host_variant": "speed",
+              "baseline_diameter_m": 0.0378,
+              "base_cap_height_m": 0.00945,
+              "hit_target_runtime_px": 44
+            }
+          },
+          {
+            "name": "CONTROL-01-speed / copper host body",
+            "type": "MESH",
+            "parent": "CONTROL-01-speed__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-speed / felt base",
+            "type": "MESH",
+            "parent": "CONTROL-01-speed__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-speed / press travel shadow gap",
+            "type": "MESH",
+            "parent": "CONTROL-01-speed__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-speed / moving green inlay cap",
+            "type": "MESH",
+            "parent": "CONTROL-01-speed__ROOT",
+            "extras": {
+              "runtime_role": "Press cap, nominal travel along local -Z; no physics simulation"
+            }
+          },
+          {
+            "name": "CONTROL-01-speed / three speed detent",
+            "type": "MESH",
+            "parent": "CONTROL-01-speed__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-speed / three speed detent.001",
+            "type": "MESH",
+            "parent": "CONTROL-01-speed__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-speed / three speed detent.002",
+            "type": "MESH",
+            "parent": "CONTROL-01-speed__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-speed / speed rotation spindle",
+            "type": "MESH",
+            "parent": "CONTROL-01-speed__ROOT",
+            "extras": {
+              "pivot_axis": "local Z",
+              "detent_angles_deg": [
+                -60,
+                0,
+                60
+              ]
+            }
+          },
+          {
+            "name": "CONTROL-01-speed / independent speed sector lever",
+            "type": "MESH",
+            "parent": "CONTROL-01-speed__ROOT",
+            "extras": {
+              "runtime_role": "Rotate about local Z at (0,0,0.0051975); retain exact speed text in runtime"
+            }
+          }
+        ],
+        "roundtrip": {
+          "min_m": [
+            -0.01889999955892563,
+            -0.01889999955892563,
+            0.0
+          ],
+          "max_m": [
+            0.01889999955892563,
+            0.01889999955892563,
+            0.009449999779462814
+          ],
+          "dimensions_m": [
+            0.03779999911785126,
+            0.03779999911785126,
+            0.009449999779462814
+          ],
+          "triangles": 6710,
+          "max_xy_radius_m": 0.01890000048494057,
+          "mesh_count": 2,
+          "missing_uv": [],
+          "bad_normals": 0,
+          "nonfinite_vertices": 0,
+          "degenerate_triangles": 0,
+          "missing_images": [],
+          "dimensions_delta_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "sha256": "1933325d09cb95491a7cd608adb6697063a42bee67bc45f7e026a3210bba893d"
+      },
+      "CONTROL-01-step": {
+        "source": {
+          "min_m": [
+            -0.018802953884005547,
+            -0.018802953884005547,
+            0.0
+          ],
+          "max_m": [
+            0.018802953884005547,
+            0.018802953884005547,
+            0.009449999779462814
+          ],
+          "dimensions_m": [
+            0.03760590776801109,
+            0.03760590776801109,
+            0.009449999779462814
+          ],
+          "triangles": 2414,
+          "max_xy_radius_m": 0.018803441616689787
+        },
+        "modifier_count": 8,
+        "root": "CONTROL-01-step__ROOT",
+        "source_nodes": [
+          {
+            "name": "CONTROL-01-step__ROOT",
+            "type": "EMPTY",
+            "parent": null,
+            "extras": {
+              "C_m": 0.063,
+              "host_variant": "step",
+              "baseline_diameter_m": 0.0378,
+              "base_cap_height_m": 0.00945,
+              "hit_target_runtime_px": 44
+            }
+          },
+          {
+            "name": "CONTROL-01-step / copper host body",
+            "type": "MESH",
+            "parent": "CONTROL-01-step__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-step / felt base",
+            "type": "MESH",
+            "parent": "CONTROL-01-step__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-step / press travel shadow gap",
+            "type": "MESH",
+            "parent": "CONTROL-01-step__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-step / moving green inlay cap",
+            "type": "MESH",
+            "parent": "CONTROL-01-step__ROOT",
+            "extras": {
+              "runtime_role": "Press cap, nominal travel along local -Z; no physics simulation"
+            }
+          },
+          {
+            "name": "CONTROL-01-step / step triangle",
+            "type": "MESH",
+            "parent": "CONTROL-01-step__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "CONTROL-01-step / step end bar",
+            "type": "MESH",
+            "parent": "CONTROL-01-step__ROOT",
+            "extras": {}
+          }
+        ],
+        "roundtrip": {
+          "min_m": [
+            -0.018802953884005547,
+            -0.018802953884005547,
+            0.0
+          ],
+          "max_m": [
+            0.018802953884005547,
+            0.018802953884005547,
+            0.009449999779462814
+          ],
+          "dimensions_m": [
+            0.03760590776801109,
+            0.03760590776801109,
+            0.009449999779462814
+          ],
+          "triangles": 2414,
+          "max_xy_radius_m": 0.018803441616689787,
+          "mesh_count": 2,
+          "missing_uv": [],
+          "bad_normals": 0,
+          "nonfinite_vertices": 0,
+          "degenerate_triangles": 0,
+          "missing_images": [],
+          "dimensions_delta_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "sha256": "483812739860e8c4f591849f17ef057abf73fb70bbac18282d61deac9b5d2f0d"
+      },
+      "PAWN-02": {
+        "source": {
+          "min_m": [
+            -0.029899999499320984,
+            -0.028756676241755486,
+            0.0
+          ],
+          "max_m": [
+            0.029899999499320984,
+            0.028756676241755486,
+            0.14802992343902588
+          ],
+          "dimensions_m": [
+            0.05979999899864197,
+            0.05751335248351097,
+            0.14802992343902588
+          ],
+          "triangles": 12518,
+          "max_xy_radius_m": 0.030060272666594837
+        },
+        "modifier_count": 40,
+        "root": "PAWN-02__ROOT",
+        "source_nodes": [
+          {
+            "name": "PAWN-02__ROOT",
+            "type": "EMPTY",
+            "parent": null,
+            "extras": {
+              "C_m": 0.063,
+              "height_target_m": 0.14805,
+              "base_target_m": 0.05985,
+              "front": "-Y",
+              "static_bottles_count": 2,
+              "narrow_neck_width_m": 0.01386,
+              "base_height_m": 0.01071
+            }
+          },
+          {
+            "name": "PAWN-02 / 06 hexagonal base",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / 08 hexagonal felt contact",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / 07 four copper corner guard",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / inset fastening core",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / 07 four copper corner guard.001",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / inset fastening core.001",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / 07 four copper corner guard.002",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / inset fastening core.002",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / 07 four copper corner guard.003",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / inset fastening core.003",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / 03 flared carved coat",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / 02 solid square shoulders",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / 04 long apron",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / apron carved seam",
+            "type": "CURVE",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / apron carved seam.001",
+            "type": "CURVE",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / apron shoulder strap",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / shoulder strap rivet",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / shoulder strap rivet.001",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / apron shoulder strap.001",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / shoulder strap rivet.002",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / shoulder strap rivet.003",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / waist belt",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / belt buckle",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / buckle inset",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / 05 fixed bottle silhouette",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / bottle stopper",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / bottle belt loop",
+            "type": "CURVE",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / 05 fixed bottle silhouette.001",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / bottle stopper.001",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / bottle belt loop.001",
+            "type": "CURVE",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / 01 angular hollow hood",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / hood rim carved edge",
+            "type": "CURVE",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          },
+          {
+            "name": "PAWN-02 / 01b dark iron slit mask",
+            "type": "MESH",
+            "parent": "PAWN-02__ROOT",
+            "extras": {}
+          }
+        ],
+        "roundtrip": {
+          "min_m": [
+            -0.029899999499320984,
+            -0.028756676241755486,
+            0.0
+          ],
+          "max_m": [
+            0.029899999499320984,
+            0.028756676241755486,
+            0.14802992343902588
+          ],
+          "dimensions_m": [
+            0.05979999899864197,
+            0.05751335248351097,
+            0.14802992343902588
+          ],
+          "triangles": 12518,
+          "max_xy_radius_m": 0.030060272666594837,
+          "mesh_count": 1,
+          "missing_uv": [],
+          "bad_normals": 0,
+          "nonfinite_vertices": 0,
+          "degenerate_triangles": 0,
+          "missing_images": [],
+          "dimensions_delta_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "sha256": "70b7412bbfb165b74e86d99e6e8beffbe296c6415794d4091b9916d962762547"
+      }
+    },
+    "source_missing_images": [],
+    "source_images": [
+      {
+        "name": "aged-brass-basecolor.png",
+        "packed": true,
+        "color_space": "sRGB"
+      },
+      {
+        "name": "aged-brass-normal.png",
+        "packed": true,
+        "color_space": "Non-Color"
+      },
+      {
+        "name": "aged-brass-roughness.png",
+        "packed": true,
+        "color_space": "Non-Color"
+      },
+      {
+        "name": "brown-leather-basecolor.png",
+        "packed": true,
+        "color_space": "sRGB"
+      },
+      {
+        "name": "brown-leather-normal.png",
+        "packed": true,
+        "color_space": "Non-Color"
+      },
+      {
+        "name": "brown-leather-roughness.png",
+        "packed": true,
+        "color_space": "Non-Color"
+      },
+      {
+        "name": "ochre-wood-basecolor.png",
+        "packed": true,
+        "color_space": "sRGB"
+      },
+      {
+        "name": "ochre-wood-normal.png",
+        "packed": true,
+        "color_space": "Non-Color"
+      },
+      {
+        "name": "ochre-wood-roughness.png",
+        "packed": true,
+        "color_space": "Non-Color"
+      }
+    ],
+    "dimensions_contract": {
+      "C_m": 0.063,
+      "pawn_height_target_mm": 148.05,
+      "pawn_base_target_mm": 59.85,
+      "pawn_neck_authored_section": {
+        "z_m": 0.116,
+        "x_radius_m": 0.00693,
+        "width_m": 0.01386,
+        "note": "Authored closed loft section, modifier bevel retained; not a claim of post-bevel full silhouette width"
+      },
+      "pawn_base_height_m": 0.01071,
+      "pawn_root_ground": [
+        0,
+        0,
+        0
+      ],
+      "pawn_front_source": "-Y",
+      "chip_coin_nominal_diameter_m": 0.02835,
+      "chip_true_coin_thickness_m": 0.003,
+      "chip_edges": [
+        12,
+        6,
+        8
+      ],
+      "chip3_band_width_m": 0.004,
+      "chip3_band_thickness_m": 0.001,
+      "control_base_diameter_m": 0.0378,
+      "control_total_height_target_m": 0.00945
+    },
+    "edit_probe": {
+      "node": "PAWN-02 / 06 hexagonal base",
+      "parameter": "bevel width",
+      "before_m": 0.0003499999875202775,
+      "after_m": 0.0002500000118743628,
+      "result": "Pass",
+      "canonical_source_modified": false,
+      "export": "reports/edit-probe-pawn.glb"
+    },
+    "limits": [
+      "No Godot, gameplay, input, performance, collision, or user visual acceptance by asset worker.",
+      "Boolean/part joins are intentional; no global watertight-union claim.",
+      "Extra glTF nodes identify runtime toggles. Blender hide_render is not portable; runtime must honor default_visible.",
+      "Coin silhouette tooth notches affect XY AABB; nominal coin diameter refers to actual circumscribed radial size."
+    ]
+  },
+  "producerRenderProvenance": {
+    "source_sha256": "596ef556a1f24a601c3a752a704d1650ac13135e97dc546bb1779f76d5654a24",
+    "renders": [
+      {
+        "file": "renders/PAWN-02-roundtrip-final.png",
+        "sha256": "026d7b88d2e686488ef34ea6b6dd3c9e633c35b5bd6d19b6f03a9809f5c8f583",
+        "inputs": [
+          {
+            "file": "models/PAWN-02.glb",
+            "sha256": "70b7412bbfb165b74e86d99e6e8beffbe296c6415794d4091b9916d962762547"
+          }
+        ]
+      },
+      {
+        "file": "renders/CHIPS-roundtrip-final.png",
+        "sha256": "26839e5823bcd871966331aaecc687e9d96af4edc9df6972673ee39137a0e34b",
+        "inputs": [
+          {
+            "file": "models/CHIP-01.glb",
+            "sha256": "a4d399c0912743277745f996fed57887555da59a0fbbebdee37161ec450fac42"
+          },
+          {
+            "file": "models/CHIP-01-tray.glb",
+            "sha256": "a3a5f4f22b8c93cc19cb8b70d34a4c55300c6711aae074f58fd5cc472df9f9a0"
+          },
+          {
+            "file": "models/CHIP-02.glb",
+            "sha256": "bae1c65c67c58e0592f17146150244c762d3c2cf2cebd37a2a7430f6af69f533"
+          },
+          {
+            "file": "models/CHIP-02-tray.glb",
+            "sha256": "0a2c5793805f6668e4cb375fee1abeeb7bf3fa548a1c9cb6f565f631be85c4d9"
+          },
+          {
+            "file": "models/CHIP-03.glb",
+            "sha256": "b90b1b59b6577b7ab9b1974e738ff0653ed117c357449ce40da3306348bda409"
+          },
+          {
+            "file": "models/CHIP-03-lock.glb",
+            "sha256": "37fae5076448a1f2cd989d47a1f2c07b49a8fbb09df0bc605514d54339456587"
+          }
+        ]
+      },
+      {
+        "file": "renders/CONTROL-01-roundtrip-final.png",
+        "sha256": "1122e1ee47713600cde2010276d0e22a73569b1230eef8c82a33d42699ff042f",
+        "inputs": [
+          {
+            "file": "models/CONTROL-01-play-pause.glb",
+            "sha256": "6c1a18c66a4469865121da09745aed5eaa8d5661e4a5bf8d52f7351f4964d204"
+          },
+          {
+            "file": "models/CONTROL-01-step.glb",
+            "sha256": "483812739860e8c4f591849f17ef057abf73fb70bbac18282d61deac9b5d2f0d"
+          },
+          {
+            "file": "models/CONTROL-01-home.glb",
+            "sha256": "76b76a2a8ddcc352841ea4348813e478b73cc828a06df1fe06360ad897e5e591"
+          },
+          {
+            "file": "models/CONTROL-01-left.glb",
+            "sha256": "5e8d793a3636eb26ca5935370965f2a98b214be8788e496011a9a40c5d25e7f6"
+          },
+          {
+            "file": "models/CONTROL-01-right.glb",
+            "sha256": "4d6a507a080a11dbdeedf057b75a76b8a6c0e0a58cf92104264da52d675236a4"
+          },
+          {
+            "file": "models/CONTROL-01-speed.glb",
+            "sha256": "1933325d09cb95491a7cd608adb6697063a42bee67bc45f7e026a3210bba893d"
+          },
+          {
+            "file": "models/CONTROL-01-settings.glb",
+            "sha256": "db5c8d1c7496183478e798c68862c977a068c498636e419bbdc192bba2a237dd"
+          }
+        ]
+      }
+    ]
+  },
+  "decision": "PAWN-02, CHIP-01/02/03, CONTROL-01 Q1/Q2 passed for scoped runtime integration; Q3 NotRun",
+  "limits": [
+    "No independent Blender rerun",
+    "Scalar roughness exported as declared; source roughness maps are not asserted as runtime maps",
+    "CONTROL step symbols are merged with STATIC; do not depress only its green PRESS_CAP and leave symbols floating",
+    "GLB visibility extras require runtime application; static image does not validate input, motion or performance",
+    "PAWN raking image has a cropped base and is used only for material evidence; full final roundtrip image covers the complete pawn"
+  ]
+}

@@ -288,10 +288,10 @@ AS-G002-004为2026-10-02的后续登记，使用该行独立固定提交，不�
 
 | ID与入口 | 制作版本 | 范围 | 生命周期 / 可访问性 |
 | --- | --- | --- | --- |
-| <a id="as-g002-019"></a>AS-G002-019 · `expansion-a-v01/` | COMPONENT-EXPANSION-A-01 | PAWN-02、CHIP-01/02/03、CONTROL-01 | Planned / PresentLocal |
-| <a id="as-g002-020"></a>AS-G002-020 · `expansion-c-v01/` | COMPONENT-EXPANSION-C-01 | TABLE-01、MAT-01、SLOT-01、DRAWER-01，含独立runtime-fit桌/垫 | Catalogued / PresentLocal |
-| <a id="as-g002-021"></a>AS-G002-021 · `expansion-b-v01/` | COMPONENT-EXPANSION-B-01 | WAND-02 | Planned / Unknown（尚待创建源目录） |
-| <a id="as-g002-022"></a>AS-G002-022 · `expansion-d-v01/` | COMPONENT-EXPANSION-D-01 | DECOR-01/02/03 | Planned / Unknown（尚待创建源目录） |
+| <a id="as-g002-019"></a>AS-G002-019 · `expansion-a-v01/` | COMPONENT-EXPANSION-A-01 | PAWN-02、CHIP-01/02/03、CONTROL-01 | ReadyForScope（源件Q1/Q2） / PresentLocal |
+| <a id="as-g002-020"></a>AS-G002-020 · `expansion-c-v01/` | COMPONENT-EXPANSION-C-01 | TABLE-01、MAT-01、SLOT-01、DRAWER-01，含独立runtime-fit桌/垫 | ReadyForScope（源件Q1/Q2） / PresentLocal |
+| <a id="as-g002-021"></a>AS-G002-021 · `expansion-b-v01/` | COMPONENT-EXPANSION-B-01 | WAND-02 | Planned / PresentLocal（制作中，未固定） |
+| <a id="as-g002-022"></a>AS-G002-022 · `expansion-d-v01/` | COMPONENT-EXPANSION-D-01 | DECOR-01/02/03 | Planned / PresentLocal（制作中，未固定） |
 | <a id="as-g002-023"></a>AS-G002-023 · `expansion-e-v01/` | COMPONENT-EXPANSION-E-01 | TXT-02、TXT-03分层皮肤及布局说明 | ReadyForScope（源件Q1/Q2） / PresentLocal |
 
 共同uses：DM-G002-014@YANZHOU-COMPONENT-DETAIL-V01、AS-G002-017@COMPONENT-ART-01；工具选择依据[固定调研结论](../../yanzhou/development/reports/component-detail-higgsfield-assessment-2026-10-14.md)。计划采用本项目原创网格、程序表面及可编辑SVG；允许复用AS-G002-018@COMPONENT-SAMPLES-01的自制生成函数/表面，具体derived-from文件和指纹以各包最终manifest为准，不改冻结样件。未复制参考游戏原始网格或像素。
@@ -300,5 +300,6 @@ A/B/C/D按米制可编辑源、独立GLB/PBR、枢轴/轴向/尺寸及源重开/
 
 2026-10-15固定补记：
 
-- AS-G002-020：`expansion-c-v01/manifest.json` SHA `3792ae0bf401b418723181917125c81d6df14f8bf0fb64f7a7fe2fe0d529f61a`；152文件245287889字节总控逐项核对。可编辑源SHA `9f4670d8fac82c489fb75873b0081ed634bf065d70ab3403e70566283194e163`，六GLB含桌/垫runtime-fit派生、独立PBR/掩罩、84渲染、实际源重开/四编辑探针与回导。GLB粗糙度导出丢失已修并保留失败记录；源件固定，D独立复核及Godot接入按后续范围分别记录。
+- AS-G002-019：`expansion-a-v01/manifest.json` SHA `3144406c979f28266c39cb521ef26465b6a5228f3368a1149e6348268f474507`；124文件108911850字节全部复核，源SHA `596ef556a1f24a601c3a752a704d1650ac13135e97dc546bb1779f76d5654a24`。15GLB含三托盘与锁箍、七控制变体；[总控独立Q1/Q2](../../yanzhou/visual/component-production-2026-10-14/expansion-a-root-review-v02.md)实际15图及GLB结构检查通过，源重开与回导证据已固定。源自制表面/函数复用来自AS-G002-018，具体文件指纹见texture-provenance；运行标量粗糙度与动态节点边界已明记，Godot Q3待验。
+- AS-G002-020：`expansion-c-v01/manifest.json` SHA `3792ae0bf401b418723181917125c81d6df14f8bf0fb64f7a7fe2fe0d529f61a`；152文件245287889字节总控逐项核对。可编辑源SHA `9f4670d8fac82c489fb75873b0081ed634bf065d70ab3403e70566283194e163`，六GLB含桌/垫runtime-fit派生、独立PBR/掩罩、84渲染、实际源重开/四编辑探针与回导。GLB粗糙度导出丢失已修并保留失败记录；[D复核](../../yanzhou/visual/component-production-2026-10-14/expansion-c-review-v01.md)及[总控槽位补图复核](../../yanzhou/visual/component-production-2026-10-14/expansion-c-root-supplement-v02.md)收口，四件源Q1/Q2通过；Godot接入中，Q3待验。
 - AS-G002-023：`expansion-e-v01/manifest.json` SHA `c1fe336bf9ca2e96d0eb35f148ac65fbb4d5f75c876dae648b55bf13b0f1242c`；607文件5876261字节总控逐项核对，145SVG/441PNG/6审查图。[D独立Q1/Q2](../../yanzhou/visual/component-production-2026-10-14/expansion-e-review-v01.md)通过，实际项目字体18/24px、28布局、102字形界及编辑重导已核；Godot Q3待验。运行选28份准确逻辑尺寸的2倍合成无字皮肤及layouts，原分层源完整保留，禁止整体拉伸合成图。这里只覆盖二维文本载体，不宣称包含真实木条3D网格。
