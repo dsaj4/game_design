@@ -3,7 +3,7 @@
 <a id="component-detail-round-2026-10-14"></a>
 ## 当前优先级：组件细节制作与分批拼装
 
-2026-10-14用户要求按Mr. Mak Workspace协作规范，重回HTML与效果图，细化文本框与组件形态；[原话](../sources/inbox/2026-10-14-component-detail-round.md)及[Workspace组件流程／状态入口](E:/Project/yanzhou-workspace/workspace/2026-10-14_yanzhou/component-pipeline.md)为本轮调度依据。设计与工具评估已按顺序完成，当前进行专门资产制作、独立复核与分批拼装。19项逐件登记，Demoncards仍为整体表现第一参照；不重开规则后端或把旧技术通过当作新美术接受。
+2026-10-14用户要求按Mr. Mak Workspace协作规范，重回HTML与效果图，细化文本框与组件形态；[原话](../sources/inbox/2026-10-14-component-detail-round.md)及[Workspace组件流程／状态入口](E:/Project/yanzhou-workspace/workspace/2026-10-14_yanzhou/component-pipeline.md)为本轮调度依据。设计与工具评估已按顺序完成，19件专门资产制作、独立源复核、限定Q3与整合预览包已完成。19项逐件登记，Demoncards仍为整体表现第一参照；不重开规则后端或把旧技术通过当作新美术接受。
 
 2026-10-15本轮状态：
 
@@ -11,13 +11,16 @@
 | --- | --- | --- |
 | 19组件文字／HTML与三板效果图 | 固定DM-G002-014／AS-G002-017；静态检查及独立设计复核完成，HTML真实浏览器因file协议策略拒绝仍NotRun | D保持固定设计与差异复核 |
 | Higgsfield适用性 | [既有6.1-sol调研完成](reports/component-detail-higgsfield-assessment-2026-10-14.md)，当前沿内置出图＋Blender，无需前置接入 | 有新的精确资产能力缺口时再评估 |
-| 首四件TXT01／CARD01／WAND01／PAWN01 | AS-G002-018源件Q1/Q2与限定Q3通过；源码和Release两档各61/61、48图一致，[运行交付](E:/Project/yanzhou-godot/docs/reviews/2026-10-15-component-samples-integration.md) | 总控保留固定预览与失败证据，后续整合再回归 |
-| A五件：敌棋子／三筹码／控制 | AS-G002-019固定，独立Q1/Q2通过 | 已接入，修正旧近观节点引用与晶杖遮挡锁定筹码；整合Q3待验 |
-| C四件：桌／垫／槽／抽屉 | AS-G002-020四件源Q1/Q2通过，槽补证据完整 | 已接入，抽屉细线亮点适配中；桌面接触、压痕、相机与可达性待整合Q3 |
-| E两件：提示／近观文本家族 | AS-G002-023固定且Q1/Q2通过，文本运行代码编译通过并冻结 | 实图已确认原生尺寸/字号，正修读数遮币、提示箭头与邻牌避让；两档Q3待验 |
-| B晶杖与D三装饰 | AS-G002-021／022固定且独立Q1/Q2通过，运行接入完成 | 全19件整合检查中；玻璃、真实砂位及用途环单独验证 |
+| 首四件TXT01／CARD01／WAND01／PAWN01 | AS-G002-018源件Q1/Q2与限定Q3通过；源码和Release两档各61/61、48图一致，[运行交付](E:/Project/yanzhou-godot/docs/reviews/2026-10-15-component-samples-integration.md) | 旧四件包保留；全19件新包已完成两档整合回归 |
+| A五件：敌棋子／三筹码／控制 | AS-G002-019源Q1/Q2与限定整合Q3通过 | 实际消费锁、命中、控制状态及两档包检查通过；用户接受另验 |
+| C四件：桌／垫／槽／抽屉 | AS-G002-020四件源Q1/Q2与限定整合Q3通过 | 主桌／近观、固定轨道、滑动可达及窄槽已核；压痕为表面mask |
+| E两件：提示／近观文本家族 | AS-G002-023源Q1/Q2与限定整合Q3通过 | 原生皮肤、字号、锚点、分页、数量/保存路径已核；低分辨率标点/辅助页码换行后续打磨 |
+| B晶杖与D三装饰 | AS-G002-021／022源Q1/Q2与限定整合Q3通过 | 实际接触、用途环、玻璃近似、疲劳砂位及终局保持已核；不外推真实光学 |
 
-资产源和固定指纹见[统一目录](../../docs/registry/demo-assets.md#as-g002-018)，每组件实时阶段以Workspace对应页为入口。运行文件所有权、实现问题与取证留Godot协调文档。生成、自检、独立Q1/Q2、限定运行Q3和用户最终接受分别记录；OS输入、正式性能及完整战斗范围未执行的继续NotRun。下方旧批次记录保留原范围，不代表本轮19件已经完成。
+资产源和固定指纹见[统一目录](../../docs/registry/demo-assets.md#as-g002-018)，每组件实时阶段以Workspace对应页为入口。运行文件所有权、实现问题与取证留Godot协调文档。生成、自检、独立Q1/Q2、限定运行Q3和用户最终接受分别记录；OS输入、正式性能及完整战斗范围未执行的继续NotRun。下方旧批次记录保留原范围，不替代本轮限定交付。
+
+
+全19件新预览：`E:/Project/yanzhou-godot/build/development-batch-10/components-01/windows/Yanzhou.exe`。源码与Release的1920×1080／1366×768各72/72，68PNG逐字节相同；[独立限定视觉复核](../visual/component-production-2026-10-14/q3-expansion-source-06-review.md)、[完整运行交付](E:/Project/yanzhou-godot/docs/reviews/2026-10-15-component-expansion-integration.md)和Workspace逐组件状态已收口。下一步为用户审查预览、非阻塞排版打磨及另行正式性能检查，未擅自启动新玩法实验。
 
 更新2026-10-13 · game-002 · DevelopmentPlan · G002-DOC-021／022／025。第八批首个真实桌面闭环已实现；用户审查后提出四项视觉整改，现列为下一批优先工作，具体方案与实现均待开展。此前技术证据保留原范围，不能替代本轮视觉验收。
 

@@ -1,0 +1,3643 @@
+{
+  "auditUtc": "2026-10-15T07:17:19.746625+00:00",
+  "reviewDate": "2026-10-15",
+  "reviewer": "component_detail_design / D",
+  "executionBy": "root; D did not rerun Godot or package checks",
+  "scope": "Same-machine rendered viewport, simulated Godot input and manually timed effects; not OS input or performance acceptance.",
+  "conclusion": "Limited visual Q3 Pass for the named 19 components in these two rendered viewports; packaging for review may proceed",
+  "userArtAcceptance": false,
+  "manualViewingMethod": "view_image, full PNG; the 22 names below were actually viewed at both resolutions",
+  "manualViewedNames": [
+    "01-tabletop",
+    "02-player-closeup",
+    "03-enemy-closeup",
+    "04-dark-closeup",
+    "05-resource-closeup",
+    "06-guard-closeup",
+    "10-card-closeup",
+    "component-07-caster-future",
+    "07-completion-source",
+    "08-completion-appear",
+    "11-shield-use",
+    "component-03-drawer-open",
+    "demon-07-lock-detail",
+    "demon-08-save-error",
+    "component-10-terminal",
+    "demon-04-reveal-mid",
+    "demon-09-player-attack",
+    "demon-10-enemy-attack",
+    "demon-11-interrupt",
+    "component-04-hover",
+    "component-08-hourglass-near",
+    "component-09-hourglass-paid"
+  ],
+  "executionManifest": {
+    "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\execution-manifest.json",
+    "bytes": 9041,
+    "sha256": "5416ff41e993dc422022dad536f6fa092f76f705a45a5794b1ebdb8331f6b0fb"
+  },
+  "runsFile": {
+    "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\runs.json",
+    "bytes": 467,
+    "sha256": "9657b99ef5170ddd083642ac87b74dbf1f04f4867c8d84b0755657247f242a8d"
+  },
+  "identity": {
+    "codeCommit": "1e4a4d9b1e0ff4b9e18ab6e80d81721f02d5c855",
+    "debugAssemblySha256": "e7c83b4c303b860509c8273d924545afab9f754b877bcf762ae1340dbb76ca60",
+    "debugAssemblyLastWriteUtc": "2026-10-15T06:59:17.3864907Z",
+    "executableSha256": "2445d009a5e0474fc7064b9767100e9d2c09521890ac5625476bfb81cf03f2d4",
+    "runnerSha256": "e1acd741fbf1842fb5679e7f3653093f9ba825d9ec4c71b286fab6b282e0bc25",
+    "packaged": false,
+    "componentManifests": [
+      {
+        "sha256": "c9fc3c5dae23cfafd40192bc95e8d8d3d9a5d3d58d4e9467f6fe5e2018bd6414",
+        "path": "docs\\coordination\\component-assets-v01.json"
+      },
+      {
+        "sha256": "3971334d637d353a1bdfca7c8996e2fb472e8d34dd42f4837db29fffdf05f026",
+        "path": "docs\\coordination\\component-assets-v02.json"
+      },
+      {
+        "sha256": "a61849abfa92e273486adb4074f6b0093f8898ac1f39747daf4159dcb7b9ae5a",
+        "path": "docs\\coordination\\component-assets-v03.json"
+      },
+      {
+        "sha256": "826b95bec1fc6abf5c5a22ca5e0857743fca1a7ed5b05926c72f0c3a689ae84a",
+        "path": "docs\\coordination\\component-assets-v04.json"
+      },
+      {
+        "sha256": "a597788ee7e0366489400bec22ecfcf82ad02d375df117c76cee468d5cf209f1",
+        "path": "docs\\coordination\\component-assets-v05.json"
+      }
+    ]
+  },
+  "workingTreeBoundary": "Execution manifest records working-tree changes; codeCommit alone is not the complete source identity.",
+  "slotBinding": {
+    "method": "NextPass on actual wovenbody with slot and cloth masks plus shading normal; no mesh indentation",
+    "readBy": "D, targeted source lines",
+    "runtimeUniformProbe": "NotRun",
+    "files": [
+      {
+        "path": "E:\\Project\\yanzhou-godot\\godot\\ComponentTableAssets.cs",
+        "bytes": 8482,
+        "sha256": "f8b42d28bfbd5a3bd4e54bbfb198e27b7d7acf06dc2b02d09ac0e85e454926b1",
+        "executionManifestSha256": "f8b42d28bfbd5a3bd4e54bbfb198e27b7d7acf06dc2b02d09ac0e85e454926b1",
+        "matchesExecutionManifest": true
+      },
+      {
+        "path": "E:\\Project\\yanzhou-godot\\godot\\CompleteMainCards.cs",
+        "bytes": 14425,
+        "sha256": "8a13ad31ddaec690985f67f1599490e791180ad3de82e7a90df9bac04827ebac",
+        "executionManifestSha256": "8a13ad31ddaec690985f67f1599490e791180ad3de82e7a90df9bac04827ebac",
+        "matchesExecutionManifest": true
+      }
+    ]
+  },
+  "resolutions": [
+    {
+      "resolution": "1920x1080",
+      "run": {
+        "resolution": "1920x1080",
+        "exitCode": 0,
+        "report": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\physical-result.json",
+        "passed": true,
+        "count": 72
+      },
+      "resultCount": 72,
+      "passCount": 72,
+      "input": "Godot Viewport.PushInput mouse/key; deterministic actual-event driver; effects manually timed; focus handlers directly invoked (not OS focus test)",
+      "resultFiles": [
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\physical-result.json",
+          "bytes": 270043,
+          "sha256": "d772a5bfa48f42c63df8b412cffcf4e286504824ca3aa59027318cdf36bf4da8"
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\stdout.log",
+          "bytes": 5171,
+          "sha256": "ea4b03f18ecca18f7aaf08c824aa77695ccb6c7c4eff7f4213ac7ee201e0e49f"
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\stderr.log",
+          "bytes": 2326,
+          "sha256": "e83298dd4b5293c099169e319a89d823210b3311c3149b47e30024ced556c3c1"
+        }
+      ],
+      "stderr": {
+        "empty": false,
+        "warningCount": 1,
+        "errorCount": 0,
+        "warningLines": [
+          "WARNING: The Viewport was previously notified that the mouse is in its area. There is no need to notify it at this time."
+        ]
+      },
+      "images": [
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\01-tabletop.png",
+          "bytes": 1823122,
+          "sha256": "8f9f9515b68cd0a7dc34d5bbdb478721ae8a5bf3bec63a43cba011e81c26efeb",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\02-player-closeup.png",
+          "bytes": 697039,
+          "sha256": "63c6be11b67ac63c88a8c30106e6acdc67e436151d3130a8780434237ed2915a",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\03-enemy-closeup.png",
+          "bytes": 688661,
+          "sha256": "075af83d8ba181b1f45d9b8c2b561b15b2032d7cfbaaa80941a0879e5159c016",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\04-dark-closeup.png",
+          "bytes": 707165,
+          "sha256": "d4029db7eda624575ecc88fc0a6986d10c106b794ead6547f409893dd155456f",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\05-resource-closeup.png",
+          "bytes": 667023,
+          "sha256": "b7fe6b75fda92c7b60d7581f13fdadc8dd5aa09ca8eab4a9d02bd4bb9b2b89ed",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\06-guard-closeup.png",
+          "bytes": 696935,
+          "sha256": "b7bed9c16f9bc2d6af9bc02cb56262167484034d4785e07d8b7266c17bc21113",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\07-completion-source.png",
+          "bytes": 1819261,
+          "sha256": "6d8952c7ea1e353494f68e3dd5e5730741ed4838cc1061277c15a0764bac9e4c",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\08-completion-appear.png",
+          "bytes": 1838467,
+          "sha256": "a7d1d16bd53019fc2ea1547bb19f7a6032678f0c4a847f32bdef09541d547298",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\09-completion-paused.png",
+          "bytes": 1840455,
+          "sha256": "12b351d68dc6929b476b67404f17af6e7ecd2012d702e7a180e4ed932d6e7a57",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\10-card-closeup.png",
+          "bytes": 736249,
+          "sha256": "06cd82995657ae3dd6f3d9d85b0688904baad16393abe111874a68dd6ba9c3ae",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\11-shield-use.png",
+          "bytes": 1842203,
+          "sha256": "c2a45d11e8fdd5951252400ecabaef68dfcd3848f2567e8a6733a66c4be360e4",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\12-departed.png",
+          "bytes": 1826037,
+          "sha256": "b4b417139185da67d67b408a3ab0b1d65ab018a5bd2d002a072a395cfd6e9f8e",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\13-final-tabletop.png",
+          "bytes": 1823399,
+          "sha256": "67f03df8d19a31fe534ac8da9fc040d99c8a4d11c43a2e52e353b09f754df667",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\component-01-fixed-table.png",
+          "bytes": 1822642,
+          "sha256": "b5705f1685f0e9c8fb5320e77e73ab93a3fd8316c02252f0b45f6305dbc34cb0",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\component-02-drawer-closed.png",
+          "bytes": 1822658,
+          "sha256": "7b99c2fb1b58f7655ce994551cf3c7075207ee638f0a8bb66ecabb8030aaa877",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\component-03-drawer-open.png",
+          "bytes": 1866361,
+          "sha256": "13e1ffeafa5966cea510db46d2afe13a0d3b2d8823ab159df993ac9e35c9b44d",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\component-04-hover.png",
+          "bytes": 1820809,
+          "sha256": "3c21f25d2e65164b01426b5862a2b347df90584d1b86c4bb71ef39963ef3e01a",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\component-05-paper.png",
+          "bytes": 688661,
+          "sha256": "075af83d8ba181b1f45d9b8c2b561b15b2032d7cfbaaa80941a0879e5159c016",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\component-06-complete-table.png",
+          "bytes": 1822332,
+          "sha256": "085acf4567cb1ecc1a2ffade0b016e74d60d58019388ae95ca244da220ce43ef",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\component-07-caster-future.png",
+          "bytes": 702546,
+          "sha256": "a6c412c359c9cd7f4b53f01229fbec1d04bbfec8a8879e78b6735f738344f3f3",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\component-08-hourglass-near.png",
+          "bytes": 712903,
+          "sha256": "60ad56f8d4d394e8231adf775cbd91816b24595d625daded7cb1fdc490d45bd6",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\component-09-hourglass-paid.png",
+          "bytes": 1810457,
+          "sha256": "b20b5cea60715a190da9d05443bda65e8e6b579be1a0ad1a60920a8e7a4f0c40",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\component-10-terminal.png",
+          "bytes": 1168464,
+          "sha256": "125e9bbef4237af983c80d5cf6c380f65370c467e28cdb03d8f89619089b35fa",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\demon-01-paper-slots.png",
+          "bytes": 1823399,
+          "sha256": "67f03df8d19a31fe534ac8da9fc040d99c8a4d11c43a2e52e353b09f754df667",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\demon-02-dark-hover.png",
+          "bytes": 1823646,
+          "sha256": "e61c956b2953c6814172e549d4b1cbd5dec560c80c18d996773884855940f051",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\demon-03-reveal-start.png",
+          "bytes": 1841492,
+          "sha256": "5fb67faa0b4c7d2d9883b6058a3a26cfcd261d2c7d7bcaf60844577d069416c3",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\demon-04-reveal-mid.png",
+          "bytes": 1838116,
+          "sha256": "e7a8f1deeeff492c4d49544a880d219950a8430c6e2b68c90de171635f6fa528",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\demon-05-reveal-click.png",
+          "bytes": 681303,
+          "sha256": "893177ecf164d9b791b195c47aca7e942a8958553ab64cfcdd7e51b0433399c7",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\demon-06-reveal-finish.png",
+          "bytes": 1836545,
+          "sha256": "fe213a5d0ae98655a94a5d866324e1fe609d372629ec0e962f6c25edc32b3f0c",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\demon-07-lock-detail.png",
+          "bytes": 756594,
+          "sha256": "197de95dc1a47a57d3742210af9851337c9dd9112e39a8cf5d642ce0f86f2628",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\demon-08-save-error.png",
+          "bytes": 1170826,
+          "sha256": "3fe994c979081f9b561ac27a6220582578cb1cab02d4a909e75035e75939d9c0",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\demon-09-player-attack.png",
+          "bytes": 1830558,
+          "sha256": "028c1ddec8b50328814fcaca6c75931aa30c901a0fec6ca4466742e192478bbd",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\demon-10-enemy-attack.png",
+          "bytes": 1826053,
+          "sha256": "271b1247ca4f4689d13c368cc756075d8bf923ef2eb53f0bdb47eaf1ee0cc100",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1920x1080\\demon-11-interrupt.png",
+          "bytes": 1857864,
+          "sha256": "492e1e2d467033ed3e85fcb79cc172ce957f15116c635a912152adc788574146",
+          "dimensions": [
+            1920,
+            1080
+          ],
+          "actuallyViewedByD": true
+        }
+      ],
+      "manualViewedCount": 22,
+      "captureCount": 34,
+      "casterCaptionGapPx": 10.0,
+      "casterWorldCaptions": [
+        {
+          "text": "D 3  ·  剩余 2",
+          "rect": "(559.65344, 786.5241), (216, 60)",
+          "skin": "txt02-216-1line-top",
+          "fontSize": 18,
+          "projectedEmPixels": 18.01233
+        },
+        {
+          "text": "无需材料\n查看承诺产物",
+          "rect": "(1083.4409, 485.185), (216, 86)",
+          "skin": "txt02-216-2line-top",
+          "fontSize": 18,
+          "projectedEmPixels": 18.012451
+        },
+        {
+          "text": "B · 切换未来用途",
+          "rect": "(559.65344, 856.5241), (216, 60)",
+          "skin": "txt02-216-1line-top",
+          "fontSize": 18,
+          "projectedEmPixels": 18.012512
+        }
+      ],
+      "casterPaper": [
+        {
+          "skin": "txt03-380-detail",
+          "rect": "(1476, 344), (420, 392)",
+          "native": "(420, 392)",
+          "anchor": "",
+          "protectedOverlap": 0
+        },
+        {
+          "skin": "txt02-216-2line-bottom",
+          "rect": "(24, 24), (216, 86)",
+          "native": "(216, 86)",
+          "anchor": "",
+          "protectedOverlap": 0
+        }
+      ],
+      "casterButtons": [
+        {
+          "text": "×",
+          "rect": "(1832, 370), (44, 44)",
+          "disabled": false
+        },
+        {
+          "text": "上页",
+          "rect": "(1496, 666), (44, 44)",
+          "disabled": true
+        },
+        {
+          "text": "下页",
+          "rect": "(1544, 666), (44, 44)",
+          "disabled": true
+        }
+      ],
+      "hoverPaper": [
+        {
+          "skin": "txt02-216-1line-bottom",
+          "rect": "(1077.2017, 694.8352), (216, 60)",
+          "native": "(216, 60)",
+          "anchor": "bottom",
+          "protectedOverlap": 0
+        }
+      ],
+      "mainGlass": [
+        {
+          "mesh": "WAND-02__CRYSTAL",
+          "policy": "tinted alpha shell; refraction disabled; no optical transmission",
+          "materials": [
+            {
+              "alpha": 0.26,
+              "tint": "(0.16, 0.42, 0.54, 0.26)",
+              "transparency": "Alpha",
+              "refraction": false,
+              "roughness": 0.24,
+              "specular": 0.16
+            }
+          ]
+        },
+        {
+          "mesh": "DECOR-02__GLASS",
+          "policy": "tinted alpha shell; refraction disabled; no optical transmission",
+          "materials": [
+            {
+              "alpha": 0.19,
+              "tint": "(0.19, 0.38, 0.4, 0.19)",
+              "transparency": "Alpha",
+              "refraction": false,
+              "roughness": 0.26,
+              "specular": 0.14
+            }
+          ]
+        },
+        {
+          "mesh": "DECOR-03__GLASS",
+          "policy": "tinted alpha shell; refraction disabled; no optical transmission",
+          "materials": [
+            {
+              "alpha": 0.12,
+              "tint": "(0.43, 0.54, 0.53, 0.12)",
+              "transparency": "Alpha",
+              "refraction": false,
+              "roughness": 0.22,
+              "specular": 0.12
+            }
+          ]
+        }
+      ],
+      "casterGlass": [
+        {
+          "mesh": "WAND-02__CRYSTAL",
+          "policy": "tinted alpha shell; refraction disabled; no optical transmission",
+          "materials": [
+            {
+              "alpha": 0.26,
+              "tint": "(0.16, 0.42, 0.54, 0.26)",
+              "transparency": "Alpha",
+              "refraction": false,
+              "roughness": 0.24,
+              "specular": 0.16
+            }
+          ]
+        },
+        {
+          "mesh": "DECOR-02__GLASS",
+          "policy": "tinted alpha shell; refraction disabled; no optical transmission",
+          "materials": [
+            {
+              "alpha": 0.19,
+              "tint": "(0.19, 0.38, 0.4, 0.19)",
+              "transparency": "Alpha",
+              "refraction": false,
+              "roughness": 0.26,
+              "specular": 0.14
+            }
+          ]
+        },
+        {
+          "mesh": "DECOR-03__GLASS",
+          "policy": "tinted alpha shell; refraction disabled; no optical transmission",
+          "materials": [
+            {
+              "alpha": 0.12,
+              "tint": "(0.43, 0.54, 0.53, 0.12)",
+              "transparency": "Alpha",
+              "refraction": false,
+              "roughness": 0.22,
+              "specular": 0.12
+            }
+          ]
+        },
+        {
+          "mesh": "CasterInspectionCrystal",
+          "policy": "inspection-only gray-blue alpha crystal; neutral off-axis layer-3 key/fill; no emission/refraction",
+          "materials": [
+            {
+              "alpha": 0.58,
+              "tint": "(0.32, 0.52, 0.65, 0.58)",
+              "transparency": "Alpha",
+              "refraction": false,
+              "roughness": 0.27,
+              "specular": 0.24
+            }
+          ]
+        }
+      ],
+      "manualTimedCues": [
+        {
+          "name": "completion-source",
+          "frame": 239,
+          "snapshot": {
+            "Sequence": 4,
+            "Kind": 1,
+            "Stage": "source-glow",
+            "Elapsed": 0,
+            "AppliedNodeCount": 46,
+            "SourceLit": true,
+            "CardLit": false,
+            "TargetLit": false,
+            "CardHiddenFraction": 1
+          },
+          "starts": [
+            {
+              "Sequence": 4,
+              "Kind": 1,
+              "Frame": 239,
+              "CardNodeId": 259979746659,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            }
+          ],
+          "beat": 2,
+          "stage": "completion"
+        },
+        {
+          "name": "completion-appear",
+          "frame": 251,
+          "snapshot": {
+            "Sequence": 4,
+            "Kind": 1,
+            "Stage": "card-appear",
+            "Elapsed": 0.16,
+            "AppliedNodeCount": 46,
+            "SourceLit": true,
+            "CardLit": false,
+            "TargetLit": false,
+            "CardHiddenFraction": 0.5499259
+          },
+          "starts": [
+            {
+              "Sequence": 4,
+              "Kind": 1,
+              "Frame": 239,
+              "CardNodeId": 259979746659,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            }
+          ],
+          "beat": 2,
+          "stage": "completion"
+        },
+        {
+          "name": "paused",
+          "frame": 263,
+          "snapshot": {
+            "Sequence": null,
+            "Kind": null,
+            "Stage": "idle",
+            "Elapsed": 0,
+            "AppliedNodeCount": 0,
+            "SourceLit": false,
+            "CardLit": false,
+            "TargetLit": false,
+            "CardHiddenFraction": 0
+          },
+          "starts": [
+            {
+              "Sequence": 4,
+              "Kind": 1,
+              "Frame": 239,
+              "CardNodeId": 259979746659,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            }
+          ],
+          "beat": 2,
+          "stage": "completion"
+        },
+        {
+          "name": "use",
+          "frame": 299,
+          "snapshot": {
+            "Sequence": 6,
+            "Kind": 4,
+            "Stage": "use",
+            "Elapsed": 0,
+            "AppliedNodeCount": 8,
+            "SourceLit": false,
+            "CardLit": true,
+            "TargetLit": true,
+            "CardHiddenFraction": 0
+          },
+          "starts": [
+            {
+              "Sequence": 4,
+              "Kind": 1,
+              "Frame": 239,
+              "CardNodeId": 259979746659,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 6,
+              "Kind": 4,
+              "Frame": 299,
+              "CardNodeId": 259979746659,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            }
+          ],
+          "beat": 3,
+          "stage": "enemy"
+        },
+        {
+          "name": "departed",
+          "frame": 323,
+          "snapshot": {
+            "Sequence": null,
+            "Kind": null,
+            "Stage": "idle",
+            "Elapsed": 0,
+            "AppliedNodeCount": 0,
+            "SourceLit": false,
+            "CardLit": false,
+            "TargetLit": false,
+            "CardHiddenFraction": 0
+          },
+          "starts": [
+            {
+              "Sequence": 4,
+              "Kind": 1,
+              "Frame": 239,
+              "CardNodeId": 259979746659,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 6,
+              "Kind": 4,
+              "Frame": 299,
+              "CardNodeId": 259979746659,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 7,
+              "Kind": 13,
+              "Frame": 323,
+              "CardNodeId": 259979746659,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 8,
+              "Kind": 14,
+              "Frame": 323,
+              "CardNodeId": 259979746659,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            }
+          ],
+          "beat": 3,
+          "stage": "fatigue"
+        },
+        {
+          "name": "reveal-start",
+          "frame": 527,
+          "motionCount": 1,
+          "starts": [
+            {
+              "kind": "projection-move",
+              "key": "enemy-0-2",
+              "node": 389516631720,
+              "from": "(-0.90900004, 0.01221044, -0.32)",
+              "to": "(0.3030001, 0.01221044, -0.32)"
+            },
+            {
+              "kind": "reveal",
+              "key": "enemy-0-2",
+              "node": 389516631720,
+              "sequence": 11,
+              "beat": 4,
+              "due": 8
+            }
+          ],
+          "key": "enemy-0-2",
+          "card": {
+            "node": 389516631720,
+            "root": "[X: (1, 0, 0), Y: (0, 1, 0), Z: (0, 0, 1), O: (0.3030001, 0.01221044, -0.32)]",
+            "pivot": "[X: (-1, -8.742278E-08, 0), Y: (8.742278E-08, -1, 0), Z: (0, 0, 1), O: (-1.2120001, 0, 0)]",
+            "hit": "[X: (-1, -8.742278E-08, 0), Y: (8.742278E-08, -1, 0), Z: (0, 0, 1), O: (-0.90900004, 0.01221044, -0.32)]",
+            "Hidden": false,
+            "RevealBeat": 4,
+            "DueBeat": 8,
+            "PublicTarget": "player",
+            "inscription": {
+              "key": "enemy-0-2",
+              "hidden": false,
+              "title": "▲ 攻击",
+              "titleVisible": true,
+              "copy": "6\nT8",
+              "textWidth": 0.0831721,
+              "textHeight": 0.2455557,
+              "fontSize": 36,
+              "fontHeight": 62,
+              "lineSpacing": 0,
+              "pixelSize": 0.001980288,
+              "twoDigitRevealWidth": 0.17426534,
+              "widthLimit": 0.21184614,
+              "paperWidth": 0.20713846,
+              "paperHeight": 0.102000006,
+              "fits": true
+            }
+          },
+          "beat": 4,
+          "stage": "observation",
+          "hover": ""
+        },
+        {
+          "name": "reveal-mid",
+          "frame": 539,
+          "motionCount": 1,
+          "starts": [
+            {
+              "kind": "projection-move",
+              "key": "enemy-0-2",
+              "node": 389516631720,
+              "from": "(-0.90900004, 0.01221044, -0.32)",
+              "to": "(0.3030001, 0.01221044, -0.32)"
+            },
+            {
+              "kind": "reveal",
+              "key": "enemy-0-2",
+              "node": 389516631720,
+              "sequence": 11,
+              "beat": 4,
+              "due": 8
+            }
+          ],
+          "key": "enemy-0-2",
+          "card": {
+            "node": 389516631720,
+            "root": "[X: (1, 0, 0), Y: (0, 1, 0), Z: (0, 0, 1), O: (0.3030001, 0.01221044, -0.32)]",
+            "pivot": "[X: (0.065403074, 0.99785894, 0), Y: (-0.99785894, 0.065403074, 0), Z: (0, 0, 1), O: (-0.5233637, 0.0013923532, 0)]",
+            "hit": "[X: (0.065403074, 0.99785894, 0), Y: (-0.99785894, 0.065403074, 0), Z: (0, 0, 1), O: (-0.22036362, 0.013602793, -0.32)]",
+            "Hidden": false,
+            "RevealBeat": 4,
+            "DueBeat": 8,
+            "PublicTarget": "player",
+            "inscription": {
+              "key": "enemy-0-2",
+              "hidden": false,
+              "title": "▲ 攻击",
+              "titleVisible": true,
+              "copy": "6\nT8",
+              "textWidth": 0.08490501,
+              "textHeight": 0.25067192,
+              "fontSize": 36,
+              "fontHeight": 62,
+              "lineSpacing": 0,
+              "pixelSize": 0.0020215479,
+              "twoDigitRevealWidth": 0.17789622,
+              "widthLimit": 0.21184614,
+              "paperWidth": 0.20713846,
+              "paperHeight": 0.102000006,
+              "fits": true
+            }
+          },
+          "beat": 4,
+          "stage": "observation",
+          "hover": ""
+        },
+        {
+          "name": "continued-static",
+          "frame": 563,
+          "motionCount": 0,
+          "starts": [
+            {
+              "kind": "projection-move",
+              "key": "enemy-0-2",
+              "node": 389516631720,
+              "from": "(-0.90900004, 0.01221044, -0.32)",
+              "to": "(0.3030001, 0.01221044, -0.32)"
+            },
+            {
+              "kind": "reveal",
+              "key": "enemy-0-2",
+              "node": 389516631720,
+              "sequence": 11,
+              "beat": 4,
+              "due": 8
+            }
+          ],
+          "key": "enemy-0-2",
+          "card": {
+            "node": 389516631720,
+            "root": "[X: (1, 0, 0), Y: (0, 1, 0), Z: (0, 0, 1), O: (0.3030001, 0.01221044, -0.32)]",
+            "pivot": "[X: (1, 0, 0), Y: (0, 1, 0), Z: (0, 0, 1), O: (0, 0, 0)]",
+            "hit": "[X: (1, 0, 0), Y: (0, 1, 0), Z: (0, 0, 1), O: (0.3030001, 0.01221044, -0.32)]",
+            "Hidden": false,
+            "RevealBeat": 4,
+            "DueBeat": 8,
+            "PublicTarget": "player",
+            "inscription": {
+              "key": "enemy-0-2",
+              "hidden": false,
+              "title": "▲ 攻击",
+              "titleVisible": true,
+              "copy": "6\nT8",
+              "textWidth": 0.08480661,
+              "textHeight": 0.25038144,
+              "fontSize": 36,
+              "fontHeight": 62,
+              "lineSpacing": 0,
+              "pixelSize": 0.0020192051,
+              "twoDigitRevealWidth": 0.17769006,
+              "widthLimit": 0.21184614,
+              "paperWidth": 0.20713846,
+              "paperHeight": 0.102000006,
+              "fits": true
+            }
+          },
+          "beat": 4,
+          "stage": "observation",
+          "hover": "▲ 攻击\n伤害 6 · T8"
+        },
+        {
+          "name": "reveal-finished",
+          "frame": 575,
+          "motionCount": 0,
+          "starts": [
+            {
+              "kind": "projection-move",
+              "key": "enemy-0-2",
+              "node": 416209182603,
+              "from": "(-0.90900004, 0.01221044, -0.32)",
+              "to": "(0.3030001, 0.01221044, -0.32)"
+            },
+            {
+              "kind": "reveal",
+              "key": "enemy-0-2",
+              "node": 416209182603,
+              "sequence": 11,
+              "beat": 4,
+              "due": 8
+            }
+          ],
+          "key": "enemy-0-2",
+          "card": {
+            "node": 416209182603,
+            "root": "[X: (1, 0, 0), Y: (0, 1, 0), Z: (0, 0, 1), O: (0.3030001, 0.01221044, -0.32)]",
+            "pivot": "[X: (1, 0, 0), Y: (0, 1, 0), Z: (0, 0, 1), O: (0, 0, 0)]",
+            "hit": "[X: (1, 0, 0), Y: (0, 1, 0), Z: (0, 0, 1), O: (0.3030001, 0.01221044, -0.32)]",
+            "Hidden": false,
+            "RevealBeat": 4,
+            "DueBeat": 8,
+            "PublicTarget": "player",
+            "inscription": {
+              "key": "enemy-0-2",
+              "hidden": false,
+              "title": "▲ 攻击",
+              "titleVisible": true,
+              "copy": "6\nT8",
+              "textWidth": 0.0831721,
+              "textHeight": 0.2455557,
+              "fontSize": 36,
+              "fontHeight": 62,
+              "lineSpacing": 0,
+              "pixelSize": 0.001980288,
+              "twoDigitRevealWidth": 0.17426534,
+              "widthLimit": 0.21184614,
+              "paperWidth": 0.20713846,
+              "paperHeight": 0.102000006,
+              "fits": true
+            }
+          },
+          "beat": 4,
+          "stage": "observation",
+          "hover": ""
+        },
+        {
+          "name": "quantity-close-layout",
+          "actualPanel": "(1440, 248), (420, 170)",
+          "closeRect": "(375.597, 365.882), (52.774994, 52.205322)",
+          "viewport": "(0, 0), (1920, 1080)"
+        },
+        {
+          "name": "actual-PlayerAttack",
+          "frame": 695,
+          "snapshot": {
+            "Sequence": 12,
+            "Kind": 5,
+            "Stage": "use",
+            "Elapsed": 0,
+            "AppliedNodeCount": 9,
+            "SourceLit": false,
+            "CardLit": true,
+            "TargetLit": true,
+            "CardHiddenFraction": 0
+          },
+          "starts": [
+            {
+              "Sequence": 4,
+              "Kind": 1,
+              "Frame": 695,
+              "CardNodeId": 558865850536,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 6,
+              "Kind": 4,
+              "Frame": 695,
+              "CardNodeId": 558865850536,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 7,
+              "Kind": 13,
+              "Frame": 695,
+              "CardNodeId": 558865850536,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 8,
+              "Kind": 14,
+              "Frame": 695,
+              "CardNodeId": 558865850536,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 9,
+              "Kind": 1,
+              "Frame": 695,
+              "CardNodeId": 563664134057,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 12,
+              "Kind": 5,
+              "Frame": 695,
+              "CardNodeId": 563664134057,
+              "TargetNodeId": 76269227835,
+              "CardLit": true,
+              "TargetLit": true
+            }
+          ],
+          "beat": 4,
+          "stage": "mark"
+        },
+        {
+          "name": "actual-EnemyAttack",
+          "frame": 707,
+          "snapshot": {
+            "Sequence": 20,
+            "Kind": 8,
+            "Stage": "use",
+            "Elapsed": 0,
+            "AppliedNodeCount": 9,
+            "SourceLit": false,
+            "CardLit": true,
+            "TargetLit": true,
+            "CardHiddenFraction": 0
+          },
+          "starts": [
+            {
+              "Sequence": 4,
+              "Kind": 1,
+              "Frame": 707,
+              "CardNodeId": 579552158248,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 6,
+              "Kind": 4,
+              "Frame": 707,
+              "CardNodeId": 579552158248,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 7,
+              "Kind": 13,
+              "Frame": 707,
+              "CardNodeId": 579552158248,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 8,
+              "Kind": 14,
+              "Frame": 707,
+              "CardNodeId": 579552158248,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 9,
+              "Kind": 1,
+              "Frame": 707,
+              "CardNodeId": 583863902095,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 12,
+              "Kind": 5,
+              "Frame": 707,
+              "CardNodeId": 583863902095,
+              "TargetNodeId": 76269227835,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 13,
+              "Kind": 13,
+              "Frame": 707,
+              "CardNodeId": 583863902095,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 14,
+              "Kind": 14,
+              "Frame": 707,
+              "CardNodeId": 583863902095,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 15,
+              "Kind": 1,
+              "Frame": 707,
+              "CardNodeId": 588259533596,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 17,
+              "Kind": 4,
+              "Frame": 707,
+              "CardNodeId": 588259533596,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 18,
+              "Kind": 13,
+              "Frame": 707,
+              "CardNodeId": 588259533596,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 19,
+              "Kind": 14,
+              "Frame": 707,
+              "CardNodeId": 588259533596,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 20,
+              "Kind": 8,
+              "Frame": 707,
+              "CardNodeId": 574149893463,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            }
+          ],
+          "beat": 6,
+          "stage": "enemy"
+        },
+        {
+          "name": "actual-Interrupt",
+          "frame": 719,
+          "snapshot": {
+            "Sequence": 54,
+            "Kind": 9,
+            "Stage": "use",
+            "Elapsed": 0,
+            "AppliedNodeCount": 9,
+            "SourceLit": false,
+            "CardLit": true,
+            "TargetLit": true,
+            "CardHiddenFraction": 0
+          },
+          "starts": [
+            {
+              "Sequence": 4,
+              "Kind": 1,
+              "Frame": 719,
+              "CardNodeId": 615136633772,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 6,
+              "Kind": 4,
+              "Frame": 719,
+              "CardNodeId": 615136633772,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 7,
+              "Kind": 13,
+              "Frame": 719,
+              "CardNodeId": 615136633772,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 8,
+              "Kind": 14,
+              "Frame": 719,
+              "CardNodeId": 615136633772,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 9,
+              "Kind": 1,
+              "Frame": 719,
+              "CardNodeId": 619616150164,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 12,
+              "Kind": 5,
+              "Frame": 719,
+              "CardNodeId": 619616150164,
+              "TargetNodeId": 76269227835,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 13,
+              "Kind": 13,
+              "Frame": 719,
+              "CardNodeId": 619616150164,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 14,
+              "Kind": 14,
+              "Frame": 719,
+              "CardNodeId": 619616150164,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 15,
+              "Kind": 1,
+              "Frame": 719,
+              "CardNodeId": 624129221836,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 17,
+              "Kind": 4,
+              "Frame": 719,
+              "CardNodeId": 624129221836,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 18,
+              "Kind": 13,
+              "Frame": 719,
+              "CardNodeId": 624129221836,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 19,
+              "Kind": 14,
+              "Frame": 719,
+              "CardNodeId": 624129221836,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 20,
+              "Kind": 8,
+              "Frame": 719,
+              "CardNodeId": 609348494533,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 21,
+              "Kind": 1,
+              "Frame": 719,
+              "CardNodeId": 639044166253,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 22,
+              "Kind": 1,
+              "Frame": 719,
+              "CardNodeId": 639648147257,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 25,
+              "Kind": 4,
+              "Frame": 719,
+              "CardNodeId": 639044166253,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 26,
+              "Kind": 13,
+              "Frame": 719,
+              "CardNodeId": 639044166253,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 27,
+              "Kind": 14,
+              "Frame": 719,
+              "CardNodeId": 639044166253,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 29,
+              "Kind": 8,
+              "Frame": 719,
+              "CardNodeId": 608845178096,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 30,
+              "Kind": 5,
+              "Frame": 719,
+              "CardNodeId": 639648147257,
+              "TargetNodeId": 76269227835,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 31,
+              "Kind": 13,
+              "Frame": 719,
+              "CardNodeId": 639648147257,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 32,
+              "Kind": 14,
+              "Frame": 719,
+              "CardNodeId": 639648147257,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 33,
+              "Kind": 1,
+              "Frame": 719,
+              "CardNodeId": 651710966006,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 35,
+              "Kind": 4,
+              "Frame": 719,
+              "CardNodeId": 651710966006,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 36,
+              "Kind": 13,
+              "Frame": 719,
+              "CardNodeId": 651710966006,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 37,
+              "Kind": 14,
+              "Frame": 719,
+              "CardNodeId": 651710966006,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 38,
+              "Kind": 1,
+              "Frame": 719,
+              "CardNodeId": 659562703734,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 40,
+              "Kind": 5,
+              "Frame": 719,
+              "CardNodeId": 659562703734,
+              "TargetNodeId": 76269227835,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 41,
+              "Kind": 13,
+              "Frame": 719,
+              "CardNodeId": 659562703734,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 42,
+              "Kind": 14,
+              "Frame": 719,
+              "CardNodeId": 659562703734,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 43,
+              "Kind": 1,
+              "Frame": 719,
+              "CardNodeId": 667414441268,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 45,
+              "Kind": 4,
+              "Frame": 719,
+              "CardNodeId": 667414441268,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 46,
+              "Kind": 13,
+              "Frame": 719,
+              "CardNodeId": 667414441268,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 47,
+              "Kind": 14,
+              "Frame": 719,
+              "CardNodeId": 667414441268,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 49,
+              "Kind": 1,
+              "Frame": 719,
+              "CardNodeId": 679510809945,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 50,
+              "Kind": 1,
+              "Frame": 719,
+              "CardNodeId": 680114789769,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 53,
+              "Kind": 4,
+              "Frame": 719,
+              "CardNodeId": 679510809945,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 54,
+              "Kind": 9,
+              "Frame": 719,
+              "CardNodeId": 609851810964,
+              "TargetNodeId": 79607894018,
+              "CardLit": true,
+              "TargetLit": true
+            }
+          ],
+          "beat": 13,
+          "stage": "enemy"
+        },
+        {
+          "name": "component-drawer-closed",
+          "handle": "(960, 865.40356)",
+          "world": "(0, -0.2359341, 0.8980879)"
+        },
+        {
+          "name": "component-drawer-open",
+          "handle": "(960, 990.15704)",
+          "slideDelta": "(0, 0, 0.2914285)",
+          "rails": "(0, 0, 0)"
+        },
+        {
+          "name": "component-hover",
+          "id": "player",
+          "text": "玩家\n生命30 · 护盾0",
+          "rect": "(852, 824.33575), (216, 86)",
+          "overlap": 0,
+          "anchor": "top"
+        },
+        {
+          "name": "component-hover",
+          "id": "enemy-pawn",
+          "text": "炼金学徒\n生命60 · 护盾0",
+          "rect": "(688.1652, 174.81598), (216, 86)",
+          "overlap": 0,
+          "anchor": "right"
+        },
+        {
+          "name": "component-hover",
+          "id": "guard",
+          "text": "守护护符\n无当前批次 · 无需…",
+          "rect": "(434.3634, 773.21075), (216, 86)",
+          "overlap": 0,
+          "anchor": "top"
+        },
+        {
+          "name": "component-hover",
+          "id": "caster",
+          "text": "施法护符\n无当前批次 · 无需…",
+          "rect": "(1224.3947, 686.25604), (216, 86)",
+          "overlap": 0,
+          "anchor": "top"
+        },
+        {
+          "name": "component-hover",
+          "id": "player-life",
+          "text": "生命 30",
+          "rect": "(949.3906, 819.6798), (216, 60)",
+          "overlap": 0,
+          "anchor": "top"
+        },
+        {
+          "name": "component-hover",
+          "id": "player-armor",
+          "text": "护盾 0",
+          "rect": "(1029.073, 819.6798), (216, 60)",
+          "overlap": 0,
+          "anchor": "top"
+        },
+        {
+          "name": "component-hover",
+          "id": "player-marks",
+          "text": "施法次数 · 实有0\n可用0 · 锁定0",
+          "rect": "(1132.7852, 819.6798), (216, 86)",
+          "overlap": 0,
+          "anchor": "top"
+        },
+        {
+          "name": "component-hover",
+          "id": "resources",
+          "text": "资源抽屉\n无需材料 · 本场材…",
+          "rect": "(852, 909.4661), (216, 86)",
+          "overlap": 0,
+          "anchor": "top"
+        },
+        {
+          "name": "component-hover",
+          "id": "ctl:play",
+          "text": "暂停 · P",
+          "rect": "(626.79224, 838.3351), (216, 60)",
+          "overlap": 0,
+          "anchor": "top"
+        },
+        {
+          "name": "component-hover",
+          "id": "ctl:step",
+          "text": "单步 · Space",
+          "rect": "(761.5215, 838.1813), (216, 60)",
+          "overlap": 0,
+          "anchor": "top"
+        },
+        {
+          "name": "component-hover",
+          "id": "ctl:speed",
+          "text": "速度 1×",
+          "rect": "(942.35254, 696.656), (216, 60)",
+          "overlap": 0,
+          "anchor": "bottom"
+        },
+        {
+          "name": "component-hover",
+          "id": "ctl:settings",
+          "text": "设置 · Esc",
+          "rect": "(1077.2017, 694.8352), (216, 60)",
+          "overlap": 0,
+          "anchor": "bottom"
+        },
+        {
+          "name": "component-glass",
+          "mesh": "WAND-02__CRYSTAL",
+          "policy": "tinted alpha shell; refraction disabled; no optical transmission",
+          "alpha": 0.26,
+          "roughness": 0.24
+        },
+        {
+          "name": "component-glass",
+          "mesh": "DECOR-02__GLASS",
+          "policy": "tinted alpha shell; refraction disabled; no optical transmission",
+          "alpha": 0.19,
+          "roughness": 0.26
+        },
+        {
+          "name": "component-glass",
+          "mesh": "DECOR-03__GLASS",
+          "policy": "tinted alpha shell; refraction disabled; no optical transmission",
+          "alpha": 0.12,
+          "roughness": 0.22
+        },
+        {
+          "name": "component-caster-contact",
+          "low": 0.011219762,
+          "left": 0.3900447,
+          "right": 1.1899556,
+          "front": 0.5621887,
+          "back": 0.41781136,
+          "matTop": 0.011219781
+        },
+        {
+          "name": "component-sand",
+          "beat": 0,
+          "state": "preview",
+          "terminalHold": false,
+          "visibleParts": [
+            "DECOR-03__SAND_LOWER",
+            "DECOR-03__SAND_UPPER"
+          ]
+        },
+        {
+          "name": "component-sand",
+          "beat": 15,
+          "state": "near",
+          "terminalHold": false,
+          "visibleParts": [
+            "DECOR-03__SAND_LOWER_NEAR",
+            "DECOR-03__SAND_UPPER_NEAR"
+          ]
+        },
+        {
+          "name": "component-sand",
+          "beat": 16,
+          "state": "elapsed",
+          "terminalHold": false,
+          "visibleParts": [
+            "DECOR-03__SAND_LOWER_ELAPSED"
+          ]
+        }
+      ],
+      "allAssertedCheckNames": [
+        "new-via-actual-button",
+        "guide-escape-no-advance",
+        "tabletop-real-mesh-no-hud",
+        "all-initial-enemy-programs-accessible",
+        "dark-card-public-fields-only",
+        "positive-chips-right-zero-trays",
+        "life-chip-hover-no-detail",
+        "player-world-closeup",
+        "player-escape-focus-and-paused",
+        "enemy-world-closeup",
+        "closeup-blocks-play-step",
+        "dark-card-world-closeup",
+        "resource-empty-floating",
+        "step-is-static",
+        "guard-live-batch-fields",
+        "closeup-snapshot-does-not-advance",
+        "keyboard-return-to-world-focus",
+        "completion-real-id-source-first",
+        "completion-appears-in-place-after-source",
+        "pause-restores-exact-card",
+        "same-card-closeup-identity",
+        "resume-does-not-replay-completion",
+        "use-card-and-pawn-start-together",
+        "pause-at-shield-keeps-card-before-mark",
+        "mark-before-depart-real-state",
+        "step-and-reduced-motion-clean",
+        "restore-same-state-static",
+        "focus-loss-clears-transients",
+        "focus-return-does-not-resume",
+        "world-controls-pan-home",
+        "world-control-home-static",
+        "keyboard-chip-exact-count",
+        "chip-click-queues-lock-until-observation",
+        "queued-lock-applies-at-observation",
+        "locked-chip-click-releases-real-balance",
+        "settings-world-control-and-static-return",
+        "controller-tick-drives-real-three-beat-chain",
+        "new-battle-clears-card-and-sequence",
+        "demoncards-uniform-thin-rounded-paper-and-narrow-slots",
+        "demoncards-focus-two-lines-public-and-does-not-pause",
+        "demoncards-focus-leave-clears-and-window-follow-is-static",
+        "demoncards-new-reveal-moves-one-public-identity",
+        "demoncards-reveal-midpoint-hit-shares-visible-pivot",
+        "demoncards-mid-move-click-is-current-public-detail",
+        "demoncards-close-and-continue-do-not-replay-reveal",
+        "demoncards-reveal-finishes-exact-public-pose",
+        "demoncards-repeated-fresh-delivery-does-not-replay",
+        "demoncards-single-step-publishes-without-old-motion",
+        "demoncards-reduced-motion-publishes-static",
+        "demoncards-focus-loss-cancels-and-return-stays-static",
+        "demoncards-load-cancels-live-move-and-does-not-replay",
+        "demoncards-quantity-closeup-zero-disabled-and-draft-preserved",
+        "demoncards-quantity-excess-rejected-without-partial-lock",
+        "demoncards-quantity-zero-disabled-and-close-discards-draft",
+        "demoncards-new-fixture-resets-motion-cursor",
+        "demoncards-player-attack-card-and-enemy-simultaneous",
+        "demoncards-enemy-attack-card-and-player-simultaneous",
+        "demoncards-interrupt-card-and-locked-artifact-simultaneous",
+        "demoncards-all-use-cues-cancel-to-static-authoritative-pose",
+        "demoncards-save-error-graphic-preserves-current-result",
+        "demoncards-save-retry-does-not-repeat-battle-result",
+        "components-fixed-a-c-assets-present",
+        "components-home-state-follows-window-without-battle-change",
+        "components-drawer-closed-handle-visible",
+        "components-drawer-slide-keeps-fixed-rails",
+        "components-hover-real-skins-font-and-avoidance",
+        "components-floating-paper-native-size-and-live-copy",
+        "components-b-d-fixed-props-glass-and-table-contact",
+        "components-caster-collar-changes-future-only",
+        "components-hourglass-near-from-live-fatigue-beat",
+        "components-hourglass-paid-from-live-fatigue-result",
+        "components-hourglass-terminal-holds-last-presentation"
+      ]
+    },
+    {
+      "resolution": "1366x768",
+      "run": {
+        "resolution": "1366x768",
+        "exitCode": 0,
+        "report": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\physical-result.json",
+        "passed": true,
+        "count": 72
+      },
+      "resultCount": 72,
+      "passCount": 72,
+      "input": "Godot Viewport.PushInput mouse/key; deterministic actual-event driver; effects manually timed; focus handlers directly invoked (not OS focus test)",
+      "resultFiles": [
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\physical-result.json",
+          "bytes": 260236,
+          "sha256": "809cb839ca6390b76a6cfbb7f9c54e0947617935c48eff0dfd603aefddde78dd"
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\stdout.log",
+          "bytes": 5171,
+          "sha256": "ea4b03f18ecca18f7aaf08c824aa77695ccb6c7c4eff7f4213ac7ee201e0e49f"
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "stderr": {
+        "empty": true,
+        "warningCount": 0,
+        "errorCount": 0,
+        "warningLines": []
+      },
+      "images": [
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\01-tabletop.png",
+          "bytes": 929172,
+          "sha256": "19cc7f527aff45c9b48f4146262bb9a598883ed920e94f3e5c1122bc7d3b3e96",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\02-player-closeup.png",
+          "bytes": 375720,
+          "sha256": "eae13ee263314cc404ae5e44b48957d86be313503a534aa5e66a8ad674346d74",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\03-enemy-closeup.png",
+          "bytes": 373871,
+          "sha256": "ad39aa514a10c9019dbded5f52b2f0c2042d2c62c20f6da990a7af46fa9413b2",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\04-dark-closeup.png",
+          "bytes": 380153,
+          "sha256": "c993a3eb47e6db5128fe38faacf6e9cdd1d660033fe2c3799fce43fda46e3e17",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\05-resource-closeup.png",
+          "bytes": 348554,
+          "sha256": "c4ec0c788af9549d22bbaeda74b12ab8908179bf1d4785e5ce95426bb5d819e6",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\06-guard-closeup.png",
+          "bytes": 377794,
+          "sha256": "eb573b55157508f7f96995394b742de85cfb17acdcb7605662bfe005d2047fcc",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\07-completion-source.png",
+          "bytes": 925999,
+          "sha256": "dd126af740b3b25c1a3e9f2fb5eb82614a902b9c339dd4f4269149d4e9965e58",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\08-completion-appear.png",
+          "bytes": 938437,
+          "sha256": "248a74a96de662c6445dcade0e251ac3967fa51584e4bb924fdf21644f3ffc95",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\09-completion-paused.png",
+          "bytes": 939764,
+          "sha256": "4d57f26aeecd902163eca98fa14aa34579a4851592727dd409a3fd5fce9baba1",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\10-card-closeup.png",
+          "bytes": 401871,
+          "sha256": "066f33b085bef02155e4dd7e3136f43ef19db23c55e06f2e452ebf17ee5c8e12",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\11-shield-use.png",
+          "bytes": 936662,
+          "sha256": "c07de17e69c99b6f2a7192ecec211e66a32baa4a64f271240a8abd82fb30388b",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\12-departed.png",
+          "bytes": 928223,
+          "sha256": "a6ef4eb3a66ad93ed7adc3e75c98c65eb976563ad35fce2e83d58334ed9b6a74",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\13-final-tabletop.png",
+          "bytes": 928688,
+          "sha256": "935897903113dff2e29dd427e97c24d0fd6d1bc418b4363d0e66d7c8bc1be9cb",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\component-01-fixed-table.png",
+          "bytes": 928044,
+          "sha256": "4935f76e24fe209dec3db1d13092aa224b88a57529b7e58f5f5535f6cf8e79ff",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\component-02-drawer-closed.png",
+          "bytes": 928060,
+          "sha256": "b894d486d9a0990d5ca66048ae836fcf5f8f5df4b1888a0e727e328a6ed9a610",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\component-03-drawer-open.png",
+          "bytes": 951297,
+          "sha256": "9d89e59ec1ca50a3162012485871bd3d1dd484e26ae6f2575de6cfd4717f10e9",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\component-04-hover.png",
+          "bytes": 930151,
+          "sha256": "3b79615b72bc6dda694fd9ed524806cfd123ae0ea328528e22ad52ac5854e87d",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\component-05-paper.png",
+          "bytes": 373871,
+          "sha256": "ad39aa514a10c9019dbded5f52b2f0c2042d2c62c20f6da990a7af46fa9413b2",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\component-06-complete-table.png",
+          "bytes": 929096,
+          "sha256": "bde9051da4e85fe5acf25c186c3181966880d58f4123d692f40fc013b0d6b807",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\component-07-caster-future.png",
+          "bytes": 383871,
+          "sha256": "dc29310a5fc72dc27795e3e8f8a0911a49c038b3f326281f8de3f4c7c4a9f8d5",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\component-08-hourglass-near.png",
+          "bytes": 391860,
+          "sha256": "4704ee9915078e19a7573964d587bc389b17448b658c81515df2a59d8e5dafa3",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\component-09-hourglass-paid.png",
+          "bytes": 928795,
+          "sha256": "7ed6ede0345a8e65bbb8664b301e13fcaab364cbbce399d998dee69cc5d55e90",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\component-10-terminal.png",
+          "bytes": 604647,
+          "sha256": "32518723ae97a3854ce940106de7e4f50b8ddc4439e73e9833693de965875606",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\demon-01-paper-slots.png",
+          "bytes": 928688,
+          "sha256": "935897903113dff2e29dd427e97c24d0fd6d1bc418b4363d0e66d7c8bc1be9cb",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\demon-02-dark-hover.png",
+          "bytes": 929885,
+          "sha256": "d757c09935969f37253ea69ff96d0a414491653ababc8574e380a60205ea7f5a",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\demon-03-reveal-start.png",
+          "bytes": 944927,
+          "sha256": "545bed294f72852225dbc07b9c5e17e1ca6821bfaa39034048a90edec1617ec2",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\demon-04-reveal-mid.png",
+          "bytes": 942714,
+          "sha256": "a29fbc19cc9ef7888fc9b7e508fc200ef1b369848214a302ac134c72e5cfb851",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\demon-05-reveal-click.png",
+          "bytes": 371369,
+          "sha256": "c248a2f5a63f9c6be25c474ccd0e8a7cf2f359c69616e4cea901d890cf2dfcd0",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\demon-06-reveal-finish.png",
+          "bytes": 941487,
+          "sha256": "287ff9e22455121a308aaf9a56dc9ef2bb3651d021f88960daef037b4db2c317",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": false
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\demon-07-lock-detail.png",
+          "bytes": 413056,
+          "sha256": "ce4b8a8d70d10267bc22fe3fd91203f2cfcf2e4b0ec918ebdfa9bf56fccc3b8f",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\demon-08-save-error.png",
+          "bytes": 585204,
+          "sha256": "4e5635274b3e1d835e8bbb79ddb7d48c8b394d8f07eb54eed3b14b9bf8bd2eeb",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\demon-09-player-attack.png",
+          "bytes": 937770,
+          "sha256": "0cdaa8c35f4f35fa1f03dbfb37b7fa5bc36d69ab662e0b32798bf37110f79f06",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\demon-10-enemy-attack.png",
+          "bytes": 934603,
+          "sha256": "f0e684ecf58e1feb1120c4b03396086b5cc6b727b9cb4f2e8e56051a91157eb1",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        },
+        {
+          "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-06\\1366x768\\demon-11-interrupt.png",
+          "bytes": 950739,
+          "sha256": "fccec05a7f88322aef0cdb1e69dfd5f580e0b92903d5ac4e0e87b6c0a2f09601",
+          "dimensions": [
+            1366,
+            768
+          ],
+          "actuallyViewedByD": true
+        }
+      ],
+      "manualViewedCount": 22,
+      "captureCount": 34,
+      "casterCaptionGapPx": 10.000099999999975,
+      "casterWorldCaptions": [
+        {
+          "text": "D 3  ·  剩余 2",
+          "rect": "(377.10916, 559.306), (196, 60)",
+          "skin": "txt02-196-1line-top",
+          "fontSize": 18,
+          "projectedEmPixels": 18.01239
+        },
+        {
+          "text": "无需材料\n查看承诺产物",
+          "rect": "(749.58026, 345.02045), (196, 86)",
+          "skin": "txt02-196-2line-top",
+          "fontSize": 18,
+          "projectedEmPixels": 18.01242
+        },
+        {
+          "text": "B · 切换未来用途",
+          "rect": "(377.1092, 629.3061), (196, 60)",
+          "skin": "txt02-196-1line-top",
+          "fontSize": 18,
+          "projectedEmPixels": 18.01239
+        }
+      ],
+      "casterPaper": [
+        {
+          "skin": "txt03-320-detail",
+          "rect": "(982, 188), (360, 392)",
+          "native": "(360, 392)",
+          "anchor": "",
+          "protectedOverlap": 0
+        },
+        {
+          "skin": "txt02-196-2line-bottom",
+          "rect": "(24, 24), (196, 86)",
+          "native": "(196, 86)",
+          "anchor": "",
+          "protectedOverlap": 0
+        }
+      ],
+      "casterButtons": [
+        {
+          "text": "×",
+          "rect": "(1278, 214), (44, 44)",
+          "disabled": false
+        },
+        {
+          "text": "上页",
+          "rect": "(1002, 510), (44, 44)",
+          "disabled": true
+        },
+        {
+          "text": "下页",
+          "rect": "(1050, 510), (44, 44)",
+          "disabled": true
+        }
+      ],
+      "hoverPaper": [
+        {
+          "skin": "txt02-196-1line-top",
+          "rect": "(745.1434, 598.35114), (196, 60)",
+          "native": "(196, 60)",
+          "anchor": "top",
+          "protectedOverlap": 0
+        }
+      ],
+      "mainGlass": [
+        {
+          "mesh": "WAND-02__CRYSTAL",
+          "policy": "tinted alpha shell; refraction disabled; no optical transmission",
+          "materials": [
+            {
+              "alpha": 0.26,
+              "tint": "(0.16, 0.42, 0.54, 0.26)",
+              "transparency": "Alpha",
+              "refraction": false,
+              "roughness": 0.24,
+              "specular": 0.16
+            }
+          ]
+        },
+        {
+          "mesh": "DECOR-02__GLASS",
+          "policy": "tinted alpha shell; refraction disabled; no optical transmission",
+          "materials": [
+            {
+              "alpha": 0.19,
+              "tint": "(0.19, 0.38, 0.4, 0.19)",
+              "transparency": "Alpha",
+              "refraction": false,
+              "roughness": 0.26,
+              "specular": 0.14
+            }
+          ]
+        },
+        {
+          "mesh": "DECOR-03__GLASS",
+          "policy": "tinted alpha shell; refraction disabled; no optical transmission",
+          "materials": [
+            {
+              "alpha": 0.12,
+              "tint": "(0.43, 0.54, 0.53, 0.12)",
+              "transparency": "Alpha",
+              "refraction": false,
+              "roughness": 0.22,
+              "specular": 0.12
+            }
+          ]
+        }
+      ],
+      "casterGlass": [
+        {
+          "mesh": "WAND-02__CRYSTAL",
+          "policy": "tinted alpha shell; refraction disabled; no optical transmission",
+          "materials": [
+            {
+              "alpha": 0.26,
+              "tint": "(0.16, 0.42, 0.54, 0.26)",
+              "transparency": "Alpha",
+              "refraction": false,
+              "roughness": 0.24,
+              "specular": 0.16
+            }
+          ]
+        },
+        {
+          "mesh": "DECOR-02__GLASS",
+          "policy": "tinted alpha shell; refraction disabled; no optical transmission",
+          "materials": [
+            {
+              "alpha": 0.19,
+              "tint": "(0.19, 0.38, 0.4, 0.19)",
+              "transparency": "Alpha",
+              "refraction": false,
+              "roughness": 0.26,
+              "specular": 0.14
+            }
+          ]
+        },
+        {
+          "mesh": "DECOR-03__GLASS",
+          "policy": "tinted alpha shell; refraction disabled; no optical transmission",
+          "materials": [
+            {
+              "alpha": 0.12,
+              "tint": "(0.43, 0.54, 0.53, 0.12)",
+              "transparency": "Alpha",
+              "refraction": false,
+              "roughness": 0.22,
+              "specular": 0.12
+            }
+          ]
+        },
+        {
+          "mesh": "CasterInspectionCrystal",
+          "policy": "inspection-only gray-blue alpha crystal; neutral off-axis layer-3 key/fill; no emission/refraction",
+          "materials": [
+            {
+              "alpha": 0.58,
+              "tint": "(0.32, 0.52, 0.65, 0.58)",
+              "transparency": "Alpha",
+              "refraction": false,
+              "roughness": 0.27,
+              "specular": 0.24
+            }
+          ]
+        }
+      ],
+      "manualTimedCues": [
+        {
+          "name": "completion-source",
+          "frame": 239,
+          "snapshot": {
+            "Sequence": 4,
+            "Kind": 1,
+            "Stage": "source-glow",
+            "Elapsed": 0,
+            "AppliedNodeCount": 46,
+            "SourceLit": true,
+            "CardLit": false,
+            "TargetLit": false,
+            "CardHiddenFraction": 1
+          },
+          "starts": [
+            {
+              "Sequence": 4,
+              "Kind": 1,
+              "Frame": 239,
+              "CardNodeId": 256120986683,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            }
+          ],
+          "beat": 2,
+          "stage": "completion"
+        },
+        {
+          "name": "completion-appear",
+          "frame": 251,
+          "snapshot": {
+            "Sequence": 4,
+            "Kind": 1,
+            "Stage": "card-appear",
+            "Elapsed": 0.16,
+            "AppliedNodeCount": 46,
+            "SourceLit": true,
+            "CardLit": false,
+            "TargetLit": false,
+            "CardHiddenFraction": 0.5499259
+          },
+          "starts": [
+            {
+              "Sequence": 4,
+              "Kind": 1,
+              "Frame": 239,
+              "CardNodeId": 256120986683,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            }
+          ],
+          "beat": 2,
+          "stage": "completion"
+        },
+        {
+          "name": "paused",
+          "frame": 263,
+          "snapshot": {
+            "Sequence": null,
+            "Kind": null,
+            "Stage": "idle",
+            "Elapsed": 0,
+            "AppliedNodeCount": 0,
+            "SourceLit": false,
+            "CardLit": false,
+            "TargetLit": false,
+            "CardHiddenFraction": 0
+          },
+          "starts": [
+            {
+              "Sequence": 4,
+              "Kind": 1,
+              "Frame": 239,
+              "CardNodeId": 256120986683,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            }
+          ],
+          "beat": 2,
+          "stage": "completion"
+        },
+        {
+          "name": "use",
+          "frame": 299,
+          "snapshot": {
+            "Sequence": 6,
+            "Kind": 4,
+            "Stage": "use",
+            "Elapsed": 0,
+            "AppliedNodeCount": 8,
+            "SourceLit": false,
+            "CardLit": true,
+            "TargetLit": true,
+            "CardHiddenFraction": 0
+          },
+          "starts": [
+            {
+              "Sequence": 4,
+              "Kind": 1,
+              "Frame": 239,
+              "CardNodeId": 256120986683,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 6,
+              "Kind": 4,
+              "Frame": 299,
+              "CardNodeId": 256120986683,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            }
+          ],
+          "beat": 3,
+          "stage": "enemy"
+        },
+        {
+          "name": "departed",
+          "frame": 323,
+          "snapshot": {
+            "Sequence": null,
+            "Kind": null,
+            "Stage": "idle",
+            "Elapsed": 0,
+            "AppliedNodeCount": 0,
+            "SourceLit": false,
+            "CardLit": false,
+            "TargetLit": false,
+            "CardHiddenFraction": 0
+          },
+          "starts": [
+            {
+              "Sequence": 4,
+              "Kind": 1,
+              "Frame": 239,
+              "CardNodeId": 256120986683,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 6,
+              "Kind": 4,
+              "Frame": 299,
+              "CardNodeId": 256120986683,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 7,
+              "Kind": 13,
+              "Frame": 323,
+              "CardNodeId": 256120986683,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 8,
+              "Kind": 14,
+              "Frame": 323,
+              "CardNodeId": 256120986683,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            }
+          ],
+          "beat": 3,
+          "stage": "fatigue"
+        },
+        {
+          "name": "reveal-start",
+          "frame": 527,
+          "motionCount": 1,
+          "starts": [
+            {
+              "kind": "projection-move",
+              "key": "enemy-0-2",
+              "node": 377437035498,
+              "from": "(-0.90900004, 0.012309341, -0.32)",
+              "to": "(0.90900004, 0.012309341, -0.32)"
+            },
+            {
+              "kind": "reveal",
+              "key": "enemy-0-2",
+              "node": 377437035498,
+              "sequence": 11,
+              "beat": 4,
+              "due": 8
+            }
+          ],
+          "key": "enemy-0-2",
+          "card": {
+            "node": 377437035498,
+            "root": "[X: (1, 0, 0), Y: (0, 1, 0), Z: (0, 0, 1), O: (0.90900004, 0.012309341, -0.32)]",
+            "pivot": "[X: (-1, -8.742278E-08, 0), Y: (8.742278E-08, -1, 0), Z: (0, 0, 1), O: (-1.8180001, 0, 0)]",
+            "hit": "[X: (-1, -8.742278E-08, 0), Y: (8.742278E-08, -1, 0), Z: (0, 0, 1), O: (-0.90900004, 0.012309341, -0.32)]",
+            "Hidden": false,
+            "RevealBeat": 4,
+            "DueBeat": 8,
+            "PublicTarget": "player",
+            "inscription": {
+              "key": "enemy-0-2",
+              "hidden": false,
+              "title": "▲ 攻击",
+              "titleVisible": true,
+              "copy": "6\nT8",
+              "textWidth": 0.10500644,
+              "textHeight": 0.31001902,
+              "fontSize": 36,
+              "fontHeight": 62,
+              "lineSpacing": 0,
+              "pixelSize": 0.0025001534,
+              "twoDigitRevealWidth": 0.2200135,
+              "widthLimit": 0.23676923,
+              "paperWidth": 0.2315077,
+              "paperHeight": 0.114,
+              "fits": true
+            }
+          },
+          "beat": 4,
+          "stage": "observation",
+          "hover": ""
+        },
+        {
+          "name": "reveal-mid",
+          "frame": 539,
+          "motionCount": 1,
+          "starts": [
+            {
+              "kind": "projection-move",
+              "key": "enemy-0-2",
+              "node": 377437035498,
+              "from": "(-0.90900004, 0.012309341, -0.32)",
+              "to": "(0.90900004, 0.012309341, -0.32)"
+            },
+            {
+              "kind": "reveal",
+              "key": "enemy-0-2",
+              "node": 377437035498,
+              "sequence": 11,
+              "beat": 4,
+              "due": 8
+            }
+          ],
+          "key": "enemy-0-2",
+          "card": {
+            "node": 377437035498,
+            "root": "[X: (1, 0, 0), Y: (0, 1, 0), Z: (0, 0, 1), O: (0.90900004, 0.012309341, -0.32)]",
+            "pivot": "[X: (0.065403074, 0.99785894, 0), Y: (-0.99785894, 0.065403074, 0), Z: (0, 0, 1), O: (-0.7850455, 0.0015561596, 0)]",
+            "hit": "[X: (0.065403074, 0.99785894, 0), Y: (-0.99785894, 0.065403074, 0), Z: (0, 0, 1), O: (0.123954535, 0.013865501, -0.32)]",
+            "Hidden": false,
+            "RevealBeat": 4,
+            "DueBeat": 8,
+            "PublicTarget": "player",
+            "inscription": {
+              "key": "enemy-0-2",
+              "hidden": false,
+              "title": "▲ 攻击",
+              "titleVisible": true,
+              "copy": "6\nT8",
+              "textWidth": 0.10729249,
+              "textHeight": 0.31676832,
+              "fontSize": 36,
+              "fontHeight": 62,
+              "lineSpacing": 0,
+              "pixelSize": 0.0025545831,
+              "twoDigitRevealWidth": 0.22480331,
+              "widthLimit": 0.23676923,
+              "paperWidth": 0.2315077,
+              "paperHeight": 0.114,
+              "fits": true
+            }
+          },
+          "beat": 4,
+          "stage": "observation",
+          "hover": ""
+        },
+        {
+          "name": "continued-static",
+          "frame": 563,
+          "motionCount": 0,
+          "starts": [
+            {
+              "kind": "projection-move",
+              "key": "enemy-0-2",
+              "node": 377437035498,
+              "from": "(-0.90900004, 0.012309341, -0.32)",
+              "to": "(0.90900004, 0.012309341, -0.32)"
+            },
+            {
+              "kind": "reveal",
+              "key": "enemy-0-2",
+              "node": 377437035498,
+              "sequence": 11,
+              "beat": 4,
+              "due": 8
+            }
+          ],
+          "key": "enemy-0-2",
+          "card": {
+            "node": 377437035498,
+            "root": "[X: (1, 0, 0), Y: (0, 1, 0), Z: (0, 0, 1), O: (0.90900004, 0.012309341, -0.32)]",
+            "pivot": "[X: (1, 0, 0), Y: (0, 1, 0), Z: (0, 0, 1), O: (0, 0, 0)]",
+            "hit": "[X: (1, 0, 0), Y: (0, 1, 0), Z: (0, 0, 1), O: (0.90900004, 0.012309341, -0.32)]",
+            "Hidden": false,
+            "RevealBeat": 4,
+            "DueBeat": 8,
+            "PublicTarget": "player",
+            "inscription": {
+              "key": "enemy-0-2",
+              "hidden": false,
+              "title": "▲ 攻击",
+              "titleVisible": true,
+              "copy": "6\nT8",
+              "textWidth": 0.105003096,
+              "textHeight": 0.31000915,
+              "fontSize": 36,
+              "fontHeight": 62,
+              "lineSpacing": 0,
+              "pixelSize": 0.0025000738,
+              "twoDigitRevealWidth": 0.2200065,
+              "widthLimit": 0.23676923,
+              "paperWidth": 0.2315077,
+              "paperHeight": 0.114,
+              "fits": true
+            }
+          },
+          "beat": 4,
+          "stage": "observation",
+          "hover": "▲ 攻击\n伤害 6 · T8"
+        },
+        {
+          "name": "reveal-finished",
+          "frame": 575,
+          "motionCount": 0,
+          "starts": [
+            {
+              "kind": "projection-move",
+              "key": "enemy-0-2",
+              "node": 401881439044,
+              "from": "(-0.90900004, 0.012309341, -0.32)",
+              "to": "(0.90900004, 0.012309341, -0.32)"
+            },
+            {
+              "kind": "reveal",
+              "key": "enemy-0-2",
+              "node": 401881439044,
+              "sequence": 11,
+              "beat": 4,
+              "due": 8
+            }
+          ],
+          "key": "enemy-0-2",
+          "card": {
+            "node": 401881439044,
+            "root": "[X: (1, 0, 0), Y: (0, 1, 0), Z: (0, 0, 1), O: (0.90900004, 0.012309341, -0.32)]",
+            "pivot": "[X: (1, 0, 0), Y: (0, 1, 0), Z: (0, 0, 1), O: (0, 0, 0)]",
+            "hit": "[X: (1, 0, 0), Y: (0, 1, 0), Z: (0, 0, 1), O: (0.90900004, 0.012309341, -0.32)]",
+            "Hidden": false,
+            "RevealBeat": 4,
+            "DueBeat": 8,
+            "PublicTarget": "player",
+            "inscription": {
+              "key": "enemy-0-2",
+              "hidden": false,
+              "title": "▲ 攻击",
+              "titleVisible": true,
+              "copy": "6\nT8",
+              "textWidth": 0.10500644,
+              "textHeight": 0.31001902,
+              "fontSize": 36,
+              "fontHeight": 62,
+              "lineSpacing": 0,
+              "pixelSize": 0.0025001534,
+              "twoDigitRevealWidth": 0.2200135,
+              "widthLimit": 0.23676923,
+              "paperWidth": 0.2315077,
+              "paperHeight": 0.114,
+              "fits": true
+            }
+          },
+          "beat": 4,
+          "stage": "observation",
+          "hover": ""
+        },
+        {
+          "name": "quantity-close-layout",
+          "actualPanel": "(946, 92), (360, 170)",
+          "closeRect": "(315.74777, 209.88176), (52.473633, 52.205612)",
+          "viewport": "(0, 0), (1366, 768)"
+        },
+        {
+          "name": "actual-PlayerAttack",
+          "frame": 695,
+          "snapshot": {
+            "Sequence": 12,
+            "Kind": 5,
+            "Stage": "use",
+            "Elapsed": 0,
+            "AppliedNodeCount": 9,
+            "SourceLit": false,
+            "CardLit": true,
+            "TargetLit": true,
+            "CardHiddenFraction": 0
+          },
+          "starts": [
+            {
+              "Sequence": 4,
+              "Kind": 1,
+              "Frame": 695,
+              "CardNodeId": 530143255033,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 6,
+              "Kind": 4,
+              "Frame": 695,
+              "CardNodeId": 530143255033,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 7,
+              "Kind": 13,
+              "Frame": 695,
+              "CardNodeId": 530143255033,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 8,
+              "Kind": 14,
+              "Frame": 695,
+              "CardNodeId": 530143255033,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 9,
+              "Kind": 1,
+              "Frame": 695,
+              "CardNodeId": 536199831724,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 12,
+              "Kind": 5,
+              "Frame": 695,
+              "CardNodeId": 536199831724,
+              "TargetNodeId": 76269227835,
+              "CardLit": true,
+              "TargetLit": true
+            }
+          ],
+          "beat": 4,
+          "stage": "mark"
+        },
+        {
+          "name": "actual-EnemyAttack",
+          "frame": 707,
+          "snapshot": {
+            "Sequence": 20,
+            "Kind": 8,
+            "Stage": "use",
+            "Elapsed": 0,
+            "AppliedNodeCount": 9,
+            "SourceLit": false,
+            "CardLit": true,
+            "TargetLit": true,
+            "CardHiddenFraction": 0
+          },
+          "starts": [
+            {
+              "Sequence": 4,
+              "Kind": 1,
+              "Frame": 707,
+              "CardNodeId": 549806153633,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 6,
+              "Kind": 4,
+              "Frame": 707,
+              "CardNodeId": 549806153633,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 7,
+              "Kind": 13,
+              "Frame": 707,
+              "CardNodeId": 549806153633,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 8,
+              "Kind": 14,
+              "Frame": 707,
+              "CardNodeId": 549806153633,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 9,
+              "Kind": 1,
+              "Frame": 707,
+              "CardNodeId": 555376188890,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 12,
+              "Kind": 5,
+              "Frame": 707,
+              "CardNodeId": 555376188890,
+              "TargetNodeId": 76269227835,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 13,
+              "Kind": 13,
+              "Frame": 707,
+              "CardNodeId": 555376188890,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 14,
+              "Kind": 14,
+              "Frame": 707,
+              "CardNodeId": 555376188890,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 15,
+              "Kind": 1,
+              "Frame": 707,
+              "CardNodeId": 559016845850,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 17,
+              "Kind": 4,
+              "Frame": 707,
+              "CardNodeId": 559016845850,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 18,
+              "Kind": 13,
+              "Frame": 707,
+              "CardNodeId": 559016845850,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 19,
+              "Kind": 14,
+              "Frame": 707,
+              "CardNodeId": 559016845850,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 20,
+              "Kind": 8,
+              "Frame": 707,
+              "CardNodeId": 545192418064,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            }
+          ],
+          "beat": 6,
+          "stage": "enemy"
+        },
+        {
+          "name": "actual-Interrupt",
+          "frame": 719,
+          "snapshot": {
+            "Sequence": 54,
+            "Kind": 9,
+            "Stage": "use",
+            "Elapsed": 0,
+            "AppliedNodeCount": 9,
+            "SourceLit": false,
+            "CardLit": true,
+            "TargetLit": true,
+            "CardHiddenFraction": 0
+          },
+          "starts": [
+            {
+              "Sequence": 4,
+              "Kind": 1,
+              "Frame": 719,
+              "CardNodeId": 580726563446,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 6,
+              "Kind": 4,
+              "Frame": 719,
+              "CardNodeId": 580726563446,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 7,
+              "Kind": 13,
+              "Frame": 719,
+              "CardNodeId": 580726563446,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 8,
+              "Kind": 14,
+              "Frame": 719,
+              "CardNodeId": 580726563446,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 9,
+              "Kind": 1,
+              "Frame": 719,
+              "CardNodeId": 586464371215,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 12,
+              "Kind": 5,
+              "Frame": 719,
+              "CardNodeId": 586464371215,
+              "TargetNodeId": 76269227835,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 13,
+              "Kind": 13,
+              "Frame": 719,
+              "CardNodeId": 586464371215,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 14,
+              "Kind": 14,
+              "Frame": 719,
+              "CardNodeId": 586464371215,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 15,
+              "Kind": 1,
+              "Frame": 719,
+              "CardNodeId": 590222466604,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 17,
+              "Kind": 4,
+              "Frame": 719,
+              "CardNodeId": 590222466604,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 18,
+              "Kind": 13,
+              "Frame": 719,
+              "CardNodeId": 590222466604,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 19,
+              "Kind": 14,
+              "Frame": 719,
+              "CardNodeId": 590222466604,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 20,
+              "Kind": 8,
+              "Frame": 719,
+              "CardNodeId": 575726953291,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 21,
+              "Kind": 1,
+              "Frame": 719,
+              "CardNodeId": 601513533682,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 22,
+              "Kind": 1,
+              "Frame": 719,
+              "CardNodeId": 602117513426,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 25,
+              "Kind": 4,
+              "Frame": 719,
+              "CardNodeId": 601513533682,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 26,
+              "Kind": 13,
+              "Frame": 719,
+              "CardNodeId": 601513533682,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 27,
+              "Kind": 14,
+              "Frame": 719,
+              "CardNodeId": 601513533682,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 29,
+              "Kind": 8,
+              "Frame": 719,
+              "CardNodeId": 575223636864,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 30,
+              "Kind": 5,
+              "Frame": 719,
+              "CardNodeId": 602117513426,
+              "TargetNodeId": 76269227835,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 31,
+              "Kind": 13,
+              "Frame": 719,
+              "CardNodeId": 602117513426,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 32,
+              "Kind": 14,
+              "Frame": 719,
+              "CardNodeId": 602117513426,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 33,
+              "Kind": 1,
+              "Frame": 719,
+              "CardNodeId": 611462424371,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 35,
+              "Kind": 4,
+              "Frame": 719,
+              "CardNodeId": 611462424371,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 36,
+              "Kind": 13,
+              "Frame": 719,
+              "CardNodeId": 611462424371,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 37,
+              "Kind": 14,
+              "Frame": 719,
+              "CardNodeId": 611462424371,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 38,
+              "Kind": 1,
+              "Frame": 719,
+              "CardNodeId": 617485443944,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 40,
+              "Kind": 5,
+              "Frame": 719,
+              "CardNodeId": 617485443944,
+              "TargetNodeId": 76269227835,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 41,
+              "Kind": 13,
+              "Frame": 719,
+              "CardNodeId": 617485443944,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 42,
+              "Kind": 14,
+              "Frame": 719,
+              "CardNodeId": 617485443944,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 43,
+              "Kind": 1,
+              "Frame": 719,
+              "CardNodeId": 623525243326,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 45,
+              "Kind": 4,
+              "Frame": 719,
+              "CardNodeId": 623525243326,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 46,
+              "Kind": 13,
+              "Frame": 719,
+              "CardNodeId": 623525243326,
+              "TargetNodeId": 153008216056,
+              "CardLit": false,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 47,
+              "Kind": 14,
+              "Frame": 719,
+              "CardNodeId": 623525243326,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 49,
+              "Kind": 1,
+              "Frame": 719,
+              "CardNodeId": 632920481178,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 50,
+              "Kind": 1,
+              "Frame": 719,
+              "CardNodeId": 633524464594,
+              "TargetNodeId": null,
+              "CardLit": false,
+              "TargetLit": false
+            },
+            {
+              "Sequence": 53,
+              "Kind": 4,
+              "Frame": 719,
+              "CardNodeId": 632920481178,
+              "TargetNodeId": 77158420336,
+              "CardLit": true,
+              "TargetLit": true
+            },
+            {
+              "Sequence": 54,
+              "Kind": 9,
+              "Frame": 719,
+              "CardNodeId": 576213492520,
+              "TargetNodeId": 79607894018,
+              "CardLit": true,
+              "TargetLit": true
+            }
+          ],
+          "beat": 13,
+          "stage": "enemy"
+        },
+        {
+          "name": "component-drawer-closed",
+          "handle": "(683, 615.3981)",
+          "world": "(0, -0.2359341, 0.8980879)"
+        },
+        {
+          "name": "component-drawer-open",
+          "handle": "(683, 704.1117)",
+          "slideDelta": "(0, 0, 0.2914285)",
+          "rails": "(0, 0, 0)"
+        },
+        {
+          "name": "component-hover",
+          "id": "player",
+          "text": "玩家\n生命30 · 护盾0",
+          "rect": "(585, 323.1787), (196, 86)",
+          "overlap": 0,
+          "anchor": "bottom"
+        },
+        {
+          "name": "component-hover",
+          "id": "enemy-pawn",
+          "text": "炼金学徒\n生命60 · 护盾0",
+          "rect": "(585, 245.96185), (196, 86)",
+          "overlap": 0,
+          "anchor": "top"
+        },
+        {
+          "name": "component-hover",
+          "id": "guard",
+          "text": "守护护符\n无当前批次 · 无…",
+          "rect": "(288.01398, 560.56256), (196, 86)",
+          "overlap": 0,
+          "anchor": "top"
+        },
+        {
+          "name": "component-hover",
+          "id": "caster",
+          "text": "施法护符\n无当前批次 · 无…",
+          "rect": "(849.814, 542.281), (196, 86)",
+          "overlap": 0,
+          "anchor": "top"
+        },
+        {
+          "name": "component-hover",
+          "id": "player-life",
+          "text": "生命 30",
+          "rect": "(654.2555, 591.12787), (196, 60)",
+          "overlap": 0,
+          "anchor": "top"
+        },
+        {
+          "name": "component-hover",
+          "id": "player-armor",
+          "text": "护盾 0",
+          "rect": "(710.9186, 591.12787), (196, 60)",
+          "overlap": 0,
+          "anchor": "top"
+        },
+        {
+          "name": "component-hover",
+          "id": "player-marks",
+          "text": "施法次数 · 实有0\n可用0 · 锁定0",
+          "rect": "(784.6694, 591.12787), (196, 86)",
+          "overlap": 0,
+          "anchor": "top"
+        },
+        {
+          "name": "component-hover",
+          "id": "resources",
+          "text": "资源抽屉\n无需材料 · 本场…",
+          "rect": "(585, 649.0426), (196, 86)",
+          "overlap": 0,
+          "anchor": "top"
+        },
+        {
+          "name": "component-hover",
+          "id": "ctl:play",
+          "text": "暂停 · P",
+          "rect": "(424.8523, 598.4605), (196, 60)",
+          "overlap": 0,
+          "anchor": "top"
+        },
+        {
+          "name": "component-hover",
+          "id": "ctl:step",
+          "text": "单步 · Space",
+          "rect": "(520.6597, 598.35114), (196, 60)",
+          "overlap": 0,
+          "anchor": "top"
+        },
+        {
+          "name": "component-hover",
+          "id": "ctl:speed",
+          "text": "速度 1×",
+          "rect": "(649.2507, 598.4605), (196, 60)",
+          "overlap": 0,
+          "anchor": "top"
+        },
+        {
+          "name": "component-hover",
+          "id": "ctl:settings",
+          "text": "设置 · Esc",
+          "rect": "(745.1434, 598.35114), (196, 60)",
+          "overlap": 0,
+          "anchor": "top"
+        },
+        {
+          "name": "component-glass",
+          "mesh": "WAND-02__CRYSTAL",
+          "policy": "tinted alpha shell; refraction disabled; no optical transmission",
+          "alpha": 0.26,
+          "roughness": 0.24
+        },
+        {
+          "name": "component-glass",
+          "mesh": "DECOR-02__GLASS",
+          "policy": "tinted alpha shell; refraction disabled; no optical transmission",
+          "alpha": 0.19,
+          "roughness": 0.26
+        },
+        {
+          "name": "component-glass",
+          "mesh": "DECOR-03__GLASS",
+          "policy": "tinted alpha shell; refraction disabled; no optical transmission",
+          "alpha": 0.12,
+          "roughness": 0.22
+        },
+        {
+          "name": "component-caster-contact",
+          "low": 0.011219762,
+          "left": 0.3900447,
+          "right": 1.1899556,
+          "front": 0.5621887,
+          "back": 0.41781136,
+          "matTop": 0.011219781
+        },
+        {
+          "name": "component-sand",
+          "beat": 0,
+          "state": "preview",
+          "terminalHold": false,
+          "visibleParts": [
+            "DECOR-03__SAND_LOWER",
+            "DECOR-03__SAND_UPPER"
+          ]
+        },
+        {
+          "name": "component-sand",
+          "beat": 15,
+          "state": "near",
+          "terminalHold": false,
+          "visibleParts": [
+            "DECOR-03__SAND_LOWER_NEAR",
+            "DECOR-03__SAND_UPPER_NEAR"
+          ]
+        },
+        {
+          "name": "component-sand",
+          "beat": 16,
+          "state": "elapsed",
+          "terminalHold": false,
+          "visibleParts": [
+            "DECOR-03__SAND_LOWER_ELAPSED"
+          ]
+        }
+      ],
+      "allAssertedCheckNames": [
+        "new-via-actual-button",
+        "guide-escape-no-advance",
+        "tabletop-real-mesh-no-hud",
+        "all-initial-enemy-programs-accessible",
+        "dark-card-public-fields-only",
+        "positive-chips-right-zero-trays",
+        "life-chip-hover-no-detail",
+        "player-world-closeup",
+        "player-escape-focus-and-paused",
+        "enemy-world-closeup",
+        "closeup-blocks-play-step",
+        "dark-card-world-closeup",
+        "resource-empty-floating",
+        "step-is-static",
+        "guard-live-batch-fields",
+        "closeup-snapshot-does-not-advance",
+        "keyboard-return-to-world-focus",
+        "completion-real-id-source-first",
+        "completion-appears-in-place-after-source",
+        "pause-restores-exact-card",
+        "same-card-closeup-identity",
+        "resume-does-not-replay-completion",
+        "use-card-and-pawn-start-together",
+        "pause-at-shield-keeps-card-before-mark",
+        "mark-before-depart-real-state",
+        "step-and-reduced-motion-clean",
+        "restore-same-state-static",
+        "focus-loss-clears-transients",
+        "focus-return-does-not-resume",
+        "world-controls-pan-home",
+        "world-control-home-static",
+        "keyboard-chip-exact-count",
+        "chip-click-queues-lock-until-observation",
+        "queued-lock-applies-at-observation",
+        "locked-chip-click-releases-real-balance",
+        "settings-world-control-and-static-return",
+        "controller-tick-drives-real-three-beat-chain",
+        "new-battle-clears-card-and-sequence",
+        "demoncards-uniform-thin-rounded-paper-and-narrow-slots",
+        "demoncards-focus-two-lines-public-and-does-not-pause",
+        "demoncards-focus-leave-clears-and-window-follow-is-static",
+        "demoncards-new-reveal-moves-one-public-identity",
+        "demoncards-reveal-midpoint-hit-shares-visible-pivot",
+        "demoncards-mid-move-click-is-current-public-detail",
+        "demoncards-close-and-continue-do-not-replay-reveal",
+        "demoncards-reveal-finishes-exact-public-pose",
+        "demoncards-repeated-fresh-delivery-does-not-replay",
+        "demoncards-single-step-publishes-without-old-motion",
+        "demoncards-reduced-motion-publishes-static",
+        "demoncards-focus-loss-cancels-and-return-stays-static",
+        "demoncards-load-cancels-live-move-and-does-not-replay",
+        "demoncards-quantity-closeup-zero-disabled-and-draft-preserved",
+        "demoncards-quantity-excess-rejected-without-partial-lock",
+        "demoncards-quantity-zero-disabled-and-close-discards-draft",
+        "demoncards-new-fixture-resets-motion-cursor",
+        "demoncards-player-attack-card-and-enemy-simultaneous",
+        "demoncards-enemy-attack-card-and-player-simultaneous",
+        "demoncards-interrupt-card-and-locked-artifact-simultaneous",
+        "demoncards-all-use-cues-cancel-to-static-authoritative-pose",
+        "demoncards-save-error-graphic-preserves-current-result",
+        "demoncards-save-retry-does-not-repeat-battle-result",
+        "components-fixed-a-c-assets-present",
+        "components-home-state-follows-window-without-battle-change",
+        "components-drawer-closed-handle-visible",
+        "components-drawer-slide-keeps-fixed-rails",
+        "components-hover-real-skins-font-and-avoidance",
+        "components-floating-paper-native-size-and-live-copy",
+        "components-b-d-fixed-props-glass-and-table-contact",
+        "components-caster-collar-changes-future-only",
+        "components-hourglass-near-from-live-fatigue-beat",
+        "components-hourglass-paid-from-live-fatigue-result",
+        "components-hourglass-terminal-holds-last-presentation"
+      ]
+    }
+  ],
+  "residuals": [
+    "Some Chinese periods wrap alone; no content clipping observed in the viewed captures.",
+    "The PgUp/Dn auxiliary page hint wraps at 1366; the actual page indicator and buttons remain visible.",
+    "Tinted alpha shells do not reproduce optical transmission/refraction.",
+    "Only the shield card has the new detailed ink illustration; other card categories retain existing graphics."
+  ],
+  "notCovered": [
+    "OS input",
+    "continuous playback/foreground performance",
+    "arbitrary camera or transparency sorting angles",
+    "all material inventory/card illustrations",
+    "all 109 design states",
+    "other viewport sizes",
+    "independent package execution",
+    "user final art acceptance"
+  ],
+  "counts": {
+    "pngHashed": 68,
+    "pngActuallyViewedByD": 44,
+    "pngNotDirectlyViewedByD": 24,
+    "assertionsRead": 144
+  },
+  "designSnapshotTable": {
+    "rowLines": 21,
+    "sha256": "200a7178930369bbaecf9d9f64629af13b3ac4252c8c1e5113228f96fcb3fd37",
+    "expectedUnchangedSha256": "200a7178930369bbaecf9d9f64629af13b3ac4252c8c1e5113228f96fcb3fd37"
+  }
+}
