@@ -13,4 +13,4 @@ SHA-256（该提交中的文件原始字节）：`a749eecbd0d83d64bf4f67b8ae0668
 - 登记为候选不表示肉鸽必须是卡牌游戏、必须采用物理规则，或 game-002 已采纳框架中的“最终目标”。
 - Emergence Ratio 是方向性概念，不是单项通关阈值；尚无经过校准的自动评分器。
 - 自动测量、人工判断和未测项分别记录。只完成其中一类时，报告应限制结论范围。
-- `game-design-workflow/templates/overall-system-framework-template.md` 尚未登记为正式模板，不是本注册表中的框架，也不能绕过共享模板索引使用。
+- 原本机 `game-design-workflow/templates/overall-system-framework-template.md` 是已填入具体玩法的未登记稿，不是本注册表中的框架。2026-10-14结构整理将其原字节转存仓库外待分类区；原路径、去向和SHA-256见[整理记录](../maintenance/2026-10-14-yanzhou-structure-cleanup.md)。未将其安装为模板或归入言咒、独立肉鸽。

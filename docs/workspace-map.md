@@ -9,7 +9,7 @@
 | [media-analysis-lab](../media-analysis-lab/README.md) | 全部公共游戏拆解方法、参考素材、输入/输出、校准与拆解技能试验 |
 | [docs](shared-knowledge.md) | 通用规则、方法、项目登记与管理决定 |
 | [game-design-workflow/templates](../game-design-workflow/templates/README.md) | 唯一共享模板登记；根流程目录不存游戏正文 |
-| [skill-iteration-workspace](../skill-iteration-workspace/README.md) | 技能试验统一入口；实际材料按所属业务集中 |
+| [项目技能入口](registry/project-skills.md) | 正式技能及使用边界；试验材料仍按所属业务集中 |
 | .codex/skills | Codex项目运行技能，保留标准安装位置 |
 | tools | 文档索引与检查 |
 | archive | 旧项目与独有历史证据；默认不读不写 |

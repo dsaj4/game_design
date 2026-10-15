@@ -70,3 +70,17 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 本轮新增[第一批主流派与系统物件构思填写稿](2026-10-11-first-archetype-concept-cards.md)：原稿保留Raw / Unqualified。首批外部agent方案见[设计登记](2026-10-11-simple-spell-first-batch-registration.md)及[原文](2026-10-11-simple-spell-first-batch-source.txt)。经用户确认的限定部分已晋级[首批素材](../materials/M-2026-10-11-simple-spell-example.md)，当前案例为[EX-001](../../design/examples/simple-spell.md)；原稿其余候选、空名占位和待修订项不因此成为正式内容或发行池。
 
 [外部指导原文快照](2026-10-11-systems-design-guidance-source.md)用于对照，不整体晋级。接回既有[铭文框架来源](2026-10-08-inscription-framework-review.md)、[铭文意图与答复](2026-10-09-inscription-design-intent.md)、[法器意图与答复](2026-10-09-artifact-design-intent.md)、[行动卡原话与资格](2026-10-10-action-card-design-intent.md)，均保留原轮次，不视作当前未答任务。吸收与排除见[审查](../../governance/main-system-review-2026-10-11.md)。
+
+## 2026-10-14本机原稿结构归位
+
+下列7份原件归入本目录，保留原字节、原日期及前轮限定确认范围。它们仍为本机未跟踪来源，不随本轮管理提交发布；整份原稿的候选、示例和未知项不因归位成为Qualified或Accepted。原文中的旧路径按原轮次解释，新旧映射和SHA-256见[结构整理记录](../../../docs/maintenance/2026-10-14-yanzhou-structure-cleanup.md)。
+
+| 本目录现存原件 | 原位置（历史定位） |
+| --- | --- |
+| `2026-10-08-action-cards-mark-system.md` | `yanzhou/inbox/2026-10-08-action-cards-mark-system.md` |
+| `2026-10-08-action-cards-pool-design.md` | `yanzhou/inbox/2026-10-08-action-cards-pool-design.md` |
+| `2026-10-08-action-cards-stage-delivery.md` | `yanzhou/inbox/2026-10-08-action-cards-stage-delivery.md` |
+| `2026-10-08-artifact-augment-effects.md` | `yanzhou/inbox/2026-10-08-artifact-augment-effects.md` |
+| `2026-10-08-mark-system-rules-detailed.md` | `yanzhou/inbox/2026-10-08-mark-system-rules-detailed.md` |
+| `2026-10-11-systems-design-guidance-draft.md` | `yanzhou-systems-design-guidance-2026-10-11.md` |
+| `2026-10-08-augment-system-archive.md` | `yanzhou/design/systems/augment-system-archive.md` |

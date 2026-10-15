@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-14",
+  "project": "game-002",
+  "role": "WorkspaceMaintenanceRecord",
+  "authorization": "User: 开始清理结构问题; limited to pre-integration structure cleanup.",
+  "baseline": {
+    "game": "a00fc56fc45fca189fbf49152d1f638c01043aea",
+    "godot": "a2dc8a69475762643f1606dc969f09479641fa02"
+  },
+  "recovery": {
+    "root": "C:/YZRecovery/2026-10-14-012411",
+    "summary": "C:/YZRecovery/2026-10-14-012411/recovery-summary.json",
+    "verifiedFiles": 18932,
+    "bytes": 13407651039,
+    "trees": [
+      {
+        "source": "E:\\Project\\game\\yanzhou",
+        "backup": "C:\\YZRecovery\\2026-10-14-012411\\files\\yanzhou-design",
+        "fileCount": 647,
+        "bytes": 91522176,
+        "verification": "Each copied file SHA-256 matched its unchanged source at capture."
+      },
+      {
+        "source": "E:\\Project\\yanzhou-godot",
+        "backup": "C:\\YZRecovery\\2026-10-14-012411\\files\\yanzhou-godot",
+        "fileCount": 11584,
+        "bytes": 11234994444,
+        "verification": "Each copied file SHA-256 matched its unchanged source at capture."
+      },
+      {
+        "source": "E:\\Project\\yanzhou-battle-3d",
+        "backup": "C:\\YZRecovery\\2026-10-14-012411\\files\\yanzhou-battle-3d",
+        "fileCount": 6112,
+        "bytes": 1639788793,
+        "verification": "Each copied file SHA-256 matched its unchanged source at capture."
+      },
+      {
+        "source": "E:\\Project\\yanzhou-godot-baselines",
+        "backup": "C:\\YZRecovery\\2026-10-14-012411\\files\\yanzhou-godot-baselines",
+        "fileCount": 454,
+        "bytes": 439937181,
+        "verification": "Each copied file SHA-256 matched its unchanged source at capture."
+      },
+      {
+        "source": "E:\\Project\\game\\.git\\codex-tasks",
+        "backup": "C:\\YZRecovery\\2026-10-14-012411\\files\\existing-local-task-backups",
+        "fileCount": 135,
+        "bytes": 1408445,
+        "verification": "Each copied file SHA-256 matched its unchanged source at capture."
+      }
+    ],
+    "scope": "Local copies and Git bundles; credentials/native CLI history and unrelated third-party reference packages excluded."
+  },
+  "relocations": [
+    {
+      "original": "yanzhou/inbox/2026-10-08-action-cards-mark-system.md",
+      "destination": "yanzhou/sources/inbox/2026-10-08-action-cards-mark-system.md",
+      "action": "RelocatedLocalSource",
+      "sha256": "5ed1cc5dbe621963447294cb8fec32b2bc5d1bfe4c2d58d9f2d2f1fe52c9a566",
+      "bytes": 16618,
+      "gitPolicy": "LocalOnly / untracked original; contents excluded from task commits.",
+      "qualification": "Original qualification and prior limited confirmations retained; no new adoption."
+    },
+    {
+      "original": "yanzhou/inbox/2026-10-08-action-cards-pool-design.md",
+      "destination": "yanzhou/sources/inbox/2026-10-08-action-cards-pool-design.md",
+      "action": "RelocatedLocalSource",
+      "sha256": "4fe43871392a4ec219942881aeead19abfc7dd58912f6141fd9f4f3d1fedaff9",
+      "bytes": 20615,
+      "gitPolicy": "LocalOnly / untracked original; contents excluded from task commits.",
+      "qualification": "Original qualification and prior limited confirmations retained; no new adoption."
+    },
+    {
+      "original": "yanzhou/inbox/2026-10-08-action-cards-stage-delivery.md",
+      "destination": "yanzhou/sources/inbox/2026-10-08-action-cards-stage-delivery.md",
+      "action": "RelocatedLocalSource",
+      "sha256": "08cfc166512a620cd444d4ab9ad244df34cb162f12bfd758be5192d413c6ba2b",
+      "bytes": 11322,
+      "gitPolicy": "LocalOnly / untracked original; contents excluded from task commits.",
+      "qualification": "Original qualification and prior limited confirmations retained; no new adoption."
+    },
+    {
+      "original": "yanzhou/inbox/2026-10-08-artifact-augment-effects.md",
+      "destination": "yanzhou/sources/inbox/2026-10-08-artifact-augment-effects.md",
+      "action": "RelocatedLocalSource",
+      "sha256": "a6ad801015c976969a23f8d1eba653770597d77f0e7da08268f33d1e36468374",
+      "bytes": 19853,
+      "gitPolicy": "LocalOnly / untracked original; contents excluded from task commits.",
+      "qualification": "Original qualification and prior limited confirmations retained; no new adoption."
+    },
+    {
+      "original": "yanzhou/inbox/2026-10-08-mark-system-rules-detailed.md",
+      "destination": "yanzhou/sources/inbox/2026-10-08-mark-system-rules-detailed.md",
+      "action": "RelocatedLocalSource",
+      "sha256": "b1dcfbfbb7432df8e64c664cbd82d8fc795c38605f234227a4eedd40ef5c4c9d",
+      "bytes": 14564,
+      "gitPolicy": "LocalOnly / untracked original; contents excluded from task commits.",
+      "qualification": "Original qualification and prior limited confirmations retained; no new adoption."
+    },
+    {
+      "original": "yanzhou-systems-design-guidance-2026-10-11.md",
+      "destination": "yanzhou/sources/inbox/2026-10-11-systems-design-guidance-draft.md",
+      "action": "RelocatedLocalSource",
+      "sha256": "796a46de589833d3ab53c1995f52713ebd6546dc94122770c940d6b349dadd97",
+      "bytes": 5607,
+      "gitPolicy": "LocalOnly / untracked original; contents excluded from task commits.",
+      "qualification": "Original qualification and prior limited confirmations retained; no new adoption."
+    },
+    {
+      "original": "yanzhou/design/systems/augment-system-archive.md",
+      "destination": "yanzhou/sources/inbox/2026-10-08-augment-system-archive.md",
+      "action": "RelocatedLocalSource",
+      "sha256": "9e76e818e4d1fd07c0f21c8a4ebb6af8b5b2ad31a447c9bb3546991c069abb2e",
+      "bytes": 10839,
+      "gitPolicy": "LocalOnly / untracked original; contents excluded from task commits.",
+      "qualification": "Original qualification and prior limited confirmations retained; no new adoption."
+    },
+    {
+      "original": "game-design-workflow/templates/overall-system-framework-template.md",
+      "destination": "C:/YZRecovery/2026-10-14-012411/local-unclassified/overall-system-framework-template.md",
+      "action": "PreservedOutsideTemplateRegistry",
+      "sha256": "49dddd41e21a7e12deea936d4ab63092cb89ff36272ad13446b4d9555ef95716",
+      "bytes": 4514,
+      "gitPolicy": "LocalOnly / untracked original; contents excluded from task commits.",
+      "qualification": "Original qualification and prior limited confirmations retained; no new adoption."
+    }
+  ],
+  "retainedLocalInputs": [
+    {
+      "path": "docs/plans/2026-08-21-three-week-vertical-slice-development-plan.docx",
+      "sha256": "ee98a3db031d3eb13254f2eb2bb5dee21cfde4d1b8f88fb31323c2547b3b2992",
+      "status": "PresentLocal / Untracked; project attribution Unknown, contents not reviewed or published."
+    }
+  ],
+  "checks": {
+    "relocationHashes": "Passed",
+    "gitBundles": "Verified",
+    "navigation": {
+      "documents": 13,
+      "localLinks": 206,
+      "errors": 0
+    },
+    "preexistingChanges": {
+      "entries": 83,
+      "status": "PreservedAtOriginalOrRecordedDestination"
+    },
+    "restoreRehearsal": {
+      "repositories": 2,
+      "dirtyEntries": 83,
+      "ignoredArtifactSamples": 5,
+      "status": "Passed"
+    },
+    "gitDiffCheck": "Passed"
+  },
+  "boundaries": [
+    "No gameplay adoption or validation changes.",
+    "No user preexisting tracked modifications staged.",
+    "Raw relocated content stays untracked.",
+    "No restored retired compatibility directories.",
+    "No workbench installation or gameplay execution."
+  ]
+}

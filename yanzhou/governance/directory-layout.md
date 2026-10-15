@@ -9,7 +9,7 @@ Project ID：game-002。修订：system-docs.2 / 2026-10-08。规则基准仍为
 | design/systems/各系统/ | 六个主系统：法器、铭文、行动卡、敌人、资源、局外成长；辅槽归铭文、标记归行动卡；各目录五文件分工（README、rules、experience、design、examples） |
 | design/common/ | 既有局内路线、局内经济、交互与保存的公共流程／合同；不计作额外主系统，不混入未开发的局外成长 |
 | sources/ | 原始表达、合格素材与尚需追踪的P/E/D；已完成的指定记录见history |
-| exploration/ | 一个DIR一个README，附件按需；DIR-001–036已退役，新方向从DIR-037继续，不擅自改历史资格 |
+| exploration/ | 一个DIR一个README，附件按需；DIR-001–036已退役，后续编号按探索入口继续分配，不擅自改历史资格 |
 | effects/catalog.md | 137个稳定FX身份、当前应用与固定历史来源；旧条目全文和参数按原版本取证 |
 | governance/ | 问题、决策、规范与专题；文件索引按现存文件维护，迁移旧快照按Git查 |
 | development/ | 外部实现索引、交接输入和实际验证证据 |
