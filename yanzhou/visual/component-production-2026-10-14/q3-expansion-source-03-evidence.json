@@ -1,0 +1,862 @@
+{
+  "reviewer": "component_detail_design (D)",
+  "date": "2026-10-15",
+  "scope": "Targeted early 1920x1080 review; no engine rerun; no full Q3",
+  "actualImageViews": [
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-03\\1920x1080\\01-tabletop.png",
+      "sha256": "bc7f7e23f7d14a2883fb15b89a4876f4dbc91889d834a95783a39eca6f8ef811"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-03\\1920x1080\\04-dark-closeup.png",
+      "sha256": "e7b7e906384720abc143e93682f1c8d77e60966d750be73da2ebdad375631d8c"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-03\\1920x1080\\05-resource-closeup.png",
+      "sha256": "9846b13e3519e26d673f8d7c790ed6a6d518722820373a1dac276551513e3f11"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-03\\1920x1080\\06-guard-closeup.png",
+      "sha256": "b3db704f8545c7e543e7f3b09751bd5d4e2c80e15dbf55cbe06ca863959e5920"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-03\\1920x1080\\10-card-closeup.png",
+      "sha256": "b4e5d0af4b86358e531645457179d635c8080406e03134362f34cd5a0e7043f1"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-03\\1920x1080\\11-shield-use.png",
+      "sha256": "03637fe51e35ef88e95790fcbef97e78c1634d18d4d373f8fb4c20c4e3ff7afb"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-03\\1920x1080\\13-final-tabletop.png",
+      "sha256": "438e80ba4d353836c6280b2220c06a953b06004bf5dffb24fbdcd363758fbd94"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-03\\execution-manifest.json",
+      "sha256": "58704600a24107f5c0b67e7f9e93732bfa6ad3e81b7830a4ba090fdcb69653a0"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-03\\1920x1080\\physical-result.json",
+      "sha256": "e453e0589c8ee430a3b07ca618f820cf91bd27fe988fb3edd571688d047b2dfc"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-03\\1920x1080\\stdout.log",
+      "sha256": "3d4b547620d3180156a2232b818be88b08e867200fceacfbac289fb0c4075b19"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-godot\\evidence\\development-batch-10\\expansion-source-03\\1920x1080\\stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "executor": "root/implementation agents",
+  "executionManifest": {
+    "debugAssemblyLastWriteUtc": "2026-10-15T06:15:07.4795147Z",
+    "scope": "Same-machine rendered viewport, simulated Godot input and manually timed effects; not OS input or performance acceptance.",
+    "executable": "E:\\Project\\yanzhou-godot\\tools\\runtime\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+    "codeCommit": "1e4a4d9b1e0ff4b9e18ab6e80d81721f02d5c855",
+    "runnerSha256": "e9fe0404abf0510c88acfd3107776e4af354cdb38807c4d295f42d6b536ca4d2",
+    "workingTree": [
+      " M README.md",
+      " M docs/coordination/2026-10-14-component-detail-plan.md",
+      " M godot/CompleteMain.cs",
+      " M godot/CompleteMainCards.cs",
+      " M godot/CompleteMainDemoncardsChecksA.cs",
+      " M godot/CompleteMainPhysicalChecks.cs",
+      " M godot/CompleteMainUi.cs",
+      " M godot/ComponentAssetAdapter.cs",
+      " M godot/DemoncardsSystemGraphic.cs",
+      " M godot/DemoncardsTextContainers.cs",
+      " M godot/EncounterArt.cs",
+      " M godot/PhysicalTableAppearance.cs",
+      " M godot/PhysicalTableControls.cs",
+      " M godot/PhysicalTableInteraction.cs",
+      " M tools/verify-physical-table.ps1",
+      "?? docs/coordination/2026-10-14-demoncards-plan.md",
+      "?? docs/coordination/component-assets-v02.json",
+      "?? docs/coordination/component-assets-v03.json",
+      "?? docs/coordination/component-assets-v04.json",
+      "?? docs/coordination/component-assets-v05.json",
+      "?? docs/reviews/2026-10-14-demoncards-a.md",
+      "?? docs/reviews/2026-10-14-demoncards-b.md",
+      "?? docs/reviews/2026-10-14-demoncards-integration.md",
+      "?? docs/reviews/2026-10-15-component-3d-runtime.md",
+      "?? docs/reviews/2026-10-15-component-text-runtime.md",
+      "?? godot/CompleteMainComponentChecks.cs",
+      "?? godot/CompleteMainComponentChecks.cs.uid",
+      "?? godot/ComponentDetailProps.cs",
+      "?? godot/ComponentTableAssets.cs",
+      "?? godot/ComponentTableAssets.cs.uid",
+      "?? godot/ComponentTextAssets.cs",
+      "?? godot/ComponentTextAssets.cs.uid",
+      "?? godot/ComponentTokenAssets.cs",
+      "?? godot/ComponentTokenAssets.cs.uid"
+    ],
+    "packaged": false,
+    "executableSha256": "2445d009a5e0474fc7064b9767100e9d2c09521890ac5625476bfb81cf03f2d4",
+    "sourceFiles": [
+      {
+        "path": "godot\\CompleteMain.cs",
+        "sha256": "073bcadeefe54a785d78692ff96e232631e3304fb7c8b46e604b2a4c85280c84"
+      },
+      {
+        "path": "godot\\CompleteMainCardChecks.cs",
+        "sha256": "8384146a1a5ea88912661c79728c4b90700c6111fef0969932d5de819535288a"
+      },
+      {
+        "path": "godot\\CompleteMainCards.cs",
+        "sha256": "8a13ad31ddaec690985f67f1599490e791180ad3de82e7a90df9bac04827ebac"
+      },
+      {
+        "path": "godot\\CompleteMainChecks.cs",
+        "sha256": "7f78825cdfc0b4c4ad057b344300669caafd4f1ad23e7928439d0e0ca171e4da"
+      },
+      {
+        "path": "godot\\CompleteMainComponentChecks.cs",
+        "sha256": "9c9c5bad87d95ddecb965395cfb51d71c035e69f3c78b5504566315a279b403b"
+      },
+      {
+        "path": "godot\\CompleteMainDemoncardsChecksA.cs",
+        "sha256": "9219ac53819d6fb3dfb56680e2be595a0783b0c92b0e75d84916e8e37e9945b4"
+      },
+      {
+        "path": "godot\\CompleteMainFocus.cs",
+        "sha256": "9cfa99b8b6ce62cb5185925295438698879932f9cb53ac2bfc29e32ce90f5774"
+      },
+      {
+        "path": "godot\\CompleteMainFocusChecks.cs",
+        "sha256": "b80a5f62fb6b7dde3914794c6c7e62bbe79697706ba4fa386424b6556f672362"
+      },
+      {
+        "path": "godot\\CompleteMainPerformance.cs",
+        "sha256": "24c68c67eeb0b6570f59101c20d52b2f171fd4db8f69d3f8dfe6f2eaaec2cf66"
+      },
+      {
+        "path": "godot\\CompleteMainPhysicalChecks.cs",
+        "sha256": "dc89c3f42ab59318fd3416ad7870a1aaa58d5bca62f6c928bbe128148f470e17"
+      },
+      {
+        "path": "godot\\CompleteMainPresentation.cs",
+        "sha256": "52c8320a00f1ad0b89355a1a7637da06b156225812620de99da81bc722042d9a"
+      },
+      {
+        "path": "godot\\CompleteMainPresentationChecks.cs",
+        "sha256": "cebb0c5b9bb8dda26d7aa507fc46435119ecb7345a04216aa87ce97a9bc8a77f"
+      },
+      {
+        "path": "godot\\CompleteMainStartupProfile.cs",
+        "sha256": "1c812c91d9c3366ff753f70578c130845d35222a618085037067394ca8cf3d8d"
+      },
+      {
+        "path": "godot\\CompleteMainUi.cs",
+        "sha256": "341e2d5fb0976a942b162948955a523b0a96a7160e29e5d7a1128317085842a7"
+      },
+      {
+        "path": "godot\\ComponentAssetAdapter.cs",
+        "sha256": "ff3081152660c97af2bc2541656aa8db6ff7486e4c62e22081995dcac0a09ad9"
+      },
+      {
+        "path": "godot\\ComponentDetailProps.cs",
+        "sha256": "952812e1c51e6271f5dd7c0f5a9e18c4c63a2785a003a47a6b59861bfdb8d746"
+      },
+      {
+        "path": "godot\\ComponentTableAssets.cs",
+        "sha256": "35ea1b303780edbd8f481b6e4544db15cf7b79b44d4908e08e45ac3ac2a9e2ee"
+      },
+      {
+        "path": "godot\\ComponentTextAssets.cs",
+        "sha256": "2f5cb25c4ae0523a6de47b1bbdd8d04318aa366412cdb1ff9e8af869c627bc90"
+      },
+      {
+        "path": "godot\\ComponentTokenAssets.cs",
+        "sha256": "b820f2a012be26220efd0913735943b66710ca28a9e4ab0de86fb0aceaf8f193"
+      },
+      {
+        "path": "godot\\DemoncardsInteractionMotion.cs",
+        "sha256": "2efd08baa9175896a541f69acdd2908f771e79d9d5c805e7ededeb0546c5d147"
+      },
+      {
+        "path": "godot\\DemoncardsSurfaceMaterials.cs",
+        "sha256": "ac810d2a0d66632e91a7915e31806f76a088d6178dce1049347462dac4ccd729"
+      },
+      {
+        "path": "godot\\DemoncardsSystemGraphic.cs",
+        "sha256": "b62089b500b3a081f98ca0f42c0d836b58a6fc700eab54130291959f44a298e1"
+      },
+      {
+        "path": "godot\\DemoncardsTableGeometry.cs",
+        "sha256": "29f7f04e8659c04e5fbf9e372bfb4754c809276eb6e1915f12665082c7343e6d"
+      },
+      {
+        "path": "godot\\DemoncardsTextContainers.cs",
+        "sha256": "506e4f51337825c892d00e640314301ca9404540cb48a2c71cf10a4efea3dfa3"
+      },
+      {
+        "path": "godot\\EncounterArt.cs",
+        "sha256": "7ec7c3a42802e504bb21f8d830e2bc4b3299fbb0adea456be067aa09e9515c66"
+      },
+      {
+        "path": "godot\\EncounterArtSample.cs",
+        "sha256": "651b0b3e628595f86d1ce2f99ab1754364aabe112e04a1938c4bbaef09abf8ae"
+      },
+      {
+        "path": "godot\\EncounterAudio.cs",
+        "sha256": "a62319d9a247865ab533ec076f88fb08eb64b4af3f7950acbabf767a104c7cea"
+      },
+      {
+        "path": "godot\\EncounterEffects.cs",
+        "sha256": "c21e691a6691fc8c3fa7425c48238bd06a93b93b997144bbfa69fb4aeaa77f30"
+      },
+      {
+        "path": "godot\\EncounterSurfaceDetail.cs",
+        "sha256": "9b6a80fbf51845f2deb160355fdebdcb8d816a5218091f3ed53aaa7be184bf72"
+      },
+      {
+        "path": "godot\\EncounterSurfaceDetailSample.cs",
+        "sha256": "869860c008ae0ac54b2ed965c05a39080a51939123e76d6c860d7971fa2dc8f7"
+      },
+      {
+        "path": "godot\\Main.cs",
+        "sha256": "b405f3a33b45befc5cc146f6a3335f1424757e14f3dde04ac6ff9418c09ea5ec"
+      },
+      {
+        "path": "godot\\PhysicalTableAppearance.cs",
+        "sha256": "aea62b932e5d36ecb9a0e2744e91f019a23bc9cf8b89bbd210788f5ebde37972"
+      },
+      {
+        "path": "godot\\PhysicalTableControls.cs",
+        "sha256": "10a8110df51218ca751399a3796af96500db41e875adb9c987844d4ea04e9918"
+      },
+      {
+        "path": "godot\\PhysicalTableEffects.cs",
+        "sha256": "76559acf5461d3c142496ba0a534f9d8875b64d71ab93cf18d96b74cea83b14f"
+      },
+      {
+        "path": "godot\\PhysicalTableInteraction.cs",
+        "sha256": "622acf2fd33b0e582e3cfc6baae59209d77a891f59c7feba3b49b44346ab6f0a"
+      },
+      {
+        "path": "godot\\project.godot",
+        "sha256": "ef06fde11721204518a1aca5896d8f13f230b71845c21a94bf4ccf4cf05456a3"
+      },
+      {
+        "path": "godot\\TimelineCardVisual.cs",
+        "sha256": "531cb2148a313a7072c6c792bbe011219f1ce4f51fe9ebe2add8af8f1195004e"
+      },
+      {
+        "path": "godot\\Yanzhou.csproj",
+        "sha256": "c2cd465e410999305b4bdf7679be9c0dcfcd8927c044d8f61038dbe41f01c55a"
+      }
+    ],
+    "utc": "2026-10-15T06:15:25.2142546Z",
+    "componentManifests": [
+      {
+        "path": "docs\\coordination\\component-assets-v01.json",
+        "sha256": "c9fc3c5dae23cfafd40192bc95e8d8d3d9a5d3d58d4e9467f6fe5e2018bd6414"
+      },
+      {
+        "path": "docs\\coordination\\component-assets-v02.json",
+        "sha256": "3971334d637d353a1bdfca7c8996e2fb472e8d34dd42f4837db29fffdf05f026"
+      },
+      {
+        "path": "docs\\coordination\\component-assets-v03.json",
+        "sha256": "a61849abfa92e273486adb4074f6b0093f8898ac1f39747daf4159dcb7b9ae5a"
+      },
+      {
+        "path": "docs\\coordination\\component-assets-v04.json",
+        "sha256": "826b95bec1fc6abf5c5a22ca5e0857743fca1a7ed5b05926c72f0c3a689ae84a"
+      },
+      {
+        "path": "docs\\coordination\\component-assets-v05.json",
+        "sha256": "a597788ee7e0366489400bec22ecfcf82ad02d375df117c76cee468d5cf209f1"
+      }
+    ],
+    "debugAssemblySha256": "5b8c3ce808d15803d3241af225c20844d54bd41338704de53fce2471cf801a26",
+    "componentManifestSha256": "c9fc3c5dae23cfafd40192bc95e8d8d3d9a5d3d58d4e9467f6fe5e2018bd6414"
+  },
+  "result": {
+    "passed": false,
+    "recordedCount": 39,
+    "passCount": 38,
+    "failures": [
+      {
+        "name": "demoncards-uniform-thin-rounded-paper-and-narrow-slots",
+        "status": "Fail",
+        "error": "System.Exception: Main hidden inscription metrics: [{\"key\":\"enemy-0-2\",\"hidden\":true,\"title\":\"\\u25B2\",\"titleVisible\":true,\"copy\":\"\\u5E8F2r4\",\"textWidth\":0.18192412,\"textHeight\":0.1253255,\"fontSize\":36,\"fontHeight\":62,\"lineSpacing\":0,\"pixelSize\":0.002021379,\"twoDigitRevealWidth\":0.2223517,\"widthLimit\":0.21184614,\"paperWidth\":0.21184614,\"paperHeight\":0.1307655,\"fits\":true}]\r\n   at CompleteMain.<PrepareDemoncardsChecksA>b__129_1() in E:\\Project\\yanzhou-godot\\godot\\CompleteMainDemoncardsChecksA.cs:line 17\r\n   at CompleteMain.RunPhysicalVerification() in E:\\Project\\yanzhou-godot\\godot\\CompleteMainPhysicalChecks.cs:line 139"
+      }
+    ]
+  },
+  "componentUiRecorded": [
+    {
+      "capture": "01-tabletop",
+      "inspection": false,
+      "papers": [],
+      "labels": [],
+      "buttons": [],
+      "quantity": null,
+      "publicPaper": null
+    },
+    {
+      "capture": "02-player-closeup",
+      "inspection": true,
+      "papers": [
+        {
+          "skin": "txt03-380-detail",
+          "rect": "(1476, 344), (420, 392)",
+          "native": "(420, 392)",
+          "anchor": "",
+          "protectedOverlap": 0
+        },
+        {
+          "skin": "txt02-216-2line-bottom",
+          "rect": "(24, 24), (216, 86)",
+          "native": "(216, 86)",
+          "anchor": "",
+          "protectedOverlap": 0
+        }
+      ],
+      "labels": [
+        {
+          "text": "玩家",
+          "fontSize": 24,
+          "rect": "(1496, 376), (324, 42)",
+          "maxUnwrappedLineWidth": 48,
+          "autowrap": "Off",
+          "owningSkin": "txt03-380-detail"
+        },
+        {
+          "text": "玩家\n生命 30  ·  护盾 0\n护盾先抵挡普通伤害，超出部分扣生命。\n下次共同疲劳 第16拍 · 双方各损失 5\n共同疲劳忽略护盾；同点双亡判负。",
+          "fontSize": 18,
+          "rect": "(1496, 428), (380, 220)",
+          "maxUnwrappedLineWidth": 324,
+          "autowrap": "Off",
+          "owningSkin": "txt03-380-detail"
+        },
+        {
+          "text": "1 / 1",
+          "fontSize": 18,
+          "rect": "(1592, 672), (284, 32)",
+          "maxUnwrappedLineWidth": 36,
+          "autowrap": "Off",
+          "owningSkin": ""
+        },
+        {
+          "text": "第 0 拍 · 已暂停\n关闭后仍暂停",
+          "fontSize": 18,
+          "rect": "(42, 48), (180, 56)",
+          "maxUnwrappedLineWidth": 135,
+          "autowrap": "Off",
+          "owningSkin": "txt02-216-2line-bottom"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "×",
+          "rect": "(1832, 370), (44, 44)",
+          "disabled": false
+        },
+        {
+          "text": "上页",
+          "rect": "(1496, 666), (44, 44)",
+          "disabled": true
+        },
+        {
+          "text": "下页",
+          "rect": "(1544, 666), (44, 44)",
+          "disabled": true
+        }
+      ],
+      "quantity": null,
+      "publicPaper": "(1476, 344), (420, 392)"
+    },
+    {
+      "capture": "03-enemy-closeup",
+      "inspection": true,
+      "papers": [
+        {
+          "skin": "txt03-380-detail",
+          "rect": "(1476, 344), (420, 392)",
+          "native": "(420, 392)",
+          "anchor": "",
+          "protectedOverlap": 0
+        },
+        {
+          "skin": "txt02-216-2line-bottom",
+          "rect": "(24, 24), (216, 86)",
+          "native": "(216, 86)",
+          "anchor": "",
+          "protectedOverlap": 0
+        }
+      ],
+      "labels": [
+        {
+          "text": "炼金学徒",
+          "fontSize": 24,
+          "rect": "(1496, 376), (324, 42)",
+          "maxUnwrappedLineWidth": 96,
+          "autowrap": "Off",
+          "owningSkin": "txt03-380-detail"
+        },
+        {
+          "text": "炼金学徒\n生命 60  ·  护盾 0\n护盾先抵挡普通伤害，超出部分扣生命。\n下次共同疲劳 第16拍 · 双方各损失 5\n共同疲劳忽略护盾；同点双亡判负。",
+          "fontSize": 18,
+          "rect": "(1496, 428), (380, 220)",
+          "maxUnwrappedLineWidth": 324,
+          "autowrap": "Off",
+          "owningSkin": "txt03-380-detail"
+        },
+        {
+          "text": "1 / 1",
+          "fontSize": 18,
+          "rect": "(1592, 672), (284, 32)",
+          "maxUnwrappedLineWidth": 36,
+          "autowrap": "Off",
+          "owningSkin": ""
+        },
+        {
+          "text": "第 0 拍 · 已暂停\n关闭后仍暂停",
+          "fontSize": 18,
+          "rect": "(42, 48), (180, 56)",
+          "maxUnwrappedLineWidth": 135,
+          "autowrap": "Off",
+          "owningSkin": "txt02-216-2line-bottom"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "×",
+          "rect": "(1832, 370), (44, 44)",
+          "disabled": false
+        },
+        {
+          "text": "上页",
+          "rect": "(1496, 666), (44, 44)",
+          "disabled": true
+        },
+        {
+          "text": "下页",
+          "rect": "(1544, 666), (44, 44)",
+          "disabled": true
+        }
+      ],
+      "quantity": null,
+      "publicPaper": "(1476, 344), (420, 392)"
+    },
+    {
+      "capture": "04-dark-closeup",
+      "inspection": true,
+      "papers": [
+        {
+          "skin": "txt03-380-detail",
+          "rect": "(1476, 344), (420, 392)",
+          "native": "(420, 392)",
+          "anchor": "",
+          "protectedOverlap": 0
+        },
+        {
+          "skin": "txt02-216-2line-bottom",
+          "rect": "(24, 24), (216, 86)",
+          "native": "(216, 86)",
+          "anchor": "",
+          "protectedOverlap": 0
+        }
+      ],
+      "labels": [
+        {
+          "text": "未揭示敌牌",
+          "fontSize": 24,
+          "rect": "(1496, 376), (324, 42)",
+          "maxUnwrappedLineWidth": 120,
+          "autowrap": "Off",
+          "owningSkin": "txt03-380-detail"
+        },
+        {
+          "text": "▲ 攻击 · 程序 2\n公开揭示拍 r 4\n尚未揭示。效果在合法揭示时公开；查看不会推\n进或翻开此牌。",
+          "fontSize": 18,
+          "rect": "(1496, 428), (380, 220)",
+          "maxUnwrappedLineWidth": 378,
+          "autowrap": "Off",
+          "owningSkin": "txt03-380-detail"
+        },
+        {
+          "text": "1 / 1",
+          "fontSize": 18,
+          "rect": "(1592, 672), (284, 32)",
+          "maxUnwrappedLineWidth": 36,
+          "autowrap": "Off",
+          "owningSkin": ""
+        },
+        {
+          "text": "第 0 拍 · 已暂停\n关闭后仍暂停",
+          "fontSize": 18,
+          "rect": "(42, 48), (180, 56)",
+          "maxUnwrappedLineWidth": 135,
+          "autowrap": "Off",
+          "owningSkin": "txt02-216-2line-bottom"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "×",
+          "rect": "(1832, 370), (44, 44)",
+          "disabled": false
+        },
+        {
+          "text": "上页",
+          "rect": "(1496, 666), (44, 44)",
+          "disabled": true
+        },
+        {
+          "text": "下页",
+          "rect": "(1544, 666), (44, 44)",
+          "disabled": true
+        }
+      ],
+      "quantity": null,
+      "publicPaper": "(1476, 344), (420, 392)"
+    },
+    {
+      "capture": "05-resource-closeup",
+      "inspection": true,
+      "papers": [
+        {
+          "skin": "txt03-380-detail",
+          "rect": "(1476, 344), (420, 392)",
+          "native": "(420, 392)",
+          "anchor": "",
+          "protectedOverlap": 0
+        },
+        {
+          "skin": "txt02-216-2line-bottom",
+          "rect": "(24, 24), (216, 86)",
+          "native": "(216, 86)",
+          "anchor": "",
+          "protectedOverlap": 0
+        }
+      ],
+      "labels": [
+        {
+          "text": "资源抽屉",
+          "fontSize": 24,
+          "rect": "(1496, 376), (324, 42)",
+          "maxUnwrappedLineWidth": 96,
+          "autowrap": "Off",
+          "owningSkin": "txt03-380-detail"
+        },
+        {
+          "text": "当前投入\n无需材料 · 本场材料 0\n收纳托为空，没有可取材料。",
+          "fontSize": 18,
+          "rect": "(1496, 428), (380, 220)",
+          "maxUnwrappedLineWidth": 234,
+          "autowrap": "Off",
+          "owningSkin": "txt03-380-detail"
+        },
+        {
+          "text": "1 / 1",
+          "fontSize": 18,
+          "rect": "(1592, 672), (284, 32)",
+          "maxUnwrappedLineWidth": 36,
+          "autowrap": "Off",
+          "owningSkin": ""
+        },
+        {
+          "text": "第 0 拍 · 已暂停\n关闭后仍暂停",
+          "fontSize": 18,
+          "rect": "(42, 48), (180, 56)",
+          "maxUnwrappedLineWidth": 135,
+          "autowrap": "Off",
+          "owningSkin": "txt02-216-2line-bottom"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "×",
+          "rect": "(1832, 370), (44, 44)",
+          "disabled": false
+        },
+        {
+          "text": "上页",
+          "rect": "(1496, 666), (44, 44)",
+          "disabled": true
+        },
+        {
+          "text": "下页",
+          "rect": "(1544, 666), (44, 44)",
+          "disabled": true
+        }
+      ],
+      "quantity": null,
+      "publicPaper": "(1476, 344), (420, 392)"
+    },
+    {
+      "capture": "06-guard-closeup",
+      "inspection": true,
+      "papers": [
+        {
+          "skin": "txt03-380-detail",
+          "rect": "(1476, 344), (420, 392)",
+          "native": "(420, 392)",
+          "anchor": "",
+          "protectedOverlap": 0
+        },
+        {
+          "skin": "txt02-216-2line-bottom",
+          "rect": "(24, 24), (216, 86)",
+          "native": "(216, 86)",
+          "anchor": "",
+          "protectedOverlap": 0
+        }
+      ],
+      "labels": [
+        {
+          "text": "环杖 · 守护护符",
+          "fontSize": 24,
+          "rect": "(1496, 376), (324, 42)",
+          "maxUnwrappedLineWidth": 178,
+          "autowrap": "Off",
+          "owningSkin": "txt03-380-detail"
+        },
+        {
+          "text": "当前批次 #1\n开工 0 → 完工 2\n承诺 简易护盾\nD 2 · 剩余 1",
+          "fontSize": 18,
+          "rect": "(1496, 428), (380, 104)",
+          "maxUnwrappedLineWidth": 127,
+          "autowrap": "Off",
+          "owningSkin": "txt03-380-detail"
+        },
+        {
+          "text": "材料 无需材料",
+          "fontSize": 18,
+          "rect": "(1496, 536), (380, 32)",
+          "maxUnwrappedLineWidth": 113,
+          "autowrap": "Off",
+          "owningSkin": "txt03-380-detail"
+        },
+        {
+          "text": "下一批 守护\n未来 D 2",
+          "fontSize": 18,
+          "rect": "(1496, 584), (380, 56)",
+          "maxUnwrappedLineWidth": 95,
+          "autowrap": "Off",
+          "owningSkin": "txt03-380-detail"
+        },
+        {
+          "text": "1 / 1",
+          "fontSize": 18,
+          "rect": "(1592, 672), (284, 32)",
+          "maxUnwrappedLineWidth": 36,
+          "autowrap": "Off",
+          "owningSkin": ""
+        },
+        {
+          "text": "第 1 拍 · 已暂停\n关闭后仍暂停",
+          "fontSize": 18,
+          "rect": "(42, 48), (180, 56)",
+          "maxUnwrappedLineWidth": 135,
+          "autowrap": "Off",
+          "owningSkin": "txt02-216-2line-bottom"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "×",
+          "rect": "(1832, 370), (44, 44)",
+          "disabled": false
+        },
+        {
+          "text": "上页",
+          "rect": "(1496, 666), (44, 44)",
+          "disabled": true
+        },
+        {
+          "text": "下页",
+          "rect": "(1544, 666), (44, 44)",
+          "disabled": true
+        }
+      ],
+      "quantity": null,
+      "publicPaper": "(1476, 344), (420, 392)"
+    },
+    {
+      "capture": "07-completion-source",
+      "inspection": false,
+      "papers": [],
+      "labels": [],
+      "buttons": [],
+      "quantity": null,
+      "publicPaper": null
+    },
+    {
+      "capture": "08-completion-appear",
+      "inspection": false,
+      "papers": [],
+      "labels": [],
+      "buttons": [],
+      "quantity": null,
+      "publicPaper": null
+    },
+    {
+      "capture": "09-completion-paused",
+      "inspection": false,
+      "papers": [],
+      "labels": [],
+      "buttons": [],
+      "quantity": null,
+      "publicPaper": null
+    },
+    {
+      "capture": "10-card-closeup",
+      "inspection": true,
+      "papers": [
+        {
+          "skin": "txt03-380-detail",
+          "rect": "(1476, 344), (420, 392)",
+          "native": "(420, 392)",
+          "anchor": "",
+          "protectedOverlap": 0
+        },
+        {
+          "skin": "txt02-216-2line-bottom",
+          "rect": "(24, 24), (216, 86)",
+          "native": "(216, 86)",
+          "anchor": "",
+          "protectedOverlap": 0
+        }
+      ],
+      "labels": [
+        {
+          "text": "■ 简易护盾",
+          "fontSize": 24,
+          "rect": "(1496, 376), (324, 42)",
+          "maxUnwrappedLineWidth": 125,
+          "autowrap": "Off",
+          "owningSkin": "txt03-380-detail"
+        },
+        {
+          "text": "玩家行动队列（实牌）\n容量Q=5：实牌1＋预留1＋待复用0＝占用2；可\n用空位3。\n每拍最多一张；入行下拍才取得最早资格，不能\n跳过队首。历史、预留和待复用占用都不是队列\n实牌。\n队序1 · 行动1 · ■ 防御 · 简易护盾；来源守\n护护符。\n第2拍入行，最早第3拍有资格；预计第3拍生效",
+          "fontSize": 18,
+          "rect": "(1496, 428), (380, 231)",
+          "maxUnwrappedLineWidth": 380,
+          "autowrap": "Off",
+          "owningSkin": "txt03-380-detail"
+        },
+        {
+          "text": "1 / 2",
+          "fontSize": 18,
+          "rect": "(1592, 672), (284, 32)",
+          "maxUnwrappedLineWidth": 36,
+          "autowrap": "Off",
+          "owningSkin": ""
+        },
+        {
+          "text": "第 2 拍 · 已暂停\n关闭后仍暂停",
+          "fontSize": 18,
+          "rect": "(42, 48), (180, 56)",
+          "maxUnwrappedLineWidth": 135,
+          "autowrap": "Off",
+          "owningSkin": "txt02-216-2line-bottom"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "×",
+          "rect": "(1832, 370), (44, 44)",
+          "disabled": false
+        },
+        {
+          "text": "上页",
+          "rect": "(1496, 666), (44, 44)",
+          "disabled": true
+        },
+        {
+          "text": "下页",
+          "rect": "(1544, 666), (44, 44)",
+          "disabled": false
+        }
+      ],
+      "quantity": null,
+      "publicPaper": "(1476, 344), (420, 392)"
+    },
+    {
+      "capture": "11-shield-use",
+      "inspection": false,
+      "papers": [
+        {
+          "skin": "txt02-216-2line-left",
+          "rect": "(1023.66437, 492.9079), (216, 86)",
+          "native": "(216, 86)",
+          "anchor": "left",
+          "protectedOverlap": 0
+        }
+      ],
+      "labels": [
+        {
+          "text": "■ 简易护盾\n护甲 +4 · 预计3",
+          "fontSize": 18,
+          "rect": "(1041.6643, 516.9079), (180, 56)",
+          "maxUnwrappedLineWidth": 133,
+          "autowrap": "Off",
+          "owningSkin": "txt02-216-2line-left"
+        }
+      ],
+      "buttons": [],
+      "quantity": null,
+      "publicPaper": null
+    },
+    {
+      "capture": "12-departed",
+      "inspection": false,
+      "papers": [],
+      "labels": [],
+      "buttons": [],
+      "quantity": null,
+      "publicPaper": null
+    },
+    {
+      "capture": "13-final-tabletop",
+      "inspection": false,
+      "papers": [],
+      "labels": [],
+      "buttons": [],
+      "quantity": null,
+      "publicPaper": null
+    },
+    {
+      "capture": "demon-01-paper-slots",
+      "inspection": false,
+      "papers": [],
+      "labels": [],
+      "buttons": [],
+      "quantity": null,
+      "publicPaper": null
+    }
+  ],
+  "inputScope": "Godot Viewport.PushInput mouse/key; deterministic actual-event driver; effects manually timed; focus handlers directly invoked (not OS focus test)",
+  "designJudgment": {
+    "mainHiddenLabel": "2·r12 permitted; retain full program/reveal language in hover/detail; unchanged readable type and card width",
+    "status": "Recommendation only; not implemented in this source evidence"
+  },
+  "issues": {
+    "closedInThis1080Example": [
+      "Q3-E02-01",
+      "Q3-E02-02",
+      "Q3-E02-03"
+    ],
+    "remaining": [
+      "Q3-E03-01 caster status and mark ledger overlap",
+      "WAND-02 grey solid-looking crystal runtime material",
+      "DECOR-02 milky white orb runtime material",
+      "Q3-C02-01 drawer patterned glints not diagnosed"
+    ]
+  },
+  "notPassed": [
+    "full72",
+    "1366x768",
+    "complete quantity/error/pagination",
+    "Godot glass sorting and cost",
+    "OS input",
+    "package",
+    "user art acceptance"
+  ]
+}
