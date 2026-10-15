@@ -4,6 +4,8 @@
 
 独立工作台位于本机 `E:/Project/yanzhou-workspace`，上游固定 v0.5.1 / `59477702e1f86187d1ac8a84905505e2dfe53c73`。双击其根目录 `Start Yanzhou Workspace.cmd` 启动。详细操作见[工作台说明](../../../yanzhou-workspace/docs/yanzhou-integration.md)。
 
+日常怎么分工、下任务、看产物和交接，先读[言咒与Mr. Mak协作使用指南](../../../yanzhou-workspace/workspace/2026-10-14_yanzhou/collaboration.md)。工作台言咒卡片新增“协作使用”页签，可随时查看并复制话术。
+
 | 分区 | 维护位置与接入方式 |
 | --- | --- |
 | 现行设计、来源、探索、治理 | 继续在本项目各目录维护；工作台只读预览明确选择的文档，不复制权威正文 |
