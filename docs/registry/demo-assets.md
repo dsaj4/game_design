@@ -387,3 +387,10 @@ DM-G002-011第十三批使用补记：GODOT-DEMONCARDS-CANDIDATES-B13-01，固�
 - 同一Demo续版 UI-REVIEW-02；维护入口[逐组件审阅v02](../../yanzhou/visual/ui-review-2026-10-15/review-v02.md)，本机仍为 `http://127.0.0.1:5191`。外部代码 `E:/Project/yanzhou-godot/tools/ui-review-2026-10-15/`，固定提交 `f5c702907cfa157565764435e759611dd471d0cf`；9份发布源文件，manifest SHA `1e8a394be46c874c7ed72b3cfcfaee2e37751feb73f2df36efdbff0e466cf2a8`。
 - ReadyForScope / PresentLocal（2026-10-15本机审阅工具）。70主桌截图、136条去重取证文字、118资源检视图和12种声音的两档引擎混音；新字体分工、逐组件意见、视口隔离草稿与JSON导出已接入。335项资源／HTTP检查及两档70状态浏览器入口检查通过；用户接受、引擎像素对照、动态资源检视未由网页检查推定。
 - uses: DM-G002-011@GODOT-DEMONCARDS-CANDIDATES-B13-01固定包证据，AS-G002-025/026/027/028；继续复用AS-G002-011/018/023/024。原第三方资源和混音证据仍在本机ignored路径，只通过localhost白名单读取；许可／再分发条件沿原条目，未公开上传。首版UI-REVIEW-01及其固定输入保留Git取证，当前预览由v02承接。
+
+## <a id="dm-g002-016"></a>DM-G002-016 主桌少文字交互示意
+
+- 归属：game-002 / main；[候选与完整登记](../../yanzhou/sources/inbox/2026-10-17-minimal-battle-ui.md#dm-g002-016-主桌少文字交互示意)。用于讲解空间时间刻度、分段加工环、容量四态及当前／未来用途，设计保持Raw Idea / Unqualified。
+- MINIMAL-BATTLE-UI-01；[本机会话源片段](C:/Users/Administrator/.codex/visualizations/2026/10/15/01a141f1-a6fd-7cc1-ad44-eab0824be2ca/minimal-battle-ui.html)，单文件SHA-256 `6253e6b9fdb5c211d857da18c0afd857b8013911c12bafd14e1e6453ee03a249`。源文件就地保管，依赖Codex可视化宿主；两组固定快照、对象说明及响应布局，无战斗推进。
+- ReadyForScope / PresentLocal（2026-10-17，仅方案讲解）。实际检查736／320px预览、情境切换、法器／容量说明及Enter入口；浏览器无报错，窄屏相关容器无横向溢出。完整图形近观、动效、引擎对照、完整键盘验收及玩家理解未验证。
+- 原创示意，本项目内部讨论可复用；图标依宿主Lucide支持，许可沿宿主依赖。uses: None；derived-from: None；B13只作既有视觉参照。登记不改变现行规则或授权引擎开发，暂无登记使用者。
