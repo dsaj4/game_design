@@ -6,6 +6,8 @@ Project ID：game-002。文档角色：Navigation。入口核对：2026-10-17；
 
 当前UI设计顺序与状态以[阶段计划中的桌面UI设计入口](../development/production-plan.md#ui-design-order-2026-10-17)为准：**标准卡面 → 主桌面UI与文字 → 各详情页UI**；各项均按文字结构→HTML→效果图推进，配合[真实截图审阅稿v02](ui-review-2026-10-15/review-v02.md)。本页只链接该入口，不重复维护阶段状态。
 
+标准卡面已交付[文字结构v01](standard-card-2026-10-17/structure-v01.md)；[本包入口](standard-card-2026-10-17/README.md)关联用户三项展示选择、阶段产物与后续HTML。条件牌主桌仅标条件图形，完整分支进入近观。
+
 当前主桌少文字方向已有[文字／局部HTML候选](../sources/inbox/2026-10-17-minimal-battle-ui.md)与[截图效果图AS-G002-029](minimal-battle-ui-2026-10-17/art-v01.md)。它们保持待审候选，不能代替下一轮标准卡面与全部详情页的三阶段设计。
 
 开发已选定Godot并进入真实牌桌制作。[开发索引](../development/README.md)、[资产接入清单](../development/asset-readiness.md)及[阶段计划](../development/production-plan.md)统一记录当前批次、制作输入和实际证据，本页只提供定位，不单独维护另一份当前版本。
