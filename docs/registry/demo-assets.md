@@ -394,3 +394,10 @@ DM-G002-011第十三批使用补记：GODOT-DEMONCARDS-CANDIDATES-B13-01，固�
 - MINIMAL-BATTLE-UI-01；[本机会话源片段](C:/Users/Administrator/.codex/visualizations/2026/10/15/01a141f1-a6fd-7cc1-ad44-eab0824be2ca/minimal-battle-ui.html)，单文件SHA-256 `6253e6b9fdb5c211d857da18c0afd857b8013911c12bafd14e1e6453ee03a249`。源文件就地保管，依赖Codex可视化宿主；两组固定快照、对象说明及响应布局，无战斗推进。
 - ReadyForScope / PresentLocal（2026-10-17，仅方案讲解）。实际检查736／320px预览、情境切换、法器／容量说明及Enter入口；浏览器无报错，窄屏相关容器无横向溢出。完整图形近观、动效、引擎对照、完整键盘验收及玩家理解未验证。
 - 原创示意，本项目内部讨论可复用；图标依宿主Lucide支持，许可沿宿主依赖。uses: None；derived-from: None；B13只作既有视觉参照。登记不改变现行规则或授权引擎开发，暂无登记使用者。
+
+## <a id="as-g002-029"></a>AS-G002-029 主桌少文字截图效果图
+
+- 归属：game-002 / main；[制作记录与完整提示词](../../yanzhou/visual/minimal-battle-ui-2026-10-17/art-v01.md)，设计来源为[少文字候选](../../yanzhou/sources/inbox/2026-10-17-minimal-battle-ui.md)，状态Raw Idea / Unqualified。用途为当前真实主桌基础上的视觉审阅，非运行截图或新资产实装。
+- MINIMAL-BATTLE-UI-ART-01；本机原件／交付图 `E:/Project/yanzhou-godot/evidence/ui-concepts/2026-10-17-minimal/minimal-battle-ui-art-v01.png`，1672×941 PNG；SHA-256 `d478521339be289d3a5f404a171cfd0ebc95993e1a9de4bc1ad5f660bbab54d5`。模型生成原件、首版及修订提示词沿制作记录定位。图像保持本机，不随本次文档提交上传。
+- ReadyForScope / PresentLocal（2026-10-17，仅本机效果稿审阅）。设计agent使用内置image_gen编辑，协调者独立目视二版：卡片刻位3／6、暗牌揭示刻位4、容量1实牌＋1预留＋3空位、三格加工环2/3、原生命与标记数值及窗外类别可辨。存在生图细部重绘与尺寸变化，未做引擎像素对照或用户美术接受，不作为动态进度或玩法验证。
+- 底图为DM-G002-011@GODOT-DEMONCARDS-CANDIDATES-B13-01的 `package-main-01/1920x1080/09-completion-paused.png`，SHA `d974b54753390760fc862ebdcce50d2d5ae0291939a854e60d104f098b444a2b`。derived-from: 该固定取证截图；uses: 本轮少文字候选。底图所含Demoncards资源沿AS-G002-025/027原本机制作与审阅边界，公开再分发条件Unknown；本条不新增图像公开分发授权。
