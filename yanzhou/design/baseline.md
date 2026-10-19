@@ -1,18 +1,18 @@
 # 当前设计基准
 
-2026-10-12 · documentation.3 / first-example.1 / battle-demo.1 / battle-presentation.1 / battle-focus.1 / physical-table.1。
+规则基准：2026-10-14 · documentation.3 / first-example.1 / battle-demo.1 / battle-presentation.1 / battle-focus.1 / physical-table.2。导航与状态核对：2026-10-18；本次整理不提升GDD成熟度或玩法证据。
 
 | 项目 | 当前值 |
 | --- | --- |
 | GDD | 2.6 / GDD-0 |
 | 核心摘要 | v0.21 / CORE-SUM-16 |
 | 规则 | TL-1 + INS-1，CORE-037—063；44个现行TL身份（TL-20退役） |
-| 本轮增量 | CORE-063：真实3D物件承担全部主页面入口，真实卡片自动呈现已提交事实，近观／系统独立图形页；R9采用用户修正，CORE-060—062停点及案例数值不变 |
+| 最近规则增量 | CORE-063 physical-table.2：保留真实3D操作宿主，允许绑定宿主的只读必要文本与公开短提示，合法公开投影动作不改结算；CORE-060—062和案例数值不变 |
 | 结构 | 六主系统、两子系统、三公共流程，各保留五文件 |
 | 内容 | EX-001保留原回归；EX-002为独立完整单战；具体值仅适用各自固定配置 |
 | 证据 | 已实现规则、界面及CORE-061基础音画有局部技术证据，见开发入口；正式音画质量、玩家体验及平衡NotRun；设计采纳不代替验收 |
-| 开发状态 | DOC-021—025；0.4保留原限定技术验收，0.5候选未正式交付。第07轮R8／R9完成资格及CORE-063集成；推进每项文字→HTML→美术设计，真实实现须在对应前三阶段复核后记录恢复。见[问题](../governance/questions.md#physical-table-round07)与[开发入口](../development/README.md)。正式美术、性能及真人体验仍未验 |
-| 视觉输入 | HTML v10＋效果图v01＋组件v01＋Blender v02；[当前资产及核验](../development/asset-readiness.md)；GLB已接入，正式材质／UI及完整战斗性能仍待验收 |
+| 开发状态 | 当前能力、最新包与未验范围只在[开发入口](../development/README.md)汇总；DOC-026确认先完善首场核心玩法，再开同一游戏的2D表现。此安排不直接替代CORE-063，见[当前问题](../governance/questions.md) |
+| 视觉输入 | 按任务选择[固定资产](../development/asset-readiness.md)和对应视觉稿；B13运行预览与10月17新UI候选分开，不再把旧v10／v02列为所有新任务的默认输入 |
 
 ## 状态只在这里统一解释
 
@@ -40,6 +40,7 @@
 | 首场表现与声音 | [CORE-061](../sources/draft-changes/D-2026-10-12-development-design-round-03.md) |
 | 首场失焦与返回 | [CORE-062](../sources/draft-changes/D-2026-10-12-development-design-round-05.md) |
 | 桌面3D主交互 | [CORE-063](../sources/draft-changes/D-2026-10-12-development-design-round-07.md) |
+| 必要文本与公开投影动作 | [CORE-063 physical-table.2](../sources/draft-changes/D-2026-10-14-demoncards-presentation.md) |
 | 通用设计与体验意图 | [2026-10-11集成记录](../governance/main-system-review-2026-10-11.md) |
 
 整理输入固定提交：`a9a7be3a48356379d9fb3eed86c17cfe3ada7325`。此前的基准沿革、各轮来源及独有设计解释保留在[整理前版本](https://github.com/dsaj4/game_design/blob/a9a7be3a48356379d9fb3eed86c17cfe3ada7325/yanzhou/design/baseline.md)及[决策记录](../governance/decision-log.md)。当前问题只查[集中登记](../governance/questions.md)，不从旧轮次的Unknown倒推待办。

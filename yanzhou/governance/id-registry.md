@@ -128,3 +128,20 @@ G002-DOC-021：开发规范、分阶段计划、Unity／Godot同题评估任务�
 G002-DOC-022沿[既有决策](decision-log.md#g002-doc-022)：Godot选型与首版工程，Accepted / Development；本处补齐原已使用身份的索引，不分配新号。
 
 G002-DOC-023：成品Demo HTML任务表与开发入口同步，Accepted / Documentation。52项必做＋4项后续扩展；DQ-01—56和表内阶段0—7仅为局部任务标签。不新增CORE／TL／FX／EX／AS／DM，不改变玩法、案例、规则验收或既有实现结果；本轮未运行游戏和玩法实验。
+
+## 2026-10-18开发增量编号核对
+
+以下补齐开发期间已经使用的身份，不重新采纳或给旧决定改号。当前规则范围仍见baseline与正式来源；旧段落中的“下一编号”只按当时日期解释。
+
+| 身份 | 既有／本轮用途 | 权威入口 |
+| --- | --- | --- |
+| G002-CORE-060、EX-002 | 首场操作与独立完整单战案例 | [第01轮采纳](../sources/draft-changes/D-2026-10-11-development-design-round-01.md) |
+| G002-CORE-061 | 暂停、单步、载入与音画合同 | [第03轮采纳](../sources/draft-changes/D-2026-10-12-development-design-round-03.md) |
+| G002-CORE-062 | 主窗口失焦与返回 | [第05轮采纳](../sources/draft-changes/D-2026-10-12-development-design-round-05.md) |
+| G002-CORE-063 | 真实3D主交互；physical-table.2沿用同一身份 | [第07轮采纳](../sources/draft-changes/D-2026-10-12-development-design-round-07.md)及[展示修订](../sources/draft-changes/D-2026-10-14-demoncards-presentation.md) |
+| G002-DOC-024 | 设计裁决暂停／恢复闸门 | [开发规范第8节](../development/development-standard.md#8-设计裁决闸门) |
+| G002-DOC-025 | 重点交互四阶段制作及设计职责连续 | [开发规范第9节](../development/development-standard.md#9-每项重点交互的四阶段制作) |
+| G002-DOC-026 | 本轮规范、工作台与进度解释整理 | [本轮决策](decision-log.md#g002-doc-026) |
+| PRE2D-Q01 | 新二维展示与现行3D合同的关系，Open／Raw | [当前问题](questions.md#开发前先看)；不是新DIR或玩法采纳 |
+
+截至本轮，CORE下一未占用为064，DOC为027，EX为003；DIR下一仍037，本轮未新建方向。循环R01／R02只在所属记录路径内定位，不新增全局编号族。AS／DM继续使用统一资源登记。

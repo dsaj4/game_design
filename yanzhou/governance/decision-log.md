@@ -601,3 +601,13 @@ Accepted / DevelopmentPolicy。用户直接消息 `01a12f65-1b8e-7192-97ed-eb246
 依据[本聊天用户原话与继续制作授权](../sources/inbox/2026-10-14-demoncards-presentation.md)及原D的[三阶段交付](../visual/demoncards-reference-2026-10-14/design-review-v01.md)，总控完成[M／P／E／D来源链](../sources/draft-changes/D-2026-10-14-demoncards-presentation.md)。必要名称／精确值／公开状态允许绑定3D物件的精简只读容器与悬停／键盘短提示；提示不暂停、不提交、不揭示。静态近观、原位Completion／Use、公开信息、消费锁与暂停继续有效；未暂停的新公开事实可作同身份r→T展示转位，不改真实队序或结算。
 
 沿用CORE-063，无新玩法编号；尺寸／材质／时长为本轮可逆制作参数。Demoncards作为第一表现参照，新Godot视觉／动作／输入／用户接受分别取证；来源资格和制作授权不证明体验成立。
+
+<a id="g002-doc-026"></a>
+
+## 2026-10-18：设计开发规范与工作台收束（G002-DOC-026）
+
+Accepted / Documentation and DevelopmentPolicy。用户要求在新的2D实现前，分别整理主系统、开发状态、工作台、工作流程和开发解释，并先确立规范体系。[本轮原话及Q1—Q3直接答复](../sources/inbox/2026-10-18-development-system-review.md)确认：2D是同一游戏的新表现方向，保留3D工程与证据；先闭合首场主动调度、积累兑现、首批内容与完整战斗输入；小循环按变化裁剪，复用已确认产物，工具调研按缺口触发。
+
+[开发规范](../development/development-standard.md)作为规范总入口，新增[小循环规格](../development/iteration-spec.md)与[工作台展示规格](../development/workbench-spec.md)；[开发解释](../development/development-guide.md)说明每次交付的阶段与能力。当前进度统一在开发README，阶段计划只维护依赖／退出条件，开放问题只在questions；工作台保存展示与原文入口，执行合同不代替验收状态。新重点交互继续具备文字、HTML、美术和真实实现证据，小修引用旧产物并核对差异。
+
+本轮清除当前入口的重复历史过程，原报告、失败、源资产及固定提交可追溯。只校准baseline的physical-table.2及导航，不新增CORE或修改玩法规则；Q1没有直接替代CORE-063，Q2没有采纳FB-Q01的具体方案。新二维展示条款及实际玩法变更继续资格／M／P或E／D／明确采纳。旧3D制作不自动续派，下一设计轮沿questions；无玩法实验或2D实现启动。

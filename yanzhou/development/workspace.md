@@ -1,24 +1,31 @@
-# 言咒开发工作台
+# 言咒工作台使用入口
 
-2026-10-14。Project ID：game-002。用户已授权全量接入 Mr. Mak；本页登记工具范围与证据，不改变玩法或验收状态。
+2026-10-18 · game-002。工作台位于`E:/Project/yanzhou-workspace`，连接设计、既有Godot工程和原位资产。双击该目录的`Start Yanzhou Workspace.cmd`启动；本轮不自动重启正在工作的应用。
 
-独立工作台位于本机 `E:/Project/yanzhou-workspace`，上游固定 v0.5.1 / `59477702e1f86187d1ac8a84905505e2dfe53c73`。双击其根目录 `Start Yanzhou Workspace.cmd` 启动。详细操作见[工作台说明](../../../yanzhou-workspace/docs/yanzhou-integration.md)。
+## 日常只看两个入口
 
-日常怎么分工、下任务、看产物和交接，先读[言咒与Mr. Mak协作使用指南](../../../yanzhou-workspace/workspace/2026-10-14_yanzhou/collaboration.md)。工作台言咒卡片新增“协作使用”页签，可随时查看并复制话术。
+- **言咒项目卡**：当前工作、规范与循环、开发地图、审阅与资产、历史制作入口。它帮助找产物和解释进度。
+- **顶部“言咒 · 开发工作台”面板**：查看真实路径／Git状态、按白名单只读查规范、准备执行合同。会话调度和产物完成是两件事。
 
-当前制作轮（2026-10-14）：依据[用户模型细化要求](../sources/inbox/2026-10-14-component-detail-round.md)重新进入HTML与效果图阶段，优先文本框与19项组件形态细节。工作台同卡片的[组件制作流程](../../../yanzhou-workspace/workspace/2026-10-14_yanzhou/component-pipeline.md)及“组件设计进度”页签持续登记各项状态。设计完成后先交调研agent评估Higgsfield，再交专门资产agent生成，最后打磨拼装；阶段与证据分别记录。
+当前先做主系统完善准备，旧3D组件页只作为历史轮次查阅。新的2D工程还没有建立，面板现有代码／资产连接仍指向既有3D探索工程。
 
-| 分区 | 维护位置与接入方式 |
-| --- | --- |
-| 现行设计、来源、探索、治理 | 继续在本项目各目录维护；工作台只读预览明确选择的文档，不复制权威正文 |
-| 实现与技术证据 | 继续在现有 `E:/Project/yanzhou-godot`；工作台识别 `godot/` 内的 .NET 工程 |
-| 制作源资产 | 保留原路径，沿统一 AS/DM 登记；工作台不替代素材资格或许可 |
-| 任务与设计裁决 | 工作台保存目标、职责、材料文件哈希、文件所有权、验收和暂停/恢复依据；问题仍只维护原 questions |
-| 方法与技能 | 本仓库4项不变；工作台另有20项受控入口及固定来源库，执行资源按实际任务审查 |
-| 交付 | 指向所属仓库固定提交及实际证据；卡片状态不证明 Accepted、实现完成或验证通过 |
+## 信息放在哪里
 
-工作台默认知识检索仅覆盖10份操作与开发白名单文档，不索引整个 design、sources、探索历史或其他项目。NONE/CUSTOM 沿 READ-1；CORE/GDD/FULL 使用前先展开成确切文件清单。输入工作树与提交基准分别记录；未提交材料不会因进入工作台而被发布或采纳。
+| 信息 | 唯一维护处 | 在工作台怎样查 |
+| --- | --- | --- |
+| 当前实现与版本 | [开发状态](README.md) | 顶部文档“开发索引” |
+| 操作规范与制作循环 | [开发规范](development-standard.md)、[循环规格](iteration-spec.md) | 顶部对应文档；项目卡提供读法 |
+| 开放设计问题 | [questions](../governance/questions.md) | 本轮允许后打开指定原文，不复制成工作台待决表 |
+| 资产身份与使用条件 | [AS／DM目录](../../docs/registry/demo-assets.md)及原件说明 | 目录定位，再用Files看原件／预览；不复制资产 |
+| 每轮产物与审阅结论 | 所属设计页、代码协调记录或治理报告 | 项目卡关联本轮记录；执行合同只负责会话与所有权 |
+| 代码、构建与技术报告 | Godot或以后选定的实现仓库 | Files或所属仓库入口 |
 
-设计取舍继续遵守[开发规范第8节](development-standard.md#8-设计裁决闸门)；重点交互遵守第9节四阶段。终端与通用文件操作仍使用当前用户权限，面板合同不是操作系统沙箱。账户、远程访问、付费生成、跨会话派单及玩法实验不因安装而自动执行。
+操作与开发文档白名单由`projects/yanzhou/project.json`明确列出；新增规范不自动授权读取全部design、sources、历史或其他方向。CORE／GDD／FULL先展开确切文件，再准备CUSTOM合同。
 
-接入状态、检查与分支见[本次记录](../../docs/maintenance/2026-10-14-mrmak-integration.md)；详细技术检查保存在[工作台验收记录](../../../yanzhou-workspace/docs/verification/yanzhou-integration.md)。
+## 读懂状态
+
+`prepared`是准备合同，`active`是会话打开，`closed`是结束合同并释放所有权；不等于制作完成或验收通过。卡片`done`也只关闭工作项。长期结论必须有所属仓库记录、固定版本和检查范围。
+
+工作台现有能力、应展示的字段、手工登记步骤与尚未实现的自动化见[展示规格](workbench-spec.md)。具体安装和本机合同操作见[工作台说明](E:/Project/yanzhou-workspace/docs/yanzhou-integration.md)与[协作使用](E:/Project/yanzhou-workspace/workspace/2026-10-14_yanzhou/collaboration.md)。
+
+工作台自身目前只有上游remote，无用户自有remote；本轮文档接入保留本地提交，不向上游发送用户资料。

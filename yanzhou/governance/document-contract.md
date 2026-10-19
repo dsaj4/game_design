@@ -94,4 +94,6 @@ core-design.md沿GDD核心事实浓缩，不拥有独立规则裁决权；更新
 
 ## 正式开发文档（DOC-021）
 
-`development/production-plan.md`维护阶段范围、交付和验收门槛；`development/development-standard.md`维护本项目开发质量与协作要求；`development/asset-readiness.md`引用已登记AS／DM并记录本次接入差异。资产身份仍在统一目录、玩法问题仍在questions、规则仍在design。技术ADR、具体架构、代码任务与Bug留选定的实现仓库；开发入口只链接当前范围、版本与实际证据。
+2026-10-18按DOC-026收束：`development/README.md`唯一汇总当前能力与固定版本；`production-plan.md`只维护阶段范围、依赖和退出条件；`development-standard.md`是规范体系入口和开发质量要求；`iteration-spec.md`规定一轮如何登记与收口；`workbench-spec.md`规定展示职责及现有／待实现能力；`development-guide.md`只解释阶段与玩家能力，不另裁决规则或进度。
+
+`asset-readiness.md`引用AS／DM并记录接入差异。单轮结果留所属设计页、代码协调／报告或治理报告，工作台提供摘要与入口；本机会话状态不替代长期结论。资产身份仍在统一目录、玩法问题仍在questions、规则仍在design。技术ADR、具体架构、代码任务与Bug留选定实现仓库。当前入口不追加多轮“当前”，历史过程按固定Git／原报告取证。

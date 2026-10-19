@@ -6,6 +6,8 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 
 本目录按每份来源的资格、采纳和使用范围阅读；不以文件日期推断当前玩法。[现行规则](../../design/README.md)、[完整清单](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/reorganizations/2026-09-23-doc1/inventory.md)、[旧目录与阶段记录](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/game-design-workflow/idea-inbox/README.md)分别维护。
 
+本轮新增：[2026-10-18设计开发规范整理与Q1—Q3答复](2026-10-18-development-system-review.md)。同一游戏新2D表现、先闭合首场核心和按变化裁剪工作流已明确，登记DOC-026；具体玩法与二维展示条款仍待设计，不因此改变CORE-063。
+
 - [2026-09-05-vocabulary-design-questions](2026-09-05-vocabulary-design-questions.md)
 - [2026-09-05-word-inventory-and-allocation](2026-09-05-word-inventory-and-allocation.md)
 - [2026-09-05-yanzhou-core-combat](2026-09-05-yanzhou-core-combat.md)

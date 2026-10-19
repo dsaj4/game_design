@@ -1,6 +1,6 @@
 # 言咒文件索引
 
-Project ID：game-002。文档角色：Navigation。导航核对：2026-10-14；沿DOC-020职责，不另维护逐文件库存。
+Project ID：game-002。文档角色：Navigation。导航核对：2026-10-18；沿DOC-020职责，不另维护逐文件库存。
 
 按职责进入现有目录；文件存在、出现在索引或具有历史资格，都不扩大阅读授权。当前规则、Qualified框架、来源与旧证据分别解释。
 
@@ -12,9 +12,10 @@ Project ID：game-002。文档角色：Navigation。导航核对：2026-10-14；
 | 六系统与两个子系统 | [系统目录](../design/systems/README.md)；各目录五文件明确状态 |
 | 局内与交互公共合同 | [公共流程](../design/common/README.md) |
 | 正式来源与原始输入 | [来源导航](../sources/README.md)、[素材审查及增量](../design/source-review.md) |
-| 当前问题与审查证据 | [问题清单](questions.md)、[2026-10-08审查](main-system-review-2026-10-08.md)、[旧审查](conflict-register.md) |
+| 当前问题与审查证据 | [问题清单](questions.md)、[主系统与3D复盘](development-review-2026-10-18.md)、[历史审查](conflict-register.md) |
 | 规则和决策身份 | [规则定位](rule-index.md)、[决策](decision-log.md)、[编号](id-registry.md) |
 | 效果、实现与视觉 | [效果](../effects/README.md)、[开发](../development/README.md)、[视觉](../visual/README.md)；旧版本证据不证明新版 |
+| 设计开发规范与工作台 | [规范体系](../development/development-standard.md)、[小循环](../development/iteration-spec.md)、[工作台展示](../development/workbench-spec.md)、[开发解释](../development/development-guide.md) |
 | 探索与历史 | [阅读合同](../exploration/start.md)、[探索入口](../exploration/README.md)、[历史取证](../history/README.md)；正文需另选范围 |
 | 清理与版本取证 | [2026-10-14结构整理与本机恢复](../../docs/maintenance/2026-10-14-yanzhou-structure-cleanup.md)；既有[清理报告](cleanup-report.md)及[历史清理映射](cleanup-map.json)按原轮次取证 |
 
