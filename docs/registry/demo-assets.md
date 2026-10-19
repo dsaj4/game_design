@@ -4,6 +4,12 @@
 
 本轮是**初始登记**：来自当前开发索引、视觉入口、DIR-029演示交付和已跟踪参考包；不是全历史资产审计。未打开旧归档、未读取未跟踪新方向、未运行Demo或重新验证玩法。登记基线：`25ec81ea9f9cef3496922068bc63622b36aba5c5`。下文“基线提交”均指该完整提交，不自动追随HEAD。本仓库原件用该提交+路径固定；外部资源另外注明。
 
+## <a id="as-g002-030"></a>AS-G002-030 二维桌面参考截图
+
+- 归属：game-002-optimization / DIR-039；[完整登记与使用边界](../../yanzhou/exploration/DIR-039-2d-first-battle/README.md#as-g002-030-用户二维桌面参考截图)。用户2026-10-18附件，仅作空间分区、桌面氛围与卡牌层次参照；设计Raw / Unqualified。
+- v01，JPEG 1919×1079；SHA-256 `191934888cfd853dc312e87ae1e5de602e821aa392e2af404a95a133e9bc4dee`。原件 `C:/Users/ADMINI~1/AppData/Local/Temp/codex-clipboard-d4ed62f5-d98f-4d07-b496-8d205713eaca.jpg`，未复制二进制入Git。
+- Catalogued / PresentLocal，2026-10-18已目视及核SHA；临时路径长期可访问性不保证。原作者／作品身份／原URL／再分发许可Unknown；仅本轮内部参照，未导入、未公开上传。uses／derived-from：None；使用者DIR-039/R1。
+
 ## Demo
 
 | ID / 名称 / 标签 | 归属 / 权威说明 | 固定版本与入口 | 状态 / 可复用范围 |
