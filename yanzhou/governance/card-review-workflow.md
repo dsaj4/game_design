@@ -14,7 +14,7 @@ Project ID：game-002。文档角色：WorkflowGuide。2026-10-04 / TL-1 + INS-1
 | 资格确认 | 使用grill-with-docs先查允许材料，再按项目批量澄清；七项资格完整才晋级[合格素材](../../game-design-workflow/templates/qualified-gdd-material-template.md) |
 | 提案／评估 | 按[提案](../../game-design-workflow/templates/proposal-template.md)与[评估](../../game-design-workflow/templates/evaluation-template.md)写机制、反馈、代价、反例及最小验证；不把猜测变已定参数 |
 | 采纳 | [Draft Change](../../game-design-workflow/templates/draft-change-template.md)列具体增删、理由和影响；明确采纳后同步权威design、必要摘要及decision-log；旧授权只在原范围生效 |
-| 验证准备 | 冻结限定输入、同预算对照、正常与失败路径；[交接](../development/test-handoff.md)保持Draft／NotRun直到就绪，执行须有具体实验任务授权 |
+| 验证准备 | 冻结限定输入、同预算对照、正常与失败路径；[交接](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/test-handoff.md)保持Draft／NotRun直到就绪，执行须有具体实验任务授权 |
 
 设计Accepted与验证通过分别记录，不要求先有测试才能采纳明确的结构。完整GDD仍用[登记模板](../../game-design-workflow/templates/gdd-writing-requirements-and-template.md)。
 

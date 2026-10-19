@@ -58,4 +58,4 @@
 - [ ] IN-C01–IN-C14补充候选整体采纳。
 - [ ] 数值或体验已验证。
 
-同步[决策记录](../../governance/decision-log.md)、相关基础素材和[测试交接r6](../../development/test-handoff.md)。本次不运行或分派测试。
+同步[决策记录](../../governance/decision-log.md)、相关基础素材和[测试交接r6](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/test-handoff.md)。本次不运行或分派测试。

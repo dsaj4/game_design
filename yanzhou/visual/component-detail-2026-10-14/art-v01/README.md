@@ -2,7 +2,7 @@
 
 2026-10-14 · AS-G002-017 · COMPONENT-ART-01。当前选用三张v02修订PNG，三张v01候选完整保留。内置image_gen生成／编辑；实际1586×992，无透明背景。提示请求2560×1600，实际输出未达到该尺寸，不以请求值登记。
 
-[画册](index.html) · [实际来源、提示词、哈希](manifest-v01.json) · [设计规格](../brief-v01.md) · [逐项复核](../design-review-v01.md) · [后续交接范围](../handoff-readiness-v01.md)
+[画册](index.html) · [实际来源、提示词、哈希](manifest-v01.json) · [设计规格](../brief-v01.md) · [逐项复核](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/component-detail-2026-10-14/design-review-v01.md) · [后续交接范围](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/component-detail-2026-10-14/handoff-readiness-v01.md)
 
 - `01-text-card-v02.png`：文字框和纸牌。修掉药草／矿石和虚构资源量，改为批次／数量／错误字段和护盾图形。图中文字只是形态示例，动态中文在运行层独立排版，不使用整板或假文字作为UI。
 - `02-wands-pawns-chips-v02.png`：双法器、双棋子、三筹码及托盘。尺寸标注、圆形施法币和锁箍已修订；环杖主图局部开口及筹码局部前后视图仍有图像生成不一致，具体排除按D复核，几何严格按文字／HTML和可采纳局部，不能按错误像素建模。

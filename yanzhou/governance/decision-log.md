@@ -528,7 +528,7 @@ Accepted / Documentation。用户说明“设计界面已经完成”，要求�
 
 Accepted / Development。用户先授权“开始实测”，许可澄清时选择“先完成Godot，Unity暂缓”，随后明确“直接确定使用godot”。据此采用Godot唯一工程，替代DOC-021原双引擎比较流程。Unity未实测，不以调研或Godot结果伪造比较优势。
 
-唯一实现入口[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)，工具冻结、技术ADR、代码／构建和测量留该仓库。开发计划和索引记录[首版交付及未验范围](../development/reports/godot-start-2026-10-11.md)，新Demo登记为DM-G002-011，实际导入AS-G002-010@BATTLE-3D-02。
+唯一实现入口[E:/Project/yanzhou-godot](E:/Project/yanzhou-godot/README.md)，工具冻结、技术ADR、代码／构建和测量留该仓库。开发计划和索引记录[首版交付及未验范围](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/reports/godot-start-2026-10-11.md)，新Demo登记为DM-G002-011，实际导入AS-G002-010@BATTLE-3D-02。
 
 本轮检查EX-001 0—14拍、输入、拍末恢复与导入／打包，不修改规则或案例数值；原型按钮、两件模型与逻辑对象映射及占位卡面只用于实装核对，不补TL-Q08设计决定。GDD仍2.2／GDD-0，完整117项验收、完整单战、真人体验及平衡继续未完成，其他阶段不因此整体标完成。
 
@@ -536,7 +536,7 @@ Accepted / Development。用户先授权“开始实测”，许可澄清时选�
 
 ## 2026-10-11：成品Demo任务分解（G002-DOC-023）
 
-Accepted / Documentation。用户说明第一阶段已完成、目前只有基本逻辑，要求将画面表现、资产运用、物体动作、UI等按最终成品质量细分为HTML任务表。依据当前开发计划、资产接入、EX-001、Godot首版交付及实现仓库验证报告/真实截图，建立[成品任务表](../development/demo-quality-taskboard.html)：52项必做覆盖范围与合同、运行美术、正式UI、动作音画、完整单战、体验与质量收束、离线包验收与接手；4项后续扩展不计成品完成率。
+Accepted / Documentation。用户说明第一阶段已完成、目前只有基本逻辑，要求将画面表现、资产运用、物体动作、UI等按最终成品质量细分为HTML任务表。依据当前开发计划、资产接入、EX-001、Godot首版交付及实现仓库验证报告/真实截图，建立[成品任务表](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/demo-quality-taskboard.html)：52项必做覆盖范围与合同、运行美术、正式UI、动作音画、完整单战、体验与质量收束、离线包验收与接手；4项后续扩展不计成品完成率。
 
 本次规划交付单元为可完整游玩的一场高完成度战斗Demo，沿既定视觉和首批内容；路线/商店等沿原P4/P5后续推进。表中待决引用原questions，技术任务与Bug留Godot仓库，不新增规则正文。建议性能预算和体验验证样本为任务准备建议，须执行时冻结；真人体验验证需对应实验任务授权，本轮未执行。
 
@@ -552,7 +552,7 @@ Accepted / DevelopmentPolicy。用户明确要求：“开发过程中如果遇�
 
 设计裁决触发当前开发批次暂停；专人查已有答案、准备方案、需要时批量交用户选择。总控核对回传、必要资格／采纳与权威记录后恢复；一轮结束但仍有Unknown或待裁决，继续暂停。纯工程缺口不单独触发裁决。此管理决定不采纳新玩法、修改EX-001或授权实验。
 
-触发时核对结论：TL-Q08剩余操作合同及TL-Q07完整单战／疲劳参数需要一轮设计解决；此前两项用户确认保持，不重问。FB-Q01按已冻结范围延期，不自动加入主动启停。复用聊天 `01a12de2-58a7-76f3-bc2a-21bde665161b` 为“言咒设计对接”，继续使用GPT-6.1-sol；开发下一批曾暂停。后续用户已确认及CORE-060集成见下条，恢复状态见[总控记录](../development/reports/demo-control-2026-10-11.md)。
+触发时核对结论：TL-Q08剩余操作合同及TL-Q07完整单战／疲劳参数需要一轮设计解决；此前两项用户确认保持，不重问。FB-Q01按已冻结范围延期，不自动加入主动启停。复用聊天 `01a12de2-58a7-76f3-bc2a-21bde665161b` 为“言咒设计对接”，继续使用GPT-6.1-sol；开发下一批曾暂停。后续用户已确认及CORE-060集成见下条，恢复状态见[总控记录](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/reports/demo-control-2026-10-11.md)。
 
 <a id="g002-core-060"></a>
 
@@ -598,7 +598,7 @@ Accepted / DevelopmentPolicy。用户直接消息 `01a12f65-1b8e-7192-97ed-eb246
 
 ### 2026-10-14：CORE-063 展示修订 physical-table.2
 
-依据[本聊天用户原话与继续制作授权](../sources/inbox/2026-10-14-demoncards-presentation.md)及原D的[三阶段交付](../visual/demoncards-reference-2026-10-14/design-review-v01.md)，总控完成[M／P／E／D来源链](../sources/draft-changes/D-2026-10-14-demoncards-presentation.md)。必要名称／精确值／公开状态允许绑定3D物件的精简只读容器与悬停／键盘短提示；提示不暂停、不提交、不揭示。静态近观、原位Completion／Use、公开信息、消费锁与暂停继续有效；未暂停的新公开事实可作同身份r→T展示转位，不改真实队序或结算。
+依据[本聊天用户原话与继续制作授权](../sources/inbox/2026-10-14-demoncards-presentation.md)及原D的[三阶段交付](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/demoncards-reference-2026-10-14/design-review-v01.md)，总控完成[M／P／E／D来源链](../sources/draft-changes/D-2026-10-14-demoncards-presentation.md)。必要名称／精确值／公开状态允许绑定3D物件的精简只读容器与悬停／键盘短提示；提示不暂停、不提交、不揭示。静态近观、原位Completion／Use、公开信息、消费锁与暂停继续有效；未暂停的新公开事实可作同身份r→T展示转位，不改真实队序或结算。
 
 沿用CORE-063，无新玩法编号；尺寸／材质／时长为本轮可逆制作参数。Demoncards作为第一表现参照，新Godot视觉／动作／输入／用户接受分别取证；来源资格和制作授权不证明体验成立。
 
@@ -611,3 +611,5 @@ Accepted / Documentation and DevelopmentPolicy。用户要求在新的2D实现�
 [开发规范](../development/development-standard.md)作为规范总入口，新增[小循环规格](../development/iteration-spec.md)与[工作台展示规格](../development/workbench-spec.md)；[开发解释](../development/development-guide.md)说明每次交付的阶段与能力。当前进度统一在开发README，阶段计划只维护依赖／退出条件，开放问题只在questions；工作台保存展示与原文入口，执行合同不代替验收状态。新重点交互继续具备文字、HTML、美术和真实实现证据，小修引用旧产物并核对差异。
 
 本轮清除当前入口的重复历史过程，原报告、失败、源资产及固定提交可追溯。只校准baseline的physical-table.2及导航，不新增CORE或修改玩法规则；Q1没有直接替代CORE-063，Q2没有采纳FB-Q01的具体方案。新二维展示条款及实际玩法变更继续资格／M／P或E／D／明确采纳。旧3D制作不自动续派，下一设计轮沿questions；无玩法实验或2D实现启动。
+
+同日按用户“去向无需登记，专项清理和高价值合并”继续执行：删除旧过程正文与重复状态页，独有工程约束／失败经验合入工程接手与3D复盘；资产、冻结证据和正式设计来源保留。开发默认读取8文件CUSTOM启动包，具体任务补细则，探索仍沿READ-1；不新增迁移清单、玩法编号或实现授权。

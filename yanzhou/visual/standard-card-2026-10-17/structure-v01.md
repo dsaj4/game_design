@@ -199,7 +199,7 @@
 | [交互与保存规则](../../design/common/interaction-save/rules.md) | CORE-060／063相关信息、卡片、公开、暂停与实体宿主要求；必要读数和类别中文 |
 | [CARD-01及统一组件规格](../component-detail-2026-10-14/brief-v01.md#card-01-双面主纸牌) | 统一规格、CARD-01；纸牌基线、分层和原有状态 |
 | [少文字候选](../../sources/inbox/2026-10-17-minimal-battle-ui.md) | 前轮已读文字；本轮C3明确替换其中“强化主桌保留两分支”的制作建议，原规则不变 |
-| [审阅v02](../ui-review-2026-10-15/review-v02.md)及工具data.json指定fixture元数据 | 版本、组件和截图入口；不将HTML模拟当规则执行 |
+| [审阅v02](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/ui-review-2026-10-15/review-v02.md)及工具data.json指定fixture元数据 | 版本、组件和截图入口；不将HTML模拟当规则执行 |
 | B13 `09-completion-paused.png` | 前轮已目视的主桌：牌面预计时间、容量与实际卡位 |
 | B13 `10-card-closeup.png`、`04-dark-closeup.png`、`demon-09-player-attack.png` | 本轮实际目视1920×1080原图：公开／暗面、放大卡面、时间与后续记次混排；768档本轮未目视 |
 

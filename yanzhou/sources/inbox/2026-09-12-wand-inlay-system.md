@@ -53,4 +53,4 @@
 
 ## 下一步
 
-审阅成套候选后决定采纳范围；具体镶嵌可与流派物品一起设计。待测需求写入[固定交接](../../development/test-handoff.md)，保持Draft／NotRun。
+审阅成套候选后决定采纳范围；具体镶嵌可与流派物品一起设计。待测需求写入[固定交接](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/test-handoff.md)，保持Draft／NotRun。

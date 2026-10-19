@@ -16,7 +16,7 @@
 
 根exploration与assets已退役；旧workspaces、optimization兼容树不恢复。根目录只导航，不复制项目规则。来源链接不扩大阅读授权。
 
-2026-10-18开发入口整理：言咒[规范体系](../yanzhou/development/development-standard.md)统一路由材料、制作、工作台、资产、质量和交付；[当前状态](../yanzhou/development/README.md)只汇总实际能力，[开发解释](../yanzhou/development/development-guide.md)说明每项工作的位置。旧批次与原件按[清理记录](../yanzhou/governance/cleanup-report.md#2026-10-18设计开发规范整理)取证，2D尚未开始实现。
+2026-10-18开发入口整理：言咒[规范体系](../yanzhou/development/development-standard.md)统一路由材料、制作、工作台、资产、质量和交付；[当前状态](../yanzhou/development/README.md)只汇总实际能力，[开发解释](../yanzhou/development/development-guide.md)说明每项工作的位置。开发接手按当前状态入口的8文件启动包；旧过程报告已清退，经验合并到3D复盘与工程接手，原文按固定Git取证。2D尚未开始实现。
 
 Demo和制作/参考素材由[统一目录](registry/demo-assets.md)跨项目索引，[DA-1](demo-asset-standard.md)规定归属、版本和复用记录。原文件仍在所属项目或外部实现位置，登记不改变项目权限。
 

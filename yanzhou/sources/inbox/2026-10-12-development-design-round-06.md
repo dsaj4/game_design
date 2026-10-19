@@ -22,7 +22,7 @@
 
 1. [开发标准 §6／8](../../development/development-standard.md)区分指定机器上的性能检查和玩家体验；日常可逆实现由开发者推进，已有授权不重复询问。DOC-024 要求先核查既有决定，工程证据不足本身不是新玩法裁决。
 2. [生产计划](../../development/production-plan.md)对“引擎／仓库／目标设备”明确写“技术负责人＋用户”，对目标设备预算写“美术／音频／技术”；末尾要求建议性能预算在任务开始时冻结，仅对真人体验验证另列实验授权。不能把两类职责合并成每个工程阈值都须新用户答复。
-3. [任务表 DQ-12／44／45](../../development/demo-quality-taskboard.html)要求预算开工确认、DQ-44 工程／技术美术设定冻结并保留原始测量；推荐数值已有可直接采用的方案。DQ-12 以实际瓶颈改善和视觉保真为标准。DQ-45 的连续10局／至少30分钟属于另一个任务，不并入本轮。
+3. [任务表 DQ-12／44／45](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/demo-quality-taskboard.html)要求预算开工确认、DQ-44 工程／技术美术设定冻结并保留原始测量；推荐数值已有可直接采用的方案。DQ-12 以实际瓶颈改善和视觉保真为标准。DQ-45 的连续10局／至少30分钟属于另一个任务，不并入本轮。
 4. [ADR-0001](E:/Project/yanzhou-godot/docs/adr/0001-godot-windows.md)已有当前机器、两档分辨率及60fps工作目标；首开10秒／存档1秒是暂定观察预算。没有内存、显存或包体的数值门槛，本文不补造。
 
 推荐数值并非从玩法规则数学推导出的唯一阈值；本轮闭合的是**工程负责人已有设定并冻结技术预算的职责**。以后若为达标需要降低既定品质、改变可见行为、放宽对外承诺或改变目标设备，须就实际取舍另行处理；本轮不预先批准这些变化。
@@ -59,7 +59,7 @@ CORE-060—062 继续适用。真实失焦／最小化仍在合法完整事件�
 
 ## 固定输入与证据边界
 
-GODOT-EX002-0.4 的固定运行源码为 `9c50458a56a38f0c6ebd001d9e6a3ef34382adaa`，设计输入为 `abe8869fa1b15a4f3a29c635f06d0cfaae8c3b20`。本轮只读取[第六批集成报告](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-06-integration.md)与[包证据摘要](E:/Project/yanzhou-godot/docs/coordination/development-batch-06-release-evidence.json)，没有跟读其证据链接或重跑。报告所列346项核心、两档界面／表现／卡面／失焦及复制包结果仍是原作者的限定运行结论，不包含本轮性能测量。
+GODOT-EX002-0.4 的固定运行源码为 `9c50458a56a38f0c6ebd001d9e6a3ef34382adaa`，设计输入为 `abe8869fa1b15a4f3a29c635f06d0cfaae8c3b20`。本轮只读取[第六批集成报告（Git原文）](E:/Project/yanzhou-godot/docs/development-handoff.md#追溯与日常记录 "git show cc8c229fe89d85a51e739efc0111a54d139fff1a:docs/reviews/2026-10-12-batch-06-integration.md")与[包证据摘要](E:/Project/yanzhou-godot/docs/coordination/development-batch-06-release-evidence.json)，没有跟读其证据链接或重跑。报告所列346项核心、两档界面／表现／卡面／失焦及复制包结果仍是原作者的限定运行结论，不包含本轮性能测量。
 
 读取时共享仓库已由总控推进：设计 HEAD `c803f89dbb7ff23d50f003a11334ba5343fad1c2`，代码文档 HEAD `f31e6a907935ff5a49476a93b988f5af9c0af311`；这不改变上述固定包输入。分支均为 `codex/2026-10-11-demo-control`。以下为本轮读取内容的 SHA-256，便于总控复核动态交接版本：
 
@@ -75,4 +75,4 @@ GODOT-EX002-0.4 的固定运行源码为 `9c50458a56a38f0c6ebd001d9e6a3ef34382ad
 
 交付检查仅限本文和本轮所引文件的静态核对；未运行游戏、硬件查询或新代码检查。没有暂存、提交、推送，也没有改动总控及其他工作者的文件。用户待答：无。工程冻结与恢复决定：由总控记录。
 
-总控同日复核：职责解释与既有授权相符，无新玩法或用户选择，故不新建M／E／D或CORE编号。已在[第七批工程合同](E:/Project/yanzhou-godot/docs/coordination/2026-10-12-batch-07-contract.md)冻结本批目标、采样口径、边界和文件／窗口所有权，解除本项暂停；先测当前单战样板，再决定优化，不宣称DQ-44最终验收。
+总控同日复核：职责解释与既有授权相符，无新玩法或用户选择，故不新建M／E／D或CORE编号。已在[第七批工程合同（Git原文）](E:/Project/yanzhou-godot/docs/development-handoff.md#追溯与日常记录 "git show cc8c229fe89d85a51e739efc0111a54d139fff1a:docs/coordination/2026-10-12-batch-07-contract.md")冻结本批目标、采样口径、边界和文件／窗口所有权，解除本项暂停；先测当前单战样板，再决定优化，不宣称DQ-44最终验收。

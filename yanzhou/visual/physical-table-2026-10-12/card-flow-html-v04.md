@@ -10,4 +10,4 @@
 
 检查通过：JavaScript 语法；新战／同拍待效／胜利／独立筹码情境中的双方棋子共 8 个 DOM 替身入口；生命与盾精确值、疲劳拍／量、终局无下一疲劳、独立情境不冒称终局；无旧面板块，查看不修改快照，关闭保持暂停且焦点回原棋子。原 20 情境及第 21 情境声明区块逐字一致，无外部请求依赖。
 
-真实浏览器与三档布局、实际命中、OS 失焦、引擎和真人体验均 NotRun；本轮不重试此前已拒绝的 file URL，不启动服务。总控负责 [验证记录](card-flow-html-verification-v04.md)、[固定清单](card-flow-v04-manifest.json)、索引与提交。本工作者仅写本文与 v04 HTML，未提交／推送。
+真实浏览器与三档布局、实际命中、OS 失焦、引擎和真人体验均 NotRun；本轮不重试此前已拒绝的 file URL，不启动服务。总控负责 [验证记录](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/physical-table-2026-10-12/card-flow-html-verification-v04.md)、[固定清单](card-flow-v04-manifest.json)、索引与提交。本工作者仅写本文与 v04 HTML，未提交／推送。

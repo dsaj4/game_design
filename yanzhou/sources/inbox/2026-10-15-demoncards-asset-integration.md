@@ -6,16 +6,16 @@
 
 执行范围：保留当前十九组件版本，列出并实际接入对应桌/布、卡牌实体/背纹、作者原版字体，形成独立本机预览。既有「言咒设计对接」继续负责设计核对，总控负责画面、集成与交付。原件及旧预览保留，来源、变换和逐文件指纹单列；不由游戏内存在某素材推断其公开分发条件。模型与纹理的公开复用条件 Unknown，字体沿作者提供的原OFL。
 
-接入清单和实际状态见[工程清单](E:/Project/yanzhou-godot/docs/coordination/2026-10-15-demoncards-asset-integration.md)，设计适配见[本轮交接](../../visual/demoncards-assets-2026-10-15/design-handoff-v01.md)。本条不作为新的玩法M/P/E/D，也不改变EX-002或CORE-063的结算、公开、容量、输入与停点。
+接入清单和实际状态见[工程清单（Git原文）](E:/Project/yanzhou-godot/docs/development-handoff.md#追溯与日常记录 "git show cc8c229fe89d85a51e739efc0111a54d139fff1a:docs/coordination/2026-10-15-demoncards-asset-integration.md")，设计适配见[本轮交接](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/demoncards-assets-2026-10-15/design-handoff-v01.md)。本条不作为新的玩法M/P/E/D，也不改变EX-002或CORE-063的结算、公开、容量、输入与停点。
 
 ## 同日追加：后续优先使用现成资源
 
 用户原话：「再查一下还有什么可用资源可以接入，后续开发时优先使用现成资源」。明确要求继续盘点并将复用作为后续开发默认；不等于要求把所有发现的候选立即接入或替换现有成品。
 
-执行为只读核对本机原包、固定组件源库及当前运行依赖，按证据和适配成本列候选；具体[追加清单](E:/Project/yanzhou-godot/docs/coordination/2026-10-15-existing-assets.md)留实现仓库。后续先用已有运行资产和固定源库，核实原游戏候选，只有真实缺口才新建/生成，规则写入[开发规范第5节](../../development/development-standard.md#5-资产接入)。设计仍由原设计对接负责，源件与旧交付保留，不新增玩法资格或公开发布授权。
+执行为只读核对本机原包、固定组件源库及当前运行依赖，按证据和适配成本列候选；具体[追加清单（Git原文）](E:/Project/yanzhou-godot/docs/development-handoff.md#追溯与日常记录 "git show cc8c229fe89d85a51e739efc0111a54d139fff1a:docs/coordination/2026-10-15-existing-assets.md")留实现仓库。后续先用已有运行资产和固定源库，核实原游戏候选，只有真实缺口才新建/生成，规则写入[开发规范第5节](../../development/development-standard.md#5-资产接入)。设计仍由原设计对接负责，源件与旧交付保留，不新增玩法资格或公开发布授权。
 
 ## 同日继续：全部候选适配
 
-用户继续明确要求：「尝试全部适配接入」。执行范围是前序追加清单的13模型、17纹理、12音效及相关材质/特效/曲线候选，不扩成搬运全部原游戏资源。授权进行必要转换、Godot适配与本机运行验证，形成独立预览；已符合当前设计的映射接主桌，其余通过同引擎资源检视呈现适配结果。设计交原设计对接D，总控负责画面/集成与交付，A/B按[第十三批分工与验收](E:/Project/yanzhou-godot/docs/coordination/2026-10-15-all-assets-adaptation.md)执行。原包、固定源件和B12交付保留；不新增原游戏喝酒、商店、角色等玩法或公开发布范围。
+用户继续明确要求：「尝试全部适配接入」。执行范围是前序追加清单的13模型、17纹理、12音效及相关材质/特效/曲线候选，不扩成搬运全部原游戏资源。授权进行必要转换、Godot适配与本机运行验证，形成独立预览；已符合当前设计的映射接主桌，其余通过同引擎资源检视呈现适配结果。设计交原设计对接D，总控负责画面/集成与交付，A/B按[第十三批分工与验收（Git原文）](E:/Project/yanzhou-godot/docs/development-handoff.md#追溯与日常记录 "git show cc8c229fe89d85a51e739efc0111a54d139fff1a:docs/coordination/2026-10-15-all-assets-adaptation.md")执行。原包、固定源件和B12交付保留；不新增原游戏喝酒、商店、角色等玩法或公开发布范围。
 
-本轮实际交付见[第十三批开发记录](../../development/reports/demoncards-candidates-2026-10-15.md)；导出、检视、主桌使用及原UE逻辑未完整重建分别登记，不把用户的尝试授权记成全部资源已获最终美术接受。
+本轮实际交付见[第十三批开发记录](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/reports/demoncards-candidates-2026-10-15.md)；导出、检视、主桌使用及原UE逻辑未完整重建分别登记，不把用户的尝试授权记成全部资源已获最终美术接受。

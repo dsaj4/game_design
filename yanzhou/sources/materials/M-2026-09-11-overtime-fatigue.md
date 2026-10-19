@@ -120,7 +120,7 @@ C01–03的疲劳起点、首扣窗口、间隔与曲线须作为完整新输入
 | 日期 | 目标 | 处理结果 | 边界 |
 | --- | --- | --- | --- |
 | 2026-09-11 | [提案](../proposals/P-2026-09-11-overtime-fatigue.md)、[评估](../evaluations/E-2026-09-11-overtime-fatigue.md)、[G002-CORE-014](../draft-changes/D-2026-09-11-overtime-fatigue.md) | Included：FAT-A方向Accepted | FAT-C仍为候选；没有新增词效或实现 |
-| 2026-09-11 | [测试交接](../../development/test-handoff.md) | TH-2026-09-11-002 / r2 | 独立审查执行包和框架账本，旧数据不变 |
+| 2026-09-11 | [测试交接](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/test-handoff.md) | TH-2026-09-11-002 / r2 | 独立审查执行包和框架账本，旧数据不变 |
 
 2026-09-11维护：用户按[GR v1](M-2026-09-11-global-rule-boundaries.md)的GR10采用“保留完整FAT-C候选并合批审查”的处理方式。FAT-C仍为Execution Candidate v0.1，未改变任何细则／数值或把C01升级为正式三类；测试继续积累，复用交接F06–F08。
 

@@ -27,7 +27,7 @@
 | [交互体验](../../design/common/interaction-save/experience.md)、[交互设计](../../design/common/interaction-save/design.md) | 已读定位；承诺、预测、结果分开，体验目标仍是假设 |
 | [首批案例](../../design/examples/simple-spell.md)、[完整单战](../../design/examples/complete-battle.md) | 本轮读取第7节逐拍表与疲劳参数，配合前轮已读行动／标记定义；示例值不泛化 |
 | [表现方案](../../visual/demoncards-reference-2026-10-14/design-v01.md) | 第2节文本与图形字段，当前字体、图形与容器边界 |
-| [审阅v01](../../visual/ui-review-2026-10-15/review-v01.md)、[审阅v02](../../visual/ui-review-2026-10-15/review-v02.md) | 前轮完整读取；当前文字与待审状态 |
+| [审阅v01](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/ui-review-2026-10-15/review-v01.md)、[审阅v02](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/ui-review-2026-10-15/review-v02.md) | 前轮完整读取；当前文字与待审状态 |
 | 前轮已读核心设计／基准及B13主桌截图、主桌读数实现 | 背景与实际画面观察；本轮不据代码反证玩法成立，未重跑引擎 |
 
 ## 可能带来的玩家体验

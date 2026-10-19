@@ -7,7 +7,7 @@
 ## 晋级前原始记录（历史）
 
 
-日期：2026-09-14。版本：PG v0.2。状态：**Raw Idea / Unqualified／可审阅的完整单卡候选表**。[RG路线／遭遇／疲劳](2026-09-14-run-route-encounters-and-fatigue.md)与[EG环境阈值](2026-09-14-environment-forms-and-thresholds.md)已形成待审配套候选；[UX界面／体验](2026-09-14-interface-platform-and-experience.md)和[VB验收输入](../../development/inputs/pre-gdd-2026-09-14.md)现已配套成候选，实际取舍仍未采用，因此不是整局设计定稿、平衡完成或新GDD。此页所有新量值、渠道期与补充裁决都待用户选择；已有规则不因本页改写。
+日期：2026-09-14。版本：PG v0.2。状态：**Raw Idea / Unqualified／可审阅的完整单卡候选表**。[RG路线／遭遇／疲劳](2026-09-14-run-route-encounters-and-fatigue.md)与[EG环境阈值](2026-09-14-environment-forms-and-thresholds.md)已形成待审配套候选；[UX界面／体验](2026-09-14-interface-platform-and-experience.md)和[VB验收输入](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/inputs/pre-gdd-2026-09-14.md)现已配套成候选，实际取舍仍未采用，因此不是整局设计定稿、平衡完成或新GDD。此页所有新量值、渠道期与补充裁决都待用户选择；已有规则不因本页改写。
 
 ## 原始想法
 

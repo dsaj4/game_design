@@ -47,7 +47,7 @@ Project ID：game-002。ValidationSpec。2026-10-11；规则基准CORE-059。全
 
 ## 旧证据
 
-[RC1验收原文](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/validation.md)中的720单场、36边界、20整局和V01–20／U01–08只对应旧输入，不能重贴版本复用。TH、CAL和暗面Demo结果见[测试交接](../development/test-handoff.md)，不证明TL-1实现或平衡。
+[RC1验收原文](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/validation.md)中的720单场、36边界、20整局和V01–20／U01–08只对应旧输入，不能重贴版本复用。TH、CAL和暗面Demo结果见[测试交接](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/test-handoff.md)，不证明TL-1实现或平衡。
 
 ## 兼容复用验收预期：TL-V23–37
 

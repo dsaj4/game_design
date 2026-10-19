@@ -47,7 +47,7 @@
 
 ## 下一步
 
-回归卡牌／流派草拟时采用[流程入口](../../governance/card-review-workflow.md)，按已采纳处理方式补齐具体卡牌依赖。测试需求加入[交接积累区](../../development/test-handoff.md)，用户下一次启动批测前不运行。
+回归卡牌／流派草拟时采用[流程入口](../../governance/card-review-workflow.md)，按已采纳处理方式补齐具体卡牌依赖。测试需求加入[交接积累区](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/test-handoff.md)，用户下一次启动批测前不运行。
 
 ## 2026-09-11批量确认
 

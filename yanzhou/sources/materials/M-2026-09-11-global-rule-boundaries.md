@@ -121,7 +121,7 @@ S2／E3范围现按[RC06](M-2026-09-13-card-pool-rule-rulings.md)：原完整事
 
 支持战前配置、可推导语义与时间编排，依赖[核心](../../design/core-concept.md)、[R01–R32](M-2026-09-10-semantic-world-executable-rules.md)、[接口C01／02](M-2026-09-10-accepted-design-interfaces.md)、[四层框架](M-2026-09-11-numerical-evaluation-framework.md)及[疲劳包](M-2026-09-11-overtime-fatigue.md)。GR02细化R23，GR05细化R10；两者同步替换简略正文。GR11调整评估样本范围，不改变生命胜负。GR07／10明确保留候选，不暗中扩展正式执行基线。
 
-不包含新类型、具体卡牌或流派、疲劳定值、正式起始库存、召唤指挥、复杂传播、位移、材料加工或新治疗能力。测试继续按[固定交接](../../development/test-handoff.md)积累。
+不包含新类型、具体卡牌或流派、疲劳定值、正式起始库存、召唤指挥、复杂传播、位移、材料加工或新治疗能力。测试继续按[固定交接](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/test-handoff.md)积累。
 
 ## 机制—行为—体验假设
 

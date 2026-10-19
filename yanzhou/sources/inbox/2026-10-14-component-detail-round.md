@@ -6,4 +6,4 @@
 
 本轮顺序为HTML／效果图设计→固定需求交调研agent评估Higgsfield→专门资产生成agent→打磨与拼装。Demoncards保持已指定的第一整体表现参照。现有模型可作前后对照，技术通过不代替用户对模型细节的接受；未确定框形、几何、材质及工具方案不得记为已完成。
 
-设计与运行正文保持原仓库，Workspace保存组件状态与交付入口，遵[工作台规范](../../development/workspace.md)。当前组件调度见[制作流程](E:/Project/yanzhou-workspace/workspace/2026-10-14_yanzhou/component-pipeline.md)，详细设计由新一轮D产物承接，沿DOC-025完成各阶段复核。Higgsfield仅在设计包形成后评估，不把提到平台当作已决定接入或已提交生成任务。
+设计与运行正文保持原仓库，Workspace保存组件状态与交付入口，遵[工作台规范](../../development/workspace.md)。当前组件调度见[制作流程（Git原文）](E:/Project/yanzhou-workspace/workspace/2026-10-14_yanzhou/usage.md#查看旧记录或修复工作台 "git show 1046d4d3870f3a60b55ff7d2e4391f80df838f80:workspace/2026-10-14_yanzhou/component-pipeline.md")，详细设计由新一轮D产物承接，沿DOC-025完成各阶段复核。Higgsfield仅在设计包形成后评估，不把提到平台当作已决定接入或已提交生成任务。

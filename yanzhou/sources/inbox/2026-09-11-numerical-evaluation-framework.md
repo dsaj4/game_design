@@ -8,7 +8,7 @@
 
 ## 触发来源
 
-用户在首轮测试完成后调整优先级。[独立复核与demo报告](../../development/reports/TH-2026-09-11-001-r2-run-01.md)确认所测计算一致，同时记录54／726组到96刻未结束、压力变化并非平滑、玩家可读性未验证。已有[数值约束](../materials/M-2026-09-10-numerical-redesign-constraints.md)和[支撑规则](../materials/M-2026-09-07-supporting-design-rules.md)为框架输入。
+用户在首轮测试完成后调整优先级。[独立复核与demo报告](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/reports/TH-2026-09-11-001-r2-run-01.md)确认所测计算一致，同时记录54／726组到96刻未结束、压力变化并非平滑、玩家可读性未验证。已有[数值约束](../materials/M-2026-09-10-numerical-redesign-constraints.md)和[支撑规则](../materials/M-2026-09-07-supporting-design-rules.md)为框架输入。
 
 ## 可能带来的玩家体验
 

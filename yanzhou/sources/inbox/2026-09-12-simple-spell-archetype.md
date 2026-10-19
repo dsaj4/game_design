@@ -102,4 +102,4 @@ agent建议：先建立基础攻防与一项明确的频率成长，再补爆发
 - [x] 已确认多次释放为完整法术连续发动，每次参与共享释放槽。
 - [x] 已确认本杖成功积累、下一次强化伤害或护甲并清空。
 - [x] 已晋级方向素材；后续按提案／评估流程逐卡设计，具体牌面没有自动晋级。
-- [ ] 在[测试交接](../../development/test-handoff.md)积累需要补齐的边界；当前Draft／NotRun，不运行测试。
+- [ ] 在[测试交接](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/test-handoff.md)积累需要补齐的边界；当前Draft／NotRun，不运行测试。

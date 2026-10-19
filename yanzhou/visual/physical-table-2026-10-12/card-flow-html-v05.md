@@ -20,4 +20,4 @@
 
 同时只读目视 [art-v02 流程图](art-v02/03-shield-sequence.png)：第 1 帧法器局部亮起、牌在第 3 刻直接浮现，第 3 帧牌在原位亮起、棋子局部盾效，无连接光束或飞行轨迹；未扩大本轮美术检查范围。
 
-真实浏览器、三档布局、真实命中与动作观感仍 NotRun；不尝试 URL 或启动服务。阶段 4 真实实现未恢复。本工作者仅写本文与 v05 HTML，未提交／推送；总控负责共享登记、[验证记录](card-flow-html-verification-v05.md)、[固定清单](card-flow-v05-manifest.json)与提交。
+真实浏览器、三档布局、真实命中与动作观感仍 NotRun；不尝试 URL 或启动服务。阶段 4 真实实现未恢复。本工作者仅写本文与 v05 HTML，未提交／推送；总控负责共享登记、[验证记录](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/physical-table-2026-10-12/card-flow-html-verification-v05.md)、[固定清单](card-flow-v05-manifest.json)与提交。

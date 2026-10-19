@@ -6,9 +6,9 @@
 
 | 需要 | 入口与当前适用范围 |
 | --- | --- |
-| 现有可运行资源 | [B13实际记录](reports/demoncards-candidates-2026-10-15.md)及[逐项使用结果](E:/Project/yanzhou-godot/docs/coordination/demoncards-candidates-integration-v01.json)；区分主桌已用与仅检视 |
+| 现有可运行资源 | [B13接手摘要](E:/Project/yanzhou-godot/docs/development-handoff.md#先分清版本和证据)及[逐项使用结果](E:/Project/yanzhou-godot/docs/coordination/demoncards-candidates-integration-v01.json)；区分主桌已用与仅检视 |
 | 资产身份、来源与复用条件 | [统一AS／DM目录](../../docs/registry/demo-assets.md)，不在本页复制清单 |
-| 模型、纹理、声音和曲线候选 | [现成资源盘点](E:/Project/yanzhou-godot/docs/coordination/2026-10-15-existing-assets.md)；盘点状态属于原日期，后来使用状态查B13 |
+| 模型、纹理、声音和曲线候选 | [资源选择与恢复](E:/Project/yanzhou-godot/docs/development-handoff.md#资源选择与恢复)；盘点状态属于原日期，后来使用状态查B13 |
 | 最新设计候选 | [开发索引中的UI稿](README.md#当前事实)及所属visual／来源记录；示意、效果图和源资产分开 |
 | 原件与运行检查 | 对应manifest、所属实现报告、源目录；工作台Files按登记路径打开 |
 | 旧批次为何选这些资产 | 本页下方固定历史入口；不从旧“未接入”推断当前仍未接入 |
@@ -33,9 +33,9 @@
 
 ## 历史输入与原说明
 
-10月11日准备轮、10月13日物件桌面、10月14日DC-v01与19组件、10月15日追加盘点／B12的输入哈希、映射、失败条件及原工作包，完整保留在[整理前固定版本](https://github.com/dsaj4/game_design/blob/dbb90b663fbfbb44683f87d444d0fd8e86e08904/yanzhou/development/asset-readiness.md)。旧锚点定位到本段；原包、manifest、源件和报告继续原位。
+10月11日准备轮、10月13日物件桌面、10月14日DC-v01与19组件、10月15日追加盘点／B12的输入哈希、映射、失败条件及原工作包，完整保留在[整理前固定版本](https://github.com/dsaj4/game_design/blob/dbb90b663fbfbb44683f87d444d0fd8e86e08904/yanzhou/development/asset-readiness.md)。旧锚点定位到本段；原包、manifest和源件继续原位；旧报告改由固定Git取证。
 
-B12见[原资源接入报告](reports/demoncards-assets-2026-10-15.md)，早期准备与接入见[Godot首版](reports/godot-start-2026-10-11.md)。旧“尚无音频／未接入”仅按当时版本解释，不能覆盖后来实际结果；旧包的局部成功也不证明新方向已完成。
+B12见[原资源接入报告](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/reports/demoncards-assets-2026-10-15.md)，早期准备与接入见[Godot首版](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/reports/godot-start-2026-10-11.md)。旧“尚无音频／未接入”仅按当时版本解释，不能覆盖后来实际结果；旧包的局部成功也不证明新方向已完成。
 
 <a id="2026-10-13-当前实施输入"></a>
 

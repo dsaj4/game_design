@@ -1,35 +1,16 @@
-# 言咒视觉与资产导航
+# 言咒视觉与资产入口
 
-Project ID：game-002。文档角色：Navigation。入口核对：2026-10-17；沿DOC-021资产职责，逐包保留原版本与检查范围。
+2026-10-18 · game-002。当前先完善首场核心玩法，再确定二维展示合同；这里保管既有视觉原件和候选，不继续派发旧3D批次。
 
-## 当前制作入口
+| 想看什么 | 入口与状态 |
+| --- | --- |
+| 当前运行版本与下一步 | [开发入口](../development/README.md) |
+| 新卡面思路 | [标准卡面](standard-card-2026-10-17/README.md)，文字v01及C1—C3确认；后续HTML／效果／实装未完成 |
+| 少文字主桌 | [原话与局部HTML](../sources/inbox/2026-10-17-minimal-battle-ui.md) · [效果图](minimal-battle-ui-2026-10-17/art-v01.md)，整体仍为候选 |
+| B13真实截图审阅 | [UI-REVIEW工具](E:/Project/yanzhou-godot/tools/ui-review-2026-10-15/README.md)，静态实图＋模拟编辑，不推进游戏 |
+| 现成资源与使用关系 | [资产接入](../development/asset-readiness.md) · [统一AS／DM目录](../../docs/registry/demo-assets.md) |
+| 3D留下的教训 | [主系统与3D复盘](../governance/development-review-2026-10-18.md) |
 
-当前UI设计顺序与状态以[阶段计划中的桌面UI设计入口](../development/production-plan.md#ui-design-order-2026-10-17)为准：**标准卡面 → 主桌面UI与文字 → 各详情页UI**；各项均按文字结构→HTML→效果图推进，配合[真实截图审阅稿v02](ui-review-2026-10-15/review-v02.md)。本页只链接该入口，不重复维护阶段状态。
+各视觉包的源件、HTML、图片、manifest和资产身份保留原版本；按所选资产需要读其说明，不默认通读全部目录。早期UI、效果图和模型是对应批次材料，不覆盖现行规则。DC-v01已入Git；版本仍以原manifest及引用提交为准。
 
-标准卡面已交付[文字结构v01](standard-card-2026-10-17/structure-v01.md)；[本包入口](standard-card-2026-10-17/README.md)关联用户三项展示选择、阶段产物与后续HTML。条件牌主桌仅标条件图形，完整分支进入近观。
-
-当前主桌少文字方向已有[文字／局部HTML候选](../sources/inbox/2026-10-17-minimal-battle-ui.md)与[截图效果图AS-G002-029](minimal-battle-ui-2026-10-17/art-v01.md)。它们保持待审候选，不能代替下一轮标准卡面与全部详情页的三阶段设计。
-
-开发已选定Godot并进入真实牌桌制作。[开发索引](../development/README.md)、[资产接入清单](../development/asset-readiness.md)及[阶段计划](../development/production-plan.md)统一记录当前批次、制作输入和实际证据，本页只提供定位，不单独维护另一份当前版本。
-
-本机2026-10-14的DC-v01文字、HTML、美术及复核位于 `demoncards-reference-2026-10-14/`；该包仍有未提交文件，按开发索引及原manifest的实际状态使用。此前[卡片交互HTML v05](physical-table-2026-10-12/card-flow-html-v05.md)、[美术示意v02](physical-table-2026-10-12/art-v02/README.md)及[第八批设计复核](physical-table-2026-10-13/batch-08-design-check.md)保留为对应批次输入与证据，不替代最新制作范围。
-
-## 早期交付与历史参考
-
-[Blender v02](battle-ui-2026-10-11/model-v02.md)、[HTML v10](battle-ui-2026-10-11/v10-outline.md)及下列视觉包保留原件、原哈希和适用范围；是否继续复用以当前资产接入清单为准。
-
-- [战斗效果图 v01](battle-ui-2026-10-11/art-v01.md)（2026-10-11）：以HTML v10构图、用户牌桌效果图风格独立生成；深木色、墨绿桌面、黄铜与烛光。AS-G002-008，用户已选为效果示意图初版；[组件隔离设计 v01](battle-ui-2026-10-11/components-v01/README.md)登记为 AS-G002-009，含18张透明组件与1张环境图。原图与HTML未改；后续建模见上述Blender v02。
-
-- [战斗轮廓占位 v10 · HTML](battle-ui-2026-10-11/v10-outline.md)（2026-10-11）：左侧三格抽屉向桌内展开；敌我主体和时间轴中点对齐桌面中心线，刻位左右对称。保留前沿四法器、桌上物件与空位；DM-G002-010，仅轮廓位置评审。[v09](battle-ui-2026-10-11/v09-outline.md)保留为历史版本。
-
-- [早期黑白结构示意 v02](battle-ui-2026-10-11/README.md)（2026-10-11）：共用刻轴、敌我上下对应并保留空位；附第12刻案例与第7刻用途调整。其同刻对齐与可见信息说明仍供接入核对，旧控件位置不覆盖当前v10／3D-02；资源[AS-G002-005](../../docs/registry/demo-assets.md#as-g002-005)。
-
-- [基础展示与交互要求](../design/common/interaction-save/rules.md)：敌牌揭示／截止、资源、玩家队列、法器生产、维护和代价。
-- 旧探索UI候选已于2026-10-04退役；旧确认与截图仅按固定版本取证，不覆盖当前开发索引。
-- [已发布可视化](https://yanzhou-battle-layouts.visiontreeai.chatgpt.site)：旧探索发布留存，已退出当前候选；发布不等于规则或布局采纳。
-- [05紧凑暗面](reviews/2026-09-19/style-guide.md)与[原质量评审](reviews/2026-09-19/qa-notes.md)：保留旧Demo的Selected Visual身份，不再约束新版格子、只读界面或卡表。
-- [实现与资产](../development/README.md)：各版本单独列证据。
-
-旧视觉包与提示词按原输入保留，不以新规则原地刷新。未跟踪资产保持原工作区状态，本轮不提交或重新发布它们。
-
-复用时遵循[Demo与素材规范](../../docs/demo-asset-standard.md)并查[统一目录](../../docs/registry/demo-assets.md)。旧05包登记为[AS-G002-001](../../docs/registry/demo-assets.md#as-g002-001)，DIR-029 v9概念图为[AS-G002-002](../../docs/registry/demo-assets.md#as-g002-002)；视觉选择、原件版本和适用设计各自保留。新增素材优先在现有包说明中记录来源、规格与使用者，不复制一套资产库。
+逐轮审阅、交接和验证报告已合并提炼，原文在固定Git提交`f21058a54b096e0d6ad2b3b559e352b67596c239`按原路径取证。原manifest中的旧报告路径／哈希指向该历史快照，不改写成新证据。复用遵守DA-1；新派生记录源ID、哈希、用途和使用者，不覆盖原件。

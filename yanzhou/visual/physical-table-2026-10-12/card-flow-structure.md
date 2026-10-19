@@ -2,7 +2,7 @@
 
 2026-10-12 · game-002 · CUSTOM · ProductionStructure / 阶段1完成，总控静态复核通过。
 
-总控复核补记（2026-10-12）：按本轮集成的[CORE-063](../../design/common/interaction-save/rules.md#首场桌面3d主交互合同core-063)核对20个CF状态及12项后续接受标准，复合牌跨组在列、r／T、容量计入、暗牌与暂停政策相容。表现缺口归工程验收，不新增玩家错误页；实现接口细节移交[代码仓库接手记录](E:/Project/yanzhou-godot/docs/coordination/2026-10-12-physical-table-takeover.md)。可进入HTML制作，尚无HTML／美术／真实实现产物。
+总控复核补记（2026-10-12）：按本轮集成的[CORE-063](../../design/common/interaction-save/rules.md#首场桌面3d主交互合同core-063)核对20个CF状态及12项后续接受标准，复合牌跨组在列、r／T、容量计入、暗牌与暂停政策相容。表现缺口归工程验收，不新增玩家错误页；实现接口细节移交[代码仓库接手记录（Git原文）](E:/Project/yanzhou-godot/docs/development-handoff.md#追溯与日常记录 "git show cc8c229fe89d85a51e739efc0111a54d139fff1a:docs/coordination/2026-10-12-physical-table-takeover.md")。可进入HTML制作，尚无HTML／美术／真实实现产物。
 
 范围：**法器产牌 → 桌面实牌入列 → 敌牌r揭示或T／玩家出牌 → 目标反馈 → 离场 → 点击暂停图形近观**。本文固定物件、操作、公开信息、事实事件和状态编号的对应关系，供后续HTML、美术和真实实现逐项对照。它是制作结构说明，不是新的GDD、规则源或玩法采纳记录。
 
@@ -20,7 +20,7 @@
 - 主交互方向与R8／R9直接答复见[第07轮来源](../../sources/inbox/2026-10-12-development-design-round-07.md#51-用户直接答复与来源)：保留自动推进，用真实3D牌演出；主页面全部可操作入口来自3D物件；点击暂停近观说明和系统界面可用独立页面，且必须有对应图形UI，删除纯文字UI。
 - 时序、公开信息、点击／键盘、暂停、单步、恢复与失焦沿[交互规则](../../design/common/interaction-save/rules.md)的TL-17／19／36和CORE-060—062；行动、复合牌、支付和终局沿[行动规则](../../design/systems/action-card-system/rules.md)的TL-08—13／29／30；指定数值只用[EX-002](../../design/examples/complete-battle.md)。第07轮权威集成由总控另行记录；本文按本轮固定输入核对，不把并行中的CORE-063集成视为本工作者已读快照。
 - 基础构图沿[v10轮廓](../battle-ui-2026-10-11/v10-outline.md)；透视和窄牌沿[模型v02](../battle-ui-2026-10-11/model-v02.md)。书与晶球仅布景，蓝晶杖＝施法、环杖＝守护。不能从四件桌沿模型推导四台活动法器。
-- 展示事实接口只引用实现仓库的[事件展示接口](E:/Project/yanzhou-godot/docs/coordination/2026-10-12-presentation-events.md)；对象复位风险只引用[第七批可动件静态核对](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-07-part-audit.md)。没有读取实现代码，不把旧HUD接口或静态模型核对当成3D交互已实现。
+- 展示事实接口只引用实现仓库的[事件展示接口（Git原文）](E:/Project/yanzhou-godot/docs/development-handoff.md#追溯与日常记录 "git show cc8c229fe89d85a51e739efc0111a54d139fff1a:docs/coordination/2026-10-12-presentation-events.md")；对象复位风险只引用[第七批可动件静态核对（Git原文）](E:/Project/yanzhou-godot/docs/development-handoff.md#追溯与日常记录 "git show cc8c229fe89d85a51e739efc0111a54d139fff1a:docs/reviews/2026-10-12-batch-07-part-audit.md")。没有读取实现代码，不把旧HUD接口或静态模型核对当成3D交互已实现。
 - DQ-14—32的旧“HUD”“短提示”“抽屉缓动”等措辞，只用来定位受影响工作；实际交付须服从第07轮边界和CORE-061停点。不能借旧任务表恢复悬停文字框、二维战斗按钮条或暂停过渡动作。
 
 以下称“制作建议”的内容包括空间组织、图形形制、卡片动作构图和近观排版。这些是可逆方案，未被用户逐项选定。固定状态编号和信息语义不代表外观最终验收。
@@ -126,7 +126,7 @@ CF-08—09不要求整张牌连续独占演出：例如同拍“防护→敌打�
 
 ## 7. 玩家可见事实对应与工程依赖
 
-实现依据见外部[事件展示接口说明](E:/Project/yanzhou-godot/docs/coordination/2026-10-12-presentation-events.md)及[可动件静态核对](E:/Project/yanzhou-godot/docs/reviews/2026-10-12-batch-07-part-audit.md)。具体接口、方法、字段和故障诊断留实现仓库，本文只约束玩家能看见的事实。没有足够公开事实时，不得从未揭示敌情补值。
+实现依据见外部[事件展示接口说明（Git原文）](E:/Project/yanzhou-godot/docs/development-handoff.md#追溯与日常记录 "git show cc8c229fe89d85a51e739efc0111a54d139fff1a:docs/coordination/2026-10-12-presentation-events.md")及[可动件静态核对（Git原文）](E:/Project/yanzhou-godot/docs/development-handoff.md#追溯与日常记录 "git show cc8c229fe89d85a51e739efc0111a54d139fff1a:docs/reviews/2026-10-12-batch-07-part-audit.md")。具体接口、方法、字段和故障诊断留实现仓库，本文只约束玩家能看见的事实。没有足够公开事实时，不得从未揭示敌情补值。
 
 | 玩家可见事实／来源 | 对应状态与物件 | 必须保留的语义 |
 | --- | --- | --- |

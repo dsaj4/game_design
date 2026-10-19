@@ -283,4 +283,4 @@ HTML只验证结构与状态表达。实际浏览器核对由总控统一操作�
 
 效果板有原件/提示词/尺寸/哈希后，D按组件复核形态、分件与状态，一项缺失就保留具体缺口。完成后总控将19组件资产需求与限制交调研agent，评估Higgsfield是否确实改善可编辑模型/贴图/版本与导出；随后独立资产agent制作，再回Godot接入。图库或模型生成的高观感不替代可编辑分件、PBR、比例、枢轴、接触和两档读数验收。
 
-当前可交接：文字规格、可操作结构稿、三板精确提示词、修订效果板与[逐组件限定复核](art-review-v02.md)。已登记DM-G002-014 / AS-G002-017；19组件ReadyForResearch，独立几何/PBR与文本容器底图可在调研后交制作，具体范围见[交接](handoff-readiness-v01.md)。未交接：生产网格/PBR/引擎修改/正式运行验收。真实浏览器NotRun与最终用户美术接受分别记录。
+当前可交接：文字规格、可操作结构稿、三板精确提示词、修订效果板与[逐组件限定复核](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/component-detail-2026-10-14/art-review-v02.md)。已登记DM-G002-014 / AS-G002-017；19组件ReadyForResearch，独立几何/PBR与文本容器底图可在调研后交制作，具体范围见[交接](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/component-detail-2026-10-14/handoff-readiness-v01.md)。未交接：生产网格/PBR/引擎修改/正式运行验收。真实浏览器NotRun与最终用户美术接受分别记录。

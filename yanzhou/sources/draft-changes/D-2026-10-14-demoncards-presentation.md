@@ -2,7 +2,7 @@
 
 2026-10-14 · Accepted / physical-table.2。目标为interaction-save规则和摘要中的展示约定，沿用CORE-063身份；不改变结算／操作受理／公开资格。
 
-来源：[用户制作与继续指令](../inbox/2026-10-14-demoncards-presentation.md)、[M](../materials/M-2026-10-14-demoncards-presentation.md)、[P](../proposals/P-2026-10-14-demoncards-presentation.md)、[E](../evaluations/E-2026-10-14-demoncards-presentation.md)、[D前三阶段设计](../../visual/demoncards-reference-2026-10-14/design-review-v01.md)。
+来源：[用户制作与继续指令](../inbox/2026-10-14-demoncards-presentation.md)、[M](../materials/M-2026-10-14-demoncards-presentation.md)、[P](../proposals/P-2026-10-14-demoncards-presentation.md)、[E](../evaluations/E-2026-10-14-demoncards-presentation.md)、[D前三阶段设计](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/demoncards-reference-2026-10-14/design-review-v01.md)。
 
 ## 拟替换与新增
 

@@ -42,7 +42,7 @@
 
 另保留两仓库全部Git引用的bundle、开始时的状态、暂存／未暂存补丁及全部未提交文件副本。文件副本与源件逐一核对SHA-256；完整逐文件manifest留在本机恢复根，不随Git发布。该副本位于同机C盘，不代表异机或离线灾备。
 
-恢复操作与工程边界见[Godot恢复说明](E:/Project/yanzhou-godot/docs/coordination/2026-10-14-workspace-recovery.md)。本轮没有备份凭据、原生CLI私有历史或无关第三方参考程序。
+恢复操作与工程边界见[Godot恢复说明（Git原文）](E:/Project/yanzhou-godot/docs/development-handoff.md#追溯与日常记录 "git show cc8c229fe89d85a51e739efc0111a54d139fff1a:docs/coordination/2026-10-14-workspace-recovery.md")。本轮没有备份凭据、原生CLI私有历史或无关第三方参考程序。
 
 ## 检查
 

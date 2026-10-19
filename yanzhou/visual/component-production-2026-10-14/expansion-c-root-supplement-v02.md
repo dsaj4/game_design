@@ -1,6 +1,6 @@
 # C 槽位完整状态补充复核
 
-2026-10-15，总控 root。接续 [D 的 C 复核](expansion-c-review-v01.md)，只关闭预留／历史／焦点三张图裁切这一缺口。
+2026-10-15，总控 root。接续 [D 的 C 复核](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/component-production-2026-10-14/expansion-c-review-v01.md)，只关闭预留／历史／焦点三张图裁切这一缺口。
 
 总控实际查看三张 1024×1024 最终 GLB 回导图，四角与完整槽位范围均在画内，留边充分。预留使用四角断线，历史使用独立淡墨痕，焦点使用小菱形；没有用假牌填充空槽。**该补证据通过，C 四组件源件 Q1/Q2 全部通过。**
 

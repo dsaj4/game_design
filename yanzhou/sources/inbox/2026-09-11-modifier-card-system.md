@@ -57,4 +57,4 @@
 
 ## 下一步
 
-先完成修饰词共用模型，再依[系统设计入口](../../design/systems/artifact-system/rules.md)补镶嵌；暂不展开流派成套物品。测试积累到[固定交接](../../development/test-handoff.md)，不启动执行。
+先完成修饰词共用模型，再依[系统设计入口](../../design/systems/artifact-system/rules.md)补镶嵌；暂不展开流派成套物品。测试积累到[固定交接](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/test-handoff.md)，不启动执行。

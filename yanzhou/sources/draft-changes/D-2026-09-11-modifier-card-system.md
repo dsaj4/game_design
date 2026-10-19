@@ -66,4 +66,4 @@
 - [ ] 已搁置
 - [ ] 已拒绝
 
-同步决策记录、相关素材、当前工作入口和[测试交接r5](../../development/test-handoff.md)。本次未运行或分派测试，未将例句登记为完整可运行卡牌。
+同步决策记录、相关素材、当前工作入口和[测试交接r5](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/test-handoff.md)。本次未运行或分派测试，未将例句登记为完整可运行卡牌。

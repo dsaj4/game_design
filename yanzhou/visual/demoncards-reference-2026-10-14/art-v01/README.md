@@ -2,7 +2,7 @@
 
 2026-10-14 · game-002 / main · 内置imagegen原创制作，4幅选定静态示意，2幅未采用生成结果保全。统一AS编号由总控登记；本页不另分配ID。
 
-[画册](index.html) · [文字结构](../design-v01.md) · [HTML](../design-v01.html) · [复核](../design-review-v01.md) · [完整文件指纹](../design-manifest-v01.json) · [实际提示词](prompts.md)
+[画册](index.html) · [文字结构](../design-v01.md) · [HTML](../design-v01.html) · [复核](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/demoncards-reference-2026-10-14/design-review-v01.md) · [完整文件指纹](../design-manifest-v01.json) · [实际提示词](prompts.md)
 
 用途：桌面木／布／纸／金属与光照，薄卡与窄槽，原位显牌／原位使用，公开同身份转位，静态图形近观／消费锁／保存错误。图是设计示意，不是游戏截图、已导入贴图或动画证据。第三方Demoncards原图集仅用于视觉参照，未复制其原纹理／网格进本包或运行工程；公开分发条件不由本包改变。
 

@@ -12,4 +12,4 @@
 
 首轮范围为现有玩家行动牌、敌公开牌、敌暗牌。原纸牌模型、纸底、字体与已核定内容作为基础；铭文／资源卡、本轮主桌整体布局和详情页整屏设计留到各自范围。
 
-配合[UI-REVIEW-02](../ui-review-2026-10-15/review-v02.md)的CARD-01、TXT-02／03及实际卡面状态对照；v02未在本轮更新。此目录当前只有文字与导航，未产生需要新编号的图像、HTML Demo或运行资产。
+配合[UI-REVIEW-02](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/ui-review-2026-10-15/review-v02.md)的CARD-01、TXT-02／03及实际卡面状态对照；v02未在本轮更新。此目录当前只有文字与导航，未产生需要新编号的图像、HTML Demo或运行资产。

@@ -44,7 +44,7 @@
 | Derived clarification | [TL-19](../../design/common/interaction-save/rules.md#tl-19-中断与恢复)：恢复最近已结清状态及已提交操作，并暂停；不重付、重选或重做事件 | 不能因重播动作再次结算；是否仅重播旧表现尚未规定 |
 | 已采纳，不重问 | [CORE-060播放合同](../../design/common/interaction-save/rules.md#首场战斗操作合同core-060)：前半观察、后半反馈，既有2秒／拍与倍速；单步到下一观察，中途终局结果 | 不增加等动画完成才生效的条件、不换速度或默认开关 |
 | Derived clarification | [TL-36](../../design/common/interaction-save/rules.md#tl-36-决策保存与信息可达性)：动画服从规则时间；静音、减动效仍可读；必要信息不能只靠声音 | “服从”约束动画不能改变结果、资格或操作时间，不唯一规定已结算装饰尾段冻结／取消／归位 |
-| 已有表现目标 | [v02同刻语义](../../visual/battle-ui-2026-10-11/v02-notes.md#对齐与空位的含义)与[DQ-32](../../development/demo-quality-taskboard.html)：13拍防护→打断→记次能辨认；同列不等于同时 | 无需重选规则顺序；单步下采取何种呈现仍有多个相容答案 |
+| 已有表现目标 | [v02同刻语义](../../visual/battle-ui-2026-10-11/v02-notes.md#对齐与空位的含义)与[DQ-32](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/demo-quality-taskboard.html)：13拍防护→打断→记次能辨认；同列不等于同时 | 无需重选规则顺序；单步下采取何种呈现仍有多个相容答案 |
 | 已有表现目标 | DQ-25／31／32／37：事件映射、暂停／重载清理、减动效、静音不漏声、限制叠声，声音退出／暂停规则明确 | 没有明定环境循环暂停政策、已提交声音是否重放、暂停中的单次音效尾段 |
 | 已采纳，不重问 | [EX-002终局](../../design/examples/complete-battle.md#5-恢复与验收预期)与[第02轮](2026-10-12-development-design-round-02.md)：终局权威状态与历史快照分层，同一战果恢复不重结算 | 不借新音画重做战终清理或推迟结果提交 |
 

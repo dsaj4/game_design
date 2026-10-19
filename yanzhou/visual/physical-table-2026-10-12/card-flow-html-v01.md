@@ -2,7 +2,7 @@
 
 2026-10-12 · game-002 · CUSTOM · DOC-025阶段2 · 制作完成，总控限定浏览器复核通过。
 
-[打开单文件HTML](card-flow-v01.html) · [文字结构](card-flow-structure.md) · [总控浏览器核对记录](card-flow-html-verification-v01.md) · [固定清单](card-flow-v01-manifest.json)。登记DM-G002-012 / PHYSICAL-CARD-HTML-01。本轮不是主菜单页。
+[打开单文件HTML](card-flow-v01.html) · [文字结构](card-flow-structure.md) · [总控浏览器核对记录](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/physical-table-2026-10-12/card-flow-html-verification-v01.md) · [固定清单](card-flow-v01-manifest.json)。登记DM-G002-012 / PHYSICAL-CARD-HTML-01。本轮不是主菜单页。
 
 ## 输入与产物
 
@@ -84,4 +84,4 @@
 
 总控已在真实1920×1080和1366×768视口进行首轮检查，并反馈布局、同刻重叠、样例时序、目标图形、错误闭环及历史图形问题；本稿按反馈修订。总控回报已实测运动卡点击进入同一打断历史近观、r8揭示自动停无运动、翻面中P暂停显示完整正面及13→14静态摘要。真实OS失焦仍为NotRun：在内置浏览器创建另一标签没有形成真实visibility／blur，只有失焦恢复预设和静态处理，不能据此声明OS失焦通过。
 
-最终通过／未通过项目、截图及证据版本以[总控核对记录](card-flow-html-verification-v01.md)为准，不把已修代码直接记为运行通过。源结构稿、共享索引、规则、任务表及资产登记均由总控维护，本工作者没有修改或提交这些文件。
+最终通过／未通过项目、截图及证据版本以[总控核对记录](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/physical-table-2026-10-12/card-flow-html-verification-v01.md)为准，不把已修代码直接记为运行通过。源结构稿、共享索引、规则、任务表及资产登记均由总控维护，本工作者没有修改或提交这些文件。

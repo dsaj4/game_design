@@ -162,7 +162,7 @@
 | 日期 | GDD/Proposal | 章节/版本 | 处理结果 | 备注 |
 | --- | --- | --- | --- | --- |
 | 2026-09-12 | [提案](../proposals/P-2026-09-12-wand-inlay-system.md)、[评估](../evaluations/E-2026-09-12-wand-inlay-system.md) | Inlay v0.1 | Included | 模型与补充候选分层 |
-| 2026-09-12 | [Draft Change](../draft-changes/D-2026-09-12-wand-inlay-system.md) | G002-CORE-017 | IN-A及明确例子含义Accepted；IN-C Candidate | [测试交接](../../development/test-handoff.md)r6继续Draft／NotRun |
+| 2026-09-12 | [Draft Change](../draft-changes/D-2026-09-12-wand-inlay-system.md) | G002-CORE-017 | IN-A及明确例子含义Accepted；IN-C Candidate | [测试交接](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/test-handoff.md)r6继续Draft／NotRun |
 
 2026-09-12：案例登记到[效果系统](../../effects/README.md)（[FX-026](../../effects/catalog.md#fx-026)、[FX-027](../../effects/catalog.md#fx-027)），完整映射见[案例覆盖](../../effects/case-coverage.md)。这里只增加追踪入口，本素材的框架／采纳／候选状态不变；登记摘要不替换本文权威规则或参数。
 

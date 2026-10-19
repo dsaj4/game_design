@@ -1,44 +1,34 @@
-# 言咒项目操作与路径映射
+# 言咒项目操作
 
-继承仓库根的资格门槛、Git保护和设计/代码隔离。Project ID仍为`game-002`，新工作区W为`yanzhou/`。本文件优先解释根手册的旧职责路径；不要在旧路径继续新写设计。
+2026-10-18。game-002，工作区`yanzhou/`；继承根AGENTS的资格、Git及设计／代码边界。
 
 ## 开始阅读
 
-主系统任务先读README.md、CONTEXT.md、design/core-design.md、design/baseline.md、governance/questions.md及相关决策。仅涉及指定子目录时按任务缩小读取范围。进入探索时先读exploration/start.md与exploration/AGENTS.md，并按用户材料模式执行；不先套用上述主系统清单，不自动读取主系统或其他方向正文。
+- **开发接手或主系统完善**：先读[development/README](development/README.md)，按其8文件启动包了解构思主系统、术语、版本、问题和工作方式。记CUSTOM及启动时HEAD；只读清单，不递归跟随链接。已注入的AGENTS计一次。用户指定更窄材料时以用户为准。
+- **具体实现／规则修改**：启动包只是定位，不足以实现规则。按任务补读对应rules、参数／案例／验收及[开发规范](development/development-standard.md)；补充具体文件和版本后再实现。无授权扩读的明确材料合同继续有效。
+- **探索方向**：先读[阅读合同](exploration/start.md)和[探索AGENTS](exploration/AGENTS.md)，沿其模式；不套用开发启动包，不自动读取主系统或其他方向。
+- **局部管理**：只读目标及必要操作规则；不自动读核心设计、来源或GDD。
 
-## 职责到实际路径
+当前顺序已由用户确认：先闭合首场核心玩法，再开始同一游戏的2D表现。旧3D不是新任务排程；2D具体展示条款尚未采纳，不能推断CORE-063已失效。
 
-| 根手册旧职责路径 | 本项目实际路径 |
+## 各写一处
+
+| 内容 | 位置 |
 | --- | --- |
-| game-design-workflow/core-concept.md | design/core-concept.md为版本入口；design/core-design.md为GDD浓缩摘要 |
-| game-design-workflow/decision-log.md | governance/decision-log.md |
-| game-design-workflow/gdd/current/ | design/；GDD.md保留0–18章 |
-| 新GDD草案 | sources/gdd-drafts/GDD-YYYY-MM-DD-short-name.md；采纳后按变更更新design/ |
-| game-design-workflow/idea-inbox/ | sources/inbox/ |
-| game-design-workflow/idea-materials/ | sources/materials/ |
-| game-design-workflow/idea-proposals/ | sources/proposals/ |
-| game-design-workflow/evaluations/ | sources/evaluations/ |
-| game-design-workflow/draft-changes/ | sources/draft-changes/ |
-| docs/design-decisions-needed.md／当前问题 | governance/questions.md |
-| docs/code-development-index.md | development/README.md |
-| docs/test-handoff.md及test-reports/ | development/test-handoff.md及reports/ |
-| docs/effect-registry/ | effects/ |
-| docs/governance/ | governance/ |
-| 研究问题、理论与案例 | 尚无项目研究树；需要时在research/按根职责建立，不凭目录补造材料 |
-| game-002优化探索 | exploration/，Project ID另为game-002-optimization |
+| 现行玩法与参数 | `design/`；`core-design.md`为摘要，`baseline.md`为版本，具体rules为细则 |
+| 领域语言 | `CONTEXT.md` |
+| 原话、资格、提案、评估、待采纳变更 | `sources/inbox/`、`materials/`、`proposals/`、`evaluations/`、`draft-changes/` |
+| GDD草案 | `sources/gdd-drafts/`；正式模板用根`game-design-workflow/templates/README.md` |
+| 当前问题／已采纳决策 | `governance/questions.md`／`decision-log.md`；不另建问题数据库 |
+| 当前能力／单轮方法 | `development/README.md`／`iteration-spec.md` |
+| 视觉原件与资产身份 | `visual/`及统一AS／DM目录，原件就地 |
+| 实现、构建、技术证据 | 外部代码仓库；当前3D为`E:/Project/yanzhou-godot/` |
+| 查看与执行合同 | `E:/Project/yanzhou-workspace/`，不复制GDD或另一套进度 |
 
-共享设计模板仍只从[根登记清单](../game-design-workflow/templates/README.md)选择，共享规则及Git规范仍在仓库根docs/。Markdown链接按真实文件位置解析。
+写入职责有疑问再查[文档合同](governance/document-contract.md)，查旧决定时按相关ID取`decision-log`章节；不把整份历史作为默认背景。旧资料中的“当前”只指原日期，历史TH/CAL和Demo局部结果不能外推完整RC1或真人体验。
 
-## 设计及证据边界
+## 开发遇到设计取舍
 
-- 主系统新想法先入sources/inbox；探索新想法按exploration/AGENTS直接写所属方向，Unknown保留；资格确认主动使用grill-with-docs，先查允许文档，再按[批量澄清](../docs/design-workflow.md#批量澄清)一次尽可能处理多个问题，逐项给推荐并记录答案。资格不等于采纳。
-- GDD使用统一模板，审查相关素材；Raw不能直接进入GDD/Proposal/Evaluation。明确采纳的范围不重复索要许可。
-- 改核心或规则先Draft Change并同步决策；G002-DOC-006/007为目录决定，G002-DOC-008为核心摘要与阅读规则决定，G002-DOC-009为清理与兼容退役决定，均不新增CORE玩法决定。
-- design/是现行规则；sources/保留原日期决定；history/中的AGENTS和旧“当前”仅为历史材料，不覆盖本文件。
-- 参数与系统职责按governance/document-contract.md；FX仅作稳定身份与追踪，不另维护竞争规则。
-- 设计Accepted、Hypothesis/NotRun、实现进度分开记录。历史TH/CAL和Demo局部结果不得外推完整RC1或真人体验。
-- 代码、技术结构、构建和运行细节放对应外部代码仓库；这里只维护开发索引与设计观察。没有具体测试任务授权时不自动启动玩法测试。
-- 开发查询先看development/README；按development/development-standard.md路由规范，以iteration-spec.md登记单轮、workbench-spec.md区分展示与权威。用户2026-10-18已确认先完善首场核心玩法，再启动同一游戏的2D表现；不从旧3D计划自动派单，不把新方向意图当CORE-063具体替代已采纳。
-- 开发遇到需要裁决的设计问题，按[开发规范第8节](development/development-standard.md#8-设计裁决闸门)暂停当前开发批次，移交专门设计对接agent进行一轮解决；总控复核阻塞已闭合、必要采纳已落地后恢复。已确认事项不重问，纯实现缺口不冒充设计未决。
-- 探索候选不得直接回写；需本地资格及目标项目Draft Change。独立肉鸽和旧项目不作为言咒默认背景。
-- 原有未提交内容不得覆盖或擅自发布。layout.3已按明确清理授权把旧兼容树内的未提交内容逐字节保存在仓库外恢复目录；新任务不得重建旧树或擅自将恢复副本作为已采纳来源。只暂存本任务文件。所有保护文件改动同轮提交推送，报告分支和提交。
+按[开发规范第8节](development/development-standard.md#8-设计裁决闸门)暂停当前批次，保全现有改动，交专门设计对接agent集中处理；总控确认阻塞及必要采纳落地后恢复。已确认事项不重问，规则已有唯一答案的纯工程缺口不冒充设计未决。小修改可复用已确认产物，只补变化与对照；新重点交互仍走文字→HTML→效果→实现。
+
+新方向、设计资格、玩法采纳和实验授权分别处理。历史恢复不扩大材料范围，不重建兼容树，不覆盖原有未提交内容。
