@@ -84,3 +84,21 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 | `2026-10-08-mark-system-rules-detailed.md` | `yanzhou/inbox/2026-10-08-mark-system-rules-detailed.md` |
 | `2026-10-11-systems-design-guidance-draft.md` | `yanzhou-systems-design-guidance-2026-10-11.md` |
 | `2026-10-08-augment-system-archive.md` | `yanzhou/design/systems/augment-system-archive.md` |
+
+## 2026-10-18原稿分批入Git
+
+用户本轮要求整理未提交内容并分批提交，覆盖上面2026-10-14“未随本轮发布”的临时安排。以下原件逐字节保留；提交只表示来源可追溯，不使整份工作稿自动成为Qualified或Accepted，也不重新启动旧交接中的任务与测试。
+
+| 原稿 | 当前阅读方式 |
+| --- | --- |
+| [阶段三首批工作包（10月5日）](2026-10-05-stage-three-artifact-effects.md) | 原Raw / Unqualified，示例数值与纸面推演保留原边界 |
+| [阶段三法器生产工作包（10月6日）](2026-10-06-stage-three-artifact-effects.md) | 原Raw；其旧“尚未确认”仅指原日期，当前状态须查正式来源链 |
+| [阶段三交接（10月7日）](2026-10-07-stage-three-handoff.md) | 历史交接，不能直接恢复其中待办或视为当前开发授权 |
+| [行动卡与标记创意](2026-10-08-action-cards-mark-system.md) | Creative / Raw，局部确认范围沿后续正式来源 |
+| [行动卡池设计](2026-10-08-action-cards-pool-design.md) | Illustrative候选，未因入Git成为发行卡池 |
+| [行动卡阶段交付](2026-10-08-action-cards-stage-delivery.md) | 原阶段总结，“阶段完成”不表示规则采纳或实现完成 |
+| [法器辅槽效果](2026-10-08-artifact-augment-effects.md) | Raw内容候选，不自动进入平衡测试 |
+| [系统档案与辅槽案例](2026-10-08-augment-system-archive.md) | 原Framework / Reference，不替代已登记系统模板 |
+| [标记详细规则草稿](2026-10-08-mark-system-rules-detailed.md) | 原文“Raw Qualified”混合表述原样保留；本次不据此授予整稿资格 |
+
+已有明确晋级和采纳仍以[来源链](../README.md)、正式M／E／D与[现行设计](../../design/README.md)为准。原件中的旧路径、阶段判断、已被替代建议和原话不批量改写。
