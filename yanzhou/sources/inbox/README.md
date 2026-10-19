@@ -102,3 +102,5 @@ Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
 | [标记详细规则草稿](2026-10-08-mark-system-rules-detailed.md) | 原文“Raw Qualified”混合表述原样保留；本次不据此授予整稿资格 |
 
 已有明确晋级和采纳仍以[来源链](../README.md)、正式M／E／D与[现行设计](../../design/README.md)为准。原件中的旧路径、阶段判断、已被替代建议和原话不批量改写。
+
+同日另批保全[主流派填写稿](2026-10-11-first-archetype-concept-cards.md)的用户补充，以及[系统设计指导稿](2026-10-11-systems-design-guidance-draft.md)。填写稿保持Raw / Unqualified；指导稿保持Draft for Review，其末句止于“实际机会成本取决于”，属于未完成原件。本次不续写、不替代[已登记指导来源](2026-10-11-systems-design-guidance-source.md)，也不重做原资格判定。

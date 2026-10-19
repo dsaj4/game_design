@@ -47,7 +47,7 @@ AUD-021／022的意图疑问已澄清，内容窗口与可读性部分仍Open；
 
 <a id="aud-021"></a>
 
-### AUD-021 · P1：关键威胁可能只剩“看见但做不了”
+### AUD-021 · P1：澄清矛盾模糊表述
 
 当前状态：**意图已澄清；具体窗口与可读性待验证。**来源：[TL-06](../design/systems/artifact-system/rules.md)、[TL-09／10／12](../design/systems/action-card-system/rules.md)、[CORE-050](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)。全敌牌正延迟，临时供料可使未来防御优先、让积累延后；供料也可改变未来开工，避开指定打断。固定配方与卡种不排除资源用途选择，不能再以缺少即时施法或重铭认定没有战中行为。
 
