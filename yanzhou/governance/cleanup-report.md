@@ -197,3 +197,24 @@ DOC-021，固定输入`5c542e12c53a5ba3044b6e647e6c3950e9260bc5`。CUSTOM范围�
 用户明确要求“开始清理结构问题”。本轮完成本机原稿归位、导航与探索编号校准，并保全两仓库Git及未提交文件、Godot本地运行依赖与既有模型源件。逐项去向、哈希、检查和恢复入口见[本轮记录](../../docs/maintenance/2026-10-14-yanzhou-structure-cleanup.md)及[元数据清单](../../docs/maintenance/2026-10-14-yanzhou-structure-cleanup.json)。
 
 原有玩法正文、未提交修改、历史来源中的路径表、失败证据和资格范围保留。7份归位原稿及1份仓库外待分类填写稿未随本轮发布；DOCX规划原件保留原位并备份。未恢复既有删除的技能工作台或tools/docs.py，未安装工作台、改变玩法、运行引擎或发布资产。
+
+## 2026-10-18未提交内容分批整理
+
+用户明确要求“先清理现在的未提交修改，分批提交一下”。本次登记和提交开始时已有的8项删除、2项文本修改、10份未跟踪Markdown及1份未跟踪DOCX；不推导新的玩法采纳，不代为补全原稿。输入为`f35610c46414eb744bddfde8ec76899a36bab7c0`加工作树，任务分支为`codex/2026-10-18-pending-changes-cleanup`。
+
+### 第一批：旧文档和工具退役
+
+下列文件在本次开始前已从工作树删除；本批只提交既有删除，不追加删除独有资料。每项均可用`git show f35610c46414eb744bddfde8ec76899a36bab7c0:<原路径>`读取完整原文，包括旧审查结论和失败路径。
+
+| 原路径（仓库相对） | 处置与恢复 |
+| --- | --- |
+| `skill-iteration-workspace/README.md` | 提交导航页删除；正式技能未改变，现用入口为[项目技能清单](../../docs/registry/project-skills.md)和[游戏拆解技能试验](../../media-analysis-lab/skill-iteration/README.md) |
+| `tools/docs.py` | 提交旧索引／校验脚本删除；原工具按上述固定提交取证，不再列为现用命令 |
+| `yanzhou/governance/time-axis-review.md` | 提交旧时间轴专题页删除；完整原文保留在固定Git版本，现行治理入口已使用固定版本链接 |
+| `yanzhou/governance/time-axis-review/coverage.md` | 提交旧覆盖附件删除；固定Git恢复，非当前阅读覆盖声明 |
+| `yanzhou/governance/time-axis-review/sources.md` | 提交旧来源附件删除；固定Git恢复，保留原版本含义 |
+| `yanzhou/research/03-product-case-studies/2026-09-09-prebattle-ui-reference.md` | 提交旧UI研究删除；固定Git恢复，原Hypothesis不变 |
+| `yanzhou/research/03-product-case-studies/2026-09-13-astra-game-development-stack.md` | 提交旧技术调研删除；固定Git恢复，不作为现行技术选型 |
+| `yanzhou/research/03-product-case-studies/2026-09-13-godot-blender-workflow-comparison.md` | 提交旧工具比较删除；固定Git恢复，不作为现行工作流 |
+
+同步修正工作区地图、架构目录图和目录规范中的失效现用入口；不改写过去日期的清理结论。这里删除的是技能导航页，不是技能安装、技能正文或候选，因此不改变技能注册状态。

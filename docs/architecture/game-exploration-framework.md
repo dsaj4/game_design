@@ -10,7 +10,7 @@ game/
   docs/registry/           项目、来源、框架和适配器身份
   docs/methods/            通用研究、评估、模拟与原型契约
   game-design-workflow/templates/  唯一登记模板
-  skill-iteration-workspace/       技能试验入口
+  media-analysis-lab/skill-iteration/  游戏拆解技能试验入口
   .codex/skills/            项目运行技能
 ```
 
