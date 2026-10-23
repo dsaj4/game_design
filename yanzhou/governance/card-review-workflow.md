@@ -10,7 +10,7 @@ Project ID：game-002。文档角色：WorkflowGuide。2026-10-04 / TL-1 + INS-1
 
 | 阶段 | 工作与出口 |
 | --- | --- |
-| 原始记录 | 用户原话、设计对象、拟影响的玩家选择与Unknown；主系统进入sources/inbox，使用[原始想法模板](../../game-design-workflow/templates/idea-template.md) |
+| 输入摘要 | 用户意图、设计对象、拟影响的玩家选择与Unknown；主系统进入sources/inbox，按[轻量记录](../../docs/design-workflow.md#言咒轻量记录)裁剪模板，不保存原话 |
 | 资格确认 | 使用grill-with-docs先查允许材料，再按项目批量澄清；七项资格完整才晋级[合格素材](../../game-design-workflow/templates/qualified-gdd-material-template.md) |
 | 提案／评估 | 按[提案](../../game-design-workflow/templates/proposal-template.md)与[评估](../../game-design-workflow/templates/evaluation-template.md)写机制、反馈、代价、反例及最小验证；不把猜测变已定参数 |
 | 采纳 | [Draft Change](../../game-design-workflow/templates/draft-change-template.md)列具体增删、理由和影响；明确采纳后同步权威design、必要摘要及decision-log；旧授权只在原范围生效 |

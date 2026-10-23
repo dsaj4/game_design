@@ -1,6 +1,6 @@
 # 言咒项目操作
 
-2026-10-18。game-002，工作区`yanzhou/`；继承根AGENTS的资格、Git及设计／代码边界。
+2026-10-23。game-002，工作区`yanzhou/`；继承根AGENTS的资格、Git及设计／代码边界。输入、来源与验收按[轻量记录](../docs/design-workflow.md#言咒轻量记录)：摘要代替原话，共用固定版本，准确引用，已有信息不重复抄录。
 
 ## 开始阅读
 
@@ -17,7 +17,7 @@
 | --- | --- |
 | 现行玩法与参数 | `design/`；`core-design.md`为摘要，`baseline.md`为版本，具体rules为细则 |
 | 领域语言 | `CONTEXT.md` |
-| 原话、资格、提案、评估、待采纳变更 | `sources/inbox/`、`materials/`、`proposals/`、`evaluations/`、`draft-changes/` |
+| 意图摘要、资格、提案、评估、待采纳变更 | `sources/inbox/`、`materials/`、`proposals/`、`evaluations/`、`draft-changes/` |
 | GDD草案 | `sources/gdd-drafts/`；正式模板用根`game-design-workflow/templates/README.md` |
 | 当前问题／已采纳决策 | `governance/questions.md`／`decision-log.md`；不另建问题数据库 |
 | 当前能力／单轮方法 | `development/README.md`／`iteration-spec.md` |

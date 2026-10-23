@@ -1,6 +1,8 @@
 # 文档职责与统一规范
 
-Project ID：game-002。Accepted / Documentation。2026-10-11 / documentation.3。状态与来源统一见[当前基准](../design/baseline.md)。
+Project ID：game-002。Accepted / Documentation。2026-10-23 / documentation.4。状态与来源统一见[当前基准](../design/baseline.md)。
+
+来源审查、输入摘要与验收记录统一按[轻量记录](../../docs/design-workflow.md#言咒轻量记录)：同轮共用固定版本，使用处准确引用；不保存逐字原话或重复审查台账。`source-review.md`只维护必要来源关系，`validation.md`只维护可判断的现行预期；历史沿革与实际执行证据按固定来源查阅。
 
 ## 权威来源
 

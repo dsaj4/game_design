@@ -1,12 +1,14 @@
-# 原始表达和澄清记录
+# 意图与确认摘要
 
 > TL-1版本说明（2026-10-01）：本目录的既有日期型记录保留原资格、原采纳与原证据范围，其中历史“当前”不覆盖新版。TL-1仅使用[素材审查](../../design/source-review.md)明示部分；[逐文件清单](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/reading-log.md)登记保留或替代，不把旧来源全文重写成新规则。
 
-Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。
+Project ID：game-002。文档角色：SourceCollection。2026-10-23 / doc.2。新增输入按[轻量规范](../../../docs/design-workflow.md#言咒轻量记录)记录，不保存逐字原话或问答转录；历史记录仍按原日期解释。
 
 本目录按每份来源的资格、采纳和使用范围阅读；不以文件日期推断当前玩法。[现行规则](../../design/README.md)、[完整清单](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/reorganizations/2026-09-23-doc1/inventory.md)、[旧目录与阶段记录](https://github.com/dsaj4/game_design/blob/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization/game-design-workflow/idea-inbox/README.md)分别维护。
 
-本轮新增：[2026-10-18设计开发规范整理与Q1—Q3答复](2026-10-18-development-system-review.md)。同一游戏新2D表现、先闭合首场核心和按变化裁剪工作流已明确，登记DOC-026；具体玩法与二维展示条款仍待设计，不因此改变CORE-063。
+当前讨论：[设计阅读、开发衔接与人工审校](2026-10-23-design-reading-and-review.md)。轻量记录已按DOC-027采纳；整体结构迁移仍为建议。
+
+2026-10-18记录：[设计开发规范整理与Q1—Q3答复](2026-10-18-development-system-review.md)。同一游戏新2D表现、先闭合首场核心和按变化裁剪工作流已明确，登记DOC-026；具体玩法与二维展示条款仍待设计，不因此改变CORE-063。
 
 - [2026-09-05-vocabulary-design-questions](2026-09-05-vocabulary-design-questions.md)
 - [2026-09-05-word-inventory-and-allocation](2026-09-05-word-inventory-and-allocation.md)

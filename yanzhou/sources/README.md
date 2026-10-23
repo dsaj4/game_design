@@ -2,11 +2,11 @@
 
 > TL-1 + INS-1版本说明（2026-10-04）：本目录的既有日期型记录保留原资格、原采纳与原证据范围，其中历史“当前”不覆盖新版。TL-1仅使用[素材审查](../design/source-review.md)明示部分；[逐文件清单](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/reading-log.md)登记保留或替代，不把旧来源全文重写成新规则。
 
-Project ID：game-002。文档角色：SourceCollection / Navigation。这里保存设计形成过程，现行规则统一在[design/](../design/README.md)。
+Project ID：game-002。文档角色：SourceCollection / Navigation。这里保存设计依据与决定摘要，现行规则统一在[design/](../design/README.md)。新增记录按[轻量规范](../../docs/design-workflow.md#言咒轻量记录)：不保存逐字原话，共用固定版本，在使用处准确引用。
 
 | 阶段 | 目录 | 允许状态 |
 | --- | --- | --- |
-| 原始表达 | [inbox](inbox/README.md) | Raw / Unqualified；允许Unknown |
+| 意图与确认摘要 | [inbox](inbox/README.md) | Raw / Unqualified；允许Unknown |
 | 已完成资格确认 | [materials](materials/README.md) | Qualified及其明确范围；不自动Accepted |
 | 玩法提案 | [proposals](proposals/README.md) | 有合格来源的假设与验证方案 |
 | 评估 | [evaluations](evaluations/README.md) | 评议结果，注明证据范围 |

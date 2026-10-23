@@ -145,3 +145,7 @@ G002-DOC-023：成品Demo HTML任务表与开发入口同步，Accepted / Docume
 | PRE2D-Q01 | 新二维展示与现行3D合同的关系，Open／Raw | [当前问题](questions.md#开发前先看)；不是新DIR或玩法采纳 |
 
 截至本轮，CORE下一未占用为064，DOC为027，EX为003；DIR-037／038已占用，下一为039，本轮未新建方向。循环R01／R02只在所属记录路径内定位，不新增全局编号族。AS／DM继续使用统一资源登记。
+
+## 2026-10-23记录规范
+
+G002-DOC-027：来源、验收与输入摘要的轻量记录，Accepted / Documentation；见[决策](decision-log.md#g002-doc-027)。DOC下一未占用为028；本轮不新增玩法或方向身份。

@@ -1,6 +1,6 @@
 # Agent 操作手册
 
-2026-10-18 / layout.5。此仓库管理游戏构思、设计与来源；代码在各自实现仓库。默认项目为《言咒》game-002，工作区`yanzhou/`。
+2026-10-23 / layout.6。此仓库管理游戏构思、设计与来源；代码在各自实现仓库。默认项目为《言咒》game-002，工作区`yanzhou/`。
 
 ## 先选入口
 
@@ -11,7 +11,7 @@
 
 ## 内容边界
 
-- 新想法先入项目inbox或所属探索README，保留用户原话，缺项写Unknown，未合格标Raw / Unqualified。资格要有来源、对象、玩家情境／功能、可见行为、价值、与现有设计关系、未知及验证方式。
+- 新想法先入项目inbox或所属探索README，缺项写Unknown，未合格标Raw / Unqualified。言咒按[轻量记录](docs/design-workflow.md#言咒轻量记录)保存意图和决定摘要，不保存逐字原话；其他项目沿自身约定。资格要有来源、对象、玩家情境／功能、可见行为、价值、与现有设计关系、未知及验证方式。
 - 资格确认使用[grill-with-docs](C:/Users/Administrator/.codex/skills/grill-with-docs/SKILL.md)：先查允许材料，其余按主题及依赖成组询问，每项给推荐和影响；覆盖技能逐题等待默认。模型推荐不等于确认，已明确授权不重问。
 - 正式输出前查[设计流程](docs/design-workflow.md)和[模板](game-design-workflow/templates/README.md)。Raw不得进入正式素材、GDD、提案、评估或Draft Change。GDD明确0/1/2；写入不等于采纳。
 - 改现行规则需合格来源、提案／评估、目标Draft Change及明确采纳，再更新规则与决策。Accepted、Hypothesis/NotRun、实现与验收分别记录；历史实验和代码不能证明玩法成立。
