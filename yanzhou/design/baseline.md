@@ -1,51 +1,32 @@
 # 当前设计基准
 
-规则基准：2026-10-14 · documentation.3 / first-example.1 / battle-demo.1 / battle-presentation.1 / battle-focus.1 / physical-table.2。导航与状态核对：2026-10-18；本次整理不提升GDD成熟度或玩法证据。
+2026-10-23 · 阅读版1；规则仍为2026-10-14的CORE-063 physical-table.2。本次只改变文档职责、读取与审阅，不提升GDD成熟度或玩法证据。
 
 | 项目 | 当前值 |
 | --- | --- |
-| GDD | 2.6 / GDD-0 |
-| 核心摘要 | v0.21 / CORE-SUM-16 |
-| 规则 | TL-1 + INS-1，CORE-037—063；44个现行TL身份（TL-20退役） |
-| 最近规则增量 | CORE-063 physical-table.2：保留真实3D操作宿主，允许绑定宿主的只读必要文本与公开短提示，合法公开投影动作不改结算；CORE-060—062和案例数值不变 |
-| 结构 | 六主系统、两子系统、三公共流程，各保留五文件 |
-| 内容 | EX-001保留原回归；EX-002为独立完整单战；具体值仅适用各自固定配置 |
-| 证据 | 已实现规则、界面及CORE-061基础音画有局部技术证据，见开发入口；正式音画质量、玩家体验及平衡NotRun；设计采纳不代替验收 |
-| 开发状态 | 当前能力、最新包与未验范围只在[开发入口](../development/README.md)汇总；DOC-026确认先完善首场核心玩法，再开同一游戏的2D表现。此安排不直接替代CORE-063，见[当前问题](../governance/questions.md) |
-| 视觉输入 | 按任务选择[固定资产](../development/asset-readiness.md)和对应视觉稿；B13运行预览与10月17新UI候选分开，不再把旧v10／v02列为所有新任务的默认输入 |
+| 核心正文 | [GDD 2.6 / GDD-0](GDD.md)，唯一连续阅读正文；core-design不再独立维护摘要 |
+| 规则 | TL-1 + INS-1，CORE-037—063；44个现行TL身份，TL-20退役 |
+| 最近行为修订 | CORE-063 physical-table.2：真实3D宿主允许必要只读文本与公开短提示，公开投影动作不改结算；CORE-060—062及案例值不变 |
+| 结构 | 核心→行为索引／任务包→细则；五个已展开主系统、两个子系统、三公共流程；局外成长一页占位 |
+| 内容 | EX-001原回归；EX-002独立完整单战。EX-002引用的EX-001输入固定于5c542e12c53a5ba3044b6e647e6c3950e9260bc5，不自动跟随更新 |
+| 当前制作 | 首场核心玩法优先，再开始同一游戏2D表现；FB-Q01／02与PRE2D-Q01沿[questions](../governance/questions.md)，不推定新行为已采纳 |
+| 实现与证据 | 当前能力、运行包及限定技术证据统一在[开发入口](../development/README.md)；音画质量、玩家体验和平衡未因文档整理通过 |
+| 视觉输入 | 按任务查[固定资产](../development/asset-readiness.md)；B13运行与新UI候选分开 |
 
-## 状态只在这里统一解释
+## 状态与适用域
 
-- **Accepted**：已采纳规则与明确决定。各 rules 页TL条款及CORE-055—063的限定接口按此执行。
-- **Qualified**：已确认且可用于设计的素材。辅槽／行动／标记尚未整包采纳的通用框架，以及ART-I1—4、INS-I1—5、行动设计意图仍保留此状态；其已被具体CORE采纳的部分按Accepted执行。
-- **EX-001**：用户要求加入的首批案例，三项后续推荐已确认；完整参数在案例内固定，用于展示与开发对照。未晋为全局发行池或平衡结果。
-- **EX-002**：用户确认R3后的独立完整单战；疲劳与静态胜败只适用于本场，原EX-001回归不变。
-- **Hypothesis / NotRun**：体验、平衡与执行证据未完成。文档版本更新不提升证据等级。
+- Accepted：已采纳规则与明确决定。当前TL条款及具体CORE限定接口按其范围执行。
+- Qualified：可用于正式设计的框架或意图；辅槽、行动、标记通用框架与ART-I／INS-I等未整包采纳。已由具体CORE采纳的局部按Accepted执行。
+- EX-001／002：限定案例，不是全局发行池或平衡结论；输入、疲劳与终局只在各自范围有效。
+- Hypothesis／NotRun：体验或执行尚缺证据。实现状态、技术检查、用户接受及真人体验分别报告；GDD-0／1／2只指文档成熟度。
 
-## 来源与追溯
+## 版本与来源
 
-| 内容 | 依据 |
-| --- | --- |
-| 原核心与兼容复用 | [CORE-037—048来源审查](source-review.md) |
-| 铭刻结构 | [CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md) |
-| 供料调整 | [CORE-050](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md) |
-| 单一D、预留和拍序 | [CORE-051](../sources/draft-changes/D-2026-10-05-single-processing-time.md) · [CORE-052](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md) · [CORE-053](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md) |
-| 敌情 | [CORE-054](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md) |
-| 冻结与锁定 | [CORE-055](../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md) |
-| D公式 | [CORE-056](../sources/draft-changes/D-2026-10-08-processing-time-formula.md) |
-| 总序与恢复 | [CORE-057](../sources/draft-changes/D-2026-10-08-settlement-order-reference.md) |
-| 资源与跨战 | [CORE-058](../sources/draft-changes/D-2026-10-09-resource-system-design.md) |
-| 首批设计与新增明确接口 | [CORE-059](../sources/draft-changes/D-2026-10-11-simple-spell-example.md) |
-| 首场操作合同与完整单战 | [CORE-060](../sources/draft-changes/D-2026-10-11-development-design-round-01.md) |
-| 首场表现与声音 | [CORE-061](../sources/draft-changes/D-2026-10-12-development-design-round-03.md) |
-| 首场失焦与返回 | [CORE-062](../sources/draft-changes/D-2026-10-12-development-design-round-05.md) |
-| 桌面3D主交互 | [CORE-063](../sources/draft-changes/D-2026-10-12-development-design-round-07.md) |
-| 必要文本与公开投影动作 | [CORE-063 physical-table.2](../sources/draft-changes/D-2026-10-14-demoncards-presentation.md) |
-| 通用设计与体验意图 | [2026-10-11集成记录](../governance/main-system-review-2026-10-11.md) |
+开工时一次固定设计仓库完整提交，核心、包和细则共用该版本；仅跨仓库、历史继承或未提交输入单列例外。来源定位集中在[来源索引](source-review.md)，不在这里复制采纳链。
 
-整理输入固定提交：`a9a7be3a48356379d9fb3eed86c17cfe3ada7325`。此前的基准沿革、各轮来源及独有设计解释保留在[整理前版本](https://github.com/dsaj4/game_design/blob/a9a7be3a48356379d9fb3eed86c17cfe3ada7325/yanzhou/design/baseline.md)及[决策记录](../governance/decision-log.md)。当前问题只查[集中登记](../governance/questions.md)，不从旧轮次的Unknown倒推待办。
+阅读结构按[G002-DOC-028](../governance/decision-log.md#g002-doc-028)执行。迁移前完整正文与状态以2e967f5e71cc387238131bd18feec47e6b546598按原路径取证；更早沿革保留在[原基准](https://github.com/dsaj4/game_design/blob/2e967f5e71cc387238131bd18feec47e6b546598/yanzhou/design/baseline.md)。历史Unknown不自动成为当前待办。
 
-<!-- 旧章节链接保留；历史正文见 baseline 固定版本。 -->
+<!-- 旧基准锚点仅供历史定位。 -->
 <a id="2026-10-08系统框架重建与审查"></a>
 <a id="commitment1批次冻结与消费锁定2026-10-08"></a>
 <a id="enemy1敌情合同与卡面种类2026-10-05"></a>

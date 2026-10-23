@@ -68,7 +68,7 @@
 | Proposal | 来源必须是合格素材；使用提案模板写玩家行为、核心反馈、玩法假设、最小验证、参照与未知；不过早展开全套数值 |
 | Evaluation | 有合格来源/提案，使用评估模板判断推荐推进、修改后重评、搁置或不推进；说明动作、反馈、核心取舍、最小原型及可验证风险 |
 | Draft Change | 以合格来源和提案/评估为据，列拟增删替换文本、影响、理由及来源；未经明确采纳不修改现行核心 |
-| Accepted | 用户确认或既有明确采纳授权后，更新design对应权威页、核心摘要（受影响时）与decision-log；同轮提交推送 |
+| Accepted | 用户确认或既有明确采纳授权后，更新design对应权威页、受影响核心正文及派生任务包，与decision-log同步；同轮提交推送 |
 
 主系统对应sources/proposals、evaluations、draft-changes；探索正式文件直接放所属DIR。跨探索回写须目标项目复审，目标Draft Change在主系统sources/draft-changes。历史已完成的P/E/D可在history/accepted-design-records保留来源，不因归档新增采纳范围。
 

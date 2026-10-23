@@ -8,7 +8,7 @@
 - [构思卡（流派／系统方向／物件）](concept-card-template.md)：原始想法的结构化填写形式；用户提供想法与画面，agent整理意图、行为、依赖、取舍和缺口。沿原资格流程，不代替合格素材或GDD。
 - [合格 GDD 素材](qualified-gdd-material-template.md)
 - [GDD 写作要求](gdd-writing-requirements-and-template.md)
-- [系统通用框架空白模板](system-framework/README.md)：整目录复制；README 导航、rules 规则、experience 体验假设、design 定位与待定方案、examples 独立示例。是 GDD 系统规格的分文件形式，不内置项目玩法。
+- [系统通用框架空白模板](system-framework/README.md)：按实际内容选择导航、规则、体验、设计和示例形式；言咒未设计系统仅留一页占位。是 GDD 系统规格的分文件形式，不内置项目玩法。
 - [提案](proposal-template.md)
 - [评估](evaluation-template.md)
 - [拟修改](draft-change-template.md)

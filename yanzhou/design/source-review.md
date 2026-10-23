@@ -1,203 +1,69 @@
-# TL-1 + INS-1 素材使用审查
-
-Project ID：game-002。文档角色：SourceReview。2026-10-05。当前GDD-0 / 2.1 / processing.2；原RC1审查见[固定版本](https://github.com/dsaj4/game_design/blob/d6e54af395518401fb4d8466b2302a1271da557a/yanzhou/design/source-review.md)。
-
-## TL-1当时正式使用（2026-10-01）
-
-以下至第9轮保留原使用记录；当前覆盖范围见后续INS-1、routing.1与processing.1／2章节，旧材料句法和直接资源输出不再作为现行入口。
-
-| 来源 | 资格／采纳 | 用途与限制 |
-| --- | --- | --- |
-| [DIR-028核心素材](../sources/materials/M-2026-10-01-timeline-production-core.md) | Qualified；确认结构Accepted | 自动产线、有限队列、敌牌倒计时、自动维护恢复、保存与本轮INT边界 |
-| [DIR-028新卡表](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/M-2026-10-01-resource-card-pool.md) | Qualified；通用边界局部Accepted，具体内容Proposed | 材料句法等仅按用户答复采纳；13词／4资源／4行动及全部数字没有整包采纳 |
-| [P](../sources/proposals/P-2026-10-01-timeline-production-system.md)／[E](../sources/evaluations/E-2026-10-01-timeline-production-system.md)／[D](../sources/draft-changes/D-2026-10-01-timeline-production-core.md) | 正式过程记录 | 结构替代关系、风险、用户授权；不是实验结果 |
-| DIR-028第7轮UI与HTML | Raw / Unqualified | 仅展示候选；发布网站不等于采纳页面布局 |
-
-## 旧来源逐类处置
-
-原68份素材与47份inbox的资格、形成过程及原采纳结论保留；本轮不从未读旧inbox抽取新规则。其现行适用性以本表与[逐文件清单](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/reading-log.md)为准，而非文件里的历史“当前”。
-
-| 旧规则来源族 | TL-1处置 | 原因 |
-| --- | --- | --- |
-| 实体词卡分配、完整法术、同名与实例、词义明确权限 | 有限保留；内容接口重设计 | 仍支持程序配置，不继承旧卡池或副本额度 |
-| 目标名单、合法性、已付成本不复制、已成结果不回滚 | 保留原则；己方选目标改为生效时 | 制造成本不能套旧无目标免付；空放已明确 |
-| 普通伤害先甲后生命、完整事件终局 | 保留明确基础 | 掉血全杖打断已替代；普通伤害与疲劳分开 |
-| 冷却、释放、复诵、开始槽、名义续排 | 由生产／交付／排队／实际顺延替代 | 旧法术过程与新批次不等价 |
-| 格子、锚点、宿主距离、邻近脉冲、环境形态 | 退出默认规则，内容重设计 | 用户选择卡牌主战场 |
-| 元素本体、火冰层数、镶嵌及53实体 | 保留原设计记录；不列入新版发行池 | 用户要求重新设计卡表 |
-| 19节点、三款杖、12场、旧开局与PG值 | 保留历史；新结构下重新评估 | 不能凭旧完整度填充新规格 |
-| 路线、休整、商店、单局库存 | TL-32–36补齐路线、库存、节点选择、交易及保存；新参数和可达性重审 | 部分资源跨战引入新的经济关系 |
-| 疲劳 | 递增方向再次确认，参数与上界重定 | 不再宣称80／120刻上界适用 |
-| 同场开头锁定重播、只读战斗 | 已替代 | 需要保存信息与已提交的战中决策 |
-| TH／CAL／Demo及视觉评审 | 原版本证据 | 不证明新机制、卡表或UI成立 |
-
-## 审查深度与尚缺项
-
-已逐页核对现行系统、内容接口、参数与验收；卡表按53实体结构字段审查，历史来源与证据按索引、角色和全文关键词筛查，未把222份全部声称为全文语义复审。每文件的实际覆盖、固定blob与修改／保留理由见reading-log。完整同拍顺序、具体发行池、跨战边界及参数仍Unknown。独立付费干涉能力按用户要求延期。
-
-## 第9轮兼容复用审查
-
-以TL-1提交`ed013948f6c5379fc984413ffd08ae8e7ce0f0c9`继续复核旧Qualified材料的相关规范化章节。[21份直接复用来源表](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)逐项列出TL-26–37的当前落点和禁止迁入部分；另两份数值／遭遇素材只作边界对照。旧材料页添加当前适用范围，原文保留。没有把68份素材或47份inbox声称为本轮全文重审。
-
-采用用户明确授权合并的兼容条款，通过既有[P/E第9轮](../sources/proposals/P-2026-10-01-timeline-production-system.md)及[新D](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md)记录CORE-048。改变的是当前使用范围，不重写原资格或补造原确认。具体阅读覆盖和固定blob见[reading-log第9轮](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/reading-log.md)。
-
-由此补回构句／绑定／修饰、护甲／支付、真实配置、路线／库存／节点经济及保存约束。旧“施法开始”“执行者”“无目标免付”“整包收益”均按新阶段限定，不覆盖材料句法、空放制造损失、资源携带和战中恢复。没有新的发行卡、效果身份、玩法实测或UI采纳。
-
-## INS-1法器铭刻局部复审（2026-10-04）
-
-[DIR-036局部M](../sources/materials/M-2026-10-04-artifact-inscription-core.md) Qualified、[P](../sources/proposals/P-2026-10-04-artifact-inscription-core.md)／[E](../sources/evaluations/E-2026-10-04-artifact-inscription-core.md)与[D／CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)记录限定采纳。比较输入`a4a7aea8500970ef3504a62e576fc99f08c566db`，逐文件blob与全文／局部覆盖在E；本轮不声称全读历史、其他方向或所有旧候选卡表。
-
-上表及第9轮记录保留当时使用情况；当前适用按以下覆盖：TL-20入口与CORE-041材料—动作—目标已替代；实体占用、耗材分账和卡效绑定继续适用；修饰目的地改为法器辅槽预设；法器直接资源输出退出；高阶材料来源／加工在INS-1当轮为Unknown，现按下方CORE-058明确通用取得链，具体配方延期；资源维护与携带只在内容明确提供时成立。TL-38–45以用户确认结构为来源，不纳入模型推荐或发行例子。
-
-原Qualified卡表保持原资格与历史含义，但完整程序、材料／目标角色与直接资源生产内容须按INS-1复审后才能发行。未更改其原文或声称整池重新合格。原CORE背景不刷新，没有新FX、实验或实现证据。
-
-
-## 2026-10-04探索退役后的来源状态
-
-用户明确审查后决定删除全部现有方向，测试、UI等信息可后续重做。DIR-001–036的未采纳候选不再进入当前待审清单；上述表格保留原轮次资格与使用事实。DIR-028、036的六份已采纳M/P/E已迁入sources，其原始答复、兼容审查和覆盖记录通过固定Git链接取证。CORE-037–049与现行规则未因清理撤销，未知内容不由旧试点补齐。详情见[清理记录](../governance/cleanup-report.md#2026-10-04探索方向退役)。
-
-## routing.1：敌情、资源优先级与供料调时澄清
-
-[原话与答复](../sources/inbox/2026-10-04-routing-response-clarification.md)中第1–3项及供料调时答复已形成[局部Qualified M](../sources/materials/M-2026-10-04-routing-response-clarification.md)、[E](../sources/evaluations/E-2026-10-04-routing-response-clarification.md)与[CORE-050采纳D](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)。这是现有机制的限定澄清，沿M→E→D回写，不另作完整新系统提案。
-
-比较输入`b0754e5c08273201f4b04639a371ff2da16cafe6`。使用本轮用户说明、当前系统及其审查，不扩读退役方向或借历史实现补规则；受影响条款为TL-05／06／09／16／23／30及对应展示／验收。所有敌方行动牌Δ＞0；供料去向与优先级可临时调整，只影响未来未承诺批次；规避打断先通过供料间接改未来开工。维护优先、托管、战前争入行顺序与普通队列保留。
-
-第4项关于拥堵是玩家操作后果的意见用于修订AUD-022；其中付费调牌序能力仍Raw / Unqualified，仅保存在inbox，未进入本次Qualified玩法范围。三端不固定物理端口或卡类，“5回合”不固化数值，运转具体配方与资源来源、恢复触发／重叠及额外调时均未决。无Observed玩家证据，全部NotRun。
-
-## processing.1：单一处理耗时与开工预留（2026-10-05）
-
-输入提交`cb5bea76595d3a7bff057a15332f5148effa84c2`。[原话及Q6–8答复](../sources/inbox/2026-10-05-single-processing-time.md#2026-10-05批量确认与晋级)经[Qualified M](../sources/materials/M-2026-10-05-single-processing-time.md)、[E](../sources/evaluations/E-2026-10-05-single-processing-time.md)和[CORE-051 D](../sources/draft-changes/D-2026-10-05-single-processing-time.md)进入现行规则；用户本批明确确认，不重复索取采纳许可。
-
-Include：仅D且整数≥1，取消J／R／独立周期／冷却／S；开工预留所需容量，无位不开工，完工即入行。Replace：旧完工成品滞留与之后争空位的路径；同期入行处理的战前法器序保留。Park／Unknown：预留排位、开工争用与中断释放、具体卡数／Q／D、最早翻开及临时供料恢复。正式范围不包含额外付费干涉或模型未列出的新规则。
-
-实际阅读清单与新增blob见E；此前已读主系统按固定输入复用，增补内容合同与验收相关页，未全量重审旧来源、退役方向、SYS-006或整个GDD包。外部课程仍为研究材料，不作为此生产规则的采纳依据。旧来源与验收按原版本保留，不改原始资格或运行结果。
-
-## processing.2：生产与队列接口（2026-10-05）
-
-输入提交`0c511dd7f8c1e2dda84a65e2b540a2517456771d`。[五项推荐及用户“下一批全部按推荐”](../sources/inbox/2026-10-05-single-processing-time.md#2026-10-05第二批确认与晋级)经[Qualified M](../sources/materials/M-2026-10-05-production-queue-interfaces.md)、[E](../sources/evaluations/E-2026-10-05-production-queue-interfaces.md)和[CORE-052 D](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md)限定采纳，M→E→D不另建完整P。
-
-Include：S1-Q9／10／11／1／5的容量预留不排牌序、按有效供料优先级联合检查开工、中断释放下拍可用、入行最早下拍翻开、单份临时供料及结束拍恢复。Replace：当前正文中这五项仍为Unknown的表述。Park／Unknown：完整总序、普通离队容量复用、多牌内部关系、到期与新操作受理先后、维护内部顺序、内容及数值。未新增免费撤销、公平轮转、插队或重铭能力。
-
-上节processing.1及原M／E／D保留当轮未决范围，不改写原确认。实际阅读及blob见本轮E；只对相关系统和来源作限定复核，不宣称全量旧素材或完整GDD包重审。课程仍Raw研究输入，未晋级为本规则来源；全部体验与新增验收预期NotRun。
-
-## timing.1：阶段一共同拍序（2026-10-05）
-
-输入提交`dfc844a41f2cd6a9d78d01abafc43b3340745664`。[原推荐与“Q12–14全部按推荐”](../sources/inbox/2026-10-05-stage-one-closure.md#2026-10-05第三批确认与阶段一完成)经[Qualified M](../sources/materials/M-2026-10-05-stage-one-common-timing.md)、[E](../sources/evaluations/E-2026-10-05-stage-one-common-timing.md)和[CORE-053 D](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md)进入正文，现有局部接口按M→E→D处理。
-
-Include：仅Q12–14的拍末一次开工、a+D、正常空位当拍复用、条件齐备同拍续开／其他材料空位重开、到期—揭示—观察输入关系、基础补给下拍可用与初始库存第0拍可用。Replace：当前正文中对应Unknown。Park／Unknown：复杂总序、维护、多牌内部关系、失效目标与来源死亡、真实内容／参数与UI自动暂停表现。Omit from CurrentSpec：工作包中的临时数值、分析代号和单效果／单张案例限制；它们只用于条件推演，不是发行内容。
-
-八组案例文档复核见E，案例丙入行历史已订正；阶段一交付与未知移交完成，不新增玩法运行证据。前轮M／E／D和本文旧增量保留当时未决范围，当前状态以CORE-053为准。实际读取覆盖与固定blob见E；未全量重审旧素材，不借课程或外部实现替规则作决定。
-
-## enemy.1：阶段二敌情合同与卡面种类（2026-10-05）
-
-输入提交`95c136ed954f70c9d5336552ee5cd30b3e9fcc69`。[阶二Q01–24及各轮答复](../sources/inbox/2026-10-05-stage-two-enemy-pressure.md#2026-10-05第五轮确认与晋级)经[Qualified M](../sources/materials/M-2026-10-05-stage-two-enemy-pressure.md)、[E](../sources/evaluations/E-2026-10-05-stage-two-enemy-pressure.md)和[CORE-054 D](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)进入正文，现有接口细化按M→E→D处理。
-
-Include：固定循环时间表与翻开表公开、四类卡面种类与地域变体规则、打断锁定剩余最长施法及落空、单一来源死亡即胜、伤害与打断大类内敌方先结算、危险开工带展示、首版内容约束与表现方向。Replace：TL-13“敌人全灭判胜”、TL-29来源死亡Unknown。Omit from CurrentSpec：候选敌人的具体数值、分析套组和逐拍路线（只作条件推演）。Park：「字身」、三本原卡背、“战前法器序中D最长”目标规则、“工序不止／随身”、特色扩展表中的新规则类形态。神秘学意象出处未核实，不作为规则依据。
-
-
-## action-framework.1：行动卡与标记通用框架（2026-10-08）
-
-固定输入 `6dd669d6d2ee17d3362a12b029da5d2dec884b27`；用户指定本地未提交主材料完整读取，相关阶段文件局部核对。具体覆盖、三个原件 SHA-256、Q-MARK 既有确认、ACT-Q1／2 本轮答复及冲突处理见 [来源记录](../sources/inbox/2026-10-08-action-card-framework-review.md)。
-
-Include as QualifiedFramework：[局部素材](../sources/materials/M-2026-10-08-action-card-framework.md)中的标记宿主／极性／叠层／上限方向、禁止转移、周期停止、简单条件、独立定时效果和行动读取支付。Inherited：既有生产、队列、目标、护甲、支付与终局 TL 规则。Omit：Raw 卡池、推荐数值、减料增产的辅槽例、未确认事件链和支付优先级。Unknown：同拍总序、复合步骤、期限叠加、上限／溢出、绑定失效与退款。
-
-新增通用内容未成为完整 CurrentSpec；既有条款不因排版迁移重新采纳。示例独立保存并标为说明性推导，不当作实体、默认数值或玩家观察。阶段完成前提不变，本轮没有执行玩法实验或导入外部实现。
-
-## artifact-framework.1：法器系统整理（2026-10-08）
-
-固定输入 `71e7a0a18709e19e85ea171feb10b2ba2b432097`。本轮 CUSTOM 只整理法器五文件及必要接口；已提交来源 blob、局部原输入哈希、实际覆盖和逐类处置见 [法器来源记录](../sources/inbox/2026-10-08-artifact-framework-review.md)。未全读 inbox、GDD 包、其他方向或历史正文。
-
-Inherited：TL-03—07／38／45 保留 Accepted；供料情境移入独立示例。Include as Qualified interface：既有 [辅槽素材](../sources/materials/M-2026-10-08-augment-framework.md)与 [行动／标记素材](../sources/materials/M-2026-10-08-action-card-framework.md)中的生成时间、行动量值、标记协同、足额支付、实际状态与未来预告边界，权威正文仍留相邻系统。Experience：原目标展开为假设与观察方式，全部 NotRun。
-
-Omit：Raw 具体法器／辅槽、减料／虚拟材料、单批多产、压缩预留、开工或完工绕队列收益，以及未确认数字。Park / Unknown：D 的读取及叠加、标记不足分支与退款、同拍消费／兑现顺序、契合形式、多牌内部关系、维护及战终未完成批次材料归属。没有新增玩法资格、P／E／D、CORE 采纳、发行实体或实验结果；框架整理记 DOC-015。
-
-## enemy-framework.1：敌人系统整理（2026-10-08）
-
-固定输入 `a23c75d74187f45f04b50376658be0274049f3f8`。CUSTOM 限敌人五文件、内容合同、必要相邻接口及登记来源；五份未提交输入仅检索和局部选读。实际覆盖、blob、原件哈希与差异见 [敌人来源记录](../sources/inbox/2026-10-08-enemy-framework-review.md)。没有全读 GDD 包、历史或其他探索。
-
-Inherited / Accepted：TL-16、CORE-054 的敌程序、首版内容限制及信息合同。内容页的通用字段与约束归 rules，压力定位、取舍和秘仪炼金方向归 design，行为假设和观察方式归 experience，六组已采纳规则说明归 examples；具体敌人程序表与数值留内容目录，仍为候选 / Illustrative。行动结算、返工和可达性只引用相邻权威。
-
-Include as Qualified interface：既有行动／标记素材中的敌我宿主、正负归属、实有层数与未来预告边界。Omit：Raw 改 Δ、提前取消暗牌、新事件链、由辅槽扩展取消类别、敌方施法成本及 10—15 张敌牌计划。Unknown：真实内容配套、复杂同拍、附属物、其他类子类、定时效果绑定失效和表现布局。未新增 M／P／E／D、CORE 采纳、发行实体或运行证据；文档组织记 DOC-016，体验仍 NotRun。
-
-## augment-framework.1与本轮主系统审查（2026-10-08）
-
-[辅槽局部Qualified素材](../sources/materials/M-2026-10-08-augment-framework.md)已用于通用权限：生产侧只改D、行动侧改明示量值、跨法器以标记协同、完整检查后支付、稀有度表达强弱。旧减料、单批增产、直接跨法器加成和统一三阶不作为新版默认；在当轮审查时D快照、叠加、失败分支和退款仍未决定；后续局部采纳见下方commitment.1。该素材的原资格与用户答复不因本节重新评定或升级。
-
-本轮以`cb8c8b2376cfe217e6d65a128d0fbf9909f83edb`完整阅读69份已跟踪design及相关来源，订正阶段入口、旧Unknown与索引，并评审共享状态和内容风险。逐文件版本、全文／局部范围与排除项见[清理映射](../governance/cleanup-map.json)中的`main_system_audit_20261008`；结论见[审查报告](../governance/main-system-review-2026-10-08.md)。没有全读所有sources、未提交阶段原件或历史正文，没有新增玩法采纳或运行结果。
-
-## commitment.1限定采纳（2026-10-08）
-
-固定输入`830c0b063e62c816fe1abe39c7818787d9c4a089`。本轮沿CUSTOM只读受影响系统、核心／治理与相关来源，未提交阶段原件、历史正文和外部代码不纳入。Include：[本轮M](../sources/materials/M-2026-10-08-batch-freeze-consumption-lock.md)中D冻结与FZ-Q1—5，经E→D以CORE-055局部采纳。旧辅槽／行动M保留历史确认，开工立即扣费表述由本轮限定替代。
-
-Omit：开工立即扣费备选、全库存默认锁定、敌方状态锁定、动态重算D、额外输入窗口与强制逐批确认。Unknown：公式、同拍总序、冻结量上限／失效／战终以及完整定时保存。本轮没有发行内容或实验，其他Qualified结构不整体提升。
-
-## time-formula.1耗时公式与外部参照（2026-10-08）
-
-固定言咒输入`614a6e2dd48cfbb4894bfed8a4669703f0004553`，CUSTOM限定相关时间／支付接口与治理。用户明确指定外部本地目录，实际只读SlayTheSpire2恢复工程的局部数值／Buff逻辑，哈希与覆盖见[参考摘要](../../media-analysis-lab/runs/2026-10-08-sts2-numeric-reference/README.md)。未复制第三方代码或资产，未运行／修改外部工程；这不是言咒实现或正式发行版验证。
-
-Include：[本轮M](../sources/materials/M-2026-10-08-processing-time-formula.md)，经E→D以CORE-056采纳。采用先加后乘及有效倍率连乘；向上取整、最低1拍和无收益费用规则是授权内的本项目适配。Omit：助手中途提出的百分比加算方案、把所有Buff层数当乘方、外部遗物／卡池／上限／时长规则。普通行动量值仍沿自己的合同；内容参数、同拍总序和生命周期不被公式代定。
-
-## timing.2：同拍结算（2026-10-08）
-
-固定输入`a3fa9101940df567b56d8fe665bcbe6ceb7f1265`，CUSTOM覆盖及用户直接选定授权见[来源](../sources/inbox/2026-10-08-settlement-order-reference.md#本轮直接选定与采纳)。[M](../sources/materials/M-2026-10-08-settlement-order-reference.md)→[E](../sources/evaluations/E-2026-10-08-settlement-order-reference.md)→[CORE-057 D](../sources/draft-changes/D-2026-10-08-settlement-order-reference.md)。未全量重审历史或未提交阶段原件。
-
-Include：通用阶段／同类序、复合分组、有限事件边界、定时期限／绑定、维护恢复、共享支付／承诺失效及恢复合同。Replace：相关现行Unknown。Omit：外部受伤前荆棘与多人选择恢复、不具资格的新反应卡效。Park：上限／刷新／周期预算、托管维护、附属物、批次内部关系、跨战归属与具体参数。其他Qualified框架不整包提升；体验和实现仍NotRun。
-
-## resource.1：资源设计与通用边界（2026-10-09）
-
-固定输入`54ad7597145127922759be7840c5d4d30ea786e1`，沿本聊天已读GDD及相关来源定向复核资源、法器、铭文、经济、交互、内容、参数与派生摘要；未扩大到历史、其他方向、未提交原件或外部代码。[M](../sources/materials/M-2026-10-08-resource-design-intent.md)→[E](../sources/evaluations/E-2026-10-08-resource-design-intent.md)→[CORE-058 D](../sources/draft-changes/D-2026-10-09-resource-system-design.md)，依据用户“更新到主系统中”采纳。
-
-Include：三个职责及R1—R20全部已确认通用边界与体验目标。Replace：核心必填适用域、未来用途／阶级设置边界、普通耗材战终Unknown、战中容量Unknown及笼统的仅种类数量跨战。Omit：R10仅量值推荐、免费即时加工、全量跨战与每战补满、单场统一高阶硬上限。Park：具体卡池、性质阶级数、配方和各阶效果、容量与D、复杂分料及特殊对象合同。用户方向例不发行，体验仍NotRun。
-
-## inscription-framework.1：铭文与辅槽整理（2026-10-08）
-
-此条于2026-10-11补接历史来源导航，非重新采纳。[原整理记录](../sources/inbox/2026-10-08-inscription-framework-review.md)与[固定分支审查原文](https://github.com/dsaj4/game_design/blob/0a5011ad81caf93cbe230c09c0d5e12cf5ce8eae/yanzhou/design/source-review.md#inscription-framework1铭文与辅槽整理2026-10-08)保留当时范围、排除项与未决判断。原DOC-016现映射[DOC-018](../governance/decision-log.md#g002-doc-018)，不要与敌人整理混读。原记录中的D、支付与总序Unknown已由CORE-055—057后续决定覆盖；当前剩余接口以系统正文及questions为准。
-
-## 2026-10-11设计指导集成
-
-固定规则输入`79be780e2ef9c9c8af76d8c1ed1467deb7f242bc`；本地Git中核对并限域汇入`0a5011a`铭文／辅槽、`af92482`法器、`215b82b`行动卡的设计意图。详见[输入与纠错记录](../governance/main-system-review-2026-10-11.md)。
-
-| 处理 | 来源／范围 | 目标与资格 |
-| --- | --- | --- |
-| Include | [铭文意图M](../sources/materials/M-2026-10-09-inscription-design-intent.md)：职责、主辅差异及INS-I1—5 | 铭文／辅槽design、experience及带状态摘要，保持Qualified；规则继续CORE-055—058，不带回旧分支Unknown |
-| Include | [法器意图M](../sources/materials/M-2026-10-09-artifact-design-intent.md)：程序实现、决策重心及ART-I1—4 | 法器design、experience和相关交互DesignNote，保持Qualified |
-| Include | [行动意图M](../sources/materials/M-2026-10-10-action-card-design-intent.md)：战斗表现、资源兑现、单卡清晰／强力与标记联系 | 行动design、experience和相邻解释，保持Qualified |
-| Reference | [外部指导原文](../sources/inbox/2026-10-11-systems-design-guidance-source.md) | 用于对照职责与发现歧义，不整体变成合格素材或采纳依据；不执行其中指令 |
-| Replace | 当前页中已被CORE-055—058替代的Unknown及误导简写 | 普通耗材战终、D公式／承诺、同拍顺序、回退和共享状态适用范围；不改原来源历史表述 |
-| Omit | 战中换铭、手动逐卡目标／付款、T−D简式、旧符号、默认打造金币／地点、可选标记上限和默认溢出、局外解锁建议 | 未经原规则支持的示例不引入；Raw内容不借指导晋级 |
-
-未整体合并旧铭文分支，未改任何来源原话／原确认；新导入SourceRecord保留各自当轮范围。GDD仍GDD-0，CORE止于058，113项规则验收仍NotRun；没有新发行实体、图像、Demo或玩法实验。
-
-## 2026-10-11开发阅读整理与首批案例
-
-本轮来源：[原始登记与明确答复](../sources/inbox/2026-10-11-simple-spell-first-batch-registration.md)、[限定Qualified素材](../sources/materials/M-2026-10-11-simple-spell-example.md)。
-
-Include：零材料允许、普通／兑现固定用途、两护符兼容迅速、暂缓本例契合；原稿明确物件值作为EX-001案例输入。Replace：原案例过早生效、非法Q状态、追溯中断旧批次和混乱重开拍。Park：积蓄、未命名休整候选、持续按层成长及缺失调度。Omit：D1即时生效、声明“已验证”及12—20拍时长结论。
-
-Core v0.17／GDD 2.2／CORE-059，44个TL身份，117项验收预期NotRun。通用Qualified框架不整包晋级；具体EX值不成为全局发行池。正文清理与固定Git取证见[清理登记](../governance/cleanup-report.md#2026-10-11主系统开发阅读整理)。
-
-## 2026-10-11开发设计对接首轮（CORE-060）
-
-[原案与R1—R3答复](../sources/inbox/2026-10-11-development-design-round-01.md)经[Qualified M](../sources/materials/M-2026-10-11-development-design-round-01.md)、[限定E](../sources/evaluations/E-2026-10-11-development-design-round-01.md)与[采纳D](../sources/draft-changes/D-2026-10-11-development-design-round-01.md)集成。专人GPT-6.1-sol完成候选，用户直接“本批按推荐”，总控核实原始消息后集成，不重复确认。
-
-Include：原案R1／R2首场操作完整条件，R3独立完整单战配置、疲劳及静态胜败。Replace：TL-Q08／07本场仍未知的当前表述。Omit：3秒默认、详情保持播放、3拍疲劳周期三个未选替代。Park：主动启停、泛化复合卡分类、跨构筑疲劳和局内扩展。EX-001原文件及旧运行输入不改。
-
-资格、相容性及人工算术经限定复核；具体覆盖见E，不宣称全读旧素材或其他inbox。核心v0.18／GDD2.3仍GDD-0，TL身份不增加，既有117项运行状态不变；新EX-002及UI预期NotRun，不以设计裁决闭合代替DQ任务验收。
-
-## 2026-10-12开发设计对接第03轮（CORE-061）
-
-总控复核[Qualified M](../sources/materials/M-2026-10-12-development-design-round-03.md)、[限定E](../sources/evaluations/E-2026-10-12-development-design-round-03.md)和[采纳D](../sources/draft-changes/D-2026-10-12-development-design-round-03.md)，并核实用户R4—R6直接答复。七项资格完整，范围限暂停／单步／恢复的表现与声音政策；仅定向审查相关交互、EX-002及原案，不宣称全量复审其他来源。CORE-061／核心v0.19／GDD2.4仍GDD-0，TL身份与战斗参数不变；运行及体验NotRun。
-
-## 2026-10-12开发设计对接第05轮（CORE-062）
-
-总控读取直接userMessage `01a12eb3-3dee-73e2-9b75-f1378382e519`，核实R7-A及题内保留状态、草稿和音画条件。经[Qualified M](../sources/materials/M-2026-10-12-development-design-round-05.md)→[限定E](../sources/evaluations/E-2026-10-12-development-design-round-05.md)→[采纳D](../sources/draft-changes/D-2026-10-12-development-design-round-05.md)集成CORE-062。七项资格完整；CUSTOM只含原案、既有暂停／焦点／声音合同、DQ-24／36／37及本轮定向回写，未全量审查其他来源。核心v0.20／GDD2.5仍GDD-0，TL身份与数值不变，失焦适配和体验NotRun。
-
-## 2026-10-12开发对接第06轮（职责解释）
-
-[性能预算冻结职责](../sources/inbox/2026-10-12-development-design-round-06.md)为Derived clarification，限定开发标准、计划、DQ-12／44／45及原技术ADR。确认开工预算由工程负责人按既有授权设定冻结，不需新增用户玩法选择；没有R8或新用户答复，不生成M／E／D采纳链，也不改变CORE／GDD／案例。总控已记录本批技术方法后恢复开发；性能、视觉损失和最终品质结果仍待实际证据。
-
-## 2026-10-12开发对接第07轮（CORE-063）
-
-总控直接读取方向userMessage `01a12f52-8c23-7161-a12f-f98cea96a554`、R8／R9答复`01a12f60-c246-7581-84dd-c7ece4a242e4`，核实R8按推荐、R9按用户自由修正；经[Qualified M](../sources/materials/M-2026-10-12-development-design-round-07.md)→[限定E](../sources/evaluations/E-2026-10-12-development-design-round-07.md)→[采纳D](../sources/draft-changes/D-2026-10-12-development-design-round-07.md)集成。Include真实3D主页面入口、自动真实卡片表现、近观与系统图形页；Omit逐牌手动推进、主页面二维快捷入口／悬停文字框及纯文字UI。原案物件形制、排版与具体制作参数不作为用户逐项采纳。
-
-七项资格齐备；定向复核交互、摘要、第07轮及开发范围，未全量复审其他来源。核心v0.21／GDD2.6仍GDD-0，CORE-060—062、TL身份与案例数值不变，新3D运行与体验NotRun。每项四阶段要求依据用户`01a12f65-1b8e-7192-97ed-eb246bc10f65`登记DOC-025；规则闭合不表示前三阶段或真实实现完成。
+# 当前设计来源索引
+
+2026-10-23 · SourceReview。当前采纳与资格沿[基准](baseline.md)；本页只回答结论来自哪里，不属于日常开发或完整GDD必读包。引用默认取任务共同提交，来源原件按自身固定输入解释。
+
+## 规则来源
+
+| 内容 | 依据 |
+| --- | --- |
+| 原核心与兼容复用 | [CORE-037起点](../sources/draft-changes/D-2026-10-01-timeline-production-core.md) · [CORE-048兼容复用](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md) |
+| 铭刻结构 | [CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md) |
+| 供料调整 | [CORE-050](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md) |
+| 单一D、预留和拍序 | [CORE-051](../sources/draft-changes/D-2026-10-05-single-processing-time.md) · [CORE-052](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md) · [CORE-053](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md) |
+| 敌情 | [CORE-054](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md) |
+| 冻结与锁定 | [CORE-055](../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md) |
+| D公式 | [CORE-056](../sources/draft-changes/D-2026-10-08-processing-time-formula.md) |
+| 总序与恢复 | [CORE-057](../sources/draft-changes/D-2026-10-08-settlement-order-reference.md) |
+| 资源与跨战 | [CORE-058](../sources/draft-changes/D-2026-10-09-resource-system-design.md) |
+| 首批设计与新增明确接口 | [CORE-059](../sources/draft-changes/D-2026-10-11-simple-spell-example.md) |
+| 首场操作合同与完整单战 | [CORE-060](../sources/draft-changes/D-2026-10-11-development-design-round-01.md) |
+| 首场表现与声音 | [CORE-061](../sources/draft-changes/D-2026-10-12-development-design-round-03.md) |
+| 首场失焦与返回 | [CORE-062](../sources/draft-changes/D-2026-10-12-development-design-round-05.md) |
+| 桌面3D主交互 | [CORE-063](../sources/draft-changes/D-2026-10-12-development-design-round-07.md) |
+| 必要文本与公开投影动作 | [CORE-063 physical-table.2](../sources/draft-changes/D-2026-10-14-demoncards-presentation.md) |
+| 通用设计与体验意图 | [2026-10-11集成记录](../governance/main-system-review-2026-10-11.md) |
+
+## Qualified框架与限定使用
+
+| 来源 | 使用范围 |
+| --- | --- |
+| [辅槽框架](../sources/materials/M-2026-10-08-augment-framework.md) | 时间／量值权限、标记协同；生产不减料、不单批增产、不直接跨法器加成，不默认统一三阶。D冻结、费用与总序已有后续局部采纳 |
+| [行动与标记框架](../sources/materials/M-2026-10-08-action-card-framework.md) | 宿主、实有／预告、简单条件与明示支付；未被具体CORE采纳的通用内容仍Qualified |
+| [铭文意图](../sources/materials/M-2026-10-09-inscription-design-intent.md) | 职责、主辅差异及INS-I1—5；发现与长期知识尚未取得完整采纳／保存合同 |
+| [法器意图](../sources/materials/M-2026-10-09-artifact-design-intent.md) | 程序实现、决策重心及ART-I1—4；不新增战中重铭或启停 |
+| [行动意图](../sources/materials/M-2026-10-10-action-card-design-intent.md) | 战斗表现、资源兑现、单卡清晰与标记联系；不是整包卡池发行 |
+
+EX-001／002是各自固定范围的案例；不把其数字当全局参数。旧卡表、旧格子／环境形态、退役探索与Raw UI不自动进入现行规则。来源记录中的当轮Unknown可能已被后续CORE覆盖，当前只查questions；反向引用旧稿不能恢复冷却、完工等位、直接资源输出、免费撤销或逐牌手动推进。
+
+## 历史取证
+
+整理输入为2e967f5e71cc387238131bd18feec47e6b546598。原来源资格、独有排除理由、失败路径及各轮实际阅读范围保留在[原审查全文](https://github.com/dsaj4/game_design/blob/2e967f5e71cc387238131bd18feec47e6b546598/yanzhou/design/source-review.md)，早期材料仍沿其固定Git链接取证；本次不重审或提升历史资格。当前规则改变时只更新上表所指采纳依据与受影响正文，不追加长篇过程，不重建双向使用台账。
+
+<!-- 原来源章节定位统一指向上方固定历史全文，不作为当前规则。 -->
+<a id="tl-1当时正式使用2026-10-01"></a>
+<a id="旧来源逐类处置"></a>
+<a id="审查深度与尚缺项"></a>
+<a id="第9轮兼容复用审查"></a>
+<a id="ins-1法器铭刻局部复审2026-10-04"></a>
+<a id="2026-10-04探索退役后的来源状态"></a>
+<a id="routing1敌情资源优先级与供料调时澄清"></a>
+<a id="processing1单一处理耗时与开工预留2026-10-05"></a>
+<a id="processing2生产与队列接口2026-10-05"></a>
+<a id="timing1阶段一共同拍序2026-10-05"></a>
+<a id="enemy1阶段二敌情合同与卡面种类2026-10-05"></a>
+<a id="action-framework1行动卡与标记通用框架2026-10-08"></a>
+<a id="artifact-framework1法器系统整理2026-10-08"></a>
+<a id="enemy-framework1敌人系统整理2026-10-08"></a>
+<a id="augment-framework1与本轮主系统审查2026-10-08"></a>
+<a id="commitment1限定采纳2026-10-08"></a>
+<a id="time-formula1耗时公式与外部参照2026-10-08"></a>
+<a id="timing2同拍结算2026-10-08"></a>
+<a id="resource1资源设计与通用边界2026-10-09"></a>
+<a id="inscription-framework1铭文与辅槽整理2026-10-08"></a>
+<a id="2026-10-11设计指导集成"></a>
+<a id="2026-10-11开发阅读整理与首批案例"></a>
+<a id="2026-10-11开发设计对接首轮core-060"></a>
+<a id="2026-10-12开发设计对接第03轮core-061"></a>
+<a id="2026-10-12开发设计对接第05轮core-062"></a>
+<a id="2026-10-12开发对接第06轮职责解释"></a>
+<a id="2026-10-12开发对接第07轮core-063"></a>

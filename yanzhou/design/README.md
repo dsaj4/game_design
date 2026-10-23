@@ -1,24 +1,19 @@
-# 言咒主系统
+# 言咒设计阅读入口
 
-2026-10-18导航核对 · GDD 2.6 / GDD-0。当前先完善首场核心玩法，再进入2D表现方向；规则本身没有因整理改变。先看[开发期间设计变化与复盘](../governance/development-review-2026-10-18.md)及[当前问题](../governance/questions.md#开发前先看)，开发时使用[规范](../development/development-standard.md)与[阶段计划](../development/production-plan.md)。
+2026-10-23 · 阅读版1。先完整阅读[唯一核心正文](GDD.md)：整款游戏的稳定核心、当前首场范围、真实操作及未决边界都在其中。
 
-**从[GDD](GDD.md)看整体，再按系统查 rules；[EX-001](examples/simple-spell.md)保留原回归，[EX-002](examples/complete-battle.md)给出独立完整单战。** 当前未决事项只在[问题登记](../governance/questions.md)维护。
-
-| 需要什么 | 入口 |
+| 现在要做什么 | 下一步 |
 | --- | --- |
-| 简短理解游戏 | [核心设计](core-design.md) |
-| 整体循环与开发阅读顺序 | [GDD](GDD.md) |
-| 六系统及两子系统 | [系统目录](systems/README.md) |
-| 路线、经济、交互与保存 | [公共流程](common/README.md) |
-| 首批物件与具体情境 | [Examples](examples/README.md) |
-| 物件字段与内容状态 | [卡牌](content/cards.md) · [法器](content/wands.md) · [遭遇](content/enemies-encounters.md) |
-| 常量与数值使用方式 | [参数](parameters.md) |
-| 行为验收预期 | [验收](validation.md) |
-| 版本、资格与来源 | [基准](baseline.md) · [来源审查](source-review.md) |
+| 实现一个已定行为 | 从[任务设计包](../development/task-pack.md)开始，按行为选择必要条款 |
+| 查某项规则 | [行为与规则索引](../governance/rule-index.md)，定位后只读相关章节 |
+| 人工审校 | 让agent按[场景审阅规范](../development/design-review.md)讲解，配合任务包图示 |
+| 查具体物件／数值 | [案例](examples/README.md)、[内容合同](content/cards.md)、[参数](parameters.md) |
+| 检查结果应怎样 | [按行为归组的验收预期](validation.md)，不当成执行报告 |
+| 查系统结构 | [系统目录](systems/README.md)与[公共流程](common/README.md) |
+| 查状态、未决或来源 | 按需读[基准](baseline.md)、[问题](../governance/questions.md)、[来源索引](source-review.md) |
 
-每个系统保留五个文件：README导航；rules规定行为；design解释设计；experience列体验目标与失败信号；examples解释情境。全套共用TL-11结算顺序，规则不在示例或UI说明中另写一套。
+规则、理由、体验和示例按内容量展开，不再为未设计系统预建五个空页。细则保留确定行为与必要边界；任务包是带引用的派生视图，不能独立改规则。日常开发不加载全部来源、验收或设计理由。
 
-完整系统仍有待决项；EX-001提供首批配置，EX-002仅增加本场完整战斗参数。案例值不是全游戏默认值。新增验收预期和体验观察未执行，旧局部工程证据沿其原版本。
+完整GDD范围由[READ-1](../exploration/start.md#gdd包固定文件清单)固定，读取核心不能冒充全量。EX-001和EX-002各有固定范围，案例值不成为全局默认，运行结果见开发入口。
 
-<!-- 旧章节链接保留；历史正文见 baseline 固定版本。 -->
 <a id="言咒现行设计"></a>

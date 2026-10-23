@@ -1,37 +1,35 @@
 # 言咒开发入口
 
-2026-10-18。**先完善首场核心玩法，再开始同一游戏的2D表现。** 本页是开发接手和当前能力的唯一汇总；旧3D排程已结束使用，2D具体展示合同与工程尚未建立。
+2026-10-23。**先完善首场核心玩法，再开始同一游戏的2D表现。** 本页是开发接手和当前能力的唯一汇总；旧3D排程已结束使用，2D具体展示合同与工程尚未建立。
 
-## 新agent先读这8份
+## 新agent先读这5份
 
-默认用于开发接手／主系统完善，记CUSTOM并固定启动时HEAD。下列清单含构思主系统，不递归打开链接；用户指定范围优先。已注入的AGENTS计一次，不必重复读取。启动包用于理解和选任务，具体实现前仍须补齐相关细则。
+默认开发接手记CUSTOM，固定启动时完整提交。核心全读，任务按行为展开；用户范围优先。已注入的AGENTS计一次。术语、基准、问题只查涉及条目，不默认全文加载。
 
 | 顺序 | 文件（相对game根） | 回答什么 |
 | --- | --- | --- |
 | 1 | [AGENTS.md](../../AGENTS.md) | 仓库边界与操作底线 |
 | 2 | [yanzhou/AGENTS.md](../AGENTS.md) | 本项目路由与写入职责 |
 | 3 | [yanzhou/development/README.md](README.md) | 当前能力、下一步与补读入口 |
-| 4 | [yanzhou/design/core-design.md](../design/core-design.md) | 构思主系统：循环、系统关系、玩家取舍 |
-| 5 | [yanzhou/CONTEXT.md](../CONTEXT.md) | 领域术语，避免把同一个词理解成不同机制 |
-| 6 | [yanzhou/design/baseline.md](../design/baseline.md) | 当前采纳版本和适用范围 |
-| 7 | [yanzhou/governance/questions.md](../governance/questions.md) | 真正开放的问题，先处理首场核心缺口 |
-| 8 | [yanzhou/development/iteration-spec.md](iteration-spec.md) | 一轮怎样定义、制作、审阅和收口 |
+| 4 | [yanzhou/design/GDD.md](../design/GDD.md) | 唯一核心正文：整款游戏、当前范围与关键行为 |
+| 5 | [yanzhou/development/task-pack.md](task-pack.md) | 选行为包、按条件展开细则、形成最小交接输入 |
 
-**预计默认启动约2.5万字符／8文件。** 若明确要求完整GDD，56份GDD与启动包去重，加READ-1及探索操作规则，共65份、约14.2万字符。维护既有Godot再加工程README与接手文档2份、约0.6万字符；任务细则、开发规范及相关代码另按范围计入。 按UTF-8文本解码后的Unicode字符数计，含空白、换行统一LF；不是token数。只统计上述文件，不含系统指令、工具定义、聊天、技能或具体任务代码。
+启动包只包含上述5份；任务包及被触发的细则另计。明确完整GDD时按READ-1的52份正文包读取，来源沿革不在其中。字符统计按实际固定提交计算，不在多个入口复制易过期总量；不是token数，也不含工具、聊天、技能或代码。
 
 ## 任务确定后再补什么
 
 | 任务 | 按需补读；先列具体文件与版本 |
 | --- | --- |
 | 改规则或完善首场 | [设计流程](../../docs/design-workflow.md)、相关rules／参数／案例／验收与对应正式来源；查决定只读相关ID，不默认加载整份decision-log |
-| 实现已定行为 | [开发规范](development-standard.md)＋所实现行为的rules、案例、参数与验收；维护Godot再读[工程接手](E:/Project/yanzhou-godot/docs/development-handoff.md)及对应代码 |
+| 实现已定行为 | [行为包与条件展开](task-pack.md)＋适用[开发规范](development-standard.md)；维护Godot再读[工程接手](E:/Project/yanzhou-godot/docs/development-handoff.md)及对应代码 |
 | 新二维方向 | 先闭合[主系统问题](../governance/questions.md#开发前先看)，再限定与CORE-063的关系；建立探索时才读[READ-1](../exploration/start.md)及[探索AGENTS](../exploration/AGENTS.md) |
 | 改工作台或登记方式 | [展示规格](workbench-spec.md) · [本机使用](workspace.md) |
 | 制作或复用资产 | [资产接入](asset-readiness.md)、DA-1及所选AS／DM原件；不读全部制作史 |
+| 人工理解／审校行为 | [场景审阅](design-review.md)，正常故事、反例与图示；意见回同轮 |
 | 了解开发全流程 | [开发解释](development-guide.md) · [阶段计划](production-plan.md) |
 | 查3D留下的设计与制作经验 | [主系统与3D复盘](../governance/development-review-2026-10-18.md) |
 
-不默认加载历史批次、逐席位报告、旧测试交接、整个来源库或全部GDD。明确要求完整GDD时按READ-1的56文件清单执行，不能把核心摘要称作全文审查。明确禁止自动扩读的合同仍须遵守；缺材料先列缺口。
+不默认加载历史批次、逐席位报告、旧测试交接、整个来源库或全部GDD。明确要求完整GDD时按READ-1的52文件清单执行，不能把核心正文阅读称作全量审查。明确禁止自动扩读的合同仍须遵守；缺材料先列缺口。
 
 ## 当前事实
 

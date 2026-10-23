@@ -1,6 +1,6 @@
 # 启动探索：选择模型能读的材料
 
-Project ID：game-002-optimization。文档角色：ExplorationReadingContract。修订：READ-1 / documentation.4 / 2026-10-23。依据G002-DOC-008、G002-DOC-012、G002-DOC-013、G002-DOC-014及G002-DOC-027。适用于言咒新方向和显式切换阅读范围；方向存储仍是一文件夹一README。
+Project ID：game-002-optimization。文档角色：ExplorationReadingContract。修订：READ-1 / documentation.5 / 2026-10-23。依据G002-DOC-008、G002-DOC-012、G002-DOC-013、G002-DOC-014、G002-DOC-027及G002-DOC-028。适用于言咒新方向和显式切换阅读范围；方向存储仍是一文件夹一README。
 
 ## 直接这样说
 
@@ -23,7 +23,7 @@ Project ID：game-002-optimization。文档角色：ExplorationReadingContract�
 
 ```text
 启动言咒新探索方向：〈标题〉。阅读模式：自选材料。
-只读yanzhou/design/core-design.md，以及yanzhou/design/systems/resource-system/rules.md。
+只读yanzhou/design/GDD.md，以及yanzhou/design/systems/resource-system/rules.md。
 版本使用当前已提交HEAD；缺信息先列Unknown，不自行补读。
 ```
 
@@ -35,8 +35,8 @@ Project ID：game-002-optimization。文档角色：ExplorationReadingContract�
 
 | 模式 | 游戏背景范围 | 适合做什么 | 默认不包含 |
 | --- | --- | --- | --- |
-| CORE／核心设计 | 仅`yanzhou/design/core-design.md` | 理解循环、系统关系、核心取舍，提出方向构思 | GDD全文、逐卡参数、主系统来源、历史、其他方向 |
-| GDD／完整GDD | 下表列出的56份GDD包文件 | 对照现行细则、卡牌、资源、遭遇和交互提出具体增量 | GDD链接到的原始素材、历史、FX目录、开发与视觉材料、其他方向 |
+| CORE／核心设计 | 仅`yanzhou/design/GDD.md` | 理解循环、系统关系、核心取舍与当前范围，提出方向构思 | 系统细则、逐卡参数、主系统来源、历史、其他方向 |
+| GDD／完整GDD | 下表列出的52份GDD包文件 | 对照现行细则、卡牌、资源、遭遇和交互提出具体增量 | GDD链接到的原始素材、历史、FX目录、开发与视觉材料、其他方向 |
 | FULL／全量文档／全量主系统文档 | `yanzhou/`根README与CONTEXT，以及`design/`、`sources/`、`effects/`、`governance/`、`development/`、`visual/`下全部已登记文本材料；以后新增主系统资料目录须先登记 | 同时核对现行设计、形成原因、候选来源、证据与表现约束 | `history/`、`exploration/`其他方向、外部代码仓库、共享资料库、独立肉鸽、旧游戏、联网获取 |
 | CUSTOM／自选材料 | 用户明确列出的文件、章节、目录或已提供材料；不隐含CORE或GDD | 控制变量、只讨论某系统、指定研究材料 | 未列出的全部游戏材料 |
 | NONE／空白背景 | 仅本轮用户输入；续作仍能使用所选方向明确保留的自身记录 | 不借用言咒规则提出独立构思；纯空白须使用新方向 | 任何游戏文档；不得声称与现行基线兼容 |
@@ -45,19 +45,20 @@ FULL中的“全量”是**全量主系统文本材料**，不是仓库所有文
 
 ### GDD包固定文件清单
 
-GDD不是只读主页后就算全读，也不是递归打开所有链接。当前包共56份；已采纳规则、Qualified 框架、说明性示例与未开发占位分别读取，不因纳入阅读包提高状态：
+GDD不是只读主页后就算全读，也不是递归打开所有链接。当前包共52份；已采纳规则、Qualified 框架、说明性示例与未开发占位分别读取，不因纳入阅读包提高状态：
 
 | 范围 | 路径 |
 | --- | --- |
 | GDD、导航、版本 | `yanzhou/design/GDD.md`、`yanzhou/design/README.md`、`yanzhou/design/baseline.md` |
-| 六个主系统（24份） | `yanzhou/design/systems/` 下 `artifact-system/`、`inscription-system/`、`action-card-system/`、`enemy-system/`、`resource-system/`、`meta-progression-system/` 各自的 `rules.md`、`experience.md`、`design.md`、`examples.md`，仅此固定组合；局外成长为未开发占位 |
+| 五个已展开主系统（20份） | `yanzhou/design/systems/` 下 `artifact-system/`、`inscription-system/`、`action-card-system/`、`enemy-system/`、`resource-system/` 各自的 `rules.md`、`experience.md`、`design.md`、`examples.md`，仅此固定组合 |
+| 局外成长占位（1份） | `yanzhou/design/systems/meta-progression-system/README.md`，仅说明未设计与已有边界 |
 | 两个子系统（8份） | `yanzhou/design/systems/inscription-system/augment-system/` 与 `yanzhou/design/systems/action-card-system/mark-system/` 各自的 `rules.md`、`experience.md`、`design.md`、`examples.md`；辅槽与标记为局部 Qualified 框架，状态不随纳入阅读包改变 |
 | 公共流程／合同（12份） | `yanzhou/design/common/` 下 `run-route/`、`run-economy/`、`interaction-save/` 各自的 `rules.md`、`experience.md`、`design.md`、`examples.md` |
 | 内容 | `yanzhou/design/content/cards.md`、`yanzhou/design/content/wands.md`、`yanzhou/design/content/enemies-encounters.md` |
 | 跨系统案例（3份） | `yanzhou/design/examples/README.md`、`yanzhou/design/examples/simple-spell.md`、`yanzhou/design/examples/complete-battle.md` |
-| 参数、验收与来源审查 | `yanzhou/design/parameters.md`、`yanzhou/design/validation.md`、`yanzhou/design/source-review.md` |
+| 参数与验收 | `yanzhou/design/parameters.md`、`yanzhou/design/validation.md`；来源审查不属于规则正文包，追因时另行选入 |
 
-文件改名或GDD包新增正文时同步此表。系统 README 与 systems/README.md 是导航，读取它们不替代四类正文；以后新增目录不自动进入本包。`core-design.md`、`core-concept.md`和`legacy-index.md`不是补读GDD包的必要材料；包内链接到的sources、CONTEXT、历史及代码进度都不自动加载。只读GDD主页或只读某分册时记CUSTOM，不能报告“完整GDD已读”。
+文件改名或GDD包新增正文时同步此表。除上述局外占位，系统README与systems/README.md是导航，读取它们不替代正文；以后新增目录不自动进入本包。`core-design.md`、`core-concept.md`和`legacy-index.md`不是补读GDD包的必要材料；包内链接到的sources、CONTEXT、历史及代码进度都不自动加载。只读核心GDD记CORE（明确自选文件时也可CUSTOM），局部分册记CUSTOM，均不能报告“完整GDD已读”。
 
 ## 先定范围，再读游戏正文
 
@@ -72,7 +73,7 @@ GDD不是只读主页后就算全读，也不是递归打开所有链接。当�
 
 - 默认来源版本为启动时解析出的已提交HEAD完整提交号。同轮只登记一次，按原路径／章节读取和引用，不重复登记逐文件blob或SHA-256；不只写“最新”“RC1”。默认不把工作树修改当成已提交版本。用户指定分支或标签时先解析到不可变提交，后续提交不自动进入当轮。
 - 用户显式要求“当前工作树／包括未提交修改”时，记录基准HEAD，仅对实际使用且相对HEAD有变化的文件补SHA-256与修改状态。新文件标未提交来源；未变文件继承HEAD。不悄悄退回另一份旧文档，也不为了凑来源替用户提交无关修改。
-- CORE摘要的来源提交是其内容依据；本轮读取该摘要的提交/哈希是本轮输入，两者分别记录。已知摘要过期时说明已知范围，可继续研究该旧基准；涉及未同步结论时保留Unknown。若只获CORE权限，不先读GDD来“检查摘要是否过期”。
+- CORE现在直接读取GDD核心正文，不再使用独立摘要。本轮提交固定后不自动升级；只获CORE权限时不能借核对细则之名扩读。正文简述引用但未展开的条件，不据此宣称具体实现已闭合。
 - 增补可按自然语言给出：`+某文件/章节`、`+DIR-024`、`+主系统历史`、`+视觉图片`；排除可给出`-development`或具体路径。单个方向的增补不含它链接的其他方向。主系统历史增补排除`history/exploration-2026-09-24/`及更早快照中嵌套的探索内容；需要探索历史时另列具体路径/方向。
 - 用户明确要求“整个yanzhou，包含全部历史和探索”时按CUSTOM展开这份更大清单，允许横向阅读但仍区分现行、历史、Raw、Qualified及实现证据。任何全量选项都不自动包含仓库根archive旧游戏、独立肉鸽或外部仓库。
 - 扩读遵循用户本轮设置。默认“禁止自动扩读”：遇到需要材料时记录缺口与建议文件，继续不依赖该文件的构思；没有授权前不读取。用户已列明增补，或已授权在指定目录内按需扩读时直接执行并补记实际文件，不重复请求。范围外扩读须说明“本轮阅读合同限制了该材料”，按[批量澄清](../../docs/design-workflow.md#批量澄清)集中列出当前需要的缺口、建议文件及用途，由用户逐项或明确整批授权；未获授权的范围不读取。
@@ -94,7 +95,7 @@ GDD不是只读主页后就算全读，也不是递归打开所有链接。当�
 - 其他例外：〈仅填写实际存在的范围外背景、范围变更或结论限制〉
 ```
 
-阅读记录下面直接写构思概览、玩家选择、与基准关系、未知和下一步。候选为Raw / Unqualified；只读CORE时关系判断是概念层，未读取GDD细则就不宣称规则兼容。NONE不套用言咒结论；FULL看见已采纳来源也不使本方向自动合格。
+阅读记录下面直接写构思概览、玩家选择、与基准关系、未知和下一步。候选为Raw / Unqualified；只读CORE时关系判断是概念层，未读取相关细则就不宣称完整规则兼容。NONE不套用言咒结论；FULL看见已采纳来源也不使本方向自动合格。
 
 ## 不改变的设计流程
 
@@ -102,7 +103,7 @@ GDD不是只读主页后就算全读，也不是递归打开所有链接。当�
 
 需要机制发散、循环补全或系统关系分析时，可使用项目内 [gameplay-mechanism-designer](../../docs/skills/gameplay-mechanism-designer.md)。其内置图谱属于通用方法材料，选择性读取并与游戏背景分开记录；不会扩大本规范的游戏材料范围。用户也可显式排除内置方法库。Spark 的多个候选先留同一方向 README，Full Design 与 Prototype Pack 不改变资格或执行权限。
 
-[返回方向入口](README.md) · [操作规则](AGENTS.md) · [核心设计](../design/core-design.md)
+[返回方向入口](README.md) · [操作规则](AGENTS.md) · [核心正文](../design/GDD.md)
 
 
 layout.3：旧兼容目录已完全退役；剩余冻结背景和独有历史材料按[历史读取规范](../history/README.md)解释。Git固定版本取证仍受当轮材料范围限制；不重建旧路径、不因归档改变方向基线。
