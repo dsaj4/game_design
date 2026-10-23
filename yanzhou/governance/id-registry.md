@@ -150,4 +150,6 @@ G002-DOC-023：成品Demo HTML任务表与开发入口同步，Accepted / Docume
 
 G002-DOC-027：来源、验收与输入摘要的轻量记录，Accepted / Documentation；见[决策](decision-log.md#g002-doc-027)。DOC下一未占用为028；本轮不新增玩法或方向身份。
 
-G002-DOC-028：唯一核心、按行为披露、派生任务包与场景审阅，Accepted / Documentation；见[决策](decision-log.md#g002-doc-028)。DOC下一未占用为029；TL、CORE与案例身份不变。
+G002-DOC-028：唯一核心、按行为披露、派生任务包与场景审阅，Accepted / Documentation；见[决策](decision-log.md#g002-doc-028)。TL、CORE与案例身份不变。
+
+G002-DOC-029：复杂细则去重、适用范围与对话审阅，Accepted / Documentation；见[决策](decision-log.md#g002-doc-029)。DOC下一未占用为030。
