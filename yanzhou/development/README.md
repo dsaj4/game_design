@@ -27,7 +27,7 @@
 | 制作或复用资产 | [资产接入](asset-readiness.md)、DA-1及所选AS／DM原件；不读全部制作史 |
 | 人工理解／审校行为 | [场景审阅](design-review.md)，正常故事、反例与图示；意见回同轮 |
 | 了解开发全流程 | [开发解释](development-guide.md) · [阶段计划](production-plan.md) |
-| 查3D留下的设计与制作经验 | [主系统与3D复盘](../governance/development-review-2026-10-18.md) |
+| 查3D留下的制作经验 | [制作与验证经验](development-standard.md#制作与验证经验) |
 
 不默认加载历史批次、逐席位报告、旧测试交接、整个来源库或全部GDD。明确要求完整GDD时按READ-1的52文件清单执行，不能把核心正文阅读称作全量审查。明确禁止自动扩读的合同仍须遵守；缺材料先列缺口。
 

@@ -49,4 +49,4 @@ SYS-002原“检查在同拍总序中的位置仍待定”、SYS-003原“普通
 - [ ] 已搁置。
 - [ ] 已拒绝。
 
-采纳记录：[decision-log](../../governance/decision-log.md#2026-10-05阶段一共同拍序g002-core-053)。
+采纳记录：[decision-log](../../governance/decision-log.md#g002-core-053)。

@@ -1,5 +1,5 @@
 # 言咒探索对比入口
 
-2026-10-04。当前没有活动探索方向或待比较候选。DIR-001至DIR-036已按用户决定退役，原比较表只按[清理记录](../governance/cleanup-report.md#2026-10-04探索方向退役)中的固定提交取证，不继续作为活动候选清单。
+2026-10-04。当前没有活动探索方向或待比较候选。DIR-001至DIR-036已按用户决定退役，原比较表只按[清理记录](https://github.com/dsaj4/game_design/blob/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance/cleanup-report.md#2026-10-04探索方向退役)中的固定提交取证，不继续作为活动候选清单。
 
 已采纳范围见[主系统来源审查](../design/source-review.md)；新方向从[探索入口](README.md)登记，编号从DIR-037继续。

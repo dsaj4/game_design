@@ -67,4 +67,4 @@ ID：D-G002-PROC-20261005。Project ID：game-002。2026-10-05。角色：DraftC
 - [ ] 已搁置。
 - [ ] 已拒绝。
 
-采纳记录：[decision-log](../../governance/decision-log.md#2026-10-05法器单一处理耗时与容量预留g002-core-051)。静态文档核对不算玩法或真人验证。
+采纳记录：[decision-log](../../governance/decision-log.md#g002-core-051)。静态文档核对不算玩法或真人验证。

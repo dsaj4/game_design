@@ -64,7 +64,7 @@
 | [修饰词素材](../materials/M-2026-09-11-modifier-card-system.md) | 形容词只能直接修饰名词；若使用修饰动词的“快速地／重复地”等语义，应归副词。此处仅举词性，不定义加速或重复卡 |
 | [镶嵌素材](../materials/M-2026-09-12-wand-inlay-system.md) | 复用FX-026/r1隔周期减冷却；IN-C获取／槽位／叠加等仍Candidate |
 | [旧简易词汇候选](2026-09-07-simple-spell-word-candidates.md) | 已检查；释放、获得、强化、火焰、护甲、力量等仅保留名称。旧起始配置与具体词效保持Parked，不整体恢复 |
-| [卡牌设计流程](../../governance/card-review-workflow.md) | 资格确认后逐卡补词义、角色、成本、获取、组合与反例；此处不替代正式模板 |
+| [卡牌设计流程](https://github.com/dsaj4/game_design/blob/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance/card-review-workflow.md) | 资格确认后逐卡补词义、角色、成本、获取、组合与反例；此处不替代正式模板 |
 
 “释放时间短”原样保留：现行规则区分冷却与释放时长，两者相加才是周期；尚不将这句话写成冷却、释放时长、整个周期三者均已确定的数值规则。
 

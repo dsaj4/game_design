@@ -9,7 +9,7 @@
 | 少文字主桌 | [原话与局部HTML](../sources/inbox/2026-10-17-minimal-battle-ui.md) · [效果图](minimal-battle-ui-2026-10-17/art-v01.md)，整体仍为候选 |
 | B13真实截图审阅 | [UI-REVIEW工具](E:/Project/yanzhou-godot/tools/ui-review-2026-10-15/README.md)，静态实图＋模拟编辑，不推进游戏 |
 | 现成资源与使用关系 | [资产接入](../development/asset-readiness.md) · [统一AS／DM目录](../../docs/registry/demo-assets.md) |
-| 3D留下的教训 | [主系统与3D复盘](../governance/development-review-2026-10-18.md) |
+| 3D留下的教训 | [制作与验证经验](../development/development-standard.md#制作与验证经验) |
 
 各视觉包的源件、HTML、图片、manifest和资产身份保留原版本；按所选资产需要读其说明，不默认通读全部目录。早期UI、效果图和模型是对应批次材料，不覆盖现行规则。DC-v01已入Git；版本仍以原manifest及引用提交为准。
 

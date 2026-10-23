@@ -32,4 +32,4 @@
 
 ## 后续入口
 
-[整理与证据](../../governance/development-review-2026-10-18.md)记录事实和改动；[questions](../../governance/questions.md)维护当前设计未决；[开发规范](../../development/development-standard.md)维护操作要求。本记录不充当正式M／P／E／D，不新增CORE、TL或发行实体。
+[整理与证据](https://github.com/dsaj4/game_design/blob/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance/development-review-2026-10-18.md)记录事实和改动；[questions](../../governance/questions.md)维护当前设计未决；[开发规范](../../development/development-standard.md)维护操作要求。本记录不充当正式M／P／E／D，不新增CORE、TL或发行实体。

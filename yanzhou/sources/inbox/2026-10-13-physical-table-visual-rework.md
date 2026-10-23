@@ -21,4 +21,4 @@
 
 价值是改善物件质感、信息清晰度和牌桌可信度；这四项不新增玩法规则。用户整改意图已明确，详细设计尚未完成；本轮不将Raw方案写入GDD。文本框专项形成具体方案时，由设计D对照CORE-063明确变更边界，并沿既有提案／评估／Draft Change流程同步相关展示约定，不重复询问是否允许必要文本框。
 
-执行顺序、分工、验收与状态统一见[开发计划](../../development/production-plan.md#physical-table-rework-2026-10-13)，设计待办入口见[集中问题](../../governance/questions.md#physical-table-visual-rework)。本条仅保留来源与适用边界，不另建问题数据库。
+执行顺序、分工、验收与状态统一见[开发计划](../../development/production-plan.md#physical-table-rework-2026-10-13)，设计待办入口见[集中问题](https://github.com/dsaj4/game_design/blob/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance/questions.md#physical-table-visual-rework)。本条仅保留来源与适用边界，不另建问题数据库。

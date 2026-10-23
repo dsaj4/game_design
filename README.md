@@ -15,7 +15,7 @@
 
 [项目地图](docs/workspace-map.md) · [独立肉鸽](new-roguelike/README.md) · [设计流程](docs/design-workflow.md) · [贡献与协作](CONTRIBUTING.md)
 
-追溯资料：[设计来源](yanzhou/sources/README.md) · [项目历史](yanzhou/history/README.md) · [共享知识](docs/shared-knowledge.md) · [文档清理记录](yanzhou/governance/cleanup-report.md)。
+追溯资料：[设计来源](yanzhou/sources/README.md) · [项目历史](yanzhou/history/README.md) · [共享知识](docs/shared-knowledge.md) · [文档清理记录](yanzhou/history/README.md#治理历史)。
 
 工具：[游戏拆解与媒体分析](media-analysis-lab/README.md) · [项目技能入口](docs/registry/project-skills.md) · [玩法机制设计器用法](docs/skills/gameplay-mechanism-designer.md)。Agent先读[操作手册](AGENTS.md)，按任务范围读取材料，不默认扫描全部来源与历史。
 

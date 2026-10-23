@@ -1,8 +1,14 @@
 # 历史与来源取证
 
-Project ID：game-002。文档角色：HistoricalNavigation。2026-09-30 / layout.3。
+Project ID：game-002。文档角色：HistoricalNavigation。2026-10-23；各历史批次按自己的固定版本解释。
 
 清理基准提交：`d44ecd04840b434b171d26f601bafbd87c311c92`。历史的“当前”、未决项、操作口令与资格仅按其原日期有效。现行规则读[design](../design/README.md)，不要恢复整套旧目录来开展新工作。
+
+## 治理历史
+
+2026-10-23精简前的[完整治理目录](https://github.com/dsaj4/game_design/tree/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance)保留旧决策、编号、审查复盘、清理报告与输入附件，包含原来源及仓库外恢复线索。按原文件名／章节取证，不再复制历史目录或维护清理映射。当前职责见[治理入口](../governance/README.md)。
+
+旧报告的Open、停点、数量、测试命令和“下一步”只代表原日期；当前未决查questions，采纳与替代查decision-log，执行状态查开发入口。现用制作经验已归开发规范，旧失败与NotRun不因精简改成通过。
 
 ## 本地保留
 
@@ -25,9 +31,9 @@ Project ID：game-002。文档角色：HistoricalNavigation。2026-09-30 / layou
 
 保留的旧探索历史正文按上述清理基准提交或文件自身更早来源解释。其本地副本字节冻结，相对链接可能指向已退役快照；沿固定提交查看即可保留完整引用语境。活动文档的链接已经改到现用位置或固定版本，不以失效本地兼容页作为入口。
 
-[本轮处理清单](../governance/cleanup-map.json) · [清理报告](../governance/cleanup-report.md)
+[本轮处理清单](https://github.com/dsaj4/game_design/blob/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance/cleanup-map.json) · [清理报告](https://github.com/dsaj4/game_design/blob/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance/cleanup-report.md)
 
 
 ## 2026-10-04退役探索
 
-DIR-001至DIR-036已退出活动工作树，未新增一套本地历史正文。已提交方向、比较表、独有失败记录与原确认按固定提交`e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9`及原路径取证；DIR-035与其他未提交内容按[清理报告](../governance/cleanup-report.md#2026-10-04探索方向退役)的仓库外恢复位置取证。原资格和版本范围保持原义，读取历史仍须纳入当轮材料范围。
+DIR-001至DIR-036已退出活动工作树，未新增一套本地历史正文。已提交方向、比较表、独有失败记录与原确认按固定提交`e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9`及原路径取证；DIR-035与其他未提交内容按[清理报告](https://github.com/dsaj4/game_design/blob/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance/cleanup-report.md#2026-10-04探索方向退役)的仓库外恢复位置取证。原资格和版本范围保持原义，读取历史仍须纳入当轮材料范围。

@@ -78,4 +78,4 @@
 
 交付时用一段人话回答：**“这轮让玩家能够……，属于P…；实际检查了……；还没有完成……；下一轮要解决……。”** 不只报文件数、组件数或检查项数。
 
-实际治理轮示例见[本轮记录](../governance/development-review-2026-10-18.md#本轮制作循环)。新重点交互的四阶段要求继续见[开发规范第9节](development-standard.md#9-每项重点交互的四阶段制作)。
+实际治理轮示例见[本轮记录](https://github.com/dsaj4/game_design/blob/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance/development-review-2026-10-18.md#本轮制作循环)。新重点交互的四阶段要求继续见[开发规范第9节](development-standard.md#9-每项重点交互的四阶段制作)。

@@ -8,7 +8,7 @@ Project ID：game-002。2026-10-08。状态：Promoted；用户确认D冻结及F
 
 ## 触发来源
 
-本聊天中用户对[重建后接口FW-Q1／2](../../governance/questions.md#重建后接口核对2026-10-08)的答复，承接“开工时冻结本批D”的解释。原建议见[辅槽框架素材](../materials/M-2026-10-08-augment-framework.md)未知项表。没有回答FW-Q3—6，也没有整包同意FW-Q1／2的全部推荐。
+本聊天中用户对[重建后接口FW-Q1／2](https://github.com/dsaj4/game_design/blob/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance/questions.md#重建后接口核对2026-10-08)的答复，承接“开工时冻结本批D”的解释。原建议见[辅槽框架素材](../materials/M-2026-10-08-augment-framework.md)未知项表。没有回答FW-Q3—6，也没有整包同意FW-Q1／2的全部推荐。
 
 ## 已明确答复
 

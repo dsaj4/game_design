@@ -242,7 +242,7 @@ AS-G002-004为2026-10-02的后续登记，使用该行独立固定提交，不�
 
 - 归属：game-002-optimization / DIR-035；2026-10-04按用户决定退役，ID不复用。
 - 状态：Archived / PresentLocal（仓库外恢复副本）；原条目与三个未提交文件逐字节保存在 `E:/Project/game-exploration-cleanup-20261004/recovery/`，SHA-256见该目录的上级 `recovery-manifest.json`。
-- 原文件范围：DIR-035的README.md、handoff.md、alchemy-showcase.html；未发布这些未提交字节，也未将其登记为已采纳内容。恢复与原来源说明见[清理记录](../../yanzhou/governance/cleanup-report.md#2026-10-04探索方向退役)。
+- 原文件范围：DIR-035的README.md、handoff.md、alchemy-showcase.html；未发布这些未提交字节，也未将其登记为已采纳内容。恢复与原来源说明见[清理记录](https://github.com/dsaj4/game_design/blob/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance/cleanup-report.md#2026-10-04探索方向退役)。
 
 
 ## 待补与维护
@@ -256,7 +256,7 @@ AS-G002-004为2026-10-02的后续登记，使用该行独立固定提交，不�
 
 ## 2026-10-04探索资源退役
 
-用户决定删除现有方向并允许后续重做测试与UI。DM-G002-002、004–008及AS-G002-002、004停止维护，ID与原版本不复用；本仓库原件随方向删除，已提交内容以固定Git取证，未提交内容只保存在仓库外恢复目录。外部实现原件未删除，访问状态未重新验证。历史检查保持原覆盖，不外推到INS-1；详情见[清理记录](../../yanzhou/governance/cleanup-report.md#2026-10-04探索方向退役)。
+用户决定删除现有方向并允许后续重做测试与UI。DM-G002-002、004–008及AS-G002-002、004停止维护，ID与原版本不复用；本仓库原件随方向删除，已提交内容以固定Git取证，未提交内容只保存在仓库外恢复目录。外部实现原件未删除，访问状态未重新验证。历史检查保持原覆盖，不外推到INS-1；详情见[清理记录](https://github.com/dsaj4/game_design/blob/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance/cleanup-report.md#2026-10-04探索方向退役)。
 
 ## 2026-10-11正式开发接入复核
 

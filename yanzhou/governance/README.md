@@ -1,16 +1,15 @@
 # 项目治理
 
-Project ID：game-002。文档角色：Navigation。2026-10-08 / system-docs.2；当前TL-1 + INS-1及局部Qualified重建框架。
+2026-10-23 · G002-DOC-030。这里只维护六项职责；不用通读整个目录。
 
-| 需要处理什么 | 唯一入口 |
+| 要做什么 | 入口 |
 | --- | --- |
-| 当前缺口与冲突 | [问题](questions.md) · [主系统与3D开发复盘](development-review-2026-10-18.md) |
-| 既有审查 | [2026-10-11设计指导复核](main-system-review-2026-10-11.md) · [2026-10-08主系统审查](main-system-review-2026-10-08.md) · [2026-10-04及更早审查](conflict-register.md) |
-| 决策与编号 | [决策记录](decision-log.md) · [编号别名](id-registry.md) |
-| 文档职责与放置 | [文档合同](document-contract.md) · [目录规范](directory-layout.md) |
-| 规则与卡牌定位 | [规则索引](rule-index.md) · [卡牌审查](card-review-workflow.md) |
-| 专题资料 | [旧时间轴审查（固定版本）](https://github.com/dsaj4/game_design/blob/e9b2a8fa7c88e9a34ab6e9a37b4cf05daecf89a4/yanzhou/governance/time-axis-review.md) |
-| 多智能体协作 | [角色、材料范围与交接](agent-collaboration.md) |
-| 文件与清理记录 | [文件索引](file-index.md) · [清理报告](cleanup-report.md) · [清理映射](cleanup-map.json) |
+| 确定文档归属与修改范围 | [文档合同](document-contract.md) |
+| 按当前任务找规则 | [行为索引](rule-index.md) |
+| 处理尚未决定的设计 | [问题清单](questions.md) |
+| 查采纳依据、替代关系或编号 | [决策与编号](decision-log.md) |
+| 分配多个agent的责任 | [协作规范](agent-collaboration.md)，仅需要协作时读 |
 
-设计工作使用[统一流程](../../docs/design-workflow.md)。旧迁移报告从[历史入口](../history/README.md)按固定提交取证，不保留第二套总控或项目导航。
+日常开发从[开发入口](../development/README.md)开始；玩法读[核心GDD](../design/GDD.md)，不从历史决定重建规则。来源资格与采纳沿[统一流程](../../docs/design-workflow.md)，内容检查见[内容合同](../design/content/cards.md#组合核对)，人工讲解沿[场景审阅](../development/design-review.md)。
+
+旧审查、清理附件和完整决定按[固定历史版本](../history/README.md#治理历史)追溯。独有风险和制作经验已并入其职责文档；不再维护重复文件清单、清理映射或过程报告。

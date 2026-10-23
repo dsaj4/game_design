@@ -4,7 +4,7 @@ Project ID：game-002-optimization。2026-10-23。当前活动方向见下表。
 
 用户审查后决定退役DIR-001至DIR-036。现有方向目录、未采纳卡表、试点与UI候选已退出活动区；已采纳规则继续以[主系统](../design/README.md)为准，所需M/P/E来源迁入[来源目录](../sources/README.md)。此次管理决定没有新增玩法采纳或验证结果。
 
-[启动与阅读范围](start.md) · [操作规则](AGENTS.md) · [当前问题](../governance/questions.md) · [清理与恢复记录](../governance/cleanup-report.md#2026-10-04探索方向退役)
+[启动与阅读范围](start.md) · [操作规则](AGENTS.md) · [当前问题](../governance/questions.md) · [清理与恢复记录](https://github.com/dsaj4/game_design/blob/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance/cleanup-report.md#2026-10-04探索方向退役)
 
 新探索采用一个方向一个README，先按start选择材料，不自动读取退役方向。**下一个可分配编号为DIR-042；DIR-001至DIR-041已分配，不复用。**
 

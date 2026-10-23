@@ -52,4 +52,4 @@ SYS-003 TL-13“玩家存活且敌人全灭判胜”替换为“来源敌人死�
 - [ ] 已搁置。
 - [ ] 已拒绝。
 
-采纳记录：[decision-log](../../governance/decision-log.md#2026-10-05阶段二敌情合同与卡面种类g002-core-054)。
+采纳记录：[decision-log](../../governance/decision-log.md#g002-core-054)。

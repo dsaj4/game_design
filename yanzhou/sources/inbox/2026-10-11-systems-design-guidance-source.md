@@ -4,7 +4,7 @@ Project ID：game-002。文档角色：SourceRecord。状态：外部Design Guid
 
 用户指定输入：`C:/Users/Administrator/AppData/Local/Claude-3p/local-agent-mode-sessions/971d2948/00000000/dd4a8c72/outputs/yanzhou-systems-design-guidance.md`。
 
-原文件SHA-256：`aba28366aff2bed576b9e2ab7aa6fd8cf8870672b10ce947090d69d3c2e37068`。下方保留原文，未修正其示例。当前吸收、排除及纠错见[主系统复核](../../governance/main-system-review-2026-10-11.md)；系统设计／体验按原有合格来源更新，不以附件替代资格。
+原文件SHA-256：`aba28366aff2bed576b9e2ab7aa6fd8cf8870672b10ce947090d69d3c2e37068`。下方保留原文，未修正其示例。当前吸收、排除及纠错见[主系统复核](https://github.com/dsaj4/game_design/blob/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance/main-system-review-2026-10-11.md)；系统设计／体验按原有合格来源更新，不以附件替代资格。
 
 ---
 

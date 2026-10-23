@@ -68,4 +68,4 @@ Q11的直接容量后果：已入行牌＋有效预留＋中断后待下拍可�
 - [ ] 已搁置。
 - [ ] 已拒绝。
 
-采纳记录：[decision-log](../../governance/decision-log.md#2026-10-05生产预留入行与临时供料接口g002-core-052)。静态文档检查不等于玩法验证或实现完成。
+采纳记录：[decision-log](../../governance/decision-log.md#g002-core-052)。静态文档检查不等于玩法验证或实现完成。

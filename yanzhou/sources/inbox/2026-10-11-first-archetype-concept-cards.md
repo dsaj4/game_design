@@ -14,7 +14,7 @@ Project ID：game-002。日期：2026-10-11。文档角色：SourceRecord / 构�
 
 当前明确的是工作目标：先做一个主流派和最小各系统物件，并系统整理构思供设计agent使用。**具体主题、名称、物件数量、配方和数值尚未由用户给出**。此前交接中的“约两件器具、短加工链、直用与精炼比较”等属于agent推荐，没有作为用户已选方案填入。
 
-阅读模式延续CUSTOM：只复用当前对话，定向读取三份设计意图素材、资源设计页及模板／流程；不展开旧卡池、历史或未登记阶段原件。固定内容依据为`d451d2d790906954ee1906d7ee80410afee731bb`；此前用户“以本次附件和当前仓库为准”已用于设计指导集成。当前[审查报告](../../governance/main-system-review-2026-10-11.md)和[问题清单](../../governance/questions.md#2026-10-11指导集成后的下一批)供后续按范围接续。
+阅读模式延续CUSTOM：只复用当前对话，定向读取三份设计意图素材、资源设计页及模板／流程；不展开旧卡池、历史或未登记阶段原件。固定内容依据为`d451d2d790906954ee1906d7ee80410afee731bb`；此前用户“以本次附件和当前仓库为准”已用于设计指导集成。当前[审查报告](https://github.com/dsaj4/game_design/blob/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance/main-system-review-2026-10-11.md)和[问题清单](https://github.com/dsaj4/game_design/blob/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance/questions.md#2026-10-11指导集成后的下一批)供后续按范围接续。
 
 ## 主流派卡（直接填写）
 

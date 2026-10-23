@@ -16,4 +16,4 @@
 
 ## 验证与交付
 
-逐项文件处理见[清理映射](../../governance/cleanup-map.json)，实际结果和检查见[报告](../../governance/cleanup-report.md)。本次同轮提交推送；不运行玩法实验。
+逐项文件处理见[清理映射](https://github.com/dsaj4/game_design/blob/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance/cleanup-map.json)，实际结果和检查见[报告](https://github.com/dsaj4/game_design/blob/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance/cleanup-report.md)。本次同轮提交推送；不运行玩法实验。

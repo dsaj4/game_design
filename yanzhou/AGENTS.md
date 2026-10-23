@@ -19,7 +19,7 @@
 | 领域语言 | `CONTEXT.md` |
 | 意图摘要、资格、提案、评估、待采纳变更 | `sources/inbox/`、`materials/`、`proposals/`、`evaluations/`、`draft-changes/` |
 | GDD草案 | `sources/gdd-drafts/`；正式模板用根`game-design-workflow/templates/README.md` |
-| 当前问题／已采纳决策 | `governance/questions.md`／`decision-log.md`；不另建问题数据库 |
+| 当前问题／已采纳决策与编号 | `governance/questions.md`／`decision-log.md`；不另建问题数据库或编号沿革副本 |
 | 当前能力／单轮方法 | `development/README.md`／`iteration-spec.md` |
 | 任务设计输入／场景审阅 | `development/task-pack.md`及`task-packs/`／`design-review.md`；派生读取，不独立改规则 |
 | 视觉原件与资产身份 | `visual/`及统一AS／DM目录，原件就地 |
