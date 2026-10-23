@@ -21,6 +21,7 @@
 | 首场失焦与返回 | [CORE-062](../sources/draft-changes/D-2026-10-12-development-design-round-05.md) |
 | 桌面3D主交互 | [CORE-063](../sources/draft-changes/D-2026-10-12-development-design-round-07.md) |
 | 必要文本与公开投影动作 | [CORE-063 physical-table.2](../sources/draft-changes/D-2026-10-14-demoncards-presentation.md) |
+| 统一拍末暂停及动画收尾 | [CORE-064 beat-pause.1](../sources/draft-changes/D-2026-10-23-beat-end-pause.md)，替代CORE-060—063相关停点与音画条款 |
 | 通用设计与体验意图 | [2026-10-11集成记录](../governance/main-system-review-2026-10-11.md) |
 
 ## Qualified框架与限定使用

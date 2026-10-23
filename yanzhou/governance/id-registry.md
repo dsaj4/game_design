@@ -153,3 +153,7 @@ G002-DOC-027：来源、验收与输入摘要的轻量记录，Accepted / Docume
 G002-DOC-028：唯一核心、按行为披露、派生任务包与场景审阅，Accepted / Documentation；见[决策](decision-log.md#g002-doc-028)。TL、CORE与案例身份不变。
 
 G002-DOC-029：复杂细则去重、适用范围与对话审阅，Accepted / Documentation；见[决策](decision-log.md#g002-doc-029)。DOC下一未占用为030。
+
+## 2026-10-23拍末暂停
+
+G002-CORE-064：beat-pause.1，Accepted；[采纳D](../sources/draft-changes/D-2026-10-23-beat-end-pause.md)。统一暂停、单步及本拍音画收尾，GDD 2.7／GDD-0；现行44个TL身份、117个既有验收ID及EX参数保留，新增情境按CORE-064定位。CORE下一未占用为065，DOC仍为030。实现与体验NotRun。
