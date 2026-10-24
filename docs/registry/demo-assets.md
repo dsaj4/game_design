@@ -9,6 +9,7 @@
 - 归属：game-002-optimization / DIR-039；[完整登记与使用边界](../../yanzhou/exploration/DIR-039-2d-first-battle/README.md#as-g002-030-用户二维桌面参考截图)。用户2026-10-18附件，仅作空间分区、桌面氛围与卡牌层次参照；设计Raw / Unqualified。
 - v01，JPEG 1919×1079；SHA-256 `191934888cfd853dc312e87ae1e5de602e821aa392e2af404a95a133e9bc4dee`。原件 `C:/Users/ADMINI~1/AppData/Local/Temp/codex-clipboard-d4ed62f5-d98f-4d07-b496-8d205713eaca.jpg`，未复制二进制入Git。
 - Catalogued / PresentLocal，2026-10-18已目视及核SHA；临时路径长期可访问性不保证。原作者／作品身份／原URL／再分发许可Unknown；仅本轮内部参照，未导入、未公开上传。uses／derived-from：None；使用者DIR-039/R1。
+- 2026-10-24主系统参照补记：[EX-004风格输入与结构初案](../../yanzhou/sources/inbox/2026-10-24-top-down-2d-battle-style.md)使用本资源@v01，仅参照俯视、2D与精致卡牌风格，页面结构另设计；不继承DIR-039方案或资格。本次用户附件 `C:/Users/ADMINI~1/AppData/Local/Temp/codex-clipboard-7c3c3f02-3dce-4ef7-923d-929fee3888ec.jpg` 已核对为相同SHA、JPEG 1919×1079、RGB无透明，PresentLocal；沿原ID／归属与维护位置，不新增重复AS。临时原件未移动，未上传图像；新的展示合同仍Raw / Unqualified，原许可Unknown与NotRun边界保持。
 
 ## Demo
 
