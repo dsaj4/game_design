@@ -1,6 +1,6 @@
 {
   "id": "DM-G002-017",
-  "version": "ROUND-TABLE-HTML-01",
+  "version": "ROUND-TABLE-HTML-02",
   "date": "2026-10-24",
   "project": "game-002",
   "rules_input_commit": "1219d537273a013b89f4125cb69b43bdf1242fa7",
@@ -8,23 +8,25 @@
   "files": [
     {
       "path": "dist/index.html",
-      "bytes": 50796,
-      "sha256": "51afc5483e6dabdf6faf3cfe3f70cb6b1b41fe87adb82603afcafb8d36c30c39"
+      "bytes": 50514,
+      "sha256": "78d764f5724cb71b37aa25225740f108e3d584c4f221e0c7c12981aa02b304eb"
     },
     {
       "path": "preview/table-1920.png",
-      "bytes": 167693,
-      "sha256": "9a1babf190485939ccc4592d1f704b24d5edb0dbedb26d704bb1862a184422cb"
+      "bytes": 119571,
+      "sha256": "5a62925147015d1f2dea93c263ded823327ce819a51f96951dfaf3a4ae4d4b7a"
     },
     {
       "path": "preview/table-1366.png",
-      "bytes": 118243,
-      "sha256": "6094e1727d9c08c4a1513d3a1a5f1553e194bcb0cf9c99aa0f51c621a5c9e78e"
+      "bytes": 85101,
+      "sha256": "89edadb5e15bf83fb3c51ecc9568c642de91132e30b1262b686926d9bbc7efd7"
     },
     {
       "path": "preview/card-detail-1366.png",
-      "bytes": 61369,
-      "sha256": "bc2eb4dabb830ca3fe850e0a0acbfb7cc97a90e707b47321b548fec88548f796"
+      "bytes": 55908,
+      "sha256": "a69d33b8e22f9a720cf8635bad40c7cd69aeae1816b8657b9a921576df870618"
     }
-  ]
+  ],
+  "previous_version": "ROUND-TABLE-HTML-01",
+  "previous_commit": "09a54fb1c0aaeede8f2f7d15f9f50c619b49d86e"
 }

@@ -10,15 +10,15 @@
 - v01，JPEG 1919×1079；SHA-256 `191934888cfd853dc312e87ae1e5de602e821aa392e2af404a95a133e9bc4dee`。原件 `C:/Users/ADMINI~1/AppData/Local/Temp/codex-clipboard-d4ed62f5-d98f-4d07-b496-8d205713eaca.jpg`，未复制二进制入Git。
 - Catalogued / PresentLocal，2026-10-18已目视及核SHA；临时路径长期可访问性不保证。原作者／作品身份／原URL／再分发许可Unknown；仅本轮内部参照，未导入、未公开上传。uses／derived-from：None；使用者DIR-039/R1。
 - 2026-10-24主系统参照补记：[EX-004风格输入与结构初案](../../yanzhou/sources/inbox/2026-10-24-top-down-2d-battle-style.md)使用本资源@v01，仅参照俯视、2D与精致卡牌风格，页面结构另设计；不继承DIR-039方案或资格。本次用户附件 `C:/Users/ADMINI~1/AppData/Local/Temp/codex-clipboard-7c3c3f02-3dce-4ef7-923d-929fee3888ec.jpg` 已核对为相同SHA、JPEG 1919×1079、RGB无透明，PresentLocal；沿原ID／归属与维护位置，不新增重复AS。临时原件未移动，未上传图像；新的展示合同仍Raw / Unqualified，原许可Unknown与NotRun边界保持。
-- 本轮使用者：[DM-G002-017 / ROUND-TABLE-HTML-01](../../yanzhou/visual/round-table-2026-10-24/README.md)，仅风格参照，未导入图像像素。
+- 本轮使用者：[DM-G002-017 / ROUND-TABLE-HTML-02](../../yanzhou/visual/round-table-2026-10-24/README.md)，仅风格参照，未导入图像像素。
 
 ## Demo
 
 ### <a id="dm-g002-017"></a>DM-G002-017 EX-004二维主页面结构示意
 
 - 归属：game-002 / main；[说明、操作与核对边界](../../yanzhou/visual/round-table-2026-10-24/README.md)。用户2026-10-24明确进入主页面HTML，筹码详情与历史延期；完整设计仍Raw / Unqualified，已确认分区及卡片／法器弹窗沿文字来源。
-- 固定版本ROUND-TABLE-HTML-01；[单文件HTML](../../yanzhou/visual/round-table-2026-10-24/dist/index.html)、[HTML及3张检查图manifest](../../yanzhou/visual/round-table-2026-10-24/manifest.json)。原创内联SVG／CSS／JS，无外部图片、脚本或下载字体；系统字体回退，无构建依赖。
-- ReadyForScope（仅本机HTML结构与交互检查） / PresentLocal。1366×768与1920×1080同屏布局、详情／键盘回焦、暗牌公开、三种整理、未来用途及固定列末／疲劳快照已核；390窄窗口无水平页面溢出。完整战斗、真实动画停点、保存恢复、真人体验、美术接受均未验；无筹码详情或历史。
+- 固定版本ROUND-TABLE-HTML-02；[单文件HTML](../../yanzhou/visual/round-table-2026-10-24/dist/index.html)、[HTML及3张检查图manifest](../../yanzhou/visual/round-table-2026-10-24/manifest.json)。原创内联SVG／CSS／JS，无外部图片、脚本或下载字体；系统字体回退，无构建依赖。
+- ReadyForScope（仅本机HTML结构与交互检查） / PresentLocal。HTML-02精简文字并收窄区域；本轮重核1366×768／1920×1080同屏、390窄窗口、详情／回焦、桌手交换与设置菜单。首版完整检查及固定提交在说明中保留。完整战斗、真实动画停点、保存恢复、真人体验、本轮美术接受均未验；无筹码详情或历史。
 - uses: AS-G002-030@v01仅风格参照；derived-from: None（外部代码／二进制）。源图不导入或上传，不继承DIR-039方案或旧3D证据。允许本项目内部继续制作，未发布网站；临时预览地址不作为固定版本。
 
 | ID / 名称 / 标签 | 归属 / 权威说明 | 固定版本与入口 | 状态 / 可复用范围 |
