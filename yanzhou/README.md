@@ -9,7 +9,7 @@ game-002 · 导航更新2026-10-23。当前先完善首场核心玩法，再开�
 | 了解游戏 | [唯一核心正文](design/GDD.md) |
 | 按任务开发／人工审校 | [任务设计包](development/task-pack.md) · [场景审阅](development/design-review.md) |
 | 查规范和下一步 | [规范体系](development/development-standard.md) · [阶段与启动条件](development/production-plan.md) |
-| 看懂开发进度 | [开发解释](development/development-guide.md) · [工作台入口](development/workspace.md) |
+| 看懂项目、协作与开发进度 | [情景讲解与提示词](development/development-guide.md) · [工作台入口](development/workspace.md) |
 | 查询主系统与开发资产 | [主系统阅读入口](design/README.md) · [当前资产](development/asset-readiness.md) |
 | 查看首批物件和案例 | [EX-001简易法术回归](design/examples/simple-spell.md) · [EX-002完整单战案例](design/examples/complete-battle.md) |
 | 完善主系统 | [当前问题](governance/questions.md#开发前先看) · [制作与验证经验](development/development-standard.md#制作与验证经验) |
