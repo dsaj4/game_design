@@ -1,32 +1,150 @@
 {
   "id": "DM-G002-017",
-  "version": "ROUND-TABLE-HTML-02",
+  "version": "ROUND-TABLE-HTML-03",
   "date": "2026-10-24",
   "project": "game-002",
+  "status": "Trial visual assembly; user review pending",
   "rules_input_commit": "1219d537273a013b89f4125cb69b43bdf1242fa7",
   "ui_text_input_commit": "e4ce92762a862b6acebbea3b9198d9bb76a9d0d9",
+  "previous_version": "ROUND-TABLE-HTML-02",
+  "previous_commit": "1ca8c2647439741d8993880183102459ae730984",
+  "comparison_entry": "dist/structure.html",
   "files": [
     {
       "path": "dist/index.html",
+      "bytes": 52288,
+      "sha256": "248d89213ac4b4db40b9ef2637b0b6df58927e54cd0087d4aadeeca903c9f21d"
+    },
+    {
+      "path": "dist/burgundy.css",
+      "bytes": 8440,
+      "sha256": "659f9d6059fef61873d4ec3295a080010b69398bf28335a885194237cee6a443"
+    },
+    {
+      "path": "dist/structure.html",
       "bytes": 50514,
       "sha256": "78d764f5724cb71b37aa25225740f108e3d584c4f221e0c7c12981aa02b304eb"
     },
     {
-      "path": "preview/table-1920.png",
-      "bytes": 119571,
-      "sha256": "5a62925147015d1f2dea93c263ded823327ce819a51f96951dfaf3a4ae4d4b7a"
+      "path": "README.md",
+      "bytes": 6959,
+      "sha256": "244e48d2e9a0e9fade75f9044012b42819cdb4a65f311a42b7a686d2bcf34df4"
     },
     {
-      "path": "preview/table-1366.png",
-      "bytes": 85101,
-      "sha256": "89edadb5e15bf83fb3c51ecc9568c642de91132e30b1262b686926d9bbc7efd7"
+      "path": "preview/table-burgundy-1280.png",
+      "bytes": 148299,
+      "sha256": "54d9feadfe2bbb399e4816b2dfdc55b0279239c122150fa9fc64e4e3b951c53a"
     },
     {
-      "path": "preview/card-detail-1366.png",
-      "bytes": 55908,
-      "sha256": "a69d33b8e22f9a720cf8635bad40c7cd69aeae1816b8657b9a921576df870618"
+      "path": "preview/card-detail-burgundy-1280.png",
+      "bytes": 57480,
+      "sha256": "3e9a4c77d142dd0182b93f630da06808dfa7dca40509816236a3e0b5277bbcac"
+    },
+    {
+      "path": "preview/artifact-detail-burgundy-1280.png",
+      "bytes": 41079,
+      "sha256": "eba8fe7b97da07abf1301debdeadee0c9c22520dcc53881906a47aa4a7a690e6"
     }
   ],
-  "previous_version": "ROUND-TABLE-HTML-01",
-  "previous_commit": "09a54fb1c0aaeede8f2f7d15f9f50c619b49d86e"
+  "asset_dependencies": {
+    "id": "AS-G002-031",
+    "baseVersion": "BURGUNDY-OBJECTS-01",
+    "baseCommit": "1ca8c2647439741d8993880183102459ae730984",
+    "supplementalVersion": "BURGUNDY-OBJECTS-INTEGRATION-01",
+    "manifests": [
+      {
+        "path": "../burgundy-objects-2026-10-24/manifest.json",
+        "bytes": 9725,
+        "sha256": "77c34871921184aa12187c95aa4d284d77a049910c4eebc55927199e8a090ef0"
+      },
+      {
+        "path": "../burgundy-objects-2026-10-24/manifest-integration-v01.json",
+        "bytes": 1280,
+        "sha256": "2e4af36322ff276417275077bd9e94b1886792b2151002763aeaf637e3754f81"
+      }
+    ],
+    "files": [
+      {
+        "path": "../burgundy-objects-2026-10-24/images/01-table-v01.png",
+        "bytes": 3390412,
+        "sha256": "8aba2fc53cdcf4a3ab33e04c8391295767a96bb467d055c5afce80f09a75e217"
+      },
+      {
+        "path": "../burgundy-objects-2026-10-24/images/02-card-front-v01.png",
+        "bytes": 2543081,
+        "sha256": "b6b62648a9e5835a805e8488767d55ce8ce253a8949a73d2ab54e6505f7bc343"
+      },
+      {
+        "path": "../burgundy-objects-2026-10-24/images/03-card-back-v01.png",
+        "bytes": 2174963,
+        "sha256": "e36dfbcdc4e264a07358b4279c6879b7e2a7edd6cf2d237f654a0456b7315d14"
+      },
+      {
+        "path": "../burgundy-objects-2026-10-24/images/04-guardian-v01.png",
+        "bytes": 1636910,
+        "sha256": "64fb90ec3a0db39d598cfb378ef9a06a8a1ec33ad72f4bb627aa59818e57a3e1"
+      },
+      {
+        "path": "../burgundy-objects-2026-10-24/images/05-caster-v01.png",
+        "bytes": 1734631,
+        "sha256": "ce3889e00df0badcd7b716d1bc7acd42edd2d386c7fa69c5a1d43bf27892f8bd"
+      },
+      {
+        "path": "../burgundy-objects-2026-10-24/images/06-chips-v01.png",
+        "bytes": 2001818,
+        "sha256": "6236c6a927980c5a09b00f2579cafbdc614e8fda13d9dff04aa9f45eb1aecd53"
+      },
+      {
+        "path": "../burgundy-objects-2026-10-24/images/07-lamp-v01.png",
+        "bytes": 1746525,
+        "sha256": "502bb137acce2e38a552ba2762142890b9d8dc004c78be60b45283f648d9b9c2"
+      },
+      {
+        "path": "../burgundy-objects-2026-10-24/images/08-vial-v02.png",
+        "bytes": 2104741,
+        "sha256": "087a693f11b9eb814d356527bb449ed692d2b8803a382afc53b54bd0d8cfbd84"
+      },
+      {
+        "path": "../burgundy-objects-2026-10-24/images/09-notes-v01.png",
+        "bytes": 2093160,
+        "sha256": "164fe3ec8659006f9156764049a7bb064c5c9f2aff8d60cd4e72f9bd7bca2a4a"
+      },
+      {
+        "path": "../burgundy-objects-2026-10-24/images/11-card-frame-v01.png",
+        "bytes": 2532417,
+        "sha256": "ddc091df8cc0a5fa973cf8a094fe867e10cd0538e4f2157f6d1dc4f2c29ec7a0"
+      }
+    ],
+    "lightImage": "10-light-v01.png is style reference only; HTML/CSS display current progress"
+  },
+  "verification": {
+    "date": "2026-10-24",
+    "browser": "Codex IAB",
+    "viewport": [
+      1280,
+      720
+    ],
+    "documentSize": [
+      1280,
+      720
+    ],
+    "scope": "Local visual and interaction verification; fixed EX-004 snapshots; no gameplay test",
+    "passed": [
+      "card and artifact dialogs",
+      "dark card information boundary",
+      "Escape and focus return",
+      "future use separate from current batch",
+      "table-hand swap and 2-to-1 arrangement points",
+      "decor visibility toggle",
+      "ready state and zero chips",
+      "five settlement column snapshots and public follow-up",
+      "syntax, unique static IDs, unchanged fixtures/behavior functions, asset hashes",
+      "no captured browser error or warn"
+    ],
+    "notRerun": [
+      "1920x1080",
+      "1366x768",
+      "390x844"
+    ]
+  }
 }

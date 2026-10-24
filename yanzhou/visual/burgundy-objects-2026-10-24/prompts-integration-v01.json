@@ -1,0 +1,10 @@
+{
+  "version": "BURGUNDY-OBJECTS-INTEGRATION-01",
+  "tool": "built-in image_gen",
+  "sourceCommit": "1ca8c2647439741d8993880183102459ae730984",
+  "editTarget": "images/02-card-front-v01.png",
+  "output": "images/11-card-frame-v01.png",
+  "originalGeneratedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a16c2a-ec7b-7b62-9d25-c9157e712f7f\\exec-2fa9ded0-a330-41f0-8c65-db2e3b871210.png",
+  "prompt": "Edit target: the attached approved burgundy-and-antique-gold card front. Produce a reusable blank card-frame PNG for HTML integration. Preserve the entire outer card silhouette, exact front-on top-down orientation, fine burgundy inlays, antique gold botanical border, ivory paper grain, and all panel dividers. Remove ALL Chinese title text, all numbers, all plus signs, all stat glyphs, the small shield symbol in the upper-left category panel, and the entire large central shield and its surrounding circle. Replace removed content seamlessly with matching blank ivory paper (category panel remains burgundy but empty). Preserve the existing elegant frame; do not redesign, add ornaments, introduce art, or create a new layout. The title panel, large illustration panel, and bottom effects panel must all be completely blank, ready for live HTML text and independent artwork. One complete portrait card, no text anywhere, fully visible transparent cutout with modest padding. Retain transparency outside card. This is a technical integration derivative of the approved art, not a new visual direction.",
+  "purpose": "Remove baked text and illustration for live HTML typesetting; preserve reviewed border language."
+}
