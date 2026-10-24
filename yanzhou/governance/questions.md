@@ -4,7 +4,7 @@
 
 ## 开发前先看
 
-CORE-065已采纳5拍回合、手牌与付费整理，主动调序能力已有明确规则。CORE-066已采纳[EX-004完整首场](../design/examples/round-first-battle.md)。**下一入口：审阅EX-004主页面HTML-02**（PRE2D-Q01，范围与产物见下）；FB-Q01／02继续作为真实路线下的待验证体验风险。旧EX-001／002回归与旧3D证据保持原范围。依据：[完整首场采纳](../sources/draft-changes/D-2026-10-23-round-first-battle.md)、[机制采纳](../sources/draft-changes/D-2026-10-23-round-hand-settlement.md)及此前[首场优先范围](../sources/inbox/2026-10-18-development-system-review.md#本轮批量澄清)。
+CORE-065已采纳5拍回合、手牌与付费整理，主动调序能力已有明确规则。CORE-066已采纳[EX-004完整首场](../design/examples/round-first-battle.md)。**下一入口：逐项审阅暗酒红对象HTML与效果图**（PRE2D-Q01，核心要素沿HTML-02，范围与产物见下）；FB-Q01／02继续作为真实路线下的待验证体验风险。旧EX-001／002回归与旧3D证据保持原范围。依据：[完整首场采纳](../sources/draft-changes/D-2026-10-23-round-first-battle.md)、[机制采纳](../sources/draft-changes/D-2026-10-23-round-hand-settlement.md)及此前[首场优先范围](../sources/inbox/2026-10-18-development-system-review.md#本轮批量澄清)。
 
 EX-004已给初始套组与生命、每回合5位基础敌牌及后续牌、程序循环／覆盖、标记与支付、允许操作和终局。EX-003仍只解释独立局部机制。已冻结内容不重问；纸面预期没有证明实际运行、选择价值或平衡成立，2D宿主与工程复用仍须按所选任务明确。
 
@@ -14,7 +14,7 @@ EX-004已给初始套组与生命、每回合5位基础敌牌及后续牌、程�
 
 2026-10-24范围更新：用户明确先制作主页面HTML，筹码详情与历史本轮延期；[HTML-02及检查范围](../visual/round-table-2026-10-24/README.md)已交付。敌方公开后续在此稿暂置敌行右侧，其位置与具体图形仍为制作建议。延期项不作为此HTML的开工阻塞，完整展示合同与真实实现的要求继续保留。
 
-同日用户确认核心要素设计沿用HTML-02，继续构思风格化；[当前美术候选](../sources/inbox/2026-10-24-top-down-2d-battle-style.md#8-沿用核心要素后的风格化构思)尚未选定。不再将核心组件重排作为默认下一步，材质、纹样、陈设及完整美术接受仍待确认。
+同日用户确认核心要素设计沿用HTML-02，随后选定暗酒红＋古金＋黑褐木，并要求逐对象HTML与效果图、审核后再组装；[已确认范围](../sources/inbox/2026-10-24-top-down-2d-battle-style.md#9-暗酒红配色与逐对象审阅)及[DM-G002-018／AS-G002-031审阅包](../visual/burgundy-objects-2026-10-24/README.md)已记录。主牌桌未组装新风格；具体造型、纹样、陈设及完整美术接受仍待逐项审阅，不默认重排核心组件。
 
 Open / Raw（完整合同待闭合）。用户2026-10-24已明确[页面分区](../sources/inbox/2026-10-24-top-down-2d-battle-style.md#3-用户确认的页面分区)，中区敌上我下、生命／护甲不在顶部重复、有限堆叠＋准确总数的[筹码呈现](../sources/inbox/2026-10-24-stacked-counter-chips.md)，以及点击卡片／法器后弹出的[上层详情窗口](../sources/inbox/2026-10-24-top-down-2d-battle-style.md#卡片与法器详情窗口)；这些选择不重问。敌方公开后续、计数物详情／历史入口、筹码显示细则与具体操作路径仍待闭合，局部确认不等于完整展示合同已采纳。CORE-065已将CORE-063限定为旧3D演示；回合玩法、分阶段停点和卡面[C1—C3](../sources/inbox/2026-10-17-standard-card-face.md)继续沿用，不猜定引擎迁移或代码复用。四法器为显示空间预留，EX-004初始仍为两台；资源区本场为空。
 

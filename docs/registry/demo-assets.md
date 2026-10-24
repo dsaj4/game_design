@@ -12,7 +12,19 @@
 - 2026-10-24主系统参照补记：[EX-004风格输入与结构初案](../../yanzhou/sources/inbox/2026-10-24-top-down-2d-battle-style.md)使用本资源@v01，仅参照俯视、2D与精致卡牌风格，页面结构另设计；不继承DIR-039方案或资格。本次用户附件 `C:/Users/ADMINI~1/AppData/Local/Temp/codex-clipboard-7c3c3f02-3dce-4ef7-923d-929fee3888ec.jpg` 已核对为相同SHA、JPEG 1919×1079、RGB无透明，PresentLocal；沿原ID／归属与维护位置，不新增重复AS。临时原件未移动，未上传图像；新的展示合同仍Raw / Unqualified，原许可Unknown与NotRun边界保持。
 - 本轮使用者：[DM-G002-017 / ROUND-TABLE-HTML-02](../../yanzhou/visual/round-table-2026-10-24/README.md)，仅风格参照，未导入图像像素。
 
+## <a id="as-g002-031"></a>AS-G002-031 暗酒红对象效果图包
+
+- 归属：game-002 / main；[登记、规格与制作范围](../../yanzhou/visual/burgundy-objects-2026-10-24/README.md)。内置image_gen生成，提示词随包保存；用户选定配色，具体对象造型仍Raw / Unqualified，审核后再组装。
+- 固定版本BURGUNDY-OBJECTS-01；[manifest](../../yanzhou/visual/burgundy-objects-2026-10-24/manifest.json)含10张当前PNG与保留的试剂瓶v01、尺寸、透明通道和SHA-256。默认原件保留，项目副本未做像素编辑；卡牌、法器、筹码、灯、瓶、札记有透明通道，桌面与光影样图不透明。
+- Catalogued / PresentLocal；2026-10-24检查本机文件、透明通道及目录加载，具体美术待用户接受。用于DM-G002-018@BURGUNDY-OBJECTS-01。提示词未引用第三方图片像素；用户授权项目内部制作与审阅，未声明公共开放许可或最终引擎图集可用性。
+
 ## Demo
+
+### <a id="dm-g002-018"></a>DM-G002-018 暗酒红独立对象HTML审阅包
+
+- 归属：game-002 / main；[说明、操作及验证范围](../../yanzhou/visual/burgundy-objects-2026-10-24/README.md)。[唯一目录入口](../../yanzhou/visual/burgundy-objects-2026-10-24/dist/index.html)提供10个独立对象页、HTML参数、效果图切换和本机批注导出；没有整体牌桌组装。
+- 固定版本BURGUNDY-OBJECTS-01，文件范围及SHA-256见同包manifest；原创CSS／SVG／JS，无外部脚本和下载字体，不需构建。uses AS-G002-031@BURGUNDY-OBJECTS-01；结构视觉参照DM-G002-017@ROUND-TABLE-HTML-02，未修改其HTML／manifest。
+- ReadyForScope（仅本机独立审阅） / PresentLocal；2026-10-24在1280×720内置浏览器核对十页、图像、调参、卡片／法器弹窗与回焦、筹码大数值／零值、批注重载。窄屏、跨浏览器、真实战斗、美术接受与整体组装未验；无筹码详情或历史。允许项目内部继续制作，未发布网站。
 
 ### <a id="dm-g002-017"></a>DM-G002-017 EX-004二维主页面结构示意
 
