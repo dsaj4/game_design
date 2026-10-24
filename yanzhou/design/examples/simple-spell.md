@@ -1,5 +1,7 @@
 # EX-001：简易法术流
 
+> 适用范围（CORE-065）：本案例保留旧连续拍输入与结果，数值正文未改。相应规则按[改制前固定设计版本](https://github.com/dsaj4/game_design/tree/084e529e2c852d2e1a508f74a8766e55763f9933/yanzhou/design)解释；正文中的现行路径不用于重新计算旧时序。EX-002原固定上游仍有效。当前回合机制见[EX-003](round-hand.md)，旧疲劳／预留／揭示倒计时不迁移为新规则。
+
 2026-10-11 · first-example.1 · 首批设计案例。用户要求加入example，并确认普通／兑现双用途、两护符兼容迅速、暂不启用契合。来源：[原始登记与答复](../../sources/inbox/2026-10-11-simple-spell-first-batch-registration.md)、[合格素材](../../sources/materials/M-2026-10-11-simple-spell-example.md)、[CORE-059](../../sources/draft-changes/D-2026-10-11-simple-spell-example.md)。
 
 本页给UI和实现提供一套确定配置。数值沿首批候选固定为**本案例值**，不是全局发行参数。以下是人工逐拍推导，未运行游戏、模拟器或玩家测试。案例只展示0—14拍；未设定全局疲劳和完整路线。

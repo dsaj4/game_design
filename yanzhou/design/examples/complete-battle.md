@@ -1,5 +1,7 @@
 # EX-002：简易法术完整单战
 
+> 适用范围（CORE-065）：本案例保留旧连续拍输入与结果，数值正文未改。相应规则按[改制前固定设计版本](https://github.com/dsaj4/game_design/tree/084e529e2c852d2e1a508f74a8766e55763f9933/yanzhou/design)解释；正文中的现行路径不用于重新计算旧时序。EX-002原固定上游仍有效。当前回合机制见[EX-003](round-hand.md)，旧疲劳／预留／揭示倒计时不迁移为新规则。
+
 2026-10-11 · complete-battle.1 / CORE-060 · Accepted限定内容；运行／体验／平衡NotRun。[用户R3与来源](../../sources/inbox/2026-10-11-development-design-round-01.md) · [采纳D](../../sources/draft-changes/D-2026-10-11-development-design-round-01.md)。
 
 ## 1. 固定内容与范围

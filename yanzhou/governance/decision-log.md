@@ -8,10 +8,10 @@
 
 | 身份 | 使用范围／下一编号 |
 | --- | --- |
-| G002-CORE | 001—064已用；下一065。001—036按原版本保留，仅由048等明确条款限定继承 |
+| G002-CORE | 001—065已用；下一066。001—036按原版本保留，仅由048等明确条款限定继承 |
 | G002-DOC | 001—030已用；下一031。下表含本轮030 |
-| EX | 001／002已用，下一003；案例身份不等于发行实体或FX |
-| TL／验收 | TL-01—19、21—45共44个现行身份，20退役；TL-V01—110去除02／20，加INS-V01—09共117项既有预期，另有CORE合同情境 |
+| EX | 001—003已用，下一004；案例身份不等于发行实体或FX |
+| TL／验收 | TL-01—19、21—45共44个现行身份，20退役；TL-V01—110去除02／20，加INS-V01—09共117项既有预期，另有CORE合同情境；旧预期按适用域保留，CORE-065另列 |
 | FX／SYS | FX-001—137沿effects登记；SYS-001—007保留原规格域身份，不按六系统重新分号 |
 | DIR／AS／DM | DIR按[探索入口](../exploration/README.md)分配，001—036退役；资产和Demo沿[统一目录](../../docs/registry/demo-assets.md)，这里不重复维护计数 |
 | 其他旧身份 | ADMIN-001、SCOPE-001—004、BF-001、AUD-001—040及R／GR／RC／BR／ST／CG／HG／WG／SG／PG／EG／RG／UX、V／AC／U／TH／CAL／DEMO05保留原范围；旧卡W／EN／B／C与退役TC／TR／TS／TA／TE不作为当前发行池 |
@@ -21,6 +21,8 @@
 ## 核心决定
 
 以下为已采纳范围摘要。旧CORE-001—036及ADMIN／SCOPE／BF的原日期、资格与细节按[历史完整决定](https://github.com/dsaj4/game_design/blob/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance/decision-log.md#2026-09早期决定历史索引)追溯；BF草案、旧候选和历史实验不因收录晋级。旧RC1未解决的AUD-010只保留历史范围，不冒充现行TL-11缺口或已验证结论。
+
+CORE-065已替换首场连续出牌、预留容量、敌牌倒计时及相应停点；下列旧决定仅保留未被替换部分，EX-001／002按固定旧版本解释。CORE-045／060的旧疲劳不用于新首场。
 
 CORE-037—047共同依据：[时间产线采纳D](../sources/draft-changes/D-2026-10-01-timeline-production-core.md)。
 
@@ -57,6 +59,7 @@ CORE-037—047共同依据：[时间产线采纳D](../sources/draft-changes/D-20
 | <a id="g002-core-062"></a>CORE-062 | OS失焦后返回仍停，保留输入与页面状态；旧事件边界停点由064替代。 | [D](../sources/draft-changes/D-2026-10-12-development-design-round-05.md) |
 | <a id="g002-core-063"></a>CORE-063 | 旧首场以真实3D物件操作；physical-table.2允许绑定只读文本和公开投影动作。停点沿064，新2D宿主仍待定。 | [D](../sources/draft-changes/D-2026-10-14-demoncards-presentation.md) |
 | <a id="g002-core-064"></a>CORE-064 | 所有暂停完成当前拍及动画后停，单步同样停拍末；终局不补步骤，异常载入不自动补跑。 | [D](../sources/draft-changes/D-2026-10-23-beat-end-pause.md) |
+| <a id="g002-core-065"></a>CORE-065 | 固定5生产拍／5位回合、3张跨轮手牌、每轮3点整理；取消成品容量预留，敌牌即时／延时后续分流，后续覆盖下轮左位；结算逐列且不推进生产，第10回合末起每轮双方5×n疲劳。替代037、050—054、057、060—064相关首场接口；D、承诺、支付与锁定保留。实现与玩法验证NotRun。 | [D](../sources/draft-changes/D-2026-10-23-round-hand-settlement.md) |
 
 ## 文档与开发决定
 
