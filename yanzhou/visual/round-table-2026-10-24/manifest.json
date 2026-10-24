@@ -1,0 +1,30 @@
+{
+  "id": "DM-G002-017",
+  "version": "ROUND-TABLE-HTML-01",
+  "date": "2026-10-24",
+  "project": "game-002",
+  "rules_input_commit": "1219d537273a013b89f4125cb69b43bdf1242fa7",
+  "ui_text_input_commit": "e4ce92762a862b6acebbea3b9198d9bb76a9d0d9",
+  "files": [
+    {
+      "path": "dist/index.html",
+      "bytes": 50796,
+      "sha256": "51afc5483e6dabdf6faf3cfe3f70cb6b1b41fe87adb82603afcafb8d36c30c39"
+    },
+    {
+      "path": "preview/table-1920.png",
+      "bytes": 167693,
+      "sha256": "9a1babf190485939ccc4592d1f704b24d5edb0dbedb26d704bb1862a184422cb"
+    },
+    {
+      "path": "preview/table-1366.png",
+      "bytes": 118243,
+      "sha256": "6094e1727d9c08c4a1513d3a1a5f1553e194bcb0cf9c99aa0f51c621a5c9e78e"
+    },
+    {
+      "path": "preview/card-detail-1366.png",
+      "bytes": 61369,
+      "sha256": "bc2eb4dabb830ca3fe850e0a0acbfb7cc97a90e707b47321b548fec88548f796"
+    }
+  ]
+}
