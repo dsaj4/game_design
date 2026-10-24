@@ -1,6 +1,6 @@
 # 设计来源链
 
-> 现行范围说明（2026-10-23）：CORE-065已采纳回合、手牌与付费整理。既有日期型记录保留原资格、原采纳及证据范围；下文旧来源链中的“当前／本轮”只指原日期。现行适用关系以[素材审查](../design/source-review.md)及权威规则为准，不把旧来源全文改写为新版，也不因新条款采纳而整体晋级早期Raw候选。
+> 现行范围说明（2026-10-23）：CORE-065已采纳回合、手牌与付费整理，CORE-066补齐限定完整首场输入。既有日期型记录保留原资格、原采纳及证据范围；下文旧来源链中的“当前／本轮”只指原日期。现行适用关系以[素材审查](../design/source-review.md)及权威规则为准，不把旧来源全文改写为新版，也不因新条款采纳而整体晋级早期Raw候选。
 
 Project ID：game-002。文档角色：SourceCollection / Navigation。这里保存设计依据与决定摘要，现行规则统一在[design/](../design/README.md)。新增记录按[轻量规范](../../docs/design-workflow.md#言咒轻量记录)：不保存逐字原话，共用固定版本，在使用处准确引用。
 
@@ -15,6 +15,10 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 
 [决策记录](../governance/decision-log.md)说明何时采纳了哪些范围。文件名和原设计ID保持，旧素材使用记录的链接已定位新路径；原提交和历史哈希仍按原路径解释。
 
+
+## 当前完整首场来源链（CORE-066）
+
+[意图与授权摘要](inbox/2026-10-23-round-first-battle.md) → [Qualified M](materials/M-2026-10-23-round-first-battle.md) → [P](proposals/P-2026-10-23-round-first-battle.md)／[E](evaluations/E-2026-10-23-round-first-battle.md) → [Accepted D](draft-changes/D-2026-10-23-round-first-battle.md)。按用户授权自行冻结EX-004起始套组、完整敌表、初态及胜败／恢复预期，CORE-065机制不变；实现、运行与体验NotRun。
 
 ## 当前回合改制来源链（CORE-065）
 

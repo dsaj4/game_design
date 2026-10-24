@@ -1,5 +1,7 @@
 # 拟修改与采纳文本
 
+当前完整首场：[CORE-066 Accepted D](D-2026-10-23-round-first-battle.md)，[来源链](../README.md#当前完整首场来源链core-066)。限定输入已冻结，执行与体验NotRun；旧记录按原日期解释。
+
 > 2026-10-23范围说明：日期型记录及下方索引摘要保留当时资格和判断，其中“当前／未定／未采纳”不覆盖后续决定。本轮文件见[回合与手牌记录](D-2026-10-23-round-hand-settlement.md)；当前CORE-065的[完整来源链](../README.md#当前回合改制来源链core-065)及[素材审查](../../design/source-review.md)说明现行适用范围，不改写旧来源正文，也不提升其他候选资格。
 
 Project ID：game-002。文档角色：SourceCollection。2026-09-23 / doc.1。

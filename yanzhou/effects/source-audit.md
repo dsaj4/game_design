@@ -1,9 +1,10 @@
 # 当前效果的来源范围
 
-Project ID：game-002。文档角色：SourceReview / EffectTrace。2026-10-23 / CORE-065适配。
+Project ID：game-002。文档角色：SourceReview / EffectTrace。2026-10-24 / CORE-065适配。
 
 | 来源 | 当前用途与限制 |
 | --- | --- |
+| [CORE-066](../sources/draft-changes/D-2026-10-23-round-first-battle.md) | EX-004限定完整初态与敌表，复用普通伤害、护甲、打断等身份，不新增FX或通用权限；完整纸面预期不等于运行覆盖 |
 | [CORE-065](../sources/draft-changes/D-2026-10-23-round-hand-settlement.md) | 当前回合、手牌、逐列结算与后续牌接口；取消／打断、资源资格及疲劳按其限定替代，维护等未迁移扩展不进首场 |
 | [TL-1核心M](../sources/materials/M-2026-10-01-timeline-production-core.md)及[CORE-037–047](../sources/draft-changes/D-2026-10-01-timeline-production-core.md) | 原采纳资格保留；有限队列／容量预留已由CORE-065替代，其他条款只沿现行明确保留部分 |
 | [CORE-048](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md) | 对象、护甲、支付与数量等限定复用；不恢复旧卡池或数值 |

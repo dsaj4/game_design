@@ -1,11 +1,12 @@
 # 当前设计来源索引
 
-2026-10-23 · SourceReview。当前采纳与资格沿[基准](baseline.md)；本页只回答结论来自哪里，不属于日常开发或完整GDD必读包。引用默认取任务共同提交，来源原件按自身固定输入解释。
+2026-10-24 · SourceReview。当前采纳与资格沿[基准](baseline.md)；本页只回答结论来自哪里，不属于日常开发或完整GDD必读包。引用默认取任务共同提交，来源原件按自身固定输入解释。
 
 ## 规则来源
 
 | 内容 | 依据 |
 | --- | --- |
+| 当前限定完整首场输入 | [CORE-066 first-round-battle.1](../sources/draft-changes/D-2026-10-23-round-first-battle.md)，冻结EX-004起始套组、完整循环敌表、胜败／恢复预期，不改CORE-065机制 |
 | 当前回合、手牌、整理与敌牌接口 | [CORE-065 round-hand.1](../sources/draft-changes/D-2026-10-23-round-hand-settlement.md)，替换以下旧来源中的连续拍、Q预留、r→T及对应暂停／疲劳条款；未替换部分沿原资格 |
 | 原核心与兼容复用 | [CORE-037起点](../sources/draft-changes/D-2026-10-01-timeline-production-core.md) · [CORE-048兼容复用](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md) |
 | 铭刻结构 | [CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md) |
@@ -35,7 +36,7 @@
 | [法器意图](../sources/materials/M-2026-10-09-artifact-design-intent.md) | 程序实现、决策重心及ART-I1—4；不新增战中重铭或启停 |
 | [行动意图](../sources/materials/M-2026-10-10-action-card-design-intent.md) | 战斗表现、资源兑现、单卡清晰与标记联系；不是整包卡池发行 |
 
-EX-003是当前回合机制的局部派生案例，不是完整单战；EX-001／002限定旧连续拍固定范围；不把其数字当全局参数。旧卡表、旧格子／环境形态、退役探索与Raw UI不自动进入现行规则。来源记录中的当轮Unknown可能已被后续CORE覆盖，当前只查questions；反向引用旧稿不能恢复冷却、完工等位、直接资源输出、免费撤销或逐牌手动推进。
+EX-004是CORE-066采纳的限定完整首场，执行NotRun；EX-003仍是独立局部派生案例，不是完整单战；EX-001／002限定旧连续拍固定范围；不把其数字当全局参数。旧卡表、旧格子／环境形态、退役探索与Raw UI不自动进入现行规则。来源记录中的当轮Unknown可能已被后续CORE覆盖，当前只查questions；反向引用旧稿不能恢复冷却、完工等位、直接资源输出、免费撤销或逐牌手动推进。
 
 ## 历史取证
 

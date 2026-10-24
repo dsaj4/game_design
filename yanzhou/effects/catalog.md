@@ -1,19 +1,19 @@
 # 效果身份与当前应用
 
-Project ID：game-002。文档角色：EffectTrace。2026-10-23 / CORE-065适配。137个稳定历史身份不等于137张可用卡；规则唯一维护在design，当前没有已采纳的新发行池。登记不授予效果权限，也不证明实现或体验。
+Project ID：game-002。文档角色：EffectTrace。2026-10-24 / CORE-065＋066适配。137个稳定历史身份不等于137张可用卡；规则唯一维护在design，EX-004限定内容已采纳，完整发行池仍未冻结。登记不授予效果权限，也不证明实现或体验。
 
 ## 当前应用范围
 
 | 身份／应用 | 已采纳部分与权威来源 | 内容／证据边界 |
 | --- | --- | --- |
-| FX-001 / TL-app1 | 普通伤害先甲后生命；[TL-12／29／30](../design/systems/action-card-system/rules.md) | EX-003限定借用既有伤害内容；新首场敌表与完整初态待补，旧TA-01／04已退役 |
-| FX-002 / TL-app2 | 合格宿主累计护甲、耗尽消失、战终清理；[TL-29](../design/systems/action-card-system/rules.md) | EX-003限定借用既有护甲内容；不把局部值扩为全局默认，旧TA-02已退役 |
+| FX-001 / TL-app1 | 普通伤害先甲后生命；[TL-12／29／30](../design/systems/action-card-system/rules.md) | EX-004完整首场及EX-003局部预期，均执行NotRun；旧TA-01／04已退役 |
+| FX-002 / TL-app2 | 合格宿主累计护甲、耗尽消失、战终清理；[TL-29](../design/systems/action-card-system/rules.md) | EX-004与EX-003各自限定护甲内容；不把案例值扩为全局默认，旧TA-02已退役 |
 | FX-031 / TL-app1 | 提前取消更右侧公开后续牌与指定法器中断是不同权限；[TL-07](../design/systems/artifact-system/rules.md)、[TL-10](../design/systems/action-card-system/rules.md) | 取消须内容明确授权；打断目标按后续生成时锁定。不发行取消牌、不从同一FX推导权限互通；旧TA-03已退役 |
 | [FX-135](#fx-135) | 资源转化的历史身份 | 原直接资源交付路径已由INS-1替代；新来源／加工途径Unknown |
 | [FX-136](#fx-136) | 高阶产物维护、休眠与恢复的保留接口；[TL-22／23](../design/systems/resource-system/rules.md) | 尚未迁移到新回合首场；没有默认发行“辉核”，旧维护时序不直接沿用 |
 | [FX-137](#fx-137) | 高阶资源增幅的历史身份；[TL-15](../design/systems/resource-system/rules.md)保留接口方向 | 具体效果待设计；不同于TL-45核心契合，旧TS-08已退役 |
 
-已采纳规则与内容范围按各自来源解释；新回合实现及执行检查NotRun，体验判断仍Hypothesis。此次只同步适用范围，没有新增FX身份、修订或发行效果。
+已采纳规则与内容范围按各自来源解释；新回合实现及执行检查NotRun，体验判断仍Hypothesis。CORE-066补齐限定内容，复用既有FX身份与效果语义，没有新增FX身份或通用权限。
 
 <a id="fx-135"></a>
 

@@ -1,6 +1,6 @@
 # 敌人：示例
 
-2026-10-23 · Derived / CORE-065 · NotRun。以下是局部条件，真实5位敌表与完整首场尚未冻结。
+2026-10-24 · Derived / CORE-065 · NotRun。以下是独立局部条件；真实5位敌表与完整首场已由CORE-066在[EX-004](../../examples/round-first-battle.md)冻结，不将两者混拼。
 
 ## 延时后续与基础表
 

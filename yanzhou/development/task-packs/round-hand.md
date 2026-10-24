@@ -1,6 +1,6 @@
 # 任务设计包：回合、手牌与整理
 
-2026-10-23 · Derived Design / CORE-065 · 设计已采纳，执行NotRun。包与来源共用任务开工时固定的设计提交，按[任务包规范](../task-pack.md)登记一次。此包交接机制；真实5位敌表、整场初态尚未冻结，不能直接宣称完整战斗就绪。
+2026-10-24 · Derived Design / CORE-065 · 设计已采纳，执行NotRun。包与来源共用任务开工时固定的设计提交，按[任务包规范](../task-pack.md)登记一次。此包交接机制；真实5位敌表与整场初态已由CORE-066冻结，沿[完整首场包](first-battle.md)展开。设计输入齐备不等于战斗实现或体验通过。
 
 ## 玩家目标与范围
 
@@ -38,7 +38,7 @@
 
 ## 条件展开与下一输入
 
-更改X／H／点数要同时核对产牌吞吐、固定行、敌表覆盖和保存；更改打断读[打断包](interruption-restart.md)，更改用途／锁定读[用途包](future-purpose.md)。新敌表依[内容合同](../../design/content/enemies-encounters.md)填写实际牌名、即时／延时、后续效果、锁定及循环，再形成一场完整输入。新2D操作宿主仍由PRE2D-Q01另行裁定。
+更改X／H／点数要同时核对产牌吞吐、固定行、敌表覆盖和保存；更改打断读[打断包](interruption-restart.md)，更改用途／锁定读[用途包](future-purpose.md)。当前完整输入见[EX-004](../../design/examples/round-first-battle.md)；新增敌表仍依[内容合同](../../design/content/enemies-encounters.md)填写实际牌名、即时／延时、后续效果、锁定及循环。新2D操作宿主仍由PRE2D-Q01另行裁定。
 
 ## 对话讲解
 

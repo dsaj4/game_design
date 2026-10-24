@@ -1,6 +1,6 @@
 # 决策与编号
 
-2026-10-23 · DecisionRecord。这里只记决定摘要及替代关系；现行行为查[核心与细则](rule-index.md)，版本查[baseline](../design/baseline.md)，实现查[开发入口](../development/README.md)。设计采纳不等于实现或体验通过。
+2026-10-24 · DecisionRecord。这里只记决定摘要及替代关系；现行行为查[核心与细则](rule-index.md)，版本查[baseline](../design/baseline.md)，实现查[开发入口](../development/README.md)。设计采纳不等于实现或体验通过。
 
 ## 编号与别名
 
@@ -8,9 +8,9 @@
 
 | 身份 | 使用范围／下一编号 |
 | --- | --- |
-| G002-CORE | 001—065已用；下一066。001—036按原版本保留，仅由048等明确条款限定继承 |
+| G002-CORE | 001—066已用；下一067。001—036按原版本保留，仅由048等明确条款限定继承 |
 | G002-DOC | 001—031已用；下一032。下表及独立小节维护决定摘要 |
-| EX | 001—003已用，下一004；案例身份不等于发行实体或FX |
+| EX | 001—004已用，下一005；案例身份不等于发行实体或FX |
 | TL／验收 | TL-01—19、21—45共44个现行身份，20退役；TL-V01—110去除02／20，加INS-V01—09共117项既有预期，另有CORE合同情境；旧预期按适用域保留，CORE-065另列 |
 | FX／SYS | FX-001—137沿effects登记；SYS-001—007保留原规格域身份，不按六系统重新分号 |
 | DIR／AS／DM | DIR按[探索入口](../exploration/README.md)分配，001—036退役；资产和Demo沿[统一目录](../../docs/registry/demo-assets.md)，这里不重复维护计数 |
@@ -60,6 +60,7 @@ CORE-037—047共同依据：[时间产线采纳D](../sources/draft-changes/D-20
 | <a id="g002-core-063"></a>CORE-063 | 旧首场以真实3D物件操作；physical-table.2允许绑定只读文本和公开投影动作。停点沿064，新2D宿主仍待定。 | [D](../sources/draft-changes/D-2026-10-14-demoncards-presentation.md) |
 | <a id="g002-core-064"></a>CORE-064 | 所有暂停完成当前拍及动画后停，单步同样停拍末；终局不补步骤，异常载入不自动补跑。 | [D](../sources/draft-changes/D-2026-10-23-beat-end-pause.md) |
 | <a id="g002-core-065"></a>CORE-065 | 固定5生产拍／5位回合、3张跨轮手牌、每轮3点整理；取消成品容量预留，敌牌即时／延时后续分流，后续覆盖下轮左位；结算逐列且不推进生产，第10回合末起每轮双方5×n疲劳。替代037、050—054、057、060—064相关首场接口；D、承诺、支付与锁定保留。实现与玩法验证NotRun。 | [D](../sources/draft-changes/D-2026-10-23-round-hand-settlement.md) |
+| <a id="g002-core-066"></a>CORE-066 | 按用户授权自行选定EX-004完整首场：自然溢出的起始套组、三回合五位敌表、完整初态及胜败／恢复预期；以展示机制为先。CORE-065机制不变，旧EX输入不改，GDD 2.9／GDD-0；执行与体验NotRun。 | [D](../sources/draft-changes/D-2026-10-23-round-first-battle.md) |
 
 ## 文档与开发决定
 
