@@ -1,6 +1,6 @@
 # GDD草案
 
-> TL-1版本说明（2026-10-01）：本目录的既有日期型记录保留原资格、原采纳与原证据范围，其中历史“当前”不覆盖新版。TL-1仅使用[素材审查](../../design/source-review.md)明示部分；[逐文件清单](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/reading-log.md)登记保留或替代，不把旧来源全文重写成新规则。
+> 2026-10-23范围说明：日期型记录及下方索引摘要保留当时资格和判断，其中“当前／未定／未采纳”不覆盖后续决定。当前CORE-065的[完整来源链](../README.md#当前回合改制来源链core-065)及[素材审查](../../design/source-review.md)说明现行适用范围，不改写旧来源正文，也不提升其他候选资格。
 
 Project ID：game-002。文档角色：Navigation。当前无新增草案。
 

@@ -1,6 +1,6 @@
 # 设计来源链
 
-> TL-1 + INS-1版本说明（2026-10-04）：本目录的既有日期型记录保留原资格、原采纳与原证据范围，其中历史“当前”不覆盖新版。TL-1仅使用[素材审查](../design/source-review.md)明示部分；[逐文件清单](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/reading-log.md)登记保留或替代，不把旧来源全文重写成新规则。
+> 现行范围说明（2026-10-23）：CORE-065已采纳回合、手牌与付费整理。既有日期型记录保留原资格、原采纳及证据范围；下文旧来源链中的“当前／本轮”只指原日期。现行适用关系以[素材审查](../design/source-review.md)及权威规则为准，不把旧来源全文改写为新版，也不因新条款采纳而整体晋级早期Raw候选。
 
 Project ID：game-002。文档角色：SourceCollection / Navigation。这里保存设计依据与决定摘要，现行规则统一在[design/](../design/README.md)。新增记录按[轻量规范](../../docs/design-workflow.md#言咒轻量记录)：不保存逐字原话，共用固定版本，在使用处准确引用。
 
@@ -16,17 +16,21 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 [决策记录](../governance/decision-log.md)说明何时采纳了哪些范围。文件名和原设计ID保持，旧素材使用记录的链接已定位新路径；原提交和历史哈希仍按原路径解释。
 
 
+## 当前回合改制来源链（CORE-065）
+
+[意图与确认摘要](inbox/2026-10-23-round-hand-settlement.md) → [Qualified M](materials/M-2026-10-23-round-hand-settlement.md) → [P](proposals/P-2026-10-23-round-hand-settlement.md)／[E](evaluations/E-2026-10-23-round-hand-settlement.md) → [Accepted D](draft-changes/D-2026-10-23-round-hand-settlement.md)。正式采纳范围包括付费调序、桌手互换与手牌提前入行；原全敌牌正延迟和连续拍队列等仅按明确替代关系保留历史。实现、运行及体验验证仍NotRun，不能从采纳推出通过。
+
 ## 已完成过程记录
 
 首批内容候选入口：[简易法术流设计登记（2026-10-11）](inbox/2026-10-11-simple-spell-first-batch-registration.md)。原件保持原始记录；后续明确范围已晋级，并按CORE-059进入首批案例，剩余未完成内容保留原资格。
 
 六组已采纳设计的18份P/E/D已归档到[完成记录](../history/accepted-design-records/README.md)。原始输入、合格素材与仍有局部未决内容的过程文档留原处；归档不扩大采纳或验证范围。旧文档管理拟修改按固定Git取证。新增任务按需要创建正式文件，不预建空树。
 
-## TL-1 本轮来源链
+## TL-1原轮来源链（2026-10-01）
 
 [DIR-028核心M](materials/M-2026-10-01-timeline-production-core.md)／[退役卡表固定记录](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/M-2026-10-01-resource-card-pool.md)／[P](proposals/P-2026-10-01-timeline-production-system.md)／[E](evaluations/E-2026-10-01-timeline-production-system.md)／[采纳D](draft-changes/D-2026-10-01-timeline-production-core.md)。2026-10-04已采纳M/P/E迁入本来源体系，原方向答复和审查按固定Git取证；卡表不列当前候选。
 
-第9轮[兼容复用表](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)限定21份原Qualified来源的当前使用部分，既有P/E追加本轮论证；[D兼容复用](draft-changes/D-2026-10-01-compatible-rules-reuse.md)记录CORE-048。原文与历史资格保留，现行复用以TL-26–37及CORE-049的局部替代为准。
+第9轮[兼容复用表](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-028-timeline-depth/compatible-rules-reuse.md)限定21份原Qualified来源的当轮使用部分，既有P/E追加当轮论证；[D兼容复用](draft-changes/D-2026-10-01-compatible-rules-reuse.md)记录CORE-048。原文与历史资格保留，后续CORE-049至065的限定替代见现行素材审查，不从旧表恢复已退役接口。
 
 ## INS-1来源链（CORE-049）
 
@@ -34,9 +38,9 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 
 ## routing.1来源链（CORE-050）
 
-[原话／调时答复](inbox/2026-10-04-routing-response-clarification.md) → [局部Qualified M](materials/M-2026-10-04-routing-response-clarification.md) → [E](evaluations/E-2026-10-04-routing-response-clarification.md) → [采纳D](draft-changes/D-2026-10-04-routing-response-clarification.md)。仅全敌牌正延迟、未来供料调度及供料调时范围进入当前规则；付费调牌序保持inbox Raw候选。
+[原话／调时答复](inbox/2026-10-04-routing-response-clarification.md) → [局部Qualified M](materials/M-2026-10-04-routing-response-clarification.md) → [E](evaluations/E-2026-10-04-routing-response-clarification.md) → [采纳D](draft-changes/D-2026-10-04-routing-response-clarification.md)。当轮采纳全敌牌正延迟、未来供料调度及供料调时，付费调牌序当时未采纳。CORE-065现已替代全敌牌正延迟，并通过新的合格来源采纳限定付费整理；旧inbox自身仍保留原资格。
 
-## 当前重建框架与后续采纳增量（2026-10-08）
+## 2026-10-08重建框架与当时采纳增量
 
 - 既有规则增量：[CORE-051单一处理](draft-changes/D-2026-10-05-single-processing-time.md)、[CORE-052生产队列接口](draft-changes/D-2026-10-05-production-queue-interfaces.md)、[CORE-053共同拍序](draft-changes/D-2026-10-05-stage-one-common-timing.md)、[CORE-054敌情合同](draft-changes/D-2026-10-05-stage-two-enemy-pressure.md)。原轮次Unknown按后续明确替代范围解释。
 - 新增局部Qualified框架：[辅槽](materials/M-2026-10-08-augment-framework.md)、[行动／标记](materials/M-2026-10-08-action-card-framework.md)。已确认结构可引用，未自动完成全系统采纳或内容发行。
@@ -67,4 +71,4 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 
 ## 第07轮桌面3D主交互（2026-10-12）
 
-[用户纠偏与具体流程](inbox/2026-10-12-development-design-round-07.md)保留原Raw及答复过程；R8／R9已明确，并经[M／E／D](draft-changes/D-2026-10-12-development-design-round-07.md)限定采纳为CORE-063，不再待答。10月14日[physical-table.2](draft-changes/D-2026-10-14-demoncards-presentation.md)追加必要文本与公开投影动作衔接；实现与接受范围另看开发证据。当前2D方向待设计事项见[questions](../governance/questions.md)，不从本轮历史暂停倒推现状。
+[用户纠偏与具体流程](inbox/2026-10-12-development-design-round-07.md)保留原Raw及答复过程；R8／R9已明确，并经[M／E／D](draft-changes/D-2026-10-12-development-design-round-07.md)限定采纳为CORE-063。10月14日[physical-table.2](draft-changes/D-2026-10-14-demoncards-presentation.md)追加必要文本与公开投影动作衔接。CORE-065已将该表现合同限定为旧3D演示，不作为新2D默认宿主；实现与接受范围另看开发证据。当前2D待设计事项见[questions](../governance/questions.md)，不从历史暂停倒推现状。

@@ -1,8 +1,8 @@
 # 当前效果的就绪状态
 
-Project ID：game-002。文档角色：ReadinessReview。2026-10-04 / TL-1 + INS-1。结论：结构局部Accepted，发行内容与冻结输入未齐；GDD-0 / Hypothesis / NotRun。
+Project ID：game-002。文档角色：ReadinessReview。2026-10-23 / CORE-065适配。结论：规则限定Accepted，发行内容与完整首场输入未齐；GDD-0，体验Hypothesis，新回合实现及执行NotRun。
 
-[效果登记](catalog.md)只能确认身份与当前适用范围。实际行动、制造资源来源、法器兼容、总时序、维护、携带及疲劳尚不足以唯一求值，不能沿用旧RC1的26组Closed或旧模拟结果放行新版。
+[效果登记](catalog.md)只能确认身份与当前适用范围。CORE-065的生产／逐列结算时序及第10轮起疲劳已明确，不再列为未决；仍缺新首场真实敌表和完整初态，资源来源、维护等未迁移扩展不自动进入首场。2D展示合同另待明确。不能沿用旧RC1的26组Closed、旧模拟或EX-002胜败时点放行新版。
 
 未决项唯一维护在[当前问题](../governance/questions.md)，交互风险与反例见[体验风险与最小验证](../governance/questions.md#体验风险与最小验证tl-q10)。就绪后需冻结限定内容和参数、登记[验收输入](../design/validation.md)并有独立实验任务授权；本次没有启动原型、模拟或真人测试。
 
