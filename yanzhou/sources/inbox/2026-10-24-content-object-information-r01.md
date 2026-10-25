@@ -8,6 +8,8 @@
 
 2026-10-25用户明确**分类按法术体系划分，例如炼金**；本稿据此同步字段称呼。法器、铭文、行动、资源、标记仍称对象种类；炼金三原质的性质划分及稀有度主轴见[世界观与属性体系R01第6—7节](2026-10-24-content-world-systems-r01.md)。具体属性标签与读取规则继续设计。
 
+同日用户进一步明确：分类、属性主要帮助理解配方与生产，与行动卡用途关系不大。首批属性信息因此优先解释材料功能、配方资格与生产差异；行动仍说明自身类别、目标和效果，不根据攻防用途推定盐／汞／硫。[炼金生产样本](2026-10-25-alchemy-production-samples-r01.md)给出具体候选，不自动把全部字段加到每张行动卡。
+
 ## 1. 意图、来源与范围
 
 承接[六模块工作框架](2026-10-24-content-design-framework.md)的模块2与[效果语言R01](2026-10-24-content-design-language-r01.md)。用户确认继续物件信息设计，并要求先由 **gpt-6.1-sol 子agent**调研其他游戏、尤其肉鸽，再推进。已完成[四游戏调研](../../../media-analysis-lab/runs/2026-10-24-roguelike-object-information/README.md)，覆盖 Slay the Spire 第一作、Monster Train 第一作、Balatro、Backpack Battles；独立研究先完成，本草案随后形成。
