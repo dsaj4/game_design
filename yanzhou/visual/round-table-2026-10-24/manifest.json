@@ -1,24 +1,34 @@
 {
   "id": "DM-G002-017",
-  "version": "ROUND-TABLE-HTML-03",
+  "version": "ROUND-TABLE-HTML-04",
   "date": "2026-10-24",
   "project": "game-002",
-  "status": "Trial visual assembly; user review pending",
+  "status": "Static opponent composition; user visual review pending",
   "rules_input_commit": "1219d537273a013b89f4125cb69b43bdf1242fa7",
   "ui_text_input_commit": "e4ce92762a862b6acebbea3b9198d9bb76a9d0d9",
-  "previous_version": "ROUND-TABLE-HTML-02",
-  "previous_commit": "1ca8c2647439741d8993880183102459ae730984",
-  "comparison_entry": "dist/structure.html",
+  "previous_version": "ROUND-TABLE-HTML-03",
+  "previous_commit": "fb7073a77de667f91255f34393bda39be7cd7dae",
+  "comparison_entry": "dist/burgundy.html",
   "files": [
     {
       "path": "dist/index.html",
-      "bytes": 52288,
-      "sha256": "248d89213ac4b4db40b9ef2637b0b6df58927e54cd0087d4aadeeca903c9f21d"
+      "bytes": 52857,
+      "sha256": "ac612cb6067095d33b4a4b7a814b181cba09376647d3aa5babc4a7ff466237ec"
     },
     {
       "path": "dist/burgundy.css",
       "bytes": 8440,
       "sha256": "659f9d6059fef61873d4ec3295a080010b69398bf28335a885194237cee6a443"
+    },
+    {
+      "path": "dist/opponent.css",
+      "bytes": 2149,
+      "sha256": "7a13b334dd1f667ed32400ef05d131fea36394081834a2d6a357d060f60eb42b"
+    },
+    {
+      "path": "dist/burgundy.html",
+      "bytes": 52288,
+      "sha256": "248d89213ac4b4db40b9ef2637b0b6df58927e54cd0087d4aadeeca903c9f21d"
     },
     {
       "path": "dist/structure.html",
@@ -27,23 +37,23 @@
     },
     {
       "path": "README.md",
-      "bytes": 6959,
-      "sha256": "244e48d2e9a0e9fade75f9044012b42819cdb4a65f311a42b7a686d2bcf34df4"
+      "bytes": 9364,
+      "sha256": "09d3179bf4573f5401c6bc5f920a25fd30251837430019e043ad3dd65920fe24"
     },
     {
-      "path": "preview/table-burgundy-1280.png",
-      "bytes": 148299,
-      "sha256": "54d9feadfe2bbb399e4816b2dfdc55b0279239c122150fa9fc64e4e3b951c53a"
+      "path": "preview/table-opponent-1280.png",
+      "bytes": 149136,
+      "sha256": "7f23385d762b4426ad07db1bc299ef2b71b82441d5d18959b62c53707c30dfa9"
     },
     {
-      "path": "preview/card-detail-burgundy-1280.png",
-      "bytes": 57480,
-      "sha256": "3e9a4c77d142dd0182b93f630da06808dfa7dca40509816236a3e0b5277bbcac"
+      "path": "preview/opponent-detail-1280.png",
+      "bytes": 41779,
+      "sha256": "8cb73ae7e4e2d3de111c1dc38b5969b8438c3ac50d1d18c5c6b69091d50ad728"
     },
     {
-      "path": "preview/artifact-detail-burgundy-1280.png",
-      "bytes": 41079,
-      "sha256": "eba8fe7b97da07abf1301debdeadee0c9c22520dcc53881906a47aa4a7a690e6"
+      "path": "preview/opponent-ended-1280.png",
+      "bytes": 139638,
+      "sha256": "17b73489970dd779eb10fd01eebde02df6be701795c4cb0251b9c1c2332092d9"
     }
   ],
   "asset_dependencies": {
@@ -61,6 +71,11 @@
         "path": "../burgundy-objects-2026-10-24/manifest-integration-v01.json",
         "bytes": 1280,
         "sha256": "2e4af36322ff276417275077bd9e94b1886792b2151002763aeaf637e3754f81"
+      },
+      {
+        "path": "../burgundy-objects-2026-10-24/manifest-opponent-v01.json",
+        "bytes": 1334,
+        "sha256": "5275b38f4887af1c761045df4125e27b9d112c37b92f372a33475ce41a642479"
       }
     ],
     "files": [
@@ -113,9 +128,15 @@
         "path": "../burgundy-objects-2026-10-24/images/11-card-frame-v01.png",
         "bytes": 2532417,
         "sha256": "ddc091df8cc0a5fa973cf8a094fe867e10cd0538e4f2157f6d1dc4f2c29ec7a0"
+      },
+      {
+        "path": "../burgundy-objects-2026-10-24/images/12-opponent-hand-v01.png",
+        "bytes": 1298558,
+        "sha256": "94f036ea11558e394f06e3169c24d3adcc18a930bca0d3b9c7f15f4802acaa1b"
       }
     ],
-    "lightImage": "10-light-v01.png is style reference only; HTML/CSS display current progress"
+    "lightImage": "10-light-v01.png is style reference only; HTML/CSS display current progress",
+    "opponentVersion": "BURGUNDY-OPPONENT-01"
   },
   "verification": {
     "date": "2026-10-24",
@@ -128,23 +149,27 @@
       1280,
       720
     ],
-    "scope": "Local visual and interaction verification; fixed EX-004 snapshots; no gameplay test",
+    "scope": "Static composition, contact, occlusion and retained card interaction; no gameplay testing",
     "passed": [
-      "card and artifact dialogs",
-      "dark card information boundary",
-      "Escape and focus return",
-      "future use separate from current batch",
-      "table-hand swap and 2-to-1 arrangement points",
-      "decor visibility toggle",
-      "ready state and zero chips",
-      "five settlement column snapshots and public follow-up",
-      "syntax, unique static IDs, unchanged fixtures/behavior functions, asset hashes",
-      "no captured browser error or warn"
+      "hand image loaded with transparency",
+      "13 card faces retained and full page visible",
+      "fifth enemy card opens dark-card detail; no secret fields revealed",
+      "Escape closes and restores focus to fifth enemy card",
+      "hand toggle independent from table props",
+      "ended fixture long card name and public follow-up remain visible",
+      "no captured browser error or warn",
+      "syntax, unique static IDs and unchanged existing script",
+      "HTML-03 byte-preserved as burgundy.html",
+      "original and supplementary asset manifests remain valid"
     ],
     "notRerun": [
-      "1920x1080",
-      "1366x768",
-      "390x844"
+      "other viewport sizes",
+      "arrangement flow",
+      "five-column settlement flow",
+      "full game",
+      "animation"
     ]
-  }
+  },
+  "composition_input_commit": "5230de0f55b18d851f6132e71654ec0785f8c9a3",
+  "structure_entry": "dist/structure.html"
 }

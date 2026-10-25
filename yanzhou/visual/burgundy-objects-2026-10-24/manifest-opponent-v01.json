@@ -1,0 +1,49 @@
+{
+  "assetId": "AS-G002-031",
+  "version": "BURGUNDY-OPPONENT-01",
+  "date": "2026-10-24",
+  "project": "game-002",
+  "direction": "main",
+  "status": "Raw / Unqualified; static composition authorized; final visual acceptance pending",
+  "inputCommit": "5230de0f55b18d851f6132e71654ec0785f8c9a3",
+  "source": "../../sources/inbox/2026-10-24-opponent-hand-presence.md",
+  "usedBy": {
+    "id": "DM-G002-017",
+    "version": "ROUND-TABLE-HTML-04"
+  },
+  "generation": {
+    "tool": "built-in image_gen",
+    "mode": "generate",
+    "count": 1,
+    "thirdPartyImagePixelsSupplied": false,
+    "pixelPostProcessing": false,
+    "prompts": "prompts-opponent-v01.json"
+  },
+  "image": {
+    "path": "images/12-opponent-hand-v01.png",
+    "width": 1131,
+    "height": 1391,
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ]
+  },
+  "files": [
+    {
+      "path": "images/12-opponent-hand-v01.png",
+      "bytes": 1298558,
+      "sha256": "94f036ea11558e394f06e3169c24d3adcc18a930bca0d3b9c7f15f4802acaa1b"
+    },
+    {
+      "path": "opponent-v01.md",
+      "bytes": 2635,
+      "sha256": "0e3275e13c2d96f8b0de109f3c54427ae668b37e4ed5136396a4b9532d61b906"
+    },
+    {
+      "path": "prompts-opponent-v01.json",
+      "bytes": 2670,
+      "sha256": "1a327b951d9982cd436983efe1a4bb02c8457dea96a5d34bc35b2f6db2b94a4b"
+    }
+  ]
+}

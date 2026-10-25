@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="言咒 EX-004 暗酒红二维牌桌图像装配试稿，HTML-03。">
+<meta name="description" content="言咒 EX-004 暗酒红二维牌桌与对手手部静态构图，HTML-04。">
 <title>言咒 · 炼金学徒的试炼</title>
 <style>
 :root{--ink:#e8dfc5;--muted:#a49d83;--gold:#c6a365;--line:#a98b4e55;--card-h:clamp(128px,15.2vh,164px);--card-w:calc(var(--card-h)*.6923);color-scheme:dark;font-family:"Microsoft YaHei","PingFang SC",sans-serif}
@@ -27,6 +27,7 @@ dialog{border:1px solid #b99b5c;border-radius:6px;background:radial-gradient(ell
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
 <link rel="stylesheet" href="burgundy.css">
+<link rel="stylesheet" href="opponent.css">
 </head>
 <body>
 <svg width="0" height="0" aria-hidden="true" style="position:absolute"><defs>
@@ -42,9 +43,9 @@ dialog{border:1px solid #b99b5c;border-radius:6px;background:radial-gradient(ell
 <symbol id="spell-artifact" viewBox="0 0 150 120"><ellipse cx="75" cy="62" rx="38" ry="42" fill="none" stroke="#b29760" stroke-width="5"/><ellipse cx="75" cy="62" rx="28" ry="32" fill="none" stroke="#c6ad70"/><path d="M75 7 93 51 75 109 57 51Z" fill="#869b86" stroke="#dfcd99" stroke-width="2"/><path d="M75 7V109M57 51H93M75 7 67 51 75 109 84 51Z" fill="none" stroke="#d4dcc0"/><path d="M33 62H48M102 62H117M75 2V15M75 108V119" stroke="#cab27b" stroke-width="3"/><circle cx="33" cy="62" r="4" fill="#bda06b"/><circle cx="117" cy="62" r="4" fill="#bda06b"/></symbol>
 </defs></svg>
 <div class="app"><div class="table-props" aria-hidden="true" id="table-props"></div>
-<header class="topbar"><div class="brand">言咒</div><div class="round-read"><small>回合</small><span id="round">02</span></div><div class="phase-block"><i class="phase-dot"></i><span id="phase">最终整理</span></div><div class="beat-read" id="beat"></div><div class="fatigue-read" id="fatigue"></div><details class="preview-tools"><summary aria-label="示意设置" title="示意设置">⋯</summary><div class="preview-popover"><label for="scene">示意状态</label><select id="scene" aria-label="示意状态"><option value="arrange">第二轮 · 最终整理</option><option value="ready">开场 · 就绪</option><option value="production">第二轮 · 生产暂停</option><option value="ended">第二轮 · 结算完成</option><option value="fatigue">第十轮 · 疲劳待处理</option></select><p>固定状态演示，切换将重置当前操作。</p><button class="control" id="reset" type="button">重置示意</button><label class="skin-option"><input id="decor-toggle" type="checkbox" checked>桌面陈设</label><div class="preview-links"><a href="structure.html">结构版对照 ↗</a><a href="../../burgundy-objects-2026-10-24/dist/index.html">对象审阅 ↗</a></div></div></details></header>
+<header class="topbar"><div class="brand">言咒</div><div class="round-read"><small>回合</small><span id="round">02</span></div><div class="phase-block"><i class="phase-dot"></i><span id="phase">最终整理</span></div><div class="beat-read" id="beat"></div><div class="fatigue-read" id="fatigue"></div><details class="preview-tools"><summary aria-label="示意设置" title="示意设置">⋯</summary><div class="preview-popover"><label for="scene">示意状态</label><select id="scene" aria-label="示意状态"><option value="arrange">第二轮 · 最终整理</option><option value="ready">开场 · 就绪</option><option value="production">第二轮 · 生产暂停</option><option value="ended">第二轮 · 结算完成</option><option value="fatigue">第十轮 · 疲劳待处理</option></select><p>固定状态演示，切换将重置当前操作。</p><button class="control" id="reset" type="button">重置示意</button><label class="skin-option"><input id="decor-toggle" type="checkbox" checked>桌面陈设</label><label class="skin-option"><input id="opponent-toggle" type="checkbox" checked>对手手部</label><div class="preview-links"><a href="burgundy.html">上一版对照 ↗</a></div><div class="preview-links"><a href="structure.html">结构版对照 ↗</a><a href="../../burgundy-objects-2026-10-24/dist/index.html">对象审阅 ↗</a></div></div></details></header>
 <main class="table">
-<section class="battle" aria-label="本轮战斗行"><div class="lane"><div class="lane-label"><span class="seal enemy-seal" title="敌方 · 炼金学徒" aria-label="敌方 · 炼金学徒">敌</span></div><div class="cards" id="enemy-cards" aria-label="敌方五位行"></div><aside class="side-note" id="enemy-note" aria-label="已生成的公开后续"></aside></div><div class="lane"><div class="lane-label"><span class="seal" aria-label="玩家战斗行">我</span></div><div class="cards" id="player-cards" aria-label="玩家五位行"></div></div></section>
+<section class="battle" aria-label="本轮战斗行"><div class="lane opponent-lane"><div class="opponent-presence" aria-hidden="true"><img class="opponent-hand" src="../../burgundy-objects-2026-10-24/images/12-opponent-hand-v01.png" alt="" draggable="false"></div><div class="lane-label"><span class="seal enemy-seal" title="敌方 · 炼金学徒" aria-label="敌方 · 炼金学徒">敌</span></div><div class="cards" id="enemy-cards" aria-label="敌方五位行"></div><aside class="side-note" id="enemy-note" aria-label="已生成的公开后续"></aside></div><div class="lane"><div class="lane-label"><span class="seal" aria-label="玩家战斗行">我</span></div><div class="cards" id="player-cards" aria-label="玩家五位行"></div></div></section>
 <section class="middle" aria-label="资源与计数物"><div class="resources" aria-label="资源区，当前没有资源卡" title="资源区 · 0 张"><div class="resource-space"><div class="resource-ghosts" aria-hidden="true"><i></i><i></i><i></i></div><div class="resource-count">0<small>资源</small></div></div></div><div class="counter-zone" aria-label="敌上我下的筹码区"><div class="counter-line"><span class="counter-owner">敌</span><div id="enemy-counters"></div></div><div class="counter-line"><span class="counter-owner">我</span><div id="player-counters"></div></div></div></section>
 <section class="lower" aria-label="法器与跨轮手牌"><div class="artifact-zone" aria-label="法器区，两台法器，两处预留"><div class="artifact-grid" id="artifacts"></div></div><div class="hand-zone"><div class="hand-heading"><span class="hand-cap" id="hand-capacity" aria-label="手牌容量">3 / 3</span><div class="ap" aria-label="剩余整理点"><span class="ap-label">整理</span><span class="ap-value" id="ap">2</span><span class="ap-dots" id="ap-dots" aria-hidden="true"></span></div></div><div class="hand-cards" id="hand-cards" aria-label="跨轮手牌"></div></div></section>
 </main>
@@ -139,6 +140,7 @@ $('primary').addEventListener('click',()=>{switch(state.mode){case'arrange':requ
 window.addEventListener('blur',()=>{if(playing){stop();render();}});document.addEventListener('visibilitychange',()=>{if(document.hidden&&playing){stop();render();}});
 $('table-props').innerHTML=imageArt('07-lamp-v01.png','190 115 1160 800',1536,1024,'prop-lamp')+imageArt('08-vial-v02.png','50 50 980 1300',1086,1448,'prop-vial')+imageArt('09-notes-v01.png','275 50 1010 930',1536,1024,'prop-notes');
 $('decor-toggle').addEventListener('change',event=>document.querySelector('.app').classList.toggle('hide-props',!event.target.checked));
+$('opponent-toggle').addEventListener('change',event=>document.querySelector('.app').classList.toggle('hide-opponent',!event.target.checked));
 load('arrange');
 </script>
 </body></html>

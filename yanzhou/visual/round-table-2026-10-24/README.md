@@ -1,10 +1,28 @@
-# EX-004 暗酒红主牌桌 HTML-03
+# EX-004 对手手部静态构图 HTML-04
 
-2026-10-24 · game-002 / main · **DM-G002-017 / ROUND-TABLE-HTML-03**。图像装配审阅稿，整体展示设计仍为 Raw / Unqualified；本次用户认可单对象图片的方向并授权尝试装入 HTML，尚未确认整体美术定稿。任务范围沿[首场任务包](../../development/task-packs/first-battle.md)。
+2026-10-24 · game-002 / main · **DM-G002-017 / ROUND-TABLE-HTML-04**。用户已授权推进对手手部静态构图，整体展示设计仍为 Raw / Unqualified；本版用于审阅比例、接触和遮挡，尚未确认整体美术定稿。任务范围沿[首场任务包](../../development/task-packs/first-battle.md)。
 
-**[打开主牌桌](dist/index.html)** · [本版效果图](preview/table-burgundy-1280.png) · [卡牌详情](preview/card-detail-burgundy-1280.png) · [法器详情](preview/artifact-detail-burgundy-1280.png)
+**[打开主牌桌](dist/index.html)** · [静态构图效果图](preview/table-opponent-1280.png) · [手边卡牌详情](preview/opponent-detail-1280.png) · [结算完成构图](preview/opponent-ended-1280.png) · [HTML-03对照](dist/burgundy.html)
 
-## 本轮装配
+## 本轮静态构图
+
+依据[对桌人物文字构思](../../sources/inbox/2026-10-24-opponent-hand-presence.md)及用户本轮制作授权，使用输入版本`5230de0f55b18d851f6132e71654ec0785f8c9a3`，新增一只手从上缘偏右斜伸入。画面停在放好第五张牌、指尖准备收回的瞬间，露出袖口和戒指；原蜡封瓶移到对手手边。
+
+上排卡牌尺寸与五列对应保留，增加轻微摆放角度；紧凑窗口调整纵向间距给远侧手部留位置。手是独立透明图层，投影由CSS表现，不拦截卡牌点击。公开后续提示移到上排行侧下方，避开手部。暂未加入可选皮革压边、第二只手、额外牌堆或动作。
+
+右上“⋯”新增“对手手部”开关，以及上一版对照；桌面陈设开关保持独立。`dist/burgundy.html`为HTML-03原文件副本，`dist/structure.html`继续保留HTML-02。
+
+本轮新增[AS-G002-031@BURGUNDY-OPPONENT-01](../burgundy-objects-2026-10-24/opponent-v01.md)，含一张透明手部PNG和实际提示词。其余对象原件与两份既有资产manifest保持不变。下述HTML-03制作说明与检查保留为历史，不能当成本轮重跑结果。
+
+### HTML-04实际核对
+
+2026-10-24，在默认1280×720 Codex内置浏览器经本机HTTP预览核对：页面宽高1280×720，无页面溢出；手、袖口、牌角关系可见，卡牌核心文字与数值未被遮挡。手边第五张暗牌可打开详情，未泄露未公开字段；Esc关闭后回到原卡焦点。详情层覆盖并压暗底桌与手部。
+
+手部开关只隐藏手，原陈设和13张牌保持；切换至结算完成固定场景，四字卡名与公开后续可见。浏览器捕获error／warn为空。静态ID、内联JavaScript语法、原状态数据／行为函数不变、相对依赖与各manifest哈希已核对。该静态姿态在示意场景切换时保持，不表示已实现各阶段人物动作。
+
+本轮未重跑整理、五列结算计算或其他屏幕尺寸；历史HTML-03检查见下文。手部最终风格与比例等待用户审阅，动态放牌／翻牌未制作，未启动玩法实验。
+
+## HTML-03图像装配记录
 
 保留 HTML-02 的组件分区、五位两行、三张展开手牌及操作路径；将已审阅的暗酒红＋古金＋黑褐木对象图接入主页面。桌布与木桌作为底面，卡背与卡框统一纹饰，守护／施法法器和三类筹码使用效果图；铜灯、蜡封瓶与札记置于桌缘。温暖侧光与生产进度由 CSS 表现。
 
@@ -34,7 +52,7 @@
 
 HTML-01固定于 `09a54fb1c0aaeede8f2f7d15f9f50c619b49d86e`。HTML-02完整说明、manifest与历史检查可在 `1ca8c2647439741d8993880183102459ae730984` 查阅；原三张检查图继续保留，不能作为本版新检查证据。
 
-## 本轮实际核对
+## HTML-03历史核对
 
 2026-10-24，通过本机受限 HTTP 预览与 Codex 内置浏览器操作核对，使用当前默认 **1280×720** 窗口；未改浏览器尺寸。本轮截图以实际尺寸命名。
 
@@ -57,12 +75,12 @@ HTML-01固定于 `09a54fb1c0aaeede8f2f7d15f9f50c619b49d86e`。HTML-02完整说�
 | 字段 | 内容 |
 | --- | --- |
 | 归属／维护 | game-002 / main；本README |
-| 版本与访问 | ROUND-TABLE-HTML-03；ReadyForScope（仅本轮本机视觉与交互检查） / PresentLocal；[manifest](manifest.json)记录文件与依赖 |
-| uses | AS-G002-031@BURGUNDY-OBJECTS-01（9张原图）、同AS装配补充版本（1张空白卡框）；AS-G002-030@v01继续仅作风格参照 |
+| 版本与访问 | ROUND-TABLE-HTML-04；ReadyForScope（仅1280×720静态构图与遮挡检查） / PresentLocal；[manifest](manifest.json)记录文件与依赖，前版固定于`fb7073a77de667f91255f34393bda39be7cd7dae` |
+| uses | AS-G002-031@BURGUNDY-OBJECTS-01（9张原图）、同AS装配补充版本（1张空白卡框）、BURGUNDY-OPPONENT-01（1张透明手部）；AS-G002-030@v01继续仅作风格参照 |
 | derived-from | HTML-02页面；空白框派生自AS-G002-031原护盾卡；未复用旧Godot、旧3D模型或DIR-039规则 |
-| 运行依赖 | 现代浏览器、`dist/burgundy.css`及相邻`burgundy-objects-2026-10-24/images/`；无需包安装、构建、服务端数据或网络字体 |
+| 运行依赖 | 现代浏览器、`dist/burgundy.css`、`dist/opponent.css`及相邻`burgundy-objects-2026-10-24/images/`；无需包安装、构建、服务端数据或网络字体 |
 | 复用条件 | 原件就地，运行时由SVG视口选择图像区域；复制时保留两个visual目录的相对关系，不能只复制index.html。仅项目内部审阅，未发布网站 |
 
 独立对象包原manifest所写“no assembly”保留为该固定版本的历史状态；本轮授权与新使用关系由本版及补充manifest记录。本资源登记不替代M资格、GDD采纳或玩法验证。
 
-协作交接：本批仅修改两个visual目录。沿既有所有权，共享统一目录与任务入口由总控合并；应更新DM-G002-017到HTML-03并补充AS-G002-031使用关系，无需新建ID。具体版本、来源与检查已在本地维护记录中给齐。
+协作交接：本批修改两个visual目录及本任务的手部构思inbox记录。沿既有所有权，共享统一目录与任务入口由总控合并；应更新DM-G002-017到HTML-04并补充AS-G002-031空白卡框和手部两个补充版本的使用关系，无需新建ID。具体版本、来源与检查已在本地维护记录中给齐。
