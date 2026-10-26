@@ -1,0 +1,93 @@
+{
+  "id": "DM-G002-017",
+  "version": "COUNTER-LAYOUT-01",
+  "date": "2026-10-25",
+  "project": "game-002",
+  "direction": "main",
+  "status": "ReadyForScope / PresentLocal; visual review pending; Raw / Unqualified",
+  "entry": "dist/workbench-layout.html",
+  "maintenance": "workbench-layout.md",
+  "input_commit": "21e2fa4861aa70e05174b2a4b3dca109d6adace8",
+  "derived_from": {
+    "id": "DM-G002-017",
+    "version": "ROUND-TABLE-HTML-04",
+    "manifest": "manifest.json",
+    "manifest_sha256": "4922e630dda3e836bd5d4862589a853b0d6c08207e4c1138594c87b0f58de638"
+  },
+  "uses": {
+    "id": "AS-G002-031",
+    "versions": [
+      "BURGUNDY-OBJECTS-01",
+      "BURGUNDY-OBJECTS-INTEGRATION-01",
+      "BURGUNDY-OPPONENT-01"
+    ],
+    "fixed_dependencies": "manifest.json#asset_dependencies"
+  },
+  "files": [
+    {
+      "path": "dist/workbench-layout.html",
+      "bytes": 53975,
+      "sha256": "5ee2c233c97c4b75b8ee2f40f5c1a744a9d3125b9717ab100f64b404c2e1dbcc"
+    },
+    {
+      "path": "dist/workbench-layout.css",
+      "bytes": 13783,
+      "sha256": "a5cb98b89bf5d8bfc7fae6186a52530eee6d899cdb444c4f3da9e35354c309ee"
+    },
+    {
+      "path": "dist/workbench-layout.js",
+      "bytes": 5139,
+      "sha256": "e30b7260925c2e10417c54802eda343f6a0aef3ae9b58f8612c34d84dff1d1b8"
+    },
+    {
+      "path": "workbench-layout.md",
+      "bytes": 4268,
+      "sha256": "40133a217d4e67a1d5290f86fd3af545d797d0ca9e061c473b047637d350e653"
+    },
+    {
+      "path": "preview/workbench-layout-825.jpg",
+      "bytes": 83615,
+      "sha256": "48fa585c9c1d33355a757e3685ffa1ec9908f7cc10cdca6d0c3a6843c2756827"
+    },
+    {
+      "path": "preview/workbench-detail.jpg",
+      "bytes": 27270,
+      "sha256": "7de7d9cbbbb9715b558c0cc7af4dc8467c3927876148bbeab5ad3b67b121de65"
+    }
+  ],
+  "verification": {
+    "date": "2026-10-25",
+    "browser": "Codex IAB",
+    "viewport": [
+      825,
+      504
+    ],
+    "full_page_image": [
+      810,
+      680
+    ],
+    "scope": "Layout and retained fixture UI only, no gameplay experiment",
+    "passed": [
+      "inline script byte-identical",
+      "JS parses",
+      "static IDs unique",
+      "local HTML references exist",
+      "all original manifest files and asset dependencies unchanged",
+      "table-hand swap costs one point with no accidental dialog",
+      "hand to first empty slot costs one point",
+      "artifact dialog and Escape focus restoration",
+      "future mode does not change current batch",
+      "ended fixture editing disabled",
+      "layout guide toggle",
+      "no captured browser error/warn"
+    ],
+    "not_tested": [
+      "full battle",
+      "other viewports",
+      "mobile",
+      "all drag cancel and invalid drop boundaries",
+      "live production engine"
+    ]
+  },
+  "registry_handoff": "Supplemental version of existing DM-G002-017; shared index belongs to coordinator; this maintenance entry supplies the handoff."
+}
