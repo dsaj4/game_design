@@ -1,0 +1,482 @@
+{
+  "project": "game-002",
+  "parent": "DM-G002-017@VISUAL-BASELINE-01",
+  "version": "BASELINE-ART-ARCHIVE-01",
+  "date": "2026-10-26",
+  "source_commit": "56a0ef07f13a647a4383a751977f2dce871bd731",
+  "status": "Archived reference art; not a mandatory style",
+  "asset_ids": [
+    "AS-G002-001",
+    "AS-G002-008",
+    "AS-G002-009",
+    "AS-G002-013",
+    "AS-G002-015",
+    "AS-G002-017",
+    "AS-G002-024",
+    "AS-G002-029",
+    "AS-G002-031"
+  ],
+  "scope": "Retained local original images, prompts and provenance; external originals remain in place. Source manifests retain historical paths.",
+  "files": [
+    {
+      "path": "art/battle-ui-2026-10-11/art-v01.md",
+      "bytes": 2771,
+      "sha256": "7a832448f89a7faf91a175b9e0c6fd6f4254e9544026e5643bec61cd23bba91d"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/battle-art-v01-prompt.md",
+      "bytes": 6645,
+      "sha256": "837ca4e088c21ec52a02e1fef01fee926a493287913e5850de45f924f414694e"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/battle-art-v01.png",
+      "bytes": 2697311,
+      "sha256": "3bfb4d31480cb5743b20ef144f93f69c548bc0123b66821bb2d7542748ab75e6"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/01-table-body.png",
+      "bytes": 2191349,
+      "sha256": "53210dde28e5644ea90953c89670c3e1cf8a98c226b0a7d8e2cb3b7e4b1b340d"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/02-table-mat.png",
+      "bytes": 2854950,
+      "sha256": "d68677ebec04ae98b70b9662467f2bdec299325a0137b525b7299322c2280712"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/03-timeline.png",
+      "bytes": 218389,
+      "sha256": "b2e12e4bd9f30b2140b687a5a19fa0aeab9d9d01e030331748bb3657b82fce44"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/04-empty-slot.png",
+      "bytes": 1216934,
+      "sha256": "cf2dd7372d99764c9732f77d77bdf74d396f8f1107023474e1fa32c721827ace"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/05-title-plaque.png",
+      "bytes": 1643410,
+      "sha256": "c552d43d028073683209582c71f6386115f484f4aa9dac2f5b322667ac2c9b82"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/06-resource-drawer.png",
+      "bytes": 2629817,
+      "sha256": "889089f4fe5bdbc7dfaa5da2d91750aee2ce0d9aec12ca1d667133876dd1991e"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/07-enemy-pawn.png",
+      "bytes": 2032880,
+      "sha256": "3add9961543a9bb79d7786fe97404ac83e93fffc8e6f59ef6ad004e8d8819161"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/08-player-pawn.png",
+      "bytes": 1390132,
+      "sha256": "33dee1c288f6738034ebb5437db9223873680f41f2a8249874ebf1c7566dabaa"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/09-enemy-chips.png",
+      "bytes": 1961308,
+      "sha256": "0e35d6639b7b8ad15402ef2d7947fb5ba66e2842ac9b49ddfeab8ffbf2075854"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/10-player-chips.png",
+      "bytes": 1829135,
+      "sha256": "25f7bdaa11700f04a54fdf5eecc6b23418b8fe04e675615c8aad70e52f91820a"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/11-card-back.png",
+      "bytes": 3070339,
+      "sha256": "2e493f91588674cdd4d535affba1fd2c6af60b491d14bf0703e1a68fd8562714"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/12-card-fire.png",
+      "bytes": 2997788,
+      "sha256": "bfa152189b342d25e9758ef1d2fd7a83ca370d1cbbc8833789214d48fbc287c8"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/13-card-shield.png",
+      "bytes": 3097593,
+      "sha256": "8b55f1d852885276d1fc9d56d9996e96036bcaa3c87feae96a906c9b8b73d2c1"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/14-card-wave.png",
+      "bytes": 2864251,
+      "sha256": "f875aabb5eb33a035a8b6cfdc1fcfd11b28344e0f3ce3bc494290c458b072f14"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/15-crystal-wand.png",
+      "bytes": 659023,
+      "sha256": "b919bfeeb00f26894d62596e5de0efc4992d5bd8dabc71a1de3de19ca250c5a3"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/16-ring-scepter.png",
+      "bytes": 1539698,
+      "sha256": "854f9215f527af8c93186385092bed50c185201ae2edf4f718484cca5e649a99"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/17-spellbook.png",
+      "bytes": 2167967,
+      "sha256": "705bd98c40ed5ecced9173027d769296574937dc6128cfbcbb9ddd69710f8fb3"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/18-crystal-orb.png",
+      "bytes": 1835088,
+      "sha256": "75d6e12e504c2104a25a98048a47c26b3cd61f03e3437da63833fb722d6710e4"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/19-study-background.png",
+      "bytes": 2413675,
+      "sha256": "02de555ac63dcdc882798d38c402b8a3148dbc7d2a038b0c070e4c1b09bc42b7"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/generation-records.json",
+      "bytes": 35621,
+      "sha256": "3747ce2a8251e998566e4f8aa3687d0776c3ca00e11e0dfcfbe7d3d391c8e409"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/manifest.json",
+      "bytes": 7532,
+      "sha256": "17ded72d91bb21ebb2d397dafb6861e1e5eac8061b5f814efa4b65e893c656dc"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/components-v01/README.md",
+      "bytes": 4476,
+      "sha256": "a2ab1f4f5a5d5e305d5b3fd7b56dd06bcb8865f8052232a0928e9b6bcd05ab48"
+    },
+    {
+      "path": "art/battle-ui-2026-10-11/manifest-art-v01.json",
+      "bytes": 697,
+      "sha256": "7a33cf07e100910425ec64b88f2257d7c063775e6865bc2fed0f87edb443718d"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/images/01-table-v01.png",
+      "bytes": 3390412,
+      "sha256": "8aba2fc53cdcf4a3ab33e04c8391295767a96bb467d055c5afce80f09a75e217"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/images/02-card-front-v01.png",
+      "bytes": 2543081,
+      "sha256": "b6b62648a9e5835a805e8488767d55ce8ce253a8949a73d2ab54e6505f7bc343"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/images/03-card-back-v01.png",
+      "bytes": 2174963,
+      "sha256": "e36dfbcdc4e264a07358b4279c6879b7e2a7edd6cf2d237f654a0456b7315d14"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/images/04-guardian-v01.png",
+      "bytes": 1636910,
+      "sha256": "64fb90ec3a0db39d598cfb378ef9a06a8a1ec33ad72f4bb627aa59818e57a3e1"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/images/05-caster-v01.png",
+      "bytes": 1734631,
+      "sha256": "ce3889e00df0badcd7b716d1bc7acd42edd2d386c7fa69c5a1d43bf27892f8bd"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/images/06-chips-v01.png",
+      "bytes": 2001818,
+      "sha256": "6236c6a927980c5a09b00f2579cafbdc614e8fda13d9dff04aa9f45eb1aecd53"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/images/07-lamp-v01.png",
+      "bytes": 1746525,
+      "sha256": "502bb137acce2e38a552ba2762142890b9d8dc004c78be60b45283f648d9b9c2"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/images/08-vial-v02.png",
+      "bytes": 2104741,
+      "sha256": "087a693f11b9eb814d356527bb449ed692d2b8803a382afc53b54bd0d8cfbd84"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/images/09-notes-v01.png",
+      "bytes": 2093160,
+      "sha256": "164fe3ec8659006f9156764049a7bb064c5c9f2aff8d60cd4e72f9bd7bca2a4a"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/images/10-light-v01.png",
+      "bytes": 2722507,
+      "sha256": "c7c9388b0546939b6329b9aca02d39672f9e3d531adc97db11672da900ee1d1c"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/images/11-card-frame-v01.png",
+      "bytes": 2532417,
+      "sha256": "ddc091df8cc0a5fa973cf8a094fe867e10cd0538e4f2157f6d1dc4f2c29ec7a0"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/images/12-opponent-hand-v01.png",
+      "bytes": 1298558,
+      "sha256": "94f036ea11558e394f06e3169c24d3adcc18a930bca0d3b9c7f15f4802acaa1b"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/images/14-workbench-v01.png",
+      "bytes": 2821326,
+      "sha256": "6fd90294277c9c61987608483b829913f99d8b5f0dd0315edecab69f3680ad3e"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/integration-v01.md",
+      "bytes": 2845,
+      "sha256": "0aea89468b2f438f6098f6ea06d62439636a87492449ac4791c2c8bcd439d52a"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/manifest-integration-v01.json",
+      "bytes": 1280,
+      "sha256": "2e4af36322ff276417275077bd9e94b1886792b2151002763aeaf637e3754f81"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/manifest-opponent-v01.json",
+      "bytes": 1334,
+      "sha256": "5275b38f4887af1c761045df4125e27b9d112c37b92f372a33475ce41a642479"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/manifest-workbench-v01.json",
+      "bytes": 1409,
+      "sha256": "c5b7d60cd0f40a65aa278635db3b72f3adff34308e940526c6872ef0565b8815"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/manifest.json",
+      "bytes": 9725,
+      "sha256": "77c34871921184aa12187c95aa4d284d77a049910c4eebc55927199e8a090ef0"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/opponent-v01.md",
+      "bytes": 3045,
+      "sha256": "c1201c46927d681adb51804d12b2112ca90a616c1be175a01f68b641cd02515a"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/prompts-integration-v01.json",
+      "bytes": 1635,
+      "sha256": "82634825d63cbaa8fba6f61c0e10f93bf0de68f196c8e737d5f6d601f2bb4366"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/prompts-opponent-v01.json",
+      "bytes": 2670,
+      "sha256": "1a327b951d9982cd436983efe1a4bb02c8457dea96a5d34bc35b2f6db2b94a4b"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/prompts-workbench-v01.json",
+      "bytes": 4898,
+      "sha256": "8f4f305fa0a2a30b8d690b13e9e5d3ead7ac324646ef1437b8867dc4b1bda56e"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/prompts.json",
+      "bytes": 8824,
+      "sha256": "1059893790cacfa7f8f82f8a34b6782caa92aca52244bfb2a30f3a3903971877"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/README.md",
+      "bytes": 8807,
+      "sha256": "c641908ff22b6822284ef338ff0c927097106e240439329eb3c57195b861904f"
+    },
+    {
+      "path": "art/burgundy-objects-2026-10-24/workbench-v01.md",
+      "bytes": 3209,
+      "sha256": "0b6b172ea88efb95abce9bd46e89127ce5738ccc11b10c2b4dca6f5376638ec3"
+    },
+    {
+      "path": "art/component-detail-2026-10-14/art-v01/01-text-card-v02-prompt.txt",
+      "bytes": 1320,
+      "sha256": "6aa0e2c597740e5806b0da4dd50a17506c9fd5390f194eb484075da6207f2a05"
+    },
+    {
+      "path": "art/component-detail-2026-10-14/art-v01/01-text-card-v02.png",
+      "bytes": 2500850,
+      "sha256": "2023c6732485218a37fe96eda79384b01e0b7393e778eb76860bb7c9a8e7b0bd"
+    },
+    {
+      "path": "art/component-detail-2026-10-14/art-v01/02-wands-pawns-chips-v02-prompt.txt",
+      "bytes": 1470,
+      "sha256": "c0b8c672985ac13754704dd3b2152ecb3711914e973a8deda205b1fd17f3c949"
+    },
+    {
+      "path": "art/component-detail-2026-10-14/art-v01/02-wands-pawns-chips-v02.png",
+      "bytes": 2490800,
+      "sha256": "8c11fea018526c9a1b1c3a1e7a850b4980893cf380c519a59aab1819024710de"
+    },
+    {
+      "path": "art/component-detail-2026-10-14/art-v01/03-table-decor-v02-prompt.txt",
+      "bytes": 805,
+      "sha256": "36e9e5974151c7c390a921704b7fe0fd816d5fb1b40715f8720edc3ad1840860"
+    },
+    {
+      "path": "art/component-detail-2026-10-14/art-v01/03-table-decor-v02.png",
+      "bytes": 2560355,
+      "sha256": "1cc541fc9ecc29b6b56479e94d6697b9bd798fab86074711061859c09df0964f"
+    },
+    {
+      "path": "art/component-detail-2026-10-14/art-v01/manifest-v01.json",
+      "bytes": 4689,
+      "sha256": "29517dc1ebcdca2cfd071d72c672d8b1643a0511b88a5404865cdba55ef2d2f0"
+    },
+    {
+      "path": "art/component-detail-2026-10-14/art-v01/README.md",
+      "bytes": 2603,
+      "sha256": "1c28e8dc55f769b9f1cff357127a7df4f92ee2a48e6f80c5d3c3dd9f45e9f081"
+    },
+    {
+      "path": "art/demoncards-reference-2026-10-14/art-v01/01-tabletop.png",
+      "bytes": 2142898,
+      "sha256": "fa415d4bbb5fe95b3c66008e0e63cc9a4898bb421dbe1bb718d02eb75f527999"
+    },
+    {
+      "path": "art/demoncards-reference-2026-10-14/art-v01/02-actions.png",
+      "bytes": 2029808,
+      "sha256": "f9b0dec390f601a7305c96a04ea68f77d882d0437d3e1d8254871a2e1c7d4110"
+    },
+    {
+      "path": "art/demoncards-reference-2026-10-14/art-v01/03-inspection.png",
+      "bytes": 1963962,
+      "sha256": "59efa23342ff654eef4fca40bfac2db571b8019752a1175ef60033cbf7bb046a"
+    },
+    {
+      "path": "art/demoncards-reference-2026-10-14/art-v01/04-card-move.png",
+      "bytes": 2514429,
+      "sha256": "44f57595b4c2da8b9dc1bb6fabac5c87c0e22183fb68e1afb977ac38ec22317f"
+    },
+    {
+      "path": "art/demoncards-reference-2026-10-14/art-v01/prompts.md",
+      "bytes": 10025,
+      "sha256": "8ce5bd2f07af7f1759c1e737a7e3d2bfb345a7ec729a9a2db65ea6a267a0af2c"
+    },
+    {
+      "path": "art/demoncards-reference-2026-10-14/art-v01/README.md",
+      "bytes": 2661,
+      "sha256": "e0cf7f25d854eee64255a50ae06a865a1fcefffd89721297bd0a266a1d183477"
+    },
+    {
+      "path": "art/minimal-battle-ui-2026-10-17/art-v01.md",
+      "bytes": 21164,
+      "sha256": "a93dbc7313f7d7b35d3aab0391e63ad35fd90ba0c3007d92afdd1a11fd0ba103"
+    },
+    {
+      "path": "art/physical-table-2026-10-12/art-v01/01-tabletop.png",
+      "bytes": 2466961,
+      "sha256": "6cafdc5f94237f8a982a99bc83edb03723eb163d5b4c728b557f9c8938389b1b"
+    },
+    {
+      "path": "art/physical-table-2026-10-12/art-v01/02-floating-closeups.png",
+      "bytes": 2007253,
+      "sha256": "a9c0e338de3ad697f0c49a6ee72a9560b60739df4b9e97db90de7f1e02c44c47"
+    },
+    {
+      "path": "art/physical-table-2026-10-12/art-v01/manifest.json",
+      "bytes": 4734,
+      "sha256": "c6c916e8a31791a8173ef2f7dbed683b8e356ec7388ff8ddfa74341e24ceb8ab"
+    },
+    {
+      "path": "art/physical-table-2026-10-12/art-v01/prompts.md",
+      "bytes": 14828,
+      "sha256": "5fd075d4a18181db00bbaae6b5ab7f132a7e02961e65df33d8dc3f960a5dd418"
+    },
+    {
+      "path": "art/physical-table-2026-10-12/art-v01/README.md",
+      "bytes": 5458,
+      "sha256": "91a79cc23248ad00ff1d539004873ee020a180e61a160aeb1d817c0db6abf543"
+    },
+    {
+      "path": "art/physical-table-2026-10-12/art-v02/03-shield-sequence.png",
+      "bytes": 2137146,
+      "sha256": "7445bb08dec3838cec9d85afd888eff65f750769d4f4176c8dada031c31011eb"
+    },
+    {
+      "path": "art/physical-table-2026-10-12/art-v02/manifest.json",
+      "bytes": 3257,
+      "sha256": "f9896347be8078f43c12588298a4c9afe3737d0865e85c41234ddd74ce01eb27"
+    },
+    {
+      "path": "art/physical-table-2026-10-12/art-v02/prompts.md",
+      "bytes": 4085,
+      "sha256": "0423714779d4d9a2c4abb4e949421ae2464b389781a1052196fd0eb7f4997bf2"
+    },
+    {
+      "path": "art/physical-table-2026-10-12/art-v02/README.md",
+      "bytes": 3522,
+      "sha256": "fee1682772d749f72496865cc7295e4dcf987fc929d46e0684312f1c37cda091"
+    },
+    {
+      "path": "art/README.md",
+      "bytes": 3693,
+      "sha256": "c83ac8a04177a042ce64e6fc95460ba031b669492985b4d0cf0ab4013e52d58b"
+    },
+    {
+      "path": "art/reference-skin/approved-layout.jpg",
+      "bytes": 87749,
+      "sha256": "5d0f918ecc49b42e94b9f0fd20064a61f38b891cb3ac0c70b167df90efb7ea08"
+    },
+    {
+      "path": "art/reference-skin/skin.css",
+      "bytes": 46066,
+      "sha256": "01d19ed74d61bae889f90c089c1666248e2ab216ab07f0c990ac77115f17c012"
+    },
+    {
+      "path": "art/reference-skin/skin.js",
+      "bytes": 7218,
+      "sha256": "755676a89419619b51dc80d65b83ca1fb28f9eb9c27c7b935c46d02420c5fe0f"
+    },
+    {
+      "path": "art/reviews/2026-09-19/images/01-battle.png",
+      "bytes": 2490408,
+      "sha256": "d6441866c3d1d514e291589b690551319ee77b894afd11252d980c937f992f19"
+    },
+    {
+      "path": "art/reviews/2026-09-19/images/02-assembly.png",
+      "bytes": 2530534,
+      "sha256": "16317daaae5239a8059440a2c6ea25c891f45c58b6ef12cb1f1a0d75cb48e16e"
+    },
+    {
+      "path": "art/reviews/2026-09-19/images/03-route-v2.png",
+      "bytes": 2309169,
+      "sha256": "8225b7bc524a81d6964eb601437893678a077976684e7f9e738f8d493b2a41e5"
+    },
+    {
+      "path": "art/reviews/2026-09-19/images/04-inscryption-study.png",
+      "bytes": 2702009,
+      "sha256": "513a43451ca2f32d9e4b37fd6d7fd9e351a9518554ea1363a0222baf0bde0538"
+    },
+    {
+      "path": "art/reviews/2026-09-19/images/05-noita-study-v2.png",
+      "bytes": 2187461,
+      "sha256": "2865c7cd7ddfa7c4100398dfa71124cc1b4141db3636611d3caa1eba81eef645"
+    },
+    {
+      "path": "art/reviews/2026-09-19/images/06-slay-the-spire-study.png",
+      "bytes": 2306305,
+      "sha256": "5129420fdb99e35eadf46b30e88537efcc36a33c14c5d2ae5f611af268d1c3b4"
+    },
+    {
+      "path": "art/reviews/2026-09-19/native-screens-prompts.json",
+      "bytes": 15863,
+      "sha256": "b348b8af64337be16dbd0f8728768cfbd253b31b9b3fb4386f4709b95d99dcfc"
+    },
+    {
+      "path": "art/reviews/2026-09-19/qa-notes.md",
+      "bytes": 4969,
+      "sha256": "ff6a5e561b723b9845e73012e53d97c05a70d9ce376582109c0730fb8dcb4a15"
+    },
+    {
+      "path": "art/reviews/2026-09-19/reference-prompts.json",
+      "bytes": 15069,
+      "sha256": "69a7b2e99f69b03c96839efa571bd3301f1d009199b49a534b713e22fd93c902"
+    },
+    {
+      "path": "art/reviews/2026-09-19/source-manifest.json",
+      "bytes": 3618,
+      "sha256": "38fca49ac3ca212dbfe8a66ffdbf40d0dc3b622141fca7b51b9b3efbe3426a5b"
+    },
+    {
+      "path": "art/reviews/2026-09-19/style-guide.md",
+      "bytes": 10002,
+      "sha256": "958207b9f3e5631081214ef3213bb03bd32c39775962a0a85e997049e994403b"
+    },
+    {
+      "path": "art/reviews/2026-09-19/tabletop-prompts.json",
+      "bytes": 16931,
+      "sha256": "1ab45dad815e5f88c937c5081edfcfaa3d35e361839bc1ea0e3983b1c07c0436"
+    },
+    {
+      "path": "art/ui-review-2026-10-15/fonts-v01.md",
+      "bytes": 3228,
+      "sha256": "6631b103bd049e850e0f3c5afc09a914421100cfe6607c04b4d10c3fa5b9a5e6"
+    }
+  ]
+}

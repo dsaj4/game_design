@@ -26,7 +26,7 @@
 
 限定实现证据：TimelineCardVisual 是屏幕按钮卡面，CompleteMainCards 用屏幕容器组织敌我时间列；CompleteMainPresentation 的摘要仍为面板文字，EncounterEffects 与现有事件接口采用覆盖层瞬态提示。它们可以保留正确状态／事件边界经验，但不能作为真实桌面卡片动作已实现的证据。卡图预加载与木皮细节是历史工程工作，不证明新方向已满足。旧运行失败和前台性能中断不混成本轮设计问题。
 
-视觉依据：[v10轮廓](../../visual/battle-ui-2026-10-11/v10-outline.md)已删除状态牌／战斗操作区，桌面主体和时间轴居中；[3D模型v02](../../visual/battle-ui-2026-10-11/model-v02.md)已有透视、窄卡及刻位。这些是构图／模型范围证据，不证明真实操作、动作或最终美术通过。
+视觉依据：[v10轮廓](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/battle-ui-2026-10-11/v10-outline.md)已删除状态牌／战斗操作区，桌面主体和时间轴居中；[3D模型v02](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/battle-ui-2026-10-11/model-v02.md)已有透视、窄卡及刻位。这些是构图／模型范围证据，不证明真实操作、动作或最终美术通过。
 
 ## 3. 答复后的交互流程与具体制作建议
 

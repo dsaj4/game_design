@@ -14,4 +14,4 @@
 
 Demoncards提供画面和资产参考；言咒继续时间轴／事件边界／公开信息／消费锁。参考的手动出牌和拖选不进入言咒。详情暂停中立即静态切换。原始文件与失败记录保留，真人可读性和用户视觉接受仍独立验证。
 
-待解决的工程证据为参考数据复验、运行效果与两档命中；无新增用户玩法裁决。具体制作接口在[设计v01](../../visual/demoncards-reference-2026-10-14/design-v01.md)。
+待解决的工程证据为参考数据复验、运行效果与两档命中；无新增用户玩法裁决。具体制作接口在[设计v01](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/demoncards-reference-2026-10-14/design-v01.md)。

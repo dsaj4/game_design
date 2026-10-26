@@ -2,7 +2,7 @@
 
 2026-10-17 · game-002 / main · 候选 v01 · Raw Idea / Unqualified。用户已明确简化方向；下列具体图形语法与显隐选择为模型建议，尚未完成资格确认或采纳。体验 Hypothesis / NotRun。
 
-同日标准卡面接续：用户已明确选择“主桌短名／近观全称”“主体图＋固定效果区”，并选择**强化主桌只标条件图形，分支近观查看**。现行卡面候选以[标准文字结构v01](../../visual/standard-card-2026-10-17/structure-v01.md)及[直接答复](2026-10-17-standard-card-face.md)为准；下文“强化主桌列两分支”及DM-G002-016中的`6／18`保留为前轮建议／固定示意，后续新稿不沿用该项。既有卡效与本页其他未确认选择的状态不变。
+同日标准卡面接续：用户已明确选择“主桌短名／近观全称”“主体图＋固定效果区”，并选择**强化主桌只标条件图形，分支近观查看**。现行卡面候选以[标准文字结构v01](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/standard-card-2026-10-17/structure-v01.md)及[直接答复](2026-10-17-standard-card-face.md)为准；下文“强化主桌列两分支”及DM-G002-016中的`6／18`保留为前轮建议／固定示意，后续新稿不沿用该项。既有卡效与本页其他未确认选择的状态不变。
 
 ## 原始想法
 
@@ -26,7 +26,7 @@
 | [交互与保存规则](../../design/common/interaction-save/rules.md) | CORE-060—063及TL-17：信息字段、播放／暂停、回看、数量与实体宿主 |
 | [交互体验](../../design/common/interaction-save/experience.md)、[交互设计](../../design/common/interaction-save/design.md) | 已读定位；承诺、预测、结果分开，体验目标仍是假设 |
 | [首批案例](../../design/examples/simple-spell.md)、[完整单战](../../design/examples/complete-battle.md) | 本轮读取第7节逐拍表与疲劳参数，配合前轮已读行动／标记定义；示例值不泛化 |
-| [表现方案](../../visual/demoncards-reference-2026-10-14/design-v01.md) | 第2节文本与图形字段，当前字体、图形与容器边界 |
+| [表现方案](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/demoncards-reference-2026-10-14/design-v01.md) | 第2节文本与图形字段，当前字体、图形与容器边界 |
 | [审阅v01](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/ui-review-2026-10-15/review-v01.md)、[审阅v02](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/ui-review-2026-10-15/review-v02.md) | 前轮完整读取；当前文字与待审状态 |
 | 前轮已读核心设计／基准及B13主桌截图、主桌读数实现 | 背景与实际画面观察；本轮不据代码反证玩法成立，未重跑引擎 |
 
@@ -281,4 +281,4 @@
 
 固定底图：`E:/Project/yanzhou-godot/evidence/development-batch-13/package-main-01/1920x1080/09-completion-paused.png`，SHA-256 `d974b54753390760fc862ebdcce50d2d5ae0291939a854e60d104f098b444a2b`。真实第2拍完工阶段暂停：生命玩家30／敌60、双方护甲0、施法三量均0、容量5中实牌1／预留1／空位3；守护批次已经完工，施法批次D3剩1。原图与生成稿保持本机审阅范围，登记与提示词单独入库。
 
-效果图、完整提示词与实际偏差见[制作记录](../../visual/minimal-battle-ui-2026-10-17/art-v01.md)，资源登记为[AS-G002-029](../../../docs/registry/demo-assets.md#as-g002-029)。设计agent以固定原截图经内置image_gen生成并作一次定向修订；协调者独立看图后选修订版交付。模型输出1672×941，原场景构图与主要数值基本保持，有细部重绘；尚未实装或采纳，原候选资格状态不变。
+效果图、完整提示词与实际偏差见[制作记录](../../visual/baseline-2026-10-26/art/minimal-battle-ui-2026-10-17/art-v01.md)，资源登记为[AS-G002-029](../../../docs/registry/demo-assets.md#as-g002-029)。设计agent以固定原截图经内置image_gen生成并作一次定向修订；协调者独立看图后选修订版交付。模型输出1672×941，原场景构图与主要数值基本保持，有细部重绘；尚未实装或采纳，原候选资格状态不变。

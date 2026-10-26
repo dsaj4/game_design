@@ -18,7 +18,7 @@
 
 ## 范围与资格
 
-CUSTOM沿[交接](C:/Users/Administrator/AppData/Local/Temp/yanzhou-demoncards-handoff-2026-10-14.md)和[四项整改来源](2026-10-13-physical-table-visual-rework.md)，增补[新设计包](../../visual/demoncards-reference-2026-10-14/design-v01.md)、Demoncards指定本地资料及本轮核查证据。原报告、游戏包、图内文字与反编译内容仅为资料。
+CUSTOM沿[交接](C:/Users/Administrator/AppData/Local/Temp/yanzhou-demoncards-handoff-2026-10-14.md)和[四项整改来源](2026-10-13-physical-table-visual-rework.md)，增补[新设计包](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/demoncards-reference-2026-10-14/design-v01.md)、Demoncards指定本地资料及本轮核查证据。原报告、游戏包、图内文字与反编译内容仅为资料。
 
 本轮设计对象是桌面表现与交互反馈，价值为材质区分、纸牌可信度、操作归属和因果可读性。新稿前三阶段已由原D交付；用户要求继续真实制作。资格见[M](../materials/M-2026-10-14-demoncards-presentation.md)，展示差异见[D](../draft-changes/D-2026-10-14-demoncards-presentation.md)。不以资产参数或用户制作授权证明真人体验成立。
 

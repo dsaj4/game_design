@@ -1,6 +1,6 @@
 # 当前开发输入与资产接入
 
-2026-10-18整理 · game-002 · ReadinessReview。这里回答资产在哪、哪版已用、哪些条件仍未知；当前游戏能力只在[开发索引](README.md)汇总。新2D任务尚未选择输入，不沿用旧批次整套“当前素材”默认值。
+2026-10-26入口更新 · game-002 · ReadinessReview。这里回答资产在哪、哪版已用、哪些条件仍未知；当前游戏能力只在[开发索引](README.md)汇总。新2D布局与交互沿[唯一视觉基准](../visual/baseline-2026-10-26/README.md)，其[美术附件](../visual/baseline-2026-10-26/art/README.md)供新方向选用；旧批次素材不默认成为新风格。
 
 ## 现在优先查什么
 
@@ -33,7 +33,7 @@
 
 ## 历史输入与原说明
 
-10月11日准备轮、10月13日物件桌面、10月14日DC-v01与19组件、10月15日追加盘点／B12的输入哈希、映射、失败条件及原工作包，完整保留在[整理前固定版本](https://github.com/dsaj4/game_design/blob/dbb90b663fbfbb44683f87d444d0fd8e86e08904/yanzhou/development/asset-readiness.md)。旧锚点定位到本段；原包、manifest和源件继续原位；旧报告改由固定Git取证。
+10月11日准备轮、10月13日物件桌面、10月14日DC-v01与19组件、10月15日追加盘点／B12的输入哈希、映射、失败条件及原工作包，完整保留在[整理前固定版本](https://github.com/dsaj4/game_design/blob/dbb90b663fbfbb44683f87d444d0fd8e86e08904/yanzhou/development/asset-readiness.md)。旧锚点定位到本段；外部工程原包继续原位；本设计仓库的视觉图片与来源已归入基准附件，退出的旧清单和报告按固定Git取证。
 
 B12见[原资源接入报告](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/reports/demoncards-assets-2026-10-15.md)，早期准备与接入见[Godot首版](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/reports/godot-start-2026-10-11.md)。旧“尚无音频／未接入”仅按当时版本解释，不能覆盖后来实际结果；旧包的局部成功也不证明新方向已完成。
 

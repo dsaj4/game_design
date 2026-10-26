@@ -14,7 +14,7 @@
 
 - 本聊天的设计顺序、少文字讨论与本轮请求；流程记录在[阶段计划](../../development/production-plan.md#ui-design-order-2026-10-17)。
 - 固定设计输入提交 `514522b36508eb4384939b0d7b9a5ebc4c90c2a7`；本轮CUSTOM，仅相关行动卡／交互规则、首批案例、CARD-01规格及当前审阅截图，不读历史、其他方向、旧项目或未跟踪候选。
-- 完整文字稿、固定来源与阅读范围见[标准卡面文字结构v01](../../visual/standard-card-2026-10-17/structure-v01.md)。它是Raw候选的制作表达，不是GDD、Proposal或权威规则。
+- 完整文字稿、固定来源与阅读范围见[标准卡面文字结构v01](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/standard-card-2026-10-17/structure-v01.md)。它是Raw候选的制作表达，不是GDD、Proposal或权威规则。
 
 ## 可能带来的玩家体验
 

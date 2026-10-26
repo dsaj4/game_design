@@ -8,7 +8,7 @@
 
 首场战斗采用Demoncards为第一形态、材质、镜头与动作参照，重制桌／薄纸牌／窄槽／实体道具。主页面必要名称、精确值与公开状态使用绑定真实3D宿主的短文本容器；只读悬停和键盘提示不暂停、提交或揭示。近观保持立即静态进入／退出。Completion与Use保持原位；合法新揭示和自动播放中的同身份公开投影转位可以表现动画，所有停点立即静态归位。
 
-对象为首场表现／信息可达性，GDD映射interaction-save规则CORE-063与制作方案；GDD-0的功能合同，不提高整部GDD完成度。具体毫米数、材质与时长留[设计稿](../../visual/demoncards-reference-2026-10-14/design-v01.md)，不成为战斗参数。
+对象为首场表现／信息可达性，GDD映射interaction-save规则CORE-063与制作方案；GDD-0的功能合同，不提高整部GDD完成度。具体毫米数、材质与时长留[设计稿](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/demoncards-reference-2026-10-14/design-v01.md)，不成为战斗参数。
 
 ## 玩家处境、行为与反馈
 
