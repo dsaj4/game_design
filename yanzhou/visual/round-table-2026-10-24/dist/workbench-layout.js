@@ -1,7 +1,16 @@
 'use strict';
 // Layout review adapters only; all card costs and fixture transitions use the base page.
 const originalLayoutRender=render;
-render=function(){originalLayoutRender();$('bench-mode').textContent=state.future;$('bench-mode').disabled=!canEdit();};
+function pileMarkup(layers){return layers?Array.from({length:layers},(_,i)=>'<span class="pile-card" style="--pile-level:'+i+'" aria-hidden="true">'+backSkin()+'</span>').join(''):'<span class="pile-empty" aria-hidden="true">空</span>';}
+function setHandOpen(open){$('hand-fan').hidden=!open;$('hand-pile').setAttribute('aria-expanded',String(open));$('hand-pile').setAttribute('aria-label',(open?'收起':'展开')+'手牌卡堆，'+state.hand.length+'张');document.querySelector('.hand-dock').classList.toggle('hand-open',open);}
+render=function(){originalLayoutRender();$('bench-mode').textContent=state.future;$('bench-mode').disabled=!canEdit();$('hand-pile').innerHTML=pileMarkup(state.hand.length);setHandOpen(!$('hand-fan').hidden);};
+$('resource-piles').innerHTML=['Ⅰ','Ⅱ','Ⅲ'].map(n=>'<div class="resource-pile card-pile" role="img" aria-label="资源卡堆'+n+'，造型占位">'+pileMarkup(4)+'<span class="pile-index" aria-hidden="true">'+n+'</span></div>').join('');
+$('hand-pile').addEventListener('click',()=>setHandOpen($('hand-fan').hidden));
+$('hand-fold').addEventListener('click',()=>{setHandOpen(false);$('hand-pile').focus();});
+$('arrange').addEventListener('click',()=>setHandOpen(arranging));
+$('scene').addEventListener('change',()=>setHandOpen(false));
+$('reset').addEventListener('click',()=>setHandOpen(false));
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('detail').open&&!$('hand-fan').hidden&&!layoutDrag?.active){setHandOpen(false);$('hand-pile').focus();}});
 $('bench-mode').addEventListener('click',()=>{if(!canEdit())return;state.future=state.future==='普通积累'?'集中兑现':'普通积累';render();toast('下一批：'+state.future+' · 当前批次不变');});
 $('layout-guides').addEventListener('change',e=>document.querySelector('.app').classList.toggle('show-layout-guides',e.target.checked));
 let layoutDrag=null,suppressCardClickUntil=0;

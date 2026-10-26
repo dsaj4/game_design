@@ -1,13 +1,13 @@
 {
   "id": "DM-G002-017",
-  "version": "COUNTER-LAYOUT-01",
+  "version": "COUNTER-LAYOUT-02",
   "date": "2026-10-25",
   "project": "game-002",
   "direction": "main",
-  "status": "ReadyForScope / PresentLocal; visual review pending; Raw / Unqualified",
+  "status": "ReadyForScope / PresentLocal; base composition acknowledged; new card piles awaiting review; Raw / Unqualified",
   "entry": "dist/workbench-layout.html",
   "maintenance": "workbench-layout.md",
-  "input_commit": "21e2fa4861aa70e05174b2a4b3dca109d6adace8",
+  "input_commit": "052fbc58712e111791e03993b240da4679a83089",
   "derived_from": {
     "id": "DM-G002-017",
     "version": "ROUND-TABLE-HTML-04",
@@ -26,68 +26,79 @@
   "files": [
     {
       "path": "dist/workbench-layout.html",
-      "bytes": 53975,
-      "sha256": "5ee2c233c97c4b75b8ee2f40f5c1a744a9d3125b9717ab100f64b404c2e1dbcc"
+      "bytes": 54163,
+      "sha256": "8dfc35910cce2b5093a93366683ace3d89a9de5bffbcfaed0f5f05d2968bc42e"
     },
     {
       "path": "dist/workbench-layout.css",
-      "bytes": 13783,
-      "sha256": "a5cb98b89bf5d8bfc7fae6186a52530eee6d899cdb444c4f3da9e35354c309ee"
+      "bytes": 16656,
+      "sha256": "be8d2941ce657f5903b8995f246a866daa7dddf55dfb32f57b43ffd4f8a4dc80"
     },
     {
       "path": "dist/workbench-layout.js",
-      "bytes": 5139,
-      "sha256": "e30b7260925c2e10417c54802eda343f6a0aef3ae9b58f8612c34d84dff1d1b8"
+      "bytes": 6539,
+      "sha256": "31fd04315c225a6ddf4dc6f6fbace2820264ee623891d92fce7a5d6a3c29d5cc"
     },
     {
       "path": "workbench-layout.md",
-      "bytes": 4268,
-      "sha256": "40133a217d4e67a1d5290f86fd3af545d797d0ca9e061c473b047637d350e653"
+      "bytes": 4664,
+      "sha256": "4a3f026cb5abd9d4a91573594bd70837671fadd75603e985315f3000fb43b543"
     },
     {
-      "path": "preview/workbench-layout-825.jpg",
-      "bytes": 83615,
-      "sha256": "48fa585c9c1d33355a757e3685ffa1ec9908f7cc10cdca6d0c3a6843c2756827"
-    },
-    {
-      "path": "preview/workbench-detail.jpg",
-      "bytes": 27270,
-      "sha256": "7de7d9cbbbb9715b558c0cc7af4dc8467c3927876148bbeab5ad3b67b121de65"
+      "path": "preview/workbench-stacks-v02.jpg",
+      "bytes": 87749,
+      "sha256": "5d0f918ecc49b42e94b9f0fd20064a61f38b891cb3ac0c70b167df90efb7ea08"
     }
   ],
   "verification": {
     "date": "2026-10-25",
     "browser": "Codex IAB",
-    "viewport": [
-      825,
-      504
+    "observed_viewports": [
+      [
+        1280,
+        720
+      ],
+      [
+        825,
+        504
+      ],
+      [
+        810,
+        680
+      ]
     ],
     "full_page_image": [
       810,
       680
     ],
-    "scope": "Layout and retained fixture UI only, no gameplay experiment",
+    "scope": "Stacked-card presentation and affected UI only",
     "passed": [
-      "inline script byte-identical",
-      "JS parses",
-      "static IDs unique",
-      "local HTML references exist",
-      "all original manifest files and asset dependencies unchanged",
-      "table-hand swap costs one point with no accidental dialog",
-      "hand to first empty slot costs one point",
-      "artifact dialog and Escape focus restoration",
-      "future mode does not change current batch",
-      "ended fixture editing disabled",
-      "layout guide toggle",
+      "HTTP 200",
+      "JS syntax and unique static IDs",
+      "base inline script unchanged",
+      "original manifest files and asset dependencies unchanged",
+      "one hand pile and three resource visual placeholders",
+      "hand pile expands three cards",
+      "card details open and Escape restores focus",
+      "expanded hand drag swap costs one point without accidental detail",
+      "arrange button opens hand fan with pick controls",
+      "empty fixture renders zero hand layers and empty outline",
+      "Escape folds hand fan and focuses pile",
       "no captured browser error/warn"
     ],
     "not_tested": [
       "full battle",
-      "other viewports",
+      "production and settlement regression",
+      "all drag boundaries",
       "mobile",
-      "all drag cancel and invalid drop boundaries",
-      "live production engine"
+      "live resource inventory"
     ]
   },
-  "registry_handoff": "Supplemental version of existing DM-G002-017; shared index belongs to coordinator; this maintenance entry supplies the handoff."
+  "registry_handoff": "Supplemental version of existing DM-G002-017; shared index belongs to coordinator; this maintenance entry supplies the handoff.",
+  "previous_version": "COUNTER-LAYOUT-01",
+  "previous_commit": "052fbc58712e111791e03993b240da4679a83089",
+  "presentation": {
+    "hand": "one pile; expand to inspect or arrange; layers follow actual hand count",
+    "resources": "three static style placeholders; no resource types, counts or supply behavior defined"
+  }
 }
