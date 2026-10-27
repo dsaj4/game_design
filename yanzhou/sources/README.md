@@ -16,6 +16,10 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 [决策记录](../governance/decision-log.md)说明何时采纳了哪些范围。文件名和原设计ID保持，旧素材使用记录的链接已定位新路径；原提交和历史哈希仍按原路径解释。
 
 
+## 统一卡牌与手动上行（2026-10-27，待审）
+
+[决定摘要](inbox/2026-10-27-unified-card-model.md) → [Qualified M](materials/M-2026-10-27-unified-card-model.md) → [P](proposals/P-2026-10-27-unified-card-model.md)／[E](evaluations/E-2026-10-27-unified-card-model.md) → [具体变更审阅D](draft-changes/D-2026-10-27-unified-card-model.md)。用户已明确三种战斗权限、使用后回手立即可用、新产卡先进手牌及两组持牌查看；六项补充执行取舍待审，完整权威迁移未完成，不把候选当作CORE-065／066的已发布替代。实现与玩法验证NotRun。
+
 ## 当前完整首场来源链（CORE-066）
 
 [意图与授权摘要](inbox/2026-10-23-round-first-battle.md) → [Qualified M](materials/M-2026-10-23-round-first-battle.md) → [P](proposals/P-2026-10-23-round-first-battle.md)／[E](evaluations/E-2026-10-23-round-first-battle.md) → [Accepted D](draft-changes/D-2026-10-23-round-first-battle.md)。按用户授权自行冻结EX-004起始套组、完整敌表、初态及胜败／恢复预期，CORE-065机制不变；实现、运行与体验NotRun。
