@@ -1,13 +1,18 @@
 {
   "id": "AS-G002-032",
-  "version": "HERBAL-ENGRAVING-01",
-  "date": "2026-10-26",
+  "version": "HERBAL-ENGRAVING-02",
+  "date": "2026-10-27",
   "project": "game-002-optimization",
   "direction": "DIR-042",
   "design_status": "Raw Idea / Unqualified",
-  "primary_image": "scene-v02.png",
+  "primary_image": "scene-v03.png",
   "input_commit": "13b9b3a0510e875bc4986ce52d9ded27e9fe9044",
   "input_image": "yanzhou/visual/baseline-2026-10-26/preview.jpg",
+  "revision_input": {
+    "asset_version": "HERBAL-ENGRAVING-01",
+    "image": "scene-v02.png",
+    "sha256": "480a5d1ed3f1cd55101722e7dac4fff31550f6ec51d4232d202addb2853c6540"
+  },
   "tool": "built-in image_gen",
   "images_uploaded_to_git": false,
   "scope": "Static art-direction review only. No HTML or gameplay validation.",
@@ -27,7 +32,7 @@
     },
     {
       "path": "scene-v02.png",
-      "role": "Primary candidate; visual noise reduced",
+      "role": "Previous primary candidate; visual noise reduced",
       "prompt": "scene-v02-prompt.txt",
       "derived_from": "scene-v01.png",
       "format": "PNG",
@@ -38,7 +43,21 @@
       "bytes": 2723129,
       "sha256": "480a5d1ed3f1cd55101722e7dac4fff31550f6ec51d4232d202addb2853c6540",
       "generator_original": "C:/Users/Administrator/.codex/generated_images/01a17b22-9079-77b0-bf67-62a1b7cc877e/exec-52eba85c-e687-4638-be09-fe5913140d59.png"
+    },
+    {
+      "path": "scene-v03.png",
+      "role": "Primary candidate; botanical ornament replaced by spell sigils, grimoire and small alchemical props",
+      "prompt": "scene-v03-prompt.txt",
+      "derived_from": "scene-v02.png",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "color": "RGB",
+      "alpha": false,
+      "bytes": 2519405,
+      "sha256": "209c5e7db2fb4305d9cd6b809a8bb9b940ca9cd7b60dd96a8f40187f803ec5eb",
+      "generator_original": "C:/Users/Administrator/.codex/generated_images/01a17b22-9079-77b0-bf67-62a1b7cc877e/exec-e1f6b382-e78a-4615-b72d-4e4cbc505b09.png"
     }
   ],
-  "text_files": ["README.md", "scene-v01-prompt.txt", "scene-v02-prompt.txt", "manifest.json"]
+  "text_files": ["README.md", "scene-v01-prompt.txt", "scene-v02-prompt.txt", "scene-v03-prompt.txt", "manifest.json"]
 }

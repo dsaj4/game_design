@@ -26,9 +26,9 @@
 ## <a id="as-g002-032"></a>AS-G002-032 纸本秘术工坊场景候选包
 
 - game-002-optimization / DIR-042；[主稿、风格说明与完整登记](../../yanzhou/exploration/DIR-042-herbal-engraving-style/README.md#as-g002-032-纸本秘术工坊场景候选包)。用户要求接近《Potion Craft》的手稿／药典美术语言；设计Raw / Unqualified，未覆盖唯一基准。
-- `HERBAL-ENGRAVING-01`；两版PNG与准确提示词，[manifest](../../yanzhou/exploration/DIR-042-herbal-engraving-style/manifest.json)固定文件范围及SHA-256。主稿v02，1672×941 RGB无透明；图片本机保存，不随本轮文档提交上传。
-- ReadyForScope / PresentLocal（2026-10-26，仅静态审美审阅及规格／哈希核对）。内置image_gen生成；derived-from: DM-G002-017@VISUAL-BASELINE-01的 `preview.jpg`，固定输入提交 `13b9b3a0510e875bc4986ce52d9ded27e9fe9044`；官方商店文字仅作风格参照，没有导入Potion Craft原图。
-- 仅本项目内部概念参考，公开分发及正式采用条件待核；v01表面噪声与v02仍缺的生产刻度／未来用途、手部及法器接近牌位的遮挡风险见方向页。未装入或运行HTML，未验证交互、玩法或真人体验；使用者仅DIR-042主稿。
+- `HERBAL-ENGRAVING-02`；三版PNG与准确提示词，[manifest](../../yanzhou/exploration/DIR-042-herbal-engraving-style/manifest.json)固定文件范围及SHA-256。主稿v03，1672×941 RGB无透明；2026-10-27按用户要求将草木装饰换为法阵／符文、法术书与小型炼金器具。原01版沿 `6cf0e2589ba93a950b41e80a16d244e2bd4ad245` 的同路径记录取证；图片本机保存，不随本轮文档提交上传。
+- ReadyForScope / PresentLocal（2026-10-27，仅静态审美审阅及规格／哈希核对）。内置image_gen生成；derived-from: DM-G002-017@VISUAL-BASELINE-01的 `preview.jpg`，固定输入提交 `13b9b3a0510e875bc4986ce52d9ded27e9fe9044`；v03直接编辑本包v02，原图哈希沿manifest。官方商店文字仅作风格参照，没有导入Potion Craft原图。
+- 仅本项目内部概念参考，公开分发及正式采用条件待核；v01表面噪声与后续仍缺的生产刻度／未来用途、手部及法器接近牌位的遮挡风险见方向页。未装入或运行HTML，未验证交互、玩法或真人体验；使用者仅DIR-042主稿。
 
 ## Demo
 
