@@ -4,10 +4,10 @@
 
 | 系统 | 职责 |
 | --- | --- |
-| [法器](artifact-system/README.md) | 工序、生产、用途、容量与返工 |
+| [法器](artifact-system/README.md) | 工序、生产、用途与返工 |
 | [铭文](inscription-system/README.md) | 配方语言、合法装配与实体分配 |
 | ↳ [辅槽](inscription-system/augment-system/README.md) | 保留主逻辑，强化时间与量值 |
-| [行动卡](action-card-system/README.md) | 队列、效果、敌情结算与终局 |
+| [卡牌与战斗使用](action-card-system/README.md) | 统一权限、手动上行、回收、效果与结算 |
 | ↳ [标记](action-card-system/mark-system/README.md) | 宿主状态、条件、支付及定时登记 |
 | [敌人](enemy-system/README.md) | 固定程序、信息与压力窗口 |
 | [资源](resource-system/README.md) | 材料、精炼、托管与维护 |

@@ -3,7 +3,7 @@
   "version": "VISUAL-BASELINE-01",
   "date": "2026-10-26",
   "project": "game-002",
-  "status": "User-confirmed limited layout/component/interaction baseline; ReadyForScope / PresentLocal",
+  "status": "Original 2026-10-26 preview: ReadyForScope / PresentLocal for its recorded scope; CORE-067 interaction not implemented",
   "entry": "index.html",
   "maintenance": "README.md",
   "source_commit": "56a0ef07f13a647a4383a751977f2dce871bd731",
@@ -13,8 +13,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 5996,
-      "sha256": "81816256c6b2feab22c7f5cdc2f79a29ef56a3cb0568893d3b78cd0912fae858"
+      "bytes": 6841,
+      "sha256": "4ca1c12002497c199d0ae83ee4d1055a1552dd765e128d1c3c27ab5c3cbf0582"
     },
     {
       "path": "index.html",
@@ -75,5 +75,10 @@
       "human experience"
     ]
   },
-  "retirement": "Old versions, retired art and reports remain recoverable at source_commit with original paths; no other projects or external source files were removed."
+  "retirement": "Old versions, retired art and reports remain recoverable at source_commit with original paths; no other projects or external source files were removed.",
+  "documentation_revision": {
+    "date": "2026-10-27",
+    "decision": "G002-CORE-067",
+    "scope": "README and metadata only. Two held-card views, manual free play and inter-column windows supersede the old hand/resource pile and arrangement-point contract. Original HTML, scripts, images and 2026-10-26 verification remain unchanged; no runtime or gameplay validation performed."
+  }
 }

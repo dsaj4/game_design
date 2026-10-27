@@ -40,7 +40,7 @@
 ### <a id="dm-g002-017"></a>DM-G002-017 EX-004二维主页面结构示意
 
 - game-002 / main；[唯一基准与操作范围](../../yanzhou/visual/baseline-2026-10-26/README.md)、[HTML](../../yanzhou/visual/baseline-2026-10-26/index.html)。用户2026-10-26确认COUNTER-LAYOUT-02的位置、组件形态和交互，归并为VISUAL-BASELINE-01；[文件范围](../../yanzhou/visual/baseline-2026-10-26/manifest.json)。
-- ReadyForScope / PresentLocal，仅布局及示意交互。当前HTML从附件加载原参考皮肤；基准正文不规定美术风格，后续风格独立探索。筹码详情／历史等完整展示缺口仍保留，未升级玩法、真实引擎或真人体验证据。
+- ReadyForScope / PresentLocal仅指2026-10-26原版布局及示意交互；原HTML从附件加载参考皮肤，基准不规定美术风格。2026-10-27仅同步[CORE-067](../../yanzhou/sources/draft-changes/D-2026-10-27-unified-card-model.md)文字与manifest：两组持牌、手动免费上行和列间窗口替换旧手牌／资源堆及整理点合同；旧HTML、脚本与图片未修改或重验，不能充当新交互实现。筹码详情／历史等展示缺口保留，玩法、引擎与真人体验证据未升级。
 - derived-from：同DM的COUNTER-LAYOUT-02，共同清理前提交固定；uses：AS-G002-031的保留原图，仅用于参考皮肤。相关旧AS仍各自保持来源和许可，不引入新的公开分发授权。
 - 风格派生使用者：[DIR-042 / AS-G002-032](../../yanzhou/exploration/DIR-042-herbal-engraving-style/README.md)，以VISUAL-BASELINE-01的预览图作为构图输入；独立保存候选，没有覆盖本基准。
 

@@ -1,6 +1,6 @@
 # 评估：统一卡牌、手动上行与回收
 
-2026-10-27 · Evaluation / GDD-0。对象：[P](../proposals/P-2026-10-27-unified-card-model.md)，合格来源：[M](../materials/M-2026-10-27-unified-card-model.md)。评估人：agent；新取舍由用户决定。共同版本沿输入摘要，静态设计评议，不是玩法验证。
+2026-10-27 · Evaluation / GDD-0。采纳结果：CORE-067；下文保留采纳前评议及其依据。对象：[P](../proposals/P-2026-10-27-unified-card-model.md)，合格来源：[M](../materials/M-2026-10-27-unified-card-model.md)。评估人：agent；新取舍由用户决定。共同版本沿输入摘要，静态设计评议，不是玩法验证。
 
 ## 快速结论
 
@@ -49,3 +49,5 @@
 进入[D](../draft-changes/D-2026-10-27-unified-card-model.md)的具体文本审阅。C1—C5沿用用户明确决定，六项新增取舍成组判断；不要求重新同意已确认的回手和持牌展示。新合同依赖这些答案，完整权威迁移在闭合后一次同步，避免混合旧3点／H3与新手动回收规则。
 
 本轮没有制作或运行最小原型，也未进行数值模拟、真人观察或工程验证。未来验证范围沿P，全部Hypothesis / NotRun。
+
+2026-10-27采纳结果：用户明确六项均按推荐；[CORE-067](../draft-changes/D-2026-10-27-unified-card-model.md)已同步权威与派生输入。上文保留提案／评估时的判断理由，不再构成未回答问题，全部新执行与体验仍NotRun。
