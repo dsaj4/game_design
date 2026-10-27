@@ -23,6 +23,13 @@
 - 保留原对象、空卡框、手部和工作台参考；工具箱／法器匣及错误视角的初版瓶子退出工作树。原BURGUNDY各版本按共同清理前提交取证，不复用编号。
 - 内置image_gen来源、提示词与内部复用／分发边界保留；用户对布局与交互的确认不等于已确定本风格。当前参考皮肤直接使用部分图片。
 
+## <a id="as-g002-032"></a>AS-G002-032 纸本秘术工坊场景候选包
+
+- game-002-optimization / DIR-042；[主稿、风格说明与完整登记](../../yanzhou/exploration/DIR-042-herbal-engraving-style/README.md#as-g002-032-纸本秘术工坊场景候选包)。用户要求接近《Potion Craft》的手稿／药典美术语言；设计Raw / Unqualified，未覆盖唯一基准。
+- `HERBAL-ENGRAVING-01`；两版PNG与准确提示词，[manifest](../../yanzhou/exploration/DIR-042-herbal-engraving-style/manifest.json)固定文件范围及SHA-256。主稿v02，1672×941 RGB无透明；图片本机保存，不随本轮文档提交上传。
+- ReadyForScope / PresentLocal（2026-10-26，仅静态审美审阅及规格／哈希核对）。内置image_gen生成；derived-from: DM-G002-017@VISUAL-BASELINE-01的 `preview.jpg`，固定输入提交 `13b9b3a0510e875bc4986ce52d9ded27e9fe9044`；官方商店文字仅作风格参照，没有导入Potion Craft原图。
+- 仅本项目内部概念参考，公开分发及正式采用条件待核；v01表面噪声与v02仍缺的生产刻度／未来用途、手部及法器接近牌位的遮挡风险见方向页。未装入或运行HTML，未验证交互、玩法或真人体验；使用者仅DIR-042主稿。
+
 ## Demo
 
 ### <a id="dm-g002-018"></a>DM-G002-018 暗酒红独立对象HTML审阅包
@@ -35,6 +42,7 @@
 - game-002 / main；[唯一基准与操作范围](../../yanzhou/visual/baseline-2026-10-26/README.md)、[HTML](../../yanzhou/visual/baseline-2026-10-26/index.html)。用户2026-10-26确认COUNTER-LAYOUT-02的位置、组件形态和交互，归并为VISUAL-BASELINE-01；[文件范围](../../yanzhou/visual/baseline-2026-10-26/manifest.json)。
 - ReadyForScope / PresentLocal，仅布局及示意交互。当前HTML从附件加载原参考皮肤；基准正文不规定美术风格，后续风格独立探索。筹码详情／历史等完整展示缺口仍保留，未升级玩法、真实引擎或真人体验证据。
 - derived-from：同DM的COUNTER-LAYOUT-02，共同清理前提交固定；uses：AS-G002-031的保留原图，仅用于参考皮肤。相关旧AS仍各自保持来源和许可，不引入新的公开分发授权。
+- 风格派生使用者：[DIR-042 / AS-G002-032](../../yanzhou/exploration/DIR-042-herbal-engraving-style/README.md)，以VISUAL-BASELINE-01的预览图作为构图输入；独立保存候选，没有覆盖本基准。
 
 | ID / 名称 / 标签 | 归属 / 权威说明 | 固定版本与入口 | 状态 / 可复用范围 |
 | --- | --- | --- | --- |

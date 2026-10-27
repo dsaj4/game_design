@@ -1,0 +1,44 @@
+{
+  "id": "AS-G002-032",
+  "version": "HERBAL-ENGRAVING-01",
+  "date": "2026-10-26",
+  "project": "game-002-optimization",
+  "direction": "DIR-042",
+  "design_status": "Raw Idea / Unqualified",
+  "primary_image": "scene-v02.png",
+  "input_commit": "13b9b3a0510e875bc4986ce52d9ded27e9fe9044",
+  "input_image": "yanzhou/visual/baseline-2026-10-26/preview.jpg",
+  "tool": "built-in image_gen",
+  "images_uploaded_to_git": false,
+  "scope": "Static art-direction review only. No HTML or gameplay validation.",
+  "files": [
+    {
+      "path": "scene-v01.png",
+      "role": "Initial candidate; surface noise retained as comparison",
+      "prompt": "scene-v01-prompt.txt",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "color": "RGB",
+      "alpha": false,
+      "bytes": 3513514,
+      "sha256": "9b0c858920fd3def12abe9874066e1b9ac283c20c65e9696bcb78c7413326f5c",
+      "generator_original": "C:/Users/Administrator/.codex/generated_images/01a17b22-9079-77b0-bf67-62a1b7cc877e/exec-f7186ca2-15d0-4151-ac53-ce1329e2c065.png"
+    },
+    {
+      "path": "scene-v02.png",
+      "role": "Primary candidate; visual noise reduced",
+      "prompt": "scene-v02-prompt.txt",
+      "derived_from": "scene-v01.png",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "color": "RGB",
+      "alpha": false,
+      "bytes": 2723129,
+      "sha256": "480a5d1ed3f1cd55101722e7dac4fff31550f6ec51d4232d202addb2853c6540",
+      "generator_original": "C:/Users/Administrator/.codex/generated_images/01a17b22-9079-77b0-bf67-62a1b7cc877e/exec-52eba85c-e687-4638-be09-fe5913140d59.png"
+    }
+  ],
+  "text_files": ["README.md", "scene-v01-prompt.txt", "scene-v02-prompt.txt", "manifest.json"]
+}
