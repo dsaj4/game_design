@@ -42,7 +42,7 @@
 
 - game-002 / main；[当前v02预览、导出包及登记](../../yanzhou/visual/tabletop-components-2026-10-28/imagegen-v02/README.md)。2026-10-28按用户要求改为TABLETOP-COMPONENTS-02：木桌、桌垫、工作台、4个无字UI底板、3类筹码，共10个完整组件，每件各一次独立内置image_gen生成。原生画布、alpha、SHA、生成原件及10份准确提示词由同目录manifest固定。
 - v06（AS-G002-032@HERBAL-ENGRAVING-06）与v01完整UI／筹码仅作风格／形制参考；当前10个导出均与各自生成原件字节一致，无生产裁切、抠色、拼接、缩放或旧分片混入。原TABLETOP-COMPONENTS-01的40个PNG、manifest／checks和ZIP字节保留，原记录沿提交`69d45a6f16572709c1d0b8907a8b502f7492bafb`；AS-G002-033未取用。
-- ReadyForScope / PresentLocal（2026-10-28，限10次来源对应／原PNG哈希／9个透明件和1个背景／三种底色预览检查）。用户接受PendingReview，正式引擎／触区／压缩预算NotRun；新轮廓和比例不继承v01切片边距。法器、铭文词片和卡牌继续后置，额外状态／陈设仍待后续；v06、DM-G002-020及正式游戏工程未改。
+- ReadyForScope / PresentLocal（2026-10-28，源件限定来源／原PNG／透明／底色检查）。用户接受PendingReview；后续使用者DM-G002-021已将10件独立导入新2D静态Godot场景并完成本机显示／包／恢复检查，具体版本沿目标记录，不覆盖冻结源件。触区／玩法与压缩预算未验；法器、铭文词片、卡牌及额外陈设继续后置，v06与DM-G002-020不改。
 - 图片、ZIP和制作工具保本机，文档／manifest／提示词入Git。v02的逐件原件对应表及工具在 `E:/Project/yanzhou-art-assets/tabletop-components-2026-10-28/imagegen-v02/`；当前导出只取新维护页exports/的10张原图。仅本项目内部使用／审阅，公开分发条件未另定。
 
 ## Demo
@@ -53,6 +53,13 @@
 - FIRST-BATTLE-HANDFLOW-01；主入口为本机单文件 `E:/Project/yanzhou-ui-prototypes/first-battle-handflow-2026-10-28/handflow.html`；分离源码、技术说明、6张真实浏览器截图及检查JSON就地保管。17文件manifest的SHA-256为`0883cac3d075d39691f2da78abb56ae33b941a8a728ef764af7396e3f213b694`，准确路径及设计输入沿维护页。
 - ReadyForScope / PresentLocal（2026-10-28，仅本机HTTP的首轮UI检查及单文件内联对应）；10项状态检查、实际点击／拖到空列／互换／撤回／键盘／列间操作、两条首轮结果及单文件HTTP冒烟已通过，捕获日志无警告／错误。用户接受PendingReview；file协议受工具限制未做浏览器验收，完整键盘遍历及触屏等未测范围见维护页。
 - uses（视觉参照）：AS-G002-032@HERBAL-ENGRAVING-06 / v06及AS-G002-033@CARD-SYMBOLS-V05-01；derived-from: None（独立编写HTML／CSS／SVG），无参考PNG像素、旧DM-G002-017代码或第三方游戏素材。仅项目内部审阅，代码与截图未公开上传；不是正式2D引擎、完整单战或玩法成立证据。
+
+### <a id="dm-g002-021"></a>DM-G002-021 Godot二维静态战斗场景
+
+- game-002 / main；[场景预览、Windows入口与完整登记](../../yanzhou/visual/engine-scene-2026-10-28/README.md)。GODOT-TABLETOP-SCENE-01，源工程`E:/Project/yanzhou-2d/`；独立可编辑Godot场景，十件imagegen组件、五列／工作台／底部六张持牌与准确读数，法器和卡牌明确占位，按用户要求不包含可玩逻辑。
+- 固定实现及交付工具提交`c870a3585064409d3be819f3dcd22d9c0ea32cee`；实际构建／干净恢复基于`85d9e64eb8d5568af87b72fbc371aaa065736345`，运行资源／场景／脚本相同。固定包与截图指纹沿[delivery.json](E:/Project/yanzhou-2d/evidence/delivery.json)，SHA-256 `12b01d4a0e037fbe0b9339df4fd1e534fb28c29e1c40b85ba4da9376da76f1f8`。实现本机Git，无远端；二进制未上传。
+- ReadyForScope / PresentLocal，2026-10-28，仅本机静态引擎、1920／1366独立包及固定资源清单恢复；1440×900窗口的内容视口1440×810已查。两档包与源码、恢复与源码截图字节一致，52项证据／来源核对通过；无玩法测试、OS交互、性能或真人体验结论，用户接受PendingReview。
+- uses：AS-G002-034@TABLETOP-COMPONENTS-02实际10原PNG、AS-G002-026@demoncards-fonts-v01实际两字体及原OFL；AS-G002-032@HERBAL-ENGRAVING-06与DM-G002-020仅状态／布局参照。derived-from: None（新原生场景，不复制旧3D战斗实现）。原美术内部复用边界和字体原许可保持；源件、冻结v01／v02、v06与首轮HTML保留。
 
 ### <a id="dm-g002-019"></a>DM-G002-019 炼金体系HTML设计手册（2026-10-27新增）
 
