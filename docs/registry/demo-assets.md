@@ -34,10 +34,10 @@
 
 ### <a id="dm-g002-019"></a>DM-G002-019 炼金体系HTML设计手册（2026-10-27新增）
 
-- 归属：game-002 / main；[交付范围、操作与检查](../../yanzhou/sources/inbox/2026-10-27-classic-worldviews-recipe-route-r01.md#8-dm-g002-019-炼金体系html设计手册)。材料、产品、配方、铭文／工序与流派的可交互阅读稿，设计仍Raw Idea / Unqualified。
-- ALCHEMY-HTML-R04-01；[独立单文件HTML](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r04.html)，SHA-256：89efe2144ee4fb8b4fa6383e8bc6ccd5eb368c8d40925ebef6c48d4948b4a91f；设计来源固定于24270710d8655dc547ebc95bd47e6a918fdbffa5、上列研究文件“从一级普通材料重建的材料库 R04”。[三级材料截图](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r04-preview.png)为UI证据，非玩法运行截图；R03原件及旧登记按维护页固定取证保留。
-- ReadyForScope / PresentLocal（2026-10-27，仅本机阅读与已测交互）。实际HTTP预览7页，核对32种材料、35条配方、三级筛选、搜索、产品／材料详情及普通一级根料展开；默认视口所查页面无整页横向溢出，捕获的警告／错误日志为空。静态依赖无环、引用完整、名称字数匹配，详见维护页。file协议、手机尺寸、打印、全键盘、独立机器及玩法未验。
-- 沿本DM的R03自制HTML／CSS界面更新材料与配方，无外部美术、运行库或数据接口；本项目内部讨论可复用，公开分发许可未另定。uses: None；无其他方向资产改作；原件就地保管、不随元数据提交上传。不是主系统视觉基准，不改变规则或实验授权，暂无登记使用者。
+- 归属：game-002 / main；[版本、整理与检查](../../yanzhou/sources/inbox/2026-10-27-classic-worldviews-recipe-route-r01.md#3-html阅读稿与工作区整理)。[首批内容B01](../../yanzhou/sources/materials/M-2026-10-27-alchemy-batch-01.md)已由用户确认配方并完成Qualified；平衡与卡效仍待设计，NotRun。
+- ALCHEMY-BATCH-01-HTML-01；[独立HTML](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r04.html)，SHA-256：765f24f65b082bde5ec56b40a5fe3eedf1df55d682b21d070705be40efc581c6；固定内容源为71413c1fcf1f8ccfd61751abaf900d72c21efc55、上列合格素材。[确认状态截图](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r04-preview.png)为UI证据，非玩法截图。
+- ReadyForScope / PresentLocal（2026-10-27，仅本机阅读与已测交互）。本轮验证身份／配方签名未变、脚本语法、首批状态／来源链接与卡效费用建议标记，捕获日志无警告／错误；原R04的32材料、35配方及依赖检查沿固定证据，不冒充重新验证。file协议、手机尺寸、打印、全键盘、独立机器及玩法未验。
+- 同一DM阅读界面与来源版本更新，不新分配ID。旧R03与临时脚本退出活动目录，原件可恢复移动并压缩保全，入口与指纹见维护页；当前目录仅本批HTML、预览及限定静态附件。无外部美术、运行库或数据接口，本项目内部讨论可复用，公开分发许可未另定；不改变规则或实验授权。
 
 ### <a id="dm-g002-018"></a>DM-G002-018 暗酒红独立对象HTML审阅包
 
