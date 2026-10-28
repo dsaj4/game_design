@@ -1,10 +1,10 @@
 # Visual Audit Check
 
-- Audited frames: 4
-- Direct-image-read audited frames: 4
+- Audited frames: 13
+- Direct-image-read audited frames: 13
 - Copied-source audited frames: 0
 - Needs-review frames: 0
-- Illustration candidates: 4
+- Illustration candidates: 13
 - Passed: 8 / 8
 - Status: PASS
 

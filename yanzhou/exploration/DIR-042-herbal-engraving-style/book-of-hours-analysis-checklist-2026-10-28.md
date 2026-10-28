@@ -2,7 +2,7 @@
 
 2026-10-28 · 面向《言咒》DIR-042的美术、信息表达与2D交互选材。
 
-执行状态：2026-10-28已使用本地REA完成静态部分，[分析报告与24项覆盖](../../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/README.md)。已核对程序集、内容、配方和资源像素；实机启动被Windows防火墙提示阻塞，制作状态链、大收藏和多任务案例未完成。下列勾选框不因静态证据自动标为完成；迁移想法仍为Raw / Unqualified。
+执行状态：2026-10-28已使用本地REA完成静态部分，并在用户处理首次启动提示后取得自然开局实机链，[分析报告与24项覆盖](../../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/README.md)。已见查看、错误预告、投入退回、运行、完成未领取和收集去向；耀素制作、大收藏与双任务仍未完成，受控造景失败不充作补证。下列勾选框按报告逐项解释，不自动全勾；迁移想法仍为Raw / Unqualified。
 
 ## 研究目标与输入
 
@@ -126,6 +126,6 @@ P0先形成视觉和信息表达结论；P1再判断这些表达能否支撑具�
 - [开发日志：Early Draft Edition，2023-01-27](https://weatherfactory.biz/boh-the-early-draft-edition/)讨论书籍同时作为场景物件与配方输入，需要连接简洁卡牌美术和更具纹理的场景画法；也介绍把深入背景阅读设为可选、以属性关联并与主文分开呈现的意图。对应重点2—4。这是早期设计资料，具体交互以你所分析版本核对。
 - [开发日志：Shutter the windows against the sea，2022-08-26](https://weatherfactory.biz/shutter-the-windows-against-the-sea/)讨论大量卡牌／物件、总览与局部、多窗口和库存查找的并存问题。对应重点7—8；其中原型画面不直接当当前规范。
 - [官方发行回顾，2023-08-17](https://weatherfactory.biz/book-of-hours-is-out-now/)展示开发过程中保留与淘汰的方案，可用于对照设计演变，不将早期方案当最终行为。
-- [当前官方商店页](https://store.steampowered.com/app/1028310/BOOK_OF_HOURS/)用于核对产品范围与公开画面。以上均于2026-10-28查阅；本轮仅准备分析清单，没有新增实玩或深度分析结果。
+- [当前官方商店页](https://store.steampowered.com/app/1028310/BOOK_OF_HOURS/)用于核对产品范围与公开画面。以上均于2026-10-28的清单准备阶段查阅；当时没有实玩结果。后续REA与自然开局取证见页首报告，不把早期开发画面当本机运行。
 
 后续完整外部产品拆解正文按仓库约定进入 `media-analysis-lab/runs/`；本页保留面向言咒的研究问题与取材要求，结果形成后以固定入口引用。

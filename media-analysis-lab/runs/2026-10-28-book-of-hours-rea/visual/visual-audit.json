@@ -2,7 +2,7 @@
   "version": "0.1",
   "game_name": "BOOK OF HOURS",
   "slug": "2026-10-28-book-of-hours-rea",
-  "method": "主agent实际打开4张分析图；素材来自本机发布资源的UnityPy解码与Pillow编排。high仅指所列可见像素，所有实机行为保持未观察。",
+  "method": "V1—V4为已直接打开的离线资源分析图；V5—V13为主agent直接检查的自然开局实机截图。高置信度只覆盖所列可见事实；操作者为agent，不能代表真人测试。",
   "frames": [
     {
       "id": "V1",
@@ -152,6 +152,321 @@
       "conflicts": [],
       "illustration_candidate": true,
       "caption_for_dossier": "图4：重复资源名会误导取证，须同时保存文件、pathID与像素核对。"
+    },
+    {
+      "id": "V5",
+      "image_id": "I5",
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/runtime-r02/R08-journal-selected.png",
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "主agent通过computer-use get_window_state直接查看，随后将同一截图保存为证据",
+      "confidence": "high",
+      "visible_elements": [
+        "左上书册有金色选中边框；右上出现同图、一本被浸湿的书标题及属性。",
+        "左侧忆起操作仍开着，槽位为空；底部仍有风暴回忆和健康半溺。"
+      ],
+      "ocr_candidates": [],
+      "gameplay_observations": [
+        "点击查看没有使左上原书消失，右上是信息表示。"
+      ],
+      "ui_affordances": [
+        "仅对本截图与前后操作链说明；不是全游戏或真人体验结论。"
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-2",
+        "module-3",
+        "module-4",
+        "module-7",
+        "module-8"
+      ],
+      "conflicts": [],
+      "illustration_candidate": true,
+      "caption_for_dossier": "查看湿书时原位与详情并存",
+      "source_caption": "查看湿书时原位与详情并存",
+      "source_observations": [
+        "本轮自然开局截图。"
+      ]
+    },
+    {
+      "id": "V6",
+      "image_id": "I6",
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/runtime-r02/R09-wet-aspect.png",
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "主agent通过computer-use get_window_state直接查看，随后将同一截图保存为证据",
+      "confidence": "high",
+      "visible_elements": [
+        "右上水滴图标下方新增浸湿的说明。",
+        "中央出现复制到剪贴板通知；它与左侧操作窗、右上说明同时可见。"
+      ],
+      "ocr_candidates": [],
+      "gameplay_observations": [
+        "属性解释和点击复制副作用同时出现，不能将该点击描述成仅展开。"
+      ],
+      "ui_affordances": [
+        "仅对本截图与前后操作链说明；不是全游戏或真人体验结论。"
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-2",
+        "module-3",
+        "module-4",
+        "module-7",
+        "module-8"
+      ],
+      "conflicts": [],
+      "illustration_candidate": true,
+      "caption_for_dossier": "属性说明与复制提示",
+      "source_caption": "属性说明与复制提示",
+      "source_observations": [
+        "本轮自然开局截图。"
+      ]
+    },
+    {
+      "id": "V7",
+      "image_id": "I7",
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/runtime-r02/R13-soul-input.png",
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "主agent通过computer-use get_window_state直接查看，随后将同一截图保存为证据",
+      "confidence": "high",
+      "visible_elements": [
+        "湿书和健康半溺分别处于两个槽。",
+        "标题为冻僵的手指，说明提到需要温暖干燥安全之处；开始按钮暗。"
+      ],
+      "ocr_candidates": [],
+      "gameplay_observations": [
+        "槽位接纳与当前目标可执行性不是同一层。"
+      ],
+      "ui_affordances": [
+        "仅对本截图与前后操作链说明；不是全游戏或真人体验结论。"
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-2",
+        "module-3",
+        "module-4",
+        "module-7",
+        "module-8"
+      ],
+      "conflicts": [],
+      "illustration_candidate": true,
+      "caption_for_dossier": "可放入却不能完成目标",
+      "source_caption": "可放入却不能完成目标",
+      "source_observations": [
+        "本轮自然开局截图。"
+      ]
+    },
+    {
+      "id": "V8",
+      "image_id": "I8",
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/runtime-r02/R20-close-unstarted.png",
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "主agent通过computer-use get_window_state直接查看，随后将同一截图保存为证据",
+      "confidence": "high",
+      "visible_elements": [
+        "操作窗不再显示；湿书回到左上，健康半溺回到底部魂质类。",
+        "风暴回忆仍在回忆类；右上健康详情保留。"
+      ],
+      "ocr_candidates": [],
+      "gameplay_observations": [
+        "关闭未开始操作后实物退回，详情可独立保留。"
+      ],
+      "ui_affordances": [
+        "仅对本截图与前后操作链说明；不是全游戏或真人体验结论。"
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-2",
+        "module-3",
+        "module-4",
+        "module-7",
+        "module-8"
+      ],
+      "conflicts": [],
+      "illustration_candidate": true,
+      "caption_for_dossier": "未开始投入被退回",
+      "source_caption": "未开始投入被退回",
+      "source_observations": [
+        "本轮自然开局截图。"
+      ]
+    },
+    {
+      "id": "V9",
+      "image_id": "I9",
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/runtime-r02/R23-storm-preview.png",
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "主agent通过computer-use get_window_state直接查看，随后将同一截图保存为证据",
+      "confidence": "high",
+      "visible_elements": [
+        "两个槽中为湿书和风暴回忆；左上原书格为空。",
+        "左侧叙述为风暴和漂流；开始按钮亮；右上为风暴详情。"
+      ],
+      "ocr_candidates": [],
+      "gameplay_observations": [
+        "换成回忆后得到可执行预告；未开始时新回忆尚未进入库存。"
+      ],
+      "ui_affordances": [
+        "仅对本截图与前后操作链说明；不是全游戏或真人体验结论。"
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-2",
+        "module-3",
+        "module-4",
+        "module-7",
+        "module-8"
+      ],
+      "conflicts": [],
+      "illustration_candidate": true,
+      "caption_for_dossier": "正确投入后的预告",
+      "source_caption": "正确投入后的预告",
+      "source_observations": [
+        "本轮自然开局截图。"
+      ]
+    },
+    {
+      "id": "V10",
+      "image_id": "I10",
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/runtime-r02/R24-recall-started.png",
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "主agent通过computer-use get_window_state直接查看，随后将同一截图保存为证据",
+      "confidence": "high",
+      "visible_elements": [
+        "原矩形投入槽变为环上的两枚小圆图。",
+        "剩余时间约3.8s；原书格为空，新回忆未在底部显示。"
+      ],
+      "ocr_candidates": [],
+      "gameplay_observations": [
+        "运行中表示与准备表示不同；不能仅凭小圆图确定消耗精确帧。"
+      ],
+      "ui_affordances": [
+        "仅对本截图与前后操作链说明；不是全游戏或真人体验结论。"
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-2",
+        "module-3",
+        "module-4",
+        "module-7",
+        "module-8"
+      ],
+      "conflicts": [],
+      "illustration_candidate": true,
+      "caption_for_dossier": "操作正在计时",
+      "source_caption": "操作正在计时",
+      "source_observations": [
+        "本轮自然开局截图。"
+      ]
+    },
+    {
+      "id": "V11",
+      "image_id": "I11",
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/runtime-r02/R25-recall-complete-uncollected.png",
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "主agent通过computer-use get_window_state直接查看，随后将同一截图保存为证据",
+      "confidence": "high",
+      "visible_elements": [
+        "输出区域可见一本书封和后方三张牌背。",
+        "行动标记为4；按钮为收集；底部回忆区仍无这三张新卡。"
+      ],
+      "ocr_candidates": [],
+      "gameplay_observations": [
+        "完成与收集入手是可分别观察的两个状态。"
+      ],
+      "ui_affordances": [
+        "仅对本截图与前后操作链说明；不是全游戏或真人体验结论。"
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-2",
+        "module-3",
+        "module-4",
+        "module-7",
+        "module-8"
+      ],
+      "conflicts": [],
+      "illustration_candidate": true,
+      "caption_for_dossier": "完成结果仍在窗口",
+      "source_caption": "完成结果仍在窗口",
+      "source_observations": [
+        "本轮自然开局截图。"
+      ]
+    },
+    {
+      "id": "V12",
+      "image_id": "I12",
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/runtime-r02/R26-complete-left-closed.png",
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "主agent通过computer-use get_window_state直接查看，随后将同一截图保存为证据",
+      "confidence": "high",
+      "visible_elements": [
+        "操作窗已关闭，左侧行动标记仍有4。",
+        "左上书格仍空，底部只见健康半溺，没有三张新回忆。"
+      ],
+      "ocr_candidates": [],
+      "gameplay_observations": [
+        "本例完成后关窗不自动把结果送回库存。"
+      ],
+      "ui_affordances": [
+        "仅对本截图与前后操作链说明；不是全游戏或真人体验结论。"
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-2",
+        "module-3",
+        "module-4",
+        "module-7",
+        "module-8"
+      ],
+      "conflicts": [],
+      "illustration_candidate": true,
+      "caption_for_dossier": "完成后关窗未领取",
+      "source_caption": "完成后关窗未领取",
+      "source_observations": [
+        "本轮自然开局截图。"
+      ]
+    },
+    {
+      "id": "V13",
+      "image_id": "I13",
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/runtime-r02/R30-recall-settled.png",
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "主agent通过computer-use get_window_state直接查看，随后将同一截图保存为证据",
+      "confidence": "high",
+      "visible_elements": [
+        "左上恢复一张捆扎书图。",
+        "左下出现三种彩色回忆卡；魂质区仍有健康半溺1张。"
+      ],
+      "ocr_candidates": [],
+      "gameplay_observations": [
+        "与初始和准备状态对照，书保留，风暴回忆被使用，新出现三张开局设定回忆。"
+      ],
+      "ui_affordances": [
+        "仅对本截图与前后操作链说明；不是全游戏或真人体验结论。"
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-2",
+        "module-3",
+        "module-4",
+        "module-7",
+        "module-8"
+      ],
+      "conflicts": [],
+      "illustration_candidate": true,
+      "caption_for_dossier": "收集后的分类与唯一对象",
+      "source_caption": "收集后的分类与唯一对象",
+      "source_observations": [
+        "本轮自然开局截图。"
+      ]
     }
   ]
 }

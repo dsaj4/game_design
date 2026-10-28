@@ -4,7 +4,7 @@
     "game_name": "BOOK OF HOURS",
     "slug": "2026-10-28-book-of-hours-rea",
     "analysis_scope": "按DIR-042清单分析指定本机2024.12.m.3的符号、对象表示、信息层、器物、槽位、制作、查找与窗口；静态和运行分开。",
-    "status": "StaticEvidenceComplete-RuntimeBlocked",
+    "status": "StaticComplete-NaturalRuntimePartial-ControlledFailed-Restored",
     "target_questions": [
       "P0-1：符号与语义",
       "P0-2：实体与卡牌身份",
@@ -32,6 +32,16 @@
       "path": "evidence/recipes-slots.md",
       "role": "配方、槽位、提示与设置解析",
       "description": "制作样例、类型错误、数值不足、查找和完成回访。"
+    },
+    {
+      "path": "evidence/runtime-observations-r02.md",
+      "role": "自然开局实机动作和状态链",
+      "description": "实际操作产生的R编号截图；不与REA静态Evidence或受控生成混淆。"
+    },
+    {
+      "path": "evidence/controlled-attempt-r02.md",
+      "role": "受控造景失败与恢复",
+      "description": "只支持本轮造景范围、失败和数据恢复，不能作为正常游戏缺陷。"
     }
   ],
   "images": [
@@ -77,6 +87,114 @@
       ],
       "observations": [
         "不同pathID有重复纹理名，须避免直接选取首个同名资源。"
+      ]
+    },
+    {
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/runtime-r02/R08-journal-selected.png",
+      "caption": "查看湿书时原位与详情并存",
+      "evidence_tags": [
+        "ui",
+        "system",
+        "core-loop"
+      ],
+      "observations": [
+        "自然开局实际操作截图；见runtime-observations-r02.md的动作与前后关系。"
+      ]
+    },
+    {
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/runtime-r02/R09-wet-aspect.png",
+      "caption": "属性说明与复制提示",
+      "evidence_tags": [
+        "ui",
+        "system",
+        "core-loop"
+      ],
+      "observations": [
+        "自然开局实际操作截图；见runtime-observations-r02.md的动作与前后关系。"
+      ]
+    },
+    {
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/runtime-r02/R13-soul-input.png",
+      "caption": "可放入却不能完成目标",
+      "evidence_tags": [
+        "ui",
+        "system",
+        "core-loop"
+      ],
+      "observations": [
+        "自然开局实际操作截图；见runtime-observations-r02.md的动作与前后关系。"
+      ]
+    },
+    {
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/runtime-r02/R20-close-unstarted.png",
+      "caption": "未开始投入被退回",
+      "evidence_tags": [
+        "ui",
+        "system",
+        "core-loop"
+      ],
+      "observations": [
+        "自然开局实际操作截图；见runtime-observations-r02.md的动作与前后关系。"
+      ]
+    },
+    {
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/runtime-r02/R23-storm-preview.png",
+      "caption": "正确投入后的预告",
+      "evidence_tags": [
+        "ui",
+        "system",
+        "core-loop"
+      ],
+      "observations": [
+        "自然开局实际操作截图；见runtime-observations-r02.md的动作与前后关系。"
+      ]
+    },
+    {
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/runtime-r02/R24-recall-started.png",
+      "caption": "操作正在计时",
+      "evidence_tags": [
+        "ui",
+        "system",
+        "core-loop"
+      ],
+      "observations": [
+        "自然开局实际操作截图；见runtime-observations-r02.md的动作与前后关系。"
+      ]
+    },
+    {
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/runtime-r02/R25-recall-complete-uncollected.png",
+      "caption": "完成结果仍在窗口",
+      "evidence_tags": [
+        "ui",
+        "system",
+        "core-loop"
+      ],
+      "observations": [
+        "自然开局实际操作截图；见runtime-observations-r02.md的动作与前后关系。"
+      ]
+    },
+    {
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/runtime-r02/R26-complete-left-closed.png",
+      "caption": "完成后关窗未领取",
+      "evidence_tags": [
+        "ui",
+        "system",
+        "core-loop"
+      ],
+      "observations": [
+        "自然开局实际操作截图；见runtime-observations-r02.md的动作与前后关系。"
+      ]
+    },
+    {
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/runtime-r02/R30-recall-settled.png",
+      "caption": "收集后的分类与唯一对象",
+      "evidence_tags": [
+        "ui",
+        "system",
+        "core-loop"
+      ],
+      "observations": [
+        "自然开局实际操作截图；见runtime-observations-r02.md的动作与前后关系。"
       ]
     }
   ]

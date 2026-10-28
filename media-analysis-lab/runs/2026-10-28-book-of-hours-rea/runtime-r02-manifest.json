@@ -1,0 +1,370 @@
+{
+  "version": "BOH-REA-2026-10-28-v02",
+  "inherits_static_version": "BOH-REA-2026-10-28-v01",
+  "root": "E:\\Game\\BOOK OF HOURS-analysis\\2026-10-28\\runtime-r02",
+  "evidence_classes": {
+    "R": "自然开局实际操作",
+    "C": "受控尝试，FailedSetup，不支持正常制作/高收藏/双任务结论"
+  },
+  "excluded": [
+    "C04-malleary-open.png：错获前台Codex，非游戏证据，不纳入视觉审计。"
+  ],
+  "recovery": {
+    "config_sha256": "95631de4095a88ad9d573dd7741816c29d4b5750c6cd329bdc3f178d76d4fc11",
+    "autosave_and_named_natural_sha256": "3b7a1fce2bed7afe2082d55a7402d8ff7ef7938b4dd3acc6c6b4346f3ad8fd14",
+    "debug_setting_removed": true,
+    "failed_fixture_disabled": true,
+    "game_process_state": "已退出，恢复时确认无bh进程"
+  },
+  "files": [
+    {
+      "path": "C01-debug-entry-attempt.png",
+      "bytes": 96581,
+      "sha256": "af79ce4ffd6995da79a4424290a10be354edfaac00783cf39d501354d1fa26a4"
+    },
+    {
+      "path": "C02-debug-alternate-key.png",
+      "bytes": 96712,
+      "sha256": "001e95ac98abfeff42380d61cc4bd980bde2fec35a074bef8d11105578eb0767"
+    },
+    {
+      "path": "C03-debug-after-scene-focus.png",
+      "bytes": 106203,
+      "sha256": "b4b61ce6290a12301fa53b22d9e2ab8839f3555ea01e3b709565a46339f88c05"
+    },
+    {
+      "path": "C04-malleary-open.png",
+      "bytes": 110341,
+      "sha256": "7131b1eaaaa31680d3adc77066e64842b8364c60f5d50d219952ad941211c477"
+    },
+    {
+      "path": "C05-malleary-bound.png",
+      "bytes": 109860,
+      "sha256": "7cf32ab82b17c80d645ccd6ab74ba5ad0e595f150c61a8cfa8a8f1a4f4fdb8d6"
+    },
+    {
+      "path": "C06-spawn-xpho.png",
+      "bytes": 120083,
+      "sha256": "6106731a5149dabfffb51e046df2006fee191bdd8f7231bb87c7f75c2342ef39"
+    },
+    {
+      "path": "C07-create-reading-desk.png",
+      "bytes": 125819,
+      "sha256": "5b82b303826ad116cd4cd5811651ae5fd27e287334c66c2e85efb65a96aad5ab"
+    },
+    {
+      "path": "C08-controlled-desk-window.png",
+      "bytes": 137773,
+      "sha256": "327c02aac6125c1574625a2c08b5961c18f70ac1e50b4aa5b489861fedc228a0"
+    },
+    {
+      "path": "C09-skill-in-normal-hand.png",
+      "bytes": 138007,
+      "sha256": "a3b3cc187cc61c2332f7fec5a6b89cce056adfaa45e31262c19a0d798209ad44"
+    },
+    {
+      "path": "C10-skill-send-attempt.png",
+      "bytes": 137014,
+      "sha256": "92b1990d7e547b1f59046e95f0de9b1d5ccd7c6630d329810f625efa022f424f"
+    },
+    {
+      "path": "C11-drydock-transfer-test.png",
+      "bytes": 137097,
+      "sha256": "5549edef0c33e6059e2f3f7213a9ffb1458a79f5c1d9d5d0c1296634780765b6"
+    },
+    {
+      "path": "C12-load-explicit-fixture.png",
+      "bytes": 99092,
+      "sha256": "453cbcc27a9595ea07d0dc17d4c3176dc34c1b2c5b05e632cafae9c73e336dc5"
+    },
+    {
+      "path": "C13-fixture-save-failed.png",
+      "bytes": 96935,
+      "sha256": "c8e6db73d1f8f46ccc8b288d7d128eb5fa047f2925d604c7c82d9d23e803a478"
+    },
+    {
+      "path": "controlled-fixture-manifest.json",
+      "bytes": 1609,
+      "sha256": "24bc3bd89bd6d782d967d212c0431077599fdc3214ce4dd4ab0af689087bc8cc"
+    },
+    {
+      "path": "controlled-token-specs.json",
+      "bytes": 1031,
+      "sha256": "c3e081876708402c002b03e1b8c6b509835da5869be99943da868e3d4026117d"
+    },
+    {
+      "path": "debug-setup-notes.md",
+      "bytes": 10498,
+      "sha256": "39559e2b79d13b3fd972ea34365911119dbe31a6b6ee83dbb8248676a683638e"
+    },
+    {
+      "path": "finalize_r02.py",
+      "bytes": 5226,
+      "sha256": "cd43fc426e87f4fee002cb0e272b9d59b4e4db44bf361f697bd05d4c16f4d6b0"
+    },
+    {
+      "path": "fixture-failure-Player.log",
+      "bytes": 23672,
+      "sha256": "2cea96113be769fea94ad3e9d85262bae36f3d52e80e3d8ef39103c6289f702d"
+    },
+    {
+      "path": "inspect_fixture_source.py",
+      "bytes": 664,
+      "sha256": "ecdf3d2d4756d9058a63908e6e8ab57a5f3acc3a0a10f132851f9a05fe02bd62"
+    },
+    {
+      "path": "malleary-buttons.json",
+      "bytes": 3142,
+      "sha256": "19cd9e61cd5f5a99889adaa7e01911cf331871963a3be69d9c626dd9a0d54d03"
+    },
+    {
+      "path": "map_malleary_buttons.py",
+      "bytes": 2003,
+      "sha256": "a2f0addec6d09da63abf19719a90e2886887f0e675de63aadbd1e796d208a446"
+    },
+    {
+      "path": "natural-recipe-map.md",
+      "bytes": 9719,
+      "sha256": "25bf3ce4ba5421988d0a4c2939d588c4e330a37dc73be1cdd29239ea3eea593f"
+    },
+    {
+      "path": "observations.json",
+      "bytes": 21164,
+      "sha256": "1fba4a226016a11bf66633847e32cf0a555612f1adc17a5adedc3f97e9765337"
+    },
+    {
+      "path": "prepare_fixture.py",
+      "bytes": 3504,
+      "sha256": "f9886feb73f1943793b89c5287b07553b32e975d30ac3db2b3a67f4fa2c42709"
+    },
+    {
+      "path": "profile-backup/AUTOSAVE-before-debug.json",
+      "bytes": 4831315,
+      "sha256": "3b7a1fce2bed7afe2082d55a7402d8ff7ef7938b4dd3acc6c6b4346f3ad8fd14"
+    },
+    {
+      "path": "profile-backup/AUTOSAVE-control-base.json",
+      "bytes": 4858648,
+      "sha256": "54429e4e8fbe6975328a8721b2d851a7d4de6fa2f162f32b1daa3d209ee913cf"
+    },
+    {
+      "path": "profile-backup/config-after-debug.ini",
+      "bytes": 137,
+      "sha256": "776f5bdd947d915ba352e844054179b731d67d1203f76d9c4681d5a22f1447d1"
+    },
+    {
+      "path": "profile-backup/config-before-debug.ini",
+      "bytes": 125,
+      "sha256": "95631de4095a88ad9d573dd7741816c29d4b5750c6cd329bdc3f178d76d4fc11"
+    },
+    {
+      "path": "profile-backup/REA-20261028-natural.json",
+      "bytes": 4831315,
+      "sha256": "3b7a1fce2bed7afe2082d55a7402d8ff7ef7938b4dd3acc6c6b4346f3ad8fd14"
+    },
+    {
+      "path": "R01-menu.png",
+      "bytes": 102065,
+      "sha256": "0e4977d607f488d627b0ea86e4ac264ae3d3631007fb8800d08c72450e43adad"
+    },
+    {
+      "path": "R02-new-game.png",
+      "bytes": 38123,
+      "sha256": "d4c294ac18e5afe1a8307f47b766cfa9fba7462fba5a0d02991763778e657c16"
+    },
+    {
+      "path": "R03-start-options.png",
+      "bytes": 106052,
+      "sha256": "b8edf0ea3f682cf82ea7f7030b4c3a4be1e658bc290c2780c7bb43d4a70efa3c"
+    },
+    {
+      "path": "R04-start-hints.png",
+      "bytes": 115839,
+      "sha256": "3cbfd1ca3529c55e119f834d4f6925862478b20917875f1c5832171074a4f913"
+    },
+    {
+      "path": "R05-first-card-choice.png",
+      "bytes": 119866,
+      "sha256": "03272341faebfeff5e22922d42223c3718ffdb3679efd3136c2299dd22146447"
+    },
+    {
+      "path": "R06-collect-opening.png",
+      "bytes": 112324,
+      "sha256": "8b4c3220df9de82ec4d2982d7ef6a79b2ddfa68ac65488505e8a370abe2f7f48"
+    },
+    {
+      "path": "R07-opening-settled.png",
+      "bytes": 113935,
+      "sha256": "2ef24d283f416ef537caadc1ad500b6e7326d5fc7dad5bdb35ffcb6eafe7d577"
+    },
+    {
+      "path": "R08-journal-selected.png",
+      "bytes": 123915,
+      "sha256": "107a915f9ae826e848630eb302b9b88fcb8f77780995d174c4d42cdd9cfefa4d"
+    },
+    {
+      "path": "R09-wet-aspect.png",
+      "bytes": 125005,
+      "sha256": "d6a45ad4fc71b45d6f9e975a6b6cd14072e1023ea5a803d9634c81170a077864"
+    },
+    {
+      "path": "R10-pause-attempt.png",
+      "bytes": 121264,
+      "sha256": "3422f720a08b133042178d16aabf617308935eef2575e05fe86e8ba2da09f6a4"
+    },
+    {
+      "path": "R11-book-in-salvage.png",
+      "bytes": 111930,
+      "sha256": "bb19e6df119f0c499b69b658b502664312efcc150227ee2c100f1816f18407ec"
+    },
+    {
+      "path": "R12-book-doubleclick.png",
+      "bytes": 123152,
+      "sha256": "e1202c4a29d345e0f1e2ce789cf223d9514a9ac44a8315a920b7b7745293be4e"
+    },
+    {
+      "path": "R13-soul-input.png",
+      "bytes": 124506,
+      "sha256": "8b9f1e9d77e084338d8571d4f49c916f0268c9ec7151fb82f606b6b1e949631d"
+    },
+    {
+      "path": "R14-withdraw-soul.png",
+      "bytes": 124128,
+      "sha256": "ad2c91075e52baae9d60ba8e28341bd534eb81a6c4b8bee1227ae3e3da5072c3"
+    },
+    {
+      "path": "R15-drag-withdraw.png",
+      "bytes": 124577,
+      "sha256": "ea19d924955291872ac6ac5acf401a75296c1cb8065a776a9de015903d217ed6"
+    },
+    {
+      "path": "R16-replace-with-storm.png",
+      "bytes": 121944,
+      "sha256": "ad2a4e2b9f60ed6760373621d84b4ca6e3e2b8aecba014252dc1ee04d2203862"
+    },
+    {
+      "path": "R17-rightclick-withdraw.png",
+      "bytes": 124181,
+      "sha256": "38821cf49b85393e8b4939d8902f28f858bd8d466176633b399b49c83f06be68"
+    },
+    {
+      "path": "R18-slower-control.png",
+      "bytes": 124124,
+      "sha256": "8e9cbe7c310b3da81bc7a7912590ed2611c204550a1ec07bc88d29ed06e49990"
+    },
+    {
+      "path": "R19-toggle-clock.png",
+      "bytes": 124296,
+      "sha256": "975a0ee649bb3d4f09814770ee06867f5e5b4705a8ba2f48c0e59ece130fef88"
+    },
+    {
+      "path": "R20-close-unstarted.png",
+      "bytes": 110230,
+      "sha256": "20b5a1dda78a0fce9f986065f41212b3b9c678e0dabd53b5b18e613ed0d4cd90"
+    },
+    {
+      "path": "R21-open-again.png",
+      "bytes": 115722,
+      "sha256": "5a15340b47ffe814aba074847d06777ea7f6c1291a8aa1cf36a39244ebc050f8"
+    },
+    {
+      "path": "R22-book-only.png",
+      "bytes": 122911,
+      "sha256": "0a8afd0c240fbfd58cca166b43d1d5d3d8b1db82e8ab88671e5c5a30418ec3a7"
+    },
+    {
+      "path": "R23-storm-preview.png",
+      "bytes": 124042,
+      "sha256": "091444e9b71a314f1a3996a36c3048efb4e5901f5f633d3a32429c9288890f96"
+    },
+    {
+      "path": "R24-recall-started.png",
+      "bytes": 121661,
+      "sha256": "77fd9ec92ab3af7a3fbdea7183a484613147cc1c49e78d7b927e1c6c39e6d527"
+    },
+    {
+      "path": "R25-recall-complete-uncollected.png",
+      "bytes": 126677,
+      "sha256": "9fe4f5daf96e2959fc56a67c0d6d18556e2198d3f367c22c4730730ce89cdaad"
+    },
+    {
+      "path": "R26-complete-left-closed.png",
+      "bytes": 106193,
+      "sha256": "b5cd6fda1c1791953097b40254ecf97d224fd2af84bb31d914d6a29bcac1f735"
+    },
+    {
+      "path": "R27-completed-return-key.png",
+      "bytes": 106374,
+      "sha256": "6cb855ed23a7ba8e0bd4f5e1e0bacdcfb6a358400bca60ebaa878f692d54bd9f"
+    },
+    {
+      "path": "R28-return-to-complete.png",
+      "bytes": 127032,
+      "sha256": "18270dab2aa4df9df398cbb002eca0c3524cb502e3bc63c55a1ab0ba9f98a490"
+    },
+    {
+      "path": "R29-recall-collected.png",
+      "bytes": 114539,
+      "sha256": "5f534c149339f9c7fd20ea21de4217708ccb5c2c68866dcc5a5ae72133194564"
+    },
+    {
+      "path": "R30-recall-settled.png",
+      "bytes": 116430,
+      "sha256": "ab1afdceb50184f2bd43496961b786c5bd51dd55804447021c2bb413332b49e0"
+    },
+    {
+      "path": "R31-menu.png",
+      "bytes": 86638,
+      "sha256": "58525ef17150aa56266b0fd58272ee15f466dc6386c56a722495256d4cf07efd"
+    },
+    {
+      "path": "R32-save-dialog.png",
+      "bytes": 90417,
+      "sha256": "c9ad541ee347da1a4a66f9bf49746ee724bffc30ddb1f3dfeb03ca129d9069dc"
+    },
+    {
+      "path": "R33-natural-saved.png",
+      "bytes": 86814,
+      "sha256": "bb73fce1b646ae79e56d132e9a0e28914b809edeb662522ab80c6b8f6dee1c62"
+    },
+    {
+      "path": "R34-save-exit.png",
+      "bytes": 120771,
+      "sha256": "1a9559b8f1a8d7db1f66ef49343ff7334fb3b140553a3f62ee37800e07e4e2b0"
+    },
+    {
+      "path": "R35-research-reload.png",
+      "bytes": 51709,
+      "sha256": "f1e1e773daf77cffd14730d19b59c7c373c7ffd6ed3fa4bf426bc6d70a3f491c"
+    },
+    {
+      "path": "REA-20261028-controlled-fixture.json",
+      "bytes": 4771198,
+      "sha256": "3c314464a02e678b4096071154bd3550143f7a794da31611756900fbebf077fc"
+    },
+    {
+      "path": "update_dossier_r02.py",
+      "bytes": 9454,
+      "sha256": "671baced670fb978e9a3115d3d0e2c717fffe3a62069434cce5dfaf603e66a9e"
+    },
+    {
+      "path": "update_runtime_audit.py",
+      "bytes": 5236,
+      "sha256": "ff25d8d2cb55a9f2b4b8ae28dbbaa9fc09ac6a83bbd5eb23ccca958a43a2e9fd"
+    }
+  ],
+  "additional_shipped_sources": [
+    {
+      "path": "bh_Data/level0",
+      "bytes": 210328,
+      "sha256": "b3f8e9e00af282c2bbea8ce785aa11e3a4d96e4a559d345febc046cba7bf86d4",
+      "use": "只读核对Malleary按钮事件与GO名称，非REA Evidence。"
+    },
+    {
+      "path": "bh_Data/level5",
+      "bytes": 8139392,
+      "sha256": "8aab2867514818fa520a183850f3bb279a23e93e71e0425343e93afee9020ab2",
+      "use": "只读核对Malleary按钮事件与GO名称，非REA Evidence。"
+    }
+  ]
+}

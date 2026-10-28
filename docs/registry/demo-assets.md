@@ -462,6 +462,6 @@ DM-G002-011第十三批使用补记：GODOT-DEMONCARDS-CANDIDATES-B13-01，固�
 ### <a id="as-sh-003"></a>AS-SH-003 Book of Hours 本机分析参考包
 
 - 归属shared-reference / media-analysis-lab；唯一维护入口为[本轮分析包](../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/README.md)。类型：用户提供第三方游戏、本机REA证据、内容核对及资源对照图；用途为符号、器物、对象表示、槽位与制作表达研究。
-- 固定版BOH-REA-2026-10-28-v01；[发布文件身份](../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/source-manifest.json)、[REA记录身份](../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/rea-evidence-index.json)、[本机输出范围及SHA-256](../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/local-output-manifest.json)。原件在 `E:/Game/BOOK OF HOURS v2024.12.m.3/`，取证另存 `E:/Game/BOOK OF HOURS-analysis/2026-10-28/`；不把整个可变目录当固定版本。
-- Catalogued / PresentLocal；2026-10-28已核版本、主程序集、内容/配方样本与4张资源分析图；游戏仅启动到简中菜单，防火墙提示待用户手动处理。制作时点、实际查找和多任务体验未取得，不能升格为完整玩法验证。
+- 固定版BOH-REA-2026-10-28-v02；继承v01的[发布文件身份](../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/source-manifest.json)、[REA记录](../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/rea-evidence-index.json)和[静态导出](../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/local-output-manifest.json)，新增[实机与恢复清单](../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/runtime-r02-manifest.json)。原件和取证仍在本机原位置；v01文档沿提交`feee23195fe277afaaf9aef5e3846a7a69439efe`保留。
+- Catalogued / PresentLocal；2026-10-28核静态样本与4张资源图，用户处理启动提示后新增9张直接审计的自然玩法截图，覆盖湿书查看/投入/失败提示/撤回/完成/收集。耀素、大收藏、双任务仍未覆盖；受控副本造景FailedSetup，不充作正常玩法证据。原配置及自然默认存档已恢复并校验，失败原件保本机且从普通加载列表禁用。
 - uses: None；derived-from: None；使用者game-002-optimization / DIR-042，限Raw候选视觉与信息表达参照，未导入游戏。原游戏作者Weather Factory；本机研究由用户指定，原图/文本/程序集的公开再分发与改作条件Unknown，原始第三方缓存不入Git。详细规格、工具与局限沿包入口。
