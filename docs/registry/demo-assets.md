@@ -40,10 +40,10 @@
 
 ## <a id="as-g002-034"></a>AS-G002-034 桌面与基础UI组件源件
 
-- game-002 / main；[组件预览、导出包及完整登记](../../yanzhou/visual/tabletop-components-2026-10-28/README.md)。2026-10-28用户要求先拆正式美术组件，法器与卡牌后置。TABLETOP-COMPONENTS-01：3个完整底板、4个无字UI底板、3类筹码及30个控件分片，共40个PNG，导出集合由同目录manifest逐件固定原生尺寸、alpha、哈希和来源。
-- derived-from: AS-G002-032@HERBAL-ENGRAVING-06 / scene-v06.png。33个原RGB裁片及4个拼接无字底板；木桌／桌垫／工作台因遮挡和透视拼接失败，另用内置image_gen沿v06参考补齐，不声称像素级分离。准确提示词、生成原件与保留区域裁切均有来源；不取用AS-G002-033卡牌符号或旧第三方游戏资产。
-- ReadyForScope / PresentLocal（2026-10-28，限PNG／alpha／哈希／像素对应和三种底色／分层合成检查）；用户接受PendingReview，正式引擎／触区／压缩预算NotRun。法器、铭文词片、卡面／卡背／卡框均未制作，完整状态及陈设仍待后续。原图、DM-G002-020和正式游戏工程未改。
-- 图片、ZIP及制作工具保本机，文档／manifest／提示词入Git。原试件58片中仅33片列入正式集合，失败和局部试验不打包；来源原件与工具位于 `E:/Project/yanzhou-art-assets/tabletop-components-2026-10-28/`，导出在维护页exports/。仅本项目内部使用／审阅，公开分发条件未另定。
+- game-002 / main；[当前v02预览、导出包及登记](../../yanzhou/visual/tabletop-components-2026-10-28/imagegen-v02/README.md)。2026-10-28按用户要求改为TABLETOP-COMPONENTS-02：木桌、桌垫、工作台、4个无字UI底板、3类筹码，共10个完整组件，每件各一次独立内置image_gen生成。原生画布、alpha、SHA、生成原件及10份准确提示词由同目录manifest固定。
+- v06（AS-G002-032@HERBAL-ENGRAVING-06）与v01完整UI／筹码仅作风格／形制参考；当前10个导出均与各自生成原件字节一致，无生产裁切、抠色、拼接、缩放或旧分片混入。原TABLETOP-COMPONENTS-01的40个PNG、manifest／checks和ZIP字节保留，原记录沿提交`69d45a6f16572709c1d0b8907a8b502f7492bafb`；AS-G002-033未取用。
+- ReadyForScope / PresentLocal（2026-10-28，限10次来源对应／原PNG哈希／9个透明件和1个背景／三种底色预览检查）。用户接受PendingReview，正式引擎／触区／压缩预算NotRun；新轮廓和比例不继承v01切片边距。法器、铭文词片和卡牌继续后置，额外状态／陈设仍待后续；v06、DM-G002-020及正式游戏工程未改。
+- 图片、ZIP和制作工具保本机，文档／manifest／提示词入Git。v02的逐件原件对应表及工具在 `E:/Project/yanzhou-art-assets/tabletop-components-2026-10-28/imagegen-v02/`；当前导出只取新维护页exports/的10张原图。仅本项目内部使用／审阅，公开分发条件未另定。
 
 ## Demo
 

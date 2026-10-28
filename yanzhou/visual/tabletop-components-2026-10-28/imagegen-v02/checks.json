@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-28",
+  "components": 10,
+  "separateGenerationCalls": 10,
+  "distinctOriginalFiles": 10,
+  "byteIdenticalExports": 10,
+  "trueAlphaAssets": 9,
+  "opaqueBackgrounds": 1,
+  "transparentAssetCornersZero": true,
+  "promptsMatchPlan": true,
+  "artworkModifiedAfterGeneration": false,
+  "cropSliceOrAssemblyUsedForProduction": false,
+  "scope": "PNG metadata/provenance and copied-byte checks; visible art checked separately",
+  "visualInspection": [
+    "Ten single logical components, no collage/sprite-sheet production",
+    "Mat and bench complete outlines, devices/cards absent",
+    "Four UI surfaces without baked labels/counts",
+    "Heart, shield and star major symbols distinct",
+    "Nine transparent assets reviewed over light/dark/wood"
+  ],
+  "fullOriginalCanvasesPreserved": true,
+  "v01AndV06Unchanged": true,
+  "frozenPrototypeUnchanged": true,
+  "originalAndExportHashesMatchAfterPreview": 10,
+  "manifestSha256": "cd7079bac38bc877f1fcca86428c064d19d09f4b9a607fbdc656c5211d0f58f3",
+  "notRun": [
+    "Pixel-identical silhouettes across variants",
+    "New slice margins/hit areas",
+    "Official engine integration and compression budget",
+    "All additional painted states/props",
+    "User art acceptance",
+    "Gameplay"
+  ]
+}

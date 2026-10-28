@@ -1,5 +1,9 @@
 # 桌面与基础UI组件拆分
 
+**当前交付改为[全部逐件imagegen的v02](imagegen-v02/README.md)**：现有10个完整组件各一次独立生成，导出PNG与原件字节一致，不再以旧直裁或拼接件作为当前输出。法器／卡牌继续后置。
+
+## 历史v01：直裁与补绘混合版
+
 2026-10-28 · game-002 / main · AS-G002-034 / TABLETOP-COMPONENTS-01。基础组件源件已交付，PNG／透明／合成局部检查通过，美术接受及引擎接入待验。按用户顺序先做桌面、容器和基础UI，法器／卡牌后置；没有修改DM-G002-020或正式游戏工程。
 
 **[打开组件预览](preview-components.png)** · [本机资产导出包](tabletop-components-v01.zip) · [空桌面分层合成](preview-layout.png) · [接入说明](IMPORT.md)

@@ -1,0 +1,422 @@
+{
+  "id": "AS-G002-034",
+  "version": "TABLETOP-COMPONENTS-02",
+  "date": "2026-10-28",
+  "designInputCommit": "69d45a6f16572709c1d0b8907a8b502f7492bafb",
+  "scope": "The existing10 logical base components; devices/cards remain deferred",
+  "generationTool": "built-in image_gen",
+  "generationCalls": 10,
+  "uniqueGenerationOriginals": 10,
+  "items": [
+    {
+      "name": "wood-background",
+      "path": "exports/wood-background.png",
+      "size": [
+        1672,
+        941
+      ],
+      "format": "PNG",
+      "alpha": false,
+      "transparentPixels": 0,
+      "partialAlphaPixels": 0,
+      "contentBoundsAlpha16": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "cornerAlpha": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "bytes": 1869450,
+      "sha256": "75965d9f9d960242a7539829b84955b286d98996c76f96f0936b17df78af46ff",
+      "generation": "One separate built-in image_gen call for this complete component",
+      "generatorOriginal": "C:/Users/Administrator/.codex/generated_images/01a181d0-ed8c-7711-8763-f27f69a4d713/exec-640f7c9d-4afb-40c8-973d-ea06511d143a.png",
+      "originalCopy": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\imagegen-v02\\originals\\wood-background.png",
+      "prompt": "prompts/wood-background.txt",
+      "references": [
+        "E:/Project/game/yanzhou/exploration/DIR-042-herbal-engraving-style/scene-v06.png"
+      ],
+      "postProcessing": "None: full original canvas, alpha and file bytes retained; no crop, slice, mask, recolor, resample or assembly"
+    },
+    {
+      "name": "felt-mat",
+      "path": "exports/felt-mat.png",
+      "size": [
+        2018,
+        779
+      ],
+      "format": "PNG",
+      "alpha": true,
+      "transparentPixels": 345914,
+      "partialAlphaPixels": 1226087,
+      "contentBoundsAlpha16": [
+        65,
+        52,
+        1891,
+        665
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bytes": 2600888,
+      "sha256": "6e3d4564134286ba24d4358beca0843cfd4e6c361756e2c3ba29dcd8e5097e22",
+      "generation": "One separate built-in image_gen call for this complete component",
+      "generatorOriginal": "C:/Users/Administrator/.codex/generated_images/01a181d0-ed8c-7711-8763-f27f69a4d713/exec-a868cca1-04ff-4b90-823b-de9eb9f463a2.png",
+      "originalCopy": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\imagegen-v02\\originals\\felt-mat.png",
+      "prompt": "prompts/felt-mat.txt",
+      "references": [
+        "E:/Project/game/yanzhou/exploration/DIR-042-herbal-engraving-style/scene-v06.png"
+      ],
+      "postProcessing": "None: full original canvas, alpha and file bytes retained; no crop, slice, mask, recolor, resample or assembly"
+    },
+    {
+      "name": "workbench-base",
+      "path": "exports/workbench-base.png",
+      "size": [
+        2172,
+        724
+      ],
+      "format": "PNG",
+      "alpha": true,
+      "transparentPixels": 598661,
+      "partialAlphaPixels": 972469,
+      "contentBoundsAlpha16": [
+        60,
+        118,
+        2051,
+        483
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bytes": 1711646,
+      "sha256": "0cb60c4449ddd263fe56d171deab4a3783f745cec0f28b744dd8040f942eb46a",
+      "generation": "One separate built-in image_gen call for this complete component",
+      "generatorOriginal": "C:/Users/Administrator/.codex/generated_images/01a181d0-ed8c-7711-8763-f27f69a4d713/exec-61dd52cc-22e8-44f3-adb5-46f42e120d58.png",
+      "originalCopy": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\imagegen-v02\\originals\\workbench-base.png",
+      "prompt": "prompts/workbench-base.txt",
+      "references": [
+        "E:/Project/game/yanzhou/exploration/DIR-042-herbal-engraving-style/scene-v06.png"
+      ],
+      "postProcessing": "None: full original canvas, alpha and file bytes retained; no crop, slice, mask, recolor, resample or assembly"
+    },
+    {
+      "name": "confirm",
+      "path": "exports/confirm.png",
+      "size": [
+        2055,
+        765
+      ],
+      "format": "PNG",
+      "alpha": true,
+      "transparentPixels": 700740,
+      "partialAlphaPixels": 870491,
+      "contentBoundsAlpha16": [
+        84,
+        144,
+        1886,
+        447
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bytes": 1454493,
+      "sha256": "3152ce70a87fc192b48b7ffa1a878c874874f9873cfce6f0904b0e26ab220e47",
+      "generation": "One separate built-in image_gen call for this complete component",
+      "generatorOriginal": "C:/Users/Administrator/.codex/generated_images/01a181d0-ed8c-7711-8763-f27f69a4d713/exec-93022268-598b-42b6-87ff-024895e1864f.png",
+      "originalCopy": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\imagegen-v02\\originals\\confirm.png",
+      "prompt": "prompts/confirm.txt",
+      "references": [
+        "E:/Project/game/yanzhou/exploration/DIR-042-herbal-engraving-style/scene-v06.png",
+        "E:/Project/game/yanzhou/visual/tabletop-components-2026-10-28/exports/ui/confirm.png"
+      ],
+      "postProcessing": "None: full original canvas, alpha and file bytes retained; no crop, slice, mask, recolor, resample or assembly"
+    },
+    {
+      "name": "tab-active",
+      "path": "exports/tab-active.png",
+      "size": [
+        2098,
+        749
+      ],
+      "format": "PNG",
+      "alpha": true,
+      "transparentPixels": 588027,
+      "partialAlphaPixels": 983284,
+      "contentBoundsAlpha16": [
+        107,
+        108,
+        1885,
+        523
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bytes": 1620274,
+      "sha256": "7aab5f820a74b846e8e087814379738d90fab3d044c8a82cbff08dc10299ab03",
+      "generation": "One separate built-in image_gen call for this complete component",
+      "generatorOriginal": "C:/Users/Administrator/.codex/generated_images/01a181d0-ed8c-7711-8763-f27f69a4d713/exec-e987dc0c-170e-4c4f-926c-7db3e74c611d.png",
+      "originalCopy": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\imagegen-v02\\originals\\tab-active.png",
+      "prompt": "prompts/tab-active.txt",
+      "references": [
+        "E:/Project/game/yanzhou/exploration/DIR-042-herbal-engraving-style/scene-v06.png",
+        "E:/Project/game/yanzhou/visual/tabletop-components-2026-10-28/exports/ui/tab-active.png"
+      ],
+      "postProcessing": "None: full original canvas, alpha and file bytes retained; no crop, slice, mask, recolor, resample or assembly"
+    },
+    {
+      "name": "tab-idle",
+      "path": "exports/tab-idle.png",
+      "size": [
+        2098,
+        749
+      ],
+      "format": "PNG",
+      "alpha": true,
+      "transparentPixels": 722151,
+      "partialAlphaPixels": 848955,
+      "contentBoundsAlpha16": [
+        93,
+        143,
+        1912,
+        445
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bytes": 1403920,
+      "sha256": "40c4bbbbc0385d1445b8d1e18a10c49845497cd5e1740fc4eba2322f98e82279",
+      "generation": "One separate built-in image_gen call for this complete component",
+      "generatorOriginal": "C:/Users/Administrator/.codex/generated_images/01a181d0-ed8c-7711-8763-f27f69a4d713/exec-288fd14a-02d9-4758-849e-12758c3781fe.png",
+      "originalCopy": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\imagegen-v02\\originals\\tab-idle.png",
+      "prompt": "prompts/tab-idle.txt",
+      "references": [
+        "E:/Project/game/yanzhou/exploration/DIR-042-herbal-engraving-style/scene-v06.png",
+        "E:/Project/game/yanzhou/visual/tabletop-components-2026-10-28/exports/ui/tab-idle.png"
+      ],
+      "postProcessing": "None: full original canvas, alpha and file bytes retained; no crop, slice, mask, recolor, resample or assembly"
+    },
+    {
+      "name": "header",
+      "path": "exports/header.png",
+      "size": [
+        2172,
+        724
+      ],
+      "format": "PNG",
+      "alpha": true,
+      "transparentPixels": 1329732,
+      "partialAlphaPixels": 241681,
+      "contentBoundsAlpha16": [
+        21,
+        305,
+        2131,
+        110
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bytes": 415638,
+      "sha256": "6a87a65e4ef1d86cf73dd32347549d314244bf879039dfb38b551561865a8b87",
+      "generation": "One separate built-in image_gen call for this complete component",
+      "generatorOriginal": "C:/Users/Administrator/.codex/generated_images/01a181d0-ed8c-7711-8763-f27f69a4d713/exec-91078cd8-672d-405e-bb02-8f9b5c9069f1.png",
+      "originalCopy": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\imagegen-v02\\originals\\header.png",
+      "prompt": "prompts/header.txt",
+      "references": [
+        "E:/Project/game/yanzhou/exploration/DIR-042-herbal-engraving-style/scene-v06.png",
+        "E:/Project/game/yanzhou/visual/tabletop-components-2026-10-28/exports/ui/header.png"
+      ],
+      "postProcessing": "None: full original canvas, alpha and file bytes retained; no crop, slice, mask, recolor, resample or assembly"
+    },
+    {
+      "name": "chip-heart",
+      "path": "exports/chip-heart.png",
+      "size": [
+        1312,
+        1199
+      ],
+      "format": "PNG",
+      "alpha": true,
+      "transparentPixels": 990447,
+      "partialAlphaPixels": 582374,
+      "contentBoundsAlpha16": [
+        274,
+        133,
+        766,
+        919
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bytes": 1298138,
+      "sha256": "be70285381927cefe455bef78b2dce04d092989f73516347c252adb614501bb3",
+      "generation": "One separate built-in image_gen call for this complete component",
+      "generatorOriginal": "C:/Users/Administrator/.codex/generated_images/01a181d0-ed8c-7711-8763-f27f69a4d713/exec-5232d2ce-2d44-48bc-ba72-3e623c8995d9.png",
+      "originalCopy": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\imagegen-v02\\originals\\chip-heart.png",
+      "prompt": "prompts/chip-heart.txt",
+      "references": [
+        "E:/Project/game/yanzhou/exploration/DIR-042-herbal-engraving-style/scene-v06.png",
+        "E:/Project/game/yanzhou/visual/tabletop-components-2026-10-28/exports/chips/heart.png"
+      ],
+      "postProcessing": "None: full original canvas, alpha and file bytes retained; no crop, slice, mask, recolor, resample or assembly"
+    },
+    {
+      "name": "chip-armor",
+      "path": "exports/chip-armor.png",
+      "size": [
+        1263,
+        1246
+      ],
+      "format": "PNG",
+      "alpha": true,
+      "transparentPixels": 1179548,
+      "partialAlphaPixels": 394015,
+      "contentBoundsAlpha16": [
+        313,
+        261,
+        648,
+        731
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bytes": 907219,
+      "sha256": "2a6879f202062ce4ad1cdd40a8a6aed14fbae8315e4f1b4b298e4cfe026b56eb",
+      "generation": "One separate built-in image_gen call for this complete component",
+      "generatorOriginal": "C:/Users/Administrator/.codex/generated_images/01a181d0-ed8c-7711-8763-f27f69a4d713/exec-1f32980f-78e5-4d09-b336-76cd56ee8fca.png",
+      "originalCopy": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\imagegen-v02\\originals\\chip-armor.png",
+      "prompt": "prompts/chip-armor.txt",
+      "references": [
+        "E:/Project/game/yanzhou/exploration/DIR-042-herbal-engraving-style/scene-v06.png",
+        "E:/Project/game/yanzhou/visual/tabletop-components-2026-10-28/exports/chips/armor.png"
+      ],
+      "postProcessing": "None: full original canvas, alpha and file bytes retained; no crop, slice, mask, recolor, resample or assembly"
+    },
+    {
+      "name": "chip-spell",
+      "path": "exports/chip-spell.png",
+      "size": [
+        1261,
+        1247
+      ],
+      "format": "PNG",
+      "alpha": true,
+      "transparentPixels": 1040236,
+      "partialAlphaPixels": 532064,
+      "contentBoundsAlpha16": [
+        258,
+        199,
+        765,
+        842
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bytes": 1217499,
+      "sha256": "282b5d9c2129842654122cc67f82b90f18a698037d6e9d8566c0fe17a14a0080",
+      "generation": "One separate built-in image_gen call for this complete component",
+      "generatorOriginal": "C:/Users/Administrator/.codex/generated_images/01a181d0-ed8c-7711-8763-f27f69a4d713/exec-f3734455-b4ba-492b-ae61-27e6aecb36e0.png",
+      "originalCopy": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\imagegen-v02\\originals\\chip-spell.png",
+      "prompt": "prompts/chip-spell.txt",
+      "references": [
+        "E:/Project/game/yanzhou/exploration/DIR-042-herbal-engraving-style/scene-v06.png",
+        "E:/Project/game/yanzhou/visual/tabletop-components-2026-10-28/exports/chips/spell.png"
+      ],
+      "postProcessing": "None: full original canvas, alpha and file bytes retained; no crop, slice, mask, recolor, resample or assembly"
+    }
+  ],
+  "sourceReferences": {
+    "shapeReferences": "AS-G002-034@TABLETOP-COMPONENTS-01 / existing complete UI/counter PNGs, reference only",
+    "v01ManifestSha256": "4bc9874114a19a2f0fecdaf9772847e75cba7ecb459565961906ffcf944b514c",
+    "v01ZipSha256": "251bb9ea55e48f4cd2cfceb62dd38827dacf4e75d2780b99e76f92f073f804df",
+    "scene": "AS-G002-032@HERBAL-ENGRAVING-06 / scene-v06.png"
+  },
+  "sourceToolRoot": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\imagegen-v02",
+  "status": "ReadyForScope / PresentLocal for generation provenance, copied original PNG and alpha/visual checks; user and engine acceptance PendingReview",
+  "previews": [
+    "preview-components.png",
+    "preview-alpha.png"
+  ],
+  "notIncluded": [
+    "v01 direct crop or assembled component outputs",
+    "30 legacy corner/edge export slices",
+    "Devices/inscriptions/card art",
+    "Books/hand/props and additional painted state sets"
+  ],
+  "limitations": [
+    "Independently generated contours, proportions and border brightness vary; not pixel-identical to v01",
+    "v01 slice margins not validated for these new drawings",
+    "Original native canvases retained with transparent margins; content bounds are metadata only",
+    "No official engine import or gameplay validation"
+  ],
+  "imagesUploadedToGit": false,
+  "sourceTools": [
+    {
+      "path": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\imagegen-v02\\plan.json",
+      "sha256": "f75015935af306a8750147d37808d1dd574004ef2d852647b536f2432f6c1513"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\imagegen-v02\\generation-outputs.json",
+      "sha256": "7012e86a2be2aba317485aa2bc93f4681453eda49aafdacf4ab4093ff124cf8a"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\imagegen-v02\\package.ps1",
+      "sha256": "4c6c764973e3514829cb1e6892ac61a79a5d1b6cfe6e72b2ec6d84e193bf4a56"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\imagegen-v02\\preview.ps1",
+      "sha256": "4f655fbf88d9f4acc1af5e58c1d09af067d8b61fe10f956f35f38d55a3b16865"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\imagegen-v02\\finalize.ps1",
+      "sha256": "47b886035d00b116c121d97e083c058a54877585121a6e102ac7d2331689d5a5"
+    },
+    {
+      "path": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\imagegen-v02\\README.md",
+      "sha256": "cb60811e27c9b6405ca0a5e9d5ec1946f95ab53b350fa66612069e66a8398ac7"
+    }
+  ],
+  "previewFiles": [
+    {
+      "role": "Review only; not a new production component",
+      "path": "preview-components.png",
+      "sha256": "015b95a16086147f2e9569e4cb2e3c24fb62b81bab5ceeea88c3f3edf8d7c36d"
+    },
+    {
+      "role": "Review only; not a new production component",
+      "path": "preview-alpha.png",
+      "sha256": "c73bb364a740fead4f89736a9eba61e0bfc20f9e14070e006004eb6cdd96585f"
+    }
+  ]
+}
