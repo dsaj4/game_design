@@ -1,18 +1,19 @@
 {
   "id": "AS-G002-032",
-  "version": "HERBAL-ENGRAVING-05",
+  "version": "HERBAL-ENGRAVING-06",
   "date": "2026-10-28",
   "project": "game-002-optimization",
   "direction": "DIR-042",
-  "selection_status": "User-selected provisional tabletop battle visual baseline; card-symbol sheet is a separate priority reference",
-  "design_status": "Visual selection only; no gameplay adoption or new interaction acceptance",
-  "primary_image": "scene-v03.png",
-  "input_commit": "13b9b3a0510e875bc4986ce52d9ded27e9fe9044",
-  "input_image": "E:/Project/yanzhou-art-archive/2026-10-28-v03-selection/scene-v02.png",
+  "selection_status": "v03 remains the user-selected tabletop style reference; v06 adapts the requested bottom hand and language detail for static review",
+  "design_status": "v06 placement direction requested by user; exact composition and styling PendingReview; no gameplay adoption or interaction acceptance",
+  "primary_image": "scene-v06.png",
+  "visual_baseline_image": "scene-v03.png",
+  "input_commit": "43f4699c6536fd246ce753a13a8836c0333670a9",
+  "input_image": "E:/Project/game/yanzhou/exploration/DIR-042-herbal-engraving-style/scene-v03.png",
   "current_interaction_contract": "../../visual/baseline-2026-10-26/README.md",
   "tool": "built-in image_gen",
   "images_uploaded_to_git": false,
-  "scope": "Static tabletop art and composition reference. Legacy resource stacks, hand stack/capacity and arrangement points in v03 do not restore old rules.",
+  "scope": "Static CORE-067 / EX-004 first-round end-of-production, before-placement illustration: six bottom-fanned hand cards, two viewing groups, five empty player slots and ritual-writing details. v03 is retained as a style reference; its legacy stack/capacity/points do not restore rules.",
   "files": [
     {
       "path": "scene-v03.png",
@@ -33,18 +34,71 @@
         "E:/Project/yanzhou-art-archive/2026-10-28-v03-selection/scene-v02.png"
       ],
       "reference_at_generation": "scene-v02.png (historical workspace path)"
+    },
+    {
+      "path": "scene-v06.png",
+      "role": "Current static review illustration; v03 style with requested bottom-fanned hand and moderate ritual-writing details",
+      "prompt": "scene-v06-prompt.txt",
+      "correction_prompts": [
+        "scene-v06-correction-prompt.txt",
+        "scene-v06-clearance-prompt.txt"
+      ],
+      "derived_from": "AS-G002-032@HERBAL-ENGRAVING-05 / scene-v03.png",
+      "uses": "AS-G002-033@CARD-SYMBOLS-V05-01 as a visual symbol reference, not pixel-exact slicing",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "color": "RGB",
+      "alpha": false,
+      "bytes": 2421082,
+      "sha256": "a823bd8c0fd364090d72e776407c79e6c0385702ff550052b1babe6fced2cbe2",
+      "generator_original": "C:/Users/Administrator/.codex/generated_images/01a181d0-ed8c-7711-8763-f27f69a4d713/exec-a9a2acc8-3cbd-483b-b654-2a521ac96fe6.png",
+      "design_source": "README.md#本次适配的阅读范围",
+      "generation_mode": "image-edit, then count/progress correction, then local clearance correction",
+      "reference_images": [
+        "E:/Project/game/yanzhou/exploration/DIR-042-herbal-engraving-style/scene-v03.png",
+        "E:/Project/game/yanzhou/exploration/DIR-042-herbal-engraving-style/card-symbols-2026-10-28/symbols-v01.png"
+      ]
     }
   ],
   "text_files": [
     "README.md",
     "manifest.json",
     "scene-v03-prompt.txt",
+    "scene-v06-prompt.txt",
+    "scene-v06-correction-prompt.txt",
+    "scene-v06-clearance-prompt.txt",
     "book-of-hours-analysis-checklist-2026-10-28.md"
   ],
-  "generation_mode": "image-edit (historical v03; no generation in this selection round)",
+  "generation_mode": "v03 retained byte-identical; v06 built-in image_gen reference edit followed by two targeted corrections",
+  "process": [
+    {
+      "step": "v03 style plus bottom hand and ritual-writing edit",
+      "prompt": "scene-v06-prompt.txt",
+      "inputs": ["scene-v03.png", "card-symbols-2026-10-28/symbols-v01.png"],
+      "output_original": "C:/Users/Administrator/.codex/generated_images/01a181d0-ed8c-7711-8763-f27f69a4d713/exec-16e34df0-26db-4be1-a253-2ffe97a1efcf.png",
+      "output_sha256": "ee06ceb97322238457cdf8ae747164dbd54345a4217e8bfa2e0d1599d4048b84",
+      "observed_deviations": "Generated seven hand cards rather than six; inaccurate progress pips; crystal finial overlapped the fourth empty player slot"
+    },
+    {
+      "step": "hand-count and progress correction",
+      "prompt": "scene-v06-correction-prompt.txt",
+      "input_original": "C:/Users/Administrator/.codex/generated_images/01a181d0-ed8c-7711-8763-f27f69a4d713/exec-16e34df0-26db-4be1-a253-2ffe97a1efcf.png",
+      "output_original": "C:/Users/Administrator/.codex/generated_images/01a181d0-ed8c-7711-8763-f27f69a4d713/exec-654e29b3-5f09-4566-a56d-f214528f868b.png",
+      "output_sha256": "479f2c55ef4e53175e48837257fa3f50fbd4b99b25b9966e8ba707c56bfcd7a1",
+      "observed_deviations": "Six-card count and numeric-only progress corrected; finial still overlapped an empty slot"
+    },
+    {
+      "step": "local clearance correction and final selection",
+      "prompt": "scene-v06-clearance-prompt.txt",
+      "input_original": "C:/Users/Administrator/.codex/generated_images/01a181d0-ed8c-7711-8763-f27f69a4d713/exec-654e29b3-5f09-4566-a56d-f214528f868b.png",
+      "output": "scene-v06.png",
+      "result": "Crystal cage shortened below the felt mat; all five empty player-card targets exposed. Device height contrast weaker than v03; retained for review."
+    }
+  ],
   "previous_package_record": {
-    "version": "HERBAL-ENGRAVING-04",
-    "commit": "ddf6ebfe7b3121cbb71d1257c229206a86321a1e",
+    "version": "HERBAL-ENGRAVING-05",
+    "commit": "43f4699c6536fd246ce753a13a8836c0333670a9",
     "path": "yanzhou/exploration/DIR-042-herbal-engraving-style/manifest.json"
   },
   "retired_local_images": {
@@ -66,7 +120,9 @@
   },
   "validation": {
     "date": "2026-10-28",
-    "scope": "v03 visual inspection, selected/retired image SHA-256, document links and asset registration only",
+    "scope": "v06 visual count/content/slot-clearance check, both reference image hashes against their prior manifests, final PNG dimensions/color and generator-original/copy SHA-256 equality, document links and registration",
+    "image_result": "Five shield cards plus one attack card, group counts 6/0; five enemy hidden cards with category/timing only; five empty player slots; two devices and two empty reserved work sites; numeric progress 0/1 and 2/3; first-round values 144/144, 60/60, armor 0, spell 0/10",
+    "limits": "Generated lettering and marginalia need manual typesetting; outer card footers are cropped by the bottom screen edge; reduced crystal-device height is a composition proposal. Exact text fidelity, hit areas, crowded hands and interaction are not accepted by this static check.",
     "not_run": [
       "HTML/browser interaction",
       "gameplay",

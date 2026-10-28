@@ -7,7 +7,7 @@
 
 ## 2026-10-28 本轮视觉选择与整理
 
-言咒当前入口为[本轮视觉基准](../../yanzhou/visual/README.md)：用户暂定AS-G002-032的v03为桌面战斗设计基准，AS-G002-033为卡牌设计重点参考。现行交互保留在文字合同，原DM-G002-017示意HTML和旧美术方向已退役。选择仅覆盖视觉取向，不回滚CORE-067或升级玩法／实现证据。
+言咒当前入口为[本轮视觉基准](../../yanzhou/visual/README.md)：用户暂定AS-G002-032的v03为桌面风格基准，AS-G002-033为卡牌设计重点参考；本轮新增v06底部扇形持牌静态示意。现行交互保留在文字合同，原DM-G002-017示意HTML和旧美术方向已退役。选择及新图仅覆盖视觉取向，不回滚CORE-067或升级玩法／实现证据。
 
 清理前固定提交为`ddf6ebfe7b3121cbb71d1257c229206a86321a1e`；旧附件、皮肤、HTML和提示词按原路径取证。四张未入Git的退出整场PNG已校验后保全至`E:/Project/yanzhou-art-archive/2026-10-28-v03-selection/`，原manifest同处保留。外部实现、字体、模型、第三方原件和运行包未迁移；历史使用关系继续有效，原日期ReadyForScope不表示当前选择已实现。
 
@@ -27,8 +27,8 @@
 ## <a id="as-g002-032"></a>AS-G002-032 纸本秘术工坊场景候选包
 
 - game-002-optimization / DIR-042；[当前桌面基准与完整登记](../../yanzhou/exploration/DIR-042-herbal-engraving-style/README.md#as-g002-032-纸本秘术工坊场景候选包)。2026-10-28用户暂定v03为本轮桌面战斗设计基准，现行交互仍沿CORE-067。
-- `HERBAL-ENGRAVING-05`；当前只保留scene-v03.png与准确提示词，1672×941 RGB PNG无透明，原像素不变；[manifest](../../yanzhou/exploration/DIR-042-herbal-engraving-style/manifest.json)固定范围、SHA-256、原输入及恢复位置。包版本05不代表选定场景v05。
-- ReadyForScope / PresentLocal，仅静态视觉参考。内置image_gen以旧v02定向编辑生成v03，原设计输入为`13b9b3a0510e875bc4986ce52d9ded27e9fe9044`；图中旧资源／手牌堆、容量与整理点不恢复为规则。正式组件、小尺寸、两组持牌及列间展示尚未验收。
+- `HERBAL-ENGRAVING-06`；保留scene-v03.png，新增scene-v06.png及三步准确提示词。两图均1672×941 RGB PNG无透明，v03原像素不变；[manifest](../../yanzhou/exploration/DIR-042-herbal-engraving-style/manifest.json)固定文件范围、SHA-256、生成原件、设计输入及恢复位置。PNG均本机保管，未上传。
+- ReadyForScope / PresentLocal，仅静态视觉及文件检查。v03历史来源不变，旧库存／容量／整理点不恢复为规则；v06以v03与AS-G002-033@CARD-SYMBOLS-V05-01为图像输入，沿CORE-067／EX-004首轮布牌前状态编辑，补底部六张持牌与语言纹理并作数量／刻度／遮挡修正。本轮造型和具体排布待审阅，正式组件、小尺寸及交互未验收；共同设计提交和实际阅读范围在方向README记录。
 - 旧`HERBAL-ENGRAVING-04`五图清单及Book of Hours提取过程沿清理前固定提交取证；退出PNG另在本机保全。AS-G002-033仍派生自历史04版v05，来源不改写成v03。仅内部概念参考，公开分发与正式采用条件沿原包待核；未接入新HTML／游戏。
 
 ## <a id="as-g002-033"></a>AS-G002-033 v05卡牌符号独立设计板
