@@ -4,6 +4,8 @@
 
 **[查看主稿 v05](scene-v05.png)** · [美术提取与转化](art-style-extract-2026-10-28.md) · [本轮完整提示词](scene-v05-prompt.txt) · [文件与SHA-256](manifest.json)
 
+**[v05卡牌符号独立设计板](card-symbols-2026-10-28/README.md)**：AS-G002-033，按本版主体分离重绘六类符号，保留色块与字形关系；原场景不变。
+
 2026-10-28：[Book of Hours 深度分析清单](book-of-hours-analysis-checklist-2026-10-28.md)已进入取证，[查看REA分析报告](../../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/README.md)。静态已完成，v02新增自然开局的完整操作链；耀素制作、大收藏和双任务仍待取证。借鉴建议仍Raw，未正式选择。
 
 ![言咒：器物插画与实色符号，纯文字生成v05](scene-v05.png)

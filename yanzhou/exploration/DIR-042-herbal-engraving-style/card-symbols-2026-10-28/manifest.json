@@ -1,0 +1,56 @@
+{
+  "id": "AS-G002-033",
+  "version": "CARD-SYMBOLS-V05-01",
+  "date": "2026-10-28",
+  "project": "game-002-optimization",
+  "direction": "DIR-042",
+  "design_status": "Raw / Unqualified",
+  "primary_image": "symbols-v01.png",
+  "tool": "built-in image_gen",
+  "generation_mode": "reference-guided symbol isolation/redraw, then alpha-edge cleanup",
+  "images_uploaded_to_git": false,
+  "scope": "Six-symbol design-review sheet, not pixel-exact crops, vector source or sliced runtime atlas",
+  "source": {
+    "asset": "AS-G002-032",
+    "version": "HERBAL-ENGRAVING-04",
+    "manifest_commit": "d0223f0823bbb3c0461ee3070c57a065c4a10f72",
+    "path": "../scene-v05.png",
+    "sha256": "c694c5ec2144b3f726df020ddd43a51c2d81d1fc15d7e7044ccb42c7a2a6ffa3"
+  },
+  "files": [
+    {
+      "path": "symbols-v01.png",
+      "format": "PNG",
+      "width": 1538,
+      "height": 1023,
+      "color": "RGBA",
+      "alpha": true,
+      "bytes": 1174669,
+      "sha256": "2422816bedc4c4785c98cc12da49295a20a34818d99ea7826a14c9a4f7a7f657",
+      "generator_original": "C:/Users/Administrator/.codex/generated_images/01a17b22-9079-77b0-bf67-62a1b7cc877e/exec-c98a2076-685a-481f-a8e9-57a21c28f73e.png"
+    }
+  ],
+  "process": [
+    {
+      "step": "reference-guided isolation/redraw",
+      "prompt": "symbols-v01-prompt.txt",
+      "reference": "../scene-v05.png",
+      "output_original": "C:/Users/Administrator/.codex/generated_images/01a17b22-9079-77b0-bf67-62a1b7cc877e/exec-bd8c95f2-2c78-433f-b010-64556dfe07ec.png",
+      "output_sha256": "d2ff891a970498cc82b52761cb5925713325f301b2be7822f9df71ac8a2ec956"
+    },
+    {
+      "step": "transparent-edge cleanup",
+      "prompt": "symbols-v01-cleanup-prompt.txt",
+      "reference": "C:/Users/Administrator/.codex/generated_images/01a17b22-9079-77b0-bf67-62a1b7cc877e/exec-bd8c95f2-2c78-433f-b010-64556dfe07ec.png",
+      "output": "symbols-v01.png"
+    }
+  ],
+  "labels": ["护盾", "简易攻击", "强化打击", "爆裂试剂", "暗牌封印", "打断标记"],
+  "text_files": ["README.md", "manifest.json", "symbols-v01-prompt.txt", "symbols-v01-cleanup-prompt.txt"],
+  "validation": {
+    "date": "2026-10-28",
+    "visual_scope": "Six subjects, captions, arrangement and theme-color relationships inspected",
+    "alpha_samples": [{"point": [0, 0], "alpha": 0}, {"point": [512, 511], "alpha": 0}],
+    "limits": "Minor redraw variation and residual edge noise remain; no small-size or runtime slicing validation"
+  }
+}
