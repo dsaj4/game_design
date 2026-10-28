@@ -1,0 +1,1528 @@
+{
+  "version": "BOH-REA-2026-10-28-v01",
+  "game_root": "E:\\Game\\BOOK OF HOURS v2024.12.m.3",
+  "game_version": "2024.12.m.3",
+  "note": "只保存发布文件身份清单；列入清单不等于已逐条研究或实机验证。原始文件就地保管。",
+  "files": [
+    {
+      "path": "version.txt",
+      "bytes": 11,
+      "sha256": "29d4de4d7eaa40b4b25dc248ea3e9c805ebb5b574d8fd1706f762e83b73cfb79"
+    },
+    {
+      "path": "bh.exe",
+      "bytes": 666624,
+      "sha256": "12a3e7eb60378ac45ad0a07b2ef4059b68c4739feab901096ae678bcd1051e09"
+    },
+    {
+      "path": "bh_Data/Managed/SecretHistories.Main.dll",
+      "bytes": 1106432,
+      "sha256": "820df80128d65d066b1dfa7d9590cfa2ef60575136a4c764d484f06077e3b6c8"
+    },
+    {
+      "path": "bh_Data/resources.assets",
+      "bytes": 172395712,
+      "sha256": "38bfabb5692ce568be3cdd76f10f7265e85f83786043bfc92e80b54ec571ecc7"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/aa/catalog.json",
+      "bytes": 1408354,
+      "sha256": "cb4bbc50f9b22bb882222b5dcac49416085ddc6f010896938bf2256b15cc3568"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/aa/settings.json",
+      "bytes": 1698,
+      "sha256": "878fae9f7f642c0b84be4b893bedcfa18a80d31075daf0d524b56898eca1420c"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/_aspects.json",
+      "bytes": 88843,
+      "sha256": "bb7fce1799c319ceb748ca0bd0e7e7dd990da49fa557982feb19fc1c60e65fac"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/_aspects_salons.json",
+      "bytes": 4816,
+      "sha256": "01d2eda2a7a416314f32231ffa7061a54b210d681786dde3c06f1ec9a7be5913"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/_debug.json",
+      "bytes": 529,
+      "sha256": "ccbb0e62576b43eea4b1eb50c0fb7f3bf1895d30f9332bf00f6b30bf2049f565"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/_evolutionaspects.json",
+      "bytes": 7957,
+      "sha256": "20d7aa9beef2728a9dff96232b2656eda1a63c14e910fb3f6597e0518aecde61"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/_groupaspects.json",
+      "bytes": 1709,
+      "sha256": "38c28051780385c7d6ca45434ed468055f614f6b70b1bd20aa67470ea3047f27"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/_order_aspects.json",
+      "bytes": 18438,
+      "sha256": "319ba09c7f389d8f331d975ac5a207d478616b785a39ee280906137bc7709169"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/_prototypes.json",
+      "bytes": 25155,
+      "sha256": "211db0009b274bed9ee1bd5253e0b03ede46458b227f8b02b57bd54c22009f75"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/_resolutionaspects.json",
+      "bytes": 18460,
+      "sha256": "181d2c5f0be80387b2e945550439e04f68c4dcf94bca882a3358d6ff12e52495"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/_visitactedaspects.json",
+      "bytes": 78232,
+      "sha256": "80dac0d4c9f4704f62524fb8a1df954faa2244b184e11b9d313d2df47f80cbe7"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/_visitaspects.json",
+      "bytes": 12384,
+      "sha256": "abd499eb1f2495f39843a426eb3bbc97a95e2e5bcb5f86c32c746fd7d458f0a2"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/_visitreadaspects.json",
+      "bytes": 3693,
+      "sha256": "78de9dbd566640cd0011e98973019fd78caf7f236e19775a4126e9f011a87a33"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/abilities.json",
+      "bytes": 18784,
+      "sha256": "6633f164ed58530b2aa4d568434e2da7644beecaac06aa29928b73743444d928"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/abilities2.json",
+      "bytes": 17864,
+      "sha256": "e202e841ff048186d8a85f8423c3d6cc5c918927c73e6402fa81f7f7be389a83"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/abilities3.json",
+      "bytes": 17891,
+      "sha256": "983a8f6d34d4064600e01a3cf1cf2e5a7a59ea24b3519d316327cb5954b12dc6"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/abilities4.json",
+      "bytes": 17917,
+      "sha256": "f4f05ea323e6426ec9bb17dbed9859562c3c9298924aaf43be50f8663bf422df"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/abilities_setup.json",
+      "bytes": 2758,
+      "sha256": "7819c489ba502e6eec71c0a738bad6814227e80d5f343626dbfa1bea03545e16"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/aspecteditems.json",
+      "bytes": 731244,
+      "sha256": "1ddfde2189bd76b3300a410f1a16d5f3d186a21d0800a800f8eebed43610f0b2"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/aspects_nx.json",
+      "bytes": 778,
+      "sha256": "456387fe856de6f7b3b206d188f207d99d3f2cb75573dcd0ff79431fec6936cb"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/assistance.json",
+      "bytes": 13643,
+      "sha256": "0274f1684569970b47d2413e932cc886f1200cfabe818eb1300550ab2c9f91c2"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/celestial.json",
+      "bytes": 4701,
+      "sha256": "df9e0891286d5aa2b6831626e47e741573b9ed35a32171ae24fb0dc687fc539a"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/challenge_opportunities.json",
+      "bytes": 3596,
+      "sha256": "6067da2e129b52598d65e49cb0bade210f2fbeea06fa8659825529437f2be02f"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/circumstances.json",
+      "bytes": 647,
+      "sha256": "3b3f81bd956932691becb44ed40492159212886ef8088f24acd43fe6919ea525"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/comforts.json",
+      "bytes": 260,
+      "sha256": "6f2063fb82724ec4172a4806a9991de3afd6654230d3e3fa5dcd92f1d6567d58"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/contamination_aspects.json",
+      "bytes": 7498,
+      "sha256": "24f38a9254fcd9c5d59b4f61b008663e206228ccc10d708fc81f3d0044d1e5e2"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/correspondence _addresses.json",
+      "bytes": 10641,
+      "sha256": "965f8dd2e817ffe1b06fa41541bef6958fd06dcf5309256bbbeeb95bd9a27bc5"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/correspondence_elements.json",
+      "bytes": 13304,
+      "sha256": "9a08b2774bd0c9cc22600b08a3f6a5e2ed5f037b9bb60e4cb18245213990f0a4"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/credits.json",
+      "bytes": 3035,
+      "sha256": "b25268b34bf6a4faaf718c46a66a0aa156ffef3ae430fb5688b1117f947683bf"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/DLC_HOL_instituteaspects_ally.json",
+      "bytes": 1926,
+      "sha256": "2ec9c528f4115ebd8e9510195ea386afda7ed9f36940d773bfeafa2cb5968b11"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/DLC_HOL_instituteaspects_foe.json",
+      "bytes": 2462,
+      "sha256": "3ea7a70e701fa933622f5ca6e4f976057f8d9fc3059f44744d0d0f6130e1a8f6"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/DLC_HOL_instituteaspects_mission.json",
+      "bytes": 5500,
+      "sha256": "6e3dde2013a5868874a3bcce855c1596bd802ce5a94ac2b652b9e53cf4351520"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/DLC_HOL_manuscripts.json",
+      "bytes": 30988,
+      "sha256": "5510f2a9b846d7a8e02b502ae3eeccaf2fd9fc46b68d363f8ccb614ed2cf8529"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/DLC_HOL_meddling.json",
+      "bytes": 1822,
+      "sha256": "222a889ec5b3b407829c023538b47ee3e604dfa13dfe5c519f410eb3baa7fccd"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/DLC_HOL_menu.json",
+      "bytes": 3576,
+      "sha256": "d301cbbd65516e0c5f4450e3c58feb05716f0c542ff82eb759499970850440e0"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/DLC_HOL_misc.json",
+      "bytes": 2074,
+      "sha256": "d86095bbe93f3e0afd906f9c864621767a61e47f7012cd0a687634beba75d902"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/DLC_HOL_ns.json",
+      "bytes": 80908,
+      "sha256": "c5f10776458c41b7b1291b73b13a2820bdb087dd30d9cb6f61327fc24ca40d48"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/DLC_HOL_salons.json",
+      "bytes": 4452,
+      "sha256": "8f1e88d39092c4429ea60ed4e77774eab2f6e462706897bedc64bfbeb5e3f3d1"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/DLC_HOL_stagger_elements.json",
+      "bytes": 16296,
+      "sha256": "3a77632f87f8ebfd35dcc0bf56379d6c7de1b946b58f5f4f9390352fab2a9ab6"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/incidents_n.json",
+      "bytes": 18876,
+      "sha256": "4e1fa3baae28fd2e7c20e1e0905f20b5d1bace6309ea7143c6edfc8a07c0c9f1"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/incidents_weather.json",
+      "bytes": 3021,
+      "sha256": "78fe6e690e2e06c5df4e5e9f65382dc16efcf6c2675feca214666a3618d18984"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/journal.json",
+      "bytes": 12265,
+      "sha256": "8ef61a15e68cab4262bd263daf2922bc8c069081780cdf9c2efca9ecf0a3e9ad"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/misc.json",
+      "bytes": 2441,
+      "sha256": "05ebdda68c1ef08de93f9ee56f0ca57dd6725e2faaeebeb6cc00ec475de152de"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/music.json",
+      "bytes": 2997,
+      "sha256": "1b2fd1a54b4416be1e72513a194cb71d84ba270980937d25638c65c985d7b47a"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/physical_sphere_text.json",
+      "bytes": 4093,
+      "sha256": "e563045a326d174ad15fff8ce9d8d6ff8db3464d0e0ca9d7a8223d3c30e79898"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/precursors.json",
+      "bytes": 12954,
+      "sha256": "160b678c79c553b9ab18fc5605ca703ded4741e6cb38a532fb193b036abe6615"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/pseudoaspectpreviewtooltips.json",
+      "bytes": 959,
+      "sha256": "2aea4ac20a8d0c4a4df8076993aa82b820dd7b7591f9ea54e60cb644f4e07776"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/resources.json",
+      "bytes": 3679,
+      "sha256": "20ec0bde8a98d6348b49fb69849674381890469f7061badc9ae47e54ad2a4513"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/skills.json",
+      "bytes": 157546,
+      "sha256": "395e5557f60a4549abd060f3138010755f18996131ebfa56d236410ee4401610"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/skills_r.json",
+      "bytes": 15421,
+      "sha256": "7d9b8b9c32920b1b1a8a540f77cf6eaf507464c304b9c1ac992accd22ce7ba7b"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/tips_hints.json",
+      "bytes": 5953,
+      "sha256": "c85f0c724b48ae58f1bbc4bfe07f173e4763eaa6644e6d96986373dd8c6db518"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/tlg.json",
+      "bytes": 202,
+      "sha256": "a15980f1b5783052b0732ca41b65cba269a82afea198236ec38607c3586e24b2"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/tomes.json",
+      "bytes": 664854,
+      "sha256": "b9555e74be69fc99e9b47dcf961f25782de3f51e37367634e39d11dee7d31d57"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/uncats.json",
+      "bytes": 2320,
+      "sha256": "807456b41c8896d1830b915982e00a9d354e52890f3a4f4391a59333d0f355a9"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/visitors.json",
+      "bytes": 23717,
+      "sha256": "3945c130ce094afb6c001b289c2ec0631e15bab3da39df8ffd42b680df6248a4"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/visitors_embarking.json",
+      "bytes": 9321,
+      "sha256": "56860f6456cfe082af38714987bb82a661ec9a1a1e844eeedd5fd82a9a42d99e"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/visitors_other.json",
+      "bytes": 9566,
+      "sha256": "9ba997b7a3fff0e668428f8bdeca80b06c58a5d251d42a18bce6a144fc79fe20"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/visitors_retired.json",
+      "bytes": 854,
+      "sha256": "8d6ddef64818179ff54a149f49e667737d58811c99879dd63ef82a0d92c0380c"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/xlessons.json",
+      "bytes": 20095,
+      "sha256": "f26021b8b7bacd0ea251e25ee7087cc3a8a8cd3e5dc28df42da715e84e2934f5"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/elements/xlessons_unique.json",
+      "bytes": 1441,
+      "sha256": "fd882cdb1ec4099361deb4a6ccde3a5cf5d9b0564f914fedeb576f41ac696dcd"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/verbs/celestial.json",
+      "bytes": 1123,
+      "sha256": "8aa58cd1e9307a84bca05d9bf9becf3e6e8ed6c9675d2cf97465dad52573a75a"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/verbs/DLC_HOL_verbs.json",
+      "bytes": 10701,
+      "sha256": "db263e147e88635ace34d6e4160289f2e279da079ae74c74c12aac15787469a8"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/verbs/incidents.json",
+      "bytes": 894,
+      "sha256": "0f91b0b8a3eb8020ce1bbca60582e78721758249ac6ca2da7216b877acdb19c6"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/verbs/librarian.json",
+      "bytes": 2208,
+      "sha256": "8849b59828a58fab4fb6e6a3cd9cb3e850ba95ebbc01694889035281ea2a61d7"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/verbs/workstations_beds.json",
+      "bytes": 11445,
+      "sha256": "299d8e9c0345b76f1c0c2d5530fa925531890be42bc85634d0d451e534a3847e"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/verbs/workstations_gathering.json",
+      "bytes": 14642,
+      "sha256": "5fcba7c1c642fd256a65b6e7cc2d10ae7fb2e618c993a8f2998bc6a0ef09ea22"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/verbs/workstations_legacy.json",
+      "bytes": 953,
+      "sha256": "6d11b35bfec5b0a8d693664b7033178f041e80d9fb6e9608c34e0d4cc75b85c1"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/verbs/workstations_library_world.json",
+      "bytes": 71839,
+      "sha256": "ca6637be07cfeb008daf2c1682bbc6735ad6245c1251d1f0d228710beb1ef003"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/verbs/workstations_unusual.json",
+      "bytes": 14451,
+      "sha256": "e0bd5e36f765a5772fe5bfafe4b0dc271e16a8760c27ab6423849968eecc90db"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/verbs/workstations_upgraded.json",
+      "bytes": 8409,
+      "sha256": "b3b52ced49d250e4c05823870698c0f840210a91774b3e2ed791e9bf5b2f14c0"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/verbs/workstations_village.json",
+      "bytes": 11288,
+      "sha256": "a1294bcbb01b574151a858f812967a54cbe59bf862655a07bab25b3e2c3c4656"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/0_consider_decontaminations.json",
+      "bytes": 5977,
+      "sha256": "ecd81f12b11da70ba1c2d1589cb06b89ae5f13fe5f31058fea4e662338c0e350"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/1_consider_books.json",
+      "bytes": 48619,
+      "sha256": "02fe1a324f1995729319210bed9c8e5c8826a672210f8bab6b7f2447db208678"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/2a_consider_open.json",
+      "bytes": 6968,
+      "sha256": "f0ca7811e5ac8467f27c55450fa0833614c5c20aea14924f013e5f51f0723ff3"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/2b_consider_generic.json",
+      "bytes": 6863,
+      "sha256": "52bd1f189d2e91faf460f18b8d5253337129d201b82ab1e04529193f672f0502"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/2c_consider_resolve.json",
+      "bytes": 2470,
+      "sha256": "9641683a8a6f51abac4086f8fb37735f33e9ecd439b201898a02b487d035bd68"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/__debug.json",
+      "bytes": 2674,
+      "sha256": "5c9cc76b1d8f9fbbf0efe9784c88abec7858f60c7cccfe78259fc34931c81b81"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/_backstops.json",
+      "bytes": 255,
+      "sha256": "b6ae4b72a1ca1bd09fd4a5346bc342e92d52adc546f0928e52bbd26c0c4ad930"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/_collections.json",
+      "bytes": 548,
+      "sha256": "7104f08b9ded53972314314e92ffe057d29a03c908b0ae95aec25b38de9bf2e0"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/_endings_0_histories_present.json",
+      "bytes": 56951,
+      "sha256": "f51dd6cc66142fbdccc12eef0604d7594951f6030c6b2af7e7fc6e873e61c33f"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/_endings_0_histories_unusual_present_record.json",
+      "bytes": 1443,
+      "sha256": "581fde7f5a7deb35b2ed2d1463404817e0cda69b888e1308a41619e342510706"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/_endings_1_histories_record.json",
+      "bytes": 85771,
+      "sha256": "6694a6cd4ff9ee77e1b2f0f3165779d1aedff8a59b48f9bed985f85ee52d0729"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/_endings_2_determinations.json",
+      "bytes": 21593,
+      "sha256": "8260d00be417d9fd213b9de72af73f0a0ca829baff6b0626e3695a527a68b239"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/_histories_hints.json",
+      "bytes": 2055,
+      "sha256": "c1263169d38ca80bdd102cc54e08fb82fcb8e48e8b05fdc75fa19413625ffbd4"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/_intercepts.json",
+      "bytes": 1828,
+      "sha256": "9d5281127aafb7b36e1fc9d3cda00216ecc0162e8f1002fce8499e2797d45849"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/_legacy.json",
+      "bytes": 598,
+      "sha256": "26a019525c0223fdd941e78c7ef2adde28b56fd0a1e3371fcf7c38811ca5e0f8"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/_legacy_crafting_4a_prenticeplus_ambittable_unfriendly.json",
+      "bytes": 73225,
+      "sha256": "e4eed718a6d0334366ab29dbbd44d351fa038a135a85e5b524c4547c1cab74eb"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/_legacy_crafting_obsolete.json",
+      "bytes": 4870,
+      "sha256": "6ef02bd4eaf4c7a1f76d55105a422e8cb0806b87e61cc17634db4c23004eb9bc"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/_startup_recipes.json",
+      "bytes": 32034,
+      "sha256": "8b56de69c5284f1a1644d96bd2e23d56f7da9a31ea202a00ebbd4c77d4abad00"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/beasts.json",
+      "bytes": 1994,
+      "sha256": "eddeee9f7f73ddcf4c999ec53535a826735b77821da13cd03f46da0d04b22575"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/bookbinding.json",
+      "bytes": 616,
+      "sha256": "d0409aebec349df5ca2844fa1c7c00c282d81c2d67f228930420793c339c30d9"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/celestial_recipes_time.json",
+      "bytes": 13068,
+      "sha256": "04b48be5da162becda39af1a61e1812dd8371b67a948deaf3da393a8a3061265"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/celestial_recipes_weather.json",
+      "bytes": 3057,
+      "sha256": "48c61f9b1c8031213dab64ad71c80ed4a43001a8c3de9f74069100a88425e42e"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/correspondence.json",
+      "bytes": 6752,
+      "sha256": "ac28e39b4f741836aadc363ee6778f33eca76d12c4e0075e06107bb79bb96c04"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/correspondence_ordering.json",
+      "bytes": 20098,
+      "sha256": "9d0b0c4dcf0e48b1a390da8d65d76b9781d25ba4c9c893255f820b5b4f7c2c27"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/crafting_0_numina.json",
+      "bytes": 7143,
+      "sha256": "a8773b4187d6f58f5ee28f616226e06b09f8347eb5028368fab2060d98357f04"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/crafting_0_rest.json",
+      "bytes": 8495,
+      "sha256": "73b71b7b694456368203c8862cdce5b727f01ddb23c0aa2618c43077bcc36934"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/crafting_1_chandlery.json",
+      "bytes": 3202,
+      "sha256": "3085815dc837a404b4e4da8a3bc550d7626806d986c42b80b83e5250bc886780"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/crafting_1_evolutions.json",
+      "bytes": 27817,
+      "sha256": "2a3a69afc7effca62b722c4378b3852d373f0b4ce06d120a65db30507d85ec26"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/crafting_1_simplemanipulations.json",
+      "bytes": 8380,
+      "sha256": "8755eca4a9e34608c32825216f9061928789e456a251e83a7f989f406b516810"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/crafting_2_keeper.json",
+      "bytes": 87113,
+      "sha256": "89769ebfa8706b81858df1214fedb015584569b738fe0a79cddaba2414ddeb01"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/crafting_3_scholar.json",
+      "bytes": 72269,
+      "sha256": "4b768fcdc7555f6bb79ec449b00fddbf77039094a26d9a016236ae61abe6910c"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/crafting_4b_prentice.json",
+      "bytes": 80878,
+      "sha256": "6eb7bff389eb55d706893a5e1d75cc5d0827dfef9fefa0f4049e998f4fd1ff0e"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_1_lighthouse.json",
+      "bytes": 4655,
+      "sha256": "e087ed4ab981019d409ccbe97ba7efd509c1efdab3a84bf1de5dc60afa7e2ed0"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_1_meddling.json",
+      "bytes": 2044,
+      "sha256": "a253220183638efce8c3f910c9202db61bc2f30cbc2a85293b915fbedbec1a6d"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_1a_salons_inauguration_end.json",
+      "bytes": 12786,
+      "sha256": "c49d7ceccfcf0151ebcff852fbb56cd063a271cf10dd2911da4b361a876325cd"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_1b_salons_inauguration_ally_foe.json",
+      "bytes": 10408,
+      "sha256": "3e2bbe04fdc01afa9f491f29d4ba071277558160323a2ee5253885c1b9054d19"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_1b_salons_inauguration_mission.json",
+      "bytes": 11320,
+      "sha256": "3534d28a9033a678536d041131c50b08d8a0daffc9b54154f06232a0f40df0d4"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_2a_salons_blockers_basic.json",
+      "bytes": 11286,
+      "sha256": "9231ee1fa74be5a3dd7f82a900da9fbe75f970fbebaea5cf456e598edc616ee7"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_2b_salons_blockers_beverages.json",
+      "bytes": 10878,
+      "sha256": "bb380f260b6c0c8c8d38598a66da6cfcd9313381d6777ac84519e6831155e94f"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_2c_salons_blockers_repasts.json",
+      "bytes": 10898,
+      "sha256": "2cf045f9c4f0f01a4e2fdb19b5024f6fe2c331f157e82de8d6df32fca73d9a25"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_3_salons_prototypes.json",
+      "bytes": 1954,
+      "sha256": "555fa6208afe61aa7b39df4a668f5281e54bd890ae88880e06865224321d177c"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_3b_salons_routing.json",
+      "bytes": 22810,
+      "sha256": "c31cca06f92587ab62b432fa8e517999eb4be3da1441fe1017b368f3da0b56b5"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_cooking.json",
+      "bytes": 56044,
+      "sha256": "164ece3dc7ad86dfaa595ac6d94d52f809234ff8e33caaf29bb4548728f2468c"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_correspondence_summoning.json",
+      "bytes": 16560,
+      "sha256": "cd4428b728f99c9cda3c8007107407f5ee604446c2c89520292ff9b34d9edb81"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_gathering_2_seasonal.json",
+      "bytes": 1694,
+      "sha256": "95b407c8043316fbb2b5c7d512f7096fb70af7df342658b4c38a43bd49c19a62"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_interactions_specific.json",
+      "bytes": 7189,
+      "sha256": "625db8a55117fe660cd957536193f4494152d2740e922cf7d1051ae6aa950740"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_leiter.json",
+      "bytes": 121154,
+      "sha256": "93ec4076ac0854f109605af8f147c82eee4f59792a84dc028a470e7e31521d4c"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_manuscripting_soph_improve.json",
+      "bytes": 46076,
+      "sha256": "4a3adcafe25895841fcab86c335daabaf38d472b399ba3b5adfc58b5749b0db4"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_manuscripting_soph_set.json",
+      "bytes": 31946,
+      "sha256": "142316d18b6b125fd24cac185857fc0268d26c516074e49e01612cf83f43ad5c"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_manuscripting_write.json",
+      "bytes": 81258,
+      "sha256": "4db2fe2245d16e6c25dbf36b5384263651407650d67b2c2b89432f591320d05e"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_nrs.json",
+      "bytes": 488222,
+      "sha256": "e170c87fe4fd22bd8654c5669f38b16d4b288b755f3410ebec2d326a11cf9369"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_patch_resurrect_incidents.json",
+      "bytes": 6954,
+      "sha256": "babc727cb2fe5980f2d50b6c51098d3e4d41d5b22aea0df0a3351799b05c114e"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_prototype_recipes.json",
+      "bytes": 892,
+      "sha256": "ee5f351f372c6f1c2442d3ce8594fae2b6c738b257e3667fd1090bf97803298d"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_salon_responses.json",
+      "bytes": 649386,
+      "sha256": "d29a4dcaa2d88f8017d67a0e21d7cd1afa4fa67d99ca50988c0bf0e610e36c1e"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_slnbk_languages.json",
+      "bytes": 8336,
+      "sha256": "06d8220a5058b09a9561602811ebbea69aa1543551c9b6a26dd452ad66427b83"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_slnbk_skillls.json",
+      "bytes": 34352,
+      "sha256": "5d918842da9f1fc8486ffd591877ebb23f5e2f5409ba009e3b7c336dac258c25"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_slnbk_skills.json",
+      "bytes": 33854,
+      "sha256": "216dc41836d14e43c3dc188a1e1bde48b6eaf6edc3552e3f59eaa2f14bd77ddf"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_understanding_specific.json",
+      "bytes": 608,
+      "sha256": "d275692f5e3becd9c9b10646e83031d527b83df4b64187b3a2bbc47b455028e6"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/DLC_HOL_village_invitations.json",
+      "bytes": 4103,
+      "sha256": "ad3d587eeee7447ac4dfd16c1d22ca9424086813bd2634f8342e7885dec8b1bf"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/gathering_1_exceptional.json",
+      "bytes": 3091,
+      "sha256": "4fd2a000b3e9b6b64462dc13e995937e311b09c1b7fa798289d9254e373a01b1"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/gathering_2_seasonal.json",
+      "bytes": 17135,
+      "sha256": "a65d30f33107f4e429c5662935d5d2cf66731d7d91256662d4178fd4d06db270"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/other_activities.json",
+      "bytes": 3813,
+      "sha256": "301220fcfa40ab4a87b981d3063c05f3a1766413305857b84ccc471e8da40a31"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/renounce.json",
+      "bytes": 6758,
+      "sha256": "882958b76fe758e43bddf81b26a850ee291dd6a7d81eea3b067d2e40c04ebb4f"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/talk_1_visitors.json",
+      "bytes": 6471,
+      "sha256": "c0c1d32922296e900ad6878c9594d68de4be6e99517f9ed2d01c1139ee7ee6ad"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/talk_2_visitors_payments_tutoring.json",
+      "bytes": 6974,
+      "sha256": "0928c2b8c3705458e8aa757ce105fb989ef60cdcbc6304a7855e6d8265f810d8"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/talk_3a_visitors_intercepts.json",
+      "bytes": 15751,
+      "sha256": "1526b5a125ac59179ba694349b7a6af993b1ffb73580ef08dbba84e6c6561298"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/talk_3b_visitors_cantread.json",
+      "bytes": 3758,
+      "sha256": "840d774f11998fbd9d8eebd939f4205d873d076bedcc7a9934bf3d055a5193eb"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/talk_4a_visitors_intros.json",
+      "bytes": 10152,
+      "sha256": "6d69ea270b291baf19d70190fa2f82ea140b54591654ddd363f47a6e79841573"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/talk_4b_visitors_specific_incidents.json",
+      "bytes": 506780,
+      "sha256": "1a7c3e9de186b969c2a1b2deb43deb912489d96f590621800ca8d7b8dea0b22a"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/talk_5_visitors_generic_consultations.json",
+      "bytes": 8594,
+      "sha256": "1858e4cb78a94d33536a3fa181074d5a70d83f8fa77bc9f6e0afb8ecba5cb046"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/talk_5z_visitors_fallthrough_hints.json",
+      "bytes": 290,
+      "sha256": "a812dc8cb7cd81635c8a4c43316c756554a9d4977529d2b7d6fab0c011f6dac9"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/talk_6_assistance.json",
+      "bytes": 43041,
+      "sha256": "10d3859591a1cbebac0c06f7895184bf0baf826772ef9b2638112679805fcac9"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/terrain.json",
+      "bytes": 209184,
+      "sha256": "0b524c9b71f2d7e22390254f9a55131cfbc996c5cd8eece1e5798827990abe5e"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/understanding_1_numa.json",
+      "bytes": 16197,
+      "sha256": "ce83f838fe15d68c926fd3ea04b47c12a607877b60aa3d3fc778400760e55d97"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/understanding_2_upskill.json",
+      "bytes": 34698,
+      "sha256": "b61cc93f386aa9e2bd05fa21c254abcc8dd60363a3cf6f97f4ce6c23a53931d6"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/village_interactions.json",
+      "bytes": 79587,
+      "sha256": "dc9d2d462abd86134c3f6e45c397ec64ae2b1ed6f01af72903d347e3546e6a66"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/visitors_correspondence_auctions.json",
+      "bytes": 28747,
+      "sha256": "e23b2824ae08f1f800bd0e44a5161beed6e53208b224df00df1d8ec397bc71f9"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/wisdom_commitments.json",
+      "bytes": 131565,
+      "sha256": "ca2bcdc89a6fb4b026f9f7165654bf80dbf4ae1bb116325384c45f4fb4629282"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/wisdom_commitments_exotic.json",
+      "bytes": 531,
+      "sha256": "84ae564a472bb68df32e53a3af0fe0ccdca1e0f0f6a926bc526f0f3f6b145019"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/z_fallthrough_hints.json",
+      "bytes": 24112,
+      "sha256": "d67f9a008080e3f9bbd782b0cca21232c19705b54f4bddddb2797e0b313a52ed"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/recipes/z_fallthrough_placeholders.json",
+      "bytes": 183,
+      "sha256": "0897d88d4f45bb07fc591bb9f4ddf3ec5b7bb0cd416a00288753aacffe416135"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/settings/settings.json",
+      "bytes": 14078,
+      "sha256": "b36924ee44d8e8e90fe42219bde2a271725177e0bf0837fc15681c502235c0fa"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/core/dicta/bhdicta.json",
+      "bytes": 1049,
+      "sha256": "f70763a1509eb41823fbc68606ab22975beccbe699823b236468948d6c0f1945"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/_aspects.json",
+      "bytes": 64225,
+      "sha256": "08954804097b50e99403f76f9aa05c15d8131a79a380acfc0edd981ecdf6312e"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/_aspects_salons.json",
+      "bytes": 2956,
+      "sha256": "ac782780685fab92e6ac0b2f09fa2d9751bac0f7d9302167cdd92e3c1c2c4cc4"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/_debug.json",
+      "bytes": 125,
+      "sha256": "cd44e93aa696436fb17546030816149afd26d92f5b20bc855e4fcece287da2a3"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/_evolutionaspects.json",
+      "bytes": 6368,
+      "sha256": "a5d5983f46fb73f4209045c7d6f69750970fd8ef06fd205d15b112e584b40c44"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/_groupaspects.json",
+      "bytes": 1167,
+      "sha256": "7a7e7199148c0ee8b2e6b87033d36b146551015ab63819a7341a496b8b46fb37"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/_order_aspects.json",
+      "bytes": 4805,
+      "sha256": "63173e4d2dbfa3075b1452f8012694391260a68294d88ed7c53a554d74f36b5b"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/_prototypes.json",
+      "bytes": 6175,
+      "sha256": "effc21cec8db4104acb66d409d6374a6f235363b08418ed255066f39bd813561"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/_resolutionaspects.json",
+      "bytes": 14407,
+      "sha256": "789f7dcc7a1ce538d587e9c6b6318da0469e26678e529b1d538f3067f27a3e6a"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/_visitactedaspects.json",
+      "bytes": 33818,
+      "sha256": "c5ad65bdc2c06c9a1947d5763a2b9f4c86e575911257f0dac0813fc9dc170f59"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/_visitaspects.json",
+      "bytes": 7982,
+      "sha256": "6aa9fa956aff3a1e6fa1be96cf71dc183d12dcbf4b72acf7c61de364773bed3a"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/_visitreadaspects.json",
+      "bytes": 3788,
+      "sha256": "9227136b404b5edca444dc79aae108f0bd55b62a5d3511840bc7f83db8747054"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/abilities.json",
+      "bytes": 8765,
+      "sha256": "7c35b57fe6ecd070fb4420757003f4e4c87715470324f02d930b3b14917d90e0"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/abilities2.json",
+      "bytes": 8460,
+      "sha256": "61065a5ed7bfe853b85bba95daa7ca11797e8faa15b17ec8e95ce66311a0295a"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/abilities3.json",
+      "bytes": 8486,
+      "sha256": "906936ca56c806d86303cbecab6ac95843ecd741bc336c168b9f1efe68f567e5"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/abilities4.json",
+      "bytes": 8512,
+      "sha256": "8c74896a21e275c8509f646f1a346bb9fa6b7957615da2e2a8ca368bc25537ba"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/abilities_setup.json",
+      "bytes": 1326,
+      "sha256": "b3103947c0d4da7c74cc0ff15ad9d82d3f0b893425e97bd5bfe24531cb3bf0fa"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/aspecteditems.json",
+      "bytes": 198875,
+      "sha256": "ae8d446caf6b267339d1e68d00fb77f60655c3c51644fe3d4eb03f1cd05024db"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/aspects_nx.json",
+      "bytes": 487,
+      "sha256": "86a81df231ea9812c7bbc54f10e5f8be52d65e9837f2999ffa89b34a102d6e8b"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/assistance.json",
+      "bytes": 8032,
+      "sha256": "510bf517de8f8592ff687b35381dda742342c806b31d7b5e660ca1b13a2f5a82"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/celestial.json",
+      "bytes": 1923,
+      "sha256": "f508dc489f0df3f3115f94e1b40329b80752c7d69f723ce5500a9359db64de6d"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/challenge_opportunities.json",
+      "bytes": 2559,
+      "sha256": "158517598ba38f5a8e671afaec6308acbd6d0f140db1135579264924d53f7b93"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/circumstances.json",
+      "bytes": 272,
+      "sha256": "8870822b730c6b2c13aba2fcaeb2730ef1673b9591293909f4d309883a60ec04"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/comforts.json",
+      "bytes": 189,
+      "sha256": "cdbb048bbc0df95cbd7509b771e7bb8967cd81f2226da4dd509368aaf9853afb"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/contamination_aspects.json",
+      "bytes": 5464,
+      "sha256": "2501fc82e428a6b7fc00c1c183885430fc9354a2e4c9d33a712d401b36e85b90"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/correspondence _addresses.json",
+      "bytes": 8884,
+      "sha256": "73eb1129fd523668bd1545e95e3fba4e95fcaac987f35a686f414dd7898d9dc3"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/correspondence_elements.json",
+      "bytes": 7546,
+      "sha256": "cdc946c77fc126f1b7507771306c8a28a027221cbbe80351fdd046cec524fe2f"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/credits.json",
+      "bytes": 2473,
+      "sha256": "cbe547fe92d26ef8cca3b7998ee3889917d3b5f2c82ebfb4d12999df31745a81"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/DLC_HOL_instituteaspects_ally.json",
+      "bytes": 797,
+      "sha256": "17f25a775c6692e2bf26e77417b9167f2652472de77f88fbe7243001bde830ed"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/DLC_HOL_instituteaspects_foe.json",
+      "bytes": 942,
+      "sha256": "d90d8600cd12c55c47a8d85a905aa4740bd8a8955b00031adc8af161e59cd388"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/DLC_HOL_instituteaspects_mission.json",
+      "bytes": 2327,
+      "sha256": "15e3eda78652c50df32898e7c17145b67222d874b433ad0ee8dad1bf5f9b950a"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/DLC_HOL_manuscripts.json",
+      "bytes": 12013,
+      "sha256": "ab85b985169f7f4afbfe2b1b550c5ca14291cd21be1fc2f5419ffacfd2e54557"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/DLC_HOL_meddling.json",
+      "bytes": 683,
+      "sha256": "5787c6d450fdb7f0f09cf9b7386cf023bade146ca542a82c6d7dc87ad9809e7d"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/DLC_HOL_menu.json",
+      "bytes": 3395,
+      "sha256": "6110b425218264c1ec57606ce7e71e25489634d3bf803dcfb6186d257427b08f"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/DLC_HOL_misc.json",
+      "bytes": 734,
+      "sha256": "8ac0a11f39428b107dbf298245f0c34146a67242c54707fcb92795588bab499c"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/DLC_HOL_ns.json",
+      "bytes": 28577,
+      "sha256": "5a7cacd22abc64b89248a250dbed7e23c91af1a87c1c699f6ff634076ca69376"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/DLC_HOL_salons.json",
+      "bytes": 1558,
+      "sha256": "fd53a0378bf8ba80e2dd70524f272dec691c645889629772d0db766775425d22"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/DLC_HOL_stagger_elements.json",
+      "bytes": 7679,
+      "sha256": "9c3435730212b572e7690483b7baba53472b07b623499f3194273ea76c140bc4"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/incidents_n.json",
+      "bytes": 11479,
+      "sha256": "e40fc8e64a955723b9399bd12d6dc0d7430eb913f296a45ab52892cc704b3cfd"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/incidents_weather.json",
+      "bytes": 1237,
+      "sha256": "18e22b622d475578763526edc4bc0e233f98a41819e9923a875460706b6c7e42"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/journal.json",
+      "bytes": 5843,
+      "sha256": "51bcddc545a07415fe8a02c800367844ec3ed32d2076c56b2f664666ba175876"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/misc.json",
+      "bytes": 1397,
+      "sha256": "90c037c88ec40927e9a3bc299bec7f3fbe6e053916453c5f87afb90e47dbacd6"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/music.json",
+      "bytes": 3105,
+      "sha256": "22e9f42a4338f74163f414c296a50bb20732099e73e62432a4fc15f58a5b4443"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/physical_sphere_text.json",
+      "bytes": 4303,
+      "sha256": "dea8f5df2fd89b50c9157c16e44dde874f658bc58e591d6b2ee3411b9ae74c8f"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/precursors.json",
+      "bytes": 6515,
+      "sha256": "b78d697de5e07333821f6d61bed70a771c9e250aff542f8a1d46b86d1ed68f90"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/pseudoaspectpreviewtooltips.json",
+      "bytes": 764,
+      "sha256": "652a89a0e4415cc06243242252ceb6448738b9adc592599526832b603ad5f6bd"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/resources.json",
+      "bytes": 1982,
+      "sha256": "7c5251dff7e32b421cfd3be3ba91f95443648d3a3f3cfbb6eb6b5e7456343767"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/skills.json",
+      "bytes": 52027,
+      "sha256": "47c403e12925f7fd9087354ed8ccf52a2c53b21bb13bf3c1dbdcd76fd4f298b3"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/skills_r.json",
+      "bytes": 14122,
+      "sha256": "da3a9396fc40a3220702df6ad224eb44ebc4a457cba5b4b7e670d1d35cf84fa1"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/tips_hints.json",
+      "bytes": 4119,
+      "sha256": "348d77f6ed1d313b13989a99b9d51358457376032517489d2f9317e832d0d0bc"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/tlg.json",
+      "bytes": 84,
+      "sha256": "82614567cc1ed06fc730be126b7f5c2b8e9f1c7cdca939a1a184f6747c2f4798"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/tomes.json",
+      "bytes": 231823,
+      "sha256": "f7f2e0ede3c6925528f112cb9151e2a7135efe3ac81334c6f9c806da403ebb7f"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/uncats.json",
+      "bytes": 1058,
+      "sha256": "dfde82d812ed7a8c997004c00a1d1bd176b2e91f61130586dcdfe264c302dc09"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/visitors.json",
+      "bytes": 6713,
+      "sha256": "ba0be29d08adc4a7716ff93bc9ed60659fa02027f1e09e4285692a6e6182f458"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/visitors_embarking.json",
+      "bytes": 4599,
+      "sha256": "4d7e1ded2b539dcd18d19884aa0387b79c6b488adca2c1928b3463b87e9637a0"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/visitors_other.json",
+      "bytes": 5752,
+      "sha256": "588f378f72ca8aac83d4ba6f825a9279cecd3c731b719356f64a9d8dfa137daf"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/visitors_retired.json",
+      "bytes": 378,
+      "sha256": "ce98858bb0abc2555db18efb41fa2663e9b400150cf3076beb78029063d98781"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/xlessons.json",
+      "bytes": 12013,
+      "sha256": "4d74a1bfe331c1d6a47abd05cde7add736a45c5f90430d5ee044cd87dd85a410"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/elements/xlessons_unique.json",
+      "bytes": 1152,
+      "sha256": "f5bf99d8a5b338e20af235a12d06cc8d214b436be99a20ecfc9728f8b224bfbb"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/verbs/celestial.json",
+      "bytes": 701,
+      "sha256": "c3c54e95588921c3de4dbbf4efabc013f30228521c88f130870eb380a41e8840"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/verbs/DLC_HOL_verbs.json",
+      "bytes": 6957,
+      "sha256": "62796e42081774617035b924bac4e11b0e470ae8dc6fed7a6415af09b963ccef"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/verbs/incidents.json",
+      "bytes": 507,
+      "sha256": "c5e529cd6c5038f3d467219333e849cf7847bf7c637913b02791740541fcbfa1"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/verbs/librarian.json",
+      "bytes": 1035,
+      "sha256": "39dd28c4abf463aec05d9c537529fd5deadb1244622168332c790f3a432b8d45"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/verbs/workstations_beds.json",
+      "bytes": 7920,
+      "sha256": "9c2eb17749ce02fd1d97a2fd35276025ac0c79632dc95cfcfdbc2e142a6179ac"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/verbs/workstations_gathering.json",
+      "bytes": 8327,
+      "sha256": "4ececbed0ec23e776b5226667d44e712e53bf57b2bd66b816bffa3f6ad562205"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/verbs/workstations_legacy.json",
+      "bytes": 392,
+      "sha256": "6cd167f53025247efe3e620217ed03e7b9cac53ae92a748ff41061c902b84cf3"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/verbs/workstations_library_world.json",
+      "bytes": 36575,
+      "sha256": "929f0c5d379bd65aae0a346391f85c7a77fe982bcc54dfb69c54d91aeb940bd8"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/verbs/workstations_unusual.json",
+      "bytes": 8292,
+      "sha256": "32e77cfed9bfd5a359988181d3170574d66190136397affab94267a2a18a82da"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/verbs/workstations_upgraded.json",
+      "bytes": 4621,
+      "sha256": "a66725377445d880960d5213af592bd4858f8ec15e075e85fdb8bdbfdf1f38ea"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/verbs/workstations_village.json",
+      "bytes": 5681,
+      "sha256": "8746695ae814c40bef3c52ba3dde56122aeaac9e638da3d4dc9a527739a3f873"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/0_consider_decontaminations.json",
+      "bytes": 2899,
+      "sha256": "0b0397b5d4444111e39139c2a8b96cc23c5bb3f35fbba1c8c5ece73e6644d5b2"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/1_consider_books.json",
+      "bytes": 23920,
+      "sha256": "d98a52a51ea5fdb0f78922a466c37eeb1dde7a0542d7f3fb3fd7c61853f9d0d7"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/2a_consider_open.json",
+      "bytes": 2773,
+      "sha256": "85eca60db8c39092f49bb3d54493204e180f72301df6c3fc975f67cd1acff55d"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/2b_consider_generic.json",
+      "bytes": 2707,
+      "sha256": "b8771580acaac10e2de75fa0dda6788e069d080cf3d25b36f616ea2a87e31366"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/2c_consider_resolve.json",
+      "bytes": 657,
+      "sha256": "fe7ad6b4117dc2a388c281fc407d6fcfde2e38ca095417eed02e22901ab71ab1"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/__debug.json",
+      "bytes": 1102,
+      "sha256": "ac5cf024de4702587a9f1eea28400aaa675dc79f5cbb278bd69b8c41a41ceea2"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/_backstops.json",
+      "bytes": 225,
+      "sha256": "5afd97c49e3014c040f2d70631cfc6c8be859671d42d5f589e03a8bf4b7aac52"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/_collections.json",
+      "bytes": 368,
+      "sha256": "1d39ec9f8b6e83997f138be7a18dc02de80f463c3b8ddfb0ee36ee8e9451b13e"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/_endings_0_histories_present.json",
+      "bytes": 37424,
+      "sha256": "bee8896d0d3e2003e3d12818d1cb10e0a879adfa87fb3e1ae3fc978227612fd1"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/_endings_0_histories_unusual_present_record.json",
+      "bytes": 1124,
+      "sha256": "9abce3d1b0e759bbfb86179d8f750773fed1b74b9bc5104eeb805e851ec4bceb"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/_endings_1_histories_record.json",
+      "bytes": 53854,
+      "sha256": "892378eead5790a46504c901cbfcbbf05d1522cd14a89080656544b916deae06"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/_endings_2_determinations.json",
+      "bytes": 10327,
+      "sha256": "4bf38afdb6b859d6d525ab6a27d2399cf7eace5d7c35a95358347145bd102626"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/_histories_hints.json",
+      "bytes": 1451,
+      "sha256": "8755c4e8bbc17bf6d738b3d34627b309c95d99e99402429457669020178eab29"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/_intercepts.json",
+      "bytes": 815,
+      "sha256": "573c25e880eb508b3b58e212ea1f5f8fce6bcfdc3f0e49752197212cb550a348"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/_legacy.json",
+      "bytes": 429,
+      "sha256": "5a09ef2bc8bf329ee505132b879809c74037ee94e5078f10b507aba848519adf"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/_legacy_crafting_4a_prenticeplus_ambittable_unfriendly.json",
+      "bytes": 53118,
+      "sha256": "ecc4e5dbc415efb7a920cd38fb51b6052006ea335ee81f39861b3bc84379da67"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/_legacy_crafting_obsolete.json",
+      "bytes": 3521,
+      "sha256": "4bbcfd8296ed1dca23b402a1416907672d509cb7149ddb2e0796ff3f881e681a"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/_startup_recipes.json",
+      "bytes": 17035,
+      "sha256": "2333f47ade4e3b72a69dd84f78211a46509c36ad1a19ee49b9d78a67d9e4b2e1"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/beasts.json",
+      "bytes": 1186,
+      "sha256": "59e6cacf4a689e6a9a5d51848b7a00fec1d62578e0826eaaaf0045b4be01a2f7"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/bookbinding.json",
+      "bytes": 316,
+      "sha256": "368aa9be8dbbc74c162fddf5c4745911fb575fe76595afa88e6b3e1ccee57d56"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/celestial_recipes_time.json",
+      "bytes": 3086,
+      "sha256": "40b708107d81b08bc55bb3c0e07cbba522e83a10534a13feb64c88f9fcb4ffe4"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/celestial_recipes_weather.json",
+      "bytes": 1104,
+      "sha256": "60b06245ff8bd3699f249b756a9291489d4b9810b9108e89c0db0b163e2345c3"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/correspondence.json",
+      "bytes": 3800,
+      "sha256": "6a90a322a5d1381fb5e6a1efa2a34e9401b6bca99ae49a21934ace41e894ad37"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/correspondence_ordering.json",
+      "bytes": 9106,
+      "sha256": "1f290700e9f8573777d61ec4622110c3dcebf01092ded3c8e221d838debdeba8"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/crafting_0_numina.json",
+      "bytes": 3870,
+      "sha256": "0567680222fba6bc5919bc782eb83625e76f6c4e0f487a042e913504b0060921"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/crafting_0_rest.json",
+      "bytes": 5275,
+      "sha256": "95213835f2ffce0404a023f440945734ce01e4eb74c82c839da3293885ac77e6"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/crafting_1_chandlery.json",
+      "bytes": 1415,
+      "sha256": "f4813b4be057ac29cd407427454c01f4f7ea59ddf9c2b7fd4d2af2cb53577894"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/crafting_1_evolutions.json",
+      "bytes": 7557,
+      "sha256": "cc5e87525ec13208f24ea668868a0b55bb2be22ac0ee00ec1095d363c6eb77fc"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/crafting_1_simplemanipulations.json",
+      "bytes": 4072,
+      "sha256": "8ff488395e2c5c1d1c15935d35d4e36037a893b5da9216dbf94de152cb1882de"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/crafting_2_keeper.json",
+      "bytes": 60159,
+      "sha256": "980815aa95798a80c7602afb5edcb2b6ac570a9775e588788c37e18d0e0abd99"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/crafting_3_scholar.json",
+      "bytes": 51856,
+      "sha256": "c2dd32fba7299935d9a457ef496532eb1d0f676144254083fe41f4fa5df0f686"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/crafting_4b_prentice.json",
+      "bytes": 63141,
+      "sha256": "c3456d7bafa7908aacf15f7fe86fd001573853cea6dae49787bf9c1b0cd92aa3"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_1_lighthouse.json",
+      "bytes": 2946,
+      "sha256": "a4d63cd869697eff2d2a9ae5798abf5887f174e66e7672459217cdef38a19442"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_1_meddling.json",
+      "bytes": 1199,
+      "sha256": "877cc1ceebca72ebd135f0ef5c393dce2fa119f2f049225cb646259789624892"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_1a_salons_inauguration_end.json",
+      "bytes": 2734,
+      "sha256": "393d23fab50fcfa9d894e71a31f94fa43a9d9694cd2049eae697c5f939c841c0"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_1b_salons_inauguration_ally_foe.json",
+      "bytes": 3284,
+      "sha256": "50533984b726a733be056a1b6f0bde634cc7dd8a4e48ee9c781a70ee5b52e4c5"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_1b_salons_inauguration_mission.json",
+      "bytes": 3712,
+      "sha256": "fed9c3a5a515e58915c1f9c629d79ad305770c8ef0e49e42940be2fa82ece46f"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_2a_salons_blockers_basic.json",
+      "bytes": 2727,
+      "sha256": "2fe8416ee6a9610a0a6f64c186c9488c48a4c4316a1c0ad324601c46aea15557"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_2b_salons_blockers_beverages.json",
+      "bytes": 3529,
+      "sha256": "f7dc9215adddf62bccf187e5d7a06b9cdf3d652866058c42953098787733abd8"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_2c_salons_blockers_repasts.json",
+      "bytes": 3551,
+      "sha256": "837a25b9bfd25fb119297b4b294ac3cb24b77ca466ae127abd4bcdbcc166f2b7"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_3b_salons_routing.json",
+      "bytes": 6515,
+      "sha256": "5ee056e883d92a998fe3f668564df0e0809d706c5b02c966d9adcf705c092362"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_cooking.json",
+      "bytes": 18612,
+      "sha256": "e5d70c258a498a498150a1eab7925d6ceab59ce25afc9df488e2d0025e8d32be"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_correspondence_summoning.json",
+      "bytes": 9148,
+      "sha256": "25f654ef24bffe465832b14739e8bcdbaa0c9dde59e5866aa143fd5795c79cbc"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_gathering_2_seasonal.json",
+      "bytes": 1177,
+      "sha256": "e1ed1520ac70d6c5ba0655f479c22d3b06d2f507f24bc58673d4be9e76064c27"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_interactions_specific.json",
+      "bytes": 5562,
+      "sha256": "4b8cb5985b9aea5fb8bf379577541f04897627599db027d5df240e1a44db31be"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_leiter.json",
+      "bytes": 42195,
+      "sha256": "902950795328893962eda7b1ee9344fb1a6507c2d1b2e669ad9ae6df52b87603"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_manuscripting_soph_improve.json",
+      "bytes": 8185,
+      "sha256": "e15a30ed2d6a2d2793725f029059bad50cf169940a21392eef1ced626503eb89"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_manuscripting_write.json",
+      "bytes": 28430,
+      "sha256": "3d51ad14a9001672bf5a68e568f2f73bd11ae6fb659c629196b8a18ea61d55dc"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_nrs.json",
+      "bytes": 169405,
+      "sha256": "5b99bffd3e6d9eccfb122fcba8c72a3b89d41ad0d9de208a6ccb71b544172ad8"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_salon_responses.json",
+      "bytes": 166386,
+      "sha256": "03ca7c97f85df8d320737b4560207ad9e2c719ef87e49023f0a9a0927e3b17b3"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_slnbk_languages.json",
+      "bytes": 2963,
+      "sha256": "9d236169fc8badf601ea11db447325fd566d9b9eb427ad75cb864d3d9077f00b"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_slnbk_skillls.json",
+      "bytes": 10160,
+      "sha256": "493a975c2b2e6da79db0deac510193a664ca8375892b3bba6f7179b2ccd06248"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_slnbk_skills.json",
+      "bytes": 11357,
+      "sha256": "e6e3c24249ba04628991f6c57885c4e17b416b5b3dfac5deda02addb4d963a6b"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_understanding_specific.json",
+      "bytes": 323,
+      "sha256": "abbb6d08d42d502ab2210e95739b99ed80fd2206da2fa884db34d778e675ab44"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/DLC_HOL_village_invitations.json",
+      "bytes": 1568,
+      "sha256": "11d5c4d88003a7fc17399a092b17257570c9b79ad993d2b33ca6aba5d9d98529"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/gathering_1_exceptional.json",
+      "bytes": 1785,
+      "sha256": "1d3943adc637fd83bb18e2ebafa114aeb4d335a5ae47f9732a502ad192255e7a"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/gathering_2_seasonal.json",
+      "bytes": 10269,
+      "sha256": "79bc8292c010c7c26cd901dfc6992b071c497684485d72494be01a91cad65abc"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/other_activities.json",
+      "bytes": 2066,
+      "sha256": "4918d82a7eb459f8301df49b444189c67128d5046a0c1ea63bed76ffa03221db"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/renounce.json",
+      "bytes": 3590,
+      "sha256": "9592a2a68320bdb33381d40b8c24b742fd01632f7fd8b0568545487e688ab1a4"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/talk_1_visitors.json",
+      "bytes": 1025,
+      "sha256": "a0ad37c57b45147aa86e8aa8f27d165268bf6909ccfa072ca8bed2292fa010f7"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/talk_2_visitors_payments_tutoring.json",
+      "bytes": 4873,
+      "sha256": "0c0ccadee2c9b9cdd581aec0599470970cd440e084a7c9c8923ac3e50cd62670"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/talk_3a_visitors_intercepts.json",
+      "bytes": 12012,
+      "sha256": "51e1aa1cdc590e779dc0dc45aa47640374bcb6e28533e0701515ee28544bc79e"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/talk_3b_visitors_cantread.json",
+      "bytes": 2584,
+      "sha256": "c12062413c76acda00305f2bd535aacdc833c9ee68bbad86601518c813b508eb"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/talk_4a_visitors_intros.json",
+      "bytes": 7257,
+      "sha256": "af5a155d299a44ece133ca84360f054aaa22946790f8b8f0cd646df4fb9c870c"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/talk_4b_visitors_specific_incidents.json",
+      "bytes": 157722,
+      "sha256": "b55e283423fbb42ac8aa4f54d87f35d58da3bd702d0b0362f4657a3008f3000b"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/talk_5_visitors_generic_consultations.json",
+      "bytes": 4846,
+      "sha256": "1987836f01abdb4259d429e2241ead8544a7915f0a563cdb126bd50e7caa9b38"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/talk_5z_visitors_fallthrough_hints.json",
+      "bytes": 186,
+      "sha256": "f362f74664108a64be183a54098235b3041af13db7dc8068c78fd3efd8826c06"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/talk_6_assistance.json",
+      "bytes": 13835,
+      "sha256": "1cce237a48f12542f6f42793b33347ff61e9c861a54f698c1d4bebfb113a0e9c"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/terrain.json",
+      "bytes": 75724,
+      "sha256": "d34fcdb7b534c09d901998d669a4e71dee77e8a0cc86086be8921494a0d3dd9b"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/understanding_1_numa.json",
+      "bytes": 5507,
+      "sha256": "1e594a3156ddc81c4e7965fc2b8d7457ecb1b65b826d1aca027a580e99a93fea"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/understanding_2_upskill.json",
+      "bytes": 18078,
+      "sha256": "b9b474decda69f119466779cb3e0b85fc8e4af4c260d58ba7618b66b8022b698"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/village_interactions.json",
+      "bytes": 39504,
+      "sha256": "2ffc5ae8f2cbe539a29ba439c52387528a1d1a6309c13a80c76d73499638650f"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/visitors_correspondence_auctions.json",
+      "bytes": 9858,
+      "sha256": "d02d7ce4b88d9e29ce73b7017c476a3dfb0df1830f7aef5df6d33e6f1fd28962"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/wisdom_commitments.json",
+      "bytes": 85939,
+      "sha256": "cc17ac66401e7f75b0607e6108920d39430c14751d8de9b1264a79812c049f35"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/wisdom_commitments_exotic.json",
+      "bytes": 365,
+      "sha256": "5e2f1aca306510896d8e8db4a1f5d75bea24ea8bd017b26f7736f4ccf02be196"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/z_fallthrough_hints.json",
+      "bytes": 10065,
+      "sha256": "2758387b91e15d703987fcf113c815102a9ae09584ede2dec02ca4f0b8e574b6"
+    },
+    {
+      "path": "bh_Data/StreamingAssets/bhcontent/loc_zh-hans/recipes/z_fallthrough_placeholders.json",
+      "bytes": 109,
+      "sha256": "54e5cd85e40088cf2c82bba6496b9e9b6f352fbc552c9e743820aca193a187fc"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "tool": "rea-agents 6.4.0",
+  "local_source_commit": "58300885207133422af235e0f2b10658cf958b03",
+  "launcher": "E:/Game/Demoncards/rea/scripts/rea.mjs",
+  "evidence": [
+    {
+      "path": "E:\\Game\\BOOK OF HOURS-analysis\\2026-10-28\\rea\\managed-identity.json",
+      "bytes": 1246573,
+      "file_sha256": "72c4a4d7df182e3b4b8e454db1fa8cede24c01418a01c09e1a828c6d78e66a74",
+      "evidence_id": "ev_32b9e977d21f2176238c65f759ebe6295ab7ea35bb815c4d3b8d69e8e167a40c",
+      "operation": "inspect_managed_artifact",
+      "subject": {
+        "name": "SecretHistories.Main.dll",
+        "digest": {
+          "sha256": "820df80128d65d066b1dfa7d9590cfa2ef60575136a4c764d484f06077e3b6c8"
+        },
+        "local_path": "E:\\Game\\BOOK OF HOURS v2024.12.m.3\\bh_Data\\Managed\\SecretHistories.Main.dll",
+        "format": "pe",
+        "architecture": "x86"
+      },
+      "limitations": [
+        "Static inspection did not load the assembly, resolve dependencies through a CLR, decompile C#, or execute target code."
+      ]
+    },
+    {
+      "path": "E:\\Game\\BOOK OF HOURS-analysis\\2026-10-28\\rea\\managed-members.json",
+      "bytes": 27596750,
+      "file_sha256": "1cb4e559b25b3583bf0186957e7993a6f5a8e31ab7bcd7af10227739d96ecc24",
+      "evidence_id": "ev_d9041c25a6fcfeb1b7724df8890ffecb79a09c82bdc369e048fd05439dd81c9e",
+      "operation": "inspect_managed_members",
+      "subject": {
+        "name": "SecretHistories.Main.dll",
+        "digest": {
+          "sha256": "820df80128d65d066b1dfa7d9590cfa2ef60575136a4c764d484f06077e3b6c8"
+        },
+        "local_path": "E:\\Game\\BOOK OF HOURS v2024.12.m.3\\bh_Data\\Managed\\SecretHistories.Main.dll",
+        "format": "pe",
+        "architecture": "x86"
+      },
+      "limitations": [
+        "Metadata tokens are build-local coordinates and are only meaningful with the reported artifact SHA-256 and MVID.",
+        "CIL instruction anchors are decoded from file-backed method bodies only; no target assembly is loaded or executed.",
+        "Exported types are reported from ExportedType rows as declared; forwarded types are not resolved in their implementing assemblies.",
+        "User strings are the #US literals loaded by ldstr in the inspected method bodies, with their own coverage; instruction anchors and normalized CIL digests keep their build-local tokens.",
+        "Member signatures decode ECMA-335 primitive, class, valuetype, generic instantiation, generic variable, pointer, byref, single-dimension and general array, function pointer, custom modifier, and typed reference forms; class and valuetype operands keep their encoded TypeDefOrRefOrSpec values, and unsupported forms such as vararg sentinels retain raw signature hashes."
+      ]
+    }
+  ]
+}

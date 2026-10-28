@@ -1,0 +1,83 @@
+{
+  "version": "0.1",
+  "project": {
+    "game_name": "BOOK OF HOURS",
+    "slug": "2026-10-28-book-of-hours-rea",
+    "analysis_scope": "按DIR-042清单分析指定本机2024.12.m.3的符号、对象表示、信息层、器物、槽位、制作、查找与窗口；静态和运行分开。",
+    "status": "StaticEvidenceComplete-RuntimeBlocked",
+    "target_questions": [
+      "P0-1：符号与语义",
+      "P0-2：实体与卡牌身份",
+      "P0-3：信息分层",
+      "P0-4：器物美术",
+      "P1-5：槽位与错误反馈",
+      "P1-6：制作状态与对象去向",
+      "P1-7：大量收藏查找",
+      "P1-8：多任务和多窗口"
+    ],
+    "source_note": "用户授权使用本地REA；主程序集解析、内容解析和资源像素观察分别归因。不得以静态证据冒充实际操作。"
+  },
+  "text_sources": [
+    {
+      "path": "evidence/engine-static.md",
+      "role": "REA托管程序集静态核对",
+      "description": "完整Evidence保存在本机；此页保存确切token、IL定位和局限。"
+    },
+    {
+      "path": "evidence/symbols-objects.md",
+      "role": "已发行内容字段解析",
+      "description": "符号、对象、继承、阅读文本与资源地址。"
+    },
+    {
+      "path": "evidence/recipes-slots.md",
+      "role": "配方、槽位、提示与设置解析",
+      "description": "制作样例、类型错误、数值不足、查找和完成回访。"
+    }
+  ],
+  "images": [
+    {
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/visual/symbols-contact.png",
+      "caption": "准则与灯主题角色变体资源对照",
+      "evidence_tags": [
+        "ui",
+        "system"
+      ],
+      "observations": [
+        "并排排列的已发行图像样本；不代表游戏实际界面布局。"
+      ]
+    },
+    {
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/visual/objects-contact.png",
+      "caption": "中文书封、书脊、器物、工作台图标与制作输入图样",
+      "evidence_tags": [
+        "ui",
+        "system"
+      ],
+      "observations": [
+        "不同图像资源按检查用途排列，尺寸标签来自解码结果。"
+      ]
+    },
+    {
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/visual/symbols-scale-gray.png",
+      "caption": "受控缩小和灰度对照",
+      "evidence_tags": [
+        "ui",
+        "risk"
+      ],
+      "observations": [
+        "由原始图标按规定尺寸缩放；这不是原游戏的截图。"
+      ]
+    },
+    {
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/visual/identity-variants.png",
+      "caption": "同名纹理的语言与资源角色歧义",
+      "evidence_tags": [
+        "ui",
+        "content"
+      ],
+      "observations": [
+        "不同pathID有重复纹理名，须避免直接选取首个同名资源。"
+      ]
+    }
+  ]
+}

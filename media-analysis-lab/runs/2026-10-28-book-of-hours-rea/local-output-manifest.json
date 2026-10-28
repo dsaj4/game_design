@@ -1,0 +1,349 @@
+{
+  "version": "BOH-REA-2026-10-28-v01",
+  "local_root": "E:\\Game\\BOOK OF HOURS-analysis\\2026-10-28",
+  "tooling": {
+    "REA": "6.4.0",
+    "UnityPy": "1.25.4",
+    "Python": "3.12.13 (UnityPy isolated uv environment)",
+    "ILSpy": "9.1.0.7988",
+    "note": "分析脚本和依赖为取证用途；不修改游戏发布文件。"
+  },
+  "note": "本机证据清单；原图、原始Evidence、有限反编译不随Git发布；清单不宣称所有输出均为REA Evidence。",
+  "files": [
+    {
+      "path": "build_source_manifest.py",
+      "bytes": 2019,
+      "sha256": "32207ae67ddbeea11fafa4b2a1b3c38e4533ca75d095ee3af2f4240a76c8d616"
+    },
+    {
+      "path": "check_package.py",
+      "bytes": 1599,
+      "sha256": "9de8f13d5d2183aac8211cca7ba90f1366aafcae52abb0114171a6f585ce3362"
+    },
+    {
+      "path": "extract_samples.py",
+      "bytes": 3572,
+      "sha256": "bc19dd7125ec1e1a22551becc1a1032f4274b28d254c4c91db09ce3506dba4b7"
+    },
+    {
+      "path": "fill_audit.py",
+      "bytes": 4059,
+      "sha256": "43a726da983a37b3b08196dd1618fd1d33e27f528a06f91ddd4530e8c9f46bbe"
+    },
+    {
+      "path": "fill_outline.py",
+      "bytes": 3286,
+      "sha256": "ef1203728ef7ac1cb6af7bdbc74aa4b9a8752b83f2e7b287b5ea5614d04d65fe"
+    },
+    {
+      "path": "finalize_local_manifest.py",
+      "bytes": 1318,
+      "sha256": "dc605e42dd9ac440cef5b90f407b0d32af609babcbaece5c4d95ad790d89c138"
+    },
+    {
+      "path": "inventory_visuals.py",
+      "bytes": 1026,
+      "sha256": "1828ba2250bb5be84b1f006d1e232094bd94ea8adc964f0b1601f551ca059d33"
+    },
+    {
+      "path": "map_samples.py",
+      "bytes": 820,
+      "sha256": "ef2dab2a81dc5709ada14c4bcb97ac77f74fe03f0804b8fbbcfcc734ff84471f"
+    },
+    {
+      "path": "prepare_pack.py",
+      "bytes": 2363,
+      "sha256": "9b818ebec10fdb367806c3370c8a9817ebbe161f14500f684053ef069da231f7"
+    },
+    {
+      "path": "rea/ilspy-AureateThresholdSphere.txt",
+      "bytes": 464,
+      "sha256": "d043d7724d083635c4a9a3607ff158af358f8b8037a630fdf278e3243ab44d13"
+    },
+    {
+      "path": "rea/ilspy-ElementStack.txt",
+      "bytes": 19057,
+      "sha256": "2155967cd6540bb7f4485f6121e1a7f62e8d50e604daf6d0312bd1567fe3d327"
+    },
+    {
+      "path": "rea/ilspy-ElementStackXTriggerCommand.txt",
+      "bytes": 3027,
+      "sha256": "0c434f780bd73e124b5d4e0403dd0f909c8801ae00353b7142fbe857251d5539"
+    },
+    {
+      "path": "rea/ilspy-Meniscate.txt",
+      "bytes": 11060,
+      "sha256": "d8cf1b3c46677c8bbf2512350a700f40c8298bc03ac94bdc47a34f7011a4f088"
+    },
+    {
+      "path": "rea/ilspy-MorphDetails.txt",
+      "bytes": 2803,
+      "sha256": "69205f1eaf7f94a573c57d9767108958e712bf9341066aa9525f14217e6001cb"
+    },
+    {
+      "path": "rea/ilspy-RecipeCompletionEffectCommand.txt",
+      "bytes": 7143,
+      "sha256": "ff90718b7d9f014121e042f056cc4999f08b0968b395e9fe2254f0265a421dfd"
+    },
+    {
+      "path": "rea/ilspy-RequiresExecutionState.txt",
+      "bytes": 5705,
+      "sha256": "b5ed48d7c0bb864e60775b24ba50107ae7ae4b126419e9df26739831538fa1be"
+    },
+    {
+      "path": "rea/ilspy-SimpleThresholdSphere.txt",
+      "bytes": 3868,
+      "sha256": "4423067484b37a90ab735cf44c7be949d08464c2e686881ac2fba4c907a7d412"
+    },
+    {
+      "path": "rea/ilspy-Situation.txt",
+      "bytes": 34116,
+      "sha256": "0fbfbfc4d458386d375f9c1257993c4eeaf07daa671bf61f195a0f5605b3ea81"
+    },
+    {
+      "path": "rea/ilspy-SphereSpec.txt",
+      "bytes": 6220,
+      "sha256": "d2f0d5eb2681d79d983d7ba435908fd6412607b186034b3250850b52de2957db"
+    },
+    {
+      "path": "rea/managed-identity.json",
+      "bytes": 1246573,
+      "sha256": "72c4a4d7df182e3b4b8e454db1fa8cede24c01418a01c09e1a828c6d78e66a74"
+    },
+    {
+      "path": "rea/managed-members.json",
+      "bytes": 27596750,
+      "sha256": "1cb4e559b25b3583bf0186957e7993a6f5a8e31ab7bcd7af10227739d96ecc24"
+    },
+    {
+      "path": "visual/astrolabe.sky--2768.png",
+      "bytes": 62991,
+      "sha256": "8f68249726ce6ed697a19f2ea8435b45dab355e7550ae841ef26cff9ea4342e8"
+    },
+    {
+      "path": "visual/astrolabe.sky--3941.png",
+      "bytes": 62991,
+      "sha256": "8f68249726ce6ed697a19f2ea8435b45dab355e7550ae841ef26cff9ea4342e8"
+    },
+    {
+      "path": "visual/bundle-inventory.json",
+      "bytes": 74955,
+      "sha256": "1454bbf6b1b7f0c4fe8e6506473bbee75670a353a5a510575bac04512bb7469b"
+    },
+    {
+      "path": "visual/compasses.forge--4823.png",
+      "bytes": 3999,
+      "sha256": "1be253fc9da1c9fe198265773a89d021eff59d24f6fe4b30f832ee27b60a77a7"
+    },
+    {
+      "path": "visual/forge--2407.png",
+      "bytes": 3573,
+      "sha256": "7bbeca2d8bf50b472f18e81c84dfe1ddd56de8732a3823367169ffa87d364251"
+    },
+    {
+      "path": "visual/grail--411.png",
+      "bytes": 3689,
+      "sha256": "8c97af9619f5ad197fb62a20fa4b19dacfb8a0e13cb45d261ebd782adc3d3c12"
+    },
+    {
+      "path": "visual/heart--1806.png",
+      "bytes": 4274,
+      "sha256": "ad9c43ed1316932293afba666a311909d560fbf8aee751cfb1866762842adbd6"
+    },
+    {
+      "path": "visual/identity-variants.png",
+      "bytes": 113432,
+      "sha256": "d8ab73c7627fd33fff5a20d00550d10829fa0a201c35639f7b9da4bb41d46655"
+    },
+    {
+      "path": "visual/lantern--4939.png",
+      "bytes": 3510,
+      "sha256": "f199bb085faf6536baefc112e126e4fdb4f36b2341c48f4f93c3ff13ac2e62b1"
+    },
+    {
+      "path": "visual/library.desk.natan--193.png",
+      "bytes": 116911,
+      "sha256": "f355de87aae896dc865b281d5d1f7dd558305835e3d3077f4213d2d33032c712"
+    },
+    {
+      "path": "visual/library.desk.reading.consider--981.png",
+      "bytes": 5924,
+      "sha256": "2716dd52bfd7d0d3803032ce100b791940e0f6193f0b70c28ca4a5c942bc807c"
+    },
+    {
+      "path": "visual/library.telescope--2747.png",
+      "bytes": 298276,
+      "sha256": "399c314905c2de7acdb288cadba3817a070b88bab627aa624a977b45e9b8cbba"
+    },
+    {
+      "path": "visual/library.telescope--4846.png",
+      "bytes": 6630,
+      "sha256": "8c2f51e2e401a8859ee973a1223286aab8a8ec88822ef9ed43b14afd0a89001f"
+    },
+    {
+      "path": "visual/mastery.lantern--2070.png",
+      "bytes": 7510,
+      "sha256": "5a18c18ca6088d9d8ee1980f15c9b3b18fd102b099bbd1551787c159ba4faaa8"
+    },
+    {
+      "path": "visual/mem.sight--2506.png",
+      "bytes": 49905,
+      "sha256": "5b905e934596f728fd485e0ef3c42dd7111628f6552b90d0edf26081f68cb341"
+    },
+    {
+      "path": "visual/mirrorscope--2782.png",
+      "bytes": 44932,
+      "sha256": "d6cca2abed2a95dbe5e9527d937217cf4b6a18db238f38603aaadcebea852220"
+    },
+    {
+      "path": "visual/moon--2008.png",
+      "bytes": 1378728,
+      "sha256": "b134cdcc8ab221e09d63d01c4ad62ac0919ae034348d89b21667ccf842fc9706"
+    },
+    {
+      "path": "visual/moon--337.png",
+      "bytes": 6494,
+      "sha256": "210cb445c96d90504304be624b1456201a075bb6a5e9a94466e384bab594212f"
+    },
+    {
+      "path": "visual/moth--506.png",
+      "bytes": 4258,
+      "sha256": "f79376039daf7ba072cf85477b3f6bb273fd22574cecb7a355f98221670b74f9"
+    },
+    {
+      "path": "visual/mystery.lantern--3703.png",
+      "bytes": 6601,
+      "sha256": "b6666ba79c9271515390cc51167cfc6d80e080f002cae9bf8906d0e880f60baa"
+    },
+    {
+      "path": "visual/nectar--1452.png",
+      "bytes": 6263,
+      "sha256": "1c07622728ae4500033ba3229ebddebd66697cd637584584e41195b34b633cb6"
+    },
+    {
+      "path": "visual/objects-contact.png",
+      "bytes": 463328,
+      "sha256": "f5e50077d32541a51d3a92a4354d5a8c11ff73f4ed743dfcf5b8ce9ab2d51aaf"
+    },
+    {
+      "path": "visual/pigment.refulgin--4591.png",
+      "bytes": 4255,
+      "sha256": "aa54c7e9dfa2f0026f5a01936ab843c656c836b5eec1185670c7a71ec74d55db"
+    },
+    {
+      "path": "visual/readable.lantern--5108.png",
+      "bytes": 5463,
+      "sha256": "578bc6202c82e60fdf1edcfc1dd531145fee630d0132066c666a3d73b055644b"
+    },
+    {
+      "path": "visual/resources-inventory.json",
+      "bytes": 1340404,
+      "sha256": "75307a9f60218918aaf07b3aad538cd280392772e98fbfb65373c74c2b915e82"
+    },
+    {
+      "path": "visual/rose--1630.png",
+      "bytes": 5528,
+      "sha256": "92bfd5321b007fbba1074b02e894035b98b398ee084d6f9c1e196a06d5d377f1"
+    },
+    {
+      "path": "visual/runtime-firewall-blocked.png",
+      "bytes": 96837,
+      "sha256": "1bb3a184450c29789205fa76b71eb115085d302151fa8479e5b6760c2090c120"
+    },
+    {
+      "path": "visual/s.inks.revelation--1570.png",
+      "bytes": 55764,
+      "sha256": "f7e0bf938347b237f0d7814d751442a4a6410a788257a0fb1a33f686b2c5c656"
+    },
+    {
+      "path": "visual/sample-container-map.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "visual/sample-manifest.json",
+      "bytes": 8696,
+      "sha256": "8c24610833b0e5b9388fe98ba62866de5bf02aa3898bea09ac96a99ba61cd92c"
+    },
+    {
+      "path": "visual/scale--4034.png",
+      "bytes": 5746,
+      "sha256": "d4fff8c620a04b0adc22e012295febab40208d35ac3b81cb0e121bdb5d1c71d5"
+    },
+    {
+      "path": "visual/sky--2301.png",
+      "bytes": 149,
+      "sha256": "f4bdab58a96fffa7603469c6d46a4be19b30cf82da50cf86ddab9012e346dd96"
+    },
+    {
+      "path": "visual/sky--4858.png",
+      "bytes": 6547,
+      "sha256": "b38f5c6a3931bda15be9215dd55af142c4f743fed05742b994485bf75afd7cc9"
+    },
+    {
+      "path": "visual/symbols-contact.png",
+      "bytes": 103657,
+      "sha256": "352282ab00a1636aba82956ac9b5ce06c0771c4b3362f72ced410b69bd8ce715"
+    },
+    {
+      "path": "visual/symbols-scale-gray.png",
+      "bytes": 149202,
+      "sha256": "67abd2fea54502437f10d140d7dd58e76d0d57b192fcc1e377b113790682d896"
+    },
+    {
+      "path": "visual/t.thelocksmithsdreamalightthroughthekeyhole--427.png",
+      "bytes": 33377,
+      "sha256": "48c6c302a9bbb5d311ddf107a6ef7dee4315062f29ef25dcac3e562a36dc3c62"
+    },
+    {
+      "path": "visual/t.thelocksmithsdreamalightthroughthekeyhole--4843.png",
+      "bytes": 32435,
+      "sha256": "7004617da4dc53ee55b93b99c59662c3934fb5ce134c8164e02443287ac8f063"
+    },
+    {
+      "path": "visual/t.thelocksmithsdreamalightthroughthekeyhole--892.png",
+      "bytes": 33278,
+      "sha256": "64c7fd5475b671f645cb644727f731070908280587a0834816463e45b2a857f8"
+    },
+    {
+      "path": "visual/t.thelocksmithsdreamalightthroughthekeyhole_--1040.png",
+      "bytes": 4580,
+      "sha256": "64e956b54cf8a3f28c2060638a737ee9af8efaf4ddc6afdb5be39ba20c53b40e"
+    },
+    {
+      "path": "visual/t.thelocksmithsdreamalightthroughthekeyhole_--1458.png",
+      "bytes": 5279,
+      "sha256": "3e51f556b0da13ff9d7355ca4b23fda3cbfe85db1ef01bf9434aca9e6ebfbabb"
+    },
+    {
+      "path": "visual/t.thelocksmithsdreamalightthroughthekeyhole_--3527.png",
+      "bytes": 3943,
+      "sha256": "de2201b6ffa8424b318140f209a46fbcef016c98b6f77b1406f51114928108c1"
+    },
+    {
+      "path": "visual/winter--1799.png",
+      "bytes": 6625,
+      "sha256": "bf15a7e7f93487ad1188b8750d4efa785f5ff047e78b0abea453bb6510f390f4"
+    },
+    {
+      "path": "visual/winter--595.png",
+      "bytes": 3510,
+      "sha256": "b6eda0dbaea629216e04a0f264a383593a92ddd9406c6462d379af6d74930777"
+    },
+    {
+      "path": "visual/xpho--1033.png",
+      "bytes": 45688,
+      "sha256": "de5efa31e4d344934a17d31f63f777602dba59105ad8fb085a7a078fa857ae8b"
+    },
+    {
+      "path": "visual/xpho--4787.png",
+      "bytes": 45688,
+      "sha256": "de5efa31e4d344934a17d31f63f777602dba59105ad8fb085a7a078fa857ae8b"
+    },
+    {
+      "path": "visual/zlantern--4221.png",
+      "bytes": 3839,
+      "sha256": "6f99b336042c07e1bbdeb33bc6522da4cd9fd15363b81bbff5e7da9cd47d52f8"
+    }
+  ]
+}

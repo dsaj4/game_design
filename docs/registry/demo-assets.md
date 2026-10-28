@@ -456,3 +456,12 @@ DM-G002-011第十三批使用补记：GODOT-DEMONCARDS-CANDIDATES-B13-01，固�
 - MINIMAL-BATTLE-UI-ART-01；本机原件／交付图 `E:/Project/yanzhou-godot/evidence/ui-concepts/2026-10-17-minimal/minimal-battle-ui-art-v01.png`，1672×941 PNG；SHA-256 `d478521339be289d3a5f404a171cfd0ebc95993e1a9de4bc1ad5f660bbab54d5`。模型生成原件、首版及修订提示词沿制作记录定位。图像保持本机，不随本次文档提交上传。
 - ReadyForScope / PresentLocal（2026-10-17，仅本机效果稿审阅）。设计agent使用内置image_gen编辑，协调者独立目视二版：卡片刻位3／6、暗牌揭示刻位4、容量1实牌＋1预留＋3空位、三格加工环2/3、原生命与标记数值及窗外类别可辨。存在生图细部重绘与尺寸变化，未做引擎像素对照或用户美术接受，不作为动态进度或玩法验证。
 - 底图为DM-G002-011@GODOT-DEMONCARDS-CANDIDATES-B13-01的 `package-main-01/1920x1080/09-completion-paused.png`，SHA `d974b54753390760fc862ebdcce50d2d5ae0291939a854e60d104f098b444a2b`。derived-from: 该固定取证截图；uses: 本轮少文字候选。底图所含Demoncards资源沿AS-G002-025/027原本机制作与审阅边界，公开再分发条件Unknown；本条不新增图像公开分发授权。
+
+## 2026-10-28 Book of Hours 静态取证
+
+### <a id="as-sh-003"></a>AS-SH-003 Book of Hours 本机分析参考包
+
+- 归属shared-reference / media-analysis-lab；唯一维护入口为[本轮分析包](../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/README.md)。类型：用户提供第三方游戏、本机REA证据、内容核对及资源对照图；用途为符号、器物、对象表示、槽位与制作表达研究。
+- 固定版BOH-REA-2026-10-28-v01；[发布文件身份](../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/source-manifest.json)、[REA记录身份](../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/rea-evidence-index.json)、[本机输出范围及SHA-256](../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/local-output-manifest.json)。原件在 `E:/Game/BOOK OF HOURS v2024.12.m.3/`，取证另存 `E:/Game/BOOK OF HOURS-analysis/2026-10-28/`；不把整个可变目录当固定版本。
+- Catalogued / PresentLocal；2026-10-28已核版本、主程序集、内容/配方样本与4张资源分析图；游戏仅启动到简中菜单，防火墙提示待用户手动处理。制作时点、实际查找和多任务体验未取得，不能升格为完整玩法验证。
+- uses: None；derived-from: None；使用者game-002-optimization / DIR-042，限Raw候选视觉与信息表达参照，未导入游戏。原游戏作者Weather Factory；本机研究由用户指定，原图/文本/程序集的公开再分发与改作条件Unknown，原始第三方缓存不入Git。详细规格、工具与局限沿包入口。

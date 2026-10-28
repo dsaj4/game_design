@@ -4,7 +4,7 @@
 
 **[查看主稿 v04：字印工坊](scene-v04.png)** · [本轮完整提示词](scene-v04-prompt.txt) · [文件与SHA-256](manifest.json)
 
-2026-10-28新增：[Book of Hours 深度分析清单](book-of-hours-analysis-checklist-2026-10-28.md)。按符号、实体／卡牌、信息分层、器物美术及生产／持牌操作确定取材重点；研究由用户后续执行，借鉴建议待取证与选择。
+2026-10-28：[Book of Hours 深度分析清单](book-of-hours-analysis-checklist-2026-10-28.md)已进入取证，[查看REA分析报告](../../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/README.md)。静态部分已完成；实机被首次启动防火墙提示阻塞，尚未完成制作、收藏查找和多任务案例。借鉴建议仍待取证与选择。
 
 ![言咒：纸本秘术与铭文工坊，纯文字生成v04](scene-v04.png)
 
@@ -124,3 +124,11 @@ v01—v03以 `13b9b3a0510e875bc4986ce52d9ded27e9fe9044` 的旧视觉输入为背
 | 关系 | v04在本包内续作，图像像素不derived-from旧图；按CORE-067及当前视觉文字合同重构。v01—v03的图像编辑关系见历史manifest，不覆盖 |
 
 提示词：[v01](scene-v01-prompt.txt)、[v02](scene-v02-prompt.txt)、[v03](scene-v03-prompt.txt)、[v04](scene-v04-prompt.txt)。工具原件位置见manifest。未用于当前HTML、正式系统或其他方向；下一步按用户审阅结果继续具体外观与布局。
+
+## 2026-10-28 Book of Hours REA取证
+
+用户指定本机 `E:/Game/BOOK OF HOURS v2024.12.m.3/`，要求使用已安装的REA按本方向清单分析。模式为CUSTOM续作：只读本方向README、指定清单、本地游戏发布目录及必要取证工具说明；游戏背景沿本页既定 `f8849ed93c159ecee6baceddb5cfa52cde4084cf` 的方向摘要，本轮没有重读五份背景文件、主系统细则、其他方向或历史。文档启动共同版本为 `14255158cf8bebeebb564fd0399b8ff3b535c993`；本地游戏身份与例外见报告清单。
+
+产物为[AS-SH-003@BOH-REA-2026-10-28-v01](../../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/README.md)：真实REA托管程序集Evidence、内容/配方核对、4张直接检查的资源对照和24项覆盖。主程序集、原图和反编译原件就地保本机，只提交分析、引用及身份元数据。实际启动到简中菜单；安全权限提示由用户手动处理，实机尚未进入玩法。未启动言咒测试或正式采纳。
+
+当前最有价值的候选：区分同主题的能力/要求/未来状态；同一对象的实体与查看表示共享身份；类型错、缺量与配方不支持分别解释；预览、运行、效果和入手分别表达；先以剪影分双法器，再分层处理属性和叙述。代价与下一步见报告，不将Book of Hours的等待/领取、图标规模或情况窗口互斥原样移植。以上均Raw / Unqualified，未改主稿v04、当前视觉基准或GDD。

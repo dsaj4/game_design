@@ -1,0 +1,157 @@
+{
+  "version": "0.1",
+  "game_name": "BOOK OF HOURS",
+  "slug": "2026-10-28-book-of-hours-rea",
+  "method": "主agent实际打开4张分析图；素材来自本机发布资源的UnityPy解码与Pillow编排。high仅指所列可见像素，所有实机行为保持未观察。",
+  "frames": [
+    {
+      "id": "V1",
+      "image_id": "I1",
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/visual/symbols-contact.png",
+      "source_path_absolute": "E:\\Game\\BOOK OF HOURS-analysis\\2026-10-28\\visual\\symbols-contact.png",
+      "source_caption": "准则与灯主题角色变体资源对照",
+      "source_observations": [
+        "并排排列的已发行图像样本；不代表游戏实际界面布局。"
+      ],
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "本轮主agent通过view_image直接检查本机PNG",
+      "confidence": "high",
+      "visible_elements": [
+        "灯主题的前四枚为黄色底黑线，疲劳灯为灰底黑线。",
+        "灯与已掌握灯都保留灯具形；奥秘灯以眼和环形结构为主；可阅读灯以翻开的书及圆点结构为主。",
+        "铸是火焰与工具形，穹为蓝色圆形和中竖线，月为浅紫月牙，冬为浅蓝底星点。"
+      ],
+      "ocr_candidates": [],
+      "gameplay_observations": [
+        "底色可指示主题，中央形状和附加结构同时区分角色；黄色并不充分说明数值职责。",
+        "这只是资源对照；图标旁的游戏数值、悬停和条件位置在本图不可见。"
+      ],
+      "ui_affordances": [
+        "本图为离线资源编排，不能据此判断实机可点击区域。"
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-2",
+        "module-4",
+        "module-7",
+        "module-8"
+      ],
+      "conflicts": [],
+      "illustration_candidate": true,
+      "caption_for_dossier": "图1：主题色与中央符号形成系列，灯的多个角色仍需用标签解释。"
+    },
+    {
+      "id": "V2",
+      "image_id": "I2",
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/visual/objects-contact.png",
+      "source_path_absolute": "E:\\Game\\BOOK OF HOURS-analysis\\2026-10-28\\visual\\objects-contact.png",
+      "source_caption": "中文书封、书脊、器物、工作台图标与制作输入图样",
+      "source_observations": [
+        "不同图像资源按检查用途排列，尺寸标签来自解码结果。"
+      ],
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "本轮主agent通过view_image直接检查本机PNG",
+      "confidence": "high",
+      "visible_elements": [
+        "中文书封为黄底黑边与白色题签，书脊为黑底竖排中文并有上下黄色色带。",
+        "透显镜有灰白镜面和金色支架，圆规有两条长脚，星盘有套叠环与深色底座。",
+        "望远镜主体细长且有金色筒身；木桌有明显外框与柜格；工作台图标采用黑色剪影加色底。",
+        "底部能力、回忆与技艺是方形插画，耀素为小瓶图。"
+      ],
+      "ocr_candidates": [],
+      "gameplay_observations": [
+        "同一本书的中文封面和书脊保留黄黑配色与缩短标题，形状与排字随表示变化。",
+        "细长圆规和大型星盘保持不同剪影；画面不能证明它们的点击区域。",
+        "图中阅览室书桌图标和纳坦书桌实物是不同ID，不能作同一桌的表示对照。"
+      ],
+      "ui_affordances": [
+        "本图为离线资源编排，不能据此判断实机可点击区域。"
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-2",
+        "module-4",
+        "module-7",
+        "module-8"
+      ],
+      "conflicts": [],
+      "illustration_candidate": true,
+      "caption_for_dossier": "图2：书封/书脊保留身份线索；器物、场景家具与抽象卡图可采用不同细节密度。"
+    },
+    {
+      "id": "V3",
+      "image_id": "I3",
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/visual/symbols-scale-gray.png",
+      "source_path_absolute": "E:\\Game\\BOOK OF HOURS-analysis\\2026-10-28\\visual\\symbols-scale-gray.png",
+      "source_caption": "受控缩小和灰度对照",
+      "source_observations": [
+        "由原始图标按规定尺寸缩放；这不是原游戏的截图。"
+      ],
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "本轮主agent通过view_image直接检查本机PNG",
+      "confidence": "high",
+      "visible_elements": [
+        "同组图标按80上限、32、24、16像素以及24像素灰度并列。",
+        "16像素时灯的内部线条及不同灯角色间附加结构很密；月牙、玫瑰星芒和穹的竖线仍有整体形状线索。",
+        "普通灯和疲劳灯转为灰度后中央图案相同，底色亮度有差异。"
+      ],
+      "ocr_candidates": [],
+      "gameplay_observations": [
+        "复杂角色差异在缩小后比主题的主要轮廓更难读；这是本次受控图像观察。",
+        "不能以此声称游戏默认尺寸为16或24像素，也不能代替真人辨识或色觉检查。"
+      ],
+      "ui_affordances": [
+        "本图为离线资源编排，不能据此判断实机可点击区域。"
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-2",
+        "module-4",
+        "module-7",
+        "module-8"
+      ],
+      "conflicts": [],
+      "illustration_candidate": true,
+      "caption_for_dossier": "图3：缩小时应先保住角色区别；本图的尺寸是分析变量。"
+    },
+    {
+      "id": "V4",
+      "image_id": "I4",
+      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/visual/identity-variants.png",
+      "source_path_absolute": "E:\\Game\\BOOK OF HOURS-analysis\\2026-10-28\\visual\\identity-variants.png",
+      "source_caption": "同名纹理的语言与资源角色歧义",
+      "source_observations": [
+        "不同pathID有重复纹理名，须避免直接选取首个同名资源。"
+      ],
+      "status": "audited",
+      "direct_image_read": true,
+      "reader": "本轮主agent通过view_image直接检查本机PNG",
+      "confidence": "high",
+      "visible_elements": [
+        "同一长纹理名下有俄文、中文和英文的三个封面及三个书脊，pathID不同。",
+        "另有两份名为sky的纹理：40×40纯色块和128×128准则图标。"
+      ],
+      "ocr_candidates": [],
+      "gameplay_observations": [
+        "纹理名不是唯一定位；取首个同名对象会把错误语言或色块当成目标图标。",
+        "中文样本最终选pathID892/1458，穹图标选4858，报告引用修正后的图1和图2。"
+      ],
+      "ui_affordances": [
+        "本图为离线资源编排，不能据此判断实机可点击区域。"
+      ],
+      "state_changes": [],
+      "supports_modules": [
+        "module-2",
+        "module-4",
+        "module-7",
+        "module-8"
+      ],
+      "conflicts": [],
+      "illustration_candidate": true,
+      "caption_for_dossier": "图4：重复资源名会误导取证，须同时保存文件、pathID与像素核对。"
+    }
+  ]
+}
