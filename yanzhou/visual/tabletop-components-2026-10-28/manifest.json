@@ -1,0 +1,1140 @@
+{
+  "id": "AS-G002-034",
+  "version": "TABLETOP-COMPONENTS-01",
+  "date": "2026-10-28",
+  "designCommit": "9a957634377ef16a4aa713efc808d3bcefc1be7a",
+  "designRecord": "README.md",
+  "status": "ReadyForScope / PresentLocal for native PNG, alpha and composition checks; user/engine acceptance PendingReview",
+  "source": {
+    "path": "E:/Project/game/yanzhou/exploration/DIR-042-herbal-engraving-style/scene-v06.png",
+    "asset": "AS-G002-032",
+    "sha256": "a823bd8c0fd364090d72e776407c79e6c0385702ff550052b1babe6fced2cbe2",
+    "version": "HERBAL-ENGRAVING-06"
+  },
+  "exportRoot": "exports/",
+  "sourceToolsRoot": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28",
+  "items": [
+    {
+      "name": "wood-background",
+      "path": "exports/layers/wood-background.png",
+      "role": "Full desk background; no objects",
+      "method": "Reference-guided image_gen separation and reconstruction; crop to alpha>=16 content bounds plus2px only, all retained RGBA pixels unchanged",
+      "alpha": false,
+      "size": [
+        1672,
+        941
+      ],
+      "sourceCanvas": [
+        1672,
+        941
+      ],
+      "trimRect": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "transparentPixels": 0,
+      "partialAlphaPixels": 0,
+      "resampled": false,
+      "generatorOriginal": "C:/Users/Administrator/.codex/generated_images/01a181d0-ed8c-7711-8763-f27f69a4d713/exec-f44d0437-5430-41d2-abd1-27be4df60e34.png",
+      "originalCopy": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\generated\\wood-background-original.png",
+      "originalSha256": "2f3dd64290c62de9dd1aa3befcc8f3e67065628c111d19232fd4be0cb64f97ff",
+      "prompt": "wood-background-prompt.txt",
+      "sceneRectExample": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "bytes": 2523885,
+      "sha256": "a438d9ec985a855f978035e2c34a2cee01d884744e068a58c5b750ae4de7e3e1"
+    },
+    {
+      "name": "felt-mat",
+      "path": "exports/layers/felt-mat.png",
+      "role": "Empty battle mat; cards and slot layout drawn separately",
+      "method": "Reference-guided image_gen separation and reconstruction; crop to alpha>=16 content bounds plus2px only, all retained RGBA pixels unchanged",
+      "alpha": true,
+      "size": [
+        1946,
+        665
+      ],
+      "sourceCanvas": [
+        2021,
+        778
+      ],
+      "trimRect": [
+        40,
+        45,
+        1946,
+        665
+      ],
+      "transparentPixels": 34118,
+      "partialAlphaPixels": 1259829,
+      "resampled": false,
+      "generatorOriginal": "C:/Users/Administrator/.codex/generated_images/01a181d0-ed8c-7711-8763-f27f69a4d713/exec-223e312b-49f7-4e27-8f70-96808cafb7c6.png",
+      "originalCopy": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\generated\\felt-mat-original.png",
+      "originalSha256": "31787b029bd249cc5f5b840611694cd21f0a22aab29111ecb4e708c37dc54a19",
+      "prompt": "felt-mat-prompt.txt",
+      "sceneRectExample": [
+        320,
+        63,
+        975,
+        377
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "bytes": 2334725,
+      "sha256": "6eaa875878ab55bed90d4ed1d48ed121bea51ad833965ac76bd44e02236d79ea"
+    },
+    {
+      "name": "workbench-base",
+      "path": "exports/layers/workbench-base.png",
+      "role": "Empty bench, two reserved ovals; devices added later",
+      "method": "Reference-guided image_gen separation and reconstruction; crop to alpha>=16 content bounds plus2px only, all retained RGBA pixels unchanged",
+      "alpha": true,
+      "size": [
+        2118,
+        518
+      ],
+      "sourceCanvas": [
+        2172,
+        724
+      ],
+      "trimRect": [
+        27,
+        111,
+        2118,
+        518
+      ],
+      "transparentPixels": 28708,
+      "partialAlphaPixels": 1068093,
+      "resampled": false,
+      "generatorOriginal": "C:/Users/Administrator/.codex/generated_images/01a181d0-ed8c-7711-8763-f27f69a4d713/exec-e2a13d58-e55e-4c89-8544-7bfe7b6b15a6.png",
+      "originalCopy": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\generated\\workbench-base-original.png",
+      "originalSha256": "233c2908efc136bec562b5988e2242f8e74f152fc836007a59fc1648831f33a4",
+      "prompt": "workbench-base-prompt.txt",
+      "sceneRectExample": [
+        180,
+        451,
+        1245,
+        303
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "bytes": 2038012,
+      "sha256": "7d0490d986ac88a875315ffb24341131a7b03db355afeee84d71958850f31cea"
+    },
+    {
+      "name": "confirm/tl",
+      "path": "exports/confirm/tl.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        32,
+        20
+      ],
+      "sourceRect": [
+        1418,
+        825,
+        32,
+        20
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 224,
+      "partialAlphaPixels": 41,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\confirm\\tl.png",
+      "bytes": 2224,
+      "sha256": "8d7169dbeecebb103f55009c1b74c5ce3e686164ddf0e0b52291f17b98d199fa"
+    },
+    {
+      "name": "confirm/top",
+      "path": "exports/confirm/top.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        177,
+        20
+      ],
+      "sourceRect": [
+        1450,
+        825,
+        177,
+        20
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 708,
+      "partialAlphaPixels": 177,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\confirm\\top.png",
+      "bytes": 9957,
+      "sha256": "5441271e575f77ea6cf42330c1760264d7645b645a017f7e384e2728ff51b892"
+    },
+    {
+      "name": "confirm/tr",
+      "path": "exports/confirm/tr.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        30,
+        20
+      ],
+      "sourceRect": [
+        1627,
+        825,
+        30,
+        20
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 313,
+      "partialAlphaPixels": 32,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\confirm\\tr.png",
+      "bytes": 2101,
+      "sha256": "3ac6c73dcd3e4a189cf63db12f708993d650f36ce05a10821e70b1d1544c6946"
+    },
+    {
+      "name": "confirm/left",
+      "path": "exports/confirm/left.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        32,
+        47
+      ],
+      "sourceRect": [
+        1418,
+        845,
+        32,
+        47
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 96,
+      "partialAlphaPixels": 41,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\confirm\\left.png",
+      "bytes": 4417,
+      "sha256": "ae7ee58a83a38ed08c514cd28f38dd895851c16e0b8231c796c49e667d837a45"
+    },
+    {
+      "name": "confirm/fill",
+      "path": "exports/confirm/fill.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        12,
+        30
+      ],
+      "sourceRect": [
+        1443,
+        853,
+        12,
+        30
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 0,
+      "partialAlphaPixels": 0,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\confirm\\fill.png",
+      "bytes": 713,
+      "sha256": "67075a0e64b60449c5f28b77f878a2b9b85739fe22455ee66340755aa86670bd"
+    },
+    {
+      "name": "confirm/right",
+      "path": "exports/confirm/right.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        30,
+        47
+      ],
+      "sourceRect": [
+        1627,
+        845,
+        30,
+        47
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 367,
+      "partialAlphaPixels": 43,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\confirm\\right.png",
+      "bytes": 4439,
+      "sha256": "e98f22812dc98df9138e0ebf1d9f05660d2aa250c1c00ae528b29de8556c6772"
+    },
+    {
+      "name": "confirm/bl",
+      "path": "exports/confirm/bl.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        32,
+        22
+      ],
+      "sourceRect": [
+        1418,
+        892,
+        32,
+        22
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 297,
+      "partialAlphaPixels": 40,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\confirm\\bl.png",
+      "bytes": 2485,
+      "sha256": "e2232825b010d30739bf422be88d389ed2f5ebf6fda24c24e8f80b6478098153"
+    },
+    {
+      "name": "confirm/bottom",
+      "path": "exports/confirm/bottom.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        177,
+        22
+      ],
+      "sourceRect": [
+        1450,
+        892,
+        177,
+        22
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 1505,
+      "partialAlphaPixels": 126,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\confirm\\bottom.png",
+      "bytes": 11229,
+      "sha256": "ede77def77d9ffb512188255bee01e839534f3eba2e2210b9391afb6209a4902"
+    },
+    {
+      "name": "confirm/br",
+      "path": "exports/confirm/br.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        30,
+        22
+      ],
+      "sourceRect": [
+        1627,
+        892,
+        30,
+        22
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 417,
+      "partialAlphaPixels": 31,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\confirm\\br.png",
+      "bytes": 2243,
+      "sha256": "1d846967d9009f6f8664310005f5e7dc7732f4bac19213cff574b7ff04d6a0bf"
+    },
+    {
+      "name": "tab-active/tl",
+      "path": "exports/tab-active/tl.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        25,
+        16
+      ],
+      "sourceRect": [
+        29,
+        752,
+        25,
+        16
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 150,
+      "partialAlphaPixels": 31,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\tab-active\\tl.png",
+      "bytes": 1490,
+      "sha256": "668a705240c0aea3364bbb33fdd9663b445533e3d06fcea03b03df86f2eddd58"
+    },
+    {
+      "name": "tab-active/top",
+      "path": "exports/tab-active/top.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        162,
+        16
+      ],
+      "sourceRect": [
+        54,
+        752,
+        162,
+        16
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 450,
+      "partialAlphaPixels": 116,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\tab-active\\top.png",
+      "bytes": 6638,
+      "sha256": "8f8fca548f0e22b8d21baf0832bcb4c5062ba9a6a10ba3d516383853dbc022a9"
+    },
+    {
+      "name": "tab-active/tr",
+      "path": "exports/tab-active/tr.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        25,
+        16
+      ],
+      "sourceRect": [
+        216,
+        752,
+        25,
+        16
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 160,
+      "partialAlphaPixels": 30,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\tab-active\\tr.png",
+      "bytes": 1412,
+      "sha256": "a177053d67e673a969f1249fc8806f6083d8539a20023fdc9733e5ad5538cdce"
+    },
+    {
+      "name": "tab-active/left",
+      "path": "exports/tab-active/left.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        25,
+        44
+      ],
+      "sourceRect": [
+        29,
+        768,
+        25,
+        44
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 115,
+      "partialAlphaPixels": 38,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\tab-active\\left.png",
+      "bytes": 2767,
+      "sha256": "f7ec2b0dec5d80850f95f6b6cfb317f28d39c7470df5f16c04b177fef49e008a"
+    },
+    {
+      "name": "tab-active/fill",
+      "path": "exports/tab-active/fill.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        8,
+        24
+      ],
+      "sourceRect": [
+        49,
+        776,
+        8,
+        24
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 0,
+      "partialAlphaPixels": 0,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\tab-active\\fill.png",
+      "bytes": 418,
+      "sha256": "bc5653e9f158ea01a76f9df6251b5870b2b6db864b3f6dcd2e2f2fe7fa220a2c"
+    },
+    {
+      "name": "tab-active/right",
+      "path": "exports/tab-active/right.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        25,
+        44
+      ],
+      "sourceRect": [
+        216,
+        768,
+        25,
+        44
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 218,
+      "partialAlphaPixels": 38,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\tab-active\\right.png",
+      "bytes": 2982,
+      "sha256": "6a35053bb55b3266441776ea0808f9754b30717794c7911fe72d23e4541bd234"
+    },
+    {
+      "name": "tab-active/bl",
+      "path": "exports/tab-active/bl.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        25,
+        17
+      ],
+      "sourceRect": [
+        29,
+        812,
+        25,
+        17
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 168,
+      "partialAlphaPixels": 31,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\tab-active\\bl.png",
+      "bytes": 1598,
+      "sha256": "e0569c0ff2f185662b243b89a09975fe241e042315095d82f466b4417d284df9"
+    },
+    {
+      "name": "tab-active/bottom",
+      "path": "exports/tab-active/bottom.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        162,
+        17
+      ],
+      "sourceRect": [
+        54,
+        812,
+        162,
+        17
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 729,
+      "partialAlphaPixels": 115,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\tab-active\\bottom.png",
+      "bytes": 7632,
+      "sha256": "ff7421d1acee48c3d8113f7288119265ab0da2a1d1551a0fa781276d6e8cc8e1"
+    },
+    {
+      "name": "tab-active/br",
+      "path": "exports/tab-active/br.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        25,
+        17
+      ],
+      "sourceRect": [
+        216,
+        812,
+        25,
+        17
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 194,
+      "partialAlphaPixels": 30,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\tab-active\\br.png",
+      "bytes": 1541,
+      "sha256": "4f0dea99a78d09aebafb4b714a39277183c05a535d6c4d924319ad9351ad1b6e"
+    },
+    {
+      "name": "tab-idle/tl",
+      "path": "exports/tab-idle/tl.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        25,
+        14
+      ],
+      "sourceRect": [
+        29,
+        826,
+        25,
+        14
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 144,
+      "partialAlphaPixels": 24,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\tab-idle\\tl.png",
+      "bytes": 1354,
+      "sha256": "e31500506094bd04960e27b49ce687002530432630c3a24e29c9a0f489813426"
+    },
+    {
+      "name": "tab-idle/top",
+      "path": "exports/tab-idle/top.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        162,
+        14
+      ],
+      "sourceRect": [
+        54,
+        826,
+        162,
+        14
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 450,
+      "partialAlphaPixels": 116,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\tab-idle\\top.png",
+      "bytes": 5519,
+      "sha256": "7525b1849cfd65fcfd4dc2c296bd7c0ca85f0001dbad69ae737a977c7f95a0bf"
+    },
+    {
+      "name": "tab-idle/tr",
+      "path": "exports/tab-idle/tr.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        25,
+        14
+      ],
+      "sourceRect": [
+        216,
+        826,
+        25,
+        14
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 144,
+      "partialAlphaPixels": 27,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\tab-idle\\tr.png",
+      "bytes": 1293,
+      "sha256": "d2c5ad2d599367879455316bcec9fe236fb7a6e3246170819397e838c7fe0c7a"
+    },
+    {
+      "name": "tab-idle/left",
+      "path": "exports/tab-idle/left.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        25,
+        45
+      ],
+      "sourceRect": [
+        29,
+        840,
+        25,
+        45
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 135,
+      "partialAlphaPixels": 45,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\tab-idle\\left.png",
+      "bytes": 3001,
+      "sha256": "0a812200b9caf4afdd401ad9810bed25dc947fd8466488ef61c91d1950134c90"
+    },
+    {
+      "name": "tab-idle/fill",
+      "path": "exports/tab-idle/fill.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        8,
+        26
+      ],
+      "sourceRect": [
+        49,
+        847,
+        8,
+        26
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 0,
+      "partialAlphaPixels": 0,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\tab-idle\\fill.png",
+      "bytes": 495,
+      "sha256": "8764b62cc447dbc9ce88c39e89676ffefbe1411e8bda68826793796a4b7efc00"
+    },
+    {
+      "name": "tab-idle/right",
+      "path": "exports/tab-idle/right.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        25,
+        45
+      ],
+      "sourceRect": [
+        216,
+        840,
+        25,
+        45
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 218,
+      "partialAlphaPixels": 41,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\tab-idle\\right.png",
+      "bytes": 3094,
+      "sha256": "f704ebfe8297a45af2ad8cdb455396c21c8f3b6296e1cf08e92b8552f1ea36c0"
+    },
+    {
+      "name": "tab-idle/bl",
+      "path": "exports/tab-idle/bl.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        25,
+        14
+      ],
+      "sourceRect": [
+        29,
+        885,
+        25,
+        14
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 135,
+      "partialAlphaPixels": 29,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\tab-idle\\bl.png",
+      "bytes": 1313,
+      "sha256": "494a88de93cba27035b00ae3e6fd6eb14f772170e12be589e20f5990eede2fcd"
+    },
+    {
+      "name": "tab-idle/bottom",
+      "path": "exports/tab-idle/bottom.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        162,
+        14
+      ],
+      "sourceRect": [
+        54,
+        885,
+        162,
+        14
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 566,
+      "partialAlphaPixels": 116,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\tab-idle\\bottom.png",
+      "bytes": 6259,
+      "sha256": "14d8cc216448440474ff1d800ba609760583cc328a376e1bb81d8ac8de0c95ac"
+    },
+    {
+      "name": "tab-idle/br",
+      "path": "exports/tab-idle/br.png",
+      "role": "Nine-piece blank control frame; label and count rendered separately",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        25,
+        14
+      ],
+      "sourceRect": [
+        216,
+        885,
+        25,
+        14
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 172,
+      "partialAlphaPixels": 27,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\tab-idle\\br.png",
+      "bytes": 1351,
+      "sha256": "d56a7431197855701a44acfee3c373e204213448ad75885de8b43738f8956ecd"
+    },
+    {
+      "name": "header/left",
+      "path": "exports/header/left.png",
+      "role": "Three-part blank header",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        22,
+        50
+      ],
+      "sourceRect": [
+        42,
+        0,
+        22,
+        50
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 107,
+      "partialAlphaPixels": 66,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\header\\left.png",
+      "bytes": 3111,
+      "sha256": "2f1359e4631b4af498f4d1427aae2b7889b75ce3553fd0a848e979ddaa86ca5b"
+    },
+    {
+      "name": "header/fill",
+      "path": "exports/header/fill.png",
+      "role": "Three-part blank header",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        366,
+        50
+      ],
+      "sourceRect": [
+        641,
+        0,
+        366,
+        50
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 0,
+      "partialAlphaPixels": 366,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\header\\fill.png",
+      "bytes": 33451,
+      "sha256": "4325f76feacaa6e808ce59f33ebdf94d997eecea15e9695f803d639d3633a307"
+    },
+    {
+      "name": "header/right",
+      "path": "exports/header/right.png",
+      "role": "Three-part blank header",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        23,
+        50
+      ],
+      "sourceRect": [
+        1614,
+        0,
+        23,
+        50
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 321,
+      "partialAlphaPixels": 76,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\header\\right.png",
+      "bytes": 3355,
+      "sha256": "c7d2e22c2ad05fab7bcb0e71b9b4dec9c8ed0856cc4334da4138c218eb179c00"
+    },
+    {
+      "name": "chips/heart",
+      "path": "exports/chips/heart.png",
+      "role": "Counter stack sprite; total stays a text layer",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        85,
+        96
+      ],
+      "sourceRect": [
+        1348,
+        195,
+        85,
+        96
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 3248,
+      "partialAlphaPixels": 155,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\chips\\heart.png",
+      "bytes": 24177,
+      "sha256": "62262a2e11b5d0b78a5284e892597988ac48708da69c5518ef163d580e498213"
+    },
+    {
+      "name": "chips/armor",
+      "path": "exports/chips/armor.png",
+      "role": "Counter stack sprite; total stays a text layer",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        86,
+        94
+      ],
+      "sourceRect": [
+        1527,
+        296,
+        86,
+        94
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 4216,
+      "partialAlphaPixels": 0,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\chips\\armor.png",
+      "bytes": 21490,
+      "sha256": "299c07332e1a281bd09d190c3555f2002dba8f5075b63f687be62a2333bc235d"
+    },
+    {
+      "name": "chips/spell",
+      "path": "exports/chips/spell.png",
+      "role": "Counter stack sprite; total stays a text layer",
+      "method": "Original v06 crop with alpha-only mask; source RGB unchanged",
+      "alpha": true,
+      "size": [
+        88,
+        87
+      ],
+      "sourceRect": [
+        1348,
+        374,
+        88,
+        87
+      ],
+      "rgbMismatches": 0,
+      "transparentPixels": 3711,
+      "partialAlphaPixels": 176,
+      "resampled": false,
+      "cropSource": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\png\\chips\\spell.png",
+      "bytes": 22067,
+      "sha256": "96e2d6750ed5b9e452f9d8ebe7e9d04b020f5ac494955d39eea83bfbf6499170"
+    },
+    {
+      "name": "ui/confirm",
+      "path": "exports/ui/confirm.png",
+      "size": [
+        239,
+        89
+      ],
+      "alpha": true,
+      "method": "Deterministic native-size assembly of the nine released source-crop pieces; no baked text/count",
+      "sourceParts": "confirm",
+      "panelMargins": {
+        "bottom": 22,
+        "left": 32,
+        "sourceSize": [
+          239,
+          89
+        ],
+        "top": 20,
+        "right": 30
+      },
+      "bytes": 30121,
+      "sha256": "c336b4ecc0e99c319549a9310111b6547e66643af037d9706ae16d71dc72415c",
+      "resampled": "Only sampled paper fill/edge pieces fit inside native control size; no whole-image upscaling"
+    },
+    {
+      "name": "ui/tab-active",
+      "path": "exports/ui/tab-active.png",
+      "size": [
+        212,
+        77
+      ],
+      "alpha": true,
+      "method": "Deterministic native-size assembly of the nine released source-crop pieces; no baked text/count",
+      "sourceParts": "tab-active",
+      "panelMargins": {
+        "bottom": 17,
+        "left": 25,
+        "sourceSize": [
+          212,
+          77
+        ],
+        "top": 16,
+        "right": 25
+      },
+      "bytes": 19722,
+      "sha256": "b53b515ea67e4e2a466ee0ee2578e2eb5df28315d8a1890b27cdc42a3247d8ae",
+      "resampled": "Only sampled paper fill/edge pieces fit inside native control size; no whole-image upscaling"
+    },
+    {
+      "name": "ui/tab-idle",
+      "path": "exports/ui/tab-idle.png",
+      "size": [
+        212,
+        73
+      ],
+      "alpha": true,
+      "method": "Deterministic native-size assembly of the nine released source-crop pieces; no baked text/count",
+      "sourceParts": "tab-idle",
+      "panelMargins": {
+        "bottom": 14,
+        "left": 25,
+        "sourceSize": [
+          212,
+          73
+        ],
+        "top": 14,
+        "right": 25
+      },
+      "bytes": 17664,
+      "sha256": "9ed4005cbeef0279cd892344dfe6c1055d6412bbc25285a64a31d31f29d61e08",
+      "resampled": "Only sampled paper fill/edge pieces fit inside native control size; no whole-image upscaling"
+    },
+    {
+      "name": "ui/header",
+      "path": "exports/ui/header.png",
+      "size": [
+        1588,
+        50
+      ],
+      "alpha": true,
+      "method": "Deterministic three-piece blank header assembly; labels stay in font layer",
+      "sourceParts": "header",
+      "panelMargins": {
+        "height": 50,
+        "left": 22,
+        "right": 23
+      },
+      "bytes": 78774,
+      "sha256": "c82c0dbc55acd56d5ce10beb662fc984243a6764341ce27d7e557f6d50723cb6",
+      "resampled": "Center paper strip fitted horizontally; end caps unchanged"
+    }
+  ],
+  "controls": {
+    "header": {
+      "height": 50,
+      "left": 22,
+      "right": 23
+    },
+    "confirm": {
+      "bottom": 22,
+      "left": 32,
+      "sourceSize": [
+        239,
+        89
+      ],
+      "top": 20,
+      "right": 30
+    },
+    "tab-active": {
+      "bottom": 17,
+      "left": 25,
+      "sourceSize": [
+        212,
+        77
+      ],
+      "top": 16,
+      "right": 25
+    },
+    "tab-idle": {
+      "bottom": 14,
+      "left": 25,
+      "sourceSize": [
+        212,
+        73
+      ],
+      "top": 14,
+      "right": 25
+    }
+  },
+  "croppedTrials": {
+    "notReleased": "Bench/mat fragments, surface probes, raw coin references and badge masks are source/failed-or-partial trials, not formal import set",
+    "releasedCount": 33,
+    "manifest": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\manifest.json",
+    "sha256": "41f790b9933aee793667b91b9903ad14d8e98837572e2a178d78cad5b7ae0a10",
+    "count": 58
+  },
+  "sourceTools": [
+    {
+      "sha256": "35546742bbd6a6f031084f7b72fb70998004886a87f3cb38a64865c5d3251bb9",
+      "path": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\crops.json"
+    },
+    {
+      "sha256": "c396e7fa0f6d92e111beeffedec71e0a7c0020866b504257ef70e42366267c25",
+      "path": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\build-assets.ps1"
+    },
+    {
+      "sha256": "b81373ef2038cc5f945d1c313b71b99ccfcb3f54df2d81df2eba41badf123558",
+      "path": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\preview-assets.ps1"
+    },
+    {
+      "sha256": "aa31aeb2ce3e60ff7c00675cb5d6836d42de4b8b77cf4af6d75436b996da95a8",
+      "path": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\build-release.ps1"
+    },
+    {
+      "sha256": "1c9326349e2dcbf3da68e4ec68aaaa1e271cc068cc9d6c87e9e311d6e4e7efc7",
+      "path": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\build-composition.ps1"
+    },
+    {
+      "sha256": "4e49ff7c2dcb4c159ba91b9518f45d1a81b8eb59f72e33a84c946bb1dab0ab27",
+      "path": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\verify-release.ps1"
+    },
+    {
+      "sha256": "406c7980baee21e8daaa5cb8b93c85b0bc606705a4596aff07e4b2335523ad0c",
+      "path": "E:\\Project\\yanzhou-art-assets\\tabletop-components-2026-10-28\\README.md"
+    }
+  ],
+  "excluded": [
+    "Devices",
+    "Inscriptions and progress art",
+    "Cards, card frames, card backs and symbols"
+  ],
+  "remaining": [
+    "Books, opponent hand, alchemy props and small scenery",
+    "Hover/pressed/disabled state paint not present in source",
+    "Real engine import, hit areas, texture budgets and user visual acceptance"
+  ],
+  "provenance": "Background layers are explicitly reconstructed by built-in image_gen. Controls and counter sprites are exact source crops with alpha masks. Sources never overwritten.",
+  "distribution": "Project-internal review/use; public distribution not separately authorized",
+  "imagesUploadedToGit": false,
+  "validation": {
+    "noGameplay": true,
+    "engine": "NotRun",
+    "scope": "40 PNG size/format/hash; 33 exact source-RGB checks; 3 generated retained-RGBA checks; alpha/three-background and real-layer composition review",
+    "sourceRgbPass": 33,
+    "retainedRgbaPass": 3,
+    "observedFixes": [
+      "Rejected perspective bench nine-part trial due visible seam/geometry steps",
+      "Clamped crop sampling to eliminate transparent fill seams",
+      "Clipped background-grain residue from counter masks",
+      "Moved spell counter clear of bench corner in composition"
+    ],
+    "checks": "checks.json"
+  },
+  "previews": [
+    "preview-components.png",
+    "preview-layout.png"
+  ],
+  "previewNote": "Composition preview excludes deferred devices/cards, all sample words and counts drawn by actual font; no gameplay state or real engine",
+  "assembledControls": 4,
+  "previewFiles": [
+    {
+      "role": "Composited layer proof; not real game",
+      "sha256": "f6543486c422ac12d2099b6bcd457b83b14c6cf3322c352f6a5d132c50758522",
+      "path": "preview-components.png"
+    },
+    {
+      "role": "Composited layer proof; not real game",
+      "sha256": "673146a268035664e4c7e35028f8abe342c0961272a51d2311c612a1e86872e9",
+      "path": "preview-layout.png"
+    }
+  ]
+}

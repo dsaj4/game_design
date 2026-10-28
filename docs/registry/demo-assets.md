@@ -38,6 +38,13 @@
 - derived-from: AS-G002-032@HERBAL-ENGRAVING-04 / scene-v05.png，源文档固定提交`d0223f0823bbb3c0461ee3070c57a065c4a10f72`，源PNG已保全，路径／SHA-256见目标manifest。内置image_gen参考图重绘及透明边缘清理，非逐像素裁剪或矢量源文件。
 - ReadyForScope / PresentLocal，仅设计板审阅及原规格／透明抽样／哈希检查。内部参照与原复用边界保持；边缘、小尺寸和正式切片未验收，未接入HTML／游戏或改变规则。
 
+## <a id="as-g002-034"></a>AS-G002-034 桌面与基础UI组件源件
+
+- game-002 / main；[组件预览、导出包及完整登记](../../yanzhou/visual/tabletop-components-2026-10-28/README.md)。2026-10-28用户要求先拆正式美术组件，法器与卡牌后置。TABLETOP-COMPONENTS-01：3个完整底板、4个无字UI底板、3类筹码及30个控件分片，共40个PNG，导出集合由同目录manifest逐件固定原生尺寸、alpha、哈希和来源。
+- derived-from: AS-G002-032@HERBAL-ENGRAVING-06 / scene-v06.png。33个原RGB裁片及4个拼接无字底板；木桌／桌垫／工作台因遮挡和透视拼接失败，另用内置image_gen沿v06参考补齐，不声称像素级分离。准确提示词、生成原件与保留区域裁切均有来源；不取用AS-G002-033卡牌符号或旧第三方游戏资产。
+- ReadyForScope / PresentLocal（2026-10-28，限PNG／alpha／哈希／像素对应和三种底色／分层合成检查）；用户接受PendingReview，正式引擎／触区／压缩预算NotRun。法器、铭文词片、卡面／卡背／卡框均未制作，完整状态及陈设仍待后续。原图、DM-G002-020和正式游戏工程未改。
+- 图片、ZIP及制作工具保本机，文档／manifest／提示词入Git。原试件58片中仅33片列入正式集合，失败和局部试验不打包；来源原件与工具位于 `E:/Project/yanzhou-art-assets/tabletop-components-2026-10-28/`，导出在维护页exports/。仅本项目内部使用／审阅，公开分发条件未另定。
+
 ## Demo
 
 ### <a id="dm-g002-020"></a>DM-G002-020 首场手牌与逐列布牌HTML示意

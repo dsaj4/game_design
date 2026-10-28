@@ -8,6 +8,7 @@
 | --- | --- |
 | 现有可运行资源 | [B13接手摘要](E:/Project/yanzhou-godot/docs/development-handoff.md#先分清版本和证据)及[逐项使用结果](E:/Project/yanzhou-godot/docs/coordination/demoncards-candidates-integration-v01.json)；区分主桌已用与仅检视 |
 | 资产身份、来源与复用条件 | [统一AS／DM目录](../../docs/registry/demo-assets.md)，不在本页复制清单 |
+| 新2D首批基础美术源件 | [AS-G002-034组件包](../visual/tabletop-components-2026-10-28/README.md)：木桌／透明桌垫／空工作台、无字控件和筹码，40个PNG；原像素裁片与参考补绘分开，已查PNG／alpha／合成，法器与卡牌后置，未接入正式引擎 |
 | 模型、纹理、声音和曲线候选 | [资源选择与恢复](E:/Project/yanzhou-godot/docs/development-handoff.md#资源选择与恢复)；盘点状态属于原日期，后来使用状态查B13 |
 | 最新设计候选 | [开发索引中的UI稿](README.md#当前事实)及所属visual／来源记录；示意、效果图和源资产分开 |
 | 原件与运行检查 | 对应manifest、所属实现报告、源目录；工作台Files按登记路径打开 |

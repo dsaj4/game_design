@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-28",
+  "status": "PassForLocalAssetScope",
+  "pngs": 40,
+  "alphaPngs": 39,
+  "sourceRgbExact": 33,
+  "retainedGeneratedRgbaExact": 3,
+  "sourceSceneUnchanged": true,
+  "exportFilesMatchManifest": true,
+  "previewCompositions": [
+    "preview-components.png",
+    "preview-layout.png"
+  ],
+  "visualReviewed": [
+    "No deferred devices/cards in3 full layers",
+    "Complete mat corners and bench silhouette",
+    "No baked labels or counts in4 UI backgrounds",
+    "Heart/shield/star outlines on light/dark/wood",
+    "No frame sampling fade at control seams"
+  ],
+  "designManifestSha256": "4bc9874114a19a2f0fecdaf9772847e75cba7ecb459565961906ffcf944b514c",
+  "notRun": [
+    "Official engine import",
+    "Real hit areas and interactions",
+    "Target texture compression/mipmap budget",
+    "All hover/pressed/disabled painted states",
+    "Full scene props",
+    "User acceptance",
+    "Gameplay"
+  ]
+}
