@@ -4,7 +4,7 @@
   "date": "2026-10-28",
   "project": "game-002-optimization",
   "direction": "DIR-042",
-  "design_status": "Raw / Unqualified",
+  "design_status": "User-selected priority reference for card design; not accepted as production components",
   "primary_image": "symbols-v01.png",
   "tool": "built-in image_gen",
   "generation_mode": "reference-guided symbol isolation/redraw, then alpha-edge cleanup",
@@ -14,8 +14,10 @@
     "asset": "AS-G002-032",
     "version": "HERBAL-ENGRAVING-04",
     "manifest_commit": "d0223f0823bbb3c0461ee3070c57a065c4a10f72",
-    "path": "../scene-v05.png",
-    "sha256": "c694c5ec2144b3f726df020ddd43a51c2d81d1fc15d7e7044ccb42c7a2a6ffa3"
+    "path": "E:/Project/yanzhou-art-archive/2026-10-28-v03-selection/scene-v05.png",
+    "sha256": "c694c5ec2144b3f726df020ddd43a51c2d81d1fc15d7e7044ccb42c7a2a6ffa3",
+    "historical_repository_path": "yanzhou/exploration/DIR-042-herbal-engraving-style/scene-v05.png",
+    "access_note": "Historical scene removed from the active workspace after a byte-identical local copy was verified"
   },
   "files": [
     {
@@ -34,9 +36,10 @@
     {
       "step": "reference-guided isolation/redraw",
       "prompt": "symbols-v01-prompt.txt",
-      "reference": "../scene-v05.png",
+      "reference": "E:/Project/yanzhou-art-archive/2026-10-28-v03-selection/scene-v05.png",
       "output_original": "C:/Users/Administrator/.codex/generated_images/01a17b22-9079-77b0-bf67-62a1b7cc877e/exec-bd8c95f2-2c78-433f-b010-64556dfe07ec.png",
-      "output_sha256": "d2ff891a970498cc82b52761cb5925713325f301b2be7822f9df71ac8a2ec956"
+      "output_sha256": "d2ff891a970498cc82b52761cb5925713325f301b2be7822f9df71ac8a2ec956",
+      "reference_at_generation": "../scene-v05.png (historical workspace path)"
     },
     {
       "step": "transparent-edge cleanup",
@@ -45,12 +48,45 @@
       "output": "symbols-v01.png"
     }
   ],
-  "labels": ["护盾", "简易攻击", "强化打击", "爆裂试剂", "暗牌封印", "打断标记"],
-  "text_files": ["README.md", "manifest.json", "symbols-v01-prompt.txt", "symbols-v01-cleanup-prompt.txt"],
+  "labels": [
+    "护盾",
+    "简易攻击",
+    "强化打击",
+    "爆裂试剂",
+    "暗牌封印",
+    "打断标记"
+  ],
+  "text_files": [
+    "README.md",
+    "manifest.json",
+    "symbols-v01-prompt.txt",
+    "symbols-v01-cleanup-prompt.txt"
+  ],
   "validation": {
     "date": "2026-10-28",
     "visual_scope": "Six subjects, captions, arrangement and theme-color relationships inspected",
-    "alpha_samples": [{"point": [0, 0], "alpha": 0}, {"point": [512, 511], "alpha": 0}],
+    "alpha_samples": [
+      {
+        "point": [
+          0,
+          0
+        ],
+        "alpha": 0
+      },
+      {
+        "point": [
+          512,
+          511
+        ],
+        "alpha": 0
+      }
+    ],
     "limits": "Minor redraw variation and residual edge noise remain; no small-size or runtime slicing validation"
+  },
+  "selection": {
+    "date": "2026-10-28",
+    "role": "Priority card-design reference paired with the v03 tabletop baseline",
+    "tabletop_entry": "../README.md",
+    "image_changed": false
   }
 }

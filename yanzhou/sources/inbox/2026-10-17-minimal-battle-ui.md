@@ -281,4 +281,4 @@
 
 固定底图：`E:/Project/yanzhou-godot/evidence/development-batch-13/package-main-01/1920x1080/09-completion-paused.png`，SHA-256 `d974b54753390760fc862ebdcce50d2d5ae0291939a854e60d104f098b444a2b`。真实第2拍完工阶段暂停：生命玩家30／敌60、双方护甲0、施法三量均0、容量5中实牌1／预留1／空位3；守护批次已经完工，施法批次D3剩1。原图与生成稿保持本机审阅范围，登记与提示词单独入库。
 
-效果图、完整提示词与实际偏差见[制作记录](../../visual/baseline-2026-10-26/art/minimal-battle-ui-2026-10-17/art-v01.md)，资源登记为[AS-G002-029](../../../docs/registry/demo-assets.md#as-g002-029)。设计agent以固定原截图经内置image_gen生成并作一次定向修订；协调者独立看图后选修订版交付。模型输出1672×941，原场景构图与主要数值基本保持，有细部重绘；尚未实装或采纳，原候选资格状态不变。
+效果图、完整提示词与实际偏差见[制作记录](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/minimal-battle-ui-2026-10-17/art-v01.md)，资源登记为[AS-G002-029](../../../docs/registry/demo-assets.md#as-g002-029)。设计agent以固定原截图经内置image_gen生成并作一次定向修订；协调者独立看图后选修订版交付。模型输出1672×941，原场景构图与主要数值基本保持，有细部重绘；尚未实装或采纳，原候选资格状态不变。

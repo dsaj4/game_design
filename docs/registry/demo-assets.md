@@ -5,9 +5,11 @@
 本轮是**初始登记**：来自当前开发索引、视觉入口、DIR-029演示交付和已跟踪参考包；不是全历史资产审计。未打开旧归档、未读取未跟踪新方向、未运行Demo或重新验证玩法。登记基线：`25ec81ea9f9cef3496922068bc63622b36aba5c5`。下文“基线提交”均指该完整提交，不自动追随HEAD。本仓库原件用该提交+路径固定；外部资源另外注明。
 
 
-## 2026-10-26 视觉基准归并
+## 2026-10-28 本轮视觉选择与整理
 
-言咒当前视觉入口仅为[DM-G002-017 / VISUAL-BASELINE-01](../../yanzhou/visual/baseline-2026-10-26/README.md)。本地旧视觉方向退出维护；可复用图片及来源按原AS身份归入其[美术附件](../../yanzhou/visual/baseline-2026-10-26/art/README.md)，不锁定新风格。共同清理前提交为`56a0ef07f13a647a4383a751977f2dce871bd731`；下文旧日期的ReadyForScope／PresentLocal仅保留历史含义，退役正文和未保留文件沿固定Git链接取证。外部工程、字体、模型、第三方源件和运行包未迁移。
+言咒当前入口为[本轮视觉基准](../../yanzhou/visual/README.md)：用户暂定AS-G002-032的v03为桌面战斗设计基准，AS-G002-033为卡牌设计重点参考。现行交互保留在文字合同，原DM-G002-017示意HTML和旧美术方向已退役。选择仅覆盖视觉取向，不回滚CORE-067或升级玩法／实现证据。
+
+清理前固定提交为`ddf6ebfe7b3121cbb71d1257c229206a86321a1e`；旧附件、皮肤、HTML和提示词按原路径取证。四张未入Git的退出整场PNG已校验后保全至`E:/Project/yanzhou-art-archive/2026-10-28-v03-selection/`，原manifest同处保留。外部实现、字体、模型、第三方原件和运行包未迁移；历史使用关系继续有效，原日期ReadyForScope不表示当前选择已实现。
 
 ## <a id="as-g002-030"></a>AS-G002-030 二维桌面参考截图
 
@@ -19,23 +21,22 @@
 
 ## <a id="as-g002-031"></a>AS-G002-031 暗酒红对象效果图包
 
-- game-002 / main；Catalogued / PresentLocal，作为基准的归档美术附件。原图片与生成来源见[附件对象包](../../yanzhou/visual/baseline-2026-10-26/art/burgundy-objects-2026-10-24/README.md)，当前范围由[附件manifest](../../yanzhou/visual/baseline-2026-10-26/art/manifest.json)固定。
-- 保留原对象、空卡框、手部和工作台参考；工具箱／法器匣及错误视角的初版瓶子退出工作树。原BURGUNDY各版本按共同清理前提交取证，不复用编号。
-- 内置image_gen来源、提示词与内部复用／分发边界保留；用户对布局与交互的确认不等于已确定本风格。当前参考皮肤直接使用部分图片。
+- game-002 / main；2026-10-28标Archived，暗酒红方向、对象图、参考皮肤和来源说明退出活动工作区。原AS身份、生成来源与许可边界保留；[固定对象包](https://github.com/dsaj4/game_design/tree/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/burgundy-objects-2026-10-24)及同提交附件manifest可恢复。
+- 历史DM-G002-017曾直接使用部分图片；当前没有活动HTML使用者。外部实现中既有使用关系未清理，不将退役解释为原件可公开分发。
 
 ## <a id="as-g002-032"></a>AS-G002-032 纸本秘术工坊场景候选包
 
-- game-002-optimization / DIR-042；[主稿、风格说明与完整登记](../../yanzhou/exploration/DIR-042-herbal-engraving-style/README.md#as-g002-032-纸本秘术工坊场景候选包)。纸本秘术与言咒实体铭文／咒文机具；设计Raw / Unqualified，未覆盖当前视觉基准。
-- `HERBAL-ENGRAVING-04`；五版PNG与准确提示词，[manifest](../../yanzhou/exploration/DIR-042-herbal-engraving-style/manifest.json)固定文件范围及SHA-256。主稿v05，1672×941 RGB无透明；2026-10-28据指定Book of Hours分析提取器物插画／实色符号／角色分层后纯文字生成。原03版沿 `23f909921c1fa8ea45fc8ae26d21168f94eedb47` 的同路径记录取证；图片本机保存，不随本轮文档提交上传。
-- ReadyForScope / PresentLocal（2026-10-28，仅静态审阅、规格／哈希核对）。内置image_gen；v05没有参考图或编辑底图，言咒输入沿 `f8849ed93c159ecee6baceddb5cfa52cde4084cf` 的五文件；新增分析输入为 `cb69dae337c7fef33b2dd068811068d911109a21` 的BOH-REA-v02报告及已目视图示，范围见[提取说明](../../yanzhou/exploration/DIR-042-herbal-engraving-style/art-style-extract-2026-10-28.md)。外部原图未导入／上传，历史图仍沿原版本和图像关系。
-- 仅内部概念参考，公开分发与正式采用条件待核；v05生命圆片误呈横排／空格、铭文字形有生成变形，持牌具体排布仍待审阅。未装入或运行HTML，未验证交互、玩法或真人体验；使用者为DIR-042主稿，另派生[AS-G002-033卡牌符号设计板](../../yanzhou/exploration/DIR-042-herbal-engraving-style/card-symbols-2026-10-28/README.md)。
+- game-002-optimization / DIR-042；[当前桌面基准与完整登记](../../yanzhou/exploration/DIR-042-herbal-engraving-style/README.md#as-g002-032-纸本秘术工坊场景候选包)。2026-10-28用户暂定v03为本轮桌面战斗设计基准，现行交互仍沿CORE-067。
+- `HERBAL-ENGRAVING-05`；当前只保留scene-v03.png与准确提示词，1672×941 RGB PNG无透明，原像素不变；[manifest](../../yanzhou/exploration/DIR-042-herbal-engraving-style/manifest.json)固定范围、SHA-256、原输入及恢复位置。包版本05不代表选定场景v05。
+- ReadyForScope / PresentLocal，仅静态视觉参考。内置image_gen以旧v02定向编辑生成v03，原设计输入为`13b9b3a0510e875bc4986ce52d9ded27e9fe9044`；图中旧资源／手牌堆、容量与整理点不恢复为规则。正式组件、小尺寸、两组持牌及列间展示尚未验收。
+- 旧`HERBAL-ENGRAVING-04`五图清单及Book of Hours提取过程沿清理前固定提交取证；退出PNG另在本机保全。AS-G002-033仍派生自历史04版v05，来源不改写成v03。仅内部概念参考，公开分发与正式采用条件沿原包待核；未接入新HTML／游戏。
 
 ## <a id="as-g002-033"></a>AS-G002-033 v05卡牌符号独立设计板
 
-- game-002-optimization / DIR-042；[设计板与完整登记](../../yanzhou/exploration/DIR-042-herbal-engraving-style/card-symbols-2026-10-28/README.md)。独立展示护盾、简易攻击、强化打击、爆裂试剂、暗牌封印及打断标记；设计Raw / Unqualified。
-- `CARD-SYMBOLS-V05-01`；一张六格透明设计板，1538×1023 RGBA PNG，[manifest](../../yanzhou/exploration/DIR-042-herbal-engraving-style/card-symbols-2026-10-28/manifest.json)固定文件及两步提示词。图像本机保存，不随文档提交上传。
-- derived-from: AS-G002-032@HERBAL-ENGRAVING-04 / scene-v05.png，固定源文档提交 `d0223f0823bbb3c0461ee3070c57a065c4a10f72`，源PNG哈希见目标manifest。内置image_gen参考图分离重绘及透明边缘清理，非逐像素裁剪或矢量源文件。
-- ReadyForScope / PresentLocal（2026-10-28，仅设计板目视、规格、透明抽样及哈希核对）。项目内部参照，公开分发及正式采用条件沿源包待核；边缘、小尺寸和正式切片未验收，未接入HTML／游戏或改变规则。
+- game-002-optimization / DIR-042；[设计板与完整登记](../../yanzhou/exploration/DIR-042-herbal-engraving-style/card-symbols-2026-10-28/README.md)。2026-10-28用户列为本轮卡牌设计重点参考，桌面另以v03为基准；符号板像素未改，未验收为正式组件。
+- `CARD-SYMBOLS-V05-01`；六格透明设计板，1538×1023 RGBA PNG，含护盾、简易攻击、强化打击、爆裂试剂、暗牌封印及打断标记；[manifest](../../yanzhou/exploration/DIR-042-herbal-engraving-style/card-symbols-2026-10-28/manifest.json)固定文件与两步提示词。图片本机保管，不随文档上传。
+- derived-from: AS-G002-032@HERBAL-ENGRAVING-04 / scene-v05.png，源文档固定提交`d0223f0823bbb3c0461ee3070c57a065c4a10f72`，源PNG已保全，路径／SHA-256见目标manifest。内置image_gen参考图重绘及透明边缘清理，非逐像素裁剪或矢量源文件。
+- ReadyForScope / PresentLocal，仅设计板审阅及原规格／透明抽样／哈希检查。内部参照与原复用边界保持；边缘、小尺寸和正式切片未验收，未接入HTML／游戏或改变规则。
 
 ## Demo
 
@@ -48,15 +49,13 @@
 
 ### <a id="dm-g002-018"></a>DM-G002-018 暗酒红独立对象HTML审阅包
 
-- Archived，2026-10-26独立对象审阅HTML退出工作树，不再作为下一轮入口；共同提交下`yanzhou/visual/burgundy-objects-2026-10-24/`保留原BURGUNDY-OBJECTS-01及审阅证据。
-- 图片、提示词和来源并入[当前基准美术附件](../../yanzhou/visual/baseline-2026-10-26/art/README.md)，AS-G002-031身份不变。历史十页调参／批注检查仅属原版本；旧浏览器本机批注未读取或删除。
+- Archived；2026-10-26审阅HTML已退出工作区，2026-10-28剩余美术附件也退出。AS-G002-031身份不变，来源及历史十页调参／批注检查按清理前固定Git恢复；旧浏览器批注未读取或删除。
 
 ### <a id="dm-g002-017"></a>DM-G002-017 EX-004二维主页面结构示意
 
-- game-002 / main；[唯一基准与操作范围](../../yanzhou/visual/baseline-2026-10-26/README.md)、[HTML](../../yanzhou/visual/baseline-2026-10-26/index.html)。用户2026-10-26确认COUNTER-LAYOUT-02的位置、组件形态和交互，归并为VISUAL-BASELINE-01；[文件范围](../../yanzhou/visual/baseline-2026-10-26/manifest.json)。
-- ReadyForScope / PresentLocal仅指2026-10-26原版布局及示意交互；原HTML从附件加载参考皮肤，基准不规定美术风格。2026-10-27仅同步[CORE-067](../../yanzhou/sources/draft-changes/D-2026-10-27-unified-card-model.md)文字与manifest：两组持牌、手动免费上行和列间窗口替换旧手牌／资源堆及整理点合同；旧HTML、脚本与图片未修改或重验，不能充当新交互实现。筹码详情／历史等展示缺口保留，玩法、引擎与真人体验证据未升级。
-- derived-from：同DM的COUNTER-LAYOUT-02，共同清理前提交固定；uses：AS-G002-031的保留原图，仅用于参考皮肤。相关旧AS仍各自保持来源和许可，不引入新的公开分发授权。
-- 风格使用者：[DIR-042 / AS-G002-032](../../yanzhou/exploration/DIR-042-herbal-engraving-style/README.md)。v01—v03沿原预览图派生；v04只参考CORE-067修订后的文字合同，纯文字生成并更新持牌布局，没有覆盖本基准。
+- game-002 / main；Archived。2026-10-26用户确认的COUNTER-LAYOUT-02归并为VISUAL-BASELINE-01；2026-10-27文字沿CORE-067修订，原HTML未实现新操作。2026-10-28旧HTML、脚本、预览和全部美术附件退出工作区，[历史固定包](https://github.com/dsaj4/game_design/tree/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26)保留原文件、manifest和检查证据。
+- [现行文字合同](../../yanzhou/visual/baseline-2026-10-26/README.md)继续维护组件职责及交互边界，元数据版VISUAL-CONTRACT-02只登记文字，不提供运行HTML。原ReadyForScope仅属2026-10-26局部示意；两组持牌、手动布牌、即时回收及列间展示未借此获得实现或验收结论。
+- 历史uses: AS-G002-031用于旧皮肤；历史派生使用者AS-G002-032的v01—v03。当前桌面v03及卡牌符号参考由[本轮视觉入口](../../yanzhou/visual/README.md)组织，资源内部复用与原分发边界保持。
 
 | ID / 名称 / 标签 | 归属 / 权威说明 | 固定版本与入口 | 状态 / 可复用范围 |
 | --- | --- | --- | --- |
@@ -154,7 +153,7 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 - 归属：game-002 / main；[当前交付与本机入口](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/battle-ui-2026-10-11/v10-outline.md)，BATTLE-UI-HTML-10，抽屉向桌内展开、两主体与时间轴中点居中，保留前沿四件法器本体；固定文件及SHA-256见交付页所链manifest。[v09及其检查](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/battle-ui-2026-10-11/v09-outline.md)和原件保持原版本，不覆盖。
 - ReadyForScope（3D界面轮廓位置评审）/ PresentLocal；2026-10-11实际Edge检查抽屉在桌内、主体与轴中点居中、刻位对称、四法器、面板删除、桌上物件、空位、三档宽度及HTTP／离线入口，1366预览目视检查完成。当前仅描位，无交互、战斗数据或模型；整体UI仍待评审，玩法NotRun。
 - 来源：用户要求HTML并明确仅轮廓描位；uses: AS-G002-005@v02（对齐结构）、AS-G002-006（既有构图）、AS-G002-007（桌面与桌沿关系），derived-from: None（外部代码）。自制单文件HTML内联SVG，无外部依赖，不嵌入第三方图像或字体。可在本项目改作，对外分发许可未另定。原件位于本机持久演示目录，未公开发布。
-- 后续使用：[AS-G002-008](../../yanzhou/visual/baseline-2026-10-26/art/battle-ui-2026-10-11/art-v01.md)以HTML v10为构图骨架生成独立效果图；HTML原件与固定版本未改。
+- 后续使用：[AS-G002-008](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/battle-ui-2026-10-11/art-v01.md)以HTML v10为构图骨架生成独立效果图；HTML原件与固定版本未改。
 
 ### <a id="dm-g002-012"></a>DM-G002-012 战斗卡片交互HTML（2026-10-12新增）
 
@@ -162,7 +161,7 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 
 - 当前修订：PHYSICAL-CARD-HTML-05；[HTML](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-12/card-flow-v05.html)、[动作修订说明](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-12/card-flow-html-v05.md)、[固定清单](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-12/card-flow-v05-manifest.json)、[限定复核](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/physical-table-2026-10-12/card-flow-html-verification-v05.md)。derived-from：本资源@HTML-04及用户两点简化要求；法器完工一次亮光后原刻位浮现，使用牌原位亮起且真实目标同步局部特效。21情境不变，Catalogued / PresentLocal，浏览器未验；对应AS-G002-013@ART-02；HTML制作时阶段4未开始，2026-10-13首批真实接入见DM-G002-011本轮记录，HTML浏览器结论不变。
 
-- 旧版保留：PHYSICAL-CARD-HTML-04，game-002 / main；[HTML](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-12/card-flow-v04.html)、[说明](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-12/card-flow-html-v04.md)、[manifest](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-12/card-flow-v04-manifest.json)、[检查](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/physical-table-2026-10-12/card-flow-html-verification-v04.md)。derived-from：本资源@PHYSICAL-CARD-HTML-03，固定输入`20b92ec65fa66219ec8b2a4f7dd5c1a6d63d9ba8`及用户同步悬浮批注；只补齐双方棋子状态近观。Catalogued / PresentLocal，浏览器未验；原回放与消费锁沿v03，HTML交付时阶段3／4未开始，复用条件沿v01。后续阶段3已生成[AS-G002-013首批效果图](../../yanzhou/visual/baseline-2026-10-26/art/physical-table-2026-10-12/art-v01/README.md)，仅作结构参照使用，不改本HTML固定版或浏览器结论。
+- 旧版保留：PHYSICAL-CARD-HTML-04，game-002 / main；[HTML](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-12/card-flow-v04.html)、[说明](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-12/card-flow-html-v04.md)、[manifest](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-12/card-flow-v04-manifest.json)、[检查](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/physical-table-2026-10-12/card-flow-html-verification-v04.md)。derived-from：本资源@PHYSICAL-CARD-HTML-03，固定输入`20b92ec65fa66219ec8b2a4f7dd5c1a6d63d9ba8`及用户同步悬浮批注；只补齐双方棋子状态近观。Catalogued / PresentLocal，浏览器未验；原回放与消费锁沿v03，HTML交付时阶段3／4未开始，复用条件沿v01。后续阶段3已生成[AS-G002-013首批效果图](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/physical-table-2026-10-12/art-v01/README.md)，仅作结构参照使用，不改本HTML固定版或浏览器结论。
 
 - 旧版保留：PHYSICAL-CARD-HTML-03，game-002 / main；[HTML v03](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-12/card-flow-v03.html)、[文字增补与来源](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-12/card-flow-html-v03.md)、[固定清单](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-12/card-flow-v03-manifest.json)、[本轮检查](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/physical-table-2026-10-12/card-flow-html-verification-v03.md)。derived-from：本资源@PHYSICAL-CARD-HTML-02，固定输入`1d6b151f4634383d7ea7f5ec80873171e89cb447`及用户四条批注／消费锁答复。右正向／左负面筹码，悬停／焦点精确读数，卡牌与空抽屉无底板；消费锁在独立示意中可操作，原20回放保持只读。Catalogued / PresentLocal，浏览器未验；阶段3／4未开始，自制及项目内复用条件沿v01。
 
@@ -183,12 +182,15 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 - 使用关系：[四项整改计划](../../yanzhou/development/production-plan.md#physical-table-rework-2026-10-13)→本资源@TABLE-TEXT-REFERENCE-01；本次只登记参考关系。derived-from：无；不继承截图游戏的玩法或素材身份。
 
 ### <a id="as-g002-013"></a>AS-G002-013 战斗卡片交互效果示意（2026-10-12新增）
+
+> 2026-10-28：Archived，本轮美术方向已退役；以下为原日期范围。说明和附件按清理前固定Git恢复，外部实现中的历史使用关系保持。
+
 - **2026-10-13用户确认：Selected Visual／ReadyForScope（限定视觉制作输入）/ PresentLocal。** 确认组合为ART-02的03守护牌过程＋ART-01的01总览／02悬浮近观，即[当前画册](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-12/art-v02/index.html)；原话“效果确认完毕，更新开发计划和agent分工”，范围与接续见[当前开发计划](../../yanzhou/development/production-plan.md#physical-table-approved-2026-10-13)。旧包候选状态按交付日期保留，不改PNG／manifest；没有引擎运行或完整DQ验收结论。
 - 同日后续复用：DM-G002-011@GODOT-PHYSICAL-B08-PREVIEW-01以该三图组合对照首批真实桌面制作，[D实际截图复核](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-13/batch-08-design-check.md)区分字段／空间修复与后续材质差距。未把本图片复制成运行界面，图源及原确认范围不变；运行证据归上述DM，不由概念图替代。
 
-- 2026-10-12局部修订 **PHYSICAL-CARD-ART-02**：[新版过程图与说明](../../yanzhou/visual/baseline-2026-10-26/art/physical-table-2026-10-12/art-v02/README.md)、[当前画册](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-12/art-v02/index.html)、[固定清单](../../yanzhou/visual/baseline-2026-10-26/art/physical-table-2026-10-12/art-v02/manifest.json)。依用户两条直接修正，完工改为法器亮起后卡牌原位浮现；使用改为卡牌原位亮起、棋子同时出效果，移除飞行／箭头／连接光带。derived-from：本资源@ART-01的过程图；新PNG 1672×941、RGB不透明，其余两图引用v01固定原件。仍Art Candidate，本轮方向已明确，不视为整包验收；原版及其缺口保留。内置image_gen编辑、项目内复用条件不变。
-- 归属：game-002 / main；PHYSICAL-CARD-ART-01；[维护说明与检查](../../yanzhou/visual/baseline-2026-10-26/art/physical-table-2026-10-12/art-v01/README.md)、[三图画册](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-12/art-v01/index.html)、[实际提示词](../../yanzhou/visual/baseline-2026-10-26/art/physical-table-2026-10-12/art-v01/prompts.md)。类型：静态效果示意／事件分镜；DOC-025阶段3首批候选。
-- 固定输入：设计提交9ef30c702d81fa2b38d7db28018796a32c8db07b；三张PNG均1672×941、RGB不透明；原图、说明、画册及提示词六文件的版本／SHA-256见[manifest](../../yanzhou/visual/baseline-2026-10-26/art/physical-table-2026-10-12/art-v01/manifest.json)。工具原始生成输出保留，选定三图复制入本项目。
+- 2026-10-12局部修订 **PHYSICAL-CARD-ART-02**：[新版过程图与说明](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/physical-table-2026-10-12/art-v02/README.md)、[当前画册](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-12/art-v02/index.html)、[固定清单](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/physical-table-2026-10-12/art-v02/manifest.json)。依用户两条直接修正，完工改为法器亮起后卡牌原位浮现；使用改为卡牌原位亮起、棋子同时出效果，移除飞行／箭头／连接光带。derived-from：本资源@ART-01的过程图；新PNG 1672×941、RGB不透明，其余两图引用v01固定原件。仍Art Candidate，本轮方向已明确，不视为整包验收；原版及其缺口保留。内置image_gen编辑、项目内复用条件不变。
+- 归属：game-002 / main；PHYSICAL-CARD-ART-01；[维护说明与检查](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/physical-table-2026-10-12/art-v01/README.md)、[三图画册](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-12/art-v01/index.html)、[实际提示词](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/physical-table-2026-10-12/art-v01/prompts.md)。类型：静态效果示意／事件分镜；DOC-025阶段3首批候选。
+- 固定输入：设计提交9ef30c702d81fa2b38d7db28018796a32c8db07b；三张PNG均1672×941、RGB不透明；原图、说明、画册及提示词六文件的版本／SHA-256见[manifest](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/physical-table-2026-10-12/art-v01/manifest.json)。工具原始生成输出保留，选定三图复制入本项目。
 - Catalogued / PresentLocal / Art Candidate；2026-10-12已逐图目视、图像解码、哈希与来源检查。覆盖第0拍桌面、四类悬浮近观及G02守护牌过程；遗漏字段、道具一致性与未覆盖情境见维护说明。未认定完整阶段3通过、用户接受或引擎实现。
 - derived-from：AS-G002-008@BATTLE-UI-ART-01（材质／道具／光照改作）；uses：DM-G002-012@PHYSICAL-CARD-HTML-04（结构与状态）、AS-G002-010@BATTLE-3D-02（仅窄牌透视说明）。内置image_gen生成，未使用CLI；旧PNG、HTML、模型未改，本轮未复制模型或第三方原件。
 - 用户授权本项目效果示意生成和继续评审改作；对外分发许可未另定，上游参考权利保持。本轮只是静态图片包，未公开部署或导入Godot，浏览器／运行／体验状态不提升。
@@ -220,7 +222,9 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 
 ### <a id="as-g002-009"></a>AS-G002-009 战斗组件隔离设计 v01（2026-10-11新增）
 
-- 归属：game-002 / main；BATTLE-COMPONENTS-01；[独立图片、提示词、总览与检查](../../yanzhou/visual/baseline-2026-10-26/art/battle-ui-2026-10-11/components-v01/README.md)。固定文件范围、规格及SHA-256见该页所链manifest。
+> 2026-10-28：Archived，本轮美术方向已退役；以下为原日期范围。说明和附件按清理前固定Git恢复，外部实现中的历史使用关系保持。
+
+- 归属：game-002 / main；BATTLE-COMPONENTS-01；[独立图片、提示词、总览与检查](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/battle-ui-2026-10-11/components-v01/README.md)。固定文件范围、规格及SHA-256见该页所链manifest。
 - ReadyForScope（组件外观评审）/ PresentLocal；19张PNG，其中18张RGBA透明组件、1张RGB环境图；2026-10-11检查文件解码、alpha、哈希及浏览器合成显示。
 - 用户授权内置image_gen逐项生成；derived-from / uses: AS-G002-008@BATTLE-UI-ART-01。源图已由用户选定为效果示意图初版；独立组件为本轮重绘设计参考，源图与HTML未改。用于后续外观评审与建模参考，不是三维资产或玩法采纳。
 - 本项目可继续改作；对外分发许可未另定，上游参考权利沿源登记保留。原始生成输出保留，19张最终图片入库，无公开部署；本机总览源在交付页指定的持久目录。
@@ -228,10 +232,12 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 
 ### <a id="as-g002-008"></a>AS-G002-008 战斗效果图 v01（2026-10-11新增）
 
-- 归属：game-002 / main；BATTLE-UI-ART-01；[原件、提示词与交付说明](../../yanzhou/visual/baseline-2026-10-26/art/battle-ui-2026-10-11/art-v01.md)。PNG 1672×941，RGB不透明，固定文件和SHA-256见交付页所链manifest。
+> 2026-10-28：Archived，本轮美术方向已退役；以下为原日期范围。说明和附件按清理前固定Git恢复，外部实现中的历史使用关系保持。
+
+- 归属：game-002 / main；BATTLE-UI-ART-01；[原件、提示词与交付说明](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/battle-ui-2026-10-11/art-v01.md)。PNG 1672×941，RGB不透明，固定文件和SHA-256见交付页所链manifest。
 - ReadyForScope（概念图评审）/ PresentLocal；2026-10-11实际核对解码、规格、哈希及构图。用户授权内置image_gen独立生成；uses: DM-G002-010@BATTLE-UI-HTML-10（布局）、AS-G002-006（风格）；原参考图和HTML未修改。
-- 2026-10-12后续视觉改作：[AS-G002-013@PHYSICAL-CARD-ART-01](../../yanzhou/visual/baseline-2026-10-26/art/physical-table-2026-10-12/art-v01/README.md)将本PNG作为材质／道具／光照图像输入，结构沿HTML v04；本源件字节不变。
-- 用户2026-10-11已选定为效果示意图初版；后续使用者为[AS-G002-009组件隔离设计](../../yanzhou/visual/baseline-2026-10-26/art/battle-ui-2026-10-11/components-v01/README.md)，尚未建模或验证玩法。本项目可继续评审改作，对外分发许可未另定。最终新图已复制入本工作区，原始生成输出保留，未公开部署。
+- 2026-10-12后续视觉改作：[AS-G002-013@PHYSICAL-CARD-ART-01](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/physical-table-2026-10-12/art-v01/README.md)将本PNG作为材质／道具／光照图像输入，结构沿HTML v04；本源件字节不变。
+- 用户2026-10-11已选定为效果示意图初版；后续使用者为[AS-G002-009组件隔离设计](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/battle-ui-2026-10-11/components-v01/README.md)，尚未建模或验证玩法。本项目可继续评审改作，对外分发许可未另定。最终新图已复制入本工作区，原始生成输出保留，未公开部署。
 
 ### <a id="as-g002-007"></a>AS-G002-007 桌面承载与边沿布局参考（2026-10-11新增）
 
@@ -251,11 +257,11 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 
 - 归属：game-002 / main；[原件位置、来源、规格与使用记录](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/battle-ui-2026-10-11/v02-notes.md#as-g002-006-用户提供的牌桌布局参考)。PNG 1672×941；固定SHA-256 `5b402a3b35d3b1d44d79c316f1fe09251fc440a2f5a8598f3c41603893a5b63f`。
 - Catalogued / PresentLocal；2026-10-11目视、尺寸与哈希核对。原件位于用户附件临时目录，未复制／推送原图，长期访问未知；作者、生成来源与对外分发权Unknown。
-- 用户授权UI布局参照；使用者AS-G002-005@v02、[DM-G002-010@v04](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/battle-ui-2026-10-11/v04-outline.md)及[v08](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/battle-ui-2026-10-11/v08-outline.md)。原结构稿仅参考空间构图；用户2026-10-11另授权[AS-G002-008](../../yanzhou/visual/baseline-2026-10-26/art/battle-ui-2026-10-11/art-v01.md)参考材质、配色与光照生成新图。原图未修改或复制入交付，不继承卡义或玩法；uses: None；derived-from: None。
+- 用户授权UI布局参照；使用者AS-G002-005@v02、[DM-G002-010@v04](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/battle-ui-2026-10-11/v04-outline.md)及[v08](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/battle-ui-2026-10-11/v08-outline.md)。原结构稿仅参考空间构图；用户2026-10-11另授权[AS-G002-008](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/battle-ui-2026-10-11/art-v01.md)参考材质、配色与光照生成新图。原图未修改或复制入交付，不继承卡义或玩法；uses: None；derived-from: None。
 
 | ID / 名称 / 标签 | 归属 / 原件入口 | 版本 / 来源条件 | 状态 / 使用边界 |
 | --- | --- | --- | --- |
-| <a id="as-g002-001"></a>AS-G002-001 05紧凑暗面视觉包；UI、风格 | game-002 / main；[风格说明](../../yanzhou/visual/baseline-2026-10-26/art/reviews/2026-09-19/style-guide.md)、[文件清单](../../yanzhou/visual/baseline-2026-10-26/art/reviews/2026-09-19/source-manifest.json) | v0.2 / 2026-09-19；基线提交下`yanzhou/visual/reviews/2026-09-19/`的已跟踪文件；生成来源/提示词沿原包，分发条件未审 | Catalogued / PresentLocal；旧RC1 Selected Visual；不能当成TL-1最终布局 |
+| <a id="as-g002-001"></a>AS-G002-001 05紧凑暗面视觉包；UI、风格 | game-002 / main；[风格说明](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/reviews/2026-09-19/style-guide.md)、[文件清单](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/reviews/2026-09-19/source-manifest.json) | v0.2 / 2026-09-19；基线提交下`yanzhou/visual/reviews/2026-09-19/`的已跟踪文件；生成来源/提示词沿原包，分发条件未审 | Archived；2026-10-28退出工作区，固定Git可恢复；旧RC1 Selected Visual；不能当成TL-1最终布局 |
 | <a id="as-g002-002"></a>AS-G002-002 DIR-029完整牌桌v9；概念图 | game-002-optimization / DIR-029；[PNG原件](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-029-timeline-card-battle/ui-concept-v9-full-tabletop.png)、[提示词](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-029-timeline-card-battle/ui-concept-v9-full-tabletop-prompt.txt) | 基线提交下上述两个文件；生成资料，具体生成模型/分发条件本轮未审 | Archived / GitSnapshot（2026-10-04本地原件随方向删除）；原Catalogued / PresentLocal记录；Scene Concept / Awaiting Visual Review，尚非最终生产素材；尺寸等在实际复用前补录 |
 | <a id="as-g002-003"></a>AS-G002-003 Godot/Blender实验集合；模型、渲染、概念图 | game-002 / main；[恢复后的仓库入口](E:/Project/game-002-godogen-lab/README.md)、[登记来源](../../yanzhou/development/README.md) | 外部提交`1dd488c507a73933e5f16e9d3829e451b5e37937`；范围与入口见下方恢复记录；依赖见外部工具链锁，逐项分发条件待核实 | Catalogued / **PresentLocal**（2026-10-01用户通知恢复后复查）；旧RC1资产与视觉探索，未认定TL-1兼容或完成美术验收 |
 | <a id="as-g002-004"></a>AS-G002-004 DIR-031视觉案例参考包；官方截图、牌桌、炼金工作台 | game-002-optimization / DIR-031；[图文与登记](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-031-visual-form-style/README.md#第4轮五个相邻案例的真实游戏截图)、[来源清单](https://github.com/dsaj4/game_design/blob/e6f3dab4c2d7947d842f4f120cbb8c61ceef86a9/yanzhou/exploration/DIR-031-visual-form-style/reference-screenshots-v01-sources.json) | v0.1 / 2026-10-02；固定提交`46f8a0ff7813f022e8e4c9b13516f5ba68c2ce98`下`yanzhou/exploration/DIR-031-visual-form-style/`，文件范围仅限清单所列7张图；5张官方Steam截图＋2张既有用户参考图，逐项规格、来源、SHA-256见清单；具体许可Unknown | Archived / GitSnapshot（2026-10-04本地原件随方向删除）；原Catalogued / PresentLocal记录；2026-10-02核对7图哈希及解码，目视核对5张新增官方截图；DIR-031仅作视觉参照，保持Raw / Unqualified，未运行游戏、不授予资产复制改作或商业分发权 |
@@ -334,7 +340,9 @@ AS-G002-004为2026-10-02的后续登记，使用该行独立固定提交，不�
 
 ### <a id="as-g002-015"></a>AS-G002-015 DC-v01 牌桌与动作美术示意包
 
-- 归属：game-002 / main；[原件画册／说明](../../yanzhou/visual/baseline-2026-10-26/art/demoncards-reference-2026-10-14/art-v01/README.md)、[预览](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/demoncards-reference-2026-10-14/art-v01/index.html)、[实际提示词](../../yanzhou/visual/baseline-2026-10-26/art/demoncards-reference-2026-10-14/art-v01/prompts.md)。固定DC-ART-01，范围由上方DC-v01清单固定。
+> 2026-10-28：Archived，本轮美术方向已退役；以下为原日期范围。说明和附件按清理前固定Git恢复，外部实现中的历史使用关系保持。
+
+- 归属：game-002 / main；[原件画册／说明](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/demoncards-reference-2026-10-14/art-v01/README.md)、[预览](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/demoncards-reference-2026-10-14/art-v01/index.html)、[实际提示词](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/demoncards-reference-2026-10-14/art-v01/prompts.md)。固定DC-ART-01，范围由上方DC-v01清单固定。
 - 4张选用PNG，1672×940／941，另保留2张失败PNG、布局输入与HTML浏览器证据；不把失败帧替换成成功。02-actions第三帧错误■攻击角标明确排除，正确Move采用04-card-move；图片Q4省略不能改变真实Q5。
 - ReadyForScope（D设计制作对照）/ PresentLocal，D已目视候选与列明缺口；内置image_gen生成，用户已授权后续真实制作。uses: DM-G002-013@DC-v01布局、AS-SH-002@REFERENCE-v01仅风格参照；derived-from: None（独立新图）。使用者DM-G002-011／AS-G002-016作为制作参照，未整图贴进游戏。允许本项目继续改作，公开分发许可未另定；不宣称3D资产或真实运行已验。
 
@@ -358,7 +366,9 @@ AS-G002-004为2026-10-02的后续登记，使用该行独立固定提交，不�
 
 ### <a id="as-g002-017"></a>AS-G002-017 组件细节效果板与提示词
 
-- 归属：game-002 / main；[原件说明](../../yanzhou/visual/baseline-2026-10-26/art/component-detail-2026-10-14/art-v01/README.md)、[可放大画册](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/component-detail-2026-10-14/art-v01/index.html)。固定COMPONENT-ART-01，三张v02修订及三张保留v01，6个实际提示词、原生成来源、逐文件SHA-256见[图像manifest](../../yanzhou/visual/baseline-2026-10-26/art/component-detail-2026-10-14/art-v01/manifest-v01.json)。
+> 2026-10-28：Archived，本轮美术方向已退役；以下为原日期范围。说明和附件按清理前固定Git恢复，外部实现中的历史使用关系保持。
+
+- 归属：game-002 / main；[原件说明](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/component-detail-2026-10-14/art-v01/README.md)、[可放大画册](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/component-detail-2026-10-14/art-v01/index.html)。固定COMPONENT-ART-01，三张v02修订及三张保留v01，6个实际提示词、原生成来源、逐文件SHA-256见[图像manifest](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/component-detail-2026-10-14/art-v01/manifest-v01.json)。
 - PNG实际1586×992、非透明底；提示请求2560×1600但工具未返回该尺寸。内置image_gen生成和定向编辑，未上传原游戏资产。覆盖文字/纸牌、法器/棋子/筹码、桌面/控制/装饰三组；只是外观与装配参考，不是模型、PBR图集、动态状态全套或游戏截图。
 - Catalogued / PresentLocal。2026-10-14总控与D目视并修正内容/形状/符号；仍有环开口、币局部等生成不一致，排除项及确定性更正见DM-G002-014复核。不将旧稿错误用于运行内容，不整板贴入游戏。uses: DM-G002-014文字与HTML；derived-from: None（新生成包，内部v02分别基于对应v01）；允许本轮言咒制作继续改作，公共分发许可未另定。
 
@@ -408,7 +418,9 @@ A/B/C/D按米制可编辑源、独立GLB/PBR、枢轴/轴向/尺寸及源重开/
 
 ## AS-G002-024 中文字体候选比较包
 
-- 归属：game-002 / main；字体比较；维护[字体调查](../../yanzhou/visual/baseline-2026-10-26/art/ui-review-2026-10-15/fonts-v01.md)，供DM-G002-015内部审阅使用。FONT-CANDIDATES-01，原件 `E:/Project/yanzhou-godot/evidence/development-batch-11/ui-review-v01/fonts/`；固定文件清单、下载URL、大小／SHA及许可SHA见DM015代码提交中的data.json。ReadyForScope / PresentLocal，仅本轮503字技术覆盖及浏览器同尺寸对照。
+> 2026-10-28：Archived，本轮美术方向已退役；以下为原日期范围。说明和附件按清理前固定Git恢复，外部实现中的历史使用关系保持。
+
+- 归属：game-002 / main；字体比较；维护[字体调查](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/ui-review-2026-10-15/fonts-v01.md)，供DM-G002-015内部审阅使用。FONT-CANDIDATES-01，原件 `E:/Project/yanzhou-godot/evidence/development-batch-11/ui-review-v01/fonts/`；固定文件清单、下载URL、大小／SHA及许可SHA见DM015代码提交中的data.json。ReadyForScope / PresentLocal，仅本轮503字技术覆盖及浏览器同尺寸对照。
 - Noto Serif CJK SC Regular 2.003，官方源提交 `9b0f1436e455d902de067a2501422e5dc71ad16b`，文件SHA `2a2eae2628df83556c54018c41e20fa532c1b862c5256ae8b3f23feb918d12ca`；LXGW WenKai Regular 1.522，官方发布tag v1.522，文件SHA `39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009`。均原始未修改文件、原OFL1.1逐份保留；软件嵌入／捆绑按原文保留版权许可、不得单售字体、修改版本遵守保留名称条件。未安装字体、未付费授权或公开发布。
 - 每个主字体503测试字，本体缺✱，配AS-G002-011的Symbols2后无缺字；其他字重与罕见字、Godot基线／fallback和成本未验。不由此认定全中文字库或全游戏选型。来源官方URL和权利原文见维护页；字体最终选择待用户逐组件审阅。
 
@@ -459,7 +471,9 @@ DM-G002-011第十三批使用补记：GODOT-DEMONCARDS-CANDIDATES-B13-01，固�
 
 ## <a id="as-g002-029"></a>AS-G002-029 主桌少文字截图效果图
 
-- 归属：game-002 / main；[制作记录与完整提示词](../../yanzhou/visual/baseline-2026-10-26/art/minimal-battle-ui-2026-10-17/art-v01.md)，设计来源为[少文字候选](../../yanzhou/sources/inbox/2026-10-17-minimal-battle-ui.md)，状态Raw Idea / Unqualified。用途为当前真实主桌基础上的视觉审阅，非运行截图或新资产实装。
+> 2026-10-28：Archived，本轮美术方向已退役；以下为原日期范围。说明和附件按清理前固定Git恢复，外部实现中的历史使用关系保持。
+
+- 归属：game-002 / main；[制作记录与完整提示词](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/minimal-battle-ui-2026-10-17/art-v01.md)，设计来源为[少文字候选](../../yanzhou/sources/inbox/2026-10-17-minimal-battle-ui.md)，状态Raw Idea / Unqualified。用途为当前真实主桌基础上的视觉审阅，非运行截图或新资产实装。
 - MINIMAL-BATTLE-UI-ART-01；本机原件／交付图 `E:/Project/yanzhou-godot/evidence/ui-concepts/2026-10-17-minimal/minimal-battle-ui-art-v01.png`，1672×941 PNG；SHA-256 `d478521339be289d3a5f404a171cfd0ebc95993e1a9de4bc1ad5f660bbab54d5`。模型生成原件、首版及修订提示词沿制作记录定位。图像保持本机，不随本次文档提交上传。
 - ReadyForScope / PresentLocal（2026-10-17，仅本机效果稿审阅）。设计agent使用内置image_gen编辑，协调者独立目视二版：卡片刻位3／6、暗牌揭示刻位4、容量1实牌＋1预留＋3空位、三格加工环2/3、原生命与标记数值及窗外类别可辨。存在生图细部重绘与尺寸变化，未做引擎像素对照或用户美术接受，不作为动态进度或玩法验证。
 - 底图为DM-G002-011@GODOT-DEMONCARDS-CANDIDATES-B13-01的 `package-main-01/1920x1080/09-completion-paused.png`，SHA `d974b54753390760fc862ebdcce50d2d5ae0291939a854e60d104f098b444a2b`。derived-from: 该固定取证截图；uses: 本轮少文字候选。底图所含Demoncards资源沿AS-G002-025/027原本机制作与审阅边界，公开再分发条件Unknown；本条不新增图像公开分发授权。

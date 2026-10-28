@@ -1,84 +1,37 @@
 {
   "id": "DM-G002-017",
-  "version": "VISUAL-BASELINE-01",
-  "date": "2026-10-26",
+  "version": "VISUAL-CONTRACT-02",
+  "date": "2026-10-28",
   "project": "game-002",
-  "status": "Original 2026-10-26 preview: ReadyForScope / PresentLocal for its recorded scope; CORE-067 interaction not implemented",
-  "entry": "index.html",
-  "maintenance": "README.md",
-  "source_commit": "56a0ef07f13a647a4383a751977f2dce871bd731",
-  "source_version": "COUNTER-LAYOUT-02",
-  "source_path": "yanzhou/visual/round-table-2026-10-24",
-  "style_contract": "No mandatory palette, material, ornament, typeface or concrete art design. Loaded reference skin is an art attachment only.",
+  "lifecycle": "Archived (historical demo); current text contract retained",
+  "current_visual_entry": "../README.md",
+  "scope": "Current layout/component/interaction text only. No active HTML, skin or art attachments. No new runtime validation.",
   "files": [
     {
       "path": "README.md",
-      "bytes": 6975,
-      "sha256": "b770bd7aa94dce7b5cf81aaaa201cec892c6b6ca71c53188491435dc5daca44f"
-    },
-    {
-      "path": "index.html",
-      "bytes": 5516,
-      "sha256": "90b9871be055c5271a1749fb826e180aa7db000384c8aef9ab4292b74f3af7b1"
-    },
-    {
-      "path": "fixtures.js",
-      "bytes": 20968,
-      "sha256": "e0d6012919dbbf2a9d9d9aabd3dc430a4d4fcc76cd4d4abb47a5fc1eb1c92dbb"
-    },
-    {
-      "path": "interactions.js",
-      "bytes": 6539,
-      "sha256": "31fd04315c225a6ddf4dc6f6fbace2820264ee623891d92fce7a5d6a3c29d5cc"
-    },
-    {
-      "path": "preview.jpg",
-      "bytes": 114252,
-      "sha256": "569611c9eb0d917a6ff0dd4d56c0c27a0a6fdce8f27c54a86a14f0cc678e2e85"
-    },
-    {
-      "path": "art/manifest.json",
-      "bytes": 18051,
-      "sha256": "127e58a658d88d725d365af38a6c6e5ff5a1b9d5954a6f39072cc3f3f307457b"
+      "role": "Current text contract; not a runnable demo",
+      "sha256": "cc2979ec4cce5a98159b1c6a046edbc560e7ebc4ca9050d40ab1cbd7b15a85aa"
     }
   ],
-  "verification": {
-    "date": "2026-10-26",
-    "browser": "Codex IAB",
-    "viewport": [
-      1280,
-      720
-    ],
-    "preview_dimensions": [
-      1280,
-      720
-    ],
-    "passed": [
-      "50 retained images byte-preserved",
-      "all non-Markdown archived originals byte-preserved",
-      "fixture logic unchanged except extracted art helpers",
-      "interaction adapter byte-identical",
-      "JS syntax and unique static IDs",
-      "HTML/CSS dependencies exist",
-      "three resource piles and one hand pile",
-      "hand expansion and card detail",
-      "click-based exchange costs one point",
-      "artifact detail and Escape focus restoration",
-      "reset restores collapsed hand and two arrangement points",
-      "no captured browser errors or warnings"
-    ],
+  "historical_demo": {
+    "version": "VISUAL-BASELINE-01",
+    "commit": "ddf6ebfe7b3121cbb71d1257c229206a86321a1e",
+    "path": "yanzhou/visual/baseline-2026-10-26/manifest.json",
+    "validation": "Original 2026-10-26 checks remain limited to that fixed historical HTML; not rerun or inherited by the current visual selection"
+  },
+  "selection": {
+    "date": "2026-10-28",
+    "tabletop": "AS-G002-032@HERBAL-ENGRAVING-05 / scene-v03.png",
+    "card_reference": "AS-G002-033@CARD-SYMBOLS-V05-01"
+  },
+  "validation": {
+    "date": "2026-10-28",
+    "scope": "Document links, file identities and cleanup only",
     "not_run": [
-      "gameplay experiment",
-      "full battle regression",
-      "mobile",
-      "external engine",
+      "browser/HTML",
+      "engine",
+      "gameplay",
       "human experience"
     ]
-  },
-  "retirement": "Old versions, retired art and reports remain recoverable at source_commit with original paths; no other projects or external source files were removed.",
-  "documentation_revision": {
-    "date": "2026-10-27",
-    "decision": "G002-CORE-067",
-    "scope": "README and metadata only. Two held-card views, manual free play and inter-column windows supersede the old hand/resource pile and arrangement-point contract. Original HTML, scripts, images and 2026-10-26 verification remain unchanged; no runtime or gameplay validation performed."
   }
 }

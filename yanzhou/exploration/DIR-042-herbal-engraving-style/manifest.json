@@ -1,59 +1,24 @@
 {
   "id": "AS-G002-032",
-  "version": "HERBAL-ENGRAVING-04",
+  "version": "HERBAL-ENGRAVING-05",
   "date": "2026-10-28",
   "project": "game-002-optimization",
   "direction": "DIR-042",
-  "design_status": "Raw Idea / Unqualified",
-  "primary_image": "scene-v05.png",
-  "input_commit": "f8849ed93c159ecee6baceddb5cfa52cde4084cf",
-  "input_image": null,
+  "selection_status": "User-selected provisional tabletop battle visual baseline; card-symbol sheet is a separate priority reference",
+  "design_status": "Visual selection only; no gameplay adoption or new interaction acceptance",
+  "primary_image": "scene-v03.png",
+  "input_commit": "13b9b3a0510e875bc4986ce52d9ded27e9fe9044",
+  "input_image": "E:/Project/yanzhou-art-archive/2026-10-28-v03-selection/scene-v02.png",
+  "current_interaction_contract": "../../visual/baseline-2026-10-26/README.md",
   "tool": "built-in image_gen",
   "images_uploaded_to_git": false,
-  "scope": "Static art-direction review only. No HTML or gameplay validation.",
+  "scope": "Static tabletop art and composition reference. Legacy resource stacks, hand stack/capacity and arrangement points in v03 do not restore old rules.",
   "files": [
     {
-      "path": "scene-v01.png",
-      "role": "Historical candidate: Initial candidate; surface noise retained as comparison",
-      "prompt": "scene-v01-prompt.txt",
-      "format": "PNG",
-      "width": 1672,
-      "height": 941,
-      "color": "RGB",
-      "alpha": false,
-      "bytes": 3513514,
-      "sha256": "9b0c858920fd3def12abe9874066e1b9ac283c20c65e9696bcb78c7413326f5c",
-      "generator_original": "C:/Users/Administrator/.codex/generated_images/01a17b22-9079-77b0-bf67-62a1b7cc877e/exec-f7186ca2-15d0-4151-ac53-ce1329e2c065.png",
-      "design_input_commit": "13b9b3a0510e875bc4986ce52d9ded27e9fe9044",
-      "generation_mode": "image-edit",
-      "reference_images": [
-        "yanzhou/visual/baseline-2026-10-26/preview.jpg"
-      ]
-    },
-    {
-      "path": "scene-v02.png",
-      "role": "Historical candidate: Previous primary candidate; visual noise reduced",
-      "prompt": "scene-v02-prompt.txt",
-      "derived_from": "scene-v01.png",
-      "format": "PNG",
-      "width": 1672,
-      "height": 941,
-      "color": "RGB",
-      "alpha": false,
-      "bytes": 2723129,
-      "sha256": "480a5d1ed3f1cd55101722e7dac4fff31550f6ec51d4232d202addb2853c6540",
-      "generator_original": "C:/Users/Administrator/.codex/generated_images/01a17b22-9079-77b0-bf67-62a1b7cc877e/exec-52eba85c-e687-4638-be09-fe5913140d59.png",
-      "design_input_commit": "13b9b3a0510e875bc4986ce52d9ded27e9fe9044",
-      "generation_mode": "image-edit",
-      "reference_images": [
-        "scene-v01.png"
-      ]
-    },
-    {
       "path": "scene-v03.png",
-      "role": "Historical candidate: Primary candidate; botanical ornament replaced by spell sigils, grimoire and small alchemical props",
+      "role": "User-selected provisional tabletop battle visual baseline; legacy rule elements are excluded by the current text contract",
       "prompt": "scene-v03-prompt.txt",
-      "derived_from": "scene-v02.png",
+      "derived_from": "AS-G002-032 historical scene-v02.png",
       "format": "PNG",
       "width": 1672,
       "height": 941,
@@ -65,93 +30,48 @@
       "design_input_commit": "13b9b3a0510e875bc4986ce52d9ded27e9fe9044",
       "generation_mode": "image-edit",
       "reference_images": [
-        "scene-v02.png"
-      ]
-    },
-    {
-      "path": "scene-v04.png",
-      "role": "Historical: text-only manuscript/inscription workshop and CORE-067 held-card layout",
-      "prompt": "scene-v04-prompt.txt",
-      "format": "PNG",
-      "width": 1672,
-      "height": 941,
-      "color": "RGB",
-      "alpha": false,
-      "bytes": 3460667,
-      "sha256": "81395e98b2fa090bcf06801e240f961999bc92e12b1ea070bf98a60f227f6a21",
-      "generation_mode": "text-to-image",
-      "reference_images": [],
-      "generator_original": "C:/Users/Administrator/.codex/generated_images/01a17b22-9079-77b0-bf67-62a1b7cc877e/exec-855ae420-1308-4c5a-8182-a848c6e84798.png"
-    },
-    {
-      "path": "scene-v05.png",
-      "role": "Primary: illustrated instruments, bold flat emblems and explicit state-label roles based on supplied dossier",
-      "prompt": "scene-v05-prompt.txt",
-      "format": "PNG",
-      "width": 1672,
-      "height": 941,
-      "color": "RGB",
-      "alpha": false,
-      "bytes": 2764301,
-      "sha256": "c694c5ec2144b3f726df020ddd43a51c2d81d1fc15d7e7044ccb42c7a2a6ffa3",
-      "generation_mode": "text-to-image",
-      "reference_images": [],
-      "generator_original": "C:/Users/Administrator/.codex/generated_images/01a17b22-9079-77b0-bf67-62a1b7cc877e/exec-72cec4ee-7da3-4bb1-b648-dfdef974a98f.png"
+        "E:/Project/yanzhou-art-archive/2026-10-28-v03-selection/scene-v02.png"
+      ],
+      "reference_at_generation": "scene-v02.png (historical workspace path)"
     }
   ],
   "text_files": [
     "README.md",
-    "scene-v01-prompt.txt",
-    "scene-v02-prompt.txt",
-    "scene-v03-prompt.txt",
-    "scene-v04-prompt.txt",
     "manifest.json",
-    "scene-v05-prompt.txt",
-    "art-style-extract-2026-10-28.md"
+    "scene-v03-prompt.txt",
+    "book-of-hours-analysis-checklist-2026-10-28.md"
   ],
-  "generation_mode": "text-to-image",
-  "reference_images": [],
-  "uses_previous_image": false,
-  "design_sources": [
-    "yanzhou/design/GDD.md",
-    "yanzhou/CONTEXT.md",
-    "yanzhou/design/baseline.md",
-    "yanzhou/design/examples/round-first-battle.md",
-    "yanzhou/visual/baseline-2026-10-26/README.md"
-  ],
+  "generation_mode": "image-edit (historical v03; no generation in this selection round)",
   "previous_package_record": {
-    "version": "HERBAL-ENGRAVING-03",
-    "commit": "23f909921c1fa8ea45fc8ae26d21168f94eedb47",
+    "version": "HERBAL-ENGRAVING-04",
+    "commit": "ddf6ebfe7b3121cbb71d1257c229206a86321a1e",
     "path": "yanzhou/exploration/DIR-042-herbal-engraving-style/manifest.json"
   },
-  "analysis_source": {
-    "path": "media-analysis-lab/runs/2026-10-28-book-of-hours-rea/drafts/2026-10-28-book-of-hours-rea-dossier.md",
-    "commit": "cb69dae337c7fef33b2dd068811068d911109a21",
-    "version": "BOH-REA-2026-10-28-v02",
-    "used_scope": "Scope and evidence limits; visual content of modules 2, 4, 7; V1 V2 V3 and R23 viewed locally",
-    "instructions_followed_from_document": false
+  "retired_local_images": {
+    "directory": "E:/Project/yanzhou-art-archive/2026-10-28-v03-selection",
+    "files": [
+      "scene-v01.png",
+      "scene-v02.png",
+      "scene-v04.png",
+      "scene-v05.png"
+    ],
+    "original_manifest": "source-manifest.json",
+    "preservation": "Byte-identical copies checked against the original manifest SHA-256 before workspace removal; not uploaded"
   },
-  "analysis_reference_files": [
-    {
-      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/visual/symbols-contact.png",
-      "sha256": "352282ab00a1636aba82956ac9b5ce06c0771c4b3362f72ced410b69bd8ce715",
-      "role": "V1: viewed symbol family, not passed to image generation"
-    },
-    {
-      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/visual/objects-contact.png",
-      "sha256": "f5e50077d32541a51d3a92a4354d5a8c11ff73f4ed743dfcf5b8ce9ab2d51aaf",
-      "role": "V2: viewed object samples, not passed to image generation"
-    },
-    {
-      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/visual/symbols-scale-gray.png",
-      "sha256": "67abd2fea54502437f10d140d7dd58e76d0d57b192fcc1e377b113790682d896",
-      "role": "V3: viewed controlled scale comparison, not a gameplay visibility test"
-    },
-    {
-      "path": "E:/Game/BOOK OF HOURS-analysis/2026-10-28/runtime-r02/R23-storm-preview.png",
-      "sha256": "091444e9b71a314f1a3996a36c3048efb4e5901f5f633d3a32429c9288890f96",
-      "role": "R23: viewed supplied runtime image for information layering only"
-    }
-  ],
-  "source_visuals_copied_into_package": false
+  "card_reference": {
+    "asset": "AS-G002-033",
+    "version": "CARD-SYMBOLS-V05-01",
+    "entry": "card-symbols-2026-10-28/README.md",
+    "role": "Priority reference for card-symbol design; derived from historical v05, not v03"
+  },
+  "validation": {
+    "date": "2026-10-28",
+    "scope": "v03 visual inspection, selected/retired image SHA-256, document links and asset registration only",
+    "not_run": [
+      "HTML/browser interaction",
+      "gameplay",
+      "runtime slicing",
+      "small-size readability"
+    ]
+  }
 }
