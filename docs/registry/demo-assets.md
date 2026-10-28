@@ -25,10 +25,10 @@
 
 ## <a id="as-g002-032"></a>AS-G002-032 纸本秘术工坊场景候选包
 
-- game-002-optimization / DIR-042；[主稿、风格说明与完整登记](../../yanzhou/exploration/DIR-042-herbal-engraving-style/README.md#as-g002-032-纸本秘术工坊场景候选包)。用户要求接近《Potion Craft》的手稿／药典美术语言；设计Raw / Unqualified，未覆盖唯一基准。
-- `HERBAL-ENGRAVING-02`；三版PNG与准确提示词，[manifest](../../yanzhou/exploration/DIR-042-herbal-engraving-style/manifest.json)固定文件范围及SHA-256。主稿v03，1672×941 RGB无透明；2026-10-27按用户要求将草木装饰换为法阵／符文、法术书与小型炼金器具。原01版沿 `6cf0e2589ba93a950b41e80a16d244e2bd4ad245` 的同路径记录取证；图片本机保存，不随本轮文档提交上传。
-- ReadyForScope / PresentLocal（2026-10-27，仅静态审美审阅及规格／哈希核对）。内置image_gen生成；derived-from: DM-G002-017@VISUAL-BASELINE-01的 `preview.jpg`，固定输入提交 `13b9b3a0510e875bc4986ce52d9ded27e9fe9044`；v03直接编辑本包v02，原图哈希沿manifest。官方商店文字仅作风格参照，没有导入Potion Craft原图。
-- 仅本项目内部概念参考，公开分发及正式采用条件待核；v01表面噪声与后续仍缺的生产刻度／未来用途、手部及法器接近牌位的遮挡风险见方向页。未装入或运行HTML，未验证交互、玩法或真人体验；使用者仅DIR-042主稿。
+- game-002-optimization / DIR-042；[主稿、风格说明与完整登记](../../yanzhou/exploration/DIR-042-herbal-engraving-style/README.md#as-g002-032-纸本秘术工坊场景候选包)。纸本秘术与言咒实体铭文／咒文机具；设计Raw / Unqualified，未覆盖当前视觉基准。
+- `HERBAL-ENGRAVING-03`；四版PNG与准确提示词，[manifest](../../yanzhou/exploration/DIR-042-herbal-engraving-style/manifest.json)固定文件范围及SHA-256。主稿v04，1672×941 RGB无透明；2026-10-27按用户要求重写提示词纯文字生成，并按CORE-067改为两组持牌／手动布牌。原02版沿 `b4f716544fcf71c6a33ddc2b30dfc843babe1914` 的同路径记录取证；图片本机保存，不随本轮文档提交上传。
+- ReadyForScope / PresentLocal（2026-10-27，仅静态审阅、规格／哈希核对）。内置image_gen；v04没有参考图或编辑底图，当前设计输入固定于 `f8849ed93c159ecee6baceddb5cfa52cde4084cf` 的方向页清单。v01—v03仍沿原 `13b9b3a0510e875bc4986ce52d9ded27e9fe9044` 的视觉输入与图像编辑关系，不作为新规则证据。官方商店文字仅作美术参照。
+- 仅内部概念参考，公开分发与正式采用条件待核；新图未清楚表现对手手部、铭文字形有生成变形，持牌具体排布仍待审阅。未装入或运行HTML，未验证交互、玩法或真人体验；使用者仅DIR-042主稿。
 
 ## Demo
 
@@ -49,7 +49,7 @@
 - game-002 / main；[唯一基准与操作范围](../../yanzhou/visual/baseline-2026-10-26/README.md)、[HTML](../../yanzhou/visual/baseline-2026-10-26/index.html)。用户2026-10-26确认COUNTER-LAYOUT-02的位置、组件形态和交互，归并为VISUAL-BASELINE-01；[文件范围](../../yanzhou/visual/baseline-2026-10-26/manifest.json)。
 - ReadyForScope / PresentLocal仅指2026-10-26原版布局及示意交互；原HTML从附件加载参考皮肤，基准不规定美术风格。2026-10-27仅同步[CORE-067](../../yanzhou/sources/draft-changes/D-2026-10-27-unified-card-model.md)文字与manifest：两组持牌、手动免费上行和列间窗口替换旧手牌／资源堆及整理点合同；旧HTML、脚本与图片未修改或重验，不能充当新交互实现。筹码详情／历史等展示缺口保留，玩法、引擎与真人体验证据未升级。
 - derived-from：同DM的COUNTER-LAYOUT-02，共同清理前提交固定；uses：AS-G002-031的保留原图，仅用于参考皮肤。相关旧AS仍各自保持来源和许可，不引入新的公开分发授权。
-- 风格派生使用者：[DIR-042 / AS-G002-032](../../yanzhou/exploration/DIR-042-herbal-engraving-style/README.md)，以VISUAL-BASELINE-01的预览图作为构图输入；独立保存候选，没有覆盖本基准。
+- 风格使用者：[DIR-042 / AS-G002-032](../../yanzhou/exploration/DIR-042-herbal-engraving-style/README.md)。v01—v03沿原预览图派生；v04只参考CORE-067修订后的文字合同，纯文字生成并更新持牌布局，没有覆盖本基准。
 
 | ID / 名称 / 标签 | 归属 / 权威说明 | 固定版本与入口 | 状态 / 可复用范围 |
 | --- | --- | --- | --- |

@@ -10,7 +10,7 @@ Project ID：game-002-optimization。2026-10-23。当前活动方向见下表。
 
 | 方向 | 目标与状态 | 阅读范围 |
 | --- | --- | --- |
-| [DIR-042 纸本秘术工坊](DIR-042-herbal-engraving-style/README.md) | 沿已确认视觉基准制作接近Potion Craft的手稿版画风格；场景主稿v03改用法阵、书籍与炼金器具，Raw / Unqualified，待审阅 | CUSTOM；仅视觉基准及交接指定入口，固定版本见方向页 |
+| [DIR-042 纸本秘术工坊](DIR-042-herbal-engraving-style/README.md) | 主稿v04由纯文字重新生成：纸本秘术、实体铭文与咒文机具；按CORE-067改为两组持牌／手动布牌，Raw / Unqualified，待审阅 | CUSTOM增补；当前核心、术语、基准、EX-004及视觉文字，固定版本见方向页 |
 | [DIR-041 法器系统成型玩法深化和游戏后期体验定义](DIR-041-artifact-endgame/README.md) | 自养丹炉、咒轮合奏与行进洞府三版机制候选；Raw / Unqualified，Hypothesis / NotRun，先审阅再定实现 | GDD完整56份＋明确增补7份；固定版本与逐文件覆盖见方向页；另有5款公开参考研究 |
 | [DIR-039 二维表现与首场战斗交互](DIR-039-2d-first-battle/README.md) | 具体战斗情景、三种二维结构与最小探索循环；Raw / Unqualified，玩法Hypothesis / NotRun，未启动实现 | GDD完整56份＋7份明确增补＋用户参考图；固定启动版本与分批覆盖见方向阅读日志 |
 | [DIR-037 效果机制设计](DIR-037-effect-framework/README.md) | 法器与行动卡的效果框架、词条候选和分层描述；已交付[DM-G002-009展示册](DIR-037-effect-framework/README.md#dm-g002-009-藏器与咒式)。设计Raw / Unqualified，玩法Hypothesis / NotRun | CUSTOM；固定4138735提交的17份现行设计文档，具体清单见方向页 |

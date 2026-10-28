@@ -1,25 +1,20 @@
 {
   "id": "AS-G002-032",
-  "version": "HERBAL-ENGRAVING-02",
+  "version": "HERBAL-ENGRAVING-03",
   "date": "2026-10-27",
   "project": "game-002-optimization",
   "direction": "DIR-042",
   "design_status": "Raw Idea / Unqualified",
-  "primary_image": "scene-v03.png",
-  "input_commit": "13b9b3a0510e875bc4986ce52d9ded27e9fe9044",
-  "input_image": "yanzhou/visual/baseline-2026-10-26/preview.jpg",
-  "revision_input": {
-    "asset_version": "HERBAL-ENGRAVING-01",
-    "image": "scene-v02.png",
-    "sha256": "480a5d1ed3f1cd55101722e7dac4fff31550f6ec51d4232d202addb2853c6540"
-  },
+  "primary_image": "scene-v04.png",
+  "input_commit": "f8849ed93c159ecee6baceddb5cfa52cde4084cf",
+  "input_image": null,
   "tool": "built-in image_gen",
   "images_uploaded_to_git": false,
   "scope": "Static art-direction review only. No HTML or gameplay validation.",
   "files": [
     {
       "path": "scene-v01.png",
-      "role": "Initial candidate; surface noise retained as comparison",
+      "role": "Historical candidate: Initial candidate; surface noise retained as comparison",
       "prompt": "scene-v01-prompt.txt",
       "format": "PNG",
       "width": 1672,
@@ -28,11 +23,16 @@
       "alpha": false,
       "bytes": 3513514,
       "sha256": "9b0c858920fd3def12abe9874066e1b9ac283c20c65e9696bcb78c7413326f5c",
-      "generator_original": "C:/Users/Administrator/.codex/generated_images/01a17b22-9079-77b0-bf67-62a1b7cc877e/exec-f7186ca2-15d0-4151-ac53-ce1329e2c065.png"
+      "generator_original": "C:/Users/Administrator/.codex/generated_images/01a17b22-9079-77b0-bf67-62a1b7cc877e/exec-f7186ca2-15d0-4151-ac53-ce1329e2c065.png",
+      "design_input_commit": "13b9b3a0510e875bc4986ce52d9ded27e9fe9044",
+      "generation_mode": "image-edit",
+      "reference_images": [
+        "yanzhou/visual/baseline-2026-10-26/preview.jpg"
+      ]
     },
     {
       "path": "scene-v02.png",
-      "role": "Previous primary candidate; visual noise reduced",
+      "role": "Historical candidate: Previous primary candidate; visual noise reduced",
       "prompt": "scene-v02-prompt.txt",
       "derived_from": "scene-v01.png",
       "format": "PNG",
@@ -42,11 +42,16 @@
       "alpha": false,
       "bytes": 2723129,
       "sha256": "480a5d1ed3f1cd55101722e7dac4fff31550f6ec51d4232d202addb2853c6540",
-      "generator_original": "C:/Users/Administrator/.codex/generated_images/01a17b22-9079-77b0-bf67-62a1b7cc877e/exec-52eba85c-e687-4638-be09-fe5913140d59.png"
+      "generator_original": "C:/Users/Administrator/.codex/generated_images/01a17b22-9079-77b0-bf67-62a1b7cc877e/exec-52eba85c-e687-4638-be09-fe5913140d59.png",
+      "design_input_commit": "13b9b3a0510e875bc4986ce52d9ded27e9fe9044",
+      "generation_mode": "image-edit",
+      "reference_images": [
+        "scene-v01.png"
+      ]
     },
     {
       "path": "scene-v03.png",
-      "role": "Primary candidate; botanical ornament replaced by spell sigils, grimoire and small alchemical props",
+      "role": "Historical candidate: Primary candidate; botanical ornament replaced by spell sigils, grimoire and small alchemical props",
       "prompt": "scene-v03-prompt.txt",
       "derived_from": "scene-v02.png",
       "format": "PNG",
@@ -56,8 +61,50 @@
       "alpha": false,
       "bytes": 2519405,
       "sha256": "209c5e7db2fb4305d9cd6b809a8bb9b940ca9cd7b60dd96a8f40187f803ec5eb",
-      "generator_original": "C:/Users/Administrator/.codex/generated_images/01a17b22-9079-77b0-bf67-62a1b7cc877e/exec-e1f6b382-e78a-4615-b72d-4e4cbc505b09.png"
+      "generator_original": "C:/Users/Administrator/.codex/generated_images/01a17b22-9079-77b0-bf67-62a1b7cc877e/exec-e1f6b382-e78a-4615-b72d-4e4cbc505b09.png",
+      "design_input_commit": "13b9b3a0510e875bc4986ce52d9ded27e9fe9044",
+      "generation_mode": "image-edit",
+      "reference_images": [
+        "scene-v02.png"
+      ]
+    },
+    {
+      "path": "scene-v04.png",
+      "role": "Primary: new text-only manuscript/inscription workshop and CORE-067 held-card layout",
+      "prompt": "scene-v04-prompt.txt",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "color": "RGB",
+      "alpha": false,
+      "bytes": 3460667,
+      "sha256": "81395e98b2fa090bcf06801e240f961999bc92e12b1ea070bf98a60f227f6a21",
+      "generation_mode": "text-to-image",
+      "reference_images": [],
+      "generator_original": "C:/Users/Administrator/.codex/generated_images/01a17b22-9079-77b0-bf67-62a1b7cc877e/exec-855ae420-1308-4c5a-8182-a848c6e84798.png"
     }
   ],
-  "text_files": ["README.md", "scene-v01-prompt.txt", "scene-v02-prompt.txt", "scene-v03-prompt.txt", "manifest.json"]
+  "text_files": [
+    "README.md",
+    "scene-v01-prompt.txt",
+    "scene-v02-prompt.txt",
+    "scene-v03-prompt.txt",
+    "scene-v04-prompt.txt",
+    "manifest.json"
+  ],
+  "generation_mode": "text-to-image",
+  "reference_images": [],
+  "uses_previous_image": false,
+  "design_sources": [
+    "yanzhou/design/GDD.md",
+    "yanzhou/CONTEXT.md",
+    "yanzhou/design/baseline.md",
+    "yanzhou/design/examples/round-first-battle.md",
+    "yanzhou/visual/baseline-2026-10-26/README.md"
+  ],
+  "previous_package_record": {
+    "version": "HERBAL-ENGRAVING-02",
+    "commit": "b4f716544fcf71c6a33ddc2b30dfc843babe1914",
+    "path": "yanzhou/exploration/DIR-042-herbal-engraving-style/manifest.json"
+  }
 }
