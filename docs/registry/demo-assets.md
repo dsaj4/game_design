@@ -26,9 +26,9 @@
 ## <a id="as-g002-032"></a>AS-G002-032 纸本秘术工坊场景候选包
 
 - game-002-optimization / DIR-042；[主稿、风格说明与完整登记](../../yanzhou/exploration/DIR-042-herbal-engraving-style/README.md#as-g002-032-纸本秘术工坊场景候选包)。纸本秘术与言咒实体铭文／咒文机具；设计Raw / Unqualified，未覆盖当前视觉基准。
-- `HERBAL-ENGRAVING-03`；四版PNG与准确提示词，[manifest](../../yanzhou/exploration/DIR-042-herbal-engraving-style/manifest.json)固定文件范围及SHA-256。主稿v04，1672×941 RGB无透明；2026-10-27按用户要求重写提示词纯文字生成，并按CORE-067改为两组持牌／手动布牌。原02版沿 `b4f716544fcf71c6a33ddc2b30dfc843babe1914` 的同路径记录取证；图片本机保存，不随本轮文档提交上传。
-- ReadyForScope / PresentLocal（2026-10-27，仅静态审阅、规格／哈希核对）。内置image_gen；v04没有参考图或编辑底图，当前设计输入固定于 `f8849ed93c159ecee6baceddb5cfa52cde4084cf` 的方向页清单。v01—v03仍沿原 `13b9b3a0510e875bc4986ce52d9ded27e9fe9044` 的视觉输入与图像编辑关系，不作为新规则证据。官方商店文字仅作美术参照。
-- 仅内部概念参考，公开分发与正式采用条件待核；新图未清楚表现对手手部、铭文字形有生成变形，持牌具体排布仍待审阅。未装入或运行HTML，未验证交互、玩法或真人体验；使用者仅DIR-042主稿。
+- `HERBAL-ENGRAVING-04`；五版PNG与准确提示词，[manifest](../../yanzhou/exploration/DIR-042-herbal-engraving-style/manifest.json)固定文件范围及SHA-256。主稿v05，1672×941 RGB无透明；2026-10-28据指定Book of Hours分析提取器物插画／实色符号／角色分层后纯文字生成。原03版沿 `23f909921c1fa8ea45fc8ae26d21168f94eedb47` 的同路径记录取证；图片本机保存，不随本轮文档提交上传。
+- ReadyForScope / PresentLocal（2026-10-28，仅静态审阅、规格／哈希核对）。内置image_gen；v05没有参考图或编辑底图，言咒输入沿 `f8849ed93c159ecee6baceddb5cfa52cde4084cf` 的五文件；新增分析输入为 `cb69dae337c7fef33b2dd068811068d911109a21` 的BOH-REA-v02报告及已目视图示，范围见[提取说明](../../yanzhou/exploration/DIR-042-herbal-engraving-style/art-style-extract-2026-10-28.md)。外部原图未导入／上传，历史图仍沿原版本和图像关系。
+- 仅内部概念参考，公开分发与正式采用条件待核；v05生命圆片误呈横排／空格、铭文字形有生成变形，持牌具体排布仍待审阅。未装入或运行HTML，未验证交互、玩法或真人体验；使用者仅DIR-042主稿。
 
 ## Demo
 
