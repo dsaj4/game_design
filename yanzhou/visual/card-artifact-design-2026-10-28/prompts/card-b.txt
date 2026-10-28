@@ -1,0 +1,11 @@
+Use case: ui-mockup / style-transfer. Asset type: Chinese occult tabletop card game 言咒, design review board variant B 'B  炼金图谱'.
+Input image 1 is the symbol reference ONLY: shield with central strokes, hollow diagonal sword, jagged impact stroke, sealed rune. Input image 2 is warm paper, sepia ink and handcrafted palette reference ONLY. Create a NEW card design board, never a whole game scene.
+This is a DIFFERENT layout from a rectangular color panel card. The design should feel like a working page from an alchemical manuscript: large CIRCULAR colored diagram field in each upper-middle, symbols flat black and bold within that circle, thin concentric compass arcs and a few deliberate construction lines outside it, extremely restrained hand ink hatching at the perimeter. Title in a small quiet rectangular heading at the top, tiny functional class marker beside the title. Lower third is an orderly ruled annotation box for rules. Clean pale ivory paper, sepia printing, muted teal for defense circle, vermilion red for attack circles, muted plum for hidden rune. No plants, no clutter, no invented alchemy functions. Make symbols big, simple and consistent with reference; round diagram evokes scholarship, never a clock/progress gauge.
+Landscape 1536x1024 review board: discreet title top left. Main row of THREE equal face-on portrait player cards and ONE equal hidden enemy card, all full uncropped and straight, generous gaps; width:height approximately 2:3. Main row about 600px tall. Very clean balanced publication-grade card UI art, limited hand lettering. Small repeated thumbnails below for distant recognition.
+Verbatim text:
+Card 1 title '护盾', class '■ 防御', rules '护甲 +4', '成功后施法 +1', footer '用后移除'.
+Card 2 title '普攻', class '▲ 攻击', rules '伤害 6', '成功后施法 +1', footer '用后移除'.
+Card 3 title '强化', class '▲ 攻击', rules '消耗5施法 → 18伤害', '不足则6伤害', '成功后施法 +1', footer '用后移除'. Both branches must be readable, no guaranteed 18 damage.
+Card 4 hidden enemy: geometric pale sealed rune within muted plum round field. No name, number or effect leaked. Only '▲ 攻击 · 即时' and '未揭示' in bottom ruled area.
+At bottom right show one small alternate concealed card time strip '▲ 攻击 · 延时'.
+No mana/energy gems, ranks, rarity, decorative numbers, damage on hidden card, 3D perspective, contemporary interface panels, inventory, extra cards or essay. Static mockup only.

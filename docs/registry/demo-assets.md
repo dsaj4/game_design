@@ -45,6 +45,13 @@
 - ReadyForScope / PresentLocal（2026-10-28，源件限定来源／原PNG／透明／底色检查）。用户接受PendingReview；后续使用者DM-G002-021已将10件独立导入新2D静态Godot场景并完成本机显示／包／恢复检查，具体版本沿目标记录，不覆盖冻结源件。触区／玩法与压缩预算未验；法器、铭文词片、卡牌及额外陈设继续后置，v06与DM-G002-020不改。
 - 图片、ZIP和制作工具保本机，文档／manifest／提示词入Git。v02的逐件原件对应表及工具在 `E:/Project/yanzhou-art-assets/tabletop-components-2026-10-28/imagegen-v02/`；当前导出只取新维护页exports/的10张原图。仅本项目内部使用／审阅，公开分发条件未另定。
 
+## <a id="as-g002-035"></a>AS-G002-035 卡面与法器首轮设计审阅包
+
+- game-002 / main；[四版卡面、双法器与比例修订](../../yanzhou/visual/card-artifact-design-2026-10-28/README.md)。2026-10-28按用户要求继续视觉设计；卡面保留相同EX-004内容比较四种版式，双法器以Potion Craft手稿／器具表现为风格参考，规则不变。
+- CARD-ARTIFACT-CONCEPTS-01；9张本机PNG、9份准确提示词及[逐文件manifest](../../yanzhou/visual/card-artifact-design-2026-10-28/manifest.json)，记录原生成路径、尺寸／通道及SHA-256。全部PNG与各自内置image_gen原件字节相同，未裁切／抠图／缩放；二进制本机保管，不随文档上传。
+- uses（视觉输入）：AS-G002-032@HERBAL-ENGRAVING-06的v03／v06、AS-G002-033@CARD-SYMBOLS-V05-01；比例图derived-from DM-G002-021固定截图。第三方官方背景仅本机风格参考，未作为运行素材或上传。AS-G002-034冻结包及现有HTML／Godot工程保持原状。
+- ReadyForScope / PresentLocal，仅概念、文件、原alpha抽样和木色底157／192px浏览器合成检查；用户选型PendingReview。比例初稿遮挡失败及修订保留，细字／空辅槽的生成偏差、正式组件、小尺寸排字、引擎与交互未验范围沿维护页。仅本项目内部审阅，非M资格或玩法采纳，不增加公开分发授权。
+
 ## Demo
 
 ### <a id="dm-g002-020"></a>DM-G002-020 首场手牌与逐列布牌HTML示意
