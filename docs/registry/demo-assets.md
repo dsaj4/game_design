@@ -40,6 +40,13 @@
 
 ## Demo
 
+### <a id="dm-g002-020"></a>DM-G002-020 首场手牌与逐列布牌HTML示意
+
+- game-002 / main；[文字结构、范围与检查](../../yanzhou/visual/first-battle-handflow-2026-10-28/README.md)。2026-10-28用户授权制作底部持牌→五列布牌→确认→列间再布牌的可操作本机HTML；沿CORE-067和EX-004首轮真实六张一次性牌，不新增回收／材料内容。
+- FIRST-BATTLE-HANDFLOW-01；主入口为本机单文件 `E:/Project/yanzhou-ui-prototypes/first-battle-handflow-2026-10-28/handflow.html`；分离源码、技术说明、6张真实浏览器截图及检查JSON就地保管。17文件manifest的SHA-256为`0883cac3d075d39691f2da78abb56ae33b941a8a728ef764af7396e3f213b694`，准确路径及设计输入沿维护页。
+- ReadyForScope / PresentLocal（2026-10-28，仅本机HTTP的首轮UI检查及单文件内联对应）；10项状态检查、实际点击／拖到空列／互换／撤回／键盘／列间操作、两条首轮结果及单文件HTTP冒烟已通过，捕获日志无警告／错误。用户接受PendingReview；file协议受工具限制未做浏览器验收，完整键盘遍历及触屏等未测范围见维护页。
+- uses（视觉参照）：AS-G002-032@HERBAL-ENGRAVING-06 / v06及AS-G002-033@CARD-SYMBOLS-V05-01；derived-from: None（独立编写HTML／CSS／SVG），无参考PNG像素、旧DM-G002-017代码或第三方游戏素材。仅项目内部审阅，代码与截图未公开上传；不是正式2D引擎、完整单战或玩法成立证据。
+
 ### <a id="dm-g002-019"></a>DM-G002-019 炼金体系HTML设计手册（2026-10-27新增）
 
 - 归属：game-002 / main；[版本、整理与检查](../../yanzhou/sources/inbox/2026-10-27-classic-worldviews-recipe-route-r01.md#3-html阅读稿与工作区整理)。[首批内容B01](../../yanzhou/sources/materials/M-2026-10-27-alchemy-batch-01.md)已由用户确认配方并完成Qualified；平衡与卡效仍待设计，NotRun。

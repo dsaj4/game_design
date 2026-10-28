@@ -2,6 +2,8 @@
 
 2026-10-28 · game-002。用户暂定桌面风格以 **v03** 为基准，卡牌设计重点参考独立符号板；已沿新设计制作 **v06底部扇形持牌示意**。后续视觉工作从本页进入。
 
+本轮已完成[首场手牌与逐列布牌HTML示意](first-battle-handflow-2026-10-28/README.md)：底部持牌→五列布牌→确认→列间再布牌可实际操作；提供独立单文件HTML、固定manifest与浏览器证据。限定EX-004首轮六张一次性牌的UI操作链，表现方案待审阅，完整首场与正式引擎仍待制作。
+
 | 用途 | 当前选定输入 | 适用范围 |
 | --- | --- | --- |
 | 桌面风格基准与本轮更新 | [v06示意与v03风格来源](../exploration/DIR-042-herbal-engraving-style/README.md)，AS-G002-032@HERBAL-ENGRAVING-06 | v03纸本秘术、暖木／米白／灰绿与双法器身份；v06沿现行规则将手牌放最下方，补铭刻／边注，具体造型与排布待审阅 |
@@ -23,4 +25,4 @@ v06显示EX-004第一轮生产结束、尚未布牌的静态状态：底部五�
 
 清理前固定提交为 `ddf6ebfe7b3121cbb71d1257c229206a86321a1e`。[旧视觉文件](https://github.com/dsaj4/game_design/tree/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26)及[旧方向记录／提示词](https://github.com/dsaj4/game_design/tree/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/exploration/DIR-042-herbal-engraving-style)按固定Git取证。四张未入Git的退出整场PNG已逐字节复制至 `E:/Project/yanzhou-art-archive/2026-10-28-v03-selection/`，与原manifest逐图核对SHA-256后才移出工作区；该处保留原manifest，不发布图像。当前选定PNG继续本机保管。
 
-前轮只确认视觉取向及整理文件；本轮新增v06静态示意并检查图像、哈希、规格、链接与登记。未修改GDD、外部实现或运行玩法测试；没有新HTML，切组、拖放、详情、列间窗口、正式切片及小尺寸辨识仍未验收，PRE2D-Q01保持Open。资源身份及历史使用关系沿[统一AS／DM目录](../../docs/registry/demo-assets.md)。
+前轮只确认视觉取向及整理文件，随后新增v06静态示意；本轮再完成DM-G002-020首轮HTML，实际检查其切组空态、拖到空列、详情、布牌、互换与列间停点。各自固定证据和未验项沿制作记录。未修改GDD、正式实现或运行玩法实验；完整持牌／列间合同、正式切片及小尺寸辨识仍未验收，PRE2D-Q01保持Open。资源身份及历史使用关系沿[统一AS／DM目录](../../docs/registry/demo-assets.md)。
