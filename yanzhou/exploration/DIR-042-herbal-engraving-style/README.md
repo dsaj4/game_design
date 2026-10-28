@@ -1,8 +1,10 @@
 # DIR-042 纸本秘术工坊
 
-2026-10-26建立，2026-10-27更新 · game-002-optimization。状态：Raw Idea / Unqualified；当前主稿v04，待用户审阅。
+2026-10-26建立，2026-10-28更新 · game-002-optimization。状态：Raw Idea / Unqualified；当前主稿v04，待用户审阅。
 
 **[查看主稿 v04：字印工坊](scene-v04.png)** · [本轮完整提示词](scene-v04-prompt.txt) · [文件与SHA-256](manifest.json)
+
+2026-10-28新增：[Book of Hours 深度分析清单](book-of-hours-analysis-checklist-2026-10-28.md)。按符号、实体／卡牌、信息分层、器物美术及生产／持牌操作确定取材重点；研究由用户后续执行，借鉴建议待取证与选择。
 
 ![言咒：纸本秘术与铭文工坊，纯文字生成v04](scene-v04.png)
 
