@@ -1,8 +1,10 @@
 # 言咒完整首场 · Godot 2D
 
+**当前版本已续为[卡牌交互动效v03](card-motion-2026-10-29.md)。** 下文保留v02当轮固定版本和检查，不覆盖旧包。
+
 2026-10-28 · game-002 / main · DM-G002-021 / GODOT-FIRST-BATTLE-02。按用户继续开发的要求，在既有二维工程完成EX-004已定义的完整独立单战；卡面与法术美术继续占位，法器沿前轮占位。未新增路线、商店、奖励、配装分支或未发行卡。
 
-**[启动本机Windows首场](<E:/Project/yanzhou-2d/build/first-battle-02/Start Scene.cmd>)** · [操作说明](E:/Project/yanzhou-2d/docs/PLAYING.md) · [工程与恢复](E:/Project/yanzhou-2d/README.md)
+**[启动本机Windows首场v02](<E:/Project/yanzhou-2d/build/first-battle-02/Start Scene.cmd>)** · [v02包内操作说明](E:/Project/yanzhou-2d/build/first-battle-02/PLAYING.md) · [工程与恢复](E:/Project/yanzhou-2d/README.md)
 
 ![完整首场实际Godot画面](E:/Project/yanzhou-2d/evidence/release-02/source-planning-1920.png)
 

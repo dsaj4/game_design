@@ -81,10 +81,10 @@
 
 ### <a id="dm-g002-021"></a>DM-G002-021 Godot二维完整首场
 
-- game-002 / main；[当前启动、操作与完整固定登记](../../yanzhou/development/first-battle-2026-10-28.md)。GODOT-FIRST-BATTLE-02，源工程`E:/Project/yanzhou-2d/`；延续同一2D实现，EX-004固定完整单战已可玩，卡面／法器／法术声画继续占位。
-- 实际构建／源码与工具完整提交、8文件150.97 MiB Windows包及[交付manifest](E:/Project/yanzhou-2d/evidence/first-battle-delivery.json)的SHA统一在上述登记；本机Git，无远端或二进制上传。原[静态v01](../../yanzhou/visual/engine-scene-2026-10-28/README.md)、原包与证据保持，不将旧ReadyForScope扩成新功能。
-- ReadyForScope / PresentLocal，2026-10-28，仅本机EX-004：7组规则／保存情境与555个事件恢复对照、30项控件／输入注入、指定Windows路径及1920／1366包和干净恢复通过；72项交付核对。完整9／14轮未用普通OS输入重走，真人理解／平衡、长时性能及其他机器未验，用户接受PendingReview。
-- uses：AS-G002-034@TABLETOP-COMPONENTS-02实际10原PNG、AS-G002-026@demoncards-fonts-v01实际两字体及原OFL；v06／DM-G002-020仅状态与布局参照，新增状态先做文字／HTML／效果并由连续设计代理复核。derived-from: None（同工程续版，不复制旧3D规则）。原源件、冻结包和旧HTML保留，内部使用及字体原许可不扩大。
+- game-002 / main；[当前启动、操作与固定登记](../../yanzhou/development/card-motion-2026-10-29.md)。GODOT-FIRST-BATTLE-03，源工程`E:/Project/yanzhou-2d/`；同一EX-004完整单战增加拿起、悬停、选用、入槽、生产入手和当前列使用动画，卡面／法器／法术声画继续占位。
+- 实际构建`b595436a2d8085621556891e98cb6a04d86251e0`及交付工具完整版本沿上述登记；新Windows包8文件150.99 MiB，[交付manifest](E:/Project/yanzhou-2d/evidence/card-motion-delivery.json) SHA-256 `8972f7e85614016057ccadb10959661f4e3569e8a984420a28c705a0a0f585ba`。本机Git，无远端或二进制上传。
+- ReadyForScope / PresentLocal，2026-10-29仅指定范围：16项HTML有限检查、32项新增动效与30项原界面检查、2079规则断言及555恢复对照、指定OS路径、独立复制包与干净恢复通过；56项交付核对。连续设计复核PassForScope；用户接受PendingReview，其他机器、长时性能、全部OS组合及真人体验未验。
+- uses：AS-G002-034@TABLETOP-COMPONENTS-02十图、AS-G002-026@demoncards-fonts-v01两字体及OFL；AS-G002-027和本地尖塔2恢复源码仅动作结构参考，没有第三方代码／图像／声音进入包。derived-from: None（同工程续版）。[完整首场v02](../../yanzhou/development/first-battle-2026-10-28.md)、[静态v01](../../yanzhou/visual/engine-scene-2026-10-28/README.md)、旧HTML、源件及原许可保持。
 
 ### <a id="dm-g002-019"></a>DM-G002-019 炼金体系HTML设计手册（2026-10-27新增）
 

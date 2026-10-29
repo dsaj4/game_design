@@ -8,7 +8,7 @@
 | --- | --- |
 | 现有可运行资源 | [B13接手摘要](E:/Project/yanzhou-godot/docs/development-handoff.md#先分清版本和证据)及[逐项使用结果](E:/Project/yanzhou-godot/docs/coordination/demoncards-candidates-integration-v01.json)；区分主桌已用与仅检视 |
 | 资产身份、来源与复用条件 | [统一AS／DM目录](../../docs/registry/demo-assets.md)，不在本页复制清单 |
-| 新2D首批基础美术源件 | [AS-G002-034 / v02](../visual/tabletop-components-2026-10-28/imagegen-v02/README.md)：10个完整组件均独立imagegen生成，原PNG未改；已由[DM-G002-021完整首场续版](first-battle-2026-10-28.md)实际导入并运行。两档独立包与干净恢复已核；卡面／法器／法术声画继续占位，未混入v01裁片或同期候选 |
+| 新2D首批基础美术源件 | [AS-G002-034 / v02](../visual/tabletop-components-2026-10-28/imagegen-v02/README.md)：10个完整组件均独立imagegen生成，原PNG未改；已由[DM-G002-021首场与卡牌动效续版03](card-motion-2026-10-29.md)实际导入并运行。新动作独立程序实现，无参考游戏代码／图像／声音进入包；卡面／法器／法术声画继续占位，未混入v01裁片或同期候选 |
 | 模型、纹理、声音和曲线候选 | [资源选择与恢复](E:/Project/yanzhou-godot/docs/development-handoff.md#资源选择与恢复)；盘点状态属于原日期，后来使用状态查B13 |
 | 最新设计候选 | [开发索引中的UI稿](README.md#当前事实)及所属visual／来源记录；示意、效果图和源资产分开 |
 | 原件与运行检查 | 对应manifest、所属实现报告、源目录；工作台Files按登记路径打开 |
