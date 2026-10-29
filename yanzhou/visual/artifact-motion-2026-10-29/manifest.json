@@ -1,0 +1,116 @@
+{
+  "schema": "artifact-motion-study.1",
+  "date": "2026-10-29",
+  "version": "ARTIFACT-MOTION-STUDY-01",
+  "assetId": "AS-G002-036",
+  "demoId": "DM-G002-022",
+  "project": "game-002",
+  "direction": "main",
+  "gameInputCommit": "e3cddfd80c08791544044be3d6d68c9a5d97c9c8",
+  "readingMode": "CUSTOM visual continuation; scope in README",
+  "acceptance": "PendingReview",
+  "lifecycle": "ReadyForScope",
+  "access": "PresentLocal",
+  "generation": {
+    "mode": "built-in image_gen",
+    "postprocess": "All PNG copies byte-identical to tool originals, no programmatic image editing, cropping, alpha clearing or rescaling. The prototype only normalizes runtime placement from alpha bounds."
+  },
+  "files": [
+    {
+      "file": "guardian-body-v01.png",
+      "width": 1312,
+      "height": 1199,
+      "bytes": 1343670,
+      "sha256": "9958d61b1e7c561515b0d9aedf36720e109be571e6dfd1cbc6852ab1395e43ab",
+      "alphaZero": 1010638,
+      "alphaSemi": 562181,
+      "bounds": {
+        "left": 271,
+        "top": 56,
+        "right": 1079,
+        "bottom": 1130,
+        "width": 809,
+        "height": 1075
+      },
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-e9ebe9a3-a987-4218-8525-cdc0653a4ef1.png",
+      "prompt": "prompts/guardian.txt"
+    },
+    {
+      "file": "caster-body-v01.png",
+      "width": 1312,
+      "height": 1199,
+      "bytes": 891533,
+      "sha256": "b4da02da69f65cf2c99a85152836c4bd19866e36488884be97d6148f4ffc0b38",
+      "alphaZero": 1210261,
+      "alphaSemi": 362681,
+      "bounds": {
+        "left": 427,
+        "top": 44,
+        "right": 921,
+        "bottom": 1110,
+        "width": 495,
+        "height": 1067
+      },
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-fdd5fce3-4e24-414c-910e-6b9b398cb92e.png",
+      "prompt": "prompts/caster.txt"
+    },
+    {
+      "file": "stand-fixed-v01.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1877038,
+      "sha256": "f32c1e55918d7f96bf52ee61eebf8de8a664d15101da4d9d66e6c384ea477785",
+      "alphaZero": 1026218,
+      "alphaSemi": 546646,
+      "bounds": {
+        "left": 218,
+        "top": 234,
+        "right": 1334,
+        "bottom": 869,
+        "width": 1117,
+        "height": 636
+      },
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-434d5089-d3d6-4713-9f04-4d8569c811f4.png",
+      "prompt": "prompts/stand.txt"
+    }
+  ],
+  "uses": "AS-G002-035@ARTIFACT-CASES-02 guardian/caster concept shapes",
+  "derivedFrom": "Reference-guided redraw and support reconstruction, not pixel-exact layer extraction; source v02 files and manifest unchanged.",
+  "localReference": {
+    "version": "Potion Craft v1.0.5 local analysis, 2026-10-25",
+    "originalArchiveSha256": "81e7cebc6e6c1841e90d8b8f8c4fae72ccdc71e624548ddb38df312d84671d99",
+    "files": [
+      {
+        "path": "E:/Game/PotionCraft-analysis/2026-10-25-v1.0.5/decompiled/PotionCraft.Scripts/PotionCraft.ObjectBased.Spoon/SpoonAnimator.cs",
+        "sha256": "75e1109c7774112a33340f5b3ae244934af54b75f8b54f29da51e081b46a61fe",
+        "role": "Read layering, movement-linked frame choice, and release settling as decompilation evidence; no copied code"
+      },
+      {
+        "path": "E:/Game/PotionCraft-analysis/2026-10-25-v1.0.5/decompiled/PotionCraft.Scripts/PotionCraft.ObjectBased.Stack.StackItem.GrindedSubstanceInMortar/GrindedSubstanceInMortarAnimator.cs",
+        "sha256": "3515788882c9589df41c9de9f66904ffec1636359759cd08c51909d75b869f01",
+        "role": "Read separate background/foreground/scratches arrays and explicit Stop as decompilation evidence"
+      },
+      {
+        "path": "E:/Game/PotionCraft-analysis/2026-10-25-v1.0.5/prototypes/mortar-pestle/evidence/mechanics/findings.md",
+        "sha256": "493b8edb77cdd60925fc2ffeac7742a56235028b2825cc9c0e3336e103d1cbb1",
+        "role": "Existing extracted layer bindings / eight frames per layer, observed local record not a new original-game run"
+      }
+    ],
+    "runtime": "Original game and existing Potion Craft replica not executed this turn; selected local records and decompiled members inspected. No third-party runtime asset/code copied into the new prototype."
+  },
+  "prototype": {
+    "directory": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29",
+    "entry": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/artifact-motion.html",
+    "source": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/README.md",
+    "verification": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/verification.json",
+    "browserQA": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/browser-qa.json"
+  },
+  "checks": {
+    "mathSamples": 6006,
+    "maxExcursionUnits": 12.446244101666618,
+    "allowanceUnits": 16,
+    "browser": "Actual narrow IAB rendering, separate wood base/body/engraving layers, distinct force poses, pause holds25%, interrupt ends at glyph alpha0, fine variant, layer toggles, reduced displacement and compact work playback checked.",
+    "status": "Limited visual/packaging evidence; no gameplay, engine, performance or user acceptance"
+  },
+  "reuse": "Project-internal review. Separate layers are candidate art, programmatic engraving is provisional. Does not authorize public distribution of reference materials or adoption of gameplay rules."
+}

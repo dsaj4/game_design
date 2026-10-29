@@ -54,7 +54,19 @@
 - uses（视觉输入）：AS-G002-032@HERBAL-ENGRAVING-06的v03／v06、AS-G002-033@CARD-SYMBOLS-V05-01；比例图derived-from DM-G002-021固定截图。第三方官方背景仅本机风格参考，未作为运行素材或上传。AS-G002-034冻结包及现有HTML／Godot工程保持原状。
 - ReadyForScope / PresentLocal，仅概念、文件、原alpha抽样和木色底157／192px浏览器合成检查；用户选型PendingReview。比例初稿遮挡失败及修订保留，细字／空辅槽的生成偏差、正式组件、小尺寸排字、引擎与交互未验范围沿维护页。仅本项目内部审阅，非M资格或玩法采纳，不增加公开分发授权。
 
+## <a id="as-g002-036"></a>AS-G002-036 法器动画分层源件
+
+- game-002 / main；[专属动作与轻量变化合同](../../yanzhou/visual/artifact-motion-2026-10-29/README.md)，ARTIFACT-MOTION-STUDY-01。守护／施法器身各1312×1199 RGBA，共用固定木楔1536×1024 RGBA；三件各一次内置image_gen，原PNG不作程序裁切／缩放，准确提示词、原生成路径及SHA见同目录manifest。
+- uses／derived-from：AS-G002-035@ARTIFACT-CASES-02，两护符无显著插槽且中央留白；原包冻结。Potion Craft本机1.0.5选定动画成员／绑定只作分层与动作表达参考，没有其代码、图像或声音进入新播放器。
+- ReadyForScope / PresentLocal（2026-10-29），限源件、透明轮廓、木色背景显示及DM-G002-022动作审阅；独立重绘非逐像素拆层。造型／动作用户接受PendingReview，真实引擎、实际桌面遮挡及性能未验。PNG本机保管，文档／提示词／manifest入Git，仅项目内部审阅。
+
 ## Demo
+
+### <a id="dm-g002-022"></a>DM-G002-022 双护符动作审阅播放器
+
+- game-002 / main；[设计、操作与证据](../../yanzhou/visual/artifact-motion-2026-10-29/README.md)，ARTIFACT-MOTION-STUDY-01；本机单文件 `E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/artifact-motion.html`（约8.0MB），已内嵌资源，无外部依赖。固定源码／交付／检查指纹由素材manifest和外部verification记录，代码及二进制不上传。
+- uses AS-G002-036@ARTIFACT-MOTION-STUDY-01；独立程序刻纹／弧线是结构示意，非正式新咒文。生产／完工／打断三个动作片段，支持定格、暂停、图层开关、两种刻纹／节奏与减少位移；没有卡牌、生产或战斗规则执行。
+- ReadyForScope / PresentLocal（2026-10-29），仅本机HTTP窄视口操作、6006个姿态边界／归零采样与包检查。暂停25%保持、打断末态熄纹、木楔固定及变体操作已核；具体截图与结果在维护页。原游戏实机、file协议、宽屏、全键盘、音效、正式引擎与真人体验未验；不升级玩法或用户接受，未公开发布。
 
 ### <a id="dm-g002-020"></a>DM-G002-020 首场手牌与逐列布牌HTML示意
 
