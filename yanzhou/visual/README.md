@@ -4,9 +4,9 @@
 
 本轮接续完成[卡面四版与双法器首轮设计审阅](card-artifact-design-2026-10-28/README.md)，AS-G002-035：卡面为实色徽记／炼金图谱／铭文契片／版画牌签四候选，法器参考Potion Craft的墨线器物与手工设色；提供独立PNG、准确提示词及桌面比例修订。选型PendingReview，比例图是静态合成示意；真实工程仍使用原占位，未改规则或运行玩法。
 
-本轮已完成[首场手牌与逐列布牌HTML示意](first-battle-handflow-2026-10-28/README.md)：底部持牌→五列布牌→确认→列间再布牌可实际操作；提供独立单文件HTML、固定manifest与浏览器证据。限定EX-004首轮六张一次性牌的UI操作链，表现方案待审阅，完整首场玩法仍待制作。
+当前功能入口为[Godot完整首场](../development/first-battle-2026-10-28.md)：EX-004从生产入手到布牌／逐列、用途／打断、疲劳／胜败及保存恢复已接入，卡面与法术声画保持占位。原[首轮HTML示意](first-battle-handflow-2026-10-28/README.md)继续保留独立身份与局部浏览器证据。
 
-美术制作已按用户要求改为[10个组件全部逐件imagegen的v02](tabletop-components-2026-10-28/imagegen-v02/README.md)，随后完成[Godot二维静态战斗场景](engine-scene-2026-10-28/README.md)。十件原图独立导入，五列、工作台、状态读数和底部扇形手牌已搭建，提供Windows包；法器／卡牌仍为占位，不要求可玩。旧版混合制作的40个PNG及ZIP保留为历史，不混入当前交付。
+美术沿[十件逐件imagegen源件v02](tabletop-components-2026-10-28/imagegen-v02/README.md)；先完成[静态引擎v01](engine-scene-2026-10-28/README.md)，现继续用于同工程完整首场。原图、独立文字层与最下方扇形持牌保留；旧混合制作包及同期美术候选均不混入运行版本。
 
 | 用途 | 当前选定输入 | 适用范围 |
 | --- | --- | --- |
@@ -29,4 +29,4 @@ v06显示EX-004第一轮生产结束、尚未布牌的静态状态：底部五�
 
 清理前固定提交为 `ddf6ebfe7b3121cbb71d1257c229206a86321a1e`。[旧视觉文件](https://github.com/dsaj4/game_design/tree/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26)及[旧方向记录／提示词](https://github.com/dsaj4/game_design/tree/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/exploration/DIR-042-herbal-engraving-style)按固定Git取证。四张未入Git的退出整场PNG已逐字节复制至 `E:/Project/yanzhou-art-archive/2026-10-28-v03-selection/`，与原manifest逐图核对SHA-256后才移出工作区；该处保留原manifest，不发布图像。当前选定PNG继续本机保管。
 
-前轮只确认视觉取向及整理文件，随后新增v06静态示意和DM-G002-020首轮HTML；当前DM-G002-021进一步完成真实引擎的静态美术接入，限定检查及未验项各沿制作记录。未修改GDD或运行玩法实验；完整持牌／列间合同、真实卡面小尺寸辨识与用户接受仍未验收，PRE2D-Q01保持Open。资源身份及历史使用关系沿[统一AS／DM目录](../../docs/registry/demo-assets.md)。
+v06、首轮HTML、静态引擎及当前完整首场分别保留范围与版本。EX-004关键状态已有实际实现与限定检查，真实材料／回收等完整持牌合同、正式卡面小尺寸辨识、用户接受与真人体验仍待后续；PRE2D-Q01保持Open。未改GDD或开展平衡实验，资源身份及历史关系沿[统一AS／DM目录](../../docs/registry/demo-assets.md)。

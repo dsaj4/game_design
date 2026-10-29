@@ -1,5 +1,7 @@
 # Godot二维静态战斗场景
 
+**当前完整功能已续为[Godot完整首场v02](../../development/first-battle-2026-10-28.md)。** 以下固定为静态接入v01的历史范围、版本与检查，旧包／截图不改；新可玩入口及证据在development维护。
+
 2026-10-28 · game-002 / main · DM-G002-021 / GODOT-TABLETOP-SCENE-01。按用户要求先接入引擎、完成场景搭建，本轮不要求可玩；法器与卡牌继续后置。
 
 **[打开本机Windows场景](E:/Project/yanzhou-2d/build/windows-01/Start%20Scene.cmd)** · [Godot工程与恢复说明](E:/Project/yanzhou-2d/README.md)
