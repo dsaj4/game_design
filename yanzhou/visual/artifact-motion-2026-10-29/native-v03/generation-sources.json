@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-29",
+  "mode": "built-in image_gen",
+  "sources": [
+    {
+      "key": "guardian-core",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-c42c838c-7c60-49de-9dd4-4a7243b3b628.png",
+      "file": "guardian-core-v03.png",
+      "prompt": "prompts/guardian-core.txt",
+      "referencedImagePaths": [
+        "E:/Project/game/yanzhou/visual/artifact-motion-2026-10-29/guardian-body-v01.png"
+      ]
+    },
+    {
+      "key": "caster-core",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-a59d81b6-1383-4dac-b319-858e86767489.png",
+      "file": "caster-core-v03.png",
+      "prompt": "prompts/caster-core.txt",
+      "referencedImagePaths": [
+        "E:/Project/game/yanzhou/visual/artifact-motion-2026-10-29/caster-body-v01.png"
+      ]
+    },
+    {
+      "key": "guardian-left",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-6145a35b-ae84-48a8-921e-ad258527592f.png",
+      "file": "guardian-left-v03.png",
+      "prompt": "prompts/guardian-left.txt",
+      "referencedImagePaths": [
+        "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-c42c838c-7c60-49de-9dd4-4a7243b3b628.png"
+      ]
+    },
+    {
+      "key": "caster-top",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-a0a8eb8a-0b9c-4771-8502-dc1c5fdc27cd.png",
+      "file": "caster-top-v03.png",
+      "prompt": "prompts/caster-top.txt",
+      "referencedImagePaths": [
+        "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-a59d81b6-1383-4dac-b319-858e86767489.png"
+      ]
+    },
+    {
+      "key": "caster-bottom",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-8dda9775-36c9-4334-a734-c72ac6f2aeed.png",
+      "file": "caster-bottom-v03.png",
+      "prompt": "prompts/caster-bottom.txt",
+      "referencedImagePaths": [
+        "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-a59d81b6-1383-4dac-b319-858e86767489.png"
+      ]
+    },
+    {
+      "key": "guardian-right",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-9510d91b-a6b9-4381-91cb-4344f02c9871.png",
+      "file": "guardian-right-v03.png",
+      "prompt": "prompts/guardian-right.txt",
+      "referencedImagePaths": [
+        "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-6145a35b-ae84-48a8-921e-ad258527592f.png",
+        "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-c42c838c-7c60-49de-9dd4-4a7243b3b628.png"
+      ]
+    }
+  ]
+}
