@@ -1,0 +1,8 @@
+Use case: precise-object-edit. Edit target: the guardian talisman on a wooden wedge, on transparent alpha.
+Preserve its shield-shaped overall silhouette, leather suspension loop, dull bronze perimeter rim and pins, wood material, sage-green accents, wedge support, view angle, palette and Potion Craft-like hand-ink style.
+Change the FRONT FACE and lower-right rim only to implement the user's revision:
+1. Completely REMOVE the central separate ivory/bone vertical inscription plaque, its framing, upper and lower clips, screws and any inset/slot boundary. Fill that whole region seamlessly with the SAME warm wood as the rest of the shield face. It must be one continuous wooden surface, not an empty recess, white panel, badge or different-material patch.
+2. Completely REMOVE the lower-right C-shaped auxiliary socket/notch. Close and restore the shield's wood and bronze perimeter naturally there; no slot or clip remains.
+3. Move/reduce the sage-green decorative motif to the OUTER edge band only, leaving a generous broad central wooden area (roughly the central60% of face width and60% of face height) quiet and BLANK for future directly engraved patterns. Use at most a few sparse subtle wood grain strokes in that central area. Do not fill it with a symbol or letter.
+Result: a simple small guardian charm with clean continuous blank central wood, one intact edge motif, no obvious inscription slots or add-on inscription labels. Existing structural bronze perimeter fasteners and the top leather attachment are normal physical construction, keep them. No new decoration, text, magic glow, icons or additional parts.
+Actual transparent background remains, entire object uncropped with original padding.

@@ -4,6 +4,8 @@
 
 本轮接续完成[卡面四版与双法器首轮设计审阅](card-artifact-design-2026-10-28/README.md)，AS-G002-035：卡面为实色徽记／炼金图谱／铭文契片／版画牌签四候选，法器参考Potion Craft的墨线器物与手工设色；提供独立PNG、准确提示词及桌面比例修订。选型PendingReview，比例图是静态合成示意；真实工程仍使用原占位，未改规则或运行玩法。
 
+法器已按新要求继续为[EX-001简易法术流的双护符形态稿](card-artifact-design-2026-10-28/artifact-cases-v02/README.md)：宽盾守护与窄长施法，参考Potion Craft物件形态，不设显著插槽，中央留白供刻印。当前两张独立对象待审阅，尚未做本版实际桌面尺寸与引擎接入；旧稿保留取证。
+
 当前功能入口为[Godot完整首场](../development/first-battle-2026-10-28.md)：EX-004从生产入手到布牌／逐列、用途／打断、疲劳／胜败及保存恢复已接入，卡面与法术声画保持占位。原[首轮HTML示意](first-battle-handflow-2026-10-28/README.md)继续保留独立身份与局部浏览器证据。
 
 美术沿[十件逐件imagegen源件v02](tabletop-components-2026-10-28/imagegen-v02/README.md)；先完成[静态引擎v01](engine-scene-2026-10-28/README.md)，现继续用于同工程完整首场。原图、独立文字层与最下方扇形持牌保留；旧混合制作包及同期美术候选均不混入运行版本。

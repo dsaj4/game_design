@@ -47,6 +47,8 @@
 
 ## <a id="as-g002-035"></a>AS-G002-035 卡面与法器首轮设计审阅包
 
+- 法器当前子版本 **ARTIFACT-CASES-02**：[EX-001双护符形态修订](../../yanzhou/visual/card-artifact-design-2026-10-28/artifact-cases-v02/README.md)。按用户要求沿第一版流派两护符身份、参考Potion Craft物件形态；中央连续木面留白，移除显著插槽／夹片。当前守护／施法两图和一张保留带槽草稿，均1312×1199 RGBA；3份准确提示词、原件、哈希及官方风格输入由子目录manifest固定。ReadyForScope / PresentLocal仅限本机概念与文件／外围alpha抽样，用户选型PendingReview，实际桌面／本版引擎未验；不改现行核心／辅槽规则，不覆盖下列第一轮冻结包。PNG及第三方截图不入Git。
+
 - game-002 / main；[四版卡面、双法器与比例修订](../../yanzhou/visual/card-artifact-design-2026-10-28/README.md)。2026-10-28按用户要求继续视觉设计；卡面保留相同EX-004内容比较四种版式，双法器以Potion Craft手稿／器具表现为风格参考，规则不变。
 - CARD-ARTIFACT-CONCEPTS-01；9张本机PNG、9份准确提示词及[逐文件manifest](../../yanzhou/visual/card-artifact-design-2026-10-28/manifest.json)，记录原生成路径、尺寸／通道及SHA-256。全部PNG与各自内置image_gen原件字节相同，未裁切／抠图／缩放；二进制本机保管，不随文档上传。
 - uses（视觉输入）：AS-G002-032@HERBAL-ENGRAVING-06的v03／v06、AS-G002-033@CARD-SYMBOLS-V05-01；比例图derived-from DM-G002-021固定截图。第三方官方背景仅本机风格参考，未作为运行素材或上传。AS-G002-034冻结包及现有HTML／Godot工程保持原状。
