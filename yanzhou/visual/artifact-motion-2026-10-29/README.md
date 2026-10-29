@@ -1,5 +1,7 @@
 # 法器专属动作与轻量变化
 
+**当前改看[多组件拼接生产动画v02](assembly-v02/README.md)。** 用户明确改为：生产中铭文／接缝渐亮，完工组件合拢并整体发光，收尾重新分开后暗淡。新版已在原预览地址替换为六个刚性分片，推荐直接节点控制，暂不引入骨骼；下文是一体器身动作v01的保留记录。
+
 2026-10-29 · game-002 / main · **AS-G002-036 / DM-G002-022 · ARTIFACT-MOTION-STUDY-01**。沿EX-001两护符身份、上一轮无显著插槽／中央留白造型，完成动画用独立部件和可播放样张。**动作与造型PendingReview**。
 
 **[播放动作样张](E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/artifact-motion.html)** · [源文件与启动说明](E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/README.md)

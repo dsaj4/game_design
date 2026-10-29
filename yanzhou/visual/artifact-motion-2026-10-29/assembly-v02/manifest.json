@@ -1,0 +1,128 @@
+{
+  "schema": "artifact-assembly-study.1",
+  "version": "ARTIFACT-ASSEMBLY-02",
+  "date": "2026-10-29",
+  "project": "game-002",
+  "assetId": "AS-G002-036",
+  "demoId": "DM-G002-022",
+  "designInputCommit": "e3cddfd80c08791544044be3d6d68c9a5d97c9c8",
+  "frozenV01DesignCommit": "0106543af3a61ff5a11c6af909848673c5dd5fb0",
+  "lifecycle": "ReadyForScope",
+  "access": "PresentLocal",
+  "acceptance": "PendingReview",
+  "frozenAssetManifest": {
+    "path": "E:/Project/game/yanzhou/visual/artifact-motion-2026-10-29/manifest.json",
+    "sha256": "c71203e6ad81248d7106e6e816a922f5b65e0e8a9144f4e521a166a00f17743e"
+  },
+  "sourceArt": [
+    {
+      "path": "E:/Project/game/yanzhou/visual/artifact-motion-2026-10-29/guardian-body-v01.png",
+      "sha256": "9958d61b1e7c561515b0d9aedf36720e109be571e6dfd1cbc6852ab1395e43ab"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/artifact-motion-2026-10-29/caster-body-v01.png",
+      "sha256": "b4da02da69f65cf2c99a85152836c4bd19866e36488884be97d6148f4ffc0b38"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/artifact-motion-2026-10-29/stand-fixed-v01.png",
+      "sha256": "f32c1e55918d7f96bf52ee61eebf8de8a664d15101da4d9d66e6c384ea477785"
+    }
+  ],
+  "newImagesGenerated": false,
+  "rendering": "Six independently transformed rigid SVG clips reuse two registered PNG textures. Alpha masks retain actual object shape. Shared fixed stand remains a separate image. No PNG pixels changed or exported as new pieces.",
+  "implementationDecision": "Direct transforms and separate light layers; no skeleton/skin weights. Native Godot scene not edited or tested.",
+  "entry": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/assembly-v02/artifact-assembly.html",
+  "files": [
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/assembly-v02/adr-direct-components.md",
+      "bytes": 3022,
+      "sha256": "ccba915c5aae3c3cd48fd914ede4deca71ce09332b6b0f12b1fe9f721baa3594"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/assembly-v02/artifact-assembly.html",
+      "bytes": 7997856,
+      "sha256": "b604b320ca050ebebb92bd70c83a1a62e1cd891b20a84a4146dba637b51be4a0"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/assembly-v02/browser-qa.json",
+      "bytes": 1532,
+      "sha256": "1891c82960eefd9751f2fa7615e9c053f3cb1bc91fdfd7af90eef5823b0391bd"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/assembly-v02/build.mjs",
+      "bytes": 3541,
+      "sha256": "c24de340e1d79dabfe5c23015a817ab0da2892bac34314a4b59add9d400e65b3"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/assembly-v02/evidence/01-work-open.png",
+      "bytes": 23682,
+      "sha256": "7b55aabf4cfc094c1a6e666c6579bd2803281982d93b73402f553e3f4b5779bd"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/assembly-v02/evidence/02-complete-closed.png",
+      "bytes": 23868,
+      "sha256": "aabd6a121f9c9cb53b15a11f236ba4f371f3e6bb59d22f9f9527f12904e10322"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/assembly-v02/evidence/03-end-open.png",
+      "bytes": 21212,
+      "sha256": "cada9d6844e41561f6a8e7ce02607ce486a67d642dcaada1c7c3768c1797aa96"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/assembly-v02/evidence/04-current-assembly.png",
+      "bytes": 21049,
+      "sha256": "c6aa8fc182240d909f98afe354b03c894f91ad469e4544b981771cd25a9937af"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/assembly-v02/finalize.mjs",
+      "bytes": 3137,
+      "sha256": "ada7d2471a6b92d5915b313fe1bb77dde46eaa16e0399a11d00649a2c9b62847"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/assembly-v02/motion.mjs",
+      "bytes": 1191,
+      "sha256": "7909e1687752d12dc00f58da610559997026c18ffc8deede21aa83468b48590b"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/assembly-v02/README.md",
+      "bytes": 1214,
+      "sha256": "a9b8aa87f8a8e3f7b12d3b96a215c171b67bc22c0db0dc0b0a9d06f72c8e2bc6"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/assembly-v02/serve.mjs",
+      "bytes": 477,
+      "sha256": "3923ed213fa890f099754cbcd640235e5339fbba8137aa756783b71f82041d64"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/assembly-v02/template.html",
+      "bytes": 5849,
+      "sha256": "328045aecb19b6d9bb65b2b0f4370331dd24ecc176d110b9a2d0b8c3a7efb17e"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/assembly-v02/verification.json",
+      "bytes": 1503,
+      "sha256": "f3e04f850f5cfec88940126e483152beae14e17bf1fe8592fa259fa1746d3119"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/assembly-v02/verify.mjs",
+      "bytes": 2568,
+      "sha256": "0fe4a5c250062f0d874a08b53168bc05166e660122c6dbcc5de0f7084714a24c"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/png-info.mjs",
+      "sha256": "0962b42625537f9e7adca43ada025cc80e69d2b232adeb4bc14b51e237d649e0",
+      "role": "read-only source PNG metadata dependency"
+    }
+  ],
+  "technicalSources": [
+    "https://docs.godotengine.org/en/stable/tutorials/animation/cutout_animation.html",
+    "https://docs.godotengine.org/en/stable/classes/class_tween.html",
+    "https://docs.godotengine.org/en/stable/tutorials/animation/2d_skeletons.html"
+  ],
+  "checks": {
+    "verification": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/assembly-v02/verification.json",
+    "browserQA": "E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/assembly-v02/browser-qa.json",
+    "scope": "Visual state, packaging and narrow browser; no gameplay or engine acceptance"
+  },
+  "reuse": "Internal project review, source-art rights unchanged; assembly split layout and engraving are provisional, production edge/thickness art unmade."
+}

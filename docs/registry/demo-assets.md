@@ -56,6 +56,8 @@
 
 ## <a id="as-g002-036"></a>AS-G002-036 法器动画分层源件
 
+- 当前结构版本 **ARTIFACT-ASSEMBLY-02**：[多组件拼接合同](../../yanzhou/visual/artifact-motion-2026-10-29/assembly-v02/README.md)。复用下列冻结源图，运行时分为每器三块刚性组件、独立铭文／接缝和整体发光；本轮没有生成新的生产分件PNG。正式切口／厚度美术和引擎接入未验，当前只验证结构／三段表现，不改规则；v02清单另在子目录manifest。
+
 - game-002 / main；[专属动作与轻量变化合同](../../yanzhou/visual/artifact-motion-2026-10-29/README.md)，ARTIFACT-MOTION-STUDY-01。守护／施法器身各1312×1199 RGBA，共用固定木楔1536×1024 RGBA；三件各一次内置image_gen，原PNG不作程序裁切／缩放，准确提示词、原生成路径及SHA见同目录manifest。
 - uses／derived-from：AS-G002-035@ARTIFACT-CASES-02，两护符无显著插槽且中央留白；原包冻结。Potion Craft本机1.0.5选定动画成员／绑定只作分层与动作表达参考，没有其代码、图像或声音进入新播放器。
 - ReadyForScope / PresentLocal（2026-10-29），限源件、透明轮廓、木色背景显示及DM-G002-022动作审阅；独立重绘非逐像素拆层。造型／动作用户接受PendingReview，真实引擎、实际桌面遮挡及性能未验。PNG本机保管，文档／提示词／manifest入Git，仅项目内部审阅。
@@ -63,6 +65,8 @@
 ## Demo
 
 ### <a id="dm-g002-022"></a>DM-G002-022 双护符动作审阅播放器
+
+- 当前 **ARTIFACT-ASSEMBLY-02** 单文件为 `E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/assembly-v02/artifact-assembly.html`；原8879预览地址已切到该版。三块分离渐亮→合拢整体亮→重新分开后暗淡；打断不合拢／闪光。实际浏览器阶段、暂停和16016个视觉状态采样已核，固定源文件与证据见v02维护入口；原v01源／单文件及下列历史检查保留，不把浏览器效果声称为Godot接入。
 
 - game-002 / main；[设计、操作与证据](../../yanzhou/visual/artifact-motion-2026-10-29/README.md)，ARTIFACT-MOTION-STUDY-01；本机单文件 `E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/artifact-motion.html`（约8.0MB），已内嵌资源，无外部依赖。固定源码／交付／检查指纹由素材manifest和外部verification记录，代码及二进制不上传。
 - uses AS-G002-036@ARTIFACT-MOTION-STUDY-01；独立程序刻纹／弧线是结构示意，非正式新咒文。生产／完工／打断三个动作片段，支持定格、暂停、图层开关、两种刻纹／节奏与减少位移；没有卡牌、生产或战斗规则执行。
