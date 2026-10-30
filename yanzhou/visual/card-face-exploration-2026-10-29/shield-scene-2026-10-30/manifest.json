@@ -1,0 +1,77 @@
+{
+  "schema": "visual-ideation-continuation.1",
+  "id": "AS-G002-037",
+  "project": "game-002",
+  "direction": "main",
+  "version": "CARD-FACE-EXPLORATION-05",
+  "extends": "AS-G002-037@CARD-FACE-EXPLORATION-04",
+  "date": "2026-10-30",
+  "status": "Raw / Unqualified visual concept",
+  "acceptance": "PendingReview",
+  "lifecycle": "ReadyForScope",
+  "access": "PresentLocal",
+  "input": {
+    "mode": "CUSTOM",
+    "gameCommit": "f80bffd4bc39daf31fbef3bba6e5e21ee1367ece",
+    "intent": "Use current Culdcept-inspired style as baseline; moderately enrich composition around shield/protection, rather than depicting only a standalone shield.",
+    "references": [
+      {
+        "path": "E:/Project/game/yanzhou/visual/card-face-exploration-2026-10-29/culdcept-shield-2026-10-30/shield-v01.png",
+        "sha256": "dc9e5ac59d8b8685b3521f977766de1845691538c2732ffc5073b0531b090960",
+        "role": "Own preceding card: paper, palette, shield structure and painterly material"
+      },
+      {
+        "path": "E:/Game/Culdcept BEGINS-analysis/2026-10-30/images/01-card-images/Sprite/SPR_Card_C_BARRIA__-1125875732507695197.png",
+        "sha256": "7995a40720fd3d09898fddbc25ca3f3ec55b089a0499436d44f0dff2c8c4fa4d",
+        "role": "BARRIA complete card: protected subject and geometric enclosure"
+      },
+      {
+        "path": "E:/Game/Culdcept BEGINS-analysis/2026-10-30/images/01-card-images/Sprite/SPR_Card_C_AMAGIC__5463198619062393923.png",
+        "sha256": "48e6836624302f5697693d880c9c36cb5421fb2a98b6c4426f5772ff94636e4e",
+        "role": "AMAGIC complete card: visual cause and effect of blocking impact"
+      }
+    ],
+    "additionalVisualOnly": "E:/Game/Culdcept BEGINS-analysis/2026-10-30/images/03-card-3d-sprites/Sprite/SPR_C_BARRIA__-4232583707292611976.png",
+    "thirdPartySource": "AS-SH-005@CULDCEPT-ART-2026-10-30-v01"
+  },
+  "files": [
+    {
+      "file": "shield-scene-v01.png",
+      "prompt": "prompt-v01.txt",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a18aac-01e1-7ed2-b07c-0165834855ed\\exec-496b234f-1c20-49f7-be97-ae6f9cc9e271.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 3042983,
+      "sha256": "8eba226959340b785b3145e13874cc1dbfac2de596c6247f460c413fe0e59b5d"
+    }
+  ],
+  "generation": {
+    "tool": "built-in image_gen",
+    "calls": 1,
+    "postProcessing": "Local copy byte-identical to generator original, no cropping/resizing or programmatic editing."
+  },
+  "relationship": {
+    "uses": [
+      "AS-G002-037@CARD-FACE-EXPLORATION-04",
+      "AS-SH-005@CULDCEPT-ART-2026-10-30-v01"
+    ],
+    "derivedFrom": "New original scene using prior own shield card and two third-party cards as visual references.",
+    "previousManifest": "../culdcept-shield-2026-10-30/manifest.json",
+    "runtimeConsumers": []
+  },
+  "checks": {
+    "date": "2026-10-30",
+    "visual": "Directly inspected: one complete portrait face, large shield in front, small crouched traveler behind on protected side, incoming arrows and broken fragments at front surface, interrupted gold arc and a compact ground patch; no card name, effect text, numbers or top category icon.",
+    "style": "Warm pink-brown paper, blue-gray shield, bronze rim and hand-painted wear retained; additional figure, arrow paths and enclosure form a coherent protective event.",
+    "remaining": "Surface wear and ground detail are stronger than intended restraint; lower arrow appears to meet/stick in front face rather than visibly rebound. Actual-size readability and user acceptance untested.",
+    "file": "1024x1536 PNG, original and project copy SHA-256 match.",
+    "notRun": [
+      "actual hand-size recognition",
+      "information interface",
+      "runtime import",
+      "user acceptance",
+      "playtesting"
+    ]
+  },
+  "reuse": "Internal visual exploration only. Third-party source license/redistribution Unknown; no third-party originals committed or used as runtime cards. Figure costume, arrows and depicted impact do not establish lore, new card rules or numerical effects."
+}

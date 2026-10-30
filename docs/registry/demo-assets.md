@@ -75,6 +75,8 @@
 
 - 2026-10-30续为CARD-FACE-EXPLORATION-04：[原创护盾器物画法候选](../../yanzhou/visual/card-face-exploration-2026-10-29/culdcept-shield-2026-10-30/README.md)。使用AS-SH-005固定包中KSHLD／CounterShield两张完整卡面及CounterShield独立主体作内置image_gen风格参考。生成单张无字护盾卡，包铜盾缘、青灰漆面与暖旧纸，第三方图像不作为运行卡面。提示词、尺寸、SHA、原件与来源关系沿该版manifest；仅本机内部视觉审阅，接受和实际尺寸待验，原包固定版本保持。
 
+- 2026-10-30续为CARD-FACE-EXPLORATION-05：[护盾的阻挡与庇护场景](../../yanzhou/visual/card-face-exploration-2026-10-29/shield-scene-2026-10-30/README.md)。以04版为风格基准，按用户要求增加受护者、来袭箭及几何围合；uses本AS@04和AS-SH-005的BARRIA／AMAGIC参考。内置image_gen生成一张1024×1536无字卡，原件／准确提示词／SHA沿该版manifest；单图目视及文件检查，实际尺寸／用户接受待验。旧图和清单保持，仅本项目内部审阅，未改规则或工程。
+
 ## Demo
 
 ### <a id="dm-g002-022"></a>DM-G002-022 双护符动作审阅播放器
