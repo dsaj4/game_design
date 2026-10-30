@@ -544,6 +544,13 @@ DM-G002-011第十三批使用补记：GODOT-DEMONCARDS-CANDIDATES-B13-01，固�
 - Catalogued / PresentLocal；2026-10-28核静态样本与4张资源图，用户处理启动提示后新增9张直接审计的自然玩法截图，覆盖湿书查看/投入/失败提示/撤回/完成/收集。耀素、大收藏、双任务仍未覆盖；受控副本造景FailedSetup，不充作正常玩法证据。原配置及自然默认存档已恢复并校验，失败原件保本机且从普通加载列表禁用。
 - uses: None；derived-from: None；使用者game-002-optimization / DIR-042，限Raw候选视觉与信息表达参照，未导入游戏。原游戏作者Weather Factory；本机研究由用户指定，原图/文本/程序集的公开再分发与改作条件Unknown，原始第三方缓存不入Git。详细规格、工具与局限沿包入口。
 
+## <a id="as-sh-005"></a>AS-SH-005 Culdcept BEGINS 本机卡面与美术图像包
+
+- shared-reference / media-analysis-lab；[资源图册、风格观察与维护入口](../../media-analysis-lab/runs/2026-10-30-culdcept-begins-art/README.md)，CULDCEPT-ART-2026-10-30-v01。用户指定本机安装，REA固定PE／元数据证据、UnityPy静态解码；原件与输出就地保管，不上传第三方二进制。
+- 120个bundle＋13个assets文件，9,913个PNG约2.73 GiB（含纹理／Sprite重复表现），重点为407张完整卡面、409个独立主体Sprite、434张卡材质纹理；22张接触表与搜索图册。固定包manifest SHA-256 `97e936ad27055530b9dcd32e9f4832c498a1d6fa1332f2193c84c48394597684`，准确本机路径／范围／源与导出SHA沿维护页。
+- ReadyForScope / PresentLocal，2026-10-30；全部PNG哈希／尺寸／完整性通过，9,935个图像对象由导出或22个0×0空字体图集完整覆盖；133源文件SHA重查无变化，无遗留解码错误。实际目视范围见维护页，不代表逐张艺术审阅、实机运行或玩法验证。
+- uses: None；derived-from用户指定第三方安装文件的静态解码。使用者为“设计法器与卡面风格”对话的一轮原创卡面探索；第三方图像仅本机风格参考，作者／公开改作与再分发条件Unknown，不直接导入运行包，不升级M资格或规则采纳。
+
 ## <a id="as-sh-004"></a>AS-SH-004 七款游戏卡面与卡外说明参考包
 
 - shared-reference / media-analysis-lab；[横向研究与维护入口](../../media-analysis-lab/runs/2026-10-29-card-face-display/README.md)，CARD-FACE-RESEARCH-01。官方Steam、Balatro媒体包及Weather Factory开发文章；用于比较展示优先、题名／状态保留及效果说明外置，不作为运行素材。
