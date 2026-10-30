@@ -533,3 +533,10 @@ DM-G002-011第十三批使用补记：GODOT-DEMONCARDS-CANDIDATES-B13-01，固�
 - 固定版BOH-REA-2026-10-28-v02；继承v01的[发布文件身份](../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/source-manifest.json)、[REA记录](../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/rea-evidence-index.json)和[静态导出](../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/local-output-manifest.json)，新增[实机与恢复清单](../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/runtime-r02-manifest.json)。原件和取证仍在本机原位置；v01文档沿提交`feee23195fe277afaaf9aef5e3846a7a69439efe`保留。
 - Catalogued / PresentLocal；2026-10-28核静态样本与4张资源图，用户处理启动提示后新增9张直接审计的自然玩法截图，覆盖湿书查看/投入/失败提示/撤回/完成/收集。耀素、大收藏、双任务仍未覆盖；受控副本造景FailedSetup，不充作正常玩法证据。原配置及自然默认存档已恢复并校验，失败原件保本机且从普通加载列表禁用。
 - uses: None；derived-from: None；使用者game-002-optimization / DIR-042，限Raw候选视觉与信息表达参照，未导入游戏。原游戏作者Weather Factory；本机研究由用户指定，原图/文本/程序集的公开再分发与改作条件Unknown，原始第三方缓存不入Git。详细规格、工具与局限沿包入口。
+
+## <a id="as-sh-004"></a>AS-SH-004 七款游戏卡面与卡外说明参考包
+
+- shared-reference / media-analysis-lab；[横向研究与维护入口](../../media-analysis-lab/runs/2026-10-29-card-face-display/README.md)，CARD-FACE-RESEARCH-01。官方Steam、Balatro媒体包及Weather Factory开发文章；用于比较展示优先、题名／状态保留及效果说明外置，不作为运行素材。
+- 22张原始截图／概念图、1份官方文章HTML、1份Steam公开API截取元数据；原件在本机 `E:/Project/game-research/card-face-display-2026-10-29/`，文件范围、准确URL、尺寸、用途、SHA-256及获取／检查日期沿[manifest](../../media-analysis-lab/runs/2026-10-29-card-face-display/manifest.json)。未AI生成、改绘或裁切参考图，二进制／网页缓存不上传。
+- ReadyForScope / PresentLocal，2026-10-29，仅22图实际目视、来源与文件检查；结论Research / LimitedEvidence，截图版本Unknown，2023年BOH开发稿另标。没有实机输入、学习效率或完整玩法验证；网页Arcana Packs超时且未取用。uses/derived-from既有资产：None，不与AS-SH-003的本机REA包混同。
+- 原作权利分别属于各开发者／发行方，公开可下载不构成游戏素材改作或再分发授权；仅本机内部研究。使用者为《言咒》展示优先卡面Raw意图记录，未导入工程或采纳规则。

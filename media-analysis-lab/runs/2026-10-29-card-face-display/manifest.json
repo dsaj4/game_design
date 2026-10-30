@@ -1,0 +1,451 @@
+{
+  "schema": "visual-reference-research.1",
+  "id": "AS-SH-004",
+  "sourceId": "SRC-SH-CARD-FACE-20261029",
+  "version": "CARD-FACE-RESEARCH-01",
+  "date": "2026-10-29",
+  "status": "Research / LimitedEvidence",
+  "access": "PresentLocal",
+  "lifecycle": "ReadyForScope",
+  "purpose": "Cross-game investigation of illustration-first card faces, retained identity/state marks, and descriptions outside the face; not a target-game adopted specification",
+  "gameRepositoryInput": "96b0c8b35d03b8d1b2c18ab7b8807bef200d336f",
+  "scope": "Root/project AGENTS, current visual entry, AS-G002-035 maintenance README, baseline card/view/necessary-information entries; repository operation and reference-analysis method. No full GDD, other exploration bodies, runtime game execution or code changes.",
+  "rawRoot": "E:/Project/game-research/card-face-display-2026-10-29/",
+  "sources": [
+    {
+      "id": "E1",
+      "title": "Balatro official Press Kit and Steam",
+      "pages": [
+        "https://www.playbalatro.com/press-kit/",
+        "https://store.steampowered.com/app/2379780/"
+      ],
+      "type": "official media / primary",
+      "scope": "Jokers image board, Tarot Justice external description, base/modified playing card contrasts",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "E2",
+      "title": "BOOK OF HOURS: the Early Draft Edition; official Steam",
+      "pages": [
+        "https://weatherfactory.biz/boh-the-early-draft-edition/",
+        "https://store.steampowered.com/app/1028310/"
+      ],
+      "type": "developer article and official media / primary",
+      "scope": "2023 icon sketch alternatives and layered detail view; Steam screenshot card/name/state comparison",
+      "versionException": "Article dated 2023-01-27, development material, not proof all alternatives shipped",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "E3",
+      "title": "Cultist Simulator official press kit and Steam",
+      "pages": [
+        "https://weatherfactory.biz/cultist-simulator-streamer-press-kit/",
+        "https://store.steampowered.com/app/718670/"
+      ],
+      "type": "official media / primary",
+      "scope": "Object image, name band, visible timers/counts and external detail",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "E4",
+      "title": "Reigns official Steam screenshots",
+      "pages": [
+        "https://store.steampowered.com/app/474750/"
+      ],
+      "type": "official media / primary",
+      "scope": "Single event portraits, external story text and names",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "E5",
+      "title": "Stacklands official Steam screenshots",
+      "pages": [
+        "https://store.steampowered.com/app/1948280/"
+      ],
+      "type": "official media / primary",
+      "scope": "Shed external detail, Smelter cardopedia illustration and external description",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "E6",
+      "title": "Inscryption official Steam screenshots",
+      "pages": [
+        "https://store.steampowered.com/app/1092790/"
+      ],
+      "type": "official media / primary",
+      "scope": "Screenshots 0 and4 support main visual observations; 1,2,3,5 inspected but unsuitable for detailed card conclusions",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "E7",
+      "title": "Signs of the Sojourner official press kit and Steam",
+      "pages": [
+        "https://www.echodoggames.com/presskit/signs-of-the-sojourner/index.html",
+        "https://store.steampowered.com/app/1058690/"
+      ],
+      "type": "official media / primary",
+      "scope": "Dialogue outside cards; side symbols and card-chain image",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "files": [
+    {
+      "file": "balatro-0.jpg",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/balatro-0.jpg",
+      "bytes": 446484,
+      "sha256": "da065969a1295607d29f52db4a868ec2973655384c64d34443f14a92a82e3faa",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/96208723dbedef49d71bf1b0a74aee1689018c50/ss_96208723dbedef49d71bf1b0a74aee1689018c50.1920x1080.jpg?t=1790693638",
+      "sourcePage": "https://store.steampowered.com/app/2379780/",
+      "width": 1920,
+      "height": 1080,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "official screenshot original",
+      "usedForMainClaims": true
+    },
+    {
+      "file": "balatro-1.jpg",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/balatro-1.jpg",
+      "bytes": 332820,
+      "sha256": "c05b09c45a93c43df70c3f17b49a59d9d28442726661a6534e6d7a22167ec918",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/ss_4862112e5030f74a5818cd4c31347d699ac5adf3.1920x1080.jpg?t=1790693638",
+      "sourcePage": "https://store.steampowered.com/app/2379780/",
+      "width": 1920,
+      "height": 1080,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "official screenshot original",
+      "usedForMainClaims": true
+    },
+    {
+      "file": "balatro-jokers.png",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/balatro-jokers.png",
+      "bytes": 867507,
+      "sha256": "619e3ac06e09413020688f77b022f46b9953b87ac1f7e02f6ce5d666cf3d2bb6",
+      "url": "https://www.playbalatro.com/press-kit/Screenshots/Jokers.png",
+      "sourcePage": "https://www.playbalatro.com/press-kit/",
+      "width": 1920,
+      "height": 1080,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "official screenshot original",
+      "usedForMainClaims": true
+    },
+    {
+      "file": "balatro-ui-1.png",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/balatro-ui-1.png",
+      "bytes": 2039113,
+      "sha256": "0de004348d4ef5e35d2ab1c9751e3896f4bf3f2af67e141a68b8211970318a06",
+      "url": "https://www.playbalatro.com/press-kit/Screenshots/Balatro_ui_3840x2160_1.png",
+      "sourcePage": "https://www.playbalatro.com/press-kit/",
+      "width": 3840,
+      "height": 2160,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "official screenshot original",
+      "usedForMainClaims": false
+    },
+    {
+      "file": "book-of-hours-0.jpg",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/book-of-hours-0.jpg",
+      "bytes": 709462,
+      "sha256": "bb83babfc6aed550aa6ba4ead1283dc4c2a54dfcfc323f723dff4f1e711558b6",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1028310/ss_bc1d3a08eb54377ae3e78bae6d64efb9ff91b166.1920x1080.jpg?t=1762944591",
+      "sourcePage": "https://store.steampowered.com/app/1028310/",
+      "width": 1920,
+      "height": 1020,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "official screenshot original",
+      "usedForMainClaims": true
+    },
+    {
+      "file": "book-of-hours-1.jpg",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/book-of-hours-1.jpg",
+      "bytes": 783833,
+      "sha256": "b499b42afa456a107db9919357f5a97c635b1f541f64e55dcd11ba21a74a1d59",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1028310/ss_51ce803df9ef574f9983c522656ca1e03a157096.1920x1080.jpg?t=1762944591",
+      "sourcePage": "https://store.steampowered.com/app/1028310/",
+      "width": 1920,
+      "height": 1020,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "official screenshot original",
+      "usedForMainClaims": true
+    },
+    {
+      "file": "book-of-hours-design.html",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/book-of-hours-design.html",
+      "bytes": 53052,
+      "sha256": "ce5765497b6b92eab5575a9d5b0ae8e953d32c65b6d9e79ba094bf4f46483f16",
+      "url": "https://weatherfactory.biz/boh-the-early-draft-edition/",
+      "sourcePage": "https://weatherfactory.biz/boh-the-early-draft-edition/",
+      "acquired": "2026-10-29",
+      "role": "developer article raw local cache",
+      "usedForMainClaims": true
+    },
+    {
+      "file": "book-of-hours-detail-dev.png",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/book-of-hours-detail-dev.png",
+      "bytes": 751908,
+      "sha256": "b6d4d880d63e4fe3d421671e060cd34d0ac3ac75ff4fbd19a435643d60472f6a",
+      "url": "https://weatherfactory.biz/media/situation-window-extra-results-full-screen.png",
+      "sourcePage": "https://weatherfactory.biz/boh-the-early-draft-edition/",
+      "width": 1920,
+      "height": 1080,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "2023 development UI screenshot",
+      "usedForMainClaims": true
+    },
+    {
+      "file": "book-of-hours-icon-sketches.png",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/book-of-hours-icon-sketches.png",
+      "bytes": 254938,
+      "sha256": "324e72e74bd26174bdc77d0263be95b65bfaa92a6b97b4321ab8faa5190f1ff3",
+      "url": "https://weatherfactory.biz/media/iconsketchescensored.png",
+      "sourcePage": "https://weatherfactory.biz/boh-the-early-draft-edition/",
+      "width": 1869,
+      "height": 1000,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "2023 development concept sheet",
+      "usedForMainClaims": true
+    },
+    {
+      "file": "cultist-0.jpg",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/cultist-0.jpg",
+      "bytes": 548518,
+      "sha256": "240e12ffe0352d6485cd610fda892c673ffc9d6e49fc33f30a670ab314683e8a",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/718670/ss_5206dd7f298f61caac7ef81018ae05c32060b242.1920x1080.jpg?t=1761059623",
+      "sourcePage": "https://store.steampowered.com/app/718670/",
+      "width": 1920,
+      "height": 1080,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "official screenshot original",
+      "usedForMainClaims": true
+    },
+    {
+      "file": "cultist-1.jpg",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/cultist-1.jpg",
+      "bytes": 466408,
+      "sha256": "6687164637cd7c97d72260f955087dd9f5fd44b0fa382ecdaf007fe1f4cade0e",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/718670/ss_5c76c30252dc7d4ee71e7fafdab20933ff46f45c.1920x1080.jpg?t=1761059623",
+      "sourcePage": "https://store.steampowered.com/app/718670/",
+      "width": 1920,
+      "height": 1080,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "official screenshot original",
+      "usedForMainClaims": true
+    },
+    {
+      "file": "inscryption-0.jpg",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/inscryption-0.jpg",
+      "bytes": 637184,
+      "sha256": "b034e3f4702d5c7a5298e58fe5237b550150e93fbcc4c9e64f5212224fdfe615",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/ss_0191a69b0e94a9a7784f5b81e27f06379910645a.1920x1080.jpg?t=1777572925",
+      "sourcePage": "https://store.steampowered.com/app/1092790/",
+      "width": 1920,
+      "height": 1079,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "official screenshot original",
+      "usedForMainClaims": true
+    },
+    {
+      "file": "inscryption-1.jpg",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/inscryption-1.jpg",
+      "bytes": 565159,
+      "sha256": "26273dbe75763cc40632cbbaf1ee57572489e2b74cf4aa33033b6700850389f5",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/ss_3b714682e9e0a214df1630a234e9f6764528eece.1920x1080.jpg?t=1777572925",
+      "sourcePage": "https://store.steampowered.com/app/1092790/",
+      "width": 1920,
+      "height": 1079,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "official screenshot original",
+      "usedForMainClaims": false
+    },
+    {
+      "file": "inscryption-2.jpg",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/inscryption-2.jpg",
+      "bytes": 154420,
+      "sha256": "0281a3ef42691d24e14600291c10401d58c6c404d7b6d0a8acc6bff9d7693907",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/ss_7bfe728822807d232398df1cb1a5d64addd3d8fb.1920x1080.jpg?t=1777572925",
+      "sourcePage": "https://store.steampowered.com/app/1092790/",
+      "width": 1920,
+      "height": 1079,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "official screenshot original",
+      "usedForMainClaims": false
+    },
+    {
+      "file": "inscryption-3.jpg",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/inscryption-3.jpg",
+      "bytes": 352849,
+      "sha256": "0c23a4a67b78fc0a64606fa807eefaae30b56a1a766b7841e70ce1936de1cc25",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/ss_79a146c36a3f0b728a8e0085327cec8c7fba82d6.1920x1080.jpg?t=1777572925",
+      "sourcePage": "https://store.steampowered.com/app/1092790/",
+      "width": 1919,
+      "height": 1079,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "official screenshot original",
+      "usedForMainClaims": false
+    },
+    {
+      "file": "inscryption-4.jpg",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/inscryption-4.jpg",
+      "bytes": 330662,
+      "sha256": "65cd5d0135a3b52e39e7c4474f89809b6287745ea28331234476ed17c021532f",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/ss_738220c84b63522c4ca8c77fbff1ddb252ea0fe9.1920x1080.jpg?t=1777572925",
+      "sourcePage": "https://store.steampowered.com/app/1092790/",
+      "width": 1919,
+      "height": 1079,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "official screenshot original",
+      "usedForMainClaims": true
+    },
+    {
+      "file": "inscryption-5.jpg",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/inscryption-5.jpg",
+      "bytes": 272131,
+      "sha256": "e9c788fb6e88f28fa1c08b4a906245705396b0a18b0c1cd747d13554b60d9a12",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/ss_e3338b329e4d92b56121f2e849486ee805a56169.1920x1080.jpg?t=1777572925",
+      "sourcePage": "https://store.steampowered.com/app/1092790/",
+      "width": 1919,
+      "height": 1079,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "official screenshot original",
+      "usedForMainClaims": false
+    },
+    {
+      "file": "reigns-0.jpg",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/reigns-0.jpg",
+      "bytes": 109237,
+      "sha256": "89a568d4ed4304d7b50931d2e12b31d28fe4e6b3e0fa24f136c8fe80f655012e",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/474750/ss_aa55d6403e3de6ee2bc4654d5f2302301783d3c5.1920x1080.jpg?t=1786473450",
+      "sourcePage": "https://store.steampowered.com/app/474750/",
+      "width": 1920,
+      "height": 1080,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "official screenshot original",
+      "usedForMainClaims": true
+    },
+    {
+      "file": "reigns-1.jpg",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/reigns-1.jpg",
+      "bytes": 128649,
+      "sha256": "cdd1da30c23ac28aa8a8ef49ed10f92af7d38f1deda6a431a53dec9638c1f40e",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/474750/ss_2134bcd41d8e5464b93ba867d9c024d553e6ebe2.1920x1080.jpg?t=1786473450",
+      "sourcePage": "https://store.steampowered.com/app/474750/",
+      "width": 1920,
+      "height": 1080,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "official screenshot original",
+      "usedForMainClaims": true
+    },
+    {
+      "file": "signs-0.jpg",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/signs-0.jpg",
+      "bytes": 282530,
+      "sha256": "c04638a2828049f4c684b0cce0b7aa29eb9283c12ff88b129013fed6249ccccc",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1058690/ss_0aa65890328c2d96e0338dc1e7bac0c2f1e34f20.1920x1080.jpg?t=1667328331",
+      "sourcePage": "https://store.steampowered.com/app/1058690/",
+      "width": 1920,
+      "height": 1080,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "official screenshot original",
+      "usedForMainClaims": true
+    },
+    {
+      "file": "signs-1.jpg",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/signs-1.jpg",
+      "bytes": 526962,
+      "sha256": "db62b3a1c7fcf976f9d5afc7aad8ba3e5c83149615f95816039a442738b542f0",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1058690/ss_89b419246c20b8748212a01b8742cad76dacaf8e.1920x1080.jpg?t=1667328331",
+      "sourcePage": "https://store.steampowered.com/app/1058690/",
+      "width": 1920,
+      "height": 1080,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "official screenshot original",
+      "usedForMainClaims": true
+    },
+    {
+      "file": "stacklands-0.jpg",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/stacklands-0.jpg",
+      "bytes": 353039,
+      "sha256": "13c087885f643e5d93fcd4346976e071adeb84382749610989366ca1cb64c861",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1948280/ss_8a4eae84cdc5e8996a33d66c22f1537568654aaf.1920x1080.jpg?t=1769357052",
+      "sourcePage": "https://store.steampowered.com/app/1948280/",
+      "width": 1920,
+      "height": 1080,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "official screenshot original",
+      "usedForMainClaims": true
+    },
+    {
+      "file": "stacklands-1.jpg",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/raw/stacklands-1.jpg",
+      "bytes": 326095,
+      "sha256": "3ce3e13fe88e531c12c110a67d2970f49fc52fd46d1e06636bea623c8a965b60",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1948280/ss_962b1fd0961f54cd3b7c3f7a5181ef9f260ff1af.1920x1080.jpg?t=1769357052",
+      "sourcePage": "https://store.steampowered.com/app/1948280/",
+      "width": 1920,
+      "height": 1080,
+      "actualViewed": true,
+      "acquired": "2026-10-29",
+      "role": "official screenshot original",
+      "usedForMainClaims": true
+    },
+    {
+      "file": "steam-sources.json",
+      "path": "E:/Project/game-research/card-face-display-2026-10-29/steam-sources.json",
+      "bytes": 10271,
+      "sha256": "aa5f4787f70a181de90726574c4d47de43775288a12537fd76e48d07e7f3b14d",
+      "role": "selected API metadata",
+      "acquired": "2026-10-29",
+      "usedForMainClaims": true
+    }
+  ],
+  "apiSources": [
+    "https://store.steampowered.com/api/appdetails?appids=718670&l=english",
+    "https://store.steampowered.com/api/appdetails?appids=1028310&l=english",
+    "https://store.steampowered.com/api/appdetails?appids=2379780&l=english",
+    "https://store.steampowered.com/api/appdetails?appids=1948280&l=english",
+    "https://store.steampowered.com/api/appdetails?appids=474750&l=english",
+    "https://store.steampowered.com/api/appdetails?appids=1092790&l=english",
+    "https://store.steampowered.com/api/appdetails?appids=1058690&l=english"
+  ],
+  "checks": {
+    "visual": "22 images actually opened with view_image, including rejected unrelated views",
+    "images": "Original downloaded files only; no generated, cropped or redrawn examples",
+    "inputTriggers": "Static screenshot observations only. No hover/click behavior claimed validated; developer BOH article describes its contemporary click-to-open deeper lore.",
+    "versions": "Unknown for Steam promotional images; cannot claim latest runtime UI",
+    "failedFetch": "Official Balatro Arcana Packs.png web fetch timed out; not used",
+    "notRun": [
+      "third-party runtime launches",
+      "interactive behavior verification",
+      "learning/readability user studies",
+      "target-game mockup creation",
+      "target game rule adoption or implementation",
+      "full game design audit"
+    ]
+  },
+  "rights": "Original rights retained by their developers/publishers. Public availability or press-download does not imply game-asset reuse. Raw images/HTML/API metadata remain local; only descriptions, pointers and hashes committed.",
+  "relationships": {
+    "uses": [],
+    "derivedFrom": [],
+    "projectUse": "yanzhou/sources/inbox/2026-10-29-display-first-card-face.md, Raw / Unqualified visual intent only; not a continuation or replacement of AS-SH-003 REA evidence"
+  }
+}
