@@ -63,6 +63,13 @@
 - uses／derived-from：AS-G002-035@ARTIFACT-CASES-02，两护符无显著插槽且中央留白；原包冻结。Potion Craft本机1.0.5选定动画成员／绑定只作分层与动作表达参考，没有其代码、图像或声音进入新播放器。
 - ReadyForScope / PresentLocal（2026-10-29），限源件、透明轮廓、木色背景显示及DM-G002-022动作审阅；独立重绘非逐像素拆层。造型／动作用户接受PendingReview，真实引擎、实际桌面遮挡及性能未验。PNG本机保管，文档／提示词／manifest入Git，仅项目内部审阅。
 
+## <a id="as-g002-037"></a>AS-G002-037 展示优先卡面两路线六风格探索
+
+- game-002 / main；[六版图像与比较入口](../../yanzhou/visual/card-face-exploration-2026-10-29/README.md)。CARD-FACE-EXPLORATION-01；象形咒印的朱墨篆契／银线秘仪／撞色构成，物象寓言的木刻寓言／梦中静物／稚拙陶绘；每板三张完整正面，卡内无效果／数值／费用，定位字仅在板外。
+- 六次独立内置image_gen生成，六板均1536×1024 RGB PNG；六份准确中文提示词、生成原件位置、尺寸与SHA-256沿[manifest](../../yanzhou/visual/card-face-exploration-2026-10-29/manifest.json)。副本与原输出字节一致，无裁切／抠图／缩放／拼接；PNG本机保管，文本与清单入Git。
+- ReadyForScope / PresentLocal，2026-10-29，限定六板目视及文件检查；视觉意图仍Raw / Unqualified，用户选型PendingReview，非运行卡面或已采纳信息合同。实际尺寸、查看信息、状态、引擎及玩法未验；原AS-G002-035／036及工程不变。
+- uses（前轮研究参照）：AS-SH-004@CARD-FACE-RESEARCH-01，无第三方图像字节进入生成输入；derived-from: None。内置image_gen原创灵感探索，仅本项目内部审阅，公开分发条件未扩大；图中物象与数量不发行新材料／卡种／规则。
+
 ## Demo
 
 ### <a id="dm-g002-022"></a>DM-G002-022 双护符动作审阅播放器

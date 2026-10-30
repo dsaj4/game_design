@@ -1,0 +1,167 @@
+{
+  "schema": "visual-ideation-pack.1",
+  "id": "AS-G002-037",
+  "project": "game-002",
+  "direction": "main",
+  "version": "CARD-FACE-EXPLORATION-01",
+  "date": "2026-10-29",
+  "status": "Visual exploration / Raw / Unqualified",
+  "userSelection": "PendingReview",
+  "lifecycle": "ReadyForScope",
+  "access": "PresentLocal",
+  "scope": "Six concept boards for inspiration and comparison only; not runtime assets or adopted rules",
+  "designInput": {
+    "mode": "CUSTOM",
+    "gameCommit": "5b050e6da178142e3fca21ef2b27ba4d6d46f457",
+    "primaryIntent": "yanzhou/sources/inbox/2026-10-29-display-first-card-face.md",
+    "research": "media-analysis-lab/runs/2026-10-29-card-face-display/README.md",
+    "referenceAsset": "AS-SH-004@CARD-FACE-RESEARCH-01 (previously read study, text/visual-learning only; none of its image bytes submitted as image inputs)",
+    "scopeRecord": "README.md#范围与登记"
+  },
+  "generation": {
+    "tool": "built-in image_gen",
+    "strategy": "One independent call per style board, six calls. Each route's three independent calls dispatched together; no subagents or external API/CLI.",
+    "imageInputs": [],
+    "template": {
+      "id": "illustration-art-style",
+      "name": "Illustration & Art Style / 插画与艺术风格",
+      "skill": "gpt-image-2-style-library",
+      "referencesRead": [
+        "Selection Rules",
+        "conceptual-typography-poster (auxiliary glyph composition guidance)",
+        "illustration-art-style",
+        "history-classical-themes (auxiliary material guidance)",
+        "Styles index"
+      ],
+      "exampleCaseIds": "346 and 6 are template catalogue examples only; no example image was opened or copied."
+    },
+    "postProcessing": "PNG copies byte-identical to generator originals. No image cropping, redraw, upscaling, compositing, or alpha modification."
+  },
+  "variants": [
+    {
+      "file": "a1-v01.png",
+      "bytes": 2554905,
+      "width": 1536,
+      "height": 1024,
+      "pngColorType": 2,
+      "sha256": "9445dd87e0fcf4be1115adb87034894d0efa9ba6de38ba3c0cb50fc95ed482f3",
+      "id": "a1",
+      "title": "朱墨篆契",
+      "route": "象形咒印",
+      "prompt": "prompts/a1.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-82aaa603-afa6-46eb-94e7-b7fc65eaf873.png"
+    },
+    {
+      "file": "a2-v01.png",
+      "bytes": 2074002,
+      "width": 1536,
+      "height": 1024,
+      "pngColorType": 2,
+      "sha256": "2ada1c95fdd97c4b68e4fa51ce4116e01acb4a6cd50e894ff608ff7a48a1e313",
+      "id": "a2",
+      "title": "银线秘仪",
+      "route": "象形咒印",
+      "prompt": "prompts/a2.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-ce2b51f4-ca38-4908-bf5e-affddf058e90.png"
+    },
+    {
+      "file": "a3-v01.png",
+      "bytes": 1916543,
+      "width": 1536,
+      "height": 1024,
+      "pngColorType": 2,
+      "sha256": "8f23cc392d2121a5f5bdeaeb2fef93c1a775196b36d8437bfa83217b02f4cec3",
+      "id": "a3",
+      "title": "撞色构成",
+      "route": "象形咒印",
+      "prompt": "prompts/a3.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-3b67875e-47cd-4fad-8c78-0339c7103172.png"
+    },
+    {
+      "file": "b1-v01.png",
+      "bytes": 2765027,
+      "width": 1536,
+      "height": 1024,
+      "pngColorType": 2,
+      "sha256": "63e73de66e17a33ff6939f27fdc50dbc33b948ea418b8d3723cd237a994042a7",
+      "id": "b1",
+      "title": "木刻寓言",
+      "route": "物象寓言",
+      "prompt": "prompts/b1.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-ab0178d9-4f6e-46af-b0d1-3b48eb96fb12.png"
+    },
+    {
+      "file": "b2-v01.png",
+      "bytes": 2172396,
+      "width": 1536,
+      "height": 1024,
+      "pngColorType": 2,
+      "sha256": "5fe782839cdb931124f4632fe330c475f1fa9f44b805e7510c2f6faba468f82e",
+      "id": "b2",
+      "title": "梦中静物",
+      "route": "物象寓言",
+      "prompt": "prompts/b2.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-266da52c-58c2-428e-a337-bb697dda01d7.png"
+    },
+    {
+      "file": "b3-v01.png",
+      "bytes": 2524955,
+      "width": 1536,
+      "height": 1024,
+      "pngColorType": 2,
+      "sha256": "791a6808b721ae4674db43c46689ca534f147a88178aee2d271be292a7655666",
+      "id": "b3",
+      "title": "稚拙陶绘",
+      "route": "物象寓言",
+      "prompt": "prompts/b3.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-e5f9f035-3e16-4c15-a646-a71b71b3113e.png"
+    }
+  ],
+  "comparisonControl": {
+    "concepts": [
+      "护盾",
+      "普攻",
+      "强化"
+    ],
+    "layout": "Three face-on portrait card faces; labels and board title outside physical cards; no effect or stat areas",
+    "glyphStructures": [
+      "enclosing shapes around a core",
+      "one diagonal stroke breaks through a gap",
+      "three strokes converge"
+    ],
+    "objectMotifs": [
+      "cupped hand protects round stone",
+      "needle pierces paper",
+      "thread binds three needles"
+    ],
+    "note": "Motifs are visual metaphors only; no item, material, world rule or new issued card implied. Count of depicted needles is not an effect quantity."
+  },
+  "checks": {
+    "date": "2026-10-29",
+    "visual": "All six generator outputs directly inspected. Three complete card faces per board; labels/title outside face; no card-face effect paragraphs, numerical stats or costs.",
+    "specificFindings": {
+      "a1": "Heavy red/black carved shapes and distressed texture. More archaic material than literal seal-script forms; small specks may be reduced later.",
+      "a2": "Large negative space and very thin pale line shapes. Some strokes resemble weapons; must verify downscaled identity and preserve glyph feel.",
+      "a3": "Distinctive full-bleed hard-edge shapes and strong color. Highest departure from quiet old-paper workshop palette; not silently chosen as a new scene style.",
+      "b1": "Rough black woodcut and paper texture, external labels. Dense hatching and edge distress are stronger than minimal target.",
+      "b2": "Soft mineral color and isolated volume. Result leans sculptural/realistic more than a flat gouache illustration.",
+      "b3": "Cobalt/iron-red naive hand painting. Expressive and tactile, potentially lighter/playful than existing occult scene."
+    },
+    "notRun": [
+      "actual-size hand/five-column review",
+      "engine import",
+      "complete effect information relocation",
+      "interaction or gameplay testing",
+      "user acceptance"
+    ]
+  },
+  "rights": "Original image_gen creations for project-internal ideation. No third-party game screenshot input or runtime asset reuse. Public distribution conditions not expanded.",
+  "relationships": {
+    "usesResearchReference": [
+      "AS-SH-004@CARD-FACE-RESEARCH-01"
+    ],
+    "derivedFrom": [],
+    "usesOriginalAssetPixels": [],
+    "runtimeConsumers": []
+  }
+}
