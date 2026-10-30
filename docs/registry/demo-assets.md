@@ -71,6 +71,8 @@
 - uses（前轮研究参照）：AS-SH-004@CARD-FACE-RESEARCH-01，无第三方图像字节进入生成输入；derived-from: None。内置image_gen原创灵感探索，仅本项目内部审阅，公开分发条件未扩大；图中物象与数量不发行新材料／卡种／规则。
 - 2026-10-30续为CARD-FACE-EXPLORATION-02：[A1负形＋B1刀刻样张](../../yanzhou/visual/card-face-exploration-2026-10-29/a1-b1-2026-10-30/README.md)。新增两张三卡板，均1536×1024，初稿物象较具体、二稿强化大黑形与留白；[续版manifest](../../yanzhou/visual/card-face-exploration-2026-10-29/a1-b1-2026-10-30/manifest.json)固定两图、两份准确提示词与原生成路径／SHA。derived-from本AS@01的A1、B1；原六图与旧manifest不改。ReadyForScope / PresentLocal仅两图目视与文件检查，设计仍Raw、用户接受待定，针身断口的含义及实际尺寸辨识未验；未改合同或工程。
 
+- 2026-10-30续为CARD-FACE-EXPLORATION-03：[实体盾牌独立单卡](../../yanzhou/visual/card-face-exploration-2026-10-29/shield-2026-10-30/README.md)。用户否定02版手抓圆球的护盾物象，改用完整盾牌；继续A1负形＋B1刀刻，单张竖版、卡内无字。准确提示词、原件与校验沿[03版manifest](../../yanzhou/visual/card-face-exploration-2026-10-29/shield-2026-10-30/manifest.json)。derived-from本AS@01的A1、B1，仅本项目内部视觉审阅，旧图与固定清单不改；实际尺寸辨识、引擎接入与用户接受待验。
+
 ## Demo
 
 ### <a id="dm-g002-022"></a>DM-G002-022 双护符动作审阅播放器
