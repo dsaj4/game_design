@@ -1,0 +1,184 @@
+{
+  "schema": "yanzhou-material-card-batch.1",
+  "id": "AS-G002-039",
+  "project": "game-002",
+  "direction": "main",
+  "version": "ALCHEMY-MATERIAL-CARDS-02",
+  "date": "2026-10-30",
+  "reviewBatch": 1,
+  "variant": "Mage interaction",
+  "lifecycle": "ReadyForScope",
+  "access": "PresentLocal",
+  "acceptance": "PendingReview",
+  "input": {
+    "mode": "CUSTOM",
+    "commit": "4bfd1782378f5ac8fabce890e71c26cee2c66feb",
+    "intent": "Add the shield-card mage to these same five material cards and depict distinct interactions.",
+    "previous": "AS-G002-039@ALCHEMY-MATERIAL-CARDS-01",
+    "previousManifest": "../batch-01/manifest.json",
+    "characterReference": {
+      "asset": "AS-G002-038@SHIELD-CARD-PRODUCTION-01",
+      "path": "E:/Project/yanzhou-art-assets/shield-card-production-2026-10-30/cards/shield-guard/shield-illustration-1024.png",
+      "sha256": "562c0ec4a2fe34be6977fdc211aa3f7402f43387cb70703285adf3a977e4b125",
+      "appearance": "Gray-brown rough robe and broad hood; muted dark-red scarf; face concealed; no staff or pointed hat."
+    },
+    "materialIdentitySource": "Inherited unchanged from 01 B01 scope",
+    "uniqueMaterialsProduced": 5,
+    "totalMaterialCount": 32,
+    "remainingQueued": 27
+  },
+  "generation": {
+    "tool": "built-in image_gen",
+    "calls": 5,
+    "sequence": "One card per call. Character reference plus corresponding original material illustration.",
+    "postProcessing": "Source PNGs remain byte-identical. Existing Godot renderer composites the new integrated mage/material scenes over the same paper."
+  },
+  "items": [
+    {
+      "id": "water",
+      "name": "水",
+      "ordinal": 1,
+      "action": "引水",
+      "source": "sources/water-v01.png",
+      "prompt": "prompts/water-v01.txt",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a18aac-01e1-7ed2-b07c-0165834855ed\\exec-4583be42-5f7c-4167-93fd-f81980e13a28.png",
+      "materialReference": "E:/Project/yanzhou-art-assets/alchemy-material-cards-2026-10-30/batch-01/cards/material-water/illustration-1024.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 3221589,
+      "sha256": "cc1bf90898008915b3ec6e3c51d5eb784c1c4e11d7626b8daff94a112549525c"
+    },
+    {
+      "id": "fire",
+      "name": "火",
+      "ordinal": 2,
+      "action": "引火",
+      "source": "sources/fire-v01.png",
+      "prompt": "prompts/fire-v01.txt",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a18aac-01e1-7ed2-b07c-0165834855ed\\exec-215a13da-182e-4491-b294-74b01dc32a48.png",
+      "materialReference": "E:/Project/yanzhou-art-assets/alchemy-material-cards-2026-10-30/batch-01/cards/material-fire/illustration-1024.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2650439,
+      "sha256": "47a2a709cdb9e2e6ba14131d5df42820793442c1f67febf4ba88ec2ec0bdeb67"
+    },
+    {
+      "id": "earth",
+      "name": "土",
+      "ordinal": 3,
+      "action": "拢土",
+      "source": "sources/earth-v01.png",
+      "prompt": "prompts/earth-v01.txt",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a18aac-01e1-7ed2-b07c-0165834855ed\\exec-bf36b18d-bc7a-48d9-a499-6f37bc34a8c0.png",
+      "materialReference": "E:/Project/yanzhou-art-assets/alchemy-material-cards-2026-10-30/batch-01/cards/material-earth/illustration-1024.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2796534,
+      "sha256": "830b9a85264894bd64f42c81473d4b61e3bad0543d405d74b57536679896b77a"
+    },
+    {
+      "id": "wind",
+      "name": "风",
+      "ordinal": 4,
+      "action": "御风",
+      "source": "sources/wind-v01.png",
+      "prompt": "prompts/wind-v01.txt",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a18aac-01e1-7ed2-b07c-0165834855ed\\exec-d101b3d3-3b40-4d94-8048-e9f7ba024c74.png",
+      "materialReference": "E:/Project/yanzhou-art-assets/alchemy-material-cards-2026-10-30/batch-01/cards/material-wind/illustration-1024.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2889451,
+      "sha256": "567dd20da3deb329c63da4dfee417419466c446fa8b52065cb5494961942e7a7"
+    },
+    {
+      "id": "herb",
+      "name": "草",
+      "ordinal": 5,
+      "action": "扶草",
+      "source": "sources/herb-v01.png",
+      "prompt": "prompts/herb-v01.txt",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a18aac-01e1-7ed2-b07c-0165834855ed\\exec-1534ff94-acd0-4f77-b66a-ac7d04174c56.png",
+      "materialReference": "E:/Project/yanzhou-art-assets/alchemy-material-cards-2026-10-30/batch-01/cards/material-herb/illustration-1024.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2733329,
+      "sha256": "20bcae6f73167944bdb9b8c81ecdb93471cc0759f40f4b852918a604a2b54f47"
+    }
+  ],
+  "contract": {
+    "canvas": [
+      1024,
+      1536
+    ],
+    "pivotUV": [
+      0.5,
+      0.5
+    ],
+    "trim": false,
+    "illustrationRectUV": [
+      0.03,
+      0.03,
+      0.94,
+      0.94
+    ],
+    "layers": [
+      "shared original paper/frame",
+      "integrated mage + material illustration"
+    ],
+    "runtimeDefault": "Flat PNG, same five material logical IDs as 01; alternative complete package, not a new material pool.",
+    "mipmaps": true,
+    "filter": "linear with mipmaps",
+    "compression": "lossless",
+    "alpha": "straight, fix-alpha-border enabled",
+    "text": "No in-card text"
+  },
+  "delivery": {
+    "directory": "E:/Project/yanzhou-art-assets/alchemy-material-cards-2026-10-30/batch-01-mage-v02",
+    "lock": "asset-lock.json",
+    "lockSha256": "711415b417811d7d45c4b8f98a8e1dae410cc5c1a3569cf5faae25122d58287b",
+    "archive": "E:/Project/yanzhou-art-assets/alchemy-material-cards-2026-10-30/batch-01-mage-v02.zip",
+    "archiveBytes": 35200074,
+    "archiveSha256": "14b15d77bca64fc427358d642a9bc8054827b98279d0ce28df7597ee7ae59c13",
+    "lockedFiles": 50
+  },
+  "checks": {
+    "engine": "Godot 4.7.2 mono Compatibility native graphics",
+    "sizes": [
+      [
+        280,
+        420
+      ],
+      [
+        155,
+        229
+      ]
+    ],
+    "alphaBackgrounds": [
+      "dark",
+      "light",
+      "purple"
+    ],
+    "allFiveFlatLayeredByteEqual": true,
+    "allFive100RequestsShareTexture": true,
+    "defaultFlatRequestsOnlyFiveTextures": true,
+    "sharedPaperCount": 1,
+    "freshVariantDirectoryImport": true,
+    "visual": "All five generated sources and native size/alpha boards viewed. Hood, robe and red scarf follow shield reference. Material remains clear; gestures interact with it. Fire and earth compositions are denser; wind retains a broad S-shaped band; finger actions lose detail at hand size.",
+    "notRun": [
+      "separate second clean-directory reproduction for this visual variant",
+      "main-game integration",
+      "OS input",
+      "gameplay",
+      "full material library performance",
+      "user approval of new scenes"
+    ]
+  },
+  "relationship": {
+    "derivedFrom": "AS-G002-039@ALCHEMY-MATERIAL-CARDS-01",
+    "uses": [
+      "AS-G002-038@SHIELD-CARD-PRODUCTION-01"
+    ],
+    "runtimeConsumers": []
+  },
+  "reuse": "Project-original references/generated scenes and previously handwritten renderer. No third-party image/code/font files in package. Internal art review only; no new material rules or mage lore/skills implied."
+}

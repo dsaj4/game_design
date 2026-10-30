@@ -2,6 +2,8 @@
 
 2026-10-30 · **AS-G002-039 / ALCHEMY-MATERIAL-CARDS-01**。本批5/32，成图PendingReview。[返回全量队列与制作入口](../README.md)。
 
+用户随后要求五张加入护盾同款法师，现已继续为[02法师互动版](../batch-01-mage-v02/README.md)。本页原图、提示词、清单和固定ZIP均保留，供对照。
+
 ![五张并列与手牌尺寸](E:/Project/yanzhou-art-assets/alchemy-material-cards-2026-10-30/batch-01/evidence/size-review.png)
 
 **[取得本批完整资产包](E:/Project/yanzhou-art-assets/alchemy-material-cards-2026-10-30/batch-01.zip)** · [包内装载说明](E:/Project/yanzhou-art-assets/alchemy-material-cards-2026-10-30/batch-01/README.md) · [准确源件与校验](manifest.json)。包内有共用纸底1张、透明插画5张、原生合成成品5张、Godot组件与导入设置、完整提示词和检查记录。

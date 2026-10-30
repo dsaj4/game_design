@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-30",
+  "scope": "Same five materials, mage-scene visual variant; native import/display only",
+  "shaChecks": 73,
+  "lockedFiles": 50,
+  "textures": 11,
+  "flatLayeredAllEqual": true,
+  "resourceReuseAllPassed": true,
+  "visual": "Five generated sources and native size/alpha boards directly viewed; hood/robe/scarf follow shield design and interact with material.",
+  "cleanRoomSecondRun": "NotRun for this visual-only variant",
+  "mainGameIntegration": "NotRun",
+  "acceptance": "PendingReview",
+  "localLinks": 33
+}
