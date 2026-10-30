@@ -1,0 +1,77 @@
+{
+  "schema": "visual-ideation-continuation.1",
+  "id": "AS-G002-037",
+  "project": "game-002",
+  "direction": "main",
+  "version": "CARD-FACE-EXPLORATION-04",
+  "extends": "AS-G002-037@CARD-FACE-EXPLORATION-03",
+  "date": "2026-10-30",
+  "status": "Raw / Unqualified visual concept",
+  "acceptance": "PendingReview",
+  "lifecycle": "ReadyForScope",
+  "access": "PresentLocal",
+  "input": {
+    "mode": "CUSTOM",
+    "gameCommit": "6e02dd09cfcb67640112a734d5c6de3e9ca1fd72",
+    "intent": "User-authorized task transferred from Culdcept extraction chat: one original shield card based on extracted object-art style, preserving direct shield subject and text-free face.",
+    "sourcePackage": "AS-SH-005@CULDCEPT-ART-2026-10-30-v01",
+    "sourceManifestSha256": "97e936ad27055530b9dcd32e9f4832c498a1d6fa1332f2193c84c48394597684",
+    "visuallyInspectedPreviews": [
+      "E:/Game/Culdcept BEGINS-analysis/2026-10-30/previews/style-overview-01.jpg",
+      "E:/Game/Culdcept BEGINS-analysis/2026-10-30/previews/shields-01.jpg",
+      "E:/Game/Culdcept BEGINS-analysis/2026-10-30/previews/subjects-01.jpg"
+    ],
+    "references": [
+      {
+        "path": "E:/Game/Culdcept BEGINS-analysis/2026-10-30/images/01-card-images/Sprite/SPR_Card_C_KSHLD__-2438659640191794275.png",
+        "sha256": "3c8a4c0eacbe96a4b24faf406c5e9a63ca189b73a8ac6a7e06f75ad79415808f",
+        "role": "KSHLD complete card: layout scale and metal volume only"
+      },
+      {
+        "path": "E:/Game/Culdcept BEGINS-analysis/2026-10-30/images/01-card-images/Sprite/SPR_Card_C_CounterShield__8633278518775688836.png",
+        "sha256": "7f95cc50dad2ab4a52ed80d862d8e7e9827728fb9878764fdc7e087a18d21782",
+        "role": "CounterShield complete card: object rendering and paper space only"
+      },
+      {
+        "path": "E:/Game/Culdcept BEGINS-analysis/2026-10-30/images/03-card-3d-sprites/Sprite/SPR_C_CounterShield__-7651508445403100470.png",
+        "sha256": "5b47cc67f1a01e39e03911c3e92c4f5a8bc24ed9f691c0a751112e9265ea427a",
+        "role": "CounterShield separate subject: brush texture and rim thickness only"
+      }
+    ]
+  },
+  "files": [
+    {
+      "file": "shield-v01.png",
+      "prompt": "prompt-v01.txt",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a18aac-01e1-7ed2-b07c-0165834855ed\\exec-a3271ccd-cc95-4808-bdec-1e4b8a9da179.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2994971,
+      "sha256": "dc9e5ac59d8b8685b3521f977766de1845691538c2732ffc5073b0531b090960"
+    }
+  ],
+  "generation": {
+    "tool": "built-in image_gen",
+    "calls": 1,
+    "postProcessing": "Copy byte-identical to generator original; no cropping, scaling or programmatic editing."
+  },
+  "relationship": {
+    "uses": "AS-SH-005@CULDCEPT-ART-2026-10-30-v01",
+    "derivedFrom": "Original generated composition with third-party visual style references; no source pixels directly used as runtime assets",
+    "previousManifest": "../shield-2026-10-30/manifest.json",
+    "runtimeConsumers": []
+  },
+  "checks": {
+    "date": "2026-10-30",
+    "visual": "Directly inspected: one complete portrait card, one clear shield, bronze rim and ridge, four rivets, dark blue-gray face and warm pink paper. No hand/sphere, costs, numbers, labels, top icons or effects text.",
+    "remaining": "Shield is larger than reference card occupancy; brush wear and paper mottling stronger than intended restraint. Corner ornaments more curved than prompted. Further simplification and actual-size readability await review.",
+    "file": "1024x1536 PNG; original/copy SHA identical.",
+    "notRun": [
+      "actual-size hand review",
+      "runtime import",
+      "information interaction",
+      "user acceptance"
+    ]
+  },
+  "reuse": "Internal project visual exploration only. Third-party reference author and redistribution license Unknown; no third-party images committed or used as runtime cards. Earlier fixed packages unchanged."
+}

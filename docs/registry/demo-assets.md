@@ -73,6 +73,8 @@
 
 - 2026-10-30续为CARD-FACE-EXPLORATION-03：[实体盾牌独立单卡](../../yanzhou/visual/card-face-exploration-2026-10-29/shield-2026-10-30/README.md)。用户否定02版手抓圆球的护盾物象，改用完整盾牌；继续A1负形＋B1刀刻，单张竖版、卡内无字。准确提示词、原件与校验沿[03版manifest](../../yanzhou/visual/card-face-exploration-2026-10-29/shield-2026-10-30/manifest.json)。derived-from本AS@01的A1、B1，仅本项目内部视觉审阅，旧图与固定清单不改；实际尺寸辨识、引擎接入与用户接受待验。
 
+- 2026-10-30续为CARD-FACE-EXPLORATION-04：[原创护盾器物画法候选](../../yanzhou/visual/card-face-exploration-2026-10-29/culdcept-shield-2026-10-30/README.md)。使用AS-SH-005固定包中KSHLD／CounterShield两张完整卡面及CounterShield独立主体作内置image_gen风格参考。生成单张无字护盾卡，包铜盾缘、青灰漆面与暖旧纸，第三方图像不作为运行卡面。提示词、尺寸、SHA、原件与来源关系沿该版manifest；仅本机内部视觉审阅，接受和实际尺寸待验，原包固定版本保持。
+
 ## Demo
 
 ### <a id="dm-g002-022"></a>DM-G002-022 双护符动作审阅播放器
