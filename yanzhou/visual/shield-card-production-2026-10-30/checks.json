@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-30",
+  "scope": "Metadata, sources, frozen runtime, research and new links; engine evidence independently checked",
+  "shaChecks": 45,
+  "newLocalLinks": 26,
+  "archiveLockedFiles": 31,
+  "nativeEvidencePassed": true,
+  "notGameIntegration": true
+}

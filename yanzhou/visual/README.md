@@ -10,7 +10,7 @@
 
 同日按后续要求已制作[两条路线、六种卡面风格探索](card-face-exploration-2026-10-29/README.md)，AS-G002-037：象形咒印三版与物象寓言三版，共六板18个主题演绎。卡内无效果说明，定位字在板外；本轮重在灵感差异，用户选型PendingReview，尚未锁定正式信息宿主或接入工程。
 
-2026-10-30卡面沿[A1负形＋B1刀刻](card-face-exploration-2026-10-29/a1-b1-2026-10-30/README.md)、[实体盾牌单卡](card-face-exploration-2026-10-29/shield-2026-10-30/README.md)继续至[Culdcept器物画法候选](card-face-exploration-2026-10-29/culdcept-shield-2026-10-30/README.md)。当前按用户要求，以04版风格为基准制作[护盾的阻挡与庇护场景](card-face-exploration-2026-10-29/shield-scene-2026-10-30/README.md)，AS-G002-037@05：增加保护对象与阻挡关系，不能仅展示一面盾牌。卡内无效果说明；构图接受与实际尺寸辨识待验，旧图保留。
+2026-10-30卡面已确认[护盾的阻挡与庇护构图](card-face-exploration-2026-10-29/shield-scene-2026-10-30/README.md)作为制作模板，当前入口为[正式资产首版AS-G002-038](shield-card-production-2026-10-30/README.md)：两层制作源、单图默认装载、Godot导入与多尺寸检查已完成，交付包可取。新分层成品接受及首场工程接入待验；卡内无效果说明，不改现行信息合同。此前A1／B1与Culdcept候选沿[探索包](card-face-exploration-2026-10-29/README.md)保留。
 
 法器已按新要求继续为[EX-001简易法术流的双护符形态稿](card-artifact-design-2026-10-28/artifact-cases-v02/README.md)：宽盾守护与窄长施法，参考Potion Craft物件形态，不设显著插槽，中央留白供刻印。当前两张独立对象待审阅，尚未做本版实际桌面尺寸与引擎接入；旧稿保留取证。
 

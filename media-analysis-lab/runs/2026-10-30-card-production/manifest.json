@@ -1,0 +1,76 @@
+{
+  "schema": "card-production-research.1",
+  "id": "AS-SH-006",
+  "version": "CARD-PRODUCTION-RESEARCH-01",
+  "date": "2026-10-30",
+  "designCommit": "f3101a6489686877f802e0e60983062e4d6971da",
+  "threads": [
+    {
+      "game": "Slay the Spire 2 (local recovered project; not first game)",
+      "threadId": "01a18c3c-55b6-72b1-8b23-04943f887913",
+      "title": "杀戮尖塔卡面分层与加载调研"
+    },
+    {
+      "game": "Demoncards / RollQ",
+      "threadId": "01a18c3c-5aba-7e70-bb33-6a396a0c5dd4",
+      "title": "恶魔牌卡面分层与加载调研"
+    },
+    {
+      "game": "Culdcept BEGINS",
+      "threadId": "01a18bf0-50ee-7512-9c39-b9c00aabf3f3",
+      "title": "提取 Culdcept BEGINS 卡面图"
+    }
+  ],
+  "evidenceStatus": "Read-only local static artifact inspection and bounded recovered/compiled code evidence; no source game executed.",
+  "files": [
+    {
+      "game": "slay-spire",
+      "file": "E:\\Project\\game-research\\card-production-2026-10-30\\slay-spire\\report.md",
+      "bytes": 14264,
+      "sha256": "ab7999c957ce8f93060b71a3021d0b1785ed659f9e42e8f43b8133afe12db441"
+    },
+    {
+      "game": "slay-spire",
+      "file": "E:\\Project\\game-research\\card-production-2026-10-30\\slay-spire\\evidence.json",
+      "bytes": 49759,
+      "sha256": "90b49604a43d415e8e76656f8b6e29ec0b748159518f2933bd90926d6364869f"
+    },
+    {
+      "game": "demoncards",
+      "file": "E:\\Project\\game-research\\card-production-2026-10-30\\demoncards\\report.md",
+      "bytes": 8867,
+      "sha256": "b553091b2e9fb53fd9102270a8473ed55a2e2033646fb24f4fac381c5bdb7105"
+    },
+    {
+      "game": "demoncards",
+      "file": "E:\\Project\\game-research\\card-production-2026-10-30\\demoncards\\evidence.json",
+      "bytes": 89769,
+      "sha256": "4cd1ceac735739dd03505eb5c77422cc35f588c082bc3bebfb0c59dd5bc1e009"
+    },
+    {
+      "game": "culdcept",
+      "file": "E:\\Project\\game-research\\card-production-2026-10-30\\culdcept\\report.md",
+      "bytes": 13716,
+      "sha256": "f35be528ec98f173f619e305fbaa7c37145400a0284bba609b51610bbdc4bca1"
+    },
+    {
+      "game": "culdcept",
+      "file": "E:\\Project\\game-research\\card-production-2026-10-30\\culdcept\\evidence.json",
+      "bytes": 45548,
+      "sha256": "7954eb06f89d3edf922afbc0388a83d9a1291441601a929a56aa4d6feece9167"
+    },
+    {
+      "game": "culdcept",
+      "file": "E:\\Project\\game-research\\card-production-2026-10-30\\culdcept\\checks.json",
+      "bytes": 3553,
+      "sha256": "dd27527c3aab7a564ddc70c42b46e0d47bc5736470f75e7041e5b10c581abb38"
+    }
+  ],
+  "uses": [
+    "AS-SH-005@CULDCEPT-ART-2026-10-30-v01"
+  ],
+  "consumers": [
+    "AS-G002-038@SHIELD-CARD-PRODUCTION-01"
+  ],
+  "reuse": "Third-party files stay external, internal technical reference only; redistribution license Unknown."
+}

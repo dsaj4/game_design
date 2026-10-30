@@ -1,0 +1,166 @@
+{
+  "schema": "yanzhou-production-art.1",
+  "id": "AS-G002-038",
+  "project": "game-002",
+  "direction": "main",
+  "version": "SHIELD-CARD-PRODUCTION-01",
+  "date": "2026-10-30",
+  "lifecycle": "ReadyForScope",
+  "access": "PresentLocal",
+  "templateAcceptance": "User accepted shielding composition as production template in this turn.",
+  "productionAcceptance": "PendingReview for new regenerated layers and runtime artwork; main-game integration NotRun.",
+  "source": {
+    "asset": "AS-G002-037@CARD-FACE-EXPLORATION-05",
+    "commit": "f3101a6489686877f802e0e60983062e4d6971da",
+    "path": "../card-face-exploration-2026-10-29/shield-scene-2026-10-30/shield-scene-v01.png",
+    "sha256": "8eba226959340b785b3145e13874cc1dbfac2de596c6247f460c413fe0e59b5d"
+  },
+  "research": "AS-SH-006@CARD-PRODUCTION-RESEARCH-01",
+  "currentHostReadOnly": {
+    "repository": "E:/Project/yanzhou-2d",
+    "commit": "f16aa94962982fb8c7542fea98339193d8f2897e",
+    "files": [
+      "scripts/battle_ui.gd",
+      "scripts/battle_card_motion.gd"
+    ],
+    "changes": false
+  },
+  "generation": {
+    "tool": "built-in image_gen",
+    "calls": 2,
+    "method": "Non-destructive regenerated paper/frame and background-isolated integrated scene. Not a lossless PSD decomposition."
+  },
+  "sources": [
+    {
+      "file": "sources/paper-frame-v01.png",
+      "prompt": "prompts/paper-frame-v01.txt",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a18aac-01e1-7ed2-b07c-0165834855ed\\exec-5a66c9a1-7804-423b-bbf7-e31fc45e210c.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2568200,
+      "sha256": "68299a78c1e24fe69b4d7baee37c149a0285db289ad6f8acf8a83bb87a29991b",
+      "corners": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "alphaSample": [
+        244,
+        249,
+        248,
+        248
+      ]
+    },
+    {
+      "file": "sources/shield-illustration-v01.png",
+      "prompt": "prompts/shield-illustration-v01.txt",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a18aac-01e1-7ed2-b07c-0165834855ed\\exec-9d977b9f-94b0-4253-819d-67957467dfa6.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2529532,
+      "sha256": "562c0ec4a2fe34be6977fdc211aa3f7402f43387cb70703285adf3a977e4b125",
+      "corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaSample": [
+        0,
+        0,
+        1,
+        253
+      ]
+    }
+  ],
+  "delivery": {
+    "directory": "E:/Project/yanzhou-art-assets/shield-card-production-2026-10-30",
+    "lock": "asset-lock.json",
+    "lockSha256": "46e34ca3e89c1d57b5f3951df6060ce004962cdee97b4cedc6bc375cc37ffff8",
+    "archive": "E:/Project/yanzhou-art-assets/shield-card-production-2026-10-30.zip",
+    "archiveBytes": 10455354,
+    "archiveSha256": "b010660affc8abc1ed972e30e5797bead541402974b48cf312aa942d129bc107",
+    "lockedFileCount": 31,
+    "archiveFilesVerified": 31,
+    "flat": {
+      "file": "cards/shield-guard/shield-front-1024.png",
+      "bytes": 3104636,
+      "sha256": "781541012d6d024e66f46b6f0a82d7852d087c66c77377cc7b039c7572024d10"
+    }
+  },
+  "contract": {
+    "id": "shield.guard",
+    "canvas": [
+      1024,
+      1536
+    ],
+    "pivotUV": [
+      0.5,
+      0.5
+    ],
+    "trim": false,
+    "productionLayers": [
+      "shared paper/frame",
+      "integrated shielding illustration"
+    ],
+    "runtimeDefault": "Single Godot-baked flat texture shared for hand and inspection",
+    "statusAndText": "Owned by host; not baked into art",
+    "import": {
+      "format": "lossless PNG/CompressedTexture2D",
+      "mipmaps": true,
+      "filter": "linear with mipmaps",
+      "premultipliedAlpha": false,
+      "fixAlphaBorder": true
+    },
+    "paperAlpha": "Original generated source alpha is slightly translucent; native paper shader makes interior opaque and applies consistent 30px rounded silhouette."
+  },
+  "checks": {
+    "scope": "Standalone Godot 4.7.2 OpenGL asset validation only; no source-game or gameplay execution",
+    "sizes": [
+      [
+        155,
+        229
+      ],
+      [
+        110,
+        165
+      ],
+      [
+        310,
+        465
+      ],
+      [
+        420,
+        630
+      ]
+    ],
+    "alphaBackgrounds": [
+      "dark",
+      "light",
+      "purple"
+    ],
+    "flatLayeredByteEqual": true,
+    "sharedTexture100Requests": true,
+    "flatDefaultFirstRequestOnlyOneTexture": true,
+    "cleanDirectoryWithoutImportCache": true,
+    "cleanScreenshotHashesEqual": true,
+    "finalLogsClean": true,
+    "initialValidationIssue": "Independent comparison SubViewport did not force updates; fixed validation harness then equality passed.",
+    "visual": "Shield foreground, protected traveler and incoming arrows remain clear. Smallest size loses fine arrow/wear detail. No text or effect instructions inside face.",
+    "notRun": [
+      "main-game integration",
+      "OS input",
+      "full deck performance",
+      "user acceptance of new production layers"
+    ]
+  },
+  "relationship": {
+    "derivedFrom": "AS-G002-037@CARD-FACE-EXPLORATION-05",
+    "uses": [
+      "AS-SH-006@CARD-PRODUCTION-RESEARCH-01"
+    ],
+    "runtimeConsumers": []
+  },
+  "reuse": "Original generated artwork and handwritten loader/shader. No third-party images/code/materials/fonts in delivery. Local project production/review; public release not performed."
+}

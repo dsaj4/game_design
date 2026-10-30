@@ -77,6 +77,13 @@
 
 - 2026-10-30续为CARD-FACE-EXPLORATION-05：[护盾的阻挡与庇护场景](../../yanzhou/visual/card-face-exploration-2026-10-29/shield-scene-2026-10-30/README.md)。以04版为风格基准，按用户要求增加受护者、来袭箭及几何围合；uses本AS@04和AS-SH-005的BARRIA／AMAGIC参考。内置image_gen生成一张1024×1536无字卡，原件／准确提示词／SHA沿该版manifest；单图目视及文件检查，实际尺寸／用户接受待验。旧图和清单保持，仅本项目内部审阅，未改规则或工程。
 
+## <a id="as-g002-038"></a>AS-G002-038 护盾卡正式美术首件
+
+- game-002 / main；[制作、交付与检查入口](../../yanzhou/visual/shield-card-production-2026-10-30/README.md)，SHIELD-CARD-PRODUCTION-01。用户确认AS-G002-037@05的阻挡与庇护构图作为生产模板；新分层成品接受PendingReview，未改玩法或信息合同。
+- 两份1024×1536 RGBA制作源：共用纸框与整幅透明插画，内置image_gen生成并保留准确提示词；运行默认一张Godot合成卡面。完整PNG、相对路径装载组件、导入配置与检查工程在本机[交付包](E:/Project/yanzhou-art-assets/shield-card-production-2026-10-30.zip)，10,455,354 bytes；31文件锁、原生成位置、SHA与来源沿[manifest](../../yanzhou/visual/shield-card-production-2026-10-30/manifest.json)。PNG／ZIP本机保管，文档与清单入Git。
+- ReadyForScope / PresentLocal，2026-10-30，限独立Godot4.7.2实际渲染：四档尺寸、深浅紫底alpha、分层／成品字节一致、100次纹理请求复用、无导入缓存目录重现及ZIP31文件SHA检查。未写yanzhou-2d，主工程接入、OS输入、全牌库性能与新成品接受待验。
+- derived-from AS-G002-037@CARD-FACE-EXPLORATION-05；uses AS-SH-006@CARD-PRODUCTION-RESEARCH-01。原创图、装载代码与纸面Shader，无第三方图像／代码／材质／字体进入包；仅本项目本机制作审阅，不在本轮公开发布。制作两层不是无损PSD拆层，盾／受护者／箭／撞击保持整幅。
+
 ## Demo
 
 ### <a id="dm-g002-022"></a>DM-G002-022 双护符动作审阅播放器
@@ -547,6 +554,12 @@ DM-G002-011第十三批使用补记：GODOT-DEMONCARDS-CANDIDATES-B13-01，固�
 - 固定版BOH-REA-2026-10-28-v02；继承v01的[发布文件身份](../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/source-manifest.json)、[REA记录](../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/rea-evidence-index.json)和[静态导出](../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/local-output-manifest.json)，新增[实机与恢复清单](../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/runtime-r02-manifest.json)。原件和取证仍在本机原位置；v01文档沿提交`feee23195fe277afaaf9aef5e3846a7a69439efe`保留。
 - Catalogued / PresentLocal；2026-10-28核静态样本与4张资源图，用户处理启动提示后新增9张直接审计的自然玩法截图，覆盖湿书查看/投入/失败提示/撤回/完成/收集。耀素、大收藏、双任务仍未覆盖；受控副本造景FailedSetup，不充作正常玩法证据。原配置及自然默认存档已恢复并校验，失败原件保本机且从普通加载列表禁用。
 - uses: None；derived-from: None；使用者game-002-optimization / DIR-042，限Raw候选视觉与信息表达参照，未导入游戏。原游戏作者Weather Factory；本机研究由用户指定，原图/文本/程序集的公开再分发与改作条件Unknown，原始第三方缓存不入Git。详细规格、工具与局限沿包入口。
+
+## <a id="as-sh-006"></a>AS-SH-006 三游戏卡面分层与装载技术研究
+
+- shared-reference / media-analysis-lab；[比较结论、采用取舍与报告入口](../../media-analysis-lab/runs/2026-10-30-card-production/README.md)，CARD-PRODUCTION-RESEARCH-01。用户授权三个专门对话，研究本机杀戮尖塔2恢复工程、恶魔牌局部纹理／编译蓝图与Culdcept静态材质／显示链；不是三款游戏的实机性能结论。
+- 三报告、三份evidence与Culdcept检查记录就地保管E:/Project/game-research/card-production-2026-10-30/；准确路径、SHA、研究对话及证据边界沿[manifest](../../media-analysis-lab/runs/2026-10-30-card-production/manifest.json)。第三方原件、提取与技术程序不入Git；比较正文与清单入Git。
+- ReadyForScope / PresentLocal，2026-10-30，限各报告列明的局部静态／恢复源码检查；没有启动源游戏，未知的Shader数学、释放策略和手牌查看切换不补猜。uses AS-SH-005固定提取包；使用者AS-G002-038@SHIELD-CARD-PRODUCTION-01。第三方再分发许可Unknown，仅本机内部技术参考，不带原资源进入原创运行包。
 
 ## <a id="as-sh-005"></a>AS-SH-005 Culdcept BEGINS 本机卡面与美术图像包
 

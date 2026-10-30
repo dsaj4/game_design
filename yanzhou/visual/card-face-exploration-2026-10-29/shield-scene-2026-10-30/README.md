@@ -1,6 +1,6 @@
 # 护盾 · 阻挡与庇护
 
-2026-10-30 · game-002 / main · **AS-G002-037 / CARD-FACE-EXPLORATION-05**。用户以目前Culdcept器物画法候选为基准，要求适当增加构图复杂度，以护盾为主题，不能仅展示一面盾牌。延续无效果文字的比较条件；本轮构图与成图仍为Raw视觉候选，PendingReview。
+2026-10-30 · game-002 / main · **AS-G002-037 / CARD-FACE-EXPLORATION-05**。用户以目前Culdcept器物画法候选为基准，要求适当增加构图复杂度，以护盾为主题，不能仅展示一面盾牌。首轮为Raw视觉候选；后续用户已确认本设计作为制作模板，现已继续为[正式资产首版](../../shield-card-production-2026-10-30/README.md)。原05版manifest保留当时状态；模板确认不等于新分层成品验收或工程接入。
 
 ![阻挡与庇护单卡](shield-scene-v01.png)
 
