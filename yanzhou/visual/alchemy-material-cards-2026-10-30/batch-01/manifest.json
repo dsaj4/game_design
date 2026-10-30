@@ -1,0 +1,192 @@
+{
+  "schema": "yanzhou-material-card-batch.1",
+  "id": "AS-G002-039",
+  "project": "game-002",
+  "direction": "main",
+  "version": "ALCHEMY-MATERIAL-CARDS-01",
+  "date": "2026-10-30",
+  "reviewBatch": 1,
+  "reviewBatchSize": 5,
+  "lifecycle": "ReadyForScope",
+  "access": "PresentLocal",
+  "acceptance": "PendingReview",
+  "scope": {
+    "allMaterialCount": 32,
+    "producedThisBatch": 5,
+    "remainingQueued": 27,
+    "totalReviewBatches": 7,
+    "interpretation": "Produce five per user review cycle. This frozen version contains only first five, not all 32.",
+    "materialSource": {
+      "commit": "42970ee2e02c68d5212da419f4756f678ebf73ae",
+      "path": "yanzhou/sources/materials/M-2026-10-27-alchemy-batch-01.md",
+      "sections": [
+        "4.1",
+        "4.3",
+        "4.4"
+      ]
+    },
+    "configCrossCheck": "2026-10-27-alchemy-balance-effects-r01.md still references the same qualified 32-material B01 identities; no card effects used to define new art powers."
+  },
+  "uses": {
+    "productionSpec": "AS-G002-038@SHIELD-CARD-PRODUCTION-01",
+    "sourceRuntimeLockSha256": "46e34ca3e89c1d57b5f3951df6060ce004962cdee97b4cedc6bc375cc37ffff8",
+    "sharedPaper": {
+      "original": "E:/Project/yanzhou-art-assets/shield-card-production-2026-10-30/cards/shared/paper-frame-1024.png",
+      "sha256": "68299a78c1e24fe69b4d7baee37c149a0285db289ad6f8acf8a83bb87a29991b"
+    },
+    "styleImages": [
+      "E:/Project/yanzhou-art-assets/shield-card-production-2026-10-30/cards/shield-guard/shield-front-1024.png",
+      "E:/Project/yanzhou-art-assets/shield-card-production-2026-10-30/cards/shield-guard/shield-illustration-1024.png"
+    ]
+  },
+  "generation": {
+    "tool": "built-in image_gen",
+    "calls": 5,
+    "output": "One independently generated integrated transparent material illustration per call; shared paper reused without a new generation call.",
+    "postProcessing": "Source PNGs copied byte-identically. Native Godot rendering positions layers and bakes flat cards."
+  },
+  "items": [
+    {
+      "id": "water",
+      "name": "水",
+      "ordinal": 1,
+      "source": "sources/water-v01.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a18aac-01e1-7ed2-b07c-0165834855ed\\exec-8e3c98cc-087c-4cf3-8365-12f5cefcb714.png",
+      "prompt": "prompts/water-v01.txt",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2824060,
+      "sha256": "19dd14d3c9f6d197afc653fe7e8acc32f6414765ded8fc9399f81475592b26e8"
+    },
+    {
+      "id": "fire",
+      "name": "火",
+      "ordinal": 2,
+      "source": "sources/fire-v01.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a18aac-01e1-7ed2-b07c-0165834855ed\\exec-16f00ee8-c07b-426a-aa9a-dd1e0233ad33.png",
+      "prompt": "prompts/fire-v01.txt",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2314367,
+      "sha256": "b9943b3af753c498c5682e36a225b3c862868ca19a626e8757cabf1b70c77097"
+    },
+    {
+      "id": "earth",
+      "name": "土",
+      "ordinal": 3,
+      "source": "sources/earth-v01.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a18aac-01e1-7ed2-b07c-0165834855ed\\exec-27b8d474-c0a6-4834-aac5-eae84fa1e9f3.png",
+      "prompt": "prompts/earth-v01.txt",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2347947,
+      "sha256": "3d6ea43a1d4f05b5d630d4e2c25d21d51eee25ac0eb3c9735927af819773f1a4"
+    },
+    {
+      "id": "wind",
+      "name": "风",
+      "ordinal": 4,
+      "source": "sources/wind-v01.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a18aac-01e1-7ed2-b07c-0165834855ed\\exec-4b434eb0-70ed-4cdc-9c49-7d69d34beec0.png",
+      "prompt": "prompts/wind-v01.txt",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2433343,
+      "sha256": "9a2d44b0989b6834c10adc6a35e866097cd0442caf874b3128ff6545f1c33513"
+    },
+    {
+      "id": "herb",
+      "name": "草",
+      "ordinal": 5,
+      "source": "sources/herb-v01.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a18aac-01e1-7ed2-b07c-0165834855ed\\exec-d2b295c7-d9cf-4cb3-9e4c-ead079cd20b8.png",
+      "prompt": "prompts/herb-v01.txt",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2464544,
+      "sha256": "633fc8817b84fc8e4cef6164f7f2cc237c8e9b4b84a8cf508fb98ec2d534fdca"
+    }
+  ],
+  "contract": {
+    "canvas": [
+      1024,
+      1536
+    ],
+    "pivotUV": [
+      0.5,
+      0.5
+    ],
+    "trim": false,
+    "illustrationRectUV": [
+      0.03,
+      0.03,
+      0.94,
+      0.94
+    ],
+    "layers": [
+      "shared paper/frame",
+      "integrated material illustration"
+    ],
+    "runtimeDefault": "Single flat PNG per material, reused for hand and inspection.",
+    "logicalIdPrefix": "alchemy.material.",
+    "mipmaps": true,
+    "filter": "linear with mipmaps",
+    "compression": "lossless",
+    "alpha": "straight, alpha border fix enabled",
+    "text": "No in-card text; review-board labels outside only"
+  },
+  "delivery": {
+    "directory": "E:/Project/yanzhou-art-assets/alchemy-material-cards-2026-10-30/batch-01",
+    "lock": "asset-lock.json",
+    "lockSha256": "bd71fedfc8d6d23d339bfc042e101c388351e23f11dd4d2127ca3e4e5d52f597",
+    "archive": "E:/Project/yanzhou-art-assets/alchemy-material-cards-2026-10-30/batch-01.zip",
+    "archiveBytes": 31844585,
+    "archiveSha256": "61868f817d68afba64bef7dd3f2fbe327f215b9cfac38e9f848440c32730d5e0",
+    "lockedFiles": 52
+  },
+  "checks": {
+    "engine": "Godot 4.7.2 mono Compatibility native graphics",
+    "sizes": [
+      [
+        280,
+        420
+      ],
+      [
+        155,
+        229
+      ]
+    ],
+    "alphaBackgrounds": [
+      "dark",
+      "light",
+      "purple"
+    ],
+    "allFiveFlatLayeredByteEqual": true,
+    "allFive100RequestsShareTexture": true,
+    "initialFlatRequestsOnlyFiveTextures": true,
+    "sharedPaperCount": 1,
+    "cleanDirectoryReimport": true,
+    "cleanScreenshotHashesMatch": true,
+    "mainGameIntegration": "NotRun",
+    "visual": "All five native composites and three-background alpha grid directly viewed; dominant material shapes are identifiable. Water rocks occupy more area than prompted; wind bands can read as solid ribbons/water, requiring review.",
+    "notRun": [
+      "main battle integration",
+      "OS input",
+      "gameplay",
+      "whole material library performance",
+      "user art acceptance"
+    ]
+  },
+  "reuse": "Original generated assets and shared original paper/code from AS-G002-038. Internal project production/review; no third-party image/code/font files or public release.",
+  "relationship": {
+    "derivedFrom": "AS-G002-038@SHIELD-CARD-PRODUCTION-01",
+    "runtimeConsumers": [],
+    "nextReviewBatch": [
+      "铁",
+      "光",
+      "影",
+      "硫",
+      "汞"
+    ]
+  }
+}

@@ -10,7 +10,7 @@
 
 同日按后续要求已制作[两条路线、六种卡面风格探索](card-face-exploration-2026-10-29/README.md)，AS-G002-037：象形咒印三版与物象寓言三版，共六板18个主题演绎。卡内无效果说明，定位字在板外；本轮重在灵感差异，用户选型PendingReview，尚未锁定正式信息宿主或接入工程。
 
-2026-10-30卡面已确认[护盾的阻挡与庇护构图](card-face-exploration-2026-10-29/shield-scene-2026-10-30/README.md)作为制作模板，当前入口为[正式资产首版AS-G002-038](shield-card-production-2026-10-30/README.md)：两层制作源、单图默认装载、Godot导入与多尺寸检查已完成，交付包可取。新分层成品接受及首场工程接入待验；卡内无效果说明，不改现行信息合同。此前A1／B1与Culdcept候选沿[探索包](card-face-exploration-2026-10-29/README.md)保留。
+2026-10-30卡面以[护盾正式资产首版AS-G002-038](shield-card-production-2026-10-30/README.md)为已确认的制作规格，当前继续为[炼金材料卡全量队列与首批五张](alchemy-material-cards-2026-10-30/README.md)，AS-G002-039：32种材料按每次5张供审阅，首批水／火／土／风／草已完成透明源、原生合成与独立装载检查，其余27种Queued。新图接受及首场工程接入待验，卡内无效果文字；此前候选沿[探索包](card-face-exploration-2026-10-29/README.md)保留。
 
 法器已按新要求继续为[EX-001简易法术流的双护符形态稿](card-artifact-design-2026-10-28/artifact-cases-v02/README.md)：宽盾守护与窄长施法，参考Potion Craft物件形态，不设显著插槽，中央留白供刻印。当前两张独立对象待审阅，尚未做本版实际桌面尺寸与引擎接入；旧稿保留取证。
 

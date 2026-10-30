@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-30",
+  "scope": "Five-card independent asset validation, not main-game integration",
+  "B01IdentityQueueExact": true,
+  "total": 32,
+  "produced": 5,
+  "queued": 27,
+  "shaCount": 71,
+  "nativeChecksPassed": true,
+  "cleanImportScreenshotsEqual": true,
+  "all11TextureImportsMatchSpec": true,
+  "archiveFileCount": 52,
+  "localLinks": 20
+}

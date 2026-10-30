@@ -1,0 +1,308 @@
+{
+  "schema": "yanzhou-art-production-batches.1",
+  "id": "AS-G002-039",
+  "date": "2026-10-30",
+  "scope": "All 32 B01 materials; five per review batch",
+  "source": {
+    "commit": "42970ee2e02c68d5212da419f4756f678ebf73ae",
+    "file": "yanzhou/sources/materials/M-2026-10-27-alchemy-batch-01.md",
+    "sections": [
+      "4.1",
+      "4.3",
+      "4.4"
+    ],
+    "interpretation": "Material identities only; 11 terminal products are a different source table and not counted as materials."
+  },
+  "batchSize": 5,
+  "total": 32,
+  "materials": [
+    {
+      "ordinal": 1,
+      "id": "water",
+      "name": "水",
+      "level": 1,
+      "sourceFamily": "普通",
+      "reviewBatch": 1,
+      "status": "GeneratedPendingReview"
+    },
+    {
+      "ordinal": 2,
+      "id": "fire",
+      "name": "火",
+      "level": 1,
+      "sourceFamily": "普通",
+      "reviewBatch": 1,
+      "status": "GeneratedPendingReview"
+    },
+    {
+      "ordinal": 3,
+      "id": "earth",
+      "name": "土",
+      "level": 1,
+      "sourceFamily": "普通",
+      "reviewBatch": 1,
+      "status": "GeneratedPendingReview"
+    },
+    {
+      "ordinal": 4,
+      "id": "wind",
+      "name": "风",
+      "level": 1,
+      "sourceFamily": "普通",
+      "reviewBatch": 1,
+      "status": "GeneratedPendingReview"
+    },
+    {
+      "ordinal": 5,
+      "id": "herb",
+      "name": "草",
+      "level": 1,
+      "sourceFamily": "普通",
+      "reviewBatch": 1,
+      "status": "GeneratedPendingReview"
+    },
+    {
+      "ordinal": 6,
+      "id": "iron",
+      "name": "铁",
+      "level": 1,
+      "sourceFamily": "普通",
+      "reviewBatch": 2,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 7,
+      "id": "light",
+      "name": "光",
+      "level": 1,
+      "sourceFamily": "普通",
+      "reviewBatch": 2,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 8,
+      "id": "shadow",
+      "name": "影",
+      "level": 1,
+      "sourceFamily": "普通",
+      "reviewBatch": 2,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 9,
+      "id": "sulfur",
+      "name": "硫",
+      "level": 1,
+      "sourceFamily": "原质",
+      "reviewBatch": 2,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 10,
+      "id": "mercury",
+      "name": "汞",
+      "level": 1,
+      "sourceFamily": "原质",
+      "reviewBatch": 2,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 11,
+      "id": "salt",
+      "name": "盐",
+      "level": 1,
+      "sourceFamily": "原质",
+      "reviewBatch": 3,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 12,
+      "id": "steam",
+      "name": "蒸汽",
+      "level": 2,
+      "sourceFamily": "普通复合",
+      "reviewBatch": 3,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 13,
+      "id": "mist",
+      "name": "雾气",
+      "level": 2,
+      "sourceFamily": "普通复合",
+      "reviewBatch": 3,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 14,
+      "id": "herb-sap",
+      "name": "草汁",
+      "level": 2,
+      "sourceFamily": "普通复合",
+      "reviewBatch": 3,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 15,
+      "id": "iron-sand",
+      "name": "铁砂",
+      "level": 2,
+      "sourceFamily": "普通复合",
+      "reviewBatch": 3,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 16,
+      "id": "radiance",
+      "name": "辉光",
+      "level": 2,
+      "sourceFamily": "普通复合",
+      "reviewBatch": 4,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 17,
+      "id": "shadow-dust",
+      "name": "影尘",
+      "level": 2,
+      "sourceFamily": "普通复合",
+      "reviewBatch": 4,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 18,
+      "id": "solvent",
+      "name": "溶剂",
+      "level": 2,
+      "sourceFamily": "汞系",
+      "reviewBatch": 4,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 19,
+      "id": "spirit-liquid",
+      "name": "灵液",
+      "level": 2,
+      "sourceFamily": "汞系",
+      "reviewBatch": 4,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 20,
+      "id": "fire-seed",
+      "name": "火种",
+      "level": 2,
+      "sourceFamily": "硫系",
+      "reviewBatch": 4,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 21,
+      "id": "spirit-flame",
+      "name": "灵火",
+      "level": 2,
+      "sourceFamily": "硫系",
+      "reviewBatch": 5,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 22,
+      "id": "crystal-core",
+      "name": "晶核",
+      "level": 2,
+      "sourceFamily": "盐系",
+      "reviewBatch": 5,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 23,
+      "id": "binding-salt",
+      "name": "封盐",
+      "level": 2,
+      "sourceFamily": "盐系",
+      "reviewBatch": 5,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 24,
+      "id": "regeneration-liquid",
+      "name": "再生液",
+      "level": 3,
+      "sourceFamily": "汞系",
+      "reviewBatch": 5,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 25,
+      "id": "awakening-dew",
+      "name": "醒神露",
+      "level": 3,
+      "sourceFamily": "汞系",
+      "reviewBatch": 5,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 26,
+      "id": "corrosive-liquid",
+      "name": "蚀解液",
+      "level": 3,
+      "sourceFamily": "汞系",
+      "reviewBatch": 6,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 27,
+      "id": "adamant-sand",
+      "name": "金刚砂",
+      "level": 3,
+      "sourceFamily": "盐系",
+      "reviewBatch": 6,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 28,
+      "id": "floating-stone",
+      "name": "浮空石",
+      "level": 3,
+      "sourceFamily": "盐系",
+      "reviewBatch": 6,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 29,
+      "id": "sealing-crystal",
+      "name": "封魔晶",
+      "level": 3,
+      "sourceFamily": "盐系",
+      "reviewBatch": 6,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 30,
+      "id": "solar-flame",
+      "name": "太阳火",
+      "level": 3,
+      "sourceFamily": "硫系",
+      "reviewBatch": 6,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 31,
+      "id": "thunderfire-core",
+      "name": "雷火核",
+      "level": 3,
+      "sourceFamily": "硫系",
+      "reviewBatch": 7,
+      "status": "Queued"
+    },
+    {
+      "ordinal": 32,
+      "id": "nether-flame",
+      "name": "幽冥火",
+      "level": 3,
+      "sourceFamily": "硫系",
+      "reviewBatch": 7,
+      "status": "Queued"
+    }
+  ]
+}

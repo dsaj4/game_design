@@ -84,6 +84,13 @@
 - ReadyForScope / PresentLocal，2026-10-30，限独立Godot4.7.2实际渲染：四档尺寸、深浅紫底alpha、分层／成品字节一致、100次纹理请求复用、无导入缓存目录重现及ZIP31文件SHA检查。未写yanzhou-2d，主工程接入、OS输入、全牌库性能与新成品接受待验。
 - derived-from AS-G002-037@CARD-FACE-EXPLORATION-05；uses AS-SH-006@CARD-PRODUCTION-RESEARCH-01。原创图、装载代码与纸面Shader，无第三方图像／代码／材质／字体进入包；仅本项目本机制作审阅，不在本轮公开发布。制作两层不是无损PSD拆层，盾／受护者／箭／撞击保持整幅。
 
+## <a id="as-g002-039"></a>AS-G002-039 炼金材料卡批次制作
+
+- game-002 / main；[32种材料全量队列与首批审阅](../../yanzhou/visual/alchemy-material-cards-2026-10-30/README.md)，ALCHEMY-MATERIAL-CARDS-01。用户要求沿护盾正式规格，每次5张供审阅；本版实际水／火／土／风／草5张，余27种Queued，新成图PendingReview。
+- 五张1024×1536 RGBA插画、同规格合成卡面、共用纸框、Godot组件／导入设置与五份准确提示词；[31.8MB本机交付包](E:/Project/yanzhou-art-assets/alchemy-material-cards-2026-10-30/batch-01.zip)。原生成位置、源／运行SHA、52文件锁与范围沿[本批manifest](../../yanzhou/visual/alchemy-material-cards-2026-10-30/batch-01/manifest.json)。PNG／ZIP本机保管，文本／清单入Git。
+- ReadyForScope / PresentLocal，2026-10-30，限首批实际Godot渲染：280×420／155×229、深浅紫底透明、五张分层与成品逐字节一致、各100次请求复用、共用纸单资源、无缓存干净目录重现及包文件SHA。主工程接入、OS输入、玩法及用户接受待验。
+- derived-from／uses AS-G002-038@SHIELD-CARD-PRODUCTION-01，纸底原字节复用，插画整组独立生成；材料身份只引用Qualified B01，不新增配方／效果／发行内容。仅本项目本机制作审阅，运行包无第三方图像／代码／字体文件；旧护盾包保持原版。
+
 ## Demo
 
 ### <a id="dm-g002-022"></a>DM-G002-022 双护符动作审阅播放器
