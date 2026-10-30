@@ -69,6 +69,7 @@
 - 六次独立内置image_gen生成，六板均1536×1024 RGB PNG；六份准确中文提示词、生成原件位置、尺寸与SHA-256沿[manifest](../../yanzhou/visual/card-face-exploration-2026-10-29/manifest.json)。副本与原输出字节一致，无裁切／抠图／缩放／拼接；PNG本机保管，文本与清单入Git。
 - ReadyForScope / PresentLocal，2026-10-29，限定六板目视及文件检查；视觉意图仍Raw / Unqualified，用户选型PendingReview，非运行卡面或已采纳信息合同。实际尺寸、查看信息、状态、引擎及玩法未验；原AS-G002-035／036及工程不变。
 - uses（前轮研究参照）：AS-SH-004@CARD-FACE-RESEARCH-01，无第三方图像字节进入生成输入；derived-from: None。内置image_gen原创灵感探索，仅本项目内部审阅，公开分发条件未扩大；图中物象与数量不发行新材料／卡种／规则。
+- 2026-10-30续为CARD-FACE-EXPLORATION-02：[A1负形＋B1刀刻样张](../../yanzhou/visual/card-face-exploration-2026-10-29/a1-b1-2026-10-30/README.md)。新增两张三卡板，均1536×1024，初稿物象较具体、二稿强化大黑形与留白；[续版manifest](../../yanzhou/visual/card-face-exploration-2026-10-29/a1-b1-2026-10-30/manifest.json)固定两图、两份准确提示词与原生成路径／SHA。derived-from本AS@01的A1、B1；原六图与旧manifest不改。ReadyForScope / PresentLocal仅两图目视与文件检查，设计仍Raw、用户接受待定，针身断口的含义及实际尺寸辨识未验；未改合同或工程。
 
 ## Demo
 

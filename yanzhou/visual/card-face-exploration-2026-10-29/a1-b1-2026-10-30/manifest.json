@@ -1,0 +1,89 @@
+{
+  "schema": "visual-ideation-continuation.1",
+  "id": "AS-G002-037",
+  "project": "game-002",
+  "direction": "main",
+  "version": "CARD-FACE-EXPLORATION-02",
+  "extends": "AS-G002-037@CARD-FACE-EXPLORATION-01",
+  "date": "2026-10-30",
+  "status": "Raw / Unqualified visual concept",
+  "acceptance": "PendingReview",
+  "lifecycle": "ReadyForScope",
+  "access": "PresentLocal",
+  "input": {
+    "mode": "CUSTOM",
+    "gameCommit": "05f66ccde262dabc6e90995e379997afe73639fd",
+    "intent": "Try A1 negative-space structure plus B1 woodcut medium with a clearly identifiable main subject",
+    "scope": "Two user-selected references and existing visual task; no expanded gameplay reading",
+    "references": [
+      {
+        "path": "E:/Project/game/yanzhou/visual/card-face-exploration-2026-10-29/a1-v01.png",
+        "bytes": 2554905,
+        "width": 1536,
+        "height": 1024,
+        "sha256": "9445dd87e0fcf4be1115adb87034894d0efa9ba6de38ba3c0cb50fc95ed482f3"
+      },
+      {
+        "path": "E:/Project/game/yanzhou/visual/card-face-exploration-2026-10-29/b1-v01.png",
+        "bytes": 2765027,
+        "width": 1536,
+        "height": 1024,
+        "sha256": "63e73de66e17a33ff6939f27fdc50dbc33b948ea418b8d3723cd237a994042a7"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "E:/Project/game/yanzhou/visual/card-face-exploration-2026-10-29/a1-b1-2026-10-30/hybrid-v01.png",
+      "bytes": 2285651,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "be3ca8967611f623c86d7d63c6c0ed30dbb33ef0ea0e2b5e60e3559d22222f21",
+      "file": "hybrid-v01.png",
+      "prompt": "prompt-v01.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-6f6014ca-171c-4807-ae67-4c62e51a7f39.png",
+      "role": "initial: concrete object read stronger"
+    },
+    {
+      "path": "E:/Project/game/yanzhou/visual/card-face-exploration-2026-10-29/a1-b1-2026-10-30/hybrid-v02.png",
+      "bytes": 2279410,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e55f8af9b5ba786afccff8572b991c924bda44c5e21e95e54c1b60e06bb29ac5",
+      "file": "hybrid-v02.png",
+      "prompt": "prompt-v02.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-551ef32d-dbfe-4077-bacd-fcbda3c7a380.png",
+      "role": "current comparison candidate: graphic negative space stronger"
+    }
+  ],
+  "generation": {
+    "tool": "built-in image_gen",
+    "calls": 2,
+    "sequence": "v01 references original A1+B1; v02 edits v01 with A1 as additional structure reference",
+    "postProcessing": "Output copies byte-identical to generator originals; no cropping, upscaling, masking or programmatic image editing"
+  },
+  "relationship": {
+    "derivedFrom": [
+      "AS-G002-037@CARD-FACE-EXPLORATION-01 / a1-v01.png",
+      "AS-G002-037@CARD-FACE-EXPLORATION-01 / b1-v01.png"
+    ],
+    "originalManifest": "../manifest.json",
+    "runtimeConsumers": []
+  },
+  "checks": {
+    "date": "2026-10-30",
+    "visual": "Both boards directly inspected. Three complete faces per board. No effect text, stat numbers, costs or labels inside card faces.",
+    "v01": "Clear hand/core, single needle and tied bundle; remains relatively close to B1 drawing.",
+    "v02": "Simplified contiguous black shapes, larger pale cutouts, reduced internal hatching and compact red accents; identity remains visible at full board size.",
+    "remaining": "v02 needle interruption may read as a broken needle rather than piercing; negative-space balance, thematic interpretation and actual-size recognition require review.",
+    "notRun": [
+      "actual-size hand/five-column review",
+      "runtime asset slicing/import",
+      "effect/state information relocation",
+      "interaction testing",
+      "playtesting",
+      "user acceptance"
+    ]
+  },
+  "reuse": "Project-internal visual exploration. Original six boards and frozen 01 manifest unchanged. No new cards/materials/rules implied."
+}
