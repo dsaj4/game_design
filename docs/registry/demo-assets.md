@@ -585,3 +585,10 @@ DM-G002-011第十三批使用补记：GODOT-DEMONCARDS-CANDIDATES-B13-01，固�
 - 22张原始截图／概念图、1份官方文章HTML、1份Steam公开API截取元数据；原件在本机 `E:/Project/game-research/card-face-display-2026-10-29/`，文件范围、准确URL、尺寸、用途、SHA-256及获取／检查日期沿[manifest](../../media-analysis-lab/runs/2026-10-29-card-face-display/manifest.json)。未AI生成、改绘或裁切参考图，二进制／网页缓存不上传。
 - ReadyForScope / PresentLocal，2026-10-29，仅22图实际目视、来源与文件检查；结论Research / LimitedEvidence，截图版本Unknown，2023年BOH开发稿另标。没有实机输入、学习效率或完整玩法验证；网页Arcana Packs超时且未取用。uses/derived-from既有资产：None，不与AS-SH-003的本机REA包混同。
 - 原作权利分别属于各开发者／发行方，公开可下载不构成游戏素材改作或再分发授权；仅本机内部研究。使用者为《言咒》展示优先卡面Raw意图记录，未导入工程或采纳规则。
+
+## <a id="as-sh-007"></a>AS-SH-007 Backpack Battles 本机物品美术与交互参考包
+
+- shared-reference / media-analysis-lab；[图册、提取范围与交互证据入口](../../media-analysis-lab/runs/2026-10-31-backpack-battles-rea/README.md)，BACKPACK-ITEMS-01。用户指定本机 RAR 与 REA；原件和恢复结果保留 `E:/Game/Backpack Battles-analysis/2026-10-31/`，第三方二进制不入 Git。
+- 1,791 张 PNG，其中 Items 下 453 张（主体、变体、特效、遮罩和格子 UI）；382 条数据中 334 条匹配场景，48 条 version=1.0.0 未匹配；131 条原始配方声明，586 个脚本仍加密。源 RAR/EXE/PCK、工具及本机 manifest 的 SHA-256 由[身份元数据](../../media-analysis-lab/runs/2026-10-31-backpack-battles-rea/source-and-output.json)固定。
+- ReadyForScope / PresentLocal，2026-10-31，限 6,420 个 PCK 条目 MD5、全部 PNG 解码/哈希、物品表保留、匹配场景依赖和图册搜索/详情检查。REA 确认 PE 资源；PCK 不受支持的失败保留，物品提取来自 GDRE 静态恢复。没有运行源游戏；完整放置、合成和战斗算法 Unknown，不宣称脚本恢复或原工程无损还原。
+- uses: None；derived-from 用户提供的第三方 RAR 静态提取；暂无目标项目使用者。原作者／公开改作和再分发授权 Unknown，仅本机研究参考，不直接导入游戏，不升级 M 资格或设计采纳。

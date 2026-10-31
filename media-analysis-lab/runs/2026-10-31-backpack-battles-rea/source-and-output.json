@@ -1,0 +1,73 @@
+{
+  "asset_id": "AS-SH-007",
+  "version": "BACKPACK-ITEMS-01",
+  "date": "2026-10-31",
+  "scope": "Research / LimitedEvidence; static local game package",
+  "local_entry": "E:\\Game\\Backpack Battles-analysis\\2026-10-31\\catalog\\index.html",
+  "local_report": "E:\\Game\\Backpack Battles-analysis\\2026-10-31\\REPORT.md",
+  "local_manifest": {
+    "path": "E:\\Game\\Backpack Battles-analysis\\2026-10-31\\manifest.json",
+    "sha256": "ade973e5599f0fef81a511c5329794779ed4fe68a7cfeb28bfd0c906980764f3",
+    "files": 10563
+  },
+  "sources": [
+    {
+      "path": "E:\\Game\\Backpack Battles.rar",
+      "bytes": 208125157,
+      "sha256": "dd5bdf9e7420761355b656620160584169ac2264bc7f4afc829681cb3f97fd81"
+    },
+    {
+      "path": "E:\\Game\\Backpack Battles-analysis\\2026-10-31\\archive\\Backpack Battles\\Backpack Battles\\BackpackBattles.exe",
+      "bytes": 36927488,
+      "sha256": "969743758af2d966feff5623b46cdbc15230b7ae3949e81e1bdc099c4a1d02f6"
+    },
+    {
+      "path": "E:\\Game\\Backpack Battles-analysis\\2026-10-31\\archive\\Backpack Battles\\Backpack Battles\\BackpackBattles.pck",
+      "bytes": 230792896,
+      "sha256": "645c1f29b2f98ee3eb29736713e985d9b30c2a718e000a090ae5b9cda1b25387"
+    }
+  ],
+  "tools": [
+    {
+      "name": "REA",
+      "path": "E:/Game/Demoncards/rea",
+      "version": "6.4.0",
+      "git_commit": "58300885207133422af235e0f2b10658cf958b03"
+    },
+    {
+      "name": "GDRE Tools",
+      "path": "E:/Game/slay the spire/tools/GDRE_tools-v2.6.0-windows/gdre_tools.exe",
+      "version": "2.6.0",
+      "sha256": "f7d25b387f3e67d3e0b65b6b480c01b09d0d7af5dce675caf6ed105b8454bb7f"
+    },
+    {
+      "name": "7-Zip",
+      "path": "C:/Program Files/7-Zip/7z.exe",
+      "version": "25.01",
+      "sha256": "4cd7d776c686427226a151789d2d61f0b2ed2c392148cc4e69c0238362fafecf"
+    }
+  ],
+  "counts": {
+    "items": 382,
+    "assets_png": 1791,
+    "recipes": 131,
+    "pck_entries": 6420
+  },
+  "verification": {
+    "path": "E:\\Game\\Backpack Battles-analysis\\2026-10-31\\evidence\\verification.json",
+    "sha256": "85652904665560c262e1089f72f2bc464bb55ccb78c2706987cf5eb876ec7a03",
+    "status": "PassForScope",
+    "png_verified": 1791,
+    "pck_entry_md5_verified": 6420,
+    "items_preserved": 382,
+    "scene_matches": 334,
+    "runtime_game": "NotRun",
+    "scripts_decompiled": 0
+  },
+  "rea": {
+    "pe_evidence_path": "E:\\Game\\Backpack Battles-analysis\\2026-10-31\\evidence\\rea-pe-resources.json",
+    "pe_evidence_id": "ev_d28429a6d86811e9df6337dcd502c14043f1cc3421710df62229bdaa125dca69",
+    "pck_operation": "unsupported_target; preserved failure"
+  },
+  "rights": "third-party; local internal research; redistribution Unknown; no extracted binaries submitted"
+}
