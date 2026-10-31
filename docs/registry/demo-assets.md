@@ -121,10 +121,10 @@
 
 ### <a id="dm-g002-019"></a>DM-G002-019 炼金体系HTML设计手册（2026-10-27新增）
 
-- 归属：game-002 / main；[版本、整理与检查](../../yanzhou/sources/inbox/2026-10-27-classic-worldviews-recipe-route-r01.md#3-html阅读稿与工作区整理)。[首批内容B01](../../yanzhou/sources/materials/M-2026-10-27-alchemy-batch-01.md)已由用户确认配方并完成Qualified；平衡与卡效仍待设计，NotRun。
-- ALCHEMY-BATCH-01-HTML-01；[独立HTML](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r04.html)，SHA-256：765f24f65b082bde5ec56b40a5fe3eedf1df55d682b21d070705be40efc581c6；固定内容源为71413c1fcf1f8ccfd61751abaf900d72c21efc55、上列合格素材。[确认状态截图](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r04-preview.png)为UI证据，非玩法截图。
-- ReadyForScope / PresentLocal（2026-10-27，仅本机阅读与已测交互）。本轮验证身份／配方签名未变、脚本语法、首批状态／来源链接与卡效费用建议标记，捕获日志无警告／错误；原R04的32材料、35配方及依赖检查沿固定证据，不冒充重新验证。file协议、手机尺寸、打印、全键盘、独立机器及玩法未验。
-- 同一DM阅读界面与来源版本更新，不新分配ID。旧R03与临时脚本退出活动目录，原件可恢复移动并压缩保全，入口与指纹见维护页；当前目录仅本批HTML、预览及限定静态附件。无外部美术、运行库或数据接口，本项目内部讨论可复用，公开分发许可未另定；不改变规则或实验授权。
+- 归属：game-002 / main；当前[R05物件命名修订](../../yanzhou/sources/inbox/2026-10-31-alchemy-batch-01-full-names-r05.md)只改材料名称。原[首批B01](../../yanzhou/sources/materials/M-2026-10-27-alchemy-batch-01.md)的32材料身份、级别、35配方与11成品保留；原内容Qualified，新名称为展示方案，卡效与平衡仍待设计，NotRun。
+- ALCHEMY-BATCH-01-NAMING-R05；[独立HTML](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r05.html)，SHA-256：b618a6da655e5df50f794497e8bf29f39909f54146530f22ed7b7176a0a41189；固定内容源为e4bb87543a0fc3a4c07c58e614e6244943e84b36、上列R05映射及其B01身份来源。[材料库预览](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r05-preview.png)SHA-256：4c9d5d5b59ab381c5219ccdb8efe017f044fdfbc62525abd27fa21895ef78676，为UI证据。
+- ReadyForScope / PresentLocal（2026-10-31，仅本机阅读与已测交互）。逐身份核对级别、投入／产出ID、数量、工序、D、效果／费用／目标／回收，除材料名引用外均与R04相同；无环、无孤料、原8根料可达、脚本语法通过。实际检查7页、一级11／二级12／三级9筛选、11产品卡片／表格、35配方及白化筛选、搜索、材料旧名／来源／去向、贤者之石根料与产料引用；捕获警告／错误为空。[限定检查附件](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/r05-content-check.json)。手机、打印、全键盘、独立机器及玩法未验。
+- 同一DM更新，不新分配ID。R04原件及指纹沿[2026-10-27整理记录](../../yanzhou/sources/inbox/2026-10-27-classic-worldviews-recipe-route-r01.md#3-html阅读稿与工作区整理)保留，不覆盖固定引用。本轮参考指定背包乱斗目录的物件命名，未导入其图片、脚本、配方或效果。无外部美术、运行库或数据接口，本项目内部讨论可复用，公开分发许可未另定；不改变规则或实验授权。
 
 ### <a id="dm-g002-018"></a>DM-G002-018 暗酒红独立对象HTML审阅包
 

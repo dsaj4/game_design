@@ -36,11 +36,11 @@
 
 2026-10-31当前阅读稿为[R05命名修订HTML](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r05.html)，同一DM-G002-019；身份、配方与效果引用的限定对照由R05记录及统一目录维护。以下R04指纹与整理结果保留为2026-10-27历史证据，R04原件不覆盖。
 
-DM-G002-019保留为首批材料的派生阅读稿；当前入口为[HTML设计手册](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r04.html)。其确认状态与来源将同步到本次合格素材，效果参考保持待设计。文件原件在本机，不随设计仓库元数据提交上传。
+2026-10-27当时的DM-G002-019派生阅读稿为[R04 HTML设计手册](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r04.html)。其确认状态与来源已同步到原合格素材，效果参考保持待设计。文件原件在本机，不随设计仓库元数据提交上传。
 
 整理前9份本地文件已逐字节压缩核验，恢复包位于C:/Users/Administrator/AppData/Local/Temp/alchemy-pre-batch-01-2026-10-27-23f9099.zip，SHA-256为7f5354d131075cbf1c05bbf7091ace0a3e78fa9b40d936b120fee4e8bcd38dbe。旧R03阅读稿、临时预览脚本、生成脚本和暂存补丁退出活动目录，不另建清理映射表。当前只保留本批HTML、预览及限定静态检查附件。
 
-当前版本ALCHEMY-BATCH-01-HTML-01，固定引用合格素材提交71413c1fcf1f8ccfd61751abaf900d72c21efc55。HTML SHA-256为765f24f65b082bde5ec56b40a5fe3eedf1df55d682b21d070705be40efc581c6；[确认状态预览](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r04-preview.png) SHA-256为e3da8313c854189d93baf4a7543280267bb195026f6908b500b19bba7b0d3fe3。ReadyForScope / PresentLocal，限本机已测阅读与交互。
+R04历史版本ALCHEMY-BATCH-01-HTML-01，固定引用合格素材提交71413c1fcf1f8ccfd61751abaf900d72c21efc55。HTML SHA-256为765f24f65b082bde5ec56b40a5fe3eedf1df55d682b21d070705be40efc581c6；[确认状态预览](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r04-preview.png) SHA-256为e3da8313c854189d93baf4a7543280267bb195026f6908b500b19bba7b0d3fe3。ReadyForScope / PresentLocal，限当时已测阅读与交互。
 
 本次核对配方与身份签名未变、脚本语法通过，旧确认问题已移除；实际HTTP预览确认首批状态、合格素材链接，以及生命灵药详情中“配方已确认／费用回收仍建议”的区分，捕获警告／错误日志为空，已保存并查看状态页截图。材料依赖完整与既有筛选、根料展开的验证沿原R04限定记录，不伪称重新执行玩法；手机尺寸、打印、全键盘及独立机器未验。内置浏览器仍不用于file协议导航。
 
