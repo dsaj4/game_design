@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-30",
+  "scope": "Minimal visual candidate, same five identities; no main-game integration",
+  "shaChecks": 66,
+  "lockedFiles": 48,
+  "textureResources": 11,
+  "nativeChecksPassed": true,
+  "manualReview": "Five source marks, size board and alpha grid inspected; no mage, props or dense texture. Shape balance remains reviewable.",
+  "secondCleanDirectory": "NotRun",
+  "acceptance": "PendingReview",
+  "localLinks": 14
+}

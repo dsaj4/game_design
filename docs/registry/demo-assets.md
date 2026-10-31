@@ -93,6 +93,8 @@
 
 - 2026-10-30续为ALCHEMY-MATERIAL-CARDS-02：[首批五张法师互动版](../../yanzhou/visual/alchemy-material-cards-2026-10-30/batch-01-mage-v02/README.md)。用户指定同五张加入护盾同款法师，灰赭兜帽／暗红披巾，分别引水／引火／拢土／御风／扶草；仍5/32，非新增材料批次。五次内置image_gen、共用纸框与原生单图合成，同规格源件／提示词／SHA／50文件包沿本版manifest。ReadyForScope / PresentLocal限新目录导入、尺寸／三底alpha、分层与成品一致及纹理复用检查，角色与构图PendingReview；未另重复第二次干净目录或接入工程。01版及固定ZIP不改，派生自本AS@01并使用AS-G002-038角色基准。
 
+- 2026-10-30续为ALCHEMY-MATERIAL-CARDS-03：[极简五元素](../../yanzhou/visual/alchemy-material-cards-2026-10-30/batch-01-minimal-v03/README.md)。用户认为前稿过繁，去法师／场景／密纹，五次内置image_gen生成水滴、火焰、土块、风线与双叶；改用原创SVG暖白细框，不沿用旧纸像素。1024×1536源／成品、65%居中符号、48文件锁和提示词沿本版manifest。ReadyForScope / PresentLocal限新目录原生导入、尺寸／透明、合成一致、纹理复用与文件检查；PendingReview、未接工程。旧01／02及队列不改，仍5/32。
+
 ## Demo
 
 ### <a id="dm-g002-022"></a>DM-G002-022 双护符动作审阅播放器

@@ -1,0 +1,162 @@
+{
+  "schema": "yanzhou-material-card-batch.1",
+  "id": "AS-G002-039",
+  "version": "ALCHEMY-MATERIAL-CARDS-03",
+  "date": "2026-10-30",
+  "project": "game-002",
+  "direction": "main",
+  "reviewBatch": 1,
+  "variant": "Minimal five elements, no mage",
+  "acceptance": "PendingReview",
+  "lifecycle": "ReadyForScope",
+  "access": "PresentLocal",
+  "input": {
+    "commit": "a9fea5965150c4fa161aabc84f6c4a28f229f2df",
+    "mode": "CUSTOM",
+    "intent": "User rejects excessive complexity; create minimalist versions of the same five elements without mage.",
+    "imageReferences": [],
+    "uniqueMaterials": 5,
+    "totalMaterials": 32,
+    "remainingQueued": 27
+  },
+  "generation": {
+    "tool": "built-in image_gen",
+    "calls": 5,
+    "method": "One new transparent monochrome-style element mark per call. Original PNG bytes preserved."
+  },
+  "items": [
+    {
+      "id": "water",
+      "name": "水",
+      "ordinal": 1,
+      "source": "sources/water-v01.png",
+      "prompt": "prompts/water-v01.txt",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a18aac-01e1-7ed2-b07c-0165834855ed\\exec-2c3b286f-f551-4f1d-94f0-666ea70aed8b.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 997782,
+      "sha256": "f7c9b9b3bb8d57ce0587310df7f98633f3364abc966048fa2b8e20d65c3383dd"
+    },
+    {
+      "id": "fire",
+      "name": "火",
+      "ordinal": 2,
+      "source": "sources/fire-v01.png",
+      "prompt": "prompts/fire-v01.txt",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a18aac-01e1-7ed2-b07c-0165834855ed\\exec-2d08c01c-2442-4fe9-b7e8-454d095adccb.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1052225,
+      "sha256": "24715acb83b8d0e2ea6e73ea89254ad257fc3d765a39b0022a0f623678242552"
+    },
+    {
+      "id": "earth",
+      "name": "土",
+      "ordinal": 3,
+      "source": "sources/earth-v01.png",
+      "prompt": "prompts/earth-v01.txt",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a18aac-01e1-7ed2-b07c-0165834855ed\\exec-0da670dd-9bd6-4663-98fc-1aa1e94b3f94.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 930027,
+      "sha256": "003d1cc34209f3c51e9abd44e6997d68a9b7c152b67667331baaea94994dbc47"
+    },
+    {
+      "id": "wind",
+      "name": "风",
+      "ordinal": 4,
+      "source": "sources/wind-v01.png",
+      "prompt": "prompts/wind-v01.txt",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a18aac-01e1-7ed2-b07c-0165834855ed\\exec-3744c9f1-a6c3-473d-8e0a-e20c2a8135b7.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 792101,
+      "sha256": "f85d7751a94d60385a766fdebf24f31ed3f4a398f6a66cb0f85e27aefb734168"
+    },
+    {
+      "id": "herb",
+      "name": "草",
+      "ordinal": 5,
+      "source": "sources/herb-v01.png",
+      "prompt": "prompts/herb-v01.txt",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a18aac-01e1-7ed2-b07c-0165834855ed\\exec-9fb8276f-f6a3-4b28-87a4-26f7fa99b13d.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 879712,
+      "sha256": "9bf415b9ee4c0e78cc294dde4dbaacc7a6eb2c3aba63e24e4da3c741aede3a08"
+    }
+  ],
+  "paper": {
+    "type": "original code-native SVG",
+    "path": "E:/Project/yanzhou-art-assets/alchemy-material-cards-2026-10-30/batch-01-minimal-v03/cards/shared/paper-frame-1024.svg",
+    "sha256": "f8b6c20400227c54845509d3b66356c90609593e683b6774c63a615476665228",
+    "description": "Plain warm ivory rounded card plus thin inset line, no old texture or corner ornaments."
+  },
+  "contract": {
+    "canvas": [
+      1024,
+      1536
+    ],
+    "pivotUV": [
+      0.5,
+      0.5
+    ],
+    "trim": false,
+    "illustrationRectUV": [
+      0.175,
+      0.175,
+      0.65,
+      0.65
+    ],
+    "runtimeDefault": "flat PNG per element",
+    "text": "no in-card text",
+    "mipmaps": true,
+    "filter": "linear with mipmaps",
+    "alpha": "straight",
+    "compression": "lossless"
+  },
+  "delivery": {
+    "directory": "E:/Project/yanzhou-art-assets/alchemy-material-cards-2026-10-30/batch-01-minimal-v03",
+    "lock": "asset-lock.json",
+    "lockSha256": "f6dddeaca0b8273dd641191da0d078afd99d372866f10f5bbf049b35b6f080d8",
+    "lockedFiles": 48,
+    "archive": "E:/Project/yanzhou-art-assets/alchemy-material-cards-2026-10-30/batch-01-minimal-v03.zip",
+    "archiveBytes": 5679804,
+    "archiveSha256": "cfd4c3864313a410dac50ff212d139d363de9abbf846c9adab3826a876a76a53"
+  },
+  "checks": {
+    "engine": "Godot4.7.2 native Compatibility",
+    "sizes": [
+      [
+        280,
+        420
+      ],
+      [
+        155,
+        229
+      ]
+    ],
+    "alphaBackgrounds": [
+      "dark",
+      "light",
+      "purple"
+    ],
+    "allFlatLayeredByteEqual": true,
+    "all100TextureRequestsShared": true,
+    "visual": "All five sources and size/alpha boards viewed. No mage, scene props or heavy texture. Water closed drop versus wind open lines distinct. Earth layer-block interpretation and optical balance await review.",
+    "notRun": [
+      "main-game integration",
+      "OS input",
+      "gameplay",
+      "second clean-directory repetition",
+      "user acceptance"
+    ]
+  },
+  "relationship": {
+    "derivedFrom": "AS-G002-039@ALCHEMY-MATERIAL-CARDS-02 (display pipeline only)",
+    "priorMaterialVersion": "../batch-01/manifest.json",
+    "priorMageVersion": "../batch-01-mage-v02/manifest.json",
+    "runtimeConsumers": []
+  },
+  "reuse": "Original generated marks and handwritten plain SVG UI surface; no third-party source images/code/font files. Prior frozen versions unchanged. Internal project art review."
+}
