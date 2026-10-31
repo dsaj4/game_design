@@ -10,7 +10,7 @@ Project ID：game-002-optimization。2026-10-23。当前活动方向见下表。
 
 | 方向 | 目标与状态 | 阅读范围 |
 | --- | --- | --- |
-| [DIR-043 背包管理式法器生产](DIR-043-backpack-production/README.md) | 已选A继续探索：战前配置法器与固定供料位，战中展示生产；Raw / Unqualified，Hypothesis / NotRun | CORE启动时已提交GDD＋四款官方公开玩法参照；固定版本与边界见方向页 |
+| [DIR-043 背包管理式法器生产](DIR-043-backpack-production/README.md) | A深化：相邻接口、供料位尺寸上限、手牌与下一批预放分区；Raw / Unqualified，Hypothesis / NotRun | CORE启动时已提交GDD＋四款官方公开玩法参照；固定版本与边界见方向页 |
 | [DIR-042 纸本秘术工坊](DIR-042-herbal-engraving-style/README.md) | 用户暂定v03为本轮桌面战斗设计基准，独立符号板为卡牌重点参考；其余整场稿与旧美术方向退出活动区，玩法与交互状态保持 | CUSTOM；本轮局部视觉管理，既定背景版本及研究来源沿方向页，不回滚CORE-067 |
 | [DIR-041 法器系统成型玩法深化和游戏后期体验定义](DIR-041-artifact-endgame/README.md) | 自养丹炉、咒轮合奏与行进洞府三版机制候选；Raw / Unqualified，Hypothesis / NotRun，先审阅再定实现 | GDD完整56份＋明确增补7份；固定版本与逐文件覆盖见方向页；另有5款公开参考研究 |
 | [DIR-039 二维表现与首场战斗交互](DIR-039-2d-first-battle/README.md) | 具体战斗情景、三种二维结构与最小探索循环；Raw / Unqualified，玩法Hypothesis / NotRun，未启动实现 | GDD完整56份＋7份明确增补＋用户参考图；固定启动版本与分批覆盖见方向阅读日志 |
