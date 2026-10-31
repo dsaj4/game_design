@@ -1,17 +1,18 @@
 # 当前设计来源索引
 
-2026-10-27 · SourceReview。当前采纳与资格沿[基准](baseline.md)；本页只回答结论来自哪里，不属于日常开发或完整GDD必读包。引用默认取任务共同提交，来源原件按自身固定输入解释。
+2026-10-31 · SourceReview。当前采纳与资格沿[基准](baseline.md)；本页只回答结论来自哪里，不属于日常开发或完整GDD必读包。引用默认取任务共同提交，来源原件按自身固定输入解释。
 
 ## 规则来源
 
 | 内容 | 依据 |
 | --- | --- |
+| 当前背包式法器管理 | [CORE-068](../sources/draft-changes/D-2026-10-31-backpack-production.md)，来源为DIR-043的Qualified M与主系统E；替换手牌直接开工、临时路由／优先级及战中切用途，新增专属待料和默认自动补料；只采纳明确范围，体验未验证 |
 | 当前统一卡牌与手动使用 | [CORE-067](../sources/draft-changes/D-2026-10-27-unified-card-model.md)，替换049／058中介产物及065自动上桌、H3、点数和整轮编辑限制；直接产卡、列间布牌和回收，旧规则仅未替换部分生效 |
-| 当前限定完整首场输入 | [CORE-066 first-round-battle.1](../sources/draft-changes/D-2026-10-23-round-first-battle.md)，冻结EX-004起始套组及完整敌表；CORE-067已迁移手动路线与相应胜败／恢复预期 |
+| 当前限定完整首场输入 | [CORE-066 first-round-battle.1](../sources/draft-changes/D-2026-10-23-round-first-battle.md)，冻结EX-004起始套组及完整敌表；CORE-067迁移手动路线，CORE-068再迁移战前固定用途与对照胜路；未补生产网格／材料内容 |
 | 当前回合、手牌、整理与敌牌接口 | [CORE-065 round-hand.1](../sources/draft-changes/D-2026-10-23-round-hand-settlement.md)，替换以下旧来源中的连续拍、Q预留、r→T及对应暂停／疲劳条款；未替换部分沿原资格 |
 | 原核心与兼容复用 | [CORE-037起点](../sources/draft-changes/D-2026-10-01-timeline-production-core.md) · [CORE-048兼容复用](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md) |
 | 铭刻结构 | [CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md) |
-| 供料调整 | [CORE-050](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md) |
+| 原供料调整 | [CORE-050](../sources/draft-changes/D-2026-10-04-routing-response-clarification.md)，临时路由／结束拍及动态优先级由068淘汰，当前批次不可免费撤回仍保留 |
 | 单一D、预留和拍序 | [CORE-051](../sources/draft-changes/D-2026-10-05-single-processing-time.md) · [CORE-052](../sources/draft-changes/D-2026-10-05-production-queue-interfaces.md) · [CORE-053](../sources/draft-changes/D-2026-10-05-stage-one-common-timing.md) |
 | 敌情 | [CORE-054](../sources/draft-changes/D-2026-10-05-stage-two-enemy-pressure.md) |
 | 冻结与锁定 | [CORE-055](../sources/draft-changes/D-2026-10-08-batch-freeze-consumption-lock.md) |

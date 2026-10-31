@@ -1,6 +1,6 @@
 # 任务设计包：回合、手牌与布牌
 
-2026-10-27 · Derived Design / CORE-067 · 已同步，执行NotRun。包与来源共用执行任务固定的完整设计提交；源规则沿[采纳D](../../sources/draft-changes/D-2026-10-27-unified-card-model.md)，真实首场沿[EX-004](../../design/examples/round-first-battle.md)。
+2026-10-31 · Derived Design / CORE-067＋068 · 已同步，执行NotRun。包与来源共用执行任务固定的完整设计提交；源规则沿[采纳D](../../sources/draft-changes/D-2026-10-27-unified-card-model.md)，真实首场沿[EX-004](../../design/examples/round-first-battle.md)。
 
 ## 玩家目标与范围
 
@@ -10,10 +10,10 @@
 
 | 环节 | 行为与来源 |
 | --- | --- |
-| 时间／准备 | 第0拍就绪后首次开工；换轮清结果、布敌牌，无点数重置，不推进D或额外开工。[TL-11](../../design/systems/action-card-system/rules.md#tl-11-共同拍序与效果边界) |
+| 时间／准备 | 第0拍就绪后零材料首次开工，有材料初始预放最早第1拍吸收；换轮清结果、布敌牌，无点数重置，不推进D或额外开工。[TL-11](../../design/systems/action-card-system/rules.md#tl-11-共同拍序与效果边界) |
 | 生产 | 先结清制造再入对应手牌组，按完工／战前／批内序；无H3、烧牌或容量预留。[TL-05](../../design/systems/artifact-system/rules.md#tl-05-开工与成品去向) |
 | 手牌／上行 | 两组切换不动库存；已到战斗可用时点的可战斗牌手动进任意未开始空位；普通上牌不能覆盖已有牌，明确互换可交换两张合格牌。撤回／换牌／调序免费，一实例一处。[TL-08](../../design/GDD.md#tl-08-玩家战斗行)、[TL-18](../../design/common/interaction-save/rules.md#tl-18-手动上行撤回与整理) |
-| 窗口 | 生产收尾停稳及最终整理可布牌，最终整理也可原免费设置；非末列收尾后只开布牌，确认才下一敌列，列内／已处理列不可编辑。[TL-17／18](../../design/common/interaction-save/rules.md) |
+| 窗口 | 生产收尾停稳及最终整理可布牌，最终整理仅另可标记锁解，不动待料／材料锁定／自动开关／用途；非末列收尾后只开布牌，确认才下一敌列，列内／已处理列不可编辑。[TL-17／18](../../design/common/interaction-save/rules.md) |
 | 使用／回收 | 每列至多一次，先防护再其余、各组敌后我；整卡处理完才按权限回手／移除，空放也按属性；原位置只读，回手牌不是副本。[使用生命周期](../../design/systems/action-card-system/rules.md#卡牌使用与回收core-067) |
 | 敌人 | 后续优先覆盖下轮左位，原生对应位跳过；下一暗列仅确认后公开。[TL-09／16](../../design/systems/enemy-system/rules.md) |
 | 轮尾 | 第10轮末起双方5×n疲劳，每完整事件判终局；末列回手无第6列，终局不补步骤。[TL-13／24](../../design/GDD.md#tl-13-生命程序循环与终局) |
@@ -25,8 +25,8 @@
 
 ## 条件展开
 
-改配方读[资源TL-15／43](../../design/systems/resource-system/rules.md)，战斗与供料时点按[TL-15时点表](../../design/systems/resource-system/rules.md#卡牌的战斗与供料可用时点)分别判断：新产卡可下个合法窗上行、供料等下一生产拍；打断退料两者都待下一生产拍，战斗回收原卡不新增待用期；列间仍不加工。改打断读[打断包](interruption-restart.md)，改用途／支付读[用途包](future-purpose.md)。定时／维护不从本包启用。
+改配方读[资源TL-15／43](../../design/systems/resource-system/rules.md)，战斗与供料时点按[TL-15时点表](../../design/systems/resource-system/rules.md#卡牌的战斗与供料可用时点)分别判断：新产卡可下个合法窗上行、供料资格等下一生产拍，之后排入待料区最早再下一拍吸收；打断退料两者都待下一生产拍，战斗回收原卡不新增待用期；列间仍不加工。改打断读[打断包](interruption-restart.md)，改用途／支付读[用途包](future-purpose.md)。定时／维护不从本包启用。
 
 ## 对话讲解
 
-法器做好的牌先拿在手里，你决定放到前方哪一列。每列打完后，能回收的牌回到手中，可再放到后续空列，或与后续列尚未开始的己方牌互换；已经结算的格子不能重复用。如果把这张牌交给配方，它就不能同时挡伤害，合成完还会真的耗掉。免费的布牌没有取消这些取舍。
+法器做好的牌先拿在手里，你决定放到前方哪一列。每列打完后，能回收的牌回到手中，可再放到后续空列，或与后续列尚未开始的己方牌互换；已经结算的格子不能重复用。如果把这张牌排入供料区，它就不再是手牌，不能同时挡伤害，合成完还会真的耗掉。免费的布牌没有取消这些取舍。
