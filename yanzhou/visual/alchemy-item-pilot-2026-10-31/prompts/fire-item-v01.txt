@@ -1,0 +1,7 @@
+Use case: stylized-concept.
+Asset type: original readable inventory-item production illustration for a Chinese alchemy game.
+Reference image 1 is STYLE ONLY: inherit the shield sample's muted earth pigments, assertive dark hand-inked edges, broad carved cuts and lightly weathered hand-painted planes. DO NOT depict or copy its shield, person, arrows, circular ornament or layout.
+Primary request: a SIMPLE CLEAR physical item. Strong unique silhouette recognizable at 80px, 3-5 broad color regions, thick readable edge, restrained carved texture only inside major planes, simplified three-dimensional form. Not a flat elemental symbol, not a highly detailed painting, not a modern vector logo.
+Canvas square 1024x1024, one centered complete isolated item occupying about 72% of canvas height and width as appropriate, 12% clear margin, genuinely transparent background. No floor, cast shadow, scene, card border or checkerboard pattern. Empty alpha around the object.
+No text, numbers, lettering, UI, watermark, people or hands.
+Subject: ONE irregular chunky piece of black wooden charcoal, a simple tapered broken silhouette, two broad orange-red glowing fissures and ONE small attached ochre flame at its top. It must clearly remain a piece of CHARCOAL with a dark solid mass, not a flame emblem or campfire. No pile of logs, no coal heap, no smoke, no sparks.

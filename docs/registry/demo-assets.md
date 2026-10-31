@@ -90,6 +90,13 @@
 
 - 2026-10-30续为ALCHEMY-MATERIAL-CARDS-03：[极简五元素](../../yanzhou/visual/alchemy-material-cards-2026-10-30/batch-01-minimal-v03/README.md)。用户认为前稿过繁，去法师／场景／密纹，五次内置image_gen生成水滴、火焰、土块、风线与双叶；改用原创SVG暖白细框，不沿用旧纸像素。1024×1536源／成品、65%居中符号、48文件锁和提示词沿本版manifest。ReadyForScope / PresentLocal限新目录原生导入、尺寸／透明、合成一致、纹理复用与文件检查；PendingReview、未接工程。旧01／02及队列不改，仍5/32。
 
+## <a id="as-g002-040"></a>AS-G002-040 炼金物件与场景卡面五件试点
+
+- game-002 / main；[五件对照、源图与检查入口](../../yanzhou/visual/alchemy-item-pilot-2026-10-31/README.md)，ALCHEMY-ITEM-PILOT-01。按R05前五名称试制清泉水、燃烧木炭、黏土团、风息羽毛、疗伤草：各一张独立透明物品图及1024×1536不透明场景卡面，继承护盾画法、替换题材与构图，不新增身份或效果。
+- 内置image_gen共12次，10张当前资产及2张黏土旧稿；原PNG字节、12份准确提示词、原生成路径、实际尺寸、SHA与本机装载包由manifest固定。PNG／ZIP只本机保管，说明／清单／提示词入Git；物件画布尺寸不定义占格或点击几何。
+- ReadyForScope / PresentLocal，2026-10-31，仅独立Godot4.7.2的物件152／64px、卡面300×450／155×229、深浅紫底alpha、十表面纹理重复请求复用及导入／指纹检查。VisualPilot / PendingReview；未接入主游戏、确定网格形状或运行玩家识别实验。
+- uses AS-SH-007@BACKPACK-ITEMS-01（三张主图目视及目录，仅可读性原则，无第三方生成输入／运行素材）；derived-from AS-G002-037@05原创护盾画法。AS-G002-038／039旧包保持；R05全量Raw命名状态不因局部视觉试点晋级，仅项目内部制作与审阅。
+
 ## Demo
 
 ### <a id="dm-g002-022"></a>DM-G002-022 双护符动作审阅播放器（已退役）
@@ -583,4 +590,4 @@ DM-G002-011第十三批使用补记：GODOT-DEMONCARDS-CANDIDATES-B13-01，固�
 - shared-reference / media-analysis-lab；[图册、提取范围与交互证据入口](../../media-analysis-lab/runs/2026-10-31-backpack-battles-rea/README.md)，BACKPACK-ITEMS-01。用户指定本机 RAR 与 REA；原件和恢复结果保留 `E:/Game/Backpack Battles-analysis/2026-10-31/`，第三方二进制不入 Git。
 - 1,791 张 PNG，其中 Items 下 453 张（主体、变体、特效、遮罩和格子 UI）；382 条数据中 334 条匹配场景，48 条 version=1.0.0 未匹配；131 条原始配方声明，586 个脚本仍加密。源 RAR/EXE/PCK、工具及本机 manifest 的 SHA-256 由[身份元数据](../../media-analysis-lab/runs/2026-10-31-backpack-battles-rea/source-and-output.json)固定。
 - ReadyForScope / PresentLocal，2026-10-31，限 6,420 个 PCK 条目 MD5、全部 PNG 解码/哈希、物品表保留、匹配场景依赖和图册搜索/详情检查。REA 确认 PE 资源；PCK 不受支持的失败保留，物品提取来自 GDRE 静态恢复。没有运行源游戏；完整放置、合成和战斗算法 Unknown，不宣称脚本恢复或原工程无损还原。
-- uses: None；derived-from 用户提供的第三方 RAR 静态提取；暂无目标项目使用者。原作者／公开改作和再分发授权 Unknown，仅本机研究参考，不直接导入游戏，不升级 M 资格或设计采纳。
+- uses: None；derived-from 用户提供的第三方 RAR 静态提取；使用者AS-G002-040@ALCHEMY-ITEM-PILOT-01取三张物品图作目视可读性参照，未将第三方原图送入生成或运行包。原作者／公开改作和再分发授权 Unknown，仅本机研究参考，不直接导入游戏，不升级 M 资格或设计采纳。

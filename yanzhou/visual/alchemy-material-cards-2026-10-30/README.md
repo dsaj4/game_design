@@ -1,5 +1,7 @@
 # 炼金材料卡 · 分批制作与审阅
 
+2026-10-31：当前续作已转入[五件具体物品与场景卡面](../alchemy-item-pilot-2026-10-31/README.md)，AS-G002-040。用户更新物件命名与表现要求，独立物品图强调辨识，卡面作场景或艺术展示；下列01／02／03及32身份队列保持原日期记录，不再将元素符号或法师构图当作活动模板。
+
 2026-10-30 · game-002 / main · **AS-G002-039 / 当前ALCHEMY-MATERIAL-CARDS-03**。按用户要求，以护盾首件的正式规格生成炼金配置材料，**每次5张供审阅**。首批同五种材料已有01材料版、02法师互动版与当前03极简元素版，当前总量仍为5/32，余27种Queued。32身份来自[唯一B01材料表](../../sources/materials/M-2026-10-27-alchemy-batch-01.md)§4.1、4.3、4.4，不改配方、卡效或级别。
 
 ![极简五张审阅板](E:/Project/yanzhou-art-assets/alchemy-material-cards-2026-10-30/batch-01-minimal-v03/evidence/size-review.png)

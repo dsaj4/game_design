@@ -1,0 +1,268 @@
+{
+  "schema": "yanzhou-item-card-pilot.1",
+  "id": "AS-G002-040",
+  "version": "ALCHEMY-ITEM-PILOT-01",
+  "date": "2026-10-31",
+  "project": "game-002",
+  "direction": "main",
+  "designStatus": "VisualPilot",
+  "acceptance": "PendingReview",
+  "lifecycle": "ReadyForScope",
+  "access": "PresentLocal",
+  "input": {
+    "mode": "CUSTOM",
+    "commit": "37f30968e32d54f4e635a804f55388d3442c0dcc",
+    "rules": [
+      "CORE-069",
+      "CORE-068",
+      "CORE-067 inherited"
+    ],
+    "content": "B01 material identities, R05 first five display names only; no global naming adoption",
+    "intent": "Simple inventory objects plus scene/art card illustrations; retain shield medium, replace shield subject/composition",
+    "references": [
+      {
+        "id": "catalog",
+        "path": "E:/Game/Backpack Battles-analysis/2026-10-31/catalog/index.html",
+        "role": "Source index, not imagegen input",
+        "sha256": "010c2d85c6eac67bba8d01f904a890fb2bbc42586b643cc589d6dcc2fc06bef9"
+      },
+      {
+        "id": "herb",
+        "path": "E:/Game/Backpack Battles-analysis/2026-10-31/recovered/Items/Sprites/HealingHerbs.png",
+        "role": "Viewed for readability, not imagegen input",
+        "sha256": "746e611267fea2863f88dde055f6b34b87d756314eb14e31a7e9a02ee83d5f48"
+      },
+      {
+        "id": "coal",
+        "path": "E:/Game/Backpack Battles-analysis/2026-10-31/recovered/Items/Sprites/BurningCoal.png",
+        "role": "Viewed for readability, not imagegen input",
+        "sha256": "b01b6f1f496833636f6347708f64b8529c63e2cc174a58b03cdfb4cb116d14f1"
+      },
+      {
+        "id": "bottle",
+        "path": "E:/Game/Backpack Battles-analysis/2026-10-31/recovered/Items/Sprites/ManaPotion_flask.png",
+        "role": "Viewed for readability, not imagegen input",
+        "sha256": "17d25470f349ce15c937fc3ba2378cc6d9e4b0ea9b4c90bb8c3a5930fc883d24"
+      },
+      {
+        "id": "shield-style",
+        "path": "E:/Project/game/yanzhou/visual/card-face-exploration-2026-10-29/shield-scene-2026-10-30/shield-scene-v01.png",
+        "role": "Imagegen medium reference only",
+        "sha256": "8eba226959340b785b3145e13874cc1dbfac2de596c6247f460c413fe0e59b5d"
+      }
+    ]
+  },
+  "generation": {
+    "tool": "built-in image_gen",
+    "calls": 12,
+    "currentAssets": 10,
+    "archivedClayDrafts": 2,
+    "sourceProcessing": "Unchanged original PNG copies. Native Godot review composites only.",
+    "itemImageReferences": [
+      "shield-style"
+    ],
+    "cardImageReferences": [
+      "corresponding current item",
+      "shield-style"
+    ]
+  },
+  "active": [
+    {
+      "id": "water",
+      "name": "清泉水",
+      "surface": "item",
+      "version": "v01",
+      "source": "sources/items/water-v01.png",
+      "runtime": "items/water.png",
+      "prompt": "prompts/water-item-v01.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-cfaaba9d-68de-4ca9-b610-af29726c4b14.png",
+      "bytes": 1851393,
+      "sha256": "0c0520360f71b0ad7c0411f1665eb614e68b49dc670970e3fe62e4221f9c4cf1",
+      "width": 1254,
+      "height": 1254,
+      "colorType": 6
+    },
+    {
+      "id": "water",
+      "name": "清泉水",
+      "surface": "card",
+      "version": "v01",
+      "source": "sources/cards/water-v01.png",
+      "runtime": "cards/water.png",
+      "prompt": "prompts/water-card-v01.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-5f89f0be-fda8-4a62-bcb3-f49618fb1e2a.png",
+      "bytes": 3553817,
+      "sha256": "a0218d29bae7627c8fb2d8299851d92b10b36d1be1bb1b93eda476dda3c27ccd",
+      "width": 1024,
+      "height": 1536,
+      "colorType": 2
+    },
+    {
+      "id": "fire",
+      "name": "燃烧木炭",
+      "surface": "item",
+      "version": "v01",
+      "source": "sources/items/fire-v01.png",
+      "runtime": "items/fire.png",
+      "prompt": "prompts/fire-item-v01.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-d75cf625-0e3b-4bab-95eb-edac9d5c11c1.png",
+      "bytes": 1515040,
+      "sha256": "616315ddba5b941bb29692692d792678327fee4c5c4933e5421b6649a46290da",
+      "width": 1254,
+      "height": 1254,
+      "colorType": 6
+    },
+    {
+      "id": "fire",
+      "name": "燃烧木炭",
+      "surface": "card",
+      "version": "v01",
+      "source": "sources/cards/fire-v01.png",
+      "runtime": "cards/fire.png",
+      "prompt": "prompts/fire-card-v01.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-36f01b76-6eaf-4c74-bb37-ce41f23eecd9.png",
+      "bytes": 3360750,
+      "sha256": "7ae488f38f49809fdf06d7466c194dce1a0fd35ba63fa08a73ef42469ed49446",
+      "width": 1024,
+      "height": 1536,
+      "colorType": 2
+    },
+    {
+      "id": "wind",
+      "name": "风息羽毛",
+      "surface": "item",
+      "version": "v01",
+      "source": "sources/items/wind-v01.png",
+      "runtime": "items/wind.png",
+      "prompt": "prompts/wind-item-v01.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-fcc1e1e2-843d-49be-8bd2-94c2d13b16c1.png",
+      "bytes": 1397620,
+      "sha256": "834e666d093f9ff969f2903abe8a3265ec9a41349bbc5c162de82a6bb2581086",
+      "width": 1254,
+      "height": 1254,
+      "colorType": 6
+    },
+    {
+      "id": "wind",
+      "name": "风息羽毛",
+      "surface": "card",
+      "version": "v01",
+      "source": "sources/cards/wind-v01.png",
+      "runtime": "cards/wind.png",
+      "prompt": "prompts/wind-card-v01.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-1bd06dd4-13ac-4560-a9b8-a74251f3358c.png",
+      "bytes": 3384832,
+      "sha256": "75d97dcedd55aba25c8a8a2eeaec4ac1c00e53828e7fff0d384088feb2df912b",
+      "width": 1024,
+      "height": 1536,
+      "colorType": 2
+    },
+    {
+      "id": "herb",
+      "name": "疗伤草",
+      "surface": "item",
+      "version": "v01",
+      "source": "sources/items/herb-v01.png",
+      "runtime": "items/herb.png",
+      "prompt": "prompts/herb-item-v01.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-e8736585-faf4-4ea7-93db-ffd59182b7ee.png",
+      "bytes": 1662850,
+      "sha256": "cdfbba0488d338e5c07551f29f650fb2d20f252bc665c2e98cf2c2685b2b0d93",
+      "width": 1254,
+      "height": 1254,
+      "colorType": 6
+    },
+    {
+      "id": "herb",
+      "name": "疗伤草",
+      "surface": "card",
+      "version": "v01",
+      "source": "sources/cards/herb-v01.png",
+      "runtime": "cards/herb.png",
+      "prompt": "prompts/herb-card-v01.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-67c26d51-d310-411d-991c-0cb51e1854a3.png",
+      "bytes": 3599238,
+      "sha256": "44c5228c3f598defff68c0e8b1e87fd28b2c334dded2037a67bab8f1cfdaffd6",
+      "width": 1024,
+      "height": 1536,
+      "colorType": 2
+    },
+    {
+      "id": "earth",
+      "name": "黏土团",
+      "surface": "item",
+      "version": "v02",
+      "source": "sources/items/earth-v02.png",
+      "runtime": "items/earth.png",
+      "prompt": "prompts/earth-item-v02.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-9d687ee4-d220-434e-812d-c57312e1e1f3.png",
+      "bytes": 1760308,
+      "sha256": "23c17c776235358699ee5d01f926403f912e52c9cd4a3416bd83b5cea9faedbe",
+      "width": 1586,
+      "height": 992,
+      "colorType": 6
+    },
+    {
+      "id": "earth",
+      "name": "黏土团",
+      "surface": "card",
+      "version": "v02",
+      "source": "sources/cards/earth-v02.png",
+      "runtime": "cards/earth.png",
+      "prompt": "prompts/earth-card-v02.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-dbc75081-e4dd-45ad-bebf-baa4207bf8da.png",
+      "bytes": 3336238,
+      "sha256": "372361c21c14fd33f5ddc10518f5bb2fce6540e43e2e2ed28c2468c53c542c87",
+      "width": 1024,
+      "height": 1536,
+      "colorType": 2
+    }
+  ],
+  "archived": [
+    {
+      "id": "earth",
+      "surface": "item",
+      "version": "v01",
+      "active": false,
+      "source": "sources/items/earth-v01.png",
+      "runtime": "archive/earth-item-v01.png",
+      "prompt": "prompts/earth-item-v01.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-7e164792-92db-4823-9a94-dba35600d107.png",
+      "bytes": 1932869,
+      "sha256": "f14ffe9b25b7967867e495389b0e21bbf900c9d19438c7cfbdbe10c40fca854c",
+      "width": 1254,
+      "height": 1254,
+      "colorType": 6
+    },
+    {
+      "id": "earth",
+      "surface": "card",
+      "version": "v01",
+      "active": false,
+      "source": "sources/cards/earth-v01.png",
+      "runtime": "archive/earth-card-v01.png",
+      "prompt": "prompts/earth-card-v01.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-8fdf97c2-8060-40d8-be17-b4a0fc7a031b.png",
+      "bytes": 3254521,
+      "sha256": "3d717a838cb244d884be8437a2664ed84ea440f5abb3507636642cb63f2c0c2e",
+      "width": 1024,
+      "height": 1536,
+      "colorType": 2
+    }
+  ],
+  "delivery": {
+    "directory": "E:/Project/yanzhou-art-assets/alchemy-item-pilot-2026-10-31",
+    "zip": "E:/Project/yanzhou-art-assets/alchemy-item-pilot-2026-10-31.zip",
+    "runtime": "Separate item/card Texture2D cache; contain; lossless; mipmap; straight alpha",
+    "geometry": "Unknown: no grid footprint or click polygon defined",
+    "thirdPartyRuntimeAssets": false,
+    "assetLock": {
+      "files": 50,
+      "sha256": "c4427631bdd50c06c090599a0c49a51aaf070e64f32c2bfeb1d5e4a452c680fc"
+    },
+    "zipBytes": 33110104,
+    "zipSha256": "96ca33418faf663209de932969c79224c724494d87c8ce74964478f967e48040",
+    "zipVerifiedMembers": 51
+  },
+  "checks": "checks.json"
+}

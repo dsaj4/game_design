@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-31",
+  "status": "ReadyForScope",
+  "acceptance": "PendingReview",
+  "sourceCopiesVerified": 12,
+  "activeImportsVerified": 10,
+  "native": {
+    "cards": {
+      "earth": {
+        "height": 1536,
+        "opaque": 1572864,
+        "visibleBounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "width": 1024,
+        "zeroAlpha": 0
+      },
+      "fire": {
+        "height": 1536,
+        "opaque": 1572864,
+        "visibleBounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "width": 1024,
+        "zeroAlpha": 0
+      },
+      "herb": {
+        "height": 1536,
+        "opaque": 1572864,
+        "visibleBounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "width": 1024,
+        "zeroAlpha": 0
+      },
+      "water": {
+        "height": 1536,
+        "opaque": 1572864,
+        "visibleBounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "width": 1024,
+        "zeroAlpha": 0
+      },
+      "wind": {
+        "height": 1536,
+        "opaque": 1572864,
+        "visibleBounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "width": 1024,
+        "zeroAlpha": 0
+      }
+    },
+    "items": {
+      "earth": {
+        "height": 992,
+        "opaque": 61,
+        "visibleBounds": [
+          85,
+          168,
+          1438,
+          726
+        ],
+        "width": 1586,
+        "zeroAlpha": 744656
+      },
+      "fire": {
+        "height": 1254,
+        "opaque": 469,
+        "visibleBounds": [
+          195,
+          37,
+          906,
+          1183
+        ],
+        "width": 1254,
+        "zeroAlpha": 997896
+      },
+      "herb": {
+        "height": 1254,
+        "opaque": 872,
+        "visibleBounds": [
+          52,
+          126,
+          1150,
+          1028
+        ],
+        "width": 1254,
+        "zeroAlpha": 945086
+      },
+      "water": {
+        "height": 1254,
+        "opaque": 440,
+        "visibleBounds": [
+          162,
+          48,
+          933,
+          1165
+        ],
+        "width": 1254,
+        "zeroAlpha": 809981
+      },
+      "wind": {
+        "height": 1254,
+        "opaque": 723,
+        "visibleBounds": [
+          107,
+          34,
+          1089,
+          1195
+        ],
+        "width": 1254,
+        "zeroAlpha": 1042058
+      }
+    },
+    "resourceReuse": {
+      "earth.card": true,
+      "earth.item": true,
+      "fire.card": true,
+      "fire.item": true,
+      "herb.card": true,
+      "herb.item": true,
+      "water.card": true,
+      "water.item": true,
+      "wind.card": true,
+      "wind.item": true
+    },
+    "scope": "Native Godot visual asset checks only; no gameplay or main-game integration"
+  },
+  "visualReview": {
+    "reviewed": [
+      "pilot-review.png",
+      "alpha-review.png"
+    ],
+    "observations": [
+      "Distinct five physical item silhouettes; no characters, shield, text or UI in asset images",
+      "Current clay uses v02 low solid lump rather than rolled hollow form",
+      "No visible rectangular matte on black, cream and purple; source partial alpha retained",
+      "64px item and 155x229 card views inspected; no player recognition experiment"
+    ],
+    "limitations": [
+      "Source surface texture still pronounced in large views",
+      "Item dimensions and alpha bounds do not define placement geometry",
+      "Main game integration, grid interactions, complete pool performance and user acceptance unverified"
+    ]
+  }
+}
