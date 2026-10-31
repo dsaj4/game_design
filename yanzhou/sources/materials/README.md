@@ -1,6 +1,6 @@
 # 合格来源素材
 
-- [炼金第一批材料与配方 B01](M-2026-10-27-alchemy-batch-01.md)：32种材料、24条前段与11条成品配方已由用户确认为首批，Qualified；平衡、卡效与完整规则规格待设计，NotRun。
+- [炼金第一批材料与配方 B01](M-2026-10-27-alchemy-batch-01.md)：原32材料身份与35配方Qualified；当前展示见[R05完整物件命名修订](../inbox/2026-10-31-alchemy-batch-01-full-names-r05.md)，取消字数约束、只改名称，原逻辑及11成品保留。新名称为展示方案；平衡与卡效待设计，NotRun。
 
 当前完整首场：[CORE-066 Qualified M](M-2026-10-23-round-first-battle.md)，[来源链](../README.md#当前完整首场来源链core-066)。限定输入已冻结，执行与体验NotRun；旧记录按原日期解释。
 
