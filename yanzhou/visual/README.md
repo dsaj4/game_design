@@ -1,6 +1,6 @@
 # 言咒本轮视觉基准
 
-2026-10-31法器现有三版：[A·粗线简洁](alchemy-apparatus-2026-10-31/README.md)，AS-G002-036@04，用户要求保留；[B·精线古朴](alchemy-apparatus-2026-10-31/antique-v05/README.md)，同AS@05；[C·Culdcept器物画法及三版切换](alchemy-apparatus-2026-10-31/culdcept-v06/README.md)，同AS@06。C参考本机CounterShield／Tonfa的手绘色面和冷暖体积，提示词锁定既有简洁器形、部件数、留白与细节量，新增两张完整透明图；前两版42个登记文件保持原SHA。三版均为平炼釜／白化曲颈瓶外形候选，C待审阅，具体占形／接口与工程未定未验；小尺寸、三背景及切换已核，旧双护符清理沿04记录。
+2026-10-31法器现有四版：[D·古朴新器形及四版切换](alchemy-apparatus-2026-10-31/archaic-form-v07/README.md)，AS-G002-036@07，本轮解除旧器形约束，改为无足宽腹陶釜、短折颈陶瓶与概括哑光色面，保持低细节量；[A·粗线简洁](alchemy-apparatus-2026-10-31/README.md)@04、[B·精线古朴](alchemy-apparatus-2026-10-31/antique-v05/README.md)@05、[C·Culdcept器物画法](alchemy-apparatus-2026-10-31/culdcept-v06/README.md)@06保留，前三版61个登记文件保持原SHA。D两次文字生图无图像输入，造型与风格待审阅；三背景、小尺寸、剪影及四版切换已核，具体占形／接口与工程未定未验，旧双护符清理沿04记录。
 
 2026-10-28 · game-002。用户暂定桌面风格以 **v03** 为基准，卡牌设计重点参考独立符号板；已沿新设计制作 **v06底部扇形持牌示意**。后续视觉工作从本页进入。
 

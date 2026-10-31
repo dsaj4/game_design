@@ -53,6 +53,8 @@
 
 ## <a id="as-g002-036"></a>AS-G002-036 炼金法器美术源件
 
+- 2026-10-31并存变体 **ALCHEMY-APPARATUS-07**：[古朴新器形及四版切换](../../yanzhou/visual/alchemy-apparatus-2026-10-31/archaic-form-v07/README.md)。用户要求器形重设计、更加古朴且减少拟真感；解除06旧轮廓约束，平炼釜改无足宽腹陶釜，曲颈瓶改短折颈、去套环，以哑光大色面保持低细节量。两次内置image_gen全新文字生图，无图像输入；1536×1024／1225×1284 RGBA原件、准确提示词与SHA独立保存。前三版61个登记文件SHA保持；四版切换、三背景、小尺寸与剪影已核，D接受PendingReview，不改占格、接口、玩法或工程。
+
 - 2026-10-31并存变体 **ALCHEMY-APPARATUS-06**：[Culdcept器物画法与三版切换](../../yanzhou/visual/alchemy-apparatus-2026-10-31/culdcept-v06/README.md)。以05两件为编辑目标，uses AS-SH-005的CounterShield／Tonfa主体作画法参考；提示词明确保留简洁器形、部件／饰物数量和留白，只迁移手绘色面、笔触和冷暖体积。两次内置image_gen生成1343×1171／1135×1386 RGBA，原图／提示词／输入角色与SHA沿独立清单；前两版42文件SHA保持。三底、切换和小尺寸已核，C接受PendingReview，不改规则或接入引擎。
 
 - 2026-10-31并存变体 **ALCHEMY-APPARATUS-05**：[精线古朴版及A／B切换](../../yanzhou/visual/alchemy-apparatus-2026-10-31/antique-v05/README.md)。用户明确保留04版，再要求线条精致、古朴神秘且不增细节；两次内置image_gen以04两图为编辑输入，生成1343×1171／1135×1386 RGBA，器形与零件数延续，仅调整墨线、旧色和明暗。04版23个登记文件SHA保持，新图／提示词／manifest独立保存；三背景、小尺寸、剪影和切换已核，新风格PendingReview，不改玩法或工程。

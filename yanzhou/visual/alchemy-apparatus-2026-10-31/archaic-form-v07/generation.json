@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-31",
+  "mode": "built-in image_gen",
+  "imageReferenceInputs": [],
+  "intent": "New forms from text, archaic stylization and low detail; do not lock old shapes",
+  "records": [
+    {
+      "file": "refining-kettle-archaic-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-e5d2d83d-3231-4c89-8c37-20464601e864.png",
+      "prompt": "prompts/refining-kettle.txt"
+    },
+    {
+      "file": "albedo-retort-archaic-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-e8896e64-ba13-476b-9fc2-039ba7795ed8.png",
+      "prompt": "prompts/albedo-retort.txt"
+    }
+  ]
+}

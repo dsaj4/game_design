@@ -1,0 +1,303 @@
+{
+  "schema": "alchemy-apparatus-archaic-form.1",
+  "date": "2026-10-31",
+  "project": "game-002",
+  "direction": "main",
+  "assetId": "AS-G002-036",
+  "version": "ALCHEMY-APPARATUS-07",
+  "designInputCommit": "9e7762168610ca7a1731de32ab2238a8bda07522",
+  "scope": "New archaic vessel forms with low detail and flatter matte painting; no gameplay or engine change",
+  "lifecycle": "ReadyForScope",
+  "access": "PresentLocal",
+  "acceptance": "PendingReview",
+  "generation": {
+    "mode": "built-in image_gen",
+    "count": 2,
+    "imageReferenceInputs": [],
+    "intent": "New forms from text, archaic stylization and low detail; do not lock old shapes",
+    "postprocess": "Byte-identical copies; no programmatic image edit, crop, alpha cleanup, recolor or rescale. Runtime whole-image placement only."
+  },
+  "images": [
+    {
+      "file": "refining-kettle-archaic-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-e5d2d83d-3231-4c89-8c37-20464601e864.png",
+      "prompt": "prompts/refining-kettle.txt",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1781949,
+      "sha256": "ee66e8d16f575b53a050a9d50d0379fa4eb0892f18ee3eb7fe17484eef62aac5",
+      "alphaZero": 616619,
+      "alphaSemi": 956245,
+      "bounds": {
+        "left": 55,
+        "top": 165,
+        "right": 1480,
+        "bottom": 900,
+        "width": 1426,
+        "height": 736
+      }
+    },
+    {
+      "file": "albedo-retort-archaic-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-e8896e64-ba13-476b-9fc2-039ba7795ed8.png",
+      "prompt": "prompts/albedo-retort.txt",
+      "width": 1225,
+      "height": 1284,
+      "bytes": 1116654,
+      "sha256": "6a9855d56282fdebdb7ec49a47a1a48489488b4c67d22c6498d294a805ec4445",
+      "alphaZero": 904479,
+      "alphaSemi": 667368,
+      "bounds": {
+        "left": 144,
+        "top": 122,
+        "right": 1080,
+        "bottom": 1207,
+        "width": 937,
+        "height": 1086
+      }
+    }
+  ],
+  "uses": {
+    "conceptualPredecessor": "AS-G002-036@ALCHEMY-APPARATUS-06",
+    "mode": "Text-only fresh generation. Culdcept BEGINS painting direction inherited in words; no new third-party image inputs."
+  },
+  "preservedVersions": [
+    {
+      "version": "ALCHEMY-APPARATUS-04",
+      "manifest": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/manifest.json",
+        "bytes": 11084,
+        "sha256": "21e82607c7d520869920c1f665f0ab2f995552d497d20dad4e8572d70b142cdc"
+      },
+      "registeredFilesVerified": 23
+    },
+    {
+      "version": "ALCHEMY-APPARATUS-05",
+      "manifest": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/antique-v05/manifest.json",
+        "bytes": 9485,
+        "sha256": "041cc151d3aa20429c9809c3a174675e161696a7e38cd92fc1debb7f3e2906ef"
+      },
+      "registeredFilesVerified": 19
+    },
+    {
+      "version": "ALCHEMY-APPARATUS-06",
+      "manifest": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/culdcept-v06/manifest.json",
+        "bytes": 12644,
+        "sha256": "4a4e9d089b5f0e06f6a1b8272ce880ff2b45200268e13af05b7a090805a19ad6"
+      },
+      "registeredFilesVerified": 19
+    }
+  ],
+  "entry": {
+    "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/archaic-form-v07/preview.html",
+    "bytes": 15278105,
+    "sha256": "48347f4697c058965d24fc6e5979dc8a2c157182a15377174c5f54068b523f60"
+  },
+  "prototypeFiles": [
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/archaic-form-v07/browser-qa.json",
+      "bytes": 1520,
+      "sha256": "ab928a2ed0b370399dcd675b8d7a20fabe464a5bf7550a539a3369e1d7b0441f"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/archaic-form-v07/build.mjs",
+      "bytes": 5016,
+      "sha256": "2028b3b168654a01dfd777c4d0558ef65d8c954b0e2de851630917a25abc53f6"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/archaic-form-v07/finalize.mjs",
+      "bytes": 4723,
+      "sha256": "6d3bd91481f089cdf7ec0831333a60fd33b1ea412fa6e574d1c6cd6f3a0764ee"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/archaic-form-v07/image-info.json",
+      "bytes": 4511,
+      "sha256": "92399a0d70fe8169d79acddd644f60feed0679df65cf2f23ce74a10ca49691e6"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/archaic-form-v07/prepare-preview.mjs",
+      "bytes": 2250,
+      "sha256": "f8b8410bb2fa319d49c8b8a98eb821ce320c62e3678dd75ca3775620c0b0cfd4"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/archaic-form-v07/preview.html",
+      "bytes": 15278105,
+      "sha256": "48347f4697c058965d24fc6e5979dc8a2c157182a15377174c5f54068b523f60"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/archaic-form-v07/README.md",
+      "bytes": 1270,
+      "sha256": "5c96f65d415cb39ed19130b624c452828e46b26e54b0470fde2ff25865e482d6"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/archaic-form-v07/serve.mjs",
+      "bytes": 472,
+      "sha256": "f72384fc518b323d6e40293adc5789cfdea8ce38bb3f3681fc82cd5ca8ac3764"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/archaic-form-v07/evidence/01-d-paper.png",
+      "bytes": 54147,
+      "sha256": "c0d0db83caa6db57295d6cbfafa5ce31216868b342a79d960896bd710ae1791d"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/archaic-form-v07/evidence/02-d-dark.png",
+      "bytes": 55800,
+      "sha256": "4900c320900aec30dd38379039ce44495abae8c7d3956eb2e281fc63657d0d08"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/archaic-form-v07/evidence/03-d-wood.png",
+      "bytes": 55209,
+      "sha256": "8f94c0b6977105750f7be68ac4c28439c656ef0d3664338b7227d0f92b58302a"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/archaic-form-v07/evidence/04-d-silhouette.png",
+      "bytes": 50099,
+      "sha256": "d09501cdba216ae93009aa2b9cd6804e91235503b2b138bacdac6a10bb9acfae"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/archaic-form-v07/evidence/05-current-d.png",
+      "bytes": 54697,
+      "sha256": "183b0439a7f86005569d1fff1a9fadf42cabb9fc16e7b29b13b3530cbb01ee99"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/png-info.mjs",
+      "bytes": 1512,
+      "sha256": "0962b42625537f9e7adca43ada025cc80e69d2b232adeb4bc14b51e237d649e0"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/culdcept-v06/build.mjs",
+      "bytes": 4866,
+      "sha256": "c73c60cd33b586fec6851516f10c80c9602cd25ce1921e7b52dd669c20b0596a"
+    }
+  ],
+  "registeredTexts": [
+    {
+      "file": "README.md",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/archaic-form-v07/README.md",
+      "bytes": 3125,
+      "sha256": "90b2dbe61b7f263e020ef10df905d2073aa64c250dee737a9c5431356e5e1e5f"
+    },
+    {
+      "file": "generation.json",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/archaic-form-v07/generation.json",
+      "bytes": 717,
+      "sha256": "03a7cb8f2ce9e8383a0dc3091b283e4bdbc38a6e22e90a135c11b010e8b7e0de"
+    },
+    {
+      "file": "prompts/refining-kettle.txt",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/archaic-form-v07/prompts/refining-kettle.txt",
+      "bytes": 2046,
+      "sha256": "a619d789c2db73fcce462a41bc26a1bd9479c1cc79322d1655334dbec98b6ed3"
+    },
+    {
+      "file": "prompts/albedo-retort.txt",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/archaic-form-v07/prompts/albedo-retort.txt",
+      "bytes": 2269,
+      "sha256": "08a7e9f3d6cbd7a1a16676c0ff3ee4168a2d4c0f56b01999439c117f23d0d245"
+    }
+  ],
+  "checks": {
+    "priorRegisteredFilesUnchanged": 61,
+    "newImageOriginalsMatch": true,
+    "trueAlpha": true,
+    "embeddedImages": 8,
+    "linksChecked": 15,
+    "browser": {
+      "date": "2026-10-31",
+      "version": "ALCHEMY-APPARATUS-07",
+      "status": "PassedForScope",
+      "observations": [
+        {
+          "edition": "a",
+          "overflow": false,
+          "visible": [
+            "a",
+            "a"
+          ]
+        },
+        {
+          "edition": "b",
+          "overflow": false,
+          "visible": [
+            "b",
+            "b"
+          ]
+        },
+        {
+          "edition": "c",
+          "overflow": false,
+          "visible": [
+            "c",
+            "c"
+          ]
+        },
+        {
+          "edition": "both",
+          "overflow": false,
+          "visible": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "a",
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        {
+          "edition": "d",
+          "overflow": false,
+          "visible": [
+            "d",
+            "d"
+          ]
+        }
+      ],
+      "geometry": {
+        "overflow": false,
+        "silhouette": true,
+        "viewport": {
+          "height": 871,
+          "width": 460
+        },
+        "visible": [
+          {
+            "sizes": [
+              224,
+              64,
+              96,
+              160
+            ],
+            "style": "d"
+          },
+          {
+            "sizes": [
+              224,
+              64,
+              96,
+              160
+            ],
+            "style": "d"
+          }
+        ]
+      },
+      "scope": [
+        "A/B/C/D/all switch",
+        "Paper/dark/wood PNG alpha composition",
+        "224/64/96/160px and silhouette",
+        "Changed vessel silhouettes and flatter matte painting"
+      ],
+      "limits": [
+        "Agent visual judgement; user acceptance pending",
+        "Kettle ear holes become small at64px",
+        "No actual backpack or engine/gameplay testing"
+      ]
+    }
+  },
+  "rights": "Generated original vessels for local internal project review. No third-party raw image or code in preview. No public publishing or engine integration."
+}
