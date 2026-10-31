@@ -1,6 +1,6 @@
 # 设计来源链
 
-> 现行范围说明（2026-10-31）：CORE-068已采纳背包配置、专属待料与默认自动补料；CORE-067的统一卡牌／手动布牌保留未替代部分，CORE-066提供限定战斗内容。既有日期型记录保留原资格、原采纳及证据范围；下文旧来源链中的“当前／本轮”只指原日期。现行适用关系以[素材审查](../design/source-review.md)及权威规则为准，不把旧来源全文改写为新版，也不因新条款采纳而整体晋级早期Raw候选。
+> 现行范围说明（2026-10-31）：CORE-069已采纳空间辅助替换辅槽、同效叠加与可逆核心装配；CORE-068已采纳背包配置、专属待料与默认自动补料；CORE-067的统一卡牌／手动布牌保留未替代部分，CORE-066提供限定战斗内容。既有日期型记录保留原资格、原采纳及证据范围；下文旧来源链中的“当前／本轮”只指原日期。现行适用关系以[素材审查](../design/source-review.md)及权威规则为准，不把旧来源全文改写为新版，也不因新条款采纳而整体晋级早期Raw候选。
 
 Project ID：game-002。文档角色：SourceCollection / Navigation。这里保存设计依据与决定摘要，现行规则统一在[design/](../design/README.md)。新增记录按[轻量规范](../../docs/design-workflow.md#言咒轻量记录)：不保存逐字原话，共用固定版本，在使用处准确引用。
 
@@ -15,6 +15,10 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 
 [决策记录](../governance/decision-log.md)说明何时采纳了哪些范围。文件名和原设计ID保持，旧素材使用记录的链接已定位新路径；原提交和历史哈希仍按原路径解释。
 
+
+## 辅助道具与核心装配（CORE-069，已采纳）
+
+[方向摘要](../exploration/DIR-043-backpack-production/README.md) → [Qualified M](../exploration/DIR-043-backpack-production/M-2026-10-31-spatial-auxiliaries.md) → [主系统E](../exploration/DIR-043-backpack-production/E-2026-10-31-spatial-auxiliaries.md) → [采纳D](draft-changes/D-2026-10-31-spatial-auxiliaries.md)。Q12—Q22及明确写回授权闭合，取代辅槽／副铭文挂接和打造容量；迅速保持单一实体，几何内容仍待补。玩法Hypothesis，实现与验证NotRun。
 
 ## 背包式法器管理（CORE-068，已采纳）
 

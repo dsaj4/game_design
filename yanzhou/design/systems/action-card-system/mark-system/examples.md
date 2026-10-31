@@ -28,7 +28,7 @@
 
 依据：[叠层与存续](rules.md#叠层上限与存续)及 [TL-13 终局](../rules.md#tl-13-生命程序循环与终局)，Q-MARK-4。周期登记的期限尚未结束，但战斗已在完整事件后判定终局：后续周期兑现停止，不能继续累加战后收益。CORE-057现定结束拍e不含兑现：e拍边界先失效，即使原下次时点恰为e也不触发。
 
-读取／支付不足的例子见 [行动卡示例](../examples.md#读取条件与足额支付)，开工缺材料的例子见 [辅槽示例](../../inscription-system/augment-system/examples.md)。
+读取／支付不足的例子见 [行动卡示例](../examples.md#读取条件与足额支付)，开工缺材料的例子见 [辅助道具示例](../../inscription-system/augment-system/examples.md)。
 
 ## 冻结、主动锁定与剩余量（CORE-055）
 

@@ -1,6 +1,6 @@
 # 任务设计包：回合、手牌与布牌
 
-2026-10-31 · Derived Design / CORE-067＋068 · 已同步，执行NotRun。包与来源共用执行任务固定的完整设计提交；源规则沿[采纳D](../../sources/draft-changes/D-2026-10-27-unified-card-model.md)，真实首场沿[EX-004](../../design/examples/round-first-battle.md)。
+2026-10-31 · Derived Design / CORE-067＋068＋069 · 已同步，执行NotRun。包与来源共用执行任务固定的完整设计提交；源规则沿[采纳D](../../sources/draft-changes/D-2026-10-27-unified-card-model.md)，真实首场沿[EX-004](../../design/examples/round-first-battle.md)。
 
 ## 玩家目标与范围
 
@@ -14,10 +14,10 @@
 | 生产 | 先结清制造再入对应手牌组，按完工／战前／批内序；无H3、烧牌或容量预留。[TL-05](../../design/systems/artifact-system/rules.md#tl-05-开工与成品去向) |
 | 手牌／上行 | 两组切换不动库存；已到战斗可用时点的可战斗牌手动进任意未开始空位；普通上牌不能覆盖已有牌，明确互换可交换两张合格牌。撤回／换牌／调序免费，一实例一处。[TL-08](../../design/GDD.md#tl-08-玩家战斗行)、[TL-18](../../design/common/interaction-save/rules.md#tl-18-手动上行撤回与整理) |
 | 窗口 | 生产收尾停稳及最终整理可布牌，最终整理仅另可标记锁解，不动待料／材料锁定／自动开关／用途；非末列收尾后只开布牌，确认才下一敌列，列内／已处理列不可编辑。[TL-17／18](../../design/common/interaction-save/rules.md) |
-| 使用／回收 | 每列至多一次，先防护再其余、各组敌后我；整卡处理完才按权限回手／移除，空放也按属性；原位置只读，回手牌不是副本。[使用生命周期](../../design/systems/action-card-system/rules.md#卡牌使用与回收core-067) |
+| 使用／回收 | 每列至多一次，先防护再其余、各组敌后我；整卡处理完才按权限回手／移除，空放也按属性；原位置只读，回手牌不是副本；保留本批辅助合计贡献，不再次叠加。[使用生命周期](../../design/systems/action-card-system/rules.md#卡牌使用与回收core-067) |
 | 敌人 | 后续优先覆盖下轮左位，原生对应位跳过；下一暗列仅确认后公开。[TL-09／16](../../design/systems/enemy-system/rules.md) |
 | 轮尾 | 第10轮末起双方5×n疲劳，每完整事件判终局；末列回手无第6列，终局不补步骤。[TL-13／24](../../design/GDD.md#tl-13-生命程序循环与终局) |
-| 恢复 | 保留每卡身份、位置、使用步骤及回收／支付事实，列间确认与下一牌未公开状态；不重回收或复制。[TL-19](../../design/common/interaction-save/rules.md#tl-19-中断与恢复) |
+| 恢复 | 保留每卡身份、位置、使用步骤及回收／支付事实，列间确认与下一牌未公开状态；辅助贡献不重算，不重回收或复制。[TL-19](../../design/common/interaction-save/rules.md#tl-19-中断与恢复) |
 
 ## 正常、反例与恢复
 

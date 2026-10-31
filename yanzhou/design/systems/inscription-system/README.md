@@ -9,7 +9,7 @@
 | 看体验目标与失败信号 | [体验](experience.md) |
 | 看具体情境 | [示例](examples.md) |
 
-[状态与来源](../../baseline.md) · [集中问题](../../../governance/questions.md)（INS-Q01—07）
+[状态与来源](../../baseline.md) · [集中问题](../../../governance/questions.md)（INS-Q01—04／06—07；旧INS-Q05已淘汰）
 
 <!-- 旧章节链接保留；历史正文见 baseline 固定版本。 -->
 <a id="子系统"></a>

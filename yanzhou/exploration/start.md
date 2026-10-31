@@ -52,7 +52,7 @@ GDD不是只读主页后就算全读，也不是递归打开所有链接。当�
 | GDD、导航、版本 | `yanzhou/design/GDD.md`、`yanzhou/design/README.md`、`yanzhou/design/baseline.md` |
 | 五个已展开主系统（20份） | `yanzhou/design/systems/` 下 `artifact-system/`、`inscription-system/`、`action-card-system/`、`enemy-system/`、`resource-system/` 各自的 `rules.md`、`experience.md`、`design.md`、`examples.md`，仅此固定组合 |
 | 局外成长占位（1份） | `yanzhou/design/systems/meta-progression-system/README.md`，仅说明未设计与已有边界 |
-| 两个子系统（8份） | `yanzhou/design/systems/inscription-system/augment-system/` 与 `yanzhou/design/systems/action-card-system/mark-system/` 各自的 `rules.md`、`experience.md`、`design.md`、`examples.md`；辅槽与标记为局部 Qualified 框架，状态不随纳入阅读包改变 |
+| 两个子系统（8份） | `yanzhou/design/systems/inscription-system/augment-system/` 与 `yanzhou/design/systems/action-card-system/mark-system/` 各自的 `rules.md`、`experience.md`、`design.md`、`examples.md`；辅助道具已按CORE-069限定采纳替换辅槽；标记通用框架及未采纳扩展保持原资格，状态不随纳入阅读包改变 |
 | 公共流程／合同（12份） | `yanzhou/design/common/` 下 `run-route/`、`run-economy/`、`interaction-save/` 各自的 `rules.md`、`experience.md`、`design.md`、`examples.md` |
 | 内容 | `yanzhou/design/content/cards.md`、`yanzhou/design/content/wands.md`、`yanzhou/design/content/enemies-encounters.md` |
 | 跨系统案例（5份） | `yanzhou/design/examples/README.md`、`yanzhou/design/examples/simple-spell.md`、`yanzhou/design/examples/complete-battle.md`、`yanzhou/design/examples/round-hand.md`、`yanzhou/design/examples/round-first-battle.md` |
