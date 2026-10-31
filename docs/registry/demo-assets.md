@@ -53,6 +53,8 @@
 
 ## <a id="as-g002-036"></a>AS-G002-036 炼金法器美术源件
 
+- 2026-10-31并存变体 **ALCHEMY-APPARATUS-06**：[Culdcept器物画法与三版切换](../../yanzhou/visual/alchemy-apparatus-2026-10-31/culdcept-v06/README.md)。以05两件为编辑目标，uses AS-SH-005的CounterShield／Tonfa主体作画法参考；提示词明确保留简洁器形、部件／饰物数量和留白，只迁移手绘色面、笔触和冷暖体积。两次内置image_gen生成1343×1171／1135×1386 RGBA，原图／提示词／输入角色与SHA沿独立清单；前两版42文件SHA保持。三底、切换和小尺寸已核，C接受PendingReview，不改规则或接入引擎。
+
 - 2026-10-31并存变体 **ALCHEMY-APPARATUS-05**：[精线古朴版及A／B切换](../../yanzhou/visual/alchemy-apparatus-2026-10-31/antique-v05/README.md)。用户明确保留04版，再要求线条精致、古朴神秘且不增细节；两次内置image_gen以04两图为编辑输入，生成1343×1171／1135×1386 RGBA，器形与零件数延续，仅调整墨线、旧色和明暗。04版23个登记文件SHA保持，新图／提示词／manifest独立保存；三背景、小尺寸、剪影和切换已核，新风格PendingReview，不改玩法或工程。
 
 - game-002 / main；[两件简洁器物与新规则边界](../../yanzhou/visual/alchemy-apparatus-2026-10-31/README.md)，ALCHEMY-APPARATUS-04。用户指定从炼金设计另选两件，取B01平炼／白化工序制作平炼釜、白化曲颈瓶外形候选，未新增法器规则或兼容。
@@ -574,6 +576,8 @@ DM-G002-011第十三批使用补记：GODOT-DEMONCARDS-CANDIDATES-B13-01，固�
 - ReadyForScope / PresentLocal，2026-10-30，限各报告列明的局部静态／恢复源码检查；没有启动源游戏，未知的Shader数学、释放策略和手牌查看切换不补猜。uses AS-SH-005固定提取包；使用者AS-G002-038@SHIELD-CARD-PRODUCTION-01。第三方再分发许可Unknown，仅本机内部技术参考，不带原资源进入原创运行包。
 
 ## <a id="as-sh-005"></a>AS-SH-005 Culdcept BEGINS 本机卡面与美术图像包
+
+- 2026-10-31新增使用者：[AS-G002-036@ALCHEMY-APPARATUS-06](../../yanzhou/visual/alchemy-apparatus-2026-10-31/culdcept-v06/README.md)。CounterShield／Tonfa独立主体仅作器物画法输入，形状来自自制05版法器；未把第三方原图作为运行图片，复用边界沿原包。
 
 - shared-reference / media-analysis-lab；[资源图册、风格观察与维护入口](../../media-analysis-lab/runs/2026-10-30-culdcept-begins-art/README.md)，CULDCEPT-ART-2026-10-30-v01。用户指定本机安装，REA固定PE／元数据证据、UnityPy静态解码；原件与输出就地保管，不上传第三方二进制。
 - 120个bundle＋13个assets文件，9,913个PNG约2.73 GiB（含纹理／Sprite重复表现），重点为407张完整卡面、409个独立主体Sprite、434张卡材质纹理；22张接触表与搜索图册。固定包manifest SHA-256 `97e936ad27055530b9dcd32e9f4832c498a1d6fa1332f2193c84c48394597684`，准确本机路径／范围／源与导出SHA沿维护页。

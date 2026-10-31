@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-31",
+  "mode": "built-in image_gen",
+  "referencePackage": "AS-SH-005@CULDCEPT-ART-2026-10-30-v01",
+  "records": [
+    {
+      "file": "refining-kettle-culdcept-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-879c8af2-faeb-4ba7-942b-887595ee8eef.png",
+      "prompt": "prompts/refining-kettle.txt",
+      "target": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/antique-v05/refining-kettle-antique-v01.png",
+      "styleReferences": [
+        "E:/Game/Culdcept BEGINS-analysis/2026-10-30/images/03-card-3d-sprites/Sprite/SPR_C_CounterShield__-7651508445403100470.png",
+        "E:/Game/Culdcept BEGINS-analysis/2026-10-30/images/03-card-3d-sprites/Sprite/SPR_C_Tonfa__-1828899277961814794.png"
+      ]
+    },
+    {
+      "file": "albedo-retort-culdcept-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-bbe96b4a-6348-4d12-b065-b7292ca5e20e.png",
+      "prompt": "prompts/albedo-retort.txt",
+      "target": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/antique-v05/albedo-retort-antique-v01.png",
+      "styleReferences": [
+        "E:/Game/Culdcept BEGINS-analysis/2026-10-30/images/03-card-3d-sprites/Sprite/SPR_C_CounterShield__-7651508445403100470.png",
+        "E:/Game/Culdcept BEGINS-analysis/2026-10-30/images/03-card-3d-sprites/Sprite/SPR_C_Tonfa__-1828899277961814794.png"
+      ]
+    }
+  ]
+}

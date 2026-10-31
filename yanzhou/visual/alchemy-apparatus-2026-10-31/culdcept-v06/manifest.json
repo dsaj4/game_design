@@ -1,0 +1,336 @@
+{
+  "schema": "alchemy-apparatus-culdcept-style.1",
+  "date": "2026-10-31",
+  "project": "game-002",
+  "direction": "main",
+  "assetId": "AS-G002-036",
+  "version": "ALCHEMY-APPARATUS-06",
+  "designInputCommit": "764aa98f0a6b73f1fcc56f7cb49469fb779ef708",
+  "scope": "Culdcept BEGINS object-painting variant; preserve simple vessel forms, component/ornament count, negative space and quiet front",
+  "lifecycle": "ReadyForScope",
+  "access": "PresentLocal",
+  "acceptance": "PendingReview",
+  "generation": {
+    "mode": "built-in image_gen",
+    "count": 2,
+    "postprocess": "Byte-identical copies; no programmatic image edit, crop, alpha cleanup, recolor or rescale. Runtime whole-image placement only."
+  },
+  "images": [
+    {
+      "file": "refining-kettle-culdcept-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-879c8af2-faeb-4ba7-942b-887595ee8eef.png",
+      "prompt": "prompts/refining-kettle.txt",
+      "target": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/antique-v05/refining-kettle-antique-v01.png",
+      "styleReferences": [
+        "E:/Game/Culdcept BEGINS-analysis/2026-10-30/images/03-card-3d-sprites/Sprite/SPR_C_CounterShield__-7651508445403100470.png",
+        "E:/Game/Culdcept BEGINS-analysis/2026-10-30/images/03-card-3d-sprites/Sprite/SPR_C_Tonfa__-1828899277961814794.png"
+      ],
+      "width": 1343,
+      "height": 1171,
+      "bytes": 1680345,
+      "sha256": "68c58b1415e150296387e1d7e4c647712a75225dc76cc91d3f04464fd6bf805c",
+      "alphaZero": 639938,
+      "alphaSemi": 931939,
+      "bounds": {
+        "left": 30,
+        "top": 88,
+        "right": 1311,
+        "bottom": 1091,
+        "width": 1282,
+        "height": 1004
+      },
+      "targetFingerprint": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/antique-v05/refining-kettle-antique-v01.png",
+        "bytes": 1494682,
+        "sha256": "d6daa299db6122cba4dda5f839996f4d6ec1c0508a6c701e31058d6d927de764"
+      },
+      "styleReferenceFingerprints": [
+        {
+          "path": "E:/Game/Culdcept BEGINS-analysis/2026-10-30/images/03-card-3d-sprites/Sprite/SPR_C_CounterShield__-7651508445403100470.png",
+          "bytes": 708699,
+          "sha256": "5b47cc67f1a01e39e03911c3e92c4f5a8bc24ed9f691c0a751112e9265ea427a"
+        },
+        {
+          "path": "E:/Game/Culdcept BEGINS-analysis/2026-10-30/images/03-card-3d-sprites/Sprite/SPR_C_Tonfa__-1828899277961814794.png",
+          "bytes": 340806,
+          "sha256": "b81e2c2bf14dc34d1927c67e067d3ae60de4cf89150eb4424217d838d57a063f"
+        }
+      ]
+    },
+    {
+      "file": "albedo-retort-culdcept-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-bbe96b4a-6348-4d12-b065-b7292ca5e20e.png",
+      "prompt": "prompts/albedo-retort.txt",
+      "target": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/antique-v05/albedo-retort-antique-v01.png",
+      "styleReferences": [
+        "E:/Game/Culdcept BEGINS-analysis/2026-10-30/images/03-card-3d-sprites/Sprite/SPR_C_CounterShield__-7651508445403100470.png",
+        "E:/Game/Culdcept BEGINS-analysis/2026-10-30/images/03-card-3d-sprites/Sprite/SPR_C_Tonfa__-1828899277961814794.png"
+      ],
+      "width": 1135,
+      "height": 1386,
+      "bytes": 1567393,
+      "sha256": "dce6bc5aa14798485d7d434d4060f7d7a9da79b050f76c87dc66c0030e3bf25a",
+      "alphaZero": 793782,
+      "alphaSemi": 778762,
+      "bounds": {
+        "left": 63,
+        "top": 52,
+        "right": 1103,
+        "bottom": 1338,
+        "width": 1041,
+        "height": 1287
+      },
+      "targetFingerprint": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/antique-v05/albedo-retort-antique-v01.png",
+        "bytes": 1295266,
+        "sha256": "a55c2f48ae61dac03976e1a2636288d33b543a7eaf864e982714978f1e9341a7"
+      },
+      "styleReferenceFingerprints": [
+        {
+          "path": "E:/Game/Culdcept BEGINS-analysis/2026-10-30/images/03-card-3d-sprites/Sprite/SPR_C_CounterShield__-7651508445403100470.png",
+          "bytes": 708699,
+          "sha256": "5b47cc67f1a01e39e03911c3e92c4f5a8bc24ed9f691c0a751112e9265ea427a"
+        },
+        {
+          "path": "E:/Game/Culdcept BEGINS-analysis/2026-10-30/images/03-card-3d-sprites/Sprite/SPR_C_Tonfa__-1828899277961814794.png",
+          "bytes": 340806,
+          "sha256": "b81e2c2bf14dc34d1927c67e067d3ae60de4cf89150eb4424217d838d57a063f"
+        }
+      ]
+    }
+  ],
+  "uses": {
+    "asset": "AS-SH-005@CULDCEPT-ART-2026-10-30-v01",
+    "manifest": {
+      "path": "E:/Game/Culdcept BEGINS-analysis/2026-10-30/package-manifest.json",
+      "bytes": 9289,
+      "sha256": "97e936ad27055530b9dcd32e9f4832c498a1d6fa1332f2193c84c48394597684"
+    },
+    "viewedBoards": [
+      {
+        "path": "E:/Game/Culdcept BEGINS-analysis/2026-10-30/previews/style-overview-01.jpg",
+        "bytes": 690748,
+        "sha256": "dbb4d8e719e9cafb91c551a1bc282e939860a09e146403d638693daba44eae7c"
+      },
+      {
+        "path": "E:/Game/Culdcept BEGINS-analysis/2026-10-30/previews/subjects-01.jpg",
+        "bytes": 477109,
+        "sha256": "db06241f995d0b1070a8553c661efa569a90922c8d1bc51c56de275344a9043a"
+      }
+    ],
+    "mode": "Two independent object sprites as rendering references only, not runtime assets or shape sources"
+  },
+  "preservedVersions": [
+    {
+      "version": "ALCHEMY-APPARATUS-04",
+      "manifest": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/manifest.json",
+        "bytes": 11084,
+        "sha256": "21e82607c7d520869920c1f665f0ab2f995552d497d20dad4e8572d70b142cdc"
+      },
+      "registeredFilesVerified": 23
+    },
+    {
+      "version": "ALCHEMY-APPARATUS-05",
+      "manifest": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/antique-v05/manifest.json",
+        "bytes": 9485,
+        "sha256": "041cc151d3aa20429c9809c3a174675e161696a7e38cd92fc1debb7f3e2906ef"
+      },
+      "registeredFilesVerified": 19
+    }
+  ],
+  "entry": {
+    "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/culdcept-v06/preview.html",
+    "bytes": 11411081,
+    "sha256": "8af7befb518280da1df7bc75439df55bc318c5eeced15f3f63314209a5d00c6d"
+  },
+  "prototypeFiles": [
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/culdcept-v06/browser-qa.json",
+      "bytes": 1368,
+      "sha256": "014a9901f1c4df2201db52c014f59ff71ea3676c5246579ab86ef25f9973deba"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/culdcept-v06/build.mjs",
+      "bytes": 4866,
+      "sha256": "c73c60cd33b586fec6851516f10c80c9602cd25ce1921e7b52dd669c20b0596a"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/culdcept-v06/finalize.mjs",
+      "bytes": 4620,
+      "sha256": "bd7026d57fa1b980e7c080c8ae4ac58c1d3f400eb2e64aa006d8a030cbc84628"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/culdcept-v06/image-info.json",
+      "bytes": 3367,
+      "sha256": "8c6e13568f8af951beec1bc09fca118aec34ed2c9b361891ddd871ca9687a0f7"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/culdcept-v06/prepare-preview.mjs",
+      "bytes": 2062,
+      "sha256": "bbf888069e018919738d6b7cf2d240beb9845836da48754dec9bd9f777bc4228"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/culdcept-v06/preview.html",
+      "bytes": 11411081,
+      "sha256": "8af7befb518280da1df7bc75439df55bc318c5eeced15f3f63314209a5d00c6d"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/culdcept-v06/README.md",
+      "bytes": 1037,
+      "sha256": "653ccea46e40a0c2fe7dd14f3f75b8b67ea4eb819281ce1419e0f3c381793e0c"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/culdcept-v06/serve.mjs",
+      "bytes": 463,
+      "sha256": "f8c206a1df920b03bb6a8a36b9bbe11dfef8728494f0330c7bfd8e4ae5be954c"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/culdcept-v06/evidence/01-c-paper.png",
+      "bytes": 61857,
+      "sha256": "348bd1f1a8a8583a242792fc4105411d4ccebbf1ee06007991b587a3631af44d"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/culdcept-v06/evidence/02-c-dark.png",
+      "bytes": 63243,
+      "sha256": "074c637f957c0ae2f8632425392a72b0df5f5c1ff30c57da1a02c500bb490660"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/culdcept-v06/evidence/03-c-wood.png",
+      "bytes": 63155,
+      "sha256": "82c4e4c25e1c6829e9f6be7ba9dc46bc4f1201961e338d8e8a2edab940602d41"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/culdcept-v06/evidence/04-c-silhouette.png",
+      "bytes": 53482,
+      "sha256": "8e114b2e4d084b7774bc5f19366ead15e84915434c074d81c06a234a71570c95"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/culdcept-v06/evidence/05-current-c.png",
+      "bytes": 63155,
+      "sha256": "82c4e4c25e1c6829e9f6be7ba9dc46bc4f1201961e338d8e8a2edab940602d41"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/png-info.mjs",
+      "bytes": 1512,
+      "sha256": "0962b42625537f9e7adca43ada025cc80e69d2b232adeb4bc14b51e237d649e0"
+    }
+  ],
+  "registeredTexts": [
+    {
+      "file": "README.md",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/culdcept-v06/README.md",
+      "bytes": 3285,
+      "sha256": "6bcf42aa410746228f0889a027a65e98bf6b1b4024ae6585c5582bb4347fe5c4"
+    },
+    {
+      "file": "generation.json",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/culdcept-v06/generation.json",
+      "bytes": 1491,
+      "sha256": "462936207440cdfab80d05df96240f105641d8f546aa5f81bd5438e94a514ddd"
+    },
+    {
+      "file": "prompts/refining-kettle.txt",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/culdcept-v06/prompts/refining-kettle.txt",
+      "bytes": 2324,
+      "sha256": "dcd9fb498e42e8a4600679aef13b2f30a4f525dd0077f6b7fa81c572776c63a5"
+    },
+    {
+      "file": "prompts/albedo-retort.txt",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/culdcept-v06/prompts/albedo-retort.txt",
+      "bytes": 2416,
+      "sha256": "39323044c5e7891b6d251b6fd695723edc24e0859b0b5611fbd4e33b8a3ae2f5"
+    }
+  ],
+  "checks": {
+    "priorRegisteredFilesUnchanged": 42,
+    "newImageOriginalsMatch": true,
+    "trueAlpha": true,
+    "linksChecked": 10,
+    "browser": {
+      "date": "2026-10-31",
+      "version": "ALCHEMY-APPARATUS-06",
+      "status": "PassedForScope",
+      "observations": [
+        {
+          "edition": "a",
+          "overflow": false,
+          "visible": [
+            "a",
+            "a"
+          ]
+        },
+        {
+          "edition": "b",
+          "overflow": false,
+          "visible": [
+            "b",
+            "b"
+          ]
+        },
+        {
+          "edition": "both",
+          "overflow": false,
+          "visible": [
+            "a",
+            "b",
+            "c",
+            "a",
+            "b",
+            "c"
+          ]
+        },
+        {
+          "edition": "c",
+          "overflow": false,
+          "visible": [
+            "c",
+            "c"
+          ]
+        }
+      ],
+      "geometry": {
+        "overflow": false,
+        "silhouette": true,
+        "viewport": {
+          "height": 871,
+          "width": 460
+        },
+        "visible": [
+          {
+            "sizes": [
+              224,
+              64,
+              96,
+              160
+            ],
+            "style": "c"
+          },
+          {
+            "sizes": [
+              224,
+              64,
+              96,
+              160
+            ],
+            "style": "c"
+          }
+        ]
+      },
+      "scope": [
+        "A/B/C/all view switching",
+        "Paper/dark/wood actual PNG alpha composition",
+        "224/64/96/160px and silhouette observation",
+        "No added ornaments or components seen; painterly brushwork stronger than05"
+      ],
+      "limits": [
+        "User style acceptance pending",
+        "Actual backpack, engine and gameplay not tested"
+      ]
+    }
+  },
+  "rights": "Local internal style reference only. Generated original vessels; no third-party raw images, code, typography or audio in preview. No public publishing or engine integration."
+}
