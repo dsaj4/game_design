@@ -6,10 +6,11 @@ Project ID：game-002-optimization。2026-10-23。当前活动方向见下表。
 
 [启动与阅读范围](start.md) · [操作规则](AGENTS.md) · [当前问题](../governance/questions.md) · [清理与恢复记录](https://github.com/dsaj4/game_design/blob/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance/cleanup-report.md#2026-10-04探索方向退役)
 
-新探索采用一个方向一个README，先按start选择材料，不自动读取退役方向。**下一个可分配编号为DIR-043；DIR-001至DIR-042已分配，不复用。**
+新探索采用一个方向一个README，先按start选择材料，不自动读取退役方向。**下一个可分配编号为DIR-044；DIR-001至DIR-043已分配，不复用。**
 
 | 方向 | 目标与状态 | 阅读范围 |
 | --- | --- | --- |
+| [DIR-043 背包管理式法器生产](DIR-043-backpack-production/README.md) | 固定供料、材料拼放与混合流动三候选；Raw / Unqualified，Hypothesis / NotRun，待选择探索走向 | CORE启动时已提交GDD＋四款官方公开玩法参照；固定版本与边界见方向页 |
 | [DIR-042 纸本秘术工坊](DIR-042-herbal-engraving-style/README.md) | 用户暂定v03为本轮桌面战斗设计基准，独立符号板为卡牌重点参考；其余整场稿与旧美术方向退出活动区，玩法与交互状态保持 | CUSTOM；本轮局部视觉管理，既定背景版本及研究来源沿方向页，不回滚CORE-067 |
 | [DIR-041 法器系统成型玩法深化和游戏后期体验定义](DIR-041-artifact-endgame/README.md) | 自养丹炉、咒轮合奏与行进洞府三版机制候选；Raw / Unqualified，Hypothesis / NotRun，先审阅再定实现 | GDD完整56份＋明确增补7份；固定版本与逐文件覆盖见方向页；另有5款公开参考研究 |
 | [DIR-039 二维表现与首场战斗交互](DIR-039-2d-first-battle/README.md) | 具体战斗情景、三种二维结构与最小探索循环；Raw / Unqualified，玩法Hypothesis / NotRun，未启动实现 | GDD完整56份＋7份明确增补＋用户参考图；固定启动版本与分批覆盖见方向阅读日志 |
