@@ -1,0 +1,372 @@
+{
+  "schema": "alchemy-apparatus-black-ink.1",
+  "date": "2026-10-31",
+  "project": "game-002",
+  "direction": "main",
+  "assetId": "AS-G002-036",
+  "version": "ALCHEMY-APPARATUS-08",
+  "designInputCommit": "0565c52ef8dfa09f2ac282eda8c20279c1c72002",
+  "scope": "Two original simple standalone vessels; study the small modules within the user screenshot, use bold ink and hard-edge color shading",
+  "lifecycle": "ReadyForScope",
+  "access": "PresentLocal",
+  "acceptance": "PendingReview",
+  "generation": {
+    "mode": "built-in image_gen",
+    "count": 2,
+    "intent": "Generate two simple standalone apparatus in the visual language of small modules within the screenshot's left/right compound machines",
+    "imageInputRoles": [
+      "User HD screenshot: style reference only, not edit target"
+    ],
+    "postprocess": "Byte-identical copies; no programmatic image edit, crop, alpha cleanup, recolor or rescale. Runtime whole-image placement only."
+  },
+  "images": [
+    {
+      "file": "refining-kettle-survivor-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-161888cc-516b-44b1-b3b7-76e896f83793.png",
+      "prompt": "prompts/refining-kettle.txt",
+      "styleReferences": [
+        "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/survivor-v08/references/survivor-alchemist-hd.png"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1222409,
+      "sha256": "1c3bd9b047622acea39d6ae15f2e67af405b9c41749bea40034800d47eda5d40",
+      "alphaZero": 772477,
+      "alphaSemi": 800387,
+      "bounds": {
+        "left": 61,
+        "top": 133,
+        "right": 1475,
+        "bottom": 891,
+        "width": 1415,
+        "height": 759
+      }
+    },
+    {
+      "file": "albedo-retort-survivor-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-6192557e-1d1a-4ffa-a659-b49e5d190f7b.png",
+      "prompt": "prompts/albedo-retort.txt",
+      "styleReferences": [
+        "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/survivor-v08/references/survivor-alchemist-hd.png"
+      ],
+      "width": 1312,
+      "height": 1199,
+      "bytes": 787932,
+      "sha256": "f10e5e8884828b4eed9cbef66b422f57249f8f8ed42dc76e6a057ed162278a2e",
+      "alphaZero": 949447,
+      "alphaSemi": 622788,
+      "bounds": {
+        "left": 211,
+        "top": 17,
+        "right": 1222,
+        "bottom": 1180,
+        "width": 1012,
+        "height": 1164
+      }
+    }
+  ],
+  "referenceFiles": [
+    {
+      "file": "references/survivor-alchemist-hd.png",
+      "original": "C:/Users/ADMINI~1/AppData/Local/Temp/codex-clipboard-1b152f35-97c2-4a65-bced-3a479cfacb89.png",
+      "role": "User-provided style reference only; small individual devices, not entire assemblies",
+      "userIdentifiedGame": "幸存者的炼金术",
+      "author": "Unknown",
+      "license": "Unknown; local internal style reference only",
+      "sha256": "2f60d4ef84df6fb5f405864c0328f9cae437068903a7072d18356f0632f3af21",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/survivor-v08/references/survivor-alchemist-hd.png",
+      "bytes": 3775281,
+      "width": 2561,
+      "height": 1441
+    }
+  ],
+  "uses": {
+    "conceptualPredecessor": "AS-G002-036@ALCHEMY-APPARATUS-07",
+    "mode": "Fresh vessel generations from text plus one user-provided HD screenshot, focused on independent small apparatus, no entire compound machine recreation"
+  },
+  "preservedVersions": [
+    {
+      "version": "ALCHEMY-APPARATUS-04",
+      "manifest": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/manifest.json",
+        "bytes": 11084,
+        "sha256": "21e82607c7d520869920c1f665f0ab2f995552d497d20dad4e8572d70b142cdc"
+      },
+      "registeredFilesVerified": 23
+    },
+    {
+      "version": "ALCHEMY-APPARATUS-05",
+      "manifest": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/antique-v05/manifest.json",
+        "bytes": 9485,
+        "sha256": "041cc151d3aa20429c9809c3a174675e161696a7e38cd92fc1debb7f3e2906ef"
+      },
+      "registeredFilesVerified": 19
+    },
+    {
+      "version": "ALCHEMY-APPARATUS-06",
+      "manifest": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/culdcept-v06/manifest.json",
+        "bytes": 12644,
+        "sha256": "4a4e9d089b5f0e06f6a1b8272ce880ff2b45200268e13af05b7a090805a19ad6"
+      },
+      "registeredFilesVerified": 19
+    },
+    {
+      "version": "ALCHEMY-APPARATUS-07",
+      "manifest": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/archaic-form-v07/manifest.json",
+        "bytes": 10347,
+        "sha256": "6a12c277f7cdd8a049117c99b958c0af345fa132ca21d0a5e542238890a9dd3a"
+      },
+      "registeredFilesVerified": 19
+    }
+  ],
+  "entry": {
+    "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/survivor-v08/preview.html",
+    "bytes": 17960834,
+    "sha256": "9f553fa1932c83a7539cf5df9fc101dcaf710087f7ee500cee0b16e1fde59f78"
+  },
+  "prototypeFiles": [
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/survivor-v08/browser-qa.json",
+      "bytes": 2135,
+      "sha256": "cf723a95dd5e309f88e92000e8028cd32f74433ef8a39d65f957b78df3708a1f"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/survivor-v08/build.mjs",
+      "bytes": 5195,
+      "sha256": "69738960dd6af5dc41edb5497a3904f554dec910d5ec07092cb418d59d4f8ddb"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/survivor-v08/finalize.mjs",
+      "bytes": 5685,
+      "sha256": "335f79a6d3a08dc9ab7b9ae85b54106825197d7c0083354f20bc082f4e13863e"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/survivor-v08/image-info.json",
+      "bytes": 5648,
+      "sha256": "a9122090aecbebe87bb54982077eee65ac55fb9bc57ed86df069d064a00c7ab0"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/survivor-v08/prepare-preview.mjs",
+      "bytes": 1716,
+      "sha256": "844fa5d55f9254a53b6ee56ac9b347c044cd1a2a565d3259b5cc5c6fb0bb2705"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/survivor-v08/preview.html",
+      "bytes": 17960834,
+      "sha256": "9f553fa1932c83a7539cf5df9fc101dcaf710087f7ee500cee0b16e1fde59f78"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/survivor-v08/README.md",
+      "bytes": 1222,
+      "sha256": "881dd6acc2e80352deac3abdcaf72d0b1d5e31470064ff7717750e6e917adf9c"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/survivor-v08/serve.mjs",
+      "bytes": 488,
+      "sha256": "e0795da9cc913c37aa596fa841337bf49127d14b4b06ea541f303548b172d2aa"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/survivor-v08/evidence/01-e-paper.png",
+      "bytes": 64159,
+      "sha256": "b13c1c15ed78020890bd1f53aced110e0ee1b80cb61a5abaae0a85e79644287b"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/survivor-v08/evidence/02-e-dark.png",
+      "bytes": 64262,
+      "sha256": "67cbe029f8549df2dfa9d00eebb7817083dd17f5e77e4729b5cf96a20d3c9d51"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/survivor-v08/evidence/03-e-wood.png",
+      "bytes": 65952,
+      "sha256": "abe890ddfb00361525eed84b95183eba61beca5b4f28da4a407192bc1e301dba"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/survivor-v08/evidence/04-e-silhouette.png",
+      "bytes": 55766,
+      "sha256": "138c8c90a6f27a6acf766891a3a1d2fa16952628181fc24d1718bfbfcff29515"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/survivor-v08/evidence/05-current-e.png",
+      "bytes": 65971,
+      "sha256": "08c31f1597db3440b5353c2b910f7a0d7f0bd69a1407351ae09443ef1205f9b1"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/png-info.mjs",
+      "bytes": 1512,
+      "sha256": "0962b42625537f9e7adca43ada025cc80e69d2b232adeb4bc14b51e237d649e0"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/archaic-form-v07/build.mjs",
+      "bytes": 5016,
+      "sha256": "2028b3b168654a01dfd777c4d0558ef65d8c954b0e2de851630917a25abc53f6"
+    }
+  ],
+  "registeredTexts": [
+    {
+      "file": "README.md",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/survivor-v08/README.md",
+      "bytes": 3129,
+      "sha256": "5597ff144c66f97b5188d6bdb503981b37e975bdb926b6bf42c8ffa6a2a08f60"
+    },
+    {
+      "file": "generation.json",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/survivor-v08/generation.json",
+      "bytes": 1561,
+      "sha256": "c50e3234d8f2d55d9dda3d603ea16424034c7033ae28bab11e867c36f2f5e753"
+    },
+    {
+      "file": "prompts/refining-kettle.txt",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/survivor-v08/prompts/refining-kettle.txt",
+      "bytes": 2600,
+      "sha256": "f79d175504cffdb76ce7aaa1f6b5abca2a83d1a881d078179c82f07e6ef7e7b2"
+    },
+    {
+      "file": "prompts/albedo-retort.txt",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/survivor-v08/prompts/albedo-retort.txt",
+      "bytes": 2686,
+      "sha256": "b290fc7ad5b40d34e57db79a9044721badfdf43aada4493a0c69f4db3b3d0e52"
+    }
+  ],
+  "checks": {
+    "priorRegisteredFilesUnchanged": 80,
+    "newImageOriginalsMatch": true,
+    "userReferenceMatchesAttachment": true,
+    "trueAlpha": true,
+    "embeddedImages": 10,
+    "linksChecked": 13,
+    "browser": {
+      "date": "2026-10-31",
+      "version": "ALCHEMY-APPARATUS-08",
+      "status": "PassedForScope",
+      "observations": [
+        {
+          "edition": "a",
+          "overflow": false,
+          "visible": [
+            "a",
+            "a"
+          ]
+        },
+        {
+          "edition": "b",
+          "overflow": false,
+          "visible": [
+            "b",
+            "b"
+          ]
+        },
+        {
+          "edition": "c",
+          "overflow": false,
+          "visible": [
+            "c",
+            "c"
+          ]
+        },
+        {
+          "edition": "d",
+          "overflow": false,
+          "visible": [
+            "d",
+            "d"
+          ]
+        },
+        {
+          "edition": "both",
+          "overflow": false,
+          "visible": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ]
+        },
+        {
+          "edition": "e",
+          "overflow": false,
+          "visible": [
+            "e",
+            "e"
+          ]
+        }
+      ],
+      "geometry": {
+        "overflow": false,
+        "silhouette": true,
+        "viewport": {
+          "height": 871,
+          "width": 677
+        },
+        "visible": [
+          {
+            "sizes": [
+              224,
+              64,
+              96,
+              160
+            ],
+            "style": "e"
+          },
+          {
+            "sizes": [
+              224,
+              64,
+              96,
+              160
+            ],
+            "style": "e"
+          }
+        ]
+      },
+      "scope": [
+        "A/B/C/D/E/all switching",
+        "Paper/dark/wood PNG alpha composition",
+        "224/64/96/160px and silhouette",
+        "Single independent apparatus; blank inscription area; bold black contour and hard-edge shading"
+      ],
+      "limits": [
+        "Agent visual judgement; user style acceptance pending",
+        "At64px the kettle handle edges are small; the broad silhouette remains recognizable",
+        "No engine, animation, actual backpack or gameplay test"
+      ],
+      "backgrounds": [
+        {
+          "background": "paper",
+          "edition": "e",
+          "visible": [
+            "e",
+            "e"
+          ]
+        },
+        {
+          "background": "dark",
+          "edition": "e",
+          "visible": [
+            "e",
+            "e"
+          ]
+        },
+        {
+          "background": "wood",
+          "edition": "e",
+          "visible": [
+            "e",
+            "e"
+          ]
+        }
+      ]
+    }
+  },
+  "rights": "Reference screenshot supplied by user, game identified by user as 幸存者的炼金术; original author and license Unknown. Local internal style reference only. Generated original vessel sprites and project-owned preview; no screenshot or third-party runtime assets embedded in preview. No public publishing or engine integration."
+}

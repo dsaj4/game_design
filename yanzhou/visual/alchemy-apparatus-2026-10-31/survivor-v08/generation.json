@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-31",
+  "mode": "built-in image_gen",
+  "intent": "Generate two simple standalone apparatus in the visual language of small modules within the screenshot's left/right compound machines",
+  "reference": {
+    "file": "references/survivor-alchemist-hd.png",
+    "original": "C:/Users/ADMINI~1/AppData/Local/Temp/codex-clipboard-1b152f35-97c2-4a65-bced-3a479cfacb89.png",
+    "role": "User-provided style reference only; small individual devices, not entire assemblies",
+    "userIdentifiedGame": "幸存者的炼金术",
+    "author": "Unknown",
+    "license": "Unknown; local internal style reference only",
+    "sha256": "2f60d4ef84df6fb5f405864c0328f9cae437068903a7072d18356f0632f3af21"
+  },
+  "records": [
+    {
+      "file": "refining-kettle-survivor-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-161888cc-516b-44b1-b3b7-76e896f83793.png",
+      "prompt": "prompts/refining-kettle.txt",
+      "styleReferences": [
+        "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/survivor-v08/references/survivor-alchemist-hd.png"
+      ]
+    },
+    {
+      "file": "albedo-retort-survivor-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-6192557e-1d1a-4ffa-a659-b49e5d190f7b.png",
+      "prompt": "prompts/albedo-retort.txt",
+      "styleReferences": [
+        "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/survivor-v08/references/survivor-alchemist-hd.png"
+      ]
+    }
+  ]
+}
