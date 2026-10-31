@@ -1,5 +1,7 @@
 # 炼金首批法器补充：六类器具与固定用途
 
+> 后续空间规格见[R07全物件占形](2026-10-31-alchemy-footprints-r01.md)及[当前完整HTML](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r07.html)。R07保留本页器具本体、核心与35条配方归属，补齐卡形并扩大供料区；下文原供料格数、18格／8×5示例及“卡形尚缺”仅保留R06当时范围，不作为当前空间规格。
+
 2026-10-31 · game-002 · 系统方向／物件构思卡。**Raw Idea / Unqualified；Hypothesis / NotRun。**六类器具、核心组合与占形均为本轮建议，不回写现行GDD或发行卡池。原32材料、35配方、11成品和效果定位保持；使用[R05完整物件名称](2026-10-31-alchemy-batch-01-full-names-r05.md)。
 
 ## 一、意图、玩家处境与依据
