@@ -1,0 +1,418 @@
+{
+  "schema": "alchemy-apparatus-component-style.1",
+  "date": "2026-10-31",
+  "project": "game-002",
+  "direction": "main",
+  "assetId": "AS-G002-036",
+  "version": "ALCHEMY-APPARATUS-09",
+  "designInputCommit": "ba0290088276fa0fd4de204de8c00f139197b436",
+  "scope": "Furnace-shaped refining kettle and spherical slanted-neck retort, direct visual reference from two user component crops, blank unlit front faces",
+  "lifecycle": "ReadyForScope",
+  "access": "PresentLocal",
+  "acceptance": "PendingReview",
+  "generation": {
+    "mode": "built-in image_gen",
+    "count": 2,
+    "intent": "Use the two user component crops as direct style and form-language references; original simple furnace-shaped kettle and orb retort with blank unlit inscription faces",
+    "imageInputRoles": [
+      {
+        "order": 1,
+        "role": "Small furnace module; direct style and form vocabulary reference"
+      },
+      {
+        "order": 2,
+        "role": "Spherical slanted-neck module; direct style and form vocabulary reference"
+      }
+    ],
+    "postprocess": "Byte-identical copies; no programmatic image edit, crop, alpha cleanup, recolor or rescale. Runtime whole-image placement only."
+  },
+  "images": [
+    {
+      "file": "refining-kettle-component-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-3bdbc488-b821-48a7-abda-0fff784eacf9.png",
+      "prompt": "prompts/refining-kettle.txt",
+      "styleReferences": [
+        "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/component-v09/references/compact-furnace.png",
+        "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/component-v09/references/orb-retort.png"
+      ],
+      "width": 1098,
+      "height": 1433,
+      "bytes": 901255,
+      "sha256": "cccf7adef639e65df5b6cdd2b4c203674074ebe46c38ed95b86d39c5460649b7",
+      "alphaZero": 862283,
+      "alphaSemi": 709458,
+      "bounds": {
+        "left": 28,
+        "top": 11,
+        "right": 1072,
+        "bottom": 1398,
+        "width": 1045,
+        "height": 1388
+      }
+    },
+    {
+      "file": "albedo-retort-component-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-acae3b07-8d85-46d1-8235-6bc540b32efa.png",
+      "prompt": "prompts/albedo-retort.txt",
+      "styleReferences": [
+        "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/component-v09/references/compact-furnace.png",
+        "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/component-v09/references/orb-retort.png"
+      ],
+      "width": 1246,
+      "height": 1263,
+      "bytes": 680758,
+      "sha256": "8cbf758b36539b354a343ed9f2932a80dc1c0158327e7a2510459027ae06c62c",
+      "alphaZero": 1112881,
+      "alphaSemi": 459608,
+      "bounds": {
+        "left": 191,
+        "top": 66,
+        "right": 1196,
+        "bottom": 1164,
+        "width": 1006,
+        "height": 1099
+      }
+    }
+  ],
+  "referenceFiles": [
+    {
+      "file": "references/compact-furnace.png",
+      "original": "C:/Users/ADMINI~1/AppData/Local/Temp/codex-clipboard-3410c482-c489-4522-a5a4-e16e2485bf61.png",
+      "inputOrder": 1,
+      "role": "Small furnace module; direct style and form vocabulary reference",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/component-v09/references/compact-furnace.png",
+      "bytes": 145563,
+      "sha256": "47fcfce9691676d0b14357080a6cee8adb9a74539eac02a724bc63ae9e5fe20f",
+      "width": 240,
+      "height": 467
+    },
+    {
+      "file": "references/orb-retort.png",
+      "original": "C:/Users/ADMINI~1/AppData/Local/Temp/codex-clipboard-eee93e3a-799d-4e3c-9b3a-45f6ef397de0.png",
+      "inputOrder": 2,
+      "role": "Spherical slanted-neck module; direct style and form vocabulary reference",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/component-v09/references/orb-retort.png",
+      "bytes": 49448,
+      "sha256": "6e2b1c11d65098c54de42c46c08bc89750aa13aa815dcbc18e1dd2e530df0b83",
+      "width": 159,
+      "height": 224
+    }
+  ],
+  "uses": {
+    "conceptualPredecessor": "AS-G002-036@ALCHEMY-APPARATUS-08",
+    "mode": "Fresh original vessel generation with both user component images as direct style and form-language references, no old sprite edit targets"
+  },
+  "preservedVersions": [
+    {
+      "version": "ALCHEMY-APPARATUS-04",
+      "manifest": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/manifest.json",
+        "bytes": 11084,
+        "sha256": "21e82607c7d520869920c1f665f0ab2f995552d497d20dad4e8572d70b142cdc"
+      },
+      "registeredFilesVerified": 23
+    },
+    {
+      "version": "ALCHEMY-APPARATUS-05",
+      "manifest": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/antique-v05/manifest.json",
+        "bytes": 9485,
+        "sha256": "041cc151d3aa20429c9809c3a174675e161696a7e38cd92fc1debb7f3e2906ef"
+      },
+      "registeredFilesVerified": 19
+    },
+    {
+      "version": "ALCHEMY-APPARATUS-06",
+      "manifest": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/culdcept-v06/manifest.json",
+        "bytes": 12644,
+        "sha256": "4a4e9d089b5f0e06f6a1b8272ce880ff2b45200268e13af05b7a090805a19ad6"
+      },
+      "registeredFilesVerified": 19
+    },
+    {
+      "version": "ALCHEMY-APPARATUS-07",
+      "manifest": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/archaic-form-v07/manifest.json",
+        "bytes": 10347,
+        "sha256": "6a12c277f7cdd8a049117c99b958c0af345fa132ca21d0a5e542238890a9dd3a"
+      },
+      "registeredFilesVerified": 19
+    },
+    {
+      "version": "ALCHEMY-APPARATUS-08",
+      "manifest": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/survivor-v08/manifest.json",
+        "bytes": 12835,
+        "sha256": "4ffbc6389205d21364fb2de48078e446ad722876b04b9d3dc6823896b2c49fdb"
+      },
+      "registeredFilesVerified": 20
+    }
+  ],
+  "entry": {
+    "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/component-v09/preview.html",
+    "bytes": 20072404,
+    "sha256": "09d85b02e38d64431e97e00831e6aa9a0d68667975da83355d4dcda98d36ff2d"
+  },
+  "prototypeFiles": [
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/component-v09/browser-qa.json",
+      "bytes": 2389,
+      "sha256": "c3688054f9eb661ab4f7beb8ddf9e0f25ab70c4314734fd3b7c6997d847ccd71"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/component-v09/build.mjs",
+      "bytes": 5316,
+      "sha256": "40249b60175df3e072d9fddf697bac20ef578e96a4920ee3a18c37e03e936800"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/component-v09/finalize.mjs",
+      "bytes": 5574,
+      "sha256": "110f23db11cad88afd16df393b5dc6e3d6e2aff64474b6cb48517be6144c47f0"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/component-v09/image-info.json",
+      "bytes": 6790,
+      "sha256": "ff9f5ba37860eec83b40b57fd35eebedbc13c08cc5546adea68ca307e509eee3"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/component-v09/prepare-preview.mjs",
+      "bytes": 1733,
+      "sha256": "643204c78fa7b18c51732ce59c12ee7217c89c4f6f10ae3db75b1fba780cb140"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/component-v09/preview.html",
+      "bytes": 20072404,
+      "sha256": "09d85b02e38d64431e97e00831e6aa9a0d68667975da83355d4dcda98d36ff2d"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/component-v09/README.md",
+      "bytes": 1172,
+      "sha256": "59fc33be2baa8bfaa65a4fffb56734e930ab652fd35b7c6132903cf23c53df65"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/component-v09/serve.mjs",
+      "bytes": 494,
+      "sha256": "93f93a1beee318bd0ac46dd9d9a763f2de3c086278cdbcc5a33e0ac2c65c4abd"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/component-v09/evidence/01-f-paper.png",
+      "bytes": 67643,
+      "sha256": "553376ee28270e66707ea6ce50d2cc0db77757849e74ad9f183a2aaa36cfcc3a"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/component-v09/evidence/02-f-dark.png",
+      "bytes": 66238,
+      "sha256": "2cd01a16f01edcaf6f1141fb0281b395cc5a2b327c60979f0338cad266ca2b2b"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/component-v09/evidence/03-f-wood.png",
+      "bytes": 69206,
+      "sha256": "ba315efd7283a5c6fdb30f99fa4434702cd7fa3127c1c7fe54b72fb7eb5e8200"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/component-v09/evidence/04-f-silhouette.png",
+      "bytes": 55439,
+      "sha256": "b641ed5950c6345a20af30ed37e95304c028ad845a1137766baf938dce014b94"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/component-v09/evidence/05-current-f.png",
+      "bytes": 69240,
+      "sha256": "14326aab989f04a9bc634f66b0b7263acef0c73c493098f1061f3b74e0accb98"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/png-info.mjs",
+      "bytes": 1512,
+      "sha256": "0962b42625537f9e7adca43ada025cc80e69d2b232adeb4bc14b51e237d649e0"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/survivor-v08/build.mjs",
+      "bytes": 5195,
+      "sha256": "69738960dd6af5dc41edb5497a3904f554dec910d5ec07092cb418d59d4f8ddb"
+    }
+  ],
+  "registeredTexts": [
+    {
+      "file": "README.md",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/component-v09/README.md",
+      "bytes": 3309,
+      "sha256": "38cfb8df75e413bbcbab6ce280ff720f593fe2296d3e460344228dbe7493d8ef"
+    },
+    {
+      "file": "generation.json",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/component-v09/generation.json",
+      "bytes": 2076,
+      "sha256": "1553399d38a80c71c6f64a1c3bbad46f6176ffde234423c0d25e3c0c31ba4105"
+    },
+    {
+      "file": "prompts/refining-kettle.txt",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/component-v09/prompts/refining-kettle.txt",
+      "bytes": 3205,
+      "sha256": "1afc79c9349f5cc8f0a24ce1037ffa1a8bf4088f49b3f50eaf92b714c9f9cbc5"
+    },
+    {
+      "file": "prompts/albedo-retort.txt",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/component-v09/prompts/albedo-retort.txt",
+      "bytes": 3207,
+      "sha256": "1941f771f0f16cafc229edc2207e0c1026dbd1bd1d521ec9d8014357486c7a6f"
+    }
+  ],
+  "checks": {
+    "priorRegisteredFilesUnchanged": 100,
+    "newImageOriginalsMatch": true,
+    "userReferencesMatchAttachments": true,
+    "trueAlpha": true,
+    "embeddedImages": 12,
+    "linksChecked": 14,
+    "browser": {
+      "date": "2026-10-31",
+      "version": "ALCHEMY-APPARATUS-09",
+      "status": "PassedForScope",
+      "observations": [
+        {
+          "edition": "a",
+          "overflow": false,
+          "visible": [
+            "a",
+            "a"
+          ]
+        },
+        {
+          "edition": "b",
+          "overflow": false,
+          "visible": [
+            "b",
+            "b"
+          ]
+        },
+        {
+          "edition": "c",
+          "overflow": false,
+          "visible": [
+            "c",
+            "c"
+          ]
+        },
+        {
+          "edition": "d",
+          "overflow": false,
+          "visible": [
+            "d",
+            "d"
+          ]
+        },
+        {
+          "edition": "e",
+          "overflow": false,
+          "visible": [
+            "e",
+            "e"
+          ]
+        },
+        {
+          "edition": "both",
+          "overflow": false,
+          "visible": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ]
+        },
+        {
+          "edition": "f",
+          "overflow": false,
+          "visible": [
+            "f",
+            "f"
+          ]
+        }
+      ],
+      "geometry": {
+        "overflow": false,
+        "silhouette": true,
+        "viewport": {
+          "height": 871,
+          "width": 677
+        },
+        "visible": [
+          {
+            "sizes": [
+              224,
+              64,
+              96,
+              160
+            ],
+            "style": "f"
+          },
+          {
+            "sizes": [
+              224,
+              64,
+              96,
+              160
+            ],
+            "style": "f"
+          }
+        ]
+      },
+      "backgrounds": [
+        {
+          "background": "paper",
+          "edition": "f",
+          "visible": [
+            "f",
+            "f"
+          ]
+        },
+        {
+          "background": "dark",
+          "edition": "f",
+          "visible": [
+            "f",
+            "f"
+          ]
+        },
+        {
+          "background": "wood",
+          "edition": "f",
+          "visible": [
+            "f",
+            "f"
+          ]
+        }
+      ],
+      "scope": [
+        "A/B/C/D/E/F/all switching",
+        "Paper/dark/wood alpha composition",
+        "224/64/96/160px and silhouette",
+        "Separate furnace-shaped kettle and orb retort; blank unlit front faces"
+      ],
+      "limits": [
+        "User style acceptance pending",
+        "At64px thin chimney cap and neck details are small",
+        "No actual backpack, engine, animation or gameplay test"
+      ],
+      "visualNotes": [
+        "Viewed actual composed F sprites; central faces remain blank and unlit",
+        "Furnace and slanted-neck silhouettes distinguishable at64px; fine cap/neck structure small"
+      ]
+    }
+  },
+  "rights": {
+    "userIdentifiedGame": "幸存者的炼金术 (per earlier user explanation)",
+    "author": "Unknown",
+    "license": "Unknown; local internal style reference only",
+    "scope": "User screenshot crops for local internal reference only. Generated original sprites; no reference crop, background or third-party runtime asset embedded in preview. No public publishing or engine integration."
+  }
+}

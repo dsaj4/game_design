@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-31",
+  "mode": "built-in image_gen",
+  "intent": "Use the two user component crops as direct style and form-language references; original simple furnace-shaped kettle and orb retort with blank unlit inscription faces",
+  "references": [
+    {
+      "file": "references/compact-furnace.png",
+      "original": "C:/Users/ADMINI~1/AppData/Local/Temp/codex-clipboard-3410c482-c489-4522-a5a4-e16e2485bf61.png",
+      "inputOrder": 1,
+      "role": "Small furnace module; direct style and form vocabulary reference"
+    },
+    {
+      "file": "references/orb-retort.png",
+      "original": "C:/Users/ADMINI~1/AppData/Local/Temp/codex-clipboard-eee93e3a-799d-4e3c-9b3a-45f6ef397de0.png",
+      "inputOrder": 2,
+      "role": "Spherical slanted-neck module; direct style and form vocabulary reference"
+    }
+  ],
+  "source": {
+    "userIdentifiedGame": "幸存者的炼金术 (per earlier user explanation)",
+    "author": "Unknown",
+    "license": "Unknown; local internal style reference only"
+  },
+  "records": [
+    {
+      "file": "refining-kettle-component-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-3bdbc488-b821-48a7-abda-0fff784eacf9.png",
+      "prompt": "prompts/refining-kettle.txt",
+      "styleReferences": [
+        "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/component-v09/references/compact-furnace.png",
+        "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/component-v09/references/orb-retort.png"
+      ]
+    },
+    {
+      "file": "albedo-retort-component-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-acae3b07-8d85-46d1-8235-6bc540b32efa.png",
+      "prompt": "prompts/albedo-retort.txt",
+      "styleReferences": [
+        "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/component-v09/references/compact-furnace.png",
+        "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/component-v09/references/orb-retort.png"
+      ]
+    }
+  ]
+}
