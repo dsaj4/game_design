@@ -1,0 +1,260 @@
+{
+  "schema": "alchemy-apparatus-style-variant.1",
+  "date": "2026-10-31",
+  "project": "game-002",
+  "direction": "main",
+  "assetId": "AS-G002-036",
+  "version": "ALCHEMY-APPARATUS-05",
+  "designInputCommit": "863ec9e3972a0f2f195da6ad9818872c8b336652",
+  "readingScope": "CUSTOM narrow visual continuation:04 source art/constraints and explicit user style request only",
+  "scope": "Retain04 and add finer-line antique/mysterious treatment without added components or decoration",
+  "lifecycle": "ReadyForScope",
+  "access": "PresentLocal",
+  "acceptance": {
+    "original04": "RetainedAtUserRequest",
+    "variant05": "PendingReview"
+  },
+  "generation": {
+    "mode": "built-in image_gen",
+    "count": 2,
+    "pixelEditing": "None; copied byte-identically from tool originals. Whole-image normalization in browser only."
+  },
+  "images": [
+    {
+      "file": "refining-kettle-antique-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-a1a80308-53a3-4cd6-af8d-fffa1b8cbef5.png",
+      "prompt": "prompts/refining-kettle.txt",
+      "input": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/refining-kettle-v01.png",
+      "width": 1343,
+      "height": 1171,
+      "bytes": 1494682,
+      "sha256": "d6daa299db6122cba4dda5f839996f4d6ec1c0508a6c701e31058d6d927de764",
+      "alphaZero": 654228,
+      "alphaSemi": 916644,
+      "bounds": {
+        "left": 30,
+        "top": 94,
+        "right": 1311,
+        "bottom": 1086,
+        "width": 1282,
+        "height": 993
+      },
+      "inputFingerprint": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/refining-kettle-v01.png",
+        "bytes": 1333459,
+        "sha256": "3ed691448e09c76a4eaf62df664f19ba002b233ad14332bec191a654954adbec"
+      }
+    },
+    {
+      "file": "albedo-retort-antique-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-56339742-c6eb-495b-8e88-29a55c263be4.png",
+      "prompt": "prompts/albedo-retort.txt",
+      "input": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/albedo-retort-v01.png",
+      "width": 1135,
+      "height": 1386,
+      "bytes": 1295266,
+      "sha256": "a55c2f48ae61dac03976e1a2636288d33b543a7eaf864e982714978f1e9341a7",
+      "alphaZero": 806165,
+      "alphaSemi": 766241,
+      "bounds": {
+        "left": 66,
+        "top": 52,
+        "right": 1105,
+        "bottom": 1334,
+        "width": 1040,
+        "height": 1283
+      },
+      "inputFingerprint": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/albedo-retort-v01.png",
+        "bytes": 1180050,
+        "sha256": "f8e7c8fe51777620bd0def33f58b29f89d8be5f0c5061e59a22692134acc8f12"
+      }
+    }
+  ],
+  "preservedBaseline": {
+    "version": "ALCHEMY-APPARATUS-04",
+    "manifest": {
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/manifest.json",
+      "bytes": 11084,
+      "sha256": "21e82607c7d520869920c1f665f0ab2f995552d497d20dad4e8572d70b142cdc"
+    },
+    "registeredFilesVerified": 23,
+    "sourceDesignCommit": "37f30968e32d54f4e635a804f55388d3442c0dcc"
+  },
+  "entry": {
+    "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/antique-v05/preview.html",
+    "bytes": 7078533,
+    "sha256": "98b0b09a19438e0e8fe51dc47e911709d6a5884fa6c145e9b424507b7deb78ea"
+  },
+  "prototypeFiles": [
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/antique-v05/browser-qa.json",
+      "bytes": 1200,
+      "sha256": "577edc7f486c2926736923d90b8799f6d11ae8f0a4b659cea6016a3541a3f440"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/antique-v05/build.mjs",
+      "bytes": 4710,
+      "sha256": "ad9e16b0cfff6f51cd9796b43575098dd7d48688341c74c580266fbe9279e3a5"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/antique-v05/finalize.mjs",
+      "bytes": 4012,
+      "sha256": "66c3fb4da4a7e5550e5a46821951ecae964ff15d1e6e89ad36a65f5568b98280"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/antique-v05/image-info.json",
+      "bytes": 2229,
+      "sha256": "5854103055f999407fbf14e027162bb6daeaab448a2575b07b4cc19ebb985f2c"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/antique-v05/preview.html",
+      "bytes": 7078533,
+      "sha256": "98b0b09a19438e0e8fe51dc47e911709d6a5884fa6c145e9b424507b7deb78ea"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/antique-v05/README.md",
+      "bytes": 1040,
+      "sha256": "7bf6a6f7af685d129d30e371a7a542572cbf4b0eac7eb6ee275ffafdfa2f8ca4"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/antique-v05/serve.mjs",
+      "bytes": 461,
+      "sha256": "4cd91b9b634d69571b1917aaa44820021fd29e7c3d7cb709bc9d8b23b4c92620"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/antique-v05/evidence/01-new-wood.png",
+      "bytes": 58390,
+      "sha256": "2f4c81d106ef62bf08bb917d9bcafa8ba63da44b58ace23d4478a2b7245aeb86"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/antique-v05/evidence/02-new-paper.png",
+      "bytes": 57257,
+      "sha256": "042c13bce43ae813bd59dd65b32d78e79045fbc551e83592fdea8996e279612d"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/antique-v05/evidence/03-new-dark.png",
+      "bytes": 58323,
+      "sha256": "781ceab1d176ac49c0f62a6cebd7d6e6cd1d94e8ee335bbb68be0df87c55a6f5"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/antique-v05/evidence/04-two-styles.png",
+      "bytes": 101761,
+      "sha256": "01a26a8e74c89bae05f92ddf85c2ebe5f3eecc35d7e583e4574c061863d46d03"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/antique-v05/evidence/05-new-silhouette.png",
+      "bytes": 49711,
+      "sha256": "e48a7b5b3f31266a0670400574a8d8f1845fd0aee8ff3d8467ac44d2df4b4063"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/antique-v05/evidence/06-current-new.png",
+      "bytes": 58434,
+      "sha256": "8157341d7dc5f3bccff3887ae434a70a129119b4119645b534d128e648520969"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/png-info.mjs",
+      "bytes": 1512,
+      "sha256": "0962b42625537f9e7adca43ada025cc80e69d2b232adeb4bc14b51e237d649e0"
+    }
+  ],
+  "registeredTexts": [
+    {
+      "file": "README.md",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/antique-v05/README.md",
+      "bytes": 2862,
+      "sha256": "ac258bc6aff11ac88e45d8e1207f86cbf457f76afd852811486db9fe474b8c50"
+    },
+    {
+      "file": "generation.json",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/antique-v05/generation.json",
+      "bytes": 794,
+      "sha256": "00d7a3ffb5e387264cb1b10cb1d2c41827198699ee670da5182f9e5a2e30a481"
+    },
+    {
+      "file": "prompts/refining-kettle.txt",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/antique-v05/prompts/refining-kettle.txt",
+      "bytes": 1954,
+      "sha256": "36c668b953d4efd399f90c3f1d28f101ce3e39986d5f10daafc65c51775c2205"
+    },
+    {
+      "file": "prompts/albedo-retort.txt",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/antique-v05/prompts/albedo-retort.txt",
+      "bytes": 1990,
+      "sha256": "0cd63771f7dfe51ba32a46d55a8c48740cc9edb8d6eb9dde17008c881b11b392"
+    }
+  ],
+  "checks": {
+    "original04HashesUnchanged": true,
+    "newImagesMatchOriginals": true,
+    "trueAlpha": true,
+    "localLinks": 8,
+    "browser": {
+      "date": "2026-10-31",
+      "version": "ALCHEMY-APPARATUS-05",
+      "status": "PassedForScope",
+      "observations": [
+        {
+          "overflow": false,
+          "selected": "a",
+          "visible": [
+            {
+              "style": "a",
+              "text": "平炼釜"
+            },
+            {
+              "style": "a",
+              "text": "白化曲颈瓶"
+            }
+          ]
+        },
+        {
+          "selected": "both",
+          "visible": 4
+        },
+        {
+          "overflow": false,
+          "selected": "b",
+          "silhouette": true,
+          "viewport": {
+            "height": 1362,
+            "width": 460
+          },
+          "visible": [
+            {
+              "sizes": [
+                224,
+                64,
+                96,
+                160
+              ],
+              "style": "b"
+            },
+            {
+              "sizes": [
+                224,
+                64,
+                96,
+                160
+              ],
+              "style": "b"
+            }
+          ]
+        }
+      ],
+      "scope": [
+        "A retained/B variant/both view switching",
+        "Native PNG alpha composited on wood/paper/dark backgrounds",
+        "224/64/96/160px frames and silhouette control",
+        "No viewport override"
+      ],
+      "limits": [
+        "Style acceptance pending",
+        "No engine, occupancy or gameplay checks"
+      ]
+    }
+  },
+  "rights": "Original project image variants from04 originals; no new third-party image input. Local internal art review, no public publication or engine integration."
+}

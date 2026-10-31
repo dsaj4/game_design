@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-31",
+  "mode": "built-in image_gen",
+  "records": [
+    {
+      "file": "refining-kettle-antique-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-a1a80308-53a3-4cd6-af8d-fffa1b8cbef5.png",
+      "prompt": "prompts/refining-kettle.txt",
+      "input": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/refining-kettle-v01.png"
+    },
+    {
+      "file": "albedo-retort-antique-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-56339742-c6eb-495b-8e88-29a55c263be4.png",
+      "prompt": "prompts/albedo-retort.txt",
+      "input": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/albedo-retort-v01.png"
+    }
+  ]
+}

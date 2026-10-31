@@ -53,6 +53,8 @@
 
 ## <a id="as-g002-036"></a>AS-G002-036 炼金法器美术源件
 
+- 2026-10-31并存变体 **ALCHEMY-APPARATUS-05**：[精线古朴版及A／B切换](../../yanzhou/visual/alchemy-apparatus-2026-10-31/antique-v05/README.md)。用户明确保留04版，再要求线条精致、古朴神秘且不增细节；两次内置image_gen以04两图为编辑输入，生成1343×1171／1135×1386 RGBA，器形与零件数延续，仅调整墨线、旧色和明暗。04版23个登记文件SHA保持，新图／提示词／manifest独立保存；三背景、小尺寸、剪影和切换已核，新风格PendingReview，不改玩法或工程。
+
 - game-002 / main；[两件简洁器物与新规则边界](../../yanzhou/visual/alchemy-apparatus-2026-10-31/README.md)，ALCHEMY-APPARATUS-04。用户指定从炼金设计另选两件，取B01平炼／白化工序制作平炼釜、白化曲颈瓶外形候选，未新增法器规则或兼容。
 - 两次内置image_gen，完整RGBA PNG分别1342×1172／1135×1386；粗墨线、少色大面、中央安静表面，无固定辅槽或分体结构。原图／提示词／参考关系／SHA／原生成路径及清理恢复包沿manifest；无源图像素后处理，使用Cauldron与EvilCap原图仅作风格参考。
 - ReadyForScope / PresentLocal（2026-10-31），仅本机三背景、剪影及64／96／160px对照与源图一致性检查；造型PendingReview。具体占形、供料接口、核心兼容、D及工程未定未验，不作为玩法通过。
