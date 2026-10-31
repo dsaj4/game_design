@@ -1,0 +1,299 @@
+{
+  "schema": "alchemy-apparatus-art.1",
+  "date": "2026-10-31",
+  "project": "game-002",
+  "direction": "main",
+  "assetId": "AS-G002-036",
+  "version": "ALCHEMY-APPARATUS-04",
+  "designInputCommit": "37f30968e32d54f4e635a804f55388d3442c0dcc",
+  "scope": "Two visual candidates selected from B01 refining and albedo operations; no formal new artifact content, geometry or numerical configuration",
+  "lifecycle": "ReadyForScope",
+  "access": "PresentLocal",
+  "acceptance": "PendingReview",
+  "generation": {
+    "mode": "built-in image_gen",
+    "count": 2,
+    "sourcePixelEditing": "None; byte-identical copies. Runtime whole-image placement only."
+  },
+  "images": [
+    {
+      "file": "refining-kettle-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-bd345c48-19a9-4479-84c2-6d27857357af.png",
+      "prompt": "prompts/refining-kettle.txt",
+      "width": 1342,
+      "height": 1172,
+      "bytes": 1333459,
+      "sha256": "3ed691448e09c76a4eaf62df664f19ba002b233ad14332bec191a654954adbec",
+      "alphaZero": 602775,
+      "alphaSemi": 968441,
+      "bounds": {
+        "left": 24,
+        "top": 85,
+        "right": 1315,
+        "bottom": 1094,
+        "width": 1292,
+        "height": 1010
+      }
+    },
+    {
+      "file": "albedo-retort-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-21535ae8-714d-451c-9807-879866e3f548.png",
+      "prompt": "prompts/albedo-retort.txt",
+      "width": 1135,
+      "height": 1386,
+      "bytes": 1180050,
+      "sha256": "f8e7c8fe51777620bd0def33f58b29f89d8be5f0c5061e59a22692134acc8f12",
+      "alphaZero": 776175,
+      "alphaSemi": 796097,
+      "bounds": {
+        "left": 54,
+        "top": 61,
+        "right": 1107,
+        "bottom": 1339,
+        "width": 1054,
+        "height": 1279
+      }
+    }
+  ],
+  "referenceCatalog": {
+    "path": "E:/Game/Backpack Battles-analysis/2026-10-31/catalog/index.html",
+    "bytes": 2560360,
+    "sha256": "010c2d85c6eac67bba8d01f904a890fb2bbc42586b643cc589d6dcc2fc06bef9"
+  },
+  "generationReferences": [
+    {
+      "path": "E:/Game/Backpack Battles-analysis/2026-10-31/recovered/Items/Exclusive/Sprites/Cauldron.png",
+      "bytes": 125675,
+      "sha256": "8a53f9a7a2c7f5b51f5677743aef39b787ca6c5026c02521ce845611ca286985"
+    },
+    {
+      "path": "E:/Game/Backpack Battles-analysis/2026-10-31/recovered/Items/Sprites/EvilCap.png",
+      "bytes": 106521,
+      "sha256": "bf18b12fb4c7366ab522472e9f5647a71ea928b03e879a2167ce502690ff9ad4"
+    }
+  ],
+  "additionalViewedReference": {
+    "path": "E:/Game/Backpack Battles-analysis/2026-10-31/recovered/Items/Exclusive/Sprites/DarkLantern.png",
+    "bytes": 79529,
+    "sha256": "e97a11e1e5d933b138fd41f25ec8b544d35e2fe3c586019ca31fe05ea7709089"
+  },
+  "referenceUse": "Local visual comparison and two style inputs only; none embedded as runtime images. No source game executed.",
+  "entry": {
+    "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/preview.html",
+    "bytes": 13410586,
+    "sha256": "8c888c1ff672835dd05daa5ce00064806f88b98535392f5ed201ac432480d8bc"
+  },
+  "prototypeFiles": [
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/browser-qa.json",
+      "bytes": 1616,
+      "sha256": "874ea2483610bd36a7947931dd6d5a98cb16b50d7bd4d5e559a1c19f03ebd7dd"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/build.mjs",
+      "bytes": 4013,
+      "sha256": "dfe3eaa3bf83220ec116ecc293d84ef60f7511be7a61a135678eb7f45e13477a"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/finalize.mjs",
+      "bytes": 4707,
+      "sha256": "fc6d39cdc81215207cf3f93ec1c853aa1472bf1dccd6f550dba2eb382dc8ce66"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/image-info.json",
+      "bytes": 1184,
+      "sha256": "c1283b83b63e8c1ebcbe1fb4e08cce453044d30f377bc3afcecc7f7bed9558dd"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/png-info.mjs",
+      "bytes": 1512,
+      "sha256": "0962b42625537f9e7adca43ada025cc80e69d2b232adeb4bc14b51e237d649e0"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/preserve-old.ps1",
+      "bytes": 2573,
+      "sha256": "a466b9e25320489d5e1ff7dfae484a23464b1061638a193edcf06f678ba0ea66"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/preview.html",
+      "bytes": 13410586,
+      "sha256": "8c888c1ff672835dd05daa5ce00064806f88b98535392f5ed201ac432480d8bc"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/README.md",
+      "bytes": 1241,
+      "sha256": "563038ea75a35d6e5e5a38cfa3bdee8b96328cdbdca3066242c4f292db70f4a4"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/remove-old.ps1",
+      "bytes": 2131,
+      "sha256": "2780e8a31cdb1201bc244152154cf9888b79d285d3e07b1b6965ab8cd6620a1b"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/serve.mjs",
+      "bytes": 478,
+      "sha256": "fd4715671dfefd85162281931534234b2dcdfde37ca6c5a6ebbce7b65b4db0a9"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/stage-owned.mjs",
+      "bytes": 1896,
+      "sha256": "4ba164530474e421a6108f639eec420148f7f5007eb62b05c34a5f5f760b8cb9"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/update-records.mjs",
+      "bytes": 7308,
+      "sha256": "5b3c9a237f57c0551fc7a1467a9365097cb3e8e12a4be2dbaf8a7dd712504d3e"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/evidence/01-wood.png",
+      "bytes": 60998,
+      "sha256": "b50116a45900e88792db5140bc6552f8ca9e2029850992047de0f46b16c57e2b"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/evidence/02-dark.png",
+      "bytes": 71027,
+      "sha256": "c8206ad27e7051fd707196536162772023f28f5362c0236647a7e285096be6a6"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/evidence/03-paper.png",
+      "bytes": 70769,
+      "sha256": "78ef29421c74c3fb29f3663197a802c842c0d3da016318a348f2f94b12271b4a"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/evidence/04-silhouette.png",
+      "bytes": 59585,
+      "sha256": "9d9738fcc877cfd7b5050dfd75aa50b92cc8467bb93f59b533c9a73fd51905fe"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/evidence/05-current.png",
+      "bytes": 73047,
+      "sha256": "a8328f7122db7fbfbe78a47b93f8e6ba35ce4e05f63d725d1ff08664efc874e8"
+    }
+  ],
+  "texts": [
+    {
+      "file": "README.md",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/README.md",
+      "bytes": 4992,
+      "sha256": "5200a426346473380c74ffe39f5d3ca9f932679dc2f4bf204651496c8098c353"
+    },
+    {
+      "file": "generation.json",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/generation.json",
+      "bytes": 785,
+      "sha256": "93d99e5e7e35f7b2ab68edfc850b5015f15f84ba1899b670dd37b206a3c22079"
+    },
+    {
+      "file": "prompts/refining-kettle.txt",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/prompts/refining-kettle.txt",
+      "bytes": 1926,
+      "sha256": "f204d18d255b7a8f61cc4095ad11aed6641c5f2029c4de3d573ff37e3b357e2c"
+    },
+    {
+      "file": "prompts/albedo-retort.txt",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/prompts/albedo-retort.txt",
+      "bytes": 2056,
+      "sha256": "1086cf7076103a35b8b0006115010acf48931114f5a80d2139cdf73375107621"
+    }
+  ],
+  "checks": {
+    "sourceImageOriginalShaMatch": true,
+    "realAlpha": true,
+    "retainedCardBoardsShaUnchanged": true,
+    "oldArtifactDirectoriesRemoved": true,
+    "oldArchivesShaVerified": true,
+    "backedUpFiles": 102,
+    "browser": {
+      "date": "2026-10-31",
+      "version": "ALCHEMY-APPARATUS-04",
+      "status": "PassedForScope",
+      "geometry": {
+        "bodyClass": "silhouette",
+        "overflow": false,
+        "sprites": [
+          {
+            "height": 224,
+            "label": "平炼釜 224像素",
+            "width": 224
+          },
+          {
+            "height": 64,
+            "label": "平炼釜 64像素",
+            "width": 64
+          },
+          {
+            "height": 96,
+            "label": "平炼釜 96像素",
+            "width": 96
+          },
+          {
+            "height": 160,
+            "label": "平炼釜 160像素",
+            "width": 160
+          },
+          {
+            "height": 224,
+            "label": "白化曲颈瓶 224像素",
+            "width": 224
+          },
+          {
+            "height": 64,
+            "label": "白化曲颈瓶 64像素",
+            "width": 64
+          },
+          {
+            "height": 96,
+            "label": "白化曲颈瓶 96像素",
+            "width": 96
+          },
+          {
+            "height": 160,
+            "label": "白化曲颈瓶 160像素",
+            "width": 160
+          }
+        ],
+        "viewport": {
+          "height": 720,
+          "width": 1265
+        }
+      },
+      "observed": [
+        "Two new independent full-object PNGs",
+        "Wood, dark and paper backdrops",
+        "64/96/160px samples and224px hero have declared rendered dimensions",
+        "Distinct kettle and bent-neck silhouettes, handle holes and neck negative space readable",
+        "Transparent outlines with no rectangular background",
+        "Silhouette checkbox and three backdrop options work"
+      ],
+      "limits": [
+        "Visual judgement by agent; user acceptance pending",
+        "No actual inventory shape, port, physics, animation or Godot test"
+      ]
+    },
+    "localLinksChecked": 14
+  },
+  "retired": {
+    "designCommit": "37f30968e32d54f4e635a804f55388d3442c0dcc",
+    "archives": [
+      {
+        "path": "E:\\Project\\yanzhou-art-assets\\retired-artifacts-2026-10-31\\design-source.zip",
+        "sha256": "94a67f77b34d5ec541aeacbe1cfdf33d6f9b6848ac7cda84d636bf6bb1eff19e",
+        "files": 55,
+        "bytes": 40946340,
+        "verified": "Each source file SHA-256 matches its ZIP entry",
+        "name": "design-source"
+      },
+      {
+        "path": "E:\\Project\\yanzhou-art-assets\\retired-artifacts-2026-10-31\\old-player.zip",
+        "sha256": "f5f504afd6b3f5d11d5be0848f61d7c2abac184d340d72b98e9dbf585edbed1c",
+        "files": 47,
+        "bytes": 27478315,
+        "verified": "Each source file SHA-256 matches its ZIP entry",
+        "name": "old-player"
+      }
+    ],
+    "oldDemoId": "DM-G002-022",
+    "oldDemoStatus": "Archived / RecoverableLocal"
+  },
+  "rights": "Generated project visual candidates. Third-party references stay local; no third-party image/code/audio in preview. Internal art review; public distribution not assessed."
+}

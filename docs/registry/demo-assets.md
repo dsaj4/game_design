@@ -45,23 +45,18 @@
 - ReadyForScope / PresentLocal（2026-10-28，源件限定来源／原PNG／透明／底色检查）。使用者DM-G002-021已将10件独立导入，并续为EX-004可玩单战；控件／包／恢复的固定版本及范围沿目标记录，不覆盖冻结源件或升级其用户接受PendingReview。正式卡面／法器／法术声画及陈设仍后置，v06与DM-G002-020不改。
 - 图片、ZIP和制作工具保本机，文档／manifest／提示词入Git。v02的逐件原件对应表及工具在 `E:/Project/yanzhou-art-assets/tabletop-components-2026-10-28/imagegen-v02/`；当前导出只取新维护页exports/的10张原图。仅本项目内部使用／审阅，公开分发条件未另定。
 
-## <a id="as-g002-035"></a>AS-G002-035 卡面与法器首轮设计审阅包
+## <a id="as-g002-035"></a>AS-G002-035 四版卡面历史候选
 
-- 法器当前子版本 **ARTIFACT-CASES-02**：[EX-001双护符形态修订](../../yanzhou/visual/card-artifact-design-2026-10-28/artifact-cases-v02/README.md)。按用户要求沿第一版流派两护符身份、参考Potion Craft物件形态；中央连续木面留白，移除显著插槽／夹片。当前守护／施法两图和一张保留带槽草稿，均1312×1199 RGBA；3份准确提示词、原件、哈希及官方风格输入由子目录manifest固定。ReadyForScope / PresentLocal仅限本机概念与文件／外围alpha抽样，用户选型PendingReview，实际桌面／本版引擎未验；不改现行核心／辅槽规则，不覆盖下列第一轮冻结包。PNG及第三方截图不入Git。
+- game-002 / main；[保留卡板与旧判断](../../yanzhou/visual/card-artifact-design-2026-10-28/README.md)，CARD-CONCEPTS-RETAINED-02。A—D四张1536×1024 RGB及四份准确提示词原字节保留，本轮核对SHA；非当前运行卡面，原用户选型状态不晋级。
+- 用户授权删除旧法器后，原混合包的铜盘／晶体笼、双护符、比例图及法器提示词退出工作树。完整原包取证为37f30968e32d54f4e635a804f55388d3442c0dcc及原路径；可恢复ZIP沿AS-G002-036入口。旧视觉失败经验已合入新法器说明，未删除当前卡面制作。
+- PresentLocal；图片本机保管，卡面保留清单入Git，仅内部历史审阅，旧法器不再复用为当前设计。
 
-- game-002 / main；[四版卡面、双法器与比例修订](../../yanzhou/visual/card-artifact-design-2026-10-28/README.md)。2026-10-28按用户要求继续视觉设计；卡面保留相同EX-004内容比较四种版式，双法器以Potion Craft手稿／器具表现为风格参考，规则不变。
-- CARD-ARTIFACT-CONCEPTS-01；9张本机PNG、9份准确提示词及[逐文件manifest](../../yanzhou/visual/card-artifact-design-2026-10-28/manifest.json)，记录原生成路径、尺寸／通道及SHA-256。全部PNG与各自内置image_gen原件字节相同，未裁切／抠图／缩放；二进制本机保管，不随文档上传。
-- uses（视觉输入）：AS-G002-032@HERBAL-ENGRAVING-06的v03／v06、AS-G002-033@CARD-SYMBOLS-V05-01；比例图derived-from DM-G002-021固定截图。第三方官方背景仅本机风格参考，未作为运行素材或上传。AS-G002-034冻结包及现有HTML／Godot工程保持原状。
-- ReadyForScope / PresentLocal，仅概念、文件、原alpha抽样和木色底157／192px浏览器合成检查；用户选型PendingReview。比例初稿遮挡失败及修订保留，细字／空辅槽的生成偏差、正式组件、小尺寸排字、引擎与交互未验范围沿维护页。仅本项目内部审阅，非M资格或玩法采纳，不增加公开分发授权。
+## <a id="as-g002-036"></a>AS-G002-036 炼金法器美术源件
 
-## <a id="as-g002-036"></a>AS-G002-036 法器动画分层源件
-
-- 当前 **ARTIFACT-NATIVE-03**：[原生分体法器与自然发光](../../yanzhou/visual/artifact-motion-2026-10-29/native-v03/README.md)。六张原生PNG分别生成，中央留白、完整倒角和搭接铜边；四张1024×1536、两张1536×1024，均RGBA，复用下列固定木楔。准确提示词、原图路径、参考关系、alpha与SHA见v03清单；无源图程序裁切／修改。实现思路用户已确认，美术与光感PendingReview；源件与本机播放器ReadyForScope / PresentLocal，Godot、真实桌面遮挡及性能未验。
-- 历史结构 **ARTIFACT-ASSEMBLY-02**：[多组件拼接合同](../../yanzhou/visual/artifact-motion-2026-10-29/assembly-v02/README.md)。用下列冻结整件图运行时分片，三段动作与骨骼取舍保留，源／播放器／清单保持冻结。
-
-- game-002 / main；[专属动作与轻量变化合同](../../yanzhou/visual/artifact-motion-2026-10-29/README.md)，ARTIFACT-MOTION-STUDY-01。守护／施法器身各1312×1199 RGBA，共用固定木楔1536×1024 RGBA；三件各一次内置image_gen，原PNG不作程序裁切／缩放，准确提示词、原生成路径及SHA见同目录manifest。
-- uses／derived-from：AS-G002-035@ARTIFACT-CASES-02，两护符无显著插槽且中央留白；原包冻结。Potion Craft本机1.0.5选定动画成员／绑定只作分层与动作表达参考，没有其代码、图像或声音进入新播放器。
-- ReadyForScope / PresentLocal（2026-10-29），限源件、透明轮廓、木色背景显示及DM-G002-022动作审阅；独立重绘非逐像素拆层。造型／动作用户接受PendingReview，真实引擎、实际桌面遮挡及性能未验。PNG本机保管，文档／提示词／manifest入Git，仅项目内部审阅。
+- game-002 / main；[两件简洁器物与新规则边界](../../yanzhou/visual/alchemy-apparatus-2026-10-31/README.md)，ALCHEMY-APPARATUS-04。用户指定从炼金设计另选两件，取B01平炼／白化工序制作平炼釜、白化曲颈瓶外形候选，未新增法器规则或兼容。
+- 两次内置image_gen，完整RGBA PNG分别1342×1172／1135×1386；粗墨线、少色大面、中央安静表面，无固定辅槽或分体结构。原图／提示词／参考关系／SHA／原生成路径及清理恢复包沿manifest；无源图像素后处理，使用Cauldron与EvilCap原图仅作风格参考。
+- ReadyForScope / PresentLocal（2026-10-31），仅本机三背景、剪影及64／96／160px对照与源图一致性检查；造型PendingReview。具体占形、供料接口、核心兼容、D及工程未定未验，不作为玩法通过。
+- 旧MOTION-STUDY-01、ASSEMBLY-02及NATIVE-03源／说明／播放器已按用户要求退出活动目录；固定Git37f30968e32d54f4e635a804f55388d3442c0dcc及原路径取证，本机102文件逐条SHA恢复包沿本版入口。ID沿法器美术包续版，不复用旧规则或旧运行验证；原图本机保管，文本／清单入Git，仅内部审阅。
 
 ## <a id="as-g002-037"></a>AS-G002-037 展示优先卡面两路线六风格探索
 
@@ -97,13 +92,10 @@
 
 ## Demo
 
-### <a id="dm-g002-022"></a>DM-G002-022 双护符动作审阅播放器
+### <a id="dm-g002-022"></a>DM-G002-022 双护符动作审阅播放器（已退役）
 
-- 当前 **ARTIFACT-NATIVE-03** 单文件为 `E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/native-v03/artifact-native.html`，约20.0MB，uses AS-G002-036@同版六张完整分件及旧固定木楔，8879展示本版。刻纹沿线显形、接缝微光、完工亮度最高1.1，先分开再暗淡；打断无合拢／完工光。实浏览器1413×871阶段、暂停、图层和背景检查及16016个状态采样通过，证据和固定清单沿v03入口；不是Godot接入或玩法测试。旧v01／v02源与单文件保留，历史检查仍归原版。
-
-- game-002 / main；[设计、操作与证据](../../yanzhou/visual/artifact-motion-2026-10-29/README.md)，ARTIFACT-MOTION-STUDY-01；本机单文件 `E:/Project/yanzhou-ui-prototypes/artifact-motion-2026-10-29/artifact-motion.html`（约8.0MB），已内嵌资源，无外部依赖。固定源码／交付／检查指纹由素材manifest和外部verification记录，代码及二进制不上传。
-- uses AS-G002-036@ARTIFACT-MOTION-STUDY-01；独立程序刻纹／弧线是结构示意，非正式新咒文。生产／完工／打断三个动作片段，支持定格、暂停、图层开关、两种刻纹／节奏与减少位移；没有卡牌、生产或战斗规则执行。
-- ReadyForScope / PresentLocal（2026-10-29），仅本机HTTP窄视口操作、6006个姿态边界／归零采样与包检查。暂停25%保持、打断末态熄纹、木楔固定及变体操作已核；具体截图与结果在维护页。原游戏实机、file协议、宽屏、全键盘、音效、正式引擎与真人体验未验；不升级玩法或用户接受，未公开发布。
+- Archived / RecoverableLocal（2026-10-31）。用户要求删除旧法器设计，旧一体／拼接／原生分件三版播放器和设计退出活动目录，原8879地址现在展示AS-G002-036@ALCHEMY-APPARATUS-04的静态美术对照，不延续旧动画合同。
+- 固定设计、旧提示词与检查在37f30968e32d54f4e635a804f55388d3442c0dcc原路径取证；完整本机源码、HTML和截图在逐条SHA验证的old-player.zip中恢复，保管位置／哈希沿[新法器说明](../../yanzhou/visual/alchemy-apparatus-2026-10-31/README.md)。历史浏览器采样仅属于旧方案，无Godot或玩法证明；不重用此DM编号。
 
 ### <a id="dm-g002-020"></a>DM-G002-020 首场手牌与逐列布牌HTML示意
 

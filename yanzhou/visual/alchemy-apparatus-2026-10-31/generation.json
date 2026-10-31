@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-31",
+  "mode": "built-in image_gen",
+  "records": [
+    {
+      "file": "refining-kettle-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-bd345c48-19a9-4479-84c2-6d27857357af.png",
+      "prompt": "prompts/refining-kettle.txt"
+    },
+    {
+      "file": "albedo-retort-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-21535ae8-714d-451c-9807-879866e3f548.png",
+      "prompt": "prompts/albedo-retort.txt"
+    }
+  ],
+  "references": [
+    "E:/Game/Backpack Battles-analysis/2026-10-31/recovered/Items/Exclusive/Sprites/Cauldron.png",
+    "E:/Game/Backpack Battles-analysis/2026-10-31/recovered/Items/Sprites/EvilCap.png"
+  ]
+}
