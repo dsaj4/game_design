@@ -97,6 +97,8 @@ CUSTOM续作：原[首批B01素材](../materials/M-2026-10-27-alchemy-batch-01.m
 
 ## 8. HTML与检查
 
+2026-10-31后续补充：[六类法器构思卡](2026-10-31-alchemy-artifacts-r01.md)与[完整HTML R06](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r06.html)。R06保留本页名称和原35条配方，新增按CORE-069／068约束的法器候选、核心组合、供料几何及配置示例；不改变本页“只改命名”的原确认范围。以下R05原件作为命名固定证据保留。
+
 DM-G002-019使用新[命名修订HTML](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r05.html)，版本`ALCHEMY-BATCH-01-NAMING-R05`。R04原件保留，用来固定取证；R05为本页映射与原B01图谱的派生阅读稿。
 
 检查应逐身份比较原32材料的ID／级别、24前段和11成品的投入ID／份数／产出ID／工序／D，以及效果、目标、费用与回收字段；允许的差异仅为名称和对应文字引用。另核对原料可达、依赖无环、页面筛选／详情与名称同步。不运行玩法模拟或实验。固定HTML指纹与实际UI覆盖由统一目录登记。
