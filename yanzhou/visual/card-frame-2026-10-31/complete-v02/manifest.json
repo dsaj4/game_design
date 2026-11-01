@@ -1,0 +1,269 @@
+{
+  "schema": "yanzhou-complete-card-candidate.1",
+  "id": "AS-G002-041",
+  "version": "CARD-FRAME-02",
+  "date": "2026-10-31",
+  "project": "game-002",
+  "direction": "main",
+  "status": "CompleteCardCandidate",
+  "acceptance": "PendingReview",
+  "lifecycle": "ReadyForScope",
+  "access": "PresentLocal",
+  "input": {
+    "mode": "CUSTOM visual continuation",
+    "commit": "6075785890e27ee91b8dc0e6d3ee9acaca0e44cd",
+    "intent": "Refer to reconstructed complete Ways cards and redesign one complete front template",
+    "references": [
+      {
+        "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/complete-cards/index.html",
+        "role": "Read source catalog",
+        "sha256": "fa6ad2a41b6169dfffa825228dffcb5e9eb1933e2d6a22609082f27bc216f2ef"
+      },
+      {
+        "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/complete-cards/README.txt",
+        "role": "Read reconstruction boundary",
+        "sha256": "ded4bc0e7379466d05c79d58042796f31ebc4d0cb7d0537ad092942cda8eda67"
+      },
+      {
+        "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/complete-cards/render-config.json",
+        "role": "Read source composition and type-color data; not adopted as game rules",
+        "sha256": "b4dfa4894f622eb4a1b2b15531e571e61f1a640c8af837bfe03272c7c92d1640"
+      },
+      {
+        "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/complete-cards/png/zh/CopperPot.png",
+        "role": "Viewed only",
+        "sha256": "e98a5fd993c274677cc364f40bcfa05a743ab04f6412b9208c3d6933a9cab592"
+      },
+      {
+        "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/complete-cards/png/zh/RiverInABottle.png",
+        "role": "Viewed; template and illustration layout/style input",
+        "sha256": "428c47d30a404b62b1cf23070aea739730ee0cebddcb99e0ac7822a8bac5637d"
+      },
+      {
+        "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/complete-cards/png/zh/Plantain.png",
+        "role": "Viewed; template layout/style input",
+        "sha256": "272fc67a6253595554afd8ed42d47e79358ade7e81f80f9fea99841ee6219f72"
+      },
+      {
+        "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/complete-cards/png/en/StoneMortar.png",
+        "role": "Viewed only",
+        "sha256": "b984fc8b3fef27bb66a3d378cee1df7ebf8754eb2566809a3e0594e5eca9423e"
+      }
+    ],
+    "originals": [
+      {
+        "id": "water",
+        "path": "E:\\Project\\yanzhou-art-assets\\alchemy-item-pilot-2026-10-31\\ways-v02\\cards\\water.png",
+        "sha256": "b5c2a123de0f15e672514fd41c4ae183a690797e89f87d2c79b5929d68381f0e",
+        "role": "Identity and style input only; original remains unchanged"
+      },
+      {
+        "id": "fire",
+        "path": "E:\\Project\\yanzhou-art-assets\\alchemy-item-pilot-2026-10-31\\ways-v02\\cards\\fire.png",
+        "sha256": "2dba0ad8df7a78178b3bc0aa30c63d7cd47d988b2861a97f94ed17112c212eff",
+        "role": "Identity and style input only; original remains unchanged"
+      },
+      {
+        "id": "earth",
+        "path": "E:\\Project\\yanzhou-art-assets\\alchemy-item-pilot-2026-10-31\\ways-v02\\cards\\earth.png",
+        "sha256": "566a3afd45e48fdbb80f77ccb05520083fcd03b536423c6ec1a44f98f8450a73",
+        "role": "Identity and style input only; original remains unchanged"
+      },
+      {
+        "id": "wind",
+        "path": "E:\\Project\\yanzhou-art-assets\\alchemy-item-pilot-2026-10-31\\ways-v02\\cards\\wind.png",
+        "sha256": "42e7776b2d311b09800e66849515619eba4967756e11e02f29348f08e56f4c41",
+        "role": "Identity and style input only; original remains unchanged"
+      },
+      {
+        "id": "herb",
+        "path": "E:\\Project\\yanzhou-art-assets\\alchemy-item-pilot-2026-10-31\\ways-v02\\cards\\herb.png",
+        "sha256": "637369aab0a77f241d8442bc5e2523057c8a01f16c2d5e7aaa68ab9649d4ede1",
+        "role": "Identity and style input only; original remains unchanged"
+      }
+    ],
+    "referenceBoundary": "Static research reconstruction, not unmodified Unity screenshots or direct full-card source texture"
+  },
+  "generation": {
+    "tool": "built-in image_gen",
+    "calls": 6,
+    "templateCalls": 1,
+    "adaptedArtCalls": 5,
+    "processing": "All new generated PNG bytes preserved; native Godot assembly and typography only"
+  },
+  "assets": [
+    {
+      "id": "template",
+      "kind": "template",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-88961d9e-0307-4e86-953e-8aa70e90d141.png",
+      "source": "sources/complete-template-v01.png",
+      "runtime": "template/complete-template-v01.png",
+      "prompt": "prompts/template-v01.txt",
+      "width": 1003,
+      "height": 1568,
+      "bytes": 627595,
+      "sha256": "1d8def307af42a0fe7c7ef49179ec13d40496c5eb83526dc48511855be7abe2a",
+      "colorType": 6
+    },
+    {
+      "id": "water",
+      "kind": "art",
+      "name": "清泉水",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-1895f23b-8447-4510-bed2-05215b36af5a.png",
+      "source": "sources/water-art-v01.png",
+      "runtime": "art/water-v01.png",
+      "prompt": "prompts/water-art-v01.txt",
+      "width": 1174,
+      "height": 1340,
+      "bytes": 1673424,
+      "sha256": "f9dac9dcedd1c8a7210acdbab944a4a200a5515d58c339d9df0c926ffa0a4e57",
+      "colorType": 2
+    },
+    {
+      "id": "fire",
+      "kind": "art",
+      "name": "燃烧木炭",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-1c08c504-20bd-4037-b75b-10871403d0d2.png",
+      "source": "sources/fire-art-v01.png",
+      "runtime": "art/fire-v01.png",
+      "prompt": "prompts/fire-art-v01.txt",
+      "width": 1174,
+      "height": 1340,
+      "bytes": 1709622,
+      "sha256": "e4ed0a8c6dcdf676a32d305b627ac3994d77b38c111694f3d6ab682332e5af4b",
+      "colorType": 2
+    },
+    {
+      "id": "earth",
+      "kind": "art",
+      "name": "黏土团",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-6dd13067-cee0-4ca0-b645-fe52b4e8eb42.png",
+      "source": "sources/earth-art-v01.png",
+      "runtime": "art/earth-v01.png",
+      "prompt": "prompts/earth-art-v01.txt",
+      "width": 1174,
+      "height": 1340,
+      "bytes": 1567954,
+      "sha256": "e9565d5c48e1ff26dc0218c47e650a0f9652697fbd53162cb5931d0de69d3884",
+      "colorType": 2
+    },
+    {
+      "id": "wind",
+      "kind": "art",
+      "name": "风息羽毛",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-3d34ad9c-8a15-4c92-8c61-d5cf9a3c509d.png",
+      "source": "sources/wind-art-v01.png",
+      "runtime": "art/wind-v01.png",
+      "prompt": "prompts/wind-art-v01.txt",
+      "width": 1174,
+      "height": 1340,
+      "bytes": 1713460,
+      "sha256": "51c1feef3f0a1521dbe2fa195627d9497b5c52b0276c08d52dd0e15210c4e9fe",
+      "colorType": 2
+    },
+    {
+      "id": "herb",
+      "kind": "art",
+      "name": "疗伤草",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-9289057f-1d03-45f5-833b-74a53c239883.png",
+      "source": "sources/herb-art-v01.png",
+      "runtime": "art/herb-v01.png",
+      "prompt": "prompts/herb-art-v01.txt",
+      "width": 1174,
+      "height": 1340,
+      "bytes": 1805196,
+      "sha256": "85b4cdf93f88f21715e4477e5259264e4b75bac388d833c0930410456af14faa",
+      "colorType": 2
+    }
+  ],
+  "composition": {
+    "sourceCanvas": [
+      1003,
+      1568
+    ],
+    "artWindow": [
+      33,
+      34,
+      938,
+      1077
+    ],
+    "titleRect": [
+      63,
+      1166,
+      877,
+      333
+    ],
+    "titleFont": "SystemFont SimSun, weight600; installed serif/CJK fallback, no font file shipped",
+    "titleFontSize": 144,
+    "exportCanvas": [
+      1024,
+      1600
+    ],
+    "host": [
+      155,
+      229
+    ],
+    "surfaceRoles": [
+      "recomposed card illustration",
+      "common border/nameplate template",
+      "independent real title text"
+    ],
+    "noEffectsPanel": true,
+    "sourceGameTypeColorsAdopted": false
+  },
+  "exports": [
+    {
+      "id": "water",
+      "file": "exports/water-card-v02.png",
+      "width": 1024,
+      "height": 1600,
+      "bytes": 1594856,
+      "sha256": "9f83e9ed15013b373f59a4f3a269d92f6c42d56dca227c9ba0af5d512f9db91e"
+    },
+    {
+      "id": "fire",
+      "file": "exports/fire-card-v02.png",
+      "width": 1024,
+      "height": 1600,
+      "bytes": 1638778,
+      "sha256": "f1804f7da8224b7ae318b442456da2bfb85e108c60c19c2ec9a37e91914a0a8f"
+    },
+    {
+      "id": "earth",
+      "file": "exports/earth-card-v02.png",
+      "width": 1024,
+      "height": 1600,
+      "bytes": 1490502,
+      "sha256": "ab4ec8b73f6e15ebefd00acb24678d5784dbbbea2d21c935c9567946c9cc3bb3"
+    },
+    {
+      "id": "wind",
+      "file": "exports/wind-card-v02.png",
+      "width": 1024,
+      "height": 1600,
+      "bytes": 1624405,
+      "sha256": "0f5b140a40c07aee68f18643fc91ee4e518cd1a37fd559fadc274ca9811e90d6"
+    },
+    {
+      "id": "herb",
+      "file": "exports/herb-card-v02.png",
+      "width": 1024,
+      "height": 1600,
+      "bytes": 1706703,
+      "sha256": "0f99b9304dd5808ebdb6d87f2bacdf1ae402387390edc66872d9129572d5f060"
+    }
+  ],
+  "delivery": {
+    "directory": "E:/Project/yanzhou-art-assets/card-frame-2026-10-31/complete-v02",
+    "zip": "E:/Project/yanzhou-art-assets/card-frame-2026-10-31/complete-v02.zip",
+    "thirdPartyOriginalImagesOrFontsIncluded": false,
+    "assetLock": {
+      "files": 35,
+      "sha256": "f1455edddf378c78c4cb147771eec60fda06581edd5b206a30c1ff2f0801a309"
+    },
+    "zipBytes": 17620558,
+    "zipSha256": "297b5b2e7ec2054eeaed2302cfa0ee9e2cd78f535d261b5e28e4fe37dbea6e20",
+    "zipVerifiedMembers": 36
+  },
+  "checks": "checks.json"
+}

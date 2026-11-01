@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-31",
+  "status": "ReadyForScope",
+  "acceptance": "PendingReview",
+  "native": {
+    "exports": [
+      "water",
+      "fire",
+      "earth",
+      "wind",
+      "herb"
+    ],
+    "scope": "Native complete card composition and text layout only",
+    "templateAlpha": {
+      "artCenter": 0,
+      "corner": 0,
+      "size": [
+        1003,
+        1568
+      ],
+      "titleCenter": 0.992156863212585
+    },
+    "templateReuse100": true,
+    "titleFit": {
+      "earth": {
+        "available": 877,
+        "text": "黏土团",
+        "widthAtSource": 432
+      },
+      "fire": {
+        "available": 877,
+        "text": "燃烧木炭",
+        "widthAtSource": 576
+      },
+      "herb": {
+        "available": 877,
+        "text": "疗伤草",
+        "widthAtSource": 432
+      },
+      "water": {
+        "available": 877,
+        "text": "清泉水",
+        "widthAtSource": 432
+      },
+      "wind": {
+        "available": 877,
+        "text": "风息羽毛",
+        "widthAtSource": 576
+      }
+    }
+  },
+  "newSourceCopyChecks": 18,
+  "originalArtUnchanged": 5,
+  "losslessMipmapSourceImports": 6,
+  "visualReview": {
+    "boards": [
+      "complete-review.png",
+      "template-alpha-review.png"
+    ],
+    "observed": [
+      "One common frame and nameplate across five identities",
+      "Complete object silhouette in each recomposed art panel",
+      "Chinese names rendered as a separate real text layer with no clipped glyphs",
+      "Upper window and outer corners transparent; bottom nameplate has near-opaque source alpha",
+      "155x229 host display checked; frame and nameplate have no effect text"
+    ],
+    "limits": [
+      "Frame/title-area/name-placement selection pending",
+      "Only five 3-4-character names checked",
+      "No main-game integration, interaction or player recognition test"
+    ]
+  }
+}

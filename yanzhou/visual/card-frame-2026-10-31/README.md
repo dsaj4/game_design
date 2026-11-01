@@ -1,5 +1,7 @@
 # 卡片边框 · Ways参考首版
 
+当前追加[完整卡面参考版02](complete-v02/README.md)：深褐薄边、上部卡图窗与下部独立名称板；同一模板五件试配，中文名称真实排字。02为新候选，待审阅；下文01金色窄框及其包保留供比较。
+
 2026-10-31 · game-002 / main · **AS-G002-041 / CARD-FRAME-01**。FrameCandidate / PendingReview。用户明确此前五幅画面作为**卡图**，本轮开始独立卡片边框设计；一张通用透明框配现有五张卡图，原卡图字节保持。本版是边框候选，不把框色或卷角定义为稀有度、费用、状态或玩法标记。
 
 ![卡框与五张卡图的小尺寸对照](E:/Project/yanzhou-art-assets/card-frame-2026-10-31/evidence/frame-review.png)

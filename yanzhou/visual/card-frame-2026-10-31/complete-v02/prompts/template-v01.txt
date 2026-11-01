@@ -1,0 +1,9 @@
+Use case: stylized-concept.
+Asset type: one reusable FRONT CARD TEMPLATE / frame overlay for an alchemy game. Not an illustration and not a presentation board.
+Two input images are full Ways of Alchemy cards, used ONLY as references for composition, rounded dark-brown rim, top picture window and bottom nameplate. Do not reproduce their object pictures, titles or game-specific type colors.
+Create one original front-card TEMPLATE, portrait canvas exactly 1024x1600 (16:25 ratio, about the reference full card ratio). A simple very dark brown hand-inked outer rim, gently rounded corners, thickness about24px. Nearly flat graphic colors, clean handmade quality, no ornate frame.
+The TOP 71% is one large genuinely TRANSPARENT ART WINDOW approximately x24,y24,width976,height1108, softly rounded corners. It must contain no white paper, no gray placeholder, no checkerboard, no picture, no words. Center of upper picture area is zero alpha.
+A dark brown horizontal separator about14px thick divides it from a BOTTOM NAMEPLATE approximately x24,y1150,width976,height426. Bottom nameplate is OPAQUE pale muted sage-cream (#d7d9a6), plain and quiet at center with only very subtle darker sage edges. Big blank centered area for a future title. No inner subdivisions.
+Outside rounded outer card corners must also be genuinely transparent. Deliver only card rim, divider and filled blank bottom nameplate. Keep all four sides complete and within canvas.
+Visual simplicity: no gold, metal, cream double outline, curls, corner emblems, medallion, gems, labels, symbols, stats, effect panel, small badges, tiny scratches or paper grunge.
+Absolutely NO TITLE, letters, Chinese characters, writing, numbers or watermark anywhere. The nameplate is entirely blank. Do not copy or invent text from the reference cards. No cast shadow, tabletop, perspective, thickness, multiple cards, sample art or people.
