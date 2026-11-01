@@ -2,7 +2,7 @@
 
 2026-10-31 · game-002 / main · **AS-G002-036 / ALCHEMY-APPARATUS-10**。用户已选定当前Ways画风；共用画法、提示词约束和验收以[Ways统一美术基准](../../README.md)为准，本页保存两件源图、实际生成来源与法器边界。
 
-**[查看法器、物品与卡面统一基准板](E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/index.html)**。当前源PNG保持原字节，没有重绘或像素处理。
+**[查看统一基准板02](E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/production-v02/index.html)**。新增已选完整卡面与适配卡图，当前法器源PNG保持原字节，没有重绘或像素处理；制作规格集中在统一基准。
 
 | 原件 | 当前造型 | 实际规格 |
 | --- | --- | --- |
@@ -17,7 +17,7 @@
 
 准确提示词为[平炼釜](prompts/refining-kettle.txt)／[曲颈瓶](prompts/albedo-retort.txt)，输入角色和原输出路径沿[generation](generation.json)。两张PNG仍与工具原输出字节一致；参考图、来源清单和源图SHA沿[manifest](manifest.json)。这些是生成历史，当前共用画法按统一基准继续，不改写旧调用文字。
 
-本轮统一基准板实际核对12图的分组、深浅背景、小尺寸和透明物件剪影，记录与截图由manifest引用；仅本机视觉和装载检查。原两件224／64／96／160px与三底检查仍保留原日期及范围，不假称本轮重跑引擎。风格SelectedByUser；具体资产细节、主游戏接入及玩家辨识仍独立验收。
+此前基准板01实际核对12图的分组、深浅背景、小尺寸和透明物件剪影，原记录与截图由manifest引用；02本轮检查沿统一基准，旧记录未覆写。原两件224／64／96／160px与三底检查仍保留原日期及范围，不假称本轮重跑引擎。风格SelectedByUser；具体资产细节、主游戏接入及玩家辨识仍独立验收。
 
 ## 旧稿与恢复
 

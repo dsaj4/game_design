@@ -5,8 +5,8 @@
   "date": "2026-10-31",
   "project": "game-002",
   "direction": "main",
-  "status": "CompleteCardCandidate",
-  "acceptance": "PendingReview",
+  "status": "VisualDesignSelected",
+  "acceptance": "VisualBaselineSelected",
   "lifecycle": "ReadyForScope",
   "access": "PresentLocal",
   "input": {
@@ -265,5 +265,41 @@
     "zipSha256": "297b5b2e7ec2054eeaed2302cfa0ee9e2cd78f535d261b5e28e4fe37dbea6e20",
     "zipVerifiedMembers": 36
   },
-  "checks": "checks.json"
+  "checks": "checks.json",
+  "selection": {
+    "date": "2026-10-31",
+    "inputCommit": "1cae454eeed1839d64e213c9c9de7a01cf06ffe5",
+    "authority": "User requested adoption into art baseline and transition to real asset production",
+    "guide": "../../README.md",
+    "guideVersion": "WAYS-ART-BASELINE-02",
+    "selected": [
+      "shared Ways visual style",
+      "thin rounded brown border",
+      "upper illustration window",
+      "lower pale sage nameplate",
+      "independent real title text"
+    ],
+    "productionStatus": "ProductionPreparation",
+    "pending": [
+      "distributable CJK font and complete batch title fitting",
+      "standard-size template derivative with synchronized layout coordinates",
+      "explicit nameplate opacity policy and alpha edge inspection",
+      "actual content geometry and host integration"
+    ],
+    "historicalChecks": "checks.json retains generation-time status and evidence; external delivery ZIP is unchanged"
+  },
+  "baselineReview": {
+    "version": "WAYS-ART-BASELINE-02",
+    "directory": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/production-v02",
+    "manifest": "review-manifest.json",
+    "checks": "browser-qa.json",
+    "scope": "13 original source references and 5 derived complete-card examples; browser-only visual review, no new engine or player test",
+    "fingerprints": {
+      "index.html": "bacabc3f743f417c8ff6f7a6cae551fbf4f3287f534203d677e0f60a9df389ea",
+      "review-manifest.json": "6048c69d8414fd7283f00143fffd4ad64aab8f6aa9e9db9ab14949e7f224e0fa",
+      "browser-qa.json": "50ea7ca90fb7478c9b652f3ea76cb793c00d76dff54a1b4d7e79e2d897857af7",
+      "build.mjs": "723b8c4e39bed4a0177d5d25703e676a98647bc65e1067b45a75dcb142387db3",
+      "serve.mjs": "9aaa828773decd461aedac776f42163e78ce7311741febd62cc4a61f1c0c570b"
+    }
+  }
 }
