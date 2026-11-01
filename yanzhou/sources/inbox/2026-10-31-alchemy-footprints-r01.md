@@ -1,5 +1,7 @@
 # 炼金首批全物件占形：59类物件与35配方供料校核
 
+> 后续见[R08配方完善](2026-10-31-alchemy-recipe-refinement-r08.md)及[当前完整HTML](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r08.html)。R08保留本页43卡及10核心规格，器具6→8、物件59→61，重分精炼用途并缩减研钵供料；生命灵药示例35→29格、核心5→7枚。本页下文是R07固定范围，不作为R08器具数量／归属／预算。
+
 2026-10-31 · game-002 · 物件／空间构思卡。**Raw Geometry Revision / Unqualified；体验与平衡Hypothesis / NotRun。**本轮已授权补齐占形；具体形状与面积是设计候选，未写入现行GDD。沿R05名称、R06六类器具；32材料身份、11成品、35配方、核心组合、效果、D与产量保持。
 
 ## 一、目标、范围与阅读

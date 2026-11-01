@@ -97,7 +97,7 @@ CUSTOM续作：原[首批B01素材](../materials/M-2026-10-27-alchemy-batch-01.m
 
 ## 8. HTML与检查
 
-当前完整阅读稿已续至[R07全物件占形](2026-10-31-alchemy-footprints-r01.md)及[HTML R07](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r07.html)。本页名称及原配方仍保留；空间规格由R07单独维护，R05／R06原件作固定证据保留。
+当前完整阅读稿已续至[R08配方完善](2026-10-31-alchemy-recipe-refinement-r08.md)及[HTML R08](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r08.html)。本页名称、原配方及R07卡形保留；R08新增两类精炼器具、投入职责与全链预算，属后续候选，不改变本页只改命名的历史范围。R05—R07原件作固定证据保留。
 
 2026-10-31后续补充：[六类法器构思卡](2026-10-31-alchemy-artifacts-r01.md)与[完整HTML R06](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r06.html)。R06保留本页名称和原35条配方，新增按CORE-069／068约束的法器候选、核心组合、供料几何及配置示例；不改变本页“只改命名”的原确认范围。以下R05原件作为命名固定证据保留。
 
