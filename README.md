@@ -5,6 +5,7 @@
 | 我想做什么 | 入口 |
 | --- | --- |
 | 查看所有系统的设计目标、体验与取舍 | [言咒系统设计手册](yanzhou/system-design/handbook.md) |
+| 继续世界观、文明历史与背景故事 | [言咒世界观入口](yanzhou/worldbuilding/README.md) |
 | 查具体物件与配方设计 | [言咒内容库展板](yanzhou/content-library/index.html) |
 | 了解游戏 | [核心设计](yanzhou/design/core-design.md) |
 | 查询正式规则 | [GDD与系统目录](yanzhou/design/README.md) |

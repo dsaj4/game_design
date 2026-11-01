@@ -1,10 +1,10 @@
 # 工作区地图
 
-2026-11-01 / layout.8。权限以[项目注册表](registry/project-registry.md)及项目AGENTS为准。
+2026-11-01 / layout.9。权限以[项目注册表](registry/project-registry.md)及项目AGENTS为准。
 
 | 区域 | 用途 |
 | --- | --- |
-| [yanzhou](../yanzhou/README.md) | 默认游戏game-002；design管规则，system-design集中系统目标／体验／具体方案，standards管工作规范；sources、exploration、governance、development分别管来源、方向、决定／问题和开发证据 |
+| [yanzhou](../yanzhou/README.md) | 默认游戏game-002；design管规则，system-design集中系统目标／体验／具体方案，content-library管具体物件，worldbuilding管世界／虚构历史／故事，standards管工作规范；sources、exploration、governance、development分别管来源、方向、决定／问题和开发证据 |
 | [独立肉鸽退役记录](workspace-decisions.md#ws-010) | 已退出工作树；空白背景与原管理记录保留Git历史，不继承到言咒 |
 | [旧媒体分析固定版本](workspace-decisions.md#ws-009) | 已退出工作树；报告、输入清单与失败记录按原版本解释 |
 | [docs](shared-knowledge.md) | 通用规则、方法、项目登记与管理决定 |

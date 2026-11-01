@@ -1,6 +1,6 @@
 # 启动探索：选择模型能读的材料
 
-Project ID：game-002-optimization。文档角色：ExplorationReadingContract。修订：READ-1 / documentation.8 / 2026-11-01。依据G002-DOC-008、012、013、014、027、028及033／034。适用于言咒新方向和显式切换阅读范围；方向存储仍是一文件夹一README。本次纳入CORE-070背包规则只更新当前预设，旧方向固定提交与清单不自动换版。
+Project ID：game-002-optimization。文档角色：ExplorationReadingContract。修订：READ-1 / documentation.9 / 2026-11-01。依据G002-DOC-008、012、013、014、027、028及033／034／035。适用于言咒新方向和显式切换阅读范围；方向存储仍是一文件夹一README。本次只将worldbuilding登记进FULL，CORE／GDD预设及旧方向固定清单不自动换版。
 
 ## 直接这样说
 
@@ -37,7 +37,7 @@ Project ID：game-002-optimization。文档角色：ExplorationReadingContract�
 | --- | --- | --- | --- |
 | CORE／核心设计 | 仅`yanzhou/design/GDD.md` | 理解循环、系统关系、核心取舍与当前范围，提出方向构思 | 系统细则、逐卡参数、主系统来源、历史、其他方向 |
 | GDD／完整GDD | 下表列出的56份GDD包文件 | 对照现行细则、卡牌、资源、遭遇和交互提出具体增量 | GDD链接到的原始素材、历史、FX目录、开发与视觉材料、其他方向 |
-| FULL／全量文档／全量主系统文档 | `yanzhou/`根README与CONTEXT，以及`design/`、`system-design/`、`content-library/`、`standards/`、`sources/`、`governance/`、`development/`、`visual/`下全部已登记文本材料；以后新增主系统资料目录须先登记 | 同时核对现行设计、形成原因、候选来源、证据与表现约束 | `history/`、`exploration/`其他方向、外部代码仓库、共享资料库、独立肉鸽、旧游戏、联网获取 |
+| FULL／全量文档／全量主系统文档 | `yanzhou/`根README与CONTEXT，以及`design/`、`system-design/`、`content-library/`、`worldbuilding/`、`standards/`、`sources/`、`governance/`、`development/`、`visual/`下全部已登记文本材料；以后新增主系统资料目录须先登记 | 同时核对现行设计、形成原因、候选来源、证据与表现约束 | `history/`、`exploration/`其他方向、外部代码仓库、共享资料库、独立肉鸽、旧游戏、联网获取 |
 | CUSTOM／自选材料 | 用户明确列出的文件、章节、目录或已提供材料；不隐含CORE或GDD | 控制变量、只讨论某系统、指定研究材料 | 未列出的全部游戏材料 |
 | NONE／空白背景 | 仅本轮用户输入；续作仍能使用所选方向明确保留的自身记录 | 不借用言咒规则提出独立构思；纯空白须使用新方向 | 任何游戏文档；不得声称与现行基线兼容 |
 

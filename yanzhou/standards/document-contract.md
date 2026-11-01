@@ -1,6 +1,6 @@
 # 文档职责与维护
 
-2026-11-01 · Accepted / Documentation · G002-DOC-034，继承DOC-033／030。资格、采纳和记录规则统一沿[设计流程](../../docs/design-workflow.md)，此处只规定归属及同步。
+2026-11-01 · Accepted / Documentation · G002-DOC-035，继承DOC-034／033／030。资格、采纳和记录规则统一沿[设计流程](../../docs/design-workflow.md)，此处只规定归属及同步。
 
 ## 权威来源
 
@@ -10,6 +10,7 @@
 | 系统精确行为、条件、公式与例外 | [规则索引](../governance/rule-index.md)所指rules；迁入GDD的核心TL由GDD维护 |
 | 全局参数、内容填写合同与限定案例 | design/parameters、content、examples；案例保留初态、操作与预期，具体对象定义引用内容库，案例数值不成为全局默认 |
 | 具体物件、文案、配方与占形 | [content-library](../content-library/README.md)；catalog.json为单一数据源，分册与HTML派生；Accepted限定对象与Raw／Qualified条目分别标记 |
+| 世界事实、虚构历史、人物与背景故事、线索揭示 | [worldbuilding](../worldbuilding/README.md)；确认、候选、角色信念与Unknown分开；具体物件文案仍归内容库，项目旧记录仍归history |
 | 系统目标、取舍与体验假设 | [系统设计手册](../system-design/handbook.md)及`system-design/`所属系统design／experience；手册为总览，不独立修改细则 |
 | 系统方案、内容设计方法与表现合同 | `system-design/`的背包工作稿、炼金方法、内容框架、效果身份与表现说明；不再维护具体物件目录副本；逐段保留Raw／Qualified／已确认意图，不混入规则正文 |
 | 规则情境 | `design/`所属系统examples及跨系统案例；真实数值仍只维护一处 |
@@ -40,6 +41,8 @@ README只导航；工作台只展示同一来源、状态和证据，不维护�
 设计工作层按实际设计对象定位，背包、配方／构筑、回合节奏、知识学习、表现和平衡等跨系统事项也进入手册；它们不是新增规则ID或自动成立的新游戏功能。系统理由与体验已移出规则目录，现有examples仍在规则层。纯工作规范集中standards，development保留当前能力、实际证据及派生任务包。
 
 当前设计工作稿可以从原inbox迁入system-design并继续维护，原资格及固定版本语境不变；sources仍保存输入摘要、正式素材、提案／评估／D和旧轮证据，探索方向仍保留自身固定范围。新想法首先按原流程记录；历史源稿不因“集中设计”复制成第二份活动正文，资产不因整理搬家。
+
+世界与叙事设计独立于system-design：旧混合稿只迁出世界正文，分类、生产性质和稀有度方法留原所属页并引用世界设定。初期worldbuilding只按实际篇幅维护入口、世界与故事，虚构年表有实际需要再拆；不预建人物／国家／宗教树，不扩大GDD包或开发启动包。
 
 导航、行为、理由、体验、示例是五种职责，**不要求五个文件**。短内容可同页分节，未设计系统只留占位；内容增长或按需读取确有收益时再拆。示例不复制已有案例参数，重复反例直接引用验收。
 

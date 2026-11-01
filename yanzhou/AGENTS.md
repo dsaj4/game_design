@@ -5,6 +5,7 @@
 ## 开始阅读
 
 - **系统设计与设计师接手**：从[系统设计手册](system-design/handbook.md)定位目标、预期体验、核心取舍及具体工作稿。`system-design/`与规则层`design/`平级；工作方法集中在[standards](standards/README.md)。未决和候选保持原资格，不因整理视为规则采纳。
+- **世界观与叙事**：从[worldbuilding](worldbuilding/README.md)进入，世界、文明因果与人物故事独立维护；新方向仍先按READ-1选择范围。虚构历史不进入项目`history/`，叙事不改写精确玩法或内容库规格。
 
 - **开发接手或主系统完善**：先读[development/README](development/README.md)，按其5文件启动包读取唯一核心与任务入口。记CUSTOM及启动时完整提交；已注入的AGENTS计一次，术语、基准和问题只查需要的条目。用户指定更窄材料时以用户为准。
 - **具体实现／规则修改**：沿[任务设计包](development/task-pack.md)选行为，再按触发条件补细则、内容和验收。不要每次读全GDD或来源沿革。改公共机制须覆盖所有受影响接口；明确的材料白名单继续有效。
@@ -20,6 +21,7 @@
 | 现行玩法与参数 | `design/GDD.md`为唯一核心正文，系统rules为细则；具体裁决由规则索引定位，`baseline.md`管版本 |
 | 具体物件、配方、文案与占形 | [content-library](content-library/README.md)的catalog为单一数据源，Markdown分册与HTML展板均派生；资格逐项保留，规则仍归design |
 | 系统目标、理由、体验及设计方法 | `system-design/handbook.md`为设计师入口；各系统说明、炼金方法、背包工作稿与表现设计在`system-design/`维护；具体物件查询内容库 |
+| 世界、虚构历史、人物与背景故事、线索揭示 | [worldbuilding](worldbuilding/README.md)；确认、候选、角色信念与Unknown分开，正式物件文案仍归内容库 |
 | 与游戏规则无关的设计／开发工作规范 | `standards/`：文档职责、开发规范、迭代、审阅、协作、工作台与阶段方法 |
 | 领域语言 | `CONTEXT.md` |
 | 意图摘要、资格、提案、评估、待采纳变更 | `sources/inbox/`、`materials/`、`proposals/`、`evaluations/`、`draft-changes/` |
