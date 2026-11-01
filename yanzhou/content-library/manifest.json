@@ -126,5 +126,7 @@
     "Gameplay, engine integration, player understanding and balance",
     "Full assistive technology and print layout",
     "Asset availability on other computers"
-  ]
+  ],
+  "deliveryCommit": "8741d2085676c4a1be91883dd92f9a4f66744564",
+  "deliveryPath": "yanzhou/content-library/"
 }
