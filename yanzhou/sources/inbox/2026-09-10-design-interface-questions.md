@@ -8,7 +8,7 @@
 
 ## 触发来源
 
-用户在逐份文档统一后，确认C01–C08的推荐处理方向。[确认前建议快照](../../../archive/2026-09-10-game-002-decision-inputs/workspaces/game-002/docs/design-decisions-needed.md)保留完整措辞和选项；[当前决定](../../governance/questions.md)记录生效范围。
+用户在逐份文档统一后，确认C01–C08的推荐处理方向。[确认前建议快照](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive/2026-09-10-game-002-decision-inputs/workspaces/game-002/docs/design-decisions-needed.md)保留完整措辞和选项；[当前决定](../../governance/questions.md)记录生效范围。
 
 ## 可能带来的玩家体验
 

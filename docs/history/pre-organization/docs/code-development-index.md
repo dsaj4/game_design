@@ -10,7 +10,7 @@
 | 项目 | 状态 | 开发索引 |
 | --- | --- | --- |
 | game-002 | 当前完整自动战斗待实现验收 | [新项目索引](../../../../workspaces/game-002/docs/code-development-index.md) |
-| core-card-project | Parked / Archived | [历史索引](../../../../archive/2026-09-05-core-card-project/docs/code-development-index.md) |
+| core-card-project | Parked / Archived | [历史索引](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive/2026-09-05-core-card-project/docs/code-development-index.md) |
 
 旧 combat-lab、semantic-card-engine 和外部 Godot 仓库不属于新游戏。
 新项目先有独立设计来源，再登记实现任务；实现状态不替代玩法确认。

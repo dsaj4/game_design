@@ -36,6 +36,8 @@ Project ID：game-002。文档角色：HistoricalNavigation。2026-11-01更新�
 
 ## 已退出工作树的快照
 
+2026-11-01根archive的293个已跟踪文件按用户决定退出工作树，完整原文、来源和未决／失败记录仍在[固定归档版本](https://github.com/dsaj4/game_design/tree/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive)。现存sources中的原始资料链接已指向该版本，旧项目经验不转为言咒现行规则；本地冻结背景包保持原字节。
+
 | 资料 | 固定版本入口 |
 | --- | --- |
 | 整理前GDD、核心和FX全文 | [原快照](https://github.com/dsaj4/game_design/tree/d44ecd04840b434b171d26f601bafbd87c311c92/yanzhou/history/pre-organization) |

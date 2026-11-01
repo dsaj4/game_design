@@ -4,7 +4,7 @@
 
 ## 记录用途与来源
 
-本页是当前适用文本，编写于2026-09-10；原始决定的措辞与当时状态由[原始记录](../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/draft-changes/D-2026-09-09-core-system-stable-baseline.md)完整保存，不将本页视为当时的原文。
+本页是当前适用文本，编写于2026-09-10；原始决定的措辞与当时状态由[原始记录](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/draft-changes/D-2026-09-09-core-system-stable-baseline.md)完整保存，不将本页视为当时的原文。
 
 ## 当前适用文本
 

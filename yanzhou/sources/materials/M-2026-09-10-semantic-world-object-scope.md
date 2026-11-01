@@ -10,7 +10,7 @@
 | 来源inbox | [范围原话](../inbox/2026-09-10-semantic-world-object-scope.md)、[简化指令](../inbox/2026-09-10-simple-object-interactions.md) |
 | 确认方式 | grill-with-docs，SW01范围采纳后依据用户直接指令收束 |
 | 当前证据 | Hypothesis，无原型/玩家验证 |
-| 修改前范围 | [输入快照](../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md) |
+| 修改前范围 | [输入快照](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md) |
 
 ## 规范化表述
 

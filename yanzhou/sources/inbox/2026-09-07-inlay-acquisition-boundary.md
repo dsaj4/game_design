@@ -4,7 +4,7 @@
 
 ## 原始表达与来源
 
-[原始记录](../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-combat-item-rewards-and-settlement.md)保存完整规则与确认来源。[来源入口](2026-09-06-flexible-grammar-and-spell-types.md)保留该主题的当前入口。
+[原始记录](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-combat-item-rewards-and-settlement.md)保存完整规则与确认来源。[来源入口](2026-09-06-flexible-grammar-and-spell-types.md)保留该主题的当前入口。
 
 ## 当前设计对象
 

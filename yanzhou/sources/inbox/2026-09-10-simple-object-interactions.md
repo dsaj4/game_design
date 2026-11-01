@@ -14,7 +14,7 @@
 
 ## 触发来源
 
-用户对[对象目录](2026-09-10-semantic-object-catalog.md)、[能力词卡](2026-09-10-semantic-ability-word-catalog.md)和[代表句](2026-09-10-semantic-sentence-cases.md)提出明确收束，并要求增加法术产生的新对象。消息中的空白实体在此按普通空格/换行保留，不改变文字意思。修改前的内容与关键规则见[输入快照](../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)。
+用户对[对象目录](2026-09-10-semantic-object-catalog.md)、[能力词卡](2026-09-10-semantic-ability-word-catalog.md)和[代表句](2026-09-10-semantic-sentence-cases.md)提出明确收束，并要求增加法术产生的新对象。消息中的空白实体在此按普通空格/换行保留，不改变文字意思。修改前的内容与关键规则见[输入快照](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)。
 
 ## 可能带来的玩家体验
 

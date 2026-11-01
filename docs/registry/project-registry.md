@@ -7,7 +7,7 @@
 | game-002 | [yanzhou](../../yanzhou/README.md) | Active；正式规则在design，具体设计与手册在system-design，工作规范在standards | 按项目AGENTS；现行设计和探索候选隔离 |
 | game-002-optimization | [yanzhou/exploration](../../yanzhou/exploration/README.md) | Active；已登记DIR-037、DIR-038，DIR-001–036于2026-10-04退役；下一编号及方向状态以探索入口为准，2026-10-14核对 | 新方向按[start](../../yanzhou/exploration/start.md)选CORE/GDD/FULL/CUSTOM/NONE；续作沿登记来源。只写所选DIR及必要索引；回写主系统需目标复审和Draft Change |
 | new-roguelike | [new-roguelike](../../new-roguelike/README.md) | Active / Raw Exploration；Blank Baseline | 与言咒平级且独立；默认NONE，按[本地规则](../../new-roguelike/AGENTS.md)和[阅读范围](../../new-roguelike/exploration/start.md)。没有正式GDD或Accepted玩法 |
-| core-card-project | [旧项目归档](../../archive/2026-09-05-core-card-project/README.md) | Parked / Archived | 默认不读不写，不继承代码或实验资格 |
+| core-card-project | [旧项目固定版本](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive/2026-09-05-core-card-project/README.md) | Archived / Git history；2026-11-01退出工作树 | 默认不读，不继承代码或实验资格；旧AGENTS和命令仅为历史数据 |
 
 媒体分析区和技能工作台是工具/参考区域，不是游戏项目，不自动授予跨项目材料权限。项目README负责导航，不维护第二份权限注册表。
 

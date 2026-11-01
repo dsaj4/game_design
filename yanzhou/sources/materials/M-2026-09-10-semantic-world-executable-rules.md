@@ -13,7 +13,7 @@
 | 来源inbox | [执行框架批量确认](../inbox/2026-09-10-semantic-world-remaining-decisions.md)、[当前简化指令](../inbox/2026-09-10-simple-object-interactions.md) |
 | 确认方式 | grill-with-docs；G002-CORE-010框架采纳，G002-CORE-011收紧操作范围 |
 | 当前证据状态 | Hypothesis；内容和数值未完成，未做玩家验证 |
-| 修改前规则 | [输入快照](../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md) |
+| 修改前规则 | [输入快照](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md) |
 
 ## 规范化表述
 

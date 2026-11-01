@@ -4,7 +4,7 @@
 
 ## 原始表达与来源
 
-[原始记录](../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-inbox/2026-09-05-vocabulary-cycle-alternatives.md)完整保存用户原话、确认过程、未采纳建议及使用记录。本页为当前主题入口，不能替代原始证据。
+[原始记录](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-inbox/2026-09-05-vocabulary-cycle-alternatives.md)完整保存用户原话、确认过程、未采纳建议及使用记录。本页为当前主题入口，不能替代原始证据。
 
 ## 当前适用内容
 

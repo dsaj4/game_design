@@ -8,7 +8,7 @@
 - 言咒任务读[yanzhou/AGENTS](yanzhou/AGENTS.md)。开发接手按[开发入口](yanzhou/development/README.md)的固定启动包；局部管理任务只读必要文件，不加载玩法。
 - 进入探索或切换探索材料时，先读[阅读合同](yanzhou/exploration/start.md)与[探索AGENTS](yanzhou/exploration/AGENTS.md)，再按CORE/GDD/FULL/CUSTOM/NONE读取；新方向默认CORE，已有方向沿登记版本。链接不授权扩读。
 - 其他项目、跨项目路径或仓库结构任务再查[README](README.md)、[项目地图](docs/workspace-map.md)、[注册表](docs/registry/project-registry.md)。独立肉鸽在`new-roguelike/`，材料不跨项目继承。
-- 旧游戏`archive/2026-09-05-core-card-project/`默认不读不写；旧combat-lab、semantic-card-engine不是言咒起点。禁止重建根`exploration/`、`assets/`、旧`workspaces/`兼容正文。
+- 旧游戏及根archive已退出工作树，按[固定版本](docs/workspace-decisions.md#ws-008)取证，默认不读；旧combat-lab、semantic-card-engine不是言咒起点。禁止重建根`exploration/`、`assets/`、旧`workspaces/`兼容正文。
 
 ## 内容边界
 

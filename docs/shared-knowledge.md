@@ -16,4 +16,4 @@
 卡牌、桌游等通用案例按相关性选读，不要求新游戏采用这些类型。
 具体项目的假设、参数、样例、循环、测试与验收只能写入其工作区。
 
-2026-09-05 已移除共享 Wiki、证据卡中的旧项目转化和规则库中的旧原型建议。清理前版本见[旧项目归档](../archive/2026-09-05-core-card-project/README.md)。
+2026-09-05 已移除共享 Wiki、证据卡中的旧项目转化和规则库中的旧原型建议。清理前版本见[旧项目归档](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive/2026-09-05-core-card-project/README.md)。

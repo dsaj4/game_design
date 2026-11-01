@@ -12,7 +12,7 @@
 - 提案：[简单对象变化与元素生成物](../proposals/P-2026-09-10-simple-object-interactions.md)。
 - 评估：[范围收束评估](../evaluations/E-2026-09-10-simple-object-interactions.md)。
 - [用户直接修改指令](../inbox/2026-09-10-simple-object-interactions.md)。
-- [修改前输入快照](../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)。
+- [修改前输入快照](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)。
 
 ## 拟新增内容
 

@@ -6,7 +6,7 @@
 
 用户要求对象只需能受法术影响发生变化，例如点燃、冰冻；暂不做位移、结构、指定方向/端点及环境材料加工，收集只到对象掉卡；新增火焰、雷电、冰霜等法术生成对象。[完整原话与资格确认](2026-09-10-simple-object-interactions.md)、[已采纳范围](../materials/M-2026-09-10-simple-object-interactions.md)。
 
-修改前目录已保存为[字节快照](../../../archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)，不作为当前玩法入口。[当前内容总览](../../design/systems/inscription-system/rules.md)。
+修改前目录已保存为[字节快照](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive/2026-09-10-game-002-semantic-simplification-inputs/INDEX.md)，不作为当前玩法入口。[当前内容总览](../../design/systems/inscription-system/rules.md)。
 
 ## 体验与资格边界
 

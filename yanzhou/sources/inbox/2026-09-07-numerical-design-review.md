@@ -4,7 +4,7 @@
 
 ## 原始表达与来源
 
-[原始记录](../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-inbox/2026-09-07-core-numerical-framework-v01.md)保存来源。本页的任务范围以[用户确认](2026-09-10-design-interface-questions.md)为准。
+[原始记录](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-inbox/2026-09-07-core-numerical-framework-v01.md)保存来源。本页的任务范围以[用户确认](2026-09-10-design-interface-questions.md)为准。
 
 ## 当前适用内容
 

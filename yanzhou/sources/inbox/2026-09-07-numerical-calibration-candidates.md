@@ -4,7 +4,7 @@
 
 ## 原始表达与来源
 
-[原始记录](../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-core-numerical-framework-v01.md)保存完整来源。[确认前数值输入](../../../archive/2026-09-10-game-002-decision-inputs/workspaces/game-002/game-design-workflow/idea-inbox/2026-09-07-numerical-calibration-candidates.md)按原始字节保存。
+[原始记录](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-07-core-numerical-framework-v01.md)保存完整来源。[确认前数值输入](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive/2026-09-10-game-002-decision-inputs/workspaces/game-002/game-design-workflow/idea-inbox/2026-09-07-numerical-calibration-candidates.md)按原始字节保存。
 
 ## 当前适用范围
 

@@ -14,7 +14,7 @@
 玩法 GDD 与代码进度分开。代码实现不能证明玩法成立。
 [共享知识入口](../../../shared-knowledge.md)只提供模板、方法、课程与规范；具体设计留在项目内。
 
-新游戏的未知保持 Unknown。旧项目保存在[归档](../../../../archive/2026-09-05-core-card-project/README.md)，默认不检索、不作为新游戏素材。
+新游戏的未知保持 Unknown。旧项目保存在[归档](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive/2026-09-05-core-card-project/README.md)，默认不检索、不作为新游戏素材。
 直接提出一个想法、参考产品或问题，agent 会在当前工作区记录，并一次确认一个关键问题。
 
 ## 玩法探索入口

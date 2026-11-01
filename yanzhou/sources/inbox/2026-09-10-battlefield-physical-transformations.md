@@ -4,7 +4,7 @@
 
 ## 原始表达
 
-用户要求看到战场、敌人与自身发生对应变化，包括建筑倒塌、爆炸、雷电、草地燃烧并逐渐改变外观；随后明确“先不涉及具体卡牌设计，更多的是对法术改变战场状态的描述”。完整原话与范围确认见[原始记录](../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-inbox/2026-09-10-battlefield-physical-transformations.md)。
+用户要求看到战场、敌人与自身发生对应变化，包括建筑倒塌、爆炸、雷电、草地燃烧并逐渐改变外观；随后明确“先不涉及具体卡牌设计，更多的是对法术改变战场状态的描述”。完整原话与范围确认见[原始记录](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-inbox/2026-09-10-battlefield-physical-transformations.md)。
 
 ## 已晋级范围
 

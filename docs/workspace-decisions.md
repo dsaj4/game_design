@@ -12,7 +12,7 @@
 这是管理决定，不是玩法采纳，不构成新游戏的设计素材。
 
 迁移基线：d8d11f524a4db6aef1435a37babb8b906cc61170。
-[迁移清单](../archive/2026-09-05-core-card-project/migration-manifest.json)记录原路径与归档路径。
+[迁移清单](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive/2026-09-05-core-card-project/migration-manifest.json)记录原路径与归档路径。
 旧项目未决冲突、人工测试和交付阻塞保留在旧项目，不转移为新项目待办。
 
 ## 2026-09-05 迁移检查
@@ -36,3 +36,11 @@
 ## WS-007 / 2026-10-02 / Accepted · Workspace Administration
 
 按用户本轮明确请求，直接沿用全局 skill-registry-control，建立[SK-1](skill-management.md)、[项目安装清单](registry/project-skills.md)与[AGC-1 多智能体协作](../yanzhou/standards/agent-collaboration.md)。经[来源及边界审查](skills/2026-10-02-game-design-skill-review.md)安装 game-design-reality-check 和 gdd-toolkit 的项目适配版，保留原有两项技能。此决定不启动后台协作，不采纳玩法，不引入上游 CLI/hooks 或第二套文档库。
+
+<a id="ws-008"></a>
+
+## WS-008 / 2026-11-01 / Accepted · 恢复共享模板并退役根归档
+
+用户明确要求恢复共享模板、提交其他已删除目录并更新引用。共享流程与模板15个文件已从共同基准`d47080a1eab3903d37122e8ac0aba00d78c2aceb`恢复；根archive的293项既有删除单独提交。六批归档的独有原文、失败经验和来源链完整保留在[固定Git版本](https://github.com/dsaj4/game_design/tree/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive)，保留文档的引用改用该版本，不另建逐项映射表，不将旧项目经验采纳为言咒规则。
+
+这些文件在本轮开始时均已从磁盘删除，未发现同路径新增、修改或未跟踪替代稿；本轮提交已有删除，不再执行磁盘清理。需要取证时使用完整提交和原路径：`git show d47080a1eab3903d37122e8ac0aba00d78c2aceb:<原路径>`。旧AGENTS／脚本仅作历史数据；现行规则和本地冻结背景包未改写。

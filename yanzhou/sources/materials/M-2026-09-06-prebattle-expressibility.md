@@ -11,7 +11,7 @@
 | 素材 ID | MAT-2026-09-06-opening-hand-guarantees |
 | 素材类型 | Mechanic / System / Constraint |
 | 来源 inbox | [来源入口](../inbox/2026-09-05-word-inventory-and-allocation.md)、[来源入口](../inbox/2026-09-06-flexible-grammar-and-spell-types.md) |
-| 原始确认 | [原始记录](../../../archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-opening-hand-guarantees.md) |
+| 原始确认 | [原始记录](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive/2026-09-10-game-002-design-originals/workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-opening-hand-guarantees.md) |
 | 资格确认日期 | 2026-09-06；适用范围复核2026-09-10 |
 | 确认方式 | grill-with-docs：依据用户确认记录、当前核心及文档统一授权复核 |
 | 当前证据状态 | Hypothesis |
