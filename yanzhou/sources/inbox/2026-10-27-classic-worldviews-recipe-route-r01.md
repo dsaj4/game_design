@@ -1,6 +1,6 @@
 # 炼金第一批内容确认与研究入口
 
-2026-10-31更新 · game-002《言咒》。当前完整入口为[HTML R08配方完善](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r08.html)；[R08修改稿](2026-10-31-alchemy-recipe-refinement-r08.md)补配方研究、35条投入职责、三类精炼分工与11成品全链预算。原32材料身份、35配方、11成品及效果沿[B01确认版](../materials/M-2026-10-27-alchemy-batch-01.md)，名称沿[R05](2026-10-31-alchemy-batch-01-full-names-r05.md)，43卡占形沿[R07](2026-10-31-alchemy-footprints-r01.md)保留；新增两类精炼器具、改研钵用途和供料，共8器具／61类物件，仍为Raw候选。以下历史记录不覆盖后续决定，不把原内容资格扩展为新器具或空间采纳。
+2026-10-31更新 · game-002《言咒》。准则与工作方法统一在[炼金内容设计手册](2026-10-31-alchemy-design-handbook-r01.md)，派生[详细HTML手册](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-handbook-r01.html)供分章阅读和全文检索；[现有R08展示页](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r08.html)原样保留，用于查物件、配方和装载。B01身份／连接的Qualified范围不变，器具／占形／数值仍分别沿原候选状态。以下各节保留旧轮次的确认、阅读与取证范围；后续设计从新手册进入，不将旧版本的“当前”混作新规范。
 
 ## 1. 2026-10-27确认与资格
 
