@@ -1,0 +1,492 @@
+{
+  "schema": "alchemy-apparatus-ways-style.1",
+  "date": "2026-10-31",
+  "project": "game-002",
+  "direction": "main",
+  "assetId": "AS-G002-036",
+  "version": "ALCHEMY-APPARATUS-10",
+  "designInputCommit": "1980877a30ff689db17200b06a6d00e0ebb2472f",
+  "scope": "Warm hand-inked rounded copper kettle and cream/teal retort, sparse edge hatching and quiet blank fronts, Ways of Alchemy reference catalog",
+  "lifecycle": "ReadyForScope",
+  "access": "PresentLocal",
+  "acceptance": "PendingReview",
+  "generation": {
+    "mode": "built-in image_gen",
+    "count": 2,
+    "intent": "Ways of Alchemy-inspired warm hand-inked vessel art; rounded simple shapes, burgundy-brown contours and sparse edge hatching, broad blank fronts",
+    "imageInputRoles": [
+      {
+        "order": 1,
+        "role": "Copper Pot: warm copper palette, brown contours and rounded rim"
+      },
+      {
+        "order": 2,
+        "role": "Polished Distillation Cube: broad drawn metal color areas and curved short strokes"
+      },
+      {
+        "order": 3,
+        "role": "Albedo: chunky contours, cream and blue-green vessel palette"
+      }
+    ],
+    "postprocess": "Byte-identical copies; no programmatic image edit, crop, alpha cleanup, recolor or rescale. Runtime whole-image placement only."
+  },
+  "images": [
+    {
+      "file": "refining-kettle-ways-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-400a85f5-c4d4-48ef-8ede-7680c39428a0.png",
+      "prompt": "prompts/refining-kettle.txt",
+      "styleReferences": [
+        "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/Copper pot__1571776474073694157.png",
+        "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/Polished Distillation Cube__243529624046421214.png",
+        "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/Albedo__4997806272049595607.png"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1374363,
+      "sha256": "58d444913cfe6921f97346624e6a0c790442120a02a534ef83c1ee5c33f7896f",
+      "alphaZero": 683435,
+      "alphaSemi": 889429,
+      "bounds": {
+        "left": 73,
+        "top": 100,
+        "right": 1463,
+        "bottom": 951,
+        "width": 1391,
+        "height": 852
+      }
+    },
+    {
+      "file": "albedo-retort-ways-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-47632491-2121-4017-91cc-827dac259121.png",
+      "prompt": "prompts/albedo-retort.txt",
+      "styleReferences": [
+        "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/Copper pot__1571776474073694157.png",
+        "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/Polished Distillation Cube__243529624046421214.png",
+        "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/Albedo__4997806272049595607.png"
+      ],
+      "width": 1174,
+      "height": 1339,
+      "bytes": 850010,
+      "sha256": "f6fca06cc0ef254e91f770157c4ad4990a772dabe5a202ad9b5a7864aa7e837d",
+      "alphaZero": 850071,
+      "alphaSemi": 720588,
+      "bounds": {
+        "left": 118,
+        "top": 44,
+        "right": 1120,
+        "bottom": 1314,
+        "width": 1003,
+        "height": 1271
+      }
+    }
+  ],
+  "referenceFiles": [
+    {
+      "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/Copper pot__1571776474073694157.png",
+      "inputOrder": 1,
+      "role": "Copper Pot: warm copper palette, brown contours and rounded rim",
+      "bytes": 755417,
+      "sha256": "a88ce269d43fbab46d6df714f958c67b63bdcc4e10e67b69072c43cfe9e0feae",
+      "width": 898,
+      "height": 1024,
+      "sourceRecord": {
+        "name": "Copper pot",
+        "source": "E:\\Game\\Ways of Alchemy\\WaysOfAlchemy_Data\\StreamingAssets\\aa\\StandaloneWindows64\\defaultlocalgroup_assets_all_2dd5da2da7af29e64173bcec94ade859.bundle",
+        "asset_file": "CAB-57b5f04df9c4fc61e7202f87ecd55522",
+        "path_id": "1571776474073694157"
+      }
+    },
+    {
+      "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/Polished Distillation Cube__243529624046421214.png",
+      "inputOrder": 2,
+      "role": "Polished Distillation Cube: broad drawn metal color areas and curved short strokes",
+      "bytes": 947845,
+      "sha256": "175e569b68f37386cb862a19e47f117cf6da21e8e17bfa84dcd6c3c4a08b3ac9",
+      "width": 898,
+      "height": 1024,
+      "sourceRecord": {
+        "name": "Polished Distillation Cube",
+        "source": "E:\\Game\\Ways of Alchemy\\WaysOfAlchemy_Data\\StreamingAssets\\aa\\StandaloneWindows64\\defaultlocalgroup_assets_all_2dd5da2da7af29e64173bcec94ade859.bundle",
+        "asset_file": "CAB-57b5f04df9c4fc61e7202f87ecd55522",
+        "path_id": "243529624046421214"
+      }
+    },
+    {
+      "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/Albedo__4997806272049595607.png",
+      "inputOrder": 3,
+      "role": "Albedo: chunky contours, cream and blue-green vessel palette",
+      "bytes": 1019192,
+      "sha256": "c72f7e29b1d873f9dfdc4d79e8ee402d347d31e004ddf6dc2b59107c951f53fa",
+      "width": 899,
+      "height": 1024,
+      "sourceRecord": {
+        "name": "Albedo",
+        "source": "E:\\Game\\Ways of Alchemy\\WaysOfAlchemy_Data\\StreamingAssets\\aa\\StandaloneWindows64\\defaultlocalgroup_assets_all_2dd5da2da7af29e64173bcec94ade859.bundle",
+        "asset_file": "CAB-57b5f04df9c4fc61e7202f87ecd55522",
+        "path_id": "4997806272049595607"
+      }
+    }
+  ],
+  "sourceFiles": [
+    {
+      "role": "userEntry",
+      "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/index.html",
+      "bytes": 2108868,
+      "sha256": "a489a17ae24bc16f5d7c26a769dfc776802dbc151352e529dd44e37675ef2374"
+    },
+    {
+      "role": "artManifest",
+      "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/data/art_manifest.json",
+      "bytes": 764661,
+      "sha256": "3e19329e050cbf789e5cbb3913de7ba9eac96c6c1fd17364401a7c5faac374bc"
+    },
+    {
+      "role": "sourceManifest",
+      "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/data/source_manifest.json",
+      "bytes": 6430,
+      "sha256": "7b7284f8ded0f3d1fab5ea2e633fc89f72755f787db526245d4a01db5c1c8e65"
+    },
+    {
+      "role": "viewedContactSheet",
+      "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/apparatus-contact-sheet.jpg",
+      "bytes": 489747,
+      "sha256": "9cd4daed8633a89a9812f5a31abad4855537d88b75799f509968a79c6604db39"
+    }
+  ],
+  "uses": {
+    "conceptualPredecessor": "AS-G002-036@ALCHEMY-APPARATUS-09",
+    "sourcePackage": "Ways of Alchemy local extracted catalog",
+    "mode": "Fresh original vessel generations with three native images from the user catalog as style references only; source card backgrounds are not runtime assets"
+  },
+  "preservedVersions": [
+    {
+      "version": "ALCHEMY-APPARATUS-04",
+      "manifest": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/manifest.json",
+        "bytes": 11084,
+        "sha256": "21e82607c7d520869920c1f665f0ab2f995552d497d20dad4e8572d70b142cdc"
+      },
+      "registeredFilesVerified": 23
+    },
+    {
+      "version": "ALCHEMY-APPARATUS-05",
+      "manifest": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/antique-v05/manifest.json",
+        "bytes": 9485,
+        "sha256": "041cc151d3aa20429c9809c3a174675e161696a7e38cd92fc1debb7f3e2906ef"
+      },
+      "registeredFilesVerified": 19
+    },
+    {
+      "version": "ALCHEMY-APPARATUS-06",
+      "manifest": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/culdcept-v06/manifest.json",
+        "bytes": 12644,
+        "sha256": "4a4e9d089b5f0e06f6a1b8272ce880ff2b45200268e13af05b7a090805a19ad6"
+      },
+      "registeredFilesVerified": 19
+    },
+    {
+      "version": "ALCHEMY-APPARATUS-07",
+      "manifest": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/archaic-form-v07/manifest.json",
+        "bytes": 10347,
+        "sha256": "6a12c277f7cdd8a049117c99b958c0af345fa132ca21d0a5e542238890a9dd3a"
+      },
+      "registeredFilesVerified": 19
+    },
+    {
+      "version": "ALCHEMY-APPARATUS-08",
+      "manifest": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/survivor-v08/manifest.json",
+        "bytes": 12835,
+        "sha256": "4ffbc6389205d21364fb2de48078e446ad722876b04b9d3dc6823896b2c49fdb"
+      },
+      "registeredFilesVerified": 20
+    },
+    {
+      "version": "ALCHEMY-APPARATUS-09",
+      "manifest": {
+        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/component-v09/manifest.json",
+        "bytes": 14387,
+        "sha256": "9e30083f1a523a4ad6a937ea807ea74fa3c9848d00304bd6a5f0020b13f27de3"
+      },
+      "registeredFilesVerified": 21
+    }
+  ],
+  "entry": {
+    "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/preview.html",
+    "bytes": 23040458,
+    "sha256": "ad59e47f07b12b9ad9f035612e376b1c9ca9aae06465ae46e591a0753758a6f2"
+  },
+  "prototypeFiles": [
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/browser-qa.json",
+      "bytes": 2536,
+      "sha256": "954092b323a569c78b28ef6ee5996e98c353777205203e35b049d56d0b1d3bf9"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/build.mjs",
+      "bytes": 5433,
+      "sha256": "e85ac292836c1c598527f9c26dde0502b578cf4d95add32d7b9b4fc31ac2c3f4"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/finalize.mjs",
+      "bytes": 6384,
+      "sha256": "dc7ef7e31322e1402dfcc542c67460e2bdc998e17eb24ce4f5fd6d3c5afe8ea2"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/image-info.json",
+      "bytes": 7911,
+      "sha256": "30efa3e189ab494918d3d407b6d4034d6c842a8a22ae7a34a54268b0906d47e7"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/prepare-preview.mjs",
+      "bytes": 1696,
+      "sha256": "5d7f866c1f63e14b625175688a69844649126b474ebcaec9c64d54b73efd32bb"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/preview.html",
+      "bytes": 23040458,
+      "sha256": "ad59e47f07b12b9ad9f035612e376b1c9ca9aae06465ae46e591a0753758a6f2"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/README.md",
+      "bytes": 1170,
+      "sha256": "af8f6478db27bbdf8d4c4bcd8ebcf88ce5fd45db0cd3ed3cff8b061f3fa50ad5"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/serve.mjs",
+      "bytes": 494,
+      "sha256": "ba695cbf99c0d76ccd72154bc84673b696ac449f59c7ee32e5cf593dca1f32d5"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/evidence/01-g-paper.png",
+      "bytes": 65545,
+      "sha256": "abe5b5e282df7c38ced4b9872fb66dded03aa5f09302889c87f8c5d03a042a26"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/evidence/02-g-dark.png",
+      "bytes": 66760,
+      "sha256": "2c91de328ac58902de9c1e3019f925a3f53e2c403ce232e9936b0f7d14b22eeb"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/evidence/03-g-wood.png",
+      "bytes": 67241,
+      "sha256": "bddcd0c053a6340e182bf1a13d483a33a0c1bfd51695b35882155df92002a76d"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/evidence/04-g-silhouette.png",
+      "bytes": 55323,
+      "sha256": "e2b640b31782a948b3fb66c7896225f772433055e5fc0aaf533a89566185d452"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/evidence/05-current-g.png",
+      "bytes": 67280,
+      "sha256": "c0782af1cb7e8465da8921a04cf382ab0a07e505eb0988bbf3efad41352e9678"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/png-info.mjs",
+      "bytes": 1512,
+      "sha256": "0962b42625537f9e7adca43ada025cc80e69d2b232adeb4bc14b51e237d649e0"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/component-v09/build.mjs",
+      "bytes": 5316,
+      "sha256": "40249b60175df3e072d9fddf697bac20ef578e96a4920ee3a18c37e03e936800"
+    }
+  ],
+  "registeredTexts": [
+    {
+      "file": "README.md",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/ways-v10/README.md",
+      "bytes": 3710,
+      "sha256": "442a12a1dc6a623eecdb712afd15338ce5d1f46bdcc573423f7370d9e5d455e3"
+    },
+    {
+      "file": "generation.json",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/ways-v10/generation.json",
+      "bytes": 2964,
+      "sha256": "9e67dbbd9d1af49477ada270f5444a166d453193d5e657ad2939269968c8f956"
+    },
+    {
+      "file": "prompts/refining-kettle.txt",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/ways-v10/prompts/refining-kettle.txt",
+      "bytes": 3185,
+      "sha256": "7be3b596dc6faf3ad45afea953ea9de3f603dcc95bf29e3a5b4b9774251cb71d"
+    },
+    {
+      "file": "prompts/albedo-retort.txt",
+      "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/ways-v10/prompts/albedo-retort.txt",
+      "bytes": 3166,
+      "sha256": "2a8c13489579a7b55c3f9ce0c372091f52d1a23bdd6b3fd53d995b44ca13be47"
+    }
+  ],
+  "checks": {
+    "priorRegisteredFilesUnchanged": 121,
+    "newImageOriginalsMatch": true,
+    "referenceHashesMatchExtractedArtManifest": true,
+    "trueAlpha": true,
+    "embeddedImages": 14,
+    "linksChecked": 16,
+    "browser": {
+      "date": "2026-10-31",
+      "version": "ALCHEMY-APPARATUS-10",
+      "status": "PassedForScope",
+      "observations": [
+        {
+          "edition": "a",
+          "overflow": false,
+          "visible": [
+            "a",
+            "a"
+          ]
+        },
+        {
+          "edition": "b",
+          "overflow": false,
+          "visible": [
+            "b",
+            "b"
+          ]
+        },
+        {
+          "edition": "c",
+          "overflow": false,
+          "visible": [
+            "c",
+            "c"
+          ]
+        },
+        {
+          "edition": "d",
+          "overflow": false,
+          "visible": [
+            "d",
+            "d"
+          ]
+        },
+        {
+          "edition": "e",
+          "overflow": false,
+          "visible": [
+            "e",
+            "e"
+          ]
+        },
+        {
+          "edition": "f",
+          "overflow": false,
+          "visible": [
+            "f",
+            "f"
+          ]
+        },
+        {
+          "edition": "both",
+          "overflow": false,
+          "visible": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ]
+        },
+        {
+          "edition": "g",
+          "overflow": false,
+          "visible": [
+            "g",
+            "g"
+          ]
+        }
+      ],
+      "geometry": {
+        "overflow": false,
+        "silhouette": true,
+        "viewport": {
+          "height": 720,
+          "width": 1280
+        },
+        "visible": [
+          {
+            "sizes": [
+              224,
+              64,
+              96,
+              160
+            ],
+            "style": "g"
+          },
+          {
+            "sizes": [
+              224,
+              64,
+              96,
+              160
+            ],
+            "style": "g"
+          }
+        ]
+      },
+      "backgrounds": [
+        {
+          "background": "paper",
+          "edition": "g",
+          "visible": [
+            "g",
+            "g"
+          ]
+        },
+        {
+          "background": "dark",
+          "edition": "g",
+          "visible": [
+            "g",
+            "g"
+          ]
+        },
+        {
+          "background": "wood",
+          "edition": "g",
+          "visible": [
+            "g",
+            "g"
+          ]
+        }
+      ],
+      "scope": [
+        "A/B/C/D/E/F/G/all switching",
+        "Paper/dark/wood alpha composition",
+        "224/64/96/160px and silhouette",
+        "Rounded copper kettle and cream/teal retort; quiet blank front surfaces; edge hatching"
+      ],
+      "limits": [
+        "User style acceptance pending",
+        "Short surface strokes become texture at64px",
+        "No engine, actual backpack, animation or gameplay test"
+      ],
+      "visualNotes": [
+        "Viewed actual wood and dark composites: transparent edges clean",
+        "Quiet front surfaces retained; at64px edge dashes read as texture while silhouettes stay clear"
+      ]
+    }
+  },
+  "rights": {
+    "author": "Unknown",
+    "license": "Unknown; local internal style reference only",
+    "scope": "Third-party extracted originals remain in their existing local source package, referenced for internal style review only. Generated original vessel sprites and project preview; no reference artwork or patterned backdrop embedded in preview. No public publishing or engine integration."
+  }
+}

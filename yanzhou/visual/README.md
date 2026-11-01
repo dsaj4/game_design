@@ -1,6 +1,6 @@
 # 言咒本轮视觉基准
 
-2026-10-31法器现有六版：[F·单组件参考及六版切换](alchemy-apparatus-2026-10-31/component-v09/README.md)，AS-G002-036@09，按用户新提供的炉式／球腹斜颈组件，生成灰蓝外壳、厚框、旧铜边圈与暗色铭文面的两件候选；[E·黑线漫画](alchemy-apparatus-2026-10-31/survivor-v08/README.md)@08、[D·古朴新器形](alchemy-apparatus-2026-10-31/archaic-form-v07/README.md)@07、[A·粗线简洁](alchemy-apparatus-2026-10-31/README.md)@04、[B·精线古朴](alchemy-apparatus-2026-10-31/antique-v05/README.md)@05、[C·Culdcept器物画法](alchemy-apparatus-2026-10-31/culdcept-v06/README.md)@06保留，前五版100个登记文件保持原SHA。F两次内置生图均实际输入两张组件附件作为画法及器形语言参考，中央暗面未画亮球；造型与风格待审阅。三背景、小尺寸、剪影及六版切换已核，具体占形／接口与工程未定未验，旧双护符清理沿04记录。
+2026-10-31法器现有七版：[G·Ways of Alchemy暖色手绘及七版切换](alchemy-apparatus-2026-10-31/ways-v10/README.md)，AS-G002-036@10，按用户指定本地图集，以Copper Pot／Polished Distillation Cube／Albedo三张原图作实际画法输入，生成圆腹铜釜与青白曲颈瓶；深褐粗线、圆润器形、沿边缘的横向短线及正面留白。[F·单组件参考](alchemy-apparatus-2026-10-31/component-v09/README.md)@09、[E·黑线漫画](alchemy-apparatus-2026-10-31/survivor-v08/README.md)@08、[D·古朴新器形](alchemy-apparatus-2026-10-31/archaic-form-v07/README.md)@07、[A·粗线简洁](alchemy-apparatus-2026-10-31/README.md)@04、[B·精线古朴](alchemy-apparatus-2026-10-31/antique-v05/README.md)@05、[C·Culdcept器物画法](alchemy-apparatus-2026-10-31/culdcept-v06/README.md)@06保留，前六版121个登记文件保持原SHA。G造型与风格待审阅；三背景、小尺寸、剪影及七版切换已核，具体占形／接口与工程未定未验，旧双护符清理沿04记录。
 
 2026-10-28 · game-002。用户暂定桌面风格以 **v03** 为基准，卡牌设计重点参考独立符号板；已沿新设计制作 **v06底部扇形持牌示意**。后续视觉工作从本页进入。
 

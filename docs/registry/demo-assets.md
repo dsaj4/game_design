@@ -53,6 +53,8 @@
 
 ## <a id="as-g002-036"></a>AS-G002-036 炼金法器美术源件
 
+- 2026-10-31并存变体 **ALCHEMY-APPARATUS-10**：[Ways of Alchemy暖色手绘版及七版切换](../../yanzhou/visual/alchemy-apparatus-2026-10-31/ways-v10/README.md)。用户指定本地Ways图集，实际查看器具总览与Copper Pot／Polished Distillation Cube／Albedo三原图，三图均进入两次内置image_gen作画法参考；新图1536×1024／1174×1339 RGBA，圆腹铜釜、青白弯颈瓶、深褐粗线、边缘横向短线与正面留白。新原件、提示词、参考图及外部图集快照SHA沿独立清单，参考图与原提取art_manifest核对；第三方原件就地且未作运行图片。前六版121个登记文件保持，七版切换、三背景、小尺寸及剪影已核；G接受PendingReview，仅内部美术审阅，不采纳Ways配方或改工程，原作者／许可Unknown。
+
 - 2026-10-31并存变体 **ALCHEMY-APPARATUS-09**：[单组件参考版及六版切换](../../yanzhou/visual/alchemy-apparatus-2026-10-31/component-v09/README.md)。两张用户提供的炉式／球腹斜颈组件截图作为直接画法及器形语言参考，均实际进入两次内置image_gen；生成1098×1433／1246×1263 RGBA完整图，灰蓝厚壳、旧铜边圈、折烟囱与斜长颈，中心暗面保持空白无亮球。原件、两张参考、准确提示词及SHA沿独立清单；前五版100个登记文件（含08参考图）保持。六版切换、三背景、小尺寸及剪影已核，F接受PendingReview，不定义占格或实现动画；参考图原作者／许可Unknown，仅本机内部美术参考。
 
 - 2026-10-31并存变体 **ALCHEMY-APPARATUS-08**：[黑线漫画版及五版切换](../../yanzhou/visual/alchemy-apparatus-2026-10-31/survivor-v08/README.md)。用户指定《幸存者的炼金术》两侧嵌合体中的单个小装置画法，并补充2561×1441高清截图；该附件作为唯一图像参考实际进入两次内置image_gen，生成独立平炼釜／白化曲颈瓶，1536×1024／1312×1199 RGBA。粗黑轮廓、硬边明暗、灰蓝金属与锈红色，保持简洁及正面留白；未照搬大型嵌合体。参考截图原作者／许可Unknown，仅本机内部画法参考；原件、准确提示词、输入角色与SHA沿独立清单，前四版80个登记文件保持。五版切换、三背景、小尺寸及剪影已核，E接受PendingReview，不改玩法或工程。

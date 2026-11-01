@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-31",
+  "mode": "built-in image_gen",
+  "intent": "Ways of Alchemy-inspired warm hand-inked vessel art; rounded simple shapes, burgundy-brown contours and sparse edge hatching, broad blank fronts",
+  "sourcePackage": {
+    "name": "Ways of Alchemy local extracted catalog",
+    "root": "E:/Game/Ways of Alchemy-analysis/2026-10-31/",
+    "userEntry": "E:/Game/Ways of Alchemy-analysis/2026-10-31/index.html",
+    "artManifest": "E:/Game/Ways of Alchemy-analysis/2026-10-31/data/art_manifest.json",
+    "sourceManifest": "E:/Game/Ways of Alchemy-analysis/2026-10-31/data/source_manifest.json",
+    "viewedContactSheet": "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/apparatus-contact-sheet.jpg",
+    "author": "Unknown",
+    "license": "Unknown; local internal style reference only"
+  },
+  "references": [
+    {
+      "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/Copper pot__1571776474073694157.png",
+      "inputOrder": 1,
+      "role": "Copper Pot: warm copper palette, brown contours and rounded rim"
+    },
+    {
+      "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/Polished Distillation Cube__243529624046421214.png",
+      "inputOrder": 2,
+      "role": "Polished Distillation Cube: broad drawn metal color areas and curved short strokes"
+    },
+    {
+      "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/Albedo__4997806272049595607.png",
+      "inputOrder": 3,
+      "role": "Albedo: chunky contours, cream and blue-green vessel palette"
+    }
+  ],
+  "records": [
+    {
+      "file": "refining-kettle-ways-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-400a85f5-c4d4-48ef-8ede-7680c39428a0.png",
+      "prompt": "prompts/refining-kettle.txt",
+      "styleReferences": [
+        "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/Copper pot__1571776474073694157.png",
+        "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/Polished Distillation Cube__243529624046421214.png",
+        "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/Albedo__4997806272049595607.png"
+      ]
+    },
+    {
+      "file": "albedo-retort-ways-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a184c3-e501-7111-a346-a8c8014769c1/exec-47632491-2121-4017-91cc-827dac259121.png",
+      "prompt": "prompts/albedo-retort.txt",
+      "styleReferences": [
+        "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/Copper pot__1571776474073694157.png",
+        "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/Polished Distillation Cube__243529624046421214.png",
+        "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/Albedo__4997806272049595607.png"
+      ]
+    }
+  ]
+}
