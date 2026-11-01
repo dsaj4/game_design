@@ -1,0 +1,13 @@
+# Registered local-only media. Keep originals, previews and delivery ZIPs in place.
+# Identity, hashes and reuse limits remain in the adjacent README/manifest files.
+/exploration/DIR-042-herbal-engraving-style/scene-v03.png
+/exploration/DIR-042-herbal-engraving-style/scene-v06.png
+/exploration/DIR-042-herbal-engraving-style/card-symbols-2026-10-28/symbols-v01.png
+/visual/tabletop-components-2026-10-28/exports/
+/visual/tabletop-components-2026-10-28/preview-components.png
+/visual/tabletop-components-2026-10-28/preview-layout.png
+/visual/tabletop-components-2026-10-28/tabletop-components-v01.zip
+/visual/tabletop-components-2026-10-28/imagegen-v02/exports/
+/visual/tabletop-components-2026-10-28/imagegen-v02/preview-alpha.png
+/visual/tabletop-components-2026-10-28/imagegen-v02/preview-components.png
+/visual/tabletop-components-2026-10-28/imagegen-v02/tabletop-imagegen-v02.zip
