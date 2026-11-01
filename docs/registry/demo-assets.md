@@ -79,10 +79,16 @@
 ## <a id="as-g002-040"></a>AS-G002-040 卡牌与物品美术基准
 
 - 与AS-G002-036共用[Ways统一美术基准与12图基准板](../../yanzhou/visual/README.md)；本条只维护材料／卡面源件、队列与交付职责，共通画法集中在统一入口。
-- game-002 / main；[唯一制作与交付入口](../../yanzhou/visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)，ALCHEMY-ITEM-PILOT-02。2026-10-31用户选定当前Ways画法作为后续基准；5透明物品＋5张1024×1536不透明艺术卡面，10份准确提示词与原图SHA沿manifest，当前图及ZIP指纹未改。
+- game-002 / main；[唯一制作与交付入口](../../yanzhou/visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)，ALCHEMY-ITEM-PILOT-02。2026-10-31用户选定当前Ways画法作为后续基准；5透明物品＋5张1024×1536不透明卡图，10份准确提示词与原图SHA沿manifest，当前图及ZIP指纹未改。
 - StyleBaselineSelected；ReadyForScope / PresentLocal限原独立Godot尺寸、深浅紫底alpha、纹理复用及导入检查。风格选择与具体资产细节／主游戏接入／玩家识别验收分开，不新增玩法资格。
 - Ways本机图册四样本已读／目视，River in a Bottle与Plantain作画法输入，旧01原创物件作身份输入；第三方原图不随包交付。01物件版及前序旧图已退出活动目录，生成来源仍按历史路径／SHA取证，恢复包和归档整体指纹由当前manifest固定。
 - 保留每批5件、当前5/32的范围，余27种未制作。旧符号、护盾、人物／细碎纹理等失败经验已并入当前基准，不再保留并列旧图；仅项目内部制作与审阅。
+
+## <a id="as-g002-041"></a>AS-G002-041 卡片边框Ways首版
+
+- game-002 / main；[空框、五图套用与交付入口](../../yanzhou/visual/card-frame-2026-10-31/README.md)，CARD-FRAME-01。用户明确此前AS-G002-040五幅画面为卡图，本轮独立制作一张通用正面框；深褐圆角、暖赭金框带、米白内线与两处小卷角，透明内窗，不添加文字／效果／费用区。
+- 内置image_gen一次，1024×1536 RGBA框源及准确提示词／原生成路径／SHA沿manifest。实际输入Ways的card_stack_frame与back仅作画法参考；原第三方图不入包。外部审阅包含独立框体控件与五张现有卡图原字节副本，原AS-G002-040包保持。
+- FrameCandidate / PendingReview；ReadyForScope / PresentLocal，2026-10-31，限Godot4.7.2空框／套图／155×229、三背景alpha、六运行纹理导入与100次框纹理复用。卡图等比contain，内窗比例差有少量暖底；未接主游戏或确定交互／状态／任意比例变形。框色／卷角不定义玩法含义。
 
 ## Demo
 

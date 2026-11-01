@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-31",
+  "status": "ReadyForScope",
+  "acceptance": "PendingReview",
+  "native": {
+    "apertureCrossSection": [
+      80,
+      91,
+      864,
+      1357
+    ],
+    "artFit": "contain, no source cropping/stretch; small warm mat fills aspect difference",
+    "artInputs": [
+      "water",
+      "fire",
+      "earth",
+      "wind",
+      "herb"
+    ],
+    "canvas": [
+      1024,
+      1536
+    ],
+    "centerAlpha": 0,
+    "cornerAlpha": 0,
+    "frameReuse100": true,
+    "frameSharedAcrossAll": true,
+    "scope": "Independent native frame composition; no main game integration"
+  },
+  "frameSourceCopyChecks": 3,
+  "unchangedArtCopies": 5,
+  "losslessMipmapImports": 6,
+  "visualReview": {
+    "boards": [
+      "frame-review.png",
+      "frame-alpha-review.png"
+    ],
+    "observed": [
+      "Current review board complete after correcting window-height clamp",
+      "One independent frame across five original card illustrations",
+      "Center and outer corners transparent on dark, light and purple backgrounds",
+      "No game text, effects, costs or identity-specific content baked into frame"
+    ],
+    "limits": [
+      "Inner aperture slightly narrower than 2:3; contain introduces a small warm mat",
+      "First frame candidate only, not a selected final border",
+      "No nine-slice/arbitrary aspect, main-game or interaction testing"
+    ]
+  }
+}
