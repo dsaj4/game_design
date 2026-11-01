@@ -1,5 +1,7 @@
 # 新回合首场完整输入采纳
 
+> 2026-11-01 · Retired：本页具体首战／敌人内容已被CORE-071明确淘汰，原资格与采纳仅记录当时事实，不再是活动候选、制作来源或当前验收输入。删除前共同版本及替代关系见本轮alchemy-only采纳记录。
+
 2026-10-23 · **Accepted / G002-CORE-066 / first-round-battle.1**。用户明确授权按推荐解决三项内容缺口并由agent自行选定，以完整展示机制优先；据此采纳本轮限定输入，不等待再次逐项确认。来源：[M](../materials/M-2026-10-23-round-first-battle.md)、[P](../proposals/P-2026-10-23-round-first-battle.md)、[E](../evaluations/E-2026-10-23-round-first-battle.md)；共同版本及授权摘要见[输入](../inbox/2026-10-23-round-first-battle.md)。
 
 ## 目标与决定摘要
@@ -14,7 +16,7 @@
 
 ## 新增与替换
 
-新增[EX-004完整案例](../../design/examples/round-first-battle.md)及[首场交接包](../../development/task-packs/first-battle.md)。将当前“新首场敌表与完整初态未冻结”替换为“EX-004已冻结限定内容，执行与体验NotRun”；GDD升2.9／GDD-0，CORE-065机制版本不变。同步内容、基准、参数范围、验收、开发入口及问题；纠正敌人设计中的绝对到期拍和法器体验中的旧缺位等待。
+新增[EX-004完整案例](https://github.com/dsaj4/game_design/blob/aa88550357741e69aa924c16a7ad4f3da5f5b474/yanzhou/design/examples/round-first-battle.md)及[首场交接包](https://github.com/dsaj4/game_design/blob/aa88550357741e69aa924c16a7ad4f3da5f5b474/yanzhou/development/task-packs/first-battle.md)。将当前“新首场敌表与完整初态未冻结”替换为“EX-004已冻结限定内容，执行与体验NotRun”；GDD升2.9／GDD-0，CORE-065机制版本不变。同步内容、基准、参数范围、验收、开发入口及问题；纠正敌人设计中的绝对到期拍和法器体验中的旧缺位等待。
 
 EX-001／002保留旧固定输入；EX-003仍是独立局部说明，不把其假设状态拼成EX-004。新60／144生命、迅速初始配发和三轮敌表仅限本例，不改全局发行默认或旧商店资格。
 

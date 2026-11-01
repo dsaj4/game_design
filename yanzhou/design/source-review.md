@@ -10,7 +10,7 @@
 | 当前辅助道具与核心装配 | [CORE-069](../sources/draft-changes/D-2026-10-31-spatial-auxiliaries.md)，DIR-043 Qualified M及主系统E；替换固定辅槽、词性挂接及打造，采纳单器空间连接、同效叠加与批次继承；核心可逆嵌入。实现与体验NotRun |
 | 当前背包式法器管理 | [CORE-068](../sources/draft-changes/D-2026-10-31-backpack-production.md)，来源为DIR-043的Qualified M与主系统E；替换手牌直接开工、临时路由／优先级及战中切用途，新增专属待料和默认自动补料；只采纳明确范围，体验未验证 |
 | 当前统一卡牌与手动使用 | [CORE-067](../sources/draft-changes/D-2026-10-27-unified-card-model.md)，替换049／058中介产物及065自动上桌、H3、点数和整轮编辑限制；直接产卡、列间布牌和回收，旧规则仅未替换部分生效 |
-| 当前限定完整首场输入 | [CORE-066 first-round-battle.1](../sources/draft-changes/D-2026-10-23-round-first-battle.md)，冻结EX-004起始套组及完整敌表；CORE-067迁移手动路线，CORE-068再迁移战前固定用途与对照胜路；CORE-069迁移迅速为辅助，仍未补生产网格／辅助占形／材料内容 |
+| 当前内容退役 | [CORE-071 alchemy-only.1](../sources/draft-changes/D-2026-11-01-alchemy-only-content.md)：删除38项非alchemy及原完整首战输入；仅保留61项alchemy及原35配方／3构筑，替代首战待设计 |
 | 当前回合、手牌、整理与敌牌接口 | [CORE-065 round-hand.1](../sources/draft-changes/D-2026-10-23-round-hand-settlement.md)，替换以下旧来源中的连续拍、Q预留、r→T及对应暂停／疲劳条款；未替换部分沿原资格 |
 | 原核心与兼容复用 | [CORE-037起点](../sources/draft-changes/D-2026-10-01-timeline-production-core.md) · [CORE-048兼容复用](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md) |
 | 铭刻结构 | [CORE-049](../sources/draft-changes/D-2026-10-04-artifact-inscription-core.md)保留核心合法组合；辅槽／打造由CORE-069替换 |
@@ -40,7 +40,7 @@
 | [法器意图](../sources/materials/M-2026-10-09-artifact-design-intent.md) | 程序实现、决策重心及ART-I1—4；不新增战中重铭或启停 |
 | [行动意图](../sources/materials/M-2026-10-10-action-card-design-intent.md) | 战斗表现、资源兑现、单卡清晰与标记联系；不是整包卡池发行 |
 
-EX-004是CORE-066采纳的限定完整首场，执行NotRun；EX-003仍是独立局部派生案例，不是完整单战；EX-001／002限定旧连续拍固定范围；不把其数字当全局参数。旧卡表、旧格子／环境形态、退役探索与Raw UI不自动进入现行规则。来源记录中的当轮Unknown可能已被后续CORE覆盖，当前只查questions；反向引用旧稿不能恢复冷却、完工等位或主动撤批；直接产卡、免费撤回未用行牌与列间确认以CORE-067新采纳为据，不从旧稿推导。
+CORE-071已淘汰原EX-004内容，历史CORE-066不再是活动首战依据。EX-003仅保留局部条件机制；EX-001／002只按旧固定输入解释，案例数字不作全局参数。旧卡表、冻结探索与Raw UI不自动进入现行规则；来源旧Unknown可能已被后续CORE覆盖，当前查questions。
 
 ## 历史取证
 

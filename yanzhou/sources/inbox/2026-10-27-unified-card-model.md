@@ -19,7 +19,7 @@
 | [CORE-049采纳D](../draft-changes/D-2026-10-04-artifact-inscription-core.md)，TL-38／43 | 法器统一先产行动卡；材料属于具体用途配方。直接交付资源曾明确退出，统一名称不能暗中恢复该权限 |
 | [CORE-058采纳D](../draft-changes/D-2026-10-09-resource-system-design.md)，R1—20 | 材料有身份、性质、阶级；普通料开工托管、幸存完工消费，资源行动生效才生成资源、下一生产拍可用；未完工战终退料后按资格选留，已完工不退 |
 | [CORE-065采纳D](../draft-changes/D-2026-10-23-round-hand-settlement.md)，R03—07／11 | 无成品容量预留；先桌面后手牌、满手丢新牌；手牌跨轮且战终清空；三种整理各花1点，生产和结算分时 |
-| [当前内容与字段](../../design/content/cards.md)、[EX-004 §2—4](../../design/examples/round-first-battle.md#2-完整初态与重试) | 当前首场只有三种玩家成品、零材料，不存在已发行资源配方；不能用本例宣称材料合成或跨战回收已验证 |
+| [当前内容与字段](../../design/content/cards.md)、[EX-004 §2—4](https://github.com/dsaj4/game_design/blob/aa88550357741e69aa924c16a7ad4f3da5f5b474/yanzhou/design/examples/round-first-battle.md#2-完整初态与重试) | 当前首场只有三种玩家成品、零材料，不存在已发行资源配方；不能用本例宣称材料合成或跨战回收已验证 |
 | [铭文TL-26](../../design/systems/inscription-system/rules.md#tl-26-实体铭文与词义)、[标记对象与宿主](../../design/systems/action-card-system/mark-system/rules.md#对象与宿主) | 铭文为持续占用实体、循环不消耗；标记为玩家／敌人的状态。统一资源与行动不自动把铭文、法器、金币、标记变成普通耗材 |
 | [行动意图M](../materials/M-2026-10-10-action-card-design-intent.md#规范化表述) | 既有Qualified意图支持清楚的单卡、工序兑现和标记协同；不授权新的回收、配方或战中操作 |
 
@@ -61,7 +61,7 @@ U1／U2先前的A建议不采用，历史稿可按Git取证，不另留问答转
 | [交互TL-17—19／31／36](../../design/common/interaction-save/rules.md) | 带入、使用、锁定、回收信息；可操作区、付费整理、存档版本、唯一实例、已付／已返／选留事实，不重复返还或执行 |
 | [内容字段](../../design/content/cards.md)、[参数](../../design/parameters.md)、[术语](../../CONTEXT.md) | 分类字段与用途字段分开；现有三种玩家成品逐项映射；容量、张数、实际配方缺口不猜填 |
 | [验收](../../design/validation.md)CORE-065及TL-V21／22／27／31／99—106 | 增加三权限、消耗／返还、未执行／溢出／提前终局、恢复的明确预期；旧连续拍验收与新范围分开，全部新执行NotRun |
-| [用途包](../../development/task-packs/future-purpose.md)、[打断包](../../development/task-packs/interruption-restart.md)、[回合包](../../development/task-packs/round-hand.md)、[首场包](../../development/task-packs/first-battle.md) | 逐包复核材料承诺、产物去向、退款、上桌、清场及恢复；EX-004不补造材料内容；已确认布局不是新生命周期授权 |
+| [用途包](../../development/task-packs/future-purpose.md)、[打断包](../../development/task-packs/interruption-restart.md)、[回合包](../../development/task-packs/round-hand.md)、[首场包](https://github.com/dsaj4/game_design/blob/aa88550357741e69aa924c16a7ad4f3da5f5b474/yanzhou/development/task-packs/first-battle.md) | 逐包复核材料承诺、产物去向、退款、上桌、清场及恢复；EX-004不补造材料内容；已确认布局不是新生命周期授权 |
 | 基准、来源索引、规则索引、开发入口与决定摘要 | 仅在采纳后更新版本／适用范围及派生入口，不把候选标成CurrentSpec或复写旧决定 |
 
 ## 未知与下一步

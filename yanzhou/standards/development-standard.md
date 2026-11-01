@@ -24,7 +24,7 @@
 | 事项 | 权威位置 | 开发必须做到 |
 | --- | --- | --- |
 | 玩法行为 | [核心GDD](../design/GDD.md)及索引所指细则 | 每项实现关联规则ID；冲突先登记，不能靠动画或代码行为决定规则 |
-| 已有案例与首批内容 | [EX-004完整首场](../design/examples/round-first-battle.md)与[EX-003局部案例](../design/examples/round-hand.md)；[EX-001](../design/examples/simple-spell.md)／[EX-002](../design/examples/complete-battle.md)仅限旧连续拍 | 逐任务固定配置与适用规则；局部案例不与EX-004混拼，旧案例不自动换算为新规则 |
+| 已有案例与首批内容 | [EX-003局部条件](../design/examples/round-hand.md)，EX-001／002仅旧连续拍；原EX-004已退役 | 逐任务固定合法内容及现行规则；当前完整首战待设计，不恢复退役对象 |
 | 视觉与资产 | [当前接入清单](../development/asset-readiness.md)、原AS／DM记录 | 固定实际版本及文件哈希；外形、展示数量不推导玩法 |
 | 设计未决 | [questions](../governance/questions.md) | 仍只维护这一份设计问题表，注明阻塞哪项交付 |
 | 代码与技术决策 | 选定的外部代码仓库 | 实现、API、类、工具命令、构建、Bug、性能报告及技术ADR留代码仓库 |

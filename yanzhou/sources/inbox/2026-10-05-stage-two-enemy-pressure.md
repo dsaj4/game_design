@@ -1,6 +1,7 @@
 # 阶段二：敌人压力、基准遭遇与秘仪炼金形态候选
 
-> 2026-11-01内容整理：具体形态与命名动作已登记到[敌人储备分册](../../content-library/reserve.md)。本页保留原连续拍候选、资格过程与独有失败经验，后续具体物件只在内容库维护；不把旧数值迁成当前敌表。
+> 2026-11-01 · Retired：本页具体首战／敌人内容已被CORE-071明确淘汰，原资格与采纳仅记录当时事实，不再是活动候选、制作来源或当前验收输入。删除前共同版本及替代关系见本轮alchemy-only采纳记录。
+
 
 Project ID：game-002。日期：2026-10-05。角色：SourceRecord / StageWorkingPack。来源基准：`baa6f4de6b1563eaab5d10f9995739b84456ceba`，GDD 2.1／TL-1 + INS-1／processing.2 + timing.1，GDD-0。
 

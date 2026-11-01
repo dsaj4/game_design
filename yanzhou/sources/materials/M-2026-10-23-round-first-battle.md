@@ -1,5 +1,7 @@
 # 新回合首场完整输入素材
 
+> 2026-11-01 · Retired：本页具体首战／敌人内容已被CORE-071明确淘汰，原资格与采纳仅记录当时事实，不再是活动候选、制作来源或当前验收输入。删除前共同版本及替代关系见本轮alchemy-only采纳记录。
+
 2026-10-23 · Qualified GDD Material · Content / Constraint。来源、共同版本及用户委托见[意图摘要](../inbox/2026-10-23-round-first-battle.md)。确认方式：grill-with-docs，按项目批量约定与明确委托完成；证据Derived，体验Hypothesis / NotRun。
 
 ## 规范化表述与映射

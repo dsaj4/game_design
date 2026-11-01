@@ -6,7 +6,7 @@
 
 ## 1. 来源、对象与已确认决定
 
-来源为本轮用户对[二维牌桌布局](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/sources/inbox/2026-10-24-top-down-2d-battle-style.md#3-用户确认的页面分区)的修订及两项澄清回答，仅保存决定摘要。共同设计输入继承该页固定版本；适用[EX-004](../../design/examples/round-first-battle.md)首场，关联PRE2D-Q01。
+来源为本轮用户对[二维牌桌布局](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/sources/inbox/2026-10-24-top-down-2d-battle-style.md#3-用户确认的页面分区)的修订及两项澄清回答，仅保存决定摘要。共同设计输入继承该页固定版本；适用[EX-004](https://github.com/dsaj4/game_design/blob/aa88550357741e69aa924c16a7ad4f3da5f5b474/yanzhou/design/examples/round-first-battle.md)首场，关联PRE2D-Q01。
 
 | 已确认事项 | 呈现要求 |
 | --- | --- |

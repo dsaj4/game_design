@@ -50,6 +50,6 @@
 | TL-25／33—35携带、库存、收益、休整与商店 | [经济规则](../design/common/run-economy/rules.md) |
 | TL-17—19／31／36交互、战前、暂停、保存与可达性；CORE-060—063首场合同及CORE-067列间布牌与恢复 | [交互规则](../design/common/interaction-save/rules.md) |
 
-TL-20／42退役不复用；现行TL身份增至44个。TL-V01—110去除02／20，加INS-V01—09共117项既有预期；旧117项保留ID并标适用域；另有CORE-070共用背包、CORE-069核心装配／辅助与CORE-068背包供料与CORE-067统一卡牌／回合情境、按新操作迁移的CORE-066完整EX-004及旧EX-002合同，不能把旧117项当作新机制覆盖证明。
+TL-20／42退役不复用；现行TL身份共44个。既有117项保留ID及原适用域，其中TL-V110随CORE-071退役；另有CORE-070／069／068／067通用情境。原CORE-066完整首战内容与数值路线已撤下，旧案例不证明当前机制覆盖。
 
 [辅助道具](../design/systems/inscription-system/augment-system/rules.md)已由CORE-069限定采纳替换辅槽；首批静态能力与后续付费扩展分别标域。[标记](../design/systems/action-card-system/mark-system/rules.md)通用框架仍Qualified，已由CORE-055—059等采纳的局部按范围执行，不整包提升。局外成长尚未设计。历史SYS／R／CG／PG／EG／RG等按[迁移前索引](https://github.com/dsaj4/game_design/blob/2e967f5e71cc387238131bd18feec47e6b546598/yanzhou/governance/rule-index.md)追溯；当前采纳来源查[来源索引](../design/source-review.md)。

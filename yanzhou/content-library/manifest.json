@@ -1,6 +1,6 @@
 {
   "id": "DM-G002-023",
-  "version": "CONTENT-LIBRARY-02",
+  "version": "CONTENT-LIBRARY-03",
   "date": "2026-11-01",
   "project": "game-002",
   "direction": "main",
@@ -8,12 +8,13 @@
   "access": "PresentLocal",
   "entry": "index.html",
   "canonical": "catalog.json",
-  "objects": 99,
+  "objects": 61,
   "recipes": 35,
-  "objectsWithArt": 7,
-  "artFiles": 17,
-  "scope": "Content reading and review only; qualification and adoption remain item-scoped; no gameplay execution",
-  "designInputCommit": "f349e954a211885d45cd9e6aae4f605205a97bac",
+  "builds": 3,
+  "objectsWithArt": 5,
+  "artFiles": 15,
+  "scope": "Alchemy-only content reading and review; 38 non-alchemy identities and dedicated citations retired; no gameplay execution",
+  "designInputCommit": "aa88550357741e69aa924c16a7ad4f3da5f5b474",
   "files": [
     {
       "path": "alchemy-notes.md",
@@ -23,7 +24,7 @@
     {
       "path": "alchemy.md",
       "bytes": 119925,
-      "sha256": "347cd9ee2ba44fddc82753a9bc2ed452e916997470d81bc5e771c71c295c4755"
+      "sha256": "55c4dae31b033fd7d9547e8a73652ce21059ea53a84685e3fa13871bdbf36050"
     },
     {
       "path": "builds.md",
@@ -32,48 +33,125 @@
     },
     {
       "path": "catalog.json",
-      "bytes": 269629,
-      "sha256": "28eadd3908bcd87aafd99898df8ec028c467ac302a63947dd9f0a0ab68e418cd"
-    },
-    {
-      "path": "ex004.md",
-      "bytes": 14811,
-      "sha256": "eb220330c7e4a3c4a9a1d40d80f92404c2e9a6899f907a0be70c089830e19423"
+      "bytes": 232002,
+      "sha256": "f2ba58ae8e875e1ce950ec05a4a1dabfd8cd3831fc360982d18643fa8ea2ce3f"
     },
     {
       "path": "index.html",
-      "bytes": 193369,
-      "sha256": "3095def9987f022ec939740fb27a8fcc38a65ed4d972b89909f27c194ce5190a"
+      "bytes": 162706,
+      "sha256": "9b9b0bd276d430f5d36f2f73b6ab3f48b61ab4f53766ee83ab30ba830ef1b93e"
     },
     {
       "path": "README.md",
-      "bytes": 5439,
-      "sha256": "cf906c3023b89634b2dc1893ee03a029e0c8dbd48749effaaa7c2745c27fce47"
+      "bytes": 3806,
+      "sha256": "68c8f7654c7318808e8add42196882601f309d372fb4e3021afc30b213f25721"
     },
     {
       "path": "recipes.md",
       "bytes": 20954,
       "sha256": "f5e683e5b171393aabbbbea44786b6e697ba4242858fe528d3894ff2dd9e963b"
-    },
-    {
-      "path": "reserve.md",
-      "bytes": 17161,
-      "sha256": "89de2d8132d315c0e3c90da56c7a705cf099cfed031b88aac9cfce8c89e0dbd2"
-    },
-    {
-      "path": "sample.md",
-      "bytes": 3284,
-      "sha256": "f05c44004cb29ca6cf44a681ac02f2efbdbc32cf7def7d9c2dfeecdd293b617b"
-    },
-    {
-      "path": "visual.md",
-      "bytes": 2060,
-      "sha256": "4469722f7dd359ffcf088b25b7682084234cf815dab19f629c99d56b79071224"
     }
   ],
   "generator": {
     "directory": "E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01",
     "files": [
+      {
+        "path": "build.py",
+        "bytes": 7138,
+        "sha256": "6b9bc81537bbf56fd1f8afdd319dd5ebea00835b19f4d8e0650c65be83bea7ea"
+      },
+      {
+        "path": "template.html",
+        "bytes": 27951,
+        "sha256": "f9c77a9b0dcc3f0875cdbc09e8a509f65564708098552265808b8a1ce4b7ed84"
+      },
+      {
+        "path": "README.md",
+        "bytes": 1537,
+        "sha256": "4d509b1cf327e5e92d984279e1a5d53acbad60915815173e9b7d8c0f7db8564c"
+      },
+      {
+        "path": "qa.cjs",
+        "bytes": 7409,
+        "sha256": "076a4afcdaa2b3cf1eac8911c025a5f3470858a11b96d346f5fc9ea76f70215a"
+      }
+    ]
+  },
+  "verification": {
+    "browserChecks": 127,
+    "browserErrors": [],
+    "staticChecks": 18,
+    "changedMarkdown": 70,
+    "localLinksChecked": 1682,
+    "newBrokenLinks": 0,
+    "evidence": [
+      {
+        "path": "content-library-03-evidence/evidence/01-overview.png",
+        "bytes": 229344,
+        "sha256": "7a17e8c58893705aaa0f2e57b87c4060c82b7007d6fe8cbc4e6f5fcf1e0bbe7a"
+      },
+      {
+        "path": "content-library-03-evidence/evidence/02-art.png",
+        "bytes": 224671,
+        "sha256": "d53dfac651f31f305914371dfd9b6d0947e4a8e07412819b55f74b5a8da166c3"
+      },
+      {
+        "path": "content-library-03-evidence/evidence/03-water-detail.png",
+        "bytes": 228857,
+        "sha256": "60ef7aed98a04c254fa453c23d18007661e495ebca26e68f2f31cf6d17018758"
+      },
+      {
+        "path": "content-library-03-evidence/evidence/04-recipe.png",
+        "bytes": 109654,
+        "sha256": "6c0c490b2275fadee4068fac636f8bac163fd5baa830ba6d9a574283ed2af3da"
+      },
+      {
+        "path": "content-library-03-evidence/evidence/05-mobile.png",
+        "bytes": 76897,
+        "sha256": "659fd977a6e59300a437b9b2f4857f5a182d61107177c66909554be6f9ba39a7"
+      },
+      {
+        "path": "content-library-03-evidence/evidence/06-mobile-detail.png",
+        "bytes": 80715,
+        "sha256": "a285d40d6abeaeecd38a9a0513576f573e911d32c56dd1a0a9801261b8771bd5"
+      },
+      {
+        "path": "content-library-03-evidence/link-checks.json",
+        "bytes": 228,
+        "sha256": "f366388cfe6599311a1d9ba277fa17e04341f58143970c11272f84043c3e1f81"
+      },
+      {
+        "path": "content-library-03-evidence/qa-result.json",
+        "bytes": 4075,
+        "sha256": "a4211a1a0dc5f55137516822601f6fbcafdabbdb294c312ee2a99ed4caa672de"
+      },
+      {
+        "path": "content-library-03-evidence/static-checks.json",
+        "bytes": 842,
+        "sha256": "55d5945922a517ab7c6f8de7b524a24e478a16856f95334d37c133e3e26576c4"
+      }
+    ]
+  },
+  "uses": [
+    "DM-G002-019@R09",
+    "AS-G002-040@ALCHEMY-ITEM-PILOT-02",
+    "AS-G002-041@CARD-FRAME-02"
+  ],
+  "assetPolicy": "Original image bytes and locations retained; 15 existing material images only; no copied or uploaded assets",
+  "unverified": [
+    "Gameplay, engine integration, player understanding and balance",
+    "Full assistive technology and print layout",
+    "Asset availability on other computers",
+    "Replacement full first-battle content, enemy program and initial loadout"
+  ],
+  "deliveryPath": "yanzhou/content-library/",
+  "previousDelivery": {
+    "version": "CONTENT-LIBRARY-02",
+    "commit": "6dbb3907798ddb494d8ddb4d26b0b466e22a54fd",
+    "manifestPath": "yanzhou/content-library/manifest.json",
+    "localEvidenceDirectory": "E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01/content-library-02-evidence",
+    "generatorArchive": "E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01/content-library-02-generator",
+    "generatorFiles": [
       {
         "path": "build.py",
         "bytes": 7210,
@@ -96,82 +174,15 @@
       }
     ]
   },
-  "verification": {
-    "browserChecks": 157,
-    "browserErrors": [],
-    "staticAdoptionChecks": 10,
-    "changedMarkdown": 49,
-    "localLinksChecked": 1229,
-    "newBrokenFileLinks": 0,
-    "newBrokenAnchors": 0,
-    "evidence": [
-      {
-        "path": "content-library-02-evidence/01-overview.png",
-        "bytes": 235178,
-        "sha256": "91ae96ef35e04efdf13c6c9fec3d449525f44a8b6e2ff0bad28682d5cba42dfd"
-      },
-      {
-        "path": "content-library-02-evidence/02-art.png",
-        "bytes": 274864,
-        "sha256": "5b5a045f546917dd9a04683a99c43c74f35fe811b98748884c969adc209d1ef8"
-      },
-      {
-        "path": "content-library-02-evidence/03-water-detail.png",
-        "bytes": 240695,
-        "sha256": "a32111a2d692fd808135b205fe6cd6922f04653b17f16d8af1ce8178037c8f86"
-      },
-      {
-        "path": "content-library-02-evidence/04-recipe.png",
-        "bytes": 118777,
-        "sha256": "3611f4d05f9e38839ed353424f52e7e68d4757f6fab63350d5f22ecc8488c64e"
-      },
-      {
-        "path": "content-library-02-evidence/05-mobile.png",
-        "bytes": 76891,
-        "sha256": "41f2a6c7e725664d4535d6e49e4cd7adeb0adc389a0375b1f3c19ca6c13e63b9"
-      },
-      {
-        "path": "content-library-02-evidence/06-mobile-detail.png",
-        "bytes": 80715,
-        "sha256": "a285d40d6abeaeecd38a9a0513576f573e911d32c56dd1a0a9801261b8771bd5"
-      },
-      {
-        "path": "content-library-02-evidence/core070-checks.json",
-        "bytes": 1287,
-        "sha256": "318228443d2a1bd035834e0c8db5b66e62c5fef595daeecbc4b8cb194bb1edf3"
-      },
-      {
-        "path": "content-library-02-evidence/qa-result.json",
-        "bytes": 4884,
-        "sha256": "f8560d4a3d34c05c5a6b180adf9c00a2925776bb2be15c357130bbebe1e7c822"
-      }
-    ]
-  },
-  "uses": [
-    "DM-G002-019@R09",
-    "AS-G002-036@ALCHEMY-APPARATUS-10",
-    "AS-G002-040@ALCHEMY-ITEM-PILOT-02",
-    "AS-G002-041@CARD-FRAME-02"
-  ],
-  "assetPolicy": "Original image bytes and locations retained; local paths only; no copied third-party assets or new distribution permission",
-  "unverified": [
-    "Gameplay, engine integration, player understanding and balance",
-    "Full assistive technology and print layout",
-    "Asset availability on other computers"
-  ],
-  "deliveryPath": "yanzhou/content-library/",
-  "previousDelivery": {
-    "version": "CONTENT-LIBRARY-01",
-    "commit": "8741d2085676c4a1be91883dd92f9a4f66744564",
-    "provenanceCommit": "f349e954a211885d45cd9e6aae4f605205a97bac",
-    "manifestPath": "yanzhou/content-library/manifest.json",
-    "localEvidenceDirectory": "E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01/content-library-01-evidence"
-  },
   "originalContentInputCommit": "16838828fba90a3444c4a49a35b98df74f271f32",
   "adoption": {
+    "decision": "CORE-071",
+    "record": "../sources/draft-changes/D-2026-11-01-alchemy-only-content.md",
+    "scope": "Retire 38 non-alchemy objects and four dedicated sources, generated sheets and former EX-004 case/task; retain all 61 alchemy object values, 35 recipes and three builds"
+  },
+  "preservedCoreOccupancyAdoption": {
     "decision": "CORE-070",
     "record": "../sources/draft-changes/D-2026-11-01-shared-backpack.md",
     "scope": "Only 10 core items: loose occupancy becomes 1 cell and links the adopted rule; all other content values and qualifications retained"
-  },
-  "deliveryCommit": "6dbb3907798ddb494d8ddb4d26b0b466e22a54fd"
+  }
 }
