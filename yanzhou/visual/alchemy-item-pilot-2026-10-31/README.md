@@ -1,5 +1,7 @@
 # 炼金物件与场景卡面 · 五件试点
 
+2026-10-31当前追加候选为[Ways of Alchemy参考版](ways-v02/README.md)，AS-G002-040@ALCHEMY-ITEM-PILOT-02：同五件透明物品与艺术卡面改用粗圆墨线、平涂大色块、顺形条纹和环境纹样；10张新图待审阅。下文为01版冻结制作说明，其原图／交付包不变；两版并列比较，本次不宣布选型。
+
 2026-10-31 · game-002 / main · **AS-G002-040 / ALCHEMY-ITEM-PILOT-01**。VisualPilot / PendingReview。按用户更新后的要求，先用清泉水、燃烧木炭、黏土团、风息羽毛、疗伤草验证两种美术表达：背包中使用清楚的独立物件，卡面展示同一物件的场景或艺术图。护盾只延续画法，不作为题材、构图或装饰模板。新图待用户审阅。
 
 ![物品与场景卡面并排审阅](E:/Project/yanzhou-art-assets/alchemy-item-pilot-2026-10-31/evidence/pilot-review.png)

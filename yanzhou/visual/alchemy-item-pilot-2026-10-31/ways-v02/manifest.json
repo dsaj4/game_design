@@ -1,0 +1,252 @@
+{
+  "schema": "yanzhou-item-card-pilot.2",
+  "id": "AS-G002-040",
+  "version": "ALCHEMY-ITEM-PILOT-02",
+  "date": "2026-10-31",
+  "project": "game-002",
+  "direction": "main",
+  "status": "VisualVariant",
+  "acceptance": "PendingReview",
+  "lifecycle": "ReadyForScope",
+  "access": "PresentLocal",
+  "input": {
+    "mode": "CUSTOM visual continuation",
+    "commit": "1980877a30ff689db17200b06a6d00e0ebb2472f",
+    "content": "Same five B01 identities and scoped R05 names from AS-G002-040@01",
+    "references": [
+      {
+        "id": "index",
+        "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/index.html",
+        "role": "Read-only source index",
+        "sha256": "a489a17ae24bc16f5d7c26a769dfc776802dbc151352e529dd44e37675ef2374"
+      },
+      {
+        "id": "river",
+        "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/River in a Bottle__3395873804637133600.png",
+        "role": "Viewed and used as style input",
+        "sha256": "f4ee8e19edcb972603889ad4308d0b51cf48b0975ae498ae885a9c879991e3b4"
+      },
+      {
+        "id": "plantain",
+        "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/Plantain__-7271591447588125704.png",
+        "role": "Viewed and used as style input",
+        "sha256": "5bbd4582d3fa68e23245d121ce872c7cb322376385fe35e8d3de1beca52ee58f"
+      },
+      {
+        "id": "liquid-fire",
+        "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/Potion of Liquid Fire__-7211477852185807901.png",
+        "role": "Viewed only",
+        "sha256": "4a7ec92a6f4572e6a13acac8d3035a477f5fed1fc213b7cfbe65030fd04e09a6"
+      },
+      {
+        "id": "wind",
+        "path": "E:/Game/Ways of Alchemy-analysis/2026-10-31/images/sprites/defaultlocalgroup/Stormy Wind__5741906111385166129.png",
+        "role": "Viewed only",
+        "sha256": "ba49477c67ee6d6c7131557ebb927956a5694c640a94115b40fb81d526a8508a"
+      }
+    ],
+    "identities": [
+      {
+        "id": "water",
+        "path": "E:/Project/yanzhou-art-assets/alchemy-item-pilot-2026-10-31/items/water.png",
+        "role": "Original item identity reference only",
+        "sha256": "0c0520360f71b0ad7c0411f1665eb614e68b49dc670970e3fe62e4221f9c4cf1"
+      },
+      {
+        "id": "fire",
+        "path": "E:/Project/yanzhou-art-assets/alchemy-item-pilot-2026-10-31/items/fire.png",
+        "role": "Original item identity reference only",
+        "sha256": "616315ddba5b941bb29692692d792678327fee4c5c4933e5421b6649a46290da"
+      },
+      {
+        "id": "earth",
+        "path": "E:/Project/yanzhou-art-assets/alchemy-item-pilot-2026-10-31/items/earth.png",
+        "role": "Original item identity reference only",
+        "sha256": "23c17c776235358699ee5d01f926403f912e52c9cd4a3416bd83b5cea9faedbe"
+      },
+      {
+        "id": "wind",
+        "path": "E:/Project/yanzhou-art-assets/alchemy-item-pilot-2026-10-31/items/wind.png",
+        "role": "Original item identity reference only",
+        "sha256": "834e666d093f9ff969f2903abe8a3265ec9a41349bbc5c162de82a6bb2581086"
+      },
+      {
+        "id": "herb",
+        "path": "E:/Project/yanzhou-art-assets/alchemy-item-pilot-2026-10-31/items/herb.png",
+        "role": "Original item identity reference only",
+        "sha256": "cdfbba0488d338e5c07551f29f650fb2d20f252bc665c2e98cf2c2685b2b0d93"
+      }
+    ]
+  },
+  "generation": {
+    "tool": "built-in image_gen",
+    "calls": 10,
+    "processing": "Original PNG bytes preserved; native review composition only",
+    "itemInputRoles": [
+      "river:style",
+      "plantain:style",
+      "matching original item:identity"
+    ],
+    "cardInputRoles": [
+      "river:style",
+      "plantain:style",
+      "matching generated item:identity"
+    ]
+  },
+  "assets": [
+    {
+      "id": "water",
+      "name": "清泉水",
+      "surface": "item",
+      "source": "sources/items/water-v01.png",
+      "runtime": "items/water.png",
+      "prompt": "prompts/water-item-v01.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-990859d9-b6db-470c-8de6-b91a7c0fc5ac.png",
+      "width": 1254,
+      "height": 1254,
+      "colorType": 6,
+      "bytes": 1073360,
+      "sha256": "1834e2704d55b1028df6c6d6944f51e7e63fa4625476a0d89589cd1c11d6c647"
+    },
+    {
+      "id": "water",
+      "name": "清泉水",
+      "surface": "card",
+      "source": "sources/cards/water-v01.png",
+      "runtime": "cards/water.png",
+      "prompt": "prompts/water-card-v01.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-cd417b57-85b3-41fd-bfb5-2cb8f3959cf7.png",
+      "width": 1024,
+      "height": 1536,
+      "colorType": 2,
+      "bytes": 1612251,
+      "sha256": "b5c2a123de0f15e672514fd41c4ae183a690797e89f87d2c79b5929d68381f0e"
+    },
+    {
+      "id": "fire",
+      "name": "燃烧木炭",
+      "surface": "item",
+      "source": "sources/items/fire-v01.png",
+      "runtime": "items/fire.png",
+      "prompt": "prompts/fire-item-v01.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-5953abe7-eb93-4fd5-ad74-a4faca5cb5b5.png",
+      "width": 1254,
+      "height": 1254,
+      "colorType": 6,
+      "bytes": 988141,
+      "sha256": "dc77e0836869f8e62811e6fb899d578dedbe18f55de047476dca0d8c6be5ccca"
+    },
+    {
+      "id": "fire",
+      "name": "燃烧木炭",
+      "surface": "card",
+      "source": "sources/cards/fire-v01.png",
+      "runtime": "cards/fire.png",
+      "prompt": "prompts/fire-card-v01.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-13446aad-21af-40b2-a6f5-cb3010c4db0d.png",
+      "width": 1024,
+      "height": 1536,
+      "colorType": 2,
+      "bytes": 1655870,
+      "sha256": "2dba0ad8df7a78178b3bc0aa30c63d7cd47d988b2861a97f94ed17112c212eff"
+    },
+    {
+      "id": "earth",
+      "name": "黏土团",
+      "surface": "item",
+      "source": "sources/items/earth-v01.png",
+      "runtime": "items/earth.png",
+      "prompt": "prompts/earth-item-v01.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-9dd09592-b522-4062-8009-69970c54aeb0.png",
+      "width": 1585,
+      "height": 992,
+      "colorType": 6,
+      "bytes": 1090451,
+      "sha256": "401941b7d3295d7f91ca765a86ea9528f4ffcff0d16530389231600f6a034141"
+    },
+    {
+      "id": "earth",
+      "name": "黏土团",
+      "surface": "card",
+      "source": "sources/cards/earth-v01.png",
+      "runtime": "cards/earth.png",
+      "prompt": "prompts/earth-card-v01.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-c91066cf-4cdf-44b3-833d-2607ef70f32e.png",
+      "width": 1024,
+      "height": 1536,
+      "colorType": 2,
+      "bytes": 1574881,
+      "sha256": "566a3afd45e48fdbb80f77ccb05520083fcd03b536423c6ec1a44f98f8450a73"
+    },
+    {
+      "id": "wind",
+      "name": "风息羽毛",
+      "surface": "item",
+      "source": "sources/items/wind-v01.png",
+      "runtime": "items/wind.png",
+      "prompt": "prompts/wind-item-v01.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-f7c0f4bd-cab1-4620-8db8-8b3c12d5b337.png",
+      "width": 1254,
+      "height": 1254,
+      "colorType": 6,
+      "bytes": 903277,
+      "sha256": "d774f0f5127ee2a4cad0e5b38c426ff77a72b9dd36d2fc245893bedf1c62e076"
+    },
+    {
+      "id": "wind",
+      "name": "风息羽毛",
+      "surface": "card",
+      "source": "sources/cards/wind-v01.png",
+      "runtime": "cards/wind.png",
+      "prompt": "prompts/wind-card-v01.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-7d7f759f-826d-4d24-9ec3-abd2e934df4b.png",
+      "width": 1024,
+      "height": 1536,
+      "colorType": 2,
+      "bytes": 1639878,
+      "sha256": "42e7776b2d311b09800e66849515619eba4967756e11e02f29348f08e56f4c41"
+    },
+    {
+      "id": "herb",
+      "name": "疗伤草",
+      "surface": "item",
+      "source": "sources/items/herb-v01.png",
+      "runtime": "items/herb.png",
+      "prompt": "prompts/herb-item-v01.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-f3063a59-ddb6-4094-863d-d37bba41d0d4.png",
+      "width": 1254,
+      "height": 1254,
+      "colorType": 6,
+      "bytes": 1096965,
+      "sha256": "1c86fa3ea7ad4f94401301da05b3d14c86603a647ea5973c4f0080cb12cb3139"
+    },
+    {
+      "id": "herb",
+      "name": "疗伤草",
+      "surface": "card",
+      "source": "sources/cards/herb-v01.png",
+      "runtime": "cards/herb.png",
+      "prompt": "prompts/herb-card-v01.txt",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a18aac-01e1-7ed2-b07c-0165834855ed/exec-d3a279ff-37e2-414b-89ca-2180086519c5.png",
+      "width": 1024,
+      "height": 1536,
+      "colorType": 2,
+      "bytes": 1749999,
+      "sha256": "637369aab0a77f241d8442bc5e2523057c8a01f16c2d5e7aaa68ab9649d4ede1"
+    }
+  ],
+  "delivery": {
+    "directory": "E:/Project/yanzhou-art-assets/alchemy-item-pilot-2026-10-31/ways-v02",
+    "zip": "E:/Project/yanzhou-art-assets/alchemy-item-pilot-2026-10-31/ways-v02.zip",
+    "surfaceContract": "Transparent item vs opaque complete art; no UI text or geometry definition",
+    "thirdPartyOriginalsShipped": false,
+    "assetLock": {
+      "files": 42,
+      "sha256": "cfefccee2a9c0f29c7eae1bd72f18f9e7a4f838c0536313cd4ce4a7093d3d0c6"
+    },
+    "zipBytes": 14805754,
+    "zipSha256": "f3a00a4946ea3f6d77762639883d4a8339d64a307d212861902b1fafdeded46e",
+    "zipVerifiedMembers": 43
+  },
+  "checks": "checks.json"
+}

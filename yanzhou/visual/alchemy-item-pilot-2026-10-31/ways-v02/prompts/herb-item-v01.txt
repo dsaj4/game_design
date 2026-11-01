@@ -1,0 +1,8 @@
+Use case: stylized-concept.
+Asset type: original alchemy inventory ITEM art, transparent.
+Reference images 1 and 2 are STYLE ONLY: study the thick dark-brown rounded hand-ink outline, confident flat poster color areas, 2-tone shading and a small number of broad parallel contour-following strokes. Reinterpret these graphic principles, never copy their bottle design or plants.
+Reference image 3 is OBJECT IDENTITY ONLY: keep its main silhouette, proportions, major color identity and simple features. Completely replace its scratchy painterly rendering with the new flat graphic medium.
+Rendering: crisp clean chunky contours, simplified 2D form, 4-5 colors, restrained woodcut-like stripe rhythm, playful but elegant, very few interior marks. Large uninterrupted fills. No fine paper scratches, realistic glass caustics, tiny veins, speckling, distress or heavy texture.
+Composition: one complete centered physical item, square canvas, about 75% canvas occupation with generous safe margin; TRUE transparent background, no scene, ground, shadow, border, paper rectangle or checker pattern.
+No people, hands, text, names, letters, numbers, stats, UI or watermark.
+Subject: ONE compact healing-herb sprig: short dark stem, TWO opposite pairs of broad oval green leaves (four leaves total), ONE small burgundy bud at top, simple red linen tie at cut stem. Each leaf has one central vein and just 2-3 broad parallel tonal strokes. No bouquet, pot, roots, bag, medical sign or magic.

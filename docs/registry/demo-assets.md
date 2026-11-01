@@ -102,6 +102,8 @@
 
 ## <a id="as-g002-040"></a>AS-G002-040 炼金物件与场景卡面五件试点
 
+- 2026-10-31追加ALCHEMY-ITEM-PILOT-02：[Ways of Alchemy参考版](../../yanzhou/visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)。同五身份分别重绘透明物品与1024×1536不透明艺术卡面，粗圆墨线、平涂色块、顺形条纹及低对比背景；10次内置image_gen，原PNG／提示词／SHA与本机装载包沿本版manifest固定。Ways本机图册及四张样本已读／目视，其中River in a Bottle和Plantain作为画法输入，01版原创物件只作身份输入；第三方原图不随运行包交付。ReadyForScope / PresentLocal限原生Godot尺寸、深浅紫底alpha、纹理复用、导入与文件检查；PendingReview、未接主游戏或升级玩法资格，01冻结包保留。
+
 - game-002 / main；[五件对照、源图与检查入口](../../yanzhou/visual/alchemy-item-pilot-2026-10-31/README.md)，ALCHEMY-ITEM-PILOT-01。按R05前五名称试制清泉水、燃烧木炭、黏土团、风息羽毛、疗伤草：各一张独立透明物品图及1024×1536不透明场景卡面，继承护盾画法、替换题材与构图，不新增身份或效果。
 - 内置image_gen共12次，10张当前资产及2张黏土旧稿；原PNG字节、12份准确提示词、原生成路径、实际尺寸、SHA与本机装载包由manifest固定。PNG／ZIP只本机保管，说明／清单／提示词入Git；物件画布尺寸不定义占格或点击几何。
 - ReadyForScope / PresentLocal，2026-10-31，仅独立Godot4.7.2的物件152／64px、卡面300×450／155×229、深浅紫底alpha、十表面纹理重复请求复用及导入／指纹检查。VisualPilot / PendingReview；未接入主游戏、确定网格形状或运行玩家识别实验。

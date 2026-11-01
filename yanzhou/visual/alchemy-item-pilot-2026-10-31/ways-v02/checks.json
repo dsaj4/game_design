@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-31",
+  "status": "ReadyForScope",
+  "acceptance": "PendingReview",
+  "sourceCopyChecks": 30,
+  "textureImports": 10,
+  "native": {
+    "cards": {
+      "earth": {
+        "height": 1536,
+        "opaque": 1572864,
+        "visibleBounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "width": 1024,
+        "zeroAlpha": 0
+      },
+      "fire": {
+        "height": 1536,
+        "opaque": 1572864,
+        "visibleBounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "width": 1024,
+        "zeroAlpha": 0
+      },
+      "herb": {
+        "height": 1536,
+        "opaque": 1572864,
+        "visibleBounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "width": 1024,
+        "zeroAlpha": 0
+      },
+      "water": {
+        "height": 1536,
+        "opaque": 1572864,
+        "visibleBounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "width": 1024,
+        "zeroAlpha": 0
+      },
+      "wind": {
+        "height": 1536,
+        "opaque": 1572864,
+        "visibleBounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "width": 1024,
+        "zeroAlpha": 0
+      }
+    },
+    "items": {
+      "earth": {
+        "height": 992,
+        "opaque": 142,
+        "visibleBounds": [
+          46,
+          147,
+          1502,
+          750
+        ],
+        "width": 1585,
+        "zeroAlpha": 719299
+      },
+      "fire": {
+        "height": 1254,
+        "opaque": 1306,
+        "visibleBounds": [
+          171,
+          22,
+          930,
+          1216
+        ],
+        "width": 1254,
+        "zeroAlpha": 922359
+      },
+      "herb": {
+        "height": 1254,
+        "opaque": 2525,
+        "visibleBounds": [
+          35,
+          71,
+          1177,
+          1113
+        ],
+        "width": 1254,
+        "zeroAlpha": 835994
+      },
+      "water": {
+        "height": 1254,
+        "opaque": 1187,
+        "visibleBounds": [
+          151,
+          42,
+          952,
+          1174
+        ],
+        "width": 1254,
+        "zeroAlpha": 779251
+      },
+      "wind": {
+        "height": 1254,
+        "opaque": 1781,
+        "visibleBounds": [
+          90,
+          26,
+          1142,
+          1219
+        ],
+        "width": 1254,
+        "zeroAlpha": 985142
+      }
+    },
+    "resourceReuse": {
+      "earth.card": true,
+      "earth.item": true,
+      "fire.card": true,
+      "fire.item": true,
+      "herb.card": true,
+      "herb.item": true,
+      "water.card": true,
+      "water.item": true,
+      "wind.card": true,
+      "wind.item": true
+    },
+    "scope": "Native Godot visual asset checks only; no gameplay or main-game integration"
+  },
+  "visualReview": {
+    "boards": [
+      "pilot-review.png",
+      "alpha-review.png"
+    ],
+    "observed": [
+      "Same five item identities represented in paired object/card art",
+      "Flat colors and thick rounded contours replace prior fine paint texture",
+      "No text, people or UI baked into art",
+      "Black, cream and purple alpha composition inspected"
+    ],
+    "limits": [
+      "Background rhythm is intentionally stronger than prior version; user selection pending",
+      "Retains partial alpha as generated",
+      "No player recognition test, grid integration, main-game modification or performance validation"
+    ]
+  }
+}

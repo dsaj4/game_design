@@ -10,7 +10,7 @@
 
 同日按后续要求已制作[两条路线、六种卡面风格探索](card-face-exploration-2026-10-29/README.md)，AS-G002-037：象形咒印三版与物象寓言三版，共六板18个主题演绎。卡内无效果说明，定位字在板外；本轮重在灵感差异，用户选型PendingReview，尚未锁定正式信息宿主或接入工程。
 
-2026-10-31物品／卡面当前为[五件具体物品与场景卡面试点](alchemy-item-pilot-2026-10-31/README.md)，AS-G002-040@ALCHEMY-ITEM-PILOT-01：清泉水、燃烧木炭、黏土团、风息羽毛、疗伤草，各有独立透明物品图和不透明竖版场景插画。参考本机Backpack Battles的粗轮廓与材质分区，继承护盾画法但重做物件题材／构图；无人物、卡内效果文字或数值。小尺寸及alpha合成检查已完成，接受PendingReview，未确定占格或接入主游戏。原[元素／法师三版](alchemy-material-cards-2026-10-30/README.md)保留历史，不再作为本轮续画模板。
+2026-10-31物品／卡面当前追加[Ways of Alchemy参考版](alchemy-item-pilot-2026-10-31/ways-v02/README.md)，AS-G002-040@ALCHEMY-ITEM-PILOT-02：清泉水、燃烧木炭、黏土团、风息羽毛、疗伤草，五张透明物品与五张不透明艺术卡面改用粗圆墨线、平涂色块、顺形条纹及环境纹样。无人物、卡内效果文字或数值；小尺寸与alpha检查已完成，接受PendingReview，未接入主游戏或确定占形。[01版护盾画法物件／场景](alchemy-item-pilot-2026-10-31/README.md)保留并列比较，尚未宣布选型。原[元素／法师三版](alchemy-material-cards-2026-10-30/README.md)仍为历史。
 
 当前功能入口为[Godot完整首场与卡牌交互动效](../development/card-motion-2026-10-29.md)：EX-004完整单战及悬停、拿起、选用、落槽、取消归位、生产入手和当前列使用动画已接入；卡面、法器和法术声画保持占位。恶魔牌／本地尖塔2只作动作结构参考，没有第三方运行素材进入包；上方炼金法器新稿仍未接入。原[首轮HTML示意](first-battle-handflow-2026-10-28/README.md)继续保留独立身份与局部浏览器证据。
 
