@@ -45,11 +45,10 @@
 - ReadyForScope / PresentLocal（2026-10-28，源件限定来源／原PNG／透明／底色检查）。使用者DM-G002-021已将10件独立导入，并续为EX-004可玩单战；控件／包／恢复的固定版本及范围沿目标记录，不覆盖冻结源件或升级其用户接受PendingReview。正式卡面／法器／法术声画及陈设仍后置，v06与DM-G002-020不改。
 - 图片、ZIP和制作工具保本机，文档／manifest／提示词入Git。v02的逐件原件对应表及工具在 `E:/Project/yanzhou-art-assets/tabletop-components-2026-10-28/imagegen-v02/`；当前导出只取新维护页exports/的10张原图。仅本项目内部使用／审阅，公开分发条件未另定。
 
-## <a id="as-g002-035"></a>AS-G002-035 四版卡面历史候选
+## <a id="as-g002-035"></a>AS-G002-035 旧A—D卡板（已退役）
 
-- game-002 / main；[保留卡板与旧判断](../../yanzhou/visual/card-artifact-design-2026-10-28/README.md)，CARD-CONCEPTS-RETAINED-02。A—D四张1536×1024 RGB及四份准确提示词原字节保留，本轮核对SHA；非当前运行卡面，原用户选型状态不晋级。
-- 用户授权删除旧法器后，原混合包的铜盘／晶体笼、双护符、比例图及法器提示词退出工作树。完整原包取证为37f30968e32d54f4e635a804f55388d3442c0dcc及原路径；可恢复ZIP沿AS-G002-036入口。旧视觉失败经验已合入新法器说明，未删除当前卡面制作。
-- PresentLocal；图片本机保管，卡面保留清单入Git，仅内部历史审阅，旧法器不再复用为当前设计。
+- game-002 / main；Archived / RecoverableLocal，2026-10-31。旧四卡板与提示词退出活动目录，后继为AS-G002-040@02。原法器早先清理的独立取证不变。
+- 说明、manifest及原提示词按[固定Git](https://github.com/dsaj4/game_design/blob/90a7c7bdce65502cb69848c10ca38db033d97500/yanzhou/visual/card-artifact-design-2026-10-28/README.md)取证；本机旧图片的恢复包与整体SHA沿[当前基准](../../yanzhou/visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)。原审阅状态和许可边界保留，不恢复为运行卡面。
 
 ## <a id="as-g002-036"></a>AS-G002-036 炼金法器美术源件
 
@@ -70,46 +69,27 @@
 - ReadyForScope / PresentLocal（2026-10-31），仅本机三背景、剪影及64／96／160px对照与源图一致性检查；造型PendingReview。具体占形、供料接口、核心兼容、D及工程未定未验，不作为玩法通过。
 - 旧MOTION-STUDY-01、ASSEMBLY-02及NATIVE-03源／说明／播放器已按用户要求退出活动目录；固定Git37f30968e32d54f4e635a804f55388d3442c0dcc及原路径取证，本机102文件逐条SHA恢复包沿本版入口。ID沿法器美术包续版，不复用旧规则或旧运行验证；原图本机保管，文本／清单入Git，仅内部审阅。
 
-## <a id="as-g002-037"></a>AS-G002-037 展示优先卡面两路线六风格探索
+## <a id="as-g002-037"></a>AS-G002-037 符号／护盾探索（已退役）
 
-- game-002 / main；[六版图像与比较入口](../../yanzhou/visual/card-face-exploration-2026-10-29/README.md)。CARD-FACE-EXPLORATION-01；象形咒印的朱墨篆契／银线秘仪／撞色构成，物象寓言的木刻寓言／梦中静物／稚拙陶绘；每板三张完整正面，卡内无效果／数值／费用，定位字仅在板外。
-- 六次独立内置image_gen生成，六板均1536×1024 RGB PNG；六份准确中文提示词、生成原件位置、尺寸与SHA-256沿[manifest](../../yanzhou/visual/card-face-exploration-2026-10-29/manifest.json)。副本与原输出字节一致，无裁切／抠图／缩放／拼接；PNG本机保管，文本与清单入Git。
-- ReadyForScope / PresentLocal，2026-10-29，限定六板目视及文件检查；视觉意图仍Raw / Unqualified，用户选型PendingReview，非运行卡面或已采纳信息合同。实际尺寸、查看信息、状态、引擎及玩法未验；原AS-G002-035／036及工程不变。
-- uses（前轮研究参照）：AS-SH-004@CARD-FACE-RESEARCH-01，无第三方图像字节进入生成输入；derived-from: None。内置image_gen原创灵感探索，仅本项目内部审阅，公开分发条件未扩大；图中物象与数量不发行新材料／卡种／规则。
-- 2026-10-30续为CARD-FACE-EXPLORATION-02：[A1负形＋B1刀刻样张](../../yanzhou/visual/card-face-exploration-2026-10-29/a1-b1-2026-10-30/README.md)。新增两张三卡板，均1536×1024，初稿物象较具体、二稿强化大黑形与留白；[续版manifest](../../yanzhou/visual/card-face-exploration-2026-10-29/a1-b1-2026-10-30/manifest.json)固定两图、两份准确提示词与原生成路径／SHA。derived-from本AS@01的A1、B1；原六图与旧manifest不改。ReadyForScope / PresentLocal仅两图目视与文件检查，设计仍Raw、用户接受待定，针身断口的含义及实际尺寸辨识未验；未改合同或工程。
+- game-002 / main；Archived / RecoverableLocal，2026-10-31。六风格板、A1＋B1及各护盾样张退出活动目录，后继为AS-G002-040@02；旧05构图曾被选为制作模板，只按原日期解释。
+- 全部版本、来源及提示词沿[固定Git](https://github.com/dsaj4/game_design/blob/90a7c7bdce65502cb69848c10ca38db033d97500/yanzhou/visual/card-face-exploration-2026-10-29/README.md)及原路径取证。未入Git原图已逐文件SHA验证后归档，恢复入口和保留经验沿[当前基准](../../yanzhou/visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)。第三方参考与原许可／非玩法边界保持。
 
-- 2026-10-30续为CARD-FACE-EXPLORATION-03：[实体盾牌独立单卡](../../yanzhou/visual/card-face-exploration-2026-10-29/shield-2026-10-30/README.md)。用户否定02版手抓圆球的护盾物象，改用完整盾牌；继续A1负形＋B1刀刻，单张竖版、卡内无字。准确提示词、原件与校验沿[03版manifest](../../yanzhou/visual/card-face-exploration-2026-10-29/shield-2026-10-30/manifest.json)。derived-from本AS@01的A1、B1，仅本项目内部视觉审阅，旧图与固定清单不改；实际尺寸辨识、引擎接入与用户接受待验。
+## <a id="as-g002-038"></a>AS-G002-038 护盾制作首件（已退役）
 
-- 2026-10-30续为CARD-FACE-EXPLORATION-04：[原创护盾器物画法候选](../../yanzhou/visual/card-face-exploration-2026-10-29/culdcept-shield-2026-10-30/README.md)。使用AS-SH-005固定包中KSHLD／CounterShield两张完整卡面及CounterShield独立主体作内置image_gen风格参考。生成单张无字护盾卡，包铜盾缘、青灰漆面与暖旧纸，第三方图像不作为运行卡面。提示词、尺寸、SHA、原件与来源关系沿该版manifest；仅本机内部视觉审阅，接受和实际尺寸待验，原包固定版本保持。
+- game-002 / main；Archived / RecoverableLocal，2026-10-31。SHIELD-CARD-PRODUCTION-01的纸框／透明场景、合成卡面与独立工程退出活动目录；两层制作不作为当前Ways卡面的装配要求，原局部技术证据仍只属于旧版。
+- [固定制作记录](https://github.com/dsaj4/game_design/blob/90a7c7bdce65502cb69848c10ca38db033d97500/yanzhou/visual/shield-card-production-2026-10-30/README.md)、原manifest、提示词与SHA按该提交取证。外部包和原件已校验归档，恢复入口沿[当前基准](../../yanzhou/visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)；uses AS-SH-006研究，旧AS-G002-039使用关系保留为历史。
 
-- 2026-10-30续为CARD-FACE-EXPLORATION-05：[护盾的阻挡与庇护场景](../../yanzhou/visual/card-face-exploration-2026-10-29/shield-scene-2026-10-30/README.md)。以04版为风格基准，按用户要求增加受护者、来袭箭及几何围合；uses本AS@04和AS-SH-005的BARRIA／AMAGIC参考。内置image_gen生成一张1024×1536无字卡，原件／准确提示词／SHA沿该版manifest；单图目视及文件检查，实际尺寸／用户接受待验。旧图和清单保持，仅本项目内部审阅，未改规则或工程。
+## <a id="as-g002-039"></a>AS-G002-039 元素／法师／极简材料版（已退役）
 
-## <a id="as-g002-038"></a>AS-G002-038 护盾卡正式美术首件
+- game-002 / main；Archived / RecoverableLocal，2026-10-31。ALCHEMY-MATERIAL-CARDS-01／02／03、旧图及生产队列退出活动目录；后继为AS-G002-040@02。保留每批5件、32身份中仅5种成图的范围，不能把三版误计为15种。
+- 三版来源、提示词、检查及清单沿[固定Git](https://github.com/dsaj4/game_design/blob/90a7c7bdce65502cb69848c10ca38db033d97500/yanzhou/visual/alchemy-material-cards-2026-10-30/README.md)和原路径取证，二进制逐条SHA归档；恢复及失败经验沿[当前基准](../../yanzhou/visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)。材料身份／命名／配方仍归原内容来源，本次不改规则或复用编号。
 
-- game-002 / main；[制作、交付与检查入口](../../yanzhou/visual/shield-card-production-2026-10-30/README.md)，SHIELD-CARD-PRODUCTION-01。用户确认AS-G002-037@05的阻挡与庇护构图作为生产模板；新分层成品接受PendingReview，未改玩法或信息合同。
-- 两份1024×1536 RGBA制作源：共用纸框与整幅透明插画，内置image_gen生成并保留准确提示词；运行默认一张Godot合成卡面。完整PNG、相对路径装载组件、导入配置与检查工程在本机[交付包](E:/Project/yanzhou-art-assets/shield-card-production-2026-10-30.zip)，10,455,354 bytes；31文件锁、原生成位置、SHA与来源沿[manifest](../../yanzhou/visual/shield-card-production-2026-10-30/manifest.json)。PNG／ZIP本机保管，文档与清单入Git。
-- ReadyForScope / PresentLocal，2026-10-30，限独立Godot4.7.2实际渲染：四档尺寸、深浅紫底alpha、分层／成品字节一致、100次纹理请求复用、无导入缓存目录重现及ZIP31文件SHA检查。未写yanzhou-2d，主工程接入、OS输入、全牌库性能与新成品接受待验。
-- derived-from AS-G002-037@CARD-FACE-EXPLORATION-05；uses AS-SH-006@CARD-PRODUCTION-RESEARCH-01。原创图、装载代码与纸面Shader，无第三方图像／代码／材质／字体进入包；仅本项目本机制作审阅，不在本轮公开发布。制作两层不是无损PSD拆层，盾／受护者／箭／撞击保持整幅。
+## <a id="as-g002-040"></a>AS-G002-040 卡牌与物品美术基准
 
-## <a id="as-g002-039"></a>AS-G002-039 炼金材料卡批次制作
-
-- game-002 / main；[32种材料全量队列与首批审阅](../../yanzhou/visual/alchemy-material-cards-2026-10-30/README.md)，ALCHEMY-MATERIAL-CARDS-01。用户要求沿护盾正式规格，每次5张供审阅；本版实际水／火／土／风／草5张，余27种Queued，新成图PendingReview。
-- 五张1024×1536 RGBA插画、同规格合成卡面、共用纸框、Godot组件／导入设置与五份准确提示词；[31.8MB本机交付包](E:/Project/yanzhou-art-assets/alchemy-material-cards-2026-10-30/batch-01.zip)。原生成位置、源／运行SHA、52文件锁与范围沿[本批manifest](../../yanzhou/visual/alchemy-material-cards-2026-10-30/batch-01/manifest.json)。PNG／ZIP本机保管，文本／清单入Git。
-- ReadyForScope / PresentLocal，2026-10-30，限首批实际Godot渲染：280×420／155×229、深浅紫底透明、五张分层与成品逐字节一致、各100次请求复用、共用纸单资源、无缓存干净目录重现及包文件SHA。主工程接入、OS输入、玩法及用户接受待验。
-- derived-from／uses AS-G002-038@SHIELD-CARD-PRODUCTION-01，纸底原字节复用，插画整组独立生成；材料身份只引用Qualified B01，不新增配方／效果／发行内容。仅本项目本机制作审阅，运行包无第三方图像／代码／字体文件；旧护盾包保持原版。
-
-- 2026-10-30续为ALCHEMY-MATERIAL-CARDS-02：[首批五张法师互动版](../../yanzhou/visual/alchemy-material-cards-2026-10-30/batch-01-mage-v02/README.md)。用户指定同五张加入护盾同款法师，灰赭兜帽／暗红披巾，分别引水／引火／拢土／御风／扶草；仍5/32，非新增材料批次。五次内置image_gen、共用纸框与原生单图合成，同规格源件／提示词／SHA／50文件包沿本版manifest。ReadyForScope / PresentLocal限新目录导入、尺寸／三底alpha、分层与成品一致及纹理复用检查，角色与构图PendingReview；未另重复第二次干净目录或接入工程。01版及固定ZIP不改，派生自本AS@01并使用AS-G002-038角色基准。
-
-- 2026-10-30续为ALCHEMY-MATERIAL-CARDS-03：[极简五元素](../../yanzhou/visual/alchemy-material-cards-2026-10-30/batch-01-minimal-v03/README.md)。用户认为前稿过繁，去法师／场景／密纹，五次内置image_gen生成水滴、火焰、土块、风线与双叶；改用原创SVG暖白细框，不沿用旧纸像素。1024×1536源／成品、65%居中符号、48文件锁和提示词沿本版manifest。ReadyForScope / PresentLocal限新目录原生导入、尺寸／透明、合成一致、纹理复用与文件检查；PendingReview、未接工程。旧01／02及队列不改，仍5/32。
-
-## <a id="as-g002-040"></a>AS-G002-040 炼金物件与场景卡面五件试点
-
-- 2026-10-31追加ALCHEMY-ITEM-PILOT-02：[Ways of Alchemy参考版](../../yanzhou/visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)。同五身份分别重绘透明物品与1024×1536不透明艺术卡面，粗圆墨线、平涂色块、顺形条纹及低对比背景；10次内置image_gen，原PNG／提示词／SHA与本机装载包沿本版manifest固定。Ways本机图册及四张样本已读／目视，其中River in a Bottle和Plantain作为画法输入，01版原创物件只作身份输入；第三方原图不随运行包交付。ReadyForScope / PresentLocal限原生Godot尺寸、深浅紫底alpha、纹理复用、导入与文件检查；PendingReview、未接主游戏或升级玩法资格，01冻结包保留。
-
-- game-002 / main；[五件对照、源图与检查入口](../../yanzhou/visual/alchemy-item-pilot-2026-10-31/README.md)，ALCHEMY-ITEM-PILOT-01。按R05前五名称试制清泉水、燃烧木炭、黏土团、风息羽毛、疗伤草：各一张独立透明物品图及1024×1536不透明场景卡面，继承护盾画法、替换题材与构图，不新增身份或效果。
-- 内置image_gen共12次，10张当前资产及2张黏土旧稿；原PNG字节、12份准确提示词、原生成路径、实际尺寸、SHA与本机装载包由manifest固定。PNG／ZIP只本机保管，说明／清单／提示词入Git；物件画布尺寸不定义占格或点击几何。
-- ReadyForScope / PresentLocal，2026-10-31，仅独立Godot4.7.2的物件152／64px、卡面300×450／155×229、深浅紫底alpha、十表面纹理重复请求复用及导入／指纹检查。VisualPilot / PendingReview；未接入主游戏、确定网格形状或运行玩家识别实验。
-- uses AS-SH-007@BACKPACK-ITEMS-01（三张主图目视及目录，仅可读性原则，无第三方生成输入／运行素材）；derived-from AS-G002-037@05原创护盾画法。AS-G002-038／039旧包保持；R05全量Raw命名状态不因局部视觉试点晋级，仅项目内部制作与审阅。
+- game-002 / main；[唯一制作与交付入口](../../yanzhou/visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)，ALCHEMY-ITEM-PILOT-02。2026-10-31用户选定当前Ways画法作为后续基准；5透明物品＋5张1024×1536不透明艺术卡面，10份准确提示词与原图SHA沿manifest，当前图及ZIP指纹未改。
+- StyleBaselineSelected；ReadyForScope / PresentLocal限原独立Godot尺寸、深浅紫底alpha、纹理复用及导入检查。风格选择与具体资产细节／主游戏接入／玩家识别验收分开，不新增玩法资格。
+- Ways本机图册四样本已读／目视，River in a Bottle与Plantain作画法输入，旧01原创物件作身份输入；第三方原图不随包交付。01物件版及前序旧图已退出活动目录，生成来源仍按历史路径／SHA取证，恢复包和归档整体指纹由当前manifest固定。
+- 保留每批5件、当前5/32的范围，余27种未制作。旧符号、护盾、人物／细碎纹理等失败经验已并入当前基准，不再保留并列旧图；仅项目内部制作与审阅。
 
 ## Demo
 

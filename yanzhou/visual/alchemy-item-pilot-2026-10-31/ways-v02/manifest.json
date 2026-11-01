@@ -248,5 +248,30 @@
     "zipSha256": "f3a00a4946ea3f6d77762639883d4a8339d64a307d212861902b1fafdeded46e",
     "zipVerifiedMembers": 43
   },
-  "checks": "checks.json"
+  "checks": "checks.json",
+  "styleBaseline": {
+    "status": "SelectedByUser",
+    "date": "2026-10-31",
+    "scope": "Card and material-item art style; asset detail, host integration and player recognition remain separate"
+  },
+  "cleanup": {
+    "date": "2026-10-31",
+    "sourceCommit": "90a7c7bdce65502cb69848c10ca38db033d97500",
+    "archive": "E:\\Project\\yanzhou-art-archive\\2026-10-31-card-baseline\\retired-card-assets.zip",
+    "archiveSha256": "ba1918bdee06bd7ea64c0f179d8611a4919d99313e322b0594fa14eb9dfa1e00",
+    "archiveBytes": 497691723,
+    "retiredFiles": 577,
+    "integrityRecord": "E:/Project/yanzhou-art-archive/2026-10-31-card-baseline/archive-checks.json",
+    "retired": [
+      "AS-G002-035",
+      "AS-G002-037",
+      "AS-G002-038",
+      "AS-G002-039",
+      "AS-G002-040@01"
+    ],
+    "currentArtShaChecks": 20,
+    "currentZipUnchanged": true,
+    "historicalIdentityEntryPrefix": "delivery/alchemy-item-pilot-2026-10-31/items/",
+    "scope": "Old card/item design line only; tabletop, apparatus, source game extracts and original generation records remain outside cleanup"
+  }
 }
