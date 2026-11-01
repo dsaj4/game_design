@@ -1,0 +1,32 @@
+{
+  "asset_id": "AS-SH-007",
+  "version": "BACKPACK-UI-01",
+  "date": "2026-10-31",
+  "scope": "inventory area art and UI; excludes bag item body art",
+  "entry": "E:\\Game\\Backpack Battles-analysis\\2026-10-31\\inventory-ui-v01\\index.html",
+  "local_manifest": {
+    "path": "E:\\Game\\Backpack Battles-analysis\\2026-10-31\\inventory-ui-v01\\manifest.json",
+    "sha256": "17ea9cc93677ea554a0dca29dfe225f5401f6163ad0bb1d87d0123acddda83d5"
+  },
+  "parent_version": "BACKPACK-ITEMS-01",
+  "parent_manifest_sha256": "ade973e5599f0fef81a511c5329794779ed4fe68a7cfeb28bfd0c906980764f3",
+  "source_files": 49,
+  "source_png": 34,
+  "ui_textures": 28,
+  "border_textures": 7,
+  "evidence": {
+    "path": "E:\\Game\\Backpack Battles-analysis\\2026-10-31\\inventory-ui-v01\\evidence.json",
+    "sha256": "98b3d5db30c2819e54735389fc5fdfcb753cf41e4478bf34e288b1eb8646ca5c"
+  },
+  "verification": {
+    "path": "E:\\Game\\Backpack Battles-analysis\\2026-10-31\\inventory-ui-v01\\verification.json",
+    "sha256": "f586d7d621dd9e604a747666ddfbe1e12b4c47560336e4b08334c359c03c3243",
+    "status": "PassForScope",
+    "source_files_match_parent": 49,
+    "runtime_game": "NotRun",
+    "real_inventory_position": "Unknown",
+    "meaning_of_9x7": "default canvas, not initial usable capacity"
+  },
+  "rights": "third-party original assets referenced in place; internal local research; redistribution Unknown",
+  "repo_content": "original research summary and identity metadata only; third-party assets remain local"
+}
