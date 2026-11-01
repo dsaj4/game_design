@@ -2,7 +2,7 @@
 
 2026-10-31 · CurrentSpec / CORE-069。[状态与来源](../../baseline.md)。
 
-[设计](design.md) · [体验](experience.md) · [示例](examples.md)
+[设计](../../../system-design/inscription-system/design.md) · [体验](../../../system-design/inscription-system/experience.md) · [示例](examples.md)
 
 ## TL-39 暗句与核心空缺
 

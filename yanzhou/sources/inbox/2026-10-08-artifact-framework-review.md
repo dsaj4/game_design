@@ -71,6 +71,6 @@ Project ID：game-002。文档角色：SourceRecord。日期：2026-10-08（Amer
 
 [法器五文件入口](../../design/systems/artifact-system/README.md)为交付入口；两份既有 Qualified 素材补使用记录，系统目录及 [GDD 来源审查](../../design/source-review.md#artifact-framework1法器系统整理2026-10-08)同步必要增量。文档组织决定见 [DOC-015](../../governance/decision-log.md#g002-doc-015)。
 
-检查限定为：本任务链接与锚点、继承 TL 内容及六例覆盖、五文件结构和固定阅读包文件存在、原输入哈希、提交范围。玩法证据保持 NotRun。未决问题及按依赖分组的推荐见 [设计页](../../design/systems/artifact-system/design.md#未知与依赖)；本轮整理无需将这些问题先裁定为新规则。
+检查限定为：本任务链接与锚点、继承 TL 内容及六例覆盖、五文件结构和固定阅读包文件存在、原输入哈希、提交范围。玩法证据保持 NotRun。未决问题及按依赖分组的推荐见 [设计页](../../system-design/artifact-system/design.md#未知与依赖)；本轮整理无需将这些问题先裁定为新规则。
 
 结果：321 个本地链接、64 个新增链接及 32 个新增锚点检查通过；44 个 TL 身份未丢失或重复，法器原条款的 63 个句片段及状态表行保留，六条原短例均有对应展开；11 个五文件目录与 53 份阅读文件存在，两个原输入哈希未变。检查辅助仅存本地 `.git/codex-tasks/`，未提交脚本或原始输入。

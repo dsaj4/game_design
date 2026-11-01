@@ -1,6 +1,6 @@
 # 资源系统：规则
 
-2026-10-31 · CurrentSpec；CORE-068背包供料与CORE-067统一卡牌接口已同步，维护与期限扩展待迁移。[基准](../../baseline.md) · [设计](design.md) · [体验](experience.md) · [示例](examples.md)
+2026-10-31 · CurrentSpec；CORE-068背包供料与CORE-067统一卡牌接口已同步，维护与期限扩展待迁移。[基准](../../baseline.md) · [设计](../../../system-design/resource-system/design.md) · [体验](../../../system-design/resource-system/experience.md) · [示例](examples.md)
 
 首批EX无材料或维护对象；新增资源用途才展开TL-14／15／43，实际使用持续产物再展开维护段。TL-37普通量值仍适用于已有行动。
 

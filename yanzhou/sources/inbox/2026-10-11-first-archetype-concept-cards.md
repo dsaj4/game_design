@@ -101,7 +101,7 @@ Project ID：game-002。日期：2026-10-11。文档角色：SourceRecord / 构�
 | 铭文 | 配方核心、探索组合、调整搭配；通过含义学习并运用组合 | [铭文意图素材](../materials/M-2026-10-09-inscription-design-intent.md)，Qualified；发现／免费试配／知识长期查阅依原范围 |
 | 副铭文 | 保留主逻辑，提供有侧重的时间／量值增强；取舍与替换成长并存 | 同上INS-I4／5，Qualified；不是新增减料、多产、主逻辑或直接跨法器加成 |
 | 行动卡 | 战斗表现与资源兑现；单卡清晰、可以强力，通过标记组织协同 | [行动卡意图素材](../materials/M-2026-10-10-action-card-design-intent.md)，Qualified；不要求每卡都附带标记，也不证明已平衡 |
-| 资源 | 有限材料形成约束，精炼形成积累，现场取材表现环境；中间产物可以有兑现价值 | [资源设计](../../design/systems/resource-system/design.md)，CORE-058方向Accepted；具体配方和数值待设计 |
+| 资源 | 有限材料形成约束，精炼形成积累，现场取材表现环境；中间产物可以有兑现价值 | [资源设计](../../system-design/resource-system/design.md)，CORE-058方向Accepted；具体配方和数值待设计 |
 
 当前通用约束以各系统rules为准。最相关的提醒是：配置／未来设置／已承诺批次分开，材料转化也经行动兑现，不能用“用途切换”偷换战中重铭。此处不复制完整时序、参数和状态合同。
 

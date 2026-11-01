@@ -13,7 +13,7 @@ DM-G002-021当前二维工程、DM-G002-020首轮HTML、DM-G002-019炼金阅读�
 
 ## 2026-10-31 Ways统一美术基准
 
-当前法器、独立物品、适配卡图与完整卡面共用[Ways唯一美术基准02](../../yanzhou/visual/README.md)：AS-G002-036@10法器、AS-G002-040@02透明物品、AS-G002-041@02卡图／模板／独立名称。用户已确认画风和完整版式，进入生产准备；字体、标准尺寸派生、alpha与实际宿主接入按首件分别验收。外部基准板02引用13源件＋5张整卡示例，清单／SHA和浏览器证据由基准页定位；旧板01冻结。旧法器及旧卡稿已退出活动入口，AS040竖卡图保留生成来源用途。AS-G002-032的场景保留桌面布局与历史生成用途，AS-G002-033的符号板只作其生成来源取证，不再作为新卡面的绘画模板。现用桌面运行组件未迁移或重画。
+当前法器、独立物品、适配卡图与完整卡面共用[Ways唯一美术基准02](../../yanzhou/system-design/presentation/art-direction.md)：AS-G002-036@10法器、AS-G002-040@02透明物品、AS-G002-041@02卡图／模板／独立名称。用户已确认画风和完整版式，进入生产准备；字体、标准尺寸派生、alpha与实际宿主接入按首件分别验收。外部基准板02引用13源件＋5张整卡示例，清单／SHA和浏览器证据由基准页定位；旧板01冻结。旧法器及旧卡稿已退出活动入口，AS040竖卡图保留生成来源用途。AS-G002-032的场景保留桌面布局与历史生成用途，AS-G002-033的符号板只作其生成来源取证，不再作为新卡面的绘画模板。现用桌面运行组件未迁移或重画。
 
 ## 2026-10-28 视觉选择与整理（历史）
 
@@ -62,7 +62,7 @@ DM-G002-021当前二维工程、DM-G002-020首轮HTML、DM-G002-019炼金阅读�
 
 ## <a id="as-g002-036"></a>AS-G002-036 Ways法器美术基准
 
-- game-002 / main；[当前法器源件与恢复入口](../../yanzhou/visual/alchemy-apparatus-2026-10-31/ways-v10/README.md)，ALCHEMY-APPARATUS-10。2026-10-31用户选定Ways法器，与AS-G002-040共用[统一美术基准](../../yanzhou/visual/README.md)：深褐圆墨线、平涂色块、顺形短线；法器中央留白、卡面环境降对比。
+- game-002 / main；[当前法器源件与恢复入口](../../yanzhou/visual/alchemy-apparatus-2026-10-31/ways-v10/README.md)，ALCHEMY-APPARATUS-10。2026-10-31用户选定Ways法器，与AS-G002-040共用[统一美术基准](../../yanzhou/system-design/presentation/art-direction.md)：深褐圆墨线、平涂色块、顺形短线；法器中央留白、卡面环境降对比。
 - 当前两张完整RGBA PNG为1536×1024／1174×1339，源图与准确生成提示词保持。Copper Pot／Polished Distillation Cube／Albedo三原图是历史画法输入，参考SHA与外部图集快照沿manifest；第三方原件留研究目录，未作运行图片。
 - StyleBaselineSelected；ReadyForScope / PresentLocal限本机源图一致性及此前01基准板12图的分组、三背景、实际尺寸和剪影检查；02增补完整卡面，证据沿统一入口。具体资产细节／玩家辨识／主游戏接入分别验收，不定义法器内容、占格或动画实现。
 - 旧04—09设计、图片和旧多版对照页已退出活动目录；清理前Git db79ead8d155c6a6a1bdf012304589f34db81fdd与150文件逐条SHA恢复包沿当前manifest。实际移出139文件、51个PNG，当前12源图、卡面运行副本及ZIP指纹保持。保留经验归统一基准，不复用退役编号；仅内部制作与审阅。
@@ -84,7 +84,7 @@ DM-G002-021当前二维工程、DM-G002-020首轮HTML、DM-G002-019炼金阅读�
 
 ## <a id="as-g002-040"></a>AS-G002-040 卡牌与物品美术基准
 
-- 与AS-G002-036／041共用[Ways统一美术基准02](../../yanzhou/visual/README.md)；本条维护透明物品、旧竖卡图源件、材料队列与历史交付，共通制作规格集中在统一入口。
+- 与AS-G002-036／041共用[Ways统一美术基准02](../../yanzhou/system-design/presentation/art-direction.md)；本条维护透明物品、旧竖卡图源件、材料队列与历史交付，共通制作规格集中在统一入口。
 - game-002 / main；[本包制作与交付入口](../../yanzhou/visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)，ALCHEMY-ITEM-PILOT-02。2026-10-31用户选定Ways画法；5透明物品继续作为基准，5张1024×1536不透明竖卡图现仅为AS041适配卡图的身份／生成来源。10份准确提示词与原图SHA沿manifest，当前图及ZIP指纹未改。
 - StyleBaselineSelected；ReadyForScope / PresentLocal限原独立Godot尺寸、深浅紫底alpha、纹理复用及导入检查。风格选择与具体资产细节／主游戏接入／玩家识别验收分开，不新增玩法资格。
 - Ways本机图册四样本已读／目视，River in a Bottle与Plantain作画法输入，旧01原创物件作身份输入；第三方原图不随包交付。01物件版及前序旧图已退出活动目录，生成来源仍按历史路径／SHA取证，恢复包和归档整体指纹由当前manifest固定。
@@ -104,7 +104,7 @@ DM-G002-021当前二维工程、DM-G002-020首轮HTML、DM-G002-019炼金阅读�
 
 ### <a id="dm-g002-022"></a>DM-G002-022 双护符动作审阅播放器（已退役）
 
-- Archived / RecoverableLocal（2026-10-31）。旧一体／拼接／原生分件播放器和设计已退出活动目录，当前法器与卡面沿[Ways统一美术基准](../../yanzhou/visual/README.md)，不延续旧动画合同；localhost地址不是历史版本依据。
+- Archived / RecoverableLocal（2026-10-31）。旧一体／拼接／原生分件播放器和设计已退出活动目录，当前法器与卡面沿[Ways统一美术基准](../../yanzhou/system-design/presentation/art-direction.md)，不延续旧动画合同；localhost地址不是历史版本依据。
 - 固定设计、旧提示词与检查在37f30968e32d54f4e635a804f55388d3442c0dcc原路径取证；完整本机源码、HTML和截图在逐条SHA验证的old-player.zip中恢复，保管位置／哈希沿[新法器说明](../../yanzhou/visual/alchemy-apparatus-2026-10-31/README.md)。历史浏览器采样仅属于旧方案，无Godot或玩法证明；不重用此DM编号。
 
 ### <a id="dm-g002-020"></a>DM-G002-020 首场手牌与逐列布牌HTML示意
@@ -123,11 +123,11 @@ DM-G002-021当前二维工程、DM-G002-020首轮HTML、DM-G002-019炼金阅读�
 
 ### <a id="dm-g002-019"></a>DM-G002-019 炼金体系HTML设计手册（2026-10-27新增）
 
-- 2026-11-01文案续版COPY-01：当前[展示HTML R09](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html)为32材料＋11产物补卡面短说明／图鉴解释，并支持全文检索；[详细HTML 02](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-handbook-r02.html)同步§3.5写作准则及A.3—4全部文案。正文仍单处维护于[设计手册](../../yanzhou/sources/inbox/2026-10-31-alchemy-design-handbook-r01.md)，固定源d6667ab845a4a3368408dd5c633476d929fe47d6，参考SRC-SH-WOA-COPY-20261101。新文案／感官表现为Raw Copy Revision，不移植原作背景或规则；配方、效果、几何、预算数组均与R08一致，R08与详细HTML 01原件及字节保持。HTML／文案自制，复用条件沿本条；未新增玩法资格。
+- 2026-11-01文案续版COPY-01：当前[展示HTML R09](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html)为32材料＋11产物补卡面短说明／图鉴解释，并支持全文检索；[详细HTML 02](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-handbook-r02.html)同步§3.5写作准则及A.3—4全部文案。正文仍单处维护于[设计手册](../../yanzhou/system-design/alchemy/handbook.md)，固定源d6667ab845a4a3368408dd5c633476d929fe47d6，参考SRC-SH-WOA-COPY-20261101。新文案／感官表现为Raw Copy Revision，不移植原作背景或规则；配方、效果、几何、预算数组均与R08一致，R08与详细HTML 01原件及字节保持。HTML／文案自制，复用条件沿本条；未新增玩法资格。
 - R09 SHA-256：0fcff8b15c455c5b222ca9d0178d51382259aed590a2ef87d8d7af85788bb5d5；详细HTML 02 SHA-256：3b0e9ecdc1efbf4ddd08a0724c56095beb2f756b2f88d4e936a830f56f72e0b2。[文案详情预览](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09-preview.png)SHA-256：dce0add178df2726407f0a14c4c5ceb4771d60cd3ef6244a2d505548efb0f144。ReadyForScope / PresentLocal（2026-11-01，限阅读与内容一致性）。161项静态核对覆盖43身份与两层文案、双页同步、原数组不变、旧快照保留、链接和来源版本分离；双页脚本语法通过。实际UI检查32材料卡／11产品卡、清泉水／贤者之石详情、文案“银色液珠”检索、详细手册A.3跳转／110行附录／“伞褶”检索，捕获警告／错误为空。[限定检查](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/r09-copy-check.json)SHA-256：a8ba189316933ac362ecf5eaa2699975aab6b671421408f67a59926e50eae19d。未测手机、打印、全键盘、独立设备、真人理解或生产／战斗；未运行新玩法实验。
 
 
-- 2026-10-31配套详细手册：同一DM内增加[炼金内容设计手册正文](../../yanzhou/sources/inbox/2026-10-31-alchemy-design-handbook-r01.md)与[分章HTML](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-handbook-r01.html)，版本ALCHEMY-CONTENT-HANDBOOK-01，固定正文源fb2d43559f1604d2320968e41193cedeedb45606。十二章准则／规范／考虑＋四组材料配方、器具空间、效果预算、来源版本附录；方法汇编、继承接口、Qualified内容、Raw候选和限定证据分别表达，不建立第二套GDD。原稿只加来源说明，正文与旧失败记录保留；后续准则集中维护手册。下列R08仍为具体物件展示入口，原文件SHA保持0ef125a6fd38983f74e6ee14b2efb100f3a066186eae353bab7a38553e9d80c0。
+- 2026-10-31配套详细手册：同一DM内增加[炼金内容设计手册正文](../../yanzhou/system-design/alchemy/handbook.md)与[分章HTML](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-handbook-r01.html)，版本ALCHEMY-CONTENT-HANDBOOK-01，固定正文源fb2d43559f1604d2320968e41193cedeedb45606。十二章准则／规范／考虑＋四组材料配方、器具空间、效果预算、来源版本附录；方法汇编、继承接口、Qualified内容、Raw候选和限定证据分别表达，不建立第二套GDD。原稿只加来源说明，正文与旧失败记录保留；后续准则集中维护手册。下列R08仍为具体物件展示入口，原文件SHA保持0ef125a6fd38983f74e6ee14b2efb100f3a066186eae353bab7a38553e9d80c0。
 - 详细HTML SHA-256：7d482cd88811372fa1742e978b96282a68c8a9a9fb2d2b4a69dc7195aa4bfcbb；[章节预览](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-handbook-r01-preview.png)SHA-256：ef2f646aa631a902fe6ce8d867bf2f7ca4c808efc8a8de60b530a5b29850799a。ReadyForScope / PresentLocal，限本机阅读和文档静态核对；172项检查覆盖16节／29表、链接／状态、32材料／35职责配方／8器具／10核心／43卡形与预算逐项一致、原稿正文及R08字节保留。实际检查目录／前后章、检索9结果／无结果／清空、跨章来源、附录A／B／C、固定模板及原展示页往返；脚本语法通过，捕获警告／错误为空。[限定检查](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/handbook-content-check.json)SHA-256：b63bc13450a7e15995ddb2229815849a701d6ea273d7b13774e876d61045582e。HTML／CSS／交互自制，无外部运行库或图像；复用条件沿本条项目内部讨论范围。未测手机、打印、全键盘、独立设备、生产／战斗或真人理解，不将旧算例外推至R08。
 
 
@@ -143,8 +143,8 @@ DM-G002-021当前二维工程、DM-G002-020首轮HTML、DM-G002-019炼金阅读�
 ### <a id="dm-g002-017"></a>DM-G002-017 EX-004二维主页面结构示意
 
 - game-002 / main；Archived。2026-10-26用户确认的COUNTER-LAYOUT-02归并为VISUAL-BASELINE-01；2026-10-27文字沿CORE-067修订，原HTML未实现新操作。2026-10-28旧HTML、脚本、预览和全部美术附件退出工作区，[历史固定包](https://github.com/dsaj4/game_design/tree/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26)保留原文件、manifest和检查证据。
-- [现行文字合同](../../yanzhou/visual/baseline-2026-10-26/README.md)继续维护组件职责及交互边界，元数据版VISUAL-CONTRACT-02只登记文字，不提供运行HTML。原ReadyForScope仅属2026-10-26局部示意；两组持牌、手动布牌、即时回收及列间展示未借此获得实现或验收结论。
-- 历史uses: AS-G002-031用于旧皮肤；历史派生使用者AS-G002-032的v01—v03。当前桌面v03及卡牌符号参考由[本轮视觉入口](../../yanzhou/visual/README.md)组织，资源内部复用与原分发边界保持。
+- [现行文字合同](../../yanzhou/system-design/presentation/interaction-contract.md)继续维护组件职责及交互边界，元数据版VISUAL-CONTRACT-02只登记文字，不提供运行HTML。原ReadyForScope仅属2026-10-26局部示意；两组持牌、手动布牌、即时回收及列间展示未借此获得实现或验收结论。
+- 历史uses: AS-G002-031用于旧皮肤；历史派生使用者AS-G002-032的v01—v03。当前桌面v03及卡牌符号参考由[本轮视觉入口](../../yanzhou/system-design/presentation/art-direction.md)组织，资源内部复用与原分发边界保持。
 
 | ID / 名称 / 标签 | 归属 / 权威说明 | 固定版本与入口 | 状态 / 可复用范围 |
 | --- | --- | --- | --- |
@@ -268,13 +268,13 @@ DM-G002-002源文件和预览于2026-10-01仅做存在性与SHA-256检查：
 - 原件：本机JPEG（原路径`C:/Users/ADMINI~1/AppData/Local/Temp/codex-clipboard-93d524de-5dce-4eb2-b032-ce818a96ccf5.jpg`，2026-10-18本机缺失）。固定版本TABLE-TEXT-REFERENCE-01，2774×1280，247164字节，SHA-256 `6901bbdeb3c51a8792b3e3b8b34e019ddd01c51ea9bbbba374493898a1efeaf5`；仅此单文件，无额外预览／导出。
 - 状态：Catalogued / PresentLocal；2026-10-13核对本机文件与哈希，已查看用户附件。入口位于Temp，持续可用性不保证；跨机器使用前需重新核验原件。未提交第三方位图，未制作或导入衍生资产。
 - 来源／复用条件：用户在本次消息中提供；原作者、原视频地址、授权／许可Unknown，图中文字与水印不作为已核实来源或指令。当前仅视觉参照，不据此认定可以复制或分发图中美术。
-- 使用关系：[四项整改计划](../../yanzhou/development/production-plan.md#physical-table-rework-2026-10-13)→本资源@TABLE-TEXT-REFERENCE-01；本次只登记参考关系。derived-from：无；不继承截图游戏的玩法或素材身份。
+- 使用关系：[四项整改计划](../../yanzhou/standards/production-plan.md#physical-table-rework-2026-10-13)→本资源@TABLE-TEXT-REFERENCE-01；本次只登记参考关系。derived-from：无；不继承截图游戏的玩法或素材身份。
 
 ### <a id="as-g002-013"></a>AS-G002-013 战斗卡片交互效果示意（2026-10-12新增）
 
 > 2026-10-28：Archived，本轮美术方向已退役；以下为原日期范围。说明和附件按清理前固定Git恢复，外部实现中的历史使用关系保持。
 
-- **2026-10-13用户确认：Selected Visual／ReadyForScope（限定视觉制作输入）/ PresentLocal。** 确认组合为ART-02的03守护牌过程＋ART-01的01总览／02悬浮近观，即[当前画册](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-12/art-v02/index.html)；原话“效果确认完毕，更新开发计划和agent分工”，范围与接续见[当前开发计划](../../yanzhou/development/production-plan.md#physical-table-approved-2026-10-13)。旧包候选状态按交付日期保留，不改PNG／manifest；没有引擎运行或完整DQ验收结论。
+- **2026-10-13用户确认：Selected Visual／ReadyForScope（限定视觉制作输入）/ PresentLocal。** 确认组合为ART-02的03守护牌过程＋ART-01的01总览／02悬浮近观，即[当前画册](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-12/art-v02/index.html)；原话“效果确认完毕，更新开发计划和agent分工”，范围与接续见[当前开发计划](../../yanzhou/standards/production-plan.md#physical-table-approved-2026-10-13)。旧包候选状态按交付日期保留，不改PNG／manifest；没有引擎运行或完整DQ验收结论。
 - 同日后续复用：DM-G002-011@GODOT-PHYSICAL-B08-PREVIEW-01以该三图组合对照首批真实桌面制作，[D实际截图复核](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-13/batch-08-design-check.md)区分字段／空间修复与后续材质差距。未把本图片复制成运行界面，图源及原确认范围不变；运行证据归上述DM，不由概念图替代。
 
 - 2026-10-12局部修订 **PHYSICAL-CARD-ART-02**：[新版过程图与说明](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/physical-table-2026-10-12/art-v02/README.md)、[当前画册](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/physical-table-2026-10-12/art-v02/index.html)、[固定清单](https://github.com/dsaj4/game_design/blob/ddf6ebfe7b3121cbb71d1257c229206a86321a1e/yanzhou/visual/baseline-2026-10-26/art/physical-table-2026-10-12/art-v02/manifest.json)。依用户两条直接修正，完工改为法器亮起后卡牌原位浮现；使用改为卡牌原位亮起、棋子同时出效果，移除飞行／箭头／连接光带。derived-from：本资源@ART-01的过程图；新PNG 1672×941、RGB不透明，其余两图引用v01固定原件。仍Art Candidate，本轮方向已明确，不视为整包验收；原版及其缺口保留。内置image_gen编辑、项目内复用条件不变。
@@ -412,7 +412,7 @@ AS-G002-004为2026-10-02的后续登记，使用该行独立固定提交，不�
 
 ### <a id="as-sh-002"></a>AS-SH-002 Demoncards 本机游戏与有界取证包
 
-- 2026-10-15追加盘点：[候选与接入优先级（Git原文）](E:/Project/yanzhou-godot/docs/development-handoff.md#追溯与日常记录 "git show cc8c229fe89d85a51e739efc0111a54d139fff1a:docs/coordination/2026-10-15-existing-assets.md")、[固定审计数据](E:/Project/yanzhou-godot/docs/coordination/existing-assets-audit-2026-10-15.json)。主pak哈希未变，旧索引7,811包全部可定位；定向45对象核类型，17纹理内存解码、13模型缓冲候选，无新运行导出。沿本条登记参考，不新分配AS，不把Catalogued升级为整体ReadyForScope；B12已接部分另沿AS-G002-025及下文2026-10-15记录。后续复用默认见[开发规范](../../yanzhou/development/development-standard.md#5-资产接入)。以下2026-10-14边界保留原轮次含义。
+- 2026-10-15追加盘点：[候选与接入优先级（Git原文）](E:/Project/yanzhou-godot/docs/development-handoff.md#追溯与日常记录 "git show cc8c229fe89d85a51e739efc0111a54d139fff1a:docs/coordination/2026-10-15-existing-assets.md")、[固定审计数据](E:/Project/yanzhou-godot/docs/coordination/existing-assets-audit-2026-10-15.json)。主pak哈希未变，旧索引7,811包全部可定位；定向45对象核类型，17纹理内存解码、13模型缓冲候选，无新运行导出。沿本条登记参考，不新分配AS，不把Catalogued升级为整体ReadyForScope；B12已接部分另沿AS-G002-025及下文2026-10-15记录。后续复用默认见[开发规范](../../yanzhou/standards/development-standard.md#5-资产接入)。以下2026-10-14边界保留原轮次含义。
 
 - 归属：shared-reference；原件在[E:/Game/Demoncards](E:/Game/Demoncards/verified-2026-10-14/source-manifest-v01.json)，维护说明为[言咒本次限定取证](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/reports/demoncards-reference-2026-10-14.md)。类型：用户提供第三方游戏、两篇分析报告、OBJ、静态解析、截图／录屏；标签：纸牌、牌桌、UE曲线、材质。
 - 固定版本：DEMONCARDS-REFERENCE-2026-10-14-v01，源清单所列10件原物与SHA-256；主pak指纹`c61d079f5a853f51b52b81d1799f8c3595b8a2d079a1d449329af4597075ebd4`。类型化证据指纹`1eb267f32f31c0b00718eb01f176eefc2d4b3fdb01ac4346e0045311ff0d6aa2`；运行帧／媒体位于同包verified-2026-10-14。固定范围为清单和本轮报告明确文件，不把整个可变目录当固定版。

@@ -1,6 +1,6 @@
 # 完整卡面 · Ways完整参考版
 
-2026-10-31 · game-002 / main · **AS-G002-041 / CARD-FRAME-02**。VisualDesignSelected / ProductionPreparation。用户已要求将本设计加入美术基准，现行画法、版式及后续生产验收统一沿[WAYS-ART-BASELINE-02](../../README.md)。本页保留“卡图窗＋名称底板＋外框”的生成、分层与交付记录；同一模板试配清泉水、燃烧木炭、黏土团、风息羽毛、疗伤草。前版[金色窄框](../README.md)仅作01历史选项，未被覆盖。
+2026-10-31 · game-002 / main · **AS-G002-041 / CARD-FRAME-02**。VisualDesignSelected / ProductionPreparation。用户已要求将本设计加入美术基准，现行画法、版式及后续生产验收统一沿[WAYS-ART-BASELINE-02](../../../system-design/presentation/art-direction.md)。本页保留“卡图窗＋名称底板＋外框”的生成、分层与交付记录；同一模板试配清泉水、燃烧木炭、黏土团、风息羽毛、疗伤草。前版[金色窄框](../README.md)仅作01历史选项，未被覆盖。
 
 ![五张完整卡面与手牌尺寸](E:/Project/yanzhou-art-assets/card-frame-2026-10-31/complete-v02/evidence/complete-review.png)
 

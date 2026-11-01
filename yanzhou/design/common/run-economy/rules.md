@@ -2,7 +2,7 @@
 
 2026-10-31 · CurrentSpec / CORE-069。[状态与来源](../../baseline.md)。
 
-[设计](design.md) · [体验](experience.md) · [示例](examples.md)
+[设计](../../../system-design/run-economy/design.md) · [体验](../../../system-design/run-economy/experience.md) · [示例](examples.md)
 
 ## TL-25 资源背包与部分跨战保留
 

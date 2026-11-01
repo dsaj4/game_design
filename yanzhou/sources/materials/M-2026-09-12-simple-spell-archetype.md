@@ -43,7 +43,7 @@
 - 依赖：实体副本分配、完整法术、单次名单、共享释放槽、成功事件、修饰词与镶嵌模型。
 - 需要检查的边界：每次连发与原基础循环如何衔接；本杖成功计数与FX-026按周期计数分开；连发不绕过共享槽，爆发不默认新增一次完整释放。
 - 相关来源：[类型](M-2026-09-11-spell-type-system.md)、[全局规则](M-2026-09-11-global-rule-boundaries.md)、[修饰词](M-2026-09-11-modifier-card-system.md)、[镶嵌](M-2026-09-12-wand-inlay-system.md)。
-- 效果：连发[FX-033/r1](../../effects/catalog.md#fx-033)，蓄积[FX-034/r1](../../effects/catalog.md#fx-034)；冷却缩减优先评议既有[FX-026/r1](../../effects/catalog.md#fx-026)，不与[FX-018/r1](../../effects/catalog.md#fx-018)当前冷却改期混同。其实际选用仍未决定。
+- 效果：连发[FX-033/r1](../../system-design/effects/catalog.md#fx-033)，蓄积[FX-034/r1](../../system-design/effects/catalog.md#fx-034)；冷却缩减优先评议既有[FX-026/r1](../../system-design/effects/catalog.md#fx-026)，不与[FX-018/r1](../../system-design/effects/catalog.md#fx-018)当前冷却改期混同。其实际选用仍未决定。
 - 明确不包含：起始卡池、副本／法杖数量、正式牌面、价格、参数或IN-C整包采纳；不恢复Parked词效，不修改核心或新建类型。
 
 ## 机制—行为—体验假设

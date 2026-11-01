@@ -99,7 +99,7 @@ CUSTOM 继承上轮铭文范围，显式增补资源三份成果。实际基准 
 
 ## 输出与检查
 
-本页与 [M](../materials/M-2026-10-09-inscription-design-intent.md)保存来源和资格；[铭文设计](../../design/systems/inscription-system/design.md)、[体验](../../design/systems/inscription-system/experience.md)、[辅槽设计](../../design/systems/inscription-system/augment-system/design.md)、[体验](../../design/systems/inscription-system/augment-system/experience.md)按局部资格补充解释。规则、示例、旧来源及共享文件保持不变。
+本页与 [M](../materials/M-2026-10-09-inscription-design-intent.md)保存来源和资格；[铭文设计](../../system-design/inscription-system/design.md)、[体验](../../system-design/inscription-system/experience.md)、[辅槽设计](../../system-design/augment-system/design.md)、[体验](../../system-design/augment-system/experience.md)按局部资格补充解释。规则、示例、旧来源及共享文件保持不变。
 
 检查仅限本轮文件、链接／锚点、资格状态、来源版本及写入范围；不把文档一致性当成玩法或体验验证。本批五项均已答，具体配方、数值和执行合同留后续流派及采纳阶段。
 

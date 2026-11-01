@@ -1,5 +1,7 @@
 # 言咒开发入口
 
+2026-11-01目录分层：系统设计的目标、体验、取舍和工作稿见[设计师手册](../system-design/handbook.md)；与玩法裁决无关的开发／文档／协作流程见[工作规范](../standards/README.md)。本目录继续维护实际能力、固定证据和派生任务包，默认5文件启动包不变。
+
 2026-11-01管理更新：当前实现只沿`E:/Project/yanzhou-2d/`。用户授权删除旧3D及六个早期Demo／资产／基线目录；原件已完整校验保全，统一查[旧实现恢复与经验](../history/README.md#legacy-implementations-2026-11-01)，不再从旧目录启动或取当前依赖。玩法与既有检查状态不变。
 
 2026-10-31设计同步。**现有CORE-067新2D首场已增加卡牌交互动效：[启动、操作与固定证据](card-motion-2026-10-29.md)。** 悬停／选用抬起、整牌拿起、槽位提示／落定、取消归位、生产入手和本列使用已接通；原两护符生产、五列／列间布牌、支付、后续／打断、疲劳、胜败及保存恢复沿当时CORE-067的EX-004。CORE-068背包布局、固定用途、待料／自动补料和新胜路，以及CORE-069核心可逆装配、独立辅助／叠加仅文档采纳，未接入该实现。卡面、法器与法术声画保持占位；完整材料／回收内容、真人理解与用户接受仍待后续。本页继续是当前能力唯一汇总，旧3D排程已结束使用。
@@ -27,13 +29,13 @@
 | 任务 | 按需补读；先列具体文件与版本 |
 | --- | --- |
 | 改规则或完善首场 | [设计流程](../../docs/design-workflow.md)、相关rules／参数／案例／验收与对应正式来源；查决定只读相关ID，不默认加载整份decision-log |
-| 实现已定行为 | [行为包与条件展开](task-pack.md)＋[开发规范](development-standard.md)；沿当前[二维工程](E:/Project/yanzhou-2d/README.md)。旧实现仅按[恢复入口](../history/README.md#legacy-implementations-2026-11-01)取证 |
+| 实现已定行为 | [行为包与条件展开](task-pack.md)＋[开发规范](../standards/development-standard.md)；沿当前[二维工程](E:/Project/yanzhou-2d/README.md)。旧实现仅按[恢复入口](../history/README.md#legacy-implementations-2026-11-01)取证 |
 | 新二维方向 | 按下方[开工交接](#新2d开工交接)确定本轮输入；建立探索时才读[READ-1](../exploration/start.md)及[探索AGENTS](../exploration/AGENTS.md) |
-| 改工作台或登记方式 | [展示规格](workbench-spec.md) · [本机使用](workspace.md) |
+| 改工作台或登记方式 | [展示规格](../standards/workbench-spec.md) · [本机使用](../standards/workspace.md) |
 | 制作或复用资产 | [资产接入](asset-readiness.md)、DA-1及所选AS／DM原件；不读全部制作史 |
-| 人工理解／审校行为 | [场景审阅](design-review.md)，正常故事、反例与图示；意见回同轮 |
-| 了解项目与人机协作 | [情景讲解与提示词](development-guide.md) · [阶段计划](production-plan.md) |
-| 查3D留下的制作经验 | [制作与验证经验](development-standard.md#制作与验证经验) |
+| 人工理解／审校行为 | [场景审阅](../standards/design-review.md)，正常故事、反例与图示；意见回同轮 |
+| 了解项目与人机协作 | [情景讲解与提示词](../standards/development-guide.md) · [阶段计划](../standards/production-plan.md) |
+| 查3D留下的制作经验 | [制作与验证经验](../standards/development-standard.md#制作与验证经验) |
 
 不默认加载历史批次、逐席位报告、旧测试交接、整个来源库或全部GDD。明确要求完整GDD时按READ-1的54文件清单执行，不能把核心正文阅读称作全量审查。明确禁止自动扩读的合同仍须遵守；缺材料先列缺口。
 
@@ -46,7 +48,7 @@
 | 规则 | 三权限统一卡牌、两组手牌、免费上行／列间窗口、回收及直接配方产物已定；EX-004实际具备的D／三种一次性牌／敌表／疲劳已实现，泛化材料／回收与配方未覆盖 |
 | 完整首场 | EX-004两护符／三卡／敌表为唯一输入；旧CORE-067的9轮胜、5轮无牌败、14轮疲劳及10轮兑现对照有原程序证据；CORE-068固定用途的新对照为9轮胜，尚未执行。迅速已迁移为辅助，背包尺寸／法器与辅助占形／材料未补齐，战斗演算以合法连接为前提，实际旧操作证据沿交付记录 |
 | 回收与合成 | EX-003和验收仅有条件性机制情境；首场零材料、无真实回收卡，不能宣称这些内容已覆盖 |
-| 2D展示 | [文字基准](../visual/baseline-2026-10-26/README.md)保留五列、工作台与C1—C3；旧CORE-067已接EX-004分页持牌、列间、生产／用途／打断／恢复／终局；CORE-068的占格布局、待料与自动补料，以及CORE-069辅助／核心装配未接入，完整真实材料／回收等仍待PRE2D-Q01 |
+| 2D展示 | [文字基准](../system-design/presentation/interaction-contract.md)保留五列、工作台与C1—C3；旧CORE-067已接EX-004分页持牌、列间、生产／用途／打断／恢复／终局；CORE-068的占格布局、待料与自动补料，以及CORE-069辅助／核心装配未接入，完整真实材料／回收等仍待PRE2D-Q01 |
 | 工程／资产 | 唯一新2D工程`E:/Project/yanzhou-2d/`，Godot4.7.2；DM-G002-021续版GODOT-FIRST-BATTLE-03见当前入口。十件v02美术及两字体保留，卡牌表现只读已提交事实；旧包及证据保持，DM-G002-020保持HTML身份 |
 
 ## 当前事实

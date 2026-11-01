@@ -24,7 +24,7 @@
 | [行动卡规则](../../design/systems/action-card-system/rules.md) | TL-08—11：入列资格、敌牌公开资格、同拍分组与稳定次序 |
 | [法器规则](../../design/systems/artifact-system/rules.md) | TL-03—07：冻结D、开工预留、完工、中断与下拍复用 |
 | [交互与保存规则](../../design/common/interaction-save/rules.md) | CORE-060—063及TL-17：信息字段、播放／暂停、回看、数量与实体宿主 |
-| [交互体验](../../design/common/interaction-save/experience.md)、[交互设计](../../design/common/interaction-save/design.md) | 已读定位；承诺、预测、结果分开，体验目标仍是假设 |
+| [交互体验](../../system-design/interaction-save/experience.md)、[交互设计](../../system-design/interaction-save/design.md) | 已读定位；承诺、预测、结果分开，体验目标仍是假设 |
 | [首批案例](../../design/examples/simple-spell.md)、[完整单战](../../design/examples/complete-battle.md) | 本轮读取第7节逐拍表与疲劳参数，配合前轮已读行动／标记定义；示例值不泛化 |
 | [表现方案](https://github.com/dsaj4/game_design/blob/56a0ef07f13a647a4383a751977f2dce871bd731/yanzhou/visual/demoncards-reference-2026-10-14/design-v01.md) | 第2节文本与图形字段，当前字体、图形与容器边界 |
 | [审阅v01](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/ui-review-2026-10-15/review-v01.md)、[审阅v02](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/visual/ui-review-2026-10-15/review-v02.md) | 前轮完整读取；当前文字与待审状态 |

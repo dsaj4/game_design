@@ -54,7 +54,7 @@
 
 ## 4. 已有规则唯一可解项
 
-依据[交互规则](../../design/common/interaction-save/rules.md)、[交互设计](../../design/common/interaction-save/design.md)、[行动规则](../../design/systems/action-card-system/rules.md)、[行动设计](../../design/systems/action-card-system/design.md)及[EX-002](../../design/examples/complete-battle.md)：
+依据[交互规则](../../design/common/interaction-save/rules.md)、[交互设计](../../system-design/interaction-save/design.md)、[行动规则](../../design/systems/action-card-system/rules.md)、[行动设计](../../system-design/action-card-system/design.md)及[EX-002](../../design/examples/complete-battle.md)：
 
 | 项目 | Derived clarification，不重问 |
 | --- | --- |

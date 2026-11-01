@@ -1,6 +1,6 @@
 # 标记系统：规则
 
-2026-10-31 · QualifiedFramework；CORE-055／057已采纳接口、CORE-068供料竞争与锁定衔接沿[基准](../../../baseline.md)。[设计](design.md) · [体验](experience.md) · [示例](examples.md)
+2026-10-31 · QualifiedFramework；CORE-055／057已采纳接口、CORE-068供料竞争与锁定衔接沿[基准](../../../baseline.md)。[设计](../../../../system-design/mark-system/design.md) · [体验](../../../../system-design/mark-system/experience.md) · [示例](examples.md)
 
 当前首场施法次数读对象、叠层与支付；开工费用才读冻结。CORE-065允许即时层供后续步骤／列使用；有限期、周期、独立定时的新回合接口未闭合，不能按下方旧扩展直接启用。资格与适用范围分开。
 

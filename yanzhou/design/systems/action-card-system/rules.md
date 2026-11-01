@@ -1,6 +1,6 @@
 # 卡牌与战斗使用：规则
 
-2026-10-31 · TL条款为CurrentSpec / CORE-069 spatial-auxiliaries.1，继承CORE-068／067；ACT框架资格沿[基准](../../baseline.md)。[设计](design.md) · [体验](experience.md) · [示例](examples.md)
+2026-10-31 · TL条款为CurrentSpec / CORE-069 spatial-auxiliaries.1，继承CORE-068／067；ACT框架资格沿[基准](../../baseline.md)。[设计](../../../system-design/action-card-system/design.md) · [体验](../../../system-design/action-card-system/experience.md) · [示例](examples.md)
 
 先读TL-11的生产／最终整理／逐列结算和TL-30。当前首场不启用独立定时、有限期或维护内容；扩展需先补新时序。多目标／反应段只限定既有通用事件语义，不发行新能力。
 

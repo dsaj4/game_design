@@ -73,7 +73,7 @@
 | 日期 | 去向 | 范围／状态 |
 | --- | --- | --- |
 | 2026-09-12 | [GDD](../../design/systems/resource-system/rules.md)、[Proposal](../proposals/P-2026-09-12-first-person-grid-battlefield.md) | Included：方向及明确标记的候选补充；用户原话与传播选择不再重复询问 |
-| 2026-09-12 | [效果登记](../../effects/catalog.md)、测试交接r9 | 复用FX-003／010并登记FX-060–062；只积累，未运行 |
+| 2026-09-12 | [效果登记](../../system-design/effects/catalog.md)、测试交接r9 | 复用FX-003／010并登记FX-060–062；只积累，未运行 |
 
 
 ## 2026-09-14 全游戏GDD使用记录

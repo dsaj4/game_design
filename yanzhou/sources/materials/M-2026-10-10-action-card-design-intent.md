@@ -28,7 +28,7 @@ Project ID：game-002。日期：2026-10-10。文档角色：QualifiedMaterial�
 ## 设计对象与 GDD 映射
 
 - 作用对象：行动卡的系统职责、设计初衷、内容方向、结果表达与玩家体验。
-- 目标：[行动卡 design](../../design/systems/action-card-system/design.md)与 [experience](../../design/systems/action-card-system/experience.md)。
+- 目标：[行动卡 design](../../system-design/action-card-system/design.md)与 [experience](../../system-design/action-card-system/experience.md)。
 - 建议章节：系统职责、单卡与协同、玩家判断、表达、机制—行为—体验及未知项。
 - 成熟度：GDD-0；具体规则沿现行条款，本轮不形成完整卡池、平衡表或 UI 规格。
 
@@ -69,7 +69,7 @@ Project ID：game-002。日期：2026-10-10。文档角色：QualifiedMaterial�
 | 法器运行工序，行动卡最终生效 | 区分工序完成、排队与真正打出效果 | 炼金／施法完成并发挥作用 |
 | 单卡用途清楚且可强力，标记提供卡牌联系 | 先理解单卡，再比较标记接续和支付用途 | 单次效果有分量，组合有可理解的取舍 |
 
-全部 Hypothesis / NotRun。完整体验链、继承的时序与支付观察及失败信号见[体验页](../../design/systems/action-card-system/experience.md)，具体示例沿独立文件。
+全部 Hypothesis / NotRun。完整体验链、继承的时序与支付观察及失败信号见[体验页](../../system-design/action-card-system/experience.md)，具体示例沿独立文件。
 
 ## 未知项与验证
 

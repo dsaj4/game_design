@@ -2,7 +2,7 @@
 
 2026-10-11 · CurrentSpec。状态与来源见[基准](../../baseline.md)。
 
-[系统入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md) · [示例](examples.md)
+[系统入口](README.md) · [规则](rules.md) · [玩家体验](../../../system-design/run-route/experience.md) · [设计](../../../system-design/run-route/design.md) · [示例](examples.md)
 
 
 

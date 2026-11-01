@@ -10,7 +10,7 @@
 
 ## 必需字段
 
-见[敌人内容字段](../systems/enemy-system/rules.md#必需字段)。遭遇节奏意图见[设计](../systems/enemy-system/design.md#遭遇节奏目标)，不把“双威胁”当每场必有的统一数量。
+见[敌人内容字段](../systems/enemy-system/rules.md#必需字段)。遭遇节奏意图见[设计](../../system-design/enemy-system/design.md#遭遇节奏目标)，不把“双威胁”当每场必有的统一数量。
 
 ## 首版内容约束
 
@@ -22,7 +22,7 @@
 
 ## 首版表现方向：秘仪与炼金
 
-方向、意象取材、图谱候选和出处核实见[敌人设计](../systems/enemy-system/design.md#表现方向与可调整部分)。具体出处尚未核实，图谱布局不是已定合同。
+方向、意象取材、图谱候选和出处核实见[敌人设计](../../system-design/enemy-system/design.md#表现方向与可调整部分)。具体出处尚未核实，图谱布局不是已定合同。
 
 ## 储备候选（数值Illustrative）
 

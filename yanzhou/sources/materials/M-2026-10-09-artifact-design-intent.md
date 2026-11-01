@@ -35,7 +35,7 @@ Project ID：game-002。日期：2026-10-09。文档角色：QualifiedMaterial�
 ## 设计对象与 GDD 映射
 
 - 作用对象：法器系统的存在理由、玩家选择、操作入口、信息表达与运行形态。
-- 目标：[法器 design](../../design/systems/artifact-system/design.md)与 [experience](../../design/systems/artifact-system/experience.md)。
+- 目标：[法器 design](../../system-design/artifact-system/design.md)与 [experience](../../system-design/artifact-system/experience.md)。
 - 建议章节：系统职责、选择与成本、器具表现、机制—行为—体验、未知与验证。
 - 成熟度：GDD-0。本轮不形成完整交互规格，不修改 rules 或发布美术资源。
 

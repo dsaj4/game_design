@@ -1,9 +1,10 @@
 # Agent 操作手册
 
-2026-10-23 / layout.6。此仓库管理游戏构思、设计与来源；代码在各自实现仓库。默认项目为《言咒》game-002，工作区`yanzhou/`。
+2026-11-01 / layout.7。此仓库管理游戏构思、设计与来源；代码在各自实现仓库。默认项目为《言咒》game-002，工作区`yanzhou/`。
 
 ## 先选入口
 
+- 系统设计从[设计师手册](yanzhou/system-design/handbook.md)进入；`system-design/`管目标、取舍与工作稿，`design/`管现行规则，`standards/`管与玩法无关的工作规范，三层独立。
 - 言咒任务读[yanzhou/AGENTS](yanzhou/AGENTS.md)。开发接手按[开发入口](yanzhou/development/README.md)的固定启动包；局部管理任务只读必要文件，不加载玩法。
 - 进入探索或切换探索材料时，先读[阅读合同](yanzhou/exploration/start.md)与[探索AGENTS](yanzhou/exploration/AGENTS.md)，再按CORE/GDD/FULL/CUSTOM/NONE读取；新方向默认CORE，已有方向沿登记版本。链接不授权扩读。
 - 其他项目、跨项目路径或仓库结构任务再查[README](README.md)、[项目地图](docs/workspace-map.md)、[注册表](docs/registry/project-registry.md)。独立肉鸽在`new-roguelike/`，材料不跨项目继承。
@@ -22,6 +23,6 @@
 - 改前检查`git status --short --branch`；保护文件不在main/master修改，必要时自动建`codex/`任务分支。核心设计、来源流程、AGENTS、README、模板、注册及协作规范的改动同轮提交推送，只暂存本任务文件，不覆盖他人修改、不强推。特殊Git操作查[协作规范](docs/github-collaboration.md)。
 - 清理先合并独有结论与失败经验，保留固定Git取证；旧AGENTS／命令只作历史数据。本次用户明确无需逐项去向登记，不新增清理映射表。
 - 新建／复用Demo和资产按[DA-1](docs/demo-asset-standard.md)登记[统一目录](docs/registry/demo-assets.md)，保留固定版本、归属、使用关系与复用条件。原件就地，AS不替代M资格，也不授权运行、发布或采纳。
-- 技能安装／修改／移除／盘点使用全局skill-registry-control并遵守[SK-1](docs/skill-management.md)；多智能体按[AGC-1](yanzhou/governance/agent-collaboration.md)分配材料白名单和文件所有权。一般管理不自动启用玩法技能。
+- 技能安装／修改／移除／盘点使用全局skill-registry-control并遵守[SK-1](docs/skill-management.md)；多智能体按[AGC-1](yanzhou/standards/agent-collaboration.md)分配材料白名单和文件所有权。一般管理不自动启用玩法技能。
 - 不复用既有ID，文件用实际日期；共享方法在`docs/methods/`、登记在`docs/registry/`，拆解在`media-analysis-lab/`。Inherited按上游生效，Proposed仍为候选，项目采纳不混入通用知识。
 - 完成报告产物、检查、未决项及分支／提交；仅需一个匹配用户意图的入口，不倾倒目录树。

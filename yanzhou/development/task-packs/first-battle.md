@@ -15,7 +15,7 @@
 | 回合与手牌 | [回合包](round-hand.md)，两组持牌、无H3、免费任意未开始列及列间确认 |
 | 承诺／打断 | [用途包](future-purpose.md)、[打断包](interruption-restart.md)，用途战前固定、待料调整不改当前批次，列间不生产 |
 | 恢复／终局 | EX-004 §8与[验收](../../design/validation.md#完整首场core-066--ex-004)，一实例一处，不重付／回收／生成后续 |
-| 展示 | [视觉文字基准](../../visual/baseline-2026-10-26/README.md)，手牌堆与三资源堆库存语义已被CORE-067替换；旧HTML只作原版本参考 |
+| 展示 | [视觉文字基准](../../system-design/presentation/interaction-contract.md)，手牌堆与三资源堆库存语义已被CORE-067替换；旧HTML只作原版本参考 |
 
 ## 正常故事与代价
 

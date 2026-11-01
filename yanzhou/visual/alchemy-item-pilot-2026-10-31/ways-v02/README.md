@@ -4,7 +4,7 @@
 
 ![五件物品与艺术卡面](E:/Project/yanzhou-art-assets/alchemy-item-pilot-2026-10-31/ways-v02/evidence/pilot-review.png)
 
-共用画法、提示词约束和验收以[Ways统一美术基准](../../README.md)为准；[统一基准板02](E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/production-v02/index.html)同时展示当前法器、物品、适配卡图、模板与整卡。本页保留材料队列、源件、实际生成与历史恢复职责。
+共用画法、提示词约束和验收以[Ways统一美术基准](../../../system-design/presentation/art-direction.md)为准；[统一基准板02](E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/production-v02/index.html)同时展示当前法器、物品、适配卡图、模板与整卡。本页保留材料队列、源件、实际生成与历史恢复职责。
 
 ## 本类制作约束
 

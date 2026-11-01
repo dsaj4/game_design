@@ -67,8 +67,8 @@ Project ID：game-002。文档角色：SourceRecord。日期：2026-10-08（Amer
 | CORE-054 已采纳的必需字段、首版无护甲／防护、不同拍到期、截击条件 | 从内容合同归位；不重新采纳，不外推为永久限制 | rules；内容页原章节保留导航 |
 | 锁定、落空、共同拍序、终局、返工、信息与恢复 | 只整理敌人所需接口与权威链接，不另设通用结算规则 | rules；权威仍在行动卡／法器／交互 |
 | 窗口相对式 | Derived；写清空闲、有料、有位和无排队前提 | rules；具体分支进入 examples |
-| 压力改变选择、关键威胁节奏、秘仪与炼金及取材边界 | 既有方向保留；图谱页为候选，史实未核实 | [design](../../design/systems/enemy-system/design.md) |
-| 机制—行为—体验及观察方式 | 从既有 Qualified 材料的假设和风险展开；无玩家结果 | [experience](../../design/systems/enemy-system/experience.md)，NotRun |
+| 压力改变选择、关键威胁节奏、秘仪与炼金及取材边界 | 既有方向保留；图谱页为候选，史实未核实 | [design](../../system-design/enemy-system/design.md) |
+| 机制—行为—体验及观察方式 | 从既有 Qualified 材料的假设和风险展开；无玩家结果 | [experience](../../system-design/enemy-system/experience.md)，NotRun |
 | 揭示、截止、锁定零值／并列／无施法、危险续开、致死、地域符号 | 六组已采纳规则说明，含失败边界；不新增数值与验收身份 | [examples](../../design/systems/enemy-system/examples.md)，Derived / NotRun |
 | 绿狮、万溶之液、雷比斯及后续形态 | 保留候选、Illustrative 与 Park／Exclude 状态，具体程序表不改 | [内容目录](../../design/content/enemies-encounters.md) |
 | 玩家／敌人均可持正负标记，实有层数与未来预告分开 | 只引用已登记的局部 Qualified 接口；不解除首版限制 | rules 的 Qualified 引用及标记权威页 |

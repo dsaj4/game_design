@@ -7,7 +7,7 @@
 | 字段 | 内容 |
 | --- | --- |
 | 素材ID | MAT-2026-11-01-shared-backpack-direction |
-| 输入来源 | [意图、确认摘要及共同输入版本](../inbox/2026-11-01-shared-backpack-system-design.md#1-用户意图和已确认决定)，仅Q1—Q8已确认决定；该页其余Raw候选不在本素材资格内 |
+| 输入来源 | [意图、确认摘要及共同输入版本](../../system-design/backpack/shared-backpack-design.md#1-用户意图和已确认决定)，仅Q1—Q8已确认决定；该页其余Raw候选不在本素材资格内 |
 | 资格确认日期／方式 | 2026-11-01；grill-with-docs，按仓库批量澄清，用户逐项确认或明确纠正 |
 | 当前证据 | Hypothesis / NotRun；没有实现、平衡或玩家理解证据 |
 | 责任 | 用户确定系统目标与取舍，agent整理限定来源及后续设计 |

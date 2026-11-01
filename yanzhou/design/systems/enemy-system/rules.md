@@ -1,6 +1,6 @@
 # 敌人系统：规则
 
-2026-10-27 · CurrentSpec / CORE-065 round-hand.1，SYS-005。[基准](../../baseline.md) · [设计](design.md) · [体验](experience.md) · [示例](examples.md)
+2026-10-27 · CurrentSpec / CORE-065 round-hand.1，SYS-005。[基准](../../baseline.md) · [设计](../../../system-design/enemy-system/design.md) · [体验](../../../system-design/enemy-system/experience.md) · [示例](examples.md)
 
 ## TL-16 敌方程序约束
 

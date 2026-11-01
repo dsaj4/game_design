@@ -1,6 +1,6 @@
 # 当前开发输入与资产接入
 
-2026-10-31入口更新 · game-002 · ReadinessReview。这里回答资产在哪、哪版已用、哪些条件仍未知；当前能力只在[开发索引](README.md)汇总。桌面运行源件沿既有记录，卡牌／材料物品／法器沿[Ways统一美术基准02](../visual/README.md)。布局与交互仍按独立设计合同，不因选定美术而改变。
+2026-10-31入口更新 · game-002 · ReadinessReview。这里回答资产在哪、哪版已用、哪些条件仍未知；当前能力只在[开发索引](README.md)汇总。桌面运行源件沿既有记录，卡牌／材料物品／法器沿[Ways统一美术基准02](../system-design/presentation/art-direction.md)。布局与交互仍按独立设计合同，不因选定美术而改变。
 
 ## 现在优先查什么
 
@@ -32,7 +32,7 @@
 
 新2D可能复用规则语义、插图、字体或声音，但需逐项确认尺寸、层级、输入命中与运行成本；3D的通过状态不能直接复制。模型数量、槽位、抽屉形状、渲染中的筹码与暗牌位置不产生新的游戏参数或公开资格。
 
-具体要求见[开发规范第5节](development-standard.md#5-资产接入)、[制作小循环](iteration-spec.md)与[工作台展示](workbench-spec.md)。
+具体要求见[开发规范第5节](../standards/development-standard.md#5-资产接入)、[制作小循环](../standards/iteration-spec.md)与[工作台展示](../standards/workbench-spec.md)。
 
 ## 历史输入与原说明
 

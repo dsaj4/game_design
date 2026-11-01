@@ -82,7 +82,7 @@ Project ID：game-002。文档角色：SourceRecord。日期：2026-10-09（Amer
 
 ## 写入与后续集成
 
-本轮写入 [法器设计](../../design/systems/artifact-system/design.md)、[法器体验](../../design/systems/artifact-system/experience.md)与本来源／M，状态清楚区分 Qualified、Inherited / Accepted、Derived、Hypothesis / NotRun。原已采纳条款保持不变。
+本轮写入 [法器设计](../../system-design/artifact-system/design.md)、[法器体验](../../system-design/artifact-system/experience.md)与本来源／M，状态清楚区分 Qualified、Inherited / Accepted、Derived、Hypothesis / NotRun。原已采纳条款保持不变。
 
 供统筹后续处理的增量：README／总索引可增加“程序实现、决策重心”及本 M 导航，source-review 可登记本次 Include；若将法器操作入口、摘要／详情与形态方案采纳为 CurrentSpec，需明确目标交互／信息条款并沿项目采纳流程办理。共享 CONTEXT、核心摘要、questions、decision-log、source-review 本轮只读，不另造采纳记录。
 

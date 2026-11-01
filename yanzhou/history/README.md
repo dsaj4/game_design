@@ -16,13 +16,13 @@ Project ID：game-002。文档角色：HistoricalNavigation。2026-11-01更新�
 
 旧3D工程HEAD为`c7d861c3b88b887eb638e3797be2dbf7a9245886`；原接手与失败总结位于归档内`yanzhou-godot/docs/development-handoff.md`，更早合并依据为其Git提交`cc8c229fe89d85a51e739efc0111a54d139fff1a`。原0.4运行`9c50458a56a38f0c6ebd001d9e6a3ef34382adaa`、B07组合`e0077ffa10d22ad1c9dd91e8037aa2c021409098`、B13运行`e975de8bdbbe70591d4099c34b799e76c4bff1d7`及其manifest、报告和技术ADR均随原Git与文件保留；旧登记的原路径须先恢复再访问。
 
-继续有效的独有经验：B07正式600秒测量出现113.127ms尖峰Fail，507.172秒与116.001秒中断不能拼成通过；30秒或预加载诊断不能代替长测。B13只证明限定资产适配／检视，不证明OS实体输入、完整新单战、听感或视觉接受；原UE Shader／Blueprint／Niagara未完整移植，FuncCardBack用途及第三方再分发条件仍Unknown。源几何、材质可编辑性和引擎呈现须分开检查；运行过曝、透明排序、中文行高及真实点击几何先在发生层修复。更具体的恢复游标、资产生命周期、PCM与工具误判经验保留于归档接手正文，不外推为新2D已验证。共通制作规范仍在[开发规范](../development/development-standard.md#制作与验证经验)。
+继续有效的独有经验：B07正式600秒测量出现113.127ms尖峰Fail，507.172秒与116.001秒中断不能拼成通过；30秒或预加载诊断不能代替长测。B13只证明限定资产适配／检视，不证明OS实体输入、完整新单战、听感或视觉接受；原UE Shader／Blueprint／Niagara未完整移植，FuncCardBack用途及第三方再分发条件仍Unknown。源几何、材质可编辑性和引擎呈现须分开检查；运行过曝、透明排序、中文行高及真实点击几何先在发生层修复。更具体的恢复游标、资产生命周期、PCM与工具误判经验保留于归档接手正文，不外推为新2D已验证。共通制作规范仍在[开发规范](../standards/development-standard.md#制作与验证经验)。
 
 当前二维需要的两字体／OFL已独立保留，Godot工具迁出到二维工程ignored目录；工作台连接同步二维路径。仅做字节、依赖、文档和路径核对，未启动旧Demo或新玩法实验。
 
 ## 治理历史
 
-2026-11-01收口此前未提交的审查报告删除：[设计系统审查原文](https://github.com/dsaj4/game_design/blob/a8ab68998aa5ac588f93ef56a556d3c41293f8e2/yanzhou/governance/design-system-review-2026-10-23.md)保留统计、TL-07义务对照与EX-002失败／恢复试排。现用方法及“精简不等于等义／理解通过”的限制已并入[场景审阅](../development/design-review.md#文档整理的保真要求)；原版本的规则、建议、未验证状态和样例不升级为现行合同。
+2026-11-01收口此前未提交的审查报告删除：[设计系统审查原文](https://github.com/dsaj4/game_design/blob/a8ab68998aa5ac588f93ef56a556d3c41293f8e2/yanzhou/governance/design-system-review-2026-10-23.md)保留统计、TL-07义务对照与EX-002失败／恢复试排。现用方法及“精简不等于等义／理解通过”的限制已并入[场景审阅](../standards/design-review.md#文档整理的保真要求)；原版本的规则、建议、未验证状态和样例不升级为现行合同。
 
 2026-10-23精简前的[完整治理目录](https://github.com/dsaj4/game_design/tree/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance)保留旧决策、编号、审查复盘、清理报告与输入附件，包含原来源及仓库外恢复线索。按原文件名／章节取证，不再复制历史目录或维护清理映射。当前职责见[治理入口](../governance/README.md)。
 

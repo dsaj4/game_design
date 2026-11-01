@@ -1,6 +1,6 @@
 # 启动探索：选择模型能读的材料
 
-Project ID：game-002-optimization。文档角色：ExplorationReadingContract。修订：READ-1 / documentation.5 / 2026-10-24。依据G002-DOC-008、G002-DOC-012、G002-DOC-013、G002-DOC-014、G002-DOC-027及G002-DOC-028。适用于言咒新方向和显式切换阅读范围；方向存储仍是一文件夹一README。
+Project ID：game-002-optimization。文档角色：ExplorationReadingContract。修订：READ-1 / documentation.6 / 2026-11-01。依据G002-DOC-008、012、013、014、027、028及033。适用于言咒新方向和显式切换阅读范围；方向存储仍是一文件夹一README。此次目录迁移只更新当前预设，旧方向固定提交与清单不自动换版。
 
 ## 直接这样说
 
@@ -37,7 +37,7 @@ Project ID：game-002-optimization。文档角色：ExplorationReadingContract�
 | --- | --- | --- | --- |
 | CORE／核心设计 | 仅`yanzhou/design/GDD.md` | 理解循环、系统关系、核心取舍与当前范围，提出方向构思 | 系统细则、逐卡参数、主系统来源、历史、其他方向 |
 | GDD／完整GDD | 下表列出的54份GDD包文件 | 对照现行细则、卡牌、资源、遭遇和交互提出具体增量 | GDD链接到的原始素材、历史、FX目录、开发与视觉材料、其他方向 |
-| FULL／全量文档／全量主系统文档 | `yanzhou/`根README与CONTEXT，以及`design/`、`sources/`、`effects/`、`governance/`、`development/`、`visual/`下全部已登记文本材料；以后新增主系统资料目录须先登记 | 同时核对现行设计、形成原因、候选来源、证据与表现约束 | `history/`、`exploration/`其他方向、外部代码仓库、共享资料库、独立肉鸽、旧游戏、联网获取 |
+| FULL／全量文档／全量主系统文档 | `yanzhou/`根README与CONTEXT，以及`design/`、`system-design/`、`standards/`、`sources/`、`governance/`、`development/`、`visual/`下全部已登记文本材料；以后新增主系统资料目录须先登记 | 同时核对现行设计、形成原因、候选来源、证据与表现约束 | `history/`、`exploration/`其他方向、外部代码仓库、共享资料库、独立肉鸽、旧游戏、联网获取 |
 | CUSTOM／自选材料 | 用户明确列出的文件、章节、目录或已提供材料；不隐含CORE或GDD | 控制变量、只讨论某系统、指定研究材料 | 未列出的全部游戏材料 |
 | NONE／空白背景 | 仅本轮用户输入；续作仍能使用所选方向明确保留的自身记录 | 不借用言咒规则提出独立构思；纯空白须使用新方向 | 任何游戏文档；不得声称与现行基线兼容 |
 
@@ -50,15 +50,15 @@ GDD不是只读主页后就算全读，也不是递归打开所有链接。当�
 | 范围 | 路径 |
 | --- | --- |
 | GDD、导航、版本 | `yanzhou/design/GDD.md`、`yanzhou/design/README.md`、`yanzhou/design/baseline.md` |
-| 五个已展开主系统（20份） | `yanzhou/design/systems/` 下 `artifact-system/`、`inscription-system/`、`action-card-system/`、`enemy-system/`、`resource-system/` 各自的 `rules.md`、`experience.md`、`design.md`、`examples.md`，仅此固定组合 |
+| 五个已展开主系统（20份） | `yanzhou/design/systems/`下`artifact-system/`、`inscription-system/`、`action-card-system/`、`enemy-system/`、`resource-system/`各自的`rules.md`、`examples.md`（10份）；`yanzhou/system-design/`下同名五目录各自的`design.md`、`experience.md`（10份），仅此固定组合 |
 | 局外成长占位（1份） | `yanzhou/design/systems/meta-progression-system/README.md`，仅说明未设计与已有边界 |
-| 两个子系统（8份） | `yanzhou/design/systems/inscription-system/augment-system/` 与 `yanzhou/design/systems/action-card-system/mark-system/` 各自的 `rules.md`、`experience.md`、`design.md`、`examples.md`；辅助道具已按CORE-069限定采纳替换辅槽；标记通用框架及未采纳扩展保持原资格，状态不随纳入阅读包改变 |
-| 公共流程／合同（12份） | `yanzhou/design/common/` 下 `run-route/`、`run-economy/`、`interaction-save/` 各自的 `rules.md`、`experience.md`、`design.md`、`examples.md` |
+| 两个子系统（8份） | `yanzhou/design/systems/inscription-system/augment-system/`与`yanzhou/design/systems/action-card-system/mark-system/`各自的`rules.md`、`examples.md`（4份）；`yanzhou/system-design/augment-system/`与`yanzhou/system-design/mark-system/`各自的`design.md`、`experience.md`（4份）。辅助道具按CORE-069限定采纳；标记通用框架及未采纳扩展保持原资格 |
+| 公共流程／合同（12份） | `yanzhou/design/common/`下`run-route/`、`run-economy/`、`interaction-save/`各自的`rules.md`、`examples.md`（6份）；`yanzhou/system-design/`下同名三目录各自的`design.md`、`experience.md`（6份） |
 | 内容 | `yanzhou/design/content/cards.md`、`yanzhou/design/content/wands.md`、`yanzhou/design/content/enemies-encounters.md` |
 | 跨系统案例（5份） | `yanzhou/design/examples/README.md`、`yanzhou/design/examples/simple-spell.md`、`yanzhou/design/examples/complete-battle.md`、`yanzhou/design/examples/round-hand.md`、`yanzhou/design/examples/round-first-battle.md` |
 | 参数与验收 | `yanzhou/design/parameters.md`、`yanzhou/design/validation.md`；来源审查不属于规则正文包，追因时另行选入 |
 
-文件改名或GDD包新增正文时同步此表。除上述局外占位，系统README与systems/README.md是导航，读取它们不替代正文；以后新增目录不自动进入本包。`core-design.md`、`core-concept.md`和`legacy-index.md`不是补读GDD包的必要材料；包内链接到的sources、CONTEXT、历史及代码进度都不自动加载。只读核心GDD记CORE（明确自选文件时也可CUSTOM），局部分册记CUSTOM，均不能报告“完整GDD已读”。
+文件改名或GDD包新增正文时同步此表。此次仍为54份，保留原规则、理由、体验及案例覆盖；system-design中的总手册、炼金分册、工作稿、效果目录和standards不因平级迁移自动进入GDD包，需FULL或明确CUSTOM授权。除上述局外占位，系统README与systems/README.md是导航，读取它们不替代正文；以后新增目录不自动进入本包。`core-design.md`、`core-concept.md`和`legacy-index.md`不是补读GDD包的必要材料；包内链接到的sources、CONTEXT、历史及代码进度都不自动加载。只读核心GDD记CORE（明确自选文件时也可CUSTOM），局部分册记CUSTOM，均不能报告“完整GDD已读”。
 
 ## 先定范围，再读游戏正文
 

@@ -45,7 +45,7 @@ R9提供多阶材料进入兑现的用途结构；R7规定性质／最低阶级�
 ## 设计对象与GDD映射
 
 - 作用对象：资源系统设计定位与体验；背包、属性分级、环境基础加工候选。
-- 目标：[资源设计](../../design/systems/resource-system/design.md)、[资源体验](../../design/systems/resource-system/experience.md)及相关规则；若后续采纳，还需同步法器、铭文、行动卡、局内经济与交互合同。
+- 目标：[资源设计](../../system-design/resource-system/design.md)、[资源体验](../../system-design/resource-system/experience.md)及相关规则；若后续采纳，还需同步法器、铭文、行动卡、局内经济与交互合同。
 - 建议GDD章节：1产品体验、2核心循环、4系统、7卡牌与组合、8经济、10引导、11可读性。
 - 对应完成度：GDD-0素材；未达到可冻结执行的GDD-1。
 

@@ -75,7 +75,7 @@ Project ID：game-002。文档角色：SourceRecord。日期：2026-10-10（Amer
 
 ## 写入与后续
 
-本轮只写本来源、[合格素材](../materials/M-2026-10-10-action-card-design-intent.md)、[行动卡设计](../../design/systems/action-card-system/design.md)与[行动卡体验](../../design/systems/action-card-system/experience.md)。设计页补职责、初衷、内容取舍与表达建议，体验页补行为链、失败信号与观察方法。原有时序／支付内容和观察线索保留。
+本轮只写本来源、[合格素材](../materials/M-2026-10-10-action-card-design-intent.md)、[行动卡设计](../../system-design/action-card-system/design.md)与[行动卡体验](../../system-design/action-card-system/experience.md)。设计页补职责、初衷、内容取舍与表达建议，体验页补行为链、失败信号与观察方法。原有时序／支付内容和观察线索保留。
 
 规则、示例、相邻系统与共享索引保持原样。CORE-055—058 作为现行前提，历史来源中的同拍总序等 Unknown 不重新写回。Qualified 意图、Derived 解释和 Hypothesis / NotRun 分开记录。
 

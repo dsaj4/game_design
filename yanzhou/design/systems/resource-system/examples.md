@@ -2,7 +2,7 @@
 
 2026-10-31 · ExampleSet / CORE-068。通用规则情境／Derived，执行NotRun。
 
-[入口](README.md) · [规则](rules.md) · [玩家体验](experience.md) · [设计](design.md) · [示例](examples.md)
+[入口](README.md) · [规则](rules.md) · [玩家体验](../../../system-design/resource-system/experience.md) · [设计](../../../system-design/resource-system/design.md) · [示例](examples.md)
 
 ## 首批案例
 

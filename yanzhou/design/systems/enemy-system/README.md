@@ -5,8 +5,8 @@
 | 阅读目的 | 文件 |
 | --- | --- |
 | 查当前行为 | [规则](rules.md) |
-| 了解设计理由 | [设计](design.md) |
-| 看体验目标与失败信号 | [体验](experience.md) |
+| 了解设计理由 | [设计](../../../system-design/enemy-system/design.md) |
+| 看体验目标与失败信号 | [体验](../../../system-design/enemy-system/experience.md) |
 | 看具体情境 | [示例](examples.md) |
 
 [状态与来源](../../baseline.md) · [集中问题](../../../governance/questions.md)（TL-Q05／06／08／10、FB-Q01）

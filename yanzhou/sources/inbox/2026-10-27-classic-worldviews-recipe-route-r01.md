@@ -1,6 +1,6 @@
 # 炼金第一批内容确认与研究入口
 
-2026-11-01更新 · game-002《言咒》。准则与工作方法统一在[炼金内容设计手册](2026-10-31-alchemy-design-handbook-r01.md)，[详细HTML 02](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-handbook-r02.html)同步全部解释文案；[R09展示页](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html)增加32材料＋11产物的卡面短说明、图鉴解释与检索。仅补文案，原配方／效果／空间不变，R08与详细HTML 01原件保留。具体文案及感官表现为Raw候选，B01资格不扩展；以下保留旧轮次的确认与取证范围。
+2026-11-01更新 · game-002《言咒》。准则与工作方法统一在[炼金内容设计手册](../../system-design/alchemy/handbook.md)，[详细HTML 02](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-handbook-r02.html)同步全部解释文案；[R09展示页](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html)增加32材料＋11产物的卡面短说明、图鉴解释与检索。仅补文案，原配方／效果／空间不变，R08与详细HTML 01原件保留。具体文案及感官表现为Raw候选，B01资格不扩展；以下保留旧轮次的确认与取证范围。
 
 ## 1. 2026-10-27确认与资格
 

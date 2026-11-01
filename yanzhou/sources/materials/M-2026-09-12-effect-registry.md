@@ -16,7 +16,7 @@
 
 ## 规范化表述
 
-建立[效果注册与理清系统](../../effects/README.md)。已有系统继续规定框架性约束；登记系统为已有案例和后续新增效果分配稳定ID，按行为分类，说明来源、触发、对象、改变量、时间、成本、顺序、叠加、失败、结束及依赖。主动登记用户以后讨论的效果，区分已确认、候选、未决与后置；具体语义和测试输入未闭合时不作为实现规格交接。只从设计上检查未来实现能否获得一致且完整的输入，不产出代码或具体架构方案。
+建立[效果注册与理清系统](../../system-design/effects/README.md)。已有系统继续规定框架性约束；登记系统为已有案例和后续新增效果分配稳定ID，按行为分类，说明来源、触发、对象、改变量、时间、成本、顺序、叠加、失败、结束及依赖。主动登记用户以后讨论的效果，区分已确认、候选、未决与后置；具体语义和测试输入未闭合时不作为实现规格交接。只从设计上检查未来实现能否获得一致且完整的输入，不产出代码或具体架构方案。
 
 ## 设计对象与 GDD 映射
 
@@ -37,7 +37,7 @@
 - 支持：战前构句、自动求值、同词复用与可观察世界变化。
 - 依赖：[核心](../../design/core-concept.md)、GR v1、状态与对象框架、类型、Modifier v0.1、IN-A／IN-C、四层数值框架。
 - 可能冲突：把类型案例误当合法效果、把范围授权当完整词义、重复维护两份规则；由登记门槛与权威来源约束处理。
-- 相关资料：[效果目录](../../effects/catalog.md)、[案例覆盖](../../effects/case-coverage.md)、[固定交接](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/test-handoff.md)。
+- 相关资料：[效果目录](../../system-design/effects/catalog.md)、[案例覆盖](../../system-design/effects/case-coverage.md)、[固定交接](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/test-handoff.md)。
 - 明确不包含：代码／具体架构、自动启动测试、未授权玩法采纳、恢复Parked方案或新增玩家配置权限。
 
 ## 机制—行为—体验假设
@@ -68,7 +68,7 @@
 
 | 日期 | GDD／Proposal或协作入口 | 章节／版本 | 处理结果 | 备注 |
 | --- | --- | --- | --- | --- |
-| 2026-09-12 | [效果系统](../../effects/README.md)、工作区AGENTS、设计流程与测试交接 | ER v0.1／TH-002 r7 | Included | 用户明确授权的工作流；没有新GDD／Proposal或游戏核心变更 |
+| 2026-09-12 | [效果系统](../../system-design/effects/README.md)、工作区AGENTS、设计流程与测试交接 | ER v0.1／TH-002 r7 | Included | 用户明确授权的工作流；没有新GDD／Proposal或游戏核心变更 |
 
 
 ## 2026-09-14 全游戏GDD使用记录

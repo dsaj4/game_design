@@ -35,7 +35,7 @@
 | [交互TL-17—19／36、CORE-060—064](../../design/common/interaction-save/rules.md) | 调整受理、暂停、保存、暗牌及现有桌面呈现 |
 | [卡牌内容](../../design/content/cards.md)、[敌人内容](../../design/content/enemies-encounters.md)、[参数](../../design/parameters.md) | 真实输入、缺失卡池及新字段；不擅造新敌表 |
 | [EX-001](../../design/examples/simple-spell.md)、[EX-002](../../design/examples/complete-battle.md)、[验收](../../design/validation.md) | 限定旧例和受影响预期；EX-002的冻结上游不改用最新 |
-| [用途包](../../development/task-packs/future-purpose.md)、[打断包](../../development/task-packs/interruption-restart.md)、[场景审阅](../../development/design-review.md) | 正常故事、失败代价及采纳后的派生同步 |
+| [用途包](../../development/task-packs/future-purpose.md)、[打断包](../../development/task-packs/interruption-restart.md)、[场景审阅](../../standards/design-review.md) | 正常故事、失败代价及采纳后的派生同步 |
 
 流程使用[设计流程](../../../docs/design-workflow.md)、[模板索引](../../../game-design-workflow/templates/README.md)及对应五类模板、[Git规范](../../../docs/github-collaboration.md)。未读代码、未运行游戏／模拟器／玩法实验；未使用工作区其他人的未提交探索材料。不读取新探索方向，不建立第二套问题数据库。
 

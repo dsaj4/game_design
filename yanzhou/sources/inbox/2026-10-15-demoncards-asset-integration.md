@@ -12,7 +12,7 @@
 
 用户原话：「再查一下还有什么可用资源可以接入，后续开发时优先使用现成资源」。明确要求继续盘点并将复用作为后续开发默认；不等于要求把所有发现的候选立即接入或替换现有成品。
 
-执行为只读核对本机原包、固定组件源库及当前运行依赖，按证据和适配成本列候选；具体[追加清单（Git原文）](E:/Project/yanzhou-godot/docs/development-handoff.md#追溯与日常记录 "git show cc8c229fe89d85a51e739efc0111a54d139fff1a:docs/coordination/2026-10-15-existing-assets.md")留实现仓库。后续先用已有运行资产和固定源库，核实原游戏候选，只有真实缺口才新建/生成，规则写入[开发规范第5节](../../development/development-standard.md#5-资产接入)。设计仍由原设计对接负责，源件与旧交付保留，不新增玩法资格或公开发布授权。
+执行为只读核对本机原包、固定组件源库及当前运行依赖，按证据和适配成本列候选；具体[追加清单（Git原文）](E:/Project/yanzhou-godot/docs/development-handoff.md#追溯与日常记录 "git show cc8c229fe89d85a51e739efc0111a54d139fff1a:docs/coordination/2026-10-15-existing-assets.md")留实现仓库。后续先用已有运行资产和固定源库，核实原游戏候选，只有真实缺口才新建/生成，规则写入[开发规范第5节](../../standards/development-standard.md#5-资产接入)。设计仍由原设计对接负责，源件与旧交付保留，不新增玩法资格或公开发布授权。
 
 ## 同日继续：全部候选适配
 

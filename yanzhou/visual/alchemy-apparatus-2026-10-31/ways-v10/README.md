@@ -1,6 +1,6 @@
 # 炼金法器 · Ways源件与制作
 
-2026-10-31 · game-002 / main · **AS-G002-036 / ALCHEMY-APPARATUS-10**。用户已选定当前Ways画风；共用画法、提示词约束和验收以[Ways统一美术基准](../../README.md)为准，本页保存两件源图、实际生成来源与法器边界。
+2026-10-31 · game-002 / main · **AS-G002-036 / ALCHEMY-APPARATUS-10**。用户已选定当前Ways画风；共用画法、提示词约束和验收以[Ways统一美术基准](../../../system-design/presentation/art-direction.md)为准，本页保存两件源图、实际生成来源与法器边界。
 
 **[查看统一基准板02](E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/production-v02/index.html)**。新增已选完整卡面与适配卡图，当前法器源PNG保持原字节，没有重绘或像素处理；制作规格集中在统一基准。
 

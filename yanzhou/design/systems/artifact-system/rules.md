@@ -1,6 +1,6 @@
 # 法器系统：规则
 
-2026-10-31 · CurrentSpec / CORE-069 spatial-auxiliaries.1，继承CORE-068，TL-03—07／38沿SYS-002，TL-45沿SYS-001。[基准](../../baseline.md) · [设计](design.md) · [体验](experience.md) · [示例](examples.md)
+2026-10-31 · CurrentSpec / CORE-069 spatial-auxiliaries.1，继承CORE-068，TL-03—07／38沿SYS-002，TL-45沿SYS-001。[基准](../../baseline.md) · [设计](../../../system-design/artifact-system/design.md) · [体验](../../../system-design/artifact-system/experience.md) · [示例](examples.md)
 
 ## TL-03 一批生产的可见状态
 

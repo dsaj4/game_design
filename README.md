@@ -4,14 +4,15 @@
 
 | 我想做什么 | 入口 |
 | --- | --- |
+| 查看所有系统的设计目标、体验与取舍 | [言咒系统设计手册](yanzhou/system-design/handbook.md) |
 | 了解游戏 | [核心设计](yanzhou/design/core-design.md) |
 | 查询正式规则 | [GDD与系统目录](yanzhou/design/README.md) |
 | 探索新方案 | [方向与阅读选择](yanzhou/exploration/README.md) |
 | 处理当前问题 | [问题清单](yanzhou/governance/questions.md) |
 | 查看实现与验证 | [开发索引](yanzhou/development/README.md) |
-| 查设计／开发规范 | [规范体系](yanzhou/development/development-standard.md) · [小循环](yanzhou/development/iteration-spec.md) |
-| 看懂开发还差什么 | [开发解释](yanzhou/development/development-guide.md) |
-| 使用 Mr. Mak 工作台 | [言咒开发工作台](yanzhou/development/workspace.md) |
+| 查设计／开发工作规范 | [独立规范层](yanzhou/standards/README.md) |
+| 看懂开发还差什么 | [开发解释](yanzhou/standards/development-guide.md) |
+| 使用 Mr. Mak 工作台 | [言咒开发工作台](yanzhou/standards/workspace.md) |
 
 [项目地图](docs/workspace-map.md) · [独立肉鸽](new-roguelike/README.md) · [设计流程](docs/design-workflow.md) · [贡献与协作](CONTRIBUTING.md)
 
@@ -21,4 +22,4 @@
 
 复用参考：[Demo与素材目录](docs/registry/demo-assets.md) · [登记与复用规范](docs/demo-asset-standard.md)。文件保留原位，按项目/方向、版本和用途关联。
 
-协作工具：[Skill管理规范](docs/skill-management.md) · [项目Skill清单](docs/registry/project-skills.md) · [言咒多智能体分工](yanzhou/governance/agent-collaboration.md)。
+协作工具：[Skill管理规范](docs/skill-management.md) · [项目Skill清单](docs/registry/project-skills.md) · [言咒多智能体分工](yanzhou/standards/agent-collaboration.md)。

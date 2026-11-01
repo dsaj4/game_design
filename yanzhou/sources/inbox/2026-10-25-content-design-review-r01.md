@@ -14,11 +14,11 @@
 
 本轮沿既有CUSTOM，三个直接审查对象共用提交 `bda52b5e0da5b107ba9407d198356c77efe8dcc8`：
 
-- [效果语言R01](2026-10-24-content-design-language-r01.md)，全文，简称“语言”。
-- [物件信息R01](2026-10-24-content-object-information-r01.md)，全文，简称“信息”。
-- [世界观与属性体系R01](2026-10-24-content-world-systems-r01.md)，全文，简称“世界”。
+- [效果语言R01](../../system-design/content/design-language.md)，全文，简称“语言”。
+- [物件信息R01](../../system-design/content/object-information.md)，全文，简称“信息”。
+- [世界观与属性体系R01](../../system-design/content/world-systems.md)，全文，简称“世界”。
 
-[工作框架](2026-10-24-content-design-framework.md)全文沿 `d890b1f9c15300ec07c3fbc75f5d86faa1f55704`。其中分类／属性的早期表述，由本聊天后续已确认决定更新，不能再把框架的“内容家族”或“炼金尚未选定”当作当前决定；本轮不改其他责任人的框架源稿。
+[工作框架](../../system-design/content/framework.md)全文沿 `d890b1f9c15300ec07c3fbc75f5d86faa1f55704`。其中分类／属性的早期表述，由本聊天后续已确认决定更新，不能再把框架的“内容家族”或“炼金尚未选定”当作当前决定；本轮不改其他责任人的框架源稿。
 
 规则仍沿 `1ca8c2647439741d8993880183102459ae730984`。本次直接复核[行动规则](../../design/systems/action-card-system/rules.md)TL-44、TL-11、TL-29、TL-30及相邻适用说明、[标记规则](../../design/systems/action-card-system/mark-system/rules.md)全文、[铭文规则](../../design/systems/inscription-system/rules.md)TL-26、28、39—41、[法器规则](../../design/systems/artifact-system/rules.md)加工时间公式与TL-05、07、38、[卡牌内容合同](../../design/content/cards.md)与[法器内容合同](../../design/content/wands.md)全文，以及[EX-004](../../design/examples/round-first-battle.md)初态、配置、行动支付及适用边界。其余沿本聊天已有背景，不以未读部分作新证据。没有扩读其他方向、A表现、C经济或实现；没有重做外部历史／原作研究。
 

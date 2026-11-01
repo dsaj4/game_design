@@ -35,4 +35,4 @@
 
 ## WS-007 / 2026-10-02 / Accepted · Workspace Administration
 
-按用户本轮明确请求，直接沿用全局 skill-registry-control，建立[SK-1](skill-management.md)、[项目安装清单](registry/project-skills.md)与[AGC-1 多智能体协作](../yanzhou/governance/agent-collaboration.md)。经[来源及边界审查](skills/2026-10-02-game-design-skill-review.md)安装 game-design-reality-check 和 gdd-toolkit 的项目适配版，保留原有两项技能。此决定不启动后台协作，不采纳玩法，不引入上游 CLI/hooks 或第二套文档库。
+按用户本轮明确请求，直接沿用全局 skill-registry-control，建立[SK-1](skill-management.md)、[项目安装清单](registry/project-skills.md)与[AGC-1 多智能体协作](../yanzhou/standards/agent-collaboration.md)。经[来源及边界审查](skills/2026-10-02-game-design-skill-review.md)安装 game-design-reality-check 和 gdd-toolkit 的项目适配版，保留原有两项技能。此决定不启动后台协作，不采纳玩法，不引入上游 CLI/hooks 或第二套文档库。

@@ -1,8 +1,8 @@
 # 公共流程与合同
 
-Project ID：game-002。文档角色：Navigation。修订：2026-10-08 / system-catalog.2。
+Project ID：game-002。文档角色：Navigation。修订：2026-11-01 / system-catalog.3。
 
-每个目录同样采用 README、rules、experience、design、examples 五文件分工，示例单独存储。
+本层维护rules与规则examples；设计理由和体验已移至平级的[系统设计层](../../system-design/handbook.md)，不再要求每目录五文件。
 
 以下内容连接多个主系统，保留已有规则；不与六个主系统并列，也不作为尚未开发的局外成长规格。
 

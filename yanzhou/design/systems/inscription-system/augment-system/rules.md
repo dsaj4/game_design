@@ -1,6 +1,6 @@
 # 辅助道具：规则
 
-2026-10-31 · CurrentSpec / CORE-069 spatial-auxiliaries.1。[采纳依据](../../../../sources/draft-changes/D-2026-10-31-spatial-auxiliaries.md) · [设计](design.md) · [体验](experience.md) · [示例](examples.md)。沿用augment-system路径，现行实体已替换辅槽；旧标记付费等扩展仍按其原资格及具体内容启用。
+2026-10-31 · CurrentSpec / CORE-069 spatial-auxiliaries.1。[采纳依据](../../../../sources/draft-changes/D-2026-10-31-spatial-auxiliaries.md) · [设计](../../../../system-design/augment-system/design.md) · [体验](../../../../system-design/augment-system/experience.md) · [示例](examples.md)。沿用augment-system路径，现行实体已替换辅槽；旧标记付费等扩展仍按其原资格及具体内容启用。
 
 ## 1. 装配与作用归属
 

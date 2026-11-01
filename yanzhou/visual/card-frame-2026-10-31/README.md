@@ -1,6 +1,6 @@
 # 卡片边框 · Ways参考首版
 
-当前制作采用[完整卡面基准02](complete-v02/README.md)：深褐薄边、上部卡图窗与下部独立名称板；同一模板五件试配，中文名称真实排字。02已由用户选入[统一美术基准](../README.md)，下文01金色窄框及原包仅保留历史生成与检查用途；文中的PendingReview按01当时状态解释，不作为后续制作入口。
+当前制作采用[完整卡面基准02](complete-v02/README.md)：深褐薄边、上部卡图窗与下部独立名称板；同一模板五件试配，中文名称真实排字。02已由用户选入[统一美术基准](../../system-design/presentation/art-direction.md)，下文01金色窄框及原包仅保留历史生成与检查用途；文中的PendingReview按01当时状态解释，不作为后续制作入口。
 
 2026-10-31 · game-002 / main · **AS-G002-041 / CARD-FRAME-01**。FrameCandidate / PendingReview。用户明确此前五幅画面作为**卡图**，本轮开始独立卡片边框设计；一张通用透明框配现有五张卡图，原卡图字节保持。本版是边框候选，不把框色或卷角定义为稀有度、费用、状态或玩法标记。
 
@@ -14,7 +14,7 @@
 
 ## Ways借鉴与来源
 
-CUSTOM视觉续作，设计仓库输入固定 **1d88eda9cdcb6da731ef964942f23a660ba7fcfc**。沿[统一美术画法](../README.md)，不加载或改动玩法。用户指定[Ways本地图册](E:/Game/Ways%20of%20Alchemy-analysis/2026-10-31/index.html)；读取art_manifest并查看frame、card_bg、card_stack_frame、back、description_frame、card_background和card_process_completed_bg等导出图。
+CUSTOM视觉续作，设计仓库输入固定 **1d88eda9cdcb6da731ef964942f23a660ba7fcfc**。沿[统一美术画法](../../system-design/presentation/art-direction.md)，不加载或改动玩法。用户指定[Ways本地图册](E:/Game/Ways%20of%20Alchemy-analysis/2026-10-31/index.html)；读取art_manifest并查看frame、card_bg、card_stack_frame、back、description_frame、card_background和card_process_completed_bg等导出图。
 
 实际生成输入仅为card_stack_frame与back两图，分别借深褐圆角／细内线及平涂赭金／角部线条；不复制背面的锁、链、太阳图案或完整布局，也不把源游戏的下部文字分区带入本版。这里只核对静态资源，不声称确认源游戏完整装配或状态逻辑。输入路径、角色、SHA和原图字节沿[manifest](manifest.json)。
 

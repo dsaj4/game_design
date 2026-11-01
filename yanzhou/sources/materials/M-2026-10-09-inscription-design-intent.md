@@ -38,7 +38,7 @@ Project ID：game-002。日期：2026-10-09。文档角色：QualifiedMaterial�
 ## 设计对象与 GDD 映射
 
 - 对象：铭文及辅槽系统的独立职责、学习与搭配方式、主辅差异、表达与体验。
-- 本轮写入：[铭文 design](../../design/systems/inscription-system/design.md)、[experience](../../design/systems/inscription-system/experience.md)；[辅槽 design](../../design/systems/inscription-system/augment-system/design.md)、[experience](../../design/systems/inscription-system/augment-system/experience.md)。仅作为已确认设计意图／Qualified 候选与体验假设解释，不修改规则。
+- 本轮写入：[铭文 design](../../system-design/inscription-system/design.md)、[experience](../../system-design/inscription-system/experience.md)；[辅槽 design](../../system-design/augment-system/design.md)、[experience](../../system-design/augment-system/experience.md)。仅作为已确认设计意图／Qualified 候选与体验假设解释，不修改规则。
 - 对应章节：系统设计目的、成本与选择、信息表达、MDA、未知与依赖。
 - 成熟度：GDD-0。具体配方、完整揭示／保存合同和玩法验证不足，不能作为 GDD-1 执行规格。
 
