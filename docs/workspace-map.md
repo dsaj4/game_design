@@ -1,11 +1,11 @@
 # 工作区地图
 
-2026-10-01 / layout.4。权限以[项目注册表](registry/project-registry.md)及项目AGENTS为准。
+2026-11-01 / layout.8。权限以[项目注册表](registry/project-registry.md)及项目AGENTS为准。
 
 | 区域 | 用途 |
 | --- | --- |
 | [yanzhou](../yanzhou/README.md) | 默认游戏game-002；design管规则，system-design集中系统目标／体验／具体方案，standards管工作规范；sources、exploration、governance、development分别管来源、方向、决定／问题和开发证据 |
-| [new-roguelike](../new-roguelike/README.md) | 平级独立肉鸽项目；同一职责结构，Blank Baseline、默认NONE，不继承言咒玩法 |
+| [独立肉鸽退役记录](workspace-decisions.md#ws-010) | 已退出工作树；空白背景与原管理记录保留Git历史，不继承到言咒 |
 | [旧媒体分析固定版本](workspace-decisions.md#ws-009) | 已退出工作树；报告、输入清单与失败记录按原版本解释 |
 | [docs](shared-knowledge.md) | 通用规则、方法、项目登记与管理决定 |
 | [game-design-workflow/templates](../game-design-workflow/templates/README.md) | 唯一共享模板登记；根流程目录不存游戏正文 |
@@ -20,6 +20,6 @@
 
 Demo和制作/参考素材由[统一目录](registry/demo-assets.md)跨项目索引，[DA-1](demo-asset-standard.md)规定归属、版本和复用记录。原文件仍在所属项目或外部实现位置，登记不改变项目权限。
 
-言咒方向按[READ-1](../yanzhou/exploration/start.md)，肉鸽按[READ-NR-1](../new-roguelike/exploration/start.md)选择材料。代码/API/构建留外部代码仓库，媒体分析不是新游戏的默认背景。
+言咒方向按[READ-1](../yanzhou/exploration/start.md)选择材料。独立肉鸽、公共媒体分析与根归档已退出工作树，旧规则只按固定版本取证；代码/API/构建留外部代码仓库。
 
-[本次整理与取证](maintenance/2026-10-01-workspace-cleanup.md)
+[2026-11-01整理与取证](workspace-decisions.md#ws-008) · [2026-10-01历史整理](maintenance/2026-10-01-workspace-cleanup.md)

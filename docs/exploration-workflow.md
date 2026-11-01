@@ -1,8 +1,8 @@
 # 探索研究与实验工作流
 
-2026-10-01 / layout.4。仅用于用户明确指定问题、范围和预算的研究/实验任务；日常构思按各项目exploration/AGENTS保留方向README，不强制run-control或运行记录。
+2026-11-01 / layout.8。仅用于用户明确指定问题、范围和预算的研究/实验任务；日常构思按各项目exploration/AGENTS保留方向README，不强制run-control或运行记录。
 
-先由[项目登记](registry/project-registry.md)选择唯一项目并读本地AGENTS；本地路径映射优先。W为项目根，P为所选方向或明确实验范围；下文idea-inbox、questions、gdd等是职责名，实际放sources、governance、design/development或所选DIR，禁止在仓库根重建exploration。运行控制用目标项目指定位置，肉鸽为governance/run-control.md。
+先由[项目登记](registry/project-registry.md)选择唯一项目并读本地AGENTS；本地路径映射优先。W为项目根，P为所选方向或明确实验范围；下文idea-inbox、questions、gdd等是职责名，实际放sources、governance、design/development或所选DIR，禁止在仓库根重建exploration。运行控制用目标项目指定位置；已退役项目的旧run-control不作为当前启动入口。
 
 资格、读取和执行仍按[设计流程](design-workflow.md)；一次批量澄清相关缺口，用户已有授权不重复索取。Raw不能进入Proposal/Evaluation/GDD/Draft Change；合格且已授权的正式输出可直接推进，正式采纳仍独立记录。L1不自动授权联网、跨项目材料、玩法实验或外部仓库创建。
 
@@ -16,7 +16,7 @@
 - `budget`：最大轮数、时间/调用成本、允许创建的候选数量，以及模拟/原型样本上限。
 - `stop_conditions`：达到预算、关键未知无法回答、出现安全/权限边界或需要人工决定时停止。
 
-没有明确 Project ID 时不得扫描两个项目；没有问题时不得把“自由探索”写成已确认目标。`new-roguelike` 的空白背景是允许提出候选的起点，不是具体玩法约束。
+没有明确 Project ID 时不得跨项目扫描；没有问题时不得把“自由探索”写成已确认目标。已退役独立肉鸽的空白背景保留历史身份，不作为当前任务或言咒的背景。
 
 ## 2. 自主等级
 

@@ -14,7 +14,7 @@
 | 看懂开发还差什么 | [开发解释](yanzhou/standards/development-guide.md) |
 | 使用 Mr. Mak 工作台 | [言咒开发工作台](yanzhou/standards/workspace.md) |
 
-[项目地图](docs/workspace-map.md) · [独立肉鸽](new-roguelike/README.md) · [设计流程](docs/design-workflow.md) · [贡献与协作](CONTRIBUTING.md)
+[项目地图](docs/workspace-map.md) · [设计流程](docs/design-workflow.md) · [贡献与协作](CONTRIBUTING.md)
 
 追溯资料：[设计来源](yanzhou/sources/README.md) · [项目历史](yanzhou/history/README.md) · [共享知识](docs/shared-knowledge.md) · [文档清理记录](yanzhou/history/README.md#治理历史)。
 

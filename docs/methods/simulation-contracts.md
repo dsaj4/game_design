@@ -8,7 +8,7 @@
 
 ## 适用范围与保存位置
 
-- 适用于 `game-002-optimization` 和 `new-roguelike` 的离线数值实验、桌面推演的机器化记录，以及外部模拟器适配。
+- 适用于已登记活动项目中明确授权的离线数值实验、桌面推演的机器化记录，以及外部模拟器适配。
 - 每次实验写入目标项目的 `P/simulations/`。建议按 `SIM-YYYY-MM-DD-short-name/` 建立一组文件；项目 README 维护入口索引。
 - 原始运行输出可放在该目录的 `runs/<run-id>/`，但代码、运行器、测试脚本和构建说明留在明确登记的外部代码仓库。共享目录只维护本契约。
 - `legacy-combat`、`legacy-semantic-generation` 等旧实验只能通过已登记适配器引用，不能把旧结果当作当前项目基线。
@@ -57,7 +57,7 @@ candidate-spec.json + scenario-set.json + policy-set.json + run-config.json
 {
   "schema_id": "simulation-candidate@v1",
   "schema_version": "1.0",
-  "project_id": "new-roguelike",
+  "project_id": "<registered-project-id>",
   "candidate_id": "C-2026-09-09-risk-reward",
   "candidate_version": "0.1",
   "source_refs": ["../idea-materials/M-...md", "../proposals/P-...md"],
