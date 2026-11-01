@@ -14,7 +14,7 @@
 
 ## 2. 文件类型与保存位置
 
-路径中的P表示方法职责作用域，不是固定物理根。所选方向优先把问题、来源与观察内嵌README；超出单方向的记录按目标项目AGENTS映射到sources/governance/development。外部产品拆解正文统一写media-analysis-lab/runs，项目内只留转化和引用。
+路径中的P表示方法职责作用域，不是固定物理根。所选方向优先把问题、来源与观察内嵌README；较长支撑材料放同一方向，超出单方向的研究按需放目标项目sources/research。旧公共拆解区已退役，历史证据按[WS-009](../workspace-decisions.md#ws-009)固定取证，不自动启动新研究或重建公共目录。
 
 | 文件类型 | 目的 | 保存位置 | 最低状态 |
 | --- | --- | --- | --- |
@@ -181,3 +181,13 @@ version: v1
 3. 报告写出材料覆盖、冲突、限制、最小验证和停止条件。
 4. 研究触发的新想法已隔离到项目 `idea-inbox/`，没有偷偷进入 GDD 或核心构思。
 5. 文件路径、Project ID 和状态符合项目 README 与探索区 AGENTS 规则。
+
+## 历史分析仍适用的操作经验
+
+2026-11-01从退役试验保留以下边界，只有相关任务出现时才使用，不据此启动调研或实验：
+
+- 材料包中的相对路径以材料包所在位置解析；分析产物放到另一个目录时，重新核对图片定位与导出文档的相对嵌入路径，不能直接沿用旧输出位置。
+- Windows终端管道曾破坏中文控制文本；生成文档应使用明确UTF-8文件读写，并检查落盘后的中文，不能以脚本退出成功代替内容检查。
+- 图片帧和自动说明不是已完成的直接图像审计。旧试验15帧已审、13帧未审，视觉结构检查8/8通过，仍没有完成分析稿与完整Phase 1；局部检查不能补成全流程通过。
+
+来源：[原材料试验记录](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/media-analysis-lab/runs/bv1xaxpbhezc-anode-heart/test-notes.md)与[未完成的直接读图试验](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/media-analysis-lab/runs/bv1xaxpbhezc-anode-heart-subagent-direct-read-test/test-notes.md)。完整输入、修订和失败记录随固定版本保留。

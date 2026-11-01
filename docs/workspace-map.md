@@ -6,7 +6,7 @@
 | --- | --- |
 | [yanzhou](../yanzhou/README.md) | 默认游戏game-002；design管规则，system-design集中系统目标／体验／具体方案，standards管工作规范；sources、exploration、governance、development分别管来源、方向、决定／问题和开发证据 |
 | [new-roguelike](../new-roguelike/README.md) | 平级独立肉鸽项目；同一职责结构，Blank Baseline、默认NONE，不继承言咒玩法 |
-| [media-analysis-lab](../media-analysis-lab/README.md) | 全部公共游戏拆解方法、参考素材、输入/输出、校准与拆解技能试验 |
+| [旧媒体分析固定版本](workspace-decisions.md#ws-009) | 已退出工作树；报告、输入清单与失败记录按原版本解释 |
 | [docs](shared-knowledge.md) | 通用规则、方法、项目登记与管理决定 |
 | [game-design-workflow/templates](../game-design-workflow/templates/README.md) | 唯一共享模板登记；根流程目录不存游戏正文 |
 | [项目技能入口](registry/project-skills.md) | 正式技能及使用边界；试验材料仍按所属业务集中 |

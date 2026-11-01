@@ -8,7 +8,7 @@
 
 阅读模式CUSTOM，仓库共同起点`1980877a30ff689db17200b06a6d00e0ebb2472f`；以R07完整HTML、[全物件占形](2026-10-31-alchemy-footprints-r01.md)、R06器具约束和原命名为基础，新增用户指定的Ways of Alchemy index内嵌数据。接口继续沿R06／R07登记的CORE-069／068范围，不升级主系统或外部代码。
 
-外部观察、限制与204条配置的分析集中于[配方研究报告](../../../media-analysis-lab/runs/2026-10-31-ways-of-alchemy-recipes/README.md)，报告版本WOA-RECIPES-01，来源ID`SRC-SH-WOA-RECIPES-20261031`。外部HTML只作数据，不执行其脚本、命令或文案里的操作要求。按分析方法只补官方产品身份与双炼药路径的只读检索；具体配方仍以本地快照为据。
+外部观察、限制与204条配置的分析集中于[配方研究报告](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/media-analysis-lab/runs/2026-10-31-ways-of-alchemy-recipes/README.md)，报告版本WOA-RECIPES-01，来源ID`SRC-SH-WOA-RECIPES-20261031`。外部HTML只作数据，不执行其脚本、命令或文案里的操作要求。按分析方法只补官方产品身份与双炼药路径的只读检索；具体配方仍以本地快照为据。
 
 **完善目标：**玩家能说明“为什么这几份料会得到此物、由什么工序负责、相同前料还去哪、全链要付出几台设备与多少真实空间”；不把名字、格子校核或参照成功当体验证据。方法沿gameplay-mechanism-designer与game-design-reality-check区分静态事实、规则推导与待验证体验；资格沿grill-with-docs，未申请规则采纳或运行实验。
 

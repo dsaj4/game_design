@@ -6,11 +6,11 @@
 | --- | --- | --- | --- | --- |
 | SRC-G002-CONTEXT-V2 | [game-002 核心设计背景包](../../yanzhou/history/exploration-2026-09-24/context/baseline-2026-09-09-001/context-pack.md) | 仅 game-002-optimization 优化任务 | Frozen / Historical Core Design Only | pack `baseline-2026-09-09-001`；source commit `d0c36b9d464680a484f83b234db081b97124b701`；逐文件摘要见 manifest |
 | SRC-EMERGENT-V01 | 用户提供的涌现式策略框架 | 两个探索项目均可按问题选择 | Registered / Proposed | [框架登记锚点](framework-registry.md) |
-| SRC-SH-CARD-FACE-20261029 | [七款游戏官方卡面与卡外说明材料](../../media-analysis-lab/runs/2026-10-29-card-face-display/README.md#素材与证据)；Steam／官方媒体包／开发文章 | 公共视觉研究；项目转化另行记录 | Research / LimitedEvidence；2026-10-29静态目视 | CARD-FACE-RESEARCH-01；E1—E7的URL、标题、观察与局限沿报告，原件／获取日期／SHA沿manifest；第三方原始图像与HTML仅本机保管，不授权公开分发或项目规则采纳 |
-| SRC-SH-WOA-RECIPES-20261031 | [Ways of Alchemy配方结构研究](../../media-analysis-lab/runs/2026-10-31-ways-of-alchemy-recipes/README.md)；用户提供本地index与官方Steam说明 | 公共机制研究；game-002转化另记R08候选 | Research / StaticConfiguration；2026-10-31，未运行游戏 | WOA-RECIPES-01；204条记录、来源路径／SHA-256、E1—E7定位与局限见报告；不执行HTML脚本，第三方原件／图像仅本机、不上传，公开分发许可未核实；静态配置不证明运行算法、体验或项目规则采纳 |
-| SRC-SH-WOA-COPY-20261101 | [炼金手册S11：物件描述文风](../../yanzhou/sources/inbox/2026-10-31-alchemy-design-handbook-r01.md#source-copy)；本机Ways of Alchemy目录items说明 | game-002解释文案参考 | StyleReference / LimitedScope；2026-11-01 | COPY-01；当前快照SHA及9条实际风格参考定位见S11。仅读13条描述，不执行提示／脚本，不沿用原作背景、文本或机制；与配方研究旧快照分开，不更新其204条分析。原件仅本机，不上传；新43条为原创候选文案 |
+| SRC-SH-CARD-FACE-20261029 | [七款游戏官方卡面与卡外说明材料](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/media-analysis-lab/runs/2026-10-29-card-face-display/README.md#素材与证据)；Steam／官方媒体包／开发文章 | 公共视觉研究；项目转化另行记录 | Research / LimitedEvidence；2026-10-29静态目视 | CARD-FACE-RESEARCH-01；E1—E7的URL、标题、观察与局限沿报告，原件／获取日期／SHA沿manifest；第三方原始图像与HTML仅本机保管，不授权公开分发或项目规则采纳 |
+| SRC-SH-WOA-RECIPES-20261031 | [Ways of Alchemy配方结构研究](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/media-analysis-lab/runs/2026-10-31-ways-of-alchemy-recipes/README.md)；用户提供本地index与官方Steam说明 | 公共机制研究；game-002转化另记R08候选 | Research / StaticConfiguration；2026-10-31，未运行游戏 | WOA-RECIPES-01；204条记录、来源路径／SHA-256、E1—E7定位与局限见报告；不执行HTML脚本，第三方原件／图像仅本机、不上传，公开分发许可未核实；静态配置不证明运行算法、体验或项目规则采纳 |
+| SRC-SH-WOA-COPY-20261101 | [炼金手册S11：物件描述文风](../../yanzhou/system-design/alchemy/handbook.md#source-copy)；本机Ways of Alchemy目录items说明 | game-002解释文案参考 | StyleReference / LimitedScope；2026-11-01 | COPY-01；当前快照SHA及9条实际风格参考定位见S11。仅读13条描述，不执行提示／脚本，不沿用原作背景、文本或机制；与配方研究旧快照分开，不更新其204条分析。原件仅本机，不上传；新43条为原创候选文案 |
 
-新外部媒体按上表与各分析包登记。媒体分析方法的可用入口在[适配器注册表](adapter-registry.md)，方法入口不能当成已有媒体证据。
+2026-11-01：旧媒体分析正文已退出工作树，上表卡面／配方报告指向删除前固定提交；原Research／LimitedEvidence状态不改变。新外部媒体仅按明确任务在目标项目保存，并按上表登记。媒体分析方法的可用入口在[适配器注册表](adapter-registry.md)，方法入口不能当成已有媒体证据。
 
 后续媒体来源至少登记 source ID、URL/本地位置、标题、获取时间、内容摘要、所属项目、引用片段、许可/本地保存边界及观察与推断的区别。抓取失败保留失败状态，不编造正文。
 

@@ -21,7 +21,7 @@ E-G002-ORDER-20261008 / game-002 / 2026-10-08。对象：[Qualified M](../materi
 
 ## 同类产品观察
 
-[本地order-reference.1](../../../media-analysis-lab/runs/2026-10-08-sts2-numeric-reference/settlement-order.md)支持分阶段、卡内步骤、逐击复查和延后终局处理；它没有言咒的同拍制造／维护制度。言咒采用主结果后的有限附属反应，不能把本地工程的受伤前荆棘当成此次规则来源。
+[本地order-reference.1](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/media-analysis-lab/runs/2026-10-08-sts2-numeric-reference/settlement-order.md)支持分阶段、卡内步骤、逐击复查和延后终局处理；它没有言咒的同拍制造／维护制度。言咒采用主结果后的有限附属反应，不能把本地工程的受伤前荆棘当成此次规则来源。
 
 ## 主要风险与替代比较
 

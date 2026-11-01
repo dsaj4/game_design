@@ -6,7 +6,7 @@
 
 用户希望正面主要承担图像展示，风格简洁、有特色，效果说明不挤占图像。对象是卡牌正面与查看信息的分工，不是改卡效、配方或物品权限。玩家需在手牌及战斗列中辨认物件，并有可靠途径读取完整效果、费用、条件和用后去向。
 
-[七游戏研究](../../../media-analysis-lab/runs/2026-10-29-card-face-display/README.md)提供外部观察；[三游戏资产技术研究](../../../media-analysis-lab/runs/2026-10-30-card-production/README.md)提供局部分层／装载证据，均不证明本项目的玩法或识别体验成立。
+[七游戏研究](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/media-analysis-lab/runs/2026-10-29-card-face-display/README.md)提供外部观察；[三游戏资产技术研究](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/media-analysis-lab/runs/2026-10-30-card-production/README.md)提供局部分层／装载证据，均不证明本项目的玩法或识别体验成立。
 
 ## 当前视觉决定
 

@@ -52,7 +52,7 @@ v01／v02／v04／v05整场稿及旧美术方向已退出活动工作区，后�
 - v05试验器物插画与实色符号分工，符号成果独立保留；整场稿的生命横排圆片／空圆可能误导为生命分格，计数仍须有限叠层加准确总数。生成铭文仍需人工排字，实际点击面积与缩小可读性未验证。
 - Book of Hours可继续借鉴：按对象职责分配细节量；同一对象保持轮廓／题签身份；主题符号与功能类别分开；数值、条件和文字放在干净区域；细节进入查看层。领取、疲劳变形、多窗行为和完整准则体系未移植。
 
-Book of Hours研究来源为 `cb69dae337c7fef33b2dd068811068d911109a21` 的BOH-REA-2026-10-28-v02报告，原取用模块2／4／7、V1／V2／V3及R23；报告Research / LimitedEvidence身份保持。保留[深度分析清单](book-of-hours-analysis-checklist-2026-10-28.md)与[分析包入口](../../../media-analysis-lab/runs/2026-10-28-book-of-hours-rea/README.md)，它们是研究材料，不是另一套当前美术方向。具体提取过程沿固定Git的`art-style-extract-2026-10-28.md`恢复。
+Book of Hours研究来源为 `cb69dae337c7fef33b2dd068811068d911109a21` 的BOH-REA-2026-10-28-v02报告，原取用模块2／4／7、V1／V2／V3及R23；报告Research / LimitedEvidence身份保持。保留[深度分析清单](book-of-hours-analysis-checklist-2026-10-28.md)与[分析包入口](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/media-analysis-lab/runs/2026-10-28-book-of-hours-rea/README.md)，它们是研究材料，不是另一套当前美术方向。具体提取过程沿固定Git的`art-style-extract-2026-10-28.md`恢复。
 
 ## AS-G002-032 纸本秘术工坊场景候选包
 

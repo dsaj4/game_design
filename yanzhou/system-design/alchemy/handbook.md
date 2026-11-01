@@ -927,4 +927,4 @@ R08展示SHA-256为`0ef125a6fd38983f74e6ee14b2efb100f3a066186eae353bab7a38553e9d
 
 ### D.5 维护边界
 
-原稿保留固定来源意义，后续准则集中维护本手册；首战算例保留原输入／失败。外部研究仍在media-analysis-lab，B01资格仍在materials。没有新建GDD、Proposal、Evaluation或Draft Change，不因整理修改主系统、敌人、供给、卡效或现有展示页。
+原稿保留固定来源意义，后续准则集中维护本手册；首战算例保留原输入／失败。外部研究沿S10的固定Git来源取证，原media-analysis-lab已于2026-11-01退出工作树；B01资格仍在materials。没有新建GDD、Proposal、Evaluation或Draft Change，不因整理修改主系统、敌人、供给、卡效或现有展示页。

@@ -27,7 +27,7 @@ game-design-workflow/templates/
 <项目>/development/README.md                Demo交付、范围和证据
 <项目>/exploration/DIR-.../README.md         方向用途、素材引用与复用记录
 <项目>/visual/...                           正式系统视觉包；原文件就地保管
-media-analysis-lab/...                      公共拆解参考及其来源
+<项目>/sources/research/... 或所属方向      按明确任务保存的研究与参考说明
 <外部实现仓库或持久演示目录>                 Demo源文件、构建和技术说明
 ```
 

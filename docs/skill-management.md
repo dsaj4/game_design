@@ -20,7 +20,7 @@
 - Skill 提供方法，不提供新的玩法权威。链接不自动扩大材料范围；每个参与者继承同一 READ-1 白名单。
 - Raw Idea 仍留 inbox 或所属方向；审查意见不自动成为正式 Evaluation，GDD 草稿不自动成为 Accepted。代码完成、测试结果和体验假设分别登记。
 - 对可从允许材料解决的问题先查；剩余资格问题按依赖成组列出推荐与影响。已授权的具体工作不重复索要许可。
-- 不自动创建第二套 `.design-context/`、复制整套模板、启动实验或生成持续运行代理。并行协作遵循[言咒分工规范](../yanzhou/governance/agent-collaboration.md)。
+- 不自动创建第二套 `.design-context/`、复制整套模板、启动实验或生成持续运行代理。并行协作遵循[言咒分工规范](../yanzhou/standards/agent-collaboration.md)。
 
 ## 更新、停用与回退
 

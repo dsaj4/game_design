@@ -2,7 +2,7 @@
 
 2026-10-23 / R01—R05 · game-002-optimization。探索总控：本聊天。状态：**Raw Idea / Unqualified；体验 Hypothesis / NotRun**。本轮交付可讨论的机制候选，不是正式GDD、Proposal、Evaluation或Draft Change。
 
-先读本页即可讨论；逐文件取证见[阅读记录](reading-log.md)。本轮外部调研为[五款参考的机制与表现比较 R01](../../../media-analysis-lab/runs/2026-10-23-artifact-endgame-references/README.md)。
+先读本页即可讨论；逐文件取证见[阅读记录](reading-log.md)。本轮外部调研为[五款参考的机制与表现比较 R01](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/media-analysis-lab/runs/2026-10-23-artifact-endgame-references/README.md)。
 
 ## 先看本轮判断
 
@@ -223,7 +223,7 @@ E:/Project/game/yanzhou/exploration/AGENTS.md
 
 ## 外部研究怎样改变本方向
 
-完整产品事实、画面链接与观察限度在[公共参考比较R01](../../../media-analysis-lab/runs/2026-10-23-artifact-endgame-references/README.md)；这里只保留对言咒的转化。
+完整产品事实、画面链接与观察限度在[公共参考比较R01](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/media-analysis-lab/runs/2026-10-23-artifact-endgame-references/README.md)；这里只保留对言咒的转化。
 
 | 参考 | 本轮提取的结构 | 对本方向的影响 | 不直接照搬 |
 | --- | --- | --- | --- |

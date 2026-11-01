@@ -4,7 +4,7 @@ Project ID：game-002。日期：2026-10-08。状态：前轮为Raw Idea / Unqua
 
 ## 来源与设计对象
 
-用户原话：“同拍顺序结算思路也参考本地工程找一下对应逻辑”。沿前轮指定`E:\Game\slay the spire`，本次静态核对实际恢复工程SlayTheSpire2。通用代码证据、版本指纹与限制见[order-reference.1](../../../media-analysis-lab/runs/2026-10-08-sts2-numeric-reference/settlement-order.md)。没有把外部实现当成言咒设计成立的证明。
+用户原话：“同拍顺序结算思路也参考本地工程找一下对应逻辑”。沿前轮指定`E:\Game\slay the spire`，本次静态核对实际恢复工程SlayTheSpire2。通用代码证据、版本指纹与限制见[order-reference.1](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/media-analysis-lab/runs/2026-10-08-sts2-numeric-reference/settlement-order.md)。没有把外部实现当成言咒设计成立的证明。
 
 设计对象是TL-Q02／05、FW-Q3的同拍复杂效果总序和事件边界。研究授权不等于采用所有参考优先级；本轮不改CORE、不新增正式素材或GDD规则，也不启动实验。
 

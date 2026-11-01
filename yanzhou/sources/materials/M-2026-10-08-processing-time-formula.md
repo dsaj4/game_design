@@ -28,7 +28,7 @@
 
 支持可预测自动生产。依赖CORE-051／053的D≥1与a+D，CORE-055的快照、冻结、完工支付、锁定和必需／可选分支。替换“D合成／舍入Unknown”，不推翻来源与支付归属。
 
-参考[本地SlayTheSpire2局部研究](../../../media-analysis-lab/runs/2026-10-08-sts2-numeric-reference/README.md)的加性先于乘性、有效倍率连乘、强度与持续层数分开。向上取整、最低1拍和无收益仍按声明付费为言咒适配，由本轮明确授权覆盖；不是外部游戏原规则。百分比先相加的候选已被用户最新指示排除。
+参考[本地SlayTheSpire2局部研究](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/media-analysis-lab/runs/2026-10-08-sts2-numeric-reference/README.md)的加性先于乘性、有效倍率连乘、强度与持续层数分开。向上取整、最低1拍和无收益仍按声明付费为言咒适配，由本轮明确授权覆盖；不是外部游戏原规则。百分比先相加的候选已被用户最新指示排除。
 
 ## 机制—行为—体验假设
 

@@ -14,7 +14,7 @@
 
 ## 1. 意图、来源与范围
 
-承接[六模块工作框架](framework.md)的模块2与[效果语言R01](design-language.md)。用户确认继续物件信息设计，并要求先由 **gpt-6.1-sol 子agent**调研其他游戏、尤其肉鸽，再推进。已完成[四游戏调研](../../../media-analysis-lab/runs/2026-10-24-roguelike-object-information/README.md)，覆盖 Slay the Spire 第一作、Monster Train 第一作、Balatro、Backpack Battles；独立研究先完成，本草案随后形成。
+承接[六模块工作框架](framework.md)的模块2与[效果语言R01](design-language.md)。用户确认继续物件信息设计，并要求先由 **gpt-6.1-sol 子agent**调研其他游戏、尤其肉鸽，再推进。已完成[四游戏调研](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/media-analysis-lab/runs/2026-10-24-roguelike-object-information/README.md)，覆盖 Slay the Spire 第一作、Monster Train 第一作、Balatro、Backpack Battles；独立研究先完成，本草案随后形成。
 
 共同玩法版本沿框架登记的 `1ca8c2647439741d8993880183102459ae730984`（GDD 2.9／GDD-0、CORE-065／066及EX-004）；框架为 `d890b1f9c15300ec07c3fbc75f5d86faa1f55704`，语言决定为 `e7659b5c6b6fa84987b9f37089feba8d543ddbc6`，外部调研为 `86a85d724ba041106470b8c2d77261c156c1c5b6`。链接用于定位，玩法不随HEAD自动更新。
 

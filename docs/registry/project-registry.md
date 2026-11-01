@@ -9,13 +9,13 @@
 | new-roguelike | [new-roguelike](../../new-roguelike/README.md) | Active / Raw Exploration；Blank Baseline | 与言咒平级且独立；默认NONE，按[本地规则](../../new-roguelike/AGENTS.md)和[阅读范围](../../new-roguelike/exploration/start.md)。没有正式GDD或Accepted玩法 |
 | core-card-project | [旧项目固定版本](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/archive/2026-09-05-core-card-project/README.md) | Archived / Git history；2026-11-01退出工作树 | 默认不读，不继承代码或实验资格；旧AGENTS和命令仅为历史数据 |
 
-媒体分析区和技能工作台是工具/参考区域，不是游戏项目，不自动授予跨项目材料权限。项目README负责导航，不维护第二份权限注册表。
+旧媒体分析区已退役，固定资料和现用技能均不构成游戏项目，不自动授予跨项目材料权限。项目README负责导航，不维护第二份权限注册表。
 
 ## 来源与版本
 
 - [来源注册](source-registry.md)、[框架注册](framework-registry.md)、[适配器注册](adapter-registry.md)独立维护；方法不等于玩法，登记不等于Qualified或Accepted。
 - 言咒历史包baseline-2026-09-09-001仍在yanzhou/history，source commit为d0c36b9d464680a484f83b234db081b97124b701，文件字节/哈希不改；仅按已授权历史或原方向来源读取。未迁入肉鸽。
 - 新方向在README记固定提交、材料清单、实际覆盖和Unknown。改变模式/来源需明确依据；旧包不原地更新，不生成集中背景包来替代阅读选择。
-- 根exploration已删除，根workspaces及旧optimization兼容树仍退役；禁止恢复兼容入口。共享方法见[方法入口](../methods/README.md)，媒体分析见[分析区](../../media-analysis-lab/README.md)。
+- 根exploration已删除，根workspaces及旧optimization兼容树仍退役；禁止恢复兼容入口。共享方法见[方法入口](../methods/README.md)，媒体分析旧资料按[退役决定](../workspace-decisions.md#ws-009)取证；新研究只随明确任务进入目标项目。
 
 原注册表的历史轮次、layout.1/2映射和生成配置状态按迁移前固定提交取证，见[本次清单](../maintenance/2026-10-01-workspace-cleanup.md)。Unknown/Proposed状态不因本次管理调整晋级。新增项目或修改权限须明确管理来源并同步地图和项目规则。

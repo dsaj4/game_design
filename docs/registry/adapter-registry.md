@@ -1,12 +1,12 @@
 # 方法与适配器注册表
 
-更新日期：2026-09-09。区分既有工作流入口与尚未实现的统一适配器，不承接旧测试的 Verified 状态。
+更新日期：2026-11-01。区分既有工作流入口与尚未实现的统一适配器，不承接旧测试的 Verified 状态。
 
 | ID | 现有来源 | 登记状态 | 本轮边界 |
 | --- | --- | --- | --- |
-| media-analysis-guide-v1 | [轻量媒体分析说明](../../media-analysis-lab/methods/project-analysis.md) | Ready / Document Workflow | 默认可按单文件流程执行；借鉴实验室方法，不依赖其脚本或已安装技能，不代表已完成媒体分析实测 |
-| game-analysis-orchestra | [已安装技能](../../.codex/skills/game-analysis-orchestra/SKILL.md) | Existing Workflow / Explicit Invocation | 用户明确调用时按该技能流程处理；轻量说明文档不依赖此技能 |
-| media-analysis-packet | [媒体分析原型](../../media-analysis-lab/README.md) | Reference Only / Not Integrated | 复用素材包、证据、分析稿与质检分层思路；不搬迁历史 runs |
+| media-analysis-guide-v1 | [轻量媒体分析说明](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/media-analysis-lab/methods/project-analysis.md) | Archived / Historical Reference | 2026-11-01退出工作树；原方法仅供固定版本取证，不再作为默认执行入口 |
+| game-analysis-orchestra | [已安装技能](../../.codex/skills/game-analysis-orchestra/SKILL.md) | Existing Workflow / Explicit Invocation | 用户明确调用时按该技能流程处理；产物写目标项目或用户指定位置，不重建旧分析区 |
+| media-analysis-packet | [媒体分析原型](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/media-analysis-lab/README.md) | Archived / Not Integrated | 原型和历史runs均退出工作树；保留固定版本，不作为可直接运行的本地工具 |
 | legacy-combat | [combat-lab固定版本](https://github.com/dsaj4/game_design/tree/d18ea22222c6271405927e369452d04e1c8a6fd0/combat-lab) | Parked / Not Integrated | 仅登记方法来源；没有跨项目移植源码、数据或测试 |
 | legacy-semantic-generation | [semantic-card-engine固定版本](https://github.com/dsaj4/game_design/tree/d18ea22222c6271405927e369452d04e1c8a6fd0/semantic-card-engine) | Parked / Not Integrated | 同上；不能把 embedding 数据当一般缓存清理 |
 

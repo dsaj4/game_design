@@ -22,7 +22,7 @@
 
 ## 文件结构：按你要回答的问题找地方
 
-整个`E:/Project/game`管理游戏设计及来源；《言咒》集中在`yanzhou/`。根`docs/`保存共享方法、流程和登记，`game-design-workflow/templates/`提供模板，`media-analysis-lab/`存公共游戏拆解。独立肉鸽`new-roguelike/`有自己的材料边界；旧项目archive已退出工作树，按[固定版本](../../docs/workspace-decisions.md#ws-008)取证，不作为言咒任务的默认背景。
+整个`E:/Project/game`管理游戏设计及来源；《言咒》集中在`yanzhou/`。根`docs/`保存共享方法、流程和登记，`game-design-workflow/templates/`提供模板，旧公共游戏拆解区已退出工作树，按[固定资料](../../docs/workspace-decisions.md#ws-009)追溯；新研究仅随任务进入目标项目。独立肉鸽`new-roguelike/`有自己的材料边界；旧项目archive已退出工作树，按[固定版本](../../docs/workspace-decisions.md#ws-008)取证，不作为言咒任务的默认背景。
 
 | 位置（相对yanzhou） | 放什么 | 什么时候用 |
 | --- | --- | --- |

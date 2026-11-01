@@ -17,7 +17,7 @@ When screenshots or keyframes are available, run a visual audit before writing t
 
 ## Project storage
 
-In this repository, use `media-analysis-lab/` as the shared game-analysis workspace: reusable methods and writing references live there; new source packs, evidence, dossiers and checks go under `media-analysis-lab/runs/<task-slug>/`. Read its README for routing when needed. Skill candidates and calibration belong to `media-analysis-lab/skill-iteration/`; they are not installed skills and must not be promoted merely because files moved. Keep this active installation under `.codex/skills/`. Project-specific design qualification and adoption stay in the target game project with versioned links to analysis evidence.
+In this repository, the shared `media-analysis-lab/` workspace was retired on 2026-11-01. For a requested analysis, use the selected project's existing source or exploration location under its AGENTS instructions: Yanzhou summaries belong in the selected direction README, with substantial supporting material beside it; work outside a direction may use `yanzhou/sources/research/<task-slug>/`. For analyses unrelated to a registered project, use the user's specified output location. Do not recreate retired shared roots or start research merely to populate folders. Historical reports remain available through fixed Git references in `docs/workspace-decisions.md`. Keep this active installation under `.codex/skills/`; qualification and adoption remain separate from research evidence. Skill candidates and calibration follow `docs/skill-management.md`, not the retired lab route.
 
 ## Inputs
 

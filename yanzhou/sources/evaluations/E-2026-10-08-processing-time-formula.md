@@ -21,7 +21,7 @@ E-G002-TMF-20261008 / game-002 / 2026-10-08。对象：[Qualified M](../material
 
 ## 同类产品观察
 
-参考目录实际为SlayTheSpire2恢复工程，关键输入未跟踪，已以哈希记录。[局部摘要](../../../media-analysis-lab/runs/2026-10-08-sts2-numeric-reference/README.md)支持“加性先于乘性、倍率连乘、某些Buff层数用于时长”；不支持全游戏无特殊阶段、所有Buff按层叠乘或存在相同加工公式。普通伤害取整不能决定言咒D取整。
+参考目录实际为SlayTheSpire2恢复工程，关键输入未跟踪，已以哈希记录。[局部摘要](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/media-analysis-lab/runs/2026-10-08-sts2-numeric-reference/README.md)支持“加性先于乘性、倍率连乘、某些Buff层数用于时长”；不支持全游戏无特殊阶段、所有Buff按层叠乘或存在相同加工公式。普通伤害取整不能决定言咒D取整。
 
 ## 主要风险与建议
 

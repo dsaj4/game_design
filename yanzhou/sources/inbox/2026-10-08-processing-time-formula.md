@@ -41,7 +41,7 @@ Project ID：game-002。2026-10-08。状态：Promoted，限定采纳范围CORE-
 
 ## 本地参考与覆盖
 
-本地实际是SlayTheSpire2恢复工程，读取五个关键文件的全部或局部及少量入口检索；关键文件未跟踪，使用SHA-256固定输入而不假称由其HEAD锁定。[参考摘要与哈希](../../../media-analysis-lab/runs/2026-10-08-sts2-numeric-reference/README.md)。不使用其原始代码或资产作为本仓库新增资源，不运行或修改该工程。
+本地实际是SlayTheSpire2恢复工程，读取五个关键文件的全部或局部及少量入口检索；关键文件未跟踪，使用SHA-256固定输入而不假称由其HEAD锁定。[参考摘要与哈希](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/media-analysis-lab/runs/2026-10-08-sts2-numeric-reference/README.md)。不使用其原始代码或资产作为本仓库新增资源，不运行或修改该工程。
 
 言咒继续CUSTOM：当前法器／辅槽／资源相关规则、参数、核心、问题、来源与版本登记；标记冻结及交互沿本聊天已读CORE-055。未提交阶段原件、其他项目和历史游戏正文排除。固定输入`614a6e2dd48cfbb4894bfed8a4669703f0004553`。材料资格沿既有grill-with-docs流程；本轮用户已授权直接选定，故不重复问答。
 
