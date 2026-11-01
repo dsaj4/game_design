@@ -1,6 +1,6 @@
 # 敌人储备内容条目
 
-2026-11-01 · CONTENT-LIBRARY-01。从[catalog.json](catalog.json)生成；请修改数据源后重建，勿双写。
+2026-11-01 · CONTENT-LIBRARY-02。从[catalog.json](catalog.json)生成；请修改数据源后重建，勿双写。
 
 [展板](index.html) · [维护方式](README.md)
 

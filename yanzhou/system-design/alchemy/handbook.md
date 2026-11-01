@@ -8,7 +8,7 @@
 
 ## 与全游戏手册的关系
 
-本页是[系统设计手册](../handbook.md)的炼金内容分册，设计准则、解释方法、审查与取舍在此维护；具体条目和文案在[内容库](../../content-library/README.md)单处维护。2026-11-01[共用背包方向](../../sources/materials/M-2026-11-01-shared-backpack-direction.md)已限定Qualified；其[具体工作稿](../backpack/shared-backpack-design.md)继续处理装载／展开／重装。下文生产空间与跨战容量分账仍是现行规则及原R08预算语境，不覆盖新方向，也不把新方向提前写成Accepted。40格、售价与运输细节未定。
+本页是[系统设计手册](../handbook.md)的炼金内容分册，设计准则、解释方法、审查与取舍在此维护；具体条目和文案在[内容库](../../content-library/README.md)单处维护。2026-11-01[CORE-070](../../sources/draft-changes/D-2026-11-01-shared-backpack.md)已采纳跨战与生产共用网格及分阶段装载；[具体工作稿](../backpack/shared-backpack-design.md)继续处理未知。下文R08原分账预算属于历史候选语境，不能直接用作新阶段的完整装载预算；现行空间按[TL-46](../../design/systems/backpack-system/rules.md)。40格、售价与运输细节仍未定。
 
 ## 目录
 

@@ -1,6 +1,6 @@
 {
   "id": "DM-G002-023",
-  "version": "CONTENT-LIBRARY-01",
+  "version": "CONTENT-LIBRARY-02",
   "date": "2026-11-01",
   "project": "game-002",
   "direction": "main",
@@ -13,7 +13,7 @@
   "objectsWithArt": 7,
   "artFiles": 17,
   "scope": "Content reading and review only; qualification and adoption remain item-scoped; no gameplay execution",
-  "designInputCommit": "16838828fba90a3444c4a49a35b98df74f271f32",
+  "designInputCommit": "f349e954a211885d45cd9e6aae4f605205a97bac",
   "files": [
     {
       "path": "alchemy-notes.md",
@@ -22,8 +22,8 @@
     },
     {
       "path": "alchemy.md",
-      "bytes": 118385,
-      "sha256": "6d36f2fcf3d7d6afbc30d0bf0ed015e123bb425b06a30de8230875b78dcedc5b"
+      "bytes": 119925,
+      "sha256": "347cd9ee2ba44fddc82753a9bc2ed452e916997470d81bc5e771c71c295c4755"
     },
     {
       "path": "builds.md",
@@ -32,23 +32,23 @@
     },
     {
       "path": "catalog.json",
-      "bytes": 269080,
-      "sha256": "53a9e330d3498a60f52cc12572077be70b1d14b6377db8f2e9d60613811b364f"
+      "bytes": 269629,
+      "sha256": "28eadd3908bcd87aafd99898df8ec028c467ac302a63947dd9f0a0ab68e418cd"
     },
     {
       "path": "ex004.md",
       "bytes": 14811,
-      "sha256": "46ee5e9f6e26447e08e1575b60756501f4810bda6254b47689b2dbf9064a0927"
+      "sha256": "eb220330c7e4a3c4a9a1d40d80f92404c2e9a6899f907a0be70c089830e19423"
     },
     {
       "path": "index.html",
-      "bytes": 192937,
-      "sha256": "583f103bda402887028a3b7d1260e08d60ecab78a0392e2e2d6b2020903e20a7"
+      "bytes": 193369,
+      "sha256": "3095def9987f022ec939740fb27a8fcc38a65ed4d972b89909f27c194ce5190a"
     },
     {
       "path": "README.md",
-      "bytes": 5215,
-      "sha256": "df970281c2a35f346354ba0cc2a5577b32ecb21042d91af7ce32ccdf521f2285"
+      "bytes": 5439,
+      "sha256": "cf906c3023b89634b2dc1893ee03a029e0c8dbd48749effaaa7c2745c27fce47"
     },
     {
       "path": "recipes.md",
@@ -58,17 +58,17 @@
     {
       "path": "reserve.md",
       "bytes": 17161,
-      "sha256": "1a78f85fa558d23d0ad6ab4e69a53dc75c8b23421740961aa83e1ae3e2e58390"
+      "sha256": "89de2d8132d315c0e3c90da56c7a705cf099cfed031b88aac9cfce8c89e0dbd2"
     },
     {
       "path": "sample.md",
       "bytes": 3284,
-      "sha256": "7f6b3725748dcc1e4fd0d4e8d1deb15f613d3f97518cc3fc62eadc7c281fb110"
+      "sha256": "f05c44004cb29ca6cf44a681ac02f2efbdbc32cf7def7d9c2dfeecdd293b617b"
     },
     {
       "path": "visual.md",
       "bytes": 2060,
-      "sha256": "ec180a2e8c33ad0a7fc21b8a641f1328cc357c074d640e0a96b30bb1f20dc543"
+      "sha256": "4469722f7dd359ffcf088b25b7682084234cf815dab19f629c99d56b79071224"
     }
   ],
   "generator": {
@@ -99,19 +99,51 @@
   "verification": {
     "browserChecks": 157,
     "browserErrors": [],
-    "migrationChecks": 315,
+    "staticAdoptionChecks": 10,
+    "changedMarkdown": 49,
+    "localLinksChecked": 1229,
     "newBrokenFileLinks": 0,
     "newBrokenAnchors": 0,
     "evidence": [
       {
-        "path": "qa-result.json",
-        "bytes": 4884,
-        "sha256": "f8560d4a3d34c05c5a6b180adf9c00a2925776bb2be15c357130bbebe1e7c822"
+        "path": "content-library-02-evidence/01-overview.png",
+        "bytes": 235178,
+        "sha256": "91ae96ef35e04efdf13c6c9fec3d449525f44a8b6e2ff0bad28682d5cba42dfd"
       },
       {
-        "path": "migration-checks.json",
-        "bytes": 12041,
-        "sha256": "40c9cfe24e6d184205409a1882121d31e6d557d33d2e13e43dad031915d78f60"
+        "path": "content-library-02-evidence/02-art.png",
+        "bytes": 274864,
+        "sha256": "5b5a045f546917dd9a04683a99c43c74f35fe811b98748884c969adc209d1ef8"
+      },
+      {
+        "path": "content-library-02-evidence/03-water-detail.png",
+        "bytes": 240695,
+        "sha256": "a32111a2d692fd808135b205fe6cd6922f04653b17f16d8af1ce8178037c8f86"
+      },
+      {
+        "path": "content-library-02-evidence/04-recipe.png",
+        "bytes": 118777,
+        "sha256": "3611f4d05f9e38839ed353424f52e7e68d4757f6fab63350d5f22ecc8488c64e"
+      },
+      {
+        "path": "content-library-02-evidence/05-mobile.png",
+        "bytes": 76891,
+        "sha256": "41f2a6c7e725664d4535d6e49e4cd7adeb0adc389a0375b1f3c19ca6c13e63b9"
+      },
+      {
+        "path": "content-library-02-evidence/06-mobile-detail.png",
+        "bytes": 80715,
+        "sha256": "a285d40d6abeaeecd38a9a0513576f573e911d32c56dd1a0a9801261b8771bd5"
+      },
+      {
+        "path": "content-library-02-evidence/core070-checks.json",
+        "bytes": 1287,
+        "sha256": "318228443d2a1bd035834e0c8db5b66e62c5fef595daeecbc4b8cb194bb1edf3"
+      },
+      {
+        "path": "content-library-02-evidence/qa-result.json",
+        "bytes": 4884,
+        "sha256": "f8560d4a3d34c05c5a6b180adf9c00a2925776bb2be15c357130bbebe1e7c822"
       }
     ]
   },
@@ -127,6 +159,18 @@
     "Full assistive technology and print layout",
     "Asset availability on other computers"
   ],
-  "deliveryCommit": "8741d2085676c4a1be91883dd92f9a4f66744564",
-  "deliveryPath": "yanzhou/content-library/"
+  "deliveryPath": "yanzhou/content-library/",
+  "previousDelivery": {
+    "version": "CONTENT-LIBRARY-01",
+    "commit": "8741d2085676c4a1be91883dd92f9a4f66744564",
+    "provenanceCommit": "f349e954a211885d45cd9e6aae4f605205a97bac",
+    "manifestPath": "yanzhou/content-library/manifest.json",
+    "localEvidenceDirectory": "E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01/content-library-01-evidence"
+  },
+  "originalContentInputCommit": "16838828fba90a3444c4a49a35b98df74f271f32",
+  "adoption": {
+    "decision": "CORE-070",
+    "record": "../sources/draft-changes/D-2026-11-01-shared-backpack.md",
+    "scope": "Only 10 core items: loose occupancy becomes 1 cell and links the adopted rule; all other content values and qualifications retained"
+  }
 }

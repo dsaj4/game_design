@@ -1,6 +1,6 @@
 # 炼金内容内容条目
 
-2026-11-01 · CONTENT-LIBRARY-01。从[catalog.json](catalog.json)生成；请修改数据源后重建，勿双写。
+2026-11-01 · CONTENT-LIBRARY-02。从[catalog.json](catalog.json)生成；请修改数据源后重建，勿双写。
 
 [展板](index.html) · [维护方式](README.md)
 
@@ -1719,12 +1719,12 @@
 | --- | --- |
 | 词性 | 动词 |
 | 嵌入新增格数 | 0（继承CORE-069接口） |
-| 未嵌入占格 | 共用背包Qualified方向为1格；不提前覆盖现行规则。 |
+| 未嵌入占格 | 1格（CORE-070已采纳通用占格；本条具体核心与兼容仍为候选）。 |
 | 兼容器具 | 初相坩埚 |
 
 关联：[初相坩埚](#alchemy-artifact-crucible)
 未定：具体实体取得与副本预算未定。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html)
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [CORE-070：散装核心1格／兼容嵌入额外0格（仅通用占格）](../sources/draft-changes/D-2026-11-01-shared-backpack.md)
 
 
 <a id="alchemy-core-refine"></a>
@@ -1741,12 +1741,12 @@
 | --- | --- |
 | 词性 | 动词 |
 | 嵌入新增格数 | 0（继承CORE-069接口） |
-| 未嵌入占格 | 共用背包Qualified方向为1格；不提前覆盖现行规则。 |
+| 未嵌入占格 | 1格（CORE-070已采纳通用占格；本条具体核心与兼容仍为候选）。 |
 | 兼容器具 | 刻纹研钵、盘管萃炼器、封相炼炉 |
 
 关联：[刻纹研钵](#alchemy-artifact-mortar) · [盘管萃炼器](#alchemy-artifact-extractor) · [封相炼炉](#alchemy-artifact-phase-furnace)
 未定：具体实体取得与副本预算未定。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html)
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [CORE-070：散装核心1格／兼容嵌入额外0格（仅通用占格）](../sources/draft-changes/D-2026-11-01-shared-backpack.md)
 
 
 <a id="alchemy-core-albedo"></a>
@@ -1763,12 +1763,12 @@
 | --- | --- |
 | 词性 | 动词 |
 | 嵌入新增格数 | 0（继承CORE-069接口） |
-| 未嵌入占格 | 共用背包Qualified方向为1格；不提前覆盖现行规则。 |
+| 未嵌入占格 | 1格（CORE-070已采纳通用占格；本条具体核心与兼容仍为候选）。 |
 | 兼容器具 | 白瓷曲颈瓶 |
 
 关联：[白瓷曲颈瓶](#alchemy-artifact-retort)
 未定：具体实体取得与副本预算未定。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html)
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [CORE-070：散装核心1格／兼容嵌入额外0格（仅通用占格）](../sources/draft-changes/D-2026-11-01-shared-backpack.md)
 
 
 <a id="alchemy-core-nigredo"></a>
@@ -1785,12 +1785,12 @@
 | --- | --- |
 | 词性 | 动词 |
 | 嵌入新增格数 | 0（继承CORE-069接口） |
-| 未嵌入占格 | 共用背包Qualified方向为1格；不提前覆盖现行规则。 |
+| 未嵌入占格 | 1格（CORE-070已采纳通用占格；本条具体核心与兼容仍为候选）。 |
 | 兼容器具 | 黑铁铸模 |
 
 关联：[黑铁铸模](#alchemy-artifact-mold)
 未定：具体实体取得与副本预算未定。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html)
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [CORE-070：散装核心1格／兼容嵌入额外0格（仅通用占格）](../sources/draft-changes/D-2026-11-01-shared-backpack.md)
 
 
 <a id="alchemy-core-citrinitas"></a>
@@ -1807,12 +1807,12 @@
 | --- | --- |
 | 词性 | 动词 |
 | 嵌入新增格数 | 0（继承CORE-069接口） |
-| 未嵌入占格 | 共用背包Qualified方向为1格；不提前覆盖现行规则。 |
+| 未嵌入占格 | 1格（CORE-070已采纳通用占格；本条具体核心与兼容仍为候选）。 |
 | 兼容器具 | 黄铜显咒灯 |
 
 关联：[黄铜显咒灯](#alchemy-artifact-lamp)
 未定：具体实体取得与副本预算未定。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html)
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [CORE-070：散装核心1格／兼容嵌入额外0格（仅通用占格）](../sources/draft-changes/D-2026-11-01-shared-backpack.md)
 
 
 <a id="alchemy-core-rubedo"></a>
@@ -1829,12 +1829,12 @@
 | --- | --- |
 | 词性 | 动词 |
 | 嵌入新增格数 | 0（继承CORE-069接口） |
-| 未嵌入占格 | 共用背包Qualified方向为1格；不提前覆盖现行规则。 |
+| 未嵌入占格 | 1格（CORE-070已采纳通用占格；本条具体核心与兼容仍为候选）。 |
 | 兼容器具 | 红玻璃合一炉 |
 
 关联：[红玻璃合一炉](#alchemy-artifact-athanor)
 未定：具体实体取得与副本预算未定。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html)
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [CORE-070：散装核心1格／兼容嵌入额外0格（仅通用占格）](../sources/draft-changes/D-2026-11-01-shared-backpack.md)
 
 
 <a id="alchemy-core-flow"></a>
@@ -1851,12 +1851,12 @@
 | --- | --- |
 | 词性 | 名词（原理名） |
 | 嵌入新增格数 | 0（继承CORE-069接口） |
-| 未嵌入占格 | 共用背包Qualified方向为1格；不提前覆盖现行规则。 |
+| 未嵌入占格 | 1格（CORE-070已采纳通用占格；本条具体核心与兼容仍为候选）。 |
 | 兼容器具 | 盘管萃炼器、白瓷曲颈瓶 |
 
 关联：[盘管萃炼器](#alchemy-artifact-extractor) · [白瓷曲颈瓶](#alchemy-artifact-retort)
 未定：具体实体取得与副本预算未定。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html)
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [CORE-070：散装核心1格／兼容嵌入额外0格（仅通用占格）](../sources/draft-changes/D-2026-11-01-shared-backpack.md)
 
 
 <a id="alchemy-core-fixity"></a>
@@ -1873,12 +1873,12 @@
 | --- | --- |
 | 词性 | 名词（原理名） |
 | 嵌入新增格数 | 0（继承CORE-069接口） |
-| 未嵌入占格 | 共用背包Qualified方向为1格；不提前覆盖现行规则。 |
+| 未嵌入占格 | 1格（CORE-070已采纳通用占格；本条具体核心与兼容仍为候选）。 |
 | 兼容器具 | 封相炼炉、黑铁铸模 |
 
 关联：[封相炼炉](#alchemy-artifact-phase-furnace) · [黑铁铸模](#alchemy-artifact-mold)
 未定：具体实体取得与副本预算未定。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html)
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [CORE-070：散装核心1格／兼容嵌入额外0格（仅通用占格）](../sources/draft-changes/D-2026-11-01-shared-backpack.md)
 
 
 <a id="alchemy-core-activation"></a>
@@ -1895,12 +1895,12 @@
 | --- | --- |
 | 词性 | 名词（原理名） |
 | 嵌入新增格数 | 0（继承CORE-069接口） |
-| 未嵌入占格 | 共用背包Qualified方向为1格；不提前覆盖现行规则。 |
+| 未嵌入占格 | 1格（CORE-070已采纳通用占格；本条具体核心与兼容仍为候选）。 |
 | 兼容器具 | 黄铜显咒灯 |
 
 关联：[黄铜显咒灯](#alchemy-artifact-lamp)
 未定：具体实体取得与副本预算未定。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html)
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [CORE-070：散装核心1格／兼容嵌入额外0格（仅通用占格）](../sources/draft-changes/D-2026-11-01-shared-backpack.md)
 
 
 <a id="alchemy-core-unity"></a>
@@ -1917,9 +1917,9 @@
 | --- | --- |
 | 词性 | 名词（原理名） |
 | 嵌入新增格数 | 0（继承CORE-069接口） |
-| 未嵌入占格 | 共用背包Qualified方向为1格；不提前覆盖现行规则。 |
+| 未嵌入占格 | 1格（CORE-070已采纳通用占格；本条具体核心与兼容仍为候选）。 |
 | 兼容器具 | 红玻璃合一炉 |
 
 关联：[红玻璃合一炉](#alchemy-artifact-athanor)
 未定：具体实体取得与副本预算未定。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html)
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [CORE-070：散装核心1格／兼容嵌入额外0格（仅通用占格）](../sources/draft-changes/D-2026-11-01-shared-backpack.md)

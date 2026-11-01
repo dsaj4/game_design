@@ -1,6 +1,6 @@
 # 法器系统：规则
 
-2026-10-31 · CurrentSpec / CORE-069 spatial-auxiliaries.1，继承CORE-068，TL-03—07／38沿SYS-002，TL-45沿SYS-001。[基准](../../baseline.md) · [设计](../../../system-design/artifact-system/design.md) · [体验](../../../system-design/artifact-system/experience.md) · [示例](examples.md)
+2026-11-01 · CurrentSpec / CORE-070 shared-backpack.1，继承CORE-069／068，TL-03—07／38沿SYS-002，TL-45沿SYS-001。[基准](../../baseline.md) · [设计](../../../system-design/artifact-system/design.md) · [体验](../../../system-design/artifact-system/experience.md) · [示例](examples.md)
 
 ## TL-03 一批生产的可见状态
 
@@ -44,6 +44,8 @@ D0为基础正整数，Δ为整数修正，m为非负有限倍率，无倍率取
 
 <a id="tl-06-路由与临时设置"></a>
 ## TL-06 战前布局与下一批供料
+
+CORE-070的[TL-46共用背包](../backpack-system/rules.md)先约束所有携带物的装载，再选择投入卡入手并展开本战设备；备用法器、辅助和未投入卡仍占包内真实空间，不能隐藏到另一库存。运输与备用设备的具体供料展开细节仍待定，本节只规定已部署法器。
 
 战前设置法器位置、相邻可见接口、专属供料区形状、固定用途及法器序；一供料区只归属一器。材料占形必须真实容纳在本区内，可旋转，不能越界、重叠或仅按面积抵算；1×4不能接2×2。法器、供料位结构与用途在本战固定，不战中重铭、改用途或重排设备／辅助。具体尺寸／接口声明沿内容，不从旧桌面预留位推定。辅助独立占格与本器连接沿[辅助规则](../inscription-system/augment-system/rules.md)，不能占用供料区或被自动补料。
 

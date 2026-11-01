@@ -1,9 +1,10 @@
 # 系统目录
 
-本目录是六主系统的规则索引，辅助道具归铭文配置、标记归行动。rules与规则示例保留在此；设计理由和体验已集中到[系统设计手册](../../system-design/handbook.md)及其分册。局外成长仅一页占位，不机械预建五文件。整体先读[核心](../GDD.md)，实现按[行为索引](../../governance/rule-index.md#按行为选细则)。
+本目录是现行系统的规则索引，辅助道具归铭文配置、标记归行动。rules与规则示例保留在此；设计理由和体验已集中到[系统设计手册](../../system-design/handbook.md)及其分册。局外成长仅一页占位，不机械预建五文件。整体先读[核心](../GDD.md)，实现按[行为索引](../../governance/rule-index.md#按行为选细则)。
 
 | 系统 | 职责 |
 | --- | --- |
+| [背包](backpack-system/rules.md) | 同一网格的装载、投入展开与战后重装，备用配置及散装核心占格 |
 | [法器](artifact-system/README.md) | 工序、生产、用途与返工 |
 | [铭文](inscription-system/README.md) | 配方语言、合法装配与实体分配 |
 | ↳ [辅助道具](inscription-system/augment-system/README.md) | 独立占格连接法器，同效可叠加；首批静态修饰 |

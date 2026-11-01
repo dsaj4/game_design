@@ -1,8 +1,10 @@
 # 任务设计包：打断与重开
 
-2026-10-31 · Derived Design / CORE-069，继承CORE-068 · 已同步，执行NotRun。包及规则共用执行任务固定提交，沿[任务规范](../task-pack.md)。
+2026-11-01 · Derived Design / CORE-070，继承CORE-069／068 · 已同步，执行NotRun。包及规则共用执行任务固定提交，沿[任务规范](../task-pack.md)。
 
 ## 最小行为与边界
+
+共用背包沿[TL-46](../../design/systems/backpack-system/rules.md)：打断退料回本场手牌，不回留包或生成额外仓库；本包不提供战中切换备用设备。
 
 | 环节 | 行为与权威 |
 | --- | --- |

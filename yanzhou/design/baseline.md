@@ -1,10 +1,11 @@
 # 当前设计基准
 
-2026-10-31 · **GDD 3.2 / GDD-0 · CORE-069 spatial-auxiliaries.1**。规则已采纳，本次实现、玩法与平衡NotRun。继承CORE-067统一卡牌及CORE-066内容，EX-004改战前选用途；旧工程证据不覆盖新供料区。辅助与核心装配来源及共同输入见[CORE-069采纳D](../sources/draft-changes/D-2026-10-31-spatial-auxiliaries.md)，供料沿CORE-068。
+2026-11-01 · **GDD 3.3 / GDD-0 · CORE-070 shared-backpack.1**。共用背包规则已采纳，实现、玩法与平衡NotRun；继承CORE-069辅助／核心、CORE-068供料与CORE-067统一卡牌及CORE-066限定内容。EX-004不补造几何或材料，旧工程证据不覆盖新背包。共同输入及限定差异见[CORE-070采纳D](../sources/draft-changes/D-2026-11-01-shared-backpack.md)。
 
 | 项目 | 当前范围 |
 | --- | --- |
 | 核心 | [GDD](GDD.md)唯一连续正文，TL／INS身份保留；三权限统一卡牌，材料为用途 |
+| 背包 | [TL-46](systems/backpack-system/rules.md)：跨战与生产共用真实网格，备用配置占格，装载／投入展开／战后重装分阶段；散装核心1格、兼容嵌入额外0格；旧配置可售方向已定，具体几何与交易合同待补 |
 | 核心与辅助 | 核心战前可逆装配、嵌入不另占格；辅助独立占格单器连接，同效可叠加，批次记录及成品继承；战中固定，辅槽与打造退出 |
 | 生产 | 法器、专属相邻供料区及用途战前固定；真实占形可旋转；一批在制＋一批待料，齐备吸收腾位，D及完工产物入手保留 |
 | 供料操作 | 默认自动补料，可关闭并手动调整；只在生产观察窗编辑待料及自动开关，材料锁定保护手牌；放入最早下一拍吸收 |
@@ -18,13 +19,13 @@
 
 ## 状态与适用域
 
-Accepted指规则采纳，Qualified指来源可进入正式设计，均不等于实现或体验通过。CORE-069替换辅槽数、词性挂接和打造容量，TL-42退役；迅速迁移为一件辅助，保留减时但空间输入仍缺。CORE-068替换手牌直接开工、临时供料方案及战中切用途；CORE-067未被替换的身份、入手、布牌、回收与相关恢复接口继续有效；配置实体、D、敌程序、逐事件终局和独立跨战资格沿旧采纳范围。它不发行完整卡池、真实回收牌或合成链，也不自动迁移旧存档。
+Accepted指规则采纳，Qualified指来源可进入正式设计，均不等于实现或体验通过。CORE-070替换生产空间与跨战容量分账、免费包外备用配置及原无出售总禁令；不取消既有种类约束，不开放未定义的售卖操作。CORE-069替换辅槽数、词性挂接和打造容量，TL-42退役；迅速迁移为一件辅助，保留减时但空间输入仍缺。CORE-068替换手牌直接开工、临时供料方案及战中切用途；CORE-067未被替换的身份、入手、布牌、回收与相关恢复接口继续有效；配置实体、D、敌程序、逐事件终局和独立跨战资格沿旧采纳范围。它不发行完整卡池、真实回收牌或合成链，也不自动迁移旧存档。
 
-[验收](validation.md)维护CORE-069核心装配／辅助与CORE-068供料预期及按其修订的CORE-067／更早继承预期；旧117项保留ID及适用域，不当作新版全部覆盖。[EX-004验收](validation.md#完整首场core-066--ex-004)采用明确手动路线、无出牌败路与疲劳对照，全部执行NotRun。
+[验收](validation.md)维护CORE-070共用背包、CORE-069核心装配／辅助与CORE-068供料预期及按其修订的CORE-067／更早继承预期；旧117项保留ID及适用域，不当作新版全部覆盖。[EX-004验收](validation.md#完整首场core-066--ex-004)采用明确手动路线、无出牌败路与疲劳对照，全部执行NotRun。
 
 ## 版本与来源
 
-新采纳见[CORE-069](../sources/draft-changes/D-2026-10-31-spatial-auxiliaries.md)；生产供料见[CORE-068](../sources/draft-changes/D-2026-10-31-backpack-production.md)；统一卡牌输入见[CORE-067](../sources/draft-changes/D-2026-10-27-unified-card-model.md)；原时间机制见[CORE-065](../sources/draft-changes/D-2026-10-23-round-hand-settlement.md)，原限定内容见[CORE-066](../sources/draft-changes/D-2026-10-23-round-first-battle.md)。历史记录保留原日期／范围，后续替代不把它们变成未采纳。
+新采纳见[CORE-070](../sources/draft-changes/D-2026-11-01-shared-backpack.md)；辅助与核心见[CORE-069](../sources/draft-changes/D-2026-10-31-spatial-auxiliaries.md)；生产供料见[CORE-068](../sources/draft-changes/D-2026-10-31-backpack-production.md)；统一卡牌输入见[CORE-067](../sources/draft-changes/D-2026-10-27-unified-card-model.md)；原时间机制见[CORE-065](../sources/draft-changes/D-2026-10-23-round-hand-settlement.md)，原限定内容见[CORE-066](../sources/draft-changes/D-2026-10-23-round-first-battle.md)。历史记录保留原日期／范围，后续替代不把它们变成未采纳。
 
 启动任务仍一次固定整个设计仓库提交，包与细则共用；旧案例明确冻结输入另列例外。实现证据只在[开发入口](../development/README.md)，问题见[questions](../governance/questions.md)，完整来源定位见[source-review](source-review.md)。
 

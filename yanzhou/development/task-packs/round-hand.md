@@ -1,6 +1,8 @@
 # 任务设计包：回合、手牌与布牌
 
-2026-10-31 · Derived Design / CORE-067＋068＋069 · 已同步，执行NotRun。包与来源共用执行任务固定的完整设计提交；源规则沿[采纳D](../../sources/draft-changes/D-2026-10-27-unified-card-model.md)，真实首场沿[EX-004](../../design/examples/round-first-battle.md)。
+2026-11-01 · Derived Design / CORE-067＋068＋069＋070 · 已同步，执行NotRun。包与来源共用执行任务固定的完整设计提交；源规则沿[采纳D](../../sources/draft-changes/D-2026-10-27-unified-card-model.md)，真实首场沿[EX-004](../../design/examples/round-first-battle.md)。
+
+CORE-070空间同步：投入卡真实离包入手，不保留虚拟占格；两组手牌无硬上限，留包未投入物不可取用。完整装载与战后重装沿[共用背包包](shared-backpack.md)，不改变本包生产拍／结算列时序。
 
 ## 玩家目标与范围
 

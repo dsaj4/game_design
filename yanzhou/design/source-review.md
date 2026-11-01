@@ -1,11 +1,12 @@
 # 当前设计来源索引
 
-2026-10-31 · SourceReview。当前采纳与资格沿[基准](baseline.md)；本页只回答结论来自哪里，不属于日常开发或完整GDD必读包。引用默认取任务共同提交，来源原件按自身固定输入解释。
+2026-11-01 · SourceReview。当前采纳与资格沿[基准](baseline.md)；本页只回答结论来自哪里，不属于日常开发或完整GDD必读包。引用默认取任务共同提交，来源原件按自身固定输入解释。
 
 ## 规则来源
 
 | 内容 | 依据 |
 | --- | --- |
+| 当前共用背包与阶段装载 | [CORE-070采纳D](../sources/draft-changes/D-2026-11-01-shared-backpack.md)，[Qualified M](../sources/materials/M-2026-11-01-shared-backpack-direction.md)与[接口评估E](../sources/evaluations/E-2026-11-01-shared-backpack.md)；替换空间分账，备用配置占格、散装核心1格，旧配置可售方向。40格、运输细化与价格未采纳；实现与体验NotRun |
 | 当前辅助道具与核心装配 | [CORE-069](../sources/draft-changes/D-2026-10-31-spatial-auxiliaries.md)，DIR-043 Qualified M及主系统E；替换固定辅槽、词性挂接及打造，采纳单器空间连接、同效叠加与批次继承；核心可逆嵌入。实现与体验NotRun |
 | 当前背包式法器管理 | [CORE-068](../sources/draft-changes/D-2026-10-31-backpack-production.md)，来源为DIR-043的Qualified M与主系统E；替换手牌直接开工、临时路由／优先级及战中切用途，新增专属待料和默认自动补料；只采纳明确范围，体验未验证 |
 | 当前统一卡牌与手动使用 | [CORE-067](../sources/draft-changes/D-2026-10-27-unified-card-model.md)，替换049／058中介产物及065自动上桌、H3、点数和整轮编辑限制；直接产卡、列间布牌和回收，旧规则仅未替换部分生效 |
