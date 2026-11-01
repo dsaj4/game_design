@@ -5,9 +5,13 @@
 本轮是**初始登记**：来自当前开发索引、视觉入口、DIR-029演示交付和已跟踪参考包；不是全历史资产审计。未打开旧归档、未读取未跟踪新方向、未运行Demo或重新验证玩法。登记基线：`25ec81ea9f9cef3496922068bc63622b36aba5c5`。下文“基线提交”均指该完整提交，不自动追随HEAD。本仓库原件用该提交+路径固定；外部资源另外注明。
 
 
-## 2026-10-28 本轮视觉选择与整理
+## 2026-10-31 Ways统一美术基准
 
-言咒当前入口为[本轮视觉基准](../../yanzhou/visual/README.md)：用户暂定AS-G002-032的v03为桌面风格基准，AS-G002-033为卡牌设计重点参考；本轮新增v06底部扇形持牌静态示意。现行交互保留在文字合同，原DM-G002-017示意HTML和旧美术方向已退役。选择及新图仅覆盖视觉取向，不回滚CORE-067或升级玩法／实现证据。
+当前法器、独立物品与艺术卡面共用[Ways唯一美术基准](../../yanzhou/visual/README.md)，源件分别为AS-G002-036@10与AS-G002-040@02；旧法器及旧卡稿已退出活动入口。AS-G002-032的场景保留桌面布局与历史生成用途，AS-G002-033的符号板只作其生成来源取证，不再作为新卡面的绘画模板。现用桌面运行组件未迁移或重画。
+
+## 2026-10-28 视觉选择与整理（历史）
+
+当轮用户暂定AS-G002-032的v03为桌面风格基准，AS-G002-033为卡牌设计重点参考，并新增v06底部扇形持牌静态示意；现行画法已由上方Ways共同基准承接。现行交互保留在文字合同，原DM-G002-017示意HTML和旧美术方向已退役。选择及新图仅覆盖视觉取向，不回滚CORE-067或升级玩法／实现证据。
 
 清理前固定提交为`ddf6ebfe7b3121cbb71d1257c229206a86321a1e`；旧附件、皮肤、HTML和提示词按原路径取证。四张未入Git的退出整场PNG已校验后保全至`E:/Project/yanzhou-art-archive/2026-10-28-v03-selection/`，原manifest同处保留。外部实现、字体、模型、第三方原件和运行包未迁移；历史使用关系继续有效，原日期ReadyForScope不表示当前选择已实现。
 
@@ -50,24 +54,12 @@
 - game-002 / main；Archived / RecoverableLocal，2026-10-31。旧四卡板与提示词退出活动目录，后继为AS-G002-040@02。原法器早先清理的独立取证不变。
 - 说明、manifest及原提示词按[固定Git](https://github.com/dsaj4/game_design/blob/90a7c7bdce65502cb69848c10ca38db033d97500/yanzhou/visual/card-artifact-design-2026-10-28/README.md)取证；本机旧图片的恢复包与整体SHA沿[当前基准](../../yanzhou/visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)。原审阅状态和许可边界保留，不恢复为运行卡面。
 
-## <a id="as-g002-036"></a>AS-G002-036 炼金法器美术源件
+## <a id="as-g002-036"></a>AS-G002-036 Ways法器美术基准
 
-- 2026-10-31并存变体 **ALCHEMY-APPARATUS-10**：[Ways of Alchemy暖色手绘版及七版切换](../../yanzhou/visual/alchemy-apparatus-2026-10-31/ways-v10/README.md)。用户指定本地Ways图集，实际查看器具总览与Copper Pot／Polished Distillation Cube／Albedo三原图，三图均进入两次内置image_gen作画法参考；新图1536×1024／1174×1339 RGBA，圆腹铜釜、青白弯颈瓶、深褐粗线、边缘横向短线与正面留白。新原件、提示词、参考图及外部图集快照SHA沿独立清单，参考图与原提取art_manifest核对；第三方原件就地且未作运行图片。前六版121个登记文件保持，七版切换、三背景、小尺寸及剪影已核；G接受PendingReview，仅内部美术审阅，不采纳Ways配方或改工程，原作者／许可Unknown。
-
-- 2026-10-31并存变体 **ALCHEMY-APPARATUS-09**：[单组件参考版及六版切换](../../yanzhou/visual/alchemy-apparatus-2026-10-31/component-v09/README.md)。两张用户提供的炉式／球腹斜颈组件截图作为直接画法及器形语言参考，均实际进入两次内置image_gen；生成1098×1433／1246×1263 RGBA完整图，灰蓝厚壳、旧铜边圈、折烟囱与斜长颈，中心暗面保持空白无亮球。原件、两张参考、准确提示词及SHA沿独立清单；前五版100个登记文件（含08参考图）保持。六版切换、三背景、小尺寸及剪影已核，F接受PendingReview，不定义占格或实现动画；参考图原作者／许可Unknown，仅本机内部美术参考。
-
-- 2026-10-31并存变体 **ALCHEMY-APPARATUS-08**：[黑线漫画版及五版切换](../../yanzhou/visual/alchemy-apparatus-2026-10-31/survivor-v08/README.md)。用户指定《幸存者的炼金术》两侧嵌合体中的单个小装置画法，并补充2561×1441高清截图；该附件作为唯一图像参考实际进入两次内置image_gen，生成独立平炼釜／白化曲颈瓶，1536×1024／1312×1199 RGBA。粗黑轮廓、硬边明暗、灰蓝金属与锈红色，保持简洁及正面留白；未照搬大型嵌合体。参考截图原作者／许可Unknown，仅本机内部画法参考；原件、准确提示词、输入角色与SHA沿独立清单，前四版80个登记文件保持。五版切换、三背景、小尺寸及剪影已核，E接受PendingReview，不改玩法或工程。
-
-- 2026-10-31并存变体 **ALCHEMY-APPARATUS-07**：[古朴新器形及四版切换](../../yanzhou/visual/alchemy-apparatus-2026-10-31/archaic-form-v07/README.md)。用户要求器形重设计、更加古朴且减少拟真感；解除06旧轮廓约束，平炼釜改无足宽腹陶釜，曲颈瓶改短折颈、去套环，以哑光大色面保持低细节量。两次内置image_gen全新文字生图，无图像输入；1536×1024／1225×1284 RGBA原件、准确提示词与SHA独立保存。前三版61个登记文件SHA保持；四版切换、三背景、小尺寸与剪影已核，D接受PendingReview，不改占格、接口、玩法或工程。
-
-- 2026-10-31并存变体 **ALCHEMY-APPARATUS-06**：[Culdcept器物画法与三版切换](../../yanzhou/visual/alchemy-apparatus-2026-10-31/culdcept-v06/README.md)。以05两件为编辑目标，uses AS-SH-005的CounterShield／Tonfa主体作画法参考；提示词明确保留简洁器形、部件／饰物数量和留白，只迁移手绘色面、笔触和冷暖体积。两次内置image_gen生成1343×1171／1135×1386 RGBA，原图／提示词／输入角色与SHA沿独立清单；前两版42文件SHA保持。三底、切换和小尺寸已核，C接受PendingReview，不改规则或接入引擎。
-
-- 2026-10-31并存变体 **ALCHEMY-APPARATUS-05**：[精线古朴版及A／B切换](../../yanzhou/visual/alchemy-apparatus-2026-10-31/antique-v05/README.md)。用户明确保留04版，再要求线条精致、古朴神秘且不增细节；两次内置image_gen以04两图为编辑输入，生成1343×1171／1135×1386 RGBA，器形与零件数延续，仅调整墨线、旧色和明暗。04版23个登记文件SHA保持，新图／提示词／manifest独立保存；三背景、小尺寸、剪影和切换已核，新风格PendingReview，不改玩法或工程。
-
-- game-002 / main；[两件简洁器物与新规则边界](../../yanzhou/visual/alchemy-apparatus-2026-10-31/README.md)，ALCHEMY-APPARATUS-04。用户指定从炼金设计另选两件，取B01平炼／白化工序制作平炼釜、白化曲颈瓶外形候选，未新增法器规则或兼容。
-- 两次内置image_gen，完整RGBA PNG分别1342×1172／1135×1386；粗墨线、少色大面、中央安静表面，无固定辅槽或分体结构。原图／提示词／参考关系／SHA／原生成路径及清理恢复包沿manifest；无源图像素后处理，使用Cauldron与EvilCap原图仅作风格参考。
-- ReadyForScope / PresentLocal（2026-10-31），仅本机三背景、剪影及64／96／160px对照与源图一致性检查；造型PendingReview。具体占形、供料接口、核心兼容、D及工程未定未验，不作为玩法通过。
-- 旧MOTION-STUDY-01、ASSEMBLY-02及NATIVE-03源／说明／播放器已按用户要求退出活动目录；固定Git37f30968e32d54f4e635a804f55388d3442c0dcc及原路径取证，本机102文件逐条SHA恢复包沿本版入口。ID沿法器美术包续版，不复用旧规则或旧运行验证；原图本机保管，文本／清单入Git，仅内部审阅。
+- game-002 / main；[当前法器源件与恢复入口](../../yanzhou/visual/alchemy-apparatus-2026-10-31/ways-v10/README.md)，ALCHEMY-APPARATUS-10。2026-10-31用户选定Ways法器，与AS-G002-040共用[统一美术基准](../../yanzhou/visual/README.md)：深褐圆墨线、平涂色块、顺形短线；法器中央留白、卡面环境降对比。
+- 当前两张完整RGBA PNG为1536×1024／1174×1339，源图与准确生成提示词保持。Copper Pot／Polished Distillation Cube／Albedo三原图是历史画法输入，参考SHA与外部图集快照沿manifest；第三方原件留研究目录，未作运行图片。
+- StyleBaselineSelected；ReadyForScope / PresentLocal限本机源图一致性及统一12图基准板的分组、三背景、实际尺寸和剪影检查。具体资产细节／玩家辨识／主游戏接入分别验收，不定义法器内容、占格或动画实现。
+- 旧04—09设计、图片和旧多版对照页已退出活动目录；清理前Git db79ead8d155c6a6a1bdf012304589f34db81fdd与150文件逐条SHA恢复包沿当前manifest。实际移出139文件、51个PNG，当前12源图、卡面运行副本及ZIP指纹保持。保留经验归统一基准，不复用退役编号；仅内部制作与审阅。
 
 ## <a id="as-g002-037"></a>AS-G002-037 符号／护盾探索（已退役）
 
@@ -86,6 +78,7 @@
 
 ## <a id="as-g002-040"></a>AS-G002-040 卡牌与物品美术基准
 
+- 与AS-G002-036共用[Ways统一美术基准与12图基准板](../../yanzhou/visual/README.md)；本条只维护材料／卡面源件、队列与交付职责，共通画法集中在统一入口。
 - game-002 / main；[唯一制作与交付入口](../../yanzhou/visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)，ALCHEMY-ITEM-PILOT-02。2026-10-31用户选定当前Ways画法作为后续基准；5透明物品＋5张1024×1536不透明艺术卡面，10份准确提示词与原图SHA沿manifest，当前图及ZIP指纹未改。
 - StyleBaselineSelected；ReadyForScope / PresentLocal限原独立Godot尺寸、深浅紫底alpha、纹理复用及导入检查。风格选择与具体资产细节／主游戏接入／玩家识别验收分开，不新增玩法资格。
 - Ways本机图册四样本已读／目视，River in a Bottle与Plantain作画法输入，旧01原创物件作身份输入；第三方原图不随包交付。01物件版及前序旧图已退出活动目录，生成来源仍按历史路径／SHA取证，恢复包和归档整体指纹由当前manifest固定。
@@ -95,7 +88,7 @@
 
 ### <a id="dm-g002-022"></a>DM-G002-022 双护符动作审阅播放器（已退役）
 
-- Archived / RecoverableLocal（2026-10-31）。用户要求删除旧法器设计，旧一体／拼接／原生分件三版播放器和设计退出活动目录，原8879地址现在展示AS-G002-036@ALCHEMY-APPARATUS-04的静态美术对照，不延续旧动画合同。
+- Archived / RecoverableLocal（2026-10-31）。旧一体／拼接／原生分件播放器和设计已退出活动目录，当前法器与卡面沿[Ways统一美术基准](../../yanzhou/visual/README.md)，不延续旧动画合同；localhost地址不是历史版本依据。
 - 固定设计、旧提示词与检查在37f30968e32d54f4e635a804f55388d3442c0dcc原路径取证；完整本机源码、HTML和截图在逐条SHA验证的old-player.zip中恢复，保管位置／哈希沿[新法器说明](../../yanzhou/visual/alchemy-apparatus-2026-10-31/README.md)。历史浏览器采样仅属于旧方案，无Godot或玩法证明；不重用此DM编号。
 
 ### <a id="dm-g002-020"></a>DM-G002-020 首场手牌与逐列布牌HTML示意
@@ -567,7 +560,7 @@ DM-G002-011第十三批使用补记：GODOT-DEMONCARDS-CANDIDATES-B13-01，固�
 
 ## <a id="as-sh-005"></a>AS-SH-005 Culdcept BEGINS 本机卡面与美术图像包
 
-- 2026-10-31新增使用者：[AS-G002-036@ALCHEMY-APPARATUS-06](../../yanzhou/visual/alchemy-apparatus-2026-10-31/culdcept-v06/README.md)。CounterShield／Tonfa独立主体仅作器物画法输入，形状来自自制05版法器；未把第三方原图作为运行图片，复用边界沿原包。
+- 历史使用者：[AS-G002-036@06固定Git](https://github.com/dsaj4/game_design/blob/db79ead8d155c6a6a1bdf012304589f34db81fdd/yanzhou/visual/alchemy-apparatus-2026-10-31/culdcept-v06/README.md)。CounterShield／Tonfa仅作当时器物画法输入，形状来自原创05版法器；该轮已随法器旧稿退役，不作为当前Ways制作模板，未导入第三方运行图片。
 
 - shared-reference / media-analysis-lab；[资源图册、风格观察与维护入口](../../media-analysis-lab/runs/2026-10-30-culdcept-begins-art/README.md)，CULDCEPT-ART-2026-10-30-v01。用户指定本机安装，REA固定PE／元数据证据、UnityPy静态解码；原件与输出就地保管，不上传第三方二进制。
 - 120个bundle＋13个assets文件，9,913个PNG约2.73 GiB（含纹理／Sprite重复表现），重点为407张完整卡面、409个独立主体Sprite、434张卡材质纹理；22张接触表与搜索图册。固定包manifest SHA-256 `97e936ad27055530b9dcd32e9f4832c498a1d6fa1332f2193c84c48394597684`，准确本机路径／范围／源与导出SHA沿维护页。

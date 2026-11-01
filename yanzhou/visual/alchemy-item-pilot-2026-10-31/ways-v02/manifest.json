@@ -5,7 +5,7 @@
   "date": "2026-10-31",
   "project": "game-002",
   "direction": "main",
-  "status": "VisualVariant",
+  "status": "StyleBaselineSelected",
   "acceptance": "PendingReview",
   "lifecycle": "ReadyForScope",
   "access": "PresentLocal",
@@ -252,7 +252,12 @@
   "styleBaseline": {
     "status": "SelectedByUser",
     "date": "2026-10-31",
-    "scope": "Card and material-item art style; asset detail, host integration and player recognition remain separate"
+    "scope": "Card and material-item style coordinated with apparatus through the shared guide; source images and delivery ZIP unchanged",
+    "version": "WAYS-ART-BASELINE-01",
+    "guide": "E:/Project/game/yanzhou/visual/README.md",
+    "review": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/index.html",
+    "reviewManifest": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/review-manifest.json",
+    "inputCommit": "db79ead8d155c6a6a1bdf012304589f34db81fdd"
   },
   "cleanup": {
     "date": "2026-10-31",

@@ -6,7 +6,7 @@
   "assetId": "AS-G002-036",
   "version": "ALCHEMY-APPARATUS-10",
   "designInputCommit": "1980877a30ff689db17200b06a6d00e0ebb2472f",
-  "scope": "Warm hand-inked rounded copper kettle and cream/teal retort, sparse edge hatching and quiet blank fronts, Ways of Alchemy reference catalog",
+  "scope": "Selected Ways apparatus source art, coordinated with material items and art cards through WAYS-ART-BASELINE-01",
   "lifecycle": "ReadyForScope",
   "access": "PresentLocal",
   "acceptance": "PendingReview",
@@ -158,152 +158,95 @@
     "sourcePackage": "Ways of Alchemy local extracted catalog",
     "mode": "Fresh original vessel generations with three native images from the user catalog as style references only; source card backgrounds are not runtime assets"
   },
-  "preservedVersions": [
-    {
-      "version": "ALCHEMY-APPARATUS-04",
-      "manifest": {
-        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/manifest.json",
-        "bytes": 11084,
-        "sha256": "21e82607c7d520869920c1f665f0ab2f995552d497d20dad4e8572d70b142cdc"
-      },
-      "registeredFilesVerified": 23
-    },
-    {
-      "version": "ALCHEMY-APPARATUS-05",
-      "manifest": {
-        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/antique-v05/manifest.json",
-        "bytes": 9485,
-        "sha256": "041cc151d3aa20429c9809c3a174675e161696a7e38cd92fc1debb7f3e2906ef"
-      },
-      "registeredFilesVerified": 19
-    },
-    {
-      "version": "ALCHEMY-APPARATUS-06",
-      "manifest": {
-        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/culdcept-v06/manifest.json",
-        "bytes": 12644,
-        "sha256": "4a4e9d089b5f0e06f6a1b8272ce880ff2b45200268e13af05b7a090805a19ad6"
-      },
-      "registeredFilesVerified": 19
-    },
-    {
-      "version": "ALCHEMY-APPARATUS-07",
-      "manifest": {
-        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/archaic-form-v07/manifest.json",
-        "bytes": 10347,
-        "sha256": "6a12c277f7cdd8a049117c99b958c0af345fa132ca21d0a5e542238890a9dd3a"
-      },
-      "registeredFilesVerified": 19
-    },
-    {
-      "version": "ALCHEMY-APPARATUS-08",
-      "manifest": {
-        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/survivor-v08/manifest.json",
-        "bytes": 12835,
-        "sha256": "4ffbc6389205d21364fb2de48078e446ad722876b04b9d3dc6823896b2c49fdb"
-      },
-      "registeredFilesVerified": 20
-    },
-    {
-      "version": "ALCHEMY-APPARATUS-09",
-      "manifest": {
-        "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/component-v09/manifest.json",
-        "bytes": 14387,
-        "sha256": "9e30083f1a523a4ad6a937ea807ea74fa3c9848d00304bd6a5f0020b13f27de3"
-      },
-      "registeredFilesVerified": 21
-    }
-  ],
   "entry": {
-    "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/preview.html",
-    "bytes": 23040458,
-    "sha256": "ad59e47f07b12b9ad9f035612e376b1c9ca9aae06465ae46e591a0753758a6f2"
+    "path": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/index.html",
+    "bytes": 20823506,
+    "sha256": "65637a5af3fd331e23afa5b1e18a2e91b2fd1047f1a3152751727a51ebe74d64"
   },
   "prototypeFiles": [
     {
-      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/browser-qa.json",
-      "bytes": 2536,
-      "sha256": "954092b323a569c78b28ef6ee5996e98c353777205203e35b049d56d0b1d3bf9"
+      "path": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/browser-qa.json",
+      "bytes": 5111,
+      "sha256": "68035971d12cfdca07e5c16dadefd4370f3b684983a3b4344c2b2b74e36f54b3"
     },
     {
-      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/build.mjs",
-      "bytes": 5433,
-      "sha256": "e85ac292836c1c598527f9c26dde0502b578cf4d95add32d7b9b4fc31ac2c3f4"
+      "path": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/build.mjs",
+      "bytes": 6961,
+      "sha256": "8012223c60a9e1e8d17b6e5b5ec01e70a6c8c24d615c387890785f89d7f3d975"
     },
     {
-      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/finalize.mjs",
-      "bytes": 6384,
-      "sha256": "dc7ef7e31322e1402dfcc542c67460e2bdc998e17eb24ce4f5fd6d3c5afe8ea2"
+      "path": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/checks.json",
+      "bytes": 6276,
+      "sha256": "6c400ad610533aacbcb49b75e335b1d0269b9cd31320ae44e94ea61a38f99eab"
     },
     {
-      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/image-info.json",
-      "bytes": 7911,
-      "sha256": "30efa3e189ab494918d3d407b6d4034d6c842a8a22ae7a34a54268b0906d47e7"
+      "path": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/finalize.mjs",
+      "bytes": 9057,
+      "sha256": "177f05c975de89bfa75c2b24ec1559b0b0242ecab42045935c6a527c44d34b58"
     },
     {
-      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/prepare-preview.mjs",
-      "bytes": 1696,
-      "sha256": "5d7f866c1f63e14b625175688a69844649126b474ebcaec9c64d54b73efd32bb"
+      "path": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/image-info.json",
+      "bytes": 6091,
+      "sha256": "6cecf375096651a0ac995747a66c56d31020241d24e4e4e749ad710ab36fe727"
     },
     {
-      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/preview.html",
-      "bytes": 23040458,
-      "sha256": "ad59e47f07b12b9ad9f035612e376b1c9ca9aae06465ae46e591a0753758a6f2"
+      "path": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/index.html",
+      "bytes": 20823506,
+      "sha256": "65637a5af3fd331e23afa5b1e18a2e91b2fd1047f1a3152751727a51ebe74d64"
     },
     {
-      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/README.md",
-      "bytes": 1170,
-      "sha256": "af8f6478db27bbdf8d4c4bcd8ebcf88ce5fd45db0cd3ed3cff8b061f3fa50ad5"
-    },
-    {
-      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/serve.mjs",
-      "bytes": 494,
-      "sha256": "ba695cbf99c0d76ccd72154bc84673b696ac449f59c7ee32e5cf593dca1f32d5"
-    },
-    {
-      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/evidence/01-g-paper.png",
-      "bytes": 65545,
-      "sha256": "abe5b5e282df7c38ced4b9872fb66dded03aa5f09302889c87f8c5d03a042a26"
-    },
-    {
-      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/evidence/02-g-dark.png",
-      "bytes": 66760,
-      "sha256": "2c91de328ac58902de9c1e3019f925a3f53e2c403ce232e9936b0f7d14b22eeb"
-    },
-    {
-      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/evidence/03-g-wood.png",
-      "bytes": 67241,
-      "sha256": "bddcd0c053a6340e182bf1a13d483a33a0c1bfd51695b35882155df92002a76d"
-    },
-    {
-      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/evidence/04-g-silhouette.png",
-      "bytes": 55323,
-      "sha256": "e2b640b31782a948b3fb66c7896225f772433055e5fc0aaf533a89566185d452"
-    },
-    {
-      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/ways-v10/evidence/05-current-g.png",
-      "bytes": 67280,
-      "sha256": "c0782af1cb7e8465da8921a04cf382ab0a07e505eb0988bbf3efad41352e9678"
-    }
-  ],
-  "dependencies": [
-    {
-      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/png-info.mjs",
+      "path": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/png-info.mjs",
       "bytes": 1512,
       "sha256": "0962b42625537f9e7adca43ada025cc80e69d2b232adeb4bc14b51e237d649e0"
     },
     {
-      "path": "E:/Project/yanzhou-ui-prototypes/alchemy-apparatus-2026-10-31/component-v09/build.mjs",
-      "bytes": 5316,
-      "sha256": "40249b60175df3e072d9fddf697bac20ef578e96a4920ee3a18c37e03e936800"
+      "path": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/README.md",
+      "bytes": 1335,
+      "sha256": "4db0debdd333769cfd6143c5753375a07354631dcaab7c829ff7250bc3513cc7"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/serve.mjs",
+      "bytes": 470,
+      "sha256": "312c6456f3ef46de19215d36086fba079aedc5d47d0ad8cae5fc9943d00a8234"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/evidence/01-paper.png",
+      "bytes": 217873,
+      "sha256": "384ee977d64d2145982f197bfc87f557d4cb3087a72f9c66c1908eaad758f223"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/evidence/02-dark.png",
+      "bytes": 231600,
+      "sha256": "cf799649a5ae0df5f462123599a3cd4c585e888cffe920ebb9be79c4b3843901"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/evidence/03-wood.png",
+      "bytes": 225851,
+      "sha256": "ef5bef4f35372d700d32aed59186fcafdfc5a059d16f30fa62df3673f6211995"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/evidence/04-silhouette.png",
+      "bytes": 203888,
+      "sha256": "bffcbeb896bd7d66803ab5b57dd5e614d623738a51da508fc2fc49fb74a62a6e"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/evidence/05-baseline.png",
+      "bytes": 225851,
+      "sha256": "ef5bef4f35372d700d32aed59186fcafdfc5a059d16f30fa62df3673f6211995"
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/review-manifest.json",
+      "bytes": 7777,
+      "sha256": "02589f16070a3f2928bebeba95aee40191f1fe5c79efe22da9e77de2cde37495"
     }
   ],
+  "dependencies": [],
   "registeredTexts": [
     {
       "file": "README.md",
       "path": "E:/Project/game/yanzhou/visual/alchemy-apparatus-2026-10-31/ways-v10/README.md",
-      "bytes": 3710,
-      "sha256": "442a12a1dc6a623eecdb712afd15338ce5d1f46bdcc573423f7370d9e5d455e3"
+      "bytes": 3485,
+      "sha256": "92d969aabdd0b8416a6337441def057b2a9d7159c7cda0dfab360881b64971f5"
     },
     {
       "file": "generation.json",
@@ -325,168 +268,363 @@
     }
   ],
   "checks": {
-    "priorRegisteredFilesUnchanged": 121,
-    "newImageOriginalsMatch": true,
-    "referenceHashesMatchExtractedArtManifest": true,
-    "trueAlpha": true,
-    "embeddedImages": 14,
-    "linksChecked": 16,
+    "sourceImagesUnchanged": true,
+    "allSelectedFilesUnchanged": 23,
+    "unifiedReview": {
+      "path": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/checks.json",
+      "bytes": 6276,
+      "sha256": "6c400ad610533aacbcb49b75e335b1d0269b9cd31320ae44e94ea61a38f99eab"
+    },
     "browser": {
       "date": "2026-10-31",
-      "version": "ALCHEMY-APPARATUS-10",
+      "version": "WAYS-ART-BASELINE-01",
       "status": "PassedForScope",
       "observations": [
         {
-          "edition": "a",
+          "groups": [
+            {
+              "art": 2,
+              "group": "apparatus"
+            }
+          ],
           "overflow": false,
-          "visible": [
-            "a",
-            "a"
-          ]
+          "surface": "apparatus"
         },
         {
-          "edition": "b",
+          "groups": [
+            {
+              "art": 5,
+              "group": "item"
+            }
+          ],
           "overflow": false,
-          "visible": [
-            "b",
-            "b"
-          ]
+          "surface": "item"
         },
         {
-          "edition": "c",
+          "groups": [
+            {
+              "art": 5,
+              "group": "card"
+            }
+          ],
           "overflow": false,
-          "visible": [
-            "c",
-            "c"
-          ]
+          "surface": "card"
         },
         {
-          "edition": "d",
+          "groups": [
+            {
+              "art": 2,
+              "group": "apparatus"
+            },
+            {
+              "art": 5,
+              "group": "item"
+            },
+            {
+              "art": 5,
+              "group": "card"
+            }
+          ],
           "overflow": false,
-          "visible": [
-            "d",
-            "d"
-          ]
-        },
-        {
-          "edition": "e",
-          "overflow": false,
-          "visible": [
-            "e",
-            "e"
-          ]
-        },
-        {
-          "edition": "f",
-          "overflow": false,
-          "visible": [
-            "f",
-            "f"
-          ]
-        },
-        {
-          "edition": "both",
-          "overflow": false,
-          "visible": [
-            "a",
-            "b",
-            "c",
-            "d",
-            "e",
-            "f",
-            "g",
-            "a",
-            "b",
-            "c",
-            "d",
-            "e",
-            "f",
-            "g"
-          ]
-        },
-        {
-          "edition": "g",
-          "overflow": false,
-          "visible": [
-            "g",
-            "g"
-          ]
+          "surface": "all"
         }
       ],
-      "geometry": {
-        "overflow": false,
-        "silhouette": true,
-        "viewport": {
-          "height": 720,
-          "width": 1280
-        },
-        "visible": [
-          {
-            "sizes": [
-              224,
-              64,
-              96,
-              160
-            ],
-            "style": "g"
-          },
-          {
-            "sizes": [
-              224,
-              64,
-              96,
-              160
-            ],
-            "style": "g"
-          }
-        ]
-      },
       "backgrounds": [
         {
           "background": "paper",
-          "edition": "g",
-          "visible": [
-            "g",
-            "g"
-          ]
+          "surface": "all",
+          "visibleArt": 12
         },
         {
           "background": "dark",
-          "edition": "g",
-          "visible": [
-            "g",
-            "g"
-          ]
+          "surface": "all",
+          "visibleArt": 12
         },
         {
           "background": "wood",
-          "edition": "g",
-          "visible": [
-            "g",
-            "g"
-          ]
+          "surface": "all",
+          "visibleArt": 12
         }
       ],
-      "scope": [
-        "A/B/C/D/E/F/G/all switching",
-        "Paper/dark/wood alpha composition",
-        "224/64/96/160px and silhouette",
-        "Rounded copper kettle and cream/teal retort; quiet blank front surfaces; edge hatching"
-      ],
+      "geometry": {
+        "cards": [
+          {
+            "sizes": [
+              {
+                "height": 224,
+                "width": 224
+              },
+              {
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "surface": "apparatus"
+          },
+          {
+            "sizes": [
+              {
+                "height": 224,
+                "width": 224
+              },
+              {
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "surface": "apparatus"
+          },
+          {
+            "sizes": [
+              {
+                "height": 152,
+                "width": 152
+              },
+              {
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "surface": "item"
+          },
+          {
+            "sizes": [
+              {
+                "height": 152,
+                "width": 152
+              },
+              {
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "surface": "item"
+          },
+          {
+            "sizes": [
+              {
+                "height": 152,
+                "width": 152
+              },
+              {
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "surface": "item"
+          },
+          {
+            "sizes": [
+              {
+                "height": 152,
+                "width": 152
+              },
+              {
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "surface": "item"
+          },
+          {
+            "sizes": [
+              {
+                "height": 152,
+                "width": 152
+              },
+              {
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "surface": "item"
+          },
+          {
+            "sizes": [
+              {
+                "height": 232.5,
+                "width": 155
+              },
+              {
+                "height": 144,
+                "width": 96
+              }
+            ],
+            "surface": "card"
+          },
+          {
+            "sizes": [
+              {
+                "height": 232.5,
+                "width": 155
+              },
+              {
+                "height": 144,
+                "width": 96
+              }
+            ],
+            "surface": "card"
+          },
+          {
+            "sizes": [
+              {
+                "height": 232.5,
+                "width": 155
+              },
+              {
+                "height": 144,
+                "width": 96
+              }
+            ],
+            "surface": "card"
+          },
+          {
+            "sizes": [
+              {
+                "height": 232.5,
+                "width": 155
+              },
+              {
+                "height": 144,
+                "width": 96
+              }
+            ],
+            "surface": "card"
+          },
+          {
+            "sizes": [
+              {
+                "height": 232.5,
+                "width": 155
+              },
+              {
+                "height": 144,
+                "width": 96
+              }
+            ],
+            "surface": "card"
+          }
+        ],
+        "choices": [
+          "all",
+          "apparatus",
+          "item",
+          "card"
+        ],
+        "opaqueFilters": [
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none",
+          "none"
+        ],
+        "overflow": false,
+        "transparentFilters": [
+          "brightness(0)",
+          "brightness(0)",
+          "brightness(0)",
+          "brightness(0)",
+          "brightness(0)",
+          "brightness(0)",
+          "brightness(0)",
+          "brightness(0)",
+          "brightness(0)",
+          "brightness(0)",
+          "brightness(0)",
+          "brightness(0)",
+          "brightness(0)",
+          "brightness(0)"
+        ],
+        "viewport": {
+          "height": 720,
+          "width": 1280
+        }
+      },
       "limits": [
-        "User style acceptance pending",
-        "Short surface strokes become texture at64px",
-        "No engine, actual backpack, animation or gameplay test"
+        "Style selected by user; per-asset details remain separately reviewable",
+        "No main-game, animation or player-recognition test; previous Godot checks retain their original scope/date"
       ],
       "visualNotes": [
-        "Viewed actual wood and dark composites: transparent edges clean",
-        "Quiet front surfaces retained; at64px edge dashes read as texture while silhouettes stay clear"
+        "Viewed combined twelve-source board: shared brown contours, flat color areas and directional strokes",
+        "Transparent apparatus/item edges compose cleanly; card environments support their matching subjects",
+        "Legacy variant selectors absent"
       ]
+    },
+    "historicalChecks": {
+      "archive": "E:/Project/yanzhou-art-archive/2026-10-31-ways-art-baseline/retired-apparatus-assets.zip",
+      "entry": "old-review/ways-v10/browser-qa.json",
+      "scope": "Previous two-apparatus 224/64/96/160px and three-background check; original date retained"
     }
   },
   "rights": {
     "author": "Unknown",
     "license": "Unknown; local internal style reference only",
     "scope": "Third-party extracted originals remain in their existing local source package, referenced for internal style review only. Generated original vessel sprites and project preview; no reference artwork or patterned backdrop embedded in preview. No public publishing or engine integration."
+  },
+  "status": "StyleBaselineSelected",
+  "styleBaseline": {
+    "status": "SelectedByUser",
+    "date": "2026-10-31",
+    "version": "WAYS-ART-BASELINE-01",
+    "guide": "E:/Project/game/yanzhou/visual/README.md",
+    "review": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/index.html",
+    "reviewManifest": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/review-manifest.json",
+    "inputCommit": "db79ead8d155c6a6a1bdf012304589f34db81fdd",
+    "scope": "Shared apparatus, standalone-item and art-card visual style; per-asset detail, player recognition and main-game integration remain separate"
+  },
+  "reviewManifest": {
+    "path": "E:/Project/yanzhou-ui-prototypes/ways-art-baseline-2026-10-31/review-manifest.json",
+    "bytes": 7777,
+    "sha256": "02589f16070a3f2928bebeba95aee40191f1fe5c79efe22da9e77de2cde37495"
+  },
+  "cleanup": {
+    "date": "2026-10-31",
+    "inputCommit": "db79ead8d155c6a6a1bdf012304589f34db81fdd",
+    "retiredVersions": [
+      "ALCHEMY-APPARATUS-04",
+      "ALCHEMY-APPARATUS-05",
+      "ALCHEMY-APPARATUS-06",
+      "ALCHEMY-APPARATUS-07",
+      "ALCHEMY-APPARATUS-08",
+      "ALCHEMY-APPARATUS-09"
+    ],
+    "archive": {
+      "path": "E:/Project/yanzhou-art-archive/2026-10-31-ways-art-baseline/retired-apparatus-assets.zip",
+      "bytes": 97874012,
+      "sha256": "f6b9c51ecc2cf9d7fe71e8f95fd7e39aab00747c0ff8d6514d63ed10199d6a8d"
+    },
+    "archivedFiles": 150,
+    "verifiedEntries": 150,
+    "removedFiles": 139,
+    "removedPngFiles": 51,
+    "selectedFilesUnchanged": 23,
+    "verification": {
+      "path": "E:/Project/yanzhou-art-archive/2026-10-31-ways-art-baseline/verification.json",
+      "bytes": 6089,
+      "sha256": "17a627017f79681470aab22d332fdbafb0bd8f23bc89d07ea647cefa52d177c3"
+    },
+    "scope": "Old apparatus design and all former multi-version review code/screenshots; selected source images, material/card art, source game extracts and current tabletop runtime components retained"
+  },
+  "priorRetiredDemo": {
+    "id": "DM-G002-022",
+    "status": "Archived / RecoverableLocal",
+    "designCommit": "37f30968e32d54f4e635a804f55388d3442c0dcc",
+    "archives": [
+      {
+        "path": "E:/Project/yanzhou-art-assets/retired-artifacts-2026-10-31/design-source.zip",
+        "sha256": "94a67f77b34d5ec541aeacbe1cfdf33d6f9b6848ac7cda84d636bf6bb1eff19e",
+        "files": 55
+      },
+      {
+        "path": "E:/Project/yanzhou-art-assets/retired-artifacts-2026-10-31/old-player.zip",
+        "sha256": "f5f504afd6b3f5d11d5be0848f61d7c2abac184d340d72b98e9dbf585edbed1c",
+        "files": 47
+      }
+    ]
   }
 }
