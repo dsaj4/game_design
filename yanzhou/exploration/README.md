@@ -13,6 +13,7 @@ Project ID：game-002-optimization。2026-10-23。当前活动方向见下表。
 | [DIR-043 背包管理式法器生产](DIR-043-backpack-production/README.md) | A已按CORE-068采纳；CORE-069新增核心可逆嵌入、独立辅助占格／单器连接、同效叠加与批次继承，替换辅槽；玩法Hypothesis / NotRun | 初轮CORE＋四款官方参照；合并轮CUSTOM及M／E／D范围见方向页 |
 | [DIR-042 纸本秘术工坊](DIR-042-herbal-engraving-style/README.md) | 用户暂定v03为本轮桌面战斗设计基准，独立符号板为卡牌重点参考；其余整场稿与旧美术方向退出活动区，玩法与交互状态保持 | CUSTOM；本轮局部视觉管理，既定背景版本及研究来源沿方向页，不回滚CORE-067 |
 | [DIR-041 法器系统成型玩法深化和游戏后期体验定义](DIR-041-artifact-endgame/README.md) | 自养丹炉、咒轮合奏与行进洞府三版机制候选；Raw / Unqualified，Hypothesis / NotRun，先审阅再定实现 | GDD完整56份＋明确增补7份；固定版本与逐文件覆盖见方向页；另有5款公开参考研究 |
+| [DIR-040 行动卡结算机制修改和重新定位](DIR-040-action-card-reprocessing/README.md) | 核对行动卡结算、再加工与自动流水线体验；Raw / Unqualified，Hypothesis / NotRun | GDD固定56份＋明确增补7份；固定提交与实际进度见方向页 |
 | [DIR-039 二维表现与首场战斗交互](DIR-039-2d-first-battle/README.md) | 具体战斗情景、三种二维结构与最小探索循环；Raw / Unqualified，玩法Hypothesis / NotRun，未启动实现 | GDD完整56份＋7份明确增补＋用户参考图；固定启动版本与分批覆盖见方向阅读日志 |
 | [DIR-037 效果机制设计](DIR-037-effect-framework/README.md) | 法器与行动卡的效果框架、词条候选和分层描述；已交付[DM-G002-009展示册](DIR-037-effect-framework/README.md#dm-g002-009-藏器与咒式)。设计Raw / Unqualified，玩法Hypothesis / NotRun | CUSTOM；固定4138735提交的17份现行设计文档，具体清单见方向页 |
 | [DIR-038 资源机制设计](DIR-038-resource-mechanisms/README.md) | 双类产出、顶端取料、不限堆高、开场供给、退料与付费整理接口；两轮确认形成[局部Qualified素材](DIR-038-resource-mechanisms/M-2026-10-07-resource-entities-and-stacks.md)，未回写主系统。玩法Hypothesis / NotRun | CUSTOM；固定087136b2提交的17份现行设计文档，具体清单见方向页 |
