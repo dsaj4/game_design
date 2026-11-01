@@ -1,0 +1,4 @@
+Use case: precise-object-edit.
+Input image 1 is the edit target: the newly redrawn tall spring-water bottle. Keep its SAME complete bottle design, cork, waterline, blue/cream palette, thick dark brown contour and two-tone illustrated rendering.
+Required change: create a PORTRAIT PNG with EXACT WIDTH:HEIGHT = 1:2 (888 x 1776 pixels). The target is two vertically stacked square inventory cells. Recompose so the whole tall bottle occupies about 80 percent width and 90 percent height with even safe margins. Preserve bottle's natural long silhouette; no stretching pixels. Do not use a 2:3 canvas or square canvas. No extra detail.
+The entire background MUST be genuinely transparent, clean transparent corners and edge space. No dark background, no soft halo, no drop shadow, no matte, no floor. One item only. No text, no grid lines, no cell border, no labels.

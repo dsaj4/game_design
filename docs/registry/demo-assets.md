@@ -84,6 +84,7 @@ DM-G002-021当前二维工程、DM-G002-020首轮HTML、DM-G002-019炼金阅读�
 
 ## <a id="as-g002-040"></a>AS-G002-040 卡牌与物品美术基准
 
+- 2026-11-01新增同五件物品的[占格重绘03](../../yanzhou/visual/alchemy-grid-items-2026-11-01/README.md)，ALCHEMY-ITEM-PILOT-03：清泉水／羽毛／疗伤草为1×2，黏土为允许旋转后的2×1，木炭1×1；对应原候选几何，不提升玩法资格。内置image_gen 6次，5张选中透明PNG与水瓶未选中过程稿均保留原字节；路径、提示词、尺寸、alpha与SHA沿本批manifest。ReadyForScope / PresentLocal仅限同格、152／64px及深浅紫底静态图稿检查；浏览器UI、卡图配套、内容库关联与主游戏接入未完成。02仍是已选画法参考，旧源件／ZIP未覆盖。
 - 与AS-G002-036／041共用[Ways统一美术基准02](../../yanzhou/system-design/presentation/art-direction.md)；本条维护透明物品、旧竖卡图源件、材料队列与历史交付，共通制作规格集中在统一入口。
 - game-002 / main；[本包制作与交付入口](../../yanzhou/visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)，ALCHEMY-ITEM-PILOT-02。2026-10-31用户选定Ways画法；5透明物品继续作为基准，5张1024×1536不透明竖卡图现仅为AS041适配卡图的身份／生成来源。10份准确提示词与原图SHA沿manifest，当前图及ZIP指纹未改。
 - StyleBaselineSelected；ReadyForScope / PresentLocal限原独立Godot尺寸、深浅紫底alpha、纹理复用及导入检查。风格选择与具体资产细节／主游戏接入／玩家识别验收分开，不新增玩法资格。

@@ -1,0 +1,426 @@
+{
+  "schema": "yanzhou-grid-items/1",
+  "id": "AS-G002-040",
+  "version": "ALCHEMY-ITEM-PILOT-03",
+  "batch": "alchemy-grid-items-2026-11-01",
+  "date": "2026-11-01",
+  "project": "game-002",
+  "scope": "Regenerate the existing five transparent inventory items to match written cell counts, preserving WAYS-ART-BASELINE-02. No new materials, cards, gameplay or host integration.",
+  "input": {
+    "mode": "CUSTOM visual production",
+    "commit": "f349e954a211885d45cd9e6aae4f605205a97bac",
+    "currentCommitObservedAfterParallelDelivery": "26ce1bb90198f3b94b5ddb5a4d5103bf8e5c191a",
+    "targetItemSnapshotMatchesCurrent": true,
+    "handoff": "C:/Users/Administrator/AppData/Local/Temp/yanzhou-handoffs-2026-11-01/2026-11-01-art-assets-handoff.md",
+    "requestSummary": "先按已有格子数重做现有五件样例；不执行交接建议的后续五种材料。",
+    "style": "WAYS-ART-BASELINE-02",
+    "source": "AS-G002-040@ALCHEMY-ITEM-PILOT-02"
+  },
+  "generation": {
+    "tool": "built-in image_gen",
+    "calls": 6,
+    "processing": "Selected PNGs copied byte-for-byte. Review composites only; no retouching, recoloring, alpha extraction, resizing or cropping of production sources."
+  },
+  "assets": [
+    {
+      "key": "water",
+      "contentId": "alchemy.water",
+      "name": "清泉水",
+      "surface": "transparent-inventory-item",
+      "source": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-items-2026-11-01\\sources\\water-v02.png",
+      "originalGeneration": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-ab5dfc2c-840f-4b0a-8589-870783fdf326.png",
+      "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c",
+      "bytes": 1091058,
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 739507,
+      "bboxAlphaAbove8": [
+        116,
+        72,
+        773,
+        1688
+      ],
+      "bboxAlphaAbove0": [
+        69,
+        49,
+        865,
+        1691
+      ],
+      "alphaNote": "Threshold 8 only measures visible extent; original alpha bytes untouched, no thresholding or matting applied.",
+      "footprint": {
+        "body": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "displayColumns": 1,
+        "displayRows": 2,
+        "rotationDegrees": 0,
+        "source": "catalog.json at input.commit; shape.body and shape.rotation",
+        "designStatus": "Raw"
+      },
+      "renderContract": {
+        "scale": "uniform contain, no crop",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "sourceCanvasMatchesDisplayFootprint": true,
+        "cellSize": "host-defined; review uses common 128 px cells"
+      },
+      "prompt": "prompts/water-v02.txt",
+      "inputRole": "water-v01-not-selected.png: direct edit target; approved old water item: upstream identity/style reference",
+      "reference": {
+        "path": "E:\\Project\\yanzhou-art-assets\\alchemy-item-pilot-2026-10-31\\ways-v02\\items\\water.png",
+        "sha256": "1834e2704d55b1028df6c6d6944f51e7e63fa4625476a0d89589cd1c11d6c647",
+        "sourceAsset": "AS-G002-040@ALCHEMY-ITEM-PILOT-02"
+      },
+      "status": "ReadyForScope: transparent art / static visual review; not gameplay acceptance or integration",
+      "generationChain": [
+        "prompts/water-v01.txt",
+        "sources/water-v01-not-selected.png",
+        "prompts/water-v02.txt",
+        "water-v02.png"
+      ],
+      "promptSha256": "c04b9c6ab6a61b2281343e8bb6821851b997700ca6203941c214991a47b720e8"
+    },
+    {
+      "key": "fire",
+      "contentId": "alchemy.fire",
+      "name": "燃烧木炭",
+      "surface": "transparent-inventory-item",
+      "source": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-items-2026-11-01\\sources\\fire-v01.png",
+      "originalGeneration": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-ea1cd2f4-83ec-434b-89ab-4a3d7ca19411.png",
+      "sha256": "81c7bc7654b0ecef66fecb3d91b7384ef34d044d64e1d80688332d4c35fae56e",
+      "bytes": 1099355,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 776927,
+      "bboxAlphaAbove8": [
+        78,
+        83,
+        1180,
+        1196
+      ],
+      "bboxAlphaAbove0": [
+        57,
+        80,
+        1240,
+        1236
+      ],
+      "alphaNote": "Threshold 8 only measures visible extent; original alpha bytes untouched, no thresholding or matting applied.",
+      "footprint": {
+        "body": [
+          [
+            0,
+            0
+          ]
+        ],
+        "displayColumns": 1,
+        "displayRows": 1,
+        "rotationDegrees": 0,
+        "source": "catalog.json at input.commit; shape.body and shape.rotation",
+        "designStatus": "Raw"
+      },
+      "renderContract": {
+        "scale": "uniform contain, no crop",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "sourceCanvasMatchesDisplayFootprint": true,
+        "cellSize": "host-defined; review uses common 128 px cells"
+      },
+      "prompt": "prompts/fire-v01.txt",
+      "inputRole": "matching approved original item: edit target / identity / style",
+      "reference": {
+        "path": "E:\\Project\\yanzhou-art-assets\\alchemy-item-pilot-2026-10-31\\ways-v02\\items\\fire.png",
+        "sha256": "dc77e0836869f8e62811e6fb899d578dedbe18f55de047476dca0d8c6be5ccca",
+        "sourceAsset": "AS-G002-040@ALCHEMY-ITEM-PILOT-02"
+      },
+      "status": "ReadyForScope: transparent art / static visual review; not gameplay acceptance or integration",
+      "promptSha256": "226b432b49115c497bfadddb00dd2a9d5d7f287603b33535f7f2ebe3cbce88b9"
+    },
+    {
+      "key": "earth",
+      "contentId": "alchemy.earth",
+      "name": "黏土团",
+      "surface": "transparent-inventory-item",
+      "source": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-items-2026-11-01\\sources\\earth-v01.png",
+      "originalGeneration": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-7db04425-e6f6-4e40-8421-878a425a4a61.png",
+      "sha256": "da47f1f8e6cdf64fa6650f2916b5c4663a6303ce23fdb1df6fa574935cc10460",
+      "bytes": 1063836,
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 690511,
+      "bboxAlphaAbove8": [
+        9,
+        152,
+        1765,
+        783
+      ],
+      "bboxAlphaAbove0": [
+        0,
+        5,
+        1773,
+        887
+      ],
+      "alphaNote": "Threshold 8 only measures visible extent; original alpha bytes untouched, no thresholding or matting applied.",
+      "footprint": {
+        "body": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "displayColumns": 2,
+        "displayRows": 1,
+        "rotationDegrees": 90,
+        "source": "catalog.json at input.commit; shape.body and shape.rotation",
+        "designStatus": "Raw"
+      },
+      "renderContract": {
+        "scale": "uniform contain, no crop",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "sourceCanvasMatchesDisplayFootprint": true,
+        "cellSize": "host-defined; review uses common 128 px cells"
+      },
+      "prompt": "prompts/earth-v01.txt",
+      "inputRole": "matching approved original item: edit target / identity / style",
+      "reference": {
+        "path": "E:\\Project\\yanzhou-art-assets\\alchemy-item-pilot-2026-10-31\\ways-v02\\items\\earth.png",
+        "sha256": "401941b7d3295d7f91ca765a86ea9528f4ffcff0d16530389231600f6a034141",
+        "sourceAsset": "AS-G002-040@ALCHEMY-ITEM-PILOT-02"
+      },
+      "status": "ReadyForScope: transparent art / static visual review; not gameplay acceptance or integration",
+      "promptSha256": "36882f329887243786de276848015f0d6203f4da46981bbe9d3e3258582c8256"
+    },
+    {
+      "key": "wind",
+      "contentId": "alchemy.air",
+      "name": "风息羽毛",
+      "surface": "transparent-inventory-item",
+      "source": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-items-2026-11-01\\sources\\wind-v01.png",
+      "originalGeneration": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-f678bc7f-7a60-4c96-9783-58812e21848e.png",
+      "sha256": "a53d8d6509f640be861dfc071c584ed97d335565a90707f4ad50d7944f699820",
+      "bytes": 799368,
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 1020648,
+      "bboxAlphaAbove8": [
+        198,
+        18,
+        738,
+        1754
+      ],
+      "bboxAlphaAbove0": [
+        86,
+        16,
+        867,
+        1758
+      ],
+      "alphaNote": "Threshold 8 only measures visible extent; original alpha bytes untouched, no thresholding or matting applied.",
+      "footprint": {
+        "body": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "displayColumns": 1,
+        "displayRows": 2,
+        "rotationDegrees": 0,
+        "source": "catalog.json at input.commit; shape.body and shape.rotation",
+        "designStatus": "Raw"
+      },
+      "renderContract": {
+        "scale": "uniform contain, no crop",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "sourceCanvasMatchesDisplayFootprint": true,
+        "cellSize": "host-defined; review uses common 128 px cells"
+      },
+      "prompt": "prompts/wind-v01.txt",
+      "inputRole": "matching approved original item: edit target / identity / style",
+      "reference": {
+        "path": "E:\\Project\\yanzhou-art-assets\\alchemy-item-pilot-2026-10-31\\ways-v02\\items\\wind.png",
+        "sha256": "d774f0f5127ee2a4cad0e5b38c426ff77a72b9dd36d2fc245893bedf1c62e076",
+        "sourceAsset": "AS-G002-040@ALCHEMY-ITEM-PILOT-02"
+      },
+      "status": "ReadyForScope: transparent art / static visual review; not gameplay acceptance or integration",
+      "promptSha256": "25a6fafaf38c068da7c04fbfc1daeceef03201a7b5f4e303b2fb39565ebb4db9"
+    },
+    {
+      "key": "herb",
+      "contentId": "alchemy.herb",
+      "name": "疗伤草",
+      "surface": "transparent-inventory-item",
+      "source": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-items-2026-11-01\\sources\\herb-v01.png",
+      "originalGeneration": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-c8e68212-128d-4c75-98b1-968cd89f4d5b.png",
+      "sha256": "f7125811f5ac01879902081a973480aa7c9e9e69036d61839ca5f8ec316b980c",
+      "bytes": 1026508,
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 889891,
+      "bboxAlphaAbove8": [
+        67,
+        93,
+        827,
+        1695
+      ],
+      "bboxAlphaAbove0": [
+        65,
+        37,
+        869,
+        1746
+      ],
+      "alphaNote": "Threshold 8 only measures visible extent; original alpha bytes untouched, no thresholding or matting applied.",
+      "footprint": {
+        "body": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "displayColumns": 1,
+        "displayRows": 2,
+        "rotationDegrees": 0,
+        "source": "catalog.json at input.commit; shape.body and shape.rotation",
+        "designStatus": "Raw"
+      },
+      "renderContract": {
+        "scale": "uniform contain, no crop",
+        "pivot": [
+          0.5,
+          0.5
+        ],
+        "sourceCanvasMatchesDisplayFootprint": true,
+        "cellSize": "host-defined; review uses common 128 px cells"
+      },
+      "prompt": "prompts/herb-v01.txt",
+      "inputRole": "matching approved original item: edit target / identity / style",
+      "reference": {
+        "path": "E:\\Project\\yanzhou-art-assets\\alchemy-item-pilot-2026-10-31\\ways-v02\\items\\herb.png",
+        "sha256": "1c86fa3ea7ad4f94401301da05b3d14c86603a647ea5973c4f0080cb12cb3139",
+        "sourceAsset": "AS-G002-040@ALCHEMY-ITEM-PILOT-02"
+      },
+      "status": "ReadyForScope: transparent art / static visual review; not gameplay acceptance or integration",
+      "promptSha256": "cf77f4db66829abc1cdde4f477e447315e8b82cabd90e0c6833a6457a1cbdbb7"
+    }
+  ],
+  "notSelected": [
+    {
+      "source": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-items-2026-11-01\\sources\\water-v01-not-selected.png",
+      "reason": "Tall bottle silhouette succeeded, canvas was 1024x1536 (2:3), so regenerated to exact 1:2.",
+      "sha256": "91496a41199bc28c723a974f59af3626c44a3f74a581f87cde6e668c48e302f2",
+      "prompt": "prompts/water-v01.txt"
+    }
+  ],
+  "review": {
+    "html": "E:\\Project\\yanzhou-ui-prototypes\\alchemy-grid-items-2026-11-01\\index.html",
+    "grid": "E:\\Project\\yanzhou-ui-prototypes\\alchemy-grid-items-2026-11-01\\evidence\\grid-review.png",
+    "alpha": "E:\\Project\\yanzhou-ui-prototypes\\alchemy-grid-items-2026-11-01\\evidence\\alpha-review.png",
+    "status": "StaticVisualReviewPassed; BrowserUINotRun",
+    "evidence": [
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\alchemy-grid-items-2026-11-01\\evidence\\grid-review.png",
+        "sha256": "9944ef3de56df2d5b322d83bd718716f15ddaa73fa8f49a5a4e433674e1d3e18"
+      },
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\alchemy-grid-items-2026-11-01\\evidence\\alpha-review.png",
+        "sha256": "164d12e72936f3e0138fba8486e304a4fc121642a8cd266ec72f4b46c1d94524"
+      }
+    ],
+    "observations": {
+      "grid": "5 images viewed with identical 128px square cells; four two-cell shapes, one single-cell shape; complete contours.",
+      "smallSizes": "All 5 viewed with longest edge 152px and 64px; bottle waterline, charcoal fissure, clay mass, blue-tipped feather, four-leaf red-bud herb discernible.",
+      "alpha": "All 5 viewed against light #f5eee1, dark #28332f, purple #705681, at common 112px cells and 64px longest edge; no obvious matte fringe or background rectangle.",
+      "method": "System.Drawing static review composition, viewed as PNG with view_image. Not a browser screenshot.",
+      "browser": "NotRun: local file URL rejected by browser tool URL policy. No alternate browser route attempted.",
+      "notTested": [
+        "card-window composition",
+        "complete-card 155x229 or 96x150",
+        "fonts",
+        "main-game integration",
+        "player recognition"
+      ]
+    },
+    "htmlSha256": "1987d92e6a7739a4e8bc2bac8fb65324d7cf6e53aff1ea0750294dc35fc1f81d",
+    "staticChecks": {
+      "localImageReferences": 30,
+      "imageReferencesPresent": true,
+      "inlineJavaScriptSyntax": "Passed node --check",
+      "sourceCanvasRatios": "5/5 exact",
+      "visibleSubjectWithinCanvas": "5/5 at alpha > 8; measured only, original alpha unchanged",
+      "persistentSourceHashMatchesGenerator": "5/5",
+      "priorItemReferenceHashesUnchanged": "5/5"
+    },
+    "tooling": [
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\alchemy-grid-items-2026-11-01\\build_review.py",
+        "sha256": "32fafa35a8da4f754a0de6b6fc32fd56fcabb1e20a1a0da584fdedf89beacea4"
+      },
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\alchemy-grid-items-2026-11-01\\render_review.ps1",
+        "sha256": "76b9f8bcd6c7407edea0a949979bd75ff96720318c40adda2cb7e52425fb6037"
+      },
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\alchemy-grid-items-2026-11-01\\finalize_review.py",
+        "sha256": "0a024951d4b3e43d3c7ca20aeee75149e899e9009934b3a2f96ea9e0be17f819"
+      }
+    ]
+  },
+  "integration": {
+    "catalog": "Not changed; association suggestions are in each asset record.",
+    "mainGame": "NotRun",
+    "cards": "Previous scene illustrations and complete cards remain historical assets; their bottle proportions are not validated against this batch."
+  },
+  "rights": "Generated original artwork, derived from the project's approved original item images. No third-party originals shipped. Internal project use/review; broader distribution rights not assessed."
+}
