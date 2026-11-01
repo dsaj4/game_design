@@ -184,5 +184,6 @@
     "decision": "CORE-070",
     "record": "../sources/draft-changes/D-2026-11-01-shared-backpack.md",
     "scope": "Only 10 core items: loose occupancy becomes 1 cell and links the adopted rule; all other content values and qualifications retained"
-  }
+  },
+  "deliveryCommit": "a71156679812a3364c4ed7e0ea47a672e73013fb"
 }
