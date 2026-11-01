@@ -6,18 +6,19 @@
 
 | 需要 | 入口与当前适用范围 |
 | --- | --- |
-| 现有可运行资源 | [B13接手摘要](E:/Project/yanzhou-godot/docs/development-handoff.md#先分清版本和证据)及[逐项使用结果](E:/Project/yanzhou-godot/docs/coordination/demoncards-candidates-integration-v01.json)；区分主桌已用与仅检视 |
+| 现有可运行资源 | [当前二维工程](E:/Project/yanzhou-2d/README.md)的`assets/asset-lock.json`及当前首场交付证据；运行依赖均在二维工程内 |
 | 资产身份、来源与复用条件 | [统一AS／DM目录](../../docs/registry/demo-assets.md)，不在本页复制清单 |
 | 新2D首批基础美术源件 | [AS-G002-034 / v02](../visual/tabletop-components-2026-10-28/imagegen-v02/README.md)：10个完整组件均独立imagegen生成，原PNG未改；已由[DM-G002-021首场与卡牌动效续版03](card-motion-2026-10-29.md)实际导入并运行。新动作独立程序实现，无参考游戏代码／图像／声音进入包；卡面／法器／法术声画继续占位，未混入v01裁片或同期候选 |
-| 模型、纹理、声音和曲线候选 | [资源选择与恢复](E:/Project/yanzhou-godot/docs/development-handoff.md#资源选择与恢复)；盘点状态属于原日期，后来使用状态查B13 |
+| 字体与许可恢复 | AS-G002-026两字体与两份OFL已逐字节保留在`E:/Project/yanzhou-art-assets/fonts/demoncards-v01/`；二维工程已有运行副本，不再依赖旧3D目录 |
+| 旧模型、声音和曲线 | [旧实现统一恢复](../history/README.md#legacy-implementations-2026-11-01)；旧目录已删除，B13等记录仅按原日期解释 |
 | 最新设计候选 | [开发索引中的UI稿](README.md#当前事实)及所属visual／来源记录；示意、效果图和源资产分开 |
 | 卡牌与材料物品 | [AS-G002-040@02](../visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)取5透明物品；[AS-G002-041@02](../visual/card-frame-2026-10-31/complete-v02/README.md)取5适配卡图、公共模板和独立真实名称参考，完整卡面已选定。AS040旧竖图仅作身份／生成来源；B01仍仅五种有图、余27种未制作。先按统一基准完成代表首件的字体、标准尺寸派生、alpha与实际宿主接入，再每批5件；独立Godot历史检查不等于主工程或生产验收通过 |
 | 原件与运行检查 | 对应manifest、所属实现报告、源目录；工作台Files按登记路径打开 |
 | 旧批次为何选这些资产 | 本页下方固定历史入口；不从旧“未接入”推断当前仍未接入 |
 
-## B13的实际适配范围
+## 旧B13的历史范围
 
-45个前序候选有检视适配；6件模型与9个音效接入主桌。19曲线、13时间轴记录及有限Godot特效可独立查看；UE原脚本／材质／粒子不是完整原样执行。AS-G002-027／028登记视觉和声音派生，AS-G002-025／026及旧组件源件保留。
+2026-11-01旧3D与三维资产目录退出活动区，原件与本地Git保存在[恢复包](../history/README.md#legacy-implementations-2026-11-01)。45个前序候选曾有检视适配，6件模型与9个音效接入旧主桌；19曲线、13时间轴及有限特效不是UE原脚本／材质／粒子的完整执行。AS-G002-027／028保留原身份；二维工程当前使用的AS-G002-026字体已独立保留。
 
 源码与复制包两档主桌80项、检视87项，以及D指定16图的结果见原报告。这些是限定资源适配证据，不证明主观听感、OS实体输入、长测、完整单战回归或最终视觉接受。本轮未重跑。
 
@@ -35,7 +36,7 @@
 
 ## 历史输入与原说明
 
-10月11日准备轮、10月13日物件桌面、10月14日DC-v01与19组件、10月15日追加盘点／B12的输入哈希、映射、失败条件及原工作包，完整保留在[整理前固定版本](https://github.com/dsaj4/game_design/blob/dbb90b663fbfbb44683f87d444d0fd8e86e08904/yanzhou/development/asset-readiness.md)。旧锚点定位到本段；外部工程原包继续原位；本设计仓库的视觉图片与来源已归入基准附件，退出的旧清单和报告按固定Git取证。
+10月11日准备轮、10月13日物件桌面、10月14日DC-v01与19组件、10月15日追加盘点／B12的输入哈希、失败条件及原工作包，完整保留在[整理前固定版本](https://github.com/dsaj4/game_design/blob/dbb90b663fbfbb44683f87d444d0fd8e86e08904/yanzhou/development/asset-readiness.md)。旧锚点定位到本段；外部旧工程与资产原件改由[统一恢复包](../history/README.md#legacy-implementations-2026-11-01)保管，不再原位运行；当前视觉源件保持原位置。
 
 B12见[原资源接入报告](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/reports/demoncards-assets-2026-10-15.md)，早期准备与接入见[Godot首版](https://github.com/dsaj4/game_design/blob/f21058a54b096e0d6ad2b3b559e352b67596c239/yanzhou/development/reports/godot-start-2026-10-11.md)。旧“尚无音频／未接入”仅按当时版本解释，不能覆盖后来实际结果；旧包的局部成功也不证明新方向已完成。
 

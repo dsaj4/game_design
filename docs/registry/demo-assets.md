@@ -4,6 +4,12 @@
 
 本轮是**初始登记**：来自当前开发索引、视觉入口、DIR-029演示交付和已跟踪参考包；不是全历史资产审计。未打开旧归档、未读取未跟踪新方向、未运行Demo或重新验证玩法。登记基线：`25ec81ea9f9cef3496922068bc63622b36aba5c5`。下文“基线提交”均指该完整提交，不自动追随HEAD。本仓库原件用该提交+路径固定；外部资源另外注明。
 
+## 2026-11-01 旧实现与分散Demo退役
+
+用户明确授权删除旧3D及分散旧言咒目录。`yanzhou-godot`、`yanzhou-godot-baselines`、`yanzhou-pixel-lab`、`yanzhou-tl1-demo`、`yanzhou-alchemy-atlas`、`yanzhou-battle-3d`、`game-002-godogen-lab`已退出`E:/Project/`活动区；完整源码、ignored／未跟踪资产、本地Git及未提交Blender修改经逐文件SHA-256校验后保存在[统一恢复入口](../../yanzhou/history/README.md#legacy-implementations-2026-11-01)。DM-G002-003—007／011／015及依附这些目录的AS旧版本按Archived / RecoverableLocal解释；旧条目的PresentLocal和“当前包”仅表示原日期，原路径不再可直接访问。其他已退役条目保持原身份，编号不复用。
+
+DM-G002-021当前二维工程、DM-G002-020首轮HTML、DM-G002-019炼金阅读稿、Ways美术、公共参考和工作台不在删除范围。AS-G002-026中当前二维使用的两字体及OFL已独立保留到`E:/Project/yanzhou-art-assets/fonts/demoncards-v01/`，原字节不变；二维运行副本继续沿原asset-lock，历史source路径不回填改写。下文旧源目录链接保留生成／技术历史语境，恢复后方可取证，不作为当前工程依赖。不新增清理映射表，不上传恢复包或第三方二进制。
+
 
 ## 2026-10-31 Ways统一美术基准
 

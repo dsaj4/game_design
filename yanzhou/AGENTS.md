@@ -23,7 +23,7 @@
 | 当前能力／单轮方法 | `development/README.md`／`iteration-spec.md` |
 | 任务设计输入／场景审阅 | `development/task-pack.md`及`task-packs/`／`design-review.md`；派生读取，不独立改规则 |
 | 视觉原件与资产身份 | `visual/`及统一AS／DM目录，原件就地 |
-| 实现、构建、技术证据 | 外部代码仓库；当前3D为`E:/Project/yanzhou-godot/` |
+| 实现、构建、技术证据 | 当前二维工程`E:/Project/yanzhou-2d/`；旧3D及早期Demo已退役，恢复入口见`history/README.md` |
 | 查看与执行合同 | `E:/Project/yanzhou-workspace/`，不复制GDD或另一套进度 |
 
 写入职责有疑问再查[文档合同](governance/document-contract.md)，查旧决定时按相关ID取`decision-log`章节；不把整份历史作为默认背景。旧资料中的“当前”只指原日期，历史TH/CAL和Demo局部结果不能外推完整RC1或真人体验。

@@ -16,7 +16,7 @@
 
 根exploration与assets已退役；旧workspaces、optimization兼容树不恢复。根目录只导航，不复制项目规则。来源链接不扩大阅读授权。
 
-2026-10-23：言咒[规范体系](../yanzhou/development/development-standard.md)统一路由材料、制作、工作台、资产、质量和交付；[当前状态](../yanzhou/development/README.md)汇总实际能力并定义开发启动包；[协作讲解稿](../yanzhou/development/development-guide.md)用情景解释项目结构、改设计、做开发和审变更，附可复用提示词。旧过程报告按固定Git取证，制作经验归开发规范与工程接手。2D尚未开始实现。
+2026-11-01：言咒[规范体系](../yanzhou/development/development-standard.md)统一路由材料、制作、工作台、资产、质量和交付；[当前状态](../yanzhou/development/README.md)汇总实际能力并定义开发启动包。当前实现为`E:/Project/yanzhou-2d/`，已有限定首场与卡牌动效；旧3D和早期Demo已删除，源码／原件经校验集中保全，查[历史恢复](../yanzhou/history/README.md#legacy-implementations-2026-11-01)。当前美术、UI原型及工作台继续原位维护。
 
 Demo和制作/参考素材由[统一目录](registry/demo-assets.md)跨项目索引，[DA-1](demo-asset-standard.md)规定归属、版本和复用记录。原文件仍在所属项目或外部实现位置，登记不改变项目权限。
 

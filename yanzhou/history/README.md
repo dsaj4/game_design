@@ -1,8 +1,24 @@
 # 历史与来源取证
 
-Project ID：game-002。文档角色：HistoricalNavigation。2026-10-23；各历史批次按自己的固定版本解释。
+Project ID：game-002。文档角色：HistoricalNavigation。2026-11-01更新；各历史批次按自己的固定版本解释。
 
-清理基准提交：`d44ecd04840b434b171d26f601bafbd87c311c92`。历史的“当前”、未决项、操作口令与资格仅按其原日期有效。现行规则读[design](../design/README.md)，不要恢复整套旧目录来开展新工作。
+原文档清理基准提交：`d44ecd04840b434b171d26f601bafbd87c311c92`。历史的“当前”、未决项、操作口令与资格仅按其原日期有效。现行规则读[design](../design/README.md)，不要恢复整套旧目录来开展新工作。
+
+<a id="legacy-implementations-2026-11-01"></a>
+
+## 2026-11-01 旧3D与早期Demo统一恢复
+
+用户明确授权删除旧3D及其他分散旧言咒。共同设计取证提交为`5b6b0072d39a3752957e5ec8147cbf7ee7ce3ba1`。删除范围仅为原`E:/Project/`下的`yanzhou-godot`、`yanzhou-godot-baselines`、`yanzhou-pixel-lab`、`yanzhou-tl1-demo`、`yanzhou-alchemy-atlas`、`yanzhou-battle-3d`和`game-002-godogen-lab`；当前二维工程、设计仓库、现用美术、UI原型、公共研究与工作台继续保留。此管理决定不改玩法或历史验收结论。
+
+唯一恢复位置：[恢复说明](E:/Project/game-retired-2026-11-01/README.md)，归档`legacy-yanzhou.tar.gz`与`manifest.json`同目录保管。完整保存本地Git、原包、失败证据、ignored／未跟踪文件及Godogen未提交的`art/e1/e1-r2-master.blend`；每个普通文件经归档字节与删除前源文件SHA-256一致性核对，目录链接仅保留链接本身、不跟随读取或删除外部目标。总量、归档SHA及各仓库完整HEAD以该manifest为准，不另建逐项去向表。恢复包只在本机，不提交或上传。
+
+固定恢复包：36,923个普通文件、源字节21,912,529,822；归档16,893,803,824字节，SHA-256 `96501c86e273a33891fd8e9b8c777715bdecef8c8a1f65d086258d12abce5eed`。16个历史目录链接仅作为链接保存，原目标不纳入递归删除。
+
+旧3D工程HEAD为`c7d861c3b88b887eb638e3797be2dbf7a9245886`；原接手与失败总结位于归档内`yanzhou-godot/docs/development-handoff.md`，更早合并依据为其Git提交`cc8c229fe89d85a51e739efc0111a54d139fff1a`。原0.4运行`9c50458a56a38f0c6ebd001d9e6a3ef34382adaa`、B07组合`e0077ffa10d22ad1c9dd91e8037aa2c021409098`、B13运行`e975de8bdbbe70591d4099c34b799e76c4bff1d7`及其manifest、报告和技术ADR均随原Git与文件保留；旧登记的原路径须先恢复再访问。
+
+继续有效的独有经验：B07正式600秒测量出现113.127ms尖峰Fail，507.172秒与116.001秒中断不能拼成通过；30秒或预加载诊断不能代替长测。B13只证明限定资产适配／检视，不证明OS实体输入、完整新单战、听感或视觉接受；原UE Shader／Blueprint／Niagara未完整移植，FuncCardBack用途及第三方再分发条件仍Unknown。源几何、材质可编辑性和引擎呈现须分开检查；运行过曝、透明排序、中文行高及真实点击几何先在发生层修复。更具体的恢复游标、资产生命周期、PCM与工具误判经验保留于归档接手正文，不外推为新2D已验证。共通制作规范仍在[开发规范](../development/development-standard.md#制作与验证经验)。
+
+当前二维需要的两字体／OFL已独立保留，Godot工具迁出到二维工程ignored目录；工作台连接同步二维路径。仅做字节、依赖、文档和路径核对，未启动旧Demo或新玩法实验。
 
 ## 治理历史
 
