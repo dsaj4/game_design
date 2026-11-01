@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "skill": "world-fates",
+  "installed_at": "2026-11-01",
+  "scope": "project",
+  "upstream": {
+    "repository": "jwynia/agent-skills",
+    "commit": "e02ec7e226a6e4f8419fd3b88a1d8e472d421b32",
+    "path": "skills/creative/fiction/worldbuilding/world-fates",
+    "license": "MIT (per-skill declaration)",
+    "standalone_root_license": false,
+    "files_sha256": {
+      "data/fate-choices.json": "8ffe773717ecee3e1193955653a807db8fb99534bec0e983b94d832b2131eb82",
+      "data/fate-tracking.json": "86a950c54b42e083723b58aa1611a9305f239be3b8f513cbeca381f3f190ed9e",
+      "data/shift-types.json": "244a4bbff15ecb2deacf3afba95abedfa77122139381b91c54b30101dc40ddd4",
+      "scripts/exposure-log.ts": "0efbce8c145fa186143e612eba59626a25e07cc86871ede76091b2b9955831de",
+      "scripts/fate-choice.ts": "f2bdab9d1b3e81c2d5602634fd10b7e07b6c48820b7f3c364f35bcab5349c3e7",
+      "scripts/fate-pressure.ts": "15f48f35ab4361d8af402dc5c84b84b304734088a985a3af8e1f11dd05a55530",
+      "scripts/fate-roll.ts": "c5b0d4d72d52b9c5658f8adc0a1696b2fd2e61a1d6df45d851e8734366b6b71c",
+      "scripts/propose-shift.ts": "3d3c8b1c12c8cc9afc833b7f55ec6b5a8ec3b2455ced8c2a2394ba14675745e6",
+      "SKILL.md": "0d9a8d0366e3c739ba4d85e806c2a91b6b22af99b8916f73bb9cad3e9a78ed36",
+      "templates/fate-tracking.md": "933082dfaa5e59bee0205a988f919f5d5496ba7136cf1810a8f3e120a3afa80d"
+    }
+  },
+  "modified_files": {
+    "SKILL.md": {
+      "original_sha256": "0d9a8d0366e3c739ba4d85e806c2a91b6b22af99b8916f73bb9cad3e9a78ed36",
+      "installed_sha256": "9e5e85325dd0c3959e64c4fea12504f24a3fbbd62a758dad62d2e3fd7aeb17e2",
+      "change": "Project-first adapter inserted; upstream method text retained."
+    }
+  },
+  "added_files_sha256": {
+    "references/upstream-skill.md": "0d9a8d0366e3c739ba4d85e806c2a91b6b22af99b8916f73bb9cad3e9a78ed36",
+    "UPSTREAM-LICENSE.md": "f7404f885d8970bd191cc93ea9e4474bfae613ccd0f2fa45bca8216195d78b41"
+  },
+  "review": {
+    "scope": "24 selected upstream files; static review only",
+    "scripts_executed": false,
+    "runtime_dependencies_installed": false,
+    "quality_test": "NotRun"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "skill": "metabolic-cultures",
+  "installed_at": "2026-11-01",
+  "scope": "project",
+  "upstream": {
+    "repository": "jwynia/agent-skills",
+    "commit": "e02ec7e226a6e4f8419fd3b88a1d8e472d421b32",
+    "path": "skills/creative/fiction/worldbuilding/metabolic-cultures",
+    "license": "MIT (per-skill declaration)",
+    "standalone_root_license": false,
+    "files_sha256": {
+      "SKILL.md": "5c5aff96a324970c62081017e67ba4c3ef4df66053257b435dd8075f822278c9"
+    }
+  },
+  "modified_files": {
+    "SKILL.md": {
+      "original_sha256": "5c5aff96a324970c62081017e67ba4c3ef4df66053257b435dd8075f822278c9",
+      "installed_sha256": "39ffa69421a1419ced113502b329c3d7432b7360b279602563a0a5db1bb38c88",
+      "change": "Project-first adapter inserted; upstream method text retained."
+    }
+  },
+  "added_files_sha256": {
+    "references/upstream-skill.md": "5c5aff96a324970c62081017e67ba4c3ef4df66053257b435dd8075f822278c9",
+    "UPSTREAM-LICENSE.md": "d4f6dc5b1b65c962fbbcf6e02fdefd077bfe0a68d0554310ab8a6f20c87e28cd"
+  },
+  "review": {
+    "scope": "24 selected upstream files; static review only",
+    "scripts_executed": false,
+    "runtime_dependencies_installed": false,
+    "quality_test": "NotRun"
+  }
+}

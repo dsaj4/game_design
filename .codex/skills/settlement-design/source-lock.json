@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "skill": "settlement-design",
+  "installed_at": "2026-11-01",
+  "scope": "project",
+  "upstream": {
+    "repository": "jwynia/agent-skills",
+    "commit": "e02ec7e226a6e4f8419fd3b88a1d8e472d421b32",
+    "path": "skills/creative/fiction/worldbuilding/settlement-design",
+    "license": "MIT (per-skill declaration)",
+    "standalone_root_license": false,
+    "files_sha256": {
+      "SKILL.md": "4ab6e78ee88f830d4f294ab54a64e141648878e3d4df8a24b57350e3d66c07b6"
+    }
+  },
+  "modified_files": {
+    "SKILL.md": {
+      "original_sha256": "4ab6e78ee88f830d4f294ab54a64e141648878e3d4df8a24b57350e3d66c07b6",
+      "installed_sha256": "6ebc7d1630796b03173517900aa5802726dabb1bfb1ddfbf77538a962a4aadeb",
+      "change": "Project-first adapter inserted; upstream method text retained."
+    }
+  },
+  "added_files_sha256": {
+    "references/upstream-skill.md": "4ab6e78ee88f830d4f294ab54a64e141648878e3d4df8a24b57350e3d66c07b6",
+    "UPSTREAM-LICENSE.md": "fd44a56e57aeb588fbc1b2b9ccacddec479f0dae40d000e1a09871e6805fa710"
+  },
+  "review": {
+    "scope": "24 selected upstream files; static review only",
+    "scripts_executed": false,
+    "runtime_dependencies_installed": false,
+    "quality_test": "NotRun"
+  }
+}

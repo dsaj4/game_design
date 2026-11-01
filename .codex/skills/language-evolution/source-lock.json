@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "skill": "language-evolution",
+  "installed_at": "2026-11-01",
+  "scope": "project",
+  "upstream": {
+    "repository": "jwynia/agent-skills",
+    "commit": "e02ec7e226a6e4f8419fd3b88a1d8e472d421b32",
+    "path": "skills/creative/fiction/worldbuilding/language-evolution",
+    "license": "MIT (per-skill declaration)",
+    "standalone_root_license": false,
+    "files_sha256": {
+      "SKILL.md": "21d59924928b3a69fa7000983bb6fd6442e9f12d7560bff408077e33aff24f86"
+    }
+  },
+  "modified_files": {
+    "SKILL.md": {
+      "original_sha256": "21d59924928b3a69fa7000983bb6fd6442e9f12d7560bff408077e33aff24f86",
+      "installed_sha256": "e0918f8dbe0e5f46a4f02eb3e0246a56a625487fd8bea18970b57ad5c4ecb6ba",
+      "change": "Project-first adapter inserted; upstream method text retained."
+    }
+  },
+  "added_files_sha256": {
+    "references/upstream-skill.md": "21d59924928b3a69fa7000983bb6fd6442e9f12d7560bff408077e33aff24f86",
+    "UPSTREAM-LICENSE.md": "c4b4b2140126bb9592893dbcab219fdeec896e5ece169e7316665582ca1a587c"
+  },
+  "review": {
+    "scope": "24 selected upstream files; static review only",
+    "scripts_executed": false,
+    "runtime_dependencies_installed": false,
+    "quality_test": "NotRun"
+  }
+}

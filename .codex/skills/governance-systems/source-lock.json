@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "skill": "governance-systems",
+  "installed_at": "2026-11-01",
+  "scope": "project",
+  "upstream": {
+    "repository": "jwynia/agent-skills",
+    "commit": "e02ec7e226a6e4f8419fd3b88a1d8e472d421b32",
+    "path": "skills/creative/fiction/worldbuilding/governance-systems",
+    "license": "MIT (per-skill declaration)",
+    "standalone_root_license": false,
+    "files_sha256": {
+      "SKILL.md": "b0fac2d5533a59b8f14c1c0e04cf798384ac98ab78762fc5e147a8b98cb43bbe"
+    }
+  },
+  "modified_files": {
+    "SKILL.md": {
+      "original_sha256": "b0fac2d5533a59b8f14c1c0e04cf798384ac98ab78762fc5e147a8b98cb43bbe",
+      "installed_sha256": "74972f186bbf8a2a4f211d8bb4d924a8121d8d92ccd5f988e4448973dea4da30",
+      "change": "Project-first adapter inserted; upstream method text retained."
+    }
+  },
+  "added_files_sha256": {
+    "references/upstream-skill.md": "b0fac2d5533a59b8f14c1c0e04cf798384ac98ab78762fc5e147a8b98cb43bbe",
+    "UPSTREAM-LICENSE.md": "c61d1aa8c2b3892f3ec3f4e7dab3d78da9e2a09026564c18e320eb13f21e7885"
+  },
+  "review": {
+    "scope": "24 selected upstream files; static review only",
+    "scripts_executed": false,
+    "runtime_dependencies_installed": false,
+    "quality_test": "NotRun"
+  }
+}

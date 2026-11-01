@@ -1,6 +1,6 @@
 # 项目 Skill 清单
 
-2026-10-14。本项目安装仍为 **4 项**，均位于 `.codex/skills/`；全局技能、插件及外部Mr. Mak工作台不计入此数。管理流程见 [SK-1](../skill-management.md)，原安装证据见[审查记录](../skills/2026-10-02-game-design-skill-review.md)。
+2026-11-01。本项目安装共 **15 项**，均位于 `.codex/skills/`：原4项设计技能及新增11项世界观技能。全局技能、插件及外部Mr. Mak工作台不计入此数。管理流程见 [SK-1](../skill-management.md)，原4项安装证据见[审查记录](../skills/2026-10-02-game-design-skill-review.md)。
 
 | 项目安装 | 职责与启动条件 | 来源及状态 |
 | --- | --- | --- |
@@ -10,6 +10,28 @@
 | [gdd-toolkit](../../.codex/skills/gdd-toolkit/SKILL.md) | 指定系统的接口、交叉影响、MDA 与 GDD 一致性审查 | 本轮新增方法适配版；mamoru-miyagawa/gdd_toolkit，固定 `33f2d88677da8f9ab6ac2659c8ed72a951dbbff0`；MIT；不含上游 CLI |
 
 新增两项的安装、来源和格式已检查；人工边界演练不等于独立模型效果评估，更不等于真人玩法验证。新装技能下一轮生效。
+
+<a id="worldbuilding-skills"></a>
+
+## 世界观技能组（完整11项）
+
+2026-11-01按用户全量安装要求引入jwynia/agent-skills的整个`skills/creative/fiction/worldbuilding/`目录，固定提交`e02ec7e226a6e4f8419fd3b88a1d8e472d421b32`。每项先读项目适配层，上游方法及全部子目录资源保留，source-lock逐项记录来源、哈希和改写。审查范围、许可声明、脚本限制及验证见[本轮安装记录](../skills/2026-11-01-worldbuilding-skill-installation.md)。
+
+| 项目安装 | 主要用途 |
+| --- | --- |
+| [worldbuilding](../../.codex/skills/worldbuilding/SKILL.md) | 世界与社会关系的一致性诊断 |
+| [systemic-worldbuilding](../../.codex/skills/systemic-worldbuilding/SKILL.md) | 虚构前提引发的多层因果 |
+| [language-evolution](../../.codex/skills/language-evolution/SKILL.md) | 语言历史、方言、借词、失传与书写演变 |
+| [conlang](../../.codex/skills/conlang/SKILL.md) | 声音、词形、命名与语言一致性 |
+| [oblique-worldbuilding](../../.codex/skills/oblique-worldbuilding/SKILL.md) | 不同叙述者的文献视角、名人引述与物品描述 |
+| [belief-systems](../../.codex/skills/belief-systems/SKILL.md) | 信仰、仪式及学说分歧 |
+| [economic-systems](../../.codex/skills/economic-systems/SKILL.md) | 资源、劳动、交换与社会关系 |
+| [governance-systems](../../.codex/skills/governance-systems/SKILL.md) | 势力、制度、权力与历史叙述 |
+| [settlement-design](../../.codex/skills/settlement-design/SKILL.md) | 聚落功能、空间与历史层次 |
+| [metabolic-cultures](../../.codex/skills/metabolic-cultures/SKILL.md) | 特定闭环生存条件下的文化推演 |
+| [world-fates](../../.codex/skills/world-fates/SKILL.md) | 长期命运与势力消长的候选方法 |
+
+新装技能从下一轮会话开始使用，列表未刷新时重开会话。完整安装不等于每次必须调用全部，也不默认创建world-bible、context配置、自动命运结算或代理；脚本已保留但未执行，远程运行依赖未引入。正式资格、当前规则及材料范围始终沿项目约定。
 
 ## 全局辅助能力
 

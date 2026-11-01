@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "skill": "economic-systems",
+  "installed_at": "2026-11-01",
+  "scope": "project",
+  "upstream": {
+    "repository": "jwynia/agent-skills",
+    "commit": "e02ec7e226a6e4f8419fd3b88a1d8e472d421b32",
+    "path": "skills/creative/fiction/worldbuilding/economic-systems",
+    "license": "MIT (per-skill declaration)",
+    "standalone_root_license": false,
+    "files_sha256": {
+      "SKILL.md": "5849950f95d7f3242d443b4630944cf3f9b44982f1a4db8af45f9fd6b186007b"
+    }
+  },
+  "modified_files": {
+    "SKILL.md": {
+      "original_sha256": "5849950f95d7f3242d443b4630944cf3f9b44982f1a4db8af45f9fd6b186007b",
+      "installed_sha256": "dc488f6a60885cf01cdbc09df98ffb13b4d3fa654f10459d9173637a01e870e4",
+      "change": "Project-first adapter inserted; upstream method text retained."
+    }
+  },
+  "added_files_sha256": {
+    "references/upstream-skill.md": "5849950f95d7f3242d443b4630944cf3f9b44982f1a4db8af45f9fd6b186007b",
+    "UPSTREAM-LICENSE.md": "c8f54106aa2edb23524bb2b9f346d9497cb1e4c7907e069a4692d01904384ef9"
+  },
+  "review": {
+    "scope": "24 selected upstream files; static review only",
+    "scripts_executed": false,
+    "runtime_dependencies_installed": false,
+    "quality_test": "NotRun"
+  }
+}

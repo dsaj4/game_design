@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "skill": "conlang",
+  "installed_at": "2026-11-01",
+  "scope": "project",
+  "upstream": {
+    "repository": "jwynia/agent-skills",
+    "commit": "e02ec7e226a6e4f8419fd3b88a1d8e472d421b32",
+    "path": "skills/creative/fiction/worldbuilding/conlang",
+    "license": "MIT (per-skill declaration)",
+    "standalone_root_license": false,
+    "files_sha256": {
+      "data/phoneme-frequencies.json": "ae3157e06de51e9ae9d253c7f42f89168e44238ed45c601f99cc0090283df852",
+      "data/syllable-templates.json": "3066e04d1702e15dfc9b3c380679e13379b5bf664eb615932510c3831134a592",
+      "scripts/phonology.ts": "ade2f96ae4df69d344abf6c456b8520bd055294f0093ba0445a21f0e11418d43",
+      "scripts/words.ts": "da8046ea889816eee3ed48a5876ad0e216dc27ef5991d52ecdfe589b993fd1da",
+      "SKILL.md": "755fa13b7cf2c6c07cbfb8da5c01fcd8e7918f68c894cc4ee62f0b7fbb0f5dd9"
+    }
+  },
+  "modified_files": {
+    "SKILL.md": {
+      "original_sha256": "755fa13b7cf2c6c07cbfb8da5c01fcd8e7918f68c894cc4ee62f0b7fbb0f5dd9",
+      "installed_sha256": "ddc1982b02d6b3c328ec35b344409a5fd77faf11eb47319f38746ebc4ba7a5a1",
+      "change": "Project-first adapter inserted; upstream method text retained."
+    }
+  },
+  "added_files_sha256": {
+    "references/upstream-skill.md": "755fa13b7cf2c6c07cbfb8da5c01fcd8e7918f68c894cc4ee62f0b7fbb0f5dd9",
+    "UPSTREAM-LICENSE.md": "85380b8611352feb9bc7c7a153ee127e8121fd09eff532b9b33b41864a6dd3f7"
+  },
+  "review": {
+    "scope": "24 selected upstream files; static review only",
+    "scripts_executed": false,
+    "runtime_dependencies_installed": false,
+    "quality_test": "NotRun"
+  }
+}
