@@ -90,4 +90,3 @@
 - 通用方法：game-design-reality-check的SKILL及project-integration、reality-check-framework、gmt-framework；grill-with-docs的SKILL。仅提供审查方法，不属于新增游戏材料。
 - 本轮已全文读取63/63份，其中完整GDD 56/56、显式增补7/7；没有缺失或未读的允许材料。B1首次汇总输出截断了行动卡rules中段，已单独重读全文；其他批次无截断。
 - B1→B2→B3→B4→B5a/b/c→B6a/b顺序读取，各批实际完成后更新表格。阅读清单没有扩展。来源审查中的历史轮次与旧Unknown只作该文件的版本记录，不覆盖现行rules、baseline和questions。
-

@@ -22,6 +22,8 @@ Project ID：game-002。文档角色：HistoricalNavigation。2026-11-01更新�
 
 ## 治理历史
 
+2026-11-01收口此前未提交的审查报告删除：[设计系统审查原文](https://github.com/dsaj4/game_design/blob/a8ab68998aa5ac588f93ef56a556d3c41293f8e2/yanzhou/governance/design-system-review-2026-10-23.md)保留统计、TL-07义务对照与EX-002失败／恢复试排。现用方法及“精简不等于等义／理解通过”的限制已并入[场景审阅](../development/design-review.md#文档整理的保真要求)；原版本的规则、建议、未验证状态和样例不升级为现行合同。
+
 2026-10-23精简前的[完整治理目录](https://github.com/dsaj4/game_design/tree/ccf3544c1d93372f05b726610a0a3a637efb0ae0/yanzhou/governance)保留旧决策、编号、审查复盘、清理报告与输入附件，包含原来源及仓库外恢复线索。按原文件名／章节取证，不再复制历史目录或维护清理映射。当前职责见[治理入口](../governance/README.md)。
 
 旧报告的Open、停点、数量、测试命令和“下一步”只代表原日期；当前未决查questions，采纳与替代查decision-log，执行状态查开发入口。现用制作经验已归开发规范，旧失败与NotRun不因精简改成通过。
