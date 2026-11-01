@@ -1,0 +1,4 @@
+Precise canvas correction for an opaque card illustration.
+Input image 1 is the EDIT TARGET: the approved NEW compact charcoal scene. It currently measures 1174 pixels wide by 1339 pixels high.
+Input image 2 is the OLD charcoal card, used ONLY as the exact OUTPUT CANVAS SIZE reference: 1174 pixels wide by 1340 pixels high. Do not restore its old tall charcoal silhouette.
+Deliver image 1 on an EXACT 1174x1340 pixel canvas, fully opaque RGB. This is one pixel taller than image 1, matching image 2 dimensions precisely. Keep image 1's compact charcoal, flame, colors, style, scale and scene unchanged as closely as possible. Extend the scene at the bottom edge by the one missing row; no blank line or border. No text, no frame, no crop, no change in subject proportions. The entire subject must remain complete. Output only the corrected card illustration.

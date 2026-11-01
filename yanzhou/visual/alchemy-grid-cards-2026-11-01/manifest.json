@@ -1,0 +1,402 @@
+{
+  "schema": "yanzhou-card-art-pairing/1",
+  "id": "AS-G002-041",
+  "version": "CARD-ART-03",
+  "date": "2026-11-01",
+  "project": "game-002",
+  "input": {
+    "mode": "CUSTOM visual continuation",
+    "commit": "5f4644d38a2d7a6d1b6e088547562f20940b18c8",
+    "requestSummary": "为五件占格重绘物品配套更新卡图；全部卡图尺寸一致，与物品占格大小无关。",
+    "style": "WAYS-ART-BASELINE-02",
+    "pairedItems": "AS-G002-040@ALCHEMY-ITEM-PILOT-03",
+    "priorCardIllustrations": "AS-G002-041@CARD-FRAME-02"
+  },
+  "canvasContract": {
+    "width": 1174,
+    "height": 1340,
+    "units": "pixels",
+    "sameForAll": true,
+    "opaque": true,
+    "independentOfInventoryFootprint": true,
+    "fullBleedScene": true,
+    "textOrGridBakedIntoIllustration": false
+  },
+  "generation": {
+    "tool": "built-in image_gen",
+    "calls": 6,
+    "processing": "All five outputs already share exact target size. Persistent PNGs are byte-for-byte copies, no programmatic resizing, cropping, matting or editing."
+  },
+  "assets": [
+    {
+      "key": "water",
+      "contentId": "alchemy.water",
+      "name": "清泉水",
+      "surface": "opaque-card-illustration",
+      "source": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-cards-2026-11-01\\sources\\water-card-v01.png",
+      "originalGeneration": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-c549d370-b5d0-4fa9-939a-d7ceda0dc782.png",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786",
+      "bytes": 1666693,
+      "prompt": "prompts/water-card-v01.txt",
+      "promptSha256": "e9552a388aa9ff41f69f3812c3c897445c39a1ae61188f0702f3e8c27982438b",
+      "inputs": [
+        {
+          "role": "Edit target / original card scene and style / fixed canvas size",
+          "sourceAsset": "AS-G002-041@CARD-FRAME-02",
+          "path": "E:\\Project\\yanzhou-art-assets\\card-frame-2026-10-31\\complete-v02\\art\\water-v01.png",
+          "sha256": "f9dac9dcedd1c8a7210acdbab944a4a200a5515d58c339d9df0c926ffa0a4e57"
+        },
+        {
+          "role": "Authoritative updated object proportions / identity / palette",
+          "sourceAsset": "AS-G002-040@ALCHEMY-ITEM-PILOT-03",
+          "path": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-items-2026-11-01\\sources\\water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "pairedItem": {
+        "source": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-items-2026-11-01\\sources\\water-v02.png",
+        "footprint": {
+          "body": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "displayColumns": 1,
+          "displayRows": 2,
+          "rotationDegrees": 0,
+          "source": "catalog.json at input.commit; shape.body and shape.rotation",
+          "designStatus": "Raw"
+        },
+        "displayCanvas": [
+          887,
+          1774
+        ]
+      },
+      "sceneNote": "Updated item proportions painted into the previous scene; fixed card canvas.",
+      "status": "ReadyForScope: fixed-size illustration and static pairing/window checks"
+    },
+    {
+      "key": "fire",
+      "contentId": "alchemy.fire",
+      "name": "燃烧木炭",
+      "surface": "opaque-card-illustration",
+      "source": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-cards-2026-11-01\\sources\\fire-card-v02.png",
+      "originalGeneration": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-023c0b1b-9b3b-40f1-83c0-f77ed670d122.png",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "ae17f646276c5d9b9538bfe99a83c404dd51f417d8b0b2898bddbbafe6d9779a",
+      "bytes": 1756154,
+      "prompt": "prompts/fire-card-v02.txt",
+      "promptSha256": "9da0e2a2a9c2a336f59cae74413e04afdcfa0f3bee73bff721a1330cf072dac1",
+      "inputs": [
+        {
+          "role": "Edit target / original card scene and style / fixed canvas size",
+          "sourceAsset": "AS-G002-041@CARD-FRAME-02",
+          "path": "E:\\Project\\yanzhou-art-assets\\card-frame-2026-10-31\\complete-v02\\art\\fire-v01.png",
+          "sha256": "e4ed0a8c6dcdf676a32d305b627ac3994d77b38c111694f3d6ab682332e5af4b"
+        },
+        {
+          "role": "Authoritative updated object proportions / identity / palette",
+          "sourceAsset": "AS-G002-040@ALCHEMY-ITEM-PILOT-03",
+          "path": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-items-2026-11-01\\sources\\fire-v01.png",
+          "sha256": "81c7bc7654b0ecef66fecb3d91b7384ef34d044d64e1d80688332d4c35fae56e"
+        },
+        {
+          "role": "Immediate edit target for exact-height correction",
+          "path": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-cards-2026-11-01\\sources\\fire-card-v01.png",
+          "sha256": "7a09f42c60f07c02d505dbb73a6a3c3346062b09f3ecc01f9a07e610501a3813"
+        }
+      ],
+      "pairedItem": {
+        "source": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-items-2026-11-01\\sources\\fire-v01.png",
+        "footprint": {
+          "body": [
+            [
+              0,
+              0
+            ]
+          ],
+          "displayColumns": 1,
+          "displayRows": 1,
+          "rotationDegrees": 0,
+          "source": "catalog.json at input.commit; shape.body and shape.rotation",
+          "designStatus": "Raw"
+        },
+        "displayCanvas": [
+          1254,
+          1254
+        ]
+      },
+      "sceneNote": "Updated item proportions painted into the previous scene; fixed card canvas.",
+      "status": "ReadyForScope: fixed-size illustration and static pairing/window checks",
+      "generationChain": [
+        "prompts/fire-card-v01.txt",
+        "sources/fire-card-v01.png",
+        "prompts/fire-card-v02.txt",
+        "sources/fire-card-v02.png"
+      ]
+    },
+    {
+      "key": "earth",
+      "contentId": "alchemy.earth",
+      "name": "黏土团",
+      "surface": "opaque-card-illustration",
+      "source": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-cards-2026-11-01\\sources\\earth-card-v01.png",
+      "originalGeneration": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-50221585-a1dc-470c-a897-207f88832c50.png",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "c980636ef67a962f05f4535ab7993448cafccaa91a96613b7679fc8b324bed8e",
+      "bytes": 1646668,
+      "prompt": "prompts/earth-card-v01.txt",
+      "promptSha256": "3a30905a245a0d2e29738ee497a110e919b1530afa22cc83b0728562b589e4c6",
+      "inputs": [
+        {
+          "role": "Edit target / original card scene and style / fixed canvas size",
+          "sourceAsset": "AS-G002-041@CARD-FRAME-02",
+          "path": "E:\\Project\\yanzhou-art-assets\\card-frame-2026-10-31\\complete-v02\\art\\earth-v01.png",
+          "sha256": "e9565d5c48e1ff26dc0218c47e650a0f9652697fbd53162cb5931d0de69d3884"
+        },
+        {
+          "role": "Authoritative updated object proportions / identity / palette",
+          "sourceAsset": "AS-G002-040@ALCHEMY-ITEM-PILOT-03",
+          "path": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-items-2026-11-01\\sources\\earth-v01.png",
+          "sha256": "da47f1f8e6cdf64fa6650f2916b5c4663a6303ce23fdb1df6fa574935cc10460"
+        }
+      ],
+      "pairedItem": {
+        "source": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-items-2026-11-01\\sources\\earth-v01.png",
+        "footprint": {
+          "body": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "displayColumns": 2,
+          "displayRows": 1,
+          "rotationDegrees": 90,
+          "source": "catalog.json at input.commit; shape.body and shape.rotation",
+          "designStatus": "Raw"
+        },
+        "displayCanvas": [
+          1774,
+          887
+        ]
+      },
+      "sceneNote": "Updated item proportions painted into the previous scene; fixed card canvas.",
+      "status": "ReadyForScope: fixed-size illustration and static pairing/window checks"
+    },
+    {
+      "key": "wind",
+      "contentId": "alchemy.air",
+      "name": "风息羽毛",
+      "surface": "opaque-card-illustration",
+      "source": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-cards-2026-11-01\\sources\\wind-card-v01.png",
+      "originalGeneration": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-5d757cd0-5d4c-4fc0-9735-12005c68802c.png",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "53e437a0dc8825421fc1b1f8cb49d87198b2ba78966c0cf6f1b252fc40f95e10",
+      "bytes": 1681566,
+      "prompt": "prompts/wind-card-v01.txt",
+      "promptSha256": "aa13076fd3740402e91ef90d17dc53b466823a787b41e1c72ecca2f7d58178ec",
+      "inputs": [
+        {
+          "role": "Edit target / original card scene and style / fixed canvas size",
+          "sourceAsset": "AS-G002-041@CARD-FRAME-02",
+          "path": "E:\\Project\\yanzhou-art-assets\\card-frame-2026-10-31\\complete-v02\\art\\wind-v01.png",
+          "sha256": "51c1feef3f0a1521dbe2fa195627d9497b5c52b0276c08d52dd0e15210c4e9fe"
+        },
+        {
+          "role": "Authoritative updated object proportions / identity / palette",
+          "sourceAsset": "AS-G002-040@ALCHEMY-ITEM-PILOT-03",
+          "path": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-items-2026-11-01\\sources\\wind-v01.png",
+          "sha256": "a53d8d6509f640be861dfc071c584ed97d335565a90707f4ad50d7944f699820"
+        }
+      ],
+      "pairedItem": {
+        "source": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-items-2026-11-01\\sources\\wind-v01.png",
+        "footprint": {
+          "body": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "displayColumns": 1,
+          "displayRows": 2,
+          "rotationDegrees": 0,
+          "source": "catalog.json at input.commit; shape.body and shape.rotation",
+          "designStatus": "Raw"
+        },
+        "displayCanvas": [
+          887,
+          1774
+        ]
+      },
+      "sceneNote": "Updated item proportions painted into the previous scene; fixed card canvas.",
+      "status": "ReadyForScope: fixed-size illustration and static pairing/window checks"
+    },
+    {
+      "key": "herb",
+      "contentId": "alchemy.herb",
+      "name": "疗伤草",
+      "surface": "opaque-card-illustration",
+      "source": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-cards-2026-11-01\\sources\\herb-card-v01.png",
+      "originalGeneration": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-a04fb294-575c-4d58-8b66-da53ae8a38e2.png",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "bf049b6c634f9093ae89f3a68c229f5b0433d5d1473f772d9eb08e8c79202ed3",
+      "bytes": 1764368,
+      "prompt": "prompts/herb-card-v01.txt",
+      "promptSha256": "a3de20bb9686e0ee1b2886ce1e23474ebe1bf874034baf1d5e75844f796f9fc9",
+      "inputs": [
+        {
+          "role": "Edit target / original card scene and style / fixed canvas size",
+          "sourceAsset": "AS-G002-041@CARD-FRAME-02",
+          "path": "E:\\Project\\yanzhou-art-assets\\card-frame-2026-10-31\\complete-v02\\art\\herb-v01.png",
+          "sha256": "85b4cdf93f88f21715e4477e5259264e4b75bac388d833c0930410456af14faa"
+        },
+        {
+          "role": "Authoritative updated object proportions / identity / palette",
+          "sourceAsset": "AS-G002-040@ALCHEMY-ITEM-PILOT-03",
+          "path": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-items-2026-11-01\\sources\\herb-v01.png",
+          "sha256": "f7125811f5ac01879902081a973480aa7c9e9e69036d61839ca5f8ec316b980c"
+        }
+      ],
+      "pairedItem": {
+        "source": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-items-2026-11-01\\sources\\herb-v01.png",
+        "footprint": {
+          "body": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "displayColumns": 1,
+          "displayRows": 2,
+          "rotationDegrees": 0,
+          "source": "catalog.json at input.commit; shape.body and shape.rotation",
+          "designStatus": "Raw"
+        },
+        "displayCanvas": [
+          887,
+          1774
+        ]
+      },
+      "sceneNote": "Living plant intentionally omits harvest tie, preserving four elongated leaves and red bud.",
+      "status": "ReadyForScope: fixed-size illustration and static pairing/window checks"
+    }
+  ],
+  "review": {
+    "html": "E:\\Project\\yanzhou-ui-prototypes\\alchemy-grid-cards-2026-11-01\\index.html",
+    "pairing": "E:\\Project\\yanzhou-ui-prototypes\\alchemy-grid-cards-2026-11-01\\evidence\\cards-pairing-review.png",
+    "window": "E:\\Project\\yanzhou-ui-prototypes\\alchemy-grid-cards-2026-11-01\\evidence\\card-window-review.png",
+    "template": {
+      "source": "E:\\Project\\yanzhou-art-assets\\card-frame-2026-10-31\\complete-v02\\template\\complete-template-v01.png",
+      "sha256": "1d8def307af42a0fe7c7ef49179ec13d40496c5eb83526dc48511855be7abe2a",
+      "sourceAsset": "AS-G002-041@CARD-FRAME-02",
+      "canvas": [
+        1003,
+        1568
+      ],
+      "artWindow": [
+        33,
+        34,
+        938,
+        1077
+      ],
+      "assembly": "Native source coordinates on source-size template, uniform contain, centered; preview only. No coordinates transferred to a different-size template. No title/font rendered."
+    },
+    "status": "StaticVisualReviewPassed",
+    "observations": {
+      "sameSize": "5/5 final original PNGs exactly 1174x1340, RGB; no image resizing or cropping.",
+      "pairing": "All five card subjects match updated item identity and proportions. Living herb omits harvest tie as required by scene context.",
+      "window": "All five complete subjects viewed in common original template; uniform contain into 938x1077 art window at x33,y34 on 1003x1568 template. No stretched or clipped subjects seen.",
+      "small": "Actual static 155x229 host (image approximately146.5x229) and 96x150 thumbnail contain renders viewed; all five recognizable.",
+      "method": "System.Drawing static rendering followed by view_image; not browser or game screenshots.",
+      "browser": "NotRun; existing session local-file URL policy denial respected.",
+      "notTested": [
+        "independent player recognition",
+        "fonts and title fitting",
+        "main-game integration",
+        "complete-card production"
+      ]
+    },
+    "evidence": [
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\alchemy-grid-cards-2026-11-01\\evidence\\cards-pairing-review.png",
+        "sha256": "787984f7ddd46461c50f6c1c2b79a70ac3e9504c868b6a42ea47dd0d2768360e"
+      },
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\alchemy-grid-cards-2026-11-01\\evidence\\card-window-review.png",
+        "sha256": "6941ab9b7cfa468459d047282f4e7e7b1ea18752c96ea165135200ceedf26eee"
+      }
+    ],
+    "staticChecks": {
+      "allFiveExactDimensions": [
+        1174,
+        1340
+      ],
+      "allFiveOpaqueRGB": true,
+      "localHTMLReferencesPresent": 16,
+      "inlineJavaScriptSyntax": "Passed node --check",
+      "outputOriginalBytes": "5/5 match",
+      "priorInputHashesUnchanged": true
+    },
+    "tooling": [
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\alchemy-grid-cards-2026-11-01\\build_review.py",
+        "sha256": "ef59b8ce83dbc9bff03d6d912919160e725e462873d3cfd71ff8262c13b68b3e"
+      },
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\alchemy-grid-cards-2026-11-01\\render_review.ps1",
+        "sha256": "087dc72f1c57d326f99e934435d3f20f2ee374d4d7a0477fd11e6c1f95edd9fb"
+      },
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\alchemy-grid-cards-2026-11-01\\finalize_review.py",
+        "sha256": "fc14425d8d7c6183c00a50a0e7818c7ce182585fe38662968a00a088a41e1170"
+      }
+    ],
+    "htmlSha256": "187b26843160467dd3131d5fab401e9ad9914862d8f2f0bc4008e86771267426"
+  },
+  "integration": {
+    "contentLibrary": "NotChanged; stable IDs / surface / paths / hashes supplied in this manifest.",
+    "mainGame": "NotRun",
+    "completeCardProduction": "Not delivered; template/title/font production issues unchanged."
+  },
+  "rights": "Generated from project original art; only project internal production/review assessed. No third-party source images or fonts shipped.",
+  "notSelected": [
+    {
+      "source": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-cards-2026-11-01\\sources\\fire-card-v01.png",
+      "sha256": "7a09f42c60f07c02d505dbb73a6a3c3346062b09f3ecc01f9a07e610501a3813",
+      "width": 1174,
+      "height": 1339,
+      "reason": "One row shorter than the other four. Corrected via image_gen to 1174x1340; original preserved.",
+      "prompt": "prompts/fire-card-v01.txt"
+    }
+  ]
+}

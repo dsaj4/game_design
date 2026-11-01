@@ -93,6 +93,8 @@ DM-G002-021当前二维工程、DM-G002-020首轮HTML、DM-G002-019炼金阅读�
 
 ## <a id="as-g002-041"></a>AS-G002-041 完整卡面基准与历史卡框
 
+- 2026-11-01新增[五件配套卡图03](../../yanzhou/visual/alchemy-grid-cards-2026-11-01/README.md)，CARD-ART-03；对应AS-G002-040@ALCHEMY-ITEM-PILOT-03。最终5张全部1174×1340 RGB，与物品占格无关；image_gen 6次，木炭1174×1339首稿未选，修正后尺寸一致。原PNG／提示词／参考角色／SHA沿本批manifest。ReadyForScope / PresentLocal限静态配套、统一图窗、155×229及96×150检查；旧模板、字体、内容库关联与主游戏接入未升级。原02及ZIP保留。
+
 - 2026-10-31用户选定CARD-FRAME-02：[完整卡面基准](../../yanzhou/visual/card-frame-2026-10-31/complete-v02/README.md)。按完整Ways研究恢复图借鉴整体组织，深褐薄边、上部卡图窗与下部浅鼠尾草名称板；一张模板、同五物件的五张适配卡图，共6次内置image_gen。名称使用独立真实字体，不把效果说明放入卡面，不建立类型色／稀有度映射。
 - 模板实际1003×1568，图窗适配插画的实际尺寸／原件／准确提示词／输入角色／SHA沿本版manifest；原AS-G002-040竖图和01框字节保持。外部包提供三职责组装组件及5张1024×1600整卡审阅导出，未包含第三方原图或字体文件。
 - VisualDesignSelected / ProductionPreparation；ReadyForScope / PresentLocal仍仅限历史Godot4.7.2五卡大图／155×229、模板三背景alpha、五名真实字体边界、100次模板复用、导入及文件检查，当前选择摘要沿本仓库manifest。历史checks与外部ZIP不回填改写；字体可交付性、尺寸归一化、近不透明名称板和主工程接入待生产验收。参考包是源资源／布局静态组装而非逐像素Unity截图；本轮未接主游戏、采纳显示合同或运行玩家实验。下列01仅保留历史范围。

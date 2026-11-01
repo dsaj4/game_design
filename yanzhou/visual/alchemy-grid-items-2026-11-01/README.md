@@ -2,6 +2,8 @@
 
 2026-11-01 · game-002 / main · **AS-G002-040 / ALCHEMY-ITEM-PILOT-03**。
 
+后续配套已完成：[五张统一1174×1340卡图03](../alchemy-grid-cards-2026-11-01/README.md)。卡图尺寸不随物品占格变化；下文保留本次物品批次的实际检查范围。
+
 **[打开五件格子审阅板](E:/Project/yanzhou-ui-prototypes/alchemy-grid-items-2026-11-01/index.html)**：相同格子尺寸显示五件新图，可切换深浅／紫底、格线、剪影，并按住按钮对照旧图。
 
 ![五件按占格重绘的透明物品](E:/Project/yanzhou-ui-prototypes/alchemy-grid-items-2026-11-01/evidence/grid-review.png)
