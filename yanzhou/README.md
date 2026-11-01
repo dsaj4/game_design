@@ -7,6 +7,7 @@ game-002 · 导航更新2026-11-01。当前准备同一游戏的新2D开发，�
 | 当前要做什么 | 入口 |
 | --- | --- |
 | 查看全部系统的目标、体验、取舍与下一项设计 | [系统设计手册](system-design/handbook.md) |
+| 查具体物件、配方、文案、占形与图稿 | [内容库HTML展板](content-library/index.html) · [维护入口](content-library/README.md) |
 | 了解游戏 | [唯一核心正文](design/GDD.md) |
 | 按任务开发／人工审校 | [任务设计包](development/task-pack.md) · [场景审阅](standards/design-review.md) |
 | 查工作规范和下一步 | [独立规范层](standards/README.md) · [阶段与启动条件](standards/production-plan.md) |

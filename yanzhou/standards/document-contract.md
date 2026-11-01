@@ -1,6 +1,6 @@
 # 文档职责与维护
 
-2026-11-01 · Accepted / Documentation · G002-DOC-033，继承DOC-030。资格、采纳和记录规则统一沿[设计流程](../../docs/design-workflow.md)，此处只规定归属及同步。
+2026-11-01 · Accepted / Documentation · G002-DOC-034，继承DOC-033／030。资格、采纳和记录规则统一沿[设计流程](../../docs/design-workflow.md)，此处只规定归属及同步。
 
 ## 权威来源
 
@@ -8,9 +8,10 @@
 | --- | --- |
 | 游戏核心、循环与当前范围 | [design/GDD](../design/GDD.md)；版本／资格边界见[baseline](../design/baseline.md) |
 | 系统精确行为、条件、公式与例外 | [规则索引](../governance/rule-index.md)所指rules；迁入GDD的核心TL由GDD维护 |
-| 参数、实际内容与限定案例 | design/parameters、content、examples；案例数值不成为全局默认 |
+| 全局参数、内容填写合同与限定案例 | design/parameters、content、examples；案例保留初态、操作与预期，具体对象定义引用内容库，案例数值不成为全局默认 |
+| 具体物件、文案、配方与占形 | [content-library](../content-library/README.md)；catalog.json为单一数据源，分册与HTML派生；Accepted限定对象与Raw／Qualified条目分别标记 |
 | 系统目标、取舍与体验假设 | [系统设计手册](../system-design/handbook.md)及`system-design/`所属系统design／experience；手册为总览，不独立修改细则 |
-| 当前具体方案、内容与表现设计 | `system-design/`的背包工作稿、炼金分册、内容框架、效果身份与表现说明；逐段保留Raw／Qualified／已确认意图，不混入规则正文 |
+| 系统方案、内容设计方法与表现合同 | `system-design/`的背包工作稿、炼金方法、内容框架、效果身份与表现说明；不再维护具体物件目录副本；逐段保留Raw／Qualified／已确认意图，不混入规则正文 |
 | 规则情境 | `design/`所属系统examples及跨系统案例；真实数值仍只维护一处 |
 | 领域词义 | [CONTEXT](../CONTEXT.md) |
 | 当前设计问题 | [questions](../governance/questions.md)；工程Bug留实现仓库 |

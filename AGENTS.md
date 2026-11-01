@@ -1,10 +1,10 @@
 # Agent 操作手册
 
-2026-11-01 / layout.8。此仓库管理游戏构思、设计与来源；代码在各自实现仓库。默认项目为《言咒》game-002，工作区`yanzhou/`。
+2026-11-01 / layout.9。此仓库管理游戏构思、设计与来源；代码在各自实现仓库。默认项目为《言咒》game-002，工作区`yanzhou/`。
 
 ## 先选入口
 
-- 系统设计从[设计师手册](yanzhou/system-design/handbook.md)进入；`system-design/`管目标、取舍与工作稿，`design/`管现行规则，`standards/`管与玩法无关的工作规范，三层独立。
+- 系统设计从[设计师手册](yanzhou/system-design/handbook.md)进入；`system-design/`管设计目标、取舍与方法，具体物件／配方在[内容库](yanzhou/content-library/README.md)单处维护；`design/`管现行规则，`standards/`管与玩法无关的工作规范。
 - 言咒任务读[yanzhou/AGENTS](yanzhou/AGENTS.md)。开发接手按[开发入口](yanzhou/development/README.md)的固定启动包；局部管理任务只读必要文件，不加载玩法。
 - 进入探索或切换探索材料时，先读[阅读合同](yanzhou/exploration/start.md)与[探索AGENTS](yanzhou/exploration/AGENTS.md)，再按CORE/GDD/FULL/CUSTOM/NONE读取；新方向默认CORE，已有方向沿登记版本。链接不授权扩读。
 - 其他项目、跨项目路径或仓库结构任务再查[README](README.md)、[项目地图](docs/workspace-map.md)、[注册表](docs/registry/project-registry.md)。独立肉鸽已[退役](docs/workspace-decisions.md#ws-010)，历史材料不跨项目继承，不重建其目录。

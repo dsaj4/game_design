@@ -1,5 +1,7 @@
 # 卡牌内容登记
 
+具体对象定义与候选分层统一查[内容库](../../content-library/README.md)；当前首战只读取[EX-004限定条目](../../content-library/ex004.md)。本页保留内容字段、组合检查及规则接口。
+
 2026-10-31 · ContentScope / CORE-069。当前首场战斗内容为[EX-004](../examples/round-first-battle.md)，CORE-066已冻结套组、敌表及初态，CORE-067已迁移手动出牌、CORE-068固定战前用途；CORE-069将迅速迁移为辅助；尚缺生产背包尺寸／法器与辅助占形／材料形状；[EX-003](../examples/round-hand.md)保持局部机制说明，[EX-001](../examples/simple-spell.md)保留旧连续拍输入。完整发行池未冻结。
 
 ## 当前内容

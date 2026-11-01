@@ -1,0 +1,130 @@
+{
+  "id": "DM-G002-023",
+  "version": "CONTENT-LIBRARY-01",
+  "date": "2026-11-01",
+  "project": "game-002",
+  "direction": "main",
+  "lifecycle": "ReadyForScope",
+  "access": "PresentLocal",
+  "entry": "index.html",
+  "canonical": "catalog.json",
+  "objects": 99,
+  "recipes": 35,
+  "objectsWithArt": 7,
+  "artFiles": 17,
+  "scope": "Content reading and review only; qualification and adoption remain item-scoped; no gameplay execution",
+  "designInputCommit": "16838828fba90a3444c4a49a35b98df74f271f32",
+  "files": [
+    {
+      "path": "alchemy-notes.md",
+      "bytes": 1126,
+      "sha256": "cd875dfef70f0a281f12f52d672c60ca2dcfa2910d64ab823b23da9036cb1595"
+    },
+    {
+      "path": "alchemy.md",
+      "bytes": 118385,
+      "sha256": "6d36f2fcf3d7d6afbc30d0bf0ed015e123bb425b06a30de8230875b78dcedc5b"
+    },
+    {
+      "path": "builds.md",
+      "bytes": 3561,
+      "sha256": "52948cc244d096e1a4689385720b9cdc7238ee9071834a261c4e101fbe3a193e"
+    },
+    {
+      "path": "catalog.json",
+      "bytes": 269080,
+      "sha256": "53a9e330d3498a60f52cc12572077be70b1d14b6377db8f2e9d60613811b364f"
+    },
+    {
+      "path": "ex004.md",
+      "bytes": 14811,
+      "sha256": "46ee5e9f6e26447e08e1575b60756501f4810bda6254b47689b2dbf9064a0927"
+    },
+    {
+      "path": "index.html",
+      "bytes": 192937,
+      "sha256": "583f103bda402887028a3b7d1260e08d60ecab78a0392e2e2d6b2020903e20a7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5215,
+      "sha256": "df970281c2a35f346354ba0cc2a5577b32ecb21042d91af7ce32ccdf521f2285"
+    },
+    {
+      "path": "recipes.md",
+      "bytes": 20954,
+      "sha256": "f5e683e5b171393aabbbbea44786b6e697ba4242858fe528d3894ff2dd9e963b"
+    },
+    {
+      "path": "reserve.md",
+      "bytes": 17161,
+      "sha256": "1a78f85fa558d23d0ad6ab4e69a53dc75c8b23421740961aa83e1ae3e2e58390"
+    },
+    {
+      "path": "sample.md",
+      "bytes": 3284,
+      "sha256": "7f6b3725748dcc1e4fd0d4e8d1deb15f613d3f97518cc3fc62eadc7c281fb110"
+    },
+    {
+      "path": "visual.md",
+      "bytes": 2060,
+      "sha256": "ec180a2e8c33ad0a7fc21b8a641f1328cc357c074d640e0a96b30bb1f20dc543"
+    }
+  ],
+  "generator": {
+    "directory": "E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01",
+    "files": [
+      {
+        "path": "build.py",
+        "bytes": 7210,
+        "sha256": "edd2ad624e8cac9b62744b5dbc777de1e0074f3323cc360633eea89192bf87d9"
+      },
+      {
+        "path": "template.html",
+        "bytes": 28407,
+        "sha256": "70ea5d822b2b80245ff3f08cc2170647348df7d8ce1f500821d1d340436a0b43"
+      },
+      {
+        "path": "README.md",
+        "bytes": 1249,
+        "sha256": "fc8ad9008baffc48fb5f8d6e84e3b0bf2b7b1b29ea24a7349b0a3dd0e2a88bb8"
+      },
+      {
+        "path": "qa.cjs",
+        "bytes": 6421,
+        "sha256": "675f4628e2568f6d1724ec986554afe9e3683c109daabe8e6904ceb6928c23a3"
+      }
+    ]
+  },
+  "verification": {
+    "browserChecks": 157,
+    "browserErrors": [],
+    "migrationChecks": 315,
+    "newBrokenFileLinks": 0,
+    "newBrokenAnchors": 0,
+    "evidence": [
+      {
+        "path": "qa-result.json",
+        "bytes": 4884,
+        "sha256": "f8560d4a3d34c05c5a6b180adf9c00a2925776bb2be15c357130bbebe1e7c822"
+      },
+      {
+        "path": "migration-checks.json",
+        "bytes": 12041,
+        "sha256": "40c9cfe24e6d184205409a1882121d31e6d557d33d2e13e43dad031915d78f60"
+      }
+    ]
+  },
+  "uses": [
+    "DM-G002-019@R09",
+    "AS-G002-036@ALCHEMY-APPARATUS-10",
+    "AS-G002-040@ALCHEMY-ITEM-PILOT-02",
+    "AS-G002-041@CARD-FRAME-02"
+  ],
+  "assetPolicy": "Original image bytes and locations retained; local paths only; no copied third-party assets or new distribution permission",
+  "unverified": [
+    "Gameplay, engine integration, player understanding and balance",
+    "Full assistive technology and print layout",
+    "Asset availability on other computers"
+  ]
+}

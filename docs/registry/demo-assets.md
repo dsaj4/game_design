@@ -123,6 +123,8 @@ DM-G002-021当前二维工程、DM-G002-020首轮HTML、DM-G002-019炼金阅读�
 
 ### <a id="dm-g002-019"></a>DM-G002-019 炼金体系HTML设计手册（2026-10-27新增）
 
+> 2026-11-01：R09与详细HTML 02转为保留的固定阅读快照；当前物件、配方与占形由[DM-G002-023内容库](../../yanzhou/content-library/README.md)承接。原版本、状态及检查仅按当时范围解释，原文件不改写。
+
 - 2026-11-01文案续版COPY-01：当前[展示HTML R09](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html)为32材料＋11产物补卡面短说明／图鉴解释，并支持全文检索；[详细HTML 02](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-handbook-r02.html)同步§3.5写作准则及A.3—4全部文案。正文仍单处维护于[设计手册](../../yanzhou/system-design/alchemy/handbook.md)，固定源d6667ab845a4a3368408dd5c633476d929fe47d6，参考SRC-SH-WOA-COPY-20261101。新文案／感官表现为Raw Copy Revision，不移植原作背景或规则；配方、效果、几何、预算数组均与R08一致，R08与详细HTML 01原件及字节保持。HTML／文案自制，复用条件沿本条；未新增玩法资格。
 - R09 SHA-256：0fcff8b15c455c5b222ca9d0178d51382259aed590a2ef87d8d7af85788bb5d5；详细HTML 02 SHA-256：3b0e9ecdc1efbf4ddd08a0724c56095beb2f756b2f88d4e936a830f56f72e0b2。[文案详情预览](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09-preview.png)SHA-256：dce0add178df2726407f0a14c4c5ceb4771d60cd3ef6244a2d505548efb0f144。ReadyForScope / PresentLocal（2026-11-01，限阅读与内容一致性）。161项静态核对覆盖43身份与两层文案、双页同步、原数组不变、旧快照保留、链接和来源版本分离；双页脚本语法通过。实际UI检查32材料卡／11产品卡、清泉水／贤者之石详情、文案“银色液珠”检索、详细手册A.3跳转／110行附录／“伞褶”检索，捕获警告／错误为空。[限定检查](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/r09-copy-check.json)SHA-256：a8ba189316933ac362ecf5eaa2699975aab6b671421408f67a59926e50eae19d。未测手机、打印、全键盘、独立设备、真人理解或生产／战斗；未运行新玩法实验。
 
@@ -615,3 +617,11 @@ DM-G002-011第十三批使用补记：GODOT-DEMONCARDS-CANDIDATES-B13-01，固�
 - ReadyForScope / PresentLocal，2026-10-31，限 6,420 个 PCK 条目 MD5、全部 PNG 解码/哈希、物品表保留、匹配场景依赖和图册搜索/详情检查。REA 确认 PE 资源；PCK 不受支持的失败保留，物品提取来自 GDRE 静态恢复。没有运行源游戏；完整放置、合成和战斗算法 Unknown，不宣称脚本恢复或原工程无损还原。
 - uses: None；derived-from 用户提供的第三方 RAR 静态提取；使用者AS-G002-040@ALCHEMY-ITEM-PILOT-01取三张物品图作目视可读性参照，未将第三方原图送入生成或运行包。原作者／公开改作和再分发授权 Unknown，仅本机研究参考，不直接导入游戏，不升级 M 资格或设计采纳。
 - 2026-10-31新增 BACKPACK-UI-01 背包区域专项，沿同一资产身份：[分析页与检查范围](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/media-analysis-lab/runs/2026-10-31-backpack-battles-rea/README.md#2026-10-31-背包区域-ui-专项)、[固定元数据](https://github.com/dsaj4/game_design/blob/d47080a1eab3903d37122e8ac0aba00d78c2aceb/media-analysis-lab/runs/2026-10-31-backpack-battles-rea/inventory-ui.json)。28 张区域 UI 纹理（含7张容量边框），49 个来源 SHA 与原版一致；新增资源对照、分层示意和原创 UI 分析，原 BACKPACK-ITEMS-01 文件与 manifest 不改。ReadyForScope / PresentLocal 仅限静态资源与页面检查；9×7 是基准画布而非初始可用容量，实时布局及脚本分派仍 Unknown。原许可与目标项目使用关系保持，不将分析示意标为实机验证。
+
+
+## <a id="dm-g002-023"></a>DM-G002-023 言咒具体内容库展板
+
+- game-002 / main；CONTENT-LIBRARY-01。用户要求设计手册指导方法、内容库存储具体产物，HTML展板展示非规则物件。[打开展板](../../yanzhou/content-library/index.html)；[维护与范围](../../yanzhou/content-library/README.md)。99项具体设计、35条配方，Accepted案例限定、Qualified身份／连接、Raw、储备与暂缓分别呈现；不把效果身份、机制、旧发行池或空系统当作物件。
+- 固定文件范围、源数据与生成器SHA见[manifest](../../yanzhou/content-library/manifest.json)。catalog为唯一编辑源，Markdown分册与HTML派生；外部生成器／模板／检查保存在`E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01/`。图稿原件就地，未移动、改绘或上传PNG；仅关联5种材料的15张图与2件未绑定玩法的造型图。
+- ReadyForScope / PresentLocal，2026-11-01：浏览器覆盖99物件详情、35配方、搜索与空态、类别／集合／状态筛选、7件图稿、图稿切换、关系跳转、深链接、键盘切页与Esc关闭、1440／390／320px布局；157项检查通过，页面错误0。源内容、图稿字节、条目与引用及生成一致性另作静态核对。未运行战斗、引擎、玩家或平衡实验；打印、完整辅助技术与跨机资产交付未验收。
+- derived-from：DM-G002-019@R09的数据与既有候选，不复制旧页面代码；uses：AS-G002-036@ALCHEMY-APPARATUS-10、AS-G002-040@ALCHEMY-ITEM-PILOT-02、AS-G002-041@CARD-FRAME-02。页面／类型符号原创，无网络依赖；原图及其许可沿源条目，仅项目内部设计审阅，不新增公开分发授权。

@@ -1,5 +1,7 @@
 # 法器内容登记
 
+具体对象定义与候选分层统一查[内容库](../../content-library/README.md)；当前首战只读取[EX-004限定条目](../../content-library/ex004.md)。本页保留内容字段、组合检查及规则接口。
+
 2026-10-31 · ContentScope / CORE-069。保留wands文件名用于既有引用。
 
 既有内容：[EX-001守护护符、施法护符](../examples/simple-spell.md#3-法器与铭文)，原完整案例限定旧连续拍；新完整首场按[EX-004](../examples/round-first-battle.md)冻结两护符和迅速辅助指定守护受益的限定配置；[EX-003](../examples/round-hand.md)仍是另一套局部输入。均不继承Q、旧敌表或旧胜败时点。具体用途、核心空缺、兼容、配方、D与契合处理由对应案例维护，不混拼数值。

@@ -19,3 +19,5 @@
 - 根exploration已删除，根workspaces及旧optimization兼容树仍退役；禁止恢复兼容入口。共享方法见[方法入口](../methods/README.md)，媒体分析旧资料按[退役决定](../workspace-decisions.md#ws-009)取证；新研究只随明确任务进入目标项目。
 
 原注册表的历史轮次、layout.1/2映射和生成配置状态按迁移前固定提交取证，见[本次清单](../maintenance/2026-10-01-workspace-cleanup.md)。Unknown/Proposed状态不因本次管理调整晋级。新增项目或修改权限须明确管理来源并同步地图和项目规则。
+
+game-002具体内容入口：[内容库展板](../../yanzhou/content-library/index.html)，维护职责见[内容库说明](../../yanzhou/content-library/README.md)。

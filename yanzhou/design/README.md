@@ -7,7 +7,7 @@
 | 实现一个已定行为 | 从[任务设计包](../development/task-pack.md)开始，按行为选择必要条款 |
 | 查某项规则 | [行为与规则索引](../governance/rule-index.md)，定位后只读相关章节 |
 | 人工审校 | 让agent按[场景审阅规范](../standards/design-review.md)讲解，配合任务包图示 |
-| 查具体物件／数值 | [案例](examples/README.md)、[内容合同](content/cards.md)、[参数](parameters.md) |
+| 查具体物件／数值 | [具体内容库](../content-library/README.md)、[案例](examples/README.md)、[内容合同](content/cards.md)、[参数](parameters.md) |
 | 检查结果应怎样 | [按行为归组的验收预期](validation.md)，不当成执行报告 |
 | 查系统结构 | [系统目录](systems/README.md)与[公共流程](common/README.md) |
 | 查状态、未决或来源 | 按需读[基准](baseline.md)、[问题](../governance/questions.md)、[来源索引](source-review.md) |

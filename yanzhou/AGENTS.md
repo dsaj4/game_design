@@ -18,7 +18,8 @@
 | 内容 | 位置 |
 | --- | --- |
 | 现行玩法与参数 | `design/GDD.md`为唯一核心正文，系统rules为细则；具体裁决由规则索引定位，`baseline.md`管版本 |
-| 系统目标、理由、体验及当前具体设计 | `system-design/handbook.md`为设计师入口；各系统说明、炼金分册、背包工作稿与表现设计在`system-design/`单处维护 |
+| 具体物件、配方、文案与占形 | [content-library](content-library/README.md)的catalog为单一数据源，Markdown分册与HTML展板均派生；资格逐项保留，规则仍归design |
+| 系统目标、理由、体验及设计方法 | `system-design/handbook.md`为设计师入口；各系统说明、炼金方法、背包工作稿与表现设计在`system-design/`维护；具体物件查询内容库 |
 | 与游戏规则无关的设计／开发工作规范 | `standards/`：文档职责、开发规范、迭代、审阅、协作、工作台与阶段方法 |
 | 领域语言 | `CONTEXT.md` |
 | 意图摘要、资格、提案、评估、待采纳变更 | `sources/inbox/`、`materials/`、`proposals/`、`evaluations/`、`draft-changes/` |

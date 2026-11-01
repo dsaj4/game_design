@@ -23,3 +23,5 @@ Demo和制作/参考素材由[统一目录](registry/demo-assets.md)跨项目索
 言咒方向按[READ-1](../yanzhou/exploration/start.md)选择材料。独立肉鸽、公共媒体分析与根归档已退出工作树，旧规则只按固定版本取证；代码/API/构建留外部代码仓库。
 
 [2026-11-01整理与取证](workspace-decisions.md#ws-008) · [2026-10-01历史整理](maintenance/2026-10-01-workspace-cleanup.md)
+
+言咒具体物件、配方、文案与几何单处维护在[content-library](../yanzhou/content-library/README.md)，[HTML展板](../yanzhou/content-library/index.html)用于查看；system-design手册维护设计方法，design维护规则与案例。
