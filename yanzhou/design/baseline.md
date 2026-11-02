@@ -1,15 +1,15 @@
 # 当前设计基准
 
-2026-11-01 · **GDD 3.6 / GDD-0 · CORE-073 first-distillation.1**。[CORE-073](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)已采纳[冻结首战](../content-library/first-battle.md)：套组、核心副本、材料／成品、初态、补给、敌表及几何可作为完整设计输入；实施与玩法验证NotRun。CORE-072的制作／卡效／咒保持，CORE-071退役边界不变。
+2026-11-02 · **GDD 3.7 / GDD-0 · CORE-074 feeding-range.1**。[采纳D](../sources/draft-changes/D-2026-11-02-feeding-ranges.md)替换完整落入专属区为一格接触／范围可重叠，保留实体完整占格与唯一归属；补给按卡组解封本拍可供料，八器本体／范围重设。[首战](../content-library/first-battle.md)更新为first-distillation.2；D／卡效／库存与敌表保持。主游戏与玩家体验NotRun。
 
 | 项目 | 当前范围 |
 | --- | --- |
 | 核心 | [GDD](GDD.md)唯一连续正文；三权限统一卡牌，材料为用途 |
 | 背包 | [TL-46](systems/backpack-system/rules.md)：跨战与生产共用网格、备用配置占格、分阶段装载、散装核心1格／兼容嵌入额外0格；首战几何已定，其他几何与交易细则待补 |
 | 核心与辅助 | 核心战前可逆装配；辅助独立占格单器连接，同效可叠加，批次／成品继承，战中固定 |
-| 生产与供料 | 固定用途、专属待料、齐备吸收、默认自动补料；空间与时点沿CORE-068／069／070 |
+| 生产与供料 | 固定用途、专属待料、齐备吸收、默认自动补料；空间与解封时点沿CORE-074，继承068／069／070未替代部分 |
 | 使用与结算 | 两组持牌、免费布牌、列间停顿、立即回收；5生产拍／5列，敌后续、疲劳、终局与恢复规则保持 |
-| 当前具体内容 | [内容库](../content-library/README.md)67项alchemy、35配方、3构筑；CORE-073仅闭合首战子集，其他配置／携带／取得继续按原资格 |
+| 当前具体内容 | [内容库](../content-library/README.md)67项alchemy、35配方、3构筑；CORE-074已定八器几何，CORE-073／074闭合首战子集，其他配置／携带／取得继续按原资格 |
 | 案例 | [EX-005](examples/first-battle-alchemy.md)为新首战静态预期；EX-003独立条件机制例；EX-001／002固定旧输入；EX-004继续退役 |
 | 未迁移扩展 | 定时、期限、维护等保持原资格，新时序未闭合，不因内容清理启用 |
 | 展示与实现 | 新首战内容与合法装载已冻结；完整实现、玩法与体验NotRun，旧证据不外推 |
@@ -22,7 +22,7 @@ Accepted、Qualified、实现与体验证据分别记录。CORE-072只采纳明�
 
 ## 版本与来源
 
-本次首战冻结沿[CORE-073](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)，原限定内容沿[CORE-072](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md)；通用规则和各历史来源继续按其范围。
+本次范围／解封规则沿[CORE-074](../sources/draft-changes/D-2026-11-02-feeding-ranges.md)，首战原冻结沿[CORE-073](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)，原限定内容沿[CORE-072](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md)；通用规则和各历史来源继续按其范围。
 
 启动任务仍一次固定整个设计仓库提交，包与细则共用。实现证据只在[开发入口](../development/README.md)，未决见[questions](../governance/questions.md)，来源见[source-review](source-review.md)。
 

@@ -7,6 +7,7 @@
 | 内容 | 依据 |
 | --- | --- |
 | 当前新炼金首战 | [CORE-073](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)：限定冻结新套组、核心副本、初态、供给、运输／生产几何、完整敌表与EX-005；实现与玩法NotRun |
+| 当前范围／资源组与几何 | [CORE-074](../sources/draft-changes/D-2026-11-02-feeding-ranges.md)：用户确认R1—R8并授权容量优先的八器格形修订；替换专属区全容纳及补给待用一拍，首战更新为first-distillation.2 |
 | 当前共用背包与阶段装载 | [CORE-070采纳D](../sources/draft-changes/D-2026-11-01-shared-backpack.md)，[Qualified M](../sources/materials/M-2026-11-01-shared-backpack-direction.md)与[接口评估E](../sources/evaluations/E-2026-11-01-shared-backpack.md)；替换空间分账，备用配置占格、散装核心1格，旧配置可售方向。40格、运输细化与价格未采纳；实现与体验NotRun |
 | 当前辅助道具与核心装配 | [CORE-069](../sources/draft-changes/D-2026-10-31-spatial-auxiliaries.md)，DIR-043 Qualified M及主系统E；替换固定辅槽、词性挂接及打造，采纳单器空间连接、同效叠加与批次继承；核心可逆嵌入。实现与体验NotRun |
 | 当前背包式法器管理 | [CORE-068](../sources/draft-changes/D-2026-10-31-backpack-production.md)，来源为DIR-043的Qualified M与主系统E；替换手牌直接开工、临时路由／优先级及战中切用途，新增专属待料和默认自动补料；只采纳明确范围，体验未验证 |

@@ -1,5 +1,8 @@
 # 评估来源
 
+2026-11-02：[供料范围、资源卡组与八法器格子 评估E](E-2026-11-02-feeding-ranges.md)，CORE-074／GDD3.7。
+
+
 当前新炼金首战：[限定评估](E-2026-11-01-alchemy-first-battle.md)。CORE-073仅冻结首战实际输入，GDD3.6／GDD-0；实现、平衡与体验NotRun。其他历史摘要只按原日期与范围解释。
 
 当前内容退役：[CORE-071采纳记录](../draft-changes/D-2026-11-01-alchemy-only-content.md)。38项非alchemy、原完整首战及其专属来源引用已撤下；仅保留61项alchemy和35配方／3构筑的原资格，新的完整首战与敌表待设计。原CORE-066来源只记历史事实。

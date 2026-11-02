@@ -1,7 +1,7 @@
 {
   "id": "DM-G002-023",
-  "version": "CONTENT-LIBRARY-06",
-  "date": "2026-11-01",
+  "version": "CONTENT-LIBRARY-07",
+  "date": "2026-11-02",
   "project": "game-002",
   "direction": "main",
   "lifecycle": "ReadyForScope",
@@ -13,58 +13,200 @@
   "builds": 3,
   "objectsWithArt": 5,
   "artFiles": 15,
-  "scope": "CORE-073 scoped first battle frozen: actual loadout, core copies, geometry, finite supplies, initial state, enemy and complete five-column cycle; gameplay NotRun",
-  "designInputCommit": "b567a49203b9e8d093240060a7d60e13be5c58a3",
+  "scope": "CORE-074 adopted one-cell contact, overlapping nonoccupying ranges, unique material links, finite resource packs; eight artifact body shapes and first battle revised; gameplay NotRun",
+  "designInputCommit": "fdb55ca5306dddaed6f81aba31ff857b31b1c009",
   "files": [
     {
       "path": "alchemy-notes.md",
-      "bytes": 1126,
-      "sha256": "cd875dfef70f0a281f12f52d672c60ca2dcfa2910d64ab823b23da9036cb1595"
+      "bytes": 1419,
+      "sha256": "c4c8ced526a47000dbd6cf9823636c0ac80ad352e4de7156c6425e12c0838fc2"
     },
     {
       "path": "alchemy.md",
-      "bytes": 175173,
-      "sha256": "41ec5f13e053bc74f9a2626b6edef1eb63e423813fb0fbe3caea7a3370c216c8"
+      "bytes": 179933,
+      "sha256": "090b7fbe08102d049f2ffc2d5a7e5ea21fdae37e6fb884ba424308fa6fdb26a9"
     },
     {
       "path": "builds.md",
       "bytes": 3561,
-      "sha256": "52948cc244d096e1a4689385720b9cdc7238ee9071834a261c4e101fbe3a193e"
+      "sha256": "b8007034c6915c1f5eeabb56b748be292a7be616e36cb036115d32d8f33e7cf1"
     },
     {
       "path": "catalog.json",
-      "bytes": 303685,
-      "sha256": "bc7e34a314c3338669f33521672ad8141b0859f0ff3e940ed0cb638643d48ea7"
+      "bytes": 357929,
+      "sha256": "0ff941cd037d3aad0d4b5f1e53021db248b4f73f037dd73d841adc777ae2c010"
     },
     {
       "path": "first-battle.md",
-      "bytes": 8867,
-      "sha256": "ca19150d9d2c245cc99e47525e0d168cffb54c786570e0a47be646bb2d2602dd"
+      "bytes": 10404,
+      "sha256": "1727df3c2d7bfe0525d682d9b57dd150ce961378a8a8de4530000e8455103197"
     },
     {
       "path": "first-battle.html",
-      "bytes": 11470,
-      "sha256": "57c6a672523830b68f050fe1b09981af42eebdc9d1884469a584b6339e2e8275"
+      "bytes": 13302,
+      "sha256": "c7c0c7da5be0f00d0e50c333ee2e1f525489b420d7df460a6fdd1aed8ec7e400"
     },
     {
       "path": "index.html",
-      "bytes": 219347,
-      "sha256": "24b9afbd40cc98ce88dce9d7ed2f493462bb3feb0525bfc8b511455034134511"
+      "bytes": 243324,
+      "sha256": "4d4bfce09f204213d7a6ea9bf395b448af91d490bd72c57e47f12d2dfec52269"
     },
     {
       "path": "README.md",
-      "bytes": 4536,
-      "sha256": "f5269811e2e1231c152ac61bb057820b2e20ad049eaba1045410aa13cc957811"
+      "bytes": 4915,
+      "sha256": "1e38ec9eb9498aa61b0235a616422d41f74144997575b80c3524baf606e484cb"
     },
     {
       "path": "recipes.md",
-      "bytes": 26297,
-      "sha256": "3c7905ec008deffd99d7d2a06bbb012b87cd9ed2b08d1162bdf04a40ec534b14"
+      "bytes": 30528,
+      "sha256": "78b0c3fe2f57ff2d353decc3a2f478055804517a829650d8c045a2af884af954"
+    },
+    {
+      "path": "artifact-geometry.md",
+      "bytes": 2881,
+      "sha256": "0f5db34eca6d36d2a73101adbe18efe59ce89862e516df00bea782960ca738af"
+    },
+    {
+      "path": "artifact-geometry.html",
+      "bytes": 40172,
+      "sha256": "147aebd11dc44eaf6bc6f24f0105d8c0852128505b667843909cf3d788cb071e"
     }
   ],
   "generator": {
     "directory": "E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01",
     "files": [
+      {
+        "path": "build.py",
+        "bytes": 7489,
+        "sha256": "2e85362575ec6260e6dfe8737e4e439aa9cbab875cfbc4f59c4378d154981ccd"
+      },
+      {
+        "path": "template.html",
+        "bytes": 28495,
+        "sha256": "ebf8be68928cf8b1c772d76fb7fac70e164ee5bd6658fe96aab2a245fc20a969"
+      },
+      {
+        "path": "README.md",
+        "bytes": 2577,
+        "sha256": "82de7aa0b4ad249b44299f28a624686dd067c04e1f7d45172722c2eea0071468"
+      },
+      {
+        "path": "qa.cjs",
+        "bytes": 11342,
+        "sha256": "4080c3987baaff7ffcd7dea7219b416a91497af0137e5ef43566aee0745741f8"
+      },
+      {
+        "path": "encounter_view.py",
+        "bytes": 8019,
+        "sha256": "6a3ae60fd7b0c6452f0a9eab43b1b408cfd81212d32e0b5f29b17f87a6f2050a"
+      },
+      {
+        "path": "geometry_view.py",
+        "bytes": 5383,
+        "sha256": "cbcf5c97d27beb93bca218401259e3e451149db9e091019162ec3c3c2a6e7c12"
+      },
+      {
+        "path": "geometry074.py",
+        "bytes": 1176,
+        "sha256": "960710d686d9d6d3e3a454a0a5be10481c2b9d1543e62d622098a3cfbe8fad75"
+      },
+      {
+        "path": "check074.py",
+        "bytes": 6428,
+        "sha256": "46a394f4d4c307c9598d6b99152a9906b61150d895a0189b9101bdd1bb43762a"
+      }
+    ]
+  },
+  "verification": {
+    "browserChecks": 221,
+    "browserErrors": [],
+    "staticChecks": 1010,
+    "localLinksChecked": 1509,
+    "newBrokenLinks": 0,
+    "scope": "Static design geometry, preservation, authored arithmetic and links; gameplay NotRun",
+    "evidence": [
+      {
+        "path": "content-library-07-evidence/evidence/01-overview.png",
+        "bytes": 231420,
+        "sha256": "118ce23e03aa8299cff72c00355ab9776296615796c3581f9ebf9397cd67f1f6"
+      },
+      {
+        "path": "content-library-07-evidence/evidence/02-art.png",
+        "bytes": 230042,
+        "sha256": "b0c641325d94cc0515265d65113ba1ac41411c4f5008ad378548a6ff338ddfc8"
+      },
+      {
+        "path": "content-library-07-evidence/evidence/03-water-detail.png",
+        "bytes": 237384,
+        "sha256": "86335279583bcc11959e89f40b1cff274c1e34b0ad503d96853b1147a4d491a3"
+      },
+      {
+        "path": "content-library-07-evidence/evidence/04-recipe.png",
+        "bytes": 121660,
+        "sha256": "170584560d26ffc90322ff2dce66e15ebd646c5bdcebb763c56e23b0197b46a5"
+      },
+      {
+        "path": "content-library-07-evidence/evidence/05-mobile.png",
+        "bytes": 76901,
+        "sha256": "e1b30a7e4735f90eb126f56539f10da7a3e9245cd8b0c0afa00b1d27c1fda433"
+      },
+      {
+        "path": "content-library-07-evidence/evidence/06-mobile-detail.png",
+        "bytes": 80649,
+        "sha256": "1b676d397230ab8dfda41db7566a5911755739cd0ec192b7215dd33f62f83ad4"
+      },
+      {
+        "path": "content-library-07-evidence/evidence/07-confirmed-duration.png",
+        "bytes": 152977,
+        "sha256": "3f939f2dc71fdc9f954f529ed2a65ed14e3f6aa327fe6a1251567779d327423d"
+      },
+      {
+        "path": "content-library-07-evidence/evidence/08-curse.png",
+        "bytes": 152970,
+        "sha256": "99a19931252aa4247d2846de24545388719276a7c1441a598f12d1aba66a1caa"
+      },
+      {
+        "path": "content-library-07-evidence/evidence/09-first-battle.png",
+        "bytes": 497164,
+        "sha256": "272f477370e9ae61d043583dd390aadf206c2757b290e74dd54584005a419490"
+      },
+      {
+        "path": "content-library-07-evidence/evidence/10-artifact-geometry.png",
+        "bytes": 134019,
+        "sha256": "9c9ff941b689775e87780d26511e49760da0d63efb289474859905bf44f8a259"
+      },
+      {
+        "path": "content-library-07-evidence/qa-result.json",
+        "bytes": 7563,
+        "sha256": "2d2f3fbffe022a32440736e234f7edc115911a913f64d6560a4664482c12db7b"
+      },
+      {
+        "path": "content-library-07-evidence/static-checks.json",
+        "bytes": 46585,
+        "sha256": "70fe24278c0af1859cc8cd504c85173f9fe4bd5acc0ca46cd26ef8aaf77ec7ae"
+      }
+    ]
+  },
+  "uses": [
+    "DM-G002-019@R09",
+    "AS-G002-040@ALCHEMY-ITEM-PILOT-02",
+    "AS-G002-041@CARD-FRAME-02"
+  ],
+  "assetPolicy": "Original image bytes and locations retained; 15 existing material images only; no copied or uploaded assets",
+  "unverified": [
+    "Gameplay, engine integration, player understanding and balance",
+    "Full assistive technology and print layout",
+    "Asset availability on other computers",
+    "Global core compatibility, carry tags, other supply tables, shop and whole-run content outside CORE-073"
+  ],
+  "deliveryPath": "yanzhou/content-library/",
+  "previousDelivery": {
+    "version": "CONTENT-LIBRARY-06",
+    "commit": "bb5bf422b01f4c942a32cc109af6ed5eda1c9939",
+    "manifestPath": "yanzhou/content-library/manifest.json",
+    "localEvidenceDirectory": "E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01/content-library-06-evidence",
+    "generatorArchive": "E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01/content-library-06-generator",
+    "generatorFiles": [
       {
         "path": "build.py",
         "bytes": 7318,
@@ -97,117 +239,11 @@
       }
     ]
   },
-  "verification": {
-    "browserChecks": 194,
-    "browserErrors": [],
-    "staticChecks": 679,
-    "localLinksChecked": 1391,
-    "newBrokenLinks": 0,
-    "evidence": [
-      {
-        "path": "content-library-06-evidence/evidence/01-overview.png",
-        "bytes": 231420,
-        "sha256": "118ce23e03aa8299cff72c00355ab9776296615796c3581f9ebf9397cd67f1f6"
-      },
-      {
-        "path": "content-library-06-evidence/evidence/02-art.png",
-        "bytes": 228949,
-        "sha256": "d48ea8ac86c2c7db918bd058bbb70a9440a6cd075c45fb52d6141ba0b9feebfa"
-      },
-      {
-        "path": "content-library-06-evidence/evidence/03-water-detail.png",
-        "bytes": 236148,
-        "sha256": "5232840281cda7fd7b6311a57662c301d4ff823509035fef4dd71056b4993c91"
-      },
-      {
-        "path": "content-library-06-evidence/evidence/04-recipe.png",
-        "bytes": 116056,
-        "sha256": "694e596d6ee041f0648378fe576b4297ac13a6f3e6cf5fec0bb02b37960b2319"
-      },
-      {
-        "path": "content-library-06-evidence/evidence/05-mobile.png",
-        "bytes": 76901,
-        "sha256": "e1b30a7e4735f90eb126f56539f10da7a3e9245cd8b0c0afa00b1d27c1fda433"
-      },
-      {
-        "path": "content-library-06-evidence/evidence/06-mobile-detail.png",
-        "bytes": 80715,
-        "sha256": "a285d40d6abeaeecd38a9a0513576f573e911d32c56dd1a0a9801261b8771bd5"
-      },
-      {
-        "path": "content-library-06-evidence/evidence/07-confirmed-duration.png",
-        "bytes": 146128,
-        "sha256": "c448179ae911240f86096ef46fc502010052c0aa881ee5749247e9503f3e5dd0"
-      },
-      {
-        "path": "content-library-06-evidence/evidence/08-curse.png",
-        "bytes": 152970,
-        "sha256": "99a19931252aa4247d2846de24545388719276a7c1441a598f12d1aba66a1caa"
-      },
-      {
-        "path": "content-library-06-evidence/evidence/09-first-battle.png",
-        "bytes": 427935,
-        "sha256": "a16c9502db257b1eca64114413f9960521c6d7b18154443be2a465cc78fa19b5"
-      },
-      {
-        "path": "content-library-06-evidence/qa-result.json",
-        "bytes": 7001,
-        "sha256": "2436a4106a8553fa165e46f04873915bda331bca69748436a18ffc21fb806f90"
-      },
-      {
-        "path": "content-library-06-evidence/static-checks.json",
-        "bytes": 28357,
-        "sha256": "b053c9db30b4ee29c897c283b7d078a5b900557fb8942ab9da0145189267523e"
-      }
-    ]
-  },
-  "uses": [
-    "DM-G002-019@R09",
-    "AS-G002-040@ALCHEMY-ITEM-PILOT-02",
-    "AS-G002-041@CARD-FRAME-02"
-  ],
-  "assetPolicy": "Original image bytes and locations retained; 15 existing material images only; no copied or uploaded assets",
-  "unverified": [
-    "Gameplay, engine integration, player understanding and balance",
-    "Full assistive technology and print layout",
-    "Asset availability on other computers",
-    "Global core compatibility, carry tags, other supply tables, shop and whole-run content outside CORE-073"
-  ],
-  "deliveryPath": "yanzhou/content-library/",
-  "previousDelivery": {
-    "version": "CONTENT-LIBRARY-05",
-    "commit": "aa66e071c9bda4dcb8886e7125170c5d4206bc57",
-    "manifestPath": "yanzhou/content-library/manifest.json",
-    "localEvidenceDirectory": "E:\\Project\\yanzhou-ui-prototypes\\content-library-2026-11-01\\content-library-05-evidence",
-    "generatorArchive": "E:\\Project\\yanzhou-ui-prototypes\\content-library-2026-11-01\\content-library-05-generator",
-    "generatorFiles": [
-      {
-        "path": "build.py",
-        "bytes": 7177,
-        "sha256": "44953cc9ecc99cc63217b56d9b5d0feae36268fd0a037672bd4d3c884bfadc79"
-      },
-      {
-        "path": "template.html",
-        "bytes": 28191,
-        "sha256": "5d7e863d5b41b99d830509f558861d4dd5114e85a3a7e41d2371037afd93c058"
-      },
-      {
-        "path": "README.md",
-        "bytes": 1965,
-        "sha256": "72af7b70fd1ae62bd60be5a25bc9196c3770587ea3884a36e475d5c080d03e68"
-      },
-      {
-        "path": "qa.cjs",
-        "bytes": 9439,
-        "sha256": "a7577bcf699683432b7ee5262e725011398e58ace4f9f24bcdae6ba935675c69"
-      }
-    ]
-  },
   "originalContentInputCommit": "16838828fba90a3444c4a49a35b98df74f271f32",
   "adoption": {
-    "decision": "CORE-073",
-    "record": "../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md",
-    "scope": "Only the new first-distillation.1 encounter, its subset geometry/compatibility/carry and actual inputs; CORE-072 effects and recipe contracts preserved"
+    "decision": "CORE-074",
+    "record": "../sources/draft-changes/D-2026-11-02-feeding-ranges.md",
+    "scope": "feeding-range.1, eight artifact geometry, first-distillation.2; original CORE-072 D/effects and CORE-073 enemy/loadout amounts preserved"
   },
   "preservedCoreOccupancyAdoption": {
     "decision": "CORE-070",
@@ -215,15 +251,14 @@
     "scope": "Only 10 core items: loose occupancy becomes 1 cell and links the adopted rule; all other content values and qualifications retained"
   },
   "contentConfirmation": {
-    "source": "../sources/materials/M-2026-11-01-alchemy-first-battle.md",
-    "decision": "Explicit bounded user delegation to determine and freeze the first battle",
-    "scope": "Scoped first battle; not blanket acceptance of prior Q9-Q11"
+    "source": "../sources/materials/M-2026-11-02-feeding-ranges.md",
+    "decision": "Explicit user request to adopt reviewed logic and revise artifact grid designs with generous ranges and capacity constraint",
+    "scope": "Eight artifacts and affected current interfaces; no new gameplay or engine test authorization"
   },
   "previousContentRetirement": {
     "decision": "CORE-071",
     "record": "../sources/draft-changes/D-2026-11-01-alchemy-only-content.md",
     "scope": "Retire 38 non-alchemy objects and four dedicated sources, generated sheets and former EX-004 case/task; retain all 61 alchemy object values, 35 recipes and three builds"
   },
-  "encounters": 1,
-  "deliveryCommit": "bb5bf422b01f4c942a32cc109af6ed5eda1c9939"
+  "encounters": 1
 }

@@ -633,9 +633,9 @@ DM-G002-011第十三批使用补记：GODOT-DEMONCARDS-CANDIDATES-B13-01，固�
 
 ## <a id="dm-g002-023"></a>DM-G002-023 言咒具体内容库展板
 
-- game-002 / main；CONTENT-LIBRARY-06。[打开展板](../../yanzhou/content-library/index.html)；[首战规格](../../yanzhou/content-library/first-battle.md)。67项alchemy、35配方、3构筑与1份首战；CORE-073冻结首战所需真实套组／核心副本、几何、初态、有限补给、五列敌表，其他配置仍按原资格。
-- catalog为唯一具体内容源，当前文件、生成器、检查和固定交付提交见[manifest](../../yanzhou/content-library/manifest.json)。外部代码与证据在`E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01/`。上一版CONTENT-LIBRARY-05固定于`aa66e071c9bda4dcb8886e7125170c5d4206bc57`，生成器与证据保留在`content-library-05-generator/`及`content-library-05-evidence/`，更早版本沿原manifest追溯。
-- ReadyForScope / PresentLocal，2026-11-01：浏览器194项通过、错误0，覆盖67详情、35配方、原图／检索／键盘／响应布局与新首战规格页；静态身份／旧配方及图稿保全、真实副本、运输／生产逐格、作者时间／算术和本轮文档链接检查通过，数量与SHA见manifest。证据在外部`content-library-06-evidence/`；未运行玩法、引擎、真人或平衡实验。
+- game-002 / main；CONTENT-LIBRARY-07。[打开展板](../../yanzhou/content-library/index.html)；[八器格形与范围](../../yanzhou/content-library/artifact-geometry.html)；[首战规格](../../yanzhou/content-library/first-battle.md)。67项alchemy、35配方、3构筑与1份首战；CORE-073冻结首战所需真实套组／核心副本、几何、初态、有限补给、五列敌表，CORE-074更新八器本体、一格接触、宽松可交叠范围及资源卡组解封；其他配置仍按原资格。
+- catalog为唯一具体内容源，当前文件、生成器、检查和固定交付提交见[manifest](../../yanzhou/content-library/manifest.json)。外部代码与证据在`E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01/`。上一版CONTENT-LIBRARY-06固定于`bb5bf422b01f4c942a32cc109af6ed5eda1c9939`，生成器与证据保留在`content-library-06-generator/`及`content-library-06-evidence/`，更早版本沿原manifest追溯。
+- ReadyForScope / PresentLocal，2026-11-02：浏览器221项通过、错误0，覆盖67详情、35配方、原图／检索／键盘／响应布局、首战规格页与八器范围开关；静态身份／旧配方及图稿保全、真实副本、运输／生产逐格、作者时间／算术和本轮文档链接检查通过，数量与SHA见manifest。证据在外部`content-library-07-evidence/`；未运行玩法、引擎、真人或平衡实验。
 - derived-from：DM-G002-019@R09；uses：AS-G002-040@ALCHEMY-ITEM-PILOT-02、AS-G002-041@CARD-FRAME-02。仅关联5种材料15张原图，原件就地、未上传／改绘，复用沿原项目内部审阅边界。新增敌人／敌牌只用检索符号，不冒称美术完成。
 
 ## <a id="dm-g002-024"></a>DM-G002-024 桌面背包与渐进披露HTML

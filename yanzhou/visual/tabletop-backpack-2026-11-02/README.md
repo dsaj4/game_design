@@ -1,5 +1,8 @@
 # 桌面背包与渐进披露 HTML 结构稿
 
+**版本提示：**CORE-074已修改供料范围、八器几何及资源卡组时点；本HTML-01继续固定旧CORE-073规则与原检查证据，尚未实现新规则。当前设计查[法器格形](../../content-library/artifact-geometry.md)及[首战新规格](../../content-library/first-battle.md)，不要从本原型复制默认值。
+
+
 2026-11-02 · game-002 / main · **DM-G002-024 / TABLETOP-BACKPACK-HTML-01**。ReadyForScope / PresentLocal限下列界面状态与检查，表现选择PendingReview；主游戏实现、平衡与玩家体验NotRun。
 
 **[打开单文件HTML](E:/Project/yanzhou-ui-prototypes/tabletop-backpack-2026-11-02/tabletop.html)**。初始停在第3生产拍：轮廓表达两台在制设备的进度，铁肤药水已入手；右键设备查看精确剩余拍。右上角“⌘”或`V`打开结构审阅，可切换装载、展开、待料、吸收、产牌、最终整理、列间与重装快照。
