@@ -260,5 +260,6 @@
     "record": "../sources/draft-changes/D-2026-11-01-alchemy-only-content.md",
     "scope": "Retire 38 non-alchemy objects and four dedicated sources, generated sheets and former EX-004 case/task; retain all 61 alchemy object values, 35 recipes and three builds"
   },
-  "encounters": 1
+  "encounters": 1,
+  "deliveryCommit": "c22d0792b1747a25ffa1b762d5681bb9996bddde"
 }
