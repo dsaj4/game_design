@@ -84,6 +84,7 @@ DM-G002-021当前二维工程、DM-G002-020首轮HTML、DM-G002-019炼金阅读�
 
 ## <a id="as-g002-040"></a>AS-G002-040 卡牌与物品美术基准
 
+- 2026-11-02使用者：[DM-G002-024桌面背包结构稿](../../yanzhou/visual/tabletop-backpack-2026-11-02/README.md)，仅直接复用ALCHEMY-ITEM-PILOT-03的疗伤草、木炭透明图；原字节与内部审阅范围保持，不升级其余内容或主工程接入。
 - 2026-11-01新增同五件物品的[占格重绘03](../../yanzhou/visual/alchemy-grid-items-2026-11-01/README.md)，ALCHEMY-ITEM-PILOT-03：清泉水／羽毛／疗伤草为1×2，黏土为允许旋转后的2×1，木炭1×1；对应原候选几何，不提升玩法资格。内置image_gen 6次，5张选中透明PNG与水瓶未选中过程稿均保留原字节；路径、提示词、尺寸、alpha与SHA沿本批manifest。ReadyForScope / PresentLocal仅限同格、152／64px及深浅紫底静态图稿检查；浏览器UI、卡图配套、内容库关联与主游戏接入未完成。02仍是已选画法参考，旧源件／ZIP未覆盖。
 - 与AS-G002-036／041共用[Ways统一美术基准02](../../yanzhou/system-design/presentation/art-direction.md)；本条维护透明物品、旧竖卡图源件、材料队列与历史交付，共通制作规格集中在统一入口。
 - game-002 / main；[本包制作与交付入口](../../yanzhou/visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)，ALCHEMY-ITEM-PILOT-02。2026-10-31用户选定Ways画法；5透明物品继续作为基准，5张1024×1536不透明竖卡图现仅为AS041适配卡图的身份／生成来源。10份准确提示词与原图SHA沿manifest，当前图及ZIP指纹未改。
@@ -100,6 +101,7 @@ DM-G002-021当前二维工程、DM-G002-020首轮HTML、DM-G002-019炼金阅读�
 
 ## <a id="as-g002-041"></a>AS-G002-041 完整卡面基准与历史卡框
 
+- 2026-11-02使用者：[DM-G002-024桌面背包结构稿](../../yanzhou/visual/tabletop-backpack-2026-11-02/README.md)，复用CARD-FRAME-02无字模板与CARD-ART-03的疗伤草、木炭卡图；独立真实名称和状态由HTML绘制，源件与分发范围不变。
 - 2026-11-01新增[五件配套卡图03](../../yanzhou/visual/alchemy-grid-cards-2026-11-01/README.md)，CARD-ART-03；对应AS-G002-040@ALCHEMY-ITEM-PILOT-03。最终5张全部1174×1340 RGB，与物品占格无关；image_gen 6次，木炭1174×1339首稿未选，修正后尺寸一致。原PNG／提示词／参考角色／SHA沿本批manifest。ReadyForScope / PresentLocal限静态配套、统一图窗、155×229及96×150检查；旧模板、字体、内容库关联与主游戏接入未升级。原02及ZIP保留。
 
 - 2026-10-31用户选定CARD-FRAME-02：[完整卡面基准](../../yanzhou/visual/card-frame-2026-10-31/complete-v02/README.md)。按完整Ways研究恢复图借鉴整体组织，深褐薄边、上部卡图窗与下部浅鼠尾草名称板；一张模板、同五物件的五张适配卡图，共6次内置image_gen。名称使用独立真实字体，不把效果说明放入卡面，不建立类型色／稀有度映射。
@@ -635,3 +637,9 @@ DM-G002-011第十三批使用补记：GODOT-DEMONCARDS-CANDIDATES-B13-01，固�
 - catalog为唯一具体内容源，当前文件、生成器、检查和固定交付提交见[manifest](../../yanzhou/content-library/manifest.json)。外部代码与证据在`E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01/`。上一版CONTENT-LIBRARY-05固定于`aa66e071c9bda4dcb8886e7125170c5d4206bc57`，生成器与证据保留在`content-library-05-generator/`及`content-library-05-evidence/`，更早版本沿原manifest追溯。
 - ReadyForScope / PresentLocal，2026-11-01：浏览器194项通过、错误0，覆盖67详情、35配方、原图／检索／键盘／响应布局与新首战规格页；静态身份／旧配方及图稿保全、真实副本、运输／生产逐格、作者时间／算术和本轮文档链接检查通过，数量与SHA见manifest。证据在外部`content-library-06-evidence/`；未运行玩法、引擎、真人或平衡实验。
 - derived-from：DM-G002-019@R09；uses：AS-G002-040@ALCHEMY-ITEM-PILOT-02、AS-G002-041@CARD-FRAME-02。仅关联5种材料15张原图，原件就地、未上传／改绘，复用沿原项目内部审阅边界。新增敌人／敌牌只用检索符号，不冒称美术完成。
+
+## <a id="dm-g002-024"></a>DM-G002-024 桌面背包与渐进披露HTML
+
+- game-002 / main；TABLETOP-BACKPACK-HTML-01。[单文件审阅入口与范围](../../yanzhou/visual/tabletop-backpack-2026-11-02/README.md)，[文字合同](../../yanzhou/system-design/presentation/interaction-contract.md)。本地交付`E:/Project/yanzhou-ui-prototypes/tabletop-backpack-2026-11-02/tabletop.html`，源文件／资产／证据由[manifest](../../yanzhou/visual/tabletop-backpack-2026-11-02/manifest.json)与外部完整清单固定，不以localhost或可变目录作固定版本。
+- ReadyForScope / PresentLocal，2026-11-02，仅限CORE-073首轮装载／生产／布牌、单实例回收、主动查看和独立战果快照的HTML界面；21项UI状态合同检查及实际浏览器局部操作通过，两档1920×1080／1366×768、单文件内联与图片检查通过，证据沿维护页。表现选择PendingReview；完整首战、主工程、平衡和玩家理解仍NotRun。
+- uses：AS-G002-040@ALCHEMY-ITEM-PILOT-03两张透明图、AS-G002-041@CARD-ART-03对应两张卡图及CARD-FRAME-02模板，原字节复制／内联；其他图形为原创SVG结构占位。derived-from：None（独立代码）。无CDN或第三方原图／字体文件，无公开部署；仅项目内部审阅，公开分发未授权。

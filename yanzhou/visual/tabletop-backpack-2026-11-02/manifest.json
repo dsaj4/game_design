@@ -1,0 +1,40 @@
+{
+  "id": "DM-G002-024",
+  "version": "TABLETOP-BACKPACK-HTML-01",
+  "date": "2026-11-02",
+  "project": "game-002",
+  "designCommit": "4abbe3fc36835b601bb9981a2b01806fc0f78949",
+  "status": "ReadyForScope / PresentLocal",
+  "userReview": "PendingReview",
+  "entry": {
+    "path": "E:/Project/yanzhou-ui-prototypes/tabletop-backpack-2026-11-02/tabletop.html",
+    "bytes": 8521895,
+    "sha256": "443a8f703555f8d826b58978a823e4f83ad73b19299e43ca6165a5cfeccda412"
+  },
+  "sourceManifest": {
+    "path": "E:/Project/yanzhou-ui-prototypes/tabletop-backpack-2026-11-02/manifest.json",
+    "bytes": 6532,
+    "sha256": "0ca90ef2e87b40f8dfc677ef0ab7e55582eb8c405faada0466b2c8a22fd91d71"
+  },
+  "checks": {
+    "state": {
+      "path": "E:/Project/yanzhou-ui-prototypes/tabletop-backpack-2026-11-02/evidence/state-checks.json",
+      "bytes": 2436,
+      "sha256": "0e43048ad1b7d0181305eb9e587abe1422777ee6b479b24c45c51ca68ec50079"
+    },
+    "browser": {
+      "path": "E:/Project/yanzhou-ui-prototypes/tabletop-backpack-2026-11-02/evidence/browser-checks.json",
+      "bytes": 4782,
+      "sha256": "011d0ab6c446a8b27c80ecc47c4eda17da2ab4682b2134be7cef5c8c231173c0"
+    }
+  },
+  "uses": [
+    "AS-G002-040@ALCHEMY-ITEM-PILOT-03",
+    "AS-G002-040@ALCHEMY-ITEM-PILOT-03",
+    "AS-G002-041@CARD-ART-03",
+    "AS-G002-041@CARD-ART-03",
+    "AS-G002-041@CARD-FRAME-02"
+  ],
+  "scope": "Finite first-round UI and separate victory-repack fixture; no main-engine or gameplay validation",
+  "publicDeployment": false
+}
