@@ -190,5 +190,6 @@
     "source": "../sources/materials/M-2026-11-01-alchemy-executable-direction.md",
     "decision": "Q5",
     "scope": "Only r01-r24 duration and artifact fields; qualified content parameters, not full release or core-rule adoption"
-  }
+  },
+  "deliveryCommit": "8c2f6372f892b61827d9966c06c31da470df0cb5"
 }
