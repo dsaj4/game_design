@@ -1,10 +1,10 @@
 # 炼金可执行内容：供给、权限与首批生产参数
 
-2026-11-01 · MAT-2026-11-01-alchemy-executable-direction · Qualified GDD Material / Content・Constraint。只确认本页列明方向及Q5参数，不是完整发行规格或规则采纳。Hypothesis／NotRun。
+2026-11-01 · MAT-2026-11-01-alchemy-executable-direction · Qualified GDD Material / Content・Constraint。本页列明方向及Q5—Q8已确认，限定采纳见CORE-072；不是完整首战或平衡通过。Hypothesis／NotRun。
 
 ## 来源与确认
 
-意图、共同版本与读取范围见[接手摘要](../inbox/2026-11-01-alchemy-executable-content.md#意图范围与共同版本)。来源为用户本轮任务及Q1—Q3及Q5明确回复，采用grill-with-docs及项目批量澄清。B01已确认身份与连接沿[原素材](M-2026-10-27-alchemy-batch-01.md)，没有重做或扩大其确认。
+意图、共同版本与读取范围见[接手摘要](../inbox/2026-11-01-alchemy-executable-content.md#意图范围与共同版本)。来源为用户本轮任务及Q1—Q3、Q5及Q6—Q8明确回复，采用grill-with-docs及项目批量澄清。B01已确认身份与连接沿[原素材](M-2026-10-27-alchemy-batch-01.md)，没有重做或扩大其确认。
 
 ## 限定方向
 
@@ -13,6 +13,10 @@
 3. 32种材料先不可战斗；11种成品承担本阶段的战斗效果设计。材料直用如有必要单列修订；保留前料与现在加工成药水是真实分配，不将前料名称当作卡效。
 
 4. Q5整体确认`alchemy.r01`—`alchemy.r24`的逐配方D及承载器具。参数单处维护于[catalog](../../content-library/catalog.json)，派生查阅[配方分册](../../content-library/recipes.md)。由原D1候选改为D2—5，承载仍为初相坩埚、刻纹研钵、盘管萃炼器、封相炼炉的既定分配；准确逐条值以确认前稿与catalog对应。只确认这两个字段，不扩展至其他器具规格或完整发行。
+
+5. Q6确认全部35配方每项投入1份、产1张、额外制造费0，并确认11终末的D与承载器具；Q7确认11成品逐卡效果、使用费、回收、材料用途及失败处理；Q8确认炼金咒的完整内容定义。数值与完整字段只在catalog维护，来源为确认前版本的第二批内容及用户“全部按推荐”的明确决定摘要。
+
+[评估](../evaluations/E-2026-11-01-alchemy-executable-content.md)与[CORE-072限定采纳](../draft-changes/D-2026-11-01-alchemy-executable-content.md)已接续；Accepted内容参数、几何／取得未决与Hypothesis／NotRun分别保留。
 
 ## 对象、情境与价值
 
@@ -24,6 +28,6 @@
 
 [TL-14／15](../../design/systems/resource-system/rules.md)规定新卡供料资格与归属，[TL-25／33](../../design/common/run-economy/rules.md)规定独立携带资格和不每战免费补满，[TL-46](../../design/systems/backpack-system/rules.md)规定真实装载。允许中间料开局不赠送中间料，不豁免装载；三原质不能直接环境取得沿B01。
 
-除Q5之外的终末D／器具、份数／产率、成品效果／费用／回收、各卡携带标签、有限补给表、起点与敌表仍须逐批确认。用户已拒绝全部D1并在Q5确认重设计；第一批D／承载已成为本素材的限定确认参数，尚未进行平衡验证。
+Q5—Q8涉及的制作与卡效参数已明确，不再列为待决。核心组合、几何、取得、各卡携带标签、具体有限补给表、起点与敌表仍须逐批确认；尚未进行平衡验证。
 
 下一步以同一起点对照生产耗时、争料、实际兑现与耗尽退路。先做静态合同与几何／依赖核对，另获具体实验授权后再验证体验；现阶段不声称可启动、可持续、已平衡或已实现。

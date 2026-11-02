@@ -2,7 +2,7 @@
 
 2026-10-31 · QualifiedFramework；CORE-055／057已采纳接口、CORE-068供料竞争与锁定衔接沿[基准](../../../baseline.md)。[设计](../../../../system-design/mark-system/design.md) · [体验](../../../../system-design/mark-system/experience.md) · [示例](examples.md)
 
-具体标记只按实际声明读取对象、叠层与支付；只有开工费用才读冻结。CORE-065允许即时层供后续步骤／列使用；有限期、周期、独立定时接口未闭合，不按旧扩展启用。原首战标记已随CORE-071淘汰，通用合同不发行替代标记。
+具体标记只按实际声明读取对象、叠层与支付；只有开工费用才读冻结。CORE-065允许即时层供后续步骤／列使用；有限期、周期、独立定时接口未闭合，不按旧扩展启用。原首战标记已随CORE-071淘汰。[CORE-072](../../../../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md)另行采纳炼金[咒定义](../../../../content-library/alchemy.md#alchemy-mark-curse)，具体上限、初始、支付与战终由该条维护；不恢复旧身份或启用其他周期标记。
 
 ## 对象与宿主
 

@@ -1,6 +1,6 @@
 {
   "id": "DM-G002-023",
-  "version": "CONTENT-LIBRARY-04",
+  "version": "CONTENT-LIBRARY-05",
   "date": "2026-11-01",
   "project": "game-002",
   "direction": "main",
@@ -8,13 +8,13 @@
   "access": "PresentLocal",
   "entry": "index.html",
   "canonical": "catalog.json",
-  "objects": 61,
+  "objects": 62,
   "recipes": 35,
   "builds": 3,
   "objectsWithArt": 5,
   "artFiles": 15,
-  "scope": "61 alchemy objects, 35 recipes; 24 user-confirmed durations/carriers; 11 terminal and combat contract proposals remain Raw; no gameplay execution",
-  "designInputCommit": "545aa2901ba22ec343ca31885449f9cb93596a3c",
+  "scope": "CORE-072 adopted 35 production contracts, 43 card permissions/11 combat effects and alchemy curse definition; no complete encounter or gameplay execution",
+  "designInputCommit": "de1988f707bf5bfe04a5cf19b341ec3564084173",
   "files": [
     {
       "path": "alchemy-notes.md",
@@ -23,8 +23,8 @@
     },
     {
       "path": "alchemy.md",
-      "bytes": 151170,
-      "sha256": "a916b819372ce47d70f4f4a894eca9abe3861752e3a8a9de504afa1862adf8b6"
+      "bytes": 160294,
+      "sha256": "e2401a8c6a8816fafd7e91353b959e077aa53d2e6388250d773337b6de38915f"
     },
     {
       "path": "builds.md",
@@ -33,28 +33,131 @@
     },
     {
       "path": "catalog.json",
-      "bytes": 266546,
-      "sha256": "599780ff37d08adc5ca9a0ff40a611efaab09aec0567d883f0b4fb5b8ec21f8a"
+      "bytes": 278244,
+      "sha256": "e24b274cdcdbd1fad7b1582cade147127109101845b41044431c202ea90e290a"
     },
     {
       "path": "index.html",
-      "bytes": 192149,
-      "sha256": "4121824bc1224bebbfbbd59baf43b96bd04729440f6bbcc4d229d4507d064461"
+      "bytes": 200186,
+      "sha256": "b4c0eb9cfad17e2e25f5c4e7fabe2cf6dee6265bc37d6ad4f3baea324c9929fd"
     },
     {
       "path": "README.md",
-      "bytes": 4252,
-      "sha256": "a215a9cad35fccfd5fc0d2bcc759b0c936feb26aede0184fe0fe387512e40d8c"
+      "bytes": 4107,
+      "sha256": "c7bb2b14019d80b32cabb4c29595238dddcfbfea3e6a7635114f3755e4179030"
     },
     {
       "path": "recipes.md",
-      "bytes": 22493,
-      "sha256": "560f77f9e6abb1599c06db02d599228e6452d73a394f62281d3ea909bdc33b9c"
+      "bytes": 25883,
+      "sha256": "c0e0ca52f3e63395a055b29d438e2f1350515c54566aee67cb9b7033f13325e7"
     }
   ],
   "generator": {
     "directory": "E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01",
     "files": [
+      {
+        "path": "build.py",
+        "bytes": 7177,
+        "sha256": "44953cc9ecc99cc63217b56d9b5d0feae36268fd0a037672bd4d3c884bfadc79"
+      },
+      {
+        "path": "template.html",
+        "bytes": 28191,
+        "sha256": "5d7e863d5b41b99d830509f558861d4dd5114e85a3a7e41d2371037afd93c058"
+      },
+      {
+        "path": "README.md",
+        "bytes": 1965,
+        "sha256": "72af7b70fd1ae62bd60be5a25bc9196c3770587ea3884a36e475d5c080d03e68"
+      },
+      {
+        "path": "qa.cjs",
+        "bytes": 9439,
+        "sha256": "a7577bcf699683432b7ee5262e725011398e58ace4f9f24bcdae6ba935675c69"
+      }
+    ]
+  },
+  "verification": {
+    "browserChecks": 184,
+    "browserErrors": [],
+    "staticChecks": 1002,
+    "localLinksChecked": 1016,
+    "newBrokenLinks": 0,
+    "evidence": [
+      {
+        "path": "content-library-05-evidence/evidence/01-overview.png",
+        "bytes": 230265,
+        "sha256": "70895198fb7cd25eec678e9b3512899d973b2a5574aff034d42375391dd8c8ea"
+      },
+      {
+        "path": "content-library-05-evidence/evidence/02-art.png",
+        "bytes": 225235,
+        "sha256": "7702f356d8573f64a22e0aa1f1ec3c2b3aacc6dbd9695f86eb8f2c07ae28e9f4"
+      },
+      {
+        "path": "content-library-05-evidence/evidence/03-water-detail.png",
+        "bytes": 233894,
+        "sha256": "613842e06f3723b8a6fdc7bbfda53560ff8c6174c6e36adadcbd407987a7719a"
+      },
+      {
+        "path": "content-library-05-evidence/evidence/04-recipe.png",
+        "bytes": 113828,
+        "sha256": "05179e35bdd687aedfb31176a80f9d41c3eb69357760cd24106db14f92015b07"
+      },
+      {
+        "path": "content-library-05-evidence/evidence/05-mobile.png",
+        "bytes": 76992,
+        "sha256": "7b3d6ddfadec5f25de3d12584a4523c6d8998b3fb26bfe0a4bdde85080e1117b"
+      },
+      {
+        "path": "content-library-05-evidence/evidence/06-mobile-detail.png",
+        "bytes": 80715,
+        "sha256": "a285d40d6abeaeecd38a9a0513576f573e911d32c56dd1a0a9801261b8771bd5"
+      },
+      {
+        "path": "content-library-05-evidence/evidence/07-confirmed-duration.png",
+        "bytes": 144440,
+        "sha256": "2b2915bdcdf33a53b30da4cea0f8c02f5dfb9899e172cf7249679f8309b87029"
+      },
+      {
+        "path": "content-library-05-evidence/evidence/08-curse.png",
+        "bytes": 151043,
+        "sha256": "93bca9af052f7c87d0462c617d8aaa8089358c2c266d24b1a9c65790af36a33f"
+      },
+      {
+        "path": "content-library-05-evidence/qa-result.json",
+        "bytes": 6609,
+        "sha256": "14025e017d98dae24f3d6f2d2446ab77afb90ba687b3ac363919cf9e1e1f4d86"
+      },
+      {
+        "path": "content-library-05-evidence/static-checks.json",
+        "bytes": 43810,
+        "sha256": "2b285db173872ddf215c135af3c375114dcddae0826ee65f2c33eb4ec44fd07b"
+      }
+    ]
+  },
+  "uses": [
+    "DM-G002-019@R09",
+    "AS-G002-040@ALCHEMY-ITEM-PILOT-02",
+    "AS-G002-041@CARD-FRAME-02"
+  ],
+  "assetPolicy": "Original image bytes and locations retained; 15 existing material images only; no copied or uploaded assets",
+  "unverified": [
+    "Gameplay, engine integration, player understanding and balance",
+    "Full assistive technology and print layout",
+    "Asset availability on other computers",
+    "Replacement full first-battle content, enemy program and initial loadout",
+    "Exact finite supplies, initial loadout and per-card carry eligibility",
+    "Q9 core combinations, Q10 carry tags and Q11 finite supply sample are still Raw proposals"
+  ],
+  "deliveryPath": "yanzhou/content-library/",
+  "previousDelivery": {
+    "version": "CONTENT-LIBRARY-04",
+    "commit": "8c2f6372f892b61827d9966c06c31da470df0cb5",
+    "manifestPath": "yanzhou/content-library/manifest.json",
+    "localEvidenceDirectory": "E:\\Project\\yanzhou-ui-prototypes\\content-library-2026-11-01\\content-library-04-evidence",
+    "generatorArchive": "E:\\Project\\yanzhou-ui-prototypes\\content-library-2026-11-01\\content-library-04-generator",
+    "generatorFiles": [
       {
         "path": "build.py",
         "bytes": 7073,
@@ -77,109 +180,11 @@
       }
     ]
   },
-  "verification": {
-    "browserChecks": 177,
-    "browserErrors": [],
-    "staticChecks": 1031,
-    "localLinksChecked": 528,
-    "newBrokenLinks": 0,
-    "evidence": [
-      {
-        "path": "content-library-04-evidence/evidence/01-overview.png",
-        "bytes": 229344,
-        "sha256": "7a17e8c58893705aaa0f2e57b87c4060c82b7007d6fe8cbc4e6f5fcf1e0bbe7a"
-      },
-      {
-        "path": "content-library-04-evidence/evidence/02-art.png",
-        "bytes": 224671,
-        "sha256": "d53dfac651f31f305914371dfd9b6d0947e4a8e07412819b55f74b5a8da166c3"
-      },
-      {
-        "path": "content-library-04-evidence/evidence/03-water-detail.png",
-        "bytes": 232848,
-        "sha256": "47e544a0e5fe17c47b4aa66c18eb43044a27b6f84c8f6fb3a7d373fe0c4ac2a4"
-      },
-      {
-        "path": "content-library-04-evidence/evidence/04-recipe.png",
-        "bytes": 108174,
-        "sha256": "28495a7b901ffe2941bc4e5955798ba6951cde0734a52d0e60ba7a271e1468be"
-      },
-      {
-        "path": "content-library-04-evidence/evidence/05-mobile.png",
-        "bytes": 76897,
-        "sha256": "659fd977a6e59300a437b9b2f4857f5a182d61107177c66909554be6f9ba39a7"
-      },
-      {
-        "path": "content-library-04-evidence/evidence/06-mobile-detail.png",
-        "bytes": 80715,
-        "sha256": "a285d40d6abeaeecd38a9a0513576f573e911d32c56dd1a0a9801261b8771bd5"
-      },
-      {
-        "path": "content-library-04-evidence/evidence/07-confirmed-duration.png",
-        "bytes": 139535,
-        "sha256": "71b204cc1318550fc2863da2d99fdf738073c3463cd7e0a31351a070dd5eba70"
-      },
-      {
-        "path": "content-library-04-evidence/qa-result.json",
-        "bytes": 6376,
-        "sha256": "1145829f9b92408b9a6ead4331dfdf0d0b83f19b7006b1becf2c9cd49ff10d53"
-      },
-      {
-        "path": "content-library-04-evidence/static-checks.json",
-        "bytes": 44610,
-        "sha256": "ebddb536053c28ff28201bd5192ee93b8fdbca28ba95eabcc18b530c87075735"
-      }
-    ]
-  },
-  "uses": [
-    "DM-G002-019@R09",
-    "AS-G002-040@ALCHEMY-ITEM-PILOT-02",
-    "AS-G002-041@CARD-FRAME-02"
-  ],
-  "assetPolicy": "Original image bytes and locations retained; 15 existing material images only; no copied or uploaded assets",
-  "unverified": [
-    "Gameplay, engine integration, player understanding and balance",
-    "Full assistive technology and print layout",
-    "Asset availability on other computers",
-    "Replacement full first-battle content, enemy program and initial loadout",
-    "11 proposed terminal durations, combat contracts and new curse mark definition await user confirmation",
-    "Exact finite supplies, initial loadout and per-card carry eligibility"
-  ],
-  "deliveryPath": "yanzhou/content-library/",
-  "previousDelivery": {
-    "version": "CONTENT-LIBRARY-03",
-    "commit": "a71156679812a3364c4ed7e0ea47a672e73013fb",
-    "manifestPath": "yanzhou/content-library/manifest.json",
-    "localEvidenceDirectory": "E:\\Project\\yanzhou-ui-prototypes\\content-library-2026-11-01\\content-library-03-evidence",
-    "generatorArchive": "E:\\Project\\yanzhou-ui-prototypes\\content-library-2026-11-01\\content-library-03-generator",
-    "generatorFiles": [
-      {
-        "path": "build.py",
-        "bytes": 7138,
-        "sha256": "6b9bc81537bbf56fd1f8afdd319dd5ebea00835b19f4d8e0650c65be83bea7ea"
-      },
-      {
-        "path": "template.html",
-        "bytes": 27951,
-        "sha256": "f9c77a9b0dcc3f0875cdbc09e8a509f65564708098552265808b8a1ce4b7ed84"
-      },
-      {
-        "path": "README.md",
-        "bytes": 1537,
-        "sha256": "4d509b1cf327e5e92d984279e1a5d53acbad60915815173e9b7d8c0f7db8564c"
-      },
-      {
-        "path": "qa.cjs",
-        "bytes": 7409,
-        "sha256": "076a4afcdaa2b3cf1eac8911c025a5f3470858a11b96d346f5fc9ea76f70215a"
-      }
-    ]
-  },
   "originalContentInputCommit": "16838828fba90a3444c4a49a35b98df74f271f32",
   "adoption": {
-    "decision": "CORE-071",
-    "record": "../sources/draft-changes/D-2026-11-01-alchemy-only-content.md",
-    "scope": "Retire 38 non-alchemy objects and four dedicated sources, generated sheets and former EX-004 case/task; retain all 61 alchemy object values, 35 recipes and three builds"
+    "decision": "CORE-072",
+    "record": "../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md",
+    "scope": "35 recipe contracts, card permissions, 11 effects, curse; excludes core compatibility, geometry, carry, exact supply and initial encounter"
   },
   "preservedCoreOccupancyAdoption": {
     "decision": "CORE-070",
@@ -188,8 +193,12 @@
   },
   "contentConfirmation": {
     "source": "../sources/materials/M-2026-11-01-alchemy-executable-direction.md",
-    "decision": "Q5",
-    "scope": "Only r01-r24 duration and artifact fields; qualified content parameters, not full release or core-rule adoption"
+    "decision": "Q5—Q8",
+    "scope": "Accepted by CORE-072 within declared fields; complete encounter not adopted"
   },
-  "deliveryCommit": "8c2f6372f892b61827d9966c06c31da470df0cb5"
+  "previousContentRetirement": {
+    "decision": "CORE-071",
+    "record": "../sources/draft-changes/D-2026-11-01-alchemy-only-content.md",
+    "scope": "Retire 38 non-alchemy objects and four dedicated sources, generated sheets and former EX-004 case/task; retain all 61 alchemy object values, 35 recipes and three builds"
+  }
 }
