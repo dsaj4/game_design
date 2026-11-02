@@ -1,0 +1,3097 @@
+{
+  "schema": "yanzhou-first-battle-art/1",
+  "id": "AS-G002-042",
+  "version": "FIRST-BATTLE-ART-01",
+  "date": "2026-11-02",
+  "project": "game-002",
+  "input": {
+    "commit": "4abbe3fc36835b601bb9981a2b01806fc0f78949",
+    "catalogVersion": "CONTENT-LIBRARY-06",
+    "catalogSha256": "bc7e34a314c3338669f33521672ad8141b0859f0ff3e940ed0cb638643d48ea7",
+    "taskPack": "yanzhou/development/task-packs/first-battle-alchemy.md",
+    "scope": "CORE-073 / EX-005 first-distillation.1",
+    "style": "WAYS-ART-BASELINE-02"
+  },
+  "status": "ReadyForScope / PresentLocal; user visual acceptance PendingReview",
+  "generatedFinalImages": 29,
+  "reusedImages": 4,
+  "imageGenCalls": 39,
+  "cardCanvas": {
+    "width": 1174,
+    "height": 1340,
+    "opaque": true,
+    "independentOfInventoryFootprint": true
+  },
+  "assets": [
+    {
+      "key": "herb-juice",
+      "name": "草药汁液",
+      "kind": "material",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/herb-juice-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-033997ab-d194-46e0-9272-6196412412bb.png",
+      "prompt": "prompts/herb-juice-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.herb-juice",
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA",
+      "sha256": "8095edfd25f0bd96d081ce841f86bcf8d0a8bd69d6f0828d9d4a4ac3a2af5f3c",
+      "bytes": 933002,
+      "originalSha256": "8095edfd25f0bd96d081ce841f86bcf8d0a8bd69d6f0828d9d4a4ac3a2af5f3c",
+      "originalBytesMatch": true,
+      "promptSha256": "4bdd859a2cfff1baebdeb3acb34b27e0cefd6dc9170a7b0e15a2f5374240b33d",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        181,
+        69,
+        706,
+        1689
+      ]
+    },
+    {
+      "key": "iron-sand",
+      "name": "精铁砂砾",
+      "kind": "material",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/iron-sand-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-b9fb7979-520e-4888-8dba-ae4c5a2afc8b.png",
+      "prompt": "prompts/iron-sand-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.iron-sand",
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA",
+      "sha256": "03560adce3d29ccbd6b41c3e488e0f9135e615edbcd3919b7b7d72a8c15b1ab6",
+      "bytes": 1147117,
+      "originalSha256": "03560adce3d29ccbd6b41c3e488e0f9135e615edbcd3919b7b7d72a8c15b1ab6",
+      "originalBytesMatch": true,
+      "promptSha256": "810a1d2a9bb1e36a878993549c6bb41ba772e1568be89de6ad0d6d28dc737efd",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        104,
+        77,
+        786,
+        1697
+      ]
+    },
+    {
+      "key": "spirit-fluid",
+      "name": "草本灵液",
+      "kind": "material",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/spirit-fluid-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-70b623af-9caf-44d4-ae2e-fd6f8a4bc5a6.png",
+      "prompt": "prompts/spirit-fluid-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.spirit-fluid",
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA",
+      "sha256": "f91261558b507013a089ad3d48e9786ac272429aac0a78915d1e4824ed35161a",
+      "bytes": 1154033,
+      "originalSha256": "f91261558b507013a089ad3d48e9786ac272429aac0a78915d1e4824ed35161a",
+      "originalBytesMatch": true,
+      "promptSha256": "faa5a06dcc2a43cf4c289c9b21620cbd59537eeda8c3127b61c30c3a72485d29",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        114,
+        70,
+        773,
+        1692
+      ]
+    },
+    {
+      "key": "mercury",
+      "name": "汞",
+      "kind": "material",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/mercury-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-9fc7462e-e1ff-4c31-b9e7-a4c096f38fc1.png",
+      "prompt": "prompts/mercury-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.mercury",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "533088591158485f4b827016357c63f392373d78bec4c6ee6daacdf95a219479",
+      "bytes": 852062,
+      "originalSha256": "533088591158485f4b827016357c63f392373d78bec4c6ee6daacdf95a219479",
+      "originalBytesMatch": true,
+      "promptSha256": "c430a0ef9cb80e400c9ee3bc5403b5cecb9d4ffcac3156b4472338ac89fe0726",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        119,
+        234,
+        1155,
+        1013
+      ]
+    },
+    {
+      "key": "life",
+      "name": "生命灵药",
+      "kind": "product",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/life-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-0b86968e-e7a2-4c46-b1f9-87ec5278f90e.png",
+      "prompt": "prompts/life-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.life",
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA",
+      "sha256": "bad5f159f559caecfb424b73ec22b5130fddcc3784de8456cea56e962ede5648",
+      "bytes": 1103734,
+      "originalSha256": "bad5f159f559caecfb424b73ec22b5130fddcc3784de8456cea56e962ede5648",
+      "originalBytesMatch": true,
+      "promptSha256": "ff22494f74ec99b790d622091d76699c6caaa1d43687ac80d30588af29b8efc5",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        117,
+        75,
+        772,
+        1684
+      ]
+    },
+    {
+      "key": "skin",
+      "name": "铁肤药水",
+      "kind": "product",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/skin-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-47fa2e5b-e8f9-4f69-84c2-21895f6dca04.png",
+      "prompt": "prompts/skin-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.skin",
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA",
+      "sha256": "3c929f70c9e8e29becfa4d7f11d17b5864832167496cd8a369ea731914b91793",
+      "bytes": 1006898,
+      "originalSha256": "3c929f70c9e8e29becfa4d7f11d17b5864832167496cd8a369ea731914b91793",
+      "originalBytesMatch": true,
+      "promptSha256": "f0b9e311630b3ea7091090728642cecf1bd1a7132bcf1cb6e7a7607d7a8e23b9",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        148,
+        67,
+        737,
+        1712
+      ]
+    },
+    {
+      "key": "ignite",
+      "name": "引燃术",
+      "kind": "product",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/ignite-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-a6533039-0ef7-45d8-aab2-031a5a8ed37e.png",
+      "prompt": "prompts/ignite-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.ignite",
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA",
+      "sha256": "d33aba778304b4d2511c2e1dc009bfc08d65557e6fee059bdb124539bc0469bc",
+      "bytes": 874863,
+      "originalSha256": "d33aba778304b4d2511c2e1dc009bfc08d65557e6fee059bdb124539bc0469bc",
+      "originalBytesMatch": true,
+      "promptSha256": "1d5fcf16eadb617e8c168da0b26e039fe77003e7e93f969fbd3ccd0bb395e195",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        190,
+        85,
+        734,
+        1716
+      ]
+    },
+    {
+      "key": "fire-seed",
+      "name": "硫磺火种",
+      "kind": "material",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/fire-seed-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-e77cdbeb-d823-4596-921d-925b2a3a7dfc.png",
+      "prompt": "prompts/fire-seed-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.fire-seed",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "c8f5aa3c347cc9e4317a7d850696d432e0b8254129f39f9df90299bb0b3c0da2",
+      "bytes": 822108,
+      "originalSha256": "c8f5aa3c347cc9e4317a7d850696d432e0b8254129f39f9df90299bb0b3c0da2",
+      "originalBytesMatch": true,
+      "promptSha256": "aa8a9de969a612de2f085037405d20e5e000a082965b29972f86a8c7523729b0",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        183,
+        184,
+        1109,
+        1107
+      ]
+    },
+    {
+      "key": "artifact-retort",
+      "name": "白瓷曲颈瓶",
+      "kind": "artifact",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/artifact-retort-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-f950a86d-f704-4072-86c4-713e79527add.png",
+      "prompt": "prompts/artifact-retort-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.artifact-retort",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "c2dd2a880ec20c3a4e928d45ddf7b14259522c38ba934ecc33d9abdd9000126b",
+      "bytes": 796546,
+      "originalSha256": "c2dd2a880ec20c3a4e928d45ddf7b14259522c38ba934ecc33d9abdd9000126b",
+      "originalBytesMatch": true,
+      "promptSha256": "ffaf707cf5c3f7181eaeb0341a8249b33ab33a74c21b2d48bb822d18df71a779",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "feed": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        52,
+        39,
+        1205,
+        1215
+      ],
+      "emptyCellsMaxAlpha": 1
+    },
+    {
+      "key": "artifact-extractor",
+      "name": "盘管萃炼器",
+      "kind": "artifact",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/artifact-extractor-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-7b2a8371-6551-429e-a50d-926b3c23b276.png",
+      "prompt": "prompts/artifact-extractor-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.artifact-extractor",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "56953e1546961f6e0a5027f6b9e421644da42f2cd9123881fc5f86e589fa7fc8",
+      "bytes": 1319469,
+      "originalSha256": "56953e1546961f6e0a5027f6b9e421644da42f2cd9123881fc5f86e589fa7fc8",
+      "originalBytesMatch": true,
+      "promptSha256": "49ed7b178f07db4c451e4c5c5809b8014caed3dd1d44cb2aeb20c5b653073d6c",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "feed": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "visibleBoundsAlpha32": [
+        139,
+        57,
+        911,
+        1484
+      ],
+      "emptyCellsMaxAlpha": 1
+    },
+    {
+      "key": "enemy-distillation-warden",
+      "name": "漏压蒸馏守卫",
+      "kind": "enemy",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-distillation-warden-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-865853ba-2571-4c00-85fb-51920d49ef56.png",
+      "prompt": "prompts/enemy-distillation-warden-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.enemy-distillation-warden",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "f4baa25924bc2ac8e3fd6e1e82610d89f3e69055416b1e56fa58fc727b1de4cb",
+      "bytes": 1259088,
+      "originalSha256": "f4baa25924bc2ac8e3fd6e1e82610d89f3e69055416b1e56fa58fc727b1de4cb",
+      "originalBytesMatch": true,
+      "promptSha256": "8c3676f2d27bfd183472828e3176c32bedcb4e91786bebf104af3113dba481c4",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        39,
+        21,
+        1222,
+        1230
+      ]
+    },
+    {
+      "key": "artifact-lamp",
+      "name": "黄铜显咒灯",
+      "kind": "artifact",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/artifact-lamp-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-9b9203b1-2e17-4485-984a-fbac6b9d028b.png",
+      "prompt": "prompts/artifact-lamp-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.artifact-lamp",
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA",
+      "sha256": "a27174abf1b81f4860505988b84bcc33a92886b19a3425fdc14c3906ae5615f5",
+      "bytes": 841084,
+      "originalSha256": "a27174abf1b81f4860505988b84bcc33a92886b19a3425fdc14c3906ae5615f5",
+      "originalBytesMatch": true,
+      "promptSha256": "54370e67af4dcf76b97f43443fd98cf76b3bae41e5ee92ccd2a811a51a51da36",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "feed": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        109,
+        71,
+        778,
+        1712
+      ]
+    },
+    {
+      "key": "core-flow",
+      "name": "流转",
+      "kind": "core",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/core-flow-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-f3abbe74-3b5a-4a1a-b311-30ec0a28b825.png",
+      "prompt": "prompts/core-flow-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.core-flow",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "9af9c1418c29832480ee28d27b748d54905fe9aefecb341cc01e8ee400e41862",
+      "bytes": 1233200,
+      "originalSha256": "9af9c1418c29832480ee28d27b748d54905fe9aefecb341cc01e8ee400e41862",
+      "originalBytesMatch": true,
+      "promptSha256": "6eafa8bc4fea2f10f347d28635c3d855b6429d87f7ca226d0f73c58865445bdd",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        94,
+        93,
+        1160,
+        1161
+      ]
+    },
+    {
+      "key": "core-refine",
+      "name": "精炼",
+      "kind": "core",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/core-refine-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-fe9845b4-1389-44c4-ade5-e56000ef6552.png",
+      "prompt": "prompts/core-refine-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.core-refine",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "32d2c7680abcd561604dc69b51c21651e49c13b923bd3ed5239192b4c801e62a",
+      "bytes": 1236589,
+      "originalSha256": "32d2c7680abcd561604dc69b51c21651e49c13b923bd3ed5239192b4c801e62a",
+      "originalBytesMatch": true,
+      "promptSha256": "1e7c8a2d725072a174a1be06590a31c8c8d42ea737d74244f5bf28697ad7cf94",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        80,
+        85,
+        1173,
+        1162
+      ]
+    },
+    {
+      "key": "core-albedo",
+      "name": "白化",
+      "kind": "core",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/core-albedo-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-b7093c39-09ee-45a0-9af7-3297178594e9.png",
+      "prompt": "prompts/core-albedo-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.core-albedo",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "54558a4bd80091be2cf9326d501075f5b1a567c23572a0c7447fbd466846fafe",
+      "bytes": 920852,
+      "originalSha256": "54558a4bd80091be2cf9326d501075f5b1a567c23572a0c7447fbd466846fafe",
+      "originalBytesMatch": true,
+      "promptSha256": "5e620866a9bf1e720063f8f658b7017ecc28dc921c17cc20a43d9a1519caf864",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        149,
+        140,
+        1105,
+        1097
+      ]
+    },
+    {
+      "key": "core-citrinitas",
+      "name": "黄化",
+      "kind": "core",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/core-citrinitas-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-5e7b6f33-ccc8-4913-b65c-c9721a354837.png",
+      "prompt": "prompts/core-citrinitas-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.core-citrinitas",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "bcbc93a96f17f1f5e0f2b82e99776fd924e67c421e48020c701052ec8baa1c72",
+      "bytes": 1200984,
+      "originalSha256": "bcbc93a96f17f1f5e0f2b82e99776fd924e67c421e48020c701052ec8baa1c72",
+      "originalBytesMatch": true,
+      "promptSha256": "26b1d2a48f4386813732a36ff081541751332d455693b93e387b19024d24585a",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        83,
+        82,
+        1170,
+        1157
+      ]
+    },
+    {
+      "key": "core-activation",
+      "name": "激发",
+      "kind": "core",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/core-activation-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-9115a975-858f-45e3-8959-ab11eb0baf2c.png",
+      "prompt": "prompts/core-activation-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.core-activation",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "89ff11206a48003bb263002390a96ab8a8b91bfdbc36cb7c38c538f0b94e0789",
+      "bytes": 989849,
+      "originalSha256": "89ff11206a48003bb263002390a96ab8a8b91bfdbc36cb7c38c538f0b94e0789",
+      "originalBytesMatch": true,
+      "promptSha256": "60080ed6f3d601a07172ef1907b5e8eb1a874349486cb951699001f51861d466",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        115,
+        117,
+        1140,
+        1137
+      ]
+    },
+    {
+      "key": "mercury",
+      "name": "汞",
+      "kind": "material",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/mercury-card.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-a1ef6703-4e4c-4a8a-90e0-b8a195ad88a5.png",
+      "prompt": "prompts/mercury-card.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/mercury-item.png"
+      ],
+      "contentId": "alchemy.mercury",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "fda32067f8df337b3c43346b7c1140421897bd29f35475230f47d12d99f5e48c",
+      "bytes": 1625308,
+      "originalSha256": "fda32067f8df337b3c43346b7c1140421897bd29f35475230f47d12d99f5e48c",
+      "originalBytesMatch": true,
+      "promptSha256": "615c67f9fa07beb934515603ad9b1a5d763a2f78f4aa04b183f5d75f78804164",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/mercury-item.png",
+          "sha256": "533088591158485f4b827016357c63f392373d78bec4c6ee6daacdf95a219479"
+        }
+      ]
+    },
+    {
+      "key": "herb-juice",
+      "name": "草药汁液",
+      "kind": "material",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/herb-juice-card.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-4d9b25e8-068d-4917-9403-2c3f3faab823.png",
+      "prompt": "prompts/herb-juice-card.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/herb-juice-item.png"
+      ],
+      "contentId": "alchemy.herb-juice",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "4bce9019a49d9cf2283d10c95ddd8b50b4fc89a6a63402b1c925d0710d749895",
+      "bytes": 1616386,
+      "originalSha256": "4bce9019a49d9cf2283d10c95ddd8b50b4fc89a6a63402b1c925d0710d749895",
+      "originalBytesMatch": true,
+      "promptSha256": "ffdde6f421ed7c17b3e90b7192530229519ad4674cbd7d313a3a9bfba75b09d0",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/herb-juice-item.png",
+          "sha256": "8095edfd25f0bd96d081ce841f86bcf8d0a8bd69d6f0828d9d4a4ac3a2af5f3c"
+        }
+      ]
+    },
+    {
+      "key": "iron-sand",
+      "name": "精铁砂砾",
+      "kind": "material",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/iron-sand-card.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-1742fbe1-f120-4c97-b181-f172d644a50e.png",
+      "prompt": "prompts/iron-sand-card.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/iron-sand-item.png"
+      ],
+      "contentId": "alchemy.iron-sand",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "9ff5703136bec3761743007673d614c0cc8ba0b7f321da3c846b85bfb0ca4f42",
+      "bytes": 1616185,
+      "originalSha256": "9ff5703136bec3761743007673d614c0cc8ba0b7f321da3c846b85bfb0ca4f42",
+      "originalBytesMatch": true,
+      "promptSha256": "666a251958f03601e9014277961d9080f6553c6b299e073b0b9dbb71b145b995",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/iron-sand-item.png",
+          "sha256": "03560adce3d29ccbd6b41c3e488e0f9135e615edbcd3919b7b7d72a8c15b1ab6"
+        }
+      ]
+    },
+    {
+      "key": "ignite",
+      "name": "引燃术",
+      "kind": "product",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/ignite-card.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-c0e24933-4a09-4f6e-abdf-c521a7338108.png",
+      "prompt": "prompts/ignite-card.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/ignite-item.png"
+      ],
+      "contentId": "alchemy.ignite",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "bb33d63d6efe06f294851c355eaa239058ca7668e0935f37c4930203dc6330d9",
+      "bytes": 1528790,
+      "originalSha256": "bb33d63d6efe06f294851c355eaa239058ca7668e0935f37c4930203dc6330d9",
+      "originalBytesMatch": true,
+      "promptSha256": "bac69c9248c7e1f93e6068e890c09a98fe804f4573a1c82987654097a672970d",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/ignite-item.png",
+          "sha256": "d33aba778304b4d2511c2e1dc009bfc08d65557e6fee059bdb124539bc0469bc"
+        }
+      ]
+    },
+    {
+      "key": "fire-seed",
+      "name": "硫磺火种",
+      "kind": "material",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/fire-seed-card.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-2cf6acd2-1d1e-4271-b03c-31aa66bbe4fc.png",
+      "prompt": "prompts/fire-seed-card.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/fire-seed-item.png"
+      ],
+      "contentId": "alchemy.fire-seed",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "22c68eb6f97f6b0486841926e4fd99cf32f67f5826241294d03a450da23c1023",
+      "bytes": 1668946,
+      "originalSha256": "22c68eb6f97f6b0486841926e4fd99cf32f67f5826241294d03a450da23c1023",
+      "originalBytesMatch": true,
+      "promptSha256": "fab97610fe2f5b1770feccc2dee690667aa41e6ae607c4885f4008693523a76a",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/fire-seed-item.png",
+          "sha256": "c8f5aa3c347cc9e4317a7d850696d432e0b8254129f39f9df90299bb0b3c0da2"
+        }
+      ]
+    },
+    {
+      "key": "skin",
+      "name": "铁肤药水",
+      "kind": "product",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/skin-card.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-4afddb60-37db-44fe-9d12-fa5f2715328f.png",
+      "prompt": "prompts/skin-card.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/skin-item.png"
+      ],
+      "contentId": "alchemy.skin",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "d0ef30854befbda5052103b3a816126c9f4f4ed7cb9a9d6faf857cf70773c0d0",
+      "bytes": 1656608,
+      "originalSha256": "d0ef30854befbda5052103b3a816126c9f4f4ed7cb9a9d6faf857cf70773c0d0",
+      "originalBytesMatch": true,
+      "promptSha256": "dbcdedc778f93051d20a252bb90a7964d55c822deed94112741a343fb65a59be",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/skin-item.png",
+          "sha256": "3c929f70c9e8e29becfa4d7f11d17b5864832167496cd8a369ea731914b91793"
+        }
+      ]
+    },
+    {
+      "key": "enemy-card-pressure",
+      "name": "加压喷流",
+      "kind": "enemy-card",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-pressure.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-31b812f0-9ce1-4119-aba3-5bb9c6215f0c.png",
+      "prompt": "prompts/enemy-card-pressure.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-distillation-warden-item.png"
+      ],
+      "contentId": "alchemy.enemy-card-pressure",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "e548190f697fc28640ddd74e805b125c6f6224fa18ce2a7ba858361fc3e9bdee",
+      "bytes": 1778062,
+      "originalSha256": "e548190f697fc28640ddd74e805b125c6f6224fa18ce2a7ba858361fc3e9bdee",
+      "originalBytesMatch": true,
+      "promptSha256": "49414d319952ff4e02a76bc621866c7b6ab7a5ce1c262af358e358c2925eaac7",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-distillation-warden-item.png",
+          "sha256": "f4baa25924bc2ac8e3fd6e1e82610d89f3e69055416b1e56fa58fc727b1de4cb"
+        }
+      ]
+    },
+    {
+      "key": "enemy-card-charge",
+      "name": "阀室蓄压",
+      "kind": "enemy-card",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-charge.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-4a74e769-1aac-406a-b538-a8f8d7440f9d.png",
+      "prompt": "prompts/enemy-card-charge.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-distillation-warden-item.png"
+      ],
+      "contentId": "alchemy.enemy-card-charge",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "88ac3918b3113ff379377e3a5aabe3654a2b106b664169ee149dcb15b2eb9f28",
+      "bytes": 1782470,
+      "originalSha256": "88ac3918b3113ff379377e3a5aabe3654a2b106b664169ee149dcb15b2eb9f28",
+      "originalBytesMatch": true,
+      "promptSha256": "a8cd878787b560b9890351f40ba051ffc8047e0ac9c568bb8165ab661577ae43",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-distillation-warden-item.png",
+          "sha256": "f4baa25924bc2ac8e3fd6e1e82610d89f3e69055416b1e56fa58fc727b1de4cb"
+        }
+      ]
+    },
+    {
+      "key": "spirit-fluid",
+      "name": "草本灵液",
+      "kind": "material",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/spirit-fluid-card-v02.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-892f2a84-af52-484f-92ad-68fa475ad9d1.png",
+      "prompt": "prompts/spirit-fluid-card-v02.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/spirit-fluid-card.png",
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png"
+      ],
+      "superseded": false,
+      "contentId": "alchemy.spirit-fluid",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "aa942189f97e39874df1b392f48dc9fa9f898069c907a6a019e6c7bf505443da",
+      "bytes": 1652213,
+      "originalSha256": "aa942189f97e39874df1b392f48dc9fa9f898069c907a6a019e6c7bf505443da",
+      "originalBytesMatch": true,
+      "promptSha256": "a6d1a945ca55fd701a849d8fa0c6cf9638b8bd3f8abcc30475438027882d15a7",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/spirit-fluid-card.png",
+          "sha256": "eb7e0fe4b1b2a0c4c5a03a7318e10fd99ae15aa684eb7f34a5406c1c18ef0a61"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        }
+      ]
+    },
+    {
+      "key": "life",
+      "name": "生命灵药",
+      "kind": "product",
+      "surface": "card",
+      "source": "E:\\Project\\yanzhou-art-assets\\first-battle-2026-11-02\\sources\\life-card-final.png",
+      "original": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/life-card.png",
+      "prompt": "prompts/life-card.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/life-card.png"
+      ],
+      "superseded": false,
+      "processing": "User authorized: append one bottom row copied from original final row; first 1339 rows unchanged. No scaling, cropping, or repainting of subject.",
+      "contentId": "alchemy.life",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "e956b5b6188c4dc7ee2becb6f10dc0c3a1e4dc32316826554d6c7b57026a8bf6",
+      "bytes": 1592246,
+      "originalSha256": "74a13dbcfbfca2a681a900df6e7555c805f95334de7f6b91fc75019e9f30feb4",
+      "originalBytesMatch": false,
+      "promptSha256": "714eca046685b0394b2d5473ae7fd5ed31e42ce7a65ff7c07713ac45d3b869a9",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/life-card.png",
+          "sha256": "74a13dbcfbfca2a681a900df6e7555c805f95334de7f6b91fc75019e9f30feb4"
+        }
+      ]
+    },
+    {
+      "key": "enemy-card-vent",
+      "name": "泄压喷流",
+      "kind": "enemy-card",
+      "surface": "card",
+      "source": "E:\\Project\\yanzhou-art-assets\\first-battle-2026-11-02\\sources\\enemy-card-vent-card-final.png",
+      "original": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-vent.png",
+      "prompt": "prompts/enemy-card-vent.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-vent.png"
+      ],
+      "superseded": false,
+      "processing": "User authorized: append one bottom row copied from original final row; first 1339 rows unchanged. No scaling, cropping, or repainting of subject.",
+      "contentId": "alchemy.enemy-card-vent",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "7b9f2f41d40e6095db1f68925e995a6a7cff360c3129562c7dccdf34bc4e4fc4",
+      "bytes": 1666446,
+      "originalSha256": "51b7b17ce7a0d965e214ef52e64562cfab89cdef61cc29d1ed38dc92fdf021ba",
+      "originalBytesMatch": false,
+      "promptSha256": "4ac2f20ff7ff63bbcf41d774c6112ca7313f1946c78b80838a023b936882d519",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-vent.png",
+          "sha256": "51b7b17ce7a0d965e214ef52e64562cfab89cdef61cc29d1ed38dc92fdf021ba"
+        }
+      ]
+    },
+    {
+      "key": "enemy-card-burst",
+      "name": "压力迸发",
+      "kind": "enemy-card",
+      "surface": "card",
+      "source": "E:\\Project\\yanzhou-art-assets\\first-battle-2026-11-02\\sources\\enemy-card-burst-card-final.png",
+      "original": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-burst.png",
+      "prompt": "prompts/enemy-card-burst.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-burst.png"
+      ],
+      "superseded": false,
+      "processing": "User authorized: append one bottom row copied from original final row; first 1339 rows unchanged. No scaling, cropping, or repainting of subject.",
+      "contentId": "alchemy.enemy-card-burst",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "6aa0619c0f07e4f382d100728597c5181f73e3ecf48215e07bad0f896788c25d",
+      "bytes": 1738787,
+      "originalSha256": "9b33c2ec8424423205f937e7a2d24651a51245600a92a59f16fec7c5de91f294",
+      "originalBytesMatch": false,
+      "promptSha256": "b604ee93e4c0bead82eb47f7233ab2cd54bcb7102b0bb0545f701bf9bd3cc7a2",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-burst.png",
+          "sha256": "9b33c2ec8424423205f937e7a2d24651a51245600a92a59f16fec7c5de91f294"
+        }
+      ]
+    },
+    {
+      "key": "herb",
+      "name": "疗伤草",
+      "kind": "material",
+      "surface": "item",
+      "source": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-items-2026-11-01\\sources\\herb-v01.png",
+      "reuse": "AS-G002-040@ALCHEMY-ITEM-PILOT-03",
+      "contentId": "alchemy.herb",
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA",
+      "sha256": "f7125811f5ac01879902081a973480aa7c9e9e69036d61839ca5f8ec316b980c",
+      "bytes": 1026508,
+      "referenceHashes": [],
+      "body": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        67,
+        94,
+        827,
+        1695
+      ]
+    },
+    {
+      "key": "herb",
+      "name": "疗伤草",
+      "kind": "material",
+      "surface": "card",
+      "source": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-cards-2026-11-01\\sources\\herb-card-v01.png",
+      "reuse": "AS-G002-041@CARD-ART-03",
+      "contentId": "alchemy.herb",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "bf049b6c634f9093ae89f3a68c229f5b0433d5d1473f772d9eb08e8c79202ed3",
+      "bytes": 1764368,
+      "referenceHashes": []
+    },
+    {
+      "key": "fire",
+      "name": "燃烧木炭",
+      "kind": "material",
+      "surface": "item",
+      "source": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-items-2026-11-01\\sources\\fire-v01.png",
+      "reuse": "AS-G002-040@ALCHEMY-ITEM-PILOT-03",
+      "contentId": "alchemy.fire",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "81c7bc7654b0ecef66fecb3d91b7384ef34d044d64e1d80688332d4c35fae56e",
+      "bytes": 1099355,
+      "referenceHashes": [],
+      "body": [
+        [
+          0,
+          0
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        78,
+        83,
+        1180,
+        1196
+      ]
+    },
+    {
+      "key": "fire",
+      "name": "燃烧木炭",
+      "kind": "material",
+      "surface": "card",
+      "source": "E:\\Project\\yanzhou-art-assets\\alchemy-grid-cards-2026-11-01\\sources\\fire-card-v02.png",
+      "reuse": "AS-G002-041@CARD-ART-03",
+      "contentId": "alchemy.fire",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "ae17f646276c5d9b9538bfe99a83c404dd51f417d8b0b2898bddbbafe6d9779a",
+      "bytes": 1756154,
+      "referenceHashes": []
+    }
+  ],
+  "generationHistory": [
+    {
+      "key": "herb-juice",
+      "name": "草药汁液",
+      "kind": "material",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/herb-juice-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-033997ab-d194-46e0-9272-6196412412bb.png",
+      "prompt": "prompts/herb-juice-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.herb-juice",
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA",
+      "sha256": "8095edfd25f0bd96d081ce841f86bcf8d0a8bd69d6f0828d9d4a4ac3a2af5f3c",
+      "bytes": 933002,
+      "originalSha256": "8095edfd25f0bd96d081ce841f86bcf8d0a8bd69d6f0828d9d4a4ac3a2af5f3c",
+      "originalBytesMatch": true,
+      "promptSha256": "4bdd859a2cfff1baebdeb3acb34b27e0cefd6dc9170a7b0e15a2f5374240b33d",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        181,
+        69,
+        706,
+        1689
+      ]
+    },
+    {
+      "key": "iron-sand",
+      "name": "精铁砂砾",
+      "kind": "material",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/iron-sand-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-b9fb7979-520e-4888-8dba-ae4c5a2afc8b.png",
+      "prompt": "prompts/iron-sand-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.iron-sand",
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA",
+      "sha256": "03560adce3d29ccbd6b41c3e488e0f9135e615edbcd3919b7b7d72a8c15b1ab6",
+      "bytes": 1147117,
+      "originalSha256": "03560adce3d29ccbd6b41c3e488e0f9135e615edbcd3919b7b7d72a8c15b1ab6",
+      "originalBytesMatch": true,
+      "promptSha256": "810a1d2a9bb1e36a878993549c6bb41ba772e1568be89de6ad0d6d28dc737efd",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        104,
+        77,
+        786,
+        1697
+      ]
+    },
+    {
+      "key": "spirit-fluid",
+      "name": "草本灵液",
+      "kind": "material",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/spirit-fluid-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-70b623af-9caf-44d4-ae2e-fd6f8a4bc5a6.png",
+      "prompt": "prompts/spirit-fluid-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.spirit-fluid",
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA",
+      "sha256": "f91261558b507013a089ad3d48e9786ac272429aac0a78915d1e4824ed35161a",
+      "bytes": 1154033,
+      "originalSha256": "f91261558b507013a089ad3d48e9786ac272429aac0a78915d1e4824ed35161a",
+      "originalBytesMatch": true,
+      "promptSha256": "faa5a06dcc2a43cf4c289c9b21620cbd59537eeda8c3127b61c30c3a72485d29",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        114,
+        70,
+        773,
+        1692
+      ]
+    },
+    {
+      "key": "mercury",
+      "name": "汞",
+      "kind": "material",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/mercury-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-9fc7462e-e1ff-4c31-b9e7-a4c096f38fc1.png",
+      "prompt": "prompts/mercury-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.mercury",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "533088591158485f4b827016357c63f392373d78bec4c6ee6daacdf95a219479",
+      "bytes": 852062,
+      "originalSha256": "533088591158485f4b827016357c63f392373d78bec4c6ee6daacdf95a219479",
+      "originalBytesMatch": true,
+      "promptSha256": "c430a0ef9cb80e400c9ee3bc5403b5cecb9d4ffcac3156b4472338ac89fe0726",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        119,
+        234,
+        1155,
+        1013
+      ]
+    },
+    {
+      "key": "life",
+      "name": "生命灵药",
+      "kind": "product",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/life-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-0b86968e-e7a2-4c46-b1f9-87ec5278f90e.png",
+      "prompt": "prompts/life-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.life",
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA",
+      "sha256": "bad5f159f559caecfb424b73ec22b5130fddcc3784de8456cea56e962ede5648",
+      "bytes": 1103734,
+      "originalSha256": "bad5f159f559caecfb424b73ec22b5130fddcc3784de8456cea56e962ede5648",
+      "originalBytesMatch": true,
+      "promptSha256": "ff22494f74ec99b790d622091d76699c6caaa1d43687ac80d30588af29b8efc5",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        117,
+        75,
+        772,
+        1684
+      ]
+    },
+    {
+      "key": "skin",
+      "name": "铁肤药水",
+      "kind": "product",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/skin-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-47fa2e5b-e8f9-4f69-84c2-21895f6dca04.png",
+      "prompt": "prompts/skin-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.skin",
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA",
+      "sha256": "3c929f70c9e8e29becfa4d7f11d17b5864832167496cd8a369ea731914b91793",
+      "bytes": 1006898,
+      "originalSha256": "3c929f70c9e8e29becfa4d7f11d17b5864832167496cd8a369ea731914b91793",
+      "originalBytesMatch": true,
+      "promptSha256": "f0b9e311630b3ea7091090728642cecf1bd1a7132bcf1cb6e7a7607d7a8e23b9",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        148,
+        67,
+        737,
+        1712
+      ]
+    },
+    {
+      "key": "ignite",
+      "name": "引燃术",
+      "kind": "product",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/ignite-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-a6533039-0ef7-45d8-aab2-031a5a8ed37e.png",
+      "prompt": "prompts/ignite-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.ignite",
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA",
+      "sha256": "d33aba778304b4d2511c2e1dc009bfc08d65557e6fee059bdb124539bc0469bc",
+      "bytes": 874863,
+      "originalSha256": "d33aba778304b4d2511c2e1dc009bfc08d65557e6fee059bdb124539bc0469bc",
+      "originalBytesMatch": true,
+      "promptSha256": "1d5fcf16eadb617e8c168da0b26e039fe77003e7e93f969fbd3ccd0bb395e195",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        190,
+        85,
+        734,
+        1716
+      ]
+    },
+    {
+      "key": "fire-seed",
+      "name": "硫磺火种",
+      "kind": "material",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/fire-seed-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-e77cdbeb-d823-4596-921d-925b2a3a7dfc.png",
+      "prompt": "prompts/fire-seed-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.fire-seed",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "c8f5aa3c347cc9e4317a7d850696d432e0b8254129f39f9df90299bb0b3c0da2",
+      "bytes": 822108,
+      "originalSha256": "c8f5aa3c347cc9e4317a7d850696d432e0b8254129f39f9df90299bb0b3c0da2",
+      "originalBytesMatch": true,
+      "promptSha256": "aa8a9de969a612de2f085037405d20e5e000a082965b29972f86a8c7523729b0",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        183,
+        184,
+        1109,
+        1107
+      ]
+    },
+    {
+      "key": "artifact-retort",
+      "name": "白瓷曲颈瓶",
+      "kind": "artifact",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/artifact-retort-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-f950a86d-f704-4072-86c4-713e79527add.png",
+      "prompt": "prompts/artifact-retort-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.artifact-retort",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "c2dd2a880ec20c3a4e928d45ddf7b14259522c38ba934ecc33d9abdd9000126b",
+      "bytes": 796546,
+      "originalSha256": "c2dd2a880ec20c3a4e928d45ddf7b14259522c38ba934ecc33d9abdd9000126b",
+      "originalBytesMatch": true,
+      "promptSha256": "ffaf707cf5c3f7181eaeb0341a8249b33ab33a74c21b2d48bb822d18df71a779",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "feed": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        52,
+        39,
+        1205,
+        1215
+      ],
+      "emptyCellsMaxAlpha": 1
+    },
+    {
+      "key": "artifact-extractor",
+      "name": "盘管萃炼器",
+      "kind": "artifact",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/artifact-extractor-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-7b2a8371-6551-429e-a50d-926b3c23b276.png",
+      "prompt": "prompts/artifact-extractor-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.artifact-extractor",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "56953e1546961f6e0a5027f6b9e421644da42f2cd9123881fc5f86e589fa7fc8",
+      "bytes": 1319469,
+      "originalSha256": "56953e1546961f6e0a5027f6b9e421644da42f2cd9123881fc5f86e589fa7fc8",
+      "originalBytesMatch": true,
+      "promptSha256": "49ed7b178f07db4c451e4c5c5809b8014caed3dd1d44cb2aeb20c5b653073d6c",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "feed": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "alphaRange": [
+        0,
+        254
+      ],
+      "visibleBoundsAlpha32": [
+        139,
+        57,
+        911,
+        1484
+      ],
+      "emptyCellsMaxAlpha": 1
+    },
+    {
+      "key": "enemy-distillation-warden",
+      "name": "漏压蒸馏守卫",
+      "kind": "enemy",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-distillation-warden-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-865853ba-2571-4c00-85fb-51920d49ef56.png",
+      "prompt": "prompts/enemy-distillation-warden-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.enemy-distillation-warden",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "f4baa25924bc2ac8e3fd6e1e82610d89f3e69055416b1e56fa58fc727b1de4cb",
+      "bytes": 1259088,
+      "originalSha256": "f4baa25924bc2ac8e3fd6e1e82610d89f3e69055416b1e56fa58fc727b1de4cb",
+      "originalBytesMatch": true,
+      "promptSha256": "8c3676f2d27bfd183472828e3176c32bedcb4e91786bebf104af3113dba481c4",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        39,
+        21,
+        1222,
+        1230
+      ]
+    },
+    {
+      "key": "artifact-lamp",
+      "name": "黄铜显咒灯",
+      "kind": "artifact",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/artifact-lamp-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-9b9203b1-2e17-4485-984a-fbac6b9d028b.png",
+      "prompt": "prompts/artifact-lamp-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.artifact-lamp",
+      "width": 887,
+      "height": 1774,
+      "mode": "RGBA",
+      "sha256": "a27174abf1b81f4860505988b84bcc33a92886b19a3425fdc14c3906ae5615f5",
+      "bytes": 841084,
+      "originalSha256": "a27174abf1b81f4860505988b84bcc33a92886b19a3425fdc14c3906ae5615f5",
+      "originalBytesMatch": true,
+      "promptSha256": "54370e67af4dcf76b97f43443fd98cf76b3bae41e5ee92ccd2a811a51a51da36",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "feed": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        109,
+        71,
+        778,
+        1712
+      ]
+    },
+    {
+      "key": "core-flow",
+      "name": "流转",
+      "kind": "core",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/core-flow-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-f3abbe74-3b5a-4a1a-b311-30ec0a28b825.png",
+      "prompt": "prompts/core-flow-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.core-flow",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "9af9c1418c29832480ee28d27b748d54905fe9aefecb341cc01e8ee400e41862",
+      "bytes": 1233200,
+      "originalSha256": "9af9c1418c29832480ee28d27b748d54905fe9aefecb341cc01e8ee400e41862",
+      "originalBytesMatch": true,
+      "promptSha256": "6eafa8bc4fea2f10f347d28635c3d855b6429d87f7ca226d0f73c58865445bdd",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        94,
+        93,
+        1160,
+        1161
+      ]
+    },
+    {
+      "key": "core-refine",
+      "name": "精炼",
+      "kind": "core",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/core-refine-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-fe9845b4-1389-44c4-ade5-e56000ef6552.png",
+      "prompt": "prompts/core-refine-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.core-refine",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "32d2c7680abcd561604dc69b51c21651e49c13b923bd3ed5239192b4c801e62a",
+      "bytes": 1236589,
+      "originalSha256": "32d2c7680abcd561604dc69b51c21651e49c13b923bd3ed5239192b4c801e62a",
+      "originalBytesMatch": true,
+      "promptSha256": "1e7c8a2d725072a174a1be06590a31c8c8d42ea737d74244f5bf28697ad7cf94",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        80,
+        85,
+        1173,
+        1162
+      ]
+    },
+    {
+      "key": "core-albedo",
+      "name": "白化",
+      "kind": "core",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/core-albedo-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-b7093c39-09ee-45a0-9af7-3297178594e9.png",
+      "prompt": "prompts/core-albedo-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.core-albedo",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "54558a4bd80091be2cf9326d501075f5b1a567c23572a0c7447fbd466846fafe",
+      "bytes": 920852,
+      "originalSha256": "54558a4bd80091be2cf9326d501075f5b1a567c23572a0c7447fbd466846fafe",
+      "originalBytesMatch": true,
+      "promptSha256": "5e620866a9bf1e720063f8f658b7017ecc28dc921c17cc20a43d9a1519caf864",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        149,
+        140,
+        1105,
+        1097
+      ]
+    },
+    {
+      "key": "core-citrinitas",
+      "name": "黄化",
+      "kind": "core",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/core-citrinitas-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-5e7b6f33-ccc8-4913-b65c-c9721a354837.png",
+      "prompt": "prompts/core-citrinitas-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.core-citrinitas",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "bcbc93a96f17f1f5e0f2b82e99776fd924e67c421e48020c701052ec8baa1c72",
+      "bytes": 1200984,
+      "originalSha256": "bcbc93a96f17f1f5e0f2b82e99776fd924e67c421e48020c701052ec8baa1c72",
+      "originalBytesMatch": true,
+      "promptSha256": "26b1d2a48f4386813732a36ff081541751332d455693b93e387b19024d24585a",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        83,
+        82,
+        1170,
+        1157
+      ]
+    },
+    {
+      "key": "core-activation",
+      "name": "激发",
+      "kind": "core",
+      "surface": "item",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/core-activation-item.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-9115a975-858f-45e3-8959-ab11eb0baf2c.png",
+      "prompt": "prompts/core-activation-item.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png"
+      ],
+      "contentId": "alchemy.core-activation",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "89ff11206a48003bb263002390a96ab8a8b91bfdbc36cb7c38c538f0b94e0789",
+      "bytes": 989849,
+      "originalSha256": "89ff11206a48003bb263002390a96ab8a8b91bfdbc36cb7c38c538f0b94e0789",
+      "originalBytesMatch": true,
+      "promptSha256": "60080ed6f3d601a07172ef1907b5e8eb1a874349486cb951699001f51861d466",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/water-v02.png",
+          "sha256": "df2908791b951af063687a171c8b184daff60b62253e2d47df2003c3ec03f87c"
+        }
+      ],
+      "body": [
+        [
+          0,
+          0
+        ]
+      ],
+      "feed": [],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        115,
+        117,
+        1140,
+        1137
+      ]
+    },
+    {
+      "key": "mercury",
+      "name": "汞",
+      "kind": "material",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/mercury-card.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-a1ef6703-4e4c-4a8a-90e0-b8a195ad88a5.png",
+      "prompt": "prompts/mercury-card.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/mercury-item.png"
+      ],
+      "contentId": "alchemy.mercury",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "fda32067f8df337b3c43346b7c1140421897bd29f35475230f47d12d99f5e48c",
+      "bytes": 1625308,
+      "originalSha256": "fda32067f8df337b3c43346b7c1140421897bd29f35475230f47d12d99f5e48c",
+      "originalBytesMatch": true,
+      "promptSha256": "615c67f9fa07beb934515603ad9b1a5d763a2f78f4aa04b183f5d75f78804164",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/mercury-item.png",
+          "sha256": "533088591158485f4b827016357c63f392373d78bec4c6ee6daacdf95a219479"
+        }
+      ]
+    },
+    {
+      "key": "herb-juice",
+      "name": "草药汁液",
+      "kind": "material",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/herb-juice-card.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-4d9b25e8-068d-4917-9403-2c3f3faab823.png",
+      "prompt": "prompts/herb-juice-card.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/herb-juice-item.png"
+      ],
+      "contentId": "alchemy.herb-juice",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "4bce9019a49d9cf2283d10c95ddd8b50b4fc89a6a63402b1c925d0710d749895",
+      "bytes": 1616386,
+      "originalSha256": "4bce9019a49d9cf2283d10c95ddd8b50b4fc89a6a63402b1c925d0710d749895",
+      "originalBytesMatch": true,
+      "promptSha256": "ffdde6f421ed7c17b3e90b7192530229519ad4674cbd7d313a3a9bfba75b09d0",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/herb-juice-item.png",
+          "sha256": "8095edfd25f0bd96d081ce841f86bcf8d0a8bd69d6f0828d9d4a4ac3a2af5f3c"
+        }
+      ]
+    },
+    {
+      "key": "iron-sand",
+      "name": "精铁砂砾",
+      "kind": "material",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/iron-sand-card.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-1742fbe1-f120-4c97-b181-f172d644a50e.png",
+      "prompt": "prompts/iron-sand-card.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/iron-sand-item.png"
+      ],
+      "contentId": "alchemy.iron-sand",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "9ff5703136bec3761743007673d614c0cc8ba0b7f321da3c846b85bfb0ca4f42",
+      "bytes": 1616185,
+      "originalSha256": "9ff5703136bec3761743007673d614c0cc8ba0b7f321da3c846b85bfb0ca4f42",
+      "originalBytesMatch": true,
+      "promptSha256": "666a251958f03601e9014277961d9080f6553c6b299e073b0b9dbb71b145b995",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/iron-sand-item.png",
+          "sha256": "03560adce3d29ccbd6b41c3e488e0f9135e615edbcd3919b7b7d72a8c15b1ab6"
+        }
+      ]
+    },
+    {
+      "key": "spirit-fluid",
+      "name": "草本灵液",
+      "kind": "material",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/spirit-fluid-card.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-1145ac29-f01b-41bc-aae5-33bde260d679.png",
+      "prompt": "prompts/spirit-fluid-card.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/spirit-fluid-item.png"
+      ],
+      "superseded": true,
+      "contentId": "alchemy.spirit-fluid",
+      "width": 1174,
+      "height": 1339,
+      "mode": "RGB",
+      "sha256": "eb7e0fe4b1b2a0c4c5a03a7318e10fd99ae15aa684eb7f34a5406c1c18ef0a61",
+      "bytes": 1636546,
+      "originalSha256": "eb7e0fe4b1b2a0c4c5a03a7318e10fd99ae15aa684eb7f34a5406c1c18ef0a61",
+      "originalBytesMatch": true,
+      "promptSha256": "e254b86cebc21e8a0be43122f20cb677f25b1a9b9efb69623576128e98a32dcd",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/spirit-fluid-item.png",
+          "sha256": "f91261558b507013a089ad3d48e9786ac272429aac0a78915d1e4824ed35161a"
+        }
+      ]
+    },
+    {
+      "key": "life",
+      "name": "生命灵药",
+      "kind": "product",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/life-card.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-a9fece56-d5b7-498e-b9cb-41721ca2fd9b.png",
+      "prompt": "prompts/life-card.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/life-item.png"
+      ],
+      "superseded": true,
+      "contentId": "alchemy.life",
+      "width": 1174,
+      "height": 1339,
+      "mode": "RGB",
+      "sha256": "74a13dbcfbfca2a681a900df6e7555c805f95334de7f6b91fc75019e9f30feb4",
+      "bytes": 1719877,
+      "originalSha256": "74a13dbcfbfca2a681a900df6e7555c805f95334de7f6b91fc75019e9f30feb4",
+      "originalBytesMatch": true,
+      "promptSha256": "714eca046685b0394b2d5473ae7fd5ed31e42ce7a65ff7c07713ac45d3b869a9",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/life-item.png",
+          "sha256": "bad5f159f559caecfb424b73ec22b5130fddcc3784de8456cea56e962ede5648"
+        }
+      ]
+    },
+    {
+      "key": "ignite",
+      "name": "引燃术",
+      "kind": "product",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/ignite-card.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-c0e24933-4a09-4f6e-abdf-c521a7338108.png",
+      "prompt": "prompts/ignite-card.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/ignite-item.png"
+      ],
+      "contentId": "alchemy.ignite",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "bb33d63d6efe06f294851c355eaa239058ca7668e0935f37c4930203dc6330d9",
+      "bytes": 1528790,
+      "originalSha256": "bb33d63d6efe06f294851c355eaa239058ca7668e0935f37c4930203dc6330d9",
+      "originalBytesMatch": true,
+      "promptSha256": "bac69c9248c7e1f93e6068e890c09a98fe804f4573a1c82987654097a672970d",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/ignite-item.png",
+          "sha256": "d33aba778304b4d2511c2e1dc009bfc08d65557e6fee059bdb124539bc0469bc"
+        }
+      ]
+    },
+    {
+      "key": "fire-seed",
+      "name": "硫磺火种",
+      "kind": "material",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/fire-seed-card.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-2cf6acd2-1d1e-4271-b03c-31aa66bbe4fc.png",
+      "prompt": "prompts/fire-seed-card.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/fire-seed-item.png"
+      ],
+      "contentId": "alchemy.fire-seed",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "22c68eb6f97f6b0486841926e4fd99cf32f67f5826241294d03a450da23c1023",
+      "bytes": 1668946,
+      "originalSha256": "22c68eb6f97f6b0486841926e4fd99cf32f67f5826241294d03a450da23c1023",
+      "originalBytesMatch": true,
+      "promptSha256": "fab97610fe2f5b1770feccc2dee690667aa41e6ae607c4885f4008693523a76a",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/fire-seed-item.png",
+          "sha256": "c8f5aa3c347cc9e4317a7d850696d432e0b8254129f39f9df90299bb0b3c0da2"
+        }
+      ]
+    },
+    {
+      "key": "skin",
+      "name": "铁肤药水",
+      "kind": "product",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/skin-card.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-4afddb60-37db-44fe-9d12-fa5f2715328f.png",
+      "prompt": "prompts/skin-card.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/skin-item.png"
+      ],
+      "contentId": "alchemy.skin",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "d0ef30854befbda5052103b3a816126c9f4f4ed7cb9a9d6faf857cf70773c0d0",
+      "bytes": 1656608,
+      "originalSha256": "d0ef30854befbda5052103b3a816126c9f4f4ed7cb9a9d6faf857cf70773c0d0",
+      "originalBytesMatch": true,
+      "promptSha256": "dbcdedc778f93051d20a252bb90a7964d55c822deed94112741a343fb65a59be",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/skin-item.png",
+          "sha256": "3c929f70c9e8e29becfa4d7f11d17b5864832167496cd8a369ea731914b91793"
+        }
+      ]
+    },
+    {
+      "key": "enemy-card-burst",
+      "name": "压力迸发",
+      "kind": "enemy-card",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-burst.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-d2cb3a1e-7ff0-4948-97b1-b49a4d0d4393.png",
+      "prompt": "prompts/enemy-card-burst.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-distillation-warden-item.png"
+      ],
+      "superseded": true,
+      "contentId": "alchemy.enemy-card-burst",
+      "width": 1174,
+      "height": 1339,
+      "mode": "RGB",
+      "sha256": "9b33c2ec8424423205f937e7a2d24651a51245600a92a59f16fec7c5de91f294",
+      "bytes": 1806467,
+      "originalSha256": "9b33c2ec8424423205f937e7a2d24651a51245600a92a59f16fec7c5de91f294",
+      "originalBytesMatch": true,
+      "promptSha256": "b604ee93e4c0bead82eb47f7233ab2cd54bcb7102b0bb0545f701bf9bd3cc7a2",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-distillation-warden-item.png",
+          "sha256": "f4baa25924bc2ac8e3fd6e1e82610d89f3e69055416b1e56fa58fc727b1de4cb"
+        }
+      ]
+    },
+    {
+      "key": "enemy-card-pressure",
+      "name": "加压喷流",
+      "kind": "enemy-card",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-pressure.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-31b812f0-9ce1-4119-aba3-5bb9c6215f0c.png",
+      "prompt": "prompts/enemy-card-pressure.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-distillation-warden-item.png"
+      ],
+      "contentId": "alchemy.enemy-card-pressure",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "e548190f697fc28640ddd74e805b125c6f6224fa18ce2a7ba858361fc3e9bdee",
+      "bytes": 1778062,
+      "originalSha256": "e548190f697fc28640ddd74e805b125c6f6224fa18ce2a7ba858361fc3e9bdee",
+      "originalBytesMatch": true,
+      "promptSha256": "49414d319952ff4e02a76bc621866c7b6ab7a5ce1c262af358e358c2925eaac7",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-distillation-warden-item.png",
+          "sha256": "f4baa25924bc2ac8e3fd6e1e82610d89f3e69055416b1e56fa58fc727b1de4cb"
+        }
+      ]
+    },
+    {
+      "key": "enemy-card-charge",
+      "name": "阀室蓄压",
+      "kind": "enemy-card",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-charge.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-4a74e769-1aac-406a-b538-a8f8d7440f9d.png",
+      "prompt": "prompts/enemy-card-charge.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-distillation-warden-item.png"
+      ],
+      "contentId": "alchemy.enemy-card-charge",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "88ac3918b3113ff379377e3a5aabe3654a2b106b664169ee149dcb15b2eb9f28",
+      "bytes": 1782470,
+      "originalSha256": "88ac3918b3113ff379377e3a5aabe3654a2b106b664169ee149dcb15b2eb9f28",
+      "originalBytesMatch": true,
+      "promptSha256": "a8cd878787b560b9890351f40ba051ffc8047e0ac9c568bb8165ab661577ae43",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-distillation-warden-item.png",
+          "sha256": "f4baa25924bc2ac8e3fd6e1e82610d89f3e69055416b1e56fa58fc727b1de4cb"
+        }
+      ]
+    },
+    {
+      "key": "enemy-card-vent",
+      "name": "泄压喷流",
+      "kind": "enemy-card",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-vent.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-59b88515-bbe9-49e2-884a-46f2b873bda7.png",
+      "prompt": "prompts/enemy-card-vent.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-distillation-warden-item.png"
+      ],
+      "superseded": true,
+      "contentId": "alchemy.enemy-card-vent",
+      "width": 1174,
+      "height": 1339,
+      "mode": "RGB",
+      "sha256": "51b7b17ce7a0d965e214ef52e64562cfab89cdef61cc29d1ed38dc92fdf021ba",
+      "bytes": 1763055,
+      "originalSha256": "51b7b17ce7a0d965e214ef52e64562cfab89cdef61cc29d1ed38dc92fdf021ba",
+      "originalBytesMatch": true,
+      "promptSha256": "4ac2f20ff7ff63bbcf41d774c6112ca7313f1946c78b80838a023b936882d519",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-distillation-warden-item.png",
+          "sha256": "f4baa25924bc2ac8e3fd6e1e82610d89f3e69055416b1e56fa58fc727b1de4cb"
+        }
+      ]
+    },
+    {
+      "key": "life",
+      "name": "生命灵药",
+      "kind": "product",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/life-card-v02.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-591630cf-a4ad-47ea-b65d-f131bc703715.png",
+      "prompt": "prompts/life-card-v02.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/life-card.png",
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png"
+      ],
+      "superseded": true,
+      "contentId": "alchemy.life",
+      "width": 1174,
+      "height": 1339,
+      "mode": "RGB",
+      "sha256": "313d64af8025319c2da7fd80c23944dc67a1a539bcae8944e93f40727ef26b39",
+      "bytes": 1724930,
+      "originalSha256": "313d64af8025319c2da7fd80c23944dc67a1a539bcae8944e93f40727ef26b39",
+      "originalBytesMatch": true,
+      "promptSha256": "a6d1a945ca55fd701a849d8fa0c6cf9638b8bd3f8abcc30475438027882d15a7",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/life-card.png",
+          "sha256": "74a13dbcfbfca2a681a900df6e7555c805f95334de7f6b91fc75019e9f30feb4"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        }
+      ]
+    },
+    {
+      "key": "enemy-card-vent",
+      "name": "泄压喷流",
+      "kind": "enemy-card",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-vent-card-v02.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-79a982f1-d9f4-48f8-85c2-d7b1333fa84d.png",
+      "prompt": "prompts/enemy-card-vent-card-v02.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-vent.png",
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png"
+      ],
+      "superseded": true,
+      "contentId": "alchemy.enemy-card-vent",
+      "width": 1096,
+      "height": 1435,
+      "mode": "RGB",
+      "sha256": "d8103614b1240a7b33c51d1d42e5a37ffa4fa829f08dd7abdec9a0837cae81a4",
+      "bytes": 1770282,
+      "originalSha256": "d8103614b1240a7b33c51d1d42e5a37ffa4fa829f08dd7abdec9a0837cae81a4",
+      "originalBytesMatch": true,
+      "promptSha256": "a6d1a945ca55fd701a849d8fa0c6cf9638b8bd3f8abcc30475438027882d15a7",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-vent.png",
+          "sha256": "51b7b17ce7a0d965e214ef52e64562cfab89cdef61cc29d1ed38dc92fdf021ba"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        }
+      ]
+    },
+    {
+      "key": "enemy-card-burst",
+      "name": "压力迸发",
+      "kind": "enemy-card",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-burst-card-v02.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-cbc7f62d-d233-4073-a669-c576e4f3a66f.png",
+      "prompt": "prompts/enemy-card-burst-card-v02.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-burst.png",
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png"
+      ],
+      "superseded": true,
+      "contentId": "alchemy.enemy-card-burst",
+      "width": 1096,
+      "height": 1435,
+      "mode": "RGB",
+      "sha256": "5f59b128c3e43506c30d07ad61a21c72ffda1e5efaecaa381353c600614d11e6",
+      "bytes": 1801405,
+      "originalSha256": "5f59b128c3e43506c30d07ad61a21c72ffda1e5efaecaa381353c600614d11e6",
+      "originalBytesMatch": true,
+      "promptSha256": "a6d1a945ca55fd701a849d8fa0c6cf9638b8bd3f8abcc30475438027882d15a7",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-burst.png",
+          "sha256": "9b33c2ec8424423205f937e7a2d24651a51245600a92a59f16fec7c5de91f294"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        }
+      ]
+    },
+    {
+      "key": "spirit-fluid",
+      "name": "草本灵液",
+      "kind": "material",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/spirit-fluid-card-v02.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-892f2a84-af52-484f-92ad-68fa475ad9d1.png",
+      "prompt": "prompts/spirit-fluid-card-v02.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/spirit-fluid-card.png",
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png"
+      ],
+      "superseded": false,
+      "contentId": "alchemy.spirit-fluid",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "aa942189f97e39874df1b392f48dc9fa9f898069c907a6a019e6c7bf505443da",
+      "bytes": 1652213,
+      "originalSha256": "aa942189f97e39874df1b392f48dc9fa9f898069c907a6a019e6c7bf505443da",
+      "originalBytesMatch": true,
+      "promptSha256": "a6d1a945ca55fd701a849d8fa0c6cf9638b8bd3f8abcc30475438027882d15a7",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/spirit-fluid-card.png",
+          "sha256": "eb7e0fe4b1b2a0c4c5a03a7318e10fd99ae15aa684eb7f34a5406c1c18ef0a61"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        }
+      ]
+    },
+    {
+      "key": "enemy-card-vent",
+      "name": "泄压喷流",
+      "kind": "enemy-card",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-vent-card-v03.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-e8be7ee9-2a57-4cbc-aa0e-af9ac47141a3.png",
+      "prompt": "prompts/enemy-card-vent-card-v03.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-vent-card-v02.png"
+      ],
+      "superseded": true,
+      "contentId": "alchemy.enemy-card-vent",
+      "width": 1096,
+      "height": 1435,
+      "mode": "RGB",
+      "sha256": "5801c35ea01ce78516b5960f37a32d7fa727d7a04309c81e399b46797771d8e5",
+      "bytes": 1807635,
+      "originalSha256": "5801c35ea01ce78516b5960f37a32d7fa727d7a04309c81e399b46797771d8e5",
+      "originalBytesMatch": true,
+      "promptSha256": "fd25255e97b0799471229fe4bc128ca6a7d644dc9290b7b58e9057bf3fe8c365",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-vent-card-v02.png",
+          "sha256": "d8103614b1240a7b33c51d1d42e5a37ffa4fa829f08dd7abdec9a0837cae81a4"
+        }
+      ]
+    },
+    {
+      "key": "enemy-card-burst",
+      "name": "压力迸发",
+      "kind": "enemy-card",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-burst-card-v03.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-88a6d925-850b-4952-ad47-725ef4480787.png",
+      "prompt": "prompts/enemy-card-burst-card-v03.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-burst-card-v02.png"
+      ],
+      "superseded": true,
+      "contentId": "alchemy.enemy-card-burst",
+      "width": 1096,
+      "height": 1435,
+      "mode": "RGB",
+      "sha256": "31174943647bd82203a9c2331f6c7f44cc8e58e45319761951aa542b1ce60bb8",
+      "bytes": 1820912,
+      "originalSha256": "31174943647bd82203a9c2331f6c7f44cc8e58e45319761951aa542b1ce60bb8",
+      "originalBytesMatch": true,
+      "promptSha256": "fd25255e97b0799471229fe4bc128ca6a7d644dc9290b7b58e9057bf3fe8c365",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-burst-card-v02.png",
+          "sha256": "5f59b128c3e43506c30d07ad61a21c72ffda1e5efaecaa381353c600614d11e6"
+        }
+      ]
+    },
+    {
+      "key": "life",
+      "name": "生命灵药",
+      "kind": "product",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/life-card-v03.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-b277a54a-bfb6-4dfe-9482-f9b3694d49c1.png",
+      "prompt": "prompts/life-card-v03.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/life-card-v02.png"
+      ],
+      "superseded": true,
+      "contentId": "alchemy.life",
+      "width": 1096,
+      "height": 1435,
+      "mode": "RGB",
+      "sha256": "401f1a24868cba4f6dbfd7d49e0b8b85ced8b8ad55c67225810e640b79bb9f00",
+      "bytes": 1625112,
+      "originalSha256": "401f1a24868cba4f6dbfd7d49e0b8b85ced8b8ad55c67225810e640b79bb9f00",
+      "originalBytesMatch": true,
+      "promptSha256": "fd25255e97b0799471229fe4bc128ca6a7d644dc9290b7b58e9057bf3fe8c365",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        },
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/life-card-v02.png",
+          "sha256": "313d64af8025319c2da7fd80c23944dc67a1a539bcae8944e93f40727ef26b39"
+        }
+      ]
+    },
+    {
+      "key": "enemy-card-vent",
+      "name": "泄压喷流",
+      "kind": "enemy-card",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-vent-card-v04.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-b2450987-697d-4e83-819c-481fc17734a1.png",
+      "prompt": "prompts/enemy-card-vent-card-v04.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png"
+      ],
+      "superseded": true,
+      "contentId": "alchemy.enemy-card-vent",
+      "width": 1096,
+      "height": 1435,
+      "mode": "RGB",
+      "sha256": "7ca156a9846d292804b5316a48be9432cd901981290d00573b81d75dbdb46f06",
+      "bytes": 1605786,
+      "originalSha256": "7ca156a9846d292804b5316a48be9432cd901981290d00573b81d75dbdb46f06",
+      "originalBytesMatch": true,
+      "promptSha256": "289151944774e0aaf97f6cb04abad3fd3a5865e0d4126db98db55726946cd61e",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        }
+      ]
+    },
+    {
+      "key": "enemy-card-burst",
+      "name": "压力迸发",
+      "kind": "enemy-card",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-burst-card-v04.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-51e6d31f-5991-4912-be67-89b8339967a5.png",
+      "prompt": "prompts/enemy-card-burst-card-v04.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png"
+      ],
+      "superseded": true,
+      "contentId": "alchemy.enemy-card-burst",
+      "width": 1096,
+      "height": 1435,
+      "mode": "RGB",
+      "sha256": "85ff20ceca9e0d318668d0da41f2512937d1d1f77282111add2028f92019cb12",
+      "bytes": 1753153,
+      "originalSha256": "85ff20ceca9e0d318668d0da41f2512937d1d1f77282111add2028f92019cb12",
+      "originalBytesMatch": true,
+      "promptSha256": "0a956f6e851c906387c99842a8d604645f1668e2119ce34d91a781664d5a676a",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        }
+      ]
+    },
+    {
+      "key": "life",
+      "name": "生命灵药",
+      "kind": "product",
+      "surface": "card",
+      "source": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/life-card-v04.png",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a19629-7ea2-7ea1-8889-79e40c4453e8\\exec-d1356f71-17f6-4386-a2a7-33d73c8959ba.png",
+      "prompt": "prompts/life-card-v04.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png"
+      ],
+      "superseded": true,
+      "contentId": "alchemy.life",
+      "width": 1096,
+      "height": 1435,
+      "mode": "RGB",
+      "sha256": "eafa5a8a5e2a4338dc4c44c85944246cb7a0f492dd0da894c6fbb9ca7756e9cc",
+      "bytes": 1584337,
+      "originalSha256": "eafa5a8a5e2a4338dc4c44c85944246cb7a0f492dd0da894c6fbb9ca7756e9cc",
+      "originalBytesMatch": true,
+      "promptSha256": "39e62d8bee2624905a8ed3353461810cb36fea30a950a839c8c2ae81962dc5e7",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/water-card-v01.png",
+          "sha256": "b6f978ba6dc6287f8186ac57f7f337a4c742e14d36de0e0b9311abd03f77e786"
+        }
+      ]
+    },
+    {
+      "key": "life",
+      "name": "生命灵药",
+      "kind": "product",
+      "surface": "card",
+      "source": "E:\\Project\\yanzhou-art-assets\\first-battle-2026-11-02\\sources\\life-card-final.png",
+      "original": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/life-card.png",
+      "prompt": "prompts/life-card.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/life-card.png"
+      ],
+      "superseded": false,
+      "processing": "User authorized: append one bottom row copied from original final row; first 1339 rows unchanged. No scaling, cropping, or repainting of subject.",
+      "contentId": "alchemy.life",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "e956b5b6188c4dc7ee2becb6f10dc0c3a1e4dc32316826554d6c7b57026a8bf6",
+      "bytes": 1592246,
+      "originalSha256": "74a13dbcfbfca2a681a900df6e7555c805f95334de7f6b91fc75019e9f30feb4",
+      "originalBytesMatch": false,
+      "promptSha256": "714eca046685b0394b2d5473ae7fd5ed31e42ce7a65ff7c07713ac45d3b869a9",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/life-card.png",
+          "sha256": "74a13dbcfbfca2a681a900df6e7555c805f95334de7f6b91fc75019e9f30feb4"
+        }
+      ]
+    },
+    {
+      "key": "enemy-card-vent",
+      "name": "泄压喷流",
+      "kind": "enemy-card",
+      "surface": "card",
+      "source": "E:\\Project\\yanzhou-art-assets\\first-battle-2026-11-02\\sources\\enemy-card-vent-card-final.png",
+      "original": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-vent.png",
+      "prompt": "prompts/enemy-card-vent.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-vent.png"
+      ],
+      "superseded": false,
+      "processing": "User authorized: append one bottom row copied from original final row; first 1339 rows unchanged. No scaling, cropping, or repainting of subject.",
+      "contentId": "alchemy.enemy-card-vent",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "7b9f2f41d40e6095db1f68925e995a6a7cff360c3129562c7dccdf34bc4e4fc4",
+      "bytes": 1666446,
+      "originalSha256": "51b7b17ce7a0d965e214ef52e64562cfab89cdef61cc29d1ed38dc92fdf021ba",
+      "originalBytesMatch": false,
+      "promptSha256": "4ac2f20ff7ff63bbcf41d774c6112ca7313f1946c78b80838a023b936882d519",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-vent.png",
+          "sha256": "51b7b17ce7a0d965e214ef52e64562cfab89cdef61cc29d1ed38dc92fdf021ba"
+        }
+      ]
+    },
+    {
+      "key": "enemy-card-burst",
+      "name": "压力迸发",
+      "kind": "enemy-card",
+      "surface": "card",
+      "source": "E:\\Project\\yanzhou-art-assets\\first-battle-2026-11-02\\sources\\enemy-card-burst-card-final.png",
+      "original": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-burst.png",
+      "prompt": "prompts/enemy-card-burst.txt",
+      "references": [
+        "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-burst.png"
+      ],
+      "superseded": false,
+      "processing": "User authorized: append one bottom row copied from original final row; first 1339 rows unchanged. No scaling, cropping, or repainting of subject.",
+      "contentId": "alchemy.enemy-card-burst",
+      "width": 1174,
+      "height": 1340,
+      "mode": "RGB",
+      "sha256": "6aa0619c0f07e4f382d100728597c5181f73e3ecf48215e07bad0f896788c25d",
+      "bytes": 1738787,
+      "originalSha256": "9b33c2ec8424423205f937e7a2d24651a51245600a92a59f16fec7c5de91f294",
+      "originalBytesMatch": false,
+      "promptSha256": "b604ee93e4c0bead82eb47f7233ab2cd54bcb7102b0bb0545f701bf9bd3cc7a2",
+      "referenceHashes": [
+        {
+          "path": "E:/Project/yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-burst.png",
+          "sha256": "9b33c2ec8424423205f937e7a2d24651a51245600a92a59f16fec7c5de91f294"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "html": "E:\\Project\\yanzhou-ui-prototypes\\first-battle-art-2026-11-02\\index.html",
+    "method": "System.Drawing static review; native source PNGs unchanged except three explicitly authorized 1-row additions.",
+    "browser": "NotRun; prior session local-file policy denial respected.",
+    "status": "StaticVisualReviewPassed",
+    "observations": [
+      "All 10 item/card pairs viewed; object identity and inventory aspect matched.",
+      "3 device body silhouettes viewed on declared cells; empty L cells maximum alpha 1/255.",
+      "5 core emblems, guardian and 4 distinct enemy action scenes viewed.",
+      "All 19 alpha sources viewed on light, dark and purple backgrounds; no visible backdrop panel.",
+      "No browser, engine, independent recognition, animation or complete-card production verification."
+    ],
+    "checks": {
+      "finalCount": 33,
+      "newCount": 29,
+      "reusedCount": 4,
+      "uniqueContentIds": 23,
+      "cardDimensions": [
+        1174,
+        1340
+      ],
+      "all14CardsRGB": true,
+      "all19SubjectsRGBA": true,
+      "newByteCopiesMatch": 26,
+      "authorizedOneRowAdditions": 3,
+      "oldReuseHashesMatch": 4,
+      "allHTMLImageLinksExist": true,
+      "inventoryAndDeviceCanvasMatchesGridAspect": true
+    },
+    "evidence": [
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\first-battle-art-2026-11-02\\evidence\\alpha-review.png",
+        "sha256": "e591c57dd2fca7726d11eb9781144ca5e7a55acc05e1980363c60e76c235720b"
+      },
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\first-battle-art-2026-11-02\\evidence\\devices-cores-enemy.png",
+        "sha256": "5cd89a67a71d1f575844df7a3fe8a859aa6219010937dbd527078125e2ea9bb2"
+      },
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\first-battle-art-2026-11-02\\evidence\\enemy-cards.png",
+        "sha256": "5f3478cb331469d01f2f7ba67c7a9be65359e92b2f92fbba3e9708a5f7abe767"
+      },
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\first-battle-art-2026-11-02\\evidence\\items-and-cards.png",
+        "sha256": "1eeb50c78f25c387127836d1619e4412e27d7d36f28544da56221edb58b6e0d3"
+      }
+    ],
+    "tooling": [
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\first-battle-art-2026-11-02\\build.py",
+        "sha256": "fad02d013663e3bbe01345a1b536355de1664dfee562fd31cf5fade6b2d04acd"
+      },
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\first-battle-art-2026-11-02\\render_review.ps1",
+        "sha256": "e9c04d40abcc4711c44fbe922e6e2b0c3792caed8314ee1dfa8d080f4c7d25b9"
+      },
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\first-battle-art-2026-11-02\\finalize.py",
+        "sha256": "75ef9864802995bdc4e8e101842ffdaf4c881689322f41154cc5f9cf88ad424e"
+      }
+    ],
+    "htmlSha256": "8627d1c8ef29743af07b849f8d586a665110030f1aff1b6abefbbfe56cd4e64b"
+  },
+  "integration": {
+    "contentLibrary": "NotChanged; IDs and paths supplied here",
+    "mainGame": "NotRun",
+    "completeCardProduction": "Not delivered: illustration layer only, no fonts or titles"
+  },
+  "visualDesign": "New guardian, devices and core medallion motifs are visual proposals; no new gameplay permissions or playtest acceptance.",
+  "rights": "Project original generated art; internal production/review. Reused originals remain in place; no third-party source images or fonts shipped.",
+  "bundle": {
+    "path": "E:\\Project\\yanzhou-art-assets\\first-battle-2026-11-02\\first-battle-art-01.zip",
+    "contents": "33 selected PNGs, portable manifest, all generation prompts, README, 4 static review sheets",
+    "sha256": "ac3bdc0261dedb8056fc5c8c2baa8e69f96470445e8aded751871b2d52b40daf",
+    "bytes": 43468787
+  }
+}

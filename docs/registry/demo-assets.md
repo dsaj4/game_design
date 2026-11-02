@@ -91,6 +91,13 @@ DM-G002-021当前二维工程、DM-G002-020首轮HTML、DM-G002-019炼金阅读�
 - Ways本机图册四样本已读／目视，River in a Bottle与Plantain作画法输入，旧01原创物件作身份输入；第三方原图不随包交付。01物件版及前序旧图已退出活动目录，生成来源仍按历史路径／SHA取证，恢复包和归档整体指纹由当前manifest固定。
 - 保留每批5件、当前5/32的范围，余27种未制作。旧符号、护盾、人物／细碎纹理等失败经验已并入当前基准，不再保留并列旧图；仅项目内部制作与审阅。
 
+## <a id="as-g002-042"></a>AS-G002-042 首战对应美术资产
+
+- game-002 / main；FIRST-BATTLE-ART-01，2026-11-02。[交付与审阅入口](../../yanzhou/visual/first-battle-2026-11-02/README.md)；按CONTENT-LIBRARY-06 / CORE-073 / EX-005，固定输入`4abbe3fc36835b601bb9981a2b01806fc0f78949`。覆盖10种材料／成品、3种法器、5种核心、1名敌人和4种敌牌，共33图（29新图＋4复用）。
+- 原件在`E:/Project/yanzhou-art-assets/first-battle-2026-11-02/`；提示词、内容ID、占格、SHA、原生尺寸及失败过程稿沿本批manifest。内置image_gen 39次；14张最终卡图全部1174×1340 RGB，与物品占格无关。三图经用户明确授权仅追加底部1行，原区域逐像素不变；其余新图保存生成原字节。
+- ReadyForScope / PresentLocal，限覆盖、文件、占格、三底色与静态目视审阅；两种L形法器空缺格无可见侵入，极低alpha残留如实登记。新造型用户接受PendingReview；浏览器、内容库关联、主游戏、完整整卡及玩家辨识NotRun。
+- derived-from：本轮首战内容／占形及原创生成图；uses：AS-G002-040@ALCHEMY-ITEM-PILOT-03（画法输入及疗伤草／木炭物品）、AS-G002-041@CARD-ART-03（卡图画法／尺寸输入及对应两卡）。旧原件就地不覆盖，范围仅项目内部制作／审阅，不新增玩法资格或第三方分发授权。
+
 ## <a id="as-g002-041"></a>AS-G002-041 完整卡面基准与历史卡框
 
 - 2026-11-01新增[五件配套卡图03](../../yanzhou/visual/alchemy-grid-cards-2026-11-01/README.md)，CARD-ART-03；对应AS-G002-040@ALCHEMY-ITEM-PILOT-03。最终5张全部1174×1340 RGB，与物品占格无关；image_gen 6次，木炭1174×1339首稿未选，修正后尺寸一致。原PNG／提示词／参考角色／SHA沿本批manifest。ReadyForScope / PresentLocal限静态配套、统一图窗、155×229及96×150检查；旧模板、字体、内容库关联与主游戏接入未升级。原02及ZIP保留。
