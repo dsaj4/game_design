@@ -157,10 +157,8 @@ DOC-001—029的原授权、日期、输入和证据范围见[固定完整记录
 
 ## DOC-035 世界观、虚构历史与故事独立
 
-2026-11-01 · Accepted / Documentation。用户要求阅读世界观交接启动写作，先调研可参考技能，随后明确继续首轮候选。按交接记录的独立职责建立[worldbuilding](../worldbuilding/README.md)，与design、system-design、content-library及standards平级；来源与本轮材料沿[输入摘要](../sources/inbox/2026-11-01-worldbuilding-design.md)。
+2026-11-01 · Accepted / Documentation。世界与叙事独立归`worldbuilding/`；分类、生产性质、稀有度方法仍归system-design，具体物件文案归content-library，虚构历史不进入项目history。
 
-将原world-systems的限定世界确认和世界解释候选移至worldbuilding/world；分类、生产性质、稀有度方法及历史思想研究仍留system-design，保留原日期、来源和资格。首轮story比较三条原因并展开条件性因果、人物动机与接触场景；全部新增故事Raw / Unqualified，推荐方向未经采纳。虚构历史按内容需要拆分，项目history不改变用途，不建第二套物件库、问题库或流程库。
+2026-11-01同日后续：用户对当前世界观不满意，明确要求删除当前文件、清空文件夹，以免影响后续重写。已删除目录内全部正文及README，并移除活动入口和续写摘要；后续以新用户输入为起点，不自动继承旧确认整理、解释候选、推荐、交接或参照要求。意图只留[清空记录](../sources/inbox/2026-11-01-worldbuilding-design.md)，不保留方案摘要或另建清理映射表。
 
-同步必要导航、文档合同、系统手册与READ-1的FULL目录登记；CORE和56份GDD包、默认5份开发启动包均不增加世界观正文，旧方向固定背景不换版。技能只作参考，未安装；世界候选不新增能力、配方、规则、制作或实验授权，体验Hypothesis / NotRun。
-
-2026-11-01同日后续：用户要求删除本agent首轮新增设计并交下一位agent重新设计。原story、当下社会／人物／因果／场景及WB-Q01—04已撤回；独立目录和更早确认保留。完整世界观目录11项技能已按明确授权安装，覆盖前述初次交付时“未安装”的状态；重启需参考用户指定漫宿Wiki，访问与研究状态沿[最新输入](../sources/inbox/2026-11-01-worldbuilding-design.md)。这次撤回不采纳新的世界真相或玩法；原首稿仅保留固定Git取证。
+清空前已提交内容仅按固定Git提交`b567a49203b9e8d093240060a7d60e13be5c58a3`取证，未经后续明确要求不读取或恢复。独立文档职责、已安装技能及现行玩法的各自状态不因删稿改变；此次没有新增世界设定、规则、制作或实验授权。

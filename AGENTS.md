@@ -5,7 +5,7 @@
 ## 先选入口
 
 - 系统设计从[设计师手册](yanzhou/system-design/handbook.md)进入；`system-design/`管设计目标、取舍与方法，具体物件／配方在[内容库](yanzhou/content-library/README.md)单处维护；`design/`管现行规则，`standards/`管与玩法无关的工作规范。
-- 世界观、虚构文明历史与背景故事从[世界观入口](yanzhou/worldbuilding/README.md)进入，正文只在`worldbuilding/`维护；`history/`仍管项目旧记录，故事解释不增加玩法权限。
+- 世界观目录`yanzhou/worldbuilding/`已按用户2026-11-01要求清空，不保留README或续写草稿。后续重写以届时用户的新输入为起点，不自动继承或恢复旧世界设定、解释候选、交接摘要及Git历史。正文仍只在该目录维护；`history/`管项目旧记录，故事解释不增加玩法权限。
 - 言咒任务读[yanzhou/AGENTS](yanzhou/AGENTS.md)。开发接手按[开发入口](yanzhou/development/README.md)的固定启动包；局部管理任务只读必要文件，不加载玩法。
 - 进入探索或切换探索材料时，先读[阅读合同](yanzhou/exploration/start.md)与[探索AGENTS](yanzhou/exploration/AGENTS.md)，再按CORE/GDD/FULL/CUSTOM/NONE读取；新方向默认CORE，已有方向沿登记版本。链接不授权扩读。
 - 其他项目、跨项目路径或仓库结构任务再查[README](README.md)、[项目地图](docs/workspace-map.md)、[注册表](docs/registry/project-registry.md)。独立肉鸽已[退役](docs/workspace-decisions.md#ws-010)，历史材料不跨项目继承，不重建其目录。
