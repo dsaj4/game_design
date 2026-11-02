@@ -1,6 +1,6 @@
 # 背包系统：规则
 
-2026-11-01 · CurrentSpec / **CORE-070 shared-backpack.1**。[采纳依据](../../../sources/draft-changes/D-2026-11-01-shared-backpack.md) · [设计目标与工作稿](../../../system-design/backpack/shared-backpack-design.md) · [当前缺口](../../../governance/questions.md)。这里只规定已采纳的共同空间与阶段边界，具体尺寸和完整装载内容仍未定。
+2026-11-01 · CurrentSpec / **CORE-070 shared-backpack.1**。[采纳依据](../../../sources/draft-changes/D-2026-11-01-shared-backpack.md) · [设计目标与工作稿](../../../system-design/backpack/shared-backpack-design.md) · [当前缺口](../../../governance/questions.md)。这里只规定已采纳的共同空间与阶段边界，CORE-073已限定冻结[首战实际网格与装载](../../../content-library/first-battle.md)，其他尺寸和完整配置仍待内容。
 
 ## TL-46 共用背包与分阶段装载
 
@@ -32,6 +32,10 @@
 旧配置可出售的系统方向已采纳；具体对象、地点、窗口、价格、满包处置及交易恢复归BP-Q04。未给出完整合同前不执行具体售卖，也不默认随时卖出、免费遗弃、退款或回购。购买与收益处理保持[TL-33／35](../../common/run-economy/rules.md)，未完成的空间／领取衔接不能用免费仓库或已扣款未交物来掩盖。
 
 保存当前阶段、每件身份／格子／朝向、部署或备用状态、核心装配、卡的投入及手／行／待料／托管归属和装载／收益／选留提交事实。恢复不得重复移动、制造、领取、消费或售卖；没有明确迁移合同的旧分账存档保留原档并提示版本不兼容，不能猜一张网格继续。战中恢复仍沿[TL-19](../../common/interaction-save/rules.md#tl-19-中断与恢复)，不新增可编辑窗口。
+
+### CORE-073首战限定闭合
+
+[首战规格](../../../content-library/first-battle.md)给出真实本体、供料、材料格与核心副本。运输态仅预留本体，全部启动卡投入并真实离包后再展开供料；战终停止生产并结清输入／卡牌归属，取消供料预留，再按本包携带标签及种类上限重装。只对该包生效，不补其他器具、备用或满包奖励的默认处理。
 
 ### 未闭合的内容与操作合同
 

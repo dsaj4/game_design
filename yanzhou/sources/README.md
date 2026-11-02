@@ -18,6 +18,10 @@ Project ID：game-002。文档角色：SourceCollection / Navigation。这里保
 [决策记录](../governance/decision-log.md)说明何时采纳了哪些范围。文件名和原设计ID保持，旧素材使用记录的链接已定位新路径；原提交和历史哈希仍按原路径解释。
 
 
+## 当前新炼金首战（CORE-073）
+
+[委托摘要](inbox/2026-11-01-alchemy-first-battle.md) → [Qualified M](materials/M-2026-11-01-alchemy-first-battle.md) → [评估E](evaluations/E-2026-11-01-alchemy-first-battle.md) → [Accepted D](draft-changes/D-2026-11-01-alchemy-first-battle.md)。首战具体输入已冻结，实际玩法与体验NotRun；不复用退役身份。
+
 ## 当前内容淘汰（CORE-071）
 
 [Qualified M](materials/M-2026-11-01-alchemy-only-content.md) → [P](proposals/P-2026-11-01-alchemy-only-content.md)／[E](evaluations/E-2026-11-01-alchemy-only-content.md) → [Accepted D](draft-changes/D-2026-11-01-alchemy-only-content.md)。删除38项及专属引用，仅保留61项alchemy、35配方、3构筑；完整首战与敌表Unknown。

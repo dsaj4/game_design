@@ -1,5 +1,7 @@
 # 拟修改与采纳文本
 
+当前新炼金首战：[Accepted D](D-2026-11-01-alchemy-first-battle.md)。CORE-073仅冻结首战实际输入，GDD3.6／GDD-0；实现、平衡与体验NotRun。其他历史摘要只按原日期与范围解释。
+
 当前辅助配置：[CORE-069 Accepted D](D-2026-10-31-spatial-auxiliaries.md)，辅助道具替换辅槽、同效叠加、核心可逆嵌入，GDD3.2／GDD-0；实现与体验NotRun。
 
 生产供料规则：[CORE-068 Accepted D](D-2026-10-31-backpack-production.md)，战前背包与用途、专属待料及默认自动补料，GDD3.1／GDD-0；实现与体验NotRun。

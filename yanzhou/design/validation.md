@@ -2,6 +2,10 @@
 
 2026-11-01 · ValidationSpec / CORE-070，继承CORE-065／066／067未替代范围。设计预期、文档核对与执行结果分别记录：本页新机制全部**NotRun**，旧117项也不因同步变成通过。实际证据只按[开发入口](../development/README.md)所列固定版本解释；本轮未运行游戏或玩法测试。
 
+## 新炼金首战（CORE-073）
+
+[EX-005](examples/first-battle-alchemy.md)为新内容的生产、两条胜路、一条败路、信息公开、补给幂等与战终归属预期；[冻结规格](../content-library/first-battle.md)提供唯一输入。均为静态设计预期，**程序／引擎／真人执行NotRun**，不复用退役验收ID。
+
 ## 炼金限定内容（CORE-072）
 
 依据[采纳D](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md)、内容库当前定义与TL-11／15／21／30。以下均为设计预期，**NotRun**；不是完整首战验收或新的模拟证据。
@@ -111,7 +115,7 @@
 
 本节保留稳定定位，按CORE-067修订受影响情境；原CORE-065完整预期沿本次共同输入Git取证。
 
-来源：[核心](GDD.md)、[生产](systems/artifact-system/rules.md)、[TL-11总序](systems/action-card-system/rules.md#tl-11-共同拍序与效果边界)、[敌人](systems/enemy-system/rules.md)、[交互与保存](common/interaction-save/rules.md)；数值局部对照见[EX-003](examples/round-hand.md)。X=5、手牌无硬上限、布牌免费；本段只核机制；完整首战敌表和初态待设计。下表是可检查预期，不伪造执行任务、测试结果或新发行内容。
+来源：[核心](GDD.md)、[生产](systems/artifact-system/rules.md)、[TL-11总序](systems/action-card-system/rules.md#tl-11-共同拍序与效果边界)、[敌人](systems/enemy-system/rules.md)、[交互与保存](common/interaction-save/rules.md)；数值局部对照见[EX-003](examples/round-hand.md)。X=5、手牌无硬上限、布牌免费；本段只核机制；完整首战敌表和初态见CORE-073／EX-005。下表是可检查预期，不伪造执行任务、测试结果或新发行内容。
 
 | 情境／操作 | 当前预期 |
 | --- | --- |
@@ -153,7 +157,7 @@
 
 ## 完整首战内容状态
 
-CORE-071已撤下原首战的套组、敌表和数值验收路线。替代内容为Unknown，不能用旧胜败轮次或炼金候选给当前验收判通过。通用机制情境继续按合法内容和独立条件核对，执行NotRun。
+CORE-071已撤下原首战的套组、敌表和数值验收路线。替代内容已由CORE-073／EX-005冻结，但执行NotRun；不能用旧胜败轮次或静态路线给当前实现判通过。通用机制情境继续按合法内容和独立条件核对，执行NotRun。
 
 ## 既有117项的适用域
 

@@ -1,6 +1,6 @@
 # 具体配方
 
-2026-11-01。从[catalog.json](catalog.json)生成。CORE-072已采纳35配方的D、器具、每项投入1份、产1张、额外制造费0；几何、核心组合、取得与完整部署仍未闭合。
+2026-11-01。从[catalog.json](catalog.json)生成。CORE-072已采纳35配方的D、器具、每项投入1份、产1张、额外制造费0；几何、核心组合、取得与完整部署仍未闭合。 CORE-073另冻结首战4用途的实际装配、占形、投入与供给；不外推其余31用途。
 
 [展板](index.html#recipes) · [物件](alchemy.md)
 
@@ -168,7 +168,7 @@
 
 ## 草本灵液 · 精炼
 
-`alchemy.r11` · Accepted / CORE-072：D、承载器具、各项投入1份、产1张及额外制造费0已采纳；器具核心组合、几何与实际取得仍待闭合。
+`alchemy.r11` · Accepted / CORE-072：D、承载器具、各项投入1份、产1张及额外制造费0已采纳；器具核心组合、几何与实际取得仍待闭合。 CORE-073首战具体组合及布局已采纳，其他配置仍按原资格。
 
 投入：[汞](alchemy.md#alchemy-mercury) × 1（汞系携效）；[疗伤草](alchemy.md#alchemy-herb) × 1（生机定向）
 
@@ -392,7 +392,7 @@
 
 ## 生命灵药 · 白化
 
-`alchemy.recipe-life` · Accepted / CORE-072：D、承载器具、各项投入1份、产1张及额外制造费0已采纳；器具核心组合、几何与实际取得仍待闭合。
+`alchemy.recipe-life` · Accepted / CORE-072：D、承载器具、各项投入1份、产1张及额外制造费0已采纳；器具核心组合、几何与实际取得仍待闭合。 CORE-073首战具体组合及布局已采纳，其他配置仍按原资格。
 
 投入：[草本灵液](alchemy.md#alchemy-spirit-fluid) × 1（汞系携效）；[草药汁液](alchemy.md#alchemy-herb-juice) × 1（生机定向）
 
@@ -408,7 +408,7 @@
 
 ## 铁肤药水 · 白化
 
-`alchemy.recipe-skin` · Accepted / CORE-072：D、承载器具、各项投入1份、产1张及额外制造费0已采纳；器具核心组合、几何与实际取得仍待闭合。
+`alchemy.recipe-skin` · Accepted / CORE-072：D、承载器具、各项投入1份、产1张及额外制造费0已采纳；器具核心组合、几何与实际取得仍待闭合。 CORE-073首战具体组合及布局已采纳，其他配置仍按原资格。
 
 投入：[草本灵液](alchemy.md#alchemy-spirit-fluid) × 1（汞系携效）；[精铁砂砾](alchemy.md#alchemy-iron-sand) × 1（坚固定向）
 
@@ -488,7 +488,7 @@
 
 ## 引燃术 · 黄化
 
-`alchemy.recipe-ignite` · Accepted / CORE-072：D、承载器具、各项投入1份、产1张及额外制造费0已采纳；器具核心组合、几何与实际取得仍待闭合。
+`alchemy.recipe-ignite` · Accepted / CORE-072：D、承载器具、各项投入1份、产1张及额外制造费0已采纳；器具核心组合、几何与实际取得仍待闭合。 CORE-073首战具体组合及布局已采纳，其他配置仍按原资格。
 
 投入：[硫磺火种](alchemy.md#alchemy-fire-seed) × 1（硫系激发）；[燃烧木炭](alchemy.md#alchemy-fire) × 1（热源延续）
 

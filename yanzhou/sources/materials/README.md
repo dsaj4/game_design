@@ -1,5 +1,7 @@
 # 合格来源素材
 
+当前新炼金首战：[Qualified M](M-2026-11-01-alchemy-first-battle.md)。CORE-073仅冻结首战实际输入，GDD3.6／GDD-0；实现、平衡与体验NotRun。其他历史摘要只按原日期与范围解释。
+
 - [炼金第一批材料与配方 B01](M-2026-10-27-alchemy-batch-01.md)：原32材料身份、35配方及11成品的Qualified来源；准则与后续工作统一见[炼金内容设计手册](../../system-design/alchemy/handbook.md)，材料名称、器具／占形、效果与参数分别保留候选状态。R09展示页追加解释文案，R08原件保留，平衡与真人体验未因整理通过。
 
 当前内容退役：[CORE-071采纳记录](../draft-changes/D-2026-11-01-alchemy-only-content.md)。38项非alchemy、原完整首战及其专属来源引用已撤下；仅保留61项alchemy和35配方／3构筑的原资格，新的完整首战与敌表待设计。原CORE-066来源只记历史事实。

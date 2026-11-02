@@ -23,7 +23,7 @@
 
 ## 当前内容与条件展开
 
-CORE-072的具体配方、卡效与咒查[内容库](../content-library/README.md)；字段采纳与完整首战分开。先确认实际卡效，不把通用合同当作首场功能清单。
+CORE-073首战完整输入查[冻结规格](../content-library/first-battle.md)与[EX-005](../design/examples/first-battle-alchemy.md)；CORE-072的具体配方、卡效与咒查[内容库](../content-library/README.md)；字段采纳与完整首战分开。先确认实际卡效，不把通用合同当作首场功能清单。
 
 | 当前任务 | 立即需要 | 出现什么再读扩展 |
 | --- | --- | --- |
