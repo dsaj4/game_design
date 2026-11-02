@@ -624,7 +624,7 @@ DM-G002-011第十三批使用补记：GODOT-DEMONCARDS-CANDIDATES-B13-01，固�
 
 ## <a id="dm-g002-023"></a>DM-G002-023 言咒具体内容库展板
 
-- game-002 / main；CONTENT-LIBRARY-03。[打开展板](../../yanzhou/content-library/index.html)；[维护与范围](../../yanzhou/content-library/README.md)。仅61项alchemy（32材料、11成品、8法器、10核心）、35配方、3构筑，逐项原值与资格保持；38项非alchemy及其专属来源／四分册已删除，原EX-004首战输入已撤下。
-- 本版文件与生成器／模板／检查SHA见[manifest](../../yanzhou/content-library/manifest.json)，catalog为唯一编辑源；外部代码与证据在`E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01/`。本版固定交付提交`a71156679812a3364c4ed7e0ea47a672e73013fb`（[展板取证](https://github.com/dsaj4/game_design/blob/a71156679812a3364c4ed7e0ea47a672e73013fb/yanzhou/content-library/index.html)）；上一版CONTENT-LIBRARY-02固定于`6dbb3907798ddb494d8ddb4d26b0b466e22a54fd`，旧99项及2件独立造型不再供活动内容读取。
-- ReadyForScope / PresentLocal，2026-11-01：浏览器127项通过、页面错误0，覆盖61详情、35配方、5件有图、原43项partial／18项raw资格筛选、退役来源与典型搜索缺席、跳转／深链接、键盘及1440／390／320px布局。静态18项对照通过；1682个本地链接检查，新增断链0。证据在外部`content-library-03-evidence/`；旧01／02证据保留原范围。未运行玩法、引擎、真人或平衡实验。
-- derived-from：DM-G002-019@R09；uses：AS-G002-040@ALCHEMY-ITEM-PILOT-02、AS-G002-041@CARD-FRAME-02。仅关联5种材料的15张原图；解除AS-G002-036的本内容库使用关系。原图就地、未上传／改绘，许可沿原项目内部审阅边界，不新增分发授权。内容淘汰沿CORE-071，不改变其他视觉包对原AS的独立引用。
+- game-002 / main；CONTENT-LIBRARY-04。[打开展板](../../yanzhou/content-library/index.html)；[维护与范围](../../yanzhou/content-library/README.md)。61项alchemy、35配方、3构筑；前24配方D／承载用户确认，32材料不可战斗方向确认；11终末D与成品合同更新为Raw建议，历史效果保留。身份、连接、占形和图稿不变，不采纳完整首战。
+- 本版文件与外部生成器／模板／检查SHA见[manifest](../../yanzhou/content-library/manifest.json)，catalog为唯一编辑源；外部代码与证据在`E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01/`。固定交付提交登记于manifest；上一版CONTENT-LIBRARY-03固定于`a71156679812a3364c4ed7e0ea47a672e73013fb`，旧生成器保留于`content-library-03-generator/`，旧证据不改写。更早版本沿原manifest追溯。
+- ReadyForScope / PresentLocal，2026-11-01：浏览器177项通过、页面错误0，覆盖61详情、35配方、24条新D及确认状态、候选边界、图稿、搜索／跳转／键盘及1440／390／320px布局。静态字段保全、工时、身份／关系及528个本地链接核对通过；证据在外部`content-library-04-evidence/`。未运行玩法、引擎、真人或平衡实验。
+- derived-from：DM-G002-019@R09；uses：AS-G002-040@ALCHEMY-ITEM-PILOT-02、AS-G002-041@CARD-FRAME-02。仅关联5种材料的15张原图，原件就地、未上传／改绘，复用沿原项目内部审阅边界。未接入其他新美术包，不改变其他视觉包的独立引用。

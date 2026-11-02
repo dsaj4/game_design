@@ -1,6 +1,6 @@
 {
   "id": "DM-G002-023",
-  "version": "CONTENT-LIBRARY-03",
+  "version": "CONTENT-LIBRARY-04",
   "date": "2026-11-01",
   "project": "game-002",
   "direction": "main",
@@ -13,8 +13,8 @@
   "builds": 3,
   "objectsWithArt": 5,
   "artFiles": 15,
-  "scope": "Alchemy-only content reading and review; 38 non-alchemy identities and dedicated citations retired; no gameplay execution",
-  "designInputCommit": "aa88550357741e69aa924c16a7ad4f3da5f5b474",
+  "scope": "61 alchemy objects, 35 recipes; 24 user-confirmed durations/carriers; 11 terminal and combat contract proposals remain Raw; no gameplay execution",
+  "designInputCommit": "545aa2901ba22ec343ca31885449f9cb93596a3c",
   "files": [
     {
       "path": "alchemy-notes.md",
@@ -23,8 +23,8 @@
     },
     {
       "path": "alchemy.md",
-      "bytes": 119925,
-      "sha256": "55c4dae31b033fd7d9547e8a73652ce21059ea53a84685e3fa13871bdbf36050"
+      "bytes": 151170,
+      "sha256": "a916b819372ce47d70f4f4a894eca9abe3861752e3a8a9de504afa1862adf8b6"
     },
     {
       "path": "builds.md",
@@ -33,28 +33,126 @@
     },
     {
       "path": "catalog.json",
-      "bytes": 232002,
-      "sha256": "f2ba58ae8e875e1ce950ec05a4a1dabfd8cd3831fc360982d18643fa8ea2ce3f"
+      "bytes": 266546,
+      "sha256": "599780ff37d08adc5ca9a0ff40a611efaab09aec0567d883f0b4fb5b8ec21f8a"
     },
     {
       "path": "index.html",
-      "bytes": 162706,
-      "sha256": "9b9b0bd276d430f5d36f2f73b6ab3f48b61ab4f53766ee83ab30ba830ef1b93e"
+      "bytes": 192149,
+      "sha256": "4121824bc1224bebbfbbd59baf43b96bd04729440f6bbcc4d229d4507d064461"
     },
     {
       "path": "README.md",
-      "bytes": 3806,
-      "sha256": "68c8f7654c7318808e8add42196882601f309d372fb4e3021afc30b213f25721"
+      "bytes": 4252,
+      "sha256": "a215a9cad35fccfd5fc0d2bcc759b0c936feb26aede0184fe0fe387512e40d8c"
     },
     {
       "path": "recipes.md",
-      "bytes": 20954,
-      "sha256": "f5e683e5b171393aabbbbea44786b6e697ba4242858fe528d3894ff2dd9e963b"
+      "bytes": 22493,
+      "sha256": "560f77f9e6abb1599c06db02d599228e6452d73a394f62281d3ea909bdc33b9c"
     }
   ],
   "generator": {
     "directory": "E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01",
     "files": [
+      {
+        "path": "build.py",
+        "bytes": 7073,
+        "sha256": "b6ccde29054c79392790af108f36847bea3f08fd85ec3e272079026d12364959"
+      },
+      {
+        "path": "template.html",
+        "bytes": 27995,
+        "sha256": "2b6e4c3eacc953569f11fffcd4de39e7ec9ec5eb38211be99fc2b460043aed46"
+      },
+      {
+        "path": "README.md",
+        "bytes": 1764,
+        "sha256": "6c650da397b8ddeea4c4c30fc7e36ff9adbee69e05838b9db9a36829bc9fd2fa"
+      },
+      {
+        "path": "qa.cjs",
+        "bytes": 8356,
+        "sha256": "c9423af34e61585266ad87cdad67d391beff057b12164742d0a812fcb1f5bbfb"
+      }
+    ]
+  },
+  "verification": {
+    "browserChecks": 177,
+    "browserErrors": [],
+    "staticChecks": 1031,
+    "localLinksChecked": 528,
+    "newBrokenLinks": 0,
+    "evidence": [
+      {
+        "path": "content-library-04-evidence/evidence/01-overview.png",
+        "bytes": 229344,
+        "sha256": "7a17e8c58893705aaa0f2e57b87c4060c82b7007d6fe8cbc4e6f5fcf1e0bbe7a"
+      },
+      {
+        "path": "content-library-04-evidence/evidence/02-art.png",
+        "bytes": 224671,
+        "sha256": "d53dfac651f31f305914371dfd9b6d0947e4a8e07412819b55f74b5a8da166c3"
+      },
+      {
+        "path": "content-library-04-evidence/evidence/03-water-detail.png",
+        "bytes": 232848,
+        "sha256": "47e544a0e5fe17c47b4aa66c18eb43044a27b6f84c8f6fb3a7d373fe0c4ac2a4"
+      },
+      {
+        "path": "content-library-04-evidence/evidence/04-recipe.png",
+        "bytes": 108174,
+        "sha256": "28495a7b901ffe2941bc4e5955798ba6951cde0734a52d0e60ba7a271e1468be"
+      },
+      {
+        "path": "content-library-04-evidence/evidence/05-mobile.png",
+        "bytes": 76897,
+        "sha256": "659fd977a6e59300a437b9b2f4857f5a182d61107177c66909554be6f9ba39a7"
+      },
+      {
+        "path": "content-library-04-evidence/evidence/06-mobile-detail.png",
+        "bytes": 80715,
+        "sha256": "a285d40d6abeaeecd38a9a0513576f573e911d32c56dd1a0a9801261b8771bd5"
+      },
+      {
+        "path": "content-library-04-evidence/evidence/07-confirmed-duration.png",
+        "bytes": 139535,
+        "sha256": "71b204cc1318550fc2863da2d99fdf738073c3463cd7e0a31351a070dd5eba70"
+      },
+      {
+        "path": "content-library-04-evidence/qa-result.json",
+        "bytes": 6376,
+        "sha256": "1145829f9b92408b9a6ead4331dfdf0d0b83f19b7006b1becf2c9cd49ff10d53"
+      },
+      {
+        "path": "content-library-04-evidence/static-checks.json",
+        "bytes": 44610,
+        "sha256": "ebddb536053c28ff28201bd5192ee93b8fdbca28ba95eabcc18b530c87075735"
+      }
+    ]
+  },
+  "uses": [
+    "DM-G002-019@R09",
+    "AS-G002-040@ALCHEMY-ITEM-PILOT-02",
+    "AS-G002-041@CARD-FRAME-02"
+  ],
+  "assetPolicy": "Original image bytes and locations retained; 15 existing material images only; no copied or uploaded assets",
+  "unverified": [
+    "Gameplay, engine integration, player understanding and balance",
+    "Full assistive technology and print layout",
+    "Asset availability on other computers",
+    "Replacement full first-battle content, enemy program and initial loadout",
+    "11 proposed terminal durations, combat contracts and new curse mark definition await user confirmation",
+    "Exact finite supplies, initial loadout and per-card carry eligibility"
+  ],
+  "deliveryPath": "yanzhou/content-library/",
+  "previousDelivery": {
+    "version": "CONTENT-LIBRARY-03",
+    "commit": "a71156679812a3364c4ed7e0ea47a672e73013fb",
+    "manifestPath": "yanzhou/content-library/manifest.json",
+    "localEvidenceDirectory": "E:\\Project\\yanzhou-ui-prototypes\\content-library-2026-11-01\\content-library-03-evidence",
+    "generatorArchive": "E:\\Project\\yanzhou-ui-prototypes\\content-library-2026-11-01\\content-library-03-generator",
+    "generatorFiles": [
       {
         "path": "build.py",
         "bytes": 7138,
@@ -77,103 +175,6 @@
       }
     ]
   },
-  "verification": {
-    "browserChecks": 127,
-    "browserErrors": [],
-    "staticChecks": 18,
-    "changedMarkdown": 70,
-    "localLinksChecked": 1682,
-    "newBrokenLinks": 0,
-    "evidence": [
-      {
-        "path": "content-library-03-evidence/evidence/01-overview.png",
-        "bytes": 229344,
-        "sha256": "7a17e8c58893705aaa0f2e57b87c4060c82b7007d6fe8cbc4e6f5fcf1e0bbe7a"
-      },
-      {
-        "path": "content-library-03-evidence/evidence/02-art.png",
-        "bytes": 224671,
-        "sha256": "d53dfac651f31f305914371dfd9b6d0947e4a8e07412819b55f74b5a8da166c3"
-      },
-      {
-        "path": "content-library-03-evidence/evidence/03-water-detail.png",
-        "bytes": 228857,
-        "sha256": "60ef7aed98a04c254fa453c23d18007661e495ebca26e68f2f31cf6d17018758"
-      },
-      {
-        "path": "content-library-03-evidence/evidence/04-recipe.png",
-        "bytes": 109654,
-        "sha256": "6c0c490b2275fadee4068fac636f8bac163fd5baa830ba6d9a574283ed2af3da"
-      },
-      {
-        "path": "content-library-03-evidence/evidence/05-mobile.png",
-        "bytes": 76897,
-        "sha256": "659fd977a6e59300a437b9b2f4857f5a182d61107177c66909554be6f9ba39a7"
-      },
-      {
-        "path": "content-library-03-evidence/evidence/06-mobile-detail.png",
-        "bytes": 80715,
-        "sha256": "a285d40d6abeaeecd38a9a0513576f573e911d32c56dd1a0a9801261b8771bd5"
-      },
-      {
-        "path": "content-library-03-evidence/link-checks.json",
-        "bytes": 228,
-        "sha256": "f366388cfe6599311a1d9ba277fa17e04341f58143970c11272f84043c3e1f81"
-      },
-      {
-        "path": "content-library-03-evidence/qa-result.json",
-        "bytes": 4075,
-        "sha256": "a4211a1a0dc5f55137516822601f6fbcafdabbdb294c312ee2a99ed4caa672de"
-      },
-      {
-        "path": "content-library-03-evidence/static-checks.json",
-        "bytes": 842,
-        "sha256": "55d5945922a517ab7c6f8de7b524a24e478a16856f95334d37c133e3e26576c4"
-      }
-    ]
-  },
-  "uses": [
-    "DM-G002-019@R09",
-    "AS-G002-040@ALCHEMY-ITEM-PILOT-02",
-    "AS-G002-041@CARD-FRAME-02"
-  ],
-  "assetPolicy": "Original image bytes and locations retained; 15 existing material images only; no copied or uploaded assets",
-  "unverified": [
-    "Gameplay, engine integration, player understanding and balance",
-    "Full assistive technology and print layout",
-    "Asset availability on other computers",
-    "Replacement full first-battle content, enemy program and initial loadout"
-  ],
-  "deliveryPath": "yanzhou/content-library/",
-  "previousDelivery": {
-    "version": "CONTENT-LIBRARY-02",
-    "commit": "6dbb3907798ddb494d8ddb4d26b0b466e22a54fd",
-    "manifestPath": "yanzhou/content-library/manifest.json",
-    "localEvidenceDirectory": "E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01/content-library-02-evidence",
-    "generatorArchive": "E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01/content-library-02-generator",
-    "generatorFiles": [
-      {
-        "path": "build.py",
-        "bytes": 7210,
-        "sha256": "edd2ad624e8cac9b62744b5dbc777de1e0074f3323cc360633eea89192bf87d9"
-      },
-      {
-        "path": "template.html",
-        "bytes": 28407,
-        "sha256": "70ea5d822b2b80245ff3f08cc2170647348df7d8ce1f500821d1d340436a0b43"
-      },
-      {
-        "path": "README.md",
-        "bytes": 1249,
-        "sha256": "fc8ad9008baffc48fb5f8d6e84e3b0bf2b7b1b29ea24a7349b0a3dd0e2a88bb8"
-      },
-      {
-        "path": "qa.cjs",
-        "bytes": 6421,
-        "sha256": "675f4628e2568f6d1724ec986554afe9e3683c109daabe8e6904ceb6928c23a3"
-      }
-    ]
-  },
   "originalContentInputCommit": "16838828fba90a3444c4a49a35b98df74f271f32",
   "adoption": {
     "decision": "CORE-071",
@@ -185,5 +186,9 @@
     "record": "../sources/draft-changes/D-2026-11-01-shared-backpack.md",
     "scope": "Only 10 core items: loose occupancy becomes 1 cell and links the adopted rule; all other content values and qualifications retained"
   },
-  "deliveryCommit": "a71156679812a3364c4ed7e0ea47a672e73013fb"
+  "contentConfirmation": {
+    "source": "../sources/materials/M-2026-11-01-alchemy-executable-direction.md",
+    "decision": "Q5",
+    "scope": "Only r01-r24 duration and artifact fields; qualified content parameters, not full release or core-rule adoption"
+  }
 }
