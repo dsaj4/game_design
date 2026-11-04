@@ -9,7 +9,9 @@ Project ID：game-002-optimization。2026-11-04。状态：**Raw Idea / Unqualif
 - 日期／目标：2026-11-04。承接外部交接稿，把「一桌一轴」与空间法器约束整理成可审方向，并按用户本轮授权重新核对配方D是否仍合理。
 - 模式与范围：CUSTOM。交接稿；`yanzhou/AGENTS.md`与探索入口三份；`design/GDD.md`；`design/systems/`下artifact、resource、action-card、backpack、inscription、augment、enemy的`rules.md`；`design/content/`三份；`content-library/`的recipes、artifact-geometry、alchemy、first-battle、builds；`governance/`的questions与rule-index；`system-design/handbook.md`。
 - 共同版本：d92851e951a3a8ad67e26962c4a9924ac5cd532b；开工时工作树干净，分支`codex/2026-11-02-tabletop-html`。交接稿与原型为未入库外部输入，已存入本目录。
-- 实际覆盖：上列文件完整读取。2026-11-04补读：交互保存rules、经济rules、`validation`、`parameters`、mark-system rules、`development/README`，新增冲突见「补读后新增冲突」。仍未读：`decision-log`、`development/`任务包、路线rules、各系统design／experience、`sources/draft-changes`正文、`examples`、`alchemy-notes`。
+- 实际覆盖：上列文件完整读取。2026-11-04补读：交互保存rules、经济rules、`validation`、`parameters`、mark-system rules、`development/README`，新增冲突见「补读后新增冲突」。
+
+2026-11-04第二次补读：`decision-log`、`development/task-pack`及future-purpose／round-hand／shared-backpack／interruption-restart四个任务包、路线rules、EX-003、EX-005、`alchemy-notes`、CORE-074采纳D、artifact-system design、shared-backpack-design，新增冲突见「第二次补读后新增冲突」。仍未读：`task-packs/first-battle-alchemy`、`baseline`、`CONTEXT`、其余系统design／experience、其余`sources`正文（M／E／D）、`standards`。
 - 增补／排除：未读历史与其他探索方向；DIR-043只取索引行。
 - 其他例外：交接稿中「用户已确认」的项目按稿记录，本轮未重问。
 
@@ -135,6 +137,17 @@ L L L H . . . .
 - **parameters**：逻辑时间t、开工检查、解封补给、预放时点、待料批数、供料占形、自动补料、接收范围、辅助空间等行要改写；新增圈下限、炉心规格、覆盖圈、入料口P，D的单位由生产拍改为列。
 - **mark-system**：开工侧冻结与「释放最早下一生产拍可用」的时点单位改为列；首战的咒不涉及开工费，影响面小。
 - **开发侧**：`development/README`记载新2D工程只接入CORE-067限定首场，CORE-068／069／070未接入，所以改制不会废掉已实现的供料与辅助代码，改制成本比预想低；旧TABLETOP-BACKPACK-HTML-01是旧规则快照，不覆盖本方向。
+
+## 第二次补读后新增冲突（2026-11-04）
+
+- **编号**：G002-CORE下一编号075，G002-DOC下一编号036，EX下一编号006。本方向若走到采纳，回写时按此分配，不复用。
+- **CORE-074（2026-11-02采纳，仅两天）**：本方向会替换其中的一格接触、可交叠接收范围、材料唯一链接与资源卡组解封本拍资格；八法器本体占形继续有效。该采纳D称这些已同步到GDD、TL-06／14／15／46、开发包与内容库，回写面因此比首轮清单更大，且是推翻刚采纳的规则，须在Draft Change里写明替换关系。
+- **敌方打断**：交接稿不恢复打断介入生产。TL-07、TL-09（锁定剩余加工最长的法器）、TL-12、敌人规则中「打断经延时后续」的首版约束都失去对象；interruption-restart任务包整体需要重写为封印包；EX-003第2节的打断与退料段、validation中打断退料各项同样退役。
+- **任务包**：future-purpose、round-hand、shared-backpack、interruption-restart四包的核心行为被替换，按task-pack的同步规则应标「待同步」，停止用于新实现。first-battle-alchemy包未读，按同理待查。
+- **EX-005**：默认生产时间表（t3、t4、t8、t13、t18等）、两条获胜路线与胜利重装段依赖生产拍和吸收拍。一桌一轴加TA-Q01小炉后需整体重算：草本灵液D3变4；若不采纳TA-Q09的序幕回合，铁肤药水第3列才可用，固定教学路线「第一轮第1列用铁肤」不成立。
+- **路线TL-32**：验收输入里加入炉心占格即可，影响小。
+- **设计稿**：artifact-system design中「生产观察窗、待料、自动补料开关」的描述要改；shared-backpack-design把装载合法与展开合法分开检查，改制后合并为装载确认时一次求值，其中40格样本与生命灵药四台29格样本只作历史。
+- **开发入口**：核对结果不变，CORE-068／069／070均未接入二维工程，改制不废弃已实现的供料代码。
 
 ## 未知与下一步
 
