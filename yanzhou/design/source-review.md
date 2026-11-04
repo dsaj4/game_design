@@ -1,5 +1,7 @@
 # 当前设计来源索引
 
+2026-11-04增量：当前单轴来源为[CORE-075](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md)；列时序、确认拒绝、并发费用与零材料指令由[CORE-076](../sources/draft-changes/D-2026-11-04-column-scheduling.md)补齐，资格／评估及固定版本见该D。下列早期来源仅在未被替换范围有效；首战当前输入仍待同步。
+
 2026-11-01 · SourceReview。当前采纳与资格沿[基准](baseline.md)；本页只回答结论来自哪里，不属于日常开发或完整GDD必读包。引用默认取任务共同提交，来源原件按自身固定输入解释。
 
 ## 规则来源
