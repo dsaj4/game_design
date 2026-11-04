@@ -10,7 +10,7 @@ Project ID：game-002-optimization。2026-10-23。当前活动方向见下表。
 
 | 方向 | 目标与状态 | 阅读范围 |
 | --- | --- | --- |
-| [DIR-044 一桌一轴与空间法器约束](DIR-044-table-axis-spatial-artifacts/README.md) | 战中一桌一轴（排牌为唯一动词）与炉心／圈下限、法器组合、入料口、辅助覆盖圈；含空间下限纸面推算、配方D重标定提案及12项待答问题；Raw / Unqualified，玩法Hypothesis / NotRun | CUSTOM；固定d92851e；交接稿、GDD、七系统rules、内容库五份等，覆盖与未读见方向页 |
+| [DIR-044 一桌一轴与空间法器约束](DIR-044-table-axis-spatial-artifacts/README.md) | 战中一桌一轴（排牌为唯一动词）与炉心／圈下限、法器组合、入料口、辅助覆盖圈；含空间下限纸面推算、配方D重标定提案及TA-Q01至Q12答复（Q01改为首战先配1枚小炉，余按推荐）；Raw / Unqualified，玩法Hypothesis / NotRun | CUSTOM；固定d92851e；交接稿、GDD、七系统rules、内容库五份等，覆盖与未读见方向页 |
 | [DIR-043 背包管理式法器生产](DIR-043-backpack-production/README.md) | A已按CORE-068采纳；CORE-069新增核心可逆嵌入、独立辅助占格／单器连接、同效叠加与批次继承，替换辅槽；玩法Hypothesis / NotRun | 初轮CORE＋四款官方参照；合并轮CUSTOM及M／E／D范围见方向页 |
 | [DIR-042 纸本秘术工坊](DIR-042-herbal-engraving-style/README.md) | 用户暂定v03为本轮桌面战斗设计基准，独立符号板为卡牌重点参考；其余整场稿与旧美术方向退出活动区，玩法与交互状态保持 | CUSTOM；本轮局部视觉管理，既定背景版本及研究来源沿方向页，不回滚CORE-067 |
 | [DIR-041 法器系统成型玩法深化和游戏后期体验定义](DIR-041-artifact-endgame/README.md) | 自养丹炉、咒轮合奏与行进洞府三版机制候选；Raw / Unqualified，Hypothesis / NotRun，先审阅再定实现 | GDD完整56份＋明确增补7份；固定版本与逐文件覆盖见方向页；另有5款公开参考研究 |

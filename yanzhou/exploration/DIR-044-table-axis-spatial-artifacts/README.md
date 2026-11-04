@@ -9,7 +9,7 @@ Project ID：game-002-optimization。2026-11-04。状态：**Raw Idea / Unqualif
 - 日期／目标：2026-11-04。承接外部交接稿，把「一桌一轴」与空间法器约束整理成可审方向，并按用户本轮授权重新核对配方D是否仍合理。
 - 模式与范围：CUSTOM。交接稿；`yanzhou/AGENTS.md`与探索入口三份；`design/GDD.md`；`design/systems/`下artifact、resource、action-card、backpack、inscription、augment、enemy的`rules.md`；`design/content/`三份；`content-library/`的recipes、artifact-geometry、alchemy、first-battle、builds；`governance/`的questions与rule-index；`system-design/handbook.md`。
 - 共同版本：d92851e951a3a8ad67e26962c4a9924ac5cd532b；开工时工作树干净，分支`codex/2026-11-02-tabletop-html`。交接稿与原型为未入库外部输入，已存入本目录。
-- 实际覆盖：上列文件完整读取。未读：`decision-log`、`development/`任务包、`common/`三组rules（交互保存、经济、路线）、各系统design／experience、mark-system、`sources/draft-changes`正文、`validation`、`parameters`、`examples`、`alchemy-notes`。交互、经济与验收类冲突因此只能列为待查。
+- 实际覆盖：上列文件完整读取。2026-11-04补读：交互保存rules、经济rules、`validation`、`parameters`、mark-system rules、`development/README`，新增冲突见「补读后新增冲突」。仍未读：`decision-log`、`development/`任务包、路线rules、各系统design／experience、`sources/draft-changes`正文、`examples`、`alchemy-notes`。
 - 增补／排除：未读历史与其他探索方向；DIR-043只取索引行。
 - 其他例外：交接稿中「用户已确认」的项目按稿记录，本轮未重问。
 
@@ -127,10 +127,45 @@ L L L H . . . .
 - **内容库**：artifact-geometry的接收范围字段废止（本体占形有效）；first-battle的待料9格、t0预放、t1吸收、静态产出拍数、布局锚点需重排；recipes各条「局部装载」段与alchemy法器「供料范围」行废止。
 - **待查（未读）**：交互保存TL-17／18／19、经济TL-25、validation、parameters、开发任务包。
 
+## 补读后新增冲突（2026-11-04）
+
+- **交互保存TL-31／17／18／19**：战前配置里的接收范围、连接点、待料、自动补料开关、固定法器序要换成炉心、组合、覆盖圈；TL-17的「生产观察窗、最终整理、列间窗口」三类停点合并为一个布置窗口；TL-18的免费上行扩展到工序行；TL-19保存对象表要删去待料、最早吸收拍、辅助朝向，增加炉心位置、组合关系、光标位置。
+- **经济TL-25／33**：战终「未吸收待料移出、未完工输入退回」要改写成工序行状态：未开工的已排料撤回手牌，在制批次被打断则按原规则退回；炉心作为携带物占格，需补携带资格。辅助取得接口不变，辅助作用方式改为覆盖圈。
+- **validation**：「重叠范围与解封」「背包式法器管理」两节及CORE-069中辅助朝向与单器指向各项（如INS-V04）整体退役或改写；TL-V04、V101、V108等按CORE-068修订的项再改；材料锁定与预告相关项（TL-V73、V74）退役。均为设计预期，原本就是NotRun。
+- **parameters**：逻辑时间t、开工检查、解封补给、预放时点、待料批数、供料占形、自动补料、接收范围、辅助空间等行要改写；新增圈下限、炉心规格、覆盖圈、入料口P，D的单位由生产拍改为列。
+- **mark-system**：开工侧冻结与「释放最早下一生产拍可用」的时点单位改为列；首战的咒不涉及开工费，影响面小。
+- **开发侧**：`development/README`记载新2D工程只接入CORE-067限定首场，CORE-068／069／070未接入，所以改制不会废掉已实现的供料与辅助代码，改制成本比预想低；旧TABLETOP-BACKPACK-HTML-01是旧规则快照，不覆盖本方向。
+
 ## 未知与下一步
 
 1. 等你对TA-Q01～Q12给出批量答复（常用「本批全部按推荐」）。
 2. 答复后补读上述未读文件，走M→E→D：合格素材、评估、Draft Change；采纳后才回写GDD、术语、参数、validation、baseline、decision-log、id-registry、questions与各README。
 3. 原型v2：真实八器占形、35条配方D、8×5空包穷举；只算法器与炉心占格，渲染未目视检查。第一版原型按旧的容积、邻接规则写成，已过时，未存入。
+
+## 用户答复（2026-11-04）
+
+用户逐项改：**TA-Q01＝首战先配1枚小炉**；其余TA-Q02至Q12全部按推荐。以下仍为Raw，不是采纳。
+
+| 编号 | 定稿答复 |
+| --- | --- |
+| TA-Q01 | 首战配1枚小炉（改动；原推荐2枚小炉） |
+| TA-Q02至Q12 | 按推荐 |
+
+**TA-Q01的推论（纸面算术，玩法NotRun）：**
+
+- 表B：1枚小炉下首战四台最小总拖慢为1列，不能零拖慢；装载35/40（法器加炉心18格，加启动材料17格），余5格。
+- 在已求得的一个最优摆法里，被拖慢的是盘管萃炼器：最远格在第3圈，下限4，草本灵液D3变4，其余三台不拖慢。摆法如下（C小炉，E萃炼器，S铁肤瓶，H生命瓶，L显咒灯）；其他最优摆法的拖慢落点可能不同，待查：
+
+```text
+S S S L . . . .
+S C H L . . . .
+H H H L . . . .
+E E E . . . . .
+E E E . . . . .
+```
+
+- 对首战冻结值的影响：草本灵液多1列，后续依赖新产草本灵液的批次要后移，EX-005的静态推导须按新时间线重做；这在一桌一轴的时间线下本来就要重算，不另计。
+- TA-Q03维持提案：1小炉下萃炼器的下限为3（表A），三条D2改D3恰好使它们不再被空间抬高；坩埚D2×3在小炉下也变3，属于炉心有分化的预期，首战不用坩埚。Q03的撤回条件（每场至少2枚炉心）不成立。
+- 首战仍不由料量构成取舍（余5格）。1枚小炉让「摆位影响速度」在首战就有一次可见代价，是否合适待验证。
 
 来源：用户本轮任务与交接稿（2026-11-04）。状态：Raw / Unqualified；本页数据为纸面算术，玩法与体验NotRun。
