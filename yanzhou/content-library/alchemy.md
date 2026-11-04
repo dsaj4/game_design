@@ -1,6 +1,6 @@
 # 炼金内容内容条目
 
-2026-11-02 · CONTENT-LIBRARY-07。从[catalog.json](catalog.json)生成；请修改数据源后重建，勿双写。
+2026-11-04 · CONTENT-LIBRARY-08。从[catalog.json](catalog.json)生成；请修改数据源后重建，勿双写。
 
 [展板](index.html) · [维护方式](README.md)
 
@@ -28,8 +28,8 @@
 | 战斗权限（已采纳） | 不可战斗；战斗回收不适用。材料直用须另列修订。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：二格长条；本体 [[0, 0], [0, 1]]；供料 []。
-长瓶水体，保留流动载体形象。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：二格长条；实体格 [[0, 0], [0, 1]]。
+长瓶水体，保留流动载体形象。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 配方去向：[汞](recipes.md#alchemy-r02) · [滚烫蒸汽](recipes.md#alchemy-r04) · [轻盈雾团](recipes.md#alchemy-r05) · [草药汁液](recipes.md#alchemy-r06) · [水银溶剂](recipes.md#alchemy-r10) · [醒神药水](recipes.md#alchemy-recipe-wake)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
 图稿：[物品图](../../../yanzhou-art-assets/alchemy-item-pilot-2026-10-31/ways-v02/items/water.png)（[五件物品图与卡图](../visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)）
@@ -63,8 +63,8 @@
 | 首战限定 | 首战规格已冻结本项占形、投放及适用配置；其他遭遇／全局取得与携带不因此采纳。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072；首战占形／取得＝Accepted / CORE-073，仅本场规定实例及配置。
-占形（资格见分项）：单格；本体 [[0, 0]]；供料 []。
-小块燃烧木炭，不新增燃料消耗或燃烧计时。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：单格；实体格 [[0, 0]]。
+小块燃烧木炭，不新增燃料消耗或燃烧计时。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 配方去向：[硫](recipes.md#alchemy-r01) · [滚烫蒸汽](recipes.md#alchemy-r04) · [日辉晶粉](recipes.md#alchemy-r08) · [硫磺火种](recipes.md#alchemy-r12) · [引燃术](recipes.md#alchemy-recipe-ignite)
 未定：首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。
 图稿：[物品图](../../../yanzhou-art-assets/alchemy-item-pilot-2026-10-31/ways-v02/items/fire.png)（[五件物品图与卡图](../visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)）
@@ -97,8 +97,8 @@
 | 战斗权限（已采纳） | 不可战斗；战斗回收不适用。材料直用须另列修订。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：二格长条；本体 [[0, 0], [0, 1]]；供料 []。
-一团可塑土料，以横竖可转的两格团块表达。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：二格长条；实体格 [[0, 0], [0, 1]]。
+一团可塑土料，以横竖可转的两格团块表达。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 配方去向：[盐](recipes.md#alchemy-r03) · [精铁砂砾](recipes.md#alchemy-r07) · [夜影尘粉](recipes.md#alchemy-r09) · [盐晶核](recipes.md#alchemy-r14)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
 图稿：[物品图](../../../yanzhou-art-assets/alchemy-item-pilot-2026-10-31/ways-v02/items/earth.png)（[五件物品图与卡图](../visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)）
@@ -131,8 +131,8 @@
 | 战斗权限（已采纳） | 不可战斗；战斗回收不适用。材料直用须另列修订。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：二格长条；本体 [[0, 0], [0, 1]]；供料 []。
-羽轴修长；旋转改变摆放方向，不赋予飞行。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：二格长条；实体格 [[0, 0], [0, 1]]。
+羽轴修长；旋转改变摆放方向，不赋予飞行。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 配方去向：[轻盈雾团](recipes.md#alchemy-r05)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
 图稿：[物品图](../../../yanzhou-art-assets/alchemy-item-pilot-2026-10-31/ways-v02/items/wind.png)（[五件物品图与卡图](../visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)）
@@ -166,8 +166,8 @@
 | 首战限定 | 首战规格已冻结本项占形、投放及适用配置；其他遭遇／全局取得与携带不因此采纳。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072；首战占形／取得＝Accepted / CORE-073，仅本场规定实例及配置。
-占形（资格见分项）：二格长条；本体 [[0, 0], [0, 1]]；供料 []。
-一束细长药草；不按叶片拆分成多份。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：二格长条；实体格 [[0, 0], [0, 1]]。
+一束细长药草；不按叶片拆分成多份。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 配方去向：[草药汁液](recipes.md#alchemy-r06) · [草本灵液](recipes.md#alchemy-r11) · [再生精华液](recipes.md#alchemy-r16)
 未定：首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。
 图稿：[物品图](../../../yanzhou-art-assets/alchemy-item-pilot-2026-10-31/ways-v02/items/herb.png)（[五件物品图与卡图](../visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)）
@@ -200,8 +200,8 @@
 | 战斗权限（已采纳） | 不可战斗；战斗回收不适用。材料直用须另列修订。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：二格长条；本体 [[0, 0], [0, 1]]；供料 []。
-条状生铁，旋转可横放或竖放。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：二格长条；实体格 [[0, 0], [0, 1]]。
+条状生铁，旋转可横放或竖放。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 配方去向：[精铁砂砾](recipes.md#alchemy-r07)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
 来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md)
@@ -231,8 +231,8 @@
 | 战斗权限（已采纳） | 不可战斗；战斗回收不适用。材料直用须另列修订。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：单格；本体 [[0, 0]]；供料 []。
-小块发光晶石；不新增光伤。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：单格；实体格 [[0, 0]]。
+小块发光晶石；不新增光伤。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 配方去向：[日辉晶粉](recipes.md#alchemy-r08) · [辉光灵火](recipes.md#alchemy-r13) · [贤者之石](recipes.md#alchemy-recipe-stone)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
 来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md)
@@ -262,8 +262,8 @@
 | 战斗权限（已采纳） | 不可战斗；战斗回收不适用。材料直用须另列修订。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：三格L形；本体 [[0, 0], [0, 1], [1, 1]]；供料 []。
-菌盖和偏侧菌柄形成L形。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：三格L形；实体格 [[0, 0], [0, 1], [1, 1]]。
+菌盖和偏侧菌柄形成L形。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 配方去向：[夜影尘粉](recipes.md#alchemy-r09) · [幽影封盐](recipes.md#alchemy-r15)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
 来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md)
@@ -294,8 +294,8 @@
 | 配方D／承载（已采纳） | D2；初相坩埚。仅本条参数，不代表完整发行。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：单格；本体 [[0, 0]]；供料 []。
-浓缩专属原质单份。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：单格；实体格 [[0, 0]]。
+浓缩专属原质单份。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r01)
 配方去向：[硫磺火种](recipes.md#alchemy-r12) · [辉光灵火](recipes.md#alchemy-r13)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
@@ -328,8 +328,8 @@
 | 首战限定 | 首战规格已冻结本项占形、投放及适用配置；其他遭遇／全局取得与携带不因此采纳。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072；首战占形／取得＝Accepted / CORE-073，仅本场规定实例及配置。
-占形（资格见分项）：单格；本体 [[0, 0]]；供料 []。
-小剂量原质单位，不另加容器配方。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：单格；实体格 [[0, 0]]。
+小剂量原质单位，不另加容器配方。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r02)
 配方去向：[水银溶剂](recipes.md#alchemy-r10) · [草本灵液](recipes.md#alchemy-r11)
 未定：首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。
@@ -361,8 +361,8 @@
 | 配方D／承载（已采纳） | D2；初相坩埚。仅本条参数，不代表完整发行。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：单格；本体 [[0, 0]]；供料 []。
-紧凑原质晶粒单份。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：单格；实体格 [[0, 0]]。
+紧凑原质晶粒单份。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r03)
 配方去向：[盐晶核](recipes.md#alchemy-r14) · [幽影封盐](recipes.md#alchemy-r15)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
@@ -394,8 +394,8 @@
 | 配方D／承载（已采纳） | D2；盘管萃炼器。仅本条参数，不代表完整发行。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：二格长条；本体 [[0, 0], [0, 1]]；供料 []。
-蒸汽以细长封存形象显示，不另造蒸汽容器材料。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：二格长条；实体格 [[0, 0], [0, 1]]。
+蒸汽以细长封存形象显示，不另造蒸汽容器材料。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r04)
 配方去向：[爆鸣火核](recipes.md#alchemy-r23)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
@@ -427,8 +427,8 @@
 | 配方D／承载（已采纳） | D2；盘管萃炼器。仅本条参数，不代表完整发行。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：三格L形；本体 [[0, 0], [0, 1], [1, 1]]；供料 []。
-松散雾团以不规则三格表达。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：三格L形；实体格 [[0, 0], [0, 1], [1, 1]]。
+松散雾团以不规则三格表达。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r05)
 配方去向：[浮空晶石](recipes.md#alchemy-r20)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
@@ -461,8 +461,8 @@
 | 首战限定 | 首战规格已冻结本项占形、投放及适用配置；其他遭遇／全局取得与携带不因此采纳。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072；首战占形／取得＝Accepted / CORE-073，仅本场规定实例及配置。
-占形（资格见分项）：二格长条；本体 [[0, 0], [0, 1]]；供料 []。
-细长液体载体。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：二格长条；实体格 [[0, 0], [0, 1]]。
+细长液体载体。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r06)
 配方去向：[生命灵药](recipes.md#alchemy-recipe-life)
 未定：首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。
@@ -495,8 +495,8 @@
 | 首战限定 | 首战规格已冻结本项占形、投放及适用配置；其他遭遇／全局取得与携带不因此采纳。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072；首战占形／取得＝Accepted / CORE-073，仅本场规定实例及配置。
-占形（资格见分项）：二格长条；本体 [[0, 0], [0, 1]]；供料 []。
-条状粉袋轮廓，整份投入不拆袋。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：二格长条；实体格 [[0, 0], [0, 1]]。
+条状粉袋轮廓，整份投入不拆袋。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r07)
 配方去向：[金刚晶砂](recipes.md#alchemy-r19) · [铁肤药水](recipes.md#alchemy-recipe-skin)
 未定：首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。
@@ -528,8 +528,8 @@
 | 配方D／承载（已采纳） | D3；刻纹研钵。仅本条参数，不代表完整发行。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：单格；本体 [[0, 0]]；供料 []。
-少量晶粉，收束成单格。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：单格；实体格 [[0, 0]]。
+少量晶粉，收束成单格。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r08)
 配方去向：[清醒凝露](recipes.md#alchemy-r17) · [封魔结晶](recipes.md#alchemy-r21) · [日冕之火](recipes.md#alchemy-r22)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
@@ -561,8 +561,8 @@
 | 配方D／承载（已采纳） | D2；刻纹研钵。仅本条参数，不代表完整发行。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：单格；本体 [[0, 0]]；供料 []。
-少量尘粉，收束成单格。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：单格；实体格 [[0, 0]]。
+少量尘粉，收束成单格。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r09)
 配方去向：[蚀解溶液](recipes.md#alchemy-r18) · [幽冥磷火](recipes.md#alchemy-r24)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
@@ -594,8 +594,8 @@
 | 配方D／承载（已采纳） | D3；盘管萃炼器。仅本条参数，不代表完整发行。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：二格长条；本体 [[0, 0], [0, 1]]；供料 []。
-细长溶剂瓶轮廓；不增加瓶材料输入。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：二格长条；实体格 [[0, 0], [0, 1]]。
+细长溶剂瓶轮廓；不增加瓶材料输入。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r10)
 配方去向：[蚀解溶液](recipes.md#alchemy-r18) · [水银飞弹](recipes.md#alchemy-recipe-missile) · [日轮术](recipes.md#alchemy-recipe-sun)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
@@ -628,8 +628,8 @@
 | 首战限定 | 首战规格已冻结本项占形、投放及适用配置；其他遭遇／全局取得与携带不因此采纳。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072；首战占形／取得＝Accepted / CORE-073，仅本场规定实例及配置。
-占形（资格见分项）：二格长条；本体 [[0, 0], [0, 1]]；供料 []。
-草本液体容积与普通药液一致。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：二格长条；实体格 [[0, 0], [0, 1]]。
+草本液体容积与普通药液一致。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r11)
 配方去向：[再生精华液](recipes.md#alchemy-r16) · [清醒凝露](recipes.md#alchemy-r17) · [生命灵药](recipes.md#alchemy-recipe-life) · [铁肤药水](recipes.md#alchemy-recipe-skin)
 未定：首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。
@@ -662,8 +662,8 @@
 | 首战限定 | 首战规格已冻结本项占形、投放及适用配置；其他遭遇／全局取得与携带不因此采纳。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072；首战占形／取得＝Accepted / CORE-073，仅本场规定实例及配置。
-占形（资格见分项）：单格；本体 [[0, 0]]；供料 []。
-紧凑火种。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：单格；实体格 [[0, 0]]。
+紧凑火种。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r12)
 配方去向：[爆鸣火核](recipes.md#alchemy-r23) · [幽冥磷火](recipes.md#alchemy-r24) · [引燃术](recipes.md#alchemy-recipe-ignite)
 未定：首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。
@@ -695,8 +695,8 @@
 | 配方D／承载（已采纳） | D4；封相炼炉。仅本条参数，不代表完整发行。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：二格长条；本体 [[0, 0], [0, 1]]；供料 []。
-向上延展的灵火轮廓。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：二格长条；实体格 [[0, 0], [0, 1]]。
+向上延展的灵火轮廓。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r13)
 配方去向：[日冕之火](recipes.md#alchemy-r22)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
@@ -728,8 +728,8 @@
 | 配方D／承载（已采纳） | D3；封相炼炉。仅本条参数，不代表完整发行。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：四格方形；本体 [[0, 0], [1, 0], [0, 1], [1, 1]]；供料 []。
-完整承载晶核以厚实方形表达。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：四格方形；实体格 [[0, 0], [1, 0], [0, 1], [1, 1]]。
+完整承载晶核以厚实方形表达。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r14)
 配方去向：[金刚晶砂](recipes.md#alchemy-r19) · [浮空晶石](recipes.md#alchemy-r20) · [炼金爆弹](recipes.md#alchemy-recipe-bomb) · [结晶护符](recipes.md#alchemy-recipe-charm)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
@@ -761,8 +761,8 @@
 | 配方D／承载（已采纳） | D3；封相炼炉。仅本条参数，不代表完整发行。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：单格；本体 [[0, 0]]；供料 []。
-浓缩封盐单份。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：单格；实体格 [[0, 0]]。
+浓缩封盐单份。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r15)
 配方去向：[封魔结晶](recipes.md#alchemy-r21)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
@@ -794,8 +794,8 @@
 | 配方D／承载（已采纳） | D5；盘管萃炼器。仅本条参数，不代表完整发行。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：二格长条；本体 [[0, 0], [0, 1]]；供料 []。
-浓缩但仍为细长液体形态。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：二格长条；实体格 [[0, 0], [0, 1]]。
+浓缩但仍为细长液体形态。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r16)
 配方去向：[贤者之石](recipes.md#alchemy-recipe-stone) · [万灵药](recipes.md#alchemy-recipe-elixir)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
@@ -827,8 +827,8 @@
 | 配方D／承载（已采纳） | D3；盘管萃炼器。仅本条参数，不代表完整发行。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：单格；本体 [[0, 0]]；供料 []。
-小滴凝露；高级材料也可更紧凑。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：单格；实体格 [[0, 0]]。
+小滴凝露；高级材料也可更紧凑。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r17)
 配方去向：[醒神药水](recipes.md#alchemy-recipe-wake)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
@@ -860,8 +860,8 @@
 | 配方D／承载（已采纳） | D4；盘管萃炼器。仅本条参数，不代表完整发行。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：二格长条；本体 [[0, 0], [0, 1]]；供料 []。
-细长溶液容器轮廓。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：二格长条；实体格 [[0, 0], [0, 1]]。
+细长溶液容器轮廓。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r18)
 配方去向：[离解术](recipes.md#alchemy-recipe-dissolve)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
@@ -893,8 +893,8 @@
 | 配方D／承载（已采纳） | D4；刻纹研钵。仅本条参数，不代表完整发行。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：二格长条；本体 [[0, 0], [0, 1]]；供料 []。
-成袋晶砂，以两格表达。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：二格长条；实体格 [[0, 0], [0, 1]]。
+成袋晶砂，以两格表达。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r19)
 配方去向：[结晶护符](recipes.md#alchemy-recipe-charm)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
@@ -926,8 +926,8 @@
 | 配方D／承载（已采纳） | D3；封相炼炉。仅本条参数，不代表完整发行。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：三格L形；本体 [[0, 0], [0, 1], [1, 1]]；供料 []。
-不规则晶石与留空角形成L形。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：三格L形；实体格 [[0, 0], [0, 1], [1, 1]]。
+不规则晶石与留空角形成L形。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r20)
 配方去向：[水银飞弹](recipes.md#alchemy-recipe-missile)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
@@ -959,8 +959,8 @@
 | 配方D／承载（已采纳） | D5；封相炼炉。仅本条参数，不代表完整发行。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：四格方形；本体 [[0, 0], [1, 0], [0, 1], [1, 1]]；供料 []。
-完整封存结晶，以方形表达。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：四格方形；实体格 [[0, 0], [1, 0], [0, 1], [1, 1]]。
+完整封存结晶，以方形表达。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r21)
 配方去向：[贤者之石](recipes.md#alchemy-recipe-stone)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
@@ -992,8 +992,8 @@
 | 配方D／承载（已采纳） | D4；封相炼炉。仅本条参数，不代表完整发行。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：四格T形；本体 [[1, 0], [0, 1], [1, 1], [2, 1]]；供料 []。
-中央火柱与展开的日冕形成T形。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：四格T形；实体格 [[1, 0], [0, 1], [1, 1], [2, 1]]。
+中央火柱与展开的日冕形成T形。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r22)
 配方去向：[日轮术](recipes.md#alchemy-recipe-sun) · [贤者之石](recipes.md#alchemy-recipe-stone)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
@@ -1025,8 +1025,8 @@
 | 配方D／承载（已采纳） | D4；封相炼炉。仅本条参数，不代表完整发行。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：二格长条；本体 [[0, 0], [0, 1]]；供料 []。
-轴向爆鸣核心。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：二格长条；实体格 [[0, 0], [0, 1]]。
+轴向爆鸣核心。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r23)
 配方去向：[炼金爆弹](recipes.md#alchemy-recipe-bomb)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
@@ -1058,8 +1058,8 @@
 | 配方D／承载（已采纳） | D3；封相炼炉。仅本条参数，不代表完整发行。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；配方D／承载＝Accepted / CORE-072；战斗权限＝Accepted / CORE-072；占形＝Raw；指定材料用途＝Accepted / CORE-072。
-占形（资格见分项）：三格L形；本体 [[0, 0], [0, 1], [1, 1]]；供料 []。
-偏斜火舌形成L形。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：三格L形；实体格 [[0, 0], [0, 1], [1, 1]]。
+偏斜火舌形成L形。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 制取：[配方](recipes.md#alchemy-r24)
 配方去向：[离解术](recipes.md#alchemy-recipe-dissolve)
 未定：具体取得／供给份数与时点、携带资格、完整装载及几何采纳未闭合。
@@ -1091,10 +1091,9 @@
 | 历史初值边界 | 曾选作对照的初值，不是已采纳发行规格；未完整迁移到 R08。 |
 | 普通根料向量 | 疗伤草×2、清泉水×2；共4份 |
 | 批次数（P／E／终末） | 1／2／白化1 |
-| 合计D工时 | 10（全部配方D已采纳；非完成拍） |
+| 合计D工时 | 10（配方D递归求和；不含空间抬高，不是完工列） |
 | 终末分类 | 药水 |
 | 失败及终局（共同合同） | 无目标不支付该步未付费用；不足不部分支付、不重试。已成步骤不回滚，终局立即停余步骤。处理结束依本牌回收权限回手／移除；制造投入不退款。 |
-| 冷启动首份下界（条件推导） | t12；足量根料t0可用、每用途独立合法设备与核心、无争料／打断、几何不额外约束。不是整链部署或实测。 |
 | 效果（已采纳） | 自身恢复12生命。 |
 | 使用费用（已采纳） | 0 |
 | 回收权限（已采纳） | 一次性 |
@@ -1102,10 +1101,12 @@
 | 行动类别（已采纳） | 其他 |
 | 材料用途（已采纳） | 仅可作为万灵药的指定身份输入。 |
 | 首战限定 | 首战规格已冻结本项占形、投放及适用配置；其他遭遇／全局取得与携带不因此采纳。 |
+| 理想并行首份可用列下界（条件推导） | c8（c7列末入手）。根料c1足量可用，每个所需批次有独立合法器具／核心、并行无争料；忽略装载与圈下限抬高，按基础D取关键路径。是乐观下界，不是可部署见证、首战排程或实测。 |
+| 本体预算边界 | 下表只保留法器本体／核心数量的条件下界，未计炉心、携带料与辅助；不承诺能达到基础D或同时装入实际背包。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；占形＝Raw；战斗／回收／材料权限、效果与费用＝Accepted / CORE-072；首战占形／取得＝Accepted / CORE-073，仅本场规定实例及配置。
-占形（资格见分项）：二格长条；本体 [[0, 0], [0, 1]]；供料 []。
-细长药瓶；包装轮廓不增加配方输入。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：二格长条；实体格 [[0, 0], [0, 1]]。
+细长药瓶；包装轮廓不增加配方输入。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 | 持料起点（现行本体条件下界） | 台数 | 仅法器本体面积 | 真实核心副本 |
 | --- | --- | --- | --- |
 | 普通料 | 4 | 20 | 7 |
@@ -1115,7 +1116,7 @@
 制取：[配方](recipes.md#alchemy-recipe-life)
 配方去向：[万灵药](recipes.md#alchemy-recipe-elixir)
 未定：首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
 <a id="alchemy-skin"></a>
@@ -1143,10 +1144,9 @@
 | 历史初值边界 | 曾选作对照的初值，不是已采纳发行规格；未完整迁移到 R08。 |
 | 普通根料向量 | 黏土团×1、疗伤草×1、生铁块×1、清泉水×1；共4份 |
 | 批次数（P／E／终末） | 1／2／白化1 |
-| 合计D工时 | 10（全部配方D已采纳；非完成拍） |
+| 合计D工时 | 10（配方D递归求和；不含空间抬高，不是完工列） |
 | 终末分类 | 药水 |
 | 失败及终局（共同合同） | 无目标不支付该步未付费用；不足不部分支付、不重试。已成步骤不回滚，终局立即停余步骤。处理结束依本牌回收权限回手／移除；制造投入不退款。 |
-| 冷启动首份下界（条件推导） | t12；足量根料t0可用、每用途独立合法设备与核心、无争料／打断、几何不额外约束。不是整链部署或实测。 |
 | 效果（已采纳） | 自身获得12护甲。 |
 | 使用费用（已采纳） | 0 |
 | 回收权限（已采纳） | 一次性 |
@@ -1154,10 +1154,12 @@
 | 行动类别（已采纳） | 防御 |
 | 材料用途（已采纳） | 当前没有后续配方资格。 |
 | 首战限定 | 首战规格已冻结本项占形、投放及适用配置；其他遭遇／全局取得与携带不因此采纳。 |
+| 理想并行首份可用列下界（条件推导） | c8（c7列末入手）。根料c1足量可用，每个所需批次有独立合法器具／核心、并行无争料；忽略装载与圈下限抬高，按基础D取关键路径。是乐观下界，不是可部署见证、首战排程或实测。 |
+| 本体预算边界 | 下表只保留法器本体／核心数量的条件下界，未计炉心、携带料与辅助；不承诺能达到基础D或同时装入实际背包。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；占形＝Raw；战斗／回收／材料权限、效果与费用＝Accepted / CORE-072；首战占形／取得＝Accepted / CORE-073，仅本场规定实例及配置。
-占形（资格见分项）：二格长条；本体 [[0, 0], [0, 1]]；供料 []。
-保留同类药瓶形态，效果不同不必换面积。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：二格长条；实体格 [[0, 0], [0, 1]]。
+保留同类药瓶形态，效果不同不必换面积。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 | 持料起点（现行本体条件下界） | 台数 | 仅法器本体面积 | 真实核心副本 |
 | --- | --- | --- | --- |
 | 普通料 | 4 | 16 | 6 |
@@ -1166,7 +1168,7 @@
 
 制取：[配方](recipes.md#alchemy-recipe-skin)
 未定：首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
 <a id="alchemy-wake"></a>
@@ -1194,20 +1196,21 @@
 | 历史初值边界 | 曾选作对照的初值，不是已采纳发行规格；未完整迁移到 R08。 |
 | 普通根料向量 | 燃烧木炭×1、疗伤草×1、日光晶石×1、清泉水×2；共5份 |
 | 批次数（P／E／终末） | 1／3／白化1 |
-| 合计D工时 | 14（全部配方D已采纳；非完成拍） |
+| 合计D工时 | 14（配方D递归求和；不含空间抬高，不是完工列） |
 | 终末分类 | 药水 |
 | 失败及终局（共同合同） | 无目标不支付该步未付费用；不足不部分支付、不重试。已成步骤不回滚，终局立即停余步骤。处理结束依本牌回收权限回手／移除；制造投入不退款。 |
-| 冷启动首份下界（条件推导） | t18；足量根料t0可用、每用途独立合法设备与核心、无争料／打断、几何不额外约束。不是整链部署或实测。 |
 | 效果（已采纳） | 自身获得5咒。 |
 | 使用费用（已采纳） | 0 |
 | 回收权限（已采纳） | 一次性 |
 | 战斗权限（已采纳） | 可战斗；使用后移除 |
 | 行动类别（已采纳） | 其他 |
 | 材料用途（已采纳） | 当前没有后续配方资格。 |
+| 理想并行首份可用列下界（条件推导） | c12（c11列末入手）。根料c1足量可用，每个所需批次有独立合法器具／核心、并行无争料；忽略装载与圈下限抬高，按基础D取关键路径。是乐观下界，不是可部署见证、首战排程或实测。 |
+| 本体预算边界 | 下表只保留法器本体／核心数量的条件下界，未计炉心、携带料与辅助；不承诺能达到基础D或同时装入实际背包。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；占形＝Raw；战斗／回收／材料权限、效果与费用＝Accepted / CORE-072。
-占形（资格见分项）：二格长条；本体 [[0, 0], [0, 1]]；供料 []。
-保留同类药瓶形态。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：二格长条；实体格 [[0, 0], [0, 1]]。
+保留同类药瓶形态。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 | 持料起点（现行本体条件下界） | 台数 | 仅法器本体面积 | 真实核心副本 |
 | --- | --- | --- | --- |
 | 普通料 | 5 | 22 | 8 |
@@ -1217,7 +1220,7 @@
 关联：[咒](#alchemy-mark-curse)
 制取：[配方](recipes.md#alchemy-recipe-wake)
 未定：实际取得、投放、价格、具体供给、携带资格与完整部署未闭合；平衡及体验NotRun。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md)
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
 <a id="alchemy-missile"></a>
@@ -1245,20 +1248,21 @@
 | 历史初值边界 | 曾选作对照的初值，不是已采纳发行规格；未完整迁移到 R08。 |
 | 普通根料向量 | 风息羽毛×1、黏土团×2、清泉水×3；共6份 |
 | 批次数（P／E／终末） | 2／4／黑化1 |
-| 合计D工时 | 19（全部配方D已采纳；非完成拍） |
+| 合计D工时 | 19（配方D递归求和；不含空间抬高，不是完工列） |
 | 终末分类 | 器物 |
 | 失败及终局（共同合同） | 无目标不支付该步未付费用；不足不部分支付、不重试。已成步骤不回滚，终局立即停余步骤。处理结束依本牌回收权限回手／移除；制造投入不退款。 |
-| 冷启动首份下界（条件推导） | t18；足量根料t0可用、每用途独立合法设备与核心、无争料／打断、几何不额外约束。不是整链部署或实测。 |
 | 效果（已采纳） | 对唯一合法来源敌人造成18普通伤害。 |
 | 使用费用（已采纳） | 0 |
 | 回收权限（已采纳） | 一次性 |
 | 战斗权限（已采纳） | 可战斗；使用后移除 |
 | 行动类别（已采纳） | 攻击 |
 | 材料用途（已采纳） | 当前没有后续配方资格。 |
+| 理想并行首份可用列下界（条件推导） | c12（c11列末入手）。根料c1足量可用，每个所需批次有独立合法器具／核心、并行无争料；忽略装载与圈下限抬高，按基础D取关键路径。是乐观下界，不是可部署见证、首战排程或实测。 |
+| 本体预算边界 | 下表只保留法器本体／核心数量的条件下界，未计炉心、携带料与辅助；不承诺能达到基础D或同时装入实际背包。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；占形＝Raw；战斗／回收／材料权限、效果与费用＝Accepted / CORE-072。
-占形（资格见分项）：三格长条；本体 [[0, 0], [0, 1], [0, 2]]；供料 []。
-修长飞弹；不是三张卡或三次攻击。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：三格长条；实体格 [[0, 0], [0, 1], [0, 2]]。
+修长飞弹；不是三张卡或三次攻击。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 | 持料起点（现行本体条件下界） | 台数 | 仅法器本体面积 | 真实核心副本 |
 | --- | --- | --- | --- |
 | 普通料 | 7 | 35 | 12 |
@@ -1267,7 +1271,7 @@
 
 制取：[配方](recipes.md#alchemy-recipe-missile)
 未定：实际取得、投放、价格、具体供给、携带资格与完整部署未闭合；平衡及体验NotRun。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md)
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
 <a id="alchemy-bomb"></a>
@@ -1295,21 +1299,22 @@
 | 历史初值边界 | 曾选作对照的初值，不是已采纳发行规格；未完整迁移到 R08。 |
 | 普通根料向量 | 黏土团×2、燃烧木炭×3、清泉水×1；共6份 |
 | 批次数（P／E／终末） | 2／4／黑化1 |
-| 合计D工时 | 21（全部配方D已采纳；非完成拍） |
+| 合计D工时 | 21（配方D递归求和；不含空间抬高，不是完工列） |
 | 终末分类 | 器物 |
 | 失败及终局（共同合同） | 无目标不支付该步未付费用；不足不部分支付、不重试。已成步骤不回滚，终局立即停余步骤。处理结束依本牌回收权限回手／移除；制造投入不退款。 |
 | 设计修订理由 | 旧18伤改为24伤、终末D4；与D3／18伤的水银飞弹形成速度和单次兑现量差异，另保留根料需求差别。已采纳；玩法验证NotRun。 |
-| 冷启动首份下界（条件推导） | t20；足量根料t0可用、每用途独立合法设备与核心、无争料／打断、几何不额外约束。不是整链部署或实测。 |
 | 效果（已采纳） | 对唯一合法来源敌人造成24普通伤害。 |
 | 使用费用（已采纳） | 0 |
 | 回收权限（已采纳） | 一次性 |
 | 战斗权限（已采纳） | 可战斗；使用后移除 |
 | 行动类别（已采纳） | 攻击 |
 | 材料用途（已采纳） | 当前没有后续配方资格。 |
+| 理想并行首份可用列下界（条件推导） | c14（c13列末入手）。根料c1足量可用，每个所需批次有独立合法器具／核心、并行无争料；忽略装载与圈下限抬高，按基础D取关键路径。是乐观下界，不是可部署见证、首战排程或实测。 |
+| 本体预算边界 | 下表只保留法器本体／核心数量的条件下界，未计炉心、携带料与辅助；不承诺能达到基础D或同时装入实际背包。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；占形＝Raw；战斗／回收／材料权限、效果与费用＝Accepted / CORE-072。
-占形（资格见分项）：四格方形；本体 [[0, 0], [1, 0], [0, 1], [1, 1]]；供料 []。
-封装爆弹整体占四格。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：四格方形；实体格 [[0, 0], [1, 0], [0, 1], [1, 1]]。
+封装爆弹整体占四格。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 | 持料起点（现行本体条件下界） | 台数 | 仅法器本体面积 | 真实核心副本 |
 | --- | --- | --- | --- |
 | 普通料 | 7 | 35 | 12 |
@@ -1318,7 +1323,7 @@
 
 制取：[配方](recipes.md#alchemy-recipe-bomb)
 未定：实际取得、投放、价格、具体供给、携带资格与完整部署未闭合；平衡及体验NotRun。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md)
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
 <a id="alchemy-charm"></a>
@@ -1346,20 +1351,21 @@
 | 历史初值边界 | 曾选作对照的初值，不是已采纳发行规格；未完整迁移到 R08。 |
 | 普通根料向量 | 黏土团×5、生铁块×1；共6份 |
 | 批次数（P／E／终末） | 2／4／黑化1 |
-| 合计D工时 | 21（全部配方D已采纳；非完成拍） |
+| 合计D工时 | 21（配方D递归求和；不含空间抬高，不是完工列） |
 | 终末分类 | 器物 |
 | 失败及终局（共同合同） | 无目标不支付该步未付费用；不足不部分支付、不重试。已成步骤不回滚，终局立即停余步骤。处理结束依本牌回收权限回手／移除；制造投入不退款。 |
-| 冷启动首份下界（条件推导） | t20；足量根料t0可用、每用途独立合法设备与核心、无争料／打断、几何不额外约束。不是整链部署或实测。 |
 | 效果（已采纳） | 自身获得6护甲。 |
 | 使用费用（已采纳） | 每次1咒 |
 | 回收权限（已采纳） | 可回收 |
 | 战斗权限（已采纳） | 可战斗；使用后立即回手 |
 | 行动类别（已采纳） | 防御 |
 | 材料用途（已采纳） | 仅可作为万灵药的指定身份输入。 |
+| 理想并行首份可用列下界（条件推导） | c14（c13列末入手）。根料c1足量可用，每个所需批次有独立合法器具／核心、并行无争料；忽略装载与圈下限抬高，按基础D取关键路径。是乐观下界，不是可部署见证、首战排程或实测。 |
+| 本体预算边界 | 下表只保留法器本体／核心数量的条件下界，未计炉心、携带料与辅助；不承诺能达到基础D或同时装入实际背包。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；占形＝Raw；战斗／回收／材料权限、效果与费用＝Accepted / CORE-072。
-占形（资格见分项）：三格L形；本体 [[0, 0], [0, 1], [1, 1]]；供料 []。
-护符主体与挂耳形成L形。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：三格L形；实体格 [[0, 0], [0, 1], [1, 1]]。
+护符主体与挂耳形成L形。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 | 持料起点（现行本体条件下界） | 台数 | 仅法器本体面积 | 真实核心副本 |
 | --- | --- | --- | --- |
 | 普通料 | 5 | 17 | 7 |
@@ -1370,7 +1376,7 @@
 制取：[配方](recipes.md#alchemy-recipe-charm)
 配方去向：[万灵药](recipes.md#alchemy-recipe-elixir)
 未定：实际取得、投放、价格、具体供给、携带资格与完整部署未闭合；平衡及体验NotRun。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md)
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
 <a id="alchemy-ignite"></a>
@@ -1398,11 +1404,10 @@
 | 历史初值边界 | 曾选作对照的初值，不是已采纳发行规格；未完整迁移到 R08。 |
 | 普通根料向量 | 燃烧木炭×3；共3份 |
 | 批次数（P／E／终末） | 1／1／黄化1 |
-| 合计D工时 | 8（全部配方D已采纳；非完成拍） |
+| 合计D工时 | 8（配方D递归求和；不含空间抬高，不是完工列） |
 | 终末分类 | 法术 |
 | 失败及终局（共同合同） | 无目标不支付该步未付费用；不足不部分支付、不重试。已成步骤不回滚，终局立即停余步骤。处理结束依本牌回收权限回手／移除；制造投入不退款。 |
 | 设计修订理由 | 旧1伤改为3伤，获咒仍1；给基本战斗工具一定击杀贡献。重复施放可能挤掉一次性产线，须和真实敌血／供给共同核对。已采纳；玩法验证NotRun。 |
-| 冷启动首份下界（条件推导） | t13；足量根料t0可用、每用途独立合法设备与核心、无争料／打断、几何不额外约束。不是整链部署或实测。 |
 | 效果（已采纳） | 步骤1：对唯一合法来源敌人造成3普通伤害。步骤2：仅在步骤1实际削减生命或护甲且未终局时，自身获得1咒。 |
 | 使用费用（已采纳） | 0 |
 | 回收权限（已采纳） | 可回收 |
@@ -1410,10 +1415,12 @@
 | 行动类别（已采纳） | 攻击 |
 | 材料用途（已采纳） | 仅可作为万灵药的指定身份输入。 |
 | 首战限定 | 首战规格已冻结本项占形、投放及适用配置；其他遭遇／全局取得与携带不因此采纳。 |
+| 理想并行首份可用列下界（条件推导） | c9（c8列末入手）。根料c1足量可用，每个所需批次有独立合法器具／核心、并行无争料；忽略装载与圈下限抬高，按基础D取关键路径。是乐观下界，不是可部署见证、首战排程或实测。 |
+| 本体预算边界 | 下表只保留法器本体／核心数量的条件下界，未计炉心、携带料与辅助；不承诺能达到基础D或同时装入实际背包。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；占形＝Raw；战斗／回收／材料权限、效果与费用＝Accepted / CORE-072；首战占形／取得＝Accepted / CORE-073，仅本场规定实例及配置。
-占形（资格见分项）：二格长条；本体 [[0, 0], [0, 1]]；供料 []。
-术式记载片的细长轮廓；不新增卷轴原料。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：二格长条；实体格 [[0, 0], [0, 1]]。
+术式记载片的细长轮廓；不新增卷轴原料。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 | 持料起点（现行本体条件下界） | 台数 | 仅法器本体面积 | 真实核心副本 |
 | --- | --- | --- | --- |
 | 普通料 | 3 | 13 | 5 |
@@ -1424,7 +1431,7 @@
 制取：[配方](recipes.md#alchemy-recipe-ignite)
 配方去向：[万灵药](recipes.md#alchemy-recipe-elixir)
 未定：首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
 <a id="alchemy-sun"></a>
@@ -1452,20 +1459,21 @@
 | 历史初值边界 | 曾选作对照的初值，不是已采纳发行规格；未完整迁移到 R08。 |
 | 普通根料向量 | 燃烧木炭×2、日光晶石×2、清泉水×2；共6份 |
 | 批次数（P／E／终末） | 2／4／黄化1 |
-| 合计D工时 | 22（全部配方D已采纳；非完成拍） |
+| 合计D工时 | 22（配方D递归求和；不含空间抬高，不是完工列） |
 | 终末分类 | 法术 |
 | 失败及终局（共同合同） | 无目标不支付该步未付费用；不足不部分支付、不重试。已成步骤不回滚，终局立即停余步骤。处理结束依本牌回收权限回手／移除；制造投入不退款。 |
-| 冷启动首份下界（条件推导） | t21；足量根料t0可用、每用途独立合法设备与核心、无争料／打断、几何不额外约束。不是整链部署或实测。 |
 | 效果（已采纳） | 对唯一合法来源敌人造成12普通伤害。 |
 | 使用费用（已采纳） | 每次2咒 |
 | 回收权限（已采纳） | 可回收 |
 | 战斗权限（已采纳） | 可战斗；使用后立即回手 |
 | 行动类别（已采纳） | 攻击 |
 | 材料用途（已采纳） | 当前没有后续配方资格。 |
+| 理想并行首份可用列下界（条件推导） | c15（c14列末入手）。根料c1足量可用，每个所需批次有独立合法器具／核心、并行无争料；忽略装载与圈下限抬高，按基础D取关键路径。是乐观下界，不是可部署见证、首战排程或实测。 |
+| 本体预算边界 | 下表只保留法器本体／核心数量的条件下界，未计炉心、携带料与辅助；不承诺能达到基础D或同时装入实际背包。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；占形＝Raw；战斗／回收／材料权限、效果与费用＝Accepted / CORE-072。
-占形（资格见分项）：四格方形；本体 [[0, 0], [1, 0], [0, 1], [1, 1]]；供料 []。
-完整日轮术式记载片；不新增持续场地。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：四格方形；实体格 [[0, 0], [1, 0], [0, 1], [1, 1]]。
+完整日轮术式记载片；不新增持续场地。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 | 持料起点（现行本体条件下界） | 台数 | 仅法器本体面积 | 真实核心副本 |
 | --- | --- | --- | --- |
 | 普通料 | 7 | 31 | 11 |
@@ -1475,7 +1483,7 @@
 关联：[咒](#alchemy-mark-curse)
 制取：[配方](recipes.md#alchemy-recipe-sun)
 未定：实际取得、投放、价格、具体供给、携带资格与完整部署未闭合；平衡及体验NotRun。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md)
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
 <a id="alchemy-dissolve"></a>
@@ -1503,20 +1511,21 @@
 | 历史初值边界 | 曾选作对照的初值，不是已采纳发行规格；未完整迁移到 R08。 |
 | 普通根料向量 | 黏土团×2、燃烧木炭×2、夜影蘑菇×2、清泉水×2；共8份 |
 | 批次数（P／E／终末） | 2／6／黄化1 |
-| 合计D工时 | 24（全部配方D已采纳；非完成拍） |
+| 合计D工时 | 24（配方D递归求和；不含空间抬高，不是完工列） |
 | 终末分类 | 法术 |
 | 失败及终局（共同合同） | 无目标不支付该步未付费用；不足不部分支付、不重试。已成步骤不回滚，终局立即停余步骤。处理结束依本牌回收权限回手／移除；制造投入不退款。 |
-| 冷启动首份下界（条件推导） | t19；足量根料t0可用、每用途独立合法设备与核心、无争料／打断、几何不额外约束。不是整链部署或实测。 |
 | 效果（已采纳） | 取消1张最左合法、更右、已公开、已铺桌且尚未开始的敌后续牌。 |
 | 使用费用（已采纳） | 每次2咒 |
 | 回收权限（已采纳） | 可回收 |
 | 战斗权限（已采纳） | 可战斗；使用后立即回手 |
 | 行动类别（已采纳） | 其他 |
 | 材料用途（已采纳） | 当前没有后续配方资格。 |
+| 理想并行首份可用列下界（条件推导） | c13（c12列末入手）。根料c1足量可用，每个所需批次有独立合法器具／核心、并行无争料；忽略装载与圈下限抬高，按基础D取关键路径。是乐观下界，不是可部署见证、首战排程或实测。 |
+| 本体预算边界 | 下表只保留法器本体／核心数量的条件下界，未计炉心、携带料与辅助；不承诺能达到基础D或同时装入实际背包。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；占形＝Raw；战斗／回收／材料权限、效果与费用＝Accepted / CORE-072。
-占形（资格见分项）：三格长条；本体 [[0, 0], [0, 1], [0, 2]]；供料 []。
-修长的术式记载片；不增加作用次数。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：三格长条；实体格 [[0, 0], [0, 1], [0, 2]]。
+修长的术式记载片；不增加作用次数。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 | 持料起点（现行本体条件下界） | 台数 | 仅法器本体面积 | 真实核心副本 |
 | --- | --- | --- | --- |
 | 普通料 | 8 | 37 | 13 |
@@ -1526,7 +1535,7 @@
 关联：[咒](#alchemy-mark-curse)
 制取：[配方](recipes.md#alchemy-recipe-dissolve)
 未定：实际取得、投放、价格、具体供给、携带资格与完整部署未闭合；平衡及体验NotRun。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md)
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
 <a id="alchemy-stone"></a>
@@ -1554,21 +1563,22 @@
 | 历史初值边界 | 曾选作对照的初值，不是已采纳发行规格；未完整迁移到 R08。 |
 | 普通根料向量 | 黏土团×1、燃烧木炭×3、疗伤草×2、日光晶石×4、夜影蘑菇×1、清泉水×1；共12份 |
 | 批次数（P／E／终末） | 3／8／红化1 |
-| 合计D工时 | 42（全部配方D已采纳；非完成拍） |
+| 合计D工时 | 42（配方D递归求和；不含空间抬高，不是完工列） |
 | 终末分类 | 传奇 |
 | 失败及终局（共同合同） | 无目标不支付该步未付费用；不足不部分支付、不重试。已成步骤不回滚，终局立即停余步骤。处理结束依本牌回收权限回手／移除；制造投入不退款。 |
 | 设计修订理由 | 原2咒仅产液的慢出口改为3咒、当场恢复18并产1液；给予高投入后的即时生存收益，仍需支付来源及后续接收器具。已采纳；玩法验证NotRun。 |
-| 冷启动首份下界（条件推导） | t23；足量根料t0可用、每用途独立合法设备与核心、无争料／打断、几何不额外约束。不是整链部署或实测。 |
 | 效果（已采纳） | 步骤1：支付3咒，自身恢复18生命。步骤2：在步骤1已足额支付且未终局时，生成1张草本灵液进入不可战斗手牌组。 |
 | 使用费用（已采纳） | 每次共3咒，步骤1支付；步骤2不再收费 |
 | 回收权限（已采纳） | 可回收 |
 | 战斗权限（已采纳） | 可战斗；使用后立即回手 |
 | 行动类别（已采纳） | 其他 |
 | 材料用途（已采纳） | 当前没有后续配方资格。 |
+| 理想并行首份可用列下界（条件推导） | c17（c16列末入手）。根料c1足量可用，每个所需批次有独立合法器具／核心、并行无争料；忽略装载与圈下限抬高，按基础D取关键路径。是乐观下界，不是可部署见证、首战排程或实测。 |
+| 本体预算边界 | 下表只保留法器本体／核心数量的条件下界，未计炉心、携带料与辅助；不承诺能达到基础D或同时装入实际背包。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；占形＝Raw；战斗／回收／材料权限、效果与费用＝Accepted / CORE-072。
-占形（资格见分项）：四格方形；本体 [[0, 0], [1, 0], [0, 1], [1, 1]]；供料 []。
-完整贤者之石结晶。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：四格方形；实体格 [[0, 0], [1, 0], [0, 1], [1, 1]]。
+完整贤者之石结晶。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 | 持料起点（现行本体条件下界） | 台数 | 仅法器本体面积 | 真实核心副本 |
 | --- | --- | --- | --- |
 | 普通料 | 11 | 59 | 18 |
@@ -1578,7 +1588,7 @@
 关联：[草本灵液](#alchemy-spirit-fluid) · [咒](#alchemy-mark-curse)
 制取：[配方](recipes.md#alchemy-recipe-stone)
 未定：实际取得、投放、价格、具体供给、携带资格与完整部署未闭合；平衡及体验NotRun。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md)
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
 <a id="alchemy-elixir"></a>
@@ -1606,20 +1616,21 @@
 | 历史初值边界 | 曾选作对照的初值，不是已采纳发行规格；未完整迁移到 R08。 |
 | 普通根料向量 | 黏土团×5、燃烧木炭×3、疗伤草×4、生铁块×1、清泉水×3；共16份 |
 | 批次数（P／E／终末） | 5／9／红化1、白化1、黑化1、黄化1 |
-| 合计D工时 | 54（全部配方D已采纳；非完成拍） |
+| 合计D工时 | 54（配方D递归求和；不含空间抬高，不是完工列） |
 | 终末分类 | 传奇 |
 | 失败及终局（共同合同） | 无目标不支付该步未付费用；不足不部分支付、不重试。已成步骤不回滚，终局立即停余步骤。处理结束依本牌回收权限回手／移除；制造投入不退款。 |
-| 冷启动首份下界（条件推导） | t27；足量根料t0可用、每用途独立合法设备与核心、无争料／打断、几何不额外约束。不是整链部署或实测。 |
 | 效果（已采纳） | 步骤1：自身恢复30生命。步骤2：自身获得8咒。两步独立，每步后检查终局。 |
 | 使用费用（已采纳） | 0 |
 | 回收权限（已采纳） | 一次性 |
 | 战斗权限（已采纳） | 可战斗；使用后移除 |
 | 行动类别（已采纳） | 其他 |
 | 材料用途（已采纳） | 当前没有后续配方资格。 |
+| 理想并行首份可用列下界（条件推导） | c19（c18列末入手）。根料c1足量可用，每个所需批次有独立合法器具／核心、并行无争料；忽略装载与圈下限抬高，按基础D取关键路径。是乐观下界，不是可部署见证、首战排程或实测。 |
+| 本体预算边界 | 下表只保留法器本体／核心数量的条件下界，未计炉心、携带料与辅助；不承诺能达到基础D或同时装入实际背包。 |
 
 分项资格：身份／连接＝Qualified；命名／文案＝Raw；占形＝Raw；战斗／回收／材料权限、效果与费用＝Accepted / CORE-072。
-占形（资格见分项）：四格方形；本体 [[0, 0], [1, 0], [0, 1], [1, 1]]；供料 []。
-宽体万灵药容器轮廓，不另增加包装成本。 进入供料区时占格；手牌／战斗行不按此面积占生产格
+占形（资格见分项）：四格方形；实体格 [[0, 0], [1, 0], [0, 1], [1, 1]]。
+宽体万灵药容器轮廓，不另增加包装成本。 仅用于实体背包装载；战中材料离包进入手牌／工序行，不按材料格形检查排料。
 | 持料起点（现行本体条件下界） | 台数 | 仅法器本体面积 | 真实核心副本 |
 | --- | --- | --- | --- |
 | 普通料 | 14 | 65 | 23 |
@@ -1629,7 +1640,7 @@
 关联：[咒](#alchemy-mark-curse)
 制取：[配方](recipes.md#alchemy-recipe-elixir)
 未定：实际取得、投放、价格、具体供给、携带资格与完整部署未闭合；平衡及体验NotRun。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md)
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
 <a id="alchemy-artifact-crucible"></a>
@@ -1642,23 +1653,23 @@
 
 黑陶矮坩埚，三道刻线对应三原质，侧面留单件投料口。
 
-适用范围：CORE-072已采纳本器所承载的具体用途及逐配方D；核心组合、几何、取得与完整发行仍为候选。 CORE-074替换全部旧本体＋专属供料几何，当前占形与范围已采纳；其他未确认字段不随之晋级。
+适用范围：本体占形沿CORE-074；固定用途、逐器P及炉心圈下限沿CORE-075／076。全库核心兼容与取得保持原资格，首战限定另见遭遇规格。
 
 | 信息 | 内容 |
 | --- | --- |
 | 核心组合 | 转化 |
 | 预设句 | 此器以〔转化〕重塑所投之物。 |
-| 占用与副本 | 本体4格；范围不占容量，真实待料按完整占形占格。本战固定一种用途，并行需真实法器与核心副本。 |
+| 占用与副本 | 本体4格；本战固定一种用途，并行需真实法器与核心副本；实际D取配方公式与所在圈下限的较大值。 |
 | 取得 | 候选：早期工具奖励或商店；数量、价格与初始持有待平衡。 |
-| 辅助接口 | 只接收明确兼容当前用途的D静态修饰；本批不新增量值修饰、契合奖励或运行费。 |
-| 已确认配方D | 按具体配方：D2；不再统一D1。 |
-| 供料范围（已采纳） | 本体周围3格（包含斜向），不含本体；与其他范围可重叠。选中法器显示，指定目标后合法落下才形成唯一待料链接。 |
+| 已确认配方D | 配方基础D：D2；实际D还受圈下限约束。 |
+| 入料口P（已采纳） | 1张／批；按本器所承配方最大材料数设定，与本体面积无关。 |
+| 辅助覆盖 | 覆盖圈命中的每台法器按兼容用途接受完整静态修饰；同效叠加沿现行规则，实际D不低于圈下限。首战没有辅助。 |
 
-分项资格：本体／供料范围＝Accepted / CORE-074，八法器几何；非全局取得或兼容采纳。
-占形（资格见分项）：2×2坩埚，4格；本体 [[0, 0], [1, 0], [0, 1], [1, 1]]；接收范围：本体周围3格，不占容量。
+分项资格：入料口P＝Accepted / CORE-075。
+占形（资格见分项）：2×2坩埚，4格；实体格 [[0, 0], [1, 0], [0, 1], [1, 1]]。
 关联：[硫](#alchemy-sulfur) · [汞](#alchemy-mercury) · [盐](#alchemy-salt)
-未定：本体与接收范围已定；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-074 供料范围、资源卡组与八法器格子](../sources/draft-changes/D-2026-11-02-feeding-ranges.md)
+未定：本体与P已定，实际D须按炉心布局计算；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-074 供料范围、资源卡组与八法器格子](../sources/draft-changes/D-2026-11-02-feeding-ranges.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
 <a id="alchemy-artifact-mortar"></a>
@@ -1671,23 +1682,23 @@
 
 横置石研钵，杵柄贴近槽口；刻纹提示混合与细分。
 
-适用范围：CORE-072已采纳本器所承载的具体用途及逐配方D；核心组合、几何、取得与完整发行仍为候选。 CORE-074替换全部旧本体＋专属供料几何，当前占形与范围已采纳；其他未确认字段不随之晋级。
+适用范围：本体占形沿CORE-074；固定用途、逐器P及炉心圈下限沿CORE-075／076。全库核心兼容与取得保持原资格，首战限定另见遭遇规格。
 
 | 信息 | 内容 |
 | --- | --- |
 | 核心组合 | 精炼 |
 | 预设句 | 于此〔精炼〕既有之质。 |
-| 占用与副本 | 本体2格；范围不占容量，真实待料按完整占形占格。本战固定一种用途，并行需真实法器与核心副本。 |
+| 占用与副本 | 本体2格；本战固定一种用途，并行需真实法器与核心副本；实际D取配方公式与所在圈下限的较大值。 |
 | 取得 | 候选：早期重复获得的加工工具；价格、稀有度及投放待定。 |
-| 辅助接口 | 只接收明确兼容当前用途的D静态修饰；本批不新增量值修饰、契合奖励或运行费。 |
-| 已确认配方D | 按具体配方：D2／D3／D4；不再统一D1。 |
-| 供料范围（已采纳） | 本体周围3格（包含斜向），不含本体；与其他范围可重叠。选中法器显示，指定目标后合法落下才形成唯一待料链接。 |
+| 已确认配方D | 配方基础D：D2／D3／D4；实际D还受圈下限约束。 |
+| 入料口P（已采纳） | 2张／批；按本器所承配方最大材料数设定，与本体面积无关。 |
+| 辅助覆盖 | 覆盖圈命中的每台法器按兼容用途接受完整静态修饰；同效叠加沿现行规则，实际D不低于圈下限。首战没有辅助。 |
 
-分项资格：本体／供料范围＝Accepted / CORE-074，八法器几何；非全局取得或兼容采纳。
-占形（资格见分项）：2×1研钵，2格；本体 [[0, 0], [1, 0]]；接收范围：本体周围3格，不占容量。
+分项资格：入料口P＝Accepted / CORE-075。
+占形（资格见分项）：2×1研钵，2格；实体格 [[0, 0], [1, 0]]。
 关联：[精铁砂砾](#alchemy-iron-sand) · [日辉晶粉](#alchemy-radiance) · [夜影尘粉](#alchemy-shadow-dust) · [金刚晶砂](#alchemy-diamond-sand)
-未定：本体与接收范围已定；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-074 供料范围、资源卡组与八法器格子](../sources/draft-changes/D-2026-11-02-feeding-ranges.md)
+未定：本体与P已定，实际D须按炉心布局计算；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-074 供料范围、资源卡组与八法器格子](../sources/draft-changes/D-2026-11-02-feeding-ranges.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
 <a id="alchemy-artifact-extractor"></a>
@@ -1700,24 +1711,24 @@
 
 细长玻璃塔与回流盘管，低处接液；以液体、蒸汽和轻散形态为可读线索。
 
-适用范围：CORE-072已采纳本器所承载的具体用途及逐配方D；核心组合、几何、取得与完整发行仍为候选。 CORE-073另限定采纳首战所用占形与配置，详见首战规格；不整体晋级其他字段。 CORE-074替换全部旧本体＋专属供料几何，当前占形与范围已采纳；其他未确认字段不随之晋级。
+适用范围：本体占形沿CORE-074；固定用途、逐器P及炉心圈下限沿CORE-075／076。全库核心兼容与取得保持原资格，首战限定另见遭遇规格。
 
 | 信息 | 内容 |
 | --- | --- |
 | 核心组合 | 流转＋精炼 |
 | 预设句 | 〔流转〕之性，于此〔精炼〕。 |
-| 占用与副本 | 本体6格；范围不占容量，真实待料按完整占形占格。本战固定一种用途，并行需真实法器与核心副本。 |
+| 占用与副本 | 本体6格；本战固定一种用途，并行需真实法器与核心副本；实际D取配方公式与所在圈下限的较大值。 |
 | 取得 | 新器具候选；取得、价格、稀有度与初始持有另行设计，不自动发放。 |
-| 辅助接口 | 只接收明确兼容本用途的D静态修饰；沿现有叠加和最低1拍，不新增产率、效果或运行费用。 |
-| 已确认配方D | 按具体配方：D2／D3／D4／D5；不再统一D1。 |
+| 已确认配方D | 配方基础D：D3／D4／D5；实际D还受圈下限约束。 |
 | 首战限定 | 首战规格已冻结本项占形、投放及适用配置；其他遭遇／全局取得与携带不因此采纳。 |
-| 供料范围（已采纳） | 本体周围3格（包含斜向），不含本体；与其他范围可重叠。选中法器显示，指定目标后合法落下才形成唯一待料链接。 |
+| 入料口P（已采纳） | 2张／批；按本器所承配方最大材料数设定，与本体面积无关。 |
+| 辅助覆盖 | 覆盖圈命中的每台法器按兼容用途接受完整静态修饰；同效叠加沿现行规则，实际D不低于圈下限。首战没有辅助。 |
 
-分项资格：首战占形／取得＝Accepted / CORE-073，仅本场规定实例及配置；本体／供料范围＝Accepted / CORE-074，八法器几何；非全局取得或兼容采纳。
-占形（资格见分项）：2×3盘管架，6格；本体 [[0, 0], [1, 0], [0, 1], [1, 1], [0, 2], [1, 2]]；接收范围：本体周围3格，不占容量。
+分项资格：首战占形／取得＝Accepted / CORE-073，仅本场规定实例及配置；入料口P＝Accepted / CORE-075。
+占形（资格见分项）：2×3盘管架，6格；实体格 [[0, 0], [1, 0], [0, 1], [1, 1], [0, 2], [1, 2]]。
 关联：[滚烫蒸汽](#alchemy-steam) · [轻盈雾团](#alchemy-mist) · [草药汁液](#alchemy-herb-juice) · [水银溶剂](#alchemy-solvent) · [草本灵液](#alchemy-spirit-fluid) · [再生精华液](#alchemy-regen-fluid) · [清醒凝露](#alchemy-mind-dew) · [蚀解溶液](#alchemy-erosive-fluid)
-未定：本体与接收范围已定；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md) · [CORE-074 供料范围、资源卡组与八法器格子](../sources/draft-changes/D-2026-11-02-feeding-ranges.md)
+未定：本体与P已定，实际D须按炉心布局计算；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md) · [CORE-074 供料范围、资源卡组与八法器格子](../sources/draft-changes/D-2026-11-02-feeding-ranges.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
 <a id="alchemy-artifact-phase-furnace"></a>
@@ -1730,23 +1741,23 @@
 
 封闭的矮炉体与观察窗，将火种、晶核和结晶的稳定形态显出。
 
-适用范围：CORE-072已采纳本器所承载的具体用途及逐配方D；核心组合、几何、取得与完整发行仍为候选。 CORE-074替换全部旧本体＋专属供料几何，当前占形与范围已采纳；其他未确认字段不随之晋级。
+适用范围：本体占形沿CORE-074；固定用途、逐器P及炉心圈下限沿CORE-075／076。全库核心兼容与取得保持原资格，首战限定另见遭遇规格。
 
 | 信息 | 内容 |
 | --- | --- |
 | 核心组合 | 固持＋精炼 |
 | 预设句 | 〔固持〕之形，于此〔精炼〕。 |
-| 占用与副本 | 本体6格；范围不占容量，真实待料按完整占形占格。本战固定一种用途，并行需真实法器与核心副本。 |
+| 占用与副本 | 本体6格；本战固定一种用途，并行需真实法器与核心副本；实际D取配方公式与所在圈下限的较大值。 |
 | 取得 | 新器具候选；取得、价格、稀有度与初始持有另行设计，不自动发放。 |
-| 辅助接口 | 只接收明确兼容本用途的D静态修饰；沿现有叠加和最低1拍，不新增产率、效果或运行费用。 |
-| 已确认配方D | 按具体配方：D3／D4／D5；不再统一D1。 |
-| 供料范围（已采纳） | 本体周围3格（包含斜向），不含本体；与其他范围可重叠。选中法器显示，指定目标后合法落下才形成唯一待料链接。 |
+| 已确认配方D | 配方基础D：D3／D4／D5；实际D还受圈下限约束。 |
+| 入料口P（已采纳） | 2张／批；按本器所承配方最大材料数设定，与本体面积无关。 |
+| 辅助覆盖 | 覆盖圈命中的每台法器按兼容用途接受完整静态修饰；同效叠加沿现行规则，实际D不低于圈下限。首战没有辅助。 |
 
-分项资格：本体／供料范围＝Accepted / CORE-074，八法器几何；非全局取得或兼容采纳。
-占形（资格见分项）：3×2炉体，6格；本体 [[0, 0], [1, 0], [2, 0], [0, 1], [1, 1], [2, 1]]；接收范围：本体周围3格，不占容量。
+分项资格：入料口P＝Accepted / CORE-075。
+占形（资格见分项）：3×2炉体，6格；实体格 [[0, 0], [1, 0], [2, 0], [0, 1], [1, 1], [2, 1]]。
 关联：[硫磺火种](#alchemy-fire-seed) · [辉光灵火](#alchemy-spirit-fire) · [盐晶核](#alchemy-crystal-core) · [幽影封盐](#alchemy-sealing-salt) · [浮空晶石](#alchemy-floating-stone) · [封魔结晶](#alchemy-sealing-crystal) · [日冕之火](#alchemy-solar-fire) · [爆鸣火核](#alchemy-thunder-core) · [幽冥磷火](#alchemy-nether-fire)
-未定：本体与接收范围已定；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-074 供料范围、资源卡组与八法器格子](../sources/draft-changes/D-2026-11-02-feeding-ranges.md)
+未定：本体与P已定，实际D须按炉心布局计算；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-074 供料范围、资源卡组与八法器格子](../sources/draft-changes/D-2026-11-02-feeding-ranges.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
 <a id="alchemy-artifact-retort"></a>
@@ -1759,24 +1770,24 @@
 
 乳白瓷腹与弯曲瓶颈形成L形；冷凝出的药液从侧口入手牌。
 
-适用范围：CORE-072已采纳本器所承载的具体用途及逐配方D；核心组合、几何、取得与完整发行仍为候选。 CORE-073另限定采纳首战所用占形与配置，详见首战规格；不整体晋级其他字段。 CORE-074替换全部旧本体＋专属供料几何，当前占形与范围已采纳；其他未确认字段不随之晋级。
+适用范围：本体占形沿CORE-074；固定用途、逐器P及炉心圈下限沿CORE-075／076。全库核心兼容与取得保持原资格，首战限定另见遭遇规格。
 
 | 信息 | 内容 |
 | --- | --- |
 | 核心组合 | 流转＋白化 |
 | 预设句 | 〔流转〕之性，于此〔白化〕。 |
-| 占用与副本 | 本体4格；范围不占容量，真实待料按完整占形占格。本战固定一种用途，并行需真实法器与核心副本。 |
+| 占用与副本 | 本体4格；本战固定一种用途，并行需真实法器与核心副本；实际D取配方公式与所在圈下限的较大值。 |
 | 取得 | 候选：药水路线专用工具；可作为选择奖励或商店内容，未指定保底。 |
-| 辅助接口 | 只接收明确兼容当前用途的D静态修饰；本批不新增量值修饰、契合奖励或运行费。 |
-| 所承载配方D（已采纳） | 按终末配方分别为D2／D3；CORE-072已采纳。 |
+| 所承载配方D（已采纳） | 配方基础D：D2／D3；实际D还受圈下限约束。 |
 | 首战限定 | 首战规格已冻结本项占形、投放及适用配置；其他遭遇／全局取得与携带不因此采纳。 |
-| 供料范围（已采纳） | 本体周围3格（包含斜向），不含本体；与其他范围可重叠。选中法器显示，指定目标后合法落下才形成唯一待料链接。 |
+| 入料口P（已采纳） | 2张／批；按本器所承配方最大材料数设定，与本体面积无关。 |
+| 辅助覆盖 | 覆盖圈命中的每台法器按兼容用途接受完整静态修饰；同效叠加沿现行规则，实际D不低于圈下限。首战没有辅助。 |
 
-分项资格：首战占形／取得＝Accepted / CORE-073，仅本场规定实例及配置；本体／供料范围＝Accepted / CORE-074，八法器几何；非全局取得或兼容采纳。
-占形（资格见分项）：2×3内L形曲颈瓶，4格；本体 [[0, 0], [0, 1], [0, 2], [1, 2]]；接收范围：本体周围3格，不占容量。
+分项资格：首战占形／取得＝Accepted / CORE-073，仅本场规定实例及配置；入料口P＝Accepted / CORE-075。
+占形（资格见分项）：2×3内L形曲颈瓶，4格；实体格 [[0, 0], [0, 1], [0, 2], [1, 2]]。
 关联：[生命灵药](#alchemy-life) · [铁肤药水](#alchemy-skin) · [醒神药水](#alchemy-wake)
-未定：本体与接收范围已定；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md) · [CORE-074 供料范围、资源卡组与八法器格子](../sources/draft-changes/D-2026-11-02-feeding-ranges.md)
+未定：本体与P已定，实际D须按炉心布局计算；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md) · [CORE-074 供料范围、资源卡组与八法器格子](../sources/draft-changes/D-2026-11-02-feeding-ranges.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
 <a id="alchemy-artifact-mold"></a>
@@ -1789,23 +1800,23 @@
 
 横向三格的双片铸模，表面炭黑；合模动作表示盐系成器。
 
-适用范围：CORE-072已采纳本器所承载的具体用途及逐配方D；核心组合、几何、取得与完整发行仍为候选。 CORE-074替换全部旧本体＋专属供料几何，当前占形与范围已采纳；其他未确认字段不随之晋级。
+适用范围：本体占形沿CORE-074；固定用途、逐器P及炉心圈下限沿CORE-075／076。全库核心兼容与取得保持原资格，首战限定另见遭遇规格。
 
 | 信息 | 内容 |
 | --- | --- |
 | 核心组合 | 固持＋黑化 |
 | 预设句 | 〔固持〕之形，于此〔黑化〕。 |
-| 占用与副本 | 本体3格；范围不占容量，真实待料按完整占形占格。本战固定一种用途，并行需真实法器与核心副本。 |
+| 占用与副本 | 本体3格；本战固定一种用途，并行需真实法器与核心副本；实际D取配方公式与所在圈下限的较大值。 |
 | 取得 | 候选：器物路线专用工具；投放、价格与稀有度待定。 |
-| 辅助接口 | 只接收明确兼容当前用途的D静态修饰；本批不新增量值修饰、契合奖励或运行费。 |
-| 所承载配方D（已采纳） | 按终末配方分别为D3／D4；CORE-072已采纳。 |
-| 供料范围（已采纳） | 本体周围3格（包含斜向），不含本体；与其他范围可重叠。选中法器显示，指定目标后合法落下才形成唯一待料链接。 |
+| 所承载配方D（已采纳） | 配方基础D：D3／D4；实际D还受圈下限约束。 |
+| 入料口P（已采纳） | 2张／批；按本器所承配方最大材料数设定，与本体面积无关。 |
+| 辅助覆盖 | 覆盖圈命中的每台法器按兼容用途接受完整静态修饰；同效叠加沿现行规则，实际D不低于圈下限。首战没有辅助。 |
 
-分项资格：本体／供料范围＝Accepted / CORE-074，八法器几何；非全局取得或兼容采纳。
-占形（资格见分项）：3×1铸模，3格；本体 [[0, 0], [1, 0], [2, 0]]；接收范围：本体周围3格，不占容量。
+分项资格：入料口P＝Accepted / CORE-075。
+占形（资格见分项）：3×1铸模，3格；实体格 [[0, 0], [1, 0], [2, 0]]。
 关联：[水银飞弹](#alchemy-missile) · [炼金爆弹](#alchemy-bomb) · [结晶护符](#alchemy-charm)
-未定：本体与接收范围已定；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-074 供料范围、资源卡组与八法器格子](../sources/draft-changes/D-2026-11-02-feeding-ranges.md)
+未定：本体与P已定，实际D须按炉心布局计算；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-074 供料范围、资源卡组与八法器格子](../sources/draft-changes/D-2026-11-02-feeding-ranges.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
 <a id="alchemy-artifact-lamp"></a>
@@ -1818,24 +1829,24 @@
 
 竖直黄铜灯架与透光灯罩；灯光显出术式，产物仍是一张牌。
 
-适用范围：CORE-072已采纳本器所承载的具体用途及逐配方D；核心组合、几何、取得与完整发行仍为候选。 CORE-073另限定采纳首战所用占形与配置，详见首战规格；不整体晋级其他字段。 CORE-074替换全部旧本体＋专属供料几何，当前占形与范围已采纳；其他未确认字段不随之晋级。
+适用范围：本体占形沿CORE-074；固定用途、逐器P及炉心圈下限沿CORE-075／076。全库核心兼容与取得保持原资格，首战限定另见遭遇规格。
 
 | 信息 | 内容 |
 | --- | --- |
 | 核心组合 | 激发＋黄化 |
 | 预设句 | 〔激发〕之光，于此〔黄化〕。 |
-| 占用与副本 | 本体3格；范围不占容量，真实待料按完整占形占格。本战固定一种用途，并行需真实法器与核心副本。 |
+| 占用与副本 | 本体3格；本战固定一种用途，并行需真实法器与核心副本；实际D取配方公式与所在圈下限的较大值。 |
 | 取得 | 候选：法术路线专用工具；初始是否可选与价格待平衡。 |
-| 辅助接口 | 只接收明确兼容当前用途的D静态修饰；本批不新增量值修饰、契合奖励或运行费。 |
-| 所承载配方D（已采纳） | 按终末配方分别为D3／D4；CORE-072已采纳。 |
+| 所承载配方D（已采纳） | 配方基础D：D3／D4；实际D还受圈下限约束。 |
 | 首战限定 | 首战规格已冻结本项占形、投放及适用配置；其他遭遇／全局取得与携带不因此采纳。 |
-| 供料范围（已采纳） | 本体周围3格（包含斜向），不含本体；与其他范围可重叠。选中法器显示，指定目标后合法落下才形成唯一待料链接。 |
+| 入料口P（已采纳） | 2张／批；按本器所承配方最大材料数设定，与本体面积无关。 |
+| 辅助覆盖 | 覆盖圈命中的每台法器按兼容用途接受完整静态修饰；同效叠加沿现行规则，实际D不低于圈下限。首战没有辅助。 |
 
-分项资格：首战占形／取得＝Accepted / CORE-073，仅本场规定实例及配置；本体／供料范围＝Accepted / CORE-074，八法器几何；非全局取得或兼容采纳。
-占形（资格见分项）：1×3立灯，3格；本体 [[0, 0], [0, 1], [0, 2]]；接收范围：本体周围3格，不占容量。
+分项资格：首战占形／取得＝Accepted / CORE-073，仅本场规定实例及配置；入料口P＝Accepted / CORE-075。
+占形（资格见分项）：1×3立灯，3格；实体格 [[0, 0], [0, 1], [0, 2]]。
 关联：[引燃术](#alchemy-ignite) · [日轮术](#alchemy-sun) · [离解术](#alchemy-dissolve)
-未定：本体与接收范围已定；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md) · [CORE-074 供料范围、资源卡组与八法器格子](../sources/draft-changes/D-2026-11-02-feeding-ranges.md)
+未定：本体与P已定，实际D须按炉心布局计算；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md) · [CORE-074 供料范围、资源卡组与八法器格子](../sources/draft-changes/D-2026-11-02-feeding-ranges.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
 <a id="alchemy-artifact-athanor"></a>
@@ -1846,25 +1857,25 @@
 
 承载原贤者之石与万灵药两条红化路线，汇合已有投入。
 
-红玻璃封闭炉腹，三圈细纹在炉心汇合；右侧四格供料区完整显示投入。
+红玻璃封闭炉腹，三圈细纹在炉心汇合。
 
-适用范围：CORE-072已采纳本器所承载的具体用途及逐配方D；核心组合、几何、取得与完整发行仍为候选。 CORE-074替换全部旧本体＋专属供料几何，当前占形与范围已采纳；其他未确认字段不随之晋级。
+适用范围：本体占形沿CORE-074；固定用途、逐器P及炉心圈下限沿CORE-075／076。全库核心兼容与取得保持原资格，首战限定另见遭遇规格。
 
 | 信息 | 内容 |
 | --- | --- |
 | 核心组合 | 合一＋红化 |
 | 预设句 | 〔合一〕之理，于此〔红化〕。 |
-| 占用与副本 | 本体9格；范围不占容量，真实待料按完整占形占格。本战固定一种用途，并行需真实法器与核心副本。 |
+| 占用与副本 | 本体9格；本战固定一种用途，并行需真实法器与核心副本；实际D取配方公式与所在圈下限的较大值。 |
 | 取得 | 候选：传奇路线筹备工具；可探索或购买，确切时机、价格与稀有度待定。 |
-| 辅助接口 | 只接收明确兼容当前用途的D静态修饰；本批不新增量值修饰、契合奖励或运行费。 |
-| 所承载配方D（已采纳） | 按终末配方分别为D5／D6；CORE-072已采纳。 |
-| 供料范围（已采纳） | 本体周围3格（包含斜向），不含本体；与其他范围可重叠。选中法器显示，指定目标后合法落下才形成唯一待料链接。 |
+| 所承载配方D（已采纳） | 配方基础D：D5／D6；实际D还受圈下限约束。 |
+| 入料口P（已采纳） | 4张／批；按本器所承配方最大材料数设定，与本体面积无关。 |
+| 辅助覆盖 | 覆盖圈命中的每台法器按兼容用途接受完整静态修饰；同效叠加沿现行规则，实际D不低于圈下限。首战没有辅助。 |
 
-分项资格：本体／供料范围＝Accepted / CORE-074，八法器几何；非全局取得或兼容采纳。
-占形（资格见分项）：3×3合一炉，9格；本体 [[0, 0], [1, 0], [2, 0], [0, 1], [1, 1], [2, 1], [0, 2], [1, 2], [2, 2]]；接收范围：本体周围3格，不占容量。
+分项资格：入料口P＝Accepted / CORE-075。
+占形（资格见分项）：3×3合一炉，9格；实体格 [[0, 0], [1, 0], [2, 0], [0, 1], [1, 1], [2, 1], [0, 2], [1, 2], [2, 2]]。
 关联：[贤者之石](#alchemy-stone) · [万灵药](#alchemy-elixir)
-未定：本体与接收范围已定；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。
-来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-074 供料范围、资源卡组与八法器格子](../sources/draft-changes/D-2026-11-02-feeding-ranges.md)
+未定：本体与P已定，实际D须按炉心布局计算；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。
+来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-074 供料范围、资源卡组与八法器格子](../sources/draft-changes/D-2026-11-02-feeding-ranges.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
 <a id="alchemy-core-transmute"></a>
@@ -2271,3 +2282,49 @@
 分项资格：身份／卡效／程序＝Accepted / CORE-073。
 未定：平衡、理解成本、实现与玩家体验NotRun；美术及声音待制作。
 来源：[首战合格来源与明确委托](../sources/materials/M-2026-11-01-alchemy-first-battle.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)
+
+
+<a id="alchemy-hearth-small"></a>
+
+## 小炉
+
+`alchemy.hearth-small` · 炉心 · **已采纳 · 限定范围**
+
+占格炉心，为法器的圈下限提供距离基准。
+
+适用范围：Accepted / CORE-075：身份与尺寸；不新增全局免费配发。
+
+| 信息 | 内容 |
+| --- | --- |
+| 占格 | 1格 |
+| 行为 | 不嵌铭文、不产卡；战前必有至少一枚，战中位置固定。 |
+| 携带 | 随配置实体跨战保留，占用共用背包。 |
+| 取得 | 首战仅实发1枚小炉；长炉及其他场景取得未定。 |
+
+分项资格：身份／占形＝Accepted / CORE-075；取得＝首战小炉已定，其余Unknown。
+占形（资格见分项）：1×1；实体格 [[0, 0]]。
+未定：其他场景数量、取得与价格；美术未制作。
+来源：[CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md) · [首战与内容库迁移记录](../sources/draft-changes/D-2026-11-04-first-battle-table-axis-migration.md)
+
+
+<a id="alchemy-hearth-long"></a>
+
+## 长炉
+
+`alchemy.hearth-long` · 炉心 · **已采纳 · 限定范围**
+
+占格炉心，为法器的圈下限提供距离基准。
+
+适用范围：Accepted / CORE-075：身份与尺寸；不新增全局免费配发。
+
+| 信息 | 内容 |
+| --- | --- |
+| 占格 | 2格 |
+| 行为 | 不嵌铭文、不产卡；战前必有至少一枚，战中位置固定。 |
+| 携带 | 随配置实体跨战保留，占用共用背包。 |
+| 取得 | 首战仅实发1枚小炉；长炉及其他场景取得未定。 |
+
+分项资格：身份／占形＝Accepted / CORE-075；取得＝首战小炉已定，其余Unknown。
+占形（资格见分项）：1×2；实体格 [[0, 0], [0, 1]]。
+未定：其他场景数量、取得与价格；美术未制作。
+来源：[CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md) · [首战与内容库迁移记录](../sources/draft-changes/D-2026-11-04-first-battle-table-axis-migration.md)

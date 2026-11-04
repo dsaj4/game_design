@@ -1,10 +1,10 @@
 # DIR-044 一桌一轴与空间法器约束
 
-2026-11-04审查后增量：用户确认R1—R6，已回写CORE-076／GDD3.9；来源与共同版本见[M](M-2026-11-04-column-scheduling.md)→[E](E-2026-11-04-column-scheduling.md)→[采纳D](../../sources/draft-changes/D-2026-11-04-column-scheduling.md)。本页原纸面推演及下方确认记录保持原适用域，不升级为新首战验收；R7、内容库重算与2D未在本轮执行。
+2026-11-04后续：R1—R6已回写CORE-076／GDD3.9；[首战及内容库迁移](../../sources/draft-changes/D-2026-11-04-first-battle-table-axis-migration.md)完成CONTENT-LIBRARY-08／first-distillation.3与EX-005静态重算。原探索纸面推演保持原范围，四通用包／展示合同及其他旧表述仍待同步；2D与真人体验NotRun。
 
 Project ID：game-002-optimization。2026-11-04。状态：**Raw Idea / Unqualified**；玩法 Hypothesis / NotRun。本页是探索记录；2026-11-04已由用户明确授权采纳并回写为CORE-075（见Draft Change），本页文字为采纳前记录；文中数值（圈下限、炉心数、覆盖圈等）均为示意，待标定。
 
-[阅读合同](../start.md) · [交接稿存档](handoff-2026-11-04.md) · [原型v2](spatial-artifact-v2.html) · [合格素材M](M-2026-11-04-table-axis-spatial-artifacts.md) · [评估E](E-2026-11-04-table-axis-spatial-artifacts.md) · [Draft Change](../../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md)（待确认，未采纳） · [探索入口](../README.md)
+[阅读合同](../start.md) · [交接稿存档](handoff-2026-11-04.md) · [原型v2](spatial-artifact-v2.html) · [合格素材M](M-2026-11-04-table-axis-spatial-artifacts.md) · [评估E](E-2026-11-04-table-axis-spatial-artifacts.md) · [Draft Change](../../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md)（已采纳CORE-075） · [探索入口](../README.md)
 
 ## 本轮阅读范围
 

@@ -1,6 +1,6 @@
 # 当前设计来源索引
 
-2026-11-04增量：当前单轴来源为[CORE-075](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md)；列时序、确认拒绝、并发费用与零材料指令由[CORE-076](../sources/draft-changes/D-2026-11-04-column-scheduling.md)补齐，资格／评估及固定版本见该D。下列早期来源仅在未被替换范围有效；首战当前输入仍待同步。
+2026-11-04：规则沿[CORE-075](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md)及[CORE-076](../sources/draft-changes/D-2026-11-04-column-scheduling.md)。[内容迁移D／评估](../sources/draft-changes/D-2026-11-04-first-battle-table-axis-migration.md)记录first-distillation.3及EX-005静态重算；主游戏与体验NotRun。下列早期来源只在未被替换范围有效。
 
 2026-11-01 · SourceReview。当前采纳与资格沿[基准](baseline.md)；本页只回答结论来自哪里，不属于日常开发或完整GDD必读包。引用默认取任务共同提交，来源原件按自身固定输入解释。
 
@@ -8,13 +8,13 @@
 
 | 内容 | 依据 |
 | --- | --- |
-| 当前新炼金首战 | [CORE-073](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)：限定冻结新套组、核心副本、初态、供给、运输／生产几何、完整敌表与EX-005；实现与玩法NotRun |
-| 当前范围／资源组与几何 | [CORE-074](../sources/draft-changes/D-2026-11-02-feeding-ranges.md)：用户确认R1—R8并授权容量优先的八器格形修订；替换专属区全容纳及补给待用一拍，首战更新为first-distillation.2 |
+| 当前新炼金首战 | [CORE-073](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)：限定冻结套组、核心副本、初态、供给与敌表；布局／时序按CORE-075／076迁移为first-distillation.3，见上方迁移D；实现与玩法NotRun |
+| 历史范围规则与保留本体几何 | [CORE-074](../sources/draft-changes/D-2026-11-02-feeding-ranges.md)：用户确认R1—R8并授权容量优先的八器格形修订；替换专属区全容纳及补给待用一拍，原首战为first-distillation.2；本体保留，范围与解封时点已由CORE-075／076替换 |
 | 当前共用背包与阶段装载 | [CORE-070采纳D](../sources/draft-changes/D-2026-11-01-shared-backpack.md)，[Qualified M](../sources/materials/M-2026-11-01-shared-backpack-direction.md)与[接口评估E](../sources/evaluations/E-2026-11-01-shared-backpack.md)；替换空间分账，备用配置占格、散装核心1格，旧配置可售方向。40格、运输细化与价格未采纳；实现与体验NotRun |
-| 当前辅助道具与核心装配 | [CORE-069](../sources/draft-changes/D-2026-10-31-spatial-auxiliaries.md)，DIR-043 Qualified M及主系统E；替换固定辅槽、词性挂接及打造，采纳单器空间连接、同效叠加与批次继承；核心可逆嵌入。实现与体验NotRun |
-| 当前背包式法器管理 | [CORE-068](../sources/draft-changes/D-2026-10-31-backpack-production.md)，来源为DIR-043的Qualified M与主系统E；替换手牌直接开工、临时路由／优先级及战中切用途，新增专属待料和默认自动补料；只采纳明确范围，体验未验证 |
+| 当前辅助道具与核心装配 | [CORE-069](../sources/draft-changes/D-2026-10-31-spatial-auxiliaries.md)，DIR-043 Qualified M及主系统E；替换固定辅槽、词性挂接及打造，原单器连接已由CORE-075覆盖圈替换；同效叠加、批次继承与核心可逆嵌入保留。实现与体验NotRun |
+| 背包法器管理来源（部分替换） | [CORE-068](../sources/draft-changes/D-2026-10-31-backpack-production.md)，来源为DIR-043的Qualified M与主系统E；替换手牌直接开工、临时路由／优先级及战中切用途，原专属待料和默认自动补料已由CORE-075／076手动排料替换；仅未替换部分保留，体验未验证 |
 | 当前统一卡牌与手动使用 | [CORE-067](../sources/draft-changes/D-2026-10-27-unified-card-model.md)，替换049／058中介产物及065自动上桌、H3、点数和整轮编辑限制；直接产卡、列间布牌和回收，旧规则仅未替换部分生效 |
-| 当前炼金限定内容 | [CORE-072](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md)：采纳35配方制作参数、43卡权限／11成品合同、新的咒定义及有限预告补给原则；具体补给、取得／携带、几何和完整首战仍缺 |
+| 当前炼金限定内容 | [CORE-072](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md)：采纳35配方制作参数、43卡权限／11成品合同、新的咒定义及有限预告补给原则；首战补给／携带／几何已由CORE-073及后续迁移限定补齐；其余取得配置仍缺 |
 | 当前内容退役 | [CORE-071 alchemy-only.1](../sources/draft-changes/D-2026-11-01-alchemy-only-content.md)：删除38项非alchemy及原完整首战输入；当时保留61项alchemy及原35配方／3构筑；替代首战随后由CORE-073另行冻结 |
 | 当前回合、手牌、整理与敌牌接口 | [CORE-065 round-hand.1](../sources/draft-changes/D-2026-10-23-round-hand-settlement.md)，替换以下旧来源中的连续拍、Q预留、r→T及对应暂停／疲劳条款；未替换部分沿原资格 |
 | 原核心与兼容复用 | [CORE-037起点](../sources/draft-changes/D-2026-10-01-timeline-production-core.md) · [CORE-048兼容复用](../sources/draft-changes/D-2026-10-01-compatible-rules-reuse.md) |

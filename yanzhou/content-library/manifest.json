@@ -1,75 +1,75 @@
 {
   "id": "DM-G002-023",
-  "version": "CONTENT-LIBRARY-07",
-  "date": "2026-11-02",
+  "version": "CONTENT-LIBRARY-08",
+  "date": "2026-11-04",
   "project": "game-002",
   "direction": "main",
   "lifecycle": "ReadyForScope",
   "access": "PresentLocal",
   "entry": "index.html",
   "canonical": "catalog.json",
-  "objects": 67,
+  "objects": 69,
   "recipes": 35,
   "builds": 3,
   "objectsWithArt": 5,
   "artFiles": 15,
-  "scope": "CORE-074 adopted one-cell contact, overlapping nonoccupying ranges, unique material links, finite resource packs; eight artifact body shapes and first battle revised; gameplay NotRun",
-  "designInputCommit": "fdb55ca5306dddaed6f81aba31ff857b31b1c009",
+  "scope": "CORE-075/076 content migration: hearths, circle floor, P, column timing, manually authored first-distillation.3 routes; static design and browser evidence only",
+  "designInputCommit": "9e2f9687a0e7089c57114ffb4427c5a8e24212b7",
   "files": [
     {
       "path": "alchemy-notes.md",
-      "bytes": 1419,
-      "sha256": "c4c8ced526a47000dbd6cf9823636c0ac80ad352e4de7156c6425e12c0838fc2"
+      "bytes": 1514,
+      "sha256": "09dc6f9970eda180183324f4ff9aa71ac732ffb0feddcd4b6319bf83b051856b"
     },
     {
       "path": "alchemy.md",
-      "bytes": 179933,
-      "sha256": "090b7fbe08102d049f2ffc2d5a7e5ea21fdae37e6fb884ba424308fa6fdb26a9"
+      "bytes": 188664,
+      "sha256": "f8f1c141c815c8a0ccfa4407239c158112446acb77e8df00b9cbc55635689839"
+    },
+    {
+      "path": "artifact-geometry.html",
+      "bytes": 5019,
+      "sha256": "fad13323636ef2aabb1190271af9af9fb2e5cb77a10698714302a698f08815c2"
+    },
+    {
+      "path": "artifact-geometry.md",
+      "bytes": 1425,
+      "sha256": "8629a93774162bd1a331e036bf4cb469933d0b63286a3d7e19aaa9889d6a54b0"
     },
     {
       "path": "builds.md",
       "bytes": 3561,
-      "sha256": "b8007034c6915c1f5eeabb56b748be292a7be616e36cb036115d32d8f33e7cf1"
+      "sha256": "bac559eccdf3894e0f7ac489e80db833bb3b8cdd0d7f1c6bbdc1464a50395d01"
     },
     {
       "path": "catalog.json",
-      "bytes": 357929,
-      "sha256": "0ff941cd037d3aad0d4b5f1e53021db248b4f73f037dd73d841adc777ae2c010"
-    },
-    {
-      "path": "first-battle.md",
-      "bytes": 10404,
-      "sha256": "1727df3c2d7bfe0525d682d9b57dd150ce961378a8a8de4530000e8455103197"
+      "bytes": 298990,
+      "sha256": "ae20257cfd8f96fc61a4d5700076fa0fdf0f5d2464846710d472372491d6b57f"
     },
     {
       "path": "first-battle.html",
-      "bytes": 13302,
-      "sha256": "c7c0c7da5be0f00d0e50c333ee2e1f525489b420d7df460a6fdd1aed8ec7e400"
+      "bytes": 12611,
+      "sha256": "a3933c11435d4757178c76f0138298ed90070abc1e7f04a90df044cb8a90cfb4"
+    },
+    {
+      "path": "first-battle.md",
+      "bytes": 9322,
+      "sha256": "e3440c0bc64e57a457ad954fa55b9ac0bddb004d8d641146db3edd7c1616c0c6"
     },
     {
       "path": "index.html",
-      "bytes": 243324,
-      "sha256": "4d4bfce09f204213d7a6ea9bf395b448af91d490bd72c57e47f12d2dfec52269"
+      "bytes": 229489,
+      "sha256": "f34356a079d12d6e1a6d6950fe950e9f5aede265b4cc1931d2e0d55c9c78c871"
     },
     {
       "path": "README.md",
-      "bytes": 4915,
-      "sha256": "1e38ec9eb9498aa61b0235a616422d41f74144997575b80c3524baf606e484cb"
+      "bytes": 3842,
+      "sha256": "e6996dd2b7cbf93765f84e206fbedb2a48616d2e2586334884514fc8b1174602"
     },
     {
       "path": "recipes.md",
-      "bytes": 30528,
-      "sha256": "78b0c3fe2f57ff2d353decc3a2f478055804517a829650d8c045a2af884af954"
-    },
-    {
-      "path": "artifact-geometry.md",
-      "bytes": 2881,
-      "sha256": "0f5db34eca6d36d2a73101adbe18efe59ce89862e516df00bea782960ca738af"
-    },
-    {
-      "path": "artifact-geometry.html",
-      "bytes": 40172,
-      "sha256": "147aebd11dc44eaf6bc6f24f0105d8c0852128505b667843909cf3d788cb071e"
+      "bytes": 31205,
+      "sha256": "eb039a88c07ba05de53a5e90e58c3b2243bb733dd1cb1ec3940afa67a126e047"
     }
   ],
   "generator": {
@@ -77,33 +77,33 @@
     "files": [
       {
         "path": "build.py",
-        "bytes": 7489,
-        "sha256": "2e85362575ec6260e6dfe8737e4e439aa9cbab875cfbc4f59c4378d154981ccd"
+        "bytes": 7192,
+        "sha256": "505c21350c00c32992eab8cdeb674e67f659d69e9e6ac9fdfcf4206ba7e7312d"
       },
       {
         "path": "template.html",
-        "bytes": 28495,
-        "sha256": "ebf8be68928cf8b1c772d76fb7fac70e164ee5bd6658fe96aab2a245fc20a969"
+        "bytes": 27533,
+        "sha256": "b463e52fed71a8b5e00749767e58de6cbe4a20f042edaa5297daa3081afeb5ad"
       },
       {
         "path": "README.md",
-        "bytes": 2577,
-        "sha256": "82de7aa0b4ad249b44299f28a624686dd067c04e1f7d45172722c2eea0071468"
+        "bytes": 1791,
+        "sha256": "10fc8aef760c124ea2fdd264a8ea0453f50edcffd88359edc94264978f5d9c4c"
       },
       {
         "path": "qa.cjs",
-        "bytes": 11342,
-        "sha256": "4080c3987baaff7ffcd7dea7219b416a91497af0137e5ef43566aee0745741f8"
+        "bytes": 11141,
+        "sha256": "03084f16b32819c839d1a61b3a0a3f343563b065f7821fbb1cb25af724fc412d"
       },
       {
         "path": "encounter_view.py",
-        "bytes": 8019,
-        "sha256": "6a3ae60fd7b0c6452f0a9eab43b1b408cfd81212d32e0b5f29b17f87a6f2050a"
+        "bytes": 8259,
+        "sha256": "3120b387ab7875f8bd9bb7d14f41e3725d4cdff44d1ab17445cc6edb1d6a87fb"
       },
       {
         "path": "geometry_view.py",
-        "bytes": 5383,
-        "sha256": "cbcf5c97d27beb93bca218401259e3e451149db9e091019162ec3c3c2a6e7c12"
+        "bytes": 2945,
+        "sha256": "d69b4720270f5dac7cb22bcbd8c63442d150877e325d6a65daf64b63fdab6402"
       },
       {
         "path": "geometry074.py",
@@ -111,79 +111,126 @@
         "sha256": "960710d686d9d6d3e3a454a0a5be10481c2b9d1543e62d622098a3cfbe8fad75"
       },
       {
-        "path": "check074.py",
-        "bytes": 6428,
-        "sha256": "46a394f4d4c307c9598d6b99152a9906b61150d895a0189b9101bdd1bb43762a"
+        "path": "check076.py",
+        "bytes": 9111,
+        "sha256": "3a32e54e3db164a0fa2299c8d46ba85f3e0dca44546c138dc3a743681ff3ba9e"
+      },
+      {
+        "path": "manifest076.py",
+        "bytes": 4050,
+        "sha256": "651af9340fec6d71848a3c3d2961d35b5b83dd0e5a6c76217b5a9764da54b539"
+      },
+      {
+        "path": "migrate076.py",
+        "bytes": 12353,
+        "sha256": "19084abedcc96746522afaf29e12ba29091b58ab2e144354cb3e2d18a22989d2"
+      },
+      {
+        "path": "update_views076.py",
+        "bytes": 11319,
+        "sha256": "628570c4a7e38d63645e129c4146e3576c29e502c816017880261712888524ed"
+      },
+      {
+        "path": "update_qa076.py",
+        "bytes": 2359,
+        "sha256": "0932620c3cbe6989130a46306ad009d7aad556277881663ea1829db50813386e"
+      },
+      {
+        "path": "document076.py",
+        "bytes": 19399,
+        "sha256": "f404b174a3ca5303bd7b74874a29a609e4d6e412be0f58aa3b3ec2705a4d851b"
+      },
+      {
+        "path": "navigation076.py",
+        "bytes": 15642,
+        "sha256": "b1819fc22d5145077ce2cd09814396e85d32cb9a77b5d7651181092bf459b8b8"
+      },
+      {
+        "path": "finalize076.py",
+        "bytes": 1388,
+        "sha256": "410ee6f3da0df23f7ceeaae8a620cd1d752f7a1c218510d959fd69ee3ba2199d"
       }
-    ]
+    ],
+    "entry": "build.py",
+    "staticChecker": "check076.py",
+    "browserChecker": "qa.cjs",
+    "migrationScripts": "One-time recorded transformations, not normal build entrypoints"
   },
   "verification": {
-    "browserChecks": 221,
+    "browserChecks": 210,
     "browserErrors": [],
-    "staticChecks": 1010,
-    "localLinksChecked": 1509,
+    "staticChecks": 1599,
+    "localLinksChecked": 868,
     "newBrokenLinks": 0,
-    "scope": "Static design geometry, preservation, authored arithmetic and links; gameplay NotRun",
+    "scope": "Static content preservation, geometry and authored-route arithmetic; engine and player tests NotRun",
+    "visualReview": [
+      "01-overview / 05-mobile",
+      "04-recipe",
+      "09-first-battle",
+      "10-artifact-geometry"
+    ],
+    "engine": "NotRun",
+    "playerExperience": "NotRun",
     "evidence": [
       {
-        "path": "content-library-07-evidence/evidence/01-overview.png",
-        "bytes": 231420,
-        "sha256": "118ce23e03aa8299cff72c00355ab9776296615796c3581f9ebf9397cd67f1f6"
+        "path": "content-library-08-evidence/evidence/01-overview.png",
+        "bytes": 233203,
+        "sha256": "d30b15bb9af91e1449ea54eeddb3519191a271320c28b6eb76818b388700c597"
       },
       {
-        "path": "content-library-07-evidence/evidence/02-art.png",
-        "bytes": 230042,
-        "sha256": "b0c641325d94cc0515265d65113ba1ac41411c4f5008ad378548a6ff338ddfc8"
+        "path": "content-library-08-evidence/evidence/02-art.png",
+        "bytes": 228023,
+        "sha256": "5298f449f8f4052e32efc297cfff98e2021c2abb04cf2703c531b5e87e632658"
       },
       {
-        "path": "content-library-07-evidence/evidence/03-water-detail.png",
-        "bytes": 237384,
-        "sha256": "86335279583bcc11959e89f40b1cff274c1e34b0ad503d96853b1147a4d491a3"
+        "path": "content-library-08-evidence/evidence/03-water-detail.png",
+        "bytes": 239858,
+        "sha256": "caf2fad2b4a83d8af890d65f5855ec7dfdaee6741bf140e231e21d593b828bc4"
       },
       {
-        "path": "content-library-07-evidence/evidence/04-recipe.png",
-        "bytes": 121660,
-        "sha256": "170584560d26ffc90322ff2dce66e15ebd646c5bdcebb763c56e23b0197b46a5"
+        "path": "content-library-08-evidence/evidence/04-recipe.png",
+        "bytes": 122122,
+        "sha256": "83fdd5a044d39518c1178a5737e5c90248030920d9abf423b3108516ddff5d3e"
       },
       {
-        "path": "content-library-07-evidence/evidence/05-mobile.png",
-        "bytes": 76901,
-        "sha256": "e1b30a7e4735f90eb126f56539f10da7a3e9245cd8b0c0afa00b1d27c1fda433"
+        "path": "content-library-08-evidence/evidence/05-mobile.png",
+        "bytes": 77500,
+        "sha256": "aab4ac1c1738a7ff28cb0868af8854ca838991f0df33bc867cecef64b39a4e0f"
       },
       {
-        "path": "content-library-07-evidence/evidence/06-mobile-detail.png",
-        "bytes": 80649,
-        "sha256": "1b676d397230ab8dfda41db7566a5911755739cd0ec192b7215dd33f62f83ad4"
+        "path": "content-library-08-evidence/evidence/06-mobile-detail.png",
+        "bytes": 79657,
+        "sha256": "64d5ec6b87e903dac02bf5c60c67da27b15d5e1cd6d4a6edf2112117d9e8815b"
       },
       {
-        "path": "content-library-07-evidence/evidence/07-confirmed-duration.png",
-        "bytes": 152977,
-        "sha256": "3f939f2dc71fdc9f954f529ed2a65ed14e3f6aa327fe6a1251567779d327423d"
+        "path": "content-library-08-evidence/evidence/07-confirmed-duration.png",
+        "bytes": 153609,
+        "sha256": "e4830dd84c4db3a12d4fc48d7289ee81d2265645963fc18849eef1611a42eaa5"
       },
       {
-        "path": "content-library-07-evidence/evidence/08-curse.png",
-        "bytes": 152970,
-        "sha256": "99a19931252aa4247d2846de24545388719276a7c1441a598f12d1aba66a1caa"
+        "path": "content-library-08-evidence/evidence/08-curse.png",
+        "bytes": 154465,
+        "sha256": "d4bd073ff628581583d33aa7f2c27f0092dc127ed67e4065f25d2cdf1380a7d0"
       },
       {
-        "path": "content-library-07-evidence/evidence/09-first-battle.png",
-        "bytes": 497164,
-        "sha256": "272f477370e9ae61d043583dd390aadf206c2757b290e74dd54584005a419490"
+        "path": "content-library-08-evidence/evidence/09-first-battle.png",
+        "bytes": 452468,
+        "sha256": "98b9880c2a5fd3ecf7ce8307ab9eada574c24fd22161a8f0a606276ac3f9f88f"
       },
       {
-        "path": "content-library-07-evidence/evidence/10-artifact-geometry.png",
-        "bytes": 134019,
-        "sha256": "9c9ff941b689775e87780d26511e49760da0d63efb289474859905bf44f8a259"
+        "path": "content-library-08-evidence/evidence/10-artifact-geometry.png",
+        "bytes": 99040,
+        "sha256": "f07832c42fbaba20ec07fd3122b0952c587945b1ad9ab6731770f23863f1d137"
       },
       {
-        "path": "content-library-07-evidence/qa-result.json",
-        "bytes": 7563,
-        "sha256": "2d2f3fbffe022a32440736e234f7edc115911a913f64d6560a4664482c12db7b"
+        "path": "content-library-08-evidence/qa-result.json",
+        "bytes": 7406,
+        "sha256": "586e58fe6d7d5a2ffba71e21945633c958d2ac3e8bb35e0cc1fc6aba976c085d"
       },
       {
-        "path": "content-library-07-evidence/static-checks.json",
-        "bytes": 46585,
-        "sha256": "70fe24278c0af1859cc8cd504c85173f9fe4bd5acc0ca46cd26ef8aaf77ec7ae"
+        "path": "content-library-08-evidence/static-checks.json",
+        "bytes": 98723,
+        "sha256": "9303b4f9ff2597c001962157d5f2fc169c4f6a53b0be3eff87067cbe67ed68eb"
       }
     ]
   },
@@ -194,56 +241,69 @@
   ],
   "assetPolicy": "Original image bytes and locations retained; 15 existing material images only; no copied or uploaded assets",
   "unverified": [
-    "Gameplay, engine integration, player understanding and balance",
-    "Full assistive technology and print layout",
-    "Asset availability on other computers",
-    "Global core compatibility, carry tags, other supply tables, shop and whole-run content outside CORE-073"
+    "Godot / 2D integration, atomic save / restore and terminal transitions",
+    "Player understanding, repeated placement burden, difficulty and balance",
+    "Four generic task packs and presentation contract migration",
+    "Sulfur combination executable recipe, D, P and core compatibility",
+    "Global acquisition / core compatibility / carry outside the scoped first battle",
+    "Full assistive technology, print layout and assets on other machines"
   ],
   "deliveryPath": "yanzhou/content-library/",
   "previousDelivery": {
-    "version": "CONTENT-LIBRARY-06",
-    "commit": "bb5bf422b01f4c942a32cc109af6ed5eda1c9939",
+    "version": "CONTENT-LIBRARY-07",
+    "commit": "9e2f9687a0e7089c57114ffb4427c5a8e24212b7",
     "manifestPath": "yanzhou/content-library/manifest.json",
-    "localEvidenceDirectory": "E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01/content-library-06-evidence",
-    "generatorArchive": "E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01/content-library-06-generator",
+    "localEvidenceDirectory": "E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01/content-library-07-evidence",
+    "generatorArchive": "E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01/content-library-07-generator",
+    "scope": "Pre-migration working delivery including CORE-075 D amendments; old evidence remains scoped to its recorded run",
     "generatorFiles": [
       {
         "path": "build.py",
-        "bytes": 7318,
-        "sha256": "ef58d1ac3567b07aee354a76780cfc5d2b282c1925988ebce92f5b344cad6462"
+        "bytes": 7489,
+        "sha256": "2e85362575ec6260e6dfe8737e4e439aa9cbab875cfbc4f59c4378d154981ccd"
       },
       {
-        "path": "template.html",
-        "bytes": 28342,
-        "sha256": "992dc189e2b455f5045445c4b494c07129897136acd4f18283be15bc1b246d6d"
-      },
-      {
-        "path": "README.md",
-        "bytes": 2283,
-        "sha256": "c5a8153ac30dfc79ee3adefd40a3a9a8c31471a5b3f7f8e8eb10a43c40415392"
-      },
-      {
-        "path": "qa.cjs",
-        "bytes": 10370,
-        "sha256": "b151b44aa7fbb2ce0e808c6b1e0696fdd872445036db1cc76edfbcc6bcec6f82"
+        "path": "check074.py",
+        "bytes": 6428,
+        "sha256": "46a394f4d4c307c9598d6b99152a9906b61150d895a0189b9101bdd1bb43762a"
       },
       {
         "path": "encounter_view.py",
-        "bytes": 7486,
-        "sha256": "ef75e3331a120b781fd5e9ba5cff1be230669ccd7a4c33727151d5c40fab5d46"
+        "bytes": 8019,
+        "sha256": "6a3ae60fd7b0c6452f0a9eab43b1b408cfd81212d32e0b5f29b17f87a6f2050a"
       },
       {
-        "path": "check_first_battle.py",
-        "bytes": 7194,
-        "sha256": "d523ce14b8b6693370cb4558f7127f8b77b6dd70cb8e7f908f35c821f23ab9a8"
+        "path": "geometry074.py",
+        "bytes": 1176,
+        "sha256": "960710d686d9d6d3e3a454a0a5be10481c2b9d1543e62d622098a3cfbe8fad75"
+      },
+      {
+        "path": "geometry_view.py",
+        "bytes": 5383,
+        "sha256": "cbcf5c97d27beb93bca218401259e3e451149db9e091019162ec3c3c2a6e7c12"
+      },
+      {
+        "path": "qa.cjs",
+        "bytes": 11342,
+        "sha256": "4080c3987baaff7ffcd7dea7219b416a91497af0137e5ef43566aee0745741f8"
+      },
+      {
+        "path": "README.md",
+        "bytes": 2577,
+        "sha256": "82de7aa0b4ad249b44299f28a624686dd067c04e1f7d45172722c2eea0071468"
+      },
+      {
+        "path": "template.html",
+        "bytes": 28495,
+        "sha256": "ebf8be68928cf8b1c772d76fb7fac70e164ee5bd6658fe96aab2a245fc20a969"
       }
     ]
   },
   "originalContentInputCommit": "16838828fba90a3444c4a49a35b98df74f271f32",
   "adoption": {
-    "decision": "CORE-074",
-    "record": "../sources/draft-changes/D-2026-11-02-feeding-ranges.md",
-    "scope": "feeding-range.1, eight artifact geometry, first-distillation.2; original CORE-072 D/effects and CORE-073 enemy/loadout amounts preserved"
+    "decision": "CORE-075 / CORE-076",
+    "record": "../sources/draft-changes/D-2026-11-04-first-battle-table-axis-migration.md",
+    "scope": "Existing adoption applied to content; CORE-073 encounter and CORE-072 effects retained, CORE-074 artifact bodies retained; no new rule decision"
   },
   "preservedCoreOccupancyAdoption": {
     "decision": "CORE-070",
@@ -251,15 +311,14 @@
     "scope": "Only 10 core items: loose occupancy becomes 1 cell and links the adopted rule; all other content values and qualifications retained"
   },
   "contentConfirmation": {
-    "source": "../sources/materials/M-2026-11-02-feeding-ranges.md",
-    "decision": "Explicit user request to adopt reviewed logic and revise artifact grid designs with generous ranges and capacity constraint",
-    "scope": "Eight artifacts and affected current interfaces; no new gameplay or engine test authorization"
+    "source": "../sources/draft-changes/D-2026-11-04-first-battle-table-axis-migration.md",
+    "decision": "User explicitly requested first-battle recalculation and content-library migration",
+    "scope": "Qualified CORE-075/076 inputs reused; no 2D implementation or gameplay experiment"
   },
   "previousContentRetirement": {
     "decision": "CORE-071",
     "record": "../sources/draft-changes/D-2026-11-01-alchemy-only-content.md",
     "scope": "Retire 38 non-alchemy objects and four dedicated sources, generated sheets and former EX-004 case/task; retain all 61 alchemy object values, 35 recipes and three builds"
   },
-  "encounters": 1,
-  "deliveryCommit": "c22d0792b1747a25ffa1b762d5681bb9996bddde"
+  "encounters": 1
 }
