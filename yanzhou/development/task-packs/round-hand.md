@@ -1,6 +1,6 @@
 # 任务设计包：回合、手牌与布牌
 
-2026-11-01 · Derived Design / CORE-067＋068＋069＋070＋071 · 通用机制已同步，执行NotRun。包与来源共用任务固定的完整设计提交；源规则沿[采纳D](../../sources/draft-changes/D-2026-10-27-unified-card-model.md)。原首战输入已撤下，完整内容待设计。
+**待同步（2026-11-04）：CORE-075已替换本包的生产拍、最终整理、待料与打断部分，停止用于新实现，须按一桌一轴复核后再用。** 2026-11-01 · Derived Design / CORE-067＋068＋069＋070＋071 · 通用机制已同步，执行NotRun。包与来源共用任务固定的完整设计提交；源规则沿[采纳D](../../sources/draft-changes/D-2026-10-27-unified-card-model.md)。原首战输入已撤下，完整内容待设计。
 
 CORE-070空间同步：投入卡真实离包入手，不保留虚拟占格；两组手牌无硬上限，留包未投入物不可取用。完整装载与战后重装沿[共用背包包](shared-backpack.md)，不改变本包生产拍／结算列时序。
 
@@ -27,7 +27,7 @@ CORE-070空间同步：投入卡真实离包入手，不保留虚拟占格；两
 
 ## 条件展开
 
-改配方读[资源TL-15／43](../../design/systems/resource-system/rules.md)，战斗与供料时点按[TL-15时点表](../../design/systems/resource-system/rules.md#卡牌的战斗与供料可用时点)分别判断：新产卡可下个合法窗上行、供料资格等下一生产拍，之后排入待料区最早再下一拍吸收；打断退料两者都待下一生产拍，战斗回收原卡不新增待用期；列间仍不加工。改打断读[打断包](interruption-restart.md)，改用途／支付读[用途包](future-purpose.md)。定时／维护不从本包启用。
+改配方读[资源TL-15／43](../../design/systems/resource-system/rules.md)，战斗与排料时点按[TL-15时点表](../../design/systems/resource-system/rules.md#卡牌的战斗与排料可用时点)分别判断：新产卡入手后下一列起可上行或排入工序行；战斗回收原卡不新增待用期。打断介入生产已退役，旧[打断包](interruption-restart.md)仅作历史，改用途／支付读[用途包](future-purpose.md)。定时／维护不从本包启用。
 
 ## 对话讲解
 

@@ -60,7 +60,7 @@
 
 投入：[清泉水](alchemy.md#alchemy-water) × 1（流体）；[燃烧木炭](alchemy.md#alchemy-fire) × 1（热源）
 
-产出：滚烫蒸汽 × 1；D2；器具：[盘管萃炼器](alchemy.md#alchemy-artifact-extractor)。
+产出：滚烫蒸汽 × 1；D3；器具：[盘管萃炼器](alchemy.md#alchemy-artifact-extractor)。
 
 流体被受热展开，得到滚烫蒸汽。
 
@@ -76,7 +76,7 @@
 
 投入：[清泉水](alchemy.md#alchemy-water) × 1（流体载体）；[风息羽毛](alchemy.md#alchemy-air) × 1（轻散定向）
 
-产出：轻盈雾团 × 1；D2；器具：[盘管萃炼器](alchemy.md#alchemy-artifact-extractor)。
+产出：轻盈雾团 × 1；D3；器具：[盘管萃炼器](alchemy.md#alchemy-artifact-extractor)。
 
 羽毛保留轻散方向，使水体成为雾团。
 
@@ -92,7 +92,7 @@
 
 投入：[疗伤草](alchemy.md#alchemy-herb) × 1（生机来源）；[清泉水](alchemy.md#alchemy-water) × 1（浸取载体）
 
-产出：草药汁液 × 1；D2；器具：[盘管萃炼器](alchemy.md#alchemy-artifact-extractor)。
+产出：草药汁液 × 1；D3；器具：[盘管萃炼器](alchemy.md#alchemy-artifact-extractor)。
 
 将药草的生机提取为可混合汁液。
 

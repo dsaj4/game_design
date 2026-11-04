@@ -1,5 +1,7 @@
 # 言咒开发入口
 
+2026-11-04范围更新：[CORE-075](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md)已采纳一桌一轴、炉心与圈下限、组合、入料口P与辅助覆盖圈，GDD3.8；替换CORE-068供料／待料与CORE-074范围／解封资格。四个任务包（回合手牌、用途待料、共用背包、打断重开）已标待同步，停止用于新实现；首战时间线与EX-005待重算。新2D工程仍只接入CORE-067限定首场，CORE-068／069／070／074未接入，改制不废弃已实现代码；主游戏实现与玩家体验NotRun。
+
 2026-11-02范围更新：[CORE-074](../sources/draft-changes/D-2026-11-02-feeding-ranges.md)已采纳范围／链接／资源卡组规则及八法器格子，首战为first-distillation.2、GDD3.7。现行设计输入以新规格为准；TABLETOP-BACKPACK-HTML-01是旧规则结构快照，未覆盖本次修订；主游戏实现与玩家体验NotRun。
 
 

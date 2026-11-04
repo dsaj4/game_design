@@ -1,5 +1,7 @@
 # EX-005 炼金首战：生产、攻防与胜败
 
+**待重算（2026-11-04）：CORE-075已替换生产拍、待料与吸收时点。下文时间表、两条获胜路线与胜利重装按旧规则推导，不再作当前验收输入；首战配1枚小炉并加序幕回合，重算依据见[DIR-044纸面推演](../../exploration/DIR-044-table-axis-spatial-artifacts/README.md)，均为纸面估计，执行NotRun。**
+
 2026-11-02 · Derived design expectations / CORE-073＋074 · **静态推导，执行NotRun**。唯一具体输入见[冻结首战规格](../../content-library/first-battle.md)及其catalog；本页所有数值仅为该配置的派生核对。EX-004继续退役。
 
 ## 默认生产时间

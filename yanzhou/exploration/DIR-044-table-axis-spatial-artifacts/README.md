@@ -1,6 +1,6 @@
 # DIR-044 一桌一轴与空间法器约束
 
-Project ID：game-002-optimization。2026-11-04。状态：**Raw Idea / Unqualified**；玩法 Hypothesis / NotRun。本页是探索记录，不是已采纳规则，不进入`design/`；文中数值（圈下限、炉心数、覆盖圈等）均为示意，待标定。
+Project ID：game-002-optimization。2026-11-04。状态：**Raw Idea / Unqualified**；玩法 Hypothesis / NotRun。本页是探索记录；2026-11-04已由用户明确授权采纳并回写为CORE-075（见Draft Change），本页文字为采纳前记录；文中数值（圈下限、炉心数、覆盖圈等）均为示意，待标定。
 
 [阅读合同](../start.md) · [交接稿存档](handoff-2026-11-04.md) · [原型v2](spatial-artifact-v2.html) · [合格素材M](M-2026-11-04-table-axis-spatial-artifacts.md) · [评估E](E-2026-11-04-table-axis-spatial-artifacts.md) · [Draft Change](../../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md)（待确认，未采纳） · [探索入口](../README.md)
 

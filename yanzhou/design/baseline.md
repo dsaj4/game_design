@@ -1,6 +1,6 @@
 # 当前设计基准
 
-2026-11-02 · **GDD 3.7 / GDD-0 · CORE-074 feeding-range.1**。[采纳D](../sources/draft-changes/D-2026-11-02-feeding-ranges.md)替换完整落入专属区为一格接触／范围可重叠，保留实体完整占格与唯一归属；补给按卡组解封本拍可供料，八器本体／范围重设。[首战](../content-library/first-battle.md)更新为first-distillation.2；D／卡效／库存与敌表保持。主游戏与玩家体验NotRun。
+2026-11-04 · **GDD 3.8 / GDD-0 · CORE-075 table-axis.1**。[CORE-075采纳D](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md)以一桌一轴、炉心与圈下限、法器组合、入料口P、辅助覆盖圈替换CORE-068供料／待料与CORE-074范围／解封资格，八器本体占形保留；首战时间线与EX-005待重算，主游戏与体验NotRun。此前版本：2026-11-02 · GDD 3.7 · CORE-074 feeding-range.1。[采纳D](../sources/draft-changes/D-2026-11-02-feeding-ranges.md)替换完整落入专属区为一格接触／范围可重叠，保留实体完整占格与唯一归属；补给按卡组解封本拍可供料，八器本体／范围重设。[首战](../content-library/first-battle.md)更新为first-distillation.2；D／卡效／库存与敌表保持。主游戏与玩家体验NotRun。
 
 | 项目 | 当前范围 |
 | --- | --- |

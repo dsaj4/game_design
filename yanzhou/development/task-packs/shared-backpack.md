@@ -1,6 +1,6 @@
 # 任务设计包：共用背包与跨战重装
 
-2026-11-02 · Derived Design / CORE-074，继承070 · 设计已同步，实现与体验NotRun。执行任务固定完整设计提交，沿[任务规范](../task-pack.md)。主规则为[TL-46](../../design/systems/backpack-system/rules.md)，不从Raw几何或旧界面猜参数。
+**待同步（2026-11-04）：CORE-075以炉心与圈下限替换接收范围与展开检查，停止用于新实现。** 2026-11-02 · Derived Design / CORE-074，继承070 · 设计已同步，实现与体验NotRun。执行任务固定完整设计提交，沿[任务规范](../task-pack.md)。主规则为[TL-46](../../design/systems/backpack-system/rules.md)，不从Raw几何或旧界面猜参数。
 
 ## 玩家行为与边界
 

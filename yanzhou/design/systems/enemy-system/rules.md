@@ -1,6 +1,6 @@
 # 敌人系统：规则
 
-2026-10-27 · CurrentSpec / CORE-065 round-hand.1，SYS-005。[基准](../../baseline.md) · [设计](../../../system-design/enemy-system/design.md) · [体验](../../../system-design/enemy-system/experience.md) · [示例](examples.md)
+2026-11-04 · CurrentSpec / CORE-075 table-axis.1（打断介入生产退役），继承CORE-065 round-hand.1，SYS-005。[基准](../../baseline.md) · [设计](../../../system-design/enemy-system/design.md) · [体验](../../../system-design/enemy-system/experience.md) · [示例](examples.md)
 
 ## TL-16 敌方程序约束
 
@@ -24,7 +24,7 @@
 
 ## 首版内容约束
 
-- 原生即时牌仅普通伤害；指定法器打断用延时生成，后续可为已声明的伤害或打断。
+- 原生即时牌仅普通伤害；延时生成的后续仅为已声明的伤害。CORE-075不做打断介入生产，法器打断退役；针对己方牌的封印牌作为新类型另行采纳，首战不引入。
 - 不启用敌护甲、防御／其他类牌、附属物；即时／延时是时间行为标识，不替代攻击▲／打断⊘类别。
 - 不叠同列，不在生产拍途中补敌牌，不临时针对玩家布局改变程序。
 - 取消只作用更右列的已公开后续牌，目标列开始前完成，留空不补。详见[TL-10](../../GDD.md#tl-10-取消敌牌)；首场尚无取消卡。
