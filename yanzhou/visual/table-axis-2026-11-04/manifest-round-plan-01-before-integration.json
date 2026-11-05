@@ -1,0 +1,162 @@
+{
+  "version": "ROUND-PLAN-01",
+  "date": "2026-11-05",
+  "project": "game-002",
+  "id": "Pending coordinator allocation",
+  "upstreamDesignInput": "e67e8c1748079abbf6f08d06be91fd0740422e86",
+  "selectedChange": "M-2026-11-05-round-plan-ui / user selected scheme 2 and automatic pausable production",
+  "ruleStatus": "User-selected prototype direction; formal GDD/CORE integration pending; not CORE-076 compatibility evidence",
+  "entry": "E:\\Project\\yanzhou-ui-prototypes\\table-axis-2026-11-04\\round-plan-2026-11-05\\index.html",
+  "status": "38 scoped browser checks passed; visual acceptance PendingReview; Godot, content balance and human gameplay NotRun",
+  "files": [
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/data.js",
+      "sha256": "9f570a68432f424c19bae78b1bbc1b18da04bbcfba24631f1511c85fac000bbc",
+      "bytes": 21970004
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/app.js",
+      "sha256": "3f17cfe92d00654b7cd50c385b53c225e754887246f4c7fe9717905974f415b6",
+      "bytes": 18872
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/check_round.py",
+      "sha256": "8b6bb2231fbeeb1b9192b85c6085da580acd353c9e3517239f8fb5deb490e1de",
+      "bytes": 6240
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/compact.css",
+      "sha256": "70c0c802dc64fd690e0b09517bae9cb58caca8e6764307d2f515adc99d9f53f4",
+      "bytes": 5542
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/compact.js",
+      "sha256": "fc2ad37524692587f563a8becbb7bc7daef2135fd10b07ab2b0fce94e6c698dd",
+      "bytes": 7118
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/evidence/checks.json",
+      "sha256": "112fbe5da2828dc67502c72776a81bc230a85f81410dae92d9c9279ac91a401c",
+      "bytes": 3567
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/evidence/draft-1366.png",
+      "sha256": "802bdad5c7c1a1f3d7f7391d120f87a0255c4d2e93b8a39e0d6d0b63061c0f46",
+      "bytes": 394160
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/evidence/draft-1920.png",
+      "sha256": "273d555bab02ef0731fc5e9bde1313228d64d304ba4b532e27637656190104b3",
+      "bytes": 607377
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/evidence/ready-1366.png",
+      "sha256": "0d90de98ef424f854e4ba1a3ed02c7f264afce5d8163c2b562b3921552426040",
+      "bytes": 391114
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/evidence/ready-1920.png",
+      "sha256": "5f96b96372374612b744824c58cb19a9a9731e3f0d1be59f837a6db13cc598be",
+      "bytes": 601484
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/evidence/reject-1366.png",
+      "sha256": "fbcf388734bb09cbb25671423624284838e764c6e69bf5b0b50f872b1cd76ea1",
+      "bytes": 399211
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/evidence/reject-1920.png",
+      "sha256": "c782e438d921fc846c0f90b65ace371b2b2a1b1e684917cae741ed19edb8f2bc",
+      "bytes": 626885
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/evidence/round-complete-1366.png",
+      "sha256": "9d8e72c30062d81502ed64ac54f83408fb732e36cb5fcc6419514fecd42d46b6",
+      "bytes": 376149
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/evidence/start-1366.png",
+      "sha256": "c91550e37477b44a209724345fbe5e1eb18e7e5b12017a82f67f1a07ceaa4a49",
+      "bytes": 418409
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/evidence/start-1920.png",
+      "sha256": "d67d18f8656136b40e15e7f9ced61b0379086c094b6b97a75bb16d106dff52a9",
+      "bytes": 640250
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/index.html",
+      "sha256": "18ec8032a8aab9951a3db4aaf4026c117b467aa83ea9c90aff8778f3a606e2ab",
+      "bytes": 2722
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/README.md",
+      "sha256": "1c37e99f28cdfc170f1bd6dc1b2b1b2acce75e92ec852460207cdddf45dd94bf",
+      "bytes": 2033
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/round-plan.css",
+      "sha256": "f4f4dd11f776deb80ff6d06f8efb20cff0d55eb6333dc0aebcb0b3a54356e162",
+      "bytes": 1283
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/round-plan.js",
+      "sha256": "f00976374536b7406cfaf9ec91a8e9d5299fe0ba7c50c9c70f47f980246b23c0",
+      "bytes": 16247
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/style.css",
+      "sha256": "d0f0dc758b0f12426867a2e3e9212e99682569efebe334b4584cfdf6e74c6bdc",
+      "bytes": 8280
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/wheel.css",
+      "sha256": "ff0e58b96943d4f5261b087099d84794aa126fc5f0ab7fd9590717d3b3e1e252",
+      "bytes": 3755
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/wheel.js",
+      "sha256": "d4aa2d1880eba0bbc017664dc6fb431ab55604b968fb62e555f1d60e86039cb6",
+      "bytes": 15286
+    }
+  ],
+  "ownedDesignFiles": [
+    {
+      "path": "yanzhou/system-design/presentation/interaction-contract.md",
+      "sha256": "f7b2ef2e0227d0bada65b3f4dccb25e1acd4cb5d74fa3dc9319bfc16994708ff",
+      "bytes": 12791
+    },
+    {
+      "path": "yanzhou/system-design/presentation/tabletop-backpack-information.md",
+      "sha256": "91d6de8f955027d36a18eca019cc5472a17e6740cb6b6b8c921c96f09c7b3057",
+      "bytes": 6359
+    },
+    {
+      "path": "yanzhou/sources/materials/M-2026-11-05-round-plan-ui.md",
+      "sha256": "8def08c7d4c5da98a22c14f0816ef4b858b274afe792ec08d6cbcfe2057ae28a",
+      "bytes": 2718
+    },
+    {
+      "path": "yanzhou/visual/table-axis-2026-11-04/README.md",
+      "sha256": "9a4e1853d469475e8761034c83ce9e1b9e044682a5e86bfc94e5361c53c7b208",
+      "bytes": 7758
+    },
+    {
+      "path": "yanzhou/visual/table-axis-2026-11-04/round-plan-2026-11-05.md",
+      "sha256": "bd43a95664296d5aaa40410e1bb83dff4c79eba783617495a9433b3add30731b",
+      "bytes": 4384
+    }
+  ],
+  "uses": [
+    "AS-G002-042@FIRST-BATTLE-ART-01"
+  ],
+  "previousManifest": "manifest-wheel-01.json",
+  "commit": "Uncommitted worker output; coordinator owns integration",
+  "limitations": [
+    "Prototype first production phase absorbs previous prelude",
+    "Supply timing mapped to cumulative production ticks; formal content migration pending",
+    "Existing EX-005 win routes no longer asserted",
+    "No generalized fees/effects or postbattle repack",
+    "No native saves or OS/human verification"
+  ]
+}

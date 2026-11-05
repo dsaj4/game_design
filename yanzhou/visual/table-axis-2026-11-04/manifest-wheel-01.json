@@ -1,0 +1,121 @@
+{
+  "version": "WHEEL-TABLE-01",
+  "date": "2026-11-04",
+  "project": "game-002",
+  "id": "Pending coordinator registry allocation",
+  "designInput": "e67e8c1748079abbf6f08d06be91fd0740422e86",
+  "ruleVersion": "CORE-076 / GDD3.9 / CONTENT-LIBRARY-08",
+  "engineReference": "e38c53e9c9b55bb61bd1dd6603e42c548d7c5a05",
+  "entry": "E:\\Project\\yanzhou-ui-prototypes\\table-axis-2026-11-04\\wheel.html",
+  "status": "Gesture/default-column direction confirmed; visual acceptance PendingReview; 37 scoped browser checks passed; Godot and human gameplay NotRun",
+  "uses": [
+    "AS-G002-042@FIRST-BATTLE-ART-01"
+  ],
+  "files": [
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/wheel.html",
+      "sha256": "db4f06b40737fbdb9a806b4a336846fec20b0e5c60a9cb1497b2df8b78423e02",
+      "bytes": 2687
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/wheel.css",
+      "sha256": "ff0e58b96943d4f5261b087099d84794aa126fc5f0ab7fd9590717d3b3e1e252",
+      "bytes": 3755
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/wheel.js",
+      "sha256": "886b0bc49ea188fbba5b2d1ed8bdc83e1fd40c48c35620ea04168bcc991f5066",
+      "bytes": 15280
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/compact.js",
+      "sha256": "fc2ad37524692587f563a8becbb7bc7daef2135fd10b07ab2b0fce94e6c698dd",
+      "bytes": 7118
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/compact.css",
+      "sha256": "70c0c802dc64fd690e0b09517bae9cb58caca8e6764307d2f515adc99d9f53f4",
+      "bytes": 5542
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/app.js",
+      "sha256": "e9d6b53a5d7e3597a0d8078751df7a7cbd29008e7dd709a1e9f4dd6e134e1ac4",
+      "bytes": 18841
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/style.css",
+      "sha256": "d0f0dc758b0f12426867a2e3e9212e99682569efebe334b4584cfdf6e74c6bdc",
+      "bytes": 8280
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/data.js",
+      "sha256": "9f570a68432f424c19bae78b1bbc1b18da04bbcfba24631f1511c85fac000bbc",
+      "bytes": 21970004
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/asset-uses.json",
+      "sha256": "572b3f00d8dc5b10e1b916a6a1a09a1c993b9080d511d9ca979791b328b662d7",
+      "bytes": 3531
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/README.md",
+      "sha256": "c9a348fe2d83688a394a6d912a2f9f22486182315f27109edd15856361d0cb6a",
+      "bytes": 3410
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/check_wheel.py",
+      "sha256": "8bec123dd964dd53d1a303b10af11ea435f8e6501b27e420619189d0b67a20ed",
+      "bytes": 7589
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/evidence/wheel-battle-1366.png",
+      "sha256": "8aa5a6292c9491ee9e263eef3acce78988b437a1e26242b98f44e7bbe5c2b560",
+      "bytes": 388032
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/evidence/wheel-battle-1920.png",
+      "sha256": "05e96df85607db4b4f236e230c661ed2e890808606cec76eb07db523bed49a45",
+      "bytes": 595627
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/evidence/wheel-checks.json",
+      "sha256": "7d793698842af695a8f3a4ca75f3c85fb496d3364716588ffaabec0e629a611a",
+      "bytes": 3370
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/evidence/wheel-draft-1366.png",
+      "sha256": "f8de09a4212b8a496f75eeec5c5049fe71fa42bf7ca6c1655cf1fefb20160b4b",
+      "bytes": 404413
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/evidence/wheel-open-1366.png",
+      "sha256": "113f2cde31b38084c3d77b41ecb570c00e10c44450e7fc6d0e9031b156ac368e",
+      "bytes": 401618
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/evidence/wheel-open-1920.png",
+      "sha256": "1dca8db49c4ee2a9aae87f27ef08a6a9be18b2f97d5ca3493c5b6b292abca71f",
+      "bytes": 607720
+    }
+  ],
+  "ownedDesignFiles": [
+    "yanzhou/system-design/presentation/interaction-contract.md",
+    "yanzhou/system-design/presentation/tabletop-backpack-information.md",
+    "yanzhou/sources/materials/M-2026-11-04-apparatus-wheel-ui.md",
+    "yanzhou/visual/table-axis-2026-11-04/art-host-contract.md",
+    "yanzhou/visual/table-axis-2026-11-04/compact-ui-design.md",
+    "yanzhou/visual/table-axis-2026-11-04/README.md",
+    "yanzhou/visual/table-axis-2026-11-04/wheel-input.md",
+    "yanzhou/visual/table-axis-2026-11-04/wheel-ui-design.md"
+  ],
+  "previousManifest": "manifest-compact-01.json",
+  "previousEvidenceBoundary": "Historical hashes, not current-source revalidation; compact and multi-row retained as comparison only",
+  "commit": "Not committed by worker; coordinator owns index/registry/integration",
+  "limitations": [
+    "c1-c10 limited UI specimen",
+    "No complete combat or native save validation",
+    "Apparatus SVG placeholders",
+    "Configuration read-only witness",
+    "No zero-input or nonzero-cost manufacturing example"
+  ]
+}

@@ -1,29 +1,18 @@
 # 首战任务输入：炼金工坊
 
-2026-11-04 · **内容与静态路线已同步 / first-distillation.3 / CORE-073＋075＋076 / EX-005**。实现、恢复与真人体验NotRun；本包不授权启动2D实现或实验。
+2026-11-05 · Derived / round-plan.1 / first-distillation.4。用户已采纳本遭遇15血；[D](../../sources/draft-changes/D-2026-11-05-round-plan-alignment.md)记录来源、内容迁移及总控恢复记录。CORE-077规则、内容库／展示／治理已集成；本轮用户授权启动2D开发，按最终提交固定输入。
 
-从[首战完整规格](../../content-library/first-battle.md)读取唯一套组、真实副本、炉心、占形、P／实际D、序幕、材料／补给、玩家与敌初态、敌程序和运输／战后重装见证。具体值只维护于catalog；[EX-005](../../design/examples/first-battle-alchemy.md)提供手动生产排程、两胜一败及恢复预期。
+唯一套组与物件字段取[catalog派生首战](../../content-library/first-battle.md)。使用CONTENT-LIBRARY-09／first-distillation.4及敌15血，不得回退旧路线。[EX-005](../../design/examples/first-battle-alchemy.md)给生产排程、两胜两败及恢复预期。
 
-## 当前行为与依赖
-
-战前确认四器、一小炉与真实核心，计算各器最远格圈下限并冻结配置。序幕推进5列；随后敌A／B交替，补给按全局列末解封。玩家在布置窗口把真实持有材料排入工序行，把战斗牌排入战斗行；确认只在本列所有新批次合法且合计费用足额时共同冻结。拒绝时保留排布、不推进、不揭牌；没有自动补料。c开工占用c至c+D−1，列末入手、c+D可用。同器下列可续批，终局后不补本列生产／补给。
-
-四个通用行为包仍待同步，不能作为当前依赖默认值。本包直接定位现行权威条款：
-
-| 行为 | 必需输入 |
+| 行为 | 必需权威 |
 | --- | --- |
-| 全局时序、确认、回收与终局 | [GDD§4／5](../../design/GDD.md)、[行动TL-11](../../design/systems/action-card-system/rules.md) |
-| 固定用途、P、冻结、圈下限 | [法器TL-03／05／06](../../design/systems/artifact-system/rules.md) |
-| 排料、补给、未完工退料 | [资源TL-14／15](../../design/systems/resource-system/rules.md) |
-| 核心实体与战前装配 | [铭文规则](../../design/systems/inscription-system/rules.md) |
-| 单网格运输、投入转移与重装 | [背包TL-46](../../design/systems/backpack-system/rules.md) |
-| 暗牌、公开后续与替换 | [敌人规则](../../design/systems/enemy-system/rules.md) |
-| 保存／恢复、确认原子性 | [交互TL-17—19](../../design/common/interaction-save/rules.md) |
+| 每轮5拍→不限时布置→一次锁五列；终局 | [GDD§2／4／5与TL-13／24](../../design/GDD.md)、[TL-11](../../design/systems/action-card-system/rules.md) |
+| 固定用途／P／D／圈下限与共同开拍 | [法器TL-03／05／06](../../design/systems/artifact-system/rules.md) |
+| 真实材料、p5／p10供给、跨轮与退料 | [TL-14／15](../../design/systems/resource-system/rules.md)、[TL-25](../../design/common/run-economy/rules.md) |
+| 锁行、拍／列末暂停、恢复原子性 | [TL-17—19／36](../../design/common/interaction-save/rules.md) |
+| 敌基础行与后续覆盖 | [TL-16](../../design/systems/enemy-system/rules.md) |
+| 核心、炉心、运输／重装 | [铭文](../../design/systems/inscription-system/rules.md)、[TL-46](../../design/systems/backpack-system/rules.md) |
 
-进入实现时沿[开发入口](../README.md)固定当前完整设计提交，并先同步受影响的展示合同和任务依赖；旧2D只覆盖CORE-067，不能直接套本包数据。没有必要读取全部历史GDD或沿链接扩读无关系统。
+实现应能复现安全R5C1胜余23、留药同处胜余11并余一瓶、两铁肤不治疗R5C1败、无药R4C1败；每轮引燃仅一个真实实例一次使用。两条胜路不使用疲劳，死后不补引燃第二步或未来事件。
 
-## 完成条件与范围
-
-逐项核对EX-005：真实库存与占格、圈下限、手动排料及拒绝、序幕和战斗列边界、补给幂等、单实例回收、敌A／B替换、终局停步、战果归属和恢复。静态算术、浏览器、引擎与真人证据分别登记；本轮前两项通过不替代后两项。
-
-不含其他31用途完整配置、全库取得／兼容／携带、硫链组合、辅助、封印牌、商店、下一节点或完整美术声音。需要新规则的缺口回现行裁决流程；不填退役EX-004默认值。
+范围是既有四器／小炉／真实材料配方／回收／敌A与B／胜败及限定重装，优先复用旧2D结构。旧CORE-067实现与38项HTML证据不代替新内容、引擎或恢复。无辅助／组合／新封印、全库配方、商店或下一节点。按总控最终固定提交开工，验收层次分别记录。

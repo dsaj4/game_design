@@ -1,5 +1,12 @@
 # 言咒开发入口
 
+2026-11-05总控集成：**CORE-077／GDD4.0／round-plan.1，CONTENT-LIBRARY-09／first-distillation.4**。每轮5生产拍、整轮确认、回收下轮再用；规则、内容与任务包已对齐。首战两胜两败及重装经静态复核，2D与真人体验NotRun。
+
+**开工入口：[首战任务包](task-packs/first-battle-alchemy.md)**。总控按[采纳与恢复记录](../sources/draft-changes/D-2026-11-05-round-plan-alignment.md)解除本首战批次设计暂停，授权复用唯一2D工程进入实现及工程验收；不授权玩法实验或发布。展示以[当前合同](../system-design/presentation/interaction-contract.md)为准，原型旧数据不覆盖catalog。采用[四件器物02](../visual/first-battle-art-2026-11-04/README.md)、[真实素材效果复核](../visual/round-plan-art-review-2026-11-05/README.md)与整卡运行映射02。历史实现仍CORE-067，不代表新版已运行。
+
+以下2026-11-04及更早状态仅保留历史语境；旧“待同步／未制作”不覆盖本次集成。
+
+
 2026-11-04当前规则：CORE-076／GDD3.9／table-axis.2。R1—R6列时序与确认沿[采纳D](../sources/draft-changes/D-2026-11-04-column-scheduling.md)，炉心／圈下限／P与序幕沿CORE-075。旧生产拍、待料与范围机制已替换。
 
 本轮[首战与内容库迁移](../sources/draft-changes/D-2026-11-04-first-battle-table-axis-migration.md)已完成：CONTENT-LIBRARY-08／first-distillation.3、EX-005及首战专用包同步。四通用包与桌面展示合同仍待同步，禁止从旧包补默认值。新首战三条路线、空间与材料已静态核对；2D源码／构建未改，主游戏与真人体验NotRun。

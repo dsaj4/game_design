@@ -1,0 +1,137 @@
+{
+  "version": "ROUND-PLAN-ART-REVIEW-01",
+  "date": "2026-11-05",
+  "timezone": "Asia/Shanghai",
+  "project": "game-002",
+  "registration": "Pending coordinator ID assignment",
+  "entry": "E:/Project/yanzhou-ui-prototypes/round-plan-art-review-2026-11-05/index.html",
+  "readme": "E:/Project/yanzhou-ui-prototypes/round-plan-art-review-2026-11-05/README.md",
+  "externalManifest": {
+    "path": "E:/Project/yanzhou-ui-prototypes/round-plan-art-review-2026-11-05/manifest.json",
+    "sha256": "5c596b62d2a05066775437ea41cd21ef83bb377f1cd83fc65f99a4b3ab140ff3"
+  },
+  "designReadmeSHA256": "aee23e1e61e0ec4fa8b9c7346de77e0577624e4375cb832d9ed3bdb667006cb5",
+  "designCommit": "e67e8c1748079abbf6f08d06be91fd0740422e86",
+  "catalogSHA256": "a7377262aaf147aef9429c2321389bee9811d13f0ee9d221bb5cc943782bc24b",
+  "derivedFrom": {
+    "version": "ROUND-PLAN-01",
+    "sourceDirectory": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05",
+    "files": [
+      {
+        "source": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/index.html",
+        "sha256": "18ec8032a8aab9951a3db4aaf4026c117b467aa83ea9c90aff8778f3a606e2ab",
+        "target": "index.html"
+      },
+      {
+        "source": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/app.js",
+        "sha256": "3f17cfe92d00654b7cd50c385b53c225e754887246f4c7fe9717905974f415b6",
+        "target": "app.js"
+      },
+      {
+        "source": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/compact.js",
+        "sha256": "fc2ad37524692587f563a8becbb7bc7daef2135fd10b07ab2b0fce94e6c698dd",
+        "target": "compact.js"
+      },
+      {
+        "source": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/compact.css",
+        "sha256": "70c0c802dc64fd690e0b09517bae9cb58caca8e6764307d2f515adc99d9f53f4",
+        "target": "compact.css"
+      },
+      {
+        "source": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/wheel.js",
+        "sha256": "d4aa2d1880eba0bbc017664dc6fb431ab55604b968fb62e555f1d60e86039cb6",
+        "target": "wheel.js"
+      },
+      {
+        "source": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/wheel.css",
+        "sha256": "ff0e58b96943d4f5261b087099d84794aa126fc5f0ab7fd9590717d3b3e1e252",
+        "target": "wheel.css"
+      },
+      {
+        "source": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/round-plan.js",
+        "sha256": "f00976374536b7406cfaf9ec91a8e9d5299fe0ba7c50c9c70f47f980246b23c0",
+        "target": "round-plan.js"
+      },
+      {
+        "source": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/round-plan.css",
+        "sha256": "f4f4dd11f776deb80ff6d06f8efb20cff0d55eb6333dc0aebcb0b3a54356e162",
+        "target": "round-plan.css"
+      },
+      {
+        "source": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/round-plan-2026-11-05/style.css",
+        "sha256": "d0f0dc758b0f12426867a2e3e9212e99682569efebe334b4584cfdf6e74c6bdc",
+        "target": "style.css"
+      },
+      {
+        "source": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/data.js",
+        "sha256": "9f570a68432f424c19bae78b1bbc1b18da04bbcfba24631f1511c85fac000bbc",
+        "target": "data-structure.js"
+      }
+    ],
+    "structureAcceptance": "Accepted per coordinator handoff 2026-11-05",
+    "effectReviewAcceptance": "NotReviewed",
+    "model": "unchanged prototype mapping; pending authority migration"
+  },
+  "uses": [
+    "AS-G002-042@FIRST-BATTLE-ART-02",
+    "AS-G002-042@FIRST-BATTLE-ART-01",
+    "AS-G002-041@CARD-FRAME-02",
+    "AS-G002-026"
+  ],
+  "status": {
+    "structure": "Accepted",
+    "fourNewItemArtworks": "Accepted / AvailableForUse",
+    "effectComposition": "ReadyForReview / NotReviewed",
+    "formalScheme2RuleMigration": "Pending coordinator/design integration",
+    "godot": "NotRun",
+    "playerExperience": "NotRun",
+    "balance": "NotRun"
+  },
+  "checks": {
+    "browser": 195,
+    "pointer": 14,
+    "errors": [],
+    "screenshots": 36,
+    "sourceScriptsUnchanged": true,
+    "assetHashes": 39,
+    "viewports": [
+      [
+        1920,
+        1080
+      ],
+      [
+        1366,
+        768
+      ]
+    ],
+    "measurements": [
+      {
+        "viewport": 1920,
+        "host": [
+          116,
+          145
+        ],
+        "titleEffectivePx": 16.84694549165005,
+        "permissionPx": 9,
+        "apparatusHostHeight": 140
+      },
+      {
+        "viewport": 1366,
+        "host": [
+          94,
+          118
+        ],
+        "titleEffectivePx": 13.663263627087488,
+        "permissionPx": 8,
+        "apparatusHostHeight": 99
+      }
+    ]
+  },
+  "knownLimitations": [
+    "Original frozen configuration cells 54.125x36 are not square; contain image does not match every cell boundary. No original layout changed.",
+    "Original permission text remains 9/8px; player readability not measured.",
+    "Inherited device/supply details retain c-column text; production uses p. Await rule/content synchronization."
+  ],
+  "id": "DM-G002-027",
+  "integrationNote": "CORE-077 integrated; legacy prototype/data and 209-check evidence retained as original snapshot; geometry/text corrections specified by current interaction-contract."
+}

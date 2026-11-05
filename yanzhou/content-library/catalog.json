@@ -1,9 +1,9 @@
 {
   "schema": "yanzhou-content-library/2",
-  "version": "CONTENT-LIBRARY-08",
-  "date": "2026-11-04",
-  "sourceCommit": "9e2f9687a0e7089c57114ffb4427c5a8e24212b7",
-  "scope": "CORE-075／076：单轴列时序、炉心与圈下限、逐器P；首战first-distillation.3静态重算。旧范围／待料字段退出；实现与真人体验NotRun。",
+  "version": "CONTENT-LIBRARY-09",
+  "date": "2026-11-05",
+  "sourceCommit": "e67e8c1748079abbf6f08d06be91fd0740422e86",
+  "scope": "CORE-077 / round-plan.1；每轮5生产拍、整轮锁行；first-distillation.4，静态指定路线；引擎与体验NotRun。",
   "sources": {
     "handbook": {
       "label": "炼金手册整理前版本（含 COPY-01）",
@@ -65,6 +65,18 @@
     "migration076": {
       "label": "首战与内容库迁移记录",
       "href": "../sources/draft-changes/D-2026-11-04-first-battle-table-axis-migration.md"
+    },
+    "art-first-battle": {
+      "label": "首战美术01：原图已存在，用户图稿接受待审",
+      "href": "../visual/first-battle-2026-11-02/README.md"
+    },
+    "art-first-battle-02": {
+      "label": "首战法器与小炉02：四件图稿已接受",
+      "href": "../visual/first-battle-art-2026-11-04/README.md"
+    },
+    "core077": {
+      "label": "CORE-077 整轮方案与首战迁移",
+      "href": "../sources/draft-changes/D-2026-11-05-round-plan-alignment.md"
     }
   },
   "items": [
@@ -197,6 +209,28 @@
           "path": "../../../yanzhou-art-assets/card-frame-2026-10-31/complete-v02/exports/fire-card-v02.png",
           "source": "art-cards",
           "sha256": "f1804f7da8224b7ae318b442456da2bfb85e108c60c19c2ec9a37e91914a0a8f"
+        },
+        {
+          "label": "首战物品图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/fire-v01.png",
+          "source": "art-first-battle",
+          "sha256": "81c7bc7654b0ecef66fecb3d91b7384ef34d044d64e1d80688332d4c35fae56e",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "fire",
+          "acceptance": "PendingReview"
+        },
+        {
+          "label": "首战卡图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/fire-card-v02.png",
+          "source": "art-first-battle",
+          "sha256": "ae17f646276c5d9b9538bfe99a83c404dd51f417d8b0b2898bddbbafe6d9779a",
+          "surface": "card",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "fire",
+          "acceptance": "PendingReview"
         }
       ],
       "scope": "CORE-072已采纳不可战斗及所列配方的制作参数；B01身份／连接保持。文案、几何、携带与取得分别保留原资格。 CORE-073另限定采纳首战所用占形与配置，详见首战规格；不整体晋级其他字段。",
@@ -225,6 +259,36 @@
           180,
           270
         ]
+      },
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "item": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "fire",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "81c7bc7654b0ecef66fecb3d91b7384ef34d044d64e1d80688332d4c35fae56e",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "card": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "fire",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "ae17f646276c5d9b9538bfe99a83c404dd51f417d8b0b2898bddbbafe6d9779a",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "frame": {
+          "assetId": "AS-G002-041",
+          "version": "CARD-FRAME-02",
+          "manifest": "../visual/card-frame-2026-10-31/complete-v02/manifest.json",
+          "key": "template",
+          "sha256": "1d8def307af42a0fe7c7ef49179ec13d40496c5eb83526dc48511855be7abe2a",
+          "titleLayer": "IndependentRealText",
+          "runtimeIntegration": "Pending"
+        }
       }
     },
     {
@@ -436,6 +500,28 @@
           "path": "../../../yanzhou-art-assets/card-frame-2026-10-31/complete-v02/exports/herb-card-v02.png",
           "source": "art-cards",
           "sha256": "0f99b9304dd5808ebdb6d87f2bacdf1ae402387390edc66872d9129572d5f060"
+        },
+        {
+          "label": "首战物品图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/herb-v01.png",
+          "source": "art-first-battle",
+          "sha256": "f7125811f5ac01879902081a973480aa7c9e9e69036d61839ca5f8ec316b980c",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "herb",
+          "acceptance": "PendingReview"
+        },
+        {
+          "label": "首战卡图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/herb-card-v01.png",
+          "source": "art-first-battle",
+          "sha256": "bf049b6c634f9093ae89f3a68c229f5b0433d5d1473f772d9eb08e8c79202ed3",
+          "surface": "card",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "herb",
+          "acceptance": "PendingReview"
         }
       ],
       "scope": "CORE-072已采纳不可战斗及所列配方的制作参数；B01身份／连接保持。文案、几何、携带与取得分别保留原资格。 CORE-073另限定采纳首战所用占形与配置，详见首战规格；不整体晋级其他字段。",
@@ -468,6 +554,36 @@
           180,
           270
         ]
+      },
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "item": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "herb",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "f7125811f5ac01879902081a973480aa7c9e9e69036d61839ca5f8ec316b980c",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "card": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "herb",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "bf049b6c634f9093ae89f3a68c229f5b0433d5d1473f772d9eb08e8c79202ed3",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "frame": {
+          "assetId": "AS-G002-041",
+          "version": "CARD-FRAME-02",
+          "manifest": "../visual/card-frame-2026-10-31/complete-v02/manifest.json",
+          "key": "template",
+          "sha256": "1d8def307af42a0fe7c7ef49179ec13d40496c5eb83526dc48511855be7abe2a",
+          "titleLayer": "IndependentRealText",
+          "runtimeIntegration": "Pending"
+        }
       }
     },
     {
@@ -744,7 +860,30 @@
       "unknown": [
         "首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "首战物品图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/mercury-item.png",
+          "source": "art-first-battle",
+          "sha256": "533088591158485f4b827016357c63f392373d78bec4c6ee6daacdf95a219479",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "mercury",
+          "acceptance": "PendingReview"
+        },
+        {
+          "label": "首战卡图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/mercury-card.png",
+          "source": "art-first-battle",
+          "sha256": "fda32067f8df337b3c43346b7c1140421897bd29f35475230f47d12d99f5e48c",
+          "surface": "card",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "mercury",
+          "acceptance": "PendingReview"
+        }
+      ],
       "scope": "CORE-072已采纳不可战斗及所列配方的制作参数；B01身份／连接保持。文案、几何、携带与取得分别保留原资格。 CORE-073另限定采纳首战所用占形与配置，详见首战规格；不整体晋级其他字段。",
       "facets": {
         "身份／连接": "Qualified",
@@ -772,6 +911,36 @@
           180,
           270
         ]
+      },
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "item": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "mercury",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "533088591158485f4b827016357c63f392373d78bec4c6ee6daacdf95a219479",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "card": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "mercury",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "fda32067f8df337b3c43346b7c1140421897bd29f35475230f47d12d99f5e48c",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "frame": {
+          "assetId": "AS-G002-041",
+          "version": "CARD-FRAME-02",
+          "manifest": "../visual/card-frame-2026-10-31/complete-v02/manifest.json",
+          "key": "template",
+          "sha256": "1d8def307af42a0fe7c7ef49179ec13d40496c5eb83526dc48511855be7abe2a",
+          "titleLayer": "IndependentRealText",
+          "runtimeIntegration": "Pending"
+        }
       }
     },
     {
@@ -995,7 +1164,30 @@
       "unknown": [
         "首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "首战物品图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/herb-juice-item.png",
+          "source": "art-first-battle",
+          "sha256": "8095edfd25f0bd96d081ce841f86bcf8d0a8bd69d6f0828d9d4a4ac3a2af5f3c",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "herb-juice",
+          "acceptance": "PendingReview"
+        },
+        {
+          "label": "首战卡图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/herb-juice-card.png",
+          "source": "art-first-battle",
+          "sha256": "4bce9019a49d9cf2283d10c95ddd8b50b4fc89a6a63402b1c925d0710d749895",
+          "surface": "card",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "herb-juice",
+          "acceptance": "PendingReview"
+        }
+      ],
       "scope": "CORE-072已采纳不可战斗及所列配方的制作参数；B01身份／连接保持。文案、几何、携带与取得分别保留原资格。 CORE-073另限定采纳首战所用占形与配置，详见首战规格；不整体晋级其他字段。",
       "facets": {
         "身份／连接": "Qualified",
@@ -1027,6 +1219,36 @@
           180,
           270
         ]
+      },
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "item": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "herb-juice",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "8095edfd25f0bd96d081ce841f86bcf8d0a8bd69d6f0828d9d4a4ac3a2af5f3c",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "card": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "herb-juice",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "4bce9019a49d9cf2283d10c95ddd8b50b4fc89a6a63402b1c925d0710d749895",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "frame": {
+          "assetId": "AS-G002-041",
+          "version": "CARD-FRAME-02",
+          "manifest": "../visual/card-frame-2026-10-31/complete-v02/manifest.json",
+          "key": "template",
+          "sha256": "1d8def307af42a0fe7c7ef49179ec13d40496c5eb83526dc48511855be7abe2a",
+          "titleLayer": "IndependentRealText",
+          "runtimeIntegration": "Pending"
+        }
       }
     },
     {
@@ -1061,7 +1283,30 @@
       "unknown": [
         "首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "首战物品图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/iron-sand-item.png",
+          "source": "art-first-battle",
+          "sha256": "03560adce3d29ccbd6b41c3e488e0f9135e615edbcd3919b7b7d72a8c15b1ab6",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "iron-sand",
+          "acceptance": "PendingReview"
+        },
+        {
+          "label": "首战卡图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/iron-sand-card.png",
+          "source": "art-first-battle",
+          "sha256": "9ff5703136bec3761743007673d614c0cc8ba0b7f321da3c846b85bfb0ca4f42",
+          "surface": "card",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "iron-sand",
+          "acceptance": "PendingReview"
+        }
+      ],
       "scope": "CORE-072已采纳不可战斗及所列配方的制作参数；B01身份／连接保持。文案、几何、携带与取得分别保留原资格。 CORE-073另限定采纳首战所用占形与配置，详见首战规格；不整体晋级其他字段。",
       "facets": {
         "身份／连接": "Qualified",
@@ -1093,6 +1338,36 @@
           180,
           270
         ]
+      },
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "item": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "iron-sand",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "03560adce3d29ccbd6b41c3e488e0f9135e615edbcd3919b7b7d72a8c15b1ab6",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "card": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "iron-sand",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "9ff5703136bec3761743007673d614c0cc8ba0b7f321da3c846b85bfb0ca4f42",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "frame": {
+          "assetId": "AS-G002-041",
+          "version": "CARD-FRAME-02",
+          "manifest": "../visual/card-frame-2026-10-31/complete-v02/manifest.json",
+          "key": "template",
+          "sha256": "1d8def307af42a0fe7c7ef49179ec13d40496c5eb83526dc48511855be7abe2a",
+          "titleLayer": "IndependentRealText",
+          "runtimeIntegration": "Pending"
+        }
       }
     },
     {
@@ -1308,7 +1583,30 @@
       "unknown": [
         "首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "首战物品图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/spirit-fluid-item.png",
+          "source": "art-first-battle",
+          "sha256": "f91261558b507013a089ad3d48e9786ac272429aac0a78915d1e4824ed35161a",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "spirit-fluid",
+          "acceptance": "PendingReview"
+        },
+        {
+          "label": "首战卡图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/spirit-fluid-card-v02.png",
+          "source": "art-first-battle",
+          "sha256": "aa942189f97e39874df1b392f48dc9fa9f898069c907a6a019e6c7bf505443da",
+          "surface": "card",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "spirit-fluid",
+          "acceptance": "PendingReview"
+        }
+      ],
       "scope": "CORE-072已采纳不可战斗及所列配方的制作参数；B01身份／连接保持。文案、几何、携带与取得分别保留原资格。 CORE-073另限定采纳首战所用占形与配置，详见首战规格；不整体晋级其他字段。",
       "facets": {
         "身份／连接": "Qualified",
@@ -1340,6 +1638,36 @@
           180,
           270
         ]
+      },
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "item": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "spirit-fluid",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "f91261558b507013a089ad3d48e9786ac272429aac0a78915d1e4824ed35161a",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "card": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "spirit-fluid",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "aa942189f97e39874df1b392f48dc9fa9f898069c907a6a019e6c7bf505443da",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "frame": {
+          "assetId": "AS-G002-041",
+          "version": "CARD-FRAME-02",
+          "manifest": "../visual/card-frame-2026-10-31/complete-v02/manifest.json",
+          "key": "template",
+          "sha256": "1d8def307af42a0fe7c7ef49179ec13d40496c5eb83526dc48511855be7abe2a",
+          "titleLayer": "IndependentRealText",
+          "runtimeIntegration": "Pending"
+        }
       }
     },
     {
@@ -1374,7 +1702,30 @@
       "unknown": [
         "首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "首战物品图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/fire-seed-item.png",
+          "source": "art-first-battle",
+          "sha256": "c8f5aa3c347cc9e4317a7d850696d432e0b8254129f39f9df90299bb0b3c0da2",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "fire-seed",
+          "acceptance": "PendingReview"
+        },
+        {
+          "label": "首战卡图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/fire-seed-card.png",
+          "source": "art-first-battle",
+          "sha256": "22c68eb6f97f6b0486841926e4fd99cf32f67f5826241294d03a450da23c1023",
+          "surface": "card",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "fire-seed",
+          "acceptance": "PendingReview"
+        }
+      ],
       "scope": "CORE-072已采纳不可战斗及所列配方的制作参数；B01身份／连接保持。文案、几何、携带与取得分别保留原资格。 CORE-073另限定采纳首战所用占形与配置，详见首战规格；不整体晋级其他字段。",
       "facets": {
         "身份／连接": "Qualified",
@@ -1402,6 +1753,36 @@
           180,
           270
         ]
+      },
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "item": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "fire-seed",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "c8f5aa3c347cc9e4317a7d850696d432e0b8254129f39f9df90299bb0b3c0da2",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "card": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "fire-seed",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "22c68eb6f97f6b0486841926e4fd99cf32f67f5826241294d03a450da23c1023",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "frame": {
+          "assetId": "AS-G002-041",
+          "version": "CARD-FRAME-02",
+          "manifest": "../visual/card-frame-2026-10-31/complete-v02/manifest.json",
+          "key": "template",
+          "sha256": "1d8def307af42a0fe7c7ef49179ec13d40496c5eb83526dc48511855be7abe2a",
+          "titleLayer": "IndependentRealText",
+          "runtimeIntegration": "Pending"
+        }
       }
     },
     {
@@ -2232,7 +2613,30 @@
       "unknown": [
         "首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "首战物品图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/life-item.png",
+          "source": "art-first-battle",
+          "sha256": "bad5f159f559caecfb424b73ec22b5130fddcc3784de8456cea56e962ede5648",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "life",
+          "acceptance": "PendingReview"
+        },
+        {
+          "label": "首战卡图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/life-card-final.png",
+          "source": "art-first-battle",
+          "sha256": "e956b5b6188c4dc7ee2becb6f10dc0c3a1e4dc32316826554d6c7b57026a8bf6",
+          "surface": "card",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "life",
+          "acceptance": "PendingReview"
+        }
+      ],
       "scope": "CORE-072已采纳战斗／回收／材料权限、效果、目标、费用、步骤／失败与终末制作参数。文案、几何、携带与取得未随之采纳；历史对照独立保留。 CORE-073另限定采纳首战所用占形与配置，详见首战规格；不整体晋级其他字段。",
       "facets": {
         "身份／连接": "Qualified",
@@ -2433,7 +2837,37 @@
             "depth": 1
           }
         }
-      ]
+      ],
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "item": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "life",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "bad5f159f559caecfb424b73ec22b5130fddcc3784de8456cea56e962ede5648",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "card": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "life",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "e956b5b6188c4dc7ee2becb6f10dc0c3a1e4dc32316826554d6c7b57026a8bf6",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "frame": {
+          "assetId": "AS-G002-041",
+          "version": "CARD-FRAME-02",
+          "manifest": "../visual/card-frame-2026-10-31/complete-v02/manifest.json",
+          "key": "template",
+          "sha256": "1d8def307af42a0fe7c7ef49179ec13d40496c5eb83526dc48511855be7abe2a",
+          "titleLayer": "IndependentRealText",
+          "runtimeIntegration": "Pending"
+        }
+      }
     },
     {
       "id": "alchemy.skin",
@@ -2483,7 +2917,30 @@
       "unknown": [
         "首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "首战物品图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/skin-item.png",
+          "source": "art-first-battle",
+          "sha256": "3c929f70c9e8e29becfa4d7f11d17b5864832167496cd8a369ea731914b91793",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "skin",
+          "acceptance": "PendingReview"
+        },
+        {
+          "label": "首战卡图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/skin-card.png",
+          "source": "art-first-battle",
+          "sha256": "d0ef30854befbda5052103b3a816126c9f4f4ed7cb9a9d6faf857cf70773c0d0",
+          "surface": "card",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "skin",
+          "acceptance": "PendingReview"
+        }
+      ],
       "scope": "CORE-072已采纳战斗／回收／材料权限、效果、目标、费用、步骤／失败与终末制作参数。文案、几何、携带与取得未随之采纳；历史对照独立保留。 CORE-073另限定采纳首战所用占形与配置，详见首战规格；不整体晋级其他字段。",
       "facets": {
         "身份／连接": "Qualified",
@@ -2700,7 +3157,37 @@
             "depth": 1
           }
         }
-      ]
+      ],
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "item": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "skin",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "3c929f70c9e8e29becfa4d7f11d17b5864832167496cd8a369ea731914b91793",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "card": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "skin",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "d0ef30854befbda5052103b3a816126c9f4f4ed7cb9a9d6faf857cf70773c0d0",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "frame": {
+          "assetId": "AS-G002-041",
+          "version": "CARD-FRAME-02",
+          "manifest": "../visual/card-frame-2026-10-31/complete-v02/manifest.json",
+          "key": "template",
+          "sha256": "1d8def307af42a0fe7c7ef49179ec13d40496c5eb83526dc48511855be7abe2a",
+          "titleLayer": "IndependentRealText",
+          "runtimeIntegration": "Pending"
+        }
+      }
     },
     {
       "id": "alchemy.wake",
@@ -3856,7 +4343,30 @@
       "unknown": [
         "首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "首战物品图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/ignite-item.png",
+          "source": "art-first-battle",
+          "sha256": "d33aba778304b4d2511c2e1dc009bfc08d65557e6fee059bdb124539bc0469bc",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "ignite",
+          "acceptance": "PendingReview"
+        },
+        {
+          "label": "首战卡图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/ignite-card.png",
+          "source": "art-first-battle",
+          "sha256": "bb33d63d6efe06f294851c355eaa239058ca7668e0935f37c4930203dc6330d9",
+          "surface": "card",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "ignite",
+          "acceptance": "PendingReview"
+        }
+      ],
       "scope": "CORE-072已采纳战斗／回收／材料权限、效果、目标、费用、步骤／失败与终末制作参数。文案、几何、携带与取得未随之采纳；历史对照独立保留。 CORE-073另限定采纳首战所用占形与配置，详见首战规格；不整体晋级其他字段。",
       "facets": {
         "身份／连接": "Qualified",
@@ -4048,7 +4558,37 @@
             "depth": 1
           }
         }
-      ]
+      ],
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "item": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "ignite",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "d33aba778304b4d2511c2e1dc009bfc08d65557e6fee059bdb124539bc0469bc",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "card": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "ignite",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "bb33d63d6efe06f294851c355eaa239058ca7668e0935f37c4930203dc6330d9",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "frame": {
+          "assetId": "AS-G002-041",
+          "version": "CARD-FRAME-02",
+          "manifest": "../visual/card-frame-2026-10-31/complete-v02/manifest.json",
+          "key": "template",
+          "sha256": "1d8def307af42a0fe7c7ef49179ec13d40496c5eb83526dc48511855be7abe2a",
+          "titleLayer": "IndependentRealText",
+          "runtimeIntegration": "Pending"
+        }
+      }
     },
     {
       "id": "alchemy.sun",
@@ -5565,7 +6105,30 @@
       "unknown": [
         "本体与P已定，实际D须按炉心布局计算；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "现用物品图 · 已接受",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-04/sources/artifact-extractor-v01.png",
+          "source": "art-first-battle-02",
+          "sha256": "6e51c2727c0fedcd52a086773435fa395901bdfba5e07e1e31886960d7afb22a",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-02",
+          "assetKey": "artifact-extractor",
+          "acceptance": "Accepted"
+        },
+        {
+          "label": "首战旧物品图 · 占形不符，仅参考",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/artifact-extractor-item.png",
+          "source": "art-first-battle",
+          "sha256": "56953e1546961f6e0a5027f6b9e421644da42f2cd9123881fc5f86e589fa7fc8",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "artifact-extractor",
+          "acceptance": "PendingReview"
+        }
+      ],
       "scope": "本体占形沿CORE-074；固定用途、逐器P及炉心圈下限沿CORE-075／076。全库核心兼容与取得保持原资格，首战限定另见遭遇规格。",
       "shape": {
         "body": [
@@ -5607,7 +6170,37 @@
         "首战占形／取得": "Accepted / CORE-073，仅本场规定实例及配置",
         "入料口P": "Accepted / CORE-075"
       },
-      "inletCapacity": 2
+      "inletCapacity": 2,
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "item": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-02",
+          "key": "artifact-extractor",
+          "manifest": "../visual/first-battle-art-2026-11-04/manifest.json",
+          "sha256": "6e51c2727c0fedcd52a086773435fa395901bdfba5e07e1e31886960d7afb22a",
+          "status": "AvailableForUse",
+          "userAcceptance": "Accepted",
+          "acceptedDate": "2026-11-05",
+          "size": [
+            1024,
+            1536
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "rotation": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "fit": "contain-logical-bounds",
+          "geometrySource": "shape.body",
+          "alphaDefinesGeometry": false
+        }
+      }
     },
     {
       "id": "alchemy.artifact-phase-furnace",
@@ -5728,7 +6321,30 @@
       "unknown": [
         "本体与P已定，实际D须按炉心布局计算；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "现用物品图 · 已接受",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-04/sources/artifact-retort-v01.png",
+          "source": "art-first-battle-02",
+          "sha256": "f8949baa28f44c0283a180ac3c92dc58fc71abec48c4a5acde296dc55ea6abd4",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-02",
+          "assetKey": "artifact-retort",
+          "acceptance": "Accepted"
+        },
+        {
+          "label": "首战旧物品图 · 占形不符，仅参考",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/artifact-retort-item.png",
+          "source": "art-first-battle",
+          "sha256": "c2dd2a880ec20c3a4e928d45ddf7b14259522c38ba934ecc33d9abdd9000126b",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "artifact-retort",
+          "acceptance": "PendingReview"
+        }
+      ],
       "scope": "本体占形沿CORE-074；固定用途、逐器P及炉心圈下限沿CORE-075／076。全库核心兼容与取得保持原资格，首战限定另见遭遇规格。",
       "shape": {
         "body": [
@@ -5762,7 +6378,37 @@
         "首战占形／取得": "Accepted / CORE-073，仅本场规定实例及配置",
         "入料口P": "Accepted / CORE-075"
       },
-      "inletCapacity": 2
+      "inletCapacity": 2,
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "item": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-02",
+          "key": "artifact-retort",
+          "manifest": "../visual/first-battle-art-2026-11-04/manifest.json",
+          "sha256": "f8949baa28f44c0283a180ac3c92dc58fc71abec48c4a5acde296dc55ea6abd4",
+          "status": "AvailableForUse",
+          "userAcceptance": "Accepted",
+          "acceptedDate": "2026-11-05",
+          "size": [
+            1024,
+            1536
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "rotation": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "fit": "contain-logical-bounds",
+          "geometrySource": "shape.body",
+          "alphaDefinesGeometry": false
+        }
+      }
     },
     {
       "id": "alchemy.artifact-mold",
@@ -5865,7 +6511,30 @@
       "unknown": [
         "本体与P已定，实际D须按炉心布局计算；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "现用物品图 · 已接受",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-04/sources/artifact-lamp-v01.png",
+          "source": "art-first-battle-02",
+          "sha256": "13d8451f74730b0b11bca4df1169f0f46800e9234881679fe887a3f11b5ed6c6",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-02",
+          "assetKey": "artifact-lamp",
+          "acceptance": "Accepted"
+        },
+        {
+          "label": "首战旧物品图 · 占形不符，仅参考",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/artifact-lamp-item.png",
+          "source": "art-first-battle",
+          "sha256": "a27174abf1b81f4860505988b84bcc33a92886b19a3425fdc14c3906ae5615f5",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "artifact-lamp",
+          "acceptance": "PendingReview"
+        }
+      ],
       "scope": "本体占形沿CORE-074；固定用途、逐器P及炉心圈下限沿CORE-075／076。全库核心兼容与取得保持原资格，首战限定另见遭遇规格。",
       "shape": {
         "body": [
@@ -5895,7 +6564,37 @@
         "首战占形／取得": "Accepted / CORE-073，仅本场规定实例及配置",
         "入料口P": "Accepted / CORE-075"
       },
-      "inletCapacity": 2
+      "inletCapacity": 2,
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "item": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-02",
+          "key": "artifact-lamp",
+          "manifest": "../visual/first-battle-art-2026-11-04/manifest.json",
+          "sha256": "13d8451f74730b0b11bca4df1169f0f46800e9234881679fe887a3f11b5ed6c6",
+          "status": "AvailableForUse",
+          "userAcceptance": "Accepted",
+          "acceptedDate": "2026-11-05",
+          "size": [
+            724,
+            2172
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "rotation": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "fit": "contain-logical-bounds",
+          "geometrySource": "shape.body",
+          "alphaDefinesGeometry": false
+        }
+      }
     },
     {
       "id": "alchemy.artifact-athanor",
@@ -6044,10 +6743,34 @@
       "unknown": [
         "具体实体取得与副本预算未定。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "首战物品图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/core-refine-item.png",
+          "source": "art-first-battle",
+          "sha256": "32d2c7680abcd561604dc69b51c21651e49c13b923bd3ed5239192b4c801e62a",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "core-refine",
+          "acceptance": "PendingReview"
+        }
+      ],
       "scope": "R08具体核心与兼容候选；嵌入0格是继承接口，不能据此推定未嵌入无占格。",
       "facets": {
         "首战兼容／真实副本": "Accepted / CORE-073，仅首战逐台装配表"
+      },
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "item": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "core-refine",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "32d2c7680abcd561604dc69b51c21651e49c13b923bd3ed5239192b4c801e62a",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        }
       }
     },
     {
@@ -6078,10 +6801,34 @@
       "unknown": [
         "具体实体取得与副本预算未定。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "首战物品图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/core-albedo-item.png",
+          "source": "art-first-battle",
+          "sha256": "54558a4bd80091be2cf9326d501075f5b1a567c23572a0c7447fbd466846fafe",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "core-albedo",
+          "acceptance": "PendingReview"
+        }
+      ],
       "scope": "R08具体核心与兼容候选；嵌入0格是继承接口，不能据此推定未嵌入无占格。",
       "facets": {
         "首战兼容／真实副本": "Accepted / CORE-073，仅首战逐台装配表"
+      },
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "item": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "core-albedo",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "54558a4bd80091be2cf9326d501075f5b1a567c23572a0c7447fbd466846fafe",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        }
       }
     },
     {
@@ -6141,10 +6888,34 @@
       "unknown": [
         "具体实体取得与副本预算未定。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "首战物品图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/core-citrinitas-item.png",
+          "source": "art-first-battle",
+          "sha256": "bcbc93a96f17f1f5e0f2b82e99776fd924e67c421e48020c701052ec8baa1c72",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "core-citrinitas",
+          "acceptance": "PendingReview"
+        }
+      ],
       "scope": "R08具体核心与兼容候选；嵌入0格是继承接口，不能据此推定未嵌入无占格。",
       "facets": {
         "首战兼容／真实副本": "Accepted / CORE-073，仅首战逐台装配表"
+      },
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "item": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "core-citrinitas",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "bcbc93a96f17f1f5e0f2b82e99776fd924e67c421e48020c701052ec8baa1c72",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        }
       }
     },
     {
@@ -6205,10 +6976,34 @@
       "unknown": [
         "具体实体取得与副本预算未定。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "首战物品图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/core-flow-item.png",
+          "source": "art-first-battle",
+          "sha256": "9af9c1418c29832480ee28d27b748d54905fe9aefecb341cc01e8ee400e41862",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "core-flow",
+          "acceptance": "PendingReview"
+        }
+      ],
       "scope": "R08具体核心与兼容候选；嵌入0格是继承接口，不能据此推定未嵌入无占格。",
       "facets": {
         "首战兼容／真实副本": "Accepted / CORE-073，仅首战逐台装配表"
+      },
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "item": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "core-flow",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "9af9c1418c29832480ee28d27b748d54905fe9aefecb341cc01e8ee400e41862",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        }
       }
     },
     {
@@ -6269,10 +7064,34 @@
       "unknown": [
         "具体实体取得与副本预算未定。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "首战物品图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/core-activation-item.png",
+          "source": "art-first-battle",
+          "sha256": "89ff11206a48003bb263002390a96ab8a8b91bfdbc36cb7c38c538f0b94e0789",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "core-activation",
+          "acceptance": "PendingReview"
+        }
+      ],
       "scope": "R08具体核心与兼容候选；嵌入0格是继承接口，不能据此推定未嵌入无占格。",
       "facets": {
         "首战兼容／真实副本": "Accepted / CORE-073，仅首战逐台装配表"
+      },
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "item": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "core-activation",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "89ff11206a48003bb263002390a96ab8a8b91bfdbc36cb7c38c538f0b94e0789",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        }
       }
     },
     {
@@ -6353,7 +7172,7 @@
       "description": "交替泄压与加压的炼金构装；蓄压会把下一轮的第一击提前公开。",
       "fields": {
         "地域牌组": "炼金工坊；本场唯一来源敌人",
-        "生命": 54,
+        "生命": "15",
         "护甲": "不启用",
         "程序": "首战规格内的A／B两回合基础表无限循环；上一轮后续按通用规则覆盖。"
       },
@@ -6365,15 +7184,40 @@
       ],
       "sources": [
         "first-battle-01",
-        "core073"
+        "core073",
+        "core077"
       ],
       "unknown": [
         "平衡、理解成本、实现与玩家体验NotRun；美术及声音待制作。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "首战物品图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-distillation-warden-item.png",
+          "source": "art-first-battle",
+          "sha256": "f4baa25924bc2ac8e3fd6e1e82610d89f3e69055416b1e56fa58fc727b1de4cb",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "enemy-distillation-warden",
+          "acceptance": "PendingReview"
+        }
+      ],
       "scope": "Accepted / CORE-073，仅冻结首战；新身份，不继承退役敌人的数值、程序或图稿。",
       "facets": {
         "身份／卡效／程序": "Accepted / CORE-073"
+      },
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "item": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "enemy-distillation-warden",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "f4baa25924bc2ac8e3fd6e1e82610d89f3e69055416b1e56fa58fc727b1de4cb",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        }
       }
     },
     {
@@ -6404,10 +7248,43 @@
       "unknown": [
         "平衡、理解成本、实现与玩家体验NotRun；美术及声音待制作。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "首战卡图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-vent-card-final.png",
+          "source": "art-first-battle",
+          "sha256": "7b9f2f41d40e6095db1f68925e995a6a7cff360c3129562c7dccdf34bc4e4fc4",
+          "surface": "card",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "enemy-card-vent",
+          "acceptance": "PendingReview"
+        }
+      ],
       "scope": "Accepted / CORE-073，仅冻结首战；新身份，不继承退役敌人的数值、程序或图稿。",
       "facets": {
         "身份／卡效／程序": "Accepted / CORE-073"
+      },
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "card": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "enemy-card-vent",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "7b9f2f41d40e6095db1f68925e995a6a7cff360c3129562c7dccdf34bc4e4fc4",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "frame": {
+          "assetId": "AS-G002-041",
+          "version": "CARD-FRAME-02",
+          "manifest": "../visual/card-frame-2026-10-31/complete-v02/manifest.json",
+          "key": "template",
+          "sha256": "1d8def307af42a0fe7c7ef49179ec13d40496c5eb83526dc48511855be7abe2a",
+          "titleLayer": "IndependentRealText",
+          "runtimeIntegration": "Pending"
+        }
       }
     },
     {
@@ -6438,10 +7315,43 @@
       "unknown": [
         "平衡、理解成本、实现与玩家体验NotRun；美术及声音待制作。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "首战卡图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-pressure.png",
+          "source": "art-first-battle",
+          "sha256": "e548190f697fc28640ddd74e805b125c6f6224fa18ce2a7ba858361fc3e9bdee",
+          "surface": "card",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "enemy-card-pressure",
+          "acceptance": "PendingReview"
+        }
+      ],
       "scope": "Accepted / CORE-073，仅冻结首战；新身份，不继承退役敌人的数值、程序或图稿。",
       "facets": {
         "身份／卡效／程序": "Accepted / CORE-073"
+      },
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "card": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "enemy-card-pressure",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "e548190f697fc28640ddd74e805b125c6f6224fa18ce2a7ba858361fc3e9bdee",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "frame": {
+          "assetId": "AS-G002-041",
+          "version": "CARD-FRAME-02",
+          "manifest": "../visual/card-frame-2026-10-31/complete-v02/manifest.json",
+          "key": "template",
+          "sha256": "1d8def307af42a0fe7c7ef49179ec13d40496c5eb83526dc48511855be7abe2a",
+          "titleLayer": "IndependentRealText",
+          "runtimeIntegration": "Pending"
+        }
       }
     },
     {
@@ -6475,10 +7385,43 @@
       "unknown": [
         "平衡、理解成本、实现与玩家体验NotRun；美术及声音待制作。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "首战卡图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-charge.png",
+          "source": "art-first-battle",
+          "sha256": "88ac3918b3113ff379377e3a5aabe3654a2b106b664169ee149dcb15b2eb9f28",
+          "surface": "card",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "enemy-card-charge",
+          "acceptance": "PendingReview"
+        }
+      ],
       "scope": "Accepted / CORE-073，仅冻结首战；新身份，不继承退役敌人的数值、程序或图稿。",
       "facets": {
         "身份／卡效／程序": "Accepted / CORE-073"
+      },
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "card": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "enemy-card-charge",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "88ac3918b3113ff379377e3a5aabe3654a2b106b664169ee149dcb15b2eb9f28",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "frame": {
+          "assetId": "AS-G002-041",
+          "version": "CARD-FRAME-02",
+          "manifest": "../visual/card-frame-2026-10-31/complete-v02/manifest.json",
+          "key": "template",
+          "sha256": "1d8def307af42a0fe7c7ef49179ec13d40496c5eb83526dc48511855be7abe2a",
+          "titleLayer": "IndependentRealText",
+          "runtimeIntegration": "Pending"
+        }
       }
     },
     {
@@ -6510,10 +7453,43 @@
       "unknown": [
         "平衡、理解成本、实现与玩家体验NotRun；美术及声音待制作。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "首战卡图 · 待用户审阅",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-burst-card-final.png",
+          "source": "art-first-battle",
+          "sha256": "6aa0619c0f07e4f382d100728597c5181f73e3ecf48215e07bad0f896788c25d",
+          "surface": "card",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-01",
+          "assetKey": "enemy-card-burst",
+          "acceptance": "PendingReview"
+        }
+      ],
       "scope": "Accepted / CORE-073，仅冻结首战；新身份，不继承退役敌人的数值、程序或图稿。",
       "facets": {
         "身份／卡效／程序": "Accepted / CORE-073"
+      },
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "card": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-01",
+          "key": "enemy-card-burst",
+          "manifest": "../visual/first-battle-2026-11-02/manifest.json",
+          "sha256": "6aa0619c0f07e4f382d100728597c5181f73e3ecf48215e07bad0f896788c25d",
+          "status": "PresentLocal",
+          "userAcceptance": "PendingReview"
+        },
+        "frame": {
+          "assetId": "AS-G002-041",
+          "version": "CARD-FRAME-02",
+          "manifest": "../visual/card-frame-2026-10-31/complete-v02/manifest.json",
+          "key": "template",
+          "sha256": "1d8def307af42a0fe7c7ef49179ec13d40496c5eb83526dc48511855be7abe2a",
+          "titleLayer": "IndependentRealText",
+          "runtimeIntegration": "Pending"
+        }
       }
     },
     {
@@ -6539,7 +7515,19 @@
       "unknown": [
         "其他场景数量、取得与价格；美术未制作。"
       ],
-      "art": [],
+      "art": [
+        {
+          "label": "现用物品图 · 已接受",
+          "path": "../../../yanzhou-art-assets/first-battle-2026-11-04/sources/hearth-small-v01.png",
+          "source": "art-first-battle-02",
+          "sha256": "214b14d96dcf832f2ea3a37ad6bb37976e21a309bf5b59a4f93ea38a2b856cd6",
+          "surface": "item",
+          "assetId": "AS-G002-042",
+          "assetVersion": "FIRST-BATTLE-ART-02",
+          "assetKey": "hearth-small",
+          "acceptance": "Accepted"
+        }
+      ],
       "scope": "Accepted / CORE-075：身份与尺寸；不新增全局免费配发。",
       "facets": {
         "身份／占形": "Accepted / CORE-075",
@@ -6560,6 +7548,36 @@
         ],
         "name": "1×1",
         "domain": "配置实体占格，不是配方材料或战斗卡。"
+      },
+      "presentation": {
+        "schema": "first-battle-presentation/1",
+        "item": {
+          "assetId": "AS-G002-042",
+          "version": "FIRST-BATTLE-ART-02",
+          "key": "hearth-small",
+          "manifest": "../visual/first-battle-art-2026-11-04/manifest.json",
+          "sha256": "214b14d96dcf832f2ea3a37ad6bb37976e21a309bf5b59a4f93ea38a2b856cd6",
+          "status": "AvailableForUse",
+          "userAcceptance": "Accepted",
+          "acceptedDate": "2026-11-05",
+          "size": [
+            1254,
+            1254
+          ],
+          "pivot": [
+            0.5,
+            0.5
+          ],
+          "rotation": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "fit": "contain-logical-bounds",
+          "geometrySource": "shape.body",
+          "alphaDefinesGeometry": false
+        }
       }
     },
     {
@@ -8387,8 +9405,8 @@
     {
       "id": "alchemy.encounter-first-distillation",
       "name": "首战：漏压蒸馏守卫",
-      "version": "first-distillation.3",
-      "status": "Accepted content / CORE-073＋075＋076；布局与排程为Derived静态见证",
+      "version": "first-distillation.4",
+      "status": "Accepted content / CORE-077；布局与路线为Derived静态见证",
       "case": "EX-005",
       "enemy": "alchemy.enemy-distillation-warden",
       "player": {
@@ -8780,7 +9798,7 @@
         null
       ],
       "initialOtherStates": [],
-      "supplyContract": "序幕计全局c1—c5；疗伤草在c5、c10列末窗口各一次整批入手，最早c6、c11可排料。未解封不是库存，暂停不推进、恢复不重发、终局不兑现未来批次。",
+      "supplyContract": "累计生产p5／p10拍末各发一份疗伤草，最早p6／p11开工；先共同冻结开工，再结清到货，最后发补给。暂停不推进、恢复不重发；已发生资源不因战斗提前终局回滚，未来批次不兑现。",
       "baseProgram": [
         [
           "alchemy.enemy-card-vent",
@@ -8814,16 +9832,16 @@
       },
       "notes": [
         "首战实发4台法器、1枚小炉、8枚已嵌核心及11张启动材料；无辅助、备用设备或未投入卡。预制前料是出发前取得，不要求首战重炼全链。",
-        "四用途、配方与核心副本战前公开并预装。表中实例号仅识别实体，不是法器先后序。默认布局为可行见证，不宣称全局最优；换摆法须重新计算圈下限和实际D。",
-        "序幕只推进工序，无敌牌、不计疲劳；全局列c1—c5为序幕，首个战斗回合为c6—c10。c列开工占用至c+D−1，列末入手，c+D可用。",
-        "生产表是一条玩家手动排料的参考路线，不是自动补料脚本。玩家可改排或撤回未开工材料；本列任一工序非法或合计费用不足则整次确认拒绝，不推进、不揭牌、不部分冻结。",
-        "同器旧批列末完成，下一列可再开工；只能预排真实已持材料。新产灵液在可用列才能交给药水瓶，不能将未来预告当投入。同一实例在手、行、工序或在制只占一处。",
+        "四用途、配方与核心战前公开并预装；冻结实例登记序L1、E1、S1、H1仅用于同拍到货定序，不是玩家配置优先级。布局为可行见证。",
+        "每轮先5生产拍，首轮吸收旧序幕，无额外序幕。p开工占p至p+D−1，拍末入手、下工序最早p+D；新产战斗牌可布本轮任意列。战斗不推进D。",
+        "手动参考排程不是自动补料。开拍前联合检查全部本拍工序与费用，非法则全部拒绝、保留草稿并停住。最终布置不限时，一次确认锁定五位，未来草稿不阻挡整轮确认。",
+        "同器上一批拍末完成，下一拍可开工；只排真实持有材料。到货按开工拍、冻结实例序、批内声明序，随后发补给；不倒供同拍开工。",
         "所有本场材料不可战斗；可产草本灵液、引燃术、铁肤药水、生命灵药，每项材料1份、每批产1张、制造额外费0；三张战斗牌使用费0。",
-        "引燃回收原实例后须逐列重新上行，不能一张同时铺满五列。铁肤防护先于敌伤害；生命灵药在敌伤后处理，不能救已死亡玩家。",
+        "引燃原实例使用后回手，本轮锁行不能再排，下轮再用；同名不同实例分别计。铁肤防护先于伤害，治疗在敌伤之后，不能救已死亡玩家。",
         "引燃成功削减生命或护甲且未终局后获得1咒；初始0、上限10、溢出丢弃、战终清空。本场无耗咒牌。",
         "战斗回合敌A／B从A开始循环；A第3列生成下一轮公开8伤后续，B第1列基础4伤被覆盖跳过，不补回。玩家只见合法牌背与已生成后续，不提前看到原生伤害数字。",
         "出发前公开敌类别轮廓及蓄压后下一轮迸发的机制；首轮五列为即时、即时、延时、即时、即时。",
-        "每完整事件判终局，同点双亡败；本列战斗终局后不补工序产出或补给。第10战斗回合末起通用疲劳生效，序幕不计。",
+        "每完整事件判终局，同点双亡败；生产期已发生资源不回滚，未来批次不补。第10战斗回合末起疲劳。正常暂停在生产拍末／战斗列末生效，战斗暂停不解锁。",
         "胜利后未开工材料撤回，未完工普通输入退回，已消费不退；按真实剩余与本包携带标签在同一网格重装。小炉随配置保留。失败结束本局，不进入选留。",
         "本包疗伤草／燃烧木炭清空，其余表列8种按真实剩余参选；无额外奖励、金币或自动回血。交付到胜败及重装，不定义商店或下一节点。"
       ],
@@ -8836,7 +9854,7 @@
               "quantity": 1
             }
           ],
-          "unlockColumn": 5
+          "unlockProductionBeat": 5
         },
         {
           "id": "first-distillation-supply-2",
@@ -8846,7 +9864,7 @@
               "quantity": 1
             }
           ],
-          "unlockColumn": 10
+          "unlockProductionBeat": 10
         }
       ],
       "geometryMetrics": {
@@ -8856,13 +9874,12 @@
         "transportTotal": 35,
         "productionTotal": 18,
         "safeSurvivors": 20,
-        "fastSurvivors": 24
+        "savePotionSurvivors": 22
       },
-      "date": "2026-11-04",
+      "date": "2026-11-05",
       "prologue": {
-        "columns": 5,
-        "enemies": false,
-        "fatigue": false
+        "separate": false,
+        "absorbedByFirstProductionPhase": true
       },
       "hearths": [
         {
@@ -8879,67 +9896,125 @@
         {
           "id": "ignite-1",
           "unit": "L1",
-          "startColumn": 1
+          "startProductionBeat": 1
         },
         {
           "id": "skin-1",
           "unit": "S1",
-          "startColumn": 1
+          "startProductionBeat": 1
         },
         {
           "id": "fluid-1",
           "unit": "E1",
-          "startColumn": 1
+          "startProductionBeat": 1
         },
         {
           "id": "skin-2",
           "unit": "S1",
-          "startColumn": 5
+          "startProductionBeat": 5
         },
         {
           "id": "fluid-2",
           "unit": "E1",
-          "startColumn": 6
+          "startProductionBeat": 6
         },
         {
           "id": "life-1",
           "unit": "H1",
-          "startColumn": 10
+          "startProductionBeat": 10
         },
         {
           "id": "fluid-3",
           "unit": "E1",
-          "startColumn": 11
+          "startProductionBeat": 11
         },
         {
           "id": "life-2",
           "unit": "H1",
-          "startColumn": 15
+          "startProductionBeat": 15
         }
       ],
       "routes": [
         {
           "id": "safe",
-          "name": "安全参考路线",
-          "potionColumns": {
-            "6": "alchemy.skin",
-            "11": "alchemy.skin",
-            "16": "alchemy.life",
-            "21": "alchemy.life"
+          "name": "安全路线",
+          "battleActions": {
+            "R1C2": "alchemy.ignite",
+            "R2C2": "alchemy.ignite",
+            "R3C2": "alchemy.ignite",
+            "R4C2": "alchemy.ignite",
+            "R5C1": "alchemy.ignite",
+            "R1C1": "alchemy.skin",
+            "R2C1": "alchemy.skin",
+            "R3C1": "alchemy.life",
+            "R4C1": "alchemy.life"
+          },
+          "expected": {
+            "result": "victory",
+            "round": 5,
+            "column": 1,
+            "playerHealth": 23,
+            "enemyHealth": 0
           }
         },
         {
-          "id": "fast",
-          "name": "较快但低容错路线",
-          "potionColumns": {
-            "6": "alchemy.skin",
-            "11": "alchemy.skin"
+          "id": "save-potion",
+          "name": "留药路线",
+          "battleActions": {
+            "R1C2": "alchemy.ignite",
+            "R2C2": "alchemy.ignite",
+            "R3C1": "alchemy.ignite",
+            "R4C2": "alchemy.ignite",
+            "R5C1": "alchemy.ignite",
+            "R1C1": "alchemy.skin",
+            "R2C1": "alchemy.skin",
+            "R4C1": "alchemy.life"
+          },
+          "expected": {
+            "result": "victory",
+            "round": 5,
+            "column": 1,
+            "playerHealth": 11,
+            "enemyHealth": 0
+          }
+        },
+        {
+          "id": "no-healing",
+          "name": "两铁肤不治疗",
+          "battleActions": {
+            "R1C2": "alchemy.ignite",
+            "R2C2": "alchemy.ignite",
+            "R3C2": "alchemy.ignite",
+            "R4C2": "alchemy.ignite",
+            "R5C1": "alchemy.ignite",
+            "R1C1": "alchemy.skin",
+            "R2C1": "alchemy.skin"
+          },
+          "expected": {
+            "result": "defeat",
+            "round": 5,
+            "column": 1,
+            "playerHealth": 0,
+            "enemyHealth": 3
           }
         },
         {
           "id": "no-potion",
-          "name": "只用引燃的失败路线",
-          "potionColumns": {}
+          "name": "完全无药",
+          "battleActions": {
+            "R1C1": "alchemy.ignite",
+            "R2C1": "alchemy.ignite",
+            "R3C1": "alchemy.ignite",
+            "R4C1": "alchemy.ignite",
+            "R5C1": "alchemy.ignite"
+          },
+          "expected": {
+            "result": "defeat",
+            "round": 4,
+            "column": 1,
+            "playerHealth": 0,
+            "enemyHealth": 6
+          }
         }
       ],
       "postBattleWitnesses": {
@@ -8964,7 +10039,7 @@
             ]
           }
         ],
-        "fast": [
+        "save-potion": [
           {
             "item": "alchemy.ignite",
             "copy": 1,
@@ -9002,26 +10077,28 @@
                 1
               ]
             ]
-          },
-          {
-            "item": "alchemy.life",
-            "copy": 2,
-            "rotation": 0,
-            "origin": [
-              6,
-              0
-            ],
-            "cells": [
-              [
-                6,
-                0
-              ],
-              [
-                6,
-                1
-              ]
-            ]
           }
+        ]
+      },
+      "sources": [
+        "core073",
+        "core075",
+        "core077"
+      ],
+      "production": {
+        "beatsPerRound": 5,
+        "clock": "cumulative-production-beat",
+        "durationUnit": "production-beat",
+        "frozenInstanceOrder": [
+          "L1",
+          "E1",
+          "S1",
+          "H1"
+        ],
+        "completionOrder": [
+          "startProductionBeat",
+          "frozenInstanceOrder",
+          "declaredOutputOrder"
         ]
       }
     }

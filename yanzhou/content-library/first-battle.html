@@ -1,6 +1,6 @@
 <!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>首战：漏压蒸馏守卫</title><style>body{max-width:1080px;margin:36px auto;padding:0 24px;background:#f5f2e9;color:#292f29;font:15px/1.85 "Microsoft YaHei",sans-serif}h1,h2{font-family:SimSun,serif}h2{margin-top:38px}a{color:#344c3c}table{width:100%;border-collapse:collapse;font-size:14px;background:#fcfaf4}td{border:1px solid #d9d8ca;padding:9px 12px;vertical-align:top}tr:first-child{font-weight:bold;background:#e4e8dc}.table-wrap{overflow:auto;margin:18px 0}pre{background:#e4e8dc;padding:18px;line-height:1.7;overflow:auto}p{overflow-wrap:anywhere}@media(max-width:600px){body{padding:0 16px;margin:20px auto}h1{font-size:25px}td{min-width:65px}}</style><main><h1>首战：漏压蒸馏守卫</h1>
-<p>2026-11-04 · first-distillation.3 · <strong>Accepted content / CORE-073＋075＋076；布局与排程为Derived静态见证 / EX-005</strong>。具体内容唯一维护于<a href="catalog.json">catalog</a>，本页自动派生。实现、平衡与体验NotRun。</p>
-<p><a href="index.html">内容展板</a> · <a href="../design/examples/first-battle-alchemy.md">时间与胜败推导</a> · <a href="../sources/draft-changes/D-2026-11-04-first-battle-table-axis-migration.md">迁移记录</a></p>
+<p>2026-11-05 · first-distillation.4 · <strong>Accepted content / CORE-077；布局与路线为Derived静态见证 / EX-005</strong>。具体内容唯一维护于<a href="catalog.json">catalog</a>，本页自动派生。实现、平衡与体验NotRun。</p>
+<p><a href="index.html">内容展板</a> · <a href="../design/examples/first-battle-alchemy.md">时间与胜败推导</a> · <a href="../sources/draft-changes/D-2026-11-05-round-plan-alignment.md">迁移记录</a></p>
 <h2>玩家与战场初态</h2>
 <div class="table-wrap"><table>
 <tr><td>项目</td><td>值</td></tr>
@@ -8,7 +8,7 @@
 <tr><td>护甲／咒／金币</td><td>0／0／0</td></tr>
 <tr><td>共用背包</td><td>8×5</td></tr>
 <tr><td>起始战斗牌／行／在制</td><td>均空；0张起始成品</td></tr>
-<tr><td>序幕</td><td>5列；无敌牌、不计疲劳</td></tr>
+<tr><td>生产／序幕</td><td>5拍／轮；首轮吸收旧序幕，无额外阶段</td></tr>
 </table></div>
 <h2>实际法器、炉心与核心副本</h2>
 <div class="table-wrap"><table>
@@ -35,11 +35,11 @@
 <tr><td>燃烧木炭</td><td>1</td><td>清空</td></tr>
 </table></div>
 <div class="table-wrap"><table>
-<tr><td>列末解封</td><td>材料</td><td>份数</td><td>最早可排料列</td></tr>
+<tr><td>生产拍末解封</td><td>材料</td><td>份数</td><td>最早可开工拍</td></tr>
 <tr><td>5</td><td>疗伤草</td><td>1</td><td>6</td></tr>
 <tr><td>10</td><td>疗伤草</td><td>1</td><td>11</td></tr>
 </table></div>
-<p>序幕计全局c1—c5；疗伤草在c5、c10列末窗口各一次整批入手，最早c6、c11可排料。未解封不是库存，暂停不推进、恢复不重发、终局不兑现未来批次。</p>
+<p>累计生产p5／p10拍末各发一份疗伤草，最早p6／p11开工；先共同冻结开工，再结清到货，最后发补给。暂停不推进、恢复不重发；已发生资源不因战斗提前终局回滚，未来批次不兑现。</p>
 <h2>四个生产用途与攻防</h2>
 <div class="table-wrap"><table>
 <tr><td>产物</td><td>各投入1份</td><td>基础D／实际D</td><td>战斗效果／权限</td></tr>
@@ -50,7 +50,7 @@
 </table></div>
 <h2>手动参考排程</h2>
 <div class="table-wrap"><table>
-<tr><td>批次</td><td>实例</td><td>开工列</td><td>占用至／入手列末</td><td>最早可用列</td></tr>
+<tr><td>批次</td><td>实例</td><td>开工p</td><td>占用至／入手拍末</td><td>最早下工序p</td></tr>
 <tr><td>ignite-1</td><td>L1</td><td>1</td><td>3</td><td>4</td></tr>
 <tr><td>skin-1</td><td>S1</td><td>1</td><td>2</td><td>3</td></tr>
 <tr><td>fluid-1</td><td>E1</td><td>1</td><td>4</td><td>5</td></tr>
@@ -60,9 +60,9 @@
 <tr><td>fluid-3</td><td>E1</td><td>11</td><td>14</td><td>15</td></tr>
 <tr><td>life-2</td><td>H1</td><td>15</td><td>16</td><td>17</td></tr>
 </table></div>
-<p>c1—c5为序幕，c6起为战斗；每批仅在材料已经真实入手后排入。此表是玩家操作见证，未授权自动执行或自动补料。</p>
+<p>每轮5生产拍后整轮战斗；首轮吸收原序幕。每批仅在材料已经真实入手后排入。此表是玩家操作见证，未授权自动执行或自动补料。</p>
 <h2>一个敌人与完整五列程序</h2>
-<p>漏压蒸馏守卫：生命54，不启用护甲。A／B循环，第一战斗回合为A。</p>
+<p>漏压蒸馏守卫：生命15，不启用护甲。A／B循环，第一战斗回合为A。</p>
 <div class="table-wrap"><table>
 <tr><td>基础行</td><td>第1列</td><td>第2列</td><td>第3列</td><td>第4列</td><td>第5列</td></tr>
 <tr><td>A：奇数轮</td><td>泄压喷流</td><td>泄压喷流</td><td>阀室蓄压</td><td>泄压喷流</td><td>泄压喷流</td></tr>
@@ -101,33 +101,33 @@ E E E · · · · ·
 E E E · · · · ·
 </pre>
 <h2>参考路线与战后重装</h2>
-<p>安全参考路线：c6用铁肤药水；c11用铁肤药水；c16用生命灵药；c21用生命灵药；其他存活战斗列使用同一张引燃，逐列回手后重排。胜败算术见EX-005。</p>
-<p>较快但低容错路线：c6用铁肤药水；c11用铁肤药水；其他存活战斗列使用同一张引燃，逐列回手后重排。胜败算术见EX-005。</p>
-<p>只用引燃的失败路线：不使用药水；其他存活战斗列使用同一张引燃，逐列回手后重排。胜败算术见EX-005。</p>
-<p>安全路线20格：四法器与小炉保持原位置，加入下列真实剩余。</p>
+<p>安全路线：R1C2用引燃术；R2C2用引燃术；R3C2用引燃术；R4C2用引燃术；R5C1用引燃术；R1C1用铁肤药水；R2C1用铁肤药水；R3C1用生命灵药；R4C1用生命灵药。未列己位为空；回收牌下轮再排。预期：{&#x27;result&#x27;: &#x27;victory&#x27;, &#x27;round&#x27;: 5, &#x27;column&#x27;: 1, &#x27;playerHealth&#x27;: 23, &#x27;enemyHealth&#x27;: 0}；算术见EX-005。</p>
+<p>留药路线：R1C2用引燃术；R2C2用引燃术；R3C1用引燃术；R4C2用引燃术；R5C1用引燃术；R1C1用铁肤药水；R2C1用铁肤药水；R4C1用生命灵药。未列己位为空；回收牌下轮再排。预期：{&#x27;result&#x27;: &#x27;victory&#x27;, &#x27;round&#x27;: 5, &#x27;column&#x27;: 1, &#x27;playerHealth&#x27;: 11, &#x27;enemyHealth&#x27;: 0}；算术见EX-005。</p>
+<p>两铁肤不治疗：R1C2用引燃术；R2C2用引燃术；R3C2用引燃术；R4C2用引燃术；R5C1用引燃术；R1C1用铁肤药水；R2C1用铁肤药水。未列己位为空；回收牌下轮再排。预期：{&#x27;result&#x27;: &#x27;defeat&#x27;, &#x27;round&#x27;: 5, &#x27;column&#x27;: 1, &#x27;playerHealth&#x27;: 0, &#x27;enemyHealth&#x27;: 3}；算术见EX-005。</p>
+<p>完全无药：R1C1用引燃术；R2C1用引燃术；R3C1用引燃术；R4C1用引燃术；R5C1用引燃术。未列己位为空；回收牌下轮再排。预期：{&#x27;result&#x27;: &#x27;defeat&#x27;, &#x27;round&#x27;: 4, &#x27;column&#x27;: 1, &#x27;playerHealth&#x27;: 0, &#x27;enemyHealth&#x27;: 6}；算术见EX-005。</p>
+<p>安全路线20格：配置不变，加入以下真实剩余。</p>
 <div class="table-wrap"><table>
 <tr><td>卡</td><td>锚点／旋转</td><td>格集合</td></tr>
 <tr><td>引燃术</td><td>[4, 0]／0°</td><td>[[4, 0], [4, 1]]</td></tr>
 </table></div>
-<p>较快路线24格：四法器与小炉保持原位置，加入下列真实剩余。</p>
+<p>留药路线22格：配置不变，加入以下真实剩余。</p>
 <div class="table-wrap"><table>
 <tr><td>卡</td><td>锚点／旋转</td><td>格集合</td></tr>
 <tr><td>引燃术</td><td>[4, 0]／0°</td><td>[[4, 0], [4, 1]]</td></tr>
 <tr><td>生命灵药</td><td>[5, 0]／0°</td><td>[[5, 0], [5, 1]]</td></tr>
-<tr><td>生命灵药</td><td>[6, 0]／0°</td><td>[[6, 0], [6, 1]]</td></tr>
 </table></div>
 <h2>操作、信息、失败与战终合同</h2>
 <p>首战实发4台法器、1枚小炉、8枚已嵌核心及11张启动材料；无辅助、备用设备或未投入卡。预制前料是出发前取得，不要求首战重炼全链。</p>
-<p>四用途、配方与核心副本战前公开并预装。表中实例号仅识别实体，不是法器先后序。默认布局为可行见证，不宣称全局最优；换摆法须重新计算圈下限和实际D。</p>
-<p>序幕只推进工序，无敌牌、不计疲劳；全局列c1—c5为序幕，首个战斗回合为c6—c10。c列开工占用至c+D−1，列末入手，c+D可用。</p>
-<p>生产表是一条玩家手动排料的参考路线，不是自动补料脚本。玩家可改排或撤回未开工材料；本列任一工序非法或合计费用不足则整次确认拒绝，不推进、不揭牌、不部分冻结。</p>
-<p>同器旧批列末完成，下一列可再开工；只能预排真实已持材料。新产灵液在可用列才能交给药水瓶，不能将未来预告当投入。同一实例在手、行、工序或在制只占一处。</p>
+<p>四用途、配方与核心战前公开并预装；冻结实例登记序L1、E1、S1、H1仅用于同拍到货定序，不是玩家配置优先级。布局为可行见证。</p>
+<p>每轮先5生产拍，首轮吸收旧序幕，无额外序幕。p开工占p至p+D−1，拍末入手、下工序最早p+D；新产战斗牌可布本轮任意列。战斗不推进D。</p>
+<p>手动参考排程不是自动补料。开拍前联合检查全部本拍工序与费用，非法则全部拒绝、保留草稿并停住。最终布置不限时，一次确认锁定五位，未来草稿不阻挡整轮确认。</p>
+<p>同器上一批拍末完成，下一拍可开工；只排真实持有材料。到货按开工拍、冻结实例序、批内声明序，随后发补给；不倒供同拍开工。</p>
 <p>所有本场材料不可战斗；可产草本灵液、引燃术、铁肤药水、生命灵药，每项材料1份、每批产1张、制造额外费0；三张战斗牌使用费0。</p>
-<p>引燃回收原实例后须逐列重新上行，不能一张同时铺满五列。铁肤防护先于敌伤害；生命灵药在敌伤后处理，不能救已死亡玩家。</p>
+<p>引燃原实例使用后回手，本轮锁行不能再排，下轮再用；同名不同实例分别计。铁肤防护先于伤害，治疗在敌伤之后，不能救已死亡玩家。</p>
 <p>引燃成功削减生命或护甲且未终局后获得1咒；初始0、上限10、溢出丢弃、战终清空。本场无耗咒牌。</p>
 <p>战斗回合敌A／B从A开始循环；A第3列生成下一轮公开8伤后续，B第1列基础4伤被覆盖跳过，不补回。玩家只见合法牌背与已生成后续，不提前看到原生伤害数字。</p>
 <p>出发前公开敌类别轮廓及蓄压后下一轮迸发的机制；首轮五列为即时、即时、延时、即时、即时。</p>
-<p>每完整事件判终局，同点双亡败；本列战斗终局后不补工序产出或补给。第10战斗回合末起通用疲劳生效，序幕不计。</p>
+<p>每完整事件判终局，同点双亡败；生产期已发生资源不回滚，未来批次不补。第10战斗回合末起疲劳。正常暂停在生产拍末／战斗列末生效，战斗暂停不解锁。</p>
 <p>胜利后未开工材料撤回，未完工普通输入退回，已消费不退；按真实剩余与本包携带标签在同一网格重装。小炉随配置保留。失败结束本局，不进入选留。</p>
 <p>本包疗伤草／燃烧木炭清空，其余表列8种按真实剩余参选；无额外奖励、金币或自动回血。交付到胜败及重装，不定义商店或下一节点。</p>
 <p>本页仅记录指定布局与排程的静态见证，不证明全局最优、玩法难度或真人体验。</p></main></html>

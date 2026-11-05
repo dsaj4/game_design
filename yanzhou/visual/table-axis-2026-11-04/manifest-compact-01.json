@@ -1,0 +1,133 @@
+{
+  "version": "COMPACT-TABLE-01",
+  "date": "2026-11-04",
+  "project": "game-002",
+  "id": "Pending coordinator registry allocation",
+  "designInput": "e67e8c1748079abbf6f08d06be91fd0740422e86",
+  "ruleVersion": "CORE-076 / GDD3.9 / CONTENT-LIBRARY-08",
+  "engineReference": "e38c53e9c9b55bb61bd1dd6603e42c548d7c5a05",
+  "entry": "E:\\Project\\yanzhou-ui-prototypes\\table-axis-2026-11-04\\compact.html",
+  "status": "UI candidate / PresentLocal; 31 scoped browser checks passed; user acceptance PendingReview; Godot and human gameplay NotRun",
+  "uses": [
+    "AS-G002-042@FIRST-BATTLE-ART-01"
+  ],
+  "files": [
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/compact.html",
+      "sha256": "09c6e30627d95a11d429452d517895ef53c7b497fa2911d3ee456dd246de6870",
+      "bytes": 2539
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/compact.css",
+      "sha256": "70c0c802dc64fd690e0b09517bae9cb58caca8e6764307d2f515adc99d9f53f4",
+      "bytes": 5542
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/compact.js",
+      "sha256": "fc2ad37524692587f563a8becbb7bc7daef2135fd10b07ab2b0fce94e6c698dd",
+      "bytes": 7118
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/app.js",
+      "sha256": "29b395e9753c5a28fc3e4ea6ccff63f29152c5055147f19b540b09ac8f653f4b",
+      "bytes": 18743
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/style.css",
+      "sha256": "d0f0dc758b0f12426867a2e3e9212e99682569efebe334b4584cfdf6e74c6bdc",
+      "bytes": 8280
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/data.js",
+      "sha256": "9f570a68432f424c19bae78b1bbc1b18da04bbcfba24631f1511c85fac000bbc",
+      "bytes": 21970004
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/asset-uses.json",
+      "sha256": "572b3f00d8dc5b10e1b916a6a1a09a1c993b9080d511d9ca979791b328b662d7",
+      "bytes": 3531
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/README.md",
+      "sha256": "ad9114b23b55f72bd20da907ea3a972dde04f4f7d47e4d5f154132200a1d629d",
+      "bytes": 1866
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/check_compact.py",
+      "sha256": "9ef293182e37b1119f43ca9572c72c8808fdd329c975e30b44a9557d4bcb28e0",
+      "bytes": 4006
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/index.html",
+      "sha256": "4742c6098cc866df5671b8e5d74e9cdb334275d9b6c4c0fcb6e65ef9d6fba5a6",
+      "bytes": 2328
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/art-hosts.html",
+      "sha256": "50d94f8a2742656fd3c4f50c3574c97448474160ea665a4d4b95f08518b5b3d0",
+      "bytes": 4644
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/evidence/compact-active-1366.png",
+      "sha256": "72a74ccc201a3b158c4e37c8119cd5797973cd3f91075ba04d2d50a7aa09a7c1",
+      "bytes": 382042
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/evidence/compact-active-1920.png",
+      "sha256": "52fb2365e32b89cf5caf44aeb482b83a0eaa7ee6f8a544712dc620eeb34a24fb",
+      "bytes": 602339
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/evidence/compact-battle-1366.png",
+      "sha256": "722134d93bb677c47e77e66bf85759ee7f60b48958f5386b0cc920766f70840b",
+      "bytes": 380388
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/evidence/compact-battle-1920.png",
+      "sha256": "30e26d2c7fff5056e362776e6d47a726d63d5839d265f806de81098344203d21",
+      "bytes": 594270
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/evidence/compact-checks.json",
+      "sha256": "17a69783bd6d747015c3da3a3df85e8a4796871e1211b9a95acfda7ec8cf3352",
+      "bytes": 2560
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/evidence/compact-cross-1366.png",
+      "sha256": "0e6257bcc430a63406f80e5c69de8d88ea1320a362dd0d59555439ed740841dc",
+      "bytes": 368689
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/evidence/compact-cross-1920.png",
+      "sha256": "2dea195d28665f6162f01a58f0e1bdb9efc18b2e77ce1010b26fcefc6a6a5d0b",
+      "bytes": 578169
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/evidence/compact-reject-1366.png",
+      "sha256": "6182769a75cd568afb6ffdfda8c850a7d4ad04a209d80c29742ed58318cb2ed2",
+      "bytes": 381152
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/evidence/compact-reject-1920.png",
+      "sha256": "f74d718e4ae3851228bafc96fecd2eddddba28d3055d07423f2ef42d5d911825",
+      "bytes": 596971
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/evidence/compact-start-1366.png",
+      "sha256": "912db6ecf02bc14eaa5d79a05be3eafa3c90df707be3805d7fc523154eb1bf5d",
+      "bytes": 397451
+    },
+    {
+      "path": "E:/Project/yanzhou-ui-prototypes/table-axis-2026-11-04/evidence/compact-start-1920.png",
+      "sha256": "fb906e410d6648aa01440c86a731de56dc7c8ab74739cee0d06596da8b57bbc0",
+      "bytes": 622249
+    }
+  ],
+  "limitations": [
+    "c1-c10 limited UI specimen",
+    "No complete combat or native save validation",
+    "Apparatus SVG placeholders",
+    "Configuration read-only witness",
+    "Multi-row old checks not rerun after shared script changes"
+  ]
+}

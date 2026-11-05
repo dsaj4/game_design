@@ -1,6 +1,6 @@
 # 炼金内容内容条目
 
-2026-11-04 · CONTENT-LIBRARY-08。从[catalog.json](catalog.json)生成；请修改数据源后重建，勿双写。
+2026-11-05 · CONTENT-LIBRARY-09。从[catalog.json](catalog.json)生成；请修改数据源后重建，勿双写。
 
 [展板](index.html) · [维护方式](README.md)
 
@@ -70,6 +70,8 @@
 图稿：[物品图](../../../yanzhou-art-assets/alchemy-item-pilot-2026-10-31/ways-v02/items/fire.png)（[五件物品图与卡图](../visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)）
 图稿：[卡图](../../../yanzhou-art-assets/alchemy-item-pilot-2026-10-31/ways-v02/cards/fire.png)（[五件物品图与卡图](../visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)）
 图稿：[完整卡面](../../../yanzhou-art-assets/card-frame-2026-10-31/complete-v02/exports/fire-card-v02.png)（[五件完整卡面](../visual/card-frame-2026-10-31/complete-v02/README.md)）
+图稿：[首战物品图 · 待用户审阅](../../../yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/fire-v01.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
+图稿：[首战卡图 · 待用户审阅](../../../yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/fire-card-v02.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)
 
 
@@ -173,6 +175,8 @@
 图稿：[物品图](../../../yanzhou-art-assets/alchemy-item-pilot-2026-10-31/ways-v02/items/herb.png)（[五件物品图与卡图](../visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)）
 图稿：[卡图](../../../yanzhou-art-assets/alchemy-item-pilot-2026-10-31/ways-v02/cards/herb.png)（[五件物品图与卡图](../visual/alchemy-item-pilot-2026-10-31/ways-v02/README.md)）
 图稿：[完整卡面](../../../yanzhou-art-assets/card-frame-2026-10-31/complete-v02/exports/herb-card-v02.png)（[五件完整卡面](../visual/card-frame-2026-10-31/complete-v02/README.md)）
+图稿：[首战物品图 · 待用户审阅](../../../yanzhou-art-assets/alchemy-grid-items-2026-11-01/sources/herb-v01.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
+图稿：[首战卡图 · 待用户审阅](../../../yanzhou-art-assets/alchemy-grid-cards-2026-11-01/sources/herb-card-v01.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)
 
 
@@ -333,6 +337,8 @@
 制取：[配方](recipes.md#alchemy-r02)
 配方去向：[水银溶剂](recipes.md#alchemy-r10) · [草本灵液](recipes.md#alchemy-r11)
 未定：首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。
+图稿：[首战物品图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/mercury-item.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
+图稿：[首战卡图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/mercury-card.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)
 
 
@@ -466,6 +472,8 @@
 制取：[配方](recipes.md#alchemy-r06)
 配方去向：[生命灵药](recipes.md#alchemy-recipe-life)
 未定：首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。
+图稿：[首战物品图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/herb-juice-item.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
+图稿：[首战卡图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/herb-juice-card.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)
 
 
@@ -500,6 +508,8 @@
 制取：[配方](recipes.md#alchemy-r07)
 配方去向：[金刚晶砂](recipes.md#alchemy-r19) · [铁肤药水](recipes.md#alchemy-recipe-skin)
 未定：首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。
+图稿：[首战物品图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/iron-sand-item.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
+图稿：[首战卡图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/iron-sand-card.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)
 
 
@@ -633,6 +643,8 @@
 制取：[配方](recipes.md#alchemy-r11)
 配方去向：[再生精华液](recipes.md#alchemy-r16) · [清醒凝露](recipes.md#alchemy-r17) · [生命灵药](recipes.md#alchemy-recipe-life) · [铁肤药水](recipes.md#alchemy-recipe-skin)
 未定：首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。
+图稿：[首战物品图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/spirit-fluid-item.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
+图稿：[首战卡图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/spirit-fluid-card-v02.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)
 
 
@@ -667,6 +679,8 @@
 制取：[配方](recipes.md#alchemy-r12)
 配方去向：[爆鸣火核](recipes.md#alchemy-r23) · [幽冥磷火](recipes.md#alchemy-r24) · [引燃术](recipes.md#alchemy-recipe-ignite)
 未定：首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。
+图稿：[首战物品图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/fire-seed-item.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
+图稿：[首战卡图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/fire-seed-card.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)
 
 
@@ -1116,6 +1130,8 @@
 制取：[配方](recipes.md#alchemy-recipe-life)
 配方去向：[万灵药](recipes.md#alchemy-recipe-elixir)
 未定：首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。
+图稿：[首战物品图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/life-item.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
+图稿：[首战卡图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/life-card-final.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
@@ -1168,6 +1184,8 @@
 
 制取：[配方](recipes.md#alchemy-recipe-skin)
 未定：首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。
+图稿：[首战物品图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/skin-item.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
+图稿：[首战卡图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/skin-card.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
@@ -1431,6 +1449,8 @@
 制取：[配方](recipes.md#alchemy-recipe-ignite)
 配方去向：[万灵药](recipes.md#alchemy-recipe-elixir)
 未定：首战限定配置已闭合；其他遭遇的取得、几何组合、携带／价格仍按原未决。平衡、实现与体验NotRun。
+图稿：[首战物品图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/ignite-item.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
+图稿：[首战卡图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/ignite-card.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [B01 资格：身份与配方连接](../sources/materials/M-2026-10-27-alchemy-batch-01.md) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
@@ -1728,6 +1748,8 @@
 占形（资格见分项）：2×3盘管架，6格；实体格 [[0, 0], [1, 0], [0, 1], [1, 1], [0, 2], [1, 2]]。
 关联：[滚烫蒸汽](#alchemy-steam) · [轻盈雾团](#alchemy-mist) · [草药汁液](#alchemy-herb-juice) · [水银溶剂](#alchemy-solvent) · [草本灵液](#alchemy-spirit-fluid) · [再生精华液](#alchemy-regen-fluid) · [清醒凝露](#alchemy-mind-dew) · [蚀解溶液](#alchemy-erosive-fluid)
 未定：本体与P已定，实际D须按炉心布局计算；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。
+图稿：[现用物品图 · 已接受](../../../yanzhou-art-assets/first-battle-2026-11-04/sources/artifact-extractor-v01.png)（[首战法器与小炉02：四件图稿已接受](../visual/first-battle-art-2026-11-04/README.md)）
+图稿：[首战旧物品图 · 占形不符，仅参考](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/artifact-extractor-item.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [可执行内容第一批：用户确认D、承载与设计方向](../sources/materials/M-2026-11-01-alchemy-executable-direction.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md) · [CORE-074 供料范围、资源卡组与八法器格子](../sources/draft-changes/D-2026-11-02-feeding-ranges.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
@@ -1787,6 +1809,8 @@
 占形（资格见分项）：2×3内L形曲颈瓶，4格；实体格 [[0, 0], [0, 1], [0, 2], [1, 2]]。
 关联：[生命灵药](#alchemy-life) · [铁肤药水](#alchemy-skin) · [醒神药水](#alchemy-wake)
 未定：本体与P已定，实际D须按炉心布局计算；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。
+图稿：[现用物品图 · 已接受](../../../yanzhou-art-assets/first-battle-2026-11-04/sources/artifact-retort-v01.png)（[首战法器与小炉02：四件图稿已接受](../visual/first-battle-art-2026-11-04/README.md)）
+图稿：[首战旧物品图 · 占形不符，仅参考](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/artifact-retort-item.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md) · [CORE-074 供料范围、资源卡组与八法器格子](../sources/draft-changes/D-2026-11-02-feeding-ranges.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
@@ -1846,6 +1870,8 @@
 占形（资格见分项）：1×3立灯，3格；实体格 [[0, 0], [0, 1], [0, 2]]。
 关联：[引燃术](#alchemy-ignite) · [日轮术](#alchemy-sun) · [离解术](#alchemy-dissolve)
 未定：本体与P已定，实际D须按炉心布局计算；全局取得、价格、非首战完整兼容／配置仍按原资格；主游戏与体验NotRun。
+图稿：[现用物品图 · 已接受](../../../yanzhou-art-assets/first-battle-2026-11-04/sources/artifact-lamp-v01.png)（[首战法器与小炉02：四件图稿已接受](../visual/first-battle-art-2026-11-04/README.md)）
+图稿：[首战旧物品图 · 占形不符，仅参考](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/artifact-lamp-item.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [第二批成品合同：Q6—Q8已确认](../sources/inbox/2026-11-01-alchemy-executable-content.md#第二批成品合同已确认并采纳) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md) · [CORE-074 供料范围、资源卡组与八法器格子](../sources/draft-changes/D-2026-11-02-feeding-ranges.md) · [CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md)
 
 
@@ -1921,6 +1947,7 @@
 分项资格：首战兼容／真实副本＝Accepted / CORE-073，仅首战逐台装配表。
 关联：[刻纹研钵](#alchemy-artifact-mortar) · [盘管萃炼器](#alchemy-artifact-extractor) · [封相炼炉](#alchemy-artifact-phase-furnace)
 未定：具体实体取得与副本预算未定。
+图稿：[首战物品图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/core-refine-item.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [CORE-070：散装核心1格／兼容嵌入额外0格（仅通用占格）](../sources/draft-changes/D-2026-11-01-shared-backpack.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)
 
 
@@ -1945,6 +1972,7 @@
 分项资格：首战兼容／真实副本＝Accepted / CORE-073，仅首战逐台装配表。
 关联：[白瓷曲颈瓶](#alchemy-artifact-retort)
 未定：具体实体取得与副本预算未定。
+图稿：[首战物品图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/core-albedo-item.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [CORE-070：散装核心1格／兼容嵌入额外0格（仅通用占格）](../sources/draft-changes/D-2026-11-01-shared-backpack.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)
 
 
@@ -1991,6 +2019,7 @@
 分项资格：首战兼容／真实副本＝Accepted / CORE-073，仅首战逐台装配表。
 关联：[黄铜显咒灯](#alchemy-artifact-lamp)
 未定：具体实体取得与副本预算未定。
+图稿：[首战物品图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/core-citrinitas-item.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [CORE-070：散装核心1格／兼容嵌入额外0格（仅通用占格）](../sources/draft-changes/D-2026-11-01-shared-backpack.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)
 
 
@@ -2037,6 +2066,7 @@
 分项资格：首战兼容／真实副本＝Accepted / CORE-073，仅首战逐台装配表。
 关联：[盘管萃炼器](#alchemy-artifact-extractor) · [白瓷曲颈瓶](#alchemy-artifact-retort)
 未定：具体实体取得与副本预算未定。
+图稿：[首战物品图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/core-flow-item.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [CORE-070：散装核心1格／兼容嵌入额外0格（仅通用占格）](../sources/draft-changes/D-2026-11-01-shared-backpack.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)
 
 
@@ -2083,6 +2113,7 @@
 分项资格：首战兼容／真实副本＝Accepted / CORE-073，仅首战逐台装配表。
 关联：[黄铜显咒灯](#alchemy-artifact-lamp)
 未定：具体实体取得与副本预算未定。
+图稿：[首战物品图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/core-activation-item.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[炼金手册整理前版本（含 COPY-01）](https://github.com/dsaj4/game_design/blob/16838828fba90a3444c4a49a35b98df74f271f32/yanzhou/system-design/alchemy/handbook.md) · [炼金展示 R09：数据与几何快照](C:/Users/Administrator/.codex/visualizations/2026/10/27/01a17d75-b811-75f0-b4d6-0ab28fb09175/alchemy-design-r09.html) · [CORE-070：散装核心1格／兼容嵌入额外0格（仅通用占格）](../sources/draft-changes/D-2026-11-01-shared-backpack.md) · [CORE-072 炼金配方、卡效与咒的限定采纳](../sources/draft-changes/D-2026-11-01-alchemy-executable-content.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)
 
 
@@ -2151,14 +2182,15 @@
 | 信息 | 内容 |
 | --- | --- |
 | 地域牌组 | 炼金工坊；本场唯一来源敌人 |
-| 生命 | 54 |
+| 生命 | 15 |
 | 护甲 | 不启用 |
 | 程序 | 首战规格内的A／B两回合基础表无限循环；上一轮后续按通用规则覆盖。 |
 
 分项资格：身份／卡效／程序＝Accepted / CORE-073。
 关联：[泄压喷流](#alchemy-enemy-card-vent) · [加压喷流](#alchemy-enemy-card-pressure) · [阀室蓄压](#alchemy-enemy-card-charge) · [压力迸发](#alchemy-enemy-card-burst)
 未定：平衡、理解成本、实现与玩家体验NotRun；美术及声音待制作。
-来源：[首战合格来源与明确委托](../sources/materials/M-2026-11-01-alchemy-first-battle.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)
+图稿：[首战物品图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-distillation-warden-item.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
+来源：[首战合格来源与明确委托](../sources/materials/M-2026-11-01-alchemy-first-battle.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md) · [CORE-077 整轮方案与首战迁移](../sources/draft-changes/D-2026-11-05-round-plan-alignment.md)
 
 
 <a id="alchemy-enemy-card-vent"></a>
@@ -2188,6 +2220,7 @@
 
 分项资格：身份／卡效／程序＝Accepted / CORE-073。
 未定：平衡、理解成本、实现与玩家体验NotRun；美术及声音待制作。
+图稿：[首战卡图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-vent-card-final.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[首战合格来源与明确委托](../sources/materials/M-2026-11-01-alchemy-first-battle.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)
 
 
@@ -2218,6 +2251,7 @@
 
 分项资格：身份／卡效／程序＝Accepted / CORE-073。
 未定：平衡、理解成本、实现与玩家体验NotRun；美术及声音待制作。
+图稿：[首战卡图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-pressure.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[首战合格来源与明确委托](../sources/materials/M-2026-11-01-alchemy-first-battle.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)
 
 
@@ -2250,6 +2284,7 @@
 分项资格：身份／卡效／程序＝Accepted / CORE-073。
 关联：[压力迸发](#alchemy-enemy-card-burst)
 未定：平衡、理解成本、实现与玩家体验NotRun；美术及声音待制作。
+图稿：[首战卡图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-charge.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[首战合格来源与明确委托](../sources/materials/M-2026-11-01-alchemy-first-battle.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)
 
 
@@ -2281,6 +2316,7 @@
 
 分项资格：身份／卡效／程序＝Accepted / CORE-073。
 未定：平衡、理解成本、实现与玩家体验NotRun；美术及声音待制作。
+图稿：[首战卡图 · 待用户审阅](../../../yanzhou-art-assets/first-battle-2026-11-02/sources/enemy-card-burst-card-final.png)（[首战美术01：原图已存在，用户图稿接受待审](../visual/first-battle-2026-11-02/README.md)）
 来源：[首战合格来源与明确委托](../sources/materials/M-2026-11-01-alchemy-first-battle.md) · [CORE-073 新炼金首战冻结](../sources/draft-changes/D-2026-11-01-alchemy-first-battle.md)
 
 
@@ -2304,6 +2340,7 @@
 分项资格：身份／占形＝Accepted / CORE-075；取得＝首战小炉已定，其余Unknown。
 占形（资格见分项）：1×1；实体格 [[0, 0]]。
 未定：其他场景数量、取得与价格；美术未制作。
+图稿：[现用物品图 · 已接受](../../../yanzhou-art-assets/first-battle-2026-11-04/sources/hearth-small-v01.png)（[首战法器与小炉02：四件图稿已接受](../visual/first-battle-art-2026-11-04/README.md)）
 来源：[CORE-075 一桌一轴与空间约束](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md) · [CORE-076 列时序与确认](../sources/draft-changes/D-2026-11-04-column-scheduling.md) · [首战与内容库迁移记录](../sources/draft-changes/D-2026-11-04-first-battle-table-axis-migration.md)
 
 

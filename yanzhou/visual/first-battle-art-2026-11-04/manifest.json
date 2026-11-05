@@ -1,0 +1,455 @@
+{
+  "version": "FIRST-BATTLE-ART-02",
+  "assetId": "AS-G002-042",
+  "registration": "Accepted package; shared registry integration owned by coordinator",
+  "date": "2026-11-04",
+  "inputCommit": "e67e8c1748079abbf6f08d06be91fd0740422e86",
+  "materialMode": "CUSTOM",
+  "baseline": "CORE-076 / GDD3.9 / CONTENT-LIBRARY-08 / WAYS-ART-BASELINE-02",
+  "tool": "built-in image_gen",
+  "generationCalls": 4,
+  "sourceProcessing": "Byte copies only; no alpha edits, cropping or nonuniform scaling",
+  "assets": [
+    {
+      "key": "artifact-lamp",
+      "name": "黄铜显咒灯",
+      "contentId": "alchemy.artifact-lamp",
+      "source": "E:\\Project\\yanzhou-art-assets\\first-battle-2026-11-04\\sources\\artifact-lamp-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a1a70f-6782-78a3-8d86-be11ffda881f/exec-4f16c098-45b4-4dc9-b0eb-6205870384e0.png",
+      "sha256": "13d8451f74730b0b11bca4df1169f0f46800e9234881679fe887a3f11b5ed6c6",
+      "originalBytesMatch": true,
+      "size": [
+        724,
+        2172
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        24,
+        21,
+        699,
+        2150
+      ],
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "geometrySource": "content-library/catalog.json at inputCommit; artifact-geometry.md",
+      "canvasAspectMatchesGrid": true,
+      "emptyCells": [],
+      "occupiedCells": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "maxAlpha": 255,
+          "pixelsAlpha32": 338416
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "maxAlpha": 255,
+          "pixelsAlpha32": 152496
+        },
+        {
+          "cell": [
+            0,
+            2
+          ],
+          "maxAlpha": 255,
+          "pixelsAlpha32": 252212
+        }
+      ],
+      "reference": {
+        "path": "E:\\Project\\yanzhou-art-assets\\first-battle-2026-11-02\\sources\\artifact-lamp-item.png",
+        "sha256": "a27174abf1b81f4860505988b84bcc33a92886b19a3425fdc14c3906ae5615f5",
+        "role": "identity and style"
+      },
+      "prompt": "prompts/artifact-lamp-v01.txt",
+      "promptSha256": "177f32e37282d99abcc9e93cbc63f2d32b1392f5ea4420d7e0529c6f1e89055d",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "placement": "Canvas centered on logical bounding rectangle, uniform contain; geometry from cells, never alpha",
+      "userAcceptance": "Accepted",
+      "availability": "AvailableForUse",
+      "acceptedDate": "2026-11-05"
+    },
+    {
+      "key": "artifact-extractor",
+      "name": "盘管萃炼器",
+      "contentId": "alchemy.artifact-extractor",
+      "source": "E:\\Project\\yanzhou-art-assets\\first-battle-2026-11-04\\sources\\artifact-extractor-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a1a70f-6782-78a3-8d86-be11ffda881f/exec-755f9c39-14e8-4a0a-823c-eb3d170d5ac3.png",
+      "sha256": "6e51c2727c0fedcd52a086773435fa395901bdfba5e07e1e31886960d7afb22a",
+      "originalBytesMatch": true,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "visibleBoundsAlpha32": [
+        61,
+        10,
+        961,
+        1530
+      ],
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "geometrySource": "content-library/catalog.json at inputCommit; artifact-geometry.md",
+      "canvasAspectMatchesGrid": true,
+      "emptyCells": [],
+      "occupiedCells": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "maxAlpha": 254,
+          "pixelsAlpha32": 142523
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "maxAlpha": 254,
+          "pixelsAlpha32": 141686
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "maxAlpha": 254,
+          "pixelsAlpha32": 192024
+        },
+        {
+          "cell": [
+            1,
+            1
+          ],
+          "maxAlpha": 254,
+          "pixelsAlpha32": 191475
+        },
+        {
+          "cell": [
+            0,
+            2
+          ],
+          "maxAlpha": 254,
+          "pixelsAlpha32": 205631
+        },
+        {
+          "cell": [
+            1,
+            2
+          ],
+          "maxAlpha": 254,
+          "pixelsAlpha32": 204959
+        }
+      ],
+      "reference": {
+        "path": "E:\\Project\\yanzhou-art-assets\\first-battle-2026-11-02\\sources\\artifact-extractor-item.png",
+        "sha256": "56953e1546961f6e0a5027f6b9e421644da42f2cd9123881fc5f86e589fa7fc8",
+        "role": "identity and style"
+      },
+      "prompt": "prompts/artifact-extractor-v01.txt",
+      "promptSha256": "73455361df16a475595d491f6f4d29ce0dd349cbc58e226623071005b4e93f13",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "placement": "Canvas centered on logical bounding rectangle, uniform contain; geometry from cells, never alpha",
+      "userAcceptance": "Accepted",
+      "availability": "AvailableForUse",
+      "acceptedDate": "2026-11-05"
+    },
+    {
+      "key": "artifact-retort",
+      "name": "白瓷曲颈瓶",
+      "contentId": "alchemy.artifact-retort",
+      "source": "E:\\Project\\yanzhou-art-assets\\first-battle-2026-11-04\\sources\\artifact-retort-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a1a70f-6782-78a3-8d86-be11ffda881f/exec-67522b1d-d7ff-4d9d-94dc-27f75b5b25b4.png",
+      "sha256": "f8949baa28f44c0283a180ac3c92dc58fc71abec48c4a5acde296dc55ea6abd4",
+      "originalBytesMatch": true,
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "visibleBoundsAlpha32": [
+        33,
+        151,
+        991,
+        1475
+      ],
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "geometrySource": "content-library/catalog.json at inputCommit; artifact-geometry.md",
+      "canvasAspectMatchesGrid": true,
+      "emptyCells": [
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "maxAlpha": 1,
+          "pixelsAlpha32": 0
+        },
+        {
+          "cell": [
+            1,
+            1
+          ],
+          "maxAlpha": 1,
+          "pixelsAlpha32": 0
+        }
+      ],
+      "occupiedCells": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "maxAlpha": 254,
+          "pixelsAlpha32": 75250
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "maxAlpha": 254,
+          "pixelsAlpha32": 198000
+        },
+        {
+          "cell": [
+            0,
+            2
+          ],
+          "maxAlpha": 254,
+          "pixelsAlpha32": 185262
+        },
+        {
+          "cell": [
+            1,
+            2
+          ],
+          "maxAlpha": 254,
+          "pixelsAlpha32": 100553
+        }
+      ],
+      "reference": {
+        "path": "E:\\Project\\yanzhou-art-assets\\first-battle-2026-11-02\\sources\\artifact-retort-item.png",
+        "sha256": "c2dd2a880ec20c3a4e928d45ddf7b14259522c38ba934ecc33d9abdd9000126b",
+        "role": "identity and style"
+      },
+      "prompt": "prompts/artifact-retort-v01.txt",
+      "promptSha256": "19f233ce8fd0593a36a2c7e89d346456c1b0b3f15aa5887f3f494ae124ff2197",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "placement": "Canvas centered on logical bounding rectangle, uniform contain; geometry from cells, never alpha",
+      "userAcceptance": "Accepted",
+      "availability": "AvailableForUse",
+      "acceptedDate": "2026-11-05"
+    },
+    {
+      "key": "hearth-small",
+      "name": "小炉",
+      "contentId": "alchemy.hearth-small",
+      "source": "E:\\Project\\yanzhou-art-assets\\first-battle-2026-11-04\\sources\\hearth-small-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a1a70f-6782-78a3-8d86-be11ffda881f/exec-2ad53036-56c2-4f24-82c5-acf13768b871.png",
+      "sha256": "214b14d96dcf832f2ea3a37ad6bb37976e21a309bf5b59a4f93ea38a2b856cd6",
+      "originalBytesMatch": true,
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "visibleBoundsAlpha32": [
+        89,
+        258,
+        1156,
+        1148
+      ],
+      "cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "geometrySource": "content-library/catalog.json at inputCommit; artifact-geometry.md",
+      "canvasAspectMatchesGrid": true,
+      "emptyCells": [],
+      "occupiedCells": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "maxAlpha": 255,
+          "pixelsAlpha32": 741834
+        }
+      ],
+      "reference": {
+        "path": "E:\\Project\\yanzhou-art-assets\\first-battle-2026-11-02\\sources\\artifact-extractor-item.png",
+        "sha256": "56953e1546961f6e0a5027f6b9e421644da42f2cd9123881fc5f86e589fa7fc8",
+        "role": "style only"
+      },
+      "prompt": "prompts/hearth-small-v01.txt",
+      "promptSha256": "aebb7725d828a7588e8cb930caa32b5b609fc4fdb13960e5caad558726dde6f3",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "placement": "Canvas centered on logical bounding rectangle, uniform contain; geometry from cells, never alpha",
+      "userAcceptance": "Accepted",
+      "availability": "AvailableForUse",
+      "acceptedDate": "2026-11-05"
+    }
+  ],
+  "review": {
+    "static": "PassedForCandidateScope / source, alpha, 3 backgrounds, 224 and 64px, 4 rotations visually inspected",
+    "browser": "NotRun",
+    "engine": "NotRun",
+    "userAcceptance": "Accepted",
+    "recognitionPlaytest": "NotRun",
+    "evidence": [
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\first-battle-art-2026-11-04\\evidence\\alpha-small-review.png",
+        "sha256": "bf0b20c7368dc66702c1d0e28f04f4e19e4402de7b9a800618912a0e7329b52f"
+      },
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\first-battle-art-2026-11-04\\evidence\\rotation-grid-review.png",
+        "sha256": "f9281e21b05c62f05c3a4c534ee6f0d9eeb5443fc5fc8bccfc1068fbe4b328bd"
+      }
+    ],
+    "observations": [
+      "No visible background panel or clipping in composites",
+      "Retort empty cells max alpha 1/255; no alpha>=32 pixels",
+      "Extractor and retort max alpha 254, not fully opaque",
+      "Extractor bottom margin 6px; retain full canvas containment",
+      "HTML source links checked; browser and main engine NotRun"
+    ],
+    "tooling": [
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\first-battle-art-2026-11-04\\build.py",
+        "sha256": "d8d4ff6417058c8791a886210267b90d921fb1f482e8cd29bf569a9219e80486"
+      },
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\first-battle-art-2026-11-04\\jobs.json",
+        "sha256": "a594c3ae37bdad83d078e1c70a2f2fe8141d4107e8e003ae989644909eac1c54"
+      },
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\first-battle-art-2026-11-04\\index.html",
+        "sha256": "80a0d84f948d026c928ca0b74da425a8143e05e5151ae61911fa066729422560"
+      },
+      {
+        "path": "E:\\Project\\yanzhou-ui-prototypes\\first-battle-art-2026-11-04\\finalize.py",
+        "sha256": "d7dd34ed6a4da804dbc8f9c68133e24b10de1839cb5f3d335ee73ad32c4a4a55"
+      }
+    ]
+  },
+  "rights": "Original generated project candidate artwork; internal production and review; no third-party images or fonts distributed",
+  "fileInventory": [
+    "E:\\Project\\game\\yanzhou\\visual\\first-battle-art-2026-11-04\\manifest.json",
+    "E:\\Project\\game\\yanzhou\\visual\\first-battle-art-2026-11-04\\prompts\\artifact-extractor-v01.txt",
+    "E:\\Project\\game\\yanzhou\\visual\\first-battle-art-2026-11-04\\prompts\\artifact-lamp-v01.txt",
+    "E:\\Project\\game\\yanzhou\\visual\\first-battle-art-2026-11-04\\prompts\\artifact-retort-v01.txt",
+    "E:\\Project\\game\\yanzhou\\visual\\first-battle-art-2026-11-04\\prompts\\hearth-small-v01.txt",
+    "E:\\Project\\game\\yanzhou\\visual\\first-battle-art-2026-11-04\\README.md",
+    "E:\\Project\\yanzhou-art-assets\\first-battle-2026-11-04\\sources\\artifact-lamp-v01.png",
+    "E:\\Project\\yanzhou-art-assets\\first-battle-2026-11-04\\sources\\artifact-extractor-v01.png",
+    "E:\\Project\\yanzhou-art-assets\\first-battle-2026-11-04\\sources\\artifact-retort-v01.png",
+    "E:\\Project\\yanzhou-art-assets\\first-battle-2026-11-04\\sources\\hearth-small-v01.png",
+    "E:\\Project\\yanzhou-ui-prototypes\\first-battle-art-2026-11-04\\build.py",
+    "E:\\Project\\yanzhou-ui-prototypes\\first-battle-art-2026-11-04\\evidence\\alpha-small-review.png",
+    "E:\\Project\\yanzhou-ui-prototypes\\first-battle-art-2026-11-04\\evidence\\rotation-grid-review.png",
+    "E:\\Project\\yanzhou-ui-prototypes\\first-battle-art-2026-11-04\\finalize.py",
+    "E:\\Project\\yanzhou-ui-prototypes\\first-battle-art-2026-11-04\\index.html",
+    "E:\\Project\\yanzhou-ui-prototypes\\first-battle-art-2026-11-04\\jobs.json"
+  ],
+  "previousVersion": "FIRST-BATTLE-ART-02-CANDIDATE",
+  "userAcceptance": "Accepted",
+  "availability": "AvailableForUse",
+  "acceptance": {
+    "date": "2026-11-05",
+    "timezone": "Asia/Shanghai",
+    "basis": "User explicitly approved review and inclusion as usable assets",
+    "scope": "All four transparent body artworks in this manifest; project asset use",
+    "engineIntegration": "NotRun",
+    "gameplayValidation": "NotRun"
+  }
+}

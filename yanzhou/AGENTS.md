@@ -1,5 +1,8 @@
 # 言咒项目操作
 
+2026-11-05总控集成：**CORE-077／GDD4.0／round-plan.1，CONTENT-LIBRARY-09／first-distillation.4**。每轮5生产拍、整轮确认、回收下轮再用；规则、内容与任务包已对齐。首战两胜两败及重装经静态复核，2D与真人体验NotRun。 当前接手沿[开发入口](development/README.md)；以下旧日期增量只作历史状态。
+
+
 2026-11-04增量：CORE-076（GDD3.9／table-axis.2）为当前规则；[首战与内容库迁移](sources/draft-changes/D-2026-11-04-first-battle-table-axis-migration.md)已完成，CONTENT-LIBRARY-08／first-distillation.3、EX-005及首战专用包已同步。四个通用包与展示合同仍待同步；2D实现与真人体验NotRun。
 
 2026-11-01。game-002，工作区`yanzhou/`；继承根AGENTS的资格、Git及设计／代码边界。输入、来源与验收按[轻量记录](../docs/design-workflow.md#言咒轻量记录)：摘要代替原话，共用固定版本，准确引用，已有信息不重复抄录。

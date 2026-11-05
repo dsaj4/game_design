@@ -6,7 +6,7 @@
 
 ## 当前内容状态
 
-当前完整首战输入为[CORE-073冻结规格](../../content-library/first-battle.md)，含唯一敌人、A／B完整五列表及后续替换；[EX-005](../examples/first-battle-alchemy.md)列出可达应对与胜败静态预期。实现与体验NotRun。EX-003仍仅局部机制，EX-001／002按旧固定范围解释。
+当前完整首战输入为[CORE-073冻结规格](../../content-library/first-battle.md)，含唯一敌人、A／B完整五列表及后续替换；本轮round-plan.1采纳本遭遇生命15，目标first-distillation.4字段由内容库所有者同步，旧.3不可替代；[EX-005](../examples/first-battle-alchemy.md)列出可达应对与胜败静态预期。实现与体验NotRun。EX-003仍仅局部机制，EX-001／002按旧固定范围解释。
 
 ## 必需字段
 

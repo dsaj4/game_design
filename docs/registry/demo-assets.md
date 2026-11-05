@@ -94,6 +94,10 @@ DM-G002-021当前二维工程、DM-G002-020首轮HTML、DM-G002-019炼金阅读�
 
 ## <a id="as-g002-042"></a>AS-G002-042 首战对应美术资产
 
+2026-11-05续版：[FIRST-BATTLE-ART-02](../../yanzhou/visual/first-battle-art-2026-11-04/README.md)新增三法器修订与小炉共四图，用户Accepted / AvailableForUse；源PNG及SHA按manifest，原件就地。几何/三底色/旋转静态检查通过，主游戏NotIntegrated。使用者为内容库09、整卡映射02及DM-G002-027；01旧三法器只作历史，01其余卡图/核心/敌人继续沿原资格。仅项目内部使用，不授权发布。
+
+以下01为历史交付：
+
 - game-002 / main；FIRST-BATTLE-ART-01，2026-11-02。[交付与审阅入口](../../yanzhou/visual/first-battle-2026-11-02/README.md)；按CONTENT-LIBRARY-06 / CORE-073 / EX-005，固定输入`4abbe3fc36835b601bb9981a2b01806fc0f78949`。覆盖10种材料／成品、3种法器、5种核心、1名敌人和4种敌牌，共33图（29新图＋4复用）。
 - 原件在`E:/Project/yanzhou-art-assets/first-battle-2026-11-02/`；提示词、内容ID、占格、SHA、原生尺寸及失败过程稿沿本批manifest。内置image_gen 39次；14张最终卡图全部1174×1340 RGB，与物品占格无关。三图经用户明确授权仅追加底部1行，原区域逐像素不变；其余新图保存生成原字节。
 - ReadyForScope / PresentLocal，限覆盖、文件、占格、三底色与静态目视审阅；两种L形法器空缺格无可见侵入，极低alpha残留如实登记。新造型用户接受PendingReview；浏览器、内容库关联、主游戏、完整整卡及玩家辨识NotRun。
@@ -633,6 +637,10 @@ DM-G002-011第十三批使用补记：GODOT-DEMONCARDS-CANDIDATES-B13-01，固�
 
 ## <a id="dm-g002-023"></a>DM-G002-023 言咒具体内容库展板
 
+2026-11-05续版：CONTENT-LIBRARY-09／first-distillation.4／CORE-077；69项、35配方，27有图对象/52图稿引用。四件器物02已选入运行映射，首战15血与两胜两败、20/22格重装经静态复核。当前文件/生成器/新浏览器与算术证据沿内容库manifest；旧08证据不覆盖。uses追加AS-G002-042@01/02；仍ReadyForScope / PresentLocal，Godot/真人NotRun。
+
+以下08为历史交付：
+
 - game-002 / main；CONTENT-LIBRARY-08。[打开展板](../../yanzhou/content-library/index.html)；[法器／炉心与P](../../yanzhou/content-library/artifact-geometry.html)；[首战规格](../../yanzhou/content-library/first-battle.md)。69项alchemy、35配方、3构筑、1首战；CORE-073套组与敌表保留，CORE-075／076的炉心、圈下限、P与列时序已迁入first-distillation.3；其他配置资格不扩大。
 - catalog为唯一具体内容源；文件、生成器与证据哈希见[manifest](../../yanzhou/content-library/manifest.json)。外部代码及证据位于`E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01/`。迁移输入与上一工作树快照固定于`9e2f9687a0e7089c57114ffb4427c5a8e24212b7`；07生成器／证据保留在`content-library-07-generator/`及`content-library-07-evidence/`，此前沿旧manifest追溯。
 - ReadyForScope / PresentLocal，2026-11-04：浏览器210项通过、错误0；69详情、35配方、原图／检索／键盘／响应布局、首战与实体格形页。静态保全、P、圈下限、运输／重装逐格、材料可用与三条指定路线算术通过；准确数量及哈希见manifest，证据在`content-library-08-evidence/`。仅限静态审阅，不代表引擎／真人／平衡验证。
@@ -643,3 +651,15 @@ DM-G002-011第十三批使用补记：GODOT-DEMONCARDS-CANDIDATES-B13-01，固�
 - game-002 / main；TABLETOP-BACKPACK-HTML-01。[单文件审阅入口与范围](../../yanzhou/visual/tabletop-backpack-2026-11-02/README.md)，[文字合同](../../yanzhou/system-design/presentation/interaction-contract.md)。本地交付`E:/Project/yanzhou-ui-prototypes/tabletop-backpack-2026-11-02/tabletop.html`，源文件／资产／证据由[manifest](../../yanzhou/visual/tabletop-backpack-2026-11-02/manifest.json)与外部完整清单固定，不以localhost或可变目录作固定版本。
 - ReadyForScope / PresentLocal，2026-11-02，仅限CORE-073首轮装载／生产／布牌、单实例回收、主动查看和独立战果快照的HTML界面；21项UI状态合同检查及实际浏览器局部操作通过，两档1920×1080／1366×768、单文件内联与图片检查通过，证据沿维护页。表现选择PendingReview；完整首战、主工程、平衡和玩家理解仍NotRun。
 - uses：AS-G002-040@ALCHEMY-ITEM-PILOT-03两张透明图、AS-G002-041@CARD-ART-03对应两张卡图及CARD-FRAME-02模板，原字节复制／内联；其他图形为原创SVG结构占位。derived-from：None（独立代码）。无CDN或第三方原图／字体文件，无公开部署；仅项目内部审阅，公开分发未授权。
+
+## <a id="dm-g002-025"></a>DM-G002-025 整轮方案结构原型
+
+2026-11-05 · game-002 / main；ROUND-PLAN-01。[入口与manifest](../../yanzhou/visual/table-axis-2026-11-04/README.md)。用户已通过方案2；38项原型浏览器检查仅限原范围。原型旧54血/详情/暂停以CORE-077正式合同覆盖；不是当前首战验收。ReadyForScope / PresentLocal；uses AS-G002-042@01，独立结构原型，旧轮盘版本固定留存。内部审阅，不发布。
+
+## <a id="dm-g002-026"></a>DM-G002-026 整卡样件及运行素材映射
+
+2026-11-05 · game-002 / main；FIRST-BATTLE-CARD-INTEGRATION-02。[入口/交接/manifest](E:/Project/yanzhou-ui-prototypes/first-battle-card-integration-2026-11-04/README.md)。14张分层整卡样件、稳定ID映射及四件器物02运行选择；固定外部文件SHA，原件不改。ReadyForScope / PresentLocal；仅素材宿主依据，不作为玩法数据源。uses AS-G002-042@01/02、AS-G002-041@CARD-FRAME-02、AS-G002-026字体；字体和合成最终接受未验，Godot未接入，内部审阅不发布。
+
+## <a id="dm-g002-027"></a>DM-G002-027 整轮方案真实美术效果复核
+
+2026-11-05 · game-002 / main；ROUND-PLAN-ART-REVIEW-01。[入口、限制及manifest](../../yanzhou/visual/round-plan-art-review-2026-11-05/README.md)。derived-from DM-G002-025@ROUND-PLAN-01；uses DM-G002-026@02及AS-G002-042@01/02、AS-G002-041@CARD-FRAME-02、AS-G002-026。209项局部浏览器检查、36截图及独立方格页支持效果适配。配置窗矩形格/权限小字/c文案的修正按当前展示合同交工程落实，旧证据不回填。ReadyForScope / PresentLocal；合成最终接受、Godot、真人NotRun。短期效果派生，不新建第二套游戏，不发布。
