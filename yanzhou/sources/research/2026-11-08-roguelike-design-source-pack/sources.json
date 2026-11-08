@@ -1,0 +1,3887 @@
+[
+  {
+    "id": "RLR-20261108-001",
+    "title": "Berlin Interpretation",
+    "author": "IRDC 2008 participants; posted by Jeff Lait",
+    "year": 2008,
+    "kind": "community-definition",
+    "topics": [
+      "definition",
+      "randomness",
+      "failure"
+    ],
+    "scope": "Traditional roguelike",
+    "suggested_locator": "General Principles; High value factors",
+    "limitation": "Genre description, not a quality standard; preservation page can change.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://www.roguebasin.com/?title=Berlin_Interpretation",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.roguebasin.com/?title=Berlin_Interpretation",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:00.725629+00:00",
+        "page_title": "Berlin Interpretation - RogueBasin",
+        "status": "local-article",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-001\\01-fulltext.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-001\\01-fulltext.extracted.txt",
+        "sha256": "aaa0c97d57f084a8742569180d1de759349f187974d19d588fef89b7ed7ef86d",
+        "text_sha256": "fc4a3849d7faa413e5ffed407471f2e274326cf880a618cee94ace4c1a67042e",
+        "bytes": 25056,
+        "text_chars": 6217,
+        "text_lines": 180,
+        "bookmarks": [
+          {
+            "keyword": "random",
+            "line": 70,
+            "pdf_page": null
+          },
+          {
+            "keyword": "permadeath",
+            "line": 77,
+            "pdf_page": null
+          }
+        ]
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-002",
+    "title": "Dungeon Crawl Stone Soup manual: Philosophy",
+    "author": "DCSS development team",
+    "year": "living document",
+    "kind": "developer-standard",
+    "topics": [
+      "decision",
+      "randomness",
+      "difficulty",
+      "information",
+      "replay"
+    ],
+    "scope": "Traditional tactical roguelike",
+    "suggested_locator": "全文手册中只读 N. Philosophy；提取文本定位行：[1308]，需选正文处而非目录。",
+    "limitation": "Project-specific priorities; not automatically applicable to action or deckbuilding roguelites.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://raw.githubusercontent.com/crawl/crawl/master/crawl-ref/docs/crawl_manual.rst",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://raw.githubusercontent.com/crawl/crawl/master/crawl-ref/docs/crawl_manual.rst",
+        "content_type": "text/plain; charset=utf-8",
+        "retrieved_at_utc": "2026-11-08T02:33:50.858043+00:00",
+        "status": "local-article",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-002\\01-fulltext.txt",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-002\\01-fulltext.extracted.txt",
+        "sha256": "523e0ac210b610ef13d9a9b3547a6188e7b61d4d339a3e99a3e8d49d7f7dd035",
+        "text_sha256": "2b18199dc14505cc2790bb42006086c88cc0b4f6830acc9326b7ff7f011307d3",
+        "bytes": 137196,
+        "text_chars": 137196,
+        "text_lines": 3156,
+        "bookmarks": [
+          {
+            "keyword": "random",
+            "line": 97,
+            "pdf_page": null
+          },
+          {
+            "keyword": "limitation",
+            "line": 112,
+            "pdf_page": null
+          },
+          {
+            "keyword": "method",
+            "line": 326,
+            "pdf_page": null
+          },
+          {
+            "keyword": "difficulty",
+            "line": 676,
+            "pdf_page": null
+          },
+          {
+            "keyword": "balance",
+            "line": 1261,
+            "pdf_page": null
+          },
+          {
+            "keyword": "design goal",
+            "line": 1321,
+            "pdf_page": null
+          },
+          {
+            "keyword": "meaningful",
+            "line": 1323,
+            "pdf_page": null
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-003",
+    "title": "Level Up Your Game: The Untapped Potential of Roguelikes",
+    "author": "Tom Cadwell / Riot Games",
+    "year": 2015,
+    "kind": "developer-talk",
+    "topics": [
+      "loop",
+      "mastery",
+      "decision",
+      "randomness",
+      "progression"
+    ],
+    "scope": "Cross-genre design patterns",
+    "suggested_locator": "Mastery Loop; Roguelike Patterns; recap slide",
+    "limitation": "Designer framework and examples, not controlled experimental evidence; slides omit speech.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "landing",
+        "url": "https://www.gdcvault.com/play/1022119/AI-in-Game-Design",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.gdcvault.com/play/1022119/AI-in-Game-Design",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:33:51.675627+00:00",
+        "page_title": "GDC Vault - Level Up Your Game: The Untapped Potential of Roguelikes",
+        "status": "local-landing-only",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-003\\01-landing.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-003\\01-landing.extracted.txt",
+        "sha256": "fd70358c0f0f769459a85f40082318cbd287d35289c42ff1a3051891051c4d29",
+        "text_sha256": "0e8acf74168595388e69836fe3b486200b4afd052f12da05738c1ac9a103e7f3",
+        "bytes": 132315,
+        "text_chars": 2934,
+        "text_lines": 93,
+        "bookmarks": [
+          {
+            "keyword": "mastery",
+            "line": 28,
+            "pdf_page": null
+          }
+        ]
+      },
+      {
+        "role": "slides",
+        "url": "https://media.gdcvault.com/gdc2015/presentations/CADWELL_THOMAS_LEVEL%20UP%20YOUR%20GAME.pdf",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://media.gdcvault.com/gdc2015/presentations/CADWELL_THOMAS_LEVEL%20UP%20YOUR%20GAME.pdf",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:33:53.395422+00:00",
+        "pages": 60,
+        "status": "local-slides",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-003\\02-slides.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-003\\02-slides.extracted.txt",
+        "sha256": "aa65e5545da10a1b66020f5341eb1b4563e02f74cd8bda4119dbb7c89dcf0578",
+        "text_sha256": "748fc9b0df3e185d5bc46ac6faa0e36546a8262f76b5de934950fddbf5aed774",
+        "bytes": 3504517,
+        "text_chars": 4488,
+        "text_lines": 299,
+        "bookmarks": [
+          {
+            "keyword": "mastery",
+            "line": 29,
+            "pdf_page": 7
+          },
+          {
+            "keyword": "failure",
+            "line": 72,
+            "pdf_page": 14
+          },
+          {
+            "keyword": "random",
+            "line": 107,
+            "pdf_page": 20
+          },
+          {
+            "keyword": "progression",
+            "line": 159,
+            "pdf_page": 29
+          },
+          {
+            "keyword": "limitation",
+            "line": 175,
+            "pdf_page": 33
+          },
+          {
+            "keyword": "balance",
+            "line": 210,
+            "pdf_page": 39
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-004",
+    "title": "Game Design Deep Dive: Roguelikes",
+    "author": "Joshua Bycer",
+    "year": 2021,
+    "kind": "design-book",
+    "topics": [
+      "loop",
+      "randomness",
+      "progression",
+      "replay",
+      "difficulty"
+    ],
+    "scope": "Traditional and modern roguelike design",
+    "suggested_locator": "Contents: chapters 3, 5, 6, 7.5, 10",
+    "limitation": "Only legal preview/contents available here; chapter headings are not verified substantive conclusions.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "landing",
+        "url": "https://www.routledge.com/link/link/p/book/9780367713713",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+        "status": "not-acquired"
+      },
+      {
+        "role": "excerpt",
+        "url": "https://api.pageplace.de/preview/DT0400.9781000361988_A40491216/preview-9781000361988_A40491216.pdf",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://api.pageplace.de/preview/DT0400.9781000361988_A40491216/preview-9781000361988_A40491216.pdf",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:33:51.855541+00:00",
+        "pages": 13,
+        "status": "local-excerpt",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-004\\02-excerpt.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-004\\02-excerpt.extracted.txt",
+        "sha256": "f285b93c5c80ad5c9d46a7965cab041bb7d283c3e2666360be004165fa031fa2",
+        "text_sha256": "c91482d6b13ab8b000fd045fb6e8e9503b035ebbae2762d620481827bdac60f9",
+        "bytes": 786766,
+        "text_chars": 11038,
+        "text_lines": 230,
+        "bookmarks": [
+          {
+            "keyword": "failure",
+            "line": 96,
+            "pdf_page": 8
+          },
+          {
+            "keyword": "replay",
+            "line": 97,
+            "pdf_page": 8
+          },
+          {
+            "keyword": "random",
+            "line": 103,
+            "pdf_page": 8
+          },
+          {
+            "keyword": "balance",
+            "line": 119,
+            "pdf_page": 9
+          }
+        ]
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "出版社目录与合法预览已核对；未通读商业书正文。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-005",
+    "title": "Slay the Spire: Metrics Driven Design and Balance",
+    "author": "Anthony Giovannetti / Mega Crit",
+    "year": 2019,
+    "kind": "developer-talk",
+    "topics": [
+      "build",
+      "balance",
+      "metrics",
+      "iteration",
+      "difficulty"
+    ],
+    "scope": "Deckbuilding roguelike",
+    "suggested_locator": "Balance - The Goal; Do not Rely On Metrics Too Much; Ascension",
+    "limitation": "Metrics require interpretation and skill stratification; project retrospective, not causal proof.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "slides",
+        "url": "https://media.gdcvault.com/gdc2019/presentations/Giovannetti_Anthony_SlayTheSpire.pdf",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://media.gdcvault.com/gdc2019/presentations/Giovannetti_Anthony_SlayTheSpire.pdf",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:33:53.541401+00:00",
+        "pages": 22,
+        "status": "local-slides",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-005\\01-slides.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-005\\01-slides.extracted.txt",
+        "sha256": "08f0b072f16d7d2b5028cdb90f113e5d973724b111c2fd8fdd6c2817903a1b65",
+        "text_sha256": "a64219e14f2200f555cf1a020aaf7b5087c74ef2d4bf4581d033cc7088e056d6",
+        "bytes": 1280230,
+        "text_chars": 2672,
+        "text_lines": 192,
+        "bookmarks": [
+          {
+            "keyword": "balance",
+            "line": 7,
+            "pdf_page": 1
+          }
+        ]
+      },
+      {
+        "role": "video",
+        "url": "https://www.youtube.com/watch?v=7rqfbvnO_H0",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.youtube.com/watch?v=7rqfbvnO_H0",
+        "content_type": "text/html; charset=utf-8",
+        "retrieved_at_utc": "2026-11-08T02:33:54.512268+00:00",
+        "page_title": "Slay the Spire: Metrics Driven Design and Balance - YouTube",
+        "status": "not-acquired",
+        "error": "Response too short; manual inspection required"
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-006",
+    "title": "Designing Without a Pitch - FTL Postmortem",
+    "author": "Matthew Davis and Justin Ma / Subset Games",
+    "year": 2013,
+    "kind": "developer-talk",
+    "topics": [
+      "loop",
+      "decision",
+      "iteration",
+      "scope"
+    ],
+    "scope": "FTL; real-time with pause roguelike",
+    "suggested_locator": "Session Overview; original talk",
+    "limitation": "Landing page is not a transcript; do not treat its overview as the whole postmortem.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "landing",
+        "url": "https://www.gdcvault.com/play/1018034/Designing-Without-a-Pitch-FTL",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.gdcvault.com/play/1018034/Designing-Without-a-Pitch-FTL",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:33:54.210705+00:00",
+        "page_title": "GDC Vault - Designing Without a Pitch - FTL Postmortem",
+        "status": "local-landing-only",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-006\\01-landing.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-006\\01-landing.extracted.txt",
+        "sha256": "e5396576bce9215f4980bd06d9d3bb917d44f4f4879606c44069ae1d47cb667a",
+        "text_sha256": "b82685b113707f369194af1ae82f0ecd09e389fbf7d8d507ef816ce17e1b0a1d",
+        "bytes": 133108,
+        "text_chars": 3385,
+        "text_lines": 95,
+        "bookmarks": []
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "GDC 官方简介已核对；没有观看或转录视频。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "仅入口/摘要/发现页"
+  },
+  {
+    "id": "RLR-20261108-007",
+    "title": "Into the Breach Design Postmortem",
+    "author": "Matthew Davis / Subset Games",
+    "year": 2019,
+    "kind": "developer-talk",
+    "topics": [
+      "decision",
+      "information",
+      "balance",
+      "iteration",
+      "scope"
+    ],
+    "scope": "Tactical turn-based roguelite",
+    "suggested_locator": "Design constants; iterations; constraints; discarded features",
+    "limitation": "Talk delivered by Matthew Davis; Justin Ma is co-designer, not automatically co-speaker.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "landing",
+        "url": "https://gdcvault.com/play/1025772/-Into-the-Breach-Design",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://gdcvault.com/play/1025772/-Into-the-Breach-Design",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:33:55.410193+00:00",
+        "page_title": "GDC Vault - 'Into the Breach' Design Postmortem",
+        "status": "local-landing-only",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-007\\01-landing.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-007\\01-landing.extracted.txt",
+        "sha256": "3c1d765772af9b2837dd615afc3126b0e0edc3f2b6e86f98a42c8f42a3f5860f",
+        "text_sha256": "f50767065dfcd72091612adc232d571eb2d15332cd2a8e93c056893227384566",
+        "bytes": 132353,
+        "text_chars": 2992,
+        "text_lines": 93,
+        "bookmarks": [
+          {
+            "keyword": "difficulty",
+            "line": 28,
+            "pdf_page": null
+          }
+        ]
+      },
+      {
+        "role": "slides",
+        "url": "https://media.gdcvault.com/gdc2019/presentations/Into%20the%20Breach%20Postmortem%20Final.pdf",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://media.gdcvault.com/gdc2019/presentations/Into%20the%20Breach%20Postmortem%20Final.pdf",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:33:57.514075+00:00",
+        "pages": 49,
+        "status": "local-slides",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-007\\02-slides.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-007\\02-slides.extracted.txt",
+        "sha256": "708f239600b79aaa4cd171814fc5d3865d9695a61d5770cb7262658a61e5dffd",
+        "text_sha256": "601ee7ef68b9e3550e5b66034431777629e272acb1a3286a21a1f1565d441346",
+        "bytes": 4153291,
+        "text_chars": 8500,
+        "text_lines": 492,
+        "bookmarks": [
+          {
+            "keyword": "random",
+            "line": 102,
+            "pdf_page": 9
+          },
+          {
+            "keyword": "design goal",
+            "line": 369,
+            "pdf_page": 39
+          },
+          {
+            "keyword": "difficulty",
+            "line": 443,
+            "pdf_page": 45
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-008",
+    "title": "Rogue Legacy Design Postmortem: Budget Development",
+    "author": "Kenny Lee and Teddy Lee / Cellar Door Games",
+    "year": 2014,
+    "kind": "developer-talk",
+    "topics": [
+      "progression",
+      "failure",
+      "scope",
+      "iteration",
+      "balance"
+    ],
+    "scope": "Action roguelite with persistent family growth",
+    "suggested_locator": "Permanency; macro balance; tools; budget design; PDF speaker notes",
+    "limitation": "Budget constraints and progression choices are specific to this production context.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "landing",
+        "url": "https://www.gdcvault.com/play/1020541/Rogue-Legacy-Design-Postmortem-Budget",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.gdcvault.com/play/1020541/Rogue-Legacy-Design-Postmortem-Budget",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:33:56.517790+00:00",
+        "page_title": "GDC Vault - Rogue Legacy Design Postmortem: Budget Development",
+        "status": "local-landing-only",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-008\\01-landing.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-008\\01-landing.extracted.txt",
+        "sha256": "ad2414b075aa1e9e1fe75e655d8a5099288341aa13e3ad4ef58c746da70c4b93",
+        "text_sha256": "6dce43e3c7f88e4a6be1dd3cd1ce38a163b396eaffd0ee9b33998c69186f0780",
+        "bytes": 132776,
+        "text_chars": 3241,
+        "text_lines": 95,
+        "bookmarks": [
+          {
+            "keyword": "balance",
+            "line": 28,
+            "pdf_page": null
+          }
+        ]
+      },
+      {
+        "role": "slides",
+        "url": "https://media.gdcvault.com/GDC2014/Presentations/Lee_Teddy_Rogue_Legacy_Design.pdf",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://media.gdcvault.com/GDC2014/Presentations/Lee_Teddy_Rogue_Legacy_Design.pdf",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:33:56.358835+00:00",
+        "pages": 35,
+        "status": "local-slides",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-008\\02-slides.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-008\\02-slides.extracted.txt",
+        "sha256": "b4ef9587c65de8fc3f94376f54261e5746ffdfd07780e86c967009f964263751",
+        "text_sha256": "a288473840fd39fb60fb1c93ab2e38f4f2fb7843b88d2e24206516527335c24d",
+        "bytes": 3039424,
+        "text_chars": 18518,
+        "text_lines": 769,
+        "bookmarks": [
+          {
+            "keyword": "balance",
+            "line": 709,
+            "pdf_page": 33
+          }
+        ]
+      },
+      {
+        "role": "video",
+        "url": "https://www.youtube.com/watch?v=apfNODay1_s",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.youtube.com/watch?v=apfNODay1_s",
+        "content_type": "text/html; charset=utf-8",
+        "retrieved_at_utc": "2026-11-08T02:33:57.548260+00:00",
+        "page_title": "Rogue Legacy Design Postmortem: Budget Development - YouTube",
+        "status": "not-acquired",
+        "error": "Response too short; manual inspection required"
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-009",
+    "title": "Dead Cells: What the F*n!?",
+    "author": "Sebastien Benard / Motion Twin",
+    "year": 2019,
+    "kind": "developer-talk",
+    "topics": [
+      "failure",
+      "feel",
+      "difficulty",
+      "progression"
+    ],
+    "scope": "Action roguevania",
+    "suggested_locator": "Session Overview; controls; player-favouring corrections",
+    "limitation": "Landing only until a transcript/slide deck is acquired; editorial recaps are not the primary talk.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "landing",
+        "url": "https://www.gdcvault.com/play/1026247/-Dead-Cells-What-the",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.gdcvault.com/play/1026247/-Dead-Cells-What-the",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:33:57.318282+00:00",
+        "page_title": "GDC Vault - 'Dead Cells': What the F*n!?",
+        "status": "local-landing-only",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-009\\01-landing.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-009\\01-landing.extracted.txt",
+        "sha256": "6dd6ea3f3034febd79fd50a40827121b891d0737876e8a26ddc3aafc7f06b5a6",
+        "text_sha256": "ce631b218cce5a5b37523709470f6b0fda9cdc2df6480cfd4ea12d35843185c4",
+        "bytes": 132178,
+        "text_chars": 2910,
+        "text_lines": 93,
+        "bookmarks": []
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "GDC 官方简介已核对；没有观看或转录视频。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "仅入口/摘要/发现页"
+  },
+  {
+    "id": "RLR-20261108-010",
+    "title": "Breathing Life into Greek Myth: The Dialogue of Hades",
+    "author": "Greg Kasavin and Darren Korb / Supergiant Games",
+    "year": 2021,
+    "kind": "developer-talk",
+    "topics": [
+      "narrative",
+      "failure",
+      "iteration",
+      "scope"
+    ],
+    "scope": "Narrative action roguelite",
+    "suggested_locator": "About Hades; dialogue process; Early Access",
+    "limitation": "Slides and speech have different coverage; audio production is substantial and not all gameplay advice.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "landing",
+        "url": "https://www.gdcvault.com/play/1026975/Breathing-Life-into-Greek-Myth",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.gdcvault.com/play/1026975/Breathing-Life-into-Greek-Myth",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:35:54.460981+00:00",
+        "page_title": "GDC Vault - Breathing Life into Greek Myth: The Dialogue of 'Hades'",
+        "status": "local-landing-only",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-010\\01-landing.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-010\\01-landing.extracted.txt",
+        "sha256": "9e41fbb63acced72de52a3597c7f3f7e2b875e4191aecb0fd90759ffac521ff4",
+        "text_sha256": "5b5049cef2089fadcf5a6c358dd38022ab52656c667f8532d77f54af837c641e",
+        "bytes": 133228,
+        "text_chars": 3431,
+        "text_lines": 95,
+        "bookmarks": [
+          {
+            "keyword": "progression",
+            "line": 82,
+            "pdf_page": null
+          }
+        ]
+      },
+      {
+        "role": "slides",
+        "url": "https://media.gdcvault.com/GDC%2B2021/33103_Korb.pdf",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "http_status": 403,
+        "final_url": "https://media.gdcvault.com/GDC%2B2021/33103_Korb.pdf",
+        "content_type": "application/xml",
+        "retrieved_at_utc": "2026-11-08T02:35:53.985092+00:00",
+        "error": "HTTP 403",
+        "status": "not-acquired"
+      },
+      {
+        "role": "slides",
+        "url": "https://media.gdcvault.com/GDC+2021/33103_Korb.pdf",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://media.gdcvault.com/GDC+2021/33103_Korb.pdf",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:35:58.423205+00:00",
+        "pages": 47,
+        "status": "local-slides",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-010\\03-slides.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-010\\03-slides.extracted.txt",
+        "sha256": "4aa05fd1748240f12db1a9eed794830ef65bce6e189c47a12900c01450930a88",
+        "text_sha256": "3bd404fbce14281a51a08d61375d63d8c279515f0da5fb03febfdbcfa40da8f2",
+        "bytes": 9186237,
+        "text_chars": 12596,
+        "text_lines": 369,
+        "bookmarks": [
+          {
+            "keyword": "evaluation",
+            "line": 207,
+            "pdf_page": 27
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-011",
+    "title": "Darkest Dungeon: A Design Postmortem",
+    "author": "Tyler Sigman / Red Hook Studios",
+    "year": 2016,
+    "kind": "developer-talk",
+    "topics": [
+      "failure",
+      "decision",
+      "narrative",
+      "iteration",
+      "balance"
+    ],
+    "scope": "Party RPG with roguelike influences; not a clean single-run comparator",
+    "suggested_locator": "Affliction; stress; Early Access design changes",
+    "limitation": "Campaign and party persistence differ from run-reset games; do not conflate.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "landing",
+        "url": "https://www.gdcvault.com/play/1023089/Darkest-Dungeon-A-Design",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.gdcvault.com/play/1023089/Darkest-Dungeon-A-Design",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:33:58.943326+00:00",
+        "page_title": "GDC Vault - Darkest Dungeon: A Design Postmortem",
+        "status": "local-landing-only",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-011\\01-landing.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-011\\01-landing.extracted.txt",
+        "sha256": "6a646944d6bdddc46043774b75f8014e216805b9a41fc6b16871eac5f6ebcc6a",
+        "text_sha256": "279bfffd9a126e6525c4045bfef6e9e44c57840162a9cb50dcadc25ccd4fccf6",
+        "bytes": 132479,
+        "text_chars": 3127,
+        "text_lines": 93,
+        "bookmarks": [
+          {
+            "keyword": "affliction",
+            "line": 28,
+            "pdf_page": null
+          }
+        ]
+      },
+      {
+        "role": "slides",
+        "url": "https://media.gdcvault.com/gdc2016/Presentations/Sigman_Tyler_Darkest_Dungeon_a.pdf",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://media.gdcvault.com/gdc2016/Presentations/Sigman_Tyler_Darkest_Dungeon_a.pdf",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:34:02.872454+00:00",
+        "pages": 60,
+        "status": "local-slides",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-011\\02-slides.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-011\\02-slides.extracted.txt",
+        "sha256": "d8ae4082696de637c7e696df00018ceee04be07ab21b0aa8d37b22f7ba0c8bcd",
+        "text_sha256": "3153e4b6843fde15b6422ca9a8530c964d33655c80c8669ab2d40ca2f4db47be",
+        "bytes": 51092816,
+        "text_chars": 11438,
+        "text_lines": 464,
+        "bookmarks": [
+          {
+            "keyword": "affliction",
+            "line": 46,
+            "pdf_page": 6
+          },
+          {
+            "keyword": "balance",
+            "line": 166,
+            "pdf_page": 21
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-012",
+    "title": "Exploring the Tech and Design of Noita",
+    "author": "Petri Purho / Nolla Games",
+    "year": 2019,
+    "kind": "developer-talk",
+    "topics": [
+      "systems",
+      "emergence",
+      "randomness",
+      "scope"
+    ],
+    "scope": "Physics-based action roguelike",
+    "suggested_locator": "Session overview; simulation and emergent gameplay examples",
+    "limitation": "Technology talk with design implications; neither a full wand design spec nor evidence for fun.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "landing",
+        "url": "https://www.gdcvault.com/play/1025695/Exploring-the-Tech-and-Design",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.gdcvault.com/play/1025695/Exploring-the-Tech-and-Design",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:00.118691+00:00",
+        "page_title": "GDC Vault - Exploring the Tech and Design of 'Noita'",
+        "status": "local-landing-only",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-012\\01-landing.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-012\\01-landing.extracted.txt",
+        "sha256": "bd5e5e350d31392a2faf39f784ebc9eddb767ac64a258ad16a01cf720a69b825",
+        "text_sha256": "118ac06617cc47581d431fbc4ad35ebc777e371aa882e8477f1a8ff67f63b1e6",
+        "bytes": 131824,
+        "text_chars": 2825,
+        "text_lines": 93,
+        "bookmarks": [
+          {
+            "keyword": "failure",
+            "line": 74,
+            "pdf_page": null
+          }
+        ]
+      },
+      {
+        "role": "video",
+        "url": "https://www.youtube.com/watch?v=prXuyMCgbTc",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.youtube.com/watch?v=prXuyMCgbTc",
+        "content_type": "text/html; charset=utf-8",
+        "retrieved_at_utc": "2026-11-08T02:33:59.086310+00:00",
+        "page_title": "Exploring the Tech and Design of Noita - YouTube",
+        "status": "not-acquired",
+        "error": "Response too short; manual inspection required"
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "GDC 官方简介及官方视频发布信息已核对；没有观看或转录视频。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "仅入口/摘要/发现页"
+  },
+  {
+    "id": "RLR-20261108-013",
+    "title": "Math for Game Developers: End-to-End Procedural Generation in Caves of Qud",
+    "author": "Brian Bucklew and Jason Grinblat / Freehold Games",
+    "year": 2019,
+    "kind": "developer-talk",
+    "topics": [
+      "generation",
+      "systems",
+      "narrative",
+      "scope"
+    ],
+    "scope": "Systemic traditional roguelike",
+    "suggested_locator": "Design Context; village generation pipeline; histories and quests",
+    "limitation": "Generation pipeline case study; output richness does not itself establish player experience.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "landing",
+        "url": "https://www.gdcvault.com/play/1026313/Math-for-Game-Developers-End",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.gdcvault.com/play/1026313/Math-for-Game-Developers-End",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:33:59.330451+00:00",
+        "page_title": "GDC Vault - Math for Game Developers: End-to-End Procedural Generation in 'Caves of Qud'",
+        "status": "local-landing-only",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-013\\01-landing.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-013\\01-landing.extracted.txt",
+        "sha256": "1ea837c18c9e083c030a3df0cbb8a30d931e1c09ca6a54ea082183965183395c",
+        "text_sha256": "612291c898802c7c458d00f2d95652c0a1f2d92c1b2fc650fb1a924adb73dc99",
+        "bytes": 133170,
+        "text_chars": 3508,
+        "text_lines": 95,
+        "bookmarks": []
+      },
+      {
+        "role": "slides",
+        "url": "https://media.gdcvault.com/gdc2019/presentations/Grinblat_Jason_End-to-End_Procedural_Generation.pdf",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://media.gdcvault.com/gdc2019/presentations/Grinblat_Jason_End-to-End_Procedural_Generation.pdf",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:34:06.419641+00:00",
+        "pages": 92,
+        "status": "local-slides",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-013\\02-slides.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-013\\02-slides.extracted.txt",
+        "sha256": "b5ff7b4da93c4accf51dc8a7414fb23d9d25ca9dbc9bb08eb864ab52cff6309e",
+        "text_sha256": "5bcdf61785e764b774b113e967215ba666c1fca8166f1c05850f629a580563d0",
+        "bytes": 18252586,
+        "text_chars": 97970,
+        "text_lines": 1838,
+        "bookmarks": []
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-014",
+    "title": "Procedural Level Design in Eldritch",
+    "author": "David Pittman / Minor Key Games",
+    "year": 2015,
+    "kind": "developer-talk",
+    "topics": [
+      "generation",
+      "level",
+      "randomness",
+      "scope"
+    ],
+    "scope": "First-person roguelike",
+    "suggested_locator": "Overview; maze plus room modules; enemies and items",
+    "limitation": "A specific hybrid level pipeline; not a universal recipe.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "slides",
+        "url": "https://media.gdcvault.com/gdc2015/presentations/Pittman_David_Procedural%20Level%20Design.pdf",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://media.gdcvault.com/gdc2015/presentations/Pittman_David_Procedural%20Level%20Design.pdf",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:34:04.857584+00:00",
+        "pages": 68,
+        "status": "local-slides",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-014\\01-slides.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-014\\01-slides.extracted.txt",
+        "sha256": "24ec0415040d6ee97709eaa1839551896389f14704c3cdcc0c823981aaf00fe4",
+        "text_sha256": "9d86d5135be74f1f7b4c84b276e9daecfd2c054e9065ad92d408f1cf69e16ca6",
+        "bytes": 4815492,
+        "text_chars": 20260,
+        "text_lines": 640,
+        "bookmarks": [
+          {
+            "keyword": "replay",
+            "line": 122,
+            "pdf_page": 11
+          },
+          {
+            "keyword": "random",
+            "line": 434,
+            "pdf_page": 54
+          },
+          {
+            "keyword": "balance",
+            "line": 515,
+            "pdf_page": 60
+          }
+        ]
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-015",
+    "title": "Postmortem: McMillen and Himsl's The Binding of Isaac (2011)",
+    "author": "Edmund McMillen",
+    "year": 2012,
+    "kind": "developer-article",
+    "topics": [
+      "loop",
+      "build",
+      "replay",
+      "iteration",
+      "scope"
+    ],
+    "scope": "Action roguelike",
+    "suggested_locator": "原始杂志 Game Developer 2012-11：文章位于 PDF 物理页29–35（印刷页27–33）；目录在前，不要把整期内容都归给 McMillen。",
+    "limitation": "Author retrospective; separate artistic intention, market outcome, and design evidence.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://www.gamedeveloper.com/business/postmortem-mcmillen-and-himsl-s-i-the-binding-of-isaac-i-",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "http_status": 403,
+        "final_url": "https://www.gamedeveloper.com/business/postmortem-mcmillen-and-himsl-s-i-the-binding-of-isaac-i-",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:35:53.513558+00:00",
+        "error": "HTTP 403",
+        "status": "not-acquired"
+      },
+      {
+        "role": "original-issue",
+        "url": "https://media.gdcvault.com/GD_Mag_Archives/GDM_November_2012.pdf",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://media.gdcvault.com/GD_Mag_Archives/GDM_November_2012.pdf",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:35:55.327578+00:00",
+        "pages": 60,
+        "status": "local-periodical-issue",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-015\\02-original-issue.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-015\\02-original-issue.extracted.txt",
+        "sha256": "509dcb0cd1363e01fcfc295c54c6f64dee9702a84968563eb5ee40a8c1bdc659",
+        "text_sha256": "c67cef38e347dbc02bd04c9f55d348d3954bf417a5513aca2d5d80261da1eaab",
+        "bytes": 15485395,
+        "text_chars": 317605,
+        "text_lines": 2842,
+        "bookmarks": [
+          {
+            "keyword": "difficulty",
+            "line": 267,
+            "pdf_page": 6
+          },
+          {
+            "keyword": "limitation",
+            "line": 300,
+            "pdf_page": 7
+          },
+          {
+            "keyword": "meaningful",
+            "line": 535,
+            "pdf_page": 12
+          },
+          {
+            "keyword": "failure",
+            "line": 654,
+            "pdf_page": 14
+          },
+          {
+            "keyword": "random",
+            "line": 723,
+            "pdf_page": 15
+          },
+          {
+            "keyword": "method",
+            "line": 858,
+            "pdf_page": 19
+          },
+          {
+            "keyword": "permadeath",
+            "line": 1362,
+            "pdf_page": 31
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-016",
+    "title": "Game Design Deep Dive: Darkest Dungeon's Affliction System",
+    "author": "Tyler Sigman and Chris Bourassa / Red Hook Studios",
+    "year": 2015,
+    "kind": "developer-article",
+    "topics": [
+      "failure",
+      "information",
+      "agency",
+      "narrative",
+      "decision"
+    ],
+    "scope": "Party RPG and campaign progression",
+    "suggested_locator": "Who; What; Why; Stress Meter; Afflictions; Barks; Virtues",
+    "limitation": "Intentionally reduced control and partial opacity can conflict with other projects; preserve the rationale.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://www.gamedeveloper.com/design/game-design-deep-dive-i-darkest-dungeon-s-i-affliction-system",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "http_status": 403,
+        "final_url": "https://www.gamedeveloper.com/design/game-design-deep-dive-i-darkest-dungeon-s-i-affliction-system",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:04.151152+00:00",
+        "error": "HTTP 403",
+        "status": "not-acquired"
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "web 工具可读出版方正文，核对了作者、日期及压力/信息/行为相关章节；直接下载403，未保存全文。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "原文在线线索已定位，未取得本地文件"
+  },
+  {
+    "id": "RLR-20261108-017",
+    "title": "Building the Level Design of a procedurally generated Metroidvania: a hybrid approach",
+    "author": "Sebastien Benard / Motion Twin",
+    "year": 2017,
+    "kind": "developer-article",
+    "topics": [
+      "generation",
+      "level",
+      "randomness",
+      "iteration"
+    ],
+    "scope": "Dead Cells; hybrid hand-authored and generated levels",
+    "suggested_locator": "Original article; generation steps; room and topology illustrations",
+    "limitation": "Inspect images in original HTML; extracted text cannot replace level diagrams.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://www.gamedeveloper.com/design/building-the-level-design-of-a-procedurally-generated-metroidvania-a-hybrid-approach-",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "http_status": 403,
+        "final_url": "https://www.gamedeveloper.com/design/building-the-level-design-of-a-procedurally-generated-metroidvania-a-hybrid-approach-",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:37:02.284579+00:00",
+        "error": "HTTP 403",
+        "status": "not-acquired"
+      },
+      {
+        "role": "fulltext",
+        "url": "https://deepnight.net/tutorial/the-level-design-of-dead-cells-a-hybrid-approach/",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://deepnight.net/tutorial/the-level-design-of-dead-cells-a-hybrid-approach/",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:37:02.731652+00:00",
+        "page_title": "Deepnight Games | The Level Design of Dead Cells",
+        "status": "local-article",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-017\\02-fulltext.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-017\\02-fulltext.extracted.txt",
+        "sha256": "7fd40bd3518b6d64391301c2ce8db17af62da3a7c14c0406db5006e58adb8b7b",
+        "text_sha256": "ae47dca6e93d74f4253811ebcea575cab3d1ea5b70edc6e44528e9bcb94069c5",
+        "bytes": 95097,
+        "text_chars": 8894,
+        "text_lines": 106,
+        "bookmarks": [
+          {
+            "keyword": "random",
+            "line": 24,
+            "pdf_page": null
+          },
+          {
+            "keyword": "replay",
+            "line": 30,
+            "pdf_page": null
+          },
+          {
+            "keyword": "permadeath",
+            "line": 31,
+            "pdf_page": null
+          },
+          {
+            "keyword": "difficulty",
+            "line": 61,
+            "pdf_page": null
+          },
+          {
+            "keyword": "method",
+            "line": 105,
+            "pdf_page": null
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-018",
+    "title": "Road to the IGF: Cavanagh, Houston, & Dobbe's Dicey Dungeons",
+    "author": "Terry Cavanagh, Marlowe Dobbe, Niamh Houston; interview by Game Developer",
+    "year": 2019,
+    "kind": "developer-interview",
+    "topics": [
+      "randomness",
+      "decision",
+      "build",
+      "iteration"
+    ],
+    "scope": "Dice-based roguelike",
+    "suggested_locator": "Interview answers on strategy, dice and equipment",
+    "limitation": "Developer answers are primary statements; journalist framing is secondary.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://www.gamedeveloper.com/business/road-to-the-igf-cavanagh-houston-dobbe-s-i-dicey-dungeons-i-",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "http_status": 403,
+        "final_url": "https://www.gamedeveloper.com/business/road-to-the-igf-cavanagh-houston-dobbe-s-i-dicey-dungeons-i-",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:02.542685+00:00",
+        "error": "HTTP 403",
+        "status": "not-acquired"
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "出版方搜索记录核对采访对象及主题；正文未完成精读，直接下载403。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "原文在线线索已定位，未取得本地文件"
+  },
+  {
+    "id": "RLR-20261108-019",
+    "title": "Witch-craft: How Dicey Dungeons balances chance and predictability",
+    "author": "Game Developer with Terry Cavanagh",
+    "year": 2018,
+    "kind": "mixed-interview-analysis",
+    "topics": [
+      "randomness",
+      "build",
+      "decision",
+      "information"
+    ],
+    "scope": "Dicey Dungeons Witch class",
+    "suggested_locator": "Witch; chance and predictability; attributed developer statements",
+    "limitation": "Mixed journalist explanation and developer statements; only attributed statements count as primary.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://www.gamedeveloper.com/design/witch-craft-how-i-dicey-dungeons-i-balances-chance-and-predictability",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "http_status": 403,
+        "final_url": "https://www.gamedeveloper.com/design/witch-craft-how-i-dicey-dungeons-i-balances-chance-and-predictability",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:02.493863+00:00",
+        "error": "HTTP 403",
+        "status": "not-acquired"
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "出版方搜索记录核对标题及讨论对象；属记者分析混合采访，不整体计为开发者原话。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "原文在线线索已定位，未取得本地文件"
+  },
+  {
+    "id": "RLR-20261108-020",
+    "title": "There is a lot more design to explore within Balatro: an interview with LocalThunk",
+    "author": "LocalThunk; interview by DayOne",
+    "year": 2024,
+    "kind": "developer-interview",
+    "topics": [
+      "build",
+      "balance",
+      "randomness",
+      "progression",
+      "iteration"
+    ],
+    "scope": "Poker-inspired deckbuilding roguelike",
+    "suggested_locator": "Question and answer pairs",
+    "limitation": "Primary answers inside an interview; distinguish interviewer claims.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://playday.one/2024/03/09/there-is-a-lot-more-design-to-explore-within-balatro/",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://playday.one/2024/03/09/there-is-a-lot-more-design-to-explore-within-balatro/",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:06.523154+00:00",
+        "page_title": "\"There is a lot more design to explore within Balatro\" an interview with Localthunk Features DayOne",
+        "status": "local-article",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-020\\01-fulltext.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-020\\01-fulltext.extracted.txt",
+        "sha256": "93cf4708073e78b5ecc159af5bb11f395e618cfe18b68e04a2b2deb5fd2a2367",
+        "text_sha256": "4b1ec4aa19c8a95dddb5acb5fbd44ef8eef5dae6a69eb4a9f10e09aafe539f66",
+        "bytes": 530150,
+        "text_chars": 4455,
+        "text_lines": 43,
+        "bookmarks": [
+          {
+            "keyword": "meaningful",
+            "line": 25,
+            "pdf_page": null
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-021",
+    "title": "Episode 18: Spelunky, with Derek Yu",
+    "author": "Derek Yu; The Game Design Roundtable",
+    "year": 2013,
+    "kind": "developer-podcast",
+    "topics": [
+      "loop",
+      "generation",
+      "decision",
+      "failure"
+    ],
+    "scope": "Platforming roguelike",
+    "suggested_locator": "03:25 design goals; 09:25 random maps (published episode outline)",
+    "limitation": "Audio has not been listened to or transcribed; episode outline only.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "landing",
+        "url": "https://thegamedesignroundtable.com/episode-18-spelunky-with-derek-yu/",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://thegamedesignroundtable.com/episode-18-spelunky-with-derek-yu/",
+        "content_type": "text/html; charset=utf-8",
+        "retrieved_at_utc": "2026-11-08T02:34:04.319184+00:00",
+        "page_title": "Episode #18: Spelunky. With Derek Yu – The Game Design Roundtable",
+        "status": "local-landing-only",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-021\\01-landing.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-021\\01-landing.extracted.txt",
+        "sha256": "1405eafe853454417257422ef94a862060f5ff0c9ea79e578131fa75e8ec24e8",
+        "text_sha256": "3d6d5289efcb6da7eccf4fa7ba05cd22ea90395a56119055452e3a748bbf13d9",
+        "bytes": 66837,
+        "text_chars": 1857,
+        "text_lines": 97,
+        "bookmarks": [
+          {
+            "keyword": "random",
+            "line": 23,
+            "pdf_page": null
+          },
+          {
+            "keyword": "design goal",
+            "line": 31,
+            "pdf_page": null
+          },
+          {
+            "keyword": "permadeath",
+            "line": 33,
+            "pdf_page": null
+          }
+        ]
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "节目发布页及时间提纲已核对；未听音频。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "仅入口/摘要/发现页"
+  },
+  {
+    "id": "RLR-20261108-022",
+    "title": "Spelunky",
+    "author": "Derek Yu",
+    "year": 2016,
+    "kind": "developer-book",
+    "topics": [
+      "generation",
+      "failure",
+      "feel",
+      "iteration",
+      "replay"
+    ],
+    "scope": "Autobiographical design account of Spelunky",
+    "suggested_locator": "公开节选 EXPLORER.GMK；不推断未取得的其他章节。",
+    "limitation": "Commercial book; no full-text acquisition or purchase; description is not the contents.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "landing",
+        "url": "https://bossfightbooks.com/products/spelunky-by-derek-yu",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "http_status": 429,
+        "final_url": "https://bossfightbooks.com/products/spelunky-by-derek-yu",
+        "content_type": "text/plain",
+        "retrieved_at_utc": "2026-11-08T02:35:55.583163+00:00",
+        "error": "HTTP 429",
+        "status": "not-acquired"
+      },
+      {
+        "role": "excerpt",
+        "url": "https://www.gamedeveloper.com/design/explorer-gmk-an-excerpt-from-the-spelunky-book",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "http_status": 403,
+        "final_url": "https://www.gamedeveloper.com/design/explorer-gmk-an-excerpt-from-the-spelunky-book",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:35:54.208487+00:00",
+        "error": "HTTP 403",
+        "status": "not-acquired"
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "出版社说明及开发者合法节选可通过web工具读取；直接下载失败，未获得整本书。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "原文在线线索已定位，未取得本地文件"
+  },
+  {
+    "id": "RLR-20261108-023",
+    "title": "Interview: Brian Walker aka Pender",
+    "author": "Brian Walker; Erez Ben-Aharon and Andrew Doull / Roguelike Radio",
+    "year": 2011,
+    "kind": "developer-podcast",
+    "topics": [
+      "generation",
+      "level",
+      "information"
+    ],
+    "scope": "Brogue",
+    "suggested_locator": "Published topic outline; linked original audio",
+    "limitation": "Audio not listened to/transcribed; do not infer conclusions from topic list.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "landing",
+        "url": "https://www.roguelikeradio.com/2011/10/interview-brian-walker-aka-pender.html",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.roguelikeradio.com/2011/10/interview-brian-walker-aka-pender.html",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:05.776344+00:00",
+        "page_title": "Roguelike Radio: Interview: Brian Walker aka Pender",
+        "status": "local-landing-only",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-023\\01-landing.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-023\\01-landing.extracted.txt",
+        "sha256": "a9efed36b332eeca59a447c2fa94e8bce46a51a2f9360220441944c89862e26b",
+        "text_sha256": "464073146a9e2ba30f34f6b2b59d77815db2cbd2ff02d7cfbefaf205cec6a564",
+        "bytes": 108051,
+        "text_chars": 970,
+        "text_lines": 26,
+        "bookmarks": []
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "节目发布页及议题提纲已核对；未听音频。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "仅入口/摘要/发现页"
+  },
+  {
+    "id": "RLR-20261108-024",
+    "title": "Kyzrati's Game Design Philosophy",
+    "author": "Josh Ge / Grid Sage Games",
+    "year": 2022,
+    "kind": "developer-article",
+    "topics": [
+      "loop",
+      "difficulty",
+      "information",
+      "balance",
+      "replay",
+      "scope"
+    ],
+    "scope": "Cogmind and traditional roguelike priorities",
+    "suggested_locator": "Vision; Difficulty; Balance; Information; Consistency; community",
+    "limitation": "One author has multiple included articles; do not count them as independent confirmations.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://www.gridsagegames.com/blog/2022/05/kyzratis-game-design-philosophy/",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.gridsagegames.com/blog/2022/05/kyzratis-game-design-philosophy/",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:06.005155+00:00",
+        "page_title": "Kyzrati's Game Design Philosophy - Grid Sage Games",
+        "status": "local-article",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-024\\01-fulltext.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-024\\01-fulltext.extracted.txt",
+        "sha256": "988bce04a388b656d152b9681a90d7881f29c5079e60084d0621805744bff0fb",
+        "text_sha256": "e4c191aa888db8290556e7bcfe6b68e41cf0ee84b6f4e8dfe0daa5c5ee3e9b63",
+        "bytes": 179134,
+        "text_chars": 43375,
+        "text_lines": 284,
+        "bookmarks": [
+          {
+            "keyword": "balance",
+            "line": 15,
+            "pdf_page": null
+          },
+          {
+            "keyword": "meaningful",
+            "line": 18,
+            "pdf_page": null
+          },
+          {
+            "keyword": "limitation",
+            "line": 33,
+            "pdf_page": null
+          },
+          {
+            "keyword": "difficulty",
+            "line": 42,
+            "pdf_page": null
+          },
+          {
+            "keyword": "mastery",
+            "line": 82,
+            "pdf_page": null
+          },
+          {
+            "keyword": "random",
+            "line": 95,
+            "pdf_page": null
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-025",
+    "title": "How to Make a Roguelike",
+    "author": "Josh Ge / Grid Sage Games",
+    "year": 2018,
+    "kind": "developer-article",
+    "topics": [
+      "loop",
+      "scope",
+      "iteration"
+    ],
+    "scope": "Traditional roguelike production and core mechanic",
+    "suggested_locator": "Core Mechanic; Scope; development sequence; linked talk",
+    "limitation": "Practical production guidance, not controlled evidence; technical sections are supporting material.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://www.gridsagegames.com/blog/2018/10/how-to-make-a-roguelike/",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.gridsagegames.com/blog/2018/10/how-to-make-a-roguelike/",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:05.957054+00:00",
+        "page_title": "How to Make a Roguelike - Cogmind / Grid Sage Games",
+        "status": "local-article",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-025\\01-fulltext.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-025\\01-fulltext.extracted.txt",
+        "sha256": "efd4c013000184156ae9b9a8bf7dd866c28450683f446c22935931922e5d8fa3",
+        "text_sha256": "9d9241b68a977a2575152c98324827b7cb0ac2965bb3f092fe04cc30eaed0628",
+        "bytes": 223692,
+        "text_chars": 37084,
+        "text_lines": 494,
+        "bookmarks": [
+          {
+            "keyword": "progression",
+            "line": 163,
+            "pdf_page": null
+          },
+          {
+            "keyword": "permadeath",
+            "line": 260,
+            "pdf_page": null
+          }
+        ]
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-026",
+    "title": "Roguelike Level Design Addendum: Static or Procedural?",
+    "author": "Josh Ge / Grid Sage Games",
+    "year": 2019,
+    "kind": "developer-article",
+    "topics": [
+      "generation",
+      "level",
+      "replay"
+    ],
+    "scope": "Cogmind; static/procedural combination",
+    "suggested_locator": "Static or Procedural; comparisons and maps",
+    "limitation": "Read diagrams in raw page; preserve which parts are hand-authored.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://www.gridsagegames.com/blog/2019/03/roguelike-level-design-addendum-static-procedural/",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.gridsagegames.com/blog/2019/03/roguelike-level-design-addendum-static-procedural/",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:05.837545+00:00",
+        "page_title": "Roguelike Level Design: Static or Procgen? - Cogmind / Grid Sage Games",
+        "status": "local-article",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-026\\01-fulltext.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-026\\01-fulltext.extracted.txt",
+        "sha256": "f19b7d28a2b3b184a800bde36b88a12e23fc183330e536f9344ea600672b4317",
+        "text_sha256": "fc5b331281b86881421969ac6bce1228870aeb053bed7fbda859f956e9cb5e86",
+        "bytes": 131539,
+        "text_chars": 4362,
+        "text_lines": 64,
+        "bookmarks": [
+          {
+            "keyword": "replay",
+            "line": 24,
+            "pdf_page": null
+          }
+        ]
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-027",
+    "title": "Roguelike Level Design Addendum: Procedural Layouts",
+    "author": "Josh Ge / Grid Sage Games",
+    "year": 2019,
+    "kind": "developer-article",
+    "topics": [
+      "generation",
+      "level",
+      "decision",
+      "balance"
+    ],
+    "scope": "Cogmind; layout design",
+    "suggested_locator": "Entrances and exits; routes; backtracking; layout examples",
+    "limitation": "Location balance depends on Cogmind-specific recovery, pursuit and progression mechanics.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://www.gridsagegames.com/blog/2019/03/roguelike-level-design-addendum-procedural-layouts/",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.gridsagegames.com/blog/2019/03/roguelike-level-design-addendum-procedural-layouts/",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:06.998427+00:00",
+        "page_title": "Roguelike Level Design: Procedural Layouts - Cogmind / Grid Sage Games",
+        "status": "local-article",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-027\\01-fulltext.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-027\\01-fulltext.extracted.txt",
+        "sha256": "3169a526d9b0ce16e8b59a01e7b488b855327519ac622ef113735a8d473e5f64",
+        "text_sha256": "cc3d9a86b6d87de17c68879317df7e50f46fb9e32835250408e44d2ee8a3f013",
+        "bytes": 151388,
+        "text_chars": 15642,
+        "text_lines": 134,
+        "bookmarks": [
+          {
+            "keyword": "balance",
+            "line": 22,
+            "pdf_page": null
+          },
+          {
+            "keyword": "random",
+            "line": 25,
+            "pdf_page": null
+          },
+          {
+            "keyword": "method",
+            "line": 37,
+            "pdf_page": null
+          },
+          {
+            "keyword": "failure",
+            "line": 66,
+            "pdf_page": null
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-028",
+    "title": "Adjustable Difficulty",
+    "author": "Josh Ge / Grid Sage Games",
+    "year": 2017,
+    "kind": "developer-article",
+    "topics": [
+      "difficulty",
+      "information",
+      "mastery"
+    ],
+    "scope": "Traditional roguelike difficulty modes",
+    "suggested_locator": "Easier Modes; design tradeoffs; mode changes",
+    "limitation": "Historical version; compare later rebranding and telemetry rather than treating all as simultaneous rules.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://www.gridsagegames.com/blog/2017/02/adjustable-difficulty/",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.gridsagegames.com/blog/2017/02/adjustable-difficulty/",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:07.201214+00:00",
+        "page_title": "Adjustable Difficulty - Cogmind / Grid Sage Games",
+        "status": "local-article",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-028\\01-fulltext.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-028\\01-fulltext.extracted.txt",
+        "sha256": "8da39fb01cb01e2821d9e807e6fdcfbd6f31ca2d85d76257647e232b5d07bda5",
+        "text_sha256": "e9530857491a84b570452f0326882fc53557afbbd07a3bfb5950344bd7c78b99",
+        "bytes": 178438,
+        "text_chars": 30991,
+        "text_lines": 254,
+        "bookmarks": [
+          {
+            "keyword": "difficulty",
+            "line": 1,
+            "pdf_page": null
+          },
+          {
+            "keyword": "permadeath",
+            "line": 17,
+            "pdf_page": null
+          },
+          {
+            "keyword": "random",
+            "line": 25,
+            "pdf_page": null
+          },
+          {
+            "keyword": "replay",
+            "line": 30,
+            "pdf_page": null
+          },
+          {
+            "keyword": "balance",
+            "line": 47,
+            "pdf_page": null
+          },
+          {
+            "keyword": "mastery",
+            "line": 54,
+            "pdf_page": null
+          },
+          {
+            "keyword": "meaningful",
+            "line": 166,
+            "pdf_page": null
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-029",
+    "title": "Rebranding Difficulty Modes",
+    "author": "Josh Ge / Grid Sage Games",
+    "year": 2019,
+    "kind": "developer-article",
+    "topics": [
+      "difficulty",
+      "information",
+      "iteration"
+    ],
+    "scope": "Cogmind difficulty discoverability",
+    "suggested_locator": "The Accessibility of Accessibility; mode presentation",
+    "limitation": "Same project longitudinal evidence, not an independent study.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://www.gridsagegames.com/blog/2019/09/rebranding-difficulty-modes/",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.gridsagegames.com/blog/2019/09/rebranding-difficulty-modes/",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:07.168451+00:00",
+        "page_title": "Rebranding Difficulty Modes - Cogmind / Grid Sage Games",
+        "status": "local-article",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-029\\01-fulltext.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-029\\01-fulltext.extracted.txt",
+        "sha256": "af93461d793e0d98b1364793b73de13a7dbb5ef7223293fcb1b85f2ee8666b16",
+        "text_sha256": "d3d58b781b6c6a5d59c14e76a82c6443bbeb226b1267c202758da7565f5b9d09",
+        "bytes": 139963,
+        "text_chars": 10235,
+        "text_lines": 94,
+        "bookmarks": [
+          {
+            "keyword": "difficulty",
+            "line": 1,
+            "pdf_page": null
+          },
+          {
+            "keyword": "method",
+            "line": 25,
+            "pdf_page": null
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-030",
+    "title": "Cogmind Beta 9 Player Stats",
+    "author": "Josh Ge / Grid Sage Games",
+    "year": 2021,
+    "kind": "developer-telemetry",
+    "topics": [
+      "difficulty",
+      "metrics",
+      "iteration",
+      "mastery"
+    ],
+    "scope": "Cogmind player telemetry",
+    "suggested_locator": "Difficulty selection; distribution; player stats",
+    "limitation": "Observational game telemetry; selection and version confounds; not randomized causal evidence.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://www.gridsagegames.com/blog/2021/01/cogmind-beta-9-player-stats/",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.gridsagegames.com/blog/2021/01/cogmind-beta-9-player-stats/",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:07.404764+00:00",
+        "page_title": "Cogmind Beta 9 Player Stats - Grid Sage Games",
+        "status": "local-article",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-030\\01-fulltext.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-030\\01-fulltext.extracted.txt",
+        "sha256": "56919b802f5297f69b621f66a152e6d69f3c5b9f8356ad41aef0f56ec91abe66",
+        "text_sha256": "412016d97e7a603c33073953a6c34b2207f562a7e31279e9a186f5c189856580",
+        "bytes": 203668,
+        "text_chars": 44556,
+        "text_lines": 735,
+        "bookmarks": [
+          {
+            "keyword": "meaningful",
+            "line": 39,
+            "pdf_page": null
+          },
+          {
+            "keyword": "difficulty",
+            "line": 53,
+            "pdf_page": null
+          },
+          {
+            "keyword": "permadeath",
+            "line": 62,
+            "pdf_page": null
+          },
+          {
+            "keyword": "random",
+            "line": 230,
+            "pdf_page": null
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-031",
+    "title": "Working with Seeds",
+    "author": "Josh Ge / Grid Sage Games",
+    "year": 2017,
+    "kind": "developer-article",
+    "topics": [
+      "randomness",
+      "generation",
+      "iteration"
+    ],
+    "scope": "Seed reproducibility and sharing in roguelikes",
+    "suggested_locator": "Seeds; reproducibility; player uses",
+    "limitation": "Technical enabler and community design; not a fun metric.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://www.gridsagegames.com/blog/2017/05/working-seeds/",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.gridsagegames.com/blog/2017/05/working-seeds/",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:07.717791+00:00",
+        "page_title": "Working with Seeds - Cogmind / Grid Sage Games",
+        "status": "local-article",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-031\\01-fulltext.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-031\\01-fulltext.extracted.txt",
+        "sha256": "94d6a7aea7b7cfce7eaa57b2b1fc23f3416157f2726c56a787db3af5c5914c88",
+        "text_sha256": "168e2fa47ef27cb3839774aed1310616cb3ffb78b6d9790b3df2ddf98eb2b430",
+        "bytes": 152157,
+        "text_chars": 17233,
+        "text_lines": 145,
+        "bookmarks": [
+          {
+            "keyword": "random",
+            "line": 17,
+            "pdf_page": null
+          },
+          {
+            "keyword": "replay",
+            "line": 88,
+            "pdf_page": null
+          },
+          {
+            "keyword": "method",
+            "line": 93,
+            "pdf_page": null
+          },
+          {
+            "keyword": "difficulty",
+            "line": 101,
+            "pdf_page": null
+          }
+        ]
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-032",
+    "title": "Hades FAQ",
+    "author": "Supergiant Games",
+    "year": "living document",
+    "kind": "developer-faq",
+    "topics": [
+      "loop",
+      "narrative",
+      "iteration",
+      "progression"
+    ],
+    "scope": "Hades; solo action roguelite",
+    "suggested_locator": "Early Access questions; design and narrative intent",
+    "limitation": "Official FAQ is a public explanation, not a detailed production specification.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://www.supergiantgames.com/blog/hades-faq/",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.supergiantgames.com/blog/hades-faq/",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:07.533321+00:00",
+        "page_title": "Hades FAQ | Supergiant Games",
+        "status": "local-article",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-032\\01-fulltext.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-032\\01-fulltext.extracted.txt",
+        "sha256": "cba3ea4a290c7ec40a879be19326cb609114e72dab90c78fe8081f5c602c4c9e",
+        "text_sha256": "1821db7417b129e8880e251cb962c4d7ec4f1b2a9d81085d82a50ec612b7741e",
+        "bytes": 119277,
+        "text_chars": 9406,
+        "text_lines": 153,
+        "bookmarks": [
+          {
+            "keyword": "random",
+            "line": 83,
+            "pdf_page": null
+          },
+          {
+            "keyword": "replay",
+            "line": 86,
+            "pdf_page": null
+          },
+          {
+            "keyword": "difficulty",
+            "line": 90,
+            "pdf_page": null
+          },
+          {
+            "keyword": "progression",
+            "line": 92,
+            "pdf_page": null
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-033",
+    "title": "A Mini-Postmortem Roundup: FTL section",
+    "author": "Justin Ma and Matthew Davis; other games have other authors",
+    "year": 2013,
+    "kind": "developer-article",
+    "topics": [
+      "scope",
+      "iteration",
+      "difficulty",
+      "loop"
+    ],
+    "scope": "FTL retrospective within a multi-game article",
+    "suggested_locator": "PC: Faster Than Light; What Went Right; What Went Wrong",
+    "limitation": "Only FTL section is in scope; do not attribute all article content to Subset Games.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://www.gamedeveloper.com/business/a-mini-postmortem-roundup",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "http_status": 403,
+        "final_url": "https://www.gamedeveloper.com/business/a-mini-postmortem-roundup",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:07.662068+00:00",
+        "error": "HTTP 403",
+        "status": "not-acquired"
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "出版方搜索记录可见作者与FTL分节；未离线取得正文。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "原文在线线索已定位，未取得本地文件"
+  },
+  {
+    "id": "RLR-20261108-034",
+    "title": "Roguelife: Digital Death in Videogames and Its Design Consequences",
+    "author": "James Bowie Wilson / MIT",
+    "year": 2019,
+    "kind": "masters-thesis",
+    "topics": [
+      "definition",
+      "failure",
+      "loop",
+      "mastery"
+    ],
+    "scope": "Roguelike death design and research prototypes",
+    "suggested_locator": "Chapter Three; Developer Protocol Model; Chapter Four Pilot User Study",
+    "limitation": "MIT explicitly lists S.M., not PhD; pilot study scope and sample must be checked in full text.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "landing",
+        "url": "https://dspace.mit.edu/entities/publication/fafb178e-e3b3-4677-8288-39b10faaae15",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://dspace.mit.edu/entities/publication/fafb178e-e3b3-4677-8288-39b10faaae15",
+        "content_type": "text/html; charset=utf-8",
+        "retrieved_at_utc": "2026-11-08T02:37:02.293988+00:00",
+        "page_title": "Roguelife : digital death in videogames and its design consequences",
+        "status": "local-landing-only",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-034\\01-landing.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-034\\01-landing.extracted.txt",
+        "sha256": "0a78fd7d866bd9394d7d3b9286663d519cff54b8c8b0f1cf2d6efa7a1bda5fe4",
+        "text_sha256": "32497933098f299272bc4d35b8cf6a243fbc3a90f4b9e291c2bce2e45d821d51",
+        "bytes": 555157,
+        "text_chars": 1020,
+        "text_lines": 38,
+        "bookmarks": []
+      },
+      {
+        "role": "paper",
+        "url": "https://dspace.mit.edu/bitstream/handle/1721.1/127723/1196239202-MIT.pdf?sequence=1&isAllowed=y",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "http_status": 429,
+        "final_url": "https://dspace.mit.edu/bitstreams/f608711d-22e8-427d-8525-776fb5d31bbe/download",
+        "content_type": "text/html",
+        "retrieved_at_utc": "2026-11-08T02:37:02.395881+00:00",
+        "error": "HTTP 429",
+        "status": "not-acquired"
+      },
+      {
+        "role": "paper",
+        "url": "https://dspace.mit.edu/server/api/core/bitstreams/f608711d-22e8-427d-8525-776fb5d31bbe/content",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://cf003.cdn.4science.cloud/4s-assetstore-prod--mit--dspace/12421497589682904881258001894804628619?response-content-type=application%2Fpdf&response-content-disposition=attachment%3B+filename%3D%221196239202-MIT.pdf%22&Expires=1794105427&Signature=BAnXArbwyFe8zAnFnZyf1oaxmgvZ8wUY8v~0CGTAeUSVVmxTFny8sz9Al4Le~gtBwdbqUhpAYNAsjrny6TY8asA22csLkEBKw2kA2Rm4ZrmBeNMx8zXZNMfn8XIIfXItylBEaQEpbhm0zfymrFHMr5xegF2rNcLsnEVhwbRfUCKTt4Y21M6nqSTt4g~xQbye-29FZCzM4YjhD7YXMuWDsZAT96Z58jQcD1Rj-lATtJLibui~KNKdb3sFCnDDM8wo0AYSLZFSw-zmNL1xaGuTbeaa9F7qVySxrlExkzlp9-M-d4Mi-oMkJEDNl0X2rUcOBz00Xanx9g6s8Gg75FNIsg__&Key-Pair-Id=K1M0LPFHJMTXJX",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:37:05.275745+00:00",
+        "pages": 106,
+        "status": "local-paper",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-034\\03-paper.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-034\\03-paper.extracted.txt",
+        "sha256": "6fc8515801bef361bc67abb08a62f9ef84f3b694af83586733e3578353b277d0",
+        "text_sha256": "45ece6864c83f5a21b2cec75ffddc6d638bd122264636a13da017f5b7e209405",
+        "bytes": 7878889,
+        "text_chars": 191226,
+        "text_lines": 4853,
+        "bookmarks": [
+          {
+            "keyword": "method",
+            "line": 71,
+            "pdf_page": 3
+          },
+          {
+            "keyword": "participant",
+            "line": 91,
+            "pdf_page": 3
+          },
+          {
+            "keyword": "permadeath",
+            "line": 188,
+            "pdf_page": 6
+          },
+          {
+            "keyword": "evaluation",
+            "line": 866,
+            "pdf_page": 20
+          },
+          {
+            "keyword": "design goal",
+            "line": 930,
+            "pdf_page": 21
+          },
+          {
+            "keyword": "difficulty",
+            "line": 940,
+            "pdf_page": 22
+          },
+          {
+            "keyword": "limitation",
+            "line": 1018,
+            "pdf_page": 23
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-035",
+    "title": "The culture of permadeath: Roguelikes and Terror Management Theory",
+    "author": "Rob Parker",
+    "year": 2017,
+    "kind": "journal-theory",
+    "topics": [
+      "failure",
+      "definition",
+      "community"
+    ],
+    "scope": "Roguelike culture and permadeath",
+    "suggested_locator": "Abstract; Journal of Gaming & Virtual Worlds 9(2), 123-141",
+    "limitation": "Exploratory theory, not causal player experiment; publisher abstract may be all that is accessible.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "abstract",
+        "url": "https://intellectdiscover.com/content/journals/10.1386/jgvw.9.2.123_1",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "http_status": 403,
+        "final_url": "https://intellectdiscover.com/content/journals/10.1386/jgvw.9.2.123_1",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:08.227476+00:00",
+        "error": "HTTP 403",
+        "status": "not-acquired"
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "期刊摘要已通过web工具读取；未取得文章全文。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "原文在线线索已定位，未取得本地文件"
+  },
+  {
+    "id": "RLR-20261108-036",
+    "title": "It's all fun and games until somebody dies: Permadeath appreciation as a function of grief and mortality salience",
+    "author": "Mckay Steven West, Elizabeth L. Cohen, Jaime Banks, Alan K. Goodboy",
+    "year": 2022,
+    "kind": "journal-empirical",
+    "topics": [
+      "failure",
+      "experience"
+    ],
+    "scope": "Retrospective reports of gaming death; not exclusive to roguelikes",
+    "suggested_locator": "Abstract; N=394; recall assignment; affect and appreciation",
+    "limitation": "Recall-based survey conditions are not equivalent to randomly assigning a game mechanic; no causal transfer to every roguelike.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "abstract",
+        "url": "https://intellectdiscover.com/content/journals/10.1386/jgvw_00057_1",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "http_status": 403,
+        "final_url": "https://intellectdiscover.com/content/journals/10.1386/jgvw_00057_1",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:08.225530+00:00",
+        "error": "HTTP 403",
+        "status": "not-acquired"
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "期刊题录与摘要、作者名单已在线核对；未取得全文，N=394只作方法定位线索。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "原文在线线索已定位，未取得本地文件"
+  },
+  {
+    "id": "RLR-20261108-037",
+    "title": "Genre, Prototype Theory and the Berlin Interpretation of Roguelikes",
+    "author": "James Cartlidge",
+    "year": 2024,
+    "kind": "journal-theory",
+    "topics": [
+      "definition"
+    ],
+    "scope": "Genre theory and roguelike categorization",
+    "suggested_locator": "Article sections on prototype theory and Berlin Interpretation",
+    "limitation": "Genre classification argument; does not establish quality criteria.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://gamestudies.org/2403/articles/cartlidge",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+        "status": "not-acquired"
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "期刊搜索索引及题录可见；正文下载/打开失败，不能宣称已读全文。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "原文在线线索已定位，未取得本地文件"
+  },
+  {
+    "id": "RLR-20261108-038",
+    "title": "A Hybrid Approach to Procedural Generation of Roguelike Video Game Levels",
+    "author": "Alexander Gellel and Penny Sweetser",
+    "year": 2020,
+    "kind": "conference-paper",
+    "topics": [
+      "generation",
+      "level",
+      "evaluation"
+    ],
+    "scope": "Roguelike dungeon level generation",
+    "suggested_locator": "FDG 2020; method; evaluation; limitations",
+    "limitation": "Technical generation study; do not equate measured generated-level properties with enjoyment.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "landing",
+        "url": "https://dl.acm.org/doi/10.1145/3402942.3402945",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "http_status": 403,
+        "final_url": "https://dl.acm.org/doi/10.1145/3402942.3402945",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:08.224221+00:00",
+        "error": "HTTP 403",
+        "status": "not-acquired"
+      },
+      {
+        "role": "paper",
+        "url": "https://openresearch-repository.anu.edu.au/bitstream/1885/205015/5/FDG20_PCG-submitted.pdf",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/a77810ba-c05b-43c2-bedd-86a4491c3027/content",
+        "content_type": "application/pdf;charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:12.727098+00:00",
+        "pages": 18,
+        "status": "local-paper",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-038\\02-paper.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-038\\02-paper.extracted.txt",
+        "sha256": "68f737caaa8c383370b3fc36d1d6b7dd1232e2157eabad433dd61ba54f5349a7",
+        "text_sha256": "8785cb991dba90d532c937b4fd786f1479cb29acff19f2f2d0020121ce81e330",
+        "bytes": 1215460,
+        "text_chars": 61842,
+        "text_lines": 1154,
+        "bookmarks": [
+          {
+            "keyword": "method",
+            "line": 29,
+            "pdf_page": 1
+          },
+          {
+            "keyword": "replay",
+            "line": 48,
+            "pdf_page": 1
+          },
+          {
+            "keyword": "random",
+            "line": 50,
+            "pdf_page": 1
+          },
+          {
+            "keyword": "failure",
+            "line": 51,
+            "pdf_page": 1
+          },
+          {
+            "keyword": "evaluation",
+            "line": 64,
+            "pdf_page": 1
+          },
+          {
+            "keyword": "balance",
+            "line": 194,
+            "pdf_page": 3
+          },
+          {
+            "keyword": "meaningful",
+            "line": 265,
+            "pdf_page": 4
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-039",
+    "title": "On the Evaluation of Procedural Level Generation Systems",
+    "author": "Oliver Withington, Michael Cook, Laurissa Tokarchuk",
+    "year": 2024,
+    "kind": "conference-survey",
+    "topics": [
+      "generation",
+      "evaluation",
+      "metrics"
+    ],
+    "scope": "PCG evaluation generally, not roguelike-specific",
+    "suggested_locator": "Evaluation taxonomy; survey; recommendations; FDG 2024",
+    "limitation": "Methodological support; not direct proof of roguelike design outcomes.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "landing",
+        "url": "https://arxiv.org/abs/2404.18657",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://arxiv.org/abs/2404.18657",
+        "content_type": "text/html; charset=utf-8",
+        "retrieved_at_utc": "2026-11-08T02:34:08.923411+00:00",
+        "page_title": "[2404.18657] On the Evaluation of Procedural Level Generation Systems",
+        "status": "local-landing-only",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-039\\01-landing.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-039\\01-landing.extracted.txt",
+        "sha256": "18fb89d91a8893dbf9b9016d30f122ef6544579eee67b23547a42ec302b2c9f7",
+        "text_sha256": "d94e294b5e0833c7c627e8007ab0719c630e86fd522871a3ddb32bf382a7daf0",
+        "bytes": 40892,
+        "text_chars": 4275,
+        "text_lines": 176,
+        "bookmarks": [
+          {
+            "keyword": "evaluation",
+            "line": 10,
+            "pdf_page": null
+          }
+        ]
+      },
+      {
+        "role": "paper",
+        "url": "https://arxiv.org/pdf/2404.18657",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://arxiv.org/pdf/2404.18657",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:34:09.324353+00:00",
+        "pages": 10,
+        "status": "local-paper",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-039\\02-paper.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-039\\02-paper.extracted.txt",
+        "sha256": "d013e81c680db569a2ac029377721c739f64819cf99dea18f5c1dcc8d554ff81",
+        "text_sha256": "4722d029db6aaf8f68be2abd23414b890f168c81be6c50019250ab8cd1f3afe3",
+        "bytes": 582817,
+        "text_chars": 76276,
+        "text_lines": 612,
+        "bookmarks": [
+          {
+            "keyword": "evaluation",
+            "line": 6,
+            "pdf_page": 1
+          },
+          {
+            "keyword": "method",
+            "line": 29,
+            "pdf_page": 1
+          },
+          {
+            "keyword": "limitation",
+            "line": 107,
+            "pdf_page": 2
+          },
+          {
+            "keyword": "participant",
+            "line": 209,
+            "pdf_page": 4
+          },
+          {
+            "keyword": "difficulty",
+            "line": 214,
+            "pdf_page": 4
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-040",
+    "title": "Balancing Randomness in Action Roguelike Game Design",
+    "author": "Rama Hannula / Tampere University of Applied Sciences",
+    "year": 2025,
+    "kind": "bachelors-thesis",
+    "topics": [
+      "randomness",
+      "balance",
+      "experience"
+    ],
+    "scope": "Action roguelike design",
+    "suggested_locator": "Abstract; design implementation; player feedback; limitations",
+    "limitation": "Title-page degree/date confirmed in indexed official PDF; sample and results still need full-text inspection.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "landing",
+        "url": "https://www.theseus.fi/handle/10024/886802",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "http_status": 403,
+        "final_url": "https://www.theseus.fi/handle/10024/886802",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:37:02.028657+00:00",
+        "error": "HTTP 403",
+        "status": "not-acquired"
+      },
+      {
+        "role": "paper",
+        "url": "https://www.theseus.fi/bitstream/10024/886802/2/Hannula_Rama.pdf",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "http_status": 403,
+        "final_url": "https://www.theseus.fi/bitstream/10024/886802/2/Hannula_Rama.pdf",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:37:02.827712+00:00",
+        "error": "HTTP 403",
+        "status": "not-acquired"
+      },
+      {
+        "role": "paper",
+        "url": "https://www.theseus.fi/bitstream/handle/10024/886802/Hannula_Rama.pdf?sequence=2",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "http_status": 403,
+        "final_url": "https://www.theseus.fi/bitstream/handle/10024/886802/Hannula_Rama.pdf?sequence=2",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:37:02.800192+00:00",
+        "error": "HTTP 403",
+        "status": "not-acquired"
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "官方PDF的搜索索引显示2025年5月学士论文、36页；各公开下载地址403，未得全文。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "原文在线线索已定位，未取得本地文件"
+  },
+  {
+    "id": "RLR-20261108-041",
+    "title": "Fail and Retry: How Challenge Design in Platformer Games Relates to Player Experience and Traits",
+    "author": "Marjorie Ann Mongado Cuerdo / UC Santa Cruz",
+    "year": 2022,
+    "kind": "masters-thesis",
+    "topics": [
+      "failure",
+      "difficulty",
+      "experience"
+    ],
+    "scope": "Platformer study with reset-location manipulations; adjacent evidence",
+    "suggested_locator": "Abstract; Fail and Retry Taxonomy; respawn-location study",
+    "limitation": "Title page says Master of Science, not doctorate. Not a roguelike study; do not transfer platformer outcomes without checking conditions, measures and sample.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "landing",
+        "url": "https://escholarship.org/uc/item/58z477g6",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "http_status": 202,
+        "final_url": "https://escholarship.org/uc/item/58z477g6",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:34:09.670043+00:00",
+        "error": "HTTP 202",
+        "status": "not-acquired"
+      },
+      {
+        "role": "paper",
+        "url": "https://escholarship.org/content/qt58z477g6/qt58z477g6_noSplash_474ac9f98f9174fa3d0700b506d6819e.pdf",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://escholarship.org/content/qt58z477g6/qt58z477g6_noSplash_474ac9f98f9174fa3d0700b506d6819e.pdf",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:34:11.030870+00:00",
+        "pages": 79,
+        "status": "local-paper",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-041\\02-paper.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-041\\02-paper.extracted.txt",
+        "sha256": "9dec3c58af3cc8845b44e230dc6498412c061a84b9c34301e4d963a9414c93c9",
+        "text_sha256": "68c139b6a5778eced143742db0cdccf25f29c67894e0086fda0f820396309a77",
+        "bytes": 2268729,
+        "text_chars": 109456,
+        "text_lines": 3401,
+        "bookmarks": [
+          {
+            "keyword": "failure",
+            "line": 71,
+            "pdf_page": 3
+          },
+          {
+            "keyword": "method",
+            "line": 73,
+            "pdf_page": 3
+          },
+          {
+            "keyword": "participant",
+            "line": 93,
+            "pdf_page": 3
+          },
+          {
+            "keyword": "mastery",
+            "line": 107,
+            "pdf_page": 4
+          },
+          {
+            "keyword": "difficulty",
+            "line": 109,
+            "pdf_page": 4
+          },
+          {
+            "keyword": "limitation",
+            "line": 112,
+            "pdf_page": 4
+          },
+          {
+            "keyword": "permadeath",
+            "line": 147,
+            "pdf_page": 5
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-042",
+    "title": "Three Layers of Progression in Roguelike Games and Their Application to the Game Design of ChocoDIE",
+    "author": "Nikol Strizh / HSE",
+    "year": 2026,
+    "kind": "bachelors-thesis",
+    "topics": [
+      "progression",
+      "mastery",
+      "replay",
+      "evaluation"
+    ],
+    "scope": "Roguelike progression comparative analysis",
+    "suggested_locator": "Institutional summary; reported sample of 40+ games",
+    "limitation": "Only summary available until full text is located; do not accept claimed relationships without methods.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "abstract",
+        "url": "https://www.hse.ru/en/edu/vkr/1159019310",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.hse.ru/en/edu/vkr/1159019310",
+        "content_type": "text/html; charset=utf-8",
+        "retrieved_at_utc": "2026-11-08T02:34:11.291220+00:00",
+        "page_title": "Three Layers of Progression in Roguelike Games and Their Application to the Game Design of ChocoDIE – Student Theses – Higher School of Economics National Research University",
+        "status": "local-abstract",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-042\\01-abstract.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-042\\01-abstract.extracted.txt",
+        "sha256": "9359f79cf14581c9598b04e559129f6c9350f31189d6f7fdf225e901b856798f",
+        "text_sha256": "8b8a89dfd01a55d6ad409d17b635047e798ee948d17eba9f287c6a12de930d9d",
+        "bytes": 68588,
+        "text_chars": 2643,
+        "text_lines": 44,
+        "bookmarks": [
+          {
+            "keyword": "progression",
+            "line": 24,
+            "pdf_page": null
+          },
+          {
+            "keyword": "mastery",
+            "line": 36,
+            "pdf_page": null
+          },
+          {
+            "keyword": "limitation",
+            "line": 42,
+            "pdf_page": null
+          }
+        ]
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "机构摘要已取得；摘要报告的分析范围尚未由方法正文复核。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "仅入口/摘要/发现页"
+  },
+  {
+    "id": "RLR-20261108-043",
+    "title": "Meta-progression and the player experience: A comparative study of roguelite design",
+    "author": "Arvid Aslund / University of Skovde",
+    "year": 2026,
+    "kind": "masters-thesis",
+    "topics": [
+      "progression",
+      "mastery",
+      "fairness",
+      "experience"
+    ],
+    "scope": "Hades II and The Binding of Isaac comparative analysis",
+    "suggested_locator": "Methods: recorded gameplay and Reddit threads; discussion",
+    "limitation": "Qualitative game/forum comparison, not controlled player experiment; primary repository still to resolve.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "discovery",
+        "url": "https://www.uppsatser.se/uppsats/6d9ac81240/",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.uppsatser.se/uppsats/6d9ac81240/",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:35:54.528271+00:00",
+        "page_title": "UPPSATSER.SE: Meta-progression and the player experience : A comparative study of roguelite design",
+        "status": "local-discovery-page",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-043\\01-discovery.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-043\\01-discovery.extracted.txt",
+        "sha256": "29a17377a416230c7747f65bb633223c64bbc396e408f3c542bb4037dfcc3175",
+        "text_sha256": "b0ae7a848e2976a8c912835801ead61d382439a76a6017c0c680664dec604961",
+        "bytes": 21425,
+        "text_chars": 1459,
+        "text_lines": 26,
+        "bookmarks": [
+          {
+            "keyword": "progression",
+            "line": 5,
+            "pdf_page": null
+          },
+          {
+            "keyword": "mastery",
+            "line": 21,
+            "pdf_page": null
+          }
+        ]
+      },
+      {
+        "role": "landing",
+        "url": "https://his.diva-portal.org/smash/record.jsf?pid=diva2:2072480",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "error": "SSLError: HTTPSConnectionPool(host='his.diva-portal.org', port=443): Max retries exceeded with url: /smash/record.jsf?pid=diva2:2072480 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1077)')))",
+        "status": "not-acquired"
+      },
+      {
+        "role": "paper",
+        "url": "https://his.diva-portal.org/smash/get/diva2:2072480/FULLTEXT01.pdf",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+        "status": "not-acquired"
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "二级题录页可读；机构URN已解析到diva2:2072480，但机构页/全文访问失败。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "仅入口/摘要/发现页"
+  },
+  {
+    "id": "RLR-20261108-044",
+    "title": "Subverting Historical Cause & Effect: Generation of Mythic Biographies in Caves of Qud",
+    "author": "Jason Grinblat and Brian Bucklew",
+    "year": 2017,
+    "kind": "developer-research-paper",
+    "topics": [
+      "generation",
+      "narrative",
+      "systems"
+    ],
+    "scope": "Caves of Qud procedural history",
+    "suggested_locator": "Design constraints; generation method; examples",
+    "limitation": "Developer-authored paper; separate pipeline claim from demonstrated player response.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "paper",
+        "url": "https://pcgworkshop.com/archive/grinblat2017subverting.pdf",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+        "status": "not-acquired"
+      },
+      {
+        "role": "paper",
+        "url": "https://www.pcgworkshop.com/archive/grinblat2017subverting.pdf",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+        "status": "not-acquired"
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "作者论文的会议公开PDF可在搜索/web索引中定位；直接下载连接失败，未离线取得。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "原文在线线索已定位，未取得本地文件"
+  },
+  {
+    "id": "RLR-20261108-045",
+    "title": "Procedural Content Generation in Games: A Textbook and an Overview of Current Research",
+    "author": "Noor Shaker, Julian Togelius, Mark J. Nelson (editors)",
+    "year": 2016,
+    "kind": "research-book",
+    "topics": [
+      "generation",
+      "evaluation",
+      "metrics"
+    ],
+    "scope": "General PCG; supporting methodology",
+    "suggested_locator": "Author-hosted chapter list and open chapter PDFs",
+    "limitation": "General research methods; individual chapters have their own authors; not a roguelike design standard.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "landing",
+        "url": "https://www.pcgbook.com/",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.pcgbook.com/",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:35:56.579577+00:00",
+        "page_title": "Procedural Content Generation in Games book",
+        "status": "local-landing-only",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-045\\01-landing.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-045\\01-landing.extracted.txt",
+        "sha256": "44894d1f7c1b929968877ea70e52282c04b05531340752240add65273a98f434",
+        "text_sha256": "a76adca32d86c4eb4a7cd0d3e702286540ce19a89d1e4945b7581334a5607cc0",
+        "bytes": 9578,
+        "text_chars": 7467,
+        "text_lines": 202,
+        "bookmarks": [
+          {
+            "keyword": "method",
+            "line": 21,
+            "pdf_page": null
+          }
+        ]
+      },
+      {
+        "role": "chapter",
+        "url": "https://www.pcgbook.com/chapter03.pdf",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.pcgbook.com/chapter03.pdf",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:36:01.533258+00:00",
+        "pages": 25,
+        "status": "local-book-chapter",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-045\\02-chapter.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-045\\02-chapter.extracted.txt",
+        "sha256": "4adb0b6834abb8c80bc3feef6054287692cc379436c7781a42fc4d42f84af9e9",
+        "text_sha256": "8c536a6521a9a13e53850948688e0d322980ac57aa82b9c716685a315ccaddb5",
+        "bytes": 2917802,
+        "text_chars": 64200,
+        "text_lines": 1143,
+        "bookmarks": [
+          {
+            "keyword": "method",
+            "line": 7,
+            "pdf_page": 1
+          },
+          {
+            "keyword": "progression",
+            "line": 47,
+            "pdf_page": 1
+          },
+          {
+            "keyword": "random",
+            "line": 195,
+            "pdf_page": 4
+          },
+          {
+            "keyword": "participant",
+            "line": 1015,
+            "pdf_page": 23
+          }
+        ]
+      },
+      {
+        "role": "chapter",
+        "url": "https://www.pcgbook.com/chapter05.pdf",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.pcgbook.com/chapter05.pdf",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:36:05.094400+00:00",
+        "pages": 26,
+        "status": "local-book-chapter",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-045\\03-chapter.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-045\\03-chapter.extracted.txt",
+        "sha256": "b5d4d81ddce0d416495cd8e6e50f545c37d26c2889043dc7622e2099a0a628a1",
+        "text_sha256": "eb1ce6b0fbaea3a20c1e0b504570563d514d568db22a4b916900767f99fe39d2",
+        "bytes": 8268029,
+        "text_chars": 51470,
+        "text_lines": 1087,
+        "bookmarks": [
+          {
+            "keyword": "method",
+            "line": 21,
+            "pdf_page": 1
+          },
+          {
+            "keyword": "random",
+            "line": 119,
+            "pdf_page": 3
+          },
+          {
+            "keyword": "evaluation",
+            "line": 266,
+            "pdf_page": 6
+          }
+        ]
+      },
+      {
+        "role": "chapter",
+        "url": "https://www.pcgbook.com/chapter06.pdf",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.pcgbook.com/chapter06.pdf",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:36:00.739543+00:00",
+        "pages": 23,
+        "status": "local-book-chapter",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-045\\04-chapter.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-045\\04-chapter.extracted.txt",
+        "sha256": "345dc2309c4b4a49edcbe5c59733afdf236be37c81d1d0c852788f9b1384b540",
+        "text_sha256": "f113b30c774ff68fdb2b3420c52515aa399605df74d18c4d1f2b8ffdab3a3d59",
+        "bytes": 239558,
+        "text_chars": 65153,
+        "text_lines": 1141,
+        "bookmarks": [
+          {
+            "keyword": "method",
+            "line": 22,
+            "pdf_page": 1
+          },
+          {
+            "keyword": "evaluation",
+            "line": 36,
+            "pdf_page": 1
+          },
+          {
+            "keyword": "balance",
+            "line": 40,
+            "pdf_page": 1
+          },
+          {
+            "keyword": "meaningful",
+            "line": 85,
+            "pdf_page": 2
+          },
+          {
+            "keyword": "progression",
+            "line": 139,
+            "pdf_page": 3
+          },
+          {
+            "keyword": "random",
+            "line": 195,
+            "pdf_page": 4
+          },
+          {
+            "keyword": "design goal",
+            "line": 871,
+            "pdf_page": 18
+          }
+        ]
+      },
+      {
+        "role": "chapter",
+        "url": "https://www.pcgbook.com/chapter10.pdf",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.pcgbook.com/chapter10.pdf",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:36:19.349666+00:00",
+        "pages": 14,
+        "status": "local-book-chapter",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-045\\05-chapter.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-045\\05-chapter.extracted.txt",
+        "sha256": "66a71bf632e010ca8970c48f087f299ab7f2579afbaad430faf59ee109f23532",
+        "text_sha256": "bc3368c5a48ab1b42a9cf93bb19f711b1ffd46434c524378f176aa47c8512ab4",
+        "bytes": 2576656,
+        "text_chars": 41183,
+        "text_lines": 686,
+        "bookmarks": [
+          {
+            "keyword": "evaluation",
+            "line": 22,
+            "pdf_page": 1
+          },
+          {
+            "keyword": "balance",
+            "line": 85,
+            "pdf_page": 2
+          },
+          {
+            "keyword": "method",
+            "line": 93,
+            "pdf_page": 2
+          },
+          {
+            "keyword": "meaningful",
+            "line": 142,
+            "pdf_page": 3
+          }
+        ]
+      },
+      {
+        "role": "chapter",
+        "url": "https://www.pcgbook.com/chapter11.pdf",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.pcgbook.com/chapter11.pdf",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:36:04.880254+00:00",
+        "pages": 20,
+        "status": "local-book-chapter",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-045\\06-chapter.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-045\\06-chapter.extracted.txt",
+        "sha256": "14f8daabb92a8c0a2e9adefe1d1cac617f219e7d4afc7676e30c2bc9ba25a4a4",
+        "text_sha256": "fdb8670131f0cd5fbe7e2f6325b25203b0e805e6ab21f6704aaea6e12625b675",
+        "bytes": 2128382,
+        "text_chars": 54241,
+        "text_lines": 934,
+        "bookmarks": [
+          {
+            "keyword": "method",
+            "line": 31,
+            "pdf_page": 1
+          },
+          {
+            "keyword": "participant",
+            "line": 174,
+            "pdf_page": 4
+          },
+          {
+            "keyword": "balance",
+            "line": 270,
+            "pdf_page": 6
+          },
+          {
+            "keyword": "meaningful",
+            "line": 298,
+            "pdf_page": 6
+          },
+          {
+            "keyword": "evaluation",
+            "line": 299,
+            "pdf_page": 6
+          }
+        ]
+      },
+      {
+        "role": "chapter",
+        "url": "https://www.pcgbook.com/chapter12.pdf",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.pcgbook.com/chapter12.pdf",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:36:01.978326+00:00",
+        "pages": 10,
+        "status": "local-book-chapter",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-045\\07-chapter.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-045\\07-chapter.extracted.txt",
+        "sha256": "9c90953f0ad537afc29448943534f5821fa4f1fd997f6cba82fe2b9ea8a5f1a4",
+        "text_sha256": "40314db3d09b7d873d7ac6d2d84748a6153edd8ac37242abbb73d8fe954728cb",
+        "bytes": 395346,
+        "text_chars": 26742,
+        "text_lines": 465,
+        "bookmarks": [
+          {
+            "keyword": "method",
+            "line": 24,
+            "pdf_page": 1
+          },
+          {
+            "keyword": "evaluation",
+            "line": 56,
+            "pdf_page": 2
+          },
+          {
+            "keyword": "limitation",
+            "line": 340,
+            "pdf_page": 8
+          }
+        ]
+      },
+      {
+        "role": "chapter",
+        "url": "https://www.pcgbook.com/interviews.pdf",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.pcgbook.com/interviews.pdf",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:36:02.410704+00:00",
+        "pages": 13,
+        "status": "local-book-chapter",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-045\\08-chapter.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-045\\08-chapter.extracted.txt",
+        "sha256": "ef63b5012aaf1b7c95f4a4871f04fc3c2f85aa11df53beb34327e2ea2b7796ea",
+        "text_sha256": "a08affd3b9ac809ca65c2e7f158407222973f6f78359decac093694617088795",
+        "bytes": 118675,
+        "text_chars": 29245,
+        "text_lines": 637,
+        "bookmarks": [
+          {
+            "keyword": "method",
+            "line": 21,
+            "pdf_page": 1
+          },
+          {
+            "keyword": "limitation",
+            "line": 38,
+            "pdf_page": 1
+          },
+          {
+            "keyword": "permadeath",
+            "line": 109,
+            "pdf_page": 3
+          },
+          {
+            "keyword": "failure",
+            "line": 124,
+            "pdf_page": 3
+          },
+          {
+            "keyword": "random",
+            "line": 139,
+            "pdf_page": 3
+          },
+          {
+            "keyword": "design goal",
+            "line": 310,
+            "pdf_page": 7
+          },
+          {
+            "keyword": "meaningful",
+            "line": 325,
+            "pdf_page": 7
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-046",
+    "title": "The Right Variety: Improving Expressive Range Analysis with Metric Selection Methods",
+    "author": "Oliver Withington and Laurissa Tokarchuk",
+    "year": 2023,
+    "kind": "research-paper",
+    "topics": [
+      "generation",
+      "evaluation",
+      "metrics"
+    ],
+    "scope": "Evaluation of procedural generators generally",
+    "suggested_locator": "Abstract; metric selection; expressive range analysis",
+    "limitation": "Diversity metrics do not independently measure enjoyment or strategic variety.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "landing",
+        "url": "https://arxiv.org/abs/2304.02366",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://arxiv.org/abs/2304.02366",
+        "content_type": "text/html; charset=utf-8",
+        "retrieved_at_utc": "2026-11-08T02:34:12.617820+00:00",
+        "page_title": "[2304.02366] The Right Variety: Improving Expressive Range Analysis with Metric Selection Methods",
+        "status": "local-landing-only",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-046\\01-landing.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-046\\01-landing.extracted.txt",
+        "sha256": "a049a23f75a722a98dc3671a999b0911864102d67b9b992e476bc53561af0869",
+        "text_sha256": "0e1b7db860f2a980679ebade7c79ff974fdf08ca2adde7429a86586b7da86763",
+        "bytes": 43946,
+        "text_chars": 4756,
+        "text_lines": 177,
+        "bookmarks": [
+          {
+            "keyword": "method",
+            "line": 10,
+            "pdf_page": null
+          }
+        ]
+      },
+      {
+        "role": "paper",
+        "url": "https://arxiv.org/pdf/2304.02366",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://arxiv.org/pdf/2304.02366",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:34:14.786041+00:00",
+        "pages": 11,
+        "status": "local-paper",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-046\\02-paper.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-046\\02-paper.extracted.txt",
+        "sha256": "536c9894b83f5384d829e5462be4af2f91403fdd009753edfada640fcb80091d",
+        "text_sha256": "591dc15e96fa94f912ed64f06ecad915f85c7a3a024e6c94a119ed4417465c15",
+        "bytes": 1382689,
+        "text_chars": 76425,
+        "text_lines": 666,
+        "bookmarks": [
+          {
+            "keyword": "method",
+            "line": 7,
+            "pdf_page": 1
+          },
+          {
+            "keyword": "difficulty",
+            "line": 27,
+            "pdf_page": 1
+          },
+          {
+            "keyword": "limitation",
+            "line": 81,
+            "pdf_page": 2
+          },
+          {
+            "keyword": "random",
+            "line": 87,
+            "pdf_page": 2
+          },
+          {
+            "keyword": "evaluation",
+            "line": 158,
+            "pdf_page": 3
+          },
+          {
+            "keyword": "meaningful",
+            "line": 199,
+            "pdf_page": 4
+          }
+        ]
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-047",
+    "title": "Independent Games Summit: Monster Train Postmortem",
+    "author": "Mark Cooke / Shiny Shoe",
+    "year": 2021,
+    "kind": "developer-talk",
+    "topics": [
+      "build",
+      "iteration",
+      "balance",
+      "scope"
+    ],
+    "scope": "Deckbuilding roguelike",
+    "suggested_locator": "Prototyping; feedback culture; design and production",
+    "limitation": "Production retrospective with design sections; not a detailed balance specification.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "landing",
+        "url": "https://www.gdcvault.com/play/1027098/Independent-Games-Summit-Monster-Train",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.gdcvault.com/play/1027098/Independent-Games-Summit-Monster-Train",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:36:03.490057+00:00",
+        "page_title": "GDC Vault - Independent Games Summit: 'Monster Train' Postmortem",
+        "status": "local-landing-only",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-047\\01-landing.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-047\\01-landing.extracted.txt",
+        "sha256": "0b442ea53018fe01b52a05d0babd332b24097618b99d6b6d99b01748864e1300",
+        "text_sha256": "4bd25e667c3795c1318b2572461f41e6e02818cc7ce5db196e8eeb3cbb201a9d",
+        "bytes": 133058,
+        "text_chars": 3047,
+        "text_lines": 93,
+        "bookmarks": [
+          {
+            "keyword": "failure",
+            "line": 66,
+            "pdf_page": null
+          }
+        ]
+      },
+      {
+        "role": "slides",
+        "url": "https://media.gdcvault.com/GDC+2021/GDC21+-+Monster+Train+Postmortem.pdf",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://media.gdcvault.com/GDC+2021/GDC21+-+Monster+Train+Postmortem.pdf",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:36:14.606492+00:00",
+        "pages": 32,
+        "status": "local-slides",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-047\\02-slides.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-047\\02-slides.extracted.txt",
+        "sha256": "eef5abefc57fe9e9fc1ffff629b09c3c3eca76f43c652faf4768be43dcafe4cc",
+        "text_sha256": "8f5878fb32b05c07f56f456cef423f9ce89f9902978be4b7da39d8251f8efc9a",
+        "bytes": 7931968,
+        "text_chars": 5491,
+        "text_lines": 250,
+        "bookmarks": []
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-048",
+    "title": "Level Generation in Unexplored 2",
+    "author": "Joris Dormans / Ludomotion",
+    "year": 2019,
+    "kind": "developer-article",
+    "topics": [
+      "generation",
+      "level",
+      "decision",
+      "systems"
+    ],
+    "scope": "Generative roguelite; high-level plans to tile maps",
+    "suggested_locator": "Emulating human level design; Adding more gameplay; figures 1-13",
+    "limitation": "Author claims about natural flow need separate evaluation; figures are essential.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://www.ludomotion.com/blogs/level-generation/",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.ludomotion.com/blogs/level-generation/",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:36:03.743791+00:00",
+        "page_title": "Ludomotion - Unexplored 2 Dev Blog - Level Generation",
+        "status": "local-article",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-048\\01-fulltext.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-048\\01-fulltext.extracted.txt",
+        "sha256": "c8e40505933afa37e7668a6f8f3648e48be6cf79b47d1b6d5a800d03fc7d8692",
+        "text_sha256": "6eb2e11f507cd476d8164ee4035cd1014f02fee6adea85d27665f5e2b09a2e7c",
+        "bytes": 9800,
+        "text_chars": 7616,
+        "text_lines": 52,
+        "bookmarks": []
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-049",
+    "title": "Returnal combat details: Upgradable weapons, otherworldly tools, and risky buffs",
+    "author": "Harry Krueger / Housemarque",
+    "year": 2021,
+    "kind": "developer-article",
+    "topics": [
+      "build",
+      "decision",
+      "randomness",
+      "progression"
+    ],
+    "scope": "Third-person action roguelike",
+    "suggested_locator": "Combat; upgrades; tools; risk/reward",
+    "limitation": "Pre-release official developer explanation; not an evaluated postmortem.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://blog.playstation.com/2021/01/13/returnal-combat-details-upgradable-weapons-otherworldly-tools-and-risky-buffs/",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://blog.playstation.com/2021/01/13/returnal-combat-details-upgradable-weapons-otherworldly-tools-and-risky-buffs/",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:36:09.109654+00:00",
+        "page_title": "Returnal combat details: Upgradable weapons, otherworldly tools, and risky buffs – PlayStation.Blog",
+        "status": "local-article",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-049\\01-fulltext.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-049\\01-fulltext.extracted.txt",
+        "sha256": "7930d2040ffbc32d3cf5f4a1737885de3680bcfa4d6c58fd041731ad689fcfbd",
+        "text_sha256": "77f18d2a82be08ce3cbbfc684337b2f2b9b244e2cc7eedd979d174423c5fb14f",
+        "bytes": 178798,
+        "text_chars": 7254,
+        "text_lines": 75,
+        "bookmarks": [
+          {
+            "keyword": "random",
+            "line": 23,
+            "pdf_page": null
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-050",
+    "title": "Unpacking Returnal's UX design: Gameplay-first UI, retro-futuristic tech, and accessibility",
+    "author": "Johannes Koski / Housemarque",
+    "year": 2021,
+    "kind": "developer-article",
+    "topics": [
+      "information",
+      "feel",
+      "difficulty"
+    ],
+    "scope": "Third-person action roguelike UX",
+    "suggested_locator": "Gameplay-first UI; accessibility; feedback",
+    "limitation": "UI goals are conditioned on action and 3D readability; not universal information density rules.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://blog.playstation.com/2021/05/11/unpacking-returnals-ux-design-gameplay-first-ui-retro-futuristic-tech-and-accessibility/",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://blog.playstation.com/2021/05/11/unpacking-returnals-ux-design-gameplay-first-ui-retro-futuristic-tech-and-accessibility/",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:36:12.093235+00:00",
+        "page_title": "Unpacking Returnal’s UX design: Gameplay-first UI, retro-futuristic  tech, and accessibility – PlayStation.Blog",
+        "status": "local-article",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-050\\01-fulltext.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-050\\01-fulltext.extracted.txt",
+        "sha256": "f9b81c5f09b448f80481fa2ce56c1c3a1f426e4c65e6244c58cb92222f710dc6",
+        "text_sha256": "b1af4059c0860ac8cb07c70cb79ccf710627e9125cc3e29486957937b3f86f19",
+        "bytes": 182865,
+        "text_chars": 10817,
+        "text_lines": 83,
+        "bookmarks": [
+          {
+            "keyword": "random",
+            "line": 23,
+            "pdf_page": null
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-051",
+    "title": "Never The Same Twice: Procedural World Handling in Returnal",
+    "author": "Ethan Watson / Housemarque",
+    "year": 2022,
+    "kind": "developer-talk",
+    "topics": [
+      "generation",
+      "level",
+      "scope"
+    ],
+    "scope": "Returnal technical generation pipeline",
+    "suggested_locator": "Title and production context; room generation and tooling",
+    "limitation": "Programming/production case study, not a gameplay-design effectiveness study.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "slides",
+        "url": "https://media.gdcvault.com/GDC+2022/Speaker+Slides/Never+The+Same_Watson_Ethan.pdf",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://media.gdcvault.com/GDC+2022/Speaker+Slides/Never+The+Same_Watson_Ethan.pdf",
+        "content_type": "application/pdf",
+        "retrieved_at_utc": "2026-11-08T02:39:38.368529+00:00",
+        "pages": 96,
+        "status": "local-slides",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-051\\01-slides.pdf",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-051\\01-slides.extracted.txt",
+        "sha256": "e5d5a1805a09a9c9b0c69d01e08fc0ae3fcc11fb6834a54136c86ae3739a234c",
+        "text_sha256": "a0fa5c04b8a5a2185e69daa108fef82ab2a1eb1be63de1e280901e0eee4b000c",
+        "bytes": 13761242,
+        "text_chars": 61222,
+        "text_lines": 1922,
+        "bookmarks": [
+          {
+            "keyword": "difficulty",
+            "line": 85,
+            "pdf_page": 5
+          },
+          {
+            "keyword": "random",
+            "line": 399,
+            "pdf_page": 20
+          },
+          {
+            "keyword": "failure",
+            "line": 499,
+            "pdf_page": 23
+          },
+          {
+            "keyword": "method",
+            "line": 833,
+            "pdf_page": 44
+          },
+          {
+            "keyword": "evaluation",
+            "line": 1180,
+            "pdf_page": 60
+          },
+          {
+            "keyword": "limitation",
+            "line": 1633,
+            "pdf_page": 83
+          }
+        ]
+      },
+      {
+        "role": "landing",
+        "url": "https://www.gdcvault.com/play/1027651/Never-The-Same-Twice-Procedural",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.gdcvault.com/play/1027651/Never-The-Same-Twice-Procedural",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:39:37.219397+00:00",
+        "page_title": "GDC Vault - Never The Same Twice: Procedural World Handling in 'Returnal'",
+        "status": "local-landing-only",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-051\\02-landing.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-051\\02-landing.extracted.txt",
+        "sha256": "9058501f5420e9558a8174265bcd4c74fccb2b88564027930e46bbb68754b768",
+        "text_sha256": "445018ea72e12b4d643ebf9e3f20580231405f63cd80b0eeec847523695f873f",
+        "bytes": 134309,
+        "text_chars": 3200,
+        "text_lines": 93,
+        "bookmarks": []
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-052",
+    "title": "“求求你们别再刮痧了！”专访《暖雪》制作人李梓",
+    "author": "李梓 / 烂泥工作室；机核采访",
+    "year": 2022,
+    "kind": "developer-interview",
+    "topics": [
+      "build",
+      "feel",
+      "scope",
+      "narrative",
+      "iteration"
+    ],
+    "scope": "Chinese action roguelite; Warm Snow",
+    "suggested_locator": "开发原型；飞剑；流派；叙事；难度反馈",
+    "limitation": "中文原创采访；区分制作人原话、记者叙述和发售期宣传；不以销量证明设计因果。",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://www.gcores.com/articles/146899",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.gcores.com/articles/146899",
+        "content_type": "text/html; charset=utf-8",
+        "retrieved_at_utc": "2026-11-08T02:38:20.617132+00:00",
+        "page_title": "“求求你们别再刮痧了！”专访《暖雪》制作人李梓 | 机核 GCORES",
+        "status": "local-article",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-052\\01-fulltext.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-052\\01-fulltext.extracted.txt",
+        "sha256": "401d8276664967ca5ca070f2c589e770d09f399b479d2ea8e899be72a8226d75",
+        "text_sha256": "14e5fce0ba0c17249243996eae18ad9d7c258747962a1530fb8a3c3d425f7b3f",
+        "bytes": 148558,
+        "text_chars": 3859,
+        "text_lines": 112,
+        "bookmarks": [
+          {
+            "keyword": "流派",
+            "line": 33,
+            "pdf_page": null
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "zh",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-053",
+    "title": "“超级幻影猫”开发商沉心两年力作《霓虹深渊》，为何能获国际一线发行青睐？",
+    "author": "王晨、杨迅 / Veewo Games；GameRes 原创采访",
+    "year": 2019,
+    "kind": "developer-interview",
+    "topics": [
+      "build",
+      "replay",
+      "scope",
+      "iteration"
+    ],
+    "scope": "Chinese action roguelike; Neon Abyss pre-release",
+    "suggested_locator": "独特单局体验；高重玩价值；团队与生产边界",
+    "limitation": "发售前采访陈述设计意图；不是发售后效果验证。",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://www.gameres.com/853139.html",
+        "acquired": false,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.gameres.com/853139.html",
+        "content_type": "text/html;charset=utf-8",
+        "retrieved_at_utc": "2026-11-08T02:38:20.599312+00:00",
+        "page_title": "“超级幻影猫”开发商沉心两年力作《霓虹深渊》，为何能获国际一线发行青睐？ - GameRes游资网",
+        "status": "not-acquired",
+        "error": "Response too short; manual inspection required"
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "zh",
+    "online_verification": "web工具可读原创采访正文；直接下载返回403/短响应，未离线取得。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "原文在线线索已定位，未取得本地文件"
+  },
+  {
+    "id": "RLR-20261108-054",
+    "title": "加入联机系统，BOSS数量翻倍：机核专访《霓虹深渊2》开发组",
+    "author": "Veewo Games 开发组；机核采访",
+    "year": 2025,
+    "kind": "developer-interview",
+    "topics": [
+      "build",
+      "difficulty",
+      "mastery",
+      "replay",
+      "cooperation"
+    ],
+    "scope": "Chinese action roguelite sequel; Neon Abyss 2",
+    "suggested_locator": "End Game；机制联动；隐藏规则；武器；命运系统；联机",
+    "limitation": "与初代同一开发来源，不当作独立重复验证；具体发售/版本以采访时为准。",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://www.gcores.com/articles/194468",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://www.gcores.com/articles/194468",
+        "content_type": "text/html; charset=utf-8",
+        "retrieved_at_utc": "2026-11-08T02:38:20.525675+00:00",
+        "page_title": "加入联机系统，BOSS数量翻倍：机核专访《霓虹深渊2》开发组 | 机核 GCORES",
+        "status": "local-article",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-054\\01-fulltext.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-054\\01-fulltext.extracted.txt",
+        "sha256": "9607372a96a6cf4a196707d6f9efc09166ca37d4116cad5f089af4e0a6e73861",
+        "text_sha256": "071801166c66d6e581e107039c207c0be2f9ec8b94f4955bc2e690f6c11f26e2",
+        "bytes": 142818,
+        "text_chars": 2713,
+        "text_lines": 101,
+        "bookmarks": [
+          {
+            "keyword": "联机",
+            "line": 23,
+            "pdf_page": null
+          },
+          {
+            "keyword": "流派",
+            "line": 52,
+            "pdf_page": null
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "zh",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-055",
+    "title": "How to Come Out On Top in Slay the Spire, Out Now on PS4",
+    "author": "Anthony Giovannetti / Mega Crit",
+    "year": 2019,
+    "kind": "developer-player-guide",
+    "topics": [
+      "build",
+      "decision",
+      "randomness",
+      "information"
+    ],
+    "scope": "Slay the Spire Ironclad introductory play guide",
+    "suggested_locator": "Dynamic Deck Building; character examples; tips",
+    "limitation": "Player-facing guide, not a general design method. Specific deck-size advice is contextual, not a universal roguelike standard; page updated 2022.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://blog.playstation.com/2019/05/13/how-to-come-out-on-top-in-slay-the-spire-out-may-21-on-ps4/",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://blog.playstation.com/2019/05/13/how-to-come-out-on-top-in-slay-the-spire-out-may-21-on-ps4/",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:39:36.725703+00:00",
+        "page_title": "How to Come Out On Top in Slay the Spire, Out Now on PS4 – PlayStation.Blog",
+        "status": "local-article",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-055\\01-fulltext.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-055\\01-fulltext.extracted.txt",
+        "sha256": "593b356d8abf1b208c9ee9c64e57378cf2d1a37e5cba4a940001917fd3cbf385",
+        "text_sha256": "88f065ecde98b106f9bbb2e2363c9987a9966b6078357f529f248c866a43358c",
+        "bytes": 179445,
+        "text_chars": 6194,
+        "text_lines": 89,
+        "bookmarks": []
+      }
+    ],
+    "priority": "P2：专题补充/方法边界",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  },
+  {
+    "id": "RLR-20261108-056",
+    "title": "868-BACK: quit",
+    "author": "Michael Brough",
+    "year": 2026,
+    "kind": "developer-article",
+    "topics": [
+      "difficulty",
+      "decision",
+      "mastery",
+      "replay",
+      "progression"
+    ],
+    "scope": "Small-grid tactical roguelike; 868-HACK/868-BACK",
+    "suggested_locator": "Difficulty modifiers; quitting; run structure; design comparison",
+    "limitation": "One designer reflecting on related games; distinguish design intent and reported player responses.",
+    "research_status": "Raw / Unqualified; learning material only",
+    "review_status": "Acquisition and locator check only; not a complete critical reading",
+    "assets": [
+      {
+        "role": "fulltext",
+        "url": "https://mightyvision.blogspot.com/2026/06/868-back-quit.html",
+        "acquired": true,
+        "retrieved_date": "2026-11-08",
+        "http_status": 200,
+        "final_url": "https://mightyvision.blogspot.com/2026/06/868-back-quit.html",
+        "content_type": "text/html; charset=UTF-8",
+        "retrieved_at_utc": "2026-11-08T02:39:36.641973+00:00",
+        "page_title": "Mighty Vision: 868-BACK: quit",
+        "status": "local-article",
+        "raw_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-056\\01-fulltext.html",
+        "text_file": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\roguelike-research-2026-11-08\\originals\\RLR-20261108-056\\01-fulltext.extracted.txt",
+        "sha256": "a0e1c1cbfdb05c5cda7b97f57504fd214c4f214c1ec8b801e3a494270b3eb6a4",
+        "text_sha256": "454f0ceb57a42d42d9d8299888980a4f2d95ea9fbd881f6a29b6d5e01796a5ec",
+        "bytes": 72170,
+        "text_chars": 5528,
+        "text_lines": 30,
+        "bookmarks": [
+          {
+            "keyword": "balance",
+            "line": 11,
+            "pdf_page": null
+          },
+          {
+            "keyword": "difficulty",
+            "line": 13,
+            "pdf_page": null
+          },
+          {
+            "keyword": "random",
+            "line": 16,
+            "pdf_page": null
+          },
+          {
+            "keyword": "limitation",
+            "line": 22,
+            "pdf_page": null
+          }
+        ]
+      }
+    ],
+    "priority": "P1：优先精读/补全文",
+    "language": "en",
+    "online_verification": "已检查公开页面/原始文件的身份与可获取性；正文仅作采集定位，未完成批判性精读。",
+    "project_application": "Unknown：未对照言咒设计，不构成素材晋级或项目采纳。",
+    "collection_level": "有本地正文/讲义/节选"
+  }
+]
