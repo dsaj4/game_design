@@ -1,6 +1,6 @@
 # 法器、炉心与排料约束
 
-2026-11-05 · CONTENT-LIBRARY-09。八法器本体沿CORE-074；炉心、圈下限及P沿CORE-075／076。此页从catalog派生，不构成全链装载或玩法验证。
+2026-11-05 · CONTENT-LIBRARY-10。八法器本体沿CORE-074；炉心、圈下限及P沿CORE-075／076。此页从catalog派生，不构成全链装载或玩法验证。
 
 [展板](index.html) · [首战布局见证](first-battle.md)
 

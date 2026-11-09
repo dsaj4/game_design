@@ -1,9 +1,9 @@
 {
   "schema": "yanzhou-content-library/2",
-  "version": "CONTENT-LIBRARY-09",
-  "date": "2026-11-05",
+  "version": "CONTENT-LIBRARY-10",
+  "date": "2026-11-09",
   "sourceCommit": "e67e8c1748079abbf6f08d06be91fd0740422e86",
-  "scope": "CORE-077 / round-plan.1；每轮5生产拍、整轮锁行；first-distillation.4，静态指定路线；引擎与体验NotRun。",
+  "scope": "保留CORE-077 / first-distillation.4；新增仪式最小完整局Qualified内容包，用户已逐项确认并授权入库。尚未迁移现行GDD，玩法体验NotRun。",
   "sources": {
     "handbook": {
       "label": "炼金手册整理前版本（含 COPY-01）",
@@ -77,6 +77,14 @@
     "core077": {
       "label": "CORE-077 整轮方案与首战迁移",
       "href": "../sources/draft-changes/D-2026-11-05-round-plan-alignment.md"
+    },
+    "ritual-qualified": {
+      "label": "仪式内容入库资格与本轮授权",
+      "href": "../sources/materials/M-2026-11-09-ritual-content-pack.md"
+    },
+    "ritual-review": {
+      "label": "已审核仪式工作设计（固定版本）",
+      "href": "https://github.com/dsaj4/game_design/blob/d880c1f3308046952ea0fa30867f871b7b7845cf/yanzhou/system-design/2026-11-08-ritual-roguelite-overview.md#ritual-gap-review"
     }
   },
   "items": [
@@ -7629,6 +7637,528 @@
         "name": "1×2",
         "domain": "配置实体占格，不是配方材料或战斗卡。"
       }
+    },
+    {
+      "id": "ritual.incense",
+      "name": "香料",
+      "kind": "ritual-material",
+      "collection": "ritual",
+      "status": "qualified",
+      "summary": "多项仪式共用的基础投入。",
+      "description": "",
+      "fields": {
+        "取得": "每段第1固定2份；其他来源见仪式内容包。",
+        "用途": "按具体仪式实付；暂没有炼金或战斗用途。",
+        "携带": "跨战／跨段实际保留；带回本局仓库，整局实体清理。"
+      },
+      "related": [],
+      "sources": [
+        "ritual-qualified",
+        "ritual-review"
+      ],
+      "unknown": [
+        "美术与叙事文案未制作；平衡和真人体验未验证。"
+      ],
+      "art": [],
+      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "facets": {
+        "身份／用途": "Qualified / 用户确认",
+        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "验证": "Hypothesis / NotRun"
+      },
+      "shape": {
+        "body": [
+          [
+            0,
+            0
+          ]
+        ],
+        "name": "一格",
+        "rotation": [
+          0,
+          90,
+          180,
+          270
+        ],
+        "domain": "仪式实体留在共用背包；非战斗卡，不入手牌，不嵌法器，不计战斗卡8种上限。",
+        "reason": "每份独立占格，数量合并显示不压缩实体。"
+      }
+    },
+    {
+      "id": "ritual.ember",
+      "name": "烬核",
+      "kind": "ritual-material",
+      "collection": "ritual",
+      "status": "qualified",
+      "summary": "仪式核心材料；普通余核与唯一终局核分别核验。",
+      "description": "",
+      "fields": {
+        "身份": "不是铭文核心，不可嵌入法器免占格。",
+        "终局X3": "终试第3实际取得并绑定的同一实例，第6改变状态；不另生成凭证，丢失不能用余核补造。",
+        "携带": "每份独立占格；其他仪式不自动选入X3。"
+      },
+      "related": [],
+      "sources": [
+        "ritual-qualified",
+        "ritual-review"
+      ],
+      "unknown": [
+        "美术与叙事文案未制作；平衡和真人体验未验证。"
+      ],
+      "art": [],
+      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "facets": {
+        "身份／用途": "Qualified / 用户确认",
+        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "验证": "Hypothesis / NotRun"
+      },
+      "shape": {
+        "body": [
+          [
+            0,
+            0
+          ]
+        ],
+        "name": "一格",
+        "rotation": [
+          0,
+          90,
+          180,
+          270
+        ],
+        "domain": "仪式实体留在共用背包；非战斗卡，不入手牌，不嵌法器，不计战斗卡8种上限。",
+        "reason": "每份独立占格，数量合并显示不压缩实体。"
+      }
+    },
+    {
+      "id": "ritual.stone-fold",
+      "name": "折纹门纹石",
+      "kind": "ritual-material",
+      "collection": "ritual",
+      "status": "qualified",
+      "summary": "折纹目标的仪式适配材料。",
+      "description": "",
+      "fields": {
+        "纹样": "折纹",
+        "用途": "同纹引路／解缚／覆痕／断契；首次缚门客交付两纹均收。",
+        "消费": "覆痕对照保留，其他上述投入各自实际消费；一石不可重复支付。",
+        "来源": "具体节点在生成时固定一种纹样；不免费改纹。"
+      },
+      "related": [],
+      "sources": [
+        "ritual-qualified",
+        "ritual-review"
+      ],
+      "unknown": [
+        "美术与叙事文案未制作；平衡和真人体验未验证。"
+      ],
+      "art": [],
+      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "facets": {
+        "身份／用途": "Qualified / 用户确认",
+        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "验证": "Hypothesis / NotRun"
+      },
+      "shape": {
+        "body": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "name": "二格长条",
+        "rotation": [
+          0,
+          90,
+          180,
+          270
+        ],
+        "domain": "仪式实体留在共用背包；非战斗卡，不入手牌，不嵌法器，不计战斗卡8种上限。",
+        "reason": "每份独立占格，数量合并显示不压缩实体。"
+      }
+    },
+    {
+      "id": "ritual.stone-ring",
+      "name": "环纹门纹石",
+      "kind": "ritual-material",
+      "collection": "ritual",
+      "status": "qualified",
+      "summary": "环纹目标的仪式适配材料。",
+      "description": "",
+      "fields": {
+        "纹样": "环纹",
+        "用途": "同纹引路／解缚／覆痕／断契；首次缚门客交付两纹均收。",
+        "消费": "覆痕对照保留，其他上述投入各自实际消费；一石不可重复支付。",
+        "来源": "具体节点在生成时固定一种纹样；不免费改纹。"
+      },
+      "related": [],
+      "sources": [
+        "ritual-qualified",
+        "ritual-review"
+      ],
+      "unknown": [
+        "美术与叙事文案未制作；平衡和真人体验未验证。"
+      ],
+      "art": [],
+      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "facets": {
+        "身份／用途": "Qualified / 用户确认",
+        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "验证": "Hypothesis / NotRun"
+      },
+      "shape": {
+        "body": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "name": "二格长条",
+        "rotation": [
+          0,
+          90,
+          180,
+          270
+        ],
+        "domain": "仪式实体留在共用背包；非战斗卡，不入手牌，不嵌法器，不计战斗卡8种上限。",
+        "reason": "每份独立占格，数量合并显示不压缩实体。"
+      }
+    },
+    {
+      "id": "ritual.shell",
+      "name": "空壳",
+      "kind": "ritual-material",
+      "collection": "ritual",
+      "status": "qualified",
+      "summary": "招客、驻影和夺火共用的可消耗承载物。",
+      "description": "",
+      "fields": {
+        "用途": "三种用途分别付1份，不可重复使用。",
+        "容器边界": "不提供内部仓库，不套叠压缩。",
+        "取得": "第7既有互斥选项。"
+      },
+      "related": [],
+      "sources": [
+        "ritual-qualified",
+        "ritual-review"
+      ],
+      "unknown": [
+        "美术与叙事文案未制作；平衡和真人体验未验证。"
+      ],
+      "art": [],
+      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "facets": {
+        "身份／用途": "Qualified / 用户确认",
+        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "验证": "Hypothesis / NotRun"
+      },
+      "shape": {
+        "body": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "name": "二格长条",
+        "rotation": [
+          0,
+          90,
+          180,
+          270
+        ],
+        "domain": "仪式实体留在共用背包；非战斗卡，不入手牌，不嵌法器，不计战斗卡8种上限。",
+        "reason": "每份独立占格，数量合并显示不压缩实体。"
+      }
+    },
+    {
+      "id": "ritual.handbook",
+      "name": "仪式手记",
+      "kind": "book",
+      "collection": "ritual",
+      "status": "qualified",
+      "summary": "实体求知载体，已学方法可永久保留。",
+      "description": "",
+      "fields": {
+        "取得": "每局初试第3可选留。",
+        "释读": "仅文字界主动免费释读，保留书；问兆／引路／招客基础方法及条件方法见内容包。",
+        "条件内容": "覆痕→断契；逆流→夺火；启阶后实际解缚→定址／驻影；定址后实际驻影→升界。",
+        "携带": "可实际带回存仓；已学方法不要求每次随身带书。"
+      },
+      "related": [],
+      "sources": [
+        "ritual-qualified",
+        "ritual-review"
+      ],
+      "unknown": [
+        "美术与叙事文案未制作；平衡和真人体验未验证。"
+      ],
+      "art": [],
+      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "facets": {
+        "身份／用途": "Qualified / 用户确认",
+        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "验证": "Hypothesis / NotRun"
+      },
+      "shape": {
+        "body": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "name": "二格长条",
+        "rotation": [
+          0,
+          90,
+          180,
+          270
+        ],
+        "domain": "仪式实体留在共用背包；非战斗卡，不入手牌，不嵌法器，不计战斗卡8种上限。",
+        "reason": "每份独立占格，数量合并显示不压缩实体。"
+      }
+    },
+    {
+      "id": "ritual.unbind-page",
+      "name": "解缚页",
+      "kind": "book",
+      "collection": "ritual",
+      "status": "qualified",
+      "summary": "缚门客履约后授予的实体知识页。",
+      "description": "",
+      "fields": {
+        "取得": "有效联系中，具真实亲自驱离经历并交1任意纹样门纹石。",
+        "释读": "文字界主动免费释读，学会解缚；查看或仅取得不算学会。",
+        "补领": "履约后未学即失去：下一局有效联系可免重复石／经历补领；每局最多发一次、持有不再发、学会停止；需要招客时仍付原费用。",
+        "禁止用途": "无出售、加工或供物用途。"
+      },
+      "related": [],
+      "sources": [
+        "ritual-qualified",
+        "ritual-review"
+      ],
+      "unknown": [
+        "美术与叙事文案未制作；平衡和真人体验未验证。"
+      ],
+      "art": [],
+      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "facets": {
+        "身份／用途": "Qualified / 用户确认",
+        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "验证": "Hypothesis / NotRun"
+      },
+      "shape": {
+        "body": [
+          [
+            0,
+            0
+          ]
+        ],
+        "name": "一格",
+        "rotation": [
+          0,
+          90,
+          180,
+          270
+        ],
+        "domain": "仪式实体留在共用背包；非战斗卡，不入手牌，不嵌法器，不计战斗卡8种上限。",
+        "reason": "每份独立占格，数量合并显示不压缩实体。"
+      }
+    },
+    {
+      "id": "ritual.enemy-patrol",
+      "name": "旧径普通巡守",
+      "kind": "enemy",
+      "collection": "ritual",
+      "status": "qualified",
+      "summary": "每轮五次小额伤害，治疗过早可能溢出。",
+      "description": "",
+      "fields": {
+        "生命": 9,
+        "防护与其他": "无额外护甲／治疗／暴击／死亡追加。",
+        "完整程序": "见仪式内容包同名敌表；不是原首战敌人替换。",
+        "信息": "出发前公开压力类型，原生暗牌不全部亮数值，已生成后续公开。"
+      },
+      "related": [],
+      "sources": [
+        "ritual-qualified",
+        "ritual-review"
+      ],
+      "unknown": [
+        "美术与叙事文案未制作；平衡和真人体验未验证。"
+      ],
+      "art": [],
+      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "facets": {
+        "身份／用途": "Qualified / 用户确认",
+        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "验证": "Hypothesis / NotRun"
+      }
+    },
+    {
+      "id": "ritual.enemy-gatekeeper",
+      "name": "灰井封门守卫",
+      "kind": "enemy",
+      "collection": "ritual",
+      "status": "qualified",
+      "summary": "开场重击，随后蓄势与重击交替。",
+      "description": "",
+      "fields": {
+        "生命": 9,
+        "防护与其他": "无额外护甲／治疗／暴击／死亡追加。",
+        "完整程序": "见仪式内容包同名敌表；不是原首战敌人替换。",
+        "信息": "出发前公开压力类型，原生暗牌不全部亮数值，已生成后续公开。"
+      },
+      "related": [],
+      "sources": [
+        "ritual-qualified",
+        "ritual-review"
+      ],
+      "unknown": [
+        "美术与叙事文案未制作；平衡和真人体验未验证。"
+      ],
+      "art": [],
+      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "facets": {
+        "身份／用途": "Qualified / 用户确认",
+        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "验证": "Hypothesis / NotRun"
+      }
+    },
+    {
+      "id": "ritual.enemy-pressure",
+      "name": "旧径深层积压者",
+      "kind": "enemy",
+      "collection": "ritual",
+      "status": "qualified",
+      "summary": "多轮持续施压，并生成公开后续。",
+      "description": "",
+      "fields": {
+        "生命": 12,
+        "防护与其他": "无额外护甲／治疗／暴击／死亡追加。",
+        "完整程序": "见仪式内容包同名敌表；不是原首战敌人替换。",
+        "信息": "出发前公开压力类型，原生暗牌不全部亮数值，已生成后续公开。"
+      },
+      "related": [],
+      "sources": [
+        "ritual-qualified",
+        "ritual-review"
+      ],
+      "unknown": [
+        "美术与叙事文案未制作；平衡和真人体验未验证。"
+      ],
+      "art": [],
+      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "facets": {
+        "身份／用途": "Qualified / 用户确认",
+        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "验证": "Hypothesis / NotRun"
+      }
+    },
+    {
+      "id": "ritual.enemy-rush",
+      "name": "灰井深层急袭者",
+      "kind": "enemy",
+      "collection": "ritual",
+      "status": "qualified",
+      "summary": "首轮集中伤害，后续缓息。",
+      "description": "",
+      "fields": {
+        "生命": 9,
+        "防护与其他": "无额外护甲／治疗／暴击／死亡追加。",
+        "完整程序": "见仪式内容包同名敌表；不是原首战敌人替换。",
+        "信息": "出发前公开压力类型，原生暗牌不全部亮数值，已生成后续公开。"
+      },
+      "related": [],
+      "sources": [
+        "ritual-qualified",
+        "ritual-review"
+      ],
+      "unknown": [
+        "美术与叙事文案未制作；平衡和真人体验未验证。"
+      ],
+      "art": [],
+      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "facets": {
+        "身份／用途": "Qualified / 用户确认",
+        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "验证": "Hypothesis / NotRun"
+      }
+    },
+    {
+      "id": "ritual.enemy-projection-entry",
+      "name": "入口驻影",
+      "kind": "enemy",
+      "collection": "ritual",
+      "status": "qualified",
+      "summary": "集中压力与蓄势交替，安排在第2位置。",
+      "description": "",
+      "fields": {
+        "生命": 12,
+        "防护与其他": "无额外护甲／治疗／暴击／死亡追加。",
+        "完整程序": "见仪式内容包同名敌表；不是原首战敌人替换。",
+        "信息": "出发前公开压力类型，原生暗牌不全部亮数值，已生成后续公开。"
+      },
+      "related": [],
+      "sources": [
+        "ritual-qualified",
+        "ritual-review"
+      ],
+      "unknown": [
+        "美术与叙事文案未制作；平衡和真人体验未验证。"
+      ],
+      "art": [],
+      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "facets": {
+        "身份／用途": "Qualified / 用户确认",
+        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "验证": "Hypothesis / NotRun"
+      }
+    },
+    {
+      "id": "ritual.enemy-projection-deep",
+      "name": "深层驻影",
+      "kind": "enemy",
+      "collection": "ritual",
+      "status": "qualified",
+      "summary": "持续交错施压，安排在第6位置。",
+      "description": "",
+      "fields": {
+        "生命": 12,
+        "防护与其他": "无额外护甲／治疗／暴击／死亡追加。",
+        "完整程序": "见仪式内容包同名敌表；不是原首战敌人替换。",
+        "信息": "出发前公开压力类型，原生暗牌不全部亮数值，已生成后续公开。"
+      },
+      "related": [],
+      "sources": [
+        "ritual-qualified",
+        "ritual-review"
+      ],
+      "unknown": [
+        "美术与叙事文案未制作；平衡和真人体验未验证。"
+      ],
+      "art": [],
+      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "facets": {
+        "身份／用途": "Qualified / 用户确认",
+        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "验证": "Hypothesis / NotRun"
+      }
     }
   ],
   "recipes": [
@@ -10122,5 +10652,904 @@
     "coreCompatibility": null,
     "firstBattle": false,
     "scope": "不发行组合配方；不能由两站求和猜造投入、产出或核心配置。"
+  },
+  "ritualContent": {
+    "id": "ritual-minimum-run",
+    "version": "ritual-minimum-run.1",
+    "sourceCommit": "d880c1f3308046952ea0fa30867f871b7b7845cf",
+    "qualification": "Qualified / 用户逐部分确认并授权入库",
+    "ruleAdoption": "Pending / 未迁移现行GDD",
+    "implementation": "NotRun",
+    "experience": "Hypothesis / NotRun",
+    "sources": [
+      "ritual-qualified",
+      "ritual-review"
+    ],
+    "board": {
+      "width": 8,
+      "height": 5,
+      "battleCardKindCap": 8,
+      "ritualObjectsCountTowardCap": false
+    },
+    "start": {
+      "health": 50,
+      "maxHealth": 50,
+      "equipmentFromEncounter": "alchemy.encounter-first-distillation",
+      "inheritFields": [
+        "units",
+        "hearths"
+      ],
+      "equipmentCells": 18,
+      "initialSupply": "start-cast",
+      "excludedFromReference": [
+        "initialCards",
+        "supplyPacks",
+        "enemy",
+        "routes"
+      ]
+    },
+    "recipeRefs": [
+      "alchemy.r11",
+      "alchemy.recipe-life",
+      "alchemy.recipe-skin",
+      "alchemy.recipe-ignite"
+    ],
+    "carryEligible": [
+      "alchemy.mercury",
+      "alchemy.herb",
+      "alchemy.spirit-fluid",
+      "alchemy.herb-juice",
+      "alchemy.iron-sand",
+      "alchemy.fire-seed",
+      "alchemy.fire",
+      "alchemy.ignite",
+      "alchemy.skin",
+      "alchemy.life"
+    ],
+    "physicalItemIds": [
+      "ritual.incense",
+      "ritual.ember",
+      "ritual.stone-fold",
+      "ritual.stone-ring",
+      "ritual.shell",
+      "ritual.handbook",
+      "ritual.unbind-page"
+    ],
+    "methods": [
+      {
+        "id": "ritual.burn",
+        "name": "燃契",
+        "cost": [
+          {
+            "item": "ritual.incense",
+            "quantity": 2
+          },
+          {
+            "item": "ritual.ember",
+            "quantity": 1
+          }
+        ],
+        "condition": "起始方法直接提供；初试／再试返回需本段主线现场记录。",
+        "effect": "建立／推进主线；起始及两次汇报分别支付，不能交核跳过现场任务。"
+      },
+      {
+        "id": "ritual.read",
+        "name": "释读",
+        "cost": [],
+        "condition": "文字界实际持有对应书籍和条件；主动执行。",
+        "effect": "免费学方法，知识永久；书保留，不在物质界读书。"
+      },
+      {
+        "id": "ritual.omen",
+        "name": "问兆",
+        "cost": [
+          {
+            "item": "ritual.incense",
+            "quantity": 1
+          },
+          {
+            "item": "ritual.ember",
+            "quantity": 1
+          }
+        ],
+        "condition": "已学方法；下一条已生成未进入的合法候选有尚未知道的信息。",
+        "effect": "揭示5B清单和第6可选调查附加条件；不改内容；已知或无新信息不收费。"
+      },
+      {
+        "id": "ritual.guide",
+        "name": "引路",
+        "cost": [
+          {
+            "item": "ritual.incense",
+            "quantity": 2
+          },
+          {
+            "itemAlternatives": [
+              "ritual.stone-fold",
+              "ritual.stone-ring"
+            ],
+            "quantity": 1,
+            "condition": "目标同纹"
+          }
+        ],
+        "condition": "已学方法；下一段明确兼容灰井入口。",
+        "effect": "开替代入口，不增加段数；每段最多一个额外入口，改选不退款。"
+      },
+      {
+        "id": "ritual.invite",
+        "name": "招客",
+        "cost": [
+          {
+            "item": "ritual.incense",
+            "quantity": 2
+          },
+          {
+            "item": "ritual.shell",
+            "quantity": 1
+          }
+        ],
+        "condition": "已学方法；联系有实际请求、补领或其他作用，尚无有效联系。",
+        "effect": "建立本局缚门客联系；已有联系不重复收费，无实际作用拒绝收费。"
+      },
+      {
+        "id": "ritual.fulfill",
+        "name": "缚门客首次交付",
+        "cost": [
+          {
+            "itemAlternatives": [
+              "ritual.stone-fold",
+              "ritual.stone-ring"
+            ],
+            "quantity": 1,
+            "condition": "两种纹样均可"
+          }
+        ],
+        "condition": "有效联系＋真实亲自驱离封门经历，可跨局；解缚不算。",
+        "effect": "给实体解缚页；未读即失去按补领例外恢复，不重新收石或重做经历。"
+      },
+      {
+        "id": "ritual.rank-one",
+        "name": "启阶",
+        "cost": [
+          {
+            "item": "ritual.incense",
+            "quantity": 3
+          },
+          {
+            "item": "ritual.ember",
+            "quantity": 1
+          }
+        ],
+        "condition": "已履约并释读解缚页。",
+        "effect": "取得第一境界及解缚权限，跨局保留，不送免费材料。"
+      },
+      {
+        "id": "ritual.unbind",
+        "name": "解缚",
+        "cost": [
+          {
+            "item": "ritual.incense",
+            "quantity": 2
+          },
+          {
+            "itemAlternatives": [
+              "ritual.stone-fold",
+              "ritual.stone-ring"
+            ],
+            "quantity": 1,
+            "condition": "目标同纹"
+          }
+        ],
+        "condition": "启阶、已学方法、明确未处理封门实例。",
+        "effect": "解除指定封门，第2恢复普通巡守；不计亲自驱离，不移植到其他入口。"
+      },
+      {
+        "id": "ritual.rank-two",
+        "name": "定址",
+        "cost": [
+          {
+            "item": "ritual.incense",
+            "quantity": 4
+          },
+          {
+            "item": "ritual.ember",
+            "quantity": 1
+          }
+        ],
+        "condition": "启阶后实际解缚过，持手记释读定址。",
+        "effect": "取得第二境界，驻影可选第2或第6；不送展示费用。"
+      },
+      {
+        "id": "ritual.project",
+        "name": "驻影",
+        "cost": [
+          {
+            "item": "ritual.incense",
+            "quantity": 2
+          },
+          {
+            "item": "ritual.shell",
+            "quantity": 1
+          }
+        ],
+        "condition": "已学方法；下一段一个兼容位置，不能覆盖未解封门。",
+        "effect": "定址前固定第2，之后可选第2／6；替换挑战不加战斗，每段最多一个，不搬移或退款。"
+      },
+      {
+        "id": "ritual.terminal",
+        "name": "普通终式",
+        "cost": [
+          {
+            "item": "ritual.incense",
+            "quantity": 2
+          },
+          {
+            "item": "ritual.ember",
+            "quantity": 1,
+            "condition": "同一X3，状态匹配已选结局"
+          }
+        ],
+        "condition": "终试第6已处置并正常带回；实际选择接受对应结果。",
+        "effect": "信仰／追忆／忤逆之一，成功后结局及首次传承记录、再清理实体。"
+      },
+      {
+        "id": "ritual.ascend-terminal",
+        "name": "飞升终式",
+        "cost": [
+          {
+            "item": "ritual.incense",
+            "quantity": 4
+          },
+          {
+            "item": "ritual.ember",
+            "quantity": 1,
+            "condition": "同一已升界X3"
+          }
+        ],
+        "condition": "飞升目标与当局锚定、实际终试解缚、第6动作全部完成。",
+        "effect": "完成飞升；替代普通终式，不叠收2香料。"
+      }
+    ],
+    "supplies": [
+      {
+        "id": "start-ritual",
+        "name": "起始燃契包",
+        "at": "开局一次",
+        "items": [
+          {
+            "item": "ritual.incense",
+            "quantity": 2
+          },
+          {
+            "item": "ritual.ember",
+            "quantity": 1
+          }
+        ],
+        "note": "出征前实际消费，不重复放入运输包。"
+      },
+      {
+        "id": "start-cast",
+        "name": "起始施法材料",
+        "at": "开局一次",
+        "items": [
+          {
+            "item": "alchemy.fire-seed",
+            "quantity": 1
+          },
+          {
+            "item": "alchemy.fire",
+            "quantity": 1
+          }
+        ],
+        "note": "不另发原首战整套17格材料；已有引燃术不每段重新赠送。"
+      },
+      {
+        "id": "position-1",
+        "name": "前段最低投入与入口战备",
+        "at": "每段第1一次",
+        "items": [
+          {
+            "item": "ritual.incense",
+            "quantity": 2
+          },
+          {
+            "item": "alchemy.spirit-fluid",
+            "quantity": 2
+          },
+          {
+            "item": "alchemy.herb-juice",
+            "quantity": 1
+          },
+          {
+            "item": "alchemy.iron-sand",
+            "quantity": 1
+          }
+        ],
+        "note": "主线香料与战斗料分别实物选留。"
+      },
+      {
+        "id": "position-3",
+        "name": "主线核心与提取原料",
+        "at": "每段第3任务完成后一次",
+        "items": [
+          {
+            "item": "ritual.ember",
+            "quantity": 1
+          },
+          {
+            "item": "alchemy.mercury",
+            "quantity": 1
+          },
+          {
+            "item": "alchemy.herb",
+            "quantity": 1
+          }
+        ],
+        "note": "终试的此核实际绑定唯一X3；初试另可选留手记。"
+      },
+      {
+        "id": "initial-book",
+        "name": "初试书籍",
+        "at": "初试第3一次",
+        "items": [
+          {
+            "item": "ritual.handbook",
+            "quantity": 1
+          }
+        ],
+        "note": "可选书籍，查看不自动学习。"
+      },
+      {
+        "id": "position-5-common",
+        "name": "第5共有战备",
+        "at": "每段第5一次",
+        "items": [
+          {
+            "item": "alchemy.spirit-fluid",
+            "quantity": 1
+          },
+          {
+            "item": "alchemy.herb-juice",
+            "quantity": 1
+          },
+          {
+            "item": "alchemy.iron-sand",
+            "quantity": 1
+          }
+        ],
+        "note": "A／B共享一次来源，切预选不重发。"
+      },
+      {
+        "id": "gray-5b",
+        "name": "灰井5B",
+        "at": "选灰井5B一次",
+        "items": [
+          {
+            "item": "ritual.incense",
+            "quantity": 2
+          },
+          {
+            "item": "ritual.ember",
+            "quantity": 1
+          }
+        ],
+        "note": "代替普通5B二选一，不额外再领普通5B。"
+      },
+      {
+        "id": "projection-entry-reward",
+        "name": "入口驻影报酬",
+        "at": "第2驻影成功一次",
+        "items": [
+          {
+            "item": "ritual.incense",
+            "quantity": 2
+          },
+          {
+            "item": "ritual.ember",
+            "quantity": 1
+          }
+        ],
+        "note": "须实际选留；可在第4早回。"
+      },
+      {
+        "id": "projection-deep-reward",
+        "name": "深层驻影报酬",
+        "at": "第6驻影成功一次",
+        "items": [
+          {
+            "itemAlternatives": [
+              "ritual.stone-fold",
+              "ritual.stone-ring"
+            ],
+            "quantity": 1,
+            "condition": "施仪前明确固定纹样"
+          },
+          {
+            "item": "ritual.ember",
+            "quantity": 1
+          }
+        ],
+        "note": "加在原深层固定收获之上；仍需背包落点。"
+      }
+    ],
+    "choiceSources": [
+      {
+        "id": "normal-5b",
+        "name": "普通5B",
+        "options": [
+          [
+            {
+              "itemAlternatives": [
+                "ritual.stone-fold",
+                "ritual.stone-ring"
+              ],
+              "quantity": 1,
+              "condition": "节点生成时固定纹样"
+            }
+          ],
+          [
+            {
+              "item": "ritual.incense",
+              "quantity": 2
+            }
+          ]
+        ]
+      },
+      {
+        "id": "position-7",
+        "name": "第7选留",
+        "options": [
+          [
+            {
+              "item": "ritual.shell",
+              "quantity": 1
+            }
+          ],
+          [
+            {
+              "itemAlternatives": [
+                "ritual.stone-fold",
+                "ritual.stone-ring"
+              ],
+              "quantity": 1,
+              "condition": "节点生成时固定纹样"
+            }
+          ],
+          [
+            {
+              "item": "ritual.incense",
+              "quantity": 2
+            }
+          ]
+        ]
+      }
+    ],
+    "deepHarvests": [
+      {
+        "id": "balanced",
+        "name": "均衡",
+        "items": [
+          {
+            "item": "ritual.incense",
+            "quantity": 4
+          },
+          {
+            "item": "ritual.ember",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "id": "incense-rich",
+        "name": "香料较多",
+        "items": [
+          {
+            "item": "ritual.incense",
+            "quantity": 6
+          },
+          {
+            "item": "ritual.ember",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "id": "ember-rich",
+        "name": "烬核较多",
+        "items": [
+          {
+            "item": "ritual.incense",
+            "quantity": 2
+          },
+          {
+            "item": "ritual.ember",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "encounters": [
+      {
+        "id": "ritual.encounter-patrol",
+        "enemy": "ritual.enemy-patrol",
+        "position": 2,
+        "rows": [
+          {
+            "when": "每轮",
+            "damage": [
+              2,
+              2,
+              2,
+              2,
+              2
+            ]
+          }
+        ],
+        "followup": null,
+        "supply": []
+      },
+      {
+        "id": "ritual.encounter-gatekeeper",
+        "enemy": "ritual.enemy-gatekeeper",
+        "position": 2,
+        "rows": [
+          {
+            "when": "奇数轮",
+            "damage": [
+              12,
+              0,
+              0,
+              2,
+              0
+            ]
+          },
+          {
+            "when": "偶数轮",
+            "damage": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "followup": {
+          "when": "偶数轮",
+          "column": 3,
+          "nextRoundColumn": 1,
+          "damage": 16,
+          "mode": "replace"
+        },
+        "supply": []
+      },
+      {
+        "id": "ritual.encounter-pressure",
+        "enemy": "ritual.enemy-pressure",
+        "position": 6,
+        "rows": [
+          {
+            "when": "每轮",
+            "damage": [
+              2,
+              2,
+              2,
+              2,
+              2
+            ]
+          }
+        ],
+        "followup": {
+          "when": "每轮",
+          "column": 3,
+          "afterDamage": true,
+          "nextRoundColumn": 1,
+          "damage": 3,
+          "mode": "replace"
+        },
+        "supply": []
+      },
+      {
+        "id": "ritual.encounter-rush",
+        "enemy": "ritual.enemy-rush",
+        "position": 6,
+        "rows": [
+          {
+            "when": "第一轮",
+            "damage": [
+              6,
+              6,
+              4,
+              4,
+              4
+            ]
+          },
+          {
+            "when": "第二轮起",
+            "damage": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "followup": null,
+        "supply": []
+      },
+      {
+        "id": "ritual.encounter-projection-entry",
+        "enemy": "ritual.enemy-projection-entry",
+        "position": 2,
+        "rows": [
+          {
+            "when": "奇数轮",
+            "damage": [
+              8,
+              0,
+              0,
+              2,
+              0
+            ]
+          },
+          {
+            "when": "偶数轮",
+            "damage": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "followup": {
+          "when": "偶数轮",
+          "column": 3,
+          "nextRoundColumn": 1,
+          "damage": 14,
+          "mode": "replace"
+        },
+        "supply": []
+      },
+      {
+        "id": "ritual.encounter-projection-deep",
+        "enemy": "ritual.enemy-projection-deep",
+        "position": 6,
+        "rows": [
+          {
+            "when": "每轮",
+            "damage": [
+              3,
+              1,
+              3,
+              1,
+              3
+            ]
+          }
+        ],
+        "followup": null,
+        "supply": []
+      }
+    ],
+    "goals": [
+      {
+        "id": "faith",
+        "name": "信仰",
+        "method": "归还",
+        "evidence": "归还随起始燃契给出，无额外调查／拔擢门槛。",
+        "fieldCost": [],
+        "action": "终试第6挑战后归还准备，改变同一X3；返回主动接受关系。",
+        "terminal": "ritual.terminal"
+      },
+      {
+        "id": "memory",
+        "name": "追忆",
+        "method": "断契",
+        "evidence": "已学断契＋本局初试／再试覆痕关系记录。",
+        "fieldCost": [
+          {
+            "itemAlternatives": [
+              "ritual.stone-fold",
+              "ritual.stone-ring"
+            ],
+            "quantity": 1,
+            "condition": "与有效本局关系记录同纹"
+          }
+        ],
+        "action": "终试第6消费石、改变同一X3，处置后不可改选。",
+        "terminal": "ritual.terminal"
+      },
+      {
+        "id": "defiance",
+        "name": "忤逆",
+        "method": "夺火",
+        "evidence": "已学夺火＋本局初试／再试逆流力量缺口。",
+        "fieldCost": [
+          {
+            "item": "ritual.shell",
+            "quantity": 1
+          }
+        ],
+        "action": "终试第6消耗壳并改变X3；普通死亡不能替代。",
+        "terminal": "ritual.terminal"
+      },
+      {
+        "id": "ascension",
+        "name": "飞升",
+        "method": "升界",
+        "evidence": "新局选择目标前已定址、学升界、完成过普通结局；本局初试／再试实际驻影锚定，终试前解缚实际进入入口。",
+        "fieldCost": [],
+        "action": "终试第6挑战后升界，不能临时改领普通结局。",
+        "terminal": "ritual.ascend-terminal"
+      }
+    ],
+    "jobs": [
+      {
+        "id": "trace",
+        "name": "验痕",
+        "accept": "学会解缚页且有联系；出发前已知下一段初试／再试覆痕；报酬有后续灰井用途。",
+        "complete": "实际调查并完成阶段燃契，再交1普通烬核。",
+        "cost": [
+          {
+            "item": "ritual.ember",
+            "quantity": 1
+          }
+        ],
+        "reward": [
+          {
+            "itemAlternatives": [
+              "ritual.stone-fold",
+              "ritual.stone-ring"
+            ],
+            "quantity": 2,
+            "condition": "预览后续灰井同纹"
+          }
+        ]
+      },
+      {
+        "id": "withdraw",
+        "name": "收手",
+        "accept": "学会解缚页且有有效联系，出发前接取，绑定下一段初试／再试。",
+        "complete": "完成基本目标后第4返回，不进5—7；完成燃契后领奖。",
+        "cost": [],
+        "reward": [
+          {
+            "item": "ritual.incense",
+            "quantity": 2
+          },
+          {
+            "item": "ritual.ember",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "inheritances": [
+      {
+        "id": "review",
+        "name": "回观",
+        "from": "memory",
+        "effect": "每局一次免费问兆，须合法目标和新信息，无新信息不消耗。"
+      },
+      {
+        "id": "extra-ember",
+        "name": "余烬",
+        "from": "defiance",
+        "effect": "开局多1普通烬核，真实占格；不生成X3。"
+      },
+      {
+        "id": "incense-return",
+        "name": "续香",
+        "from": "faith",
+        "effect": "初试燃契付齐后返1香料，本局一次；不触发起始／再试／终式。"
+      },
+      {
+        "id": "set-harvest",
+        "name": "定筹",
+        "from": "ascension",
+        "effect": "生成揭示前选初试第6既有三组之一；实际完成才领取，不增加掉落。"
+      }
+    ],
+    "surveys": [
+      {
+        "id": "overtrace",
+        "name": "覆痕",
+        "requires": "实际持有同纹石；每个第6最多一种调查。",
+        "result": "石保留，取得本局关系记录；持手记释读断契。"
+      },
+      {
+        "id": "reverseflow",
+        "name": "逆流",
+        "requires": "本段亲自击败封门后调查；解缚、驻影或历史驱离不能替代本段条件。",
+        "result": "取得本局力量缺口；持手记释读夺火。"
+      }
+    ],
+    "fieldWorkshop": {
+      "beats": 5,
+      "drinkMaxPerNode": 1,
+      "drinkItem": "alchemy.life",
+      "healing": 12,
+      "extraBeatCost": 0,
+      "onlyCompletedBatches": true,
+      "scope": "仅5A可战外消费实际生命药；其他窗口不开放，满血确认也消费，实际药不重复使用。"
+    },
+    "contracts": {
+      "stages": "初试／再试／终试各最多进入一次，前两段第4可带最低材料返回；终试第4返回未完成结局。",
+      "mainTasks": "初试第3验印取核；再试查看两痕并确认同源；终试实际取核后绑定唯一X3。",
+      "node6": "挑战→固定收获及驻影报酬合法选留→可选调查→终试核心处置→第7；提交选留后不能倒回补领。",
+      "selection": "互斥组选一，组内按份选留，首份实际取得后锁组。第5共有战备一次；首次生产／饮药锁A，首次5B专属领取锁B。",
+      "storage": "战斗牌实际投入才离包；仪式实体战中留包固定。实际带回进入本局仓库，物质界不能调用；整局实体清理。",
+      "jobs": "同一对象一项进行中，仅下一段初试／再试；出发后不改选，每模板每局最多领奖一次。",
+      "inheritance": "首次完成对应终式后解锁，下一局开始至多选一项，中途不切换；重复只记完成，不叠加强度。",
+      "terminal": "挑战胜利不直接结算整局；带回后仍可合法释读／履约／拔擢；成功终式后记录再清理，缺料不补造。",
+      "generation": "基本主线最低来源固定可达；普通局不保证三结局全开放。飞升初试5B石匹配基础终试封门、初试7有壳、再试入口可驻影；改路重新核验，定筹不被暗换。"
+    },
+    "witnesses": [
+      {
+        "name": "基础信仰／两段早回",
+        "health": [
+          48,
+          48,
+          48,
+          37
+        ],
+        "finalHealth": 37
+      },
+      {
+        "name": "三段旧径深入",
+        "health": [
+          48,
+          37,
+          39,
+          28,
+          30,
+          19
+        ],
+        "finalHealth": 19
+      },
+      {
+        "name": "追忆",
+        "health": [
+          48,
+          37,
+          39,
+          41,
+          30
+        ],
+        "finalHealth": 30
+      },
+      {
+        "name": "忤逆",
+        "health": [
+          48,
+          37,
+          31,
+          25,
+          27,
+          16
+        ],
+        "finalHealth": 16
+      },
+      {
+        "name": "飞升",
+        "health": [
+          48,
+          37,
+          35,
+          37,
+          26
+        ],
+        "finalHealth": 26
+      }
+    ],
+    "witnessScope": "仅固定配置、真实材料与指定治疗时点的静态见证；完整排程见审核源§17.60—17.62，不是模拟或体验结果。",
+    "unknown": [
+      "随机权重",
+      "第二套攻击构筑及更多敌人／事件",
+      "正式规则迁移",
+      "实现、难度及长期重玩验证"
+    ]
   }
 }
