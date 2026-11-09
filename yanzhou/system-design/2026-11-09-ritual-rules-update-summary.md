@@ -1,5 +1,7 @@
 # 仪式系统规则更新总结
 
+2026-11-09后续已完成：**CORE-078／GDD4.1／CONTENT-LIBRARY-11**，用户明确要求并入主系统；[采纳D](../sources/draft-changes/D-2026-11-09-ritual-main-integration.md)登记对应权威条款、审查修正与证据。下文为并入前的差异清单，现行裁决以[主GDD](../design/GDD.md)为准。
+
 2026-11-09。第一版及全部后续部分已由用户审核；本轮按明确指令完成具体内容入库。内容库版本为CONTENT-LIBRARY-10，仪式包为ritual-minimum-run.1，资格Qualified／用户已确认工作内容。**本文件总结规则变化；现行GDD仍为CORE-077，尚未执行正式规则迁移。** 实现与玩法体验NotRun。
 
 从[仪式内容包](../content-library/ritual-pack.html)查看具体物件、费用、敌表与来源；对应[Markdown分册](../content-library/ritual-pack.md)和[入库资格](../sources/materials/M-2026-11-09-ritual-content-pack.md)。具体参数唯一维护在catalog，本文只概括规则变化及影响，原逐部分审核见[设计说明第17节](2026-11-08-ritual-roguelite-overview.md#ritual-gap-review)。

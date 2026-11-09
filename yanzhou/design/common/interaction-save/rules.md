@@ -1,5 +1,7 @@
 # 交互与保存：规则
 
+2026-11-09增量 · CORE-078：仪式的节点领取／放弃、分支锁定、任务、纹样、目标、学习、履约／补领、X3阶段与终式记录恢复沿[TL-47](../ritual-system/rules.md#信息与恢复接口)；永久记录／传承沿[TL-48](../../systems/meta-progression-system/rules.md)。每次扣费／效果／发放共同提交，原TL-36保存失败阻断保持。一般铭文发现INS-Q07仍待定，不包括已采纳的仪式知识保存。
+
 2026-11-05 · CurrentSpec / round-plan.1，继承CORE-070／069；CORE-075已替换旧生产观察窗、待料、接收范围与自动补料。[本轮时序与交互采纳](../../../sources/draft-changes/D-2026-11-05-round-plan-alignment.md)；[共用背包采纳依据](../../../sources/draft-changes/D-2026-11-01-shared-backpack.md)。CORE-064的收尾与恢复原则保留，生产拍／战斗列／轮尾按本页限定；旧EX-002与3D合同只在其旧版范围有效。新2D已选方案2宿主，实现与检查统一见[开发入口](../../../development/README.md)。
 
 ## TL-31 战前配置与可表达性

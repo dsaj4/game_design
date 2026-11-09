@@ -1,5 +1,7 @@
 # 仪式最小完整局内容包
 
+2026-11-09后续：本M的Qualified来源身份保留；用户明确要求并入主系统后，已沿[E](../evaluations/E-2026-11-09-ritual-main-integration.md)与[D](../draft-changes/D-2026-11-09-ritual-main-integration.md)采纳为CORE-078。下文“未迁移／未模拟”是入库时状态；随后有限参考模拟的范围与限制由E登记，不追改原证据结论。
+
 2026-11-09 · `MAT-2026-11-09-ritual-content-pack` · Qualified GDD Material / Content＋System。确认方式沿本方向grill-with-docs逐部分审核及项目批量确认约定。用户已通过第一版、第1—6、7A—7C、7E、7F1、7F2、7G，并明确要求将具体内容加入内容库、整理规则更新总结；本轮据已具备的资格字段晋级，不重复询问已确认决定。
 
 共同设计输入版本：`d880c1f3308046952ea0fa30867f871b7b7845cf`。来源为[仪式审核说明§16—17](../../system-design/2026-11-08-ritual-roguelite-overview.md#ritual-gap-review)及[决定摘要](../inbox/2026-11-06-meta-system-design.md#ritual-gap-review-20261109)。既有规则对照范围与固定版本沿说明稿§17.45—17.47；没有把随后未知玩法或实现状态混入此次资格。

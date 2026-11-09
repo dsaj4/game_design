@@ -1,6 +1,6 @@
 # 系统目录
 
-本目录是现行系统的规则索引，辅助道具归铭文配置、标记归行动。rules与规则示例保留在此；设计理由和体验已集中到[系统设计手册](../../system-design/handbook.md)及其分册。局外成长仅一页占位，不机械预建五文件。整体先读[核心](../GDD.md)，实现按[行为索引](../../governance/rule-index.md#按行为选细则)。
+本目录是现行系统的规则索引，辅助道具归铭文配置、标记归行动。rules与规则示例保留在此；设计理由和体验已集中到[系统设计手册](../../system-design/handbook.md)及其分册。局外成长TL-48已采纳仪式永久记录与每局一项传承。整体先读[核心](../GDD.md)，实现按[行为索引](../../governance/rule-index.md#按行为选细则)。
 
 | 系统 | 职责 |
 | --- | --- |
@@ -12,7 +12,7 @@
 | ↳ [标记](action-card-system/mark-system/README.md) | 宿主状态、条件、支付及定时登记 |
 | [敌人](enemy-system/README.md) | 固定程序、信息与压力窗口 |
 | [资源](resource-system/README.md) | 材料、精炼、托管与维护 |
-| [局外成长](meta-progression-system/README.md) | 尚未开发 |
+| [局外成长](meta-progression-system/README.md) | 永久知识／经历／拔擢、结局与单项传承 |
 
 [公共流程](../common/README.md) · [统一案例](../examples/README.md) · [状态与来源](../baseline.md) · [问题登记](../../governance/questions.md) · [稳定规则ID](../../governance/rule-index.md)
 

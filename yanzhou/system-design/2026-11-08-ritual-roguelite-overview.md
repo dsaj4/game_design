@@ -1,5 +1,7 @@
 # 言咒肉鸽式仪式系统 卷入仪式的玩法框架与设计缺口
 
+2026-11-09后续状态：§16—17已确认范围由CORE-078采纳，权威规则转至[主GDD](../design/GDD.md)、[TL-47](../design/common/ritual-system/rules.md)和[TL-48](../design/systems/meta-progression-system/rules.md)。下文保留审核过程、取舍及当时证据；“待迁移／未模拟”只指原记录时点，不再双写现行规则／物件参数。未合格的早期候选保持原资格。
+
 2026-11-09内容维护更新：用户已要求并授权将已审具体内容加入内容库；新增部分已按资格入库，唯一参数源改为[catalog](../content-library/catalog.json)，阅读入口为[仪式内容包](../content-library/ritual-pack.md)。本页保留此前审核记录和推导依据；不把入库等同现行GDD迁移或玩法验证。
 
 更新：2026-11-09。状态：本轮仪式系统最小完整局工作设计已逐部分审核通过，限定实物对照与静态核算已完成。整体资格仍Raw / Unqualified，玩法体验Hypothesis / NotRun；本文未替换现行GDD或正式内容库。

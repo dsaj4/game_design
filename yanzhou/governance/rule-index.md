@@ -1,5 +1,7 @@
 # 按行为查规则
 
+2026-11-09当前 · CORE-078／GDD4.1：仪式TL-47、局外TL-48已采纳；路线、经济、背包、敌人及保存接口同步。主系统接手先[GDD](../design/GDD.md)，仪式任务沿[专用包](../development/task-packs/ritual-run.md)。以下旧日期增量只解释原范围。
+
 2026-11-05总控集成：**CORE-077／GDD4.0／round-plan.1，CONTENT-LIBRARY-09／first-distillation.4**。每轮5生产拍、整轮确认、回收下轮再用；规则、内容与任务包已对齐。首战两胜两败及重装经静态复核，2D与真人体验NotRun。 来源见[CORE-077采纳D](../sources/draft-changes/D-2026-11-05-round-plan-alignment.md)。Q1—7及同拍到货排序已闭合，不重问；本首战开发恢复，其他配置与体验问题仍保持原状态。以下旧日期条目已被替换的部分仅作历史。
 
 
@@ -47,6 +49,8 @@ CORE-073首战完整输入查[冻结规格](../content-library/first-battle.md)�
 
 | 规则 | 唯一正文 |
 | --- | --- |
+| TL-47仪式、知识、联系、调查与终局 | [仪式规则](../design/common/ritual-system/rules.md) |
+| TL-48永久记录与每局一项传承 | [局外规则](../design/systems/meta-progression-system/rules.md) |
 | TL-46共用背包、分阶段装载、备用配置与散装核心占格 | [背包规则](../design/systems/backpack-system/rules.md) |
 | TL-04 实际顺延；TL-08／21桌面、手牌与空放；TL-10取消；TL-12伤害与中断；TL-13／24终局与疲劳 | [核心GDD](../design/GDD.md)；原系统页保留定位链接 |
 | TL-01／44统一卡牌权限与卡效；TL-09揭示；TL-11总序；TL-29状态；TL-30支付 | [行动规则](../design/systems/action-card-system/rules.md) |
@@ -58,6 +62,6 @@ CORE-073首战完整输入查[冻结规格](../content-library/first-battle.md)�
 | TL-25／33—35携带、库存、收益、休整与商店 | [经济规则](../design/common/run-economy/rules.md) |
 | TL-17—19／31／36交互、战前、暂停、保存与可达性；CORE-060—063首场合同及CORE-067列间布牌与恢复 | [交互规则](../design/common/interaction-save/rules.md) |
 
-TL-20／42退役不复用；现行TL身份共44个。既有117项保留ID及原适用域，其中TL-V110随CORE-071退役；另有CORE-070／069／068／067通用情境。原CORE-066完整首战内容与数值路线已撤下，旧案例不证明当前机制覆盖。
+TL-20／42退役不复用；现行TL身份共46个。既有117项保留ID及原适用域，其中TL-V110随CORE-071退役；另有CORE-070／069／068／067通用情境。原CORE-066完整首战内容与数值路线已撤下，旧案例不证明当前机制覆盖。
 
-[辅助道具](../design/systems/inscription-system/augment-system/rules.md)已由CORE-069限定采纳替换辅槽；首批静态能力与后续付费扩展分别标域。[标记](../design/systems/action-card-system/mark-system/rules.md)通用框架仍Qualified，已由CORE-055—059等采纳的局部按范围执行，不整包提升。局外成长尚未设计。历史SYS／R／CG／PG／EG／RG等按[迁移前索引](https://github.com/dsaj4/game_design/blob/2e967f5e71cc387238131bd18feec47e6b546598/yanzhou/governance/rule-index.md)追溯；当前采纳来源查[来源索引](../design/source-review.md)。
+[辅助道具](../design/systems/inscription-system/augment-system/rules.md)已由CORE-069限定采纳替换辅槽；首批静态能力与后续付费扩展分别标域。[标记](../design/systems/action-card-system/mark-system/rules.md)通用框架仍Qualified，已由CORE-055—059等采纳的局部按范围执行，不整包提升。仪式局外成长已由TL-48限定采纳，一般铭文发现仍待INS-Q07。历史SYS／R／CG／PG／EG／RG等按[迁移前索引](https://github.com/dsaj4/game_design/blob/2e967f5e71cc387238131bd18feec47e6b546598/yanzhou/governance/rule-index.md)追溯；当前采纳来源查[来源索引](../design/source-review.md)。

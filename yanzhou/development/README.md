@@ -1,5 +1,7 @@
 # 言咒开发入口
 
+2026-11-09设计更新：**CORE-078／GDD4.1／GDD-0，CONTENT-LIBRARY-11／ritual-minimum-run.2**。仪式已正式并入主系统，沿[仪式任务包](task-packs/ritual-run.md)交接。参考模拟支持固定路径与局部边界，不是主工程／存档／真人验收；工程当前能力及既有首战实施范围不因设计采纳扩大。本轮仅完成设计、内容及派生审阅，不修改2D工程。以下旧日期能力记录仅解释当时版本。
+
 2026-11-05总控集成：**CORE-077／GDD4.0／round-plan.1，CONTENT-LIBRARY-09／first-distillation.4**。每轮5生产拍、整轮确认、回收下轮再用；规则、内容与任务包已对齐。首战两胜两败及重装经静态复核，2D与真人体验NotRun。
 
 **开工入口：[首战任务包](task-packs/first-battle-alchemy.md)**。总控按[采纳与恢复记录](../sources/draft-changes/D-2026-11-05-round-plan-alignment.md)解除本首战批次设计暂停，授权复用唯一2D工程进入实现及工程验收；不授权玩法实验或发布。展示以[当前合同](../system-design/presentation/interaction-contract.md)为准，原型旧数据不覆盖catalog。采用[四件器物02](../visual/first-battle-art-2026-11-04/README.md)、[真实素材效果复核](../visual/round-plan-art-review-2026-11-05/README.md)与整卡运行映射02。历史实现仍CORE-067，不代表新版已运行。

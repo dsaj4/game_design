@@ -1,6 +1,6 @@
 # 炼金内容条目
 
-2026-11-09 · CONTENT-LIBRARY-10。从[catalog.json](catalog.json)生成；请修改数据源后重建，勿双写。
+2026-11-09 · CONTENT-LIBRARY-11。从[catalog.json](catalog.json)生成；请修改数据源后重建，勿双写。
 
 [展板](index.html) · [维护方式](README.md)
 

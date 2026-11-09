@@ -1,11 +1,13 @@
 # 任务设计包：共用背包与跨战重装
 
+2026-11-09 · CORE-078仪式域补充：[TL-46](../../design/systems/backpack-system/rules.md)及[经济限定合同](../../design/common/run-economy/rules.md#ritual-inventory)明确整局网格、仪式物战中留包、按份选留／锁组和文字界仓库。原首战清空／无收益合同只适用于原首战；仪式完整流程沿[任务包](ritual-run.md)。
+
 2026-11-05 · Derived / round-plan.1，继承CORE-070／069／075空间。权威[TL-46](../../design/systems/backpack-system/rules.md)、[TL-25／33](../../design/common/run-economy/rules.md)、[TL-31](../../design/common/interaction-save/rules.md)。
 
 同一真实网格先装载全部携带物，备用配置也占格；核心散装1格、兼容嵌入额外0格。投入卡真实离包入手，未投入留包物本战不可用。炉心必选，装载确认求圈下限及实际D，战中几何／用途／核心／辅助固定。无接收范围、待料占格或免费包外仓。
 
 胜利时合格真实剩余与配置重新装包：未来草稿材料撤回，未完普通输入退回，已消费不退；已到货和补给不因后续战斗提前终局回滚，未来不发。回收权限不等于携带资格；同实例多次回手只计一份。失败结束本局，不进入选留。
 
-首战35/40运输、投入后18格配置，安全胜路20格、留药胜路22格见[EX-005](../../design/examples/first-battle-alchemy.md)；具体真源由catalog所有者落地。核对无越界／重叠／核心副本共享、投入不重复占格、退料一次、战终及重装恢复不重领。售卖／满包与其他网格未闭合，不扩展本包。
+首战35/40运输、投入后18格配置，安全胜路20格、留药胜路22格见[EX-005](../../design/examples/first-battle-alchemy.md)；具体真源由catalog维护。核对无越界／重叠／核心副本共享、投入不重复占格、退料一次、战终及重装恢复不重领。仪式按份选留／锁组已闭合；其他售卖／满包交易与网格不从本包推定。
 
 文档静态预期不是引擎或真人通过；恢复开发依[本轮D](../../sources/draft-changes/D-2026-11-05-round-plan-alignment.md)。

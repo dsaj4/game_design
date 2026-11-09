@@ -1,9 +1,9 @@
 {
   "schema": "yanzhou-content-library/2",
-  "version": "CONTENT-LIBRARY-10",
+  "version": "CONTENT-LIBRARY-11",
   "date": "2026-11-09",
   "sourceCommit": "e67e8c1748079abbf6f08d06be91fd0740422e86",
-  "scope": "保留CORE-077 / first-distillation.4；新增仪式最小完整局Qualified内容包，用户已逐项确认并授权入库。尚未迁移现行GDD，玩法体验NotRun。",
+  "scope": "CORE-078 / ritual-run.1已并入主系统；仪式内容限定采纳，原CORE-077 / first-distillation.4完整保留。实现与体验NotRun；参考模拟范围见采纳评估。",
   "sources": {
     "handbook": {
       "label": "炼金手册整理前版本（含 COPY-01）",
@@ -85,6 +85,10 @@
     "ritual-review": {
       "label": "已审核仪式工作设计（固定版本）",
       "href": "https://github.com/dsaj4/game_design/blob/d880c1f3308046952ea0fa30867f871b7b7845cf/yanzhou/system-design/2026-11-08-ritual-roguelite-overview.md#ritual-gap-review"
+    },
+    "core078": {
+      "label": "CORE-078 仪式主系统采纳",
+      "href": "../sources/draft-changes/D-2026-11-09-ritual-main-integration.md"
     }
   },
   "items": [
@@ -7643,7 +7647,7 @@
       "name": "香料",
       "kind": "ritual-material",
       "collection": "ritual",
-      "status": "qualified",
+      "status": "accepted",
       "summary": "多项仪式共用的基础投入。",
       "description": "",
       "fields": {
@@ -7654,16 +7658,17 @@
       "related": [],
       "sources": [
         "ritual-qualified",
-        "ritual-review"
+        "ritual-review",
+        "core078"
       ],
       "unknown": [
         "美术与叙事文案未制作；平衡和真人体验未验证。"
       ],
       "art": [],
-      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "scope": "Accepted / CORE-078；仪式最小完整局的身份、用途与具体参数已采纳；原首战独立保留。美术、实现与体验NotRun。",
       "facets": {
-        "身份／用途": "Qualified / 用户确认",
-        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "身份／用途": "Accepted / CORE-078",
+        "本包具体参数": "Accepted / CORE-078；原数值保持",
         "验证": "Hypothesis / NotRun"
       },
       "shape": {
@@ -7689,7 +7694,7 @@
       "name": "烬核",
       "kind": "ritual-material",
       "collection": "ritual",
-      "status": "qualified",
+      "status": "accepted",
       "summary": "仪式核心材料；普通余核与唯一终局核分别核验。",
       "description": "",
       "fields": {
@@ -7700,16 +7705,17 @@
       "related": [],
       "sources": [
         "ritual-qualified",
-        "ritual-review"
+        "ritual-review",
+        "core078"
       ],
       "unknown": [
         "美术与叙事文案未制作；平衡和真人体验未验证。"
       ],
       "art": [],
-      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "scope": "Accepted / CORE-078；仪式最小完整局的身份、用途与具体参数已采纳；原首战独立保留。美术、实现与体验NotRun。",
       "facets": {
-        "身份／用途": "Qualified / 用户确认",
-        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "身份／用途": "Accepted / CORE-078",
+        "本包具体参数": "Accepted / CORE-078；原数值保持",
         "验证": "Hypothesis / NotRun"
       },
       "shape": {
@@ -7735,7 +7741,7 @@
       "name": "折纹门纹石",
       "kind": "ritual-material",
       "collection": "ritual",
-      "status": "qualified",
+      "status": "accepted",
       "summary": "折纹目标的仪式适配材料。",
       "description": "",
       "fields": {
@@ -7747,16 +7753,17 @@
       "related": [],
       "sources": [
         "ritual-qualified",
-        "ritual-review"
+        "ritual-review",
+        "core078"
       ],
       "unknown": [
         "美术与叙事文案未制作；平衡和真人体验未验证。"
       ],
       "art": [],
-      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "scope": "Accepted / CORE-078；仪式最小完整局的身份、用途与具体参数已采纳；原首战独立保留。美术、实现与体验NotRun。",
       "facets": {
-        "身份／用途": "Qualified / 用户确认",
-        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "身份／用途": "Accepted / CORE-078",
+        "本包具体参数": "Accepted / CORE-078；原数值保持",
         "验证": "Hypothesis / NotRun"
       },
       "shape": {
@@ -7786,7 +7793,7 @@
       "name": "环纹门纹石",
       "kind": "ritual-material",
       "collection": "ritual",
-      "status": "qualified",
+      "status": "accepted",
       "summary": "环纹目标的仪式适配材料。",
       "description": "",
       "fields": {
@@ -7798,16 +7805,17 @@
       "related": [],
       "sources": [
         "ritual-qualified",
-        "ritual-review"
+        "ritual-review",
+        "core078"
       ],
       "unknown": [
         "美术与叙事文案未制作；平衡和真人体验未验证。"
       ],
       "art": [],
-      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "scope": "Accepted / CORE-078；仪式最小完整局的身份、用途与具体参数已采纳；原首战独立保留。美术、实现与体验NotRun。",
       "facets": {
-        "身份／用途": "Qualified / 用户确认",
-        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "身份／用途": "Accepted / CORE-078",
+        "本包具体参数": "Accepted / CORE-078；原数值保持",
         "验证": "Hypothesis / NotRun"
       },
       "shape": {
@@ -7837,7 +7845,7 @@
       "name": "空壳",
       "kind": "ritual-material",
       "collection": "ritual",
-      "status": "qualified",
+      "status": "accepted",
       "summary": "招客、驻影和夺火共用的可消耗承载物。",
       "description": "",
       "fields": {
@@ -7848,16 +7856,17 @@
       "related": [],
       "sources": [
         "ritual-qualified",
-        "ritual-review"
+        "ritual-review",
+        "core078"
       ],
       "unknown": [
         "美术与叙事文案未制作；平衡和真人体验未验证。"
       ],
       "art": [],
-      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "scope": "Accepted / CORE-078；仪式最小完整局的身份、用途与具体参数已采纳；原首战独立保留。美术、实现与体验NotRun。",
       "facets": {
-        "身份／用途": "Qualified / 用户确认",
-        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "身份／用途": "Accepted / CORE-078",
+        "本包具体参数": "Accepted / CORE-078；原数值保持",
         "验证": "Hypothesis / NotRun"
       },
       "shape": {
@@ -7887,28 +7896,29 @@
       "name": "仪式手记",
       "kind": "book",
       "collection": "ritual",
-      "status": "qualified",
+      "status": "accepted",
       "summary": "实体求知载体，已学方法可永久保留。",
       "description": "",
       "fields": {
         "取得": "每局初试第3可选留。",
         "释读": "仅文字界主动免费释读，保留书；问兆／引路／招客基础方法及条件方法见内容包。",
-        "条件内容": "覆痕→断契；逆流→夺火；启阶后实际解缚→定址／驻影；定址后实际驻影→升界。",
+        "条件内容": "覆痕→断契；逆流→夺火；启阶后实际解缚→定址／驻影；已定址＋曾实际完成驻影接触（可跨局、接触可早于定址）→持手记释读升界。",
         "携带": "可实际带回存仓；已学方法不要求每次随身带书。"
       },
       "related": [],
       "sources": [
         "ritual-qualified",
-        "ritual-review"
+        "ritual-review",
+        "core078"
       ],
       "unknown": [
         "美术与叙事文案未制作；平衡和真人体验未验证。"
       ],
       "art": [],
-      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "scope": "Accepted / CORE-078；仪式最小完整局的身份、用途与具体参数已采纳；原首战独立保留。美术、实现与体验NotRun。",
       "facets": {
-        "身份／用途": "Qualified / 用户确认",
-        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "身份／用途": "Accepted / CORE-078",
+        "本包具体参数": "Accepted / CORE-078；原数值保持",
         "验证": "Hypothesis / NotRun"
       },
       "shape": {
@@ -7938,28 +7948,29 @@
       "name": "解缚页",
       "kind": "book",
       "collection": "ritual",
-      "status": "qualified",
+      "status": "accepted",
       "summary": "缚门客履约后授予的实体知识页。",
       "description": "",
       "fields": {
         "取得": "有效联系中，具真实亲自驱离经历并交1任意纹样门纹石。",
-        "释读": "文字界主动免费释读，学会解缚；查看或仅取得不算学会。",
+        "释读": "文字界主动免费释读，学会解缚及启阶方法，书保留；查看或仅取得不算学会。",
         "补领": "履约后未学即失去：下一局有效联系可免重复石／经历补领；每局最多发一次、持有不再发、学会停止；需要招客时仍付原费用。",
         "禁止用途": "无出售、加工或供物用途。"
       },
       "related": [],
       "sources": [
         "ritual-qualified",
-        "ritual-review"
+        "ritual-review",
+        "core078"
       ],
       "unknown": [
         "美术与叙事文案未制作；平衡和真人体验未验证。"
       ],
       "art": [],
-      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "scope": "Accepted / CORE-078；仪式最小完整局的身份、用途与具体参数已采纳；原首战独立保留。美术、实现与体验NotRun。",
       "facets": {
-        "身份／用途": "Qualified / 用户确认",
-        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "身份／用途": "Accepted / CORE-078",
+        "本包具体参数": "Accepted / CORE-078；原数值保持",
         "验证": "Hypothesis / NotRun"
       },
       "shape": {
@@ -7985,7 +7996,7 @@
       "name": "旧径普通巡守",
       "kind": "enemy",
       "collection": "ritual",
-      "status": "qualified",
+      "status": "accepted",
       "summary": "每轮五次小额伤害，治疗过早可能溢出。",
       "description": "",
       "fields": {
@@ -7997,16 +8008,17 @@
       "related": [],
       "sources": [
         "ritual-qualified",
-        "ritual-review"
+        "ritual-review",
+        "core078"
       ],
       "unknown": [
         "美术与叙事文案未制作；平衡和真人体验未验证。"
       ],
       "art": [],
-      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "scope": "Accepted / CORE-078；仪式最小完整局的身份、用途与具体参数已采纳；原首战独立保留。美术、实现与体验NotRun。",
       "facets": {
-        "身份／用途": "Qualified / 用户确认",
-        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "身份／用途": "Accepted / CORE-078",
+        "本包具体参数": "Accepted / CORE-078；原数值保持",
         "验证": "Hypothesis / NotRun"
       }
     },
@@ -8015,7 +8027,7 @@
       "name": "灰井封门守卫",
       "kind": "enemy",
       "collection": "ritual",
-      "status": "qualified",
+      "status": "accepted",
       "summary": "开场重击，随后蓄势与重击交替。",
       "description": "",
       "fields": {
@@ -8027,16 +8039,17 @@
       "related": [],
       "sources": [
         "ritual-qualified",
-        "ritual-review"
+        "ritual-review",
+        "core078"
       ],
       "unknown": [
         "美术与叙事文案未制作；平衡和真人体验未验证。"
       ],
       "art": [],
-      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "scope": "Accepted / CORE-078；仪式最小完整局的身份、用途与具体参数已采纳；原首战独立保留。美术、实现与体验NotRun。",
       "facets": {
-        "身份／用途": "Qualified / 用户确认",
-        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "身份／用途": "Accepted / CORE-078",
+        "本包具体参数": "Accepted / CORE-078；原数值保持",
         "验证": "Hypothesis / NotRun"
       }
     },
@@ -8045,7 +8058,7 @@
       "name": "旧径深层积压者",
       "kind": "enemy",
       "collection": "ritual",
-      "status": "qualified",
+      "status": "accepted",
       "summary": "多轮持续施压，并生成公开后续。",
       "description": "",
       "fields": {
@@ -8057,16 +8070,17 @@
       "related": [],
       "sources": [
         "ritual-qualified",
-        "ritual-review"
+        "ritual-review",
+        "core078"
       ],
       "unknown": [
         "美术与叙事文案未制作；平衡和真人体验未验证。"
       ],
       "art": [],
-      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "scope": "Accepted / CORE-078；仪式最小完整局的身份、用途与具体参数已采纳；原首战独立保留。美术、实现与体验NotRun。",
       "facets": {
-        "身份／用途": "Qualified / 用户确认",
-        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "身份／用途": "Accepted / CORE-078",
+        "本包具体参数": "Accepted / CORE-078；原数值保持",
         "验证": "Hypothesis / NotRun"
       }
     },
@@ -8075,7 +8089,7 @@
       "name": "灰井深层急袭者",
       "kind": "enemy",
       "collection": "ritual",
-      "status": "qualified",
+      "status": "accepted",
       "summary": "首轮集中伤害，后续缓息。",
       "description": "",
       "fields": {
@@ -8087,16 +8101,17 @@
       "related": [],
       "sources": [
         "ritual-qualified",
-        "ritual-review"
+        "ritual-review",
+        "core078"
       ],
       "unknown": [
         "美术与叙事文案未制作；平衡和真人体验未验证。"
       ],
       "art": [],
-      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "scope": "Accepted / CORE-078；仪式最小完整局的身份、用途与具体参数已采纳；原首战独立保留。美术、实现与体验NotRun。",
       "facets": {
-        "身份／用途": "Qualified / 用户确认",
-        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "身份／用途": "Accepted / CORE-078",
+        "本包具体参数": "Accepted / CORE-078；原数值保持",
         "验证": "Hypothesis / NotRun"
       }
     },
@@ -8105,7 +8120,7 @@
       "name": "入口驻影",
       "kind": "enemy",
       "collection": "ritual",
-      "status": "qualified",
+      "status": "accepted",
       "summary": "集中压力与蓄势交替，安排在第2位置。",
       "description": "",
       "fields": {
@@ -8117,16 +8132,17 @@
       "related": [],
       "sources": [
         "ritual-qualified",
-        "ritual-review"
+        "ritual-review",
+        "core078"
       ],
       "unknown": [
         "美术与叙事文案未制作；平衡和真人体验未验证。"
       ],
       "art": [],
-      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "scope": "Accepted / CORE-078；仪式最小完整局的身份、用途与具体参数已采纳；原首战独立保留。美术、实现与体验NotRun。",
       "facets": {
-        "身份／用途": "Qualified / 用户确认",
-        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "身份／用途": "Accepted / CORE-078",
+        "本包具体参数": "Accepted / CORE-078；原数值保持",
         "验证": "Hypothesis / NotRun"
       }
     },
@@ -8135,7 +8151,7 @@
       "name": "深层驻影",
       "kind": "enemy",
       "collection": "ritual",
-      "status": "qualified",
+      "status": "accepted",
       "summary": "持续交错施压，安排在第6位置。",
       "description": "",
       "fields": {
@@ -8147,16 +8163,17 @@
       "related": [],
       "sources": [
         "ritual-qualified",
-        "ritual-review"
+        "ritual-review",
+        "core078"
       ],
       "unknown": [
         "美术与叙事文案未制作；平衡和真人体验未验证。"
       ],
       "art": [],
-      "scope": "仅仪式最小完整局工作包；已审核并授权内容入库，Qualified，未替换现行GDD／首战；实现与体验NotRun。",
+      "scope": "Accepted / CORE-078；仪式最小完整局的身份、用途与具体参数已采纳；原首战独立保留。美术、实现与体验NotRun。",
       "facets": {
-        "身份／用途": "Qualified / 用户确认",
-        "本包具体参数": "用户审核通过；未迁移现行GDD",
+        "身份／用途": "Accepted / CORE-078",
+        "本包具体参数": "Accepted / CORE-078；原数值保持",
         "验证": "Hypothesis / NotRun"
       }
     }
@@ -10655,15 +10672,16 @@
   },
   "ritualContent": {
     "id": "ritual-minimum-run",
-    "version": "ritual-minimum-run.1",
+    "version": "ritual-minimum-run.2",
     "sourceCommit": "d880c1f3308046952ea0fa30867f871b7b7845cf",
-    "qualification": "Qualified / 用户逐部分确认并授权入库",
-    "ruleAdoption": "Pending / 未迁移现行GDD",
+    "qualification": "Qualified来源 / 本包身份与参数已按CORE-078采纳",
+    "ruleAdoption": "Accepted / CORE-078 / ritual-run.1；现行GDD4.1",
     "implementation": "NotRun",
     "experience": "Hypothesis / NotRun",
     "sources": [
       "ritual-qualified",
-      "ritual-review"
+      "ritual-review",
+      "core078"
     ],
     "board": {
       "width": 8,
@@ -11548,7 +11566,6 @@
     "unknown": [
       "随机权重",
       "第二套攻击构筑及更多敌人／事件",
-      "正式规则迁移",
       "实现、难度及长期重玩验证"
     ]
   }

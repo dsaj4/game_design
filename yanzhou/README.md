@@ -1,8 +1,10 @@
 # 言咒 · Yanzhou
 
-game-002 · 导航更新2026-11-01。CORE-071已淘汰38项非alchemy与原首战输入；内容库仅保留61项炼金设计及原35配方／3构筑，资格逐项保留。现行机制沿CORE-070及未被替换的069／068／067，完整新首战与敌表待设计。开发按[开工交接](development/README.md#新2d开工交接)，版本以[基准](design/baseline.md)为准；Ways画风与完整卡面仍沿[美术基准](system-design/presentation/art-direction.md)。
+2026-11-09当前：**[CORE-078核心规则](design/GDD.md)** 已并入仪式三段、知识／联系／拔擢／四目标及单项传承；GDD4.1／GDD-0，CONTENT-LIBRARY-11。制作沿[开发入口](development/README.md)，规则与实际能力分开。原CORE-071退役内容与旧证据仍只按固定版本解释。
 
-战前用铭文与背包布局配置法器、独立辅助道具、专属供料区及固定用途；核心可逆嵌入不另占格，辅助同效可叠加；每轮5个生产拍自动补料产牌，可在生产观察窗调整下一批待料并免费整理桌牌与持牌，确认后从左到右逐列结算。
+game-002 · 导航更新2026-11-09。当前82项物件、35配方与3构筑，具体资格逐项保留。仪式三段已接通现行主规则，原首战first-distillation.4独立保留；世界观仍为空，不由仪式机制恢复旧设定。版本沿[基准](design/baseline.md)，图稿沿[美术基准](system-design/presentation/art-direction.md)。
+
+战前用真实铭文、炉心与共用背包布局配置法器；每轮先5生产拍，手动排真实工序，再不限时布置并一次锁整行。战后按真实库存选留，返回文字界学习、施仪并准备下一段，最后完成终式。
 
 | 当前要做什么 | 入口 |
 | --- | --- |
@@ -15,7 +17,7 @@ game-002 · 导航更新2026-11-01。CORE-071已淘汰38项非alchemy与原首�
 | 看懂项目、协作与开发进度 | [情景讲解与提示词](standards/development-guide.md) · [工作台入口](standards/workspace.md) |
 | 查询主系统与开发资产 | [主系统阅读入口](design/README.md) · [当前资产](development/asset-readiness.md) |
 | 继续桌面与卡牌美术设计 | [本轮视觉基准](system-design/presentation/art-direction.md)：Ways画风＋完整卡面02；[资产原件](visual/README.md) |
-| 查看条件案例与旧内容 | [EX-003局部条件](design/examples/round-hand.md)；EX-001／002仅旧连续拍固定范围，原EX-004已退役，当前完整首战待设计 |
+| 查看条件案例与旧内容 | [EX-003局部条件](design/examples/round-hand.md)；EX-001／002仅旧连续拍固定范围，原EX-004已退役，当前首战见[EX-005](design/examples/first-battle-alchemy.md) |
 | 完善主系统 | [当前问题](governance/questions.md#开发前先看) · [制作与验证经验](standards/development-standard.md#制作与验证经验) |
 | 查询词义 | [术语](CONTEXT.md) |
 | 看实现与证据 | [开发索引](development/README.md) |

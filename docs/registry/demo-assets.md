@@ -637,6 +637,10 @@ DM-G002-011第十三批使用补记：GODOT-DEMONCARDS-CANDIDATES-B13-01，固�
 
 ## <a id="dm-g002-023"></a>DM-G002-023 言咒具体内容库展板
 
+2026-11-09主系统集成：**CONTENT-LIBRARY-11／ritual-minimum-run.2／CORE-078**。仪式身份及参数已限定采纳，修正两处学习条件与派生说明，原69项／35配方／first-distillation.4保全。440项静态检查、252项浏览器检查通过，错误0；另有集成源意／旧证据完整性检查，范围沿[manifest](../../yanzhou/content-library/manifest.json)。11版生成器及证据单列，10版保留。仍ReadyForScope / PresentLocal，仅静态审阅；有限参考模拟不升级为引擎／真人证据，无新图稿、发布或工程实现。
+
+以下10／09／08为历史交付：
+
 2026-11-09续版：**CONTENT-LIBRARY-10**，82项物件（保留原69项，新增7条仪式实物与6条敌人）、35配方；[仪式内容包](../../yanzhou/content-library/ritual-pack.html)派生自catalog，含12项仪式、有限来源、调查、委托、目标和传承。新增内容Qualified／用户审核并授权入库，现行GDD及原首战不变。440项静态保全／数据检查、252项浏览器检查通过，错误0；仅静态检索与审阅ReadyForScope / PresentLocal，玩法实现／体验NotRun。来源、生成器版本和10版证据沿[manifest](../../yanzhou/content-library/manifest.json)；09生成器保留在外部content-library-09-generator/，旧证据不覆盖。无新图稿或对外发布。
 
 2026-11-05续版：CONTENT-LIBRARY-09／first-distillation.4／CORE-077；69项、35配方，27有图对象/52图稿引用。四件器物02已选入运行映射，首战15血与两胜两败、20/22格重装经静态复核。当前文件/生成器/新浏览器与算术证据沿内容库manifest；旧08证据不覆盖。uses追加AS-G002-042@01/02；仍ReadyForScope / PresentLocal，Godot/真人NotRun。

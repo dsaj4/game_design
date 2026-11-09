@@ -11,14 +11,14 @@
   "builds": 3,
   "objectsWithArt": 27,
   "artFiles": 52,
-  "version": "CONTENT-LIBRARY-10",
+  "version": "CONTENT-LIBRARY-11",
   "date": "2026-11-09",
-  "scope": "保留CORE-077首战；仪式Qualified内容包静态检索／审阅。原对象、配方、构筑和首战完整保全，无玩法执行或体验证据。",
+  "scope": "CORE-078仪式整局已限定采纳；原69项炼金、35配方、3构筑及first-distillation.4保全。静态内容检索／审阅，不代表玩法执行。",
   "designInputCommit": "d880c1f3308046952ea0fa30867f871b7b7845cf",
   "adoption": {
-    "decision": "CORE-077",
-    "record": "../sources/draft-changes/D-2026-11-05-round-plan-alignment.md",
-    "scope": "仅原CORE-077／first-distillation.4；不含新增仪式规则"
+    "decision": "CORE-078",
+    "record": "../sources/draft-changes/D-2026-11-09-ritual-main-integration.md",
+    "scope": "ritual-run.1仪式主系统及ritual-minimum-run.2；继承CORE-077 round-plan.1，原first-distillation.4不变"
   },
   "files": [
     {
@@ -28,17 +28,17 @@
     },
     {
       "path": "alchemy.md",
-      "sha256": "fb3a7810a54b71b3adb1cb8d858151a7c5a5cd777ffe06287c045897b7a8bb7b",
+      "sha256": "5aed74bf07633f3041c54a291549a4c3d2fb08f45a3a8ec302e5729db0045ee5",
       "bytes": 197607
     },
     {
       "path": "artifact-geometry.html",
-      "sha256": "38bb7085609616bea91b9749e7a1a89e6a7680da64d63f39f7fabdd2aa189c3c",
+      "sha256": "9d6035ac38d1bb35c8367bb4f0991a8d8920fc394ed5c952654033716e11bbc6",
       "bytes": 5019
     },
     {
       "path": "artifact-geometry.md",
-      "sha256": "0b488cfe0cf0e14a113351b794f18645450b1e8667c486b2947ecb9ca5c7e13f",
+      "sha256": "35747b29406d46123bd7a5ffd64b2960686a7a859edc31821d37d77555a7901a",
       "bytes": 1425
     },
     {
@@ -48,8 +48,8 @@
     },
     {
       "path": "catalog.json",
-      "sha256": "41a94ea33d781d45091f198cc66d3a60abd24e5903aef40da5b53db190cdfe42",
-      "bytes": 385102
+      "sha256": "864481cb0c05e0178afe9ec081924a875d0e58a98ce131f83ace4035a81380f4",
+      "bytes": 385657
     },
     {
       "path": "first-battle.html",
@@ -63,40 +63,45 @@
     },
     {
       "path": "index.html",
-      "sha256": "bf72af15244c4e90811d1701c31dba7a2ad4a0ab0263c4245f272b1096090ec7",
-      "bytes": 289738
+      "sha256": "da897ffbc752030065364e3cbafbd378839a0505452e92b884f76868a45c7307",
+      "bytes": 290142
     },
     {
       "path": "README.md",
-      "sha256": "2ca2b30e7ec61fa48396443cb1ed012e068807abe747b7d1da75e008ad483ce6",
-      "bytes": 4594
+      "sha256": "33ebe4ef9e0ee77cf74a2bea92a64308d6edfb74ce74878adeeb07e54d5539c5",
+      "bytes": 4590
     },
     {
       "path": "recipes.md",
-      "sha256": "d525911a04201a46d8e7738712e9509e6942641d261cfa641eccbe0c29c4a216",
-      "bytes": 31205
+      "sha256": "2fc142028590050c7a17a5f71b3347528e8b08b7057b0675179de9e3a18ed998",
+      "bytes": 33655
     },
     {
       "path": "ritual-pack.html",
-      "sha256": "ff7629bc420fb513192834d781b538643af8a43568552a0f2db07916b3cd7023",
-      "bytes": 26669
+      "sha256": "db9ef8e3a8214d6808969278f1f3c2d3745583bf0c28caafc554866c3377d471",
+      "bytes": 26770
     },
     {
       "path": "ritual-pack.md",
-      "sha256": "b521d1b0871502645ce24baa626842e15cde45c6427affde41be30bb9e72f142",
-      "bytes": 14887
+      "sha256": "ee222539d8a6947e97d9363ce298be533ec3bb1060521b171dda8b649238dd84",
+      "bytes": 14997
     },
     {
       "path": "ritual.md",
-      "sha256": "201f5f9614285a36fa4e65e1249a51d0519c503f2f61c8874786a629c2685308",
-      "bytes": 17493
+      "sha256": "2b63b56506d7c4d445aa81ef9f4def1ae5e41e35c4ea77738161ff772bd9ffe0",
+      "bytes": 18840
     }
   ],
   "generatorFiles": [
     {
       "path": "build.py",
-      "sha256": "d4c91aab67d2f1952d13ac4093816189ee5a3edf4a27ed69d536dedcf1d8abcd",
-      "bytes": 7403
+      "sha256": "43772e5690e5683b36297825cc5e81884e7de061e60db3238b078ef18787932c",
+      "bytes": 7473
+    },
+    {
+      "path": "check011.py",
+      "sha256": "a97c5025d276c6f9b87977d2534c80558d04c14fbd7fe8c65cc140f7bd22d96a",
+      "bytes": 3649
     },
     {
       "path": "encounter_view.py",
@@ -104,141 +109,143 @@
       "bytes": 8391
     },
     {
-      "path": "geometry_view.py",
-      "sha256": "39a2e3b2a0ea28afbcbf4f0a42145e3c4d40d9aca3aa69ee1572b8ad21288a73",
-      "bytes": 2963
-    },
-    {
       "path": "geometry074.py",
       "sha256": "960710d686d9d6d3e3a454a0a5be10481c2b9d1543e62d622098a3cfbe8fad75",
       "bytes": 1176
     },
     {
-      "path": "template.html",
-      "sha256": "c303f1eb95131defb629e62d4afa2c4b001da6156a7dbf1e08df9e7d1d91e0a5",
-      "bytes": 27831
+      "path": "geometry_view.py",
+      "sha256": "39a2e3b2a0ea28afbcbf4f0a42145e3c4d40d9aca3aa69ee1572b8ad21288a73",
+      "bytes": 2963
     },
     {
-      "path": "ritual_view.py",
-      "sha256": "ee6ad16c0bddc24ff1592a58c75fb623c6984aeae0e9218f5daeb0cd33d99154",
-      "bytes": 8819
-    },
-    {
-      "path": "check010.py",
-      "sha256": "b63087bb7f63eded3b6914af2adab6ac27fd1aa33c9e7c2d77b43f9f9fa06663",
-      "bytes": 3610
-    },
-    {
-      "path": "qa010.cjs",
-      "sha256": "b1e85bb6f54eb94c652b3879b2a22c931deb27895ba31c1cb3f819f0fa7e8a00",
-      "bytes": 13634
+      "path": "qa011.cjs",
+      "sha256": "7f6ee2fe8d4a7488b80adbd83f4c921cf0fed4c7312c22e3602f10d01e1f72c1",
+      "bytes": 13669
     },
     {
       "path": "README.md",
-      "sha256": "42da76a653ea4f09807d7b1e8b97afdb9243aa158b67d77c5089657bfc611e8c",
-      "bytes": 844
+      "sha256": "f34b44306c410e1f7029d1919b49f404b6a0a258195ff2d0d8a4b449f370d5cb",
+      "bytes": 518
+    },
+    {
+      "path": "ritual_view.py",
+      "sha256": "00a93c5437619fbad0e2d6d905369eb57b0c2fe7d1fc68eeb80692e8d61cffbf",
+      "bytes": 8939
+    },
+    {
+      "path": "template.html",
+      "sha256": "1b00e7b6f39f0dded889f210baadd6914f540c70ce0d220edbceb5b75dd9b996",
+      "bytes": 27882
     }
   ],
   "verification": {
     "staticChecks": 440,
     "browserChecks": 252,
     "browserErrors": [],
-    "scope": "Exact legacy preservation; ritual identities, references, quantities, columns and metadata. No combat execution. Browser gallery inspection at 1440/390/320 widths, including ritual filter/detail/programs. No gameplay execution.",
+    "integrationChecks": 209,
+    "localLinksInspected": 1260,
+    "scope": "Catalog preservation and source-fidelity checks; browser-only content gallery at 1440/390/320 widths; no gameplay run. Integration link scope covers task documents and DM-G002-023 only.",
     "visualInspection": [
       "12-ritual-pack.png",
       "14-ritual-mobile.png"
     ],
-    "evidenceRoot": "E:\\Project\\yanzhou-ui-prototypes\\content-library-2026-11-01\\content-library-10-evidence",
+    "evidenceRoot": "E:\\Project\\yanzhou-ui-prototypes\\content-library-2026-11-01\\content-library-11-evidence",
     "evidenceFiles": [
       {
-        "path": "content-library-10-evidence/evidence/01-overview.png",
-        "sha256": "fb47c386f01c985c9e682e4a6db84330f75243feccde931202e6b835b62d1982",
-        "bytes": 257323
+        "path": "content-library-11-evidence/evidence/01-overview.png",
+        "sha256": "998e95c9c0f9efd925e9e5f1a3037cc48e5ef42ac3c09b9003ed87d9e9b3a038",
+        "bytes": 257182
       },
       {
-        "path": "content-library-10-evidence/evidence/02-art.png",
-        "sha256": "23c0c9bd4be6feac2e7557303713d112c02078b6b580fd85a5229a3dce2041c6",
-        "bytes": 321299
+        "path": "content-library-11-evidence/evidence/02-art.png",
+        "sha256": "66fb432ec5141133dfe1ae2131c4390a7be0cd06249841804a66af26b854a7ed",
+        "bytes": 321152
       },
       {
-        "path": "content-library-10-evidence/evidence/03-water-detail.png",
-        "sha256": "00568309eddfc33e2095f6346fd826dd584874ea784fd2b1ec344aa3e866f900",
-        "bytes": 260003
+        "path": "content-library-11-evidence/evidence/03-water-detail.png",
+        "sha256": "627cb8bcd2a1dd5725af9a74e5acbff371539f46c1c14382436a9d95c60a74b8",
+        "bytes": 259960
       },
       {
-        "path": "content-library-10-evidence/evidence/04-recipe.png",
-        "sha256": "54ccaf8a580aae07e58e98ae3fec841da43c2604e690ef67fb5364a4ac1d3ce3",
-        "bytes": 124936
+        "path": "content-library-11-evidence/evidence/04-recipe.png",
+        "sha256": "947e1328e95758f3e4887fdb6984c7f92f6ced6c45f1c817b20bc0961d2453bc",
+        "bytes": 124890
       },
       {
-        "path": "content-library-10-evidence/evidence/05-mobile.png",
-        "sha256": "e8a3c839f6e729d7b2ac22c09579eea61a1c936665a01e8b430d6ed2093684cc",
-        "bytes": 77773
+        "path": "content-library-11-evidence/evidence/05-mobile.png",
+        "sha256": "5a5c06ac8f8da7e7be9f1c59eaf1d4960fdd86664009925c707adc46f2fb032d",
+        "bytes": 77736
       },
       {
-        "path": "content-library-10-evidence/evidence/06-mobile-detail.png",
+        "path": "content-library-11-evidence/evidence/06-mobile-detail.png",
         "sha256": "64d5ec6b87e903dac02bf5c60c67da27b15d5e1cd6d4a6edf2112117d9e8815b",
         "bytes": 79657
       },
       {
-        "path": "content-library-10-evidence/evidence/07-confirmed-duration.png",
-        "sha256": "12e9aa91f08cf611abe83f5b26f211e7976d33e225a31caed7e80ceb63d1589d",
-        "bytes": 164532
+        "path": "content-library-11-evidence/evidence/07-confirmed-duration.png",
+        "sha256": "ab267955ae19dfa23c46ff1f65afe6678e53366bfee3177df6ed485c521ba629",
+        "bytes": 164488
       },
       {
-        "path": "content-library-10-evidence/evidence/08-curse.png",
-        "sha256": "9cc995e28dfc3b90f28236dfb9b5933eb2020edf507c5a886d69d9ec782a328f",
-        "bytes": 165295
+        "path": "content-library-11-evidence/evidence/08-curse.png",
+        "sha256": "4e5b7d4194533e94a0510a9025f2ca20c819a991d5dab31f9786fa3d7c4a9b51",
+        "bytes": 165257
       },
       {
-        "path": "content-library-10-evidence/evidence/09-first-battle.png",
+        "path": "content-library-11-evidence/evidence/09-first-battle.png",
         "sha256": "dc2b3788d1a40b3aeb959fdd5e5999420293a48066c3a58518836d07827e3c96",
         "bytes": 478935
       },
       {
-        "path": "content-library-10-evidence/evidence/10-artifact-geometry.png",
-        "sha256": "00090769770d8841c716433a102c9f83c35109d90516cbffa7484e5a5df01839",
-        "bytes": 99010
+        "path": "content-library-11-evidence/evidence/10-artifact-geometry.png",
+        "sha256": "aded6a722f47533aa6710e0a135bbf0ce7338effd64a6fc9fbee934f332038fc",
+        "bytes": 98945
       },
       {
-        "path": "content-library-10-evidence/evidence/11-ritual-collection.png",
-        "sha256": "396bd583063c4296715b044270abdf3f7f269852b3bd18f009b44430c9977ec7",
-        "bytes": 109192
+        "path": "content-library-11-evidence/evidence/11-ritual-collection.png",
+        "sha256": "15ac3db7d762943bc9d3ec6bfc9fe43713e61ecee2f49c20ed9304e81b407434",
+        "bytes": 107465
       },
       {
-        "path": "content-library-10-evidence/evidence/12-ritual-pack.png",
-        "sha256": "011db9d659cdd0fb09f1f54c60c84e51a9c67366cf7ef3c9c5865d8c35ab4ed0",
-        "bytes": 134156
+        "path": "content-library-11-evidence/evidence/12-ritual-pack.png",
+        "sha256": "8f0f6a58beca7bd4e8b20324b7ded38c1e15b9a5043cb697c66323c5ee176f40",
+        "bytes": 124180
       },
       {
-        "path": "content-library-10-evidence/evidence/13-ritual-enemies.png",
-        "sha256": "45d68c17cf7d7881c48305bc48a9f7d5534f6ebbaab30da4195d2acb1adf4734",
+        "path": "content-library-11-evidence/evidence/13-ritual-enemies.png",
+        "sha256": "ced89eef33a0f710f64ad9b654e2ebeee8ae462f1bfcb155272d112c240efe7d",
         "bytes": 79253
       },
       {
-        "path": "content-library-10-evidence/evidence/14-ritual-mobile.png",
-        "sha256": "b8b0e7381927e3d62aaed68d738927d445ac2af161a30181fc81ea8aa73822e3",
-        "bytes": 37411
+        "path": "content-library-11-evidence/evidence/14-ritual-mobile.png",
+        "sha256": "b68bd3a27a18676f649769d46b6ad047ee895bc586f75dd2281b458d81988081",
+        "bytes": 38621
       },
       {
-        "path": "content-library-10-evidence/qa-result.json",
-        "sha256": "38130a36b8e686fff2abb0c34d4c9490ad9b9072cb9867178e4c4553342039cc",
-        "bytes": 8728
+        "path": "content-library-11-evidence/qa-result.json",
+        "sha256": "f60f2aa0e201af0bd65d966f866b9aa4ce13763074f288f65b50947cf0934e0b",
+        "bytes": 8697
       },
       {
-        "path": "content-library-10-evidence/static-checks.json",
-        "sha256": "c33521e79a55fbe2ed9a08c44640bb0421d08644c1d854dc013fd972b71b1030",
-        "bytes": 19137
+        "path": "content-library-11-evidence/static-checks.json",
+        "sha256": "7111bfd8f94a0a5d10b0f81cc7a197a12a0ec8bf4501789bdf6f920c6c536de3",
+        "bytes": 19109
       }
-    ]
+    ],
+    "integrationEvidence": {
+      "path": "E:\\Project\\yanzhou-ui-prototypes\\ritual-main-integration-2026-11-09\\integration-checks.json",
+      "sha256": "a02bfaed4aacea69613d88af7ee416cfad8b7a5e26cacc34ab58ec66d00bdc42",
+      "bytes": 10872
+    }
   },
   "previousVersion": {
-    "version": "CONTENT-LIBRARY-09",
-    "designCommit": "d880c1f3308046952ea0fa30867f871b7b7845cf",
-    "manifest": "https://github.com/dsaj4/game_design/blob/d880c1f3308046952ea0fa30867f871b7b7845cf/yanzhou/content-library/manifest.json",
-    "generatorSnapshot": "E:\\Project\\yanzhou-ui-prototypes\\content-library-2026-11-01\\content-library-09-generator",
-    "evidence": "content-library-09-evidence",
-    "manifestSHA256": "fa6979779c12f1b928a3b904766b62d29e4eaeef10e38931600e7e529beec6d3"
+    "version": "CONTENT-LIBRARY-10",
+    "designCommit": "4222de454bafc05542740436d48d9671c4d76971",
+    "manifest": "https://github.com/dsaj4/game_design/blob/4222de454bafc05542740436d48d9671c4d76971/yanzhou/content-library/manifest.json",
+    "generatorSnapshot": "E:\\Project\\yanzhou-ui-prototypes\\content-library-2026-11-01\\content-library-10-generator",
+    "evidence": "content-library-10-evidence",
+    "manifestSHA256": "eb85f9a589b8f6997b44ab49f9e7a2b942f099da2c1cd697ce4ca9881e0e959d"
   },
   "presentationIntegration": {
     "version": "FIRST-BATTLE-CARD-INTEGRATION-02",
@@ -258,15 +265,15 @@
     "Godot model/UI/save/build/native input",
     "Balance and human understanding",
     "Font and composed effect final acceptance",
-    "仪式现行规则迁移与正式开发输入",
-    "仪式包构筑扩展、权重和长期重玩"
+    "仪式包构筑扩展、权重和长期重玩",
+    "完整新玩家知识链、随机生成与存档恢复"
   ],
   "contentIntegration": {
-    "version": "ritual-minimum-run.1",
-    "qualification": "Qualified / 用户审核通过并授权内容入库",
+    "version": "ritual-minimum-run.2",
+    "qualification": "Qualified来源 / Accepted限定身份与参数",
     "material": "../sources/materials/M-2026-11-09-ritual-content-pack.md",
     "ruleSummary": "../system-design/2026-11-09-ritual-rules-update-summary.md",
-    "ruleMigration": "Pending / 现行GDD未修改",
+    "ruleMigration": "Accepted / CORE-078 / GDD4.1",
     "newPhysicalItems": 7,
     "newEnemyIdentities": 6,
     "ritualMethods": 12,
@@ -274,7 +281,18 @@
     "goals": 4,
     "inheritances": 4,
     "jobs": 2,
-    "experience": "Hypothesis / NotRun"
+    "experience": "Hypothesis / NotRun",
+    "adoption": "../sources/draft-changes/D-2026-11-09-ritual-main-integration.md"
   },
-  "generatorSnapshot": "E:\\Project\\yanzhou-ui-prototypes\\content-library-2026-11-01\\content-library-10-generator"
+  "generatorSnapshot": "E:\\Project\\yanzhou-ui-prototypes\\content-library-2026-11-01\\content-library-11-generator",
+  "referenceSimulation": {
+    "evidence": {
+      "path": "E:\\Project\\yanzhou-ui-prototypes\\ritual-review-simulation-2026-11-09\\evidence-manifest.json",
+      "sha256": "aa42e2ea3fc4e479aff9db343240445a6ae98d8c78474356a189aa173dc20700",
+      "bytes": 9729
+    },
+    "evaluation": "../sources/evaluations/E-2026-11-09-ritual-main-integration.md",
+    "inputCommit": "4222de454bafc05542740436d48d9671c4d76971",
+    "scope": "Prior bounded fixed-layout interpreter: 5 routes / 26 battles plus selected low-health, payment and geometry cases. Numeric inputs unchanged. No full learning chain, random generation, fatigue execution, engine or human validation; not rerun as an integrated game."
+  }
 }

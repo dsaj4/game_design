@@ -2,7 +2,7 @@
 
 **[打开仪式内容包](ritual-pack.html)**，查新入库的物件、仪式、补给与六类遭遇；[规则更新总结](../system-design/2026-11-09-ritual-rules-update-summary.md)说明变化与边界。[总展板](index.html)仍支持全部物件和配方检索。
 
-2026-11-09续版：**CONTENT-LIBRARY-10／ritual-minimum-run.1**。新增7条仪式实物与6条敌人身份，12项仪式、补给、调查、委托、目标和传承由catalog的ritualContent统一维护。资格Qualified／用户确认内容入库，现行GDD未迁移，体验NotRun；[资格依据](../sources/materials/M-2026-11-09-ritual-content-pack.md)。
+2026-11-09续版：**CONTENT-LIBRARY-11／ritual-minimum-run.2**。新增7条仪式实物与6条敌人身份，12项仪式、补给、调查、委托、目标和传承由catalog的ritualContent统一维护。CORE-078已采纳并入现行GDD4.1，体验NotRun；[资格依据](../sources/materials/M-2026-11-09-ritual-content-pack.md)。
 
 以下为保留的原首战范围。2026-11-05总控集成：**CORE-077／GDD4.0／round-plan.1，CONTENT-LIBRARY-09／first-distillation.4**。每轮5生产拍、整轮确认、回收下轮再用；规则、内容与任务包已对齐。首战两胜两败及重装经静态复核，2D与真人体验NotRun。
 
@@ -34,10 +34,10 @@
 
 展板支持搜索、类别／状态筛选、有图筛选、详情、图稿切换和配方关联。P展示用于设计审阅，不要求在战斗界面直显；无图显示类型符号，不代表美术完成。
 
-生成器、模板和检查在[外部构建说明](E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01/README.md)。更新后执行构建、`--check`、现行限定检查及浏览器检查，再更新[manifest](manifest.json)。10版使用`check010.py`、`qa010.cjs`；原`check077.py`／09生成器保存在`content-library-09-generator/`，旧证据不覆盖，新证据单列10。代码与检查脚本不进入设计仓库。
+生成器、模板和检查在[11版构建说明](E:/Project/yanzhou-ui-prototypes/content-library-2026-11-01/content-library-11-generator/README.md)。更新后执行构建、`--check`、现行限定检查及浏览器检查，再更新[manifest](manifest.json)。11版使用`check011.py`、`qa011.cjs`；原`check077.py`／09生成器保存在`content-library-09-generator/`，10版生成器与旧证据不覆盖，新证据单列11。代码与检查脚本不进入设计仓库。
 
 ## DM-G002-023
 
-game-002 / main；CONTENT-LIBRARY-10；仅限静态内容检索与审阅。本轮440项静态数据检查与252项浏览器检查通过，错误0；检查范围及证据见manifest。原09证据保持原版本，不覆盖。无引擎、平衡或真人通过结论。
+game-002 / main；CONTENT-LIBRARY-11；仅限静态内容检索与审阅。检查数量及结果以当前manifest为准；检查范围及证据见manifest。原09／10证据保持原版本，不覆盖。无引擎、平衡或真人通过结论。
 
 derived-from：DM-G002-019@R09；uses：AS-G002-040@ALCHEMY-ITEM-PILOT-03、AS-G002-041@CARD-FRAME-02、AS-G002-042@FIRST-BATTLE-ART-01／02。图稿原件就地，未移动、改绘或上传；复用沿原项目内部审阅边界。
