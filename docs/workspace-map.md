@@ -10,6 +10,7 @@
 | [docs](shared-knowledge.md) | 通用规则、方法、项目登记与管理决定 |
 | [game-design-workflow/templates](../game-design-workflow/templates/README.md) | 唯一共享模板登记；根流程目录不存游戏正文 |
 | [项目技能入口](registry/project-skills.md) | 正式技能及使用边界；试验材料仍按所属业务集中 |
+| [本机游戏与分析工具](E:/Game/README.md) | `E:/Game/` 下 originals 保存原版，analysis 保存拆解与恢复工程，tools 保存 REA、Craft Anything 及共同依赖；具体成果和验证范围沿本机入口 |
 | .codex/skills | Codex项目运行技能，保留标准安装位置 |
 | [言咒开发工作台](../yanzhou/standards/workspace.md) | 本机独立Mr. Mak仓库连接既有设计、代码与资产；应用源码和依赖不放本仓库 |
 | [旧归档固定版本](workspace-decisions.md#ws-008) | 已退出工作树；保留旧项目与独有历史证据，默认不读 |

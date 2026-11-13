@@ -1,5 +1,11 @@
 # Demo 与素材统一目录
 
+## 2026-11-13 本机游戏与分析工具整理
+
+本机统一入口为 [E:/Game/README.md](E:/Game/README.md)，原版游戏集中在 `E:/Game/originals/`，分析与恢复工程集中在 `E:/Game/analysis/`，REA 6.4.0 和 Craft Anything 0.6.1 并列保存在 `E:/Game/tools/`。原绝对路径保留隐藏目录联接，既有身份、固定清单和历史证据沿原日期解释。
+
+AS-SH-002 的当前分析入口为 `E:/Game/analysis/Demoncards/`，AS-SH-003 为 `E:/Game/analysis/BOOK OF HOURS/`，AS-SH-005 为 `E:/Game/analysis/Culdcept BEGINS/`，AS-SH-007 为 `E:/Game/analysis/Backpack Battles/`。其他历史研究的外部保管位置沿原登记。2026-11-13 已核对迁移文件清单和关键哈希，工具 CLI／MCP 另有实际只读调用检查。完整范围与检查记录由统一入口定位。
+
 版本：DA-1 / 2026-10-01。维护身份、入口及复用边界；完整约定见[规范](../demo-asset-standard.md)，补录用[模板](../../game-design-workflow/templates/demo-asset-record-template.md)。检索本页的ID、Project/DIR、用途和标签，再按授权打开原件。
 
 本轮是**初始登记**：来自当前开发索引、视觉入口、DIR-029演示交付和已跟踪参考包；不是全历史资产审计。未打开旧归档、未读取未跟踪新方向、未运行Demo或重新验证玩法。登记基线：`25ec81ea9f9cef3496922068bc63622b36aba5c5`。下文“基线提交”均指该完整提交，不自动追随HEAD。本仓库原件用该提交+路径固定；外部资源另外注明。
