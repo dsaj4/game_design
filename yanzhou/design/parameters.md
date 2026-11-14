@@ -1,5 +1,7 @@
 # 参数与常量
 
+2026-11-14 · CORE-079：[TL-49](systems/aspect-system/rules.md)规定一个主字相效果、同批同相只继承一次、再加工重建物相；它们是已采纳结构约束。物相强度由成品等级／配方档位明确给出，字相需要的量读取明确物相参数或当前状态。具体等级、档位、知识阈值及药毒取值Unknown，探索示例的10点治疗不是全局值。现有catalog参数仍只属于未迁移固定内容域。
+
 2026-11-09 · CORE-078：仪式整局初态、8×5网格、8种战斗卡、节点物资／5A拍数、六敌表、仪式费用与传承数值由[catalog.ritualContent](../content-library/catalog.json)维护；[派生表](../content-library/ritual-pack.md)供查阅。原首战参数不替代本包。疲劳沿TL-24逐场计算，不新增免疫。
 
 2026-11-05 · ParameterScope / round-plan.1。这里维护共同约束；当前首战具体参数查[冻结规格](../content-library/first-battle.md)，不作为全局默认。旧连续拍案例只按[EX-001](examples/simple-spell.md)与[EX-002](examples/complete-battle.md)的固定输入解释，停点与受理沿[交互合同](common/interaction-save/rules.md)。缺失量集中在[问题登记](../governance/questions.md)。

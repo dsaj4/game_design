@@ -1,6 +1,6 @@
 # 言咒项目操作
 
-2026-11-09当前：**CORE-078／GDD4.1／GDD-0，ritual-run.1＋round-plan.1；CONTENT-LIBRARY-11／ritual-minimum-run.2**。仪式已并入主系统，82项物件／35配方，原CORE-077首战独立保留。沿[核心](design/GDD.md)和[仪式任务包](development/task-packs/ritual-run.md)接手；有限参考模拟与内容检查不代表引擎／真人通过。以下日期增量只作各自历史状态。
+2026-11-14当前：**CORE-079／GDD4.2／GDD-0，aspect-framework.1＋ritual-run.1＋round-plan.1**。字相／物相、名字知识与召唤三要素框架已并入主系统，沿[核心](design/GDD.md)及[TL-49](design/systems/aspect-system/rules.md)接手。CONTENT-LIBRARY-11的82项物件／35配方、仪式包及独立首战仍为未完成字相映射的固定内容域，不自动改配方／卡效或知识初态；迁移缺口见ZX-G01—05。新增实现／体验NotRun，旧参考模拟只支持原版本。以下日期增量只作各自历史状态。
 
 2026-11-05总控集成：**CORE-077／GDD4.0／round-plan.1，CONTENT-LIBRARY-09／first-distillation.4**。每轮5生产拍、整轮确认、回收下轮再用；规则、内容与任务包已对齐。首战两胜两败及重装经静态复核，2D与真人体验NotRun。 当前接手沿[开发入口](development/README.md)；以下旧日期增量只作历史状态。
 

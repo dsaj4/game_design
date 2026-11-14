@@ -1,5 +1,7 @@
 # 言咒具体内容库
 
+2026-11-14规则增量：[CORE-079字相／物相框架](../design/systems/aspect-system/rules.md)已采纳。**本库仍为CONTENT-LIBRARY-11，尚未完成字相映射。**原物件／配方／仪式按冻结内容合同保留，不从名称自动推断字相、改变效果或授予知识。新内容和迁移按[内容合同](../design/content/cards.md)填写，当前缺口见ZX-G01—05；本轮没有重建展板或把旧检查升级为新框架通过证据。
+
 **[打开仪式内容包](ritual-pack.html)**，查新入库的物件、仪式、补给与六类遭遇；[规则更新总结](../system-design/2026-11-09-ritual-rules-update-summary.md)说明变化与边界。[总展板](index.html)仍支持全部物件和配方检索。
 
 2026-11-09续版：**CONTENT-LIBRARY-11／ritual-minimum-run.2**。新增7条仪式实物与6条敌人身份，12项仪式、补给、调查、委托、目标和传承由catalog的ritualContent统一维护。CORE-078已采纳并入现行GDD4.1，体验NotRun；[资格依据](../sources/materials/M-2026-11-09-ritual-content-pack.md)。

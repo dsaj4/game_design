@@ -1,8 +1,8 @@
 # 言咒 · Yanzhou
 
-2026-11-09当前：**[CORE-078核心规则](design/GDD.md)** 已并入仪式三段、知识／联系／拔擢／四目标及单项传承；GDD4.1／GDD-0，CONTENT-LIBRARY-11。制作沿[开发入口](development/README.md)，规则与实际能力分开。原CORE-071退役内容与旧证据仍只按固定版本解释。
+2026-11-14当前：**[CORE-079核心规则](design/GDD.md)** 已并入字相／物相生产、名字知识与召唤仪式框架；GDD4.2／GDD-0。CONTENT-LIBRARY-11尚未完成新框架映射，沿原固定内容域使用。制作沿[开发入口](development/README.md)，规则与实际能力分开，新框架实现／体验NotRun。
 
-game-002 · 导航更新2026-11-09。当前82项物件、35配方与3构筑，具体资格逐项保留。仪式三段已接通现行主规则，原首战first-distillation.4独立保留；世界观仍为空，不由仪式机制恢复旧设定。版本沿[基准](design/baseline.md)，图稿沿[美术基准](system-design/presentation/art-direction.md)。
+game-002 · 导航更新2026-11-14。当前82项物件、35配方与3构筑，具体资格逐项保留。原仪式三段与首战first-distillation.4保留，字相迁移缺口见[当前问题](governance/questions.md#aspect-framework-open)；世界观仍为空，不由仪式机制恢复旧设定。版本沿[基准](design/baseline.md)，图稿沿[美术基准](system-design/presentation/art-direction.md)。
 
 战前用真实铭文、炉心与共用背包布局配置法器；每轮先5生产拍，手动排真实工序，再不限时布置并一次锁整行。战后按真实库存选留，返回文字界学习、施仪并准备下一段，最后完成终式。
 

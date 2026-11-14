@@ -1,5 +1,7 @@
 # 任务设计包：回合、手牌与布牌
 
+2026-11-14条件展开：CORE-079词条来源沿[TL-49](../../design/systems/aspect-system/rules.md)，不改变本包整轮锁行、回收、目标支付与总序。新增字相／物相卡效须明确步骤及数量来源后再接入；旧首战内容尚未映射，不按新框架自动改效果。
+
 2026-11-05 · Derived / round-plan.1；来源[GDD§2／5／7](../../design/GDD.md)、[TL-11](../../design/systems/action-card-system/rules.md)、[TL-17—19](../../design/common/interaction-save/rules.md)。规则迁移完成，集成与实现状态见[本轮D](../../sources/draft-changes/D-2026-11-05-round-plan-alignment.md)，不单独授权实现。
 
 玩家在5生产拍中取得实牌，生产拍间及不限时最终布置均可调五列；一次确认锁整行，内部逐列执行。原实例回收后本轮不再排，下轮可用；同名不同副本可各用一次。未来生产草稿不阻挡本轮战斗确认。

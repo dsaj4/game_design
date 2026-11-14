@@ -1,5 +1,7 @@
 # 合格来源素材
 
+2026-11-14：[字相知识、命名与召唤仪式M](M-2026-11-14-aspect-knowledge-ritual.md)及[DIR-045生产继承M](../../exploration/DIR-045-aspect-form-framework/M-2026-11-14-aspect-form-production.md)，框架限定，采纳范围见CORE-079；完整内容迁移仍待设计。
+
 2026-11-02：[供料范围、资源卡组与八法器格子 Qualified M](M-2026-11-02-feeding-ranges.md)，CORE-074／GDD3.7。
 
 

@@ -1,6 +1,6 @@
 # 启动探索：选择模型能读的材料
 
-Project ID：game-002-optimization。文档角色：ExplorationReadingContract。修订：READ-1 / documentation.9 / 2026-11-01。依据G002-DOC-008、012、013、014、027、028及033／034／035。适用于言咒新方向和显式切换阅读范围；方向存储仍是一文件夹一README。本次只将worldbuilding登记进FULL，CORE／GDD预设及旧方向固定清单不自动换版。
+Project ID：game-002-optimization。文档角色：ExplorationReadingContract。修订：READ-1 / documentation.10 / 2026-11-14。依据G002-DOC-008、012、013、014、027、028及033／034／035。适用于言咒新方向和显式切换阅读范围；方向存储仍是一文件夹一README。本次随CORE-079登记TL-49及已生效TL-47／48的GDD正文路径，预设为56份；CORE仍只读核心，旧方向固定提交与清单不自动换版。
 
 ## 直接这样说
 
@@ -36,7 +36,7 @@ Project ID：game-002-optimization。文档角色：ExplorationReadingContract�
 | 模式 | 游戏背景范围 | 适合做什么 | 默认不包含 |
 | --- | --- | --- | --- |
 | CORE／核心设计 | 仅`yanzhou/design/GDD.md` | 理解循环、系统关系、核心取舍与当前范围，提出方向构思 | 系统细则、逐卡参数、主系统来源、历史、其他方向 |
-| GDD／完整GDD | 下表列出的54份GDD包文件 | 对照现行细则、卡牌、资源、遭遇和交互提出具体增量 | GDD链接到的原始素材、历史、FX目录、开发与视觉材料、其他方向 |
+| GDD／完整GDD | 下表列出的56份GDD包文件 | 对照现行细则、卡牌、资源、遭遇和交互提出具体增量 | GDD链接到的原始素材、历史、FX目录、开发与视觉材料、其他方向 |
 | FULL／全量文档／全量主系统文档 | `yanzhou/`根README与CONTEXT，以及`design/`、`system-design/`、`content-library/`、`worldbuilding/`、`standards/`、`sources/`、`governance/`、`development/`、`visual/`下全部已登记文本材料；以后新增主系统资料目录须先登记 | 同时核对现行设计、形成原因、候选来源、证据与表现约束 | `history/`、`exploration/`其他方向、外部代码仓库、共享资料库、独立肉鸽、旧游戏、联网获取 |
 | CUSTOM／自选材料 | 用户明确列出的文件、章节、目录或已提供材料；不隐含CORE或GDD | 控制变量、只讨论某系统、指定研究材料 | 未列出的全部游戏材料 |
 | NONE／空白背景 | 仅本轮用户输入；续作仍能使用所选方向明确保留的自身记录 | 不借用言咒规则提出独立构思；纯空白须使用新方向 | 任何游戏文档；不得声称与现行基线兼容 |
@@ -45,13 +45,14 @@ FULL中的“全量”是**全量主系统文本材料**，不是仓库所有文
 
 ### GDD包固定文件清单
 
-GDD不是只读主页后就算全读，也不是递归打开所有链接。当前包共54份；已采纳规则、Qualified 框架、说明性示例与未开发占位分别读取，不因纳入阅读包提高状态：
+GDD不是只读主页后就算全读，也不是递归打开所有链接。当前包共56份；已采纳规则、Qualified 框架、说明性示例与未开发占位分别读取，不因纳入阅读包提高状态：
 
 | 范围 | 路径 |
 | --- | --- |
 | GDD、导航、版本 | `yanzhou/design/GDD.md`、`yanzhou/design/README.md`、`yanzhou/design/baseline.md` |
 | 五个已展开主系统（20份） | `yanzhou/design/systems/`下`artifact-system/`、`inscription-system/`、`action-card-system/`、`enemy-system/`、`resource-system/`各自的`rules.md`、`examples.md`（10份）；`yanzhou/system-design/`下同名五目录各自的`design.md`、`experience.md`（10份），仅此固定组合 |
-| 局外成长占位（1份） | `yanzhou/design/systems/meta-progression-system/README.md`，仅说明未设计与已有边界 |
+| 局外成长（1份） | `yanzhou/design/systems/meta-progression-system/rules.md`，TL-48已采纳范围及未决边界 |
+| 仪式与字相（2份） | `yanzhou/design/common/ritual-system/rules.md`、`yanzhou/design/systems/aspect-system/rules.md`；TL-47／49框架与具体内容迁移边界分别读取 |
 | 两个子系统（8份） | `yanzhou/design/systems/inscription-system/augment-system/`与`yanzhou/design/systems/action-card-system/mark-system/`各自的`rules.md`、`examples.md`（4份）；`yanzhou/system-design/augment-system/`与`yanzhou/system-design/mark-system/`各自的`design.md`、`experience.md`（4份）。辅助道具按CORE-069限定采纳；标记通用框架及未采纳扩展保持原资格 |
 | 背包规则（1份） | `yanzhou/design/systems/backpack-system/rules.md`，CORE-070共用网格与阶段装载；工作稿和未确认参数不在本项内 |
 | 公共流程／合同（12份） | `yanzhou/design/common/`下`run-route/`、`run-economy/`、`interaction-save/`各自的`rules.md`、`examples.md`（6份）；`yanzhou/system-design/`下同名三目录各自的`design.md`、`experience.md`（6份） |
@@ -59,7 +60,7 @@ GDD不是只读主页后就算全读，也不是递归打开所有链接。当�
 | 跨系统案例（4份） | `yanzhou/design/examples/README.md`、`yanzhou/design/examples/simple-spell.md`、`yanzhou/design/examples/complete-battle.md`、`yanzhou/design/examples/round-hand.md` |
 | 参数与验收 | `yanzhou/design/parameters.md`、`yanzhou/design/validation.md`；来源审查不属于规则正文包，追因时另行选入 |
 
-文件改名或GDD包新增正文时同步此表。CORE-071撤下原EX-004案例与其内容分册后，当前为54份；alchemy内容库仍按明确CUSTOM或FULL授权读取，不因清理自动加入GDD包。system-design与standards也不自动纳入。本包只固定列出的正文；其来源、历史、代码与方向链接均不授权递归扩读。只读核心记CORE，局部指定文件记CUSTOM，不报告完整GDD已读。
+文件改名或GDD包新增正文时同步此表。当前56份：原54份中的局外占位替换为规则，新增仪式与字相两份；alchemy内容库仍按明确CUSTOM或FULL授权读取，不因维护自动加入GDD包。system-design与standards也不自动纳入。本包只固定列出的正文；其来源、历史、代码与方向链接均不授权递归扩读。只读核心记CORE，局部指定文件记CUSTOM，不报告完整GDD已读。
 
 ## 先定范围，再读游戏正文
 

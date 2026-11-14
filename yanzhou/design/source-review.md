@@ -1,5 +1,7 @@
 # 当前设计来源索引
 
+2026-11-14当前：CORE-079／GDD4.2／aspect-framework.1。[生产M](../exploration/DIR-045-aspect-form-framework/M-2026-11-14-aspect-form-production.md)＋[知识／仪式M](../sources/materials/M-2026-11-14-aspect-knowledge-ritual.md)→[P](../sources/proposals/P-2026-11-14-aspect-framework-integration.md)→[目标复审E](../sources/evaluations/E-2026-11-14-aspect-framework-integration.md)→[采纳D](../sources/draft-changes/D-2026-11-14-aspect-framework-integration.md)。用户明确要求合并已确认框架；新TL-49与TL-47／48接口已落位，具体内容映射及未决参数未补造，玩法与实现NotRun。
+
 2026-11-09当前：CORE-078／GDD4.1。仪式合格来源[M](../sources/materials/M-2026-11-09-ritual-content-pack.md)→[评估](../sources/evaluations/E-2026-11-09-ritual-main-integration.md)→[采纳D](../sources/draft-changes/D-2026-11-09-ritual-main-integration.md)。用户明确要求并入主系统；沿用CORE-077时序及原首战，仅迁移仪式已确认范围和源意修正。以下旧版本状态保留历史适用域。
 
 2026-11-04：规则沿[CORE-075](../sources/draft-changes/D-2026-11-04-table-axis-spatial-artifacts.md)及[CORE-076](../sources/draft-changes/D-2026-11-04-column-scheduling.md)。[内容迁移D／评估](../sources/draft-changes/D-2026-11-04-first-battle-table-axis-migration.md)记录first-distillation.3及EX-005静态重算；主游戏与体验NotRun。下列早期来源只在未被替换范围有效。

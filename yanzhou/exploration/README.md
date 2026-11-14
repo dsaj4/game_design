@@ -10,7 +10,7 @@ Project ID：game-002-optimization。2026-10-23。当前活动方向见下表。
 
 | 方向 | 目标与状态 | 阅读范围 |
 | --- | --- | --- |
-| [DIR-045 字相与物相：配方、知识及仪式的统一约束](DIR-045-aspect-form-framework/README.md) | 配方约束与主字相／物相继承框架局部Qualified；知识分级、特殊词条及仪式迁移待设计，Hypothesis / NotRun，未回写主系统 | CORE＋四份细则（CUSTOM）；固定版本与确认摘要见方向页 |
+| [DIR-045 字相与物相：配方、知识及仪式的统一约束](DIR-045-aspect-form-framework/README.md) | 已确认生产、名字知识及召唤三要素框架由CORE-079采纳；具体内容／知识表／特殊词条／仪式迁移待设计，Hypothesis / NotRun | 原CORE＋四份细则（CUSTOM）固定保留；主系统集成范围另见采纳D |
 | [DIR-044 一桌一轴与空间法器约束](DIR-044-table-axis-spatial-artifacts/README.md) | 战中一桌一轴（排牌为唯一动词）与炉心／圈下限、法器组合、入料口、辅助覆盖圈；含空间下限纸面推算、配方D重标定提案及TA-Q01至Q12答复（Q01改为首战先配1枚小炉，余按推荐）；已于2026-11-04按用户明确授权采纳为CORE-075（GDD 3.8），玩法Hypothesis / NotRun | CUSTOM；固定d92851e；交接稿、GDD、七系统rules、内容库五份等，覆盖与未读见方向页 |
 | [DIR-043 背包管理式法器生产](DIR-043-backpack-production/README.md) | A已按CORE-068采纳；CORE-069新增核心可逆嵌入、独立辅助占格／单器连接、同效叠加与批次继承，替换辅槽；玩法Hypothesis / NotRun | 初轮CORE＋四款官方参照；合并轮CUSTOM及M／E／D范围见方向页 |
 | [DIR-042 纸本秘术工坊](DIR-042-herbal-engraving-style/README.md) | 用户暂定v03为本轮桌面战斗设计基准，独立符号板为卡牌重点参考；其余整场稿与旧美术方向退出活动区，玩法与交互状态保持 | CUSTOM；本轮局部视觉管理，既定背景版本及研究来源沿方向页，不回滚CORE-067 |

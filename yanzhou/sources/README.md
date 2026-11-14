@@ -1,5 +1,7 @@
 # 设计来源链
 
+2026-11-14当前：[CORE-079字相框架采纳D](draft-changes/D-2026-11-14-aspect-framework-integration.md)汇总两份合格M、P与E；已采纳生产／名字知识／召唤三要素，CONTENT-LIBRARY-11尚未映射，新增实现与体验NotRun。以下旧日期记录按原范围解释。
+
 2026-11-02：[CORE-074来源与采纳](draft-changes/D-2026-11-02-feeding-ranges.md)已闭合范围／链接／卡组解封及八器格形；旧来源按原日期解释。
 
 

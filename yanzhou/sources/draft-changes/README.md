@@ -1,5 +1,7 @@
 # 拟修改与采纳文本
 
+2026-11-14：[字相框架主系统集成D](D-2026-11-14-aspect-framework-integration.md)，CORE-079／GDD4.2，用户已授权采纳；内容映射、具体数值及特殊词条保持未决。
+
 2026-11-02：[供料范围、资源卡组与八法器格子 Accepted D](D-2026-11-02-feeding-ranges.md)，CORE-074／GDD3.7。
 
 

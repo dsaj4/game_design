@@ -1,5 +1,7 @@
 # 首战任务输入：炼金工坊
 
+2026-11-14适用域：CORE-079已采纳[字相框架](../../design/systems/aspect-system/rules.md)，本包first-distillation.4仍按原冻结内容合同使用，尚未完成字相映射。不得按物名自动赋相、修改卡效／配方或增加知识初态；本包原预期不证明新框架通过。
+
 2026-11-05 · Derived / round-plan.1 / first-distillation.4。用户已采纳本遭遇15血；[D](../../sources/draft-changes/D-2026-11-05-round-plan-alignment.md)记录来源、内容迁移及总控恢复记录。CORE-077规则、内容库／展示／治理已集成；本轮用户授权启动2D开发，按最终提交固定输入。
 
 唯一套组与物件字段取[catalog派生首战](../../content-library/first-battle.md)。使用CONTENT-LIBRARY-09／first-distillation.4及敌15血，不得回退旧路线。[EX-005](../../design/examples/first-battle-alchemy.md)给生产排程、两胜两败及恢复预期。
